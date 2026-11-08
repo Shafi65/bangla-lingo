@@ -1,6 +1,6 @@
 "use client";
 
-import { speak, useHasBengaliVoice } from "@/lib/speech";
+import { speak, useCanSpeak } from "@/lib/speech";
 
 const NO_VOICE = "No Bengali voice on this device";
 
@@ -15,7 +15,8 @@ export function SpeakButton({
   slow?: boolean;
   className?: string;
 }) {
-  const hasVoice = useHasBengaliVoice();
+  // Stays enabled while the device voice list is still loading, so a tap always tries.
+  const hasVoice = useCanSpeak(bn) !== "no";
   const dims =
     size === "lg" ? "h-20 w-20" : size === "sm" ? "h-8 w-8" : "h-11 w-11";
   const icon = size === "lg" ? 40 : size === "sm" ? 16 : 22;

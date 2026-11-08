@@ -1,0 +1,61 @@
+name: Generate audio
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "content/**"
+      - "!content/audio/**"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: generate-audio
+  cancel-in-progress: false
+
+jobs:
+  audio:
+    runs-on: ubuntu-latest
+    env:
+      AZURE_SPEECH_KEY: ${{ secrets.AZURE_SPEECH_KEY }}
+      AZURE_SPEECH_REGION: ${{ secrets.AZURE_SPEECH_REGION }}
+      AZURE_VOICE: ${{ vars.AZURE_VOICE }}
+    steps:
+      - name: Check secrets
+        id: check
+        run: |
+          if [ -z "$AZURE_SPEECH_KEY" ] || [ -z "$AZURE_SPEECH_REGION" ]; then
+            echo "::notice title=Audio skipped::AZURE_SPEECH_KEY / AZURE_SPEECH_REGION secrets are not set, so no audio was generated."
+            echo "enabled=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "enabled=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - uses: actions/checkout@v4
+        if: steps.check.outputs.enabled == 'true'
+        with:
+          ref: main
+
+      - uses: actions/setup-node@v4
+        if: steps.check.outputs.enabled == 'true'
+        with:
+          node-version: 22
+
+      - name: Generate audio
+        if: steps.check.outputs.enabled == 'true'
+        run: npm run gen:audio
+
+      - name: Commit new audio
+        if: steps.check.outputs.enabled == 'true'
+        run: |
+          git add -A web/public/audio content/audio/manifest.json
+          if git diff --cached --quiet; then
+            echo "No audio changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: generate audio [skip ci]"
+          git pull --rebase origin main
+          git push origin HEAD:main

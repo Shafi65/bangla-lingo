@@ -6,6 +6,7 @@
     "gen:lesson": "node content/scripts/gen-lesson.mjs",
     "status": "node content/scripts/status.mjs",
     "build": "npm --prefix web run build",
-    "dev": "npm --prefix web run dev"
+    "dev": "npm --prefix web run dev",
+    "gen:audio": "node content/scripts/gen-audio.mjs"
   }
 }

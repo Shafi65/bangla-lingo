@@ -6,10 +6,20 @@ import {
   progressStore,
   useProgress,
   type Settings,
+  type TtsSpeed,
 } from "@/lib/progress";
 import { playSfx } from "@/lib/sfx";
-import { speak, useHasBengaliVoice } from "@/lib/speech";
+import {
+  recordedClipCount,
+  speak,
+  useCanSpeak,
+  useDeviceVoice,
+} from "@/lib/speech";
 import { AppShell } from "./AppShell";
+
+// The language's own name, so no lesson text is hard-coded. Also listed in
+// content/scripts/gen-audio.mjs (APP_STRINGS) so it gets a recorded clip.
+const VOICE_SAMPLE = "বাংলা";
 
 function update(patch: Partial<Settings>) {
   progressStore.updateSettings(patch);
@@ -18,7 +28,6 @@ function update(patch: Partial<Settings>) {
 export function SettingsPanel() {
   const p = useProgress();
   const s = p.settings;
-  const hasVoice = useHasBengaliVoice();
 
   return (
     <AppShell>
@@ -65,33 +74,136 @@ export function SettingsPanel() {
               if (sound) playSfx("correct");
             }}
           />
-          <div className="mt-5">
-            <p className="mb-2 font-extrabold">Bengali voice speed</p>
-            <Segmented
-              label="Bengali voice speed"
-              value={s.ttsSpeed}
-              options={[
-                { value: "slow", label: "Slow" },
-                { value: "normal", label: "Normal" },
-                { value: "fast", label: "Fast" },
-              ]}
-              onChange={(ttsSpeed) => {
-                update({ ttsSpeed });
-                // Sample uses the language's own name, so no lesson text is hard-coded.
-                speak("বাংলা");
-              }}
-            />
-            <p className="mt-2 text-sm font-semibold text-muted">
-              {hasVoice
-                ? "Changing the speed plays a short sample."
-                : "This device has no Bengali voice, so audio is unavailable. Listening exercises show the transliteration instead."}
-            </p>
-          </div>
         </Section>
+
+        <AudioSection
+          speed={s.ttsSpeed}
+          onSpeed={(ttsSpeed) => {
+            update({ ttsSpeed });
+            speak(VOICE_SAMPLE);
+          }}
+        />
 
         <ResetSection hasProgress={p.xp > 0 || Object.keys(p.completed).length > 0} />
       </div>
     </AppShell>
+  );
+}
+
+const VOICE_HELP: { platform: string; steps: string }[] = [
+  {
+    platform: "Mac",
+    steps:
+      "System Settings → Accessibility → Spoken Content → System voice → Manage Voices… → find Bangla and download a voice. Then restart your browser.",
+  },
+  {
+    platform: "iPhone / iPad",
+    steps: "Settings → Accessibility → Spoken Content → Voices → Bangla → download a voice.",
+  },
+  {
+    platform: "Android",
+    steps:
+      "Settings → search “Text-to-speech” → Speech Services by Google → settings → Install voice data → Bengali (Bangladesh).",
+  },
+  {
+    platform: "Windows",
+    steps:
+      "Windows doesn’t generally offer a Bengali voice, so audio there needs the app’s recorded clips.",
+  },
+];
+
+function AudioSection({
+  speed,
+  onSpeed,
+}: {
+  speed: TtsSpeed;
+  onSpeed: (v: TtsSpeed) => void;
+}) {
+  const voice = useDeviceVoice();
+  const can = useCanSpeak(VOICE_SAMPLE);
+  const [tested, setTested] = useState<null | "played" | "none">(null);
+
+  return (
+    <Section id="audio" title="Audio" hint="How Bengali words are spoken in lessons.">
+      <ul className="flex flex-col gap-2 text-sm font-semibold" aria-label="Audio status">
+        <StatusRow ok={recordedClipCount > 0} label="Recorded audio">
+          {recordedClipCount > 0
+            ? `${recordedClipCount} clips available`
+            : "Not available yet (coming soon)"}
+        </StatusRow>
+        <StatusRow ok={!!voice} label="Device voice">
+          {voice
+            ? `${voice.name} (${voice.lang})`
+            : can === "pending"
+              ? "Checking…"
+              : "No Bengali voice detected"}
+        </StatusRow>
+      </ul>
+
+      <div className="mt-4 flex flex-wrap items-center gap-3">
+        <button
+          type="button"
+          className="btn btn-ghost"
+          disabled={can === "no"}
+          onClick={() => setTested(speak(VOICE_SAMPLE) ? "played" : "none")}
+        >
+          Test voice
+        </button>
+        <span role="status" className="text-sm font-semibold text-muted">
+          {tested === "played"
+            ? "Playing “বাংলা” (bangla). Didn’t hear it? Check your volume."
+            : tested === "none" || can === "no"
+              ? "No Bengali audio on this device yet. Listening exercises show the transliteration instead."
+              : ""}
+        </span>
+      </div>
+
+      <div className="mt-5">
+        <p className="mb-2 font-extrabold">Bengali voice speed</p>
+        <Segmented
+          label="Bengali voice speed"
+          value={speed}
+          options={[
+            { value: "slow", label: "Slow" },
+            { value: "normal", label: "Normal" },
+            { value: "fast", label: "Fast" },
+          ]}
+          onChange={onSpeed}
+        />
+        <p className="mt-2 text-sm font-semibold text-muted">Changing the speed plays a short sample.</p>
+      </div>
+
+      <details className="mt-5 rounded-2xl bg-paper p-4" open={can === "no" || undefined}>
+        <summary className="cursor-pointer font-extrabold">Install a Bengali voice on your device</summary>
+        <p className="mt-2 text-sm font-semibold text-muted">
+          Recorded audio for every word is coming. Until then, a voice installed on your device can
+          speak Bengali in the app.
+        </p>
+        <dl className="mt-3 flex flex-col gap-3 text-sm">
+          {VOICE_HELP.map((h) => (
+            <div key={h.platform}>
+              <dt className="font-extrabold">{h.platform}</dt>
+              <dd className="font-semibold text-muted">{h.steps}</dd>
+            </div>
+          ))}
+        </dl>
+      </details>
+    </Section>
+  );
+}
+
+function StatusRow({ ok, label, children }: { ok: boolean; label: string; children: ReactNode }) {
+  return (
+    <li className="flex items-start gap-2">
+      <span
+        aria-hidden
+        className={`mt-1 inline-block h-3 w-3 shrink-0 rounded-full ${ok ? "bg-brand" : "bg-gray-300"}`}
+      />
+      <span>
+        <span className="font-extrabold text-ink">{label}:</span> {children}
+        <span className="sr-only">{ok ? " (on)" : " (off)"}</span>
+      </span>
+    </li>
   );
 }
 

@@ -1,8 +1,9 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import Link from "next/link";
+import { useEffect, useRef, useState } from "react";
 import { SpeakButton } from "@/components/SpeakButton";
-import { speak, useHasBengaliVoice } from "@/lib/speech";
+import { speak, useCanSpeak } from "@/lib/speech";
 import type { ListenSelectExercise } from "@/lib/types";
 import { Choices } from "./Choices";
 import type { ExerciseProps } from "./types";
@@ -12,13 +13,18 @@ export function ListenSelect({
   locked,
   onChange,
 }: ExerciseProps<ListenSelectExercise>) {
-  const hasVoice = useHasBengaliVoice();
+  const can = useCanSpeak(ex.audio.bn);
   const [reveal, setReveal] = useState(false);
+  const played = useRef<string | null>(null);
 
-  // Auto-play once when a voice becomes available.
+  // Auto-play once per exercise, as soon as audio is known to be available.
+  // If the browser blocks it, the play button still works on tap.
   useEffect(() => {
-    if (hasVoice) speak(ex.audio.bn);
-  }, [hasVoice, ex.audio.bn]);
+    if (can === "yes" && played.current !== ex.id) {
+      played.current = ex.id;
+      speak(ex.audio.bn);
+    }
+  }, [can, ex.id, ex.audio.bn]);
 
   return (
     <div className="flex flex-col gap-6">
@@ -27,9 +33,9 @@ export function ListenSelect({
         <SpeakButton bn={ex.audio.bn} size="lg" />
         <SpeakButton bn={ex.audio.bn} slow />
       </div>
-      {!hasVoice && (
+      {can === "no" && (
         <div className="rounded-2xl bg-paper p-3 text-center text-sm font-semibold text-muted">
-          No Bengali voice on this device.{" "}
+          No Bengali audio on this device.{" "}
           {reveal ? (
             <span>
               Pick the word pronounced{" "}
@@ -44,6 +50,16 @@ export function ListenSelect({
               Show transliteration instead
             </button>
           )}
+          <span className="mt-1 block">
+            <Link
+              href="/settings#audio"
+              target="_blank"
+              rel="noopener"
+              className="font-bold underline"
+            >
+              How to enable Bengali audio
+            </Link>
+          </span>
         </div>
       )}
       <Choices
