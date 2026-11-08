@@ -3,7 +3,7 @@
   "unit": "u09-past",
   "title": "Went, came, ate",
   "status": "draft",
-  "tip": "A handful of everyday verbs have irregular pasts. Learn them as words:\n\n- যাওয়া 'go' → **গেলাম** 'I went', **গেল** 'he/she went'\n- আসা 'come' → **এলাম** 'I came' (Bangladesh also: **আসলাম**)\n- খাওয়া 'eat / drink' → **খেলাম** 'I ate'\n- দেওয়া 'give' → **দিলাম** 'I gave'\n- নেওয়া 'take' → **নিলাম** 'I took'\n\nThe endings are still regular: -লাম, -লে, -ল… only the stem changes.\n\n**এলাম vs আসলাম:** both are heard across Bangladesh. **এলাম** is the standard (and Kolkata) form; **আসলাম** is very common in relaxed Bangladeshi speech. Understand both, use either.",
+  "tip": "A handful of everyday verbs have irregular pasts. Learn them as words:\n\n- যাওয়া 'go' → **গেলাম** 'I went', **গেল** 'he/she went'\n- আসা 'come' → **এলাম** 'I came', **এলে** 'you came' (Bangladesh also: **আসলাম**)\n- খাওয়া 'eat / drink' → **খেলাম** 'I ate'\n- দেওয়া 'give' → **দিলাম** 'I gave'\n- নেওয়া 'take' → **নিলাম** 'I took'\n\nThe endings are still the regular -লাম, -লে, -ল. Only the stem changes. Watch the pairs that look alike: **দিলাম** 'I gave' vs **নিলাম** 'I took', and present **যাই** 'I go' vs past **গেলাম** 'I went'.\n\n**এলাম vs আসলাম:** both are heard across Bangladesh. **এলাম** is the standard (and Kolkata) form; **আসলাম** is very common in relaxed Bangladeshi speech. Understand both and use either. This course accepts both.\n\n**গেল** is also written **গেলো**.",
   "vocab": [
     {
       "id": "gelam",
@@ -69,29 +69,28 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "you do (familiar)",
-        "I did",
-        "lives (polite)",
-        "I went"
+        "I go",
+        "I went",
+        "I will go",
+        "he / she went"
       ],
-      "answer": 3
+      "answer": 1
     },
     {
       "id": "e02",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "গেল",
         "tr": "gelo",
         "en": "went"
       },
-      "direction": "bn_to_en",
       "options": [
-        "went",
-        "I am doing",
-        "I saw",
-        "you read (polite)"
+        "গেলাম",
+        "যাই",
+        "গেল",
+        "যায়"
       ],
-      "answer": 0
+      "answer": 2
     },
     {
       "id": "e03",
@@ -103,32 +102,15 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "are (polite)",
-        "you will buy (polite)",
-        "strikes (the hour)",
+        "I come",
+        "I went",
+        "you came (familiar)",
         "I came"
       ],
       "answer": 3
     },
     {
       "id": "e04",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "এলে",
-        "tr": "ele",
-        "en": "you came (familiar)"
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "I do",
-        "you speak (polite)",
-        "you came (familiar)",
-        "am"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "e05",
       "type": "select_translation",
       "prompt": {
         "bn": "আসলাম",
@@ -138,11 +120,28 @@
       "direction": "bn_to_en",
       "options": [
         "I came",
-        "will you go (polite)",
-        "to speak",
-        "I gave"
+        "I gave",
+        "I come",
+        "actually"
       ],
       "answer": 0
+    },
+    {
+      "id": "e05",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "এলে",
+        "tr": "ele",
+        "en": "you came (familiar)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "you go (familiar)",
+        "you came (familiar)",
+        "I came",
+        "you did (familiar)"
+      ],
+      "answer": 1
     },
     {
       "id": "e06",
@@ -154,48 +153,59 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "to eat",
-        "you do (intimate)",
-        "I write",
+        "I eat",
+        "I took",
+        "I am eating",
         "I ate"
       ],
       "answer": 3
     },
     {
       "id": "e07",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "দিলাম",
         "tr": "dilam",
         "en": "I gave"
       },
-      "direction": "bn_to_en",
       "options": [
-        "I gave",
-        "I get up",
-        "is not",
-        "I watch"
+        "দিলাম",
+        "নিলাম",
+        "দাও",
+        "দিন"
       ],
       "answer": 0
     },
     {
       "id": "e08",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "নিলাম",
+        "tr": "nilam",
+        "en": "I took"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "I gave",
+        "I came",
+        "I took",
+        "I ate"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e09",
       "type": "match_pairs",
       "pairs": [
-        {
-          "bn": "এলে",
-          "tr": "ele",
-          "en": "you came (familiar)"
-        },
         {
           "bn": "গেলাম",
           "tr": "gelam",
           "en": "I went"
         },
         {
-          "bn": "নিলাম",
-          "tr": "nilam",
-          "en": "I took"
+          "bn": "যাই",
+          "tr": "jai",
+          "en": "I go"
         },
         {
           "bn": "খেলাম",
@@ -203,35 +213,15 @@
           "en": "I ate"
         },
         {
-          "bn": "এলাম",
-          "tr": "elam",
-          "en": "I came"
+          "bn": "দিলাম",
+          "tr": "dilam",
+          "en": "I gave"
+        },
+        {
+          "bn": "নিলাম",
+          "tr": "nilam",
+          "en": "I took"
         }
-      ]
-    },
-    {
-      "id": "e09",
-      "type": "word_bank",
-      "prompt": {
-        "bn": "তুমি কখন এলে?",
-        "tr": "tumi kokhon ele?",
-        "en": "When did you come?"
-      },
-      "direction": "bn_to_en",
-      "tiles": [
-        "When",
-        "two",
-        "you",
-        "our",
-        "thousand",
-        "did",
-        "come"
-      ],
-      "answer": [
-        "When",
-        "did",
-        "you",
-        "come"
       ]
     },
     {
@@ -244,14 +234,13 @@
       },
       "direction": "en_to_bn",
       "tiles": [
-        "করলেন",
-        "একশ",
+        "নিলাম",
         "তাকে",
+        "টাকা",
         "আমি",
-        "বাড়ি",
-        "হোটেল",
-        "দিলাম",
-        "টাকা"
+        "তার",
+        "একশ",
+        "দিলাম"
       ],
       "answer": [
         "আমি",
@@ -259,52 +248,51 @@
         "একশ",
         "টাকা",
         "দিলাম"
+      ],
+      "alt": [
+        [
+          "তাকে",
+          "একশ",
+          "টাকা",
+          "দিলাম"
+        ]
       ]
     },
     {
       "id": "e11",
       "type": "word_bank",
       "prompt": {
-        "bn": "আমি গতকাল বাজারে গেলাম।",
-        "tr": "ami gotokal bajare gelam.",
-        "en": "I went to the market yesterday."
+        "bn": "তুমি কখন এলে?",
+        "tr": "tumi kokhon ele?",
+        "en": "When did you come?"
       },
       "direction": "bn_to_en",
       "tiles": [
-        "dozen",
-        "market",
-        "all",
-        "I",
-        "to",
-        "upstairs",
-        "went",
-        "the",
-        "yesterday"
+        "go",
+        "When",
+        "you",
+        "Where",
+        "arrive",
+        "did",
+        "come"
       ],
       "answer": [
-        "I",
-        "went",
-        "to",
-        "the",
-        "market",
-        "yesterday"
+        "When",
+        "did",
+        "you",
+        "come"
+      ],
+      "alt": [
+        [
+          "When",
+          "did",
+          "you",
+          "arrive"
+        ]
       ]
     },
     {
       "id": "e12",
-      "type": "type_translation",
-      "prompt": {
-        "bn": "আমি রাতে বাসায় এলাম।",
-        "tr": "ami rate bashay elam.",
-        "en": "I came home at night."
-      },
-      "direction": "bn_to_en",
-      "accepted": [
-        "I came home at night."
-      ]
-    },
-    {
-      "id": "e13",
       "type": "word_bank",
       "prompt": {
         "bn": "আমি সকালে অফিসে আসলাম।",
@@ -313,23 +301,54 @@
       },
       "direction": "en_to_bn",
       "tiles": [
-        "খাই",
-        "পিছনে",
+        "আসি",
         "সকালে",
+        "গেলাম",
         "আমি",
-        "সাধারণত",
+        "অফিসে",
         "আসলাম",
-        "অফিসে"
+        "এলাম",
+        "রাতে"
       ],
       "answer": [
         "আমি",
         "সকালে",
         "অফিসে",
         "আসলাম"
+      ],
+      "alt": [
+        [
+          "আমি",
+          "সকালে",
+          "অফিসে",
+          "এলাম"
+        ],
+        [
+          "সকালে",
+          "আমি",
+          "অফিসে",
+          "আসলাম"
+        ],
+        [
+          "সকালে",
+          "আমি",
+          "অফিসে",
+          "এলাম"
+        ],
+        [
+          "সকালে",
+          "অফিসে",
+          "আসলাম"
+        ],
+        [
+          "সকালে",
+          "অফিসে",
+          "এলাম"
+        ]
       ]
     },
     {
-      "id": "e14",
+      "id": "e13",
       "type": "select_translation",
       "prompt": {
         "bn": "সে কোথায় গেল?",
@@ -338,12 +357,67 @@
       },
       "direction": "en_to_bn",
       "options": [
-        "হোটেল বামে।",
-        "সে কোথায় গেল?",
-        "শেষ দাম একশ টাকা।",
-        "না, ধন্যবাদ।"
+        "সে কোথায় যায়?",
+        "আমি কোথায় গেলাম?",
+        "সে কোথায় যাবে?",
+        "সে কোথায় গেল?"
       ],
-      "answer": 1
+      "answer": 3
+    },
+    {
+      "id": "e14",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আমি ভাত আর মাছ খেলাম।",
+        "tr": "ami bhat ar machh khelam.",
+        "en": "I ate rice and fish."
+      },
+      "direction": "bn_to_en",
+      "accepted": [
+        "I ate rice and fish.",
+        "I had rice and fish.",
+        "I ate fish and rice.",
+        "I had fish and rice.",
+        "I ate rice and a fish.",
+        "I ate rice with fish.",
+        "I had rice with fish."
+      ]
+    },
+    {
+      "id": "e15",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আমি রাতে বাসায় এলাম।",
+        "tr": "ami rate bashay elam.",
+        "en": "I came home at night."
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "আমি রাতে বাসায় এলাম।",
+        "আমি রাতে বাসায় আসলাম।",
+        "রাতে আমি বাসায় এলাম।",
+        "রাতে আমি বাসায় আসলাম।",
+        "রাতে বাসায় এলাম।",
+        "রাতে বাসায় আসলাম।",
+        "আমি রাতে বাড়ি এলাম।",
+        "আমি রাতে বাড়ি আসলাম।",
+        "রাতে আমি বাড়ি এলাম।",
+        "আমি রাতে বাসায় এসেছি।",
+        "ami rate bari elam",
+        "ami rate bari ashlam",
+        "ami rate bashay elam",
+        "ami rate basay elam",
+        "ami rate bashay ashlam",
+        "ami rate basay aslam",
+        "ami rate bashay aslam",
+        "ami rate basay ashlam",
+        "rate ami bashay elam",
+        "rate ami basay elam",
+        "rate ami bashay ashlam",
+        "rate ami basay aslam",
+        "ami raate bashay elam",
+        "ami rate bashai elam"
+      ]
     }
   ]
 }

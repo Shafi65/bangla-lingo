@@ -3,7 +3,7 @@
   "unit": "u09-past",
   "title": "Have you eaten?",
   "status": "draft",
-  "tip": "The **present perfect** ('have done') adds **-এছ-** + the person ending: করা → **করেছি** 'I have done', খাওয়া → **খেয়েছি** 'I have eaten', আসা → **এসেছে** 'has come'.\n\nIt's used much more than in English — for anything just finished or still relevant now. **মাত্র** (*matro*) 'just' fits naturally: **আমি মাত্র খেয়েছি** 'I've just eaten'.\n\n**Culture:** **খেয়েছেন?** / **ভাত খেয়েছো?** ('Have you eaten (rice)?') is a warm everyday greeting in Bangladesh, especially from elders. It shows care more than curiosity — answer **জি, খেয়েছি** and ask back.\n\n**কী হয়েছে?** 'What happened? / What's wrong?' is one of the most useful perfect-tense chunks.",
+  "tip": "The **present perfect** ('have done') adds **-এছ-** + the person ending:\n\n- করা → **করেছি** 'I have done'\n- খাওয়া → **খেয়েছি** 'I have eaten', **খেয়েছো** 'you have eaten', **খেয়েছেন** 'you have eaten (polite)'\n- যাওয়া → **গিয়েছে** 'has gone'\n- আসা → **এসেছে** 'has come' (you met **এসেছি** in *আমি আমেরিকা থেকে এসেছি*)\n\nBengali uses the perfect much more than English, for anything just finished or still relevant now. **মাত্র** (*matro*) 'just' fits naturally: **আমি মাত্র খেয়েছি** 'I've just eaten'.\n\nDon't confuse three look-alikes: **করছি** 'I am doing', **করেছি** 'I have done', **করলাম** 'I did'.\n\nIn everyday speech the perfect of যাওয়া is often shortened: **গিয়েছে → গেছে** (*gechhe*). You'll hear both.\n\n**Culture:** **খেয়েছেন?** / **ভাত খেয়েছো?** ('Have you eaten (rice)?') is a warm everyday greeting in Bangladesh, especially from elders. It shows care more than curiosity. Answer **জি, খেয়েছি** and ask back.\n\n**কী হয়েছে?** 'What happened? / What's wrong?' is one of the most useful perfect-tense chunks.",
   "vocab": [
     {
       "id": "kheyechhen",
@@ -67,10 +67,10 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "I slept",
+        "have you eaten (familiar)",
         "have you eaten (polite)",
-        "you do (polite)",
-        "lives (polite)"
+        "I have eaten",
+        "you eat (polite)"
       ],
       "answer": 1
     },
@@ -84,29 +84,28 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "I read",
         "have you eaten (familiar)",
-        "I have done",
-        "(you/he/she, polite) eat"
+        "have you eaten (polite)",
+        "you eat (familiar)",
+        "I have eaten"
       ],
-      "answer": 1
+      "answer": 0
     },
     {
       "id": "e03",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "খেয়েছি",
         "tr": "kheyechhi",
         "en": "I have eaten"
       },
-      "direction": "bn_to_en",
       "options": [
-        "I have eaten",
-        "I come",
-        "I came",
-        "I bought"
+        "খেয়েছো",
+        "খেলাম",
+        "খেয়েছি",
+        "খাচ্ছি"
       ],
-      "answer": 0
+      "answer": 2
     },
     {
       "id": "e04",
@@ -118,12 +117,12 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "you are doing (familiar)",
-        "I have done",
-        "you do (intimate)",
-        "you did (familiar)"
+        "I am doing",
+        "you do (familiar)",
+        "you did (familiar)",
+        "I have done"
       ],
-      "answer": 1
+      "answer": 3
     },
     {
       "id": "e05",
@@ -135,12 +134,12 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "there",
-        "where (before থেকে)",
-        "at night",
-        "just"
+        "yesterday",
+        "just",
+        "then",
+        "always"
       ],
-      "answer": 3
+      "answer": 1
     },
     {
       "id": "e06",
@@ -152,15 +151,31 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "is not (here); there isn't",
-        "I watch",
+        "has come",
+        "I am going",
         "has gone",
-        "I read"
+        "will go"
       ],
       "answer": 2
     },
     {
       "id": "e07",
+      "type": "listen_select",
+      "audio": {
+        "bn": "এসেছে",
+        "tr": "eshechhe",
+        "en": "has come"
+      },
+      "options": [
+        "এসেছে",
+        "এসেছি",
+        "এসেছেন",
+        "আসে"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e08",
       "type": "select_translation",
       "prompt": {
         "bn": "কী হয়েছে",
@@ -169,15 +184,15 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "praise be to God",
-        "hello (peace be upon you)",
-        "what happened",
-        "hello (Hindu greeting)"
+        "who is this",
+        "what time is it",
+        "where is it",
+        "what happened"
       ],
-      "answer": 2
+      "answer": 3
     },
     {
-      "id": "e08",
+      "id": "e09",
       "type": "match_pairs",
       "pairs": [
         {
@@ -201,14 +216,41 @@
           "en": "I have done"
         },
         {
-          "bn": "এসেছে",
-          "tr": "eshechhe",
-          "en": "has come"
+          "bn": "কী হয়েছে",
+          "tr": "ki hoyechhe",
+          "en": "what happened"
         }
       ]
     },
     {
-      "id": "e09",
+      "id": "e10",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আপনি খেয়েছেন?",
+        "tr": "apni kheyechhen?",
+        "en": "Have you eaten? (polite)"
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "খেয়েছি",
+        "তুমি",
+        "খান",
+        "আপনি",
+        "খেয়েছো",
+        "খেয়েছেন"
+      ],
+      "answer": [
+        "আপনি",
+        "খেয়েছেন"
+      ],
+      "alt": [
+        [
+          "খেয়েছেন"
+        ]
+      ]
+    },
+    {
+      "id": "e11",
       "type": "word_bank",
       "prompt": {
         "bn": "জি, আমি খেয়েছি।",
@@ -217,13 +259,13 @@
       },
       "direction": "bn_to_en",
       "tiles": [
-        "listens",
-        "I",
-        "eaten",
+        "you",
+        "Yes",
         "have",
-        "eight",
-        "father",
-        "Yes"
+        "No",
+        "eaten",
+        "I",
+        "eat"
       ],
       "answer": [
         "Yes",
@@ -233,101 +275,97 @@
       ]
     },
     {
-      "id": "e10",
+      "id": "e12",
       "type": "word_bank",
       "prompt": {
-        "bn": "আমি কাজ করেছি।",
-        "tr": "ami kaj korechhi.",
-        "en": "I have done the work."
+        "bn": "আমি মাত্র খেয়েছি।",
+        "tr": "ami matro kheyechhi.",
+        "en": "I have just eaten."
       },
       "direction": "en_to_bn",
       "tiles": [
-        "এসেছেন",
-        "করেছি",
+        "শুধু",
+        "খেয়েছেন",
         "আমি",
-        "কাজ",
-        "আঠারো",
-        "ওঠেন"
+        "খাই",
+        "খেয়েছি",
+        "মাত্র"
       ],
       "answer": [
         "আমি",
-        "কাজ",
-        "করেছি"
-      ]
-    },
-    {
-      "id": "e11",
-      "type": "word_bank",
-      "prompt": {
-        "bn": "কী হয়েছে?",
-        "tr": "ki hoyechhe?",
-        "en": "What happened?"
-      },
-      "direction": "bn_to_en",
-      "tiles": [
-        "straight",
-        "What",
-        "happened",
-        "always",
-        "need"
+        "মাত্র",
+        "খেয়েছি"
       ],
-      "answer": [
-        "What",
-        "happened"
-      ]
-    },
-    {
-      "id": "e12",
-      "type": "type_translation",
-      "prompt": {
-        "bn": "রাফি এসেছে।",
-        "tr": "rafi eshechhe.",
-        "en": "Rafi has come."
-      },
-      "direction": "bn_to_en",
-      "accepted": [
-        "Rafi has come.",
-        "Rafi is here.",
-        "Rafi has arrived."
+      "alt": [
+        [
+          "মাত্র",
+          "খেয়েছি"
+        ]
       ]
     },
     {
       "id": "e13",
-      "type": "word_bank",
+      "type": "type_translation",
       "prompt": {
-        "bn": "ভাত খেয়েছো?",
-        "tr": "bhat kheyechho?",
-        "en": "Have you eaten?"
+        "bn": "সে মাত্র অফিসে গিয়েছে।",
+        "tr": "she matro ofise giyechhe.",
+        "en": "He has just gone to the office."
       },
-      "direction": "en_to_bn",
-      "tiles": [
-        "ডাল",
-        "ভাত",
-        "ওই",
-        "খেয়েছো",
-        "মোড়ে"
-      ],
-      "answer": [
-        "ভাত",
-        "খেয়েছো"
+      "direction": "bn_to_en",
+      "accepted": [
+        "He has just gone to the office.",
+        "She has just gone to the office.",
+        "He's just gone to the office.",
+        "She's just gone to the office.",
+        "He has just left for the office.",
+        "She has just left for the office.",
+        "He just went to the office.",
+        "She just went to the office.",
+        "He has just gone to work.",
+        "She has just gone to work.",
+        "He just left for the office.",
+        "She just left for the office.",
+        "He just went to work.",
+        "She just went to work."
       ]
     },
     {
       "id": "e14",
       "type": "select_translation",
       "prompt": {
-        "bn": "সে মাত্র অফিসে গিয়েছে।",
-        "tr": "she matro ofise giyechhe.",
-        "en": "He has just gone to the office."
+        "bn": "রাফি এসেছে।",
+        "tr": "rafi eshechhe.",
+        "en": "Rafi has come."
       },
       "direction": "en_to_bn",
       "options": [
-        "সে মাত্র অফিসে গিয়েছে।",
-        "এখন রাত দশটা।",
-        "উত্তর কী?",
-        "বাস কোথায়?"
+        "রাফি গিয়েছে।",
+        "রাফি আসে।",
+        "রাফি এসেছে।",
+        "আমি এসেছি।"
       ],
-      "answer": 0
+      "answer": 2
+    },
+    {
+      "id": "e15",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আমি কাজ করেছি।",
+        "tr": "ami kaj korechhi.",
+        "en": "I have done the work."
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "আমি কাজ করেছি।",
+        "কাজ করেছি।",
+        "ami kaj korechhi",
+        "ami kaj korechi",
+        "ami kaj korecchi",
+        "kaj korechhi",
+        "kaj korechi",
+        "ami kaaj korechhi",
+        "ami kaaj korechi"
+      ]
     }
   ]
 }

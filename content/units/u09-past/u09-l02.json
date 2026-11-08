@@ -3,7 +3,7 @@
   "unit": "u09-past",
   "title": "You / they did",
   "status": "draft",
-  "tip": "Past endings follow the same three-level pattern you know from the present — just add **-ল-**:\n\n| | present | past |\n|---|---|---|\n| আমি | করি | **করলাম** |\n| তুই | করিস | **করলি** |\n| তুমি | করো | **করলে** |\n| আপনি / তিনি | করেন | **করলেন** |\n| সে / তারা | করে | **করল** (*korlo*) |\n\nOnce again polite 'you' and polite 'he/she' share **-েন**: **আপনি কী করলেন?** / **তিনি রান্না করলেন।**\n\n**তুমি গতকাল কী করলে?** 'What did you do yesterday?' is a natural Monday-morning question among friends.",
+  "tip": "Past endings follow the same three levels of 'you' as the present. Just slot **-ল-** in before the ending:\n\n- আমি / আমরা: করি → **করলাম** (*korlam*)\n- তুই: করিস → **করলি** (*korli*)\n- তুমি: করো → **করলে** (*korle*)\n- আপনি / তিনি: করেন → **করলেন** (*korlen*)\n- সে / তারা: করে → **করল** (*korlo*)\n\nAs in the present, polite 'you' and polite 'he/she' share **-েন**: **আপনি কী করলেন?** 'What did you do?' / **তিনি রান্না করলেন।** 'She cooked.'\n\nThe same pattern works for every regular verb: **কিনলাম · কিনলেন · কিনল** 'I / you (polite) / he bought'.\n\n**করল** is also written **করলো**, and কিনল as **কিনলো**. Both spellings are fine when you type.\n\n**তুমি গতকাল কী করলে?** 'What did you do yesterday?' is a natural Monday-morning question between friends.",
   "vocab": [
     {
       "id": "korli",
@@ -56,12 +56,12 @@
       },
       "direction": "bn_to_en",
       "options": [
+        "you do (intimate)",
         "you did (intimate)",
-        "I watch",
-        "need",
-        "will go"
+        "you did (familiar)",
+        "I did"
       ],
-      "answer": 0
+      "answer": 1
     },
     {
       "id": "e02",
@@ -73,15 +73,31 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "(you, polite) have come",
-        "you did (familiar)",
-        "to eat",
-        "I live"
+        "you did (polite)",
+        "you do (familiar)",
+        "I did",
+        "you did (familiar)"
       ],
-      "answer": 1
+      "answer": 3
     },
     {
       "id": "e03",
+      "type": "listen_select",
+      "audio": {
+        "bn": "করলেন",
+        "tr": "korlen",
+        "en": "you did (polite)"
+      },
+      "options": [
+        "করলে",
+        "করেন",
+        "করলেন",
+        "করল"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e04",
       "type": "select_translation",
       "prompt": {
         "bn": "করলেন",
@@ -90,32 +106,32 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "(I/we) want",
         "you did (polite)",
-        "strikes (the hour)",
-        "(I/we) eat"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "e04",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "করল",
-        "tr": "korlo",
-        "en": "did"
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "did",
-        "(you, familiar) want",
-        "is not / are not (polite)",
-        "to eat"
+        "you do (polite)",
+        "you did (intimate)",
+        "I did"
       ],
       "answer": 0
     },
     {
       "id": "e05",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "করল",
+        "tr": "korlo",
+        "en": "he / she did"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "I did",
+        "you did (familiar)",
+        "he / she did",
+        "you did (polite)"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e06",
       "type": "select_translation",
       "prompt": {
         "bn": "কিনলেন",
@@ -124,64 +140,42 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "you did (polite)",
+        "you will buy (polite)",
+        "I bought",
         "you bought (polite)",
-        "listens",
-        "you speak (polite)"
+        "you did (polite)"
       ],
-      "answer": 1
-    },
-    {
-      "id": "e06",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "কিনল",
-        "tr": "kinlo",
-        "en": "bought"
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "you do (intimate)",
-        "(he/she) can",
-        "give (polite, standard)",
-        "bought"
-      ],
-      "answer": 3
+      "answer": 2
     },
     {
       "id": "e07",
       "type": "listen_select",
       "audio": {
-        "bn": "করলি",
-        "tr": "korli",
-        "en": "you did (intimate)"
+        "bn": "কিনল",
+        "tr": "kinlo",
+        "en": "bought"
       },
       "options": [
-        "যাব",
-        "আছো",
-        "করলি",
-        "পড়ি"
+        "কিনলাম",
+        "কিনল",
+        "কিনব",
+        "কিনলেন"
       ],
-      "answer": 2
+      "answer": 1
     },
     {
       "id": "e08",
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "কিনলেন",
-          "tr": "kinlen",
-          "en": "you bought (polite)"
-        },
-        {
-          "bn": "কিনল",
-          "tr": "kinlo",
-          "en": "bought"
-        },
-        {
           "bn": "করলি",
           "tr": "korli",
           "en": "you did (intimate)"
+        },
+        {
+          "bn": "করলে",
+          "tr": "korle",
+          "en": "you did (familiar)"
         },
         {
           "bn": "করলেন",
@@ -189,9 +183,14 @@
           "en": "you did (polite)"
         },
         {
-          "bn": "করলে",
-          "tr": "korle",
-          "en": "you did (familiar)"
+          "bn": "করলাম",
+          "tr": "korlam",
+          "en": "I did"
+        },
+        {
+          "bn": "কিনল",
+          "tr": "kinlo",
+          "en": "he / she bought"
         }
       ]
     },
@@ -199,25 +198,29 @@
       "id": "e09",
       "type": "word_bank",
       "prompt": {
-        "bn": "আপনি কী কিনলেন?",
-        "tr": "apni ki kinlen?",
-        "en": "What did you buy?"
+        "bn": "আপনি কী করলেন?",
+        "tr": "apni ki korlen?",
+        "en": "What did you do? (polite)"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "tiles": [
-        "What",
-        "onion",
-        "did",
-        "buy",
-        "that",
-        "tomato",
-        "you"
+        "করলে",
+        "আপনি",
+        "করেন",
+        "কী",
+        "তুমি",
+        "করলেন"
       ],
       "answer": [
-        "What",
-        "did",
-        "you",
-        "buy"
+        "আপনি",
+        "কী",
+        "করলেন"
+      ],
+      "alt": [
+        [
+          "কী",
+          "করলেন"
+        ]
       ]
     },
     {
@@ -230,12 +233,12 @@
       },
       "direction": "en_to_bn",
       "tiles": [
+        "করলি",
+        "কী",
+        "তুমি",
         "সে",
-        "টিভি",
-        "খাও",
-        "ছাত্র",
-        "করল",
-        "কী"
+        "করলে",
+        "করল"
       ],
       "answer": [
         "সে",
@@ -253,13 +256,12 @@
       },
       "direction": "bn_to_en",
       "tiles": [
-        "you",
-        "Friday",
-        "did",
-        "but",
-        "bag",
+        "do",
+        "he",
         "What",
-        "do"
+        "you",
+        "does",
+        "did"
       ],
       "answer": [
         "What",
@@ -270,6 +272,51 @@
     },
     {
       "id": "e12",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "তিনি রান্না করলেন।",
+        "tr": "tini ranna korlen.",
+        "en": "She cooked."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "I",
+        "cooks",
+        "She",
+        "cooked",
+        "He",
+        "you"
+      ],
+      "answer": [
+        "She",
+        "cooked"
+      ],
+      "alt": [
+        [
+          "He",
+          "cooked"
+        ]
+      ]
+    },
+    {
+      "id": "e13",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আপনি কী কিনলেন?",
+        "tr": "apni ki kinlen?",
+        "en": "What did you buy? (polite)"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "আপনি কী কিনবেন?",
+        "সে কী কিনল?",
+        "আপনি কী কিনলেন?",
+        "আমি কী কিনলাম?"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e14",
       "type": "type_translation",
       "prompt": {
         "bn": "তারা গতকাল কাজ করল।",
@@ -278,50 +325,42 @@
       },
       "direction": "bn_to_en",
       "accepted": [
-        "They worked yesterday."
+        "They worked yesterday.",
+        "Yesterday they worked.",
+        "They did work yesterday.",
+        "They did the work yesterday.",
+        "They did their work yesterday.",
+        "Yesterday they did the work."
       ]
     },
     {
-      "id": "e13",
-      "type": "word_bank",
+      "id": "e15",
+      "type": "type_translation",
       "prompt": {
-        "bn": "তুমি গতকাল কী করলে?",
-        "tr": "tumi gotokal ki korle?",
-        "en": "What did you do yesterday?"
+        "bn": "সে একটা শাড়ি কিনল।",
+        "tr": "she ekta shari kinlo.",
+        "en": "She bought a sari."
       },
       "direction": "en_to_bn",
-      "tiles": [
-        "মজার",
-        "করলে",
-        "কী",
-        "গতকাল",
-        "দুইজন",
-        "নাস্তা",
-        "তুমি"
-      ],
-      "answer": [
-        "তুমি",
-        "গতকাল",
-        "কী",
-        "করলে"
+      "accepted": [
+        "সে একটা শাড়ি কিনল।",
+        "সে একটা শাড়ি কিনলো।",
+        "সে শাড়ি কিনল।",
+        "সে শাড়ি কিনলো।",
+        "ও একটা শাড়ি কিনল।",
+        "ও একটা শাড়ি কিনলো।",
+        "তিনি একটা শাড়ি কিনলেন।",
+        "উনি একটা শাড়ি কিনলেন।",
+        "she ekta shari kinlo",
+        "se ekta shari kinlo",
+        "she ekta sari kinlo",
+        "se ekta sari kinlo",
+        "she shari kinlo",
+        "o ekta shari kinlo",
+        "she ekta shari kinlu",
+        "tini ekta shari kinlen",
+        "uni ekta shari kinlen"
       ]
-    },
-    {
-      "id": "e14",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "তিনি রান্না করলেন।",
-        "tr": "tini ranna korlen.",
-        "en": "She cooked."
-      },
-      "direction": "en_to_bn",
-      "options": [
-        "খালা আমার মায়ের বোন।",
-        "তিনি রান্না করলেন।",
-        "না, আর কিছু লাগবে না।",
-        "আমি জানি না।"
-      ],
-      "answer": 1
     }
   ]
 }

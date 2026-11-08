@@ -3,7 +3,7 @@
   "unit": "u09-past",
   "title": "Was / were",
   "status": "draft",
-  "tip": "In the present, 'is' disappears: **আমি ছাত্র** 'I am a student'. In the past it **comes back** as **ছিল-**:\n\n- আমি **ছিলাম** — I was\n- তুমি **ছিলে** — you were\n- আপনি / তিনি **ছিলেন** — you were / he was (polite)\n- সে **ছিল** — he/she/it was\n\nSo: **আমি ছাত্র ছিলাম** 'I was a student', **আপনি কোথায় ছিলেন?** 'Where were you?', **দোকান বন্ধ ছিল** 'The shop was closed'.\n\nYou'll also hear the past perfect **-এছিলাম**: **আমি গত সপ্তাহে সিলেটে গিয়েছিলাম** 'I went to (had been to) Sylhet last week'. For now just recognise it.\n\n**শিক্ষার্থী** is a gender-neutral word for \"student\" (ছাত্র male, ছাত্রী female) — you'll see it on school notices and in the news.",
+  "tip": "In the present, 'is' disappears: **আমি ছাত্র** 'I am a student'. In the past it **comes back** as **ছিল-**:\n\n- আমি **ছিলাম** — I was\n- তুমি **ছিলে** — you were\n- আপনি / তিনি **ছিলেন** — you were / he was (polite)\n- সে **ছিল** — he / she / it was\n\nSo: **আমি ছাত্র ছিলাম** 'I was a student', **আপনি কোথায় ছিলেন?** 'Where were you?', **দোকান বন্ধ ছিল** 'The shop was closed'.\n\nছিল- is also the past of **আছ-**: **আমি বাসায় আছি** 'I'm at home' → **আমি বাসায় ছিলাম** 'I was at home'.\n\n**গত সপ্তাহে** is 'last week'. Without **গত** ('last'), **সপ্তাহে** means 'in a week / per week'.\n\nYou'll also hear the past perfect **-এছিলাম**: **আমি গত সপ্তাহে সিলেটে গিয়েছিলাম** 'I went to (had been to) Sylhet last week'. For now, just recognise it. In speech it's often **গেছিলাম**.\n\n**শিক্ষার্থী** is a gender-neutral word for 'student' (ছাত্র male, ছাত্রী female). You'll see it on school notices and in the news.\n\n**ছিল** is also written **ছিলো**.",
   "vocab": [
     {
       "id": "chhilam",
@@ -68,12 +68,12 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "you came (familiar)",
-        "I brush",
-        "is not (here); there isn't",
-        "I was"
+        "I am",
+        "I was",
+        "you were (familiar)",
+        "you were (polite)"
       ],
-      "answer": 3
+      "answer": 1
     },
     {
       "id": "e02",
@@ -85,29 +85,28 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "(he/she/they) eats",
-        "you sleep (polite)",
-        "you did (familiar)",
-        "you were (familiar)"
+        "you were (polite)",
+        "you are (familiar)",
+        "you were (familiar)",
+        "I was"
       ],
-      "answer": 3
+      "answer": 2
     },
     {
       "id": "e03",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "ছিলেন",
         "tr": "chhilen",
         "en": "you were (polite)"
       },
-      "direction": "bn_to_en",
       "options": [
-        "am not",
-        "I am reading",
-        "you were (polite)",
-        "I am doing"
+        "ছিলে",
+        "আছেন",
+        "ছিল",
+        "ছিলেন"
       ],
-      "answer": 2
+      "answer": 3
     },
     {
       "id": "e04",
@@ -115,16 +114,16 @@
       "prompt": {
         "bn": "ছিল",
         "tr": "chhilo",
-        "en": "was"
+        "en": "he / she / it was"
       },
       "direction": "bn_to_en",
       "options": [
-        "I haven't eaten",
-        "is not",
-        "was",
-        "I am reading"
+        "he / she / it was",
+        "I was",
+        "is",
+        "you were (familiar)"
       ],
-      "answer": 2
+      "answer": 0
     },
     {
       "id": "e05",
@@ -136,12 +135,12 @@
       },
       "direction": "bn_to_en",
       "options": [
+        "has gone",
+        "I will go",
         "I had gone",
-        "I said",
-        "I am reading",
-        "you did (polite)"
+        "I go"
       ],
-      "answer": 0
+      "answer": 2
     },
     {
       "id": "e06",
@@ -153,12 +152,12 @@
       },
       "direction": "bn_to_en",
       "options": [
+        "in a week",
         "last week",
-        "never",
-        "I don't need it",
-        "hello (in reply)"
+        "yesterday",
+        "every day"
       ],
-      "answer": 0
+      "answer": 1
     },
     {
       "id": "e07",
@@ -170,21 +169,43 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "Bangladeshi",
-        "wrong",
         "closed",
-        "difficult"
+        "open",
+        "far",
+        "cheap"
       ],
-      "answer": 2
+      "answer": 0
     },
     {
       "id": "e08",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "শিক্ষার্থী",
+        "tr": "shikkharthi",
+        "en": "student"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "teacher",
+        "doctor",
+        "friend",
+        "student"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e09",
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "গত সপ্তাহে",
-          "tr": "goto shoptahe",
-          "en": "last week"
+          "bn": "ছিলাম",
+          "tr": "chhilam",
+          "en": "I was"
+        },
+        {
+          "bn": "আছি",
+          "tr": "achhi",
+          "en": "am"
         },
         {
           "bn": "ছিলেন",
@@ -192,24 +213,19 @@
           "en": "you were (polite)"
         },
         {
-          "bn": "বন্ধ",
-          "tr": "bondho",
-          "en": "closed"
+          "bn": "গত সপ্তাহে",
+          "tr": "goto shoptahe",
+          "en": "last week"
         },
         {
           "bn": "শিক্ষার্থী",
           "tr": "shikkharthi",
           "en": "student"
-        },
-        {
-          "bn": "গিয়েছিলাম",
-          "tr": "giyechhilam",
-          "en": "I had gone"
         }
       ]
     },
     {
-      "id": "e09",
+      "id": "e10",
       "type": "word_bank",
       "prompt": {
         "bn": "দোকান বন্ধ ছিল।",
@@ -218,23 +234,30 @@
       },
       "direction": "bn_to_en",
       "tiles": [
-        "along",
-        "was",
-        "today",
-        "cow's",
+        "is",
         "shop",
         "The",
-        "closed"
+        "closed",
+        "store",
+        "was"
       ],
       "answer": [
         "The",
         "shop",
         "was",
         "closed"
+      ],
+      "alt": [
+        [
+          "The",
+          "store",
+          "was",
+          "closed"
+        ]
       ]
     },
     {
-      "id": "e10",
+      "id": "e11",
       "type": "word_bank",
       "prompt": {
         "bn": "আমি ছাত্র ছিলাম।",
@@ -243,82 +266,72 @@
       },
       "direction": "en_to_bn",
       "tiles": [
-        "মন্দির",
-        "ছাত্র",
-        "কয়টা",
+        "ছিল",
         "আমি",
-        "ভিতরে",
-        "ছিলাম"
+        "শিক্ষক",
+        "ছিলাম",
+        "আছি",
+        "ছাত্র",
+        "শিক্ষার্থী"
       ],
       "answer": [
         "আমি",
         "ছাত্র",
         "ছিলাম"
-      ]
-    },
-    {
-      "id": "e11",
-      "type": "word_bank",
-      "prompt": {
-        "bn": "আমি ঢাকায় শিক্ষার্থী ছিলাম।",
-        "tr": "ami dhakay shikkharthi chhilam.",
-        "en": "I was a student in Dhaka."
-      },
-      "direction": "bn_to_en",
-      "tiles": [
-        "a",
-        "in",
-        "mom",
-        "student",
-        "way",
-        "was",
-        "thirteen",
-        "I",
-        "Dhaka"
       ],
-      "answer": [
-        "I",
-        "was",
-        "a",
-        "student",
-        "in",
-        "Dhaka"
+      "alt": [
+        [
+          "আমি",
+          "শিক্ষার্থী",
+          "ছিলাম"
+        ]
       ]
     },
     {
       "id": "e12",
-      "type": "type_translation",
-      "prompt": {
-        "bn": "আপনি কোথায় ছিলেন?",
-        "tr": "apni kothay chhilen?",
-        "en": "Where were you?"
-      },
-      "direction": "bn_to_en",
-      "accepted": [
-        "Where were you?"
-      ]
-    },
-    {
-      "id": "e13",
       "type": "word_bank",
       "prompt": {
         "bn": "তুমি কোথায় ছিলে?",
         "tr": "tumi kothay chhile?",
-        "en": "Where were you?"
+        "en": "Where were you? (familiar)"
       },
       "direction": "en_to_bn",
       "tiles": [
-        "ভাইয়া",
-        "হাসপাতাল",
+        "আপনি",
         "ছিলে",
-        "ওই",
         "কোথায়",
-        "তুমি"
+        "আছো",
+        "তুমি",
+        "ছিলেন"
       ],
       "answer": [
         "তুমি",
         "কোথায়",
         "ছিলে"
+      ],
+      "alt": [
+        [
+          "কোথায়",
+          "ছিলে"
+        ]
+      ]
+    },
+    {
+      "id": "e13",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আমি গত সপ্তাহে সিলেটে গিয়েছিলাম।",
+        "tr": "ami goto shoptahe shilete giyechhilam.",
+        "en": "I went to Sylhet last week."
+      },
+      "direction": "bn_to_en",
+      "accepted": [
+        "I went to Sylhet last week.",
+        "I had gone to Sylhet last week.",
+        "Last week I went to Sylhet.",
+        "Last week I had gone to Sylhet.",
+        "I had been to Sylhet last week.",
+        "Last week I had been to Sylhet."
       ]
     },
     {
@@ -331,12 +344,35 @@
       },
       "direction": "en_to_bn",
       "options": [
-        "কলাটা আমার।",
-        "ওরা আমার বন্ধু, ওরা বাংলাদেশি।",
-        "এখন কয়টা বাজে?",
-        "বাবা শিক্ষক ছিলেন।"
+        "বাবা শিক্ষক।",
+        "বাবা শিক্ষক ছিলেন।",
+        "বাবা শিক্ষার্থী ছিলেন।",
+        "বাবা শিক্ষক ছিলাম।"
       ],
-      "answer": 3
+      "answer": 1
+    },
+    {
+      "id": "e15",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আপনি কোথায় ছিলেন?",
+        "tr": "apni kothay chhilen?",
+        "en": "Where were you? (polite)"
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "আপনি কোথায় ছিলেন?",
+        "কোথায় ছিলেন?",
+        "apni kothay chhilen",
+        "apni kothay chilen",
+        "apni kothai chhilen",
+        "apni kothai chilen",
+        "apni kothae chhilen",
+        "kothay chhilen",
+        "kothay chilen",
+        "aapni kothay chhilen",
+        "aapni kothay chilen"
+      ]
     }
   ]
 }

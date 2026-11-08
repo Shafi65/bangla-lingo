@@ -3,7 +3,7 @@
   "unit": "u09-past",
   "title": "I didn't",
   "status": "draft",
-  "tip": "To say 'didn't' or 'haven't', Bengali takes the **present** form and adds **-নি** (*-ni*), written joined to the verb:\n\n- করি → **করিনি** 'I didn't do / haven't done'\n- খাই → **খাইনি** 'I didn't eat / haven't eaten'\n- খাও → **খাওনি** 'you didn't eat'\n- আসে → **আসেনি** 'he hasn't come'\n\nDon't say ~~করলাম না~~ for a simple 'I didn't do it' — it sounds like 'I chose not to'.\n\n**এখনো** 'yet / still' pairs naturally with -নি: **আমি এখনো খাইনি** 'I haven't eaten yet'. Short answer: **এখনো না** 'not yet'. **ইতিমধ্যে** 'already' is a bit formal.",
+  "tip": "To say 'didn't' or 'haven't', Bengali takes the **present** form and adds **-নি** (*-ni*), written joined to the verb:\n\n- করি → **করিনি** 'I didn't do / haven't done'\n- খাই → **খাইনি** 'I didn't eat / haven't eaten'\n- খাও → **খাওনি** 'you didn't eat'\n- যাই → **যাইনি** 'I didn't go'\n- দেখি → **দেখিনি** 'I didn't see'\n- আসে → **আসেনি** 'he hasn't come'\n\nOne form covers both English 'didn't' and 'haven't': **আমি টিভি দেখিনি** is 'I didn't watch TV' *or* 'I haven't watched TV'.\n\nTwo look-alikes to keep apart:\n\n- **খাই না** (*khai na*), with a space, is the present: 'I don't eat'.\n- **খাইনি** (*khaini*), joined, is the past: 'I didn't eat / haven't eaten'.\n\n**What about করলাম না?** Simple past + **না** exists, but it isn't the everyday 'didn't'. It usually means you *chose* not to: **আমি গেলাম না** 'I didn't go (I decided not to)'. For a plain 'I didn't do it' or 'I haven't done it', use **-নি**: **আমি করিনি**.\n\n**এখনো** 'yet / still' pairs naturally with -নি: **আমি এখনো খাইনি** 'I haven't eaten yet'. The short answer is **এখনো না** 'not yet'. **ইতিমধ্যে** 'already' goes with the perfect (**আমি ইতিমধ্যে খেয়েছি**) and sounds a bit formal.",
   "vocab": [
     {
       "id": "korini",
@@ -73,12 +73,12 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "I saw",
-        "are (intimate)",
+        "I did",
         "I didn't do",
-        "you get up (polite)"
+        "I don't do",
+        "I have done"
       ],
-      "answer": 2
+      "answer": 1
     },
     {
       "id": "e02",
@@ -90,29 +90,28 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "I ate",
-        "(I) can",
         "I haven't eaten",
-        "you sleep (polite)"
+        "I don't eat",
+        "I have eaten",
+        "you haven't eaten (familiar)"
       ],
-      "answer": 2
+      "answer": 0
     },
     {
       "id": "e03",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "খাওনি",
         "tr": "khaoni",
         "en": "you didn't eat (familiar)"
       },
-      "direction": "bn_to_en",
       "options": [
-        "you didn't eat (familiar)",
-        "I didn't go",
-        "writes",
-        "I watch"
+        "খাইনি",
+        "খাও",
+        "খাওনি",
+        "খান"
       ],
-      "answer": 0
+      "answer": 2
     },
     {
       "id": "e04",
@@ -124,12 +123,12 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "is not / are not (polite)",
-        "you go (familiar)",
-        "I didn't go",
-        "I am doing"
+        "I don't go",
+        "I went",
+        "I am going",
+        "I didn't go"
       ],
-      "answer": 2
+      "answer": 3
     },
     {
       "id": "e05",
@@ -141,75 +140,74 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "is not",
+        "I watch",
         "I didn't see",
-        "you will buy (polite)",
-        "I go"
+        "I saw",
+        "I didn't go"
       ],
       "answer": 1
     },
     {
       "id": "e06",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "আসেনি",
         "tr": "asheni",
         "en": "hasn't come"
       },
-      "direction": "bn_to_en",
       "options": [
-        "hasn't come",
-        "are (familiar)",
-        "(I/we) eat",
-        "I ate"
+        "আসে",
+        "এসেছে",
+        "আসেনি",
+        "আসি"
       ],
-      "answer": 0
+      "answer": 2
     },
     {
       "id": "e07",
       "type": "select_translation",
       "prompt": {
-        "bn": "এখনো",
-        "tr": "ekhono",
-        "en": "yet"
+        "bn": "এখনো না",
+        "tr": "ekhono na",
+        "en": "not yet"
       },
       "direction": "bn_to_en",
       "options": [
-        "so",
-        "yet",
-        "right",
-        "where"
+        "never",
+        "no thanks",
+        "already",
+        "not yet"
       ],
-      "answer": 1
+      "answer": 3
     },
     {
       "id": "e08",
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "ইতিমধ্যে",
-          "tr": "itimoddhe",
-          "en": "already"
-        },
-        {
-          "bn": "খাওনি",
-          "tr": "khaoni",
-          "en": "you didn't eat (familiar)"
-        },
-        {
           "bn": "করিনি",
           "tr": "korini",
           "en": "I didn't do"
         },
         {
-          "bn": "খাইনি",
-          "tr": "khaini",
-          "en": "I haven't eaten"
+          "bn": "খাওনি",
+          "tr": "khaoni",
+          "en": "you haven't eaten (familiar)"
         },
         {
           "bn": "এখনো না",
           "tr": "ekhono na",
           "en": "not yet"
+        },
+        {
+          "bn": "ইতিমধ্যে",
+          "tr": "itimoddhe",
+          "en": "already"
+        },
+        {
+          "bn": "এখনো",
+          "tr": "ekhono",
+          "en": "yet"
         }
       ]
     },
@@ -223,42 +221,57 @@
       },
       "direction": "bn_to_en",
       "tiles": [
-        "so",
-        "but",
+        "eat",
+        "already",
         "I",
+        "haven't",
+        "don't",
         "eaten",
-        "yet",
-        "teeth",
-        "haven't"
+        "didn't",
+        "yet"
       ],
       "answer": [
         "I",
         "haven't",
         "eaten",
         "yet"
+      ],
+      "alt": [
+        [
+          "I",
+          "didn't",
+          "eat",
+          "yet"
+        ]
       ]
     },
     {
       "id": "e10",
       "type": "word_bank",
       "prompt": {
-        "bn": "আমি কাজ করিনি।",
-        "tr": "ami kaj korini.",
-        "en": "I didn't do the work."
+        "bn": "আমি ইতিমধ্যে খেয়েছি।",
+        "tr": "ami itimoddhe kheyechhi.",
+        "en": "I have already eaten."
       },
       "direction": "en_to_bn",
       "tiles": [
-        "বাসায়",
-        "চিনি",
-        "করিনি",
-        "বলেন",
-        "কাজ",
-        "আমি"
+        "খাইনি",
+        "আমি",
+        "মাত্র",
+        "খেয়েছি",
+        "এখনো",
+        "ইতিমধ্যে"
       ],
       "answer": [
         "আমি",
-        "কাজ",
-        "করিনি"
+        "ইতিমধ্যে",
+        "খেয়েছি"
+      ],
+      "alt": [
+        [
+          "ইতিমধ্যে",
+          "খেয়েছি"
+        ]
       ]
     },
     {
@@ -271,19 +284,28 @@
       },
       "direction": "bn_to_en",
       "tiles": [
-        "eat",
-        "Why",
-        "and",
-        "didn't",
         "you",
-        "someone",
-        "have"
+        "don't",
+        "Why",
+        "eaten",
+        "eat",
+        "haven't",
+        "I",
+        "didn't"
       ],
       "answer": [
         "Why",
         "didn't",
         "you",
         "eat"
+      ],
+      "alt": [
+        [
+          "Why",
+          "haven't",
+          "you",
+          "eaten"
+        ]
       ]
     },
     {
@@ -297,50 +319,78 @@
       "direction": "bn_to_en",
       "accepted": [
         "I didn't watch TV.",
-        "I haven't watched TV."
+        "I haven't watched TV.",
+        "I did not watch TV.",
+        "I have not watched TV.",
+        "I didn't watch television.",
+        "I haven't watched television.",
+        "I didn't watch the TV.",
+        "I haven't watched the TV.",
+        "I didn't see the TV.",
+        "I haven't seen the TV."
       ]
     },
     {
       "id": "e13",
-      "type": "word_bank",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আমি গেলাম না।",
+        "tr": "ami gelam na.",
+        "en": "I chose not to go."
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "I haven't gone yet.",
+        "I don't go.",
+        "I chose not to go.",
+        "I went."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e14",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "সে এখনো আসেনি।",
+        "tr": "she ekhono asheni.",
+        "en": "He hasn't come yet."
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "সে ইতিমধ্যে এসেছে।",
+        "সে এখনো আসে না।",
+        "সে মাত্র এসেছে।",
+        "সে এখনো আসেনি।"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e15",
+      "type": "type_translation",
       "prompt": {
         "bn": "আমি গতকাল অফিসে যাইনি।",
         "tr": "ami gotokal ofise jaini.",
         "en": "I didn't go to the office yesterday."
       },
       "direction": "en_to_bn",
-      "tiles": [
-        "যাইনি",
-        "উনিশ",
-        "গতকাল",
-        "আমি",
-        "অফিসে",
-        "নাম",
-        "খাবার"
-      ],
-      "answer": [
-        "আমি",
-        "গতকাল",
-        "অফিসে",
-        "যাইনি"
+      "accepted": [
+        "আমি গতকাল অফিসে যাইনি।",
+        "গতকাল আমি অফিসে যাইনি।",
+        "গতকাল অফিসে যাইনি।",
+        "আমি গতকাল অফিসে গেলাম না।",
+        "গতকাল আমি অফিসে গেলাম না।",
+        "ami gotokal ofise jaini",
+        "ami gotokal offise jaini",
+        "ami gotokal ofise jaee ni",
+        "ami gotokal ofise jai ni",
+        "gotokal ami ofise jaini",
+        "gotokal ami offise jaini",
+        "gotokal ofise jaini",
+        "ami gotokal ofishe jaini",
+        "ami gotkal ofise jaini",
+        "ami gotokal ofise gelam na",
+        "gotokal ami ofise gelam na"
       ]
-    },
-    {
-      "id": "e14",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "না, এখনো না।",
-        "tr": "na, ekhono na.",
-        "en": "No, not yet."
-      },
-      "direction": "en_to_bn",
-      "options": [
-        "না, এখনো না।",
-        "কলাগুলো এখানে আছে।",
-        "উনি আমার শিক্ষক।",
-        "আংকেল, আপনি কোথা থেকে এসেছেন?"
-      ],
-      "answer": 0
     }
   ]
 }

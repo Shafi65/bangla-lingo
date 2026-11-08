@@ -3,7 +3,7 @@
   "unit": "u09-past",
   "title": "Yesterday's story",
   "status": "draft",
-  "tip": "Tell a story by chaining past verbs with **তারপর** 'then':\n\n**গতকাল আমি সকাল সাতটায় উঠলাম। তারপর নাস্তা করলাম। আমি বন্ধুর সাথে বাজারে গেলাম…**\n\n**সাথে** (*shathe*) 'with' is a postposition, so the noun is genitive: **বন্ধুর সাথে** 'with a friend'. In Kolkata **সঙ্গে** is more common.\n\nAnd round it off: **দিনটা খুব ভালো ছিল** 'It was a really good day'.\n\n**যখন … তখন …** \"when …, (then) …\" ties two events together. Don't mix up relative **যখন** with question **কখন**.",
+  "tip": "Tell a story by chaining past verbs with **তারপর** 'then, after that':\n\n**গতকাল আমি সকাল সাতটায় উঠলাম। তারপর নাস্তা করলাম। আমি বন্ধুর সাথে বাজারে গেলাম…**\n\n**আমরা** takes **-লাম** too: **আমরা চা খেলাম** 'we had tea'.\n\n**সাথে** (*shathe*) 'with' is a postposition, so the noun before it is genitive: **বন্ধুর সাথে** 'with a friend' (not *বন্ধু সাথে*). In Kolkata **সঙ্গে** is more common. **কথা বলা** is 'to talk': **বন্ধুর সাথে কথা বললাম** 'I talked with a friend'. Don't confuse **কথা** 'talk' with **কোথা** 'where'.\n\n**যখন … তখন …** 'when …, (then) …' ties two events together: **আমি যখন বাজারে গেলাম, তখন দোকান বন্ধ ছিল** 'When I went to the market, the shop was closed'.\n\n- **যখন** is 'when' that is *not* a question. The question word is **কখন** 'when?'.\n- **তখন** is 'then' in the sense of 'at that time'. **তারপর** is 'then' in the sense of 'after that'.\n\nRound it off with **দিনটা খুব ভালো ছিল** 'It was a really good day'.",
   "vocab": [
     {
       "id": "uthlam",
@@ -62,29 +62,28 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "you go (familiar)",
+        "I get up",
         "I got up",
-        "you are doing (polite)",
-        "I heard"
+        "I slept",
+        "you get up (polite)"
       ],
       "answer": 1
     },
     {
       "id": "e02",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "বন্ধুর",
         "tr": "bondhur",
         "en": "friend's"
       },
-      "direction": "bn_to_en",
       "options": [
-        "of the hotel",
-        "station",
-        "Wednesday",
-        "friend's"
+        "বন্ধু",
+        "বন্ধুর",
+        "বন্ধ",
+        "বাবার"
       ],
-      "answer": 3
+      "answer": 1
     },
     {
       "id": "e03",
@@ -96,12 +95,12 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "in front of",
+        "with",
         "without",
-        "upstairs",
-        "with"
+        "from",
+        "next to"
       ],
-      "answer": 3
+      "answer": 0
     },
     {
       "id": "e04",
@@ -113,27 +112,26 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "person",
-        "potato",
+        "today",
+        "every day",
         "the day",
-        "of the mosque"
+        "the shop"
       ],
       "answer": 2
     },
     {
       "id": "e05",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "যখন",
         "tr": "jokhon",
         "en": "when"
       },
-      "direction": "bn_to_en",
       "options": [
-        "but",
-        "yes",
-        "OK",
-        "when"
+        "কখন",
+        "তখন",
+        "এখন",
+        "যখন"
       ],
       "answer": 3
     },
@@ -143,16 +141,16 @@
       "prompt": {
         "bn": "তখন",
         "tr": "tokhon",
-        "en": "then"
+        "en": "then (at that time)"
       },
       "direction": "bn_to_en",
       "options": [
-        "actually",
-        "far",
-        "then",
-        "where"
+        "now",
+        "when?",
+        "always",
+        "then (at that time)"
       ],
-      "answer": 2
+      "answer": 3
     },
     {
       "id": "e07",
@@ -164,10 +162,10 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "tea",
+        "where",
         "talk",
-        "uncle (fufu's husband)",
-        "egg"
+        "with",
+        "friend"
       ],
       "answer": 1
     },
@@ -176,14 +174,14 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "বন্ধুর",
-          "tr": "bondhur",
-          "en": "friend's"
-        },
-        {
           "bn": "উঠলাম",
           "tr": "uthlam",
           "en": "I got up"
+        },
+        {
+          "bn": "বন্ধুর",
+          "tr": "bondhur",
+          "en": "friend's"
         },
         {
           "bn": "সাথে",
@@ -196,9 +194,9 @@
           "en": "the day"
         },
         {
-          "bn": "যখন",
-          "tr": "jokhon",
-          "en": "when"
+          "bn": "কথা",
+          "tr": "kotha",
+          "en": "talk"
         }
       ]
     },
@@ -206,29 +204,49 @@
       "id": "e09",
       "type": "word_bank",
       "prompt": {
-        "bn": "আমরা বাজারে চা খেলাম।",
-        "tr": "amra bajare cha khelam.",
-        "en": "We had tea at the market."
+        "bn": "আমি বন্ধুর সাথে বাজারে গেলাম।",
+        "tr": "ami bondhur shathe bajare gelam.",
+        "en": "I went to the market with a friend."
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "tiles": [
-        "market",
-        "at",
-        "fare",
-        "We",
-        "tea",
-        "had",
-        "hotel",
-        "shop",
-        "the"
+        "সাথে",
+        "বাজারে",
+        "বন্ধু",
+        "আমি",
+        "ছাড়া",
+        "গেলাম",
+        "যাই",
+        "বন্ধুর"
       ],
       "answer": [
-        "We",
-        "had",
-        "tea",
-        "at",
-        "the",
-        "market"
+        "আমি",
+        "বন্ধুর",
+        "সাথে",
+        "বাজারে",
+        "গেলাম"
+      ],
+      "alt": [
+        [
+          "আমি",
+          "বাজারে",
+          "বন্ধুর",
+          "সাথে",
+          "গেলাম"
+        ],
+        [
+          "বন্ধুর",
+          "সাথে",
+          "আমি",
+          "বাজারে",
+          "গেলাম"
+        ],
+        [
+          "বন্ধুর",
+          "সাথে",
+          "বাজারে",
+          "গেলাম"
+        ]
       ]
     },
     {
@@ -242,15 +260,15 @@
       "direction": "en_to_bn",
       "tiles": [
         "দোকান",
-        "যখন",
+        "কখন",
         "আমি",
-        "গেলাম",
+        "ছিল",
         "তখন",
         "বাজারে",
-        "কলাগুলো",
-        "আলু",
-        "ছিল",
-        "দুধ",
+        "আছে",
+        "যখন",
+        "তারপর",
+        "গেলাম",
         "বন্ধ"
       ],
       "answer": [
@@ -262,6 +280,36 @@
         "দোকান",
         "বন্ধ",
         "ছিল"
+      ],
+      "alt": [
+        [
+          "যখন",
+          "আমি",
+          "বাজারে",
+          "গেলাম",
+          "তখন",
+          "দোকান",
+          "বন্ধ",
+          "ছিল"
+        ],
+        [
+          "আমি",
+          "যখন",
+          "বাজারে",
+          "গেলাম",
+          "দোকান",
+          "বন্ধ",
+          "ছিল"
+        ],
+        [
+          "যখন",
+          "আমি",
+          "বাজারে",
+          "গেলাম",
+          "দোকান",
+          "বন্ধ",
+          "ছিল"
+        ]
       ]
     },
     {
@@ -274,14 +322,14 @@
       },
       "direction": "bn_to_en",
       "tiles": [
-        "The",
+        "good",
+        "It",
         "day",
-        "need",
-        "thirty",
-        "very",
-        "train",
         "was",
-        "good"
+        "The",
+        "is",
+        "very",
+        "a"
       ],
       "answer": [
         "The",
@@ -289,45 +337,67 @@
         "was",
         "very",
         "good"
+      ],
+      "alt": [
+        [
+          "It",
+          "was",
+          "a",
+          "very",
+          "good",
+          "day"
+        ]
       ]
     },
     {
       "id": "e12",
       "type": "type_translation",
       "prompt": {
-        "bn": "তারপর আমি ঘুমালাম।",
-        "tr": "tarpor ami ghumalam.",
-        "en": "Then I slept."
+        "bn": "গতকাল আমি সকাল সাতটায় উঠলাম।",
+        "tr": "gotokal ami shokal shattay uthlam.",
+        "en": "Yesterday I got up at seven in the morning."
       },
       "direction": "bn_to_en",
       "accepted": [
-        "Then I slept.",
-        "Then I went to sleep."
+        "Yesterday I got up at seven in the morning.",
+        "Yesterday I woke up at seven in the morning.",
+        "I got up at seven in the morning yesterday.",
+        "I woke up at seven in the morning yesterday.",
+        "Yesterday I got up at 7 in the morning.",
+        "Yesterday I woke up at 7 in the morning.",
+        "I got up at 7 in the morning yesterday.",
+        "I woke up at 7 in the morning yesterday.",
+        "Yesterday I got up at seven o'clock in the morning.",
+        "Yesterday I woke up at seven o'clock in the morning.",
+        "Yesterday I got up at 7 am.",
+        "Yesterday I woke up at 7 am.",
+        "I got up at 7 am yesterday.",
+        "I woke up at 7 am yesterday.",
+        "Yesterday I got up at seven am.",
+        "Yesterday I woke up at seven am."
       ]
     },
     {
       "id": "e13",
-      "type": "word_bank",
+      "type": "type_translation",
       "prompt": {
-        "bn": "আমি একটা শাড়ি কিনলাম।",
-        "tr": "ami ekta shari kinlam.",
-        "en": "I bought a sari."
+        "bn": "আমি বন্ধুর সাথে কথা বললাম।",
+        "tr": "ami bondhur shathe kotha bollam.",
+        "en": "I talked with my friend."
       },
       "direction": "en_to_bn",
-      "tiles": [
-        "শাড়ি",
-        "সাহায্য",
-        "আমি",
-        "একটা",
-        "ষাট",
-        "শুনি",
-        "কিনলাম"
-      ],
-      "answer": [
-        "আমি",
-        "একটা",
-        "শাড়ি",
-        "কিনলাম"
+      "accepted": [
+        "আমি বন্ধুর সাথে কথা বললাম।",
+        "বন্ধুর সাথে কথা বললাম।",
+        "আমি আমার বন্ধুর সাথে কথা বললাম।",
+        "ami bondhur shathe kotha bollam",
+        "ami bondhur sathe kotha bollam",
+        "bondhur shathe kotha bollam",
+        "bondhur sathe kotha bollam",
+        "ami amar bondhur shathe kotha bollam",
+        "ami amar bondhur sathe kotha bollam",
+        "ami bondhur shate kotha bollam",
+        "ami bondhur sathe katha bollam"
       ]
     },
     {
@@ -340,12 +410,12 @@
       },
       "direction": "en_to_bn",
       "options": [
-        "আমার ছোট বোন স্কুলে যায়।",
+        "রাতে আমরা বাসায় আসি।",
+        "সকালে আমরা বাসায় এলাম।",
         "রাতে আমরা বাসায় এলাম।",
-        "আমি একটা বই কিনলাম।",
-        "এখানে একজন ডাক্তার আছেন।"
+        "রাতে আমি বাসায় এলাম।"
       ],
-      "answer": 1
+      "answer": 2
     }
   ]
 }
