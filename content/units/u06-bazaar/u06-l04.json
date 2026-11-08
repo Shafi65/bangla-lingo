@@ -3,7 +3,7 @@
   "unit": "u06-bazaar",
   "title": "This one, those ones",
   "status": "draft",
-  "tip": "**এই** (*ei*) 'this' and **ওই** (*oi*) 'that' go before a noun: **এই দোকানদার** 'this shopkeeper'. On their own, add **-টা**: **এইটা** 'this one', **ওইটা** 'that one' — perfect for pointing at a pile of fruit.\n\nThe classifier **-টা** on a noun makes it specific, like 'the': **মাছটা** 'the fish (that one)'. **-গুলো** makes it specific *and* plural: **কলাগুলো** 'the bananas', **এগুলো** 'these', **ওগুলো** 'those' (you'll also hear the more emphatic এইগুলো / ওইগুলো).\n\nIn speech you'll often hear **এই মাছটা** — both 'this' and -টা together. That's normal, not redundant.\n\n'Not this one, that one' is simply **এইটা না, ওইটা।**",
+  "tip": "**এই** (*ei*) 'this' and **ওই** (*oi*) 'that' go before a noun: **এই দোকানদার** 'this shopkeeper'. On their own, add **-টা**: **এইটা** 'this one', **ওইটা** 'that one'. They're spoken forms of the এটা / ওটা you know from Unit 2, and perfect for pointing at a pile of fruit.\n\nThe classifier **-টা** on a noun makes it specific, like 'the': **মাছটা** 'the fish (that one)'. **-গুলো** makes it specific *and* plural: **কলাগুলো** 'the bananas'.\n\n- **এইটা / এটা** — this one\n- **ওইটা / ওটা** — that one\n- **এগুলো** — these\n- **ওগুলো** — those\n\n(You'll also hear the more emphatic এইগুলো / ওইগুলো.)\n\nIn speech you'll often hear **এই মাছটা**, with both 'this' and -টা together. That's normal, not redundant.\n\n'Not this one, that one' is simply **এইটা না, ওইটা।** If nothing looks good, ask for **অন্য একটা** 'a different one'. Picking your own fish or fruit is normal at a bazaar, and vendors expect you to point.",
   "vocab": [
     {
       "id": "ei",
@@ -80,12 +80,12 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "he/she (polite)",
-        "your (intimate)",
         "this",
-        "me"
+        "that",
+        "these",
+        "here"
       ],
-      "answer": 2
+      "answer": 0
     },
     {
       "id": "e02",
@@ -97,27 +97,26 @@
       },
       "direction": "bn_to_en",
       "options": [
+        "this",
+        "there",
         "that",
-        "me",
-        "our",
-        "we"
+        "those"
       ],
-      "answer": 0
+      "answer": 2
     },
     {
       "id": "e03",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "এইটা",
         "tr": "eita",
         "en": "this one"
       },
-      "direction": "bn_to_en",
       "options": [
-        "everyone",
-        "this one",
-        "our",
-        "of this"
+        "এটা",
+        "এইটা",
+        "ওইটা",
+        "এটার"
       ],
       "answer": 1
     },
@@ -131,10 +130,10 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "those",
+        "this one",
         "that one",
-        "they",
-        "they (spoken)"
+        "those",
+        "of this"
       ],
       "answer": 1
     },
@@ -148,12 +147,12 @@
       },
       "direction": "bn_to_en",
       "options": [
+        "those",
+        "this one",
         "these",
-        "he/she (spoken)",
-        "everyone",
-        "your (polite)"
+        "the bananas"
       ],
-      "answer": 0
+      "answer": 2
     },
     {
       "id": "e06",
@@ -165,9 +164,9 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "your (familiar, plural)",
-        "that",
-        "this one",
+        "these",
+        "that one",
+        "there",
         "those"
       ],
       "answer": 3
@@ -182,26 +181,59 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "person",
-        "hunger",
-        "mother's",
-        "the fish"
+        "the fish",
+        "the shop",
+        "the mango",
+        "the bananas"
       ],
-      "answer": 3
+      "answer": 0
     },
     {
       "id": "e08",
+      "type": "listen_select",
+      "audio": {
+        "bn": "দোকানটা",
+        "tr": "dokanta",
+        "en": "the shop"
+      },
+      "options": [
+        "দোকান",
+        "দোকানদার",
+        "দোকানটা",
+        "কলাটা"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e09",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "অন্য",
+        "tr": "onno",
+        "en": "other"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "and",
+        "other",
+        "more",
+        "only"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e10",
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "দোকানটা",
-          "tr": "dokanta",
-          "en": "the shop"
+          "bn": "এই",
+          "tr": "ei",
+          "en": "this"
         },
         {
-          "bn": "ওইটা",
-          "tr": "oita",
-          "en": "that one"
+          "bn": "ওই",
+          "tr": "oi",
+          "en": "that"
         },
         {
           "bn": "এগুলো",
@@ -209,67 +241,15 @@
           "en": "these"
         },
         {
-          "bn": "অন্য",
-          "tr": "onno",
-          "en": "other"
+          "bn": "ওগুলো",
+          "tr": "ogulo",
+          "en": "those"
         },
         {
-          "bn": "এইটা",
-          "tr": "eita",
-          "en": "this one"
+          "bn": "দোকানটা",
+          "tr": "dokanta",
+          "en": "the shop"
         }
-      ]
-    },
-    {
-      "id": "e09",
-      "type": "word_bank",
-      "prompt": {
-        "bn": "ওই মাছটা দেন।",
-        "tr": "oi machhta den.",
-        "en": "Please give me that fish."
-      },
-      "direction": "bn_to_en",
-      "tiles": [
-        "me",
-        "egg",
-        "bananas",
-        "Please",
-        "that",
-        "give",
-        "fish",
-        "more"
-      ],
-      "answer": [
-        "Please",
-        "give",
-        "me",
-        "that",
-        "fish"
-      ]
-    },
-    {
-      "id": "e10",
-      "type": "word_bank",
-      "prompt": {
-        "bn": "এই দোকানদার আমার বন্ধু।",
-        "tr": "ei dokandar amar bondhu.",
-        "en": "This shopkeeper is my friend."
-      },
-      "direction": "en_to_bn",
-      "tiles": [
-        "এই",
-        "পানি",
-        "বন্ধু",
-        "দোকানদার",
-        "আমার",
-        "এটার",
-        "নন"
-      ],
-      "answer": [
-        "এই",
-        "দোকানদার",
-        "আমার",
-        "বন্ধু"
       ]
     },
     {
@@ -280,62 +260,65 @@
         "tr": "ei kolagulo koto?",
         "en": "How much are these bananas?"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "tiles": [
-        "egg",
-        "these",
-        "How",
-        "bananas",
-        "much",
-        "mother",
-        "month",
-        "are"
+        "ওই",
+        "কলাগুলো",
+        "কত",
+        "এগুলো",
+        "এই",
+        "কলাটা"
       ],
       "answer": [
-        "How",
-        "much",
-        "are",
-        "these",
-        "bananas"
+        "এই",
+        "কলাগুলো",
+        "কত"
       ]
     },
     {
       "id": "e12",
-      "type": "type_translation",
+      "type": "word_bank",
       "prompt": {
-        "bn": "অন্য একটা দেন।",
-        "tr": "onno ekta den.",
-        "en": "Please give me another one."
+        "bn": "ওই মাছটা দেন।",
+        "tr": "oi machhta den.",
+        "en": "Please give me that fish."
       },
       "direction": "bn_to_en",
-      "accepted": [
-        "Please give me another one.",
-        "Give me a different one, please."
+      "tiles": [
+        "Please",
+        "this",
+        "give",
+        "fish",
+        "me",
+        "those",
+        "that",
+        "one"
+      ],
+      "answer": [
+        "Please",
+        "give",
+        "me",
+        "that",
+        "fish"
+      ],
+      "alt": [
+        [
+          "give",
+          "me",
+          "that",
+          "fish"
+        ],
+        [
+          "give",
+          "me",
+          "that",
+          "fish",
+          "Please"
+        ]
       ]
     },
     {
       "id": "e13",
-      "type": "word_bank",
-      "prompt": {
-        "bn": "ওইটা দেন।",
-        "tr": "oita den.",
-        "en": "Please give me that one."
-      },
-      "direction": "en_to_bn",
-      "tiles": [
-        "দেন",
-        "আচ্ছা",
-        "উনিশ",
-        "বাংলাদেশি",
-        "ওইটা"
-      ],
-      "answer": [
-        "ওইটা",
-        "দেন"
-      ]
-    },
-    {
-      "id": "e14",
       "type": "select_translation",
       "prompt": {
         "bn": "এইটা না, ওইটা।",
@@ -344,12 +327,49 @@
       },
       "direction": "en_to_bn",
       "options": [
+        "ওইটা না, এইটা।",
         "এইটা না, ওইটা।",
-        "তুমি কি পানি চাও?",
-        "আমি এখানে আছি।",
-        "আপনি কী ফল খান?"
+        "এইটা না, এগুলো।",
+        "এগুলো না, ওগুলো।"
       ],
-      "answer": 0
+      "answer": 1
+    },
+    {
+      "id": "e14",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "অন্য একটা দেন।",
+        "tr": "onno ekta den.",
+        "en": "Please give me a different one. (polite)"
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "অন্য একটা দেন।",
+        "অন্য একটা দিন।",
+        "onno ekta den",
+        "onno ekta din",
+        "onno akta den",
+        "onno akta din",
+        "anno ekta den",
+        "onyo ekta den"
+      ]
+    },
+    {
+      "id": "e15",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "এগুলো কত?",
+        "tr": "egulo koto?",
+        "en": "How much are these?"
+      },
+      "direction": "bn_to_en",
+      "accepted": [
+        "How much are these?",
+        "How much are these ones?",
+        "How much for these?",
+        "What do these cost?",
+        "How much do these cost?"
+      ]
     }
   ]
 }

@@ -3,7 +3,7 @@
   "unit": "u06-bazaar",
   "title": "Clothes shopping",
   "status": "draft",
-  "tip": "The future for 'I' ends in **-ব** (*-bo*): কেনা 'buy' → **কিনব** (*kinbo*) 'I will buy'. For আপনি it's **-বেন**: **কিনবেন** 'you will buy'. Put **না** after the verb to negate: **কিনব না** 'I won't buy'.\n\nUseful words: **শাড়ি** (sari), **জামা** (shirt / top / dress), **লুঙ্গি** (the wrap many Bangladeshi men wear at home). Colours go before the noun: **লাল শাড়ি** 'a red sari'.\n\nBefore paying with a big note, ask **ভাংতি আছে?** 'Do you have change?' — in Kolkata it's **খুচরো** (*khuchro*).\n\n**Culture:** red-and-white saris are the classic choice for Pohela Boishakh (Bengali New Year), which you'll meet in Unit 10.\n\n**ভাংতি** and **খুচরা** both mean \"change\" (small notes and coins) — you will hear both.",
+  "tip": "The future for 'I' ends in **-ব** (*-bo*): **কিনব** (*kinbo*) 'I will buy'. For আপনি it's **-বেন**: **কিনবেন** 'you will buy'. Put **না** after the verb to negate: **কিনব না** 'I won't buy'. (You'll also see the spelling কিনবো.)\n\nUseful words: **শাড়ি** (sari), **জামা** (shirt / top / dress), **লুঙ্গি** (the wrap many Bangladeshi men wear at home). Add **-টা** for 'the one': **শাড়িটা** 'the sari', **জামাটা** 'the shirt'. Colours go before the noun: **লাল শাড়ি** 'a red sari'. Careful: **শাড়ি** (*shari*) sounds close to **সাড়ে** (*share*, 'half past').\n\nBefore paying with a big note, ask **ভাংতি আছে?** 'Do you have change?' **ভাংতি** and **খুচরা** both mean 'change' (small notes and coins), you'll hear both, and both are right. In Kolkata it's **খুচরো** (*khuchro*).\n\n**কোনো … নেই** means 'no … at all': **কোনো সমস্যা নেই** 'no problem at all'.\n\n**Culture:** clothing markets are where bargaining is most expected, so it's normal to ask the price of several saris before you choose. Red-and-white saris are the classic choice for Pohela Boishakh (Bengali New Year), which you'll meet in Unit 10.",
   "vocab": [
     {
       "id": "shari",
@@ -83,29 +83,28 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "Friday",
+        "lungi",
         "sari",
-        "Wednesday",
-        "the shirt"
+        "shirt",
+        "red"
       ],
       "answer": 1
     },
     {
       "id": "e02",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "শাড়িটা",
         "tr": "sharita",
         "en": "the sari"
       },
-      "direction": "bn_to_en",
       "options": [
-        "flatbread",
-        "rice",
-        "the sari",
-        "fun; tasty"
+        "সাড়ে",
+        "শাড়ি",
+        "জামাটা",
+        "শাড়িটা"
       ],
-      "answer": 2
+      "answer": 3
     },
     {
       "id": "e03",
@@ -117,32 +116,15 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "water",
-        "lentils",
         "shirt",
-        "shop"
+        "sari",
+        "lungi",
+        "change"
       ],
-      "answer": 2
+      "answer": 0
     },
     {
       "id": "e04",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "জামাটা",
-        "tr": "jamata",
-        "en": "the shirt"
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "country",
-        "the shirt",
-        "Saturday",
-        "cow's"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "e05",
       "type": "select_translation",
       "prompt": {
         "bn": "লুঙ্গি",
@@ -151,15 +133,15 @@
       },
       "direction": "bn_to_en",
       "options": [
+        "sari",
+        "shirt",
         "lungi",
-        "month",
-        "need",
-        "family"
+        "the sari"
       ],
-      "answer": 0
+      "answer": 2
     },
     {
-      "id": "e06",
+      "id": "e05",
       "type": "select_translation",
       "prompt": {
         "bn": "কিনব",
@@ -168,15 +150,15 @@
       },
       "direction": "bn_to_en",
       "options": [
+        "you will buy (polite)",
+        "I want",
         "I will buy",
-        "(you, intimate) eat",
-        "(you, familiar) eat",
-        "(you, polite) have come"
+        "I eat"
       ],
-      "answer": 0
+      "answer": 2
     },
     {
-      "id": "e07",
+      "id": "e06",
       "type": "select_translation",
       "prompt": {
         "bn": "কিনবেন",
@@ -185,17 +167,56 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "is not",
-        "(I/we) want",
+        "I will buy",
         "you will buy (polite)",
-        "are (intimate)"
+        "(you/he/she, polite) want",
+        "I won't buy"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e07",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ভাংতি",
+        "tr": "bhangti",
+        "en": "change"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "price",
+        "problem",
+        "change",
+        "bag"
       ],
       "answer": 2
     },
     {
       "id": "e08",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "কোনো সমস্যা নেই।",
+        "tr": "kono shomossha nei.",
+        "en": "No problem at all."
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "There's no change.",
+        "What's the problem?",
+        "No problem at all.",
+        "All the problems."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e09",
       "type": "match_pairs",
       "pairs": [
+        {
+          "bn": "শাড়িটা",
+          "tr": "sharita",
+          "en": "the sari"
+        },
         {
           "bn": "জামাটা",
           "tr": "jamata",
@@ -207,108 +228,105 @@
           "en": "lungi"
         },
         {
-          "bn": "কোনো",
-          "tr": "kono",
-          "en": "any"
-        },
-        {
-          "bn": "ভাংতি",
-          "tr": "bhangti",
+          "bn": "খুচরা",
+          "tr": "khuchra",
           "en": "change"
         },
         {
-          "bn": "শাড়িটা",
-          "tr": "sharita",
-          "en": "the sari"
+          "bn": "কোনো",
+          "tr": "kono",
+          "en": "any"
         }
-      ]
-    },
-    {
-      "id": "e09",
-      "type": "word_bank",
-      "prompt": {
-        "bn": "ভাংতি নেই।",
-        "tr": "bhangti nei.",
-        "en": "I don't have change."
-      },
-      "direction": "bn_to_en",
-      "tiles": [
-        "don't",
-        "girl",
-        "time",
-        "have",
-        "I",
-        "change",
-        "eighteen"
-      ],
-      "answer": [
-        "I",
-        "don't",
-        "have",
-        "change"
       ]
     },
     {
       "id": "e10",
       "type": "word_bank",
       "prompt": {
-        "bn": "এই জামাটা কত?",
-        "tr": "ei jamata koto?",
-        "en": "How much is this shirt?"
+        "bn": "আমি একটা শাড়ি কিনব।",
+        "tr": "ami ekta shari kinbo.",
+        "en": "I will buy a sari."
       },
       "direction": "en_to_bn",
       "tiles": [
-        "কত",
-        "স্বামী",
-        "জামাটা",
-        "চা",
-        "দাম",
-        "এই"
+        "কিনবেন",
+        "আমি",
+        "শাড়িটা",
+        "একটু",
+        "কিনব",
+        "একটা",
+        "শাড়ি"
       ],
       "answer": [
-        "এই",
-        "জামাটা",
-        "কত"
+        "আমি",
+        "একটা",
+        "শাড়ি",
+        "কিনব"
       ]
     },
     {
       "id": "e11",
       "type": "word_bank",
       "prompt": {
-        "bn": "খুচরা টাকা আছে?",
-        "tr": "khuchra taka achhe?",
+        "bn": "ভাংতি আছে?",
+        "tr": "bhangti achhe?",
         "en": "Do you have change?"
       },
       "direction": "bn_to_en",
       "tiles": [
-        "brother",
-        "change",
-        "Saturday",
-        "you",
         "Do",
+        "money",
+        "you",
+        "there",
         "have",
-        "food"
+        "any",
+        "Is",
+        "change",
+        "price"
       ],
       "answer": [
         "Do",
         "you",
         "have",
         "change"
+      ],
+      "alt": [
+        [
+          "Do",
+          "you",
+          "have",
+          "any",
+          "change"
+        ],
+        [
+          "Is",
+          "there",
+          "change"
+        ],
+        [
+          "Is",
+          "there",
+          "any",
+          "change"
+        ]
       ]
     },
     {
       "id": "e12",
-      "type": "type_translation",
+      "type": "select_translation",
       "prompt": {
-        "bn": "কোনো সমস্যা নেই।",
-        "tr": "kono shomossha nei.",
-        "en": "No problem at all."
+        "bn": "এই জামাটা কত?",
+        "tr": "ei jamata koto?",
+        "en": "How much is this shirt?"
       },
-      "direction": "bn_to_en",
-      "accepted": [
-        "No problem at all.",
-        "There is no problem."
-      ]
+      "direction": "en_to_bn",
+      "options": [
+        "ওই জামাটা কত?",
+        "এই জামাটা কত?",
+        "এই শাড়িটা কত?",
+        "এই জামাটা কিনব।"
+      ],
+      "answer": 1
     },
     {
       "id": "e13",
@@ -320,13 +338,13 @@
       },
       "direction": "en_to_bn",
       "tiles": [
-        "কিনব",
-        "আমি",
-        "নয়",
+        "জামাটা",
         "না",
-        "জামা",
-        "মজা",
-        "টাকা"
+        "কিনবেন",
+        "আমি",
+        "নেই",
+        "কিনব",
+        "জামা"
       ],
       "answer": [
         "আমি",
@@ -337,20 +355,54 @@
     },
     {
       "id": "e14",
-      "type": "select_translation",
+      "type": "type_translation",
       "prompt": {
-        "bn": "ওই লাল শাড়িটা কত?",
-        "tr": "oi lal sharita koto?",
-        "en": "How much is that red sari?"
+        "bn": "আপনি কী কিনবেন?",
+        "tr": "apni ki kinben?",
+        "en": "What will you buy?"
+      },
+      "direction": "bn_to_en",
+      "accepted": [
+        "What will you buy?",
+        "What are you going to buy?",
+        "What would you like to buy?",
+        "What'll you buy?",
+        "What will you be buying?"
+      ]
+    },
+    {
+      "id": "e15",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "ভাংতি আছে?",
+        "tr": "bhangti achhe?",
+        "en": "Do you have change?"
       },
       "direction": "en_to_bn",
-      "options": [
-        "আমি একটা শাড়ি কিনব।",
-        "ওই লাল শাড়িটা কত?",
-        "তোমার কি ভাই আছে?",
-        "তুমি কী খেতে চাও?"
-      ],
-      "answer": 1
+      "accepted": [
+        "ভাংতি আছে?",
+        "খুচরা আছে?",
+        "খুচরা টাকা আছে?",
+        "ভাংতি টাকা আছে?",
+        "খুচরো আছে?",
+        "খুচরো টাকা আছে?",
+        "bhangti achhe",
+        "bhangti ache",
+        "vangti achhe",
+        "vangti ache",
+        "bhangti taka achhe",
+        "bhangti taka ache",
+        "vangti taka achhe",
+        "vangti taka ache",
+        "khuchra achhe",
+        "khuchra ache",
+        "khuchra taka achhe",
+        "khuchra taka ache",
+        "khuchro achhe",
+        "khuchro ache",
+        "khuchro taka achhe",
+        "khuchro taka ache"
+      ]
     }
   ]
 }

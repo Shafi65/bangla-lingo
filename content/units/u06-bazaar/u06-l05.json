@@ -3,7 +3,7 @@
   "unit": "u06-bazaar",
   "title": "Kilos, halis & vegetables",
   "status": "draft",
-  "tip": "Quantities go **number + measure + item**, with no 'of': **দুই কেজি আলু** 'two kilos (of) potatoes', **এক ডজন কলা** 'a dozen bananas'.\n\nEggs and bananas are often sold by the **হালি** (*hali*) — a set of **four**. **এক হালি ডিম** = 4 eggs. Ask for 'a dozen' and you may get three halis!\n\nTo say you **need** something, the person goes in the -র form and the verb is **লাগবে** (*lagbe*): **আমার পেঁয়াজ লাগবে** 'I need onions' — literally 'to-me onions will-be-needed'.\n\nBangladeshi vendors quote prices **per kilo**: **আলু পঞ্চাশ টাকা কেজি** 'potatoes are 50 taka a kilo'. To ask, say **টমেটোর কেজি কত?** 'How much is a kilo of tomatoes?'",
+  "tip": "Quantities go **number + measure + item**, with no 'of': **দুই কেজি আলু** 'two kilos (of) potatoes', **এক ডজন কলা** 'a dozen bananas'. Half a kilo is **আধা কেজি**; the Unit 5 fractions work too: **দেড় কেজি** 1½ kg, **আড়াই কেজি** 2½ kg.\n\nEggs and bananas are often sold by the **হালি** (*hali*), a set of **four**. **এক হালি ডিম** = 4 eggs. Ask for 'a dozen' and you may get three halis!\n\nTo say you **need** something, the person goes in the -র form and the verb is **লাগবে** (*lagbe*): **আমার পেঁয়াজ লাগবে** 'I need onions', literally 'to-me onions will-be-needed'. It's **আমার**, not আমি.\n\nBangladeshi vendors quote prices **per kilo**: **আলু পঞ্চাশ টাকা কেজি** 'potatoes are 50 taka a kilo'. To ask, say **টমেটোর কেজি কত?** 'How much is a kilo of tomatoes?'\n\n**Culture:** at the fresh market (*kacha bazar*) vegetables are weighed on a hand scale in front of you. It's fine to pick out your own tomatoes before they go on the scale.",
   "vocab": [
     {
       "id": "keji",
@@ -75,12 +75,12 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "wife",
-        "fun; tasty",
+        "dozen",
         "kilo",
-        "uncle (address)"
+        "half",
+        "hour"
       ],
-      "answer": 2
+      "answer": 1
     },
     {
       "id": "e02",
@@ -92,15 +92,31 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "they (spoken)",
-        "four (a set of four)",
-        "how",
-        "half past two"
+        "dozen",
+        "half",
+        "kilo",
+        "four (a set of four)"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e03",
+      "type": "listen_select",
+      "audio": {
+        "bn": "হালি",
+        "tr": "hali",
+        "en": "four (a set of four)"
+      },
+      "options": [
+        "হাত",
+        "হালি",
+        "খালা",
+        "আলু"
       ],
       "answer": 1
     },
     {
-      "id": "e03",
+      "id": "e04",
       "type": "select_translation",
       "prompt": {
         "bn": "ডজন",
@@ -109,15 +125,32 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "goodbye",
-        "(yes/no question marker)",
-        "hunger",
-        "dozen"
+        "dozen",
+        "four (a set of four)",
+        "two",
+        "ten"
       ],
-      "answer": 3
+      "answer": 0
     },
     {
-      "id": "e04",
+      "id": "e05",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আধা",
+        "tr": "adha",
+        "en": "half"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "one and a half",
+        "half past",
+        "half",
+        "two and a half"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e06",
       "type": "select_translation",
       "prompt": {
         "bn": "আলু",
@@ -126,32 +159,31 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "child",
-        "cow's",
-        "Thursday",
-        "potato"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "e05",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "পেঁয়াজ",
-        "tr": "pe~yaj",
-        "en": "onion"
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "meaning",
-        "flatbread",
         "onion",
-        "uncle (address)"
+        "tomato",
+        "potato",
+        "vegetables"
       ],
       "answer": 2
     },
     {
-      "id": "e06",
+      "id": "e07",
+      "type": "listen_select",
+      "audio": {
+        "bn": "টমেটোর",
+        "tr": "tometor",
+        "en": "of tomatoes"
+      },
+      "options": [
+        "টমেটো",
+        "টমেটোর",
+        "আমার",
+        "টাকা"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e08",
       "type": "select_translation",
       "prompt": {
         "bn": "টমেটো",
@@ -160,43 +192,43 @@
       },
       "direction": "bn_to_en",
       "options": [
+        "onion",
         "tomato",
-        "uncle (fufu's husband)",
-        "uncle (father's brother)",
-        "market"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "e07",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "টমেটোর",
-        "tr": "tometor",
-        "en": "of tomatoes"
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "market",
-        "of tomatoes",
-        "banana",
-        "uncle (father's brother)"
+        "potato",
+        "mango"
       ],
       "answer": 1
     },
     {
-      "id": "e08",
+      "id": "e09",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আমার পেঁয়াজ লাগবে।",
+        "tr": "amar pe~yaj lagbe.",
+        "en": "I need onions."
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "I have onions.",
+        "I need potatoes.",
+        "I need onions.",
+        "I don't need onions."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e10",
       "type": "match_pairs",
       "pairs": [
+        {
+          "bn": "কেজি",
+          "tr": "keji",
+          "en": "kilo"
+        },
         {
           "bn": "হালি",
           "tr": "hali",
           "en": "four (a set of four)"
-        },
-        {
-          "bn": "লাগবে",
-          "tr": "lagbe",
-          "en": "need"
         },
         {
           "bn": "ডজন",
@@ -204,149 +236,250 @@
           "en": "dozen"
         },
         {
-          "bn": "কেজি",
-          "tr": "keji",
-          "en": "kilo"
-        },
-        {
           "bn": "আধা",
           "tr": "adha",
           "en": "half"
+        },
+        {
+          "bn": "পেঁয়াজ",
+          "tr": "pe~yaj",
+          "en": "onion"
         }
-      ]
-    },
-    {
-      "id": "e09",
-      "type": "word_bank",
-      "prompt": {
-        "bn": "এক ডজন কলা কত?",
-        "tr": "ek dozon kola koto?",
-        "en": "How much is a dozen bananas?"
-      },
-      "direction": "bn_to_en",
-      "tiles": [
-        "father",
-        "much",
-        "flatbread",
-        "a",
-        "How",
-        "is",
-        "dozen",
-        "water",
-        "bananas"
-      ],
-      "answer": [
-        "How",
-        "much",
-        "is",
-        "a",
-        "dozen",
-        "bananas"
-      ]
-    },
-    {
-      "id": "e10",
-      "type": "word_bank",
-      "prompt": {
-        "bn": "এক হালি কলা দিন।",
-        "tr": "ek hali kola din.",
-        "en": "Please give me four bananas."
-      },
-      "direction": "en_to_bn",
-      "tiles": [
-        "ষোলো",
-        "আপা",
-        "এক",
-        "হালি",
-        "কলা",
-        "তেরো",
-        "দিন"
-      ],
-      "answer": [
-        "এক",
-        "হালি",
-        "কলা",
-        "দিন"
       ]
     },
     {
       "id": "e11",
       "type": "word_bank",
       "prompt": {
-        "bn": "আমার পেঁয়াজ লাগবে।",
-        "tr": "amar pe~yaj lagbe.",
-        "en": "I need onions."
+        "bn": "আমার দুই কেজি আলু লাগবে।",
+        "tr": "amar dui keji alu lagbe.",
+        "en": "I need two kilos of potatoes."
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "tiles": [
-        "I",
-        "four",
-        "give",
-        "onions",
-        "need",
-        "fruit"
+        "আমি",
+        "কেজি",
+        "দুইটা",
+        "লাগবে",
+        "আমার",
+        "আলু",
+        "চাই",
+        "দুই"
       ],
       "answer": [
-        "I",
-        "need",
-        "onions"
+        "আমার",
+        "দুই",
+        "কেজি",
+        "আলু",
+        "লাগবে"
       ]
     },
     {
       "id": "e12",
-      "type": "type_translation",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "এক হালি ডিম দেন।",
+        "tr": "ek hali dim den.",
+        "en": "Please give me four eggs."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "Please",
+        "give",
+        "me",
+        "four",
+        "eggs",
+        "a",
+        "dozen",
+        "hali",
+        "of",
+        "kilo"
+      ],
+      "answer": [
+        "Please",
+        "give",
+        "me",
+        "four",
+        "eggs"
+      ],
+      "alt": [
+        [
+          "give",
+          "me",
+          "four",
+          "eggs"
+        ],
+        [
+          "Please",
+          "give",
+          "me",
+          "a",
+          "hali",
+          "of",
+          "eggs"
+        ],
+        [
+          "give",
+          "me",
+          "a",
+          "hali",
+          "of",
+          "eggs"
+        ]
+      ]
+    },
+    {
+      "id": "e13",
+      "type": "select_translation",
       "prompt": {
         "bn": "টমেটোর কেজি কত?",
         "tr": "tometor keji koto?",
         "en": "How much is a kilo of tomatoes?"
       },
-      "direction": "bn_to_en",
-      "accepted": [
-        "How much is a kilo of tomatoes?",
-        "How much are tomatoes per kilo?"
+      "direction": "en_to_bn",
+      "options": [
+        "আধা কেজি টমেটো কত?",
+        "টমেটোর কেজি কত?",
+        "এক হালি টমেটো কত?",
+        "আমার টমেটো লাগবে।"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e14",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আধা কেজি টমেটো দেন।",
+        "tr": "adha keji tometo den.",
+        "en": "Please give me half a kilo of tomatoes. (polite)"
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "দেড়",
+        "টমেটো",
+        "দেন",
+        "হালি",
+        "আধা",
+        "টমেটোর",
+        "কেজি",
+        "দিন"
+      ],
+      "answer": [
+        "আধা",
+        "কেজি",
+        "টমেটো",
+        "দেন"
+      ],
+      "alt": [
+        [
+          "আধা",
+          "কেজি",
+          "টমেটো",
+          "দিন"
+        ]
       ]
     },
     {
-      "id": "e13",
-      "type": "word_bank",
+      "id": "e15",
+      "type": "type_translation",
       "prompt": {
         "bn": "আলু পঞ্চাশ টাকা কেজি।",
         "tr": "alu ponchash taka keji.",
         "en": "Potatoes are fifty taka a kilo."
       },
-      "direction": "en_to_bn",
-      "tiles": [
-        "পঞ্চাশ",
-        "আলু",
-        "ভাত",
-        "ত্রিশ",
-        "টাকা",
-        "কেজি",
-        "তোমার"
-      ],
-      "answer": [
-        "আলু",
-        "পঞ্চাশ",
-        "টাকা",
-        "কেজি"
+      "direction": "bn_to_en",
+      "accepted": [
+        "Potatoes are fifty taka a kilo",
+        "Potatoes are fifty taka per kilo",
+        "Potatoes are fifty taka a kg",
+        "Potatoes are fifty taka per kg",
+        "Potatoes are fifty taka a kilogram",
+        "Potatoes are fifty taka per kilogram",
+        "Potatoes are 50 taka a kilo",
+        "Potatoes are 50 taka per kilo",
+        "Potatoes are 50 taka a kg",
+        "Potatoes are 50 taka per kg",
+        "Potatoes are 50 taka a kilogram",
+        "Potatoes are 50 taka per kilogram",
+        "Potatoes are Tk 50 a kilo",
+        "Potatoes are Tk 50 per kilo",
+        "Potatoes are Tk 50 a kg",
+        "Potatoes are Tk 50 per kg",
+        "Potatoes are Tk 50 a kilogram",
+        "Potatoes are Tk 50 per kilogram",
+        "Potatoes are Tk50 a kilo",
+        "Potatoes are Tk50 per kilo",
+        "Potatoes are Tk50 a kg",
+        "Potatoes are Tk50 per kg",
+        "Potatoes are Tk50 a kilogram",
+        "Potatoes are Tk50 per kilogram",
+        "Potatoes are 50 Tk a kilo",
+        "Potatoes are 50 Tk per kilo",
+        "Potatoes are 50 Tk a kg",
+        "Potatoes are 50 Tk per kg",
+        "Potatoes are 50 Tk a kilogram",
+        "Potatoes are 50 Tk per kilogram",
+        "Potatoes cost fifty taka a kilo",
+        "Potatoes cost fifty taka per kilo",
+        "Potatoes cost fifty taka a kg",
+        "Potatoes cost fifty taka per kg",
+        "Potatoes cost fifty taka a kilogram",
+        "Potatoes cost fifty taka per kilogram",
+        "Potatoes cost 50 taka a kilo",
+        "Potatoes cost 50 taka per kilo",
+        "Potatoes cost 50 taka a kg",
+        "Potatoes cost 50 taka per kg",
+        "Potatoes cost 50 taka a kilogram",
+        "Potatoes cost 50 taka per kilogram",
+        "Potatoes cost Tk 50 a kilo",
+        "Potatoes cost Tk 50 per kilo",
+        "Potatoes cost Tk 50 a kg",
+        "Potatoes cost Tk 50 per kg",
+        "Potatoes cost Tk 50 a kilogram",
+        "Potatoes cost Tk 50 per kilogram",
+        "Potatoes cost Tk50 a kilo",
+        "Potatoes cost Tk50 per kilo",
+        "Potatoes cost Tk50 a kg",
+        "Potatoes cost Tk50 per kg",
+        "Potatoes cost Tk50 a kilogram",
+        "Potatoes cost Tk50 per kilogram",
+        "Potatoes cost 50 Tk a kilo",
+        "Potatoes cost 50 Tk per kilo",
+        "Potatoes cost 50 Tk a kg",
+        "Potatoes cost 50 Tk per kg",
+        "Potatoes cost 50 Tk a kilogram",
+        "Potatoes cost 50 Tk per kilogram",
+        "Potato is fifty taka a kilo",
+        "Potato is fifty taka per kilo",
+        "Potato is fifty taka a kg",
+        "Potato is fifty taka per kg",
+        "Potato is fifty taka a kilogram",
+        "Potato is fifty taka per kilogram",
+        "Potato is 50 taka a kilo",
+        "Potato is 50 taka per kilo",
+        "Potato is 50 taka a kg",
+        "Potato is 50 taka per kg",
+        "Potato is 50 taka a kilogram",
+        "Potato is 50 taka per kilogram",
+        "Potato is Tk 50 a kilo",
+        "Potato is Tk 50 per kilo",
+        "Potato is Tk 50 a kg",
+        "Potato is Tk 50 per kg",
+        "Potato is Tk 50 a kilogram",
+        "Potato is Tk 50 per kilogram",
+        "Potato is Tk50 a kilo",
+        "Potato is Tk50 per kilo",
+        "Potato is Tk50 a kg",
+        "Potato is Tk50 per kg",
+        "Potato is Tk50 a kilogram",
+        "Potato is Tk50 per kilogram",
+        "Potato is 50 Tk a kilo",
+        "Potato is 50 Tk per kilo",
+        "Potato is 50 Tk a kg",
+        "Potato is 50 Tk per kg",
+        "Potato is 50 Tk a kilogram",
+        "Potato is 50 Tk per kilogram"
       ]
-    },
-    {
-      "id": "e14",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "আধা কেজি টমেটো দেন।",
-        "tr": "adha keji tometo den.",
-        "en": "Please give me half a kilo of tomatoes."
-      },
-      "direction": "en_to_bn",
-      "options": [
-        "আমরা ভালো আছি।",
-        "আধা কেজি টমেটো দেন।",
-        "তার একটা মেয়ে আছে।",
-        "আচ্ছা, ধন্যবাদ, আন্টি।"
-      ],
-      "answer": 1
     }
   ]
 }

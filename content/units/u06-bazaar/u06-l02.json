@@ -3,7 +3,7 @@
   "unit": "u06-bazaar",
   "title": "Taka & prices",
   "status": "draft",
-  "tip": "Prices are just **number + টাকা** (*taka*): **পঞ্চাশ টাকা** 'fifty taka', **একশ টাকা** 'a hundred taka'. With no 'is' in the present, **চা দশ টাকা** simply means 'Tea (is) ten taka'.\n\nHundreds are built with **-শ** (*-sho*): **একশ** 100, **দুইশ** 200, **পাঁচশ** 500. A thousand is **হাজার** — **এক হাজার টাকা** = ৳1,000.\n\nA taka is 100 **পয়সা** (*poysha*). You'll rarely handle poysha coins today, but the word survives in expressions about money.\n\n**Listening tip:** Bengali numbers are irregular, so shopkeepers' quick answers are the hardest part of the bazaar. Don't be shy to ask again: **কত?**",
+  "tip": "Prices are just **number + টাকা** (*taka*): **পঞ্চাশ টাকা** 'fifty taka', **একশ টাকা** 'a hundred taka'. With no 'is' in the present, **চা দশ টাকা** simply means 'Tea (is) ten taka'. The currency sign is **৳**, and in English you'll see *Tk 50* or *50 taka*.\n\nHundreds are built with **-শ** (*-sho*): **একশ** 100, **দুইশ** 200, **পাঁচশ** 500. A thousand is **হাজার**, so **এক হাজার টাকা** = ৳1,000.\n\nWatch the pairs that sound alike:\n\n- **পঞ্চাশ** 50 vs **পনেরো** 15 vs **পাঁচশ** 500\n- **দুইশ** 200 vs **দুইটা** 'two (things)'\n- **দশ টাকা** 'ten taka' vs **দশটা** 'ten o'clock / ten things'\n\nA taka is 100 **পয়সা** (*poysha*). You'll rarely handle poysha coins today, but the word survives in sayings about money. **শুধু** (*shudhu*) 'only, just' is handy: **শুধু পঞ্চাশ টাকা** 'only fifty taka'.\n\n**Culture:** the notes you'll handle most are ৳10, ৳20, ৳50, ৳100, ৳200, ৳500 and ৳1,000, plus ৳1, ৳2 and ৳5 coins. Small vendors and rickshaw drivers often can't break a ৳500 or ৳1,000 note, so keep small notes for the bazaar. Price tags may use Bengali digits (Unit 5): ৫০ = 50.\n\n**Listening tip:** numbers come fast, so don't be shy to ask again: **কত?**",
   "vocab": [
     {
       "id": "taka",
@@ -51,29 +51,28 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "liking",
-        "of the hilsa",
-        "uncle (address)",
-        "taka"
+        "price",
+        "taka",
+        "poisha",
+        "how much"
       ],
-      "answer": 3
+      "answer": 1
     },
     {
       "id": "e02",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "পয়সা",
         "tr": "poysha",
         "en": "poisha"
       },
-      "direction": "bn_to_en",
       "options": [
-        "the banana",
-        "breakfast",
-        "poisha",
-        "boy"
+        "পানি",
+        "পয়সা",
+        "পাঁচ",
+        "বয়স"
       ],
-      "answer": 2
+      "answer": 1
     },
     {
       "id": "e03",
@@ -85,15 +84,31 @@
       },
       "direction": "bn_to_en",
       "options": [
+        "twenty",
+        "two (things)",
         "two hundred",
-        "twelve",
-        "six",
-        "seventy"
+        "twelve"
       ],
-      "answer": 0
+      "answer": 2
     },
     {
       "id": "e04",
+      "type": "listen_select",
+      "audio": {
+        "bn": "দুইশ",
+        "tr": "duisho",
+        "en": "two hundred"
+      },
+      "options": [
+        "দুইটা",
+        "দুই",
+        "দুইজন",
+        "দুইশ"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e05",
       "type": "select_translation",
       "prompt": {
         "bn": "পাঁচশ",
@@ -102,15 +117,31 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "ten (o'clock)",
         "five hundred",
-        "seventy",
-        "fourteen"
+        "fifty",
+        "fifteen",
+        "five (o'clock)"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e06",
+      "type": "listen_select",
+      "audio": {
+        "bn": "পঞ্চাশ",
+        "tr": "ponchash",
+        "en": "fifty"
+      },
+      "options": [
+        "পনেরো",
+        "পঞ্চাশ",
+        "পাঁচশ",
+        "পাঁচ"
       ],
       "answer": 1
     },
     {
-      "id": "e05",
+      "id": "e07",
       "type": "select_translation",
       "prompt": {
         "bn": "শুধু",
@@ -119,53 +150,26 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "in a year",
+        "very",
+        "all",
         "only",
-        "where",
-        "where (before থেকে)"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "e06",
-      "type": "listen_select",
-      "audio": {
-        "bn": "টাকা",
-        "tr": "taka",
-        "en": "taka"
-      },
-      "options": [
-        "পয়সা",
-        "বউ",
-        "টাকা",
-        "ইলিশের"
+        "a lot"
       ],
       "answer": 2
-    },
-    {
-      "id": "e07",
-      "type": "listen_select",
-      "audio": {
-        "bn": "পয়সা",
-        "tr": "poysha",
-        "en": "poisha"
-      },
-      "options": [
-        "ফুফা",
-        "বউ",
-        "দেশ",
-        "পয়সা"
-      ],
-      "answer": 3
     },
     {
       "id": "e08",
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "শুধু",
-          "tr": "shudhu",
-          "en": "only"
+          "bn": "টাকা",
+          "tr": "taka",
+          "en": "taka"
+        },
+        {
+          "bn": "পয়সা",
+          "tr": "poysha",
+          "en": "poisha"
         },
         {
           "bn": "দুইশ",
@@ -178,14 +182,9 @@
           "en": "five hundred"
         },
         {
-          "bn": "টাকা",
-          "tr": "taka",
-          "en": "taka"
-        },
-        {
-          "bn": "পয়সা",
-          "tr": "poysha",
-          "en": "poisha"
+          "bn": "হাজার",
+          "tr": "hajar",
+          "en": "thousand"
         }
       ]
     },
@@ -199,15 +198,15 @@
       },
       "direction": "bn_to_en",
       "tiles": [
-        "eleven",
+        "The",
         "hilsa",
-        "taka",
-        "eighty",
         "is",
         "a",
-        "The",
+        "hundred",
         "thousand",
-        "am"
+        "one",
+        "taka",
+        "fish"
       ],
       "answer": [
         "The",
@@ -216,6 +215,30 @@
         "a",
         "thousand",
         "taka"
+      ],
+      "alt": [
+        [
+          "The",
+          "hilsa",
+          "is",
+          "one",
+          "thousand",
+          "taka"
+        ],
+        [
+          "hilsa",
+          "is",
+          "a",
+          "thousand",
+          "taka"
+        ],
+        [
+          "hilsa",
+          "is",
+          "one",
+          "thousand",
+          "taka"
+        ]
       ]
     },
     {
@@ -228,11 +251,11 @@
       },
       "direction": "en_to_bn",
       "tiles": [
-        "আট",
-        "কোথা",
+        "পনেরো",
         "টাকা",
-        "পানি",
-        "পঞ্চাশ"
+        "পাঁচশ",
+        "পঞ্চাশ",
+        "পয়সা"
       ],
       "answer": [
         "পঞ্চাশ",
@@ -249,31 +272,54 @@
       },
       "direction": "bn_to_en",
       "tiles": [
-        "fifty",
+        "fifteen",
         "Only",
-        "two",
-        "fourteen",
-        "I",
-        "taka"
+        "taka",
+        "Just",
+        "fifty",
+        "hundred"
       ],
       "answer": [
         "Only",
         "fifty",
         "taka"
+      ],
+      "alt": [
+        [
+          "Just",
+          "fifty",
+          "taka"
+        ]
       ]
     },
     {
       "id": "e12",
       "type": "type_translation",
       "prompt": {
-        "bn": "দাম একশ টাকা।",
-        "tr": "dam eksho taka.",
-        "en": "The price is a hundred taka."
+        "bn": "দাম দুইশ টাকা।",
+        "tr": "dam duisho taka.",
+        "en": "The price is two hundred taka."
       },
       "direction": "bn_to_en",
       "accepted": [
-        "The price is a hundred taka.",
-        "It's a hundred taka."
+        "The price is two hundred taka",
+        "The price is 200 taka",
+        "The price is Tk 200",
+        "The price is Tk200",
+        "The price is 200 Tk",
+        "It's two hundred taka",
+        "It's 200 taka",
+        "It's Tk 200",
+        "It's Tk200",
+        "It's 200 Tk",
+        "It is two hundred taka",
+        "It is 200 taka",
+        "It is Tk 200",
+        "It is Tk200",
+        "It is 200 Tk",
+        "Two hundred taka.",
+        "200 taka.",
+        "Tk 200."
       ]
     },
     {
@@ -286,12 +332,12 @@
       },
       "direction": "en_to_bn",
       "tiles": [
-        "দশ",
-        "এটা",
         "টাকা",
+        "দশটা",
         "চা",
-        "বয়স",
-        "খাস"
+        "পয়সা",
+        "দশ",
+        "দাম"
       ],
       "answer": [
         "চা",
@@ -303,18 +349,33 @@
       "id": "e14",
       "type": "select_translation",
       "prompt": {
+        "bn": "এটা পাঁচশ টাকা।",
+        "tr": "eta pa~chsho taka.",
+        "en": "This is five hundred taka."
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "এটা পঞ্চাশ টাকা।",
+        "এটা পাঁচ টাকা।",
+        "এটা পাঁচশ টাকা।",
+        "এটা পাঁচশ পয়সা।"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e15",
+      "type": "type_translation",
+      "prompt": {
         "bn": "কত টাকা?",
         "tr": "koto taka?",
         "en": "How many taka?"
       },
       "direction": "en_to_bn",
-      "options": [
-        "আপা, আপনি কি ডাক্তার?",
-        "আমি আমেরিকা থেকে এসেছি।",
+      "accepted": [
         "কত টাকা?",
-        "আমি মাংস খাই না।"
-      ],
-      "answer": 2
+        "koto taka",
+        "kato taka"
+      ]
     }
   ]
 }
