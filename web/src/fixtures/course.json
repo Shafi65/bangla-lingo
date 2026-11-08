@@ -1,0 +1,13 @@
+{
+  "id": "bn-for-en-demo",
+  "title": "Bengali for English speakers (demo)",
+  "units": [
+    {
+      "id": "demo-basics",
+      "title": "Basics (demo)",
+      "description": "Built-in sample shown until real content exists",
+      "track": "main",
+      "lessons": ["demo-l01"]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "demo-l01",
+  "unit": "demo-basics",
+  "title": "Yes, no, thank you",
+  "tip": "**তুমি (tumi)** is the informal \"you\" for friends and people your age. With elders and strangers use **আপনি (apni)**.\nBengali sentences end with a danda **।** instead of a full stop.",
+  "vocab": [
+    { "id": "ami", "bn": "আমি", "tr": "ami", "en": "I" },
+    { "id": "tumi", "bn": "তুমি", "tr": "tumi", "en": "you", "notes": "informal" },
+    { "id": "hya", "bn": "হ্যাঁ", "tr": "hya", "en": "yes" },
+    { "id": "na", "bn": "না", "tr": "na", "en": "no" },
+    { "id": "dhonnobad", "bn": "ধন্যবাদ", "tr": "dhonnobad", "en": "thank you" }
+  ],
+  "exercises": [
+    {
+      "id": "e01", "type": "select_translation", "direction": "bn_to_en",
+      "prompt": { "bn": "আমি", "tr": "ami", "en": "I" },
+      "options": ["I", "you", "no", "yes"], "answer": 0
+    },
+    {
+      "id": "e02", "type": "select_translation", "direction": "en_to_bn",
+      "prompt": { "bn": "তুমি", "tr": "tumi", "en": "you" },
+      "options": ["না", "তুমি", "আমি", "হ্যাঁ"], "answer": 1
+    },
+    {
+      "id": "e03", "type": "match_pairs",
+      "pairs": [
+        { "bn": "আমি", "tr": "ami", "en": "I" },
+        { "bn": "তুমি", "tr": "tumi", "en": "you" },
+        { "bn": "হ্যাঁ", "tr": "hya", "en": "yes" },
+        { "bn": "না", "tr": "na", "en": "no" },
+        { "bn": "ধন্যবাদ", "tr": "dhonnobad", "en": "thank you" }
+      ]
+    },
+    {
+      "id": "e04", "type": "listen_select",
+      "audio": { "bn": "হ্যাঁ", "tr": "hya", "en": "yes" },
+      "options": ["না", "হ্যাঁ", "আমি", "তুমি"], "answer": 1
+    },
+    {
+      "id": "e05", "type": "word_bank", "direction": "bn_to_en",
+      "prompt": { "bn": "আমি ভালো আছি।", "tr": "ami bhalo achhi", "en": "I am fine." },
+      "tiles": ["I", "am", "fine", "you", "no", "thank"],
+      "answer": ["I", "am", "fine"]
+    },
+    {
+      "id": "e06", "type": "word_bank", "direction": "en_to_bn",
+      "prompt": { "bn": "না, ধন্যবাদ।", "tr": "na, dhonnobad", "en": "No, thank you." },
+      "tiles": ["না", "ধন্যবাদ", "হ্যাঁ", "আমি"],
+      "answer": ["না", "ধন্যবাদ"]
+    },
+    {
+      "id": "e07", "type": "type_translation", "direction": "en_to_bn",
+      "prompt": { "bn": "ধন্যবাদ", "tr": "dhonnobad", "en": "thank you" },
+      "accepted": ["ধন্যবাদ", "dhonnobad", "dhonnobaad", "donnobad", "dhonyobad", "dhonnobat"]
+    },
+    {
+      "id": "e08", "type": "type_translation", "direction": "bn_to_en",
+      "prompt": { "bn": "না", "tr": "na", "en": "no" },
+      "accepted": ["no"]
+    },
+    {
+      "id": "e09", "type": "script_recognize",
+      "glyph": "আ", "options": ["a", "i", "u", "e"], "answer": 0
+    },
+    {
+      "id": "e10", "type": "select_translation", "direction": "bn_to_en",
+      "prompt": { "bn": "ধন্যবাদ", "tr": "dhonnobad", "en": "thank you" },
+      "options": ["sorry", "thank you", "hello", "yes"], "answer": 1
+    },
+    {
+      "id": "e11", "type": "script_recognize",
+      "glyph": "ম", "options": ["n", "m", "k", "b"], "answer": 1
+    }
+  ]
+}

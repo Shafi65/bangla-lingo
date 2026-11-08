@@ -1,0 +1,96 @@
+@import "tailwindcss";
+
+@theme {
+  /* Bangladesh-flag inspired palette */
+  --color-brand: #006a4e;
+  --color-brand-dark: #004d38;
+  --color-brand-light: #e3f3ec;
+  --color-accent: #f42a41;
+  --color-accent-dark: #c21a2f;
+  --color-accent-light: #fde8ea;
+  --color-sun: #ffb300;
+  --color-ink: #1f2a2e;
+  --color-muted: #6b7a80;
+  --color-line: #e2e8e6;
+
+  --font-sans:
+    "Nunito Variable", "Noto Sans Bengali Variable", "Noto Sans Bengali",
+    "Hind Siliguri", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-bengali:
+    "Noto Sans Bengali Variable", "Noto Sans Bengali", "Hind Siliguri",
+    "Nunito Variable", system-ui, sans-serif;
+}
+
+html,
+body {
+  background: #ffffff;
+  color: var(--color-ink);
+}
+
+/* Any Bengali text: bump size slightly; Bengali glyphs read small at Latin sizes */
+[lang="bn"] {
+  font-family: var(--font-bengali);
+  line-height: 1.5;
+}
+
+/* Chunky "pressable" buttons */
+.btn {
+  @apply inline-flex min-h-12 items-center justify-center rounded-2xl px-6 py-3 text-base font-extrabold tracking-wide uppercase transition select-none;
+  border-bottom-width: 4px;
+}
+.btn:active:not(:disabled) {
+  transform: translateY(2px);
+  border-bottom-width: 2px;
+}
+.btn:disabled {
+  @apply cursor-not-allowed border-line bg-line text-muted;
+}
+.btn-primary {
+  @apply border-brand-dark bg-brand text-white hover:brightness-110;
+}
+.btn-danger {
+  @apply border-accent-dark bg-accent text-white hover:brightness-110;
+}
+.btn-ghost {
+  @apply border-line bg-white text-ink hover:bg-gray-50;
+  border-width: 2px;
+  border-bottom-width: 4px;
+}
+
+/* Answer choice card */
+.choice {
+  @apply w-full min-h-14 rounded-2xl border-2 border-b-4 border-line bg-white px-4 py-3 text-left text-lg font-bold transition;
+}
+.choice:hover:not(:disabled) {
+  @apply bg-gray-50;
+}
+.choice[aria-pressed="true"] {
+  @apply border-brand bg-brand-light text-brand-dark;
+}
+.choice:disabled {
+  @apply cursor-default;
+}
+
+@keyframes pop {
+  0% { transform: scale(0.96); }
+  60% { transform: scale(1.03); }
+  100% { transform: scale(1); }
+}
+.animate-pop {
+  animation: pop 0.25s ease-out;
+}
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-6px); }
+  75% { transform: translateX(6px); }
+}
+.animate-shake {
+  animation: shake 0.3s ease-in-out;
+}
+@keyframes slide-up {
+  from { transform: translateY(100%); }
+  to { transform: translateY(0); }
+}
+.animate-slide-up {
+  animation: slide-up 0.2s ease-out;
+}
