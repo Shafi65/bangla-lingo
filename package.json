@@ -1,0 +1,9 @@
+{
+  "name": "bangla-lingo",
+  "private": true,
+  "scripts": {
+    "validate": "node content/scripts/validate.mjs",
+    "build": "npm --prefix web run build",
+    "dev": "npm --prefix web run dev"
+  }
+}
