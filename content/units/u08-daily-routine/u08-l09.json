@@ -1,0 +1,308 @@
+{
+  "id": "u08-l09",
+  "unit": "u08-daily-routine",
+  "title": "Review: a day in my life",
+  "status": "draft",
+  "tip": "You can now describe a whole day:\n\n**আমি সাধারণত সকাল সাতটায় উঠি। তারপর গোসল করি আর নাস্তা করি। নাস্তার পরে অফিসে যাই। কাজের পরে বাসায় আসি, রান্না করি, তারপর ঘুমাই।**\n\n**সাধারণত** (*shadharonoto*) = 'usually'. Check your endings: আমি **-ই**, তুমি **-ও**, আপনি **-েন**, সে **-ে**. And remember the vowel-raising pairs: শুনি/শোনে, লিখি/লেখে, উঠি/ওঠে.",
+  "vocab": [
+    {
+      "id": "shadharonoto",
+      "bn": "সাধারণত",
+      "tr": "shadharonoto",
+      "en": "usually"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "সাধারণত",
+        "tr": "shadharonoto",
+        "en": "usually"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "usually",
+        "always",
+        "straight",
+        "maybe"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "এখন",
+        "tr": "ekhon",
+        "en": "now"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "now",
+        "straight",
+        "always",
+        "a little"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "তুমি",
+        "tr": "tumi",
+        "en": "you (familiar)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "these",
+        "you (familiar)",
+        "I",
+        "he/she (polite, spoken)"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e04",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "কী",
+        "tr": "ki",
+        "en": "what"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "your (intimate)",
+        "this",
+        "what",
+        "which"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e05",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "উঠি",
+        "tr": "uthi",
+        "en": "I get up"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "I speak",
+        "I get up",
+        "(you, familiar) eat",
+        "give (intimate)"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e06",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "সে",
+        "tr": "she",
+        "en": "he/she"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "this",
+        "they",
+        "something",
+        "he/she"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e07",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "সকাল",
+        "tr": "shokal",
+        "en": "morning"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "of the market",
+        "hotel",
+        "morning",
+        "of the station"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e08",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "প্রতিদিন",
+          "tr": "protidin",
+          "en": "every day"
+        },
+        {
+          "bn": "সাধারণত",
+          "tr": "shadharonoto",
+          "en": "usually"
+        },
+        {
+          "bn": "উঠি",
+          "tr": "uthi",
+          "en": "I get up"
+        },
+        {
+          "bn": "কী",
+          "tr": "ki",
+          "en": "what"
+        },
+        {
+          "bn": "সে",
+          "tr": "she",
+          "en": "he/she"
+        }
+      ]
+    },
+    {
+      "id": "e09",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "কাজের পরে আমি বাসায় আসি, তারপর রান্না করি।",
+        "tr": "kajer pore ami bashay ashi, tarpor ranna kori.",
+        "en": "After work I come home, then I cook."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "I",
+        "cook",
+        "breakfast",
+        "husband",
+        "then",
+        "home",
+        "After",
+        "I",
+        "work",
+        "come",
+        "Bangladesh"
+      ],
+      "answer": [
+        "After",
+        "work",
+        "I",
+        "come",
+        "home",
+        "then",
+        "I",
+        "cook"
+      ]
+    },
+    {
+      "id": "e10",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "সে প্রতিদিন স্কুলে যায়।",
+        "tr": "she protidin skule jay.",
+        "en": "She goes to school every day."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "কিন্তু",
+        "সত্যি",
+        "সে",
+        "স্কুলে",
+        "যায়",
+        "একটু",
+        "প্রতিদিন"
+      ],
+      "answer": [
+        "সে",
+        "প্রতিদিন",
+        "স্কুলে",
+        "যায়"
+      ]
+    },
+    {
+      "id": "e11",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমি কখনো টিভি দেখি না।",
+        "tr": "ami kokhono tibhi dekhi na.",
+        "en": "I never watch TV."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "watch",
+        "never",
+        "TV",
+        "I",
+        "he/she",
+        "behind",
+        "time"
+      ],
+      "answer": [
+        "I",
+        "never",
+        "watch",
+        "TV"
+      ]
+    },
+    {
+      "id": "e12",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আপনি সাধারণত কখন অফিসে যান?",
+        "tr": "apni shadharonoto kokhon ofise jan?",
+        "en": "When do you usually go to the office?"
+      },
+      "direction": "bn_to_en",
+      "accepted": [
+        "When do you usually go to the office?",
+        "What time do you usually go to work?"
+      ]
+    },
+    {
+      "id": "e13",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমি সাধারণত সকাল সাতটায় উঠি।",
+        "tr": "ami shadharonoto shokal shattay uthi.",
+        "en": "I usually get up at seven in the morning."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "খাও",
+        "সকাল",
+        "উঠি",
+        "সাতটায়",
+        "কলা",
+        "সাধারণত",
+        "দোকান",
+        "আমি"
+      ],
+      "answer": [
+        "আমি",
+        "সাধারণত",
+        "সকাল",
+        "সাতটায়",
+        "উঠি"
+      ]
+    },
+    {
+      "id": "e14",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "সে সবসময় গান শোনে।",
+        "tr": "she shobshomoy gan shone.",
+        "en": "She always listens to music."
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "উনিশ আর এক বিশ।",
+        "সে সবসময় গান শোনে।",
+        "আমি শিক্ষক, আমার নাম নাদিয়া।",
+        "তারপর আমি নাস্তা করি।"
+      ],
+      "answer": 1
+    }
+  ]
+}

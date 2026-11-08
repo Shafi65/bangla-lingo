@@ -1,0 +1,349 @@
+{
+  "id": "u09-l03",
+  "unit": "u09-past",
+  "title": "Went, came, ate",
+  "status": "draft",
+  "tip": "A handful of everyday verbs have irregular pasts. Learn them as words:\n\n- যাওয়া 'go' → **গেলাম** 'I went', **গেল** 'he/she went'\n- আসা 'come' → **এলাম** 'I came' (Bangladesh also: **আসলাম**)\n- খাওয়া 'eat / drink' → **খেলাম** 'I ate'\n- দেওয়া 'give' → **দিলাম** 'I gave'\n- নেওয়া 'take' → **নিলাম** 'I took'\n\nThe endings are still regular: -লাম, -লে, -ল… only the stem changes.\n\n**এলাম vs আসলাম:** both are heard across Bangladesh. **এলাম** is the standard (and Kolkata) form; **আসলাম** is very common in relaxed Bangladeshi speech. Understand both, use either.",
+  "vocab": [
+    {
+      "id": "gelam",
+      "bn": "গেলাম",
+      "tr": "gelam",
+      "en": "I went"
+    },
+    {
+      "id": "gelo",
+      "bn": "গেল",
+      "tr": "gelo",
+      "en": "went",
+      "notes": "Also spelled গেলো."
+    },
+    {
+      "id": "elam",
+      "bn": "এলাম",
+      "tr": "elam",
+      "en": "I came",
+      "notes": "Standard; preferred in Kolkata. Bangladeshi speech often uses আসলাম."
+    },
+    {
+      "id": "ele",
+      "bn": "এলে",
+      "tr": "ele",
+      "en": "you came (familiar)",
+      "notes": "BD colloquial: আসলে."
+    },
+    {
+      "id": "ashlam",
+      "bn": "আসলাম",
+      "tr": "ashlam",
+      "en": "I came",
+      "notes": "Very common in Bangladesh; considered colloquial. Standard: এলাম."
+    },
+    {
+      "id": "khelam",
+      "bn": "খেলাম",
+      "tr": "khelam",
+      "en": "I ate"
+    },
+    {
+      "id": "dilam",
+      "bn": "দিলাম",
+      "tr": "dilam",
+      "en": "I gave"
+    },
+    {
+      "id": "nilam",
+      "bn": "নিলাম",
+      "tr": "nilam",
+      "en": "I took"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "গেলাম",
+        "tr": "gelam",
+        "en": "I went"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "you do (familiar)",
+        "I did",
+        "lives (polite)",
+        "I went"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "গেল",
+        "tr": "gelo",
+        "en": "went"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "went",
+        "I am doing",
+        "I saw",
+        "you read (polite)"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "এলাম",
+        "tr": "elam",
+        "en": "I came"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "are (polite)",
+        "you will buy (polite)",
+        "strikes (the hour)",
+        "I came"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e04",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "এলে",
+        "tr": "ele",
+        "en": "you came (familiar)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "I do",
+        "you speak (polite)",
+        "you came (familiar)",
+        "am"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e05",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আসলাম",
+        "tr": "ashlam",
+        "en": "I came"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "I came",
+        "will you go (polite)",
+        "to speak",
+        "I gave"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e06",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "খেলাম",
+        "tr": "khelam",
+        "en": "I ate"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "to eat",
+        "you do (intimate)",
+        "I write",
+        "I ate"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e07",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "দিলাম",
+        "tr": "dilam",
+        "en": "I gave"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "I gave",
+        "I get up",
+        "is not",
+        "I watch"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e08",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "এলে",
+          "tr": "ele",
+          "en": "you came (familiar)"
+        },
+        {
+          "bn": "গেলাম",
+          "tr": "gelam",
+          "en": "I went"
+        },
+        {
+          "bn": "নিলাম",
+          "tr": "nilam",
+          "en": "I took"
+        },
+        {
+          "bn": "খেলাম",
+          "tr": "khelam",
+          "en": "I ate"
+        },
+        {
+          "bn": "এলাম",
+          "tr": "elam",
+          "en": "I came"
+        }
+      ]
+    },
+    {
+      "id": "e09",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "তুমি কখন এলে?",
+        "tr": "tumi kokhon ele?",
+        "en": "When did you come?"
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "When",
+        "two",
+        "you",
+        "our",
+        "thousand",
+        "did",
+        "come"
+      ],
+      "answer": [
+        "When",
+        "did",
+        "you",
+        "come"
+      ]
+    },
+    {
+      "id": "e10",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমি তাকে একশ টাকা দিলাম।",
+        "tr": "ami take eksho taka dilam.",
+        "en": "I gave him a hundred taka."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "করলেন",
+        "একশ",
+        "তাকে",
+        "আমি",
+        "বাড়ি",
+        "হোটেল",
+        "দিলাম",
+        "টাকা"
+      ],
+      "answer": [
+        "আমি",
+        "তাকে",
+        "একশ",
+        "টাকা",
+        "দিলাম"
+      ]
+    },
+    {
+      "id": "e11",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমি গতকাল বাজারে গেলাম।",
+        "tr": "ami gotokal bajare gelam.",
+        "en": "I went to the market yesterday."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "dozen",
+        "market",
+        "all",
+        "I",
+        "to",
+        "upstairs",
+        "went",
+        "the",
+        "yesterday"
+      ],
+      "answer": [
+        "I",
+        "went",
+        "to",
+        "the",
+        "market",
+        "yesterday"
+      ]
+    },
+    {
+      "id": "e12",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আমি রাতে বাসায় এলাম।",
+        "tr": "ami rate bashay elam.",
+        "en": "I came home at night."
+      },
+      "direction": "bn_to_en",
+      "accepted": [
+        "I came home at night."
+      ]
+    },
+    {
+      "id": "e13",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমি সকালে অফিসে আসলাম।",
+        "tr": "ami shokale ofise ashlam.",
+        "en": "I came to the office in the morning."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "খাই",
+        "পিছনে",
+        "সকালে",
+        "আমি",
+        "সাধারণত",
+        "আসলাম",
+        "অফিসে"
+      ],
+      "answer": [
+        "আমি",
+        "সকালে",
+        "অফিসে",
+        "আসলাম"
+      ]
+    },
+    {
+      "id": "e14",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "সে কোথায় গেল?",
+        "tr": "she kothay gelo?",
+        "en": "Where did he go?"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "হোটেল বামে।",
+        "সে কোথায় গেল?",
+        "শেষ দাম একশ টাকা।",
+        "না, ধন্যবাদ।"
+      ],
+      "answer": 1
+    }
+  ]
+}

@@ -1,0 +1,349 @@
+{
+  "id": "u08-l03",
+  "unit": "u08-daily-routine",
+  "title": "Work & school",
+  "status": "draft",
+  "tip": "**যাওয়া** 'go' follows the same person pattern: **আমি যাই**, **তুমি যাও**, **আপনি যান**, **সে যায়**. (You met **যান** as a polite command in Unit 7 — the present and the command look the same.)\n\n**আসা** 'come': **আমি আসি**, **সে আসে**.\n\nDestinations take the locative **-এ**: **অফিসে যাই** 'I go to the office', **স্কুলে যায়** 'goes to school'. With বাসা it's **বাসায়**.\n\n**Culture:** in Bangladesh the work/school week usually runs Sunday to Thursday; Friday (and often Saturday) is the weekend.",
+  "vocab": [
+    {
+      "id": "ofis",
+      "bn": "অফিস",
+      "tr": "ofis",
+      "en": "office"
+    },
+    {
+      "id": "ofise",
+      "bn": "অফিসে",
+      "tr": "ofise",
+      "en": "to the office"
+    },
+    {
+      "id": "skul",
+      "bn": "স্কুল",
+      "tr": "skul",
+      "en": "school"
+    },
+    {
+      "id": "skule",
+      "bn": "স্কুলে",
+      "tr": "skule",
+      "en": "to school"
+    },
+    {
+      "id": "jai",
+      "bn": "যাই",
+      "tr": "jai",
+      "en": "I go"
+    },
+    {
+      "id": "jao",
+      "bn": "যাও",
+      "tr": "jao",
+      "en": "you go (familiar)",
+      "notes": "Also the familiar command 'go!'."
+    },
+    {
+      "id": "jay",
+      "bn": "যায়",
+      "tr": "jay",
+      "en": "goes"
+    },
+    {
+      "id": "ashi",
+      "bn": "আসি",
+      "tr": "ashi",
+      "en": "I come",
+      "notes": "Also a goodbye: আসি 'I'll be going' (lit. 'I come [again]')."
+    },
+    {
+      "id": "ashe",
+      "bn": "আসে",
+      "tr": "ashe",
+      "en": "comes"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "অফিস",
+        "tr": "ofis",
+        "en": "office"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "noon",
+        "office",
+        "poisha",
+        "tea"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "অফিসে",
+        "tr": "ofise",
+        "en": "to the office"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "car",
+        "day",
+        "to the office",
+        "salt"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "স্কুল",
+        "tr": "skul",
+        "en": "school"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "price",
+        "train",
+        "meat",
+        "school"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e04",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "স্কুলে",
+        "tr": "skule",
+        "en": "to school"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "grandfather (mother's father)",
+        "to school",
+        "person",
+        "city"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e05",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "যাই",
+        "tr": "jai",
+        "en": "I go"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "I live",
+        "you will buy (polite)",
+        "I go",
+        "give (familiar)"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e06",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "যাও",
+        "tr": "jao",
+        "en": "you go (familiar)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "strikes (the hour)",
+        "I get up",
+        "you go (familiar)",
+        "(I/we) eat"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e07",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "যায়",
+        "tr": "jay",
+        "en": "goes"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "(you/he/she, polite) want",
+        "I will buy",
+        "(you, familiar) want",
+        "goes"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e08",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "স্কুলে",
+          "tr": "skule",
+          "en": "to school"
+        },
+        {
+          "bn": "অফিসে",
+          "tr": "ofise",
+          "en": "to the office"
+        },
+        {
+          "bn": "আসে",
+          "tr": "ashe",
+          "en": "comes"
+        },
+        {
+          "bn": "আসি",
+          "tr": "ashi",
+          "en": "I come"
+        },
+        {
+          "bn": "যাই",
+          "tr": "jai",
+          "en": "I go"
+        }
+      ]
+    },
+    {
+      "id": "e09",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমার অফিস বাসার কাছে।",
+        "tr": "amar ofis bashar kachhe.",
+        "en": "My office is near my home."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "school",
+        "office",
+        "My",
+        "my",
+        "father",
+        "you",
+        "near",
+        "is",
+        "home"
+      ],
+      "answer": [
+        "My",
+        "office",
+        "is",
+        "near",
+        "my",
+        "home"
+      ]
+    },
+    {
+      "id": "e10",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আব্বু অফিসে কাজ করেন।",
+        "tr": "abbu ofise kaj koren.",
+        "en": "Dad works in an office."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "তিন",
+        "অফিসে",
+        "আমি",
+        "আব্বু",
+        "কাজ",
+        "করেন",
+        "শুধু"
+      ],
+      "answer": [
+        "আব্বু",
+        "অফিসে",
+        "কাজ",
+        "করেন"
+      ]
+    },
+    {
+      "id": "e11",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "সে কখন আসে?",
+        "tr": "she kokhon ashe?",
+        "en": "When does he come?"
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "to",
+        "village",
+        "When",
+        "he",
+        "office",
+        "does",
+        "come"
+      ],
+      "answer": [
+        "When",
+        "does",
+        "he",
+        "come"
+      ]
+    },
+    {
+      "id": "e12",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "স্কুল কোথায়?",
+        "tr": "skul kothay?",
+        "en": "Where is the school?"
+      },
+      "direction": "bn_to_en",
+      "accepted": [
+        "Where is the school?"
+      ]
+    },
+    {
+      "id": "e13",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমি অফিসে যাই।",
+        "tr": "ami ofise jai.",
+        "en": "I go to the office."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "ঝাল",
+        "অফিসে",
+        "আমি",
+        "রাস্তা",
+        "মিনিট",
+        "যাই"
+      ],
+      "answer": [
+        "আমি",
+        "অফিসে",
+        "যাই"
+      ]
+    },
+    {
+      "id": "e14",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "তুমি কি স্কুলে যাও?",
+        "tr": "tumi ki skule jao?",
+        "en": "Do you go to school?"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "এগুলো কত?",
+        "ভাংতি নেই।",
+        "ঠিক আছে, দুইশ টাকা রাখেন।",
+        "তুমি কি স্কুলে যাও?"
+      ],
+      "answer": 3
+    }
+  ]
+}

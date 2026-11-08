@@ -1,0 +1,309 @@
+{
+  "id": "u09-l08",
+  "unit": "u09-past",
+  "title": "Review: what happened?",
+  "status": "draft",
+  "tip": "Quick check of the past system:\n\n- **simple past** (*did*): করলাম, করলে, করলেন, করল\n- **perfect** (*have done*): করেছি, খেয়েছেন\n- **negative** (*didn't / haven't*): present + **-নি** — করিনি, খাইনি\n- **was**: ছিলাম, ছিলে, ছিলেন, ছিল\n\n**ছবি** means both 'picture' and 'film': **একটা ছবি দেখলাম** 'I watched a film'.",
+  "vocab": [
+    {
+      "id": "chhobi",
+      "bn": "ছবি",
+      "tr": "chhobi",
+      "en": "film",
+      "notes": "Means both 'picture/photo' and 'film'. ছবি দেখা = watch a film."
+    },
+    {
+      "id": "giyechhilo",
+      "bn": "গিয়েছিল",
+      "tr": "giyechhilo",
+      "en": "had gone",
+      "notes": "Colloquial: গেছিল."
+    },
+    {
+      "id": "moto",
+      "bn": "মতো",
+      "tr": "moto",
+      "en": "like",
+      "notes": "Follows a genitive: মায়ের মতো \"like (my) mother\"."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ছবি",
+        "tr": "chhobi",
+        "en": "film"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "salt",
+        "minute",
+        "film",
+        "of sleep"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "গিয়েছিল",
+        "tr": "giyechhilo",
+        "en": "had gone"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "I am doing",
+        "you didn't eat (familiar)",
+        "give (polite)",
+        "had gone"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "মতো",
+        "tr": "moto",
+        "en": "like"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "like",
+        "upstairs",
+        "way",
+        "from"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e04",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ভাত",
+        "tr": "bhat",
+        "en": "rice"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "time",
+        "day (of the week)",
+        "rice",
+        "Saturday"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e05",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "খেয়েছেন",
+        "tr": "kheyechhen",
+        "en": "have you eaten (polite)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "have you eaten (polite)",
+        "I brush",
+        "comes",
+        "are (polite)"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e06",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "কোথায়",
+        "tr": "kothay",
+        "en": "where"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "there",
+        "just",
+        "ever",
+        "where"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e07",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "গতকাল",
+        "tr": "gotokal",
+        "en": "yesterday"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "left",
+        "yet",
+        "yesterday",
+        "every day"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e08",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "গিয়েছিল",
+          "tr": "giyechhilo",
+          "en": "had gone"
+        },
+        {
+          "bn": "আপনি",
+          "tr": "apni",
+          "en": "you (polite)"
+        },
+        {
+          "bn": "মতো",
+          "tr": "moto",
+          "en": "like"
+        },
+        {
+          "bn": "তুমি",
+          "tr": "tumi",
+          "en": "you (familiar)"
+        },
+        {
+          "bn": "ছবি",
+          "tr": "chhobi",
+          "en": "film"
+        }
+      ]
+    },
+    {
+      "id": "e09",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমি একটা ছবি দেখলাম।",
+        "tr": "ami ekta chhobi dekhlam.",
+        "en": "I watched a film."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "nine",
+        "watched",
+        "then",
+        "film",
+        "Friday",
+        "I",
+        "a"
+      ],
+      "answer": [
+        "I",
+        "watched",
+        "a",
+        "film"
+      ]
+    },
+    {
+      "id": "e10",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "কী হয়েছে?",
+        "tr": "ki hoyechhe?",
+        "en": "What happened?"
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "কী",
+        "চা",
+        "সিএনজি",
+        "করলি",
+        "হয়েছে"
+      ],
+      "answer": [
+        "কী",
+        "হয়েছে"
+      ]
+    },
+    {
+      "id": "e11",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমি এখনো খাইনি।",
+        "tr": "ami ekhono khaini.",
+        "en": "I haven't eaten yet."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "mother",
+        "eaten",
+        "yet",
+        "cow's",
+        "haven't",
+        "upstairs",
+        "I"
+      ],
+      "answer": [
+        "I",
+        "haven't",
+        "eaten",
+        "yet"
+      ]
+    },
+    {
+      "id": "e12",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আমি মাত্র বাজার থেকে এলাম।",
+        "tr": "ami matro bajar theke elam.",
+        "en": "I just came from the market."
+      },
+      "direction": "bn_to_en",
+      "accepted": [
+        "I just came from the market.",
+        "I've just come back from the market."
+      ]
+    },
+    {
+      "id": "e13",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আপনি কি ভাত খেয়েছেন?",
+        "tr": "apni ki bhat kheyechhen?",
+        "en": "Have you eaten?"
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "কি",
+        "খেয়েছেন",
+        "ভাত",
+        "পড়ছি",
+        "সবাই",
+        "জিনিস",
+        "আপনি"
+      ],
+      "answer": [
+        "আপনি",
+        "কি",
+        "ভাত",
+        "খেয়েছেন"
+      ]
+    },
+    {
+      "id": "e14",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "গতকাল তুমি কোথায় ছিলে?",
+        "tr": "gotokal tumi kothay chhile?",
+        "en": "Where were you yesterday?"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "আমি দুইটা আম চাই।",
+        "গতকাল তুমি কোথায় ছিলে?",
+        "স্টেশন দূরে? তাহলে রিকশায় যাব।",
+        "এত দাম কেন?"
+      ],
+      "answer": 1
+    }
+  ]
+}

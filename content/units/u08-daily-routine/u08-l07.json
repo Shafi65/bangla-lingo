@@ -1,0 +1,372 @@
+{
+  "id": "u08-l07",
+  "unit": "u08-daily-routine",
+  "title": "My day",
+  "status": "draft",
+  "tip": "Link your day with **তারপর** (*tarpor*) 'then': **আমি সকালে উঠি, তারপর গোসল করি।**\n\n**আগে** 'before' and **পরে** 'after' are postpositions, so the noun goes in the genitive:\n\n- **নাস্তার পরে** — after breakfast\n- **ঘুমের আগে** — before sleep\n- **কাজের পরে** — after work\n\nAlone they mean 'first' and 'later': **আগে নামাজ পড়ি, পরে নাস্তা করি** 'First I pray, then I have breakfast'.\n\nBreakfast is **নাস্তা**, and you 'do' it: **নাস্তা করা**. A typical Bangladeshi breakfast: রুটি, ডিম, সবজি and চা.\n\n**কারণ** \"because\" introduces the reason; **তাই** \"so\" introduces the result.",
+  "vocab": [
+    {
+      "id": "tarpor",
+      "bn": "তারপর",
+      "tr": "tarpor",
+      "en": "then"
+    },
+    {
+      "id": "age",
+      "bn": "আগে",
+      "tr": "age",
+      "en": "before",
+      "notes": "After a genitive: ঘুমের আগে 'before sleep'. Alone: 'first / earlier'."
+    },
+    {
+      "id": "pore-later",
+      "bn": "পরে",
+      "tr": "pore",
+      "en": "after",
+      "notes": "After a genitive: নাস্তার পরে 'after breakfast'. Sounds like পড়ে 'reads'."
+    },
+    {
+      "id": "nashtar",
+      "bn": "নাস্তার",
+      "tr": "nashtar",
+      "en": "of breakfast"
+    },
+    {
+      "id": "ghumer",
+      "bn": "ঘুমের",
+      "tr": "ghumer",
+      "en": "of sleep"
+    },
+    {
+      "id": "kajer",
+      "bn": "কাজের",
+      "tr": "kajer",
+      "en": "of work"
+    },
+    {
+      "id": "fon",
+      "bn": "ফোন",
+      "tr": "fon",
+      "en": "phone",
+      "notes": "ফোন দেখা \"look at one's phone\"; ফোন দেওয়া \"to call (someone)\"."
+    },
+    {
+      "id": "karon",
+      "bn": "কারণ",
+      "tr": "karon",
+      "en": "because"
+    },
+    {
+      "id": "tai",
+      "bn": "তাই",
+      "tr": "tai",
+      "en": "so"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "তারপর",
+        "tr": "tarpor",
+        "en": "then"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "at seven o'clock",
+        "then",
+        "how much",
+        "here"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আগে",
+        "tr": "age",
+        "en": "before"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "to",
+        "next to",
+        "before",
+        "in front of"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "পরে",
+        "tr": "pore",
+        "en": "after"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "after",
+        "outside",
+        "behind",
+        "inside"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e04",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "নাস্তার",
+        "tr": "nashtar",
+        "en": "of breakfast"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "of breakfast",
+        "to the station",
+        "aunt (mama's wife)",
+        "grandfather (mother's father)"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e05",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ঘুমের",
+        "tr": "ghumer",
+        "en": "of sleep"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "of sleep",
+        "Saturday",
+        "bath",
+        "help"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e06",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "কাজের",
+        "tr": "kajer",
+        "en": "of work"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "uncle (father's brother)",
+        "Sunday",
+        "elder sister; ma'am",
+        "of work"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e07",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ফোন",
+        "tr": "fon",
+        "en": "phone"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "fruit",
+        "phone",
+        "day (of the week)",
+        "dad"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e08",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "তারপর",
+          "tr": "tarpor",
+          "en": "then"
+        },
+        {
+          "bn": "আগে",
+          "tr": "age",
+          "en": "before"
+        },
+        {
+          "bn": "তাই",
+          "tr": "tai",
+          "en": "so"
+        },
+        {
+          "bn": "নাস্তার",
+          "tr": "nashtar",
+          "en": "of breakfast"
+        },
+        {
+          "bn": "কারণ",
+          "tr": "karon",
+          "en": "because"
+        }
+      ]
+    },
+    {
+      "id": "e09",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "নাস্তার পরে আমি অফিসে যাই।",
+        "tr": "nashtar pore ami ofise jai.",
+        "en": "After breakfast I go to the office."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "breakfast",
+        "office",
+        "the",
+        "go",
+        "After",
+        "sari",
+        "difficult",
+        "banana",
+        "to",
+        "I"
+      ],
+      "answer": [
+        "After",
+        "breakfast",
+        "I",
+        "go",
+        "to",
+        "the",
+        "office"
+      ]
+    },
+    {
+      "id": "e10",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "তারপর আমি নাস্তা করি।",
+        "tr": "tarpor ami nashta kori.",
+        "en": "Then I have breakfast."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "এসেছেন",
+        "আমি",
+        "মুরগি",
+        "করি",
+        "নাদিয়া",
+        "তারপর",
+        "নাস্তা"
+      ],
+      "answer": [
+        "তারপর",
+        "আমি",
+        "নাস্তা",
+        "করি"
+      ]
+    },
+    {
+      "id": "e11",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমি রাতে রান্না করি, কারণ সকালে সময় নেই।",
+        "tr": "ami rate ranna kori, karon shokale shomoy nei.",
+        "en": "I cook at night because there's no time in the morning."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "no",
+        "at",
+        "because",
+        "sister",
+        "night",
+        "morning",
+        "noon",
+        "in",
+        "the",
+        "there's",
+        "fare",
+        "cook",
+        "time",
+        "I"
+      ],
+      "answer": [
+        "I",
+        "cook",
+        "at",
+        "night",
+        "because",
+        "there's",
+        "no",
+        "time",
+        "in",
+        "the",
+        "morning"
+      ]
+    },
+    {
+      "id": "e12",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "কাজের পরে আমি বাসায় আসি।",
+        "tr": "kajer pore ami bashay ashi.",
+        "en": "After work I come home."
+      },
+      "direction": "bn_to_en",
+      "accepted": [
+        "After work I come home."
+      ]
+    },
+    {
+      "id": "e13",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমি রাতে টিভি দেখি, তারপর ঘুমাই।",
+        "tr": "ami rate tibhi dekhi, tarpor ghumai.",
+        "en": "At night I watch TV, then I sleep."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "বাজার",
+        "টিভি",
+        "দেখি",
+        "আমি",
+        "তারপর",
+        "রাতে",
+        "কতদূর",
+        "যাবেন",
+        "ঘুমাই"
+      ],
+      "answer": [
+        "আমি",
+        "রাতে",
+        "টিভি",
+        "দেখি",
+        "তারপর",
+        "ঘুমাই"
+      ]
+    },
+    {
+      "id": "e14",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আমি সকালে উঠি, তারপর গোসল করি।",
+        "tr": "ami shokale uthi, tarpor gosol kori.",
+        "en": "I get up in the morning, then I bathe."
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "ডাক্তার কোথায়?",
+        "এগুলো খুব দামি।",
+        "আমি সকালে উঠি, তারপর গোসল করি।",
+        "আচ্ছা, ধন্যবাদ, আন্টি।"
+      ],
+      "answer": 2
+    }
+  ]
+}

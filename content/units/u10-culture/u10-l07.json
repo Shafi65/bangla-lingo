@@ -1,0 +1,343 @@
+{
+  "id": "u10-l07",
+  "unit": "u10-culture",
+  "title": "With close friends",
+  "status": "draft",
+  "tip": "**তুই** is the language of real closeness: best friends, siblings, cousins your age. Among Bangladeshi friends you'll hear **দোস্ত** ('buddy') constantly. Used with a stranger or an elder, তুই is an insult — so only *answer* in তুই once someone uses it with you.\n\n'Let's…' = **চল / চলো / চলেন** + the আমি-form of the verb:\n\n- **চল, মেলায় যাই** (tui) — 'Let's go to the fair'\n- **চলো, যাই** (tumi) — 'Let's go'\n- **চলেন, চা খাই** (apni) — 'Shall we have tea?'\n\nতুই futures end in **-বি**: **আসবি?** 'Will you come?', **কী খাবি?** 'What'll you have?'",
+  "vocab": [
+    {
+      "id": "chol",
+      "bn": "চল",
+      "tr": "chol",
+      "en": "let's"
+    },
+    {
+      "id": "cholo",
+      "bn": "চলো",
+      "tr": "cholo",
+      "en": "let's"
+    },
+    {
+      "id": "cholen",
+      "bn": "চলেন",
+      "tr": "cholen",
+      "en": "let's"
+    },
+    {
+      "id": "dost",
+      "bn": "দোস্ত",
+      "tr": "dost",
+      "en": "buddy",
+      "notes": "Very common among young Bangladeshi friends; rare in Kolkata."
+    },
+    {
+      "id": "ashbi",
+      "bn": "আসবি",
+      "tr": "ashbi",
+      "en": "will you come (intimate)"
+    },
+    {
+      "id": "khabi",
+      "bn": "খাবি",
+      "tr": "khabi",
+      "en": "will you eat (intimate)"
+    },
+    {
+      "id": "nach",
+      "bn": "নাচ",
+      "tr": "nach",
+      "en": "dance"
+    },
+    {
+      "id": "hobe",
+      "bn": "হবে",
+      "tr": "hobe",
+      "en": "will be",
+      "notes": "Future of হওয়া 'be, become, happen'. You know it from আবার দেখা হবে."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "চল",
+        "tr": "chol",
+        "en": "let's"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "you do (intimate)",
+        "listens",
+        "let's",
+        "you sleep (polite)"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "চলো",
+        "tr": "cholo",
+        "en": "let's"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "reads",
+        "is not / are not (polite)",
+        "I will go",
+        "let's"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "চলেন",
+        "tr": "cholen",
+        "en": "let's"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "you were (familiar)",
+        "let's",
+        "you speak (polite)",
+        "keep (polite)"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e04",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "দোস্ত",
+        "tr": "dost",
+        "en": "buddy"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "to the fair",
+        "buddy",
+        "of tomatoes",
+        "English (language)"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e05",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আসবি",
+        "tr": "ashbi",
+        "en": "will you come (intimate)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "will you come (intimate)",
+        "(you, familiar) eat",
+        "(you, familiar) want",
+        "I did"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e06",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "খাবি",
+        "tr": "khabi",
+        "en": "will you eat (intimate)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "I write",
+        "will you eat (intimate)",
+        "will you come (intimate)",
+        "you are doing (polite)"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e07",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "নাচ",
+        "tr": "nach",
+        "en": "dance"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "Saturday",
+        "dance",
+        "of sleep",
+        "uncle (father's brother)"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e08",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "খাবি",
+          "tr": "khabi",
+          "en": "will you eat (intimate)"
+        },
+        {
+          "bn": "হবে",
+          "tr": "hobe",
+          "en": "will be"
+        },
+        {
+          "bn": "দোস্ত",
+          "tr": "dost",
+          "en": "buddy"
+        },
+        {
+          "bn": "চলো",
+          "tr": "cholo",
+          "en": "let's"
+        },
+        {
+          "bn": "আসবি",
+          "tr": "ashbi",
+          "en": "will you come (intimate)"
+        }
+      ]
+    },
+    {
+      "id": "e09",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "দোস্ত, তুই কোথায়?",
+        "tr": "dost, tui kothay?",
+        "en": "Buddy, where are you?"
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "you",
+        "are",
+        "where",
+        "only",
+        "am",
+        "Sunday",
+        "Buddy"
+      ],
+      "answer": [
+        "Buddy",
+        "where",
+        "are",
+        "you"
+      ]
+    },
+    {
+      "id": "e10",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "তুই কী খাবি?",
+        "tr": "tui ki khabi?",
+        "en": "What will you eat?"
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "দশ",
+        "তুই",
+        "কিনলাম",
+        "খাবি",
+        "কী",
+        "যাব"
+      ],
+      "answer": [
+        "তুই",
+        "কী",
+        "খাবি"
+      ]
+    },
+    {
+      "id": "e11",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আজ নাচ আর গান হবে।",
+        "tr": "aj nach ar gan hobe.",
+        "en": "There will be dancing and singing today."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "be",
+        "sixteen",
+        "singing",
+        "today",
+        "dancing",
+        "and",
+        "goes",
+        "There",
+        "water",
+        "will"
+      ],
+      "answer": [
+        "There",
+        "will",
+        "be",
+        "dancing",
+        "and",
+        "singing",
+        "today"
+      ]
+    },
+    {
+      "id": "e12",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "চল, মেলায় যাই।",
+        "tr": "chol, melay jai.",
+        "en": "Let's go to the fair."
+      },
+      "direction": "bn_to_en",
+      "accepted": [
+        "Let's go to the fair."
+      ]
+    },
+    {
+      "id": "e13",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "চল, গান শুনি।",
+        "tr": "chol, gan shuni.",
+        "en": "Let's listen to music."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "করো",
+        "শুনি",
+        "গান",
+        "চল",
+        "খালা",
+        "পড়লাম"
+      ],
+      "answer": [
+        "চল",
+        "গান",
+        "শুনি"
+      ]
+    },
+    {
+      "id": "e14",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "চলেন, চা খাই।",
+        "tr": "cholen, cha khai.",
+        "en": "Let's have tea."
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "ধানমন্ডি যাবেন?",
+        "নমস্কার।",
+        "আমার বউ ডাক্তার।",
+        "চলেন, চা খাই।"
+      ],
+      "answer": 3
+    }
+  ]
+}

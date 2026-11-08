@@ -1,0 +1,377 @@
+{
+  "id": "u08-l02",
+  "unit": "u08-daily-routine",
+  "title": "Wake up, sleep, wash",
+  "status": "draft",
+  "tip": "'At seven o'clock' = **সাতটায়** (*shattay*): number + **-টা** + locative **-য়**. Add the part of the day in front: **সকাল সাতটায়** 'at 7 a.m.', **রাত দশটায়** 'at 10 p.m.'\n\nTo wake up is **ঘুম থেকে ওঠা** — literally 'rise from sleep'. Watch the vowel: **আমি উঠি** but **আপনি ওঠেন**. Many common verbs swap o↔u or e↔i like this; more in Lesson 4.\n\n**কখন** (*kokhon*) 'when?' goes before the verb: **আপনি কখন ঘুমান?** 'When do you sleep?'\n\n**গোসল করা** (*gosol kora*) is the everyday Bangladeshi word for bathing / showering. Kolkata (and many Hindu speakers) say **স্নান করা** (*snan kora*).",
+  "vocab": [
+    {
+      "id": "uthi",
+      "bn": "উঠি",
+      "tr": "uthi",
+      "en": "I get up",
+      "notes": "From ওঠা 'rise'. Note the vowel change: আমি উঠি but সে ওঠে."
+    },
+    {
+      "id": "othen",
+      "bn": "ওঠেন",
+      "tr": "othen",
+      "en": "you get up (polite)"
+    },
+    {
+      "id": "ghumai",
+      "bn": "ঘুমাই",
+      "tr": "ghumai",
+      "en": "I sleep"
+    },
+    {
+      "id": "ghuman",
+      "bn": "ঘুমান",
+      "tr": "ghuman",
+      "en": "you sleep (polite)"
+    },
+    {
+      "id": "ghum",
+      "bn": "ঘুম",
+      "tr": "ghum",
+      "en": "sleep"
+    },
+    {
+      "id": "gosol",
+      "bn": "গোসল",
+      "tr": "gosol",
+      "en": "bath",
+      "notes": "গোসল করা = take a bath / shower. Used by Bangladeshi Muslims."
+    },
+    {
+      "id": "dat",
+      "bn": "দাঁত",
+      "tr": "da~t",
+      "en": "teeth"
+    },
+    {
+      "id": "maji",
+      "bn": "মাজি",
+      "tr": "maji",
+      "en": "I brush",
+      "notes": "From মাজা 'scrub, brush'. Urban speech often says দাঁত ব্রাশ করি instead."
+    },
+    {
+      "id": "dat-maja",
+      "bn": "দাঁত মাজা",
+      "tr": "da~t maja",
+      "en": "brushing teeth",
+      "notes": "Also very common, especially in cities: দাঁত ব্রাশ করা (দাঁত ব্রাশ করি \"I brush my teeth\") — accept both."
+    },
+    {
+      "id": "shattay",
+      "bn": "সাতটায়",
+      "tr": "shattay",
+      "en": "at seven o'clock",
+      "notes": "সাত + -টা + locative -য়."
+    },
+    {
+      "id": "doshtay",
+      "bn": "দশটায়",
+      "tr": "doshtay",
+      "en": "at ten o'clock"
+    },
+    {
+      "id": "kokhon",
+      "bn": "কখন",
+      "tr": "kokhon",
+      "en": "when"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "উঠি",
+        "tr": "uthi",
+        "en": "I get up"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "you do (intimate)",
+        "I do",
+        "you do (polite)",
+        "I get up"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ওঠেন",
+        "tr": "othen",
+        "en": "you get up (polite)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "you will buy (polite)",
+        "are (polite)",
+        "to eat",
+        "you get up (polite)"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ঘুমাই",
+        "tr": "ghumai",
+        "en": "I sleep"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "you sleep (polite)",
+        "are (intimate)",
+        "I sleep",
+        "go (polite)"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e04",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ঘুমান",
+        "tr": "ghuman",
+        "en": "you sleep (polite)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "you sleep (polite)",
+        "has come on (felt)",
+        "give (intimate)",
+        "(I/we) want"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e05",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ঘুম",
+        "tr": "ghum",
+        "en": "sleep"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "father",
+        "the fish",
+        "of the hotel",
+        "sleep"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e06",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "গোসল",
+        "tr": "gosol",
+        "en": "bath"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "of tomatoes",
+        "meaning",
+        "sleep",
+        "bath"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e07",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "দাঁত",
+        "tr": "da~t",
+        "en": "teeth"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "bath",
+        "hotel",
+        "tomato",
+        "teeth"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e08",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "মাজি",
+          "tr": "maji",
+          "en": "I brush"
+        },
+        {
+          "bn": "দাঁত মাজা",
+          "tr": "da~t maja",
+          "en": "brushing teeth"
+        },
+        {
+          "bn": "কখন",
+          "tr": "kokhon",
+          "en": "when"
+        },
+        {
+          "bn": "সাতটায়",
+          "tr": "shattay",
+          "en": "at seven o'clock"
+        },
+        {
+          "bn": "দশটায়",
+          "tr": "doshtay",
+          "en": "at ten o'clock"
+        }
+      ]
+    },
+    {
+      "id": "e09",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমি সকালে দাঁত মাজি।",
+        "tr": "ami shokale da~t maji.",
+        "en": "I brush my teeth in the morning."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "price",
+        "brush",
+        "in",
+        "teeth",
+        "sixty",
+        "morning",
+        "my",
+        "village",
+        "the",
+        "I"
+      ],
+      "answer": [
+        "I",
+        "brush",
+        "my",
+        "teeth",
+        "in",
+        "the",
+        "morning"
+      ]
+    },
+    {
+      "id": "e10",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আপনি কখন ঘুমান?",
+        "tr": "apni kokhon ghuman?",
+        "en": "When do you sleep?"
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "বড়",
+        "আপনি",
+        "কখন",
+        "মন্দির",
+        "ঘুমান",
+        "হাসপাতাল"
+      ],
+      "answer": [
+        "আপনি",
+        "কখন",
+        "ঘুমান"
+      ]
+    },
+    {
+      "id": "e11",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমি রাত দশটায় ঘুমাই।",
+        "tr": "ami rat doshtay ghumai.",
+        "en": "I sleep at ten at night."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "I",
+        "night",
+        "at",
+        "help",
+        "evening",
+        "fare",
+        "at",
+        "sleep",
+        "ten"
+      ],
+      "answer": [
+        "I",
+        "sleep",
+        "at",
+        "ten",
+        "at",
+        "night"
+      ]
+    },
+    {
+      "id": "e12",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আপনি কখন ঘুম থেকে ওঠেন?",
+        "tr": "apni kokhon ghum theke othen?",
+        "en": "When do you wake up?"
+      },
+      "direction": "bn_to_en",
+      "accepted": [
+        "When do you wake up?",
+        "What time do you get up?"
+      ]
+    },
+    {
+      "id": "e13",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "সে রাতে গোসল করে।",
+        "tr": "she rate gosol kore.",
+        "en": "She bathes at night."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "করে",
+        "রাতে",
+        "নয়",
+        "চিনি",
+        "গোসল",
+        "সে",
+        "একশ"
+      ],
+      "answer": [
+        "সে",
+        "রাতে",
+        "গোসল",
+        "করে"
+      ]
+    },
+    {
+      "id": "e14",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আমি সকালে উঠি।",
+        "tr": "ami shokale uthi.",
+        "en": "I get up in the morning."
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "আজ আমার প্রথম দিন।",
+        "আমার ঝাল পছন্দ না।",
+        "আমি সকালে উঠি।",
+        "আমার দাদি খুব ভালো মানুষ।"
+      ],
+      "answer": 2
+    }
+  ]
+}

@@ -1,0 +1,369 @@
+{
+  "id": "u08-l04",
+  "unit": "u08-daily-routine",
+  "title": "Read, write, watch, listen",
+  "status": "draft",
+  "tip": "Some verbs have **o** or **e** in the stem that **rises** to **u** or **i** in certain forms (including আমি). Learn them in pairs:\n\n- শোনা 'listen': আমি **শুনি** — সে **শোনে**\n- লেখা 'write': আমি **লিখি** — সে **লেখে**\n- ওঠা 'rise': আমি **উঠি** — সে **ওঠে**\n\nNot every verb does this: **দেখা** 'see / watch' keeps its এ — আমি **দেখি**, সে **দেখে**. Learn each verb as an আমি + সে pair.\n\nObjects come **before** the verb, never after: **আমি বই পড়ি** 'I read books', **আমি গান শুনি** 'I listen to music'.\n\n**পড়া** means both 'read' and 'study'. And note **পড়ে** 'reads' vs **পরে** 'later' — same sound, different spelling.",
+  "vocab": [
+    {
+      "id": "pori",
+      "bn": "পড়ি",
+      "tr": "pori",
+      "en": "I read",
+      "notes": "পড়া = read; also 'study': আমি বাংলা পড়ি 'I study Bengali'."
+    },
+    {
+      "id": "pore-reads",
+      "bn": "পড়ে",
+      "tr": "pore",
+      "en": "reads",
+      "notes": "Sounds the same as পরে 'later' — different spelling (ড় vs র)."
+    },
+    {
+      "id": "dekhi",
+      "bn": "দেখি",
+      "tr": "dekhi",
+      "en": "I watch"
+    },
+    {
+      "id": "dekhe",
+      "bn": "দেখে",
+      "tr": "dekhe",
+      "en": "watches"
+    },
+    {
+      "id": "shuni",
+      "bn": "শুনি",
+      "tr": "shuni",
+      "en": "I listen"
+    },
+    {
+      "id": "shone",
+      "bn": "শোনে",
+      "tr": "shone",
+      "en": "listens"
+    },
+    {
+      "id": "likhi",
+      "bn": "লিখি",
+      "tr": "likhi",
+      "en": "I write"
+    },
+    {
+      "id": "lekhe",
+      "bn": "লেখে",
+      "tr": "lekhe",
+      "en": "writes"
+    },
+    {
+      "id": "boli",
+      "bn": "বলি",
+      "tr": "boli",
+      "en": "I speak"
+    },
+    {
+      "id": "bolen",
+      "bn": "বলেন",
+      "tr": "bolen",
+      "en": "you speak (polite)"
+    },
+    {
+      "id": "boi",
+      "bn": "বই",
+      "tr": "boi",
+      "en": "book"
+    },
+    {
+      "id": "tibhi",
+      "bn": "টিভি",
+      "tr": "tibhi",
+      "en": "TV"
+    },
+    {
+      "id": "gan",
+      "bn": "গান",
+      "tr": "gan",
+      "en": "song",
+      "notes": "গান শোনা 'listen to music'; গান করা / গাওয়া 'sing'."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "পড়ি",
+        "tr": "pori",
+        "en": "I read"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "I read",
+        "I get up",
+        "I sleep",
+        "reads"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "পড়ে",
+        "tr": "pore",
+        "en": "reads"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "I write",
+        "(you/he/she, polite) want",
+        "reads",
+        "am not"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "দেখি",
+        "tr": "dekhi",
+        "en": "I watch"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "I listen",
+        "(he/she/they) eats",
+        "I watch",
+        "will go"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e04",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "দেখে",
+        "tr": "dekhe",
+        "en": "watches"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "comes",
+        "has come on (felt)",
+        "watches",
+        "will go"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e05",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "শুনি",
+        "tr": "shuni",
+        "en": "I listen"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "(I/we) eat",
+        "I listen",
+        "(he/she/they) eats",
+        "will go"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e06",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "শোনে",
+        "tr": "shone",
+        "en": "listens"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "writes",
+        "listens",
+        "I will go",
+        "(I) know"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e07",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "লিখি",
+        "tr": "likhi",
+        "en": "I write"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "watches",
+        "I write",
+        "I speak",
+        "stop (polite)"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e08",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "বই",
+          "tr": "boi",
+          "en": "book"
+        },
+        {
+          "bn": "বলেন",
+          "tr": "bolen",
+          "en": "you speak (polite)"
+        },
+        {
+          "bn": "বলি",
+          "tr": "boli",
+          "en": "I speak"
+        },
+        {
+          "bn": "লেখে",
+          "tr": "lekhe",
+          "en": "writes"
+        },
+        {
+          "bn": "টিভি",
+          "tr": "tibhi",
+          "en": "TV"
+        }
+      ]
+    },
+    {
+      "id": "e09",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমি বই পড়ি।",
+        "tr": "ami boi pori.",
+        "en": "I read books."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "fish",
+        "evening",
+        "books",
+        "read",
+        "age",
+        "I"
+      ],
+      "answer": [
+        "I",
+        "read",
+        "books"
+      ]
+    },
+    {
+      "id": "e10",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আপনি কি ইংরেজি বলেন?",
+        "tr": "apni ki ingreji bolen?",
+        "en": "Do you speak English?"
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "বলেন",
+        "ঘণ্টা",
+        "কি",
+        "ইংরেজি",
+        "আপনি",
+        "পৌনে",
+        "আমরা"
+      ],
+      "answer": [
+        "আপনি",
+        "কি",
+        "ইংরেজি",
+        "বলেন"
+      ]
+    },
+    {
+      "id": "e11",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমি গান শুনি।",
+        "tr": "ami gan shuni.",
+        "en": "I listen to music."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "music",
+        "fish",
+        "to",
+        "family",
+        "hour",
+        "I",
+        "listen"
+      ],
+      "answer": [
+        "I",
+        "listen",
+        "to",
+        "music"
+      ]
+    },
+    {
+      "id": "e12",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "সে বই পড়ে।",
+        "tr": "she boi pore.",
+        "en": "She reads books."
+      },
+      "direction": "bn_to_en",
+      "accepted": [
+        "She reads books.",
+        "He reads books."
+      ]
+    },
+    {
+      "id": "e13",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "সে ইংরেজি লেখে।",
+        "tr": "she ingreji lekhe.",
+        "en": "He writes English."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "সে",
+        "বাজার",
+        "দামি",
+        "ইংরেজি",
+        "বাংলাদেশ",
+        "লেখে"
+      ],
+      "answer": [
+        "সে",
+        "ইংরেজি",
+        "লেখে"
+      ]
+    },
+    {
+      "id": "e14",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "সে টিভি দেখে।",
+        "tr": "she tibhi dekhe.",
+        "en": "He watches TV."
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "শেষ দাম কত, ভাই?",
+        "এই রাস্তা দিয়ে সোজা যান।",
+        "সে টিভি দেখে।",
+        "আমার বাড়ি সিলেটে।"
+      ],
+      "answer": 2
+    }
+  ]
+}

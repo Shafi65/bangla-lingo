@@ -1,0 +1,324 @@
+{
+  "id": "u10-l08",
+  "unit": "u10-culture",
+  "title": "Review: festivals & friends",
+  "status": "draft",
+  "tip": "Match the greeting to the occasion:\n\n- Eid — **ঈদ মোবারক**\n- Bengali New Year — **শুভ নববর্ষ**\n- after Durga Puja — **শুভ বিজয়া**\n- birthday — **শুভ জন্মদিন**\n- to a whole group — **সবাইকে ঈদের শুভেচ্ছা**\n\nAnd match the register to the person: **চলেন** with your teacher, **চলো** with a classmate, **চল** with your best friend. When in doubt, go one level *more* polite.\n\n**যদি** \"if\" + present tense: **যদি সময় হয়** \"if there's time\" — a soft way to invite.",
+  "vocab": [
+    {
+      "id": "shobaike",
+      "bn": "সবাইকে",
+      "tr": "shobaike",
+      "en": "everyone",
+      "notes": "Object form of সবাই 'everyone'."
+    },
+    {
+      "id": "jodi",
+      "bn": "যদি",
+      "tr": "jodi",
+      "en": "if"
+    },
+    {
+      "id": "hoy",
+      "bn": "হয়",
+      "tr": "hoy",
+      "en": "is",
+      "notes": "From হওয়া \"be, become, happen\". যদি সময় হয় \"if there's time\"."
+    },
+    {
+      "id": "lok",
+      "bn": "লোক",
+      "tr": "lok",
+      "en": "people",
+      "notes": "Everyday word for \"person / people\"; মানুষ is more neutral."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "সবাইকে",
+        "tr": "shobaike",
+        "en": "everyone"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "everyone",
+        "your (familiar)",
+        "my",
+        "that"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "যদি",
+        "tr": "jodi",
+        "en": "if"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "(yes/no question marker)",
+        "if",
+        "yes",
+        "OK"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "হয়",
+        "tr": "hoy",
+        "en": "is"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "went",
+        "watches",
+        "is",
+        "let's"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e04",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "লোক",
+        "tr": "lok",
+        "en": "people"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "in the city",
+        "aunt (chacha's wife)",
+        "breakfast",
+        "people"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e05",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "শুভেচ্ছা",
+        "tr": "shubhechchha",
+        "en": "greetings"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "of breakfast",
+        "greetings",
+        "aunt (chacha's wife)",
+        "office"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e06",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "বাসায়",
+        "tr": "bashay",
+        "en": "at home"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "at home",
+        "breakfast",
+        "mosque",
+        "tomato"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e07",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ঈদের",
+        "tr": "ider",
+        "en": "of Eid"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "Friday",
+        "person",
+        "of Eid",
+        "New Year"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e08",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "সবাইকে",
+          "tr": "shobaike",
+          "en": "everyone"
+        },
+        {
+          "bn": "হয়",
+          "tr": "hoy",
+          "en": "is"
+        },
+        {
+          "bn": "শুভেচ্ছা",
+          "tr": "shubhechchha",
+          "en": "greetings"
+        },
+        {
+          "bn": "যদি",
+          "tr": "jodi",
+          "en": "if"
+        },
+        {
+          "bn": "লোক",
+          "tr": "lok",
+          "en": "people"
+        }
+      ]
+    },
+    {
+      "id": "e09",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আজ পহেলা বৈশাখ, চলো মেলায় যাই।",
+        "tr": "aj pohela boishakh, cholo melay jai.",
+        "en": "Today is Pohela Boishakh, let's go to the fair."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "the",
+        "bus",
+        "is",
+        "Pohela",
+        "lentils",
+        "fair",
+        "go",
+        "Today",
+        "let's",
+        "to",
+        "Boishakh",
+        "bought"
+      ],
+      "answer": [
+        "Today",
+        "is",
+        "Pohela",
+        "Boishakh",
+        "let's",
+        "go",
+        "to",
+        "the",
+        "fair"
+      ]
+    },
+    {
+      "id": "e10",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "সবাইকে ঈদের শুভেচ্ছা।",
+        "tr": "shobaike ider shubhechchha.",
+        "en": "Eid greetings to everyone."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "সবাইকে",
+        "বাড়ি",
+        "করে",
+        "যাও",
+        "ঈদের",
+        "শুভেচ্ছা"
+      ],
+      "answer": [
+        "সবাইকে",
+        "ঈদের",
+        "শুভেচ্ছা"
+      ]
+    },
+    {
+      "id": "e11",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "শুভ জন্মদিন, বন্ধু।",
+        "tr": "shubho jonmodin, bondhu.",
+        "en": "Happy birthday, friend."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "friend",
+        "OK",
+        "independence",
+        "Happy",
+        "birthday",
+        "market"
+      ],
+      "answer": [
+        "Happy",
+        "birthday",
+        "friend"
+      ]
+    },
+    {
+      "id": "e12",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আমাদের বাসায় আসবেন, পিঠা খাবেন।",
+        "tr": "amader bashay ashben, pitha khaben.",
+        "en": "Please come to our home and have some pitha."
+      },
+      "direction": "bn_to_en",
+      "accepted": [
+        "Please come to our home and have some pitha."
+      ]
+    },
+    {
+      "id": "e13",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "দোস্ত, চল ইফতার করি।",
+        "tr": "dost, chol iftar kori.",
+        "en": "Buddy, let's have iftar."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "দোস্ত",
+        "ইফতার",
+        "আছো",
+        "চল",
+        "দুধ",
+        "করি",
+        "পাঁচটা"
+      ],
+      "answer": [
+        "দোস্ত",
+        "চল",
+        "ইফতার",
+        "করি"
+      ]
+    },
+    {
+      "id": "e14",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "একুশে ফেব্রুয়ারি আমরা শহীদ মিনার যাই।",
+        "tr": "ekushe februari amra shohid minar jai.",
+        "en": "On 21 February we go to the Shaheed Minar."
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "স্বাধীনতা দিবসে ছুটি।",
+        "একুশে ফেব্রুয়ারি আমরা শহীদ মিনার যাই।",
+        "আমি বাংলাদেশি।",
+        "ওই মাছটা দেন।"
+      ],
+      "answer": 1
+    }
+  ]
+}

@@ -165,21 +165,49 @@
       "title": "Daily routine",
       "description": "Everyday verbs in the present tense",
       "track": "main",
-      "lessons": []
+      "lessons": [
+        "u08-l01",
+        "u08-l02",
+        "u08-l03",
+        "u08-l04",
+        "u08-l05",
+        "u08-l06",
+        "u08-l07",
+        "u08-l08",
+        "u08-l09"
+      ]
     },
     {
       "id": "u09-past",
       "title": "Yesterday",
       "description": "Talk about what you did: the past tense",
       "track": "main",
-      "lessons": []
+      "lessons": [
+        "u09-l01",
+        "u09-l02",
+        "u09-l03",
+        "u09-l04",
+        "u09-l05",
+        "u09-l06",
+        "u09-l07",
+        "u09-l08"
+      ]
     },
     {
       "id": "u10-culture",
       "title": "Culture & festivals",
       "description": "Eid, Pohela Boishakh, Puja, Ekushe and invitations",
       "track": "main",
-      "lessons": []
+      "lessons": [
+        "u10-l01",
+        "u10-l02",
+        "u10-l03",
+        "u10-l04",
+        "u10-l05",
+        "u10-l06",
+        "u10-l07",
+        "u10-l08"
+      ]
     }
   ]
 }

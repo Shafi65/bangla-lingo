@@ -1,0 +1,363 @@
+{
+  "id": "u10-l05",
+  "unit": "u10-culture",
+  "title": "Ekushe & national days",
+  "status": "draft",
+  "tip": "On **21 February 1952**, students in Dhaka were shot while demanding that **বাংলা** be a state language of Pakistan. Bangladesh remembers them on **একুশে ফেব্রুয়ারি** — **শহীদ দিবস** (Martyrs' Day). At dawn people walk barefoot to the **শহীদ মিনার** to lay flowers, singing *আমার ভাইয়ের রক্তে রাঙানো একুশে ফেব্রুয়ারি*. Since 1999 UNESCO marks the day worldwide as International **Mother Language** (মাতৃভাষা) Day.\n\nTwo more national days are public holidays (**ছুটি**):\n\n- **স্বাধীনতা দিবস** — Independence Day, 26 March (1971)\n- **বিজয় দিবস** — Victory Day, 16 December (1971)\n\n**দিবস** is the formal word for a named 'Day'; ordinary 'day' is **দিন**.",
+  "vocab": [
+    {
+      "id": "ekushe-februari",
+      "bn": "একুশে ফেব্রুয়ারি",
+      "tr": "ekushe februari",
+      "en": "21 February",
+      "notes": "Language Martyrs' Day; UNESCO's International Mother Language Day."
+    },
+    {
+      "id": "shohid",
+      "bn": "শহীদ",
+      "tr": "shohid",
+      "en": "martyr"
+    },
+    {
+      "id": "shohid-minar",
+      "bn": "শহীদ মিনার",
+      "tr": "shohid minar",
+      "en": "Shaheed Minar",
+      "notes": "Monument to the 1952 language martyrs in Dhaka; replicas stand in schools across the country."
+    },
+    {
+      "id": "bhasha",
+      "bn": "ভাষা",
+      "tr": "bhasha",
+      "en": "language"
+    },
+    {
+      "id": "matribhasha",
+      "bn": "মাতৃভাষা",
+      "tr": "matribhasha",
+      "en": "mother tongue"
+    },
+    {
+      "id": "dibosh",
+      "bn": "দিবস",
+      "tr": "dibosh",
+      "en": "day",
+      "notes": "Formal 'day' for named observances (বিজয় দিবস). Everyday 'day' is দিন."
+    },
+    {
+      "id": "dibose",
+      "bn": "দিবসে",
+      "tr": "dibose",
+      "en": "on the day"
+    },
+    {
+      "id": "bijoy-dibosh",
+      "bn": "বিজয় দিবস",
+      "tr": "bijoy dibosh",
+      "en": "Victory Day",
+      "notes": "16 December — the end of the 1971 Liberation War."
+    },
+    {
+      "id": "shadhinota",
+      "bn": "স্বাধীনতা",
+      "tr": "shadhinota",
+      "en": "independence",
+      "notes": "স্বাধীনতা দিবস 'Independence Day' = 26 March."
+    },
+    {
+      "id": "chhuti",
+      "bn": "ছুটি",
+      "tr": "chhuti",
+      "en": "holiday"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "একুশে ফেব্রুয়ারি",
+        "tr": "ekushe februari",
+        "en": "21 February"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "21 February",
+        "Eid Mubarak",
+        "brushing teeth",
+        "hello (Hindu greeting)"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "শহীদ",
+        "tr": "shohid",
+        "en": "martyr"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "car",
+        "train",
+        "martyr",
+        "TV"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "শহীদ মিনার",
+        "tr": "shohid minar",
+        "en": "Shaheed Minar"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "I think",
+        "OK",
+        "not yet",
+        "Shaheed Minar"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e04",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ভাষা",
+        "tr": "bhasha",
+        "en": "language"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "language",
+        "idol",
+        "sleep",
+        "fun; tasty"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e05",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "মাতৃভাষা",
+        "tr": "matribhasha",
+        "en": "mother tongue"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "tomato",
+        "mother tongue",
+        "temple",
+        "water"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e06",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "দিবস",
+        "tr": "dibosh",
+        "en": "day"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "day",
+        "station",
+        "shopkeeper",
+        "student (female)"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e07",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "দিবসে",
+        "tr": "dibose",
+        "en": "on the day"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "child",
+        "boy",
+        "mother",
+        "on the day"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e08",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "বিজয় দিবস",
+          "tr": "bijoy dibosh",
+          "en": "Victory Day"
+        },
+        {
+          "bn": "একুশে ফেব্রুয়ারি",
+          "tr": "ekushe februari",
+          "en": "21 February"
+        },
+        {
+          "bn": "ছুটি",
+          "tr": "chhuti",
+          "en": "holiday"
+        },
+        {
+          "bn": "শহীদ মিনার",
+          "tr": "shohid minar",
+          "en": "Shaheed Minar"
+        },
+        {
+          "bn": "স্বাধীনতা",
+          "tr": "shadhinota",
+          "en": "independence"
+        }
+      ]
+    },
+    {
+      "id": "e09",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "বাংলা আমার মাতৃভাষা।",
+        "tr": "bangla amar matribhasha.",
+        "en": "Bengali is my mother tongue."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "tongue",
+        "problem",
+        "just",
+        "Bengali",
+        "mother",
+        "is",
+        "there",
+        "my"
+      ],
+      "answer": [
+        "Bengali",
+        "is",
+        "my",
+        "mother",
+        "tongue"
+      ]
+    },
+    {
+      "id": "e10",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "সকালে আমরা শহীদ মিনার যাই।",
+        "tr": "shokale amra shohid minar jai.",
+        "en": "In the morning we go to the Shaheed Minar."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "দিনটা",
+        "এগারো",
+        "শহীদ",
+        "যাই",
+        "আমরা",
+        "বছরে",
+        "সকালে",
+        "মিনার"
+      ],
+      "answer": [
+        "সকালে",
+        "আমরা",
+        "শহীদ",
+        "মিনার",
+        "যাই"
+      ]
+    },
+    {
+      "id": "e11",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "শহীদ মিনার কোথায়?",
+        "tr": "shohid minar kothay?",
+        "en": "Where is the Shaheed Minar?"
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "six",
+        "and",
+        "is",
+        "Minar",
+        "Shaheed",
+        "Where",
+        "ninety",
+        "the"
+      ],
+      "answer": [
+        "Where",
+        "is",
+        "the",
+        "Shaheed",
+        "Minar"
+      ]
+    },
+    {
+      "id": "e12",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "বাংলা আমাদের ভাষা।",
+        "tr": "bangla amader bhasha.",
+        "en": "Bengali is our language."
+      },
+      "direction": "bn_to_en",
+      "accepted": [
+        "Bengali is our language.",
+        "Bangla is our language."
+      ]
+    },
+    {
+      "id": "e13",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "একুশে ফেব্রুয়ারি শহীদ দিবস।",
+        "tr": "ekushe februari shohid dibosh.",
+        "en": "21 February is Martyrs' Day."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "একুশে",
+        "উপরে",
+        "বন্ধ",
+        "শহীদ",
+        "দিবস",
+        "মাছ",
+        "ফেব্রুয়ারি"
+      ],
+      "answer": [
+        "একুশে",
+        "ফেব্রুয়ারি",
+        "শহীদ",
+        "দিবস"
+      ]
+    },
+    {
+      "id": "e14",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আজ ছুটি।",
+        "tr": "aj chhuti.",
+        "en": "Today is a holiday."
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "আজ ছুটি।",
+        "আপনি খেয়েছেন?",
+        "তারপর আমি নাস্তা করলাম।",
+        "আমি বন্ধুর সাথে বাজারে গেলাম।"
+      ],
+      "answer": 0
+    }
+  ]
+}

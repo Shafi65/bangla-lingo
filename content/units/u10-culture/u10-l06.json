@@ -1,0 +1,353 @@
+{
+  "id": "u10-l06",
+  "unit": "u10-culture",
+  "title": "Invitations & guests",
+  "status": "draft",
+  "tip": "Bengali invitations use the **future** as a gentle request: **আমাদের বাসায় আসবেন** — literally 'You will come to our home', meaning 'Please do come!' Formally: **আপনাকে দাওয়াত দিলাম** 'I'm inviting you'.\n\nA **মেহমান** (guest) is treated with great honour: expect tea, sweets and **পিঠা**, and to be asked **খাবেন?** more than once. Saying **না** once is often taken as politeness; accept a little.\n\n**জন্য** 'for' follows a genitive: **এই উপহার আপনার জন্য** 'This gift is for you'. Wishes: **শুভ জন্মদিন** 'Happy birthday', **ঈদের শুভেচ্ছা** 'Eid greetings'.\n\n**Kolkata:** নেমন্তন্ন (invitation), অতিথি (guest).",
+  "vocab": [
+    {
+      "id": "dawat",
+      "bn": "দাওয়াত",
+      "tr": "dawat",
+      "en": "invitation",
+      "notes": "দাওয়াত দেওয়া = to invite."
+    },
+    {
+      "id": "apnake",
+      "bn": "আপনাকে",
+      "tr": "apnake",
+      "en": "you (polite, object)"
+    },
+    {
+      "id": "mehman",
+      "bn": "মেহমান",
+      "tr": "mehman",
+      "en": "guest"
+    },
+    {
+      "id": "upohar",
+      "bn": "উপহার",
+      "tr": "upohar",
+      "en": "gift"
+    },
+    {
+      "id": "jonno",
+      "bn": "জন্য",
+      "tr": "jonno",
+      "en": "for",
+      "notes": "After a genitive: আপনার জন্য 'for you'."
+    },
+    {
+      "id": "jonmodin",
+      "bn": "জন্মদিন",
+      "tr": "jonmodin",
+      "en": "birthday"
+    },
+    {
+      "id": "shubhechchha",
+      "bn": "শুভেচ্ছা",
+      "tr": "shubhechchha",
+      "en": "greetings"
+    },
+    {
+      "id": "ashben",
+      "bn": "আসবেন",
+      "tr": "ashben",
+      "en": "please come",
+      "notes": "Future of আসা for আপনি; as a statement it's a warm invitation."
+    },
+    {
+      "id": "ashbe",
+      "bn": "আসবে",
+      "tr": "ashbe",
+      "en": "will come",
+      "notes": "Future for তুমি / সে."
+    },
+    {
+      "id": "pitha",
+      "bn": "পিঠা",
+      "tr": "pitha",
+      "en": "pitha",
+      "notes": "Rice-flour cakes, especially made in winter."
+    },
+    {
+      "id": "khaben",
+      "bn": "খাবেন",
+      "tr": "khaben",
+      "en": "will you eat (polite)"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "দাওয়াত",
+        "tr": "dawat",
+        "en": "invitation"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "hunger",
+        "invitation",
+        "name",
+        "greetings"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আপনাকে",
+        "tr": "apnake",
+        "en": "you (polite, object)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "we",
+        "you (polite, object)",
+        "which",
+        "someone"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "মেহমান",
+        "tr": "mehman",
+        "en": "guest"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "to the office",
+        "in the village",
+        "milk",
+        "guest"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e04",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "উপহার",
+        "tr": "upohar",
+        "en": "gift"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "gift",
+        "wife",
+        "water",
+        "invitation"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e05",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "জন্য",
+        "tr": "jonno",
+        "en": "for"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "after",
+        "without",
+        "for",
+        "inside"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e06",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "জন্মদিন",
+        "tr": "jonmodin",
+        "en": "birthday"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "birthday",
+        "shop",
+        "elder brother",
+        "aunt (mama's wife)"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e07",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "শুভেচ্ছা",
+        "tr": "shubhechchha",
+        "en": "greetings"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "train",
+        "greetings",
+        "aunt (mama's wife)",
+        "by train"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e08",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "পিঠা",
+          "tr": "pitha",
+          "en": "pitha"
+        },
+        {
+          "bn": "আসবেন",
+          "tr": "ashben",
+          "en": "please come"
+        },
+        {
+          "bn": "আসবে",
+          "tr": "ashbe",
+          "en": "will come"
+        },
+        {
+          "bn": "খাবেন",
+          "tr": "khaben",
+          "en": "will you eat (polite)"
+        },
+        {
+          "bn": "দাওয়াত",
+          "tr": "dawat",
+          "en": "invitation"
+        }
+      ]
+    },
+    {
+      "id": "e09",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "শুভ জন্মদিন।",
+        "tr": "shubho jonmodin.",
+        "en": "Happy birthday."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "birthday",
+        "dozen",
+        "car",
+        "doctor",
+        "Happy"
+      ],
+      "answer": [
+        "Happy",
+        "birthday"
+      ]
+    },
+    {
+      "id": "e10",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আপনাকে দাওয়াত দিলাম।",
+        "tr": "apnake dawat dilam.",
+        "en": "I'm inviting you."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "দিলাম",
+        "আপনাকে",
+        "লেখে",
+        "দাওয়াত",
+        "উঠি",
+        "আলু"
+      ],
+      "answer": [
+        "আপনাকে",
+        "দাওয়াত",
+        "দিলাম"
+      ]
+    },
+    {
+      "id": "e11",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আজ আমার জন্মদিন।",
+        "tr": "aj amar jonmodin.",
+        "en": "Today is my birthday."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "noon",
+        "my",
+        "birthday",
+        "Today",
+        "is",
+        "seventeen",
+        "went"
+      ],
+      "answer": [
+        "Today",
+        "is",
+        "my",
+        "birthday"
+      ]
+    },
+    {
+      "id": "e12",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আজ আমাদের বাসায় মেহমান।",
+        "tr": "aj amader bashay mehman.",
+        "en": "We have guests at home today."
+      },
+      "direction": "bn_to_en",
+      "accepted": [
+        "We have guests at home today.",
+        "Guests are at our house today."
+      ]
+    },
+    {
+      "id": "e13",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "পিঠা খাবেন?",
+        "tr": "pitha khaben?",
+        "en": "Would you like some pitha?"
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "খাবেন",
+        "পাঁচশ",
+        "পিঠা",
+        "টিভি",
+        "আসবেন"
+      ],
+      "answer": [
+        "পিঠা",
+        "খাবেন"
+      ]
+    },
+    {
+      "id": "e14",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "মেহমান এসেছে।",
+        "tr": "mehman eshechhe.",
+        "en": "The guests have arrived."
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "চাচা আমার বাবার ভাই।",
+        "আপনি কিছু খেতে চান?",
+        "স্টেশন ডানে।",
+        "মেহমান এসেছে।"
+      ],
+      "answer": 3
+    }
+  ]
+}

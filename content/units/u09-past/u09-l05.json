@@ -1,0 +1,346 @@
+{
+  "id": "u09-l05",
+  "unit": "u09-past",
+  "title": "I didn't",
+  "status": "draft",
+  "tip": "To say 'didn't' or 'haven't', Bengali takes the **present** form and adds **-নি** (*-ni*), written joined to the verb:\n\n- করি → **করিনি** 'I didn't do / haven't done'\n- খাই → **খাইনি** 'I didn't eat / haven't eaten'\n- খাও → **খাওনি** 'you didn't eat'\n- আসে → **আসেনি** 'he hasn't come'\n\nDon't say ~~করলাম না~~ for a simple 'I didn't do it' — it sounds like 'I chose not to'.\n\n**এখনো** 'yet / still' pairs naturally with -নি: **আমি এখনো খাইনি** 'I haven't eaten yet'. Short answer: **এখনো না** 'not yet'. **ইতিমধ্যে** 'already' is a bit formal.",
+  "vocab": [
+    {
+      "id": "korini",
+      "bn": "করিনি",
+      "tr": "korini",
+      "en": "I didn't do"
+    },
+    {
+      "id": "khaini",
+      "bn": "খাইনি",
+      "tr": "khaini",
+      "en": "I haven't eaten"
+    },
+    {
+      "id": "khaoni",
+      "bn": "খাওনি",
+      "tr": "khaoni",
+      "en": "you didn't eat (familiar)"
+    },
+    {
+      "id": "jaini",
+      "bn": "যাইনি",
+      "tr": "jaini",
+      "en": "I didn't go"
+    },
+    {
+      "id": "dekhini",
+      "bn": "দেখিনি",
+      "tr": "dekhini",
+      "en": "I didn't see"
+    },
+    {
+      "id": "asheni",
+      "bn": "আসেনি",
+      "tr": "asheni",
+      "en": "hasn't come"
+    },
+    {
+      "id": "ekhono",
+      "bn": "এখনো",
+      "tr": "ekhono",
+      "en": "yet",
+      "notes": "Also spelled এখনও."
+    },
+    {
+      "id": "ekhono-na",
+      "bn": "এখনো না",
+      "tr": "ekhono na",
+      "en": "not yet"
+    },
+    {
+      "id": "itimoddhe",
+      "bn": "ইতিমধ্যে",
+      "tr": "itimoddhe",
+      "en": "already",
+      "notes": "Slightly formal; in speech people often just use the perfect alone, or অলরেডি."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "করিনি",
+        "tr": "korini",
+        "en": "I didn't do"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "I saw",
+        "are (intimate)",
+        "I didn't do",
+        "you get up (polite)"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "খাইনি",
+        "tr": "khaini",
+        "en": "I haven't eaten"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "I ate",
+        "(I) can",
+        "I haven't eaten",
+        "you sleep (polite)"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "খাওনি",
+        "tr": "khaoni",
+        "en": "you didn't eat (familiar)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "you didn't eat (familiar)",
+        "I didn't go",
+        "writes",
+        "I watch"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e04",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "যাইনি",
+        "tr": "jaini",
+        "en": "I didn't go"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "is not / are not (polite)",
+        "you go (familiar)",
+        "I didn't go",
+        "I am doing"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e05",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "দেখিনি",
+        "tr": "dekhini",
+        "en": "I didn't see"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "is not",
+        "I didn't see",
+        "you will buy (polite)",
+        "I go"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e06",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আসেনি",
+        "tr": "asheni",
+        "en": "hasn't come"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "hasn't come",
+        "are (familiar)",
+        "(I/we) eat",
+        "I ate"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e07",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "এখনো",
+        "tr": "ekhono",
+        "en": "yet"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "so",
+        "yet",
+        "right",
+        "where"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e08",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "ইতিমধ্যে",
+          "tr": "itimoddhe",
+          "en": "already"
+        },
+        {
+          "bn": "খাওনি",
+          "tr": "khaoni",
+          "en": "you didn't eat (familiar)"
+        },
+        {
+          "bn": "করিনি",
+          "tr": "korini",
+          "en": "I didn't do"
+        },
+        {
+          "bn": "খাইনি",
+          "tr": "khaini",
+          "en": "I haven't eaten"
+        },
+        {
+          "bn": "এখনো না",
+          "tr": "ekhono na",
+          "en": "not yet"
+        }
+      ]
+    },
+    {
+      "id": "e09",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমি এখনো খাইনি।",
+        "tr": "ami ekhono khaini.",
+        "en": "I haven't eaten yet."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "so",
+        "but",
+        "I",
+        "eaten",
+        "yet",
+        "teeth",
+        "haven't"
+      ],
+      "answer": [
+        "I",
+        "haven't",
+        "eaten",
+        "yet"
+      ]
+    },
+    {
+      "id": "e10",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমি কাজ করিনি।",
+        "tr": "ami kaj korini.",
+        "en": "I didn't do the work."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "বাসায়",
+        "চিনি",
+        "করিনি",
+        "বলেন",
+        "কাজ",
+        "আমি"
+      ],
+      "answer": [
+        "আমি",
+        "কাজ",
+        "করিনি"
+      ]
+    },
+    {
+      "id": "e11",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "তুমি কেন খাওনি?",
+        "tr": "tumi keno khaoni?",
+        "en": "Why didn't you eat?"
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "eat",
+        "Why",
+        "and",
+        "didn't",
+        "you",
+        "someone",
+        "have"
+      ],
+      "answer": [
+        "Why",
+        "didn't",
+        "you",
+        "eat"
+      ]
+    },
+    {
+      "id": "e12",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আমি টিভি দেখিনি।",
+        "tr": "ami tibhi dekhini.",
+        "en": "I didn't watch TV."
+      },
+      "direction": "bn_to_en",
+      "accepted": [
+        "I didn't watch TV.",
+        "I haven't watched TV."
+      ]
+    },
+    {
+      "id": "e13",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমি গতকাল অফিসে যাইনি।",
+        "tr": "ami gotokal ofise jaini.",
+        "en": "I didn't go to the office yesterday."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "যাইনি",
+        "উনিশ",
+        "গতকাল",
+        "আমি",
+        "অফিসে",
+        "নাম",
+        "খাবার"
+      ],
+      "answer": [
+        "আমি",
+        "গতকাল",
+        "অফিসে",
+        "যাইনি"
+      ]
+    },
+    {
+      "id": "e14",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "না, এখনো না।",
+        "tr": "na, ekhono na.",
+        "en": "No, not yet."
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "না, এখনো না।",
+        "কলাগুলো এখানে আছে।",
+        "উনি আমার শিক্ষক।",
+        "আংকেল, আপনি কোথা থেকে এসেছেন?"
+      ],
+      "answer": 0
+    }
+  ]
+}

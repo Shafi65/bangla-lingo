@@ -1,0 +1,351 @@
+{
+  "id": "u09-l07",
+  "unit": "u09-past",
+  "title": "Yesterday's story",
+  "status": "draft",
+  "tip": "Tell a story by chaining past verbs with **তারপর** 'then':\n\n**গতকাল আমি সকাল সাতটায় উঠলাম। তারপর নাস্তা করলাম। আমি বন্ধুর সাথে বাজারে গেলাম…**\n\n**সাথে** (*shathe*) 'with' is a postposition, so the noun is genitive: **বন্ধুর সাথে** 'with a friend'. In Kolkata **সঙ্গে** is more common.\n\nAnd round it off: **দিনটা খুব ভালো ছিল** 'It was a really good day'.\n\n**যখন … তখন …** \"when …, (then) …\" ties two events together. Don't mix up relative **যখন** with question **কখন**.",
+  "vocab": [
+    {
+      "id": "uthlam",
+      "bn": "উঠলাম",
+      "tr": "uthlam",
+      "en": "I got up"
+    },
+    {
+      "id": "bondhur",
+      "bn": "বন্ধুর",
+      "tr": "bondhur",
+      "en": "friend's"
+    },
+    {
+      "id": "shathe",
+      "bn": "সাথে",
+      "tr": "shathe",
+      "en": "with",
+      "notes": "After a genitive: বন্ধুর সাথে 'with a friend'. Also সঙ্গে (shongge), more common in Kolkata."
+    },
+    {
+      "id": "dinta",
+      "bn": "দিনটা",
+      "tr": "dinta",
+      "en": "the day"
+    },
+    {
+      "id": "jokhon",
+      "bn": "যখন",
+      "tr": "jokhon",
+      "en": "when",
+      "notes": "Relative \"when\" (not a question): যখন … তখন … \"when …, then …\". The question word is কখন."
+    },
+    {
+      "id": "tokhon",
+      "bn": "তখন",
+      "tr": "tokhon",
+      "en": "then"
+    },
+    {
+      "id": "kotha-talk",
+      "bn": "কথা",
+      "tr": "kotha",
+      "en": "talk",
+      "notes": "কথা বলা = \"to talk, speak\". Don't confuse with কোথা \"where\" (কোথা থেকে)."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "উঠলাম",
+        "tr": "uthlam",
+        "en": "I got up"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "you go (familiar)",
+        "I got up",
+        "you are doing (polite)",
+        "I heard"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "বন্ধুর",
+        "tr": "bondhur",
+        "en": "friend's"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "of the hotel",
+        "station",
+        "Wednesday",
+        "friend's"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "সাথে",
+        "tr": "shathe",
+        "en": "with"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "in front of",
+        "without",
+        "upstairs",
+        "with"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e04",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "দিনটা",
+        "tr": "dinta",
+        "en": "the day"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "person",
+        "potato",
+        "the day",
+        "of the mosque"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e05",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "যখন",
+        "tr": "jokhon",
+        "en": "when"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "but",
+        "yes",
+        "OK",
+        "when"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e06",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "তখন",
+        "tr": "tokhon",
+        "en": "then"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "actually",
+        "far",
+        "then",
+        "where"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e07",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "কথা",
+        "tr": "kotha",
+        "en": "talk"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "tea",
+        "talk",
+        "uncle (fufu's husband)",
+        "egg"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e08",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "বন্ধুর",
+          "tr": "bondhur",
+          "en": "friend's"
+        },
+        {
+          "bn": "উঠলাম",
+          "tr": "uthlam",
+          "en": "I got up"
+        },
+        {
+          "bn": "সাথে",
+          "tr": "shathe",
+          "en": "with"
+        },
+        {
+          "bn": "দিনটা",
+          "tr": "dinta",
+          "en": "the day"
+        },
+        {
+          "bn": "যখন",
+          "tr": "jokhon",
+          "en": "when"
+        }
+      ]
+    },
+    {
+      "id": "e09",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমরা বাজারে চা খেলাম।",
+        "tr": "amra bajare cha khelam.",
+        "en": "We had tea at the market."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "market",
+        "at",
+        "fare",
+        "We",
+        "tea",
+        "had",
+        "hotel",
+        "shop",
+        "the"
+      ],
+      "answer": [
+        "We",
+        "had",
+        "tea",
+        "at",
+        "the",
+        "market"
+      ]
+    },
+    {
+      "id": "e10",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমি যখন বাজারে গেলাম, তখন দোকান বন্ধ ছিল।",
+        "tr": "ami jokhon bajare gelam, tokhon dokan bondho chhilo.",
+        "en": "When I went to the market, the shop was closed."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "দোকান",
+        "যখন",
+        "আমি",
+        "গেলাম",
+        "তখন",
+        "বাজারে",
+        "কলাগুলো",
+        "আলু",
+        "ছিল",
+        "দুধ",
+        "বন্ধ"
+      ],
+      "answer": [
+        "আমি",
+        "যখন",
+        "বাজারে",
+        "গেলাম",
+        "তখন",
+        "দোকান",
+        "বন্ধ",
+        "ছিল"
+      ]
+    },
+    {
+      "id": "e11",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "দিনটা খুব ভালো ছিল।",
+        "tr": "dinta khub bhalo chhilo.",
+        "en": "The day was very good."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "The",
+        "day",
+        "need",
+        "thirty",
+        "very",
+        "train",
+        "was",
+        "good"
+      ],
+      "answer": [
+        "The",
+        "day",
+        "was",
+        "very",
+        "good"
+      ]
+    },
+    {
+      "id": "e12",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "তারপর আমি ঘুমালাম।",
+        "tr": "tarpor ami ghumalam.",
+        "en": "Then I slept."
+      },
+      "direction": "bn_to_en",
+      "accepted": [
+        "Then I slept.",
+        "Then I went to sleep."
+      ]
+    },
+    {
+      "id": "e13",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমি একটা শাড়ি কিনলাম।",
+        "tr": "ami ekta shari kinlam.",
+        "en": "I bought a sari."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "শাড়ি",
+        "সাহায্য",
+        "আমি",
+        "একটা",
+        "ষাট",
+        "শুনি",
+        "কিনলাম"
+      ],
+      "answer": [
+        "আমি",
+        "একটা",
+        "শাড়ি",
+        "কিনলাম"
+      ]
+    },
+    {
+      "id": "e14",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "রাতে আমরা বাসায় এলাম।",
+        "tr": "rate amra bashay elam.",
+        "en": "At night we came home."
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "আমার ছোট বোন স্কুলে যায়।",
+        "রাতে আমরা বাসায় এলাম।",
+        "আমি একটা বই কিনলাম।",
+        "এখানে একজন ডাক্তার আছেন।"
+      ],
+      "answer": 1
+    }
+  ]
+}

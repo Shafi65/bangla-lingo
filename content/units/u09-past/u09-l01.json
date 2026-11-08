@@ -1,0 +1,349 @@
+{
+  "id": "u09-l01",
+  "unit": "u09-past",
+  "title": "I did",
+  "status": "draft",
+  "tip": "The simple past for **আমি** (and **আমরা**) is verb stem + **-লাম** (*-lam*):\n\n- করা → **করলাম** 'I did'\n- দেখা → **দেখলাম** 'I saw / watched'\n- কেনা → **কিনলাম** 'I bought' (note the raised vowel, like কিনব)\n- শোনা → **শুনলাম** 'I heard'\n\n**গতকাল** (*gotokal*) is 'yesterday'. Plain **কাল** means *either* yesterday or tomorrow — the verb tense tells you which.\n\n**তাকে** (*take*) is 'him / her' as an object: **আমি তাকে বললাম** 'I told him/her'.",
+  "vocab": [
+    {
+      "id": "gotokal",
+      "bn": "গতকাল",
+      "tr": "gotokal",
+      "en": "yesterday",
+      "notes": "Unambiguous 'yesterday'; plain কাল can mean yesterday or tomorrow."
+    },
+    {
+      "id": "korlam",
+      "bn": "করলাম",
+      "tr": "korlam",
+      "en": "I did",
+      "notes": "Past of করা for আমি / আমরা."
+    },
+    {
+      "id": "dekhlam",
+      "bn": "দেখলাম",
+      "tr": "dekhlam",
+      "en": "I saw"
+    },
+    {
+      "id": "shunlam",
+      "bn": "শুনলাম",
+      "tr": "shunlam",
+      "en": "I heard"
+    },
+    {
+      "id": "porlam",
+      "bn": "পড়লাম",
+      "tr": "porlam",
+      "en": "I read",
+      "notes": "Past: pronounced 'por-lam'."
+    },
+    {
+      "id": "kinlam",
+      "bn": "কিনলাম",
+      "tr": "kinlam",
+      "en": "I bought"
+    },
+    {
+      "id": "bollam",
+      "bn": "বললাম",
+      "tr": "bollam",
+      "en": "I said",
+      "notes": "Spelled বললাম; the ল-ল is pronounced as one long l: 'bol-lam'."
+    },
+    {
+      "id": "ghumalam",
+      "bn": "ঘুমালাম",
+      "tr": "ghumalam",
+      "en": "I slept"
+    },
+    {
+      "id": "take",
+      "bn": "তাকে",
+      "tr": "take",
+      "en": "him",
+      "notes": "Object form of সে. Polite: তাঁকে / ওনাকে."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "গতকাল",
+        "tr": "gotokal",
+        "en": "yesterday"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "yesterday",
+        "where",
+        "when",
+        "only"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "করলাম",
+        "tr": "korlam",
+        "en": "I did"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "give (polite)",
+        "(you/he/she, polite) want",
+        "I did",
+        "I will go"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "দেখলাম",
+        "tr": "dekhlam",
+        "en": "I saw"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "I sleep",
+        "I saw",
+        "(I/we) eat",
+        "I live"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e04",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "শুনলাম",
+        "tr": "shunlam",
+        "en": "I heard"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "writes",
+        "listens",
+        "I heard",
+        "I speak"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e05",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "পড়লাম",
+        "tr": "porlam",
+        "en": "I read"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "(you, polite) can",
+        "I come",
+        "I read",
+        "you read (polite)"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e06",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "কিনলাম",
+        "tr": "kinlam",
+        "en": "I bought"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "to eat",
+        "I bought",
+        "you sleep (polite)",
+        "you are doing (polite)"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e07",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "বললাম",
+        "tr": "bollam",
+        "en": "I said"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "you sleep (polite)",
+        "goes",
+        "I said",
+        "I watch"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e08",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "ঘুমালাম",
+          "tr": "ghumalam",
+          "en": "I slept"
+        },
+        {
+          "bn": "গতকাল",
+          "tr": "gotokal",
+          "en": "yesterday"
+        },
+        {
+          "bn": "তাকে",
+          "tr": "take",
+          "en": "him"
+        },
+        {
+          "bn": "করলাম",
+          "tr": "korlam",
+          "en": "I did"
+        },
+        {
+          "bn": "দেখলাম",
+          "tr": "dekhlam",
+          "en": "I saw"
+        }
+      ]
+    },
+    {
+      "id": "e09",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমি বই পড়লাম।",
+        "tr": "ami boi porlam.",
+        "en": "I read a book."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "me",
+        "from",
+        "read",
+        "shirt",
+        "I",
+        "book",
+        "a"
+      ],
+      "answer": [
+        "I",
+        "read",
+        "a",
+        "book"
+      ]
+    },
+    {
+      "id": "e10",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "গতকাল আমি রান্না করলাম।",
+        "tr": "gotokal ami ranna korlam.",
+        "en": "Yesterday I cooked."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "আমি",
+        "ঘুমালাম",
+        "রান্না",
+        "করলাম",
+        "গতকাল",
+        "উপরে",
+        "শেষ"
+      ],
+      "answer": [
+        "গতকাল",
+        "আমি",
+        "রান্না",
+        "করলাম"
+      ]
+    },
+    {
+      "id": "e11",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমি তাকে বললাম।",
+        "tr": "ami take bollam.",
+        "en": "I told him."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "Nadia",
+        "told",
+        "twelve",
+        "him",
+        "actually",
+        "I"
+      ],
+      "answer": [
+        "I",
+        "told",
+        "him"
+      ]
+    },
+    {
+      "id": "e12",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আমি গান শুনলাম।",
+        "tr": "ami gan shunlam.",
+        "en": "I listened to music."
+      },
+      "direction": "bn_to_en",
+      "accepted": [
+        "I listened to music.",
+        "I listened to a song."
+      ]
+    },
+    {
+      "id": "e13",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমি একটা বই কিনলাম।",
+        "tr": "ami ekta boi kinlam.",
+        "en": "I bought a book."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "বই",
+        "কিনলাম",
+        "মানে",
+        "তিন",
+        "আমি",
+        "একটা",
+        "পর্যন্ত"
+      ],
+      "answer": [
+        "আমি",
+        "একটা",
+        "বই",
+        "কিনলাম"
+      ]
+    },
+    {
+      "id": "e14",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আমি গতকাল কাজ করলাম।",
+        "tr": "ami gotokal kaj korlam.",
+        "en": "I worked yesterday."
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "সত্তর আর ত্রিশ একশ।",
+        "আমি গতকাল কাজ করলাম।",
+        "আমি ভালো আছি, তুই?",
+        "শুক্রবার দুপুরে আমরা বিরিয়ানি খাই।"
+      ],
+      "answer": 1
+    }
+  ]
+}
