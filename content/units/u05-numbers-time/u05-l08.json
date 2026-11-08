@@ -3,7 +3,7 @@
   "unit": "u05-numbers-time",
   "title": "Days of the week",
   "status": "draft",
-  "tip": "Every day ends in **-বার** (*-bar*, 'day of the week'), and like English the names come from the sun, moon and planets:\n\n**রবিবার** Sun-day · **সোমবার** Moon-day · **মঙ্গলবার** (Mars) · **বুধবার** (Mercury) · **বৃহস্পতিবার** (Jupiter) · **শুক্রবার** (Venus) · **শনিবার** (Saturn)\n\n**আজ কী বার?** = 'What day is it today?'\n\n**কাল** (*kal*) means **both 'yesterday' and 'tomorrow'** — the verb's tense tells you which. With no verb, as in **কাল শনিবার**, people understand 'tomorrow'. To be explicit, say **গতকাল** (yesterday) or **আগামীকাল** (tomorrow); you'll use গতকাল in Unit 9.\n\nCulture: in Bangladesh the weekend is **Friday and Saturday**. Friday is the day of **Jumma** prayers, and Thursday night is the big night out — perfect for biryani.",
+  "tip": "Every day ends in **-বার** (*-bar*, 'day of the week'), and like English the names come from the sun, moon and planets:\n\n**রবিবার** Sun-day · **সোমবার** Moon-day · **মঙ্গলবার** (Mars) · **বুধবার** (Mercury) · **বৃহস্পতিবার** (Jupiter) · **শুক্রবার** (Venus) · **শনিবার** (Saturn)\n\n**আজ কী বার?** = 'What day is it today?' (**দিন** is 'day' in general: **সাত দিন** 'seven days'.)\n\n**কাল** (*kal*) means **both 'yesterday' and 'tomorrow'** — the verb's tense tells you which. With no verb, as in **কাল শনিবার**, people understand 'tomorrow'. To be explicit, say **আগামীকাল** (tomorrow) or **গতকাল** (yesterday); you'll use গতকাল in Unit 9.\n\nCulture: in Bangladesh the weekly holiday is **শুক্রবার** (Friday), the day of **Jumma** prayers. Government offices and many businesses also close on **শনিবার**, so the working week runs Sunday to Thursday — and Thursday night is the big night out. Perfect for biryani.",
   "vocab": [
     {
       "id": "aj",
@@ -89,18 +89,18 @@
       "id": "e01",
       "type": "select_translation",
       "prompt": {
-        "bn": "আজ",
-        "tr": "aj",
-        "en": "today"
+        "bn": "দিন",
+        "tr": "din",
+        "en": "day"
       },
       "direction": "bn_to_en",
       "options": [
+        "week",
+        "day",
         "today",
-        "of course",
-        "very",
-        "where (before থেকে)"
+        "night"
       ],
-      "answer": 0
+      "answer": 1
     },
     {
       "id": "e02",
@@ -112,116 +112,26 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "what time; how many",
-        "very",
-        "how",
-        "tomorrow; yesterday"
+        "today",
+        "now",
+        "tomorrow; yesterday",
+        "day"
       ],
-      "answer": 3
+      "answer": 2
     },
     {
       "id": "e03",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "বার",
-        "tr": "bar",
-        "en": "day (of the week)"
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "cow's",
-        "night",
-        "day (of the week)",
-        "salt"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "e04",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "দিন",
-        "tr": "din",
-        "en": "day"
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "Tuesday",
-        "the bananas",
-        "dad",
-        "day"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "e05",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "সপ্তাহে",
-        "tr": "shoptahe",
-        "en": "in a week"
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "at noon",
-        "in a week",
-        "where",
-        "at night"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "e06",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "রবিবার",
-        "tr": "robibar",
-        "en": "Sunday"
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "the mangoes",
-        "cup",
-        "Sunday",
-        "auntie (address)"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "e07",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "সোমবার",
-        "tr": "shombar",
-        "en": "Monday"
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "vegetables",
-        "grandmother (mother's mother)",
-        "Monday",
-        "doctor"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "e08",
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "শুক্রবার",
-          "tr": "shukrobar",
-          "en": "Friday"
+          "bn": "রবিবার",
+          "tr": "robibar",
+          "en": "Sunday"
         },
         {
-          "bn": "শনিবার",
-          "tr": "shonibar",
-          "en": "Saturday"
-        },
-        {
-          "bn": "বৃহস্পতিবার",
-          "tr": "brihoshpotibar",
-          "en": "Thursday"
+          "bn": "সোমবার",
+          "tr": "shombar",
+          "en": "Monday"
         },
         {
           "bn": "মঙ্গলবার",
@@ -232,63 +142,66 @@
           "bn": "বুধবার",
           "tr": "budhbar",
           "en": "Wednesday"
+        },
+        {
+          "bn": "বৃহস্পতিবার",
+          "tr": "brihoshpotibar",
+          "en": "Thursday"
         }
       ]
     },
     {
-      "id": "e09",
-      "type": "word_bank",
+      "id": "e04",
+      "type": "listen_select",
+      "audio": {
+        "bn": "শুক্রবার",
+        "tr": "shukrobar",
+        "en": "Friday"
+      },
+      "options": [
+        "শুক্রবার",
+        "বুধবার",
+        "সোমবার",
+        "শনিবার"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e05",
+      "type": "select_translation",
       "prompt": {
-        "bn": "আজ রবিবার না, আজ সোমবার।",
-        "tr": "aj robibar na, aj shombar.",
-        "en": "Today isn't Sunday, today is Monday."
+        "bn": "বার",
+        "tr": "bar",
+        "en": "day (of the week)"
       },
       "direction": "bn_to_en",
-      "tiles": [
-        "Today",
-        "Monday",
-        "tea",
-        "small",
-        "spicy",
-        "Sunday",
-        "isn't",
+      "options": [
+        "week",
         "today",
-        "is"
+        "night",
+        "day (of the week)"
       ],
-      "answer": [
-        "Today",
-        "isn't",
-        "Sunday",
-        "today",
-        "is",
-        "Monday"
-      ]
+      "answer": 3
     },
     {
-      "id": "e10",
-      "type": "word_bank",
+      "id": "e06",
+      "type": "select_translation",
       "prompt": {
-        "bn": "আজ কী বার?",
-        "tr": "aj ki bar?",
-        "en": "What day is it today?"
+        "bn": "কাল কি মঙ্গলবার?",
+        "tr": "kal ki monggolbar?",
+        "en": "Is tomorrow Tuesday?"
       },
       "direction": "en_to_bn",
-      "tiles": [
-        "দুপুরে",
-        "বার",
-        "নয়",
-        "কী",
-        "আজ",
-        "আছি"
+      "options": [
+        "কাল কি বুধবার?",
+        "কাল কি মঙ্গলবার?",
+        "আজ কি মঙ্গলবার?",
+        "কাল মঙ্গলবার।"
       ],
-      "answer": [
-        "আজ",
-        "কী",
-        "বার"
-      ]
+      "answer": 1
     },
     {
-      "id": "e11",
+      "id": "e07",
       "type": "word_bank",
       "prompt": {
         "bn": "না, কাল বুধবার।",
@@ -297,13 +210,13 @@
       },
       "direction": "bn_to_en",
       "tiles": [
-        "teacher",
         "Wednesday",
+        "today",
         "No",
-        "tomorrow",
-        "forty",
         "is",
-        "day"
+        "Tuesday",
+        "tomorrow",
+        "Yes"
       ],
       "answer": [
         "No",
@@ -311,6 +224,101 @@
         "is",
         "Wednesday"
       ]
+    },
+    {
+      "id": "e08",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আজ কী বার?",
+        "tr": "aj ki bar?",
+        "en": "What day is it today?"
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "দিন",
+        "বার",
+        "কাল",
+        "আজ",
+        "কয়টা",
+        "কী"
+      ],
+      "answer": [
+        "আজ",
+        "কী",
+        "বার"
+      ]
+    },
+    {
+      "id": "e09",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আজ রবিবার নয়, আজ সোমবার।",
+        "tr": "aj robibar noy, aj shombar.",
+        "en": "Today isn't Sunday, today is Monday."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "Monday",
+        "today",
+        "Sunday",
+        "is",
+        "Today",
+        "Saturday",
+        "isn't",
+        "it's",
+        "Tuesday"
+      ],
+      "answer": [
+        "Today",
+        "isn't",
+        "Sunday",
+        "today",
+        "is",
+        "Monday"
+      ],
+      "alt": [
+        [
+          "Today",
+          "isn't",
+          "Sunday",
+          "it's",
+          "Monday"
+        ]
+      ]
+    },
+    {
+      "id": "e10",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আজ শুক্রবার।",
+        "tr": "aj shukrobar.",
+        "en": "Today is Friday."
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "কাল শুক্রবার।",
+        "আজ শনিবার।",
+        "আজ বৃহস্পতিবার।",
+        "আজ শুক্রবার।"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e11",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "সপ্তাহে",
+        "tr": "shoptahe",
+        "en": "in a week"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "in a week",
+        "today",
+        "on Friday",
+        "at night"
+      ],
+      "answer": 0
     },
     {
       "id": "e12",
@@ -323,7 +331,13 @@
       "direction": "bn_to_en",
       "accepted": [
         "There are seven days in a week.",
-        "A week has seven days."
+        "There are 7 days in a week.",
+        "A week has seven days.",
+        "A week has 7 days.",
+        "There are seven days in one week.",
+        "One week has seven days.",
+        "Seven days in a week.",
+        "7 days in a week."
       ]
     },
     {
@@ -336,14 +350,14 @@
       },
       "direction": "en_to_bn",
       "tiles": [
-        "কলাগুলো",
+        "রাত",
         "বিরিয়ানি",
-        "উনিশ",
+        "শুক্রবার",
         "রাতে",
-        "বৃহস্পতিবার",
+        "আমরা",
+        "বুধবার",
         "খাই",
-        "একশ",
-        "আমরা"
+        "বৃহস্পতিবার"
       ],
       "answer": [
         "বৃহস্পতিবার",
@@ -351,6 +365,15 @@
         "আমরা",
         "বিরিয়ানি",
         "খাই"
+      ],
+      "alt": [
+        [
+          "আমরা",
+          "বৃহস্পতিবার",
+          "রাতে",
+          "বিরিয়ানি",
+          "খাই"
+        ]
       ]
     },
     {
@@ -363,12 +386,28 @@
       },
       "direction": "en_to_bn",
       "options": [
+        "আজ শনিবার।",
         "কাল শনিবার।",
-        "এখন কয়টা বাজে?",
-        "তুমি ডাক্তার নও।",
-        "এখানে একটি আম আছে।"
+        "কাল সোমবার।",
+        "কাল রবিবার।"
       ],
-      "answer": 0
+      "answer": 1
+    },
+    {
+      "id": "e15",
+      "type": "listen_select",
+      "audio": {
+        "bn": "শনিবার",
+        "tr": "shonibar",
+        "en": "Saturday"
+      },
+      "options": [
+        "রবিবার",
+        "সোমবার",
+        "মঙ্গলবার",
+        "শনিবার"
+      ],
+      "answer": 3
     }
   ]
 }

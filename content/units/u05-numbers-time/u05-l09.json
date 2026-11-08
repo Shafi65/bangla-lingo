@@ -3,7 +3,7 @@
   "unit": "u05-numbers-time",
   "title": "Review: numbers & time",
   "status": "draft",
-  "tip": "Last new words: **বছর** (*bochhor*, year), **বছরে** (in a year) and **মাস** (*mash*, month). **আমার বয়স বিশ বছর** = 'I'm twenty years old' — বছর is optional when talking about age.\n\nBangladesh uses three calendars side by side: the Gregorian calendar for work, the Bengali calendar (বঙ্গাব্দ) for festivals like Pohela Boishakh — its year is about 593 years behind (2026 ≈ 1433) — and the Islamic Hijri calendar for Ramadan and Eid.\n\nQuick check:\n\n- **কয়টা বাজে?** — **সাড়ে পাঁচটা বাজে।**\n- 1:30 = **দেড়টা**, 2:30 = **আড়াইটা**\n- **আজ কী বার?** — **আজ শুক্রবার।**",
+  "tip": "Last new words: **বছর** (*bochhor*, year), **বছরে** (in a year), **মাস** (*mash*, month) and **প্রথম** (*prothom*, first). **আমার বয়স বিশ বছর** = 'I'm twenty years old' — বছর is optional when talking about age. **আজ আমার প্রথম দিন** = 'Today is my first day'.\n\nDon't mix up **মাস** (month), **মা** (mother) and **মাংস** (meat)!\n\nBangladesh uses three calendars side by side: the Gregorian calendar for work, the Bengali calendar (*Bongabdo*) for festivals like Pohela Boishakh — its year is about 593 years behind (2026 ≈ 1433) — and the Islamic Hijri calendar for Ramadan and Eid.\n\nQuick check:\n\n- **কয়টা বাজে?** — **সাড়ে পাঁচটা বাজে।**\n- 1:30 = **দেড়টা**, 2:30 = **আড়াইটা** (never *সাড়ে দুইটা*)\n- **আজ কী বার?** — **আজ শুক্রবার।**\n- **সকালে, দুপুরে, রাতে** = in the morning, at noon, at night",
   "vocab": [
     {
       "id": "bochhor",
@@ -42,29 +42,28 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "child",
+        "month",
         "year",
-        "aunt (father's sister)",
-        "breakfast"
+        "week",
+        "day"
       ],
       "answer": 1
     },
     {
       "id": "e02",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "বছরে",
         "tr": "bochhore",
         "en": "in a year"
       },
-      "direction": "bn_to_en",
       "options": [
-        "tomorrow; yesterday",
-        "where",
-        "very",
-        "in a year"
+        "বছর",
+        "বারো",
+        "বছরে",
+        "বাবার"
       ],
-      "answer": 3
+      "answer": 2
     },
     {
       "id": "e03",
@@ -76,12 +75,12 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "year",
-        "month",
+        "meat",
         "mother",
-        "noon"
+        "year",
+        "month"
       ],
-      "answer": 1
+      "answer": 3
     },
     {
       "id": "e04",
@@ -93,66 +92,15 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "Bangladeshi",
-        "small",
-        "sweet",
-        "first"
+        "first",
+        "one",
+        "last",
+        "only"
       ],
-      "answer": 3
+      "answer": 0
     },
     {
       "id": "e05",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "দিন",
-        "tr": "din",
-        "en": "day"
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "father's",
-        "minute",
-        "day",
-        "brother"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "e06",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "সময়",
-        "tr": "shomoy",
-        "en": "time"
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "afternoon",
-        "morning",
-        "country",
-        "time"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "e07",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "বারো",
-        "tr": "baro",
-        "en": "twelve"
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "one hundred",
-        "thirteen",
-        "two (things)",
-        "twelve"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "e08",
       "type": "match_pairs",
       "pairs": [
         {
@@ -171,16 +119,81 @@
           "en": "month"
         },
         {
-          "bn": "বার",
-          "tr": "bar",
-          "en": "day (of the week)"
-        },
-        {
           "bn": "প্রথম",
           "tr": "prothom",
           "en": "first"
+        },
+        {
+          "bn": "সপ্তাহে",
+          "tr": "shoptahe",
+          "en": "in a week"
         }
       ]
+    },
+    {
+      "id": "e06",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "এক বছরে বারো মাস।",
+        "tr": "ek bochhore baro mash.",
+        "en": "There are twelve months in a year."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "বিশ",
+        "মাস",
+        "বছর",
+        "এক",
+        "সপ্তাহে",
+        "বারো",
+        "বছরে"
+      ],
+      "answer": [
+        "এক",
+        "বছরে",
+        "বারো",
+        "মাস"
+      ]
+    },
+    {
+      "id": "e07",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আমার বয়স বিশ বছর।",
+        "tr": "amar boyosh bish bochhor.",
+        "en": "I am twenty years old."
+      },
+      "direction": "bn_to_en",
+      "accepted": [
+        "I am twenty years old.",
+        "I'm twenty years old.",
+        "I am twenty.",
+        "I'm twenty.",
+        "I am 20 years old.",
+        "I'm 20 years old.",
+        "I am 20.",
+        "I'm 20.",
+        "My age is twenty years.",
+        "My age is twenty.",
+        "My age is 20."
+      ]
+    },
+    {
+      "id": "e08",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আজ আমার প্রথম দিন।",
+        "tr": "aj amar prothom din.",
+        "en": "Today is my first day."
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "কাল আমার প্রথম দিন।",
+        "আজ আমার প্রথম দিন।",
+        "আজ আমার এক দিন।",
+        "আজ তোমার প্রথম দিন।"
+      ],
+      "answer": 1
     },
     {
       "id": "e09",
@@ -192,14 +205,14 @@
       },
       "direction": "bn_to_en",
       "tiles": [
-        "past",
-        "biryani",
-        "It's",
+        "quarter",
         "five",
         "now",
-        "dad",
-        "fourteen",
-        "half"
+        "half",
+        "It's",
+        "six",
+        "past",
+        "to"
       ],
       "answer": [
         "It's",
@@ -207,10 +220,36 @@
         "past",
         "five",
         "now"
+      ],
+      "alt": [
+        [
+          "It's",
+          "now",
+          "half",
+          "past",
+          "five"
+        ]
       ]
     },
     {
       "id": "e10",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আড়াইটা বাজে।",
+        "tr": "araita baje.",
+        "en": "It's half past two."
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "সাড়ে দুইটা বাজে।",
+        "দেড়টা বাজে।",
+        "সোয়া দুইটা বাজে।",
+        "আড়াইটা বাজে।"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e11",
       "type": "word_bank",
       "prompt": {
         "bn": "আমি রাতে ভাত খাই।",
@@ -219,23 +258,53 @@
       },
       "direction": "en_to_bn",
       "tiles": [
-        "খাই",
+        "ভাত",
+        "খান",
         "রাতে",
         "আমি",
-        "সন্ধ্যা",
-        "ভাত",
-        "দিন",
-        "আপনি"
+        "সকালে",
+        "খাই",
+        "রাত"
       ],
       "answer": [
         "আমি",
         "রাতে",
         "ভাত",
         "খাই"
+      ],
+      "alt": [
+        [
+          "রাতে",
+          "আমি",
+          "ভাত",
+          "খাই"
+        ]
       ]
     },
     {
-      "id": "e11",
+      "id": "e12",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "এখন কয়টা বাজে?",
+        "tr": "ekhon koyta baje?",
+        "en": "What time is it now?"
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "এখন কয়টা বাজে?",
+        "কয়টা বাজে এখন?",
+        "কয়টা বাজে?",
+        "ekhon koyta baje",
+        "koyta baje ekhon",
+        "koyta baje",
+        "ekhon koita baje",
+        "koita baje",
+        "akhon koyta baje",
+        "akhon koita baje"
+      ]
+    },
+    {
+      "id": "e13",
       "type": "word_bank",
       "prompt": {
         "bn": "শুক্রবার দুপুরে আমরা বিরিয়ানি খাই।",
@@ -244,16 +313,16 @@
       },
       "direction": "bn_to_en",
       "tiles": [
-        "person",
-        "biryani",
-        "eat",
-        "on",
         "noon",
-        "at",
-        "Friday",
-        "twelve",
         "We",
-        "brother"
+        "Thursday",
+        "at",
+        "biryani",
+        "on",
+        "night",
+        "eat",
+        "Friday",
+        "rice"
       ],
       "answer": [
         "We",
@@ -263,62 +332,66 @@
         "Friday",
         "at",
         "noon"
-      ]
-    },
-    {
-      "id": "e12",
-      "type": "type_translation",
-      "prompt": {
-        "bn": "আমার দুই ভাই আর তিন বোন আছে।",
-        "tr": "amar dui bhai ar tin bon achhe.",
-        "en": "I have two brothers and three sisters."
-      },
-      "direction": "bn_to_en",
-      "accepted": [
-        "I have two brothers and three sisters."
-      ]
-    },
-    {
-      "id": "e13",
-      "type": "word_bank",
-      "prompt": {
-        "bn": "এক বছরে বারো মাস।",
-        "tr": "ek bochhore baro mash.",
-        "en": "There are twelve months in a year."
-      },
-      "direction": "en_to_bn",
-      "tiles": [
-        "রাতে",
-        "আমাদের",
-        "বারো",
-        "মাস",
-        "এক",
-        "বছরে",
-        "কে"
       ],
-      "answer": [
-        "এক",
-        "বছরে",
-        "বারো",
-        "মাস"
+      "alt": [
+        [
+          "on",
+          "Friday",
+          "at",
+          "noon",
+          "We",
+          "eat",
+          "biryani"
+        ]
       ]
     },
     {
       "id": "e14",
       "type": "select_translation",
       "prompt": {
-        "bn": "এখন কয়টা বাজে?",
-        "tr": "ekhon koyta baje?",
-        "en": "What time is it now?"
+        "bn": "আমার এক মাস সময় আছে।",
+        "tr": "amar ek mash shomoy achhe.",
+        "en": "I have one month."
       },
       "direction": "en_to_bn",
       "options": [
-        "এখন কয়টা বাজে?",
-        "আমার ক্ষুধা লেগেছে, ভাত চাই।",
-        "আপনি কিছু খেতে চান?",
-        "তুমি কী খেতে চাও?"
+        "আমার এক বছর সময় আছে।",
+        "আমার এক ঘণ্টা সময় আছে।",
+        "আমার এক মাস সময় আছে।",
+        "আমার এক মিনিট সময় আছে।"
       ],
-      "answer": 0
+      "answer": 2
+    },
+    {
+      "id": "e15",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমার দুই ভাই আর তিন বোন আছে।",
+        "tr": "amar dui bhai ar tin bon achhe.",
+        "en": "I have two brothers and three sisters."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "তিন",
+        "ভাই",
+        "দশ",
+        "আমার",
+        "আর",
+        "তেরো",
+        "বোন",
+        "আছে",
+        "দুই",
+        "ভাইয়া"
+      ],
+      "answer": [
+        "আমার",
+        "দুই",
+        "ভাই",
+        "আর",
+        "তিন",
+        "বোন",
+        "আছে"
+      ]
     }
   ]
 }

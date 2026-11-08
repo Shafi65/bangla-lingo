@@ -173,8 +173,7 @@
       "tr": "bish",
       "en": "twenty",
       "pos": "number",
-      "lesson": "u05-l02",
-      "notes": "Also spelled কুড়ি (kuri) in older/Kolkata usage for 'a score'."
+      "lesson": "u05-l02"
     },
     {
       "id": "boyosh",
@@ -416,11 +415,7 @@
         "five things"
       ],
       "pos": "number",
-      "lesson": "u05-l05",
-      "kolkata": {
-        "bn": "পাঁচটা",
-        "tr": "pa~chta"
-      }
+      "lesson": "u05-l05"
     },
     {
       "id": "doshta",
@@ -667,7 +662,6 @@
       "tr": "rate",
       "en": "at night",
       "alt": [
-        "in the evening",
         "tonight"
       ],
       "pos": "adv",

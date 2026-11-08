@@ -3,7 +3,7 @@
   "unit": "u05-numbers-time",
   "title": "Bengali digits ০–৯",
   "status": "draft",
-  "tip": "Bengali has its own digits, used on prices, clocks, buses and calendars in Bangladesh.\n\n- **০ ১ ২ ৩ ৪ ৫ ৬ ৭ ৮ ৯** = 0 1 2 3 4 5 6 7 8 9\n- They combine just like ours: **২০** is 20, **১২৫** is 125.\n\nWatch the look-alikes: **৪** (4) resembles the number 8, and **৭** (7) resembles a tick. **৯** (9) looks like the letter ৯, not like our 9.",
+  "tip": "Bengali has its own digits, used on prices, clocks, buses, number plates and calendars in Bangladesh.\n\n- **০ ১ ২ ৩ ৪ ৫ ৬ ৭ ৮ ৯** = 0 1 2 3 4 5 6 7 8 9\n- They combine just like ours: **২০** is 20, **১৪** is 14, **১২৫** is 125.\n- Read them aloud with the words you know: **৪** = চার, **৮** = আট.\n\n**Watch the false friends:**\n\n- **৪** is *four*, even though it looks like our 8. So **১৪** is 14, not 18!\n- **৮** is *eight* — it looks nothing like our 8.\n- **৭** is *seven*, though it can look a bit like our 9.\n- **১** (1) and **৯** (9) are both curly — compare them side by side.",
   "vocab": [
     {
       "id": "shunno-digit",
@@ -80,184 +80,88 @@
     {
       "id": "e01",
       "type": "script_recognize",
-      "glyph": "০",
+      "glyph": "৪",
       "options": [
-        "char",
-        "shunno",
-        "chhoy",
-        "noy"
+        "at (8)",
+        "char (4)",
+        "noy (9)",
+        "shat (7)"
       ],
       "answer": 1
     },
     {
       "id": "e02",
       "type": "script_recognize",
-      "glyph": "১",
+      "glyph": "৭",
       "options": [
-        "tin",
-        "ek",
-        "shat",
-        "pa~ch"
+        "noy (9)",
+        "ek (1)",
+        "shat (7)",
+        "char (4)"
       ],
-      "answer": 1
+      "answer": 2
     },
     {
       "id": "e03",
       "type": "script_recognize",
-      "glyph": "২",
+      "glyph": "৮",
       "options": [
-        "noy",
-        "dui",
-        "chhoy",
-        "ek"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "e04",
-      "type": "script_recognize",
-      "glyph": "৩",
-      "options": [
-        "noy",
-        "dui",
-        "ek",
-        "tin"
+        "chhoy (6)",
+        "char (4)",
+        "dui (2)",
+        "at (8)"
       ],
       "answer": 3
     },
     {
-      "id": "e05",
+      "id": "e04",
       "type": "script_recognize",
-      "glyph": "৪",
+      "glyph": "৯",
       "options": [
-        "char",
-        "pa~ch",
-        "tin",
-        "shunno"
+        "noy (9)",
+        "shat (7)",
+        "ek (1)",
+        "chhoy (6)"
       ],
       "answer": 0
     },
     {
+      "id": "e05",
+      "type": "script_recognize",
+      "glyph": "১",
+      "options": [
+        "noy (9)",
+        "ek (1)",
+        "dui (2)",
+        "shat (7)"
+      ],
+      "answer": 1
+    },
+    {
       "id": "e06",
       "type": "script_recognize",
-      "glyph": "৫",
+      "glyph": "৩",
       "options": [
-        "at",
-        "noy",
-        "pa~ch",
-        "chhoy"
+        "dui (2)",
+        "pa~ch (5)",
+        "tin (3)",
+        "at (8)"
       ],
       "answer": 2
     },
     {
       "id": "e07",
-      "type": "script_recognize",
-      "glyph": "৬",
-      "options": [
-        "at",
-        "chhoy",
-        "dui",
-        "ek"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "e08",
-      "type": "script_recognize",
-      "glyph": "৭",
-      "options": [
-        "shat",
-        "ek",
-        "shunno",
-        "chhoy"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "e09",
-      "type": "script_recognize",
-      "glyph": "৮",
-      "options": [
-        "shat",
-        "char",
-        "pa~ch",
-        "at"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "e10",
-      "type": "script_recognize",
-      "glyph": "৯",
-      "options": [
-        "noy",
-        "dui",
-        "shunno",
-        "pa~ch"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "e11",
-      "type": "listen_select",
-      "audio": {
-        "bn": "০",
-        "tr": "shunno",
-        "en": "0"
-      },
-      "options": [
-        "৯",
-        "৫",
-        "৭",
-        "০"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "e12",
-      "type": "listen_select",
-      "audio": {
-        "bn": "১",
-        "tr": "ek",
-        "en": "1"
-      },
-      "options": [
-        "৪",
-        "৬",
-        "১",
-        "৭"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "e13",
-      "type": "listen_select",
-      "audio": {
-        "bn": "২",
-        "tr": "dui",
-        "en": "2"
-      },
-      "options": [
-        "২",
-        "৮",
-        "১",
-        "৫"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "e14",
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "৯",
-          "tr": "noy",
-          "en": "9"
+          "bn": "০",
+          "tr": "shunno",
+          "en": "0"
         },
         {
-          "bn": "৮",
-          "tr": "at",
-          "en": "8"
+          "bn": "২",
+          "tr": "dui",
+          "en": "2"
         },
         {
           "bn": "৩",
@@ -265,15 +169,147 @@
           "en": "3"
         },
         {
+          "bn": "৫",
+          "tr": "pa~ch",
+          "en": "5"
+        },
+        {
           "bn": "৬",
           "tr": "chhoy",
           "en": "6"
-        },
-        {
-          "bn": "৪",
-          "tr": "char",
-          "en": "4"
         }
+      ]
+    },
+    {
+      "id": "e08",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "৪",
+        "tr": "char",
+        "en": "4"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "৮",
+        "৪",
+        "৭",
+        "৯"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e09",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "৯",
+        "tr": "noy",
+        "en": "9"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "৭",
+        "১",
+        "৯",
+        "৬"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e10",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ছয়",
+        "tr": "chhoy",
+        "en": "৬"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "নয়",
+        "সাত",
+        "দুই",
+        "ছয়"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e11",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "সাত",
+        "tr": "shat",
+        "en": "৭"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "এক",
+        "নয়",
+        "সাত",
+        "চার"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e12",
+      "type": "listen_select",
+      "audio": {
+        "bn": "৫",
+        "tr": "pa~ch",
+        "en": "5"
+      },
+      "options": [
+        "৩",
+        "৫",
+        "৬",
+        "০"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e13",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "১৪",
+        "tr": "choddo",
+        "en": "14"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "18",
+        "14",
+        "41",
+        "4"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e14",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "১৮",
+        "tr": "atharo",
+        "en": "18"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "১৪",
+        "৮১",
+        "১৮",
+        "১৬"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e15",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "২০",
+        "tr": "bish",
+        "en": "20"
+      },
+      "direction": "bn_to_en",
+      "accepted": [
+        "20",
+        "twenty"
       ]
     }
   ]

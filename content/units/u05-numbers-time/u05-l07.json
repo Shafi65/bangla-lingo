@@ -3,7 +3,7 @@
   "unit": "u05-numbers-time",
   "title": "Morning, noon & night",
   "status": "draft",
-  "tip": "Bengali divides the day differently from English:\n\n- **সকাল** (*shokal*) — morning, until about 11\n- **দুপুর** (*dupur*) — midday to about 3 (lunch is the big meal)\n- **বিকাল** (*bikal*) — late afternoon, tea-and-snack time\n- **সন্ধ্যা** (*shondha*) — dusk/evening, from sunset (the Maghrib call to prayer) to about 8\n- **রাত** (*rat*) — night\n\nAdd **-এ** to say *when*: সকাল → **সকালে** 'in the morning', রাত → **রাতে** 'at night'. After a vowel it becomes **-য়**: সন্ধ্যা → **সন্ধ্যায়**.\n\nThere's no a.m./p.m. — put the part of the day before the time: **রাত দশটা** = 10 p.m., **দুপুর বারোটা** = 12 noon, **বিকাল পাঁচটা** = 5 p.m.",
+  "tip": "Bengali divides the day differently from English:\n\n- **সকাল** (*shokal*) — morning, until about 11\n- **দুপুর** (*dupur*) — midday to about 3 (lunch is the big meal)\n- **বিকাল** (*bikal*) — late afternoon, tea-and-snack time\n- **সন্ধ্যা** (*shondha*) — dusk/evening, from sunset (the Maghrib call to prayer) to about 8\n- **রাত** (*rat*) — night\n\nAdd **-এ** to say *when*: সকাল → **সকালে** 'in the morning', রাত → **রাতে** 'at night'. After a vowel it becomes **-য়**: সন্ধ্যা → **সন্ধ্যায়**.\n\nThere's no a.m./p.m. — put the **plain** word (no -এ) before the time: **রাত দশটা** = 10 p.m., **দুপুর বারোটা** = 12 noon, **বিকাল পাঁচটা** = 5 p.m.\n\nKolkata (and many Bangladeshis) say **বিকেল / বিকেলে**.",
   "vocab": [
     {
       "id": "shokal",
@@ -79,15 +79,31 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "aunt (mama's wife)",
+        "night",
         "morning",
-        "the banana",
-        "sister"
+        "evening",
+        "in the morning"
       ],
       "answer": 1
     },
     {
       "id": "e02",
+      "type": "listen_select",
+      "audio": {
+        "bn": "সকালে",
+        "tr": "shokale",
+        "en": "in the morning"
+      },
+      "options": [
+        "সকাল",
+        "সবাই",
+        "বিকালে",
+        "সকালে"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e03",
       "type": "select_translation",
       "prompt": {
         "bn": "দুপুর",
@@ -97,14 +113,14 @@
       "direction": "bn_to_en",
       "options": [
         "noon",
-        "sister",
-        "family",
-        "hour"
+        "night",
+        "morning",
+        "at noon"
       ],
       "answer": 0
     },
     {
-      "id": "e03",
+      "id": "e04",
       "type": "select_translation",
       "prompt": {
         "bn": "বিকাল",
@@ -113,44 +129,26 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "morning",
+        "evening",
+        "in the afternoon",
         "afternoon",
-        "grandfather (mother's father)",
-        "age"
+        "morning"
       ],
-      "answer": 1
-    },
-    {
-      "id": "e04",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "সন্ধ্যা",
-        "tr": "shondha",
-        "en": "evening"
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "uncle (fufu's husband)",
-        "auntie (address)",
-        "grandfather (father's father)",
-        "evening"
-      ],
-      "answer": 3
+      "answer": 2
     },
     {
       "id": "e05",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "রাত",
-        "tr": "rat",
-        "en": "night"
+      "type": "listen_select",
+      "audio": {
+        "bn": "সন্ধ্যায়",
+        "tr": "shondhay",
+        "en": "in the evening"
       },
-      "direction": "bn_to_en",
       "options": [
-        "doctor",
-        "night",
-        "chicken",
-        "tea"
+        "সন্ধ্যা",
+        "সন্ধ্যায়",
+        "সময়",
+        "সোয়া"
       ],
       "answer": 1
     },
@@ -158,18 +156,18 @@
       "id": "e06",
       "type": "select_translation",
       "prompt": {
-        "bn": "সকালে",
-        "tr": "shokale",
-        "en": "in the morning"
+        "bn": "এখন সন্ধ্যা।",
+        "tr": "ekhon shondha.",
+        "en": "It's evening now."
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "in the morning",
-        "there",
-        "what time; how many",
-        "very"
+        "এখন সকাল।",
+        "এখন রাত।",
+        "এখন সন্ধ্যায়।",
+        "এখন সন্ধ্যা।"
       ],
-      "answer": 0
+      "answer": 3
     },
     {
       "id": "e07",
@@ -182,9 +180,9 @@
       "direction": "bn_to_en",
       "options": [
         "at noon",
-        "very",
-        "how",
-        "here"
+        "noon",
+        "at night",
+        "in the morning"
       ],
       "answer": 0
     },
@@ -193,29 +191,29 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "সন্ধ্যা",
-          "tr": "shondha",
-          "en": "evening"
+          "bn": "সকাল",
+          "tr": "shokal",
+          "en": "morning"
         },
         {
-          "bn": "সন্ধ্যায়",
-          "tr": "shondhay",
-          "en": "in the evening"
-        },
-        {
-          "bn": "বিকাল",
-          "tr": "bikal",
-          "en": "afternoon"
-        },
-        {
-          "bn": "রাত",
-          "tr": "rat",
-          "en": "night"
+          "bn": "দুপুর",
+          "tr": "dupur",
+          "en": "noon"
         },
         {
           "bn": "বিকালে",
           "tr": "bikale",
           "en": "in the afternoon"
+        },
+        {
+          "bn": "সন্ধ্যা",
+          "tr": "shondha",
+          "en": "evening"
+        },
+        {
+          "bn": "রাত",
+          "tr": "rat",
+          "en": "night"
         }
       ]
     },
@@ -229,14 +227,14 @@
       },
       "direction": "bn_to_en",
       "tiles": [
-        "doctor",
-        "noon",
-        "name",
-        "in",
-        "We",
-        "eat",
         "rice",
-        "at"
+        "We",
+        "night",
+        "at",
+        "eat",
+        "noon",
+        "morning",
+        "in"
       ],
       "answer": [
         "We",
@@ -250,50 +248,61 @@
       "id": "e10",
       "type": "word_bank",
       "prompt": {
-        "bn": "এখন রাত দশটা।",
-        "tr": "ekhon rat doshta.",
-        "en": "It's 10 p.m. now."
+        "bn": "আমি সকালে আর রাতে চা খাই।",
+        "tr": "ami shokale ar rate cha khai.",
+        "en": "I drink tea in the morning and at night."
       },
       "direction": "en_to_bn",
       "tiles": [
-        "এখন",
-        "রাত",
-        "কী",
-        "দশটা",
-        "সতেরো",
-        "জানেন"
+        "চা",
+        "সকাল",
+        "আমি",
+        "রাতে",
+        "খাই",
+        "আর",
+        "সকালে",
+        "রাত"
       ],
       "answer": [
-        "এখন",
-        "রাত",
-        "দশটা"
+        "আমি",
+        "সকালে",
+        "আর",
+        "রাতে",
+        "চা",
+        "খাই"
+      ],
+      "alt": [
+        [
+          "সকালে",
+          "আর",
+          "রাতে",
+          "আমি",
+          "চা",
+          "খাই"
+        ]
       ]
     },
     {
       "id": "e11",
       "type": "word_bank",
       "prompt": {
-        "bn": "রাতে আমি রুটি খাই।",
-        "tr": "rate ami ruti khai.",
-        "en": "I eat roti at night."
+        "bn": "এখন রাত দশটা।",
+        "tr": "ekhon rat doshta.",
+        "en": "It's 10 p.m. now."
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "tiles": [
-        "problem",
-        "eat",
-        "at",
-        "cow's",
-        "seventeen",
-        "night",
-        "I",
-        "roti"
+        "রাতে",
+        "দশটা",
+        "এখন",
+        "সকাল",
+        "রাত",
+        "দশ"
       ],
       "answer": [
-        "I",
-        "eat",
-        "roti",
-        "at",
-        "night"
+        "এখন",
+        "রাত",
+        "দশটা"
       ]
     },
     {
@@ -307,7 +316,13 @@
       "direction": "bn_to_en",
       "accepted": [
         "I have a snack in the afternoon.",
-        "I eat a snack in the afternoon."
+        "I eat a snack in the afternoon.",
+        "I have snacks in the afternoon.",
+        "I eat snacks in the afternoon.",
+        "In the afternoon I have a snack.",
+        "In the afternoon I eat a snack.",
+        "I have a snack in the late afternoon.",
+        "I eat a snack in the late afternoon."
       ]
     },
     {
@@ -320,14 +335,13 @@
       },
       "direction": "en_to_bn",
       "tiles": [
-        "খান",
-        "আম্মু",
-        "আমার",
-        "তুই",
-        "বড়",
-        "চা",
+        "খাই",
+        "বাবা",
         "সন্ধ্যায়",
-        "বাবা"
+        "চা",
+        "আমার",
+        "সন্ধ্যা",
+        "খান"
       ],
       "answer": [
         "সন্ধ্যায়",
@@ -335,22 +349,48 @@
         "বাবা",
         "চা",
         "খান"
+      ],
+      "alt": [
+        [
+          "আমার",
+          "বাবা",
+          "সন্ধ্যায়",
+          "চা",
+          "খান"
+        ]
       ]
     },
     {
       "id": "e14",
       "type": "select_translation",
       "prompt": {
-        "bn": "এখন সকাল।",
-        "tr": "ekhon shokal.",
-        "en": "It's morning now."
+        "bn": "রাতে আমি রুটি খাই।",
+        "tr": "rate ami ruti khai.",
+        "en": "I eat roti at night."
       },
       "direction": "en_to_bn",
       "options": [
-        "এখন সকাল।",
-        "আমি একটা আম চাই।",
-        "কয়টা বাজে?",
-        "এখানে একজন ডাক্তার আছেন।"
+        "রাত আমি রুটি খাই।",
+        "সকালে আমি রুটি খাই।",
+        "রাতে আমি রুটি খাই।",
+        "রাতে আমি রুটি খান।"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e15",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "এখন বিকাল পাঁচটা।",
+        "tr": "ekhon bikal pa~chta.",
+        "en": "It's 5 p.m. now."
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "এখন বিকাল পাঁচটা।",
+        "এখন সকাল পাঁচটা।",
+        "এখন দুপুর বারোটা।",
+        "এখন রাত দশটা।"
       ],
       "answer": 0
     }

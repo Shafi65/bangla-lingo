@@ -3,7 +3,7 @@
   "unit": "u05-numbers-time",
   "title": "Tens to 100",
   "status": "draft",
-  "tip": "The tens: **দশ (10), বিশ (20), ত্রিশ (30), চল্লিশ (40), পঞ্চাশ (50), ষাট (60), সত্তর (70), আশি (80), নব্বই (90), একশ (100).**\n\nHonest warning: **every number from 21 to 99 has its own form** (একুশ 21, বাইশ 22, … নিরানব্বই 99). Don't try to learn them all at once — the tens let you understand most prices and ages roughly, and you'll pick up the rest by use.\n\n**সাত** (7) and **ষাট** (60) are both transliterated *shat*; the difference is in the 't' sound (curled tongue in ষাট). Listen to the audio!\n\nBig numbers: **হাজার** = 1,000, **লাখ** (*lakh*) = 100,000, **কোটি** (*koti*) = 10 million. South Asia counts in lakhs and crores, so ১,০০,০০০ is written with commas that way.",
+  "tip": "The tens: **দশ (10), বিশ (20), ত্রিশ (30), চল্লিশ (40), পঞ্চাশ (50), ষাট (60), সত্তর (70), আশি (80), নব্বই (90), একশ (100).**\n\nEach ten echoes a small number, which helps — and also makes them easy to mix up:\n\n- **তিন** 3 · **তেরো** 13 · **ত্রিশ** 30\n- **চার** 4 · **চৌদ্দ** 14 · **চল্লিশ** 40\n- **পাঁচ** 5 · **পনেরো** 15 · **পঞ্চাশ** 50\n- **সাত** 7 · **সতেরো** 17 · **সত্তর** 70\n- **আট** 8 · **আঠারো** 18 · **আশি** 80\n- **নয়** 9 · **নব্বই** 90\n\n**সাত** (7) and **ষাট** (60) are both transliterated *shat*; the difference is the 't' (tongue curled back in ষাট). Listen to the audio!\n\nHonest warning: **every number from 21 to 99 has its own form** (21 is *ekush*, 99 is *niranobboi*). Don't try to learn them all at once — the tens get you through most prices and ages.\n\n**একশ** (100) is also spelled **একশো**. **হাজার** = 1,000. Above that, South Asia counts in *lakh* (100,000) and *crore* (10 million), so 1,00,000 is written with commas that way.",
   "vocab": [
     {
       "id": "trish",
@@ -73,29 +73,28 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "fifty",
         "thirteen",
+        "three",
         "thirty",
-        "four"
+        "twenty"
       ],
       "answer": 2
     },
     {
       "id": "e02",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "চল্লিশ",
         "tr": "chollish",
         "en": "forty"
       },
-      "direction": "bn_to_en",
       "options": [
-        "one; a (formal)",
-        "forty",
-        "one (person)",
-        "five"
+        "চৌদ্দ",
+        "চার",
+        "চাচা",
+        "চল্লিশ"
       ],
-      "answer": 1
+      "answer": 3
     },
     {
       "id": "e03",
@@ -107,27 +106,26 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "eight",
-        "seven",
         "fifty",
-        "nineteen"
+        "fifteen",
+        "five",
+        "fourteen"
       ],
-      "answer": 2
+      "answer": 0
     },
     {
       "id": "e04",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "ষাট",
         "tr": "shat",
         "en": "sixty"
       },
-      "direction": "bn_to_en",
       "options": [
-        "ninety",
-        "sixty",
-        "ten",
-        "one; a"
+        "সাত",
+        "ষাট",
+        "ষোলো",
+        "ছয়"
       ],
       "answer": 1
     },
@@ -141,10 +139,10 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "two",
+        "seventeen",
         "seventy",
-        "five",
-        "eleven"
+        "seven",
+        "sixty"
       ],
       "answer": 1
     },
@@ -158,63 +156,79 @@
       },
       "direction": "bn_to_en",
       "options": [
+        "eighteen",
         "eight",
-        "one hundred",
-        "two",
-        "eighty"
+        "eighty",
+        "eleven"
       ],
-      "answer": 3
+      "answer": 2
     },
     {
       "id": "e07",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "নব্বই",
         "tr": "nobboi",
         "en": "ninety"
       },
+      "options": [
+        "নব্বই",
+        "নয়",
+        "উনিশ",
+        "নানি"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e08",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "চল্লিশ",
+        "tr": "chollish",
+        "en": "forty"
+      },
       "direction": "bn_to_en",
       "options": [
-        "one; a",
-        "thousand",
         "fourteen",
-        "ninety"
+        "four",
+        "fifty",
+        "forty"
       ],
       "answer": 3
     },
     {
-      "id": "e08",
+      "id": "e09",
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "একশ",
-          "tr": "eksho",
-          "en": "one hundred"
+          "bn": "ষাট",
+          "tr": "shat",
+          "en": "sixty"
         },
         {
-          "bn": "ত্রিশ",
-          "tr": "trish",
-          "en": "thirty"
+          "bn": "সত্তর",
+          "tr": "shottor",
+          "en": "seventy"
         },
         {
-          "bn": "চল্লিশ",
-          "tr": "chollish",
-          "en": "forty"
+          "bn": "আশি",
+          "tr": "ashi",
+          "en": "eighty"
+        },
+        {
+          "bn": "নব্বই",
+          "tr": "nobboi",
+          "en": "ninety"
         },
         {
           "bn": "হাজার",
           "tr": "hajar",
           "en": "thousand"
-        },
-        {
-          "bn": "পঞ্চাশ",
-          "tr": "ponchash",
-          "en": "fifty"
         }
       ]
     },
     {
-      "id": "e09",
+      "id": "e10",
       "type": "word_bank",
       "prompt": {
         "bn": "ওখানে এক হাজার মানুষ আছে।",
@@ -223,15 +237,15 @@
       },
       "direction": "bn_to_en",
       "tiles": [
-        "a",
-        "There",
-        "five",
-        "wife",
         "people",
-        "are",
-        "there",
+        "a",
+        "hundred",
+        "There",
         "thousand",
-        "meat"
+        "are",
+        "one",
+        "there",
+        "here"
       ],
       "answer": [
         "There",
@@ -240,10 +254,20 @@
         "thousand",
         "people",
         "there"
+      ],
+      "alt": [
+        [
+          "There",
+          "are",
+          "one",
+          "thousand",
+          "people",
+          "there"
+        ]
       ]
     },
     {
-      "id": "e10",
+      "id": "e11",
       "type": "word_bank",
       "prompt": {
         "bn": "আমার বাবার বয়স পঞ্চাশ।",
@@ -252,58 +276,39 @@
       },
       "direction": "en_to_bn",
       "tiles": [
+        "পনেরো",
         "বাবার",
-        "বড়",
-        "ডাল",
         "আমার",
-        "সে",
+        "পঞ্চাশ",
+        "মায়ের",
         "বয়স",
-        "পঞ্চাশ"
+        "পাঁচ"
       ],
       "answer": [
         "আমার",
         "বাবার",
         "বয়স",
         "পঞ্চাশ"
-      ]
-    },
-    {
-      "id": "e11",
-      "type": "word_bank",
-      "prompt": {
-        "bn": "আমার মায়ের বয়স ষাট।",
-        "tr": "amar mayer boyosh shat.",
-        "en": "My mother is sixty."
-      },
-      "direction": "bn_to_en",
-      "tiles": [
-        "but",
-        "is",
-        "small",
-        "My",
-        "there",
-        "sixty",
-        "mother"
-      ],
-      "answer": [
-        "My",
-        "mother",
-        "is",
-        "sixty"
       ]
     },
     {
       "id": "e12",
       "type": "type_translation",
       "prompt": {
-        "bn": "সত্তর আর ত্রিশ একশ।",
-        "tr": "shottor ar trish eksho.",
-        "en": "Seventy and thirty is a hundred."
+        "bn": "আমার মায়ের বয়স ষাট।",
+        "tr": "amar mayer boyosh shat.",
+        "en": "My mother is sixty."
       },
       "direction": "bn_to_en",
       "accepted": [
-        "Seventy and thirty is a hundred.",
-        "Seventy plus thirty is one hundred."
+        "My mother is sixty.",
+        "My mother is sixty years old.",
+        "My mother is 60.",
+        "My mother is 60 years old.",
+        "My mother's age is sixty.",
+        "My mother's age is 60.",
+        "My mom is sixty.",
+        "My mom is 60."
       ]
     },
     {
@@ -316,13 +321,13 @@
       },
       "direction": "en_to_bn",
       "tiles": [
-        "তোমার",
-        "বাংলা",
-        "নাস্তা",
-        "একশ",
-        "নব্বই",
         "দশ",
-        "আর"
+        "উনিশ",
+        "একশ",
+        "নয়",
+        "আর",
+        "হাজার",
+        "নব্বই"
       ],
       "answer": [
         "নব্বই",
@@ -335,18 +340,39 @@
       "id": "e14",
       "type": "select_translation",
       "prompt": {
-        "bn": "পঞ্চাশ আর পঞ্চাশ একশ।",
-        "tr": "ponchash ar ponchash eksho.",
-        "en": "Fifty and fifty is a hundred."
+        "bn": "সত্তর আর ত্রিশ একশ।",
+        "tr": "shottor ar trish eksho.",
+        "en": "Seventy and thirty is a hundred."
       },
       "direction": "en_to_bn",
       "options": [
-        "এটা কি ডিম?",
-        "পঞ্চাশ আর পঞ্চাশ একশ।",
-        "আমি জানি না।",
-        "ডাক্তার কোথায়?"
+        "সতেরো আর ত্রিশ একশ।",
+        "সত্তর আর তেরো একশ।",
+        "সত্তর আর ত্রিশ একশ।",
+        "সত্তর আর ত্রিশ হাজার।"
       ],
-      "answer": 1
+      "answer": 2
+    },
+    {
+      "id": "e15",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "এখানে একশ মানুষ আছে।",
+        "tr": "ekhane eksho manush achhe.",
+        "en": "There are a hundred people here."
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "এখানে একশ মানুষ আছে।",
+        "এখানে একশো মানুষ আছে।",
+        "এখানে একশত মানুষ আছে।",
+        "ekhane eksho manush achhe",
+        "ekhane eksho manush ache",
+        "ekhane ekso manush achhe",
+        "ekhane ekso manush ache",
+        "ekhane ekshoto manush achhe",
+        "ekhane ekshoto manush ache"
+      ]
     }
   ]
 }
