@@ -1,0 +1,343 @@
+{
+  "id": "u02-l04",
+  "unit": "u02-pronouns",
+  "title": "Is, isn't & yes/no",
+  "status": "draft",
+  "tip": "To ask a yes/no question, add **কি** (*ki*), usually right after the subject: **আপনি কি শিক্ষক?** 'Are you a teacher?' Spelling: **কি** (short ি) is the question marker; **কী** (long ী) means 'what'. They sound the same: **এটা কী?** 'What is this?' vs **ওটা কি আম?** 'Is that a mango?'\n\n'Is' has no word in Bengali, but **'is not'** does — and it changes with the person:\n\n- আমি ছাত্র **নই** — I'm not a student\n- তুমি ছাত্র **নও** — you're not\n- আপনি / উনি ছাত্র **নন** — you / he (polite) aren't\n- সে / এটা **নয়** — he / it isn't\n\nIn relaxed Bangladeshi speech you'll hear plain **না** for everyone: *ota am na*. Learn both — the full set is used in writing and careful speech.\n\n**এটা / ওটা** = 'this / that'. The **-টা** on the end is a *classifier* — a little word Bengali attaches to things. You'll see lots of it in the Food unit.",
+  "vocab": [
+    {
+      "id": "ki-q",
+      "bn": "কি",
+      "tr": "ki",
+      "en": "(yes/no question marker)",
+      "notes": "Turns a statement into a yes/no question: আপনি কি শিক্ষক? Usually comes right after the subject. Short ি — compare কী 'what'."
+    },
+    {
+      "id": "noi",
+      "bn": "নই",
+      "tr": "noi",
+      "en": "am not",
+      "notes": "Goes with আমি / আমরা: আমি ছাত্র নই."
+    },
+    {
+      "id": "noo",
+      "bn": "নও",
+      "tr": "noo",
+      "en": "are not (familiar)",
+      "notes": "Goes with তুমি / তোমরা."
+    },
+    {
+      "id": "non",
+      "bn": "নন",
+      "tr": "non",
+      "en": "is not / are not (polite)",
+      "notes": "Goes with আপনি, তিনি, উনি."
+    },
+    {
+      "id": "noy-isnt",
+      "bn": "নয়",
+      "tr": "noy",
+      "en": "is not",
+      "notes": "Goes with সে, ও, এটা. In everyday Bangladeshi speech না is used for all persons: আমি ছাত্র না. নয় is also the number nine (Unit 5)."
+    },
+    {
+      "id": "ke",
+      "bn": "কে",
+      "tr": "ke",
+      "en": "who"
+    },
+    {
+      "id": "eta",
+      "bn": "এটা",
+      "tr": "eta",
+      "en": "this",
+      "notes": "এ 'this' + classifier -টা. Spoken BD also এইটা (eita)."
+    },
+    {
+      "id": "ota",
+      "bn": "ওটা",
+      "tr": "ota",
+      "en": "that",
+      "notes": "ও 'that' + classifier -টা. Spoken BD also ওইটা (oita)."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "কি",
+        "tr": "ki",
+        "en": "(yes/no question marker)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "yes (polite)",
+        "no",
+        "(yes/no question marker)",
+        "yes"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "নই",
+        "tr": "noi",
+        "en": "am not"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "am not",
+        "are (intimate)",
+        "is not",
+        "is not (here); there isn't"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "নও",
+        "tr": "noo",
+        "en": "are not (familiar)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "is (he/she/it)",
+        "are not (familiar)",
+        "are (intimate)",
+        "is not / are not (polite)"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e04",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "নন",
+        "tr": "non",
+        "en": "is not / are not (polite)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "is (he/she/it)",
+        "is not",
+        "are (polite)",
+        "is not / are not (polite)"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e05",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "নয়",
+        "tr": "noy",
+        "en": "is not"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "is not",
+        "is not / are not (polite)",
+        "is not (here); there isn't",
+        "is (he/she/it)"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e06",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "কে",
+        "tr": "ke",
+        "en": "who"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "they",
+        "who",
+        "you (polite, plural)",
+        "he/she (spoken)"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e07",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "এটা",
+        "tr": "eta",
+        "en": "this"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "you (intimate)",
+        "we",
+        "this",
+        "he/she"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e08",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "ওটা",
+          "tr": "ota",
+          "en": "that"
+        },
+        {
+          "bn": "কি",
+          "tr": "ki",
+          "en": "(yes/no question marker)"
+        },
+        {
+          "bn": "নন",
+          "tr": "non",
+          "en": "is not / are not (polite)"
+        },
+        {
+          "bn": "নও",
+          "tr": "noo",
+          "en": "are not (familiar)"
+        },
+        {
+          "bn": "নই",
+          "tr": "noi",
+          "en": "am not"
+        }
+      ]
+    },
+    {
+      "id": "e09",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "ওটা কি আম?",
+        "tr": "ota ki am?",
+        "en": "Is that a mango?"
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "You",
+        "am",
+        "student",
+        "that",
+        "mango",
+        "a",
+        "Is"
+      ],
+      "answer": [
+        "Is",
+        "that",
+        "a",
+        "mango"
+      ]
+    },
+    {
+      "id": "e10",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "উনি ডাক্তার নন।",
+        "tr": "uni daktar non.",
+        "en": "He is not a doctor."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "নন",
+        "নই",
+        "তুই",
+        "ডাক্তার",
+        "উনি",
+        "তিনি"
+      ],
+      "answer": [
+        "উনি",
+        "ডাক্তার",
+        "নন"
+      ]
+    },
+    {
+      "id": "e11",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "তুমি কি ছাত্র?",
+        "tr": "tumi ki chhatro?",
+        "en": "Are you a student?"
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "He",
+        "a",
+        "you",
+        "no",
+        "Are",
+        "teacher",
+        "student"
+      ],
+      "answer": [
+        "Are",
+        "you",
+        "a",
+        "student"
+      ]
+    },
+    {
+      "id": "e12",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "উনি কে?",
+        "tr": "uni ke?",
+        "en": "Who is he?"
+      },
+      "direction": "bn_to_en",
+      "accepted": [
+        "Who is he?",
+        "Who is she?"
+      ]
+    },
+    {
+      "id": "e13",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "তুমি ডাক্তার নও।",
+        "tr": "tumi daktar noo.",
+        "en": "You are not a doctor."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "নও",
+        "নাদিয়া",
+        "ডাক্তার",
+        "তুমি",
+        "কে",
+        "আছে"
+      ],
+      "answer": [
+        "তুমি",
+        "ডাক্তার",
+        "নও"
+      ]
+    },
+    {
+      "id": "e14",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "এটা কী?",
+        "tr": "eta ki?",
+        "en": "What is this?"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "এটা কী?",
+        "তোরা ওখানে আছিস?",
+        "আমি ছাত্রী, আমার নাম নাদিয়া।",
+        "আমি এখানে আছি।"
+      ],
+      "answer": 0
+    }
+  ]
+}

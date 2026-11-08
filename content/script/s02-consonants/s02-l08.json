@@ -1,0 +1,235 @@
+{
+  "id": "s02-l08",
+  "unit": "s02-consonants",
+  "title": "Consonants review: look-alikes",
+  "status": "draft",
+  "tip": "You can now recognize every consonant in the chart: **ক খ গ ঘ ঙ · চ ছ জ ঝ ঞ · ট ঠ ড ঢ ণ · ত থ দ ধ ন · প ফ ব ভ ম · য র ল · শ ষ স হ · ড় ঢ় য় ৎ ং ঃ ঁ**.\n\n**Shape look-alikes**: ব (triangle) vs র (triangle + dot); ধ (open top-left) vs থ (bottom loop) vs য; উ (vowel) vs ড (notch in the top line); ড vs ড় and য vs য় (the dot!).\n\n**Sound-alikes**: জ/য, ন/ণ, শ/ষ/স and ঙ/ং sound the same. You can't hear the difference, so learn each word's spelling.\n\n**Puff pairs**: ক/খ, চ/ছ, ট/ঠ, ত/থ, প/ফ. Listen for the breath. Next up: vowel signs, which let you read whole words like মামা and খালা.",
+  "vocab": [],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "বড়",
+        "tr": "boro",
+        "en": "big"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "big",
+        "red",
+        "good, well",
+        "dark / deep (of colour)"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e02",
+      "type": "script_recognize",
+      "glyph": "ধ",
+      "options": [
+        "dho",
+        "tho",
+        "ko",
+        "n"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e03",
+      "type": "script_recognize",
+      "glyph": "র",
+      "options": [
+        "ro",
+        "bho",
+        "mo",
+        "kho"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e04",
+      "type": "script_recognize",
+      "glyph": "ত",
+      "options": [
+        "do",
+        "sho",
+        "ng",
+        "to"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e05",
+      "type": "script_recognize",
+      "glyph": "ড",
+      "options": [
+        "bo",
+        "no",
+        "do",
+        "cho"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e06",
+      "type": "script_recognize",
+      "glyph": "ঢ়",
+      "options": [
+        "no",
+        "rho",
+        "n",
+        "a~"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e07",
+      "type": "script_recognize",
+      "glyph": "খ",
+      "options": [
+        "bho",
+        "kho",
+        "i",
+        "ko"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e08",
+      "type": "script_recognize",
+      "glyph": "ছ",
+      "options": [
+        "t",
+        "bo",
+        "fo",
+        "chho"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e09",
+      "type": "script_recognize",
+      "glyph": "ক",
+      "options": [
+        "jho",
+        "ko",
+        "t",
+        "jo"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e10",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ভালো",
+        "tr": "bhalo",
+        "en": "good, well"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "Bangladeshi",
+        "good, well",
+        "sorry",
+        "red"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e11",
+      "type": "listen_select",
+      "audio": {
+        "bn": "বড়",
+        "tr": "boro",
+        "en": "big"
+      },
+      "options": [
+        "বড়",
+        "বাংলাদেশি",
+        "গাঢ়",
+        "দুঃখিত"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e12",
+      "type": "listen_select",
+      "audio": {
+        "bn": "ধ",
+        "tr": "dho",
+        "en": "soft d with a breathy puff"
+      },
+      "options": [
+        "ং",
+        "ধ",
+        "ভ",
+        "ঞ"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e13",
+      "type": "listen_select",
+      "audio": {
+        "bn": "র",
+        "tr": "ro",
+        "en": "r: a light tap of the tongue (like Spanish 'pero')"
+      },
+      "options": [
+        "ঞ",
+        "ঊ",
+        "র",
+        "ঋ"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e14",
+      "type": "listen_select",
+      "audio": {
+        "bn": "ত",
+        "tr": "to",
+        "en": "soft t, tongue on the teeth (as in Spanish 'tú')"
+      },
+      "options": [
+        "ঔ",
+        "আঁ",
+        "ত",
+        "ড"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e15",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "ছ",
+          "tr": "chho",
+          "en": "chh: ch with a strong puff of air"
+        },
+        {
+          "bn": "চ",
+          "tr": "cho",
+          "en": "ch as in 'church' (no puff)"
+        },
+        {
+          "bn": "থেকে",
+          "tr": "theke",
+          "en": "from"
+        },
+        {
+          "bn": "উ",
+          "tr": "u",
+          "en": "u as in 'food' (short-u letter)"
+        },
+        {
+          "bn": "ভালো",
+          "tr": "bhalo",
+          "en": "good, well"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,321 @@
+{
+  "id": "s02-l07",
+  "unit": "s02-consonants",
+  "title": "Consonants 7: ড় ঢ় য় ৎ ং ঃ ঁ",
+  "status": "draft",
+  "tip": "**A dot changes everything.** ড + dot = **ড়** (`r`, a flapped r: curl the tongue back and flick it forward, like *tt* in American *butter*): বড় (`boro`, *big*). ঢ + dot = **ঢ়** (`rh`, rare). য + dot = **য়** (`y`): মেয়ে (`meye`, *girl*), কোথায় (`kothay`, *where*). When you see a dot under a letter, check it twice.\n\n**ৎ** (khondo to) is a t that can never take a vowel: হঠাৎ (`hothat`, *suddenly*), উৎসব (`utshob`, *festival*).\n\n**Three signs that sit on other letters:**\n- **ং** = `ng` at the end of a syllable: বাংলা (`bangla`), মাংস (`mangsho`). Same sound as ঙ.\n- **ঃ** = a little breath; inside a word it doubles the next consonant: দুঃখিত (`dukkhito`, *sorry*).\n- **ঁ** (moon and dot) goes *above* a letter and makes the vowel nasal: চাঁদ (`cha~d`, *moon*), হ্যাঁ (`hya~`, *yes*). The `~` in transliteration marks it.",
+  "vocab": [
+    {
+      "id": "l-rra",
+      "bn": "ড়",
+      "tr": "ro",
+      "en": "flapped r: tongue curled back, flicked forward (like the tt in American 'butter')",
+      "notes": "Name: doye shunno ro (ড-য়ে শূন্য র), 'ড with a dot'. Encoded as ড + nukta (U+09A1 U+09BC). Sounds close to র; in casual BD speech often merges with it."
+    },
+    {
+      "id": "l-rrha",
+      "bn": "ঢ়",
+      "tr": "rho",
+      "en": "flapped r with a puff of breath",
+      "notes": "Name: dhoye shunno ro (ঢ-য়ে শূন্য র). Encoded ঢ + nukta (U+09A2 U+09BC). Rare; usually said like ড়."
+    },
+    {
+      "id": "l-yya",
+      "bn": "য়",
+      "tr": "yo",
+      "en": "y as in 'yes' (often a glide between vowels)",
+      "notes": "Name: ontostho o (অন্তঃস্থ অ). Encoded য + nukta (U+09AF U+09BC). Very common: মেয়ে, কোথায়."
+    },
+    {
+      "id": "l-khondo-to",
+      "bn": "ৎ",
+      "tr": "t",
+      "en": "final t with no vowel after it",
+      "notes": "Name: khondo to (খণ্ড ত), 'broken t'. U+09CE. Only appears at the end of a syllable (হঠাৎ, উৎসব)."
+    },
+    {
+      "id": "l-onushshar",
+      "bn": "ং",
+      "tr": "ng",
+      "en": "ng as in 'sing' (nasal at the end of a syllable)",
+      "notes": "Name: onushshar (অনুস্বার). U+0982. Same sound as ঙ. Shown standalone here; fonts may draw a dotted circle."
+    },
+    {
+      "id": "l-bishorgo",
+      "bn": "ঃ",
+      "tr": "h",
+      "en": "a short breath; inside a word it doubles the next consonant",
+      "notes": "Name: bishorgo (বিসর্গ). U+0983. দুঃখিত is said dukkhito: the ঃ makes the খ double. Shown standalone; fonts may draw a dotted circle."
+    },
+    {
+      "id": "l-chondrobindu",
+      "bn": "আঁ",
+      "tr": "a~",
+      "en": "ঁ makes the vowel nasal (shown on আ: a~)",
+      "notes": "Sign: chondrobindu (চন্দ্রবিন্দু) ঁ, U+0981, 'moon and dot', written above the letter. Shown on আ because it cannot stand alone."
+    },
+    {
+      "id": "garho",
+      "bn": "গাঢ়",
+      "tr": "garho",
+      "en": "dark / deep (of colour)",
+      "notes": "Uses ঢ়. গাঢ় লাল = deep red. Native check: pronunciation often closer to 'garo'."
+    },
+    {
+      "id": "hothat",
+      "bn": "হঠাৎ",
+      "tr": "hothat",
+      "en": "suddenly"
+    },
+    {
+      "id": "dukkhito",
+      "bn": "দুঃখিত",
+      "tr": "dukkhito",
+      "en": "sorry",
+      "notes": "'I'm sorry' = আমি দুঃখিত (formal). Shows ঃ doubling the খ."
+    },
+    {
+      "id": "chad",
+      "bn": "চাঁদ",
+      "tr": "cha~d",
+      "en": "moon",
+      "notes": "The transliteration guide's own example of ঁ."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "script_recognize",
+      "glyph": "ড়",
+      "options": [
+        "bo",
+        "n",
+        "ro",
+        "chho"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e02",
+      "type": "script_recognize",
+      "glyph": "ঢ়",
+      "options": [
+        "gho",
+        "o",
+        "rho",
+        "fo"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e03",
+      "type": "script_recognize",
+      "glyph": "য়",
+      "options": [
+        "yo",
+        "rho",
+        "kho",
+        "chho"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e04",
+      "type": "script_recognize",
+      "glyph": "ৎ",
+      "options": [
+        "jho",
+        "t",
+        "bho",
+        "ng"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e05",
+      "type": "script_recognize",
+      "glyph": "ং",
+      "options": [
+        "sho",
+        "ng",
+        "do",
+        "kho"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e06",
+      "type": "script_recognize",
+      "glyph": "ঃ",
+      "options": [
+        "ou",
+        "lo",
+        "h",
+        "oi"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e07",
+      "type": "script_recognize",
+      "glyph": "আঁ",
+      "options": [
+        "yo",
+        "ro",
+        "a~",
+        "ri"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e08",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "গাঢ়",
+        "tr": "garho",
+        "en": "dark / deep (of colour)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "dark / deep (of colour)",
+        "red",
+        "good, well",
+        "Bangladeshi"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e09",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "হঠাৎ",
+        "tr": "hothat",
+        "en": "suddenly"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "there",
+        "suddenly",
+        "how",
+        "very"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e10",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "দুঃখিত",
+        "tr": "dukkhito",
+        "en": "sorry"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "dark / deep (of colour)",
+        "sorry",
+        "big",
+        "red"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e11",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "চাঁদ",
+        "tr": "cha~d",
+        "en": "moon"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "eagle",
+        "girl",
+        "moon",
+        "doctor"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e12",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "বড়",
+        "tr": "boro",
+        "en": "big"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "sorry",
+        "big",
+        "dark / deep (of colour)",
+        "red"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e13",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "উৎসব",
+        "tr": "utshob",
+        "en": "festival"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "eye",
+        "now",
+        "festival",
+        "English (language)"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e14",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "মাংস",
+        "tr": "mangsho",
+        "en": "meat"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "one",
+        "eagle",
+        "meat",
+        "country"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e15",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "দুঃখিত",
+          "tr": "dukkhito",
+          "en": "sorry"
+        },
+        {
+          "bn": "গাঢ়",
+          "tr": "garho",
+          "en": "dark / deep (of colour)"
+        },
+        {
+          "bn": "আঁ",
+          "tr": "a~",
+          "en": "ঁ makes the vowel nasal (shown on আ: a~)"
+        },
+        {
+          "bn": "য়",
+          "tr": "yo",
+          "en": "y as in 'yes' (often a glide between vowels)"
+        },
+        {
+          "bn": "হঠাৎ",
+          "tr": "hothat",
+          "en": "suddenly"
+        }
+      ]
+    }
+  ]
+}

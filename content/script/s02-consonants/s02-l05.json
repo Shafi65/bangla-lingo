@@ -1,0 +1,283 @@
+{
+  "id": "s02-l05",
+  "unit": "s02-consonants",
+  "title": "Consonants 5: প ফ ব ভ ম",
+  "status": "draft",
+  "tip": "Row 5 is made with the lips: **প ফ ব ভ ম**. After four rows you know the pattern: plain, puffed, voiced, voiced-puffed, nasal.\n\n**ফ** is officially an aspirated p, but in Bangladesh it's usually a plain **f**: ফল (`fol`, *fruit*). **ভ** is a breathy b that can sound like *v*: ভালো (`bhalo`, *good*).\n\n**ব** is the shape to memorize carefully: a simple triangle hanging from the top line. Next lesson you'll meet **র**, which is ব plus a dot underneath. Many words depend on that dot!\n\n**ম** (`mo`) is the m in মানুষ (`manush`, *person*) and in many family words you'll read in s03 (মা, মামা).",
+  "vocab": [
+    {
+      "id": "l-pa",
+      "bn": "প",
+      "tr": "po",
+      "en": "p as in 'spin' (no puff)",
+      "notes": "Name: po (প)."
+    },
+    {
+      "id": "l-pha",
+      "bn": "ফ",
+      "tr": "fo",
+      "en": "f, or a puffed p (between 'ph' and 'f')",
+      "notes": "Name: fo/pho (ফ). Most Bangladeshis say a clear f (ফল fol)."
+    },
+    {
+      "id": "l-ba",
+      "bn": "ব",
+      "tr": "bo",
+      "en": "b as in 'bat'",
+      "notes": "Name: bo (ব), also borgio bo (বর্গীয় ব). Shape: a plain triangle hanging from the line. র is ব with a dot below."
+    },
+    {
+      "id": "l-bha",
+      "bn": "ভ",
+      "tr": "bho",
+      "en": "bh: breathy b, often close to 'v'",
+      "notes": "Name: bho (ভ). First letter of ভালো."
+    },
+    {
+      "id": "l-ma",
+      "bn": "ম",
+      "tr": "mo",
+      "en": "m as in 'mother'",
+      "notes": "Name: mo (ম)."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "script_recognize",
+      "glyph": "প",
+      "options": [
+        "po",
+        "o",
+        "gho",
+        "u"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e02",
+      "type": "script_recognize",
+      "glyph": "ফ",
+      "options": [
+        "o",
+        "fo",
+        "e",
+        "no"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e03",
+      "type": "script_recognize",
+      "glyph": "ব",
+      "options": [
+        "cho",
+        "oi",
+        "ng",
+        "bo"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e04",
+      "type": "script_recognize",
+      "glyph": "ভ",
+      "options": [
+        "o",
+        "bho",
+        "chho",
+        "fo"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e05",
+      "type": "script_recognize",
+      "glyph": "ম",
+      "options": [
+        "fo",
+        "ri",
+        "o",
+        "mo"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e06",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "পানি",
+        "tr": "pani",
+        "en": "water"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "Eid",
+        "doctor",
+        "sky",
+        "water"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e07",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ফল",
+        "tr": "fol",
+        "en": "fruit"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "season",
+        "one",
+        "teacher",
+        "fruit"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e08",
+      "type": "listen_select",
+      "audio": {
+        "bn": "প",
+        "tr": "po",
+        "en": "p as in 'spin' (no puff)"
+      },
+      "options": [
+        "চ",
+        "ঠ",
+        "প",
+        "ট"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e09",
+      "type": "listen_select",
+      "audio": {
+        "bn": "ফ",
+        "tr": "fo",
+        "en": "f, or a puffed p (between 'ph' and 'f')"
+      },
+      "options": [
+        "ক",
+        "আ",
+        "প",
+        "ফ"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e10",
+      "type": "listen_select",
+      "audio": {
+        "bn": "ব",
+        "tr": "bo",
+        "en": "b as in 'bat'"
+      },
+      "options": [
+        "ধ",
+        "ব",
+        "দ",
+        "ঠ"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e11",
+      "type": "listen_select",
+      "audio": {
+        "bn": "ভ",
+        "tr": "bho",
+        "en": "bh: breathy b, often close to 'v'"
+      },
+      "options": [
+        "ম",
+        "ঝ",
+        "ত",
+        "ভ"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e12",
+      "type": "listen_select",
+      "audio": {
+        "bn": "ম",
+        "tr": "mo",
+        "en": "m as in 'mother'"
+      },
+      "options": [
+        "ম",
+        "ধ",
+        "ঐ",
+        "ঞ"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e13",
+      "type": "listen_select",
+      "audio": {
+        "bn": "পানি",
+        "tr": "pani",
+        "en": "water"
+      },
+      "options": [
+        "ওষুধ",
+        "পানি",
+        "ছাত্রী",
+        "ঝড়"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e14",
+      "type": "listen_select",
+      "audio": {
+        "bn": "ফল",
+        "tr": "fol",
+        "en": "fruit"
+      },
+      "options": [
+        "ঢোল",
+        "ফল",
+        "অনেক",
+        "ঔষধ"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e15",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "ম",
+          "tr": "mo",
+          "en": "m as in 'mother'"
+        },
+        {
+          "bn": "ব",
+          "tr": "bo",
+          "en": "b as in 'bat'"
+        },
+        {
+          "bn": "প",
+          "tr": "po",
+          "en": "p as in 'spin' (no puff)"
+        },
+        {
+          "bn": "ফ",
+          "tr": "fo",
+          "en": "f, or a puffed p (between 'ph' and 'f')"
+        },
+        {
+          "bn": "ভ",
+          "tr": "bho",
+          "en": "bh: breathy b, often close to 'v'"
+        }
+      ]
+    }
+  ]
+}

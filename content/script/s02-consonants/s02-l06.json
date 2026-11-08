@@ -1,0 +1,305 @@
+{
+  "id": "s02-l06",
+  "unit": "s02-consonants",
+  "title": "Consonants 6: য র ল শ ষ স হ",
+  "status": "draft",
+  "tip": "This lesson collects the rest of the chart: **য র ল** (semivowels), **শ ষ স** (sibilants) and **হ**.\n\n**র vs ব**: র (`ro`) is ব with a **dot below**. Bengali r is a quick tap of the tongue, as in Spanish *pero*: রাত (`rat`, *night*). **য** sounds exactly like জ (`j`): যাব (`jabo`, *I'll go*).\n\n**Three letters, one sound.** শ, ষ and স are normally all `sh`: শিক্ষক (`shikkhok`), মানুষ (`manush`), সকাল (`shokal`). স switches to a real `s` in clusters before t, n, r, l (স্টেশন `steshon`). Learn which one a word uses as part of its spelling.\n\nLook-alike drill: **ব র ধ থ য**. ব = triangle; র = triangle + dot; ধ = open top-left; থ = bottom loop. Put them side by side and compare.",
+  "vocab": [
+    {
+      "id": "l-ya",
+      "bn": "য",
+      "tr": "jo",
+      "en": "j as in 'jam' (same sound as জ)",
+      "notes": "Name: ontostho jo (অন্তঃস্থ য). With a dot below it becomes য় (y), taught next lesson."
+    },
+    {
+      "id": "l-ra",
+      "bn": "র",
+      "tr": "ro",
+      "en": "r: a light tap of the tongue (like Spanish 'pero')",
+      "notes": "Name: bo-ye shunno ro (ব-য়ে শূন্য র), 'ব with a dot'. Never trill or curl it like English r."
+    },
+    {
+      "id": "l-la",
+      "bn": "ল",
+      "tr": "lo",
+      "en": "l as in 'love'",
+      "notes": "Name: lo (ল)."
+    },
+    {
+      "id": "l-sha",
+      "bn": "শ",
+      "tr": "sho",
+      "en": "sh as in 'shop'",
+      "notes": "Name: talobbo sho (তালব্য শ). The most common sh letter (শিক্ষক)."
+    },
+    {
+      "id": "l-ssa",
+      "bn": "ষ",
+      "tr": "sho",
+      "en": "sh as in 'shop' (same sound as শ)",
+      "notes": "Name: murdhonno sho (মূর্ধন্য ষ). Same sound as শ; spelling only. Rarely starts a word; common in the middle (মানুষ)."
+    },
+    {
+      "id": "l-sa",
+      "bn": "স",
+      "tr": "sho",
+      "en": "sh, or s before t / n / r / l",
+      "notes": "Name: donto sho (দন্ত্য স). Usually 'sh' (সকাল shokal), but 's' in clusters like স্ত, স্ক (s04)."
+    },
+    {
+      "id": "l-ha",
+      "bn": "হ",
+      "tr": "ho",
+      "en": "h as in 'hat'",
+      "notes": "Name: ho (হ). Changes shape with some vowel signs: হু, হৃ (s03-l02)."
+    },
+    {
+      "id": "lal",
+      "bn": "লাল",
+      "tr": "lal",
+      "en": "red"
+    },
+    {
+      "id": "hat",
+      "bn": "হাত",
+      "tr": "hat",
+      "en": "hand"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "script_recognize",
+      "glyph": "য",
+      "options": [
+        "bo",
+        "o",
+        "jho",
+        "jo"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e02",
+      "type": "script_recognize",
+      "glyph": "র",
+      "options": [
+        "lo",
+        "ou",
+        "ro",
+        "bho"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e03",
+      "type": "script_recognize",
+      "glyph": "ল",
+      "options": [
+        "a",
+        "lo",
+        "ou",
+        "ri"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e04",
+      "type": "script_recognize",
+      "glyph": "শ",
+      "options": [
+        "oi",
+        "sho",
+        "po",
+        "jho"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e05",
+      "type": "script_recognize",
+      "glyph": "ষ",
+      "options": [
+        "i",
+        "gho",
+        "sho",
+        "ng"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e06",
+      "type": "script_recognize",
+      "glyph": "স",
+      "options": [
+        "u",
+        "bo",
+        "fo",
+        "sho"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e07",
+      "type": "script_recognize",
+      "glyph": "হ",
+      "options": [
+        "sho",
+        "o",
+        "ho",
+        "po"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e08",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "লাল",
+        "tr": "lal",
+        "en": "red"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "medicine",
+        "python (snake)",
+        "red",
+        "you (familiar)"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e09",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "হাত",
+        "tr": "hat",
+        "en": "hand"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "teacher",
+        "country",
+        "hand",
+        "now"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e10",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "যাব",
+        "tr": "jabo",
+        "en": "I will go"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "am",
+        "(I) have come",
+        "I will go",
+        "is not"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e11",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "রাত",
+        "tr": "rat",
+        "en": "night"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "python (snake)",
+        "night",
+        "hand",
+        "novelist"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e12",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "লবণ",
+        "tr": "lobon",
+        "en": "salt"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "salt",
+        "lawyer",
+        "student (female)",
+        "storm"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e13",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "সকাল",
+        "tr": "shokal",
+        "en": "morning"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "cow",
+        "morning",
+        "one",
+        "sage (wise holy man)"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e14",
+      "type": "listen_select",
+      "audio": {
+        "bn": "য",
+        "tr": "jo",
+        "en": "j as in 'jam' (same sound as জ)"
+      },
+      "options": [
+        "য",
+        "ঘ",
+        "ট",
+        "ই"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e15",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "লাল",
+          "tr": "lal",
+          "en": "red"
+        },
+        {
+          "bn": "হাত",
+          "tr": "hat",
+          "en": "hand"
+        },
+        {
+          "bn": "র",
+          "tr": "ro",
+          "en": "r: a light tap of the tongue (like Spanish 'pero')"
+        },
+        {
+          "bn": "ষ",
+          "tr": "sho",
+          "en": "sh as in 'shop' (same sound as শ)"
+        },
+        {
+          "bn": "শ",
+          "tr": "sho",
+          "en": "sh as in 'shop'"
+        }
+      ]
+    }
+  ]
+}

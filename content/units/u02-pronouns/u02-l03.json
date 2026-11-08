@@ -1,0 +1,325 @@
+{
+  "id": "u02-l03",
+  "unit": "u02-pronouns",
+  "title": "tui, tumi, apni",
+  "status": "draft",
+  "tip": "Bengali has **three** words for 'you'. Think of them as a ladder of closeness:\n\n- **আপনি** (*apni*) — respect: elders, strangers, teachers, shopkeepers.\n- **তুমি** (*tumi*) — warmth: friends, younger people, partners, many parents and grandparents.\n- **তুই** (*tui*) — intimacy: your best friends of the same age, younger brothers and sisters, small children. Its verb ends in **-িস**: তুই কেমন **আছিস**? Plural: **তোরা**.\n\n**Careful:** তুই to a stranger or an elder is a serious insult. Quick scenarios: your grandmother → **আপনি** (some families use তুমি); your little brother → **তুই** or তুমি; a rickshaw driver → **আপনি**; your school best friend → **তুই**. When in doubt, go one step *more* polite.\n\n**এখানে** = here, **ওখানে** = there. The opposite of আছে is **নেই** (*nei*), and it never changes: রাফি এখানে **নেই** 'Rafi isn't here.'",
+  "vocab": [
+    {
+      "id": "tui",
+      "bn": "তুই",
+      "tr": "tui",
+      "en": "you (intimate)",
+      "notes": "For your closest same-age friends, younger siblings, small children. Rude or insulting with strangers and elders."
+    },
+    {
+      "id": "tora",
+      "bn": "তোরা",
+      "tr": "tora",
+      "en": "you (intimate, plural)"
+    },
+    {
+      "id": "achhish",
+      "bn": "আছিস",
+      "tr": "achhish",
+      "en": "are (intimate)",
+      "notes": "Goes with তুই / তোরা."
+    },
+    {
+      "id": "ekhane",
+      "bn": "এখানে",
+      "tr": "ekhane",
+      "en": "here"
+    },
+    {
+      "id": "okhane",
+      "bn": "ওখানে",
+      "tr": "okhane",
+      "en": "there"
+    },
+    {
+      "id": "nei",
+      "bn": "নেই",
+      "tr": "nei",
+      "en": "is not (here); there isn't",
+      "notes": "Negative of আছ- for every person: আমি নেই, তুমি নেই, সে নেই. Colloquially also নাই (nai)."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "তুই",
+        "tr": "tui",
+        "en": "you (intimate)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "we",
+        "you (intimate)",
+        "you (intimate, plural)",
+        "your (familiar)"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "তোরা",
+        "tr": "tora",
+        "en": "you (intimate, plural)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "you (intimate, plural)",
+        "you (polite, plural)",
+        "your (familiar)",
+        "we"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আছিস",
+        "tr": "achhish",
+        "en": "are (intimate)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "are (intimate)",
+        "am",
+        "is not (here); there isn't",
+        "are (polite)"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e04",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "এখানে",
+        "tr": "ekhane",
+        "en": "here"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "here",
+        "there",
+        "how",
+        "very"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e05",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ওখানে",
+        "tr": "okhane",
+        "en": "there"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "here",
+        "how",
+        "there",
+        "very"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e06",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "নেই",
+        "tr": "nei",
+        "en": "is not (here); there isn't"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "is (he/she/it)",
+        "are (polite)",
+        "are (intimate)",
+        "is not (here); there isn't"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e07",
+      "type": "listen_select",
+      "audio": {
+        "bn": "তুই",
+        "tr": "tui",
+        "en": "you (intimate)"
+      },
+      "options": [
+        "ওরা",
+        "তুই",
+        "তোরা",
+        "কী"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e08",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "আছিস",
+          "tr": "achhish",
+          "en": "are (intimate)"
+        },
+        {
+          "bn": "এখানে",
+          "tr": "ekhane",
+          "en": "here"
+        },
+        {
+          "bn": "ওখানে",
+          "tr": "okhane",
+          "en": "there"
+        },
+        {
+          "bn": "নেই",
+          "tr": "nei",
+          "en": "is not (here); there isn't"
+        },
+        {
+          "bn": "তোরা",
+          "tr": "tora",
+          "en": "you (intimate, plural)"
+        }
+      ]
+    },
+    {
+      "id": "e09",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "তুই কেমন আছিস?",
+        "tr": "tui kemon achhish?",
+        "en": "How are you?"
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "How",
+        "you",
+        "I",
+        "are",
+        "is",
+        "doctor"
+      ],
+      "answer": [
+        "How",
+        "are",
+        "you"
+      ]
+    },
+    {
+      "id": "e10",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমি এখানে আছি।",
+        "tr": "ami ekhane achhi.",
+        "en": "I am here."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "আমি",
+        "নেই",
+        "আছি",
+        "আপনি",
+        "আমার",
+        "এখানে"
+      ],
+      "answer": [
+        "আমি",
+        "এখানে",
+        "আছি"
+      ]
+    },
+    {
+      "id": "e11",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "তুই আমার বন্ধু।",
+        "tr": "tui amar bondhu.",
+        "en": "You are my friend."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "no",
+        "my",
+        "friend",
+        "guys",
+        "You",
+        "there",
+        "are"
+      ],
+      "answer": [
+        "You",
+        "are",
+        "my",
+        "friend"
+      ]
+    },
+    {
+      "id": "e12",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "তোরা কেমন আছিস?",
+        "tr": "tora kemon achhish?",
+        "en": "How are you guys?"
+      },
+      "direction": "bn_to_en",
+      "accepted": [
+        "How are you guys?",
+        "How are you all?",
+        "How are you?"
+      ]
+    },
+    {
+      "id": "e13",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "নাদিয়া ওখানে আছে।",
+        "tr": "nadiya okhane achhe.",
+        "en": "Nadia is there."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "নাদিয়া",
+        "ওখানে",
+        "আছে",
+        "আছিস",
+        "তারা",
+        "তিনি"
+      ],
+      "answer": [
+        "নাদিয়া",
+        "ওখানে",
+        "আছে"
+      ]
+    },
+    {
+      "id": "e14",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আপনি কেমন আছেন?",
+        "tr": "apni kemon achhen?",
+        "en": "How are you?"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "আমরা ভালো আছি।",
+        "ও আমার বন্ধু।",
+        "আপনি কেমন আছেন?",
+        "নমস্কার।"
+      ],
+      "answer": 2
+    }
+  ]
+}

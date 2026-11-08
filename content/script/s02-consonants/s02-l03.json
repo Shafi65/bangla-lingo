@@ -1,0 +1,294 @@
+{
+  "id": "s02-l03",
+  "unit": "s02-consonants",
+  "title": "Consonants 3: ট ঠ ড ঢ ণ",
+  "status": "draft",
+  "tip": "Row 3 is the **retroflex** row: curl your tongue tip back and touch the ridge behind your teeth. **ট ঠ ড ঢ ণ**.\n\nGood news for English speakers: **English t and d are already close to ট and ড.** টাকা (`taka`, *taka/money*) and ডাক্তার (`daktar`, *doctor*) sound natural to you. ঠ and ঢ add a puff: ঠিক আছে (`thik achhe`, *OK*), ঢাকা (`dhaka`).\n\n**ঠ is not English 'th'.** It's a t with breath, like the t in *top* said forcefully.\n\n**ণ** sounds just like ন (`n`); learn it as 'the other n letter' (লবণ `lobon`, *salt*). Watch out: **ড** looks like the vowel **উ**, but ড has a notch in the top line.",
+  "vocab": [
+    {
+      "id": "l-tta",
+      "bn": "ট",
+      "tr": "to",
+      "en": "hard t, tongue curled back (like English 't' in 'top')",
+      "notes": "Name: to (ট). Retroflex. English t is closer to ট than to ত."
+    },
+    {
+      "id": "l-ttha",
+      "bn": "ঠ",
+      "tr": "tho",
+      "en": "hard t with a puff of air (not English 'th')",
+      "notes": "Name: tho (ঠ). Aspirated partner of ট."
+    },
+    {
+      "id": "l-dda",
+      "bn": "ড",
+      "tr": "do",
+      "en": "hard d, tongue curled back (like English 'd' in 'dog')",
+      "notes": "Name: do (ড). Look-alike: উ (vowel) has no headline notch; ড has a notch on top. ড় (with a dot) is a different sound (s02-l07)."
+    },
+    {
+      "id": "l-ddha",
+      "bn": "ঢ",
+      "tr": "dho",
+      "en": "hard d with a breathy puff",
+      "notes": "Name: dho (ঢ). First letter of ঢাকা."
+    },
+    {
+      "id": "l-nna",
+      "bn": "ণ",
+      "tr": "n",
+      "en": "n (same sound as ন; 'retroflex n' letter)",
+      "notes": "Name: murdhonno no (মূর্ধন্য ণ). Sounds like ন today; the difference is spelling only. Rarely starts a word."
+    },
+    {
+      "id": "dhol",
+      "bn": "ঢোল",
+      "tr": "dhol",
+      "en": "drum (traditional)",
+      "notes": "Two-headed folk drum played at weddings and Pohela Boishakh."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "script_recognize",
+      "glyph": "ট",
+      "options": [
+        "chho",
+        "o",
+        "tho",
+        "to"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e02",
+      "type": "script_recognize",
+      "glyph": "ঠ",
+      "options": [
+        "ri",
+        "tho",
+        "o",
+        "kho"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e03",
+      "type": "script_recognize",
+      "glyph": "ড",
+      "options": [
+        "do",
+        "ko",
+        "go",
+        "n"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e04",
+      "type": "script_recognize",
+      "glyph": "ঢ",
+      "options": [
+        "gho",
+        "i",
+        "a",
+        "dho"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e05",
+      "type": "script_recognize",
+      "glyph": "ণ",
+      "options": [
+        "n",
+        "to",
+        "dho",
+        "chho"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e06",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ঢোল",
+        "tr": "dhol",
+        "en": "drum (traditional)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "drum (traditional)",
+        "dawn",
+        "eagle",
+        "heritage / tradition"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e07",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "টাকা",
+        "tr": "taka",
+        "en": "taka"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "taka",
+        "name",
+        "mango",
+        "student (female)"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e08",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ঠিক আছে",
+        "tr": "thik achhe",
+        "en": "OK"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "thank you",
+        "OK",
+        "hello (Hindu greeting)",
+        "see you again"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e09",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ডাল",
+        "tr": "dal",
+        "en": "lentils"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "python (snake)",
+        "sage (wise holy man)",
+        "lentils",
+        "salt"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e10",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ঢাকা",
+        "tr": "dhaka",
+        "en": "Dhaka"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "Nadia",
+        "America",
+        "Rafi",
+        "Dhaka"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e11",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "লবণ",
+        "tr": "lobon",
+        "en": "salt"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "season",
+        "lawyer",
+        "salt",
+        "many / a lot"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e12",
+      "type": "listen_select",
+      "audio": {
+        "bn": "ট",
+        "tr": "to",
+        "en": "hard t, tongue curled back (like English 't' in 'top')"
+      },
+      "options": [
+        "ট",
+        "ই",
+        "ঊ",
+        "ঔ"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e13",
+      "type": "listen_select",
+      "audio": {
+        "bn": "ঠ",
+        "tr": "tho",
+        "en": "hard t with a puff of air (not English 'th')"
+      },
+      "options": [
+        "ঊ",
+        "ঈ",
+        "ঠ",
+        "এ"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e14",
+      "type": "listen_select",
+      "audio": {
+        "bn": "ড",
+        "tr": "do",
+        "en": "hard d, tongue curled back (like English 'd' in 'dog')"
+      },
+      "options": [
+        "গ",
+        "ক",
+        "ঈ",
+        "ড"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e15",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "ট",
+          "tr": "to",
+          "en": "hard t, tongue curled back (like English 't' in 'top')"
+        },
+        {
+          "bn": "ণ",
+          "tr": "n",
+          "en": "n (same sound as ন; 'retroflex n' letter)"
+        },
+        {
+          "bn": "ঠ",
+          "tr": "tho",
+          "en": "hard t with a puff of air (not English 'th')"
+        },
+        {
+          "bn": "ঢ",
+          "tr": "dho",
+          "en": "hard d with a breathy puff"
+        },
+        {
+          "bn": "ঢোল",
+          "tr": "dhol",
+          "en": "drum (traditional)"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,344 @@
+{
+  "id": "u02-l02",
+  "unit": "u02-pronouns",
+  "title": "We & they",
+  "status": "draft",
+  "tip": "Add **-রা** (*-ra*) to make pronouns plural:\n\n- আমি → **আমরা** (*amra*) we\n- তুমি → **তোমরা** (*tomra*), আপনি → **আপনারা** (*apnara*) you all\n- সে → **তারা** (*tara*), ও → **ওরা** (*ora*) they (polite: **ওনারা** *onara*)\n\nGood news: **the verb does not change for plural.** আমি ভালো **আছি**, আমরা ভালো **আছি**. আপনি **আছেন**, আপনারা **আছেন**. The ending only cares about *person* and *respect*.\n\nNouns usually don't need a plural ending when the context is clear: **তারা ডাক্তার** = 'They are doctors.' And **ছেলে / মেয়ে** mean 'boy / girl' but also 'son / daughter' — you'll use that in the Family unit.",
+  "vocab": [
+    {
+      "id": "amra",
+      "bn": "আমরা",
+      "tr": "amra",
+      "en": "we"
+    },
+    {
+      "id": "tomra",
+      "bn": "তোমরা",
+      "tr": "tomra",
+      "en": "you (familiar, plural)"
+    },
+    {
+      "id": "apnara",
+      "bn": "আপনারা",
+      "tr": "apnara",
+      "en": "you (polite, plural)"
+    },
+    {
+      "id": "tara",
+      "bn": "তারা",
+      "tr": "tara",
+      "en": "they",
+      "notes": "Plural of সে. Polite plural: ওনারা (onara) / তাঁরা."
+    },
+    {
+      "id": "ora",
+      "bn": "ওরা",
+      "tr": "ora",
+      "en": "they (spoken)",
+      "notes": "Plural of ও; the everyday spoken 'they'."
+    },
+    {
+      "id": "chhele",
+      "bn": "ছেলে",
+      "tr": "chhele",
+      "en": "boy",
+      "notes": "Also 'son' (আমার ছেলে = my son), and loosely 'young man'."
+    },
+    {
+      "id": "meye",
+      "bn": "মেয়ে",
+      "tr": "meye",
+      "en": "girl",
+      "notes": "Also 'daughter' (আমার মেয়ে = my daughter), and loosely 'young woman'."
+    },
+    {
+      "id": "manush",
+      "bn": "মানুষ",
+      "tr": "manush",
+      "en": "person",
+      "notes": "Gender-neutral: a person / people / human being."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আমরা",
+        "tr": "amra",
+        "en": "we"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "they",
+        "we",
+        "your (polite)",
+        "your (familiar)"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "তোমরা",
+        "tr": "tomra",
+        "en": "you (familiar, plural)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "you (familiar, plural)",
+        "I",
+        "he/she (polite, spoken)",
+        "my"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আপনারা",
+        "tr": "apnara",
+        "en": "you (polite, plural)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "I",
+        "your (familiar)",
+        "he/she",
+        "you (polite, plural)"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e04",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "তারা",
+        "tr": "tara",
+        "en": "they"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "my",
+        "we",
+        "they",
+        "he/she (spoken)"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e05",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ওরা",
+        "tr": "ora",
+        "en": "they (spoken)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "I",
+        "they (spoken)",
+        "he/she (spoken)",
+        "you (familiar)"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e06",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ছেলে",
+        "tr": "chhele",
+        "en": "boy"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "name",
+        "boy",
+        "person",
+        "teacher"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e07",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "মেয়ে",
+        "tr": "meye",
+        "en": "girl"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "teacher",
+        "friend",
+        "student (female)",
+        "girl"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e08",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "আপনারা",
+          "tr": "apnara",
+          "en": "you (polite, plural)"
+        },
+        {
+          "bn": "তোমরা",
+          "tr": "tomra",
+          "en": "you (familiar, plural)"
+        },
+        {
+          "bn": "আমরা",
+          "tr": "amra",
+          "en": "we"
+        },
+        {
+          "bn": "তারা",
+          "tr": "tara",
+          "en": "they"
+        },
+        {
+          "bn": "মানুষ",
+          "tr": "manush",
+          "en": "person"
+        }
+      ]
+    },
+    {
+      "id": "e09",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমরা ছাত্র।",
+        "tr": "amra chhatro.",
+        "en": "We are students."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "doctor",
+        "are",
+        "what",
+        "students",
+        "We",
+        "my"
+      ],
+      "answer": [
+        "We",
+        "are",
+        "students"
+      ]
+    },
+    {
+      "id": "e10",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "ওরা ভালো মানুষ।",
+        "tr": "ora bhalo manush.",
+        "en": "They are good people."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "তুমি",
+        "নাদিয়া",
+        "ভালো",
+        "মানুষ",
+        "নাম",
+        "ওরা"
+      ],
+      "answer": [
+        "ওরা",
+        "ভালো",
+        "মানুষ"
+      ]
+    },
+    {
+      "id": "e11",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "ও খুব ভালো মেয়ে।",
+        "tr": "o khub bhalo meye.",
+        "en": "She is a very good girl."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "is",
+        "how",
+        "girl",
+        "good",
+        "friend",
+        "Rafi",
+        "very",
+        "She",
+        "a"
+      ],
+      "answer": [
+        "She",
+        "is",
+        "a",
+        "very",
+        "good",
+        "girl"
+      ]
+    },
+    {
+      "id": "e12",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "তোমরা কেমন আছো?",
+        "tr": "tomra kemon achho?",
+        "en": "How are you all?"
+      },
+      "direction": "bn_to_en",
+      "accepted": [
+        "How are you all?",
+        "How are you guys?",
+        "How are you?"
+      ]
+    },
+    {
+      "id": "e13",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আপনারা কেমন আছেন?",
+        "tr": "apnara kemon achhen?",
+        "en": "How are you all?"
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "কেমন",
+        "আপনারা",
+        "শিক্ষক",
+        "ছেলে",
+        "আছেন",
+        "আছো"
+      ],
+      "answer": [
+        "আপনারা",
+        "কেমন",
+        "আছেন"
+      ]
+    },
+    {
+      "id": "e14",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "তারা আমার বন্ধু।",
+        "tr": "tara amar bondhu.",
+        "en": "They are my friends."
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "আপনি কেমন আছেন?",
+        "তারা আমার বন্ধু।",
+        "খুব ভালো।",
+        "না, ধন্যবাদ।"
+      ],
+      "answer": 1
+    }
+  ]
+}

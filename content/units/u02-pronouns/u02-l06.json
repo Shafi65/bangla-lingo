@@ -1,0 +1,315 @@
+{
+  "id": "u02-l06",
+  "unit": "u02-pronouns",
+  "title": "Review: people",
+  "status": "draft",
+  "tip": "Time to put Unit 2 together. Check yourself on the pronoun grid:\n\n| | ordinary | polite |\n|---|---|---|\n| I / we | আমি / আমরা | — |\n| you | তুই, তুমি / তোরা, তোমরা | আপনি / আপনারা |\n| he, she / they | সে, ও / তারা, ওরা | তিনি, উনি / ওনারা |\n\nNew words: **বাংলা** is the *language* (Bengali); **বাংলাদেশি** is the *nationality*; **ইংরেজি** is English. Bengali speakers on both sides of the border call themselves **বাঙালি** (*bangali*) — an ethnic and linguistic identity, not a nationality.\n\nBangladesh is one of very few countries named after its language: *Bangla-desh* = 'Bangla country'.",
+  "vocab": [
+    {
+      "id": "bangladeshi",
+      "bn": "বাংলাদেশি",
+      "tr": "bangladeshi",
+      "en": "Bangladeshi"
+    },
+    {
+      "id": "bangla",
+      "bn": "বাংলা",
+      "tr": "bangla",
+      "en": "Bengali (language)",
+      "notes": "The language (and the region of Bengal)."
+    },
+    {
+      "id": "ingreji",
+      "bn": "ইংরেজি",
+      "tr": "ingreji",
+      "en": "English (language)"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "বাংলাদেশি",
+        "tr": "bangladeshi",
+        "en": "Bangladeshi"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "is not",
+        "are (familiar)",
+        "Bangladeshi",
+        "teacher"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "বাংলা",
+        "tr": "bangla",
+        "en": "Bengali (language)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "person",
+        "Bengali (language)",
+        "student (female)",
+        "teacher"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ইংরেজি",
+        "tr": "ingreji",
+        "en": "English (language)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "person",
+        "English (language)",
+        "student (male)",
+        "girl"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e04",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "তুমি",
+        "tr": "tumi",
+        "en": "you (familiar)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "you (familiar)",
+        "he/she (spoken)",
+        "they",
+        "your (polite)"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e05",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "কি",
+        "tr": "ki",
+        "en": "(yes/no question marker)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "and",
+        "no",
+        "yes",
+        "(yes/no question marker)"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e06",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আমি",
+        "tr": "ami",
+        "en": "I"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "I",
+        "your (polite)",
+        "he/she (polite, spoken)",
+        "what"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e07",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ওরা",
+        "tr": "ora",
+        "en": "they (spoken)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "who",
+        "they (spoken)",
+        "he/she",
+        "we"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e08",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "ইংরেজি",
+          "tr": "ingreji",
+          "en": "English (language)"
+        },
+        {
+          "bn": "বাংলা",
+          "tr": "bangla",
+          "en": "Bengali (language)"
+        },
+        {
+          "bn": "আমার",
+          "tr": "amar",
+          "en": "my"
+        },
+        {
+          "bn": "বাংলাদেশি",
+          "tr": "bangladeshi",
+          "en": "Bangladeshi"
+        },
+        {
+          "bn": "ওরা",
+          "tr": "ora",
+          "en": "they (spoken)"
+        }
+      ]
+    },
+    {
+      "id": "e09",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "না, এটা ইংরেজি।",
+        "tr": "na, eta ingreji.",
+        "en": "No, this is English."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "you",
+        "very",
+        "English",
+        "is",
+        "They",
+        "this",
+        "No"
+      ],
+      "answer": [
+        "No",
+        "this",
+        "is",
+        "English"
+      ]
+    },
+    {
+      "id": "e10",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "উনি শিক্ষক নন, উনি ডাক্তার।",
+        "tr": "uni shikkhok non, uni daktar.",
+        "en": "She is not a teacher, she is a doctor."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "নন",
+        "ডাক্তার",
+        "থেকে",
+        "দেশ",
+        "শিক্ষক",
+        "উনি",
+        "উনি",
+        "মেয়ে"
+      ],
+      "answer": [
+        "উনি",
+        "শিক্ষক",
+        "নন",
+        "উনি",
+        "ডাক্তার"
+      ]
+    },
+    {
+      "id": "e11",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "এটা কি বাংলা?",
+        "tr": "eta ki bangla?",
+        "en": "Is this Bengali?"
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "Is",
+        "Bangladeshi",
+        "Bengali",
+        "No",
+        "this",
+        "Nadia"
+      ],
+      "answer": [
+        "Is",
+        "this",
+        "Bengali"
+      ]
+    },
+    {
+      "id": "e12",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "তিনি আমার বাংলা শিক্ষক।",
+        "tr": "tini amar bangla shikkhok.",
+        "en": "He is my Bengali teacher."
+      },
+      "direction": "bn_to_en",
+      "accepted": [
+        "He is my Bengali teacher.",
+        "She is my Bengali teacher.",
+        "He is my Bangla teacher.",
+        "She is my Bangla teacher."
+      ]
+    },
+    {
+      "id": "e13",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "ওরা আমার বন্ধু, ওরা বাংলাদেশি।",
+        "tr": "ora amar bondhu, ora bangladeshi.",
+        "en": "They are my friends, they are Bangladeshi."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "ওরা",
+        "আমার",
+        "এসেছি",
+        "বাংলাদেশি",
+        "আছো",
+        "বন্ধু",
+        "নাম",
+        "ওরা"
+      ],
+      "answer": [
+        "ওরা",
+        "আমার",
+        "বন্ধু",
+        "ওরা",
+        "বাংলাদেশি"
+      ]
+    },
+    {
+      "id": "e14",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আমি বাংলাদেশি।",
+        "tr": "ami bangladeshi.",
+        "en": "I am Bangladeshi."
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "আমি বাংলাদেশি।",
+        "তিনি আমার বাংলা শিক্ষক।",
+        "ওরা আমার বন্ধু, ওরা বাংলাদেশি।",
+        "আমি নাদিয়া।"
+      ],
+      "answer": 0
+    }
+  ]
+}

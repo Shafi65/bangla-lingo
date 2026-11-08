@@ -70,7 +70,9 @@ const itemEx = (e) => e.pos === "letter"
       () => ({ type: "select_translation", prompt: bt(e), direction: "bn_to_en", ...options(e.en, distractorEntries(e, wordPool).map((d) => d.en)) }),
       () => ({ type: "listen_select", audio: bt(e), ...options(e.bn, distractorEntries(e, isScript ? wordPool : knownWords).map((d) => d.bn)) }),
     ];
-const items = [...letters, ...words, ...previewE.filter((e) => e.pos !== "letter")];
+let items = [...letters, ...words, ...previewE.filter((e) => e.pos !== "letter")];
+// Review lessons (few/no new items): exercise a sample of the review list instead.
+if (items.length < 5) items = [...items, ...shuffle(reviewE.filter((e) => e.pos !== "name"), rand).slice(0, 10 - items.length)];
 let wordBudget = MAX - sentenceBudget - 1 /* match */;
 for (let round = 0; round < 2; round++) {
   for (const e of items) {

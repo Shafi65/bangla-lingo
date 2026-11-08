@@ -32,7 +32,12 @@
       "description": "He, she, we, they; tui/tumi/apni; is, isn't, questions",
       "track": "main",
       "lessons": [
-        "u02-l01"
+        "u02-l01",
+        "u02-l02",
+        "u02-l03",
+        "u02-l04",
+        "u02-l05",
+        "u02-l06"
       ]
     },
     {
@@ -40,7 +45,16 @@
       "title": "Script: Consonants",
       "description": "Read the Bengali consonants ক to হ",
       "track": "script",
-      "lessons": []
+      "lessons": [
+        "s02-l01",
+        "s02-l02",
+        "s02-l03",
+        "s02-l04",
+        "s02-l05",
+        "s02-l06",
+        "s02-l07",
+        "s02-l08"
+      ]
     },
     {
       "id": "u03-family",

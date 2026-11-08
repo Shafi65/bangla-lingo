@@ -1,0 +1,299 @@
+{
+  "id": "s02-l02",
+  "unit": "s02-consonants",
+  "title": "Consonants 2: চ ছ জ ঝ ঞ",
+  "status": "draft",
+  "tip": "Row 2 is made with the tongue pressed to the roof of the mouth: **চ ছ জ ঝ ঞ**.\n\n**চ** = `ch` as in *church*, but without a puff. **ছ** = `chh`, the same sound with a strong puff of air (ছাত্র `chhatro`). চা (*tea*) vs ছা: the puff is the whole difference.\n\n**জ** = `j` as in *jam* (জি `ji`, the polite 'yes'). **ঝ** = `jh`, a breathy j (ঝাল `jhal`, *spicy*).\n\n**ঞ** is the row's nasal. You'll almost never see it alone; it hides inside conjuncts like ঞ্চ in পঞ্চাশ (`ponchash`, *fifty*).",
+  "vocab": [
+    {
+      "id": "l-cha",
+      "bn": "চ",
+      "tr": "cho",
+      "en": "ch as in 'church' (no puff)",
+      "notes": "Name: cho (চ)."
+    },
+    {
+      "id": "l-chha",
+      "bn": "ছ",
+      "tr": "chho",
+      "en": "chh: ch with a strong puff of air",
+      "notes": "Name: chho (ছ). Aspirated partner of চ. First letter of ছাত্র."
+    },
+    {
+      "id": "l-ja",
+      "bn": "জ",
+      "tr": "jo",
+      "en": "j as in 'jam'",
+      "notes": "Name: borgio jo (বর্গীয় জ). Same sound as য (ontostho jo); only spelling differs."
+    },
+    {
+      "id": "l-jha",
+      "bn": "ঝ",
+      "tr": "jho",
+      "en": "jh: j with a breathy puff",
+      "notes": "Name: jho (ঝ). Aspirated partner of জ."
+    },
+    {
+      "id": "l-nya",
+      "bn": "ঞ",
+      "tr": "n",
+      "en": "n, found almost only inside conjuncts (ঞ্চ = 'nch')",
+      "notes": "Name: iyo (ইঁয়ো). Sounds like ন inside words (পঞ্চাশ ponchash). Never starts a common word."
+    },
+    {
+      "id": "chokh",
+      "bn": "চোখ",
+      "tr": "chokh",
+      "en": "eye"
+    },
+    {
+      "id": "jhor",
+      "bn": "ঝড়",
+      "tr": "jhor",
+      "en": "storm",
+      "notes": "Ends with ড় (flapped r), taught in s02-l07."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "script_recognize",
+      "glyph": "চ",
+      "options": [
+        "cho",
+        "u",
+        "gho",
+        "a"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e02",
+      "type": "script_recognize",
+      "glyph": "ছ",
+      "options": [
+        "jho",
+        "a",
+        "chho",
+        "oi"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e03",
+      "type": "script_recognize",
+      "glyph": "জ",
+      "options": [
+        "jo",
+        "o",
+        "a",
+        "ng"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e04",
+      "type": "script_recognize",
+      "glyph": "ঝ",
+      "options": [
+        "ng",
+        "cho",
+        "jho",
+        "o"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e05",
+      "type": "script_recognize",
+      "glyph": "ঞ",
+      "options": [
+        "n",
+        "oi",
+        "chho",
+        "e"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e06",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "চোখ",
+        "tr": "chokh",
+        "en": "eye"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "heritage / tradition",
+        "eye",
+        "brick",
+        "one"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e07",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ঝড়",
+        "tr": "jhor",
+        "en": "storm"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "boy",
+        "storm",
+        "medicine",
+        "one"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e08",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "চা",
+        "tr": "cha",
+        "en": "tea"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "tea",
+        "storm",
+        "medicine (formal)",
+        "Eid"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e09",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ঝাল",
+        "tr": "jhal",
+        "en": "spicy"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "many / a lot",
+        "spicy",
+        "room / house",
+        "tree"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e10",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "পঞ্চাশ",
+        "tr": "ponchash",
+        "en": "fifty"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "sage (wise holy man)",
+        "fifty",
+        "good, well",
+        "name"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e11",
+      "type": "listen_select",
+      "audio": {
+        "bn": "চ",
+        "tr": "cho",
+        "en": "ch as in 'church' (no puff)"
+      },
+      "options": [
+        "ক",
+        "ঝ",
+        "চ",
+        "জ"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e12",
+      "type": "listen_select",
+      "audio": {
+        "bn": "ছ",
+        "tr": "chho",
+        "en": "chh: ch with a strong puff of air"
+      },
+      "options": [
+        "ঞ",
+        "ছ",
+        "ঈ",
+        "ঋ"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e13",
+      "type": "listen_select",
+      "audio": {
+        "bn": "জ",
+        "tr": "jo",
+        "en": "j as in 'jam'"
+      },
+      "options": [
+        "ঈ",
+        "খ",
+        "ঝ",
+        "জ"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e14",
+      "type": "listen_select",
+      "audio": {
+        "bn": "ঝ",
+        "tr": "jho",
+        "en": "jh: j with a breathy puff"
+      },
+      "options": [
+        "ঝ",
+        "উ",
+        "গ",
+        "খ"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e15",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "চোখ",
+          "tr": "chokh",
+          "en": "eye"
+        },
+        {
+          "bn": "জ",
+          "tr": "jo",
+          "en": "j as in 'jam'"
+        },
+        {
+          "bn": "ঞ",
+          "tr": "n",
+          "en": "n, found almost only inside conjuncts (ঞ্চ = 'nch')"
+        },
+        {
+          "bn": "ছ",
+          "tr": "chho",
+          "en": "chh: ch with a strong puff of air"
+        },
+        {
+          "bn": "ঝড়",
+          "tr": "jhor",
+          "en": "storm"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,312 @@
+{
+  "id": "s02-l01",
+  "unit": "s02-consonants",
+  "title": "Consonants 1: ক খ গ ঘ ঙ",
+  "status": "draft",
+  "tip": "**Consonants (ব্যঞ্জনবর্ণ byænjonborno) come in rows of five**, ordered from the back of the mouth to the lips. Row 1 is made in the throat: **ক খ গ ঘ ঙ**.\n\n**Every consonant has a built-in vowel `o`.** On its own, ক is read `ko`. At the end of a word that `o` usually goes silent: ঘর is `ghor`, not *ghoro*.\n\n**Aspiration is a real difference.** খ (`kh`) and ঘ (`gh`) are ক and গ with a puff of air; hold a hand in front of your mouth to feel it. ক is like the k in *skin* (no puff). Getting this wrong changes words, so listen closely.\n\n**ঙ** (`ng` as in *sing*) never starts a word and sounds just like the sign ং, which you'll meet in s02-l07.",
+  "vocab": [
+    {
+      "id": "l-ka",
+      "bn": "ক",
+      "tr": "ko",
+      "en": "k as in 'skin' (no puff of air)",
+      "notes": "Name: ko (ক). First letter of কেমন and কী."
+    },
+    {
+      "id": "l-kha",
+      "bn": "খ",
+      "tr": "kho",
+      "en": "kh: k with a puff of air, as in 'kite'",
+      "notes": "Name: kho (খ). The aspirated partner of ক."
+    },
+    {
+      "id": "l-ga",
+      "bn": "গ",
+      "tr": "go",
+      "en": "g as in 'go'",
+      "notes": "Name: go (গ)."
+    },
+    {
+      "id": "l-gha",
+      "bn": "ঘ",
+      "tr": "gho",
+      "en": "gh: g with a breathy puff",
+      "notes": "Name: gho (ঘ). The aspirated partner of গ."
+    },
+    {
+      "id": "l-nga",
+      "bn": "ঙ",
+      "tr": "ng",
+      "en": "ng as in 'sing' (never starts a word)",
+      "notes": "Name: ungo (উঙ). Same sound as the sign ং (s02-l07); only the spelling differs. Main use is inside conjuncts like ঙ্গ (লুঙ্গি)."
+    },
+    {
+      "id": "gachh",
+      "bn": "গাছ",
+      "tr": "gachh",
+      "en": "tree"
+    },
+    {
+      "id": "goru",
+      "bn": "গরু",
+      "tr": "goru",
+      "en": "cow"
+    },
+    {
+      "id": "ghor",
+      "bn": "ঘর",
+      "tr": "ghor",
+      "en": "room / house",
+      "notes": "Also 'home' in a general sense; বাড়ি (bari) is the usual word for a house/home."
+    },
+    {
+      "id": "bangali",
+      "bn": "বাঙালি",
+      "tr": "bangali",
+      "en": "Bengali (person)",
+      "notes": "Example of ঙ inside a word. Bangla Academy standard: colour is spelled রং on its own, রঙ only before an ending (রঙিন)."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "script_recognize",
+      "glyph": "ক",
+      "options": [
+        "ko",
+        "u",
+        "i",
+        "kho"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e02",
+      "type": "script_recognize",
+      "glyph": "খ",
+      "options": [
+        "ou",
+        "i",
+        "kho",
+        "gho"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e03",
+      "type": "script_recognize",
+      "glyph": "গ",
+      "options": [
+        "ng",
+        "go",
+        "oi",
+        "ko"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e04",
+      "type": "script_recognize",
+      "glyph": "ঘ",
+      "options": [
+        "ou",
+        "i",
+        "gho",
+        "u"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e05",
+      "type": "script_recognize",
+      "glyph": "ঙ",
+      "options": [
+        "ng",
+        "ko",
+        "kho",
+        "oi"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e06",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "গাছ",
+        "tr": "gachh",
+        "en": "tree"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "one",
+        "cow",
+        "unity",
+        "tree"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e07",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "গরু",
+        "tr": "goru",
+        "en": "cow"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "friend",
+        "cow",
+        "student (female)",
+        "now"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e08",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ঘর",
+        "tr": "ghor",
+        "en": "room / house"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "name",
+        "student (male)",
+        "room / house",
+        "hilsa (fish)"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e09",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "বাঙালি",
+        "tr": "bangali",
+        "en": "Bengali (person)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "dawn",
+        "hour",
+        "Bengali (person)",
+        "season"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e10",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ঘণ্টা",
+        "tr": "ghonta",
+        "en": "hour"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "season",
+        "hour",
+        "elephant-foot yam",
+        "brick"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e11",
+      "type": "listen_select",
+      "audio": {
+        "bn": "ক",
+        "tr": "ko",
+        "en": "k as in 'skin' (no puff of air)"
+      },
+      "options": [
+        "ই",
+        "ঈ",
+        "ক",
+        "গ"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e12",
+      "type": "listen_select",
+      "audio": {
+        "bn": "খ",
+        "tr": "kho",
+        "en": "kh: k with a puff of air, as in 'kite'"
+      },
+      "options": [
+        "এ",
+        "ক",
+        "ও",
+        "খ"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e13",
+      "type": "listen_select",
+      "audio": {
+        "bn": "গ",
+        "tr": "go",
+        "en": "g as in 'go'"
+      },
+      "options": [
+        "গ",
+        "ঙ",
+        "আ",
+        "ঔ"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e14",
+      "type": "listen_select",
+      "audio": {
+        "bn": "ঘ",
+        "tr": "gho",
+        "en": "gh: g with a breathy puff"
+      },
+      "options": [
+        "ক",
+        "অ",
+        "এ",
+        "ঘ"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e15",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "গাছ",
+          "tr": "gachh",
+          "en": "tree"
+        },
+        {
+          "bn": "ঘর",
+          "tr": "ghor",
+          "en": "room / house"
+        },
+        {
+          "bn": "গরু",
+          "tr": "goru",
+          "en": "cow"
+        },
+        {
+          "bn": "বাঙালি",
+          "tr": "bangali",
+          "en": "Bengali (person)"
+        },
+        {
+          "bn": "খ",
+          "tr": "kho",
+          "en": "kh: k with a puff of air, as in 'kite'"
+        }
+      ]
+    }
+  ]
+}
