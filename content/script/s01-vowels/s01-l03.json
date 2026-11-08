@@ -1,0 +1,349 @@
+{
+  "id": "s01-l03",
+  "unit": "s01-vowels",
+  "title": "Vowels 3: ঐ ও ঔ + review",
+  "tip": "The last three vowels are all built from shapes you know:\n\n- **ঐ** = `oi` as in *boy*. It is এ with a flick on top.\n- **ও** = `o` as in *go*. Compare with **অ** (`o` as in *or*): অ is short and open, ও is rounder and closed. Both are written `o` in transliteration, so trust your ears and the letter shape.\n- **ঔ** = `ou` as in *low*. It is ও with a squiggle on top.\n\n**All 11 vowels:** অ আ ই ঈ উ ঊ ঋ এ ঐ ও ঔ. Remember: ই/ঈ sound the same, and so do উ/ঊ.\n\nFun fact: ওষুধ (everyday) and ঔষধ (formal) both mean *medicine*.",
+  "vocab": [
+    {
+      "id": "l-oi",
+      "bn": "ঐ",
+      "tr": "oi",
+      "en": "oi as in 'boy'",
+      "notes": "Name: oi (ঐ). Looks like এ with an extra flick on top. As a word, ঐ means 'that (over there)', today usually spelled ওই."
+    },
+    {
+      "id": "l-o2",
+      "bn": "ও",
+      "tr": "o",
+      "en": "o as in 'go'",
+      "notes": "Name: o (ও). Rounder, closed 'o', unlike the short open অ. As a word, ও also means 'and / also' or 's/he'."
+    },
+    {
+      "id": "l-ou",
+      "bn": "ঔ",
+      "tr": "ou",
+      "en": "ou as in 'low'",
+      "notes": "Name: ou (ঔ). It is ও with an extra squiggle on top. Rare; mostly in formal/Sanskrit-origin words."
+    },
+    {
+      "id": "oikko",
+      "bn": "ঐক্য",
+      "tr": "oikko",
+      "en": "unity",
+      "notes": "The ক্য cluster doubles the k sound: oik-ko."
+    },
+    {
+      "id": "oitijjho",
+      "bn": "ঐতিহ্য",
+      "tr": "oitijjho",
+      "en": "heritage / tradition",
+      "notes": "The হ্য cluster is said like a doubled \"jjh\": oi-tij-jho."
+    },
+    {
+      "id": "ol",
+      "bn": "ওল",
+      "tr": "ol",
+      "en": "elephant-foot yam",
+      "notes": "Alphabet-chart word: ও-তে ওল."
+    },
+    {
+      "id": "oshudh",
+      "bn": "ওষুধ",
+      "tr": "oshudh",
+      "en": "medicine",
+      "notes": "Everyday word for medicine."
+    },
+    {
+      "id": "oushodh",
+      "bn": "ঔষধ",
+      "tr": "oushodh",
+      "en": "medicine (formal)",
+      "notes": "Formal/written form of ওষুধ; seen on pharmacy signs (ঔষধালয়)."
+    },
+    {
+      "id": "ouponnashik",
+      "bn": "ঔপন্যাসিক",
+      "tr": "ouponnashik",
+      "en": "novelist",
+      "notes": "From উপন্যাস (novel)."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "script_recognize",
+      "glyph": "ঐ",
+      "options": [
+        "e (as in 'bed' / 'say')",
+        "oi (as in 'boy')",
+        "ou (as in 'low')",
+        "i (as in 'see')"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e02",
+      "type": "script_recognize",
+      "glyph": "ও",
+      "options": [
+        "o (as in 'go')",
+        "ou (as in 'low')",
+        "a (as in 'father')",
+        "u (as in 'food')"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e03",
+      "type": "script_recognize",
+      "glyph": "ঔ",
+      "options": [
+        "oi (as in 'boy')",
+        "o (as in 'or')",
+        "ou (as in 'low')",
+        "e (as in 'bed' / 'say')"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "ঐ",
+          "tr": "oi",
+          "en": "oi as in 'boy'"
+        },
+        {
+          "bn": "ও",
+          "tr": "o",
+          "en": "o as in 'go'"
+        },
+        {
+          "bn": "ঔ",
+          "tr": "ou",
+          "en": "ou as in 'low'"
+        },
+        {
+          "bn": "অ",
+          "tr": "o",
+          "en": "o as in 'or'"
+        },
+        {
+          "bn": "এ",
+          "tr": "e",
+          "en": "e as in 'bed' / 'say'"
+        }
+      ]
+    },
+    {
+      "id": "e05",
+      "type": "listen_select",
+      "audio": {
+        "bn": "ওল",
+        "tr": "ol",
+        "en": "elephant-foot yam"
+      },
+      "options": [
+        "ওল",
+        "ঐক্য",
+        "উট",
+        "আম"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e06",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ওষুধ",
+        "tr": "oshudh",
+        "en": "medicine"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "unity",
+        "novelist",
+        "medicine",
+        "yam"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e07",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ঐক্য",
+        "tr": "oikko",
+        "en": "unity"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "unity",
+        "heritage / tradition",
+        "season",
+        "dawn"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e08",
+      "type": "listen_select",
+      "audio": {
+        "bn": "ঔপন্যাসিক",
+        "tr": "ouponnashik",
+        "en": "novelist"
+      },
+      "options": [
+        "ঐতিহ্য",
+        "ওষুধ",
+        "ঔপন্যাসিক",
+        "উকিল"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e09",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "ঐতিহ্য",
+          "tr": "oitijjho",
+          "en": "heritage / tradition"
+        },
+        {
+          "bn": "ওল",
+          "tr": "ol",
+          "en": "elephant-foot yam"
+        },
+        {
+          "bn": "ঔষধ",
+          "tr": "oushodh",
+          "en": "medicine (formal)"
+        },
+        {
+          "bn": "ঔপন্যাসিক",
+          "tr": "ouponnashik",
+          "en": "novelist"
+        },
+        {
+          "bn": "ঐক্য",
+          "tr": "oikko",
+          "en": "unity"
+        }
+      ]
+    },
+    {
+      "id": "e10",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ঐতিহ্য",
+        "tr": "oitijjho",
+        "en": "heritage / tradition"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "ওল",
+        "ঐতিহ্য",
+        "ঋতু",
+        "ঔষধ"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e11",
+      "type": "listen_select",
+      "audio": {
+        "bn": "ঔষধ",
+        "tr": "oushodh",
+        "en": "medicine (formal)"
+      },
+      "options": [
+        "ঐক্য",
+        "ওল",
+        "এখন",
+        "ঔষধ"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e12",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "আ",
+          "tr": "a",
+          "en": "a as in 'father'"
+        },
+        {
+          "bn": "ই",
+          "tr": "i",
+          "en": "i as in 'see'"
+        },
+        {
+          "bn": "উ",
+          "tr": "u",
+          "en": "u as in 'food'"
+        },
+        {
+          "bn": "ঋ",
+          "tr": "ri",
+          "en": "ri as in 'rip'"
+        },
+        {
+          "bn": "ঐ",
+          "tr": "oi",
+          "en": "oi as in 'boy'"
+        }
+      ]
+    },
+    {
+      "id": "e13",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "অ",
+          "tr": "o",
+          "en": "o as in 'or'"
+        },
+        {
+          "bn": "ঈ",
+          "tr": "i",
+          "en": "i (long-i letter)"
+        },
+        {
+          "bn": "ঊ",
+          "tr": "u",
+          "en": "u (long-u letter)"
+        },
+        {
+          "bn": "ও",
+          "tr": "o",
+          "en": "o as in 'go'"
+        },
+        {
+          "bn": "ঔ",
+          "tr": "ou",
+          "en": "ou as in 'low'"
+        }
+      ]
+    },
+    {
+      "id": "e14",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ওষুধ",
+        "tr": "oshudh",
+        "en": "medicine"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "ওল",
+        "ওষুধ",
+        "ঐক্য",
+        "ঋষি"
+      ],
+      "answer": 1
+    }
+  ]
+}

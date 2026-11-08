@@ -1,0 +1,83 @@
+{
+  "id": "bn-for-en",
+  "title": "Bengali for English speakers",
+  "units": [
+    {
+      "id": "u01-basics",
+      "title": "Basics",
+      "description": "Hello, yes/no, I and you, names, how are you",
+      "track": "main",
+      "lessons": ["u01-l01", "u01-l02", "u01-l03", "u01-l04", "u01-l05"]
+    },
+    {
+      "id": "s01-vowels",
+      "title": "Script: Vowels",
+      "description": "Read the Bengali vowels অ to ঔ",
+      "track": "script",
+      "lessons": ["s01-l01", "s01-l02", "s01-l03"]
+    },
+    {
+      "id": "u02-pronouns",
+      "title": "People & 'to be'",
+      "description": "He, she, we, they; tui/tumi/apni; is, isn't, questions",
+      "track": "main",
+      "lessons": []
+    },
+    {
+      "id": "u03-family",
+      "title": "Family",
+      "description": "Mother, father, siblings and the many aunts and uncles",
+      "track": "main",
+      "lessons": []
+    },
+    {
+      "id": "u04-food",
+      "title": "Food",
+      "description": "Rice, fish, tea; eating, wanting and liking",
+      "track": "main",
+      "lessons": []
+    },
+    {
+      "id": "u05-numbers-time",
+      "title": "Numbers & time",
+      "description": "Count to 100, tell the time, days of the week",
+      "track": "main",
+      "lessons": []
+    },
+    {
+      "id": "u06-bazaar",
+      "title": "At the bazaar",
+      "description": "Prices, taka, asking for things and haggling",
+      "track": "main",
+      "lessons": []
+    },
+    {
+      "id": "u07-directions",
+      "title": "Directions & travel",
+      "description": "Left, right, near, far; rickshaws, buses and places",
+      "track": "main",
+      "lessons": []
+    },
+    {
+      "id": "u08-daily-routine",
+      "title": "Daily routine",
+      "description": "Everyday verbs in the present tense",
+      "track": "main",
+      "lessons": []
+    },
+    {
+      "id": "u09-past",
+      "title": "Yesterday",
+      "description": "Talk about what you did: the past tense",
+      "track": "main",
+      "lessons": []
+    },
+    {
+      "id": "u10-culture",
+      "title": "Culture & festivals",
+      "description": "Eid, Pohela Boishakh, Puja, Ekushe and invitations",
+      "track": "main",
+      "lessons": []
+    }
+  ]
+}

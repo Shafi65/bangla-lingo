@@ -1,0 +1,91 @@
+{
+  "id": "u01-l02",
+  "unit": "u01-basics",
+  "title": "I and you",
+  "tip": "Bengali has more than one 'you'. Use **আপনি** (*apni*) with elders, strangers, teachers and anyone you want to show respect to. Use **তুমি** (*tumi*) with friends, younger people and partners. (There is also a very intimate **তুই** (*tui*) for close friends and small children; it is rude with strangers, so we leave it for Unit 2.) When unsure, use আপনি.\n\nThere is no 'am / is / are' in simple present sentences and no 'a / the': **আমি ছাত্র** (*ami chhatro*) = 'I (am a) student'.",
+  "vocab": [
+    { "id": "ami", "bn": "আমি", "tr": "ami", "en": "I" },
+    { "id": "tumi", "bn": "তুমি", "tr": "tumi", "en": "you (familiar)", "notes": "For friends, younger people, partners." },
+    { "id": "apni", "bn": "আপনি", "tr": "apni", "en": "you (polite)", "notes": "Safe default with anyone older or unfamiliar." },
+    { "id": "chhatro", "bn": "ছাত্র", "tr": "chhatro", "en": "student (male)", "notes": "Often used for any student regardless of gender." },
+    { "id": "chhatri", "bn": "ছাত্রী", "tr": "chhatri", "en": "student (female)" },
+    { "id": "shikkhok", "bn": "শিক্ষক", "tr": "shikkhok", "en": "teacher", "notes": "The conjunct ক্ষ is pronounced 'kkh'. A female teacher is শিক্ষিকা (shikkhika), though শিক্ষক is increasingly used for all." }
+  ],
+  "exercises": [
+    {
+      "id": "e01", "type": "select_translation", "direction": "bn_to_en",
+      "prompt": { "bn": "আমি", "tr": "ami", "en": "I" },
+      "options": ["I", "you (polite)", "no", "yes"], "answer": 0
+    },
+    {
+      "id": "e02", "type": "select_translation", "direction": "bn_to_en",
+      "prompt": { "bn": "আপনি", "tr": "apni", "en": "you (polite)" },
+      "options": ["I", "you (polite)", "you (familiar)", "no"], "answer": 1
+    },
+    {
+      "id": "e03", "type": "select_translation", "direction": "bn_to_en",
+      "prompt": { "bn": "তুমি", "tr": "tumi", "en": "you (familiar)" },
+      "options": ["you (familiar)", "you (polite)", "I", "thank you"], "answer": 0
+    },
+    {
+      "id": "e04", "type": "match_pairs",
+      "pairs": [
+        { "bn": "আমি", "tr": "ami", "en": "I" },
+        { "bn": "তুমি", "tr": "tumi", "en": "you (familiar)" },
+        { "bn": "আপনি", "tr": "apni", "en": "you (polite)" },
+        { "bn": "ছাত্র", "tr": "chhatro", "en": "student (male)" },
+        { "bn": "ধন্যবাদ", "tr": "dhonnobad", "en": "thank you" }
+      ]
+    },
+    {
+      "id": "e05", "type": "script_recognize",
+      "glyph": "আ", "options": ["o", "a", "i", "u"], "answer": 1
+    },
+    {
+      "id": "e06", "type": "listen_select",
+      "audio": { "bn": "শিক্ষক", "tr": "shikkhok", "en": "teacher" },
+      "options": ["ছাত্র", "শিক্ষক", "ছাত্রী", "আপনি"], "answer": 1
+    },
+    {
+      "id": "e07", "type": "select_translation", "direction": "bn_to_en",
+      "prompt": { "bn": "আমি ছাত্র।", "tr": "ami chhatro.", "en": "I am a student." },
+      "options": ["I am a teacher.", "You are a student.", "I am a student.", "Yes, I am a teacher."], "answer": 2
+    },
+    {
+      "id": "e08", "type": "word_bank", "direction": "bn_to_en",
+      "prompt": { "bn": "আপনি শিক্ষক।", "tr": "apni shikkhok.", "en": "You are a teacher." },
+      "tiles": ["student", "you", "am", "are", "I", "a", "teacher"],
+      "answer": ["you", "are", "a", "teacher"]
+    },
+    {
+      "id": "e09", "type": "word_bank", "direction": "en_to_bn",
+      "prompt": { "bn": "আমি শিক্ষক।", "tr": "ami shikkhok.", "en": "I am a teacher." },
+      "tiles": ["তুমি", "শিক্ষক", "আমি", "ছাত্র", "আপনি"],
+      "answer": ["আমি", "শিক্ষক"]
+    },
+    {
+      "id": "e10", "type": "select_translation", "direction": "en_to_bn",
+      "prompt": { "bn": "আপনি শিক্ষক।", "tr": "apni shikkhok.", "en": "You (polite) are a teacher." },
+      "options": ["তুমি শিক্ষক।", "আপনি শিক্ষক।", "আমি শিক্ষক।", "আপনি ছাত্র।"], "answer": 1
+    },
+    {
+      "id": "e11", "type": "listen_select",
+      "audio": { "bn": "ছাত্রী", "tr": "chhatri", "en": "student (female)" },
+      "options": ["ছাত্রী", "ছাত্র", "শিক্ষক", "তুমি"], "answer": 0
+    },
+    {
+      "id": "e12", "type": "type_translation", "direction": "bn_to_en",
+      "prompt": { "bn": "তুমি ছাত্রী।", "tr": "tumi chhatri.", "en": "You are a student." },
+      "accepted": ["you are a student", "you're a student", "youre a student", "you are a female student", "you're a female student", "you are student"]
+    },
+    {
+      "id": "e13", "type": "type_translation", "direction": "en_to_bn",
+      "prompt": { "bn": "আমি", "tr": "ami", "en": "I" },
+      "accepted": ["আমি", "ami", "aami"]
+    },
+    {
+      "id": "e14", "type": "script_recognize",
+      "glyph": "ম", "options": ["n", "bh", "m", "t"], "answer": 2
+    }
+  ]
+}

@@ -1,0 +1,346 @@
+{
+  "id": "s01-l02",
+  "unit": "s01-vowels",
+  "title": "Vowels 2: উ ঊ ঋ এ",
+  "tip": "- **উ** and **ঊ** are both `u` as in *food*. Like ই/ঈ, they are a 'short' (*hroshsho-u*) and 'long' (*dirgho-u*) pair that **sound the same in speech**. Mnemonic: ঊ is উ with an extra hook on top, the 'longer' one has more ink.\n- **ঋ** is said `ri` as in *rip*. It mostly appears in words borrowed from Sanskrit, like ঋতু (season).\n- **এ** = `e`. It has two sounds: open 'a' as in *bad/ack* (এক `ek`, one) or 'ay' as in *say* (এখন `ekhon`, now). You learn which by listening.\n\nWatch out: উ and ঊ are easy to confuse with the consonant ড (d) later. Look for the little tail on উ.",
+  "vocab": [
+    {
+      "id": "l-u",
+      "bn": "উ",
+      "tr": "u",
+      "en": "u as in 'food' (short-u letter)",
+      "notes": "Name: hroshsho-u (হ্রস্ব উ). Sounds the same as ঊ in modern speech."
+    },
+    {
+      "id": "l-uu",
+      "bn": "ঊ",
+      "tr": "u",
+      "en": "u as in 'food' (long-u letter)",
+      "notes": "Name: dirgho-u (দীর্ঘ ঊ). Same sound as উ; it is উ with an extra loop on top-right. Rare at the start of words."
+    },
+    {
+      "id": "l-ri",
+      "bn": "ঋ",
+      "tr": "ri",
+      "en": "ri as in 'rip'",
+      "notes": "Name: ri (ঋ). Historically a vowel; in modern Bengali it is simply said 'ri'. Found mostly in Sanskrit-origin words."
+    },
+    {
+      "id": "l-e",
+      "bn": "এ",
+      "tr": "e",
+      "en": "e as in 'bed' or 'ay' as in 'say'",
+      "notes": "Name: e (এ). Two pronunciations; the word decides which (এক = 'ack', এখন = 'ay-khon')."
+    },
+    {
+      "id": "ut",
+      "bn": "উট",
+      "tr": "ut",
+      "en": "camel"
+    },
+    {
+      "id": "ukil",
+      "bn": "উকিল",
+      "tr": "ukil",
+      "en": "lawyer"
+    },
+    {
+      "id": "uru",
+      "bn": "ঊরু",
+      "tr": "uru",
+      "en": "thigh"
+    },
+    {
+      "id": "usha",
+      "bn": "ঊষা",
+      "tr": "usha",
+      "en": "dawn",
+      "notes": "Also a common girl's name. Alphabet-chart word: ঊ-তে ঊষা."
+    },
+    {
+      "id": "rishi",
+      "bn": "ঋষি",
+      "tr": "rishi",
+      "en": "sage (wise holy man)"
+    },
+    {
+      "id": "ritu",
+      "bn": "ঋতু",
+      "tr": "ritu",
+      "en": "season",
+      "notes": "Bengal traditionally has six seasons (ছয় ঋতু)."
+    },
+    {
+      "id": "ek",
+      "bn": "এক",
+      "tr": "ek",
+      "en": "one",
+      "notes": "Pronounced like English 'ack' (open e)."
+    },
+    {
+      "id": "ekhon",
+      "bn": "এখন",
+      "tr": "ekhon",
+      "en": "now"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "script_recognize",
+      "glyph": "উ",
+      "options": [
+        "i (as in 'see')",
+        "u (as in 'food')",
+        "e (as in 'bed' / 'say')",
+        "a (as in 'father')"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e02",
+      "type": "script_recognize",
+      "glyph": "ঋ",
+      "options": [
+        "ri (as in 'rip')",
+        "o (as in 'or')",
+        "u (as in 'food')",
+        "e (as in 'bed' / 'say')"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e03",
+      "type": "script_recognize",
+      "glyph": "এ",
+      "options": [
+        "a (as in 'father')",
+        "ri (as in 'rip')",
+        "i (as in 'see')",
+        "e (as in 'bed' / 'say')"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "উ",
+          "tr": "u",
+          "en": "u (short-u letter)"
+        },
+        {
+          "bn": "ঊ",
+          "tr": "u",
+          "en": "u (long-u letter)"
+        },
+        {
+          "bn": "ঋ",
+          "tr": "ri",
+          "en": "ri as in 'rip'"
+        },
+        {
+          "bn": "এ",
+          "tr": "e",
+          "en": "e as in 'bed' / 'say'"
+        },
+        {
+          "bn": "আ",
+          "tr": "a",
+          "en": "a as in 'father'"
+        }
+      ]
+    },
+    {
+      "id": "e05",
+      "type": "listen_select",
+      "audio": {
+        "bn": "উট",
+        "tr": "ut",
+        "en": "camel"
+      },
+      "options": [
+        "উট",
+        "এক",
+        "ঋষি",
+        "ইট"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e06",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "উট",
+        "tr": "ut",
+        "en": "camel"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "brick",
+        "camel",
+        "season",
+        "now"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e07",
+      "type": "script_recognize",
+      "glyph": "ঊ",
+      "options": [
+        "o (as in 'or')",
+        "e (as in 'bed' / 'say')",
+        "u (as in 'food')",
+        "ri (as in 'rip')"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e08",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ঋতু",
+        "tr": "ritu",
+        "en": "season"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "season",
+        "dawn",
+        "lawyer",
+        "one"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e09",
+      "type": "listen_select",
+      "audio": {
+        "bn": "এখন",
+        "tr": "ekhon",
+        "en": "now"
+      },
+      "options": [
+        "ঊষা",
+        "এখন",
+        "উকিল",
+        "ঋতু"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e10",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "এক",
+        "tr": "ek",
+        "en": "one"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "এক",
+        "উট",
+        "ঊরু",
+        "অনেক"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e11",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "উকিল",
+          "tr": "ukil",
+          "en": "lawyer"
+        },
+        {
+          "bn": "ঊরু",
+          "tr": "uru",
+          "en": "thigh"
+        },
+        {
+          "bn": "ঋষি",
+          "tr": "rishi",
+          "en": "sage (wise holy man)"
+        },
+        {
+          "bn": "এখন",
+          "tr": "ekhon",
+          "en": "now"
+        },
+        {
+          "bn": "ঊষা",
+          "tr": "usha",
+          "en": "dawn"
+        }
+      ]
+    },
+    {
+      "id": "e12",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "উকিল",
+          "tr": "ukil",
+          "en": "lawyer"
+        },
+        {
+          "bn": "ঋতু",
+          "tr": "ritu",
+          "en": "season"
+        },
+        {
+          "bn": "এক",
+          "tr": "ek",
+          "en": "one"
+        },
+        {
+          "bn": "ঋষি",
+          "tr": "rishi",
+          "en": "sage (wise holy man)"
+        },
+        {
+          "bn": "উট",
+          "tr": "ut",
+          "en": "camel"
+        }
+      ]
+    },
+    {
+      "id": "e13",
+      "type": "listen_select",
+      "audio": {
+        "bn": "ঊষা",
+        "tr": "usha",
+        "en": "dawn"
+      },
+      "options": [
+        "উট",
+        "এক",
+        "ঊষা",
+        "ঋতু"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e14",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ঊরু",
+        "tr": "uru",
+        "en": "thigh"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "উট",
+        "ঋতু",
+        "এক",
+        "ঊরু"
+      ],
+      "answer": 3
+    }
+  ]
+}

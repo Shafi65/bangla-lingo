@@ -1,0 +1,98 @@
+{
+  "id": "u01-l04",
+  "unit": "u01-basics",
+  "title": "How are you?",
+  "tip": "**আছ-** (*achh-*) means 'to be (in a state / somewhere)'. Its ending changes with the person:\n\n- আমি **আছি** (*achhi*) — I am\n- তুমি **আছো** (*achho*) — you (familiar) are\n- আপনি **আছেন** (*achhen*) — you (polite) are\n\nPolite আপনি forms almost always end in **-েন** (*-en*). So: **কেমন আছেন?** (polite) vs **কেমন আছো?** (familiar). The pronoun is often dropped because the ending already says who you mean.\n\nIn Bangladesh many people begin their answer with **আলহামদুলিল্লাহ** ('praise be to God'): *Alhamdulillah, bhalo achhi.*",
+  "vocab": [
+    { "id": "kemon", "bn": "কেমন", "tr": "kemon", "en": "how" },
+    { "id": "achhen", "bn": "আছেন", "tr": "achhen", "en": "are (polite)", "notes": "Goes with আপনি." },
+    { "id": "achho", "bn": "আছো", "tr": "achho", "en": "are (familiar)", "notes": "Goes with তুমি. Also spelled আছ; pronounced the same." },
+    { "id": "achhi", "bn": "আছি", "tr": "achhi", "en": "am", "notes": "Goes with আমি." },
+    { "id": "bhalo", "bn": "ভালো", "tr": "bhalo", "en": "good, well", "notes": "Also spelled ভাল." },
+    { "id": "khub", "bn": "খুব", "tr": "khub", "en": "very" },
+    { "id": "ar", "bn": "আর", "tr": "ar", "en": "and", "notes": "আর আপনি? = 'And you?'. Also means 'more' / 'else'." },
+    { "id": "alhamdulillah", "bn": "আলহামদুলিল্লাহ", "tr": "alhamdulillah", "en": "praise be to God", "notes": "Arabic phrase used very widely by Muslims in Bangladesh, e.g. in answer to 'How are you?'. Hindus and most Kolkata speakers simply say ভালো আছি." }
+  ],
+  "exercises": [
+    {
+      "id": "e01", "type": "select_translation", "direction": "bn_to_en",
+      "prompt": { "bn": "ভালো", "tr": "bhalo", "en": "good, well" },
+      "options": ["very", "good, well", "how", "name"], "answer": 1
+    },
+    {
+      "id": "e02", "type": "select_translation", "direction": "bn_to_en",
+      "prompt": { "bn": "কেমন", "tr": "kemon", "en": "how" },
+      "options": ["how", "what", "very", "and"], "answer": 0
+    },
+    {
+      "id": "e03", "type": "select_translation", "direction": "bn_to_en",
+      "prompt": { "bn": "আপনি কেমন আছেন?", "tr": "apni kemon achhen?", "en": "How are you?" },
+      "options": ["What is your name?", "I am well.", "How are you?", "And you?"], "answer": 2
+    },
+    {
+      "id": "e04", "type": "listen_select",
+      "audio": { "bn": "ভালো আছি।", "tr": "bhalo achhi.", "en": "I'm well." },
+      "options": ["কেমন আছেন?", "ভালো আছি।", "খুব ভালো।", "আর আপনি?"], "answer": 1
+    },
+    {
+      "id": "e05", "type": "match_pairs",
+      "pairs": [
+        { "bn": "কেমন", "tr": "kemon", "en": "how" },
+        { "bn": "ভালো", "tr": "bhalo", "en": "good, well" },
+        { "bn": "খুব", "tr": "khub", "en": "very" },
+        { "bn": "আর", "tr": "ar", "en": "and" },
+        { "bn": "আছি", "tr": "achhi", "en": "am" }
+      ]
+    },
+    {
+      "id": "e06", "type": "script_recognize",
+      "glyph": "ভ", "options": ["b", "bh", "ph", "dh"], "answer": 1
+    },
+    {
+      "id": "e07", "type": "word_bank", "direction": "en_to_bn",
+      "prompt": { "bn": "আমি খুব ভালো আছি।", "tr": "ami khub bhalo achhi.", "en": "I am very well." },
+      "tiles": ["আছেন", "ভালো", "আমি", "কেমন", "আছি", "খুব"],
+      "answer": ["আমি", "খুব", "ভালো", "আছি"]
+    },
+    {
+      "id": "e08", "type": "select_translation", "direction": "en_to_bn",
+      "prompt": { "bn": "তুমি কেমন আছো?", "tr": "tumi kemon achho?", "en": "How are you? (familiar)" },
+      "options": ["আপনি কেমন আছেন?", "তুমি কেমন আছো?", "তুমি কেমন আছেন?", "আমি ভালো আছি।"], "answer": 1
+    },
+    {
+      "id": "e09", "type": "listen_select",
+      "audio": { "bn": "কেমন আছেন?", "tr": "kemon achhen?", "en": "How are you?" },
+      "options": ["কেমন আছেন?", "কেমন আছো?", "ভালো আছি।", "আর আপনি?"], "answer": 0
+    },
+    {
+      "id": "e10", "type": "word_bank", "direction": "bn_to_en",
+      "prompt": { "bn": "ভালো আছি, আর আপনি?", "tr": "bhalo achhi, ar apni?", "en": "I'm well, and you?" },
+      "tiles": ["very", "and", "I'm", "how", "you", "well", "are"],
+      "answer": ["I'm", "well", "and", "you"]
+    },
+    {
+      "id": "e11", "type": "select_translation", "direction": "bn_to_en",
+      "prompt": { "bn": "আলহামদুলিল্লাহ, ভালো আছি।", "tr": "alhamdulillah, bhalo achhi.", "en": "Praise be to God, I'm well." },
+      "options": ["Thank you, I'm well.", "Praise be to God, I'm well.", "I'm not well.", "How are you?"], "answer": 1
+    },
+    {
+      "id": "e12", "type": "type_translation", "direction": "bn_to_en",
+      "prompt": { "bn": "খুব ভালো।", "tr": "khub bhalo.", "en": "Very good." },
+      "accepted": ["very good", "very well", "very fine"]
+    },
+    {
+      "id": "e13", "type": "type_translation", "direction": "en_to_bn",
+      "prompt": { "bn": "কেমন আছেন?", "tr": "kemon achhen?", "en": "How are you? (polite)" },
+      "accepted": ["কেমন আছেন", "আপনি কেমন আছেন", "kemon achhen", "kemon achen", "kemon asen", "apni kemon achhen", "apni kemon achen", "apni kemon asen"]
+    },
+    {
+      "id": "e14", "type": "match_pairs",
+      "pairs": [
+        { "bn": "আছেন", "tr": "achhen", "en": "are (polite)" },
+        { "bn": "আছো", "tr": "achho", "en": "are (familiar)" },
+        { "bn": "আছি", "tr": "achhi", "en": "am" },
+        { "bn": "আলহামদুলিল্লাহ", "tr": "alhamdulillah", "en": "praise be to God" }
+      ]
+    }
+  ]
+}

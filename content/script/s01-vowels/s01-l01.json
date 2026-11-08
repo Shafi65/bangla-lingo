@@ -1,0 +1,340 @@
+{
+  "id": "s01-l01",
+  "unit": "s01-vowels",
+  "title": "Vowels 1: অ আ ই ঈ",
+  "tip": "**Bengali has 11 independent vowel letters (স্বরবর্ণ shorborno).** They are used when a vowel *starts* a syllable, e.g. at the start of a word.\n\n- **অ** = `o`, a short open 'o' as in *or*. Every consonant secretly carries this sound, so you will see অ everywhere later.\n- **আ** = `a` as in *father*. Mnemonic: আ is অ plus an extra stick (া), and that stick is exactly the sign that adds 'a' to a consonant later.\n- **ই** and **ঈ** are both `i` as in *see*. Their names are *hroshsho-i* ('short i') and *dirgho-i* ('long i'), but **in everyday speech they sound the same**. You just learn which one each word is spelled with.\n\nTip: all four letters 'hang' from a top line (মাত্রা matra), which is how Bengali letters join into words.",
+  "vocab": [
+    {
+      "id": "l-o",
+      "bn": "অ",
+      "tr": "o",
+      "en": "o as in 'or' (short, open)",
+      "notes": "Name: sworo-o (স্বরে অ). Also the 'inherent vowel' hidden in every consonant."
+    },
+    {
+      "id": "l-a",
+      "bn": "আ",
+      "tr": "a",
+      "en": "a as in 'father'",
+      "notes": "Name: sworo-a (স্বরে আ). Looks like অ with an extra stroke (া) on the right."
+    },
+    {
+      "id": "l-i",
+      "bn": "ই",
+      "tr": "i",
+      "en": "i as in 'see' (short-i letter)",
+      "notes": "Name: hroshsho-i (হ্রস্ব ই) = 'short i'. Sounds the same as ঈ in modern speech."
+    },
+    {
+      "id": "l-ii",
+      "bn": "ঈ",
+      "tr": "i",
+      "en": "i as in 'see' (long-i letter)",
+      "notes": "Name: dirgho-i (দীর্ঘ ই) = 'long i'. Same sound as ই; only the spelling differs."
+    },
+    {
+      "id": "ojogor",
+      "bn": "অজগর",
+      "tr": "ojogor",
+      "en": "python (snake)",
+      "notes": "Classic alphabet-chart word: অ-তে অজগর."
+    },
+    {
+      "id": "onek",
+      "bn": "অনেক",
+      "tr": "onek",
+      "en": "many / a lot"
+    },
+    {
+      "id": "am",
+      "bn": "আম",
+      "tr": "am",
+      "en": "mango"
+    },
+    {
+      "id": "akash",
+      "bn": "আকাশ",
+      "tr": "akash",
+      "en": "sky"
+    },
+    {
+      "id": "ilish",
+      "bn": "ইলিশ",
+      "tr": "ilish",
+      "en": "hilsa (fish)",
+      "notes": "Bangladesh's national fish."
+    },
+    {
+      "id": "it",
+      "bn": "ইট",
+      "tr": "it",
+      "en": "brick"
+    },
+    {
+      "id": "igol",
+      "bn": "ঈগল",
+      "tr": "igol",
+      "en": "eagle"
+    },
+    {
+      "id": "id",
+      "bn": "ঈদ",
+      "tr": "id",
+      "en": "Eid"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "script_recognize",
+      "glyph": "অ",
+      "options": [
+        "o (as in 'or')",
+        "a (as in 'father')",
+        "i (as in 'see')",
+        "u (as in 'food')"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e02",
+      "type": "script_recognize",
+      "glyph": "আ",
+      "options": [
+        "i (as in 'see')",
+        "a (as in 'father')",
+        "o (as in 'or')",
+        "e (as in 'bed' / 'say')"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e03",
+      "type": "script_recognize",
+      "glyph": "ই",
+      "options": [
+        "a (as in 'father')",
+        "o (as in 'or')",
+        "i (as in 'see')",
+        "u (as in 'food')"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "অ",
+          "tr": "o",
+          "en": "o as in 'or'"
+        },
+        {
+          "bn": "আ",
+          "tr": "a",
+          "en": "a as in 'father'"
+        },
+        {
+          "bn": "ই",
+          "tr": "i",
+          "en": "i (short-i letter)"
+        },
+        {
+          "bn": "ঈ",
+          "tr": "i",
+          "en": "i (long-i letter)"
+        }
+      ]
+    },
+    {
+      "id": "e05",
+      "type": "listen_select",
+      "audio": {
+        "bn": "আম",
+        "tr": "am",
+        "en": "mango"
+      },
+      "options": [
+        "ইট",
+        "আম",
+        "ঈদ",
+        "অজগর"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e06",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আম",
+        "tr": "am",
+        "en": "mango"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "sky",
+        "brick",
+        "mango",
+        "many"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e07",
+      "type": "script_recognize",
+      "glyph": "ঈ",
+      "options": [
+        "o (as in 'or')",
+        "i (as in 'see')",
+        "a (as in 'father')",
+        "ri (as in 'rip')"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e08",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ইলিশ",
+        "tr": "ilish",
+        "en": "hilsa (fish)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "hilsa (fish)",
+        "eagle",
+        "python (snake)",
+        "Eid"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e09",
+      "type": "listen_select",
+      "audio": {
+        "bn": "ঈগল",
+        "tr": "igol",
+        "en": "eagle"
+      },
+      "options": [
+        "আকাশ",
+        "অনেক",
+        "ইলিশ",
+        "ঈগল"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e10",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "অজগর",
+        "tr": "ojogor",
+        "en": "python (snake)"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "আম",
+        "অজগর",
+        "ঈগল",
+        "ইট"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e11",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "অনেক",
+          "tr": "onek",
+          "en": "many / a lot"
+        },
+        {
+          "bn": "আকাশ",
+          "tr": "akash",
+          "en": "sky"
+        },
+        {
+          "bn": "ইট",
+          "tr": "it",
+          "en": "brick"
+        },
+        {
+          "bn": "ঈদ",
+          "tr": "id",
+          "en": "Eid"
+        },
+        {
+          "bn": "ইলিশ",
+          "tr": "ilish",
+          "en": "hilsa (fish)"
+        }
+      ]
+    },
+    {
+      "id": "e12",
+      "type": "listen_select",
+      "audio": {
+        "bn": "ইট",
+        "tr": "it",
+        "en": "brick"
+      },
+      "options": [
+        "আম",
+        "ঈদ",
+        "ইট",
+        "অনেক"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e13",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "অজগর",
+          "tr": "ojogor",
+          "en": "python (snake)"
+        },
+        {
+          "bn": "আম",
+          "tr": "am",
+          "en": "mango"
+        },
+        {
+          "bn": "ঈগল",
+          "tr": "igol",
+          "en": "eagle"
+        },
+        {
+          "bn": "অনেক",
+          "tr": "onek",
+          "en": "many / a lot"
+        },
+        {
+          "bn": "আকাশ",
+          "tr": "akash",
+          "en": "sky"
+        }
+      ]
+    },
+    {
+      "id": "e14",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ঈদ",
+        "tr": "id",
+        "en": "Eid"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "eagle",
+        "brick",
+        "Eid",
+        "mango"
+      ],
+      "answer": 2
+    }
+  ]
+}
