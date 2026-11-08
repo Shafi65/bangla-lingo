@@ -94,7 +94,7 @@
       ],
       "pos": "verb",
       "lesson": "u08-l02",
-      "notes": "From ওঠা 'rise'. Note the vowel change: আমি উঠি but সে ওঠে."
+      "notes": "From ওঠা 'rise'. Note the vowel change: আমি উঠি but আপনি ওঠেন."
     },
     {
       "id": "othen",
@@ -175,7 +175,7 @@
         "tooth"
       ],
       "pos": "noun",
-      "lesson": "u08-l02"
+      "lesson": "u08-l06"
     },
     {
       "id": "maji",
@@ -187,7 +187,7 @@
         "scrub"
       ],
       "pos": "verb",
-      "lesson": "u08-l02",
+      "lesson": "u08-l06",
       "notes": "From মাজা 'scrub, brush'. Urban speech often says দাঁত ব্রাশ করি instead."
     },
     {
@@ -199,7 +199,7 @@
         "to brush teeth"
       ],
       "pos": "phrase",
-      "lesson": "u08-l02",
+      "lesson": "u08-l06",
       "notes": "Also very common, especially in cities: দাঁত ব্রাশ করা (দাঁত ব্রাশ করি \"I brush my teeth\") — accept both."
     },
     {
@@ -213,7 +213,7 @@
       ],
       "pos": "adv",
       "lesson": "u08-l02",
-      "notes": "সাত + -টা + locative -য়."
+      "notes": "সাত + -টা + locative -য়: 'at seven'. Compare সাতটা বাজে 'it's seven o'clock' (no -য়)."
     },
     {
       "id": "doshtay",
@@ -225,7 +225,38 @@
         "at 10"
       ],
       "pos": "adv",
-      "lesson": "u08-l02"
+      "lesson": "u08-l02",
+      "notes": "দশ + -টা + -য়. Compare দশটা বাজে 'it's ten o'clock'."
+    },
+    {
+      "id": "attay",
+      "bn": "আটটায়",
+      "tr": "attay",
+      "en": "at eight o'clock",
+      "alt": [
+        "at eight",
+        "at 8"
+      ],
+      "pos": "adv",
+      "lesson": "u08-l02",
+      "notes": "আট + -টা + -য়."
+    },
+    {
+      "id": "koytay",
+      "bn": "কয়টায়",
+      "tr": "koytay",
+      "en": "at what time",
+      "alt": [
+        "what time",
+        "at what time?"
+      ],
+      "pos": "adv",
+      "lesson": "u08-l02",
+      "notes": "কয়টা 'what time' + -য় 'at'. Asks for a clock time: আপনি কয়টায় ওঠেন? 'What time do you get up?'. Compare কয়টা বাজে? 'What time is it?'.",
+      "kolkata": {
+        "bn": "কটায়",
+        "tr": "kotay"
+      }
     },
     {
       "id": "kokhon",
@@ -236,7 +267,8 @@
         "what time"
       ],
       "pos": "adv",
-      "lesson": "u08-l02"
+      "lesson": "u08-l03",
+      "notes": "General 'when?'. For an exact clock time ask কয়টায়? 'at what time?'."
     },
     {
       "id": "ofis",
