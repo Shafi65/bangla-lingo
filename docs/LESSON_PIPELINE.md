@@ -3,7 +3,7 @@
 How a lesson goes from idea → playable. Three layers of data, each validated by `npm run validate`.
 
 ```
-docs/CURRICULUM.md          human outline (goals, grammar, vocab targets)
+curriculum outline (goals, grammar, vocab targets)
         │
 content/lexicon/<unit>.json   ① every word/phrase, defined ONCE (spelling, tr, meaning)
 content/plans/<unit>.json     ② per-lesson spec: new words, grammar, tip, sentence bank
