@@ -1,0 +1,352 @@
+{
+  "id": "u06-l05",
+  "unit": "u06-bazaar",
+  "title": "Kilos, halis & vegetables",
+  "status": "draft",
+  "tip": "Quantities go **number + measure + item**, with no 'of': **দুই কেজি আলু** 'two kilos (of) potatoes', **এক ডজন কলা** 'a dozen bananas'.\n\nEggs and bananas are often sold by the **হালি** (*hali*) — a set of **four**. **এক হালি ডিম** = 4 eggs. Ask for 'a dozen' and you may get three halis!\n\nTo say you **need** something, the person goes in the -র form and the verb is **লাগবে** (*lagbe*): **আমার পেঁয়াজ লাগবে** 'I need onions' — literally 'to-me onions will-be-needed'.\n\nBangladeshi vendors quote prices **per kilo**: **আলু পঞ্চাশ টাকা কেজি** 'potatoes are 50 taka a kilo'. To ask, say **টমেটোর কেজি কত?** 'How much is a kilo of tomatoes?'",
+  "vocab": [
+    {
+      "id": "keji",
+      "bn": "কেজি",
+      "tr": "keji",
+      "en": "kilo"
+    },
+    {
+      "id": "hali",
+      "bn": "হালি",
+      "tr": "hali",
+      "en": "four (a set of four)",
+      "notes": "Eggs, bananas, lemons etc. are sold by the হালি (4). Common in Bangladesh; less so in Kolkata."
+    },
+    {
+      "id": "dozon",
+      "bn": "ডজন",
+      "tr": "dozon",
+      "en": "dozen"
+    },
+    {
+      "id": "alu",
+      "bn": "আলু",
+      "tr": "alu",
+      "en": "potato"
+    },
+    {
+      "id": "peyaj",
+      "bn": "পেঁয়াজ",
+      "tr": "pe~yaj",
+      "en": "onion"
+    },
+    {
+      "id": "tometo",
+      "bn": "টমেটো",
+      "tr": "tometo",
+      "en": "tomato"
+    },
+    {
+      "id": "tometor",
+      "bn": "টমেটোর",
+      "tr": "tometor",
+      "en": "of tomatoes",
+      "notes": "টমেটো + genitive -র."
+    },
+    {
+      "id": "adha",
+      "bn": "আধা",
+      "tr": "adha",
+      "en": "half",
+      "notes": "আধা কেজি 'half a kilo'."
+    },
+    {
+      "id": "lagbe",
+      "bn": "লাগবে",
+      "tr": "lagbe",
+      "en": "need",
+      "notes": "The needer takes -র: আমার আলু লাগবে 'I need potatoes' (lit. 'to me potatoes will be needed')."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "কেজি",
+        "tr": "keji",
+        "en": "kilo"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "wife",
+        "fun; tasty",
+        "kilo",
+        "uncle (address)"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "হালি",
+        "tr": "hali",
+        "en": "four (a set of four)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "they (spoken)",
+        "four (a set of four)",
+        "how",
+        "half past two"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ডজন",
+        "tr": "dozon",
+        "en": "dozen"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "goodbye",
+        "(yes/no question marker)",
+        "hunger",
+        "dozen"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e04",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আলু",
+        "tr": "alu",
+        "en": "potato"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "child",
+        "cow's",
+        "Thursday",
+        "potato"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e05",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "পেঁয়াজ",
+        "tr": "pe~yaj",
+        "en": "onion"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "meaning",
+        "flatbread",
+        "onion",
+        "uncle (address)"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e06",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "টমেটো",
+        "tr": "tometo",
+        "en": "tomato"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "tomato",
+        "uncle (fufu's husband)",
+        "uncle (father's brother)",
+        "market"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e07",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "টমেটোর",
+        "tr": "tometor",
+        "en": "of tomatoes"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "market",
+        "of tomatoes",
+        "banana",
+        "uncle (father's brother)"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e08",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "হালি",
+          "tr": "hali",
+          "en": "four (a set of four)"
+        },
+        {
+          "bn": "লাগবে",
+          "tr": "lagbe",
+          "en": "need"
+        },
+        {
+          "bn": "ডজন",
+          "tr": "dozon",
+          "en": "dozen"
+        },
+        {
+          "bn": "কেজি",
+          "tr": "keji",
+          "en": "kilo"
+        },
+        {
+          "bn": "আধা",
+          "tr": "adha",
+          "en": "half"
+        }
+      ]
+    },
+    {
+      "id": "e09",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "এক ডজন কলা কত?",
+        "tr": "ek dozon kola koto?",
+        "en": "How much is a dozen bananas?"
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "father",
+        "much",
+        "flatbread",
+        "a",
+        "How",
+        "is",
+        "dozen",
+        "water",
+        "bananas"
+      ],
+      "answer": [
+        "How",
+        "much",
+        "is",
+        "a",
+        "dozen",
+        "bananas"
+      ]
+    },
+    {
+      "id": "e10",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "এক হালি কলা দিন।",
+        "tr": "ek hali kola din.",
+        "en": "Please give me four bananas."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "ষোলো",
+        "আপা",
+        "এক",
+        "হালি",
+        "কলা",
+        "তেরো",
+        "দিন"
+      ],
+      "answer": [
+        "এক",
+        "হালি",
+        "কলা",
+        "দিন"
+      ]
+    },
+    {
+      "id": "e11",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমার পেঁয়াজ লাগবে।",
+        "tr": "amar pe~yaj lagbe.",
+        "en": "I need onions."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "I",
+        "four",
+        "give",
+        "onions",
+        "need",
+        "fruit"
+      ],
+      "answer": [
+        "I",
+        "need",
+        "onions"
+      ]
+    },
+    {
+      "id": "e12",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "টমেটোর কেজি কত?",
+        "tr": "tometor keji koto?",
+        "en": "How much is a kilo of tomatoes?"
+      },
+      "direction": "bn_to_en",
+      "accepted": [
+        "How much is a kilo of tomatoes?",
+        "How much are tomatoes per kilo?"
+      ]
+    },
+    {
+      "id": "e13",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আলু পঞ্চাশ টাকা কেজি।",
+        "tr": "alu ponchash taka keji.",
+        "en": "Potatoes are fifty taka a kilo."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "পঞ্চাশ",
+        "আলু",
+        "ভাত",
+        "ত্রিশ",
+        "টাকা",
+        "কেজি",
+        "তোমার"
+      ],
+      "answer": [
+        "আলু",
+        "পঞ্চাশ",
+        "টাকা",
+        "কেজি"
+      ]
+    },
+    {
+      "id": "e14",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আধা কেজি টমেটো দেন।",
+        "tr": "adha keji tometo den.",
+        "en": "Please give me half a kilo of tomatoes."
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "আমরা ভালো আছি।",
+        "আধা কেজি টমেটো দেন।",
+        "তার একটা মেয়ে আছে।",
+        "আচ্ছা, ধন্যবাদ, আন্টি।"
+      ],
+      "answer": 1
+    }
+  ]
+}

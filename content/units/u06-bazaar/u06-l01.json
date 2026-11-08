@@ -1,0 +1,338 @@
+{
+  "id": "u06-l01",
+  "unit": "u06-bazaar",
+  "title": "How much?",
+  "status": "draft",
+  "tip": "To ask a price, say **দাম কত?** (*dam koto?*) — literally 'price how-much?'. Like কী in Unit 1, **কত** sits where the answer will go, so no word order change is needed.\n\nTo say *whose* price, add the genitive ending: **-র** after a vowel (এটা → **এটার**, 'of this') and **-এর** after a consonant (ইলিশ → **ইলিশের**, 'of the hilsa'). So **ইলিশের দাম কত?** = 'How much is the hilsa?'.\n\nThe ending **-এ** means 'at / in': **বাজারে** = 'at the market'. Location needs **আছি / আছে**: **আমি বাজারে আছি** 'I am at the market'.\n\n**Culture:** in a Bangladeshi bazaar you call the shopkeeper **ভাই** (brother) or **মামা** (uncle) rather than 'excuse me'.",
+  "vocab": [
+    {
+      "id": "bajar",
+      "bn": "বাজার",
+      "tr": "bajar",
+      "en": "market",
+      "notes": "Also used for 'grocery shopping' in general: বাজার করা = to do the shopping."
+    },
+    {
+      "id": "bajare",
+      "bn": "বাজারে",
+      "tr": "bajare",
+      "en": "at the market",
+      "notes": "বাজার + locative -এ."
+    },
+    {
+      "id": "dokan",
+      "bn": "দোকান",
+      "tr": "dokan",
+      "en": "shop"
+    },
+    {
+      "id": "dokandar",
+      "bn": "দোকানদার",
+      "tr": "dokandar",
+      "en": "shopkeeper",
+      "notes": "দোকান 'shop' + -দার 'holder'."
+    },
+    {
+      "id": "dam",
+      "bn": "দাম",
+      "tr": "dam",
+      "en": "price"
+    },
+    {
+      "id": "koto",
+      "bn": "কত",
+      "tr": "koto",
+      "en": "how much"
+    },
+    {
+      "id": "etar",
+      "bn": "এটার",
+      "tr": "etar",
+      "en": "of this",
+      "notes": "এটা 'this' + genitive -র: এটার দাম 'the price of this'."
+    },
+    {
+      "id": "ilisher",
+      "bn": "ইলিশের",
+      "tr": "ilisher",
+      "en": "of the hilsa",
+      "notes": "ইলিশ + genitive -এর (after a consonant)."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "বাজার",
+        "tr": "bajar",
+        "en": "market"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "market",
+        "day (of the week)",
+        "cow's",
+        "tea"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "বাজারে",
+        "tr": "bajare",
+        "en": "at the market"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "grandmother (mother's mother)",
+        "the mangoes",
+        "wife",
+        "at the market"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "দোকান",
+        "tr": "dokan",
+        "en": "shop"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "shop",
+        "aunt (father's sister)",
+        "need",
+        "father's"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e04",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "দোকানদার",
+        "tr": "dokandar",
+        "en": "shopkeeper"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "breakfast",
+        "cup",
+        "shopkeeper",
+        "the banana"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e05",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "দাম",
+        "tr": "dam",
+        "en": "price"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "chicken",
+        "aunt (father's sister)",
+        "flatbread",
+        "price"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e06",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "কত",
+        "tr": "koto",
+        "en": "how much"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "very",
+        "how much",
+        "there",
+        "here"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e07",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "এটার",
+        "tr": "etar",
+        "en": "of this"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "of this",
+        "that",
+        "this",
+        "you (intimate)"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e08",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "কত",
+          "tr": "koto",
+          "en": "how much"
+        },
+        {
+          "bn": "ইলিশের",
+          "tr": "ilisher",
+          "en": "of the hilsa"
+        },
+        {
+          "bn": "দোকানদার",
+          "tr": "dokandar",
+          "en": "shopkeeper"
+        },
+        {
+          "bn": "বাজারে",
+          "tr": "bajare",
+          "en": "at the market"
+        },
+        {
+          "bn": "দাম",
+          "tr": "dam",
+          "en": "price"
+        }
+      ]
+    },
+    {
+      "id": "e09",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "ভাই, এটার দাম কত?",
+        "tr": "bhai, etar dam koto?",
+        "en": "Brother, how much is this?"
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "Brother",
+        "this",
+        "night",
+        "his/her",
+        "is",
+        "family",
+        "how",
+        "much"
+      ],
+      "answer": [
+        "Brother",
+        "how",
+        "much",
+        "is",
+        "this"
+      ]
+    },
+    {
+      "id": "e10",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "বাজার কোথায়?",
+        "tr": "bajar kothay?",
+        "en": "Where is the market?"
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "কোথায়",
+        "বাজার",
+        "বার",
+        "মানে",
+        "নব্বই"
+      ],
+      "answer": [
+        "বাজার",
+        "কোথায়"
+      ]
+    },
+    {
+      "id": "e11",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "দাম কত?",
+        "tr": "dam koto?",
+        "en": "What's the price?"
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "friend",
+        "flatbread",
+        "price",
+        "the",
+        "What's",
+        "lentils"
+      ],
+      "answer": [
+        "What's",
+        "the",
+        "price"
+      ]
+    },
+    {
+      "id": "e12",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "এটা আমার দোকান।",
+        "tr": "eta amar dokan.",
+        "en": "This is my shop."
+      },
+      "direction": "bn_to_en",
+      "accepted": [
+        "This is my shop."
+      ]
+    },
+    {
+      "id": "e13",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমি বাজারে আছি।",
+        "tr": "ami bajare achhi.",
+        "en": "I am at the market."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "বাজারে",
+        "মজা",
+        "আমি",
+        "আছি",
+        "বাবার",
+        "সকালে"
+      ],
+      "answer": [
+        "আমি",
+        "বাজারে",
+        "আছি"
+      ]
+    },
+    {
+      "id": "e14",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "দোকান কোথায়?",
+        "tr": "dokan kothay?",
+        "en": "Where is the shop?"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "সে আমার বন্ধু নয়।",
+        "আপনি কোথা থেকে এসেছেন?",
+        "এখন আড়াইটা বাজে।",
+        "দোকান কোথায়?"
+      ],
+      "answer": 3
+    }
+  ]
+}

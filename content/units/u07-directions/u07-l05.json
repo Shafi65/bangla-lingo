@@ -1,0 +1,351 @@
+{
+  "id": "u07-l05",
+  "unit": "u07-directions",
+  "title": "Rickshaw & CNG",
+  "status": "draft",
+  "tip": "Hailing a rickshaw in Bangladesh goes like this: call **এই রিকশা!**, then name your destination and ask **যাবেন?** 'Will you go?' Drivers are addressed as **মামা** or **ভাই**.\n\n**যাব** = 'I/we will go', **যাবেন** = 'you (polite) will go'. Destinations often need no ending at all in speech: **ধানমন্ডি যাবেন?** 'Will you go to Dhanmondi?'\n\nAgree the fare *before* you get in: **ভাড়া কত?** If it's high, use your Unit 6 haggling: **ভাড়া একটু বেশি**.\n\nTo get off: **মামা, এখানে থামেন** 'Stop here, please'. A **সিএনজি** is the green gas-powered auto-rickshaw — in Kolkata it's an **অটো**.",
+  "vocab": [
+    {
+      "id": "riksha",
+      "bn": "রিকশা",
+      "tr": "riksha",
+      "en": "rickshaw"
+    },
+    {
+      "id": "rikshay",
+      "bn": "রিকশায়",
+      "tr": "rikshay",
+      "en": "by rickshaw"
+    },
+    {
+      "id": "si-en-ji",
+      "bn": "সিএনজি",
+      "tr": "si-en-ji",
+      "en": "CNG",
+      "notes": "Green three-wheeler that runs on compressed natural gas."
+    },
+    {
+      "id": "jabo",
+      "bn": "যাব",
+      "tr": "jabo",
+      "en": "I will go",
+      "notes": "Also spelled যাবো. আমরা also takes যাব."
+    },
+    {
+      "id": "jaben",
+      "bn": "যাবেন",
+      "tr": "jaben",
+      "en": "will you go (polite)"
+    },
+    {
+      "id": "bhara",
+      "bn": "ভাড়া",
+      "tr": "bhara",
+      "en": "fare"
+    },
+    {
+      "id": "thamen",
+      "bn": "থামেন",
+      "tr": "thamen",
+      "en": "stop (polite)"
+    },
+    {
+      "id": "kotodur",
+      "bn": "কতদূর",
+      "tr": "kotodur",
+      "en": "how far"
+    },
+    {
+      "id": "dhanmondi",
+      "bn": "ধানমন্ডি",
+      "tr": "dhanmondi",
+      "en": "Dhanmondi",
+      "notes": "A well-known residential area of Dhaka."
+    },
+    {
+      "id": "steshone",
+      "bn": "স্টেশনে",
+      "tr": "steshone",
+      "en": "to the station"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "রিকশা",
+        "tr": "riksha",
+        "en": "rickshaw"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "rickshaw",
+        "aunt (chacha's wife)",
+        "market",
+        "bag"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "রিকশায়",
+        "tr": "rikshay",
+        "en": "by rickshaw"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "food",
+        "by rickshaw",
+        "sari",
+        "egg"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "সিএনজি",
+        "tr": "si-en-ji",
+        "en": "CNG"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "aunt (mother's sister)",
+        "CNG",
+        "station",
+        "fun; tasty"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e04",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "যাব",
+        "tr": "jabo",
+        "en": "I will go"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "are (intimate)",
+        "I will go",
+        "to eat",
+        "(you, intimate) eat"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e05",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "যাবেন",
+        "tr": "jaben",
+        "en": "will you go (polite)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "will you go (polite)",
+        "is (he/she/it)",
+        "go (polite)",
+        "am not"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e06",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ভাড়া",
+        "tr": "bhara",
+        "en": "fare"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "road",
+        "fare",
+        "the shirt",
+        "salt"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e07",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "থামেন",
+        "tr": "thamen",
+        "en": "stop (polite)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "strikes (the hour)",
+        "I live",
+        "stop (polite)",
+        "go (polite)"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e08",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "স্টেশনে",
+          "tr": "steshone",
+          "en": "to the station"
+        },
+        {
+          "bn": "যাবেন",
+          "tr": "jaben",
+          "en": "will you go (polite)"
+        },
+        {
+          "bn": "কতদূর",
+          "tr": "kotodur",
+          "en": "how far"
+        },
+        {
+          "bn": "সিএনজি",
+          "tr": "si-en-ji",
+          "en": "CNG"
+        },
+        {
+          "bn": "রিকশায়",
+          "tr": "rikshay",
+          "en": "by rickshaw"
+        }
+      ]
+    },
+    {
+      "id": "e09",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "এই রিকশা, যাবেন?",
+        "tr": "ei riksha, jaben?",
+        "en": "Rickshaw! Will you go?"
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "go",
+        "price",
+        "Will",
+        "bit",
+        "you",
+        "Rickshaw",
+        "nineteen"
+      ],
+      "answer": [
+        "Rickshaw",
+        "Will",
+        "you",
+        "go"
+      ]
+    },
+    {
+      "id": "e10",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "ভাড়া কত?",
+        "tr": "bhara koto?",
+        "en": "What's the fare?"
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "ভাড়া",
+        "একটা",
+        "কত",
+        "চান",
+        "পয়সা"
+      ],
+      "answer": [
+        "ভাড়া",
+        "কত"
+      ]
+    },
+    {
+      "id": "e11",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "ভাড়া একটু বেশি।",
+        "tr": "bhara ektu beshi.",
+        "en": "The fare is a bit high."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "a",
+        "high",
+        "The",
+        "Saturday",
+        "is",
+        "bit",
+        "yes",
+        "teacher",
+        "fare"
+      ],
+      "answer": [
+        "The",
+        "fare",
+        "is",
+        "a",
+        "bit",
+        "high"
+      ]
+    },
+    {
+      "id": "e12",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "মামা, এখানে থামেন।",
+        "tr": "mama, ekhane thamen.",
+        "en": "Stop here, mama."
+      },
+      "direction": "bn_to_en",
+      "accepted": [
+        "Stop here, mama.",
+        "Please stop here."
+      ]
+    },
+    {
+      "id": "e13",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "ধানমন্ডি কতদূর?",
+        "tr": "dhanmondi kotodur?",
+        "en": "How far is Dhanmondi?"
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "দেশ",
+        "রাত",
+        "ধানমন্ডি",
+        "আচ্ছা",
+        "কতদূর"
+      ],
+      "answer": [
+        "ধানমন্ডি",
+        "কতদূর"
+      ]
+    },
+    {
+      "id": "e14",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আমরা রিকশায় যাব।",
+        "tr": "amra rikshay jabo.",
+        "en": "We will go by rickshaw."
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "আমরা রিকশায় যাব।",
+        "এখন বারোটা বাজে।",
+        "আপনি কী কিনবেন?",
+        "খাবার খুব মজা।"
+      ],
+      "answer": 0
+    }
+  ]
+}

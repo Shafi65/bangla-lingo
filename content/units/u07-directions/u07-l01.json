@@ -1,0 +1,348 @@
+{
+  "id": "u07-l01",
+  "unit": "u07-directions",
+  "title": "Where is…?",
+  "status": "draft",
+  "tip": "'Where is X?' is just **X কোথায়?** (*X kothay?*) — no verb needed: **স্টেশন কোথায়?** 'Where is the station?'\n\nTo say *in* a place, add the locative ending: **-এ** after a consonant (সিলেট → **সিলেটে**), **-য়** after a vowel (ঢাকা → **ঢাকায়**, বাসা → **বাসায়**).\n\nBangladesh has two words for home. **বাসা** (*basha*) is where you live now — usually a city flat. **বাড়ি** (*bari*) is your family home, often the ancestral village. So **আপনার বাসা কোথায়?** = 'Where do you live (in this city)?' while **তোমার বাড়ি কোথায়?** = 'Where are you from originally?' — a very common getting-to-know-you question.\n\n**Kolkata:** বাড়ি is the normal word for home; বাসা means rented lodgings.",
+  "vocab": [
+    {
+      "id": "steshon",
+      "bn": "স্টেশন",
+      "tr": "steshon",
+      "en": "station"
+    },
+    {
+      "id": "hotel",
+      "bn": "হোটেল",
+      "tr": "hotel",
+      "en": "hotel",
+      "notes": "In Bangladesh হোটেল can also mean a cheap restaurant (ভাতের হোটেল)."
+    },
+    {
+      "id": "basha",
+      "bn": "বাসা",
+      "tr": "basha",
+      "en": "home",
+      "notes": "Where you live now, often a rented flat. In Kolkata বাসা means rented lodgings and বাড়ি is 'home'."
+    },
+    {
+      "id": "bashay",
+      "bn": "বাসায়",
+      "tr": "bashay",
+      "en": "at home",
+      "notes": "বাসা + locative -য়."
+    },
+    {
+      "id": "bari",
+      "bn": "বাড়ি",
+      "tr": "bari",
+      "en": "home",
+      "notes": "In Bangladesh তোমার বাড়ি কোথায়? usually asks about your home district / ancestral village."
+    },
+    {
+      "id": "dhaka",
+      "bn": "ঢাকা",
+      "tr": "dhaka",
+      "en": "Dhaka"
+    },
+    {
+      "id": "dhakay",
+      "bn": "ঢাকায়",
+      "tr": "dhakay",
+      "en": "in Dhaka"
+    },
+    {
+      "id": "shilet",
+      "bn": "সিলেট",
+      "tr": "shilet",
+      "en": "Sylhet",
+      "notes": "City and division in north-east Bangladesh."
+    },
+    {
+      "id": "shilete",
+      "bn": "সিলেটে",
+      "tr": "shilete",
+      "en": "in Sylhet"
+    },
+    {
+      "id": "bangladeshe",
+      "bn": "বাংলাদেশে",
+      "tr": "bangladeshe",
+      "en": "in Bangladesh"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "স্টেশন",
+        "tr": "steshon",
+        "en": "station"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "Friday",
+        "banana",
+        "station",
+        "girl"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "হোটেল",
+        "tr": "hotel",
+        "en": "hotel"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "egg",
+        "aunt (father's sister)",
+        "hotel",
+        "of the hilsa"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "বাসা",
+        "tr": "basha",
+        "en": "home"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "home",
+        "Wednesday",
+        "shirt",
+        "poisha"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e04",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "বাসায়",
+        "tr": "bashay",
+        "en": "at home"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "price",
+        "at home",
+        "vegetables",
+        "teacher"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e05",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "বাড়ি",
+        "tr": "bari",
+        "en": "home"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "uncle (khala's husband)",
+        "home",
+        "need",
+        "taka"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e06",
+      "type": "listen_select",
+      "audio": {
+        "bn": "স্টেশন",
+        "tr": "steshon",
+        "en": "station"
+      },
+      "options": [
+        "মজা",
+        "স্টেশন",
+        "খুচরা",
+        "নানি"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e07",
+      "type": "listen_select",
+      "audio": {
+        "bn": "হোটেল",
+        "tr": "hotel",
+        "en": "hotel"
+      },
+      "options": [
+        "আমগুলো",
+        "হোটেল",
+        "পানি",
+        "নাস্তা"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e08",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "স্টেশন",
+          "tr": "steshon",
+          "en": "station"
+        },
+        {
+          "bn": "বাসায়",
+          "tr": "bashay",
+          "en": "at home"
+        },
+        {
+          "bn": "হোটেল",
+          "tr": "hotel",
+          "en": "hotel"
+        },
+        {
+          "bn": "বাড়ি",
+          "tr": "bari",
+          "en": "home"
+        },
+        {
+          "bn": "আপনার",
+          "tr": "apnar",
+          "en": "your (polite)"
+        }
+      ]
+    },
+    {
+      "id": "e09",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "হোটেল কোথায়?",
+        "tr": "hotel kothay?",
+        "en": "Where is the hotel?"
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "the",
+        "Where",
+        "banana",
+        "town",
+        "minute",
+        "is",
+        "hotel"
+      ],
+      "answer": [
+        "Where",
+        "is",
+        "the",
+        "hotel"
+      ]
+    },
+    {
+      "id": "e10",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "সিলেট কোথায়?",
+        "tr": "shilet kothay?",
+        "en": "Where is Sylhet?"
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "পানি",
+        "নই",
+        "ঢাকায়",
+        "কোথায়",
+        "সিলেট"
+      ],
+      "answer": [
+        "সিলেট",
+        "কোথায়"
+      ]
+    },
+    {
+      "id": "e11",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমার বাসা ঢাকায়।",
+        "tr": "amar basha dhakay.",
+        "en": "I live in Dhaka."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "live",
+        "egg",
+        "Dhaka",
+        "in",
+        "I",
+        "no",
+        "need"
+      ],
+      "answer": [
+        "I",
+        "live",
+        "in",
+        "Dhaka"
+      ]
+    },
+    {
+      "id": "e12",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আপনার বাসা কোথায়?",
+        "tr": "apnar basha kothay?",
+        "en": "Where do you live?"
+      },
+      "direction": "bn_to_en",
+      "accepted": [
+        "Where do you live?",
+        "Where is your home?",
+        "Where's your house?"
+      ]
+    },
+    {
+      "id": "e13",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "ঢাকা বাংলাদেশে।",
+        "tr": "dhaka bangladeshe.",
+        "en": "Dhaka is in Bangladesh."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "ঢাকা",
+        "দেশ",
+        "চৌদ্দ",
+        "বাংলাদেশে",
+        "সন্ধ্যায়"
+      ],
+      "answer": [
+        "ঢাকা",
+        "বাংলাদেশে"
+      ]
+    },
+    {
+      "id": "e14",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "স্টেশন কোথায়?",
+        "tr": "steshon kothay?",
+        "en": "Where is the station?"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "আমি ভালো আছি, তুই?",
+        "এক সপ্তাহে সাত দিন।",
+        "আশি আর বিশ একশ।",
+        "স্টেশন কোথায়?"
+      ],
+      "answer": 3
+    }
+  ]
+}

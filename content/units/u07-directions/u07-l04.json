@@ -1,0 +1,360 @@
+{
+  "id": "u07-l04",
+  "unit": "u07-directions",
+  "title": "Places in town",
+  "status": "draft",
+  "tip": "Mosques (**মসজিদ**) are everywhere in Bangladesh and make great landmarks: **মসজিদের সামনে** 'in front of the mosque'. Hindu temples (**মন্দির**) are common too, especially in older neighbourhoods.\n\n'Live' (in a place) is **থাকা**: **আমি শহরে থাকি** 'I live in the city', **আমার নানি গ্রামে থাকেন** 'My grandmother lives in the village' — note the polite **-েন** ending for an elder.\n\n**আছে** at the end of a sentence means 'there is': **মসজিদের সামনে একটা দোকান আছে** 'There's a shop in front of the mosque'.\n\n**Culture:** most city families still have a **গ্রামের বাড়ি** (village home) they return to for Eid.",
+  "vocab": [
+    {
+      "id": "hashpatal",
+      "bn": "হাসপাতাল",
+      "tr": "hashpatal",
+      "en": "hospital"
+    },
+    {
+      "id": "moshjid",
+      "bn": "মসজিদ",
+      "tr": "moshjid",
+      "en": "mosque"
+    },
+    {
+      "id": "moshjider",
+      "bn": "মসজিদের",
+      "tr": "moshjider",
+      "en": "of the mosque"
+    },
+    {
+      "id": "mondir",
+      "bn": "মন্দির",
+      "tr": "mondir",
+      "en": "temple"
+    },
+    {
+      "id": "bajarer",
+      "bn": "বাজারের",
+      "tr": "bajarer",
+      "en": "of the market"
+    },
+    {
+      "id": "shohor",
+      "bn": "শহর",
+      "tr": "shohor",
+      "en": "city"
+    },
+    {
+      "id": "shohore",
+      "bn": "শহরে",
+      "tr": "shohore",
+      "en": "in the city"
+    },
+    {
+      "id": "gram",
+      "bn": "গ্রাম",
+      "tr": "gram",
+      "en": "village"
+    },
+    {
+      "id": "grame",
+      "bn": "গ্রামে",
+      "tr": "grame",
+      "en": "in the village"
+    },
+    {
+      "id": "thaki",
+      "bn": "থাকি",
+      "tr": "thaki",
+      "en": "I live",
+      "notes": "Present of থাকা 'live, stay, remain'."
+    },
+    {
+      "id": "thaken",
+      "bn": "থাকেন",
+      "tr": "thaken",
+      "en": "lives (polite)"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "হাসপাতাল",
+        "tr": "hashpatal",
+        "en": "hospital"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "morning",
+        "temple",
+        "problem",
+        "hospital"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "মসজিদ",
+        "tr": "moshjid",
+        "en": "mosque"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "at the market",
+        "Sunday",
+        "mosque",
+        "child"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "মসজিদের",
+        "tr": "moshjider",
+        "en": "of the mosque"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "month",
+        "of the mosque",
+        "country",
+        "elder sister; ma'am"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e04",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "মন্দির",
+        "tr": "mondir",
+        "en": "temple"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "auntie (address)",
+        "temple",
+        "uncle (khala's husband)",
+        "vegetables"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e05",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "বাজারের",
+        "tr": "bajarer",
+        "en": "of the market"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "person",
+        "of the market",
+        "breakfast",
+        "cup"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e06",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "শহর",
+        "tr": "shohor",
+        "en": "city"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "shop",
+        "city",
+        "bag",
+        "price"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e07",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "শহরে",
+        "tr": "shohore",
+        "en": "in the city"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "home",
+        "elder sister",
+        "in the city",
+        "day"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e08",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "থাকেন",
+          "tr": "thaken",
+          "en": "lives (polite)"
+        },
+        {
+          "bn": "গ্রামে",
+          "tr": "grame",
+          "en": "in the village"
+        },
+        {
+          "bn": "থাকি",
+          "tr": "thaki",
+          "en": "I live"
+        },
+        {
+          "bn": "গ্রাম",
+          "tr": "gram",
+          "en": "village"
+        },
+        {
+          "bn": "হাসপাতাল",
+          "tr": "hashpatal",
+          "en": "hospital"
+        }
+      ]
+    },
+    {
+      "id": "e09",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "এটা একটা ছোট গ্রাম।",
+        "tr": "eta ekta chhoto gram.",
+        "en": "This is a small village."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "biryani",
+        "village",
+        "small",
+        "a",
+        "doctor",
+        "is",
+        "This",
+        "chicken"
+      ],
+      "answer": [
+        "This",
+        "is",
+        "a",
+        "small",
+        "village"
+      ]
+    },
+    {
+      "id": "e10",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "হাসপাতাল কোথায়?",
+        "tr": "hashpatal kothay?",
+        "en": "Where is the hospital?"
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "সবজি",
+        "হাসপাতাল",
+        "কোথায়",
+        "উনিশ",
+        "লাগে"
+      ],
+      "answer": [
+        "হাসপাতাল",
+        "কোথায়"
+      ]
+    },
+    {
+      "id": "e11",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "মন্দির বাজারের পাশে।",
+        "tr": "mondir bajarer pashe.",
+        "en": "The temple is next to the market."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "no",
+        "person",
+        "next",
+        "temple",
+        "is",
+        "market",
+        "The",
+        "shirt",
+        "to",
+        "the"
+      ],
+      "answer": [
+        "The",
+        "temple",
+        "is",
+        "next",
+        "to",
+        "the",
+        "market"
+      ]
+    },
+    {
+      "id": "e12",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "ঢাকা একটা বড় শহর।",
+        "tr": "dhaka ekta boro shohor.",
+        "en": "Dhaka is a big city."
+      },
+      "direction": "bn_to_en",
+      "accepted": [
+        "Dhaka is a big city."
+      ]
+    },
+    {
+      "id": "e13",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমি শহরে থাকি।",
+        "tr": "ami shohore thaki.",
+        "en": "I live in the city."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "আমি",
+        "রাফি",
+        "শহরে",
+        "উনি",
+        "থাকি",
+        "কলাটা"
+      ],
+      "answer": [
+        "আমি",
+        "শহরে",
+        "থাকি"
+      ]
+    },
+    {
+      "id": "e14",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "মসজিদের সামনে একটা দোকান আছে।",
+        "tr": "moshjider shamne ekta dokan achhe.",
+        "en": "There is a shop in front of the mosque."
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "দাম অনেক বেশি।",
+        "মসজিদের সামনে একটা দোকান আছে।",
+        "আমি পানি খাই।",
+        "বাজার স্টেশনের পিছনে।"
+      ],
+      "answer": 1
+    }
+  ]
+}

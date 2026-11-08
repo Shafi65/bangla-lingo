@@ -134,14 +134,31 @@
       "title": "At the bazaar",
       "description": "Prices, taka, asking for things and haggling",
       "track": "main",
-      "lessons": []
+      "lessons": [
+        "u06-l01",
+        "u06-l02",
+        "u06-l03",
+        "u06-l04",
+        "u06-l05",
+        "u06-l06",
+        "u06-l07",
+        "u06-l08"
+      ]
     },
     {
       "id": "u07-directions",
       "title": "Directions & travel",
       "description": "Left, right, near, far; rickshaws, buses and places",
       "track": "main",
-      "lessons": []
+      "lessons": [
+        "u07-l01",
+        "u07-l02",
+        "u07-l03",
+        "u07-l04",
+        "u07-l05",
+        "u07-l06",
+        "u07-l07"
+      ]
     },
     {
       "id": "u08-daily-routine",

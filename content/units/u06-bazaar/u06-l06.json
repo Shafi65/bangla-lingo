@@ -1,0 +1,356 @@
+{
+  "id": "u06-l06",
+  "unit": "u06-bazaar",
+  "title": "Haggling",
+  "status": "draft",
+  "tip": "Bargaining is normal in a bazaar (not in fixed-price shops or supermarkets). Three chunks get you a long way:\n\n- **দাম একটু কম রাখেন।** — 'Lower the price a little, please.' (lit. 'keep the price a little less')\n- **এত দাম কেন?** — 'Why so expensive?'\n- **শেষ দাম কত?** — 'What's your final price?'\n\n**রাখেন** (*rakhen*) is the polite command of 'keep'; with a price it means 'make it…': **দুইশ টাকা রাখেন** 'make it 200 taka'. Standard/Kolkata: **রাখুন**.\n\nTo say no, **লাগবে না** ('I don't need it') is polite and final. To agree: **ঠিক আছে** 'OK'.\n\nNegation of adjectives is easy in speech: just add **না** — **ভালো না** 'not good'.",
+  "vocab": [
+    {
+      "id": "kom",
+      "bn": "কম",
+      "tr": "kom",
+      "en": "less"
+    },
+    {
+      "id": "beshi",
+      "bn": "বেশি",
+      "tr": "beshi",
+      "en": "more"
+    },
+    {
+      "id": "rakhen",
+      "bn": "রাখেন",
+      "tr": "rakhen",
+      "en": "keep (polite)",
+      "notes": "Imperative of রাখা 'keep'. In haggling: 'make it (this price)'. Same form = present 'you (polite) keep'. Familiar রাখো, intimate রাখ."
+    },
+    {
+      "id": "eto",
+      "bn": "এত",
+      "tr": "eto",
+      "en": "so"
+    },
+    {
+      "id": "keno",
+      "bn": "কেন",
+      "tr": "keno",
+      "en": "why"
+    },
+    {
+      "id": "shesh",
+      "bn": "শেষ",
+      "tr": "shesh",
+      "en": "last"
+    },
+    {
+      "id": "lagbe-na",
+      "bn": "লাগবে না",
+      "tr": "lagbe na",
+      "en": "I don't need it",
+      "notes": "The polite way to turn down a vendor."
+    },
+    {
+      "id": "thik-achhe",
+      "bn": "ঠিক আছে",
+      "tr": "thik achhe",
+      "en": "OK"
+    },
+    {
+      "id": "shosta",
+      "bn": "সস্তা",
+      "tr": "shosta",
+      "en": "cheap"
+    },
+    {
+      "id": "dami",
+      "bn": "দামি",
+      "tr": "dami",
+      "en": "expensive"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "কম",
+        "tr": "kom",
+        "en": "less"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "sweet",
+        "less",
+        "first",
+        "small"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "বেশি",
+        "tr": "beshi",
+        "en": "more"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "last",
+        "other",
+        "half",
+        "more"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "রাখেন",
+        "tr": "rakhen",
+        "en": "keep (polite)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "(he/she/they) eats",
+        "is not / are not (polite)",
+        "(you, polite) have come",
+        "keep (polite)"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e04",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "এত",
+        "tr": "eto",
+        "en": "so"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "in the afternoon",
+        "how much",
+        "here",
+        "so"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e05",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "কেন",
+        "tr": "keno",
+        "en": "why"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "why",
+        "how much",
+        "here",
+        "in a year"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e06",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "শেষ",
+        "tr": "shesh",
+        "en": "last"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "more",
+        "Bangladeshi",
+        "expensive",
+        "last"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e07",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "লাগবে না",
+        "tr": "lagbe na",
+        "en": "I don't need it"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "thank you",
+        "goodbye",
+        "I don't need it",
+        "I don't understand"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e08",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "কম",
+          "tr": "kom",
+          "en": "less"
+        },
+        {
+          "bn": "সস্তা",
+          "tr": "shosta",
+          "en": "cheap"
+        },
+        {
+          "bn": "ঠিক আছে",
+          "tr": "thik achhe",
+          "en": "OK"
+        },
+        {
+          "bn": "বেশি",
+          "tr": "beshi",
+          "en": "more"
+        },
+        {
+          "bn": "দামি",
+          "tr": "dami",
+          "en": "expensive"
+        }
+      ]
+    },
+    {
+      "id": "e09",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "দাম অনেক বেশি।",
+        "tr": "dam onek beshi.",
+        "en": "The price is too high."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "is",
+        "Please",
+        "his/her",
+        "potato",
+        "price",
+        "The",
+        "high",
+        "too"
+      ],
+      "answer": [
+        "The",
+        "price",
+        "is",
+        "too",
+        "high"
+      ]
+    },
+    {
+      "id": "e10",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "এটা খুব দামি।",
+        "tr": "eta khub dami.",
+        "en": "This is very expensive."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "খুব",
+        "ডাল",
+        "সকাল",
+        "দামি",
+        "দরকার",
+        "এটা"
+      ],
+      "answer": [
+        "এটা",
+        "খুব",
+        "দামি"
+      ]
+    },
+    {
+      "id": "e11",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "দাম একটু কম রাখেন।",
+        "tr": "dam ektu kom rakhen.",
+        "en": "Please lower the price a little."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "little",
+        "lower",
+        "thirteen",
+        "the",
+        "price",
+        "Please",
+        "a",
+        "spicy",
+        "Wednesday"
+      ],
+      "answer": [
+        "Please",
+        "lower",
+        "the",
+        "price",
+        "a",
+        "little"
+      ]
+    },
+    {
+      "id": "e12",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "শেষ দাম কত?",
+        "tr": "shesh dam koto?",
+        "en": "What's the final price?"
+      },
+      "direction": "bn_to_en",
+      "accepted": [
+        "What's the final price?",
+        "What's your last price?"
+      ]
+    },
+    {
+      "id": "e13",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "দুইশ টাকা রাখেন।",
+        "tr": "duisho taka rakhen.",
+        "en": "Make it two hundred taka."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "টাকা",
+        "দুইশ",
+        "বড়",
+        "দিন",
+        "রাখেন",
+        "কত"
+      ],
+      "answer": [
+        "দুইশ",
+        "টাকা",
+        "রাখেন"
+      ]
+    },
+    {
+      "id": "e14",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "শেষ দাম একশ টাকা।",
+        "tr": "shesh dam eksho taka.",
+        "en": "The final price is a hundred taka."
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "এখন আড়াইটা বাজে।",
+        "শেষ দাম একশ টাকা।",
+        "আপনি কি বাংলাদেশি?",
+        "চিনি ছাড়া চা।"
+      ],
+      "answer": 1
+    }
+  ]
+}

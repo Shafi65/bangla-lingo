@@ -1,0 +1,328 @@
+{
+  "id": "u07-l07",
+  "unit": "u07-directions",
+  "title": "Review: getting around",
+  "status": "draft",
+  "tip": "Ask for the general direction with **কোন দিকে?** (*kon dike?*) 'which way?': **স্টেশন কোন দিকে?**\n\nA typical trip:\n\n- **মামা, ধানমন্ডি যাবেন?** — **যাব।**\n- **ভাড়া কত?** — **পঞ্চাশ টাকা।**\n- **মোড়ে ডানে যান… এখানে থামেন।**\n\nPostpositions always follow a genitive: **স্টেশনের কাছে**, **মসজিদের পাশে**.\n\nIf you are lost: **আমার সাহায্য দরকার** \"I need help\". **তাহলে** \"then, in that case\" links your plan to what you just heard.",
+  "vocab": [
+    {
+      "id": "kon",
+      "bn": "কোন",
+      "tr": "kon",
+      "en": "which"
+    },
+    {
+      "id": "dike",
+      "bn": "দিকে",
+      "tr": "dike",
+      "en": "way",
+      "notes": "কোন দিকে? 'which way?'; ডান দিকে 'to the right side'."
+    },
+    {
+      "id": "shahajjo",
+      "bn": "সাহায্য",
+      "tr": "shahajjo",
+      "en": "help",
+      "notes": "আমার সাহায্য দরকার = \"I need help\". সাহায্য করা = \"to help\" (করা, U8)."
+    },
+    {
+      "id": "keu",
+      "bn": "কেউ",
+      "tr": "keu",
+      "en": "someone",
+      "notes": "With a negative verb: কেউ নেই \"there's no one\"."
+    },
+    {
+      "id": "tahole",
+      "bn": "তাহলে",
+      "tr": "tahole",
+      "en": "then"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "কোন",
+        "tr": "kon",
+        "en": "which"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "who",
+        "those",
+        "his/her (spoken)",
+        "which"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "দিকে",
+        "tr": "dike",
+        "en": "way"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "outside",
+        "next to",
+        "way",
+        "to"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "সাহায্য",
+        "tr": "shahajjo",
+        "en": "help"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "Tuesday",
+        "help",
+        "intersection",
+        "CNG"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e04",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "কেউ",
+        "tr": "keu",
+        "en": "someone"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "that",
+        "I",
+        "someone",
+        "you (polite, plural)"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e05",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "তাহলে",
+        "tr": "tahole",
+        "en": "then"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "no",
+        "then",
+        "yes (polite)",
+        "but"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e06",
+      "type": "listen_select",
+      "audio": {
+        "bn": "কোন",
+        "tr": "kon",
+        "en": "which"
+      },
+      "options": [
+        "আপনি",
+        "তুমি",
+        "তিনি",
+        "কোন"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e07",
+      "type": "listen_select",
+      "audio": {
+        "bn": "দিকে",
+        "tr": "dike",
+        "en": "way"
+      },
+      "options": [
+        "ছাড়া",
+        "বাইরে",
+        "দিকে",
+        "উপরে"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e08",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "দিকে",
+          "tr": "dike",
+          "en": "way"
+        },
+        {
+          "bn": "সাহায্য",
+          "tr": "shahajjo",
+          "en": "help"
+        },
+        {
+          "bn": "কেউ",
+          "tr": "keu",
+          "en": "someone"
+        },
+        {
+          "bn": "কোন",
+          "tr": "kon",
+          "en": "which"
+        },
+        {
+          "bn": "তাহলে",
+          "tr": "tahole",
+          "en": "then"
+        }
+      ]
+    },
+    {
+      "id": "e09",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "স্টেশন কোন দিকে?",
+        "tr": "steshon kon dike?",
+        "en": "Which way is the station?"
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "year",
+        "station",
+        "Which",
+        "the",
+        "change",
+        "way",
+        "is",
+        "bad"
+      ],
+      "answer": [
+        "Which",
+        "way",
+        "is",
+        "the",
+        "station"
+      ]
+    },
+    {
+      "id": "e10",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "ঢাকা থেকে সিলেট পর্যন্ত বাসে যাব।",
+        "tr": "dhaka theke shilet porjonto base jabo.",
+        "en": "I will go from Dhaka to Sylhet by bus."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "সন্ধ্যায়",
+        "ঢাকা",
+        "থেকে",
+        "পর্যন্ত",
+        "সিলেট",
+        "ছাড়বে",
+        "বাসে",
+        "ভাইয়া",
+        "যাব"
+      ],
+      "answer": [
+        "ঢাকা",
+        "থেকে",
+        "সিলেট",
+        "পর্যন্ত",
+        "বাসে",
+        "যাব"
+      ]
+    },
+    {
+      "id": "e11",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "এখানে থামেন, ভাই।",
+        "tr": "ekhane thamen, bhai.",
+        "en": "Stop here, brother."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "sixty",
+        "temple",
+        "here",
+        "Stop",
+        "there",
+        "brother"
+      ],
+      "answer": [
+        "Stop",
+        "here",
+        "brother"
+      ]
+    },
+    {
+      "id": "e12",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "মামা, ধানমন্ডি যাবেন?",
+        "tr": "mama, dhanmondi jaben?",
+        "en": "Mama, will you go to Dhanmondi?"
+      },
+      "direction": "bn_to_en",
+      "accepted": [
+        "Mama, will you go to Dhanmondi?"
+      ]
+    },
+    {
+      "id": "e13",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "স্টেশন দূরে? তাহলে রিকশায় যাব।",
+        "tr": "steshon dure? tahole rikshay jabo.",
+        "en": "The station is far? Then I'll go by rickshaw."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "দূরে",
+        "যাব",
+        "রিকশায়",
+        "স্টেশন",
+        "সমস্যা",
+        "কলাগুলো",
+        "স্টেশনে",
+        "তাহলে"
+      ],
+      "answer": [
+        "স্টেশন",
+        "দূরে",
+        "তাহলে",
+        "রিকশায়",
+        "যাব"
+      ]
+    },
+    {
+      "id": "e14",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আমার সাহায্য দরকার।",
+        "tr": "amar shahajjo dorkar.",
+        "en": "I need help."
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "আমার ভাই নেই।",
+        "আপনি কোথা থেকে এসেছেন?",
+        "আমার সাহায্য দরকার।",
+        "না, ওটা মাংস।"
+      ],
+      "answer": 2
+    }
+  ]
+}

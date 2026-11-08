@@ -1,0 +1,348 @@
+{
+  "id": "u07-l06",
+  "unit": "u07-directions",
+  "title": "Bus & train",
+  "status": "draft",
+  "tip": "**থেকে** 'from' pairs with **পর্যন্ত** (*porjonto*) 'to / as far as': **ঢাকা থেকে সিলেট পর্যন্ত** 'from Dhaka to Sylhet'.\n\nThe future of 'go' by person: **যাব** (I/we), **যাবে** (তুমি, সে), **যাবেন** (আপনি, তিনি). The yes/no **কি** sits after the subject: **এই বাস কি ঢাকা যাবে?** 'Does this bus go to Dhaka?' (lit. 'will go').\n\n'By bus / by train' uses the locative: **বাসে**, **ট্রেনে**.\n\nTrains leave (**ছাড়বে**, 'will leave') from Dhaka's Kamalapur and Airport stations; buy your **টিকিট** early before Eid, when everyone travels home.",
+  "vocab": [
+    {
+      "id": "bas",
+      "bn": "বাস",
+      "tr": "bas",
+      "en": "bus"
+    },
+    {
+      "id": "base",
+      "bn": "বাসে",
+      "tr": "base",
+      "en": "by bus"
+    },
+    {
+      "id": "tren",
+      "bn": "ট্রেন",
+      "tr": "tren",
+      "en": "train"
+    },
+    {
+      "id": "trene",
+      "bn": "ট্রেনে",
+      "tr": "trene",
+      "en": "by train"
+    },
+    {
+      "id": "porjonto",
+      "bn": "পর্যন্ত",
+      "tr": "porjonto",
+      "en": "to"
+    },
+    {
+      "id": "jabe",
+      "bn": "যাবে",
+      "tr": "jabe",
+      "en": "will go",
+      "notes": "Future for তুমি and সে/ও."
+    },
+    {
+      "id": "tikit",
+      "bn": "টিকিট",
+      "tr": "tikit",
+      "en": "ticket"
+    },
+    {
+      "id": "chharbe",
+      "bn": "ছাড়বে",
+      "tr": "chharbe",
+      "en": "will leave",
+      "notes": "Future of ছাড়া 'leave, let go'."
+    },
+    {
+      "id": "gari",
+      "bn": "গাড়ি",
+      "tr": "gari",
+      "en": "car"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "বাস",
+        "tr": "bas",
+        "en": "bus"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "banana",
+        "thing",
+        "bus",
+        "city"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "বাসে",
+        "tr": "base",
+        "en": "by bus"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "grandfather (father's father)",
+        "day (of the week)",
+        "Friday",
+        "by bus"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ট্রেন",
+        "tr": "tren",
+        "en": "train"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "auntie (address)",
+        "station",
+        "train",
+        "price"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e04",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ট্রেনে",
+        "tr": "trene",
+        "en": "by train"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "by train",
+        "hunger",
+        "train",
+        "teacher"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e05",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "পর্যন্ত",
+        "tr": "porjonto",
+        "en": "to"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "from",
+        "in front of",
+        "next to",
+        "to"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e06",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "যাবে",
+        "tr": "jabe",
+        "en": "will go"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "will go",
+        "strikes (the hour)",
+        "(you/he/she, polite) eat",
+        "you will buy (polite)"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e07",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "টিকিট",
+        "tr": "tikit",
+        "en": "ticket"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "of tomatoes",
+        "temple",
+        "mosque",
+        "ticket"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e08",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "গাড়ি",
+          "tr": "gari",
+          "en": "car"
+        },
+        {
+          "bn": "পর্যন্ত",
+          "tr": "porjonto",
+          "en": "to"
+        },
+        {
+          "bn": "ট্রেনে",
+          "tr": "trene",
+          "en": "by train"
+        },
+        {
+          "bn": "ছাড়বে",
+          "tr": "chharbe",
+          "en": "will leave"
+        },
+        {
+          "bn": "বাসে",
+          "tr": "base",
+          "en": "by bus"
+        }
+      ]
+    },
+    {
+      "id": "e09",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "তুমি কি বাসে যাবে?",
+        "tr": "tumi ki base jabe?",
+        "en": "Will you go by bus?"
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "yes",
+        "go",
+        "you",
+        "Bangladeshi",
+        "bus",
+        "price",
+        "Will",
+        "by"
+      ],
+      "answer": [
+        "Will",
+        "you",
+        "go",
+        "by",
+        "bus"
+      ]
+    },
+    {
+      "id": "e10",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমি ট্রেনে যাব।",
+        "tr": "ami trene jabo.",
+        "en": "I will go by train."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "আমি",
+        "আমটা",
+        "যাব",
+        "দাদি",
+        "নানা",
+        "ট্রেনে"
+      ],
+      "answer": [
+        "আমি",
+        "ট্রেনে",
+        "যাব"
+      ]
+    },
+    {
+      "id": "e11",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "একটা টিকিট দেন।",
+        "tr": "ekta tikit den.",
+        "en": "Please give me a ticket."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "twenty",
+        "husband",
+        "me",
+        "Please",
+        "ticket",
+        "give",
+        "brother",
+        "a"
+      ],
+      "answer": [
+        "Please",
+        "give",
+        "me",
+        "a",
+        "ticket"
+      ]
+    },
+    {
+      "id": "e12",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "এই বাস কি ঢাকা যাবে?",
+        "tr": "ei bas ki dhaka jabe?",
+        "en": "Does this bus go to Dhaka?"
+      },
+      "direction": "bn_to_en",
+      "accepted": [
+        "Does this bus go to Dhaka?",
+        "Will this bus go to Dhaka?"
+      ]
+    },
+    {
+      "id": "e13",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "ট্রেন এখন ছাড়বে।",
+        "tr": "tren ekhon chharbe.",
+        "en": "The train will leave now."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "কেজি",
+        "ভাংতি",
+        "ছাড়বে",
+        "ট্রেন",
+        "এখন",
+        "আপনার"
+      ],
+      "answer": [
+        "ট্রেন",
+        "এখন",
+        "ছাড়বে"
+      ]
+    },
+    {
+      "id": "e14",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ঢাকা থেকে সিলেট পর্যন্ত ভাড়া কত?",
+        "tr": "dhaka theke shilet porjonto bhara koto?",
+        "en": "What's the fare from Dhaka to Sylhet?"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "দুইশ টাকা রাখেন।",
+        "তোমার নাম কী?",
+        "ঢাকা থেকে সিলেট পর্যন্ত ভাড়া কত?",
+        "ঠিক আছে, দুইশ টাকা রাখেন।"
+      ],
+      "answer": 2
+    }
+  ]
+}

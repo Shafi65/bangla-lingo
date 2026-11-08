@@ -1,0 +1,379 @@
+{
+  "id": "u07-l03",
+  "unit": "u07-directions",
+  "title": "Near, far, next to",
+  "status": "draft",
+  "tip": "English puts 'near, behind, next to' *before* the noun; Bengali puts them **after** it, as **postpositions**. The noun takes the genitive 'of' ending first:\n\n- **স্টেশনের কাছে** — 'near the station' (lit. 'station's near')\n- **বাড়ির পাশে** — 'next to the house'\n- **হোটেলের সামনে** — 'in front of the hotel'\n\nRemember: **-এর** after a consonant (স্টেশন → স্টেশনের), **-র** after a vowel (বাড়ি → বাড়ির, বাসা → বাসার).\n\nMany of these words also work alone: **বাবা বাইরে** 'Dad is outside', **আপু উপরে** 'Apu is upstairs'. All of them end in **-এ** — they are really locative nouns ('at the near-side', 'at the front').",
+  "vocab": [
+    {
+      "id": "kachhe",
+      "bn": "কাছে",
+      "tr": "kachhe",
+      "en": "near"
+    },
+    {
+      "id": "dure",
+      "bn": "দূরে",
+      "tr": "dure",
+      "en": "far"
+    },
+    {
+      "id": "pashe",
+      "bn": "পাশে",
+      "tr": "pashe",
+      "en": "next to"
+    },
+    {
+      "id": "shamne",
+      "bn": "সামনে",
+      "tr": "shamne",
+      "en": "in front of"
+    },
+    {
+      "id": "pichhone",
+      "bn": "পিছনে",
+      "tr": "pichhone",
+      "en": "behind",
+      "notes": "Also spelled পেছনে."
+    },
+    {
+      "id": "bhitore",
+      "bn": "ভিতরে",
+      "tr": "bhitore",
+      "en": "inside",
+      "notes": "Also spelled ভেতরে."
+    },
+    {
+      "id": "baire",
+      "bn": "বাইরে",
+      "tr": "baire",
+      "en": "outside"
+    },
+    {
+      "id": "upore",
+      "bn": "উপরে",
+      "tr": "upore",
+      "en": "upstairs",
+      "notes": "Also spelled ওপরে."
+    },
+    {
+      "id": "niche",
+      "bn": "নিচে",
+      "tr": "niche",
+      "en": "downstairs"
+    },
+    {
+      "id": "steshoner",
+      "bn": "স্টেশনের",
+      "tr": "steshoner",
+      "en": "of the station"
+    },
+    {
+      "id": "barir",
+      "bn": "বাড়ির",
+      "tr": "barir",
+      "en": "of the house"
+    },
+    {
+      "id": "hoteler",
+      "bn": "হোটেলের",
+      "tr": "hoteler",
+      "en": "of the hotel"
+    },
+    {
+      "id": "bashar",
+      "bn": "বাসার",
+      "tr": "bashar",
+      "en": "of the house"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "কাছে",
+        "tr": "kachhe",
+        "en": "near"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "upstairs",
+        "in front of",
+        "near",
+        "along"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "দূরে",
+        "tr": "dure",
+        "en": "far"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "of course",
+        "far",
+        "right",
+        "what time; how many"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "পাশে",
+        "tr": "pashe",
+        "en": "next to"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "in front of",
+        "next to",
+        "upstairs",
+        "along"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e04",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "সামনে",
+        "tr": "shamne",
+        "en": "in front of"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "in front of",
+        "without",
+        "downstairs",
+        "next to"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e05",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "পিছনে",
+        "tr": "pichhone",
+        "en": "behind"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "next to",
+        "behind",
+        "inside",
+        "from"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e06",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ভিতরে",
+        "tr": "bhitore",
+        "en": "inside"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "in front of",
+        "from",
+        "inside",
+        "near"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e07",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "বাইরে",
+        "tr": "baire",
+        "en": "outside"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "in front of",
+        "outside",
+        "downstairs",
+        "from"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e08",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "হোটেলের",
+          "tr": "hoteler",
+          "en": "of the hotel"
+        },
+        {
+          "bn": "উপরে",
+          "tr": "upore",
+          "en": "upstairs"
+        },
+        {
+          "bn": "নিচে",
+          "tr": "niche",
+          "en": "downstairs"
+        },
+        {
+          "bn": "স্টেশনের",
+          "tr": "steshoner",
+          "en": "of the station"
+        },
+        {
+          "bn": "বাড়ির",
+          "tr": "barir",
+          "en": "of the house"
+        }
+      ]
+    },
+    {
+      "id": "e09",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "বাসা খুব কাছে।",
+        "tr": "basha khub kachhe.",
+        "en": "The house is very close."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "The",
+        "all",
+        "close",
+        "house",
+        "sweet",
+        "flatbread",
+        "very",
+        "is"
+      ],
+      "answer": [
+        "The",
+        "house",
+        "is",
+        "very",
+        "close"
+      ]
+    },
+    {
+      "id": "e10",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আপু উপরে, আব্বু নিচে।",
+        "tr": "apu upore, abbu niche.",
+        "en": "Apu is upstairs, Dad is downstairs."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "আব্বু",
+        "দাদি",
+        "আপু",
+        "আরও",
+        "নিচে",
+        "আমেরিকা",
+        "উপরে"
+      ],
+      "answer": [
+        "আপু",
+        "উপরে",
+        "আব্বু",
+        "নিচে"
+      ]
+    },
+    {
+      "id": "e11",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "দোকানটা বাড়ির পাশে।",
+        "tr": "dokanta barir pashe.",
+        "en": "The shop is next to the house."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "mother",
+        "the",
+        "next",
+        "The",
+        "shop",
+        "to",
+        "right",
+        "is",
+        "teacher",
+        "house"
+      ],
+      "answer": [
+        "The",
+        "shop",
+        "is",
+        "next",
+        "to",
+        "the",
+        "house"
+      ]
+    },
+    {
+      "id": "e12",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আমার বাসা হোটেলের সামনে।",
+        "tr": "amar basha hoteler shamne.",
+        "en": "My home is in front of the hotel."
+      },
+      "direction": "bn_to_en",
+      "accepted": [
+        "My home is in front of the hotel.",
+        "My house is in front of the hotel."
+      ]
+    },
+    {
+      "id": "e13",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "স্টেশন অনেক দূরে।",
+        "tr": "steshon onek dure.",
+        "en": "The station is very far."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "অনেক",
+        "মা",
+        "স্টেশন",
+        "দূরে",
+        "এসেছি",
+        "আচ্ছা"
+      ],
+      "answer": [
+        "স্টেশন",
+        "অনেক",
+        "দূরে"
+      ]
+    },
+    {
+      "id": "e14",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "বাজার স্টেশনের পিছনে।",
+        "tr": "bajar steshoner pichhone.",
+        "en": "The market is behind the station."
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "আমার এক মাস সময় আছে।",
+        "ফুফা এখানে নেই।",
+        "বাজার স্টেশনের পিছনে।",
+        "আমার বয়স বিশ।"
+      ],
+      "answer": 2
+    }
+  ]
+}

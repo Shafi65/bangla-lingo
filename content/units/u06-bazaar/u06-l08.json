@@ -1,0 +1,326 @@
+{
+  "id": "u06-l08",
+  "unit": "u06-bazaar",
+  "title": "Review: at the bazaar",
+  "status": "draft",
+  "tip": "A full bazaar exchange:\n\n- **ভাই, টমেটোর কেজি কত?** — **পঞ্চাশ টাকা।**\n- **এক কেজি দেন। দাম একটু কম রাখেন।** — **ঠিক আছে।**\n- **আর কিছু লাগবে?** — **না, আর কিছু লাগবে না।**\n\n**আর কিছু** (*ar kichhu*) = 'anything else' — you'll hear it from every vendor. Bring your own **ব্যাগ** (bag): many markets now discourage plastic.\n\nRemember the levels: **দে / দাও / দেন (দিন)**. With shopkeepers, always use the আপনি forms.\n\n**সবচেয়ে** + adjective makes a superlative: সবচেয়ে ভালো \"the best\", সবচেয়ে সস্তা \"the cheapest\".",
+  "vocab": [
+    {
+      "id": "byag",
+      "bn": "ব্যাগ",
+      "tr": "byag",
+      "en": "bag"
+    },
+    {
+      "id": "jinish",
+      "bn": "জিনিস",
+      "tr": "jinish",
+      "en": "thing"
+    },
+    {
+      "id": "shobcheye",
+      "bn": "সবচেয়ে",
+      "tr": "shobcheye",
+      "en": "the most",
+      "notes": "সবচেয়ে + adjective = superlative: সবচেয়ে ভালো \"the best\", সবচেয়ে সস্তা \"the cheapest\"."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ব্যাগ",
+        "tr": "byag",
+        "en": "bag"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "market",
+        "bag",
+        "person",
+        "child"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "জিনিস",
+        "tr": "jinish",
+        "en": "thing"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "girl",
+        "thing",
+        "rice",
+        "day (of the week)"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "সবচেয়ে",
+        "tr": "shobcheye",
+        "en": "the most"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "where (before থেকে)",
+        "the most",
+        "in the evening",
+        "of course"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e04",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "লাগবে",
+        "tr": "lagbe",
+        "en": "need"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "(he/she/they) eats",
+        "(you/he/she, polite) eat",
+        "need",
+        "am"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e05",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আলু",
+        "tr": "alu",
+        "en": "potato"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "teacher",
+        "meat",
+        "day (of the week)",
+        "potato"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e06",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "হালি",
+        "tr": "hali",
+        "en": "four (a set of four)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "English (language)",
+        "is (he/she/it)",
+        "four (a set of four)",
+        "(I) have come"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e07",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "সব",
+        "tr": "shob",
+        "en": "all"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "more",
+        "sweet",
+        "tasty",
+        "all"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e08",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "ব্যাগ",
+          "tr": "byag",
+          "en": "bag"
+        },
+        {
+          "bn": "সবচেয়ে",
+          "tr": "shobcheye",
+          "en": "the most"
+        },
+        {
+          "bn": "আলু",
+          "tr": "alu",
+          "en": "potato"
+        },
+        {
+          "bn": "এইটা",
+          "tr": "eita",
+          "en": "this one"
+        },
+        {
+          "bn": "জিনিস",
+          "tr": "jinish",
+          "en": "thing"
+        }
+      ]
+    },
+    {
+      "id": "e09",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "শেষ দাম কত, ভাই?",
+        "tr": "shesh dam koto, bhai?",
+        "en": "What's the final price, brother?"
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "price",
+        "a",
+        "final",
+        "the",
+        "What's",
+        "father",
+        "very",
+        "brother"
+      ],
+      "answer": [
+        "What's",
+        "the",
+        "final",
+        "price",
+        "brother"
+      ]
+    },
+    {
+      "id": "e10",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "না, আর কিছু লাগবে না।",
+        "tr": "na, ar kichhu lagbe na.",
+        "en": "No, I don't need anything else."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "না",
+        "না",
+        "ফল",
+        "কিছু",
+        "লাগবে",
+        "তোর",
+        "আর",
+        "পঞ্চাশ"
+      ],
+      "answer": [
+        "না",
+        "আর",
+        "কিছু",
+        "লাগবে",
+        "না"
+      ]
+    },
+    {
+      "id": "e11",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "এক কেজি আলু আর এক হালি ডিম দেন।",
+        "tr": "ek keji alu ar ek hali dim den.",
+        "en": "Please give me a kilo of potatoes and four eggs."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "only",
+        "give",
+        "potatoes",
+        "noon",
+        "eggs",
+        "and",
+        "bag",
+        "Please",
+        "kilo",
+        "of",
+        "a",
+        "me",
+        "four"
+      ],
+      "answer": [
+        "Please",
+        "give",
+        "me",
+        "a",
+        "kilo",
+        "of",
+        "potatoes",
+        "and",
+        "four",
+        "eggs"
+      ]
+    },
+    {
+      "id": "e12",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "এগুলো খুব দামি।",
+        "tr": "egulo khub dami.",
+        "en": "These are very expensive."
+      },
+      "direction": "bn_to_en",
+      "accepted": [
+        "These are very expensive."
+      ]
+    },
+    {
+      "id": "e13",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "বাজারে সব জিনিস সস্তা।",
+        "tr": "bajare shob jinish shosta.",
+        "en": "Everything is cheap at the market."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "বাজারে",
+        "সবজি",
+        "মিষ্টি",
+        "সস্তা",
+        "জিনিস",
+        "ওইটা",
+        "সব"
+      ],
+      "answer": [
+        "বাজারে",
+        "সব",
+        "জিনিস",
+        "সস্তা"
+      ]
+    },
+    {
+      "id": "e14",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ঠিক আছে, দুইশ টাকা রাখেন।",
+        "tr": "thik achhe, duisho taka rakhen.",
+        "en": "OK, make it two hundred taka."
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "রাফি কোথায়?",
+        "ওগুলো ভালো না।",
+        "ঠিক আছে, দুইশ টাকা রাখেন।",
+        "না, আমি শিক্ষক নই।"
+      ],
+      "answer": 2
+    }
+  ]
+}

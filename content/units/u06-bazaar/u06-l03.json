@@ -1,0 +1,343 @@
+{
+  "id": "u06-l03",
+  "unit": "u06-bazaar",
+  "title": "Please give me…",
+  "status": "draft",
+  "tip": "Bengali commands change with the same three levels of 'you'. For 'give':\n\n- **দে** (*de*) — তুই (close friends, little brother)\n- **দাও** (*dao*) — তুমি\n- **দেন** (*den*) — আপনি, everyday Bangladesh\n- **দিন** (*din*) — আপনি, standard / formal (and the usual form in Kolkata)\n\nThere is no separate word for 'please' in requests like these: the polite verb form *is* the politeness. **আমাকে চা দিন** = 'Please give me tea'.\n\n**আমাকে** (*amake*) is 'me' as an object. **একটা** = 'one, a' (for things you count); **একটু** = 'a little' (for things you don't): **একটু পানি দাও** 'give me a little water'.\n\n**Culture:** shopkeepers are often addressed as **মামা** or **ভাই** — friendly, respectful, and with দেন.\n\n**আরও** \"more\": আরও একটু \"a little more\".",
+  "vocab": [
+    {
+      "id": "amake",
+      "bn": "আমাকে",
+      "tr": "amake",
+      "en": "me",
+      "notes": "Object form of আমি: আমাকে দেন 'give me'."
+    },
+    {
+      "id": "den",
+      "bn": "দেন",
+      "tr": "den",
+      "en": "give (polite)",
+      "notes": "Polite imperative of দেওয়া 'give', used in everyday Bangladeshi speech. Also the present-tense 'you/he (polite) give'."
+    },
+    {
+      "id": "din-give",
+      "bn": "দিন",
+      "tr": "din",
+      "en": "give (polite, standard)",
+      "notes": "Standard / more formal polite imperative. Same spelling as দিন 'day' — context tells them apart. Usual in Kolkata."
+    },
+    {
+      "id": "dao",
+      "bn": "দাও",
+      "tr": "dao",
+      "en": "give (familiar)",
+      "notes": "Goes with তুমি."
+    },
+    {
+      "id": "de",
+      "bn": "দে",
+      "tr": "de",
+      "en": "give (intimate)",
+      "notes": "Goes with তুই — only with close friends, younger siblings, small children."
+    },
+    {
+      "id": "ektu",
+      "bn": "একটু",
+      "tr": "ektu",
+      "en": "a little",
+      "notes": "Also softens a request, like 'just': একটু দেন 'please give (me) a little'."
+    },
+    {
+      "id": "aro",
+      "bn": "আরও",
+      "tr": "aro",
+      "en": "more",
+      "notes": "আরও = \"(even) more\"; don't confuse with আর \"and / else\". Also spelled আরো."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আমাকে",
+        "tr": "amake",
+        "en": "me"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "me",
+        "you (familiar)",
+        "I",
+        "something"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "দেন",
+        "tr": "den",
+        "en": "give (polite)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "(you, familiar) want",
+        "(he/she/they) eats",
+        "(I) have come",
+        "give (polite)"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "দিন",
+        "tr": "din",
+        "en": "give (polite, standard)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "give (polite, standard)",
+        "feels",
+        "has come on (felt)",
+        "(you, familiar) want"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e04",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "দাও",
+        "tr": "dao",
+        "en": "give (familiar)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "strikes (the hour)",
+        "give (familiar)",
+        "(you/he/she, polite) want",
+        "are not (familiar)"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e05",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "দে",
+        "tr": "de",
+        "en": "give (intimate)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "(you, polite) have come",
+        "is not (here); there isn't",
+        "to eat",
+        "give (intimate)"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e06",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "একটু",
+        "tr": "ektu",
+        "en": "a little"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "how much",
+        "at noon",
+        "in a year",
+        "a little"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e07",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আরও",
+        "tr": "aro",
+        "en": "more"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "at noon",
+        "in the evening",
+        "more",
+        "there"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e08",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "একটু",
+          "tr": "ektu",
+          "en": "a little"
+        },
+        {
+          "bn": "দেন",
+          "tr": "den",
+          "en": "give (polite)"
+        },
+        {
+          "bn": "দিন",
+          "tr": "din",
+          "en": "give (polite, standard)"
+        },
+        {
+          "bn": "দাও",
+          "tr": "dao",
+          "en": "give (familiar)"
+        },
+        {
+          "bn": "আমাকে",
+          "tr": "amake",
+          "en": "me"
+        }
+      ]
+    },
+    {
+      "id": "e09",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "একটু পানি দাও।",
+        "tr": "ektu pani dao.",
+        "en": "Give me a little water."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "a",
+        "me",
+        "little",
+        "Give",
+        "thousand",
+        "milk",
+        "water",
+        "shopkeeper"
+      ],
+      "answer": [
+        "Give",
+        "me",
+        "a",
+        "little",
+        "water"
+      ]
+    },
+    {
+      "id": "e10",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "ভাই, একটা কলা দেন।",
+        "tr": "bhai, ekta kola den.",
+        "en": "Brother, please give me a banana."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "তারা",
+        "দেন",
+        "ভাই",
+        "কলা",
+        "একটা",
+        "আংকেল",
+        "বউ"
+      ],
+      "answer": [
+        "ভাই",
+        "একটা",
+        "কলা",
+        "দেন"
+      ]
+    },
+    {
+      "id": "e11",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমাকে একটা আম দে।",
+        "tr": "amake ekta am de.",
+        "en": "Give me a mango."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "sixteen",
+        "hilsa",
+        "Give",
+        "mango",
+        "a",
+        "first",
+        "me"
+      ],
+      "answer": [
+        "Give",
+        "me",
+        "a",
+        "mango"
+      ]
+    },
+    {
+      "id": "e12",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আমাকে চা দিন।",
+        "tr": "amake cha din.",
+        "en": "Please give me tea."
+      },
+      "direction": "bn_to_en",
+      "accepted": [
+        "Please give me tea.",
+        "Give me tea, please."
+      ]
+    },
+    {
+      "id": "e13",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমাকে একটু ভাত দিন।",
+        "tr": "amake ektu bhat din.",
+        "en": "Please give me a little rice."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "একটু",
+        "দিন",
+        "চিনি",
+        "ভাত",
+        "আমটা",
+        "নাদিয়া",
+        "আমাকে"
+      ],
+      "answer": [
+        "আমাকে",
+        "একটু",
+        "ভাত",
+        "দিন"
+      ]
+    },
+    {
+      "id": "e14",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "মামা, আমাকে একটা ডিম দেন।",
+        "tr": "mama, amake ekta dim den.",
+        "en": "Mama, please give me an egg."
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "আমি মাংস খাই না।",
+        "পঞ্চাশ আর পঞ্চাশ একশ।",
+        "চাচা, আপনি কেমন আছেন?",
+        "মামা, আমাকে একটা ডিম দেন।"
+      ],
+      "answer": 3
+    }
+  ]
+}
