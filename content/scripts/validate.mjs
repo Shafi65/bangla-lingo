@@ -80,7 +80,8 @@ for (const [uid, plan] of plans) {
     // sentences
     const sentences = L.sentences ?? [];
     sentenceCount += sentences.length;
-    if (unit.track === "main" && (sentences.length < 6 || sentences.length > 10))
+    const lettersOnly = L.new.length > 0 && L.new.every((id) => lexicon.get(id)?.pos === "letter");
+    if (unit.track === "main" && !lettersOnly && (sentences.length < 6 || sentences.length > 10))
       warn(where, `${sentences.length} sentences (target 6–10)`);
     const known = new Set(knownAt(ctx, L.id).map((e) => e.bn.normalize("NFC")));
     // multi-word lexicon forms (phrases) match as whole-token sequences, longest first

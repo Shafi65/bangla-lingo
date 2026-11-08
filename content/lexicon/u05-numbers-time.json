@@ -190,7 +190,7 @@
       "tr": "shunno",
       "en": "0",
       "pos": "letter",
-      "lesson": "u05-l02",
+      "lesson": "u05-l03",
       "notes": "The digit 0"
     },
     {
@@ -199,7 +199,7 @@
       "tr": "ek",
       "en": "1",
       "pos": "letter",
-      "lesson": "u05-l02",
+      "lesson": "u05-l03",
       "notes": "The digit 1"
     },
     {
@@ -208,7 +208,7 @@
       "tr": "dui",
       "en": "2",
       "pos": "letter",
-      "lesson": "u05-l02",
+      "lesson": "u05-l03",
       "notes": "The digit 2"
     },
     {
@@ -217,7 +217,7 @@
       "tr": "tin",
       "en": "3",
       "pos": "letter",
-      "lesson": "u05-l02",
+      "lesson": "u05-l03",
       "notes": "The digit 3"
     },
     {
@@ -226,7 +226,7 @@
       "tr": "char",
       "en": "4",
       "pos": "letter",
-      "lesson": "u05-l02",
+      "lesson": "u05-l03",
       "notes": "The digit 4. Careful: looks like an English 8 but is FOUR."
     },
     {
@@ -235,7 +235,7 @@
       "tr": "pa~ch",
       "en": "5",
       "pos": "letter",
-      "lesson": "u05-l02",
+      "lesson": "u05-l03",
       "notes": "The digit 5"
     },
     {
@@ -244,7 +244,7 @@
       "tr": "chhoy",
       "en": "6",
       "pos": "letter",
-      "lesson": "u05-l02",
+      "lesson": "u05-l03",
       "notes": "The digit 6"
     },
     {
@@ -253,7 +253,7 @@
       "tr": "shat",
       "en": "7",
       "pos": "letter",
-      "lesson": "u05-l02",
+      "lesson": "u05-l03",
       "notes": "The digit 7. Looks a bit like an English 9."
     },
     {
@@ -262,7 +262,7 @@
       "tr": "at",
       "en": "8",
       "pos": "letter",
-      "lesson": "u05-l02",
+      "lesson": "u05-l03",
       "notes": "The digit 8. Looks a bit like an English 'b' or a 4 turned around."
     },
     {
@@ -271,7 +271,7 @@
       "tr": "noy",
       "en": "9",
       "pos": "letter",
-      "lesson": "u05-l02",
+      "lesson": "u05-l03",
       "notes": "The digit 9"
     },
     {
@@ -280,7 +280,7 @@
       "tr": "trish",
       "en": "thirty",
       "pos": "number",
-      "lesson": "u05-l03"
+      "lesson": "u05-l04"
     },
     {
       "id": "chollish",
@@ -288,7 +288,7 @@
       "tr": "chollish",
       "en": "forty",
       "pos": "number",
-      "lesson": "u05-l03"
+      "lesson": "u05-l04"
     },
     {
       "id": "ponchash",
@@ -296,7 +296,7 @@
       "tr": "ponchash",
       "en": "fifty",
       "pos": "number",
-      "lesson": "u05-l03"
+      "lesson": "u05-l04"
     },
     {
       "id": "shat-sixty",
@@ -304,7 +304,7 @@
       "tr": "shat",
       "en": "sixty",
       "pos": "number",
-      "lesson": "u05-l03",
+      "lesson": "u05-l04",
       "notes": "Same transliteration as সাত (seven), but with retroflex ষ and ট: listen for the 't' made with the tongue curled back."
     },
     {
@@ -313,7 +313,7 @@
       "tr": "shottor",
       "en": "seventy",
       "pos": "number",
-      "lesson": "u05-l03"
+      "lesson": "u05-l04"
     },
     {
       "id": "ashi-eighty",
@@ -321,7 +321,7 @@
       "tr": "ashi",
       "en": "eighty",
       "pos": "number",
-      "lesson": "u05-l03"
+      "lesson": "u05-l04"
     },
     {
       "id": "nobboi",
@@ -329,7 +329,7 @@
       "tr": "nobboi",
       "en": "ninety",
       "pos": "number",
-      "lesson": "u05-l03"
+      "lesson": "u05-l04"
     },
     {
       "id": "eksho",
@@ -342,7 +342,7 @@
         "100"
       ],
       "pos": "number",
-      "lesson": "u05-l03",
+      "lesson": "u05-l04",
       "notes": "Also spelled একশো (more common in Kolkata).",
       "kolkata": {
         "bn": "একশো",
@@ -359,7 +359,7 @@
         "one thousand"
       ],
       "pos": "number",
-      "lesson": "u05-l03"
+      "lesson": "u05-l04"
     },
     {
       "id": "koyta",
@@ -371,7 +371,7 @@
         "how many"
       ],
       "pos": "adv",
-      "lesson": "u05-l04",
+      "lesson": "u05-l05",
       "notes": "কয় 'how many' + -টা."
     },
     {
@@ -385,7 +385,7 @@
         "rings"
       ],
       "pos": "verb",
-      "lesson": "u05-l04",
+      "lesson": "u05-l05",
       "notes": "Lit. 'rings / strikes', like a clock bell. … টা বাজে = 'it is … o'clock'."
     },
     {
@@ -399,7 +399,7 @@
         "three things"
       ],
       "pos": "number",
-      "lesson": "u05-l04",
+      "lesson": "u05-l05",
       "kolkata": {
         "bn": "তিনটে",
         "tr": "tinte"
@@ -416,7 +416,7 @@
         "five things"
       ],
       "pos": "number",
-      "lesson": "u05-l04",
+      "lesson": "u05-l05",
       "kolkata": {
         "bn": "পাঁচটা",
         "tr": "pa~chta"
@@ -433,7 +433,7 @@
         "ten things"
       ],
       "pos": "number",
-      "lesson": "u05-l04"
+      "lesson": "u05-l05"
     },
     {
       "id": "barota",
@@ -446,7 +446,7 @@
         "twelve things"
       ],
       "pos": "number",
-      "lesson": "u05-l04"
+      "lesson": "u05-l05"
     },
     {
       "id": "shomoy",
@@ -454,7 +454,7 @@
       "tr": "shomoy",
       "en": "time",
       "pos": "noun",
-      "lesson": "u05-l04"
+      "lesson": "u05-l05"
     },
     {
       "id": "ghonta",
@@ -466,7 +466,7 @@
         "bell"
       ],
       "pos": "noun",
-      "lesson": "u05-l04"
+      "lesson": "u05-l05"
     },
     {
       "id": "minit",
@@ -477,7 +477,7 @@
         "minutes"
       ],
       "pos": "noun",
-      "lesson": "u05-l04"
+      "lesson": "u05-l05"
     },
     {
       "id": "share",
@@ -489,7 +489,7 @@
         "and a half"
       ],
       "pos": "number",
-      "lesson": "u05-l05",
+      "lesson": "u05-l06",
       "notes": "সাড়ে তিনটা = 3:30; সাড়ে তিন = 3½. Not used with 1 or 2."
     },
     {
@@ -502,7 +502,7 @@
         "one-and-a-half"
       ],
       "pos": "number",
-      "lesson": "u05-l05"
+      "lesson": "u05-l06"
     },
     {
       "id": "derta",
@@ -514,7 +514,7 @@
         "one thirty"
       ],
       "pos": "number",
-      "lesson": "u05-l05"
+      "lesson": "u05-l06"
     },
     {
       "id": "arai",
@@ -526,7 +526,7 @@
         "two-and-a-half"
       ],
       "pos": "number",
-      "lesson": "u05-l05"
+      "lesson": "u05-l06"
     },
     {
       "id": "araita",
@@ -538,7 +538,7 @@
         "two thirty"
       ],
       "pos": "number",
-      "lesson": "u05-l05"
+      "lesson": "u05-l06"
     },
     {
       "id": "shoya",
@@ -550,7 +550,7 @@
         "a quarter past"
       ],
       "pos": "number",
-      "lesson": "u05-l05"
+      "lesson": "u05-l06"
     },
     {
       "id": "poune",
@@ -562,7 +562,7 @@
         "less a quarter"
       ],
       "pos": "number",
-      "lesson": "u05-l05"
+      "lesson": "u05-l06"
     },
     {
       "id": "shokal",
@@ -570,7 +570,7 @@
       "tr": "shokal",
       "en": "morning",
       "pos": "noun",
-      "lesson": "u05-l06"
+      "lesson": "u05-l07"
     },
     {
       "id": "dupur",
@@ -582,7 +582,7 @@
         "early afternoon"
       ],
       "pos": "noun",
-      "lesson": "u05-l06"
+      "lesson": "u05-l07"
     },
     {
       "id": "bikal",
@@ -593,7 +593,7 @@
         "late afternoon"
       ],
       "pos": "noun",
-      "lesson": "u05-l06",
+      "lesson": "u05-l07",
       "notes": "Kolkata: বিকেল (bikel).",
       "kolkata": {
         "bn": "বিকেল",
@@ -609,7 +609,7 @@
         "dusk"
       ],
       "pos": "noun",
-      "lesson": "u05-l06",
+      "lesson": "u05-l07",
       "notes": "From sunset until about 8 p.m."
     },
     {
@@ -618,7 +618,7 @@
       "tr": "rat",
       "en": "night",
       "pos": "noun",
-      "lesson": "u05-l06"
+      "lesson": "u05-l07"
     },
     {
       "id": "shokale",
@@ -626,7 +626,7 @@
       "tr": "shokale",
       "en": "in the morning",
       "pos": "adv",
-      "lesson": "u05-l06"
+      "lesson": "u05-l07"
     },
     {
       "id": "dupure",
@@ -639,7 +639,7 @@
         "for lunch"
       ],
       "pos": "adv",
-      "lesson": "u05-l06"
+      "lesson": "u05-l07"
     },
     {
       "id": "bikale",
@@ -647,7 +647,7 @@
       "tr": "bikale",
       "en": "in the afternoon",
       "pos": "adv",
-      "lesson": "u05-l06",
+      "lesson": "u05-l07",
       "kolkata": {
         "bn": "বিকেলে",
         "tr": "bikele"
@@ -659,7 +659,7 @@
       "tr": "shondhay",
       "en": "in the evening",
       "pos": "adv",
-      "lesson": "u05-l06"
+      "lesson": "u05-l07"
     },
     {
       "id": "rate",
@@ -671,7 +671,7 @@
         "tonight"
       ],
       "pos": "adv",
-      "lesson": "u05-l06"
+      "lesson": "u05-l07"
     },
     {
       "id": "aj",
@@ -679,7 +679,7 @@
       "tr": "aj",
       "en": "today",
       "pos": "adv",
-      "lesson": "u05-l07"
+      "lesson": "u05-l08"
     },
     {
       "id": "kal",
@@ -691,7 +691,7 @@
         "yesterday"
       ],
       "pos": "adv",
-      "lesson": "u05-l07",
+      "lesson": "u05-l08",
       "notes": "Tense tells you which. To be explicit: আগামীকাল (agamikal) tomorrow, গতকাল (gotokal) yesterday."
     },
     {
@@ -703,7 +703,7 @@
         "day"
       ],
       "pos": "noun",
-      "lesson": "u05-l07",
+      "lesson": "u05-l08",
       "notes": "আজ কী বার? = 'What day is it today?'"
     },
     {
@@ -715,7 +715,7 @@
         "days"
       ],
       "pos": "noun",
-      "lesson": "u05-l07"
+      "lesson": "u05-l08"
     },
     {
       "id": "shoptahe",
@@ -728,7 +728,7 @@
         "in one week"
       ],
       "pos": "adv",
-      "lesson": "u05-l07",
+      "lesson": "u05-l08",
       "notes": "সপ্তাহ (shoptaho) 'week' + -এ."
     },
     {
@@ -737,7 +737,7 @@
       "tr": "robibar",
       "en": "Sunday",
       "pos": "noun",
-      "lesson": "u05-l07",
+      "lesson": "u05-l08",
       "notes": "Also রোববার (robbar) in speech."
     },
     {
@@ -746,7 +746,7 @@
       "tr": "shombar",
       "en": "Monday",
       "pos": "noun",
-      "lesson": "u05-l07"
+      "lesson": "u05-l08"
     },
     {
       "id": "monggolbar",
@@ -754,7 +754,7 @@
       "tr": "monggolbar",
       "en": "Tuesday",
       "pos": "noun",
-      "lesson": "u05-l07"
+      "lesson": "u05-l08"
     },
     {
       "id": "budhbar",
@@ -762,7 +762,7 @@
       "tr": "budhbar",
       "en": "Wednesday",
       "pos": "noun",
-      "lesson": "u05-l07"
+      "lesson": "u05-l08"
     },
     {
       "id": "brihoshpotibar",
@@ -770,7 +770,7 @@
       "tr": "brihoshpotibar",
       "en": "Thursday",
       "pos": "noun",
-      "lesson": "u05-l07",
+      "lesson": "u05-l08",
       "notes": "Often shortened to বিষ্যুদবার (bishshudbar) in speech."
     },
     {
@@ -779,7 +779,7 @@
       "tr": "shukrobar",
       "en": "Friday",
       "pos": "noun",
-      "lesson": "u05-l07",
+      "lesson": "u05-l08",
       "notes": "Weekly holiday in Bangladesh; Jumma prayer day."
     },
     {
@@ -788,7 +788,7 @@
       "tr": "shonibar",
       "en": "Saturday",
       "pos": "noun",
-      "lesson": "u05-l07"
+      "lesson": "u05-l08"
     },
     {
       "id": "bochhor",
@@ -799,7 +799,7 @@
         "years"
       ],
       "pos": "noun",
-      "lesson": "u05-l08",
+      "lesson": "u05-l09",
       "notes": "আমার বয়স বিশ বছর = 'I am twenty years old'."
     },
     {
@@ -813,7 +813,7 @@
         "in one year"
       ],
       "pos": "adv",
-      "lesson": "u05-l08"
+      "lesson": "u05-l09"
     },
     {
       "id": "mash",
@@ -824,7 +824,7 @@
         "months"
       ],
       "pos": "noun",
-      "lesson": "u05-l08"
+      "lesson": "u05-l09"
     },
     {
       "id": "prothom",
@@ -835,7 +835,7 @@
         "1st"
       ],
       "pos": "adj",
-      "lesson": "u05-l08"
+      "lesson": "u05-l09"
     }
   ]
 }

@@ -103,7 +103,7 @@
     },
     {
       "id": "u05-l02",
-      "title": "11–20 & numerals",
+      "title": "11 to 20",
       "goal": "Count 11–20, give your age, and read the digits ০–৯.",
       "grammar": [
         "11–20 are individually irregular",
@@ -121,17 +121,7 @@
         "atharo",
         "unish",
         "bish",
-        "boyosh",
-        "shunno-digit",
-        "ek-digit",
-        "dui-digit",
-        "tin-digit",
-        "char-digit",
-        "pach-digit",
-        "chhoy-digit",
-        "shat-digit",
-        "at-digit",
-        "noy-digit"
+        "boyosh"
       ],
       "review": [
         "amar",
@@ -221,6 +211,41 @@
     },
     {
       "id": "u05-l03",
+      "title": "Bengali digits ০–৯",
+      "goal": "Read and recognise the ten Bengali digits.",
+      "grammar": [
+        "Bengali digits work exactly like 0–9: ২০ = 20, ১০০ = 100"
+      ],
+      "new": [
+        "shunno-digit",
+        "ek-digit",
+        "dui-digit",
+        "tin-digit",
+        "char-digit",
+        "pach-digit",
+        "chhoy-digit",
+        "shat-digit",
+        "at-digit",
+        "noy-digit"
+      ],
+      "review": [
+        "ek",
+        "dui",
+        "tin",
+        "char",
+        "pach",
+        "chhoy",
+        "shat-seven",
+        "at",
+        "noy-nine",
+        "dosh",
+        "duita"
+      ],
+      "tip": "Bengali has its own digits, used on prices, clocks, buses and calendars in Bangladesh.\n\n- **০ ১ ২ ৩ ৪ ৫ ৬ ৭ ৮ ৯** = 0 1 2 3 4 5 6 7 8 9\n- They combine just like ours: **২০** is 20, **১২৫** is 125.\n\nWatch the look-alikes: **৪** (4) resembles the number 8, and **৭** (7) resembles a tick. **৯** (9) looks like the letter ৯, not like our 9.",
+      "sentences": []
+    },
+    {
+      "id": "u05-l04",
       "title": "Tens to 100",
       "goal": "Count in tens to 100 and say 'a thousand'.",
       "grammar": [
@@ -326,7 +351,7 @@
       ]
     },
     {
-      "id": "u05-l04",
+      "id": "u05-l05",
       "title": "What time is it?",
       "goal": "Ask and tell the time on the hour; talk about hours and minutes.",
       "grammar": [
@@ -433,7 +458,7 @@
       ]
     },
     {
-      "id": "u05-l05",
+      "id": "u05-l06",
       "title": "Half past & quarter",
       "goal": "Tell half and quarter hours, including the special words for 1:30 and 2:30.",
       "grammar": [
@@ -535,7 +560,7 @@
       ]
     },
     {
-      "id": "u05-l06",
+      "id": "u05-l07",
       "title": "Morning, noon & night",
       "goal": "Name the parts of the day and say when you do things.",
       "grammar": [
@@ -655,7 +680,7 @@
       ]
     },
     {
-      "id": "u05-l07",
+      "id": "u05-l08",
       "title": "Days of the week",
       "goal": "Name the days, ask what day it is, and use আজ / কাল.",
       "grammar": [
@@ -751,7 +776,7 @@
       ]
     },
     {
-      "id": "u05-l08",
+      "id": "u05-l09",
       "title": "Review: numbers & time",
       "goal": "Combine numbers, time and days; talk about years and months.",
       "grammar": [
