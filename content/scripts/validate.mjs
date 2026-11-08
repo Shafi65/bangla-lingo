@@ -138,6 +138,13 @@ function checkExercise(where, ex) {
         if (i < 0) err(where, `answer tile "${a}" not in tiles`); else pool.splice(i, 1);
       }
       if (pool.length === 0) warn(where, "no distractor tiles");
+      if (ex.alt !== undefined) {
+        if (!Array.isArray(ex.alt) || !ex.alt.every(isStrArr)) err(where, "alt must be string[][]");
+        else for (const seq of ex.alt) {
+          const p2 = [...ex.tiles];
+          for (const a of seq) { const i = p2.indexOf(a); if (i < 0) { err(where, `alt tile "${a}" not in tiles`); break; } p2.splice(i, 1); }
+        }
+      }
       break;
     }
     case "match_pairs":

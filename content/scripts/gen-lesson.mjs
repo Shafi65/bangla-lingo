@@ -50,6 +50,16 @@ function distractorEntries(e, pool) {
   return same.length >= 3 ? same : ok;
 }
 
+/** Alternative tile sequences that can be formed from the given tiles (and differ from the answer). */
+function altSequences(tiles, seqs, answer) {
+  const key = (q) => q.join(" ").toLowerCase();
+  return seqs.filter((q) => {
+    if (key(q) === key(answer)) return false;
+    const pool = [...tiles];
+    return q.every((w) => { const i = pool.indexOf(w); if (i < 0) return false; pool.splice(i, 1); return true; });
+  });
+}
+
 const ex = [];
 const add = (o) => ex.push({ id: `e${String(ex.length + 1).padStart(2, "0")}`, ...o });
 
@@ -106,7 +116,9 @@ S.forEach((s, i) => {
     // never offer a distractor that would form another accepted translation (He/She, I'm/I am…)
     const lower = new Set([s.en, ...(s.alt ?? [])].flatMap(enTiles).map((w) => w.toLowerCase()));
     const distract = pick(enWordPool.filter((w) => !lower.has(w.toLowerCase())), 3);
-    add({ type: "word_bank", prompt, direction: "bn_to_en", tiles: shuffle([...answer, ...distract], rand), answer });
+    const tiles = shuffle([...answer, ...distract], rand);
+    const alt = altSequences(tiles, (s.alt ?? []).map(enTiles), answer);
+    add({ type: "word_bank", prompt, direction: "bn_to_en", tiles, answer, ...(alt.length ? { alt } : {}) });
   } else if (kind === "word_bank_en") {
     const answer = tokenize(s.bn);
     const distract = pick(bnWordPool.filter((w) => !answer.includes(w)), 3);

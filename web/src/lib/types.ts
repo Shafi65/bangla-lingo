@@ -47,6 +47,8 @@ export interface WordBankExercise extends ExerciseBase {
   direction: Direction;
   tiles: string[];
   answer: string[];
+  /** Other correct tile sequences (e.g. "She is my teacher" for উনি আমার শিক্ষক). */
+  alt?: string[][];
 }
 
 export interface MatchPairsExercise extends ExerciseBase {

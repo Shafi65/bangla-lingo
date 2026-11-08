@@ -10,7 +10,7 @@ Goal: an English speaker can read `tr` aloud and come close. This is **not** ISO
 | ই / ঈ | ি / ী | i | "ee" in *see* (no length difference in speech) |
 | উ / ঊ | ু / ূ | u | "oo" in *food* |
 | ঋ | ৃ | ri | "ri" in *rip* |
-| এ | ে | e | "e" in *bed* or "ay" in *say* |
+| এ | ে | e | "e" in *bed*, "ay" in *say*, or "a" in *cat* (এক, এখন) — audio tells them apart |
 | ঐ | ৈ | oi | "oy" in *boy* |
 | ও | ো | o | "o" in *go* |
 | ঔ | ৌ | ou | "ow" in *low* |

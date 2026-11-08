@@ -35,9 +35,8 @@ export function checkResponse(ex: Exercise, r: Response): boolean {
     case "word_bank":
       return (
         r.kind === "tiles" &&
-        answersMatch(
-          r.value.map((i) => ex.tiles[i]).join(" "),
-          ex.answer.join(" "),
+        [ex.answer, ...(ex.alt ?? [])].some((seq) =>
+          answersMatch(r.value.map((i) => ex.tiles[i]).join(" "), seq.join(" ")),
         )
       );
     case "type_translation":
