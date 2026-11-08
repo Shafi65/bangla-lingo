@@ -1,6 +1,6 @@
 # BanglaLingo 🇧🇩
 
-A free, Duolingo-style app for English speakers learning Bengali (বাংলা): bite-sized lessons, spoken audio, and a dedicated track for reading the Bengali script.
+A free, gamified course for English speakers learning Bengali (বাংলা): bite-sized lessons, spoken audio, and a dedicated track for reading the Bengali script.
 
 **Features:** course map with interleaved vocabulary and alphabet units · six exercise types (multiple choice, word bank, matching, listening, typing, letter recognition) · hearts, XP, streaks and a daily goal · practice mode · "My words" list · transliteration that can fade out as you learn the script · installable on phones.
 
