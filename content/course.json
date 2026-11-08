@@ -121,7 +121,13 @@
       "title": "Script: Conjuncts",
       "description": "Read joined letters like ক্ষ, ন্ত, স্ত",
       "track": "script",
-      "lessons": []
+      "lessons": [
+        "s04-l01",
+        "s04-l02",
+        "s04-l03",
+        "s04-l04",
+        "s04-l05"
+      ]
     },
     {
       "id": "u06-bazaar",

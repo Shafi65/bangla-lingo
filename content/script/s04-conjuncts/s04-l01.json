@@ -1,0 +1,295 @@
+{
+  "id": "s04-l01",
+  "unit": "s04-conjuncts",
+  "title": "Conjuncts 1: see-through stacks",
+  "status": "draft",
+  "tip": "**Sometimes two consonants have no vowel between them.** Bengali then joins them into one block, a **conjunct (যুক্তবর্ণ juktoborno)**. The invisible glue is **্ (hoshonto)**, which removes the inherent `o`: ক is `ko`, ক্ is just `k`.\n\nToday's conjuncts are 'see-through': you can still spot both letters. **ন্ত** (n+t), **স্ত** (s+t: রাস্তা `rasta`), **ন্দ** (n+d: মন্দির `mondir`), **ন্ধ** (n+dh: বন্ধু `bondhu`), **স্ক** (s+k: স্কুল `skul`, নমস্কার `nomoshkar`).\n\n**Read the first part, then the second.** The first letter is usually squeezed or on the left; the second sits below or to the right.\n\n**After a final conjunct the `o` usually comes back**: শান্ত is `shanto`, not *shant*.",
+  "vocab": [
+    {
+      "id": "cj-hoshonto",
+      "bn": "ক্",
+      "tr": "k",
+      "en": "্ (hoshonto): kills the inherent vowel, so ক্ = just 'k'",
+      "notes": "Bare sign: ্ (U+09CD), name hoshonto (হসন্ত). Usually invisible: it is what joins letters into conjuncts. Shown on ক."
+    },
+    {
+      "id": "cj-nto",
+      "bn": "ন্ত",
+      "tr": "nto",
+      "en": "n + t (ন + ত)",
+      "notes": "ন U+09A8 + ্ U+09CD + ত U+09A4. Very common: পর্যন্ত, শান্ত."
+    },
+    {
+      "id": "cj-sto",
+      "bn": "স্ত",
+      "tr": "sto",
+      "en": "s + t (স + ত); স says 's' here",
+      "notes": "স U+09B8 + ্ + ত U+09A4. রাস্তা rasta; but নাস্তা is usually said nashta."
+    },
+    {
+      "id": "cj-ndo",
+      "bn": "ন্দ",
+      "tr": "ndo",
+      "en": "n + d (ন + দ)",
+      "notes": "ন + ্ + দ U+09A6. মন্দির mondir."
+    },
+    {
+      "id": "cj-ndho",
+      "bn": "ন্ধ",
+      "tr": "ndho",
+      "en": "n + dh (ন + ধ)",
+      "notes": "ন + ্ + ধ U+09A7. বন্ধু bondhu, সন্ধ্যা shondha."
+    },
+    {
+      "id": "cj-sko",
+      "bn": "স্ক",
+      "tr": "sko",
+      "en": "s/sh + k (স + ক)",
+      "notes": "স + ্ + ক U+0995. স্কুল skul; নমস্কার nomoshkar (said with sh)."
+    },
+    {
+      "id": "shanto",
+      "bn": "শান্ত",
+      "tr": "shanto",
+      "en": "calm / quiet",
+      "notes": "Also a common boy's name."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "script_recognize",
+      "glyph": "ক্",
+      "options": [
+        "shunno",
+        "k",
+        "do",
+        "koi"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e02",
+      "type": "script_recognize",
+      "glyph": "ন্ত",
+      "options": [
+        "nto",
+        "sko",
+        "ku",
+        "do"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e03",
+      "type": "script_recognize",
+      "glyph": "স্ত",
+      "options": [
+        "ri",
+        "ki",
+        "o",
+        "sto"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e04",
+      "type": "script_recognize",
+      "glyph": "ন্দ",
+      "options": [
+        "ndo",
+        "go",
+        "chhoy",
+        "ro"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e05",
+      "type": "script_recognize",
+      "glyph": "ন্ধ",
+      "options": [
+        "ndho",
+        "a~",
+        "ka",
+        "koi"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e06",
+      "type": "script_recognize",
+      "glyph": "স্ক",
+      "options": [
+        "ou",
+        "no",
+        "sko",
+        "bo"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e07",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "শান্ত",
+        "tr": "shanto",
+        "en": "calm / quiet"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "tasty",
+        "calm / quiet",
+        "Bangladeshi",
+        "sweet"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e08",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "রাস্তা",
+        "tr": "rasta",
+        "en": "road"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "mom",
+        "morning",
+        "road",
+        "room / house"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e09",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "মন্দির",
+        "tr": "mondir",
+        "en": "temple"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "temple",
+        "vegetables",
+        "drum (traditional)",
+        "hand"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e10",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "স্কুল",
+        "tr": "skul",
+        "en": "school"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "school",
+        "need",
+        "medicine (formal)",
+        "aunt (mama's wife)"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e11",
+      "type": "listen_select",
+      "audio": {
+        "bn": "ক্",
+        "tr": "k",
+        "en": "্ (hoshonto): kills the inherent vowel, so ক্ = just 'k'"
+      },
+      "options": [
+        "ঢ",
+        "কা",
+        "ক্",
+        "১"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e12",
+      "type": "listen_select",
+      "audio": {
+        "bn": "ন্ত",
+        "tr": "nto",
+        "en": "n + t (ন + ত)"
+      },
+      "options": [
+        "ঐ",
+        "ঃ",
+        "৪",
+        "ন্ত"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e13",
+      "type": "listen_select",
+      "audio": {
+        "bn": "স্ত",
+        "tr": "sto",
+        "en": "s + t (স + ত); স says 's' here"
+      },
+      "options": [
+        "ন্ত",
+        "ফ",
+        "স্ত",
+        "০"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e14",
+      "type": "listen_select",
+      "audio": {
+        "bn": "ন্দ",
+        "tr": "ndo",
+        "en": "n + d (ন + দ)"
+      },
+      "options": [
+        "কু",
+        "ন্দ",
+        "জ",
+        "ন্ত"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e15",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "স্ত",
+          "tr": "sto",
+          "en": "s + t (স + ত); স says 's' here"
+        },
+        {
+          "bn": "স্ক",
+          "tr": "sko",
+          "en": "s/sh + k (স + ক)"
+        },
+        {
+          "bn": "ন্ধ",
+          "tr": "ndho",
+          "en": "n + dh (ন + ধ)"
+        },
+        {
+          "bn": "শান্ত",
+          "tr": "shanto",
+          "en": "calm / quiet"
+        },
+        {
+          "bn": "ক্",
+          "tr": "k",
+          "en": "্ (hoshonto): kills the inherent vowel, so ক্ = just 'k'"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,255 @@
+{
+  "id": "s04-l05",
+  "unit": "s04-conjuncts",
+  "title": "Conjuncts review: real words",
+  "status": "draft",
+  "tip": "Time to read real signage-style words: **শিক্ষক, ধন্যবাদ, ছাত্র, নমস্কার, সন্ধ্যা, লুঙ্গি, শুভেচ্ছা**.\n\n**Stacks can stack.** স্ত্রী (`stri`, *wife*) is স + ত + র-ফলা + ী. ত্রিশ (`trish`, *thirty*) and শুক্রবার (`shukrobar`, *Friday*) use র-ফলা.\n\n**Routine**: spot opaque shapes first (ক্ষ, ক্ত, ঙ্গ, ঞ্চ), then split see-through stacks, then apply the ফলা rules (য-ফলা doubles, ব-ফলা is silent, র-ফলা adds r after, রেফ adds r before).\n\nFrom here on you can switch off transliteration in settings and read the main course in script.",
+  "vocab": [],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "লুঙ্গি",
+        "tr": "lunggi",
+        "en": "lungi"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "sugar",
+        "lungi",
+        "noon",
+        "day (of the week)"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "শুভেচ্ছা",
+        "tr": "shubhechchha",
+        "en": "greetings"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "noon",
+        "moon",
+        "storm",
+        "greetings"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "শুক্রবার",
+        "tr": "shukrobar",
+        "en": "Friday"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "aunt (mother's sister)",
+        "Friday",
+        "mother's",
+        "wife"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e04",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "শিক্ষক",
+        "tr": "shikkhok",
+        "en": "teacher"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "name",
+        "the banana",
+        "egg",
+        "teacher"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e05",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "সন্ধ্যা",
+        "tr": "shondha",
+        "en": "evening"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "grandmother (father's mother)",
+        "doctor",
+        "evening",
+        "fun; tasty"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e06",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "স্ত্রী",
+        "tr": "stri",
+        "en": "wife"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "wife",
+        "mom",
+        "heritage / tradition",
+        "problem"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e07",
+      "type": "script_recognize",
+      "glyph": "ত্র",
+      "options": [
+        "tro",
+        "po",
+        "bho",
+        "n"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e08",
+      "type": "script_recognize",
+      "glyph": "ন্য",
+      "options": [
+        "po",
+        "koi",
+        "nno",
+        "llo"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e09",
+      "type": "script_recognize",
+      "glyph": "ঙ্গ",
+      "options": [
+        "nggo",
+        "noy",
+        "mmo",
+        "po"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e10",
+      "type": "script_recognize",
+      "glyph": "চ্ছ",
+      "options": [
+        "kou",
+        "chchho",
+        "shat",
+        "rho"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e11",
+      "type": "listen_select",
+      "audio": {
+        "bn": "লুঙ্গি",
+        "tr": "lunggi",
+        "en": "lungi"
+      },
+      "options": [
+        "দাদা",
+        "সমস্যা",
+        "আন্টি",
+        "লুঙ্গি"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e12",
+      "type": "listen_select",
+      "audio": {
+        "bn": "শুভেচ্ছা",
+        "tr": "shubhechchha",
+        "en": "greetings"
+      },
+      "options": [
+        "দাদা",
+        "শুভেচ্ছা",
+        "বাচ্চা",
+        "বাঙালি"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e13",
+      "type": "listen_select",
+      "audio": {
+        "bn": "শুক্রবার",
+        "tr": "shukrobar",
+        "en": "Friday"
+      },
+      "options": [
+        "সোমবার",
+        "খালা",
+        "শুক্রবার",
+        "শিক্ষক"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e14",
+      "type": "listen_select",
+      "audio": {
+        "bn": "শিক্ষক",
+        "tr": "shikkhok",
+        "en": "teacher"
+      },
+      "options": [
+        "শিক্ষক",
+        "চোখ",
+        "চাচা",
+        "ঔষধ"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e15",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "ছাত্র",
+          "tr": "chhatro",
+          "en": "student (male)"
+        },
+        {
+          "bn": "স্ত",
+          "tr": "sto",
+          "en": "s + t (স + ত); স says 's' here"
+        },
+        {
+          "bn": "ঙ্গ",
+          "tr": "nggo",
+          "en": "ng + g (ঙ + গ), as in 'finger'"
+        },
+        {
+          "bn": "স্ক",
+          "tr": "sko",
+          "en": "s/sh + k (স + ক)"
+        },
+        {
+          "bn": "ক্ষ",
+          "tr": "kkho",
+          "en": "kkh / kh (ক + ষ), NOT 'ksh'"
+        }
+      ]
+    }
+  ]
+}

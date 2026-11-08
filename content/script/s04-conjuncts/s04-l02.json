@@ -1,0 +1,283 @@
+{
+  "id": "s04-l02",
+  "unit": "s04-conjuncts",
+  "title": "Conjuncts 2: doubled letters",
+  "status": "draft",
+  "tip": "When the same consonant is written twice, Bengali stacks it, and you **hold the sound longer**: আম্মু (`ammu`, *mom*) is *am-mu*, বাচ্চা (`bachcha`, *child*) is *bach-cha*.\n\n**ম্ম** and **ল্ল** look like two copies squeezed together (চল্লিশ `chollish`, *forty*). **ন্ন** stacks one ন on another (রান্না `ranna`, *cooking*). **চ্চ** puts a small চ on top of another.\n\n**চ্ছ** is চ + ছ, a held `ch` with a puff: শুভেচ্ছা (`shubhechchha`, *best wishes*).\n\nDoubling matters in Bengali; saying it short can sound like a different word or just 'foreign'. Clap twice for a double letter while you practise.",
+  "vocab": [
+    {
+      "id": "cj-mmo",
+      "bn": "ম্ম",
+      "tr": "mmo",
+      "en": "double m (ম + ম)",
+      "notes": "ম U+09AE + ্ + ম. আম্মু ammu. আব্বু uses the same idea with ব্ব."
+    },
+    {
+      "id": "cj-chcho",
+      "bn": "চ্চ",
+      "tr": "chcho",
+      "en": "double ch (চ + চ)",
+      "notes": "চ U+099A + ্ + চ. বাচ্চা bachcha."
+    },
+    {
+      "id": "cj-chchho",
+      "bn": "চ্ছ",
+      "tr": "chchho",
+      "en": "ch + chh (চ + ছ), a held, puffed ch",
+      "notes": "চ + ্ + ছ U+099B. শুভেচ্ছা shubhechchha; also in verb forms like করছি (said korchhi)."
+    },
+    {
+      "id": "cj-llo",
+      "bn": "ল্ল",
+      "tr": "llo",
+      "en": "double l (ল + ল)",
+      "notes": "ল U+09B2 + ্ + ল. চল্লিশ chollish; আলহামদুলিল্লাহ."
+    },
+    {
+      "id": "cj-nno",
+      "bn": "ন্ন",
+      "tr": "nno",
+      "en": "double n (ন + ন)",
+      "notes": "ন + ্ + ন. রান্না ranna. Sounds the same as য-ফলা on ন (ন্য in ধন্যবাদ), s04-l04: keep apart in listening tests."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "script_recognize",
+      "glyph": "ম্ম",
+      "options": [
+        "h",
+        "do",
+        "k",
+        "mmo"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e02",
+      "type": "script_recognize",
+      "glyph": "চ্চ",
+      "options": [
+        "shunno",
+        "chcho",
+        "bho",
+        "ku"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e03",
+      "type": "script_recognize",
+      "glyph": "চ্ছ",
+      "options": [
+        "nto",
+        "dho",
+        "rho",
+        "chchho"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e04",
+      "type": "script_recognize",
+      "glyph": "ল্ল",
+      "options": [
+        "llo",
+        "cho",
+        "ng",
+        "ho"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e05",
+      "type": "script_recognize",
+      "glyph": "ন্ন",
+      "options": [
+        "po",
+        "oi",
+        "nno",
+        "no"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e06",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "শুভেচ্ছা",
+        "tr": "shubhechchha",
+        "en": "greetings"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "brother",
+        "name",
+        "teacher",
+        "greetings"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e07",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "রান্না",
+        "tr": "ranna",
+        "en": "cooking"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "cooking",
+        "egg",
+        "minute",
+        "the banana"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e08",
+      "type": "listen_select",
+      "audio": {
+        "bn": "ম্ম",
+        "tr": "mmo",
+        "en": "double m (ম + ম)"
+      },
+      "options": [
+        "স্ত",
+        "ন্ত",
+        "ং",
+        "ম্ম"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e09",
+      "type": "listen_select",
+      "audio": {
+        "bn": "চ্চ",
+        "tr": "chcho",
+        "en": "double ch (চ + চ)"
+      },
+      "options": [
+        "থ",
+        "ঘ",
+        "চ্চ",
+        "ন্ন"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e10",
+      "type": "listen_select",
+      "audio": {
+        "bn": "চ্ছ",
+        "tr": "chchho",
+        "en": "ch + chh (চ + ছ), a held, puffed ch"
+      },
+      "options": [
+        "চ্ছ",
+        "২",
+        "ল্ল",
+        "ন্দ"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e11",
+      "type": "listen_select",
+      "audio": {
+        "bn": "ল্ল",
+        "tr": "llo",
+        "en": "double l (ল + ল)"
+      },
+      "options": [
+        "৯",
+        "স",
+        "ক্",
+        "ল্ল"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e12",
+      "type": "listen_select",
+      "audio": {
+        "bn": "ন্ন",
+        "tr": "nno",
+        "en": "double n (ন + ন)"
+      },
+      "options": [
+        "কু",
+        "ন্ন",
+        "চ",
+        "ন্দ"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e13",
+      "type": "listen_select",
+      "audio": {
+        "bn": "শুভেচ্ছা",
+        "tr": "shubhechchha",
+        "en": "greetings"
+      },
+      "options": [
+        "সময়",
+        "শুভেচ্ছা",
+        "বাবার",
+        "বছর"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e14",
+      "type": "listen_select",
+      "audio": {
+        "bn": "রান্না",
+        "tr": "ranna",
+        "en": "cooking"
+      },
+      "options": [
+        "বন্ধু",
+        "গরুর",
+        "রান্না",
+        "কলা"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e15",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "চ্চ",
+          "tr": "chcho",
+          "en": "double ch (চ + চ)"
+        },
+        {
+          "bn": "ল্ল",
+          "tr": "llo",
+          "en": "double l (ল + ল)"
+        },
+        {
+          "bn": "ম্ম",
+          "tr": "mmo",
+          "en": "double m (ম + ম)"
+        },
+        {
+          "bn": "ন্ন",
+          "tr": "nno",
+          "en": "double n (ন + ন)"
+        },
+        {
+          "bn": "চ্ছ",
+          "tr": "chchho",
+          "en": "ch + chh (চ + ছ), a held, puffed ch"
+        }
+      ]
+    }
+  ]
+}
