@@ -221,7 +221,7 @@
         "o-pron",
         "dim"
       ],
-      "tip": "Here's your first full verb. The stem is **খা-** (*kha-*), and the ending shows who:\n\n| | |\n|---|---|\n| আমি / আমরা | **খাই** (*khai*) |\n| তুই | **খাস** (*khash*) |\n| তুমি | **খাও** (*khao*) |\n| আপনি / তিনি / উনি | **খান** (*khan*) |\n| সে / ও / তারা | **খায়** (*khay*) |\n\nNotice again: polite forms end in **-ন**, and polite 'you' = polite 'he/she'.\n\nBengali **eats** drinks: **আমি পানি খাই** = 'I drink water', **চা খাই** = 'I drink tea'. (Even cigarettes are 'eaten'!)\n\nTo say 'don't', put **না** *after* the verb: **আমি মাংস খাই না** = 'I don't eat meat.' The word order is subject – object – verb: আমি ভাত খাই = 'I rice eat.'",
+      "tip": "Here's your first full verb. The stem is **খা-** (*kha-*), and the ending shows who:\n\n- আমি / আমরা → **খাই** (*khai*)\n- তুই / তোরা → **খাস** (*khash*)\n- তুমি / তোমরা → **খাও** (*khao*)\n- আপনি / তিনি / উনি → **খান** (*khan*)\n- সে / ও / তারা → **খায়** (*khay*)\n\nNotice again: polite forms end in **-ন**, and polite 'you' = polite 'he/she'. So **তিনি মাছ খান** (polite) but **সে মাছ খায়** (ordinary).\n\nBengali **eats** drinks: **আমি পানি খাই** = 'I drink water', **চা খাই** = 'I drink tea'. (Even cigarettes are 'eaten'!)\n\nTo say 'don't', put **না** *after* the verb: **আমি মাংস খাই না** = 'I don't eat meat.' (Not নেই — that's 'there isn't'.) The word order is subject – object – verb: আমি ভাত খাই = 'I rice eat.'",
       "sentences": [
         {
           "bn": "আমি ভাত খাই।",
@@ -540,7 +540,7 @@
         "khabar",
         "na"
       ],
-      "tip": "To say 'I like X', Bengali turns the sentence around: **আমার মাছ পছন্দ** — literally 'to me, fish (is a) liking'. The person who likes goes in the **-র** form (আমার, তোমার, আপনার…). No verb needed!\n\nThe other way is **ভালো লাগে** 'feels good': **আমার ভাত ভালো লাগে** = 'I like rice.' Negative: **আমার ঝাল পছন্দ না**.\n\nHunger works the same way: **আমার ক্ষুধা লেগেছে** — 'to me, hunger has struck' = 'I'm hungry.' In casual Bangladeshi speech you'll hear **খিদা লাগছে**.\n\nTastes: **ঝাল** (spicy-hot), **মিষ্টি** (sweet — and 'sweets'!). Bengal is famous for its sweets: রসগোল্লা, চমচম, মিষ্টি দই (sweet yoghurt). **মজার** / **মজা** = tasty: **এটা মজার খাবার**.",
+      "tip": "To say 'I like X', Bengali turns the sentence around: **আমার মাছ পছন্দ** — literally 'to me, fish (is a) liking'. The person who likes goes in the **-র** form (**আমার**, **তোমার**, **আপনার**…), not আমি. No verb needed! Negative: **আমার ঝাল পছন্দ না**.\n\nThe other way is **ভালো লাগে** 'feels good': **আমার ভাত ভালো লাগে** = 'I like rice.' Asking politely: **আপনার কি ঝাল ভালো লাগে?**\n\nHunger works the same way: **আমার ক্ষুধা লেগেছে** — 'to me, hunger has struck' = 'I'm hungry.' In casual Bangladeshi speech you'll hear **খিদা লাগছে**.\n\nTastes: **ঝাল** (spicy-hot), **মিষ্টি** (sweet — and 'sweets'!). Bengal is famous for its sweets: রসগোল্লা, চমচম, মিষ্টি দই (sweet yoghurt). **মজার** = tasty: before a noun use **মজার** (**এটা মজার খাবার**); after it, colloquial Bangladeshi speech also says just **মজা**: **খাবার খুব মজা**.",
       "sentences": [
         {
           "bn": "আমার মাছ পছন্দ।",
@@ -726,10 +726,7 @@
         {
           "bn": "আমার ক্ষুধা লেগেছে, ভাত চাই।",
           "tr": "amar khudha legechhe, bhat chai.",
-          "en": "I'm hungry, I want rice.",
-          "alt": [
-            "I'm hungry, I want some food."
-          ]
+          "en": "I'm hungry, I want rice."
         },
         {
           "bn": "চা খারাপ না, কিন্তু খুব মিষ্টি।",

@@ -62,12 +62,12 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "auntie (address)",
-        "vegetables",
-        "the banana",
-        "banana"
+        "mango",
+        "fruit",
+        "banana",
+        "egg"
       ],
-      "answer": 3
+      "answer": 2
     },
     {
       "id": "e02",
@@ -79,12 +79,12 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "tea",
         "fruit",
-        "aunt (mother's sister)",
-        "cow's"
+        "vegetables",
+        "banana",
+        "food"
       ],
-      "answer": 1
+      "answer": 0
     },
     {
       "id": "e03",
@@ -96,12 +96,12 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "food",
-        "country",
+        "the mangoes",
         "the mango",
-        "English (language)"
+        "the banana",
+        "a mango"
       ],
-      "answer": 2
+      "answer": 1
     },
     {
       "id": "e04",
@@ -113,29 +113,28 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "grandfather (father's father)",
-        "the mangoes",
-        "water",
-        "uncle (father's brother)"
+        "the mango",
+        "the bananas",
+        "a mango",
+        "the mangoes"
       ],
-      "answer": 1
+      "answer": 3
     },
     {
       "id": "e05",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "কলাটা",
-        "tr": "kolata",
-        "en": "the banana"
+      "type": "listen_select",
+      "audio": {
+        "bn": "কলা",
+        "tr": "kola",
+        "en": "banana"
       },
-      "direction": "bn_to_en",
       "options": [
-        "aunt (mother's sister)",
-        "dad",
-        "auntie (address)",
-        "the banana"
+        "কলাটা",
+        "কলা",
+        "আমটা",
+        "ফল"
       ],
-      "answer": 3
+      "answer": 1
     },
     {
       "id": "e06",
@@ -147,12 +146,12 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "student (female)",
-        "father",
         "the bananas",
-        "boy"
+        "the banana",
+        "a banana",
+        "the mangoes"
       ],
-      "answer": 2
+      "answer": 0
     },
     {
       "id": "e07",
@@ -164,12 +163,12 @@
       },
       "direction": "bn_to_en",
       "options": [
+        "how many (people)",
         "one; a (formal)",
-        "one; a",
-        "one (person)",
-        "two (people)"
+        "two (people)",
+        "the bananas"
       ],
-      "answer": 0
+      "answer": 1
     },
     {
       "id": "e08",
@@ -206,27 +205,33 @@
       "id": "e09",
       "type": "word_bank",
       "prompt": {
-        "bn": "আমটা খুব ভালো।",
-        "tr": "amta khub bhalo.",
-        "en": "The mango is very good."
+        "bn": "আমি একটা আম চাই।",
+        "tr": "ami ekta am chai.",
+        "en": "I want a mango."
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "tiles": [
-        "fruit",
-        "very",
-        "mango",
-        "The",
-        "America",
-        "is",
-        "good",
-        "mother's"
+        "আমি",
+        "একটা",
+        "আম",
+        "চাই",
+        "আমটা",
+        "একটি",
+        "খাই"
       ],
       "answer": [
-        "The",
-        "mango",
-        "is",
-        "very",
-        "good"
+        "আমি",
+        "একটা",
+        "আম",
+        "চাই"
+      ],
+      "alt": [
+        [
+          "আমি",
+          "একটি",
+          "আম",
+          "চাই"
+        ]
       ]
     },
     {
@@ -239,21 +244,45 @@
       },
       "direction": "en_to_bn",
       "tiles": [
-        "সবজি",
-        "তারা",
         "কলাগুলো",
-        "আছে",
         "এখানে",
-        "ছাত্রী"
+        "আছে",
+        "কলাটা",
+        "আমগুলো",
+        "নেই"
       ],
       "answer": [
         "কলাগুলো",
         "এখানে",
         "আছে"
+      ],
+      "alt": [
+        [
+          "এখানে",
+          "কলাগুলো",
+          "আছে"
+        ]
       ]
     },
     {
       "id": "e11",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আমটা খুব ভালো।",
+        "tr": "amta khub bhalo.",
+        "en": "The mango is very good."
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "আমগুলো খুব ভালো।",
+        "কলাটা খুব ভালো।",
+        "আমটা খুব ভালো।",
+        "একটা আম খুব ভালো।"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e12",
       "type": "word_bank",
       "prompt": {
         "bn": "এখানে একটি আম আছে।",
@@ -263,13 +292,13 @@
       "direction": "bn_to_en",
       "tiles": [
         "There",
-        "without",
-        "here",
-        "a",
-        "vegetables",
-        "mango",
         "is",
-        "lentils"
+        "a",
+        "mango",
+        "here",
+        "the",
+        "mangoes",
+        "are"
       ],
       "answer": [
         "There",
@@ -277,19 +306,20 @@
         "a",
         "mango",
         "here"
-      ]
-    },
-    {
-      "id": "e12",
-      "type": "type_translation",
-      "prompt": {
-        "bn": "কলাটা আমার।",
-        "tr": "kolata amar.",
-        "en": "The banana is mine."
-      },
-      "direction": "bn_to_en",
-      "accepted": [
-        "The banana is mine."
+      ],
+      "alt": [
+        [
+          "here",
+          "is",
+          "a",
+          "mango"
+        ],
+        [
+          "a",
+          "mango",
+          "is",
+          "here"
+        ]
       ]
     },
     {
@@ -298,17 +328,17 @@
       "prompt": {
         "bn": "আপনি কী ফল খান?",
         "tr": "apni ki fol khan?",
-        "en": "What fruit do you eat?"
+        "en": "What fruit do you eat? (polite)"
       },
       "direction": "en_to_bn",
       "tiles": [
-        "এটা",
-        "খান",
-        "ফল",
         "আপনি",
         "কী",
-        "আপনার",
-        "তার"
+        "ফল",
+        "খান",
+        "খাও",
+        "কলা",
+        "তুমি"
       ],
       "answer": [
         "আপনি",
@@ -327,12 +357,29 @@
       },
       "direction": "en_to_bn",
       "options": [
-        "মামা আমার মায়ের ভাই।",
-        "আপু, তুমি কোথায়?",
-        "উনি আমার স্বামী।",
-        "আমগুলো কোথায়?"
+        "আমটা কোথায়?",
+        "কলাগুলো কোথায়?",
+        "আমগুলো কোথায়?",
+        "একটা আম কোথায়?"
       ],
-      "answer": 3
+      "answer": 2
+    },
+    {
+      "id": "e15",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "কলাটা আমার।",
+        "tr": "kolata amar.",
+        "en": "The banana is mine."
+      },
+      "direction": "bn_to_en",
+      "accepted": [
+        "The banana is mine.",
+        "That banana is mine.",
+        "This banana is mine.",
+        "The banana's mine.",
+        "That banana's mine."
+      ]
     }
   ]
 }

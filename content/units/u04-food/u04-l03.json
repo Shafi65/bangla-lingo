@@ -3,7 +3,7 @@
   "unit": "u04-food",
   "title": "I eat, you eat",
   "status": "draft",
-  "tip": "Here's your first full verb. The stem is **খা-** (*kha-*), and the ending shows who:\n\n| | |\n|---|---|\n| আমি / আমরা | **খাই** (*khai*) |\n| তুই | **খাস** (*khash*) |\n| তুমি | **খাও** (*khao*) |\n| আপনি / তিনি / উনি | **খান** (*khan*) |\n| সে / ও / তারা | **খায়** (*khay*) |\n\nNotice again: polite forms end in **-ন**, and polite 'you' = polite 'he/she'.\n\nBengali **eats** drinks: **আমি পানি খাই** = 'I drink water', **চা খাই** = 'I drink tea'. (Even cigarettes are 'eaten'!)\n\nTo say 'don't', put **না** *after* the verb: **আমি মাংস খাই না** = 'I don't eat meat.' The word order is subject – object – verb: আমি ভাত খাই = 'I rice eat.'",
+  "tip": "Here's your first full verb. The stem is **খা-** (*kha-*), and the ending shows who:\n\n- আমি / আমরা → **খাই** (*khai*)\n- তুই / তোরা → **খাস** (*khash*)\n- তুমি / তোমরা → **খাও** (*khao*)\n- আপনি / তিনি / উনি → **খান** (*khan*)\n- সে / ও / তারা → **খায়** (*khay*)\n\nNotice again: polite forms end in **-ন**, and polite 'you' = polite 'he/she'. So **তিনি মাছ খান** (polite) but **সে মাছ খায়** (ordinary).\n\nBengali **eats** drinks: **আমি পানি খাই** = 'I drink water', **চা খাই** = 'I drink tea'. (Even cigarettes are 'eaten'!)\n\nTo say 'don't', put **না** *after* the verb: **আমি মাংস খাই না** = 'I don't eat meat.' (Not নেই — that's 'there isn't'.) The word order is subject – object – verb: আমি ভাত খাই = 'I rice eat.'",
   "vocab": [
     {
       "id": "khai",
@@ -65,29 +65,28 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "are (polite)",
-        "(you, polite) have come",
         "(I/we) eat",
+        "(he/she/they) eats",
+        "(you, familiar) eat",
         "am"
       ],
-      "answer": 2
+      "answer": 0
     },
     {
       "id": "e02",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "খাস",
         "tr": "khash",
         "en": "(you, intimate) eat"
       },
-      "direction": "bn_to_en",
       "options": [
-        "are (intimate)",
-        "is not (here); there isn't",
-        "(you, familiar) eat",
-        "(you, intimate) eat"
+        "খাও",
+        "খাস",
+        "খান",
+        "খায়"
       ],
-      "answer": 3
+      "answer": 1
     },
     {
       "id": "e03",
@@ -99,12 +98,12 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "(you, polite) know",
-        "(you, familiar) eat",
-        "am not",
-        "(I) have come"
+        "(you/he/she, polite) eat",
+        "(you, intimate) eat",
+        "(I/we) eat",
+        "(you, familiar) eat"
       ],
-      "answer": 1
+      "answer": 3
     },
     {
       "id": "e04",
@@ -116,27 +115,26 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "is not",
+        "(you, familiar) eat",
         "(you/he/she, polite) eat",
-        "is not / are not (polite)",
-        "(you, polite) know"
+        "(he/she/they) eats",
+        "(you, intimate) eat"
       ],
       "answer": 1
     },
     {
       "id": "e05",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "খায়",
         "tr": "khay",
         "en": "(he/she/they) eats"
       },
-      "direction": "bn_to_en",
       "options": [
-        "am",
-        "(I) know",
-        "(he/she/they) eats",
-        "are (familiar)"
+        "খান",
+        "খাও",
+        "খায়",
+        "খাস"
       ],
       "answer": 2
     },
@@ -150,10 +148,10 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "country",
+        "rice",
         "flatbread",
-        "elder sister",
-        "cup"
+        "breakfast",
+        "lentils"
       ],
       "answer": 1
     },
@@ -167,12 +165,12 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "English (language)",
-        "breakfast",
-        "elder sister",
-        "food"
+        "lunch",
+        "flatbread",
+        "tea",
+        "breakfast"
       ],
-      "answer": 1
+      "answer": 3
     },
     {
       "id": "e08",
@@ -207,26 +205,20 @@
     },
     {
       "id": "e09",
-      "type": "word_bank",
+      "type": "select_translation",
       "prompt": {
-        "bn": "তিনি মাছ খান।",
-        "tr": "tini machh khan.",
-        "en": "He eats fish."
+        "bn": "আপনি কি চা খান?",
+        "tr": "apni ki cha khan?",
+        "en": "Do you drink tea? (polite)"
       },
-      "direction": "bn_to_en",
-      "tiles": [
-        "am",
-        "He",
-        "eats",
-        "fish",
-        "girl",
-        "they"
+      "direction": "en_to_bn",
+      "options": [
+        "তুমি কি চা খাও?",
+        "আপনি কি চা খাও?",
+        "আপনি কি পানি খান?",
+        "আপনি কি চা খান?"
       ],
-      "answer": [
-        "He",
-        "eats",
-        "fish"
-      ]
+      "answer": 3
     },
     {
       "id": "e10",
@@ -239,11 +231,11 @@
       "direction": "en_to_bn",
       "tiles": [
         "আমি",
-        "স্ত্রী",
-        "খাস",
-        "আমাদের",
         "ভাত",
-        "খাই"
+        "খাই",
+        "খায়",
+        "খাও",
+        "রুটি"
       ],
       "answer": [
         "আমি",
@@ -255,18 +247,41 @@
       "id": "e11",
       "type": "word_bank",
       "prompt": {
+        "bn": "তিনি মাছ খান।",
+        "tr": "tini machh khan.",
+        "en": "He eats fish. (polite)"
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "তিনি",
+        "মাছ",
+        "খান",
+        "খায়",
+        "খাই",
+        "মাংস"
+      ],
+      "answer": [
+        "তিনি",
+        "মাছ",
+        "খান"
+      ]
+    },
+    {
+      "id": "e12",
+      "type": "word_bank",
+      "prompt": {
         "bn": "আমরা নাস্তা খাই।",
         "tr": "amra nashta khai.",
         "en": "We eat breakfast."
       },
       "direction": "bn_to_en",
       "tiles": [
-        "everyone",
-        "my",
+        "We",
         "eat",
         "breakfast",
-        "OK",
-        "We"
+        "eats",
+        "They",
+        "lunch"
       ],
       "answer": [
         "We",
@@ -275,7 +290,56 @@
       ]
     },
     {
-      "id": "e12",
+      "id": "e13",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "ও ডিম খায় না।",
+        "tr": "o dim khay na.",
+        "en": "She doesn't eat eggs."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "She",
+        "doesn't",
+        "eat",
+        "eggs",
+        "I",
+        "don't",
+        "fish"
+      ],
+      "answer": [
+        "She",
+        "doesn't",
+        "eat",
+        "eggs"
+      ]
+    },
+    {
+      "id": "e14",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমি মাংস খাই না।",
+        "tr": "ami mangsho khai na.",
+        "en": "I don't eat meat."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "আমি",
+        "মাংস",
+        "খাই",
+        "না",
+        "খায়",
+        "নেই"
+      ],
+      "answer": [
+        "আমি",
+        "মাংস",
+        "খাই",
+        "না"
+      ]
+    },
+    {
+      "id": "e15",
       "type": "type_translation",
       "prompt": {
         "bn": "সে রুটি খায়।",
@@ -287,48 +351,14 @@
         "He eats roti.",
         "She eats roti.",
         "He eats bread.",
-        "She eats flatbread."
+        "She eats bread.",
+        "He eats flatbread.",
+        "She eats flatbread.",
+        "He eats chapati.",
+        "She eats chapati.",
+        "He eats rotis.",
+        "She eats rotis."
       ]
-    },
-    {
-      "id": "e13",
-      "type": "word_bank",
-      "prompt": {
-        "bn": "আপনি কী খান?",
-        "tr": "apni ki khan?",
-        "en": "What do you eat?"
-      },
-      "direction": "en_to_bn",
-      "tiles": [
-        "কী",
-        "খান",
-        "বাচ্চা",
-        "কাপ",
-        "আপনি",
-        "ছাড়া"
-      ],
-      "answer": [
-        "আপনি",
-        "কী",
-        "খান"
-      ]
-    },
-    {
-      "id": "e14",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "তুমি কী খাও?",
-        "tr": "tumi ki khao?",
-        "en": "What do you eat?"
-      },
-      "direction": "en_to_bn",
-      "options": [
-        "সবাই কেমন আছে?",
-        "তুমি কী খাও?",
-        "উনি কে?",
-        "আপনার দেশ কোথায়?"
-      ],
-      "answer": 1
     }
   ]
 }

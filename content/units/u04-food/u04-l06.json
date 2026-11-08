@@ -3,7 +3,7 @@
   "unit": "u04-food",
   "title": "Tastes & likes",
   "status": "draft",
-  "tip": "To say 'I like X', Bengali turns the sentence around: **আমার মাছ পছন্দ** — literally 'to me, fish (is a) liking'. The person who likes goes in the **-র** form (আমার, তোমার, আপনার…). No verb needed!\n\nThe other way is **ভালো লাগে** 'feels good': **আমার ভাত ভালো লাগে** = 'I like rice.' Negative: **আমার ঝাল পছন্দ না**.\n\nHunger works the same way: **আমার ক্ষুধা লেগেছে** — 'to me, hunger has struck' = 'I'm hungry.' In casual Bangladeshi speech you'll hear **খিদা লাগছে**.\n\nTastes: **ঝাল** (spicy-hot), **মিষ্টি** (sweet — and 'sweets'!). Bengal is famous for its sweets: রসগোল্লা, চমচম, মিষ্টি দই (sweet yoghurt). **মজার** / **মজা** = tasty: **এটা মজার খাবার**.",
+  "tip": "To say 'I like X', Bengali turns the sentence around: **আমার মাছ পছন্দ** — literally 'to me, fish (is a) liking'. The person who likes goes in the **-র** form (**আমার**, **তোমার**, **আপনার**…), not আমি. No verb needed! Negative: **আমার ঝাল পছন্দ না**.\n\nThe other way is **ভালো লাগে** 'feels good': **আমার ভাত ভালো লাগে** = 'I like rice.' Asking politely: **আপনার কি ঝাল ভালো লাগে?**\n\nHunger works the same way: **আমার ক্ষুধা লেগেছে** — 'to me, hunger has struck' = 'I'm hungry.' In casual Bangladeshi speech you'll hear **খিদা লাগছে**.\n\nTastes: **ঝাল** (spicy-hot), **মিষ্টি** (sweet — and 'sweets'!). Bengal is famous for its sweets: রসগোল্লা, চমচম, মিষ্টি দই (sweet yoghurt). **মজার** = tasty: before a noun use **মজার** (**এটা মজার খাবার**); after it, colloquial Bangladeshi speech also says just **মজা**: **খাবার খুব মজা**.",
   "vocab": [
     {
       "id": "pochhondo",
@@ -73,32 +73,15 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "grandfather (father's father)",
-        "cup",
-        "English (language)",
-        "liking"
+        "need",
+        "liking",
+        "hunger",
+        "problem"
       ],
-      "answer": 3
+      "answer": 1
     },
     {
       "id": "e02",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "লাগে",
-        "tr": "lage",
-        "en": "feels"
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "is not",
-        "(I) know",
-        "are (intimate)",
-        "feels"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "e03",
       "type": "select_translation",
       "prompt": {
         "bn": "ঝাল",
@@ -107,49 +90,31 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "tasty",
         "sweet",
-        "good, well",
-        "spicy"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "e04",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "মিষ্টি",
-        "tr": "mishti",
-        "en": "sweet"
-      },
-      "direction": "bn_to_en",
-      "options": [
+        "tasty",
         "spicy",
-        "tasty",
-        "sweet",
-        "good, well"
+        "salt"
       ],
       "answer": 2
     },
     {
-      "id": "e05",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "মজা",
-        "tr": "moja",
-        "en": "fun; tasty"
+      "id": "e03",
+      "type": "listen_select",
+      "audio": {
+        "bn": "মিষ্টি",
+        "tr": "mishti",
+        "en": "sweet"
       },
-      "direction": "bn_to_en",
       "options": [
-        "fun; tasty",
-        "vegetables",
-        "wife",
-        "aunt (mama's wife)"
+        "মিষ্টি",
+        "মজা",
+        "ঝাল",
+        "মজার"
       ],
       "answer": 0
     },
     {
-      "id": "e06",
+      "id": "e04",
       "type": "select_translation",
       "prompt": {
         "bn": "মজার",
@@ -158,48 +123,38 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "Bangladeshi",
         "sweet",
         "tasty",
-        "big"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "e07",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "ক্ষুধা",
-        "tr": "khudha",
-        "en": "hunger"
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "vegetables",
-        "hunger",
-        "English (language)",
-        "father"
+        "spicy",
+        "hungry"
       ],
       "answer": 1
     },
     {
-      "id": "e08",
+      "id": "e05",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আমার ক্ষুধা লেগেছে।",
+        "tr": "amar khudha legechhe.",
+        "en": "I'm hungry."
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "I'm hungry.",
+        "I'm thirsty.",
+        "I like food.",
+        "I want food."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e06",
       "type": "match_pairs",
       "pairs": [
         {
           "bn": "পছন্দ",
           "tr": "pochhondo",
           "en": "liking"
-        },
-        {
-          "bn": "লেগেছে",
-          "tr": "legechhe",
-          "en": "has come on (felt)"
-        },
-        {
-          "bn": "লাগে",
-          "tr": "lage",
-          "en": "feels"
         },
         {
           "bn": "ঝাল",
@@ -210,61 +165,111 @@
           "bn": "মিষ্টি",
           "tr": "mishti",
           "en": "sweet"
+        },
+        {
+          "bn": "ক্ষুধা",
+          "tr": "khudha",
+          "en": "hunger"
+        },
+        {
+          "bn": "মজা",
+          "tr": "moja",
+          "en": "fun; tasty"
         }
       ]
     },
     {
-      "id": "e09",
+      "id": "e07",
       "type": "word_bank",
       "prompt": {
-        "bn": "মিষ্টি আমার খুব পছন্দ।",
-        "tr": "mishti amar khub pochhondo.",
-        "en": "I really like sweets."
-      },
-      "direction": "bn_to_en",
-      "tiles": [
-        "I",
-        "here",
-        "sweets",
-        "salt",
-        "how",
-        "like",
-        "really"
-      ],
-      "answer": [
-        "I",
-        "really",
-        "like",
-        "sweets"
-      ]
-    },
-    {
-      "id": "e10",
-      "type": "word_bank",
-      "prompt": {
-        "bn": "আমার ঝাল পছন্দ না।",
-        "tr": "amar jhal pochhondo na.",
-        "en": "I don't like spicy food."
+        "bn": "আমার মাছ পছন্দ।",
+        "tr": "amar machh pochhondo.",
+        "en": "I like fish."
       },
       "direction": "en_to_bn",
       "tiles": [
         "আমার",
-        "নাস্তা",
-        "তোমার",
+        "মাছ",
         "পছন্দ",
-        "দুধ",
-        "না",
-        "ঝাল"
+        "আমি",
+        "তোমার",
+        "না"
       ],
       "answer": [
         "আমার",
-        "ঝাল",
-        "পছন্দ",
-        "না"
+        "মাছ",
+        "পছন্দ"
+      ],
+      "alt": [
+        [
+          "মাছ",
+          "আমার",
+          "পছন্দ"
+        ]
       ]
     },
     {
-      "id": "e11",
+      "id": "e08",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমার ভাত ভালো লাগে।",
+        "tr": "amar bhat bhalo lage.",
+        "en": "I like rice."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "আমার",
+        "ভাত",
+        "ভালো",
+        "লাগে",
+        "আমি",
+        "খাই",
+        "পছন্দ"
+      ],
+      "answer": [
+        "আমার",
+        "ভাত",
+        "ভালো",
+        "লাগে"
+      ],
+      "alt": [
+        [
+          "ভাত",
+          "আমার",
+          "ভালো",
+          "লাগে"
+        ],
+        [
+          "আমার",
+          "ভাত",
+          "পছন্দ"
+        ],
+        [
+          "ভাত",
+          "আমার",
+          "পছন্দ"
+        ]
+      ]
+    },
+    {
+      "id": "e09",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আপনার কি ঝাল ভালো লাগে?",
+        "tr": "apnar ki jhal bhalo lage?",
+        "en": "Do you like spicy food? (polite)"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "আপনি কি ঝাল ভালো লাগে?",
+        "তোমার কি ঝাল ভালো লাগে?",
+        "আপনার কি মিষ্টি ভালো লাগে?",
+        "আপনার কি ঝাল ভালো লাগে?"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e10",
       "type": "word_bank",
       "prompt": {
         "bn": "এটা খুব ঝাল।",
@@ -273,13 +278,13 @@
       },
       "direction": "bn_to_en",
       "tiles": [
-        "egg",
         "This",
         "is",
         "very",
         "spicy",
-        "mother's",
-        "teacher"
+        "sweet",
+        "tasty",
+        "not"
       ],
       "answer": [
         "This",
@@ -289,40 +294,71 @@
       ]
     },
     {
-      "id": "e12",
-      "type": "type_translation",
+      "id": "e11",
+      "type": "word_bank",
       "prompt": {
-        "bn": "খাবার খুব মজা।",
-        "tr": "khabar khub moja.",
-        "en": "The food is delicious."
+        "bn": "আমার ক্ষুধা লেগেছে।",
+        "tr": "amar khudha legechhe.",
+        "en": "I'm hungry."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "আমার",
+        "ক্ষুধা",
+        "লেগেছে",
+        "আমি",
+        "ভালো",
+        "তোমার"
+      ],
+      "answer": [
+        "আমার",
+        "ক্ষুধা",
+        "লেগেছে"
+      ]
+    },
+    {
+      "id": "e12",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "মিষ্টি আমার খুব পছন্দ।",
+        "tr": "mishti amar khub pochhondo.",
+        "en": "I really like sweets."
       },
       "direction": "bn_to_en",
-      "accepted": [
-        "The food is delicious.",
-        "The food is very tasty."
+      "tiles": [
+        "I",
+        "really",
+        "like",
+        "sweets",
+        "don't",
+        "spicy",
+        "food"
+      ],
+      "answer": [
+        "I",
+        "really",
+        "like",
+        "sweets"
       ]
     },
     {
       "id": "e13",
-      "type": "word_bank",
+      "type": "type_translation",
       "prompt": {
-        "bn": "তোমার কী পছন্দ?",
-        "tr": "tomar ki pochhondo?",
-        "en": "What do you like?"
+        "bn": "আমার ঝাল পছন্দ না।",
+        "tr": "amar jhal pochhondo na.",
+        "en": "I don't like spicy food."
       },
-      "direction": "en_to_bn",
-      "tiles": [
-        "দরকার",
-        "শিক্ষক",
-        "তোমার",
-        "আমগুলো",
-        "পছন্দ",
-        "কী"
-      ],
-      "answer": [
-        "তোমার",
-        "কী",
-        "পছন্দ"
+      "direction": "bn_to_en",
+      "accepted": [
+        "I don't like spicy food.",
+        "I do not like spicy food.",
+        "I don't like spicy things.",
+        "I do not like spicy things.",
+        "I don't like hot food.",
+        "I do not like hot food.",
+        "I don't like spicy.",
+        "I don't like spicy foods."
       ]
     },
     {
@@ -335,12 +371,42 @@
       },
       "direction": "en_to_bn",
       "options": [
-        "তোমার নাম কী?",
-        "এটা কি বাংলা?",
-        "এটা কি দুধ?",
-        "এটা মজার খাবার।"
+        "এটা মিষ্টি খাবার।",
+        "এটা মজার খাবার।",
+        "এটা ঝাল খাবার।",
+        "এটা কি মজার খাবার?"
       ],
-      "answer": 3
+      "answer": 1
+    },
+    {
+      "id": "e15",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "খাবার খুব মজা।",
+        "tr": "khabar khub moja.",
+        "en": "The food is very tasty."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "খাবার",
+        "খুব",
+        "মজা",
+        "মজার",
+        "ঝাল",
+        "আমার"
+      ],
+      "answer": [
+        "খাবার",
+        "খুব",
+        "মজা"
+      ],
+      "alt": [
+        [
+          "খাবার",
+          "খুব",
+          "মজার"
+        ]
+      ]
     }
   ]
 }

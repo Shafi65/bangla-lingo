@@ -62,29 +62,28 @@
       },
       "direction": "bn_to_en",
       "options": [
+        "milk",
         "water",
-        "mother's",
-        "rice",
+        "tea",
         "sugar"
       ],
-      "answer": 0
+      "answer": 1
     },
     {
       "id": "e02",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "চা",
         "tr": "cha",
         "en": "tea"
       },
-      "direction": "bn_to_en",
       "options": [
-        "boy",
-        "grandmother (father's mother)",
-        "grandfather (mother's father)",
-        "tea"
+        "চা",
+        "চাচা",
+        "চিনি",
+        "ছাড়া"
       ],
-      "answer": 3
+      "answer": 0
     },
     {
       "id": "e03",
@@ -96,29 +95,28 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "elder sister; ma'am",
-        "English (language)",
+        "tea",
+        "water",
         "milk",
-        "meat"
+        "egg"
       ],
       "answer": 2
     },
     {
       "id": "e04",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "চিনি",
         "tr": "chini",
         "en": "sugar"
       },
-      "direction": "bn_to_en",
       "options": [
-        "sugar",
-        "aunt (mother's sister)",
-        "chicken",
-        "dad"
+        "পানি",
+        "চা",
+        "লবণ",
+        "চিনি"
       ],
-      "answer": 0
+      "answer": 3
     },
     {
       "id": "e05",
@@ -130,12 +128,12 @@
       },
       "direction": "bn_to_en",
       "options": [
+        "sugar",
         "salt",
-        "husband",
-        "grandfather (mother's father)",
-        "dad"
+        "rice",
+        "milk"
       ],
-      "answer": 0
+      "answer": 1
     },
     {
       "id": "e06",
@@ -147,12 +145,12 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "I don't understand",
-        "everyone",
-        "person",
-        "without"
+        "without",
+        "with",
+        "and",
+        "here"
       ],
-      "answer": 3
+      "answer": 0
     },
     {
       "id": "e07",
@@ -164,9 +162,9 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "chicken",
-        "aunt (chacha's wife)",
-        "uncle (mother's brother)",
+        "water",
+        "one",
+        "tea",
         "cup"
       ],
       "answer": 3
@@ -204,92 +202,23 @@
     },
     {
       "id": "e09",
-      "type": "word_bank",
-      "prompt": {
-        "bn": "চিনি নেই।",
-        "tr": "chini nei.",
-        "en": "There is no sugar."
-      },
-      "direction": "bn_to_en",
-      "tiles": [
-        "is",
-        "chicken",
-        "no",
-        "good",
-        "There",
-        "sugar",
-        "family"
-      ],
-      "answer": [
-        "There",
-        "is",
-        "no",
-        "sugar"
-      ]
-    },
-    {
-      "id": "e10",
-      "type": "word_bank",
-      "prompt": {
-        "bn": "এটা কি দুধ?",
-        "tr": "eta ki dudh?",
-        "en": "Is this milk?"
-      },
-      "direction": "en_to_bn",
-      "tiles": [
-        "তুমি",
-        "আছেন",
-        "দুধ",
-        "কি",
-        "না",
-        "এটা"
-      ],
-      "answer": [
-        "এটা",
-        "কি",
-        "দুধ"
-      ]
-    },
-    {
-      "id": "e11",
-      "type": "word_bank",
-      "prompt": {
-        "bn": "লবণ কোথায়?",
-        "tr": "lobon kothay?",
-        "en": "Where is the salt?"
-      },
-      "direction": "bn_to_en",
-      "tiles": [
-        "Where",
-        "everyone",
-        "meat",
-        "the",
-        "is",
-        "salt",
-        "he/she"
-      ],
-      "answer": [
-        "Where",
-        "is",
-        "the",
-        "salt"
-      ]
-    },
-    {
-      "id": "e12",
-      "type": "type_translation",
+      "type": "select_translation",
       "prompt": {
         "bn": "চিনি ছাড়া চা।",
         "tr": "chini chhara cha.",
         "en": "Tea without sugar."
       },
-      "direction": "bn_to_en",
-      "accepted": [
-        "Tea without sugar."
-      ]
+      "direction": "en_to_bn",
+      "options": [
+        "চা ছাড়া চিনি।",
+        "দুধ ছাড়া চা।",
+        "চিনি ছাড়া চা।",
+        "চিনি আর চা।"
+      ],
+      "answer": 2
     },
     {
-      "id": "e13",
+      "id": "e10",
       "type": "word_bank",
       "prompt": {
         "bn": "এক কাপ চা।",
@@ -300,10 +229,10 @@
       "tiles": [
         "এক",
         "কাপ",
-        "কি",
-        "ছাত্র",
         "চা",
-        "নেই"
+        "চিনি",
+        "দুধ",
+        "ছাড়া"
       ],
       "answer": [
         "এক",
@@ -312,21 +241,112 @@
       ]
     },
     {
-      "id": "e14",
-      "type": "select_translation",
+      "id": "e11",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "চিনি নেই।",
+        "tr": "chini nei.",
+        "en": "There is no sugar."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "There",
+        "is",
+        "no",
+        "sugar",
+        "salt",
+        "milk",
+        "here"
+      ],
+      "answer": [
+        "There",
+        "is",
+        "no",
+        "sugar"
+      ]
+    },
+    {
+      "id": "e12",
+      "type": "word_bank",
       "prompt": {
         "bn": "এখানে পানি আছে?",
         "tr": "ekhane pani achhe?",
         "en": "Is there water here?"
       },
       "direction": "en_to_bn",
-      "options": [
-        "আমি বাংলাদেশ থেকে এসেছি।",
-        "তারা ডাক্তার।",
-        "এখানে পানি আছে?",
-        "ভাত আর ডাল।"
+      "tiles": [
+        "এখানে",
+        "পানি",
+        "আছে",
+        "নেই",
+        "ওখানে",
+        "দুধ"
       ],
-      "answer": 2
+      "answer": [
+        "এখানে",
+        "পানি",
+        "আছে"
+      ]
+    },
+    {
+      "id": "e13",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "দুধ চা খুব ভালো।",
+        "tr": "dudh cha khub bhalo.",
+        "en": "Milk tea is very good."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "Milk",
+        "tea",
+        "is",
+        "very",
+        "good",
+        "water",
+        "sugar"
+      ],
+      "answer": [
+        "Milk",
+        "tea",
+        "is",
+        "very",
+        "good"
+      ]
+    },
+    {
+      "id": "e14",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "লবণ কোথায়?",
+        "tr": "lobon kothay?",
+        "en": "Where is the salt?"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "চিনি কোথায়?",
+        "লবণ কোথায়?",
+        "লবণ নেই।",
+        "এটা কি লবণ?"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e15",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "চিনি ছাড়া চা।",
+        "tr": "chini chhara cha.",
+        "en": "Tea without sugar."
+      },
+      "direction": "bn_to_en",
+      "accepted": [
+        "Tea without sugar.",
+        "Tea with no sugar.",
+        "Tea, no sugar.",
+        "Sugarless tea.",
+        "Tea without any sugar."
+      ]
     }
   ]
 }

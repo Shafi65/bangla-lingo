@@ -70,29 +70,28 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "are (familiar)",
-        "is not (here); there isn't",
+        "(I/we) eat",
         "(I/we) want",
-        "is not"
+        "(you, familiar) want",
+        "tea"
       ],
-      "answer": 2
+      "answer": 1
     },
     {
       "id": "e02",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "চাও",
         "tr": "chao",
         "en": "(you, familiar) want"
       },
-      "direction": "bn_to_en",
       "options": [
-        "(you, intimate) eat",
-        "are not (familiar)",
-        "are (familiar)",
-        "(you, familiar) want"
+        "চা",
+        "চাই",
+        "চাও",
+        "চান"
       ],
-      "answer": 3
+      "answer": 2
     },
     {
       "id": "e03",
@@ -104,12 +103,12 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "(you/he/she, polite) want",
-        "am",
-        "(you, polite) know",
-        "(he/she/they) eats"
+        "(you, familiar) want",
+        "(I/we) want",
+        "(you/he/she, polite) eat",
+        "(you/he/she, polite) want"
       ],
-      "answer": 0
+      "answer": 3
     },
     {
       "id": "e04",
@@ -121,32 +120,15 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "(I) know",
-        "is not",
-        "are not (familiar)",
-        "to eat"
+        "to eat",
+        "(I/we) eat",
+        "(he/she/they) eats",
+        "food"
       ],
-      "answer": 3
+      "answer": 0
     },
     {
       "id": "e05",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "কিছু",
-        "tr": "kichhu",
-        "en": "something"
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "his/her (polite)",
-        "something",
-        "you (polite, plural)",
-        "he/she (spoken)"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "e06",
       "type": "select_translation",
       "prompt": {
         "bn": "অবশ্যই",
@@ -155,15 +137,15 @@
       },
       "direction": "bn_to_en",
       "options": [
+        "no problem",
+        "maybe",
         "of course",
-        "where (before থেকে)",
-        "how many (people)",
-        "very"
+        "thank you"
       ],
-      "answer": 0
+      "answer": 2
     },
     {
-      "id": "e07",
+      "id": "e06",
       "type": "select_translation",
       "prompt": {
         "bn": "সমস্যা",
@@ -172,12 +154,29 @@
       },
       "direction": "bn_to_en",
       "options": [
+        "need",
+        "question",
         "problem",
-        "meat",
-        "boy",
-        "child"
+        "food"
       ],
-      "answer": 0
+      "answer": 2
+    },
+    {
+      "id": "e07",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "দরকার",
+        "tr": "dorkar",
+        "en": "need"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "want",
+        "need",
+        "problem",
+        "something"
+      ],
+      "answer": 1
     },
     {
       "id": "e08",
@@ -189,24 +188,24 @@
           "en": "(I/we) want"
         },
         {
-          "bn": "খেতে",
-          "tr": "khete",
-          "en": "to eat"
-        },
-        {
           "bn": "চান",
           "tr": "chan",
           "en": "(you/he/she, polite) want"
         },
         {
-          "bn": "চাও",
-          "tr": "chao",
-          "en": "(you, familiar) want"
-        },
-        {
           "bn": "দরকার",
           "tr": "dorkar",
           "en": "need"
+        },
+        {
+          "bn": "অবশ্যই",
+          "tr": "oboshshoi",
+          "en": "of course"
+        },
+        {
+          "bn": "সমস্যা",
+          "tr": "shomossha",
+          "en": "problem"
         }
       ]
     },
@@ -214,50 +213,68 @@
       "id": "e09",
       "type": "word_bank",
       "prompt": {
-        "bn": "জি, অবশ্যই।",
-        "tr": "ji, oboshshoi.",
-        "en": "Yes, of course."
+        "bn": "আমি চা চাই।",
+        "tr": "ami cha chai.",
+        "en": "I want tea."
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "tiles": [
-        "milk",
-        "vegetables",
-        "Yes",
-        "salt",
-        "of",
-        "course"
+        "আমি",
+        "চা",
+        "চাই",
+        "চাও",
+        "চান",
+        "পানি"
       ],
       "answer": [
-        "Yes",
-        "of",
-        "course"
+        "আমি",
+        "চা",
+        "চাই"
       ]
     },
     {
       "id": "e10",
       "type": "word_bank",
       "prompt": {
-        "bn": "আপনি কী চান?",
-        "tr": "apni ki chan?",
-        "en": "What do you want?"
+        "bn": "আমি ভাত খেতে চাই।",
+        "tr": "ami bhat khete chai.",
+        "en": "I want to eat rice."
       },
       "direction": "en_to_bn",
       "tiles": [
-        "আপনি",
-        "পানি",
-        "কিন্তু",
-        "জি",
-        "কী",
+        "আমি",
+        "ভাত",
+        "খেতে",
+        "চাই",
+        "খাই",
         "চান"
       ],
       "answer": [
-        "আপনি",
-        "কী",
-        "চান"
+        "আমি",
+        "ভাত",
+        "খেতে",
+        "চাই"
       ]
     },
     {
       "id": "e11",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আপনি কিছু খেতে চান?",
+        "tr": "apni kichhu khete chan?",
+        "en": "Would you like something to eat? (polite)"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "আপনি কী খেতে চান?",
+        "আপনি কিছু খেতে চান?",
+        "তুমি কিছু খেতে চাও?",
+        "আপনি কিছু খান?"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e12",
       "type": "word_bank",
       "prompt": {
         "bn": "তুমি কী খেতে চাও?",
@@ -266,15 +283,14 @@
       },
       "direction": "bn_to_en",
       "tiles": [
+        "What",
         "do",
         "you",
-        "sister",
-        "from",
-        "eat",
-        "There's",
         "want",
-        "What",
-        "to"
+        "to",
+        "eat",
+        "need",
+        "does"
       ],
       "answer": [
         "What",
@@ -286,60 +302,84 @@
       ]
     },
     {
-      "id": "e12",
-      "type": "type_translation",
-      "prompt": {
-        "bn": "তুমি কি পানি চাও?",
-        "tr": "tumi ki pani chao?",
-        "en": "Do you want water?"
-      },
-      "direction": "bn_to_en",
-      "accepted": [
-        "Do you want water?",
-        "Do you want some water?"
-      ]
-    },
-    {
       "id": "e13",
       "type": "word_bank",
       "prompt": {
-        "bn": "আপনি কিছু খেতে চান?",
-        "tr": "apni kichhu khete chan?",
-        "en": "Would you like something to eat?"
+        "bn": "না, ধন্যবাদ, আমি কিছু চাই না।",
+        "tr": "na, dhonnobad, ami kichhu chai na.",
+        "en": "No, thank you, I don't want anything."
       },
       "direction": "en_to_bn",
       "tiles": [
-        "ওরা",
+        "না",
+        "ধন্যবাদ",
+        "আমি",
         "কিছু",
-        "খাই",
-        "খেতে",
-        "আপনি",
-        "আপনারা",
-        "চান"
+        "চাই",
+        "না",
+        "চান",
+        "কী"
       ],
       "answer": [
-        "আপনি",
+        "না",
+        "ধন্যবাদ",
+        "আমি",
         "কিছু",
-        "খেতে",
-        "চান"
+        "চাই",
+        "না"
+      ],
+      "alt": [
+        [
+          "না",
+          "ধন্যবাদ",
+          "কিছু",
+          "চাই",
+          "না"
+        ]
       ]
     },
     {
       "id": "e14",
-      "type": "select_translation",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "চিনি নেই, সমস্যা নেই।",
+        "tr": "chini nei, shomossha nei.",
+        "en": "There's no sugar, no problem."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "There",
+        "is",
+        "no",
+        "sugar",
+        "no",
+        "problem",
+        "need",
+        "salt"
+      ],
+      "answer": [
+        "There",
+        "is",
+        "no",
+        "sugar",
+        "no",
+        "problem"
+      ]
+    },
+    {
+      "id": "e15",
+      "type": "type_translation",
       "prompt": {
         "bn": "আমার পানি দরকার।",
         "tr": "amar pani dorkar.",
         "en": "I need water."
       },
-      "direction": "en_to_bn",
-      "options": [
-        "আমার পানি দরকার।",
-        "তুমি কী খেতে চাও?",
-        "মামা আমার মায়ের ভাই।",
-        "ভালো আছি, ধন্যবাদ।"
-      ],
-      "answer": 0
+      "direction": "bn_to_en",
+      "accepted": [
+        "I need water.",
+        "I need some water.",
+        "I need the water."
+      ]
     }
   ]
 }

@@ -67,55 +67,37 @@
       "id": "e01",
       "type": "select_translation",
       "prompt": {
-        "bn": "খাবার",
-        "tr": "khabar",
-        "en": "food"
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "aunt (father's sister)",
-        "meat",
-        "wife",
-        "food"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "e02",
-      "type": "select_translation",
-      "prompt": {
         "bn": "ভাত",
         "tr": "bhat",
         "en": "rice"
       },
       "direction": "bn_to_en",
       "options": [
-        "mother's",
-        "aunt (mama's wife)",
         "rice",
-        "aunt (mother's sister)"
+        "lentils",
+        "fish",
+        "egg"
       ],
-      "answer": 2
+      "answer": 0
     },
     {
-      "id": "e03",
-      "type": "select_translation",
-      "prompt": {
+      "id": "e02",
+      "type": "listen_select",
+      "audio": {
         "bn": "ডাল",
         "tr": "dal",
         "en": "lentils"
       },
-      "direction": "bn_to_en",
       "options": [
-        "auntie (address)",
-        "student (male)",
-        "lentils",
-        "father"
+        "ডিম",
+        "ডাল",
+        "ভাত",
+        "মাছ"
       ],
-      "answer": 2
+      "answer": 1
     },
     {
-      "id": "e04",
+      "id": "e03",
       "type": "select_translation",
       "prompt": {
         "bn": "মাছ",
@@ -124,15 +106,15 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "girl",
-        "fish",
-        "uncle (fufu's husband)",
-        "friend"
+        "meat",
+        "chicken",
+        "egg",
+        "fish"
       ],
-      "answer": 1
+      "answer": 3
     },
     {
-      "id": "e05",
+      "id": "e04",
       "type": "select_translation",
       "prompt": {
         "bn": "মাংস",
@@ -141,60 +123,98 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "person",
-        "egg",
         "meat",
-        "doctor"
+        "fish",
+        "vegetables",
+        "chicken"
       ],
-      "answer": 2
+      "answer": 0
+    },
+    {
+      "id": "e05",
+      "type": "listen_select",
+      "audio": {
+        "bn": "মুরগি",
+        "tr": "murgi",
+        "en": "chicken"
+      },
+      "options": [
+        "মাছ",
+        "মাংস",
+        "গরু",
+        "মুরগি"
+      ],
+      "answer": 3
     },
     {
       "id": "e06",
       "type": "select_translation",
       "prompt": {
-        "bn": "মুরগি",
-        "tr": "murgi",
-        "en": "chicken"
+        "bn": "গরুর মাংস",
+        "tr": "gorur mangsho",
+        "en": "beef"
       },
       "direction": "bn_to_en",
       "options": [
-        "uncle (khala's husband)",
-        "aunt (mama's wife)",
         "chicken",
-        "grandfather (father's father)"
+        "beef",
+        "fish",
+        "cow"
       ],
-      "answer": 2
+      "answer": 1
     },
     {
       "id": "e07",
       "type": "select_translation",
       "prompt": {
-        "bn": "গরুর",
-        "tr": "gorur",
-        "en": "cow's"
+        "bn": "ডিম",
+        "tr": "dim",
+        "en": "egg"
       },
       "direction": "bn_to_en",
       "options": [
-        "student (male)",
-        "uncle (khala's husband)",
-        "teacher",
-        "cow's"
+        "rice",
+        "lentils",
+        "egg",
+        "meat"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e08",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "সবজি",
+        "tr": "shobji",
+        "en": "vegetables"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "fish",
+        "food",
+        "meat",
+        "vegetables"
       ],
       "answer": 3
     },
     {
-      "id": "e08",
+      "id": "e09",
       "type": "match_pairs",
       "pairs": [
+        {
+          "bn": "খাবার",
+          "tr": "khabar",
+          "en": "food"
+        },
         {
           "bn": "ডাল",
           "tr": "dal",
           "en": "lentils"
         },
         {
-          "bn": "সবজি",
-          "tr": "shobji",
-          "en": "vegetables"
+          "bn": "মুরগি",
+          "tr": "murgi",
+          "en": "chicken"
         },
         {
           "bn": "ডিম",
@@ -202,42 +222,54 @@
           "en": "egg"
         },
         {
-          "bn": "ভাত",
-          "tr": "bhat",
-          "en": "rice"
-        },
-        {
-          "bn": "খাবার",
-          "tr": "khabar",
-          "en": "food"
+          "bn": "সবজি",
+          "tr": "shobji",
+          "en": "vegetables"
         }
       ]
     },
     {
-      "id": "e09",
+      "id": "e10",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "এটা কি গরুর মাংস?",
+        "tr": "eta ki gorur mangsho?",
+        "en": "Is this beef?"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "ওটা কি গরুর মাংস?",
+        "এটা কি মুরগি?",
+        "এটা কি গরুর মাংস?",
+        "এটা কি গরু?"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e11",
       "type": "word_bank",
       "prompt": {
-        "bn": "না, ওটা মাংস।",
-        "tr": "na, ota mangsho.",
-        "en": "No, that's meat."
+        "bn": "ওটা কি মাছ?",
+        "tr": "ota ki machh?",
+        "en": "Is that fish?"
       },
       "direction": "bn_to_en",
       "tiles": [
-        "where",
-        "No",
-        "that's",
-        "our",
+        "Is",
+        "that",
         "fish",
-        "meat"
+        "this",
+        "meat",
+        "egg"
       ],
       "answer": [
-        "No",
-        "that's",
-        "meat"
+        "Is",
+        "that",
+        "fish"
       ]
     },
     {
-      "id": "e10",
+      "id": "e12",
       "type": "word_bank",
       "prompt": {
         "bn": "ভাত আর ডাল।",
@@ -246,54 +278,24 @@
       },
       "direction": "en_to_bn",
       "tiles": [
-        "তিনি",
+        "ভাত",
         "আর",
         "ডাল",
-        "আমার",
-        "জানেন",
-        "ভাত"
+        "ডিম",
+        "মাছ",
+        "খুব"
       ],
       "answer": [
         "ভাত",
         "আর",
         "ডাল"
-      ]
-    },
-    {
-      "id": "e11",
-      "type": "word_bank",
-      "prompt": {
-        "bn": "এটা কি গরুর মাংস?",
-        "tr": "eta ki gorur mangsho?",
-        "en": "Is this beef?"
-      },
-      "direction": "bn_to_en",
-      "tiles": [
-        "who",
-        "what",
-        "this",
-        "beef",
-        "vegetables",
-        "Is"
       ],
-      "answer": [
-        "Is",
-        "this",
-        "beef"
-      ]
-    },
-    {
-      "id": "e12",
-      "type": "type_translation",
-      "prompt": {
-        "bn": "সবজি খুব ভালো।",
-        "tr": "shobji khub bhalo.",
-        "en": "The vegetables are very good."
-      },
-      "direction": "bn_to_en",
-      "accepted": [
-        "The vegetables are very good.",
-        "Vegetables are very good."
+      "alt": [
+        [
+          "ডাল",
+          "আর",
+          "ভাত"
+        ]
       ]
     },
     {
@@ -306,12 +308,12 @@
       },
       "direction": "en_to_bn",
       "tiles": [
-        "বাবার",
-        "জানেন",
         "না",
         "এটা",
         "মুরগি",
-        "ভাইয়া"
+        "ওটা",
+        "মাছ",
+        "কি"
       ],
       "answer": [
         "না",
@@ -329,12 +331,31 @@
       },
       "direction": "en_to_bn",
       "options": [
-        "উনি আমার স্বামী।",
-        "চাচা, আপনি কেমন আছেন?",
+        "ডাল কোথায়?",
+        "খাবার কী?",
         "খাবার কোথায়?",
-        "তোমরা কেমন আছো?"
+        "মাছ কোথায়?"
       ],
       "answer": 2
+    },
+    {
+      "id": "e15",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "সবজি খুব ভালো।",
+        "tr": "shobji khub bhalo.",
+        "en": "The vegetables are very good."
+      },
+      "direction": "bn_to_en",
+      "accepted": [
+        "The vegetables are very good.",
+        "Vegetables are very good.",
+        "The vegetables are really good.",
+        "Vegetables are really good.",
+        "The vegetables are very nice.",
+        "Vegetables are very nice.",
+        "The vegetable is very good."
+      ]
     }
   ]
 }
