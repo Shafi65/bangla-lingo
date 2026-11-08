@@ -464,7 +464,8 @@
         "chhilo",
         "giyechhilam",
         "goto-shoptahe",
-        "bondho"
+        "bondho",
+        "shikkharthi"
       ],
       "review": [
         "ami",
@@ -478,7 +479,7 @@
         "chhatro",
         "baba"
       ],
-      "tip": "In the present, 'is' disappears: **আমি ছাত্র** 'I am a student'. In the past it **comes back** as **ছিল-**:\n\n- আমি **ছিলাম** — I was\n- তুমি **ছিলে** — you were\n- আপনি / তিনি **ছিলেন** — you were / he was (polite)\n- সে **ছিল** — he/she/it was\n\nSo: **আমি ছাত্র ছিলাম** 'I was a student', **আপনি কোথায় ছিলেন?** 'Where were you?', **দোকান বন্ধ ছিল** 'The shop was closed'.\n\nYou'll also hear the past perfect **-এছিলাম**: **আমি গত সপ্তাহে সিলেটে গিয়েছিলাম** 'I went to (had been to) Sylhet last week'. For now just recognise it.",
+      "tip": "In the present, 'is' disappears: **আমি ছাত্র** 'I am a student'. In the past it **comes back** as **ছিল-**:\n\n- আমি **ছিলাম** — I was\n- তুমি **ছিলে** — you were\n- আপনি / তিনি **ছিলেন** — you were / he was (polite)\n- সে **ছিল** — he/she/it was\n\nSo: **আমি ছাত্র ছিলাম** 'I was a student', **আপনি কোথায় ছিলেন?** 'Where were you?', **দোকান বন্ধ ছিল** 'The shop was closed'.\n\nYou'll also hear the past perfect **-এছিলাম**: **আমি গত সপ্তাহে সিলেটে গিয়েছিলাম** 'I went to (had been to) Sylhet last week'. For now just recognise it.\n\n**শিক্ষার্থী** is a gender-neutral word for \"student\" (ছাত্র male, ছাত্রী female) — you'll see it on school notices and in the news.",
       "sentences": [
         {
           "bn": "আমি গতকাল বাসায় ছিলাম।",
@@ -528,6 +529,11 @@
           "bn": "দোকান বন্ধ ছিল।",
           "tr": "dokan bondho chhilo.",
           "en": "The shop was closed."
+        },
+        {
+          "bn": "আমি ঢাকায় শিক্ষার্থী ছিলাম।",
+          "tr": "ami dhakay shikkharthi chhilam.",
+          "en": "I was a student in Dhaka."
         }
       ]
     },
@@ -539,13 +545,18 @@
         "narrating with -লাম + তারপর",
         "X-এর সাথে 'with X'",
         "আমরা takes -লাম too: আমরা খেলাম",
-        "দিনটা 'the day'"
+        "দিনটা 'the day'",
+        "যখন … তখন … 'when …, (then) …'",
+        "কথা বলা 'talk'"
       ],
       "new": [
         "uthlam",
         "bondhur",
         "shathe",
-        "dinta"
+        "dinta",
+        "jokhon",
+        "tokhon",
+        "kotha-talk"
       ],
       "review": [
         "gotokal",
@@ -557,9 +568,13 @@
         "korlam",
         "bajare",
         "gelam",
-        "amra"
+        "amra",
+        "dokan",
+        "bondho",
+        "bollam",
+        "kokhon"
       ],
-      "tip": "Tell a story by chaining past verbs with **তারপর** 'then':\n\n**গতকাল আমি সকাল সাতটায় উঠলাম। তারপর নাস্তা করলাম। আমি বন্ধুর সাথে বাজারে গেলাম…**\n\n**সাথে** (*shathe*) 'with' is a postposition, so the noun is genitive: **বন্ধুর সাথে** 'with a friend'. In Kolkata **সঙ্গে** is more common.\n\nAnd round it off: **দিনটা খুব ভালো ছিল** 'It was a really good day'.",
+      "tip": "Tell a story by chaining past verbs with **তারপর** 'then':\n\n**গতকাল আমি সকাল সাতটায় উঠলাম। তারপর নাস্তা করলাম। আমি বন্ধুর সাথে বাজারে গেলাম…**\n\n**সাথে** (*shathe*) 'with' is a postposition, so the noun is genitive: **বন্ধুর সাথে** 'with a friend'. In Kolkata **সঙ্গে** is more common.\n\nAnd round it off: **দিনটা খুব ভালো ছিল** 'It was a really good day'.\n\n**যখন … তখন …** \"when …, (then) …\" ties two events together. Don't mix up relative **যখন** with question **কখন**.",
       "sentences": [
         {
           "bn": "গতকাল আমি সকাল সাতটায় উঠলাম।",
@@ -612,6 +627,19 @@
           "alt": [
             "It was a very good day."
           ]
+        },
+        {
+          "bn": "আমি যখন বাজারে গেলাম, তখন দোকান বন্ধ ছিল।",
+          "tr": "ami jokhon bajare gelam, tokhon dokan bondho chhilo.",
+          "en": "When I went to the market, the shop was closed."
+        },
+        {
+          "bn": "আমি বন্ধুর সাথে কথা বললাম।",
+          "tr": "ami bondhur shathe kotha bollam.",
+          "en": "I talked with my friend.",
+          "alt": [
+            "I spoke to a friend."
+          ]
         }
       ]
     },
@@ -624,7 +652,8 @@
       ],
       "new": [
         "chhobi",
-        "giyechhilo"
+        "giyechhilo",
+        "moto"
       ],
       "review": [
         "apni",
@@ -636,7 +665,9 @@
         "khaini",
         "gotokal",
         "tumi",
-        "kothay"
+        "kothay",
+        "tar",
+        "mayer"
       ],
       "tip": "Quick check of the past system:\n\n- **simple past** (*did*): করলাম, করলে, করলেন, করল\n- **perfect** (*have done*): করেছি, খেয়েছেন\n- **negative** (*didn't / haven't*): present + **-নি** — করিনি, খাইনি\n- **was**: ছিলাম, ছিলে, ছিলেন, ছিল\n\n**ছবি** means both 'picture' and 'film': **একটা ছবি দেখলাম** 'I watched a film'.",
       "sentences": [
@@ -701,6 +732,14 @@
           "en": "What happened?",
           "alt": [
             "What's wrong?"
+          ]
+        },
+        {
+          "bn": "সে তার মায়ের মতো।",
+          "tr": "she tar mayer moto.",
+          "en": "She is like her mother.",
+          "alt": [
+            "He is like his mother."
           ]
         }
       ]

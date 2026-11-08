@@ -575,6 +575,97 @@
       "pos": "noun",
       "lesson": "u03-l07",
       "notes": "Colloquial 'wife'; also 'bride' and 'daughter-in-law'. Also spelled বৌ."
+    },
+    {
+      "id": "achchha",
+      "bn": "আচ্ছা",
+      "tr": "achchha",
+      "en": "OK",
+      "alt": [
+        "I see",
+        "all right",
+        "okay"
+      ],
+      "pos": "particle",
+      "lesson": "u03-l06",
+      "notes": "Agreement / \"I see\". With a question tone (আচ্ছা?) it means \"Really?\"; at the start of a sentence it can mean \"By the way…\"."
+    },
+    {
+      "id": "jani",
+      "bn": "জানি",
+      "tr": "jani",
+      "en": "(I) know",
+      "alt": [
+        "I know",
+        "know"
+      ],
+      "pos": "verb",
+      "lesson": "u03-l06",
+      "notes": "From জানা \"know\". আমি জানি না = \"I don't know\"."
+    },
+    {
+      "id": "janen",
+      "bn": "জানেন",
+      "tr": "janen",
+      "en": "(you, polite) know",
+      "alt": [
+        "you know",
+        "do you know",
+        "know"
+      ],
+      "pos": "verb",
+      "lesson": "u03-l06",
+      "register": "polite"
+    },
+    {
+      "id": "bujhte-parchhi-na",
+      "bn": "বুঝতে পারছি না",
+      "tr": "bujhte parchhi na",
+      "en": "I don't understand",
+      "alt": [
+        "I can't understand",
+        "I'm not understanding"
+      ],
+      "pos": "phrase",
+      "lesson": "u03-l06",
+      "notes": "Learn as a chunk for now (lit. \"I am not able to understand\"). The পারা \"can\" verb is taught in U8."
+    },
+    {
+      "id": "kintu",
+      "bn": "কিন্তু",
+      "tr": "kintu",
+      "en": "but",
+      "alt": [
+        "however"
+      ],
+      "pos": "particle",
+      "lesson": "u03-l07"
+    },
+    {
+      "id": "shobai",
+      "bn": "সবাই",
+      "tr": "shobai",
+      "en": "everyone",
+      "alt": [
+        "everybody",
+        "all"
+      ],
+      "pos": "pronoun",
+      "lesson": "u03-l07"
+    },
+    {
+      "id": "mane",
+      "bn": "মানে",
+      "tr": "mane",
+      "en": "meaning",
+      "alt": [
+        "means",
+        "mean",
+        "I mean"
+      ],
+      "pos": "noun",
+      "lesson": "u03-l07",
+      "notes": "X মানে কী? = \"What does X mean?\". Also a filler: মানে… \"I mean…\"."
     }
   ]
 }

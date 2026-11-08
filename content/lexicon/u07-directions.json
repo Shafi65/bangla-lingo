@@ -732,6 +732,57 @@
       "pos": "postposition",
       "lesson": "u07-l07",
       "notes": "কোন দিকে? 'which way?'; ডান দিকে 'to the right side'."
+    },
+    {
+      "id": "gari",
+      "bn": "গাড়ি",
+      "tr": "gari",
+      "en": "car",
+      "alt": [
+        "vehicle",
+        "automobile"
+      ],
+      "pos": "noun",
+      "lesson": "u07-l06"
+    },
+    {
+      "id": "shahajjo",
+      "bn": "সাহায্য",
+      "tr": "shahajjo",
+      "en": "help",
+      "alt": [
+        "assistance"
+      ],
+      "pos": "noun",
+      "lesson": "u07-l07",
+      "notes": "আমার সাহায্য দরকার = \"I need help\". সাহায্য করা = \"to help\" (করা, U8)."
+    },
+    {
+      "id": "keu",
+      "bn": "কেউ",
+      "tr": "keu",
+      "en": "someone",
+      "alt": [
+        "anyone",
+        "somebody",
+        "anybody"
+      ],
+      "pos": "pronoun",
+      "lesson": "u07-l07",
+      "notes": "With a negative verb: কেউ নেই \"there's no one\"."
+    },
+    {
+      "id": "tahole",
+      "bn": "তাহলে",
+      "tr": "tahole",
+      "en": "then",
+      "alt": [
+        "in that case",
+        "so",
+        "if so"
+      ],
+      "pos": "particle",
+      "lesson": "u07-l07"
     }
   ]
 }

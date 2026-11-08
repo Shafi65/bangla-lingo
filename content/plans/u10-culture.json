@@ -683,10 +683,14 @@
       "title": "Review: festivals & friends",
       "goal": "Greet, invite and celebrate across the year.",
       "grammar": [
-        "review: festival greetings, invitations, চল/চলো/চলেন, register choice"
+        "review: festival greetings, invitations, চল/চলো/চলেন, register choice",
+        "যদি 'if' + present: যদি সময় হয়"
       ],
       "new": [
-        "shobaike"
+        "shobaike",
+        "jodi",
+        "hoy",
+        "lok"
       ],
       "review": [
         "ider",
@@ -698,9 +702,11 @@
         "ashben",
         "pitha",
         "khaben",
-        "aj"
+        "aj",
+        "shomoy",
+        "melay"
       ],
-      "tip": "Match the greeting to the occasion:\n\n- Eid — **ঈদ মোবারক**\n- Bengali New Year — **শুভ নববর্ষ**\n- after Durga Puja — **শুভ বিজয়া**\n- birthday — **শুভ জন্মদিন**\n- to a whole group — **সবাইকে ঈদের শুভেচ্ছা**\n\nAnd match the register to the person: **চলেন** with your teacher, **চলো** with a classmate, **চল** with your best friend. When in doubt, go one level *more* polite.",
+      "tip": "Match the greeting to the occasion:\n\n- Eid — **ঈদ মোবারক**\n- Bengali New Year — **শুভ নববর্ষ**\n- after Durga Puja — **শুভ বিজয়া**\n- birthday — **শুভ জন্মদিন**\n- to a whole group — **সবাইকে ঈদের শুভেচ্ছা**\n\nAnd match the register to the person: **চলেন** with your teacher, **চলো** with a classmate, **চল** with your best friend. When in doubt, go one level *more* polite.\n\n**যদি** \"if\" + present tense: **যদি সময় হয়** \"if there's time\" — a soft way to invite.",
       "sentences": [
         {
           "bn": "সবাইকে ঈদের শুভেচ্ছা।",
@@ -753,6 +759,22 @@
           "bn": "এই উপহার তোমার জন্য।",
           "tr": "ei upohar tomar jonno.",
           "en": "This gift is for you."
+        },
+        {
+          "bn": "যদি সময় হয়, আমাদের বাসায় আসবেন।",
+          "tr": "jodi shomoy hoy, amader bashay ashben.",
+          "en": "If you have time, please come to our home.",
+          "alt": [
+            "If there is time, please come to our place."
+          ]
+        },
+        {
+          "bn": "মেলায় অনেক লোক।",
+          "tr": "melay onek lok.",
+          "en": "There are a lot of people at the fair.",
+          "alt": [
+            "The fair is very crowded."
+          ]
         }
       ]
     }

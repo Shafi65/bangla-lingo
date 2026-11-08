@@ -524,12 +524,17 @@
       "goal": "Address non-relatives respectfully with kin terms.",
       "grammar": [
         "kin terms as polite address: ভাই, ভাইয়া, আপা, আপু, চাচা, খালা, মামা",
-        "আংকেল / আন্টি in urban speech"
+        "আংকেল / আন্টি in urban speech",
+        "survival chunks: আমি জানি না · বুঝতে পারছি না · আচ্ছা"
       ],
       "new": [
         "apa",
         "angkel",
-        "anti"
+        "anti",
+        "achchha",
+        "jani",
+        "janen",
+        "bujhte-parchhi-na"
       ],
       "review": [
         "mama",
@@ -552,9 +557,10 @@
         "dhonnobad",
         "bhai",
         "ekhane",
-        "achhe"
+        "achhe",
+        "kothay"
       ],
-      "tip": "In Bangladesh you rarely call an adult by their name or 'sir/madam'. Instead you **promote them into your family**:\n\n- **ভাই / ভাইয়া** — any man around your age or a bit older (shopkeepers, waiters, colleagues)\n- **আপা / আপু** — any woman a bit older than you\n- **চাচা** — an older man; **খালা** — an older woman (also domestic helpers)\n- **মামা** — rickshaw drivers, tea-stall owners, street vendors: friendly and informal\n- **আংকেল / আন্টি** — friends' parents and older people in middle-class city life\n\nThese terms still take **আপনি** (polite verbs) unless you know the person well: *Chacha, apni kemon achhen?*\n\nUsing them makes people warm to you instantly — a foreigner who says **মামা** to a rickshaw driver will usually get a big smile.",
+      "tip": "In Bangladesh you rarely call an adult by their name or 'sir/madam'. Instead you **promote them into your family**:\n\n- **ভাই / ভাইয়া** — any man around your age or a bit older (shopkeepers, waiters, colleagues)\n- **আপা / আপু** — any woman a bit older than you\n- **চাচা** — an older man; **খালা** — an older woman (also domestic helpers)\n- **মামা** — rickshaw drivers, tea-stall owners, street vendors: friendly and informal\n- **আংকেল / আন্টি** — friends' parents and older people in middle-class city life\n\nThese terms still take **আপনি** (polite verbs) unless you know the person well: *Chacha, apni kemon achhen?*\n\nUsing them makes people warm to you instantly — a foreigner who says **মামা** to a rickshaw driver will usually get a big smile.\n\nThree lifesavers for talking to strangers: **আমি জানি না** \"I don't know\", **বুঝতে পারছি না** \"I don't understand\", and **আচ্ছা** \"OK / I see\".",
       "sentences": [
         {
           "bn": "মামা, ভালো আছেন?",
@@ -606,19 +612,33 @@
           ]
         },
         {
-          "bn": "আন্টি, ধন্যবাদ।",
-          "tr": "anti, dhonnobad.",
-          "en": "Thank you, auntie.",
+          "bn": "আচ্ছা, ধন্যবাদ, আন্টি।",
+          "tr": "achchha, dhonnobad, anti.",
+          "en": "OK, thank you, auntie.",
           "alt": [
-            "Thanks, auntie."
+            "OK, thanks, auntie.",
+            "I see, thank you, auntie."
           ]
         },
         {
-          "bn": "ভাই, এখানে কি ডাক্তার আছে?",
-          "tr": "bhai, ekhane ki daktar achhe?",
-          "en": "Brother, is there a doctor here?",
+          "bn": "ভাই, ডাক্তার কোথায় জানেন?",
+          "tr": "bhai, daktar kothay janen?",
+          "en": "Brother, do you know where the doctor is?",
           "alt": [
-            "Excuse me, is there a doctor here?"
+            "Excuse me, do you know where the doctor is?"
+          ]
+        },
+        {
+          "bn": "আমি জানি না।",
+          "tr": "ami jani na.",
+          "en": "I don't know."
+        },
+        {
+          "bn": "আপা, আমি বুঝতে পারছি না।",
+          "tr": "apa, ami bujhte parchhi na.",
+          "en": "Ma'am, I don't understand.",
+          "alt": [
+            "Sister, I don't understand."
           ]
         }
       ]
@@ -629,12 +649,17 @@
       "goal": "Describe your whole family, including spouse and children.",
       "grammar": [
         "review of kin terms and 'have'",
-        "স্বামী / স্ত্রী (neutral) vs বউ (colloquial)"
+        "স্বামী / স্ত্রী (neutral) vs বউ (colloquial)",
+        "কিন্তু 'but' joins two clauses",
+        "X মানে কী? 'what does X mean?'"
       ],
       "new": [
         "shami",
         "stri",
-        "bou"
+        "bou",
+        "kintu",
+        "shobai",
+        "mane"
       ],
       "review": [
         "uni",
@@ -655,9 +680,14 @@
         "bachcha",
         "boro",
         "apu",
-        "shikkhok"
+        "shikkhok",
+        "bhai",
+        "bon",
+        "nei",
+        "kemon",
+        "ki-what"
       ],
-      "tip": "Last new words: **স্বামী** (*shami*, husband) and **স্ত্রী** (*stri*, wife). In everyday speech many people say **বউ** (*bou*) for 'wife' — it also means 'bride'. (The ব in স্বামী is silent, which you'll learn about in the conjuncts script unit.)\n\nQuick recap of the family map:\n\n| | father's side | mother's side |\n|---|---|---|\n| grandparents | দাদা / দাদি | নানা / নানি |\n| uncle | চাচা, ফুফা | মামা, খালু |\n| aunt | চাচি, ফুফু | মামি, খালা |\n\nAnd remember **ছেলে / মেয়ে** = son / daughter as well as boy / girl.",
+      "tip": "Last new words: **স্বামী** (*shami*, husband) and **স্ত্রী** (*stri*, wife). In everyday speech many people say **বউ** (*bou*) for 'wife' — it also means 'bride'. (The ব in স্বামী is silent, which you'll learn about in the conjuncts script unit.)\n\nQuick recap of the family map:\n\n| | father's side | mother's side |\n|---|---|---|\n| grandparents | দাদা / দাদি | নানা / নানি |\n| uncle | চাচা, ফুফা | মামা, খালু |\n| aunt | চাচি, ফুফু | মামি, খালা |\n\nAnd remember **ছেলে / মেয়ে** = son / daughter as well as boy / girl.\n\nWhen you hear a word you don't know, ask **X মানে কী?** \"What does X mean?\". **সবাই কেমন আছে?** \"How is everyone?\" is the classic question about someone's family.",
       "sentences": [
         {
           "bn": "উনি আমার স্বামী।",
@@ -686,11 +716,6 @@
           "en": "I have a son and a daughter."
         },
         {
-          "bn": "আপনার স্বামী কোথায়?",
-          "tr": "apnar shami kothay?",
-          "en": "Where is your husband?"
-        },
-        {
           "bn": "আমার নানা আর নানি বাংলাদেশি।",
           "tr": "amar nana ar nani bangladeshi.",
           "en": "My grandparents are Bangladeshi.",
@@ -700,21 +725,38 @@
           ]
         },
         {
-          "bn": "ওনার কয়জন বাচ্চা আছে?",
-          "tr": "onar koyjon bachcha achhe?",
-          "en": "How many children does she have?",
-          "alt": [
-            "How many children does he have?",
-            "How many kids does she have?"
-          ]
-        },
-        {
           "bn": "আমার বড় আপু শিক্ষক।",
           "tr": "amar boro apu shikkhok.",
           "en": "My elder sister is a teacher.",
           "alt": [
             "My big sister is a teacher."
           ]
+        },
+        {
+          "bn": "আমার ভাই আছে, কিন্তু বোন নেই।",
+          "tr": "amar bhai achhe, kintu bon nei.",
+          "en": "I have a brother, but no sister.",
+          "alt": [
+            "I have a brother but I don't have a sister."
+          ]
+        },
+        {
+          "bn": "সবাই কেমন আছে?",
+          "tr": "shobai kemon achhe?",
+          "en": "How is everyone?",
+          "alt": [
+            "How is everybody?"
+          ]
+        },
+        {
+          "bn": "বউ মানে কী?",
+          "tr": "bou mane ki?",
+          "en": "What does \"bou\" mean?"
+        },
+        {
+          "bn": "বউ মানে স্ত্রী।",
+          "tr": "bou mane stri.",
+          "en": "\"Bou\" means wife."
         }
       ]
     }

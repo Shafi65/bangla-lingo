@@ -188,7 +188,7 @@
       ],
       "pos": "verb",
       "lesson": "u08-l02",
-      "notes": "From মাজা 'scrub, brush'."
+      "notes": "From মাজা 'scrub, brush'. Urban speech often says দাঁত ব্রাশ করি instead."
     },
     {
       "id": "dat-maja",
@@ -199,7 +199,8 @@
         "to brush teeth"
       ],
       "pos": "phrase",
-      "lesson": "u08-l02"
+      "lesson": "u08-l02",
+      "notes": "Also very common, especially in cities: দাঁত ব্রাশ করা (দাঁত ব্রাশ করি \"I brush my teeth\") — accept both."
     },
     {
       "id": "shattay",
@@ -791,6 +792,198 @@
         "normally"
       ],
       "pos": "adv",
+      "lesson": "u08-l09"
+    },
+    {
+      "id": "kothin",
+      "bn": "কঠিন",
+      "tr": "kothin",
+      "en": "difficult",
+      "alt": [
+        "hard",
+        "tough"
+      ],
+      "pos": "adj",
+      "lesson": "u08-l01"
+    },
+    {
+      "id": "shotti",
+      "bn": "সত্যি",
+      "tr": "shotti",
+      "en": "really",
+      "alt": [
+        "true",
+        "truly",
+        "really?"
+      ],
+      "pos": "adv",
+      "lesson": "u08-l01"
+    },
+    {
+      "id": "ashole",
+      "bn": "আসলে",
+      "tr": "ashole",
+      "en": "actually",
+      "alt": [
+        "in fact",
+        "really"
+      ],
+      "pos": "adv",
+      "lesson": "u08-l01"
+    },
+    {
+      "id": "fon",
+      "bn": "ফোন",
+      "tr": "fon",
+      "en": "phone",
+      "alt": [
+        "mobile",
+        "cell phone"
+      ],
+      "pos": "noun",
+      "lesson": "u08-l07",
+      "notes": "ফোন দেখা \"look at one's phone\"; ফোন দেওয়া \"to call (someone)\"."
+    },
+    {
+      "id": "karon",
+      "bn": "কারণ",
+      "tr": "karon",
+      "en": "because",
+      "alt": [
+        "reason",
+        "since"
+      ],
+      "pos": "particle",
+      "lesson": "u08-l07"
+    },
+    {
+      "id": "tai",
+      "bn": "তাই",
+      "tr": "tai",
+      "en": "so",
+      "alt": [
+        "therefore",
+        "that is why"
+      ],
+      "pos": "particle",
+      "lesson": "u08-l07"
+    },
+    {
+      "id": "bolte",
+      "bn": "বলতে",
+      "tr": "bolte",
+      "en": "to speak",
+      "alt": [
+        "speak",
+        "to say",
+        "say"
+      ],
+      "pos": "verb",
+      "lesson": "u08-l08",
+      "notes": "Infinitive of বলা, like খেতে from খাওয়া."
+    },
+    {
+      "id": "pari",
+      "bn": "পারি",
+      "tr": "pari",
+      "en": "(I) can",
+      "alt": [
+        "I can",
+        "can",
+        "am able"
+      ],
+      "pos": "verb",
+      "lesson": "u08-l08",
+      "notes": "Infinitive + পারা = \"can\": বলতে পারি \"I can speak\". Negative: পারি না \"I can't\"."
+    },
+    {
+      "id": "paren",
+      "bn": "পারেন",
+      "tr": "paren",
+      "en": "(you, polite) can",
+      "alt": [
+        "you can",
+        "can you",
+        "can"
+      ],
+      "pos": "verb",
+      "lesson": "u08-l08",
+      "register": "polite"
+    },
+    {
+      "id": "pare",
+      "bn": "পারে",
+      "tr": "pare",
+      "en": "(he/she) can",
+      "alt": [
+        "he can",
+        "she can",
+        "can"
+      ],
+      "pos": "verb",
+      "lesson": "u08-l08"
+    },
+    {
+      "id": "mone-hoy",
+      "bn": "মনে হয়",
+      "tr": "mone hoy",
+      "en": "I think",
+      "alt": [
+        "it seems",
+        "I guess",
+        "probably"
+      ],
+      "pos": "phrase",
+      "lesson": "u08-l08",
+      "notes": "Lit. \"it comes to mind\". Often with আমার: আমার মনে হয় \"I think\"."
+    },
+    {
+      "id": "hoyto",
+      "bn": "হয়তো",
+      "tr": "hoyto",
+      "en": "maybe",
+      "alt": [
+        "perhaps",
+        "possibly"
+      ],
+      "pos": "adv",
+      "lesson": "u08-l08"
+    },
+    {
+      "id": "proshno",
+      "bn": "প্রশ্ন",
+      "tr": "proshno",
+      "en": "question",
+      "alt": [
+        "a question"
+      ],
+      "pos": "noun",
+      "lesson": "u08-l08"
+    },
+    {
+      "id": "uttor",
+      "bn": "উত্তর",
+      "tr": "uttor",
+      "en": "answer",
+      "alt": [
+        "reply",
+        "north"
+      ],
+      "pos": "noun",
+      "lesson": "u08-l08",
+      "notes": "Also means \"north\"."
+    },
+    {
+      "id": "bhul",
+      "bn": "ভুল",
+      "tr": "bhul",
+      "en": "wrong",
+      "alt": [
+        "mistake",
+        "incorrect",
+        "error"
+      ],
+      "pos": "adj",
       "lesson": "u08-l08"
     }
   ]

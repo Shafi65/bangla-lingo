@@ -542,6 +542,69 @@
       "pos": "noun",
       "lesson": "u04-l07",
       "notes": "Dhaka is famous for কাচ্চি বিরিয়ানি (kachchi biriyani, layered mutton biryani)."
+    },
+    {
+      "id": "oboshshoi",
+      "bn": "অবশ্যই",
+      "tr": "oboshshoi",
+      "en": "of course",
+      "alt": [
+        "certainly",
+        "sure",
+        "definitely"
+      ],
+      "pos": "adv",
+      "lesson": "u04-l04"
+    },
+    {
+      "id": "shomossha",
+      "bn": "সমস্যা",
+      "tr": "shomossha",
+      "en": "problem",
+      "alt": [
+        "issue",
+        "trouble"
+      ],
+      "pos": "noun",
+      "lesson": "u04-l04",
+      "notes": "সমস্যা নেই = \"no problem\"."
+    },
+    {
+      "id": "dorkar",
+      "bn": "দরকার",
+      "tr": "dorkar",
+      "en": "need",
+      "alt": [
+        "necessary",
+        "needed"
+      ],
+      "pos": "noun",
+      "lesson": "u04-l04",
+      "notes": "Experiencer-র + X + দরকার: আমার পানি দরকার \"I need water\". In shops লাগবে (U6) is more common."
+    },
+    {
+      "id": "kharap",
+      "bn": "খারাপ",
+      "tr": "kharap",
+      "en": "bad",
+      "alt": [
+        "not good",
+        "poor"
+      ],
+      "pos": "adj",
+      "lesson": "u04-l07"
+    },
+    {
+      "id": "shob",
+      "bn": "সব",
+      "tr": "shob",
+      "en": "all",
+      "alt": [
+        "every",
+        "everything"
+      ],
+      "pos": "adj",
+      "lesson": "u04-l07"
     }
   ]
 }

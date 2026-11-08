@@ -516,7 +516,8 @@
         "porjonto",
         "jabe",
         "tikit",
-        "chharbe"
+        "chharbe",
+        "gari"
       ],
       "review": [
         "ei",
@@ -594,6 +595,11 @@
           "alt": [
             "The train is leaving now."
           ]
+        },
+        {
+          "bn": "আমার গাড়ি নেই।",
+          "tr": "amar gari nei.",
+          "en": "I don't have a car."
         }
       ]
     },
@@ -603,11 +609,16 @@
       "goal": "Combine directions, places and transport.",
       "grammar": [
         "কোন দিকে? 'which way?'",
-        "review: postpositions, locatives, যাব/যাবে/যাবেন"
+        "review: postpositions, locatives, যাব/যাবে/যাবেন",
+        "আমার সাহায্য দরকার 'I need help'",
+        "তাহলে 'then / in that case'"
       ],
       "new": [
         "kon",
-        "dike"
+        "dike",
+        "shahajjo",
+        "keu",
+        "tahole"
       ],
       "review": [
         "steshon",
@@ -619,19 +630,18 @@
         "moshjider",
         "pashe",
         "ekhane",
-        "thamen"
+        "thamen",
+        "dorkar",
+        "dure",
+        "rikshay",
+        "jabo"
       ],
-      "tip": "Ask for the general direction with **কোন দিকে?** (*kon dike?*) 'which way?': **স্টেশন কোন দিকে?**\n\nA typical trip:\n\n- **মামা, ধানমন্ডি যাবেন?** — **যাব।**\n- **ভাড়া কত?** — **পঞ্চাশ টাকা।**\n- **মোড়ে ডানে যান… এখানে থামেন।**\n\nPostpositions always follow a genitive: **স্টেশনের কাছে**, **মসজিদের পাশে**.",
+      "tip": "Ask for the general direction with **কোন দিকে?** (*kon dike?*) 'which way?': **স্টেশন কোন দিকে?**\n\nA typical trip:\n\n- **মামা, ধানমন্ডি যাবেন?** — **যাব।**\n- **ভাড়া কত?** — **পঞ্চাশ টাকা।**\n- **মোড়ে ডানে যান… এখানে থামেন।**\n\nPostpositions always follow a genitive: **স্টেশনের কাছে**, **মসজিদের পাশে**.\n\nIf you are lost: **আমার সাহায্য দরকার** \"I need help\". **তাহলে** \"then, in that case\" links your plan to what you just heard.",
       "sentences": [
         {
           "bn": "স্টেশন কোন দিকে?",
           "tr": "steshon kon dike?",
           "en": "Which way is the station?"
-        },
-        {
-          "bn": "বাজার কোন দিকে?",
-          "tr": "bajar kon dike?",
-          "en": "Which way is the market?"
         },
         {
           "bn": "মামা, ধানমন্ডি যাবেন?",
@@ -660,17 +670,30 @@
           ]
         },
         {
-          "bn": "আমার বাসা স্টেশনের কাছে।",
-          "tr": "amar basha steshoner kachhe.",
-          "en": "My home is near the station.",
-          "alt": [
-            "I live near the station."
-          ]
-        },
-        {
           "bn": "বাজার কি অনেক দূরে?",
           "tr": "bajar ki onek dure?",
           "en": "Is the market very far?"
+        },
+        {
+          "bn": "আমার সাহায্য দরকার।",
+          "tr": "amar shahajjo dorkar.",
+          "en": "I need help."
+        },
+        {
+          "bn": "এখানে কি কেউ আছে?",
+          "tr": "ekhane ki keu achhe?",
+          "en": "Is anyone here?",
+          "alt": [
+            "Is there anybody here?"
+          ]
+        },
+        {
+          "bn": "স্টেশন দূরে? তাহলে রিকশায় যাব।",
+          "tr": "steshon dure? tahole rikshay jabo.",
+          "en": "The station is far? Then I'll go by rickshaw.",
+          "alt": [
+            "Is the station far? In that case I'll take a rickshaw."
+          ]
         }
       ]
     }

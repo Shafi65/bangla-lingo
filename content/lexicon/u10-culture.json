@@ -752,6 +752,44 @@
       "pos": "pronoun",
       "lesson": "u10-l08",
       "notes": "Object form of সবাই 'everyone'."
+    },
+    {
+      "id": "jodi",
+      "bn": "যদি",
+      "tr": "jodi",
+      "en": "if",
+      "alt": [
+        "in case"
+      ],
+      "pos": "particle",
+      "lesson": "u10-l08"
+    },
+    {
+      "id": "hoy",
+      "bn": "হয়",
+      "tr": "hoy",
+      "en": "is",
+      "alt": [
+        "happens",
+        "becomes",
+        "there is"
+      ],
+      "pos": "verb",
+      "lesson": "u10-l08",
+      "notes": "From হওয়া \"be, become, happen\". যদি সময় হয় \"if there's time\"."
+    },
+    {
+      "id": "lok",
+      "bn": "লোক",
+      "tr": "lok",
+      "en": "people",
+      "alt": [
+        "person",
+        "folks"
+      ],
+      "pos": "noun",
+      "lesson": "u10-l08",
+      "notes": "Everyday word for \"person / people\"; মানুষ is more neutral."
     }
   ]
 }

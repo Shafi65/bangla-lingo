@@ -673,6 +673,71 @@
       "pos": "verb",
       "lesson": "u09-l08",
       "notes": "Colloquial: গেছিল."
+    },
+    {
+      "id": "shikkharthi",
+      "bn": "শিক্ষার্থী",
+      "tr": "shikkharthi",
+      "en": "student",
+      "alt": [
+        "learner",
+        "pupil"
+      ],
+      "pos": "noun",
+      "lesson": "u09-l06",
+      "notes": "Gender-neutral, used for both male and female students; very common in Bangladeshi schools and news. ছাত্র / ছাত্রী mark gender."
+    },
+    {
+      "id": "jokhon",
+      "bn": "যখন",
+      "tr": "jokhon",
+      "en": "when",
+      "alt": [
+        "while",
+        "at the time"
+      ],
+      "pos": "particle",
+      "lesson": "u09-l07",
+      "notes": "Relative \"when\" (not a question): যখন … তখন … \"when …, then …\". The question word is কখন."
+    },
+    {
+      "id": "tokhon",
+      "bn": "তখন",
+      "tr": "tokhon",
+      "en": "then",
+      "alt": [
+        "at that time",
+        "at the time"
+      ],
+      "pos": "adv",
+      "lesson": "u09-l07"
+    },
+    {
+      "id": "kotha-talk",
+      "bn": "কথা",
+      "tr": "kotha",
+      "en": "talk",
+      "alt": [
+        "word",
+        "words",
+        "conversation"
+      ],
+      "pos": "noun",
+      "lesson": "u09-l07",
+      "notes": "কথা বলা = \"to talk, speak\". Don't confuse with কোথা \"where\" (কোথা থেকে)."
+    },
+    {
+      "id": "moto",
+      "bn": "মতো",
+      "tr": "moto",
+      "en": "like",
+      "alt": [
+        "similar to",
+        "as"
+      ],
+      "pos": "postposition",
+      "lesson": "u09-l08",
+      "notes": "Follows a genitive: মায়ের মতো \"like (my) mother\"."
     }
   ]
 }

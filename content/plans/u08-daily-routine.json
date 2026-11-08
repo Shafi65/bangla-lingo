@@ -16,7 +16,10 @@
         "koro",
         "koren",
         "kore",
-        "kaj"
+        "kaj",
+        "kothin",
+        "shotti",
+        "ashole"
       ],
       "review": [
         "ami",
@@ -30,7 +33,7 @@
         "amra",
         "tara"
       ],
-      "tip": "Bengali verbs change their ending for the person, and the endings are very regular. Here is **করা** (*kora*, 'to do'):\n\n| | |\n|---|---|\n| আমি / আমরা | **করি** (*kori*) |\n| তুই | **করিস** (*korish*) |\n| তুমি / তোমরা | **করো** (*koro*) |\n| আপনি / তিনি | **করেন** (*koren*) |\n| সে / তারা | **করে** (*kore*) |\n\nThere's no difference between singular and plural in the verb: আমি করি, আমরা করি. And polite 'you' and polite 'he/she' share **-েন**.\n\nMany everyday actions are **noun + করা**: **কাজ করা** 'to work' (lit. 'do work'). **আপনি কী করেন?** 'What do you do?' is how people ask about your job.",
+      "tip": "Bengali verbs change their ending for the person, and the endings are very regular. Here is **করা** (*kora*, 'to do'):\n\n| | |\n|---|---|\n| আমি / আমরা | **করি** (*kori*) |\n| তুই | **করিস** (*korish*) |\n| তুমি / তোমরা | **করো** (*koro*) |\n| আপনি / তিনি | **করেন** (*koren*) |\n| সে / তারা | **করে** (*kore*) |\n\nThere's no difference between singular and plural in the verb: আমি করি, আমরা করি. And polite 'you' and polite 'he/she' share **-েন**.\n\nMany everyday actions are **noun + করা**: **কাজ করা** 'to work' (lit. 'do work'). **আপনি কী করেন?** 'What do you do?' is how people ask about your job.\n\nUseful reactions: **সত্যি?** \"Really?\" and **আসলে…** \"Actually…\".",
       "sentences": [
         {
           "bn": "আমি কাজ করি।",
@@ -80,9 +83,22 @@
           "en": "We work."
         },
         {
-          "bn": "তারা কাজ করে।",
-          "tr": "tara kaj kore.",
-          "en": "They work."
+          "bn": "আমার কাজ খুব কঠিন।",
+          "tr": "amar kaj khub kothin.",
+          "en": "My work is very hard.",
+          "alt": [
+            "My job is very difficult."
+          ]
+        },
+        {
+          "bn": "সত্যি?",
+          "tr": "shotti?",
+          "en": "Really?"
+        },
+        {
+          "bn": "আসলে আমি কাজ করি না।",
+          "tr": "ashole ami kaj kori na.",
+          "en": "Actually, I don't work."
         }
       ]
     },
@@ -604,7 +620,8 @@
         "তারপর 'then, after that'",
         "X-এর পরে 'after X', X-এর আগে 'before X'",
         "আগে … পরে … 'first … later …'",
-        "নাস্তা করা 'have breakfast'"
+        "নাস্তা করা 'have breakfast'",
+        "কারণ 'because' and তাই 'so' join two clauses"
       ],
       "new": [
         "tarpor",
@@ -612,7 +629,10 @@
         "pore-later",
         "nashtar",
         "ghumer",
-        "kajer"
+        "kajer",
+        "fon",
+        "karon",
+        "tai"
       ],
       "review": [
         "ami",
@@ -624,9 +644,12 @@
         "ofise",
         "jai",
         "boi",
-        "pori"
+        "pori",
+        "shomoy",
+        "nei",
+        "dekhi"
       ],
-      "tip": "Link your day with **তারপর** (*tarpor*) 'then': **আমি সকালে উঠি, তারপর গোসল করি।**\n\n**আগে** 'before' and **পরে** 'after' are postpositions, so the noun goes in the genitive:\n\n- **নাস্তার পরে** — after breakfast\n- **ঘুমের আগে** — before sleep\n- **কাজের পরে** — after work\n\nAlone they mean 'first' and 'later': **আগে নামাজ পড়ি, পরে নাস্তা করি** 'First I pray, then I have breakfast'.\n\nBreakfast is **নাস্তা**, and you 'do' it: **নাস্তা করা**. A typical Bangladeshi breakfast: রুটি, ডিম, সবজি and চা.",
+      "tip": "Link your day with **তারপর** (*tarpor*) 'then': **আমি সকালে উঠি, তারপর গোসল করি।**\n\n**আগে** 'before' and **পরে** 'after' are postpositions, so the noun goes in the genitive:\n\n- **নাস্তার পরে** — after breakfast\n- **ঘুমের আগে** — before sleep\n- **কাজের পরে** — after work\n\nAlone they mean 'first' and 'later': **আগে নামাজ পড়ি, পরে নাস্তা করি** 'First I pray, then I have breakfast'.\n\nBreakfast is **নাস্তা**, and you 'do' it: **নাস্তা করা**. A typical Bangladeshi breakfast: রুটি, ডিম, সবজি and চা.\n\n**কারণ** \"because\" introduces the reason; **তাই** \"so\" introduces the result.",
       "sentences": [
         {
           "bn": "আমি সকালে উঠি, তারপর গোসল করি।",
@@ -682,17 +705,137 @@
           ]
         },
         {
-          "bn": "আমি রাতে রান্না করি।",
-          "tr": "ami rate ranna kori.",
-          "en": "I cook at night.",
+          "bn": "আমি রাতে রান্না করি, কারণ সকালে সময় নেই।",
+          "tr": "ami rate ranna kori, karon shokale shomoy nei.",
+          "en": "I cook at night because there's no time in the morning.",
           "alt": [
-            "I cook in the evening."
+            "I cook at night, because I have no time in the morning."
+          ]
+        },
+        {
+          "bn": "সকালে সময় নেই, তাই আমি রাতে রান্না করি।",
+          "tr": "shokale shomoy nei, tai ami rate ranna kori.",
+          "en": "There's no time in the morning, so I cook at night."
+        },
+        {
+          "bn": "ঘুমের আগে আমি ফোন দেখি।",
+          "tr": "ghumer age ami fon dekhi.",
+          "en": "Before sleeping I look at my phone.",
+          "alt": [
+            "I check my phone before bed."
           ]
         }
       ]
     },
     {
       "id": "u08-l08",
+      "title": "I can, I think",
+      "goal": "Say what you can do, give an opinion, and ask a question.",
+      "grammar": [
+        "infinitive + পারা 'can': বলতে পারি · বলতে পারেন · বলতে পারে",
+        "negative: পারি না 'can't'",
+        "(আমার) মনে হয় 'I think'; হয়তো 'maybe'"
+      ],
+      "new": [
+        "bolte",
+        "pari",
+        "paren",
+        "pare",
+        "mone-hoy",
+        "hoyto",
+        "proshno",
+        "uttor",
+        "bhul"
+      ],
+      "review": [
+        "ektu",
+        "bangla",
+        "ingreji",
+        "khete",
+        "machh",
+        "bashay",
+        "ofise",
+        "amar",
+        "eta",
+        "achhe",
+        "ki-q",
+        "ki-what",
+        "khub",
+        "bhalo",
+        "na"
+      ],
+      "tip": "**Can** = infinitive + **পারা**: বলতে **পারি** \"I can speak\", বলতে **পারেন** \"you can speak\", খেতে **পারি না** \"I can't eat\". You already know the chunk **বুঝতে পারছি না** — that is the same verb.\n\nTo give an opinion, start with **(আমার) মনে হয়** \"I think\" (lit. \"it comes to my mind\"). **হয়তো** \"maybe\" softens a guess.\n\nIn class: **আমার একটা প্রশ্ন আছে** \"I have a question\".",
+      "sentences": [
+        {
+          "bn": "আমি একটু বাংলা বলতে পারি।",
+          "tr": "ami ektu bangla bolte pari.",
+          "en": "I can speak a little Bengali.",
+          "alt": [
+            "I can speak a bit of Bangla."
+          ]
+        },
+        {
+          "bn": "আপনি কি ইংরেজি বলতে পারেন?",
+          "tr": "apni ki ingreji bolte paren?",
+          "en": "Can you speak English?",
+          "alt": [
+            "Do you speak English?"
+          ]
+        },
+        {
+          "bn": "সে খুব ভালো বাংলা বলতে পারে।",
+          "tr": "she khub bhalo bangla bolte pare.",
+          "en": "She can speak Bengali very well.",
+          "alt": [
+            "He speaks Bengali very well."
+          ]
+        },
+        {
+          "bn": "আমি মাছ খেতে পারি না।",
+          "tr": "ami machh khete pari na.",
+          "en": "I can't eat fish."
+        },
+        {
+          "bn": "মনে হয় সে বাসায় আছে।",
+          "tr": "mone hoy she bashay achhe.",
+          "en": "I think he's at home.",
+          "alt": [
+            "He's probably at home."
+          ]
+        },
+        {
+          "bn": "হয়তো সে অফিসে।",
+          "tr": "hoyto she ofise.",
+          "en": "Maybe she's at the office.",
+          "alt": [
+            "Perhaps he is at the office."
+          ]
+        },
+        {
+          "bn": "আমার একটা প্রশ্ন আছে।",
+          "tr": "amar ekta proshno achhe.",
+          "en": "I have a question."
+        },
+        {
+          "bn": "উত্তর কী?",
+          "tr": "uttor ki?",
+          "en": "What's the answer?",
+          "alt": [
+            "What is the answer?"
+          ]
+        },
+        {
+          "bn": "আমার মনে হয় এটা ভুল।",
+          "tr": "amar mone hoy eta bhul.",
+          "en": "I think this is wrong.",
+          "alt": [
+            "I think it's a mistake."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u08-l09",
       "title": "Review: a day in my life",
       "goal": "Describe a full routine with times, frequency and sequence.",
       "grammar": [

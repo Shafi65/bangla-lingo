@@ -273,36 +273,28 @@
       "notes": "Spoken variant of ওটা."
     },
     {
-      "id": "eigulo",
-      "bn": "এইগুলো",
-      "tr": "eigulo",
+      "id": "egulo",
+      "bn": "এগুলো",
+      "tr": "egulo",
       "en": "these",
       "alt": [
         "these ones"
       ],
       "pos": "pronoun",
       "lesson": "u06-l04",
-      "notes": "এই + plural classifier -গুলো. Also এগুলো.",
-      "kolkata": {
-        "bn": "এগুলো",
-        "tr": "egulo"
-      }
+      "notes": "এ + plural classifier -গুলো. Also heard as এইগুলো (more emphatic)."
     },
     {
-      "id": "oigulo",
-      "bn": "ওইগুলো",
-      "tr": "oigulo",
+      "id": "ogulo",
+      "bn": "ওগুলো",
+      "tr": "ogulo",
       "en": "those",
       "alt": [
         "those ones"
       ],
       "pos": "pronoun",
       "lesson": "u06-l04",
-      "notes": "Also ওগুলো.",
-      "kolkata": {
-        "bn": "ওগুলো",
-        "tr": "ogulo"
-      }
+      "notes": "ও + plural classifier -গুলো. Also heard as ওইগুলো (more emphatic)."
     },
     {
       "id": "machhta",
@@ -655,7 +647,7 @@
       ],
       "pos": "noun",
       "lesson": "u06-l07",
-      "notes": "Small notes/coins. Drivers and vendors often lack change for a ৳500 or ৳1000 note.",
+      "notes": "Small notes/coins. Drivers and vendors often lack change for a ৳500 or ৳1000 note. খুচরা means the same and is equally common; both are fine.",
       "kolkata": {
         "bn": "খুচরো",
         "tr": "khuchro"
@@ -668,6 +660,101 @@
       "en": "bag",
       "pos": "noun",
       "lesson": "u06-l08"
+    },
+    {
+      "id": "shudhu",
+      "bn": "শুধু",
+      "tr": "shudhu",
+      "en": "only",
+      "alt": [
+        "just",
+        "merely"
+      ],
+      "pos": "adv",
+      "lesson": "u06-l02"
+    },
+    {
+      "id": "aro",
+      "bn": "আরও",
+      "tr": "aro",
+      "en": "more",
+      "alt": [
+        "some more",
+        "even more"
+      ],
+      "pos": "adv",
+      "lesson": "u06-l03",
+      "notes": "আরও = \"(even) more\"; don't confuse with আর \"and / else\". Also spelled আরো."
+    },
+    {
+      "id": "onno",
+      "bn": "অন্য",
+      "tr": "onno",
+      "en": "other",
+      "alt": [
+        "another",
+        "different"
+      ],
+      "pos": "adj",
+      "lesson": "u06-l04",
+      "notes": "অন্য একটা = \"another one\"."
+    },
+    {
+      "id": "khuchra",
+      "bn": "খুচরা",
+      "tr": "khuchra",
+      "en": "change",
+      "alt": [
+        "small change",
+        "loose change",
+        "coins"
+      ],
+      "pos": "noun",
+      "lesson": "u06-l07",
+      "notes": "Same meaning as ভাংতি; both are common in Bangladesh (খুচরা is also the usual written word).",
+      "kolkata": {
+        "bn": "খুচরো",
+        "tr": "khuchro"
+      }
+    },
+    {
+      "id": "kono",
+      "bn": "কোনো",
+      "tr": "kono",
+      "en": "any",
+      "alt": [
+        "no (with negative)",
+        "some"
+      ],
+      "pos": "adj",
+      "lesson": "u06-l07",
+      "notes": "কোনো … নেই = \"no … at all\": কোনো সমস্যা নেই. Also spelled কোনও."
+    },
+    {
+      "id": "jinish",
+      "bn": "জিনিস",
+      "tr": "jinish",
+      "en": "thing",
+      "alt": [
+        "item",
+        "things",
+        "stuff"
+      ],
+      "pos": "noun",
+      "lesson": "u06-l08"
+    },
+    {
+      "id": "shobcheye",
+      "bn": "সবচেয়ে",
+      "tr": "shobcheye",
+      "en": "the most",
+      "alt": [
+        "most",
+        "best (with ভালো)"
+      ],
+      "pos": "adv",
+      "lesson": "u06-l08",
+      "notes": "সবচেয়ে + adjective = superlative: সবচেয়ে ভালো \"the best\", সবচেয়ে সস্তা \"the cheapest\"."
     }
   ]
 }

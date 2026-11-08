@@ -761,7 +761,8 @@
       "new": [
         "bochhor",
         "bochhore",
-        "mash"
+        "mash",
+        "prothom"
       ],
       "review": [
         "amar",
@@ -791,7 +792,8 @@
         "dupure",
         "amra",
         "biriyani",
-        "shomoy"
+        "shomoy",
+        "din-day"
       ],
       "tip": "Last new words: **বছর** (*bochhor*, year), **বছরে** (in a year) and **মাস** (*mash*, month). **আমার বয়স বিশ বছর** = 'I'm twenty years old' — বছর is optional when talking about age.\n\nBangladesh uses three calendars side by side: the Gregorian calendar for work, the Bengali calendar (বঙ্গাব্দ) for festivals like Pohela Boishakh — its year is about 593 years behind (2026 ≈ 1433) — and the Islamic Hijri calendar for Ramadan and Eid.\n\nQuick check:\n\n- **কয়টা বাজে?** — **সাড়ে পাঁচটা বাজে।**\n- 1:30 = **দেড়টা**, 2:30 = **আড়াইটা**\n- **আজ কী বার?** — **আজ শুক্রবার।**",
       "sentences": [
@@ -859,6 +861,11 @@
           "alt": [
             "I have a month."
           ]
+        },
+        {
+          "bn": "আজ আমার প্রথম দিন।",
+          "tr": "aj amar prothom din.",
+          "en": "Today is my first day."
         }
       ]
     }

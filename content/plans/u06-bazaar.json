@@ -106,7 +106,8 @@
         "taka",
         "poysha",
         "duisho",
-        "pachsho"
+        "pachsho",
+        "shudhu"
       ],
       "review": [
         "ponchash",
@@ -187,6 +188,14 @@
           "alt": [
             "How much money?"
           ]
+        },
+        {
+          "bn": "শুধু পঞ্চাশ টাকা।",
+          "tr": "shudhu ponchash taka.",
+          "en": "Only fifty taka.",
+          "alt": [
+            "Just fifty taka."
+          ]
         }
       ]
     },
@@ -205,7 +214,8 @@
         "din-give",
         "dao",
         "de",
-        "ektu"
+        "ektu",
+        "aro"
       ],
       "review": [
         "ekta",
@@ -219,7 +229,7 @@
         "mama",
         "dim"
       ],
-      "tip": "Bengali commands change with the same three levels of 'you'. For 'give':\n\n- **দে** (*de*) — তুই (close friends, little brother)\n- **দাও** (*dao*) — তুমি\n- **দেন** (*den*) — আপনি, everyday Bangladesh\n- **দিন** (*din*) — আপনি, standard / formal (and the usual form in Kolkata)\n\nThere is no separate word for 'please' in requests like these: the polite verb form *is* the politeness. **আমাকে চা দিন** = 'Please give me tea'.\n\n**আমাকে** (*amake*) is 'me' as an object. **একটা** = 'one, a' (for things you count); **একটু** = 'a little' (for things you don't): **একটু পানি দাও** 'give me a little water'.\n\n**Culture:** shopkeepers are often addressed as **মামা** or **ভাই** — friendly, respectful, and with দেন.",
+      "tip": "Bengali commands change with the same three levels of 'you'. For 'give':\n\n- **দে** (*de*) — তুই (close friends, little brother)\n- **দাও** (*dao*) — তুমি\n- **দেন** (*den*) — আপনি, everyday Bangladesh\n- **দিন** (*din*) — আপনি, standard / formal (and the usual form in Kolkata)\n\nThere is no separate word for 'please' in requests like these: the polite verb form *is* the politeness. **আমাকে চা দিন** = 'Please give me tea'.\n\n**আমাকে** (*amake*) is 'me' as an object. **একটা** = 'one, a' (for things you count); **একটু** = 'a little' (for things you don't): **একটু পানি দাও** 'give me a little water'.\n\n**Culture:** shopkeepers are often addressed as **মামা** or **ভাই** — friendly, respectful, and with দেন.\n\n**আরও** \"more\": আরও একটু \"a little more\".",
       "sentences": [
         {
           "bn": "আমাকে একটা ইলিশ দেন।",
@@ -284,6 +294,14 @@
           "alt": [
             "Give me some rice, please."
           ]
+        },
+        {
+          "bn": "আরও একটু ভাত দিন।",
+          "tr": "aro ektu bhat din.",
+          "en": "Please give me a little more rice.",
+          "alt": [
+            "A little more rice, please."
+          ]
         }
       ]
     },
@@ -294,17 +312,19 @@
       "grammar": [
         "এই / ওই + noun: এই দোকানদার",
         "এইটা / ওইটা 'this one / that one'",
-        "-টা 'the (one)', -গুলো 'the (ones)': মাছটা, কলাগুলো"
+        "-টা 'the (one)', -গুলো 'the (ones)': মাছটা, কলাগুলো",
+        "এগুলো / ওগুলো 'these / those' (emphatic: এইগুলো / ওইগুলো)"
       ],
       "new": [
         "ei",
         "oi",
         "eita",
         "oita",
-        "eigulo",
-        "oigulo",
+        "egulo",
+        "ogulo",
         "machhta",
-        "dokanta"
+        "dokanta",
+        "onno"
       ],
       "review": [
         "koto",
@@ -316,7 +336,7 @@
         "amar",
         "bondhu"
       ],
-      "tip": "**এই** (*ei*) 'this' and **ওই** (*oi*) 'that' go before a noun: **এই দোকানদার** 'this shopkeeper'. On their own, add **-টা**: **এইটা** 'this one', **ওইটা** 'that one' — perfect for pointing at a pile of fruit.\n\nThe classifier **-টা** on a noun makes it specific, like 'the': **মাছটা** 'the fish (that one)'. **-গুলো** makes it specific *and* plural: **কলাগুলো** 'the bananas', **এইগুলো** 'these ones'.\n\nIn speech you'll often hear **এই মাছটা** — both 'this' and -টা together. That's normal, not redundant.\n\n'Not this one, that one' is simply **এইটা না, ওইটা।**",
+      "tip": "**এই** (*ei*) 'this' and **ওই** (*oi*) 'that' go before a noun: **এই দোকানদার** 'this shopkeeper'. On their own, add **-টা**: **এইটা** 'this one', **ওইটা** 'that one' — perfect for pointing at a pile of fruit.\n\nThe classifier **-টা** on a noun makes it specific, like 'the': **মাছটা** 'the fish (that one)'. **-গুলো** makes it specific *and* plural: **কলাগুলো** 'the bananas', **এগুলো** 'these', **ওগুলো** 'those' (you'll also hear the more emphatic এইগুলো / ওইগুলো).\n\nIn speech you'll often hear **এই মাছটা** — both 'this' and -টা together. That's normal, not redundant.\n\n'Not this one, that one' is simply **এইটা না, ওইটা।**",
       "sentences": [
         {
           "bn": "এইটা কত?",
@@ -340,16 +360,16 @@
           "en": "Not this one, that one."
         },
         {
-          "bn": "এইগুলো কত?",
-          "tr": "eigulo koto?",
+          "bn": "এগুলো কত?",
+          "tr": "egulo koto?",
           "en": "How much are these?",
           "alt": [
             "How much are these ones?"
           ]
         },
         {
-          "bn": "ওইগুলো ভালো না।",
-          "tr": "oigulo bhalo na.",
+          "bn": "ওগুলো ভালো না।",
+          "tr": "ogulo bhalo na.",
           "en": "Those aren't good.",
           "alt": [
             "Those are not good."
@@ -377,6 +397,14 @@
           "bn": "এই দোকানদার আমার বন্ধু।",
           "tr": "ei dokandar amar bondhu.",
           "en": "This shopkeeper is my friend."
+        },
+        {
+          "bn": "অন্য একটা দেন।",
+          "tr": "onno ekta den.",
+          "en": "Please give me another one.",
+          "alt": [
+            "Give me a different one, please."
+          ]
         }
       ]
     },
@@ -601,7 +629,9 @@
       "grammar": [
         "future 1st person -ব: কিনব 'I will buy'; polite -বেন: কিনবেন",
         "negative future: কিনব না",
-        "ভাংতি আছে? 'do you have change?'"
+        "ভাংতি আছে? 'do you have change?'",
+        "ভাংতি / খুচরা both = \"change\"",
+        "কোনো … নেই 'no … at all'"
       ],
       "new": [
         "shari",
@@ -611,7 +641,9 @@
         "lunggi",
         "kinbo",
         "kinben",
-        "bhangti"
+        "bhangti",
+        "khuchra",
+        "kono"
       ],
       "review": [
         "ami",
@@ -623,9 +655,10 @@
         "apni",
         "ki-what",
         "na",
-        "achhe"
+        "achhe",
+        "shomossha"
       ],
-      "tip": "The future for 'I' ends in **-ব** (*-bo*): কেনা 'buy' → **কিনব** (*kinbo*) 'I will buy'. For আপনি it's **-বেন**: **কিনবেন** 'you will buy'. Put **না** after the verb to negate: **কিনব না** 'I won't buy'.\n\nUseful words: **শাড়ি** (sari), **জামা** (shirt / top / dress), **লুঙ্গি** (the wrap many Bangladeshi men wear at home). Colours go before the noun: **লাল শাড়ি** 'a red sari'.\n\nBefore paying with a big note, ask **ভাংতি আছে?** 'Do you have change?' — in Kolkata it's **খুচরো** (*khuchro*).\n\n**Culture:** red-and-white saris are the classic choice for Pohela Boishakh (Bengali New Year), which you'll meet in Unit 10.",
+      "tip": "The future for 'I' ends in **-ব** (*-bo*): কেনা 'buy' → **কিনব** (*kinbo*) 'I will buy'. For আপনি it's **-বেন**: **কিনবেন** 'you will buy'. Put **না** after the verb to negate: **কিনব না** 'I won't buy'.\n\nUseful words: **শাড়ি** (sari), **জামা** (shirt / top / dress), **লুঙ্গি** (the wrap many Bangladeshi men wear at home). Colours go before the noun: **লাল শাড়ি** 'a red sari'.\n\nBefore paying with a big note, ask **ভাংতি আছে?** 'Do you have change?' — in Kolkata it's **খুচরো** (*khuchro*).\n\n**Culture:** red-and-white saris are the classic choice for Pohela Boishakh (Bengali New Year), which you'll meet in Unit 10.\n\n**ভাংতি** and **খুচরা** both mean \"change\" (small notes and coins) — you will hear both.",
       "sentences": [
         {
           "bn": "আমি একটা শাড়ি কিনব।",
@@ -688,6 +721,22 @@
             "There's no change.",
             "No change."
           ]
+        },
+        {
+          "bn": "খুচরা টাকা আছে?",
+          "tr": "khuchra taka achhe?",
+          "en": "Do you have change?",
+          "alt": [
+            "Do you have small change?"
+          ]
+        },
+        {
+          "bn": "কোনো সমস্যা নেই।",
+          "tr": "kono shomossha nei.",
+          "en": "No problem at all.",
+          "alt": [
+            "There is no problem."
+          ]
         }
       ]
     },
@@ -697,10 +746,13 @@
       "goal": "Put the whole bazaar visit together.",
       "grammar": [
         "review: imperatives, লাগবে, -টা/-গুলো, haggling chunks",
-        "আর কিছু 'anything else'"
+        "আর কিছু 'anything else'",
+        "সবচেয়ে + adjective = 'the most …'"
       ],
       "new": [
-        "byag"
+        "byag",
+        "jinish",
+        "shobcheye"
       ],
       "review": [
         "ar",
@@ -712,9 +764,13 @@
         "keji",
         "alu",
         "hali",
-        "dim"
+        "dim",
+        "shob",
+        "bajare",
+        "shosta",
+        "eita"
       ],
-      "tip": "A full bazaar exchange:\n\n- **ভাই, টমেটোর কেজি কত?** — **পঞ্চাশ টাকা।**\n- **এক কেজি দেন। দাম একটু কম রাখেন।** — **ঠিক আছে।**\n- **আর কিছু লাগবে?** — **না, আর কিছু লাগবে না।**\n\n**আর কিছু** (*ar kichhu*) = 'anything else' — you'll hear it from every vendor. Bring your own **ব্যাগ** (bag): many markets now discourage plastic.\n\nRemember the levels: **দে / দাও / দেন (দিন)**. With shopkeepers, always use the আপনি forms.",
+      "tip": "A full bazaar exchange:\n\n- **ভাই, টমেটোর কেজি কত?** — **পঞ্চাশ টাকা।**\n- **এক কেজি দেন। দাম একটু কম রাখেন।** — **ঠিক আছে।**\n- **আর কিছু লাগবে?** — **না, আর কিছু লাগবে না।**\n\n**আর কিছু** (*ar kichhu*) = 'anything else' — you'll hear it from every vendor. Bring your own **ব্যাগ** (bag): many markets now discourage plastic.\n\nRemember the levels: **দে / দাও / দেন (দিন)**. With shopkeepers, always use the আপনি forms.\n\n**সবচেয়ে** + adjective makes a superlative: সবচেয়ে ভালো \"the best\", সবচেয়ে সস্তা \"the cheapest\".",
       "sentences": [
         {
           "bn": "আর কিছু লাগবে?",
@@ -743,8 +799,8 @@
           "en": "What's the final price, brother?"
         },
         {
-          "bn": "এইগুলো খুব দামি।",
-          "tr": "eigulo khub dami.",
+          "bn": "এগুলো খুব দামি।",
+          "tr": "egulo khub dami.",
           "en": "These are very expensive."
         },
         {
@@ -764,6 +820,19 @@
           "bn": "ঠিক আছে, দুইশ টাকা রাখেন।",
           "tr": "thik achhe, duisho taka rakhen.",
           "en": "OK, make it two hundred taka."
+        },
+        {
+          "bn": "বাজারে সব জিনিস সস্তা।",
+          "tr": "bajare shob jinish shosta.",
+          "en": "Everything is cheap at the market.",
+          "alt": [
+            "All the things at the market are cheap."
+          ]
+        },
+        {
+          "bn": "এইটা সবচেয়ে ভালো।",
+          "tr": "eita shobcheye bhalo.",
+          "en": "This one is the best."
         }
       ]
     }

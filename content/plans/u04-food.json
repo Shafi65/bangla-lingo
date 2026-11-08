@@ -301,14 +301,18 @@
       "grammar": [
         "চাই / চাও / চান 'want'",
         "-তে চাই 'want to': খেতে চাই",
-        "কিছু 'something / anything'"
+        "কিছু 'something / anything'",
+        "সমস্যা নেই 'no problem'; আমার X দরকার 'I need X'"
       ],
       "new": [
         "chai",
         "chao",
         "chan",
         "khete",
-        "kichhu"
+        "kichhu",
+        "oboshshoi",
+        "shomossha",
+        "dorkar"
       ],
       "review": [
         "ami",
@@ -321,9 +325,13 @@
         "bhat",
         "na",
         "dhonnobad",
-        "machh"
+        "machh",
+        "ji",
+        "chini",
+        "nei",
+        "amar"
       ],
-      "tip": "**চাই** (*chai*) = 'I want'. It conjugates like খাই: তুমি **চাও**, আপনি **চান**. Careful not to confuse **চা** (tea) with **চাই** (want): **আমি চা চাই** = 'I want tea.'\n\nTo say you **want to do** something, put the verb in its **-তে** form first: খা- → **খেতে** (*khete*). **আমি ভাত খেতে চাই** = 'I want to eat rice.' (The vowel changes from আ to এ — just learn খেতে as a word.)\n\n**কিছু** = something/anything: **আপনি কিছু খেতে চান?** 'Would you like something to eat?'\n\nCulture: Bangladeshi hosts offer food again and again. A first **না, ধন্যবাদ** is often heard as politeness, so the offer will come back. If you really don't want more, say it warmly two or three times — or accept a little!",
+      "tip": "**চাই** (*chai*) = 'I want'. It conjugates like খাই: তুমি **চাও**, আপনি **চান**. Careful not to confuse **চা** (tea) with **চাই** (want): **আমি চা চাই** = 'I want tea.'\n\nTo say you **want to do** something, put the verb in its **-তে** form first: খা- → **খেতে** (*khete*). **আমি ভাত খেতে চাই** = 'I want to eat rice.' (The vowel changes from আ to এ — just learn খেতে as a word.)\n\n**কিছু** = something/anything: **আপনি কিছু খেতে চান?** 'Would you like something to eat?'\n\nCulture: Bangladeshi hosts offer food again and again. A first **না, ধন্যবাদ** is often heard as politeness, so the offer will come back. If you really don't want more, say it warmly two or three times — or accept a little!\n\n**সমস্যা নেই** \"no problem\" and **অবশ্যই** \"of course\" are polite all-purpose replies. **আমার … দরকার** means \"I need …\".",
       "sentences": [
         {
           "bn": "আমি চা চাই।",
@@ -376,20 +384,33 @@
           ]
         },
         {
-          "bn": "আমি মাছ চাই না।",
-          "tr": "ami machh chai na.",
-          "en": "I don't want fish.",
-          "alt": [
-            "I do not want fish."
-          ]
-        },
-        {
           "bn": "তুমি কী খেতে চাও?",
           "tr": "tumi ki khete chao?",
           "en": "What do you want to eat?",
           "alt": [
             "What would you like to eat?"
           ]
+        },
+        {
+          "bn": "জি, অবশ্যই।",
+          "tr": "ji, oboshshoi.",
+          "en": "Yes, of course.",
+          "alt": [
+            "Yes, certainly."
+          ]
+        },
+        {
+          "bn": "চিনি নেই, সমস্যা নেই।",
+          "tr": "chini nei, shomossha nei.",
+          "en": "There's no sugar — no problem.",
+          "alt": [
+            "There is no sugar, no problem."
+          ]
+        },
+        {
+          "bn": "আমার পানি দরকার।",
+          "tr": "amar pani dorkar.",
+          "en": "I need water."
         }
       ]
     },
@@ -598,10 +619,13 @@
       "title": "Review: let's eat!",
       "goal": "Order, offer and talk about food using the whole unit.",
       "grammar": [
-        "review: খাই/খাও/খান, চাই, পছন্দ, classifiers"
+        "review: খাই/খাও/খান, চাই, পছন্দ, classifiers",
+        "ভালো ↔ খারাপ; খারাপ না \"not bad\""
       ],
       "new": [
-        "biriyani"
+        "biriyani",
+        "kharap",
+        "shob"
       ],
       "review": [
         "amar",
@@ -633,9 +657,11 @@
         "na",
         "khudha",
         "legechhe",
-        "bhat"
+        "bhat",
+        "kintu",
+        "khabar"
       ],
-      "tip": "One new word: **বিরিয়ানি** (*biriyani*). Old Dhaka's **কাচ্চি বিরিয়ানি** is legendary, and biryani is the star of weddings and celebrations.\n\nAnd don't forget **ইলিশ** (*ilish*, hilsa) from the vowels unit — Bangladesh's national fish, often cooked in mustard (*shorshe ilish*).\n\nCheck yourself:\n\n- eat: আমি **খাই**, তুমি **খাও**, আপনি **খান**, সে **খায়**\n- want: **চাই** / **খেতে চাই**\n- like: **আমার … পছন্দ** / **ভালো লাগে**\n- the: আম**টা**, আম**গুলো**",
+      "tip": "One new word: **বিরিয়ানি** (*biriyani*). Old Dhaka's **কাচ্চি বিরিয়ানি** is legendary, and biryani is the star of weddings and celebrations.\n\nAnd don't forget **ইলিশ** (*ilish*, hilsa) from the vowels unit — Bangladesh's national fish, often cooked in mustard (*shorshe ilish*).\n\nCheck yourself:\n\n- eat: আমি **খাই**, তুমি **খাও**, আপনি **খান**, সে **খায়**\n- want: **চাই** / **খেতে চাই**\n- like: **আমার … পছন্দ** / **ভালো লাগে**\n- the: আম**টা**, আম**গুলো**\n\n**খারাপ** \"bad\" is the opposite of ভালো; **খারাপ না** \"not bad\" is a common, modest compliment.",
       "sentences": [
         {
           "bn": "আমার বিরিয়ানি খুব পছন্দ।",
@@ -677,9 +703,12 @@
           ]
         },
         {
-          "bn": "তুমি কী খেতে চাও?",
-          "tr": "tumi ki khete chao?",
-          "en": "What do you want to eat?"
+          "bn": "সব খাবার খুব মজার।",
+          "tr": "shob khabar khub mojar.",
+          "en": "All the food is very tasty.",
+          "alt": [
+            "Everything is very tasty."
+          ]
         },
         {
           "bn": "আমগুলো খুব মিষ্টি।",
@@ -700,6 +729,14 @@
           "en": "I'm hungry, I want rice.",
           "alt": [
             "I'm hungry, I want some food."
+          ]
+        },
+        {
+          "bn": "চা খারাপ না, কিন্তু খুব মিষ্টি।",
+          "tr": "cha kharap na, kintu khub mishti.",
+          "en": "The tea isn't bad, but it's very sweet.",
+          "alt": [
+            "The tea is not bad, but very sweet."
           ]
         }
       ]
