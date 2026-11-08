@@ -3,7 +3,7 @@
   "unit": "u10-culture",
   "title": "Ramadan & iftar",
   "status": "draft",
-  "tip": "During **রমজান** (Ramadan) most Bangladeshi Muslims **রোজা রাখেন** — 'keep the fast' — from dawn to sunset. The verb is **রাখা** 'keep', which you met in the bazaar (**কম রাখেন**!).\n\nThe day is framed by two meals: **সেহরি** before dawn and **ইফতার** at sunset. A classic Dhaka iftar: **খেজুর** (dates), ছোলা (chickpeas), পেঁয়াজু (onion fritters), বেগুনি (aubergine fritters) and জিলাপি.\n\nInviting someone **ইফতারে** ('to iftar') is a big gesture of friendship — non-Muslim friends are warmly welcome.\n\nNote **আপনি কি রোজা রাখেন?** is polite but personal; it's fine between friends.",
+  "tip": "During **রমজান** (Ramadan), the ninth month of the Islamic calendar, most Bangladeshi Muslims fast from dawn to sunset, with no food or drink. Bengali says **রোজা রাখি**, literally 'I keep the fast'. It's the same verb you met in the bazaar (**কম রাখেন!**): **আমি রোজা রাখি** 'I fast', **আপনি কি রোজা রাখেন?** 'Do you fast?'\n\nThe day is framed by two meals: **সেহরি** before dawn and **ইফতার** at sunset. Many people break the fast with a **খেজুর** (date). A classic Dhaka iftar also has *chhola* (spiced chickpeas), *peyaju* (lentil-and-onion fritters), *beguni* (aubergine fritters) and *jilapi*.\n\nEndings to notice: **রমজানে** 'in Ramadan', **ইফতারে** 'at iftar'. **ইফতার** also pairs with **করি** 'do': **আমি এখনো ইফতার করিনি** 'I haven't had iftar yet'.\n\nBeing invited to iftar is a warm gesture of friendship, and non-Muslim friends are welcome too. Asking **আপনি কি রোজা রাখেন?** is polite, but it is a personal question, so don't press. Ramadan ends with *Eid-ul-Fitr* (Lesson 1).",
   "vocab": [
     {
       "id": "romjan",
@@ -70,9 +70,9 @@
       "direction": "bn_to_en",
       "options": [
         "Ramadan",
-        "problem",
-        "age",
-        "of the mosque"
+        "Eid",
+        "prayer",
+        "iftar"
       ],
       "answer": 0
     },
@@ -86,12 +86,12 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "of the market",
-        "morning",
+        "Ramadan",
         "in Ramadan",
-        "doctor"
+        "at iftar",
+        "at Eid"
       ],
-      "answer": 2
+      "answer": 1
     },
     {
       "id": "e03",
@@ -103,12 +103,12 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "market",
         "fast",
-        "fruit",
-        "Bengali (language)"
+        "iftar",
+        "prayer",
+        "Eid money"
       ],
-      "answer": 1
+      "answer": 0
     },
     {
       "id": "e04",
@@ -120,15 +120,48 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "(I) have come",
-        "I will go",
-        "you bought (polite)",
+        "I eat",
+        "you keep (polite)",
+        "I will buy",
         "I keep"
       ],
       "answer": 3
     },
     {
       "id": "e05",
+      "type": "listen_select",
+      "audio": {
+        "bn": "সেহরি",
+        "tr": "sehri",
+        "en": "sehri"
+      },
+      "options": [
+        "শহরে",
+        "সেমাই",
+        "সেহরি",
+        "শহর"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e06",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "সেহরি",
+        "tr": "sehri",
+        "en": "sehri"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "sehri",
+        "iftar",
+        "breakfast",
+        "dinner"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e07",
       "type": "select_translation",
       "prompt": {
         "bn": "ইফতার",
@@ -137,32 +170,15 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "night",
-        "iftar",
-        "flatbread",
-        "Sunday"
+        "sehri",
+        "Eid",
+        "dates",
+        "iftar"
       ],
-      "answer": 1
+      "answer": 3
     },
     {
-      "id": "e06",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "ইফতারে",
-        "tr": "iftare",
-        "en": "at iftar"
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "sister",
-        "shop",
-        "at iftar",
-        "husband"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "e07",
+      "id": "e08",
       "type": "select_translation",
       "prompt": {
         "bn": "খেজুর",
@@ -171,15 +187,15 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "doctor",
-        "road",
-        "cooking",
-        "dates"
+        "sugar",
+        "bananas",
+        "dates",
+        "rice"
       ],
-      "answer": 3
+      "answer": 2
     },
     {
-      "id": "e08",
+      "id": "e09",
       "type": "match_pairs",
       "pairs": [
         {
@@ -193,9 +209,9 @@
           "en": "fast"
         },
         {
-          "bn": "রমজানে",
-          "tr": "romjane",
-          "en": "in Ramadan"
+          "bn": "রমজান",
+          "tr": "romjan",
+          "en": "Ramadan"
         },
         {
           "bn": "ইফতারে",
@@ -203,14 +219,14 @@
           "en": "at iftar"
         },
         {
-          "bn": "রাখি",
-          "tr": "rakhi",
-          "en": "I keep"
+          "bn": "খেজুর",
+          "tr": "khejur",
+          "en": "dates"
         }
       ]
     },
     {
-      "id": "e09",
+      "id": "e10",
       "type": "word_bank",
       "prompt": {
         "bn": "রমজানে আমি রোজা রাখি।",
@@ -219,23 +235,75 @@
       },
       "direction": "bn_to_en",
       "tiles": [
-        "during",
-        "time",
+        "Eid",
         "I",
-        "Ramadan",
-        "breakfast",
         "fast",
-        "family"
+        "eat",
+        "during",
+        "in",
+        "Ramadan"
       ],
       "answer": [
         "I",
         "fast",
         "during",
         "Ramadan"
+      ],
+      "alt": [
+        [
+          "I",
+          "fast",
+          "in",
+          "Ramadan"
+        ],
+        [
+          "in",
+          "Ramadan",
+          "I",
+          "fast"
+        ],
+        [
+          "during",
+          "Ramadan",
+          "I",
+          "fast"
+        ]
       ]
     },
     {
-      "id": "e10",
+      "id": "e11",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "ইফতারে আমরা খেজুর খাই।",
+        "tr": "iftare amra khejur khai.",
+        "en": "We eat dates at iftar."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "খান",
+        "ইফতার",
+        "আমরা",
+        "খেজুর",
+        "ইফতারে",
+        "খাই"
+      ],
+      "answer": [
+        "ইফতারে",
+        "আমরা",
+        "খেজুর",
+        "খাই"
+      ],
+      "alt": [
+        [
+          "আমরা",
+          "ইফতারে",
+          "খেজুর",
+          "খাই"
+        ]
+      ]
+    },
+    {
+      "id": "e12",
       "type": "word_bank",
       "prompt": {
         "bn": "আমি সেহরি খাই, তারপর নামাজ পড়ি।",
@@ -244,15 +312,14 @@
       },
       "direction": "en_to_bn",
       "tiles": [
-        "নামাজ",
-        "কত",
-        "পড়ি",
-        "বউ",
         "আমি",
+        "ইফতার",
         "সেহরি",
+        "পড়েন",
         "খাই",
         "তারপর",
-        "করি"
+        "নামাজ",
+        "পড়ি"
       ],
       "answer": [
         "আমি",
@@ -264,36 +331,7 @@
       ]
     },
     {
-      "id": "e11",
-      "type": "word_bank",
-      "prompt": {
-        "bn": "আজ আমাদের বাসায় ইফতার।",
-        "tr": "aj amader bashay iftar.",
-        "en": "Iftar is at our home today."
-      },
-      "direction": "bn_to_en",
-      "tiles": [
-        "everyone",
-        "ten",
-        "today",
-        "forty",
-        "home",
-        "our",
-        "is",
-        "at",
-        "Iftar"
-      ],
-      "answer": [
-        "Iftar",
-        "is",
-        "at",
-        "our",
-        "home",
-        "today"
-      ]
-    },
-    {
-      "id": "e12",
+      "id": "e13",
       "type": "type_translation",
       "prompt": {
         "bn": "আপনি কি রোজা রাখেন?",
@@ -303,32 +341,34 @@
       "direction": "bn_to_en",
       "accepted": [
         "Do you fast?",
-        "Are you fasting?"
+        "Are you fasting?",
+        "Do you keep the fast?",
+        "Are you keeping the fast?",
+        "Do you keep roja?",
+        "Do you keep roza?",
+        "Do you observe the fast?",
+        "Do you fast during Ramadan?"
       ]
     },
     {
-      "id": "e13",
-      "type": "word_bank",
+      "id": "e14",
+      "type": "select_translation",
       "prompt": {
         "bn": "ইফতার কখন?",
         "tr": "iftar kokhon?",
         "en": "When is iftar?"
       },
       "direction": "en_to_bn",
-      "tiles": [
-        "কখন",
-        "খুব",
-        "খাচ্ছি",
-        "খেতে",
-        "ইফতার"
+      "options": [
+        "সেহরি কখন?",
+        "ইফতার কোথায়?",
+        "ইফতার কখন?",
+        "রোজা কখন?"
       ],
-      "answer": [
-        "ইফতার",
-        "কখন"
-      ]
+      "answer": 2
     },
     {
-      "id": "e14",
+      "id": "e15",
       "type": "select_translation",
       "prompt": {
         "bn": "আমি এখনো ইফতার করিনি।",
@@ -337,12 +377,12 @@
       },
       "direction": "en_to_bn",
       "options": [
-        "স্টেশন দূরে? তাহলে রিকশায় যাব।",
-        "আমার একটা প্রশ্ন আছে।",
-        "ওখানে এক হাজার মানুষ আছে।",
-        "আমি এখনো ইফতার করিনি।"
+        "আমি ইফতার করেছি।",
+        "আমি এখনো ইফতার করিনি।",
+        "আমি এখনো সেহরি খাইনি।",
+        "আমি ইফতার করলাম।"
       ],
-      "answer": 3
+      "answer": 1
     }
   ]
 }

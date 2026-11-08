@@ -3,7 +3,7 @@
   "unit": "u10-culture",
   "title": "Puja",
   "status": "draft",
-  "tip": "About 8% of Bangladeshis are Hindu, and **দুর্গাপূজা** (*durgapuja*) is their biggest **উৎসব** (festival). Thousands of **পূজা মণ্ডপ** (temporary pavilions) are set up across the country, each with a clay **প্রতিমা** of the goddess Durga. Visitors of all faiths go to see them.\n\nOn the last day the images are immersed in the river; afterwards friends greet each other with **শুভ বিজয়া** and sweets. With Hindu friends, **নমস্কার** is the natural hello.\n\nIn Bangladesh the official slogan is **ধর্ম যার যার, উৎসব সবার** — 'religion is each person's own, festivals belong to everyone'.\n\n**Kolkata:** spoken **পুজো** (*pujo*); Durga Puja is *the* festival of the year.",
+  "tip": "About 8% of Bangladeshis are Hindu, and **দুর্গাপূজা** (*durgapuja*) is their biggest **উৎসব** (festival). It falls in autumn (September or October) and lasts several days. Communities set up temporary pavilions (*mondop*) across the country, each with a clay **প্রতিমা**, an image of the goddess Durga. People of all faiths come to visit them.\n\nOn the final day, **বিজয়া** (*Bijoya Doshomi*), the images are carried in procession and immersed in a river or pond; the day is a public holiday in Bangladesh. Afterwards people exchange **শুভ বিজয়া** greetings, visit one another and share sweets, and younger people often touch their elders' feet. With Hindu friends, **নমস্কার** is the natural hello.\n\n**পূজা** means 'worship' as well as the festival itself, and many other pujas are held through the year. Endings: **পূজায়** 'at Puja', **মন্দিরে** 'to / at the temple'.\n\nA popular saying in Bangladesh sums up the spirit: *dhormo jar jar, utshob shobar*, 'religion is each person's own, but festivals belong to everyone'. **ঈদ আর পূজা আমাদের উৎসব** 'Eid and Puja are our festivals.'\n\n**Kolkata:** spoken **পুজো** (*pujo*), **দুর্গাপুজো**. Durga Puja is the biggest festival of the year in West Bengal.",
   "vocab": [
     {
       "id": "puja",
@@ -41,7 +41,7 @@
       "id": "protima",
       "bn": "প্রতিমা",
       "tr": "protima",
-      "en": "idol",
+      "en": "image (idol)",
       "notes": "The clay image of the goddess, immersed in a river at the end of Durga Puja."
     },
     {
@@ -69,12 +69,12 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "to the temple",
-        "sugar",
-        "grandmother (father's mother)",
-        "puja"
+        "puja",
+        "Eid",
+        "temple",
+        "fair"
       ],
-      "answer": 3
+      "answer": 0
     },
     {
       "id": "e02",
@@ -86,12 +86,12 @@
       },
       "direction": "bn_to_en",
       "options": [
+        "at Eid",
+        "to the temple",
         "at Puja",
-        "liking",
-        "breakfast",
-        "Bijoya"
+        "Puja"
       ],
-      "answer": 0
+      "answer": 2
     },
     {
       "id": "e03",
@@ -103,12 +103,12 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "shemai",
-        "Bengali (language)",
-        "Durga Puja",
-        "school"
+        "Eid",
+        "Ramadan",
+        "Pohela Boishakh",
+        "Durga Puja"
       ],
-      "answer": 2
+      "answer": 3
     },
     {
       "id": "e04",
@@ -120,12 +120,12 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "grandmother (mother's mother)",
-        "station",
-        "salt",
-        "of the Hindus"
+        "our",
+        "of the Hindus",
+        "of Eid",
+        "of the temple"
       ],
-      "answer": 3
+      "answer": 1
     },
     {
       "id": "e05",
@@ -137,10 +137,10 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "sugar",
         "fair",
+        "idol",
         "festival",
-        "work"
+        "temple"
       ],
       "answer": 2
     },
@@ -154,12 +154,12 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "the shop",
-        "age",
-        "work",
-        "idol"
+        "temple",
+        "image (idol)",
+        "festival",
+        "sari"
       ],
-      "answer": 3
+      "answer": 1
     },
     {
       "id": "e07",
@@ -171,15 +171,32 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "home",
         "to the temple",
-        "taka",
-        "phone"
+        "temple",
+        "at home",
+        "to the market"
       ],
-      "answer": 1
+      "answer": 0
     },
     {
       "id": "e08",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "বিজয়া",
+        "tr": "bijoya",
+        "en": "Bijoya"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "Bijoya",
+        "Eid",
+        "New Year",
+        "Ramadan"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e09",
       "type": "match_pairs",
       "pairs": [
         {
@@ -198,19 +215,19 @@
           "en": "Durga Puja"
         },
         {
-          "bn": "পূজায়",
-          "tr": "pujay",
-          "en": "at Puja"
+          "bn": "প্রতিমা",
+          "tr": "protima",
+          "en": "image (idol)"
         },
         {
-          "bn": "বিজয়া",
-          "tr": "bijoya",
-          "en": "Bijoya"
+          "bn": "মন্দিরে",
+          "tr": "mondire",
+          "en": "to the temple"
         }
       ]
     },
     {
-      "id": "e09",
+      "id": "e10",
       "type": "word_bank",
       "prompt": {
         "bn": "দুর্গাপূজা হিন্দুদের বড় উৎসব।",
@@ -219,18 +236,17 @@
       },
       "direction": "bn_to_en",
       "tiles": [
-        "a",
-        "cheap",
-        "outside",
-        "Puja",
-        "festival",
-        "the",
-        "are",
-        "Hindus",
         "Durga",
-        "of",
+        "small",
+        "Puja",
+        "is",
+        "a",
         "big",
-        "is"
+        "fair",
+        "festival",
+        "of",
+        "the",
+        "Hindus"
       ],
       "answer": [
         "Durga",
@@ -245,59 +261,90 @@
       ]
     },
     {
-      "id": "e10",
-      "type": "word_bank",
-      "prompt": {
-        "bn": "ঈদ আর পূজা আমাদের উৎসব।",
-        "tr": "id ar puja amader utshob.",
-        "en": "Eid and Puja are our festivals."
-      },
-      "direction": "en_to_bn",
-      "tiles": [
-        "মুরগি",
-        "উৎসব",
-        "আর",
-        "চল্লিশ",
-        "আমাদের",
-        "বার",
-        "ঈদ",
-        "পূজা"
-      ],
-      "answer": [
-        "ঈদ",
-        "আর",
-        "পূজা",
-        "আমাদের",
-        "উৎসব"
-      ]
-    },
-    {
       "id": "e11",
       "type": "word_bank",
       "prompt": {
-        "bn": "আমার বন্ধু পূজা করে।",
-        "tr": "amar bondhu puja kore.",
-        "en": "My friend does puja."
+        "bn": "পূজায় আমরা মন্দিরে যাই।",
+        "tr": "pujay amra mondire jai.",
+        "en": "At Puja we go to the temple."
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "tiles": [
-        "does",
-        "friend",
-        "puja",
-        "My",
-        "problem",
-        "water",
-        "Durga"
+        "মন্দির",
+        "পূজায়",
+        "আমরা",
+        "পূজা",
+        "মন্দিরে",
+        "যাই"
       ],
       "answer": [
-        "My",
-        "friend",
-        "does",
-        "puja"
+        "পূজায়",
+        "আমরা",
+        "মন্দিরে",
+        "যাই"
+      ],
+      "alt": [
+        [
+          "আমরা",
+          "পূজায়",
+          "মন্দিরে",
+          "যাই"
+        ]
       ]
     },
     {
       "id": "e12",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "প্রতিমা খুব সুন্দর।",
+        "tr": "protima khub shundor.",
+        "en": "The image is very beautiful."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "The",
+        "image",
+        "idol",
+        "temple",
+        "is",
+        "very",
+        "new",
+        "beautiful",
+        "pretty"
+      ],
+      "answer": [
+        "The",
+        "image",
+        "is",
+        "very",
+        "beautiful"
+      ],
+      "alt": [
+        [
+          "The",
+          "idol",
+          "is",
+          "very",
+          "beautiful"
+        ],
+        [
+          "The",
+          "image",
+          "is",
+          "very",
+          "pretty"
+        ],
+        [
+          "The",
+          "idol",
+          "is",
+          "very",
+          "pretty"
+        ]
+      ]
+    },
+    {
+      "id": "e13",
       "type": "type_translation",
       "prompt": {
         "bn": "নমস্কার, শুভ বিজয়া।",
@@ -307,46 +354,70 @@
       "direction": "bn_to_en",
       "accepted": [
         "Nomoshkar, Shubho Bijoya.",
-        "Hello, happy Bijoya."
-      ]
-    },
-    {
-      "id": "e13",
-      "type": "word_bank",
-      "prompt": {
-        "bn": "শুভ বিজয়া।",
-        "tr": "shubho bijoya.",
-        "en": "Shubho Bijoya."
-      },
-      "direction": "en_to_bn",
-      "tiles": [
-        "নববর্ষ",
-        "বিজয়া",
-        "শুভ",
-        "কাজের",
-        "সালামি"
-      ],
-      "answer": [
-        "শুভ",
-        "বিজয়া"
+        "Namaskar, Shubho Bijoya.",
+        "Nomoshkar, Subho Bijoya.",
+        "Namaskar, Subho Bijoya.",
+        "Hello, Shubho Bijoya.",
+        "Hello, happy Bijoya.",
+        "Nomoshkar, happy Bijoya.",
+        "Namaskar, happy Bijoya.",
+        "Hello, Shubho Vijaya.",
+        "Hello, happy Vijaya.",
+        "Namaskar, Shubho Vijaya.",
+        "Namaskar, happy Vijaya."
       ]
     },
     {
       "id": "e14",
       "type": "select_translation",
       "prompt": {
-        "bn": "পূজায় আমরা মন্দিরে যাই।",
-        "tr": "pujay amra mondire jai.",
-        "en": "At Puja we go to the temple."
+        "bn": "নমস্কার, শুভ বিজয়া।",
+        "tr": "nomoshkar, shubho bijoya.",
+        "en": "(To a Hindu friend, after Durga Puja) Nomoshkar, Shubho Bijoya!"
       },
       "direction": "en_to_bn",
       "options": [
-        "হাসপাতাল কোথায়?",
-        "ডানে যান।",
-        "ইলিশ এক হাজার টাকা।",
-        "পূজায় আমরা মন্দিরে যাই।"
+        "নমস্কার, ঈদ মোবারক।",
+        "নমস্কার, শুভ নববর্ষ।",
+        "নমস্কার, শুভ বিজয়া।",
+        "খোদা হাফেজ, শুভ বিজয়া।"
       ],
-      "answer": 3
+      "answer": 2
+    },
+    {
+      "id": "e15",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "ঈদ আর পূজা আমাদের উৎসব।",
+        "tr": "id ar puja amader utshob.",
+        "en": "Eid and Puja are our festivals."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "আমার",
+        "ঈদ",
+        "আর",
+        "পূজায়",
+        "পূজা",
+        "আমাদের",
+        "উৎসব"
+      ],
+      "answer": [
+        "ঈদ",
+        "আর",
+        "পূজা",
+        "আমাদের",
+        "উৎসব"
+      ],
+      "alt": [
+        [
+          "পূজা",
+          "আর",
+          "ঈদ",
+          "আমাদের",
+          "উৎসব"
+        ]
+      ]
     }
   ]
 }

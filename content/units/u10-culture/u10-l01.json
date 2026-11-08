@@ -3,7 +3,7 @@
   "unit": "u10-culture",
   "title": "Eid",
   "status": "draft",
-  "tip": "Bangladesh celebrates two Eids: **ঈদুল ফিতর** at the end of Ramadan and **ঈদুল আজহা** (the festival of sacrifice). The greeting for both is **ঈদ মোবারক!** — reply with the same.\n\nEid morning: men go to the Eid prayer (**ঈদের নামাজ**), everyone wears **নতুন** (new) clothes, and homes serve **সেমাই**. Children bow to elders and receive **সালামি** — Eid money. **আপু, সালামি দাও!** is a classic line from a younger sibling.\n\nGrammar: **ঈদে** = 'at Eid' (locative), **ঈদের** = 'of Eid' (genitive): **ঈদের দিন** 'on Eid day'.\n\nMillions leave Dhaka for their village homes at Eid — the city goes quiet for days.",
+  "tip": "Bangladesh celebrates two Eids: *Eid-ul-Fitr*, which ends the month of Ramadan, and *Eid-ul-Adha*, the festival of sacrifice, about two months later. Both follow the Islamic lunar calendar, so their dates move about 11 days earlier each year. The greeting for both is **ঈদ মোবারক!** and the reply is the same words.\n\nOn Eid morning people go to the Eid prayer (**ঈদের নামাজ**), wear **নতুন** (new) clothes and visit relatives. At *Eid-ul-Fitr* almost every home serves **সেমাই**, sweet milky vermicelli. At *Eid-ul-Adha*, families who can afford it sacrifice an animal and share the meat with relatives, neighbours and people in need.\n\nChildren greet their elders with *salam* and receive **সালামি**, Eid money. **আপু, সালামি দাও!** 'Apu, give me Eid money!' is a classic line from a younger sibling.\n\nGrammar: **ঈদে** = 'at Eid' (the *-e* 'at' ending), **ঈদের** = 'of Eid' (the *-er* 'of' ending), as in **ঈদের দিন** 'Eid day'. Don't mix them up:\n\n- **ঈদে আমরা গ্রামে যাই** — 'At Eid we go to the village'\n- **ঈদের দিন সকালে** — 'on the morning of Eid day'\n\nMillions of people leave Dhaka for their home villages at Eid, and the city goes quiet for days.",
   "vocab": [
     {
       "id": "id-mubarak",
@@ -56,12 +56,12 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "thank you",
-        "I don't understand",
+        "goodbye",
         "Eid Mubarak",
-        "hello (peace be upon you)"
+        "praise be to God",
+        "thank you"
       ],
-      "answer": 2
+      "answer": 1
     },
     {
       "id": "e02",
@@ -73,12 +73,12 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "the mangoes",
+        "of Eid",
+        "in the village",
         "at Eid",
-        "country",
-        "at home"
+        "at the market"
       ],
-      "answer": 1
+      "answer": 2
     },
     {
       "id": "e03",
@@ -90,15 +90,31 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "of the hotel",
-        "student",
         "of Eid",
-        "Tuesday"
+        "at Eid",
+        "of the market",
+        "of the house"
       ],
-      "answer": 2
+      "answer": 0
     },
     {
       "id": "e04",
+      "type": "listen_select",
+      "audio": {
+        "bn": "ঈদের",
+        "tr": "ider",
+        "en": "of Eid"
+      },
+      "options": [
+        "ঈদে",
+        "ইলিশের",
+        "এটার",
+        "ঈদের"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e05",
       "type": "select_translation",
       "prompt": {
         "bn": "সেমাই",
@@ -107,15 +123,15 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "price",
         "shemai",
-        "shopkeeper",
-        "student (male)"
+        "biryani",
+        "flatbread",
+        "sugar"
       ],
-      "answer": 1
+      "answer": 0
     },
     {
-      "id": "e05",
+      "id": "e06",
       "type": "select_translation",
       "prompt": {
         "bn": "সালামি",
@@ -124,15 +140,31 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "mom",
-        "uncle (address)",
-        "rice",
-        "Eid money"
+        "Eid money",
+        "new clothes",
+        "price",
+        "prayer"
       ],
-      "answer": 3
+      "answer": 0
     },
     {
-      "id": "e06",
+      "id": "e07",
+      "type": "listen_select",
+      "audio": {
+        "bn": "সালামি",
+        "tr": "shalami",
+        "en": "Eid money"
+      },
+      "options": [
+        "সেমাই",
+        "শাড়ি",
+        "সালামি",
+        "সবজি"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e08",
       "type": "select_translation",
       "prompt": {
         "bn": "নতুন",
@@ -141,52 +173,36 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "new",
-        "Bangladeshi",
         "other",
-        "sweet"
+        "good",
+        "expensive",
+        "new"
       ],
-      "answer": 0
+      "answer": 3
     },
     {
-      "id": "e07",
-      "type": "listen_select",
-      "audio": {
-        "bn": "ঈদ মোবারক",
-        "tr": "id mubarak",
-        "en": "Eid Mubarak"
-      },
-      "options": [
-        "ঈদ মোবারক",
-        "তখন",
-        "দোকানদার",
-        "ওঠেন"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "e08",
+      "id": "e09",
       "type": "match_pairs",
       "pairs": [
-        {
-          "bn": "ঈদের",
-          "tr": "ider",
-          "en": "of Eid"
-        },
         {
           "bn": "ঈদে",
           "tr": "ide",
           "en": "at Eid"
         },
         {
-          "bn": "সালামি",
-          "tr": "shalami",
-          "en": "Eid money"
+          "bn": "ঈদের",
+          "tr": "ider",
+          "en": "of Eid"
         },
         {
           "bn": "সেমাই",
           "tr": "shemai",
           "en": "shemai"
+        },
+        {
+          "bn": "সালামি",
+          "tr": "shalami",
+          "en": "Eid money"
         },
         {
           "bn": "নতুন",
@@ -196,7 +212,7 @@
       ]
     },
     {
-      "id": "e09",
+      "id": "e10",
       "type": "word_bank",
       "prompt": {
         "bn": "ঈদের দিন সকালে আমরা নামাজ পড়ি।",
@@ -205,14 +221,14 @@
       },
       "direction": "bn_to_en",
       "tiles": [
-        "clothes",
-        "Dhanmondi",
         "On",
+        "evening",
         "Eid",
+        "they",
         "morning",
-        "pray",
+        "eat",
         "we",
-        "spicy"
+        "pray"
       ],
       "answer": [
         "On",
@@ -223,7 +239,7 @@
       ]
     },
     {
-      "id": "e10",
+      "id": "e11",
       "type": "word_bank",
       "prompt": {
         "bn": "আপু, সালামি দাও।",
@@ -232,12 +248,12 @@
       },
       "direction": "en_to_bn",
       "tiles": [
+        "ভাইয়া",
         "সালামি",
-        "দাও",
-        "পরে",
+        "চাই",
         "আপু",
-        "বৃহস্পতিবার",
-        "বাজারে"
+        "সেমাই",
+        "দাও"
       ],
       "answer": [
         "আপু",
@@ -246,7 +262,7 @@
       ]
     },
     {
-      "id": "e11",
+      "id": "e12",
       "type": "word_bank",
       "prompt": {
         "bn": "ঈদে আমি নতুন জামা কিনব।",
@@ -255,16 +271,16 @@
       },
       "direction": "bn_to_en",
       "tiles": [
-        "village",
-        "clothes",
-        "name",
-        "Eid",
-        "buy",
-        "will",
         "I",
+        "bought",
+        "will",
+        "a",
+        "buy",
+        "new",
+        "shirt",
+        "clothes",
         "for",
-        "other",
-        "new"
+        "Eid"
       ],
       "answer": [
         "I",
@@ -274,10 +290,22 @@
         "clothes",
         "for",
         "Eid"
+      ],
+      "alt": [
+        [
+          "I",
+          "will",
+          "buy",
+          "a",
+          "new",
+          "shirt",
+          "for",
+          "Eid"
+        ]
       ]
     },
     {
-      "id": "e12",
+      "id": "e13",
       "type": "type_translation",
       "prompt": {
         "bn": "ঈদে আমরা সেমাই খাই।",
@@ -287,48 +315,68 @@
       "direction": "bn_to_en",
       "accepted": [
         "At Eid we eat shemai.",
-        "We eat shemai at Eid."
-      ]
-    },
-    {
-      "id": "e13",
-      "type": "word_bank",
-      "prompt": {
-        "bn": "ঈদ মোবারক, ভাইয়া।",
-        "tr": "id mubarak, bhaiya.",
-        "en": "Eid Mubarak, bhaiya."
-      },
-      "direction": "en_to_bn",
-      "tiles": [
-        "ভাইয়া",
-        "ঈদ",
-        "সত্তর",
-        "মোবারক",
-        "পছন্দ",
-        "ঘুমাই"
-      ],
-      "answer": [
-        "ঈদ",
-        "মোবারক",
-        "ভাইয়া"
+        "We eat shemai at Eid.",
+        "On Eid we eat shemai.",
+        "We eat shemai on Eid.",
+        "For Eid we eat shemai.",
+        "We eat shemai for Eid.",
+        "At Eid we eat semai.",
+        "We eat semai at Eid.",
+        "At Eid we eat vermicelli.",
+        "We eat vermicelli at Eid.",
+        "We eat sweet vermicelli at Eid.",
+        "At Eid we have shemai.",
+        "We have shemai at Eid."
       ]
     },
     {
       "id": "e14",
       "type": "select_translation",
       "prompt": {
+        "bn": "ঈদ মোবারক, ভাইয়া।",
+        "tr": "id mubarak, bhaiya.",
+        "en": "(To your elder brother, at Eid) Eid Mubarak, bhaiya!"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "ঈদ মোবারক, আপু।",
+        "খোদা হাফেজ, ভাইয়া।",
+        "ঈদ মোবারক, ভাইয়া।",
+        "ধন্যবাদ, ভাইয়া।"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e15",
+      "type": "word_bank",
+      "prompt": {
         "bn": "ঈদে আমরা গ্রামে যাই।",
         "tr": "ide amra grame jai.",
         "en": "At Eid we go to the village."
       },
       "direction": "en_to_bn",
-      "options": [
-        "পঞ্চাশ আর পঞ্চাশ একশ।",
-        "ফল খুব ভালো খাবার।",
-        "আপনি কখন অফিসে যান?",
-        "ঈদে আমরা গ্রামে যাই।"
+      "tiles": [
+        "ঈদের",
+        "আমরা",
+        "গ্রাম",
+        "ঈদে",
+        "যাই",
+        "গ্রামে"
       ],
-      "answer": 3
+      "answer": [
+        "ঈদে",
+        "আমরা",
+        "গ্রামে",
+        "যাই"
+      ],
+      "alt": [
+        [
+          "আমরা",
+          "ঈদে",
+          "গ্রামে",
+          "যাই"
+        ]
+      ]
     }
   ]
 }

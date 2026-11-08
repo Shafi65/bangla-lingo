@@ -3,7 +3,7 @@
   "unit": "u10-culture",
   "title": "Pohela Boishakh",
   "status": "draft",
-  "tip": "**পহেলা বৈশাখ** — the first day of the month Boishakh — is the Bengali New Year, celebrated on **14 April** in Bangladesh by people of every religion. Greet everyone with **শুভ নববর্ষ!** 'Happy New Year!'\n\nTraditions: wearing red and white (লাল-সাদা), the colourful **মঙ্গল শোভাযাত্রা** procession in Dhaka, streets painted with **আলপনা**, a village-style **মেলা** (fair), and a breakfast of **পান্তা ভাত** with ইলিশ.\n\nThe pattern **শুভ + occasion** is very productive: **শুভ নববর্ষ**, **শুভ জন্মদিন** (happy birthday), **শুভ সকাল** (good morning, a bit formal).\n\n**Kolkata:** **পয়লা বৈশাখ** (*poyla boishakh*), usually on 14 or 15 April.",
+  "tip": "**পহেলা বৈশাখ**, the first day of the month of Boishakh, is the Bengali New Year. In Bangladesh it falls on **14 April** every year, and people of every religion celebrate it together. Greet everyone with **শুভ নববর্ষ!** 'Happy New Year!'\n\nTraditions include:\n\n- wearing red and white; many women wear a white sari with a red border\n- streets and courtyards painted with **আলপনা**\n- a village-style **মেলা** (fair) with crafts, toys and snacks\n- in Dhaka, songs at sunrise and a large, colourful street procession with giant masks and figures\n- in towns and cities, a breakfast of **পান্তা ভাত** (rice soaked overnight in water) with fried ইলিশ, which has become a popular custom\n\nMany shopkeepers open a new account book for the year (*halkhata*) and offer sweets to their customers.\n\nThe pattern **শুভ** + occasion is very common: **শুভ নববর্ষ** 'Happy New Year', and later *shubho jonmodin* 'happy birthday'. **শুভ সকাল** 'good morning' exists too, but it's more common in messages than in speech.\n\nEndings: **মেলা** 'fair', **মেলায়** 'to / at the fair': **তুমি কি মেলায় যাবে?** 'Will you go to the fair?'\n\n**Kolkata:** **পয়লা বৈশাখ** (*poyla boishakh*), on 14 or 15 April.",
   "vocab": [
     {
       "id": "pohela-boishakh",
@@ -74,12 +74,12 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "Pohela Boishakh",
+        "Ramadan",
         "Eid Mubarak",
-        "what happened",
-        "hello (peace be upon you)"
+        "Pohela Boishakh",
+        "Friday"
       ],
-      "answer": 0
+      "answer": 2
     },
     {
       "id": "e02",
@@ -91,12 +91,12 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "more",
-        "other",
-        "difficult",
-        "happy"
+        "new",
+        "happy",
+        "beautiful",
+        "sweet"
       ],
-      "answer": 3
+      "answer": 1
     },
     {
       "id": "e03",
@@ -108,12 +108,12 @@
       },
       "direction": "bn_to_en",
       "options": [
+        "year",
+        "new",
         "New Year",
-        "husband",
-        "sleep",
-        "of the house"
+        "month"
       ],
-      "answer": 0
+      "answer": 2
     },
     {
       "id": "e04",
@@ -125,15 +125,31 @@
       },
       "direction": "bn_to_en",
       "options": [
+        "Eid Mubarak",
         "Happy New Year",
-        "I don't need it",
-        "I think",
-        "never"
+        "Good morning",
+        "Happy birthday"
       ],
-      "answer": 0
+      "answer": 1
     },
     {
       "id": "e05",
+      "type": "listen_select",
+      "audio": {
+        "bn": "মেলায়",
+        "tr": "melay",
+        "en": "to the fair"
+      },
+      "options": [
+        "মেয়ে",
+        "মেলা",
+        "বামে",
+        "মেলায়"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e06",
       "type": "select_translation",
       "prompt": {
         "bn": "পান্তা ভাত",
@@ -143,14 +159,14 @@
       "direction": "bn_to_en",
       "options": [
         "panta bhat",
-        "Eid Mubarak",
-        "sometimes",
-        "hello (in reply)"
+        "biryani",
+        "lentils",
+        "flatbread"
       ],
       "answer": 0
     },
     {
-      "id": "e06",
+      "id": "e07",
       "type": "select_translation",
       "prompt": {
         "bn": "মেলা",
@@ -160,14 +176,14 @@
       "direction": "bn_to_en",
       "options": [
         "fair",
-        "vegetables",
-        "teeth",
-        "at home"
+        "market",
+        "shop",
+        "village"
       ],
       "answer": 0
     },
     {
-      "id": "e07",
+      "id": "e08",
       "type": "select_translation",
       "prompt": {
         "bn": "মেলায়",
@@ -176,17 +192,44 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "fun; tasty",
-        "station",
-        "market",
+        "to the market",
+        "at home",
+        "fair",
         "to the fair"
       ],
       "answer": 3
     },
     {
-      "id": "e08",
+      "id": "e09",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "সুন্দর",
+        "tr": "shundor",
+        "en": "beautiful"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "beautiful",
+        "expensive",
+        "new",
+        "cheap"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e10",
       "type": "match_pairs",
       "pairs": [
+        {
+          "bn": "পহেলা বৈশাখ",
+          "tr": "pohela boishakh",
+          "en": "Pohela Boishakh"
+        },
+        {
+          "bn": "শুভ নববর্ষ",
+          "tr": "shubho noboborsho",
+          "en": "Happy New Year"
+        },
         {
           "bn": "পান্তা ভাত",
           "tr": "panta bhat",
@@ -198,24 +241,14 @@
           "en": "alpona"
         },
         {
-          "bn": "সুন্দর",
-          "tr": "shundor",
-          "en": "beautiful"
-        },
-        {
-          "bn": "শুভ নববর্ষ",
-          "tr": "shubho noboborsho",
-          "en": "Happy New Year"
-        },
-        {
-          "bn": "পহেলা বৈশাখ",
-          "tr": "pohela boishakh",
-          "en": "Pohela Boishakh"
+          "bn": "মেলা",
+          "tr": "mela",
+          "en": "fair"
         }
       ]
     },
     {
-      "id": "e09",
+      "id": "e11",
       "type": "word_bank",
       "prompt": {
         "bn": "তুমি কি মেলায় যাবে?",
@@ -224,15 +257,14 @@
       },
       "direction": "bn_to_en",
       "tiles": [
-        "fair",
-        "the",
-        "dozen",
-        "to",
         "Will",
+        "went",
         "you",
         "go",
-        "school",
-        "from"
+        "to",
+        "market",
+        "the",
+        "fair"
       ],
       "answer": [
         "Will",
@@ -244,34 +276,7 @@
       ]
     },
     {
-      "id": "e10",
-      "type": "word_bank",
-      "prompt": {
-        "bn": "আমি একটা লাল শাড়ি কিনব।",
-        "tr": "ami ekta lal shari kinbo.",
-        "en": "I will buy a red sari."
-      },
-      "direction": "en_to_bn",
-      "tiles": [
-        "শেষ",
-        "নানা",
-        "লাল",
-        "কিনব",
-        "শাড়ি",
-        "একটা",
-        "খাই",
-        "আমি"
-      ],
-      "answer": [
-        "আমি",
-        "একটা",
-        "লাল",
-        "শাড়ি",
-        "কিনব"
-      ]
-    },
-    {
-      "id": "e11",
+      "id": "e12",
       "type": "word_bank",
       "prompt": {
         "bn": "আমরা পান্তা ভাত আর ইলিশ খাই।",
@@ -280,15 +285,14 @@
       },
       "direction": "bn_to_en",
       "tiles": [
-        "eat",
-        "bhat",
-        "hilsa",
-        "after",
-        "and",
         "We",
-        "time",
-        "left",
-        "panta"
+        "ate",
+        "eat",
+        "panta",
+        "biryani",
+        "bhat",
+        "and",
+        "hilsa"
       ],
       "answer": [
         "We",
@@ -300,7 +304,7 @@
       ]
     },
     {
-      "id": "e12",
+      "id": "e13",
       "type": "type_translation",
       "prompt": {
         "bn": "পহেলা বৈশাখ বাংলা নববর্ষ।",
@@ -309,46 +313,54 @@
       },
       "direction": "bn_to_en",
       "accepted": [
-        "Pohela Boishakh is the Bengali New Year."
-      ]
-    },
-    {
-      "id": "e13",
-      "type": "word_bank",
-      "prompt": {
-        "bn": "শুভ সকাল।",
-        "tr": "shubho shokal.",
-        "en": "Good morning."
-      },
-      "direction": "en_to_bn",
-      "tiles": [
-        "আব্বু",
-        "মাছটা",
-        "শুভ",
-        "সকাল",
-        "বয়স"
-      ],
-      "answer": [
-        "শুভ",
-        "সকাল"
+        "Pohela Boishakh is the Bengali New Year.",
+        "Pohela Boishakh is Bengali New Year.",
+        "Pohela Boishakh is the Bangla New Year.",
+        "Pohela Boishakh is Bangla New Year.",
+        "Pohela Boishakh is the Bengali New Year's Day.",
+        "Pohela Baishakh is the Bengali New Year.",
+        "Pohela Baishakh is Bengali New Year.",
+        "Pohela Boishakh is the Bangla new year."
       ]
     },
     {
       "id": "e14",
       "type": "select_translation",
       "prompt": {
+        "bn": "শুভ নববর্ষ, আপু।",
+        "tr": "shubho noboborsho, apu.",
+        "en": "(On Pohela Boishakh, to your elder sister) Happy New Year, Apu!"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "ঈদ মোবারক, আপু।",
+        "শুভ নববর্ষ, আপু।",
+        "শুভ নববর্ষ, ভাইয়া।",
+        "শুভ সকাল, আপু।"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e15",
+      "type": "word_bank",
+      "prompt": {
         "bn": "আলপনা খুব সুন্দর।",
         "tr": "alpona khub shundor.",
         "en": "The alpona is very beautiful."
       },
       "direction": "en_to_bn",
-      "options": [
-        "ও আমার ভাই।",
-        "এখানে থামেন, ভাই।",
-        "আলপনা খুব সুন্দর।",
-        "কাল শনিবার।"
+      "tiles": [
+        "মেলা",
+        "খুব",
+        "আলপনা",
+        "নতুন",
+        "সুন্দর"
       ],
-      "answer": 2
+      "answer": [
+        "আলপনা",
+        "খুব",
+        "সুন্দর"
+      ]
     }
   ]
 }
