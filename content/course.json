@@ -61,14 +61,28 @@
       "title": "Family",
       "description": "Mother, father, siblings and the many aunts and uncles",
       "track": "main",
-      "lessons": []
+      "lessons": [
+        "u03-l01",
+        "u03-l02",
+        "u03-l03",
+        "u03-l04",
+        "u03-l05",
+        "u03-l06",
+        "u03-l07"
+      ]
     },
     {
       "id": "s03-vowel-signs",
       "title": "Script: Vowel signs",
       "description": "Attach vowels to consonants: কা, কি, কু…",
       "track": "script",
-      "lessons": []
+      "lessons": [
+        "s03-l01",
+        "s03-l02",
+        "s03-l03",
+        "s03-l04",
+        "s03-l05"
+      ]
     },
     {
       "id": "u04-food",

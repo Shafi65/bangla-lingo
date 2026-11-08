@@ -1,0 +1,349 @@
+{
+  "id": "u03-l02",
+  "unit": "u03-family",
+  "title": "Elder & younger",
+  "status": "draft",
+  "tip": "**বড়** (*boro*) = big, **ছোট** (*chhoto*) = small. With family they mean **elder** and **younger**: **বড় ভাই** = elder brother, **ছোট বোন** = younger sister. Bengali almost always says *which* sibling.\n\nYou don't call an elder sibling by name — that would feel cheeky. Instead say **ভাইয়া** (*bhaiya*, elder brother) and **আপু** (*apu*, elder sister). Younger siblings you *do* call by name. In Kolkata the words are **দাদা** and **দিদি**.\n\nEvery pronoun has a 'my/your' form with **-র**: সে → **তার**, ও → **ওর**, উনি → **ওনার**, তুই → **তোর**. Like সে, they don't show gender: **তার নাম** = 'his name' or 'her name'.",
+  "vocab": [
+    {
+      "id": "boro",
+      "bn": "বড়",
+      "tr": "boro",
+      "en": "big",
+      "notes": "With siblings it means 'elder': বড় ভাই 'elder brother'."
+    },
+    {
+      "id": "chhoto",
+      "bn": "ছোট",
+      "tr": "chhoto",
+      "en": "small",
+      "notes": "With siblings it means 'younger': ছোট বোন 'younger sister'. Also spelled ছোটো."
+    },
+    {
+      "id": "bhaiya",
+      "bn": "ভাইয়া",
+      "tr": "bhaiya",
+      "en": "elder brother",
+      "notes": "What you call your elder brother (instead of his name). Also polite address for a slightly older man. Kolkata: দাদা."
+    },
+    {
+      "id": "apu",
+      "bn": "আপু",
+      "tr": "apu",
+      "en": "elder sister",
+      "notes": "What you call your elder sister. Also friendly address for a slightly older woman. Kolkata: দিদি."
+    },
+    {
+      "id": "tar",
+      "bn": "তার",
+      "tr": "tar",
+      "en": "his/her",
+      "notes": "Possessive of সে."
+    },
+    {
+      "id": "or",
+      "bn": "ওর",
+      "tr": "or",
+      "en": "his/her (spoken)",
+      "notes": "Possessive of ও; the everyday spoken form."
+    },
+    {
+      "id": "onar",
+      "bn": "ওনার",
+      "tr": "onar",
+      "en": "his/her (polite)",
+      "notes": "Possessive of উনি. Written: তাঁর (ta~r)."
+    },
+    {
+      "id": "tor",
+      "bn": "তোর",
+      "tr": "tor",
+      "en": "your (intimate)",
+      "notes": "Possessive of তুই."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "বড়",
+        "tr": "boro",
+        "en": "big"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "good, well",
+        "big",
+        "small",
+        "Bangladeshi"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ছোট",
+        "tr": "chhoto",
+        "en": "small"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "small",
+        "big",
+        "good, well",
+        "Bangladeshi"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ভাইয়া",
+        "tr": "bhaiya",
+        "en": "elder brother"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "elder brother",
+        "elder sister",
+        "student (male)",
+        "friend"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e04",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আপু",
+        "tr": "apu",
+        "en": "elder sister"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "name",
+        "elder sister",
+        "English (language)",
+        "doctor"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e05",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "তার",
+        "tr": "tar",
+        "en": "his/her"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "you (polite, plural)",
+        "they (spoken)",
+        "your (familiar)",
+        "his/her"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e06",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ওর",
+        "tr": "or",
+        "en": "his/her (spoken)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "your (polite)",
+        "his/her (spoken)",
+        "they (spoken)",
+        "you (familiar)"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e07",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ওনার",
+        "tr": "onar",
+        "en": "his/her (polite)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "your (familiar)",
+        "you (polite)",
+        "you (intimate, plural)",
+        "his/her (polite)"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e08",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "আপু",
+          "tr": "apu",
+          "en": "elder sister"
+        },
+        {
+          "bn": "বড়",
+          "tr": "boro",
+          "en": "big"
+        },
+        {
+          "bn": "তোর",
+          "tr": "tor",
+          "en": "your (intimate)"
+        },
+        {
+          "bn": "ছোট",
+          "tr": "chhoto",
+          "en": "small"
+        },
+        {
+          "bn": "ভাইয়া",
+          "tr": "bhaiya",
+          "en": "elder brother"
+        }
+      ]
+    },
+    {
+      "id": "e09",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "ওনার নাম কী?",
+        "tr": "onar nam ki?",
+        "en": "What is his name?"
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "there",
+        "is",
+        "your",
+        "no",
+        "name",
+        "What",
+        "his"
+      ],
+      "answer": [
+        "What",
+        "is",
+        "his",
+        "name"
+      ]
+    },
+    {
+      "id": "e10",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "তার নাম রাফি।",
+        "tr": "tar nam rafi.",
+        "en": "His name is Rafi."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "ছেলে",
+        "আপনি",
+        "রাফি",
+        "নাম",
+        "আমরা",
+        "তার"
+      ],
+      "answer": [
+        "তার",
+        "নাম",
+        "রাফি"
+      ]
+    },
+    {
+      "id": "e11",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমার ছোট বোন ছাত্রী।",
+        "tr": "amar chhoto bon chhatri.",
+        "en": "My younger sister is a student."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "there",
+        "very",
+        "student",
+        "younger",
+        "doctor",
+        "sister",
+        "a",
+        "My",
+        "is"
+      ],
+      "answer": [
+        "My",
+        "younger",
+        "sister",
+        "is",
+        "a",
+        "student"
+      ]
+    },
+    {
+      "id": "e12",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "তোর বড় বোন কোথায়?",
+        "tr": "tor boro bon kothay?",
+        "en": "Where is your elder sister?"
+      },
+      "direction": "bn_to_en",
+      "accepted": [
+        "Where is your elder sister?",
+        "Where's your big sister?",
+        "Where is your older sister?"
+      ]
+    },
+    {
+      "id": "e13",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আপু, তুমি কোথায়?",
+        "tr": "apu, tumi kothay?",
+        "en": "Sister, where are you?"
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "ভালো",
+        "আপু",
+        "আপনি",
+        "তারা",
+        "তুমি",
+        "কোথায়"
+      ],
+      "answer": [
+        "আপু",
+        "তুমি",
+        "কোথায়"
+      ]
+    },
+    {
+      "id": "e14",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ওর নাম নাদিয়া।",
+        "tr": "or nam nadiya.",
+        "en": "Her name is Nadia."
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "ওর নাম নাদিয়া।",
+        "সে ভালো ছেলে।",
+        "আমি ছাত্রী, আমার নাম নাদিয়া।",
+        "ওরা ভালো মানুষ।"
+      ],
+      "answer": 0
+    }
+  ]
+}

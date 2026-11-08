@@ -1,0 +1,291 @@
+{
+  "id": "s03-l04",
+  "unit": "s03-vowel-signs",
+  "title": "Vowel signs 4: ো ৌ",
+  "status": "draft",
+  "tip": "**These signs wrap around the consonant.** ো is ে on the left plus া on the right: কো = `ko`. Find the consonant in the middle, then read *one* vowel `o`: ভালো (`bhalo`), তোমার (`tomar`), বোন (`bon`), ছোট (`chhoto`).\n\n**ৌ** is the same wrap but with a curly tail (ৗ) on the right: `ou` as in *low*. নৌকা (`nouka`, *boat*), মৌমাছি (`moumachhi`, *bee*).\n\n**Don't read it as e + a.** ক ে…া never means *kea*. Whenever ে and া hug one letter, it's ো.\n\nRecap of sign positions: right (া ী ৗ-tail), left (ি ে ৈ), below (ু ূ ৃ), both sides (ো ৌ).",
+  "vocab": [
+    {
+      "id": "k-o",
+      "bn": "কো",
+      "tr": "ko",
+      "en": "ো (o-kar): adds 'o' as in 'go'; wraps around the consonant",
+      "notes": "Bare sign: ো (U+09CB; canonically ে U+09C7 + া U+09BE, stored precomposed here per NFC). Name o-kar (ও-কার)."
+    },
+    {
+      "id": "k-ou",
+      "bn": "কৌ",
+      "tr": "kou",
+      "en": "ৌ (ou-kar): adds 'ou' as in 'low'; wraps around the consonant",
+      "notes": "Bare sign: ৌ (U+09CC; ে + ৗ U+09D7, stored precomposed per NFC). Name ou-kar (ঔ-কার)."
+    },
+    {
+      "id": "nouka",
+      "bn": "নৌকা",
+      "tr": "nouka",
+      "en": "boat"
+    },
+    {
+      "id": "moumachhi",
+      "bn": "মৌমাছি",
+      "tr": "moumachhi",
+      "en": "bee",
+      "notes": "মৌ = honey (poetic), মাছি = fly."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "script_recognize",
+      "glyph": "কো",
+      "options": [
+        "u",
+        "bho",
+        "rho",
+        "ko"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e02",
+      "type": "script_recognize",
+      "glyph": "কৌ",
+      "options": [
+        "kou",
+        "jho",
+        "bo",
+        "to"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "নৌকা",
+        "tr": "nouka",
+        "en": "boat"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "elder sister",
+        "boat",
+        "uncle (address)",
+        "aunt (mother's sister)"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e04",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "মৌমাছি",
+        "tr": "moumachhi",
+        "en": "bee"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "bee",
+        "one",
+        "grandmother (mother's mother)",
+        "mom"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e05",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ছোট",
+        "tr": "chhoto",
+        "en": "small"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "made / ready",
+        "sorry",
+        "small",
+        "dark / deep (of colour)"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e06",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "তোমার",
+        "tr": "tomar",
+        "en": "your (familiar)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "you (familiar, plural)",
+        "your (intimate)",
+        "your (familiar)",
+        "you (familiar)"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e07",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "বোন",
+        "tr": "bon",
+        "en": "sister"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "mother",
+        "eagle",
+        "brother",
+        "sister"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e08",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ভালো",
+        "tr": "bhalo",
+        "en": "good, well"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "big",
+        "dark / deep (of colour)",
+        "good, well",
+        "small"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e09",
+      "type": "listen_select",
+      "audio": {
+        "bn": "কো",
+        "tr": "ko",
+        "en": "ো (o-kar): adds 'o' as in 'go'; wraps around the consonant"
+      },
+      "options": [
+        "খ",
+        "কো",
+        "জ",
+        "স"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e10",
+      "type": "listen_select",
+      "audio": {
+        "bn": "কৌ",
+        "tr": "kou",
+        "en": "ৌ (ou-kar): adds 'ou' as in 'low'; wraps around the consonant"
+      },
+      "options": [
+        "কৌ",
+        "ছ",
+        "ষ",
+        "র"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e11",
+      "type": "listen_select",
+      "audio": {
+        "bn": "নৌকা",
+        "tr": "nouka",
+        "en": "boat"
+      },
+      "options": [
+        "ছাত্রী",
+        "পৃথিবী",
+        "নৌকা",
+        "বাবার"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e12",
+      "type": "listen_select",
+      "audio": {
+        "bn": "মৌমাছি",
+        "tr": "moumachhi",
+        "en": "bee"
+      },
+      "options": [
+        "গরু",
+        "পৃথিবী",
+        "আন্টি",
+        "মৌমাছি"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e13",
+      "type": "listen_select",
+      "audio": {
+        "bn": "ছোট",
+        "tr": "chhoto",
+        "en": "small"
+      },
+      "options": [
+        "লাল",
+        "গাঢ়",
+        "বাংলাদেশি",
+        "ছোট"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e14",
+      "type": "listen_select",
+      "audio": {
+        "bn": "তোমার",
+        "tr": "tomar",
+        "en": "your (familiar)"
+      },
+      "options": [
+        "তারা",
+        "ওটা",
+        "আমি",
+        "তোমার"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e15",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "বোন",
+          "tr": "bon",
+          "en": "sister"
+        },
+        {
+          "bn": "নৌকা",
+          "tr": "nouka",
+          "en": "boat"
+        },
+        {
+          "bn": "মৌমাছি",
+          "tr": "moumachhi",
+          "en": "bee"
+        },
+        {
+          "bn": "কৌ",
+          "tr": "kou",
+          "en": "ৌ (ou-kar): adds 'ou' as in 'low'; wraps around the consonant"
+        },
+        {
+          "bn": "কো",
+          "tr": "ko",
+          "en": "ো (o-kar): adds 'o' as in 'go'; wraps around the consonant"
+        }
+      ]
+    }
+  ]
+}

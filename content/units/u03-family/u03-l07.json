@@ -1,0 +1,332 @@
+{
+  "id": "u03-l07",
+  "unit": "u03-family",
+  "title": "Review: my family",
+  "status": "draft",
+  "tip": "Last new words: **স্বামী** (*shami*, husband) and **স্ত্রী** (*stri*, wife). In everyday speech many people say **বউ** (*bou*) for 'wife' — it also means 'bride'. (The ব in স্বামী is silent, which you'll learn about in the conjuncts script unit.)\n\nQuick recap of the family map:\n\n| | father's side | mother's side |\n|---|---|---|\n| grandparents | দাদা / দাদি | নানা / নানি |\n| uncle | চাচা, ফুফা | মামা, খালু |\n| aunt | চাচি, ফুফু | মামি, খালা |\n\nAnd remember **ছেলে / মেয়ে** = son / daughter as well as boy / girl.\n\nWhen you hear a word you don't know, ask **X মানে কী?** \"What does X mean?\". **সবাই কেমন আছে?** \"How is everyone?\" is the classic question about someone's family.",
+  "vocab": [
+    {
+      "id": "shami",
+      "bn": "স্বামী",
+      "tr": "shami",
+      "en": "husband",
+      "notes": "The ব-fola after স is silent."
+    },
+    {
+      "id": "stri",
+      "bn": "স্ত্রী",
+      "tr": "stri",
+      "en": "wife",
+      "notes": "Neutral/formal. Colloquially বউ."
+    },
+    {
+      "id": "bou",
+      "bn": "বউ",
+      "tr": "bou",
+      "en": "wife",
+      "notes": "Colloquial 'wife'; also 'bride' and 'daughter-in-law'. Also spelled বৌ."
+    },
+    {
+      "id": "kintu",
+      "bn": "কিন্তু",
+      "tr": "kintu",
+      "en": "but"
+    },
+    {
+      "id": "shobai",
+      "bn": "সবাই",
+      "tr": "shobai",
+      "en": "everyone"
+    },
+    {
+      "id": "mane",
+      "bn": "মানে",
+      "tr": "mane",
+      "en": "meaning",
+      "notes": "X মানে কী? = \"What does X mean?\". Also a filler: মানে… \"I mean…\"."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "স্বামী",
+        "tr": "shami",
+        "en": "husband"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "country",
+        "wife",
+        "brother",
+        "husband"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "স্ত্রী",
+        "tr": "stri",
+        "en": "wife"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "father's",
+        "child",
+        "wife",
+        "mother"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "বউ",
+        "tr": "bou",
+        "en": "wife"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "child",
+        "student (male)",
+        "wife",
+        "teacher"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e04",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "কিন্তু",
+        "tr": "kintu",
+        "en": "but"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "no",
+        "and",
+        "OK",
+        "but"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e05",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "সবাই",
+        "tr": "shobai",
+        "en": "everyone"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "I",
+        "he/she (polite)",
+        "you (intimate)",
+        "everyone"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e06",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "মানে",
+        "tr": "mane",
+        "en": "meaning"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "uncle (mother's brother)",
+        "meaning",
+        "grandfather (mother's father)",
+        "student (female)"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e07",
+      "type": "listen_select",
+      "audio": {
+        "bn": "স্বামী",
+        "tr": "shami",
+        "en": "husband"
+      },
+      "options": [
+        "স্বামী",
+        "চাচা",
+        "আন্টি",
+        "মায়ের"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e08",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "সবাই",
+          "tr": "shobai",
+          "en": "everyone"
+        },
+        {
+          "bn": "স্বামী",
+          "tr": "shami",
+          "en": "husband"
+        },
+        {
+          "bn": "মানে",
+          "tr": "mane",
+          "en": "meaning"
+        },
+        {
+          "bn": "কিন্তু",
+          "tr": "kintu",
+          "en": "but"
+        },
+        {
+          "bn": "স্ত্রী",
+          "tr": "stri",
+          "en": "wife"
+        }
+      ]
+    },
+    {
+      "id": "e09",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "বউ মানে স্ত্রী।",
+        "tr": "bou mane stri.",
+        "en": "\"Bou\" means wife."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "Bou",
+        "child",
+        "means",
+        "meaning",
+        "he/she",
+        "wife"
+      ],
+      "answer": [
+        "Bou",
+        "means",
+        "wife"
+      ]
+    },
+    {
+      "id": "e10",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমার নানা আর নানি বাংলাদেশি।",
+        "tr": "amar nana ar nani bangladeshi.",
+        "en": "My grandparents are Bangladeshi."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "নানি",
+        "নানা",
+        "বাংলাদেশি",
+        "আর",
+        "আমরা",
+        "আমার",
+        "কি",
+        "মা"
+      ],
+      "answer": [
+        "আমার",
+        "নানা",
+        "আর",
+        "নানি",
+        "বাংলাদেশি"
+      ]
+    },
+    {
+      "id": "e11",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমার বউ ডাক্তার।",
+        "tr": "amar bou daktar.",
+        "en": "My wife is a doctor."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "My",
+        "a",
+        "doctor",
+        "wife",
+        "How",
+        "is",
+        "they",
+        "elder"
+      ],
+      "answer": [
+        "My",
+        "wife",
+        "is",
+        "a",
+        "doctor"
+      ]
+    },
+    {
+      "id": "e12",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "বউ মানে কী?",
+        "tr": "bou mane ki?",
+        "en": "What does \"bou\" mean?"
+      },
+      "direction": "bn_to_en",
+      "accepted": [
+        "What does \"bou\" mean?"
+      ]
+    },
+    {
+      "id": "e13",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমার বড় আপু শিক্ষক।",
+        "tr": "amar boro apu shikkhok.",
+        "en": "My elder sister is a teacher."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "সবাই",
+        "বড়",
+        "আপু",
+        "কিন্তু",
+        "শিক্ষক",
+        "তারা",
+        "আমার"
+      ],
+      "answer": [
+        "আমার",
+        "বড়",
+        "আপু",
+        "শিক্ষক"
+      ]
+    },
+    {
+      "id": "e14",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "উনি আমার স্ত্রী।",
+        "tr": "uni amar stri.",
+        "en": "She is my wife."
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "আমার দুইজন বাচ্চা আছে।",
+        "ওনার নাম কী?",
+        "উনি আমার স্ত্রী।",
+        "আমি বাংলাদেশি।"
+      ],
+      "answer": 2
+    }
+  ]
+}

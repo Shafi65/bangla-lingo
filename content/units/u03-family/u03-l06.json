@@ -1,0 +1,346 @@
+{
+  "id": "u03-l06",
+  "unit": "u03-family",
+  "title": "Calling strangers 'uncle'",
+  "status": "draft",
+  "tip": "In Bangladesh you rarely call an adult by their name or 'sir/madam'. Instead you **promote them into your family**:\n\n- **ভাই / ভাইয়া** — any man around your age or a bit older (shopkeepers, waiters, colleagues)\n- **আপা / আপু** — any woman a bit older than you\n- **চাচা** — an older man; **খালা** — an older woman (also domestic helpers)\n- **মামা** — rickshaw drivers, tea-stall owners, street vendors: friendly and informal\n- **আংকেল / আন্টি** — friends' parents and older people in middle-class city life\n\nThese terms still take **আপনি** (polite verbs) unless you know the person well: *Chacha, apni kemon achhen?*\n\nUsing them makes people warm to you instantly — a foreigner who says **মামা** to a rickshaw driver will usually get a big smile.\n\nThree lifesavers for talking to strangers: **আমি জানি না** \"I don't know\", **বুঝতে পারছি না** \"I don't understand\", and **আচ্ছা** \"OK / I see\".",
+  "vocab": [
+    {
+      "id": "apa",
+      "bn": "আপা",
+      "tr": "apa",
+      "en": "elder sister; ma'am",
+      "notes": "Respectful address for a woman somewhat older than you — teachers, colleagues, shop customers. A little more formal than আপু."
+    },
+    {
+      "id": "angkel",
+      "bn": "আংকেল",
+      "tr": "angkel",
+      "en": "uncle (address)",
+      "notes": "From English 'uncle'; used by urban Bangladeshis for friends' fathers and older men. Also spelled আঙ্কেল."
+    },
+    {
+      "id": "anti",
+      "bn": "আন্টি",
+      "tr": "anti",
+      "en": "auntie (address)",
+      "notes": "From English 'auntie'; used for friends' mothers and older women, especially in cities."
+    },
+    {
+      "id": "achchha",
+      "bn": "আচ্ছা",
+      "tr": "achchha",
+      "en": "OK",
+      "notes": "Agreement / \"I see\". With a question tone (আচ্ছা?) it means \"Really?\"; at the start of a sentence it can mean \"By the way…\"."
+    },
+    {
+      "id": "jani",
+      "bn": "জানি",
+      "tr": "jani",
+      "en": "(I) know",
+      "notes": "From জানা \"know\". আমি জানি না = \"I don't know\"."
+    },
+    {
+      "id": "janen",
+      "bn": "জানেন",
+      "tr": "janen",
+      "en": "(you, polite) know"
+    },
+    {
+      "id": "bujhte-parchhi-na",
+      "bn": "বুঝতে পারছি না",
+      "tr": "bujhte parchhi na",
+      "en": "I don't understand",
+      "notes": "Learn as a chunk for now (lit. \"I am not able to understand\"). The পারা \"can\" verb is taught in U8."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আপা",
+        "tr": "apa",
+        "en": "elder sister; ma'am"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "uncle (mother's brother)",
+        "aunt (mother's sister)",
+        "elder sister; ma'am",
+        "uncle (fufu's husband)"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আংকেল",
+        "tr": "angkel",
+        "en": "uncle (address)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "English (language)",
+        "boy",
+        "Bengali (language)",
+        "uncle (address)"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আন্টি",
+        "tr": "anti",
+        "en": "auntie (address)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "auntie (address)",
+        "boy",
+        "country",
+        "family"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e04",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আচ্ছা",
+        "tr": "achchha",
+        "en": "OK"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "OK",
+        "yes",
+        "and",
+        "(yes/no question marker)"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e05",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "জানি",
+        "tr": "jani",
+        "en": "(I) know"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "(you, polite) know",
+        "are (intimate)",
+        "(I) know",
+        "is not"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e06",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "জানেন",
+        "tr": "janen",
+        "en": "(you, polite) know"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "am",
+        "are not (familiar)",
+        "are (intimate)",
+        "(you, polite) know"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e07",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "বুঝতে পারছি না",
+        "tr": "bujhte parchhi na",
+        "en": "I don't understand"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "I don't understand",
+        "goodbye",
+        "see you again",
+        "thank you"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e08",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "আপা",
+          "tr": "apa",
+          "en": "elder sister; ma'am"
+        },
+        {
+          "bn": "জানি",
+          "tr": "jani",
+          "en": "(I) know"
+        },
+        {
+          "bn": "আংকেল",
+          "tr": "angkel",
+          "en": "uncle (address)"
+        },
+        {
+          "bn": "আচ্ছা",
+          "tr": "achchha",
+          "en": "OK"
+        },
+        {
+          "bn": "আন্টি",
+          "tr": "anti",
+          "en": "auntie (address)"
+        }
+      ]
+    },
+    {
+      "id": "e09",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আপা, আমি বুঝতে পারছি না।",
+        "tr": "apa, ami bujhte parchhi na.",
+        "en": "Ma'am, I don't understand."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "understand",
+        "family",
+        "I",
+        "don't",
+        "he/she",
+        "girl",
+        "Ma'am"
+      ],
+      "answer": [
+        "Ma'am",
+        "I",
+        "don't",
+        "understand"
+      ]
+    },
+    {
+      "id": "e10",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "খালা, কেমন আছেন?",
+        "tr": "khala, kemon achhen?",
+        "en": "Auntie, how are you?"
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "দেশ",
+        "কেমন",
+        "মামি",
+        "ডাক্তার",
+        "খালা",
+        "আছেন"
+      ],
+      "answer": [
+        "খালা",
+        "কেমন",
+        "আছেন"
+      ]
+    },
+    {
+      "id": "e11",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "ভাই, ডাক্তার কোথায় জানেন?",
+        "tr": "bhai, daktar kothay janen?",
+        "en": "Brother, do you know where the doctor is?"
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "is",
+        "Brother",
+        "the",
+        "know",
+        "doctor",
+        "how",
+        "do",
+        "you",
+        "Rafi",
+        "where",
+        "our"
+      ],
+      "answer": [
+        "Brother",
+        "do",
+        "you",
+        "know",
+        "where",
+        "the",
+        "doctor",
+        "is"
+      ]
+    },
+    {
+      "id": "e12",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আংকেল, আপনি কোথা থেকে এসেছেন?",
+        "tr": "angkel, apni kotha theke eshechhen?",
+        "en": "Uncle, where are you from?"
+      },
+      "direction": "bn_to_en",
+      "accepted": [
+        "Uncle, where are you from?",
+        "Where are you from, uncle?"
+      ]
+    },
+    {
+      "id": "e13",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আপা, আপনি কি ডাক্তার?",
+        "tr": "apa, apni ki daktar?",
+        "en": "Ma'am, are you a doctor?"
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "ফুফা",
+        "কি",
+        "ও",
+        "আপা",
+        "ডাক্তার",
+        "আপনি",
+        "ওখানে"
+      ],
+      "answer": [
+        "আপা",
+        "আপনি",
+        "কি",
+        "ডাক্তার"
+      ]
+    },
+    {
+      "id": "e14",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "চাচা, এটা কী?",
+        "tr": "chacha, eta ki?",
+        "en": "Uncle, what is this?"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "তোমরা কেমন আছো?",
+        "আসসালামু আলাইকুম, আমার নাম রাফি।",
+        "চাচা, এটা কী?",
+        "এখানে একজন ডাক্তার আছেন।"
+      ],
+      "answer": 2
+    }
+  ]
+}

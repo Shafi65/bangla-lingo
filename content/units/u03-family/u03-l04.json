@@ -1,0 +1,338 @@
+{
+  "id": "u03-l04",
+  "unit": "u03-family",
+  "title": "Mother's side",
+  "status": "draft",
+  "tip": "On your **mother's side**:\n\n- **নানা / নানি** — grandfather / grandmother\n- **মামা / মামি** — mother's brother / his wife\n- **খালা / খালু** — mother's sister / her husband\n\n'Mother's' is **মায়ের** (*mayer*). After most vowels the possessive is -র (বাবা → বাবার), but some short words take **-এর** with a little **য়** glide: মা → মায়ের, ভাই → ভাইয়ের.\n\n**মামা** is a special word: in Bangladesh it's also how you cheerfully address a rickshaw-wallah or the man at the tea stall — *Mama, ek kap cha!* You'll practise that in Lesson 6.\n\nKolkata: maternal grandparents are দাদু / দিদিমা, mother's sister is মাসি, her husband মেসো.",
+  "vocab": [
+    {
+      "id": "nana",
+      "bn": "নানা",
+      "tr": "nana",
+      "en": "grandfather (mother's father)"
+    },
+    {
+      "id": "nani",
+      "bn": "নানি",
+      "tr": "nani",
+      "en": "grandmother (mother's mother)"
+    },
+    {
+      "id": "mama",
+      "bn": "মামা",
+      "tr": "mama",
+      "en": "uncle (mother's brother)",
+      "notes": "Also the friendliest way to address a rickshaw driver or tea-stall owner in Bangladesh. Same word in Kolkata."
+    },
+    {
+      "id": "mami",
+      "bn": "মামি",
+      "tr": "mami",
+      "en": "aunt (mama's wife)"
+    },
+    {
+      "id": "khala",
+      "bn": "খালা",
+      "tr": "khala",
+      "en": "aunt (mother's sister)",
+      "notes": "Also respectful address for an older woman."
+    },
+    {
+      "id": "khalu",
+      "bn": "খালু",
+      "tr": "khalu",
+      "en": "uncle (khala's husband)"
+    },
+    {
+      "id": "mayer",
+      "bn": "মায়ের",
+      "tr": "mayer",
+      "en": "mother's",
+      "notes": "মা + -এর; a য় glide is added between the vowels."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "নানা",
+        "tr": "nana",
+        "en": "grandfather (mother's father)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "grandfather (mother's father)",
+        "mother",
+        "aunt (mother's sister)",
+        "uncle (khala's husband)"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "নানি",
+        "tr": "nani",
+        "en": "grandmother (mother's mother)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "aunt (mother's sister)",
+        "grandfather (father's father)",
+        "grandmother (mother's mother)",
+        "doctor"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "মামা",
+        "tr": "mama",
+        "en": "uncle (mother's brother)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "aunt (father's sister)",
+        "grandfather (mother's father)",
+        "uncle (mother's brother)",
+        "mother's"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e04",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "মামি",
+        "tr": "mami",
+        "en": "aunt (mama's wife)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "aunt (mama's wife)",
+        "aunt (chacha's wife)",
+        "grandmother (mother's mother)",
+        "country"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e05",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "খালা",
+        "tr": "khala",
+        "en": "aunt (mother's sister)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "father",
+        "elder brother",
+        "uncle (fufu's husband)",
+        "aunt (mother's sister)"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e06",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "খালু",
+        "tr": "khalu",
+        "en": "uncle (khala's husband)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "uncle (khala's husband)",
+        "boy",
+        "aunt (father's sister)",
+        "brother"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e07",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "মায়ের",
+        "tr": "mayer",
+        "en": "mother's"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "doctor",
+        "mom",
+        "elder sister",
+        "mother's"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e08",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "মামি",
+          "tr": "mami",
+          "en": "aunt (mama's wife)"
+        },
+        {
+          "bn": "নানি",
+          "tr": "nani",
+          "en": "grandmother (mother's mother)"
+        },
+        {
+          "bn": "মামা",
+          "tr": "mama",
+          "en": "uncle (mother's brother)"
+        },
+        {
+          "bn": "খালা",
+          "tr": "khala",
+          "en": "aunt (mother's sister)"
+        },
+        {
+          "bn": "নানা",
+          "tr": "nana",
+          "en": "grandfather (mother's father)"
+        }
+      ]
+    },
+    {
+      "id": "e09",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "মামা আমার মায়ের ভাই।",
+        "tr": "mama amar mayer bhai.",
+        "en": "Mama is my mother's brother."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "Mama",
+        "brother",
+        "my",
+        "friend",
+        "mother's",
+        "very",
+        "is",
+        "a"
+      ],
+      "answer": [
+        "Mama",
+        "is",
+        "my",
+        "mother's",
+        "brother"
+      ]
+    },
+    {
+      "id": "e10",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "উনি আমার নানা।",
+        "tr": "uni amar nana.",
+        "en": "He is my grandfather."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "বাবার",
+        "খালা",
+        "উনি",
+        "বাবা",
+        "নানা",
+        "আমার"
+      ],
+      "answer": [
+        "উনি",
+        "আমার",
+        "নানা"
+      ]
+    },
+    {
+      "id": "e11",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "খালা আমার মায়ের বোন।",
+        "tr": "khala amar mayer bon.",
+        "en": "Khala is my mother's sister."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "mother's",
+        "Khala",
+        "my",
+        "is",
+        "I",
+        "dad",
+        "doctor",
+        "sister"
+      ],
+      "answer": [
+        "Khala",
+        "is",
+        "my",
+        "mother's",
+        "sister"
+      ]
+    },
+    {
+      "id": "e12",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "নানি কেমন আছেন?",
+        "tr": "nani kemon achhen?",
+        "en": "How is Grandma?"
+      },
+      "direction": "bn_to_en",
+      "accepted": [
+        "How is Grandma?",
+        "How is grandmother?",
+        "How's Nani?"
+      ]
+    },
+    {
+      "id": "e13",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "মামা, আপনি কোথায়?",
+        "tr": "mama, apni kothay?",
+        "en": "Uncle, where are you?"
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "খালা",
+        "কোথায়",
+        "খালু",
+        "আপনি",
+        "কি",
+        "মামা"
+      ],
+      "answer": [
+        "মামা",
+        "আপনি",
+        "কোথায়"
+      ]
+    },
+    {
+      "id": "e14",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "নানা আর নানি ভালো আছেন।",
+        "tr": "nana ar nani bhalo achhen.",
+        "en": "Grandpa and Grandma are well."
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "নানা আর নানি ভালো আছেন।",
+        "তার নাম রাফি।",
+        "এটা কি বাংলা?",
+        "ধন্যবাদ, খোদা হাফেজ।"
+      ],
+      "answer": 0
+    }
+  ]
+}

@@ -1,0 +1,289 @@
+{
+  "id": "s03-l01",
+  "unit": "s03-vowel-signs",
+  "title": "Vowel signs 1: া ি ী",
+  "status": "draft",
+  "tip": "**Vowels after a consonant are written as signs (কার kar).** Instead of writing ক + আ, you write ক + া = **কা** (`ka`). Now you can read মামা (`mama`), খালা (`khala`), বাবা (`baba`)!\n\n**The big surprise: ি is written BEFORE the consonant.** In কি, the ি hook is drawn on the left, but you still say k first, then i. Read it as 'consonant, then the hook's vowel': চাচি = চা + চি = `chachi`, দাদি = `dadi`.\n\n**ি vs ী**: the short-i sign hooks to the left, the long-i sign hooks to the right (কী). They sound the same; the spelling just differs per word (চাচি with ি, নদী with ী).\n\nTip: the sign া is the same stick that turns অ into আ.",
+  "vocab": [
+    {
+      "id": "k-aa",
+      "bn": "কা",
+      "tr": "ka",
+      "en": "া (a-kar): adds 'a' as in 'father' after the consonant",
+      "notes": "Bare sign: া (U+09BE), name a-kar (আ-কার). Written to the right of the consonant."
+    },
+    {
+      "id": "k-i",
+      "bn": "কি",
+      "tr": "ki",
+      "en": "ি (i-kar, short-i sign): adds 'i' as in 'see'",
+      "notes": "Bare sign: ি (U+09BF), name hroshsho i-kar (হ্রস্ব ই-কার). Typed after the consonant but DRAWN to its left. Same sound as ী."
+    },
+    {
+      "id": "k-ii",
+      "bn": "কী",
+      "tr": "ki",
+      "en": "ী (long-i sign): adds 'i' as in 'see'",
+      "notes": "Bare sign: ী (U+09C0), name dirgho i-kar (দীর্ঘ ই-কার). Written to the right. Same sound as ি. কী also means 'what?'"
+    },
+    {
+      "id": "nodi",
+      "bn": "নদী",
+      "tr": "nodi",
+      "en": "river",
+      "notes": "Bangladesh is a land of rivers: পদ্মা, মেঘনা, যমুনা."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "script_recognize",
+      "glyph": "কা",
+      "options": [
+        "po",
+        "go",
+        "ka",
+        "cho"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e02",
+      "type": "script_recognize",
+      "glyph": "কি",
+      "options": [
+        "ki",
+        "tho",
+        "cho",
+        "jho"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e03",
+      "type": "script_recognize",
+      "glyph": "কী",
+      "options": [
+        "jo",
+        "a",
+        "ki",
+        "ri"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e04",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "নদী",
+        "tr": "nodi",
+        "en": "river"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "mother's",
+        "mango",
+        "elder sister",
+        "river"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e05",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "বাবা",
+        "tr": "baba",
+        "en": "father"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "room / house",
+        "season",
+        "father",
+        "auntie (address)"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e06",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "চাচি",
+        "tr": "chachi",
+        "en": "aunt (chacha's wife)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "medicine (formal)",
+        "aunt (chacha's wife)",
+        "mother",
+        "uncle (khala's husband)"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e07",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "দাদি",
+        "tr": "dadi",
+        "en": "grandmother (father's mother)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "grandmother (father's mother)",
+        "many / a lot",
+        "uncle (mother's brother)",
+        "cow"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e08",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "মামি",
+        "tr": "mami",
+        "en": "aunt (mama's wife)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "eagle",
+        "aunt (mama's wife)",
+        "tree",
+        "room / house"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e09",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "খালা",
+        "tr": "khala",
+        "en": "aunt (mother's sister)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "storm",
+        "aunt (mother's sister)",
+        "doctor",
+        "season"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e10",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "কী",
+        "tr": "ki",
+        "en": "what"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "what",
+        "your (familiar, plural)",
+        "you (familiar, plural)",
+        "that"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e11",
+      "type": "listen_select",
+      "audio": {
+        "bn": "কা",
+        "tr": "ka",
+        "en": "া (a-kar): adds 'a' as in 'father' after the consonant"
+      },
+      "options": [
+        "কা",
+        "ভ",
+        "ড়",
+        "অ"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e12",
+      "type": "listen_select",
+      "audio": {
+        "bn": "কি",
+        "tr": "ki",
+        "en": "ি (i-kar, short-i sign): adds 'i' as in 'see'"
+      },
+      "options": [
+        "কি",
+        "ভ",
+        "হ",
+        "আ"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e13",
+      "type": "listen_select",
+      "audio": {
+        "bn": "কী",
+        "tr": "ki",
+        "en": "ী (long-i sign): adds 'i' as in 'see'"
+      },
+      "options": [
+        "আঁ",
+        "ল",
+        "কী",
+        "ঠ"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e14",
+      "type": "listen_select",
+      "audio": {
+        "bn": "নদী",
+        "tr": "nodi",
+        "en": "river"
+      },
+      "options": [
+        "ঋতু",
+        "আন্টি",
+        "নদী",
+        "বাংলা"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e15",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "কা",
+          "tr": "ka",
+          "en": "া (a-kar): adds 'a' as in 'father' after the consonant"
+        },
+        {
+          "bn": "কী",
+          "tr": "ki",
+          "en": "ী (long-i sign): adds 'i' as in 'see'"
+        },
+        {
+          "bn": "মামি",
+          "tr": "mami",
+          "en": "aunt (mama's wife)"
+        },
+        {
+          "bn": "নদী",
+          "tr": "nodi",
+          "en": "river"
+        },
+        {
+          "bn": "কি",
+          "tr": "ki",
+          "en": "ি (i-kar, short-i sign): adds 'i' as in 'see'"
+        }
+      ]
+    }
+  ]
+}
