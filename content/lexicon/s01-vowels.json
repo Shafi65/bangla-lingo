@@ -1,0 +1,291 @@
+{
+  "unit": "s01-vowels",
+  "entries": [
+    {
+      "id": "l-o",
+      "bn": "অ",
+      "tr": "o",
+      "en": "o as in 'or' (short, open)",
+      "pos": "letter",
+      "lesson": "s01-l01",
+      "notes": "Name: sworo-o (স্বরে অ). Also the 'inherent vowel' hidden in every consonant."
+    },
+    {
+      "id": "l-a",
+      "bn": "আ",
+      "tr": "a",
+      "en": "a as in 'father'",
+      "pos": "letter",
+      "lesson": "s01-l01",
+      "notes": "Name: sworo-a (স্বরে আ). Looks like অ with an extra stroke (া) on the right."
+    },
+    {
+      "id": "l-i",
+      "bn": "ই",
+      "tr": "i",
+      "en": "i as in 'see' (short-i letter)",
+      "pos": "letter",
+      "lesson": "s01-l01",
+      "notes": "Name: hroshsho-i (হ্রস্ব ই) = 'short i'. Sounds the same as ঈ in modern speech."
+    },
+    {
+      "id": "l-ii",
+      "bn": "ঈ",
+      "tr": "i",
+      "en": "i as in 'see' (long-i letter)",
+      "pos": "letter",
+      "lesson": "s01-l01",
+      "notes": "Name: dirgho-i (দীর্ঘ ই) = 'long i'. Same sound as ই; only the spelling differs."
+    },
+    {
+      "id": "ojogor",
+      "bn": "অজগর",
+      "tr": "ojogor",
+      "en": "python (snake)",
+      "pos": "noun",
+      "lesson": "s01-l01",
+      "notes": "Classic alphabet-chart word: অ-তে অজগর."
+    },
+    {
+      "id": "onek",
+      "bn": "অনেক",
+      "tr": "onek",
+      "en": "many / a lot",
+      "pos": "noun",
+      "lesson": "s01-l01"
+    },
+    {
+      "id": "am",
+      "bn": "আম",
+      "tr": "am",
+      "en": "mango",
+      "pos": "noun",
+      "lesson": "s01-l01"
+    },
+    {
+      "id": "akash",
+      "bn": "আকাশ",
+      "tr": "akash",
+      "en": "sky",
+      "pos": "noun",
+      "lesson": "s01-l01"
+    },
+    {
+      "id": "ilish",
+      "bn": "ইলিশ",
+      "tr": "ilish",
+      "en": "hilsa (fish)",
+      "pos": "noun",
+      "lesson": "s01-l01",
+      "notes": "Bangladesh's national fish."
+    },
+    {
+      "id": "it",
+      "bn": "ইট",
+      "tr": "it",
+      "en": "brick",
+      "pos": "noun",
+      "lesson": "s01-l01"
+    },
+    {
+      "id": "igol",
+      "bn": "ঈগল",
+      "tr": "igol",
+      "en": "eagle",
+      "pos": "noun",
+      "lesson": "s01-l01"
+    },
+    {
+      "id": "id",
+      "bn": "ঈদ",
+      "tr": "id",
+      "en": "Eid",
+      "pos": "noun",
+      "lesson": "s01-l01"
+    },
+    {
+      "id": "l-u",
+      "bn": "উ",
+      "tr": "u",
+      "en": "u as in 'food' (short-u letter)",
+      "pos": "letter",
+      "lesson": "s01-l02",
+      "notes": "Name: hroshsho-u (হ্রস্ব উ). Sounds the same as ঊ in modern speech."
+    },
+    {
+      "id": "l-uu",
+      "bn": "ঊ",
+      "tr": "u",
+      "en": "u as in 'food' (long-u letter)",
+      "pos": "letter",
+      "lesson": "s01-l02",
+      "notes": "Name: dirgho-u (দীর্ঘ ঊ). Same sound as উ; it is উ with an extra loop on top-right. Rare at the start of words."
+    },
+    {
+      "id": "l-ri",
+      "bn": "ঋ",
+      "tr": "ri",
+      "en": "ri as in 'rip'",
+      "pos": "letter",
+      "lesson": "s01-l02",
+      "notes": "Name: ri (ঋ). Historically a vowel; in modern Bengali it is simply said 'ri'. Found mostly in Sanskrit-origin words."
+    },
+    {
+      "id": "l-e",
+      "bn": "এ",
+      "tr": "e",
+      "en": "e as in 'bed' or 'ay' as in 'say'",
+      "pos": "letter",
+      "lesson": "s01-l02",
+      "notes": "Name: e (এ). Two pronunciations; the word decides which (এক = 'ack', এখন = 'ay-khon')."
+    },
+    {
+      "id": "ut",
+      "bn": "উট",
+      "tr": "ut",
+      "en": "camel",
+      "pos": "noun",
+      "lesson": "s01-l02"
+    },
+    {
+      "id": "ukil",
+      "bn": "উকিল",
+      "tr": "ukil",
+      "en": "lawyer",
+      "pos": "noun",
+      "lesson": "s01-l02"
+    },
+    {
+      "id": "uru",
+      "bn": "ঊরু",
+      "tr": "uru",
+      "en": "thigh",
+      "pos": "noun",
+      "lesson": "s01-l02"
+    },
+    {
+      "id": "usha",
+      "bn": "ঊষা",
+      "tr": "usha",
+      "en": "dawn",
+      "pos": "noun",
+      "lesson": "s01-l02",
+      "notes": "Also a common girl's name. Alphabet-chart word: ঊ-তে ঊষা."
+    },
+    {
+      "id": "rishi",
+      "bn": "ঋষি",
+      "tr": "rishi",
+      "en": "sage (wise holy man)",
+      "pos": "noun",
+      "lesson": "s01-l02"
+    },
+    {
+      "id": "ritu",
+      "bn": "ঋতু",
+      "tr": "ritu",
+      "en": "season",
+      "pos": "noun",
+      "lesson": "s01-l02",
+      "notes": "Bengal traditionally has six seasons (ছয় ঋতু)."
+    },
+    {
+      "id": "ek",
+      "bn": "এক",
+      "tr": "ek",
+      "en": "one",
+      "pos": "noun",
+      "lesson": "s01-l02",
+      "notes": "Pronounced like English 'ack' (open e)."
+    },
+    {
+      "id": "ekhon",
+      "bn": "এখন",
+      "tr": "ekhon",
+      "en": "now",
+      "pos": "noun",
+      "lesson": "s01-l02"
+    },
+    {
+      "id": "l-oi",
+      "bn": "ঐ",
+      "tr": "oi",
+      "en": "oi as in 'boy'",
+      "pos": "letter",
+      "lesson": "s01-l03",
+      "notes": "Name: oi (ঐ). Looks like এ with an extra flick on top. As a word, ঐ means 'that (over there)', today usually spelled ওই."
+    },
+    {
+      "id": "l-o2",
+      "bn": "ও",
+      "tr": "o",
+      "en": "o as in 'go'",
+      "pos": "letter",
+      "lesson": "s01-l03",
+      "notes": "Name: o (ও). Rounder, closed 'o', unlike the short open অ. As a word, ও also means 'and / also' or 's/he'."
+    },
+    {
+      "id": "l-ou",
+      "bn": "ঔ",
+      "tr": "ou",
+      "en": "ou as in 'low'",
+      "pos": "letter",
+      "lesson": "s01-l03",
+      "notes": "Name: ou (ঔ). It is ও with an extra squiggle on top. Rare; mostly in formal/Sanskrit-origin words."
+    },
+    {
+      "id": "oikko",
+      "bn": "ঐক্য",
+      "tr": "oikko",
+      "en": "unity",
+      "pos": "noun",
+      "lesson": "s01-l03",
+      "notes": "The ক্য cluster doubles the k sound: oik-ko."
+    },
+    {
+      "id": "oitijjho",
+      "bn": "ঐতিহ্য",
+      "tr": "oitijjho",
+      "en": "heritage / tradition",
+      "pos": "noun",
+      "lesson": "s01-l03",
+      "notes": "The হ্য cluster is said like a doubled \"jjh\": oi-tij-jho."
+    },
+    {
+      "id": "ol",
+      "bn": "ওল",
+      "tr": "ol",
+      "en": "elephant-foot yam",
+      "pos": "noun",
+      "lesson": "s01-l03",
+      "notes": "Alphabet-chart word: ও-তে ওল."
+    },
+    {
+      "id": "oshudh",
+      "bn": "ওষুধ",
+      "tr": "oshudh",
+      "en": "medicine",
+      "pos": "noun",
+      "lesson": "s01-l03",
+      "notes": "Everyday word for medicine."
+    },
+    {
+      "id": "oushodh",
+      "bn": "ঔষধ",
+      "tr": "oushodh",
+      "en": "medicine (formal)",
+      "pos": "noun",
+      "lesson": "s01-l03",
+      "notes": "Formal/written form of ওষুধ; seen on pharmacy signs (ঔষধালয়)."
+    },
+    {
+      "id": "ouponnashik",
+      "bn": "ঔপন্যাসিক",
+      "tr": "ouponnashik",
+      "en": "novelist",
+      "pos": "noun",
+      "lesson": "s01-l03",
+      "notes": "From উপন্যাস (novel)."
+    }
+  ]
+}

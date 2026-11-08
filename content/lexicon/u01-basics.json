@@ -1,0 +1,271 @@
+{
+  "unit": "u01-basics",
+  "entries": [
+    {
+      "id": "assalamu-alaikum",
+      "bn": "আসসালামু আলাইকুম",
+      "tr": "assalamu alaikum",
+      "en": "hello (peace be upon you)",
+      "pos": "phrase",
+      "lesson": "u01-l01",
+      "notes": "The standard greeting in Bangladesh, especially among Muslims. Often shortened to সালাম (salam)."
+    },
+    {
+      "id": "walaikum-assalam",
+      "bn": "ওয়ালাইকুম আসসালাম",
+      "tr": "walaikum assalam",
+      "en": "hello (in reply)",
+      "pos": "phrase",
+      "lesson": "u01-l01",
+      "notes": "Reply to আসসালামু আলাইকুম: 'and peace be upon you too'."
+    },
+    {
+      "id": "nomoshkar",
+      "bn": "নমস্কার",
+      "tr": "nomoshkar",
+      "en": "hello (Hindu greeting)",
+      "pos": "phrase",
+      "lesson": "u01-l01",
+      "notes": "Used by Hindus in Bangladesh; the usual formal greeting in West Bengal (Kolkata). Said with palms pressed together."
+    },
+    {
+      "id": "hya",
+      "bn": "হ্যাঁ",
+      "tr": "hya~",
+      "en": "yes",
+      "pos": "particle",
+      "lesson": "u01-l01",
+      "notes": "Nasal vowel, like 'hæ' said through the nose."
+    },
+    {
+      "id": "ji",
+      "bn": "জি",
+      "tr": "ji",
+      "en": "yes (polite)",
+      "pos": "particle",
+      "lesson": "u01-l01",
+      "register": "polite",
+      "notes": "Respectful 'yes' used widely in Bangladesh; also spelled জ্বি. Rare in Kolkata."
+    },
+    {
+      "id": "na",
+      "bn": "না",
+      "tr": "na",
+      "en": "no",
+      "pos": "particle",
+      "lesson": "u01-l01"
+    },
+    {
+      "id": "dhonnobad",
+      "bn": "ধন্যবাদ",
+      "tr": "dhonnobad",
+      "en": "thank you",
+      "pos": "phrase",
+      "lesson": "u01-l01",
+      "notes": "Between close family and friends, Bengalis thank each other less than English speakers do; ধন্যবাদ can sound formal there."
+    },
+    {
+      "id": "ami",
+      "bn": "আমি",
+      "tr": "ami",
+      "en": "I",
+      "pos": "pronoun",
+      "lesson": "u01-l02"
+    },
+    {
+      "id": "tumi",
+      "bn": "তুমি",
+      "tr": "tumi",
+      "en": "you (familiar)",
+      "pos": "pronoun",
+      "lesson": "u01-l02",
+      "register": "familiar",
+      "notes": "For friends, younger people, partners."
+    },
+    {
+      "id": "apni",
+      "bn": "আপনি",
+      "tr": "apni",
+      "en": "you (polite)",
+      "pos": "pronoun",
+      "lesson": "u01-l02",
+      "register": "polite",
+      "notes": "Safe default with anyone older or unfamiliar."
+    },
+    {
+      "id": "chhatro",
+      "bn": "ছাত্র",
+      "tr": "chhatro",
+      "en": "student (male)",
+      "pos": "noun",
+      "lesson": "u01-l02",
+      "notes": "Often used for any student regardless of gender."
+    },
+    {
+      "id": "chhatri",
+      "bn": "ছাত্রী",
+      "tr": "chhatri",
+      "en": "student (female)",
+      "pos": "noun",
+      "lesson": "u01-l02"
+    },
+    {
+      "id": "shikkhok",
+      "bn": "শিক্ষক",
+      "tr": "shikkhok",
+      "en": "teacher",
+      "pos": "noun",
+      "lesson": "u01-l02",
+      "notes": "The conjunct ক্ষ is pronounced 'kkh'. A female teacher is শিক্ষিকা (shikkhika), though শিক্ষক is increasingly used for all."
+    },
+    {
+      "id": "nam",
+      "bn": "নাম",
+      "tr": "nam",
+      "en": "name",
+      "pos": "noun",
+      "lesson": "u01-l03"
+    },
+    {
+      "id": "ki-what",
+      "bn": "কী",
+      "tr": "ki",
+      "en": "what",
+      "pos": "pronoun",
+      "lesson": "u01-l03",
+      "notes": "Spelled with long ী to distinguish it from the yes/no particle কি. Older texts may write কি for both."
+    },
+    {
+      "id": "amar",
+      "bn": "আমার",
+      "tr": "amar",
+      "en": "my",
+      "pos": "pronoun",
+      "lesson": "u01-l03"
+    },
+    {
+      "id": "apnar",
+      "bn": "আপনার",
+      "tr": "apnar",
+      "en": "your (polite)",
+      "pos": "pronoun",
+      "lesson": "u01-l03",
+      "register": "polite"
+    },
+    {
+      "id": "tomar",
+      "bn": "তোমার",
+      "tr": "tomar",
+      "en": "your (familiar)",
+      "pos": "pronoun",
+      "lesson": "u01-l03",
+      "register": "familiar"
+    },
+    {
+      "id": "kemon",
+      "bn": "কেমন",
+      "tr": "kemon",
+      "en": "how",
+      "pos": "adv",
+      "lesson": "u01-l04"
+    },
+    {
+      "id": "achhen",
+      "bn": "আছেন",
+      "tr": "achhen",
+      "en": "are (polite)",
+      "pos": "verb",
+      "lesson": "u01-l04",
+      "register": "polite",
+      "notes": "Goes with আপনি."
+    },
+    {
+      "id": "achho",
+      "bn": "আছো",
+      "tr": "achho",
+      "en": "are (familiar)",
+      "pos": "verb",
+      "lesson": "u01-l04",
+      "register": "familiar",
+      "notes": "Goes with তুমি. Also spelled আছ; pronounced the same."
+    },
+    {
+      "id": "achhi",
+      "bn": "আছি",
+      "tr": "achhi",
+      "en": "am",
+      "pos": "verb",
+      "lesson": "u01-l04",
+      "notes": "Goes with আমি."
+    },
+    {
+      "id": "bhalo",
+      "bn": "ভালো",
+      "tr": "bhalo",
+      "en": "good, well",
+      "pos": "adj",
+      "lesson": "u01-l04",
+      "notes": "Also spelled ভাল."
+    },
+    {
+      "id": "khub",
+      "bn": "খুব",
+      "tr": "khub",
+      "en": "very",
+      "pos": "adv",
+      "lesson": "u01-l04"
+    },
+    {
+      "id": "ar",
+      "bn": "আর",
+      "tr": "ar",
+      "en": "and",
+      "pos": "particle",
+      "lesson": "u01-l04",
+      "notes": "আর আপনি? = 'And you?'. Also means 'more' / 'else'."
+    },
+    {
+      "id": "alhamdulillah",
+      "bn": "আলহামদুলিল্লাহ",
+      "tr": "alhamdulillah",
+      "en": "praise be to God",
+      "pos": "phrase",
+      "lesson": "u01-l04",
+      "notes": "Arabic phrase used very widely by Muslims in Bangladesh, e.g. in answer to 'How are you?'. Hindus and most Kolkata speakers simply say ভালো আছি."
+    },
+    {
+      "id": "khoda-hafez",
+      "bn": "খোদা হাফেজ",
+      "tr": "khoda hafez",
+      "en": "goodbye",
+      "pos": "phrase",
+      "lesson": "u01-l05",
+      "notes": "Lit. 'may God protect you'. Variant: আল্লাহ হাফেজ (allah hafez). The z sound in hafez comes from Arabic; many speakers say 'hafej'."
+    },
+    {
+      "id": "abar-dekha-hobe",
+      "bn": "আবার দেখা হবে",
+      "tr": "abar dekha hobe",
+      "en": "see you again",
+      "pos": "phrase",
+      "lesson": "u01-l05",
+      "notes": "Lit. 'there will be a meeting again'. Neutral, used by everyone in both Bangladesh and West Bengal."
+    },
+    {
+      "id": "nadia",
+      "bn": "নাদিয়া",
+      "tr": "nadiya",
+      "en": "Nadia",
+      "pos": "name",
+      "lesson": "u01-l03"
+    },
+    {
+      "id": "rafi",
+      "bn": "রাফি",
+      "tr": "rafi",
+      "en": "Rafi",
+      "pos": "name",
+      "lesson": "u01-l05"
+    }
+  ]
+}

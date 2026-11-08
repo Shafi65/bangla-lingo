@@ -2,89 +2,291 @@
   "id": "u01-l03",
   "unit": "u01-basics",
   "title": "What's your name?",
+  "status": "draft",
   "tip": "Adding **-র** (*-r*) makes 'my / your': আমি → **আমার** (*amar*, my), তুমি → **তোমার** (*tomar*), আপনি → **আপনার** (*apnar*). Match the 'your' to the 'you' you would use with that person.\n\nQuestion words stay where the answer goes: **আপনার নাম কী?** is literally 'Your name what?' and the answer is **আমার নাম রাফি** 'My name (is) Rafi'.\n\nSpelling note: **কী** (long ী) means 'what'; **কি** (short ি) is the yes/no question marker you'll meet in Unit 2. They sound the same.",
   "vocab": [
-    { "id": "nam", "bn": "নাম", "tr": "nam", "en": "name" },
-    { "id": "ki-what", "bn": "কী", "tr": "ki", "en": "what", "notes": "Spelled with long ী to distinguish it from the yes/no particle কি. Older texts may write কি for both." },
-    { "id": "amar", "bn": "আমার", "tr": "amar", "en": "my" },
-    { "id": "apnar", "bn": "আপনার", "tr": "apnar", "en": "your (polite)" },
-    { "id": "tomar", "bn": "তোমার", "tr": "tomar", "en": "your (familiar)" }
+    {
+      "id": "nam",
+      "bn": "নাম",
+      "tr": "nam",
+      "en": "name"
+    },
+    {
+      "id": "ki-what",
+      "bn": "কী",
+      "tr": "ki",
+      "en": "what",
+      "notes": "Spelled with long ী to distinguish it from the yes/no particle কি. Older texts may write কি for both."
+    },
+    {
+      "id": "amar",
+      "bn": "আমার",
+      "tr": "amar",
+      "en": "my"
+    },
+    {
+      "id": "apnar",
+      "bn": "আপনার",
+      "tr": "apnar",
+      "en": "your (polite)"
+    },
+    {
+      "id": "tomar",
+      "bn": "তোমার",
+      "tr": "tomar",
+      "en": "your (familiar)"
+    }
   ],
   "exercises": [
     {
-      "id": "e01", "type": "select_translation", "direction": "bn_to_en",
-      "prompt": { "bn": "নাম", "tr": "nam", "en": "name" },
-      "options": ["what", "name", "my", "yes"], "answer": 1
+      "id": "e01",
+      "type": "select_translation",
+      "direction": "bn_to_en",
+      "prompt": {
+        "bn": "নাম",
+        "tr": "nam",
+        "en": "name"
+      },
+      "options": [
+        "what",
+        "name",
+        "my",
+        "yes"
+      ],
+      "answer": 1
     },
     {
-      "id": "e02", "type": "select_translation", "direction": "bn_to_en",
-      "prompt": { "bn": "আমার", "tr": "amar", "en": "my" },
-      "options": ["my", "your (polite)", "I", "you (familiar)"], "answer": 0
+      "id": "e02",
+      "type": "select_translation",
+      "direction": "bn_to_en",
+      "prompt": {
+        "bn": "আমার",
+        "tr": "amar",
+        "en": "my"
+      },
+      "options": [
+        "my",
+        "your (polite)",
+        "I",
+        "you (familiar)"
+      ],
+      "answer": 0
     },
     {
-      "id": "e03", "type": "select_translation", "direction": "bn_to_en",
-      "prompt": { "bn": "আপনার", "tr": "apnar", "en": "your (polite)" },
-      "options": ["your (familiar)", "my", "your (polite)", "you (polite)"], "answer": 2
+      "id": "e03",
+      "type": "select_translation",
+      "direction": "bn_to_en",
+      "prompt": {
+        "bn": "আপনার",
+        "tr": "apnar",
+        "en": "your (polite)"
+      },
+      "options": [
+        "your (familiar)",
+        "my",
+        "your (polite)",
+        "you (polite)"
+      ],
+      "answer": 2
     },
     {
-      "id": "e04", "type": "listen_select",
-      "audio": { "bn": "তোমার", "tr": "tomar", "en": "your (familiar)" },
-      "options": ["আমার", "তোমার", "আপনার", "তুমি"], "answer": 1
+      "id": "e04",
+      "type": "listen_select",
+      "audio": {
+        "bn": "তোমার",
+        "tr": "tomar",
+        "en": "your (familiar)"
+      },
+      "options": [
+        "আমার",
+        "তোমার",
+        "আপনার",
+        "তুমি"
+      ],
+      "answer": 1
     },
     {
-      "id": "e05", "type": "select_translation", "direction": "bn_to_en",
-      "prompt": { "bn": "আপনার নাম কী?", "tr": "apnar nam ki?", "en": "What is your name?" },
-      "options": ["My name is Nadia.", "What is your name?", "Are you a teacher?", "I am a student."], "answer": 1
+      "id": "e05",
+      "type": "select_translation",
+      "direction": "bn_to_en",
+      "prompt": {
+        "bn": "আপনার নাম কী?",
+        "tr": "apnar nam ki?",
+        "en": "What is your name?"
+      },
+      "options": [
+        "My name is Nadia.",
+        "What is your name?",
+        "Are you a teacher?",
+        "I am a student."
+      ],
+      "answer": 1
     },
     {
-      "id": "e06", "type": "match_pairs",
+      "id": "e06",
+      "type": "match_pairs",
       "pairs": [
-        { "bn": "নাম", "tr": "nam", "en": "name" },
-        { "bn": "কী", "tr": "ki", "en": "what" },
-        { "bn": "আমার", "tr": "amar", "en": "my" },
-        { "bn": "আপনার", "tr": "apnar", "en": "your (polite)" },
-        { "bn": "তোমার", "tr": "tomar", "en": "your (familiar)" }
+        {
+          "bn": "নাম",
+          "tr": "nam",
+          "en": "name"
+        },
+        {
+          "bn": "কী",
+          "tr": "ki",
+          "en": "what"
+        },
+        {
+          "bn": "আমার",
+          "tr": "amar",
+          "en": "my"
+        },
+        {
+          "bn": "আপনার",
+          "tr": "apnar",
+          "en": "your (polite)"
+        },
+        {
+          "bn": "তোমার",
+          "tr": "tomar",
+          "en": "your (familiar)"
+        }
       ]
     },
     {
-      "id": "e07", "type": "script_recognize",
-      "glyph": "ক", "options": ["kh", "g", "k", "t"], "answer": 2
+      "id": "e07",
+      "type": "script_recognize",
+      "glyph": "ক",
+      "options": [
+        "kh",
+        "g",
+        "k",
+        "t"
+      ],
+      "answer": 2
     },
     {
-      "id": "e08", "type": "word_bank", "direction": "en_to_bn",
-      "prompt": { "bn": "আমার নাম নাদিয়া।", "tr": "amar nam nadiya.", "en": "My name is Nadia." },
-      "tiles": ["আপনার", "নাম", "কী", "নাদিয়া", "আমার"],
-      "answer": ["আমার", "নাম", "নাদিয়া"]
+      "id": "e08",
+      "type": "word_bank",
+      "direction": "en_to_bn",
+      "prompt": {
+        "bn": "আমার নাম নাদিয়া।",
+        "tr": "amar nam nadiya.",
+        "en": "My name is Nadia."
+      },
+      "tiles": [
+        "আপনার",
+        "নাম",
+        "কী",
+        "নাদিয়া",
+        "আমার"
+      ],
+      "answer": [
+        "আমার",
+        "নাম",
+        "নাদিয়া"
+      ]
     },
     {
-      "id": "e09", "type": "word_bank", "direction": "bn_to_en",
-      "prompt": { "bn": "তোমার নাম কী?", "tr": "tomar nam ki?", "en": "What is your name?" },
-      "tiles": ["name", "my", "what", "your", "am", "is"],
-      "answer": ["what", "is", "your", "name"]
+      "id": "e09",
+      "type": "word_bank",
+      "direction": "bn_to_en",
+      "prompt": {
+        "bn": "তোমার নাম কী?",
+        "tr": "tomar nam ki?",
+        "en": "What is your name?"
+      },
+      "tiles": [
+        "name",
+        "my",
+        "what",
+        "your",
+        "am",
+        "is"
+      ],
+      "answer": [
+        "what",
+        "is",
+        "your",
+        "name"
+      ]
     },
     {
-      "id": "e10", "type": "listen_select",
-      "audio": { "bn": "আমার নাম রাফি।", "tr": "amar nam rafi.", "en": "My name is Rafi." },
-      "options": ["আপনার নাম কী?", "তোমার নাম কী?", "আমার নাম রাফি।", "আমি রাফি।"], "answer": 2
+      "id": "e10",
+      "type": "listen_select",
+      "audio": {
+        "bn": "আমার নাম রাফি।",
+        "tr": "amar nam rafi.",
+        "en": "My name is Rafi."
+      },
+      "options": [
+        "আপনার নাম কী?",
+        "তোমার নাম কী?",
+        "আমার নাম রাফি।",
+        "আমি রাফি।"
+      ],
+      "answer": 2
     },
     {
-      "id": "e11", "type": "select_translation", "direction": "en_to_bn",
-      "prompt": { "bn": "তোমার নাম কী?", "tr": "tomar nam ki?", "en": "What is your name? (familiar)" },
-      "options": ["তোমার নাম কী?", "আপনার নাম কী?", "আমার নাম কী?", "তোমার নাম।"], "answer": 0
+      "id": "e11",
+      "type": "select_translation",
+      "direction": "en_to_bn",
+      "prompt": {
+        "bn": "তোমার নাম কী?",
+        "tr": "tomar nam ki?",
+        "en": "What is your name? (familiar)"
+      },
+      "options": [
+        "তোমার নাম কী?",
+        "আপনার নাম কী?",
+        "আমার নাম কী?",
+        "তোমার নাম।"
+      ],
+      "answer": 0
     },
     {
-      "id": "e12", "type": "type_translation", "direction": "bn_to_en",
-      "prompt": { "bn": "আপনার নাম কী?", "tr": "apnar nam ki?", "en": "What is your name?" },
-      "accepted": ["what is your name", "what's your name", "whats your name"]
+      "id": "e12",
+      "type": "type_translation",
+      "direction": "bn_to_en",
+      "prompt": {
+        "bn": "আপনার নাম কী?",
+        "tr": "apnar nam ki?",
+        "en": "What is your name?"
+      },
+      "accepted": [
+        "what is your name",
+        "what's your name",
+        "whats your name"
+      ]
     },
     {
-      "id": "e13", "type": "type_translation", "direction": "en_to_bn",
-      "prompt": { "bn": "আমার নাম", "tr": "amar nam", "en": "my name" },
-      "accepted": ["আমার নাম", "amar nam", "amar naam", "aamar nam", "aamar naam"]
+      "id": "e13",
+      "type": "type_translation",
+      "direction": "en_to_bn",
+      "prompt": {
+        "bn": "আমার নাম",
+        "tr": "amar nam",
+        "en": "my name"
+      },
+      "accepted": [
+        "আমার নাম",
+        "amar nam",
+        "amar naam",
+        "aamar nam",
+        "aamar naam"
+      ]
     },
     {
-      "id": "e14", "type": "script_recognize",
-      "glyph": "র", "options": ["l", "r", "n", "d"], "answer": 1
+      "id": "e14",
+      "type": "script_recognize",
+      "glyph": "র",
+      "options": [
+        "l",
+        "r",
+        "n",
+        "d"
+      ],
+      "answer": 1
     }
   ]
 }

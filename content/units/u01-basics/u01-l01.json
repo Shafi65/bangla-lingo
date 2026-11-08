@@ -2,95 +2,314 @@
   "id": "u01-l01",
   "unit": "u01-basics",
   "title": "Hello!",
+  "status": "draft",
   "tip": "**আসসালামু আলাইকুম** (*assalamu alaikum*, 'peace be upon you') is the everyday hello in Bangladesh; the reply is **ওয়ালাইকুম আসসালাম** (*walaikum assalam*). Hindu Bengalis, and most people in Kolkata, say **নমস্কার** (*nomoshkar*) instead. For 'yes', **জি** (*ji*) is the polite choice with elders and strangers; **হ্যাঁ** (*hya~*) is neutral.",
   "vocab": [
-    { "id": "assalamu-alaikum", "bn": "আসসালামু আলাইকুম", "tr": "assalamu alaikum", "en": "hello (peace be upon you)", "notes": "The standard greeting in Bangladesh, especially among Muslims. Often shortened to সালাম (salam)." },
-    { "id": "walaikum-assalam", "bn": "ওয়ালাইকুম আসসালাম", "tr": "walaikum assalam", "en": "hello (in reply)", "notes": "Reply to আসসালামু আলাইকুম: 'and peace be upon you too'." },
-    { "id": "nomoshkar", "bn": "নমস্কার", "tr": "nomoshkar", "en": "hello (Hindu greeting)", "notes": "Used by Hindus in Bangladesh; the usual formal greeting in West Bengal (Kolkata). Said with palms pressed together." },
-    { "id": "hya", "bn": "হ্যাঁ", "tr": "hya~", "en": "yes", "notes": "Nasal vowel, like 'hæ' said through the nose." },
-    { "id": "ji", "bn": "জি", "tr": "ji", "en": "yes (polite)", "notes": "Respectful 'yes' used widely in Bangladesh; also spelled জ্বি. Rare in Kolkata." },
-    { "id": "na", "bn": "না", "tr": "na", "en": "no" },
-    { "id": "dhonnobad", "bn": "ধন্যবাদ", "tr": "dhonnobad", "en": "thank you", "notes": "Between close family and friends, Bengalis thank each other less than English speakers do; ধন্যবাদ can sound formal there." }
+    {
+      "id": "assalamu-alaikum",
+      "bn": "আসসালামু আলাইকুম",
+      "tr": "assalamu alaikum",
+      "en": "hello (peace be upon you)",
+      "notes": "The standard greeting in Bangladesh, especially among Muslims. Often shortened to সালাম (salam)."
+    },
+    {
+      "id": "walaikum-assalam",
+      "bn": "ওয়ালাইকুম আসসালাম",
+      "tr": "walaikum assalam",
+      "en": "hello (in reply)",
+      "notes": "Reply to আসসালামু আলাইকুম: 'and peace be upon you too'."
+    },
+    {
+      "id": "nomoshkar",
+      "bn": "নমস্কার",
+      "tr": "nomoshkar",
+      "en": "hello (Hindu greeting)",
+      "notes": "Used by Hindus in Bangladesh; the usual formal greeting in West Bengal (Kolkata). Said with palms pressed together."
+    },
+    {
+      "id": "hya",
+      "bn": "হ্যাঁ",
+      "tr": "hya~",
+      "en": "yes",
+      "notes": "Nasal vowel, like 'hæ' said through the nose."
+    },
+    {
+      "id": "ji",
+      "bn": "জি",
+      "tr": "ji",
+      "en": "yes (polite)",
+      "notes": "Respectful 'yes' used widely in Bangladesh; also spelled জ্বি. Rare in Kolkata."
+    },
+    {
+      "id": "na",
+      "bn": "না",
+      "tr": "na",
+      "en": "no"
+    },
+    {
+      "id": "dhonnobad",
+      "bn": "ধন্যবাদ",
+      "tr": "dhonnobad",
+      "en": "thank you",
+      "notes": "Between close family and friends, Bengalis thank each other less than English speakers do; ধন্যবাদ can sound formal there."
+    }
   ],
   "exercises": [
     {
-      "id": "e01", "type": "select_translation", "direction": "bn_to_en",
-      "prompt": { "bn": "হ্যাঁ", "tr": "hya~", "en": "yes" },
-      "options": ["yes", "no", "thank you", "hello (peace be upon you)"], "answer": 0
+      "id": "e01",
+      "type": "select_translation",
+      "direction": "bn_to_en",
+      "prompt": {
+        "bn": "হ্যাঁ",
+        "tr": "hya~",
+        "en": "yes"
+      },
+      "options": [
+        "yes",
+        "no",
+        "thank you",
+        "hello (peace be upon you)"
+      ],
+      "answer": 0
     },
     {
-      "id": "e02", "type": "select_translation", "direction": "bn_to_en",
-      "prompt": { "bn": "না", "tr": "na", "en": "no" },
-      "options": ["thank you", "no", "yes", "yes (polite)"], "answer": 1
+      "id": "e02",
+      "type": "select_translation",
+      "direction": "bn_to_en",
+      "prompt": {
+        "bn": "না",
+        "tr": "na",
+        "en": "no"
+      },
+      "options": [
+        "thank you",
+        "no",
+        "yes",
+        "yes (polite)"
+      ],
+      "answer": 1
     },
     {
-      "id": "e03", "type": "listen_select",
-      "audio": { "bn": "ধন্যবাদ", "tr": "dhonnobad", "en": "thank you" },
-      "options": ["ধন্যবাদ", "না", "হ্যাঁ", "নমস্কার"], "answer": 0
+      "id": "e03",
+      "type": "listen_select",
+      "audio": {
+        "bn": "ধন্যবাদ",
+        "tr": "dhonnobad",
+        "en": "thank you"
+      },
+      "options": [
+        "ধন্যবাদ",
+        "না",
+        "হ্যাঁ",
+        "নমস্কার"
+      ],
+      "answer": 0
     },
     {
-      "id": "e04", "type": "select_translation", "direction": "en_to_bn",
-      "prompt": { "bn": "আসসালামু আলাইকুম", "tr": "assalamu alaikum", "en": "hello (peace be upon you)" },
-      "options": ["না", "আসসালামু আলাইকুম", "ধন্যবাদ", "হ্যাঁ"], "answer": 1
+      "id": "e04",
+      "type": "select_translation",
+      "direction": "en_to_bn",
+      "prompt": {
+        "bn": "আসসালামু আলাইকুম",
+        "tr": "assalamu alaikum",
+        "en": "hello (peace be upon you)"
+      },
+      "options": [
+        "না",
+        "আসসালামু আলাইকুম",
+        "ধন্যবাদ",
+        "হ্যাঁ"
+      ],
+      "answer": 1
     },
     {
-      "id": "e05", "type": "select_translation", "direction": "bn_to_en",
-      "prompt": { "bn": "ওয়ালাইকুম আসসালাম", "tr": "walaikum assalam", "en": "hello (in reply)" },
-      "options": ["thank you", "hello (in reply)", "no", "yes (polite)"], "answer": 1
+      "id": "e05",
+      "type": "select_translation",
+      "direction": "bn_to_en",
+      "prompt": {
+        "bn": "ওয়ালাইকুম আসসালাম",
+        "tr": "walaikum assalam",
+        "en": "hello (in reply)"
+      },
+      "options": [
+        "thank you",
+        "hello (in reply)",
+        "no",
+        "yes (polite)"
+      ],
+      "answer": 1
     },
     {
-      "id": "e06", "type": "script_recognize",
-      "glyph": "ন", "options": ["n", "m", "t", "l"], "answer": 0
+      "id": "e06",
+      "type": "script_recognize",
+      "glyph": "ন",
+      "options": [
+        "n",
+        "m",
+        "t",
+        "l"
+      ],
+      "answer": 0
     },
     {
-      "id": "e07", "type": "script_recognize",
-      "glyph": "ধ", "options": ["d", "dh", "th", "bh"], "answer": 1
+      "id": "e07",
+      "type": "script_recognize",
+      "glyph": "ধ",
+      "options": [
+        "d",
+        "dh",
+        "th",
+        "bh"
+      ],
+      "answer": 1
     },
     {
-      "id": "e08", "type": "match_pairs",
+      "id": "e08",
+      "type": "match_pairs",
       "pairs": [
-        { "bn": "হ্যাঁ", "tr": "hya~", "en": "yes" },
-        { "bn": "না", "tr": "na", "en": "no" },
-        { "bn": "ধন্যবাদ", "tr": "dhonnobad", "en": "thank you" },
-        { "bn": "জি", "tr": "ji", "en": "yes (polite)" },
-        { "bn": "আসসালামু আলাইকুম", "tr": "assalamu alaikum", "en": "hello (peace be upon you)" }
+        {
+          "bn": "হ্যাঁ",
+          "tr": "hya~",
+          "en": "yes"
+        },
+        {
+          "bn": "না",
+          "tr": "na",
+          "en": "no"
+        },
+        {
+          "bn": "ধন্যবাদ",
+          "tr": "dhonnobad",
+          "en": "thank you"
+        },
+        {
+          "bn": "জি",
+          "tr": "ji",
+          "en": "yes (polite)"
+        },
+        {
+          "bn": "আসসালামু আলাইকুম",
+          "tr": "assalamu alaikum",
+          "en": "hello (peace be upon you)"
+        }
       ]
     },
     {
-      "id": "e09", "type": "select_translation", "direction": "bn_to_en",
-      "prompt": { "bn": "নমস্কার", "tr": "nomoshkar", "en": "hello (Hindu greeting)" },
-      "options": ["no", "thank you", "hello (Hindu greeting)", "yes"], "answer": 2
+      "id": "e09",
+      "type": "select_translation",
+      "direction": "bn_to_en",
+      "prompt": {
+        "bn": "নমস্কার",
+        "tr": "nomoshkar",
+        "en": "hello (Hindu greeting)"
+      },
+      "options": [
+        "no",
+        "thank you",
+        "hello (Hindu greeting)",
+        "yes"
+      ],
+      "answer": 2
     },
     {
-      "id": "e10", "type": "type_translation", "direction": "bn_to_en",
-      "prompt": { "bn": "ধন্যবাদ", "tr": "dhonnobad", "en": "thank you" },
-      "accepted": ["thank you", "thanks", "thankyou", "thank you very much"]
-    },
-    {
-      "id": "e11", "type": "word_bank", "direction": "en_to_bn",
-      "prompt": { "bn": "হ্যাঁ, ধন্যবাদ।", "tr": "hya~, dhonnobad.", "en": "Yes, thank you." },
-      "tiles": ["না", "ধন্যবাদ", "হ্যাঁ", "নমস্কার"],
-      "answer": ["হ্যাঁ", "ধন্যবাদ"]
-    },
-    {
-      "id": "e12", "type": "listen_select",
-      "audio": { "bn": "ওয়ালাইকুম আসসালাম", "tr": "walaikum assalam", "en": "hello (in reply)" },
-      "options": ["আসসালামু আলাইকুম", "ওয়ালাইকুম আসসালাম", "নমস্কার", "ধন্যবাদ"], "answer": 1
-    },
-    {
-      "id": "e13", "type": "match_pairs",
-      "pairs": [
-        { "bn": "নমস্কার", "tr": "nomoshkar", "en": "hello (Hindu greeting)" },
-        { "bn": "ওয়ালাইকুম আসসালাম", "tr": "walaikum assalam", "en": "hello (in reply)" },
-        { "bn": "জি", "tr": "ji", "en": "yes (polite)" },
-        { "bn": "না", "tr": "na", "en": "no" }
+      "id": "e10",
+      "type": "type_translation",
+      "direction": "bn_to_en",
+      "prompt": {
+        "bn": "ধন্যবাদ",
+        "tr": "dhonnobad",
+        "en": "thank you"
+      },
+      "accepted": [
+        "thank you",
+        "thanks",
+        "thankyou",
+        "thank you very much"
       ]
     },
     {
-      "id": "e14", "type": "word_bank", "direction": "bn_to_en",
-      "prompt": { "bn": "না, ধন্যবাদ।", "tr": "na, dhonnobad.", "en": "No, thank you." },
-      "tiles": ["yes", "thank", "no", "hello", "you"],
-      "answer": ["no", "thank", "you"]
+      "id": "e11",
+      "type": "word_bank",
+      "direction": "en_to_bn",
+      "prompt": {
+        "bn": "হ্যাঁ, ধন্যবাদ।",
+        "tr": "hya~, dhonnobad.",
+        "en": "Yes, thank you."
+      },
+      "tiles": [
+        "না",
+        "ধন্যবাদ",
+        "হ্যাঁ",
+        "নমস্কার"
+      ],
+      "answer": [
+        "হ্যাঁ",
+        "ধন্যবাদ"
+      ]
+    },
+    {
+      "id": "e12",
+      "type": "listen_select",
+      "audio": {
+        "bn": "ওয়ালাইকুম আসসালাম",
+        "tr": "walaikum assalam",
+        "en": "hello (in reply)"
+      },
+      "options": [
+        "আসসালামু আলাইকুম",
+        "ওয়ালাইকুম আসসালাম",
+        "নমস্কার",
+        "ধন্যবাদ"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e13",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "নমস্কার",
+          "tr": "nomoshkar",
+          "en": "hello (Hindu greeting)"
+        },
+        {
+          "bn": "ওয়ালাইকুম আসসালাম",
+          "tr": "walaikum assalam",
+          "en": "hello (in reply)"
+        },
+        {
+          "bn": "জি",
+          "tr": "ji",
+          "en": "yes (polite)"
+        },
+        {
+          "bn": "না",
+          "tr": "na",
+          "en": "no"
+        }
+      ]
+    },
+    {
+      "id": "e14",
+      "type": "word_bank",
+      "direction": "bn_to_en",
+      "prompt": {
+        "bn": "না, ধন্যবাদ।",
+        "tr": "na, dhonnobad.",
+        "en": "No, thank you."
+      },
+      "tiles": [
+        "yes",
+        "thank",
+        "no",
+        "hello",
+        "you"
+      ],
+      "answer": [
+        "no",
+        "thank",
+        "you"
+      ]
     }
   ]
 }

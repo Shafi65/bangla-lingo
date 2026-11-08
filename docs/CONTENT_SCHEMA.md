@@ -2,6 +2,8 @@
 
 All content is JSON under `content/`. `content/scripts/validate.mjs` (`npm run validate`) enforces it; this doc is the human spec. The web app imports these files at build time.
 
+Lessons are generated from `content/lexicon/` + `content/plans/` — see `docs/LESSON_PIPELINE.md`.
+
 ## `content/course.json`
 ```json
 {
@@ -33,6 +35,8 @@ Lesson file path: `content/{units|script}/<unit-id>/<lesson-id>.json`.
   "id": "u01-l01",
   "unit": "u01-basics",
   "title": "Hello!",
+  "status": "draft",
+  "reviewedBy": "optional — who did the native-speaker review",
   "tip": "Optional short markdown grammar/culture tip shown before the lesson.",
   "vocab": [
     { "id": "ami", "bn": "আমি", "tr": "ami", "en": "I", "notes": "optional" }

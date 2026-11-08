@@ -1,0 +1,277 @@
+{
+  "unit": "u01-basics",
+  "lessons": [
+    {
+      "id": "u01-l01",
+      "title": "Hello!",
+      "goal": "",
+      "grammar": [],
+      "new": [
+        "assalamu-alaikum",
+        "walaikum-assalam",
+        "nomoshkar",
+        "hya",
+        "ji",
+        "na",
+        "dhonnobad"
+      ],
+      "review": [],
+      "tip": "**আসসালামু আলাইকুম** (*assalamu alaikum*, 'peace be upon you') is the everyday hello in Bangladesh; the reply is **ওয়ালাইকুম আসসালাম** (*walaikum assalam*). Hindu Bengalis, and most people in Kolkata, say **নমস্কার** (*nomoshkar*) instead. For 'yes', **জি** (*ji*) is the polite choice with elders and strangers; **হ্যাঁ** (*hya~*) is neutral.",
+      "sentences": [
+        {
+          "bn": "হ্যাঁ, ধন্যবাদ।",
+          "tr": "hya~, dhonnobad.",
+          "en": "Yes, thank you."
+        },
+        {
+          "bn": "না, ধন্যবাদ।",
+          "tr": "na, dhonnobad.",
+          "en": "No, thank you."
+        },
+        {
+          "bn": "আসসালামু আলাইকুম।",
+          "tr": "assalamu alaikum",
+          "en": "Hello. (Peace be upon you.)",
+          "alt": [
+            "Hello."
+          ]
+        },
+        {
+          "bn": "ওয়ালাইকুম আসসালাম।",
+          "tr": "walaikum assalam",
+          "en": "Hello. (And peace be upon you.)",
+          "alt": [
+            "Hello."
+          ]
+        },
+        {
+          "bn": "নমস্কার।",
+          "tr": "nomoshkar",
+          "en": "Hello. (Hindu greeting)",
+          "alt": [
+            "Hello."
+          ]
+        },
+        {
+          "bn": "জি, ধন্যবাদ।",
+          "tr": "ji, dhonnobad",
+          "en": "Yes, thank you.",
+          "alt": [
+            "Yes, thanks."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u01-l02",
+      "title": "I and you",
+      "goal": "",
+      "grammar": [],
+      "new": [
+        "ami",
+        "tumi",
+        "apni",
+        "chhatro",
+        "chhatri",
+        "shikkhok"
+      ],
+      "review": [],
+      "tip": "Bengali has more than one 'you'. Use **আপনি** (*apni*) with elders, strangers, teachers and anyone you want to show respect to. Use **তুমি** (*tumi*) with friends, younger people and partners. (There is also a very intimate **তুই** (*tui*) for close friends and small children; it is rude with strangers, so we leave it for Unit 2.) When unsure, use আপনি.\n\nThere is no 'am / is / are' in simple present sentences and no 'a / the': **আমি ছাত্র** (*ami chhatro*) = 'I (am a) student'.",
+      "sentences": [
+        {
+          "bn": "আমি ছাত্র।",
+          "tr": "ami chhatro.",
+          "en": "I am a student."
+        },
+        {
+          "bn": "আপনি শিক্ষক।",
+          "tr": "apni shikkhok.",
+          "en": "You are a teacher."
+        },
+        {
+          "bn": "আমি শিক্ষক।",
+          "tr": "ami shikkhok.",
+          "en": "I am a teacher."
+        },
+        {
+          "bn": "তুমি ছাত্রী।",
+          "tr": "tumi chhatri.",
+          "en": "You are a student."
+        },
+        {
+          "bn": "তুমি ছাত্র।",
+          "tr": "tumi chhatro",
+          "en": "You are a student.",
+          "alt": [
+            "You're a student."
+          ]
+        },
+        {
+          "bn": "আপনি ছাত্রী।",
+          "tr": "apni chhatri",
+          "en": "You are a student.",
+          "alt": [
+            "You're a student."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u01-l03",
+      "title": "What's your name?",
+      "goal": "",
+      "grammar": [],
+      "new": [
+        "nam",
+        "ki-what",
+        "amar",
+        "apnar",
+        "tomar",
+        "nadia"
+      ],
+      "review": [],
+      "tip": "Adding **-র** (*-r*) makes 'my / your': আমি → **আমার** (*amar*, my), তুমি → **তোমার** (*tomar*), আপনি → **আপনার** (*apnar*). Match the 'your' to the 'you' you would use with that person.\n\nQuestion words stay where the answer goes: **আপনার নাম কী?** is literally 'Your name what?' and the answer is **আমার নাম রাফি** 'My name (is) Rafi'.\n\nSpelling note: **কী** (long ী) means 'what'; **কি** (short ি) is the yes/no question marker you'll meet in Unit 2. They sound the same.",
+      "sentences": [
+        {
+          "bn": "আপনার নাম কী?",
+          "tr": "apnar nam ki?",
+          "en": "What is your name?"
+        },
+        {
+          "bn": "আমার নাম নাদিয়া।",
+          "tr": "amar nam nadiya.",
+          "en": "My name is Nadia."
+        },
+        {
+          "bn": "তোমার নাম কী?",
+          "tr": "tomar nam ki?",
+          "en": "What is your name?"
+        },
+        {
+          "bn": "আমি নাদিয়া।",
+          "tr": "ami nadiya",
+          "en": "I am Nadia.",
+          "alt": [
+            "I'm Nadia."
+          ]
+        },
+        {
+          "bn": "আমি শিক্ষক, আমার নাম নাদিয়া।",
+          "tr": "ami shikkhok, amar nam nadiya",
+          "en": "I am a teacher, my name is Nadia.",
+          "alt": [
+            "I'm a teacher, my name is Nadia."
+          ]
+        },
+        {
+          "bn": "আমি ছাত্রী, আমার নাম নাদিয়া।",
+          "tr": "ami chhatri, amar nam nadiya",
+          "en": "I am a student, my name is Nadia.",
+          "alt": [
+            "I'm a student, my name is Nadia."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u01-l04",
+      "title": "How are you?",
+      "goal": "",
+      "grammar": [],
+      "new": [
+        "kemon",
+        "achhen",
+        "achho",
+        "achhi",
+        "bhalo",
+        "khub",
+        "ar",
+        "alhamdulillah"
+      ],
+      "review": [],
+      "tip": "**আছ-** (*achh-*) means 'to be (in a state / somewhere)'. Its ending changes with the person:\n\n- আমি **আছি** (*achhi*) — I am\n- তুমি **আছো** (*achho*) — you (familiar) are\n- আপনি **আছেন** (*achhen*) — you (polite) are\n\nPolite আপনি forms almost always end in **-েন** (*-en*). So: **কেমন আছেন?** (polite) vs **কেমন আছো?** (familiar). The pronoun is often dropped because the ending already says who you mean.\n\nIn Bangladesh many people begin their answer with **আলহামদুলিল্লাহ** ('praise be to God'): *Alhamdulillah, bhalo achhi.*",
+      "sentences": [
+        {
+          "bn": "আপনি কেমন আছেন?",
+          "tr": "apni kemon achhen?",
+          "en": "How are you?"
+        },
+        {
+          "bn": "আমি খুব ভালো আছি।",
+          "tr": "ami khub bhalo achhi.",
+          "en": "I am very well."
+        },
+        {
+          "bn": "তুমি কেমন আছো?",
+          "tr": "tumi kemon achho?",
+          "en": "How are you? (familiar)"
+        },
+        {
+          "bn": "ভালো আছি, আর আপনি?",
+          "tr": "bhalo achhi, ar apni?",
+          "en": "I'm well, and you?"
+        },
+        {
+          "bn": "আলহামদুলিল্লাহ, ভালো আছি।",
+          "tr": "alhamdulillah, bhalo achhi.",
+          "en": "Praise be to God, I'm well."
+        },
+        {
+          "bn": "খুব ভালো।",
+          "tr": "khub bhalo.",
+          "en": "Very good."
+        },
+        {
+          "bn": "কেমন আছেন?",
+          "tr": "kemon achhen?",
+          "en": "How are you? (polite)"
+        }
+      ]
+    },
+    {
+      "id": "u01-l05",
+      "title": "Review: hello & goodbye",
+      "goal": "",
+      "grammar": [],
+      "new": [
+        "khoda-hafez",
+        "abar-dekha-hobe",
+        "rafi"
+      ],
+      "review": [],
+      "tip": "Put Unit 1 together into a full mini-conversation:\n\n- **আসসালামু আলাইকুম।** — **ওয়ালাইকুম আসসালাম।**\n- **কেমন আছেন?** — **ভালো আছি, আর আপনি?**\n- **আপনার নাম কী?** — **আমার নাম রাফি।**\n- **খোদা হাফেজ!** — **আবার দেখা হবে।**\n\n**খোদা হাফেজ** (*khoda hafez*, 'may God protect you') is the usual goodbye in Bangladesh; **আল্লাহ হাফেজ** (*allah hafez*) is also common. Hindu speakers and people in Kolkata often say **আসি** (*ashi*, lit. 'I'll come [again]') or **আবার দেখা হবে**.",
+      "sentences": [
+        {
+          "bn": "আপনার নাম কী?",
+          "tr": "apnar nam ki?",
+          "en": "What is your name? (polite)"
+        },
+        {
+          "bn": "আসসালামু আলাইকুম, আমার নাম রাফি।",
+          "tr": "assalamu alaikum, amar nam rafi.",
+          "en": "Hello, my name is Rafi."
+        },
+        {
+          "bn": "তুমি কেমন আছো?",
+          "tr": "tumi kemon achho?",
+          "en": "How are you?"
+        },
+        {
+          "bn": "আমি শিক্ষক।",
+          "tr": "ami shikkhok.",
+          "en": "I am a teacher."
+        },
+        {
+          "bn": "ধন্যবাদ, খোদা হাফেজ।",
+          "tr": "dhonnobad, khoda hafez.",
+          "en": "Thank you, goodbye."
+        },
+        {
+          "bn": "ভালো আছি, ধন্যবাদ।",
+          "tr": "bhalo achhi, dhonnobad.",
+          "en": "I'm well, thank you."
+        }
+      ]
+    }
+  ]
+}

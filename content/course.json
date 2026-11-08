@@ -7,14 +7,24 @@
       "title": "Basics",
       "description": "Hello, yes/no, I and you, names, how are you",
       "track": "main",
-      "lessons": ["u01-l01", "u01-l02", "u01-l03", "u01-l04", "u01-l05"]
+      "lessons": [
+        "u01-l01",
+        "u01-l02",
+        "u01-l03",
+        "u01-l04",
+        "u01-l05"
+      ]
     },
     {
       "id": "s01-vowels",
       "title": "Script: Vowels",
       "description": "Read the Bengali vowels অ to ঔ",
       "track": "script",
-      "lessons": ["s01-l01", "s01-l02", "s01-l03"]
+      "lessons": [
+        "s01-l01",
+        "s01-l02",
+        "s01-l03"
+      ]
     },
     {
       "id": "u02-pronouns",
@@ -24,10 +34,24 @@
       "lessons": []
     },
     {
+      "id": "s02-consonants",
+      "title": "Script: Consonants",
+      "description": "Read the Bengali consonants ক to হ",
+      "track": "script",
+      "lessons": []
+    },
+    {
       "id": "u03-family",
       "title": "Family",
       "description": "Mother, father, siblings and the many aunts and uncles",
       "track": "main",
+      "lessons": []
+    },
+    {
+      "id": "s03-vowel-signs",
+      "title": "Script: Vowel signs",
+      "description": "Attach vowels to consonants: কা, কি, কু…",
+      "track": "script",
       "lessons": []
     },
     {
@@ -42,6 +66,13 @@
       "title": "Numbers & time",
       "description": "Count to 100, tell the time, days of the week",
       "track": "main",
+      "lessons": []
+    },
+    {
+      "id": "s04-conjuncts",
+      "title": "Script: Conjuncts",
+      "description": "Read joined letters like ক্ষ, ন্ত, স্ত",
+      "track": "script",
       "lessons": []
     },
     {

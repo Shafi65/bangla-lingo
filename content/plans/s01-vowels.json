@@ -1,0 +1,71 @@
+{
+  "unit": "s01-vowels",
+  "lessons": [
+    {
+      "id": "s01-l01",
+      "title": "Vowels 1: অ আ ই ঈ",
+      "goal": "",
+      "grammar": [],
+      "new": [
+        "l-o",
+        "l-a",
+        "l-i",
+        "l-ii",
+        "ojogor",
+        "onek",
+        "am",
+        "akash",
+        "ilish",
+        "it",
+        "igol",
+        "id"
+      ],
+      "review": [],
+      "tip": "**Bengali has 11 independent vowel letters (স্বরবর্ণ shorborno).** They are used when a vowel *starts* a syllable, e.g. at the start of a word.\n\n- **অ** = `o`, a short open 'o' as in *or*. Every consonant secretly carries this sound, so you will see অ everywhere later.\n- **আ** = `a` as in *father*. Mnemonic: আ is অ plus an extra stick (া), and that stick is exactly the sign that adds 'a' to a consonant later.\n- **ই** and **ঈ** are both `i` as in *see*. Their names are *hroshsho-i* ('short i') and *dirgho-i* ('long i'), but **in everyday speech they sound the same**. You just learn which one each word is spelled with.\n\nTip: all four letters 'hang' from a top line (মাত্রা matra), which is how Bengali letters join into words.",
+      "sentences": []
+    },
+    {
+      "id": "s01-l02",
+      "title": "Vowels 2: উ ঊ ঋ এ",
+      "goal": "",
+      "grammar": [],
+      "new": [
+        "l-u",
+        "l-uu",
+        "l-ri",
+        "l-e",
+        "ut",
+        "ukil",
+        "uru",
+        "usha",
+        "rishi",
+        "ritu",
+        "ek",
+        "ekhon"
+      ],
+      "review": [],
+      "tip": "- **উ** and **ঊ** are both `u` as in *food*. Like ই/ঈ, they are a 'short' (*hroshsho-u*) and 'long' (*dirgho-u*) pair that **sound the same in speech**. Mnemonic: ঊ is উ with an extra hook on top, the 'longer' one has more ink.\n- **ঋ** is said `ri` as in *rip*. It mostly appears in words borrowed from Sanskrit, like ঋতু (season).\n- **এ** = `e`. It has two sounds: open 'a' as in *bad/ack* (এক `ek`, one) or 'ay' as in *say* (এখন `ekhon`, now). You learn which by listening.\n\nWatch out: উ and ঊ are easy to confuse with the consonant ড (d) later. Look for the little tail on উ.",
+      "sentences": []
+    },
+    {
+      "id": "s01-l03",
+      "title": "Vowels 3: ঐ ও ঔ + review",
+      "goal": "",
+      "grammar": [],
+      "new": [
+        "l-oi",
+        "l-o2",
+        "l-ou",
+        "oikko",
+        "oitijjho",
+        "ol",
+        "oshudh",
+        "oushodh",
+        "ouponnashik"
+      ],
+      "review": [],
+      "tip": "The last three vowels are all built from shapes you know:\n\n- **ঐ** = `oi` as in *boy*. It is এ with a flick on top.\n- **ও** = `o` as in *go*. Compare with **অ** (`o` as in *or*): অ is short and open, ও is rounder and closed. Both are written `o` in transliteration, so trust your ears and the letter shape.\n- **ঔ** = `ou` as in *low*. It is ও with a squiggle on top.\n\n**All 11 vowels:** অ আ ই ঈ উ ঊ ঋ এ ঐ ও ঔ. Remember: ই/ঈ sound the same, and so do উ/ঊ.\n\nFun fact: ওষুধ (everyday) and ঔষধ (formal) both mean *medicine*.",
+      "sentences": []
+    }
+  ]
+}
