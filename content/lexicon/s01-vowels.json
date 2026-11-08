@@ -51,7 +51,7 @@
       "bn": "অনেক",
       "tr": "onek",
       "en": "many / a lot",
-      "pos": "noun",
+      "pos": "adj",
       "lesson": "s01-l01"
     },
     {
@@ -137,7 +137,7 @@
       "en": "e as in 'bed' or 'ay' as in 'say'",
       "pos": "letter",
       "lesson": "s01-l02",
-      "notes": "Name: e (এ). Two pronunciations; the word decides which (এক = 'ack', এখন = 'ay-khon')."
+      "notes": "Name: e (এ). Two pronunciations; the word decides which (open æ in এক 'ack' and এখন 'ækhon'; 'ay' in এই 'ei')."
     },
     {
       "id": "ut",
@@ -194,7 +194,7 @@
       "bn": "এক",
       "tr": "ek",
       "en": "one",
-      "pos": "noun",
+      "pos": "number",
       "lesson": "s01-l02",
       "notes": "Pronounced like English 'ack' (open e)."
     },
@@ -203,8 +203,9 @@
       "bn": "এখন",
       "tr": "ekhon",
       "en": "now",
-      "pos": "noun",
-      "lesson": "s01-l02"
+      "pos": "adv",
+      "lesson": "s01-l02",
+      "notes": "Pronounced with an open e, like 'ack-hon' (æ)."
     },
     {
       "id": "l-oi",

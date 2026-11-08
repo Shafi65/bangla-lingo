@@ -3,7 +3,7 @@
   "unit": "s01-vowels",
   "title": "Vowels 2: উ ঊ ঋ এ",
   "status": "draft",
-  "tip": "- **উ** and **ঊ** are both `u` as in *food*. Like ই/ঈ, they are a 'short' (*hroshsho-u*) and 'long' (*dirgho-u*) pair that **sound the same in speech**. Mnemonic: ঊ is উ with an extra hook on top, the 'longer' one has more ink.\n- **ঋ** is said `ri` as in *rip*. It mostly appears in words borrowed from Sanskrit, like ঋতু (season).\n- **এ** = `e`. It has two sounds: open 'a' as in *bad/ack* (এক `ek`, one) or 'ay' as in *say* (এখন `ekhon`, now). You learn which by listening.\n\nWatch out: উ and ঊ are easy to confuse with the consonant ড (d) later. Look for the little tail on উ.",
+  "tip": "- **উ** and **ঊ** are both `u` as in *food*. Like ই/ঈ, they are a 'short' (*hroshsho-u*) and 'long' (*dirgho-u*) pair that **sound the same in speech**. Mnemonic: ঊ is উ with an extra hook on top, the 'longer' one has more ink.\n- **ঋ** is said `ri` as in *rip*. It mostly appears in words borrowed from Sanskrit, like ঋতু (season).\n- **এ** = `e`. It has two sounds: open 'a' as in *bad/ack* (এক `ek`, one; এখন `ekhon`, now) or 'ay' as in *say* (এই `ei`, this). You learn which by listening.\n\nWatch out: উ and ঊ are easy to confuse with the consonant ড (d) later. Look for the little tail on উ.",
   "vocab": [
     {
       "id": "l-u",
@@ -31,7 +31,7 @@
       "bn": "এ",
       "tr": "e",
       "en": "e as in 'bed' or 'ay' as in 'say'",
-      "notes": "Name: e (এ). Two pronunciations; the word decides which (এক = 'ack', এখন = 'ay-khon')."
+      "notes": "Name: e (এ). Two pronunciations; the word decides which (open æ in এক 'ack' and এখন 'ækhon'; 'ay' in এই 'ei')."
     },
     {
       "id": "ut",
@@ -82,7 +82,8 @@
       "id": "ekhon",
       "bn": "এখন",
       "tr": "ekhon",
-      "en": "now"
+      "en": "now",
+      "notes": "Pronounced with an open e, like 'ack-hon' (æ)."
     }
   ],
   "exercises": [
