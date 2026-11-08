@@ -3,7 +3,7 @@
   "unit": "u08-daily-routine",
   "title": "How often?",
   "status": "draft",
-  "tip": "Frequency words usually come early in the sentence, before the object and verb: **আমি প্রতিদিন অফিসে যাই** 'I go to the office every day'.\n\n- **প্রতিদিন** — every day\n- **সবসময়** — always\n- **মাঝে মাঝে** — sometimes\n- **কখনো … না** — never\n\nFor 'never', put **কখনো** before the verb and **না** after it: **আমি কখনো মাছ খাই না** 'I never eat fish'. As a one-word reply, **কখনো না!** 'Never!'\n\n**Culture:** Muslims say **নামাজ পড়া** — literally 'read the prayer'. The call to prayer five times a day is one of the most familiar sounds of Bangladesh.",
+  "tip": "Frequency words usually come early in the sentence, before the object and verb: **আমি প্রতিদিন অফিসে যাই** 'I go to the office every day'.\n\n- **প্রতিদিন** — every day\n- **সবসময়** — always\n- **মাঝে মাঝে** — sometimes\n- **কখনো … না** — never\n\nFor 'never', put **কখনো** before the verb and **না** after it: **আমি কখনো মাছ খাই না** 'I never eat fish'. As a one-word reply, **কখনো না!** 'Never!'\n\n**দাঁত মাজা** is 'brush (your) teeth': **আমি প্রতিদিন সকালে দাঁত মাজি** 'I brush my teeth every morning'. In cities many people use the English word 'brush' instead.\n\n**Culture:** Muslims say **নামাজ পড়া** — literally 'read the prayer'. **পড়েন** is the polite form, used for elders: **আমার দাদা সবসময় নামাজ পড়েন**. The call to prayer five times a day is one of the most familiar sounds of Bangladesh.",
   "vocab": [
     {
       "id": "protidin",
@@ -49,6 +49,26 @@
       "bn": "পড়েন",
       "tr": "poren",
       "en": "you read (polite)"
+    },
+    {
+      "id": "dat",
+      "bn": "দাঁত",
+      "tr": "da~t",
+      "en": "teeth"
+    },
+    {
+      "id": "maji",
+      "bn": "মাজি",
+      "tr": "maji",
+      "en": "I brush",
+      "notes": "From মাজা 'scrub, brush'. Urban speech often says দাঁত ব্রাশ করি instead."
+    },
+    {
+      "id": "dat-maja",
+      "bn": "দাঁত মাজা",
+      "tr": "da~t maja",
+      "en": "brushing teeth",
+      "notes": "Also very common, especially in cities: দাঁত ব্রাশ করা (দাঁত ব্রাশ করি \"I brush my teeth\") — accept both."
     }
   ],
   "exercises": [
@@ -62,27 +82,26 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "of course",
-        "why",
-        "when",
-        "every day"
+        "every day",
+        "always",
+        "sometimes",
+        "today"
       ],
-      "answer": 3
+      "answer": 0
     },
     {
       "id": "e02",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "সবসময়",
         "tr": "shobshomoy",
         "en": "always"
       },
-      "direction": "bn_to_en",
       "options": [
-        "far",
-        "always",
-        "at seven o'clock",
-        "how much"
+        "সময়",
+        "সবসময়",
+        "প্রতিদিন",
+        "সব"
       ],
       "answer": 1
     },
@@ -96,32 +115,15 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "OK",
-        "sometimes",
+        "always",
         "never",
-        "hello (peace be upon you)"
+        "sometimes",
+        "every day"
       ],
-      "answer": 1
+      "answer": 2
     },
     {
       "id": "e04",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "কখনো",
-        "tr": "kokhono",
-        "en": "ever"
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "ever",
-        "tomorrow; yesterday",
-        "where (before থেকে)",
-        "right"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "e05",
       "type": "select_translation",
       "prompt": {
         "bn": "কখনো না",
@@ -130,15 +132,15 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "I don't understand",
         "sometimes",
-        "hello (peace be upon you)",
+        "always",
+        "now",
         "never"
       ],
       "answer": 3
     },
     {
-      "id": "e06",
+      "id": "e05",
       "type": "select_translation",
       "prompt": {
         "bn": "নামাজ",
@@ -147,34 +149,60 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "milk",
-        "fun; tasty",
+        "mosque",
         "prayer",
-        "afternoon"
+        "temple",
+        "breakfast"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e06",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "দাঁত মাজা",
+        "tr": "da~t maja",
+        "en": "brushing teeth"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "bathing",
+        "sleeping",
+        "brushing teeth",
+        "eating breakfast"
       ],
       "answer": 2
     },
     {
       "id": "e07",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "পড়েন",
-        "tr": "poren",
-        "en": "you read (polite)"
+      "type": "listen_select",
+      "audio": {
+        "bn": "মাজি",
+        "tr": "maji",
+        "en": "I brush"
       },
-      "direction": "bn_to_en",
       "options": [
-        "you do (polite)",
-        "I am going",
-        "you read (polite)",
-        "to eat"
+        "মামি",
+        "মাজি",
+        "মাছ",
+        "মাঝে"
       ],
-      "answer": 2
+      "answer": 1
     },
     {
       "id": "e08",
       "type": "match_pairs",
       "pairs": [
+        {
+          "bn": "প্রতিদিন",
+          "tr": "protidin",
+          "en": "every day"
+        },
+        {
+          "bn": "সবসময়",
+          "tr": "shobshomoy",
+          "en": "always"
+        },
         {
           "bn": "মাঝে মাঝে",
           "tr": "majhe majhe",
@@ -186,115 +214,14 @@
           "en": "never"
         },
         {
-          "bn": "নামাজ",
-          "tr": "namaj",
-          "en": "prayer"
-        },
-        {
-          "bn": "প্রতিদিন",
-          "tr": "protidin",
-          "en": "every day"
-        },
-        {
-          "bn": "সবসময়",
-          "tr": "shobshomoy",
-          "en": "always"
+          "bn": "দাঁত মাজা",
+          "tr": "da~t maja",
+          "en": "brushing teeth"
         }
       ]
     },
     {
       "id": "e09",
-      "type": "word_bank",
-      "prompt": {
-        "bn": "সে কখনো রান্না করে না।",
-        "tr": "she kokhono ranna kore na.",
-        "en": "He never cooks."
-      },
-      "direction": "bn_to_en",
-      "tiles": [
-        "He",
-        "never",
-        "intersection",
-        "way",
-        "more",
-        "cooks"
-      ],
-      "answer": [
-        "He",
-        "never",
-        "cooks"
-      ]
-    },
-    {
-      "id": "e10",
-      "type": "word_bank",
-      "prompt": {
-        "bn": "তুমি কি প্রতিদিন গোসল করো?",
-        "tr": "tumi ki protidin gosol koro?",
-        "en": "Do you bathe every day?"
-      },
-      "direction": "en_to_bn",
-      "tiles": [
-        "গোসল",
-        "করো",
-        "প্রতিদিন",
-        "পড়ি",
-        "তুমি",
-        "স্টেশনের",
-        "দিয়ে",
-        "কি"
-      ],
-      "answer": [
-        "তুমি",
-        "কি",
-        "প্রতিদিন",
-        "গোসল",
-        "করো"
-      ]
-    },
-    {
-      "id": "e11",
-      "type": "word_bank",
-      "prompt": {
-        "bn": "আমি মাঝে মাঝে গান শুনি।",
-        "tr": "ami majhe majhe gan shuni.",
-        "en": "I sometimes listen to music."
-      },
-      "direction": "bn_to_en",
-      "tiles": [
-        "listen",
-        "music",
-        "problem",
-        "sometimes",
-        "sari",
-        "to",
-        "and",
-        "I"
-      ],
-      "answer": [
-        "I",
-        "sometimes",
-        "listen",
-        "to",
-        "music"
-      ]
-    },
-    {
-      "id": "e12",
-      "type": "type_translation",
-      "prompt": {
-        "bn": "সে সবসময় চা খায়।",
-        "tr": "she shobshomoy cha khay.",
-        "en": "She always drinks tea."
-      },
-      "direction": "bn_to_en",
-      "accepted": [
-        "She always drinks tea.",
-        "He always drinks tea."
-      ]
-    },
-    {
-      "id": "e13",
       "type": "word_bank",
       "prompt": {
         "bn": "আমি কখনো মাছ খাই না।",
@@ -303,14 +230,13 @@
       },
       "direction": "en_to_bn",
       "tiles": [
-        "থাকি",
-        "বিকালে",
-        "কখনো",
-        "মাছ",
-        "রাত",
-        "খাই",
+        "খায়",
         "আমি",
-        "না"
+        "সবসময়",
+        "মাছ",
+        "না",
+        "কখনো",
+        "খাই"
       ],
       "answer": [
         "আমি",
@@ -318,24 +244,177 @@
         "মাছ",
         "খাই",
         "না"
+      ],
+      "alt": [
+        [
+          "কখনো",
+          "মাছ",
+          "খাই",
+          "না"
+        ],
+        [
+          "আমি",
+          "মাছ",
+          "কখনো",
+          "খাই",
+          "না"
+        ]
       ]
     },
     {
-      "id": "e14",
+      "id": "e10",
       "type": "select_translation",
+      "prompt": {
+        "bn": "সে সবসময় চা খায়।",
+        "tr": "she shobshomoy cha khay.",
+        "en": "She always drinks tea."
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "সে সবসময় চা খাই।",
+        "সে মাঝে মাঝে চা খায়।",
+        "সে সবসময় চা খায়।",
+        "সে কখনো চা খায়।"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e11",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমি প্রতিদিন সকালে দাঁত মাজি।",
+        "tr": "ami protidin shokale da~t maji.",
+        "en": "I brush my teeth every morning."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "রাতে",
+        "দাঁত",
+        "আমি",
+        "সবসময়",
+        "মাজি",
+        "প্রতিদিন",
+        "সকালে"
+      ],
+      "answer": [
+        "আমি",
+        "প্রতিদিন",
+        "সকালে",
+        "দাঁত",
+        "মাজি"
+      ],
+      "alt": [
+        [
+          "প্রতিদিন",
+          "সকালে",
+          "আমি",
+          "দাঁত",
+          "মাজি"
+        ],
+        [
+          "প্রতিদিন",
+          "সকালে",
+          "দাঁত",
+          "মাজি"
+        ]
+      ]
+    },
+    {
+      "id": "e12",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমার দাদা সবসময় নামাজ পড়েন।",
+        "tr": "amar dada shobshomoy namaj poren.",
+        "en": "My grandfather always prays."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "sometimes",
+        "My",
+        "pray",
+        "grandfather",
+        "never",
+        "always",
+        "grandmother",
+        "prays"
+      ],
+      "answer": [
+        "My",
+        "grandfather",
+        "always",
+        "prays"
+      ]
+    },
+    {
+      "id": "e13",
+      "type": "type_translation",
       "prompt": {
         "bn": "আমি মাঝে মাঝে টিভি দেখি।",
         "tr": "ami majhe majhe tibhi dekhi.",
         "en": "I sometimes watch TV."
       },
+      "direction": "bn_to_en",
+      "accepted": [
+        "I sometimes watch TV.",
+        "Sometimes I watch TV.",
+        "I watch TV sometimes.",
+        "I sometimes watch television.",
+        "Sometimes I watch television.",
+        "I watch television sometimes.",
+        "I occasionally watch TV.",
+        "I watch TV now and then."
+      ]
+    },
+    {
+      "id": "e14",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "সে কখনো রান্না করে না।",
+        "tr": "she kokhono ranna kore na.",
+        "en": "He never cooks."
+      },
       "direction": "en_to_bn",
-      "options": [
-        "সে টিভি দেখে।",
-        "হাসপাতাল মসজিদের পাশে।",
-        "আমি মাঝে মাঝে টিভি দেখি।",
-        "দাদা আর দাদি ভালো আছেন।"
+      "tiles": [
+        "করি",
+        "সে",
+        "সবসময়",
+        "রান্না",
+        "না",
+        "করে",
+        "কখনো"
       ],
-      "answer": 2
+      "answer": [
+        "সে",
+        "কখনো",
+        "রান্না",
+        "করে",
+        "না"
+      ],
+      "alt": [
+        [
+          "কখনো",
+          "রান্না",
+          "করে",
+          "না"
+        ]
+      ]
+    },
+    {
+      "id": "e15",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আপনি কি প্রতিদিন নামাজ পড়েন?",
+        "tr": "apni ki protidin namaj poren?",
+        "en": "Do you pray every day?"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "Do you always pray?",
+        "Do you pray every day?",
+        "Do you pray sometimes?",
+        "Do you never pray?"
+      ],
+      "answer": 1
     }
   ]
 }

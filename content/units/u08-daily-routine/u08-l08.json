@@ -3,7 +3,7 @@
   "unit": "u08-daily-routine",
   "title": "I can, I think",
   "status": "draft",
-  "tip": "**Can** = infinitive + **পারা**: বলতে **পারি** \"I can speak\", বলতে **পারেন** \"you can speak\", খেতে **পারি না** \"I can't eat\". You already know the chunk **বুঝতে পারছি না** — that is the same verb.\n\nTo give an opinion, start with **(আমার) মনে হয়** \"I think\" (lit. \"it comes to my mind\"). **হয়তো** \"maybe\" softens a guess.\n\nIn class: **আমার একটা প্রশ্ন আছে** \"I have a question\".",
+  "tip": "**Can** = infinitive + **পারা**, and পারা takes the person endings you know:\n\n- আমি বলতে **পারি** — I can speak\n- আপনি বলতে **পারেন** — you can speak (polite)\n- সে বলতে **পারে** — he/she can speak\n\n**বলতে** 'to speak' works like **খেতে** 'to eat' from Unit 4. For 'can't', add **না** at the end: খেতে **পারি না** 'I can't eat'. You already know the chunk **বুঝতে পারছি না** 'I don't understand' — that is the same verb.\n\nTo give an opinion, start with **(আমার) মনে হয়** 'I think' (lit. 'it comes to my mind'). **হয়তো** 'maybe' is less sure: **হয়তো সে অফিসে** 'Maybe she's at the office'.\n\nIn class: **আমার একটা প্রশ্ন আছে** 'I have a question', **উত্তর কী?** 'What's the answer?'",
   "vocab": [
     {
       "id": "bolte",
@@ -69,55 +69,37 @@
       "id": "e01",
       "type": "select_translation",
       "prompt": {
-        "bn": "বলতে",
-        "tr": "bolte",
-        "en": "to speak"
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "you do (polite)",
-        "to speak",
-        "(you, intimate) eat",
-        "is doing"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "e02",
-      "type": "select_translation",
-      "prompt": {
         "bn": "পারি",
         "tr": "pari",
         "en": "(I) can"
       },
       "direction": "bn_to_en",
       "options": [
-        "I watch",
+        "(he/she) can",
         "(I) can",
-        "I do",
+        "(you, polite) can",
         "(I) know"
       ],
       "answer": 1
     },
     {
-      "id": "e03",
-      "type": "select_translation",
-      "prompt": {
+      "id": "e02",
+      "type": "listen_select",
+      "audio": {
         "bn": "পারেন",
         "tr": "paren",
         "en": "(you, polite) can"
       },
-      "direction": "bn_to_en",
       "options": [
-        "to speak",
-        "(you, polite) can",
-        "(you, polite) have come",
-        "you are doing (polite)"
+        "পারি",
+        "পারে",
+        "পারেন",
+        "জানেন"
       ],
-      "answer": 1
+      "answer": 2
     },
     {
-      "id": "e04",
+      "id": "e03",
       "type": "select_translation",
       "prompt": {
         "bn": "পারে",
@@ -126,12 +108,29 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "is not (here); there isn't",
-        "you sleep (polite)",
-        "are (intimate)",
+        "(I) can",
+        "(you, polite) can",
+        "I think",
         "(he/she) can"
       ],
       "answer": 3
+    },
+    {
+      "id": "e04",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "বলতে",
+        "tr": "bolte",
+        "en": "to speak"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "to speak",
+        "to eat",
+        "I speak",
+        "you speak (polite)"
+      ],
+      "answer": 0
     },
     {
       "id": "e05",
@@ -143,10 +142,10 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "hello (Hindu greeting)",
+        "I can't",
         "I think",
-        "OK",
-        "brushing teeth"
+        "I know",
+        "I have"
       ],
       "answer": 1
     },
@@ -160,38 +159,38 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "where",
+        "really",
+        "always",
         "maybe",
-        "at noon",
-        "where (before থেকে)"
+        "actually"
       ],
-      "answer": 1
+      "answer": 2
     },
     {
       "id": "e07",
       "type": "select_translation",
       "prompt": {
-        "bn": "প্রশ্ন",
-        "tr": "proshno",
-        "en": "question"
+        "bn": "উত্তর",
+        "tr": "uttor",
+        "en": "answer"
       },
       "direction": "bn_to_en",
       "options": [
-        "brother",
         "question",
-        "in the city",
-        "vegetables"
+        "mistake",
+        "problem",
+        "answer"
       ],
-      "answer": 1
+      "answer": 3
     },
     {
       "id": "e08",
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "পারি",
-          "tr": "pari",
-          "en": "(I) can"
+          "bn": "প্রশ্ন",
+          "tr": "proshno",
+          "en": "question"
         },
         {
           "bn": "উত্তর",
@@ -204,94 +203,173 @@
           "en": "wrong"
         },
         {
+          "bn": "হয়তো",
+          "tr": "hoyto",
+          "en": "maybe"
+        },
+        {
           "bn": "বলতে",
           "tr": "bolte",
           "en": "to speak"
-        },
-        {
-          "bn": "পারেন",
-          "tr": "paren",
-          "en": "(you, polite) can"
         }
       ]
     },
     {
       "id": "e09",
-      "type": "word_bank",
+      "type": "select_translation",
       "prompt": {
-        "bn": "উত্তর কী?",
-        "tr": "uttor ki?",
-        "en": "What's the answer?"
+        "bn": "আপনি কি ইংরেজি বলতে পারেন?",
+        "tr": "apni ki ingreji bolte paren?",
+        "en": "Can you speak English? (polite)"
       },
-      "direction": "bn_to_en",
-      "tiles": [
-        "name",
-        "the",
-        "child",
-        "What's",
-        "dozen",
-        "answer"
+      "direction": "en_to_bn",
+      "options": [
+        "আপনি কি ইংরেজি বলতে পারি?",
+        "আপনি কি ইংরেজি বলতে পারেন?",
+        "আপনি কি ইংরেজি বলতে পারে?",
+        "তুমি কি ইংরেজি বলতে পারেন?"
       ],
-      "answer": [
-        "What's",
-        "the",
-        "answer"
-      ]
+      "answer": 1
     },
     {
       "id": "e10",
       "type": "word_bank",
       "prompt": {
-        "bn": "মনে হয় সে বাসায় আছে।",
-        "tr": "mone hoy she bashay achhe.",
-        "en": "I think he's at home."
+        "bn": "আমি একটু বাংলা বলতে পারি।",
+        "tr": "ami ektu bangla bolte pari.",
+        "en": "I can speak a little Bengali."
       },
       "direction": "en_to_bn",
       "tiles": [
-        "বাসায়",
-        "বাচ্চা",
-        "লেখে",
-        "আছে",
-        "সে",
-        "হয়",
-        "চাও",
-        "মনে"
+        "খুব",
+        "পারে",
+        "আমি",
+        "বলতে",
+        "বাংলা",
+        "বলি",
+        "একটু",
+        "পারি"
       ],
       "answer": [
-        "মনে",
-        "হয়",
-        "সে",
-        "বাসায়",
-        "আছে"
+        "আমি",
+        "একটু",
+        "বাংলা",
+        "বলতে",
+        "পারি"
+      ],
+      "alt": [
+        [
+          "একটু",
+          "বাংলা",
+          "বলতে",
+          "পারি"
+        ]
       ]
     },
     {
       "id": "e11",
       "type": "word_bank",
       "prompt": {
-        "bn": "আপনি কি ইংরেজি বলতে পারেন?",
-        "tr": "apni ki ingreji bolte paren?",
-        "en": "Can you speak English?"
+        "bn": "আমি মাছ খেতে পারি না।",
+        "tr": "ami machh khete pari na.",
+        "en": "I can't eat fish."
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "tiles": [
-        "they",
-        "any",
-        "I",
-        "speak",
-        "Can",
-        "you",
-        "English"
+        "খাই",
+        "মাছ",
+        "পারে",
+        "না",
+        "আমি",
+        "খেতে",
+        "পারি"
       ],
       "answer": [
-        "Can",
-        "you",
-        "speak",
-        "English"
+        "আমি",
+        "মাছ",
+        "খেতে",
+        "পারি",
+        "না"
+      ],
+      "alt": [
+        [
+          "মাছ",
+          "খেতে",
+          "পারি",
+          "না"
+        ]
       ]
     },
     {
       "id": "e12",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "সে খুব ভালো বাংলা বলতে পারে।",
+        "tr": "she khub bhalo bangla bolte pare.",
+        "en": "She can speak Bengali very well."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "good",
+        "She",
+        "speak",
+        "I",
+        "well",
+        "Bengali",
+        "can",
+        "very",
+        "Bangla"
+      ],
+      "answer": [
+        "She",
+        "can",
+        "speak",
+        "Bengali",
+        "very",
+        "well"
+      ],
+      "alt": [
+        [
+          "She",
+          "can",
+          "speak",
+          "Bangla",
+          "very",
+          "well"
+        ]
+      ]
+    },
+    {
+      "id": "e13",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "মনে হয় সে বাসায় আছে।",
+        "tr": "mone hoy she bashay achhe.",
+        "en": "I think he is at home."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "office",
+        "I",
+        "home",
+        "can",
+        "is",
+        "the",
+        "he",
+        "think",
+        "at"
+      ],
+      "answer": [
+        "I",
+        "think",
+        "he",
+        "is",
+        "at",
+        "home"
+      ]
+    },
+    {
+      "id": "e14",
       "type": "type_translation",
       "prompt": {
         "bn": "আমার মনে হয় এটা ভুল।",
@@ -301,54 +379,33 @@
       "direction": "bn_to_en",
       "accepted": [
         "I think this is wrong.",
-        "I think it's a mistake."
+        "I think it's wrong.",
+        "I think it is wrong.",
+        "I think this is a mistake.",
+        "I think it's a mistake.",
+        "I think it is a mistake.",
+        "I think this is incorrect.",
+        "I think it's incorrect.",
+        "I think it is incorrect.",
+        "I think that this is wrong."
       ]
     },
     {
-      "id": "e13",
-      "type": "word_bank",
-      "prompt": {
-        "bn": "সে খুব ভালো বাংলা বলতে পারে।",
-        "tr": "she khub bhalo bangla bolte pare.",
-        "en": "She can speak Bengali very well."
-      },
-      "direction": "en_to_bn",
-      "tiles": [
-        "ভালো",
-        "চান",
-        "খুব",
-        "বলতে",
-        "সে",
-        "বউ",
-        "বাংলা",
-        "মসজিদের",
-        "পারে"
-      ],
-      "answer": [
-        "সে",
-        "খুব",
-        "ভালো",
-        "বাংলা",
-        "বলতে",
-        "পারে"
-      ]
-    },
-    {
-      "id": "e14",
+      "id": "e15",
       "type": "select_translation",
       "prompt": {
-        "bn": "আমি একটু বাংলা বলতে পারি।",
-        "tr": "ami ektu bangla bolte pari.",
-        "en": "I can speak a little Bengali."
+        "bn": "আমার একটা প্রশ্ন আছে।",
+        "tr": "amar ekta proshno achhe.",
+        "en": "I have a question."
       },
       "direction": "en_to_bn",
       "options": [
-        "আমি একটু বাংলা বলতে পারি।",
-        "আমার দশ মিনিট সময় আছে।",
-        "এটা একটা ছোট গ্রাম।",
-        "আমি ট্রেনে যাব।"
+        "আমার একটা উত্তর আছে।",
+        "আমি একটা প্রশ্ন আছে।",
+        "আমার একটা প্রশ্ন নেই।",
+        "আমার একটা প্রশ্ন আছে।"
       ],
-      "answer": 0
+      "answer": 3
     }
   ]
 }

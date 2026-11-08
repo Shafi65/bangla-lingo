@@ -33,7 +33,7 @@
         "amra",
         "tara"
       ],
-      "tip": "Bengali verbs change their ending for the person, and the endings are very regular. Here is **করা** (*kora*, 'to do'):\n\n| | |\n|---|---|\n| আমি / আমরা | **করি** (*kori*) |\n| তুই | **করিস** (*korish*) |\n| তুমি / তোমরা | **করো** (*koro*) |\n| আপনি / তিনি | **করেন** (*koren*) |\n| সে / তারা | **করে** (*kore*) |\n\nThere's no difference between singular and plural in the verb: আমি করি, আমরা করি. And polite 'you' and polite 'he/she' share **-েন**.\n\nMany everyday actions are **noun + করা**: **কাজ করা** 'to work' (lit. 'do work'). **আপনি কী করেন?** 'What do you do?' is how people ask about your job.\n\nUseful reactions: **সত্যি?** \"Really?\" and **আসলে…** \"Actually…\".",
+      "tip": "Bengali verbs change their ending for the person, and the endings are very regular. Here is **করা** (*kora*, 'to do'):\n\n- আমি / আমরা — **করি** (*kori*) 'I / we do'\n- তুই — **করিস** (*korish*) 'you do' (intimate)\n- তুমি / তোমরা — **করো** (*koro*) 'you do' (familiar)\n- আপনি / তিনি — **করেন** (*koren*) 'you do' (polite), 'he/she does' (polite)\n- সে / তারা — **করে** (*kore*) 'he/she does', 'they do'\n\nThe verb doesn't change for plural: আমি **করি**, আমরা **করি**; সে **করে**, তারা **করে**. Polite 'you' and polite 'he/she' share **-েন** — so you say **আমার বাবা কাজ করেন** with the same ending as **আপনি**.\n\nMany everyday actions are **noun + করা**: **কাজ করা** 'to work' (lit. 'do work'). **আপনি কী করেন?** 'What do you do?' is how people ask about your job.\n\nFor 'don't', put **না** after the verb: **আমি কাজ করি না** 'I don't work'.\n\nUseful reactions: **সত্যি?** 'Really?' and **আসলে…** 'Actually…'.",
       "sentences": [
         {
           "bn": "আমি কাজ করি।",
@@ -107,9 +107,9 @@
       "title": "Wake up, sleep, wash",
       "goal": "Say when you get up, wash and go to bed.",
       "grammar": [
-        "clock time + -টায় 'at … o'clock': সাতটায়, দশটায়",
-        "কখন 'when?'",
-        "ঘুম থেকে ওঠা 'wake up' (lit. 'rise from sleep')",
+        "clock time + -টায় 'at … o'clock': সাতটায়, আটটায়, দশটায়",
+        "কয়টায়? 'at what time?' vs কয়টা বাজে? 'what time is it?'",
+        "ঘুম থেকে ওঠা 'wake up' (lit. 'rise from sleep'); উঠি / ওঠেন",
         "গোসল করা 'bathe'"
       ],
       "new": [
@@ -119,12 +119,10 @@
         "ghuman",
         "ghum",
         "gosol",
-        "dat",
-        "maji",
-        "dat-maja",
         "shattay",
+        "attay",
         "doshtay",
-        "kokhon"
+        "koytay"
       ],
       "review": [
         "ami",
@@ -136,9 +134,12 @@
         "kori",
         "she",
         "rate",
-        "kore"
+        "kore",
+        "doshta",
+        "koyta",
+        "baje"
       ],
-      "tip": "'At seven o'clock' = **সাতটায়** (*shattay*): number + **-টা** + locative **-য়**. Add the part of the day in front: **সকাল সাতটায়** 'at 7 a.m.', **রাত দশটায়** 'at 10 p.m.'\n\nTo wake up is **ঘুম থেকে ওঠা** — literally 'rise from sleep'. Watch the vowel: **আমি উঠি** but **আপনি ওঠেন**. Many common verbs swap o↔u or e↔i like this; more in Lesson 4.\n\n**কখন** (*kokhon*) 'when?' goes before the verb: **আপনি কখন ঘুমান?** 'When do you sleep?'\n\n**গোসল করা** (*gosol kora*) is the everyday Bangladeshi word for bathing / showering. Kolkata (and many Hindu speakers) say **স্নান করা** (*snan kora*).",
+      "tip": "**At** a clock time = number + **-টা** + **-য়**:\n\n- **সাতটায়** (*shattay*) — at seven\n- **আটটায়** (*attay*) — at eight\n- **দশটায়** (*doshtay*) — at ten\n\nDon't mix it up with Unit 5: **দশটা বাজে** 'it's ten o'clock' has no **-য়**, but **আমি দশটায় ঘুমাই** 'I sleep *at* ten' does. To ask 'at what time?', add the same ending to **কয়টা**: **কয়টায়?** (*koytay*) — **আপনি কয়টায় ঘুমান?** 'What time do you go to bed?' Put the part of the day in front: **সকাল সাতটায়** 'at 7 a.m.', **রাত দশটায়** 'at 10 p.m.'\n\nTo wake up is **ঘুম থেকে ওঠা** — literally 'rise from sleep'. Watch the vowel: **আমি উঠি** but **আপনি ওঠেন**. Many common verbs swap o↔u or e↔i like this; more in Lesson 4.\n\n**গোসল করা** (*gosol kora*) is the everyday Bangladeshi word for bathing / showering. Kolkata (and many Hindu speakers) say *snan kora* instead.",
       "sentences": [
         {
           "bn": "আমি সকালে উঠি।",
@@ -146,6 +147,15 @@
           "en": "I get up in the morning.",
           "alt": [
             "I wake up in the morning."
+          ]
+        },
+        {
+          "bn": "আমি সাতটায় উঠি।",
+          "tr": "ami shattay uthi.",
+          "en": "I get up at seven.",
+          "alt": [
+            "I wake up at seven.",
+            "I get up at 7."
           ]
         },
         {
@@ -157,11 +167,12 @@
           ]
         },
         {
-          "bn": "আপনি কখন ঘুম থেকে ওঠেন?",
-          "tr": "apni kokhon ghum theke othen?",
-          "en": "When do you wake up?",
+          "bn": "আপনি কয়টায় ঘুম থেকে ওঠেন?",
+          "tr": "apni koytay ghum theke othen?",
+          "en": "What time do you wake up?",
           "alt": [
-            "What time do you get up?"
+            "What time do you get up?",
+            "When do you wake up?"
           ]
         },
         {
@@ -173,11 +184,21 @@
           ]
         },
         {
-          "bn": "আপনি কখন ঘুমান?",
-          "tr": "apni kokhon ghuman?",
-          "en": "When do you sleep?",
+          "bn": "আপনি কয়টায় ঘুমান?",
+          "tr": "apni koytay ghuman?",
+          "en": "What time do you go to bed?",
           "alt": [
-            "What time do you go to bed?"
+            "What time do you sleep?",
+            "When do you go to sleep?"
+          ]
+        },
+        {
+          "bn": "আমি আটটায় গোসল করি।",
+          "tr": "ami attay gosol kori.",
+          "en": "I bathe at eight.",
+          "alt": [
+            "I take a shower at eight.",
+            "I shower at 8."
           ]
         },
         {
@@ -188,11 +209,6 @@
             "I shower in the morning.",
             "I take a bath in the morning."
           ]
-        },
-        {
-          "bn": "আমি সকালে দাঁত মাজি।",
-          "tr": "ami shokale da~t maji.",
-          "en": "I brush my teeth in the morning."
         },
         {
           "bn": "সে রাতে গোসল করে।",
@@ -211,7 +227,8 @@
       "grammar": [
         "যাওয়া 'go': যাই · যাও · যান · যায়",
         "আসা 'come': আসি · আসে",
-        "locative for destinations: অফিসে, স্কুলে"
+        "locative for destinations: অফিসে, স্কুলে",
+        "কখন 'when?' vs কয়টায় 'at what time?'"
       ],
       "new": [
         "ofis",
@@ -222,7 +239,8 @@
         "jao",
         "jay",
         "ashi",
-        "ashe"
+        "ashe",
+        "kokhon"
       ],
       "review": [
         "ami",
@@ -230,13 +248,13 @@
         "chhoto",
         "bon",
         "apni",
-        "kokhon",
         "jan",
         "rate",
         "bashay",
-        "abbu"
+        "koytay",
+        "attay"
       ],
-      "tip": "**যাওয়া** 'go' follows the same person pattern: **আমি যাই**, **তুমি যাও**, **আপনি যান**, **সে যায়**. (You met **যান** as a polite command in Unit 7 — the present and the command look the same.)\n\n**আসা** 'come': **আমি আসি**, **সে আসে**.\n\nDestinations take the locative **-এ**: **অফিসে যাই** 'I go to the office', **স্কুলে যায়** 'goes to school'. With বাসা it's **বাসায়**.\n\n**Culture:** in Bangladesh the work/school week usually runs Sunday to Thursday; Friday (and often Saturday) is the weekend.",
+      "tip": "**যাওয়া** 'go' follows the same person pattern as করা:\n\n- আমি **যাই** — I go\n- তুমি **যাও** — you go (familiar)\n- আপনি **যান** — you go (polite)\n- সে **যায়** — he/she goes\n\n(You met **যান** as a polite command in Unit 7 — the present and the command look the same.) **আসা** 'come': **আমি আসি**, **সে আসে**.\n\nDestinations take the locative **-এ**: **অফিসে যাই** 'I go to the office', **স্কুলে যায়** 'goes to school'. With বাসা it's **বাসায়**.\n\n**কখন** (*kokhon*) 'when?' goes before the verb: **আপনি কখন অফিসে যান?** For an exact clock time use **কয়টায়?** from Lesson 2: **আপনি কয়টায় অফিসে যান?** — **আটটায়।** 'At eight.'\n\n**Culture:** in Bangladesh the work/school week usually runs Sunday to Thursday; Friday (and often Saturday) is the weekend.",
       "sentences": [
         {
           "bn": "আমি অফিসে যাই।",
@@ -263,17 +281,27 @@
           ]
         },
         {
+          "bn": "আপনি কয়টায় অফিসে যান?",
+          "tr": "apni koytay ofise jan?",
+          "en": "What time do you go to the office?",
+          "alt": [
+            "What time do you go to work?",
+            "At what time do you go to the office?"
+          ]
+        },
+        {
+          "bn": "আমি আটটায় অফিসে যাই।",
+          "tr": "ami attay ofise jai.",
+          "en": "I go to the office at eight.",
+          "alt": [
+            "I go to work at eight.",
+            "I go to work at 8."
+          ]
+        },
+        {
           "bn": "আমি রাতে বাসায় আসি।",
           "tr": "ami rate bashay ashi.",
           "en": "I come home at night."
-        },
-        {
-          "bn": "আব্বু অফিসে কাজ করেন।",
-          "tr": "abbu ofise kaj koren.",
-          "en": "Dad works in an office.",
-          "alt": [
-            "Dad works at the office."
-          ]
         },
         {
           "bn": "তুমি কি স্কুলে যাও?",
@@ -336,7 +364,7 @@
         "apni",
         "ki-q"
       ],
-      "tip": "Some verbs have **o** or **e** in the stem that **rises** to **u** or **i** in certain forms (including আমি). Learn them in pairs:\n\n- শোনা 'listen': আমি **শুনি** — সে **শোনে**\n- লেখা 'write': আমি **লিখি** — সে **লেখে**\n- ওঠা 'rise': আমি **উঠি** — সে **ওঠে**\n\nNot every verb does this: **দেখা** 'see / watch' keeps its এ — আমি **দেখি**, সে **দেখে**. Learn each verb as an আমি + সে pair.\n\nObjects come **before** the verb, never after: **আমি বই পড়ি** 'I read books', **আমি গান শুনি** 'I listen to music'.\n\n**পড়া** means both 'read' and 'study'. And note **পড়ে** 'reads' vs **পরে** 'later' — same sound, different spelling.",
+      "tip": "Some verbs have **o** or **e** in the stem that **rises** to **u** or **i** in the আমি form. Learn them in pairs:\n\n- শোনা 'listen': আমি **শুনি** — সে **শোনে**\n- লেখা 'write': আমি **লিখি** — সে **লেখে**\n- ওঠা 'rise': আমি **উঠি** — আপনি **ওঠেন** (Lesson 2)\n\nNot every verb does this: **দেখা** 'see / watch' keeps its এ — আমি **দেখি**, সে **দেখে**. **পড়া** and **বলা** keep the same spelling too: আমি **পড়ি** / সে **পড়ে**, আমি **বলি** / আপনি **বলেন**. Learn each new verb as an আমি + সে pair.\n\nObjects come **before** the verb, never after: **আমি বই পড়ি** 'I read books', **আমি গান শুনি** 'I listen to music' (**গান** is 'song', but **গান শোনা** is how you say 'listen to music').\n\n**পড়া** means both 'read' and 'study': **আমি বাংলা পড়ি** can be 'I read Bengali' or 'I study Bengali'.",
       "sentences": [
         {
           "bn": "আমি বই পড়ি।",
@@ -446,7 +474,7 @@
         "bhat",
         "ofise"
       ],
-      "tip": "For 'am / is / are doing', add **-ছ-** plus the person ending to the verb stem:\n\n- আমি **করছি** — I am doing\n- তুমি **করছো** — you are doing\n- আপনি **করছেন** — you (polite) are doing\n- সে **করছে** — he/she is doing\n\nWith vowel stems the ছ doubles up as **চ্ছ**: খা- → **খাচ্ছি** 'I'm eating', যা- → **যাচ্ছি** 'I'm going'.\n\n**তুমি কী করছো?** 'What are you doing?' is a common phone opener. A natural answer: **রান্না করছি** 'I'm cooking'.",
+      "tip": "For 'am / is / are doing', add **-ছ-** plus the person ending to the verb stem:\n\n- আমি **করছি** — I am doing\n- তুমি **করছো** — you are doing (familiar)\n- আপনি **করছেন** — you are doing (polite)\n- সে **করছে** — he/she is doing\n\nCompare the simple present: **আমি কাজ করি** 'I work' (in general) vs **আমি কাজ করছি** 'I am working' (right now).\n\nWith vowel stems the ছ doubles up as **চ্ছ**: খা- → **খাচ্ছি** 'I'm eating', যা- → **যাচ্ছি** 'I'm going'.\n\n**তুমি কী করছো?** 'What are you doing?' is a common phone opener. A natural answer: **রান্না করছি** 'I'm cooking' — the আমি can drop, because the ending already says who.",
       "sentences": [
         {
           "bn": "আমি কাজ করছি।",
@@ -523,7 +551,8 @@
       "grammar": [
         "frequency words go before the verb phrase: প্রতিদিন, সবসময়, মাঝে মাঝে",
         "'never' = কখনো … verb + না: আমি কখনো মাছ খাই না",
-        "নামাজ পড়া 'pray (Islamic prayer)'"
+        "নামাজ পড়া 'pray (Islamic prayer)'",
+        "দাঁত মাজা 'brush teeth'"
       ],
       "new": [
         "protidin",
@@ -532,7 +561,10 @@
         "kokhono",
         "kokhono-na",
         "namaj",
-        "poren"
+        "poren",
+        "dat",
+        "maji",
+        "dat-maja"
       ],
       "review": [
         "ami",
@@ -546,7 +578,7 @@
         "dekhi",
         "machh"
       ],
-      "tip": "Frequency words usually come early in the sentence, before the object and verb: **আমি প্রতিদিন অফিসে যাই** 'I go to the office every day'.\n\n- **প্রতিদিন** — every day\n- **সবসময়** — always\n- **মাঝে মাঝে** — sometimes\n- **কখনো … না** — never\n\nFor 'never', put **কখনো** before the verb and **না** after it: **আমি কখনো মাছ খাই না** 'I never eat fish'. As a one-word reply, **কখনো না!** 'Never!'\n\n**Culture:** Muslims say **নামাজ পড়া** — literally 'read the prayer'. The call to prayer five times a day is one of the most familiar sounds of Bangladesh.",
+      "tip": "Frequency words usually come early in the sentence, before the object and verb: **আমি প্রতিদিন অফিসে যাই** 'I go to the office every day'.\n\n- **প্রতিদিন** — every day\n- **সবসময়** — always\n- **মাঝে মাঝে** — sometimes\n- **কখনো … না** — never\n\nFor 'never', put **কখনো** before the verb and **না** after it: **আমি কখনো মাছ খাই না** 'I never eat fish'. As a one-word reply, **কখনো না!** 'Never!'\n\n**দাঁত মাজা** is 'brush (your) teeth': **আমি প্রতিদিন সকালে দাঁত মাজি** 'I brush my teeth every morning'. In cities many people use the English word 'brush' instead.\n\n**Culture:** Muslims say **নামাজ পড়া** — literally 'read the prayer'. **পড়েন** is the polite form, used for elders: **আমার দাদা সবসময় নামাজ পড়েন**. The call to prayer five times a day is one of the most familiar sounds of Bangladesh.",
       "sentences": [
         {
           "bn": "আমি প্রতিদিন অফিসে যাই।",
@@ -554,6 +586,14 @@
           "en": "I go to the office every day.",
           "alt": [
             "I go to work every day."
+          ]
+        },
+        {
+          "bn": "আমি প্রতিদিন সকালে দাঁত মাজি।",
+          "tr": "ami protidin shokale da~t maji.",
+          "en": "I brush my teeth every morning.",
+          "alt": [
+            "Every morning I brush my teeth."
           ]
         },
         {
@@ -604,11 +644,6 @@
           "bn": "কখনো না।",
           "tr": "kokhono na.",
           "en": "Never."
-        },
-        {
-          "bn": "আমি মাঝে মাঝে গান শুনি।",
-          "tr": "ami majhe majhe gan shuni.",
-          "en": "I sometimes listen to music."
         }
       ]
     },
@@ -649,7 +684,7 @@
         "nei",
         "dekhi"
       ],
-      "tip": "Link your day with **তারপর** (*tarpor*) 'then': **আমি সকালে উঠি, তারপর গোসল করি।**\n\n**আগে** 'before' and **পরে** 'after' are postpositions, so the noun goes in the genitive:\n\n- **নাস্তার পরে** — after breakfast\n- **ঘুমের আগে** — before sleep\n- **কাজের পরে** — after work\n\nAlone they mean 'first' and 'later': **আগে নামাজ পড়ি, পরে নাস্তা করি** 'First I pray, then I have breakfast'.\n\nBreakfast is **নাস্তা**, and you 'do' it: **নাস্তা করা**. A typical Bangladeshi breakfast: রুটি, ডিম, সবজি and চা.\n\n**কারণ** \"because\" introduces the reason; **তাই** \"so\" introduces the result.",
+      "tip": "Link your day with **তারপর** (*tarpor*) 'then': **আমি সকালে উঠি, তারপর গোসল করি।**\n\n**আগে** 'before' and **পরে** 'after' are postpositions, so the noun goes in the genitive (**-এর** / **-র**):\n\n- **নাস্তার পরে** — after breakfast\n- **ঘুমের আগে** — before sleep\n- **কাজের পরে** — after work\n\nAlone they mean 'first' and 'later': **আগে নামাজ পড়ি, পরে নাস্তা করি** 'First I pray, then I have breakfast'.\n\n*Spelling:* **পরে** 'after / later' (র) sounds exactly like **পড়ে** 'reads' (ড়) from Lesson 4.\n\nBreakfast is **নাস্তা**, and you 'do' it: **নাস্তা করা**. A typical Bangladeshi breakfast: রুটি, ডিম, সবজি and চা.\n\n**কারণ** 'because' introduces the reason; **তাই** 'so' introduces the result:\n\n- **আমি রাতে রান্না করি, কারণ সকালে সময় নেই।** — I cook at night, because there's no time in the morning.\n- **সকালে সময় নেই, তাই আমি রাতে রান্না করি।** — There's no time in the morning, so I cook at night.",
       "sentences": [
         {
           "bn": "আমি সকালে উঠি, তারপর গোসল করি।",
@@ -764,7 +799,7 @@
         "bhalo",
         "na"
       ],
-      "tip": "**Can** = infinitive + **পারা**: বলতে **পারি** \"I can speak\", বলতে **পারেন** \"you can speak\", খেতে **পারি না** \"I can't eat\". You already know the chunk **বুঝতে পারছি না** — that is the same verb.\n\nTo give an opinion, start with **(আমার) মনে হয়** \"I think\" (lit. \"it comes to my mind\"). **হয়তো** \"maybe\" softens a guess.\n\nIn class: **আমার একটা প্রশ্ন আছে** \"I have a question\".",
+      "tip": "**Can** = infinitive + **পারা**, and পারা takes the person endings you know:\n\n- আমি বলতে **পারি** — I can speak\n- আপনি বলতে **পারেন** — you can speak (polite)\n- সে বলতে **পারে** — he/she can speak\n\n**বলতে** 'to speak' works like **খেতে** 'to eat' from Unit 4. For 'can't', add **না** at the end: খেতে **পারি না** 'I can't eat'. You already know the chunk **বুঝতে পারছি না** 'I don't understand' — that is the same verb.\n\nTo give an opinion, start with **(আমার) মনে হয়** 'I think' (lit. 'it comes to my mind'). **হয়তো** 'maybe' is less sure: **হয়তো সে অফিসে** 'Maybe she's at the office'.\n\nIn class: **আমার একটা প্রশ্ন আছে** 'I have a question', **উত্তর কী?** 'What's the answer?'",
       "sentences": [
         {
           "bn": "আমি একটু বাংলা বলতে পারি।",
@@ -854,9 +889,12 @@
         "ki-what",
         "korchho",
         "she",
-        "protidin"
+        "protidin",
+        "koytay",
+        "attay",
+        "ghuman"
       ],
-      "tip": "You can now describe a whole day:\n\n**আমি সাধারণত সকাল সাতটায় উঠি। তারপর গোসল করি আর নাস্তা করি। নাস্তার পরে অফিসে যাই। কাজের পরে বাসায় আসি, রান্না করি, তারপর ঘুমাই।**\n\n**সাধারণত** (*shadharonoto*) = 'usually'. Check your endings: আমি **-ই**, তুমি **-ও**, আপনি **-েন**, সে **-ে**. And remember the vowel-raising pairs: শুনি/শোনে, লিখি/লেখে, উঠি/ওঠে.",
+      "tip": "You can now describe a whole day:\n\n**আমি সাধারণত সকাল সাতটায় উঠি। তারপর গোসল করি আর নাস্তা করি। নাস্তার পরে অফিসে যাই। কাজের পরে বাসায় আসি, রান্না করি, তারপর ঘুমাই।**\n\n**সাধারণত** (*shadharonoto*) = 'usually'. Like the other frequency words, it goes early: **আপনি সাধারণত কয়টায় ঘুমান?** 'What time do you usually go to bed?'\n\nQuick checklist:\n\n- Endings: আমি **-ি**, তুমি **-ো**, আপনি **-েন**, সে **-ে** (করি, করো, করেন, করে).\n- Vowel-raising pairs: শুনি / শোনে, লিখি / লেখে, উঠি / ওঠেন.\n- Right now: **-ছি**, **-ছো**, **-ছেন**, **-ছে** (করছি, করছো…).\n- Clock times: **দশটা বাজে** 'it's ten', but **দশটায়** 'at ten'.",
       "sentences": [
         {
           "bn": "আমি সাধারণত সকাল সাতটায় উঠি।",
@@ -911,6 +949,22 @@
           "en": "She always listens to music.",
           "alt": [
             "He always listens to music."
+          ]
+        },
+        {
+          "bn": "আপনি সাধারণত কয়টায় ঘুমান?",
+          "tr": "apni shadharonoto koytay ghuman?",
+          "en": "What time do you usually go to bed?",
+          "alt": [
+            "What time do you usually sleep?"
+          ]
+        },
+        {
+          "bn": "আমি আটটায় উঠি, তারপর অফিসে যাই।",
+          "tr": "ami attay uthi, tarpor ofise jai.",
+          "en": "I get up at eight, then I go to the office.",
+          "alt": [
+            "I get up at 8, then I go to work."
           ]
         }
       ]

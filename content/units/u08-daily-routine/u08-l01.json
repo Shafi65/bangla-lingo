@@ -3,7 +3,7 @@
   "unit": "u08-daily-routine",
   "title": "I do / you do",
   "status": "draft",
-  "tip": "Bengali verbs change their ending for the person, and the endings are very regular. Here is **করা** (*kora*, 'to do'):\n\n| | |\n|---|---|\n| আমি / আমরা | **করি** (*kori*) |\n| তুই | **করিস** (*korish*) |\n| তুমি / তোমরা | **করো** (*koro*) |\n| আপনি / তিনি | **করেন** (*koren*) |\n| সে / তারা | **করে** (*kore*) |\n\nThere's no difference between singular and plural in the verb: আমি করি, আমরা করি. And polite 'you' and polite 'he/she' share **-েন**.\n\nMany everyday actions are **noun + করা**: **কাজ করা** 'to work' (lit. 'do work'). **আপনি কী করেন?** 'What do you do?' is how people ask about your job.\n\nUseful reactions: **সত্যি?** \"Really?\" and **আসলে…** \"Actually…\".",
+  "tip": "Bengali verbs change their ending for the person, and the endings are very regular. Here is **করা** (*kora*, 'to do'):\n\n- আমি / আমরা — **করি** (*kori*) 'I / we do'\n- তুই — **করিস** (*korish*) 'you do' (intimate)\n- তুমি / তোমরা — **করো** (*koro*) 'you do' (familiar)\n- আপনি / তিনি — **করেন** (*koren*) 'you do' (polite), 'he/she does' (polite)\n- সে / তারা — **করে** (*kore*) 'he/she does', 'they do'\n\nThe verb doesn't change for plural: আমি **করি**, আমরা **করি**; সে **করে**, তারা **করে**. Polite 'you' and polite 'he/she' share **-েন** — so you say **আমার বাবা কাজ করেন** with the same ending as **আপনি**.\n\nMany everyday actions are **noun + করা**: **কাজ করা** 'to work' (lit. 'do work'). **আপনি কী করেন?** 'What do you do?' is how people ask about your job.\n\nFor 'don't', put **না** after the verb: **আমি কাজ করি না** 'I don't work'.\n\nUseful reactions: **সত্যি?** 'Really?' and **আসলে…** 'Actually…'.",
   "vocab": [
     {
       "id": "kori",
@@ -77,29 +77,28 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "will leave",
+        "you do (familiar)",
         "I do",
-        "feels",
-        "(I) have come"
+        "does",
+        "you do (polite)"
       ],
       "answer": 1
     },
     {
       "id": "e02",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "করিস",
-        "tr": "korish",
-        "en": "you do (intimate)"
+      "type": "listen_select",
+      "audio": {
+        "bn": "করেন",
+        "tr": "koren",
+        "en": "you do (polite)"
       },
-      "direction": "bn_to_en",
       "options": [
-        "(you, intimate) eat",
-        "you do (intimate)",
-        "give (familiar)",
-        "am"
+        "করেন",
+        "করে",
+        "করো",
+        "করি"
       ],
-      "answer": 1
+      "answer": 0
     },
     {
       "id": "e03",
@@ -111,8 +110,8 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "I live",
-        "feels",
+        "I do",
+        "you do (intimate)",
         "does",
         "you do (familiar)"
       ],
@@ -122,33 +121,32 @@
       "id": "e04",
       "type": "select_translation",
       "prompt": {
-        "bn": "করেন",
-        "tr": "koren",
-        "en": "you do (polite)"
+        "bn": "করিস",
+        "tr": "korish",
+        "en": "you do (intimate)"
       },
       "direction": "bn_to_en",
       "options": [
-        "go (polite)",
-        "is (he/she/it)",
+        "you do (intimate)",
+        "you do (familiar)",
         "you do (polite)",
-        "will go"
+        "I do"
       ],
-      "answer": 2
+      "answer": 0
     },
     {
       "id": "e05",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "করে",
         "tr": "kore",
         "en": "does"
       },
-      "direction": "bn_to_en",
       "options": [
-        "is not",
-        "will you go (polite)",
-        "does",
-        "you do (familiar)"
+        "করি",
+        "করেন",
+        "করে",
+        "করিস"
       ],
       "answer": 2
     },
@@ -156,21 +154,38 @@
       "id": "e06",
       "type": "select_translation",
       "prompt": {
-        "bn": "কাজ",
-        "tr": "kaj",
-        "en": "work"
+        "bn": "আপনি কী করেন?",
+        "tr": "apni ki koren?",
+        "en": "What do you do? (polite)"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "work",
-        "aunt (father's sister)",
-        "banana",
-        "fish"
+        "আপনি কী করো?",
+        "আপনি কী করেন?",
+        "তুমি কী করেন?",
+        "আপনি কী করে?"
       ],
-      "answer": 0
+      "answer": 1
     },
     {
       "id": "e07",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "সত্যি",
+        "tr": "shotti",
+        "en": "Really?"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "Actually…",
+        "Very",
+        "Really?",
+        "Why?"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e08",
       "type": "select_translation",
       "prompt": {
         "bn": "কঠিন",
@@ -179,163 +194,176 @@
       },
       "direction": "bn_to_en",
       "options": [
+        "good",
         "bad",
-        "more",
-        "difficult",
-        "tasty"
+        "sweet",
+        "difficult"
       ],
-      "answer": 2
+      "answer": 3
     },
     {
-      "id": "e08",
+      "id": "e09",
       "type": "match_pairs",
       "pairs": [
-        {
-          "bn": "কাজ",
-          "tr": "kaj",
-          "en": "work"
-        },
-        {
-          "bn": "করেন",
-          "tr": "koren",
-          "en": "you do (polite)"
-        },
         {
           "bn": "সত্যি",
           "tr": "shotti",
           "en": "really"
         },
         {
+          "bn": "আসলে",
+          "tr": "ashole",
+          "en": "actually"
+        },
+        {
+          "bn": "কঠিন",
+          "tr": "kothin",
+          "en": "difficult"
+        },
+        {
+          "bn": "কাজ",
+          "tr": "kaj",
+          "en": "work"
+        },
+        {
           "bn": "করিস",
           "tr": "korish",
           "en": "you do (intimate)"
-        },
-        {
-          "bn": "করো",
-          "tr": "koro",
-          "en": "you do (familiar)"
         }
-      ]
-    },
-    {
-      "id": "e09",
-      "type": "word_bank",
-      "prompt": {
-        "bn": "আমার কাজ খুব কঠিন।",
-        "tr": "amar kaj khub kothin.",
-        "en": "My work is very hard."
-      },
-      "direction": "bn_to_en",
-      "tiles": [
-        "is",
-        "very",
-        "half",
-        "My",
-        "price",
-        "water",
-        "work",
-        "hard"
-      ],
-      "answer": [
-        "My",
-        "work",
-        "is",
-        "very",
-        "hard"
       ]
     },
     {
       "id": "e10",
       "type": "word_bank",
       "prompt": {
-        "bn": "সত্যি?",
-        "tr": "shotti?",
-        "en": "Really?"
+        "bn": "আমার বাবা কাজ করেন।",
+        "tr": "amar baba kaj koren.",
+        "en": "My father works."
       },
       "direction": "en_to_bn",
       "tiles": [
-        "ভালো",
-        "পাঁচশ",
-        "মামা",
-        "সত্যি"
+        "করি",
+        "আমার",
+        "কাজ",
+        "আমি",
+        "করেন",
+        "বাবা",
+        "করো"
       ],
       "answer": [
-        "সত্যি"
+        "আমার",
+        "বাবা",
+        "কাজ",
+        "করেন"
       ]
     },
     {
       "id": "e11",
       "type": "word_bank",
       "prompt": {
-        "bn": "আমি কাজ করি।",
-        "tr": "ami kaj kori.",
-        "en": "I work."
+        "bn": "সে কাজ করে।",
+        "tr": "she kaj kore.",
+        "en": "He works."
       },
       "direction": "bn_to_en",
       "tiles": [
-        "way",
-        "cow's",
+        "works",
+        "They",
+        "He",
         "work",
-        "two",
         "I"
       ],
       "answer": [
-        "I",
-        "work"
+        "He",
+        "works"
       ]
     },
     {
       "id": "e12",
-      "type": "type_translation",
-      "prompt": {
-        "bn": "আমরা কাজ করি।",
-        "tr": "amra kaj kori.",
-        "en": "We work."
-      },
-      "direction": "bn_to_en",
-      "accepted": [
-        "We work."
-      ]
-    },
-    {
-      "id": "e13",
       "type": "word_bank",
       "prompt": {
         "bn": "তুই কী করিস?",
         "tr": "tui ki korish?",
-        "en": "What do you do?"
+        "en": "What do you do? (intimate)"
       },
       "direction": "en_to_bn",
       "tiles": [
-        "করিস",
-        "রাতে",
+        "করো",
         "তুই",
-        "চাই",
-        "সন্ধ্যায়",
-        "কী"
+        "করেন",
+        "কী",
+        "তুমি",
+        "করিস"
       ],
       "answer": [
         "তুই",
         "কী",
         "করিস"
+      ],
+      "alt": [
+        [
+          "কী",
+          "করিস"
+        ]
+      ]
+    },
+    {
+      "id": "e13",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "তুমি কী করো?",
+        "tr": "tumi ki koro?",
+        "en": "What do you do? (familiar)"
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "তুমি কী করো?",
+        "কী করো?",
+        "তুমি কী কর?",
+        "tumi ki koro",
+        "ki koro",
+        "tumi ki kor"
       ]
     },
     {
       "id": "e14",
       "type": "select_translation",
       "prompt": {
-        "bn": "আপনি কী করেন?",
-        "tr": "apni ki koren?",
-        "en": "What do you do?"
+        "bn": "আসলে আমি কাজ করি না।",
+        "tr": "ashole ami kaj kori na.",
+        "en": "Actually, I don't work."
       },
       "direction": "en_to_bn",
       "options": [
-        "আপনি কী করেন?",
-        "তুমি কেমন আছো?",
-        "শেষ দাম কত, ভাই?",
-        "এটা খুব ঝাল।"
+        "আসলে আমি কাজ করে না।",
+        "আসলে আমরা কাজ করি না।",
+        "আসলে আমি না কাজ করি।",
+        "আসলে আমি কাজ করি না।"
       ],
-      "answer": 0
+      "answer": 3
+    },
+    {
+      "id": "e15",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "তারা কাজ করে।",
+        "tr": "tara kaj kore.",
+        "en": "They work."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "আমরা",
+        "কাজ",
+        "করি",
+        "তারা",
+        "করেন",
+        "করে"
+      ],
+      "answer": [
+        "তারা",
+        "কাজ",
+        "করে"
+      ]
     }
   ]
 }

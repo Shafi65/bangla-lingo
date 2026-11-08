@@ -3,7 +3,7 @@
   "unit": "u08-daily-routine",
   "title": "Right now",
   "status": "draft",
-  "tip": "For 'am / is / are doing', add **-ছ-** plus the person ending to the verb stem:\n\n- আমি **করছি** — I am doing\n- তুমি **করছো** — you are doing\n- আপনি **করছেন** — you (polite) are doing\n- সে **করছে** — he/she is doing\n\nWith vowel stems the ছ doubles up as **চ্ছ**: খা- → **খাচ্ছি** 'I'm eating', যা- → **যাচ্ছি** 'I'm going'.\n\n**তুমি কী করছো?** 'What are you doing?' is a common phone opener. A natural answer: **রান্না করছি** 'I'm cooking'.",
+  "tip": "For 'am / is / are doing', add **-ছ-** plus the person ending to the verb stem:\n\n- আমি **করছি** — I am doing\n- তুমি **করছো** — you are doing (familiar)\n- আপনি **করছেন** — you are doing (polite)\n- সে **করছে** — he/she is doing\n\nCompare the simple present: **আমি কাজ করি** 'I work' (in general) vs **আমি কাজ করছি** 'I am working' (right now).\n\nWith vowel stems the ছ doubles up as **চ্ছ**: খা- → **খাচ্ছি** 'I'm eating', যা- → **যাচ্ছি** 'I'm going'.\n\n**তুমি কী করছো?** 'What are you doing?' is a common phone opener. A natural answer: **রান্না করছি** 'I'm cooking' — the আমি can drop, because the ending already says who.",
   "vocab": [
     {
       "id": "korchhi",
@@ -73,15 +73,31 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "has come on (felt)",
-        "(you/he/she, polite) eat",
-        "you get up (polite)",
-        "I am doing"
+        "I do",
+        "I am doing",
+        "is doing",
+        "you are doing (familiar)"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e02",
+      "type": "listen_select",
+      "audio": {
+        "bn": "করছেন",
+        "tr": "korchhen",
+        "en": "you are doing (polite)"
+      },
+      "options": [
+        "করছি",
+        "করছো",
+        "করেন",
+        "করছেন"
       ],
       "answer": 3
     },
     {
-      "id": "e02",
+      "id": "e03",
       "type": "select_translation",
       "prompt": {
         "bn": "করছো",
@@ -91,26 +107,9 @@
       "direction": "bn_to_en",
       "options": [
         "you are doing (familiar)",
-        "will you go (polite)",
-        "are (polite)",
-        "you do (intimate)"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "e03",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "করছেন",
-        "tr": "korchhen",
-        "en": "you are doing (polite)"
-      },
-      "direction": "bn_to_en",
-      "options": [
+        "you do (familiar)",
         "you are doing (polite)",
-        "are (polite)",
-        "I come",
-        "you do (intimate)"
+        "I am doing"
       ],
       "answer": 0
     },
@@ -124,9 +123,9 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "(you, polite) know",
-        "you do (polite)",
-        "I live",
+        "does",
+        "I am doing",
+        "you are doing (polite)",
         "is doing"
       ],
       "answer": 3
@@ -141,27 +140,26 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "are (intimate)",
-        "(I/we) want",
-        "stop (polite)",
-        "is watching"
+        "watches",
+        "is watching",
+        "is doing",
+        "I watch"
       ],
-      "answer": 3
+      "answer": 1
     },
     {
       "id": "e06",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "খাচ্ছি",
         "tr": "khachchhi",
         "en": "I am eating"
       },
-      "direction": "bn_to_en",
       "options": [
-        "listens",
-        "I am doing",
-        "I am eating",
-        "give (familiar)"
+        "খাই",
+        "যাচ্ছি",
+        "খাচ্ছি",
+        "করছি"
       ],
       "answer": 2
     },
@@ -175,93 +173,77 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "is not",
-        "I am going",
-        "(I) know",
-        "give (polite, standard)"
+        "I am eating",
+        "I go",
+        "I am reading",
+        "I am going"
       ],
-      "answer": 1
+      "answer": 3
     },
     {
       "id": "e08",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "রান্না",
+        "tr": "ranna",
+        "en": "cooking"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "cooking",
+        "food",
+        "breakfast",
+        "rice"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e09",
       "type": "match_pairs",
       "pairs": [
+        {
+          "bn": "করছি",
+          "tr": "korchhi",
+          "en": "I am doing"
+        },
+        {
+          "bn": "করছে",
+          "tr": "korchhe",
+          "en": "is doing"
+        },
         {
           "bn": "পড়ছি",
           "tr": "porchhi",
           "en": "I am reading"
         },
         {
-          "bn": "করছো",
-          "tr": "korchho",
-          "en": "you are doing (familiar)"
+          "bn": "যাচ্ছি",
+          "tr": "jachchhi",
+          "en": "I am going"
         },
         {
           "bn": "রান্না",
           "tr": "ranna",
           "en": "cooking"
-        },
-        {
-          "bn": "করছেন",
-          "tr": "korchhen",
-          "en": "you are doing (polite)"
-        },
-        {
-          "bn": "করছি",
-          "tr": "korchhi",
-          "en": "I am doing"
         }
       ]
     },
     {
-      "id": "e09",
-      "type": "word_bank",
-      "prompt": {
-        "bn": "আমি বই পড়ছি।",
-        "tr": "ami boi porchhi.",
-        "en": "I am reading a book."
-      },
-      "direction": "bn_to_en",
-      "tiles": [
-        "am",
-        "banana",
-        "reading",
-        "a",
-        "book",
-        "breakfast",
-        "Rafi",
-        "I"
-      ],
-      "answer": [
-        "I",
-        "am",
-        "reading",
-        "a",
-        "book"
-      ]
-    },
-    {
       "id": "e10",
-      "type": "word_bank",
+      "type": "select_translation",
       "prompt": {
-        "bn": "আমি রান্না করছি।",
-        "tr": "ami ranna korchhi.",
-        "en": "I am cooking."
+        "bn": "আপনি কী করছেন?",
+        "tr": "apni ki korchhen?",
+        "en": "What are you doing? (polite)"
       },
       "direction": "en_to_bn",
-      "tiles": [
-        "উনিশ",
-        "করছি",
-        "পড়ছি",
-        "রান্না",
-        "আমি",
-        "নাদিয়া"
+      "options": [
+        "আপনি কী করছো?",
+        "আপনি কী করেন?",
+        "আপনি কী করছেন?",
+        "তুমি কী করছেন?"
       ],
-      "answer": [
-        "আমি",
-        "রান্না",
-        "করছি"
-      ]
+      "answer": 2
     },
     {
       "id": "e11",
@@ -269,78 +251,142 @@
       "prompt": {
         "bn": "তুমি কী করছো?",
         "tr": "tumi ki korchho?",
-        "en": "What are you doing?"
+        "en": "What are you doing? (familiar)"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "tiles": [
-        "are",
-        "seventeen",
-        "doing",
-        "What",
-        "CNG",
-        "how",
-        "you"
+        "করো",
+        "তুমি",
+        "আপনি",
+        "কী",
+        "করছেন",
+        "করছো"
       ],
       "answer": [
-        "What",
-        "are",
-        "you",
-        "doing"
+        "তুমি",
+        "কী",
+        "করছো"
+      ],
+      "alt": [
+        [
+          "কী",
+          "করছো"
+        ]
       ]
     },
     {
       "id": "e12",
-      "type": "type_translation",
+      "type": "word_bank",
       "prompt": {
-        "bn": "সে টিভি দেখছে।",
-        "tr": "she tibhi dekhchhe.",
-        "en": "He is watching TV."
+        "bn": "আমি এখন ভাত খাচ্ছি।",
+        "tr": "ami ekhon bhat khachchhi.",
+        "en": "I am eating rice now."
       },
-      "direction": "bn_to_en",
-      "accepted": [
-        "He is watching TV.",
-        "She is watching TV."
+      "direction": "en_to_bn",
+      "tiles": [
+        "খাই",
+        "আমি",
+        "খায়",
+        "ভাত",
+        "এখন",
+        "যাচ্ছি",
+        "খাচ্ছি"
+      ],
+      "answer": [
+        "আমি",
+        "এখন",
+        "ভাত",
+        "খাচ্ছি"
+      ],
+      "alt": [
+        [
+          "এখন",
+          "আমি",
+          "ভাত",
+          "খাচ্ছি"
+        ],
+        [
+          "এখন",
+          "ভাত",
+          "খাচ্ছি"
+        ]
       ]
     },
     {
       "id": "e13",
       "type": "word_bank",
       "prompt": {
-        "bn": "আমি অফিসে যাচ্ছি।",
-        "tr": "ami ofise jachchhi.",
-        "en": "I am going to the office."
+        "bn": "সে টিভি দেখছে।",
+        "tr": "she tibhi dekhchhe.",
+        "en": "He is watching TV."
       },
-      "direction": "en_to_bn",
+      "direction": "bn_to_en",
       "tiles": [
-        "আমি",
-        "তিন",
-        "অফিসে",
-        "চাও",
-        "আর",
-        "যাচ্ছি"
+        "watches",
+        "He",
+        "doing",
+        "TV",
+        "is",
+        "I",
+        "watching"
       ],
       "answer": [
-        "আমি",
-        "অফিসে",
-        "যাচ্ছি"
+        "He",
+        "is",
+        "watching",
+        "TV"
       ]
     },
     {
       "id": "e14",
-      "type": "select_translation",
+      "type": "type_translation",
       "prompt": {
-        "bn": "আমি কাজ করছি।",
-        "tr": "ami kaj korchhi.",
-        "en": "I am working."
+        "bn": "আমি বই পড়ছি।",
+        "tr": "ami boi porchhi.",
+        "en": "I am reading a book."
+      },
+      "direction": "bn_to_en",
+      "accepted": [
+        "I am reading a book.",
+        "I'm reading a book.",
+        "I am reading.",
+        "I'm reading.",
+        "I am reading books.",
+        "I'm reading books.",
+        "I am reading the book.",
+        "I'm reading the book.",
+        "I am studying.",
+        "I'm studying."
+      ]
+    },
+    {
+      "id": "e15",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "সে রান্না করছে।",
+        "tr": "she ranna korchhe.",
+        "en": "She is cooking."
       },
       "direction": "en_to_bn",
-      "options": [
-        "সে বই পড়ে।",
-        "আমি কাজ করছি।",
-        "চিনি নেই, সমস্যা নেই।",
-        "স্টেশন ডানে।"
+      "tiles": [
+        "করে",
+        "রান্না",
+        "আমি",
+        "করছে",
+        "সে",
+        "করছি"
       ],
-      "answer": 1
+      "answer": [
+        "সে",
+        "রান্না",
+        "করছে"
+      ],
+      "alt": [
+        [
+          "রান্না",
+          "করছে"
+        ]
+      ]
     }
   ]
 }
