@@ -47,63 +47,15 @@
       "type": "script_recognize",
       "glyph": "ত",
       "options": [
-        "to",
-        "tho",
-        "i",
-        "ko"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "e02",
-      "type": "script_recognize",
-      "glyph": "থ",
-      "options": [
-        "tho",
-        "do",
-        "jho",
-        "cho"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "e03",
-      "type": "script_recognize",
-      "glyph": "দ",
-      "options": [
-        "chho",
-        "ri",
-        "jo",
-        "do"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "e04",
-      "type": "script_recognize",
-      "glyph": "ধ",
-      "options": [
-        "do",
-        "dho",
-        "gho",
-        "go"
+        "to (hard t, tongue curled back)",
+        "to (soft t, tongue on the teeth)",
+        "tho (soft t + puff)",
+        "do (soft d, tongue on the teeth)"
       ],
       "answer": 1
     },
     {
-      "id": "e05",
-      "type": "script_recognize",
-      "glyph": "ন",
-      "options": [
-        "no",
-        "do",
-        "ri",
-        "jho"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "e06",
+      "id": "e02",
       "type": "listen_select",
       "audio": {
         "bn": "ত",
@@ -111,15 +63,27 @@
         "en": "soft t, tongue on the teeth (as in Spanish 'tú')"
       },
       "options": [
-        "ই",
-        "ঊ",
+        "থ",
+        "ক",
         "ত",
-        "ঋ"
+        "দ"
       ],
       "answer": 2
     },
     {
-      "id": "e07",
+      "id": "e03",
+      "type": "script_recognize",
+      "glyph": "থ",
+      "options": [
+        "tho (soft t + puff)",
+        "tho (hard t + puff)",
+        "to (soft t, tongue on the teeth)",
+        "dho (soft d + breathy puff)"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e04",
       "type": "listen_select",
       "audio": {
         "bn": "থ",
@@ -127,31 +91,39 @@
         "en": "soft t with a puff of air (not English 'th')"
       },
       "options": [
-        "দ",
-        "চ",
+        "খ",
         "থ",
-        "ঋ"
+        "ধ",
+        "ত"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e05",
+      "type": "script_recognize",
+      "glyph": "দ",
+      "options": [
+        "do (hard d, tongue curled back)",
+        "dho (soft d + breathy puff)",
+        "to (soft t, tongue on the teeth)",
+        "do (soft d, tongue on the teeth)"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e06",
+      "type": "script_recognize",
+      "glyph": "ধ",
+      "options": [
+        "do (soft d, tongue on the teeth)",
+        "gho (g + breathy puff)",
+        "dho (soft d + breathy puff)",
+        "dho (hard d + breathy puff)"
       ],
       "answer": 2
     },
     {
-      "id": "e08",
-      "type": "listen_select",
-      "audio": {
-        "bn": "দ",
-        "tr": "do",
-        "en": "soft d, tongue on the teeth"
-      },
-      "options": [
-        "দ",
-        "চ",
-        "খ",
-        "ঢ"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "e09",
+      "id": "e07",
       "type": "listen_select",
       "audio": {
         "bn": "ধ",
@@ -159,15 +131,27 @@
         "en": "soft d with a breathy puff"
       },
       "options": [
-        "খ",
-        "ঙ",
         "ধ",
-        "ই"
+        "দ",
+        "ঘ",
+        "থ"
       ],
-      "answer": 2
+      "answer": 0
     },
     {
-      "id": "e10",
+      "id": "e08",
+      "type": "script_recognize",
+      "glyph": "ন",
+      "options": [
+        "ng (as in 'sing')",
+        "no (n as in 'no')",
+        "do (soft d, tongue on the teeth)",
+        "to (soft t, tongue on the teeth)"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e09",
       "type": "listen_select",
       "audio": {
         "bn": "ন",
@@ -175,27 +159,100 @@
         "en": "n as in 'no'"
       },
       "options": [
-        "ঢ",
         "ত",
-        "ছ",
+        "দ",
+        "ঙ",
         "ন"
       ],
       "answer": 3
     },
     {
+      "id": "e10",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ধন্যবাদ",
+        "tr": "dhonnobad",
+        "en": "thank you"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "country",
+        "name",
+        "thank you",
+        "from"
+      ],
+      "answer": 2
+    },
+    {
       "id": "e11",
+      "type": "listen_select",
+      "audio": {
+        "bn": "ধন্যবাদ",
+        "tr": "dhonnobad",
+        "en": "thank you"
+      },
+      "options": [
+        "দেশ",
+        "ধন্যবাদ",
+        "থেকে",
+        "তিনি"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e12",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "দেশ",
+        "tr": "desh",
+        "en": "country"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "তুমি",
+        "থেকে",
+        "না",
+        "দেশ"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e13",
+      "type": "listen_select",
+      "audio": {
+        "bn": "নাম",
+        "tr": "nam",
+        "en": "name"
+      },
+      "options": [
+        "নাম",
+        "না",
+        "তিনি",
+        "থেকে"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e14",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "তিনি",
+        "tr": "tini",
+        "en": "he/she (polite)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "you (familiar)",
+        "he/she (polite)",
+        "no",
+        "from"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e15",
       "type": "match_pairs",
       "pairs": [
-        {
-          "bn": "ন",
-          "tr": "no",
-          "en": "n as in 'no'"
-        },
-        {
-          "bn": "থ",
-          "tr": "tho",
-          "en": "soft t with a puff of air (not English 'th')"
-        },
         {
           "bn": "ত",
           "tr": "to",
@@ -207,9 +264,19 @@
           "en": "soft d, tongue on the teeth"
         },
         {
-          "bn": "ধ",
-          "tr": "dho",
-          "en": "soft d with a breathy puff"
+          "bn": "ট",
+          "tr": "to",
+          "en": "hard t, tongue curled back (like English 't' in 'top')"
+        },
+        {
+          "bn": "ড",
+          "tr": "do",
+          "en": "hard d, tongue curled back (like English 'd' in 'dog')"
+        },
+        {
+          "bn": "নাম",
+          "tr": "nam",
+          "en": "name"
         }
       ]
     }

@@ -69,31 +69,14 @@
       "direction": "bn_to_en",
       "options": [
         "how",
-        "very",
-        "there",
-        "where"
+        "who",
+        "where",
+        "here"
       ],
-      "answer": 3
+      "answer": 2
     },
     {
       "id": "e02",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "কোথা",
-        "tr": "kotha",
-        "en": "where (before থেকে)"
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "here",
-        "where (before থেকে)",
-        "very",
-        "how"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "e03",
       "type": "select_translation",
       "prompt": {
         "bn": "থেকে",
@@ -103,14 +86,14 @@
       "direction": "bn_to_en",
       "options": [
         "from",
-        "hello (in reply)",
-        "what",
-        "you (polite)"
+        "here",
+        "there",
+        "where"
       ],
       "answer": 0
     },
     {
-      "id": "e04",
+      "id": "e03",
       "type": "select_translation",
       "prompt": {
         "bn": "এসেছি",
@@ -119,15 +102,15 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "are not (familiar)",
-        "(I) have come",
-        "is not / are not (polite)",
-        "are (polite)"
+        "(you, polite) have come",
+        "am",
+        "are (polite)",
+        "(I) have come"
       ],
-      "answer": 1
+      "answer": 3
     },
     {
-      "id": "e05",
+      "id": "e04",
       "type": "select_translation",
       "prompt": {
         "bn": "এসেছেন",
@@ -136,15 +119,15 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "am",
-        "is not / are not (polite)",
-        "are (intimate)",
-        "(you, polite) have come"
+        "(I) have come",
+        "(you, polite) have come",
+        "are (polite)",
+        "from"
       ],
-      "answer": 3
+      "answer": 1
     },
     {
-      "id": "e06",
+      "id": "e05",
       "type": "select_translation",
       "prompt": {
         "bn": "দেশ",
@@ -153,15 +136,15 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "boy",
         "person",
+        "name",
         "country",
-        "student (female)"
+        "friend"
       ],
       "answer": 2
     },
     {
-      "id": "e07",
+      "id": "e06",
       "type": "listen_select",
       "audio": {
         "bn": "কোথায়",
@@ -169,31 +152,21 @@
         "en": "where"
       },
       "options": [
+        "কোথায়",
         "কেমন",
-        "এখানে",
-        "খুব",
-        "কোথায়"
+        "কোথা",
+        "ওখানে"
       ],
-      "answer": 3
+      "answer": 0
     },
     {
-      "id": "e08",
+      "id": "e07",
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "এসেছি",
-          "tr": "eshechhi",
-          "en": "(I) have come"
-        },
-        {
-          "bn": "এসেছেন",
-          "tr": "eshechhen",
-          "en": "(you, polite) have come"
-        },
-        {
-          "bn": "দেশ",
-          "tr": "desh",
-          "en": "country"
+          "bn": "কোথা",
+          "tr": "kotha",
+          "en": "where (before থেকে)"
         },
         {
           "bn": "থেকে",
@@ -201,14 +174,24 @@
           "en": "from"
         },
         {
-          "bn": "কোথায়",
-          "tr": "kothay",
-          "en": "where"
+          "bn": "দেশ",
+          "tr": "desh",
+          "en": "country"
+        },
+        {
+          "bn": "বাংলাদেশ",
+          "tr": "bangladesh",
+          "en": "Bangladesh"
+        },
+        {
+          "bn": "আমেরিকা",
+          "tr": "amerika",
+          "en": "America"
         }
       ]
     },
     {
-      "id": "e09",
+      "id": "e08",
       "type": "word_bank",
       "prompt": {
         "bn": "আমি আমেরিকা থেকে এসেছি।",
@@ -217,13 +200,13 @@
       },
       "direction": "bn_to_en",
       "tiles": [
-        "what",
-        "from",
-        "country",
-        "am",
         "I",
+        "am",
+        "are",
+        "from",
         "America",
-        "My"
+        "Bangladesh",
+        "my"
       ],
       "answer": [
         "I",
@@ -233,7 +216,48 @@
       ]
     },
     {
+      "id": "e09",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমি বাংলাদেশ থেকে এসেছি।",
+        "tr": "ami bangladesh theke eshechhi.",
+        "en": "I am from Bangladesh."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "আমি",
+        "আমার",
+        "বাংলাদেশ",
+        "থেকে",
+        "এসেছি",
+        "এসেছেন"
+      ],
+      "answer": [
+        "আমি",
+        "বাংলাদেশ",
+        "থেকে",
+        "এসেছি"
+      ]
+    },
+    {
       "id": "e10",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আপনি কোথা থেকে এসেছেন?",
+        "tr": "apni kotha theke eshechhen?",
+        "en": "Where are you from? (polite)"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "আপনি কোথা থেকে এসেছি?",
+        "আপনি থেকে কোথা এসেছেন?",
+        "আপনি কোথা থেকে এসেছেন?",
+        "তুমি কোথা থেকে এসেছেন?"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e11",
       "type": "word_bank",
       "prompt": {
         "bn": "রাফি কোথায়?",
@@ -242,11 +266,11 @@
       },
       "direction": "en_to_bn",
       "tiles": [
-        "থেকে",
         "রাফি",
         "কোথায়",
-        "আছিস",
-        "আমার"
+        "কোথা",
+        "থেকে",
+        "এখানে"
       ],
       "answer": [
         "রাফি",
@@ -254,7 +278,7 @@
       ]
     },
     {
-      "id": "e11",
+      "id": "e12",
       "type": "word_bank",
       "prompt": {
         "bn": "ডাক্তার কোথায়?",
@@ -263,13 +287,13 @@
       },
       "direction": "bn_to_en",
       "tiles": [
-        "the",
-        "is",
-        "we",
-        "very",
         "Where",
+        "is",
+        "the",
         "doctor",
-        "name"
+        "from",
+        "here",
+        "friend"
       ],
       "answer": [
         "Where",
@@ -279,59 +303,43 @@
       ]
     },
     {
-      "id": "e12",
+      "id": "e13",
       "type": "type_translation",
       "prompt": {
-        "bn": "আমি বাংলাদেশ থেকে এসেছি।",
-        "tr": "ami bangladesh theke eshechhi.",
-        "en": "I am from Bangladesh."
+        "bn": "আমার দেশ বাংলাদেশ।",
+        "tr": "amar desh bangladesh.",
+        "en": "My country is Bangladesh."
       },
       "direction": "bn_to_en",
       "accepted": [
-        "I am from Bangladesh.",
-        "I have come from Bangladesh.",
-        "I'm from Bangladesh."
-      ]
-    },
-    {
-      "id": "e13",
-      "type": "word_bank",
-      "prompt": {
-        "bn": "আপনার দেশ কোথায়?",
-        "tr": "apnar desh kothay?",
-        "en": "Where is your country?"
-      },
-      "direction": "en_to_bn",
-      "tiles": [
-        "শিক্ষক",
-        "দেশ",
-        "কোথায়",
-        "আপনার",
-        "ছাত্র",
-        "ওটা"
-      ],
-      "answer": [
-        "আপনার",
-        "দেশ",
-        "কোথায়"
+        "My country is Bangladesh.",
+        "Bangladesh is my country.",
+        "My home country is Bangladesh.",
+        "My homeland is Bangladesh."
       ]
     },
     {
       "id": "e14",
-      "type": "select_translation",
+      "type": "word_bank",
       "prompt": {
-        "bn": "আপনি কোথা থেকে এসেছেন?",
-        "tr": "apni kotha theke eshechhen?",
-        "en": "Where are you from?"
+        "bn": "তোমার বন্ধু কোথায়?",
+        "tr": "tomar bondhu kothay?",
+        "en": "Where is your friend?"
       },
       "direction": "en_to_bn",
-      "options": [
-        "ওটা কি আম?",
-        "আমি ছাত্রী, আমার নাম নাদিয়া।",
-        "উনি আমার শিক্ষক।",
-        "আপনি কোথা থেকে এসেছেন?"
+      "tiles": [
+        "তোমার",
+        "আমার",
+        "বন্ধু",
+        "কোথায়",
+        "কোথা",
+        "থেকে"
       ],
-      "answer": 3
+      "answer": [
+        "তোমার",
+        "বন্ধু",
+        "কোথায়"
+      ]
     }
   ]
 }

@@ -72,8 +72,8 @@
       "options": [
         "they",
         "we",
-        "your (polite)",
-        "your (familiar)"
+        "you (familiar, plural)",
+        "you (polite, plural)"
       ],
       "answer": 1
     },
@@ -87,12 +87,12 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "you (familiar, plural)",
-        "I",
-        "he/she (polite, spoken)",
-        "my"
+        "you (polite, plural)",
+        "they",
+        "we",
+        "you (familiar, plural)"
       ],
-      "answer": 0
+      "answer": 3
     },
     {
       "id": "e03",
@@ -104,12 +104,12 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "I",
-        "your (familiar)",
-        "he/she",
-        "you (polite, plural)"
+        "you (polite, plural)",
+        "you (polite)",
+        "you (familiar, plural)",
+        "we"
       ],
-      "answer": 3
+      "answer": 0
     },
     {
       "id": "e04",
@@ -121,27 +121,26 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "my",
         "we",
+        "he/she",
         "they",
-        "he/she (spoken)"
+        "you (familiar, plural)"
       ],
       "answer": 2
     },
     {
       "id": "e05",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "ওরা",
         "tr": "ora",
         "en": "they (spoken)"
       },
-      "direction": "bn_to_en",
       "options": [
-        "I",
-        "they (spoken)",
-        "he/she (spoken)",
-        "you (familiar)"
+        "ও",
+        "ওরা",
+        "তারা",
+        "আমরা"
       ],
       "answer": 1
     },
@@ -155,10 +154,10 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "name",
+        "girl",
         "boy",
         "person",
-        "teacher"
+        "friend"
       ],
       "answer": 1
     },
@@ -172,9 +171,9 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "teacher",
-        "friend",
+        "boy",
         "student (female)",
+        "friend",
         "girl"
       ],
       "answer": 3
@@ -184,9 +183,9 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "আপনারা",
-          "tr": "apnara",
-          "en": "you (polite, plural)"
+          "bn": "আমরা",
+          "tr": "amra",
+          "en": "we"
         },
         {
           "bn": "তোমরা",
@@ -194,14 +193,14 @@
           "en": "you (familiar, plural)"
         },
         {
-          "bn": "আমরা",
-          "tr": "amra",
-          "en": "we"
+          "bn": "আপনারা",
+          "tr": "apnara",
+          "en": "you (polite, plural)"
         },
         {
-          "bn": "তারা",
-          "tr": "tara",
-          "en": "they"
+          "bn": "ওরা",
+          "tr": "ora",
+          "en": "they (spoken)"
         },
         {
           "bn": "মানুষ",
@@ -220,12 +219,12 @@
       },
       "direction": "bn_to_en",
       "tiles": [
-        "doctor",
-        "are",
-        "what",
-        "students",
         "We",
-        "my"
+        "They",
+        "are",
+        "is",
+        "students",
+        "student"
       ],
       "answer": [
         "We",
@@ -243,12 +242,12 @@
       },
       "direction": "en_to_bn",
       "tiles": [
-        "তুমি",
-        "নাদিয়া",
+        "ওরা",
+        "আমরা",
         "ভালো",
         "মানুষ",
-        "নাম",
-        "ওরা"
+        "ছেলে",
+        "খুব"
       ],
       "answer": [
         "ওরা",
@@ -266,15 +265,14 @@
       },
       "direction": "bn_to_en",
       "tiles": [
-        "is",
-        "how",
-        "girl",
-        "good",
-        "friend",
-        "Rafi",
-        "very",
         "She",
-        "a"
+        "is",
+        "are",
+        "a",
+        "very",
+        "good",
+        "girl",
+        "boy"
       ],
       "answer": [
         "She",
@@ -287,6 +285,46 @@
     },
     {
       "id": "e12",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমরা ভালো আছি।",
+        "tr": "amra bhalo achhi.",
+        "en": "We are well."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "আমরা",
+        "তারা",
+        "ভালো",
+        "আছি",
+        "আছে",
+        "আছেন"
+      ],
+      "answer": [
+        "আমরা",
+        "ভালো",
+        "আছি"
+      ]
+    },
+    {
+      "id": "e13",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আপনারা কেমন আছেন?",
+        "tr": "apnara kemon achhen?",
+        "en": "How are you all? (polite)"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "তোমরা কেমন আছো?",
+        "আপনারা কেমন আছেন?",
+        "আপনারা কেমন আছো?",
+        "আপনি কেমন আছেন?"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e14",
       "type": "type_translation",
       "prompt": {
         "bn": "তোমরা কেমন আছো?",
@@ -297,48 +335,35 @@
       "accepted": [
         "How are you all?",
         "How are you guys?",
-        "How are you?"
+        "How are you?",
+        "How are you all doing?",
+        "How are you guys doing?",
+        "How're you all?",
+        "How're you guys?"
       ]
     },
     {
-      "id": "e13",
+      "id": "e15",
       "type": "word_bank",
-      "prompt": {
-        "bn": "আপনারা কেমন আছেন?",
-        "tr": "apnara kemon achhen?",
-        "en": "How are you all?"
-      },
-      "direction": "en_to_bn",
-      "tiles": [
-        "কেমন",
-        "আপনারা",
-        "শিক্ষক",
-        "ছেলে",
-        "আছেন",
-        "আছো"
-      ],
-      "answer": [
-        "আপনারা",
-        "কেমন",
-        "আছেন"
-      ]
-    },
-    {
-      "id": "e14",
-      "type": "select_translation",
       "prompt": {
         "bn": "তারা আমার বন্ধু।",
         "tr": "tara amar bondhu.",
         "en": "They are my friends."
       },
       "direction": "en_to_bn",
-      "options": [
-        "আপনি কেমন আছেন?",
-        "তারা আমার বন্ধু।",
-        "খুব ভালো।",
-        "না, ধন্যবাদ।"
+      "tiles": [
+        "তারা",
+        "আমরা",
+        "আমার",
+        "তোমার",
+        "বন্ধু",
+        "আছে"
       ],
-      "answer": 1
+      "answer": [
+        "তারা",
+        "আমার",
+        "বন্ধু"
+      ]
     }
   ]
 }

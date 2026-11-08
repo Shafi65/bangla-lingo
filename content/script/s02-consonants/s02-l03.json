@@ -54,63 +54,111 @@
       "type": "script_recognize",
       "glyph": "ট",
       "options": [
-        "chho",
-        "o",
-        "tho",
-        "to"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "e02",
-      "type": "script_recognize",
-      "glyph": "ঠ",
-      "options": [
-        "ri",
-        "tho",
-        "o",
-        "kho"
+        "tho (hard t + puff)",
+        "to (hard t, tongue curled back)",
+        "do (hard d, tongue curled back)",
+        "cho (ch, no puff)"
       ],
       "answer": 1
     },
     {
-      "id": "e03",
-      "type": "script_recognize",
-      "glyph": "ড",
+      "id": "e02",
+      "type": "listen_select",
+      "audio": {
+        "bn": "ট",
+        "tr": "to",
+        "en": "hard t, tongue curled back (like English 't' in 'top')"
+      },
       "options": [
-        "do",
-        "ko",
-        "go",
-        "n"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "e04",
-      "type": "script_recognize",
-      "glyph": "ঢ",
-      "options": [
-        "gho",
-        "i",
-        "a",
-        "dho"
+        "ঠ",
+        "ড",
+        "চ",
+        "ট"
       ],
       "answer": 3
     },
     {
-      "id": "e05",
+      "id": "e03",
       "type": "script_recognize",
-      "glyph": "ণ",
+      "glyph": "ঠ",
       "options": [
-        "n",
-        "to",
-        "dho",
-        "chho"
+        "to (hard t, tongue curled back)",
+        "do (hard d, tongue curled back)",
+        "chho (ch + strong puff)",
+        "tho (hard t + puff)"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e04",
+      "type": "listen_select",
+      "audio": {
+        "bn": "ঠ",
+        "tr": "tho",
+        "en": "hard t with a puff of air (not English 'th')"
+      },
+      "options": [
+        "ঠ",
+        "ট",
+        "ঢ",
+        "ছ"
       ],
       "answer": 0
     },
     {
+      "id": "e05",
+      "type": "script_recognize",
+      "glyph": "ড",
+      "options": [
+        "u (as in 'food')",
+        "dho (hard d + breathy puff)",
+        "do (hard d, tongue curled back)",
+        "to (hard t, tongue curled back)"
+      ],
+      "answer": 2
+    },
+    {
       "id": "e06",
+      "type": "listen_select",
+      "audio": {
+        "bn": "ড",
+        "tr": "do",
+        "en": "hard d, tongue curled back (like English 'd' in 'dog')"
+      },
+      "options": [
+        "উ",
+        "ড",
+        "ঢ",
+        "ট"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e07",
+      "type": "script_recognize",
+      "glyph": "ঢ",
+      "options": [
+        "dho (hard d + breathy puff)",
+        "do (hard d, tongue curled back)",
+        "gho (g + breathy puff)",
+        "jho (j + breathy puff)"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e08",
+      "type": "script_recognize",
+      "glyph": "ণ",
+      "options": [
+        "ng (as in 'sing')",
+        "n (as in 'no')",
+        "to (hard t, tongue curled back)",
+        "do (hard d, tongue curled back)"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e09",
       "type": "select_translation",
       "prompt": {
         "bn": "ঢোল",
@@ -119,15 +167,31 @@
       },
       "direction": "bn_to_en",
       "options": [
+        "lentils",
+        "taka",
         "drum (traditional)",
-        "dawn",
-        "eagle",
-        "heritage / tradition"
+        "Dhaka"
       ],
-      "answer": 0
+      "answer": 2
     },
     {
-      "id": "e07",
+      "id": "e10",
+      "type": "listen_select",
+      "audio": {
+        "bn": "ঢাকা",
+        "tr": "dhaka",
+        "en": "Dhaka"
+      },
+      "options": [
+        "টাকা",
+        "ঢাকা",
+        "ঢোল",
+        "ডাল"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e11",
       "type": "select_translation",
       "prompt": {
         "bn": "টাকা",
@@ -136,15 +200,32 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "taka",
-        "name",
-        "mango",
-        "student (female)"
+        "Dhaka",
+        "doctor",
+        "salt",
+        "taka"
       ],
-      "answer": 0
+      "answer": 3
     },
     {
-      "id": "e08",
+      "id": "e12",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ডাল",
+        "tr": "dal",
+        "en": "lentils"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "ঢোল",
+        "ডাল",
+        "টাকা",
+        "লবণ"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e13",
       "type": "select_translation",
       "prompt": {
         "bn": "ঠিক আছে",
@@ -153,140 +234,57 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "thank you",
         "OK",
-        "hello (Hindu greeting)",
-        "see you again"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "e09",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "ডাল",
-        "tr": "dal",
-        "en": "lentils"
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "python (snake)",
-        "sage (wise holy man)",
-        "lentils",
-        "salt"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "e10",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "ঢাকা",
-        "tr": "dhaka",
-        "en": "Dhaka"
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "Nadia",
-        "America",
-        "Rafi",
+        "salt",
+        "doctor",
         "Dhaka"
       ],
-      "answer": 3
-    },
-    {
-      "id": "e11",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "লবণ",
-        "tr": "lobon",
-        "en": "salt"
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "season",
-        "lawyer",
-        "salt",
-        "many / a lot"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "e12",
-      "type": "listen_select",
-      "audio": {
-        "bn": "ট",
-        "tr": "to",
-        "en": "hard t, tongue curled back (like English 't' in 'top')"
-      },
-      "options": [
-        "ট",
-        "ই",
-        "ঊ",
-        "ঔ"
-      ],
       "answer": 0
-    },
-    {
-      "id": "e13",
-      "type": "listen_select",
-      "audio": {
-        "bn": "ঠ",
-        "tr": "tho",
-        "en": "hard t with a puff of air (not English 'th')"
-      },
-      "options": [
-        "ঊ",
-        "ঈ",
-        "ঠ",
-        "এ"
-      ],
-      "answer": 2
     },
     {
       "id": "e14",
       "type": "listen_select",
       "audio": {
-        "bn": "ড",
-        "tr": "do",
-        "en": "hard d, tongue curled back (like English 'd' in 'dog')"
+        "bn": "লবণ",
+        "tr": "lobon",
+        "en": "salt"
       },
       "options": [
-        "গ",
-        "ক",
-        "ঈ",
-        "ড"
+        "ঢোল",
+        "ডাক্তার",
+        "লবণ",
+        "টাকা"
       ],
-      "answer": 3
+      "answer": 2
     },
     {
       "id": "e15",
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "ট",
-          "tr": "to",
-          "en": "hard t, tongue curled back (like English 't' in 'top')"
-        },
-        {
-          "bn": "ণ",
-          "tr": "n",
-          "en": "n (same sound as ন; 'retroflex n' letter)"
-        },
-        {
-          "bn": "ঠ",
-          "tr": "tho",
-          "en": "hard t with a puff of air (not English 'th')"
-        },
-        {
           "bn": "ঢ",
           "tr": "dho",
           "en": "hard d with a breathy puff"
         },
         {
+          "bn": "ণ",
+          "tr": "n",
+          "en": "n ('retroflex n' letter)"
+        },
+        {
           "bn": "ঢোল",
           "tr": "dhol",
           "en": "drum (traditional)"
+        },
+        {
+          "bn": "ঠিক আছে",
+          "tr": "thik achhe",
+          "en": "OK"
+        },
+        {
+          "bn": "ঢাকা",
+          "tr": "dhaka",
+          "en": "Dhaka"
         }
       ]
     }

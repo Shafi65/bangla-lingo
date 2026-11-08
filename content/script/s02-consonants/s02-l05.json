@@ -47,97 +47,15 @@
       "type": "script_recognize",
       "glyph": "প",
       "options": [
-        "po",
-        "o",
-        "gho",
-        "u"
+        "fo (f, or a puffed p)",
+        "po (p, no puff)",
+        "bo (b as in 'bat')",
+        "bho (breathy b, close to 'v')"
       ],
-      "answer": 0
+      "answer": 1
     },
     {
       "id": "e02",
-      "type": "script_recognize",
-      "glyph": "ফ",
-      "options": [
-        "o",
-        "fo",
-        "e",
-        "no"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "e03",
-      "type": "script_recognize",
-      "glyph": "ব",
-      "options": [
-        "cho",
-        "oi",
-        "ng",
-        "bo"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "e04",
-      "type": "script_recognize",
-      "glyph": "ভ",
-      "options": [
-        "o",
-        "bho",
-        "chho",
-        "fo"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "e05",
-      "type": "script_recognize",
-      "glyph": "ম",
-      "options": [
-        "fo",
-        "ri",
-        "o",
-        "mo"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "e06",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "পানি",
-        "tr": "pani",
-        "en": "water"
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "Eid",
-        "doctor",
-        "sky",
-        "water"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "e07",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "ফল",
-        "tr": "fol",
-        "en": "fruit"
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "season",
-        "one",
-        "teacher",
-        "fruit"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "e08",
       "type": "listen_select",
       "audio": {
         "bn": "প",
@@ -145,31 +63,39 @@
         "en": "p as in 'spin' (no puff)"
       },
       "options": [
-        "চ",
-        "ঠ",
         "প",
-        "ট"
+        "ফ",
+        "ব",
+        "গ"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e03",
+      "type": "script_recognize",
+      "glyph": "ফ",
+      "options": [
+        "po (p, no puff)",
+        "bho (breathy b, close to 'v')",
+        "fo (f, or a puffed p)",
+        "tho (soft t + puff)"
       ],
       "answer": 2
     },
     {
-      "id": "e09",
-      "type": "listen_select",
-      "audio": {
-        "bn": "ফ",
-        "tr": "fo",
-        "en": "f, or a puffed p (between 'ph' and 'f')"
-      },
+      "id": "e04",
+      "type": "script_recognize",
+      "glyph": "ব",
       "options": [
-        "ক",
-        "আ",
-        "প",
-        "ফ"
+        "bho (breathy b, close to 'v')",
+        "dho (soft d + breathy puff)",
+        "mo (m as in 'mother')",
+        "bo (b as in 'bat')"
       ],
       "answer": 3
     },
     {
-      "id": "e10",
+      "id": "e05",
       "type": "listen_select",
       "audio": {
         "bn": "ব",
@@ -179,13 +105,25 @@
       "options": [
         "ধ",
         "ব",
-        "দ",
-        "ঠ"
+        "ভ",
+        "প"
       ],
       "answer": 1
     },
     {
-      "id": "e11",
+      "id": "e06",
+      "type": "script_recognize",
+      "glyph": "ভ",
+      "options": [
+        "bho (breathy b, close to 'v')",
+        "bo (b as in 'bat')",
+        "to (soft t, tongue on the teeth)",
+        "po (p, no puff)"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e07",
       "type": "listen_select",
       "audio": {
         "bn": "ভ",
@@ -193,15 +131,27 @@
         "en": "bh: breathy b, often close to 'v'"
       },
       "options": [
-        "ম",
-        "ঝ",
         "ত",
+        "ব",
+        "ম",
         "ভ"
       ],
       "answer": 3
     },
     {
-      "id": "e12",
+      "id": "e08",
+      "type": "script_recognize",
+      "glyph": "ম",
+      "options": [
+        "po (p, no puff)",
+        "no (n as in 'no')",
+        "mo (m as in 'mother')",
+        "bo (b as in 'bat')"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e09",
       "type": "listen_select",
       "audio": {
         "bn": "ম",
@@ -209,31 +159,32 @@
         "en": "m as in 'mother'"
       },
       "options": [
+        "ভ",
+        "ন",
         "ম",
-        "ধ",
-        "ঐ",
-        "ঞ"
+        "প"
       ],
-      "answer": 0
+      "answer": 2
     },
     {
-      "id": "e13",
-      "type": "listen_select",
-      "audio": {
+      "id": "e10",
+      "type": "select_translation",
+      "prompt": {
         "bn": "পানি",
         "tr": "pani",
         "en": "water"
       },
+      "direction": "bn_to_en",
       "options": [
-        "ওষুধ",
-        "পানি",
-        "ছাত্রী",
-        "ঝড়"
+        "water",
+        "fruit",
+        "friend",
+        "person"
       ],
-      "answer": 1
+      "answer": 0
     },
     {
-      "id": "e14",
+      "id": "e11",
       "type": "listen_select",
       "audio": {
         "bn": "ফল",
@@ -241,27 +192,67 @@
         "en": "fruit"
       },
       "options": [
-        "ঢোল",
+        "পানি",
+        "বাংলা",
         "ফল",
-        "অনেক",
-        "ঔষধ"
+        "ভালো"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e12",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "বন্ধু",
+        "tr": "bondhu",
+        "en": "friend"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "ভালো",
+        "বন্ধু",
+        "মানুষ",
+        "পানি"
       ],
       "answer": 1
+    },
+    {
+      "id": "e13",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ভালো",
+        "tr": "bhalo",
+        "en": "good, well"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "Bengali (language)",
+        "friend",
+        "water",
+        "good, well"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e14",
+      "type": "listen_select",
+      "audio": {
+        "bn": "মানুষ",
+        "tr": "manush",
+        "en": "person"
+      },
+      "options": [
+        "মানুষ",
+        "বন্ধু",
+        "বাংলা",
+        "ফল"
+      ],
+      "answer": 0
     },
     {
       "id": "e15",
       "type": "match_pairs",
       "pairs": [
-        {
-          "bn": "ম",
-          "tr": "mo",
-          "en": "m as in 'mother'"
-        },
-        {
-          "bn": "ব",
-          "tr": "bo",
-          "en": "b as in 'bat'"
-        },
         {
           "bn": "প",
           "tr": "po",
@@ -276,6 +267,16 @@
           "bn": "ভ",
           "tr": "bho",
           "en": "bh: breathy b, often close to 'v'"
+        },
+        {
+          "bn": "বাংলা",
+          "tr": "bangla",
+          "en": "Bengali (language)"
+        },
+        {
+          "bn": "পানি",
+          "tr": "pani",
+          "en": "water"
         }
       ]
     }

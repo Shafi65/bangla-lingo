@@ -60,63 +60,127 @@
       "type": "script_recognize",
       "glyph": "চ",
       "options": [
-        "cho",
-        "u",
-        "gho",
-        "a"
+        "chho (ch + strong puff)",
+        "cho (ch, no puff)",
+        "jo (j as in 'jam')",
+        "ko (k, no puff)"
       ],
-      "answer": 0
+      "answer": 1
     },
     {
       "id": "e02",
-      "type": "script_recognize",
-      "glyph": "ছ",
+      "type": "listen_select",
+      "audio": {
+        "bn": "ছ",
+        "tr": "chho",
+        "en": "chh: ch with a strong puff of air"
+      },
       "options": [
-        "jho",
-        "a",
-        "chho",
-        "oi"
+        "ছ",
+        "চ",
+        "খ",
+        "ঝ"
       ],
-      "answer": 2
+      "answer": 0
     },
     {
       "id": "e03",
       "type": "script_recognize",
-      "glyph": "জ",
+      "glyph": "ছ",
       "options": [
-        "jo",
-        "o",
-        "a",
-        "ng"
+        "jho (j + breathy puff)",
+        "cho (ch, no puff)",
+        "kho (k + puff of air)",
+        "chho (ch + strong puff)"
       ],
-      "answer": 0
+      "answer": 3
     },
     {
       "id": "e04",
-      "type": "script_recognize",
-      "glyph": "ঝ",
+      "type": "listen_select",
+      "audio": {
+        "bn": "চ",
+        "tr": "cho",
+        "en": "ch as in 'church' (no puff)"
+      },
       "options": [
-        "ng",
-        "cho",
-        "jho",
-        "o"
+        "ছ",
+        "জ",
+        "চ",
+        "ক"
       ],
       "answer": 2
     },
     {
       "id": "e05",
       "type": "script_recognize",
-      "glyph": "ঞ",
+      "glyph": "জ",
       "options": [
-        "n",
-        "oi",
-        "chho",
-        "e"
+        "jo (j as in 'jam')",
+        "jho (j + breathy puff)",
+        "go (g as in 'go')",
+        "cho (ch, no puff)"
       ],
       "answer": 0
     },
     {
       "id": "e06",
+      "type": "listen_select",
+      "audio": {
+        "bn": "জ",
+        "tr": "jo",
+        "en": "j as in 'jam'"
+      },
+      "options": [
+        "ঝ",
+        "গ",
+        "চ",
+        "জ"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e07",
+      "type": "script_recognize",
+      "glyph": "ঝ",
+      "options": [
+        "jo (j as in 'jam')",
+        "chho (ch + strong puff)",
+        "jho (j + breathy puff)",
+        "gho (g + breathy puff)"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e08",
+      "type": "listen_select",
+      "audio": {
+        "bn": "ঝ",
+        "tr": "jho",
+        "en": "jh: j with a breathy puff"
+      },
+      "options": [
+        "জ",
+        "ঝ",
+        "ঘ",
+        "ছ"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e09",
+      "type": "script_recognize",
+      "glyph": "ঞ",
+      "options": [
+        "cho (ch, no puff)",
+        "n (nasal, mostly inside conjuncts)",
+        "ng (as in 'sing')",
+        "jo (j as in 'jam')"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e10",
       "type": "select_translation",
       "prompt": {
         "bn": "চোখ",
@@ -125,49 +189,48 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "heritage / tradition",
-        "eye",
-        "brick",
-        "one"
+        "storm",
+        "tea",
+        "tree",
+        "eye"
       ],
-      "answer": 1
+      "answer": 3
     },
     {
-      "id": "e07",
-      "type": "select_translation",
-      "prompt": {
+      "id": "e11",
+      "type": "listen_select",
+      "audio": {
         "bn": "ঝড়",
         "tr": "jhor",
         "en": "storm"
       },
-      "direction": "bn_to_en",
       "options": [
-        "boy",
-        "storm",
-        "medicine",
-        "one"
+        "ঝাল",
+        "চোখ",
+        "ঝড়",
+        "ছাত্র"
       ],
-      "answer": 1
+      "answer": 2
     },
     {
-      "id": "e08",
+      "id": "e12",
       "type": "select_translation",
       "prompt": {
         "bn": "চা",
         "tr": "cha",
         "en": "tea"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "tea",
-        "storm",
-        "medicine (formal)",
-        "Eid"
+        "চোখ",
+        "জি",
+        "ঝাল",
+        "চা"
       ],
-      "answer": 0
+      "answer": 3
     },
     {
-      "id": "e09",
+      "id": "e13",
       "type": "select_translation",
       "prompt": {
         "bn": "ঝাল",
@@ -176,15 +239,15 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "many / a lot",
         "spicy",
-        "room / house",
-        "tree"
+        "storm",
+        "tea",
+        "fifty"
       ],
-      "answer": 1
+      "answer": 0
     },
     {
-      "id": "e10",
+      "id": "e14",
       "type": "select_translation",
       "prompt": {
         "bn": "পঞ্চাশ",
@@ -193,76 +256,12 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "sage (wise holy man)",
+        "eye",
+        "yes (polite)",
         "fifty",
-        "good, well",
-        "name"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "e11",
-      "type": "listen_select",
-      "audio": {
-        "bn": "চ",
-        "tr": "cho",
-        "en": "ch as in 'church' (no puff)"
-      },
-      "options": [
-        "ক",
-        "ঝ",
-        "চ",
-        "জ"
+        "spicy"
       ],
       "answer": 2
-    },
-    {
-      "id": "e12",
-      "type": "listen_select",
-      "audio": {
-        "bn": "ছ",
-        "tr": "chho",
-        "en": "chh: ch with a strong puff of air"
-      },
-      "options": [
-        "ঞ",
-        "ছ",
-        "ঈ",
-        "ঋ"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "e13",
-      "type": "listen_select",
-      "audio": {
-        "bn": "জ",
-        "tr": "jo",
-        "en": "j as in 'jam'"
-      },
-      "options": [
-        "ঈ",
-        "খ",
-        "ঝ",
-        "জ"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "e14",
-      "type": "listen_select",
-      "audio": {
-        "bn": "ঝ",
-        "tr": "jho",
-        "en": "jh: j with a breathy puff"
-      },
-      "options": [
-        "ঝ",
-        "উ",
-        "গ",
-        "খ"
-      ],
-      "answer": 0
     },
     {
       "id": "e15",
@@ -274,24 +273,24 @@
           "en": "eye"
         },
         {
-          "bn": "জ",
-          "tr": "jo",
-          "en": "j as in 'jam'"
+          "bn": "ঝড়",
+          "tr": "jhor",
+          "en": "storm"
+        },
+        {
+          "bn": "চা",
+          "tr": "cha",
+          "en": "tea"
+        },
+        {
+          "bn": "পঞ্চাশ",
+          "tr": "ponchash",
+          "en": "fifty"
         },
         {
           "bn": "ঞ",
           "tr": "n",
           "en": "n, found almost only inside conjuncts (ঞ্চ = 'nch')"
-        },
-        {
-          "bn": "ছ",
-          "tr": "chho",
-          "en": "chh: ch with a strong puff of air"
-        },
-        {
-          "bn": "ঝড়",
-          "tr": "jhor",
-          "en": "storm"
         }
       ]
     }

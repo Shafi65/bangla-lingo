@@ -88,87 +88,119 @@
       "type": "script_recognize",
       "glyph": "ড়",
       "options": [
-        "bo",
-        "n",
-        "ro",
-        "chho"
+        "do (hard d, tongue curled back)",
+        "ro (flapped r, tongue curled back)",
+        "dho (hard d + breathy puff)",
+        "u (as in 'food')"
       ],
-      "answer": 2
+      "answer": 1
     },
     {
       "id": "e02",
-      "type": "script_recognize",
-      "glyph": "ঢ়",
+      "type": "listen_select",
+      "audio": {
+        "bn": "ড়",
+        "tr": "ro",
+        "en": "flapped r: tongue curled back, flicked forward (like the tt in American 'butter')"
+      },
       "options": [
-        "gho",
-        "o",
-        "rho",
-        "fo"
+        "ড",
+        "ড়",
+        "ঢ",
+        "য়"
       ],
-      "answer": 2
+      "answer": 1
     },
     {
       "id": "e03",
       "type": "script_recognize",
-      "glyph": "য়",
+      "glyph": "ঢ়",
       "options": [
-        "yo",
-        "rho",
-        "kho",
-        "chho"
+        "dho (hard d + breathy puff)",
+        "gho (g + breathy puff)",
+        "rho (flapped r + breath)",
+        "do (hard d, tongue curled back)"
       ],
-      "answer": 0
+      "answer": 2
     },
     {
       "id": "e04",
       "type": "script_recognize",
-      "glyph": "ৎ",
+      "glyph": "য়",
       "options": [
-        "jho",
-        "t",
-        "bho",
-        "ng"
+        "jo (j as in 'jam')",
+        "e (as in 'bed' / 'say')",
+        "ro (flapped r, tongue curled back)",
+        "yo (y as in 'yes')"
       ],
-      "answer": 1
+      "answer": 3
     },
     {
       "id": "e05",
-      "type": "script_recognize",
-      "glyph": "ং",
+      "type": "listen_select",
+      "audio": {
+        "bn": "য়",
+        "tr": "yo",
+        "en": "y as in 'yes' (often a glide between vowels)"
+      },
       "options": [
-        "sho",
-        "ng",
-        "do",
-        "kho"
+        "য়",
+        "য",
+        "ড়",
+        "প"
       ],
-      "answer": 1
+      "answer": 0
     },
     {
       "id": "e06",
       "type": "script_recognize",
-      "glyph": "ঃ",
+      "glyph": "ৎ",
       "options": [
-        "ou",
-        "lo",
-        "h",
-        "oi"
+        "ng (as in 'sing')",
+        "t (final t, no vowel after it)",
+        "h (short breath, doubles the next consonant)",
+        "ro (flapped r, tongue curled back)"
       ],
-      "answer": 2
+      "answer": 1
     },
     {
       "id": "e07",
       "type": "script_recognize",
-      "glyph": "আঁ",
+      "glyph": "ং",
       "options": [
-        "yo",
-        "ro",
-        "a~",
-        "ri"
+        "h (short breath, doubles the next consonant)",
+        "a~ (nasal a)",
+        "t (final t, no vowel after it)",
+        "ng (as in 'sing')"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e08",
+      "type": "script_recognize",
+      "glyph": "ঃ",
+      "options": [
+        "ng (as in 'sing')",
+        "t (final t, no vowel after it)",
+        "h (short breath, doubles the next consonant)",
+        "a~ (nasal a)"
       ],
       "answer": 2
     },
     {
-      "id": "e08",
+      "id": "e09",
+      "type": "script_recognize",
+      "glyph": "আঁ",
+      "options": [
+        "a (as in 'father')",
+        "a~ (nasal a)",
+        "ng (as in 'sing')",
+        "o (as in 'or')"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e10",
       "type": "select_translation",
       "prompt": {
         "bn": "গাঢ়",
@@ -177,143 +209,107 @@
       },
       "direction": "bn_to_en",
       "options": [
+        "big",
         "dark / deep (of colour)",
-        "red",
-        "good, well",
-        "Bangladeshi"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "e09",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "হঠাৎ",
-        "tr": "hothat",
-        "en": "suddenly"
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "there",
-        "suddenly",
-        "how",
-        "very"
+        "moon",
+        "five"
       ],
       "answer": 1
     },
     {
-      "id": "e10",
+      "id": "e11",
+      "type": "listen_select",
+      "audio": {
+        "bn": "চাঁদ",
+        "tr": "cha~d",
+        "en": "moon"
+      },
+      "options": [
+        "চাঁদ",
+        "পাঁচ",
+        "মাংস",
+        "বড়"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e12",
       "type": "select_translation",
       "prompt": {
         "bn": "দুঃখিত",
         "tr": "dukkhito",
         "en": "sorry"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "dark / deep (of colour)",
-        "sorry",
-        "big",
-        "red"
+        "হঠাৎ",
+        "উৎসব",
+        "দুঃখিত",
+        "গাঢ়"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e13",
+      "type": "listen_select",
+      "audio": {
+        "bn": "হঠাৎ",
+        "tr": "hothat",
+        "en": "suddenly"
+      },
+      "options": [
+        "দুঃখিত",
+        "হঠাৎ",
+        "উৎসব",
+        "মেয়ে"
       ],
       "answer": 1
     },
     {
-      "id": "e11",
+      "id": "e14",
       "type": "select_translation",
       "prompt": {
         "bn": "চাঁদ",
         "tr": "cha~d",
         "en": "moon"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "eagle",
-        "girl",
-        "moon",
-        "doctor"
+        "বড়",
+        "মাংস",
+        "পাঁচ",
+        "চাঁদ"
       ],
-      "answer": 2
-    },
-    {
-      "id": "e12",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "বড়",
-        "tr": "boro",
-        "en": "big"
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "sorry",
-        "big",
-        "dark / deep (of colour)",
-        "red"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "e13",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "উৎসব",
-        "tr": "utshob",
-        "en": "festival"
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "eye",
-        "now",
-        "festival",
-        "English (language)"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "e14",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "মাংস",
-        "tr": "mangsho",
-        "en": "meat"
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "one",
-        "eagle",
-        "meat",
-        "country"
-      ],
-      "answer": 2
+      "answer": 3
     },
     {
       "id": "e15",
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "দুঃখিত",
-          "tr": "dukkhito",
-          "en": "sorry"
+          "bn": "ঢ়",
+          "tr": "rho",
+          "en": "flapped r with a puff of breath"
         },
         {
-          "bn": "গাঢ়",
-          "tr": "garho",
-          "en": "dark / deep (of colour)"
+          "bn": "ৎ",
+          "tr": "t",
+          "en": "final t with no vowel after it"
+        },
+        {
+          "bn": "ং",
+          "tr": "ng",
+          "en": "ng as in 'sing' (nasal at the end of a syllable)"
+        },
+        {
+          "bn": "ঃ",
+          "tr": "h",
+          "en": "a short breath; inside a word it doubles the next consonant"
         },
         {
           "bn": "আঁ",
           "tr": "a~",
           "en": "ঁ makes the vowel nasal (shown on আ: a~)"
-        },
-        {
-          "bn": "য়",
-          "tr": "yo",
-          "en": "y as in 'yes' (often a glide between vowels)"
-        },
-        {
-          "bn": "হঠাৎ",
-          "tr": "hothat",
-          "en": "suddenly"
         }
       ]
     }

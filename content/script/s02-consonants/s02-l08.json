@@ -8,197 +8,200 @@
   "exercises": [
     {
       "id": "e01",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "বড়",
-        "tr": "boro",
-        "en": "big"
+      "type": "listen_select",
+      "audio": {
+        "bn": "ব",
+        "tr": "bo",
+        "en": "b as in 'bat'"
       },
-      "direction": "bn_to_en",
       "options": [
-        "big",
-        "red",
-        "good, well",
-        "dark / deep (of colour)"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "e02",
-      "type": "script_recognize",
-      "glyph": "ধ",
-      "options": [
-        "dho",
-        "tho",
-        "ko",
-        "n"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "e03",
-      "type": "script_recognize",
-      "glyph": "র",
-      "options": [
-        "ro",
-        "bho",
-        "mo",
-        "kho"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "e04",
-      "type": "script_recognize",
-      "glyph": "ত",
-      "options": [
-        "do",
-        "sho",
-        "ng",
-        "to"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "e05",
-      "type": "script_recognize",
-      "glyph": "ড",
-      "options": [
-        "bo",
-        "no",
-        "do",
-        "cho"
+        "র",
+        "ধ",
+        "ব",
+        "থ"
       ],
       "answer": 2
     },
     {
-      "id": "e06",
+      "id": "e02",
       "type": "script_recognize",
-      "glyph": "ঢ়",
+      "glyph": "র",
       "options": [
-        "no",
-        "rho",
-        "n",
-        "a~"
+        "bo (b as in 'bat')",
+        "ro (tapped r, as in Spanish 'pero')",
+        "dho (soft d + breathy puff)",
+        "tho (soft t + puff)"
       ],
       "answer": 1
     },
     {
-      "id": "e07",
+      "id": "e03",
       "type": "script_recognize",
-      "glyph": "খ",
+      "glyph": "ধ",
       "options": [
-        "bho",
-        "kho",
-        "i",
-        "ko"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "e08",
-      "type": "script_recognize",
-      "glyph": "ছ",
-      "options": [
-        "t",
-        "bo",
-        "fo",
-        "chho"
+        "bo (b as in 'bat')",
+        "tho (soft t + puff)",
+        "jo (j as in 'jam')",
+        "dho (soft d + breathy puff)"
       ],
       "answer": 3
     },
     {
-      "id": "e09",
-      "type": "script_recognize",
-      "glyph": "ক",
+      "id": "e04",
+      "type": "listen_select",
+      "audio": {
+        "bn": "থ",
+        "tr": "tho",
+        "en": "soft t with a puff of air (not English 'th')"
+      },
       "options": [
-        "jho",
-        "ko",
-        "t",
-        "jo"
+        "য",
+        "থ",
+        "ধ",
+        "ব"
       ],
       "answer": 1
+    },
+    {
+      "id": "e05",
+      "type": "script_recognize",
+      "glyph": "য",
+      "options": [
+        "jo (j as in 'jam')",
+        "po (p, no puff)",
+        "sho (sh as in 'shop')",
+        "tho (soft t + puff)"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e06",
+      "type": "listen_select",
+      "audio": {
+        "bn": "ঢ়",
+        "tr": "rho",
+        "en": "flapped r with a puff of breath"
+      },
+      "options": [
+        "ঢ",
+        "উ",
+        "ড",
+        "ঢ়"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e07",
+      "type": "script_recognize",
+      "glyph": "ড়",
+      "options": [
+        "do (hard d, tongue curled back)",
+        "u (as in 'food')",
+        "ro (flapped r, tongue curled back)",
+        "dho (hard d + breathy puff)"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e08",
+      "type": "script_recognize",
+      "glyph": "ঢ",
+      "options": [
+        "rho (flapped r + breath)",
+        "dho (hard d + breathy puff)",
+        "dho (soft d + breathy puff)",
+        "do (hard d, tongue curled back)"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e09",
+      "type": "listen_select",
+      "audio": {
+        "bn": "য়",
+        "tr": "yo",
+        "en": "y as in 'yes' (often a glide between vowels)"
+      },
+      "options": [
+        "প",
+        "ষ",
+        "য",
+        "য়"
+      ],
+      "answer": 3
     },
     {
       "id": "e10",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "ভালো",
-        "tr": "bhalo",
-        "en": "good, well"
-      },
-      "direction": "bn_to_en",
+      "type": "script_recognize",
+      "glyph": "ট",
       "options": [
-        "Bangladeshi",
-        "good, well",
-        "sorry",
-        "red"
+        "to (hard t, tongue curled back)",
+        "to (soft t, tongue on the teeth)",
+        "tho (hard t + puff)",
+        "do (hard d, tongue curled back)"
       ],
-      "answer": 1
+      "answer": 0
     },
     {
       "id": "e11",
-      "type": "listen_select",
-      "audio": {
-        "bn": "বড়",
-        "tr": "boro",
-        "en": "big"
-      },
+      "type": "script_recognize",
+      "glyph": "ত",
       "options": [
-        "বড়",
-        "বাংলাদেশি",
-        "গাঢ়",
-        "দুঃখিত"
+        "bho (breathy b, close to 'v')",
+        "to (hard t, tongue curled back)",
+        "to (soft t, tongue on the teeth)",
+        "tho (soft t + puff)"
       ],
-      "answer": 0
+      "answer": 2
     },
     {
       "id": "e12",
       "type": "listen_select",
       "audio": {
-        "bn": "ধ",
-        "tr": "dho",
-        "en": "soft d with a breathy puff"
+        "bn": "ছ",
+        "tr": "chho",
+        "en": "chh: ch with a strong puff of air"
       },
       "options": [
-        "ং",
-        "ধ",
-        "ভ",
-        "ঞ"
+        "চ",
+        "ছ",
+        "খ",
+        "ক"
       ],
       "answer": 1
     },
     {
       "id": "e13",
-      "type": "listen_select",
-      "audio": {
-        "bn": "র",
-        "tr": "ro",
-        "en": "r: a light tap of the tongue (like Spanish 'pero')"
+      "type": "select_translation",
+      "prompt": {
+        "bn": "মেয়ে",
+        "tr": "meye",
+        "en": "girl"
       },
+      "direction": "en_to_bn",
       "options": [
-        "ঞ",
-        "ঊ",
-        "র",
-        "ঋ"
+        "বড়",
+        "থেকে",
+        "ভালো",
+        "মেয়ে"
       ],
-      "answer": 2
+      "answer": 3
     },
     {
       "id": "e14",
       "type": "listen_select",
       "audio": {
-        "bn": "ত",
-        "tr": "to",
-        "en": "soft t, tongue on the teeth (as in Spanish 'tú')"
+        "bn": "ধন্যবাদ",
+        "tr": "dhonnobad",
+        "en": "thank you"
       },
       "options": [
-        "ঔ",
-        "আঁ",
-        "ত",
-        "ড"
+        "থেকে",
+        "ধন্যবাদ",
+        "বাংলা",
+        "ভালো"
       ],
-      "answer": 2
+      "answer": 1
     },
     {
       "id": "e15",
@@ -210,24 +213,24 @@
           "en": "chh: ch with a strong puff of air"
         },
         {
-          "bn": "চ",
-          "tr": "cho",
-          "en": "ch as in 'church' (no puff)"
+          "bn": "ধন্যবাদ",
+          "tr": "dhonnobad",
+          "en": "thank you"
         },
         {
-          "bn": "থেকে",
-          "tr": "theke",
-          "en": "from"
+          "bn": "বড়",
+          "tr": "boro",
+          "en": "big"
         },
         {
-          "bn": "উ",
-          "tr": "u",
-          "en": "u as in 'food' (short-u letter)"
+          "bn": "বাংলা",
+          "tr": "bangla",
+          "en": "Bengali (language)"
         },
         {
-          "bn": "ভালো",
-          "tr": "bhalo",
-          "en": "good, well"
+          "bn": "মেয়ে",
+          "tr": "meye",
+          "en": "girl"
         }
       ]
     }

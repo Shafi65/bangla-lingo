@@ -73,164 +73,15 @@
       "type": "script_recognize",
       "glyph": "ক",
       "options": [
-        "ko",
-        "u",
-        "i",
-        "kho"
+        "kho (k + puff of air)",
+        "ko (k, no puff)",
+        "go (g as in 'go')",
+        "o (as in 'or')"
       ],
-      "answer": 0
+      "answer": 1
     },
     {
       "id": "e02",
-      "type": "script_recognize",
-      "glyph": "খ",
-      "options": [
-        "ou",
-        "i",
-        "kho",
-        "gho"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "e03",
-      "type": "script_recognize",
-      "glyph": "গ",
-      "options": [
-        "ng",
-        "go",
-        "oi",
-        "ko"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "e04",
-      "type": "script_recognize",
-      "glyph": "ঘ",
-      "options": [
-        "ou",
-        "i",
-        "gho",
-        "u"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "e05",
-      "type": "script_recognize",
-      "glyph": "ঙ",
-      "options": [
-        "ng",
-        "ko",
-        "kho",
-        "oi"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "e06",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "গাছ",
-        "tr": "gachh",
-        "en": "tree"
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "one",
-        "cow",
-        "unity",
-        "tree"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "e07",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "গরু",
-        "tr": "goru",
-        "en": "cow"
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "friend",
-        "cow",
-        "student (female)",
-        "now"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "e08",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "ঘর",
-        "tr": "ghor",
-        "en": "room / house"
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "name",
-        "student (male)",
-        "room / house",
-        "hilsa (fish)"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "e09",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "বাঙালি",
-        "tr": "bangali",
-        "en": "Bengali (person)"
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "dawn",
-        "hour",
-        "Bengali (person)",
-        "season"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "e10",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "ঘণ্টা",
-        "tr": "ghonta",
-        "en": "hour"
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "season",
-        "hour",
-        "elephant-foot yam",
-        "brick"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "e11",
-      "type": "listen_select",
-      "audio": {
-        "bn": "ক",
-        "tr": "ko",
-        "en": "k as in 'skin' (no puff of air)"
-      },
-      "options": [
-        "ই",
-        "ঈ",
-        "ক",
-        "গ"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "e12",
       "type": "listen_select",
       "audio": {
         "bn": "খ",
@@ -238,15 +89,95 @@
         "en": "kh: k with a puff of air, as in 'kite'"
       },
       "options": [
-        "এ",
         "ক",
-        "ও",
-        "খ"
+        "ঘ",
+        "খ",
+        "গ"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e03",
+      "type": "script_recognize",
+      "glyph": "খ",
+      "options": [
+        "ko (k, no puff)",
+        "gho (g + breathy puff)",
+        "kho (k + puff of air)",
+        "a (as in 'father')"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e04",
+      "type": "listen_select",
+      "audio": {
+        "bn": "ক",
+        "tr": "ko",
+        "en": "k as in 'skin' (no puff of air)"
+      },
+      "options": [
+        "খ",
+        "ক",
+        "গ",
+        "ঘ"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e05",
+      "type": "script_recognize",
+      "glyph": "গ",
+      "options": [
+        "gho (g + breathy puff)",
+        "go (g as in 'go')",
+        "ko (k, no puff)",
+        "ng (as in 'sing')"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e06",
+      "type": "script_recognize",
+      "glyph": "ঘ",
+      "options": [
+        "go (g as in 'go')",
+        "kho (k + puff of air)",
+        "i (as in 'see')",
+        "gho (g + breathy puff)"
       ],
       "answer": 3
     },
     {
-      "id": "e13",
+      "id": "e07",
+      "type": "listen_select",
+      "audio": {
+        "bn": "ঘ",
+        "tr": "gho",
+        "en": "gh: g with a breathy puff"
+      },
+      "options": [
+        "গ",
+        "খ",
+        "ক",
+        "ঘ"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e08",
+      "type": "script_recognize",
+      "glyph": "ঙ",
+      "options": [
+        "ng (as in 'sing')",
+        "go (g as in 'go')",
+        "gho (g + breathy puff)",
+        "u (as in 'food')"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e09",
       "type": "listen_select",
       "audio": {
         "bn": "গ",
@@ -255,42 +186,100 @@
       },
       "options": [
         "গ",
-        "ঙ",
-        "আ",
-        "ঔ"
+        "ঘ",
+        "ক",
+        "ঙ"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e10",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "গাছ",
+        "tr": "gachh",
+        "en": "tree"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "cow",
+        "tree",
+        "room / house",
+        "one"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e11",
+      "type": "listen_select",
+      "audio": {
+        "bn": "গরু",
+        "tr": "goru",
+        "en": "cow"
+      },
+      "options": [
+        "ঘর",
+        "গাছ",
+        "গরু",
+        "কেমন"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e12",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ঘর",
+        "tr": "ghor",
+        "en": "room / house"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "Bengali (person)",
+        "tree",
+        "cow",
+        "room / house"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e13",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "বাঙালি",
+        "tr": "bangali",
+        "en": "Bengali (person)"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "বাঙালি",
+        "ঘর",
+        "গাছ",
+        "ঘণ্টা"
       ],
       "answer": 0
     },
     {
       "id": "e14",
-      "type": "listen_select",
-      "audio": {
-        "bn": "ঘ",
-        "tr": "gho",
-        "en": "gh: g with a breathy puff"
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ঘণ্টা",
+        "tr": "ghonta",
+        "en": "hour"
       },
+      "direction": "bn_to_en",
       "options": [
-        "ক",
-        "অ",
-        "এ",
-        "ঘ"
+        "room / house",
+        "hour",
+        "very",
+        "who"
       ],
-      "answer": 3
+      "answer": 1
     },
     {
       "id": "e15",
       "type": "match_pairs",
       "pairs": [
-        {
-          "bn": "গাছ",
-          "tr": "gachh",
-          "en": "tree"
-        },
-        {
-          "bn": "ঘর",
-          "tr": "ghor",
-          "en": "room / house"
-        },
         {
           "bn": "গরু",
           "tr": "goru",
@@ -302,9 +291,19 @@
           "en": "Bengali (person)"
         },
         {
-          "bn": "খ",
-          "tr": "kho",
-          "en": "kh: k with a puff of air, as in 'kite'"
+          "bn": "ঘর",
+          "tr": "ghor",
+          "en": "room / house"
+        },
+        {
+          "bn": "ঘণ্টা",
+          "tr": "ghonta",
+          "en": "hour"
+        },
+        {
+          "bn": "ঙ",
+          "tr": "ng",
+          "en": "ng as in 'sing' (never starts a word)"
         }
       ]
     }
