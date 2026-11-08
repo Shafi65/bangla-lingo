@@ -3,7 +3,7 @@
   "unit": "s04-conjuncts",
   "title": "Conjuncts 4: ফলা signs and রেফ",
   "status": "draft",
-  "tip": "**ফলা** (fola) are small forms of য, র, ব that attach to a consonant.\n\n**য-ফলা ্য** is a little flag on the right. In the middle of a word it **doubles** the consonant: ধন্যবাদ = `dhonnobad`, সন্ধ্যা = `shondha`. With া it often makes an *æ* sound: হ্যাঁ (`hya~`, *yes*), ব্যাগ (`bæg`).\n\n**র-ফলা ্র** is a slanted stroke under the letter and adds an r: ছাত্র (`chhatro`), গ্রাম (`gram`, *village*), প্রতিদিন (`protidin`, *every day*). **রেফ র্** is the opposite: a small hook *on top* that means an r **before** the letter: দুর্গাপূজা (`durgapuja`), পর্যন্ত (`porjonto`).\n\n**ব-ফলা ্ব** is usually **silent**: স্বামী (`shami`, *husband*), স্বাধীনতা (`shadhinota`, *independence*). In the middle of a word it doubles the consonant instead.",
+  "tip": "**ফলা** (`fola`) are small forms of য, র and ব that attach to a consonant. **রেফ** is a small form of র that sits on top.\n\n**য-ফলা ্য** is a little flag on the right. In the middle of a word it **doubles** the consonant before it and is not said as *y*: ধন্যবাদ = `dhonnobad`, অন্য = `onno` (*other*). At the start of a word, with া, it gives the *a* of *cat*: হ্যাঁ (`hya~`, *yes*), ব্যাগ (`byag`, said like English *bag*).\n\n**র-ফলা ্র** is a short slanted stroke joined to the bottom of the letter. It adds an `r` **after** it: ছাত্র (`chhatro`, *student*), গ্রাম (`gram`, *village*), প্রতিদিন (`protidin`, *every day*).\n\n**রেফ র্** is the opposite: a small hook **on top** that means an `r` **before** the letter: দুর্গাপূজা (`durgapuja`), পর্যন্ত (`porjonto`, *up to*). Under a রেফ, য is a full `j`, not a য-ফলা.\n\n**ব-ফলা ্ব** is usually **silent** at the start of a word: স্বামী (`shami`, *husband*), স্বাধীনতা (`shadhinota`, *independence*). In the middle of a word it doubles the consonant instead.",
   "vocab": [
     {
       "id": "cj-jofola",
@@ -40,10 +40,10 @@
       "type": "script_recognize",
       "glyph": "ন্য",
       "options": [
-        "a~",
-        "i",
-        "nno",
-        "ri"
+        "nyo (ন + য, y as in 'canyon')",
+        "nro (ন + র-ফলা)",
+        "nno (ন + য-ফলা: a doubled n)",
+        "no (ন + a silent ব-ফলা)"
       ],
       "answer": 2
     },
@@ -52,56 +52,143 @@
       "type": "script_recognize",
       "glyph": "ত্র",
       "options": [
-        "lo",
-        "ng",
-        "ndo",
-        "tro"
+        "tro (ত + র-ফলা: t, then r)",
+        "rto (রেফ + ত: r before t)",
+        "tto (ত + য-ফলা: a doubled t)",
+        "to (ত + a silent ব-ফলা)"
       ],
-      "answer": 3
+      "answer": 0
     },
     {
       "id": "e03",
       "type": "script_recognize",
       "glyph": "স্ব",
       "options": [
-        "sho",
-        "e",
-        "chho",
-        "lo"
+        "sbo (স + ব, both said)",
+        "sro (স + র-ফলা)",
+        "swo (s + w, as in 'swim')",
+        "sho (স + ব-ফলা: the ব is silent)"
       ],
-      "answer": 0
+      "answer": 3
     },
     {
       "id": "e04",
       "type": "script_recognize",
       "glyph": "র্গ",
       "options": [
-        "t",
-        "sto",
-        "kri",
-        "rgo"
+        "gro (গ + র-ফলা: r after g)",
+        "rgo (রেফ + গ: r before g)",
+        "ggo (গ + য-ফলা: a doubled g)",
+        "go (just গ; the hook is decoration)"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e05",
+      "type": "listen_select",
+      "audio": {
+        "bn": "স্ব",
+        "tr": "sho",
+        "en": "্ব (bo-fola) on স: the ব is silent (স্বামী = shami)"
+      },
+      "options": [
+        "ন্য",
+        "স্ব",
+        "ত্র",
+        "র্গ"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e06",
+      "type": "listen_select",
+      "audio": {
+        "bn": "ত্র",
+        "tr": "tro",
+        "en": "্র (ro-fola) on ত: t + r (ছাত্র)"
+      },
+      "options": [
+        "র্গ",
+        "ন্ত",
+        "স্ত",
+        "ত্র"
       ],
       "answer": 3
     },
     {
-      "id": "e05",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "প্রতিদিন",
-        "tr": "protidin",
-        "en": "every day"
-      },
-      "direction": "bn_to_en",
+      "id": "e07",
+      "type": "script_recognize",
+      "glyph": "ধন্যবাদ",
       "options": [
-        "every day",
-        "what time; how many",
-        "at night",
-        "how"
+        "dhonyobad (with a y sound, as in 'canyon')",
+        "dhonrobad (with an r)",
+        "dhonnobad (ন্য: a doubled n)",
+        "dhonobad (one short n)"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e08",
+      "type": "script_recognize",
+      "glyph": "হ্যাঁ",
+      "options": [
+        "hya~ (a as in 'cat', nasal)",
+        "ha~ (a as in 'father', nasal)",
+        "hiya~ (two syllables, hi-ya)",
+        "hra~ (with an r)"
       ],
       "answer": 0
     },
     {
-      "id": "e06",
+      "id": "e09",
+      "type": "script_recognize",
+      "glyph": "ছাত্র",
+      "options": [
+        "chharto (r before t)",
+        "chhato (no r at all)",
+        "chhatto (a doubled t, no r)",
+        "chhatro (t, then r)"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e10",
+      "type": "script_recognize",
+      "glyph": "স্বামী",
+      "options": [
+        "sbami (s + b, both said)",
+        "shami (the ব-ফলা is silent)",
+        "shobami (an o between sh and b)",
+        "shrami (with an r)"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e11",
+      "type": "script_recognize",
+      "glyph": "দুর্গাপূজা",
+      "options": [
+        "dugrapuja (r after g)",
+        "dugapuja (no r)",
+        "durgapuja (রেফ: r before g)",
+        "durugapuja (an extra u)"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e12",
+      "type": "script_recognize",
+      "glyph": "পর্যন্ত",
+      "options": [
+        "porjonto (রেফ: r before j)",
+        "projonto (r right after p)",
+        "pojonto (no r)",
+        "poryonto (y as in 'yes')"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e13",
       "type": "select_translation",
       "prompt": {
         "bn": "গ্রাম",
@@ -110,127 +197,12 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "chicken",
+        "every day",
         "village",
-        "Thursday",
-        "month"
+        "road",
+        "temple"
       ],
       "answer": 1
-    },
-    {
-      "id": "e07",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "স্বাধীনতা",
-        "tr": "shadhinota",
-        "en": "independence"
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "English (language)",
-        "river",
-        "independence",
-        "salt"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "e08",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "দুর্গাপূজা",
-        "tr": "durgapuja",
-        "en": "Durga Puja"
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "Durga Puja",
-        "chicken",
-        "child",
-        "hand"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "e09",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "পর্যন্ত",
-        "tr": "porjonto",
-        "en": "to"
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "at night",
-        "to",
-        "cow's",
-        "his/her (polite)"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "e10",
-      "type": "listen_select",
-      "audio": {
-        "bn": "ন্য",
-        "tr": "nno",
-        "en": "্য (jo-fola) on ন: doubles the n (ধন্যবাদ)"
-      },
-      "options": [
-        "ষ্ট",
-        "এ",
-        "কূ",
-        "ন্য"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "e11",
-      "type": "listen_select",
-      "audio": {
-        "bn": "ত্র",
-        "tr": "tro",
-        "en": "্র (ro-fola) on ত: t + r (ছাত্র)"
-      },
-      "options": [
-        "ম",
-        "ঋ",
-        "র্গ",
-        "ত্র"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "e12",
-      "type": "listen_select",
-      "audio": {
-        "bn": "স্ব",
-        "tr": "sho",
-        "en": "্ব (bo-fola) on স: the ব is silent (স্বামী = shami)"
-      },
-      "options": [
-        "খ",
-        "ষ্ট",
-        "ড",
-        "স্ব"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "e13",
-      "type": "listen_select",
-      "audio": {
-        "bn": "র্গ",
-        "tr": "rgo",
-        "en": "র্ (ref): an r before the consonant, drawn as a hook on top"
-      },
-      "options": [
-        "চ্চ",
-        "ব",
-        "চ",
-        "র্গ"
-      ],
-      "answer": 3
     },
     {
       "id": "e14",
@@ -241,32 +213,17 @@
         "en": "every day"
       },
       "options": [
-        "দুপুরে",
+        "প্রথম",
+        "প্রতিমা",
         "প্রতিদিন",
-        "খুব",
-        "কোথায়"
+        "প্রশ্ন"
       ],
-      "answer": 1
+      "answer": 2
     },
     {
       "id": "e15",
       "type": "match_pairs",
       "pairs": [
-        {
-          "bn": "স্বামী",
-          "tr": "shami",
-          "en": "husband"
-        },
-        {
-          "bn": "র্গ",
-          "tr": "rgo",
-          "en": "র্ (ref): an r before the consonant, drawn as a hook on top"
-        },
-        {
-          "bn": "স্ব",
-          "tr": "sho",
-          "en": "্ব (bo-fola) on স: the ব is silent (স্বামী = shami)"
-        },
         {
           "bn": "ন্য",
           "tr": "nno",
@@ -276,6 +233,21 @@
           "bn": "ত্র",
           "tr": "tro",
           "en": "্র (ro-fola) on ত: t + r (ছাত্র)"
+        },
+        {
+          "bn": "স্ব",
+          "tr": "sho",
+          "en": "্ব (bo-fola) on স: the ব is silent (স্বামী = shami)"
+        },
+        {
+          "bn": "র্গ",
+          "tr": "rgo",
+          "en": "র্ (ref): an r before the consonant, drawn as a hook on top"
+        },
+        {
+          "bn": "সন্ধ্যা",
+          "tr": "shondha",
+          "en": "evening"
         }
       ]
     }

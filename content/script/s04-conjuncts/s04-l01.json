@@ -3,7 +3,7 @@
   "unit": "s04-conjuncts",
   "title": "Conjuncts 1: see-through stacks",
   "status": "draft",
-  "tip": "**Sometimes two consonants have no vowel between them.** Bengali then joins them into one block, a **conjunct (যুক্তবর্ণ juktoborno)**. The invisible glue is **্ (hoshonto)**, which removes the inherent `o`: ক is `ko`, ক্ is just `k`.\n\nToday's conjuncts are 'see-through': you can still spot both letters. **ন্ত** (n+t), **স্ত** (s+t: রাস্তা `rasta`), **ন্দ** (n+d: মন্দির `mondir`), **ন্ধ** (n+dh: বন্ধু `bondhu`), **স্ক** (s+k: স্কুল `skul`, নমস্কার `nomoshkar`).\n\n**Read the first part, then the second.** The first letter is usually squeezed or on the left; the second sits below or to the right.\n\n**After a final conjunct the `o` usually comes back**: শান্ত is `shanto`, not *shant*.",
+  "tip": "**Sometimes two consonants have no vowel between them.** Bengali then fuses them into one block, a **conjunct (যুক্তবর্ণ `juktoborno`)**. The glue is **্ (hoshonto)**, a small tick under a letter that removes its inherent `o`: ক is `ko`, ক্ is just `k`. Inside a conjunct the hoshonto is hidden; you only see the fused shape.\n\nToday's conjuncts are 'see-through': you can still spot both letters. **ন্ত** = ন + ত (শান্ত `shanto`, *calm*), **স্ত** = স + ত (রাস্তা `rasta`, *road*), **ন্দ** = ন + দ (মন্দির `mondir`, *temple*), **ন্ধ** = ন + ধ (বন্ধু `bondhu`, *friend*), **স্ক** = স + ক (স্কুল `skul`, *school*).\n\n**Read the first part, then the second**, with no vowel in between. The first letter is usually shrunk or on the left; the second sits below or to the right. বন্ধু is `bondhu`, not *bonodhu*. Watch the **ন্ত / ন্দ / ন্ধ** trio: same ন, then `t`, `d` or breathy `dh`.\n\n**After a conjunct at the end of a word, the `o` usually comes back**: শান্ত is `shanto`, not *shant*. And স may still say `sh`: নাস্তা is `nashta` (*breakfast*) but রাস্তা is `rasta`, and নমস্কার is `nomoshkar`. Trust the transliteration while you learn.",
   "vocab": [
     {
       "id": "cj-hoshonto",
@@ -61,75 +61,91 @@
       "type": "script_recognize",
       "glyph": "ক্",
       "options": [
-        "shunno",
-        "k",
-        "do",
-        "koi"
+        "ko (ক with its inherent o)",
+        "ka (ক + া)",
+        "k (ক with no vowel: ্ removes the o)",
+        "ki (ক + ি)"
       ],
-      "answer": 1
+      "answer": 2
     },
     {
       "id": "e02",
       "type": "script_recognize",
       "glyph": "ন্ত",
       "options": [
-        "nto",
-        "sko",
-        "ku",
-        "do"
+        "ndo (ন + দ)",
+        "nto (ন + ত)",
+        "noto (ন and ত, each with its own o)",
+        "tno (ত first, then ন)"
       ],
-      "answer": 0
+      "answer": 1
     },
     {
       "id": "e03",
-      "type": "script_recognize",
-      "glyph": "স্ত",
+      "type": "listen_select",
+      "audio": {
+        "bn": "ন্ত",
+        "tr": "nto",
+        "en": "n + t (ন + ত)"
+      },
       "options": [
-        "ri",
-        "ki",
-        "o",
-        "sto"
+        "ন্দ",
+        "ন্ধ",
+        "স্ত",
+        "ন্ত"
       ],
       "answer": 3
     },
     {
       "id": "e04",
       "type": "script_recognize",
-      "glyph": "ন্দ",
+      "glyph": "স্ত",
       "options": [
-        "ndo",
-        "go",
-        "chhoy",
-        "ro"
+        "sto (স + ত)",
+        "sko (স + ক)",
+        "nto (ন + ত)",
+        "tso (ত first, then স)"
       ],
       "answer": 0
     },
     {
       "id": "e05",
       "type": "script_recognize",
-      "glyph": "ন্ধ",
+      "glyph": "ন্দ",
       "options": [
-        "ndho",
-        "a~",
-        "ka",
-        "koi"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "e06",
-      "type": "script_recognize",
-      "glyph": "স্ক",
-      "options": [
-        "ou",
-        "no",
-        "sko",
-        "bo"
+        "nto (ন + ত)",
+        "ndho (ন + ধ, a breathy d)",
+        "ndo (ন + দ)",
+        "dno (দ first, then ন)"
       ],
       "answer": 2
     },
     {
+      "id": "e06",
+      "type": "script_recognize",
+      "glyph": "ন্ধ",
+      "options": [
+        "ndo (ন + দ, no puff)",
+        "nbo (ন + ব)",
+        "ntho (ন + থ)",
+        "ndho (ন + ধ, a breathy d)"
+      ],
+      "answer": 3
+    },
+    {
       "id": "e07",
+      "type": "script_recognize",
+      "glyph": "স্ক",
+      "options": [
+        "sko (স + ক)",
+        "sto (স + ত)",
+        "kso (ক first, then স)",
+        "shoko (স and ক, each with its own o)"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e08",
       "type": "select_translation",
       "prompt": {
         "bn": "শান্ত",
@@ -138,32 +154,79 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "tasty",
+        "beautiful",
         "calm / quiet",
-        "Bangladeshi",
-        "sweet"
+        "sweet",
+        "cheap"
       ],
       "answer": 1
     },
     {
-      "id": "e08",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "রাস্তা",
-        "tr": "rasta",
-        "en": "road"
+      "id": "e09",
+      "type": "listen_select",
+      "audio": {
+        "bn": "নাস্তা",
+        "tr": "nashta",
+        "en": "breakfast"
       },
-      "direction": "bn_to_en",
       "options": [
-        "mom",
-        "morning",
-        "road",
-        "room / house"
+        "রাস্তা",
+        "শান্ত",
+        "নাস্তা",
+        "সস্তা"
       ],
       "answer": 2
     },
     {
-      "id": "e09",
+      "id": "e10",
+      "type": "script_recognize",
+      "glyph": "রাস্তা",
+      "options": [
+        "ranta (ন্ত, n + t)",
+        "raska (স্ক, s + k)",
+        "rasta (স্ত, s + t)",
+        "rosta (o instead of a)"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e11",
+      "type": "script_recognize",
+      "glyph": "বন্ধু",
+      "options": [
+        "bondhu (ন্ধ, n + breathy dh)",
+        "bondu (ন্দ, n + d)",
+        "bontu (ন্ত, n + t)",
+        "bonodhu (an o between n and dh)"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e12",
+      "type": "script_recognize",
+      "glyph": "নমস্কার",
+      "options": [
+        "nomoshtar (স্ত, sh + t)",
+        "nomoshar (no k)",
+        "nomonkar (ন + ক)",
+        "nomoshkar (স্ক, sh + k)"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e13",
+      "type": "script_recognize",
+      "glyph": "স্কুল",
+      "options": [
+        "stul (স্ত, s + t)",
+        "skul (স্ক, s + k)",
+        "sokul (an o between s and k)",
+        "kusul (ক first)"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e14",
       "type": "select_translation",
       "prompt": {
         "bn": "মন্দির",
@@ -172,107 +235,31 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "temple",
-        "vegetables",
-        "drum (traditional)",
-        "hand"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "e10",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "স্কুল",
-        "tr": "skul",
-        "en": "school"
-      },
-      "direction": "bn_to_en",
-      "options": [
         "school",
-        "need",
-        "medicine (formal)",
-        "aunt (mama's wife)"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "e11",
-      "type": "listen_select",
-      "audio": {
-        "bn": "ক্",
-        "tr": "k",
-        "en": "্ (hoshonto): kills the inherent vowel, so ক্ = just 'k'"
-      },
-      "options": [
-        "ঢ",
-        "কা",
-        "ক্",
-        "১"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "e12",
-      "type": "listen_select",
-      "audio": {
-        "bn": "ন্ত",
-        "tr": "nto",
-        "en": "n + t (ন + ত)"
-      },
-      "options": [
-        "ঐ",
-        "ঃ",
-        "৪",
-        "ন্ত"
+        "road",
+        "friend",
+        "temple"
       ],
       "answer": 3
-    },
-    {
-      "id": "e13",
-      "type": "listen_select",
-      "audio": {
-        "bn": "স্ত",
-        "tr": "sto",
-        "en": "s + t (স + ত); স says 's' here"
-      },
-      "options": [
-        "ন্ত",
-        "ফ",
-        "স্ত",
-        "০"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "e14",
-      "type": "listen_select",
-      "audio": {
-        "bn": "ন্দ",
-        "tr": "ndo",
-        "en": "n + d (ন + দ)"
-      },
-      "options": [
-        "কু",
-        "ন্দ",
-        "জ",
-        "ন্ত"
-      ],
-      "answer": 1
     },
     {
       "id": "e15",
       "type": "match_pairs",
       "pairs": [
         {
+          "bn": "ক্",
+          "tr": "k",
+          "en": "্ (hoshonto): kills the inherent vowel, so ক্ = just 'k'"
+        },
+        {
           "bn": "স্ত",
           "tr": "sto",
           "en": "s + t (স + ত); স says 's' here"
         },
         {
-          "bn": "স্ক",
-          "tr": "sko",
-          "en": "s/sh + k (স + ক)"
+          "bn": "ন্দ",
+          "tr": "ndo",
+          "en": "n + d (ন + দ)"
         },
         {
           "bn": "ন্ধ",
@@ -283,11 +270,6 @@
           "bn": "শান্ত",
           "tr": "shanto",
           "en": "calm / quiet"
-        },
-        {
-          "bn": "ক্",
-          "tr": "k",
-          "en": "্ (hoshonto): kills the inherent vowel, so ক্ = just 'k'"
         }
       ]
     }

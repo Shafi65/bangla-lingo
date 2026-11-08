@@ -3,7 +3,7 @@
   "unit": "s04-conjuncts",
   "title": "Conjuncts 3: shape-shifters",
   "status": "draft",
-  "tip": "Some conjuncts don't look like their parts. Learn these as whole shapes.\n\n**ক্ষ** (ক + ষ) is the most important one, and it is **not** said *ksh*. At the start of a word it's `kh` (ক্ষুধা `khudha`, *hunger*); in the middle it's a doubled `kkh` (শিক্ষক `shikkhok`, *teacher*).\n\n**ক্ত**: the ত shrinks into a little hook under ক (ডাক্তার `daktar`). **ঙ্গ** = `ngg` as in *finger* (লুঙ্গি `lunggi`). **ঞ্চ** = `nch` (পঞ্চাশ `ponchash`, *fifty*). **ষ্ট** = `sht` (মিষ্টি `mishti`, *sweet*).\n\nStrategy: if a block looks unfamiliar, check whether it's one of these five before trying to split it.",
+  "tip": "Some conjuncts don't look like their parts. Learn these five as **whole shapes**.\n\n**ক্ষ** (ক + ষ) is the most important, and it is **not** said *ksh*. At the start of a word it is `kh` (ক্ষুধা `khudha`, *hunger*); in the middle it is a held `kkh` (শিক্ষক `shikkhok`, *teacher*).\n\n**ক্ত** = ক + ত (ডাক্তার `daktar`, *doctor*): the two letters melt into one new shape. Don't read it as a doubled `t`.\n\n**ঙ্গ** = ঙ + গ, `ngg` as in *finger* (লুঙ্গি `lunggi`, *lungi*). **ঞ্চ** = ঞ + চ, `nch` (পঞ্চাশ `ponchash`, *fifty*); ঞ almost never appears on its own. **ষ্ট** = ষ + ট, `sht` (মিষ্টি `mishti`, *sweet*).\n\n**Strategy**: when a block looks unfamiliar, check these five before trying to split it.",
   "vocab": [
     {
       "id": "cj-kkho",
@@ -47,80 +47,27 @@
       "type": "script_recognize",
       "glyph": "ক্ষ",
       "options": [
-        "kkho",
-        "to",
-        "go",
-        "sko"
+        "ksho (ক + ষ, said 'ksh')",
+        "kto (ক + ত)",
+        "kso (ক + স)",
+        "kkho (ক + ষ, said like a held kh)"
       ],
-      "answer": 0
+      "answer": 3
     },
     {
       "id": "e02",
       "type": "script_recognize",
       "glyph": "ক্ত",
       "options": [
-        "llo",
-        "kho",
-        "pa~ch",
-        "kto"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "e03",
-      "type": "script_recognize",
-      "glyph": "ঙ্গ",
-      "options": [
-        "ka",
-        "nggo",
-        "h",
-        "jho"
+        "tto (ত + ত, a held t)",
+        "kto (ক + ত)",
+        "kko (ক + ক, a held k)",
+        "kro (ক + র)"
       ],
       "answer": 1
     },
     {
-      "id": "e04",
-      "type": "script_recognize",
-      "glyph": "ঞ্চ",
-      "options": [
-        "shat",
-        "kkho",
-        "ncho",
-        "kto"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "e05",
-      "type": "script_recognize",
-      "glyph": "ষ্ট",
-      "options": [
-        "chhoy",
-        "gho",
-        "ho",
-        "shto"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "e06",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "লুঙ্গি",
-        "tr": "lunggi",
-        "en": "lungi"
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "morning",
-        "milk",
-        "person",
-        "lungi"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "e07",
+      "id": "e03",
       "type": "listen_select",
       "audio": {
         "bn": "ক্ষ",
@@ -128,31 +75,51 @@
         "en": "kkh / kh (ক + ষ), NOT 'ksh'"
       },
       "options": [
-        "কূ",
-        "৪",
+        "ক্ত",
+        "ষ্ট",
         "ক্ষ",
-        "র"
+        "স্ক"
       ],
       "answer": 2
     },
     {
-      "id": "e08",
-      "type": "listen_select",
-      "audio": {
-        "bn": "ক্ত",
-        "tr": "kto",
-        "en": "k + t (ক + ত)"
-      },
+      "id": "e04",
+      "type": "script_recognize",
+      "glyph": "ঙ্গ",
       "options": [
-        "ষ",
-        "কূ",
-        "ঠ",
-        "ক্ত"
+        "nggo (ঙ + গ, as in 'finger')",
+        "ngo (just ঙ, as in 'singer')",
+        "ndo (ন + দ)",
+        "nko (ঙ + ক)"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e05",
+      "type": "script_recognize",
+      "glyph": "ঞ্চ",
+      "options": [
+        "njo (ঞ + জ)",
+        "nchho (ঞ + ছ, with a puff)",
+        "nto (ন + ত)",
+        "ncho (ঞ + চ)"
       ],
       "answer": 3
     },
     {
-      "id": "e09",
+      "id": "e06",
+      "type": "script_recognize",
+      "glyph": "ষ্ট",
+      "options": [
+        "sto (স + ত)",
+        "shto (ষ + ট)",
+        "shtho (ষ + ঠ, with a puff)",
+        "kkho (ক + ষ)"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e07",
       "type": "listen_select",
       "audio": {
         "bn": "ঙ্গ",
@@ -160,15 +127,15 @@
         "en": "ng + g (ঙ + গ), as in 'finger'"
       },
       "options": [
-        "ঢ",
-        "কি",
-        "ল্ল",
-        "ঙ্গ"
+        "ঞ্চ",
+        "ন্দ",
+        "ঙ্গ",
+        "ক্ত"
       ],
-      "answer": 3
+      "answer": 2
     },
     {
-      "id": "e10",
+      "id": "e08",
       "type": "listen_select",
       "audio": {
         "bn": "ঞ্চ",
@@ -176,31 +143,68 @@
         "en": "n + ch (ঞ + চ)"
       },
       "options": [
-        "ঈ",
-        "ত",
         "ঞ্চ",
-        "উ"
+        "ন্ত",
+        "চ্চ",
+        "ঙ্গ"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e09",
+      "type": "script_recognize",
+      "glyph": "শিক্ষক",
+      "options": [
+        "shikshok (said with 'ksh')",
+        "shiktok (ক্ত, k + t)",
+        "shikkhok (ক্ষ in the middle: held kkh)",
+        "shikok (no kh at all)"
       ],
       "answer": 2
     },
     {
-      "id": "e11",
-      "type": "listen_select",
-      "audio": {
-        "bn": "ষ্ট",
-        "tr": "shto",
-        "en": "sh + hard t (ষ + ট)"
-      },
+      "id": "e10",
+      "type": "script_recognize",
+      "glyph": "ক্ষুধা",
       "options": [
-        "ড",
-        "ন্ধ",
-        "শ",
-        "ষ্ট"
+        "kkhudha (held kkh, as mid-word)",
+        "khudha (ক্ষ at the start: just kh)",
+        "kshudha (said with 'ksh')",
+        "kudha (no puff)"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e11",
+      "type": "script_recognize",
+      "glyph": "ডাক্তার",
+      "options": [
+        "daktar (ক্ত, k + t)",
+        "dattar (ত্ত, a held t)",
+        "dakhtar (খ + ত)",
+        "dantar (ন্ত, n + t)"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e12",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "পঞ্চাশ",
+        "tr": "ponchash",
+        "en": "fifty"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "forty",
+        "thirty",
+        "fifteen",
+        "fifty"
       ],
       "answer": 3
     },
     {
-      "id": "e12",
+      "id": "e13",
       "type": "listen_select",
       "audio": {
         "bn": "লুঙ্গি",
@@ -208,36 +212,53 @@
         "en": "lungi"
       },
       "options": [
-        "বুধবার",
-        "কাপ",
+        "মিষ্টি",
         "লুঙ্গি",
-        "মঙ্গলবার"
+        "ডাক্তার",
+        "শিক্ষক"
       ],
-      "answer": 2
+      "answer": 1
     },
     {
-      "id": "e13",
+      "id": "e14",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "মিষ্টি",
+        "tr": "mishti",
+        "en": "sweet"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "hunger",
+        "sweet",
+        "teacher",
+        "doctor"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e15",
       "type": "match_pairs",
       "pairs": [
-        {
-          "bn": "ক্ত",
-          "tr": "kto",
-          "en": "k + t (ক + ত)"
-        },
         {
           "bn": "ক্ষ",
           "tr": "kkho",
           "en": "kkh / kh (ক + ষ), NOT 'ksh'"
         },
         {
-          "bn": "ঞ্চ",
-          "tr": "ncho",
-          "en": "n + ch (ঞ + চ)"
+          "bn": "ক্ত",
+          "tr": "kto",
+          "en": "k + t (ক + ত)"
         },
         {
           "bn": "ঙ্গ",
           "tr": "nggo",
           "en": "ng + g (ঙ + গ), as in 'finger'"
+        },
+        {
+          "bn": "ঞ্চ",
+          "tr": "ncho",
+          "en": "n + ch (ঞ + চ)"
         },
         {
           "bn": "ষ্ট",

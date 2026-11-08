@@ -3,7 +3,7 @@
   "unit": "s04-conjuncts",
   "title": "Conjuncts 2: doubled letters",
   "status": "draft",
-  "tip": "When the same consonant is written twice, Bengali stacks it, and you **hold the sound longer**: আম্মু (`ammu`, *mom*) is *am-mu*, বাচ্চা (`bachcha`, *child*) is *bach-cha*.\n\n**ম্ম** and **ল্ল** look like two copies squeezed together (চল্লিশ `chollish`, *forty*). **ন্ন** stacks one ন on another (রান্না `ranna`, *cooking*). **চ্চ** puts a small চ on top of another.\n\n**চ্ছ** is চ + ছ, a held `ch` with a puff: শুভেচ্ছা (`shubhechchha`, *best wishes*).\n\nDoubling matters in Bengali; saying it short can sound like a different word or just 'foreign'. Clap twice for a double letter while you practise.",
+  "tip": "When the same consonant is written twice, Bengali fuses the two copies and you **hold the sound longer**, like the *k* in English *bookcase*: আম্মু (`ammu`, *mom*) is *am-mu*, বাচ্চা (`bachcha`, *child*) is *bach-cha*.\n\n**ম্ম**, **ল্ল** and **ন্ন** are two copies of one letter joined together: চল্লিশ (`chollish`, *forty*), রান্না (`ranna`, *cooking*). **চ্চ** stacks one চ on another. আব্বু (`abbu`, *dad*) uses the same idea with ব.\n\n**চ্চ vs চ্ছ**: চ্ছ is চ + ছ, a held `ch` that ends in a puff of air: শুভেচ্ছা (`shubhechchha`, *greetings*), আচ্ছা (`achchha`, *OK*). Look at the lower part: চ means no puff, ছ means a puff.\n\n**Doubling matters.** Saying আম্মু as *amu* sounds wrong to a Bengali ear. Clap twice for a double letter while you practise.",
   "vocab": [
     {
       "id": "cj-mmo",
@@ -47,97 +47,63 @@
       "type": "script_recognize",
       "glyph": "ম্ম",
       "options": [
-        "h",
-        "do",
-        "k",
-        "mmo"
+        "mo (a single ম)",
+        "mmo (ম + ম, a held m)",
+        "mno (ম + ন)",
+        "mbo (ম + ব)"
       ],
-      "answer": 3
+      "answer": 1
     },
     {
       "id": "e02",
       "type": "script_recognize",
       "glyph": "চ্চ",
       "options": [
-        "shunno",
-        "chcho",
-        "bho",
-        "ku"
+        "chchho (চ + ছ, held ch with a puff)",
+        "cho (a single চ)",
+        "chcho (চ + চ, a held ch)",
+        "chho (a single ছ)"
       ],
-      "answer": 1
+      "answer": 2
     },
     {
       "id": "e03",
       "type": "script_recognize",
       "glyph": "চ্ছ",
       "options": [
-        "nto",
-        "dho",
-        "rho",
-        "chchho"
+        "chchho (চ + ছ, a held ch ending in a puff)",
+        "chcho (চ + চ, no puff)",
+        "chhcho (ছ first, then চ)",
+        "chho (a single ছ)"
       ],
-      "answer": 3
+      "answer": 0
     },
     {
       "id": "e04",
       "type": "script_recognize",
       "glyph": "ল্ল",
       "options": [
-        "llo",
-        "cho",
-        "ng",
-        "ho"
+        "lo (a single ল)",
+        "lto (ল + ত)",
+        "lno (ল + ন)",
+        "llo (ল + ল, a held l)"
       ],
-      "answer": 0
+      "answer": 3
     },
     {
       "id": "e05",
       "type": "script_recognize",
       "glyph": "ন্ন",
       "options": [
-        "po",
-        "oi",
-        "nno",
-        "no"
+        "nto (ন + ত)",
+        "nno (ন + ন, a held n)",
+        "no (a single ন)",
+        "ndo (ন + দ)"
       ],
-      "answer": 2
+      "answer": 1
     },
     {
       "id": "e06",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "শুভেচ্ছা",
-        "tr": "shubhechchha",
-        "en": "greetings"
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "brother",
-        "name",
-        "teacher",
-        "greetings"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "e07",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "রান্না",
-        "tr": "ranna",
-        "en": "cooking"
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "cooking",
-        "egg",
-        "minute",
-        "the banana"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "e08",
       "type": "listen_select",
       "audio": {
         "bn": "ম্ম",
@@ -145,63 +111,15 @@
         "en": "double m (ম + ম)"
       },
       "options": [
-        "স্ত",
-        "ন্ত",
-        "ং",
-        "ম্ম"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "e09",
-      "type": "listen_select",
-      "audio": {
-        "bn": "চ্চ",
-        "tr": "chcho",
-        "en": "double ch (চ + চ)"
-      },
-      "options": [
-        "থ",
-        "ঘ",
-        "চ্চ",
-        "ন্ন"
+        "ন্ন",
+        "ল্ল",
+        "ম্ম",
+        "চ্চ"
       ],
       "answer": 2
     },
     {
-      "id": "e10",
-      "type": "listen_select",
-      "audio": {
-        "bn": "চ্ছ",
-        "tr": "chchho",
-        "en": "ch + chh (চ + ছ), a held, puffed ch"
-      },
-      "options": [
-        "চ্ছ",
-        "২",
-        "ল্ল",
-        "ন্দ"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "e11",
-      "type": "listen_select",
-      "audio": {
-        "bn": "ল্ল",
-        "tr": "llo",
-        "en": "double l (ল + ল)"
-      },
-      "options": [
-        "৯",
-        "স",
-        "ক্",
-        "ল্ল"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "e12",
+      "id": "e07",
       "type": "listen_select",
       "audio": {
         "bn": "ন্ন",
@@ -209,31 +127,68 @@
         "en": "double n (ন + ন)"
       },
       "options": [
-        "কু",
         "ন্ন",
-        "চ",
-        "ন্দ"
+        "ন্ত",
+        "ন্দ",
+        "ম্ম"
       ],
-      "answer": 1
+      "answer": 0
     },
     {
-      "id": "e13",
-      "type": "listen_select",
-      "audio": {
-        "bn": "শুভেচ্ছা",
-        "tr": "shubhechchha",
-        "en": "greetings"
-      },
+      "id": "e08",
+      "type": "script_recognize",
+      "glyph": "আম্মু",
       "options": [
-        "সময়",
-        "শুভেচ্ছা",
-        "বাবার",
-        "বছর"
+        "amu (one short m)",
+        "abbu (ব্ব, a held b)",
+        "anmu (ন + ম)",
+        "ammu (ম্ম, a held m)"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e09",
+      "type": "script_recognize",
+      "glyph": "বাচ্চা",
+      "options": [
+        "bachchha (চ্ছ, with a puff)",
+        "bachcha (চ্চ, a held ch)",
+        "bancha (ঞ্চ, n + ch)",
+        "batcha (ত + চ)"
       ],
       "answer": 1
     },
     {
-      "id": "e14",
+      "id": "e10",
+      "type": "script_recognize",
+      "glyph": "চল্লিশ",
+      "options": [
+        "chollish (ল্ল, a held l)",
+        "cholish (one short l)",
+        "chonlish (ন + ল)",
+        "chottish (ত্ত, a held t)"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e11",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "রান্না",
+        "tr": "ranna",
+        "en": "cooking"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "road",
+        "child",
+        "cooking",
+        "evening"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e12",
       "type": "listen_select",
       "audio": {
         "bn": "রান্না",
@@ -241,21 +196,64 @@
         "en": "cooking"
       },
       "options": [
-        "বন্ধু",
-        "গরুর",
-        "রান্না",
-        "কলা"
+        "রাস্তা",
+        "শান্ত",
+        "বাচ্চা",
+        "রান্না"
       ],
-      "answer": 2
+      "answer": 3
+    },
+    {
+      "id": "e13",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "শুভেচ্ছা",
+        "tr": "shubhechchha",
+        "en": "greetings"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "greetings",
+        "cooking",
+        "friend",
+        "forty"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e14",
+      "type": "listen_select",
+      "audio": {
+        "bn": "শুভেচ্ছা",
+        "tr": "shubhechchha",
+        "en": "greetings"
+      },
+      "options": [
+        "আচ্ছা",
+        "শুভেচ্ছা",
+        "বাচ্চা",
+        "খাচ্ছি"
+      ],
+      "answer": 1
     },
     {
       "id": "e15",
       "type": "match_pairs",
       "pairs": [
         {
+          "bn": "ম্ম",
+          "tr": "mmo",
+          "en": "double m (ম + ম)"
+        },
+        {
           "bn": "চ্চ",
           "tr": "chcho",
           "en": "double ch (চ + চ)"
+        },
+        {
+          "bn": "চ্ছ",
+          "tr": "chchho",
+          "en": "ch + chh (চ + ছ), a held, puffed ch"
         },
         {
           "bn": "ল্ল",
@@ -263,19 +261,9 @@
           "en": "double l (ল + ল)"
         },
         {
-          "bn": "ম্ম",
-          "tr": "mmo",
-          "en": "double m (ম + ম)"
-        },
-        {
-          "bn": "ন্ন",
-          "tr": "nno",
-          "en": "double n (ন + ন)"
-        },
-        {
-          "bn": "চ্ছ",
-          "tr": "chchho",
-          "en": "ch + chh (চ + ছ), a held, puffed ch"
+          "bn": "আলহামদুলিল্লাহ",
+          "tr": "alhamdulillah",
+          "en": "praise be to God"
         }
       ]
     }
