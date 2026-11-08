@@ -1,0 +1,771 @@
+{
+  "unit": "u06-bazaar",
+  "lessons": [
+    {
+      "id": "u06-l01",
+      "title": "How much?",
+      "goal": "Ask the price of things at a market or shop.",
+      "grammar": [
+        "কত 'how much' goes where the answer goes: দাম কত?",
+        "genitive -র / -এর: এটার দাম, ইলিশের দাম",
+        "locative -এ: বাজারে 'at the market'"
+      ],
+      "new": [
+        "bajar",
+        "bajare",
+        "dokan",
+        "dokandar",
+        "dam",
+        "koto",
+        "etar",
+        "ilisher"
+      ],
+      "review": [
+        "eta",
+        "bhai",
+        "kothay",
+        "ami",
+        "achhi",
+        "amar"
+      ],
+      "tip": "To ask a price, say **দাম কত?** (*dam koto?*) — literally 'price how-much?'. Like কী in Unit 1, **কত** sits where the answer will go, so no word order change is needed.\n\nTo say *whose* price, add the genitive ending: **-র** after a vowel (এটা → **এটার**, 'of this') and **-এর** after a consonant (ইলিশ → **ইলিশের**, 'of the hilsa'). So **ইলিশের দাম কত?** = 'How much is the hilsa?'.\n\nThe ending **-এ** means 'at / in': **বাজারে** = 'at the market'. Location needs **আছি / আছে**: **আমি বাজারে আছি** 'I am at the market'.\n\n**Culture:** in a Bangladeshi bazaar you call the shopkeeper **ভাই** (brother) or **মামা** (uncle) rather than 'excuse me'.",
+      "sentences": [
+        {
+          "bn": "দাম কত?",
+          "tr": "dam koto?",
+          "en": "What's the price?",
+          "alt": [
+            "How much is it?",
+            "How much?"
+          ]
+        },
+        {
+          "bn": "এটা কত?",
+          "tr": "eta koto?",
+          "en": "How much is this?",
+          "alt": [
+            "How much is it?"
+          ]
+        },
+        {
+          "bn": "ভাই, এটার দাম কত?",
+          "tr": "bhai, etar dam koto?",
+          "en": "Brother, how much is this?",
+          "alt": [
+            "What's the price of this, brother?"
+          ]
+        },
+        {
+          "bn": "ইলিশের দাম কত?",
+          "tr": "ilisher dam koto?",
+          "en": "How much is the hilsa?",
+          "alt": [
+            "What's the price of the hilsa?"
+          ]
+        },
+        {
+          "bn": "বাজার কোথায়?",
+          "tr": "bajar kothay?",
+          "en": "Where is the market?"
+        },
+        {
+          "bn": "দোকান কোথায়?",
+          "tr": "dokan kothay?",
+          "en": "Where is the shop?"
+        },
+        {
+          "bn": "দোকানদার কোথায়?",
+          "tr": "dokandar kothay?",
+          "en": "Where is the shopkeeper?"
+        },
+        {
+          "bn": "আমি বাজারে আছি।",
+          "tr": "ami bajare achhi.",
+          "en": "I am at the market.",
+          "alt": [
+            "I'm at the market."
+          ]
+        },
+        {
+          "bn": "এটা আমার দোকান।",
+          "tr": "eta amar dokan.",
+          "en": "This is my shop."
+        }
+      ]
+    },
+    {
+      "id": "u06-l02",
+      "title": "Taka & prices",
+      "goal": "Understand and say prices in taka.",
+      "grammar": [
+        "number + টাকা: পঞ্চাশ টাকা",
+        "zero copula with prices: চা দশ টাকা",
+        "hundreds: দুইশ, পাঁচশ"
+      ],
+      "new": [
+        "taka",
+        "poysha",
+        "duisho",
+        "pachsho"
+      ],
+      "review": [
+        "ponchash",
+        "dam",
+        "eksho",
+        "eta",
+        "bish",
+        "cha",
+        "dosh",
+        "ilish",
+        "ek",
+        "hajar"
+      ],
+      "tip": "Prices are just **number + টাকা** (*taka*): **পঞ্চাশ টাকা** 'fifty taka', **একশ টাকা** 'a hundred taka'. With no 'is' in the present, **চা দশ টাকা** simply means 'Tea (is) ten taka'.\n\nHundreds are built with **-শ** (*-sho*): **একশ** 100, **দুইশ** 200, **পাঁচশ** 500. A thousand is **হাজার** — **এক হাজার টাকা** = ৳1,000.\n\nA taka is 100 **পয়সা** (*poysha*). You'll rarely handle poysha coins today, but the word survives in expressions about money.\n\n**Listening tip:** Bengali numbers are irregular, so shopkeepers' quick answers are the hardest part of the bazaar. Don't be shy to ask again: **কত?**",
+      "sentences": [
+        {
+          "bn": "পঞ্চাশ টাকা।",
+          "tr": "ponchash taka.",
+          "en": "Fifty taka."
+        },
+        {
+          "bn": "দাম একশ টাকা।",
+          "tr": "dam eksho taka.",
+          "en": "The price is a hundred taka.",
+          "alt": [
+            "It's a hundred taka."
+          ]
+        },
+        {
+          "bn": "এটা বিশ টাকা।",
+          "tr": "eta bish taka.",
+          "en": "This is twenty taka.",
+          "alt": [
+            "It's twenty taka."
+          ]
+        },
+        {
+          "bn": "চা দশ টাকা।",
+          "tr": "cha dosh taka.",
+          "en": "Tea is ten taka.",
+          "alt": [
+            "The tea is ten taka."
+          ]
+        },
+        {
+          "bn": "ইলিশ এক হাজার টাকা।",
+          "tr": "ilish ek hajar taka.",
+          "en": "The hilsa is a thousand taka.",
+          "alt": [
+            "Hilsa is one thousand taka."
+          ]
+        },
+        {
+          "bn": "দাম দুইশ টাকা।",
+          "tr": "dam duisho taka.",
+          "en": "The price is two hundred taka.",
+          "alt": [
+            "It's two hundred taka."
+          ]
+        },
+        {
+          "bn": "পাঁচশ টাকা।",
+          "tr": "pa~chsho taka.",
+          "en": "Five hundred taka."
+        },
+        {
+          "bn": "এক টাকা একশ পয়সা।",
+          "tr": "ek taka eksho poysha.",
+          "en": "One taka is a hundred poisha.",
+          "alt": [
+            "One taka is one hundred poisha."
+          ]
+        },
+        {
+          "bn": "কত টাকা?",
+          "tr": "koto taka?",
+          "en": "How many taka?",
+          "alt": [
+            "How much money?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u06-l03",
+      "title": "Please give me…",
+      "goal": "Ask for things using the right imperative for each person.",
+      "grammar": [
+        "imperative by formality: দে (tui) · দাও (tumi) · দেন (apni, BD colloquial) · দিন (apni, standard)",
+        "আমাকে 'to me'",
+        "একটা / একটু: one (countable) vs a little"
+      ],
+      "new": [
+        "amake",
+        "den",
+        "din-give",
+        "dao",
+        "de",
+        "ektu"
+      ],
+      "review": [
+        "ekta",
+        "ilish",
+        "cha",
+        "pani",
+        "am",
+        "bhai",
+        "kola",
+        "apu",
+        "mama",
+        "dim"
+      ],
+      "tip": "Bengali commands change with the same three levels of 'you'. For 'give':\n\n- **দে** (*de*) — তুই (close friends, little brother)\n- **দাও** (*dao*) — তুমি\n- **দেন** (*den*) — আপনি, everyday Bangladesh\n- **দিন** (*din*) — আপনি, standard / formal (and the usual form in Kolkata)\n\nThere is no separate word for 'please' in requests like these: the polite verb form *is* the politeness. **আমাকে চা দিন** = 'Please give me tea'.\n\n**আমাকে** (*amake*) is 'me' as an object. **একটা** = 'one, a' (for things you count); **একটু** = 'a little' (for things you don't): **একটু পানি দাও** 'give me a little water'.\n\n**Culture:** shopkeepers are often addressed as **মামা** or **ভাই** — friendly, respectful, and with দেন.",
+      "sentences": [
+        {
+          "bn": "আমাকে একটা ইলিশ দেন।",
+          "tr": "amake ekta ilish den.",
+          "en": "Please give me a hilsa.",
+          "alt": [
+            "Give me one hilsa, please."
+          ]
+        },
+        {
+          "bn": "আমাকে চা দিন।",
+          "tr": "amake cha din.",
+          "en": "Please give me tea.",
+          "alt": [
+            "Give me tea, please."
+          ]
+        },
+        {
+          "bn": "একটু পানি দাও।",
+          "tr": "ektu pani dao.",
+          "en": "Give me a little water.",
+          "alt": [
+            "Give me some water."
+          ]
+        },
+        {
+          "bn": "আমাকে একটা আম দে।",
+          "tr": "amake ekta am de.",
+          "en": "Give me a mango.",
+          "alt": [
+            "Give me one mango."
+          ]
+        },
+        {
+          "bn": "ভাই, একটা কলা দেন।",
+          "tr": "bhai, ekta kola den.",
+          "en": "Brother, please give me a banana.",
+          "alt": [
+            "Give me a banana, brother."
+          ]
+        },
+        {
+          "bn": "আপু, পানি দাও।",
+          "tr": "apu, pani dao.",
+          "en": "Apu, give me water.",
+          "alt": [
+            "Sister, give me some water."
+          ]
+        },
+        {
+          "bn": "মামা, আমাকে একটা ডিম দেন।",
+          "tr": "mama, amake ekta dim den.",
+          "en": "Mama, please give me an egg.",
+          "alt": [
+            "Uncle, give me an egg, please."
+          ]
+        },
+        {
+          "bn": "আমাকে একটু ভাত দিন।",
+          "tr": "amake ektu bhat din.",
+          "en": "Please give me a little rice.",
+          "alt": [
+            "Give me some rice, please."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u06-l04",
+      "title": "This one, those ones",
+      "goal": "Point at goods: this one, that one, these, those.",
+      "grammar": [
+        "এই / ওই + noun: এই দোকানদার",
+        "এইটা / ওইটা 'this one / that one'",
+        "-টা 'the (one)', -গুলো 'the (ones)': মাছটা, কলাগুলো"
+      ],
+      "new": [
+        "ei",
+        "oi",
+        "eita",
+        "oita",
+        "eigulo",
+        "oigulo",
+        "machhta",
+        "dokanta"
+      ],
+      "review": [
+        "koto",
+        "den",
+        "na",
+        "bhalo",
+        "kolagulo",
+        "dokandar",
+        "amar",
+        "bondhu"
+      ],
+      "tip": "**এই** (*ei*) 'this' and **ওই** (*oi*) 'that' go before a noun: **এই দোকানদার** 'this shopkeeper'. On their own, add **-টা**: **এইটা** 'this one', **ওইটা** 'that one' — perfect for pointing at a pile of fruit.\n\nThe classifier **-টা** on a noun makes it specific, like 'the': **মাছটা** 'the fish (that one)'. **-গুলো** makes it specific *and* plural: **কলাগুলো** 'the bananas', **এইগুলো** 'these ones'.\n\nIn speech you'll often hear **এই মাছটা** — both 'this' and -টা together. That's normal, not redundant.\n\n'Not this one, that one' is simply **এইটা না, ওইটা।**",
+      "sentences": [
+        {
+          "bn": "এইটা কত?",
+          "tr": "eita koto?",
+          "en": "How much is this one?",
+          "alt": [
+            "How much is this?"
+          ]
+        },
+        {
+          "bn": "ওইটা দেন।",
+          "tr": "oita den.",
+          "en": "Please give me that one.",
+          "alt": [
+            "Give me that one."
+          ]
+        },
+        {
+          "bn": "এইটা না, ওইটা।",
+          "tr": "eita na, oita.",
+          "en": "Not this one, that one."
+        },
+        {
+          "bn": "এইগুলো কত?",
+          "tr": "eigulo koto?",
+          "en": "How much are these?",
+          "alt": [
+            "How much are these ones?"
+          ]
+        },
+        {
+          "bn": "ওইগুলো ভালো না।",
+          "tr": "oigulo bhalo na.",
+          "en": "Those aren't good.",
+          "alt": [
+            "Those are not good."
+          ]
+        },
+        {
+          "bn": "ওই মাছটা দেন।",
+          "tr": "oi machhta den.",
+          "en": "Please give me that fish.",
+          "alt": [
+            "Give me that fish."
+          ]
+        },
+        {
+          "bn": "এই কলাগুলো কত?",
+          "tr": "ei kolagulo koto?",
+          "en": "How much are these bananas?"
+        },
+        {
+          "bn": "ওই দোকানটা ভালো।",
+          "tr": "oi dokanta bhalo.",
+          "en": "That shop is good."
+        },
+        {
+          "bn": "এই দোকানদার আমার বন্ধু।",
+          "tr": "ei dokandar amar bondhu.",
+          "en": "This shopkeeper is my friend."
+        }
+      ]
+    },
+    {
+      "id": "u06-l05",
+      "title": "Kilos, halis & vegetables",
+      "goal": "Buy vegetables and eggs by weight and by count; say what you need.",
+      "grammar": [
+        "number + measure + noun: দুই কেজি আলু",
+        "হালি = a set of four",
+        "need: experiencer-র + লাগবে: আমার আলু লাগবে",
+        "'per kilo': টমেটোর কেজি কত? / আলু পঞ্চাশ টাকা কেজি"
+      ],
+      "new": [
+        "keji",
+        "hali",
+        "dozon",
+        "alu",
+        "peyaj",
+        "tometo",
+        "tometor",
+        "adha",
+        "lagbe"
+      ],
+      "review": [
+        "amar",
+        "dui",
+        "ek",
+        "koto",
+        "dim",
+        "den",
+        "kola",
+        "ponchash",
+        "taka",
+        "din-give"
+      ],
+      "tip": "Quantities go **number + measure + item**, with no 'of': **দুই কেজি আলু** 'two kilos (of) potatoes', **এক ডজন কলা** 'a dozen bananas'.\n\nEggs and bananas are often sold by the **হালি** (*hali*) — a set of **four**. **এক হালি ডিম** = 4 eggs. Ask for 'a dozen' and you may get three halis!\n\nTo say you **need** something, the person goes in the -র form and the verb is **লাগবে** (*lagbe*): **আমার পেঁয়াজ লাগবে** 'I need onions' — literally 'to-me onions will-be-needed'.\n\nBangladeshi vendors quote prices **per kilo**: **আলু পঞ্চাশ টাকা কেজি** 'potatoes are 50 taka a kilo'. To ask, say **টমেটোর কেজি কত?** 'How much is a kilo of tomatoes?'",
+      "sentences": [
+        {
+          "bn": "আমার দুই কেজি আলু লাগবে।",
+          "tr": "amar dui keji alu lagbe.",
+          "en": "I need two kilos of potatoes."
+        },
+        {
+          "bn": "এক কেজি পেঁয়াজ কত?",
+          "tr": "ek keji pe~yaj koto?",
+          "en": "How much is a kilo of onions?",
+          "alt": [
+            "How much for one kilo of onions?"
+          ]
+        },
+        {
+          "bn": "এক হালি ডিম দেন।",
+          "tr": "ek hali dim den.",
+          "en": "Please give me four eggs.",
+          "alt": [
+            "Give me a hali of eggs, please."
+          ]
+        },
+        {
+          "bn": "এক ডজন কলা কত?",
+          "tr": "ek dozon kola koto?",
+          "en": "How much is a dozen bananas?",
+          "alt": [
+            "How much for a dozen bananas?"
+          ]
+        },
+        {
+          "bn": "টমেটোর কেজি কত?",
+          "tr": "tometor keji koto?",
+          "en": "How much is a kilo of tomatoes?",
+          "alt": [
+            "How much are tomatoes per kilo?"
+          ]
+        },
+        {
+          "bn": "আমার পেঁয়াজ লাগবে।",
+          "tr": "amar pe~yaj lagbe.",
+          "en": "I need onions."
+        },
+        {
+          "bn": "আধা কেজি টমেটো দেন।",
+          "tr": "adha keji tometo den.",
+          "en": "Please give me half a kilo of tomatoes."
+        },
+        {
+          "bn": "আলু পঞ্চাশ টাকা কেজি।",
+          "tr": "alu ponchash taka keji.",
+          "en": "Potatoes are fifty taka a kilo.",
+          "alt": [
+            "Potatoes are fifty taka per kilo."
+          ]
+        },
+        {
+          "bn": "এক হালি কলা দিন।",
+          "tr": "ek hali kola din.",
+          "en": "Please give me four bananas.",
+          "alt": [
+            "Give me a hali of bananas, please."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u06-l06",
+      "title": "Haggling",
+      "goal": "Bargain politely, accept a price, or say no thanks.",
+      "grammar": [
+        "রাখেন 'keep (it at)': দাম একটু কম রাখেন",
+        "এত … কেন? 'why so …?'",
+        "লাগবে না = 'don't need it' (polite no-thanks)",
+        "ঠিক আছে = OK"
+      ],
+      "new": [
+        "kom",
+        "beshi",
+        "rakhen",
+        "eto",
+        "keno",
+        "shesh",
+        "lagbe-na",
+        "thik-achhe",
+        "shosta",
+        "dami"
+      ],
+      "review": [
+        "dam",
+        "ektu",
+        "koto",
+        "onek",
+        "na",
+        "den",
+        "eta",
+        "khub",
+        "oita",
+        "duisho"
+      ],
+      "tip": "Bargaining is normal in a bazaar (not in fixed-price shops or supermarkets). Three chunks get you a long way:\n\n- **দাম একটু কম রাখেন।** — 'Lower the price a little, please.' (lit. 'keep the price a little less')\n- **এত দাম কেন?** — 'Why so expensive?'\n- **শেষ দাম কত?** — 'What's your final price?'\n\n**রাখেন** (*rakhen*) is the polite command of 'keep'; with a price it means 'make it…': **দুইশ টাকা রাখেন** 'make it 200 taka'. Standard/Kolkata: **রাখুন**.\n\nTo say no, **লাগবে না** ('I don't need it') is polite and final. To agree: **ঠিক আছে** 'OK'.\n\nNegation of adjectives is easy in speech: just add **না** — **ভালো না** 'not good'.",
+      "sentences": [
+        {
+          "bn": "দাম একটু কম রাখেন।",
+          "tr": "dam ektu kom rakhen.",
+          "en": "Please lower the price a little.",
+          "alt": [
+            "Make it a little cheaper, please."
+          ]
+        },
+        {
+          "bn": "এত দাম কেন?",
+          "tr": "eto dam keno?",
+          "en": "Why is it so expensive?",
+          "alt": [
+            "Why so expensive?",
+            "Why is the price so high?"
+          ]
+        },
+        {
+          "bn": "শেষ দাম কত?",
+          "tr": "shesh dam koto?",
+          "en": "What's the final price?",
+          "alt": [
+            "What's your last price?"
+          ]
+        },
+        {
+          "bn": "দাম অনেক বেশি।",
+          "tr": "dam onek beshi.",
+          "en": "The price is too high.",
+          "alt": [
+            "It's too expensive.",
+            "The price is very high."
+          ]
+        },
+        {
+          "bn": "না, লাগবে না।",
+          "tr": "na, lagbe na.",
+          "en": "No, I don't need it.",
+          "alt": [
+            "No, thanks."
+          ]
+        },
+        {
+          "bn": "ঠিক আছে, দেন।",
+          "tr": "thik achhe, den.",
+          "en": "OK, give it to me.",
+          "alt": [
+            "OK, I'll take it."
+          ]
+        },
+        {
+          "bn": "এটা খুব দামি।",
+          "tr": "eta khub dami.",
+          "en": "This is very expensive."
+        },
+        {
+          "bn": "ওইটা সস্তা।",
+          "tr": "oita shosta.",
+          "en": "That one is cheap."
+        },
+        {
+          "bn": "দুইশ টাকা রাখেন।",
+          "tr": "duisho taka rakhen.",
+          "en": "Make it two hundred taka.",
+          "alt": [
+            "Please make it 200 taka."
+          ]
+        },
+        {
+          "bn": "শেষ দাম একশ টাকা।",
+          "tr": "shesh dam eksho taka.",
+          "en": "The final price is a hundred taka.",
+          "alt": [
+            "The last price is 100 taka."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u06-l07",
+      "title": "Clothes shopping",
+      "goal": "Shop for saris, shirts and lungis; say what you will buy; ask for change.",
+      "grammar": [
+        "future 1st person -ব: কিনব 'I will buy'; polite -বেন: কিনবেন",
+        "negative future: কিনব না",
+        "ভাংতি আছে? 'do you have change?'"
+      ],
+      "new": [
+        "shari",
+        "sharita",
+        "jama",
+        "jamata",
+        "lunggi",
+        "kinbo",
+        "kinben",
+        "bhangti"
+      ],
+      "review": [
+        "ami",
+        "ekta",
+        "ei",
+        "koto",
+        "oi",
+        "lal",
+        "apni",
+        "ki-what",
+        "na",
+        "achhe"
+      ],
+      "tip": "The future for 'I' ends in **-ব** (*-bo*): কেনা 'buy' → **কিনব** (*kinbo*) 'I will buy'. For আপনি it's **-বেন**: **কিনবেন** 'you will buy'. Put **না** after the verb to negate: **কিনব না** 'I won't buy'.\n\nUseful words: **শাড়ি** (sari), **জামা** (shirt / top / dress), **লুঙ্গি** (the wrap many Bangladeshi men wear at home). Colours go before the noun: **লাল শাড়ি** 'a red sari'.\n\nBefore paying with a big note, ask **ভাংতি আছে?** 'Do you have change?' — in Kolkata it's **খুচরো** (*khuchro*).\n\n**Culture:** red-and-white saris are the classic choice for Pohela Boishakh (Bengali New Year), which you'll meet in Unit 10.",
+      "sentences": [
+        {
+          "bn": "আমি একটা শাড়ি কিনব।",
+          "tr": "ami ekta shari kinbo.",
+          "en": "I will buy a sari.",
+          "alt": [
+            "I'll buy a sari."
+          ]
+        },
+        {
+          "bn": "এই জামাটা কত?",
+          "tr": "ei jamata koto?",
+          "en": "How much is this shirt?",
+          "alt": [
+            "How much is this top?"
+          ]
+        },
+        {
+          "bn": "আমি একটা লুঙ্গি কিনব।",
+          "tr": "ami ekta lunggi kinbo.",
+          "en": "I will buy a lungi.",
+          "alt": [
+            "I'll buy a lungi."
+          ]
+        },
+        {
+          "bn": "ওই লাল শাড়িটা কত?",
+          "tr": "oi lal sharita koto?",
+          "en": "How much is that red sari?"
+        },
+        {
+          "bn": "আপনি কী কিনবেন?",
+          "tr": "apni ki kinben?",
+          "en": "What will you buy?",
+          "alt": [
+            "What are you going to buy?"
+          ]
+        },
+        {
+          "bn": "আমি জামা কিনব না।",
+          "tr": "ami jama kinbo na.",
+          "en": "I won't buy a shirt.",
+          "alt": [
+            "I will not buy a shirt."
+          ]
+        },
+        {
+          "bn": "ভাংতি আছে?",
+          "tr": "bhangti achhe?",
+          "en": "Do you have change?",
+          "alt": [
+            "Is there change?"
+          ]
+        },
+        {
+          "bn": "ভাংতি নেই।",
+          "tr": "bhangti nei.",
+          "en": "I don't have change.",
+          "alt": [
+            "There's no change.",
+            "No change."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u06-l08",
+      "title": "Review: at the bazaar",
+      "goal": "Put the whole bazaar visit together.",
+      "grammar": [
+        "review: imperatives, লাগবে, -টা/-গুলো, haggling chunks",
+        "আর কিছু 'anything else'"
+      ],
+      "new": [
+        "byag"
+      ],
+      "review": [
+        "ar",
+        "kichhu",
+        "lagbe",
+        "na",
+        "lagbe-na",
+        "ek",
+        "keji",
+        "alu",
+        "hali",
+        "dim"
+      ],
+      "tip": "A full bazaar exchange:\n\n- **ভাই, টমেটোর কেজি কত?** — **পঞ্চাশ টাকা।**\n- **এক কেজি দেন। দাম একটু কম রাখেন।** — **ঠিক আছে।**\n- **আর কিছু লাগবে?** — **না, আর কিছু লাগবে না।**\n\n**আর কিছু** (*ar kichhu*) = 'anything else' — you'll hear it from every vendor. Bring your own **ব্যাগ** (bag): many markets now discourage plastic.\n\nRemember the levels: **দে / দাও / দেন (দিন)**. With shopkeepers, always use the আপনি forms.",
+      "sentences": [
+        {
+          "bn": "আর কিছু লাগবে?",
+          "tr": "ar kichhu lagbe?",
+          "en": "Do you need anything else?",
+          "alt": [
+            "Anything else?"
+          ]
+        },
+        {
+          "bn": "না, আর কিছু লাগবে না।",
+          "tr": "na, ar kichhu lagbe na.",
+          "en": "No, I don't need anything else.",
+          "alt": [
+            "No, nothing else."
+          ]
+        },
+        {
+          "bn": "এক কেজি আলু আর এক হালি ডিম দেন।",
+          "tr": "ek keji alu ar ek hali dim den.",
+          "en": "Please give me a kilo of potatoes and four eggs."
+        },
+        {
+          "bn": "শেষ দাম কত, ভাই?",
+          "tr": "shesh dam koto, bhai?",
+          "en": "What's the final price, brother?"
+        },
+        {
+          "bn": "এইগুলো খুব দামি।",
+          "tr": "eigulo khub dami.",
+          "en": "These are very expensive."
+        },
+        {
+          "bn": "একটা ব্যাগ দেন।",
+          "tr": "ekta byag den.",
+          "en": "Please give me a bag.",
+          "alt": [
+            "Give me a bag, please."
+          ]
+        },
+        {
+          "bn": "আমার একটা লুঙ্গি লাগবে।",
+          "tr": "amar ekta lunggi lagbe.",
+          "en": "I need a lungi."
+        },
+        {
+          "bn": "ঠিক আছে, দুইশ টাকা রাখেন।",
+          "tr": "thik achhe, duisho taka rakhen.",
+          "en": "OK, make it two hundred taka."
+        }
+      ]
+    }
+  ]
+}

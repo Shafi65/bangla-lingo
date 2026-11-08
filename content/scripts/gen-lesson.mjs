@@ -30,7 +30,9 @@ const glosses = (e) => new Set([e.en, ...(e.alt ?? [])].map((s) => s.toLowerCase
 
 const newE = P.new.map(lex);
 const reviewE = P.review.map(lex);
-const known = knownAt(ctx, lessonId);
+const previewE = (P.preview ?? []).map(lex);
+// Main-track lessons draw distractors only from main-track words (not alphabet example words).
+const known = knownAt(ctx, lessonId).filter((e) => unit.track === "script" || ctx.units.get(e._unit)?.track === "main");
 const knownWords = known.filter((e) => e.pos !== "phrase" && e.pos !== "letter" && !e.bn.includes(" "));
 const isScript = unit.track === "script";
 
@@ -57,7 +59,7 @@ const letters = newE.filter((e) => e.pos === "letter");
 const words = newE.filter((e) => e.pos !== "letter" && e.pos !== "name");
 // 1+2) Item exercises, round-robin so every new item gets its 1st exercise before any gets a 2nd.
 const letterPool = known.filter((e) => e.pos === "letter");
-const wordPool = [...knownWords, ...known.filter((k) => k.pos === "phrase")];
+const wordPool = [...knownWords, ...known.filter((k) => k.pos === "phrase"), ...previewE];
 if (isScript) MAX = 15;
 const itemEx = (e) => e.pos === "letter"
   ? [
@@ -68,7 +70,7 @@ const itemEx = (e) => e.pos === "letter"
       () => ({ type: "select_translation", prompt: bt(e), direction: "bn_to_en", ...options(e.en, distractorEntries(e, wordPool).map((d) => d.en)) }),
       () => ({ type: "listen_select", audio: bt(e), ...options(e.bn, distractorEntries(e, isScript ? wordPool : knownWords).map((d) => d.bn)) }),
     ];
-const items = [...letters, ...words];
+const items = [...letters, ...words, ...previewE.filter((e) => e.pos !== "letter")];
 let wordBudget = MAX - sentenceBudget - 1 /* match */;
 for (let round = 0; round < 2; round++) {
   for (const e of items) {
@@ -99,7 +101,8 @@ S.forEach((s, i) => {
   const prompt = { bn: s.bn, tr: s.tr, en: s.en };
   if (kind === "word_bank_bn") {
     const answer = enTiles(s.en);
-    const lower = new Set(answer.map((w) => w.toLowerCase()));
+    // never offer a distractor that would form another accepted translation (He/She, I'm/I am…)
+    const lower = new Set([s.en, ...(s.alt ?? [])].flatMap(enTiles).map((w) => w.toLowerCase()));
     const distract = pick(enWordPool.filter((w) => !lower.has(w.toLowerCase())), 3);
     add({ type: "word_bank", prompt, direction: "bn_to_en", tiles: shuffle([...answer, ...distract], rand), answer });
   } else if (kind === "word_bank_en") {

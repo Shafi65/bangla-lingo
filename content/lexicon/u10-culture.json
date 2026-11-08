@@ -1,0 +1,757 @@
+{
+  "unit": "u10-culture",
+  "entries": [
+    {
+      "id": "id-mubarak",
+      "bn": "ঈদ মোবারক",
+      "tr": "id mubarak",
+      "en": "Eid Mubarak",
+      "alt": [
+        "happy Eid",
+        "blessed Eid"
+      ],
+      "pos": "phrase",
+      "lesson": "u10-l01",
+      "notes": "Reply with the same words. Also heard as 'id mobarok'."
+    },
+    {
+      "id": "ide",
+      "bn": "ঈদে",
+      "tr": "ide",
+      "en": "at Eid",
+      "alt": [
+        "on Eid",
+        "for Eid"
+      ],
+      "pos": "noun",
+      "lesson": "u10-l01"
+    },
+    {
+      "id": "ider",
+      "bn": "ঈদের",
+      "tr": "ider",
+      "en": "of Eid",
+      "alt": [
+        "Eid's",
+        "Eid"
+      ],
+      "pos": "noun",
+      "lesson": "u10-l01"
+    },
+    {
+      "id": "shemai",
+      "bn": "সেমাই",
+      "tr": "shemai",
+      "en": "shemai",
+      "alt": [
+        "vermicelli",
+        "sweet vermicelli"
+      ],
+      "pos": "noun",
+      "lesson": "u10-l01",
+      "notes": "Sweet milky vermicelli — the signature Eid-morning dish."
+    },
+    {
+      "id": "shalami",
+      "bn": "সালামি",
+      "tr": "shalami",
+      "en": "Eid money",
+      "alt": [
+        "salami",
+        "Eidi"
+      ],
+      "pos": "noun",
+      "lesson": "u10-l01",
+      "notes": "Cash gift elders give children (and younger relatives) after they greet them with salam at Eid."
+    },
+    {
+      "id": "notun",
+      "bn": "নতুন",
+      "tr": "notun",
+      "en": "new",
+      "pos": "adj",
+      "lesson": "u10-l01"
+    },
+    {
+      "id": "romjan",
+      "bn": "রমজান",
+      "tr": "romjan",
+      "en": "Ramadan",
+      "alt": [
+        "Ramzan"
+      ],
+      "pos": "noun",
+      "lesson": "u10-l02"
+    },
+    {
+      "id": "romjane",
+      "bn": "রমজানে",
+      "tr": "romjane",
+      "en": "in Ramadan",
+      "alt": [
+        "during Ramadan"
+      ],
+      "pos": "noun",
+      "lesson": "u10-l02"
+    },
+    {
+      "id": "roja",
+      "bn": "রোজা",
+      "tr": "roja",
+      "en": "fast",
+      "alt": [
+        "fasting",
+        "the fast"
+      ],
+      "pos": "noun",
+      "lesson": "u10-l02",
+      "notes": "রোজা রাখা = to fast."
+    },
+    {
+      "id": "rakhi",
+      "bn": "রাখি",
+      "tr": "rakhi",
+      "en": "I keep",
+      "alt": [
+        "keep",
+        "we keep"
+      ],
+      "pos": "verb",
+      "lesson": "u10-l02",
+      "notes": "রোজা রাখি 'I fast'."
+    },
+    {
+      "id": "iftar",
+      "bn": "ইফতার",
+      "tr": "iftar",
+      "en": "iftar",
+      "alt": [
+        "the evening meal that breaks the fast"
+      ],
+      "pos": "noun",
+      "lesson": "u10-l02"
+    },
+    {
+      "id": "iftare",
+      "bn": "ইফতারে",
+      "tr": "iftare",
+      "en": "at iftar",
+      "alt": [
+        "for iftar"
+      ],
+      "pos": "noun",
+      "lesson": "u10-l02"
+    },
+    {
+      "id": "khejur",
+      "bn": "খেজুর",
+      "tr": "khejur",
+      "en": "dates",
+      "alt": [
+        "date",
+        "date palm"
+      ],
+      "pos": "noun",
+      "lesson": "u10-l02",
+      "notes": "The fast is traditionally broken with a date."
+    },
+    {
+      "id": "sehri",
+      "bn": "সেহরি",
+      "tr": "sehri",
+      "en": "sehri",
+      "alt": [
+        "suhoor",
+        "pre-dawn meal"
+      ],
+      "pos": "noun",
+      "lesson": "u10-l02",
+      "notes": "Meal eaten before dawn during Ramadan."
+    },
+    {
+      "id": "pohela-boishakh",
+      "bn": "পহেলা বৈশাখ",
+      "tr": "pohela boishakh",
+      "en": "Pohela Boishakh",
+      "alt": [
+        "Bengali New Year",
+        "Bengali New Year's Day"
+      ],
+      "pos": "phrase",
+      "lesson": "u10-l03",
+      "notes": "14 April in Bangladesh.",
+      "kolkata": {
+        "bn": "পয়লা বৈশাখ",
+        "tr": "poyla boishakh"
+      }
+    },
+    {
+      "id": "shubho",
+      "bn": "শুভ",
+      "tr": "shubho",
+      "en": "happy",
+      "alt": [
+        "auspicious",
+        "good"
+      ],
+      "pos": "adj",
+      "lesson": "u10-l03"
+    },
+    {
+      "id": "noboborsho",
+      "bn": "নববর্ষ",
+      "tr": "noboborsho",
+      "en": "New Year",
+      "pos": "noun",
+      "lesson": "u10-l03"
+    },
+    {
+      "id": "shubho-noboborsho",
+      "bn": "শুভ নববর্ষ",
+      "tr": "shubho noboborsho",
+      "en": "Happy New Year",
+      "pos": "phrase",
+      "lesson": "u10-l03"
+    },
+    {
+      "id": "panta-bhat",
+      "bn": "পান্তা ভাত",
+      "tr": "panta bhat",
+      "en": "panta bhat",
+      "alt": [
+        "soaked rice",
+        "fermented rice"
+      ],
+      "pos": "phrase",
+      "lesson": "u10-l03",
+      "notes": "Traditionally eaten with fried hilsa and green chilli on Pohela Boishakh."
+    },
+    {
+      "id": "mela",
+      "bn": "মেলা",
+      "tr": "mela",
+      "en": "fair",
+      "alt": [
+        "festival fair",
+        "mela"
+      ],
+      "pos": "noun",
+      "lesson": "u10-l03"
+    },
+    {
+      "id": "melay",
+      "bn": "মেলায়",
+      "tr": "melay",
+      "en": "to the fair",
+      "alt": [
+        "at the fair"
+      ],
+      "pos": "noun",
+      "lesson": "u10-l03"
+    },
+    {
+      "id": "alpona",
+      "bn": "আলপনা",
+      "tr": "alpona",
+      "en": "alpona",
+      "alt": [
+        "floor painting",
+        "rice-paste art"
+      ],
+      "pos": "noun",
+      "lesson": "u10-l03",
+      "notes": "Traditional white patterns painted on floors and streets."
+    },
+    {
+      "id": "shundor",
+      "bn": "সুন্দর",
+      "tr": "shundor",
+      "en": "beautiful",
+      "alt": [
+        "pretty",
+        "lovely",
+        "nice"
+      ],
+      "pos": "adj",
+      "lesson": "u10-l03"
+    },
+    {
+      "id": "puja",
+      "bn": "পূজা",
+      "tr": "puja",
+      "en": "puja",
+      "alt": [
+        "worship",
+        "Puja",
+        "festival"
+      ],
+      "pos": "noun",
+      "lesson": "u10-l04",
+      "notes": "Hindu worship; also the festival itself. Also spelled পুজো (pujo) in Kolkata speech."
+    },
+    {
+      "id": "pujay",
+      "bn": "পূজায়",
+      "tr": "pujay",
+      "en": "at Puja",
+      "alt": [
+        "during Puja",
+        "for Puja"
+      ],
+      "pos": "noun",
+      "lesson": "u10-l04"
+    },
+    {
+      "id": "durgapuja",
+      "bn": "দুর্গাপূজা",
+      "tr": "durgapuja",
+      "en": "Durga Puja",
+      "pos": "noun",
+      "lesson": "u10-l04",
+      "notes": "The biggest Hindu festival in Bengal, in autumn (Sept/Oct). The dominant festival in West Bengal.",
+      "kolkata": {
+        "bn": "দুর্গাপুজো",
+        "tr": "durgapujo"
+      }
+    },
+    {
+      "id": "hinduder",
+      "bn": "হিন্দুদের",
+      "tr": "hinduder",
+      "en": "of the Hindus",
+      "alt": [
+        "Hindus'",
+        "Hindu"
+      ],
+      "pos": "noun",
+      "lesson": "u10-l04"
+    },
+    {
+      "id": "utshob",
+      "bn": "উৎসব",
+      "tr": "utshob",
+      "en": "festival",
+      "alt": [
+        "celebration"
+      ],
+      "pos": "noun",
+      "lesson": "u10-l04"
+    },
+    {
+      "id": "protima",
+      "bn": "প্রতিমা",
+      "tr": "protima",
+      "en": "idol",
+      "alt": [
+        "image",
+        "statue",
+        "murti"
+      ],
+      "pos": "noun",
+      "lesson": "u10-l04",
+      "notes": "The clay image of the goddess, immersed in a river at the end of Durga Puja."
+    },
+    {
+      "id": "mondire",
+      "bn": "মন্দিরে",
+      "tr": "mondire",
+      "en": "to the temple",
+      "alt": [
+        "at the temple",
+        "in the temple"
+      ],
+      "pos": "noun",
+      "lesson": "u10-l04"
+    },
+    {
+      "id": "bijoya",
+      "bn": "বিজয়া",
+      "tr": "bijoya",
+      "en": "Bijoya",
+      "alt": [
+        "Vijaya"
+      ],
+      "pos": "noun",
+      "lesson": "u10-l04",
+      "notes": "Last day of Durga Puja. শুভ বিজয়া is exchanged afterwards, often with sweets."
+    },
+    {
+      "id": "ekushe-februari",
+      "bn": "একুশে ফেব্রুয়ারি",
+      "tr": "ekushe februari",
+      "en": "21 February",
+      "alt": [
+        "the twenty-first of February",
+        "Ekushe February",
+        "Language Martyrs' Day"
+      ],
+      "pos": "phrase",
+      "lesson": "u10-l05",
+      "notes": "Language Martyrs' Day; UNESCO's International Mother Language Day."
+    },
+    {
+      "id": "shohid",
+      "bn": "শহীদ",
+      "tr": "shohid",
+      "en": "martyr",
+      "alt": [
+        "shaheed",
+        "martyrs"
+      ],
+      "pos": "noun",
+      "lesson": "u10-l05"
+    },
+    {
+      "id": "shohid-minar",
+      "bn": "শহীদ মিনার",
+      "tr": "shohid minar",
+      "en": "Shaheed Minar",
+      "alt": [
+        "the Martyrs' Monument"
+      ],
+      "pos": "phrase",
+      "lesson": "u10-l05",
+      "notes": "Monument to the 1952 language martyrs in Dhaka; replicas stand in schools across the country."
+    },
+    {
+      "id": "bhasha",
+      "bn": "ভাষা",
+      "tr": "bhasha",
+      "en": "language",
+      "pos": "noun",
+      "lesson": "u10-l05"
+    },
+    {
+      "id": "matribhasha",
+      "bn": "মাতৃভাষা",
+      "tr": "matribhasha",
+      "en": "mother tongue",
+      "alt": [
+        "native language",
+        "mother language"
+      ],
+      "pos": "noun",
+      "lesson": "u10-l05"
+    },
+    {
+      "id": "dibosh",
+      "bn": "দিবস",
+      "tr": "dibosh",
+      "en": "day",
+      "alt": [
+        "Day"
+      ],
+      "pos": "noun",
+      "lesson": "u10-l05",
+      "notes": "Formal 'day' for named observances (বিজয় দিবস). Everyday 'day' is দিন."
+    },
+    {
+      "id": "dibose",
+      "bn": "দিবসে",
+      "tr": "dibose",
+      "en": "on the day",
+      "alt": [
+        "on Day"
+      ],
+      "pos": "noun",
+      "lesson": "u10-l05"
+    },
+    {
+      "id": "bijoy-dibosh",
+      "bn": "বিজয় দিবস",
+      "tr": "bijoy dibosh",
+      "en": "Victory Day",
+      "pos": "phrase",
+      "lesson": "u10-l05",
+      "notes": "16 December — the end of the 1971 Liberation War."
+    },
+    {
+      "id": "shadhinota",
+      "bn": "স্বাধীনতা",
+      "tr": "shadhinota",
+      "en": "independence",
+      "alt": [
+        "freedom"
+      ],
+      "pos": "noun",
+      "lesson": "u10-l05",
+      "notes": "স্বাধীনতা দিবস 'Independence Day' = 26 March."
+    },
+    {
+      "id": "chhuti",
+      "bn": "ছুটি",
+      "tr": "chhuti",
+      "en": "holiday",
+      "alt": [
+        "day off",
+        "leave",
+        "vacation",
+        "time off"
+      ],
+      "pos": "noun",
+      "lesson": "u10-l05"
+    },
+    {
+      "id": "dawat",
+      "bn": "দাওয়াত",
+      "tr": "dawat",
+      "en": "invitation",
+      "alt": [
+        "invite"
+      ],
+      "pos": "noun",
+      "lesson": "u10-l06",
+      "notes": "দাওয়াত দেওয়া = to invite.",
+      "kolkata": {
+        "bn": "নেমন্তন্ন",
+        "tr": "nemontonno"
+      }
+    },
+    {
+      "id": "apnake",
+      "bn": "আপনাকে",
+      "tr": "apnake",
+      "en": "you (polite, object)",
+      "alt": [
+        "you",
+        "to you"
+      ],
+      "pos": "pronoun",
+      "lesson": "u10-l06",
+      "register": "polite"
+    },
+    {
+      "id": "mehman",
+      "bn": "মেহমান",
+      "tr": "mehman",
+      "en": "guest",
+      "alt": [
+        "guests",
+        "visitors"
+      ],
+      "pos": "noun",
+      "lesson": "u10-l06",
+      "kolkata": {
+        "bn": "অতিথি",
+        "tr": "otithi"
+      }
+    },
+    {
+      "id": "upohar",
+      "bn": "উপহার",
+      "tr": "upohar",
+      "en": "gift",
+      "alt": [
+        "present"
+      ],
+      "pos": "noun",
+      "lesson": "u10-l06"
+    },
+    {
+      "id": "jonno",
+      "bn": "জন্য",
+      "tr": "jonno",
+      "en": "for",
+      "pos": "postposition",
+      "lesson": "u10-l06",
+      "notes": "After a genitive: আপনার জন্য 'for you'."
+    },
+    {
+      "id": "jonmodin",
+      "bn": "জন্মদিন",
+      "tr": "jonmodin",
+      "en": "birthday",
+      "pos": "noun",
+      "lesson": "u10-l06"
+    },
+    {
+      "id": "shubhechchha",
+      "bn": "শুভেচ্ছা",
+      "tr": "shubhechchha",
+      "en": "greetings",
+      "alt": [
+        "best wishes",
+        "good wishes"
+      ],
+      "pos": "noun",
+      "lesson": "u10-l06"
+    },
+    {
+      "id": "ashben",
+      "bn": "আসবেন",
+      "tr": "ashben",
+      "en": "please come",
+      "alt": [
+        "will you come",
+        "you will come",
+        "come"
+      ],
+      "pos": "verb",
+      "lesson": "u10-l06",
+      "register": "polite",
+      "notes": "Future of আসা for আপনি; as a statement it's a warm invitation."
+    },
+    {
+      "id": "ashbe",
+      "bn": "আসবে",
+      "tr": "ashbe",
+      "en": "will come",
+      "alt": [
+        "will you come",
+        "you will come"
+      ],
+      "pos": "verb",
+      "lesson": "u10-l06",
+      "notes": "Future for তুমি / সে."
+    },
+    {
+      "id": "pitha",
+      "bn": "পিঠা",
+      "tr": "pitha",
+      "en": "pitha",
+      "alt": [
+        "rice cake",
+        "rice cakes"
+      ],
+      "pos": "noun",
+      "lesson": "u10-l06",
+      "notes": "Rice-flour cakes, especially made in winter."
+    },
+    {
+      "id": "khaben",
+      "bn": "খাবেন",
+      "tr": "khaben",
+      "en": "will you eat (polite)",
+      "alt": [
+        "will you have",
+        "you will eat",
+        "would you like to eat"
+      ],
+      "pos": "verb",
+      "lesson": "u10-l06",
+      "register": "polite"
+    },
+    {
+      "id": "chol",
+      "bn": "চল",
+      "tr": "chol",
+      "en": "let's",
+      "alt": [
+        "come on",
+        "let's go"
+      ],
+      "pos": "verb",
+      "lesson": "u10-l07",
+      "register": "intimate"
+    },
+    {
+      "id": "cholo",
+      "bn": "চলো",
+      "tr": "cholo",
+      "en": "let's",
+      "alt": [
+        "come on",
+        "let's go"
+      ],
+      "pos": "verb",
+      "lesson": "u10-l07",
+      "register": "familiar"
+    },
+    {
+      "id": "cholen",
+      "bn": "চলেন",
+      "tr": "cholen",
+      "en": "let's",
+      "alt": [
+        "come on",
+        "let's go",
+        "shall we"
+      ],
+      "pos": "verb",
+      "lesson": "u10-l07",
+      "register": "polite",
+      "kolkata": {
+        "bn": "চলুন",
+        "tr": "cholun"
+      }
+    },
+    {
+      "id": "dost",
+      "bn": "দোস্ত",
+      "tr": "dost",
+      "en": "buddy",
+      "alt": [
+        "friend",
+        "mate",
+        "pal"
+      ],
+      "pos": "noun",
+      "lesson": "u10-l07",
+      "register": "intimate",
+      "notes": "Very common among young Bangladeshi friends; rare in Kolkata."
+    },
+    {
+      "id": "ashbi",
+      "bn": "আসবি",
+      "tr": "ashbi",
+      "en": "will you come (intimate)",
+      "alt": [
+        "will come"
+      ],
+      "pos": "verb",
+      "lesson": "u10-l07",
+      "register": "intimate"
+    },
+    {
+      "id": "khabi",
+      "bn": "খাবি",
+      "tr": "khabi",
+      "en": "will you eat (intimate)",
+      "alt": [
+        "will eat",
+        "will you have"
+      ],
+      "pos": "verb",
+      "lesson": "u10-l07",
+      "register": "intimate"
+    },
+    {
+      "id": "nach",
+      "bn": "নাচ",
+      "tr": "nach",
+      "en": "dance",
+      "alt": [
+        "dancing"
+      ],
+      "pos": "noun",
+      "lesson": "u10-l07"
+    },
+    {
+      "id": "hobe",
+      "bn": "হবে",
+      "tr": "hobe",
+      "en": "will be",
+      "alt": [
+        "will happen",
+        "there will be"
+      ],
+      "pos": "verb",
+      "lesson": "u10-l07",
+      "notes": "Future of হওয়া 'be, become, happen'. You know it from আবার দেখা হবে."
+    },
+    {
+      "id": "shobaike",
+      "bn": "সবাইকে",
+      "tr": "shobaike",
+      "en": "everyone",
+      "alt": [
+        "to everyone",
+        "everybody",
+        "all"
+      ],
+      "pos": "pronoun",
+      "lesson": "u10-l08",
+      "notes": "Object form of সবাই 'everyone'."
+    }
+  ]
+}

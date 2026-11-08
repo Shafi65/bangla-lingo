@@ -1,0 +1,722 @@
+{
+  "unit": "u03-family",
+  "lessons": [
+    {
+      "id": "u03-l01",
+      "title": "Parents & siblings",
+      "goal": "Name your parents and siblings.",
+      "grammar": [
+        "মা/বাবা vs আম্মু/আব্বু",
+        "এটা আমার … 'this is my …'"
+      ],
+      "new": [
+        "poribar",
+        "ma",
+        "baba",
+        "ammu",
+        "abbu",
+        "bhai",
+        "bon"
+      ],
+      "review": [
+        "uni",
+        "amar",
+        "daktar",
+        "shikkhok",
+        "o-pron",
+        "she",
+        "eta",
+        "kothay"
+      ],
+      "tip": "Two pairs for parents: **মা / বাবা** (*ma / baba*) are universal; **আম্মু / আব্বু** (*ammu / abbu*) are the warm, everyday words in many Bangladeshi (especially Muslim) homes — like 'mom' and 'dad'. In Kolkata and Hindu families you'll mostly hear মা and বাবা.\n\nSiblings are simply **ভাই** (*bhai*, brother) and **বোন** (*bon*, sister). Remember: no word for 'is' and no 'a / the': **ও আমার ভাই** = 'He (is) my brother.'\n\n**পরিবার** (*poribar*) = family. Bangladeshi families are often large and close-knit, and grandparents, uncles and aunts may live under the same roof — which is why the next lessons have so many kinship words.",
+      "sentences": [
+        {
+          "bn": "উনি আমার মা।",
+          "tr": "uni amar ma.",
+          "en": "She is my mother.",
+          "alt": [
+            "She's my mother.",
+            "She is my mom."
+          ]
+        },
+        {
+          "bn": "উনি আমার বাবা।",
+          "tr": "uni amar baba.",
+          "en": "He is my father.",
+          "alt": [
+            "He's my father.",
+            "He is my dad."
+          ]
+        },
+        {
+          "bn": "আমার আম্মু ডাক্তার।",
+          "tr": "amar ammu daktar.",
+          "en": "My mom is a doctor.",
+          "alt": [
+            "My mother is a doctor."
+          ]
+        },
+        {
+          "bn": "আমার আব্বু শিক্ষক।",
+          "tr": "amar abbu shikkhok.",
+          "en": "My dad is a teacher.",
+          "alt": [
+            "My father is a teacher."
+          ]
+        },
+        {
+          "bn": "ও আমার ভাই।",
+          "tr": "o amar bhai.",
+          "en": "He is my brother.",
+          "alt": [
+            "He's my brother."
+          ]
+        },
+        {
+          "bn": "সে আমার বোন।",
+          "tr": "she amar bon.",
+          "en": "She is my sister.",
+          "alt": [
+            "She's my sister."
+          ]
+        },
+        {
+          "bn": "এটা আমার পরিবার।",
+          "tr": "eta amar poribar.",
+          "en": "This is my family."
+        },
+        {
+          "bn": "মা কোথায়?",
+          "tr": "ma kothay?",
+          "en": "Where is Mom?",
+          "alt": [
+            "Where is mother?",
+            "Where's Mum?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u03-l02",
+      "title": "Elder & younger",
+      "goal": "Distinguish elder and younger siblings; say his/her.",
+      "grammar": [
+        "বড় / ছোট = elder / younger (big / small)",
+        "ভাইয়া / আপু for elder siblings",
+        "possessives তার, ওর, ওনার, তোর"
+      ],
+      "new": [
+        "boro",
+        "chhoto",
+        "bhaiya",
+        "apu",
+        "tar",
+        "or",
+        "onar",
+        "tor"
+      ],
+      "review": [
+        "amar",
+        "bhai",
+        "daktar",
+        "bon",
+        "chhatri",
+        "kemon",
+        "achho",
+        "tumi",
+        "kothay",
+        "nam",
+        "rafi",
+        "nadia",
+        "ki-what"
+      ],
+      "tip": "**বড়** (*boro*) = big, **ছোট** (*chhoto*) = small. With family they mean **elder** and **younger**: **বড় ভাই** = elder brother, **ছোট বোন** = younger sister. Bengali almost always says *which* sibling.\n\nYou don't call an elder sibling by name — that would feel cheeky. Instead say **ভাইয়া** (*bhaiya*, elder brother) and **আপু** (*apu*, elder sister). Younger siblings you *do* call by name. In Kolkata the words are **দাদা** and **দিদি**.\n\nEvery pronoun has a 'my/your' form with **-র**: সে → **তার**, ও → **ওর**, উনি → **ওনার**, তুই → **তোর**. Like সে, they don't show gender: **তার নাম** = 'his name' or 'her name'.",
+      "sentences": [
+        {
+          "bn": "আমার বড় ভাই ডাক্তার।",
+          "tr": "amar boro bhai daktar.",
+          "en": "My elder brother is a doctor.",
+          "alt": [
+            "My older brother is a doctor.",
+            "My big brother is a doctor."
+          ]
+        },
+        {
+          "bn": "আমার ছোট বোন ছাত্রী।",
+          "tr": "amar chhoto bon chhatri.",
+          "en": "My younger sister is a student.",
+          "alt": [
+            "My little sister is a student."
+          ]
+        },
+        {
+          "bn": "ভাইয়া, কেমন আছো?",
+          "tr": "bhaiya, kemon achho?",
+          "en": "Brother, how are you?",
+          "alt": [
+            "How are you, brother?"
+          ]
+        },
+        {
+          "bn": "আপু, তুমি কোথায়?",
+          "tr": "apu, tumi kothay?",
+          "en": "Sister, where are you?",
+          "alt": [
+            "Where are you, sister?"
+          ]
+        },
+        {
+          "bn": "তার নাম রাফি।",
+          "tr": "tar nam rafi.",
+          "en": "His name is Rafi."
+        },
+        {
+          "bn": "ওর নাম নাদিয়া।",
+          "tr": "or nam nadiya.",
+          "en": "Her name is Nadia."
+        },
+        {
+          "bn": "ওনার নাম কী?",
+          "tr": "onar nam ki?",
+          "en": "What is his name?",
+          "alt": [
+            "What is her name?",
+            "What's his name?",
+            "What's her name?"
+          ]
+        },
+        {
+          "bn": "রাফি আমার ছোট ভাই।",
+          "tr": "rafi amar chhoto bhai.",
+          "en": "Rafi is my younger brother.",
+          "alt": [
+            "Rafi is my little brother."
+          ]
+        },
+        {
+          "bn": "তোর বড় বোন কোথায়?",
+          "tr": "tor boro bon kothay?",
+          "en": "Where is your elder sister?",
+          "alt": [
+            "Where's your big sister?",
+            "Where is your older sister?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u03-l03",
+      "title": "Father's side",
+      "goal": "Name grandparents, uncles and aunts on your father's side.",
+      "grammar": [
+        "separate words for paternal relatives",
+        "genitive -র: বাবার 'father's'"
+      ],
+      "new": [
+        "dada",
+        "dadi",
+        "chacha",
+        "chachi",
+        "fufu",
+        "fufa",
+        "babar"
+      ],
+      "review": [
+        "uni",
+        "amar",
+        "khub",
+        "bhalo",
+        "manush",
+        "apni",
+        "kemon",
+        "achhen",
+        "bhai",
+        "shikkhok",
+        "bon",
+        "ekhane",
+        "nei",
+        "ar"
+      ],
+      "tip": "English has one 'uncle'; Bengali has a different word for each one! On your **father's side**:\n\n- **দাদা / দাদি** — grandfather / grandmother\n- **চাচা / চাচি** — father's brother / his wife\n- **ফুফু / ফুফা** — father's sister / her husband\n\nTo say 'father's', add **-র**: বাবা → **বাবার**. So **চাচা আমার বাবার ভাই** = 'Chacha is my father's brother.'\n\n**Watch out — Kolkata difference:** in Bangladesh **দাদা** is your *grandfather*, but in Kolkata (and many Hindu families in Bangladesh) দাদা means *elder brother*! There, paternal grandparents are ঠাকুরদা / ঠাকুমা, father's brother is কাকা, and father's sister is পিসি.",
+      "sentences": [
+        {
+          "bn": "উনি আমার দাদা।",
+          "tr": "uni amar dada.",
+          "en": "He is my grandfather.",
+          "alt": [
+            "He's my grandfather.",
+            "He is my grandpa."
+          ]
+        },
+        {
+          "bn": "আমার দাদি খুব ভালো মানুষ।",
+          "tr": "amar dadi khub bhalo manush.",
+          "en": "My grandmother is a very good person.",
+          "alt": [
+            "My grandma is a very good person."
+          ]
+        },
+        {
+          "bn": "চাচা, আপনি কেমন আছেন?",
+          "tr": "chacha, apni kemon achhen?",
+          "en": "Uncle, how are you?",
+          "alt": [
+            "How are you, uncle?"
+          ]
+        },
+        {
+          "bn": "চাচা আমার বাবার ভাই।",
+          "tr": "chacha amar babar bhai.",
+          "en": "Chacha is my father's brother.",
+          "alt": [
+            "Uncle is my father's brother."
+          ]
+        },
+        {
+          "bn": "আমার চাচি শিক্ষক।",
+          "tr": "amar chachi shikkhok.",
+          "en": "My aunt is a teacher."
+        },
+        {
+          "bn": "ফুফু আমার বাবার বোন।",
+          "tr": "fufu amar babar bon.",
+          "en": "Fufu is my father's sister.",
+          "alt": [
+            "Aunt is my father's sister."
+          ]
+        },
+        {
+          "bn": "ফুফা এখানে নেই।",
+          "tr": "fufa ekhane nei.",
+          "en": "Uncle isn't here.",
+          "alt": [
+            "Fufa isn't here.",
+            "Uncle is not here."
+          ]
+        },
+        {
+          "bn": "দাদা আর দাদি ভালো আছেন।",
+          "tr": "dada ar dadi bhalo achhen.",
+          "en": "Grandpa and Grandma are well.",
+          "alt": [
+            "Grandfather and grandmother are well.",
+            "Grandpa and Grandma are fine."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u03-l04",
+      "title": "Mother's side",
+      "goal": "Name grandparents, uncles and aunts on your mother's side.",
+      "grammar": [
+        "separate words for maternal relatives",
+        "genitive -এর: মায়ের 'mother's'"
+      ],
+      "new": [
+        "nana",
+        "nani",
+        "mama",
+        "mami",
+        "khala",
+        "khalu",
+        "mayer"
+      ],
+      "review": [
+        "uni",
+        "amar",
+        "kemon",
+        "achhen",
+        "bhai",
+        "bon",
+        "daktar",
+        "okhane",
+        "ar",
+        "bhalo",
+        "apni",
+        "kothay"
+      ],
+      "tip": "On your **mother's side**:\n\n- **নানা / নানি** — grandfather / grandmother\n- **মামা / মামি** — mother's brother / his wife\n- **খালা / খালু** — mother's sister / her husband\n\n'Mother's' is **মায়ের** (*mayer*). After most vowels the possessive is -র (বাবা → বাবার), but some short words take **-এর** with a little **য়** glide: মা → মায়ের, ভাই → ভাইয়ের.\n\n**মামা** is a special word: in Bangladesh it's also how you cheerfully address a rickshaw-wallah or the man at the tea stall — *Mama, ek kap cha!* You'll practise that in Lesson 6.\n\nKolkata: maternal grandparents are দাদু / দিদিমা, mother's sister is মাসি, her husband মেসো.",
+      "sentences": [
+        {
+          "bn": "উনি আমার নানা।",
+          "tr": "uni amar nana.",
+          "en": "He is my grandfather.",
+          "alt": [
+            "He's my grandfather.",
+            "He is my grandpa."
+          ]
+        },
+        {
+          "bn": "নানি কেমন আছেন?",
+          "tr": "nani kemon achhen?",
+          "en": "How is Grandma?",
+          "alt": [
+            "How is grandmother?",
+            "How's Nani?"
+          ]
+        },
+        {
+          "bn": "মামা আমার মায়ের ভাই।",
+          "tr": "mama amar mayer bhai.",
+          "en": "Mama is my mother's brother.",
+          "alt": [
+            "Uncle is my mother's brother."
+          ]
+        },
+        {
+          "bn": "খালা আমার মায়ের বোন।",
+          "tr": "khala amar mayer bon.",
+          "en": "Khala is my mother's sister.",
+          "alt": [
+            "Aunt is my mother's sister."
+          ]
+        },
+        {
+          "bn": "আমার মামি ডাক্তার।",
+          "tr": "amar mami daktar.",
+          "en": "My aunt is a doctor."
+        },
+        {
+          "bn": "খালু ওখানে আছেন।",
+          "tr": "khalu okhane achhen.",
+          "en": "Uncle is there.",
+          "alt": [
+            "Khalu is there."
+          ]
+        },
+        {
+          "bn": "নানা আর নানি ভালো আছেন।",
+          "tr": "nana ar nani bhalo achhen.",
+          "en": "Grandpa and Grandma are well.",
+          "alt": [
+            "Grandfather and grandmother are well."
+          ]
+        },
+        {
+          "bn": "মামা, আপনি কোথায়?",
+          "tr": "mama, apni kothay?",
+          "en": "Uncle, where are you?",
+          "alt": [
+            "Where are you, uncle?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u03-l05",
+      "title": "I have…",
+      "goal": "Say what family you have and don't have; count people.",
+      "grammar": [
+        "'have' = possessor-র + noun + আছে",
+        "negative: … নেই",
+        "classifier -জন for people; -টা informally",
+        "আমাদের / তোমাদের"
+      ],
+      "new": [
+        "ekta",
+        "ekjon",
+        "duijon",
+        "koyjon",
+        "amader",
+        "tomader",
+        "bachcha"
+      ],
+      "review": [
+        "amar",
+        "bon",
+        "achhe",
+        "bhai",
+        "nei",
+        "tomar",
+        "ki-q",
+        "apnar",
+        "tar",
+        "meye",
+        "poribar",
+        "khub",
+        "boro",
+        "ekhane",
+        "daktar",
+        "achhen"
+      ],
+      "tip": "Bengali has no verb 'to have'. Instead you say **'to me there is'**: **আমার একটা বোন আছে** (*amar ekta bon achhe*) — literally 'My one sister exists' = 'I have a sister.' The negative uses **নেই**: **আমার ভাই নেই** = 'I have no brother.' Question: **তোমার কি ভাই আছে?**\n\nWhen you count, Bengali adds a **classifier** to the number. For people use **-জন** (*-jon*): **একজন** (one person), **দুইজন** (two people), **কয়জন?** (how many people?). In casual speech **-টা** is common too: **একটা বোন**.\n\nPlural possessives: আমরা → **আমাদের** (our), তোমরা → **তোমাদের** (your), and likewise আপনাদের, ওদের, তাদের.\n\nCulture: 'How many brothers and sisters do you have?' is a perfectly normal first-meeting question in Bangladesh — as are questions about marriage and children. It's friendly interest, not nosiness.",
+      "sentences": [
+        {
+          "bn": "আমার একটা বোন আছে।",
+          "tr": "amar ekta bon achhe.",
+          "en": "I have a sister.",
+          "alt": [
+            "I have one sister."
+          ]
+        },
+        {
+          "bn": "আমার ভাই নেই।",
+          "tr": "amar bhai nei.",
+          "en": "I don't have a brother.",
+          "alt": [
+            "I have no brother.",
+            "I have no brothers."
+          ]
+        },
+        {
+          "bn": "তোমার কি ভাই আছে?",
+          "tr": "tomar ki bhai achhe?",
+          "en": "Do you have a brother?",
+          "alt": [
+            "Do you have brothers?"
+          ]
+        },
+        {
+          "bn": "আপনার কয়জন বাচ্চা আছে?",
+          "tr": "apnar koyjon bachcha achhe?",
+          "en": "How many children do you have?",
+          "alt": [
+            "How many kids do you have?"
+          ]
+        },
+        {
+          "bn": "আমার দুইজন বাচ্চা আছে।",
+          "tr": "amar duijon bachcha achhe.",
+          "en": "I have two children.",
+          "alt": [
+            "I have two kids."
+          ]
+        },
+        {
+          "bn": "তার একটা মেয়ে আছে।",
+          "tr": "tar ekta meye achhe.",
+          "en": "She has a daughter.",
+          "alt": [
+            "He has a daughter."
+          ]
+        },
+        {
+          "bn": "আমাদের পরিবার খুব বড়।",
+          "tr": "amader poribar khub boro.",
+          "en": "Our family is very big.",
+          "alt": [
+            "Our family is very large."
+          ]
+        },
+        {
+          "bn": "এখানে একজন ডাক্তার আছেন।",
+          "tr": "ekhane ekjon daktar achhen.",
+          "en": "There is a doctor here.",
+          "alt": [
+            "A doctor is here."
+          ]
+        },
+        {
+          "bn": "তোমাদের কয়জন বাচ্চা?",
+          "tr": "tomader koyjon bachcha?",
+          "en": "How many children do you have?",
+          "alt": [
+            "How many kids do you have?",
+            "How many children do you all have?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u03-l06",
+      "title": "Calling strangers 'uncle'",
+      "goal": "Address non-relatives respectfully with kin terms.",
+      "grammar": [
+        "kin terms as polite address: ভাই, ভাইয়া, আপা, আপু, চাচা, খালা, মামা",
+        "আংকেল / আন্টি in urban speech"
+      ],
+      "new": [
+        "apa",
+        "angkel",
+        "anti"
+      ],
+      "review": [
+        "mama",
+        "bhalo",
+        "achhen",
+        "bhaiya",
+        "apnar",
+        "nam",
+        "ki-what",
+        "apni",
+        "ki-q",
+        "daktar",
+        "khala",
+        "kemon",
+        "chacha",
+        "eta",
+        "kotha",
+        "theke",
+        "eshechhen",
+        "dhonnobad",
+        "bhai",
+        "ekhane",
+        "achhe"
+      ],
+      "tip": "In Bangladesh you rarely call an adult by their name or 'sir/madam'. Instead you **promote them into your family**:\n\n- **ভাই / ভাইয়া** — any man around your age or a bit older (shopkeepers, waiters, colleagues)\n- **আপা / আপু** — any woman a bit older than you\n- **চাচা** — an older man; **খালা** — an older woman (also domestic helpers)\n- **মামা** — rickshaw drivers, tea-stall owners, street vendors: friendly and informal\n- **আংকেল / আন্টি** — friends' parents and older people in middle-class city life\n\nThese terms still take **আপনি** (polite verbs) unless you know the person well: *Chacha, apni kemon achhen?*\n\nUsing them makes people warm to you instantly — a foreigner who says **মামা** to a rickshaw driver will usually get a big smile.",
+      "sentences": [
+        {
+          "bn": "মামা, ভালো আছেন?",
+          "tr": "mama, bhalo achhen?",
+          "en": "Uncle, are you well?",
+          "alt": [
+            "How are you, uncle?",
+            "Are you well, mama?"
+          ]
+        },
+        {
+          "bn": "ভাইয়া, আপনার নাম কী?",
+          "tr": "bhaiya, apnar nam ki?",
+          "en": "Brother, what's your name?",
+          "alt": [
+            "What's your name, brother?"
+          ]
+        },
+        {
+          "bn": "আপা, আপনি কি ডাক্তার?",
+          "tr": "apa, apni ki daktar?",
+          "en": "Ma'am, are you a doctor?",
+          "alt": [
+            "Sister, are you a doctor?"
+          ]
+        },
+        {
+          "bn": "খালা, কেমন আছেন?",
+          "tr": "khala, kemon achhen?",
+          "en": "Auntie, how are you?",
+          "alt": [
+            "How are you, auntie?"
+          ]
+        },
+        {
+          "bn": "চাচা, এটা কী?",
+          "tr": "chacha, eta ki?",
+          "en": "Uncle, what is this?",
+          "alt": [
+            "Uncle, what's this?"
+          ]
+        },
+        {
+          "bn": "আংকেল, আপনি কোথা থেকে এসেছেন?",
+          "tr": "angkel, apni kotha theke eshechhen?",
+          "en": "Uncle, where are you from?",
+          "alt": [
+            "Where are you from, uncle?"
+          ]
+        },
+        {
+          "bn": "আন্টি, ধন্যবাদ।",
+          "tr": "anti, dhonnobad.",
+          "en": "Thank you, auntie.",
+          "alt": [
+            "Thanks, auntie."
+          ]
+        },
+        {
+          "bn": "ভাই, এখানে কি ডাক্তার আছে?",
+          "tr": "bhai, ekhane ki daktar achhe?",
+          "en": "Brother, is there a doctor here?",
+          "alt": [
+            "Excuse me, is there a doctor here?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u03-l07",
+      "title": "Review: my family",
+      "goal": "Describe your whole family, including spouse and children.",
+      "grammar": [
+        "review of kin terms and 'have'",
+        "স্বামী / স্ত্রী (neutral) vs বউ (colloquial)"
+      ],
+      "new": [
+        "shami",
+        "stri",
+        "bou"
+      ],
+      "review": [
+        "uni",
+        "amar",
+        "daktar",
+        "ekta",
+        "chhele",
+        "ar",
+        "meye",
+        "achhe",
+        "apnar",
+        "kothay",
+        "nana",
+        "nani",
+        "bangladeshi",
+        "onar",
+        "koyjon",
+        "bachcha",
+        "boro",
+        "apu",
+        "shikkhok"
+      ],
+      "tip": "Last new words: **স্বামী** (*shami*, husband) and **স্ত্রী** (*stri*, wife). In everyday speech many people say **বউ** (*bou*) for 'wife' — it also means 'bride'. (The ব in স্বামী is silent, which you'll learn about in the conjuncts script unit.)\n\nQuick recap of the family map:\n\n| | father's side | mother's side |\n|---|---|---|\n| grandparents | দাদা / দাদি | নানা / নানি |\n| uncle | চাচা, ফুফা | মামা, খালু |\n| aunt | চাচি, ফুফু | মামি, খালা |\n\nAnd remember **ছেলে / মেয়ে** = son / daughter as well as boy / girl.",
+      "sentences": [
+        {
+          "bn": "উনি আমার স্বামী।",
+          "tr": "uni amar shami.",
+          "en": "He is my husband.",
+          "alt": [
+            "He's my husband."
+          ]
+        },
+        {
+          "bn": "উনি আমার স্ত্রী।",
+          "tr": "uni amar stri.",
+          "en": "She is my wife.",
+          "alt": [
+            "She's my wife."
+          ]
+        },
+        {
+          "bn": "আমার বউ ডাক্তার।",
+          "tr": "amar bou daktar.",
+          "en": "My wife is a doctor."
+        },
+        {
+          "bn": "আমার একটা ছেলে আর একটা মেয়ে আছে।",
+          "tr": "amar ekta chhele ar ekta meye achhe.",
+          "en": "I have a son and a daughter."
+        },
+        {
+          "bn": "আপনার স্বামী কোথায়?",
+          "tr": "apnar shami kothay?",
+          "en": "Where is your husband?"
+        },
+        {
+          "bn": "আমার নানা আর নানি বাংলাদেশি।",
+          "tr": "amar nana ar nani bangladeshi.",
+          "en": "My grandparents are Bangladeshi.",
+          "alt": [
+            "My maternal grandparents are Bangladeshi.",
+            "My grandfather and grandmother are Bangladeshi."
+          ]
+        },
+        {
+          "bn": "ওনার কয়জন বাচ্চা আছে?",
+          "tr": "onar koyjon bachcha achhe?",
+          "en": "How many children does she have?",
+          "alt": [
+            "How many children does he have?",
+            "How many kids does she have?"
+          ]
+        },
+        {
+          "bn": "আমার বড় আপু শিক্ষক।",
+          "tr": "amar boro apu shikkhok.",
+          "en": "My elder sister is a teacher.",
+          "alt": [
+            "My big sister is a teacher."
+          ]
+        }
+      ]
+    }
+  ]
+}

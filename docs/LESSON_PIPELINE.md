@@ -67,6 +67,8 @@ Proper names used in sentences (রাফি, নাদিয়া) are entries
   ]
 }
 ```
+Optional `"preview": ["khala", …]` (script track): words from **any** unit used as reading examples ("A is for Apple"). They're exercised in the lesson but don't count as taught.
+
 Rules (enforced by the validator):
 - Every id in `new`/`review` exists in the lexicon; each lexicon entry's `lesson` lists it in exactly that lesson's `new`.
 - **No word before its time:** every Bengali token in a sentence must be a lexicon form introduced in this lesson or earlier (course order). Unknown tokens → add them to the lexicon (or rephrase).

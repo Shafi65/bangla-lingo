@@ -1,0 +1,152 @@
+{
+  "unit": "s03-vowel-signs",
+  "lessons": [
+    {
+      "id": "s03-l01",
+      "title": "Vowel signs 1: া ি ী",
+      "goal": "Read consonant + a / i using া, ি, ী, and read the first family words unaided.",
+      "grammar": [
+        "A vowel after a consonant is written as a sign (কার kar), not as the full vowel letter",
+        "া (a-kar) goes after the consonant: কা = ka",
+        "ি (i-kar) is written BEFORE the consonant but said after it: কি = ki",
+        "ি and ী sound the same (spelling only)"
+      ],
+      "new": [
+        "k-aa",
+        "k-i",
+        "k-ii",
+        "nodi"
+      ],
+      "review": [
+        "mama",
+        "khala",
+        "baba",
+        "chachi",
+        "dadi",
+        "mami",
+        "ki-what",
+        "chhatri"
+      ],
+      "tip": "**Vowels after a consonant are written as signs (কার kar).** Instead of writing ক + আ, you write ক + া = **কা** (`ka`). Now you can read মামা (`mama`), খালা (`khala`), বাবা (`baba`)!\n\n**The big surprise: ি is written BEFORE the consonant.** In কি, the ি hook is drawn on the left, but you still say k first, then i. Read it as 'consonant, then the hook's vowel': চাচি = চা + চি = `chachi`, দাদি = `dadi`.\n\n**ি vs ী**: the short-i sign hooks to the left, the long-i sign hooks to the right (কী). They sound the same; the spelling just differs per word (চাচি with ি, নদী with ী).\n\nTip: the sign া is the same stick that turns অ into আ.",
+      "sentences": []
+    },
+    {
+      "id": "s03-l02",
+      "title": "Vowel signs 2: ু ূ ৃ",
+      "goal": "Read u / ri signs below the consonant, including shape changes under র, হ, শ, গ.",
+      "grammar": [
+        "ু and ূ hang below the consonant; both say u (spelling only)",
+        "ৃ (ri-kar) hangs below and says ri: কৃ = kri",
+        "Some letters change shape with these signs: রু, রূ, হু, হৃ, শু, গু"
+      ],
+      "new": [
+        "k-u",
+        "k-uu",
+        "k-ri",
+        "krishok",
+        "prithibi"
+      ],
+      "review": [
+        "fufu",
+        "khalu",
+        "apu"
+      ],
+      "tip": "These three signs hang **below** the consonant.\n\n**ু** (`u`) and **ূ** (`u`): ফুফু (`fufu`), খালু (`khalu`), আপু (`apu`), দূরে (`dure`, *far*). Like ি/ী they sound the same; the long-u sign has an extra loop.\n\n**Shape changes**: after a few letters the sign joins in a new way. **রু** and **রূ** attach to the side of র; **হু** gets a curl and **হৃ** a hook; **শু** and **গু** fold the sign into the letter. You'll recognize them with practice; when in doubt, look for the base letter first.\n\n**ৃ** is the sign form of ঋ and says `ri`: কৃষক (`krishok`, *farmer*), পৃথিবী (`prithibi`, *world*).",
+      "sentences": [],
+      "preview": [
+        "dudh",
+        "dure",
+        "puja"
+      ]
+    },
+    {
+      "id": "s03-l03",
+      "title": "Vowel signs 3: ে ৈ",
+      "goal": "Read e / oi signs, both written before the consonant.",
+      "grammar": [
+        "ে (e-kar) and ৈ (oi-kar) are written BEFORE the consonant, said after",
+        "ে has two sounds: e (bed) or æ (cat), learned word by word",
+        "Don't confuse ে + consonant + া (= ো, next lesson) with ে alone"
+      ],
+      "new": [
+        "k-e",
+        "k-oi",
+        "toiri"
+      ],
+      "review": [
+        "desh",
+        "kemon",
+        "meye",
+        "theke"
+      ],
+      "tip": "**ে and ৈ go on the left**, just like ি. Read the consonant first, then the sign's vowel: দেশ = দ + ে + শ = `desh`; কেমন = `kemon`; মেয়ে = `meye`.\n\n**ে has two pronunciations**: `e` as in *bed* (দেশ) or an *æ* as in *cat* in some words (দেখা `dækha`). Transliteration and audio will show you which.\n\n**ৈ** is ে with a little flick on top and says `oi` (*boy*): তৈরি (`toiri`, *ready*), পহেলা বৈশাখ (`pohela boishakh`, Bengali New Year).\n\nWarning for next lesson: if you see ে on the left **and** া on the right of the same letter, that's one sign, ো (`o`).",
+      "sentences": [],
+      "preview": [
+        "pohela-boishakh"
+      ]
+    },
+    {
+      "id": "s03-l04",
+      "title": "Vowel signs 4: ো ৌ",
+      "goal": "Read the two split signs that wrap around the consonant.",
+      "grammar": [
+        "ো = ে on the left + া on the right, read as one vowel o",
+        "ৌ = ে on the left + ৗ on the right, read as ou",
+        "Find the consonant in the middle, then read the wrapped vowel after it"
+      ],
+      "new": [
+        "k-o",
+        "k-ou",
+        "nouka",
+        "moumachhi"
+      ],
+      "review": [
+        "bhalo",
+        "tomar",
+        "bon",
+        "chhoto"
+      ],
+      "tip": "**These signs wrap around the consonant.** ো is ে on the left plus া on the right: কো = `ko`. Find the consonant in the middle, then read *one* vowel `o`: ভালো (`bhalo`), তোমার (`tomar`), বোন (`bon`), ছোট (`chhoto`).\n\n**ৌ** is the same wrap but with a curly tail (ৗ) on the right: `ou` as in *low*. নৌকা (`nouka`, *boat*), মৌমাছি (`moumachhi`, *bee*).\n\n**Don't read it as e + a.** ক ে…া never means *kea*. Whenever ে and া hug one letter, it's ো.\n\nRecap of sign positions: right (া ী ৗ-tail), left (ি ে ৈ), below (ু ূ ৃ), both sides (ো ৌ).",
+      "sentences": []
+    },
+    {
+      "id": "s03-l05",
+      "title": "Vowel signs review: family words",
+      "goal": "Read whole family words without transliteration, using all ten kar signs.",
+      "grammar": [
+        "Left-side signs (ি ে ৈ) are said after the consonant",
+        "ো/ৌ wrap around the consonant",
+        "ি = ী and ু = ূ by sound"
+      ],
+      "new": [],
+      "review": [
+        "k-aa",
+        "k-i",
+        "k-ii",
+        "k-u",
+        "k-uu",
+        "k-ri",
+        "k-e",
+        "k-oi",
+        "k-o",
+        "k-ou",
+        "mama",
+        "mami",
+        "khala",
+        "khalu",
+        "chacha",
+        "chachi",
+        "dada",
+        "dadi",
+        "nana",
+        "nani",
+        "fufu",
+        "bhaiya",
+        "chhoto",
+        "boro"
+      ],
+      "tip": "You can now read most of Unit 3's family words on your own: **মামা, মামি, খালা, খালু, চাচা, চাচি, দাদা, দাদি, নানা, নানি, ফুফু**.\n\n**Reading routine**: (1) find each consonant; (2) look left, right, below and around it for a sign; (3) say consonant + vowel; (4) a consonant with no sign keeps its `o`, which is often silent at the end of a word.\n\n**Same sound, different spelling**: ি/ী and ু/ূ. **Wrap-around**: ো/ৌ. Next: conjuncts, where two consonants stack with no vowel between them (শিক্ষক, ধন্যবাদ).",
+      "sentences": []
+    }
+  ]
+}

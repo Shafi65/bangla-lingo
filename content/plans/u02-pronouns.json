@@ -1,0 +1,598 @@
+{
+  "unit": "u02-pronouns",
+  "lessons": [
+    {
+      "id": "u02-l01",
+      "title": "He & she",
+      "goal": "Refer to a third person, neutrally and politely.",
+      "grammar": [
+        "সে/ও (ordinary) vs তিনি/উনি (polite)",
+        "no gender in pronouns",
+        "আছে / আছেন for third person"
+      ],
+      "new": [
+        "she",
+        "o-pron",
+        "tini",
+        "uni",
+        "achhe",
+        "daktar",
+        "bondhu"
+      ],
+      "review": [
+        "amar",
+        "shikkhok",
+        "chhatri",
+        "bhalo",
+        "kemon",
+        "achhen"
+      ],
+      "tip": "Bengali pronouns **don't mark gender**. **সে** means both 'he' and 'she'. Careful: its transliteration is *she*, but it's pronounced 'shay' and has nothing to do with English *she*!\n\nThe third person comes in two levels of respect, just like 'you':\n\n- **সে / ও** (*she / o*): ordinary — friends, peers, children. **ও** is the everyday spoken form (literally 'that one').\n- **তিনি / উনি** (*tini / uni*): polite — elders, teachers, anyone you would call আপনি. **তিনি** sounds bookish (news, writing); in conversation people say **উনি**.\n\nThe verb follows **respect**, not gender: সে ভালো **আছে** ('he/she is well') but উনি ভালো **আছেন** — the same polite **-েন** ending you already know from আপনি আছেন.",
+      "sentences": [
+        {
+          "bn": "সে ডাক্তার।",
+          "tr": "she daktar.",
+          "en": "He is a doctor.",
+          "alt": [
+            "She is a doctor."
+          ]
+        },
+        {
+          "bn": "ও আমার বন্ধু।",
+          "tr": "o amar bondhu.",
+          "en": "He is my friend.",
+          "alt": [
+            "She is my friend."
+          ]
+        },
+        {
+          "bn": "তিনি শিক্ষক।",
+          "tr": "tini shikkhok.",
+          "en": "He is a teacher.",
+          "alt": [
+            "She is a teacher."
+          ]
+        },
+        {
+          "bn": "উনি আমার শিক্ষক।",
+          "tr": "uni amar shikkhok.",
+          "en": "She is my teacher.",
+          "alt": [
+            "He is my teacher."
+          ]
+        },
+        {
+          "bn": "ও ছাত্রী।",
+          "tr": "o chhatri.",
+          "en": "She is a student."
+        },
+        {
+          "bn": "সে ভালো আছে।",
+          "tr": "she bhalo achhe.",
+          "en": "He is well.",
+          "alt": [
+            "She is well.",
+            "She is fine.",
+            "He is fine."
+          ]
+        },
+        {
+          "bn": "উনি কেমন আছেন?",
+          "tr": "uni kemon achhen?",
+          "en": "How is he?",
+          "alt": [
+            "How is she?"
+          ]
+        },
+        {
+          "bn": "তিনি ভালো আছেন।",
+          "tr": "tini bhalo achhen.",
+          "en": "She is well.",
+          "alt": [
+            "He is well.",
+            "He is fine.",
+            "She is fine."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u02-l02",
+      "title": "We & they",
+      "goal": "Use plural pronouns; see that the verb doesn't change for plural.",
+      "grammar": [
+        "plural pronouns with -রা",
+        "verb agrees in person/respect, not number",
+        "nouns often unmarked for plural"
+      ],
+      "new": [
+        "amra",
+        "tomra",
+        "apnara",
+        "tara",
+        "ora",
+        "chhele",
+        "meye",
+        "manush"
+      ],
+      "review": [
+        "chhatro",
+        "amar",
+        "bondhu",
+        "bhalo",
+        "achhi",
+        "kemon",
+        "achho",
+        "achhen",
+        "she",
+        "o-pron",
+        "khub",
+        "daktar"
+      ],
+      "tip": "Add **-রা** (*-ra*) to make pronouns plural:\n\n- আমি → **আমরা** (*amra*) we\n- তুমি → **তোমরা** (*tomra*), আপনি → **আপনারা** (*apnara*) you all\n- সে → **তারা** (*tara*), ও → **ওরা** (*ora*) they (polite: **ওনারা** *onara*)\n\nGood news: **the verb does not change for plural.** আমি ভালো **আছি**, আমরা ভালো **আছি**. আপনি **আছেন**, আপনারা **আছেন**. The ending only cares about *person* and *respect*.\n\nNouns usually don't need a plural ending when the context is clear: **তারা ডাক্তার** = 'They are doctors.' And **ছেলে / মেয়ে** mean 'boy / girl' but also 'son / daughter' — you'll use that in the Family unit.",
+      "sentences": [
+        {
+          "bn": "আমরা ছাত্র।",
+          "tr": "amra chhatro.",
+          "en": "We are students."
+        },
+        {
+          "bn": "তারা আমার বন্ধু।",
+          "tr": "tara amar bondhu.",
+          "en": "They are my friends."
+        },
+        {
+          "bn": "আমরা ভালো আছি।",
+          "tr": "amra bhalo achhi.",
+          "en": "We are well.",
+          "alt": [
+            "We are fine.",
+            "We're fine."
+          ]
+        },
+        {
+          "bn": "তোমরা কেমন আছো?",
+          "tr": "tomra kemon achho?",
+          "en": "How are you all?",
+          "alt": [
+            "How are you guys?",
+            "How are you?"
+          ]
+        },
+        {
+          "bn": "আপনারা কেমন আছেন?",
+          "tr": "apnara kemon achhen?",
+          "en": "How are you all?",
+          "alt": [
+            "How are you?"
+          ]
+        },
+        {
+          "bn": "ওরা ভালো মানুষ।",
+          "tr": "ora bhalo manush.",
+          "en": "They are good people."
+        },
+        {
+          "bn": "সে ভালো ছেলে।",
+          "tr": "she bhalo chhele.",
+          "en": "He is a good boy."
+        },
+        {
+          "bn": "ও খুব ভালো মেয়ে।",
+          "tr": "o khub bhalo meye.",
+          "en": "She is a very good girl."
+        },
+        {
+          "bn": "তারা ডাক্তার।",
+          "tr": "tara daktar.",
+          "en": "They are doctors."
+        }
+      ]
+    },
+    {
+      "id": "u02-l03",
+      "title": "tui, tumi, apni",
+      "goal": "Choose the right 'you' for the situation; say who is here or not.",
+      "grammar": [
+        "three levels of 'you': তুই / তুমি / আপনি",
+        "তুই verb ending -িস",
+        "এখানে / ওখানে",
+        "নেই = is not (here) / doesn't exist"
+      ],
+      "new": [
+        "tui",
+        "tora",
+        "achhish",
+        "ekhane",
+        "okhane",
+        "nei"
+      ],
+      "review": [
+        "kemon",
+        "ami",
+        "bhalo",
+        "achhi",
+        "amar",
+        "bondhu",
+        "rafi",
+        "nadia",
+        "achhe",
+        "apni",
+        "achhen"
+      ],
+      "tip": "Bengali has **three** words for 'you'. Think of them as a ladder of closeness:\n\n- **আপনি** (*apni*) — respect: elders, strangers, teachers, shopkeepers.\n- **তুমি** (*tumi*) — warmth: friends, younger people, partners, many parents and grandparents.\n- **তুই** (*tui*) — intimacy: your best friends of the same age, younger brothers and sisters, small children. Its verb ends in **-িস**: তুই কেমন **আছিস**? Plural: **তোরা**.\n\n**Careful:** তুই to a stranger or an elder is a serious insult. Quick scenarios: your grandmother → **আপনি** (some families use তুমি); your little brother → **তুই** or তুমি; a rickshaw driver → **আপনি**; your school best friend → **তুই**. When in doubt, go one step *more* polite.\n\n**এখানে** = here, **ওখানে** = there. The opposite of আছে is **নেই** (*nei*), and it never changes: রাফি এখানে **নেই** 'Rafi isn't here.'",
+      "sentences": [
+        {
+          "bn": "তুই কেমন আছিস?",
+          "tr": "tui kemon achhish?",
+          "en": "How are you?",
+          "alt": [
+            "How are you doing?"
+          ]
+        },
+        {
+          "bn": "তোরা কেমন আছিস?",
+          "tr": "tora kemon achhish?",
+          "en": "How are you guys?",
+          "alt": [
+            "How are you all?",
+            "How are you?"
+          ]
+        },
+        {
+          "bn": "আমি ভালো আছি, তুই?",
+          "tr": "ami bhalo achhi, tui?",
+          "en": "I'm well, and you?",
+          "alt": [
+            "I'm fine, you?",
+            "I'm good, and you?"
+          ]
+        },
+        {
+          "bn": "তুই আমার বন্ধু।",
+          "tr": "tui amar bondhu.",
+          "en": "You are my friend.",
+          "alt": [
+            "You're my friend."
+          ]
+        },
+        {
+          "bn": "আমি এখানে আছি।",
+          "tr": "ami ekhane achhi.",
+          "en": "I am here.",
+          "alt": [
+            "I'm here."
+          ]
+        },
+        {
+          "bn": "তোরা ওখানে আছিস?",
+          "tr": "tora okhane achhish?",
+          "en": "Are you guys there?",
+          "alt": [
+            "Are you all there?",
+            "Are you there?"
+          ]
+        },
+        {
+          "bn": "রাফি এখানে নেই।",
+          "tr": "rafi ekhane nei.",
+          "en": "Rafi isn't here.",
+          "alt": [
+            "Rafi is not here."
+          ]
+        },
+        {
+          "bn": "নাদিয়া ওখানে আছে।",
+          "tr": "nadiya okhane achhe.",
+          "en": "Nadia is there."
+        },
+        {
+          "bn": "আপনি কেমন আছেন?",
+          "tr": "apni kemon achhen?",
+          "en": "How are you?"
+        }
+      ]
+    },
+    {
+      "id": "u02-l04",
+      "title": "Is, isn't & yes/no",
+      "goal": "Ask yes/no questions with কি and say what someone is not.",
+      "grammar": [
+        "yes/no particle কি",
+        "negative copula নই / নও / নন / নয় (colloquial: না)",
+        "এটা / ওটা with classifier -টা",
+        "কে = who"
+      ],
+      "new": [
+        "ki-q",
+        "noi",
+        "noo",
+        "non",
+        "noy-isnt",
+        "ke",
+        "eta",
+        "ota"
+      ],
+      "review": [
+        "apni",
+        "shikkhok",
+        "na",
+        "ami",
+        "tumi",
+        "chhatro",
+        "daktar",
+        "uni",
+        "she",
+        "amar",
+        "bondhu",
+        "ki-what",
+        "am"
+      ],
+      "tip": "To ask a yes/no question, add **কি** (*ki*), usually right after the subject: **আপনি কি শিক্ষক?** 'Are you a teacher?' Spelling: **কি** (short ি) is the question marker; **কী** (long ী) means 'what'. They sound the same: **এটা কী?** 'What is this?' vs **ওটা কি আম?** 'Is that a mango?'\n\n'Is' has no word in Bengali, but **'is not'** does — and it changes with the person:\n\n- আমি ছাত্র **নই** — I'm not a student\n- তুমি ছাত্র **নও** — you're not\n- আপনি / উনি ছাত্র **নন** — you / he (polite) aren't\n- সে / এটা **নয়** — he / it isn't\n\nIn relaxed Bangladeshi speech you'll hear plain **না** for everyone: *ota am na*. Learn both — the full set is used in writing and careful speech.\n\n**এটা / ওটা** = 'this / that'. The **-টা** on the end is a *classifier* — a little word Bengali attaches to things. You'll see lots of it in the Food unit.",
+      "sentences": [
+        {
+          "bn": "আপনি কি শিক্ষক?",
+          "tr": "apni ki shikkhok?",
+          "en": "Are you a teacher?"
+        },
+        {
+          "bn": "না, আমি শিক্ষক নই।",
+          "tr": "na, ami shikkhok noi.",
+          "en": "No, I am not a teacher.",
+          "alt": [
+            "No, I'm not a teacher."
+          ]
+        },
+        {
+          "bn": "তুমি কি ছাত্র?",
+          "tr": "tumi ki chhatro?",
+          "en": "Are you a student?"
+        },
+        {
+          "bn": "তুমি ডাক্তার নও।",
+          "tr": "tumi daktar noo.",
+          "en": "You are not a doctor.",
+          "alt": [
+            "You're not a doctor."
+          ]
+        },
+        {
+          "bn": "উনি ডাক্তার নন।",
+          "tr": "uni daktar non.",
+          "en": "He is not a doctor.",
+          "alt": [
+            "She is not a doctor.",
+            "He isn't a doctor."
+          ]
+        },
+        {
+          "bn": "সে আমার বন্ধু নয়।",
+          "tr": "she amar bondhu noy.",
+          "en": "He is not my friend.",
+          "alt": [
+            "She is not my friend.",
+            "He isn't my friend."
+          ]
+        },
+        {
+          "bn": "উনি কে?",
+          "tr": "uni ke?",
+          "en": "Who is he?",
+          "alt": [
+            "Who is she?"
+          ]
+        },
+        {
+          "bn": "এটা কী?",
+          "tr": "eta ki?",
+          "en": "What is this?",
+          "alt": [
+            "What's this?"
+          ]
+        },
+        {
+          "bn": "ওটা কি আম?",
+          "tr": "ota ki am?",
+          "en": "Is that a mango?"
+        },
+        {
+          "bn": "না, ওটা আম না।",
+          "tr": "na, ota am na.",
+          "en": "No, that's not a mango.",
+          "alt": [
+            "No, that is not a mango."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u02-l05",
+      "title": "Where are you from?",
+      "goal": "Ask and say where someone is from; ask where someone is.",
+      "grammar": [
+        "কোথায় = where; কোথা থেকে = from where",
+        "postposition থেকে 'from' comes after the noun",
+        "এসেছি / এসেছেন as chunks"
+      ],
+      "new": [
+        "kothay",
+        "kotha",
+        "theke",
+        "eshechhi",
+        "eshechhen",
+        "desh",
+        "bangladesh",
+        "amerika"
+      ],
+      "review": [
+        "apni",
+        "ami",
+        "apnar",
+        "amar",
+        "rafi",
+        "daktar",
+        "tomar",
+        "bondhu"
+      ],
+      "tip": "**আপনি কোথা থেকে এসেছেন?** (*apni kotha theke eshechhen?*) — literally 'You from where have come?' — is how you ask 'Where are you from?'. Answer: **আমি আমেরিকা থেকে এসেছি** 'I have come from America.'\n\nTwo things to notice:\n\n- **থেকে** 'from' comes **after** the place: বাংলাদেশ থেকে = 'from Bangladesh'. Bengali has *post*positions, not prepositions.\n- **কোথায়** 'where' shortens to **কোথা** before থেকে.\n\nLearn **এসেছি / এসেছেন** as chunks for now; the past tense comes in Unit 9.\n\nCulture: a very common Bangladeshi icebreaker is **আপনার দেশ কোথায়?** or **আপনার বাড়ি কোথায়?** — 'Where is your home?' It usually means *which district is your family from*, even if you live in Dhaka.",
+      "sentences": [
+        {
+          "bn": "আপনি কোথা থেকে এসেছেন?",
+          "tr": "apni kotha theke eshechhen?",
+          "en": "Where are you from?",
+          "alt": [
+            "Where have you come from?"
+          ]
+        },
+        {
+          "bn": "আমি আমেরিকা থেকে এসেছি।",
+          "tr": "ami amerika theke eshechhi.",
+          "en": "I am from America.",
+          "alt": [
+            "I have come from America.",
+            "I'm from America."
+          ]
+        },
+        {
+          "bn": "আমি বাংলাদেশ থেকে এসেছি।",
+          "tr": "ami bangladesh theke eshechhi.",
+          "en": "I am from Bangladesh.",
+          "alt": [
+            "I have come from Bangladesh.",
+            "I'm from Bangladesh."
+          ]
+        },
+        {
+          "bn": "আপনার দেশ কোথায়?",
+          "tr": "apnar desh kothay?",
+          "en": "Where is your country?",
+          "alt": [
+            "Where are you from?"
+          ]
+        },
+        {
+          "bn": "আমার দেশ বাংলাদেশ।",
+          "tr": "amar desh bangladesh.",
+          "en": "My country is Bangladesh."
+        },
+        {
+          "bn": "রাফি কোথায়?",
+          "tr": "rafi kothay?",
+          "en": "Where is Rafi?"
+        },
+        {
+          "bn": "ডাক্তার কোথায়?",
+          "tr": "daktar kothay?",
+          "en": "Where is the doctor?"
+        },
+        {
+          "bn": "তোমার বন্ধু কোথায়?",
+          "tr": "tomar bondhu kothay?",
+          "en": "Where is your friend?"
+        }
+      ]
+    },
+    {
+      "id": "u02-l06",
+      "title": "Review: people",
+      "goal": "Put pronouns, is/isn't, questions and 'from' together.",
+      "grammar": [
+        "review of the pronoun grid",
+        "বাংলা (language) vs বাংলাদেশি (nationality)"
+      ],
+      "new": [
+        "bangladeshi",
+        "bangla",
+        "ingreji"
+      ],
+      "review": [
+        "ami",
+        "apni",
+        "ki-q",
+        "eta",
+        "na",
+        "tini",
+        "amar",
+        "shikkhok",
+        "ora",
+        "bondhu",
+        "tui",
+        "kothay",
+        "ekhane",
+        "tumi",
+        "uni",
+        "non",
+        "daktar"
+      ],
+      "tip": "Time to put Unit 2 together. Check yourself on the pronoun grid:\n\n| | ordinary | polite |\n|---|---|---|\n| I / we | আমি / আমরা | — |\n| you | তুই, তুমি / তোরা, তোমরা | আপনি / আপনারা |\n| he, she / they | সে, ও / তারা, ওরা | তিনি, উনি / ওনারা |\n\nNew words: **বাংলা** is the *language* (Bengali); **বাংলাদেশি** is the *nationality*; **ইংরেজি** is English. Bengali speakers on both sides of the border call themselves **বাঙালি** (*bangali*) — an ethnic and linguistic identity, not a nationality.\n\nBangladesh is one of very few countries named after its language: *Bangla-desh* = 'Bangla country'.",
+      "sentences": [
+        {
+          "bn": "আমি বাংলাদেশি।",
+          "tr": "ami bangladeshi.",
+          "en": "I am Bangladeshi.",
+          "alt": [
+            "I'm Bangladeshi."
+          ]
+        },
+        {
+          "bn": "আপনি কি বাংলাদেশি?",
+          "tr": "apni ki bangladeshi?",
+          "en": "Are you Bangladeshi?"
+        },
+        {
+          "bn": "এটা কি বাংলা?",
+          "tr": "eta ki bangla?",
+          "en": "Is this Bengali?",
+          "alt": [
+            "Is this Bangla?"
+          ]
+        },
+        {
+          "bn": "না, এটা ইংরেজি।",
+          "tr": "na, eta ingreji.",
+          "en": "No, this is English.",
+          "alt": [
+            "No, it's English."
+          ]
+        },
+        {
+          "bn": "তিনি আমার বাংলা শিক্ষক।",
+          "tr": "tini amar bangla shikkhok.",
+          "en": "He is my Bengali teacher.",
+          "alt": [
+            "She is my Bengali teacher.",
+            "He is my Bangla teacher.",
+            "She is my Bangla teacher."
+          ]
+        },
+        {
+          "bn": "ওরা আমার বন্ধু, ওরা বাংলাদেশি।",
+          "tr": "ora amar bondhu, ora bangladeshi.",
+          "en": "They are my friends, they are Bangladeshi."
+        },
+        {
+          "bn": "তুই কোথায়?",
+          "tr": "tui kothay?",
+          "en": "Where are you?"
+        },
+        {
+          "bn": "আমি এখানে, তুমি কোথায়?",
+          "tr": "ami ekhane, tumi kothay?",
+          "en": "I'm here, where are you?",
+          "alt": [
+            "I am here, where are you?"
+          ]
+        },
+        {
+          "bn": "উনি শিক্ষক নন, উনি ডাক্তার।",
+          "tr": "uni shikkhok non, uni daktar.",
+          "en": "She is not a teacher, she is a doctor.",
+          "alt": [
+            "He is not a teacher, he is a doctor.",
+            "He isn't a teacher, he's a doctor."
+          ]
+        }
+      ]
+    }
+  ]
+}

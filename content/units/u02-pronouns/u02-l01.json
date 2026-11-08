@@ -1,0 +1,333 @@
+{
+  "id": "u02-l01",
+  "unit": "u02-pronouns",
+  "title": "He & she",
+  "status": "draft",
+  "tip": "Bengali pronouns **don't mark gender**. **সে** means both 'he' and 'she'. Careful: its transliteration is *she*, but it's pronounced 'shay' and has nothing to do with English *she*!\n\nThe third person comes in two levels of respect, just like 'you':\n\n- **সে / ও** (*she / o*): ordinary — friends, peers, children. **ও** is the everyday spoken form (literally 'that one').\n- **তিনি / উনি** (*tini / uni*): polite — elders, teachers, anyone you would call আপনি. **তিনি** sounds bookish (news, writing); in conversation people say **উনি**.\n\nThe verb follows **respect**, not gender: সে ভালো **আছে** ('he/she is well') but উনি ভালো **আছেন** — the same polite **-েন** ending you already know from আপনি আছেন.",
+  "vocab": [
+    {
+      "id": "she",
+      "bn": "সে",
+      "tr": "she",
+      "en": "he/she",
+      "notes": "Pronounced 'shay'. No gender: সে = he or she. Neutral, also the written form."
+    },
+    {
+      "id": "o-pron",
+      "bn": "ও",
+      "tr": "o",
+      "en": "he/she (spoken)",
+      "notes": "Everyday spoken 'he/she', lit. 'that one'. Used for friends, peers, children. Also a word for 'also/and' (you'll meet it later)."
+    },
+    {
+      "id": "tini",
+      "bn": "তিনি",
+      "tr": "tini",
+      "en": "he/she (polite)",
+      "notes": "Formal/written; উনি is the spoken equivalent."
+    },
+    {
+      "id": "uni",
+      "bn": "উনি",
+      "tr": "uni",
+      "en": "he/she (polite, spoken)",
+      "notes": "What people actually say in conversation for a respected third person."
+    },
+    {
+      "id": "achhe",
+      "bn": "আছে",
+      "tr": "achhe",
+      "en": "is (he/she/it)",
+      "notes": "Goes with সে, ও, তারা. Also means 'there is' / 'exists'."
+    },
+    {
+      "id": "daktar",
+      "bn": "ডাক্তার",
+      "tr": "daktar",
+      "en": "doctor"
+    },
+    {
+      "id": "bondhu",
+      "bn": "বন্ধু",
+      "tr": "bondhu",
+      "en": "friend"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "সে",
+        "tr": "she",
+        "en": "he/she"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "he/she",
+        "he/she (polite, spoken)",
+        "you (familiar)",
+        "what"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ও",
+        "tr": "o",
+        "en": "he/she (spoken)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "I",
+        "he/she (polite, spoken)",
+        "your (polite)",
+        "he/she (spoken)"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "তিনি",
+        "tr": "tini",
+        "en": "he/she (polite)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "he/she (polite)",
+        "he/she (spoken)",
+        "your (familiar)",
+        "your (polite)"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e04",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "উনি",
+        "tr": "uni",
+        "en": "he/she (polite, spoken)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "he/she (polite, spoken)",
+        "you (polite)",
+        "he/she (polite)",
+        "my"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e05",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আছে",
+        "tr": "achhe",
+        "en": "is (he/she/it)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "is (he/she/it)",
+        "am",
+        "are (familiar)",
+        "are (polite)"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e06",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ডাক্তার",
+        "tr": "daktar",
+        "en": "doctor"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "student (male)",
+        "teacher",
+        "doctor",
+        "name"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e07",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "বন্ধু",
+        "tr": "bondhu",
+        "en": "friend"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "student (female)",
+        "friend",
+        "teacher",
+        "student (male)"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e08",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "ডাক্তার",
+          "tr": "daktar",
+          "en": "doctor"
+        },
+        {
+          "bn": "সে",
+          "tr": "she",
+          "en": "he/she"
+        },
+        {
+          "bn": "বন্ধু",
+          "tr": "bondhu",
+          "en": "friend"
+        },
+        {
+          "bn": "তিনি",
+          "tr": "tini",
+          "en": "he/she (polite)"
+        },
+        {
+          "bn": "আছে",
+          "tr": "achhe",
+          "en": "is (he/she/it)"
+        }
+      ]
+    },
+    {
+      "id": "e09",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "ও আমার বন্ধু।",
+        "tr": "o amar bondhu.",
+        "en": "He is my friend."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "what",
+        "my",
+        "He",
+        "friend",
+        "a",
+        "is",
+        "doctor"
+      ],
+      "answer": [
+        "He",
+        "is",
+        "my",
+        "friend"
+      ]
+    },
+    {
+      "id": "e10",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "উনি আমার শিক্ষক।",
+        "tr": "uni amar shikkhok.",
+        "en": "She is my teacher."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "আপনি",
+        "ছাত্র",
+        "শিক্ষক",
+        "আমার",
+        "উনি",
+        "নাদিয়া"
+      ],
+      "answer": [
+        "উনি",
+        "আমার",
+        "শিক্ষক"
+      ]
+    },
+    {
+      "id": "e11",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "উনি কেমন আছেন?",
+        "tr": "uni kemon achhen?",
+        "en": "How is he?"
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "yes",
+        "is",
+        "teacher",
+        "student",
+        "he",
+        "How"
+      ],
+      "answer": [
+        "How",
+        "is",
+        "he"
+      ]
+    },
+    {
+      "id": "e12",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "সে ভালো আছে।",
+        "tr": "she bhalo achhe.",
+        "en": "He is well."
+      },
+      "direction": "bn_to_en",
+      "accepted": [
+        "He is well.",
+        "She is well.",
+        "She is fine.",
+        "He is fine."
+      ]
+    },
+    {
+      "id": "e13",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "তিনি শিক্ষক।",
+        "tr": "tini shikkhok.",
+        "en": "He is a teacher."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "শিক্ষক",
+        "ও",
+        "তিনি",
+        "কী",
+        "নাম"
+      ],
+      "answer": [
+        "তিনি",
+        "শিক্ষক"
+      ]
+    },
+    {
+      "id": "e14",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ও ছাত্রী।",
+        "tr": "o chhatri.",
+        "en": "She is a student."
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "ও ছাত্রী।",
+        "ভালো আছি, ধন্যবাদ।",
+        "না, ধন্যবাদ।",
+        "ভালো আছি, আর আপনি?"
+      ],
+      "answer": 0
+    }
+  ]
+}

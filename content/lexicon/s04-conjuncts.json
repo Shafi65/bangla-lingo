@@ -1,0 +1,194 @@
+{
+  "unit": "s04-conjuncts",
+  "entries": [
+    {
+      "id": "cj-hoshonto",
+      "bn": "ক্",
+      "tr": "k",
+      "en": "্ (hoshonto): kills the inherent vowel, so ক্ = just 'k'",
+      "pos": "letter",
+      "lesson": "s04-l01",
+      "notes": "Bare sign: ্ (U+09CD), name hoshonto (হসন্ত). Usually invisible: it is what joins letters into conjuncts. Shown on ক."
+    },
+    {
+      "id": "cj-nto",
+      "bn": "ন্ত",
+      "tr": "nto",
+      "en": "n + t (ন + ত)",
+      "pos": "letter",
+      "lesson": "s04-l01",
+      "notes": "ন U+09A8 + ্ U+09CD + ত U+09A4. Very common: পর্যন্ত, শান্ত."
+    },
+    {
+      "id": "cj-sto",
+      "bn": "স্ত",
+      "tr": "sto",
+      "en": "s + t (স + ত); স says 's' here",
+      "pos": "letter",
+      "lesson": "s04-l01",
+      "notes": "স U+09B8 + ্ + ত U+09A4. রাস্তা rasta; but নাস্তা is usually said nashta."
+    },
+    {
+      "id": "cj-ndo",
+      "bn": "ন্দ",
+      "tr": "ndo",
+      "en": "n + d (ন + দ)",
+      "pos": "letter",
+      "lesson": "s04-l01",
+      "notes": "ন + ্ + দ U+09A6. মন্দির mondir."
+    },
+    {
+      "id": "cj-ndho",
+      "bn": "ন্ধ",
+      "tr": "ndho",
+      "en": "n + dh (ন + ধ)",
+      "pos": "letter",
+      "lesson": "s04-l01",
+      "notes": "ন + ্ + ধ U+09A7. বন্ধু bondhu, সন্ধ্যা shondha."
+    },
+    {
+      "id": "cj-sko",
+      "bn": "স্ক",
+      "tr": "sko",
+      "en": "s/sh + k (স + ক)",
+      "pos": "letter",
+      "lesson": "s04-l01",
+      "notes": "স + ্ + ক U+0995. স্কুল skul; নমস্কার nomoshkar (said with sh)."
+    },
+    {
+      "id": "shanto",
+      "bn": "শান্ত",
+      "tr": "shanto",
+      "en": "calm / quiet",
+      "pos": "adj",
+      "lesson": "s04-l01",
+      "notes": "Also a common boy's name."
+    },
+    {
+      "id": "cj-mmo",
+      "bn": "ম্ম",
+      "tr": "mmo",
+      "en": "double m (ম + ম)",
+      "pos": "letter",
+      "lesson": "s04-l02",
+      "notes": "ম U+09AE + ্ + ম. আম্মু ammu. আব্বু uses the same idea with ব্ব."
+    },
+    {
+      "id": "cj-chcho",
+      "bn": "চ্চ",
+      "tr": "chcho",
+      "en": "double ch (চ + চ)",
+      "pos": "letter",
+      "lesson": "s04-l02",
+      "notes": "চ U+099A + ্ + চ. বাচ্চা bachcha."
+    },
+    {
+      "id": "cj-chchho",
+      "bn": "চ্ছ",
+      "tr": "chchho",
+      "en": "ch + chh (চ + ছ), a held, puffed ch",
+      "pos": "letter",
+      "lesson": "s04-l02",
+      "notes": "চ + ্ + ছ U+099B. শুভেচ্ছা shubhechchha; also in verb forms like করছি (said korchhi)."
+    },
+    {
+      "id": "cj-llo",
+      "bn": "ল্ল",
+      "tr": "llo",
+      "en": "double l (ল + ল)",
+      "pos": "letter",
+      "lesson": "s04-l02",
+      "notes": "ল U+09B2 + ্ + ল. চল্লিশ chollish; আলহামদুলিল্লাহ."
+    },
+    {
+      "id": "cj-nno",
+      "bn": "ন্ন",
+      "tr": "nno",
+      "en": "double n (ন + ন)",
+      "pos": "letter",
+      "lesson": "s04-l02",
+      "notes": "ন + ্ + ন. রান্না ranna. Sounds the same as য-ফলা on ন (ন্য in ধন্যবাদ), s04-l04: keep apart in listening tests."
+    },
+    {
+      "id": "cj-kkho",
+      "bn": "ক্ষ",
+      "tr": "kkho",
+      "en": "kkh / kh (ক + ষ), NOT 'ksh'",
+      "pos": "letter",
+      "lesson": "s04-l03",
+      "notes": "ক U+0995 + ্ + ষ U+09B7. At the start of a word it is just kh (ক্ষুধা khudha); in the middle it doubles (শিক্ষক shikkhok). Hindi/Sanskrit speakers: don't say ksh."
+    },
+    {
+      "id": "cj-kto",
+      "bn": "ক্ত",
+      "tr": "kto",
+      "en": "k + t (ক + ত)",
+      "pos": "letter",
+      "lesson": "s04-l03",
+      "notes": "ক + ্ + ত U+09A4. The ত shrinks into a hook under ক. ডাক্তার daktar, রক্ত rokto."
+    },
+    {
+      "id": "cj-nggo",
+      "bn": "ঙ্গ",
+      "tr": "nggo",
+      "en": "ng + g (ঙ + গ), as in 'finger'",
+      "pos": "letter",
+      "lesson": "s04-l03",
+      "notes": "ঙ U+0999 + ্ + গ U+0997. লুঙ্গি lunggi, সঙ্গে shonge."
+    },
+    {
+      "id": "cj-ncho",
+      "bn": "ঞ্চ",
+      "tr": "ncho",
+      "en": "n + ch (ঞ + চ)",
+      "pos": "letter",
+      "lesson": "s04-l03",
+      "notes": "ঞ U+099E + ্ + চ U+099A. পঞ্চাশ ponchash. ঞ almost always appears in this kind of cluster."
+    },
+    {
+      "id": "cj-shto",
+      "bn": "ষ্ট",
+      "tr": "shto",
+      "en": "sh + hard t (ষ + ট)",
+      "pos": "letter",
+      "lesson": "s04-l03",
+      "notes": "ষ U+09B7 + ্ + ট U+099F. মিষ্টি mishti. English loans use স্ট instead (স্টেশন steshon)."
+    },
+    {
+      "id": "cj-jofola",
+      "bn": "ন্য",
+      "tr": "nno",
+      "en": "্য (jo-fola) on ন: doubles the n (ধন্যবাদ)",
+      "pos": "letter",
+      "lesson": "s04-l04",
+      "notes": "Bare sign: ্য (U+09CD U+09AF), name jo-fola (য-ফলা). ন্য = ন + ্ + য. Mid-word it doubles the consonant; with া at the start it gives æ (ব্যাগ bæg). Sounds like ন্ন: keep apart in listening tests."
+    },
+    {
+      "id": "cj-rofola",
+      "bn": "ত্র",
+      "tr": "tro",
+      "en": "্র (ro-fola) on ত: t + r (ছাত্র)",
+      "pos": "letter",
+      "lesson": "s04-l04",
+      "notes": "Bare sign: ্র (U+09CD U+09B0), name ro-fola (র-ফলা), a slanted stroke under the letter. ত্র = ত + ্ + র."
+    },
+    {
+      "id": "cj-bofola",
+      "bn": "স্ব",
+      "tr": "sho",
+      "en": "্ব (bo-fola) on স: the ব is silent (স্বামী = shami)",
+      "pos": "letter",
+      "lesson": "s04-l04",
+      "notes": "Bare sign: ্ব (U+09CD U+09AC), name bo-fola (ব-ফলা). At the start of a word it is silent; in the middle it doubles the consonant (বিশ্ব bishsho). স্ব = স + ্ + ব."
+    },
+    {
+      "id": "cj-ref",
+      "bn": "র্গ",
+      "tr": "rgo",
+      "en": "র্ (ref): an r before the consonant, drawn as a hook on top",
+      "pos": "letter",
+      "lesson": "s04-l04",
+      "notes": "Name: ref (রেফ), র + ্ written as a small hook above the next consonant. র্গ = র U+09B0 + ্ + গ U+0997 (দুর্গা durga)."
+    }
+  ]
+}

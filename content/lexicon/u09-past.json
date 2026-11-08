@@ -1,0 +1,678 @@
+{
+  "unit": "u09-past",
+  "entries": [
+    {
+      "id": "gotokal",
+      "bn": "গতকাল",
+      "tr": "gotokal",
+      "en": "yesterday",
+      "pos": "adv",
+      "lesson": "u09-l01",
+      "notes": "Unambiguous 'yesterday'; plain কাল can mean yesterday or tomorrow."
+    },
+    {
+      "id": "korlam",
+      "bn": "করলাম",
+      "tr": "korlam",
+      "en": "I did",
+      "alt": [
+        "did",
+        "we did"
+      ],
+      "pos": "verb",
+      "lesson": "u09-l01",
+      "notes": "Past of করা for আমি / আমরা."
+    },
+    {
+      "id": "dekhlam",
+      "bn": "দেখলাম",
+      "tr": "dekhlam",
+      "en": "I saw",
+      "alt": [
+        "I watched",
+        "saw",
+        "watched"
+      ],
+      "pos": "verb",
+      "lesson": "u09-l01"
+    },
+    {
+      "id": "shunlam",
+      "bn": "শুনলাম",
+      "tr": "shunlam",
+      "en": "I heard",
+      "alt": [
+        "I listened",
+        "heard",
+        "listened to"
+      ],
+      "pos": "verb",
+      "lesson": "u09-l01"
+    },
+    {
+      "id": "porlam",
+      "bn": "পড়লাম",
+      "tr": "porlam",
+      "en": "I read",
+      "alt": [
+        "read",
+        "I studied"
+      ],
+      "pos": "verb",
+      "lesson": "u09-l01",
+      "notes": "Past: pronounced 'por-lam'."
+    },
+    {
+      "id": "kinlam",
+      "bn": "কিনলাম",
+      "tr": "kinlam",
+      "en": "I bought",
+      "alt": [
+        "bought"
+      ],
+      "pos": "verb",
+      "lesson": "u09-l01"
+    },
+    {
+      "id": "bollam",
+      "bn": "বললাম",
+      "tr": "bollam",
+      "en": "I said",
+      "alt": [
+        "I told",
+        "said",
+        "told"
+      ],
+      "pos": "verb",
+      "lesson": "u09-l01",
+      "notes": "Spelled বললাম; the ল-ল is pronounced as one long l: 'bol-lam'."
+    },
+    {
+      "id": "ghumalam",
+      "bn": "ঘুমালাম",
+      "tr": "ghumalam",
+      "en": "I slept",
+      "alt": [
+        "slept"
+      ],
+      "pos": "verb",
+      "lesson": "u09-l01",
+      "kolkata": {
+        "bn": "ঘুমোলাম",
+        "tr": "ghumolam"
+      }
+    },
+    {
+      "id": "take",
+      "bn": "তাকে",
+      "tr": "take",
+      "en": "him",
+      "alt": [
+        "her",
+        "to him",
+        "to her"
+      ],
+      "pos": "pronoun",
+      "lesson": "u09-l01",
+      "notes": "Object form of সে. Polite: তাঁকে / ওনাকে."
+    },
+    {
+      "id": "korli",
+      "bn": "করলি",
+      "tr": "korli",
+      "en": "you did (intimate)",
+      "alt": [
+        "did"
+      ],
+      "pos": "verb",
+      "lesson": "u09-l02",
+      "register": "intimate"
+    },
+    {
+      "id": "korle",
+      "bn": "করলে",
+      "tr": "korle",
+      "en": "you did (familiar)",
+      "alt": [
+        "did"
+      ],
+      "pos": "verb",
+      "lesson": "u09-l02",
+      "register": "familiar",
+      "notes": "Same form also means 'if (someone) does' — context decides."
+    },
+    {
+      "id": "korlen",
+      "bn": "করলেন",
+      "tr": "korlen",
+      "en": "you did (polite)",
+      "alt": [
+        "did",
+        "he did (polite)",
+        "she did (polite)"
+      ],
+      "pos": "verb",
+      "lesson": "u09-l02",
+      "register": "polite"
+    },
+    {
+      "id": "korlo",
+      "bn": "করল",
+      "tr": "korlo",
+      "en": "did",
+      "alt": [
+        "he did",
+        "she did",
+        "they did"
+      ],
+      "pos": "verb",
+      "lesson": "u09-l02",
+      "notes": "Also spelled করলো."
+    },
+    {
+      "id": "kinlen",
+      "bn": "কিনলেন",
+      "tr": "kinlen",
+      "en": "you bought (polite)",
+      "alt": [
+        "bought"
+      ],
+      "pos": "verb",
+      "lesson": "u09-l02",
+      "register": "polite"
+    },
+    {
+      "id": "kinlo",
+      "bn": "কিনল",
+      "tr": "kinlo",
+      "en": "bought",
+      "alt": [
+        "he bought",
+        "she bought",
+        "they bought"
+      ],
+      "pos": "verb",
+      "lesson": "u09-l02",
+      "notes": "Also spelled কিনলো."
+    },
+    {
+      "id": "gelam",
+      "bn": "গেলাম",
+      "tr": "gelam",
+      "en": "I went",
+      "alt": [
+        "went",
+        "we went"
+      ],
+      "pos": "verb",
+      "lesson": "u09-l03"
+    },
+    {
+      "id": "gelo",
+      "bn": "গেল",
+      "tr": "gelo",
+      "en": "went",
+      "alt": [
+        "he went",
+        "she went",
+        "they went"
+      ],
+      "pos": "verb",
+      "lesson": "u09-l03",
+      "notes": "Also spelled গেলো."
+    },
+    {
+      "id": "elam",
+      "bn": "এলাম",
+      "tr": "elam",
+      "en": "I came",
+      "alt": [
+        "came",
+        "we came"
+      ],
+      "pos": "verb",
+      "lesson": "u09-l03",
+      "notes": "Standard; preferred in Kolkata. Bangladeshi speech often uses আসলাম."
+    },
+    {
+      "id": "ele",
+      "bn": "এলে",
+      "tr": "ele",
+      "en": "you came (familiar)",
+      "alt": [
+        "came"
+      ],
+      "pos": "verb",
+      "lesson": "u09-l03",
+      "register": "familiar",
+      "notes": "BD colloquial: আসলে."
+    },
+    {
+      "id": "ashlam",
+      "bn": "আসলাম",
+      "tr": "ashlam",
+      "en": "I came",
+      "alt": [
+        "came",
+        "we came"
+      ],
+      "pos": "verb",
+      "lesson": "u09-l03",
+      "notes": "Very common in Bangladesh; considered colloquial. Standard: এলাম."
+    },
+    {
+      "id": "khelam",
+      "bn": "খেলাম",
+      "tr": "khelam",
+      "en": "I ate",
+      "alt": [
+        "ate",
+        "I drank",
+        "drank",
+        "we ate"
+      ],
+      "pos": "verb",
+      "lesson": "u09-l03"
+    },
+    {
+      "id": "dilam",
+      "bn": "দিলাম",
+      "tr": "dilam",
+      "en": "I gave",
+      "alt": [
+        "gave"
+      ],
+      "pos": "verb",
+      "lesson": "u09-l03"
+    },
+    {
+      "id": "nilam",
+      "bn": "নিলাম",
+      "tr": "nilam",
+      "en": "I took",
+      "alt": [
+        "took",
+        "I bought",
+        "I got"
+      ],
+      "pos": "verb",
+      "lesson": "u09-l03"
+    },
+    {
+      "id": "kheyechhen",
+      "bn": "খেয়েছেন",
+      "tr": "kheyechhen",
+      "en": "have you eaten (polite)",
+      "alt": [
+        "have eaten",
+        "you have eaten",
+        "has eaten"
+      ],
+      "pos": "verb",
+      "lesson": "u09-l04",
+      "register": "polite"
+    },
+    {
+      "id": "kheyechho",
+      "bn": "খেয়েছো",
+      "tr": "kheyechho",
+      "en": "have you eaten (familiar)",
+      "alt": [
+        "have eaten",
+        "you have eaten"
+      ],
+      "pos": "verb",
+      "lesson": "u09-l04",
+      "register": "familiar",
+      "notes": "Also spelled খেয়েছ."
+    },
+    {
+      "id": "kheyechhi",
+      "bn": "খেয়েছি",
+      "tr": "kheyechhi",
+      "en": "I have eaten",
+      "alt": [
+        "have eaten",
+        "I ate",
+        "we have eaten"
+      ],
+      "pos": "verb",
+      "lesson": "u09-l04"
+    },
+    {
+      "id": "korechhi",
+      "bn": "করেছি",
+      "tr": "korechhi",
+      "en": "I have done",
+      "alt": [
+        "have done",
+        "I did",
+        "we have done"
+      ],
+      "pos": "verb",
+      "lesson": "u09-l04"
+    },
+    {
+      "id": "matro",
+      "bn": "মাত্র",
+      "tr": "matro",
+      "en": "just",
+      "alt": [
+        "only",
+        "just now"
+      ],
+      "pos": "adv",
+      "lesson": "u09-l04"
+    },
+    {
+      "id": "giyechhe",
+      "bn": "গিয়েছে",
+      "tr": "giyechhe",
+      "en": "has gone",
+      "alt": [
+        "he has gone",
+        "she has gone",
+        "went"
+      ],
+      "pos": "verb",
+      "lesson": "u09-l04",
+      "notes": "Everyday speech often shortens it to গেছে (geche)."
+    },
+    {
+      "id": "ki-hoyechhe",
+      "bn": "কী হয়েছে",
+      "tr": "ki hoyechhe",
+      "en": "what happened",
+      "alt": [
+        "what's wrong",
+        "what's the matter"
+      ],
+      "pos": "phrase",
+      "lesson": "u09-l04"
+    },
+    {
+      "id": "eshechhe",
+      "bn": "এসেছে",
+      "tr": "eshechhe",
+      "en": "has come",
+      "alt": [
+        "he has come",
+        "she has come",
+        "has arrived",
+        "came"
+      ],
+      "pos": "verb",
+      "lesson": "u09-l04"
+    },
+    {
+      "id": "korini",
+      "bn": "করিনি",
+      "tr": "korini",
+      "en": "I didn't do",
+      "alt": [
+        "I haven't done",
+        "didn't do",
+        "haven't done"
+      ],
+      "pos": "verb",
+      "lesson": "u09-l05"
+    },
+    {
+      "id": "khaini",
+      "bn": "খাইনি",
+      "tr": "khaini",
+      "en": "I haven't eaten",
+      "alt": [
+        "I didn't eat",
+        "didn't eat",
+        "haven't eaten"
+      ],
+      "pos": "verb",
+      "lesson": "u09-l05"
+    },
+    {
+      "id": "khaoni",
+      "bn": "খাওনি",
+      "tr": "khaoni",
+      "en": "you didn't eat (familiar)",
+      "alt": [
+        "haven't eaten",
+        "didn't eat"
+      ],
+      "pos": "verb",
+      "lesson": "u09-l05",
+      "register": "familiar"
+    },
+    {
+      "id": "jaini",
+      "bn": "যাইনি",
+      "tr": "jaini",
+      "en": "I didn't go",
+      "alt": [
+        "I haven't gone",
+        "didn't go",
+        "haven't been"
+      ],
+      "pos": "verb",
+      "lesson": "u09-l05"
+    },
+    {
+      "id": "dekhini",
+      "bn": "দেখিনি",
+      "tr": "dekhini",
+      "en": "I didn't see",
+      "alt": [
+        "I haven't seen",
+        "didn't watch",
+        "haven't watched"
+      ],
+      "pos": "verb",
+      "lesson": "u09-l05"
+    },
+    {
+      "id": "asheni",
+      "bn": "আসেনি",
+      "tr": "asheni",
+      "en": "hasn't come",
+      "alt": [
+        "didn't come",
+        "he hasn't come",
+        "she hasn't come"
+      ],
+      "pos": "verb",
+      "lesson": "u09-l05"
+    },
+    {
+      "id": "ekhono",
+      "bn": "এখনো",
+      "tr": "ekhono",
+      "en": "yet",
+      "alt": [
+        "still"
+      ],
+      "pos": "adv",
+      "lesson": "u09-l05",
+      "notes": "Also spelled এখনও."
+    },
+    {
+      "id": "ekhono-na",
+      "bn": "এখনো না",
+      "tr": "ekhono na",
+      "en": "not yet",
+      "pos": "phrase",
+      "lesson": "u09-l05"
+    },
+    {
+      "id": "itimoddhe",
+      "bn": "ইতিমধ্যে",
+      "tr": "itimoddhe",
+      "en": "already",
+      "pos": "adv",
+      "lesson": "u09-l05",
+      "notes": "Slightly formal; in speech people often just use the perfect alone, or অলরেডি."
+    },
+    {
+      "id": "chhilam",
+      "bn": "ছিলাম",
+      "tr": "chhilam",
+      "en": "I was",
+      "alt": [
+        "was",
+        "we were"
+      ],
+      "pos": "verb",
+      "lesson": "u09-l06"
+    },
+    {
+      "id": "chhile",
+      "bn": "ছিলে",
+      "tr": "chhile",
+      "en": "you were (familiar)",
+      "alt": [
+        "were"
+      ],
+      "pos": "verb",
+      "lesson": "u09-l06",
+      "register": "familiar"
+    },
+    {
+      "id": "chhilen",
+      "bn": "ছিলেন",
+      "tr": "chhilen",
+      "en": "you were (polite)",
+      "alt": [
+        "were",
+        "he was (polite)",
+        "she was (polite)"
+      ],
+      "pos": "verb",
+      "lesson": "u09-l06",
+      "register": "polite"
+    },
+    {
+      "id": "chhilo",
+      "bn": "ছিল",
+      "tr": "chhilo",
+      "en": "was",
+      "alt": [
+        "he was",
+        "she was",
+        "it was",
+        "they were"
+      ],
+      "pos": "verb",
+      "lesson": "u09-l06",
+      "notes": "Also spelled ছিলো."
+    },
+    {
+      "id": "giyechhilam",
+      "bn": "গিয়েছিলাম",
+      "tr": "giyechhilam",
+      "en": "I had gone",
+      "alt": [
+        "I went",
+        "I had been",
+        "I was"
+      ],
+      "pos": "verb",
+      "lesson": "u09-l06",
+      "notes": "Past perfect; often just 'I went (and came back)'. Colloquial: গেছিলাম."
+    },
+    {
+      "id": "goto-shoptahe",
+      "bn": "গত সপ্তাহে",
+      "tr": "goto shoptahe",
+      "en": "last week",
+      "pos": "phrase",
+      "lesson": "u09-l06"
+    },
+    {
+      "id": "bondho",
+      "bn": "বন্ধ",
+      "tr": "bondho",
+      "en": "closed",
+      "alt": [
+        "shut",
+        "off"
+      ],
+      "pos": "adj",
+      "lesson": "u09-l06"
+    },
+    {
+      "id": "uthlam",
+      "bn": "উঠলাম",
+      "tr": "uthlam",
+      "en": "I got up",
+      "alt": [
+        "got up",
+        "I woke up",
+        "woke up"
+      ],
+      "pos": "verb",
+      "lesson": "u09-l07"
+    },
+    {
+      "id": "bondhur",
+      "bn": "বন্ধুর",
+      "tr": "bondhur",
+      "en": "friend's",
+      "alt": [
+        "of a friend",
+        "of my friend"
+      ],
+      "pos": "noun",
+      "lesson": "u09-l07"
+    },
+    {
+      "id": "shathe",
+      "bn": "সাথে",
+      "tr": "shathe",
+      "en": "with",
+      "alt": [
+        "together with"
+      ],
+      "pos": "postposition",
+      "lesson": "u09-l07",
+      "notes": "After a genitive: বন্ধুর সাথে 'with a friend'. Also সঙ্গে (shongge), more common in Kolkata."
+    },
+    {
+      "id": "dinta",
+      "bn": "দিনটা",
+      "tr": "dinta",
+      "en": "the day",
+      "alt": [
+        "day"
+      ],
+      "pos": "noun",
+      "lesson": "u09-l07"
+    },
+    {
+      "id": "chhobi",
+      "bn": "ছবি",
+      "tr": "chhobi",
+      "en": "film",
+      "alt": [
+        "movie",
+        "picture",
+        "photo"
+      ],
+      "pos": "noun",
+      "lesson": "u09-l08",
+      "notes": "Means both 'picture/photo' and 'film'. ছবি দেখা = watch a film."
+    },
+    {
+      "id": "giyechhilo",
+      "bn": "গিয়েছিল",
+      "tr": "giyechhilo",
+      "en": "had gone",
+      "alt": [
+        "went",
+        "he went",
+        "she went"
+      ],
+      "pos": "verb",
+      "lesson": "u09-l08",
+      "notes": "Colloquial: গেছিল."
+    }
+  ]
+}

@@ -1,0 +1,708 @@
+{
+  "unit": "u04-food",
+  "lessons": [
+    {
+      "id": "u04-l01",
+      "title": "Rice & curry",
+      "goal": "Name the everyday foods of a Bangladeshi meal.",
+      "grammar": [
+        "zero copula with food: এটা ভাত",
+        "গরুর মাংস 'cow's meat' = beef"
+      ],
+      "new": [
+        "khabar",
+        "bhat",
+        "dal",
+        "machh",
+        "mangsho",
+        "murgi",
+        "gorur",
+        "dim",
+        "shobji"
+      ],
+      "review": [
+        "eta",
+        "ota",
+        "ki-q",
+        "na",
+        "ar",
+        "khub",
+        "bhalo",
+        "kothay"
+      ],
+      "tip": "There's a famous saying: **মাছে ভাতে বাঙালি** — 'fish and rice make a Bengali'. A typical meal is **ভাত** (rice) with **ডাল** (lentils), **সবজি** (vegetables) and **মাছ** (fish) or **মাংস** (meat).\n\n**ভাত** means *cooked* rice — uncooked grains are চাল (*chal*). ভাত is so central that 'Have you eaten rice?' just means 'Have you eaten?'\n\n**গরুর মাংস** (*gorur mangsho*) is literally 'cow's meat' = beef. It's widely eaten by Bangladeshi Muslims, especially at Eid, but most Hindus don't eat beef — so it's polite to check before offering it. **মুরগি** is chicken (the bird and the meat).\n\nNo verbs yet — just point and name: **এটা কী? — এটা ডাল।**",
+      "sentences": [
+        {
+          "bn": "এটা ভাত।",
+          "tr": "eta bhat.",
+          "en": "This is rice.",
+          "alt": [
+            "This is rice."
+          ]
+        },
+        {
+          "bn": "ওটা কি মাছ?",
+          "tr": "ota ki machh?",
+          "en": "Is that fish?",
+          "alt": [
+            "Is that a fish?"
+          ]
+        },
+        {
+          "bn": "না, ওটা মাংস।",
+          "tr": "na, ota mangsho.",
+          "en": "No, that's meat.",
+          "alt": [
+            "No, that is meat."
+          ]
+        },
+        {
+          "bn": "এটা কি গরুর মাংস?",
+          "tr": "eta ki gorur mangsho?",
+          "en": "Is this beef?"
+        },
+        {
+          "bn": "না, এটা মুরগি।",
+          "tr": "na, eta murgi.",
+          "en": "No, this is chicken.",
+          "alt": [
+            "No, it's chicken."
+          ]
+        },
+        {
+          "bn": "ভাত আর ডাল।",
+          "tr": "bhat ar dal.",
+          "en": "Rice and lentils.",
+          "alt": [
+            "Rice and dal."
+          ]
+        },
+        {
+          "bn": "এটা কি ডিম?",
+          "tr": "eta ki dim?",
+          "en": "Is this an egg?"
+        },
+        {
+          "bn": "সবজি খুব ভালো।",
+          "tr": "shobji khub bhalo.",
+          "en": "The vegetables are very good.",
+          "alt": [
+            "Vegetables are very good."
+          ]
+        },
+        {
+          "bn": "খাবার কোথায়?",
+          "tr": "khabar kothay?",
+          "en": "Where is the food?"
+        }
+      ]
+    },
+    {
+      "id": "u04-l02",
+      "title": "Drinks",
+      "goal": "Talk about water, tea and milk; with and without sugar.",
+      "grammar": [
+        "এক কাপ চা 'one cup of tea' (no 'of')",
+        "ছাড়া 'without' comes after the noun",
+        "আছে / নেই for availability"
+      ],
+      "new": [
+        "pani",
+        "cha",
+        "dudh",
+        "chini",
+        "lobon",
+        "chhara",
+        "kap"
+      ],
+      "review": [
+        "eta",
+        "ek",
+        "khub",
+        "bhalo",
+        "ekhane",
+        "achhe",
+        "nei",
+        "kothay",
+        "ki-q"
+      ],
+      "tip": "**পানি** (*pani*) is water in Bangladesh. In Kolkata — and among many Hindus in Bangladesh — it's **জল** (*jol*). The choice can signal community, so just follow what the people around you say.\n\n**চা** (*cha*) is everywhere: tiny roadside stalls serve **দুধ চা** (milk tea), often very sweet, or **রং চা** (red tea, no milk). **এক কাপ চা** = 'one cup tea' — no word for 'of'.\n\n**ছাড়া** (*chhara*) 'without' is a postposition, so it comes **after**: **চিনি ছাড়া** = 'without sugar'. Handy at a tea stall, because sugar is the default!\n\n**লবণ কোথায়?** 'Where's the salt?' — and **চিনি নেই** 'There's no sugar.'",
+      "sentences": [
+        {
+          "bn": "এটা পানি।",
+          "tr": "eta pani.",
+          "en": "This is water."
+        },
+        {
+          "bn": "এক কাপ চা।",
+          "tr": "ek kap cha.",
+          "en": "One cup of tea.",
+          "alt": [
+            "A cup of tea."
+          ]
+        },
+        {
+          "bn": "দুধ চা খুব ভালো।",
+          "tr": "dudh cha khub bhalo.",
+          "en": "Milk tea is very good.",
+          "alt": [
+            "The milk tea is very good."
+          ]
+        },
+        {
+          "bn": "চিনি ছাড়া চা।",
+          "tr": "chini chhara cha.",
+          "en": "Tea without sugar."
+        },
+        {
+          "bn": "এখানে পানি আছে?",
+          "tr": "ekhane pani achhe?",
+          "en": "Is there water here?",
+          "alt": [
+            "Is there any water here?"
+          ]
+        },
+        {
+          "bn": "চিনি নেই।",
+          "tr": "chini nei.",
+          "en": "There is no sugar.",
+          "alt": [
+            "There's no sugar."
+          ]
+        },
+        {
+          "bn": "লবণ কোথায়?",
+          "tr": "lobon kothay?",
+          "en": "Where is the salt?",
+          "alt": [
+            "Where's the salt?"
+          ]
+        },
+        {
+          "bn": "এটা কি দুধ?",
+          "tr": "eta ki dudh?",
+          "en": "Is this milk?"
+        }
+      ]
+    },
+    {
+      "id": "u04-l03",
+      "title": "I eat, you eat",
+      "goal": "Conjugate খাওয়া 'eat/drink' for every person; negate with না.",
+      "grammar": [
+        "present simple খাই / খাস / খাও / খান / খায়",
+        "খাওয়া also for drinking",
+        "negation: verb + না"
+      ],
+      "new": [
+        "khai",
+        "khash",
+        "khao",
+        "khan",
+        "khay",
+        "ruti",
+        "nashta"
+      ],
+      "review": [
+        "ami",
+        "bhat",
+        "tumi",
+        "ki-what",
+        "apni",
+        "she",
+        "tui",
+        "cha",
+        "pani",
+        "amra",
+        "tini",
+        "machh",
+        "mangsho",
+        "na",
+        "o-pron",
+        "dim"
+      ],
+      "tip": "Here's your first full verb. The stem is **খা-** (*kha-*), and the ending shows who:\n\n| | |\n|---|---|\n| আমি / আমরা | **খাই** (*khai*) |\n| তুই | **খাস** (*khash*) |\n| তুমি | **খাও** (*khao*) |\n| আপনি / তিনি / উনি | **খান** (*khan*) |\n| সে / ও / তারা | **খায়** (*khay*) |\n\nNotice again: polite forms end in **-ন**, and polite 'you' = polite 'he/she'.\n\nBengali **eats** drinks: **আমি পানি খাই** = 'I drink water', **চা খাই** = 'I drink tea'. (Even cigarettes are 'eaten'!)\n\nTo say 'don't', put **না** *after* the verb: **আমি মাংস খাই না** = 'I don't eat meat.' The word order is subject – object – verb: আমি ভাত খাই = 'I rice eat.'",
+      "sentences": [
+        {
+          "bn": "আমি ভাত খাই।",
+          "tr": "ami bhat khai.",
+          "en": "I eat rice."
+        },
+        {
+          "bn": "তুমি কী খাও?",
+          "tr": "tumi ki khao?",
+          "en": "What do you eat?"
+        },
+        {
+          "bn": "আপনি কী খান?",
+          "tr": "apni ki khan?",
+          "en": "What do you eat?"
+        },
+        {
+          "bn": "সে রুটি খায়।",
+          "tr": "she ruti khay.",
+          "en": "He eats roti.",
+          "alt": [
+            "She eats roti.",
+            "He eats bread.",
+            "She eats flatbread."
+          ]
+        },
+        {
+          "bn": "তুই চা খাস?",
+          "tr": "tui cha khash?",
+          "en": "Do you drink tea?"
+        },
+        {
+          "bn": "আমি পানি খাই।",
+          "tr": "ami pani khai.",
+          "en": "I drink water."
+        },
+        {
+          "bn": "আমরা নাস্তা খাই।",
+          "tr": "amra nashta khai.",
+          "en": "We eat breakfast.",
+          "alt": [
+            "We have breakfast.",
+            "We eat a snack."
+          ]
+        },
+        {
+          "bn": "তিনি মাছ খান।",
+          "tr": "tini machh khan.",
+          "en": "He eats fish.",
+          "alt": [
+            "She eats fish."
+          ]
+        },
+        {
+          "bn": "আমি মাংস খাই না।",
+          "tr": "ami mangsho khai na.",
+          "en": "I don't eat meat.",
+          "alt": [
+            "I do not eat meat."
+          ]
+        },
+        {
+          "bn": "ও ডিম খায় না।",
+          "tr": "o dim khay na.",
+          "en": "She doesn't eat eggs.",
+          "alt": [
+            "He doesn't eat eggs.",
+            "She does not eat eggs."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u04-l04",
+      "title": "I want…",
+      "goal": "Say what you want and want to eat; offer and decline politely.",
+      "grammar": [
+        "চাই / চাও / চান 'want'",
+        "-তে চাই 'want to': খেতে চাই",
+        "কিছু 'something / anything'"
+      ],
+      "new": [
+        "chai",
+        "chao",
+        "chan",
+        "khete",
+        "kichhu"
+      ],
+      "review": [
+        "ami",
+        "cha",
+        "apni",
+        "ki-what",
+        "tumi",
+        "ki-q",
+        "pani",
+        "bhat",
+        "na",
+        "dhonnobad",
+        "machh"
+      ],
+      "tip": "**চাই** (*chai*) = 'I want'. It conjugates like খাই: তুমি **চাও**, আপনি **চান**. Careful not to confuse **চা** (tea) with **চাই** (want): **আমি চা চাই** = 'I want tea.'\n\nTo say you **want to do** something, put the verb in its **-তে** form first: খা- → **খেতে** (*khete*). **আমি ভাত খেতে চাই** = 'I want to eat rice.' (The vowel changes from আ to এ — just learn খেতে as a word.)\n\n**কিছু** = something/anything: **আপনি কিছু খেতে চান?** 'Would you like something to eat?'\n\nCulture: Bangladeshi hosts offer food again and again. A first **না, ধন্যবাদ** is often heard as politeness, so the offer will come back. If you really don't want more, say it warmly two or three times — or accept a little!",
+      "sentences": [
+        {
+          "bn": "আমি চা চাই।",
+          "tr": "ami cha chai.",
+          "en": "I want tea.",
+          "alt": [
+            "I would like tea.",
+            "I'd like some tea."
+          ]
+        },
+        {
+          "bn": "আপনি কী চান?",
+          "tr": "apni ki chan?",
+          "en": "What do you want?",
+          "alt": [
+            "What would you like?"
+          ]
+        },
+        {
+          "bn": "তুমি কি পানি চাও?",
+          "tr": "tumi ki pani chao?",
+          "en": "Do you want water?",
+          "alt": [
+            "Do you want some water?"
+          ]
+        },
+        {
+          "bn": "আমি ভাত খেতে চাই।",
+          "tr": "ami bhat khete chai.",
+          "en": "I want to eat rice.",
+          "alt": [
+            "I'd like to eat rice."
+          ]
+        },
+        {
+          "bn": "আপনি কিছু খেতে চান?",
+          "tr": "apni kichhu khete chan?",
+          "en": "Would you like something to eat?",
+          "alt": [
+            "Do you want to eat something?",
+            "Do you want something to eat?"
+          ]
+        },
+        {
+          "bn": "না, ধন্যবাদ, আমি কিছু চাই না।",
+          "tr": "na, dhonnobad, ami kichhu chai na.",
+          "en": "No, thank you, I don't want anything.",
+          "alt": [
+            "No thanks, I don't want anything."
+          ]
+        },
+        {
+          "bn": "আমি মাছ চাই না।",
+          "tr": "ami machh chai na.",
+          "en": "I don't want fish.",
+          "alt": [
+            "I do not want fish."
+          ]
+        },
+        {
+          "bn": "তুমি কী খেতে চাও?",
+          "tr": "tumi ki khete chao?",
+          "en": "What do you want to eat?",
+          "alt": [
+            "What would you like to eat?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u04-l05",
+      "title": "Fruit & classifiers",
+      "goal": "Use -টা / -টি / -গুলো to say 'a', 'the' and 'the (plural)'.",
+      "grammar": [
+        "একটা আম 'a mango' vs আমটা 'the mango'",
+        "-গুলো = the (plural)",
+        "-টি = more formal/written -টা"
+      ],
+      "new": [
+        "kola",
+        "fol",
+        "amta",
+        "amgulo",
+        "kolata",
+        "kolagulo",
+        "ekti"
+      ],
+      "review": [
+        "ami",
+        "ekta",
+        "am",
+        "chai",
+        "khub",
+        "bhalo",
+        "kothay",
+        "amar",
+        "ekhane",
+        "achhe",
+        "apni",
+        "ki-what",
+        "khan",
+        "khai",
+        "khabar"
+      ],
+      "tip": "Bengali has no 'a' or 'the' — it uses **classifiers** instead:\n\n- **একটা আম** (*ekta am*) — *a* mango (number + -টা)\n- **আমটা** (*amta*) — *the* mango (noun + -টা)\n- **আমগুলো** (*amgulo*) — *the* mangoes (noun + -গুলো)\n\nSo putting **-টা** *after* the noun makes it specific, like 'the'. Putting it on a *number* gives 'a / one'.\n\n**-টি** (*-ti*) is the more formal or written version (**একটি আম**); it also sounds a bit gentle or affectionate, and Kolkata speakers use it more. **-গুলি** is the written version of -গুলো.\n\nBangladesh is mango heaven: summer (*aam-kathaler din*, 'mango and jackfruit days') brings dozens of varieties like *Langra*, *Himsagar* and *Fazli*.",
+      "sentences": [
+        {
+          "bn": "আমি একটা আম চাই।",
+          "tr": "ami ekta am chai.",
+          "en": "I want a mango.",
+          "alt": [
+            "I'd like a mango."
+          ]
+        },
+        {
+          "bn": "আমটা খুব ভালো।",
+          "tr": "amta khub bhalo.",
+          "en": "The mango is very good."
+        },
+        {
+          "bn": "আমগুলো কোথায়?",
+          "tr": "amgulo kothay?",
+          "en": "Where are the mangoes?"
+        },
+        {
+          "bn": "কলাটা আমার।",
+          "tr": "kolata amar.",
+          "en": "The banana is mine."
+        },
+        {
+          "bn": "কলাগুলো এখানে আছে।",
+          "tr": "kolagulo ekhane achhe.",
+          "en": "The bananas are here."
+        },
+        {
+          "bn": "আপনি কী ফল খান?",
+          "tr": "apni ki fol khan?",
+          "en": "What fruit do you eat?",
+          "alt": [
+            "Which fruit do you eat?"
+          ]
+        },
+        {
+          "bn": "এখানে একটি আম আছে।",
+          "tr": "ekhane ekti am achhe.",
+          "en": "There is a mango here.",
+          "alt": [
+            "There's one mango here."
+          ]
+        },
+        {
+          "bn": "আমি একটা কলা খাই।",
+          "tr": "ami ekta kola khai.",
+          "en": "I eat a banana."
+        },
+        {
+          "bn": "ফল খুব ভালো খাবার।",
+          "tr": "fol khub bhalo khabar.",
+          "en": "Fruit is very good food."
+        }
+      ]
+    },
+    {
+      "id": "u04-l06",
+      "title": "Tastes & likes",
+      "goal": "Say what you like and how food tastes; say you're hungry.",
+      "grammar": [
+        "experiencer-র + পছন্দ: আমার মাছ পছন্দ",
+        "experiencer-র + ভালো লাগে",
+        "আমার ক্ষুধা লেগেছে 'I'm hungry'"
+      ],
+      "new": [
+        "pochhondo",
+        "lage",
+        "jhal",
+        "mishti",
+        "moja",
+        "mojar",
+        "khudha",
+        "legechhe"
+      ],
+      "review": [
+        "amar",
+        "machh",
+        "tomar",
+        "ki-what",
+        "bhat",
+        "bhalo",
+        "apnar",
+        "ki-q",
+        "eta",
+        "khub",
+        "khabar",
+        "na"
+      ],
+      "tip": "To say 'I like X', Bengali turns the sentence around: **আমার মাছ পছন্দ** — literally 'to me, fish (is a) liking'. The person who likes goes in the **-র** form (আমার, তোমার, আপনার…). No verb needed!\n\nThe other way is **ভালো লাগে** 'feels good': **আমার ভাত ভালো লাগে** = 'I like rice.' Negative: **আমার ঝাল পছন্দ না**.\n\nHunger works the same way: **আমার ক্ষুধা লেগেছে** — 'to me, hunger has struck' = 'I'm hungry.' In casual Bangladeshi speech you'll hear **খিদা লাগছে**.\n\nTastes: **ঝাল** (spicy-hot), **মিষ্টি** (sweet — and 'sweets'!). Bengal is famous for its sweets: রসগোল্লা, চমচম, মিষ্টি দই (sweet yoghurt). **মজার** / **মজা** = tasty: **এটা মজার খাবার**.",
+      "sentences": [
+        {
+          "bn": "আমার মাছ পছন্দ।",
+          "tr": "amar machh pochhondo.",
+          "en": "I like fish."
+        },
+        {
+          "bn": "তোমার কী পছন্দ?",
+          "tr": "tomar ki pochhondo?",
+          "en": "What do you like?"
+        },
+        {
+          "bn": "আমার ভাত ভালো লাগে।",
+          "tr": "amar bhat bhalo lage.",
+          "en": "I like rice."
+        },
+        {
+          "bn": "আপনার কি ঝাল ভালো লাগে?",
+          "tr": "apnar ki jhal bhalo lage?",
+          "en": "Do you like spicy food?"
+        },
+        {
+          "bn": "এটা খুব ঝাল।",
+          "tr": "eta khub jhal.",
+          "en": "This is very spicy.",
+          "alt": [
+            "It's very spicy.",
+            "This is very hot."
+          ]
+        },
+        {
+          "bn": "মিষ্টি আমার খুব পছন্দ।",
+          "tr": "mishti amar khub pochhondo.",
+          "en": "I really like sweets.",
+          "alt": [
+            "I love sweets.",
+            "I like sweets very much."
+          ]
+        },
+        {
+          "bn": "এটা মজার খাবার।",
+          "tr": "eta mojar khabar.",
+          "en": "This is tasty food.",
+          "alt": [
+            "This is delicious food."
+          ]
+        },
+        {
+          "bn": "খাবার খুব মজা।",
+          "tr": "khabar khub moja.",
+          "en": "The food is delicious.",
+          "alt": [
+            "The food is very tasty."
+          ]
+        },
+        {
+          "bn": "আমার ক্ষুধা লেগেছে।",
+          "tr": "amar khudha legechhe.",
+          "en": "I am hungry.",
+          "alt": [
+            "I'm hungry."
+          ]
+        },
+        {
+          "bn": "আমার ঝাল পছন্দ না।",
+          "tr": "amar jhal pochhondo na.",
+          "en": "I don't like spicy food.",
+          "alt": [
+            "I do not like spicy food."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u04-l07",
+      "title": "Review: let's eat!",
+      "goal": "Order, offer and talk about food using the whole unit.",
+      "grammar": [
+        "review: খাই/খাও/খান, চাই, পছন্দ, classifiers"
+      ],
+      "new": [
+        "biriyani"
+      ],
+      "review": [
+        "amar",
+        "khub",
+        "pochhondo",
+        "amra",
+        "ilish",
+        "machh",
+        "khai",
+        "apni",
+        "ki-q",
+        "cha",
+        "khan",
+        "ami",
+        "dudh",
+        "chai",
+        "chini",
+        "chhara",
+        "mojar",
+        "tumi",
+        "ki-what",
+        "khete",
+        "chao",
+        "amgulo",
+        "mishti",
+        "she",
+        "mangsho",
+        "khay",
+        "na",
+        "khudha",
+        "legechhe",
+        "bhat"
+      ],
+      "tip": "One new word: **বিরিয়ানি** (*biriyani*). Old Dhaka's **কাচ্চি বিরিয়ানি** is legendary, and biryani is the star of weddings and celebrations.\n\nAnd don't forget **ইলিশ** (*ilish*, hilsa) from the vowels unit — Bangladesh's national fish, often cooked in mustard (*shorshe ilish*).\n\nCheck yourself:\n\n- eat: আমি **খাই**, তুমি **খাও**, আপনি **খান**, সে **খায়**\n- want: **চাই** / **খেতে চাই**\n- like: **আমার … পছন্দ** / **ভালো লাগে**\n- the: আম**টা**, আম**গুলো**",
+      "sentences": [
+        {
+          "bn": "আমার বিরিয়ানি খুব পছন্দ।",
+          "tr": "amar biriyani khub pochhondo.",
+          "en": "I really like biryani.",
+          "alt": [
+            "I love biryani.",
+            "I like biryani very much."
+          ]
+        },
+        {
+          "bn": "আমরা ইলিশ মাছ খাই।",
+          "tr": "amra ilish machh khai.",
+          "en": "We eat hilsa fish.",
+          "alt": [
+            "We eat hilsa."
+          ]
+        },
+        {
+          "bn": "আপনি কি চা খান?",
+          "tr": "apni ki cha khan?",
+          "en": "Do you drink tea?"
+        },
+        {
+          "bn": "আমি দুধ চা চাই, চিনি ছাড়া।",
+          "tr": "ami dudh cha chai, chini chhara.",
+          "en": "I want milk tea, without sugar.",
+          "alt": [
+            "I'd like milk tea, no sugar."
+          ]
+        },
+        {
+          "bn": "বিরিয়ানি খুব মজার।",
+          "tr": "biriyani khub mojar.",
+          "en": "The biryani is very tasty.",
+          "alt": [
+            "Biryani is very tasty.",
+            "The biryani is delicious."
+          ]
+        },
+        {
+          "bn": "তুমি কী খেতে চাও?",
+          "tr": "tumi ki khete chao?",
+          "en": "What do you want to eat?"
+        },
+        {
+          "bn": "আমগুলো খুব মিষ্টি।",
+          "tr": "amgulo khub mishti.",
+          "en": "The mangoes are very sweet."
+        },
+        {
+          "bn": "সে মাংস খায় না।",
+          "tr": "she mangsho khay na.",
+          "en": "He doesn't eat meat.",
+          "alt": [
+            "She doesn't eat meat."
+          ]
+        },
+        {
+          "bn": "আমার ক্ষুধা লেগেছে, ভাত চাই।",
+          "tr": "amar khudha legechhe, bhat chai.",
+          "en": "I'm hungry, I want rice.",
+          "alt": [
+            "I'm hungry, I want some food."
+          ]
+        }
+      ]
+    }
+  ]
+}

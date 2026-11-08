@@ -1,0 +1,737 @@
+{
+  "unit": "u07-directions",
+  "entries": [
+    {
+      "id": "steshon",
+      "bn": "স্টেশন",
+      "tr": "steshon",
+      "en": "station",
+      "alt": [
+        "train station"
+      ],
+      "pos": "noun",
+      "lesson": "u07-l01"
+    },
+    {
+      "id": "hotel",
+      "bn": "হোটেল",
+      "tr": "hotel",
+      "en": "hotel",
+      "pos": "noun",
+      "lesson": "u07-l01",
+      "notes": "In Bangladesh হোটেল can also mean a cheap restaurant (ভাতের হোটেল)."
+    },
+    {
+      "id": "basha",
+      "bn": "বাসা",
+      "tr": "basha",
+      "en": "home",
+      "alt": [
+        "house",
+        "flat",
+        "residence",
+        "place"
+      ],
+      "pos": "noun",
+      "lesson": "u07-l01",
+      "notes": "Where you live now, often a rented flat. In Kolkata বাসা means rented lodgings and বাড়ি is 'home'."
+    },
+    {
+      "id": "bashay",
+      "bn": "বাসায়",
+      "tr": "bashay",
+      "en": "at home",
+      "alt": [
+        "home",
+        "to home",
+        "at the house"
+      ],
+      "pos": "noun",
+      "lesson": "u07-l01",
+      "notes": "বাসা + locative -য়."
+    },
+    {
+      "id": "bari",
+      "bn": "বাড়ি",
+      "tr": "bari",
+      "en": "home",
+      "alt": [
+        "house",
+        "hometown",
+        "home village"
+      ],
+      "pos": "noun",
+      "lesson": "u07-l01",
+      "notes": "In Bangladesh তোমার বাড়ি কোথায়? usually asks about your home district / ancestral village."
+    },
+    {
+      "id": "dhaka",
+      "bn": "ঢাকা",
+      "tr": "dhaka",
+      "en": "Dhaka",
+      "pos": "name",
+      "lesson": "u07-l01"
+    },
+    {
+      "id": "dhakay",
+      "bn": "ঢাকায়",
+      "tr": "dhakay",
+      "en": "in Dhaka",
+      "alt": [
+        "to Dhaka"
+      ],
+      "pos": "name",
+      "lesson": "u07-l01"
+    },
+    {
+      "id": "shilet",
+      "bn": "সিলেট",
+      "tr": "shilet",
+      "en": "Sylhet",
+      "pos": "name",
+      "lesson": "u07-l01",
+      "notes": "City and division in north-east Bangladesh."
+    },
+    {
+      "id": "shilete",
+      "bn": "সিলেটে",
+      "tr": "shilete",
+      "en": "in Sylhet",
+      "alt": [
+        "to Sylhet"
+      ],
+      "pos": "name",
+      "lesson": "u07-l01"
+    },
+    {
+      "id": "bangladeshe",
+      "bn": "বাংলাদেশে",
+      "tr": "bangladeshe",
+      "en": "in Bangladesh",
+      "alt": [
+        "to Bangladesh"
+      ],
+      "pos": "name",
+      "lesson": "u07-l01"
+    },
+    {
+      "id": "dane",
+      "bn": "ডানে",
+      "tr": "dane",
+      "en": "right",
+      "alt": [
+        "to the right",
+        "on the right"
+      ],
+      "pos": "adv",
+      "lesson": "u07-l02",
+      "kolkata": {
+        "bn": "ডানদিকে",
+        "tr": "dandike"
+      }
+    },
+    {
+      "id": "bame",
+      "bn": "বামে",
+      "tr": "bame",
+      "en": "left",
+      "alt": [
+        "to the left",
+        "on the left"
+      ],
+      "pos": "adv",
+      "lesson": "u07-l02",
+      "kolkata": {
+        "bn": "বাঁদিকে",
+        "tr": "ba~dike"
+      }
+    },
+    {
+      "id": "shoja",
+      "bn": "সোজা",
+      "tr": "shoja",
+      "en": "straight",
+      "alt": [
+        "straight ahead"
+      ],
+      "pos": "adv",
+      "lesson": "u07-l02",
+      "notes": "Also an adjective: 'straight, simple, easy'."
+    },
+    {
+      "id": "jan",
+      "bn": "যান",
+      "tr": "jan",
+      "en": "go (polite)",
+      "alt": [
+        "please go"
+      ],
+      "pos": "verb",
+      "lesson": "u07-l02",
+      "register": "polite",
+      "notes": "Polite command of যাওয়া 'go'; same form = present 'you (polite) go'. Familiar যাও, intimate যা."
+    },
+    {
+      "id": "rasta",
+      "bn": "রাস্তা",
+      "tr": "rasta",
+      "en": "road",
+      "alt": [
+        "street",
+        "way"
+      ],
+      "pos": "noun",
+      "lesson": "u07-l02"
+    },
+    {
+      "id": "diye",
+      "bn": "দিয়ে",
+      "tr": "diye",
+      "en": "along",
+      "alt": [
+        "through",
+        "via",
+        "by"
+      ],
+      "pos": "postposition",
+      "lesson": "u07-l02",
+      "notes": "এই রাস্তা দিয়ে 'along this road'."
+    },
+    {
+      "id": "mor",
+      "bn": "মোড়",
+      "tr": "mor",
+      "en": "intersection",
+      "alt": [
+        "crossroads",
+        "corner",
+        "junction"
+      ],
+      "pos": "noun",
+      "lesson": "u07-l02",
+      "notes": "Many Dhaka landmarks are named after a মোড়, e.g. শাহবাগ মোড়."
+    },
+    {
+      "id": "more",
+      "bn": "মোড়ে",
+      "tr": "more",
+      "en": "at the intersection",
+      "alt": [
+        "at the corner",
+        "at the crossroads"
+      ],
+      "pos": "noun",
+      "lesson": "u07-l02"
+    },
+    {
+      "id": "kachhe",
+      "bn": "কাছে",
+      "tr": "kachhe",
+      "en": "near",
+      "alt": [
+        "close",
+        "nearby",
+        "close to"
+      ],
+      "pos": "postposition",
+      "lesson": "u07-l03"
+    },
+    {
+      "id": "dure",
+      "bn": "দূরে",
+      "tr": "dure",
+      "en": "far",
+      "alt": [
+        "far away",
+        "far from"
+      ],
+      "pos": "adv",
+      "lesson": "u07-l03"
+    },
+    {
+      "id": "pashe",
+      "bn": "পাশে",
+      "tr": "pashe",
+      "en": "next to",
+      "alt": [
+        "beside",
+        "by"
+      ],
+      "pos": "postposition",
+      "lesson": "u07-l03"
+    },
+    {
+      "id": "shamne",
+      "bn": "সামনে",
+      "tr": "shamne",
+      "en": "in front of",
+      "alt": [
+        "in front",
+        "ahead"
+      ],
+      "pos": "postposition",
+      "lesson": "u07-l03"
+    },
+    {
+      "id": "pichhone",
+      "bn": "পিছনে",
+      "tr": "pichhone",
+      "en": "behind",
+      "alt": [
+        "at the back"
+      ],
+      "pos": "postposition",
+      "lesson": "u07-l03",
+      "notes": "Also spelled পেছনে.",
+      "kolkata": {
+        "bn": "পেছনে",
+        "tr": "pechhone"
+      }
+    },
+    {
+      "id": "bhitore",
+      "bn": "ভিতরে",
+      "tr": "bhitore",
+      "en": "inside",
+      "alt": [
+        "in"
+      ],
+      "pos": "postposition",
+      "lesson": "u07-l03",
+      "notes": "Also spelled ভেতরে.",
+      "kolkata": {
+        "bn": "ভেতরে",
+        "tr": "bhetore"
+      }
+    },
+    {
+      "id": "baire",
+      "bn": "বাইরে",
+      "tr": "baire",
+      "en": "outside",
+      "alt": [
+        "out"
+      ],
+      "pos": "postposition",
+      "lesson": "u07-l03"
+    },
+    {
+      "id": "upore",
+      "bn": "উপরে",
+      "tr": "upore",
+      "en": "upstairs",
+      "alt": [
+        "up",
+        "above",
+        "on top of",
+        "on"
+      ],
+      "pos": "postposition",
+      "lesson": "u07-l03",
+      "notes": "Also spelled ওপরে."
+    },
+    {
+      "id": "niche",
+      "bn": "নিচে",
+      "tr": "niche",
+      "en": "downstairs",
+      "alt": [
+        "down",
+        "below",
+        "under"
+      ],
+      "pos": "postposition",
+      "lesson": "u07-l03"
+    },
+    {
+      "id": "steshoner",
+      "bn": "স্টেশনের",
+      "tr": "steshoner",
+      "en": "of the station",
+      "alt": [
+        "the station's"
+      ],
+      "pos": "noun",
+      "lesson": "u07-l03"
+    },
+    {
+      "id": "barir",
+      "bn": "বাড়ির",
+      "tr": "barir",
+      "en": "of the house",
+      "alt": [
+        "the house's"
+      ],
+      "pos": "noun",
+      "lesson": "u07-l03"
+    },
+    {
+      "id": "hoteler",
+      "bn": "হোটেলের",
+      "tr": "hoteler",
+      "en": "of the hotel",
+      "alt": [
+        "the hotel's"
+      ],
+      "pos": "noun",
+      "lesson": "u07-l03"
+    },
+    {
+      "id": "bashar",
+      "bn": "বাসার",
+      "tr": "bashar",
+      "en": "of the house",
+      "alt": [
+        "of the home",
+        "the flat's"
+      ],
+      "pos": "noun",
+      "lesson": "u07-l03"
+    },
+    {
+      "id": "hashpatal",
+      "bn": "হাসপাতাল",
+      "tr": "hashpatal",
+      "en": "hospital",
+      "pos": "noun",
+      "lesson": "u07-l04"
+    },
+    {
+      "id": "moshjid",
+      "bn": "মসজিদ",
+      "tr": "moshjid",
+      "en": "mosque",
+      "pos": "noun",
+      "lesson": "u07-l04"
+    },
+    {
+      "id": "moshjider",
+      "bn": "মসজিদের",
+      "tr": "moshjider",
+      "en": "of the mosque",
+      "pos": "noun",
+      "lesson": "u07-l04"
+    },
+    {
+      "id": "mondir",
+      "bn": "মন্দির",
+      "tr": "mondir",
+      "en": "temple",
+      "alt": [
+        "Hindu temple"
+      ],
+      "pos": "noun",
+      "lesson": "u07-l04"
+    },
+    {
+      "id": "bajarer",
+      "bn": "বাজারের",
+      "tr": "bajarer",
+      "en": "of the market",
+      "pos": "noun",
+      "lesson": "u07-l04"
+    },
+    {
+      "id": "shohor",
+      "bn": "শহর",
+      "tr": "shohor",
+      "en": "city",
+      "alt": [
+        "town"
+      ],
+      "pos": "noun",
+      "lesson": "u07-l04"
+    },
+    {
+      "id": "shohore",
+      "bn": "শহরে",
+      "tr": "shohore",
+      "en": "in the city",
+      "alt": [
+        "in town",
+        "in a city"
+      ],
+      "pos": "noun",
+      "lesson": "u07-l04"
+    },
+    {
+      "id": "gram",
+      "bn": "গ্রাম",
+      "tr": "gram",
+      "en": "village",
+      "pos": "noun",
+      "lesson": "u07-l04"
+    },
+    {
+      "id": "grame",
+      "bn": "গ্রামে",
+      "tr": "grame",
+      "en": "in the village",
+      "alt": [
+        "in a village"
+      ],
+      "pos": "noun",
+      "lesson": "u07-l04"
+    },
+    {
+      "id": "thaki",
+      "bn": "থাকি",
+      "tr": "thaki",
+      "en": "I live",
+      "alt": [
+        "live",
+        "stay",
+        "I stay"
+      ],
+      "pos": "verb",
+      "lesson": "u07-l04",
+      "notes": "Present of থাকা 'live, stay, remain'."
+    },
+    {
+      "id": "thaken",
+      "bn": "থাকেন",
+      "tr": "thaken",
+      "en": "lives (polite)",
+      "alt": [
+        "live",
+        "you live",
+        "stays"
+      ],
+      "pos": "verb",
+      "lesson": "u07-l04",
+      "register": "polite"
+    },
+    {
+      "id": "riksha",
+      "bn": "রিকশা",
+      "tr": "riksha",
+      "en": "rickshaw",
+      "alt": [
+        "cycle rickshaw"
+      ],
+      "pos": "noun",
+      "lesson": "u07-l05"
+    },
+    {
+      "id": "rikshay",
+      "bn": "রিকশায়",
+      "tr": "rikshay",
+      "en": "by rickshaw",
+      "alt": [
+        "in a rickshaw",
+        "on a rickshaw"
+      ],
+      "pos": "noun",
+      "lesson": "u07-l05"
+    },
+    {
+      "id": "si-en-ji",
+      "bn": "সিএনজি",
+      "tr": "si-en-ji",
+      "en": "CNG",
+      "alt": [
+        "auto-rickshaw",
+        "CNG auto-rickshaw"
+      ],
+      "pos": "noun",
+      "lesson": "u07-l05",
+      "notes": "Green three-wheeler that runs on compressed natural gas.",
+      "kolkata": {
+        "bn": "অটো",
+        "tr": "oto"
+      }
+    },
+    {
+      "id": "jabo",
+      "bn": "যাব",
+      "tr": "jabo",
+      "en": "I will go",
+      "alt": [
+        "will go",
+        "I'll go",
+        "we will go"
+      ],
+      "pos": "verb",
+      "lesson": "u07-l05",
+      "notes": "Also spelled যাবো. আমরা also takes যাব."
+    },
+    {
+      "id": "jaben",
+      "bn": "যাবেন",
+      "tr": "jaben",
+      "en": "will you go (polite)",
+      "alt": [
+        "will go",
+        "you will go"
+      ],
+      "pos": "verb",
+      "lesson": "u07-l05",
+      "register": "polite"
+    },
+    {
+      "id": "bhara",
+      "bn": "ভাড়া",
+      "tr": "bhara",
+      "en": "fare",
+      "alt": [
+        "rent",
+        "charge"
+      ],
+      "pos": "noun",
+      "lesson": "u07-l05"
+    },
+    {
+      "id": "thamen",
+      "bn": "থামেন",
+      "tr": "thamen",
+      "en": "stop (polite)",
+      "alt": [
+        "please stop"
+      ],
+      "pos": "verb",
+      "lesson": "u07-l05",
+      "register": "polite",
+      "kolkata": {
+        "bn": "থামুন",
+        "tr": "thamun"
+      }
+    },
+    {
+      "id": "kotodur",
+      "bn": "কতদূর",
+      "tr": "kotodur",
+      "en": "how far",
+      "pos": "adv",
+      "lesson": "u07-l05"
+    },
+    {
+      "id": "dhanmondi",
+      "bn": "ধানমন্ডি",
+      "tr": "dhanmondi",
+      "en": "Dhanmondi",
+      "pos": "name",
+      "lesson": "u07-l05",
+      "notes": "A well-known residential area of Dhaka."
+    },
+    {
+      "id": "steshone",
+      "bn": "স্টেশনে",
+      "tr": "steshone",
+      "en": "to the station",
+      "alt": [
+        "at the station"
+      ],
+      "pos": "noun",
+      "lesson": "u07-l05"
+    },
+    {
+      "id": "bas",
+      "bn": "বাস",
+      "tr": "bas",
+      "en": "bus",
+      "pos": "noun",
+      "lesson": "u07-l06"
+    },
+    {
+      "id": "base",
+      "bn": "বাসে",
+      "tr": "base",
+      "en": "by bus",
+      "alt": [
+        "on the bus",
+        "on a bus"
+      ],
+      "pos": "noun",
+      "lesson": "u07-l06"
+    },
+    {
+      "id": "tren",
+      "bn": "ট্রেন",
+      "tr": "tren",
+      "en": "train",
+      "pos": "noun",
+      "lesson": "u07-l06"
+    },
+    {
+      "id": "trene",
+      "bn": "ট্রেনে",
+      "tr": "trene",
+      "en": "by train",
+      "alt": [
+        "on the train",
+        "on a train"
+      ],
+      "pos": "noun",
+      "lesson": "u07-l06"
+    },
+    {
+      "id": "porjonto",
+      "bn": "পর্যন্ত",
+      "tr": "porjonto",
+      "en": "to",
+      "alt": [
+        "until",
+        "as far as",
+        "up to"
+      ],
+      "pos": "postposition",
+      "lesson": "u07-l06"
+    },
+    {
+      "id": "jabe",
+      "bn": "যাবে",
+      "tr": "jabe",
+      "en": "will go",
+      "alt": [
+        "will you go",
+        "he will go",
+        "she will go"
+      ],
+      "pos": "verb",
+      "lesson": "u07-l06",
+      "notes": "Future for তুমি and সে/ও."
+    },
+    {
+      "id": "tikit",
+      "bn": "টিকিট",
+      "tr": "tikit",
+      "en": "ticket",
+      "pos": "noun",
+      "lesson": "u07-l06"
+    },
+    {
+      "id": "chharbe",
+      "bn": "ছাড়বে",
+      "tr": "chharbe",
+      "en": "will leave",
+      "alt": [
+        "will depart"
+      ],
+      "pos": "verb",
+      "lesson": "u07-l06",
+      "notes": "Future of ছাড়া 'leave, let go'."
+    },
+    {
+      "id": "kon",
+      "bn": "কোন",
+      "tr": "kon",
+      "en": "which",
+      "pos": "pronoun",
+      "lesson": "u07-l07"
+    },
+    {
+      "id": "dike",
+      "bn": "দিকে",
+      "tr": "dike",
+      "en": "way",
+      "alt": [
+        "direction",
+        "towards",
+        "side"
+      ],
+      "pos": "postposition",
+      "lesson": "u07-l07",
+      "notes": "কোন দিকে? 'which way?'; ডান দিকে 'to the right side'."
+    }
+  ]
+}

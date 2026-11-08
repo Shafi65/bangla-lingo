@@ -1,0 +1,478 @@
+{
+  "unit": "u02-pronouns",
+  "entries": [
+    {
+      "id": "she",
+      "bn": "সে",
+      "tr": "she",
+      "en": "he/she",
+      "alt": [
+        "he",
+        "she"
+      ],
+      "pos": "pronoun",
+      "lesson": "u02-l01",
+      "notes": "Pronounced 'shay'. No gender: সে = he or she. Neutral, also the written form."
+    },
+    {
+      "id": "o-pron",
+      "bn": "ও",
+      "tr": "o",
+      "en": "he/she (spoken)",
+      "alt": [
+        "he",
+        "she"
+      ],
+      "pos": "pronoun",
+      "lesson": "u02-l01",
+      "notes": "Everyday spoken 'he/she', lit. 'that one'. Used for friends, peers, children. Also a word for 'also/and' (you'll meet it later)."
+    },
+    {
+      "id": "tini",
+      "bn": "তিনি",
+      "tr": "tini",
+      "en": "he/she (polite)",
+      "alt": [
+        "he",
+        "she"
+      ],
+      "pos": "pronoun",
+      "lesson": "u02-l01",
+      "register": "polite",
+      "notes": "Formal/written; উনি is the spoken equivalent."
+    },
+    {
+      "id": "uni",
+      "bn": "উনি",
+      "tr": "uni",
+      "en": "he/she (polite, spoken)",
+      "alt": [
+        "he",
+        "she"
+      ],
+      "pos": "pronoun",
+      "lesson": "u02-l01",
+      "register": "polite",
+      "notes": "What people actually say in conversation for a respected third person."
+    },
+    {
+      "id": "achhe",
+      "bn": "আছে",
+      "tr": "achhe",
+      "en": "is (he/she/it)",
+      "alt": [
+        "is",
+        "there is",
+        "has"
+      ],
+      "pos": "verb",
+      "lesson": "u02-l01",
+      "notes": "Goes with সে, ও, তারা. Also means 'there is' / 'exists'."
+    },
+    {
+      "id": "daktar",
+      "bn": "ডাক্তার",
+      "tr": "daktar",
+      "en": "doctor",
+      "pos": "noun",
+      "lesson": "u02-l01"
+    },
+    {
+      "id": "bondhu",
+      "bn": "বন্ধু",
+      "tr": "bondhu",
+      "en": "friend",
+      "pos": "noun",
+      "lesson": "u02-l01"
+    },
+    {
+      "id": "amra",
+      "bn": "আমরা",
+      "tr": "amra",
+      "en": "we",
+      "pos": "pronoun",
+      "lesson": "u02-l02"
+    },
+    {
+      "id": "tomra",
+      "bn": "তোমরা",
+      "tr": "tomra",
+      "en": "you (familiar, plural)",
+      "alt": [
+        "you",
+        "you all",
+        "you guys"
+      ],
+      "pos": "pronoun",
+      "lesson": "u02-l02",
+      "register": "familiar"
+    },
+    {
+      "id": "apnara",
+      "bn": "আপনারা",
+      "tr": "apnara",
+      "en": "you (polite, plural)",
+      "alt": [
+        "you",
+        "you all"
+      ],
+      "pos": "pronoun",
+      "lesson": "u02-l02",
+      "register": "polite"
+    },
+    {
+      "id": "tara",
+      "bn": "তারা",
+      "tr": "tara",
+      "en": "they",
+      "pos": "pronoun",
+      "lesson": "u02-l02",
+      "notes": "Plural of সে. Polite plural: ওনারা (onara) / তাঁরা."
+    },
+    {
+      "id": "ora",
+      "bn": "ওরা",
+      "tr": "ora",
+      "en": "they (spoken)",
+      "alt": [
+        "they"
+      ],
+      "pos": "pronoun",
+      "lesson": "u02-l02",
+      "notes": "Plural of ও; the everyday spoken 'they'."
+    },
+    {
+      "id": "chhele",
+      "bn": "ছেলে",
+      "tr": "chhele",
+      "en": "boy",
+      "alt": [
+        "son"
+      ],
+      "pos": "noun",
+      "lesson": "u02-l02",
+      "notes": "Also 'son' (আমার ছেলে = my son), and loosely 'young man'."
+    },
+    {
+      "id": "meye",
+      "bn": "মেয়ে",
+      "tr": "meye",
+      "en": "girl",
+      "alt": [
+        "daughter"
+      ],
+      "pos": "noun",
+      "lesson": "u02-l02",
+      "notes": "Also 'daughter' (আমার মেয়ে = my daughter), and loosely 'young woman'."
+    },
+    {
+      "id": "manush",
+      "bn": "মানুষ",
+      "tr": "manush",
+      "en": "person",
+      "alt": [
+        "people",
+        "human",
+        "man"
+      ],
+      "pos": "noun",
+      "lesson": "u02-l02",
+      "notes": "Gender-neutral: a person / people / human being."
+    },
+    {
+      "id": "tui",
+      "bn": "তুই",
+      "tr": "tui",
+      "en": "you (intimate)",
+      "alt": [
+        "you"
+      ],
+      "pos": "pronoun",
+      "lesson": "u02-l03",
+      "register": "intimate",
+      "notes": "For your closest same-age friends, younger siblings, small children. Rude or insulting with strangers and elders."
+    },
+    {
+      "id": "tora",
+      "bn": "তোরা",
+      "tr": "tora",
+      "en": "you (intimate, plural)",
+      "alt": [
+        "you",
+        "you guys",
+        "you all"
+      ],
+      "pos": "pronoun",
+      "lesson": "u02-l03",
+      "register": "intimate"
+    },
+    {
+      "id": "achhish",
+      "bn": "আছিস",
+      "tr": "achhish",
+      "en": "are (intimate)",
+      "alt": [
+        "are"
+      ],
+      "pos": "verb",
+      "lesson": "u02-l03",
+      "register": "intimate",
+      "notes": "Goes with তুই / তোরা."
+    },
+    {
+      "id": "ekhane",
+      "bn": "এখানে",
+      "tr": "ekhane",
+      "en": "here",
+      "pos": "adv",
+      "lesson": "u02-l03"
+    },
+    {
+      "id": "okhane",
+      "bn": "ওখানে",
+      "tr": "okhane",
+      "en": "there",
+      "pos": "adv",
+      "lesson": "u02-l03"
+    },
+    {
+      "id": "nei",
+      "bn": "নেই",
+      "tr": "nei",
+      "en": "is not (here); there isn't",
+      "alt": [
+        "isn't",
+        "not here",
+        "there is no",
+        "don't have",
+        "doesn't have"
+      ],
+      "pos": "verb",
+      "lesson": "u02-l03",
+      "notes": "Negative of আছ- for every person: আমি নেই, তুমি নেই, সে নেই. Colloquially also নাই (nai)."
+    },
+    {
+      "id": "ki-q",
+      "bn": "কি",
+      "tr": "ki",
+      "en": "(yes/no question marker)",
+      "pos": "particle",
+      "lesson": "u02-l04",
+      "notes": "Turns a statement into a yes/no question: আপনি কি শিক্ষক? Usually comes right after the subject. Short ি — compare কী 'what'."
+    },
+    {
+      "id": "noi",
+      "bn": "নই",
+      "tr": "noi",
+      "en": "am not",
+      "alt": [
+        "not"
+      ],
+      "pos": "verb",
+      "lesson": "u02-l04",
+      "notes": "Goes with আমি / আমরা: আমি ছাত্র নই."
+    },
+    {
+      "id": "noo",
+      "bn": "নও",
+      "tr": "noo",
+      "en": "are not (familiar)",
+      "alt": [
+        "not",
+        "aren't"
+      ],
+      "pos": "verb",
+      "lesson": "u02-l04",
+      "register": "familiar",
+      "notes": "Goes with তুমি / তোমরা."
+    },
+    {
+      "id": "non",
+      "bn": "নন",
+      "tr": "non",
+      "en": "is not / are not (polite)",
+      "alt": [
+        "not",
+        "isn't",
+        "aren't"
+      ],
+      "pos": "verb",
+      "lesson": "u02-l04",
+      "register": "polite",
+      "notes": "Goes with আপনি, তিনি, উনি."
+    },
+    {
+      "id": "noy-isnt",
+      "bn": "নয়",
+      "tr": "noy",
+      "en": "is not",
+      "alt": [
+        "not",
+        "isn't"
+      ],
+      "pos": "verb",
+      "lesson": "u02-l04",
+      "notes": "Goes with সে, ও, এটা. In everyday Bangladeshi speech না is used for all persons: আমি ছাত্র না. নয় is also the number nine (Unit 5)."
+    },
+    {
+      "id": "ke",
+      "bn": "কে",
+      "tr": "ke",
+      "en": "who",
+      "pos": "pronoun",
+      "lesson": "u02-l04"
+    },
+    {
+      "id": "eta",
+      "bn": "এটা",
+      "tr": "eta",
+      "en": "this",
+      "alt": [
+        "this one",
+        "it"
+      ],
+      "pos": "pronoun",
+      "lesson": "u02-l04",
+      "notes": "এ 'this' + classifier -টা. Spoken BD also এইটা (eita)."
+    },
+    {
+      "id": "ota",
+      "bn": "ওটা",
+      "tr": "ota",
+      "en": "that",
+      "alt": [
+        "that one",
+        "it"
+      ],
+      "pos": "pronoun",
+      "lesson": "u02-l04",
+      "notes": "ও 'that' + classifier -টা. Spoken BD also ওইটা (oita)."
+    },
+    {
+      "id": "kothay",
+      "bn": "কোথায়",
+      "tr": "kothay",
+      "en": "where",
+      "pos": "adv",
+      "lesson": "u02-l05"
+    },
+    {
+      "id": "kotha",
+      "bn": "কোথা",
+      "tr": "kotha",
+      "en": "where (before থেকে)",
+      "alt": [
+        "where"
+      ],
+      "pos": "adv",
+      "lesson": "u02-l05",
+      "notes": "Short form used in কোথা থেকে 'from where'."
+    },
+    {
+      "id": "theke",
+      "bn": "থেকে",
+      "tr": "theke",
+      "en": "from",
+      "pos": "postposition",
+      "lesson": "u02-l05",
+      "notes": "Comes after the noun: বাংলাদেশ থেকে 'from Bangladesh'."
+    },
+    {
+      "id": "eshechhi",
+      "bn": "এসেছি",
+      "tr": "eshechhi",
+      "en": "(I) have come",
+      "alt": [
+        "I have come",
+        "I came",
+        "I'm from",
+        "I am from"
+      ],
+      "pos": "verb",
+      "lesson": "u02-l05",
+      "notes": "Present perfect of আসা 'to come'. Learn as a chunk: … থেকে এসেছি 'I'm from …'."
+    },
+    {
+      "id": "eshechhen",
+      "bn": "এসেছেন",
+      "tr": "eshechhen",
+      "en": "(you, polite) have come",
+      "alt": [
+        "have come",
+        "came",
+        "are from"
+      ],
+      "pos": "verb",
+      "lesson": "u02-l05",
+      "register": "polite"
+    },
+    {
+      "id": "desh",
+      "bn": "দেশ",
+      "tr": "desh",
+      "en": "country",
+      "alt": [
+        "homeland",
+        "home country"
+      ],
+      "pos": "noun",
+      "lesson": "u02-l05"
+    },
+    {
+      "id": "bangladesh",
+      "bn": "বাংলাদেশ",
+      "tr": "bangladesh",
+      "en": "Bangladesh",
+      "pos": "name",
+      "lesson": "u02-l05"
+    },
+    {
+      "id": "amerika",
+      "bn": "আমেরিকা",
+      "tr": "amerika",
+      "en": "America",
+      "alt": [
+        "the US",
+        "USA",
+        "the United States"
+      ],
+      "pos": "name",
+      "lesson": "u02-l05"
+    },
+    {
+      "id": "bangladeshi",
+      "bn": "বাংলাদেশি",
+      "tr": "bangladeshi",
+      "en": "Bangladeshi",
+      "alt": [
+        "from Bangladesh"
+      ],
+      "pos": "adj",
+      "lesson": "u02-l06"
+    },
+    {
+      "id": "bangla",
+      "bn": "বাংলা",
+      "tr": "bangla",
+      "en": "Bengali (language)",
+      "alt": [
+        "Bangla",
+        "Bengali"
+      ],
+      "pos": "noun",
+      "lesson": "u02-l06",
+      "notes": "The language (and the region of Bengal)."
+    },
+    {
+      "id": "ingreji",
+      "bn": "ইংরেজি",
+      "tr": "ingreji",
+      "en": "English (language)",
+      "alt": [
+        "English"
+      ],
+      "pos": "noun",
+      "lesson": "u02-l06"
+    }
+  ]
+}

@@ -1,0 +1,580 @@
+{
+  "unit": "u03-family",
+  "entries": [
+    {
+      "id": "poribar",
+      "bn": "পরিবার",
+      "tr": "poribar",
+      "en": "family",
+      "pos": "noun",
+      "lesson": "u03-l01"
+    },
+    {
+      "id": "ma",
+      "bn": "মা",
+      "tr": "ma",
+      "en": "mother",
+      "alt": [
+        "mom",
+        "mum"
+      ],
+      "pos": "noun",
+      "lesson": "u03-l01"
+    },
+    {
+      "id": "baba",
+      "bn": "বাবা",
+      "tr": "baba",
+      "en": "father",
+      "alt": [
+        "dad"
+      ],
+      "pos": "noun",
+      "lesson": "u03-l01",
+      "notes": "Also used affectionately by parents to address their own children."
+    },
+    {
+      "id": "ammu",
+      "bn": "আম্মু",
+      "tr": "ammu",
+      "en": "mom",
+      "alt": [
+        "mother",
+        "mum",
+        "mommy"
+      ],
+      "pos": "noun",
+      "lesson": "u03-l01",
+      "notes": "Affectionate, very common in Bangladeshi Muslim families. Also আম্মা (amma). Kolkata: মা.",
+      "kolkata": {
+        "bn": "মা",
+        "tr": "ma"
+      }
+    },
+    {
+      "id": "abbu",
+      "bn": "আব্বু",
+      "tr": "abbu",
+      "en": "dad",
+      "alt": [
+        "father",
+        "daddy"
+      ],
+      "pos": "noun",
+      "lesson": "u03-l01",
+      "notes": "Affectionate, very common in Bangladeshi Muslim families. Also আব্বা (abba). Kolkata: বাবা.",
+      "kolkata": {
+        "bn": "বাবা",
+        "tr": "baba"
+      }
+    },
+    {
+      "id": "bhai",
+      "bn": "ভাই",
+      "tr": "bhai",
+      "en": "brother",
+      "pos": "noun",
+      "lesson": "u03-l01",
+      "notes": "Also a friendly address for any man about your age: ভাই, … 'Brother, …'."
+    },
+    {
+      "id": "bon",
+      "bn": "বোন",
+      "tr": "bon",
+      "en": "sister",
+      "pos": "noun",
+      "lesson": "u03-l01"
+    },
+    {
+      "id": "boro",
+      "bn": "বড়",
+      "tr": "boro",
+      "en": "big",
+      "alt": [
+        "elder",
+        "older",
+        "large"
+      ],
+      "pos": "adj",
+      "lesson": "u03-l02",
+      "notes": "With siblings it means 'elder': বড় ভাই 'elder brother'."
+    },
+    {
+      "id": "chhoto",
+      "bn": "ছোট",
+      "tr": "chhoto",
+      "en": "small",
+      "alt": [
+        "younger",
+        "little"
+      ],
+      "pos": "adj",
+      "lesson": "u03-l02",
+      "notes": "With siblings it means 'younger': ছোট বোন 'younger sister'. Also spelled ছোটো."
+    },
+    {
+      "id": "bhaiya",
+      "bn": "ভাইয়া",
+      "tr": "bhaiya",
+      "en": "elder brother",
+      "alt": [
+        "big brother",
+        "brother"
+      ],
+      "pos": "noun",
+      "lesson": "u03-l02",
+      "notes": "What you call your elder brother (instead of his name). Also polite address for a slightly older man. Kolkata: দাদা.",
+      "kolkata": {
+        "bn": "দাদা",
+        "tr": "dada"
+      }
+    },
+    {
+      "id": "apu",
+      "bn": "আপু",
+      "tr": "apu",
+      "en": "elder sister",
+      "alt": [
+        "big sister",
+        "sister"
+      ],
+      "pos": "noun",
+      "lesson": "u03-l02",
+      "notes": "What you call your elder sister. Also friendly address for a slightly older woman. Kolkata: দিদি.",
+      "kolkata": {
+        "bn": "দিদি",
+        "tr": "didi"
+      }
+    },
+    {
+      "id": "tar",
+      "bn": "তার",
+      "tr": "tar",
+      "en": "his/her",
+      "alt": [
+        "his",
+        "her"
+      ],
+      "pos": "pronoun",
+      "lesson": "u03-l02",
+      "notes": "Possessive of সে."
+    },
+    {
+      "id": "or",
+      "bn": "ওর",
+      "tr": "or",
+      "en": "his/her (spoken)",
+      "alt": [
+        "his",
+        "her"
+      ],
+      "pos": "pronoun",
+      "lesson": "u03-l02",
+      "notes": "Possessive of ও; the everyday spoken form."
+    },
+    {
+      "id": "onar",
+      "bn": "ওনার",
+      "tr": "onar",
+      "en": "his/her (polite)",
+      "alt": [
+        "his",
+        "her"
+      ],
+      "pos": "pronoun",
+      "lesson": "u03-l02",
+      "register": "polite",
+      "notes": "Possessive of উনি. Written: তাঁর (ta~r)."
+    },
+    {
+      "id": "tor",
+      "bn": "তোর",
+      "tr": "tor",
+      "en": "your (intimate)",
+      "alt": [
+        "your"
+      ],
+      "pos": "pronoun",
+      "lesson": "u03-l02",
+      "register": "intimate",
+      "notes": "Possessive of তুই."
+    },
+    {
+      "id": "dada",
+      "bn": "দাদা",
+      "tr": "dada",
+      "en": "grandfather (father's father)",
+      "alt": [
+        "grandfather",
+        "grandpa"
+      ],
+      "pos": "noun",
+      "lesson": "u03-l03",
+      "notes": "In Bangladesh দাদা = paternal grandfather. In Kolkata দাদা means ELDER BROTHER; grandfather is ঠাকুরদা.",
+      "kolkata": {
+        "bn": "ঠাকুরদা",
+        "tr": "thakurda"
+      }
+    },
+    {
+      "id": "dadi",
+      "bn": "দাদি",
+      "tr": "dadi",
+      "en": "grandmother (father's mother)",
+      "alt": [
+        "grandmother",
+        "grandma"
+      ],
+      "pos": "noun",
+      "lesson": "u03-l03",
+      "kolkata": {
+        "bn": "ঠাকুমা",
+        "tr": "thakuma"
+      }
+    },
+    {
+      "id": "chacha",
+      "bn": "চাচা",
+      "tr": "chacha",
+      "en": "uncle (father's brother)",
+      "alt": [
+        "uncle"
+      ],
+      "pos": "noun",
+      "lesson": "u03-l03",
+      "notes": "Also respectful address for an older man.",
+      "kolkata": {
+        "bn": "কাকা",
+        "tr": "kaka"
+      }
+    },
+    {
+      "id": "chachi",
+      "bn": "চাচি",
+      "tr": "chachi",
+      "en": "aunt (chacha's wife)",
+      "alt": [
+        "aunt",
+        "auntie"
+      ],
+      "pos": "noun",
+      "lesson": "u03-l03",
+      "kolkata": {
+        "bn": "কাকিমা",
+        "tr": "kakima"
+      }
+    },
+    {
+      "id": "fufu",
+      "bn": "ফুফু",
+      "tr": "fufu",
+      "en": "aunt (father's sister)",
+      "alt": [
+        "aunt",
+        "auntie"
+      ],
+      "pos": "noun",
+      "lesson": "u03-l03",
+      "notes": "Also ফুপু (fupu).",
+      "kolkata": {
+        "bn": "পিসি",
+        "tr": "pishi"
+      }
+    },
+    {
+      "id": "fufa",
+      "bn": "ফুফা",
+      "tr": "fufa",
+      "en": "uncle (fufu's husband)",
+      "alt": [
+        "uncle"
+      ],
+      "pos": "noun",
+      "lesson": "u03-l03",
+      "notes": "Also ফুপা (fupa).",
+      "kolkata": {
+        "bn": "পিসেমশাই",
+        "tr": "pishemoshai"
+      }
+    },
+    {
+      "id": "babar",
+      "bn": "বাবার",
+      "tr": "babar",
+      "en": "father's",
+      "alt": [
+        "my father's",
+        "of father"
+      ],
+      "pos": "noun",
+      "lesson": "u03-l03",
+      "notes": "বাবা + -র (genitive)."
+    },
+    {
+      "id": "nana",
+      "bn": "নানা",
+      "tr": "nana",
+      "en": "grandfather (mother's father)",
+      "alt": [
+        "grandfather",
+        "grandpa"
+      ],
+      "pos": "noun",
+      "lesson": "u03-l04",
+      "kolkata": {
+        "bn": "দাদু",
+        "tr": "dadu"
+      }
+    },
+    {
+      "id": "nani",
+      "bn": "নানি",
+      "tr": "nani",
+      "en": "grandmother (mother's mother)",
+      "alt": [
+        "grandmother",
+        "grandma"
+      ],
+      "pos": "noun",
+      "lesson": "u03-l04",
+      "kolkata": {
+        "bn": "দিদিমা",
+        "tr": "didima"
+      }
+    },
+    {
+      "id": "mama",
+      "bn": "মামা",
+      "tr": "mama",
+      "en": "uncle (mother's brother)",
+      "alt": [
+        "uncle"
+      ],
+      "pos": "noun",
+      "lesson": "u03-l04",
+      "notes": "Also the friendliest way to address a rickshaw driver or tea-stall owner in Bangladesh. Same word in Kolkata."
+    },
+    {
+      "id": "mami",
+      "bn": "মামি",
+      "tr": "mami",
+      "en": "aunt (mama's wife)",
+      "alt": [
+        "aunt",
+        "auntie"
+      ],
+      "pos": "noun",
+      "lesson": "u03-l04",
+      "kolkata": {
+        "bn": "মামিমা",
+        "tr": "mamima"
+      }
+    },
+    {
+      "id": "khala",
+      "bn": "খালা",
+      "tr": "khala",
+      "en": "aunt (mother's sister)",
+      "alt": [
+        "aunt",
+        "auntie"
+      ],
+      "pos": "noun",
+      "lesson": "u03-l04",
+      "notes": "Also respectful address for an older woman.",
+      "kolkata": {
+        "bn": "মাসি",
+        "tr": "mashi"
+      }
+    },
+    {
+      "id": "khalu",
+      "bn": "খালু",
+      "tr": "khalu",
+      "en": "uncle (khala's husband)",
+      "alt": [
+        "uncle"
+      ],
+      "pos": "noun",
+      "lesson": "u03-l04",
+      "kolkata": {
+        "bn": "মেসো",
+        "tr": "mesho"
+      }
+    },
+    {
+      "id": "mayer",
+      "bn": "মায়ের",
+      "tr": "mayer",
+      "en": "mother's",
+      "alt": [
+        "my mother's",
+        "of mother"
+      ],
+      "pos": "noun",
+      "lesson": "u03-l04",
+      "notes": "মা + -এর; a য় glide is added between the vowels."
+    },
+    {
+      "id": "ekta",
+      "bn": "একটা",
+      "tr": "ekta",
+      "en": "one; a",
+      "alt": [
+        "a",
+        "an",
+        "one"
+      ],
+      "pos": "number",
+      "lesson": "u03-l05",
+      "notes": "এক + classifier -টা. The everyday 'a / one (thing)'. Formal/written: একটি."
+    },
+    {
+      "id": "ekjon",
+      "bn": "একজন",
+      "tr": "ekjon",
+      "en": "one (person)",
+      "alt": [
+        "a",
+        "one",
+        "someone"
+      ],
+      "pos": "number",
+      "lesson": "u03-l05",
+      "notes": "এক + -জন, the classifier for people."
+    },
+    {
+      "id": "duijon",
+      "bn": "দুইজন",
+      "tr": "duijon",
+      "en": "two (people)",
+      "alt": [
+        "two"
+      ],
+      "pos": "number",
+      "lesson": "u03-l05",
+      "notes": "Kolkata: দুজন.",
+      "kolkata": {
+        "bn": "দুজন",
+        "tr": "dujon"
+      }
+    },
+    {
+      "id": "koyjon",
+      "bn": "কয়জন",
+      "tr": "koyjon",
+      "en": "how many (people)",
+      "alt": [
+        "how many"
+      ],
+      "pos": "adv",
+      "lesson": "u03-l05",
+      "notes": "Also কতজন (kotojon)."
+    },
+    {
+      "id": "amader",
+      "bn": "আমাদের",
+      "tr": "amader",
+      "en": "our",
+      "pos": "pronoun",
+      "lesson": "u03-l05"
+    },
+    {
+      "id": "tomader",
+      "bn": "তোমাদের",
+      "tr": "tomader",
+      "en": "your (familiar, plural)",
+      "alt": [
+        "your"
+      ],
+      "pos": "pronoun",
+      "lesson": "u03-l05",
+      "register": "familiar"
+    },
+    {
+      "id": "bachcha",
+      "bn": "বাচ্চা",
+      "tr": "bachcha",
+      "en": "child",
+      "alt": [
+        "kid",
+        "children",
+        "baby"
+      ],
+      "pos": "noun",
+      "lesson": "u03-l05"
+    },
+    {
+      "id": "apa",
+      "bn": "আপা",
+      "tr": "apa",
+      "en": "elder sister; ma'am",
+      "alt": [
+        "sister",
+        "madam",
+        "ma'am"
+      ],
+      "pos": "noun",
+      "lesson": "u03-l06",
+      "notes": "Respectful address for a woman somewhat older than you — teachers, colleagues, shop customers. A little more formal than আপু."
+    },
+    {
+      "id": "angkel",
+      "bn": "আংকেল",
+      "tr": "angkel",
+      "en": "uncle (address)",
+      "alt": [
+        "uncle",
+        "sir"
+      ],
+      "pos": "noun",
+      "lesson": "u03-l06",
+      "notes": "From English 'uncle'; used by urban Bangladeshis for friends' fathers and older men. Also spelled আঙ্কেল."
+    },
+    {
+      "id": "anti",
+      "bn": "আন্টি",
+      "tr": "anti",
+      "en": "auntie (address)",
+      "alt": [
+        "aunt",
+        "auntie",
+        "aunty",
+        "ma'am"
+      ],
+      "pos": "noun",
+      "lesson": "u03-l06",
+      "notes": "From English 'auntie'; used for friends' mothers and older women, especially in cities."
+    },
+    {
+      "id": "shami",
+      "bn": "স্বামী",
+      "tr": "shami",
+      "en": "husband",
+      "pos": "noun",
+      "lesson": "u03-l07",
+      "notes": "The ব-fola after স is silent."
+    },
+    {
+      "id": "stri",
+      "bn": "স্ত্রী",
+      "tr": "stri",
+      "en": "wife",
+      "pos": "noun",
+      "lesson": "u03-l07",
+      "notes": "Neutral/formal. Colloquially বউ."
+    },
+    {
+      "id": "bou",
+      "bn": "বউ",
+      "tr": "bou",
+      "en": "wife",
+      "alt": [
+        "bride"
+      ],
+      "pos": "noun",
+      "lesson": "u03-l07",
+      "notes": "Colloquial 'wife'; also 'bride' and 'daughter-in-law'. Also spelled বৌ."
+    }
+  ]
+}

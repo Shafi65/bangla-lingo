@@ -1,0 +1,866 @@
+{
+  "unit": "u05-numbers-time",
+  "lessons": [
+    {
+      "id": "u05-l01",
+      "title": "One to ten",
+      "goal": "Count 1–10 and use numbers with nouns.",
+      "grammar": [
+        "numbers 1–10",
+        "number + noun (দুই ভাই) or number + -টা (দুইটা আম)",
+        "নয় = nine vs নয় = isn't"
+      ],
+      "new": [
+        "dui",
+        "tin",
+        "char",
+        "pach",
+        "chhoy",
+        "shat-seven",
+        "at",
+        "noy-nine",
+        "dosh",
+        "duita"
+      ],
+      "review": [
+        "ek",
+        "amar",
+        "bhai",
+        "achhe",
+        "bon",
+        "ar",
+        "ami",
+        "am",
+        "chai",
+        "bondhu",
+        "okhane"
+      ],
+      "tip": "**এক** (*ek*) you already know. Here are the rest:\n\n**১ এক · ২ দুই · ৩ তিন · ৪ চার · ৫ পাঁচ · ৬ ছয় · ৭ সাত · ৮ আট · ৯ নয় · ১০ দশ**\n\nNumbers go **before** the noun, and with people or family you can just say **আমার দুই ভাই আছে** 'I have two brothers'. For things, Bengali usually adds the classifier **-টা**: **দুইটা আম** 'two mangoes' (the noun stays singular!). Kolkata says **দুটো**.\n\n**নয়** (*noy*) 'nine' is spelled exactly like **নয়** 'is not'. Context always makes it clear.\n\nArithmetic is easy to say: **পাঁচ আর পাঁচ দশ** 'five and five (is) ten'.",
+      "sentences": [
+        {
+          "bn": "এক, দুই, তিন।",
+          "tr": "ek, dui, tin.",
+          "en": "One, two, three."
+        },
+        {
+          "bn": "আমার দুই ভাই আছে।",
+          "tr": "amar dui bhai achhe.",
+          "en": "I have two brothers."
+        },
+        {
+          "bn": "আমার তিন বোন আছে।",
+          "tr": "amar tin bon achhe.",
+          "en": "I have three sisters."
+        },
+        {
+          "bn": "চার আর পাঁচ নয়।",
+          "tr": "char ar pa~ch noy.",
+          "en": "Four and five is nine.",
+          "alt": [
+            "Four plus five is nine.",
+            "Four and five make nine."
+          ]
+        },
+        {
+          "bn": "ছয়, সাত, আট।",
+          "tr": "chhoy, shat, at.",
+          "en": "Six, seven, eight."
+        },
+        {
+          "bn": "পাঁচ আর পাঁচ দশ।",
+          "tr": "pa~ch ar pa~ch dosh.",
+          "en": "Five and five is ten.",
+          "alt": [
+            "Five plus five is ten.",
+            "Five and five make ten."
+          ]
+        },
+        {
+          "bn": "সাত আর এক আট।",
+          "tr": "shat ar ek at.",
+          "en": "Seven and one is eight.",
+          "alt": [
+            "Seven plus one is eight."
+          ]
+        },
+        {
+          "bn": "আমি দুইটা আম চাই।",
+          "tr": "ami duita am chai.",
+          "en": "I want two mangoes.",
+          "alt": [
+            "I'd like two mangoes."
+          ]
+        },
+        {
+          "bn": "আমার চার বন্ধু ওখানে আছে।",
+          "tr": "amar char bondhu okhane achhe.",
+          "en": "My four friends are there.",
+          "alt": [
+            "Four of my friends are there."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u05-l02",
+      "title": "11–20 & numerals",
+      "goal": "Count 11–20, give your age, and read the digits ০–৯.",
+      "grammar": [
+        "11–20 are individually irregular",
+        "Bengali digits ০–৯",
+        "আমার বয়স … 'I am … (years old)'"
+      ],
+      "new": [
+        "egaro",
+        "baro",
+        "tero",
+        "choddo",
+        "ponero",
+        "sholo",
+        "shotero",
+        "atharo",
+        "unish",
+        "bish",
+        "boyosh",
+        "shunno-digit",
+        "ek-digit",
+        "dui-digit",
+        "tin-digit",
+        "char-digit",
+        "pach-digit",
+        "chhoy-digit",
+        "shat-digit",
+        "at-digit",
+        "noy-digit"
+      ],
+      "review": [
+        "amar",
+        "or",
+        "tar",
+        "tomar",
+        "ki-q",
+        "na",
+        "dosh",
+        "ar",
+        "ek",
+        "pach"
+      ],
+      "tip": "**১১–২০** each have their own shape — there is no simple 'teen' rule, so practise by ear:\n\n**এগারো, বারো, তেরো, চৌদ্দ, পনেরো, ষোলো, সতেরো, আঠারো, উনিশ, বিশ**\n\n**Bengali digits** are used on signs, prices, buses and calendars in Bangladesh:\n\n**০ ১ ২ ৩ ৪ ৫ ৬ ৭ ৮ ৯**\n\nFalse friends: **৪** is *four* (not 8!), **৭** is *seven* (not 9), and **৮** is *eight*. **১০** = 10 works just like ours.\n\nAge: **আমার বয়স বিশ** — literally 'my age (is) twenty'. Asking someone's age is quite normal in Bangladesh, but with elders it's polite not to.",
+      "sentences": [
+        {
+          "bn": "আমার বয়স বিশ।",
+          "tr": "amar boyosh bish.",
+          "en": "I am twenty.",
+          "alt": [
+            "I'm twenty.",
+            "I am twenty years old.",
+            "My age is twenty."
+          ]
+        },
+        {
+          "bn": "ওর বয়স বারো।",
+          "tr": "or boyosh baro.",
+          "en": "He is twelve.",
+          "alt": [
+            "She is twelve.",
+            "He's twelve years old."
+          ]
+        },
+        {
+          "bn": "তার বয়স ষোলো।",
+          "tr": "tar boyosh sholo.",
+          "en": "She is sixteen.",
+          "alt": [
+            "He is sixteen.",
+            "She's sixteen years old."
+          ]
+        },
+        {
+          "bn": "তোমার বয়স কি সতেরো?",
+          "tr": "tomar boyosh ki shotero?",
+          "en": "Are you seventeen?"
+        },
+        {
+          "bn": "না, আমার বয়স আঠারো।",
+          "tr": "na, amar boyosh atharo.",
+          "en": "No, I am eighteen.",
+          "alt": [
+            "No, I'm eighteen."
+          ]
+        },
+        {
+          "bn": "দশ আর এক এগারো।",
+          "tr": "dosh ar ek egaro.",
+          "en": "Ten and one is eleven.",
+          "alt": [
+            "Ten plus one is eleven."
+          ]
+        },
+        {
+          "bn": "দশ আর পাঁচ পনেরো।",
+          "tr": "dosh ar pa~ch ponero.",
+          "en": "Ten and five is fifteen.",
+          "alt": [
+            "Ten plus five is fifteen."
+          ]
+        },
+        {
+          "bn": "উনিশ আর এক বিশ।",
+          "tr": "unish ar ek bish.",
+          "en": "Nineteen and one is twenty.",
+          "alt": [
+            "Nineteen plus one is twenty."
+          ]
+        },
+        {
+          "bn": "এগারো, বারো, তেরো, চৌদ্দ।",
+          "tr": "egaro, baro, tero, choddo.",
+          "en": "Eleven, twelve, thirteen, fourteen."
+        }
+      ]
+    },
+    {
+      "id": "u05-l03",
+      "title": "Tens to 100",
+      "goal": "Count in tens to 100 and say 'a thousand'.",
+      "grammar": [
+        "tens 30–90",
+        "একশ 100, হাজার 1000 (লাখ, কোটি for bigger)"
+      ],
+      "new": [
+        "trish",
+        "chollish",
+        "ponchash",
+        "shat-sixty",
+        "shottor",
+        "ashi-eighty",
+        "nobboi",
+        "eksho",
+        "hajar"
+      ],
+      "review": [
+        "dosh",
+        "bish",
+        "amar",
+        "babar",
+        "boyosh",
+        "mayer",
+        "ar",
+        "ekhane",
+        "manush",
+        "achhe",
+        "okhane",
+        "ek"
+      ],
+      "tip": "The tens: **দশ (10), বিশ (20), ত্রিশ (30), চল্লিশ (40), পঞ্চাশ (50), ষাট (60), সত্তর (70), আশি (80), নব্বই (90), একশ (100).**\n\nHonest warning: **every number from 21 to 99 has its own form** (একুশ 21, বাইশ 22, … নিরানব্বই 99). Don't try to learn them all at once — the tens let you understand most prices and ages roughly, and you'll pick up the rest by use.\n\n**সাত** (7) and **ষাট** (60) are both transliterated *shat*; the difference is in the 't' sound (curled tongue in ষাট). Listen to the audio!\n\nBig numbers: **হাজার** = 1,000, **লাখ** (*lakh*) = 100,000, **কোটি** (*koti*) = 10 million. South Asia counts in lakhs and crores, so ১,০০,০০০ is written with commas that way.",
+      "sentences": [
+        {
+          "bn": "দশ, বিশ, ত্রিশ, চল্লিশ।",
+          "tr": "dosh, bish, trish, chollish.",
+          "en": "Ten, twenty, thirty, forty."
+        },
+        {
+          "bn": "আমার বাবার বয়স পঞ্চাশ।",
+          "tr": "amar babar boyosh ponchash.",
+          "en": "My father is fifty.",
+          "alt": [
+            "My father is fifty years old."
+          ]
+        },
+        {
+          "bn": "আমার মায়ের বয়স ষাট।",
+          "tr": "amar mayer boyosh shat.",
+          "en": "My mother is sixty.",
+          "alt": [
+            "My mother is sixty years old."
+          ]
+        },
+        {
+          "bn": "পঞ্চাশ আর পঞ্চাশ একশ।",
+          "tr": "ponchash ar ponchash eksho.",
+          "en": "Fifty and fifty is a hundred.",
+          "alt": [
+            "Fifty plus fifty is one hundred."
+          ]
+        },
+        {
+          "bn": "সত্তর আর ত্রিশ একশ।",
+          "tr": "shottor ar trish eksho.",
+          "en": "Seventy and thirty is a hundred.",
+          "alt": [
+            "Seventy plus thirty is one hundred."
+          ]
+        },
+        {
+          "bn": "আশি আর বিশ একশ।",
+          "tr": "ashi ar bish eksho.",
+          "en": "Eighty and twenty is a hundred.",
+          "alt": [
+            "Eighty plus twenty is one hundred."
+          ]
+        },
+        {
+          "bn": "নব্বই আর দশ একশ।",
+          "tr": "nobboi ar dosh eksho.",
+          "en": "Ninety and ten is a hundred.",
+          "alt": [
+            "Ninety plus ten is one hundred."
+          ]
+        },
+        {
+          "bn": "এখানে একশ মানুষ আছে।",
+          "tr": "ekhane eksho manush achhe.",
+          "en": "There are a hundred people here.",
+          "alt": [
+            "There are one hundred people here."
+          ]
+        },
+        {
+          "bn": "ওখানে এক হাজার মানুষ আছে।",
+          "tr": "okhane ek hajar manush achhe.",
+          "en": "There are a thousand people there.",
+          "alt": [
+            "There are one thousand people there."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u05-l04",
+      "title": "What time is it?",
+      "goal": "Ask and tell the time on the hour; talk about hours and minutes.",
+      "grammar": [
+        "কয়টা বাজে? 'what time is it?'",
+        "number + -টা + বাজে",
+        "আমার সময় আছে 'I have time'"
+      ],
+      "new": [
+        "koyta",
+        "baje",
+        "tinta",
+        "pachta",
+        "doshta",
+        "barota",
+        "shomoy",
+        "ghonta",
+        "minit"
+      ],
+      "review": [
+        "ekhon",
+        "duita",
+        "apnar",
+        "ki-q",
+        "achhe",
+        "amar",
+        "ek",
+        "dosh"
+      ],
+      "tip": "**কয়টা বাজে?** (*koyta baje?*) = 'What time is it?' — literally 'How many has it struck?', like a clock bell. **বাজে** means 'rings / strikes'.\n\nThe answer is **number + -টা + বাজে**: **তিনটা বাজে** 'It's three o'clock', **এখন দশটা বাজে** 'It's ten now'. One o'clock uses the word you know: **একটা বাজে**. (Kolkata: তিনটে, দুটো.)\n\n**সময়** (*shomoy*) is 'time' in the sense of having time: **আপনার কি সময় আছে?** 'Do you have time?' **ঘণ্টা** = hour, **মিনিট** = minute.\n\nCulture: Bangladeshi time can be relaxed — a meeting 'at five' may start at quarter past. Also, Bangladesh has a single time zone, 6 hours ahead of GMT, with no daylight saving.",
+      "sentences": [
+        {
+          "bn": "কয়টা বাজে?",
+          "tr": "koyta baje?",
+          "en": "What time is it?"
+        },
+        {
+          "bn": "এখন কয়টা বাজে?",
+          "tr": "ekhon koyta baje?",
+          "en": "What time is it now?"
+        },
+        {
+          "bn": "এখন তিনটা বাজে।",
+          "tr": "ekhon tinta baje.",
+          "en": "It's three o'clock now.",
+          "alt": [
+            "It is three o'clock now.",
+            "It's 3 now."
+          ]
+        },
+        {
+          "bn": "পাঁচটা বাজে।",
+          "tr": "pa~chta baje.",
+          "en": "It's five o'clock.",
+          "alt": [
+            "It is five o'clock."
+          ]
+        },
+        {
+          "bn": "এখন দশটা বাজে।",
+          "tr": "ekhon doshta baje.",
+          "en": "It's ten o'clock now.",
+          "alt": [
+            "It is ten o'clock now."
+          ]
+        },
+        {
+          "bn": "এখন বারোটা বাজে।",
+          "tr": "ekhon barota baje.",
+          "en": "It's twelve o'clock now.",
+          "alt": [
+            "It is twelve o'clock now."
+          ]
+        },
+        {
+          "bn": "দুইটা বাজে।",
+          "tr": "duita baje.",
+          "en": "It's two o'clock.",
+          "alt": [
+            "It is two o'clock."
+          ]
+        },
+        {
+          "bn": "আপনার কি সময় আছে?",
+          "tr": "apnar ki shomoy achhe?",
+          "en": "Do you have time?"
+        },
+        {
+          "bn": "আমার এক ঘণ্টা সময় আছে।",
+          "tr": "amar ek ghonta shomoy achhe.",
+          "en": "I have one hour.",
+          "alt": [
+            "I have an hour.",
+            "I have an hour of time."
+          ]
+        },
+        {
+          "bn": "আমার দশ মিনিট সময় আছে।",
+          "tr": "amar dosh minit shomoy achhe.",
+          "en": "I have ten minutes.",
+          "alt": [
+            "I have ten minutes of time."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u05-l05",
+      "title": "Half past & quarter",
+      "goal": "Tell half and quarter hours, including the special words for 1:30 and 2:30.",
+      "grammar": [
+        "সাড়ে + n = n:30 (from 3:30 up)",
+        "দেড়টা 1:30, আড়াইটা 2:30",
+        "সোয়া = quarter past, পৌনে = quarter to",
+        "দেড় / আড়াই also 1½ / 2½"
+      ],
+      "new": [
+        "share",
+        "der",
+        "derta",
+        "arai",
+        "araita",
+        "shoya",
+        "poune"
+      ],
+      "review": [
+        "ekhon",
+        "tinta",
+        "baje",
+        "pachta",
+        "doshta",
+        "barota",
+        "amar",
+        "ghonta",
+        "shomoy",
+        "achhe",
+        "amader"
+      ],
+      "tip": "Bengali tells half and quarter hours with special words that go **before** the hour:\n\n- **সাড়ে** (*share*) = half past: **সাড়ে তিনটা** 3:30, **সাড়ে বারোটা** 12:30\n- **সোয়া** (*shoya*) = quarter past: **সোয়া পাঁচটা** 5:15\n- **পৌনে** (*poune*) = quarter to: **পৌনে দশটা** 9:45 (lit. 'ten less a quarter')\n\n**Exception:** 1:30 and 2:30 have their own words — **দেড়টা** (*derta*) and **আড়াইটা** (*araita*). Never say *সাড়ে একটা*!\n\nThese work for amounts too: **দেড় ঘণ্টা** = an hour and a half, **আড়াই ঘণ্টা** = two and a half hours, **সাড়ে তিন** = 3½. You'll hear them constantly with prices and kilos at the bazaar.",
+      "sentences": [
+        {
+          "bn": "এখন সাড়ে তিনটা বাজে।",
+          "tr": "ekhon share tinta baje.",
+          "en": "It's half past three now.",
+          "alt": [
+            "It is 3:30 now.",
+            "It's three thirty now."
+          ]
+        },
+        {
+          "bn": "এখন দেড়টা বাজে।",
+          "tr": "ekhon derta baje.",
+          "en": "It's half past one now.",
+          "alt": [
+            "It is 1:30 now.",
+            "It's one thirty now."
+          ]
+        },
+        {
+          "bn": "এখন আড়াইটা বাজে।",
+          "tr": "ekhon araita baje.",
+          "en": "It's half past two now.",
+          "alt": [
+            "It is 2:30 now.",
+            "It's two thirty now."
+          ]
+        },
+        {
+          "bn": "সোয়া পাঁচটা বাজে।",
+          "tr": "shoya pa~chta baje.",
+          "en": "It's quarter past five.",
+          "alt": [
+            "It is 5:15.",
+            "It's a quarter past five."
+          ]
+        },
+        {
+          "bn": "পৌনে দশটা বাজে।",
+          "tr": "poune doshta baje.",
+          "en": "It's quarter to ten.",
+          "alt": [
+            "It is 9:45.",
+            "It's a quarter to ten."
+          ]
+        },
+        {
+          "bn": "এখন সাড়ে বারোটা বাজে।",
+          "tr": "ekhon share barota baje.",
+          "en": "It's half past twelve now.",
+          "alt": [
+            "It is 12:30 now."
+          ]
+        },
+        {
+          "bn": "আমার দেড় ঘণ্টা সময় আছে।",
+          "tr": "amar der ghonta shomoy achhe.",
+          "en": "I have an hour and a half.",
+          "alt": [
+            "I have one and a half hours."
+          ]
+        },
+        {
+          "bn": "আমাদের আড়াই ঘণ্টা সময় আছে।",
+          "tr": "amader arai ghonta shomoy achhe.",
+          "en": "We have two and a half hours."
+        }
+      ]
+    },
+    {
+      "id": "u05-l06",
+      "title": "Morning, noon & night",
+      "goal": "Name the parts of the day and say when you do things.",
+      "grammar": [
+        "parts of the day",
+        "locative -এ / -য়: সকালে 'in the morning', সন্ধ্যায় 'in the evening'",
+        "সকাল / রাত + time: রাত দশটা = 10 p.m."
+      ],
+      "new": [
+        "shokal",
+        "dupur",
+        "bikal",
+        "shondha",
+        "rat",
+        "shokale",
+        "dupure",
+        "bikale",
+        "shondhay",
+        "rate"
+      ],
+      "review": [
+        "ekhon",
+        "ami",
+        "cha",
+        "khai",
+        "amra",
+        "bhat",
+        "nashta",
+        "amar",
+        "baba",
+        "khan",
+        "ruti",
+        "doshta",
+        "barota",
+        "baje",
+        "pachta"
+      ],
+      "tip": "Bengali divides the day differently from English:\n\n- **সকাল** (*shokal*) — morning, until about 11\n- **দুপুর** (*dupur*) — midday to about 3 (lunch is the big meal)\n- **বিকাল** (*bikal*) — late afternoon, tea-and-snack time\n- **সন্ধ্যা** (*shondha*) — dusk/evening, from sunset (the Maghrib call to prayer) to about 8\n- **রাত** (*rat*) — night\n\nAdd **-এ** to say *when*: সকাল → **সকালে** 'in the morning', রাত → **রাতে** 'at night'. After a vowel it becomes **-য়**: সন্ধ্যা → **সন্ধ্যায়**.\n\nThere's no a.m./p.m. — put the part of the day before the time: **রাত দশটা** = 10 p.m., **দুপুর বারোটা** = 12 noon, **বিকাল পাঁচটা** = 5 p.m.",
+      "sentences": [
+        {
+          "bn": "এখন সকাল।",
+          "tr": "ekhon shokal.",
+          "en": "It's morning now.",
+          "alt": [
+            "It is morning now."
+          ]
+        },
+        {
+          "bn": "আমি সকালে চা খাই।",
+          "tr": "ami shokale cha khai.",
+          "en": "I drink tea in the morning."
+        },
+        {
+          "bn": "দুপুরে আমরা ভাত খাই।",
+          "tr": "dupure amra bhat khai.",
+          "en": "We eat rice at noon.",
+          "alt": [
+            "We eat rice at midday.",
+            "We have rice for lunch."
+          ]
+        },
+        {
+          "bn": "বিকালে আমি নাস্তা খাই।",
+          "tr": "bikale ami nashta khai.",
+          "en": "I have a snack in the afternoon.",
+          "alt": [
+            "I eat a snack in the afternoon."
+          ]
+        },
+        {
+          "bn": "সন্ধ্যায় আমার বাবা চা খান।",
+          "tr": "shondhay amar baba cha khan.",
+          "en": "My father drinks tea in the evening."
+        },
+        {
+          "bn": "রাতে আমি রুটি খাই।",
+          "tr": "rate ami ruti khai.",
+          "en": "I eat roti at night.",
+          "alt": [
+            "I eat flatbread at night.",
+            "I eat bread at night."
+          ]
+        },
+        {
+          "bn": "এখন রাত দশটা।",
+          "tr": "ekhon rat doshta.",
+          "en": "It's 10 p.m. now.",
+          "alt": [
+            "It is ten at night now.",
+            "It's ten at night."
+          ]
+        },
+        {
+          "bn": "দুপুর বারোটা বাজে।",
+          "tr": "dupur barota baje.",
+          "en": "It's twelve noon.",
+          "alt": [
+            "It is 12 noon.",
+            "It's midday."
+          ]
+        },
+        {
+          "bn": "এখন বিকাল পাঁচটা।",
+          "tr": "ekhon bikal pa~chta.",
+          "en": "It's 5 p.m. now.",
+          "alt": [
+            "It is five in the afternoon now."
+          ]
+        },
+        {
+          "bn": "এখন সন্ধ্যা।",
+          "tr": "ekhon shondha.",
+          "en": "It's evening now.",
+          "alt": [
+            "It is evening now."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u05-l07",
+      "title": "Days of the week",
+      "goal": "Name the days, ask what day it is, and use আজ / কাল.",
+      "grammar": [
+        "day names = name + বার",
+        "আজ কী বার? 'what day is it?'",
+        "কাল = yesterday OR tomorrow"
+      ],
+      "new": [
+        "aj",
+        "kal",
+        "bar",
+        "din-day",
+        "shoptahe",
+        "robibar",
+        "shombar",
+        "monggolbar",
+        "budhbar",
+        "brihoshpotibar",
+        "shukrobar",
+        "shonibar"
+      ],
+      "review": [
+        "ki-what",
+        "na",
+        "ki-q",
+        "rate",
+        "amra",
+        "biriyani",
+        "khai",
+        "ek",
+        "shat-seven"
+      ],
+      "tip": "Every day ends in **-বার** (*-bar*, 'day of the week'), and like English the names come from the sun, moon and planets:\n\n**রবিবার** Sun-day · **সোমবার** Moon-day · **মঙ্গলবার** (Mars) · **বুধবার** (Mercury) · **বৃহস্পতিবার** (Jupiter) · **শুক্রবার** (Venus) · **শনিবার** (Saturn)\n\n**আজ কী বার?** = 'What day is it today?'\n\n**কাল** (*kal*) means **both 'yesterday' and 'tomorrow'** — the verb's tense tells you which. With no verb, as in **কাল শনিবার**, people understand 'tomorrow'. To be explicit, say **গতকাল** (yesterday) or **আগামীকাল** (tomorrow); you'll use গতকাল in Unit 9.\n\nCulture: in Bangladesh the weekend is **Friday and Saturday**. Friday is the day of **Jumma** prayers, and Thursday night is the big night out — perfect for biryani.",
+      "sentences": [
+        {
+          "bn": "আজ কী বার?",
+          "tr": "aj ki bar?",
+          "en": "What day is it today?",
+          "alt": [
+            "What day is today?"
+          ]
+        },
+        {
+          "bn": "আজ শুক্রবার।",
+          "tr": "aj shukrobar.",
+          "en": "Today is Friday.",
+          "alt": [
+            "It's Friday today."
+          ]
+        },
+        {
+          "bn": "কাল শনিবার।",
+          "tr": "kal shonibar.",
+          "en": "Tomorrow is Saturday.",
+          "alt": [
+            "It's Saturday tomorrow."
+          ]
+        },
+        {
+          "bn": "আজ রবিবার না, আজ সোমবার।",
+          "tr": "aj robibar na, aj shombar.",
+          "en": "Today isn't Sunday, today is Monday.",
+          "alt": [
+            "Today is not Sunday, it's Monday."
+          ]
+        },
+        {
+          "bn": "কাল কি মঙ্গলবার?",
+          "tr": "kal ki monggolbar?",
+          "en": "Is tomorrow Tuesday?"
+        },
+        {
+          "bn": "না, কাল বুধবার।",
+          "tr": "na, kal budhbar.",
+          "en": "No, tomorrow is Wednesday."
+        },
+        {
+          "bn": "বৃহস্পতিবার রাতে আমরা বিরিয়ানি খাই।",
+          "tr": "brihoshpotibar rate amra biriyani khai.",
+          "en": "We eat biryani on Thursday night.",
+          "alt": [
+            "On Thursday nights we eat biryani."
+          ]
+        },
+        {
+          "bn": "এক সপ্তাহে সাত দিন।",
+          "tr": "ek shoptahe shat din.",
+          "en": "There are seven days in a week.",
+          "alt": [
+            "A week has seven days."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u05-l08",
+      "title": "Review: numbers & time",
+      "goal": "Combine numbers, time and days; talk about years and months.",
+      "grammar": [
+        "review: numbers, কয়টা বাজে, সাড়ে / দেড় / আড়াই, parts of day, days",
+        "বছর / বছরে, মাস"
+      ],
+      "new": [
+        "bochhor",
+        "bochhore",
+        "mash"
+      ],
+      "review": [
+        "amar",
+        "boyosh",
+        "bish",
+        "ek",
+        "baro",
+        "ekhon",
+        "koyta",
+        "baje",
+        "share",
+        "pachta",
+        "aj",
+        "ki-what",
+        "bar",
+        "ami",
+        "rate",
+        "bhat",
+        "khai",
+        "dui",
+        "bhai",
+        "ar",
+        "tin",
+        "bon",
+        "achhe",
+        "shukrobar",
+        "dupure",
+        "amra",
+        "biriyani",
+        "shomoy"
+      ],
+      "tip": "Last new words: **বছর** (*bochhor*, year), **বছরে** (in a year) and **মাস** (*mash*, month). **আমার বয়স বিশ বছর** = 'I'm twenty years old' — বছর is optional when talking about age.\n\nBangladesh uses three calendars side by side: the Gregorian calendar for work, the Bengali calendar (বঙ্গাব্দ) for festivals like Pohela Boishakh — its year is about 593 years behind (2026 ≈ 1433) — and the Islamic Hijri calendar for Ramadan and Eid.\n\nQuick check:\n\n- **কয়টা বাজে?** — **সাড়ে পাঁচটা বাজে।**\n- 1:30 = **দেড়টা**, 2:30 = **আড়াইটা**\n- **আজ কী বার?** — **আজ শুক্রবার।**",
+      "sentences": [
+        {
+          "bn": "আমার বয়স বিশ বছর।",
+          "tr": "amar boyosh bish bochhor.",
+          "en": "I am twenty years old.",
+          "alt": [
+            "I'm twenty years old.",
+            "I'm twenty."
+          ]
+        },
+        {
+          "bn": "এক বছরে বারো মাস।",
+          "tr": "ek bochhore baro mash.",
+          "en": "There are twelve months in a year.",
+          "alt": [
+            "A year has twelve months."
+          ]
+        },
+        {
+          "bn": "এখন কয়টা বাজে?",
+          "tr": "ekhon koyta baje?",
+          "en": "What time is it now?"
+        },
+        {
+          "bn": "এখন সাড়ে পাঁচটা বাজে।",
+          "tr": "ekhon share pa~chta baje.",
+          "en": "It's half past five now.",
+          "alt": [
+            "It is 5:30 now.",
+            "It's five thirty now."
+          ]
+        },
+        {
+          "bn": "আজ কী বার?",
+          "tr": "aj ki bar?",
+          "en": "What day is it today?",
+          "alt": [
+            "What day is today?"
+          ]
+        },
+        {
+          "bn": "আমি রাতে ভাত খাই।",
+          "tr": "ami rate bhat khai.",
+          "en": "I eat rice at night."
+        },
+        {
+          "bn": "আমার দুই ভাই আর তিন বোন আছে।",
+          "tr": "amar dui bhai ar tin bon achhe.",
+          "en": "I have two brothers and three sisters."
+        },
+        {
+          "bn": "শুক্রবার দুপুরে আমরা বিরিয়ানি খাই।",
+          "tr": "shukrobar dupure amra biriyani khai.",
+          "en": "We eat biryani on Friday at noon.",
+          "alt": [
+            "On Fridays we have biryani for lunch."
+          ]
+        },
+        {
+          "bn": "আমার এক মাস সময় আছে।",
+          "tr": "amar ek mash shomoy achhe.",
+          "en": "I have one month.",
+          "alt": [
+            "I have a month."
+          ]
+        }
+      ]
+    }
+  ]
+}

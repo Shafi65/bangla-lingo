@@ -1,0 +1,467 @@
+{
+  "unit": "s02-consonants",
+  "entries": [
+    {
+      "id": "l-ka",
+      "bn": "ক",
+      "tr": "ko",
+      "en": "k as in 'skin' (no puff of air)",
+      "pos": "letter",
+      "lesson": "s02-l01",
+      "notes": "Name: ko (ক). First letter of কেমন and কী."
+    },
+    {
+      "id": "l-kha",
+      "bn": "খ",
+      "tr": "kho",
+      "en": "kh: k with a puff of air, as in 'kite'",
+      "pos": "letter",
+      "lesson": "s02-l01",
+      "notes": "Name: kho (খ). The aspirated partner of ক."
+    },
+    {
+      "id": "l-ga",
+      "bn": "গ",
+      "tr": "go",
+      "en": "g as in 'go'",
+      "pos": "letter",
+      "lesson": "s02-l01",
+      "notes": "Name: go (গ)."
+    },
+    {
+      "id": "l-gha",
+      "bn": "ঘ",
+      "tr": "gho",
+      "en": "gh: g with a breathy puff",
+      "pos": "letter",
+      "lesson": "s02-l01",
+      "notes": "Name: gho (ঘ). The aspirated partner of গ."
+    },
+    {
+      "id": "l-nga",
+      "bn": "ঙ",
+      "tr": "ng",
+      "en": "ng as in 'sing' (never starts a word)",
+      "pos": "letter",
+      "lesson": "s02-l01",
+      "notes": "Name: ungo (উঙ). Same sound as the sign ং (s02-l07); only the spelling differs. Main use is inside conjuncts like ঙ্গ (লুঙ্গি)."
+    },
+    {
+      "id": "gachh",
+      "bn": "গাছ",
+      "tr": "gachh",
+      "en": "tree",
+      "pos": "noun",
+      "lesson": "s02-l01"
+    },
+    {
+      "id": "goru",
+      "bn": "গরু",
+      "tr": "goru",
+      "en": "cow",
+      "pos": "noun",
+      "lesson": "s02-l01"
+    },
+    {
+      "id": "ghor",
+      "bn": "ঘর",
+      "tr": "ghor",
+      "en": "room / house",
+      "pos": "noun",
+      "lesson": "s02-l01",
+      "notes": "Also 'home' in a general sense; বাড়ি (bari) is the usual word for a house/home."
+    },
+    {
+      "id": "rong",
+      "bn": "রঙ",
+      "tr": "rong",
+      "en": "colour",
+      "pos": "noun",
+      "lesson": "s02-l01",
+      "notes": "Also spelled রং. Example of ঙ at the end of a word."
+    },
+    {
+      "id": "l-cha",
+      "bn": "চ",
+      "tr": "cho",
+      "en": "ch as in 'church' (no puff)",
+      "pos": "letter",
+      "lesson": "s02-l02",
+      "notes": "Name: cho (চ)."
+    },
+    {
+      "id": "l-chha",
+      "bn": "ছ",
+      "tr": "chho",
+      "en": "chh: ch with a strong puff of air",
+      "pos": "letter",
+      "lesson": "s02-l02",
+      "notes": "Name: chho (ছ). Aspirated partner of চ. First letter of ছাত্র."
+    },
+    {
+      "id": "l-ja",
+      "bn": "জ",
+      "tr": "jo",
+      "en": "j as in 'jam'",
+      "pos": "letter",
+      "lesson": "s02-l02",
+      "notes": "Name: borgio jo (বর্গীয় জ). Same sound as য (ontostho jo); only spelling differs."
+    },
+    {
+      "id": "l-jha",
+      "bn": "ঝ",
+      "tr": "jho",
+      "en": "jh: j with a breathy puff",
+      "pos": "letter",
+      "lesson": "s02-l02",
+      "notes": "Name: jho (ঝ). Aspirated partner of জ."
+    },
+    {
+      "id": "l-nya",
+      "bn": "ঞ",
+      "tr": "n",
+      "en": "n, found almost only inside conjuncts (ঞ্চ = 'nch')",
+      "pos": "letter",
+      "lesson": "s02-l02",
+      "notes": "Name: iyo (ইঁয়ো). Sounds like ন inside words (পঞ্চাশ ponchash). Never starts a common word."
+    },
+    {
+      "id": "chokh",
+      "bn": "চোখ",
+      "tr": "chokh",
+      "en": "eye",
+      "pos": "noun",
+      "lesson": "s02-l02"
+    },
+    {
+      "id": "jhor",
+      "bn": "ঝড়",
+      "tr": "jhor",
+      "en": "storm",
+      "pos": "noun",
+      "lesson": "s02-l02",
+      "notes": "Ends with ড় (flapped r), taught in s02-l07."
+    },
+    {
+      "id": "l-tta",
+      "bn": "ট",
+      "tr": "to",
+      "en": "hard t, tongue curled back (like English 't' in 'top')",
+      "pos": "letter",
+      "lesson": "s02-l03",
+      "notes": "Name: to (ট). Retroflex. English t is closer to ট than to ত."
+    },
+    {
+      "id": "l-ttha",
+      "bn": "ঠ",
+      "tr": "tho",
+      "en": "hard t with a puff of air (not English 'th')",
+      "pos": "letter",
+      "lesson": "s02-l03",
+      "notes": "Name: tho (ঠ). Aspirated partner of ট."
+    },
+    {
+      "id": "l-dda",
+      "bn": "ড",
+      "tr": "do",
+      "en": "hard d, tongue curled back (like English 'd' in 'dog')",
+      "pos": "letter",
+      "lesson": "s02-l03",
+      "notes": "Name: do (ড). Look-alike: উ (vowel) has no headline notch; ড has a notch on top. ড় (with a dot) is a different sound (s02-l07)."
+    },
+    {
+      "id": "l-ddha",
+      "bn": "ঢ",
+      "tr": "dho",
+      "en": "hard d with a breathy puff",
+      "pos": "letter",
+      "lesson": "s02-l03",
+      "notes": "Name: dho (ঢ). First letter of ঢাকা."
+    },
+    {
+      "id": "l-nna",
+      "bn": "ণ",
+      "tr": "n",
+      "en": "n (same sound as ন; 'retroflex n' letter)",
+      "pos": "letter",
+      "lesson": "s02-l03",
+      "notes": "Name: murdhonno no (মূর্ধন্য ণ). Sounds like ন today; the difference is spelling only. Rarely starts a word."
+    },
+    {
+      "id": "dhol",
+      "bn": "ঢোল",
+      "tr": "dhol",
+      "en": "drum (traditional)",
+      "pos": "noun",
+      "lesson": "s02-l03",
+      "notes": "Two-headed folk drum played at weddings and Pohela Boishakh."
+    },
+    {
+      "id": "l-ta",
+      "bn": "ত",
+      "tr": "to",
+      "en": "soft t, tongue on the teeth (as in Spanish 'tú')",
+      "pos": "letter",
+      "lesson": "s02-l04",
+      "notes": "Name: to (ত). Dental. Its final no-vowel form is ৎ (s02-l07)."
+    },
+    {
+      "id": "l-tha",
+      "bn": "থ",
+      "tr": "tho",
+      "en": "soft t with a puff of air (not English 'th')",
+      "pos": "letter",
+      "lesson": "s02-l04",
+      "notes": "Name: tho (থ). Aspirated partner of ত. Look-alike: থ has a loop at the bottom; compare with ধ and য."
+    },
+    {
+      "id": "l-da",
+      "bn": "দ",
+      "tr": "do",
+      "en": "soft d, tongue on the teeth",
+      "pos": "letter",
+      "lesson": "s02-l04",
+      "notes": "Name: do (দ). Dental."
+    },
+    {
+      "id": "l-dha",
+      "bn": "ধ",
+      "tr": "dho",
+      "en": "soft d with a breathy puff",
+      "pos": "letter",
+      "lesson": "s02-l04",
+      "notes": "Name: dho (ধ). First letter of ধন্যবাদ. Look-alike: ধ vs ব: ধ has a gap in the headline at top-left."
+    },
+    {
+      "id": "l-na",
+      "bn": "ন",
+      "tr": "no",
+      "en": "n as in 'no'",
+      "pos": "letter",
+      "lesson": "s02-l04",
+      "notes": "Name: donto no (দন্ত্য ন). The everyday n letter; same sound as ণ."
+    },
+    {
+      "id": "l-pa",
+      "bn": "প",
+      "tr": "po",
+      "en": "p as in 'spin' (no puff)",
+      "pos": "letter",
+      "lesson": "s02-l05",
+      "notes": "Name: po (প)."
+    },
+    {
+      "id": "l-pha",
+      "bn": "ফ",
+      "tr": "fo",
+      "en": "f, or a puffed p (between 'ph' and 'f')",
+      "pos": "letter",
+      "lesson": "s02-l05",
+      "notes": "Name: fo/pho (ফ). Most Bangladeshis say a clear f (ফল fol)."
+    },
+    {
+      "id": "l-ba",
+      "bn": "ব",
+      "tr": "bo",
+      "en": "b as in 'bat'",
+      "pos": "letter",
+      "lesson": "s02-l05",
+      "notes": "Name: bo (ব), also borgio bo (বর্গীয় ব). Shape: a plain triangle hanging from the line. র is ব with a dot below."
+    },
+    {
+      "id": "l-bha",
+      "bn": "ভ",
+      "tr": "bho",
+      "en": "bh: breathy b, often close to 'v'",
+      "pos": "letter",
+      "lesson": "s02-l05",
+      "notes": "Name: bho (ভ). First letter of ভালো."
+    },
+    {
+      "id": "l-ma",
+      "bn": "ম",
+      "tr": "mo",
+      "en": "m as in 'mother'",
+      "pos": "letter",
+      "lesson": "s02-l05",
+      "notes": "Name: mo (ম)."
+    },
+    {
+      "id": "l-ya",
+      "bn": "য",
+      "tr": "jo",
+      "en": "j as in 'jam' (same sound as জ)",
+      "pos": "letter",
+      "lesson": "s02-l06",
+      "notes": "Name: ontostho jo (অন্তঃস্থ য). With a dot below it becomes য় (y), taught next lesson."
+    },
+    {
+      "id": "l-ra",
+      "bn": "র",
+      "tr": "ro",
+      "en": "r: a light tap of the tongue (like Spanish 'pero')",
+      "pos": "letter",
+      "lesson": "s02-l06",
+      "notes": "Name: bo-ye shunno ro (ব-য়ে শূন্য র), 'ব with a dot'. Never trill or curl it like English r."
+    },
+    {
+      "id": "l-la",
+      "bn": "ল",
+      "tr": "lo",
+      "en": "l as in 'love'",
+      "pos": "letter",
+      "lesson": "s02-l06",
+      "notes": "Name: lo (ল)."
+    },
+    {
+      "id": "l-sha",
+      "bn": "শ",
+      "tr": "sho",
+      "en": "sh as in 'shop'",
+      "pos": "letter",
+      "lesson": "s02-l06",
+      "notes": "Name: talobbo sho (তালব্য শ). The most common sh letter (শিক্ষক)."
+    },
+    {
+      "id": "l-ssa",
+      "bn": "ষ",
+      "tr": "sho",
+      "en": "sh as in 'shop' (same sound as শ)",
+      "pos": "letter",
+      "lesson": "s02-l06",
+      "notes": "Name: murdhonno sho (মূর্ধন্য ষ). Same sound as শ; spelling only. Rarely starts a word; common in the middle (মানুষ)."
+    },
+    {
+      "id": "l-sa",
+      "bn": "স",
+      "tr": "sho",
+      "en": "sh, or s before t / n / r / l",
+      "pos": "letter",
+      "lesson": "s02-l06",
+      "notes": "Name: donto sho (দন্ত্য স). Usually 'sh' (সকাল shokal), but 's' in clusters like স্ত, স্ক (s04)."
+    },
+    {
+      "id": "l-ha",
+      "bn": "হ",
+      "tr": "ho",
+      "en": "h as in 'hat'",
+      "pos": "letter",
+      "lesson": "s02-l06",
+      "notes": "Name: ho (হ). Changes shape with some vowel signs: হু, হৃ (s03-l02)."
+    },
+    {
+      "id": "lal",
+      "bn": "লাল",
+      "tr": "lal",
+      "en": "red",
+      "pos": "adj",
+      "lesson": "s02-l06"
+    },
+    {
+      "id": "hat",
+      "bn": "হাত",
+      "tr": "hat",
+      "en": "hand",
+      "pos": "noun",
+      "lesson": "s02-l06"
+    },
+    {
+      "id": "l-rra",
+      "bn": "ড়",
+      "tr": "ro",
+      "en": "flapped r: tongue curled back, flicked forward (like the tt in American 'butter')",
+      "pos": "letter",
+      "lesson": "s02-l07",
+      "notes": "Name: doye shunno ro (ড-য়ে শূন্য র), 'ড with a dot'. Encoded as ড + nukta (U+09A1 U+09BC). Sounds close to র; in casual BD speech often merges with it."
+    },
+    {
+      "id": "l-rrha",
+      "bn": "ঢ়",
+      "tr": "rho",
+      "en": "flapped r with a puff of breath",
+      "pos": "letter",
+      "lesson": "s02-l07",
+      "notes": "Name: dhoye shunno ro (ঢ-য়ে শূন্য র). Encoded ঢ + nukta (U+09A2 U+09BC). Rare; usually said like ড়."
+    },
+    {
+      "id": "l-yya",
+      "bn": "য়",
+      "tr": "yo",
+      "en": "y as in 'yes' (often a glide between vowels)",
+      "pos": "letter",
+      "lesson": "s02-l07",
+      "notes": "Name: ontostho o (অন্তঃস্থ অ). Encoded য + nukta (U+09AF U+09BC). Very common: মেয়ে, কোথায়."
+    },
+    {
+      "id": "l-khondo-to",
+      "bn": "ৎ",
+      "tr": "t",
+      "en": "final t with no vowel after it",
+      "pos": "letter",
+      "lesson": "s02-l07",
+      "notes": "Name: khondo to (খণ্ড ত), 'broken t'. U+09CE. Only appears at the end of a syllable (হঠাৎ, উৎসব)."
+    },
+    {
+      "id": "l-onushshar",
+      "bn": "ং",
+      "tr": "ng",
+      "en": "ng as in 'sing' (nasal at the end of a syllable)",
+      "pos": "letter",
+      "lesson": "s02-l07",
+      "notes": "Name: onushshar (অনুস্বার). U+0982. Same sound as ঙ. Shown standalone here; fonts may draw a dotted circle."
+    },
+    {
+      "id": "l-bishorgo",
+      "bn": "ঃ",
+      "tr": "h",
+      "en": "a short breath; inside a word it doubles the next consonant",
+      "pos": "letter",
+      "lesson": "s02-l07",
+      "notes": "Name: bishorgo (বিসর্গ). U+0983. দুঃখিত is said dukkhito: the ঃ makes the খ double. Shown standalone; fonts may draw a dotted circle."
+    },
+    {
+      "id": "l-chondrobindu",
+      "bn": "আঁ",
+      "tr": "a~",
+      "en": "ঁ makes the vowel nasal (shown on আ: a~)",
+      "pos": "letter",
+      "lesson": "s02-l07",
+      "notes": "Sign: chondrobindu (চন্দ্রবিন্দু) ঁ, U+0981, 'moon and dot', written above the letter. Shown on আ because it cannot stand alone."
+    },
+    {
+      "id": "garho",
+      "bn": "গাঢ়",
+      "tr": "garho",
+      "en": "dark / deep (of colour)",
+      "pos": "adj",
+      "lesson": "s02-l07",
+      "notes": "Uses ঢ়. গাঢ় লাল = deep red. Native check: pronunciation often closer to 'garo'."
+    },
+    {
+      "id": "hothat",
+      "bn": "হঠাৎ",
+      "tr": "hothat",
+      "en": "suddenly",
+      "pos": "adv",
+      "lesson": "s02-l07"
+    },
+    {
+      "id": "dukkhito",
+      "bn": "দুঃখিত",
+      "tr": "dukkhito",
+      "en": "sorry",
+      "pos": "adj",
+      "lesson": "s02-l07",
+      "notes": "'I'm sorry' = আমি দুঃখিত (formal). Shows ঃ doubling the খ."
+    },
+    {
+      "id": "chad",
+      "bn": "চাঁদ",
+      "tr": "cha~d",
+      "en": "moon",
+      "pos": "noun",
+      "lesson": "s02-l07",
+      "notes": "The transliteration guide's own example of ঁ."
+    }
+  ]
+}

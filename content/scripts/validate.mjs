@@ -75,23 +75,30 @@ for (const [uid, plan] of plans) {
       if (!e) err(where, `review "${id}" not in lexicon`);
       else if ((lessonInfo.get(e.lesson)?.index ?? Infinity) >= myIdx) err(where, `review "${id}" isn't introduced until ${e.lesson}`);
     }
+    // preview: reading examples from any unit (script track), must exist in lexicon
+    for (const id of L.preview ?? []) if (!lexicon.has(id)) err(where, `preview "${id}" not in lexicon`);
     // sentences
     const sentences = L.sentences ?? [];
     sentenceCount += sentences.length;
     if (unit.track === "main" && (sentences.length < 6 || sentences.length > 10))
       warn(where, `${sentences.length} sentences (target 6–10)`);
     const known = new Set(knownAt(ctx, L.id).map((e) => e.bn.normalize("NFC")));
-    // multi-word lexicon forms (phrases) count as known token sequences
-    const phrases = [...known].filter((b) => b.includes(" "));
+    // multi-word lexicon forms (phrases) match as whole-token sequences, longest first
+    const phrases = [...known].filter((b) => b.includes(" ")).map((b) => tokenize(b)).sort((a, b) => b.length - a.length);
     const used = new Set();
     sentences.forEach((s, i) => {
       const sw = `${where} sentence[${i}] "${s.bn}"`;
       checkBnText(sw, s);
       if (s.alt && !isStrArr(s.alt)) err(sw, "alt must be string[]");
       if (isStr(s.bn) && !/[।?!]$/.test(s.bn.trim())) warn(sw, "should end with । or ?");
-      let text = (s.bn ?? "").normalize("NFC");
-      for (const ph of phrases) if (text.includes(ph)) { used.add(ph); text = text.split(ph).join(" "); }
-      const unknown = tokenize(text).filter((t) => { if (known.has(t)) { used.add(t); return false; } return true; });
+      const toks = tokenize(s.bn ?? "");
+      const unknown = [];
+      for (let t = 0; t < toks.length; ) {
+        const ph = phrases.find((p) => p.every((w, k) => toks[t + k] === w));
+        if (ph) { used.add(ph.join(" ")); t += ph.length; continue; }
+        if (known.has(toks[t])) used.add(toks[t]); else unknown.push(toks[t]);
+        t++;
+      }
       if (unknown.length) err(sw, `word(s) not yet taught: ${unknown.join(", ")}`);
     });
     if (unit.track === "main") for (const id of L.new) {

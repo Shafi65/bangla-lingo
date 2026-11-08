@@ -1,0 +1,797 @@
+{
+  "unit": "u08-daily-routine",
+  "entries": [
+    {
+      "id": "kori",
+      "bn": "করি",
+      "tr": "kori",
+      "en": "I do",
+      "alt": [
+        "do",
+        "we do"
+      ],
+      "pos": "verb",
+      "lesson": "u08-l01",
+      "notes": "আমি / আমরা করি."
+    },
+    {
+      "id": "korish",
+      "bn": "করিস",
+      "tr": "korish",
+      "en": "you do (intimate)",
+      "alt": [
+        "do"
+      ],
+      "pos": "verb",
+      "lesson": "u08-l01",
+      "register": "intimate",
+      "notes": "তুই করিস."
+    },
+    {
+      "id": "koro",
+      "bn": "করো",
+      "tr": "koro",
+      "en": "you do (familiar)",
+      "alt": [
+        "do"
+      ],
+      "pos": "verb",
+      "lesson": "u08-l01",
+      "register": "familiar",
+      "notes": "তুমি করো. Also spelled কর. Same form is the command 'do!' (familiar)."
+    },
+    {
+      "id": "koren",
+      "bn": "করেন",
+      "tr": "koren",
+      "en": "you do (polite)",
+      "alt": [
+        "do",
+        "he does (polite)",
+        "she does (polite)"
+      ],
+      "pos": "verb",
+      "lesson": "u08-l01",
+      "register": "polite",
+      "notes": "আপনি / তিনি / উনি করেন."
+    },
+    {
+      "id": "kore",
+      "bn": "করে",
+      "tr": "kore",
+      "en": "does",
+      "alt": [
+        "he does",
+        "she does",
+        "they do"
+      ],
+      "pos": "verb",
+      "lesson": "u08-l01",
+      "notes": "সে / ও / তারা করে."
+    },
+    {
+      "id": "kaj",
+      "bn": "কাজ",
+      "tr": "kaj",
+      "en": "work",
+      "alt": [
+        "job",
+        "task"
+      ],
+      "pos": "noun",
+      "lesson": "u08-l01",
+      "notes": "কাজ করা = to work."
+    },
+    {
+      "id": "uthi",
+      "bn": "উঠি",
+      "tr": "uthi",
+      "en": "I get up",
+      "alt": [
+        "get up",
+        "I wake up",
+        "I rise"
+      ],
+      "pos": "verb",
+      "lesson": "u08-l02",
+      "notes": "From ওঠা 'rise'. Note the vowel change: আমি উঠি but সে ওঠে."
+    },
+    {
+      "id": "othen",
+      "bn": "ওঠেন",
+      "tr": "othen",
+      "en": "you get up (polite)",
+      "alt": [
+        "get up",
+        "wake up"
+      ],
+      "pos": "verb",
+      "lesson": "u08-l02",
+      "register": "polite"
+    },
+    {
+      "id": "ghumai",
+      "bn": "ঘুমাই",
+      "tr": "ghumai",
+      "en": "I sleep",
+      "alt": [
+        "sleep",
+        "I go to sleep"
+      ],
+      "pos": "verb",
+      "lesson": "u08-l02",
+      "kolkata": {
+        "bn": "ঘুমোই",
+        "tr": "ghumoi"
+      }
+    },
+    {
+      "id": "ghuman",
+      "bn": "ঘুমান",
+      "tr": "ghuman",
+      "en": "you sleep (polite)",
+      "alt": [
+        "sleep"
+      ],
+      "pos": "verb",
+      "lesson": "u08-l02",
+      "register": "polite",
+      "kolkata": {
+        "bn": "ঘুমোন",
+        "tr": "ghumon"
+      }
+    },
+    {
+      "id": "ghum",
+      "bn": "ঘুম",
+      "tr": "ghum",
+      "en": "sleep",
+      "pos": "noun",
+      "lesson": "u08-l02"
+    },
+    {
+      "id": "gosol",
+      "bn": "গোসল",
+      "tr": "gosol",
+      "en": "bath",
+      "alt": [
+        "shower",
+        "bathing"
+      ],
+      "pos": "noun",
+      "lesson": "u08-l02",
+      "notes": "গোসল করা = take a bath / shower. Used by Bangladeshi Muslims.",
+      "kolkata": {
+        "bn": "স্নান",
+        "tr": "snan"
+      }
+    },
+    {
+      "id": "dat",
+      "bn": "দাঁত",
+      "tr": "da~t",
+      "en": "teeth",
+      "alt": [
+        "tooth"
+      ],
+      "pos": "noun",
+      "lesson": "u08-l02"
+    },
+    {
+      "id": "maji",
+      "bn": "মাজি",
+      "tr": "maji",
+      "en": "I brush",
+      "alt": [
+        "brush",
+        "scrub"
+      ],
+      "pos": "verb",
+      "lesson": "u08-l02",
+      "notes": "From মাজা 'scrub, brush'."
+    },
+    {
+      "id": "dat-maja",
+      "bn": "দাঁত মাজা",
+      "tr": "da~t maja",
+      "en": "brushing teeth",
+      "alt": [
+        "to brush teeth"
+      ],
+      "pos": "phrase",
+      "lesson": "u08-l02"
+    },
+    {
+      "id": "shattay",
+      "bn": "সাতটায়",
+      "tr": "shattay",
+      "en": "at seven o'clock",
+      "alt": [
+        "at seven",
+        "at 7"
+      ],
+      "pos": "adv",
+      "lesson": "u08-l02",
+      "notes": "সাত + -টা + locative -য়."
+    },
+    {
+      "id": "doshtay",
+      "bn": "দশটায়",
+      "tr": "doshtay",
+      "en": "at ten o'clock",
+      "alt": [
+        "at ten",
+        "at 10"
+      ],
+      "pos": "adv",
+      "lesson": "u08-l02"
+    },
+    {
+      "id": "kokhon",
+      "bn": "কখন",
+      "tr": "kokhon",
+      "en": "when",
+      "alt": [
+        "what time"
+      ],
+      "pos": "adv",
+      "lesson": "u08-l02"
+    },
+    {
+      "id": "ofis",
+      "bn": "অফিস",
+      "tr": "ofis",
+      "en": "office",
+      "alt": [
+        "work"
+      ],
+      "pos": "noun",
+      "lesson": "u08-l03"
+    },
+    {
+      "id": "ofise",
+      "bn": "অফিসে",
+      "tr": "ofise",
+      "en": "to the office",
+      "alt": [
+        "at the office",
+        "to work",
+        "at work"
+      ],
+      "pos": "noun",
+      "lesson": "u08-l03"
+    },
+    {
+      "id": "skul",
+      "bn": "স্কুল",
+      "tr": "skul",
+      "en": "school",
+      "pos": "noun",
+      "lesson": "u08-l03"
+    },
+    {
+      "id": "skule",
+      "bn": "স্কুলে",
+      "tr": "skule",
+      "en": "to school",
+      "alt": [
+        "at school",
+        "in school"
+      ],
+      "pos": "noun",
+      "lesson": "u08-l03"
+    },
+    {
+      "id": "jai",
+      "bn": "যাই",
+      "tr": "jai",
+      "en": "I go",
+      "alt": [
+        "go",
+        "we go"
+      ],
+      "pos": "verb",
+      "lesson": "u08-l03"
+    },
+    {
+      "id": "jao",
+      "bn": "যাও",
+      "tr": "jao",
+      "en": "you go (familiar)",
+      "alt": [
+        "go"
+      ],
+      "pos": "verb",
+      "lesson": "u08-l03",
+      "register": "familiar",
+      "notes": "Also the familiar command 'go!'."
+    },
+    {
+      "id": "jay",
+      "bn": "যায়",
+      "tr": "jay",
+      "en": "goes",
+      "alt": [
+        "he goes",
+        "she goes",
+        "they go"
+      ],
+      "pos": "verb",
+      "lesson": "u08-l03"
+    },
+    {
+      "id": "ashi",
+      "bn": "আসি",
+      "tr": "ashi",
+      "en": "I come",
+      "alt": [
+        "come",
+        "we come"
+      ],
+      "pos": "verb",
+      "lesson": "u08-l03",
+      "notes": "Also a goodbye: আসি 'I'll be going' (lit. 'I come [again]')."
+    },
+    {
+      "id": "ashe",
+      "bn": "আসে",
+      "tr": "ashe",
+      "en": "comes",
+      "alt": [
+        "he comes",
+        "she comes",
+        "they come"
+      ],
+      "pos": "verb",
+      "lesson": "u08-l03"
+    },
+    {
+      "id": "pori",
+      "bn": "পড়ি",
+      "tr": "pori",
+      "en": "I read",
+      "alt": [
+        "read",
+        "I study",
+        "study"
+      ],
+      "pos": "verb",
+      "lesson": "u08-l04",
+      "notes": "পড়া = read; also 'study': আমি বাংলা পড়ি 'I study Bengali'."
+    },
+    {
+      "id": "pore-reads",
+      "bn": "পড়ে",
+      "tr": "pore",
+      "en": "reads",
+      "alt": [
+        "he reads",
+        "she reads",
+        "studies"
+      ],
+      "pos": "verb",
+      "lesson": "u08-l04",
+      "notes": "Sounds the same as পরে 'later' — different spelling (ড় vs র)."
+    },
+    {
+      "id": "dekhi",
+      "bn": "দেখি",
+      "tr": "dekhi",
+      "en": "I watch",
+      "alt": [
+        "I see",
+        "see",
+        "watch",
+        "I look"
+      ],
+      "pos": "verb",
+      "lesson": "u08-l04"
+    },
+    {
+      "id": "dekhe",
+      "bn": "দেখে",
+      "tr": "dekhe",
+      "en": "watches",
+      "alt": [
+        "sees",
+        "he watches",
+        "she watches"
+      ],
+      "pos": "verb",
+      "lesson": "u08-l04"
+    },
+    {
+      "id": "shuni",
+      "bn": "শুনি",
+      "tr": "shuni",
+      "en": "I listen",
+      "alt": [
+        "I hear",
+        "listen",
+        "hear",
+        "listen to"
+      ],
+      "pos": "verb",
+      "lesson": "u08-l04"
+    },
+    {
+      "id": "shone",
+      "bn": "শোনে",
+      "tr": "shone",
+      "en": "listens",
+      "alt": [
+        "hears",
+        "he listens",
+        "she listens"
+      ],
+      "pos": "verb",
+      "lesson": "u08-l04"
+    },
+    {
+      "id": "likhi",
+      "bn": "লিখি",
+      "tr": "likhi",
+      "en": "I write",
+      "alt": [
+        "write"
+      ],
+      "pos": "verb",
+      "lesson": "u08-l04"
+    },
+    {
+      "id": "lekhe",
+      "bn": "লেখে",
+      "tr": "lekhe",
+      "en": "writes",
+      "alt": [
+        "he writes",
+        "she writes"
+      ],
+      "pos": "verb",
+      "lesson": "u08-l04"
+    },
+    {
+      "id": "boli",
+      "bn": "বলি",
+      "tr": "boli",
+      "en": "I speak",
+      "alt": [
+        "I say",
+        "speak",
+        "say",
+        "I tell"
+      ],
+      "pos": "verb",
+      "lesson": "u08-l04"
+    },
+    {
+      "id": "bolen",
+      "bn": "বলেন",
+      "tr": "bolen",
+      "en": "you speak (polite)",
+      "alt": [
+        "speak",
+        "say",
+        "you say"
+      ],
+      "pos": "verb",
+      "lesson": "u08-l04",
+      "register": "polite"
+    },
+    {
+      "id": "boi",
+      "bn": "বই",
+      "tr": "boi",
+      "en": "book",
+      "alt": [
+        "books"
+      ],
+      "pos": "noun",
+      "lesson": "u08-l04"
+    },
+    {
+      "id": "tibhi",
+      "bn": "টিভি",
+      "tr": "tibhi",
+      "en": "TV",
+      "alt": [
+        "television"
+      ],
+      "pos": "noun",
+      "lesson": "u08-l04"
+    },
+    {
+      "id": "gan",
+      "bn": "গান",
+      "tr": "gan",
+      "en": "song",
+      "alt": [
+        "music",
+        "songs",
+        "singing"
+      ],
+      "pos": "noun",
+      "lesson": "u08-l04",
+      "notes": "গান শোনা 'listen to music'; গান করা / গাওয়া 'sing'."
+    },
+    {
+      "id": "korchhi",
+      "bn": "করছি",
+      "tr": "korchhi",
+      "en": "I am doing",
+      "alt": [
+        "am doing",
+        "we are doing",
+        "I'm doing"
+      ],
+      "pos": "verb",
+      "lesson": "u08-l05"
+    },
+    {
+      "id": "korchho",
+      "bn": "করছো",
+      "tr": "korchho",
+      "en": "you are doing (familiar)",
+      "alt": [
+        "are doing"
+      ],
+      "pos": "verb",
+      "lesson": "u08-l05",
+      "register": "familiar",
+      "notes": "Also spelled করছ."
+    },
+    {
+      "id": "korchhen",
+      "bn": "করছেন",
+      "tr": "korchhen",
+      "en": "you are doing (polite)",
+      "alt": [
+        "are doing"
+      ],
+      "pos": "verb",
+      "lesson": "u08-l05",
+      "register": "polite"
+    },
+    {
+      "id": "korchhe",
+      "bn": "করছে",
+      "tr": "korchhe",
+      "en": "is doing",
+      "alt": [
+        "he is doing",
+        "she is doing",
+        "they are doing"
+      ],
+      "pos": "verb",
+      "lesson": "u08-l05"
+    },
+    {
+      "id": "dekhchhe",
+      "bn": "দেখছে",
+      "tr": "dekhchhe",
+      "en": "is watching",
+      "alt": [
+        "is looking",
+        "is seeing"
+      ],
+      "pos": "verb",
+      "lesson": "u08-l05"
+    },
+    {
+      "id": "khachchhi",
+      "bn": "খাচ্ছি",
+      "tr": "khachchhi",
+      "en": "I am eating",
+      "alt": [
+        "am eating",
+        "I am drinking",
+        "I'm eating"
+      ],
+      "pos": "verb",
+      "lesson": "u08-l05"
+    },
+    {
+      "id": "jachchhi",
+      "bn": "যাচ্ছি",
+      "tr": "jachchhi",
+      "en": "I am going",
+      "alt": [
+        "am going",
+        "I'm going",
+        "we are going"
+      ],
+      "pos": "verb",
+      "lesson": "u08-l05"
+    },
+    {
+      "id": "porchhi",
+      "bn": "পড়ছি",
+      "tr": "porchhi",
+      "en": "I am reading",
+      "alt": [
+        "am reading",
+        "I am studying",
+        "I'm reading"
+      ],
+      "pos": "verb",
+      "lesson": "u08-l05"
+    },
+    {
+      "id": "ranna",
+      "bn": "রান্না",
+      "tr": "ranna",
+      "en": "cooking",
+      "alt": [
+        "cook"
+      ],
+      "pos": "noun",
+      "lesson": "u08-l05",
+      "notes": "রান্না করা = to cook."
+    },
+    {
+      "id": "protidin",
+      "bn": "প্রতিদিন",
+      "tr": "protidin",
+      "en": "every day",
+      "alt": [
+        "daily"
+      ],
+      "pos": "adv",
+      "lesson": "u08-l06"
+    },
+    {
+      "id": "shobshomoy",
+      "bn": "সবসময়",
+      "tr": "shobshomoy",
+      "en": "always",
+      "alt": [
+        "all the time"
+      ],
+      "pos": "adv",
+      "lesson": "u08-l06"
+    },
+    {
+      "id": "majhe-majhe",
+      "bn": "মাঝে মাঝে",
+      "tr": "majhe majhe",
+      "en": "sometimes",
+      "alt": [
+        "now and then",
+        "occasionally"
+      ],
+      "pos": "phrase",
+      "lesson": "u08-l06"
+    },
+    {
+      "id": "kokhono",
+      "bn": "কখনো",
+      "tr": "kokhono",
+      "en": "ever",
+      "alt": [
+        "never (with না)",
+        "sometimes"
+      ],
+      "pos": "adv",
+      "lesson": "u08-l06",
+      "notes": "With a negative verb it means 'never'. Also spelled কখনও."
+    },
+    {
+      "id": "kokhono-na",
+      "bn": "কখনো না",
+      "tr": "kokhono na",
+      "en": "never",
+      "pos": "phrase",
+      "lesson": "u08-l06",
+      "notes": "As a reply: কখনো না! 'Never!' In a sentence, না goes after the verb: কখনো … খাই না."
+    },
+    {
+      "id": "namaj",
+      "bn": "নামাজ",
+      "tr": "namaj",
+      "en": "prayer",
+      "alt": [
+        "namaz",
+        "Islamic prayer",
+        "salah"
+      ],
+      "pos": "noun",
+      "lesson": "u08-l06",
+      "notes": "Muslims 'read' prayer: নামাজ পড়া 'to pray'. Five daily prayers set the rhythm of the day for many Bangladeshis."
+    },
+    {
+      "id": "poren",
+      "bn": "পড়েন",
+      "tr": "poren",
+      "en": "you read (polite)",
+      "alt": [
+        "reads (polite)",
+        "he reads",
+        "she reads",
+        "prays (with নামাজ)"
+      ],
+      "pos": "verb",
+      "lesson": "u08-l06",
+      "register": "polite"
+    },
+    {
+      "id": "tarpor",
+      "bn": "তারপর",
+      "tr": "tarpor",
+      "en": "then",
+      "alt": [
+        "after that",
+        "and then",
+        "next"
+      ],
+      "pos": "adv",
+      "lesson": "u08-l07"
+    },
+    {
+      "id": "age",
+      "bn": "আগে",
+      "tr": "age",
+      "en": "before",
+      "alt": [
+        "first",
+        "earlier",
+        "ago"
+      ],
+      "pos": "postposition",
+      "lesson": "u08-l07",
+      "notes": "After a genitive: ঘুমের আগে 'before sleep'. Alone: 'first / earlier'."
+    },
+    {
+      "id": "pore-later",
+      "bn": "পরে",
+      "tr": "pore",
+      "en": "after",
+      "alt": [
+        "later",
+        "afterwards",
+        "then"
+      ],
+      "pos": "postposition",
+      "lesson": "u08-l07",
+      "notes": "After a genitive: নাস্তার পরে 'after breakfast'. Sounds like পড়ে 'reads'."
+    },
+    {
+      "id": "nashtar",
+      "bn": "নাস্তার",
+      "tr": "nashtar",
+      "en": "of breakfast",
+      "alt": [
+        "breakfast's"
+      ],
+      "pos": "noun",
+      "lesson": "u08-l07"
+    },
+    {
+      "id": "ghumer",
+      "bn": "ঘুমের",
+      "tr": "ghumer",
+      "en": "of sleep",
+      "pos": "noun",
+      "lesson": "u08-l07"
+    },
+    {
+      "id": "kajer",
+      "bn": "কাজের",
+      "tr": "kajer",
+      "en": "of work",
+      "pos": "noun",
+      "lesson": "u08-l07"
+    },
+    {
+      "id": "shadharonoto",
+      "bn": "সাধারণত",
+      "tr": "shadharonoto",
+      "en": "usually",
+      "alt": [
+        "generally",
+        "normally"
+      ],
+      "pos": "adv",
+      "lesson": "u08-l08"
+    }
+  ]
+}

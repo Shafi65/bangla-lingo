@@ -1,0 +1,171 @@
+{
+  "unit": "s04-conjuncts",
+  "lessons": [
+    {
+      "id": "s04-l01",
+      "title": "Conjuncts 1: see-through stacks",
+      "goal": "Understand হসন্ত and read conjuncts whose two parts are still visible: ন্ত স্ত ন্দ ন্ধ স্ক.",
+      "grammar": [
+        "্ (হসন্ত hoshonto) removes a consonant's inherent vowel: ক্ = k",
+        "Two consonants with no vowel between them join into a conjunct (যুক্তবর্ণ): ন + ্ + ত = ন্ত",
+        "Read a conjunct left-to-right / top-to-bottom: first part, then second",
+        "The inherent vowel after a word-final conjunct is usually pronounced: শান্ত = shanto"
+      ],
+      "new": [
+        "cj-hoshonto",
+        "cj-nto",
+        "cj-sto",
+        "cj-ndo",
+        "cj-ndho",
+        "cj-sko",
+        "shanto"
+      ],
+      "review": [
+        "nashta",
+        "bondhu",
+        "nomoshkar"
+      ],
+      "tip": "**Sometimes two consonants have no vowel between them.** Bengali then joins them into one block, a **conjunct (যুক্তবর্ণ juktoborno)**. The invisible glue is **্ (hoshonto)**, which removes the inherent `o`: ক is `ko`, ক্ is just `k`.\n\nToday's conjuncts are 'see-through': you can still spot both letters. **ন্ত** (n+t), **স্ত** (s+t: রাস্তা `rasta`), **ন্দ** (n+d: মন্দির `mondir`), **ন্ধ** (n+dh: বন্ধু `bondhu`), **স্ক** (s+k: স্কুল `skul`, নমস্কার `nomoshkar`).\n\n**Read the first part, then the second.** The first letter is usually squeezed or on the left; the second sits below or to the right.\n\n**After a final conjunct the `o` usually comes back**: শান্ত is `shanto`, not *shant*.",
+      "sentences": [],
+      "preview": [
+        "rasta",
+        "mondir",
+        "skul"
+      ]
+    },
+    {
+      "id": "s04-l02",
+      "title": "Conjuncts 2: doubled letters",
+      "goal": "Read doubled consonants ম্ম চ্চ চ্ছ ল্ল ন্ন and hold the double sound.",
+      "grammar": [
+        "A doubled consonant is held longer: আম্মু = am-mu, not amu",
+        "চ্ছ = চ + ছ, written chchh",
+        "Doubling can change meaning, so don't shorten it"
+      ],
+      "new": [
+        "cj-mmo",
+        "cj-chcho",
+        "cj-chchho",
+        "cj-llo",
+        "cj-nno"
+      ],
+      "review": [
+        "ammu",
+        "abbu",
+        "bachcha",
+        "chollish",
+        "alhamdulillah"
+      ],
+      "tip": "When the same consonant is written twice, Bengali stacks it, and you **hold the sound longer**: আম্মু (`ammu`, *mom*) is *am-mu*, বাচ্চা (`bachcha`, *child*) is *bach-cha*.\n\n**ম্ম** and **ল্ল** look like two copies squeezed together (চল্লিশ `chollish`, *forty*). **ন্ন** stacks one ন on another (রান্না `ranna`, *cooking*). **চ্চ** puts a small চ on top of another.\n\n**চ্ছ** is চ + ছ, a held `ch` with a puff: শুভেচ্ছা (`shubhechchha`, *best wishes*).\n\nDoubling matters in Bengali; saying it short can sound like a different word or just 'foreign'. Clap twice for a double letter while you practise.",
+      "sentences": [],
+      "preview": [
+        "shubhechchha",
+        "ranna"
+      ]
+    },
+    {
+      "id": "s04-l03",
+      "title": "Conjuncts 3: shape-shifters",
+      "goal": "Recognize conjuncts that don't look like their parts: ক্ষ ক্ত ঙ্গ ঞ্চ ষ্ট.",
+      "grammar": [
+        "ক্ষ = ক + ষ but is said kkh (middle of a word) or kh (start of a word): শিক্ষক shikkhok, ক্ষুধা khudha",
+        "ক্ত = ক + ত (ডাক্তার daktar)",
+        "ঙ্গ = ng + g (লুঙ্গি lunggi); ঞ্চ = n + ch (পঞ্চাশ ponchash)",
+        "Learn opaque conjuncts as whole shapes"
+      ],
+      "new": [
+        "cj-kkho",
+        "cj-kto",
+        "cj-nggo",
+        "cj-ncho",
+        "cj-shto"
+      ],
+      "review": [
+        "shikkhok",
+        "khudha",
+        "daktar",
+        "ponchash",
+        "mishti"
+      ],
+      "tip": "Some conjuncts don't look like their parts. Learn these as whole shapes.\n\n**ক্ষ** (ক + ষ) is the most important one, and it is **not** said *ksh*. At the start of a word it's `kh` (ক্ষুধা `khudha`, *hunger*); in the middle it's a doubled `kkh` (শিক্ষক `shikkhok`, *teacher*).\n\n**ক্ত**: the ত shrinks into a little hook under ক (ডাক্তার `daktar`). **ঙ্গ** = `ngg` as in *finger* (লুঙ্গি `lunggi`). **ঞ্চ** = `nch` (পঞ্চাশ `ponchash`, *fifty*). **ষ্ট** = `sht` (মিষ্টি `mishti`, *sweet*).\n\nStrategy: if a block looks unfamiliar, check whether it's one of these five before trying to split it.",
+      "sentences": [],
+      "preview": [
+        "lunggi"
+      ]
+    },
+    {
+      "id": "s04-l04",
+      "title": "Conjuncts 4: ফলা signs and রেফ",
+      "goal": "Read য-ফলা, র-ফলা, ব-ফলা and রেফ, and know how each changes pronunciation.",
+      "grammar": [
+        "য-ফলা ্য: doubles the consonant in the middle of a word (ধন্যবাদ dhonnobad); with া it gives æ (হ্যাঁ hya~)",
+        "র-ফলা ্র: an r after the consonant (ছাত্র chhatro, গ্রাম gram)",
+        "ব-ফলা ্ব: usually silent; doubles the consonant mid-word; স্ব at the start = sh (স্বামী shami)",
+        "রেফ র্: an r BEFORE the consonant, drawn as a hook on top (দুর্গা durga)"
+      ],
+      "new": [
+        "cj-jofola",
+        "cj-rofola",
+        "cj-bofola",
+        "cj-ref"
+      ],
+      "review": [
+        "dhonnobad",
+        "shondha",
+        "hya",
+        "chhatro",
+        "shami"
+      ],
+      "tip": "**ফলা** (fola) are small forms of য, র, ব that attach to a consonant.\n\n**য-ফলা ্য** is a little flag on the right. In the middle of a word it **doubles** the consonant: ধন্যবাদ = `dhonnobad`, সন্ধ্যা = `shondha`. With া it often makes an *æ* sound: হ্যাঁ (`hya~`, *yes*), ব্যাগ (`bæg`).\n\n**র-ফলা ্র** is a slanted stroke under the letter and adds an r: ছাত্র (`chhatro`), গ্রাম (`gram`, *village*), প্রতিদিন (`protidin`, *every day*). **রেফ র্** is the opposite: a small hook *on top* that means an r **before** the letter: দুর্গাপূজা (`durgapuja`), পর্যন্ত (`porjonto`).\n\n**ব-ফলা ্ব** is usually **silent**: স্বামী (`shami`, *husband*), স্বাধীনতা (`shadhinota`, *independence*). In the middle of a word it doubles the consonant instead.",
+      "sentences": [],
+      "preview": [
+        "protidin",
+        "gram",
+        "shadhinota",
+        "durgapuja",
+        "porjonto"
+      ]
+    },
+    {
+      "id": "s04-l05",
+      "title": "Conjuncts review: real words",
+      "goal": "Read main-course words containing conjuncts without transliteration.",
+      "grammar": [
+        "Stacks can combine: স্ত্রী = স + ত + র-ফলা + ী",
+        "Check opaque shapes first (ক্ষ, ক্ত, ঙ্গ), then split see-through ones",
+        "ফলা and রেফ change pronunciation: doubling, silent ব, æ"
+      ],
+      "new": [],
+      "review": [
+        "cj-hoshonto",
+        "cj-nto",
+        "cj-sto",
+        "cj-ndho",
+        "cj-sko",
+        "cj-mmo",
+        "cj-chchho",
+        "cj-kkho",
+        "cj-kto",
+        "cj-nggo",
+        "cj-jofola",
+        "cj-rofola",
+        "cj-bofola",
+        "cj-ref",
+        "shikkhok",
+        "dhonnobad",
+        "chhatro",
+        "nomoshkar",
+        "shondha",
+        "stri",
+        "trish",
+        "shukrobar"
+      ],
+      "tip": "Time to read real signage-style words: **শিক্ষক, ধন্যবাদ, ছাত্র, নমস্কার, সন্ধ্যা, লুঙ্গি, শুভেচ্ছা**.\n\n**Stacks can stack.** স্ত্রী (`stri`, *wife*) is স + ত + র-ফলা + ী. ত্রিশ (`trish`, *thirty*) and শুক্রবার (`shukrobar`, *Friday*) use র-ফলা.\n\n**Routine**: spot opaque shapes first (ক্ষ, ক্ত, ঙ্গ, ঞ্চ), then split see-through stacks, then apply the ফলা rules (য-ফলা doubles, ব-ফলা is silent, র-ফলা adds r after, রেফ adds r before).\n\nFrom here on you can switch off transliteration in settings and read the main course in script.",
+      "sentences": [],
+      "preview": [
+        "lunggi",
+        "shubhechchha"
+      ]
+    }
+  ]
+}

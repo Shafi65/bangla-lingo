@@ -1,0 +1,146 @@
+{
+  "unit": "s03-vowel-signs",
+  "entries": [
+    {
+      "id": "k-aa",
+      "bn": "কা",
+      "tr": "ka",
+      "en": "া (a-kar): adds 'a' as in 'father' after the consonant",
+      "pos": "letter",
+      "lesson": "s03-l01",
+      "notes": "Bare sign: া (U+09BE), name a-kar (আ-কার). Written to the right of the consonant."
+    },
+    {
+      "id": "k-i",
+      "bn": "কি",
+      "tr": "ki",
+      "en": "ি (i-kar, short-i sign): adds 'i' as in 'see'",
+      "pos": "letter",
+      "lesson": "s03-l01",
+      "notes": "Bare sign: ি (U+09BF), name hroshsho i-kar (হ্রস্ব ই-কার). Typed after the consonant but DRAWN to its left. Same sound as ী."
+    },
+    {
+      "id": "k-ii",
+      "bn": "কী",
+      "tr": "ki",
+      "en": "ী (long-i sign): adds 'i' as in 'see'",
+      "pos": "letter",
+      "lesson": "s03-l01",
+      "notes": "Bare sign: ী (U+09C0), name dirgho i-kar (দীর্ঘ ই-কার). Written to the right. Same sound as ি. কী also means 'what?'"
+    },
+    {
+      "id": "nodi",
+      "bn": "নদী",
+      "tr": "nodi",
+      "en": "river",
+      "pos": "noun",
+      "lesson": "s03-l01",
+      "notes": "Bangladesh is a land of rivers: পদ্মা, মেঘনা, যমুনা."
+    },
+    {
+      "id": "k-u",
+      "bn": "কু",
+      "tr": "ku",
+      "en": "ু (u-kar, short-u sign): adds 'u' as in 'food'",
+      "pos": "letter",
+      "lesson": "s03-l02",
+      "notes": "Bare sign: ু (U+09C1), name hroshsho u-kar (হ্রস্ব উ-কার). Below the letter; joins differently after র, হ, শ, গ (রু, হু, শু, গু). Same sound as ূ."
+    },
+    {
+      "id": "k-uu",
+      "bn": "কূ",
+      "tr": "ku",
+      "en": "ূ (long-u sign): adds 'u' as in 'food'",
+      "pos": "letter",
+      "lesson": "s03-l02",
+      "notes": "Bare sign: ূ (U+09C2), name dirgho u-kar (দীর্ঘ উ-কার). Same sound as ু. After র it becomes রূ."
+    },
+    {
+      "id": "k-ri",
+      "bn": "কৃ",
+      "tr": "kri",
+      "en": "ৃ (ri-kar): adds 'ri' as in 'rip'",
+      "pos": "letter",
+      "lesson": "s03-l02",
+      "notes": "Bare sign: ৃ (U+09C3), name ri-kar (ঋ-কার). The sign form of ঋ. After হ it looks like হৃ."
+    },
+    {
+      "id": "krishok",
+      "bn": "কৃষক",
+      "tr": "krishok",
+      "en": "farmer",
+      "pos": "noun",
+      "lesson": "s03-l02"
+    },
+    {
+      "id": "prithibi",
+      "bn": "পৃথিবী",
+      "tr": "prithibi",
+      "en": "world / Earth",
+      "pos": "noun",
+      "lesson": "s03-l02"
+    },
+    {
+      "id": "k-e",
+      "bn": "কে",
+      "tr": "ke",
+      "en": "ে (e-kar): adds 'e' as in 'bed' or 'ay' as in 'say'",
+      "pos": "letter",
+      "lesson": "s03-l03",
+      "notes": "Bare sign: ে (U+09C7), name e-kar (এ-কার). Drawn to the LEFT of the consonant. কে also means 'who?'. Sometimes said æ (দেখা dækha)."
+    },
+    {
+      "id": "k-oi",
+      "bn": "কৈ",
+      "tr": "koi",
+      "en": "ৈ (oi-kar): adds 'oi' as in 'boy'",
+      "pos": "letter",
+      "lesson": "s03-l03",
+      "notes": "Bare sign: ৈ (U+09C8), name oi-kar (ঐ-কার). ে with an extra flick on top; also drawn to the left."
+    },
+    {
+      "id": "toiri",
+      "bn": "তৈরি",
+      "tr": "toiri",
+      "en": "made / ready",
+      "pos": "adj",
+      "lesson": "s03-l03",
+      "notes": "তৈরি করা = to make; আমি তৈরি = I'm ready. Spelling তৈরী is also seen."
+    },
+    {
+      "id": "k-o",
+      "bn": "কো",
+      "tr": "ko",
+      "en": "ো (o-kar): adds 'o' as in 'go'; wraps around the consonant",
+      "pos": "letter",
+      "lesson": "s03-l04",
+      "notes": "Bare sign: ো (U+09CB; canonically ে U+09C7 + া U+09BE, stored precomposed here per NFC). Name o-kar (ও-কার)."
+    },
+    {
+      "id": "k-ou",
+      "bn": "কৌ",
+      "tr": "kou",
+      "en": "ৌ (ou-kar): adds 'ou' as in 'low'; wraps around the consonant",
+      "pos": "letter",
+      "lesson": "s03-l04",
+      "notes": "Bare sign: ৌ (U+09CC; ে + ৗ U+09D7, stored precomposed per NFC). Name ou-kar (ঔ-কার)."
+    },
+    {
+      "id": "nouka",
+      "bn": "নৌকা",
+      "tr": "nouka",
+      "en": "boat",
+      "pos": "noun",
+      "lesson": "s03-l04"
+    },
+    {
+      "id": "moumachhi",
+      "bn": "মৌমাছি",
+      "tr": "moumachhi",
+      "en": "bee",
+      "pos": "noun",
+      "lesson": "s03-l04",
+      "notes": "মৌ = honey (poetic), মাছি = fly."
+    }
+  ]
+}

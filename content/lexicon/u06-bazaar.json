@@ -1,0 +1,673 @@
+{
+  "unit": "u06-bazaar",
+  "entries": [
+    {
+      "id": "bajar",
+      "bn": "বাজার",
+      "tr": "bajar",
+      "en": "market",
+      "alt": [
+        "bazaar"
+      ],
+      "pos": "noun",
+      "lesson": "u06-l01",
+      "notes": "Also used for 'grocery shopping' in general: বাজার করা = to do the shopping."
+    },
+    {
+      "id": "bajare",
+      "bn": "বাজারে",
+      "tr": "bajare",
+      "en": "at the market",
+      "alt": [
+        "in the market",
+        "to the market"
+      ],
+      "pos": "noun",
+      "lesson": "u06-l01",
+      "notes": "বাজার + locative -এ."
+    },
+    {
+      "id": "dokan",
+      "bn": "দোকান",
+      "tr": "dokan",
+      "en": "shop",
+      "alt": [
+        "store"
+      ],
+      "pos": "noun",
+      "lesson": "u06-l01"
+    },
+    {
+      "id": "dokandar",
+      "bn": "দোকানদার",
+      "tr": "dokandar",
+      "en": "shopkeeper",
+      "pos": "noun",
+      "lesson": "u06-l01",
+      "notes": "দোকান 'shop' + -দার 'holder'."
+    },
+    {
+      "id": "dam",
+      "bn": "দাম",
+      "tr": "dam",
+      "en": "price",
+      "alt": [
+        "cost"
+      ],
+      "pos": "noun",
+      "lesson": "u06-l01"
+    },
+    {
+      "id": "koto",
+      "bn": "কত",
+      "tr": "koto",
+      "en": "how much",
+      "alt": [
+        "how many"
+      ],
+      "pos": "adv",
+      "lesson": "u06-l01"
+    },
+    {
+      "id": "etar",
+      "bn": "এটার",
+      "tr": "etar",
+      "en": "of this",
+      "alt": [
+        "this one's"
+      ],
+      "pos": "pronoun",
+      "lesson": "u06-l01",
+      "notes": "এটা 'this' + genitive -র: এটার দাম 'the price of this'."
+    },
+    {
+      "id": "ilisher",
+      "bn": "ইলিশের",
+      "tr": "ilisher",
+      "en": "of the hilsa",
+      "alt": [
+        "hilsa's"
+      ],
+      "pos": "noun",
+      "lesson": "u06-l01",
+      "notes": "ইলিশ + genitive -এর (after a consonant)."
+    },
+    {
+      "id": "taka",
+      "bn": "টাকা",
+      "tr": "taka",
+      "en": "taka",
+      "alt": [
+        "money"
+      ],
+      "pos": "noun",
+      "lesson": "u06-l02",
+      "notes": "Bangladesh's currency (৳, BDT). Also the general word for 'money': টাকা নেই 'no money'. In India টাকা means rupees."
+    },
+    {
+      "id": "poysha",
+      "bn": "পয়সা",
+      "tr": "poysha",
+      "en": "poisha",
+      "alt": [
+        "paisa",
+        "cents"
+      ],
+      "pos": "noun",
+      "lesson": "u06-l02",
+      "notes": "1/100 of a taka. Coins are now rare, but you hear it in sayings and in counting."
+    },
+    {
+      "id": "duisho",
+      "bn": "দুইশ",
+      "tr": "duisho",
+      "en": "two hundred",
+      "alt": [
+        "200"
+      ],
+      "pos": "number",
+      "lesson": "u06-l02",
+      "notes": "দুই + শ 'hundred'. Also spelled দুইশো.",
+      "kolkata": {
+        "bn": "দুশো",
+        "tr": "dusho"
+      }
+    },
+    {
+      "id": "pachsho",
+      "bn": "পাঁচশ",
+      "tr": "pa~chsho",
+      "en": "five hundred",
+      "alt": [
+        "500"
+      ],
+      "pos": "number",
+      "lesson": "u06-l02",
+      "notes": "Also spelled পাঁচশো.",
+      "kolkata": {
+        "bn": "পাঁচশো",
+        "tr": "pa~chsho"
+      }
+    },
+    {
+      "id": "amake",
+      "bn": "আমাকে",
+      "tr": "amake",
+      "en": "me",
+      "alt": [
+        "to me"
+      ],
+      "pos": "pronoun",
+      "lesson": "u06-l03",
+      "notes": "Object form of আমি: আমাকে দেন 'give me'."
+    },
+    {
+      "id": "den",
+      "bn": "দেন",
+      "tr": "den",
+      "en": "give (polite)",
+      "alt": [
+        "please give"
+      ],
+      "pos": "verb",
+      "lesson": "u06-l03",
+      "register": "polite",
+      "notes": "Polite imperative of দেওয়া 'give', used in everyday Bangladeshi speech. Also the present-tense 'you/he (polite) give'.",
+      "kolkata": {
+        "bn": "দিন",
+        "tr": "din"
+      }
+    },
+    {
+      "id": "din-give",
+      "bn": "দিন",
+      "tr": "din",
+      "en": "give (polite, standard)",
+      "alt": [
+        "please give"
+      ],
+      "pos": "verb",
+      "lesson": "u06-l03",
+      "register": "polite",
+      "notes": "Standard / more formal polite imperative. Same spelling as দিন 'day' — context tells them apart. Usual in Kolkata."
+    },
+    {
+      "id": "dao",
+      "bn": "দাও",
+      "tr": "dao",
+      "en": "give (familiar)",
+      "alt": [
+        "give"
+      ],
+      "pos": "verb",
+      "lesson": "u06-l03",
+      "register": "familiar",
+      "notes": "Goes with তুমি."
+    },
+    {
+      "id": "de",
+      "bn": "দে",
+      "tr": "de",
+      "en": "give (intimate)",
+      "alt": [
+        "give"
+      ],
+      "pos": "verb",
+      "lesson": "u06-l03",
+      "register": "intimate",
+      "notes": "Goes with তুই — only with close friends, younger siblings, small children."
+    },
+    {
+      "id": "ektu",
+      "bn": "একটু",
+      "tr": "ektu",
+      "en": "a little",
+      "alt": [
+        "a bit",
+        "some"
+      ],
+      "pos": "adv",
+      "lesson": "u06-l03",
+      "notes": "Also softens a request, like 'just': একটু দেন 'please give (me) a little'."
+    },
+    {
+      "id": "ei",
+      "bn": "এই",
+      "tr": "ei",
+      "en": "this",
+      "pos": "pronoun",
+      "lesson": "u06-l04",
+      "notes": "Used before a noun: এই দোকান 'this shop'. Also 'hey!' when calling someone."
+    },
+    {
+      "id": "oi",
+      "bn": "ওই",
+      "tr": "oi",
+      "en": "that",
+      "pos": "pronoun",
+      "lesson": "u06-l04",
+      "notes": "Used before a noun: ওই দোকান 'that shop'."
+    },
+    {
+      "id": "eita",
+      "bn": "এইটা",
+      "tr": "eita",
+      "en": "this one",
+      "alt": [
+        "this"
+      ],
+      "pos": "pronoun",
+      "lesson": "u06-l04",
+      "notes": "Spoken variant of এটা, a little more emphatic — good for pointing."
+    },
+    {
+      "id": "oita",
+      "bn": "ওইটা",
+      "tr": "oita",
+      "en": "that one",
+      "alt": [
+        "that"
+      ],
+      "pos": "pronoun",
+      "lesson": "u06-l04",
+      "notes": "Spoken variant of ওটা."
+    },
+    {
+      "id": "eigulo",
+      "bn": "এইগুলো",
+      "tr": "eigulo",
+      "en": "these",
+      "alt": [
+        "these ones"
+      ],
+      "pos": "pronoun",
+      "lesson": "u06-l04",
+      "notes": "এই + plural classifier -গুলো. Also এগুলো.",
+      "kolkata": {
+        "bn": "এগুলো",
+        "tr": "egulo"
+      }
+    },
+    {
+      "id": "oigulo",
+      "bn": "ওইগুলো",
+      "tr": "oigulo",
+      "en": "those",
+      "alt": [
+        "those ones"
+      ],
+      "pos": "pronoun",
+      "lesson": "u06-l04",
+      "notes": "Also ওগুলো.",
+      "kolkata": {
+        "bn": "ওগুলো",
+        "tr": "ogulo"
+      }
+    },
+    {
+      "id": "machhta",
+      "bn": "মাছটা",
+      "tr": "machhta",
+      "en": "the fish",
+      "alt": [
+        "fish"
+      ],
+      "pos": "noun",
+      "lesson": "u06-l04",
+      "notes": "মাছ + -টা: one specific fish."
+    },
+    {
+      "id": "dokanta",
+      "bn": "দোকানটা",
+      "tr": "dokanta",
+      "en": "the shop",
+      "alt": [
+        "shop"
+      ],
+      "pos": "noun",
+      "lesson": "u06-l04",
+      "notes": "দোকান + -টা."
+    },
+    {
+      "id": "keji",
+      "bn": "কেজি",
+      "tr": "keji",
+      "en": "kilo",
+      "alt": [
+        "kilogram",
+        "kg"
+      ],
+      "pos": "classifier",
+      "lesson": "u06-l05"
+    },
+    {
+      "id": "hali",
+      "bn": "হালি",
+      "tr": "hali",
+      "en": "four (a set of four)",
+      "alt": [
+        "a hali",
+        "four"
+      ],
+      "pos": "classifier",
+      "lesson": "u06-l05",
+      "notes": "Eggs, bananas, lemons etc. are sold by the হালি (4). Common in Bangladesh; less so in Kolkata."
+    },
+    {
+      "id": "dozon",
+      "bn": "ডজন",
+      "tr": "dozon",
+      "en": "dozen",
+      "pos": "classifier",
+      "lesson": "u06-l05"
+    },
+    {
+      "id": "alu",
+      "bn": "আলু",
+      "tr": "alu",
+      "en": "potato",
+      "alt": [
+        "potatoes"
+      ],
+      "pos": "noun",
+      "lesson": "u06-l05"
+    },
+    {
+      "id": "peyaj",
+      "bn": "পেঁয়াজ",
+      "tr": "pe~yaj",
+      "en": "onion",
+      "alt": [
+        "onions"
+      ],
+      "pos": "noun",
+      "lesson": "u06-l05"
+    },
+    {
+      "id": "tometo",
+      "bn": "টমেটো",
+      "tr": "tometo",
+      "en": "tomato",
+      "alt": [
+        "tomatoes"
+      ],
+      "pos": "noun",
+      "lesson": "u06-l05"
+    },
+    {
+      "id": "tometor",
+      "bn": "টমেটোর",
+      "tr": "tometor",
+      "en": "of tomatoes",
+      "alt": [
+        "tomatoes'"
+      ],
+      "pos": "noun",
+      "lesson": "u06-l05",
+      "notes": "টমেটো + genitive -র."
+    },
+    {
+      "id": "adha",
+      "bn": "আধা",
+      "tr": "adha",
+      "en": "half",
+      "pos": "adj",
+      "lesson": "u06-l05",
+      "notes": "আধা কেজি 'half a kilo'.",
+      "kolkata": {
+        "bn": "আধ",
+        "tr": "adh"
+      }
+    },
+    {
+      "id": "lagbe",
+      "bn": "লাগবে",
+      "tr": "lagbe",
+      "en": "need",
+      "alt": [
+        "will need",
+        "is needed"
+      ],
+      "pos": "verb",
+      "lesson": "u06-l05",
+      "notes": "The needer takes -র: আমার আলু লাগবে 'I need potatoes' (lit. 'to me potatoes will be needed')."
+    },
+    {
+      "id": "kom",
+      "bn": "কম",
+      "tr": "kom",
+      "en": "less",
+      "alt": [
+        "low",
+        "lower",
+        "cheaper"
+      ],
+      "pos": "adj",
+      "lesson": "u06-l06"
+    },
+    {
+      "id": "beshi",
+      "bn": "বেশি",
+      "tr": "beshi",
+      "en": "more",
+      "alt": [
+        "too much",
+        "a lot",
+        "high"
+      ],
+      "pos": "adj",
+      "lesson": "u06-l06"
+    },
+    {
+      "id": "rakhen",
+      "bn": "রাখেন",
+      "tr": "rakhen",
+      "en": "keep (polite)",
+      "alt": [
+        "make it",
+        "please keep"
+      ],
+      "pos": "verb",
+      "lesson": "u06-l06",
+      "register": "polite",
+      "notes": "Imperative of রাখা 'keep'. In haggling: 'make it (this price)'. Same form = present 'you (polite) keep'. Familiar রাখো, intimate রাখ.",
+      "kolkata": {
+        "bn": "রাখুন",
+        "tr": "rakhun"
+      }
+    },
+    {
+      "id": "eto",
+      "bn": "এত",
+      "tr": "eto",
+      "en": "so",
+      "alt": [
+        "so much",
+        "this much"
+      ],
+      "pos": "adv",
+      "lesson": "u06-l06"
+    },
+    {
+      "id": "keno",
+      "bn": "কেন",
+      "tr": "keno",
+      "en": "why",
+      "pos": "adv",
+      "lesson": "u06-l06"
+    },
+    {
+      "id": "shesh",
+      "bn": "শেষ",
+      "tr": "shesh",
+      "en": "last",
+      "alt": [
+        "final",
+        "end"
+      ],
+      "pos": "adj",
+      "lesson": "u06-l06"
+    },
+    {
+      "id": "lagbe-na",
+      "bn": "লাগবে না",
+      "tr": "lagbe na",
+      "en": "I don't need it",
+      "alt": [
+        "no thanks",
+        "not needed",
+        "don't need"
+      ],
+      "pos": "phrase",
+      "lesson": "u06-l06",
+      "notes": "The polite way to turn down a vendor."
+    },
+    {
+      "id": "thik-achhe",
+      "bn": "ঠিক আছে",
+      "tr": "thik achhe",
+      "en": "OK",
+      "alt": [
+        "okay",
+        "all right",
+        "fine"
+      ],
+      "pos": "phrase",
+      "lesson": "u06-l06"
+    },
+    {
+      "id": "shosta",
+      "bn": "সস্তা",
+      "tr": "shosta",
+      "en": "cheap",
+      "alt": [
+        "inexpensive"
+      ],
+      "pos": "adj",
+      "lesson": "u06-l06"
+    },
+    {
+      "id": "dami",
+      "bn": "দামি",
+      "tr": "dami",
+      "en": "expensive",
+      "alt": [
+        "costly",
+        "valuable"
+      ],
+      "pos": "adj",
+      "lesson": "u06-l06"
+    },
+    {
+      "id": "shari",
+      "bn": "শাড়ি",
+      "tr": "shari",
+      "en": "sari",
+      "alt": [
+        "saree"
+      ],
+      "pos": "noun",
+      "lesson": "u06-l07"
+    },
+    {
+      "id": "sharita",
+      "bn": "শাড়িটা",
+      "tr": "sharita",
+      "en": "the sari",
+      "alt": [
+        "sari"
+      ],
+      "pos": "noun",
+      "lesson": "u06-l07"
+    },
+    {
+      "id": "jama",
+      "bn": "জামা",
+      "tr": "jama",
+      "en": "shirt",
+      "alt": [
+        "top",
+        "dress",
+        "clothes"
+      ],
+      "pos": "noun",
+      "lesson": "u06-l07",
+      "notes": "Any upper garment / dress; জামাকাপড় = clothes."
+    },
+    {
+      "id": "jamata",
+      "bn": "জামাটা",
+      "tr": "jamata",
+      "en": "the shirt",
+      "alt": [
+        "the top",
+        "the dress"
+      ],
+      "pos": "noun",
+      "lesson": "u06-l07"
+    },
+    {
+      "id": "lunggi",
+      "bn": "লুঙ্গি",
+      "tr": "lunggi",
+      "en": "lungi",
+      "pos": "noun",
+      "lesson": "u06-l07",
+      "notes": "A sarong-like wrap worn by men across Bangladesh."
+    },
+    {
+      "id": "kinbo",
+      "bn": "কিনব",
+      "tr": "kinbo",
+      "en": "I will buy",
+      "alt": [
+        "will buy",
+        "I'll buy"
+      ],
+      "pos": "verb",
+      "lesson": "u06-l07",
+      "notes": "Future of কেনা 'buy'. Also spelled কিনবো.",
+      "kolkata": {
+        "bn": "কিনবো",
+        "tr": "kinbo"
+      }
+    },
+    {
+      "id": "kinben",
+      "bn": "কিনবেন",
+      "tr": "kinben",
+      "en": "you will buy (polite)",
+      "alt": [
+        "will buy"
+      ],
+      "pos": "verb",
+      "lesson": "u06-l07",
+      "register": "polite"
+    },
+    {
+      "id": "bhangti",
+      "bn": "ভাংতি",
+      "tr": "bhangti",
+      "en": "change",
+      "alt": [
+        "small change",
+        "small notes"
+      ],
+      "pos": "noun",
+      "lesson": "u06-l07",
+      "notes": "Small notes/coins. Drivers and vendors often lack change for a ৳500 or ৳1000 note.",
+      "kolkata": {
+        "bn": "খুচরো",
+        "tr": "khuchro"
+      }
+    },
+    {
+      "id": "byag",
+      "bn": "ব্যাগ",
+      "tr": "byag",
+      "en": "bag",
+      "pos": "noun",
+      "lesson": "u06-l08"
+    }
+  ]
+}

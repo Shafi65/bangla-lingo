@@ -1,0 +1,547 @@
+{
+  "unit": "u04-food",
+  "entries": [
+    {
+      "id": "khabar",
+      "bn": "খাবার",
+      "tr": "khabar",
+      "en": "food",
+      "alt": [
+        "meal"
+      ],
+      "pos": "noun",
+      "lesson": "u04-l01"
+    },
+    {
+      "id": "bhat",
+      "bn": "ভাত",
+      "tr": "bhat",
+      "en": "rice",
+      "alt": [
+        "cooked rice",
+        "a meal"
+      ],
+      "pos": "noun",
+      "lesson": "u04-l01",
+      "notes": "Cooked rice only (uncooked rice is চাল chal). ভাত also stands for 'a meal' in general."
+    },
+    {
+      "id": "dal",
+      "bn": "ডাল",
+      "tr": "dal",
+      "en": "lentils",
+      "alt": [
+        "dal",
+        "lentil soup"
+      ],
+      "pos": "noun",
+      "lesson": "u04-l01"
+    },
+    {
+      "id": "machh",
+      "bn": "মাছ",
+      "tr": "machh",
+      "en": "fish",
+      "pos": "noun",
+      "lesson": "u04-l01"
+    },
+    {
+      "id": "mangsho",
+      "bn": "মাংস",
+      "tr": "mangsho",
+      "en": "meat",
+      "pos": "noun",
+      "lesson": "u04-l01"
+    },
+    {
+      "id": "murgi",
+      "bn": "মুরগি",
+      "tr": "murgi",
+      "en": "chicken",
+      "pos": "noun",
+      "lesson": "u04-l01"
+    },
+    {
+      "id": "gorur",
+      "bn": "গরুর",
+      "tr": "gorur",
+      "en": "cow's",
+      "alt": [
+        "beef"
+      ],
+      "pos": "noun",
+      "lesson": "u04-l01",
+      "notes": "গরু 'cow' + -র. গরুর মাংস (gorur mangsho) = beef."
+    },
+    {
+      "id": "dim",
+      "bn": "ডিম",
+      "tr": "dim",
+      "en": "egg",
+      "alt": [
+        "eggs"
+      ],
+      "pos": "noun",
+      "lesson": "u04-l01"
+    },
+    {
+      "id": "shobji",
+      "bn": "সবজি",
+      "tr": "shobji",
+      "en": "vegetables",
+      "alt": [
+        "vegetable",
+        "veg"
+      ],
+      "pos": "noun",
+      "lesson": "u04-l01"
+    },
+    {
+      "id": "pani",
+      "bn": "পানি",
+      "tr": "pani",
+      "en": "water",
+      "pos": "noun",
+      "lesson": "u04-l02",
+      "notes": "Standard in Bangladesh. Kolkata and many Hindu speakers say জল (jol).",
+      "kolkata": {
+        "bn": "জল",
+        "tr": "jol"
+      }
+    },
+    {
+      "id": "cha",
+      "bn": "চা",
+      "tr": "cha",
+      "en": "tea",
+      "pos": "noun",
+      "lesson": "u04-l02"
+    },
+    {
+      "id": "dudh",
+      "bn": "দুধ",
+      "tr": "dudh",
+      "en": "milk",
+      "pos": "noun",
+      "lesson": "u04-l02"
+    },
+    {
+      "id": "chini",
+      "bn": "চিনি",
+      "tr": "chini",
+      "en": "sugar",
+      "pos": "noun",
+      "lesson": "u04-l02"
+    },
+    {
+      "id": "lobon",
+      "bn": "লবণ",
+      "tr": "lobon",
+      "en": "salt",
+      "pos": "noun",
+      "lesson": "u04-l02",
+      "notes": "Colloquially also নুন (nun), especially in Kolkata."
+    },
+    {
+      "id": "chhara",
+      "bn": "ছাড়া",
+      "tr": "chhara",
+      "en": "without",
+      "alt": [
+        "except"
+      ],
+      "pos": "postposition",
+      "lesson": "u04-l02",
+      "notes": "Comes after the noun: চিনি ছাড়া 'without sugar'."
+    },
+    {
+      "id": "kap",
+      "bn": "কাপ",
+      "tr": "kap",
+      "en": "cup",
+      "pos": "noun",
+      "lesson": "u04-l02"
+    },
+    {
+      "id": "khai",
+      "bn": "খাই",
+      "tr": "khai",
+      "en": "(I/we) eat",
+      "alt": [
+        "eat",
+        "drink",
+        "I eat",
+        "we eat"
+      ],
+      "pos": "verb",
+      "lesson": "u04-l03",
+      "notes": "Goes with আমি / আমরা."
+    },
+    {
+      "id": "khash",
+      "bn": "খাস",
+      "tr": "khash",
+      "en": "(you, intimate) eat",
+      "alt": [
+        "eat",
+        "drink"
+      ],
+      "pos": "verb",
+      "lesson": "u04-l03",
+      "register": "intimate",
+      "notes": "Goes with তুই / তোরা."
+    },
+    {
+      "id": "khao",
+      "bn": "খাও",
+      "tr": "khao",
+      "en": "(you, familiar) eat",
+      "alt": [
+        "eat",
+        "drink"
+      ],
+      "pos": "verb",
+      "lesson": "u04-l03",
+      "register": "familiar",
+      "notes": "Goes with তুমি / তোমরা. Also 'Eat!' (familiar command)."
+    },
+    {
+      "id": "khan",
+      "bn": "খান",
+      "tr": "khan",
+      "en": "(you/he/she, polite) eat",
+      "alt": [
+        "eat",
+        "eats",
+        "drink",
+        "drinks"
+      ],
+      "pos": "verb",
+      "lesson": "u04-l03",
+      "register": "polite",
+      "notes": "Goes with আপনি, তিনি, উনি."
+    },
+    {
+      "id": "khay",
+      "bn": "খায়",
+      "tr": "khay",
+      "en": "(he/she/they) eats",
+      "alt": [
+        "eats",
+        "eat",
+        "drinks"
+      ],
+      "pos": "verb",
+      "lesson": "u04-l03",
+      "notes": "Goes with সে, ও, তারা."
+    },
+    {
+      "id": "ruti",
+      "bn": "রুটি",
+      "tr": "ruti",
+      "en": "flatbread",
+      "alt": [
+        "roti",
+        "bread",
+        "chapati"
+      ],
+      "pos": "noun",
+      "lesson": "u04-l03"
+    },
+    {
+      "id": "nashta",
+      "bn": "নাস্তা",
+      "tr": "nashta",
+      "en": "breakfast",
+      "alt": [
+        "snack",
+        "snacks"
+      ],
+      "pos": "noun",
+      "lesson": "u04-l03",
+      "notes": "Breakfast, or an afternoon snack with tea. Kolkata: জলখাবার (jolkhabar).",
+      "kolkata": {
+        "bn": "জলখাবার",
+        "tr": "jolkhabar"
+      }
+    },
+    {
+      "id": "chai",
+      "bn": "চাই",
+      "tr": "chai",
+      "en": "(I/we) want",
+      "alt": [
+        "want",
+        "I want",
+        "we want",
+        "would like"
+      ],
+      "pos": "verb",
+      "lesson": "u04-l04",
+      "notes": "Goes with আমি / আমরা."
+    },
+    {
+      "id": "chao",
+      "bn": "চাও",
+      "tr": "chao",
+      "en": "(you, familiar) want",
+      "alt": [
+        "want"
+      ],
+      "pos": "verb",
+      "lesson": "u04-l04",
+      "register": "familiar"
+    },
+    {
+      "id": "chan",
+      "bn": "চান",
+      "tr": "chan",
+      "en": "(you/he/she, polite) want",
+      "alt": [
+        "want",
+        "wants",
+        "would like"
+      ],
+      "pos": "verb",
+      "lesson": "u04-l04",
+      "register": "polite"
+    },
+    {
+      "id": "khete",
+      "bn": "খেতে",
+      "tr": "khete",
+      "en": "to eat",
+      "alt": [
+        "to drink",
+        "eat"
+      ],
+      "pos": "verb",
+      "lesson": "u04-l04",
+      "notes": "Infinitive of খাওয়া, used with চাই: খেতে চাই 'want to eat'."
+    },
+    {
+      "id": "kichhu",
+      "bn": "কিছু",
+      "tr": "kichhu",
+      "en": "something",
+      "alt": [
+        "anything"
+      ],
+      "pos": "pronoun",
+      "lesson": "u04-l04",
+      "notes": "In negative sentences: কিছু … না = 'nothing / not anything'."
+    },
+    {
+      "id": "kola",
+      "bn": "কলা",
+      "tr": "kola",
+      "en": "banana",
+      "alt": [
+        "bananas"
+      ],
+      "pos": "noun",
+      "lesson": "u04-l05"
+    },
+    {
+      "id": "fol",
+      "bn": "ফল",
+      "tr": "fol",
+      "en": "fruit",
+      "alt": [
+        "fruits"
+      ],
+      "pos": "noun",
+      "lesson": "u04-l05"
+    },
+    {
+      "id": "amta",
+      "bn": "আমটা",
+      "tr": "amta",
+      "en": "the mango",
+      "alt": [
+        "mango",
+        "that mango",
+        "this mango"
+      ],
+      "pos": "noun",
+      "lesson": "u04-l05",
+      "notes": "আম + -টা: a specific mango."
+    },
+    {
+      "id": "amgulo",
+      "bn": "আমগুলো",
+      "tr": "amgulo",
+      "en": "the mangoes",
+      "alt": [
+        "mangoes",
+        "these mangoes",
+        "those mangoes"
+      ],
+      "pos": "noun",
+      "lesson": "u04-l05",
+      "notes": "আম + -গুলো (specific plural). Written: আমগুলি."
+    },
+    {
+      "id": "kolata",
+      "bn": "কলাটা",
+      "tr": "kolata",
+      "en": "the banana",
+      "alt": [
+        "banana",
+        "this banana",
+        "that banana"
+      ],
+      "pos": "noun",
+      "lesson": "u04-l05"
+    },
+    {
+      "id": "kolagulo",
+      "bn": "কলাগুলো",
+      "tr": "kolagulo",
+      "en": "the bananas",
+      "alt": [
+        "bananas",
+        "these bananas",
+        "those bananas"
+      ],
+      "pos": "noun",
+      "lesson": "u04-l05"
+    },
+    {
+      "id": "ekti",
+      "bn": "একটি",
+      "tr": "ekti",
+      "en": "one; a (formal)",
+      "alt": [
+        "a",
+        "an",
+        "one"
+      ],
+      "pos": "number",
+      "lesson": "u04-l05",
+      "notes": "Formal/written version of একটা; also sounds gentle or affectionate. Common in Kolkata speech."
+    },
+    {
+      "id": "pochhondo",
+      "bn": "পছন্দ",
+      "tr": "pochhondo",
+      "en": "liking",
+      "alt": [
+        "like",
+        "likes",
+        "favourite",
+        "choice"
+      ],
+      "pos": "noun",
+      "lesson": "u04-l06",
+      "notes": "আমার … পছন্দ = 'I like …'. Negative: পছন্দ না."
+    },
+    {
+      "id": "lage",
+      "bn": "লাগে",
+      "tr": "lage",
+      "en": "feels",
+      "alt": [
+        "seems",
+        "is felt"
+      ],
+      "pos": "verb",
+      "lesson": "u04-l06",
+      "notes": "ভালো লাগে = 'feels good (to someone)' = like."
+    },
+    {
+      "id": "jhal",
+      "bn": "ঝাল",
+      "tr": "jhal",
+      "en": "spicy",
+      "alt": [
+        "hot",
+        "spicy food"
+      ],
+      "pos": "adj",
+      "lesson": "u04-l06",
+      "notes": "Chilli-hot. Also a noun: 'spicy food'."
+    },
+    {
+      "id": "mishti",
+      "bn": "মিষ্টি",
+      "tr": "mishti",
+      "en": "sweet",
+      "alt": [
+        "sweets",
+        "dessert",
+        "sweet food"
+      ],
+      "pos": "adj",
+      "lesson": "u04-l06",
+      "notes": "Also the noun 'sweets' (রসগোল্লা, চমচম…)."
+    },
+    {
+      "id": "moja",
+      "bn": "মজা",
+      "tr": "moja",
+      "en": "fun; tasty",
+      "alt": [
+        "delicious",
+        "tasty",
+        "fun"
+      ],
+      "pos": "noun",
+      "lesson": "u04-l06",
+      "notes": "Colloquial BD: খাবার খুব মজা 'the food is delicious'. Also 'fun'."
+    },
+    {
+      "id": "mojar",
+      "bn": "মজার",
+      "tr": "mojar",
+      "en": "tasty",
+      "alt": [
+        "delicious",
+        "fun",
+        "funny"
+      ],
+      "pos": "adj",
+      "lesson": "u04-l06",
+      "notes": "মজা + -র; before a noun: মজার খাবার 'tasty food'."
+    },
+    {
+      "id": "khudha",
+      "bn": "ক্ষুধা",
+      "tr": "khudha",
+      "en": "hunger",
+      "pos": "noun",
+      "lesson": "u04-l06",
+      "notes": "Colloquial BD: খিদা (khida). Kolkata: খিদে (khide).",
+      "kolkata": {
+        "bn": "খিদে",
+        "tr": "khide"
+      }
+    },
+    {
+      "id": "legechhe",
+      "bn": "লেগেছে",
+      "tr": "legechhe",
+      "en": "has come on (felt)",
+      "alt": [
+        "is felt",
+        "I'm",
+        "am"
+      ],
+      "pos": "verb",
+      "lesson": "u04-l06",
+      "notes": "Used with ক্ষুধা: আমার ক্ষুধা লেগেছে 'I'm hungry'. Colloquially often লাগছে. Kolkata: খিদে পেয়েছে."
+    },
+    {
+      "id": "biriyani",
+      "bn": "বিরিয়ানি",
+      "tr": "biriyani",
+      "en": "biryani",
+      "alt": [
+        "biriyani"
+      ],
+      "pos": "noun",
+      "lesson": "u04-l07",
+      "notes": "Dhaka is famous for কাচ্চি বিরিয়ানি (kachchi biriyani, layered mutton biryani)."
+    }
+  ]
+}
