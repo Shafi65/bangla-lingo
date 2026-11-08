@@ -89,6 +89,9 @@ export interface Lesson {
   id: string;
   unit: string;
   title: string;
+  /** "draft" = not yet native-speaker reviewed. */
+  status?: string;
+  reviewedBy?: string;
   tip?: string;
   vocab: VocabItem[];
   exercises: Exercise[];
@@ -99,6 +102,10 @@ export interface LessonSummary {
   id: string;
   title: string;
   exerciseCount: number;
+  /** True while the lesson is awaiting native-speaker review. */
+  draft: boolean;
+  /** Script lessons: a representative letter (first script_recognize glyph). */
+  glyph?: string;
 }
 
 export interface UnitSummary {

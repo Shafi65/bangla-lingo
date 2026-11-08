@@ -2,6 +2,7 @@
 
 import { useMemo, useState } from "react";
 import { seededShuffle } from "@/lib/answers";
+import { Translit } from "@/components/Translit";
 import { speak } from "@/lib/speech";
 import type { MatchPairsExercise } from "@/lib/types";
 import type { ExerciseProps } from "./types";
@@ -40,7 +41,7 @@ export function MatchPairs({ ex, locked, onChange }: ExerciseProps<MatchPairsExe
   const cls = (side: Side, i: number) => {
     const base =
       "choice flex min-h-16 flex-col items-center justify-center text-center";
-    if (matched.has(i)) return `${base} border-line bg-gray-50 text-muted opacity-50`;
+    if (matched.has(i)) return `${base} border-line bg-paper text-muted opacity-50`;
     if (wrong && wrong[side] === i)
       return `${base} animate-shake border-accent bg-accent-light text-accent-dark`;
     if (sel && sel.side === side && sel.i === i)
@@ -57,12 +58,13 @@ export function MatchPairs({ ex, locked, onChange }: ExerciseProps<MatchPairsExe
             <button
               key={i}
               type="button"
+              data-enter-native
               className={cls("bn", i)}
               disabled={locked || matched.has(i)}
               onClick={() => tap("bn", i)}
             >
               <span lang="bn" className="text-2xl">{ex.pairs[i].bn}</span>
-              <span className="text-xs font-semibold text-muted italic">{ex.pairs[i].tr}</span>
+              <Translit tr={ex.pairs[i].tr} inButton className="text-xs font-semibold" />
             </button>
           ))}
         </div>
@@ -71,6 +73,7 @@ export function MatchPairs({ ex, locked, onChange }: ExerciseProps<MatchPairsExe
             <button
               key={i}
               type="button"
+              data-enter-native
               className={cls("en", i)}
               disabled={locked || matched.has(i)}
               onClick={() => tap("en", i)}

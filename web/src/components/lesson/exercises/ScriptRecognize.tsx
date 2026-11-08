@@ -16,6 +16,7 @@ export function ScriptRecognize({
       <div className="flex flex-col items-center gap-3">
         <div
           lang="bn"
+          aria-label={`Letter ${ex.glyph}`}
           className="flex h-40 w-40 items-center justify-center rounded-3xl border-2 border-b-[6px] border-line bg-white text-8xl font-bold text-ink"
         >
           {ex.glyph}
@@ -23,7 +24,7 @@ export function ScriptRecognize({
         {/* Audio is only offered after checking, so it doesn't give the answer away */}
         {locked && <SpeakButton bn={ex.glyph} size="sm" />}
       </div>
-      <Choices options={ex.options} bengali={false} large locked={locked} onChange={onChange} />
+      <Choices options={ex.options} bengali={false} large locked={locked} onChange={onChange} answer={ex.answer} />
     </div>
   );
 }

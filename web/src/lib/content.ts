@@ -18,6 +18,7 @@ import type {
   CourseSummary,
   Exercise,
   Lesson,
+  ScriptRecognizeExercise,
   UnitDef,
 } from "./types";
 
@@ -119,6 +120,14 @@ function loadFrom(
           id: lesson.id,
           title: lesson.title ?? lesson.id,
           exerciseCount: lesson.exercises.length,
+          draft: lesson.status === "draft",
+          glyph:
+            unit.track === "script"
+              ? lesson.exercises.find(
+                  (e): e is ScriptRecognizeExercise =>
+                    e.type === "script_recognize",
+                )?.glyph
+              : undefined,
         },
       ];
     });
@@ -170,6 +179,10 @@ export function getCourse(): CourseSummary {
 
 export function getLesson(id: string): Lesson | undefined {
   return load().lessons.get(id);
+}
+
+export function getAllLessons(): Lesson[] {
+  return [...load().lessons.values()];
 }
 
 export function getAllLessonIds(): string[] {

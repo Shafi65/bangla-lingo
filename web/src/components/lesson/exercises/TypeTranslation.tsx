@@ -47,7 +47,7 @@ export function TypeTranslation({
             onSubmit();
           }
         }}
-        className="w-full resize-none rounded-2xl border-2 border-line bg-gray-50 p-4 text-xl font-semibold outline-none focus:border-brand focus:bg-white"
+        className="w-full resize-none rounded-2xl border-2 border-line bg-paper p-4 text-xl font-semibold outline-none focus:border-brand focus:bg-white focus-visible:outline-none"
       />
       {!bnToEn && (
         <p className="-mt-3 text-xs font-semibold text-muted">

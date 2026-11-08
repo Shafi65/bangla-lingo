@@ -28,7 +28,7 @@ export function ListenSelect({
         <SpeakButton bn={ex.audio.bn} slow />
       </div>
       {!hasVoice && (
-        <div className="rounded-2xl bg-gray-50 p-3 text-center text-sm font-semibold text-muted">
+        <div className="rounded-2xl bg-paper p-3 text-center text-sm font-semibold text-muted">
           No Bengali voice on this device.{" "}
           {reveal ? (
             <span>
@@ -52,6 +52,7 @@ export function ListenSelect({
         large
         locked={locked}
         onChange={onChange}
+        answer={ex.answer}
       />
     </div>
   );

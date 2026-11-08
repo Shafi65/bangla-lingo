@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { BnText } from "@/components/BnText";
 import { seededShuffle } from "@/lib/answers";
 import type { WordBankExercise } from "@/lib/types";
@@ -20,8 +20,26 @@ export function WordBank({ ex, locked, onChange }: ExerciseProps<WordBankExercis
     onChange(next.length ? { kind: "tiles", value: next } : null);
   };
 
-  const tileCls =
-    "min-h-12 rounded-xl border-2 border-b-4 border-line bg-white px-4 py-2 text-lg font-bold transition active:translate-y-0.5";
+  // Backspace removes the last tile.
+  useEffect(() => {
+    if (locked) return;
+    const onKey = (e: KeyboardEvent) => {
+      const t = e.target as HTMLElement | null;
+      if (e.key !== "Backspace" || t?.tagName === "INPUT" || t?.tagName === "TEXTAREA") return;
+      e.preventDefault();
+      setPicked((p) => {
+        const next = p.slice(0, -1);
+        onChange(next.length ? { kind: "tiles", value: next } : null);
+        return next;
+      });
+    };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [locked, onChange]);
+
+  const tileBase =
+    "min-h-12 rounded-xl border-2 border-b-4 border-line px-4 py-2 text-lg font-bold transition";
+  const tileCls = `${tileBase} bg-white active:translate-y-0.5`;
 
   return (
     <div className="flex flex-col gap-6">
@@ -37,13 +55,16 @@ export function WordBank({ ex, locked, onChange }: ExerciseProps<WordBankExercis
       {/* Answer line */}
       <div
         className="flex min-h-[7.5rem] flex-wrap content-start gap-2 border-y-2 border-line py-3"
+        role="group"
         aria-label="Your answer"
       >
         {picked.map((tileIdx, pos) => (
           <button
             key={`${tileIdx}-${pos}`}
             type="button"
+            data-enter-native
             disabled={locked}
+            aria-label={`Remove ${ex.tiles[tileIdx]}`}
             className={`${tileCls} animate-pop`}
             lang={bnToEn ? undefined : "bn"}
             onClick={() => update(picked.filter((_, p) => p !== pos))}
@@ -61,12 +82,11 @@ export function WordBank({ ex, locked, onChange }: ExerciseProps<WordBankExercis
             <button
               key={tileIdx}
               type="button"
+              data-enter-native
               disabled={locked || used}
               aria-hidden={used}
               lang={bnToEn ? undefined : "bn"}
-              className={`${tileCls} ${
-                used ? "border-line bg-line text-transparent" : "hover:bg-gray-50"
-              }`}
+              className={used ? `${tileBase} bg-line text-transparent` : `${tileCls} hover:bg-gray-50`}
               onClick={() => update([...picked, tileIdx])}
             >
               {ex.tiles[tileIdx]}

@@ -19,17 +19,18 @@ export function SpeakButton({
   const dims =
     size === "lg" ? "h-20 w-20" : size === "sm" ? "h-8 w-8" : "h-11 w-11";
   const icon = size === "lg" ? 40 : size === "sm" ? 16 : 22;
-  const label = hasVoice ? `Play audio: ${bn}` : NO_VOICE;
+  const label = hasVoice ? `${slow ? "Play slowly" : "Play audio"}: ${bn}` : NO_VOICE;
 
   return (
     <span className="group relative inline-flex" title={hasVoice ? undefined : NO_VOICE}>
       <button
         type="button"
+        data-enter-native
         aria-label={label}
         disabled={!hasVoice}
         onClick={(e) => {
           e.stopPropagation();
-          speak(bn, slow ? 0.55 : 0.85);
+          speak(bn, { slow });
         }}
         className={`${dims} inline-flex shrink-0 items-center justify-center rounded-2xl border-b-4 transition ${
           hasVoice

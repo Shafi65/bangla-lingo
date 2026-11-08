@@ -1,4 +1,5 @@
 import { useSyncExternalStore } from "react";
+import { progressStore, TTS_RATES } from "./progress";
 
 // Web Speech API helpers. Everything is guarded so it is safe to import on the
 // server (no window access at module scope).
@@ -21,9 +22,14 @@ export function getBengaliVoice(): SpeechSynthesisVoice | undefined {
   );
 }
 
-/** Speak Bengali text. Returns false if no Bengali voice is available. */
-export function speak(bn: string, rate = 0.85): boolean {
+/**
+ * Speak Bengali text at the learner's chosen speed (`slow` = slower still).
+ * Returns false if no Bengali voice is available.
+ */
+export function speak(bn: string, { slow = false }: { slow?: boolean } = {}): boolean {
   const s = synth();
+  const base = TTS_RATES[progressStore.get().settings.ttsSpeed];
+  const rate = slow ? base * 0.7 : base;
   const voice = getBengaliVoice();
   if (!s || !voice) return false;
   s.cancel();

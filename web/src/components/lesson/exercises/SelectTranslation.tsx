@@ -22,6 +22,7 @@ export function SelectTranslation({
         bengali={!bnToEn}
         locked={locked}
         onChange={onChange}
+        answer={ex.answer}
       />
     </div>
   );

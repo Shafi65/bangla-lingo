@@ -1,5 +1,6 @@
 import type { BnText as BnTextT } from "@/lib/types";
 import { SpeakButton } from "./SpeakButton";
+import { Translit } from "./Translit";
 
 /** Bengali script + transliteration (+ optional English), with a speaker. */
 export function BnText({
@@ -23,7 +24,9 @@ export function BnText({
         >
           {text.bn}
         </div>
-        <div className="text-sm font-semibold text-muted italic">{text.tr}</div>
+        <div className="text-sm font-semibold">
+          <Translit tr={text.tr} />
+        </div>
         {showEn && text.en && (
           <div className="text-sm font-semibold text-ink/80">{text.en}</div>
         )}
