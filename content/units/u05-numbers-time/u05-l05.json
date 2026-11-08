@@ -1,0 +1,346 @@
+{
+  "id": "u05-l05",
+  "unit": "u05-numbers-time",
+  "title": "What time is it?",
+  "status": "draft",
+  "tip": "**কয়টা বাজে?** (*koyta baje?*) = 'What time is it?' — literally 'How many has it struck?', like a clock bell. **বাজে** means 'rings / strikes'.\n\nThe answer is **number + -টা + বাজে**: **তিনটা বাজে** 'It's three o'clock', **এখন দশটা বাজে** 'It's ten now'. One o'clock uses the word you know: **একটা বাজে**. (Kolkata: তিনটে, দুটো.)\n\n**সময়** (*shomoy*) is 'time' in the sense of having time: **আপনার কি সময় আছে?** 'Do you have time?' **ঘণ্টা** = hour, **মিনিট** = minute.\n\nCulture: Bangladeshi time can be relaxed — a meeting 'at five' may start at quarter past. Also, Bangladesh has a single time zone, 6 hours ahead of GMT, with no daylight saving.",
+  "vocab": [
+    {
+      "id": "koyta",
+      "bn": "কয়টা",
+      "tr": "koyta",
+      "en": "what time; how many",
+      "notes": "কয় 'how many' + -টা."
+    },
+    {
+      "id": "baje",
+      "bn": "বাজে",
+      "tr": "baje",
+      "en": "strikes (the hour)",
+      "notes": "Lit. 'rings / strikes', like a clock bell. … টা বাজে = 'it is … o'clock'."
+    },
+    {
+      "id": "tinta",
+      "bn": "তিনটা",
+      "tr": "tinta",
+      "en": "three (o'clock)"
+    },
+    {
+      "id": "pachta",
+      "bn": "পাঁচটা",
+      "tr": "pa~chta",
+      "en": "five (o'clock)"
+    },
+    {
+      "id": "doshta",
+      "bn": "দশটা",
+      "tr": "doshta",
+      "en": "ten (o'clock)"
+    },
+    {
+      "id": "barota",
+      "bn": "বারোটা",
+      "tr": "barota",
+      "en": "twelve (o'clock)"
+    },
+    {
+      "id": "shomoy",
+      "bn": "সময়",
+      "tr": "shomoy",
+      "en": "time"
+    },
+    {
+      "id": "ghonta",
+      "bn": "ঘণ্টা",
+      "tr": "ghonta",
+      "en": "hour"
+    },
+    {
+      "id": "minit",
+      "bn": "মিনিট",
+      "tr": "minit",
+      "en": "minute"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "কয়টা",
+        "tr": "koyta",
+        "en": "what time; how many"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "what time; how many",
+        "very",
+        "here",
+        "of course"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "বাজে",
+        "tr": "baje",
+        "en": "strikes (the hour)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "are (polite)",
+        "is not / are not (polite)",
+        "strikes (the hour)",
+        "(I/we) eat"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "তিনটা",
+        "tr": "tinta",
+        "en": "three (o'clock)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "sixty",
+        "five (o'clock)",
+        "three (o'clock)",
+        "ten"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e04",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "পাঁচটা",
+        "tr": "pa~chta",
+        "en": "five (o'clock)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "five (o'clock)",
+        "one hundred",
+        "fifteen",
+        "thousand"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e05",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "দশটা",
+        "tr": "doshta",
+        "en": "ten (o'clock)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "ten (o'clock)",
+        "fifty",
+        "fourteen",
+        "thirteen"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e06",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "বারোটা",
+        "tr": "barota",
+        "en": "twelve (o'clock)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "twelve (o'clock)",
+        "one (person)",
+        "fourteen",
+        "seventy"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e07",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "সময়",
+        "tr": "shomoy",
+        "en": "time"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "mom",
+        "time",
+        "student (male)",
+        "elder sister"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e08",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "বাজে",
+          "tr": "baje",
+          "en": "strikes (the hour)"
+        },
+        {
+          "bn": "ঘণ্টা",
+          "tr": "ghonta",
+          "en": "hour"
+        },
+        {
+          "bn": "কয়টা",
+          "tr": "koyta",
+          "en": "what time; how many"
+        },
+        {
+          "bn": "মিনিট",
+          "tr": "minit",
+          "en": "minute"
+        },
+        {
+          "bn": "তিনটা",
+          "tr": "tinta",
+          "en": "three (o'clock)"
+        }
+      ]
+    },
+    {
+      "id": "e09",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমার এক ঘণ্টা সময় আছে।",
+        "tr": "amar ek ghonta shomoy achhe.",
+        "en": "I have one hour."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "this",
+        "I",
+        "have",
+        "from",
+        "one",
+        "hour",
+        "liking"
+      ],
+      "answer": [
+        "I",
+        "have",
+        "one",
+        "hour"
+      ]
+    },
+    {
+      "id": "e10",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "এখন বারোটা বাজে।",
+        "tr": "ekhon barota baje.",
+        "en": "It's twelve o'clock now."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "হ্যাঁ",
+        "ছেলে",
+        "কয়জন",
+        "এখন",
+        "বারোটা",
+        "বাজে"
+      ],
+      "answer": [
+        "এখন",
+        "বারোটা",
+        "বাজে"
+      ]
+    },
+    {
+      "id": "e11",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "এখন তিনটা বাজে।",
+        "tr": "ekhon tinta baje.",
+        "en": "It's three o'clock now."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "now",
+        "o'clock",
+        "It's",
+        "tasty",
+        "America",
+        "bad",
+        "three"
+      ],
+      "answer": [
+        "It's",
+        "three",
+        "o'clock",
+        "now"
+      ]
+    },
+    {
+      "id": "e12",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আমার দশ মিনিট সময় আছে।",
+        "tr": "amar dosh minit shomoy achhe.",
+        "en": "I have ten minutes."
+      },
+      "direction": "bn_to_en",
+      "accepted": [
+        "I have ten minutes.",
+        "I have ten minutes of time."
+      ]
+    },
+    {
+      "id": "e13",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আপনার কি সময় আছে?",
+        "tr": "apnar ki shomoy achhe?",
+        "en": "Do you have time?"
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "আপনার",
+        "আছে",
+        "ছোট",
+        "সময়",
+        "কোথায়",
+        "চার",
+        "কি"
+      ],
+      "answer": [
+        "আপনার",
+        "কি",
+        "সময়",
+        "আছে"
+      ]
+    },
+    {
+      "id": "e14",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "এখন কয়টা বাজে?",
+        "tr": "ekhon koyta baje?",
+        "en": "What time is it now?"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "এখন কয়টা বাজে?",
+        "তোমার কী পছন্দ?",
+        "ও খুব ভালো মেয়ে।",
+        "চাচা, আপনি কেমন আছেন?"
+      ],
+      "answer": 0
+    }
+  ]
+}

@@ -1,0 +1,332 @@
+{
+  "id": "u04-l02",
+  "unit": "u04-food",
+  "title": "Drinks",
+  "status": "draft",
+  "tip": "**পানি** (*pani*) is water in Bangladesh. In Kolkata — and among many Hindus in Bangladesh — it's **জল** (*jol*). The choice can signal community, so just follow what the people around you say.\n\n**চা** (*cha*) is everywhere: tiny roadside stalls serve **দুধ চা** (milk tea), often very sweet, or **রং চা** (red tea, no milk). **এক কাপ চা** = 'one cup tea' — no word for 'of'.\n\n**ছাড়া** (*chhara*) 'without' is a postposition, so it comes **after**: **চিনি ছাড়া** = 'without sugar'. Handy at a tea stall, because sugar is the default!\n\n**লবণ কোথায়?** 'Where's the salt?' — and **চিনি নেই** 'There's no sugar.'",
+  "vocab": [
+    {
+      "id": "pani",
+      "bn": "পানি",
+      "tr": "pani",
+      "en": "water",
+      "notes": "Standard in Bangladesh. Kolkata and many Hindu speakers say জল (jol)."
+    },
+    {
+      "id": "cha",
+      "bn": "চা",
+      "tr": "cha",
+      "en": "tea"
+    },
+    {
+      "id": "dudh",
+      "bn": "দুধ",
+      "tr": "dudh",
+      "en": "milk"
+    },
+    {
+      "id": "chini",
+      "bn": "চিনি",
+      "tr": "chini",
+      "en": "sugar"
+    },
+    {
+      "id": "lobon",
+      "bn": "লবণ",
+      "tr": "lobon",
+      "en": "salt",
+      "notes": "Colloquially also নুন (nun), especially in Kolkata."
+    },
+    {
+      "id": "chhara",
+      "bn": "ছাড়া",
+      "tr": "chhara",
+      "en": "without",
+      "notes": "Comes after the noun: চিনি ছাড়া 'without sugar'."
+    },
+    {
+      "id": "kap",
+      "bn": "কাপ",
+      "tr": "kap",
+      "en": "cup"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "পানি",
+        "tr": "pani",
+        "en": "water"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "water",
+        "mother's",
+        "rice",
+        "sugar"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "চা",
+        "tr": "cha",
+        "en": "tea"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "boy",
+        "grandmother (father's mother)",
+        "grandfather (mother's father)",
+        "tea"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "দুধ",
+        "tr": "dudh",
+        "en": "milk"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "elder sister; ma'am",
+        "English (language)",
+        "milk",
+        "meat"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e04",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "চিনি",
+        "tr": "chini",
+        "en": "sugar"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "sugar",
+        "aunt (mother's sister)",
+        "chicken",
+        "dad"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e05",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "লবণ",
+        "tr": "lobon",
+        "en": "salt"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "salt",
+        "husband",
+        "grandfather (mother's father)",
+        "dad"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e06",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ছাড়া",
+        "tr": "chhara",
+        "en": "without"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "I don't understand",
+        "everyone",
+        "person",
+        "without"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e07",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "কাপ",
+        "tr": "kap",
+        "en": "cup"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "chicken",
+        "aunt (chacha's wife)",
+        "uncle (mother's brother)",
+        "cup"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e08",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "চা",
+          "tr": "cha",
+          "en": "tea"
+        },
+        {
+          "bn": "পানি",
+          "tr": "pani",
+          "en": "water"
+        },
+        {
+          "bn": "দুধ",
+          "tr": "dudh",
+          "en": "milk"
+        },
+        {
+          "bn": "লবণ",
+          "tr": "lobon",
+          "en": "salt"
+        },
+        {
+          "bn": "চিনি",
+          "tr": "chini",
+          "en": "sugar"
+        }
+      ]
+    },
+    {
+      "id": "e09",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "চিনি নেই।",
+        "tr": "chini nei.",
+        "en": "There is no sugar."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "is",
+        "chicken",
+        "no",
+        "good",
+        "There",
+        "sugar",
+        "family"
+      ],
+      "answer": [
+        "There",
+        "is",
+        "no",
+        "sugar"
+      ]
+    },
+    {
+      "id": "e10",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "এটা কি দুধ?",
+        "tr": "eta ki dudh?",
+        "en": "Is this milk?"
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "তুমি",
+        "আছেন",
+        "দুধ",
+        "কি",
+        "না",
+        "এটা"
+      ],
+      "answer": [
+        "এটা",
+        "কি",
+        "দুধ"
+      ]
+    },
+    {
+      "id": "e11",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "লবণ কোথায়?",
+        "tr": "lobon kothay?",
+        "en": "Where is the salt?"
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "Where",
+        "everyone",
+        "meat",
+        "the",
+        "is",
+        "salt",
+        "he/she"
+      ],
+      "answer": [
+        "Where",
+        "is",
+        "the",
+        "salt"
+      ]
+    },
+    {
+      "id": "e12",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "চিনি ছাড়া চা।",
+        "tr": "chini chhara cha.",
+        "en": "Tea without sugar."
+      },
+      "direction": "bn_to_en",
+      "accepted": [
+        "Tea without sugar."
+      ]
+    },
+    {
+      "id": "e13",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "এক কাপ চা।",
+        "tr": "ek kap cha.",
+        "en": "One cup of tea."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "এক",
+        "কাপ",
+        "কি",
+        "ছাত্র",
+        "চা",
+        "নেই"
+      ],
+      "answer": [
+        "এক",
+        "কাপ",
+        "চা"
+      ]
+    },
+    {
+      "id": "e14",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "এখানে পানি আছে?",
+        "tr": "ekhane pani achhe?",
+        "en": "Is there water here?"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "আমি বাংলাদেশ থেকে এসেছি।",
+        "তারা ডাক্তার।",
+        "এখানে পানি আছে?",
+        "ভাত আর ডাল।"
+      ],
+      "answer": 2
+    }
+  ]
+}

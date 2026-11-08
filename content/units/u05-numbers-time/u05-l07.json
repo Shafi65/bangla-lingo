@@ -1,0 +1,358 @@
+{
+  "id": "u05-l07",
+  "unit": "u05-numbers-time",
+  "title": "Morning, noon & night",
+  "status": "draft",
+  "tip": "Bengali divides the day differently from English:\n\n- **সকাল** (*shokal*) — morning, until about 11\n- **দুপুর** (*dupur*) — midday to about 3 (lunch is the big meal)\n- **বিকাল** (*bikal*) — late afternoon, tea-and-snack time\n- **সন্ধ্যা** (*shondha*) — dusk/evening, from sunset (the Maghrib call to prayer) to about 8\n- **রাত** (*rat*) — night\n\nAdd **-এ** to say *when*: সকাল → **সকালে** 'in the morning', রাত → **রাতে** 'at night'. After a vowel it becomes **-য়**: সন্ধ্যা → **সন্ধ্যায়**.\n\nThere's no a.m./p.m. — put the part of the day before the time: **রাত দশটা** = 10 p.m., **দুপুর বারোটা** = 12 noon, **বিকাল পাঁচটা** = 5 p.m.",
+  "vocab": [
+    {
+      "id": "shokal",
+      "bn": "সকাল",
+      "tr": "shokal",
+      "en": "morning"
+    },
+    {
+      "id": "dupur",
+      "bn": "দুপুর",
+      "tr": "dupur",
+      "en": "noon"
+    },
+    {
+      "id": "bikal",
+      "bn": "বিকাল",
+      "tr": "bikal",
+      "en": "afternoon",
+      "notes": "Kolkata: বিকেল (bikel)."
+    },
+    {
+      "id": "shondha",
+      "bn": "সন্ধ্যা",
+      "tr": "shondha",
+      "en": "evening",
+      "notes": "From sunset until about 8 p.m."
+    },
+    {
+      "id": "rat",
+      "bn": "রাত",
+      "tr": "rat",
+      "en": "night"
+    },
+    {
+      "id": "shokale",
+      "bn": "সকালে",
+      "tr": "shokale",
+      "en": "in the morning"
+    },
+    {
+      "id": "dupure",
+      "bn": "দুপুরে",
+      "tr": "dupure",
+      "en": "at noon"
+    },
+    {
+      "id": "bikale",
+      "bn": "বিকালে",
+      "tr": "bikale",
+      "en": "in the afternoon"
+    },
+    {
+      "id": "shondhay",
+      "bn": "সন্ধ্যায়",
+      "tr": "shondhay",
+      "en": "in the evening"
+    },
+    {
+      "id": "rate",
+      "bn": "রাতে",
+      "tr": "rate",
+      "en": "at night"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "সকাল",
+        "tr": "shokal",
+        "en": "morning"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "aunt (mama's wife)",
+        "morning",
+        "the banana",
+        "sister"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "দুপুর",
+        "tr": "dupur",
+        "en": "noon"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "noon",
+        "sister",
+        "family",
+        "hour"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "বিকাল",
+        "tr": "bikal",
+        "en": "afternoon"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "morning",
+        "afternoon",
+        "grandfather (mother's father)",
+        "age"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e04",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "সন্ধ্যা",
+        "tr": "shondha",
+        "en": "evening"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "uncle (fufu's husband)",
+        "auntie (address)",
+        "grandfather (father's father)",
+        "evening"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e05",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "রাত",
+        "tr": "rat",
+        "en": "night"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "doctor",
+        "night",
+        "chicken",
+        "tea"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e06",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "সকালে",
+        "tr": "shokale",
+        "en": "in the morning"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "in the morning",
+        "there",
+        "what time; how many",
+        "very"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e07",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "দুপুরে",
+        "tr": "dupure",
+        "en": "at noon"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "at noon",
+        "very",
+        "how",
+        "here"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e08",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "সন্ধ্যা",
+          "tr": "shondha",
+          "en": "evening"
+        },
+        {
+          "bn": "সন্ধ্যায়",
+          "tr": "shondhay",
+          "en": "in the evening"
+        },
+        {
+          "bn": "বিকাল",
+          "tr": "bikal",
+          "en": "afternoon"
+        },
+        {
+          "bn": "রাত",
+          "tr": "rat",
+          "en": "night"
+        },
+        {
+          "bn": "বিকালে",
+          "tr": "bikale",
+          "en": "in the afternoon"
+        }
+      ]
+    },
+    {
+      "id": "e09",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "দুপুরে আমরা ভাত খাই।",
+        "tr": "dupure amra bhat khai.",
+        "en": "We eat rice at noon."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "doctor",
+        "noon",
+        "name",
+        "in",
+        "We",
+        "eat",
+        "rice",
+        "at"
+      ],
+      "answer": [
+        "We",
+        "eat",
+        "rice",
+        "at",
+        "noon"
+      ]
+    },
+    {
+      "id": "e10",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "এখন রাত দশটা।",
+        "tr": "ekhon rat doshta.",
+        "en": "It's 10 p.m. now."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "এখন",
+        "রাত",
+        "কী",
+        "দশটা",
+        "সতেরো",
+        "জানেন"
+      ],
+      "answer": [
+        "এখন",
+        "রাত",
+        "দশটা"
+      ]
+    },
+    {
+      "id": "e11",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "রাতে আমি রুটি খাই।",
+        "tr": "rate ami ruti khai.",
+        "en": "I eat roti at night."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "problem",
+        "eat",
+        "at",
+        "cow's",
+        "seventeen",
+        "night",
+        "I",
+        "roti"
+      ],
+      "answer": [
+        "I",
+        "eat",
+        "roti",
+        "at",
+        "night"
+      ]
+    },
+    {
+      "id": "e12",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "বিকালে আমি নাস্তা খাই।",
+        "tr": "bikale ami nashta khai.",
+        "en": "I have a snack in the afternoon."
+      },
+      "direction": "bn_to_en",
+      "accepted": [
+        "I have a snack in the afternoon.",
+        "I eat a snack in the afternoon."
+      ]
+    },
+    {
+      "id": "e13",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "সন্ধ্যায় আমার বাবা চা খান।",
+        "tr": "shondhay amar baba cha khan.",
+        "en": "My father drinks tea in the evening."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "খান",
+        "আম্মু",
+        "আমার",
+        "তুই",
+        "বড়",
+        "চা",
+        "সন্ধ্যায়",
+        "বাবা"
+      ],
+      "answer": [
+        "সন্ধ্যায়",
+        "আমার",
+        "বাবা",
+        "চা",
+        "খান"
+      ]
+    },
+    {
+      "id": "e14",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "এখন সকাল।",
+        "tr": "ekhon shokal.",
+        "en": "It's morning now."
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "এখন সকাল।",
+        "আমি একটা আম চাই।",
+        "কয়টা বাজে?",
+        "এখানে একজন ডাক্তার আছেন।"
+      ],
+      "answer": 0
+    }
+  ]
+}

@@ -1,0 +1,356 @@
+{
+  "id": "u05-l01",
+  "unit": "u05-numbers-time",
+  "title": "One to ten",
+  "status": "draft",
+  "tip": "**এক** (*ek*) you already know. Here are the rest:\n\n**১ এক · ২ দুই · ৩ তিন · ৪ চার · ৫ পাঁচ · ৬ ছয় · ৭ সাত · ৮ আট · ৯ নয় · ১০ দশ**\n\nNumbers go **before** the noun, and with people or family you can just say **আমার দুই ভাই আছে** 'I have two brothers'. For things, Bengali usually adds the classifier **-টা**: **দুইটা আম** 'two mangoes' (the noun stays singular!). Kolkata says **দুটো**.\n\n**নয়** (*noy*) 'nine' is spelled exactly like **নয়** 'is not'. Context always makes it clear.\n\nArithmetic is easy to say: **পাঁচ আর পাঁচ দশ** 'five and five (is) ten'.",
+  "vocab": [
+    {
+      "id": "dui",
+      "bn": "দুই",
+      "tr": "dui",
+      "en": "two",
+      "notes": "Kolkata and casual speech: দু (du) before classifiers."
+    },
+    {
+      "id": "tin",
+      "bn": "তিন",
+      "tr": "tin",
+      "en": "three"
+    },
+    {
+      "id": "char",
+      "bn": "চার",
+      "tr": "char",
+      "en": "four"
+    },
+    {
+      "id": "pach",
+      "bn": "পাঁচ",
+      "tr": "pa~ch",
+      "en": "five",
+      "notes": "Nasal vowel: 'paanch'."
+    },
+    {
+      "id": "chhoy",
+      "bn": "ছয়",
+      "tr": "chhoy",
+      "en": "six",
+      "notes": "In casual speech often ছ (chho) before classifiers: ছটা."
+    },
+    {
+      "id": "shat-seven",
+      "bn": "সাত",
+      "tr": "shat",
+      "en": "seven"
+    },
+    {
+      "id": "at",
+      "bn": "আট",
+      "tr": "at",
+      "en": "eight"
+    },
+    {
+      "id": "noy-nine",
+      "bn": "নয়",
+      "tr": "noy",
+      "en": "nine",
+      "notes": "Same spelling as নয় 'is not'; context makes it clear."
+    },
+    {
+      "id": "dosh",
+      "bn": "দশ",
+      "tr": "dosh",
+      "en": "ten"
+    },
+    {
+      "id": "duita",
+      "bn": "দুইটা",
+      "tr": "duita",
+      "en": "two (things)",
+      "notes": "দুই + -টা. Kolkata: দুটো (duto)."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "দুই",
+        "tr": "dui",
+        "en": "two"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "four",
+        "six",
+        "five",
+        "two"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "তিন",
+        "tr": "tin",
+        "en": "three"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "three",
+        "six",
+        "five",
+        "two (people)"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "চার",
+        "tr": "char",
+        "en": "four"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "four",
+        "three",
+        "five",
+        "one (person)"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e04",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "পাঁচ",
+        "tr": "pa~ch",
+        "en": "five"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "one (person)",
+        "five",
+        "nine",
+        "ten"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e05",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ছয়",
+        "tr": "chhoy",
+        "en": "six"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "eight",
+        "six",
+        "ten",
+        "two"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e06",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "সাত",
+        "tr": "shat",
+        "en": "seven"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "ten",
+        "seven",
+        "two (people)",
+        "five"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e07",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আট",
+        "tr": "at",
+        "en": "eight"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "one; a (formal)",
+        "eight",
+        "nine",
+        "two"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e08",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "দুইটা",
+          "tr": "duita",
+          "en": "two (things)"
+        },
+        {
+          "bn": "তিন",
+          "tr": "tin",
+          "en": "three"
+        },
+        {
+          "bn": "দশ",
+          "tr": "dosh",
+          "en": "ten"
+        },
+        {
+          "bn": "নয়",
+          "tr": "noy",
+          "en": "nine"
+        },
+        {
+          "bn": "দুই",
+          "tr": "dui",
+          "en": "two"
+        }
+      ]
+    },
+    {
+      "id": "e09",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "চার আর পাঁচ নয়।",
+        "tr": "char ar pa~ch noy.",
+        "en": "Four and five is nine."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "five",
+        "is",
+        "tasty",
+        "Four",
+        "and",
+        "nine",
+        "very",
+        "problem"
+      ],
+      "answer": [
+        "Four",
+        "and",
+        "five",
+        "is",
+        "nine"
+      ]
+    },
+    {
+      "id": "e10",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমি দুইটা আম চাই।",
+        "tr": "ami duita am chai.",
+        "en": "I want two mangoes."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "ওখানে",
+        "চাই",
+        "দুইটা",
+        "সে",
+        "আমি",
+        "এসেছি",
+        "আম"
+      ],
+      "answer": [
+        "আমি",
+        "দুইটা",
+        "আম",
+        "চাই"
+      ]
+    },
+    {
+      "id": "e11",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "এক, দুই, তিন।",
+        "tr": "ek, dui, tin.",
+        "en": "One, two, three."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "meat",
+        "three",
+        "two",
+        "One",
+        "Nadia",
+        "our"
+      ],
+      "answer": [
+        "One",
+        "two",
+        "three"
+      ]
+    },
+    {
+      "id": "e12",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "ছয়, সাত, আট।",
+        "tr": "chhoy, shat, at.",
+        "en": "Six, seven, eight."
+      },
+      "direction": "bn_to_en",
+      "accepted": [
+        "Six, seven, eight."
+      ]
+    },
+    {
+      "id": "e13",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমার তিন বোন আছে।",
+        "tr": "amar tin bon achhe.",
+        "en": "I have three sisters."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "তিন",
+        "ওরা",
+        "আমার",
+        "আপনার",
+        "আছিস",
+        "আছে",
+        "বোন"
+      ],
+      "answer": [
+        "আমার",
+        "তিন",
+        "বোন",
+        "আছে"
+      ]
+    },
+    {
+      "id": "e14",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আমার দুই ভাই আছে।",
+        "tr": "amar dui bhai achhe.",
+        "en": "I have two brothers."
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "তিনি শিক্ষক।",
+        "আমার দুই ভাই আছে।",
+        "নানি কেমন আছেন?",
+        "নমস্কার।"
+      ],
+      "answer": 1
+    }
+  ]
+}

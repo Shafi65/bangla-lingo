@@ -1,0 +1,346 @@
+{
+  "id": "u05-l06",
+  "unit": "u05-numbers-time",
+  "title": "Half past & quarter",
+  "status": "draft",
+  "tip": "Bengali tells half and quarter hours with special words that go **before** the hour:\n\n- **সাড়ে** (*share*) = half past: **সাড়ে তিনটা** 3:30, **সাড়ে বারোটা** 12:30\n- **সোয়া** (*shoya*) = quarter past: **সোয়া পাঁচটা** 5:15\n- **পৌনে** (*poune*) = quarter to: **পৌনে দশটা** 9:45 (lit. 'ten less a quarter')\n\n**Exception:** 1:30 and 2:30 have their own words — **দেড়টা** (*derta*) and **আড়াইটা** (*araita*). Never say *সাড়ে একটা*!\n\nThese work for amounts too: **দেড় ঘণ্টা** = an hour and a half, **আড়াই ঘণ্টা** = two and a half hours, **সাড়ে তিন** = 3½. You'll hear them constantly with prices and kilos at the bazaar.",
+  "vocab": [
+    {
+      "id": "share",
+      "bn": "সাড়ে",
+      "tr": "share",
+      "en": "half past",
+      "notes": "সাড়ে তিনটা = 3:30; সাড়ে তিন = 3½. Not used with 1 or 2."
+    },
+    {
+      "id": "der",
+      "bn": "দেড়",
+      "tr": "der",
+      "en": "one and a half"
+    },
+    {
+      "id": "derta",
+      "bn": "দেড়টা",
+      "tr": "derta",
+      "en": "half past one"
+    },
+    {
+      "id": "arai",
+      "bn": "আড়াই",
+      "tr": "arai",
+      "en": "two and a half"
+    },
+    {
+      "id": "araita",
+      "bn": "আড়াইটা",
+      "tr": "araita",
+      "en": "half past two"
+    },
+    {
+      "id": "shoya",
+      "bn": "সোয়া",
+      "tr": "shoya",
+      "en": "quarter past"
+    },
+    {
+      "id": "poune",
+      "bn": "পৌনে",
+      "tr": "poune",
+      "en": "quarter to"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "সাড়ে",
+        "tr": "share",
+        "en": "half past"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "ten (o'clock)",
+        "twenty",
+        "half past",
+        "five (o'clock)"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "দেড়",
+        "tr": "der",
+        "en": "one and a half"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "one (person)",
+        "eight",
+        "forty",
+        "one and a half"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "দেড়টা",
+        "tr": "derta",
+        "en": "half past one"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "seven",
+        "half past one",
+        "sixteen",
+        "six"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e04",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আড়াই",
+        "tr": "arai",
+        "en": "two and a half"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "two (people)",
+        "quarter to",
+        "two and a half",
+        "forty"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e05",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আড়াইটা",
+        "tr": "araita",
+        "en": "half past two"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "twenty",
+        "two",
+        "two (people)",
+        "half past two"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e06",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "সোয়া",
+        "tr": "shoya",
+        "en": "quarter past"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "quarter past",
+        "seventy",
+        "seven",
+        "half past two"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e07",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "পৌনে",
+        "tr": "poune",
+        "en": "quarter to"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "one; a",
+        "quarter to",
+        "forty",
+        "ten (o'clock)"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e08",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "সাড়ে",
+          "tr": "share",
+          "en": "half past"
+        },
+        {
+          "bn": "পৌনে",
+          "tr": "poune",
+          "en": "quarter to"
+        },
+        {
+          "bn": "সোয়া",
+          "tr": "shoya",
+          "en": "quarter past"
+        },
+        {
+          "bn": "আড়াইটা",
+          "tr": "araita",
+          "en": "half past two"
+        },
+        {
+          "bn": "দেড়টা",
+          "tr": "derta",
+          "en": "half past one"
+        }
+      ]
+    },
+    {
+      "id": "e09",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমার দেড় ঘণ্টা সময় আছে।",
+        "tr": "amar der ghonta shomoy achhe.",
+        "en": "I have an hour and a half."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "a",
+        "have",
+        "chicken",
+        "I",
+        "and",
+        "sister",
+        "half",
+        "an",
+        "flatbread",
+        "hour"
+      ],
+      "answer": [
+        "I",
+        "have",
+        "an",
+        "hour",
+        "and",
+        "a",
+        "half"
+      ]
+    },
+    {
+      "id": "e10",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "সোয়া পাঁচটা বাজে।",
+        "tr": "shoya pa~chta baje.",
+        "en": "It's quarter past five."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "তিনি",
+        "বাজে",
+        "পাঁচটা",
+        "আংকেল",
+        "সবজি",
+        "সোয়া"
+      ],
+      "answer": [
+        "সোয়া",
+        "পাঁচটা",
+        "বাজে"
+      ]
+    },
+    {
+      "id": "e11",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমাদের আড়াই ঘণ্টা সময় আছে।",
+        "tr": "amader arai ghonta shomoy achhe.",
+        "en": "We have two and a half hours."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "and",
+        "two",
+        "a",
+        "fourteen",
+        "have",
+        "hours",
+        "half",
+        "We",
+        "America",
+        "eighty"
+      ],
+      "answer": [
+        "We",
+        "have",
+        "two",
+        "and",
+        "a",
+        "half",
+        "hours"
+      ]
+    },
+    {
+      "id": "e12",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "পৌনে দশটা বাজে।",
+        "tr": "poune doshta baje.",
+        "en": "It's quarter to ten."
+      },
+      "direction": "bn_to_en",
+      "accepted": [
+        "It's quarter to ten.",
+        "It is 9:45.",
+        "It's a quarter to ten."
+      ]
+    },
+    {
+      "id": "e13",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "এখন সাড়ে বারোটা বাজে।",
+        "tr": "ekhon share barota baje.",
+        "en": "It's half past twelve now."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "বারোটা",
+        "বাজে",
+        "চাচা",
+        "লবণ",
+        "সাড়ে",
+        "বিরিয়ানি",
+        "এখন"
+      ],
+      "answer": [
+        "এখন",
+        "সাড়ে",
+        "বারোটা",
+        "বাজে"
+      ]
+    },
+    {
+      "id": "e14",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "এখন আড়াইটা বাজে।",
+        "tr": "ekhon araita baje.",
+        "en": "It's half past two now."
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "এখন আড়াইটা বাজে।",
+        "সে ডাক্তার।",
+        "আসসালামু আলাইকুম।",
+        "জি, অবশ্যই।"
+      ],
+      "answer": 0
+    }
+  ]
+}

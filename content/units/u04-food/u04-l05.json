@@ -1,0 +1,338 @@
+{
+  "id": "u04-l05",
+  "unit": "u04-food",
+  "title": "Fruit & classifiers",
+  "status": "draft",
+  "tip": "Bengali has no 'a' or 'the' — it uses **classifiers** instead:\n\n- **একটা আম** (*ekta am*) — *a* mango (number + -টা)\n- **আমটা** (*amta*) — *the* mango (noun + -টা)\n- **আমগুলো** (*amgulo*) — *the* mangoes (noun + -গুলো)\n\nSo putting **-টা** *after* the noun makes it specific, like 'the'. Putting it on a *number* gives 'a / one'.\n\n**-টি** (*-ti*) is the more formal or written version (**একটি আম**); it also sounds a bit gentle or affectionate, and Kolkata speakers use it more. **-গুলি** is the written version of -গুলো.\n\nBangladesh is mango heaven: summer (*aam-kathaler din*, 'mango and jackfruit days') brings dozens of varieties like *Langra*, *Himsagar* and *Fazli*.",
+  "vocab": [
+    {
+      "id": "kola",
+      "bn": "কলা",
+      "tr": "kola",
+      "en": "banana"
+    },
+    {
+      "id": "fol",
+      "bn": "ফল",
+      "tr": "fol",
+      "en": "fruit"
+    },
+    {
+      "id": "amta",
+      "bn": "আমটা",
+      "tr": "amta",
+      "en": "the mango",
+      "notes": "আম + -টা: a specific mango."
+    },
+    {
+      "id": "amgulo",
+      "bn": "আমগুলো",
+      "tr": "amgulo",
+      "en": "the mangoes",
+      "notes": "আম + -গুলো (specific plural). Written: আমগুলি."
+    },
+    {
+      "id": "kolata",
+      "bn": "কলাটা",
+      "tr": "kolata",
+      "en": "the banana"
+    },
+    {
+      "id": "kolagulo",
+      "bn": "কলাগুলো",
+      "tr": "kolagulo",
+      "en": "the bananas"
+    },
+    {
+      "id": "ekti",
+      "bn": "একটি",
+      "tr": "ekti",
+      "en": "one; a (formal)",
+      "notes": "Formal/written version of একটা; also sounds gentle or affectionate. Common in Kolkata speech."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "কলা",
+        "tr": "kola",
+        "en": "banana"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "auntie (address)",
+        "vegetables",
+        "the banana",
+        "banana"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ফল",
+        "tr": "fol",
+        "en": "fruit"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "tea",
+        "fruit",
+        "aunt (mother's sister)",
+        "cow's"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আমটা",
+        "tr": "amta",
+        "en": "the mango"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "food",
+        "country",
+        "the mango",
+        "English (language)"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e04",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আমগুলো",
+        "tr": "amgulo",
+        "en": "the mangoes"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "grandfather (father's father)",
+        "the mangoes",
+        "water",
+        "uncle (father's brother)"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e05",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "কলাটা",
+        "tr": "kolata",
+        "en": "the banana"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "aunt (mother's sister)",
+        "dad",
+        "auntie (address)",
+        "the banana"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e06",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "কলাগুলো",
+        "tr": "kolagulo",
+        "en": "the bananas"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "student (female)",
+        "father",
+        "the bananas",
+        "boy"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e07",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "একটি",
+        "tr": "ekti",
+        "en": "one; a (formal)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "one; a (formal)",
+        "one; a",
+        "one (person)",
+        "two (people)"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e08",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "ফল",
+          "tr": "fol",
+          "en": "fruit"
+        },
+        {
+          "bn": "আমটা",
+          "tr": "amta",
+          "en": "the mango"
+        },
+        {
+          "bn": "কলাটা",
+          "tr": "kolata",
+          "en": "the banana"
+        },
+        {
+          "bn": "কলাগুলো",
+          "tr": "kolagulo",
+          "en": "the bananas"
+        },
+        {
+          "bn": "আমগুলো",
+          "tr": "amgulo",
+          "en": "the mangoes"
+        }
+      ]
+    },
+    {
+      "id": "e09",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমটা খুব ভালো।",
+        "tr": "amta khub bhalo.",
+        "en": "The mango is very good."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "fruit",
+        "very",
+        "mango",
+        "The",
+        "America",
+        "is",
+        "good",
+        "mother's"
+      ],
+      "answer": [
+        "The",
+        "mango",
+        "is",
+        "very",
+        "good"
+      ]
+    },
+    {
+      "id": "e10",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "কলাগুলো এখানে আছে।",
+        "tr": "kolagulo ekhane achhe.",
+        "en": "The bananas are here."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "সবজি",
+        "তারা",
+        "কলাগুলো",
+        "আছে",
+        "এখানে",
+        "ছাত্রী"
+      ],
+      "answer": [
+        "কলাগুলো",
+        "এখানে",
+        "আছে"
+      ]
+    },
+    {
+      "id": "e11",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "এখানে একটি আম আছে।",
+        "tr": "ekhane ekti am achhe.",
+        "en": "There is a mango here."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "There",
+        "without",
+        "here",
+        "a",
+        "vegetables",
+        "mango",
+        "is",
+        "lentils"
+      ],
+      "answer": [
+        "There",
+        "is",
+        "a",
+        "mango",
+        "here"
+      ]
+    },
+    {
+      "id": "e12",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "কলাটা আমার।",
+        "tr": "kolata amar.",
+        "en": "The banana is mine."
+      },
+      "direction": "bn_to_en",
+      "accepted": [
+        "The banana is mine."
+      ]
+    },
+    {
+      "id": "e13",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আপনি কী ফল খান?",
+        "tr": "apni ki fol khan?",
+        "en": "What fruit do you eat?"
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "এটা",
+        "খান",
+        "ফল",
+        "আপনি",
+        "কী",
+        "আপনার",
+        "তার"
+      ],
+      "answer": [
+        "আপনি",
+        "কী",
+        "ফল",
+        "খান"
+      ]
+    },
+    {
+      "id": "e14",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আমগুলো কোথায়?",
+        "tr": "amgulo kothay?",
+        "en": "Where are the mangoes?"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "মামা আমার মায়ের ভাই।",
+        "আপু, তুমি কোথায়?",
+        "উনি আমার স্বামী।",
+        "আমগুলো কোথায়?"
+      ],
+      "answer": 3
+    }
+  ]
+}

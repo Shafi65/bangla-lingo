@@ -1,0 +1,334 @@
+{
+  "id": "u04-l03",
+  "unit": "u04-food",
+  "title": "I eat, you eat",
+  "status": "draft",
+  "tip": "Here's your first full verb. The stem is **খা-** (*kha-*), and the ending shows who:\n\n| | |\n|---|---|\n| আমি / আমরা | **খাই** (*khai*) |\n| তুই | **খাস** (*khash*) |\n| তুমি | **খাও** (*khao*) |\n| আপনি / তিনি / উনি | **খান** (*khan*) |\n| সে / ও / তারা | **খায়** (*khay*) |\n\nNotice again: polite forms end in **-ন**, and polite 'you' = polite 'he/she'.\n\nBengali **eats** drinks: **আমি পানি খাই** = 'I drink water', **চা খাই** = 'I drink tea'. (Even cigarettes are 'eaten'!)\n\nTo say 'don't', put **না** *after* the verb: **আমি মাংস খাই না** = 'I don't eat meat.' The word order is subject – object – verb: আমি ভাত খাই = 'I rice eat.'",
+  "vocab": [
+    {
+      "id": "khai",
+      "bn": "খাই",
+      "tr": "khai",
+      "en": "(I/we) eat",
+      "notes": "Goes with আমি / আমরা."
+    },
+    {
+      "id": "khash",
+      "bn": "খাস",
+      "tr": "khash",
+      "en": "(you, intimate) eat",
+      "notes": "Goes with তুই / তোরা."
+    },
+    {
+      "id": "khao",
+      "bn": "খাও",
+      "tr": "khao",
+      "en": "(you, familiar) eat",
+      "notes": "Goes with তুমি / তোমরা. Also 'Eat!' (familiar command)."
+    },
+    {
+      "id": "khan",
+      "bn": "খান",
+      "tr": "khan",
+      "en": "(you/he/she, polite) eat",
+      "notes": "Goes with আপনি, তিনি, উনি."
+    },
+    {
+      "id": "khay",
+      "bn": "খায়",
+      "tr": "khay",
+      "en": "(he/she/they) eats",
+      "notes": "Goes with সে, ও, তারা."
+    },
+    {
+      "id": "ruti",
+      "bn": "রুটি",
+      "tr": "ruti",
+      "en": "flatbread"
+    },
+    {
+      "id": "nashta",
+      "bn": "নাস্তা",
+      "tr": "nashta",
+      "en": "breakfast",
+      "notes": "Breakfast, or an afternoon snack with tea. Kolkata: জলখাবার (jolkhabar)."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "খাই",
+        "tr": "khai",
+        "en": "(I/we) eat"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "are (polite)",
+        "(you, polite) have come",
+        "(I/we) eat",
+        "am"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "খাস",
+        "tr": "khash",
+        "en": "(you, intimate) eat"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "are (intimate)",
+        "is not (here); there isn't",
+        "(you, familiar) eat",
+        "(you, intimate) eat"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "খাও",
+        "tr": "khao",
+        "en": "(you, familiar) eat"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "(you, polite) know",
+        "(you, familiar) eat",
+        "am not",
+        "(I) have come"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e04",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "খান",
+        "tr": "khan",
+        "en": "(you/he/she, polite) eat"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "is not",
+        "(you/he/she, polite) eat",
+        "is not / are not (polite)",
+        "(you, polite) know"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e05",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "খায়",
+        "tr": "khay",
+        "en": "(he/she/they) eats"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "am",
+        "(I) know",
+        "(he/she/they) eats",
+        "are (familiar)"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e06",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "রুটি",
+        "tr": "ruti",
+        "en": "flatbread"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "country",
+        "flatbread",
+        "elder sister",
+        "cup"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e07",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "নাস্তা",
+        "tr": "nashta",
+        "en": "breakfast"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "English (language)",
+        "breakfast",
+        "elder sister",
+        "food"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e08",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "খাস",
+          "tr": "khash",
+          "en": "(you, intimate) eat"
+        },
+        {
+          "bn": "খাও",
+          "tr": "khao",
+          "en": "(you, familiar) eat"
+        },
+        {
+          "bn": "খাই",
+          "tr": "khai",
+          "en": "(I/we) eat"
+        },
+        {
+          "bn": "খায়",
+          "tr": "khay",
+          "en": "(he/she/they) eats"
+        },
+        {
+          "bn": "খান",
+          "tr": "khan",
+          "en": "(you/he/she, polite) eat"
+        }
+      ]
+    },
+    {
+      "id": "e09",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "তিনি মাছ খান।",
+        "tr": "tini machh khan.",
+        "en": "He eats fish."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "am",
+        "He",
+        "eats",
+        "fish",
+        "girl",
+        "they"
+      ],
+      "answer": [
+        "He",
+        "eats",
+        "fish"
+      ]
+    },
+    {
+      "id": "e10",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমি ভাত খাই।",
+        "tr": "ami bhat khai.",
+        "en": "I eat rice."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "আমি",
+        "স্ত্রী",
+        "খাস",
+        "আমাদের",
+        "ভাত",
+        "খাই"
+      ],
+      "answer": [
+        "আমি",
+        "ভাত",
+        "খাই"
+      ]
+    },
+    {
+      "id": "e11",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমরা নাস্তা খাই।",
+        "tr": "amra nashta khai.",
+        "en": "We eat breakfast."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "everyone",
+        "my",
+        "eat",
+        "breakfast",
+        "OK",
+        "We"
+      ],
+      "answer": [
+        "We",
+        "eat",
+        "breakfast"
+      ]
+    },
+    {
+      "id": "e12",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "সে রুটি খায়।",
+        "tr": "she ruti khay.",
+        "en": "He eats roti."
+      },
+      "direction": "bn_to_en",
+      "accepted": [
+        "He eats roti.",
+        "She eats roti.",
+        "He eats bread.",
+        "She eats flatbread."
+      ]
+    },
+    {
+      "id": "e13",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আপনি কী খান?",
+        "tr": "apni ki khan?",
+        "en": "What do you eat?"
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "কী",
+        "খান",
+        "বাচ্চা",
+        "কাপ",
+        "আপনি",
+        "ছাড়া"
+      ],
+      "answer": [
+        "আপনি",
+        "কী",
+        "খান"
+      ]
+    },
+    {
+      "id": "e14",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "তুমি কী খাও?",
+        "tr": "tumi ki khao?",
+        "en": "What do you eat?"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "সবাই কেমন আছে?",
+        "তুমি কী খাও?",
+        "উনি কে?",
+        "আপনার দেশ কোথায়?"
+      ],
+      "answer": 1
+    }
+  ]
+}

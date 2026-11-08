@@ -1,0 +1,280 @@
+{
+  "id": "u05-l03",
+  "unit": "u05-numbers-time",
+  "title": "Bengali digits ০–৯",
+  "status": "draft",
+  "tip": "Bengali has its own digits, used on prices, clocks, buses and calendars in Bangladesh.\n\n- **০ ১ ২ ৩ ৪ ৫ ৬ ৭ ৮ ৯** = 0 1 2 3 4 5 6 7 8 9\n- They combine just like ours: **২০** is 20, **১২৫** is 125.\n\nWatch the look-alikes: **৪** (4) resembles the number 8, and **৭** (7) resembles a tick. **৯** (9) looks like the letter ৯, not like our 9.",
+  "vocab": [
+    {
+      "id": "shunno-digit",
+      "bn": "০",
+      "tr": "shunno",
+      "en": "0",
+      "notes": "The digit 0"
+    },
+    {
+      "id": "ek-digit",
+      "bn": "১",
+      "tr": "ek",
+      "en": "1",
+      "notes": "The digit 1"
+    },
+    {
+      "id": "dui-digit",
+      "bn": "২",
+      "tr": "dui",
+      "en": "2",
+      "notes": "The digit 2"
+    },
+    {
+      "id": "tin-digit",
+      "bn": "৩",
+      "tr": "tin",
+      "en": "3",
+      "notes": "The digit 3"
+    },
+    {
+      "id": "char-digit",
+      "bn": "৪",
+      "tr": "char",
+      "en": "4",
+      "notes": "The digit 4. Careful: looks like an English 8 but is FOUR."
+    },
+    {
+      "id": "pach-digit",
+      "bn": "৫",
+      "tr": "pa~ch",
+      "en": "5",
+      "notes": "The digit 5"
+    },
+    {
+      "id": "chhoy-digit",
+      "bn": "৬",
+      "tr": "chhoy",
+      "en": "6",
+      "notes": "The digit 6"
+    },
+    {
+      "id": "shat-digit",
+      "bn": "৭",
+      "tr": "shat",
+      "en": "7",
+      "notes": "The digit 7. Looks a bit like an English 9."
+    },
+    {
+      "id": "at-digit",
+      "bn": "৮",
+      "tr": "at",
+      "en": "8",
+      "notes": "The digit 8. Looks a bit like an English 'b' or a 4 turned around."
+    },
+    {
+      "id": "noy-digit",
+      "bn": "৯",
+      "tr": "noy",
+      "en": "9",
+      "notes": "The digit 9"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "script_recognize",
+      "glyph": "০",
+      "options": [
+        "char",
+        "shunno",
+        "chhoy",
+        "noy"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e02",
+      "type": "script_recognize",
+      "glyph": "১",
+      "options": [
+        "tin",
+        "ek",
+        "shat",
+        "pa~ch"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e03",
+      "type": "script_recognize",
+      "glyph": "২",
+      "options": [
+        "noy",
+        "dui",
+        "chhoy",
+        "ek"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e04",
+      "type": "script_recognize",
+      "glyph": "৩",
+      "options": [
+        "noy",
+        "dui",
+        "ek",
+        "tin"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e05",
+      "type": "script_recognize",
+      "glyph": "৪",
+      "options": [
+        "char",
+        "pa~ch",
+        "tin",
+        "shunno"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e06",
+      "type": "script_recognize",
+      "glyph": "৫",
+      "options": [
+        "at",
+        "noy",
+        "pa~ch",
+        "chhoy"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e07",
+      "type": "script_recognize",
+      "glyph": "৬",
+      "options": [
+        "at",
+        "chhoy",
+        "dui",
+        "ek"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e08",
+      "type": "script_recognize",
+      "glyph": "৭",
+      "options": [
+        "shat",
+        "ek",
+        "shunno",
+        "chhoy"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e09",
+      "type": "script_recognize",
+      "glyph": "৮",
+      "options": [
+        "shat",
+        "char",
+        "pa~ch",
+        "at"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e10",
+      "type": "script_recognize",
+      "glyph": "৯",
+      "options": [
+        "noy",
+        "dui",
+        "shunno",
+        "pa~ch"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e11",
+      "type": "listen_select",
+      "audio": {
+        "bn": "০",
+        "tr": "shunno",
+        "en": "0"
+      },
+      "options": [
+        "৯",
+        "৫",
+        "৭",
+        "০"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e12",
+      "type": "listen_select",
+      "audio": {
+        "bn": "১",
+        "tr": "ek",
+        "en": "1"
+      },
+      "options": [
+        "৪",
+        "৬",
+        "১",
+        "৭"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e13",
+      "type": "listen_select",
+      "audio": {
+        "bn": "২",
+        "tr": "dui",
+        "en": "2"
+      },
+      "options": [
+        "২",
+        "৮",
+        "১",
+        "৫"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e14",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "৯",
+          "tr": "noy",
+          "en": "9"
+        },
+        {
+          "bn": "৮",
+          "tr": "at",
+          "en": "8"
+        },
+        {
+          "bn": "৩",
+          "tr": "tin",
+          "en": "3"
+        },
+        {
+          "bn": "৬",
+          "tr": "chhoy",
+          "en": "6"
+        },
+        {
+          "bn": "৪",
+          "tr": "char",
+          "en": "4"
+        }
+      ]
+    }
+  ]
+}

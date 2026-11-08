@@ -89,14 +89,32 @@
       "title": "Food",
       "description": "Rice, fish, tea; eating, wanting and liking",
       "track": "main",
-      "lessons": []
+      "lessons": [
+        "u04-l01",
+        "u04-l02",
+        "u04-l03",
+        "u04-l04",
+        "u04-l05",
+        "u04-l06",
+        "u04-l07"
+      ]
     },
     {
       "id": "u05-numbers-time",
       "title": "Numbers & time",
       "description": "Count to 100, tell the time, days of the week",
       "track": "main",
-      "lessons": []
+      "lessons": [
+        "u05-l01",
+        "u05-l02",
+        "u05-l03",
+        "u05-l04",
+        "u05-l05",
+        "u05-l06",
+        "u05-l07",
+        "u05-l08",
+        "u05-l09"
+      ]
     },
     {
       "id": "s04-conjuncts",

@@ -1,0 +1,340 @@
+{
+  "id": "u04-l01",
+  "unit": "u04-food",
+  "title": "Rice & curry",
+  "status": "draft",
+  "tip": "There's a famous saying: **মাছে ভাতে বাঙালি** — 'fish and rice make a Bengali'. A typical meal is **ভাত** (rice) with **ডাল** (lentils), **সবজি** (vegetables) and **মাছ** (fish) or **মাংস** (meat).\n\n**ভাত** means *cooked* rice — uncooked grains are চাল (*chal*). ভাত is so central that 'Have you eaten rice?' just means 'Have you eaten?'\n\n**গরুর মাংস** (*gorur mangsho*) is literally 'cow's meat' = beef. It's widely eaten by Bangladeshi Muslims, especially at Eid, but most Hindus don't eat beef — so it's polite to check before offering it. **মুরগি** is chicken (the bird and the meat).\n\nNo verbs yet — just point and name: **এটা কী? — এটা ডাল।**",
+  "vocab": [
+    {
+      "id": "khabar",
+      "bn": "খাবার",
+      "tr": "khabar",
+      "en": "food"
+    },
+    {
+      "id": "bhat",
+      "bn": "ভাত",
+      "tr": "bhat",
+      "en": "rice",
+      "notes": "Cooked rice only (uncooked rice is চাল chal). ভাত also stands for 'a meal' in general."
+    },
+    {
+      "id": "dal",
+      "bn": "ডাল",
+      "tr": "dal",
+      "en": "lentils"
+    },
+    {
+      "id": "machh",
+      "bn": "মাছ",
+      "tr": "machh",
+      "en": "fish"
+    },
+    {
+      "id": "mangsho",
+      "bn": "মাংস",
+      "tr": "mangsho",
+      "en": "meat"
+    },
+    {
+      "id": "murgi",
+      "bn": "মুরগি",
+      "tr": "murgi",
+      "en": "chicken"
+    },
+    {
+      "id": "gorur",
+      "bn": "গরুর",
+      "tr": "gorur",
+      "en": "cow's",
+      "notes": "গরু 'cow' + -র. গরুর মাংস (gorur mangsho) = beef."
+    },
+    {
+      "id": "dim",
+      "bn": "ডিম",
+      "tr": "dim",
+      "en": "egg"
+    },
+    {
+      "id": "shobji",
+      "bn": "সবজি",
+      "tr": "shobji",
+      "en": "vegetables"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "খাবার",
+        "tr": "khabar",
+        "en": "food"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "aunt (father's sister)",
+        "meat",
+        "wife",
+        "food"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ভাত",
+        "tr": "bhat",
+        "en": "rice"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "mother's",
+        "aunt (mama's wife)",
+        "rice",
+        "aunt (mother's sister)"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ডাল",
+        "tr": "dal",
+        "en": "lentils"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "auntie (address)",
+        "student (male)",
+        "lentils",
+        "father"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e04",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "মাছ",
+        "tr": "machh",
+        "en": "fish"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "girl",
+        "fish",
+        "uncle (fufu's husband)",
+        "friend"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e05",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "মাংস",
+        "tr": "mangsho",
+        "en": "meat"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "person",
+        "egg",
+        "meat",
+        "doctor"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e06",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "মুরগি",
+        "tr": "murgi",
+        "en": "chicken"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "uncle (khala's husband)",
+        "aunt (mama's wife)",
+        "chicken",
+        "grandfather (father's father)"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e07",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "গরুর",
+        "tr": "gorur",
+        "en": "cow's"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "student (male)",
+        "uncle (khala's husband)",
+        "teacher",
+        "cow's"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e08",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "ডাল",
+          "tr": "dal",
+          "en": "lentils"
+        },
+        {
+          "bn": "সবজি",
+          "tr": "shobji",
+          "en": "vegetables"
+        },
+        {
+          "bn": "ডিম",
+          "tr": "dim",
+          "en": "egg"
+        },
+        {
+          "bn": "ভাত",
+          "tr": "bhat",
+          "en": "rice"
+        },
+        {
+          "bn": "খাবার",
+          "tr": "khabar",
+          "en": "food"
+        }
+      ]
+    },
+    {
+      "id": "e09",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "না, ওটা মাংস।",
+        "tr": "na, ota mangsho.",
+        "en": "No, that's meat."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "where",
+        "No",
+        "that's",
+        "our",
+        "fish",
+        "meat"
+      ],
+      "answer": [
+        "No",
+        "that's",
+        "meat"
+      ]
+    },
+    {
+      "id": "e10",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "ভাত আর ডাল।",
+        "tr": "bhat ar dal.",
+        "en": "Rice and lentils."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "তিনি",
+        "আর",
+        "ডাল",
+        "আমার",
+        "জানেন",
+        "ভাত"
+      ],
+      "answer": [
+        "ভাত",
+        "আর",
+        "ডাল"
+      ]
+    },
+    {
+      "id": "e11",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "এটা কি গরুর মাংস?",
+        "tr": "eta ki gorur mangsho?",
+        "en": "Is this beef?"
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "who",
+        "what",
+        "this",
+        "beef",
+        "vegetables",
+        "Is"
+      ],
+      "answer": [
+        "Is",
+        "this",
+        "beef"
+      ]
+    },
+    {
+      "id": "e12",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "সবজি খুব ভালো।",
+        "tr": "shobji khub bhalo.",
+        "en": "The vegetables are very good."
+      },
+      "direction": "bn_to_en",
+      "accepted": [
+        "The vegetables are very good.",
+        "Vegetables are very good."
+      ]
+    },
+    {
+      "id": "e13",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "না, এটা মুরগি।",
+        "tr": "na, eta murgi.",
+        "en": "No, this is chicken."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "বাবার",
+        "জানেন",
+        "না",
+        "এটা",
+        "মুরগি",
+        "ভাইয়া"
+      ],
+      "answer": [
+        "না",
+        "এটা",
+        "মুরগি"
+      ]
+    },
+    {
+      "id": "e14",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "খাবার কোথায়?",
+        "tr": "khabar kothay?",
+        "en": "Where is the food?"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "উনি আমার স্বামী।",
+        "চাচা, আপনি কেমন আছেন?",
+        "খাবার কোথায়?",
+        "তোমরা কেমন আছো?"
+      ],
+      "answer": 2
+    }
+  ]
+}

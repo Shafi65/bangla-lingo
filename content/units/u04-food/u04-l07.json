@@ -1,0 +1,316 @@
+{
+  "id": "u04-l07",
+  "unit": "u04-food",
+  "title": "Review: let's eat!",
+  "status": "draft",
+  "tip": "One new word: **বিরিয়ানি** (*biriyani*). Old Dhaka's **কাচ্চি বিরিয়ানি** is legendary, and biryani is the star of weddings and celebrations.\n\nAnd don't forget **ইলিশ** (*ilish*, hilsa) from the vowels unit — Bangladesh's national fish, often cooked in mustard (*shorshe ilish*).\n\nCheck yourself:\n\n- eat: আমি **খাই**, তুমি **খাও**, আপনি **খান**, সে **খায়**\n- want: **চাই** / **খেতে চাই**\n- like: **আমার … পছন্দ** / **ভালো লাগে**\n- the: আম**টা**, আম**গুলো**\n\n**খারাপ** \"bad\" is the opposite of ভালো; **খারাপ না** \"not bad\" is a common, modest compliment.",
+  "vocab": [
+    {
+      "id": "biriyani",
+      "bn": "বিরিয়ানি",
+      "tr": "biriyani",
+      "en": "biryani",
+      "notes": "Dhaka is famous for কাচ্চি বিরিয়ানি (kachchi biriyani, layered mutton biryani)."
+    },
+    {
+      "id": "kharap",
+      "bn": "খারাপ",
+      "tr": "kharap",
+      "en": "bad"
+    },
+    {
+      "id": "shob",
+      "bn": "সব",
+      "tr": "shob",
+      "en": "all"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "বিরিয়ানি",
+        "tr": "biriyani",
+        "en": "biryani"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "grandmother (father's mother)",
+        "uncle (fufu's husband)",
+        "meat",
+        "biryani"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "খারাপ",
+        "tr": "kharap",
+        "en": "bad"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "tasty",
+        "big",
+        "bad",
+        "all"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "সব",
+        "tr": "shob",
+        "en": "all"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "sweet",
+        "all",
+        "Bangladeshi",
+        "small"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e04",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "খাবার",
+        "tr": "khabar",
+        "en": "food"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "uncle (father's brother)",
+        "chicken",
+        "food",
+        "the mango"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e05",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "চাই",
+        "tr": "chai",
+        "en": "(I/we) want"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "(you, polite) have come",
+        "(I/we) want",
+        "(he/she/they) eats",
+        "(you/he/she, polite) eat"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e06",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "কিন্তু",
+        "tr": "kintu",
+        "en": "but"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "(yes/no question marker)",
+        "OK",
+        "no",
+        "but"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e07",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "মজার",
+        "tr": "mojar",
+        "en": "tasty"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "tasty",
+        "bad",
+        "big",
+        "sweet"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e08",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "সব",
+          "tr": "shob",
+          "en": "all"
+        },
+        {
+          "bn": "খারাপ",
+          "tr": "kharap",
+          "en": "bad"
+        },
+        {
+          "bn": "কী",
+          "tr": "ki",
+          "en": "what"
+        },
+        {
+          "bn": "খাই",
+          "tr": "khai",
+          "en": "(I/we) eat"
+        },
+        {
+          "bn": "বিরিয়ানি",
+          "tr": "biriyani",
+          "en": "biryani"
+        }
+      ]
+    },
+    {
+      "id": "e09",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমার বিরিয়ানি খুব পছন্দ।",
+        "tr": "amar biriyani khub pochhondo.",
+        "en": "I really like biryani."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "yes",
+        "that",
+        "really",
+        "biryani",
+        "I",
+        "like",
+        "here"
+      ],
+      "answer": [
+        "I",
+        "really",
+        "like",
+        "biryani"
+      ]
+    },
+    {
+      "id": "e10",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আপনি কি চা খান?",
+        "tr": "apni ki cha khan?",
+        "en": "Do you drink tea?"
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "ওরা",
+        "চা",
+        "খান",
+        "ভাই",
+        "কি",
+        "আপনি",
+        "কলা"
+      ],
+      "answer": [
+        "আপনি",
+        "কি",
+        "চা",
+        "খান"
+      ]
+    },
+    {
+      "id": "e11",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "সে মাংস খায় না।",
+        "tr": "she mangsho khay na.",
+        "en": "He doesn't eat meat."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "meat",
+        "doesn't",
+        "wife",
+        "father",
+        "eat",
+        "He",
+        "all"
+      ],
+      "answer": [
+        "He",
+        "doesn't",
+        "eat",
+        "meat"
+      ]
+    },
+    {
+      "id": "e12",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "বিরিয়ানি খুব মজার।",
+        "tr": "biriyani khub mojar.",
+        "en": "The biryani is very tasty."
+      },
+      "direction": "bn_to_en",
+      "accepted": [
+        "The biryani is very tasty.",
+        "Biryani is very tasty.",
+        "The biryani is delicious."
+      ]
+    },
+    {
+      "id": "e13",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমি দুধ চা চাই, চিনি ছাড়া।",
+        "tr": "ami dudh cha chai, chini chhara.",
+        "en": "I want milk tea, without sugar."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "ছাড়া",
+        "চা",
+        "আমি",
+        "চাই",
+        "দুধ",
+        "আছেন",
+        "রুটি",
+        "নেই",
+        "চিনি"
+      ],
+      "answer": [
+        "আমি",
+        "দুধ",
+        "চা",
+        "চাই",
+        "চিনি",
+        "ছাড়া"
+      ]
+    },
+    {
+      "id": "e14",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "সব খাবার খুব মজার।",
+        "tr": "shob khabar khub mojar.",
+        "en": "All the food is very tasty."
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "আমার ঝাল পছন্দ না।",
+        "তুই কেমন আছিস?",
+        "সব খাবার খুব মজার।",
+        "খালা আমার মায়ের বোন।"
+      ],
+      "answer": 2
+    }
+  ]
+}
