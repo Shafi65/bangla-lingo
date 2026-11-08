@@ -3,7 +3,7 @@
   "unit": "u03-family",
   "title": "I have…",
   "status": "draft",
-  "tip": "Bengali has no verb 'to have'. Instead you say **'to me there is'**: **আমার একটা বোন আছে** (*amar ekta bon achhe*) — literally 'My one sister exists' = 'I have a sister.' The negative uses **নেই**: **আমার ভাই নেই** = 'I have no brother.' Question: **তোমার কি ভাই আছে?**\n\nWhen you count, Bengali adds a **classifier** to the number. For people use **-জন** (*-jon*): **একজন** (one person), **দুইজন** (two people), **কয়জন?** (how many people?). In casual speech **-টা** is common too: **একটা বোন**.\n\nPlural possessives: আমরা → **আমাদের** (our), তোমরা → **তোমাদের** (your), and likewise আপনাদের, ওদের, তাদের.\n\nCulture: 'How many brothers and sisters do you have?' is a perfectly normal first-meeting question in Bangladesh — as are questions about marriage and children. It's friendly interest, not nosiness.",
+  "tip": "Bengali has no verb 'to have'. Instead you say **'to me there is'**: **আমার একটা বোন আছে** (*amar ekta bon achhe*) — literally 'My one sister exists' = 'I have a sister.' Note it's **আমার**, not আমি. The negative uses **নেই**: **আমার ভাই নেই** = 'I have no brother.' Question: **তোমার কি ভাই আছে?**\n\nWhen you count, Bengali adds a **classifier** to the number. For people use **-জন** (*-jon*): **একজন** (one person), **দুইজন** (two people), **কয়জন?** (how many people?). In casual speech **-টা** is common too: **একটা বোন**.\n\nPlural possessives: আমরা → **আমাদের** (our), তোমরা → **তোমাদের** (your, to two or more people you'd call তুমি). Others follow the same pattern: *apnader*, *oder*, *tader*.\n\nCulture: 'How many brothers and sisters do you have?' is a perfectly normal first-meeting question in Bangladesh — as are questions about marriage and children. It's friendly interest, not nosiness.",
   "vocab": [
     {
       "id": "ekta",
@@ -63,10 +63,10 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "how",
-        "elder sister",
+        "two (people)",
+        "how many (people)",
         "one; a",
-        "your (intimate)"
+        "our"
       ],
       "answer": 2
     },
@@ -80,27 +80,26 @@
       },
       "direction": "bn_to_en",
       "options": [
+        "two (people)",
         "one (person)",
-        "uncle (fufu's husband)",
-        "name",
-        "family"
+        "how many (people)",
+        "child"
       ],
-      "answer": 0
+      "answer": 1
     },
     {
       "id": "e03",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "দুইজন",
         "tr": "duijon",
         "en": "two (people)"
       },
-      "direction": "bn_to_en",
       "options": [
-        "your (familiar, plural)",
-        "family",
-        "uncle (fufu's husband)",
-        "two (people)"
+        "কয়জন",
+        "একজন",
+        "আমাদের",
+        "দুইজন"
       ],
       "answer": 3
     },
@@ -115,9 +114,9 @@
       "direction": "bn_to_en",
       "options": [
         "how many (people)",
-        "where (before থেকে)",
         "how",
-        "very"
+        "where",
+        "two (people)"
       ],
       "answer": 0
     },
@@ -131,12 +130,12 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "you (familiar)",
+        "my",
+        "we",
         "our",
-        "you (intimate, plural)",
-        "your (intimate)"
+        "your (familiar, plural)"
       ],
-      "answer": 1
+      "answer": 2
     },
     {
       "id": "e06",
@@ -149,11 +148,11 @@
       "direction": "bn_to_en",
       "options": [
         "you (familiar, plural)",
-        "your (familiar, plural)",
-        "you (intimate)",
-        "he/she"
+        "our",
+        "your (familiar)",
+        "your (familiar, plural)"
       ],
-      "answer": 1
+      "answer": 3
     },
     {
       "id": "e07",
@@ -165,10 +164,10 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "elder sister",
+        "girl",
         "child",
-        "father's",
-        "sister"
+        "person",
+        "boy"
       ],
       "answer": 1
     },
@@ -176,16 +175,6 @@
       "id": "e08",
       "type": "match_pairs",
       "pairs": [
-        {
-          "bn": "কয়জন",
-          "tr": "koyjon",
-          "en": "how many (people)"
-        },
-        {
-          "bn": "আমাদের",
-          "tr": "amader",
-          "en": "our"
-        },
         {
           "bn": "একজন",
           "tr": "ekjon",
@@ -197,9 +186,19 @@
           "en": "two (people)"
         },
         {
-          "bn": "একটা",
-          "tr": "ekta",
-          "en": "one; a"
+          "bn": "কয়জন",
+          "tr": "koyjon",
+          "en": "how many (people)"
+        },
+        {
+          "bn": "আমাদের",
+          "tr": "amader",
+          "en": "our"
+        },
+        {
+          "bn": "তোমাদের",
+          "tr": "tomader",
+          "en": "your (familiar, plural)"
         }
       ]
     },
@@ -211,21 +210,21 @@
         "tr": "amar duijon bachcha achhe.",
         "en": "I have two children."
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "tiles": [
-        "have",
-        "you",
-        "mother",
-        "two",
-        "child",
-        "I",
-        "children"
+        "আমার",
+        "দুইজন",
+        "বাচ্চা",
+        "আছে",
+        "আমি",
+        "একজন",
+        "নেই"
       ],
       "answer": [
-        "I",
-        "have",
-        "two",
-        "children"
+        "আমার",
+        "দুইজন",
+        "বাচ্চা",
+        "আছে"
       ]
     },
     {
@@ -238,12 +237,12 @@
       },
       "direction": "en_to_bn",
       "tiles": [
-        "নই",
-        "তিনি",
-        "নেই",
-        "আছো",
+        "আমার",
         "ভাই",
-        "আমার"
+        "নেই",
+        "আমি",
+        "না",
+        "আছে"
       ],
       "answer": [
         "আমার",
@@ -261,13 +260,13 @@
       },
       "direction": "bn_to_en",
       "tiles": [
-        "this",
-        "a",
-        "person",
-        "daughter",
-        "very",
         "She",
-        "has"
+        "has",
+        "a",
+        "daughter",
+        "son",
+        "is",
+        "two"
       ],
       "answer": [
         "She",
@@ -278,17 +277,20 @@
     },
     {
       "id": "e12",
-      "type": "type_translation",
+      "type": "select_translation",
       "prompt": {
-        "bn": "তোমার কি ভাই আছে?",
-        "tr": "tomar ki bhai achhe?",
-        "en": "Do you have a brother?"
+        "bn": "আপনার কয়জন বাচ্চা আছে?",
+        "tr": "apnar koyjon bachcha achhe?",
+        "en": "How many children do you have? (polite)"
       },
-      "direction": "bn_to_en",
-      "accepted": [
-        "Do you have a brother?",
-        "Do you have brothers?"
-      ]
+      "direction": "en_to_bn",
+      "options": [
+        "আপনার দুইজন বাচ্চা আছে।",
+        "আমার কয়জন বাচ্চা আছে?",
+        "আপনার কয়জন বাচ্চা আছে?",
+        "আপনার কি বাচ্চা আছে?"
+      ],
+      "answer": 2
     },
     {
       "id": "e13",
@@ -300,13 +302,13 @@
       },
       "direction": "en_to_bn",
       "tiles": [
-        "সে",
-        "বড়",
+        "আমাদের",
         "পরিবার",
         "খুব",
-        "একটা",
-        "ছাত্র",
-        "আমাদের"
+        "বড়",
+        "আমার",
+        "তোমাদের",
+        "ছোট"
       ],
       "answer": [
         "আমাদের",
@@ -317,20 +319,49 @@
     },
     {
       "id": "e14",
-      "type": "select_translation",
+      "type": "word_bank",
       "prompt": {
-        "bn": "আমার একটা বোন আছে।",
-        "tr": "amar ekta bon achhe.",
-        "en": "I have a sister."
+        "bn": "তোমাদের কয়জন বাচ্চা?",
+        "tr": "tomader koyjon bachcha?",
+        "en": "How many children do you have?"
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "How",
+        "many",
+        "children",
+        "do",
+        "you",
+        "have",
+        "we",
+        "much"
+      ],
+      "answer": [
+        "How",
+        "many",
+        "children",
+        "do",
+        "you",
+        "have"
+      ]
+    },
+    {
+      "id": "e15",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "এখানে একজন ডাক্তার আছেন।",
+        "tr": "ekhane ekjon daktar achhen.",
+        "en": "There is a doctor here."
       },
       "direction": "en_to_bn",
-      "options": [
-        "আমার একটা বোন আছে।",
-        "না, ধন্যবাদ।",
-        "উনি ডাক্তার নন।",
-        "কেমন আছেন?"
-      ],
-      "answer": 0
+      "accepted": [
+        "এখানে একজন ডাক্তার আছেন।",
+        "এখানে একজন ডাক্তার আছে।",
+        "ekhane ekjon daktar achhen",
+        "ekhane ekjon daktar achen",
+        "ekhane ekjon daktar achhe",
+        "ekhane ekjon daktar ache"
+      ]
     }
   ]
 }

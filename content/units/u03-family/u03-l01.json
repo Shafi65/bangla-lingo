@@ -3,7 +3,7 @@
   "unit": "u03-family",
   "title": "Parents & siblings",
   "status": "draft",
-  "tip": "Two pairs for parents: **মা / বাবা** (*ma / baba*) are universal; **আম্মু / আব্বু** (*ammu / abbu*) are the warm, everyday words in many Bangladeshi (especially Muslim) homes — like 'mom' and 'dad'. In Kolkata and Hindu families you'll mostly hear মা and বাবা.\n\nSiblings are simply **ভাই** (*bhai*, brother) and **বোন** (*bon*, sister). Remember: no word for 'is' and no 'a / the': **ও আমার ভাই** = 'He (is) my brother.'\n\n**পরিবার** (*poribar*) = family. Bangladeshi families are often large and close-knit, and grandparents, uncles and aunts may live under the same roof — which is why the next lessons have so many kinship words.",
+  "tip": "Two pairs for parents: **মা / বাবা** (*ma / baba*) are universal; **আম্মু / আব্বু** (*ammu / abbu*) are the warm, everyday words in many Bangladeshi (especially Muslim) homes — like 'mom' and 'dad'. In Kolkata and Hindu families you'll mostly hear মা and বাবা. Both pairs are correct: use whichever your family uses.\n\nSiblings are simply **ভাই** (*bhai*, brother) and **বোন** (*bon*, sister). Remember: no word for 'is' and no 'a / the': **ও আমার ভাই** = 'He (is) my brother.'\n\nShowing someone a photo? Start with **এটা আমার …** 'this is my …': **এটা আমার পরিবার** = 'This is my family.' (**পরিবার**, *poribar* = family.) Bangladeshi families are often large and close-knit, and grandparents, uncles and aunts may live under the same roof — which is why the next lessons have so many kinship words.",
   "vocab": [
     {
       "id": "poribar",
@@ -64,11 +64,11 @@
       "direction": "bn_to_en",
       "options": [
         "country",
+        "friend",
         "family",
-        "boy",
-        "brother"
+        "person"
       ],
-      "answer": 1
+      "answer": 2
     },
     {
       "id": "e02",
@@ -81,28 +81,27 @@
       "direction": "bn_to_en",
       "options": [
         "father",
-        "English (language)",
         "mother",
-        "friend"
+        "sister",
+        "brother"
       ],
-      "answer": 2
+      "answer": 1
     },
     {
       "id": "e03",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "বাবা",
         "tr": "baba",
         "en": "father"
       },
-      "direction": "bn_to_en",
       "options": [
-        "father",
-        "student (male)",
-        "person",
-        "English (language)"
+        "মা",
+        "বাবা",
+        "আব্বু",
+        "বোন"
       ],
-      "answer": 0
+      "answer": 1
     },
     {
       "id": "e04",
@@ -114,10 +113,10 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "teacher",
-        "Bengali (language)",
+        "dad",
+        "sister",
         "mom",
-        "boy"
+        "brother"
       ],
       "answer": 2
     },
@@ -140,20 +139,19 @@
     },
     {
       "id": "e06",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "ভাই",
         "tr": "bhai",
         "en": "brother"
       },
-      "direction": "bn_to_en",
       "options": [
-        "brother",
-        "Bengali (language)",
-        "doctor",
-        "mother"
+        "বাবা",
+        "বোন",
+        "আম্মু",
+        "ভাই"
       ],
-      "answer": 0
+      "answer": 3
     },
     {
       "id": "e07",
@@ -165,12 +163,12 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "family",
-        "doctor",
-        "friend",
-        "sister"
+        "sister",
+        "brother",
+        "mother",
+        "friend"
       ],
-      "answer": 3
+      "answer": 0
     },
     {
       "id": "e08",
@@ -182,9 +180,9 @@
           "en": "mother"
         },
         {
-          "bn": "বোন",
-          "tr": "bon",
-          "en": "sister"
+          "bn": "আব্বু",
+          "tr": "abbu",
+          "en": "dad"
         },
         {
           "bn": "ভাই",
@@ -192,14 +190,14 @@
           "en": "brother"
         },
         {
+          "bn": "বোন",
+          "tr": "bon",
+          "en": "sister"
+        },
+        {
           "bn": "পরিবার",
           "tr": "poribar",
           "en": "family"
-        },
-        {
-          "bn": "বাবা",
-          "tr": "baba",
-          "en": "father"
         }
       ]
     },
@@ -213,13 +211,13 @@
       },
       "direction": "bn_to_en",
       "tiles": [
-        "teacher",
-        "where",
         "He",
         "is",
-        "boy",
         "my",
-        "brother"
+        "brother",
+        "sister",
+        "your",
+        "father"
       ],
       "answer": [
         "He",
@@ -230,24 +228,20 @@
     },
     {
       "id": "e10",
-      "type": "word_bank",
+      "type": "select_translation",
       "prompt": {
-        "bn": "মা কোথায়?",
-        "tr": "ma kothay?",
-        "en": "Where is Mom?"
+        "bn": "এটা আমার পরিবার।",
+        "tr": "eta amar poribar.",
+        "en": "This is my family."
       },
       "direction": "en_to_bn",
-      "tiles": [
-        "আছেন",
-        "ছাত্রী",
-        "কোথায়",
-        "মা",
-        "পরিবার"
+      "options": [
+        "ওটা আমার পরিবার।",
+        "এটা আমার পরিবার।",
+        "এটা তোমার পরিবার।",
+        "এটা আমার বোন।"
       ],
-      "answer": [
-        "মা",
-        "কোথায়"
-      ]
+      "answer": 1
     },
     {
       "id": "e11",
@@ -259,13 +253,13 @@
       },
       "direction": "bn_to_en",
       "tiles": [
-        "Bangladeshi",
-        "am",
-        "sister",
-        "here",
         "She",
+        "is",
         "my",
-        "is"
+        "sister",
+        "brother",
+        "mother",
+        "am"
       ],
       "answer": [
         "She",
@@ -276,6 +270,52 @@
     },
     {
       "id": "e12",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "উনি আমার বাবা।",
+        "tr": "uni amar baba.",
+        "en": "He is my father."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "উনি",
+        "আমার",
+        "বাবা",
+        "মা",
+        "তোমার",
+        "আমি"
+      ],
+      "answer": [
+        "উনি",
+        "আমার",
+        "বাবা"
+      ]
+    },
+    {
+      "id": "e13",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমার আম্মু ডাক্তার।",
+        "tr": "amar ammu daktar.",
+        "en": "My mom is a doctor."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "আমার",
+        "আম্মু",
+        "ডাক্তার",
+        "আব্বু",
+        "শিক্ষক",
+        "তোমার"
+      ],
+      "answer": [
+        "আমার",
+        "আম্মু",
+        "ডাক্তার"
+      ]
+    },
+    {
+      "id": "e14",
       "type": "type_translation",
       "prompt": {
         "bn": "উনি আমার মা।",
@@ -286,48 +326,28 @@
       "accepted": [
         "She is my mother.",
         "She's my mother.",
-        "She is my mom."
+        "She is my mom.",
+        "She's my mom.",
+        "She is my mum.",
+        "She's my mum."
       ]
     },
     {
-      "id": "e13",
-      "type": "word_bank",
-      "prompt": {
-        "bn": "উনি আমার বাবা।",
-        "tr": "uni amar baba.",
-        "en": "He is my father."
-      },
-      "direction": "en_to_bn",
-      "tiles": [
-        "বাবা",
-        "ছাত্রী",
-        "থেকে",
-        "আমার",
-        "উনি",
-        "আব্বু"
-      ],
-      "answer": [
-        "উনি",
-        "আমার",
-        "বাবা"
-      ]
-    },
-    {
-      "id": "e14",
+      "id": "e15",
       "type": "select_translation",
       "prompt": {
-        "bn": "আমার আম্মু ডাক্তার।",
-        "tr": "amar ammu daktar.",
-        "en": "My mom is a doctor."
+        "bn": "মা কোথায়?",
+        "tr": "ma kothay?",
+        "en": "Where is Mom?"
       },
       "direction": "en_to_bn",
       "options": [
-        "আমি এখানে আছি।",
-        "আপনি কি বাংলাদেশি?",
-        "আমি শিক্ষক, আমার নাম নাদিয়া।",
-        "আমার আম্মু ডাক্তার।"
+        "বাবা কোথায়?",
+        "মা কেমন?",
+        "মা কোথায়?",
+        "বোন কোথায়?"
       ],
-      "answer": 3
+      "answer": 2
     }
   ]
 }

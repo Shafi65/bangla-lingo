@@ -3,7 +3,7 @@
   "unit": "s03-vowel-signs",
   "title": "Vowel signs 2: ু ূ ৃ",
   "status": "draft",
-  "tip": "These three signs hang **below** the consonant.\n\n**ু** (`u`) and **ূ** (`u`): ফুফু (`fufu`), খালু (`khalu`), আপু (`apu`), দূরে (`dure`, *far*). Like ি/ী they sound the same; the long-u sign has an extra loop.\n\n**Shape changes**: after a few letters the sign joins in a new way. **রু** and **রূ** attach to the side of র; **হু** gets a curl and **হৃ** a hook; **শু** and **গু** fold the sign into the letter. You'll recognize them with practice; when in doubt, look for the base letter first.\n\n**ৃ** is the sign form of ঋ and says `ri`: কৃষক (`krishok`, *farmer*), পৃথিবী (`prithibi`, *world*).",
+  "tip": "These three signs hang **below** the consonant.\n\n**ু** and **ূ** both say `u` (as in *food*): ফুফু (`fufu`), খালু (`khalu`), আপু (`apu`), দুধ (`dudh`, *milk*), দূরে (`dure`, *far*), পূজা (`puja`). Like ি/ী they **sound the same**; only the spelling differs. The long-u sign ূ has an extra loop.\n\n**Shape changes**: after a few letters the sign joins in a new way. In **রু** and **রূ** the sign sits on the right side of র instead of underneath; in **হু** and **হৃ** it becomes a curl or hook under হ; in **শু** and **গু** it folds into the letter. When a shape looks new, find the base letter first, then the sign.\n\n**ৃ** is the sign form of ঋ and says `ri`: কৃষক (`krishok`, *farmer*), পৃথিবী (`prithibi`, *world*). Don't mix up কৃ (`kri`) with কু (`ku`): ৃ is a small hook, ু a loop.",
   "vocab": [
     {
       "id": "k-u",
@@ -45,124 +45,15 @@
       "type": "script_recognize",
       "glyph": "কু",
       "options": [
-        "ku",
-        "yo",
-        "u",
-        "a"
+        "ku (k + u as in 'food')",
+        "kri (k + ri as in 'rip')",
+        "ka (k + a as in 'father')",
+        "ki (k + i as in 'see')"
       ],
       "answer": 0
     },
     {
       "id": "e02",
-      "type": "script_recognize",
-      "glyph": "কূ",
-      "options": [
-        "ku",
-        "a~",
-        "yo",
-        "mo"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "e03",
-      "type": "script_recognize",
-      "glyph": "কৃ",
-      "options": [
-        "h",
-        "do",
-        "kri",
-        "no"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "e04",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "কৃষক",
-        "tr": "krishok",
-        "en": "farmer"
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "Bengali (language)",
-        "novelist",
-        "farmer",
-        "puja"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "e05",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "পৃথিবী",
-        "tr": "prithibi",
-        "en": "world / Earth"
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "elder brother",
-        "elder sister",
-        "doctor",
-        "world / Earth"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "e06",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "দুধ",
-        "tr": "dudh",
-        "en": "milk"
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "milk",
-        "elder sister",
-        "now",
-        "wife"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "e07",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "দূরে",
-        "tr": "dure",
-        "en": "far"
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "how many (people)",
-        "there",
-        "where",
-        "far"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "e08",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "পূজা",
-        "tr": "puja",
-        "en": "puja"
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "hand",
-        "dawn",
-        "student (male)",
-        "puja"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "e09",
       "type": "listen_select",
       "audio": {
         "bn": "কু",
@@ -170,15 +61,27 @@
         "en": "ু (u-kar, short-u sign): adds 'u' as in 'food'"
       },
       "options": [
+        "কৃ",
         "কু",
-        "ড়",
-        "ত",
-        "ও"
+        "কা",
+        "কি"
       ],
-      "answer": 0
+      "answer": 1
     },
     {
-      "id": "e10",
+      "id": "e03",
+      "type": "script_recognize",
+      "glyph": "কূ",
+      "options": [
+        "ko (bare k, inherent o as in 'or')",
+        "kri (k + ri as in 'rip')",
+        "ku (k + u as in 'food')",
+        "ka (k + a as in 'father')"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e04",
       "type": "listen_select",
       "audio": {
         "bn": "কূ",
@@ -186,15 +89,27 @@
         "en": "ূ (long-u sign): adds 'u' as in 'food'"
       },
       "options": [
-        "ঐ",
-        "প",
-        "কূ",
-        "ব"
+        "কি",
+        "কা",
+        "কৃ",
+        "কূ"
       ],
-      "answer": 2
+      "answer": 3
     },
     {
-      "id": "e11",
+      "id": "e05",
+      "type": "script_recognize",
+      "glyph": "কৃ",
+      "options": [
+        "ku (k + u as in 'food')",
+        "ka (k + a as in 'father')",
+        "ki (k + i as in 'see')",
+        "kri (k + ri as in 'rip')"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e06",
       "type": "listen_select",
       "audio": {
         "bn": "কৃ",
@@ -202,28 +117,127 @@
         "en": "ৃ (ri-kar): adds 'ri' as in 'rip'"
       },
       "options": [
-        "ঐ",
-        "ঘ",
-        "ই",
-        "কৃ"
+        "কৃ",
+        "কু",
+        "কী",
+        "ক"
       ],
-      "answer": 3
+      "answer": 0
+    },
+    {
+      "id": "e07",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "কু",
+          "tr": "ku",
+          "en": "ু (u-kar, short-u sign): adds 'u' as in 'food'"
+        },
+        {
+          "bn": "কূ",
+          "tr": "ku",
+          "en": "ূ (long-u sign): adds 'u' as in 'food'"
+        },
+        {
+          "bn": "কৃ",
+          "tr": "kri",
+          "en": "ৃ (ri-kar): adds 'ri' as in 'rip'"
+        },
+        {
+          "bn": "কৃষক",
+          "tr": "krishok",
+          "en": "farmer"
+        },
+        {
+          "bn": "ফুফু",
+          "tr": "fufu",
+          "en": "aunt (father's sister)"
+        }
+      ]
+    },
+    {
+      "id": "e08",
+      "type": "script_recognize",
+      "glyph": "রু",
+      "options": [
+        "ro (r + inherent o)",
+        "ri (r + i as in 'see')",
+        "ru (r + u as in 'food')",
+        "ra (r + a as in 'father')"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e09",
+      "type": "script_recognize",
+      "glyph": "হৃ",
+      "options": [
+        "hri (h + ri as in 'rip')",
+        "hu (h + u as in 'food')",
+        "ho (h + inherent o)",
+        "ha (h + a as in 'father')"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e10",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "রু",
+          "tr": "ru",
+          "en": "ru: short-u sign on the right side of র"
+        },
+        {
+          "bn": "রূ",
+          "tr": "ru",
+          "en": "ru: long-u sign on the right side of র"
+        },
+        {
+          "bn": "হৃ",
+          "tr": "hri",
+          "en": "hri: ri sign as a hook under হ"
+        },
+        {
+          "bn": "শু",
+          "tr": "shu",
+          "en": "shu: short-u sign folded into শ"
+        },
+        {
+          "bn": "গু",
+          "tr": "gu",
+          "en": "gu: short-u sign folded into গ"
+        }
+      ]
+    },
+    {
+      "id": "e11",
+      "type": "script_recognize",
+      "glyph": "খালু",
+      "options": [
+        "khala",
+        "khalu",
+        "khali",
+        "kalu"
+      ],
+      "answer": 1
     },
     {
       "id": "e12",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "কৃষক",
         "tr": "krishok",
         "en": "farmer"
       },
+      "direction": "bn_to_en",
       "options": [
-        "কৃষক",
-        "ইলিশ",
-        "পূজা",
-        "শিক্ষক"
+        "lawyer",
+        "teacher",
+        "farmer",
+        "doctor"
       ],
-      "answer": 0
+      "answer": 2
     },
     {
       "id": "e13",
@@ -234,15 +248,32 @@
         "en": "world / Earth"
       },
       "options": [
+        "কৃষক",
         "পৃথিবী",
-        "মানে",
-        "চোখ",
-        "চাচি"
+        "পূজা",
+        "ফুফু"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e14",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "পৃথিবী",
+        "tr": "prithibi",
+        "en": "world / Earth"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "পৃথিবী",
+        "কৃষক",
+        "নদী",
+        "দূরে"
       ],
       "answer": 0
     },
     {
-      "id": "e14",
+      "id": "e15",
       "type": "listen_select",
       "audio": {
         "bn": "দুধ",
@@ -250,43 +281,12 @@
         "en": "milk"
       },
       "options": [
-        "ঋতু",
-        "বাংলা",
-        "দুধ",
-        "অজগর"
+        "আপু",
+        "দূরে",
+        "ফুফু",
+        "দুধ"
       ],
-      "answer": 2
-    },
-    {
-      "id": "e15",
-      "type": "match_pairs",
-      "pairs": [
-        {
-          "bn": "কৃষক",
-          "tr": "krishok",
-          "en": "farmer"
-        },
-        {
-          "bn": "কু",
-          "tr": "ku",
-          "en": "ু (u-kar, short-u sign): adds 'u' as in 'food'"
-        },
-        {
-          "bn": "কৃ",
-          "tr": "kri",
-          "en": "ৃ (ri-kar): adds 'ri' as in 'rip'"
-        },
-        {
-          "bn": "পৃথিবী",
-          "tr": "prithibi",
-          "en": "world / Earth"
-        },
-        {
-          "bn": "কূ",
-          "tr": "ku",
-          "en": "ূ (long-u sign): adds 'u' as in 'food'"
-        }
-      ]
+      "answer": 3
     }
   ]
 }

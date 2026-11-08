@@ -3,7 +3,7 @@
   "unit": "u03-family",
   "title": "Review: my family",
   "status": "draft",
-  "tip": "Last new words: **স্বামী** (*shami*, husband) and **স্ত্রী** (*stri*, wife). In everyday speech many people say **বউ** (*bou*) for 'wife' — it also means 'bride'. (The ব in স্বামী is silent, which you'll learn about in the conjuncts script unit.)\n\nQuick recap of the family map:\n\n| | father's side | mother's side |\n|---|---|---|\n| grandparents | দাদা / দাদি | নানা / নানি |\n| uncle | চাচা, ফুফা | মামা, খালু |\n| aunt | চাচি, ফুফু | মামি, খালা |\n\nAnd remember **ছেলে / মেয়ে** = son / daughter as well as boy / girl.\n\nWhen you hear a word you don't know, ask **X মানে কী?** \"What does X mean?\". **সবাই কেমন আছে?** \"How is everyone?\" is the classic question about someone's family.",
+  "tip": "Last new words: **স্বামী** (*shami*, husband) and **স্ত্রী** (*stri*, wife). In everyday speech many people say **বউ** (*bou*) for 'wife' — it also means 'bride'. (The ব in স্বামী is silent, which you'll learn about in the conjuncts script unit.)\n\nQuick recap of the family map:\n\n- **Father's side:** দাদা / দাদি (grandparents) · চাচা / চাচি (his brother and his wife) · ফুফু / ফুফা (his sister and her husband)\n- **Mother's side:** নানা / নানি (grandparents) · মামা / মামি (her brother and his wife) · খালা / খালু (her sister and her husband)\n- **ছেলে / মেয়ে** = son / daughter as well as boy / girl\n\nOne more reminder: in Bangladesh **দাদা** is your *grandfather*. If a friend from Kolkata says *dada*, they probably mean an elder brother.\n\nTo join two ideas with 'but', use **কিন্তু**: **আমার ভাই আছে, কিন্তু বোন নেই।** When you hear a word you don't know, ask **X মানে কী?** \"What does X mean?\". **সবাই কেমন আছে?** \"How is everyone?\" is the classic question about someone's family.",
   "vocab": [
     {
       "id": "shami",
@@ -57,27 +57,26 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "country",
         "wife",
+        "husband",
         "brother",
-        "husband"
+        "father"
       ],
-      "answer": 3
+      "answer": 1
     },
     {
       "id": "e02",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "স্ত্রী",
         "tr": "stri",
         "en": "wife"
       },
-      "direction": "bn_to_en",
       "options": [
-        "father's",
-        "child",
-        "wife",
-        "mother"
+        "স্বামী",
+        "সবাই",
+        "স্ত্রী",
+        "শিক্ষক"
       ],
       "answer": 2
     },
@@ -91,10 +90,10 @@
       },
       "direction": "bn_to_en",
       "options": [
+        "husband",
         "child",
-        "student (male)",
         "wife",
-        "teacher"
+        "girl"
       ],
       "answer": 2
     },
@@ -108,9 +107,9 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "no",
         "and",
         "OK",
+        "no",
         "but"
       ],
       "answer": 3
@@ -125,12 +124,12 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "I",
-        "he/she (polite)",
-        "you (intimate)",
-        "everyone"
+        "everyone",
+        "we",
+        "they",
+        "very"
       ],
-      "answer": 3
+      "answer": 0
     },
     {
       "id": "e06",
@@ -142,47 +141,26 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "uncle (mother's brother)",
+        "name",
+        "what",
         "meaning",
-        "grandfather (mother's father)",
-        "student (female)"
+        "but"
       ],
-      "answer": 1
+      "answer": 2
     },
     {
       "id": "e07",
-      "type": "listen_select",
-      "audio": {
-        "bn": "স্বামী",
-        "tr": "shami",
-        "en": "husband"
-      },
-      "options": [
-        "স্বামী",
-        "চাচা",
-        "আন্টি",
-        "মায়ের"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "e08",
       "type": "match_pairs",
       "pairs": [
-        {
-          "bn": "সবাই",
-          "tr": "shobai",
-          "en": "everyone"
-        },
         {
           "bn": "স্বামী",
           "tr": "shami",
           "en": "husband"
         },
         {
-          "bn": "মানে",
-          "tr": "mane",
-          "en": "meaning"
+          "bn": "স্ত্রী",
+          "tr": "stri",
+          "en": "wife"
         },
         {
           "bn": "কিন্তু",
@@ -190,10 +168,43 @@
           "en": "but"
         },
         {
-          "bn": "স্ত্রী",
-          "tr": "stri",
-          "en": "wife"
+          "bn": "সবাই",
+          "tr": "shobai",
+          "en": "everyone"
+        },
+        {
+          "bn": "মানে",
+          "tr": "mane",
+          "en": "meaning"
         }
+      ]
+    },
+    {
+      "id": "e08",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমার ভাই আছে, কিন্তু বোন নেই।",
+        "tr": "amar bhai achhe, kintu bon nei.",
+        "en": "I have a brother, but no sister."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "আমার",
+        "ভাই",
+        "আছে",
+        "কিন্তু",
+        "বোন",
+        "নেই",
+        "না",
+        "আমি"
+      ],
+      "answer": [
+        "আমার",
+        "ভাই",
+        "আছে",
+        "কিন্তু",
+        "বোন",
+        "নেই"
       ]
     },
     {
@@ -207,11 +218,11 @@
       "direction": "bn_to_en",
       "tiles": [
         "Bou",
-        "child",
         "means",
-        "meaning",
-        "he/she",
-        "wife"
+        "wife",
+        "husband",
+        "name",
+        "is"
       ],
       "answer": [
         "Bou",
@@ -221,98 +232,41 @@
     },
     {
       "id": "e10",
-      "type": "word_bank",
+      "type": "type_translation",
       "prompt": {
-        "bn": "আমার নানা আর নানি বাংলাদেশি।",
-        "tr": "amar nana ar nani bangladeshi.",
-        "en": "My grandparents are Bangladeshi."
+        "bn": "সবাই কেমন আছে?",
+        "tr": "shobai kemon achhe?",
+        "en": "How is everyone?"
       },
-      "direction": "en_to_bn",
-      "tiles": [
-        "নানি",
-        "নানা",
-        "বাংলাদেশি",
-        "আর",
-        "আমরা",
-        "আমার",
-        "কি",
-        "মা"
-      ],
-      "answer": [
-        "আমার",
-        "নানা",
-        "আর",
-        "নানি",
-        "বাংলাদেশি"
+      "direction": "bn_to_en",
+      "accepted": [
+        "How is everyone?",
+        "How's everyone?",
+        "How is everybody?",
+        "How's everybody?",
+        "How is everyone doing?",
+        "How's everyone doing?"
       ]
     },
     {
       "id": "e11",
-      "type": "word_bank",
+      "type": "select_translation",
       "prompt": {
-        "bn": "আমার বউ ডাক্তার।",
-        "tr": "amar bou daktar.",
-        "en": "My wife is a doctor."
+        "bn": "দাদি",
+        "tr": "dadi",
+        "en": "grandmother (my father's mother)"
       },
-      "direction": "bn_to_en",
-      "tiles": [
-        "My",
-        "a",
-        "doctor",
-        "wife",
-        "How",
-        "is",
-        "they",
-        "elder"
+      "direction": "en_to_bn",
+      "options": [
+        "নানি",
+        "দাদি",
+        "খালা",
+        "ফুফু"
       ],
-      "answer": [
-        "My",
-        "wife",
-        "is",
-        "a",
-        "doctor"
-      ]
+      "answer": 1
     },
     {
       "id": "e12",
-      "type": "type_translation",
-      "prompt": {
-        "bn": "বউ মানে কী?",
-        "tr": "bou mane ki?",
-        "en": "What does \"bou\" mean?"
-      },
-      "direction": "bn_to_en",
-      "accepted": [
-        "What does \"bou\" mean?"
-      ]
-    },
-    {
-      "id": "e13",
-      "type": "word_bank",
-      "prompt": {
-        "bn": "আমার বড় আপু শিক্ষক।",
-        "tr": "amar boro apu shikkhok.",
-        "en": "My elder sister is a teacher."
-      },
-      "direction": "en_to_bn",
-      "tiles": [
-        "সবাই",
-        "বড়",
-        "আপু",
-        "কিন্তু",
-        "শিক্ষক",
-        "তারা",
-        "আমার"
-      ],
-      "answer": [
-        "আমার",
-        "বড়",
-        "আপু",
-        "শিক্ষক"
-      ]
-    },
-    {
-      "id": "e14",
       "type": "select_translation",
       "prompt": {
         "bn": "উনি আমার স্ত্রী।",
@@ -321,12 +275,91 @@
       },
       "direction": "en_to_bn",
       "options": [
-        "আমার দুইজন বাচ্চা আছে।",
-        "ওনার নাম কী?",
+        "উনি আমার স্বামী।",
+        "উনি আমার মেয়ে।",
         "উনি আমার স্ত্রী।",
-        "আমি বাংলাদেশি।"
+        "উনি আমার বোন।"
       ],
       "answer": 2
+    },
+    {
+      "id": "e13",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমার একটা ছেলে আর একটা মেয়ে আছে।",
+        "tr": "amar ekta chhele ar ekta meye achhe.",
+        "en": "I have a son and a daughter."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "আমার",
+        "একটা",
+        "ছেলে",
+        "আর",
+        "একটা",
+        "মেয়ে",
+        "আছে",
+        "কিন্তু",
+        "নেই",
+        "আমি"
+      ],
+      "answer": [
+        "আমার",
+        "একটা",
+        "ছেলে",
+        "আর",
+        "একটা",
+        "মেয়ে",
+        "আছে"
+      ]
+    },
+    {
+      "id": "e14",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আমার ফুফা এখানে নেই।",
+        "tr": "amar fufa ekhane nei.",
+        "en": "My uncle (my father's sister's husband) isn't here."
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "আমার ফুফা এখানে নেই।",
+        "আমার ফুপা এখানে নেই।",
+        "ফুফা এখানে নেই।",
+        "ফুপা এখানে নেই।",
+        "amar fufa ekhane nei",
+        "amar fupa ekhane nei",
+        "amar phupha ekhane nei",
+        "amar phupa ekhane nei",
+        "fufa ekhane nei",
+        "fupa ekhane nei",
+        "phupha ekhane nei",
+        "phupa ekhane nei"
+      ]
+    },
+    {
+      "id": "e15",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "উনি আমার স্বামী।",
+        "tr": "uni amar shami.",
+        "en": "He is my husband."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "He",
+        "is",
+        "my",
+        "husband",
+        "wife",
+        "your"
+      ],
+      "answer": [
+        "He",
+        "is",
+        "my",
+        "husband"
+      ]
     }
   ]
 }

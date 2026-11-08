@@ -3,243 +3,248 @@
   "unit": "s03-vowel-signs",
   "title": "Vowel signs review: family words",
   "status": "draft",
-  "tip": "You can now read most of Unit 3's family words on your own: **মামা, মামি, খালা, খালু, চাচা, চাচি, দাদা, দাদি, নানা, নানি, ফুফু**.\n\n**Reading routine**: (1) find each consonant; (2) look left, right, below and around it for a sign; (3) say consonant + vowel; (4) a consonant with no sign keeps its `o`, which is often silent at the end of a word.\n\n**Same sound, different spelling**: ি/ী and ু/ূ. **Wrap-around**: ো/ৌ. Next: conjuncts, where two consonants stack with no vowel between them (শিক্ষক, ধন্যবাদ).",
+  "tip": "You can now read the family words on your own: **মামা, মামি, খালা, খালু, চাচা, চাচি, দাদা, দাদি, নানা, নানি, ফুফু**.\n\n**Reading routine**: (1) find each consonant; (2) look left, right, below and around it for a sign; (3) say consonant + vowel, even when the sign is drawn on the left; (4) a consonant with no sign keeps its `o`, which is often silent at the end of a word.\n\n**Same sound, different spelling**: ি/ী and ু/ূ. **Wrap-around**: ো/ৌ. Next: conjuncts, where two consonants stack with no vowel between them (শিক্ষক, ধন্যবাদ).",
   "vocab": [],
   "exercises": [
     {
       "id": "e01",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "নানি",
-        "tr": "nani",
-        "en": "grandmother (mother's mother)"
-      },
-      "direction": "bn_to_en",
+      "type": "script_recognize",
+      "glyph": "কে",
       "options": [
-        "dad",
-        "doctor",
-        "elder brother",
-        "grandmother (mother's mother)"
+        "ki (k + i as in 'see')",
+        "ke (k + e as in 'bed')",
+        "ko (k + o as in 'go')",
+        "koi (k + oi as in 'boy')"
       ],
-      "answer": 3
+      "answer": 1
     },
     {
       "id": "e02",
       "type": "script_recognize",
-      "glyph": "কূ",
+      "glyph": "কৌ",
       "options": [
-        "ka",
-        "ku",
-        "to",
-        "ri"
+        "ko (k + o as in 'go')",
+        "koi (k + oi as in 'boy')",
+        "kou (k + ou as in 'low')",
+        "ku (k + u as in 'food')"
       ],
-      "answer": 1
+      "answer": 2
     },
     {
       "id": "e03",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "ফুফু",
-        "tr": "fufu",
-        "en": "aunt (father's sister)"
-      },
-      "direction": "bn_to_en",
+      "type": "script_recognize",
+      "glyph": "কৃ",
       "options": [
-        "aunt (father's sister)",
-        "mother's",
-        "camel",
-        "sage (wise holy man)"
+        "ku (k + u as in 'food')",
+        "ko (k + o as in 'go')",
+        "ki (k + i as in 'see')",
+        "kri (k + ri as in 'rip')"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e04",
+      "type": "listen_select",
+      "audio": {
+        "bn": "কু",
+        "tr": "ku",
+        "en": "ু (u-kar, short-u sign): adds 'u' as in 'food'"
+      },
+      "options": [
+        "কু",
+        "কো",
+        "কৃ",
+        "কি"
       ],
       "answer": 0
     },
     {
-      "id": "e04",
-      "type": "script_recognize",
-      "glyph": "কৌ",
-      "options": [
-        "mo",
-        "ro",
-        "kou",
-        "u"
-      ],
-      "answer": 2
-    },
-    {
       "id": "e05",
-      "type": "script_recognize",
-      "glyph": "কে",
-      "options": [
-        "kri",
-        "t",
-        "ke",
-        "sho"
-      ],
-      "answer": 2
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "মামা",
+          "tr": "mama",
+          "en": "uncle (mother's brother)"
+        },
+        {
+          "bn": "মামি",
+          "tr": "mami",
+          "en": "aunt (mama's wife)"
+        },
+        {
+          "bn": "খালা",
+          "tr": "khala",
+          "en": "aunt (mother's sister)"
+        },
+        {
+          "bn": "খালু",
+          "tr": "khalu",
+          "en": "uncle (khala's husband)"
+        },
+        {
+          "bn": "ফুফু",
+          "tr": "fufu",
+          "en": "aunt (father's sister)"
+        }
+      ]
     },
     {
       "id": "e06",
       "type": "script_recognize",
-      "glyph": "কু",
+      "glyph": "নানি",
       "options": [
-        "no",
-        "kho",
-        "ku",
-        "i"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "e07",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "নানা",
-        "tr": "nana",
-        "en": "grandfather (mother's father)"
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "brick",
-        "grandfather (mother's father)",
-        "one",
-        "grandmother (father's mother)"
+        "nana",
+        "nani",
+        "nanu",
+        "nini"
       ],
       "answer": 1
     },
     {
-      "id": "e08",
+      "id": "e07",
       "type": "script_recognize",
-      "glyph": "কৃ",
+      "glyph": "চাচা",
       "options": [
-        "kri",
-        "u",
-        "n",
-        "kho"
+        "chacha",
+        "chachi",
+        "chicha",
+        "chhacha"
       ],
       "answer": 0
     },
     {
-      "id": "e09",
-      "type": "script_recognize",
-      "glyph": "কা",
+      "id": "e08",
+      "type": "listen_select",
+      "audio": {
+        "bn": "দাদি",
+        "tr": "dadi",
+        "en": "grandmother (father's mother)"
+      },
       "options": [
-        "i",
-        "t",
-        "ka",
-        "bho"
+        "দাদা",
+        "নানি",
+        "দাদি",
+        "চাচি"
       ],
       "answer": 2
+    },
+    {
+      "id": "e09",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "চাচা",
+          "tr": "chacha",
+          "en": "uncle (father's brother)"
+        },
+        {
+          "bn": "চাচি",
+          "tr": "chachi",
+          "en": "aunt (chacha's wife)"
+        },
+        {
+          "bn": "দাদা",
+          "tr": "dada",
+          "en": "grandfather (father's father)"
+        },
+        {
+          "bn": "দাদি",
+          "tr": "dadi",
+          "en": "grandmother (father's mother)"
+        },
+        {
+          "bn": "নানা",
+          "tr": "nana",
+          "en": "grandfather (mother's father)"
+        }
+      ]
     },
     {
       "id": "e10",
       "type": "select_translation",
       "prompt": {
-        "bn": "দাদি",
-        "tr": "dadi",
-        "en": "grandmother (father's mother)"
+        "bn": "ফুফু",
+        "tr": "fufu",
+        "en": "aunt (father's sister)"
       },
       "direction": "bn_to_en",
       "options": [
-        "grandmother (father's mother)",
-        "boy",
-        "cow",
-        "now"
+        "uncle (khala's husband)",
+        "grandfather (father's father)",
+        "elder sister",
+        "aunt (father's sister)"
       ],
-      "answer": 0
+      "answer": 3
     },
     {
       "id": "e11",
-      "type": "listen_select",
-      "audio": {
-        "bn": "নানি",
-        "tr": "nani",
-        "en": "grandmother (mother's mother)"
-      },
+      "type": "script_recognize",
+      "glyph": "ভাইয়া",
       "options": [
-        "দাদা",
-        "নানি",
-        "এখন",
-        "ঔষধ"
+        "bhaya",
+        "bhiya",
+        "bhoiya",
+        "bhaiya"
       ],
-      "answer": 1
+      "answer": 3
     },
     {
       "id": "e12",
-      "type": "listen_select",
-      "audio": {
-        "bn": "কূ",
-        "tr": "ku",
-        "en": "ূ (long-u sign): adds 'u' as in 'food'"
-      },
+      "type": "script_recognize",
+      "glyph": "বড়",
       "options": [
-        "ঋ",
-        "ও",
-        "কূ",
-        "কো"
+        "bora",
+        "boro",
+        "bari",
+        "biro"
       ],
-      "answer": 2
+      "answer": 1
     },
     {
       "id": "e13",
       "type": "listen_select",
       "audio": {
-        "bn": "ফুফু",
-        "tr": "fufu",
-        "en": "aunt (father's sister)"
+        "bn": "ছোট",
+        "tr": "chhoto",
+        "en": "small"
       },
       "options": [
-        "মা",
-        "ঢোল",
-        "স্বামী",
-        "ফুফু"
+        "বড়",
+        "ছেলে",
+        "চোখ",
+        "ছোট"
       ],
       "answer": 3
     },
     {
       "id": "e14",
-      "type": "listen_select",
-      "audio": {
-        "bn": "কৌ",
-        "tr": "kou",
-        "en": "ৌ (ou-kar): adds 'ou' as in 'low'; wraps around the consonant"
+      "type": "select_translation",
+      "prompt": {
+        "bn": "মামা",
+        "tr": "mama",
+        "en": "uncle (mother's brother)"
       },
+      "direction": "en_to_bn",
       "options": [
-        "দ",
-        "অ",
-        "ল",
-        "কৌ"
+        "নানা",
+        "মামা",
+        "মামি",
+        "চাচা"
       ],
-      "answer": 3
+      "answer": 1
     },
     {
       "id": "e15",
-      "type": "match_pairs",
-      "pairs": [
-        {
-          "bn": "কো",
-          "tr": "ko",
-          "en": "ো (o-kar): adds 'o' as in 'go'; wraps around the consonant"
-        },
-        {
-          "bn": "কৈ",
-          "tr": "koi",
-          "en": "ৈ (oi-kar): adds 'oi' as in 'boy'"
-        },
-        {
-          "bn": "কূ",
-          "tr": "ku",
-          "en": "ূ (long-u sign): adds 'u' as in 'food'"
-        },
-        {
-          "bn": "ছোট",
-          "tr": "chhoto",
-          "en": "small"
-        },
-        {
-          "bn": "কি",
-          "tr": "ki",
-          "en": "ি (i-kar, short-i sign): adds 'i' as in 'see'"
-        }
-      ]
+      "type": "script_recognize",
+      "glyph": "পৃথিবী",
+      "options": [
+        "purthibi",
+        "prithobi",
+        "prithibi",
+        "pithribi"
+      ],
+      "answer": 2
     }
   ]
 }
