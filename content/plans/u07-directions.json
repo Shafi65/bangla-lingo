@@ -30,7 +30,7 @@
         "ami",
         "achhi"
       ],
-      "tip": "'Where is X?' is just **X কোথায়?** (*X kothay?*) — no verb needed: **স্টেশন কোথায়?** 'Where is the station?'\n\nTo say *in* a place, add the locative ending: **-এ** after a consonant (সিলেট → **সিলেটে**), **-য়** after a vowel (ঢাকা → **ঢাকায়**, বাসা → **বাসায়**).\n\nBangladesh has two words for home. **বাসা** (*basha*) is where you live now — usually a city flat. **বাড়ি** (*bari*) is your family home, often the ancestral village. So **আপনার বাসা কোথায়?** = 'Where do you live (in this city)?' while **তোমার বাড়ি কোথায়?** = 'Where are you from originally?' — a very common getting-to-know-you question.\n\n**Kolkata:** বাড়ি is the normal word for home; বাসা means rented lodgings.",
+      "tip": "'Where is X?' is just **X কোথায়?** (*X kothay?*) — no verb needed: **স্টেশন কোথায়?** 'Where is the station?', **হোটেল কোথায়?** 'Where is the hotel?'\n\nTo say *in* a place, add the locative ending:\n\n- **-এ** after a consonant: সিলেট → **সিলেটে** 'in Sylhet', বাংলাদেশ → **বাংলাদেশে** 'in Bangladesh'\n- **-য়** after a vowel: ঢাকা → **ঢাকায়** 'in Dhaka', বাসা → **বাসায়** 'at home'\n\nBangladesh has two words for home. **বাসা** (*basha*) is where you live now — usually a city flat. **বাড়ি** (*bari*) is your family home, often the ancestral village. So **আপনার বাসা কোথায়?** = 'Where do you live (in this city)?' while **তোমার বাড়ি কোথায়?** = 'Where are you from originally?' — one of the first things a new acquaintance asks. The answer is usually a district: **আমার বাড়ি সিলেটে।**\n\n**Kolkata:** বাড়ি is the normal word for home; বাসা means rented lodgings.",
       "sentences": [
         {
           "bn": "স্টেশন কোথায়?",
@@ -122,7 +122,7 @@
         "hotel",
         "steshon"
       ],
-      "tip": "Directions use the polite command **যান** (*jan*) 'go': **ডানে যান** 'go right', **বামে যান** 'go left', **সোজা যান** 'go straight'.\n\n**মোড়** (*mor*) — intersection / corner — is the key landmark word in Bangladeshi cities. **মোড়ে বামে যান** = 'turn left at the intersection'.\n\n**দিয়ে** after a noun means 'along / through': **এই রাস্তা দিয়ে সোজা যান** 'go straight along this road'.\n\n**Kolkata:** people more often say **ডানদিকে** / **বাঁদিকে** ('to the right side / left side').",
+      "tip": "Directions use the polite command **যান** (*jan*) 'go': **ডানে যান** 'go right', **বামে যান** 'go left', **সোজা যান** 'go straight'. The same words also say where something is: **হোটেল বামে** 'the hotel is on the left'.\n\n**মোড়** (*mor*) — intersection, corner — is the key landmark word in Bangladeshi cities. With the locative it becomes **মোড়ে** 'at the intersection': **মোড়ে বামে যান** 'turn left at the intersection'.\n\nTwo little words after a noun:\n\n- **দিয়ে** 'along, through': **এই রাস্তা দিয়ে সোজা যান** 'go straight along this road'\n- **থেকে** 'from': **এই মোড় থেকে ডানে যান** 'turn right from this intersection'\n\n**Culture:** street names and house numbers won't get you far in Dhaka. People find their way by landmarks — a big intersection (whole neighbourhoods are known by their মোড়, like Shahbag or Farmgate), a mosque, a well-known shop. Expect directions in short steps — 'go straight to the intersection, then ask again' — and don't hesitate to ask a shopkeeper or tea-stall owner.\n\n**Kolkata:** people more often say **ডানদিকে** / **বাঁদিকে** ('to the right side / left side').",
       "sentences": [
         {
           "bn": "ডানে যান।",
@@ -220,7 +220,7 @@
         "apu",
         "abbu"
       ],
-      "tip": "English puts 'near, behind, next to' *before* the noun; Bengali puts them **after** it, as **postpositions**. The noun takes the genitive 'of' ending first:\n\n- **স্টেশনের কাছে** — 'near the station' (lit. 'station's near')\n- **বাড়ির পাশে** — 'next to the house'\n- **হোটেলের সামনে** — 'in front of the hotel'\n\nRemember: **-এর** after a consonant (স্টেশন → স্টেশনের), **-র** after a vowel (বাড়ি → বাড়ির, বাসা → বাসার).\n\nMany of these words also work alone: **বাবা বাইরে** 'Dad is outside', **আপু উপরে** 'Apu is upstairs'. All of them end in **-এ** — they are really locative nouns ('at the near-side', 'at the front').",
+      "tip": "English puts 'near, behind, next to' *before* the noun; Bengali puts them **after** it, as **postpositions**. The noun takes the genitive 'of' ending first:\n\n- **স্টেশনের কাছে** — 'near the station' (lit. 'the station's near-side')\n- **বাড়ির পাশে** — 'next to the house'\n- **হোটেলের সামনে** — 'in front of the hotel'\n- **স্টেশনের পিছনে** — 'behind the station'\n\nThe ending is **-এর** after a consonant (স্টেশন → স্টেশনের, হোটেল → হোটেলের) and **-র** after a vowel (বাড়ি → বাড়ির, বাসা → বাসার). Don't drop it: **স্টেশন কাছে** means 'the station is near', not 'near the station'.\n\nMany of these words also stand alone: **বাবা বাইরে** 'Dad is outside', **আপু উপরে** 'Apu is upstairs', **বাজার কি দূরে?** 'Is the market far?' They all end in **-এ** — they are really place nouns in the locative ('at the near side', 'at the front').\n\n'Far *from*' takes **থেকে** instead of the genitive: **স্টেশন থেকে দূরে** 'far from the station'.\n\nIn speech you'll also hear **পেছনে** for পিছনে and **ভেতরে** for ভিতরে.",
       "sentences": [
         {
           "bn": "হোটেল স্টেশনের কাছে।",
@@ -329,7 +329,7 @@
         "nani",
         "dhaka"
       ],
-      "tip": "Mosques (**মসজিদ**) are everywhere in Bangladesh and make great landmarks: **মসজিদের সামনে** 'in front of the mosque'. Hindu temples (**মন্দির**) are common too, especially in older neighbourhoods.\n\n'Live' (in a place) is **থাকা**: **আমি শহরে থাকি** 'I live in the city', **আমার নানি গ্রামে থাকেন** 'My grandmother lives in the village' — note the polite **-েন** ending for an elder.\n\n**আছে** at the end of a sentence means 'there is': **মসজিদের সামনে একটা দোকান আছে** 'There's a shop in front of the mosque'.\n\n**Culture:** most city families still have a **গ্রামের বাড়ি** (village home) they return to for Eid.",
+      "tip": "Mosques (**মসজিদ**) are everywhere in Bangladesh and make the handiest landmarks: **মসজিদের সামনে** 'in front of the mosque'. Hindu temples (**মন্দির**) are common too, especially in older neighbourhoods. People often give their address this way — a road name plus 'next to the market' (**বাজারের পাশে**) or 'near the mosque' (**মসজিদের কাছে**).\n\n'Live' (in a place) is **থাকি** (I) / **থাকেন** (you or he/she, polite):\n\n- **আমি শহরে থাকি** — 'I live in the city'\n- **আমার নানি গ্রামে থাকেন** — 'My grandmother lives in the village' (polite **-েন** for an elder)\n- **আপনি কোথায় থাকেন?** — 'Where do you live?' (polite)\n\n**আছে** at the end of a sentence means 'there is': **মসজিদের সামনে একটা দোকান আছে** 'There's a shop in front of the mosque'.\n\n**Culture:** most city families still have a village home — the **বাড়ি** from Lesson 1 — and go back to their **গ্রাম** for Eid. Dhaka empties out as millions travel home.",
       "sentences": [
         {
           "bn": "হাসপাতাল কোথায়?",
@@ -423,7 +423,7 @@
         "lagbe",
         "ektu"
       ],
-      "tip": "Hailing a rickshaw in Bangladesh goes like this: call **এই রিকশা!**, then name your destination and ask **যাবেন?** 'Will you go?' Drivers are addressed as **মামা** or **ভাই**.\n\n**যাব** = 'I/we will go', **যাবেন** = 'you (polite) will go'. Destinations often need no ending at all in speech: **ধানমন্ডি যাবেন?** 'Will you go to Dhanmondi?'\n\nAgree the fare *before* you get in: **ভাড়া কত?** If it's high, use your Unit 6 haggling: **ভাড়া একটু বেশি**.\n\nTo get off: **মামা, এখানে থামেন** 'Stop here, please'. A **সিএনজি** is the green gas-powered auto-rickshaw — in Kolkata it's an **অটো**.",
+      "tip": "Hailing a rickshaw goes like this: call **এই রিকশা!** ('Hey, rickshaw!'), name your destination and ask **যাবেন?** 'Will you go?' — **ধানমন্ডি যাবেন?** In speech the destination often needs no ending at all. If the driver says **না**, or just shakes his head, he doesn't want that route — ask the next one.\n\nAddress drivers as **মামা** (lit. 'uncle', mother's brother) or **ভাই** 'brother' — friendly and respectful. Use the polite forms **যাবেন** and **থামেন**; plenty of people say তুমি to drivers, but আপনি is always safe.\n\nThe future of 'go': **যাব** = 'I / we will go', **যাবেন** = 'you (polite) will go'. 'By rickshaw' takes the locative: **রিকশায় যাব**.\n\n**Agree the fare before you get in.** In practice rickshaws and CNGs don't run on a meter, so ask **ভাড়া কত?** If it sounds high, say **ভাড়া একটু বেশি** and make a counter-offer with your Unit 6 haggling: **পঞ্চাশ টাকা রাখেন?** A smile and a fair number work better than a long argument.\n\nTo get off: **মামা, এখানে থামেন** 'Stop here, please'. You'll hear **এখানে রাখেন** (lit. 'keep it here') just as often — both are right. And **কতদূর?** asks 'how far?': **ধানমন্ডি কতদূর?**\n\nA **সিএনজি** is the green, gas-powered auto-rickshaw — faster than a rickshaw and better for longer trips. In Kolkata it's an **অটো**.",
       "sentences": [
         {
           "bn": "এই রিকশা, যাবেন?",
@@ -531,7 +531,7 @@
         "ami",
         "jabo"
       ],
-      "tip": "**থেকে** 'from' pairs with **পর্যন্ত** (*porjonto*) 'to / as far as': **ঢাকা থেকে সিলেট পর্যন্ত** 'from Dhaka to Sylhet'.\n\nThe future of 'go' by person: **যাব** (I/we), **যাবে** (তুমি, সে), **যাবেন** (আপনি, তিনি). The yes/no **কি** sits after the subject: **এই বাস কি ঢাকা যাবে?** 'Does this bus go to Dhaka?' (lit. 'will go').\n\n'By bus / by train' uses the locative: **বাসে**, **ট্রেনে**.\n\nTrains leave (**ছাড়বে**, 'will leave') from Dhaka's Kamalapur and Airport stations; buy your **টিকিট** early before Eid, when everyone travels home.",
+      "tip": "**থেকে** 'from' pairs with **পর্যন্ত** (*porjonto*) 'to, as far as': **ঢাকা থেকে সিলেট পর্যন্ত** 'from Dhaka to Sylhet'. Don't confuse it with **দিয়ে** 'via, along'.\n\nThe future of 'go' by person:\n\n- **যাব** — আমি, আমরা\n- **যাবে** — তুমি, সে, and things like a bus or a train\n- **যাবেন** — আপনি, তিনি\n\nSo **এই বাস কি ঢাকা যাবে?** 'Does this bus go to Dhaka?' (lit. 'will this bus go…'). The yes/no **কি** sits right after the subject.\n\n'By bus / by train' takes the locative: **বাসে**, **ট্রেনে**. Watch the ending — **বাসে** (*base*) 'by bus' is not **বাসায়** (*bashay*) 'at home'.\n\nBuying a ticket is simply **একটা টিকিট দেন** 'One ticket, please' — **দুইটা টিকিট দেন** for two.\n\n**Culture:** on Dhaka's local buses a helper hangs at the door calling out the stops. Listen for place names and check with **এই বাস কি … যাবে?** before you board. Intercity trains leave (**ছাড়বে**, 'will leave') from Kamalapur and Airport stations; buy your **টিকিট** well before Eid, when everyone travels home.",
       "sentences": [
         {
           "bn": "এই বাস কি ঢাকা যাবে?",
@@ -636,7 +636,7 @@
         "rikshay",
         "jabo"
       ],
-      "tip": "Ask for the general direction with **কোন দিকে?** (*kon dike?*) 'which way?': **স্টেশন কোন দিকে?**\n\nA typical trip:\n\n- **মামা, ধানমন্ডি যাবেন?** — **যাব।**\n- **ভাড়া কত?** — **পঞ্চাশ টাকা।**\n- **মোড়ে ডানে যান… এখানে থামেন।**\n\nPostpositions always follow a genitive: **স্টেশনের কাছে**, **মসজিদের পাশে**.\n\nIf you are lost: **আমার সাহায্য দরকার** \"I need help\". **তাহলে** \"then, in that case\" links your plan to what you just heard.",
+      "tip": "Three ways to ask about a place — keep them apart:\n\n- **স্টেশন কোথায়?** — 'Where is the station?'\n- **স্টেশন কোন দিকে?** — 'Which way is the station?' Often answered with a point and **ওই দিকে** 'that way'.\n- **স্টেশন কতদূর?** — 'How far is the station?'\n\nA typical rickshaw ride:\n\n- **মামা, ধানমন্ডি যাবেন?** — **যাব।**\n- **ভাড়া কত?** — **পঞ্চাশ টাকা।**\n- **মোড়ে ডানে যান… এখানে থামেন।**\n\nPostpositions always follow a genitive: **স্টেশনের কাছে**, **মসজিদের পাশে**. 'From … to' is **থেকে … পর্যন্ত**.\n\nIf you are lost: **আমার সাহায্য দরকার** 'I need help'. **এখানে কি কেউ আছে?** 'Is anyone here?' **তাহলে** 'then, in that case' links your plan to what you just heard: **স্টেশন দূরে? তাহলে রিকশায় যাব।**\n\nDirections in Dhaka come in short steps — it's normal to ask again at the next **মোড়**.",
       "sentences": [
         {
           "bn": "স্টেশন কোন দিকে?",

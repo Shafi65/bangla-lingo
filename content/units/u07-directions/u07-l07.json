@@ -3,7 +3,7 @@
   "unit": "u07-directions",
   "title": "Review: getting around",
   "status": "draft",
-  "tip": "Ask for the general direction with **কোন দিকে?** (*kon dike?*) 'which way?': **স্টেশন কোন দিকে?**\n\nA typical trip:\n\n- **মামা, ধানমন্ডি যাবেন?** — **যাব।**\n- **ভাড়া কত?** — **পঞ্চাশ টাকা।**\n- **মোড়ে ডানে যান… এখানে থামেন।**\n\nPostpositions always follow a genitive: **স্টেশনের কাছে**, **মসজিদের পাশে**.\n\nIf you are lost: **আমার সাহায্য দরকার** \"I need help\". **তাহলে** \"then, in that case\" links your plan to what you just heard.",
+  "tip": "Three ways to ask about a place — keep them apart:\n\n- **স্টেশন কোথায়?** — 'Where is the station?'\n- **স্টেশন কোন দিকে?** — 'Which way is the station?' Often answered with a point and **ওই দিকে** 'that way'.\n- **স্টেশন কতদূর?** — 'How far is the station?'\n\nA typical rickshaw ride:\n\n- **মামা, ধানমন্ডি যাবেন?** — **যাব।**\n- **ভাড়া কত?** — **পঞ্চাশ টাকা।**\n- **মোড়ে ডানে যান… এখানে থামেন।**\n\nPostpositions always follow a genitive: **স্টেশনের কাছে**, **মসজিদের পাশে**. 'From … to' is **থেকে … পর্যন্ত**.\n\nIf you are lost: **আমার সাহায্য দরকার** 'I need help'. **এখানে কি কেউ আছে?** 'Is anyone here?' **তাহলে** 'then, in that case' links your plan to what you just heard: **স্টেশন দূরে? তাহলে রিকশায় যাব।**\n\nDirections in Dhaka come in short steps — it's normal to ask again at the next **মোড়**.",
   "vocab": [
     {
       "id": "kon",
@@ -50,27 +50,26 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "who",
-        "those",
-        "his/her (spoken)",
-        "which"
+        "where",
+        "which",
+        "how far",
+        "who"
       ],
-      "answer": 3
+      "answer": 1
     },
     {
       "id": "e02",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "দিকে",
-        "tr": "dike",
-        "en": "way"
+      "type": "listen_select",
+      "audio": {
+        "bn": "কোন",
+        "tr": "kon",
+        "en": "which"
       },
-      "direction": "bn_to_en",
       "options": [
-        "outside",
-        "next to",
-        "way",
-        "to"
+        "কে",
+        "কোথায়",
+        "কোন",
+        "কত"
       ],
       "answer": 2
     },
@@ -84,12 +83,12 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "Tuesday",
+        "problem",
+        "need",
         "help",
-        "intersection",
-        "CNG"
+        "fare"
       ],
-      "answer": 1
+      "answer": 2
     },
     {
       "id": "e04",
@@ -101,12 +100,12 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "that",
-        "I",
         "someone",
-        "you (polite, plural)"
+        "who",
+        "everyone",
+        "nothing"
       ],
-      "answer": 2
+      "answer": 0
     },
     {
       "id": "e05",
@@ -118,49 +117,22 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "no",
-        "then",
-        "yes (polite)",
-        "but"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "e06",
-      "type": "listen_select",
-      "audio": {
-        "bn": "কোন",
-        "tr": "kon",
-        "en": "which"
-      },
-      "options": [
-        "আপনি",
-        "তুমি",
-        "তিনি",
-        "কোন"
+        "but",
+        "now",
+        "OK",
+        "then"
       ],
       "answer": 3
     },
     {
-      "id": "e07",
-      "type": "listen_select",
-      "audio": {
-        "bn": "দিকে",
-        "tr": "dike",
-        "en": "way"
-      },
-      "options": [
-        "ছাড়া",
-        "বাইরে",
-        "দিকে",
-        "উপরে"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "e08",
+      "id": "e06",
       "type": "match_pairs",
       "pairs": [
+        {
+          "bn": "কোন",
+          "tr": "kon",
+          "en": "which"
+        },
         {
           "bn": "দিকে",
           "tr": "dike",
@@ -177,11 +149,6 @@
           "en": "someone"
         },
         {
-          "bn": "কোন",
-          "tr": "kon",
-          "en": "which"
-        },
-        {
           "bn": "তাহলে",
           "tr": "tahole",
           "en": "then"
@@ -189,7 +156,24 @@
       ]
     },
     {
-      "id": "e09",
+      "id": "e07",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "স্টেশন কোন দিকে?",
+        "tr": "steshon kon dike?",
+        "en": "Which way (in which direction) is the station?"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "স্টেশন কোথায়?",
+        "স্টেশন কোন দিকে?",
+        "স্টেশন কতদূর?",
+        "স্টেশন কি দূরে?"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e08",
       "type": "word_bank",
       "prompt": {
         "bn": "স্টেশন কোন দিকে?",
@@ -198,14 +182,14 @@
       },
       "direction": "bn_to_en",
       "tiles": [
-        "year",
+        "far",
         "station",
         "Which",
+        "How",
         "the",
-        "change",
+        "hotel",
         "way",
-        "is",
-        "bad"
+        "is"
       ],
       "answer": [
         "Which",
@@ -213,6 +197,37 @@
         "is",
         "the",
         "station"
+      ]
+    },
+    {
+      "id": "e09",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "মামা, ধানমন্ডি যাবেন?",
+        "tr": "mama, dhanmondi jaben?",
+        "en": "Mama, will you go to Dhanmondi? (polite)"
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "যাবে",
+        "ধানমন্ডি",
+        "দিকে",
+        "মামা",
+        "যান",
+        "যাবেন",
+        "কোন"
+      ],
+      "answer": [
+        "মামা",
+        "ধানমন্ডি",
+        "যাবেন"
+      ],
+      "alt": [
+        [
+          "ধানমন্ডি",
+          "যাবেন",
+          "মামা"
+        ]
       ]
     },
     {
@@ -225,15 +240,15 @@
       },
       "direction": "en_to_bn",
       "tiles": [
-        "সন্ধ্যায়",
-        "ঢাকা",
+        "যাবে",
+        "সিলেট",
+        "বাস",
         "থেকে",
         "পর্যন্ত",
-        "সিলেট",
-        "ছাড়বে",
-        "বাসে",
-        "ভাইয়া",
-        "যাব"
+        "দিয়ে",
+        "ঢাকা",
+        "যাব",
+        "বাসে"
       ],
       "answer": [
         "ঢাকা",
@@ -242,46 +257,106 @@
         "পর্যন্ত",
         "বাসে",
         "যাব"
+      ],
+      "alt": [
+        [
+          "বাসে",
+          "ঢাকা",
+          "থেকে",
+          "সিলেট",
+          "পর্যন্ত",
+          "যাব"
+        ],
+        [
+          "ঢাকা",
+          "থেকে",
+          "সিলেট",
+          "বাসে",
+          "যাব"
+        ]
       ]
     },
     {
       "id": "e11",
-      "type": "word_bank",
+      "type": "type_translation",
       "prompt": {
         "bn": "এখানে থামেন, ভাই।",
         "tr": "ekhane thamen, bhai.",
         "en": "Stop here, brother."
       },
       "direction": "bn_to_en",
-      "tiles": [
-        "sixty",
-        "temple",
-        "here",
-        "Stop",
-        "there",
-        "brother"
-      ],
-      "answer": [
-        "Stop",
-        "here",
-        "brother"
+      "accepted": [
+        "Stop here, brother.",
+        "Stop here, bhai.",
+        "Brother, stop here.",
+        "Please stop here, brother.",
+        "Stop here please, brother.",
+        "Please stop here.",
+        "Stop here, please."
       ]
     },
     {
       "id": "e12",
-      "type": "type_translation",
+      "type": "select_translation",
       "prompt": {
-        "bn": "মামা, ধানমন্ডি যাবেন?",
-        "tr": "mama, dhanmondi jaben?",
-        "en": "Mama, will you go to Dhanmondi?"
+        "bn": "আমার সাহায্য দরকার।",
+        "tr": "amar shahajjo dorkar.",
+        "en": "I need help."
       },
-      "direction": "bn_to_en",
-      "accepted": [
-        "Mama, will you go to Dhanmondi?"
-      ]
+      "direction": "en_to_bn",
+      "options": [
+        "আমি সাহায্য দরকার।",
+        "আমার সাহায্য নেই।",
+        "আমার সমস্যা দরকার।",
+        "আমার সাহায্য দরকার।"
+      ],
+      "answer": 3
     },
     {
       "id": "e13",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "এখানে কি কেউ আছে?",
+        "tr": "ekhane ki keu achhe?",
+        "en": "Is anyone here?"
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "someone",
+        "here",
+        "everyone",
+        "Is",
+        "Who",
+        "there",
+        "anyone"
+      ],
+      "answer": [
+        "Is",
+        "anyone",
+        "here"
+      ],
+      "alt": [
+        [
+          "Is",
+          "someone",
+          "here"
+        ],
+        [
+          "Is",
+          "there",
+          "anyone",
+          "here"
+        ],
+        [
+          "Is",
+          "there",
+          "someone",
+          "here"
+        ]
+      ]
+    },
+    {
+      "id": "e14",
       "type": "word_bank",
       "prompt": {
         "bn": "স্টেশন দূরে? তাহলে রিকশায় যাব।",
@@ -290,14 +365,14 @@
       },
       "direction": "en_to_bn",
       "tiles": [
+        "রিকশা",
         "দূরে",
-        "যাব",
-        "রিকশায়",
+        "যাবেন",
+        "তাহলে",
         "স্টেশন",
-        "সমস্যা",
-        "কলাগুলো",
-        "স্টেশনে",
-        "তাহলে"
+        "কাছে",
+        "যাব",
+        "রিকশায়"
       ],
       "answer": [
         "স্টেশন",
@@ -308,19 +383,19 @@
       ]
     },
     {
-      "id": "e14",
+      "id": "e15",
       "type": "select_translation",
       "prompt": {
-        "bn": "আমার সাহায্য দরকার।",
-        "tr": "amar shahajjo dorkar.",
-        "en": "I need help."
+        "bn": "হাসপাতাল মসজিদের পাশে।",
+        "tr": "hashpatal moshjider pashe.",
+        "en": "The hospital is next to the mosque."
       },
-      "direction": "en_to_bn",
+      "direction": "bn_to_en",
       "options": [
-        "আমার ভাই নেই।",
-        "আপনি কোথা থেকে এসেছেন?",
-        "আমার সাহায্য দরকার।",
-        "না, ওটা মাংস।"
+        "The hospital is in front of the mosque.",
+        "The hospital is behind the mosque.",
+        "The hospital is next to the mosque.",
+        "The hospital is far from the mosque."
       ],
       "answer": 2
     }

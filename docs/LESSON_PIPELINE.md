@@ -82,6 +82,7 @@ The draft is mechanically correct but generic. The author (Claude) then curates:
 - swap weak distractors for **confusable** ones (আছি/আছো/আছেন, তুমি/তোমার),
 - add 1–2 `en_to_bn` exercises that test the lesson's grammar point,
 - keep ≤15 exercises; vary correct-answer positions.
+- `type_translation.accepted` may include recognised spelling variants noted in the lexicon (একশো, দুইশো, ফুপু, জ্বি) — accepted answers only, never in prompts or options.
 
 Lessons carry `"status": "draft" | "reviewed"`. `reviewed` means a native speaker checked it (`"reviewedBy"` records who). The app ships both; the dashboard (`npm run status`) shows what still needs review.
 

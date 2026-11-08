@@ -3,7 +3,7 @@
   "unit": "u07-directions",
   "title": "Left, right, straight",
   "status": "draft",
-  "tip": "Directions use the polite command **যান** (*jan*) 'go': **ডানে যান** 'go right', **বামে যান** 'go left', **সোজা যান** 'go straight'.\n\n**মোড়** (*mor*) — intersection / corner — is the key landmark word in Bangladeshi cities. **মোড়ে বামে যান** = 'turn left at the intersection'.\n\n**দিয়ে** after a noun means 'along / through': **এই রাস্তা দিয়ে সোজা যান** 'go straight along this road'.\n\n**Kolkata:** people more often say **ডানদিকে** / **বাঁদিকে** ('to the right side / left side').",
+  "tip": "Directions use the polite command **যান** (*jan*) 'go': **ডানে যান** 'go right', **বামে যান** 'go left', **সোজা যান** 'go straight'. The same words also say where something is: **হোটেল বামে** 'the hotel is on the left'.\n\n**মোড়** (*mor*) — intersection, corner — is the key landmark word in Bangladeshi cities. With the locative it becomes **মোড়ে** 'at the intersection': **মোড়ে বামে যান** 'turn left at the intersection'.\n\nTwo little words after a noun:\n\n- **দিয়ে** 'along, through': **এই রাস্তা দিয়ে সোজা যান** 'go straight along this road'\n- **থেকে** 'from': **এই মোড় থেকে ডানে যান** 'turn right from this intersection'\n\n**Culture:** street names and house numbers won't get you far in Dhaka. People find their way by landmarks — a big intersection (whole neighbourhoods are known by their মোড়, like Shahbag or Farmgate), a mosque, a well-known shop. Expect directions in short steps — 'go straight to the intersection, then ask again' — and don't hesitate to ask a shopkeeper or tea-stall owner.\n\n**Kolkata:** people more often say **ডানদিকে** / **বাঁদিকে** ('to the right side / left side').",
   "vocab": [
     {
       "id": "dane",
@@ -69,15 +69,31 @@
       },
       "direction": "bn_to_en",
       "options": [
+        "left",
         "right",
-        "at night",
-        "of course",
-        "in a week"
+        "straight",
+        "near"
       ],
-      "answer": 0
+      "answer": 1
     },
     {
       "id": "e02",
+      "type": "listen_select",
+      "audio": {
+        "bn": "ডানে",
+        "tr": "dane",
+        "en": "right"
+      },
+      "options": [
+        "বামে",
+        "ডানে",
+        "দিয়ে",
+        "মোড়ে"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e03",
       "type": "select_translation",
       "prompt": {
         "bn": "বামে",
@@ -87,14 +103,14 @@
       "direction": "bn_to_en",
       "options": [
         "right",
-        "today",
-        "in the morning",
-        "left"
+        "straight",
+        "left",
+        "along"
       ],
-      "answer": 3
+      "answer": 2
     },
     {
-      "id": "e03",
+      "id": "e04",
       "type": "select_translation",
       "prompt": {
         "bn": "সোজা",
@@ -103,15 +119,15 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "what time; how many",
-        "more",
         "straight",
-        "left"
+        "left",
+        "right",
+        "at the intersection"
       ],
-      "answer": 2
+      "answer": 0
     },
     {
-      "id": "e04",
+      "id": "e05",
       "type": "select_translation",
       "prompt": {
         "bn": "যান",
@@ -120,15 +136,15 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "(you/he/she, polite) want",
+        "(you, polite) eat",
         "go (polite)",
-        "you will buy (polite)",
-        "am"
+        "give (polite)",
+        "want (polite)"
       ],
       "answer": 1
     },
     {
-      "id": "e05",
+      "id": "e06",
       "type": "select_translation",
       "prompt": {
         "bn": "রাস্তা",
@@ -137,15 +153,15 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "liking",
-        "road",
-        "student (female)",
-        "shop"
+        "intersection",
+        "station",
+        "shop",
+        "road"
       ],
-      "answer": 1
+      "answer": 3
     },
     {
-      "id": "e06",
+      "id": "e07",
       "type": "select_translation",
       "prompt": {
         "bn": "দিয়ে",
@@ -154,15 +170,15 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "am not",
-        "sweet",
+        "from",
         "along",
-        "are not (familiar)"
+        "here",
+        "in front of"
       ],
-      "answer": 2
+      "answer": 1
     },
     {
-      "id": "e07",
+      "id": "e08",
       "type": "select_translation",
       "prompt": {
         "bn": "মোড়",
@@ -171,15 +187,15 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "elder sister",
-        "the shirt",
+        "road",
+        "at the intersection",
         "intersection",
-        "uncle (mother's brother)"
+        "straight"
       ],
       "answer": 2
     },
     {
-      "id": "e08",
+      "id": "e09",
       "type": "match_pairs",
       "pairs": [
         {
@@ -193,14 +209,14 @@
           "en": "right"
         },
         {
-          "bn": "যান",
-          "tr": "jan",
-          "en": "go (polite)"
-        },
-        {
           "bn": "বামে",
           "tr": "bame",
           "en": "left"
+        },
+        {
+          "bn": "রাস্তা",
+          "tr": "rasta",
+          "en": "road"
         },
         {
           "bn": "মোড়ে",
@@ -210,49 +226,24 @@
       ]
     },
     {
-      "id": "e09",
-      "type": "word_bank",
-      "prompt": {
-        "bn": "এই রাস্তা দিয়ে সোজা যান।",
-        "tr": "ei rasta diye shoja jan.",
-        "en": "Go straight along this road."
-      },
-      "direction": "bn_to_en",
-      "tiles": [
-        "station",
-        "this",
-        "road",
-        "straight",
-        "chicken",
-        "shopkeeper",
-        "Go",
-        "along"
-      ],
-      "answer": [
-        "Go",
-        "straight",
-        "along",
-        "this",
-        "road"
-      ]
-    },
-    {
       "id": "e10",
       "type": "word_bank",
       "prompt": {
-        "bn": "বামে যান।",
-        "tr": "bame jan.",
-        "en": "Go left."
+        "bn": "মোড়ে বামে যান।",
+        "tr": "more bame jan.",
+        "en": "Turn left at the intersection."
       },
       "direction": "en_to_bn",
       "tiles": [
-        "ভাইয়া",
-        "মাছ",
-        "ছেলে",
+        "ডানে",
         "যান",
-        "বামে"
+        "মোড়",
+        "বামে",
+        "খান",
+        "মোড়ে"
       ],
       "answer": [
+        "মোড়ে",
         "বামে",
         "যান"
       ]
@@ -261,31 +252,76 @@
       "id": "e11",
       "type": "word_bank",
       "prompt": {
-        "bn": "মোড়ে বামে যান।",
-        "tr": "more bame jan.",
-        "en": "Turn left at the intersection."
+        "bn": "এই রাস্তা দিয়ে সোজা যান।",
+        "tr": "ei rasta diye shoja jan.",
+        "en": "Go straight along this road."
       },
       "direction": "bn_to_en",
       "tiles": [
-        "Turn",
-        "at",
-        "Sylhet",
-        "intersection",
-        "the",
+        "this",
+        "from",
+        "road",
+        "Go",
         "left",
-        "Dhaka",
-        "they"
+        "straight",
+        "the",
+        "along",
+        "down"
       ],
       "answer": [
-        "Turn",
-        "left",
-        "at",
-        "the",
-        "intersection"
+        "Go",
+        "straight",
+        "along",
+        "this",
+        "road"
+      ],
+      "alt": [
+        [
+          "Go",
+          "straight",
+          "down",
+          "this",
+          "road"
+        ]
       ]
     },
     {
       "id": "e12",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "এই মোড় থেকে ডানে যান।",
+        "tr": "ei mor theke dane jan.",
+        "en": "Turn right at this intersection."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "থেকে",
+        "বামে",
+        "এই",
+        "মোড়ে",
+        "যান",
+        "দিয়ে",
+        "ডানে",
+        "মোড়"
+      ],
+      "answer": [
+        "এই",
+        "মোড়",
+        "থেকে",
+        "ডানে",
+        "যান"
+      ],
+      "alt": [
+        [
+          "এই",
+          "মোড়ে",
+          "ডানে",
+          "যান"
+        ]
+      ]
+    },
+    {
+      "id": "e13",
       "type": "type_translation",
       "prompt": {
         "bn": "হোটেল বামে।",
@@ -294,46 +330,48 @@
       },
       "direction": "bn_to_en",
       "accepted": [
-        "The hotel is on the left."
-      ]
-    },
-    {
-      "id": "e13",
-      "type": "word_bank",
-      "prompt": {
-        "bn": "স্টেশন ডানে।",
-        "tr": "steshon dane.",
-        "en": "The station is on the right."
-      },
-      "direction": "en_to_bn",
-      "tiles": [
-        "স্টেশন",
-        "শাড়িটা",
-        "ডানে",
-        "তিনটা",
-        "ত্রিশ"
-      ],
-      "answer": [
-        "স্টেশন",
-        "ডানে"
+        "The hotel is on the left.",
+        "The hotel's on the left.",
+        "The hotel is to the left.",
+        "Hotel is on the left.",
+        "The hotel is on your left.",
+        "The hotel is left."
       ]
     },
     {
       "id": "e14",
       "type": "select_translation",
       "prompt": {
-        "bn": "এই মোড় থেকে ডানে যান।",
-        "tr": "ei mor theke dane jan.",
-        "en": "Turn right from this intersection."
+        "bn": "স্টেশন ডানে।",
+        "tr": "steshon dane.",
+        "en": "The station is on the right."
       },
       "direction": "en_to_bn",
       "options": [
-        "উনি আমার নানা।",
-        "উনি আমার শিক্ষক।",
-        "তিনি আমার বাংলা শিক্ষক।",
-        "এই মোড় থেকে ডানে যান।"
+        "স্টেশন বামে।",
+        "হোটেল ডানে।",
+        "স্টেশন ডানে।",
+        "স্টেশন সোজা।"
       ],
-      "answer": 3
+      "answer": 2
+    },
+    {
+      "id": "e15",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "সোজা যান।",
+        "tr": "shoja jan.",
+        "en": "Go straight. (polite)"
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "সোজা যান।",
+        "shoja jan",
+        "soja jan",
+        "sojha jan",
+        "shoja jaan",
+        "soja jaan"
+      ]
     }
   ]
 }

@@ -3,7 +3,7 @@
   "unit": "u07-directions",
   "title": "Near, far, next to",
   "status": "draft",
-  "tip": "English puts 'near, behind, next to' *before* the noun; Bengali puts them **after** it, as **postpositions**. The noun takes the genitive 'of' ending first:\n\n- **স্টেশনের কাছে** — 'near the station' (lit. 'station's near')\n- **বাড়ির পাশে** — 'next to the house'\n- **হোটেলের সামনে** — 'in front of the hotel'\n\nRemember: **-এর** after a consonant (স্টেশন → স্টেশনের), **-র** after a vowel (বাড়ি → বাড়ির, বাসা → বাসার).\n\nMany of these words also work alone: **বাবা বাইরে** 'Dad is outside', **আপু উপরে** 'Apu is upstairs'. All of them end in **-এ** — they are really locative nouns ('at the near-side', 'at the front').",
+  "tip": "English puts 'near, behind, next to' *before* the noun; Bengali puts them **after** it, as **postpositions**. The noun takes the genitive 'of' ending first:\n\n- **স্টেশনের কাছে** — 'near the station' (lit. 'the station's near-side')\n- **বাড়ির পাশে** — 'next to the house'\n- **হোটেলের সামনে** — 'in front of the hotel'\n- **স্টেশনের পিছনে** — 'behind the station'\n\nThe ending is **-এর** after a consonant (স্টেশন → স্টেশনের, হোটেল → হোটেলের) and **-র** after a vowel (বাড়ি → বাড়ির, বাসা → বাসার). Don't drop it: **স্টেশন কাছে** means 'the station is near', not 'near the station'.\n\nMany of these words also stand alone: **বাবা বাইরে** 'Dad is outside', **আপু উপরে** 'Apu is upstairs', **বাজার কি দূরে?** 'Is the market far?' They all end in **-এ** — they are really place nouns in the locative ('at the near side', 'at the front').\n\n'Far *from*' takes **থেকে** instead of the genitive: **স্টেশন থেকে দূরে** 'far from the station'.\n\nIn speech you'll also hear **পেছনে** for পিছনে and **ভেতরে** for ভিতরে.",
   "vocab": [
     {
       "id": "kachhe",
@@ -98,12 +98,12 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "upstairs",
-        "in front of",
+        "far",
         "near",
-        "along"
+        "next to",
+        "behind"
       ],
-      "answer": 2
+      "answer": 1
     },
     {
       "id": "e02",
@@ -115,106 +115,76 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "of course",
         "far",
-        "right",
-        "what time; how many"
+        "near",
+        "outside",
+        "downstairs"
       ],
-      "answer": 1
+      "answer": 0
     },
     {
       "id": "e03",
       "type": "select_translation",
       "prompt": {
-        "bn": "পাশে",
-        "tr": "pashe",
-        "en": "next to"
+        "bn": "বাসার পাশে",
+        "tr": "bashar pashe",
+        "en": "next to the house"
       },
       "direction": "bn_to_en",
       "options": [
-        "in front of",
-        "next to",
-        "upstairs",
-        "along"
+        "in front of the house",
+        "near the house",
+        "next to the house",
+        "inside the house"
       ],
-      "answer": 1
+      "answer": 2
     },
     {
       "id": "e04",
       "type": "select_translation",
       "prompt": {
-        "bn": "সামনে",
-        "tr": "shamne",
-        "en": "in front of"
+        "bn": "হোটেলের পিছনে",
+        "tr": "hoteler pichhone",
+        "en": "behind the hotel"
       },
       "direction": "bn_to_en",
       "options": [
-        "in front of",
-        "without",
-        "downstairs",
-        "next to"
+        "in front of the hotel",
+        "next to the hotel",
+        "behind the station",
+        "behind the hotel"
       ],
-      "answer": 0
+      "answer": 3
     },
     {
       "id": "e05",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "পিছনে",
-        "tr": "pichhone",
-        "en": "behind"
+      "type": "listen_select",
+      "audio": {
+        "bn": "বাড়ির",
+        "tr": "barir",
+        "en": "of the house"
       },
-      "direction": "bn_to_en",
       "options": [
-        "next to",
-        "behind",
-        "inside",
-        "from"
+        "বাড়ি",
+        "বাড়ির",
+        "বাসার",
+        "বাজার"
       ],
       "answer": 1
     },
     {
       "id": "e06",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "ভিতরে",
-        "tr": "bhitore",
-        "en": "inside"
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "in front of",
-        "from",
-        "inside",
-        "near"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "e07",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "বাইরে",
-        "tr": "baire",
-        "en": "outside"
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "in front of",
-        "outside",
-        "downstairs",
-        "from"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "e08",
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "হোটেলের",
-          "tr": "hoteler",
-          "en": "of the hotel"
+          "bn": "সামনে",
+          "tr": "shamne",
+          "en": "in front of"
+        },
+        {
+          "bn": "বাইরে",
+          "tr": "baire",
+          "en": "outside"
         },
         {
           "bn": "উপরে",
@@ -227,153 +197,227 @@
           "en": "downstairs"
         },
         {
-          "bn": "স্টেশনের",
-          "tr": "steshoner",
-          "en": "of the station"
-        },
-        {
-          "bn": "বাড়ির",
-          "tr": "barir",
-          "en": "of the house"
+          "bn": "ভিতরে",
+          "tr": "bhitore",
+          "en": "inside"
         }
       ]
     },
     {
-      "id": "e09",
-      "type": "word_bank",
+      "id": "e07",
+      "type": "select_translation",
       "prompt": {
-        "bn": "বাসা খুব কাছে।",
-        "tr": "basha khub kachhe.",
-        "en": "The house is very close."
-      },
-      "direction": "bn_to_en",
-      "tiles": [
-        "The",
-        "all",
-        "close",
-        "house",
-        "sweet",
-        "flatbread",
-        "very",
-        "is"
-      ],
-      "answer": [
-        "The",
-        "house",
-        "is",
-        "very",
-        "close"
-      ]
-    },
-    {
-      "id": "e10",
-      "type": "word_bank",
-      "prompt": {
-        "bn": "আপু উপরে, আব্বু নিচে।",
-        "tr": "apu upore, abbu niche.",
-        "en": "Apu is upstairs, Dad is downstairs."
+        "bn": "হোটেল স্টেশনের কাছে।",
+        "tr": "hotel steshoner kachhe.",
+        "en": "The hotel is near the station."
       },
       "direction": "en_to_bn",
-      "tiles": [
-        "আব্বু",
-        "দাদি",
-        "আপু",
-        "আরও",
-        "নিচে",
-        "আমেরিকা",
-        "উপরে"
+      "options": [
+        "হোটেল স্টেশন কাছে।",
+        "স্টেশন হোটেলের কাছে।",
+        "হোটেল স্টেশনের কাছে।",
+        "হোটেল স্টেশনের পিছনে।"
       ],
-      "answer": [
-        "আপু",
-        "উপরে",
-        "আব্বু",
-        "নিচে"
-      ]
+      "answer": 2
     },
     {
-      "id": "e11",
+      "id": "e08",
       "type": "word_bank",
       "prompt": {
         "bn": "দোকানটা বাড়ির পাশে।",
         "tr": "dokanta barir pashe.",
         "en": "The shop is next to the house."
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "tiles": [
-        "mother",
-        "the",
-        "next",
-        "The",
-        "shop",
-        "to",
-        "right",
-        "is",
-        "teacher",
-        "house"
+        "বাড়ি",
+        "পাশে",
+        "সামনে",
+        "দোকানটা",
+        "পিছনে",
+        "বাড়ির"
       ],
       "answer": [
-        "The",
-        "shop",
-        "is",
-        "next",
-        "to",
-        "the",
-        "house"
+        "দোকানটা",
+        "বাড়ির",
+        "পাশে"
       ]
     },
     {
-      "id": "e12",
-      "type": "type_translation",
+      "id": "e09",
+      "type": "word_bank",
       "prompt": {
         "bn": "আমার বাসা হোটেলের সামনে।",
         "tr": "amar basha hoteler shamne.",
         "en": "My home is in front of the hotel."
       },
       "direction": "bn_to_en",
-      "accepted": [
-        "My home is in front of the hotel.",
-        "My house is in front of the hotel."
-      ]
-    },
-    {
-      "id": "e13",
-      "type": "word_bank",
-      "prompt": {
-        "bn": "স্টেশন অনেক দূরে।",
-        "tr": "steshon onek dure.",
-        "en": "The station is very far."
-      },
-      "direction": "en_to_bn",
       "tiles": [
-        "অনেক",
-        "মা",
-        "স্টেশন",
-        "দূরে",
-        "এসেছি",
-        "আচ্ছা"
+        "front",
+        "My",
+        "the",
+        "behind",
+        "home",
+        "of",
+        "is",
+        "hotel",
+        "in",
+        "next",
+        "house"
       ],
       "answer": [
-        "স্টেশন",
-        "অনেক",
-        "দূরে"
+        "My",
+        "home",
+        "is",
+        "in",
+        "front",
+        "of",
+        "the",
+        "hotel"
+      ],
+      "alt": [
+        [
+          "My",
+          "house",
+          "is",
+          "in",
+          "front",
+          "of",
+          "the",
+          "hotel"
+        ]
       ]
     },
     {
-      "id": "e14",
-      "type": "select_translation",
+      "id": "e10",
+      "type": "word_bank",
       "prompt": {
         "bn": "বাজার স্টেশনের পিছনে।",
         "tr": "bajar steshoner pichhone.",
         "en": "The market is behind the station."
       },
       "direction": "en_to_bn",
-      "options": [
-        "আমার এক মাস সময় আছে।",
-        "ফুফা এখানে নেই।",
-        "বাজার স্টেশনের পিছনে।",
-        "আমার বয়স বিশ।"
+      "tiles": [
+        "সামনে",
+        "স্টেশন",
+        "বাজার",
+        "পিছনে",
+        "বাজারে",
+        "স্টেশনের"
       ],
-      "answer": 2
+      "answer": [
+        "বাজার",
+        "স্টেশনের",
+        "পিছনে"
+      ]
+    },
+    {
+      "id": "e11",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "মা বাসার ভিতরে।",
+        "tr": "ma bashar bhitore.",
+        "en": "Mom is inside the house."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "বাইরে",
+        "মা",
+        "উপরে",
+        "বাসা",
+        "ভিতরে",
+        "বাসার"
+      ],
+      "answer": [
+        "মা",
+        "বাসার",
+        "ভিতরে"
+      ]
+    },
+    {
+      "id": "e12",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "বাবা বাইরে।",
+        "tr": "baba baire.",
+        "en": "Dad is outside."
+      },
+      "direction": "bn_to_en",
+      "accepted": [
+        "Dad is outside.",
+        "Dad's outside.",
+        "Father is outside.",
+        "My father is outside.",
+        "My dad is outside.",
+        "Dad is out.",
+        "Father is out.",
+        "Baba is outside."
+      ]
+    },
+    {
+      "id": "e13",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আপু উপরে, আব্বু নিচে।",
+        "tr": "apu upore, abbu niche.",
+        "en": "Apu is upstairs, Dad is downstairs."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "is",
+        "Mom",
+        "Dad",
+        "outside",
+        "upstairs",
+        "Apu",
+        "downstairs",
+        "is"
+      ],
+      "answer": [
+        "Apu",
+        "is",
+        "upstairs",
+        "Dad",
+        "is",
+        "downstairs"
+      ]
+    },
+    {
+      "id": "e14",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "বাজার কি দূরে?",
+        "tr": "bajar ki dure?",
+        "en": "Is the market far?"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "Where is the market?",
+        "Is the market far?",
+        "The market is far.",
+        "Is the market near?"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e15",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "বাসা খুব কাছে।",
+        "tr": "basha khub kachhe.",
+        "en": "The house is very close."
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "বাসা খুব কাছে।",
+        "বাড়ি খুব কাছে।",
+        "basha khub kachhe",
+        "basa khub kache",
+        "basha khub kache",
+        "basa khub kachhe",
+        "bari khub kachhe",
+        "bari khub kache"
+      ]
     }
   ]
 }
