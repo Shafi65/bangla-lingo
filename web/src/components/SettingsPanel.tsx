@@ -131,6 +131,11 @@ function AudioSection({
             ? `${recordedClipCount} clips available`
             : "Not available yet (coming soon)"}
         </StatusRow>
+        {recordedClipCount > 0 && (
+          <li className="text-xs font-semibold text-muted">
+            Recorded clips use a computer-generated Bangladeshi Bengali voice.
+          </li>
+        )}
         <StatusRow ok={!!voice} label="Device voice">
           {voice
             ? `${voice.name} (${voice.lang})`

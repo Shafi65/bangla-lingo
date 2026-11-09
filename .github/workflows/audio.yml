@@ -1,11 +1,8 @@
 name: Generate audio
 on:
+  # Manual only while the GitHub account has a billing lock. To restore automatic runs, add back:
+  #   push: { branches: [main], paths: ["content/**", "!content/audio/**"] }
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - "content/**"
-      - "!content/audio/**"
 
 permissions:
   contents: write

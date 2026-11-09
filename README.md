@@ -30,6 +30,6 @@ docs/       content format docs
 | `npm run status` | lessons planned / drafted / reviewed per unit |
 | `npm run gen:lesson -- <lesson-id>` | drafts a lesson from its plan |
 
-See [docs/LESSON_PIPELINE.md](docs/LESSON_PIPELINE.md), [docs/CONTENT_SCHEMA.md](docs/CONTENT_SCHEMA.md) and [content/TRANSLITERATION.md](content/TRANSLITERATION.md).
+See [docs/LESSON_PIPELINE.md](docs/LESSON_PIPELINE.md), [docs/CONTENT_SCHEMA.md](docs/CONTENT_SCHEMA.md) and [content/TRANSLITERATION.md](content/TRANSLITERATION.md). Audio clips: [docs/AUDIO.md](docs/AUDIO.md).
 
 Lessons marked `"status": "draft"` haven't had a native-speaker review yet. Corrections from Bengali speakers are very welcome.

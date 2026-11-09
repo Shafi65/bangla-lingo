@@ -1,8 +1,8 @@
 name: CI
 on:
-  push:
-    branches: [main]
-  pull_request:
+  # Manual only while the GitHub account has a billing lock (failures were emailing the owner).
+  # To restore automatic runs, put back: push (branches: [main]) and pull_request.
+  workflow_dispatch:
 jobs:
   validate-and-build:
     runs-on: ubuntu-latest

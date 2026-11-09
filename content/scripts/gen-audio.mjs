@@ -3,6 +3,7 @@
 //
 //   npm run gen:audio            synthesize missing clips
 //   npm run gen:audio -- --dry   only count strings and characters (no API calls)
+//   npm run gen:audio -- --test  synthesize one sample clip to a temp file (checks key/region/voice)
 //
 // Env: AZURE_SPEECH_KEY, AZURE_SPEECH_REGION (required unless --dry),
 //      AZURE_VOICE (default "bn-BD-NabanitaNeural").
@@ -16,7 +17,19 @@ import fs from "node:fs";
 import path from "node:path";
 import { BENGALI, ROOT, lessonPath, loadAll, readJson, rel, writeJson } from "./lib.mjs";
 
+// Load KEY=VALUE pairs from the repo-root .env (git-ignored) without overriding real env vars.
+{
+  const envFile = path.join(path.dirname(ROOT), ".env");
+  if (fs.existsSync(envFile)) {
+    for (const line of fs.readFileSync(envFile, "utf8").split(/\r?\n/)) {
+      const m = line.match(/^\s*([A-Z0-9_]+)\s*=\s*(.*?)\s*$/);
+      if (m && !(m[1] in process.env)) process.env[m[1]] = m[2].replace(/^["']|["']$/g, "");
+    }
+  }
+}
+
 const DRY = process.argv.includes("--dry");
+const TEST = process.argv.includes("--test");
 const VOICE = process.env.AZURE_VOICE || "bn-BD-NabanitaNeural";
 const VOICE_LANG = VOICE.split("-").slice(0, 2).join("-") || "bn-BD";
 const FORMAT = "audio-24khz-48kbitrate-mono-mp3";
@@ -95,6 +108,7 @@ async function synthesize(text, { key, region }) {
           "User-Agent": "bangla-lingo-gen-audio",
         },
         body: ssml,
+        signal: AbortSignal.timeout(30_000),
       });
     } catch (err) {
       if (attempt >= MAX_TRIES) throw err;
@@ -154,9 +168,19 @@ async function main() {
       "Missing AZURE_SPEECH_KEY and/or AZURE_SPEECH_REGION.\n" +
         "Set them to the key and region of an Azure Speech resource, e.g.\n" +
         "  AZURE_SPEECH_KEY=... AZURE_SPEECH_REGION=eastus npm run gen:audio\n" +
+        "  (or put both lines in a .env file at the repo root — see docs/AUDIO.md)\n" +
         "Use --dry to count strings without calling the API.",
     );
     process.exit(1);
+  }
+
+  if (TEST) {
+    // Synthesize one word to check the key/region/voice, without touching the repo.
+    const sample = "আসসালামু আলাইকুম, ধন্যবাদ।";
+    const out = path.join((await import("node:os")).tmpdir(), "bangla-lingo-audio-test.mp3");
+    fs.writeFileSync(out, await synthesize(sample, { key, region }));
+    console.log(`✓ Azure works. Test clip: ${out}\n  Listen: open "${out}"   (macOS)\n  Then run the full job: npm run gen:audio`);
+    return;
   }
 
   fs.mkdirSync(AUDIO_DIR, { recursive: true });
