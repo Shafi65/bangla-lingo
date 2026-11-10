@@ -1,19 +1,30 @@
 #!/usr/bin/env node
 // Validates content/ against docs/CONTENT_SCHEMA.md and docs/LESSON_PIPELINE.md.
-// Usage: npm run validate [-- --quiet]   (exit 1 on any error)
+// Usage: npm run validate [-- --quiet] [-- --strict]   (exit 1 on any error)
+//   --strict  also turns the teaching-quality rules into errors (npm run validate:strict):
+//             untaught Bengali in main-track exercises, production-first new words, >10 new items in a lesson,
+//             unit reviews covering <80% of the unit's words, reviews that introduce new words.
 import fs from "node:fs";
-import { BENGALI, POS, REGISTERS, loadAll, knownAt, lessonPath, readJson, rel, tokenize } from "./lib.mjs";
+import {
+  BENGALI, POS, REGISTERS, findProductionFirst, findUntaught, isRecycle, isReviewLesson, knownAt, lessonPath, loadAll,
+  loadLessons, readJson, rel, reviewCoverage, tokenize,
+} from "./lib.mjs";
 
 const quiet = process.argv.includes("--quiet");
+const strict = process.argv.includes("--strict");
+
 const errors = [];
 const warnings = [];
 const err = (where, msg) => errors.push(`${where}: ${msg}`);
 const warn = (where, msg) => warnings.push(`${where}: ${msg}`);
+const strictCounts = {};
+const serr = (rule, where, msg) => { strictCounts[rule] = (strictCounts[rule] ?? 0) + 1; err(where, `[strict:${rule}] ${msg}`); };
 
 const TYPES = new Set([
   "select_translation", "word_bank", "match_pairs",
   "listen_select", "type_translation", "script_recognize",
 ]);
+const MAX_RECYCLE = 6; // recycle-tagged exercises per lesson (default run adds 3; extra match_pairs may add more)
 const DIRS = new Set(["bn_to_en", "en_to_bn"]);
 const isStr = (v) => typeof v === "string" && v.trim().length > 0;
 const isStrArr = (v) => Array.isArray(v) && v.length > 0 && v.every(isStr);
@@ -204,8 +215,15 @@ for (const u of course.units) {
     });
     if (!Array.isArray(L.exercises) || L.exercises.length === 0) { err(r, "no exercises"); continue; }
     exCount += L.exercises.length;
-    if (L.exercises.length < 8 || L.exercises.length > 15)
-      warn(r, `${L.exercises.length} exercises (target 8–15)`);
+    const own = L.exercises.filter((e) => !isRecycle(e)); // hand-written
+    const recycled = L.exercises.length - own.length;
+    if (own.length < 8 || own.length > 15)
+      warn(r, `${own.length} hand-written exercises (target 8–15${recycled ? `, plus ${recycled} recycle` : ""})`);
+    if (recycled > MAX_RECYCLE) warn(r, `${recycled} recycle exercises (max ${MAX_RECYCLE})`);
+    if (L.exercises.some((e) => e.recycle !== undefined && e.recycle !== true)) err(r, `"recycle" must be true when present`);
+    if (u.track === "script" && recycled) err(r, "recycle exercises belong in main-track lessons only");
+    const firstRecycle = L.exercises.findIndex(isRecycle);
+    if (firstRecycle >= 0 && L.exercises.slice(firstRecycle).some((e) => !isRecycle(e))) err(r, "recycle exercises must come last");
     const ids = new Set();
     L.exercises.forEach((ex, i) => {
       const w = `${r} ex[${i}]${ex.id ? ` (${ex.id})` : ""}`;
@@ -214,7 +232,7 @@ for (const u of course.units) {
       else ids.add(ex.id);
       checkExercise(w, ex);
     });
-    const blob = JSON.stringify(L.exercises);
+    const blob = JSON.stringify(own); // recycle exercises don't count towards a new word's practice
     for (const v of L.vocab ?? []) {
       if (!v.bn) continue;
       const n = blob.split(v.bn).length - 1;
@@ -223,9 +241,31 @@ for (const u of course.units) {
   }
 }
 
+// ---------------------------------------------------------------- strict (teaching-quality) rules
+if (strict) {
+  const lessons = loadLessons(ctx);
+  const main = lessons.filter((l) => l.unit.track === "main");
+  for (const t of findUntaught(ctx, lessons))
+    serr("untaught", `${t.lesson} ${t.ex}`, `Bengali "${t.token}" shown before it is taught${t.taughtIn ? ` (taught in ${t.taughtIn})` : " (not in the lexicon)"}`);
+  for (const p of findProductionFirst(main))
+    serr("production-first", p.lesson, `new word "${p.word}" first appears in ${p.ex} (${p.type}), a production exercise`);
+  for (const l of main) {
+    if ((l.data.vocab?.length ?? 0) > 10) serr("too-many-new", l.id, `introduces ${l.data.vocab.length} new items (max 10)`);
+    if (isReviewLesson(ctx, l.id, l.data) && (l.data.vocab?.length ?? 0) > 0)
+      serr("review-new-words", l.id, `review lesson introduces ${l.data.vocab.length} new item(s): ${l.data.vocab.map((v) => v.id).join(", ")}`);
+  }
+  for (const c of reviewCoverage(ctx, lessons)) {
+    const u = ctx.units.get(c.unit);
+    const complete = u.lessons.length > 0 && (ctx.plans.get(c.unit)?.lessons ?? []).every((pl) => u.lessons.includes(pl.id));
+    if (!c.reviews.length) { if (complete) serr("review-coverage", c.unit, "no review lesson (plan kind \"review\" or title starting \"Review\")"); continue; }
+    if (c.pct < 80) serr("review-coverage", c.unit, `review (${c.reviews.join(", ")}) tests ${c.covered}/${c.words} unit words (${Math.round(c.pct)}%, need 80%)`);
+  }
+}
+
 // ---------------------------------------------------------------- report
 if (!quiet) warnings.forEach((w) => console.warn(`⚠  ${w}`));
 errors.forEach((e) => console.error(`✗  ${e}`));
+if (strict) console.log(`\nstrict violations by rule: ${Object.entries(strictCounts).map(([k, v]) => `${k} ${v}`).join(" · ") || "none"}`);
 const planned = [...plans.values()].reduce((n, p) => n + (p.lessons?.length ?? 0), 0);
 console.log(
   `\n${course.units.length} units · ${planned} planned lessons · ${lessonCount} authored (${exCount} exercises) · ` +

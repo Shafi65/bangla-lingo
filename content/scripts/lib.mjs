@@ -125,3 +125,145 @@ export function shuffle(arr, rand) {
   }
   return a;
 }
+
+// ---------------------------------------------------------------------------
+// Shared lesson analysis (audit, validate --strict, recycle)
+// ---------------------------------------------------------------------------
+
+/** Core parts of speech: the words a learner needs in every conversation. */
+export const CORE_POS = new Set(["pronoun", "verb", "particle", "postposition", "number", "adv"]);
+
+/** Authored lessons in course order: { id, unit, data, idx } (idx = position in ctx.order). */
+export function loadLessons(ctx) {
+  const out = [];
+  for (const u of ctx.course.units) {
+    for (const id of u.lessons) {
+      const f = lessonPath(u, id);
+      if (fs.existsSync(f)) out.push({ id, unit: u, data: readJson(f), idx: ctx.lessonInfo.get(id)?.index ?? out.length });
+    }
+  }
+  return out.sort((a, b) => a.idx - b.idx);
+}
+
+export const isRecycle = (ex) => ex?.recycle === true;
+
+/** Bengali tokens a learner meets in an exercise (prompts, audio, options, tiles, pairs). */
+export function exerciseTokens(ex) {
+  const out = [];
+  const add = (s) => typeof s === "string" && BENGALI.test(s) && out.push(...tokenize(s).filter((t) => BENGALI.test(t)));
+  add(ex.prompt?.bn); add(ex.audio?.bn); add(ex.glyph);
+  for (const o of ex.options ?? []) add(o);
+  for (const t of ex.tiles ?? []) add(t);
+  for (const p of ex.pairs ?? []) add(p.bn);
+  return out;
+}
+/** Space-padded token string, for whole-token phrase search. */
+export const exerciseText = (ex) => ` ${exerciseTokens(ex).join(" ")} `;
+/** Does a space-padded text contain the Bengali form as whole tokens? */
+export const hasForm = (text, bn) => text.includes(` ${tokenize(bn).join(" ")} `);
+
+/**
+ * What an exercise actually tests ("targets"): prompt, audio, glyph, match pairs, and the
+ * correct answer of en_to_bn selects / word banks / typed answers. Distractors are excluded.
+ */
+export function exerciseTargetText(ex) {
+  const parts = [];
+  const add = (s) => typeof s === "string" && BENGALI.test(s) && parts.push(...tokenize(s).filter((t) => BENGALI.test(t)));
+  add(ex.prompt?.bn); add(ex.audio?.bn); add(ex.glyph);
+  for (const p of ex.pairs ?? []) add(p.bn);
+  if (ex.type === "select_translation" && ex.direction === "en_to_bn") add(ex.options?.[ex.answer]);
+  if (ex.type === "listen_select") add(ex.options?.[ex.answer]);
+  if (ex.type === "word_bank" && ex.direction === "en_to_bn") add((ex.answer ?? []).join(" "));
+  if (ex.type === "type_translation" && ex.direction === "en_to_bn") for (const a of ex.accepted ?? []) add(a);
+  return ` ${parts.join(" ")} `;
+}
+
+/** Is this unit's lesson a review lesson? (plan kind "review" or title starts with "Review") */
+export function isReviewLesson(ctx, lessonId, data) {
+  const pl = ctx.lessonInfo.get(lessonId)?.planLesson;
+  return pl?.kind === "review" || /^review/i.test(pl?.title ?? data?.title ?? "");
+}
+
+/** Lexicon words a unit teaches that a review should cover (no names or letters). */
+export function unitReviewWords(ctx, unitId) {
+  return [...ctx.lexicon.values()].filter((e) => e._unit === unitId && e.pos !== "name" && e.pos !== "letter");
+}
+
+/**
+ * Review coverage per main-track unit: share of the unit's words tested as targets across its review
+ * lesson(s). Recycle exercises are ignored. Returns [{unit, reviews:[ids], words, covered, pct, missing:[bn]}].
+ */
+export function reviewCoverage(ctx, lessons) {
+  const out = [];
+  for (const u of ctx.course.units) {
+    if (u.track !== "main") continue;
+    const reviews = lessons.filter((l) => l.unit.id === u.id && isReviewLesson(ctx, l.id, l.data));
+    const words = unitReviewWords(ctx, u.id);
+    const text = reviews.map((l) => l.data.exercises.filter((e) => !isRecycle(e)).map(exerciseTargetText).join("|")).join("|");
+    const missing = words.filter((w) => !hasForm(text, w.bn));
+    out.push({
+      unit: u.id, reviews: reviews.map((l) => l.id), words: words.length, covered: words.length - missing.length,
+      pct: words.length ? (100 * (words.length - missing.length)) / words.length : 100, missing: missing.map((w) => w.bn),
+    });
+  }
+  return out;
+}
+
+/** Number of exercises (whole course, incl. recycle) in which each main-track word is a target. */
+export function targetCounts(ctx, lessons) {
+  const texts = lessons.flatMap((l) => l.data.exercises.map(exerciseTargetText));
+  const out = [];
+  for (const e of ctx.lexicon.values()) {
+    if (e.pos === "letter" || e.pos === "name" || ctx.units.get(e._unit)?.track !== "main") continue;
+    let n = 0;
+    for (const t of texts) if (hasForm(t, e.bn)) n++;
+    out.push({ id: e.id, bn: e.bn, en: e.en, pos: e.pos, lesson: e.lesson, n });
+  }
+  return out;
+}
+
+const DIGITS = "০১২৩৪৫৬৭৮৯";
+/**
+ * Bengali tokens shown in main-track exercises before the lexicon teaches them.
+ * Multi-digit numerals built from already-taught digits are exempt. Recycle exercises are checked too.
+ * Returns [{lesson, ex, token, taughtIn|null}].
+ */
+export function findUntaught(ctx, lessons) {
+  const introAt = new Map(); // token -> earliest lesson index
+  for (const e of ctx.lexicon.values()) {
+    const i = ctx.lessonInfo.get(e.lesson)?.index;
+    if (i === undefined) continue;
+    for (const t of tokenize(e.bn)) if (!introAt.has(t) || introAt.get(t) > i) introAt.set(t, i);
+  }
+  const out = [];
+  for (const l of lessons) {
+    if (l.unit.track === "script") continue; // script lessons preview later words and build syllables
+    for (const ex of l.data.exercises) {
+      for (const t of exerciseTokens(ex)) {
+        const at = introAt.get(t);
+        if (at !== undefined && at <= l.idx) continue;
+        if ([...t].length > 1 && [...t].every((c) => DIGITS.includes(c) && (introAt.get(c) ?? Infinity) <= l.idx)) continue;
+        out.push({ lesson: l.id, ex: ex.id, token: t, taughtIn: at === undefined ? null : ctx.order[at] });
+      }
+    }
+  }
+  return out;
+}
+
+const RECOG = new Set(["select_translation:bn_to_en", "match_pairs:", "listen_select:", "script_recognize:"]);
+/** New vocab whose first exercise (ignoring recycle exercises) is production. [{lesson, word, ex, type, track}] */
+export function findProductionFirst(lessons) {
+  const out = [];
+  for (const l of lessons) {
+    const exs = l.data.exercises.filter((e) => !isRecycle(e));
+    for (const v of l.data.vocab ?? []) {
+      const first = exs.find((ex) => hasForm(exerciseText(ex), v.bn));
+      if (!first) continue;
+      const key = `${first.type}:${first.direction ?? ""}`;
+      const isTarget = first.prompt?.bn?.includes(v.bn) || first.audio?.bn?.includes(v.bn) || first.glyph === v.bn || (first.pairs ?? []).some((p) => p.bn === v.bn);
+      if (!RECOG.has(key) && !(key === "select_translation:en_to_bn" && !isTarget))
+        out.push({ lesson: l.id, word: v.id, ex: first.id, type: first.type, track: l.unit.track });
+    }
+  }
+  return out;
+}

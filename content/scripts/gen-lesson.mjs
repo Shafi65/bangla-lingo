@@ -64,9 +64,9 @@ const ex = [];
 const add = (o) => ex.push({ id: `e${String(ex.length + 1).padStart(2, "0")}`, ...o });
 
 const sentences = P.sentences ?? [];
-const sentenceBudget = isScript ? 0 : Math.min(sentences.length, 6);
+let sentenceBudget = isScript ? 0 : Math.min(sentences.length, 6);
 const letters = newE.filter((e) => e.pos === "letter");
-const words = newE.filter((e) => e.pos !== "letter" && e.pos !== "name");
+const words = newE.filter((e) => e.pos !== "letter"); // names get a recognition item too (round 1 skips them)
 // 1+2) Item exercises, round-robin so every new item gets its 1st exercise before any gets a 2nd.
 const letterPool = known.filter((e) => e.pos === "letter");
 const wordPool = [...knownWords, ...known.filter((k) => k.pos === "phrase"), ...previewE];
@@ -83,10 +83,14 @@ const itemEx = (e) => e.pos === "letter"
 let items = [...letters, ...words, ...previewE.filter((e) => e.pos !== "letter")];
 // Review lessons (few/no new items): exercise a sample of the review list instead.
 if (items.length < 5) items = [...items, ...shuffle(reviewE.filter((e) => e.pos !== "name"), rand).slice(0, 10 - items.length)];
-let wordBudget = MAX - sentenceBudget - 1 /* match */;
+// Every new item must get its recognition exercise before any sentence exercise, so trim the sentences
+// (never below 3) rather than leave a new word whose first appearance would be production.
+if (!isScript && sentenceBudget > 0) sentenceBudget = Math.max(Math.min(3, sentences.length), Math.min(sentenceBudget, MAX - 1 - items.length));
+let wordBudget = Math.max(MAX - sentenceBudget - 1 /* match */, items.length);
 for (let round = 0; round < 2; round++) {
   for (const e of items) {
     if (wordBudget <= 0) break;
+    if (round === 1 && e.pos === "name") continue; // names: recognition only
     const made = itemEx(e)[round]();
     if (made) { add(made); wordBudget--; }
   }
@@ -132,6 +136,21 @@ S.forEach((s, i) => {
     add({ type: "select_translation", prompt, direction: "en_to_bn", ...options(s.bn, others) });
   }
 });
+
+// Order: recognise -> listen -> match -> word bank -> type -> (en->bn select), so a new word's first
+// exercise is never production. Stable within each rank; ids are reassigned afterwards.
+const rank = (e) =>
+  e.type === "script_recognize" ? 0
+  : e.type === "select_translation" && e.direction === "bn_to_en" ? 0
+  : e.type === "listen_select" ? 1
+  : e.type === "match_pairs" ? 2
+  : e.type === "word_bank" && e.direction === "bn_to_en" ? 3
+  : e.type === "word_bank" ? 4
+  : e.type === "type_translation" ? 5
+  : 6;
+const ordered = ex.map((e, i) => ({ e, i })).sort((a, b) => rank(a.e) - rank(b.e) || a.i - b.i)
+  .map(({ e }, i) => ({ ...e, id: `e${String(i + 1).padStart(2, "0")}` }));
+ex.length = 0; ex.push(...ordered);
 
 const lesson = {
   id: lessonId,
