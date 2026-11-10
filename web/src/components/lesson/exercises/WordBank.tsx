@@ -2,12 +2,19 @@
 
 import { useEffect, useMemo, useState } from "react";
 import { BnText } from "@/components/BnText";
+import { Translit } from "@/components/Translit";
 import { seededShuffle } from "@/lib/answers";
 import type { WordBankExercise } from "@/lib/types";
+import { useLessonEnv } from "../LessonEnv";
+import { modalOpen } from "./Choices";
 import type { ExerciseProps } from "./types";
 
 export function WordBank({ ex, locked, onChange }: ExerciseProps<WordBankExercise>) {
   const bnToEn = ex.direction === "bn_to_en";
+  const env = useLessonEnv();
+  const showTr = !bnToEn && (!env.scriptTrack || locked);
+  const trOf = (tileIdx: number) =>
+    showTr ? env.translit[ex.tiles[tileIdx].normalize("NFC")] : undefined;
   // Tile order shuffled deterministically; we track original tile indices.
   const order = useMemo(
     () => seededShuffle(ex.tiles.map((_, i) => i), ex.id),
@@ -25,7 +32,7 @@ export function WordBank({ ex, locked, onChange }: ExerciseProps<WordBankExercis
     if (locked) return;
     const onKey = (e: KeyboardEvent) => {
       const t = e.target as HTMLElement | null;
-      if (e.key !== "Backspace" || t?.tagName === "INPUT" || t?.tagName === "TEXTAREA") return;
+      if (e.key !== "Backspace" || t?.tagName === "INPUT" || t?.tagName === "TEXTAREA" || modalOpen()) return;
       e.preventDefault();
       setPicked((p) => {
         const next = p.slice(0, -1);
@@ -38,7 +45,7 @@ export function WordBank({ ex, locked, onChange }: ExerciseProps<WordBankExercis
   }, [locked, onChange]);
 
   const tileBase =
-    "min-h-12 rounded-xl border-2 border-b-4 border-line px-4 py-2 text-lg font-bold transition";
+    "flex min-h-12 flex-col items-center justify-center rounded-xl border-2 border-b-4 border-line px-4 py-2 text-lg leading-tight font-bold transition";
   const tileCls = `${tileBase} bg-white active:translate-y-0.5`;
 
   return (
@@ -69,7 +76,10 @@ export function WordBank({ ex, locked, onChange }: ExerciseProps<WordBankExercis
             lang={bnToEn ? undefined : "bn"}
             onClick={() => update(picked.filter((_, p) => p !== pos))}
           >
-            {ex.tiles[tileIdx]}
+            <span>{ex.tiles[tileIdx]}</span>
+            {trOf(tileIdx) && (
+              <Translit tr={trOf(tileIdx)!} inButton className="text-xs font-semibold" />
+            )}
           </button>
         ))}
       </div>
@@ -89,7 +99,14 @@ export function WordBank({ ex, locked, onChange }: ExerciseProps<WordBankExercis
               className={used ? `${tileBase} bg-line text-transparent` : `${tileCls} hover:bg-gray-50`}
               onClick={() => update([...picked, tileIdx])}
             >
-              {ex.tiles[tileIdx]}
+              <span>{ex.tiles[tileIdx]}</span>
+              {trOf(tileIdx) && (
+                <Translit
+                  tr={trOf(tileIdx)!}
+                  inButton
+                  className={`text-xs font-semibold ${used ? "invisible" : ""}`}
+                />
+              )}
             </button>
           );
         })}

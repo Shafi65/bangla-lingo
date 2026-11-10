@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { PracticeHub, type PracticePoolLesson } from "@/components/PracticeHub";
 import { getAllLessons } from "@/lib/content";
+import { translitFor } from "@/lib/translit";
 
 export const metadata: Metadata = { title: "Practice · BanglaLingo" };
 
@@ -10,5 +11,6 @@ export default function PracticePage() {
     title: l.title,
     exercises: l.exercises,
   }));
-  return <PracticeHub pool={pool} />;
+  const translit = translitFor(getAllLessons().flatMap((l) => l.exercises));
+  return <PracticeHub pool={pool} translit={translit} />;
 }

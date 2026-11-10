@@ -1,6 +1,7 @@
 import { BnText } from "@/components/BnText";
 import { solutionFor } from "@/lib/answers";
 import type { Exercise } from "@/lib/types";
+import { Inline } from "./MiniMarkdown";
 
 const PRAISE = ["Nicely done", "Correct", "That's it", "Spot on", "Well done"];
 
@@ -34,6 +35,18 @@ export function Feedback({ ex, correct }: { ex: Exercise; correct: boolean }) {
             </>
           )}
         </div>
+      )}
+      {ex.why && (
+        <p
+          className={
+            correct
+              ? "text-sm font-semibold text-ink/70 [&_em]:text-inherit [&_strong]:text-inherit"
+              : "rounded-xl bg-white/70 px-3 py-2 text-base font-semibold text-ink [&_em]:text-ink [&_strong]:text-ink"
+          }
+        >
+          <span className={`font-black ${tone}`}>Why? </span>
+          <Inline text={ex.why} />
+        </p>
       )}
     </div>
   );

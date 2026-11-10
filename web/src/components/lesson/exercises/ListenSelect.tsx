@@ -5,6 +5,7 @@ import { useEffect, useRef, useState } from "react";
 import { SpeakButton } from "@/components/SpeakButton";
 import { speak, useCanSpeak } from "@/lib/speech";
 import type { ListenSelectExercise } from "@/lib/types";
+import { useLessonEnv } from "../LessonEnv";
 import { Choices } from "./Choices";
 import type { ExerciseProps } from "./types";
 
@@ -13,6 +14,7 @@ export function ListenSelect({
   locked,
   onChange,
 }: ExerciseProps<ListenSelectExercise>) {
+  const { scriptTrack } = useLessonEnv();
   const can = useCanSpeak(ex.audio.bn);
   const [reveal, setReveal] = useState(false);
   const played = useRef<string | null>(null);
@@ -65,6 +67,7 @@ export function ListenSelect({
       <Choices
         options={ex.options}
         bengali
+        translit={scriptTrack ? "never" : "after"}
         large
         locked={locked}
         onChange={onChange}

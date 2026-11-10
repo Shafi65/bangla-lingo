@@ -31,6 +31,11 @@ export interface CourseDef {
 
 interface ExerciseBase {
   id: string;
+  /**
+   * One short sentence shown after a wrong answer explaining the rule
+   * (a quieter "Why?" line when correct). Supports **bold**, *italic*, `code`.
+   */
+  why?: string;
 }
 
 export interface SelectTranslationExercise extends ExerciseBase {

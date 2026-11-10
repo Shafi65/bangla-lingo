@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { LessonPlayer } from "@/components/lesson/LessonPlayer";
 import { getAllLessonIds, getLesson } from "@/lib/content";
+import { translitFor } from "@/lib/translit";
 
 // Every lesson is prerendered at build time from content/ (or the fixture).
 export function generateStaticParams() {
@@ -20,5 +21,5 @@ export default async function LessonPage({ params }: PageProps<"/lesson/[id]">) 
   const { id } = await params;
   const lesson = getLesson(id);
   if (!lesson) notFound();
-  return <LessonPlayer lesson={lesson} />;
+  return <LessonPlayer lesson={lesson} translit={translitFor(lesson.exercises)} />;
 }

@@ -38,3 +38,10 @@ export function useTranslitVisibility(): TranslitVisibility {
   if (done === 0) return "show";
   return done >= scriptIds.length ? "reveal" : "faded";
 }
+
+/** True if this lesson id (or a practice exercise id "<lessonId>:<n>") is in the script track. */
+export function useIsScriptLesson(id: string): boolean {
+  const scriptIds = useContext(ScriptLessonsContext);
+  const lessonId = id.includes(":") ? id.slice(0, id.indexOf(":")) : id;
+  return scriptIds.includes(lessonId);
+}

@@ -82,6 +82,8 @@ function isLesson(v: unknown): v is Lesson {
 interface LoadedCourse {
   summary: CourseSummary;
   lessons: Map<string, Lesson>;
+  /** Directory the course was actually loaded from. */
+  baseDir: string;
 }
 
 function lessonPath(baseDir: string, unit: UnitDef, lessonId: string) {
@@ -154,6 +156,7 @@ function loadFrom(
       source,
     },
     lessons,
+    baseDir,
   };
 }
 
@@ -179,6 +182,11 @@ export function getCourse(): CourseSummary {
 
 export function getLesson(id: string): Lesson | undefined {
   return load().lessons.get(id);
+}
+
+/** Directory the course content was loaded from (real content or fixture). */
+export function getContentBaseDir(): string {
+  return load().baseDir;
 }
 
 export function getAllLessons(): Lesson[] {

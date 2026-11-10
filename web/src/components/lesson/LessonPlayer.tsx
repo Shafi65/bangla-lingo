@@ -1,15 +1,19 @@
 "use client";
 
 import Link from "next/link";
-import { useCallback, useEffect, useState, type ReactNode } from "react";
+import { useCallback, useEffect, useMemo, useState, type ReactNode } from "react";
 import { checkResponse, type Response } from "@/lib/answers";
 import { progressStore, todayXp } from "@/lib/progress";
 import { playSfx } from "@/lib/sfx";
 import type { Exercise, Lesson } from "@/lib/types";
 import { BnText } from "@/components/BnText";
+import { useIsScriptLesson } from "@/components/CourseContext";
+import type { TranslitMap } from "@/lib/translit";
 import { Done, type DoneSummary } from "./Done";
 import { Feedback } from "./Feedback";
+import { LessonEnvContext } from "./LessonEnv";
 import { MiniMarkdown } from "./MiniMarkdown";
+import { TipDialog } from "./TipDialog";
 import { ListenSelect } from "./exercises/ListenSelect";
 import { MatchPairs } from "./exercises/MatchPairs";
 import { ScriptRecognize } from "./exercises/ScriptRecognize";
@@ -29,10 +33,13 @@ export type PlayerMode = "lesson" | "practice";
 export function LessonPlayer({
   lesson,
   mode = "lesson",
+  translit,
   onExit,
 }: {
   lesson: Lesson;
   mode?: PlayerMode;
+  /** Transliteration for Bengali options/tiles (see lib/translit.ts). */
+  translit?: TranslitMap;
   /** Practice: called by "Back" on the end screen instead of linking home. */
   onExit?: () => void;
 }) {
@@ -43,6 +50,7 @@ export function LessonPlayer({
       key={attempt}
       lesson={lesson}
       mode={mode}
+      translit={translit}
       onRetry={() => setAttempt((a) => a + 1)}
       onExit={onExit}
     />
@@ -54,11 +62,13 @@ type Phase = "intro" | "play" | "done" | "out";
 function LessonRun({
   lesson,
   mode,
+  translit,
   onRetry,
   onExit,
 }: {
   lesson: Lesson;
   mode: PlayerMode;
+  translit?: TranslitMap;
   onRetry: () => void;
   onExit?: () => void;
 }) {
@@ -75,8 +85,12 @@ function LessonRun({
   const [solved, setSolved] = useState(0);
   const [summary, setSummary] = useState<DoneSummary | null>(null);
 
+  const [tipOpen, setTipOpen] = useState(false);
+
   const exIndex = queue[pos];
   const ex = lesson.exercises[exIndex];
+  const scriptTrack = useIsScriptLesson(mode === "practice" ? ex.id : lesson.id);
+  const env = useMemo(() => ({ translit: translit ?? {}, scriptTrack }), [translit, scriptTrack]);
 
   const check = useCallback(() => {
     if (!response || result !== null) return;
@@ -134,7 +148,8 @@ function LessonRun({
     const onKey = (e: KeyboardEvent) => {
       if (e.key !== "Enter" || e.shiftKey || e.isComposing) return;
       const t = e.target as HTMLElement | null;
-      if (t?.closest("a, textarea, input, [data-enter-native]")) return;
+      if (t?.closest("a, textarea, input, dialog, [data-enter-native]")) return;
+      if (document.querySelector("dialog[open]")) return;
       e.preventDefault();
       if (result === null) check();
       else advance();
@@ -164,7 +179,14 @@ function LessonRun({
 
   return (
     <div className="flex min-h-dvh flex-col">
-      <TopBar hearts={hearts} progress={solved / total} exitHref={exitHref} onExit={onExit} />
+      <TopBar
+        hearts={hearts}
+        progress={solved / total}
+        exitHref={exitHref}
+        onExit={onExit}
+        onTip={mode === "lesson" && lesson.tip ? () => setTipOpen(true) : undefined}
+      />
+      {tipOpen && lesson.tip && <TipDialog tip={lesson.tip} onClose={() => setTipOpen(false)} />}
 
       <main className="mx-auto w-full max-w-xl flex-1 px-4 pt-6 pb-56">
         {pos >= total && (
@@ -174,7 +196,9 @@ function LessonRun({
         )}
         {/* key: remount each queue slot so per-exercise state resets on retries */}
         <div key={pos} className="animate-enter">
-          <ExerciseView {...props} />
+          <LessonEnvContext.Provider value={env}>
+            <ExerciseView {...props} />
+          </LessonEnvContext.Provider>
         </div>
       </main>
 
@@ -271,11 +295,13 @@ function TopBar({
   progress,
   exitHref,
   onExit,
+  onTip,
 }: {
   hearts: number;
   progress: number;
   exitHref: string;
   onExit?: () => void;
+  onTip?: () => void;
 }) {
   const pct = Math.round(progress * 100);
   return (
@@ -303,6 +329,16 @@ function TopBar({
           style={{ width: `${Math.max(progress * 100, 2)}%` }}
         />
       </div>
+      {onTip && (
+        <button
+          type="button"
+          onClick={onTip}
+          aria-haspopup="dialog"
+          className="shrink-0 rounded-xl border-2 border-brand/30 bg-brand-light px-2.5 py-1 text-sm font-black text-brand-dark hover:brightness-95"
+        >
+          Tip
+        </button>
+      )}
       <div
         className={`flex items-center gap-1 font-black ${hearts <= 1 ? "text-accent-dark" : "text-accent"}`}
         role="img"

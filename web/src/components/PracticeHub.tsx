@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useState } from "react";
+import type { TranslitMap } from "@/lib/translit";
 import { useProgress, type ProgressState } from "@/lib/progress";
 import type { Exercise, Lesson } from "@/lib/types";
 import { AppShell } from "./AppShell";
@@ -41,7 +42,13 @@ function buildSession(pool: PracticePoolLesson[], p: ProgressState): Lesson {
   return { id: "practice", unit: "practice", title: "Mixed review", vocab: [], exercises: picked };
 }
 
-export function PracticeHub({ pool }: { pool: PracticePoolLesson[] }) {
+export function PracticeHub({
+  pool,
+  translit,
+}: {
+  pool: PracticePoolLesson[];
+  translit?: TranslitMap;
+}) {
   const progress = useProgress();
   const [session, setSession] = useState<{ n: number; lesson: Lesson } | null>(null);
   const done = pool.filter((l) => progress.completed[l.id]);
@@ -52,6 +59,7 @@ export function PracticeHub({ pool }: { pool: PracticePoolLesson[] }) {
         key={session.n}
         lesson={session.lesson}
         mode="practice"
+        translit={translit}
         onExit={() => setSession(null)}
       />
     );

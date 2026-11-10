@@ -49,7 +49,7 @@ Lesson file path: `content/{units|script}/<unit-id>/<lesson-id>.json`.
 `{ "bn": "আমি", "tr": "ami", "en": "I" }`. `tr` follows `content/TRANSLITERATION.md`.
 
 ### Exercise types
-Every exercise has `id` (unique in the lesson) and `type`.
+Every exercise has `id` (unique in the lesson) and `type`, and may have an optional `why`: one short sentence shown after a wrong answer explaining the rule, e.g. `"আপনি takes the polite ending -েন."` (shown more quietly after a correct answer too). It supports `**bold**`, `*italic*` and `` `code` ``.
 
 | type | fields | UI |
 |---|---|---|
@@ -63,4 +63,6 @@ Every exercise has `id` (unique in the lesson) and `type`.
 Rules:
 - In `bn_to_en`, options/answers are English; in `en_to_bn`, options/tiles are Bengali script.
 - Answer checking ignores case, punctuation, and extra spaces.
+- The app shuffles `options` each time an exercise is shown, so never rely on option position in other fields; `answer` is always the index into the authored `options`.
+- The app looks up transliteration for Bengali options and tiles from `content/lexicon/`, lesson `vocab` and plan sentences (by exact text, then word by word), so every Bengali option/tile should be spelled as in the lexicon. No match means no transliteration is shown.
 - 8–15 exercises per lesson; each new vocab item must appear at least twice.

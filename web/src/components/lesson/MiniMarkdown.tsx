@@ -1,5 +1,5 @@
 /** Inline markdown: **bold**, *italic*, `code` (rendered as transliteration). */
-function Inline({ text }: { text: string }) {
+export function Inline({ text }: { text: string }) {
   return (
     <>
       {text.split(/(\*\*[^*]+\*\*|\*[^*\s][^*]*\*|`[^`]+`)/g).map((chunk, j) => {
