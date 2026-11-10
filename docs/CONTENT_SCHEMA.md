@@ -65,4 +65,4 @@ Rules:
 - Answer checking ignores case, punctuation, and extra spaces.
 - The app shuffles `options` each time an exercise is shown, so never rely on option position in other fields; `answer` is always the index into the authored `options`.
 - The app looks up transliteration for Bengali options and tiles from `content/lexicon/`, lesson `vocab` and plan sentences (by exact text, then word by word), so every Bengali option/tile should be spelled as in the lexicon. No match means no transliteration is shown.
-- 8–15 exercises per lesson; each new vocab item must appear at least twice.
+- 8–15 hand-written exercises per lesson, plus up to 5 review exercises marked `"recycle": true` that `npm run recycle` appends (never edit those by hand). Each new vocab item must appear at least twice.

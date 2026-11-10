@@ -391,6 +391,113 @@
         "ami gotokal ofise gelam na",
         "gotokal ami ofise gelam na"
       ]
+    },
+    {
+      "id": "r01",
+      "type": "listen_select",
+      "audio": {
+        "bn": "কী হয়েছে",
+        "tr": "ki hoyechhe",
+        "en": "what happened"
+      },
+      "options": [
+        "আবার দেখা হবে",
+        "কী হয়েছে",
+        "মনে হয়",
+        "আলহামদুলিল্লাহ"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "কিনলেন",
+        "tr": "kinlen",
+        "en": "you bought (polite)"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "নয়",
+        "নিলাম",
+        "করে",
+        "কিনলেন"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "কিনল",
+        "tr": "kinlo",
+        "en": "bought"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "I get up",
+        "are (familiar)",
+        "bought",
+        "to eat"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "সাধারণত",
+          "tr": "shadharonoto",
+          "en": "usually"
+        },
+        {
+          "bn": "দিকে",
+          "tr": "dike",
+          "en": "way"
+        },
+        {
+          "bn": "লিখি",
+          "tr": "likhi",
+          "en": "I write"
+        },
+        {
+          "bn": "নব্বই",
+          "tr": "nobboi",
+          "en": "ninety"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "একটি",
+          "tr": "ekti",
+          "en": "one; a (formal)"
+        },
+        {
+          "bn": "পঞ্চাশ",
+          "tr": "ponchash",
+          "en": "fifty"
+        },
+        {
+          "bn": "তোমার",
+          "tr": "tomar",
+          "en": "your (familiar)"
+        },
+        {
+          "bn": "অবশ্যই",
+          "tr": "oboshshoi",
+          "en": "of course"
+        }
+      ],
+      "recycle": true
     }
   ]
 }

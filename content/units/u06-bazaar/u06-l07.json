@@ -371,6 +371,113 @@
         "What'll you buy?",
         "What will you be buying?"
       ]
+    },
+    {
+      "id": "r01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "কেন",
+        "tr": "keno",
+        "en": "why"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "আজ",
+        "কেন",
+        "সপ্তাহে",
+        "শুধু"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "এত",
+        "tr": "eto",
+        "en": "so"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "so",
+        "only",
+        "at night",
+        "today"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "listen_select",
+      "audio": {
+        "bn": "রাখেন",
+        "tr": "rakhen",
+        "en": "keep (polite)"
+      },
+      "options": [
+        "দাও",
+        "খাও",
+        "নয়",
+        "রাখেন"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "সস্তা",
+          "tr": "shosta",
+          "en": "cheap"
+        },
+        {
+          "bn": "বেশি",
+          "tr": "beshi",
+          "en": "more"
+        },
+        {
+          "bn": "কম",
+          "tr": "kom",
+          "en": "less"
+        },
+        {
+          "bn": "দামি",
+          "tr": "dami",
+          "en": "expensive"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "দাও",
+          "tr": "dao",
+          "en": "give (familiar)"
+        },
+        {
+          "bn": "শেষ",
+          "tr": "shesh",
+          "en": "last"
+        },
+        {
+          "bn": "আমাকে",
+          "tr": "amake",
+          "en": "me"
+        },
+        {
+          "bn": "আরও",
+          "tr": "aro",
+          "en": "more"
+        }
+      ],
+      "recycle": true
     }
   ]
 }

@@ -370,6 +370,113 @@
         "What do these cost?",
         "How much do these cost?"
       ]
+    },
+    {
+      "id": "r01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "একটু",
+        "tr": "ektu",
+        "en": "a little"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "কোথায়",
+        "এখানে",
+        "বিকালে",
+        "একটু"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "দিন",
+        "tr": "din",
+        "en": "give (polite, standard)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "(you/he/she, polite) want",
+        "are not (familiar)",
+        "give (polite, standard)",
+        "(you, familiar) want"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "listen_select",
+      "audio": {
+        "bn": "দে",
+        "tr": "de",
+        "en": "give (intimate)"
+      },
+      "options": [
+        "বাজে",
+        "এসেছি",
+        "চাই",
+        "দে"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "দাও",
+          "tr": "dao",
+          "en": "give (familiar)"
+        },
+        {
+          "bn": "সপ্তাহে",
+          "tr": "shoptahe",
+          "en": "in a week"
+        },
+        {
+          "bn": "আরও",
+          "tr": "aro",
+          "en": "more"
+        },
+        {
+          "bn": "আমাকে",
+          "tr": "amake",
+          "en": "me"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "বুধবার",
+          "tr": "budhbar",
+          "en": "Wednesday"
+        },
+        {
+          "bn": "মাস",
+          "tr": "mash",
+          "en": "month"
+        },
+        {
+          "bn": "শনিবার",
+          "tr": "shonibar",
+          "en": "Saturday"
+        },
+        {
+          "bn": "বৃহস্পতিবার",
+          "tr": "brihoshpotibar",
+          "en": "Thursday"
+        }
+      ],
+      "recycle": true
     }
   ]
 }

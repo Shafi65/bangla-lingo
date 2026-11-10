@@ -372,6 +372,113 @@
         "shoja jaan",
         "soja jaan"
       ]
+    },
+    {
+      "id": "r01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "বাড়ি",
+        "tr": "bari",
+        "en": "home (family home)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "hour",
+        "shopkeeper",
+        "elder sister; ma'am",
+        "home (family home)"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "listen_select",
+      "audio": {
+        "bn": "বাসায়",
+        "tr": "bashay",
+        "en": "at home"
+      },
+      "options": [
+        "সন্ধ্যা",
+        "শাড়ি",
+        "বাসায়",
+        "শিক্ষক"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "বাসা",
+        "tr": "basha",
+        "en": "home (where you live now)"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "গরুর",
+        "শাড়ি",
+        "বাসা",
+        "বাংলা"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "জানেন",
+          "tr": "janen",
+          "en": "(you, polite) know"
+        },
+        {
+          "bn": "জামাটা",
+          "tr": "jamata",
+          "en": "the shirt"
+        },
+        {
+          "bn": "কিনবেন",
+          "tr": "kinben",
+          "en": "you will buy (polite)"
+        },
+        {
+          "bn": "কোথা",
+          "tr": "kotha",
+          "en": "where (before থেকে)"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "আপনারা",
+          "tr": "apnara",
+          "en": "you (polite, plural)"
+        },
+        {
+          "bn": "তোর",
+          "tr": "tor",
+          "en": "your (intimate)"
+        },
+        {
+          "bn": "ও",
+          "tr": "o",
+          "en": "he/she (spoken)"
+        },
+        {
+          "bn": "নয়",
+          "tr": "noy",
+          "en": "is not"
+        }
+      ],
+      "recycle": true
     }
   ]
 }

@@ -311,6 +311,113 @@
         "20",
         "twenty"
       ]
+    },
+    {
+      "id": "r01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "উনিশ",
+        "tr": "unish",
+        "en": "nineteen"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "one; a (formal)",
+        "two (things)",
+        "nineteen",
+        "twenty"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "listen_select",
+      "audio": {
+        "bn": "আঠারো",
+        "tr": "atharo",
+        "en": "eighteen"
+      },
+      "options": [
+        "আঠারো",
+        "ছয়",
+        "নয়",
+        "চৌদ্দ"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ষোলো",
+        "tr": "sholo",
+        "en": "sixteen"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "চৌদ্দ",
+        "সতেরো",
+        "ষোলো",
+        "বারো"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "সতেরো",
+          "tr": "shotero",
+          "en": "seventeen"
+        },
+        {
+          "bn": "বয়স",
+          "tr": "boyosh",
+          "en": "age"
+        },
+        {
+          "bn": "বিশ",
+          "tr": "bish",
+          "en": "twenty"
+        },
+        {
+          "bn": "নও",
+          "tr": "noo",
+          "en": "are not (familiar)"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "একজন",
+          "tr": "ekjon",
+          "en": "one (person)"
+        },
+        {
+          "bn": "কয়জন",
+          "tr": "koyjon",
+          "en": "how many (people)"
+        },
+        {
+          "bn": "ওখানে",
+          "tr": "okhane",
+          "en": "there"
+        },
+        {
+          "bn": "দুইটা",
+          "tr": "duita",
+          "en": "two (things)"
+        }
+      ],
+      "recycle": true
     }
   ]
 }

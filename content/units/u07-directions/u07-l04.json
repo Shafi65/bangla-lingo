@@ -328,6 +328,113 @@
         "hospital kothay",
         "hashpatal kothae"
       ]
+    },
+    {
+      "id": "r01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "নিচে",
+        "tr": "niche",
+        "en": "downstairs"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "upstairs",
+        "downstairs",
+        "from",
+        "next to"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "listen_select",
+      "audio": {
+        "bn": "ভিতরে",
+        "tr": "bhitore",
+        "en": "inside"
+      },
+      "options": [
+        "দিকে",
+        "ভিতরে",
+        "নিচে",
+        "দিয়ে"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "কোন",
+        "tr": "kon",
+        "en": "which"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "কে",
+        "ওরা",
+        "কোন",
+        "ওইটা"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "উপরে",
+          "tr": "upore",
+          "en": "upstairs"
+        },
+        {
+          "bn": "বাসার",
+          "tr": "bashar",
+          "en": "of the home"
+        },
+        {
+          "bn": "বাইরে",
+          "tr": "baire",
+          "en": "outside"
+        },
+        {
+          "bn": "দিকে",
+          "tr": "dike",
+          "en": "way"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "কয়জন",
+          "tr": "koyjon",
+          "en": "how many (people)"
+        },
+        {
+          "bn": "দশ",
+          "tr": "dosh",
+          "en": "ten"
+        },
+        {
+          "bn": "আরও",
+          "tr": "aro",
+          "en": "more"
+        },
+        {
+          "bn": "বাসায়",
+          "tr": "bashay",
+          "en": "at home"
+        }
+      ],
+      "recycle": true
     }
   ]
 }

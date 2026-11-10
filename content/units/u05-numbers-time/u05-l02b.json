@@ -356,6 +356,113 @@
         "amar boyosh bish bochhor"
       ],
       "why": "Say **আমার বয়স** 'my age', not আমি, and add no verb."
+    },
+    {
+      "id": "r01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "পনেরো",
+        "tr": "ponero",
+        "en": "fifteen"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "আট",
+        "পনেরো",
+        "তেরো",
+        "চার"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "চৌদ্দ",
+        "tr": "choddo",
+        "en": "fourteen"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "fourteen",
+        "nine",
+        "two",
+        "seven"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "listen_select",
+      "audio": {
+        "bn": "খারাপ",
+        "tr": "kharap",
+        "en": "bad"
+      },
+      "options": [
+        "ছোট",
+        "ভালো",
+        "খারাপ",
+        "বাংলাদেশি"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "বিরিয়ানি",
+          "tr": "biriyani",
+          "en": "biryani"
+        },
+        {
+          "bn": "সব",
+          "tr": "shob",
+          "en": "all"
+        },
+        {
+          "bn": "ওটা",
+          "tr": "ota",
+          "en": "that"
+        },
+        {
+          "bn": "তোরা",
+          "tr": "tora",
+          "en": "you (intimate, plural)"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "ওরা",
+          "tr": "ora",
+          "en": "they (spoken)"
+        },
+        {
+          "bn": "নন",
+          "tr": "non",
+          "en": "is not / are not (polite)"
+        },
+        {
+          "bn": "ফুফা",
+          "tr": "fufa",
+          "en": "uncle (fufu's husband)"
+        },
+        {
+          "bn": "আপনারা",
+          "tr": "apnara",
+          "en": "you (polite, plural)"
+        }
+      ],
+      "recycle": true
     }
   ]
 }

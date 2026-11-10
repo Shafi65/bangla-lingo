@@ -412,6 +412,113 @@
           "যাই"
         ]
       ]
+    },
+    {
+      "id": "r01",
+      "type": "listen_select",
+      "audio": {
+        "bn": "ফোন",
+        "tr": "fon",
+        "en": "phone"
+      },
+      "options": [
+        "দোকান",
+        "ফোন",
+        "কলাটা",
+        "দাম"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "স্কুল",
+        "tr": "skul",
+        "en": "school"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "বাবা",
+        "কাপ",
+        "স্কুল",
+        "খালু"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "কাজের",
+        "tr": "kajer",
+        "en": "of work"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "at Eid",
+        "age",
+        "of work",
+        "Bengali (language)"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "ঘুমের",
+          "tr": "ghumer",
+          "en": "of sleep"
+        },
+        {
+          "bn": "বামে",
+          "tr": "bame",
+          "en": "left"
+        },
+        {
+          "bn": "ওইটা",
+          "tr": "oita",
+          "en": "that one"
+        },
+        {
+          "bn": "তিনটা",
+          "tr": "tinta",
+          "en": "three (o'clock)"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "দুইজন",
+          "tr": "duijon",
+          "en": "two (people)"
+        },
+        {
+          "bn": "ও",
+          "tr": "o",
+          "en": "he/she (spoken)"
+        },
+        {
+          "bn": "উনিশ",
+          "tr": "unish",
+          "en": "nineteen"
+        },
+        {
+          "bn": "আট",
+          "tr": "at",
+          "en": "eight"
+        }
+      ],
+      "recycle": true
     }
   ]
 }

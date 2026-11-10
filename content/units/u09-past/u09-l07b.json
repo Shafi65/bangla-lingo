@@ -383,6 +383,113 @@
         "Yesterday we watched a movie with my friend.",
         "Yesterday we watched a film with my friend."
       ]
+    },
+    {
+      "id": "r01",
+      "type": "listen_select",
+      "audio": {
+        "bn": "উঠলাম",
+        "tr": "uthlam",
+        "en": "I got up"
+      },
+      "options": [
+        "এসেছেন",
+        "উঠলাম",
+        "পড়লাম",
+        "শুনলাম"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "দিনটা",
+        "tr": "dinta",
+        "en": "the day"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "মজা",
+        "গান",
+        "দিনটা",
+        "আংকেল"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "কথা",
+        "tr": "kotha",
+        "en": "talk"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "of the house",
+        "poisha",
+        "mother's",
+        "talk"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "সবসময়",
+          "tr": "shobshomoy",
+          "en": "always"
+        },
+        {
+          "bn": "দেখছে",
+          "tr": "dekhchhe",
+          "en": "is watching"
+        },
+        {
+          "bn": "আগে",
+          "tr": "age",
+          "en": "before"
+        },
+        {
+          "bn": "খেয়েছো",
+          "tr": "kheyechho",
+          "en": "have you eaten (familiar)"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "পড়ছি",
+          "tr": "porchhi",
+          "en": "I am reading"
+        },
+        {
+          "bn": "কখনো",
+          "tr": "kokhono",
+          "en": "ever"
+        },
+        {
+          "bn": "পারে",
+          "tr": "pare",
+          "en": "(he/she) can"
+        },
+        {
+          "bn": "বলতে",
+          "tr": "bolte",
+          "en": "to speak"
+        }
+      ],
+      "recycle": true
     }
   ]
 }

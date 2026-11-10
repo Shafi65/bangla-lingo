@@ -399,6 +399,113 @@
         "She's like her mom, but I'm like my dad.",
         "He's like his mom, but I'm like my dad."
       ]
+    },
+    {
+      "id": "r01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "দাঁত মাজা",
+        "tr": "da~t maja",
+        "en": "brushing teeth"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "brushing teeth",
+        "what happened",
+        "thank you",
+        "hello (in reply)"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "listen_select",
+      "audio": {
+        "bn": "মাঝে মাঝে",
+        "tr": "majhe majhe",
+        "en": "sometimes"
+      },
+      "options": [
+        "কী হয়েছে",
+        "মাঝে মাঝে",
+        "ধন্যবাদ",
+        "আলহামদুলিল্লাহ"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "মনে হয়",
+        "tr": "mone hoy",
+        "en": "I think"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "আসসালামু আলাইকুম",
+        "মনে হয়",
+        "মাঝে মাঝে",
+        "কখনো না"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "পরে",
+          "tr": "pore",
+          "en": "after"
+        },
+        {
+          "bn": "স্কুলে",
+          "tr": "skule",
+          "en": "to school"
+        },
+        {
+          "bn": "হয়তো",
+          "tr": "hoyto",
+          "en": "maybe"
+        },
+        {
+          "bn": "পড়েন",
+          "tr": "poren",
+          "en": "you read (polite)"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "প্রশ্ন",
+          "tr": "proshno",
+          "en": "question"
+        },
+        {
+          "bn": "উত্তর",
+          "tr": "uttor",
+          "en": "answer"
+        },
+        {
+          "bn": "দাঁত",
+          "tr": "da~t",
+          "en": "teeth"
+        },
+        {
+          "bn": "নাস্তার",
+          "tr": "nashtar",
+          "en": "of breakfast"
+        }
+      ],
+      "recycle": true
     }
   ]
 }

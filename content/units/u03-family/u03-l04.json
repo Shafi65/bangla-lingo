@@ -351,6 +351,113 @@
         "Khalu is over there.",
         "My uncle is over there."
       ]
+    },
+    {
+      "id": "r01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ওয়ালাইকুম আসসালাম",
+        "tr": "walaikum assalam",
+        "en": "hello (in reply)"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "ধন্যবাদ",
+        "আলহামদুলিল্লাহ",
+        "আবার দেখা হবে",
+        "ওয়ালাইকুম আসসালাম"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "খোদা হাফেজ",
+        "tr": "khoda hafez",
+        "en": "goodbye"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "hello (in reply)",
+        "thank you",
+        "goodbye",
+        "praise be to God"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "listen_select",
+      "audio": {
+        "bn": "আসসালামু আলাইকুম",
+        "tr": "assalamu alaikum",
+        "en": "hello (peace be upon you)"
+      },
+      "options": [
+        "আসসালামু আলাইকুম",
+        "ওয়ালাইকুম আসসালাম",
+        "নমস্কার",
+        "ধন্যবাদ"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "আছি",
+          "tr": "achhi",
+          "en": "am"
+        },
+        {
+          "bn": "তিনি",
+          "tr": "tini",
+          "en": "he/she (polite)"
+        },
+        {
+          "bn": "তুমি",
+          "tr": "tumi",
+          "en": "you (familiar)"
+        },
+        {
+          "bn": "ছেলে",
+          "tr": "chhele",
+          "en": "boy"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "ছাত্রী",
+          "tr": "chhatri",
+          "en": "student (female)"
+        },
+        {
+          "bn": "বন্ধু",
+          "tr": "bondhu",
+          "en": "friend"
+        },
+        {
+          "bn": "ইংরেজি",
+          "tr": "ingreji",
+          "en": "English (language)"
+        },
+        {
+          "bn": "আব্বু",
+          "tr": "abbu",
+          "en": "dad"
+        }
+      ],
+      "recycle": true
     }
   ]
 }

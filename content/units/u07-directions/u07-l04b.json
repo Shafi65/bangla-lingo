@@ -359,6 +359,113 @@
         "dhaka ekta bodo shohor",
         "dhaka ekta boro shahar"
       ]
+    },
+    {
+      "id": "r01",
+      "type": "listen_select",
+      "audio": {
+        "bn": "কেউ",
+        "tr": "keu",
+        "en": "someone"
+      },
+      "options": [
+        "তুই",
+        "আপনার",
+        "কেউ",
+        "কী"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "মসজিদ",
+        "tr": "moshjid",
+        "en": "mosque"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "ফুফু",
+        "স্বামী",
+        "মসজিদ",
+        "দাম"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "সাহায্য",
+        "tr": "shahajjo",
+        "en": "help"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "help",
+        "father's",
+        "hour",
+        "road"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "দিয়ে",
+          "tr": "diye",
+          "en": "along"
+        },
+        {
+          "bn": "মসজিদের",
+          "tr": "moshjider",
+          "en": "of the mosque"
+        },
+        {
+          "bn": "মন্দির",
+          "tr": "mondir",
+          "en": "temple"
+        },
+        {
+          "bn": "বাজারের",
+          "tr": "bajarer",
+          "en": "of the market"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "মোড়",
+          "tr": "mor",
+          "en": "intersection"
+        },
+        {
+          "bn": "রাস্তা",
+          "tr": "rasta",
+          "en": "road"
+        },
+        {
+          "bn": "মোড়ে",
+          "tr": "more",
+          "en": "at the intersection"
+        },
+        {
+          "bn": "যান",
+          "tr": "jan",
+          "en": "go (polite)"
+        }
+      ],
+      "recycle": true
     }
   ]
 }

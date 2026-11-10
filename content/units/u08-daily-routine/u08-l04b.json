@@ -367,6 +367,113 @@
         "ami gan suni",
         "gan suni"
       ]
+    },
+    {
+      "id": "r01",
+      "type": "listen_select",
+      "audio": {
+        "bn": "বলেন",
+        "tr": "bolen",
+        "en": "you speak (polite)"
+      },
+      "options": [
+        "ঘুমান",
+        "যাই",
+        "থাকি",
+        "বলেন"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "বলি",
+        "tr": "boli",
+        "en": "I speak"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "বলি",
+        "দিন",
+        "ওঠেন",
+        "থাকেন"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "করে",
+        "tr": "kore",
+        "en": "does"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "comes",
+        "(you, polite) know",
+        "does",
+        "I listen"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "কঠিন",
+          "tr": "kothin",
+          "en": "difficult"
+        },
+        {
+          "bn": "করি",
+          "tr": "kori",
+          "en": "I do"
+        },
+        {
+          "bn": "আসলে",
+          "tr": "ashole",
+          "en": "actually"
+        },
+        {
+          "bn": "বই",
+          "tr": "boi",
+          "en": "book"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "করো",
+          "tr": "koro",
+          "en": "you do (familiar)"
+        },
+        {
+          "bn": "সত্যি",
+          "tr": "shotti",
+          "en": "really"
+        },
+        {
+          "bn": "ব্যাগ",
+          "tr": "byag",
+          "en": "bag"
+        },
+        {
+          "bn": "কাজ",
+          "tr": "kaj",
+          "en": "work"
+        }
+      ],
+      "recycle": true
     }
   ]
 }

@@ -347,6 +347,113 @@
         "Sugarless tea.",
         "Tea without any sugar."
       ]
+    },
+    {
+      "id": "r01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "গরুর",
+        "tr": "gorur",
+        "en": "cow's"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "গরুর",
+        "বন্ধু",
+        "ভাইয়া",
+        "মায়ের"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ভাত",
+        "tr": "bhat",
+        "en": "rice"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "grandfather (mother's father)",
+        "water",
+        "elder brother",
+        "rice"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "listen_select",
+      "audio": {
+        "bn": "ডাল",
+        "tr": "dal",
+        "en": "lentils"
+      },
+      "options": [
+        "মা",
+        "ছাত্র",
+        "ডাক্তার",
+        "ডাল"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "খাবার",
+          "tr": "khabar",
+          "en": "food"
+        },
+        {
+          "bn": "মাছ",
+          "tr": "machh",
+          "en": "fish"
+        },
+        {
+          "bn": "সবজি",
+          "tr": "shobji",
+          "en": "vegetables"
+        },
+        {
+          "bn": "মুরগি",
+          "tr": "murgi",
+          "en": "chicken"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "একজন",
+          "tr": "ekjon",
+          "en": "one (person)"
+        },
+        {
+          "bn": "ডিম",
+          "tr": "dim",
+          "en": "egg"
+        },
+        {
+          "bn": "মাংস",
+          "tr": "mangsho",
+          "en": "meat"
+        },
+        {
+          "bn": "কয়জন",
+          "tr": "koyjon",
+          "en": "how many (people)"
+        }
+      ],
+      "recycle": true
     }
   ]
 }

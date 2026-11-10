@@ -334,6 +334,86 @@
         "apni kemon achen",
         "apni kemon asen"
       ]
+    },
+    {
+      "id": "r01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আমার",
+        "tr": "amar",
+        "en": "my"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "I",
+        "my",
+        "you (polite)",
+        "your (polite)"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "listen_select",
+      "audio": {
+        "bn": "আপনার",
+        "tr": "apnar",
+        "en": "your (polite)"
+      },
+      "options": [
+        "তুমি",
+        "আপনার",
+        "কী",
+        "তোমার"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "তোমার",
+        "tr": "tomar",
+        "en": "your (familiar)"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "তোমার",
+        "আমার",
+        "কী",
+        "আমি"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "কী",
+          "tr": "ki",
+          "en": "what"
+        },
+        {
+          "bn": "হ্যাঁ",
+          "tr": "hya~",
+          "en": "yes"
+        },
+        {
+          "bn": "ছাত্র",
+          "tr": "chhatro",
+          "en": "student (male)"
+        },
+        {
+          "bn": "নাম",
+          "tr": "nam",
+          "en": "name"
+        }
+      ],
+      "recycle": true
     }
   ]
 }

@@ -364,6 +364,113 @@
         "etar dam koto",
         "etar daam koto"
       ]
+    },
+    {
+      "id": "r01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "বছরে",
+        "tr": "bochhore",
+        "en": "in a year"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "বছরে",
+        "কয়টা",
+        "রাতে",
+        "কেমন"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "দিন",
+        "tr": "din",
+        "en": "day"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "aunt (chacha's wife)",
+        "day",
+        "Friday",
+        "food"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "listen_select",
+      "audio": {
+        "bn": "তিনটা",
+        "tr": "tinta",
+        "en": "three (o'clock)"
+      },
+      "options": [
+        "আড়াইটা",
+        "একটি",
+        "দশ",
+        "তিনটা"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "আমাদের",
+          "tr": "amader",
+          "en": "our"
+        },
+        {
+          "bn": "দুইজন",
+          "tr": "duijon",
+          "en": "two (people)"
+        },
+        {
+          "bn": "সব",
+          "tr": "shob",
+          "en": "all"
+        },
+        {
+          "bn": "আপনার",
+          "tr": "apnar",
+          "en": "your (polite)"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "খায়",
+          "tr": "khay",
+          "en": "(he/she/they) eats"
+        },
+        {
+          "bn": "কেমন",
+          "tr": "kemon",
+          "en": "how"
+        },
+        {
+          "bn": "কে",
+          "tr": "ke",
+          "en": "who"
+        },
+        {
+          "bn": "তুমি",
+          "tr": "tumi",
+          "en": "you (familiar)"
+        }
+      ],
+      "recycle": true
     }
   ]
 }

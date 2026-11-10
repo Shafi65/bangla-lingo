@@ -341,6 +341,113 @@
         "amar dujon bhai ache"
       ],
       "why": "Count people with **-জন**, and say 'have' with **আমার** … আছে."
+    },
+    {
+      "id": "r01",
+      "type": "listen_select",
+      "audio": {
+        "bn": "আবার দেখা হবে",
+        "tr": "abar dekha hobe",
+        "en": "see you again"
+      },
+      "options": [
+        "খোদা হাফেজ",
+        "আবার দেখা হবে",
+        "ওয়ালাইকুম আসসালাম",
+        "ধন্যবাদ"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আলহামদুলিল্লাহ",
+        "tr": "alhamdulillah",
+        "en": "praise be to God"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "নমস্কার",
+        "আসসালামু আলাইকুম",
+        "ওয়ালাইকুম আসসালাম",
+        "আলহামদুলিল্লাহ"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "নমস্কার",
+        "tr": "nomoshkar",
+        "en": "hello (Hindu greeting)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "hello (Hindu greeting)",
+        "thank you",
+        "goodbye",
+        "I don't understand"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "বাংলা",
+          "tr": "bangla",
+          "en": "Bengali (language)"
+        },
+        {
+          "bn": "জি",
+          "tr": "ji",
+          "en": "yes (polite)"
+        },
+        {
+          "bn": "থেকে",
+          "tr": "theke",
+          "en": "from"
+        },
+        {
+          "bn": "দেশ",
+          "tr": "desh",
+          "en": "country"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "তারা",
+          "tr": "tara",
+          "en": "they"
+        },
+        {
+          "bn": "ও",
+          "tr": "o",
+          "en": "he/she (spoken)"
+        },
+        {
+          "bn": "নই",
+          "tr": "noi",
+          "en": "am not"
+        },
+        {
+          "bn": "এটা",
+          "tr": "eta",
+          "en": "this"
+        }
+      ],
+      "recycle": true
     }
   ]
 }

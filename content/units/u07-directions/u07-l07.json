@@ -389,6 +389,113 @@
         "bhetore ki keu achhe",
         "bhetore keu ache"
       ]
+    },
+    {
+      "id": "r01",
+      "type": "listen_select",
+      "audio": {
+        "bn": "যাবে",
+        "tr": "jabe",
+        "en": "will go"
+      },
+      "options": [
+        "যাবে",
+        "দাও",
+        "আছিস",
+        "জানি"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "পর্যন্ত",
+        "tr": "porjonto",
+        "en": "to"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "পর্যন্ত",
+        "কাছে",
+        "পাশে",
+        "পিছনে"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ছাড়বে",
+        "tr": "chharbe",
+        "en": "will leave"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "I will go",
+        "is not (here); there isn't",
+        "will leave",
+        "(you/he/she, polite) want"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "বাসে",
+          "tr": "base",
+          "en": "by bus"
+        },
+        {
+          "bn": "গাড়ি",
+          "tr": "gari",
+          "en": "car"
+        },
+        {
+          "bn": "ট্রেনে",
+          "tr": "trene",
+          "en": "by train"
+        },
+        {
+          "bn": "বাস",
+          "tr": "bas",
+          "en": "bus"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "কিনবেন",
+          "tr": "kinben",
+          "en": "you will buy (polite)"
+        },
+        {
+          "bn": "ট্রেন",
+          "tr": "tren",
+          "en": "train"
+        },
+        {
+          "bn": "টিকিট",
+          "tr": "tikit",
+          "en": "ticket"
+        },
+        {
+          "bn": "ডজন",
+          "tr": "dozon",
+          "en": "dozen"
+        }
+      ],
+      "recycle": true
     }
   ]
 }

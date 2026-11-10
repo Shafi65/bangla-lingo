@@ -380,6 +380,113 @@
         "I need some water.",
         "I need the water."
       ]
+    },
+    {
+      "id": "r01",
+      "type": "listen_select",
+      "audio": {
+        "bn": "খাস",
+        "tr": "khash",
+        "en": "(you, intimate) eat"
+      },
+      "options": [
+        "খাস",
+        "খেতে",
+        "জানি",
+        "এসেছি"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "খায়",
+        "tr": "khay",
+        "en": "(he/she/they) eats"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "খায়",
+        "এসেছি",
+        "জানেন",
+        "আছিস"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "খাও",
+        "tr": "khao",
+        "en": "(you, familiar) eat"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "(you/he/she, polite) want",
+        "(you, familiar) eat",
+        "(I/we) want",
+        "(I) know"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "নাস্তা",
+          "tr": "nashta",
+          "en": "breakfast"
+        },
+        {
+          "bn": "একটা",
+          "tr": "ekta",
+          "en": "one; a"
+        },
+        {
+          "bn": "রুটি",
+          "tr": "ruti",
+          "en": "flatbread"
+        },
+        {
+          "bn": "জানেন",
+          "tr": "janen",
+          "en": "(you, polite) know"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "আন্টি",
+          "tr": "anti",
+          "en": "auntie (address)"
+        },
+        {
+          "bn": "আংকেল",
+          "tr": "angkel",
+          "en": "uncle (address)"
+        },
+        {
+          "bn": "স্বামী",
+          "tr": "shami",
+          "en": "husband"
+        },
+        {
+          "bn": "মানে",
+          "tr": "mane",
+          "en": "meaning"
+        }
+      ],
+      "recycle": true
     }
   ]
 }

@@ -426,6 +426,113 @@
           "করি"
         ]
       ]
+    },
+    {
+      "id": "r01",
+      "type": "listen_select",
+      "audio": {
+        "bn": "সত্যি",
+        "tr": "shotti",
+        "en": "really"
+      },
+      "options": [
+        "সত্যি",
+        "কোথায়",
+        "কতদূর",
+        "ডানে"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "করো",
+        "tr": "koro",
+        "en": "you do (familiar)"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "করো",
+        "চাই",
+        "খায়",
+        "দাও"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আসলে",
+        "tr": "ashole",
+        "en": "actually"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "at ten o'clock",
+        "actually",
+        "only",
+        "of course"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "কঠিন",
+          "tr": "kothin",
+          "en": "difficult"
+        },
+        {
+          "bn": "ভাংতি",
+          "tr": "bhangti",
+          "en": "change"
+        },
+        {
+          "bn": "কাজ",
+          "tr": "kaj",
+          "en": "work"
+        },
+        {
+          "bn": "করিস",
+          "tr": "korish",
+          "en": "you do (intimate)"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "শুধু",
+          "tr": "shudhu",
+          "en": "only"
+        },
+        {
+          "bn": "দেড়",
+          "tr": "der",
+          "en": "one and a half"
+        },
+        {
+          "bn": "এসেছি",
+          "tr": "eshechhi",
+          "en": "(I) have come"
+        },
+        {
+          "bn": "বিকালে",
+          "tr": "bikale",
+          "en": "in the afternoon"
+        }
+      ],
+      "recycle": true
     }
   ]
 }

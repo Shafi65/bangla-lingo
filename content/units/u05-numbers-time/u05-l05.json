@@ -382,6 +382,113 @@
         "ekhon paachta baje",
         "ekhon panchta baje"
       ]
+    },
+    {
+      "id": "r01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "সত্তর",
+        "tr": "shottor",
+        "en": "seventy"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "সত্তর",
+        "দুই",
+        "ষোলো",
+        "নয়"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ত্রিশ",
+        "tr": "trish",
+        "en": "thirty"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "one; a",
+        "thirty",
+        "thousand",
+        "forty"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "listen_select",
+      "audio": {
+        "bn": "চল্লিশ",
+        "tr": "chollish",
+        "en": "forty"
+      },
+      "options": [
+        "নয়",
+        "তেরো",
+        "চল্লিশ",
+        "দুইটা"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "নব্বই",
+          "tr": "nobboi",
+          "en": "ninety"
+        },
+        {
+          "bn": "একশ",
+          "tr": "eksho",
+          "en": "one hundred"
+        },
+        {
+          "bn": "ষাট",
+          "tr": "shat",
+          "en": "sixty"
+        },
+        {
+          "bn": "হাজার",
+          "tr": "hajar",
+          "en": "thousand"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "আশি",
+          "tr": "ashi",
+          "en": "eighty"
+        },
+        {
+          "bn": "জানেন",
+          "tr": "janen",
+          "en": "(you, polite) know"
+        },
+        {
+          "bn": "আঠারো",
+          "tr": "atharo",
+          "en": "eighteen"
+        },
+        {
+          "bn": "বিশ",
+          "tr": "bish",
+          "en": "twenty"
+        }
+      ],
+      "recycle": true
     }
   ]
 }

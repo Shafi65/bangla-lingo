@@ -429,6 +429,113 @@
           "উৎসব"
         ]
       ]
+    },
+    {
+      "id": "r01",
+      "type": "listen_select",
+      "audio": {
+        "bn": "মেলা",
+        "tr": "mela",
+        "en": "fair"
+      },
+      "options": [
+        "ডিম",
+        "মানে",
+        "মেলা",
+        "রাস্তা"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "মেলায়",
+        "tr": "melay",
+        "en": "to the fair"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "শুক্রবার",
+        "মেলায়",
+        "গ্রাম",
+        "ক্ষুধা"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "পহেলা বৈশাখ",
+        "tr": "pohela boishakh",
+        "en": "Pohela Boishakh"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "not yet",
+        "what happened",
+        "OK",
+        "Pohela Boishakh"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "ঘুমান",
+          "tr": "ghuman",
+          "en": "you sleep (polite)"
+        },
+        {
+          "bn": "আলপনা",
+          "tr": "alpona",
+          "en": "alpona"
+        },
+        {
+          "bn": "কয়টায়",
+          "tr": "koytay",
+          "en": "at what time"
+        },
+        {
+          "bn": "বলেন",
+          "tr": "bolen",
+          "en": "you speak (polite)"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "আছিস",
+          "tr": "achhish",
+          "en": "are (intimate)"
+        },
+        {
+          "bn": "হ্যাঁ",
+          "tr": "hya~",
+          "en": "yes"
+        },
+        {
+          "bn": "নও",
+          "tr": "noo",
+          "en": "are not (familiar)"
+        },
+        {
+          "bn": "ত্রিশ",
+          "tr": "trish",
+          "en": "thirty"
+        }
+      ],
+      "recycle": true
     }
   ]
 }

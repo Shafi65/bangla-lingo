@@ -358,6 +358,113 @@
         "Yesterday what did you do?",
         "What did you do yesterday"
       ]
+    },
+    {
+      "id": "r01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "খেয়েছেন",
+        "tr": "kheyechhen",
+        "en": "have you eaten (polite)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "you read (polite)",
+        "have you eaten (polite)",
+        "give (polite)",
+        "I have done"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "listen_select",
+      "audio": {
+        "bn": "গিয়েছে",
+        "tr": "giyechhe",
+        "en": "has gone"
+      },
+      "options": [
+        "লিখি",
+        "গিয়েছে",
+        "ঘুমালাম",
+        "করছে"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "খেয়েছো",
+        "tr": "kheyechho",
+        "en": "have you eaten (familiar)"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "পড়েন",
+        "খেয়েছো",
+        "পারে",
+        "কিনবেন"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "শুনলাম",
+          "tr": "shunlam",
+          "en": "I heard"
+        },
+        {
+          "bn": "ঘুমালাম",
+          "tr": "ghumalam",
+          "en": "I slept"
+        },
+        {
+          "bn": "দেখলাম",
+          "tr": "dekhlam",
+          "en": "I saw"
+        },
+        {
+          "bn": "এসেছে",
+          "tr": "eshechhe",
+          "en": "has come"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "কিনলাম",
+          "tr": "kinlam",
+          "en": "I bought"
+        },
+        {
+          "bn": "আড়াইটা",
+          "tr": "araita",
+          "en": "half past two"
+        },
+        {
+          "bn": "পড়লাম",
+          "tr": "porlam",
+          "en": "I read"
+        },
+        {
+          "bn": "বললাম",
+          "tr": "bollam",
+          "en": "I said"
+        }
+      ],
+      "recycle": true
     }
   ]
 }

@@ -383,6 +383,113 @@
         "Before going to sleep I look at my phone.",
         "I look at my phone before going to sleep."
       ]
+    },
+    {
+      "id": "r01",
+      "type": "listen_select",
+      "audio": {
+        "bn": "থাকেন",
+        "tr": "thaken",
+        "en": "lives (polite)"
+      },
+      "options": [
+        "পড়ছি",
+        "থাকেন",
+        "ছাড়বে",
+        "করছে"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "যাবে",
+        "tr": "jabe",
+        "en": "will go"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "যাবে",
+        "আছি",
+        "কিনব",
+        "নই"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "যাব",
+        "tr": "jabo",
+        "en": "I will go"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "(I/we) want",
+        "(you, familiar) eat",
+        "I will go",
+        "(I) know"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "তাহলে",
+          "tr": "tahole",
+          "en": "then"
+        },
+        {
+          "bn": "থাকি",
+          "tr": "thaki",
+          "en": "I live"
+        },
+        {
+          "bn": "থামেন",
+          "tr": "thamen",
+          "en": "stop (polite)"
+        },
+        {
+          "bn": "পর্যন্ত",
+          "tr": "porjonto",
+          "en": "to"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "শহরে",
+          "tr": "shohore",
+          "en": "in the city"
+        },
+        {
+          "bn": "যাবেন",
+          "tr": "jaben",
+          "en": "will you go (polite)"
+        },
+        {
+          "bn": "কেউ",
+          "tr": "keu",
+          "en": "someone"
+        },
+        {
+          "bn": "ছাড়বে",
+          "tr": "chharbe",
+          "en": "will leave"
+        }
+      ],
+      "recycle": true
     }
   ]
 }

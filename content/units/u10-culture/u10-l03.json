@@ -360,6 +360,113 @@
         "খুব",
         "সুন্দর"
       ]
+    },
+    {
+      "id": "r01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "রাখি",
+        "tr": "rakhi",
+        "en": "I keep"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "I am doing",
+        "I listen",
+        "is not (here); there isn't",
+        "I keep"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "listen_select",
+      "audio": {
+        "bn": "রমজান",
+        "tr": "romjan",
+        "en": "Ramadan"
+      },
+      "options": [
+        "প্রশ্ন",
+        "রমজান",
+        "পয়সা",
+        "নানি"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "সেহরি",
+        "tr": "sehri",
+        "en": "sehri"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "নানি",
+        "সমস্যা",
+        "সেহরি",
+        "রুটি"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "ইফতারে",
+          "tr": "iftare",
+          "en": "at iftar"
+        },
+        {
+          "bn": "ইফতার",
+          "tr": "iftar",
+          "en": "iftar"
+        },
+        {
+          "bn": "রোজা",
+          "tr": "roja",
+          "en": "fast"
+        },
+        {
+          "bn": "রমজানে",
+          "tr": "romjane",
+          "en": "in Ramadan"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "কিছু",
+          "tr": "kichhu",
+          "en": "something"
+        },
+        {
+          "bn": "এইটা",
+          "tr": "eita",
+          "en": "this one"
+        },
+        {
+          "bn": "খেজুর",
+          "tr": "khejur",
+          "en": "dates"
+        },
+        {
+          "bn": "সবচেয়ে",
+          "tr": "shobcheye",
+          "en": "the most"
+        }
+      ],
+      "recycle": true
     }
   ]
 }

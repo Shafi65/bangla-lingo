@@ -394,6 +394,113 @@
         "aj ki bar?"
       ],
       "why": "Weekdays use **বার**; **দিন** is any day."
+    },
+    {
+      "id": "r01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "কলাটা",
+        "tr": "kolata",
+        "en": "the banana"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "কলাটা",
+        "শিক্ষক",
+        "সময়",
+        "পানি"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "কলাগুলো",
+        "tr": "kolagulo",
+        "en": "the bananas"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "need",
+        "student (female)",
+        "Tuesday",
+        "the bananas"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "listen_select",
+      "audio": {
+        "bn": "আমগুলো",
+        "tr": "amgulo",
+        "en": "the mangoes"
+      },
+      "options": [
+        "বউ",
+        "আম্মু",
+        "মিনিট",
+        "আমগুলো"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "সমস্যা",
+          "tr": "shomossha",
+          "en": "problem"
+        },
+        {
+          "bn": "পছন্দ",
+          "tr": "pochhondo",
+          "en": "liking"
+        },
+        {
+          "bn": "মজা",
+          "tr": "moja",
+          "en": "fun; tasty"
+        },
+        {
+          "bn": "ফল",
+          "tr": "fol",
+          "en": "fruit"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "মজার",
+          "tr": "mojar",
+          "en": "tasty"
+        },
+        {
+          "bn": "উনি",
+          "tr": "uni",
+          "en": "he/she (polite, spoken)"
+        },
+        {
+          "bn": "ছাড়া",
+          "tr": "chhara",
+          "en": "without"
+        },
+        {
+          "bn": "খারাপ",
+          "tr": "kharap",
+          "en": "bad"
+        }
+      ],
+      "recycle": true
     }
   ]
 }

@@ -356,6 +356,113 @@
         "Vegetables are very nice.",
         "The vegetable is very good."
       ]
+    },
+    {
+      "id": "r01",
+      "type": "listen_select",
+      "audio": {
+        "bn": "বুঝতে পারছি না",
+        "tr": "bujhte parchhi na",
+        "en": "I don't understand"
+      },
+      "options": [
+        "খোদা হাফেজ",
+        "নমস্কার",
+        "ধন্যবাদ",
+        "বুঝতে পারছি না"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "সে",
+        "tr": "she",
+        "en": "he/she"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "ওরা",
+        "আপনারা",
+        "সে",
+        "আপনার"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ওয়ালাইকুম আসসালাম",
+        "tr": "walaikum assalam",
+        "en": "hello (in reply)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "hello (in reply)",
+        "praise be to God",
+        "I don't understand",
+        "see you again"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "মায়ের",
+          "tr": "mayer",
+          "en": "mother's"
+        },
+        {
+          "bn": "আপনারা",
+          "tr": "apnara",
+          "en": "you (polite, plural)"
+        },
+        {
+          "bn": "ওরা",
+          "tr": "ora",
+          "en": "they (spoken)"
+        },
+        {
+          "bn": "নন",
+          "tr": "non",
+          "en": "is not / are not (polite)"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "তোরা",
+          "tr": "tora",
+          "en": "you (intimate, plural)"
+        },
+        {
+          "bn": "মানুষ",
+          "tr": "manush",
+          "en": "person"
+        },
+        {
+          "bn": "নও",
+          "tr": "noo",
+          "en": "are not (familiar)"
+        },
+        {
+          "bn": "তিনি",
+          "tr": "tini",
+          "en": "he/she (polite)"
+        }
+      ],
+      "recycle": true
     }
   ]
 }

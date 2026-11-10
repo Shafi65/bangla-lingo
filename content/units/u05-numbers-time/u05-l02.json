@@ -347,6 +347,113 @@
         "baro",
         "baaro"
       ]
+    },
+    {
+      "id": "r01",
+      "type": "listen_select",
+      "audio": {
+        "bn": "দুই",
+        "tr": "dui",
+        "en": "two"
+      },
+      "options": [
+        "দুই",
+        "দুইজন",
+        "এগারো",
+        "একটা"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "নয়",
+        "tr": "noy",
+        "en": "nine"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "নয়",
+        "আট",
+        "বারো",
+        "তিন"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আট",
+        "tr": "at",
+        "en": "eight"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "two (things)",
+        "three",
+        "twelve",
+        "eight"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "দুইটা",
+          "tr": "duita",
+          "en": "two (things)"
+        },
+        {
+          "bn": "এসেছি",
+          "tr": "eshechhi",
+          "en": "(I) have come"
+        },
+        {
+          "bn": "ওর",
+          "tr": "or",
+          "en": "his/her (spoken)"
+        },
+        {
+          "bn": "মজার",
+          "tr": "mojar",
+          "en": "tasty"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "কোথা",
+          "tr": "kotha",
+          "en": "where (before থেকে)"
+        },
+        {
+          "bn": "মজা",
+          "tr": "moja",
+          "en": "fun; tasty"
+        },
+        {
+          "bn": "বউ",
+          "tr": "bou",
+          "en": "wife"
+        },
+        {
+          "bn": "কে",
+          "tr": "ke",
+          "en": "who"
+        }
+      ],
+      "recycle": true
     }
   ]
 }

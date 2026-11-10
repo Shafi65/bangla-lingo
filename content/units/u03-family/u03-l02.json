@@ -369,6 +369,113 @@
         "Where is your big sister?",
         "Where's your big sister?"
       ]
+    },
+    {
+      "id": "r01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "মা",
+        "tr": "ma",
+        "en": "mother"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "student (female)",
+        "mother",
+        "country",
+        "father"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "listen_select",
+      "audio": {
+        "bn": "পরিবার",
+        "tr": "poribar",
+        "en": "family"
+      },
+      "options": [
+        "বন্ধু",
+        "পরিবার",
+        "বাবা",
+        "ছাত্রী"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "বাবা",
+        "tr": "baba",
+        "en": "father"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "বাবা",
+        "দেশ",
+        "মানুষ",
+        "ইংরেজি"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "খুব",
+          "tr": "khub",
+          "en": "very"
+        },
+        {
+          "bn": "নয়",
+          "tr": "noy",
+          "en": "is not"
+        },
+        {
+          "bn": "আম্মু",
+          "tr": "ammu",
+          "en": "mom"
+        },
+        {
+          "bn": "আপনারা",
+          "tr": "apnara",
+          "en": "you (polite, plural)"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "আমরা",
+          "tr": "amra",
+          "en": "we"
+        },
+        {
+          "bn": "নও",
+          "tr": "noo",
+          "en": "are not (familiar)"
+        },
+        {
+          "bn": "ওরা",
+          "tr": "ora",
+          "en": "they (spoken)"
+        },
+        {
+          "bn": "তুই",
+          "tr": "tui",
+          "en": "you (intimate)"
+        }
+      ],
+      "recycle": true
     }
   ]
 }

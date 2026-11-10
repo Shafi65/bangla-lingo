@@ -370,6 +370,113 @@
         "khuchro achhe",
         "khuchro ache"
       ]
+    },
+    {
+      "id": "r01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "কিনবেন",
+        "tr": "kinben",
+        "en": "you will buy (polite)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "keep (polite)",
+        "are (intimate)",
+        "give (intimate)",
+        "you will buy (polite)"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "listen_select",
+      "audio": {
+        "bn": "কিনব",
+        "tr": "kinbo",
+        "en": "I will buy"
+      },
+      "options": [
+        "আছি",
+        "কিনব",
+        "কিনবেন",
+        "নই"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "জামা",
+        "tr": "jama",
+        "en": "shirt"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "কলাটা",
+        "জামা",
+        "বার",
+        "লুঙ্গি"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "ওগুলো",
+          "tr": "ogulo",
+          "en": "those"
+        },
+        {
+          "bn": "জামাটা",
+          "tr": "jamata",
+          "en": "the shirt"
+        },
+        {
+          "bn": "লুঙ্গি",
+          "tr": "lunggi",
+          "en": "lungi"
+        },
+        {
+          "bn": "এগুলো",
+          "tr": "egulo",
+          "en": "these"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "পয়সা",
+          "tr": "poysha",
+          "en": "poisha"
+        },
+        {
+          "bn": "দে",
+          "tr": "de",
+          "en": "give (intimate)"
+        },
+        {
+          "bn": "শাড়ি",
+          "tr": "shari",
+          "en": "sari"
+        },
+        {
+          "bn": "কোনো",
+          "tr": "kono",
+          "en": "any"
+        }
+      ],
+      "recycle": true
     }
   ]
 }

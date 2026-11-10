@@ -346,6 +346,113 @@
         "jee, ami bangladeshi",
         "ji, ami bangladeshee"
       ]
+    },
+    {
+      "id": "r01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আবার দেখা হবে",
+        "tr": "abar dekha hobe",
+        "en": "see you again"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "নমস্কার",
+        "আবার দেখা হবে",
+        "আলহামদুলিল্লাহ",
+        "খোদা হাফেজ"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আলহামদুলিল্লাহ",
+        "tr": "alhamdulillah",
+        "en": "praise be to God"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "praise be to God",
+        "goodbye",
+        "thank you",
+        "see you again"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "listen_select",
+      "audio": {
+        "bn": "ধন্যবাদ",
+        "tr": "dhonnobad",
+        "en": "thank you"
+      },
+      "options": [
+        "ওয়ালাইকুম আসসালাম",
+        "আবার দেখা হবে",
+        "নমস্কার",
+        "ধন্যবাদ"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "আপনার",
+          "tr": "apnar",
+          "en": "your (polite)"
+        },
+        {
+          "bn": "নাম",
+          "tr": "nam",
+          "en": "name"
+        },
+        {
+          "bn": "ছাত্রী",
+          "tr": "chhatri",
+          "en": "student (female)"
+        },
+        {
+          "bn": "আর",
+          "tr": "ar",
+          "en": "and"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "খুব",
+          "tr": "khub",
+          "en": "very"
+        },
+        {
+          "bn": "আছি",
+          "tr": "achhi",
+          "en": "am"
+        },
+        {
+          "bn": "শিক্ষক",
+          "tr": "shikkhok",
+          "en": "teacher"
+        },
+        {
+          "bn": "হ্যাঁ",
+          "tr": "hya~",
+          "en": "yes"
+        }
+      ],
+      "recycle": true
     }
   ]
 }

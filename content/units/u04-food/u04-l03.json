@@ -359,6 +359,113 @@
         "He eats rotis.",
         "She eats rotis."
       ]
+    },
+    {
+      "id": "r01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ছাড়া",
+        "tr": "chhara",
+        "en": "without"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "without",
+        "from",
+        "cup",
+        "good, well"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "listen_select",
+      "audio": {
+        "bn": "লবণ",
+        "tr": "lobon",
+        "en": "salt"
+      },
+      "options": [
+        "গরুর",
+        "খাবার",
+        "লবণ",
+        "ভাই"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "দুধ",
+        "tr": "dudh",
+        "en": "milk"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "ফুফা",
+        "নানি",
+        "দুধ",
+        "রুটি"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "তোমাদের",
+          "tr": "tomader",
+          "en": "your (familiar, plural)"
+        },
+        {
+          "bn": "কাপ",
+          "tr": "kap",
+          "en": "cup"
+        },
+        {
+          "bn": "চিনি",
+          "tr": "chini",
+          "en": "sugar"
+        },
+        {
+          "bn": "দুইজন",
+          "tr": "duijon",
+          "en": "two (people)"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "কিন্তু",
+          "tr": "kintu",
+          "en": "but"
+        },
+        {
+          "bn": "সবাই",
+          "tr": "shobai",
+          "en": "everyone"
+        },
+        {
+          "bn": "আচ্ছা",
+          "tr": "achchha",
+          "en": "OK"
+        },
+        {
+          "bn": "জানি",
+          "tr": "jani",
+          "en": "(I) know"
+        }
+      ],
+      "recycle": true
     }
   ]
 }

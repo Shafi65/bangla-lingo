@@ -376,6 +376,113 @@
         "There will be dance and song today.",
         "Today there will be dance and songs."
       ]
+    },
+    {
+      "id": "r01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "শহীদ মিনার",
+        "tr": "shohid minar",
+        "en": "Shaheed Minar"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "Shaheed Minar",
+        "hello (in reply)",
+        "Eid Mubarak",
+        "Victory Day"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "listen_select",
+      "audio": {
+        "bn": "এখনো না",
+        "tr": "ekhono na",
+        "en": "not yet"
+      },
+      "options": [
+        "এখনো না",
+        "পহেলা বৈশাখ",
+        "লাগবে না",
+        "ধন্যবাদ"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "সাথে",
+        "tr": "shathe",
+        "en": "with"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "পিছনে",
+        "দিয়ে",
+        "সাথে",
+        "মতো"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "গিয়েছিলাম",
+          "tr": "giyechhilam",
+          "en": "I had gone"
+        },
+        {
+          "bn": "গিয়েছিল",
+          "tr": "giyechhilo",
+          "en": "had gone"
+        },
+        {
+          "bn": "উঠলাম",
+          "tr": "uthlam",
+          "en": "I got up"
+        },
+        {
+          "bn": "ছিলেন",
+          "tr": "chhilen",
+          "en": "you were (polite)"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "হিন্দুদের",
+          "tr": "hinduder",
+          "en": "of the Hindus"
+        },
+        {
+          "bn": "মতো",
+          "tr": "moto",
+          "en": "like"
+        },
+        {
+          "bn": "ছিলে",
+          "tr": "chhile",
+          "en": "you were (familiar)"
+        },
+        {
+          "bn": "তখন",
+          "tr": "tokhon",
+          "en": "then"
+        }
+      ],
+      "recycle": true
     }
   ]
 }

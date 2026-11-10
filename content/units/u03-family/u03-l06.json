@@ -367,6 +367,113 @@
         "ami jani na",
         "jani na"
       ]
+    },
+    {
+      "id": "r01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "দুইজন",
+        "tr": "duijon",
+        "en": "two (people)"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "দুইজন",
+        "একটা",
+        "একজন",
+        "কী"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "কিন্তু",
+        "tr": "kintu",
+        "en": "but"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "OK",
+        "no",
+        "and",
+        "but"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "listen_select",
+      "audio": {
+        "bn": "সবাই",
+        "tr": "shobai",
+        "en": "everyone"
+      },
+      "options": [
+        "তিনি",
+        "কে",
+        "সবাই",
+        "সে"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "একজন",
+          "tr": "ekjon",
+          "en": "one (person)"
+        },
+        {
+          "bn": "ফুফা",
+          "tr": "fufa",
+          "en": "uncle (fufu's husband)"
+        },
+        {
+          "bn": "ফুফু",
+          "tr": "fufu",
+          "en": "aunt (father's sister)"
+        },
+        {
+          "bn": "কয়জন",
+          "tr": "koyjon",
+          "en": "how many (people)"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "কোথা",
+          "tr": "kotha",
+          "en": "where (before থেকে)"
+        },
+        {
+          "bn": "দাদা",
+          "tr": "dada",
+          "en": "grandfather (father's father)"
+        },
+        {
+          "bn": "বাবার",
+          "tr": "babar",
+          "en": "father's"
+        },
+        {
+          "bn": "দাদি",
+          "tr": "dadi",
+          "en": "grandmother (father's mother)"
+        }
+      ],
+      "recycle": true
     }
   ]
 }

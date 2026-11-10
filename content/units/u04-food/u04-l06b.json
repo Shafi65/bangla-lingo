@@ -337,6 +337,113 @@
         "biriani khub mojar",
         "biriani khub moja"
       ]
+    },
+    {
+      "id": "r01",
+      "type": "listen_select",
+      "audio": {
+        "bn": "লেগেছে",
+        "tr": "legechhe",
+        "en": "has come on (felt)"
+      },
+      "options": [
+        "এসেছি",
+        "আছেন",
+        "আছিস",
+        "লেগেছে"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "লাগে",
+        "tr": "lage",
+        "en": "feels"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "লাগে",
+        "খায়",
+        "খান",
+        "এসেছেন"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ক্ষুধা",
+        "tr": "khudha",
+        "en": "hunger"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "grandfather (father's father)",
+        "meat",
+        "hunger",
+        "uncle (khala's husband)"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "মজা",
+          "tr": "moja",
+          "en": "fun; tasty"
+        },
+        {
+          "bn": "কাপ",
+          "tr": "kap",
+          "en": "cup"
+        },
+        {
+          "bn": "রুটি",
+          "tr": "ruti",
+          "en": "flatbread"
+        },
+        {
+          "bn": "খাস",
+          "tr": "khash",
+          "en": "(you, intimate) eat"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "আপা",
+          "tr": "apa",
+          "en": "elder sister; ma'am"
+        },
+        {
+          "bn": "নাস্তা",
+          "tr": "nashta",
+          "en": "breakfast"
+        },
+        {
+          "bn": "বাচ্চা",
+          "tr": "bachcha",
+          "en": "child"
+        },
+        {
+          "bn": "স্ত্রী",
+          "tr": "stri",
+          "en": "wife"
+        }
+      ],
+      "recycle": true
     }
   ]
 }

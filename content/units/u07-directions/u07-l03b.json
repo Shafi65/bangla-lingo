@@ -355,6 +355,113 @@
         "ma bashar bhitre"
       ],
       "why": "বাসা + **-র** 'of the home' + ভিতরে 'inside'."
+    },
+    {
+      "id": "r01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "দূরে",
+        "tr": "dure",
+        "en": "far"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "দূরে",
+        "কত",
+        "কোথা",
+        "বিকালে"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "সামনে",
+        "tr": "shamne",
+        "en": "in front of"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "inside",
+        "in front of",
+        "near",
+        "without"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "listen_select",
+      "audio": {
+        "bn": "পাশে",
+        "tr": "pashe",
+        "en": "next to"
+      },
+      "options": [
+        "উপরে",
+        "পিছনে",
+        "পাশে",
+        "দিকে"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "বাড়ির",
+          "tr": "barir",
+          "en": "of the house"
+        },
+        {
+          "bn": "স্টেশনের",
+          "tr": "steshoner",
+          "en": "of the station"
+        },
+        {
+          "bn": "খুচরা",
+          "tr": "khuchra",
+          "en": "change"
+        },
+        {
+          "bn": "হোটেলের",
+          "tr": "hoteler",
+          "en": "of the hotel"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "ইলিশের",
+          "tr": "ilisher",
+          "en": "of the hilsa"
+        },
+        {
+          "bn": "জিনিস",
+          "tr": "jinish",
+          "en": "thing"
+        },
+        {
+          "bn": "কিন্তু",
+          "tr": "kintu",
+          "en": "but"
+        },
+        {
+          "bn": "দুইশ",
+          "tr": "duisho",
+          "en": "two hundred"
+        }
+      ],
+      "recycle": true
     }
   ]
 }

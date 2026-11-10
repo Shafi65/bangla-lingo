@@ -372,6 +372,113 @@
         "vara 50 taka",
         "bhara ponchash taka."
       ]
+    },
+    {
+      "id": "r01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ঠিক আছে",
+        "tr": "thik achhe",
+        "en": "OK"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "লাগবে না",
+        "ঠিক আছে",
+        "আবার দেখা হবে",
+        "নমস্কার"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "সবচেয়ে",
+        "tr": "shobcheye",
+        "en": "the most"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "the most",
+        "right",
+        "there",
+        "in a week"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "listen_select",
+      "audio": {
+        "bn": "শাড়ি",
+        "tr": "shari",
+        "en": "sari"
+      },
+      "options": [
+        "নাস্তা",
+        "দোকান",
+        "শাড়ি",
+        "মানে"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "টমেটোর",
+          "tr": "tometor",
+          "en": "of tomatoes"
+        },
+        {
+          "bn": "আধা",
+          "tr": "adha",
+          "en": "half"
+        },
+        {
+          "bn": "আলু",
+          "tr": "alu",
+          "en": "potato"
+        },
+        {
+          "bn": "পেঁয়াজ",
+          "tr": "pe~yaj",
+          "en": "onion"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "হালি",
+          "tr": "hali",
+          "en": "four (a set of four)"
+        },
+        {
+          "bn": "কম",
+          "tr": "kom",
+          "en": "less"
+        },
+        {
+          "bn": "লুঙ্গি",
+          "tr": "lunggi",
+          "en": "lungi"
+        },
+        {
+          "bn": "অন্য",
+          "tr": "onno",
+          "en": "other"
+        }
+      ],
+      "recycle": true
     }
   ]
 }

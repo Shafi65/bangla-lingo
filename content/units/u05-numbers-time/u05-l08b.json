@@ -347,6 +347,113 @@
         "amar boyos bish"
       ],
       "why": "Age: **আমার বয়স** … (বছর), not আমি."
+    },
+    {
+      "id": "r01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "বুধবার",
+        "tr": "budhbar",
+        "en": "Wednesday"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "hour",
+        "wife",
+        "Wednesday",
+        "doctor"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "listen_select",
+      "audio": {
+        "bn": "বার",
+        "tr": "bar",
+        "en": "day (of the week)"
+      },
+      "options": [
+        "ফুফু",
+        "বছর",
+        "দুপুর",
+        "বার"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "রবিবার",
+        "tr": "robibar",
+        "en": "Sunday"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "ছাত্রী",
+        "মজা",
+        "শিক্ষক",
+        "রবিবার"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "সত্তর",
+          "tr": "shottor",
+          "en": "seventy"
+        },
+        {
+          "bn": "আশি",
+          "tr": "ashi",
+          "en": "eighty"
+        },
+        {
+          "bn": "নব্বই",
+          "tr": "nobboi",
+          "en": "ninety"
+        },
+        {
+          "bn": "সোমবার",
+          "tr": "shombar",
+          "en": "Monday"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "বৃহস্পতিবার",
+          "tr": "brihoshpotibar",
+          "en": "Thursday"
+        },
+        {
+          "bn": "মঙ্গলবার",
+          "tr": "monggolbar",
+          "en": "Tuesday"
+        },
+        {
+          "bn": "তিনটা",
+          "tr": "tinta",
+          "en": "three (o'clock)"
+        },
+        {
+          "bn": "ত্রিশ",
+          "tr": "trish",
+          "en": "thirty"
+        }
+      ],
+      "recycle": true
     }
   ]
 }

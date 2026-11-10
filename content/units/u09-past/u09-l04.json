@@ -366,6 +366,113 @@
         "ami kaaj korechhi",
         "ami kaaj korechi"
       ]
+    },
+    {
+      "id": "r01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আসলাম",
+        "tr": "ashlam",
+        "en": "I came"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "আসলাম",
+        "উঠি",
+        "দেখে",
+        "যান"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "দিলাম",
+        "tr": "dilam",
+        "en": "I gave"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "I came",
+        "will leave",
+        "I gave",
+        "went"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "listen_select",
+      "audio": {
+        "bn": "এলে",
+        "tr": "ele",
+        "en": "you came (familiar)"
+      },
+      "options": [
+        "পড়ে",
+        "কিনলেন",
+        "এলে",
+        "লিখি"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "উপরে",
+          "tr": "upore",
+          "en": "upstairs"
+        },
+        {
+          "bn": "নিলাম",
+          "tr": "nilam",
+          "en": "I took"
+        },
+        {
+          "bn": "গেলাম",
+          "tr": "gelam",
+          "en": "I went"
+        },
+        {
+          "bn": "এলাম",
+          "tr": "elam",
+          "en": "I came"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "গেল",
+          "tr": "gelo",
+          "en": "went"
+        },
+        {
+          "bn": "ওটা",
+          "tr": "ota",
+          "en": "that"
+        },
+        {
+          "bn": "খাস",
+          "tr": "khash",
+          "en": "(you, intimate) eat"
+        },
+        {
+          "bn": "কাল",
+          "tr": "kal",
+          "en": "tomorrow; yesterday"
+        }
+      ],
+      "recycle": true
     }
   ]
 }

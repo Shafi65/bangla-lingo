@@ -357,6 +357,113 @@
         "phuphu amar babar bon",
         "phupu amar babar bon"
       ]
+    },
+    {
+      "id": "r01",
+      "type": "listen_select",
+      "audio": {
+        "bn": "তার",
+        "tr": "tar",
+        "en": "his/her"
+      },
+      "options": [
+        "ওরা",
+        "তোমরা",
+        "আমরা",
+        "তার"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ওর",
+        "tr": "or",
+        "en": "his/her (spoken)"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "ওর",
+        "আপনি",
+        "আপনার",
+        "তারা"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "তোর",
+        "tr": "tor",
+        "en": "your (intimate)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "that",
+        "who",
+        "we",
+        "your (intimate)"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "আপু",
+          "tr": "apu",
+          "en": "elder sister"
+        },
+        {
+          "bn": "ওনার",
+          "tr": "onar",
+          "en": "his/her (polite)"
+        },
+        {
+          "bn": "বড়",
+          "tr": "boro",
+          "en": "big"
+        },
+        {
+          "bn": "ভাইয়া",
+          "tr": "bhaiya",
+          "en": "elder brother"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "আর",
+          "tr": "ar",
+          "en": "and"
+        },
+        {
+          "bn": "তোরা",
+          "tr": "tora",
+          "en": "you (intimate, plural)"
+        },
+        {
+          "bn": "ছোট",
+          "tr": "chhoto",
+          "en": "small"
+        },
+        {
+          "bn": "আপনার",
+          "tr": "apnar",
+          "en": "your (polite)"
+        }
+      ],
+      "recycle": true
     }
   ]
 }

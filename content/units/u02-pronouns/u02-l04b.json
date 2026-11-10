@@ -360,6 +360,113 @@
         "apni chatri non"
       ],
       "why": "আপনি takes the polite **নন**."
+    },
+    {
+      "id": "r01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "কি",
+        "tr": "ki",
+        "en": "(yes/no question marker)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "no",
+        "and",
+        "(yes/no question marker)",
+        "yes (polite)"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "listen_select",
+      "audio": {
+        "bn": "কে",
+        "tr": "ke",
+        "en": "who"
+      },
+      "options": [
+        "ও",
+        "আপনারা",
+        "তারা",
+        "কে"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ওটা",
+        "tr": "ota",
+        "en": "that"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "তোমার",
+        "ওরা",
+        "আপনি",
+        "ওটা"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "তোমরা",
+          "tr": "tomra",
+          "en": "you (familiar, plural)"
+        },
+        {
+          "bn": "তারা",
+          "tr": "tara",
+          "en": "they"
+        },
+        {
+          "bn": "আমরা",
+          "tr": "amra",
+          "en": "we"
+        },
+        {
+          "bn": "ছেলে",
+          "tr": "chhele",
+          "en": "boy"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "মেয়ে",
+          "tr": "meye",
+          "en": "girl"
+        },
+        {
+          "bn": "আপনারা",
+          "tr": "apnara",
+          "en": "you (polite, plural)"
+        },
+        {
+          "bn": "মানুষ",
+          "tr": "manush",
+          "en": "person"
+        },
+        {
+          "bn": "ও",
+          "tr": "o",
+          "en": "he/she (spoken)"
+        }
+      ],
+      "recycle": true
     }
   ]
 }

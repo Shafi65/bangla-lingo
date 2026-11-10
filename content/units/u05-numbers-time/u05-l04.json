@@ -387,6 +387,113 @@
         "ekhane ekshoto manush achhe",
         "ekhane ekshoto manush ache"
       ]
+    },
+    {
+      "id": "r01",
+      "type": "listen_select",
+      "audio": {
+        "bn": "তিন",
+        "tr": "tin",
+        "en": "three"
+      },
+      "options": [
+        "সত্তর",
+        "আট",
+        "ত্রিশ",
+        "তিন"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "বুঝতে পারছি না",
+        "tr": "bujhte parchhi na",
+        "en": "I don't understand"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "আসসালামু আলাইকুম",
+        "বুঝতে পারছি না",
+        "খোদা হাফেজ",
+        "নমস্কার"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "তোমাদের",
+        "tr": "tomader",
+        "en": "your (familiar, plural)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "they",
+        "you (intimate, plural)",
+        "your (familiar, plural)",
+        "this"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "ও",
+          "tr": "o",
+          "en": "he/she (spoken)"
+        },
+        {
+          "bn": "আমরা",
+          "tr": "amra",
+          "en": "we"
+        },
+        {
+          "bn": "বারো",
+          "tr": "baro",
+          "en": "twelve"
+        },
+        {
+          "bn": "আচ্ছা",
+          "tr": "achchha",
+          "en": "OK"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "জানি",
+          "tr": "jani",
+          "en": "(I) know"
+        },
+        {
+          "bn": "এগারো",
+          "tr": "egaro",
+          "en": "eleven"
+        },
+        {
+          "bn": "সে",
+          "tr": "she",
+          "en": "he/she"
+        },
+        {
+          "bn": "মামা",
+          "tr": "mama",
+          "en": "uncle (mother's brother)"
+        }
+      ],
+      "recycle": true
     }
   ]
 }

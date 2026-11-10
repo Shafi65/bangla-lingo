@@ -363,6 +363,113 @@
         "bari khub kachhe",
         "bari khub kache"
       ]
+    },
+    {
+      "id": "r01",
+      "type": "listen_select",
+      "audio": {
+        "bn": "যান",
+        "tr": "jan",
+        "en": "go (polite)"
+      },
+      "options": [
+        "যান",
+        "কিনব",
+        "লেগেছে",
+        "খেতে"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "দিয়ে",
+        "tr": "diye",
+        "en": "along"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "কাছে",
+        "থেকে",
+        "দিয়ে",
+        "সামনে"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "সোজা",
+        "tr": "shoja",
+        "en": "straight"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "here",
+        "straight",
+        "far",
+        "in a week"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "বামে",
+          "tr": "bame",
+          "en": "left"
+        },
+        {
+          "bn": "রাস্তা",
+          "tr": "rasta",
+          "en": "road"
+        },
+        {
+          "bn": "ডানে",
+          "tr": "dane",
+          "en": "right"
+        },
+        {
+          "bn": "মোড়ে",
+          "tr": "more",
+          "en": "at the intersection"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "ভাংতি",
+          "tr": "bhangti",
+          "en": "change"
+        },
+        {
+          "bn": "সবচেয়ে",
+          "tr": "shobcheye",
+          "en": "the most"
+        },
+        {
+          "bn": "মোড়",
+          "tr": "mor",
+          "en": "intersection"
+        },
+        {
+          "bn": "ব্যাগ",
+          "tr": "byag",
+          "en": "bag"
+        }
+      ],
+      "recycle": true
     }
   ]
 }

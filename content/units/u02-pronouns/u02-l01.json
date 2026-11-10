@@ -348,6 +348,86 @@
         "He's fine.",
         "She's fine."
       ]
+    },
+    {
+      "id": "r01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আর",
+        "tr": "ar",
+        "en": "and"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "জি",
+        "আর",
+        "না",
+        "হ্যাঁ"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "খুব",
+        "tr": "khub",
+        "en": "very"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "how",
+        "very",
+        "see you again",
+        "yes (polite)"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "listen_select",
+      "audio": {
+        "bn": "আছি",
+        "tr": "achhi",
+        "en": "am"
+      },
+      "options": [
+        "আছি",
+        "আছেন",
+        "আছে",
+        "আছো"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "না",
+          "tr": "na",
+          "en": "no"
+        },
+        {
+          "bn": "কী",
+          "tr": "ki",
+          "en": "what"
+        },
+        {
+          "bn": "আপনার",
+          "tr": "apnar",
+          "en": "your (polite)"
+        },
+        {
+          "bn": "আছো",
+          "tr": "achho",
+          "en": "are (familiar)"
+        }
+      ],
+      "recycle": true
     }
   ]
 }

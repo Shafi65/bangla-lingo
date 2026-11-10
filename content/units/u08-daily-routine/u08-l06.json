@@ -415,6 +415,113 @@
         "always",
         "prays"
       ]
+    },
+    {
+      "id": "r01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "খাচ্ছি",
+        "tr": "khachchhi",
+        "en": "I am eating"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "you read (polite)",
+        "I am eating",
+        "will go",
+        "is watching"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "listen_select",
+      "audio": {
+        "bn": "করছে",
+        "tr": "korchhe",
+        "en": "is doing"
+      },
+      "options": [
+        "করছে",
+        "নও",
+        "দেখছে",
+        "দেন"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "করছেন",
+        "tr": "korchhen",
+        "en": "you are doing (polite)"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "খায়",
+        "যায়",
+        "করছেন",
+        "করছে"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "পড়ছি",
+          "tr": "porchhi",
+          "en": "I am reading"
+        },
+        {
+          "bn": "করছি",
+          "tr": "korchhi",
+          "en": "I am doing"
+        },
+        {
+          "bn": "যাচ্ছি",
+          "tr": "jachchhi",
+          "en": "I am going"
+        },
+        {
+          "bn": "করছো",
+          "tr": "korchho",
+          "en": "you are doing (familiar)"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "ঘুমাই",
+          "tr": "ghumai",
+          "en": "I sleep"
+        },
+        {
+          "bn": "দেখছে",
+          "tr": "dekhchhe",
+          "en": "is watching"
+        },
+        {
+          "bn": "কখন",
+          "tr": "kokhon",
+          "en": "when"
+        },
+        {
+          "bn": "যাই",
+          "tr": "jai",
+          "en": "I go"
+        }
+      ],
+      "recycle": true
     }
   ]
 }

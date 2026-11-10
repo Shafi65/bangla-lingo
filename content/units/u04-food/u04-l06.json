@@ -399,6 +399,113 @@
         "I don't like spicy.",
         "I don't like spicy foods."
       ]
+    },
+    {
+      "id": "r01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "একটি",
+        "tr": "ekti",
+        "en": "one; a (formal)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "two (people)",
+        "country",
+        "one; a (formal)",
+        "husband"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "listen_select",
+      "audio": {
+        "bn": "ফল",
+        "tr": "fol",
+        "en": "fruit"
+      },
+      "options": [
+        "ফল",
+        "আম্মু",
+        "কলাটা",
+        "বাংলা"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আমগুলো",
+        "tr": "amgulo",
+        "en": "the mangoes"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "বোন",
+        "আমগুলো",
+        "আংকেল",
+        "মুরগি"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "আমটা",
+          "tr": "amta",
+          "en": "the mango"
+        },
+        {
+          "bn": "কলাগুলো",
+          "tr": "kolagulo",
+          "en": "the bananas"
+        },
+        {
+          "bn": "ছাড়া",
+          "tr": "chhara",
+          "en": "without"
+        },
+        {
+          "bn": "কলাটা",
+          "tr": "kolata",
+          "en": "the banana"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "দুধ",
+          "tr": "dudh",
+          "en": "milk"
+        },
+        {
+          "bn": "লবণ",
+          "tr": "lobon",
+          "en": "salt"
+        },
+        {
+          "bn": "মুরগি",
+          "tr": "murgi",
+          "en": "chicken"
+        },
+        {
+          "bn": "কলা",
+          "tr": "kola",
+          "en": "banana"
+        }
+      ],
+      "recycle": true
     }
   ]
 }

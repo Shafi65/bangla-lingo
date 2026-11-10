@@ -390,6 +390,113 @@
         "amader basay asben"
       ],
       "why": "To a teacher use আপনি: আসবেন."
+    },
+    {
+      "id": "r01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "স্বাধীনতা",
+        "tr": "shadhinota",
+        "en": "independence"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "Ramadan",
+        "Wednesday",
+        "train",
+        "independence"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "listen_select",
+      "audio": {
+        "bn": "ভাষা",
+        "tr": "bhasha",
+        "en": "language"
+      },
+      "options": [
+        "দিবস",
+        "মানুষ",
+        "ছেলে",
+        "ভাষা"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "মাতৃভাষা",
+        "tr": "matribhasha",
+        "en": "mother tongue"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "মাতৃভাষা",
+        "নাস্তা",
+        "ছুটি",
+        "ইলিশের"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "দিবস",
+          "tr": "dibosh",
+          "en": "day"
+        },
+        {
+          "bn": "রাখি",
+          "tr": "rakhi",
+          "en": "I keep"
+        },
+        {
+          "bn": "শহীদ",
+          "tr": "shohid",
+          "en": "martyr"
+        },
+        {
+          "bn": "দিবসে",
+          "tr": "dibose",
+          "en": "on the day"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "রমজানে",
+          "tr": "romjane",
+          "en": "in Ramadan"
+        },
+        {
+          "bn": "ইফতারে",
+          "tr": "iftare",
+          "en": "at iftar"
+        },
+        {
+          "bn": "রমজান",
+          "tr": "romjan",
+          "en": "Ramadan"
+        },
+        {
+          "bn": "ইফতার",
+          "tr": "iftar",
+          "en": "iftar"
+        }
+      ],
+      "recycle": true
     }
   ]
 }

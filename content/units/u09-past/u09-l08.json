@@ -387,6 +387,113 @@
         "What time did you come?",
         "What time did you arrive?"
       ]
+    },
+    {
+      "id": "r01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "গিয়েছিলাম",
+        "tr": "giyechhilam",
+        "en": "I had gone"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "খাইনি",
+        "গিয়েছিলাম",
+        "এসেছে",
+        "যাব"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "গিয়েছিল",
+        "tr": "giyechhilo",
+        "en": "had gone"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "I saw",
+        "(I) have come",
+        "had gone",
+        "give (polite)"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "listen_select",
+      "audio": {
+        "bn": "ছবি",
+        "tr": "chhobi",
+        "en": "film"
+      },
+      "options": [
+        "দাদা",
+        "রুটি",
+        "ছবি",
+        "বাচ্চা"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "ইতিমধ্যে",
+          "tr": "itimoddhe",
+          "en": "already"
+        },
+        {
+          "bn": "দেখিনি",
+          "tr": "dekhini",
+          "en": "I didn't see"
+        },
+        {
+          "bn": "করিনি",
+          "tr": "korini",
+          "en": "I didn't do"
+        },
+        {
+          "bn": "এখনো",
+          "tr": "ekhono",
+          "en": "yet"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "যাইনি",
+          "tr": "jaini",
+          "en": "I didn't go"
+        },
+        {
+          "bn": "মাজি",
+          "tr": "maji",
+          "en": "I brush"
+        },
+        {
+          "bn": "পারেন",
+          "tr": "paren",
+          "en": "(you, polite) can"
+        },
+        {
+          "bn": "খাওনি",
+          "tr": "khaoni",
+          "en": "you didn't eat (familiar)"
+        }
+      ],
+      "recycle": true
     }
   ]
 }

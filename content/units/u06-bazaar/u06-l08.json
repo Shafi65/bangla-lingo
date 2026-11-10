@@ -386,6 +386,113 @@
         "ami ei shari ta kinbo"
       ],
       "why": "-টা makes it 'the/this one': এই শাড়িটা; the future for আমি ends in -ব."
+    },
+    {
+      "id": "r01",
+      "type": "listen_select",
+      "audio": {
+        "bn": "জিনিস",
+        "tr": "jinish",
+        "en": "thing"
+      },
+      "options": [
+        "রুটি",
+        "জিনিস",
+        "মাংস",
+        "নানা"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "খুচরা",
+        "tr": "khuchra",
+        "en": "change"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "মানে",
+        "আপা",
+        "খুচরা",
+        "শুক্রবার"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "বছরে",
+        "tr": "bochhore",
+        "en": "in a year"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "tomorrow; yesterday",
+        "in a year",
+        "a little",
+        "the most"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "বার",
+          "tr": "bar",
+          "en": "day (of the week)"
+        },
+        {
+          "bn": "সকাল",
+          "tr": "shokal",
+          "en": "morning"
+        },
+        {
+          "bn": "রবিবার",
+          "tr": "robibar",
+          "en": "Sunday"
+        },
+        {
+          "bn": "সোমবার",
+          "tr": "shombar",
+          "en": "Monday"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "মঙ্গলবার",
+          "tr": "monggolbar",
+          "en": "Tuesday"
+        },
+        {
+          "bn": "ঘণ্টা",
+          "tr": "ghonta",
+          "en": "hour"
+        },
+        {
+          "bn": "দুপুর",
+          "tr": "dupur",
+          "en": "noon"
+        },
+        {
+          "bn": "রাত",
+          "tr": "rat",
+          "en": "night"
+        }
+      ],
+      "recycle": true
     }
   ]
 }

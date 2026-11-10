@@ -430,6 +430,113 @@
         "thik ase 200 taka rakhen",
         "thik ase 200 taka rakhun"
       ]
+    },
+    {
+      "id": "r01",
+      "type": "listen_select",
+      "audio": {
+        "bn": "টমেটোর",
+        "tr": "tometor",
+        "en": "of tomatoes"
+      },
+      "options": [
+        "কলা",
+        "টমেটোর",
+        "আম্মু",
+        "বিকাল"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ডজন",
+        "tr": "dozon",
+        "en": "dozen"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "হালি",
+        "ডজন",
+        "কেজি",
+        "তেরো"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আধা",
+        "tr": "adha",
+        "en": "half"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "last",
+        "spicy",
+        "sweet",
+        "half"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "হালি",
+          "tr": "hali",
+          "en": "four (a set of four)"
+        },
+        {
+          "bn": "টমেটো",
+          "tr": "tometo",
+          "en": "tomato"
+        },
+        {
+          "bn": "শুধু",
+          "tr": "shudhu",
+          "en": "only"
+        },
+        {
+          "bn": "কেজি",
+          "tr": "keji",
+          "en": "kilo"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "পেঁয়াজ",
+          "tr": "pe~yaj",
+          "en": "onion"
+        },
+        {
+          "bn": "আলু",
+          "tr": "alu",
+          "en": "potato"
+        },
+        {
+          "bn": "বাজার",
+          "tr": "bajar",
+          "en": "market"
+        },
+        {
+          "bn": "পাঁচশ",
+          "tr": "pa~chsho",
+          "en": "five hundred"
+        }
+      ],
+      "recycle": true
     }
   ]
 }

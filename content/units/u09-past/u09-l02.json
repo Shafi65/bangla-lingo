@@ -361,6 +361,113 @@
         "tini ekta shari kinlen",
         "uni ekta shari kinlen"
       ]
+    },
+    {
+      "id": "r01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ঘুমালাম",
+        "tr": "ghumalam",
+        "en": "I slept"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "I watch",
+        "you speak (polite)",
+        "is doing",
+        "I slept"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "listen_select",
+      "audio": {
+        "bn": "শুনলাম",
+        "tr": "shunlam",
+        "en": "I heard"
+      },
+      "options": [
+        "কিনল",
+        "বলি",
+        "করিস",
+        "শুনলাম"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "বললাম",
+        "tr": "bollam",
+        "en": "I said"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "লেখে",
+        "যাবে",
+        "লাগে",
+        "বললাম"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "দেখলাম",
+          "tr": "dekhlam",
+          "en": "I saw"
+        },
+        {
+          "bn": "মসজিদ",
+          "tr": "moshjid",
+          "en": "mosque"
+        },
+        {
+          "bn": "তাকে",
+          "tr": "take",
+          "en": "him"
+        },
+        {
+          "bn": "পড়লাম",
+          "tr": "porlam",
+          "en": "I read"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "সাহায্য",
+          "tr": "shahajjo",
+          "en": "help"
+        },
+        {
+          "bn": "ভাড়া",
+          "tr": "bhara",
+          "en": "fare"
+        },
+        {
+          "bn": "গাড়ি",
+          "tr": "gari",
+          "en": "car"
+        },
+        {
+          "bn": "সিএনজি",
+          "tr": "si-en-ji",
+          "en": "CNG"
+        }
+      ],
+      "recycle": true
     }
   ]
 }

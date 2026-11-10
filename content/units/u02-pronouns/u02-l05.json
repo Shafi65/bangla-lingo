@@ -356,6 +356,113 @@
         "My home country is Bangladesh.",
         "My homeland is Bangladesh."
       ]
+    },
+    {
+      "id": "r01",
+      "type": "listen_select",
+      "audio": {
+        "bn": "নও",
+        "tr": "noo",
+        "en": "are not (familiar)"
+      },
+      "options": [
+        "আছিস",
+        "নেই",
+        "নও",
+        "নয়"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "নয়",
+        "tr": "noy",
+        "en": "is not"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "নয়",
+        "আছিস",
+        "আছে",
+        "আছি"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "নন",
+        "tr": "non",
+        "en": "is not / are not (polite)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "are (polite)",
+        "is (he/she/it)",
+        "is not / are not (polite)",
+        "are (intimate)"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "নই",
+          "tr": "noi",
+          "en": "am not"
+        },
+        {
+          "bn": "আছিস",
+          "tr": "achhish",
+          "en": "are (intimate)"
+        },
+        {
+          "bn": "তুই",
+          "tr": "tui",
+          "en": "you (intimate)"
+        },
+        {
+          "bn": "এটা",
+          "tr": "eta",
+          "en": "this"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "বাংলা",
+          "tr": "bangla",
+          "en": "Bengali (language)"
+        },
+        {
+          "bn": "তিনি",
+          "tr": "tini",
+          "en": "he/she (polite)"
+        },
+        {
+          "bn": "তোরা",
+          "tr": "tora",
+          "en": "you (intimate, plural)"
+        },
+        {
+          "bn": "ইংরেজি",
+          "tr": "ingreji",
+          "en": "English (language)"
+        }
+      ],
+      "recycle": true
     }
   ]
 }

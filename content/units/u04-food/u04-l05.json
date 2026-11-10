@@ -380,6 +380,113 @@
         "The banana's mine.",
         "That banana's mine."
       ]
+    },
+    {
+      "id": "r01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "অবশ্যই",
+        "tr": "oboshshoi",
+        "en": "of course"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "কোথা",
+        "অবশ্যই",
+        "কয়জন",
+        "কোথায়"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "চান",
+        "tr": "chan",
+        "en": "(you/he/she, polite) want"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "is not / are not (polite)",
+        "(you/he/she, polite) want",
+        "is (he/she/it)",
+        "are (familiar)"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "listen_select",
+      "audio": {
+        "bn": "কিছু",
+        "tr": "kichhu",
+        "en": "something"
+      },
+      "options": [
+        "আপনার",
+        "কিছু",
+        "তিনি",
+        "তোর"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "সমস্যা",
+          "tr": "shomossha",
+          "en": "problem"
+        },
+        {
+          "bn": "দরকার",
+          "tr": "dorkar",
+          "en": "need"
+        },
+        {
+          "bn": "চাও",
+          "tr": "chao",
+          "en": "(you, familiar) want"
+        },
+        {
+          "bn": "খেতে",
+          "tr": "khete",
+          "en": "to eat"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "ডাল",
+          "tr": "dal",
+          "en": "lentils"
+        },
+        {
+          "bn": "গরুর",
+          "tr": "gorur",
+          "en": "cow's"
+        },
+        {
+          "bn": "খাবার",
+          "tr": "khabar",
+          "en": "food"
+        },
+        {
+          "bn": "সবজি",
+          "tr": "shobji",
+          "en": "vegetables"
+        }
+      ],
+      "recycle": true
     }
   ]
 }

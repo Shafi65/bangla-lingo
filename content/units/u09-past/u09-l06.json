@@ -376,6 +376,113 @@
         "ami goto shoptahe silete chilam",
         "goto shoptahe ami silete chilam"
       ]
+    },
+    {
+      "id": "r01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "যাইনি",
+        "tr": "jaini",
+        "en": "I didn't go"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "খাইনি",
+        "আসি",
+        "গেলাম",
+        "যাইনি"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "করিনি",
+        "tr": "korini",
+        "en": "I didn't do"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "you were (familiar)",
+        "I did",
+        "watches",
+        "I didn't do"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "listen_select",
+      "audio": {
+        "bn": "দেখিনি",
+        "tr": "dekhini",
+        "en": "I didn't see"
+      },
+      "options": [
+        "করলেন",
+        "আছি",
+        "দেখিনি",
+        "খেয়েছি"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "খাইনি",
+          "tr": "khaini",
+          "en": "I haven't eaten"
+        },
+        {
+          "bn": "ইতিমধ্যে",
+          "tr": "itimoddhe",
+          "en": "already"
+        },
+        {
+          "bn": "এখনো",
+          "tr": "ekhono",
+          "en": "yet"
+        },
+        {
+          "bn": "আসেনি",
+          "tr": "asheni",
+          "en": "hasn't come"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "দিলাম",
+          "tr": "dilam",
+          "en": "I gave"
+        },
+        {
+          "bn": "এলাম",
+          "tr": "elam",
+          "en": "I came"
+        },
+        {
+          "bn": "খাওনি",
+          "tr": "khaoni",
+          "en": "you didn't eat (familiar)"
+        },
+        {
+          "bn": "নিলাম",
+          "tr": "nilam",
+          "en": "I took"
+        }
+      ],
+      "recycle": true
     }
   ]
 }

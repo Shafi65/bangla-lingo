@@ -379,6 +379,113 @@
         "A lot of people are at our house today.",
         "Many people are at our house today."
       ]
+    },
+    {
+      "id": "r01",
+      "type": "listen_select",
+      "audio": {
+        "bn": "আসবেন",
+        "tr": "ashben",
+        "en": "please come"
+      },
+      "options": [
+        "দাও",
+        "আসেনি",
+        "খাই",
+        "আসবেন"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "যদি",
+        "tr": "jodi",
+        "en": "if"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "জি",
+        "যখন",
+        "যদি",
+        "না"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "হয়",
+        "tr": "hoy",
+        "en": "is"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "go (polite)",
+        "I am going",
+        "I came",
+        "is"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "মেহমান",
+          "tr": "mehman",
+          "en": "guest"
+        },
+        {
+          "bn": "আসবে",
+          "tr": "ashbe",
+          "en": "will come"
+        },
+        {
+          "bn": "খাবেন",
+          "tr": "khaben",
+          "en": "will you eat (polite)"
+        },
+        {
+          "bn": "পিঠা",
+          "tr": "pitha",
+          "en": "pitha"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "দাওয়াত",
+          "tr": "dawat",
+          "en": "invitation"
+        },
+        {
+          "bn": "খেজুর",
+          "tr": "khejur",
+          "en": "dates"
+        },
+        {
+          "bn": "সুন্দর",
+          "tr": "shundor",
+          "en": "beautiful"
+        },
+        {
+          "bn": "মেলা",
+          "tr": "mela",
+          "en": "fair"
+        }
+      ],
+      "recycle": true
     }
   ]
 }

@@ -387,6 +387,113 @@
           "করছে"
         ]
       ]
+    },
+    {
+      "id": "r01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "সাধারণত",
+        "tr": "shadharonoto",
+        "en": "usually"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "সাধারণত",
+        "সপ্তাহে",
+        "একটু",
+        "খুব"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "শুনি",
+        "tr": "shuni",
+        "en": "I listen"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "I come",
+        "(you, polite) have come",
+        "I am eating",
+        "I listen"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "listen_select",
+      "audio": {
+        "bn": "লিখি",
+        "tr": "likhi",
+        "en": "I write"
+      },
+      "options": [
+        "লিখি",
+        "এসেছেন",
+        "খাও",
+        "করছি"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "গান",
+          "tr": "gan",
+          "en": "song"
+        },
+        {
+          "bn": "দশটায়",
+          "tr": "doshtay",
+          "en": "at ten o'clock"
+        },
+        {
+          "bn": "শোনে",
+          "tr": "shone",
+          "en": "listens"
+        },
+        {
+          "bn": "লেখে",
+          "tr": "lekhe",
+          "en": "writes"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "আটটায়",
+          "tr": "attay",
+          "en": "at eight o'clock"
+        },
+        {
+          "bn": "ঘুমান",
+          "tr": "ghuman",
+          "en": "you sleep (polite)"
+        },
+        {
+          "bn": "করিস",
+          "tr": "korish",
+          "en": "you do (intimate)"
+        },
+        {
+          "bn": "সাতটায়",
+          "tr": "shattay",
+          "en": "at seven o'clock"
+        }
+      ],
+      "recycle": true
     }
   ]
 }

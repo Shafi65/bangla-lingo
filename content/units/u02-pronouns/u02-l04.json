@@ -334,6 +334,113 @@
         "Are you a teacher?",
         "Are you the teacher?"
       ]
+    },
+    {
+      "id": "r01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "তোরা",
+        "tr": "tora",
+        "en": "you (intimate, plural)"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "তোমার",
+        "আমার",
+        "আমরা",
+        "তোরা"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আছিস",
+        "tr": "achhish",
+        "en": "are (intimate)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "am",
+        "is not (here); there isn't",
+        "is (he/she/it)",
+        "are (intimate)"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "listen_select",
+      "audio": {
+        "bn": "তুই",
+        "tr": "tui",
+        "en": "you (intimate)"
+      },
+      "options": [
+        "তুই",
+        "আপনি",
+        "এটা",
+        "তিনি"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "আছে",
+          "tr": "achhe",
+          "en": "is (he/she/it)"
+        },
+        {
+          "bn": "নেই",
+          "tr": "nei",
+          "en": "is not (here); there isn't"
+        },
+        {
+          "bn": "সে",
+          "tr": "she",
+          "en": "he/she"
+        },
+        {
+          "bn": "ওরা",
+          "tr": "ora",
+          "en": "they (spoken)"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "তোমার",
+          "tr": "tomar",
+          "en": "your (familiar)"
+        },
+        {
+          "bn": "খুব",
+          "tr": "khub",
+          "en": "very"
+        },
+        {
+          "bn": "জি",
+          "tr": "ji",
+          "en": "yes (polite)"
+        },
+        {
+          "bn": "তুমি",
+          "tr": "tumi",
+          "en": "you (familiar)"
+        }
+      ],
+      "recycle": true
     }
   ]
 }

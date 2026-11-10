@@ -370,6 +370,113 @@
         "Where is your flat?",
         "Where do you stay?"
       ]
+    },
+    {
+      "id": "r01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "বছর",
+        "tr": "bochhor",
+        "en": "year"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "দোকানটা",
+        "বছর",
+        "পছন্দ",
+        "বৃহস্পতিবার"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "প্রথম",
+        "tr": "prothom",
+        "en": "first"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "expensive",
+        "sweet",
+        "first",
+        "good, well"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "listen_select",
+      "audio": {
+        "bn": "মিনিট",
+        "tr": "minit",
+        "en": "minute"
+      },
+      "options": [
+        "মিনিট",
+        "বছর",
+        "বাচ্চা",
+        "নানি"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "আশি",
+          "tr": "ashi",
+          "en": "eighty"
+        },
+        {
+          "bn": "তিনি",
+          "tr": "tini",
+          "en": "he/she (polite)"
+        },
+        {
+          "bn": "বিকাল",
+          "tr": "bikal",
+          "en": "afternoon"
+        },
+        {
+          "bn": "ওর",
+          "tr": "or",
+          "en": "his/her (spoken)"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "জানি",
+          "tr": "jani",
+          "en": "(I) know"
+        },
+        {
+          "bn": "নব্বই",
+          "tr": "nobboi",
+          "en": "ninety"
+        },
+        {
+          "bn": "এগারো",
+          "tr": "egaro",
+          "en": "eleven"
+        },
+        {
+          "bn": "তার",
+          "tr": "tar",
+          "en": "his/her"
+        }
+      ],
+      "recycle": true
     }
   ]
 }

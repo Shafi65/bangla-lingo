@@ -496,6 +496,113 @@
         "Potato is 50 Tk a kilogram",
         "Potato is 50 Tk per kilogram"
       ]
+    },
+    {
+      "id": "r01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ওইটা",
+        "tr": "oita",
+        "en": "that one"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "he/she (polite)",
+        "his/her (polite)",
+        "that one",
+        "you (intimate)"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "listen_select",
+      "audio": {
+        "bn": "ওগুলো",
+        "tr": "ogulo",
+        "en": "those"
+      },
+      "options": [
+        "ওগুলো",
+        "তারা",
+        "তোমার",
+        "আপনি"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "এইটা",
+        "tr": "eita",
+        "en": "this one"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "ওরা",
+        "এইটা",
+        "উনি",
+        "তোমাদের"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "দোকানটা",
+          "tr": "dokanta",
+          "en": "the shop"
+        },
+        {
+          "bn": "এই",
+          "tr": "ei",
+          "en": "this"
+        },
+        {
+          "bn": "এগুলো",
+          "tr": "egulo",
+          "en": "these"
+        },
+        {
+          "bn": "ওই",
+          "tr": "oi",
+          "en": "that"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "দাম",
+          "tr": "dam",
+          "en": "price"
+        },
+        {
+          "bn": "অন্য",
+          "tr": "onno",
+          "en": "other"
+        },
+        {
+          "bn": "ইলিশের",
+          "tr": "ilisher",
+          "en": "of the hilsa"
+        },
+        {
+          "bn": "মাছটা",
+          "tr": "machhta",
+          "en": "the fish"
+        }
+      ],
+      "recycle": true
     }
   ]
 }

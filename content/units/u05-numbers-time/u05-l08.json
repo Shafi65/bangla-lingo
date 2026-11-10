@@ -361,6 +361,113 @@
         "aaj sukrobar",
         "aj shukro bar"
       ]
+    },
+    {
+      "id": "r01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "বিকালে",
+        "tr": "bikale",
+        "en": "in the afternoon"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "সকালে",
+        "বিকালে",
+        "দুপুরে",
+        "সন্ধ্যায়"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "দুপুরে",
+        "tr": "dupure",
+        "en": "at noon"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "in the afternoon",
+        "at noon",
+        "today",
+        "in the morning"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "listen_select",
+      "audio": {
+        "bn": "সন্ধ্যায়",
+        "tr": "shondhay",
+        "en": "in the evening"
+      },
+      "options": [
+        "সকালে",
+        "কোথা",
+        "সন্ধ্যায়",
+        "খুব"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "ষাট",
+          "tr": "shat",
+          "en": "sixty"
+        },
+        {
+          "bn": "দুপুর",
+          "tr": "dupur",
+          "en": "noon"
+        },
+        {
+          "bn": "সন্ধ্যা",
+          "tr": "shondha",
+          "en": "evening"
+        },
+        {
+          "bn": "বিকাল",
+          "tr": "bikal",
+          "en": "afternoon"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "হাজার",
+          "tr": "hajar",
+          "en": "thousand"
+        },
+        {
+          "bn": "একশ",
+          "tr": "eksho",
+          "en": "one hundred"
+        },
+        {
+          "bn": "পঞ্চাশ",
+          "tr": "ponchash",
+          "en": "fifty"
+        },
+        {
+          "bn": "সকাল",
+          "tr": "shokal",
+          "en": "morning"
+        }
+      ],
+      "recycle": true
     }
   ]
 }

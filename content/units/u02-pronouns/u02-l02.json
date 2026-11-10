@@ -364,6 +364,113 @@
         "How're you all?",
         "How're you guys?"
       ]
+    },
+    {
+      "id": "r01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "তিনি",
+        "tr": "tini",
+        "en": "he/she (polite)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "he/she (polite)",
+        "you (familiar, plural)",
+        "your (familiar)",
+        "you (polite)"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "listen_select",
+      "audio": {
+        "bn": "সে",
+        "tr": "she",
+        "en": "he/she"
+      },
+      "options": [
+        "ও",
+        "সে",
+        "আপনারা",
+        "কী"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "উনি",
+        "tr": "uni",
+        "en": "he/she (polite, spoken)"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "আপনি",
+        "উনি",
+        "আপনার",
+        "তারা"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "ছাত্রী",
+          "tr": "chhatri",
+          "en": "student (female)"
+        },
+        {
+          "bn": "জি",
+          "tr": "ji",
+          "en": "yes (polite)"
+        },
+        {
+          "bn": "তুমি",
+          "tr": "tumi",
+          "en": "you (familiar)"
+        },
+        {
+          "bn": "ডাক্তার",
+          "tr": "daktar",
+          "en": "doctor"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "নাম",
+          "tr": "nam",
+          "en": "name"
+        },
+        {
+          "bn": "হ্যাঁ",
+          "tr": "hya~",
+          "en": "yes"
+        },
+        {
+          "bn": "আমি",
+          "tr": "ami",
+          "en": "I"
+        },
+        {
+          "bn": "শিক্ষক",
+          "tr": "shikkhok",
+          "en": "teacher"
+        }
+      ],
+      "recycle": true
     }
   ]
 }

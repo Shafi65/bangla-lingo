@@ -348,6 +348,113 @@
         "amar mayer boyosh shat bochhor"
       ],
       "why": "Mother's age: **মায়ের বয়স** (মা + -য়ের 'mother's')."
+    },
+    {
+      "id": "r01",
+      "type": "listen_select",
+      "audio": {
+        "bn": "সপ্তাহে",
+        "tr": "shoptahe",
+        "en": "in a week"
+      },
+      "options": [
+        "সপ্তাহে",
+        "কাল",
+        "কোথায়",
+        "অবশ্যই"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "বছরে",
+        "tr": "bochhore",
+        "en": "in a year"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "কোথায়",
+        "অবশ্যই",
+        "বছরে",
+        "কয়টা"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "কাল",
+        "tr": "kal",
+        "en": "tomorrow; yesterday"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "in a year",
+        "at noon",
+        "of course",
+        "tomorrow; yesterday"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "বছর",
+          "tr": "bochhor",
+          "en": "year"
+        },
+        {
+          "bn": "দিন",
+          "tr": "din",
+          "en": "day"
+        },
+        {
+          "bn": "মাস",
+          "tr": "mash",
+          "en": "month"
+        },
+        {
+          "bn": "বাজে",
+          "tr": "baje",
+          "en": "strikes (the hour)"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "আড়াইটা",
+          "tr": "araita",
+          "en": "half past two"
+        },
+        {
+          "bn": "আড়াই",
+          "tr": "arai",
+          "en": "two and a half"
+        },
+        {
+          "bn": "সাড়ে",
+          "tr": "share",
+          "en": "half past"
+        },
+        {
+          "bn": "প্রথম",
+          "tr": "prothom",
+          "en": "first"
+        }
+      ],
+      "recycle": true
     }
   ]
 }

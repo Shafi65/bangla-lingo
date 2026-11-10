@@ -480,6 +480,113 @@
           "করি"
         ]
       ]
+    },
+    {
+      "id": "r01",
+      "type": "listen_select",
+      "audio": {
+        "bn": "সবসময়",
+        "tr": "shobshomoy",
+        "en": "always"
+      },
+      "options": [
+        "সবচেয়ে",
+        "কোথায়",
+        "দূরে",
+        "সবসময়"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "প্রতিদিন",
+        "tr": "protidin",
+        "en": "every day"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "প্রতিদিন",
+        "এখানে",
+        "বছরে",
+        "কত"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "পড়েন",
+        "tr": "poren",
+        "en": "you read (polite)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "I am reading",
+        "does",
+        "you read (polite)",
+        "you do (familiar)"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "বলি",
+          "tr": "boli",
+          "en": "I speak"
+        },
+        {
+          "bn": "দাঁত",
+          "tr": "da~t",
+          "en": "teeth"
+        },
+        {
+          "bn": "কখনো",
+          "tr": "kokhono",
+          "en": "ever"
+        },
+        {
+          "bn": "মাজি",
+          "tr": "maji",
+          "en": "I brush"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "যাও",
+          "tr": "jao",
+          "en": "you go (familiar)"
+        },
+        {
+          "bn": "দেখে",
+          "tr": "dekhe",
+          "en": "watches"
+        },
+        {
+          "bn": "আসে",
+          "tr": "ashe",
+          "en": "comes"
+        },
+        {
+          "bn": "বলেন",
+          "tr": "bolen",
+          "en": "you speak (polite)"
+        }
+      ],
+      "recycle": true
     }
   ]
 }

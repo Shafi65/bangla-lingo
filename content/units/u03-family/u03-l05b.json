@@ -364,6 +364,113 @@
         "One friend of mine is a doctor.",
         "I have a friend who is a doctor."
       ]
+    },
+    {
+      "id": "r01",
+      "type": "listen_select",
+      "audio": {
+        "bn": "তোমাদের",
+        "tr": "tomader",
+        "en": "your (familiar, plural)"
+      },
+      "options": [
+        "এটা",
+        "তার",
+        "তোমাদের",
+        "তারা"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আমাদের",
+        "tr": "amader",
+        "en": "our"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "তারা",
+        "আমার",
+        "কী",
+        "আমাদের"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "স্বামী",
+        "tr": "shami",
+        "en": "husband"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "elder sister",
+        "husband",
+        "aunt (mama's wife)",
+        "country"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "ওনার",
+          "tr": "onar",
+          "en": "his/her (polite)"
+        },
+        {
+          "bn": "স্ত্রী",
+          "tr": "stri",
+          "en": "wife"
+        },
+        {
+          "bn": "আপু",
+          "tr": "apu",
+          "en": "elder sister"
+        },
+        {
+          "bn": "হ্যাঁ",
+          "tr": "hya~",
+          "en": "yes"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "চাচি",
+          "tr": "chachi",
+          "en": "aunt (chacha's wife)"
+        },
+        {
+          "bn": "তার",
+          "tr": "tar",
+          "en": "his/her"
+        },
+        {
+          "bn": "বউ",
+          "tr": "bou",
+          "en": "wife"
+        },
+        {
+          "bn": "না",
+          "tr": "na",
+          "en": "no"
+        }
+      ],
+      "recycle": true
     }
   ]
 }

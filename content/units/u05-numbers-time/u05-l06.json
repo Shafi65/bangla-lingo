@@ -362,6 +362,113 @@
         "araita baje",
         "akhon araita baje"
       ]
+    },
+    {
+      "id": "r01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "তিনটা",
+        "tr": "tinta",
+        "en": "three (o'clock)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "fifty",
+        "half past one",
+        "thirteen",
+        "three (o'clock)"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "listen_select",
+      "audio": {
+        "bn": "কয়টা",
+        "tr": "koyta",
+        "en": "what time; how many"
+      },
+      "options": [
+        "কোথা",
+        "কেমন",
+        "কয়টা",
+        "অবশ্যই"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "মিনিট",
+        "tr": "minit",
+        "en": "minute"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "ছাত্রী",
+        "মানে",
+        "মিনিট",
+        "নাম"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "কিছু",
+          "tr": "kichhu",
+          "en": "something"
+        },
+        {
+          "bn": "চান",
+          "tr": "chan",
+          "en": "(you/he/she, polite) want"
+        },
+        {
+          "bn": "খেতে",
+          "tr": "khete",
+          "en": "to eat"
+        },
+        {
+          "bn": "লেগেছে",
+          "tr": "legechhe",
+          "en": "has come on (felt)"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "চাও",
+          "tr": "chao",
+          "en": "(you, familiar) want"
+        },
+        {
+          "bn": "লাগে",
+          "tr": "lage",
+          "en": "feels"
+        },
+        {
+          "bn": "আমটা",
+          "tr": "amta",
+          "en": "the mango"
+        },
+        {
+          "bn": "অবশ্যই",
+          "tr": "oboshshoi",
+          "en": "of course"
+        }
+      ],
+      "recycle": true
     }
   ]
 }

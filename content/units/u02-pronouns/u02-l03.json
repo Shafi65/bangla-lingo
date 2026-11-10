@@ -333,6 +333,113 @@
         "Nadiya is there.",
         "Nadiya's there."
       ]
+    },
+    {
+      "id": "r01",
+      "type": "listen_select",
+      "audio": {
+        "bn": "আপনারা",
+        "tr": "apnara",
+        "en": "you (polite, plural)"
+      },
+      "options": [
+        "সে",
+        "আপনারা",
+        "ওরা",
+        "আমি"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "তোমরা",
+        "tr": "tomra",
+        "en": "you (familiar, plural)"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "আপনার",
+        "তোমরা",
+        "উনি",
+        "সে"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "তারা",
+        "tr": "tara",
+        "en": "they"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "they",
+        "he/she",
+        "your (polite)",
+        "you (intimate)"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "মানুষ",
+          "tr": "manush",
+          "en": "person"
+        },
+        {
+          "bn": "আমরা",
+          "tr": "amra",
+          "en": "we"
+        },
+        {
+          "bn": "ছেলে",
+          "tr": "chhele",
+          "en": "boy"
+        },
+        {
+          "bn": "মেয়ে",
+          "tr": "meye",
+          "en": "girl"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "আপনার",
+          "tr": "apnar",
+          "en": "your (polite)"
+        },
+        {
+          "bn": "ও",
+          "tr": "o",
+          "en": "he/she (spoken)"
+        },
+        {
+          "bn": "আর",
+          "tr": "ar",
+          "en": "and"
+        },
+        {
+          "bn": "বন্ধু",
+          "tr": "bondhu",
+          "en": "friend"
+        }
+      ],
+      "recycle": true
     }
   ]
 }

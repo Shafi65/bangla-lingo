@@ -295,6 +295,59 @@
         "aamar nam",
         "aamar naam"
       ]
+    },
+    {
+      "id": "r01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "তুমি",
+        "tr": "tumi",
+        "en": "you (familiar)"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "তুমি",
+        "কী",
+        "তোমার",
+        "আমার"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আপনি",
+        "tr": "apni",
+        "en": "you (polite)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "your (polite)",
+        "your (familiar)",
+        "you (polite)",
+        "what"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "listen_select",
+      "audio": {
+        "bn": "শিক্ষক",
+        "tr": "shikkhok",
+        "en": "teacher"
+      },
+      "options": [
+        "নাম",
+        "ছাত্র",
+        "ছাত্রী",
+        "শিক্ষক"
+      ],
+      "answer": 3,
+      "recycle": true
     }
   ]
 }

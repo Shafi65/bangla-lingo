@@ -395,6 +395,113 @@
         "amar pani lagbe"
       ],
       "why": "**দরকার** 'need' takes **আমার**, not আমি: আমার পানি দরকার."
+    },
+    {
+      "id": "r01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "সব",
+        "tr": "shob",
+        "en": "all"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "মিষ্টি",
+        "সব",
+        "বড়",
+        "ঝাল"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আসসালামু আলাইকুম",
+        "tr": "assalamu alaikum",
+        "en": "hello (peace be upon you)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "I don't understand",
+        "hello (peace be upon you)",
+        "thank you",
+        "goodbye"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "listen_select",
+      "audio": {
+        "bn": "তার",
+        "tr": "tar",
+        "en": "his/her"
+      },
+      "options": [
+        "তার",
+        "আপনারা",
+        "ওর",
+        "তোমার"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "তোর",
+          "tr": "tor",
+          "en": "your (intimate)"
+        },
+        {
+          "bn": "ওনার",
+          "tr": "onar",
+          "en": "his/her (polite)"
+        },
+        {
+          "bn": "নয়",
+          "tr": "noy",
+          "en": "is not"
+        },
+        {
+          "bn": "আছো",
+          "tr": "achho",
+          "en": "are (familiar)"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "উনি",
+          "tr": "uni",
+          "en": "he/she (polite, spoken)"
+        },
+        {
+          "bn": "নই",
+          "tr": "noi",
+          "en": "am not"
+        },
+        {
+          "bn": "তুই",
+          "tr": "tui",
+          "en": "you (intimate)"
+        },
+        {
+          "bn": "আছি",
+          "tr": "achhi",
+          "en": "am"
+        }
+      ],
+      "recycle": true
     }
   ]
 }

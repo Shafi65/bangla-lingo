@@ -381,6 +381,113 @@
         "amake chaa din",
         "amake chaa den"
       ]
+    },
+    {
+      "id": "r01",
+      "type": "listen_select",
+      "audio": {
+        "bn": "পাঁচশ",
+        "tr": "pa~chsho",
+        "en": "five hundred"
+      },
+      "options": [
+        "আড়াইটা",
+        "দেড়",
+        "পাঁচশ",
+        "ত্রিশ"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "দুইশ",
+        "tr": "duisho",
+        "en": "two hundred"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "দুইশ",
+        "একশ",
+        "সতেরো",
+        "ত্রিশ"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "শুধু",
+        "tr": "shudhu",
+        "en": "only"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "only",
+        "very",
+        "tomorrow; yesterday",
+        "today"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "আজ",
+          "tr": "aj",
+          "en": "today"
+        },
+        {
+          "bn": "রাতে",
+          "tr": "rate",
+          "en": "at night"
+        },
+        {
+          "bn": "টাকা",
+          "tr": "taka",
+          "en": "taka"
+        },
+        {
+          "bn": "পয়সা",
+          "tr": "poysha",
+          "en": "poisha"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "বিকালে",
+          "tr": "bikale",
+          "en": "in the afternoon"
+        },
+        {
+          "bn": "সন্ধ্যায়",
+          "tr": "shondhay",
+          "en": "in the evening"
+        },
+        {
+          "bn": "দেড়টা",
+          "tr": "derta",
+          "en": "half past one"
+        },
+        {
+          "bn": "সোয়া",
+          "tr": "shoya",
+          "en": "quarter past"
+        }
+      ],
+      "recycle": true
     }
   ]
 }

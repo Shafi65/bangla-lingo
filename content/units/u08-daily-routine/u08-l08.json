@@ -422,6 +422,113 @@
         "আমার একটা প্রশ্ন আছে।"
       ],
       "answer": 3
+    },
+    {
+      "id": "r01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "তাই",
+        "tr": "tai",
+        "en": "so"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "আচ্ছা",
+        "আর",
+        "না",
+        "তাই"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "কারণ",
+        "tr": "karon",
+        "en": "because"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "and",
+        "OK",
+        "then",
+        "because"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "listen_select",
+      "audio": {
+        "bn": "পরে",
+        "tr": "pore",
+        "en": "after"
+      },
+      "options": [
+        "পরে",
+        "নিচে",
+        "পিছনে",
+        "কাছে"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "ঘুমের",
+          "tr": "ghumer",
+          "en": "of sleep"
+        },
+        {
+          "bn": "আগে",
+          "tr": "age",
+          "en": "before"
+        },
+        {
+          "bn": "ফোন",
+          "tr": "fon",
+          "en": "phone"
+        },
+        {
+          "bn": "তারপর",
+          "tr": "tarpor",
+          "en": "then"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "লেখে",
+          "tr": "lekhe",
+          "en": "writes"
+        },
+        {
+          "bn": "কাজের",
+          "tr": "kajer",
+          "en": "of work"
+        },
+        {
+          "bn": "নাস্তার",
+          "tr": "nashtar",
+          "en": "of breakfast"
+        },
+        {
+          "bn": "শুনি",
+          "tr": "shuni",
+          "en": "I listen"
+        }
+      ],
+      "recycle": true
     }
   ]
 }

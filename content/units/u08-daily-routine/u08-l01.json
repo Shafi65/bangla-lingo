@@ -364,6 +364,113 @@
         "কাজ",
         "করে"
       ]
+    },
+    {
+      "id": "r01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "টমেটো",
+        "tr": "tometo",
+        "en": "tomato"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "tomato",
+        "teacher",
+        "English (language)",
+        "brother"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "listen_select",
+      "audio": {
+        "bn": "জামাটা",
+        "tr": "jamata",
+        "en": "the shirt"
+      },
+      "options": [
+        "জামাটা",
+        "বাজার",
+        "লবণ",
+        "ভাংতি"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "শাড়িটা",
+        "tr": "sharita",
+        "en": "the sari"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "ভাড়া",
+        "চিনি",
+        "জামা",
+        "শাড়িটা"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "জামা",
+          "tr": "jama",
+          "en": "shirt"
+        },
+        {
+          "bn": "শেষ",
+          "tr": "shesh",
+          "en": "last"
+        },
+        {
+          "bn": "মাছটা",
+          "tr": "machhta",
+          "en": "the fish"
+        },
+        {
+          "bn": "কোনো",
+          "tr": "kono",
+          "en": "any"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "ছয়",
+          "tr": "chhoy",
+          "en": "six"
+        },
+        {
+          "bn": "ওনার",
+          "tr": "onar",
+          "en": "his/her (polite)"
+        },
+        {
+          "bn": "এসেছেন",
+          "tr": "eshechhen",
+          "en": "(you, polite) have come"
+        },
+        {
+          "bn": "তিন",
+          "tr": "tin",
+          "en": "three"
+        }
+      ],
+      "recycle": true
     }
   ]
 }

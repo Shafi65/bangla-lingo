@@ -395,6 +395,113 @@
         "গান",
         "শুনি"
       ]
+    },
+    {
+      "id": "r01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "সবাইকে",
+        "tr": "shobaike",
+        "en": "everyone"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "তাকে",
+        "সবাইকে",
+        "আপনি",
+        "তোরা"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "জন্য",
+        "tr": "jonno",
+        "en": "for"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "along",
+        "for",
+        "way",
+        "near"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "listen_select",
+      "audio": {
+        "bn": "পান্তা ভাত",
+        "tr": "panta bhat",
+        "en": "panta bhat"
+      },
+      "options": [
+        "খোদা হাফেজ",
+        "ঈদ মোবারক",
+        "পান্তা ভাত",
+        "ওয়ালাইকুম আসসালাম"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "উপহার",
+          "tr": "upohar",
+          "en": "gift"
+        },
+        {
+          "bn": "লোক",
+          "tr": "lok",
+          "en": "people"
+        },
+        {
+          "bn": "জন্মদিন",
+          "tr": "jonmodin",
+          "en": "birthday"
+        },
+        {
+          "bn": "শুভেচ্ছা",
+          "tr": "shubhechchha",
+          "en": "greetings"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "প্রতিমা",
+          "tr": "protima",
+          "en": "image (idol)"
+        },
+        {
+          "bn": "সালামি",
+          "tr": "shalami",
+          "en": "Eid money"
+        },
+        {
+          "bn": "সেহরি",
+          "tr": "sehri",
+          "en": "sehri"
+        },
+        {
+          "bn": "পূজা",
+          "tr": "puja",
+          "en": "puja"
+        }
+      ],
+      "recycle": true
     }
   ]
 }

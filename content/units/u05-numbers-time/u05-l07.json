@@ -393,6 +393,113 @@
         "এখন রাত দশটা।"
       ],
       "answer": 0
+    },
+    {
+      "id": "r01",
+      "type": "listen_select",
+      "audio": {
+        "bn": "দেড়",
+        "tr": "der",
+        "en": "one and a half"
+      },
+      "options": [
+        "ত্রিশ",
+        "দেড়",
+        "তিন",
+        "বারোটা"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আড়াই",
+        "tr": "arai",
+        "en": "two and a half"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "আড়াই",
+        "দুইজন",
+        "পাঁচ",
+        "সতেরো"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "সাড়ে",
+        "tr": "share",
+        "en": "half past"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "half past",
+        "ten",
+        "two and a half",
+        "quarter past"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "একটি",
+          "tr": "ekti",
+          "en": "one; a (formal)"
+        },
+        {
+          "bn": "দেড়টা",
+          "tr": "derta",
+          "en": "half past one"
+        },
+        {
+          "bn": "আড়াইটা",
+          "tr": "araita",
+          "en": "half past two"
+        },
+        {
+          "bn": "পৌনে",
+          "tr": "poune",
+          "en": "quarter to"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "ক্ষুধা",
+          "tr": "khudha",
+          "en": "hunger"
+        },
+        {
+          "bn": "ঝাল",
+          "tr": "jhal",
+          "en": "spicy"
+        },
+        {
+          "bn": "মিষ্টি",
+          "tr": "mishti",
+          "en": "sweet"
+        },
+        {
+          "bn": "দরকার",
+          "tr": "dorkar",
+          "en": "need"
+        }
+      ],
+      "recycle": true
     }
   ]
 }

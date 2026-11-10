@@ -363,6 +363,113 @@
         "amar teen bon achhe",
         "amar teen bon ache"
       ]
+    },
+    {
+      "id": "r01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "একটি",
+        "tr": "ekti",
+        "en": "one; a (formal)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "one; a (formal)",
+        "eight",
+        "seven",
+        "five"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "listen_select",
+      "audio": {
+        "bn": "কলা",
+        "tr": "kola",
+        "en": "banana"
+      },
+      "options": [
+        "নানি",
+        "কলা",
+        "পানি",
+        "মুরগি"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "তারা",
+        "tr": "tara",
+        "en": "they"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "তোমরা",
+        "আপনি",
+        "তারা",
+        "সবাই"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "থেকে",
+          "tr": "theke",
+          "en": "from"
+        },
+        {
+          "bn": "আমাদের",
+          "tr": "amader",
+          "en": "our"
+        },
+        {
+          "bn": "হ্যাঁ",
+          "tr": "hya~",
+          "en": "yes"
+        },
+        {
+          "bn": "আছিস",
+          "tr": "achhish",
+          "en": "are (intimate)"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "এসেছেন",
+          "tr": "eshechhen",
+          "en": "(you, polite) have come"
+        },
+        {
+          "bn": "তোমরা",
+          "tr": "tomra",
+          "en": "you (familiar, plural)"
+        },
+        {
+          "bn": "আছেন",
+          "tr": "achhen",
+          "en": "are (polite)"
+        },
+        {
+          "bn": "কেমন",
+          "tr": "kemon",
+          "en": "how"
+        }
+      ],
+      "recycle": true
     }
   ]
 }

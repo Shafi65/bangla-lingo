@@ -383,6 +383,113 @@
         "আমি ইফতার করলাম।"
       ],
       "answer": 1
+    },
+    {
+      "id": "r01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ঈদের",
+        "tr": "ider",
+        "en": "of Eid"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "রোজা",
+        "আংকেল",
+        "ঈদের",
+        "বই"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ঈদে",
+        "tr": "ide",
+        "en": "at Eid"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "to school",
+        "wife",
+        "at Eid",
+        "vegetables"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "listen_select",
+      "audio": {
+        "bn": "সালামি",
+        "tr": "shalami",
+        "en": "Eid money"
+      },
+      "options": [
+        "রবিবার",
+        "হোটেল",
+        "সালামি",
+        "মানুষ"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "ছুটি",
+          "tr": "chhuti",
+          "en": "holiday"
+        },
+        {
+          "bn": "পড়ে",
+          "tr": "pore",
+          "en": "reads"
+        },
+        {
+          "bn": "ভুল",
+          "tr": "bhul",
+          "en": "wrong"
+        },
+        {
+          "bn": "নতুন",
+          "tr": "notun",
+          "en": "new"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "আচ্ছা",
+          "tr": "achchha",
+          "en": "OK"
+        },
+        {
+          "bn": "তোমাদের",
+          "tr": "tomader",
+          "en": "your (familiar, plural)"
+        },
+        {
+          "bn": "আশি",
+          "tr": "ashi",
+          "en": "eighty"
+        },
+        {
+          "bn": "তেরো",
+          "tr": "tero",
+          "en": "thirteen"
+        }
+      ],
+      "recycle": true
     }
   ]
 }

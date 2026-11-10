@@ -418,6 +418,113 @@
         "ami raate bashay elam",
         "ami rate bashai elam"
       ]
+    },
+    {
+      "id": "r01",
+      "type": "listen_select",
+      "audio": {
+        "bn": "কিনলেন",
+        "tr": "kinlen",
+        "en": "you bought (polite)"
+      },
+      "options": [
+        "এসেছেন",
+        "কিনল",
+        "কিনলেন",
+        "করলেন"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "করলে",
+        "tr": "korle",
+        "en": "you did (familiar)"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "ছাড়বে",
+        "করেন",
+        "মাজি",
+        "করলে"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "করল",
+        "tr": "korlo",
+        "en": "did"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "I saw",
+        "did",
+        "I am going",
+        "you are doing (polite)"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "ভুল",
+          "tr": "bhul",
+          "en": "wrong"
+        },
+        {
+          "bn": "কিনল",
+          "tr": "kinlo",
+          "en": "bought"
+        },
+        {
+          "bn": "ট্রেনে",
+          "tr": "trene",
+          "en": "by train"
+        },
+        {
+          "bn": "করলেন",
+          "tr": "korlen",
+          "en": "you did (polite)"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "কেন",
+          "tr": "keno",
+          "en": "why"
+        },
+        {
+          "bn": "কাছে",
+          "tr": "kachhe",
+          "en": "near"
+        },
+        {
+          "bn": "তোরা",
+          "tr": "tora",
+          "en": "you (intimate, plural)"
+        },
+        {
+          "bn": "করলি",
+          "tr": "korli",
+          "en": "you did (intimate)"
+        }
+      ],
+      "recycle": true
     }
   ]
 }

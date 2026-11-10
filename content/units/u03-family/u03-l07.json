@@ -371,6 +371,113 @@
         "phupa ekhane nei"
       ],
       "why": "Your father's sister is ফুফু, so her husband is **ফুফা**; absence is **নেই**."
+    },
+    {
+      "id": "r01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "জানি",
+        "tr": "jani",
+        "en": "(I) know"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "(you, polite) have come",
+        "are (polite)",
+        "(I) know",
+        "is not / are not (polite)"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "listen_select",
+      "audio": {
+        "bn": "জানেন",
+        "tr": "janen",
+        "en": "(you, polite) know"
+      },
+      "options": [
+        "নেই",
+        "আছি",
+        "এসেছেন",
+        "জানেন"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আচ্ছা",
+        "tr": "achchha",
+        "en": "OK"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "কিন্তু",
+        "কি",
+        "আর",
+        "আচ্ছা"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "আন্টি",
+          "tr": "anti",
+          "en": "auntie (address)"
+        },
+        {
+          "bn": "মানে",
+          "tr": "mane",
+          "en": "meaning"
+        },
+        {
+          "bn": "আংকেল",
+          "tr": "angkel",
+          "en": "uncle (address)"
+        },
+        {
+          "bn": "এসেছি",
+          "tr": "eshechhi",
+          "en": "(I) have come"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "আপা",
+          "tr": "apa",
+          "en": "elder sister; ma'am"
+        },
+        {
+          "bn": "কে",
+          "tr": "ke",
+          "en": "who"
+        },
+        {
+          "bn": "বাংলাদেশি",
+          "tr": "bangladeshi",
+          "en": "Bangladeshi"
+        },
+        {
+          "bn": "আমাদের",
+          "tr": "amader",
+          "en": "our"
+        }
+      ],
+      "recycle": true
     }
   ]
 }

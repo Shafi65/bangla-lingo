@@ -371,6 +371,113 @@
         "ami statione jabo",
         "steshone jabo"
       ]
+    },
+    {
+      "id": "r01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "থাকি",
+        "tr": "thaki",
+        "en": "I live"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "আছিস",
+        "দিন",
+        "থাকি",
+        "লেগেছে"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "তাহলে",
+        "tr": "tahole",
+        "en": "then"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "then",
+        "yes",
+        "no",
+        "but"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "listen_select",
+      "audio": {
+        "bn": "গ্রামে",
+        "tr": "grame",
+        "en": "in the village"
+      },
+      "options": [
+        "মসজিদের",
+        "মেয়ে",
+        "মোড়",
+        "গ্রামে"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "শহরে",
+          "tr": "shohore",
+          "en": "in the city"
+        },
+        {
+          "bn": "স্টেশনের",
+          "tr": "steshoner",
+          "en": "of the station"
+        },
+        {
+          "bn": "শহর",
+          "tr": "shohor",
+          "en": "city"
+        },
+        {
+          "bn": "গ্রাম",
+          "tr": "gram",
+          "en": "village"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "হোটেলের",
+          "tr": "hoteler",
+          "en": "of the hotel"
+        },
+        {
+          "bn": "এত",
+          "tr": "eto",
+          "en": "so"
+        },
+        {
+          "bn": "কিনব",
+          "tr": "kinbo",
+          "en": "I will buy"
+        },
+        {
+          "bn": "বাড়ির",
+          "tr": "barir",
+          "en": "of the house"
+        }
+      ],
+      "recycle": true
     }
   ]
 }

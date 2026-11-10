@@ -348,6 +348,113 @@
         "She is my mum.",
         "She's my mum."
       ]
+    },
+    {
+      "id": "r01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "এসেছেন",
+        "tr": "eshechhen",
+        "en": "(you, polite) have come"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "আছো",
+        "নও",
+        "নই",
+        "এসেছেন"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "এসেছি",
+        "tr": "eshechhi",
+        "en": "(I) have come"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "are not (familiar)",
+        "are (polite)",
+        "(I) have come",
+        "are (familiar)"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "listen_select",
+      "audio": {
+        "bn": "নমস্কার",
+        "tr": "nomoshkar",
+        "en": "hello (Hindu greeting)"
+      },
+      "options": [
+        "ধন্যবাদ",
+        "ওয়ালাইকুম আসসালাম",
+        "আলহামদুলিল্লাহ",
+        "নমস্কার"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "আছেন",
+          "tr": "achhen",
+          "en": "are (polite)"
+        },
+        {
+          "bn": "নই",
+          "tr": "noi",
+          "en": "am not"
+        },
+        {
+          "bn": "তারা",
+          "tr": "tara",
+          "en": "they"
+        },
+        {
+          "bn": "কি",
+          "tr": "ki",
+          "en": "(yes/no question marker)"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "তোমরা",
+          "tr": "tomra",
+          "en": "you (familiar, plural)"
+        },
+        {
+          "bn": "আছিস",
+          "tr": "achhish",
+          "en": "are (intimate)"
+        },
+        {
+          "bn": "এখানে",
+          "tr": "ekhane",
+          "en": "here"
+        },
+        {
+          "bn": "নন",
+          "tr": "non",
+          "en": "is not / are not (polite)"
+        }
+      ],
+      "recycle": true
     }
   ]
 }

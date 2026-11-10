@@ -376,6 +376,113 @@
         "koto taka",
         "kato taka"
       ]
+    },
+    {
+      "id": "r01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "এটার",
+        "tr": "etar",
+        "en": "of this"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "our",
+        "my",
+        "what",
+        "of this"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "listen_select",
+      "audio": {
+        "bn": "বাজার",
+        "tr": "bajar",
+        "en": "market"
+      },
+      "options": [
+        "ডিম",
+        "আন্টি",
+        "বাজার",
+        "পানি"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ইলিশের",
+        "tr": "ilisher",
+        "en": "of the hilsa"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "পছন্দ",
+        "শনিবার",
+        "বাজার",
+        "ইলিশের"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "পৌনে",
+          "tr": "poune",
+          "en": "quarter to"
+        },
+        {
+          "bn": "বাজারে",
+          "tr": "bajare",
+          "en": "at the market"
+        },
+        {
+          "bn": "দোকানদার",
+          "tr": "dokandar",
+          "en": "shopkeeper"
+        },
+        {
+          "bn": "দোকান",
+          "tr": "dokan",
+          "en": "shop"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "সকালে",
+          "tr": "shokale",
+          "en": "in the morning"
+        },
+        {
+          "bn": "দুপুরে",
+          "tr": "dupure",
+          "en": "at noon"
+        },
+        {
+          "bn": "কাল",
+          "tr": "kal",
+          "en": "tomorrow; yesterday"
+        },
+        {
+          "bn": "দেড়",
+          "tr": "der",
+          "en": "one and a half"
+        }
+      ],
+      "recycle": true
     }
   ]
 }

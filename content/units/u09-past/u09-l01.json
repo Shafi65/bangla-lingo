@@ -399,6 +399,113 @@
         "ami tibhi dekhlaam",
         "ami tivi dekhlaam"
       ]
+    },
+    {
+      "id": "r01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "শহর",
+        "tr": "shohor",
+        "en": "city"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "টাকা",
+        "হোটেলের",
+        "শহর",
+        "মামি"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "স্টেশনে",
+        "tr": "steshone",
+        "en": "to the station"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "to the station",
+        "elder sister; ma'am",
+        "lungi",
+        "temple"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "listen_select",
+      "audio": {
+        "bn": "ট্রেন",
+        "tr": "tren",
+        "en": "train"
+      },
+      "options": [
+        "মোড়ে",
+        "ট্রেন",
+        "মানে",
+        "গাড়ি"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "গ্রামে",
+          "tr": "grame",
+          "en": "in the village"
+        },
+        {
+          "bn": "গ্রাম",
+          "tr": "gram",
+          "en": "village"
+        },
+        {
+          "bn": "মন্দির",
+          "tr": "mondir",
+          "en": "temple"
+        },
+        {
+          "bn": "হাসপাতাল",
+          "tr": "hashpatal",
+          "en": "hospital"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "টিকিট",
+          "tr": "tikit",
+          "en": "ticket"
+        },
+        {
+          "bn": "মসজিদের",
+          "tr": "moshjider",
+          "en": "of the mosque"
+        },
+        {
+          "bn": "বাজারের",
+          "tr": "bajarer",
+          "en": "of the market"
+        },
+        {
+          "bn": "রিকশা",
+          "tr": "riksha",
+          "en": "rickshaw"
+        }
+      ],
+      "recycle": true
     }
   ]
 }

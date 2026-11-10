@@ -381,6 +381,113 @@
         ]
       ],
       "why": "Destinations take -এ: শহীদ মিনারে যাই, like অফিসে যাই."
+    },
+    {
+      "id": "r01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "হিন্দুদের",
+        "tr": "hinduder",
+        "en": "of the Hindus"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "বোন",
+        "হিন্দুদের",
+        "দুপুর",
+        "আপু"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "মন্দিরে",
+        "tr": "mondire",
+        "en": "to the temple"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "to the temple",
+        "TV",
+        "the shop",
+        "dates"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "listen_select",
+      "audio": {
+        "bn": "পূজায়",
+        "tr": "pujay",
+        "en": "at Puja"
+      },
+      "options": [
+        "আপু",
+        "পূজায়",
+        "হোটেলের",
+        "দিন"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "দুর্গাপূজা",
+          "tr": "durgapuja",
+          "en": "Durga Puja"
+        },
+        {
+          "bn": "পূজা",
+          "tr": "puja",
+          "en": "puja"
+        },
+        {
+          "bn": "প্রতিমা",
+          "tr": "protima",
+          "en": "image (idol)"
+        },
+        {
+          "bn": "বিজয়া",
+          "tr": "bijoya",
+          "en": "Bijoya"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "উৎসব",
+          "tr": "utshob",
+          "en": "festival"
+        },
+        {
+          "bn": "ঈদের",
+          "tr": "ider",
+          "en": "of Eid"
+        },
+        {
+          "bn": "সেমাই",
+          "tr": "shemai",
+          "en": "shemai"
+        },
+        {
+          "bn": "ঈদে",
+          "tr": "ide",
+          "en": "at Eid"
+        }
+      ],
+      "recycle": true
     }
   ]
 }

@@ -304,6 +304,59 @@
         "ami",
         "aami"
       ]
+    },
+    {
+      "id": "r01",
+      "type": "listen_select",
+      "audio": {
+        "bn": "জি",
+        "tr": "ji",
+        "en": "yes (polite)"
+      },
+      "options": [
+        "জি",
+        "না",
+        "হ্যাঁ",
+        "নমস্কার"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "না",
+        "tr": "na",
+        "en": "no"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "না",
+        "জি",
+        "হ্যাঁ",
+        "ধন্যবাদ"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "হ্যাঁ",
+        "tr": "hya~",
+        "en": "yes"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "yes",
+        "no",
+        "teacher",
+        "see you again"
+      ],
+      "answer": 0,
+      "recycle": true
     }
   ]
 }

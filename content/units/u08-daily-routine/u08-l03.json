@@ -419,6 +419,113 @@
           "যাও"
         ]
       ]
+    },
+    {
+      "id": "r01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "উঠি",
+        "tr": "uthi",
+        "en": "I get up"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "যাই",
+        "থাকি",
+        "দে",
+        "উঠি"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "দশটায়",
+        "tr": "doshtay",
+        "en": "at ten o'clock"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "there",
+        "when",
+        "in the morning",
+        "at ten o'clock"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "listen_select",
+      "audio": {
+        "bn": "সাতটায়",
+        "tr": "shattay",
+        "en": "at seven o'clock"
+      },
+      "options": [
+        "কখন",
+        "কয়জন",
+        "সাতটায়",
+        "সপ্তাহে"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "গোসল",
+          "tr": "gosol",
+          "en": "bath"
+        },
+        {
+          "bn": "খুচরা",
+          "tr": "khuchra",
+          "en": "change"
+        },
+        {
+          "bn": "ঘুমান",
+          "tr": "ghuman",
+          "en": "you sleep (polite)"
+        },
+        {
+          "bn": "ওঠেন",
+          "tr": "othen",
+          "en": "you get up (polite)"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "একশ",
+          "tr": "eksho",
+          "en": "one hundred"
+        },
+        {
+          "bn": "জিনিস",
+          "tr": "jinish",
+          "en": "thing"
+        },
+        {
+          "bn": "সাড়ে",
+          "tr": "share",
+          "en": "half past"
+        },
+        {
+          "bn": "ঘুমাই",
+          "tr": "ghumai",
+          "en": "I sleep"
+        }
+      ],
+      "recycle": true
     }
   ]
 }
