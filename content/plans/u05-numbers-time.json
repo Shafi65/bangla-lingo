@@ -103,19 +103,105 @@
     },
     {
       "id": "u05-l02",
-      "title": "11 to 20",
-      "goal": "Count 11–20, give your age, and read the digits ০–৯.",
+      "title": "11 to 15",
+      "goal": "Count from 11 to 15 and add small numbers.",
       "grammar": [
-        "11–20 are individually irregular",
-        "Bengali digits ০–৯",
-        "আমার বয়স … 'I am … (years old)'"
+        "11–15 are individually irregular",
+        "sums with no verb: দশ আর এক এগারো"
       ],
       "new": [
         "egaro",
         "baro",
         "tero",
         "choddo",
-        "ponero",
+        "ponero"
+      ],
+      "review": [
+        "dosh",
+        "ek",
+        "dui",
+        "tin",
+        "char",
+        "pach",
+        "shat-seven",
+        "chhoy",
+        "ar",
+        "ki-q",
+        "ekhane",
+        "manush",
+        "achhe"
+      ],
+      "tip": "**১১–১৫** each have their own shape, so learn them by ear:\n\n**এগারো** 11 · **বারো** 12 · **তেরো** 13 · **চৌদ্দ** 14 · **পনেরো** 15\n\nSome echo the small numbers: **তেরো** sounds like **তিন** (3), **চৌদ্দ** starts like **চার** (4), and **পনেরো** like **পাঁচ** (5). Don't confuse **বারো** (12) with **বাবা** (father)!\n\nSums need no word for 'is': **দশ আর এক এগারো** 'ten and one is eleven'.\n\nNext lesson: 16 to 20.",
+      "sentences": [
+        {
+          "bn": "দশ আর এক এগারো।",
+          "tr": "dosh ar ek egaro.",
+          "en": "Ten and one is eleven.",
+          "alt": [
+            "Ten plus one is eleven."
+          ]
+        },
+        {
+          "bn": "দশ আর দুই বারো।",
+          "tr": "dosh ar dui baro.",
+          "en": "Ten and two is twelve.",
+          "alt": [
+            "Ten plus two is twelve."
+          ]
+        },
+        {
+          "bn": "দশ আর তিন তেরো।",
+          "tr": "dosh ar tin tero.",
+          "en": "Ten and three is thirteen.",
+          "alt": [
+            "Ten plus three is thirteen."
+          ]
+        },
+        {
+          "bn": "দশ আর চার চৌদ্দ।",
+          "tr": "dosh ar char choddo.",
+          "en": "Ten and four is fourteen.",
+          "alt": [
+            "Ten plus four is fourteen."
+          ]
+        },
+        {
+          "bn": "দশ আর পাঁচ পনেরো।",
+          "tr": "dosh ar pa~ch ponero.",
+          "en": "Ten and five is fifteen.",
+          "alt": [
+            "Ten plus five is fifteen."
+          ]
+        },
+        {
+          "bn": "এগারো, বারো, তেরো, চৌদ্দ।",
+          "tr": "egaro, baro, tero, choddo.",
+          "en": "Eleven, twelve, thirteen, fourteen."
+        },
+        {
+          "bn": "সাত আর সাত কি চৌদ্দ?",
+          "tr": "shat ar shat ki choddo?",
+          "en": "Is seven and seven fourteen?",
+          "alt": [
+            "Are seven and seven fourteen?"
+          ]
+        },
+        {
+          "bn": "এখানে পনেরো মানুষ আছে।",
+          "tr": "ekhane ponero manush achhe.",
+          "en": "There are fifteen people here."
+        }
+      ]
+    },
+    {
+      "id": "u05-l02b",
+      "title": "16 to 20 & age",
+      "goal": "Count from 16 to 20 and say how old someone is.",
+      "grammar": [
+        "16–20 are individually irregular",
+        "আমার বয়স … 'I am … (years old)', no verb"
+      ],
+      "new": [
         "sholo",
         "shotero",
         "atharo",
@@ -125,17 +211,19 @@
       ],
       "review": [
         "amar",
-        "or",
         "tar",
+        "or",
         "tomar",
         "ki-q",
         "na",
+        "baro",
         "dosh",
-        "ar",
+        "chhoy",
+        "at",
         "ek",
-        "pach"
+        "ar"
       ],
-      "tip": "**১১–২০** each have their own shape — there is no simple 'teen' rule, so practise by ear:\n\n**এগারো, বারো, তেরো, চৌদ্দ, পনেরো, ষোলো, সতেরো, আঠারো, উনিশ, বিশ**\n\nSome hints still help: **তেরো** echoes **তিন**, **পনেরো** echoes **পাঁচ**, **আঠারো** echoes **আট**, and **উনিশ** literally means 'one short of twenty' (**বিশ**).\n\nAge: **আমার বয়স বিশ** — literally 'my age (is) twenty'. Ask with **তোমার বয়স কি সতেরো?** 'Are you seventeen?'. Asking someone's age is quite normal in Bangladesh, but with elders it's polite not to.\n\nYou'll see these numbers written in **Bengali digits** (১১, ১২ …) everywhere — that's the next lesson.",
+      "tip": "Five more: **ষোলো** 16 · **সতেরো** 17 · **আঠারো** 18 · **উনিশ** 19 · **বিশ** 20\n\nHints: **সতেরো** echoes **সাত** (7), **আঠারো** echoes **আট** (8), and **উনিশ** means 'one short of twenty' (**বিশ**).\n\n**Age** uses **বয়স** (*boyosh*) 'age' and no verb: **আমার বয়স বিশ** 'I am twenty' (literally 'my age twenty'). Ask: **তোমার বয়স কি সতেরো?** 'Are you seventeen?'\n\nAsking someone's age is quite normal in Bangladesh, but not with elders.",
       "sentences": [
         {
           "bn": "আমার বয়স বিশ।",
@@ -148,21 +236,21 @@
           ]
         },
         {
-          "bn": "ওর বয়স বারো।",
-          "tr": "or boyosh baro.",
-          "en": "He is twelve.",
-          "alt": [
-            "She is twelve.",
-            "He's twelve years old."
-          ]
-        },
-        {
           "bn": "তার বয়স ষোলো।",
           "tr": "tar boyosh sholo.",
           "en": "She is sixteen.",
           "alt": [
             "He is sixteen.",
             "She's sixteen years old."
+          ]
+        },
+        {
+          "bn": "ওর বয়স বারো।",
+          "tr": "or boyosh baro.",
+          "en": "He is twelve.",
+          "alt": [
+            "She is twelve.",
+            "He's twelve years old."
           ]
         },
         {
@@ -179,22 +267,6 @@
           ]
         },
         {
-          "bn": "দশ আর এক এগারো।",
-          "tr": "dosh ar ek egaro.",
-          "en": "Ten and one is eleven.",
-          "alt": [
-            "Ten plus one is eleven."
-          ]
-        },
-        {
-          "bn": "দশ আর পাঁচ পনেরো।",
-          "tr": "dosh ar pa~ch ponero.",
-          "en": "Ten and five is fifteen.",
-          "alt": [
-            "Ten plus five is fifteen."
-          ]
-        },
-        {
           "bn": "উনিশ আর এক বিশ।",
           "tr": "unish ar ek bish.",
           "en": "Nineteen and one is twenty.",
@@ -203,9 +275,20 @@
           ]
         },
         {
-          "bn": "এগারো, বারো, তেরো, চৌদ্দ।",
-          "tr": "egaro, baro, tero, choddo.",
-          "en": "Eleven, twelve, thirteen, fourteen."
+          "bn": "দশ আর ছয় ষোলো।",
+          "tr": "dosh ar chhoy sholo.",
+          "en": "Ten and six is sixteen.",
+          "alt": [
+            "Ten plus six is sixteen."
+          ]
+        },
+        {
+          "bn": "দশ আর আট আঠারো।",
+          "tr": "dosh ar at atharo.",
+          "en": "Ten and eight is eighteen.",
+          "alt": [
+            "Ten plus eight is eighteen."
+          ]
         }
       ]
     },
@@ -682,18 +765,15 @@
     {
       "id": "u05-l08",
       "title": "Days of the week",
-      "goal": "Name the days, ask what day it is, and use আজ / কাল.",
+      "goal": "Name the days and ask what day it is today.",
       "grammar": [
         "day names = name + বার",
         "আজ কী বার? 'what day is it?'",
-        "কাল = yesterday OR tomorrow"
+        "কি (yes/no) vs কী (what)"
       ],
       "new": [
         "aj",
-        "kal",
         "bar",
-        "din-day",
-        "shoptahe",
         "robibar",
         "shombar",
         "monggolbar",
@@ -704,16 +784,17 @@
       ],
       "review": [
         "ki-what",
-        "na",
         "ki-q",
+        "na",
         "rate",
+        "shokale",
         "amra",
+        "ami",
         "biriyani",
-        "khai",
-        "ek",
-        "shat-seven"
+        "cha",
+        "khai"
       ],
-      "tip": "Every day ends in **-বার** (*-bar*, 'day of the week'), and like English the names come from the sun, moon and planets:\n\n**রবিবার** Sun-day · **সোমবার** Moon-day · **মঙ্গলবার** (Mars) · **বুধবার** (Mercury) · **বৃহস্পতিবার** (Jupiter) · **শুক্রবার** (Venus) · **শনিবার** (Saturn)\n\n**আজ কী বার?** = 'What day is it today?' **দিন** is 'day' in general: **সাত দিন** 'seven days'. **সপ্তাহে** means 'in a week': **এক সপ্তাহে সাত দিন**.\n\n**কাল** (*kal*) means **both 'yesterday' and 'tomorrow'**; a verb's tense tells you which. With no verb, as in **কাল শনিবার**, it means 'tomorrow'.\n\n*Culture:* the weekly holiday in Bangladesh is **শুক্রবার** (Friday), the day of Jumma prayers. Many offices close on **শনিবার** too, so the working week runs Sunday to Thursday.",
+      "tip": "Every day ends in **-বার** (*-bar*) 'day of the week', and the names come from the sun, moon and planets, as in English:\n\n**রবিবার** Sun · **সোমবার** Mon · **মঙ্গলবার** Tue · **বুধবার** Wed · **বৃহস্পতিবার** Thu · **শুক্রবার** Fri · **শনিবার** Sat\n\n**আজ** (*aj*) is 'today'. **আজ কী বার?** = 'What day is it today?' Answer with no verb: **আজ শুক্রবার।**\n\n*Culture:* the weekly holiday is **শুক্রবার**, the day of Jumma prayers. Many offices close on **শনিবার** too, so the working week runs Sunday to Thursday.",
       "sentences": [
         {
           "bn": "আজ কী বার?",
@@ -732,6 +813,83 @@
           ]
         },
         {
+          "bn": "আজ রবিবার না, আজ সোমবার।",
+          "tr": "aj robibar na, aj shombar.",
+          "en": "Today isn't Sunday, today is Monday.",
+          "alt": [
+            "Today is not Sunday, it's Monday."
+          ]
+        },
+        {
+          "bn": "আজ কি মঙ্গলবার?",
+          "tr": "aj ki monggolbar?",
+          "en": "Is today Tuesday?",
+          "alt": [
+            "Is it Tuesday today?"
+          ]
+        },
+        {
+          "bn": "না, আজ বুধবার।",
+          "tr": "na, aj budhbar.",
+          "en": "No, today is Wednesday.",
+          "alt": [
+            "No, it's Wednesday today."
+          ]
+        },
+        {
+          "bn": "বৃহস্পতিবার রাতে আমরা বিরিয়ানি খাই।",
+          "tr": "brihoshpotibar rate amra biriyani khai.",
+          "en": "We eat biryani on Thursday night.",
+          "alt": [
+            "On Thursday nights we eat biryani."
+          ]
+        },
+        {
+          "bn": "শনিবার সকালে আমি চা খাই।",
+          "tr": "shonibar shokale ami cha khai.",
+          "en": "I drink tea on Saturday morning.",
+          "alt": [
+            "On Saturday mornings I drink tea."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u05-l08b",
+      "title": "Tomorrow, weeks & years",
+      "goal": "Use 'tomorrow', talk about days, weeks, months and years.",
+      "grammar": [
+        "কাল = tomorrow OR yesterday",
+        "দিন (any day) vs বার (weekday)",
+        "-এ 'in' with time spans: সপ্তাহে, বছরে"
+      ],
+      "new": [
+        "kal",
+        "din-day",
+        "shoptahe",
+        "bochhor",
+        "bochhore",
+        "mash",
+        "prothom"
+      ],
+      "review": [
+        "aj",
+        "shukrobar",
+        "shonibar",
+        "monggolbar",
+        "budhbar",
+        "ek",
+        "shat-seven",
+        "baro",
+        "bish",
+        "boyosh",
+        "amar",
+        "shomoy",
+        "achhe"
+      ],
+      "tip": "**কাল** (*kal*) means **both 'tomorrow' and 'yesterday'**; the verb's tense tells you which. With no verb, as in **কাল শনিবার**, it means 'tomorrow'.\n\n**দিন** is any 'day' (**বার** is only for weekday names): **সাত দিন** 'seven days'.\n\nFor 'in' a span of time, add **-এ**: **সপ্তাহে** 'in a week', **বছরে** 'in a year': **এক বছরে বারো মাস**.\n\n**বছর** 'year' (**আমার বয়স বিশ বছর** 'I'm twenty years old'), **মাস** 'month', **প্রথম** 'first': **আজ আমার প্রথম দিন**.\n\nDon't mix up **মাস** (month), **মা** (mother) and **মাংস** (meat)!",
+      "sentences": [
+        {
           "bn": "কাল শনিবার।",
           "tr": "kal shonibar.",
           "en": "Tomorrow is Saturday.",
@@ -740,12 +898,9 @@
           ]
         },
         {
-          "bn": "আজ রবিবার না, আজ সোমবার।",
-          "tr": "aj robibar na, aj shombar.",
-          "en": "Today isn't Sunday, today is Monday.",
-          "alt": [
-            "Today is not Sunday, it's Monday."
-          ]
+          "bn": "আজ শুক্রবার, কাল শনিবার।",
+          "tr": "aj shukrobar, kal shonibar.",
+          "en": "Today is Friday, tomorrow is Saturday."
         },
         {
           "bn": "কাল কি মঙ্গলবার?",
@@ -758,77 +913,11 @@
           "en": "No, tomorrow is Wednesday."
         },
         {
-          "bn": "বৃহস্পতিবার রাতে আমরা বিরিয়ানি খাই।",
-          "tr": "brihoshpotibar rate amra biriyani khai.",
-          "en": "We eat biryani on Thursday night.",
-          "alt": [
-            "On Thursday nights we eat biryani."
-          ]
-        },
-        {
           "bn": "এক সপ্তাহে সাত দিন।",
           "tr": "ek shoptahe shat din.",
           "en": "There are seven days in a week.",
           "alt": [
             "A week has seven days."
-          ]
-        }
-      ]
-    },
-    {
-      "id": "u05-l09",
-      "title": "Review: numbers & time",
-      "goal": "Combine numbers, time and days; talk about years and months.",
-      "grammar": [
-        "review: numbers, কয়টা বাজে, সাড়ে / দেড় / আড়াই, parts of day, days",
-        "বছর / বছরে, মাস"
-      ],
-      "new": [
-        "bochhor",
-        "bochhore",
-        "mash",
-        "prothom"
-      ],
-      "review": [
-        "amar",
-        "boyosh",
-        "bish",
-        "ek",
-        "baro",
-        "ekhon",
-        "koyta",
-        "baje",
-        "share",
-        "pachta",
-        "aj",
-        "ki-what",
-        "bar",
-        "ami",
-        "rate",
-        "bhat",
-        "khai",
-        "dui",
-        "bhai",
-        "ar",
-        "tin",
-        "bon",
-        "achhe",
-        "shukrobar",
-        "dupure",
-        "amra",
-        "biriyani",
-        "shomoy",
-        "din-day"
-      ],
-      "tip": "Last new words: **বছর** (*bochhor*, year), **বছরে** (in a year), **মাস** (*mash*, month) and **প্রথম** (*prothom*, first). **আমার বয়স বিশ বছর** = 'I'm twenty years old' (বছর is optional). **আজ আমার প্রথম দিন** = 'Today is my first day'. Don't mix up **মাস** (month), **মা** (mother) and **মাংস** (meat)!\n\nQuick check:\n\n- **কয়টা বাজে?** — **সাড়ে পাঁচটা বাজে।**\n- 1:30 = **দেড়টা**, 2:30 = **আড়াইটা** (not সাড়ে দুইটা)\n- **আজ কী বার?** — **আজ শুক্রবার।**\n- **সকালে, দুপুরে, রাতে** = in the morning, at noon, at night\n- Digits: **১৫** = 15, **২০** = 20\n\nBangladesh uses three calendars side by side: the Gregorian calendar for work, the Bengali calendar (*Bongabdo*, about 593 years behind: 2026 ≈ 1433) for festivals like Pohela Boishakh, and the Islamic Hijri calendar for Ramadan and Eid.",
-      "sentences": [
-        {
-          "bn": "আমার বয়স বিশ বছর।",
-          "tr": "amar boyosh bish bochhor.",
-          "en": "I am twenty years old.",
-          "alt": [
-            "I'm twenty years old.",
-            "I'm twenty."
           ]
         },
         {
@@ -840,36 +929,234 @@
           ]
         },
         {
-          "bn": "এখন কয়টা বাজে?",
-          "tr": "ekhon koyta baje?",
-          "en": "What time is it now?"
+          "bn": "আমার বয়স বিশ বছর।",
+          "tr": "amar boyosh bish bochhor.",
+          "en": "I am twenty years old.",
+          "alt": [
+            "I'm twenty years old.",
+            "I'm twenty."
+          ]
+        },
+        {
+          "bn": "আজ আমার প্রথম দিন।",
+          "tr": "aj amar prothom din.",
+          "en": "Today is my first day."
+        },
+        {
+          "bn": "আমার এক মাস সময় আছে।",
+          "tr": "amar ek mash shomoy achhe.",
+          "en": "I have one month.",
+          "alt": [
+            "I have a month."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u05-l09",
+      "title": "Review: numbers",
+      "kind": "review",
+      "goal": "Recall every number from 1 to 1000 and use them for ages and counting.",
+      "grammar": [
+        "review: 1–20, tens, একশ, হাজার",
+        "number + -টা with nouns",
+        "age: X-এর বয়স …"
+      ],
+      "new": [],
+      "review": [
+        "dui",
+        "tin",
+        "char",
+        "pach",
+        "chhoy",
+        "shat-seven",
+        "at",
+        "noy-nine",
+        "dosh",
+        "duita",
+        "egaro",
+        "baro",
+        "tero",
+        "choddo",
+        "ponero",
+        "sholo",
+        "shotero",
+        "atharo",
+        "unish",
+        "bish",
+        "boyosh",
+        "trish",
+        "chollish",
+        "ponchash",
+        "shat-sixty",
+        "shottor",
+        "ashi-eighty",
+        "nobboi",
+        "eksho",
+        "hajar",
+        "babar",
+        "mayer",
+        "bhai",
+        "bon",
+        "dim",
+        "manush"
+      ],
+      "tip": "No new words: a check on all the numbers.\n\n- 1–10: **এক দুই তিন চার পাঁচ ছয় সাত আট নয় দশ**\n- 11–20 have their own shapes: **এগারো** … **বিশ**\n- Tens: **ত্রিশ, চল্লিশ, পঞ্চাশ, ষাট, সত্তর, আশি, নব্বই**, then **একশ** (100) and **হাজার** (1000)\n\nWatch the near-twins: **তেরো** 13 / **ত্রিশ** 30, **চৌদ্দ** 14 / **চল্লিশ** 40, **সাত** 7 / **ষাট** 60 / **সত্তর** 70.\n\nCounting things? Add **-টা**: **দুইটা ডিম**. Age has no verb: **আমার মায়ের বয়স ষাট**.",
+      "sentences": [
+        {
+          "bn": "আমার বাবার বয়স পঞ্চাশ।",
+          "tr": "amar babar boyosh ponchash.",
+          "en": "My father is fifty.",
+          "alt": [
+            "My father is fifty years old."
+          ]
+        },
+        {
+          "bn": "আশি আর বিশ একশ।",
+          "tr": "ashi ar bish eksho.",
+          "en": "Eighty and twenty is a hundred.",
+          "alt": [
+            "Eighty plus twenty is one hundred."
+          ]
+        },
+        {
+          "bn": "ওখানে এক হাজার মানুষ আছে।",
+          "tr": "okhane ek hajar manush achhe.",
+          "en": "There are a thousand people there.",
+          "alt": [
+            "There are one thousand people there."
+          ]
+        },
+        {
+          "bn": "নব্বই আর দশ একশ।",
+          "tr": "nobboi ar dosh eksho.",
+          "en": "Ninety and ten is a hundred.",
+          "alt": [
+            "Ninety plus ten is one hundred."
+          ]
+        },
+        {
+          "bn": "আমি দুইটা ডিম চাই।",
+          "tr": "ami duita dim chai.",
+          "en": "I want two eggs.",
+          "alt": [
+            "I'd like two eggs."
+          ]
+        },
+        {
+          "bn": "আমার দুই ভাই আর তিন বোন আছে।",
+          "tr": "amar dui bhai ar tin bon achhe.",
+          "en": "I have two brothers and three sisters."
+        },
+        {
+          "bn": "আমার মায়ের বয়স ষাট।",
+          "tr": "amar mayer boyosh shat.",
+          "en": "My mother is sixty.",
+          "alt": [
+            "My mother is sixty years old."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u05-l09b",
+      "title": "Review: time & days",
+      "kind": "review",
+      "goal": "Tell the time, say when you do things, and talk about days.",
+      "grammar": [
+        "review: কয়টা বাজে, সাড়ে / সোয়া / পৌনে, দেড়টা / আড়াইটা",
+        "parts of the day + -এ / -য়",
+        "আজ / কাল, বার vs দিন"
+      ],
+      "new": [],
+      "review": [
+        "koyta",
+        "baje",
+        "arai",
+        "araita",
+        "share",
+        "pachta",
+        "poune",
+        "doshta",
+        "shoya",
+        "barota",
+        "der",
+        "ghonta",
+        "shomoy",
+        "minit",
+        "shokal",
+        "dupur",
+        "bikal",
+        "shondha",
+        "rat",
+        "shokale",
+        "dupure",
+        "bikale",
+        "shondhay",
+        "rate",
+        "robibar",
+        "shombar",
+        "monggolbar",
+        "budhbar",
+        "brihoshpotibar",
+        "shukrobar",
+        "shonibar",
+        "aj",
+        "kal",
+        "bar",
+        "shoptahe",
+        "mash",
+        "bochhor",
+        "baba",
+        "biriyani",
+        "cha"
+      ],
+      "tip": "No new words: time, parts of the day, and days.\n\n- **কয়টা বাজে?** — **পাঁচটা বাজে।** Clock hours take **-টা**.\n- **সাড়ে** half past (from 3:30), **সোয়া** quarter past, **পৌনে** quarter to. 1:30 = **দেড়টা**, 2:30 = **আড়াইটা**.\n- 'In the …' adds **-এ / -য়**: সকাল → **সকালে**, সন্ধ্যা → **সন্ধ্যায়**.\n- **আজ কী বার?** **বার** is for weekday names; **দিন** is any day.\n- **কাল** = tomorrow or yesterday.",
+      "sentences": [
+        {
+          "bn": "বাবা, এখন কয়টা বাজে?",
+          "tr": "baba, ekhon koyta baje?",
+          "en": "Dad, what time is it now?"
+        },
+        {
+          "bn": "আড়াইটা বাজে।",
+          "tr": "araita baje.",
+          "en": "It's half past two.",
+          "alt": [
+            "It is 2:30."
+          ]
         },
         {
           "bn": "এখন সাড়ে পাঁচটা বাজে।",
           "tr": "ekhon share pa~chta baje.",
           "en": "It's half past five now.",
           "alt": [
-            "It is 5:30 now.",
-            "It's five thirty now."
+            "It is 5:30 now."
           ]
         },
         {
-          "bn": "আজ কী বার?",
-          "tr": "aj ki bar?",
-          "en": "What day is it today?",
+          "bn": "পৌনে দশটা বাজে।",
+          "tr": "poune doshta baje.",
+          "en": "It's quarter to ten.",
           "alt": [
-            "What day is today?"
+            "It is 9:45."
           ]
         },
         {
-          "bn": "আমি রাতে ভাত খাই।",
-          "tr": "ami rate bhat khai.",
-          "en": "I eat rice at night."
+          "bn": "সোয়া বারোটা বাজে।",
+          "tr": "shoya barota baje.",
+          "en": "It's quarter past twelve.",
+          "alt": [
+            "It is 12:15."
+          ]
         },
         {
-          "bn": "আমার দুই ভাই আর তিন বোন আছে।",
-          "tr": "amar dui bhai ar tin bon achhe.",
-          "en": "I have two brothers and three sisters."
+          "bn": "আমার দেড় ঘণ্টা সময় আছে।",
+          "tr": "amar der ghonta shomoy achhe.",
+          "en": "I have an hour and a half.",
+          "alt": [
+            "I have one and a half hours."
+          ]
         },
         {
           "bn": "শুক্রবার দুপুরে আমরা বিরিয়ানি খাই।",
@@ -880,17 +1167,14 @@
           ]
         },
         {
-          "bn": "আমার এক মাস সময় আছে।",
-          "tr": "amar ek mash shomoy achhe.",
-          "en": "I have one month.",
-          "alt": [
-            "I have a month."
-          ]
+          "bn": "আমি সকালে চা খাই।",
+          "tr": "ami shokale cha khai.",
+          "en": "I drink tea in the morning."
         },
         {
-          "bn": "আজ আমার প্রথম দিন।",
-          "tr": "aj amar prothom din.",
-          "en": "Today is my first day."
+          "bn": "আজ কী বার?",
+          "tr": "aj ki bar?",
+          "en": "What day is it today?"
         }
       ]
     }

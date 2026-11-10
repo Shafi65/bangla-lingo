@@ -1,0 +1,352 @@
+{
+  "id": "u05-l08b",
+  "unit": "u05-numbers-time",
+  "title": "Tomorrow, weeks & years",
+  "status": "draft",
+  "tip": "**কাল** (*kal*) means **both 'tomorrow' and 'yesterday'**; the verb's tense tells you which. With no verb, as in **কাল শনিবার**, it means 'tomorrow'.\n\n**দিন** is any 'day' (**বার** is only for weekday names): **সাত দিন** 'seven days'.\n\nFor 'in' a span of time, add **-এ**: **সপ্তাহে** 'in a week', **বছরে** 'in a year': **এক বছরে বারো মাস**.\n\n**বছর** 'year' (**আমার বয়স বিশ বছর** 'I'm twenty years old'), **মাস** 'month', **প্রথম** 'first': **আজ আমার প্রথম দিন**.\n\nDon't mix up **মাস** (month), **মা** (mother) and **মাংস** (meat)!",
+  "vocab": [
+    {
+      "id": "kal",
+      "bn": "কাল",
+      "tr": "kal",
+      "en": "tomorrow; yesterday",
+      "notes": "Tense tells you which. To be explicit: আগামীকাল (agamikal) tomorrow, গতকাল (gotokal) yesterday."
+    },
+    {
+      "id": "din-day",
+      "bn": "দিন",
+      "tr": "din",
+      "en": "day"
+    },
+    {
+      "id": "shoptahe",
+      "bn": "সপ্তাহে",
+      "tr": "shoptahe",
+      "en": "in a week",
+      "notes": "সপ্তাহ (shoptaho) 'week' + -এ."
+    },
+    {
+      "id": "bochhor",
+      "bn": "বছর",
+      "tr": "bochhor",
+      "en": "year",
+      "notes": "আমার বয়স বিশ বছর = 'I am twenty years old'."
+    },
+    {
+      "id": "bochhore",
+      "bn": "বছরে",
+      "tr": "bochhore",
+      "en": "in a year"
+    },
+    {
+      "id": "mash",
+      "bn": "মাস",
+      "tr": "mash",
+      "en": "month"
+    },
+    {
+      "id": "prothom",
+      "bn": "প্রথম",
+      "tr": "prothom",
+      "en": "first"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "কাল",
+        "tr": "kal",
+        "en": "tomorrow; yesterday"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "today",
+        "now",
+        "tomorrow; yesterday",
+        "day"
+      ],
+      "answer": 2,
+      "why": "**কাল** is both 'tomorrow' and 'yesterday'; the verb's tense decides."
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "দিন",
+        "tr": "din",
+        "en": "day"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "week",
+        "day",
+        "night",
+        "month"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আজ শুক্রবার, কাল শনিবার।",
+        "tr": "aj shukrobar, kal shonibar.",
+        "en": "Today is Friday, tomorrow is Saturday."
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "Today is Saturday, tomorrow is Friday.",
+        "Today is Friday, tomorrow is Saturday.",
+        "Today is Thursday, tomorrow is Friday.",
+        "Tomorrow is Friday, today is Saturday."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e04",
+      "type": "listen_select",
+      "audio": {
+        "bn": "কাল",
+        "tr": "kal",
+        "en": "tomorrow; yesterday"
+      },
+      "options": [
+        "লাল",
+        "কলা",
+        "আজ",
+        "কাল"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e05",
+      "type": "listen_select",
+      "audio": {
+        "bn": "দিন",
+        "tr": "din",
+        "en": "day"
+      },
+      "options": [
+        "দুই",
+        "দিন",
+        "ডিম",
+        "দশ"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e06",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "সপ্তাহে",
+        "tr": "shoptahe",
+        "en": "in a week"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "in a week",
+        "today",
+        "on Friday",
+        "at night"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e07",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "বছর",
+        "tr": "bochhor",
+        "en": "year"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "month",
+        "year",
+        "week",
+        "day"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e08",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "মাস",
+        "tr": "mash",
+        "en": "month"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "meat",
+        "mother",
+        "year",
+        "month"
+      ],
+      "answer": 3,
+      "why": "**মাস** 'month' ≠ **মা** 'mother' ≠ **মাংস** 'meat'."
+    },
+    {
+      "id": "e09",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "বছরে",
+        "tr": "bochhore",
+        "en": "in a year"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "in a week",
+        "year",
+        "in a year",
+        "at night"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e10",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "প্রথম",
+        "tr": "prothom",
+        "en": "first"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "first",
+        "one",
+        "last",
+        "only"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e11",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "কাল",
+          "tr": "kal",
+          "en": "tomorrow; yesterday"
+        },
+        {
+          "bn": "দিন",
+          "tr": "din",
+          "en": "day"
+        },
+        {
+          "bn": "সপ্তাহে",
+          "tr": "shoptahe",
+          "en": "in a week"
+        },
+        {
+          "bn": "বছর",
+          "tr": "bochhor",
+          "en": "year"
+        },
+        {
+          "bn": "মাস",
+          "tr": "mash",
+          "en": "month"
+        }
+      ]
+    },
+    {
+      "id": "e12",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "এক বছরে বারো মাস।",
+        "tr": "ek bochhore baro mash.",
+        "en": "There are twelve months in a year."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "বিশ",
+        "সপ্তাহে",
+        "বারো",
+        "বছর",
+        "এক",
+        "মাস",
+        "বছরে"
+      ],
+      "answer": [
+        "এক",
+        "বছরে",
+        "বারো",
+        "মাস"
+      ],
+      "why": "'In a year' is বছর + **-এ**: বছরে."
+    },
+    {
+      "id": "e13",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "এক সপ্তাহে সাত দিন।",
+        "tr": "ek shoptahe shat din.",
+        "en": "There are seven days in a week."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "in",
+        "nights",
+        "are",
+        "days",
+        "seven",
+        "a",
+        "months",
+        "week",
+        "year",
+        "There"
+      ],
+      "answer": [
+        "There",
+        "are",
+        "seven",
+        "days",
+        "in",
+        "a",
+        "week"
+      ]
+    },
+    {
+      "id": "e14",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আজ আমার প্রথম দিন।",
+        "tr": "aj amar prothom din.",
+        "en": "Today is my first day."
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "কাল আমার প্রথম দিন।",
+        "আজ আমার এক দিন।",
+        "আজ তোমার প্রথম দিন।",
+        "আজ আমার প্রথম দিন।"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e15",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আমার বয়স বিশ বছর।",
+        "tr": "amar boyosh bish bochhor.",
+        "en": "I am twenty years old."
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "আমার বয়স বিশ বছর।",
+        "আমার বয়স বিশ।",
+        "amar boyosh bish bochhor",
+        "amar boyos bish bochhor",
+        "amar boyosh bish bochor",
+        "amar boyos bish bochor",
+        "amar boyosh bish",
+        "amar boyos bish"
+      ],
+      "why": "Age: **আমার বয়স** … (বছর), not আমি."
+    }
+  ]
+}

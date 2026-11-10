@@ -1,398 +1,393 @@
 {
   "id": "u07-l07",
   "unit": "u07-directions",
-  "title": "Review: getting around",
+  "title": "Review: where is it?",
   "status": "draft",
-  "tip": "Three ways to ask about a place — keep them apart:\n\n- **স্টেশন কোথায়?** — 'Where is the station?'\n- **স্টেশন কোন দিকে?** — 'Which way is the station?' Often answered with a point and **ওই দিকে** 'that way'.\n- **স্টেশন কতদূর?** — 'How far is the station?'\n\nA typical rickshaw ride:\n\n- **মামা, ধানমন্ডি যাবেন?** — **যাব।**\n- **ভাড়া কত?** — **পঞ্চাশ টাকা।**\n- **মোড়ে ডানে যান… এখানে থামেন।**\n\nPostpositions always follow a genitive: **স্টেশনের কাছে**, **মসজিদের পাশে**. 'From … to' is **থেকে … পর্যন্ত**.\n\nIf you are lost: **আমার সাহায্য দরকার** 'I need help'. **এখানে কি কেউ আছে?** 'Is anyone here?' **তাহলে** 'then, in that case' links your plan to what you just heard: **স্টেশন দূরে? তাহলে রিকশায় যাব।**\n\nDirections in Dhaka come in short steps — it's normal to ask again at the next **মোড়**.",
-  "vocab": [
-    {
-      "id": "kon",
-      "bn": "কোন",
-      "tr": "kon",
-      "en": "which"
-    },
-    {
-      "id": "dike",
-      "bn": "দিকে",
-      "tr": "dike",
-      "en": "way",
-      "notes": "কোন দিকে? 'which way?'; ডান দিকে 'to the right side'."
-    },
-    {
-      "id": "shahajjo",
-      "bn": "সাহায্য",
-      "tr": "shahajjo",
-      "en": "help",
-      "notes": "আমার সাহায্য দরকার = \"I need help\". সাহায্য করা = \"to help\" (করা, U8)."
-    },
-    {
-      "id": "keu",
-      "bn": "কেউ",
-      "tr": "keu",
-      "en": "someone",
-      "notes": "With a negative verb: কেউ নেই \"there's no one\"."
-    },
-    {
-      "id": "tahole",
-      "bn": "তাহলে",
-      "tr": "tahole",
-      "en": "then"
-    }
-  ],
+  "tip": "No new words: places and where things are.\n\n- **বাসা** = where you live now; **বাড়ি** = your family home: **আমার বাসা ঢাকায়, কিন্তু আমার বাড়ি সিলেটে।**\n- 'In / at' a place: **-এ / -য়**: শহরে, গ্রামে, ঢাকায়, বাসায়\n- Position words follow an 'of' noun: **স্টেশনের কাছে**, **বাড়ির পিছনে**, **বাসার ভিতরে**\n- They also stand alone: **বাইরে, উপরে, নিচে, দূরে**\n- **কোথায়?** 'where' · **কোন দিকে?** 'which way'\n- Live: **আমি থাকি**, **আপনি থাকেন**",
+  "vocab": [],
   "exercises": [
     {
       "id": "e01",
       "type": "select_translation",
       "prompt": {
-        "bn": "কোন",
-        "tr": "kon",
-        "en": "which"
+        "bn": "আমার বাড়ি সিলেটে।",
+        "tr": "amar bari shilete.",
+        "en": "My family home is in Sylhet."
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "where",
-        "which",
-        "how far",
-        "who"
+        "আমার বাসা সিলেটে।",
+        "আমার বাড়ি সিলেটে।",
+        "আমার বাড়ি সিলেট।",
+        "আমি বাড়ি সিলেটে।"
       ],
-      "answer": 1
+      "answer": 1,
+      "why": "**বাড়ি** is the family home (home town); **বাসা** is where you live now."
     },
     {
       "id": "e02",
-      "type": "listen_select",
-      "audio": {
-        "bn": "কোন",
-        "tr": "kon",
-        "en": "which"
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আমার বাসা ঢাকায়।",
+        "tr": "amar basha dhakay.",
+        "en": "My home (where I live now) is in Dhaka."
       },
+      "direction": "en_to_bn",
       "options": [
-        "কে",
-        "কোথায়",
-        "কোন",
-        "কত"
+        "আমার বাসা ঢাকায়।",
+        "আমার বাড়ি ঢাকায়।",
+        "আমার বাসা ঢাকা।",
+        "আমার বাসায় ঢাকায়।"
       ],
-      "answer": 2
+      "answer": 0,
+      "why": "**বাসা** = where you live now, and the place takes **-য়**: ঢাকায়."
     },
     {
       "id": "e03",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "সাহায্য",
-        "tr": "shahajjo",
-        "en": "help"
+      "type": "listen_select",
+      "audio": {
+        "bn": "বাসায়",
+        "tr": "bashay",
+        "en": "at home"
       },
-      "direction": "bn_to_en",
       "options": [
-        "problem",
-        "need",
-        "help",
-        "fare"
+        "বাসা",
+        "বাসার",
+        "বাসায়",
+        "বাজারে"
       ],
-      "answer": 2
+      "answer": 2,
+      "why": "**-য়** = 'at' (বাসায় 'at home'); **-র** = 'of' (বাসার)."
     },
     {
       "id": "e04",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "কেউ",
-        "tr": "keu",
-        "en": "someone"
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "someone",
-        "who",
-        "everyone",
-        "nothing"
-      ],
-      "answer": 0
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "স্টেশন",
+          "tr": "steshon",
+          "en": "station"
+        },
+        {
+          "bn": "হোটেল",
+          "tr": "hotel",
+          "en": "hotel"
+        },
+        {
+          "bn": "হাসপাতাল",
+          "tr": "hashpatal",
+          "en": "hospital"
+        },
+        {
+          "bn": "মসজিদ",
+          "tr": "moshjid",
+          "en": "mosque"
+        },
+        {
+          "bn": "মন্দির",
+          "tr": "mondir",
+          "en": "temple"
+        }
+      ]
     },
     {
       "id": "e05",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "তাহলে",
-        "tr": "tahole",
-        "en": "then"
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "but",
-        "now",
-        "OK",
-        "then"
-      ],
-      "answer": 3
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "কাছে",
+          "tr": "kachhe",
+          "en": "near"
+        },
+        {
+          "bn": "দূরে",
+          "tr": "dure",
+          "en": "far"
+        },
+        {
+          "bn": "পাশে",
+          "tr": "pashe",
+          "en": "next to"
+        },
+        {
+          "bn": "সামনে",
+          "tr": "shamne",
+          "en": "in front of"
+        },
+        {
+          "bn": "পিছনে",
+          "tr": "pichhone",
+          "en": "behind"
+        }
+      ]
     },
     {
       "id": "e06",
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "কোন",
-          "tr": "kon",
-          "en": "which"
+          "bn": "ভিতরে",
+          "tr": "bhitore",
+          "en": "inside"
         },
         {
-          "bn": "দিকে",
-          "tr": "dike",
-          "en": "way"
+          "bn": "বাইরে",
+          "tr": "baire",
+          "en": "outside"
         },
         {
-          "bn": "সাহায্য",
-          "tr": "shahajjo",
-          "en": "help"
+          "bn": "উপরে",
+          "tr": "upore",
+          "en": "upstairs"
+        },
+        {
+          "bn": "নিচে",
+          "tr": "niche",
+          "en": "downstairs"
         },
         {
           "bn": "কেউ",
           "tr": "keu",
           "en": "someone"
-        },
-        {
-          "bn": "তাহলে",
-          "tr": "tahole",
-          "en": "then"
         }
       ]
     },
     {
       "id": "e07",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "স্টেশন কোন দিকে?",
-        "tr": "steshon kon dike?",
-        "en": "Which way (in which direction) is the station?"
-      },
-      "direction": "en_to_bn",
-      "options": [
-        "স্টেশন কোথায়?",
-        "স্টেশন কোন দিকে?",
-        "স্টেশন কতদূর?",
-        "স্টেশন কি দূরে?"
-      ],
-      "answer": 1
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "শহর",
+          "tr": "shohor",
+          "en": "city"
+        },
+        {
+          "bn": "গ্রাম",
+          "tr": "gram",
+          "en": "village"
+        },
+        {
+          "bn": "শহরে",
+          "tr": "shohore",
+          "en": "in the city"
+        },
+        {
+          "bn": "গ্রামে",
+          "tr": "grame",
+          "en": "in the village"
+        },
+        {
+          "bn": "সাহায্য",
+          "tr": "shahajjo",
+          "en": "help"
+        }
+      ]
     },
     {
       "id": "e08",
-      "type": "word_bank",
+      "type": "select_translation",
       "prompt": {
-        "bn": "মোড়ে ডানে যান।",
-        "tr": "more dane jan.",
-        "en": "Turn right at the intersection."
+        "bn": "হাসপাতাল কি মসজিদের পিছনে?",
+        "tr": "hashpatal ki moshjider pichhone?",
+        "en": "Is the hospital behind the mosque?"
       },
-      "direction": "en_to_bn",
-      "tiles": [
-        "ডানে",
-        "মোড়ে",
-        "যান",
-        "বামে",
-        "সোজা",
-        "মোড়"
+      "direction": "bn_to_en",
+      "options": [
+        "Is the mosque behind the hospital?",
+        "Is the hospital in front of the mosque?",
+        "Where is the hospital?",
+        "Is the hospital behind the mosque?"
       ],
-      "answer": [
-        "মোড়ে",
-        "ডানে",
-        "যান"
-      ]
+      "answer": 3
     },
     {
       "id": "e09",
-      "type": "word_bank",
+      "type": "select_translation",
       "prompt": {
-        "bn": "মামা, ধানমন্ডি যাবেন?",
-        "tr": "mama, dhanmondi jaben?",
-        "en": "Mama, will you go to Dhanmondi? (polite)"
+        "bn": "হোটেল কোন দিকে?",
+        "tr": "hotel kon dike?",
+        "en": "Which way is the hotel?"
       },
       "direction": "en_to_bn",
-      "tiles": [
-        "যাবে",
-        "ধানমন্ডি",
-        "দিকে",
-        "মামা",
-        "যান",
-        "যাবেন",
-        "কোন"
+      "options": [
+        "হোটেল কোথায়?",
+        "হোটেল কতদূর?",
+        "হোটেল কোন দিকে?",
+        "হোটেল কি দূরে?"
       ],
-      "answer": [
-        "মামা",
-        "ধানমন্ডি",
-        "যাবেন"
-      ],
-      "alt": [
-        [
-          "ধানমন্ডি",
-          "যাবেন",
-          "মামা"
-        ]
-      ]
+      "answer": 2,
+      "why": "**কোন দিকে** 'which way'; **কোথায়** 'where'; **কতদূর** 'how far'."
     },
     {
       "id": "e10",
       "type": "word_bank",
       "prompt": {
-        "bn": "ঢাকা থেকে সিলেট পর্যন্ত বাসে যাব।",
-        "tr": "dhaka theke shilet porjonto base jabo.",
-        "en": "I will go from Dhaka to Sylhet by bus."
+        "bn": "হোটেল স্টেশনের পাশে।",
+        "tr": "hotel steshoner pashe.",
+        "en": "The hotel is next to the station."
       },
       "direction": "en_to_bn",
       "tiles": [
-        "যাবে",
-        "সিলেট",
-        "বাস",
-        "থেকে",
-        "পর্যন্ত",
-        "দিয়ে",
-        "ঢাকা",
-        "যাব",
-        "বাসে"
+        "স্টেশন",
+        "সামনে",
+        "পাশে",
+        "হোটেল",
+        "হোটেলের",
+        "স্টেশনের"
       ],
       "answer": [
-        "ঢাকা",
-        "থেকে",
-        "সিলেট",
-        "পর্যন্ত",
-        "বাসে",
-        "যাব"
+        "হোটেল",
+        "স্টেশনের",
+        "পাশে"
       ],
-      "alt": [
-        [
-          "বাসে",
-          "ঢাকা",
-          "থেকে",
-          "সিলেট",
-          "পর্যন্ত",
-          "যাব"
-        ],
-        [
-          "ঢাকা",
-          "থেকে",
-          "সিলেট",
-          "বাসে",
-          "যাব"
-        ]
+      "why": "Keep **-এর**: স্টেশনের পাশে."
+    },
+    {
+      "id": "e11",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "দোকানটা বাড়ির পিছনে, বাজারের কাছে।",
+        "tr": "dokanta barir pichhone, bajarer kachhe.",
+        "en": "The shop is behind the house, near the market."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "behind",
+        "The",
+        "the",
+        "house",
+        "front",
+        "far",
+        "shop",
+        "market",
+        "near",
+        "is",
+        "the",
+        "hotel"
+      ],
+      "answer": [
+        "The",
+        "shop",
+        "is",
+        "behind",
+        "the",
+        "house",
+        "near",
+        "the",
+        "market"
       ]
     },
     {
       "id": "e12",
-      "type": "select_translation",
+      "type": "word_bank",
       "prompt": {
-        "bn": "আমার সাহায্য দরকার।",
-        "tr": "amar shahajjo dorkar.",
-        "en": "I need help."
+        "bn": "মামা বাসার ভিতরে।",
+        "tr": "mama bashar bhitore.",
+        "en": "Mama is inside the house."
       },
       "direction": "en_to_bn",
-      "options": [
-        "আমি সাহায্য দরকার।",
-        "আমার সাহায্য নেই।",
-        "আমার সমস্যা দরকার।",
-        "আমার সাহায্য দরকার।"
+      "tiles": [
+        "বাসার",
+        "হোটেলের",
+        "ভিতরে",
+        "বাইরে",
+        "বাসা",
+        "মামা"
       ],
-      "answer": 3
+      "answer": [
+        "মামা",
+        "বাসার",
+        "ভিতরে"
+      ],
+      "why": "বাসা + **-র** before ভিতরে: বাসার ভিতরে."
     },
     {
       "id": "e13",
       "type": "word_bank",
       "prompt": {
-        "bn": "এখানে কি কেউ আছে?",
-        "tr": "ekhane ki keu achhe?",
-        "en": "Is anyone here?"
+        "bn": "আমার নানি গ্রামে থাকেন, কিন্তু আমি শহরে থাকি।",
+        "tr": "amar nani grame thaken, kintu ami shohore thaki.",
+        "en": "My grandmother lives in the village, but I live in the city."
       },
       "direction": "bn_to_en",
       "tiles": [
-        "someone",
-        "here",
-        "everyone",
-        "Is",
-        "Who",
-        "there",
-        "anyone"
+        "house",
+        "in",
+        "grandmother",
+        "village",
+        "I",
+        "grandfather",
+        "the",
+        "live",
+        "lives",
+        "but",
+        "My",
+        "is",
+        "the",
+        "in",
+        "city"
       ],
       "answer": [
-        "Is",
-        "anyone",
-        "here"
-      ],
-      "alt": [
-        [
-          "Is",
-          "someone",
-          "here"
-        ],
-        [
-          "Is",
-          "there",
-          "anyone",
-          "here"
-        ],
-        [
-          "Is",
-          "there",
-          "someone",
-          "here"
-        ]
+        "My",
+        "grandmother",
+        "lives",
+        "in",
+        "the",
+        "village",
+        "but",
+        "I",
+        "live",
+        "in",
+        "the",
+        "city"
       ]
     },
     {
       "id": "e14",
-      "type": "word_bank",
+      "type": "type_translation",
       "prompt": {
-        "bn": "স্টেশন দূরে? তাহলে রিকশায় যাব।",
-        "tr": "steshon dure? tahole rikshay jabo.",
-        "en": "The station is far? Then I'll go by rickshaw."
+        "bn": "আপনি শহরে থাকেন? তাহলে আপনার বাসা কোথায়?",
+        "tr": "apni shohore thaken? tahole apnar basha kothay?",
+        "en": "You live in the city? Then where is your home?"
       },
-      "direction": "en_to_bn",
-      "tiles": [
-        "রিকশা",
-        "দূরে",
-        "যাবেন",
-        "তাহলে",
-        "স্টেশন",
-        "কাছে",
-        "যাব",
-        "রিকশায়"
-      ],
-      "answer": [
-        "স্টেশন",
-        "দূরে",
-        "তাহলে",
-        "রিকশায়",
-        "যাব"
+      "direction": "bn_to_en",
+      "accepted": [
+        "You live in the city? Then where is your home?",
+        "You live in the city? Then where is your house?",
+        "You live in the city? So where is your home?",
+        "You live in the city? So where is your house?",
+        "You live in the city? Then where do you live?",
+        "Do you live in the city? Then where is your home?",
+        "Do you live in the city? Then where is your house?",
+        "You live in the city? In that case, where is your home?",
+        "You live in town? Then where is your home?",
+        "You live in the city? Then where's your home?",
+        "You live in the city? Then where's your house?",
+        "Do you live in the city? So where is your home?"
       ]
     },
     {
       "id": "e15",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "হাসপাতাল মসজিদের পাশে।",
-        "tr": "hashpatal moshjider pashe.",
-        "en": "The hospital is next to the mosque."
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "The hospital is next to the mosque.",
-        "The hospital is behind the mosque.",
-        "The hospital is in front of the mosque.",
-        "The hospital is far from the mosque."
-      ],
-      "answer": 0
-    },
-    {
-      "id": "e11",
       "type": "type_translation",
       "prompt": {
-        "bn": "এখানে থামেন, ভাই।",
-        "tr": "ekhane thamen, bhai.",
-        "en": "Stop here, brother."
+        "bn": "ভিতরে কি কেউ আছে?",
+        "tr": "bhitore ki keu achhe?",
+        "en": "Is anyone inside?"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "accepted": [
-        "Stop here, brother.",
-        "Stop here, bhai.",
-        "Brother, stop here.",
-        "Please stop here, brother.",
-        "Stop here please, brother.",
-        "Please stop here.",
-        "Stop here, please."
+        "ভিতরে কি কেউ আছে?",
+        "ভিতরে কেউ আছে?",
+        "ভেতরে কি কেউ আছে?",
+        "ভেতরে কেউ আছে?",
+        "bhitore ki keu achhe",
+        "bhitore keu achhe",
+        "bhitore ki keu ache",
+        "bhitore keu ache",
+        "vitore ki keu ache",
+        "vitore keu ache",
+        "bhetore ki keu achhe",
+        "bhetore keu ache"
       ]
     }
   ]

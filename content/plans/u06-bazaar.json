@@ -625,12 +625,10 @@
     {
       "id": "u06-l07",
       "title": "Clothes shopping",
-      "goal": "Shop for saris, shirts and lungis; say what you will buy; ask for change.",
+      "goal": "Shop for saris, shirts and lungis and say what you will buy.",
       "grammar": [
         "future 1st person -ব: কিনব 'I will buy'; polite -বেন: কিনবেন",
         "negative future: কিনব না",
-        "ভাংতি আছে? 'do you have change?'",
-        "ভাংতি / খুচরা both = \"change\"",
         "কোনো … নেই 'no … at all'"
       ],
       "new": [
@@ -641,8 +639,6 @@
         "lunggi",
         "kinbo",
         "kinben",
-        "bhangti",
-        "khuchra",
         "kono"
       ],
       "review": [
@@ -654,11 +650,13 @@
         "lal",
         "apni",
         "ki-what",
+        "ki-q",
         "na",
-        "achhe",
+        "nei",
+        "ekhane",
         "shomossha"
       ],
-      "tip": "The future for 'I' ends in **-ব** (*-bo*): **কিনব** 'I will buy'. For আপনি it's **-বেন**: **কিনবেন**. Put **না** after the verb to negate: **কিনব না** 'I won't buy'. (You'll also see কিনবো.)\n\nClothes: **শাড়ি** (sari), **জামা** (shirt / top / dress), **লুঙ্গি** (the wrap many men wear at home). **-টা** gives 'the': **শাড়িটা**, **জামাটা**. Colours go before the noun: **লাল শাড়ি**. Careful: **শাড়ি** (*shari*) sounds close to **সাড়ে** (*share*).\n\nBefore paying with a big note, ask **ভাংতি আছে?** 'Do you have change?' **ভাংতি** and **খুচরা** both mean 'change' (Kolkata: খুচরো).\n\n**কোনো … নেই** means 'no … at all': **কোনো সমস্যা নেই** 'no problem at all'.\n\n*Culture:* clothing markets are where bargaining is most expected; ask the price of several saris before choosing.",
+      "tip": "The future for 'I' ends in **-ব** (*-bo*): **কিনব** 'I will buy'. For আপনি it's **-বেন**: **কিনবেন**. Put **না** after the verb: **কিনব না** 'I won't buy'. (You'll also see কিনবো.)\n\nClothes: **শাড়ি** (sari), **জামা** (shirt / top / dress), **লুঙ্গি** (the wrap many men wear at home). **-টা** gives 'the': **শাড়িটা**, **জামাটা**. Colours go first: **লাল শাড়ি**. Careful: **শাড়ি** (*shari*) sounds close to **সাড়ে** (*share*).\n\n**কোনো … নেই** = 'no … at all': **কোনো সমস্যা নেই**.\n\n*Culture:* clothing markets are where bargaining is most expected.",
       "sentences": [
         {
           "bn": "আমি একটা শাড়ি কিনব।",
@@ -706,6 +704,66 @@
           ]
         },
         {
+          "bn": "আপনি কি শাড়িটা কিনবেন?",
+          "tr": "apni ki sharita kinben?",
+          "en": "Will you buy the sari?"
+        },
+        {
+          "bn": "কোনো সমস্যা নেই।",
+          "tr": "kono shomossha nei.",
+          "en": "No problem at all.",
+          "alt": [
+            "There is no problem."
+          ]
+        },
+        {
+          "bn": "এখানে কোনো লুঙ্গি নেই।",
+          "tr": "ekhane kono lunggi nei.",
+          "en": "There are no lungis here.",
+          "alt": [
+            "There are no lungis here at all."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u06-l07b",
+      "title": "Change, bags & the best",
+      "goal": "Ask for change, turn down a bag, and say what's best or cheapest.",
+      "grammar": [
+        "ভাংতি আছে? 'do you have change?'; ভাংতি / খুচরা both = 'change'",
+        "আমার … লাগবে না 'I don't need …'",
+        "সবচেয়ে + adjective = 'the most …'"
+      ],
+      "new": [
+        "bhangti",
+        "khuchra",
+        "byag",
+        "jinish",
+        "shobcheye"
+      ],
+      "review": [
+        "achhe",
+        "nei",
+        "taka",
+        "amar",
+        "lagbe-na",
+        "ekta",
+        "den",
+        "eita",
+        "oita",
+        "bhalo",
+        "shosta",
+        "dami",
+        "bajare",
+        "shob",
+        "sharita",
+        "oi",
+        "ei"
+      ],
+      "tip": "Before paying with a big note, ask **ভাংতি আছে?** 'Do you have change?' **ভাংতি** and **খুচরা** both mean 'change' (small notes and coins); Kolkata says খুচরো. Vendors often can't break ৳500 or ৳1,000.\n\nBring your own **ব্যাগ** (bag): many markets now discourage plastic bags. **আমার ব্যাগ লাগবে না** = 'I don't need a bag'.\n\n**সবচেয়ে** + adjective = 'the most …': **সবচেয়ে ভালো** 'the best', **সবচেয়ে সস্তা** 'the cheapest'.\n\n**জিনিস** is 'thing(s)': **সব জিনিস** 'everything'.",
+      "sentences": [
+        {
           "bn": "ভাংতি আছে?",
           "tr": "bhangti achhe?",
           "en": "Do you have change?",
@@ -731,77 +789,9 @@
           ]
         },
         {
-          "bn": "কোনো সমস্যা নেই।",
-          "tr": "kono shomossha nei.",
-          "en": "No problem at all.",
-          "alt": [
-            "There is no problem."
-          ]
-        }
-      ]
-    },
-    {
-      "id": "u06-l08",
-      "title": "Review: at the bazaar",
-      "goal": "Put the whole bazaar visit together.",
-      "grammar": [
-        "review: imperatives, লাগবে, -টা/-গুলো, haggling chunks",
-        "আর কিছু 'anything else'",
-        "সবচেয়ে + adjective = 'the most …'"
-      ],
-      "new": [
-        "byag",
-        "jinish",
-        "shobcheye"
-      ],
-      "review": [
-        "ar",
-        "kichhu",
-        "lagbe",
-        "na",
-        "lagbe-na",
-        "ek",
-        "keji",
-        "alu",
-        "hali",
-        "dim",
-        "shob",
-        "bajare",
-        "shosta",
-        "eita"
-      ],
-      "tip": "A full bazaar exchange:\n\n- **ভাই, টমেটোর কেজি কত?** — **পঞ্চাশ টাকা।**\n- **এক কেজি দেন। দাম একটু কম রাখেন।** — **ঠিক আছে।**\n- **আর কিছু লাগবে?** — **না, আর কিছু লাগবে না।**\n\n**আর কিছু** (*ar kichhu*) = 'anything else', and you'll hear it from every vendor. (**আর** here is 'else', not **আরও** 'more'.)\n\nBring your own **ব্যাগ** (bag), since many markets now discourage plastic bags. If you already have one, **আমার ব্যাগ লাগবে না** = 'I don't need a bag'. Compare **আমার ব্যাগ নেই** 'I don't have a bag'.\n\nRemember the levels: **দে / দাও / দেন (দিন)**. With shopkeepers, always use the আপনি forms.\n\n**সবচেয়ে** + adjective makes a superlative: **সবচেয়ে ভালো** 'the best', **সবচেয়ে সস্তা** 'the cheapest'. **জিনিস** is 'thing(s)': **সব জিনিস** 'everything'.",
-      "sentences": [
-        {
-          "bn": "আর কিছু লাগবে?",
-          "tr": "ar kichhu lagbe?",
-          "en": "Do you need anything else?",
-          "alt": [
-            "Anything else?"
-          ]
-        },
-        {
-          "bn": "না, আর কিছু লাগবে না।",
-          "tr": "na, ar kichhu lagbe na.",
-          "en": "No, I don't need anything else.",
-          "alt": [
-            "No, nothing else."
-          ]
-        },
-        {
-          "bn": "এক কেজি আলু আর এক হালি ডিম দেন।",
-          "tr": "ek keji alu ar ek hali dim den.",
-          "en": "Please give me a kilo of potatoes and four eggs."
-        },
-        {
-          "bn": "শেষ দাম কত, ভাই?",
-          "tr": "shesh dam koto, bhai?",
-          "en": "What's the final price, brother?"
-        },
-        {
-          "bn": "এগুলো খুব দামি।",
-          "tr": "egulo khub dami.",
-          "en": "These are very expensive."
+          "bn": "আমার ব্যাগ লাগবে না।",
+          "tr": "amar byag lagbe na.",
+          "en": "I don't need a bag."
         },
         {
           "bn": "একটা ব্যাগ দেন।",
@@ -812,14 +802,9 @@
           ]
         },
         {
-          "bn": "আমার একটা লুঙ্গি লাগবে।",
-          "tr": "amar ekta lunggi lagbe.",
-          "en": "I need a lungi."
-        },
-        {
-          "bn": "ঠিক আছে, দুইশ টাকা রাখেন।",
-          "tr": "thik achhe, duisho taka rakhen.",
-          "en": "OK, make it two hundred taka."
+          "bn": "এইটা সবচেয়ে ভালো।",
+          "tr": "eita shobcheye bhalo.",
+          "en": "This one is the best."
         },
         {
           "bn": "বাজারে সব জিনিস সস্তা।",
@@ -830,9 +815,143 @@
           ]
         },
         {
-          "bn": "এইটা সবচেয়ে ভালো।",
-          "tr": "eita shobcheye bhalo.",
-          "en": "This one is the best."
+          "bn": "ওই শাড়িটা সবচেয়ে সস্তা।",
+          "tr": "oi sharita shobcheye shosta.",
+          "en": "That sari is the cheapest."
+        }
+      ]
+    },
+    {
+      "id": "u06-l08",
+      "title": "Review: at the bazaar",
+      "kind": "review",
+      "goal": "Put the whole bazaar visit together.",
+      "grammar": [
+        "review: দে / দাও / দেন / দিন, লাগবে, -টা / -গুলো, এই / ওই",
+        "haggling: এত … কেন?, কম রাখেন, ঠিক আছে",
+        "future কিনব; সবচেয়ে"
+      ],
+      "new": [],
+      "review": [
+        "bhai",
+        "etar",
+        "dam",
+        "koto",
+        "bhangti",
+        "de",
+        "dao",
+        "din-give",
+        "amake",
+        "ektu",
+        "bajare",
+        "dokanta",
+        "dokandar",
+        "poysha",
+        "shudhu",
+        "keji",
+        "hali",
+        "dozon",
+        "adha",
+        "alu",
+        "egulo",
+        "ogulo",
+        "onno",
+        "kom",
+        "beshi",
+        "shari",
+        "jama",
+        "lunggi",
+        "dami",
+        "shesh",
+        "eto",
+        "keno",
+        "rakhen",
+        "thik-achhe",
+        "pachsho",
+        "taka",
+        "tometor",
+        "dui",
+        "peyaj",
+        "lagbe",
+        "mama",
+        "oi",
+        "machhta",
+        "den",
+        "eita",
+        "oita",
+        "shobcheye",
+        "shosta",
+        "kono",
+        "byag",
+        "lagbe-na",
+        "ei",
+        "sharita",
+        "kinbo"
+      ],
+      "tip": "No new words: a whole bazaar trip.\n\n- Price: **ভাই, এটার দাম কত?** — **পঞ্চাশ টাকা।**\n- Asking: **দেন / দিন** (আপনি), **দাও** (তুমি), **দে** (তুই). With vendors, always use the আপনি forms.\n- Amounts: **দুই কেজি আলু**, **এক হালি ডিম**, **আধা কেজি**. 'Need' = **আমার … লাগবে**.\n- Haggling: **এত দাম কেন? একটু কম রাখেন।** — **ঠিক আছে।**\n- Pointing: **এইটা না, ওইটা।**\n- Future: **আমি এই শাড়িটা কিনব।**\n- No thanks: **লাগবে না।**",
+      "sentences": [
+        {
+          "bn": "ভাই, এটার দাম কত?",
+          "tr": "bhai, etar dam koto?",
+          "en": "Brother, how much is this?",
+          "alt": [
+            "What's the price of this, brother?"
+          ]
+        },
+        {
+          "bn": "টমেটোর কেজি কত?",
+          "tr": "tometor keji koto?",
+          "en": "How much is a kilo of tomatoes?",
+          "alt": [
+            "How much are tomatoes per kilo?"
+          ]
+        },
+        {
+          "bn": "আমার দুই কেজি পেঁয়াজ লাগবে।",
+          "tr": "amar dui keji pe~yaj lagbe.",
+          "en": "I need two kilos of onions."
+        },
+        {
+          "bn": "এত দাম কেন? একটু কম রাখেন।",
+          "tr": "eto dam keno? ektu kom rakhen.",
+          "en": "Why so expensive? Please lower it a little.",
+          "alt": [
+            "Why is it so expensive? Make it a little cheaper, please."
+          ]
+        },
+        {
+          "bn": "ঠিক আছে, পাঁচশ টাকা রাখেন।",
+          "tr": "thik achhe, pa~chsho taka rakhen.",
+          "en": "OK, make it five hundred taka."
+        },
+        {
+          "bn": "মামা, ওই মাছটা দেন।",
+          "tr": "mama, oi machhta den.",
+          "en": "Mama, please give me that fish.",
+          "alt": [
+            "Uncle, give me that fish, please."
+          ]
+        },
+        {
+          "bn": "এইটা না, ওইটা। ওইটা সবচেয়ে সস্তা।",
+          "tr": "eita na, oita. oita shobcheye shosta.",
+          "en": "Not this one, that one. That one is the cheapest."
+        },
+        {
+          "bn": "আমার কোনো ব্যাগ লাগবে না।",
+          "tr": "amar kono byag lagbe na.",
+          "en": "I don't need any bag.",
+          "alt": [
+            "I don't need a bag."
+          ]
+        },
+        {
+          "bn": "আমি এই শাড়িটা কিনব।",
+          "tr": "ami ei sharita kinbo.",
+          "en": "I will buy this sari.",
+          "alt": [
+            "I'll buy this sari."
+          ]
         }
       ]
     }

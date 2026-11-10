@@ -1,0 +1,364 @@
+{
+  "id": "u07-l04b",
+  "unit": "u07-directions",
+  "title": "Where I live",
+  "status": "draft",
+  "tip": "'Live' (in a place) is **থাকি** (I) / **থাকেন** (polite 'you', or he/she for an elder):\n\n- **আমি শহরে থাকি** 'I live in the city'\n- **আমার নানি গ্রামে থাকেন** 'My grandmother lives in the village'\n- **আপনি কোথায় থাকেন?** 'Where do you live?'\n\nThe place takes the 'in' ending: শহর → **শহরে**, গ্রাম → **গ্রামে**.\n\n**তাহলে** 'then, in that case' answers what you just heard: **আপনি শহরে থাকেন? তাহলে হাসপাতাল কাছে।**\n\n*Culture:* most city families still have a village **বাড়ি** and go back to their **গ্রাম** for Eid; Dhaka empties out.",
+  "vocab": [
+    {
+      "id": "shohor",
+      "bn": "শহর",
+      "tr": "shohor",
+      "en": "city"
+    },
+    {
+      "id": "shohore",
+      "bn": "শহরে",
+      "tr": "shohore",
+      "en": "in the city"
+    },
+    {
+      "id": "gram",
+      "bn": "গ্রাম",
+      "tr": "gram",
+      "en": "village"
+    },
+    {
+      "id": "grame",
+      "bn": "গ্রামে",
+      "tr": "grame",
+      "en": "in the village"
+    },
+    {
+      "id": "thaki",
+      "bn": "থাকি",
+      "tr": "thaki",
+      "en": "I live",
+      "notes": "Present of থাকা 'live, stay, remain'."
+    },
+    {
+      "id": "thaken",
+      "bn": "থাকেন",
+      "tr": "thaken",
+      "en": "lives (polite)"
+    },
+    {
+      "id": "tahole",
+      "bn": "তাহলে",
+      "tr": "tahole",
+      "en": "then"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "শহর",
+        "tr": "shohor",
+        "en": "city"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "village",
+        "city",
+        "market",
+        "country"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "শহরে",
+        "tr": "shohore",
+        "en": "in the city"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "in the city",
+        "city",
+        "in the village",
+        "from the city"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "গ্রাম",
+        "tr": "gram",
+        "en": "village"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "city",
+        "house",
+        "village",
+        "mosque"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e04",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "গ্রামে",
+        "tr": "grame",
+        "en": "in the village"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "in the city",
+        "village",
+        "at home",
+        "in the village"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e05",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আমি শহরে থাকি।",
+        "tr": "ami shohore thaki.",
+        "en": "I live in the city."
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "I live in the city.",
+        "I live in the village.",
+        "You live in the city.",
+        "I am in the city."
+      ],
+      "answer": 0,
+      "why": "**থাকি** = 'I live / stay'; **আছি** = 'I am (here now)'."
+    },
+    {
+      "id": "e06",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আমার নানি গ্রামে থাকেন।",
+        "tr": "amar nani grame thaken.",
+        "en": "My grandmother lives in the village."
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "My grandmother is in the village.",
+        "My grandmother lives in the village.",
+        "My grandmother lives in the city.",
+        "My grandfather lives in the village."
+      ],
+      "answer": 1,
+      "why": "Use the polite **-েন** (থাকেন) for an elder like নানি."
+    },
+    {
+      "id": "e07",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আপনি শহরে থাকেন? তাহলে হাসপাতাল কাছে।",
+        "tr": "apni shohore thaken? tahole hashpatal kachhe.",
+        "en": "You live in the city? Then the hospital is close."
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "You live in the city? But the hospital is far.",
+        "You live in the city? Where is the hospital?",
+        "You live in the city? Then the hospital is close.",
+        "You live in the village? Then the hospital is close."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e08",
+      "type": "listen_select",
+      "audio": {
+        "bn": "গ্রামে",
+        "tr": "grame",
+        "en": "in the village"
+      },
+      "options": [
+        "গ্রাম",
+        "শহরে",
+        "বাজারে",
+        "গ্রামে"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e09",
+      "type": "listen_select",
+      "audio": {
+        "bn": "থাকি",
+        "tr": "thaki",
+        "en": "I live"
+      },
+      "options": [
+        "থাকেন",
+        "থাকি",
+        "আছি",
+        "খাই"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e10",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "শহর",
+          "tr": "shohor",
+          "en": "city"
+        },
+        {
+          "bn": "গ্রাম",
+          "tr": "gram",
+          "en": "village"
+        },
+        {
+          "bn": "থাকি",
+          "tr": "thaki",
+          "en": "I live"
+        },
+        {
+          "bn": "থাকেন",
+          "tr": "thaken",
+          "en": "lives (polite)"
+        },
+        {
+          "bn": "তাহলে",
+          "tr": "tahole",
+          "en": "then"
+        }
+      ]
+    },
+    {
+      "id": "e11",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমি শহরে থাকি।",
+        "tr": "ami shohore thaki.",
+        "en": "I live in the city."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "আমি",
+        "শহর",
+        "গ্রামে",
+        "থাকেন",
+        "শহরে",
+        "থাকি"
+      ],
+      "answer": [
+        "আমি",
+        "শহরে",
+        "থাকি"
+      ],
+      "why": "'In the city' takes the locative **-এ**: শহরে."
+    },
+    {
+      "id": "e12",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমার নানি গ্রামে থাকেন।",
+        "tr": "amar nani grame thaken.",
+        "en": "My grandmother (mother's mother) lives in the village."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "থাকি",
+        "দাদি",
+        "গ্রাম",
+        "গ্রামে",
+        "নানি",
+        "আমার",
+        "থাকেন"
+      ],
+      "answer": [
+        "আমার",
+        "নানি",
+        "গ্রামে",
+        "থাকেন"
+      ],
+      "why": "An elder gets the polite **থাকেন**, not থাকি."
+    },
+    {
+      "id": "e13",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমি ঢাকায় থাকি, কিন্তু আমার বাড়ি সিলেটে।",
+        "tr": "ami dhakay thaki, kintu amar bari shilete.",
+        "en": "I live in Dhaka, but my family home is in Sylhet."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "Dhaka",
+        "I",
+        "flat",
+        "but",
+        "village",
+        "in",
+        "home",
+        "my",
+        "is",
+        "in",
+        "family",
+        "live",
+        "city",
+        "Sylhet"
+      ],
+      "answer": [
+        "I",
+        "live",
+        "in",
+        "Dhaka",
+        "but",
+        "my",
+        "family",
+        "home",
+        "is",
+        "in",
+        "Sylhet"
+      ],
+      "why": "**বাড়ি** is the family home (often in the home district); where you live now is **বাসা**."
+    },
+    {
+      "id": "e14",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আপনি কোথায় থাকেন?",
+        "tr": "apni kothay thaken?",
+        "en": "Where do you live?"
+      },
+      "direction": "bn_to_en",
+      "accepted": [
+        "Where do you live?",
+        "Where do you stay?",
+        "Where are you living?",
+        "Where are you staying?"
+      ]
+    },
+    {
+      "id": "e15",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "ঢাকা একটা বড় শহর।",
+        "tr": "dhaka ekta boro shohor.",
+        "en": "Dhaka is a big city."
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "ঢাকা একটা বড় শহর।",
+        "ঢাকা বড় শহর।",
+        "dhaka ekta boro shohor",
+        "dhaka akta boro shohor",
+        "dhaka ekta boro sohor",
+        "dhaka boro shohor",
+        "dhaka ekta bodo shohor",
+        "dhaka ekta boro shahar"
+      ]
+    }
+  ]
+}

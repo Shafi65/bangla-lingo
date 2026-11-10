@@ -1,0 +1,361 @@
+{
+  "id": "u05-l02b",
+  "unit": "u05-numbers-time",
+  "title": "16 to 20 & age",
+  "status": "draft",
+  "tip": "Five more: **ষোলো** 16 · **সতেরো** 17 · **আঠারো** 18 · **উনিশ** 19 · **বিশ** 20\n\nHints: **সতেরো** echoes **সাত** (7), **আঠারো** echoes **আট** (8), and **উনিশ** means 'one short of twenty' (**বিশ**).\n\n**Age** uses **বয়স** (*boyosh*) 'age' and no verb: **আমার বয়স বিশ** 'I am twenty' (literally 'my age twenty'). Ask: **তোমার বয়স কি সতেরো?** 'Are you seventeen?'\n\nAsking someone's age is quite normal in Bangladesh, but not with elders.",
+  "vocab": [
+    {
+      "id": "sholo",
+      "bn": "ষোলো",
+      "tr": "sholo",
+      "en": "sixteen"
+    },
+    {
+      "id": "shotero",
+      "bn": "সতেরো",
+      "tr": "shotero",
+      "en": "seventeen"
+    },
+    {
+      "id": "atharo",
+      "bn": "আঠারো",
+      "tr": "atharo",
+      "en": "eighteen"
+    },
+    {
+      "id": "unish",
+      "bn": "উনিশ",
+      "tr": "unish",
+      "en": "nineteen",
+      "notes": "Lit. 'one less than twenty' — the same pattern as 29 (ঊনত্রিশ), 39 etc."
+    },
+    {
+      "id": "bish",
+      "bn": "বিশ",
+      "tr": "bish",
+      "en": "twenty"
+    },
+    {
+      "id": "boyosh",
+      "bn": "বয়স",
+      "tr": "boyosh",
+      "en": "age"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ষোলো",
+        "tr": "sholo",
+        "en": "sixteen"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "sixteen",
+        "six",
+        "seventeen",
+        "sixty"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "সতেরো",
+        "tr": "shotero",
+        "en": "seventeen"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "seven",
+        "thirteen",
+        "seventy",
+        "seventeen"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e03",
+      "type": "listen_select",
+      "audio": {
+        "bn": "সতেরো",
+        "tr": "shotero",
+        "en": "seventeen"
+      },
+      "options": [
+        "সাত",
+        "সতেরো",
+        "তেরো",
+        "ষোলো"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e04",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আঠারো",
+        "tr": "atharo",
+        "en": "eighteen"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "eight",
+        "eighteen",
+        "eleven",
+        "eighty"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e05",
+      "type": "listen_select",
+      "audio": {
+        "bn": "আঠারো",
+        "tr": "atharo",
+        "en": "eighteen"
+      },
+      "options": [
+        "আট",
+        "এগারো",
+        "বারো",
+        "আঠারো"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e06",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "উনিশ",
+        "tr": "unish",
+        "en": "nineteen"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "nine",
+        "twenty",
+        "nineteen",
+        "eleven"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e07",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "বিশ",
+        "tr": "bish",
+        "en": "twenty"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "twenty",
+        "two",
+        "twelve",
+        "nineteen"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e08",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "বয়স",
+        "tr": "boyosh",
+        "en": "age"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "name",
+        "age",
+        "time",
+        "country"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e09",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "ষোলো",
+          "tr": "sholo",
+          "en": "sixteen"
+        },
+        {
+          "bn": "সতেরো",
+          "tr": "shotero",
+          "en": "seventeen"
+        },
+        {
+          "bn": "আঠারো",
+          "tr": "atharo",
+          "en": "eighteen"
+        },
+        {
+          "bn": "উনিশ",
+          "tr": "unish",
+          "en": "nineteen"
+        },
+        {
+          "bn": "বিশ",
+          "tr": "bish",
+          "en": "twenty"
+        }
+      ]
+    },
+    {
+      "id": "e10",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "দশ আর ছয় ষোলো।",
+        "tr": "dosh ar chhoy sholo.",
+        "en": "Ten and six is sixteen."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "seventeen",
+        "is",
+        "sixteen",
+        "seven",
+        "and",
+        "Ten",
+        "sixty",
+        "six"
+      ],
+      "answer": [
+        "Ten",
+        "and",
+        "six",
+        "is",
+        "sixteen"
+      ]
+    },
+    {
+      "id": "e11",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "তার বয়স ষোলো।",
+        "tr": "tar boyosh sholo.",
+        "en": "She is sixteen."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "বয়স",
+        "ষোলো",
+        "সতেরো",
+        "তোর",
+        "ছয়",
+        "তার"
+      ],
+      "answer": [
+        "তার",
+        "বয়স",
+        "ষোলো"
+      ],
+      "why": "Age needs no verb: **তার বয়স ষোলো**, literally 'her age sixteen'."
+    },
+    {
+      "id": "e12",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "তোমার বয়স কি সতেরো?",
+        "tr": "tomar boyosh ki shotero?",
+        "en": "Are you seventeen? (familiar)"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "তোমার বয়স কি সাত?",
+        "আমার বয়স সতেরো।",
+        "তোমার বয়স কি সতেরো?",
+        "তোমার বয়স কি তেরো?"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e13",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "উনিশ আর এক বিশ।",
+        "tr": "unish ar ek bish.",
+        "en": "Nineteen and one is twenty."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "উনিশ",
+        "বিশ",
+        "এক",
+        "দুই",
+        "দশ",
+        "নয়",
+        "আর"
+      ],
+      "answer": [
+        "উনিশ",
+        "আর",
+        "এক",
+        "বিশ"
+      ],
+      "alt": [
+        [
+          "এক",
+          "আর",
+          "উনিশ",
+          "বিশ"
+        ]
+      ]
+    },
+    {
+      "id": "e14",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "ওর বয়স বারো।",
+        "tr": "or boyosh baro.",
+        "en": "He is twelve."
+      },
+      "direction": "bn_to_en",
+      "accepted": [
+        "He is twelve.",
+        "He is twelve years old.",
+        "He is 12.",
+        "He is 12 years old.",
+        "She is twelve.",
+        "She is twelve years old.",
+        "She is 12.",
+        "She is 12 years old.",
+        "He's twelve.",
+        "She's twelve.",
+        "He's 12.",
+        "She's 12.",
+        "His age is twelve.",
+        "Her age is twelve.",
+        "His age is 12.",
+        "Her age is 12."
+      ]
+    },
+    {
+      "id": "e15",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আমার বয়স বিশ।",
+        "tr": "amar boyosh bish.",
+        "en": "I am twenty."
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "আমার বয়স বিশ।",
+        "amar boyosh bish",
+        "amar boyos bish",
+        "amar boyosh bis",
+        "amar boyos bis",
+        "amar boyosh bish bochhor"
+      ],
+      "why": "Say **আমার বয়স** 'my age', not আমি, and add no verb."
+    }
+  ]
+}

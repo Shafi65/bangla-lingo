@@ -186,12 +186,12 @@
     },
     {
       "id": "u07-l03",
-      "title": "Near, far, next to",
-      "goal": "Describe where things are using postpositions.",
+      "title": "Near & far",
+      "goal": "Say where a place is relative to a landmark: near, far, next to, in front, behind.",
       "grammar": [
         "postpositions follow a genitive noun: স্টেশনের কাছে, বাড়ির পাশে",
         "genitive -র after vowels, -এর after consonants",
-        "কাছে / দূরে / বাইরে / উপরে / নিচে can also stand alone"
+        "দূরে can stand alone"
       ],
       "new": [
         "kachhe",
@@ -199,28 +199,25 @@
         "pashe",
         "shamne",
         "pichhone",
-        "bhitore",
-        "baire",
-        "upore",
-        "niche",
         "steshoner",
         "barir",
-        "hoteler",
-        "bashar"
+        "hoteler"
       ],
       "review": [
         "hotel",
+        "steshon",
         "bajar",
         "ki-q",
         "dokanta",
         "amar",
         "basha",
-        "ma",
-        "baba",
-        "apu",
-        "abbu"
+        "onek",
+        "khub",
+        "ekta",
+        "dokan",
+        "achhe"
       ],
-      "tip": "English puts 'near, behind, next to' *before* the noun; Bengali puts them **after** it, as **postpositions**. The noun takes the 'of' ending first:\n\n- **স্টেশনের কাছে** — 'near the station'\n- **বাড়ির পাশে** — 'next to the house'\n- **হোটেলের সামনে** — 'in front of the hotel'\n- **স্টেশনের পিছনে** — 'behind the station'\n\nThe ending is **-এর** after a consonant (স্টেশনের, হোটেলের) and **-র** after a vowel (বাড়ির, বাসার). Don't drop it: **স্টেশন কাছে** means 'the station is near'.\n\nMany of these words stand alone too: **বাবা বাইরে** 'Dad is outside', **আপু উপরে** 'Apu is upstairs', **বাজার কি দূরে?** 'Is the market far?' 'Far *from*' takes **থেকে**: **স্টেশন থেকে দূরে**.\n\nAlso heard: **পেছনে** for পিছনে, **ভেতরে** for ভিতরে.",
+      "tip": "English puts 'near, behind' *before* the noun; Bengali puts them **after** it, and the noun takes the 'of' ending first:\n\n- **স্টেশনের কাছে** 'near the station'\n- **বাড়ির পাশে** 'next to the house'\n- **হোটেলের সামনে** 'in front of the hotel'\n- **স্টেশনের পিছনে** 'behind the station'\n\nThe ending is **-এর** after a consonant (স্টেশনের, হোটেলের) and **-র** after a vowel (বাড়ির). Don't drop it: **স্টেশন কাছে** means 'the station is near'.\n\n**দূরে** 'far' often stands alone: **বাজার কি দূরে?** Also heard: **পেছনে** for পিছনে.",
       "sentences": [
         {
           "bn": "হোটেল স্টেশনের কাছে।",
@@ -254,6 +251,67 @@
           "en": "The market is behind the station."
         },
         {
+          "bn": "স্টেশন অনেক দূরে।",
+          "tr": "steshon onek dure.",
+          "en": "The station is very far.",
+          "alt": [
+            "The station is far away."
+          ]
+        },
+        {
+          "bn": "বাসা খুব কাছে।",
+          "tr": "basha khub kachhe.",
+          "en": "The house is very close.",
+          "alt": [
+            "Home is very near."
+          ]
+        },
+        {
+          "bn": "বাড়ির সামনে একটা দোকান আছে।",
+          "tr": "barir shamne ekta dokan achhe.",
+          "en": "There is a shop in front of the house."
+        },
+        {
+          "bn": "বাজার হোটেলের কাছে।",
+          "tr": "bajar hoteler kachhe.",
+          "en": "The market is near the hotel."
+        }
+      ]
+    },
+    {
+      "id": "u07-l03b",
+      "title": "Inside, outside, which way",
+      "goal": "Say inside, outside, upstairs, downstairs, and ask which way.",
+      "grammar": [
+        "ভিতরে / বাইরে / উপরে / নিচে, alone or after a genitive: বাসার ভিতরে",
+        "কোন দিকে? 'which way?'; ওই দিকে 'that way'",
+        "spoken 'or': ডানে না বামে?"
+      ],
+      "new": [
+        "bhitore",
+        "baire",
+        "upore",
+        "niche",
+        "bashar",
+        "kon",
+        "dike"
+      ],
+      "review": [
+        "ma",
+        "baba",
+        "apu",
+        "abbu",
+        "chacha",
+        "steshon",
+        "hotel",
+        "oi",
+        "dane",
+        "bame",
+        "dokanta"
+      ],
+      "tip": "Four words that often stand alone:\n\n**ভিতরে** 'inside' · **বাইরে** 'outside' · **উপরে** 'upstairs, above' · **নিচে** 'downstairs, below'\n\n**বাবা বাইরে** 'Dad is outside', **আপু উপরে** 'Apu is upstairs'. With a noun, add 'of' first: **বাসার ভিতরে** 'inside the house' (বাসা + -র).\n\n'Which way?' is **কোন দিকে?** (**কোন** 'which', **দিকে** 'towards'). Answer with a point: **ওই দিকে** 'that way'. Keep **কোন** (which) apart from **কোথায়** (where).\n\nIn speech, **না** between two choices means 'or': **ডানে না বামে?** 'right or left?'\n\nAlso heard: **ভেতরে**, **ওপরে**.",
+      "sentences": [
+        {
           "bn": "মা বাসার ভিতরে।",
           "tr": "ma bashar bhitore.",
           "en": "Mom is inside the house.",
@@ -278,31 +336,40 @@
           ]
         },
         {
-          "bn": "স্টেশন অনেক দূরে।",
-          "tr": "steshon onek dure.",
-          "en": "The station is very far.",
-          "alt": [
-            "The station is far away."
-          ]
+          "bn": "স্টেশন কোন দিকে?",
+          "tr": "steshon kon dike?",
+          "en": "Which way is the station?"
         },
         {
-          "bn": "বাসা খুব কাছে।",
-          "tr": "basha khub kachhe.",
-          "en": "The house is very close.",
-          "alt": [
-            "Home is very near."
-          ]
+          "bn": "স্টেশন ওই দিকে।",
+          "tr": "steshon oi dike.",
+          "en": "The station is that way."
+        },
+        {
+          "bn": "হোটেল কোন দিকে, ডানে না বামে?",
+          "tr": "hotel kon dike, dane na bame?",
+          "en": "Which way is the hotel, right or left?"
+        },
+        {
+          "bn": "দোকানটা নিচে।",
+          "tr": "dokanta niche.",
+          "en": "The shop is downstairs."
+        },
+        {
+          "bn": "চাচা বাসার বাইরে।",
+          "tr": "chacha bashar baire.",
+          "en": "Uncle is outside the house."
         }
       ]
     },
     {
       "id": "u07-l04",
       "title": "Places in town",
-      "goal": "Name common places and say where you and others live.",
+      "goal": "Name landmarks in town and ask for help.",
       "grammar": [
-        "থাকা 'live, stay': আমি থাকি, আপনি/তিনি থাকেন",
         "genitive + postposition recap: মসজিদের সামনে, বাজারের পাশে",
-        "আছে = 'there is': একটা দোকান আছে"
+        "আছে = 'there is': একটা দোকান আছে",
+        "আমার সাহায্য দরকার; কেউ 'someone' vs কে 'who'"
       ],
       "new": [
         "hashpatal",
@@ -310,26 +377,25 @@
         "moshjider",
         "mondir",
         "bajarer",
-        "shohor",
-        "shohore",
-        "gram",
-        "grame",
-        "thaki",
-        "thaken"
+        "shahajjo",
+        "keu"
       ],
       "review": [
         "kothay",
         "shamne",
+        "pashe",
+        "kachhe",
+        "pichhone",
+        "dure",
         "ekta",
         "dokan",
         "achhe",
-        "pashe",
-        "ami",
         "amar",
-        "nani",
-        "dhaka"
+        "dorkar",
+        "ekhane",
+        "ki-q"
       ],
-      "tip": "Mosques (**মসজিদ**) are everywhere in Bangladesh and make handy landmarks: **মসজিদের সামনে** 'in front of the mosque'. Hindu temples (**মন্দির**) are common too. Addresses often work this way: **বাজারের পাশে** 'next to the market'.\n\n'Live' (in a place) is **থাকি** (I) / **থাকেন** (polite 'you' or he/she):\n\n- **আমি শহরে থাকি** — 'I live in the city'\n- **আমার নানি গ্রামে থাকেন** — 'My grandmother lives in the village' (polite -েন for an elder)\n- **আপনি কোথায় থাকেন?** — 'Where do you live?'\n\n**আছে** at the end means 'there is': **মসজিদের সামনে একটা দোকান আছে**.\n\n*Culture:* most city families still have a village **বাড়ি** and return to their **গ্রাম** for Eid; Dhaka empties out.",
+      "tip": "Mosques (**মসজিদ**) are everywhere in Bangladesh and make handy landmarks: **মসজিদের সামনে** 'in front of the mosque'. Hindu temples (**মন্দির**) are common too. Addresses often work this way: **বাজারের পাশে** 'next to the market'.\n\n**আছে** at the end means 'there is': **মসজিদের সামনে একটা দোকান আছে**.\n\nIf you are lost: **আমার সাহায্য দরকার** 'I need help' (like আমার পানি দরকার). **কেউ** is 'someone, anyone': **এখানে কি কেউ আছে?** 'Is anyone here?' Don't confuse it with **কে** 'who'.",
       "sentences": [
         {
           "bn": "হাসপাতাল কোথায়?",
@@ -346,6 +412,73 @@
           "tr": "mondir bajarer pashe.",
           "en": "The temple is next to the market."
         },
+        {
+          "bn": "হাসপাতাল কি মসজিদের কাছে?",
+          "tr": "hashpatal ki moshjider kachhe?",
+          "en": "Is the hospital near the mosque?"
+        },
+        {
+          "bn": "মসজিদ কোথায়? বাজারের পিছনে।",
+          "tr": "moshjid kothay? bajarer pichhone.",
+          "en": "Where is the mosque? Behind the market."
+        },
+        {
+          "bn": "আমার সাহায্য দরকার।",
+          "tr": "amar shahajjo dorkar.",
+          "en": "I need help."
+        },
+        {
+          "bn": "এখানে কি কেউ আছে?",
+          "tr": "ekhane ki keu achhe?",
+          "en": "Is anyone here?",
+          "alt": [
+            "Is there anybody here?"
+          ]
+        },
+        {
+          "bn": "হাসপাতাল কি দূরে?",
+          "tr": "hashpatal ki dure?",
+          "en": "Is the hospital far?"
+        }
+      ]
+    },
+    {
+      "id": "u07-l04b",
+      "title": "Where I live",
+      "goal": "Say where you and others live: city or village.",
+      "grammar": [
+        "থাকা 'live, stay': আমি থাকি, আপনি/তিনি থাকেন",
+        "locative -এ: শহরে, গ্রামে",
+        "তাহলে 'then, in that case'"
+      ],
+      "new": [
+        "shohor",
+        "shohore",
+        "gram",
+        "grame",
+        "thaki",
+        "thaken",
+        "tahole"
+      ],
+      "review": [
+        "ami",
+        "apni",
+        "amar",
+        "nani",
+        "dadi",
+        "kothay",
+        "dhaka",
+        "dhakay",
+        "bari",
+        "shilete",
+        "kintu",
+        "boro",
+        "chhoto",
+        "hashpatal",
+        "kachhe"
+      ],
+      "tip": "'Live' (in a place) is **থাকি** (I) / **থাকেন** (polite 'you', or he/she for an elder):\n\n- **আমি শহরে থাকি** 'I live in the city'\n- **আমার নানি গ্রামে থাকেন** 'My grandmother lives in the village'\n- **আপনি কোথায় থাকেন?** 'Where do you live?'\n\nThe place takes the 'in' ending: শহর → **শহরে**, গ্রাম → **গ্রামে**.\n\n**তাহলে** 'then, in that case' answers what you just heard: **আপনি শহরে থাকেন? তাহলে হাসপাতাল কাছে।**\n\n*Culture:* most city families still have a village **বাড়ি** and go back to their **গ্রাম** for Eid; Dhaka empties out.",
+      "sentences": [
         {
           "bn": "আমি শহরে থাকি।",
           "tr": "ami shohore thaki.",
@@ -373,19 +506,22 @@
           "en": "This is a small village."
         },
         {
-          "bn": "হাসপাতাল মসজিদের কাছে।",
-          "tr": "hashpatal moshjider kachhe.",
-          "en": "The hospital is near the mosque."
-        },
-        {
           "bn": "আপনি কোথায় থাকেন?",
           "tr": "apni kothay thaken?",
           "en": "Where do you live?"
         },
         {
-          "bn": "মসজিদ কোথায়?",
-          "tr": "moshjid kothay?",
-          "en": "Where is the mosque?"
+          "bn": "আমি ঢাকায় থাকি, কিন্তু আমার বাড়ি সিলেটে।",
+          "tr": "ami dhakay thaki, kintu amar bari shilete.",
+          "en": "I live in Dhaka, but my family home is in Sylhet.",
+          "alt": [
+            "I live in Dhaka, but I'm from Sylhet."
+          ]
+        },
+        {
+          "bn": "আপনি শহরে থাকেন? তাহলে হাসপাতাল কাছে।",
+          "tr": "apni shohore thaken? tahole hashpatal kachhe.",
+          "en": "You live in the city? Then the hospital is close."
         }
       ]
     },
@@ -605,43 +741,170 @@
     },
     {
       "id": "u07-l07",
-      "title": "Review: getting around",
-      "goal": "Combine directions, places and transport.",
+      "title": "Review: where is it?",
+      "kind": "review",
+      "goal": "Say where places are, where you live, and where your family home is.",
       "grammar": [
-        "কোন দিকে? 'which way?'",
-        "review: postpositions, locatives, যাব/যাবে/যাবেন",
-        "আমার সাহায্য দরকার 'I need help'",
-        "তাহলে 'then / in that case'"
+        "review: বাসা vs বাড়ি; locative -এ / -য়",
+        "genitive + postposition; ভিতরে / বাইরে / উপরে / নিচে",
+        "কোথায় vs কোন দিকে vs কতদূর; থাকি / থাকেন; তাহলে"
       ],
-      "new": [
+      "new": [],
+      "review": [
+        "bari",
+        "basha",
+        "bashay",
+        "steshon",
+        "hotel",
+        "hashpatal",
+        "moshjid",
+        "mondir",
+        "kachhe",
+        "dure",
+        "pashe",
+        "shamne",
+        "pichhone",
+        "bhitore",
+        "baire",
+        "upore",
+        "niche",
+        "keu",
+        "shohor",
+        "gram",
+        "shohore",
+        "grame",
+        "shahajjo",
+        "moshjider",
         "kon",
         "dike",
-        "shahajjo",
-        "keu",
+        "steshoner",
+        "dokanta",
+        "barir",
+        "bajarer",
+        "mama",
+        "bashar",
+        "nani",
+        "thaken",
+        "thaki",
         "tahole"
       ],
-      "review": [
-        "steshon",
-        "bajar",
-        "mama",
-        "dhanmondi",
-        "jaben",
-        "hashpatal",
-        "moshjider",
-        "pashe",
-        "ekhane",
-        "thamen",
-        "dorkar",
-        "dure",
-        "rikshay",
-        "jabo"
-      ],
-      "tip": "Three ways to ask about a place — keep them apart:\n\n- **স্টেশন কোথায়?** — 'Where is the station?'\n- **স্টেশন কোন দিকে?** — 'Which way is the station?' Often answered with a point and **ওই দিকে** 'that way'.\n- **স্টেশন কতদূর?** — 'How far is the station?'\n\nA typical rickshaw ride:\n\n- **মামা, ধানমন্ডি যাবেন?** — **যাব।**\n- **ভাড়া কত?** — **পঞ্চাশ টাকা।**\n- **মোড়ে ডানে যান… এখানে থামেন।**\n\nPostpositions always follow a genitive: **স্টেশনের কাছে**, **মসজিদের পাশে**. 'From … to' is **থেকে … পর্যন্ত**.\n\nIf you are lost: **আমার সাহায্য দরকার** 'I need help'. **এখানে কি কেউ আছে?** 'Is anyone here?' **তাহলে** 'then, in that case' links your plan to what you just heard: **স্টেশন দূরে? তাহলে রিকশায় যাব।**\n\nDirections in Dhaka come in short steps — it's normal to ask again at the next **মোড়**.",
+      "tip": "No new words: places and where things are.\n\n- **বাসা** = where you live now; **বাড়ি** = your family home: **আমার বাসা ঢাকায়, কিন্তু আমার বাড়ি সিলেটে।**\n- 'In / at' a place: **-এ / -য়**: শহরে, গ্রামে, ঢাকায়, বাসায়\n- Position words follow an 'of' noun: **স্টেশনের কাছে**, **বাড়ির পিছনে**, **বাসার ভিতরে**\n- They also stand alone: **বাইরে, উপরে, নিচে, দূরে**\n- **কোথায়?** 'where' · **কোন দিকে?** 'which way'\n- Live: **আমি থাকি**, **আপনি থাকেন**",
       "sentences": [
         {
-          "bn": "স্টেশন কোন দিকে?",
-          "tr": "steshon kon dike?",
-          "en": "Which way is the station?"
+          "bn": "আমার বাড়ি সিলেটে।",
+          "tr": "amar bari shilete.",
+          "en": "My family home is in Sylhet.",
+          "alt": [
+            "I'm from Sylhet."
+          ]
+        },
+        {
+          "bn": "আমার বাসা ঢাকায়।",
+          "tr": "amar basha dhakay.",
+          "en": "I live in Dhaka.",
+          "alt": [
+            "My home is in Dhaka."
+          ]
+        },
+        {
+          "bn": "হাসপাতাল কি মসজিদের পিছনে?",
+          "tr": "hashpatal ki moshjider pichhone?",
+          "en": "Is the hospital behind the mosque?"
+        },
+        {
+          "bn": "হোটেল স্টেশনের পাশে।",
+          "tr": "hotel steshoner pashe.",
+          "en": "The hotel is next to the station."
+        },
+        {
+          "bn": "দোকানটা বাড়ির পিছনে, বাজারের কাছে।",
+          "tr": "dokanta barir pichhone, bajarer kachhe.",
+          "en": "The shop is behind the house, near the market."
+        },
+        {
+          "bn": "মামা বাসার ভিতরে।",
+          "tr": "mama bashar bhitore.",
+          "en": "Mama is inside the house.",
+          "alt": [
+            "Uncle is inside the house."
+          ]
+        },
+        {
+          "bn": "হোটেল কোন দিকে?",
+          "tr": "hotel kon dike?",
+          "en": "Which way is the hotel?"
+        },
+        {
+          "bn": "আমার নানি গ্রামে থাকেন, কিন্তু আমি শহরে থাকি।",
+          "tr": "amar nani grame thaken, kintu ami shohore thaki.",
+          "en": "My grandmother lives in the village, but I live in the city."
+        },
+        {
+          "bn": "আপনি শহরে থাকেন? তাহলে আপনার বাসা কোথায়?",
+          "tr": "apni shohore thaken? tahole apnar basha kothay?",
+          "en": "You live in the city? Then where is your home?"
+        },
+        {
+          "bn": "ভিতরে কি কেউ আছে?",
+          "tr": "bhitore ki keu achhe?",
+          "en": "Is anyone inside?"
+        }
+      ]
+    },
+    {
+      "id": "u07-l07b",
+      "title": "Review: getting around",
+      "kind": "review",
+      "goal": "Give and follow directions and travel by rickshaw, CNG, bus and train.",
+      "grammar": [
+        "review: ডানে / বামে / সোজা যান, মোড়ে, রাস্তা দিয়ে",
+        "যাব / যাবে / যাবেন; থামেন; ছাড়বে",
+        "থেকে … পর্যন্ত; -এ / -য় for 'to' and 'by'"
+      ],
+      "new": [],
+      "review": [
+        "more",
+        "bame",
+        "jan",
+        "riksha",
+        "rikshay",
+        "rasta",
+        "tren",
+        "chharbe",
+        "ekhon",
+        "bas",
+        "dane",
+        "shoja",
+        "mor",
+        "si-en-ji",
+        "gari",
+        "bhara",
+        "tikit",
+        "kotodur",
+        "porjonto",
+        "diye",
+        "mama",
+        "jaben",
+        "dhanmondi",
+        "thamen",
+        "steshone",
+        "jabo",
+        "base",
+        "trene",
+        "jabe",
+        "lagbe",
+        "ponchash",
+        "taka"
+      ],
+      "tip": "No new words: directions and transport.\n\n- Directions: **ডানে / বামে / সোজা যান**, **মোড়ে বামে যান**, **এই রাস্তা দিয়ে**\n- Rickshaw: **মামা, ধানমন্ডি যাবেন?** — **যাব।** **ভাড়া কত?** … **এখানে থামেন।**\n- Future 'go': **যাব** (I), **যাবে** (তুমি / he / she), **যাবেন** (আপনি)\n- By and to: **বাসে**, **ট্রেনে**, **রিকশায়**; **স্টেশনে** 'to the station'\n- From … to: **ঢাকা থেকে সিলেট পর্যন্ত**\n- 'Or' in speech: **বাসে, না ট্রেনে?**",
+      "sentences": [
+        {
+          "bn": "মোড়ে বামে যান।",
+          "tr": "more bame jan.",
+          "en": "Turn left at the intersection.",
+          "alt": [
+            "Go left at the corner."
+          ]
         },
         {
           "bn": "মামা, ধানমন্ডি যাবেন?",
@@ -649,51 +912,59 @@
           "en": "Mama, will you go to Dhanmondi?"
         },
         {
-          "bn": "হাসপাতাল মসজিদের পাশে।",
-          "tr": "hashpatal moshjider pashe.",
-          "en": "The hospital is next to the mosque."
+          "bn": "ট্রেন কি এখন ছাড়বে?",
+          "tr": "tren ki ekhon chharbe?",
+          "en": "Is the train leaving now?",
+          "alt": [
+            "Will the train leave now?"
+          ]
         },
         {
-          "bn": "এখানে থামেন, ভাই।",
-          "tr": "ekhane thamen, bhai.",
-          "en": "Stop here, brother.",
+          "bn": "এই বাস কি ঢাকা যাবে?",
+          "tr": "ei bas ki dhaka jabe?",
+          "en": "Does this bus go to Dhaka?",
+          "alt": [
+            "Will this bus go to Dhaka?"
+          ]
+        },
+        {
+          "bn": "এখানে থামেন।",
+          "tr": "ekhane thamen.",
+          "en": "Stop here, please.",
           "alt": [
             "Please stop here."
           ]
         },
         {
-          "bn": "ঢাকা থেকে সিলেট পর্যন্ত বাসে যাব।",
-          "tr": "dhaka theke shilet porjonto base jabo.",
-          "en": "I will go from Dhaka to Sylhet by bus.",
+          "bn": "আমি রিকশায় স্টেশনে যাব।",
+          "tr": "ami rikshay steshone jabo.",
+          "en": "I will go to the station by rickshaw.",
           "alt": [
-            "We will go by bus from Dhaka to Sylhet."
+            "I'll take a rickshaw to the station."
           ]
         },
         {
-          "bn": "বাজার কি অনেক দূরে?",
-          "tr": "bajar ki onek dure?",
-          "en": "Is the market very far?"
+          "bn": "তুমি কি বাসে যাবে, না ট্রেনে?",
+          "tr": "tumi ki base jabe, na trene?",
+          "en": "Will you go by bus or by train?"
         },
         {
-          "bn": "আমার সাহায্য দরকার।",
-          "tr": "amar shahajjo dorkar.",
-          "en": "I need help."
+          "bn": "ঢাকা থেকে সিলেট পর্যন্ত ভাড়া কত?",
+          "tr": "dhaka theke shilet porjonto bhara koto?",
+          "en": "What's the fare from Dhaka to Sylhet?"
         },
         {
-          "bn": "এখানে কি কেউ আছে?",
-          "tr": "ekhane ki keu achhe?",
-          "en": "Is anyone here?",
+          "bn": "আমার একটা সিএনজি লাগবে।",
+          "tr": "amar ekta si-en-ji lagbe.",
+          "en": "I need a CNG.",
           "alt": [
-            "Is there anybody here?"
+            "I need an auto-rickshaw."
           ]
         },
         {
-          "bn": "স্টেশন দূরে? তাহলে রিকশায় যাব।",
-          "tr": "steshon dure? tahole rikshay jabo.",
-          "en": "The station is far? Then I'll go by rickshaw.",
-          "alt": [
-            "Is the station far? In that case I'll take a rickshaw."
-          ]
+          "bn": "ভাড়া পঞ্চাশ টাকা।",
+          "tr": "bhara ponchash taka.",
+          "en": "The fare is fifty taka."
         }
       ]
     }

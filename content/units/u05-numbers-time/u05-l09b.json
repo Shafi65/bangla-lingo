@@ -1,0 +1,399 @@
+{
+  "id": "u05-l09b",
+  "unit": "u05-numbers-time",
+  "title": "Review: time & days",
+  "status": "draft",
+  "tip": "No new words: time, parts of the day, and days.\n\n- **কয়টা বাজে?** — **পাঁচটা বাজে।** Clock hours take **-টা**.\n- **সাড়ে** half past (from 3:30), **সোয়া** quarter past, **পৌনে** quarter to. 1:30 = **দেড়টা**, 2:30 = **আড়াইটা**.\n- 'In the …' adds **-এ / -য়**: সকাল → **সকালে**, সন্ধ্যা → **সন্ধ্যায়**.\n- **আজ কী বার?** **বার** is for weekday names; **দিন** is any day.\n- **কাল** = tomorrow or yesterday.",
+  "vocab": [],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "বাবা, এখন কয়টা বাজে?",
+        "tr": "baba, ekhon koyta baje?",
+        "en": "Dad, what time is it now?"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "Dad, what time is it now?",
+        "Dad, how many are there now?",
+        "Dad, what day is it today?",
+        "Dad, do you have time now?"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e02",
+      "type": "listen_select",
+      "audio": {
+        "bn": "আড়াই",
+        "tr": "arai",
+        "en": "two and a half"
+      },
+      "options": [
+        "দেড়",
+        "দেড়টা",
+        "আড়াই",
+        "আড়াইটা"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "পৌনে দশটা বাজে।",
+        "tr": "poune doshta baje.",
+        "en": "It's quarter to ten."
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "It's quarter past ten.",
+        "It's quarter to ten.",
+        "It's half past ten.",
+        "It's quarter to two."
+      ],
+      "answer": 1,
+      "why": "**পৌনে** = quarter *to*; **সোয়া** = quarter *past*."
+    },
+    {
+      "id": "e04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "সকাল",
+          "tr": "shokal",
+          "en": "morning"
+        },
+        {
+          "bn": "দুপুর",
+          "tr": "dupur",
+          "en": "noon"
+        },
+        {
+          "bn": "বিকাল",
+          "tr": "bikal",
+          "en": "afternoon"
+        },
+        {
+          "bn": "সন্ধ্যা",
+          "tr": "shondha",
+          "en": "evening"
+        },
+        {
+          "bn": "রাত",
+          "tr": "rat",
+          "en": "night"
+        }
+      ]
+    },
+    {
+      "id": "e05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "সকালে",
+          "tr": "shokale",
+          "en": "in the morning"
+        },
+        {
+          "bn": "দুপুরে",
+          "tr": "dupure",
+          "en": "at noon"
+        },
+        {
+          "bn": "বিকালে",
+          "tr": "bikale",
+          "en": "in the afternoon"
+        },
+        {
+          "bn": "সন্ধ্যায়",
+          "tr": "shondhay",
+          "en": "in the evening"
+        },
+        {
+          "bn": "রাতে",
+          "tr": "rate",
+          "en": "at night"
+        }
+      ]
+    },
+    {
+      "id": "e06",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "রবিবার",
+          "tr": "robibar",
+          "en": "Sunday"
+        },
+        {
+          "bn": "সোমবার",
+          "tr": "shombar",
+          "en": "Monday"
+        },
+        {
+          "bn": "মঙ্গলবার",
+          "tr": "monggolbar",
+          "en": "Tuesday"
+        },
+        {
+          "bn": "বুধবার",
+          "tr": "budhbar",
+          "en": "Wednesday"
+        },
+        {
+          "bn": "বৃহস্পতিবার",
+          "tr": "brihoshpotibar",
+          "en": "Thursday"
+        }
+      ]
+    },
+    {
+      "id": "e07",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "শুক্রবার",
+          "tr": "shukrobar",
+          "en": "Friday"
+        },
+        {
+          "bn": "শনিবার",
+          "tr": "shonibar",
+          "en": "Saturday"
+        },
+        {
+          "bn": "আজ",
+          "tr": "aj",
+          "en": "today"
+        },
+        {
+          "bn": "কাল",
+          "tr": "kal",
+          "en": "tomorrow; yesterday"
+        },
+        {
+          "bn": "সপ্তাহে",
+          "tr": "shoptahe",
+          "en": "in a week"
+        }
+      ]
+    },
+    {
+      "id": "e08",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "সময়",
+          "tr": "shomoy",
+          "en": "time"
+        },
+        {
+          "bn": "ঘণ্টা",
+          "tr": "ghonta",
+          "en": "hour"
+        },
+        {
+          "bn": "মিনিট",
+          "tr": "minit",
+          "en": "minute"
+        },
+        {
+          "bn": "মাস",
+          "tr": "mash",
+          "en": "month"
+        },
+        {
+          "bn": "বছর",
+          "tr": "bochhor",
+          "en": "year"
+        }
+      ]
+    },
+    {
+      "id": "e09",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আড়াইটা বাজে।",
+        "tr": "araita baje.",
+        "en": "It's half past two."
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "সাড়ে দুইটা বাজে।",
+        "দেড়টা বাজে।",
+        "আড়াইটা বাজে।",
+        "সোয়া দুইটা বাজে।"
+      ],
+      "answer": 2,
+      "why": "2:30 is **আড়াইটা** and 1:30 is **দেড়টা**; সাড়ে is used from 3:30."
+    },
+    {
+      "id": "e10",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আমি সকালে চা খাই।",
+        "tr": "ami shokale cha khai.",
+        "en": "I drink tea in the morning."
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "আমি সকাল চা খাই।",
+        "আমি রাতে চা খাই।",
+        "আমি সকালে চা খান।",
+        "আমি সকালে চা খাই।"
+      ],
+      "answer": 3,
+      "why": "'In the morning' takes the locative: সকাল + **-এ** = সকালে."
+    },
+    {
+      "id": "e11",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "এখন সাড়ে পাঁচটা বাজে।",
+        "tr": "ekhon share pa~chta baje.",
+        "en": "It's half past five now."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "now",
+        "quarter",
+        "five",
+        "past",
+        "half",
+        "to",
+        "It's",
+        "six"
+      ],
+      "answer": [
+        "It's",
+        "half",
+        "past",
+        "five",
+        "now"
+      ],
+      "alt": [
+        [
+          "It's",
+          "now",
+          "half",
+          "past",
+          "five"
+        ]
+      ]
+    },
+    {
+      "id": "e12",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমার দেড় ঘণ্টা সময় আছে।",
+        "tr": "amar der ghonta shomoy achhe.",
+        "en": "I have an hour and a half."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "an",
+        "hour",
+        "I",
+        "a",
+        "half",
+        "and",
+        "two",
+        "don't",
+        "minutes",
+        "have"
+      ],
+      "answer": [
+        "I",
+        "have",
+        "an",
+        "hour",
+        "and",
+        "a",
+        "half"
+      ]
+    },
+    {
+      "id": "e13",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "সোয়া বারোটা বাজে।",
+        "tr": "shoya barota baje.",
+        "en": "It's quarter past twelve."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "বারোটা",
+        "সোয়া",
+        "বারো",
+        "পৌনে",
+        "সাড়ে",
+        "বাজে"
+      ],
+      "answer": [
+        "সোয়া",
+        "বারোটা",
+        "বাজে"
+      ],
+      "why": "Clock hours take **-টা**: বারোটা; bare বারো is just 'twelve'."
+    },
+    {
+      "id": "e14",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "শুক্রবার দুপুরে আমরা বিরিয়ানি খাই।",
+        "tr": "shukrobar dupure amra biriyani khai.",
+        "en": "We eat biryani on Friday at noon."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "খাই",
+        "শুক্রবার",
+        "খান",
+        "রাতে",
+        "বিরিয়ানি",
+        "দুপুর",
+        "দুপুরে",
+        "আমরা"
+      ],
+      "answer": [
+        "শুক্রবার",
+        "দুপুরে",
+        "আমরা",
+        "বিরিয়ানি",
+        "খাই"
+      ],
+      "alt": [
+        [
+          "আমরা",
+          "শুক্রবার",
+          "দুপুরে",
+          "বিরিয়ানি",
+          "খাই"
+        ]
+      ]
+    },
+    {
+      "id": "e15",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আজ কী বার?",
+        "tr": "aj ki bar?",
+        "en": "What day is it today?"
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "আজ কী বার?",
+        "আজ কি বার?",
+        "aj ki bar",
+        "aaj ki bar",
+        "aj ki baar",
+        "aaj ki baar",
+        "aj ki bar?"
+      ],
+      "why": "Weekdays use **বার**; **দিন** is any day."
+    }
+  ]
+}

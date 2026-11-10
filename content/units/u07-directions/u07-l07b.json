@@ -1,0 +1,377 @@
+{
+  "id": "u07-l07b",
+  "unit": "u07-directions",
+  "title": "Review: getting around",
+  "status": "draft",
+  "tip": "No new words: directions and transport.\n\n- Directions: **ডানে / বামে / সোজা যান**, **মোড়ে বামে যান**, **এই রাস্তা দিয়ে**\n- Rickshaw: **মামা, ধানমন্ডি যাবেন?** — **যাব।** **ভাড়া কত?** … **এখানে থামেন।**\n- Future 'go': **যাব** (I), **যাবে** (তুমি / he / she), **যাবেন** (আপনি)\n- By and to: **বাসে**, **ট্রেনে**, **রিকশায়**; **স্টেশনে** 'to the station'\n- From … to: **ঢাকা থেকে সিলেট পর্যন্ত**\n- 'Or' in speech: **বাসে, না ট্রেনে?**",
+  "vocab": [],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "মোড়ে বামে যান।",
+        "tr": "more bame jan.",
+        "en": "Turn left at the intersection."
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "Turn left at the intersection.",
+        "Turn right at the intersection.",
+        "Go straight at the intersection.",
+        "Turn left at the station."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e02",
+      "type": "listen_select",
+      "audio": {
+        "bn": "রিকশায়",
+        "tr": "rikshay",
+        "en": "by rickshaw"
+      },
+      "options": [
+        "রিকশা",
+        "রাস্তা",
+        "রিকশায়",
+        "রাতে"
+      ],
+      "answer": 2,
+      "why": "**-য়** means 'by / in': রিকশায় 'by rickshaw'."
+    },
+    {
+      "id": "e03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ট্রেন কি এখন ছাড়বে?",
+        "tr": "tren ki ekhon chharbe?",
+        "en": "Is the train leaving now?"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "Is the bus leaving now?",
+        "Is the train leaving now?",
+        "Where is the train now?",
+        "The train left now."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e04",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "এই বাস কি ঢাকা যাবে?",
+        "tr": "ei bas ki dhaka jabe?",
+        "en": "Does this bus go to Dhaka?"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "Is this bus from Dhaka?",
+        "Will you go to Dhaka by bus?",
+        "Where is the bus to Dhaka?",
+        "Does this bus go to Dhaka?"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "ডানে",
+          "tr": "dane",
+          "en": "right"
+        },
+        {
+          "bn": "বামে",
+          "tr": "bame",
+          "en": "left"
+        },
+        {
+          "bn": "সোজা",
+          "tr": "shoja",
+          "en": "straight"
+        },
+        {
+          "bn": "রাস্তা",
+          "tr": "rasta",
+          "en": "road"
+        },
+        {
+          "bn": "মোড়",
+          "tr": "mor",
+          "en": "intersection"
+        }
+      ]
+    },
+    {
+      "id": "e06",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "রিকশা",
+          "tr": "riksha",
+          "en": "rickshaw"
+        },
+        {
+          "bn": "সিএনজি",
+          "tr": "si-en-ji",
+          "en": "CNG"
+        },
+        {
+          "bn": "বাস",
+          "tr": "bas",
+          "en": "bus"
+        },
+        {
+          "bn": "ট্রেন",
+          "tr": "tren",
+          "en": "train"
+        },
+        {
+          "bn": "গাড়ি",
+          "tr": "gari",
+          "en": "car"
+        }
+      ]
+    },
+    {
+      "id": "e07",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "ভাড়া",
+          "tr": "bhara",
+          "en": "fare"
+        },
+        {
+          "bn": "টিকিট",
+          "tr": "tikit",
+          "en": "ticket"
+        },
+        {
+          "bn": "কতদূর",
+          "tr": "kotodur",
+          "en": "how far"
+        },
+        {
+          "bn": "পর্যন্ত",
+          "tr": "porjonto",
+          "en": "to"
+        },
+        {
+          "bn": "দিয়ে",
+          "tr": "diye",
+          "en": "along"
+        }
+      ]
+    },
+    {
+      "id": "e08",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "মামা, ধানমন্ডি যাবেন?",
+        "tr": "mama, dhanmondi jaben?",
+        "en": "Mama, will you go to Dhanmondi? (polite)"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "মামা, ধানমন্ডি যাবে?",
+        "মামা, ধানমন্ডি যাবেন?",
+        "মামা, ধানমন্ডি যাব?",
+        "মামা, ধানমন্ডি যান।"
+      ],
+      "answer": 1,
+      "why": "Ask a driver with the polite future **যাবেন**; **যাব** is 'I will go'."
+    },
+    {
+      "id": "e09",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "এই রাস্তা দিয়ে সোজা যান।",
+        "tr": "ei rasta diye shoja jan.",
+        "en": "Go straight along this road."
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "এই রাস্তা দিয়ে ডানে যান।",
+        "এই রাস্তা থেকে সোজা যান।",
+        "ওই রাস্তা দিয়ে সোজা যান।",
+        "এই রাস্তা দিয়ে সোজা যান।"
+      ],
+      "answer": 3,
+      "why": "**দিয়ে** = 'along, through'; **থেকে** = 'from'."
+    },
+    {
+      "id": "e10",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "এখানে থামেন।",
+        "tr": "ekhane thamen.",
+        "en": "Stop here, please."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "যান",
+        "ওখানে",
+        "এখানে",
+        "থামেন",
+        "সোজা"
+      ],
+      "answer": [
+        "এখানে",
+        "থামেন"
+      ],
+      "why": "**থামেন** is the everyday polite 'stop'."
+    },
+    {
+      "id": "e11",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমি রিকশায় স্টেশনে যাব।",
+        "tr": "ami rikshay steshone jabo.",
+        "en": "I will go to the station by rickshaw."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "আমি",
+        "যাব",
+        "যাবেন",
+        "স্টেশনে",
+        "রিকশা",
+        "স্টেশন",
+        "রিকশায়"
+      ],
+      "answer": [
+        "আমি",
+        "রিকশায়",
+        "স্টেশনে",
+        "যাব"
+      ],
+      "alt": [
+        [
+          "আমি",
+          "স্টেশনে",
+          "রিকশায়",
+          "যাব"
+        ]
+      ],
+      "why": "**-এ / -য়** marks both 'to' (স্টেশনে) and 'by' (রিকশায়)."
+    },
+    {
+      "id": "e12",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "তুমি কি বাসে যাবে, না ট্রেনে?",
+        "tr": "tumi ki base jabe, na trene?",
+        "en": "Will you go by bus or by train?"
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "or",
+        "by",
+        "car",
+        "bus",
+        "go",
+        "station",
+        "Will",
+        "you",
+        "by",
+        "train",
+        "I"
+      ],
+      "answer": [
+        "Will",
+        "you",
+        "go",
+        "by",
+        "bus",
+        "or",
+        "by",
+        "train"
+      ],
+      "alt": [
+        [
+          "Will",
+          "you",
+          "go",
+          "by",
+          "bus",
+          "or",
+          "train"
+        ]
+      ]
+    },
+    {
+      "id": "e13",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "ঢাকা থেকে সিলেট পর্যন্ত ভাড়া কত?",
+        "tr": "dhaka theke shilet porjonto bhara koto?",
+        "en": "What's the fare from Dhaka to Sylhet?"
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "the",
+        "ticket",
+        "from",
+        "to",
+        "Dhaka",
+        "Sylhet",
+        "fare",
+        "What's",
+        "by",
+        "far"
+      ],
+      "answer": [
+        "What's",
+        "the",
+        "fare",
+        "from",
+        "Dhaka",
+        "to",
+        "Sylhet"
+      ]
+    },
+    {
+      "id": "e14",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আমার একটা সিএনজি লাগবে।",
+        "tr": "amar ekta si-en-ji lagbe.",
+        "en": "I need a CNG."
+      },
+      "direction": "bn_to_en",
+      "accepted": [
+        "I need a CNG.",
+        "I need an auto-rickshaw.",
+        "I need a CNG auto-rickshaw.",
+        "I need one CNG.",
+        "I'll need a CNG.",
+        "I will need a CNG.",
+        "I need a cng."
+      ]
+    },
+    {
+      "id": "e15",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "ভাড়া পঞ্চাশ টাকা।",
+        "tr": "bhara ponchash taka.",
+        "en": "The fare is fifty taka."
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "ভাড়া পঞ্চাশ টাকা।",
+        "bhara ponchash taka",
+        "vara ponchash taka",
+        "bhara ponchas taka",
+        "vara ponchas taka",
+        "bhara 50 taka",
+        "vara 50 taka",
+        "bhara ponchash taka."
+      ]
+    }
+  ]
+}

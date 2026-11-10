@@ -1,0 +1,375 @@
+{
+  "id": "u06-l07b",
+  "unit": "u06-bazaar",
+  "title": "Change, bags & the best",
+  "status": "draft",
+  "tip": "Before paying with a big note, ask **ভাংতি আছে?** 'Do you have change?' **ভাংতি** and **খুচরা** both mean 'change' (small notes and coins); Kolkata says খুচরো. Vendors often can't break ৳500 or ৳1,000.\n\nBring your own **ব্যাগ** (bag): many markets now discourage plastic bags. **আমার ব্যাগ লাগবে না** = 'I don't need a bag'.\n\n**সবচেয়ে** + adjective = 'the most …': **সবচেয়ে ভালো** 'the best', **সবচেয়ে সস্তা** 'the cheapest'.\n\n**জিনিস** is 'thing(s)': **সব জিনিস** 'everything'.",
+  "vocab": [
+    {
+      "id": "bhangti",
+      "bn": "ভাংতি",
+      "tr": "bhangti",
+      "en": "change",
+      "notes": "Small notes/coins. Drivers and vendors often lack change for a ৳500 or ৳1000 note. খুচরা means the same and is equally common; both are fine."
+    },
+    {
+      "id": "khuchra",
+      "bn": "খুচরা",
+      "tr": "khuchra",
+      "en": "change",
+      "notes": "Same meaning as ভাংতি; both are common in Bangladesh (খুচরা is also the usual written word)."
+    },
+    {
+      "id": "byag",
+      "bn": "ব্যাগ",
+      "tr": "byag",
+      "en": "bag"
+    },
+    {
+      "id": "jinish",
+      "bn": "জিনিস",
+      "tr": "jinish",
+      "en": "thing"
+    },
+    {
+      "id": "shobcheye",
+      "bn": "সবচেয়ে",
+      "tr": "shobcheye",
+      "en": "the most",
+      "notes": "সবচেয়ে + adjective = superlative: সবচেয়ে ভালো \"the best\", সবচেয়ে সস্তা \"the cheapest\"."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ভাংতি",
+        "tr": "bhangti",
+        "en": "change"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "price",
+        "problem",
+        "change",
+        "bag"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "খুচরা",
+        "tr": "khuchra",
+        "en": "change"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "change",
+        "money",
+        "shop",
+        "cheap"
+      ],
+      "answer": 0,
+      "why": "**ভাংতি** and **খুচরা** both mean 'change'."
+    },
+    {
+      "id": "e03",
+      "type": "listen_select",
+      "audio": {
+        "bn": "ভাংতি",
+        "tr": "bhangti",
+        "en": "change"
+      },
+      "options": [
+        "ভাংতি",
+        "ভাত",
+        "বাংলা",
+        "ভাই"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e04",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ব্যাগ",
+        "tr": "byag",
+        "en": "bag"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "thing",
+        "bag",
+        "shop",
+        "price"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e05",
+      "type": "listen_select",
+      "audio": {
+        "bn": "ব্যাগ",
+        "tr": "byag",
+        "en": "bag"
+      },
+      "options": [
+        "বাবা",
+        "বাজার",
+        "বাবার",
+        "ব্যাগ"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e06",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "জিনিস",
+        "tr": "jinish",
+        "en": "thing"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "problem",
+        "food",
+        "thing",
+        "bag"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e07",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "সবচেয়ে",
+        "tr": "shobcheye",
+        "en": "the most"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "all",
+        "everyone",
+        "very",
+        "the most"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e08",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "ভাংতি",
+          "tr": "bhangti",
+          "en": "change"
+        },
+        {
+          "bn": "ব্যাগ",
+          "tr": "byag",
+          "en": "bag"
+        },
+        {
+          "bn": "জিনিস",
+          "tr": "jinish",
+          "en": "thing"
+        },
+        {
+          "bn": "সবচেয়ে",
+          "tr": "shobcheye",
+          "en": "the most"
+        },
+        {
+          "bn": "সস্তা",
+          "tr": "shosta",
+          "en": "cheap"
+        }
+      ]
+    },
+    {
+      "id": "e09",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "খুচরা টাকা আছে?",
+        "tr": "khuchra taka achhe?",
+        "en": "Do you have change?"
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "have",
+        "you",
+        "any",
+        "Do",
+        "Is",
+        "price",
+        "change",
+        "there"
+      ],
+      "answer": [
+        "Do",
+        "you",
+        "have",
+        "change"
+      ],
+      "alt": [
+        [
+          "Do",
+          "you",
+          "have",
+          "any",
+          "change"
+        ],
+        [
+          "Is",
+          "there",
+          "change"
+        ],
+        [
+          "Is",
+          "there",
+          "any",
+          "change"
+        ]
+      ]
+    },
+    {
+      "id": "e10",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আমার ব্যাগ লাগবে না।",
+        "tr": "amar byag lagbe na.",
+        "en": "I don't need a bag."
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "আমার ব্যাগ লাগবে না।",
+        "আমার ব্যাগ লাগবে।",
+        "আমার ব্যাগ নেই।",
+        "আমি ব্যাগ লাগবে না।"
+      ],
+      "answer": 0,
+      "why": "**লাগবে** 'need' takes **আমার**, not আমি; **না** makes it 'don't need'."
+    },
+    {
+      "id": "e11",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "এইটা সবচেয়ে ভালো।",
+        "tr": "eita shobcheye bhalo.",
+        "en": "This one is the best."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "খুব",
+        "ওইটা",
+        "এইটা",
+        "সব",
+        "ভালো",
+        "সবচেয়ে"
+      ],
+      "answer": [
+        "এইটা",
+        "সবচেয়ে",
+        "ভালো"
+      ],
+      "why": "**সবচেয়ে** + adjective = 'the most …'; খুব is only 'very'."
+    },
+    {
+      "id": "e12",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "বাজারে সব জিনিস সস্তা।",
+        "tr": "bajare shob jinish shosta.",
+        "en": "Everything is cheap at the market."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "Everything",
+        "shop",
+        "at",
+        "market",
+        "the",
+        "in",
+        "is",
+        "expensive",
+        "cheap"
+      ],
+      "answer": [
+        "Everything",
+        "is",
+        "cheap",
+        "at",
+        "the",
+        "market"
+      ],
+      "alt": [
+        [
+          "Everything",
+          "is",
+          "cheap",
+          "in",
+          "the",
+          "market"
+        ]
+      ]
+    },
+    {
+      "id": "e13",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "ওই শাড়িটা সবচেয়ে সস্তা।",
+        "tr": "oi sharita shobcheye shosta.",
+        "en": "That sari is the cheapest."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "ওই",
+        "দামি",
+        "এই",
+        "সবচেয়ে",
+        "সস্তা",
+        "খুব",
+        "শাড়িটা"
+      ],
+      "answer": [
+        "ওই",
+        "শাড়িটা",
+        "সবচেয়ে",
+        "সস্তা"
+      ]
+    },
+    {
+      "id": "e14",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "ভাংতি আছে?",
+        "tr": "bhangti achhe?",
+        "en": "Do you have change?"
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "ভাংতি আছে?",
+        "খুচরা আছে?",
+        "খুচরা টাকা আছে?",
+        "ভাংতি টাকা আছে?",
+        "খুচরো আছে?",
+        "খুচরো টাকা আছে?",
+        "bhangti achhe",
+        "bhangti ache",
+        "vangti achhe",
+        "vangti ache",
+        "bhangti taka achhe",
+        "bhangti taka ache",
+        "khuchra achhe",
+        "khuchra ache",
+        "khuchra taka achhe",
+        "khuchra taka ache",
+        "khuchro achhe",
+        "khuchro ache"
+      ]
+    }
+  ]
+}

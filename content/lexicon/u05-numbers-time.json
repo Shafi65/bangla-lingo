@@ -140,7 +140,7 @@
       "tr": "sholo",
       "en": "sixteen",
       "pos": "number",
-      "lesson": "u05-l02"
+      "lesson": "u05-l02b"
     },
     {
       "id": "shotero",
@@ -148,7 +148,7 @@
       "tr": "shotero",
       "en": "seventeen",
       "pos": "number",
-      "lesson": "u05-l02"
+      "lesson": "u05-l02b"
     },
     {
       "id": "atharo",
@@ -156,7 +156,7 @@
       "tr": "atharo",
       "en": "eighteen",
       "pos": "number",
-      "lesson": "u05-l02"
+      "lesson": "u05-l02b"
     },
     {
       "id": "unish",
@@ -164,7 +164,7 @@
       "tr": "unish",
       "en": "nineteen",
       "pos": "number",
-      "lesson": "u05-l02",
+      "lesson": "u05-l02b",
       "notes": "Lit. 'one less than twenty' — the same pattern as 29 (ঊনত্রিশ), 39 etc."
     },
     {
@@ -173,7 +173,7 @@
       "tr": "bish",
       "en": "twenty",
       "pos": "number",
-      "lesson": "u05-l02"
+      "lesson": "u05-l02b"
     },
     {
       "id": "boyosh",
@@ -181,7 +181,7 @@
       "tr": "boyosh",
       "en": "age",
       "pos": "noun",
-      "lesson": "u05-l02"
+      "lesson": "u05-l02b"
     },
     {
       "id": "shunno-digit",
@@ -685,7 +685,7 @@
         "yesterday"
       ],
       "pos": "adv",
-      "lesson": "u05-l08",
+      "lesson": "u05-l08b",
       "notes": "Tense tells you which. To be explicit: আগামীকাল (agamikal) tomorrow, গতকাল (gotokal) yesterday."
     },
     {
@@ -709,7 +709,7 @@
         "days"
       ],
       "pos": "noun",
-      "lesson": "u05-l08"
+      "lesson": "u05-l08b"
     },
     {
       "id": "shoptahe",
@@ -722,7 +722,7 @@
         "in one week"
       ],
       "pos": "adv",
-      "lesson": "u05-l08",
+      "lesson": "u05-l08b",
       "notes": "সপ্তাহ (shoptaho) 'week' + -এ."
     },
     {
@@ -793,7 +793,7 @@
         "years"
       ],
       "pos": "noun",
-      "lesson": "u05-l09",
+      "lesson": "u05-l08b",
       "notes": "আমার বয়স বিশ বছর = 'I am twenty years old'."
     },
     {
@@ -807,7 +807,7 @@
         "in one year"
       ],
       "pos": "adv",
-      "lesson": "u05-l09"
+      "lesson": "u05-l08b"
     },
     {
       "id": "mash",
@@ -818,7 +818,7 @@
         "months"
       ],
       "pos": "noun",
-      "lesson": "u05-l09"
+      "lesson": "u05-l08b"
     },
     {
       "id": "prothom",
@@ -829,7 +829,7 @@
         "1st"
       ],
       "pos": "adj",
-      "lesson": "u05-l09"
+      "lesson": "u05-l08b"
     }
   ]
 }

@@ -25,12 +25,13 @@
       "id": "basha",
       "bn": "বাসা",
       "tr": "basha",
-      "en": "home",
+      "en": "home (where you live now)",
       "alt": [
         "house",
         "flat",
         "residence",
-        "place"
+        "place",
+        "home"
       ],
       "pos": "noun",
       "lesson": "u07-l01",
@@ -54,11 +55,13 @@
       "id": "bari",
       "bn": "বাড়ি",
       "tr": "bari",
-      "en": "home",
+      "en": "home (family home)",
       "alt": [
         "house",
         "hometown",
-        "home village"
+        "home village",
+        "home",
+        "family home"
       ],
       "pos": "noun",
       "lesson": "u07-l01",
@@ -297,7 +300,7 @@
         "in"
       ],
       "pos": "postposition",
-      "lesson": "u07-l03",
+      "lesson": "u07-l03b",
       "notes": "Also spelled ভেতরে.",
       "kolkata": {
         "bn": "ভেতরে",
@@ -313,7 +316,7 @@
         "out"
       ],
       "pos": "postposition",
-      "lesson": "u07-l03"
+      "lesson": "u07-l03b"
     },
     {
       "id": "upore",
@@ -327,7 +330,7 @@
         "on"
       ],
       "pos": "postposition",
-      "lesson": "u07-l03",
+      "lesson": "u07-l03b",
       "notes": "Also spelled ওপরে."
     },
     {
@@ -341,7 +344,7 @@
         "under"
       ],
       "pos": "postposition",
-      "lesson": "u07-l03"
+      "lesson": "u07-l03b"
     },
     {
       "id": "steshoner",
@@ -380,13 +383,14 @@
       "id": "bashar",
       "bn": "বাসার",
       "tr": "bashar",
-      "en": "of the house",
+      "en": "of the home",
       "alt": [
-        "of the home",
+        "of the house",
+        "of the flat",
         "the flat's"
       ],
       "pos": "noun",
-      "lesson": "u07-l03"
+      "lesson": "u07-l03b"
     },
     {
       "id": "hashpatal",
@@ -440,7 +444,7 @@
         "town"
       ],
       "pos": "noun",
-      "lesson": "u07-l04"
+      "lesson": "u07-l04b"
     },
     {
       "id": "shohore",
@@ -452,7 +456,7 @@
         "in a city"
       ],
       "pos": "noun",
-      "lesson": "u07-l04"
+      "lesson": "u07-l04b"
     },
     {
       "id": "gram",
@@ -460,7 +464,7 @@
       "tr": "gram",
       "en": "village",
       "pos": "noun",
-      "lesson": "u07-l04"
+      "lesson": "u07-l04b"
     },
     {
       "id": "grame",
@@ -471,7 +475,7 @@
         "in a village"
       ],
       "pos": "noun",
-      "lesson": "u07-l04"
+      "lesson": "u07-l04b"
     },
     {
       "id": "thaki",
@@ -484,7 +488,7 @@
         "I stay"
       ],
       "pos": "verb",
-      "lesson": "u07-l04",
+      "lesson": "u07-l04b",
       "notes": "Present of থাকা 'live, stay, remain'."
     },
     {
@@ -498,7 +502,7 @@
         "stays"
       ],
       "pos": "verb",
-      "lesson": "u07-l04",
+      "lesson": "u07-l04b",
       "register": "polite"
     },
     {
@@ -717,7 +721,7 @@
       "tr": "kon",
       "en": "which",
       "pos": "pronoun",
-      "lesson": "u07-l07"
+      "lesson": "u07-l03b"
     },
     {
       "id": "dike",
@@ -730,7 +734,7 @@
         "side"
       ],
       "pos": "postposition",
-      "lesson": "u07-l07",
+      "lesson": "u07-l03b",
       "notes": "কোন দিকে? 'which way?'; ডান দিকে 'to the right side'."
     },
     {
@@ -754,7 +758,7 @@
         "assistance"
       ],
       "pos": "noun",
-      "lesson": "u07-l07",
+      "lesson": "u07-l04",
       "notes": "আমার সাহায্য দরকার = \"I need help\". সাহায্য করা = \"to help\" (করা, U8)."
     },
     {
@@ -768,7 +772,7 @@
         "anybody"
       ],
       "pos": "pronoun",
-      "lesson": "u07-l07",
+      "lesson": "u07-l04",
       "notes": "With a negative verb: কেউ নেই \"there's no one\"."
     },
     {
@@ -782,7 +786,7 @@
         "if so"
       ],
       "pos": "particle",
-      "lesson": "u07-l07"
+      "lesson": "u07-l04b"
     }
   ]
 }

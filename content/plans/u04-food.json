@@ -615,12 +615,12 @@
       ]
     },
     {
-      "id": "u04-l07",
-      "title": "Review: let's eat!",
-      "goal": "Order, offer and talk about food using the whole unit.",
+      "id": "u04-l06b",
+      "title": "Good, bad & biryani",
+      "goal": "Say something is bad or not bad, talk about all the food, and order biryani.",
       "grammar": [
-        "review: খাই/খাও/খান, চাই, পছন্দ, classifiers",
-        "ভালো ↔ খারাপ; খারাপ না \"not bad\""
+        "ভালো ↔ খারাপ; খারাপ না 'not bad'",
+        "সব + noun 'all the …'; সব alone 'everything'"
       ],
       "new": [
         "biriyani",
@@ -628,40 +628,24 @@
         "shob"
       ],
       "review": [
-        "amar",
-        "khub",
-        "pochhondo",
-        "amra",
-        "ilish",
-        "machh",
-        "khai",
-        "apni",
-        "ki-q",
-        "cha",
-        "khan",
-        "ami",
-        "dudh",
-        "chai",
-        "chini",
-        "chhara",
+        "bhalo",
+        "khabar",
         "mojar",
-        "tumi",
-        "ki-what",
-        "khete",
-        "chao",
-        "amgulo",
+        "jhal",
         "mishti",
-        "she",
-        "mangsho",
-        "khay",
-        "na",
-        "khudha",
-        "legechhe",
+        "amar",
+        "pochhondo",
+        "khub",
+        "cha",
         "bhat",
+        "dal",
+        "khai",
         "kintu",
-        "khabar"
+        "eta",
+        "na",
+        "shobai"
       ],
-      "tip": "Three new words: **বিরিয়ানি** (*biriyani*), **খারাপ** (*kharap*, bad) and **সব** (*shob*, all): **সব খাবার** 'all the food'.\n\nOld Dhaka's **কাচ্চি বিরিয়ানি** is legendary, and biryani is the star of weddings and celebrations. And don't forget **ইলিশ** (*ilish*, hilsa) from the vowels unit — Bangladesh's national fish, often cooked in mustard (*shorshe ilish*).\n\nCheck yourself:\n\n- eat: আমি **খাই**, তুমি **খাও**, আপনি **খান**, সে **খায়**\n- want: **চাই** / **খেতে চাই**\n- like: **আমার … পছন্দ** / **ভালো লাগে**\n- the: আম**টা**, আম**গুলো**\n\n**খারাপ** is the opposite of ভালো; **খারাপ না** 'not bad' is a common, modest compliment.",
+      "tip": "Three new words:\n\n- **বিরিয়ানি** (*biriyani*): biryani, the star of weddings. Old Dhaka is famous for *kachchi* biryani.\n- **খারাপ** (*kharap*) 'bad', the opposite of **ভালো**. **খারাপ না** 'not bad' is a common, modest compliment.\n- **সব** (*shob*) 'all' goes before the noun: **সব খাবার** 'all the food'. On its own it means 'everything': **আমি সব খাই** 'I eat everything'.\n\nLike ভালো, they need no verb: **ডাল খারাপ** 'the dal is bad'. Put **না** after the adjective to say 'not': **এটা খারাপ না**.",
       "sentences": [
         {
           "bn": "আমার বিরিয়ানি খুব পছন্দ।",
@@ -670,27 +654,6 @@
           "alt": [
             "I love biryani.",
             "I like biryani very much."
-          ]
-        },
-        {
-          "bn": "আমরা ইলিশ মাছ খাই।",
-          "tr": "amra ilish machh khai.",
-          "en": "We eat hilsa fish.",
-          "alt": [
-            "We eat hilsa."
-          ]
-        },
-        {
-          "bn": "আপনি কি চা খান?",
-          "tr": "apni ki cha khan?",
-          "en": "Do you drink tea?"
-        },
-        {
-          "bn": "আমি দুধ চা চাই, চিনি ছাড়া।",
-          "tr": "ami dudh cha chai, chini chhara.",
-          "en": "I want milk tea, without sugar.",
-          "alt": [
-            "I'd like milk tea, no sugar."
           ]
         },
         {
@@ -711,22 +674,34 @@
           ]
         },
         {
-          "bn": "আমগুলো খুব মিষ্টি।",
-          "tr": "amgulo khub mishti.",
-          "en": "The mangoes are very sweet."
+          "bn": "আমি সব খাই।",
+          "tr": "ami shob khai.",
+          "en": "I eat everything."
         },
         {
-          "bn": "সে মাংস খায় না।",
-          "tr": "she mangsho khay na.",
-          "en": "He doesn't eat meat.",
+          "bn": "এটা খারাপ না।",
+          "tr": "eta kharap na.",
+          "en": "This isn't bad.",
           "alt": [
-            "She doesn't eat meat."
+            "It's not bad.",
+            "This is not bad."
           ]
         },
         {
-          "bn": "আমার ক্ষুধা লেগেছে, ভাত চাই।",
-          "tr": "amar khudha legechhe, bhat chai.",
-          "en": "I'm hungry, I want rice."
+          "bn": "ভাত ভালো, কিন্তু ডাল খারাপ।",
+          "tr": "bhat bhalo, kintu dal kharap.",
+          "en": "The rice is good, but the dal is bad.",
+          "alt": [
+            "The rice is good, but the lentils are bad."
+          ]
+        },
+        {
+          "bn": "বিরিয়ানি কি ঝাল?",
+          "tr": "biriyani ki jhal?",
+          "en": "Is the biryani spicy?",
+          "alt": [
+            "Is biryani spicy?"
+          ]
         },
         {
           "bn": "চা খারাপ না, কিন্তু খুব মিষ্টি।",
@@ -735,6 +710,131 @@
           "alt": [
             "The tea is not bad, but very sweet."
           ]
+        }
+      ]
+    },
+    {
+      "id": "u04-l07",
+      "title": "Review: let's eat!",
+      "kind": "review",
+      "goal": "Order, offer and talk about food using the whole unit.",
+      "grammar": [
+        "review: খাই/খাস/খাও/খান/খায়, চাই/চাও/চান, -তে চাই",
+        "experiencer আমার: পছন্দ, ভালো লাগে, দরকার, ক্ষুধা লেগেছে",
+        "-টা / -গুলো; ছাড়া"
+      ],
+      "new": [],
+      "review": [
+        "amta",
+        "mishti",
+        "kolagulo",
+        "kharap",
+        "jhal",
+        "lage",
+        "amgulo",
+        "bhat",
+        "dal",
+        "machh",
+        "mangsho",
+        "murgi",
+        "khabar",
+        "shobji",
+        "dim",
+        "ruti",
+        "nashta",
+        "pani",
+        "dudh",
+        "chini",
+        "lobon",
+        "fol",
+        "khai",
+        "khash",
+        "khao",
+        "khan",
+        "khay",
+        "gorur",
+        "nani",
+        "chan",
+        "apu",
+        "kap",
+        "cha",
+        "chao",
+        "khudha",
+        "legechhe",
+        "kichhu",
+        "khete",
+        "chai",
+        "chhara",
+        "babar",
+        "biriyani",
+        "pochhondo",
+        "oboshshoi",
+        "shomossha",
+        "dorkar"
+      ],
+      "tip": "No new words: this is a check on the whole unit.\n\n- **eat**: আমি **খাই**, তুই **খাস**, তুমি **খাও**, আপনি **খান**, সে **খায়**\n- **want**: আমি **চাই**, তুমি **চাও**, আপনি **চান**; 'want to eat' = **খেতে চাই**\n- **like / need / hungry** use **আমার**, not আমি: **আমার … পছন্দ**, **আমার … ভালো লাগে**, **আমার … দরকার**, **আমার ক্ষুধা লেগেছে**\n- **the**: আম**টা** 'the mango', কলা**গুলো** 'the bananas'\n- **without** comes after the noun: **চিনি ছাড়া**\n\nTalking about elders such as **নানি** or **বাবা**? Use the polite forms: **নানি কী চান?**",
+      "sentences": [
+        {
+          "bn": "আমটা খুব মিষ্টি, কিন্তু কলাগুলো খারাপ।",
+          "tr": "amta khub mishti, kintu kolagulo kharap.",
+          "en": "The mango is very sweet, but the bananas are bad."
+        },
+        {
+          "bn": "তোমার কি ঝাল ভালো লাগে?",
+          "tr": "tomar ki jhal bhalo lage?",
+          "en": "Do you like spicy food?"
+        },
+        {
+          "bn": "আপনি কি গরুর মাংস খান?",
+          "tr": "apni ki gorur mangsho khan?",
+          "en": "Do you eat beef?"
+        },
+        {
+          "bn": "নানি, আপনি কী চান?",
+          "tr": "nani, apni ki chan?",
+          "en": "Grandma, what would you like?",
+          "alt": [
+            "Grandma, what do you want?"
+          ]
+        },
+        {
+          "bn": "আপু, তুমি কি এক কাপ চা চাও?",
+          "tr": "apu, tumi ki ek kap cha chao?",
+          "en": "Apu, do you want a cup of tea?",
+          "alt": [
+            "Sister, would you like a cup of tea?"
+          ]
+        },
+        {
+          "bn": "আমার ক্ষুধা লেগেছে, কিছু খেতে চাই।",
+          "tr": "amar khudha legechhe, kichhu khete chai.",
+          "en": "I'm hungry, I want to eat something."
+        },
+        {
+          "bn": "আমি চিনি ছাড়া দুধ চা চাই।",
+          "tr": "ami chini chhara dudh cha chai.",
+          "en": "I want milk tea without sugar.",
+          "alt": [
+            "I'd like milk tea with no sugar."
+          ]
+        },
+        {
+          "bn": "আমার বাবার বিরিয়ানি খুব পছন্দ।",
+          "tr": "amar babar biriyani khub pochhondo.",
+          "en": "My father really likes biryani.",
+          "alt": [
+            "My father loves biryani."
+          ]
+        },
+        {
+          "bn": "জি, অবশ্যই, সমস্যা নেই।",
+          "tr": "ji, oboshshoi, shomossha nei.",
+          "en": "Yes, of course, no problem."
+        },
+        {
+          "bn": "আমার পানি দরকার।",
+          "tr": "amar pani dorkar.",
+          "en": "I need water."
         }
       ]
     }

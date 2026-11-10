@@ -22,7 +22,7 @@
       "id": "basha",
       "bn": "বাসা",
       "tr": "basha",
-      "en": "home",
+      "en": "home (where you live now)",
       "notes": "Where you live now, often a rented flat. In Kolkata বাসা means rented lodgings and বাড়ি is 'home'."
     },
     {
@@ -36,7 +36,7 @@
       "id": "bari",
       "bn": "বাড়ি",
       "tr": "bari",
-      "en": "home",
+      "en": "home (family home)",
       "notes": "In Bangladesh তোমার বাড়ি কোথায়? usually asks about your home district / ancestral village."
     },
     {
@@ -139,7 +139,7 @@
         {
           "bn": "বাসা",
           "tr": "basha",
-          "en": "home"
+          "en": "home (where you live now)"
         },
         {
           "bn": "সিলেটে",

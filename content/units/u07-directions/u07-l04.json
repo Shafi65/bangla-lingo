@@ -3,7 +3,7 @@
   "unit": "u07-directions",
   "title": "Places in town",
   "status": "draft",
-  "tip": "Mosques (**মসজিদ**) are everywhere in Bangladesh and make handy landmarks: **মসজিদের সামনে** 'in front of the mosque'. Hindu temples (**মন্দির**) are common too. Addresses often work this way: **বাজারের পাশে** 'next to the market'.\n\n'Live' (in a place) is **থাকি** (I) / **থাকেন** (polite 'you' or he/she):\n\n- **আমি শহরে থাকি** — 'I live in the city'\n- **আমার নানি গ্রামে থাকেন** — 'My grandmother lives in the village' (polite -েন for an elder)\n- **আপনি কোথায় থাকেন?** — 'Where do you live?'\n\n**আছে** at the end means 'there is': **মসজিদের সামনে একটা দোকান আছে**.\n\n*Culture:* most city families still have a village **বাড়ি** and return to their **গ্রাম** for Eid; Dhaka empties out.",
+  "tip": "Mosques (**মসজিদ**) are everywhere in Bangladesh and make handy landmarks: **মসজিদের সামনে** 'in front of the mosque'. Hindu temples (**মন্দির**) are common too. Addresses often work this way: **বাজারের পাশে** 'next to the market'.\n\n**আছে** at the end means 'there is': **মসজিদের সামনে একটা দোকান আছে**.\n\nIf you are lost: **আমার সাহায্য দরকার** 'I need help' (like আমার পানি দরকার). **কেউ** is 'someone, anyone': **এখানে কি কেউ আছে?** 'Is anyone here?' Don't confuse it with **কে** 'who'.",
   "vocab": [
     {
       "id": "hashpatal",
@@ -36,41 +36,18 @@
       "en": "of the market"
     },
     {
-      "id": "shohor",
-      "bn": "শহর",
-      "tr": "shohor",
-      "en": "city"
+      "id": "shahajjo",
+      "bn": "সাহায্য",
+      "tr": "shahajjo",
+      "en": "help",
+      "notes": "আমার সাহায্য দরকার = \"I need help\". সাহায্য করা = \"to help\" (করা, U8)."
     },
     {
-      "id": "shohore",
-      "bn": "শহরে",
-      "tr": "shohore",
-      "en": "in the city"
-    },
-    {
-      "id": "gram",
-      "bn": "গ্রাম",
-      "tr": "gram",
-      "en": "village"
-    },
-    {
-      "id": "grame",
-      "bn": "গ্রামে",
-      "tr": "grame",
-      "en": "in the village"
-    },
-    {
-      "id": "thaki",
-      "bn": "থাকি",
-      "tr": "thaki",
-      "en": "I live",
-      "notes": "Present of থাকা 'live, stay, remain'."
-    },
-    {
-      "id": "thaken",
-      "bn": "থাকেন",
-      "tr": "thaken",
-      "en": "lives (polite)"
+      "id": "keu",
+      "bn": "কেউ",
+      "tr": "keu",
+      "en": "someone",
+      "notes": "With a negative verb: কেউ নেই \"there's no one\"."
     }
   ],
   "exercises": [
@@ -93,6 +70,23 @@
     },
     {
       "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "মসজিদ",
+        "tr": "moshjid",
+        "en": "mosque"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "temple",
+        "market",
+        "mosque",
+        "shop"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e03",
       "type": "listen_select",
       "audio": {
         "bn": "মসজিদ",
@@ -106,23 +100,6 @@
         "মসজিদের"
       ],
       "answer": 1
-    },
-    {
-      "id": "e03",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "মসজিদ",
-        "tr": "moshjid",
-        "en": "mosque"
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "temple",
-        "market",
-        "mosque",
-        "city"
-      ],
-      "answer": 2
     },
     {
       "id": "e04",
@@ -145,163 +122,121 @@
       "id": "e05",
       "type": "select_translation",
       "prompt": {
-        "bn": "শহরে",
-        "tr": "shohore",
-        "en": "in the city"
+        "bn": "মসজিদের সামনে একটা দোকান আছে।",
+        "tr": "moshjider shamne ekta dokan achhe.",
+        "en": "There is a shop in front of the mosque."
       },
       "direction": "bn_to_en",
       "options": [
-        "in the city",
-        "city",
-        "in the village",
-        "from the city"
+        "There is a mosque in front of the shop.",
+        "There is a shop behind the mosque.",
+        "There is a shop in front of the mosque.",
+        "The shop is next to the mosque."
       ],
-      "answer": 0
+      "answer": 2,
+      "why": "**আছে** at the end = 'there is'."
     },
     {
       "id": "e06",
-      "type": "listen_select",
-      "audio": {
-        "bn": "গ্রামে",
-        "tr": "grame",
-        "en": "in the village"
-      },
-      "options": [
-        "গ্রাম",
-        "শহরে",
-        "বাজারে",
-        "গ্রামে"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "e07",
-      "type": "match_pairs",
-      "pairs": [
-        {
-          "bn": "থাকেন",
-          "tr": "thaken",
-          "en": "lives (polite)"
-        },
-        {
-          "bn": "বাজারের",
-          "tr": "bajarer",
-          "en": "of the market"
-        },
-        {
-          "bn": "শহর",
-          "tr": "shohor",
-          "en": "city"
-        },
-        {
-          "bn": "গ্রাম",
-          "tr": "gram",
-          "en": "village"
-        },
-        {
-          "bn": "থাকি",
-          "tr": "thaki",
-          "en": "I live"
-        }
-      ]
-    },
-    {
-      "id": "e08",
-      "type": "word_bank",
-      "prompt": {
-        "bn": "আমি শহরে থাকি।",
-        "tr": "ami shohore thaki.",
-        "en": "I live in the city."
-      },
-      "direction": "en_to_bn",
-      "tiles": [
-        "থাকেন",
-        "শহরে",
-        "আমি",
-        "গ্রামে",
-        "থাকি",
-        "শহর"
-      ],
-      "answer": [
-        "আমি",
-        "শহরে",
-        "থাকি"
-      ]
-    },
-    {
-      "id": "e09",
-      "type": "word_bank",
-      "prompt": {
-        "bn": "আমার নানি গ্রামে থাকেন।",
-        "tr": "amar nani grame thaken.",
-        "en": "My grandmother (mother's mother) lives in the village."
-      },
-      "direction": "en_to_bn",
-      "tiles": [
-        "দাদি",
-        "থাকি",
-        "আমার",
-        "গ্রাম",
-        "নানি",
-        "থাকেন",
-        "গ্রামে"
-      ],
-      "answer": [
-        "আমার",
-        "নানি",
-        "গ্রামে",
-        "থাকেন"
-      ]
-    },
-    {
-      "id": "e10",
-      "type": "word_bank",
+      "type": "select_translation",
       "prompt": {
         "bn": "মন্দির বাজারের পাশে।",
         "tr": "mondir bajarer pashe.",
         "en": "The temple is next to the market."
       },
       "direction": "bn_to_en",
-      "tiles": [
-        "market",
-        "to",
-        "The",
-        "mosque",
-        "next",
-        "the",
-        "behind",
-        "is",
-        "temple"
+      "options": [
+        "The temple is behind the market.",
+        "The market is next to the temple.",
+        "The mosque is next to the market.",
+        "The temple is next to the market."
       ],
-      "answer": [
-        "The",
-        "temple",
-        "is",
-        "next",
-        "to",
-        "the",
-        "market"
-      ]
+      "answer": 3
     },
     {
-      "id": "e11",
+      "id": "e07",
       "type": "select_translation",
       "prompt": {
-        "bn": "মসজিদের সামনে একটা দোকান আছে।",
-        "tr": "moshjider shamne ekta dokan achhe.",
-        "en": "There is a shop in front of the mosque."
+        "bn": "সাহায্য",
+        "tr": "shahajjo",
+        "en": "help"
       },
-      "direction": "en_to_bn",
+      "direction": "bn_to_en",
       "options": [
-        "মসজিদ সামনে একটা দোকান আছে।",
-        "মসজিদের পিছনে একটা দোকান আছে।",
-        "মসজিদের সামনে একটা দোকান আছে।",
-        "বাজারের সামনে একটা দোকান আছে।"
+        "problem",
+        "need",
+        "help",
+        "fare"
       ],
       "answer": 2
     },
     {
-      "id": "e12",
+      "id": "e08",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "এখানে কি কেউ আছে?",
+        "tr": "ekhane ki keu achhe?",
+        "en": "Is anyone here?"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "Is anyone here?",
+        "Who is here?",
+        "Is everyone here?",
+        "Is there a shop here?"
+      ],
+      "answer": 0,
+      "why": "**কেউ** = 'someone, anyone'; **কে** = 'who'."
+    },
+    {
+      "id": "e09",
+      "type": "listen_select",
+      "audio": {
+        "bn": "কেউ",
+        "tr": "keu",
+        "en": "someone"
+      },
+      "options": [
+        "কে",
+        "কেউ",
+        "কেন",
+        "কেজি"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e10",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "হাসপাতাল",
+          "tr": "hashpatal",
+          "en": "hospital"
+        },
+        {
+          "bn": "মসজিদ",
+          "tr": "moshjid",
+          "en": "mosque"
+        },
+        {
+          "bn": "মন্দির",
+          "tr": "mondir",
+          "en": "temple"
+        },
+        {
+          "bn": "সাহায্য",
+          "tr": "shahajjo",
+          "en": "help"
+        },
+        {
+          "bn": "কেউ",
+          "tr": "keu",
+          "en": "someone"
+        }
+      ]
+    },
+    {
+      "id": "e11",
       "type": "word_bank",
       "prompt": {
         "bn": "হাসপাতাল কি মসজিদের কাছে?",
@@ -310,75 +245,88 @@
       },
       "direction": "en_to_bn",
       "tiles": [
-        "কাছে",
-        "মসজিদ",
-        "হাসপাতাল",
-        "কোথায়",
-        "দূরে",
         "কি",
-        "মসজিদের"
+        "মসজিদ",
+        "দূরে",
+        "কোথায়",
+        "কাছে",
+        "মসজিদের",
+        "হাসপাতাল"
       ],
       "answer": [
         "হাসপাতাল",
         "কি",
         "মসজিদের",
         "কাছে"
-      ]
+      ],
+      "why": "মসজিদ + **-এর** 'of the mosque' before কাছে."
     },
     {
-      "id": "e15",
-      "type": "word_bank",
+      "id": "e12",
+      "type": "select_translation",
       "prompt": {
-        "bn": "এটা একটা ছোট গ্রাম।",
-        "tr": "eta ekta chhoto gram.",
-        "en": "This is a small village."
+        "bn": "আমার সাহায্য দরকার।",
+        "tr": "amar shahajjo dorkar.",
+        "en": "I need help."
       },
-      "direction": "bn_to_en",
-      "tiles": [
-        "city",
-        "This",
-        "a",
-        "big",
-        "village",
-        "is",
-        "small"
+      "direction": "en_to_bn",
+      "options": [
+        "আমি সাহায্য দরকার।",
+        "আমার সাহায্য নেই।",
+        "আমার সাহায্য দরকার।",
+        "আমার সমস্যা দরকার।"
       ],
-      "answer": [
-        "This",
-        "is",
-        "a",
-        "small",
-        "village"
-      ]
+      "answer": 2,
+      "why": "**দরকার** 'need' takes **আমার**, not আমি."
     },
     {
       "id": "e13",
-      "type": "type_translation",
+      "type": "word_bank",
       "prompt": {
-        "bn": "আপনি কোথায় থাকেন?",
-        "tr": "apni kothay thaken?",
-        "en": "Where do you live?"
+        "bn": "মসজিদ কোথায়? বাজারের পিছনে।",
+        "tr": "moshjid kothay? bajarer pichhone.",
+        "en": "Where is the mosque? Behind the market."
       },
       "direction": "bn_to_en",
-      "accepted": [
-        "Where do you live?",
-        "Where do you stay?"
+      "tiles": [
+        "temple",
+        "the",
+        "is",
+        "Behind",
+        "front",
+        "market",
+        "Where",
+        "the",
+        "mosque",
+        "next"
+      ],
+      "answer": [
+        "Where",
+        "is",
+        "the",
+        "mosque",
+        "Behind",
+        "the",
+        "market"
       ]
     },
     {
       "id": "e14",
       "type": "type_translation",
       "prompt": {
-        "bn": "ঢাকা একটা বড় শহর।",
-        "tr": "dhaka ekta boro shohor.",
-        "en": "Dhaka is a big city."
+        "bn": "হাসপাতাল কোথায়?",
+        "tr": "hashpatal kothay?",
+        "en": "Where is the hospital?"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "accepted": [
-        "Dhaka is a big city.",
-        "Dhaka's a big city.",
-        "Dhaka is a large city.",
-        "Dhaka is a big town."
+        "হাসপাতাল কোথায়?",
+        "hashpatal kothay",
+        "haspatal kothay",
+        "hashpatal kothai",
+        "haspatal kothai",
+        "hospital kothay",
+        "hashpatal kothae"
       ]
     }
   ]

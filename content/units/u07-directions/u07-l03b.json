@@ -1,0 +1,360 @@
+{
+  "id": "u07-l03b",
+  "unit": "u07-directions",
+  "title": "Inside, outside, which way",
+  "status": "draft",
+  "tip": "Four words that often stand alone:\n\n**ভিতরে** 'inside' · **বাইরে** 'outside' · **উপরে** 'upstairs, above' · **নিচে** 'downstairs, below'\n\n**বাবা বাইরে** 'Dad is outside', **আপু উপরে** 'Apu is upstairs'. With a noun, add 'of' first: **বাসার ভিতরে** 'inside the house' (বাসা + -র).\n\n'Which way?' is **কোন দিকে?** (**কোন** 'which', **দিকে** 'towards'). Answer with a point: **ওই দিকে** 'that way'. Keep **কোন** (which) apart from **কোথায়** (where).\n\nIn speech, **না** between two choices means 'or': **ডানে না বামে?** 'right or left?'\n\nAlso heard: **ভেতরে**, **ওপরে**.",
+  "vocab": [
+    {
+      "id": "bhitore",
+      "bn": "ভিতরে",
+      "tr": "bhitore",
+      "en": "inside",
+      "notes": "Also spelled ভেতরে."
+    },
+    {
+      "id": "baire",
+      "bn": "বাইরে",
+      "tr": "baire",
+      "en": "outside"
+    },
+    {
+      "id": "upore",
+      "bn": "উপরে",
+      "tr": "upore",
+      "en": "upstairs",
+      "notes": "Also spelled ওপরে."
+    },
+    {
+      "id": "niche",
+      "bn": "নিচে",
+      "tr": "niche",
+      "en": "downstairs"
+    },
+    {
+      "id": "bashar",
+      "bn": "বাসার",
+      "tr": "bashar",
+      "en": "of the home"
+    },
+    {
+      "id": "kon",
+      "bn": "কোন",
+      "tr": "kon",
+      "en": "which"
+    },
+    {
+      "id": "dike",
+      "bn": "দিকে",
+      "tr": "dike",
+      "en": "way",
+      "notes": "কোন দিকে? 'which way?'; ডান দিকে 'to the right side'."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ভিতরে",
+        "tr": "bhitore",
+        "en": "inside"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "outside",
+        "inside",
+        "upstairs",
+        "behind"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "বাইরে",
+        "tr": "baire",
+        "en": "outside"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "outside",
+        "inside",
+        "downstairs",
+        "far"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আপু উপরে, আব্বু নিচে।",
+        "tr": "apu upore, abbu niche.",
+        "en": "Apu is upstairs, Dad is downstairs."
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "Apu is downstairs, Dad is upstairs.",
+        "Apu is outside, Dad is inside.",
+        "Apu is upstairs, Dad is downstairs.",
+        "Apu is upstairs, Dad is outside."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e04",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "মা বাসার ভিতরে।",
+        "tr": "ma bashar bhitore.",
+        "en": "Mom is inside the house."
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "Mom is outside the house.",
+        "Mom is in front of the house.",
+        "Mom is at the hotel.",
+        "Mom is inside the house."
+      ],
+      "answer": 3,
+      "why": "বাসা + **-র** 'of the home' comes before ভিতরে."
+    },
+    {
+      "id": "e05",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "স্টেশন কোন দিকে?",
+        "tr": "steshon kon dike?",
+        "en": "Which way is the station?"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "Where is the station?",
+        "Which way is the station?",
+        "How far is the station?",
+        "Is the station far?"
+      ],
+      "answer": 1,
+      "why": "**কোন দিকে** asks 'which way'; **কোথায়** asks 'where'."
+    },
+    {
+      "id": "e06",
+      "type": "listen_select",
+      "audio": {
+        "bn": "উপরে",
+        "tr": "upore",
+        "en": "upstairs"
+      },
+      "options": [
+        "বাইরে",
+        "ভিতরে",
+        "পিছনে",
+        "উপরে"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e07",
+      "type": "listen_select",
+      "audio": {
+        "bn": "নিচে",
+        "tr": "niche",
+        "en": "downstairs"
+      },
+      "options": [
+        "নেই",
+        "নিচে",
+        "কাছে",
+        "নাম"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e08",
+      "type": "listen_select",
+      "audio": {
+        "bn": "কোন",
+        "tr": "kon",
+        "en": "which"
+      },
+      "options": [
+        "কোন",
+        "কে",
+        "কোথায়",
+        "কত"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e09",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "ভিতরে",
+          "tr": "bhitore",
+          "en": "inside"
+        },
+        {
+          "bn": "বাইরে",
+          "tr": "baire",
+          "en": "outside"
+        },
+        {
+          "bn": "উপরে",
+          "tr": "upore",
+          "en": "upstairs"
+        },
+        {
+          "bn": "নিচে",
+          "tr": "niche",
+          "en": "downstairs"
+        },
+        {
+          "bn": "দিকে",
+          "tr": "dike",
+          "en": "way"
+        }
+      ]
+    },
+    {
+      "id": "e10",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "বাবা বাইরে।",
+        "tr": "baba baire.",
+        "en": "Dad is outside."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "বাইরে",
+        "ভিতরে",
+        "নিচে",
+        "বাবা",
+        "বাবার"
+      ],
+      "answer": [
+        "বাবা",
+        "বাইরে"
+      ]
+    },
+    {
+      "id": "e11",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "চাচা বাসার বাইরে।",
+        "tr": "chacha bashar baire.",
+        "en": "Uncle is outside the house."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "the",
+        "upstairs",
+        "inside",
+        "outside",
+        "Uncle",
+        "is",
+        "house",
+        "hotel"
+      ],
+      "answer": [
+        "Uncle",
+        "is",
+        "outside",
+        "the",
+        "house"
+      ]
+    },
+    {
+      "id": "e12",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "হোটেল কোন দিকে, ডানে না বামে?",
+        "tr": "hotel kon dike, dane na bame?",
+        "en": "Which way is the hotel, right or left?"
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "সোজা",
+        "না",
+        "দিকে",
+        "বামে",
+        "কে",
+        "কোন",
+        "ডানে",
+        "কোথায়",
+        "হোটেল"
+      ],
+      "answer": [
+        "হোটেল",
+        "কোন",
+        "দিকে",
+        "ডানে",
+        "না",
+        "বামে"
+      ],
+      "why": "In speech, **না** between two choices means 'or': ডানে না বামে?"
+    },
+    {
+      "id": "e13",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "দোকানটা নিচে।",
+        "tr": "dokanta niche.",
+        "en": "The shop is downstairs."
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "দোকানটা উপরে।",
+        "দোকানটা নিচে।",
+        "দোকানটা বাইরে।",
+        "দোকানটা নেই।"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e14",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "স্টেশন ওই দিকে।",
+        "tr": "steshon oi dike.",
+        "en": "The station is that way."
+      },
+      "direction": "bn_to_en",
+      "accepted": [
+        "The station is that way.",
+        "The station's that way.",
+        "The station is over there.",
+        "The station is in that direction.",
+        "The station is that direction.",
+        "The station is towards there."
+      ]
+    },
+    {
+      "id": "e15",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "মা বাসার ভিতরে।",
+        "tr": "ma bashar bhitore.",
+        "en": "Mom is inside the house."
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "মা বাসার ভিতরে।",
+        "মা বাসার ভেতরে।",
+        "আম্মু বাসার ভিতরে।",
+        "মা বাড়ির ভিতরে।",
+        "ma bashar bhitore",
+        "ma basar bhitore",
+        "ma bashar bhetore",
+        "ma basar vitore",
+        "ma bashar vitore",
+        "ammu bashar bhitore",
+        "ma barir bhitore",
+        "ma bashar bhitre"
+      ],
+      "why": "বাসা + **-র** 'of the home' + ভিতরে 'inside'."
+    }
+  ]
+}
