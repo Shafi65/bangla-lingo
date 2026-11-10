@@ -1,0 +1,369 @@
+{
+  "id": "u03-l05b",
+  "unit": "u03-family",
+  "title": "How many?",
+  "status": "draft",
+  "tip": "To count **people**, add **-জন** (*-jon*) to the number: **একজন** (one person), **দুইজন** (two people), **কয়জন?** (how many people?). For things, and casually for people too, you use **-টা**: **একটা বোন**.\n\n**আপনার কয়জন বাচ্চা আছে?** 'How many children do you have?' is a normal first-meeting question in Bangladesh: friendly interest, not nosiness.\n\n**কিন্তু** (*kintu*) = 'but': **আমার ভাই আছে, কিন্তু বোন নেই।** **সবাই** (*shobai*) = 'everyone': **সবাই কেমন আছে?** 'How is everyone?'",
+  "vocab": [
+    {
+      "id": "ekjon",
+      "bn": "একজন",
+      "tr": "ekjon",
+      "en": "one (person)",
+      "notes": "এক + -জন, the classifier for people."
+    },
+    {
+      "id": "duijon",
+      "bn": "দুইজন",
+      "tr": "duijon",
+      "en": "two (people)",
+      "notes": "Kolkata: দুজন."
+    },
+    {
+      "id": "koyjon",
+      "bn": "কয়জন",
+      "tr": "koyjon",
+      "en": "how many (people)",
+      "notes": "Also কতজন (kotojon)."
+    },
+    {
+      "id": "kintu",
+      "bn": "কিন্তু",
+      "tr": "kintu",
+      "en": "but"
+    },
+    {
+      "id": "shobai",
+      "bn": "সবাই",
+      "tr": "shobai",
+      "en": "everyone"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "একজন",
+        "tr": "ekjon",
+        "en": "one (person)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "two (people)",
+        "one (person)",
+        "how many (people)",
+        "everyone"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "দুইজন",
+        "tr": "duijon",
+        "en": "two (people)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "two (people)",
+        "one (person)",
+        "our",
+        "everyone"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "কয়জন",
+        "tr": "koyjon",
+        "en": "how many (people)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "how",
+        "where",
+        "one (person)",
+        "how many (people)"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e04",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "কিন্তু",
+        "tr": "kintu",
+        "en": "but"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "and",
+        "OK",
+        "but",
+        "no"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e05",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "সবাই",
+        "tr": "shobai",
+        "en": "everyone"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "we",
+        "they",
+        "very",
+        "everyone"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e06",
+      "type": "listen_select",
+      "audio": {
+        "bn": "দুইজন",
+        "tr": "duijon",
+        "en": "two (people)"
+      },
+      "options": [
+        "কয়জন",
+        "একজন",
+        "দুইজন",
+        "একটা"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e07",
+      "type": "listen_select",
+      "audio": {
+        "bn": "সবাই কেমন আছে?",
+        "tr": "shobai kemon achhe?",
+        "en": "How is everyone?"
+      },
+      "options": [
+        "সবাই কেমন আছে?",
+        "আপনি কেমন আছেন?",
+        "সবাই ভালো আছে।",
+        "তুমি কেমন আছো?"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e08",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "একজন",
+          "tr": "ekjon",
+          "en": "one (person)"
+        },
+        {
+          "bn": "দুইজন",
+          "tr": "duijon",
+          "en": "two (people)"
+        },
+        {
+          "bn": "কয়জন",
+          "tr": "koyjon",
+          "en": "how many (people)"
+        },
+        {
+          "bn": "কিন্তু",
+          "tr": "kintu",
+          "en": "but"
+        },
+        {
+          "bn": "সবাই",
+          "tr": "shobai",
+          "en": "everyone"
+        }
+      ]
+    },
+    {
+      "id": "e09",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আমার দুইজন ভাই আছে।",
+        "tr": "amar duijon bhai achhe.",
+        "en": "I have two brothers."
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "আমি দুইজন ভাই আছে।",
+        "আমার দুইজন ভাই নেই।",
+        "আমার একজন ভাই আছে।",
+        "আমার দুইজন ভাই আছে।"
+      ],
+      "answer": 3,
+      "why": "Count people with **-জন** (দুইজন), and say 'have' with **আমার** … আছে."
+    },
+    {
+      "id": "e10",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আপনার কয়জন বাচ্চা আছে?",
+        "tr": "apnar koyjon bachcha achhe?",
+        "en": "How many children do you have? (polite)"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "তোমার কয়জন বাচ্চা আছে?",
+        "আপনার কয়জন বাচ্চা আছে?",
+        "আপনার কি বাচ্চা আছে?",
+        "আপনার দুইজন বাচ্চা আছে।"
+      ],
+      "answer": 1,
+      "why": "**কয়জন** asks 'how many (people)'; **আপনার** is the polite 'your'."
+    },
+    {
+      "id": "e11",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমার ভাই আছে, কিন্তু বোন নেই।",
+        "tr": "amar bhai achhe, kintu bon nei.",
+        "en": "I have a brother, but no sister."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "আমার",
+        "ভাই",
+        "আছে",
+        "কিন্তু",
+        "আর",
+        "বোন",
+        "নেই",
+        "আমি"
+      ],
+      "answer": [
+        "আমার",
+        "ভাই",
+        "আছে",
+        "কিন্তু",
+        "বোন",
+        "নেই"
+      ],
+      "why": "**কিন্তু** = but; আর = and."
+    },
+    {
+      "id": "e12",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "এখানে একজন ডাক্তার আছেন।",
+        "tr": "ekhane ekjon daktar achhen.",
+        "en": "There is a doctor here."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "এখানে",
+        "ওখানে",
+        "একজন",
+        "দুইজন",
+        "ডাক্তার",
+        "আছেন",
+        "আছে",
+        "নেই"
+      ],
+      "answer": [
+        "এখানে",
+        "একজন",
+        "ডাক্তার",
+        "আছেন"
+      ],
+      "alt": [
+        [
+          "এখানে",
+          "একজন",
+          "ডাক্তার",
+          "আছে"
+        ]
+      ]
+    },
+    {
+      "id": "e13",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমরা সবাই ভালো আছি।",
+        "tr": "amra shobai bhalo achhi.",
+        "en": "We are all well."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "We",
+        "are",
+        "all",
+        "well",
+        "they",
+        "very",
+        "is"
+      ],
+      "answer": [
+        "We",
+        "are",
+        "all",
+        "well"
+      ]
+    },
+    {
+      "id": "e14",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "তোমরা কয়জন?",
+        "tr": "tomra koyjon?",
+        "en": "How many of you are there?"
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "How",
+        "many",
+        "of",
+        "you",
+        "are",
+        "there",
+        "much",
+        "we"
+      ],
+      "answer": [
+        "How",
+        "many",
+        "of",
+        "you",
+        "are",
+        "there"
+      ],
+      "alt": [
+        [
+          "How",
+          "many",
+          "are",
+          "you"
+        ]
+      ]
+    },
+    {
+      "id": "e15",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আমার একজন বন্ধু ডাক্তার।",
+        "tr": "amar ekjon bondhu daktar.",
+        "en": "A friend of mine is a doctor."
+      },
+      "direction": "bn_to_en",
+      "accepted": [
+        "A friend of mine is a doctor.",
+        "One of my friends is a doctor.",
+        "My friend is a doctor.",
+        "One friend of mine is a doctor.",
+        "I have a friend who is a doctor."
+      ]
+    }
+  ]
+}

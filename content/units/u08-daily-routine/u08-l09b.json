@@ -1,0 +1,388 @@
+{
+  "id": "u08-l09b",
+  "unit": "u08-daily-routine",
+  "title": "Review: now, often, why",
+  "status": "draft",
+  "tip": "No new words: this review mixes Lessons 5–8.\n\n- **Right now**: **-ছি / -ছো / -ছেন / -ছে**: করছি, করছো, করছেন, করছে; খাচ্ছি, যাচ্ছি.\n- **How often**: প্রতিদিন, সবসময়, মাঝে মাঝে, and **কখনো … না** 'never'.\n- **Order**: **তারপর** 'then'; **নাস্তার পরে** 'after breakfast', **ঘুমের আগে** 'before sleep'.\n- **Reason and result**: **কারণ** 'because' + reason; **তাই** 'so' + result.\n- **Can**: বলতে **পারি / পারেন / পারে**; can't = **পারি না**.\n- **Opinion**: **মনে হয়** 'I think', **হয়তো** 'maybe'.",
+  "vocab": [],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "তুমি এখন কী করছো?",
+        "tr": "tumi ekhon ki korchho?",
+        "en": "What are you doing now?"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "What do you do?",
+        "What are you doing now?",
+        "What did you do?",
+        "What are you eating now?"
+      ],
+      "answer": 1,
+      "why": "-ছ- means 'right now': করছো 'are doing'. করো is 'do' in general."
+    },
+    {
+      "id": "e02",
+      "type": "listen_select",
+      "audio": {
+        "bn": "করছেন",
+        "tr": "korchhen",
+        "en": "you are doing (polite)"
+      },
+      "options": [
+        "করছি",
+        "করছেন",
+        "করেন",
+        "করছে"
+      ],
+      "answer": 1,
+      "why": "আপনি takes -ছেন in the present continuous."
+    },
+    {
+      "id": "e03",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "করছি",
+          "tr": "korchhi",
+          "en": "I am doing"
+        },
+        {
+          "bn": "করছে",
+          "tr": "korchhe",
+          "en": "is doing"
+        },
+        {
+          "bn": "দেখছে",
+          "tr": "dekhchhe",
+          "en": "is watching"
+        },
+        {
+          "bn": "খাচ্ছি",
+          "tr": "khachchhi",
+          "en": "I am eating"
+        },
+        {
+          "bn": "যাচ্ছি",
+          "tr": "jachchhi",
+          "en": "I am going"
+        }
+      ]
+    },
+    {
+      "id": "e04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "পড়ছি",
+          "tr": "porchhi",
+          "en": "I am reading"
+        },
+        {
+          "bn": "রান্না",
+          "tr": "ranna",
+          "en": "cooking"
+        },
+        {
+          "bn": "প্রতিদিন",
+          "tr": "protidin",
+          "en": "every day"
+        },
+        {
+          "bn": "সবসময়",
+          "tr": "shobshomoy",
+          "en": "always"
+        },
+        {
+          "bn": "মাঝে মাঝে",
+          "tr": "majhe majhe",
+          "en": "sometimes"
+        }
+      ]
+    },
+    {
+      "id": "e05",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আমি কখনো মাছ খাই না।",
+        "tr": "ami kokhono machh khai na.",
+        "en": "I never eat fish."
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "I never eat fish.",
+        "I always eat fish.",
+        "I sometimes eat fish.",
+        "I'm not eating fish now."
+      ],
+      "answer": 0,
+      "why": "কখনো before the verb + না after it = 'never'."
+    },
+    {
+      "id": "e06",
+      "type": "listen_select",
+      "audio": {
+        "bn": "কখনো না",
+        "tr": "kokhono na",
+        "en": "never"
+      },
+      "options": [
+        "কখনো",
+        "কখন",
+        "কখনো না",
+        "এখন"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e07",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "হয়তো সে অফিসে, মনে হয় সে কাজ করছে।",
+        "tr": "hoyto she ofise, mone hoy she kaj korchhe.",
+        "en": "Maybe he's at the office; I think he's working."
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "He is at the office; he works every day.",
+        "Maybe he's at home; I think he's cooking.",
+        "He's not at the office; maybe he's sleeping.",
+        "Maybe he's at the office; I think he's working."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e08",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "নামাজ",
+          "tr": "namaj",
+          "en": "prayer"
+        },
+        {
+          "bn": "পড়েন",
+          "tr": "poren",
+          "en": "you read (polite)"
+        },
+        {
+          "bn": "দাঁত",
+          "tr": "da~t",
+          "en": "teeth"
+        },
+        {
+          "bn": "মাজি",
+          "tr": "maji",
+          "en": "I brush"
+        },
+        {
+          "bn": "দাঁত মাজা",
+          "tr": "da~t maja",
+          "en": "brushing teeth"
+        }
+      ]
+    },
+    {
+      "id": "e09",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "তারপর",
+          "tr": "tarpor",
+          "en": "then"
+        },
+        {
+          "bn": "আগে",
+          "tr": "age",
+          "en": "before"
+        },
+        {
+          "bn": "পরে",
+          "tr": "pore",
+          "en": "after"
+        },
+        {
+          "bn": "নাস্তার",
+          "tr": "nashtar",
+          "en": "of breakfast"
+        },
+        {
+          "bn": "প্রশ্ন",
+          "tr": "proshno",
+          "en": "question"
+        }
+      ]
+    },
+    {
+      "id": "e10",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "পারি",
+          "tr": "pari",
+          "en": "(I) can"
+        },
+        {
+          "bn": "পারেন",
+          "tr": "paren",
+          "en": "(you, polite) can"
+        },
+        {
+          "bn": "পারে",
+          "tr": "pare",
+          "en": "(he/she) can"
+        },
+        {
+          "bn": "উত্তর",
+          "tr": "uttor",
+          "en": "answer"
+        },
+        {
+          "bn": "ভুল",
+          "tr": "bhul",
+          "en": "wrong"
+        }
+      ]
+    },
+    {
+      "id": "e11",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "কাজের পরে আমি বাসায় আসি, তারপর রান্না করি।",
+        "tr": "kajer pore ami bashay ashi, tarpor ranna kori.",
+        "en": "After work I come home, then I cook."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "After",
+        "work",
+        "I",
+        "come",
+        "home",
+        "then",
+        "I",
+        "cook",
+        "before",
+        "go",
+        "eat"
+      ],
+      "answer": [
+        "After",
+        "work",
+        "I",
+        "come",
+        "home",
+        "then",
+        "I",
+        "cook"
+      ]
+    },
+    {
+      "id": "e12",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমি রাতে রান্না করি, কারণ সকালে সময় নেই।",
+        "tr": "ami rate ranna kori, karon shokale shomoy nei.",
+        "en": "I cook at night because there's no time in the morning."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "আমি",
+        "রাতে",
+        "রান্না",
+        "করি",
+        "কারণ",
+        "তাই",
+        "সকালে",
+        "সময়",
+        "নেই",
+        "আছে"
+      ],
+      "answer": [
+        "আমি",
+        "রাতে",
+        "রান্না",
+        "করি",
+        "কারণ",
+        "সকালে",
+        "সময়",
+        "নেই"
+      ],
+      "alt": [
+        [
+          "রাতে",
+          "আমি",
+          "রান্না",
+          "করি",
+          "কারণ",
+          "সকালে",
+          "সময়",
+          "নেই"
+        ]
+      ],
+      "why": "কারণ 'because' introduces the reason; তাই 'so' would introduce the result."
+    },
+    {
+      "id": "e13",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আমি মাছ খেতে পারি না, তাই আমি ডাল খাই।",
+        "tr": "ami machh khete pari na, tai ami dal khai.",
+        "en": "I can't eat fish, so I eat lentils."
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "আমি মাছ খেতে পারি না, কারণ আমি ডাল খাই।",
+        "আমি মাছ খেতে পারি, তাই আমি ডাল খাই।",
+        "আমি মাছ খেতে পারি না, তাই আমি ডাল খাই।",
+        "আমি মাছ খেতে পারেন না, তাই আমি ডাল খাই।"
+      ],
+      "answer": 2,
+      "why": "তাই 'so' comes before the result. With আমি, 'can' is পারি."
+    },
+    {
+      "id": "e14",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আপনি কি বাংলা বলতে পারেন?",
+        "tr": "apni ki bangla bolte paren?",
+        "en": "Can you speak Bengali? (polite)"
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "আপনি কি বাংলা বলতে পারেন?",
+        "আপনি বাংলা বলতে পারেন?",
+        "apni ki bangla bolte paren",
+        "apni bangla bolte paren",
+        "apni ki bangla bolte paren?"
+      ],
+      "why": "আপনি takes the polite ending: পারেন."
+    },
+    {
+      "id": "e15",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "ঘুমের আগে আমি ফোন দেখি।",
+        "tr": "ghumer age ami fon dekhi.",
+        "en": "Before sleeping I look at my phone."
+      },
+      "direction": "bn_to_en",
+      "accepted": [
+        "Before sleeping I look at my phone.",
+        "Before sleep I look at my phone.",
+        "Before bed I look at my phone.",
+        "Before bed I check my phone.",
+        "Before sleeping I check my phone.",
+        "I look at my phone before sleeping.",
+        "I look at my phone before bed.",
+        "I check my phone before bed.",
+        "I check my phone before sleeping.",
+        "Before going to sleep I look at my phone.",
+        "I look at my phone before going to sleep."
+      ]
+    }
+  ]
+}

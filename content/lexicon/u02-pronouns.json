@@ -269,7 +269,7 @@
         "not"
       ],
       "pos": "verb",
-      "lesson": "u02-l04",
+      "lesson": "u02-l04b",
       "notes": "Goes with আমি / আমরা: আমি ছাত্র নই."
     },
     {
@@ -282,7 +282,7 @@
         "aren't"
       ],
       "pos": "verb",
-      "lesson": "u02-l04",
+      "lesson": "u02-l04b",
       "register": "familiar",
       "notes": "Goes with তুমি / তোমরা."
     },
@@ -297,7 +297,7 @@
         "aren't"
       ],
       "pos": "verb",
-      "lesson": "u02-l04",
+      "lesson": "u02-l04b",
       "register": "polite",
       "notes": "Goes with আপনি, তিনি, উনি."
     },
@@ -311,7 +311,7 @@
         "isn't"
       ],
       "pos": "verb",
-      "lesson": "u02-l04",
+      "lesson": "u02-l04b",
       "notes": "Goes with সে, ও, এটা. In everyday Bangladeshi speech না is used for all persons: আমি ছাত্র না. নয় is also the number nine (Unit 5)."
     },
     {
@@ -448,7 +448,7 @@
         "from Bangladesh"
       ],
       "pos": "adj",
-      "lesson": "u02-l06"
+      "lesson": "u02-l05"
     },
     {
       "id": "bangla",
@@ -460,7 +460,7 @@
         "Bengali"
       ],
       "pos": "noun",
-      "lesson": "u02-l06",
+      "lesson": "u02-l04",
       "notes": "The language (and the region of Bengal)."
     },
     {
@@ -472,7 +472,7 @@
         "English"
       ],
       "pos": "noun",
-      "lesson": "u02-l06"
+      "lesson": "u02-l04"
     }
   ]
 }

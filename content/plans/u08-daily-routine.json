@@ -333,28 +333,23 @@
     },
     {
       "id": "u08-l04",
-      "title": "Read, write, watch, listen",
-      "goal": "Talk about reading, writing, watching, listening and speaking.",
+      "title": "Read, watch, speak",
+      "goal": "Talk about reading, watching and speaking with verbs that keep their vowel.",
       "grammar": [
-        "vowel-raising verbs: the আমি form raises o→u, e→i",
-        "শোনা: আমি শুনি / সে শোনে · লেখা: আমি লিখি / সে লেখে",
-        "দেখা does not raise: আমি দেখি / সে দেখে",
-        "গান শোনা 'listen to music', বই পড়া 'read'"
+        "আমি + সে verb pairs: পড়ি / পড়ে, দেখি / দেখে",
+        "বলা: আমি বলি / আপনি বলেন",
+        "object before the verb: আমি বই পড়ি",
+        "পড়া = 'read' and 'study'"
       ],
       "new": [
         "pori",
         "pore-reads",
         "dekhi",
         "dekhe",
-        "shuni",
-        "shone",
-        "likhi",
-        "lekhe",
         "boli",
         "bolen",
         "boi",
-        "tibhi",
-        "gan"
+        "tibhi"
       ],
       "review": [
         "ami",
@@ -362,9 +357,13 @@
         "bangla",
         "ingreji",
         "apni",
-        "ki-q"
+        "ki-q",
+        "ektu",
+        "chhoto",
+        "bon",
+        "rate"
       ],
-      "tip": "Some verbs have **o** or **e** in the stem that **rises** to **u** or **i** in the আমি form. Learn them in pairs:\n\n- শোনা 'listen': আমি **শুনি** — সে **শোনে**\n- লেখা 'write': আমি **লিখি** — সে **লেখে**\n- ওঠা 'rise': আমি **উঠি** — আপনি **ওঠেন** (Lesson 2)\n\nNot every verb does this: **দেখা** 'see / watch' keeps its এ — আমি **দেখি**, সে **দেখে**. **পড়া** and **বলা** keep the same spelling too: আমি **পড়ি** / সে **পড়ে**, আমি **বলি** / আপনি **বলেন**. Learn each new verb as an আমি + সে pair.\n\nObjects come **before** the verb, never after: **আমি বই পড়ি** 'I read books', **আমি গান শুনি** 'I listen to music' (**গান** is 'song', but **গান শোনা** is how you say 'listen to music').\n\n**পড়া** means both 'read' and 'study': **আমি বাংলা পড়ি** can be 'I read Bengali' or 'I study Bengali'.",
+      "tip": "Learn each new verb as a pair: the **আমি** form and the **সে** form. These three verbs keep their vowel; only the ending changes:\n\n- পড়া 'read / study': আমি **পড়ি** — সে **পড়ে**\n- দেখা 'see / watch': আমি **দেখি** — সে **দেখে**\n- বলা 'speak / say': আমি **বলি** — আপনি **বলেন**\n\nThe object comes **before** the verb, never after: **আমি বই পড়ি** 'I read books', **সে টিভি দেখে** 'he watches TV'.\n\n**পড়া** means both 'read' and 'study': **আমি বাংলা পড়ি** can be 'I read Bengali' or 'I study Bengali'.\n\n**পড়ে** 'reads' sounds exactly like **পরে** 'later', which you'll meet in Lesson 7. Only the spelling differs (ড় vs র).",
       "sentences": [
         {
           "bn": "আমি বই পড়ি।",
@@ -395,6 +394,84 @@
             "She watches TV."
           ]
         },
+        {
+          "bn": "আমি বাংলা বলি।",
+          "tr": "ami bangla boli.",
+          "en": "I speak Bengali.",
+          "alt": [
+            "I speak Bangla."
+          ]
+        },
+        {
+          "bn": "আপনি কি ইংরেজি বলেন?",
+          "tr": "apni ki ingreji bolen?",
+          "en": "Do you speak English?"
+        },
+        {
+          "bn": "আমি বাংলা পড়ি।",
+          "tr": "ami bangla pori.",
+          "en": "I study Bengali.",
+          "alt": [
+            "I read Bengali.",
+            "I study Bangla."
+          ]
+        },
+        {
+          "bn": "আমার ছোট বোন বই পড়ে।",
+          "tr": "amar chhoto bon boi pore.",
+          "en": "My younger sister reads books.",
+          "alt": [
+            "My little sister reads books."
+          ]
+        },
+        {
+          "bn": "আমি রাতে টিভি দেখি।",
+          "tr": "ami rate tibhi dekhi.",
+          "en": "I watch TV at night."
+        },
+        {
+          "bn": "আমি একটু বাংলা বলি।",
+          "tr": "ami ektu bangla boli.",
+          "en": "I speak a little Bengali.",
+          "alt": [
+            "I speak a bit of Bangla."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u08-l04b",
+      "title": "Listen & write",
+      "goal": "Use the vowel-raising verbs শোনা and লেখা, and say what you usually do.",
+      "grammar": [
+        "vowel-raising verbs: the আমি form raises o→u, e→i",
+        "শোনা: আমি শুনি / সে শোনে · লেখা: আমি লিখি / সে লেখে",
+        "contrast: দেখা does not raise (দেখি / দেখে)",
+        "গান শোনা 'listen to music'; সাধারণত 'usually'"
+      ],
+      "new": [
+        "shuni",
+        "shone",
+        "likhi",
+        "lekhe",
+        "gan",
+        "shadharonoto"
+      ],
+      "review": [
+        "dekhi",
+        "dekhe",
+        "pori",
+        "uthi",
+        "othen",
+        "koytay",
+        "shattay",
+        "bangla",
+        "ingreji",
+        "tibhi",
+        "rate"
+      ],
+      "tip": "Some verbs change their **vowel** between persons. The আমি form has **u** or **i**; the other forms have **o** or **e**:\n\n- শোনা 'listen': আমি **শুনি** — সে **শোনে**\n- লেখা 'write': আমি **লিখি** — সে **লেখে**\n- ওঠা 'get up': আমি **উঠি** — আপনি **ওঠেন** (Lesson 2)\n\nCompare **দেখা** from the last lesson, which never changes: আমি **দেখি**, সে **দেখে**. So learn each verb as an আমি + সে pair.\n\n**গান** is 'song', and **গান শোনা** is how you say 'listen to music': **আমি গান শুনি**.\n\n**সাধারণত** (*shadharonoto*) 'usually' goes early in the sentence: **আমি সাধারণত রাতে গান শুনি** 'I usually listen to music at night'.",
+      "sentences": [
         {
           "bn": "আমি গান শুনি।",
           "tr": "ami gan shuni.",
@@ -428,17 +505,41 @@
           ]
         },
         {
-          "bn": "আমি বাংলা বলি।",
-          "tr": "ami bangla boli.",
-          "en": "I speak Bengali.",
+          "bn": "আমি বাংলা পড়ি আর লিখি।",
+          "tr": "ami bangla pori ar likhi.",
+          "en": "I read and write Bengali.",
           "alt": [
-            "I speak Bangla."
+            "I read and write Bangla."
           ]
         },
         {
-          "bn": "আপনি কি ইংরেজি বলেন?",
-          "tr": "apni ki ingreji bolen?",
-          "en": "Do you speak English?"
+          "bn": "আমি টিভি দেখি আর সে গান শোনে।",
+          "tr": "ami tibhi dekhi ar she gan shone.",
+          "en": "I watch TV and she listens to music."
+        },
+        {
+          "bn": "আমি সাধারণত রাতে গান শুনি।",
+          "tr": "ami shadharonoto rate gan shuni.",
+          "en": "I usually listen to music at night.",
+          "alt": [
+            "At night I usually listen to music."
+          ]
+        },
+        {
+          "bn": "আপনি সাধারণত কয়টায় ওঠেন?",
+          "tr": "apni shadharonoto koytay othen?",
+          "en": "What time do you usually get up?",
+          "alt": [
+            "When do you usually get up?"
+          ]
+        },
+        {
+          "bn": "আমি সাধারণত সাতটায় উঠি।",
+          "tr": "ami shadharonoto shattay uthi.",
+          "en": "I usually get up at seven.",
+          "alt": [
+            "I usually wake up at 7."
+          ]
         }
       ]
     },
@@ -871,56 +972,201 @@
     },
     {
       "id": "u08-l09",
-      "title": "Review: a day in my life",
-      "goal": "Describe a full routine with times, frequency and sequence.",
+      "title": "Review: my routine",
+      "kind": "review",
+      "goal": "Recall the present tense by person, times and daily verbs from Lessons 1–4b.",
       "grammar": [
-        "review: present simple by person, vowel-raising pairs, present continuous, frequency, sequencing"
+        "review: present simple by person, raising pairs, -টায় times, destinations in -এ"
       ],
-      "new": [
-        "shadharonoto"
-      ],
+      "new": [],
       "review": [
-        "ami",
-        "shokal",
-        "shattay",
+        "kori",
+        "korish",
+        "koro",
+        "koren",
+        "kore",
+        "kaj",
+        "kothin",
+        "shotti",
+        "ashole",
         "uthi",
-        "tumi",
-        "ekhon",
-        "ki-what",
-        "korchho",
-        "she",
-        "protidin",
-        "koytay",
+        "othen",
+        "ghumai",
+        "ghuman",
+        "ghum",
+        "gosol",
+        "shattay",
         "attay",
-        "ghuman"
+        "doshtay",
+        "koytay",
+        "kokhon",
+        "ofis",
+        "ofise",
+        "skul",
+        "skule",
+        "jai",
+        "jao",
+        "jay",
+        "ashi",
+        "ashe",
+        "pori",
+        "pore-reads",
+        "dekhi",
+        "dekhe",
+        "boli",
+        "bolen",
+        "boi",
+        "tibhi",
+        "shuni",
+        "shone",
+        "likhi",
+        "lekhe",
+        "gan",
+        "shadharonoto",
+        "rikshay",
+        "base",
+        "nashta",
+        "tarpor"
       ],
-      "tip": "You can now describe a whole day:\n\n**আমি সাধারণত সকাল সাতটায় উঠি। তারপর গোসল করি আর নাস্তা করি। নাস্তার পরে অফিসে যাই। কাজের পরে বাসায় আসি, রান্না করি, তারপর ঘুমাই।**\n\n**সাধারণত** (*shadharonoto*) = 'usually'. Like the other frequency words, it goes early: **আপনি সাধারণত কয়টায় ঘুমান?** 'What time do you usually go to bed?'\n\nQuick checklist:\n\n- Endings: আমি **-ি**, তুমি **-ো**, আপনি **-েন**, সে **-ে** (করি, করো, করেন, করে).\n- Vowel-raising pairs: শুনি / শোনে, লিখি / লেখে, উঠি / ওঠেন.\n- Right now: **-ছি**, **-ছো**, **-ছেন**, **-ছে** (করছি, করছো…).\n- Clock times: **দশটা বাজে** 'it's ten', but **দশটায়** 'at ten'.",
+      "tip": "No new words: this review mixes Lessons 1–4b.\n\n- **Person endings**: আমি **করি**, তুই **করিস**, তুমি **করো**, আপনি **করেন**, সে **করে**.\n- **Raising pairs**: শুনি / শোনে, লিখি / লেখে, উঠি / ওঠেন. **No change**: দেখি / দেখে, পড়ি / পড়ে.\n- **Clock times**: **দশটা বাজে** 'it's ten', but **দশটায়** 'at ten'. Ask **কয়টায়?** for a time, **কখন?** for 'when'.\n- **Destinations** take **-এ**: **অফিসে যাই**, **স্কুলে যায়**, **বাসায় আসি**.\n\nWords from earlier units come back too: **রিকশায়**, **বাসে**, **নাস্তা**.",
       "sentences": [
         {
-          "bn": "আমি সাধারণত সকাল সাতটায় উঠি।",
-          "tr": "ami shadharonoto shokal shattay uthi.",
-          "en": "I usually get up at seven in the morning.",
+          "bn": "আসলে আমার কাজ খুব কঠিন।",
+          "tr": "ashole amar kaj khub kothin.",
+          "en": "Actually, my work is very hard.",
           "alt": [
-            "I usually wake up at 7 a.m."
+            "Actually, my job is very difficult."
           ]
         },
+        {
+          "bn": "আমার ছোট বোন রিকশায় স্কুলে যায়।",
+          "tr": "amar chhoto bon rikshay skule jay.",
+          "en": "My younger sister goes to school by rickshaw.",
+          "alt": [
+            "My little sister goes to school by rickshaw."
+          ]
+        },
+        {
+          "bn": "আমি সাধারণত রাতে বই পড়ি।",
+          "tr": "ami shadharonoto rate boi pori.",
+          "en": "I usually read books at night.",
+          "alt": [
+            "At night I usually read books."
+          ]
+        },
+        {
+          "bn": "আমি বাসে অফিসে যাই।",
+          "tr": "ami base ofise jai.",
+          "en": "I go to the office by bus.",
+          "alt": [
+            "I go to work by bus."
+          ]
+        },
+        {
+          "bn": "আমি সকালে গোসল করি, তারপর নাস্তা করি।",
+          "tr": "ami shokale gosol kori, tarpor nashta kori.",
+          "en": "I bathe in the morning, then I have breakfast.",
+          "alt": [
+            "I shower in the morning, then I eat breakfast."
+          ]
+        },
+        {
+          "bn": "আপনি কয়টায় ঘুম থেকে ওঠেন?",
+          "tr": "apni koytay ghum theke othen?",
+          "en": "What time do you wake up?",
+          "alt": [
+            "What time do you get up?"
+          ]
+        },
+        {
+          "bn": "সে গান শোনে আর আমি টিভি দেখি।",
+          "tr": "she gan shone ar ami tibhi dekhi.",
+          "en": "She listens to music and I watch TV.",
+          "alt": [
+            "He listens to music and I watch TV."
+          ]
+        },
+        {
+          "bn": "আমি বাংলা বলি আর লিখি।",
+          "tr": "ami bangla boli ar likhi.",
+          "en": "I speak and write Bengali.",
+          "alt": [
+            "I speak and write Bangla."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u08-l09b",
+      "title": "Review: now, often, why",
+      "kind": "review",
+      "goal": "Recall the present continuous, frequency, sequence, reasons and 'can' from Lessons 5–8.",
+      "grammar": [
+        "review: -ছি/-ছো/-ছেন/-ছে, frequency words, তারপর/আগে/পরে, কারণ/তাই, পারা"
+      ],
+      "new": [],
+      "review": [
+        "korchhi",
+        "korchho",
+        "korchhen",
+        "korchhe",
+        "dekhchhe",
+        "khachchhi",
+        "jachchhi",
+        "porchhi",
+        "ranna",
+        "protidin",
+        "shobshomoy",
+        "majhe-majhe",
+        "kokhono",
+        "kokhono-na",
+        "namaj",
+        "poren",
+        "dat",
+        "maji",
+        "dat-maja",
+        "tarpor",
+        "age",
+        "pore-later",
+        "nashtar",
+        "ghumer",
+        "kajer",
+        "fon",
+        "karon",
+        "tai",
+        "bolte",
+        "pari",
+        "paren",
+        "pare",
+        "mone-hoy",
+        "hoyto",
+        "proshno",
+        "uttor",
+        "bhul",
+        "machh",
+        "dal",
+        "shomoy",
+        "bashay"
+      ],
+      "tip": "No new words: this review mixes Lessons 5–8.\n\n- **Right now**: **-ছি / -ছো / -ছেন / -ছে**: করছি, করছো, করছেন, করছে; খাচ্ছি, যাচ্ছি.\n- **How often**: প্রতিদিন, সবসময়, মাঝে মাঝে, and **কখনো … না** 'never'.\n- **Order**: **তারপর** 'then'; **নাস্তার পরে** 'after breakfast', **ঘুমের আগে** 'before sleep'.\n- **Reason and result**: **কারণ** 'because' + reason; **তাই** 'so' + result.\n- **Can**: বলতে **পারি / পারেন / পারে**; can't = **পারি না**.\n- **Opinion**: **মনে হয়** 'I think', **হয়তো** 'maybe'.",
+      "sentences": [
         {
           "bn": "তুমি এখন কী করছো?",
           "tr": "tumi ekhon ki korchho?",
           "en": "What are you doing now?"
         },
         {
-          "bn": "সে প্রতিদিন স্কুলে যায়।",
-          "tr": "she protidin skule jay.",
-          "en": "She goes to school every day.",
-          "alt": [
-            "He goes to school every day."
-          ]
+          "bn": "আমি কখনো মাছ খাই না।",
+          "tr": "ami kokhono machh khai na.",
+          "en": "I never eat fish."
         },
         {
-          "bn": "আমি কখনো টিভি দেখি না।",
-          "tr": "ami kokhono tibhi dekhi na.",
-          "en": "I never watch TV."
+          "bn": "হয়তো সে অফিসে, মনে হয় সে কাজ করছে।",
+          "tr": "hoyto she ofise, mone hoy she kaj korchhe.",
+          "en": "Maybe he's at the office; I think he's working.",
+          "alt": [
+            "Maybe she is at the office, I think she is working."
+          ]
         },
         {
           "bn": "কাজের পরে আমি বাসায় আসি, তারপর রান্না করি।",
@@ -928,43 +1174,32 @@
           "en": "After work I come home, then I cook."
         },
         {
-          "bn": "আপনি সাধারণত কখন অফিসে যান?",
-          "tr": "apni shadharonoto kokhon ofise jan?",
-          "en": "When do you usually go to the office?",
+          "bn": "আমি রাতে রান্না করি, কারণ সকালে সময় নেই।",
+          "tr": "ami rate ranna kori, karon shokale shomoy nei.",
+          "en": "I cook at night because there's no time in the morning."
+        },
+        {
+          "bn": "আমি মাছ খেতে পারি না, তাই আমি ডাল খাই।",
+          "tr": "ami machh khete pari na, tai ami dal khai.",
+          "en": "I can't eat fish, so I eat lentils.",
           "alt": [
-            "What time do you usually go to work?"
+            "I can't eat fish, so I eat dal."
           ]
         },
         {
-          "bn": "আমি বাংলা পড়ি আর লিখি।",
-          "tr": "ami bangla pori ar likhi.",
-          "en": "I read and write Bengali.",
+          "bn": "আপনি কি বাংলা বলতে পারেন?",
+          "tr": "apni ki bangla bolte paren?",
+          "en": "Can you speak Bengali?",
           "alt": [
-            "I read and write Bangla."
+            "Can you speak Bangla?"
           ]
         },
         {
-          "bn": "সে সবসময় গান শোনে।",
-          "tr": "she shobshomoy gan shone.",
-          "en": "She always listens to music.",
+          "bn": "ঘুমের আগে আমি ফোন দেখি।",
+          "tr": "ghumer age ami fon dekhi.",
+          "en": "Before sleeping I look at my phone.",
           "alt": [
-            "He always listens to music."
-          ]
-        },
-        {
-          "bn": "আপনি সাধারণত কয়টায় ঘুমান?",
-          "tr": "apni shadharonoto koytay ghuman?",
-          "en": "What time do you usually go to bed?",
-          "alt": [
-            "What time do you usually sleep?"
-          ]
-        },
-        {
-          "bn": "আমি আটটায় উঠি, তারপর অফিসে যাই।",
-          "tr": "ami attay uthi, tarpor ofise jai.",
-          "en": "I get up at eight, then I go to the office.",
-          "alt": [
-            "I get up at 8, then I go to work."
+            "I check my phone before bed."
           ]
         }
       ]

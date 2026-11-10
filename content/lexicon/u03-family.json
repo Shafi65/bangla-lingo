@@ -440,7 +440,7 @@
         "someone"
       ],
       "pos": "number",
-      "lesson": "u03-l05",
+      "lesson": "u03-l05b",
       "notes": "এক + -জন, the classifier for people."
     },
     {
@@ -452,7 +452,7 @@
         "two"
       ],
       "pos": "number",
-      "lesson": "u03-l05",
+      "lesson": "u03-l05b",
       "notes": "Kolkata: দুজন.",
       "kolkata": {
         "bn": "দুজন",
@@ -468,7 +468,7 @@
         "how many"
       ],
       "pos": "adv",
-      "lesson": "u03-l05",
+      "lesson": "u03-l05b",
       "notes": "Also কতজন (kotojon)."
     },
     {
@@ -552,7 +552,7 @@
       "tr": "shami",
       "en": "husband",
       "pos": "noun",
-      "lesson": "u03-l07",
+      "lesson": "u03-l05",
       "notes": "The ব-fola after স is silent."
     },
     {
@@ -561,7 +561,7 @@
       "tr": "stri",
       "en": "wife",
       "pos": "noun",
-      "lesson": "u03-l07",
+      "lesson": "u03-l05",
       "notes": "Neutral/formal. Colloquially বউ."
     },
     {
@@ -573,7 +573,7 @@
         "bride"
       ],
       "pos": "noun",
-      "lesson": "u03-l07",
+      "lesson": "u03-l05",
       "notes": "Colloquial 'wife'; also 'bride' and 'daughter-in-law'. Also spelled বৌ."
     },
     {
@@ -639,7 +639,7 @@
         "however"
       ],
       "pos": "particle",
-      "lesson": "u03-l07"
+      "lesson": "u03-l05b"
     },
     {
       "id": "shobai",
@@ -651,7 +651,7 @@
         "all"
       ],
       "pos": "pronoun",
-      "lesson": "u03-l07"
+      "lesson": "u03-l05b"
     },
     {
       "id": "mane",
@@ -664,7 +664,7 @@
         "I mean"
       ],
       "pos": "noun",
-      "lesson": "u03-l07",
+      "lesson": "u03-l06",
       "notes": "X মানে কী? = \"What does X mean?\". Also a filler: মানে… \"I mean…\"."
     }
   ]

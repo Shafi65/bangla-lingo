@@ -1,0 +1,388 @@
+{
+  "id": "u09-l07b",
+  "unit": "u09-past",
+  "title": "Been there: the past perfect",
+  "status": "draft",
+  "tip": "You'll often hear the past one step further back, the **past perfect**: stem + **-এছিল-** + ending.\n\n- **গিয়েছিলাম**: I went / had gone (আমি)\n- **গিয়েছিল**: he / she went / had gone (সে)\n\nIt is used for a trip that is over, when you went **and came back**: **আমি গত সপ্তাহে সিলেটে গিয়েছিলাম** 'I went to Sylhet last week'. It also marks what had already happened at a past moment: **আমি যখন এলাম, তখন সে বাজারে গিয়েছিল** 'When I came, he had gone to the market'.\n\nCompare **গেলাম** 'I went' and **গিয়েছে** 'has gone (and is still away)'. In speech you'll hear **গেছিলাম**, **গেছিল**. Just recognise these forms for now.\n\n**ছবি** is 'picture' and also 'film': **একটা ছবি দেখলাম** 'I watched a film'.",
+  "vocab": [
+    {
+      "id": "giyechhilam",
+      "bn": "গিয়েছিলাম",
+      "tr": "giyechhilam",
+      "en": "I had gone",
+      "notes": "Past perfect; often just 'I went (and came back)'. Colloquial: গেছিলাম."
+    },
+    {
+      "id": "giyechhilo",
+      "bn": "গিয়েছিল",
+      "tr": "giyechhilo",
+      "en": "had gone",
+      "notes": "Colloquial: গেছিল."
+    },
+    {
+      "id": "chhobi",
+      "bn": "ছবি",
+      "tr": "chhobi",
+      "en": "film",
+      "notes": "Means both 'picture/photo' and 'film'. ছবি দেখা = watch a film."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "গিয়েছিলাম",
+        "tr": "giyechhilam",
+        "en": "I had gone"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "has gone",
+        "I will go",
+        "I had gone",
+        "I go"
+      ],
+      "answer": 2,
+      "why": "-এছিলাম is the past perfect for আমি: you went earlier, and that trip is over."
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "গিয়েছিল",
+        "tr": "giyechhilo",
+        "en": "had gone"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "I had gone",
+        "has gone",
+        "had gone",
+        "will go"
+      ],
+      "answer": 2,
+      "why": "No -আম ending: গিয়েছিল is the সে form."
+    },
+    {
+      "id": "e03",
+      "type": "listen_select",
+      "audio": {
+        "bn": "গিয়েছিল",
+        "tr": "giyechhilo",
+        "en": "had gone"
+      },
+      "options": [
+        "গিয়েছিলাম",
+        "গিয়েছে",
+        "গিয়েছিল",
+        "গেল"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e04",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ছবি",
+        "tr": "chhobi",
+        "en": "film"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "book",
+        "song",
+        "TV",
+        "film"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e05",
+      "type": "listen_select",
+      "audio": {
+        "bn": "ছবি",
+        "tr": "chhobi",
+        "en": "film"
+      },
+      "options": [
+        "ছবি",
+        "ছয়",
+        "ছেলে",
+        "ছাড়া"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e06",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "গিয়েছিলাম",
+          "tr": "giyechhilam",
+          "en": "I had gone"
+        },
+        {
+          "bn": "গিয়েছে",
+          "tr": "giyechhe",
+          "en": "has gone"
+        },
+        {
+          "bn": "গেলাম",
+          "tr": "gelam",
+          "en": "I went"
+        },
+        {
+          "bn": "গেল",
+          "tr": "gelo",
+          "en": "went"
+        },
+        {
+          "bn": "ছবি",
+          "tr": "chhobi",
+          "en": "film"
+        }
+      ]
+    },
+    {
+      "id": "e07",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আমি যখন এলাম, তখন সে বাজারে গিয়েছিল।",
+        "tr": "ami jokhon elam, tokhon she bajare giyechhilo.",
+        "en": "When I came, he had gone to the market."
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "When I come, he goes to the market.",
+        "When I came, he had gone to the market.",
+        "When he came, I had gone to the market.",
+        "When I came, he was at the market."
+      ],
+      "answer": 1,
+      "why": "যখন … তখন links two past moments; গিয়েছিল = it had already happened."
+    },
+    {
+      "id": "e08",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "সে এখন বাসায় নেই, সে অফিসে গিয়েছে।",
+        "tr": "she ekhon bashay nei, she ofise giyechhe.",
+        "en": "He's not home now; he has gone to the office."
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "He's not home now; he has gone to the office.",
+        "He was not home; he had gone to the office.",
+        "He is at home now; he has come from the office.",
+        "He's not at the office; he has gone home."
+      ],
+      "answer": 0,
+      "why": "গিয়েছে = has gone (still away now); গিয়েছিল = had gone."
+    },
+    {
+      "id": "e09",
+      "type": "listen_select",
+      "audio": {
+        "bn": "আমি গত সপ্তাহে সিলেটে গিয়েছিলাম।",
+        "tr": "ami goto shoptahe shilete giyechhilam.",
+        "en": "I went to Sylhet last week."
+      },
+      "options": [
+        "আমি গত সপ্তাহে সিলেটে ছিলাম।",
+        "সে গত সপ্তাহে সিলেটে গিয়েছিল।",
+        "আমি গত সপ্তাহে ঢাকায় গিয়েছিলাম।",
+        "আমি গত সপ্তাহে সিলেটে গিয়েছিলাম।"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e10",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "সে গত সপ্তাহে ঢাকায় গিয়েছিল।",
+        "tr": "she goto shoptahe dhakay giyechhilo.",
+        "en": "He went to Dhaka last week."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "He",
+        "went",
+        "had",
+        "gone",
+        "to",
+        "Dhaka",
+        "last",
+        "week",
+        "goes",
+        "every"
+      ],
+      "answer": [
+        "He",
+        "went",
+        "to",
+        "Dhaka",
+        "last",
+        "week"
+      ],
+      "alt": [
+        [
+          "He",
+          "had",
+          "gone",
+          "to",
+          "Dhaka",
+          "last",
+          "week"
+        ],
+        [
+          "last",
+          "week",
+          "He",
+          "went",
+          "to",
+          "Dhaka"
+        ],
+        [
+          "last",
+          "week",
+          "He",
+          "had",
+          "gone",
+          "to",
+          "Dhaka"
+        ]
+      ]
+    },
+    {
+      "id": "e11",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "গত সপ্তাহে আমি সিলেটে গিয়েছিলাম, কারণ আমার দাদি সিলেটে থাকেন।",
+        "tr": "goto shoptahe ami shilete giyechhilam, karon amar dadi shilete thaken.",
+        "en": "Last week I went to Sylhet because my grandmother lives in Sylhet."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "Last",
+        "week",
+        "I",
+        "went",
+        "to",
+        "Sylhet",
+        "because",
+        "my",
+        "grandmother",
+        "lives",
+        "in",
+        "Sylhet",
+        "so",
+        "grandfather"
+      ],
+      "answer": [
+        "Last",
+        "week",
+        "I",
+        "went",
+        "to",
+        "Sylhet",
+        "because",
+        "my",
+        "grandmother",
+        "lives",
+        "in",
+        "Sylhet"
+      ],
+      "alt": [
+        [
+          "I",
+          "went",
+          "to",
+          "Sylhet",
+          "Last",
+          "week",
+          "because",
+          "my",
+          "grandmother",
+          "lives",
+          "in",
+          "Sylhet"
+        ]
+      ],
+      "why": "কারণ 'because' introduces the reason."
+    },
+    {
+      "id": "e12",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমি একটা ছবি দেখলাম।",
+        "tr": "ami ekta chhobi dekhlam.",
+        "en": "I watched a film."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "আমি",
+        "একটা",
+        "ছবি",
+        "দেখলাম",
+        "দেখি",
+        "বই"
+      ],
+      "answer": [
+        "আমি",
+        "একটা",
+        "ছবি",
+        "দেখলাম"
+      ],
+      "alt": [
+        [
+          "একটা",
+          "ছবি",
+          "দেখলাম"
+        ]
+      ],
+      "why": "Past for আমি: -লাম (দেখলাম)."
+    },
+    {
+      "id": "e13",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ছবি খুব ভালো ছিল।",
+        "tr": "chhobi khub bhalo chhilo.",
+        "en": "The film was very good."
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "ছবি খুব ভালো।",
+        "বই খুব ভালো ছিল।",
+        "ছবি খুব ভালো ছিল।",
+        "ছবি খুব ভালো ছিলাম।"
+      ],
+      "answer": 2,
+      "why": "'Was' for a thing is ছিল; ছিলাম is only for আমি."
+    },
+    {
+      "id": "e14",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "গতকাল আমরা বন্ধুর সাথে ছবি দেখলাম।",
+        "tr": "gotokal amra bondhur shathe chhobi dekhlam.",
+        "en": "Yesterday we watched a film with a friend."
+      },
+      "direction": "bn_to_en",
+      "accepted": [
+        "Yesterday we watched a film with a friend.",
+        "Yesterday we watched a movie with a friend.",
+        "Yesterday we saw a film with a friend.",
+        "Yesterday we saw a movie with a friend.",
+        "We watched a film with a friend yesterday.",
+        "We watched a movie with a friend yesterday.",
+        "We saw a film with a friend yesterday.",
+        "We saw a movie with a friend yesterday.",
+        "Yesterday we watched a film with our friend.",
+        "Yesterday we watched a movie with my friend.",
+        "Yesterday we watched a film with my friend."
+      ]
+    }
+  ]
+}

@@ -1,150 +1,271 @@
 {
   "id": "u09-l08",
   "unit": "u09-past",
-  "title": "Review: what happened?",
+  "title": "Review: did, have done",
   "status": "draft",
-  "tip": "Quick check of the past system:\n\n- **simple past** (*did*): করলাম, করলে, করলেন, করল\n- **perfect** (*have done*): করেছি, খেয়েছেন\n- **negative** (*didn't / haven't*): present + **-নি**: করিনি, খাইনি\n- **was**: ছিলাম, ছিলে, ছিলেন, ছিল\n- **past perfect** (*had done*, recognise only): গিয়েছিলাম, গিয়েছিল\n\n**ছবি** means both 'picture' and 'film': **একটা ছবি দেখলাম** 'I watched a film'.\n\n**মতো** (*moto*) 'like, similar to' follows a genitive, just like সাথে: **মায়ের মতো** 'like (her) mother'. It's not the 'like' of liking food; that's **পছন্দ**.",
-  "vocab": [
-    {
-      "id": "chhobi",
-      "bn": "ছবি",
-      "tr": "chhobi",
-      "en": "film",
-      "notes": "Means both 'picture/photo' and 'film'. ছবি দেখা = watch a film."
-    },
-    {
-      "id": "giyechhilo",
-      "bn": "গিয়েছিল",
-      "tr": "giyechhilo",
-      "en": "had gone",
-      "notes": "Colloquial: গেছিল."
-    },
-    {
-      "id": "moto",
-      "bn": "মতো",
-      "tr": "moto",
-      "en": "like",
-      "notes": "Follows a genitive: মায়ের মতো \"like (my) mother\"."
-    }
-  ],
+  "tip": "No new words: this review mixes Lessons 1–4b.\n\n- **Simple past** (*did*): **-লাম** আমি · **-লি** তুই · **-লে** তুমি · **-লেন** আপনি · **-ল** সে: করলাম, করলি, করলে, করলেন, করল.\n- **Irregulars**: গেলাম / গেল 'went', এলাম or আসলাম 'I came', খেলাম 'I ate', দিলাম 'I gave', নিলাম 'I took'.\n- **Perfect** (*have done*): করেছি, খেয়েছি / খেয়েছো / খেয়েছেন, গিয়েছে, এসেছে.\n- **তাকে** 'him / her' is the object: **আমি তাকে বললাম** 'I told him'.\n\nEarlier words come back too: **বাজারে**, **শাড়ি**, **ভাত**, **টাকা**.",
+  "vocab": [],
   "exercises": [
     {
       "id": "e01",
       "type": "select_translation",
       "prompt": {
-        "bn": "ছবি",
-        "tr": "chhobi",
-        "en": "film"
+        "bn": "গতকাল আমি একটা বই কিনলাম আর পড়লাম।",
+        "tr": "gotokal ami ekta boi kinlam ar porlam.",
+        "en": "Yesterday I bought a book and read it."
       },
       "direction": "bn_to_en",
       "options": [
-        "book",
-        "song",
-        "film",
-        "TV"
+        "Yesterday I bought a book and read it.",
+        "Today I bought a book and read it.",
+        "Yesterday I sold a book and read it.",
+        "Tomorrow I will buy a book and read it."
       ],
-      "answer": 2
+      "answer": 0
     },
     {
       "id": "e02",
       "type": "listen_select",
       "audio": {
-        "bn": "গিয়েছিল",
-        "tr": "giyechhilo",
-        "en": "had gone"
+        "bn": "এসেছে",
+        "tr": "eshechhe",
+        "en": "has come"
       },
       "options": [
-        "গিয়েছিল",
-        "গিয়েছিলাম",
-        "গিয়েছে",
-        "গেল"
+        "এসেছি",
+        "আসে",
+        "এসেছে",
+        "আসেনি"
       ],
-      "answer": 0
+      "answer": 2,
+      "why": "-এছে is the perfect for সে: এসেছে 'has come'."
     },
     {
       "id": "e03",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "গিয়েছিল",
-        "tr": "giyechhilo",
-        "en": "had gone (he / she)"
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "I had gone",
-        "has gone",
-        "will go",
-        "had gone (he / she)"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "e04",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "মতো",
-        "tr": "moto",
-        "en": "like (similar to)"
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "with",
-        "like (similar to)",
-        "from",
-        "without"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "e05",
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "খেলাম",
-          "tr": "khelam",
-          "en": "I ate"
+          "bn": "করলাম",
+          "tr": "korlam",
+          "en": "I did"
         },
         {
-          "bn": "খাইনি",
-          "tr": "khaini",
-          "en": "I haven't eaten"
+          "bn": "দেখলাম",
+          "tr": "dekhlam",
+          "en": "I saw"
         },
         {
-          "bn": "খেয়েছেন",
-          "tr": "kheyechhen",
-          "en": "have you eaten (polite)"
+          "bn": "শুনলাম",
+          "tr": "shunlam",
+          "en": "I heard"
         },
         {
-          "bn": "ছিলাম",
-          "tr": "chhilam",
-          "en": "I was"
+          "bn": "বললাম",
+          "tr": "bollam",
+          "en": "I said"
         },
         {
-          "bn": "ছবি",
-          "tr": "chhobi",
-          "en": "film"
+          "bn": "ঘুমালাম",
+          "tr": "ghumalam",
+          "en": "I slept"
         }
       ]
     },
     {
-      "id": "e06",
+      "id": "e04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "করলি",
+          "tr": "korli",
+          "en": "you did (intimate)"
+        },
+        {
+          "bn": "করলে",
+          "tr": "korle",
+          "en": "you did (familiar)"
+        },
+        {
+          "bn": "করলেন",
+          "tr": "korlen",
+          "en": "you did (polite)"
+        },
+        {
+          "bn": "করল",
+          "tr": "korlo",
+          "en": "did"
+        },
+        {
+          "bn": "তাকে",
+          "tr": "take",
+          "en": "him"
+        }
+      ]
+    },
+    {
+      "id": "e05",
       "type": "select_translation",
       "prompt": {
-        "bn": "আমি একটা ছবি দেখলাম।",
-        "tr": "ami ekta chhobi dekhlam.",
-        "en": "I watched a film."
+        "bn": "সে বাজারে একটা শাড়ি কিনল।",
+        "tr": "she bajare ekta shari kinlo.",
+        "en": "She bought a sari at the market."
       },
-      "direction": "en_to_bn",
+      "direction": "bn_to_en",
       "options": [
-        "আমি একটা ছবি দেখি।",
-        "আমি একটা বই পড়লাম।",
-        "আমি ছবি দেখিনি।",
-        "আমি একটা ছবি দেখলাম।"
+        "I bought a sari at the market.",
+        "She will buy a sari at the market.",
+        "She bought a shirt at the market.",
+        "She bought a sari at the market."
       ],
-      "answer": 3
+      "answer": 3,
+      "why": "Plain -ল is the সে form: কিনল. আমি would be কিনলাম."
+    },
+    {
+      "id": "e06",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "গেলাম",
+          "tr": "gelam",
+          "en": "I went"
+        },
+        {
+          "bn": "গেল",
+          "tr": "gelo",
+          "en": "went"
+        },
+        {
+          "bn": "এলাম",
+          "tr": "elam",
+          "en": "I came"
+        },
+        {
+          "bn": "এলে",
+          "tr": "ele",
+          "en": "you came (familiar)"
+        },
+        {
+          "bn": "খেলাম",
+          "tr": "khelam",
+          "en": "I ate"
+        }
+      ]
     },
     {
       "id": "e07",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "দিলাম",
+          "tr": "dilam",
+          "en": "I gave"
+        },
+        {
+          "bn": "নিলাম",
+          "tr": "nilam",
+          "en": "I took"
+        },
+        {
+          "bn": "কিনলেন",
+          "tr": "kinlen",
+          "en": "you bought (polite)"
+        },
+        {
+          "bn": "খেয়েছো",
+          "tr": "kheyechho",
+          "en": "have you eaten (familiar)"
+        },
+        {
+          "bn": "মাত্র",
+          "tr": "matro",
+          "en": "just"
+        }
+      ]
+    },
+    {
+      "id": "e08",
+      "type": "listen_select",
+      "audio": {
+        "bn": "আসলাম",
+        "tr": "ashlam",
+        "en": "I came"
+      },
+      "options": [
+        "আসলে",
+        "আসি",
+        "আসে",
+        "আসলাম"
+      ],
+      "answer": 3,
+      "why": "আসলাম is everyday Bangladeshi 'I came'; the standard form is এলাম."
+    },
+    {
+      "id": "e09",
+      "type": "listen_select",
+      "audio": {
+        "bn": "কী হয়েছে?",
+        "tr": "ki hoyechhe?",
+        "en": "What happened?"
+      },
+      "options": [
+        "কী করছেন?",
+        "কী হয়েছে?",
+        "কী খেয়েছেন?",
+        "কী করলে?"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e10",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমি কাজ করেছি, তাই এখন বাসায় যাচ্ছি।",
+        "tr": "ami kaj korechhi, tai ekhon bashay jachchhi.",
+        "en": "I've done the work, so I'm going home now."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "I've",
+        "done",
+        "the",
+        "work",
+        "so",
+        "I'm",
+        "going",
+        "home",
+        "now",
+        "because",
+        "did",
+        "coming"
+      ],
+      "answer": [
+        "I've",
+        "done",
+        "the",
+        "work",
+        "so",
+        "I'm",
+        "going",
+        "home",
+        "now"
+      ],
+      "alt": [
+        [
+          "I've",
+          "done",
+          "the",
+          "work",
+          "so",
+          "now",
+          "I'm",
+          "going",
+          "home"
+        ]
+      ],
+      "why": "তাই 'so' introduces the result."
+    },
+    {
+      "id": "e11",
       "type": "word_bank",
       "prompt": {
         "bn": "আপনি কি ভাত খেয়েছেন?",
@@ -153,13 +274,13 @@
       },
       "direction": "en_to_bn",
       "tiles": [
-        "খেয়েছো",
-        "ভাত",
         "আপনি",
-        "খেলাম",
         "কি",
-        "তুমি",
-        "খেয়েছেন"
+        "ভাত",
+        "খেয়েছেন",
+        "খেয়েছো",
+        "খেলাম",
+        "তুমি"
       ],
       "answer": [
         "আপনি",
@@ -168,196 +289,103 @@
         "খেয়েছেন"
       ],
       "alt": [
+        [
+          "আপনি",
+          "ভাত",
+          "খেয়েছেন"
+        ],
+        [
+          "আপনি",
+          "খেয়েছেন"
+        ],
         [
           "আপনি",
           "কি",
           "খেয়েছেন"
-        ],
-        [
-          "আপনি",
-          "ভাত",
-          "খেয়েছেন"
-        ],
-        [
-          "আপনি",
-          "খেয়েছেন"
-        ],
-        [
-          "ভাত",
-          "খেয়েছেন"
-        ],
-        [
-          "খেয়েছেন"
         ]
-      ]
-    },
-    {
-      "id": "e08",
-      "type": "word_bank",
-      "prompt": {
-        "bn": "আমি এখনো খাইনি।",
-        "tr": "ami ekhono khaini.",
-        "en": "I haven't eaten yet."
-      },
-      "direction": "bn_to_en",
-      "tiles": [
-        "ate",
-        "yet",
-        "I",
-        "already",
-        "eaten",
-        "didn't",
-        "haven't",
-        "eat"
       ],
-      "answer": [
-        "I",
-        "haven't",
-        "eaten",
-        "yet"
-      ],
-      "alt": [
-        [
-          "I",
-          "didn't",
-          "eat",
-          "yet"
-        ]
-      ]
-    },
-    {
-      "id": "e09",
-      "type": "word_bank",
-      "prompt": {
-        "bn": "গতকাল তুমি কোথায় ছিলে?",
-        "tr": "gotokal tumi kothay chhile?",
-        "en": "Where were you yesterday?"
-      },
-      "direction": "bn_to_en",
-      "tiles": [
-        "today",
-        "were",
-        "Where",
-        "are",
-        "yesterday",
-        "you",
-        "was"
-      ],
-      "answer": [
-        "Where",
-        "were",
-        "you",
-        "yesterday"
-      ]
-    },
-    {
-      "id": "e10",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "সে গত সপ্তাহে ঢাকায় গিয়েছিল।",
-        "tr": "she goto shoptahe dhakay giyechhilo.",
-        "en": "He went to Dhaka last week."
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "He goes to Dhaka every week.",
-        "I went to Dhaka last week.",
-        "He was in Dhaka yesterday.",
-        "He went to Dhaka last week."
-      ],
-      "answer": 3
-    },
-    {
-      "id": "e11",
-      "type": "type_translation",
-      "prompt": {
-        "bn": "আমি মাত্র বাজার থেকে এলাম।",
-        "tr": "ami matro bajar theke elam.",
-        "en": "I just came from the market."
-      },
-      "direction": "bn_to_en",
-      "accepted": [
-        "I just came from the market.",
-        "I've just come from the market.",
-        "I have just come from the market.",
-        "I just came back from the market.",
-        "I've just come back from the market.",
-        "I have just come back from the market.",
-        "I just got back from the market.",
-        "I just returned from the market.",
-        "I have just returned from the market."
-      ]
+      "why": "আপনি takes -েন: খেয়েছেন."
     },
     {
       "id": "e12",
       "type": "word_bank",
       "prompt": {
-        "bn": "আমরা গতকাল বিরিয়ানি খেলাম।",
-        "tr": "amra gotokal biriyani khelam.",
-        "en": "We ate biryani yesterday."
+        "bn": "সে মাত্র অফিসে গিয়েছে।",
+        "tr": "she matro ofise giyechhe.",
+        "en": "He has just gone to the office."
       },
       "direction": "en_to_bn",
       "tiles": [
-        "খাই",
-        "বিরিয়ানি",
-        "আমরা",
-        "আজ",
-        "খেলাম",
-        "আমি",
-        "গতকাল"
+        "সে",
+        "মাত্র",
+        "অফিসে",
+        "গিয়েছে",
+        "গেলাম",
+        "এসেছে",
+        "অফিস"
       ],
       "answer": [
-        "আমরা",
-        "গতকাল",
-        "বিরিয়ানি",
-        "খেলাম"
+        "সে",
+        "মাত্র",
+        "অফিসে",
+        "গিয়েছে"
       ],
-      "alt": [
-        [
-          "গতকাল",
-          "আমরা",
-          "বিরিয়ানি",
-          "খেলাম"
-        ]
-      ]
+      "why": "'Has gone' is the perfect: গিয়েছে."
     },
     {
       "id": "e13",
       "type": "select_translation",
       "prompt": {
-        "bn": "সে তার মায়ের মতো।",
-        "tr": "she tar mayer moto.",
-        "en": "She is like her mother."
+        "bn": "আমি তাকে একশ টাকা দিলাম।",
+        "tr": "ami take eksho taka dilam.",
+        "en": "I gave him a hundred taka."
       },
       "direction": "en_to_bn",
       "options": [
-        "সে তার মায়ের সাথে।",
-        "সে তার মায়ের মতো।",
-        "সে তার বাবার মতো।",
-        "সে তার মা।"
+        "আমি তাকে একশ টাকা নিলাম।",
+        "আমি তাকে একশ টাকা দিলাম।",
+        "আমি তার একশ টাকা দিলাম।",
+        "আমি তাকে দশ টাকা দিলাম।"
       ],
-      "answer": 1
+      "answer": 1,
+      "why": "দিলাম 'I gave' vs নিলাম 'I took'; the person you give to is তাকে, not তার."
     },
     {
       "id": "e14",
       "type": "type_translation",
       "prompt": {
-        "bn": "আমি বাসায় ছিলাম।",
-        "tr": "ami bashay chhilam.",
-        "en": "I was at home."
+        "bn": "জি, আমি খেয়েছি।",
+        "tr": "ji, ami kheyechhi.",
+        "en": "Yes, I have eaten. (polite reply)"
       },
       "direction": "en_to_bn",
       "accepted": [
-        "আমি বাসায় ছিলাম।",
-        "বাসায় ছিলাম।",
-        "ami bashay chhilam",
-        "ami basay chhilam",
-        "ami bashay chilam",
-        "ami basay chilam",
-        "ami bashai chhilam",
-        "ami bashay chhilaam",
-        "bashay chhilam",
-        "basay chilam"
+        "জি, আমি খেয়েছি।",
+        "জি, খেয়েছি।",
+        "ji, ami kheyechhi",
+        "ji ami kheyechhi",
+        "ji kheyechhi",
+        "ji, kheyechhi",
+        "ji ami kheyechi",
+        "ji kheyechi",
+        "ji ami kheyesi"
+      ]
+    },
+    {
+      "id": "e15",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "তুমি কখন এলে?",
+        "tr": "tumi kokhon ele?",
+        "en": "When did you come?"
+      },
+      "direction": "bn_to_en",
+      "accepted": [
+        "When did you come?",
+        "When did you arrive?",
+        "When did you get here?",
+        "What time did you come?",
+        "What time did you arrive?"
       ]
     }
   ]

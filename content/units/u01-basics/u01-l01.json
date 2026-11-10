@@ -1,9 +1,9 @@
 {
   "id": "u01-l01",
   "unit": "u01-basics",
-  "title": "Hello!",
+  "title": "Hello & goodbye",
   "status": "draft",
-  "tip": "**আসসালামু আলাইকুম** (*assalamu alaikum*, 'peace be upon you') is the everyday hello in Bangladesh; the reply is **ওয়ালাইকুম আসসালাম** (*walaikum assalam*). Hindu Bengalis, and most people in Kolkata, say **নমস্কার** (*nomoshkar*) instead. For 'yes', **জি** (*ji*) is the polite choice with elders and strangers; **হ্যাঁ** (*hya~*) is neutral. **না** (*na*) is 'no' and **ধন্যবাদ** (*dhonnobad*) is 'thank you'.\n\nSneak peek at the alphabet: the two letter quizzes are ন as in না and ধ as in ধন্যবাদ.",
+  "tip": "**আসসালামু আলাইকুম** (*assalamu alaikum*, 'peace be upon you') is the everyday hello in Bangladesh; the reply is **ওয়ালাইকুম আসসালাম** (*walaikum assalam*). Hindu Bengalis, and most people in Kolkata, say **নমস্কার** (*nomoshkar*) instead.\n\nFor 'yes', **জি** (*ji*) is the polite choice with elders, teachers and strangers; **হ্যাঁ** (*hya~*) is neutral. **না** (*na*) is 'no' and **ধন্যবাদ** (*dhonnobad*) is 'thank you'.\n\nTo say goodbye, **খোদা হাফেজ** (*khoda hafez*, 'may God protect you') is usual in Bangladesh. **আবার দেখা হবে** (*abar dekha hobe*, 'see you again') works for everyone.",
   "vocab": [
     {
       "id": "assalamu-alaikum",
@@ -52,18 +52,32 @@
       "tr": "dhonnobad",
       "en": "thank you",
       "notes": "Between close family and friends, Bengalis thank each other less than English speakers do; ধন্যবাদ can sound formal there."
+    },
+    {
+      "id": "khoda-hafez",
+      "bn": "খোদা হাফেজ",
+      "tr": "khoda hafez",
+      "en": "goodbye",
+      "notes": "Lit. 'may God protect you'. Variant: আল্লাহ হাফেজ (allah hafez). The z sound in hafez comes from Arabic; many speakers say 'hafej'."
+    },
+    {
+      "id": "abar-dekha-hobe",
+      "bn": "আবার দেখা হবে",
+      "tr": "abar dekha hobe",
+      "en": "see you again",
+      "notes": "Lit. 'there will be a meeting again'. Neutral, used by everyone in both Bangladesh and West Bengal."
     }
   ],
   "exercises": [
     {
       "id": "e01",
       "type": "select_translation",
-      "direction": "bn_to_en",
       "prompt": {
         "bn": "হ্যাঁ",
         "tr": "hya~",
         "en": "yes"
       },
+      "direction": "bn_to_en",
       "options": [
         "yes",
         "no",
@@ -75,17 +89,17 @@
     {
       "id": "e02",
       "type": "select_translation",
-      "direction": "bn_to_en",
       "prompt": {
         "bn": "না",
         "tr": "na",
         "en": "no"
       },
+      "direction": "bn_to_en",
       "options": [
         "thank you",
         "no",
         "yes",
-        "yes (polite)"
+        "goodbye"
       ],
       "answer": 1
     },
@@ -101,7 +115,7 @@
       "options": [
         "no",
         "thank you",
-        "yes (polite)",
+        "see you again",
         "hello (peace be upon you)"
       ],
       "answer": 3
@@ -109,29 +123,29 @@
     {
       "id": "e04",
       "type": "select_translation",
-      "direction": "bn_to_en",
       "prompt": {
         "bn": "ওয়ালাইকুম আসসালাম",
         "tr": "walaikum assalam",
         "en": "hello (in reply)"
       },
+      "direction": "bn_to_en",
       "options": [
-        "thank you",
         "hello (in reply)",
-        "no",
+        "thank you",
+        "goodbye",
         "yes (polite)"
       ],
-      "answer": 1
+      "answer": 0
     },
     {
       "id": "e05",
       "type": "select_translation",
-      "direction": "bn_to_en",
       "prompt": {
         "bn": "নমস্কার",
         "tr": "nomoshkar",
         "en": "hello (Hindu greeting)"
       },
+      "direction": "bn_to_en",
       "options": [
         "no",
         "thank you",
@@ -142,6 +156,72 @@
     },
     {
       "id": "e06",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "খোদা হাফেজ",
+        "tr": "khoda hafez",
+        "en": "goodbye"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "hello (in reply)",
+        "thank you",
+        "no",
+        "goodbye"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e07",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আবার দেখা হবে",
+        "tr": "abar dekha hobe",
+        "en": "see you again"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "hello (Hindu greeting)",
+        "see you again",
+        "thank you",
+        "yes (polite)"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e08",
+      "type": "listen_select",
+      "audio": {
+        "bn": "ধন্যবাদ",
+        "tr": "dhonnobad",
+        "en": "thank you"
+      },
+      "options": [
+        "না",
+        "হ্যাঁ",
+        "নমস্কার",
+        "ধন্যবাদ"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e09",
+      "type": "listen_select",
+      "audio": {
+        "bn": "খোদা হাফেজ",
+        "tr": "khoda hafez",
+        "en": "goodbye"
+      },
+      "options": [
+        "আবার দেখা হবে",
+        "নমস্কার",
+        "খোদা হাফেজ",
+        "ওয়ালাইকুম আসসালাম"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e10",
       "type": "match_pairs",
       "pairs": [
         {
@@ -172,62 +252,6 @@
       ]
     },
     {
-      "id": "e07",
-      "type": "listen_select",
-      "audio": {
-        "bn": "ধন্যবাদ",
-        "tr": "dhonnobad",
-        "en": "thank you"
-      },
-      "options": [
-        "ধন্যবাদ",
-        "না",
-        "হ্যাঁ",
-        "নমস্কার"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "e08",
-      "type": "listen_select",
-      "audio": {
-        "bn": "ওয়ালাইকুম আসসালাম",
-        "tr": "walaikum assalam",
-        "en": "hello (in reply)"
-      },
-      "options": [
-        "আসসালামু আলাইকুম",
-        "ওয়ালাইকুম আসসালাম",
-        "নমস্কার",
-        "ধন্যবাদ"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "e09",
-      "type": "script_recognize",
-      "glyph": "ন",
-      "options": [
-        "n",
-        "m",
-        "t",
-        "l"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "e10",
-      "type": "script_recognize",
-      "glyph": "ধ",
-      "options": [
-        "d",
-        "dh",
-        "th",
-        "bh"
-      ],
-      "answer": 1
-    },
-    {
       "id": "e11",
       "type": "match_pairs",
       "pairs": [
@@ -242,46 +266,69 @@
           "en": "hello (in reply)"
         },
         {
+          "bn": "খোদা হাফেজ",
+          "tr": "khoda hafez",
+          "en": "goodbye"
+        },
+        {
+          "bn": "আবার দেখা হবে",
+          "tr": "abar dekha hobe",
+          "en": "see you again"
+        },
+        {
           "bn": "জি",
           "tr": "ji",
           "en": "yes (polite)"
-        },
-        {
-          "bn": "না",
-          "tr": "na",
-          "en": "no"
         }
       ]
     },
     {
       "id": "e12",
-      "type": "word_bank",
-      "direction": "en_to_bn",
+      "type": "select_translation",
       "prompt": {
-        "bn": "হ্যাঁ, ধন্যবাদ।",
-        "tr": "hya~, dhonnobad.",
-        "en": "Yes, thank you."
+        "bn": "জি, ধন্যবাদ।",
+        "tr": "ji, dhonnobad.",
+        "en": "Yes, thank you. (polite: answering your teacher)"
       },
-      "tiles": [
-        "না",
-        "ধন্যবাদ",
-        "হ্যাঁ",
-        "নমস্কার"
+      "direction": "en_to_bn",
+      "options": [
+        "হ্যাঁ, ধন্যবাদ।",
+        "না, ধন্যবাদ।",
+        "জি, ধন্যবাদ।",
+        "খোদা হাফেজ।"
       ],
-      "answer": [
-        "হ্যাঁ",
-        "ধন্যবাদ"
-      ]
+      "answer": 2,
+      "why": "With teachers, elders and strangers the polite 'yes' is **জি**; **হ্যাঁ** is the neutral 'yes'."
     },
     {
       "id": "e13",
       "type": "word_bank",
-      "direction": "bn_to_en",
+      "prompt": {
+        "bn": "ধন্যবাদ, খোদা হাফেজ।",
+        "tr": "dhonnobad, khoda hafez.",
+        "en": "Thank you, goodbye."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "খোদা হাফেজ",
+        "নমস্কার",
+        "ধন্যবাদ",
+        "না"
+      ],
+      "answer": [
+        "ধন্যবাদ",
+        "খোদা হাফেজ"
+      ]
+    },
+    {
+      "id": "e14",
+      "type": "word_bank",
       "prompt": {
         "bn": "না, ধন্যবাদ।",
         "tr": "na, dhonnobad.",
         "en": "No, thank you."
       },
+      "direction": "bn_to_en",
       "tiles": [
         "yes",
         "thank",
@@ -296,18 +343,21 @@
       ]
     },
     {
-      "id": "e14",
+      "id": "e15",
       "type": "type_translation",
-      "direction": "bn_to_en",
       "prompt": {
-        "bn": "ধন্যবাদ",
-        "tr": "dhonnobad",
-        "en": "thank you"
+        "bn": "আবার দেখা হবে।",
+        "tr": "abar dekha hobe.",
+        "en": "See you again."
       },
+      "direction": "bn_to_en",
       "accepted": [
-        "thank you",
-        "thanks",
-        "thankyou"
+        "see you again",
+        "see you",
+        "see you later",
+        "we will meet again",
+        "we'll meet again",
+        "until we meet again"
       ]
     }
   ]

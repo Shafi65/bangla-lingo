@@ -1,0 +1,257 @@
+{
+  "id": "s02-l06b",
+  "unit": "s02-consonants",
+  "title": "Consonants 6b: শ ষ স হ",
+  "status": "draft",
+  "tip": "**Three letters, one sound.** শ, ষ and স are normally all `sh`: শিক্ষক (`shikkhok`), মানুষ (`manush`), সকাল (`shokal`, morning). স becomes a real `s` in clusters before t, n, r, l (স্টেশন `steshon`).\n\nYou can't hear which one a word uses, so learn it as part of the spelling. Shape tips: **শ** is the common one; **ষ** has a slash through its middle and rarely starts a word; **স** has an open curl.\n\n**হ** is a plain h: হাত (`hat`, hand), হ্যাঁ (`hya~`, yes).",
+  "vocab": [
+    {
+      "id": "l-sha",
+      "bn": "শ",
+      "tr": "sho",
+      "en": "sh as in 'shop'",
+      "notes": "Name: talobbo sho (তালব্য শ). The most common sh letter (শিক্ষক)."
+    },
+    {
+      "id": "l-ssa",
+      "bn": "ষ",
+      "tr": "sho",
+      "en": "sh as in 'shop' (same sound as শ)",
+      "notes": "Name: murdhonno sho (মূর্ধন্য ষ). Same sound as শ; spelling only. Rarely starts a word; common in the middle (মানুষ)."
+    },
+    {
+      "id": "l-sa",
+      "bn": "স",
+      "tr": "sho",
+      "en": "sh, or s before t / n / r / l",
+      "notes": "Name: donto sho (দন্ত্য স). Usually 'sh' (সকাল shokal), but 's' in clusters like স্ত, স্ক (s04)."
+    },
+    {
+      "id": "l-ha",
+      "bn": "হ",
+      "tr": "ho",
+      "en": "h as in 'hat'",
+      "notes": "Name: ho (হ). Changes shape with some vowel signs: হু, হৃ (s03-l02)."
+    },
+    {
+      "id": "hat",
+      "bn": "হাত",
+      "tr": "hat",
+      "en": "hand"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "script_recognize",
+      "glyph": "শ",
+      "options": [
+        "lo (l as in 'love')",
+        "ro (tapped r, as in Spanish 'pero')",
+        "sho (sh as in 'shop')",
+        "jo (j as in 'jam')"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e02",
+      "type": "script_recognize",
+      "glyph": "ষ",
+      "options": [
+        "po (p, no puff)",
+        "sho (sh as in 'shop')",
+        "jo (j as in 'jam')",
+        "mo (m as in 'mother')"
+      ],
+      "answer": 1,
+      "why": "ষ sounds exactly like শ; you learn which one a word uses as part of its spelling (মানুষ)."
+    },
+    {
+      "id": "e03",
+      "type": "script_recognize",
+      "glyph": "স",
+      "options": [
+        "sho (sh as in 'shop')",
+        "mo (m as in 'mother')",
+        "ho (h as in 'hat')",
+        "lo (l as in 'love')"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e04",
+      "type": "script_recognize",
+      "glyph": "হ",
+      "options": [
+        "i (as in 'see')",
+        "sho (sh as in 'shop')",
+        "lo (l as in 'love')",
+        "ho (h as in 'hat')"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e05",
+      "type": "listen_select",
+      "audio": {
+        "bn": "হ",
+        "tr": "ho",
+        "en": "ho"
+      },
+      "options": [
+        "ল",
+        "হ",
+        "র",
+        "ন"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e06",
+      "type": "listen_select",
+      "audio": {
+        "bn": "স",
+        "tr": "sho",
+        "en": "sho"
+      },
+      "options": [
+        "ম",
+        "ল",
+        "স",
+        "ন"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e07",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "হাত",
+        "tr": "hat",
+        "en": "hand"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "hand",
+        "red",
+        "night",
+        "morning"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e08",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "সকাল",
+        "tr": "shokal",
+        "en": "morning"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "night",
+        "morning",
+        "hand",
+        "red"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e09",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "মানুষ",
+        "tr": "manush",
+        "en": "person"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "person",
+        "country",
+        "teacher",
+        "morning"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e10",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "দেশ",
+        "tr": "desh",
+        "en": "country"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "hand",
+        "country",
+        "person",
+        "red"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e11",
+      "type": "listen_select",
+      "audio": {
+        "bn": "শিক্ষক",
+        "tr": "shikkhok",
+        "en": "teacher"
+      },
+      "options": [
+        "মানুষ",
+        "সকাল",
+        "শিক্ষক",
+        "হাত"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e12",
+      "type": "listen_select",
+      "audio": {
+        "bn": "হ্যাঁ",
+        "tr": "hya~",
+        "en": "yes"
+      },
+      "options": [
+        "হাত",
+        "লাল",
+        "না",
+        "হ্যাঁ"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e13",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "শ",
+          "tr": "sho",
+          "en": "sh as in 'shop'"
+        },
+        {
+          "bn": "ষ",
+          "tr": "sho",
+          "en": "sh as in 'shop' (same sound as শ)"
+        },
+        {
+          "bn": "স",
+          "tr": "sho",
+          "en": "sh, or s before t / n / r / l"
+        },
+        {
+          "bn": "হ",
+          "tr": "ho",
+          "en": "h as in 'hat'"
+        },
+        {
+          "bn": "হাত",
+          "tr": "hat",
+          "en": "hand"
+        }
+      ]
+    }
+  ]
+}

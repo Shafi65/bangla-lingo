@@ -1,0 +1,285 @@
+{
+  "id": "s02-l07b",
+  "unit": "s02-consonants",
+  "title": "Consonants 7b: ৎ ং ঃ ঁ",
+  "status": "draft",
+  "tip": "Four special signs finish the chart.\n\n- **ৎ** is a t that never takes a vowel: হঠাৎ (`hothat`, suddenly), উৎসব (`utshob`, festival).\n- **ং** = `ng` at the end of a syllable: বাংলা (`bangla`). Same sound as ঙ.\n- **ঃ** = a little breath; inside a word it doubles the next consonant: দুঃখিত (`dukkhito`, sorry).\n- **ঁ** (moon and dot) sits *above* a letter and makes the vowel nasal: চাঁদ (`cha~d`, moon), হ্যাঁ (`hya~`). The `~` marks it.",
+  "vocab": [
+    {
+      "id": "l-khondo-to",
+      "bn": "ৎ",
+      "tr": "t",
+      "en": "final t with no vowel after it",
+      "notes": "Name: khondo to (খণ্ড ত), 'broken t'. U+09CE. Only appears at the end of a syllable (হঠাৎ, উৎসব)."
+    },
+    {
+      "id": "l-onushshar",
+      "bn": "ং",
+      "tr": "ng",
+      "en": "ng as in 'sing' (nasal at the end of a syllable)",
+      "notes": "Name: onushshar (অনুস্বার). U+0982. Same sound as ঙ. Shown standalone here; fonts may draw a dotted circle."
+    },
+    {
+      "id": "l-bishorgo",
+      "bn": "ঃ",
+      "tr": "h",
+      "en": "a short breath; inside a word it doubles the next consonant",
+      "notes": "Name: bishorgo (বিসর্গ). U+0983. দুঃখিত is said dukkhito: the ঃ makes the খ double. Shown standalone; fonts may draw a dotted circle."
+    },
+    {
+      "id": "l-chondrobindu",
+      "bn": "আঁ",
+      "tr": "a~",
+      "en": "ঁ makes the vowel nasal (shown on আ: a~)",
+      "notes": "Sign: chondrobindu (চন্দ্রবিন্দু) ঁ, U+0981, 'moon and dot', written above the letter. Shown on আ because it cannot stand alone."
+    },
+    {
+      "id": "hothat",
+      "bn": "হঠাৎ",
+      "tr": "hothat",
+      "en": "suddenly"
+    },
+    {
+      "id": "dukkhito",
+      "bn": "দুঃখিত",
+      "tr": "dukkhito",
+      "en": "sorry",
+      "notes": "'I'm sorry' = আমি দুঃখিত (formal). Shows ঃ doubling the খ."
+    },
+    {
+      "id": "chad",
+      "bn": "চাঁদ",
+      "tr": "cha~d",
+      "en": "moon",
+      "notes": "The transliteration guide's own example of ঁ."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "script_recognize",
+      "glyph": "ৎ",
+      "options": [
+        "ng (as in 'sing')",
+        "t (final t, no vowel after it)",
+        "h (short breath, doubles the next consonant)",
+        "ro (flapped r, tongue curled back)"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e02",
+      "type": "script_recognize",
+      "glyph": "ং",
+      "options": [
+        "h (short breath, doubles the next consonant)",
+        "a~ (nasal a)",
+        "t (final t, no vowel after it)",
+        "ng (as in 'sing')"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e03",
+      "type": "script_recognize",
+      "glyph": "ঃ",
+      "options": [
+        "ng (as in 'sing')",
+        "t (final t, no vowel after it)",
+        "h (short breath, doubles the next consonant)",
+        "a~ (nasal a)"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e04",
+      "type": "script_recognize",
+      "glyph": "আঁ",
+      "options": [
+        "a~ (nasal a)",
+        "a (as in 'father')",
+        "ng (as in 'sing')",
+        "o (as in 'or')"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e05",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "হঠাৎ",
+        "tr": "hothat",
+        "en": "suddenly"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "moon",
+        "festival",
+        "sorry",
+        "suddenly"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e06",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "দুঃখিত",
+        "tr": "dukkhito",
+        "en": "sorry"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "suddenly",
+        "moon",
+        "sorry",
+        "festival"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e07",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "চাঁদ",
+        "tr": "cha~d",
+        "en": "moon"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "five",
+        "moon",
+        "meat",
+        "sorry"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e08",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "বাংলা",
+        "tr": "bangla",
+        "en": "Bengali (language)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "Bengali (language)",
+        "moon",
+        "sorry",
+        "English (language)"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e09",
+      "type": "listen_select",
+      "audio": {
+        "bn": "চাঁদ",
+        "tr": "cha~d",
+        "en": "moon"
+      },
+      "options": [
+        "বড়",
+        "মাংস",
+        "পাঁচ",
+        "চাঁদ"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e10",
+      "type": "listen_select",
+      "audio": {
+        "bn": "হঠাৎ",
+        "tr": "hothat",
+        "en": "suddenly"
+      },
+      "options": [
+        "দুঃখিত",
+        "হঠাৎ",
+        "উৎসব",
+        "মেয়ে"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e11",
+      "type": "listen_select",
+      "audio": {
+        "bn": "দুঃখিত",
+        "tr": "dukkhito",
+        "en": "sorry"
+      },
+      "options": [
+        "দুঃখিত",
+        "হঠাৎ",
+        "চাঁদ",
+        "বড়"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e12",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "ৎ",
+          "tr": "t",
+          "en": "final t with no vowel after it"
+        },
+        {
+          "bn": "ং",
+          "tr": "ng",
+          "en": "ng as in 'sing' (nasal at the end of a syllable)"
+        },
+        {
+          "bn": "ঃ",
+          "tr": "h",
+          "en": "a short breath; inside a word it doubles the next consonant"
+        },
+        {
+          "bn": "আঁ",
+          "tr": "a~",
+          "en": "ঁ makes the vowel nasal (shown on আ: a~)"
+        },
+        {
+          "bn": "চাঁদ",
+          "tr": "cha~d",
+          "en": "moon"
+        }
+      ]
+    },
+    {
+      "id": "e13",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "হঠাৎ",
+          "tr": "hothat",
+          "en": "suddenly"
+        },
+        {
+          "bn": "দুঃখিত",
+          "tr": "dukkhito",
+          "en": "sorry"
+        },
+        {
+          "bn": "উৎসব",
+          "tr": "utshob",
+          "en": "festival"
+        },
+        {
+          "bn": "মাংস",
+          "tr": "mangsho",
+          "en": "meat"
+        },
+        {
+          "bn": "পাঁচ",
+          "tr": "pa~ch",
+          "en": "five"
+        }
+      ]
+    }
+  ]
+}

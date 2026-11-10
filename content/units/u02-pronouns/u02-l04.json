@@ -1,9 +1,9 @@
 {
   "id": "u02-l04",
   "unit": "u02-pronouns",
-  "title": "Is, isn't & yes/no",
+  "title": "Yes/no, who & this/that",
   "status": "draft",
-  "tip": "To ask a yes/no question, add **কি** (*ki*), usually right after the subject: **আপনি কি শিক্ষক?** 'Are you a teacher?' Spelling: **কি** (short ি) is the question marker; **কী** (long ী) means 'what'. They sound the same: **এটা কী?** 'What is this?' vs **ওটা কি আম?** 'Is that a mango?'\n\n'Is' has no word in Bengali, but **'is not'** does, and it changes with the person:\n\n- আমি ছাত্র **নই**: I'm not a student\n- তুমি ছাত্র **নও**: you're not\n- আপনি / উনি ছাত্র **নন**: you / he (polite) aren't\n- সে / এটা **নয়**: he / it isn't\n\n**নয় or নেই?** **নয়** (and নই / নও / নন) denies *what* someone is: রাফি ডাক্তার **নয়**. **নেই** denies that someone is *there*: রাফি এখানে **নেই**.\n\n**এটা / ওটা** = this / that. **কে** = who.",
+  "tip": "To ask a yes/no question, add **কি** (*ki*) right after the subject: **আপনি কি শিক্ষক?** 'Are you a teacher?' Nothing else changes.\n\nSpelling: **কি** (short ি) is the question marker; **কী** (long ী) means 'what'. They sound the same: **এটা কী?** 'What is this?' vs **এটা কি বাংলা?** 'Is this Bengali?'\n\n**এটা / ওটা** = this / that (এ 'this', ও 'that', plus -টা 'the thing'). **কে** = who: **উনি কে?** 'Who is he/she?'\n\nTwo languages: **বাংলা** (*bangla*, Bengali) and **ইংরেজি** (*ingreji*, English).",
   "vocab": [
     {
       "id": "ki-q",
@@ -11,34 +11,6 @@
       "tr": "ki",
       "en": "(yes/no question marker)",
       "notes": "Turns a statement into a yes/no question: আপনি কি শিক্ষক? Usually comes right after the subject. Short ি — compare কী 'what'."
-    },
-    {
-      "id": "noi",
-      "bn": "নই",
-      "tr": "noi",
-      "en": "am not",
-      "notes": "Goes with আমি / আমরা: আমি ছাত্র নই."
-    },
-    {
-      "id": "noo",
-      "bn": "নও",
-      "tr": "noo",
-      "en": "are not (familiar)",
-      "notes": "Goes with তুমি / তোমরা."
-    },
-    {
-      "id": "non",
-      "bn": "নন",
-      "tr": "non",
-      "en": "is not / are not (polite)",
-      "notes": "Goes with আপনি, তিনি, উনি."
-    },
-    {
-      "id": "noy-isnt",
-      "bn": "নয়",
-      "tr": "noy",
-      "en": "is not",
-      "notes": "Goes with সে, ও, এটা. In everyday Bangladeshi speech না is used for all persons: আমি ছাত্র না. নয় is also the number nine (Unit 5)."
     },
     {
       "id": "ke",
@@ -59,6 +31,19 @@
       "tr": "ota",
       "en": "that",
       "notes": "ও 'that' + classifier -টা. Spoken BD also ওইটা (oita)."
+    },
+    {
+      "id": "bangla",
+      "bn": "বাংলা",
+      "tr": "bangla",
+      "en": "Bengali (language)",
+      "notes": "The language (and the region of Bengal)."
+    },
+    {
+      "id": "ingreji",
+      "bn": "ইংরেজি",
+      "tr": "ingreji",
+      "en": "English (language)"
     }
   ],
   "exercises": [
@@ -83,16 +68,16 @@
       "id": "e02",
       "type": "select_translation",
       "prompt": {
-        "bn": "নই",
-        "tr": "noi",
-        "en": "am not"
+        "bn": "কে",
+        "tr": "ke",
+        "en": "who"
       },
       "direction": "bn_to_en",
       "options": [
-        "am not",
-        "are not (familiar)",
-        "is not",
-        "is not (here); there isn't"
+        "who",
+        "what",
+        "how",
+        "they"
       ],
       "answer": 0
     },
@@ -100,16 +85,16 @@
       "id": "e03",
       "type": "select_translation",
       "prompt": {
-        "bn": "নও",
-        "tr": "noo",
-        "en": "are not (familiar)"
+        "bn": "এটা",
+        "tr": "eta",
+        "en": "this"
       },
       "direction": "bn_to_en",
       "options": [
-        "am not",
-        "is not / are not (polite)",
-        "are not (familiar)",
-        "are (familiar)"
+        "that",
+        "here",
+        "this",
+        "there"
       ],
       "answer": 2
     },
@@ -117,16 +102,16 @@
       "id": "e04",
       "type": "select_translation",
       "prompt": {
-        "bn": "নন",
-        "tr": "non",
-        "en": "is not / are not (polite)"
+        "bn": "ওটা",
+        "tr": "ota",
+        "en": "that"
       },
       "direction": "bn_to_en",
       "options": [
-        "are not (familiar)",
-        "are (polite)",
-        "am not",
-        "is not / are not (polite)"
+        "this",
+        "what",
+        "there",
+        "that"
       ],
       "answer": 3
     },
@@ -134,69 +119,38 @@
       "id": "e05",
       "type": "select_translation",
       "prompt": {
-        "bn": "নয়",
-        "tr": "noy",
-        "en": "is not"
+        "bn": "বাংলা",
+        "tr": "bangla",
+        "en": "Bengali (language)"
       },
       "direction": "bn_to_en",
       "options": [
-        "are not (familiar)",
-        "is not (here); there isn't",
-        "is not",
-        "am not"
+        "English (language)",
+        "Bengali (language)",
+        "friend",
+        "teacher"
       ],
-      "answer": 2
+      "answer": 1
     },
     {
       "id": "e06",
       "type": "select_translation",
       "prompt": {
-        "bn": "কে",
-        "tr": "ke",
-        "en": "who"
+        "bn": "ইংরেজি",
+        "tr": "ingreji",
+        "en": "English (language)"
       },
       "direction": "bn_to_en",
       "options": [
-        "what",
-        "how",
-        "who",
-        "they"
+        "Bengali (language)",
+        "doctor",
+        "English (language)",
+        "person"
       ],
       "answer": 2
     },
     {
       "id": "e07",
-      "type": "match_pairs",
-      "pairs": [
-        {
-          "bn": "ওটা",
-          "tr": "ota",
-          "en": "that"
-        },
-        {
-          "bn": "এটা",
-          "tr": "eta",
-          "en": "this"
-        },
-        {
-          "bn": "কে",
-          "tr": "ke",
-          "en": "who"
-        },
-        {
-          "bn": "নই",
-          "tr": "noi",
-          "en": "am not"
-        },
-        {
-          "bn": "নও",
-          "tr": "noo",
-          "en": "are not (familiar)"
-        }
-      ]
-    },
-    {
-      "id": "e08",
       "type": "listen_select",
       "audio": {
         "bn": "এটা",
@@ -204,15 +158,62 @@
         "en": "this"
       },
       "options": [
-        "এটা",
         "ওটা",
         "এখানে",
+        "এটা",
         "ওখানে"
       ],
-      "answer": 0
+      "answer": 2
+    },
+    {
+      "id": "e08",
+      "type": "listen_select",
+      "audio": {
+        "bn": "উনি কে?",
+        "tr": "uni ke?",
+        "en": "Who is he?"
+      },
+      "options": [
+        "উনি কেমন আছেন?",
+        "উনি কে?",
+        "এটা কী?",
+        "উনি ডাক্তার।"
+      ],
+      "answer": 1
     },
     {
       "id": "e09",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "কি",
+          "tr": "ki",
+          "en": "(yes/no question marker)"
+        },
+        {
+          "bn": "কী",
+          "tr": "ki",
+          "en": "what"
+        },
+        {
+          "bn": "কে",
+          "tr": "ke",
+          "en": "who"
+        },
+        {
+          "bn": "ওটা",
+          "tr": "ota",
+          "en": "that"
+        },
+        {
+          "bn": "বাংলা",
+          "tr": "bangla",
+          "en": "Bengali (language)"
+        }
+      ]
+    },
+    {
+      "id": "e10",
       "type": "select_translation",
       "prompt": {
         "bn": "এটা কী?",
@@ -222,31 +223,33 @@
       "direction": "en_to_bn",
       "options": [
         "এটা কি?",
-        "এটা কী?",
         "ওটা কী?",
+        "এটা কী?",
         "এটা কে?"
       ],
-      "answer": 1
-    },
-    {
-      "id": "e10",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "রাফি ডাক্তার নয়।",
-        "tr": "rafi daktar noy.",
-        "en": "Rafi isn't a doctor."
-      },
-      "direction": "en_to_bn",
-      "options": [
-        "রাফি ডাক্তার নেই।",
-        "রাফি এখানে নয়।",
-        "রাফি ডাক্তার নও।",
-        "রাফি ডাক্তার নয়।"
-      ],
-      "answer": 3
+      "answer": 2,
+      "why": "**কী** (long ী) asks 'what'; **কি** (short ি) only turns a sentence into a yes/no question."
     },
     {
       "id": "e11",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "এটা কি বাংলা?",
+        "tr": "eta ki bangla?",
+        "en": "Is this Bengali?"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "ওটা কি বাংলা?",
+        "এটা কি ইংরেজি?",
+        "এটা বাংলা।",
+        "এটা কি বাংলা?"
+      ],
+      "answer": 3,
+      "why": "A yes/no question is the statement plus **কি** after the subject; এটা = this, ওটা = that."
+    },
+    {
+      "id": "e12",
       "type": "word_bank",
       "prompt": {
         "bn": "ওটা কি আম?",
@@ -260,81 +263,62 @@
         "কি",
         "কী",
         "আম",
-        "নয়"
+        "কে"
       ],
       "answer": [
         "ওটা",
         "কি",
         "আম"
-      ]
-    },
-    {
-      "id": "e12",
-      "type": "word_bank",
-      "prompt": {
-        "bn": "উনি ডাক্তার নন।",
-        "tr": "uni daktar non.",
-        "en": "He is not a doctor."
-      },
-      "direction": "en_to_bn",
-      "tiles": [
-        "উনি",
-        "ডাক্তার",
-        "নন",
-        "নয়",
-        "নও",
-        "নই"
       ],
-      "answer": [
-        "উনি",
-        "ডাক্তার",
-        "নন"
-      ]
+      "why": "That = **ওটা**; a yes/no question takes **কি** (short ি)."
     },
     {
       "id": "e13",
       "type": "word_bank",
       "prompt": {
-        "bn": "আমি শিক্ষক নই।",
-        "tr": "ami shikkhok noi.",
-        "en": "I am not a teacher."
+        "bn": "না, এটা ইংরেজি।",
+        "tr": "na, eta ingreji.",
+        "en": "No, this is English."
       },
-      "direction": "en_to_bn",
+      "direction": "bn_to_en",
       "tiles": [
-        "আমি",
-        "শিক্ষক",
-        "নই",
-        "নও",
-        "নন",
-        "নয়"
+        "No",
+        "this",
+        "is",
+        "English",
+        "Bengali",
+        "that",
+        "yes"
       ],
       "answer": [
-        "আমি",
-        "শিক্ষক",
-        "নই"
+        "No",
+        "this",
+        "is",
+        "English"
       ]
     },
     {
       "id": "e14",
       "type": "word_bank",
       "prompt": {
-        "bn": "রাফি এখানে নেই।",
-        "tr": "rafi ekhane nei.",
-        "en": "Rafi isn't here."
+        "bn": "তিনি আমার বাংলা শিক্ষক।",
+        "tr": "tini amar bangla shikkhok.",
+        "en": "He is my Bengali teacher."
       },
       "direction": "en_to_bn",
       "tiles": [
-        "রাফি",
-        "এখানে",
-        "ওখানে",
-        "নেই",
-        "নয়",
-        "নন"
+        "তিনি",
+        "আমার",
+        "বাংলা",
+        "ইংরেজি",
+        "শিক্ষক",
+        "আমি"
       ],
       "answer": [
-        "রাফি",
-        "এখানে",
-        "নেই"
+        "তিনি",
+        "আমার",
+        "বাংলা",
+        "শিক্ষক"
       ]
     },
     {

@@ -406,21 +406,19 @@
     {
       "id": "u03-l05",
       "title": "I have…",
-      "goal": "Say what family you have and don't have; count people.",
+      "goal": "Say which family members you have and don't have, including husband, wife and children.",
       "grammar": [
-        "'have' = possessor-র + noun + আছে",
-        "negative: … নেই",
-        "classifier -জন for people; -টা informally",
-        "আমাদের / তোমাদের"
+        "'have' = possessor-র + noun + আছে; negative … নেই",
+        "আমাদের / তোমাদের (our / your, plural)"
       ],
       "new": [
         "ekta",
-        "ekjon",
-        "duijon",
-        "koyjon",
         "amader",
         "tomader",
-        "bachcha"
+        "bachcha",
+        "shami",
+        "stri",
+        "bou"
       ],
       "review": [
         "amar",
@@ -430,17 +428,18 @@
         "nei",
         "tomar",
         "ki-q",
-        "apnar",
         "tar",
         "meye",
+        "chhele",
+        "ar",
         "poribar",
         "khub",
         "boro",
-        "ekhane",
+        "uni",
         "daktar",
-        "achhen"
+        "apnar"
       ],
-      "tip": "Bengali has no verb 'to have'. You say **'to me there is'**: **আমার একটা বোন আছে** (*amar ekta bon achhe*), literally 'My one sister exists' = 'I have a sister.' Note it's **আমার**, not আমি. Negative: **আমার ভাই নেই** 'I have no brother.' Question: **তোমার কি ভাই আছে?**\n\nTo count people, add **-জন** to the number: **একজন** (one person), **দুইজন** (two people), **কয়জন?** (how many people?). In casual speech **-টা** is common too: **একটা বোন**.\n\nPlural 'our / your': আমরা → **আমাদের**, তোমরা → **তোমাদের** (to two or more people you'd call তুমি).\n\n'How many brothers and sisters do you have?' is a normal first-meeting question in Bangladesh: friendly interest, not nosiness.",
+      "tip": "Bengali has no verb 'to have'. You say **'to me there is'**: **আমার একটা বোন আছে** (*amar ekta bon achhe*), literally 'My one sister exists' = 'I have a sister.' It's **আমার**, not আমি. Negative: **আমার ভাই নেই** 'I have no brother.' Question: **তোমার কি ভাই আছে?**\n\n**একটা** = 'a / one (thing)'. Plural 'our / your': আমরা → **আমাদের**, তোমরা → **তোমাদের**.\n\nHusband and wife: **স্বামী** (*shami*) and **স্ত্রী** (*stri*) are neutral; in everyday speech many people say **বউ** (*bou*) for 'wife' (it also means 'bride').",
       "sentences": [
         {
           "bn": "আমার একটা বোন আছে।",
@@ -468,22 +467,6 @@
           ]
         },
         {
-          "bn": "আপনার কয়জন বাচ্চা আছে?",
-          "tr": "apnar koyjon bachcha achhe?",
-          "en": "How many children do you have?",
-          "alt": [
-            "How many kids do you have?"
-          ]
-        },
-        {
-          "bn": "আমার দুইজন বাচ্চা আছে।",
-          "tr": "amar duijon bachcha achhe.",
-          "en": "I have two children.",
-          "alt": [
-            "I have two kids."
-          ]
-        },
-        {
           "bn": "তার একটা মেয়ে আছে।",
           "tr": "tar ekta meye achhe.",
           "en": "She has a daughter.",
@@ -500,6 +483,92 @@
           ]
         },
         {
+          "bn": "উনি আমার স্বামী।",
+          "tr": "uni amar shami.",
+          "en": "He is my husband.",
+          "alt": [
+            "He's my husband."
+          ]
+        },
+        {
+          "bn": "উনি আমার স্ত্রী।",
+          "tr": "uni amar stri.",
+          "en": "She is my wife.",
+          "alt": [
+            "She's my wife."
+          ]
+        },
+        {
+          "bn": "আমার বউ ডাক্তার।",
+          "tr": "amar bou daktar.",
+          "en": "My wife is a doctor."
+        },
+        {
+          "bn": "আমার একটা ছেলে আর একটা মেয়ে আছে।",
+          "tr": "amar ekta chhele ar ekta meye achhe.",
+          "en": "I have a son and a daughter."
+        },
+        {
+          "bn": "তোমাদের কি বাচ্চা আছে?",
+          "tr": "tomader ki bachcha achhe?",
+          "en": "Do you have children?",
+          "alt": [
+            "Do you have kids?",
+            "Do you two have children?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u03-l05b",
+      "title": "How many?",
+      "goal": "Count people with -জন, ask how many, and join two clauses with 'but'.",
+      "grammar": [
+        "classifier -জন for people (vs -টা for things)",
+        "কিন্তু 'but' joins two clauses"
+      ],
+      "new": [
+        "ekjon",
+        "duijon",
+        "koyjon",
+        "kintu",
+        "shobai"
+      ],
+      "review": [
+        "amar",
+        "apnar",
+        "bachcha",
+        "achhe",
+        "achhen",
+        "bhai",
+        "bon",
+        "nei",
+        "ekhane",
+        "daktar",
+        "tomra",
+        "amra",
+        "bhalo",
+        "achhi",
+        "kemon",
+        "bondhu",
+        "ekta"
+      ],
+      "tip": "To count **people**, add **-জন** (*-jon*) to the number: **একজন** (one person), **দুইজন** (two people), **কয়জন?** (how many people?). For things, and casually for people too, you use **-টা**: **একটা বোন**.\n\n**আপনার কয়জন বাচ্চা আছে?** 'How many children do you have?' is a normal first-meeting question in Bangladesh: friendly interest, not nosiness.\n\n**কিন্তু** (*kintu*) = 'but': **আমার ভাই আছে, কিন্তু বোন নেই।** **সবাই** (*shobai*) = 'everyone': **সবাই কেমন আছে?** 'How is everyone?'",
+      "sentences": [
+        {
+          "bn": "আপনার কয়জন বাচ্চা আছে?",
+          "tr": "apnar koyjon bachcha achhe?",
+          "en": "How many children do you have?",
+          "alt": [
+            "How many kids do you have?"
+          ]
+        },
+        {
+          "bn": "আমার দুইজন ভাই আছে।",
+          "tr": "amar duijon bhai achhe.",
+          "en": "I have two brothers."
+        },
+        {
           "bn": "এখানে একজন ডাক্তার আছেন।",
           "tr": "ekhane ekjon daktar achhen.",
           "en": "There is a doctor here.",
@@ -508,12 +577,49 @@
           ]
         },
         {
-          "bn": "তোমাদের কয়জন বাচ্চা?",
-          "tr": "tomader koyjon bachcha?",
-          "en": "How many children do you have?",
+          "bn": "আমার একজন বন্ধু ডাক্তার।",
+          "tr": "amar ekjon bondhu daktar.",
+          "en": "A friend of mine is a doctor.",
           "alt": [
-            "How many kids do you have?",
-            "How many children do you all have?"
+            "One of my friends is a doctor."
+          ]
+        },
+        {
+          "bn": "তোমরা কয়জন?",
+          "tr": "tomra koyjon?",
+          "en": "How many of you are there?",
+          "alt": [
+            "How many are you?"
+          ]
+        },
+        {
+          "bn": "আমার ভাই আছে, কিন্তু বোন নেই।",
+          "tr": "amar bhai achhe, kintu bon nei.",
+          "en": "I have a brother, but no sister.",
+          "alt": [
+            "I have a brother but I don't have a sister."
+          ]
+        },
+        {
+          "bn": "আমার দুইজন বোন আছে, কিন্তু ভাই নেই।",
+          "tr": "amar duijon bon achhe, kintu bhai nei.",
+          "en": "I have two sisters, but no brother."
+        },
+        {
+          "bn": "সবাই কেমন আছে?",
+          "tr": "shobai kemon achhe?",
+          "en": "How is everyone?",
+          "alt": [
+            "How is everybody?"
+          ]
+        },
+        {
+          "bn": "আমরা সবাই ভালো আছি।",
+          "tr": "amra shobai bhalo achhi.",
+          "en": "We are all well.",
+          "alt": [
+            "We're all fine.",
+            "We are all fine."
           ]
         }
       ]
@@ -534,7 +640,8 @@
         "achchha",
         "jani",
         "janen",
-        "bujhte-parchhi-na"
+        "bujhte-parchhi-na",
+        "mane"
       ],
       "review": [
         "mama",
@@ -558,9 +665,10 @@
         "bhai",
         "ekhane",
         "achhe",
-        "kothay"
+        "kothay",
+        "bou"
       ],
-      "tip": "In Bangladesh you rarely call an adult by name or 'sir/madam'. You **promote them into your family**:\n\n- **ভাই / ভাইয়া**: a man around your age or a bit older (shopkeepers, waiters, colleagues)\n- **আপা / আপু**: a woman a bit older than you\n- **চাচা**: an older man; **খালা**: an older woman\n- **মামা**: rickshaw drivers, tea-stall owners: friendly and informal\n- **আংকেল / আন্টি**: friends' parents and older people in middle-class city life\n\nThese still take **আপনি** (polite verbs) unless you know the person well: *Chacha, apni kemon achhen?*\n\nThree lifesavers: **আমি জানি না** 'I don't know', **বুঝতে পারছি না** 'I don't understand', and **আচ্ছা** 'OK / I see'.",
+      "tip": "In Bangladesh you rarely call an adult by name or 'sir/madam'. You **promote them into your family**:\n\n- **ভাই / ভাইয়া**: a man around your age or a bit older (shopkeepers, waiters, colleagues)\n- **আপা / আপু**: a woman a bit older than you\n- **চাচা**: an older man; **খালা**: an older woman\n- **মামা**: rickshaw drivers, tea-stall owners: friendly and informal\n- **আংকেল / আন্টি**: friends' parents and older people in middle-class city life\n\nThese still take **আপনি** (polite verbs) unless you know the person well: *Chacha, apni kemon achhen?*\n\nFour lifesavers: **আমি জানি না** 'I don't know', **বুঝতে পারছি না** 'I don't understand', **আচ্ছা** 'OK / I see', and **X মানে কী?** 'What does X mean?'",
       "sentences": [
         {
           "bn": "মামা, ভালো আছেন?",
@@ -596,11 +704,11 @@
           ]
         },
         {
-          "bn": "চাচা, এটা কী?",
-          "tr": "chacha, eta ki?",
-          "en": "Uncle, what is this?",
+          "bn": "আপা, বউ মানে কী?",
+          "tr": "apa, bou mane ki?",
+          "en": "Ma'am, what does \"bou\" mean?",
           "alt": [
-            "Uncle, what's this?"
+            "Sister, what does \"bou\" mean?"
           ]
         },
         {
@@ -645,118 +753,253 @@
     },
     {
       "id": "u03-l07",
-      "title": "Review: my family",
-      "goal": "Describe your whole family, including spouse and children.",
+      "title": "Review: the family map",
+      "kind": "review",
+      "goal": "Name every relative on both sides, elder and younger, and say his/her politely.",
       "grammar": [
-        "review of kin terms and 'have'",
-        "স্বামী / স্ত্রী (neutral) vs বউ (colloquial)",
-        "কিন্তু 'but' joins two clauses",
-        "X মানে কী? 'what does X mean?'"
+        "review: paternal (বাবার) vs maternal (মায়ের) kin",
+        "review: বড় / ছোট and তার / ওর / ওনার / তোর"
       ],
-      "new": [
+      "new": [],
+      "review": [
+        "poribar",
+        "ma",
+        "baba",
+        "ammu",
+        "abbu",
+        "bhai",
+        "bon",
+        "boro",
+        "chhoto",
+        "bhaiya",
+        "apu",
+        "tar",
+        "or",
+        "onar",
+        "tor",
+        "dada",
+        "dadi",
+        "chacha",
+        "chachi",
+        "fufu",
+        "fufa",
+        "babar",
+        "nana",
+        "nani",
+        "mama",
+        "mami",
+        "khala",
+        "khalu",
+        "mayer",
+        "amar",
+        "nam",
+        "ki-what",
+        "daktar",
+        "shikkhok",
+        "apni",
+        "kemon",
+        "achhen",
+        "bhalo",
+        "ar",
+        "ekhane",
+        "nei",
+        "rafi",
+        "nadia",
+        "uni"
+      ],
+      "tip": "Review 1 of 2: the family map. No new words.\n\n- **Father's side** (বাবার): দাদা / দাদি · চাচা / চাচি · ফুফু / ফুফা\n- **Mother's side** (মায়ের): নানা / নানি · মামা / মামি · খালা / খালু\n- **Elder / younger:** বড় / ছোট; call elder siblings **ভাইয়া** and **আপু**\n- **His / her:** তার (from সে), ওর (from ও), **ওনার** (polite, from উনি); **তোর** = your (intimate)\n\nIn Bangladesh **দাদা** is your *grandfather*; a friend from Kolkata saying *dada* means an elder brother.",
+      "sentences": [
+        {
+          "bn": "চাচা আমার বাবার ভাই।",
+          "tr": "chacha amar babar bhai.",
+          "en": "Chacha is my father's brother.",
+          "alt": [
+            "Uncle is my father's brother."
+          ]
+        },
+        {
+          "bn": "খালা আমার মায়ের বোন।",
+          "tr": "khala amar mayer bon.",
+          "en": "Khala is my mother's sister.",
+          "alt": [
+            "Aunt is my mother's sister."
+          ]
+        },
+        {
+          "bn": "আমার বড় ভাই ডাক্তার।",
+          "tr": "amar boro bhai daktar.",
+          "en": "My elder brother is a doctor.",
+          "alt": [
+            "My older brother is a doctor."
+          ]
+        },
+        {
+          "bn": "নানা আর নানি ভালো আছেন।",
+          "tr": "nana ar nani bhalo achhen.",
+          "en": "Grandpa and Grandma are well.",
+          "alt": [
+            "Grandfather and grandmother are well."
+          ]
+        },
+        {
+          "bn": "মামা, আপনি কেমন আছেন?",
+          "tr": "mama, apni kemon achhen?",
+          "en": "Uncle, how are you?",
+          "alt": [
+            "How are you, uncle?"
+          ]
+        },
+        {
+          "bn": "ওনার নাম কী?",
+          "tr": "onar nam ki?",
+          "en": "What is his name?",
+          "alt": [
+            "What is her name?"
+          ]
+        },
+        {
+          "bn": "রাফি আমার ছোট ভাই।",
+          "tr": "rafi amar chhoto bhai.",
+          "en": "Rafi is my younger brother.",
+          "alt": [
+            "Rafi is my little brother."
+          ]
+        },
+        {
+          "bn": "আমার আব্বু শিক্ষক আর আম্মু ডাক্তার।",
+          "tr": "amar abbu shikkhok ar ammu daktar.",
+          "en": "My dad is a teacher and my mom is a doctor.",
+          "alt": [
+            "My father is a teacher and my mother is a doctor."
+          ]
+        },
+        {
+          "bn": "তার নাম রাফি।",
+          "tr": "tar nam rafi.",
+          "en": "His name is Rafi."
+        },
+        {
+          "bn": "আমার ফুফা এখানে নেই।",
+          "tr": "amar fufa ekhane nei.",
+          "en": "My uncle isn't here.",
+          "alt": [
+            "My fufa isn't here."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u03-l07b",
+      "title": "Review: having, counting & address",
+      "kind": "review",
+      "goal": "Say what family you have, count people, and talk politely to strangers, with no new words.",
+      "grammar": [
+        "review: আমার / আমাদের … আছে / নেই and -জন",
+        "review: kin terms for strangers + polite verbs; survival chunks"
+      ],
+      "new": [],
+      "review": [
+        "ekta",
+        "amader",
+        "tomader",
+        "bachcha",
         "shami",
         "stri",
         "bou",
+        "ekjon",
+        "duijon",
+        "koyjon",
         "kintu",
         "shobai",
-        "mane"
-      ],
-      "review": [
-        "uni",
-        "amar",
-        "daktar",
-        "ekta",
-        "chhele",
-        "ar",
-        "meye",
-        "achhe",
-        "apnar",
-        "kothay",
-        "nana",
-        "nani",
-        "bangladeshi",
-        "onar",
-        "koyjon",
-        "bachcha",
-        "boro",
-        "apu",
-        "shikkhok",
+        "apa",
+        "angkel",
+        "anti",
+        "achchha",
+        "jani",
+        "janen",
+        "bujhte-parchhi-na",
+        "mane",
         "bhai",
         "bon",
-        "nei",
+        "meye",
+        "khala",
+        "poribar",
+        "boro",
+        "amar",
+        "apnar",
+        "amra",
+        "ami",
+        "dhonnobad",
         "kemon",
-        "ki-what"
+        "achhen",
+        "achhe",
+        "achhi",
+        "nei",
+        "bhalo",
+        "khub",
+        "kothay",
+        "daktar"
       ],
-      "tip": "Last new words: **স্বামী** (*shami*, husband) and **স্ত্রী** (*stri*, wife). In everyday speech many people say **বউ** (*bou*) for 'wife'; it also means 'bride'.\n\nQuick recap of the family map:\n\n- **Father's side:** দাদা / দাদি · চাচা / চাচি · ফুফু / ফুফা\n- **Mother's side:** নানা / নানি · মামা / মামি · খালা / খালু\n- **ছেলে / মেয়ে** = son / daughter as well as boy / girl\n\nIn Bangladesh **দাদা** is your *grandfather*; a friend from Kolkata saying *dada* means an elder brother.\n\nHandy extras: **কিন্তু** 'but' (**আমার ভাই আছে, কিন্তু বোন নেই।**), **X মানে কী?** 'What does X mean?', and **সবাই কেমন আছে?** 'How is everyone?'",
+      "tip": "Review 2 of 2: having, counting and talking to people. No new words.\n\n- **Have:** আমার / আমাদের … **আছে**; don't have: … **নেই**\n- **Count people** with -জন: একজন, দুইজন, **কয়জন?**\n- **Address strangers** with kin terms (আপা, ভাই, খালা, আংকেল, আন্টি) but keep **আপনি** verbs: জানেন, আছেন\n- **Lifesavers:** আমি জানি না · বুঝতে পারছি না · আচ্ছা · **X মানে কী?**",
       "sentences": [
-        {
-          "bn": "উনি আমার স্বামী।",
-          "tr": "uni amar shami.",
-          "en": "He is my husband.",
-          "alt": [
-            "He's my husband."
-          ]
-        },
-        {
-          "bn": "উনি আমার স্ত্রী।",
-          "tr": "uni amar stri.",
-          "en": "She is my wife.",
-          "alt": [
-            "She's my wife."
-          ]
-        },
-        {
-          "bn": "আমার বউ ডাক্তার।",
-          "tr": "amar bou daktar.",
-          "en": "My wife is a doctor."
-        },
-        {
-          "bn": "আমার একটা ছেলে আর একটা মেয়ে আছে।",
-          "tr": "amar ekta chhele ar ekta meye achhe.",
-          "en": "I have a son and a daughter."
-        },
-        {
-          "bn": "আমার নানা আর নানি বাংলাদেশি।",
-          "tr": "amar nana ar nani bangladeshi.",
-          "en": "My grandparents are Bangladeshi.",
-          "alt": [
-            "My maternal grandparents are Bangladeshi.",
-            "My grandfather and grandmother are Bangladeshi."
-          ]
-        },
-        {
-          "bn": "আমার বড় আপু শিক্ষক।",
-          "tr": "amar boro apu shikkhok.",
-          "en": "My elder sister is a teacher.",
-          "alt": [
-            "My big sister is a teacher."
-          ]
-        },
         {
           "bn": "আমার ভাই আছে, কিন্তু বোন নেই।",
           "tr": "amar bhai achhe, kintu bon nei.",
-          "en": "I have a brother, but no sister.",
+          "en": "I have a brother, but no sister."
+        },
+        {
+          "bn": "আপা, বউ মানে কী?",
+          "tr": "apa, bou mane ki?",
+          "en": "Ma'am, what does \"bou\" mean?"
+        },
+        {
+          "bn": "আমি জানি না।",
+          "tr": "ami jani na.",
+          "en": "I don't know."
+        },
+        {
+          "bn": "আচ্ছা, ধন্যবাদ, আন্টি।",
+          "tr": "achchha, dhonnobad, anti.",
+          "en": "OK, thank you, auntie.",
           "alt": [
-            "I have a brother but I don't have a sister."
+            "OK, thanks, auntie."
           ]
         },
         {
-          "bn": "সবাই কেমন আছে?",
-          "tr": "shobai kemon achhe?",
-          "en": "How is everyone?",
+          "bn": "আমাদের একটা মেয়ে আছে।",
+          "tr": "amader ekta meye achhe.",
+          "en": "We have a daughter.",
           "alt": [
-            "How is everybody?"
+            "We have one daughter."
           ]
         },
         {
-          "bn": "বউ মানে কী?",
-          "tr": "bou mane ki?",
-          "en": "What does \"bou\" mean?"
+          "bn": "খালা, কেমন আছেন?",
+          "tr": "khala, kemon achhen?",
+          "en": "Auntie, how are you?",
+          "alt": [
+            "How are you, auntie?"
+          ]
         },
         {
-          "bn": "বউ মানে স্ত্রী।",
-          "tr": "bou mane stri.",
-          "en": "\"Bou\" means wife."
+          "bn": "ভাই, ডাক্তার কোথায় জানেন?",
+          "tr": "bhai, daktar kothay janen?",
+          "en": "Brother, do you know where the doctor is?"
+        },
+        {
+          "bn": "আপা, আমি বুঝতে পারছি না।",
+          "tr": "apa, ami bujhte parchhi na.",
+          "en": "Ma'am, I don't understand."
+        },
+        {
+          "bn": "আমরা সবাই ভালো আছি।",
+          "tr": "amra shobai bhalo achhi.",
+          "en": "We are all well."
+        },
+        {
+          "bn": "আমার দুইজন ভাই আছে।",
+          "tr": "amar duijon bhai achhe.",
+          "en": "I have two brothers."
         }
       ]
     }

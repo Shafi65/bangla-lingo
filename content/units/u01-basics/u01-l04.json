@@ -3,7 +3,7 @@
   "unit": "u01-basics",
   "title": "How are you?",
   "status": "draft",
-  "tip": "**আছ-** (*achh-*) means 'to be (in a state / somewhere)'. Its ending changes with the person:\n\n- আমি **আছি** (*achhi*): I am\n- তুমি **আছো** (*achho*): you (familiar) are\n- আপনি **আছেন** (*achhen*): you (polite) are\n\nPolite আপনি forms almost always end in **-েন**, so **কেমন আছেন?** is polite and **কেমন আছো?** is familiar. The pronoun is often dropped because the ending already says who you mean.\n\nUseful words: **ভালো** (*bhalo*) good, **খুব** (*khub*) very, **আর** (*ar*) and. In Bangladesh many people answer **আলহামদুলিল্লাহ, ভালো আছি** ('praise be to God, I'm well').\n\nSneak peek at the alphabet: the letter quiz is ভ as in ভালো.",
+  "tip": "**আছ-** (*achh-*) means 'to be (in a state / somewhere)'. Its ending changes with the person:\n\n- আমি **আছি** (*achhi*): I am\n- তুমি **আছো** (*achho*): you (familiar) are\n- আপনি **আছেন** (*achhen*): you (polite) are\n\nPolite আপনি forms almost always end in **-েন**, so **কেমন আছেন?** is polite and **কেমন আছো?** is familiar. The pronoun is often dropped because the ending already says who you mean.\n\nUseful words: **ভালো** (*bhalo*) good, **খুব** (*khub*) very, **আর** (*ar*) and. In Bangladesh many people answer **আলহামদুলিল্লাহ, ভালো আছি** ('praise be to God, I'm well').",
   "vocab": [
     {
       "id": "kemon",
@@ -203,13 +203,17 @@
     },
     {
       "id": "e08",
-      "type": "script_recognize",
-      "glyph": "ভ",
+      "type": "listen_select",
+      "audio": {
+        "bn": "খুব ভালো।",
+        "tr": "khub bhalo.",
+        "en": "Very good."
+      },
       "options": [
-        "b",
-        "ph",
-        "dh",
-        "bh"
+        "ভালো আছি।",
+        "কেমন আছেন?",
+        "আর আপনি?",
+        "খুব ভালো।"
       ],
       "answer": 3
     },

@@ -1,0 +1,346 @@
+{
+  "id": "u03-l07b",
+  "unit": "u03-family",
+  "title": "Review: having, counting & address",
+  "status": "draft",
+  "tip": "Review 2 of 2: having, counting and talking to people. No new words.\n\n- **Have:** আমার / আমাদের … **আছে**; don't have: … **নেই**\n- **Count people** with -জন: একজন, দুইজন, **কয়জন?**\n- **Address strangers** with kin terms (আপা, ভাই, খালা, আংকেল, আন্টি) but keep **আপনি** verbs: জানেন, আছেন\n- **Lifesavers:** আমি জানি না · বুঝতে পারছি না · আচ্ছা · **X মানে কী?**",
+  "vocab": [],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আমার ভাই আছে, কিন্তু বোন নেই।",
+        "tr": "amar bhai achhe, kintu bon nei.",
+        "en": "I have a brother, but no sister."
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "I have a brother and a sister.",
+        "I have a brother, but no sister.",
+        "I don't have a brother, but I have a sister.",
+        "My brother is here, but my sister isn't."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আপা, বউ মানে কী?",
+        "tr": "apa, bou mane ki?",
+        "en": "Ma'am, what does \"bou\" mean?"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "Ma'am, where is your wife?",
+        "Ma'am, who is your wife?",
+        "Ma'am, what does \"bou\" mean?",
+        "Ma'am, I don't understand."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e03",
+      "type": "listen_select",
+      "audio": {
+        "bn": "আমি জানি না।",
+        "tr": "ami jani na.",
+        "en": "I don't know."
+      },
+      "options": [
+        "আমি বুঝতে পারছি না।",
+        "আমি জানি না।",
+        "আচ্ছা, ধন্যবাদ।",
+        "আমি জানি।"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e04",
+      "type": "listen_select",
+      "audio": {
+        "bn": "আচ্ছা, ধন্যবাদ, আন্টি।",
+        "tr": "achchha, dhonnobad, anti.",
+        "en": "OK, thank you, auntie."
+      },
+      "options": [
+        "আচ্ছা, ধন্যবাদ, আংকেল।",
+        "না, ধন্যবাদ, আন্টি।",
+        "আচ্ছা, খোদা হাফেজ, আন্টি।",
+        "আচ্ছা, ধন্যবাদ, আন্টি।"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "একটা",
+          "tr": "ekta",
+          "en": "one; a"
+        },
+        {
+          "bn": "একজন",
+          "tr": "ekjon",
+          "en": "one (person)"
+        },
+        {
+          "bn": "দুইজন",
+          "tr": "duijon",
+          "en": "two (people)"
+        },
+        {
+          "bn": "কয়জন",
+          "tr": "koyjon",
+          "en": "how many (people)"
+        },
+        {
+          "bn": "সবাই",
+          "tr": "shobai",
+          "en": "everyone"
+        }
+      ]
+    },
+    {
+      "id": "e06",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "স্বামী",
+          "tr": "shami",
+          "en": "husband"
+        },
+        {
+          "bn": "স্ত্রী",
+          "tr": "stri",
+          "en": "wife"
+        },
+        {
+          "bn": "বাচ্চা",
+          "tr": "bachcha",
+          "en": "child"
+        },
+        {
+          "bn": "আমাদের",
+          "tr": "amader",
+          "en": "our"
+        },
+        {
+          "bn": "তোমাদের",
+          "tr": "tomader",
+          "en": "your (familiar, plural)"
+        }
+      ]
+    },
+    {
+      "id": "e07",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "আপা",
+          "tr": "apa",
+          "en": "elder sister; ma'am"
+        },
+        {
+          "bn": "আংকেল",
+          "tr": "angkel",
+          "en": "uncle (address)"
+        },
+        {
+          "bn": "আন্টি",
+          "tr": "anti",
+          "en": "auntie (address)"
+        },
+        {
+          "bn": "জানেন",
+          "tr": "janen",
+          "en": "(you, polite) know"
+        },
+        {
+          "bn": "বুঝতে পারছি না",
+          "tr": "bujhte parchhi na",
+          "en": "I don't understand"
+        }
+      ]
+    },
+    {
+      "id": "e08",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আমাদের একটা মেয়ে আছে।",
+        "tr": "amader ekta meye achhe.",
+        "en": "We have a daughter."
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "আমরা একটা মেয়ে আছে।",
+        "আমাদের একটা মেয়ে আছে।",
+        "আমাদের একটা মেয়ে নেই।",
+        "তোমাদের একটা মেয়ে আছে।"
+      ],
+      "answer": 1,
+      "why": "'Have' uses the possessive: **আমাদের** (our), not আমরা, with আছে."
+    },
+    {
+      "id": "e09",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "খালা, কেমন আছেন?",
+        "tr": "khala, kemon achhen?",
+        "en": "Auntie, how are you? (to an older woman you've just met)"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "খালা, কেমন আছো?",
+        "খালা, কেমন আছিস?",
+        "খালু, কেমন আছেন?",
+        "খালা, কেমন আছেন?"
+      ],
+      "answer": 3,
+      "why": "Kin terms for strangers still take polite verbs: **আছেন**."
+    },
+    {
+      "id": "e10",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "ভাই, ডাক্তার কোথায় জানেন?",
+        "tr": "bhai, daktar kothay janen?",
+        "en": "Brother, do you know where the doctor is? (to a man you don't know)"
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "ভাই",
+        "ডাক্তার",
+        "কোথায়",
+        "জানেন",
+        "জানি",
+        "কোথা",
+        "কে"
+      ],
+      "answer": [
+        "ভাই",
+        "ডাক্তার",
+        "কোথায়",
+        "জানেন"
+      ],
+      "why": "To someone you call আপনি, 'you know' is **জানেন**; জানি means 'I know'."
+    },
+    {
+      "id": "e11",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আপা, আমি বুঝতে পারছি না।",
+        "tr": "apa, ami bujhte parchhi na.",
+        "en": "Ma'am, I don't understand."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "আপা",
+        "আপু",
+        "আমি",
+        "বুঝতে পারছি না",
+        "জানি",
+        "না",
+        "আচ্ছা"
+      ],
+      "answer": [
+        "আপা",
+        "আমি",
+        "বুঝতে পারছি না"
+      ]
+    },
+    {
+      "id": "e12",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আপনার কয়জন বাচ্চা আছে?",
+        "tr": "apnar koyjon bachcha achhe?",
+        "en": "How many children do you have?"
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "How",
+        "many",
+        "children",
+        "do",
+        "you",
+        "have",
+        "much",
+        "we",
+        "are"
+      ],
+      "answer": [
+        "How",
+        "many",
+        "children",
+        "do",
+        "you",
+        "have"
+      ]
+    },
+    {
+      "id": "e13",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমরা সবাই ভালো আছি।",
+        "tr": "amra shobai bhalo achhi.",
+        "en": "We are all well."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "আমরা",
+        "আমাদের",
+        "সবাই",
+        "ভালো",
+        "আছি",
+        "আছে",
+        "খুব"
+      ],
+      "answer": [
+        "আমরা",
+        "সবাই",
+        "ভালো",
+        "আছি"
+      ],
+      "why": "With আমরা the verb is **আছি**, the same as with আমি."
+    },
+    {
+      "id": "e14",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আমাদের পরিবার খুব বড়।",
+        "tr": "amader poribar khub boro.",
+        "en": "Our family is very big."
+      },
+      "direction": "bn_to_en",
+      "accepted": [
+        "Our family is very big.",
+        "Our family is very large.",
+        "We have a very big family.",
+        "We have a very large family.",
+        "Our family's very big."
+      ]
+    },
+    {
+      "id": "e15",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আমার দুইজন ভাই আছে।",
+        "tr": "amar duijon bhai achhe.",
+        "en": "I have two brothers."
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "আমার দুইজন ভাই আছে।",
+        "আমার দুজন ভাই আছে।",
+        "amar duijon bhai achhe",
+        "amar duijon bhai ache",
+        "amar dujon bhai achhe",
+        "amar dujon bhai ache"
+      ],
+      "why": "Count people with **-জন**, and say 'have' with **আমার** … আছে."
+    }
+  ]
+}

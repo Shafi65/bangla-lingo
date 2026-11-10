@@ -3,8 +3,8 @@
   "lessons": [
     {
       "id": "u01-l01",
-      "title": "Hello!",
-      "goal": "",
+      "title": "Hello & goodbye",
+      "goal": "Greet people, say yes, no and thank you, and say goodbye.",
       "grammar": [],
       "new": [
         "assalamu-alaikum",
@@ -13,10 +13,12 @@
         "hya",
         "ji",
         "na",
-        "dhonnobad"
+        "dhonnobad",
+        "khoda-hafez",
+        "abar-dekha-hobe"
       ],
       "review": [],
-      "tip": "**আসসালামু আলাইকুম** (*assalamu alaikum*, 'peace be upon you') is the everyday hello in Bangladesh; the reply is **ওয়ালাইকুম আসসালাম** (*walaikum assalam*). Hindu Bengalis, and most people in Kolkata, say **নমস্কার** (*nomoshkar*) instead. For 'yes', **জি** (*ji*) is the polite choice with elders and strangers; **হ্যাঁ** (*hya~*) is neutral. **না** (*na*) is 'no' and **ধন্যবাদ** (*dhonnobad*) is 'thank you'.\n\nSneak peek at the alphabet: the two letter quizzes are ন as in না and ধ as in ধন্যবাদ.",
+      "tip": "**আসসালামু আলাইকুম** (*assalamu alaikum*, 'peace be upon you') is the everyday hello in Bangladesh; the reply is **ওয়ালাইকুম আসসালাম** (*walaikum assalam*). Hindu Bengalis, and most people in Kolkata, say **নমস্কার** (*nomoshkar*) instead.\n\nFor 'yes', **জি** (*ji*) is the polite choice with elders, teachers and strangers; **হ্যাঁ** (*hya~*) is neutral. **না** (*na*) is 'no' and **ধন্যবাদ** (*dhonnobad*) is 'thank you'.\n\nTo say goodbye, **খোদা হাফেজ** (*khoda hafez*, 'may God protect you') is usual in Bangladesh. **আবার দেখা হবে** (*abar dekha hobe*, 'see you again') works for everyone.",
       "sentences": [
         {
           "bn": "হ্যাঁ, ধন্যবাদ।",
@@ -59,6 +61,23 @@
           "alt": [
             "Yes, thanks."
           ]
+        },
+        {
+          "bn": "ধন্যবাদ, খোদা হাফেজ।",
+          "tr": "dhonnobad, khoda hafez.",
+          "en": "Thank you, goodbye.",
+          "alt": [
+            "Thanks, goodbye.",
+            "Thank you, bye."
+          ]
+        },
+        {
+          "bn": "খোদা হাফেজ, আবার দেখা হবে।",
+          "tr": "khoda hafez, abar dekha hobe.",
+          "en": "Goodbye, see you again.",
+          "alt": [
+            "Bye, see you again."
+          ]
         }
       ]
     },
@@ -76,7 +95,7 @@
         "shikkhok"
       ],
       "review": [],
-      "tip": "Bengali has more than one 'you'. Use **আপনি** (*apni*) with elders, strangers, teachers and anyone you want to show respect to. Use **তুমি** (*tumi*) with friends, younger people and partners. When unsure, use আপনি. (A third, very intimate **তুই** comes in Unit 2.)\n\nThere is no 'am / is / are' in simple present sentences and no 'a / the': **আমি ছাত্র** (*ami chhatro*) = 'I (am a) student'. Student has a male form **ছাত্র** and a female form **ছাত্রী** (*chhatri*); **শিক্ষক** (*shikkhok*) is 'teacher' for anyone.\n\nSneak peek at the alphabet: the letter quizzes are আ as in আমি, and ম as in আমি and তুমি.",
+      "tip": "Bengali has more than one 'you'. Use **আপনি** (*apni*) with elders, strangers, teachers and anyone you want to show respect to. Use **তুমি** (*tumi*) with friends, younger people and partners. When unsure, use আপনি. (A third, very intimate **তুই** comes in Unit 2.)\n\nThere is no 'am / is / are' in simple present sentences and no 'a / the': **আমি ছাত্র** (*ami chhatro*) = 'I (am a) student'. Student has a male form **ছাত্র** and a female form **ছাত্রী** (*chhatri*); **শিক্ষক** (*shikkhok*) is 'teacher' for anyone.",
       "sentences": [
         {
           "bn": "আমি ছাত্র।",
@@ -127,10 +146,11 @@
         "amar",
         "apnar",
         "tomar",
-        "nadia"
+        "nadia",
+        "rafi"
       ],
       "review": [],
-      "tip": "Adding **-র** (*-r*) makes 'my / your': আমি → **আমার** (*amar*), তুমি → **তোমার** (*tomar*), আপনি → **আপনার** (*apnar*). Pick the 'your' that matches the 'you' you would use with that person.\n\nBengali puts the question word where the answer will go: **আপনার নাম কী?** is literally 'Your name what?', and the answer is **আমার নাম নাদিয়া** 'My name (is) Nadia'.\n\nSpelling note: **কী** (long ী) means 'what'; **কি** (short ি) is a yes/no question marker you'll meet in Unit 2. They sound the same.\n\nSneak peek at the alphabet: the letter quizzes are ক as in কী, and র as in আমার.",
+      "tip": "Adding **-র** (*-r*) makes 'my / your': আমি → **আমার** (*amar*), তুমি → **তোমার** (*tomar*), আপনি → **আপনার** (*apnar*). Pick the 'your' that matches the 'you' you would use with that person.\n\nBengali puts the question word where the answer will go: **আপনার নাম কী?** is literally 'Your name what?', and the answer is **আমার নাম নাদিয়া** 'My name (is) Nadia'.\n\nSpelling note: **কী** (long ী) means 'what'; **কি** (short ি) is a yes/no question marker you'll meet in Unit 2. They sound the same.",
       "sentences": [
         {
           "bn": "আপনার নাম কী?",
@@ -170,6 +190,11 @@
           "alt": [
             "I'm a student, my name is Nadia."
           ]
+        },
+        {
+          "bn": "আমার নাম রাফি।",
+          "tr": "amar nam rafi.",
+          "en": "My name is Rafi."
         }
       ]
     },
@@ -189,7 +214,7 @@
         "alhamdulillah"
       ],
       "review": [],
-      "tip": "**আছ-** (*achh-*) means 'to be (in a state / somewhere)'. Its ending changes with the person:\n\n- আমি **আছি** (*achhi*): I am\n- তুমি **আছো** (*achho*): you (familiar) are\n- আপনি **আছেন** (*achhen*): you (polite) are\n\nPolite আপনি forms almost always end in **-েন**, so **কেমন আছেন?** is polite and **কেমন আছো?** is familiar. The pronoun is often dropped because the ending already says who you mean.\n\nUseful words: **ভালো** (*bhalo*) good, **খুব** (*khub*) very, **আর** (*ar*) and. In Bangladesh many people answer **আলহামদুলিল্লাহ, ভালো আছি** ('praise be to God, I'm well').\n\nSneak peek at the alphabet: the letter quiz is ভ as in ভালো.",
+      "tip": "**আছ-** (*achh-*) means 'to be (in a state / somewhere)'. Its ending changes with the person:\n\n- আমি **আছি** (*achhi*): I am\n- তুমি **আছো** (*achho*): you (familiar) are\n- আপনি **আছেন** (*achhen*): you (polite) are\n\nPolite আপনি forms almost always end in **-েন**, so **কেমন আছেন?** is polite and **কেমন আছো?** is familiar. The pronoun is often dropped because the ending already says who you mean.\n\nUseful words: **ভালো** (*bhalo*) good, **খুব** (*khub*) very, **আর** (*ar*) and. In Bangladesh many people answer **আলহামদুলিল্লাহ, ভালো আছি** ('praise be to God, I'm well').",
       "sentences": [
         {
           "bn": "আপনি কেমন আছেন?",
@@ -230,16 +255,45 @@
     },
     {
       "id": "u01-l05",
-      "title": "Review: hello & goodbye",
-      "goal": "",
-      "grammar": [],
-      "new": [
+      "title": "Review: Basics",
+      "goal": "Hold a whole first conversation: greet, give your name, ask how someone is, say goodbye.",
+      "grammar": [
+        "review: আপনি / তুমি with আছেন / আছো and আপনার / তোমার",
+        "review: জি (polite) vs হ্যাঁ"
+      ],
+      "new": [],
+      "review": [
+        "assalamu-alaikum",
+        "walaikum-assalam",
+        "nomoshkar",
+        "hya",
+        "ji",
+        "na",
+        "dhonnobad",
         "khoda-hafez",
         "abar-dekha-hobe",
+        "ami",
+        "tumi",
+        "apni",
+        "chhatro",
+        "chhatri",
+        "shikkhok",
+        "nam",
+        "ki-what",
+        "amar",
+        "apnar",
+        "tomar",
+        "kemon",
+        "achhen",
+        "achho",
+        "achhi",
+        "bhalo",
+        "khub",
+        "ar",
+        "alhamdulillah",
         "rafi"
       ],
-      "review": [],
-      "tip": "Put Unit 1 together into a full mini-conversation:\n\n- **আসসালামু আলাইকুম।** — **ওয়ালাইকুম আসসালাম।**\n- **কেমন আছেন?** — **ভালো আছি, আর আপনি?**\n- **আপনার নাম কী?** — **আমার নাম রাফি।**\n- **খোদা হাফেজ!** — **আবার দেখা হবে।**\n\n**খোদা হাফেজ** (*khoda hafez*, 'may God protect you') is the usual goodbye in Bangladesh; **আল্লাহ হাফেজ** (*allah hafez*) is also common. Hindu speakers and people in Kolkata often say **আসি** (*ashi*, lit. 'I'll come [again]') or **আবার দেখা হবে**.\n\nSneak peek at the alphabet: the letter quizzes are হ as in হাফেজ, and দ as in খোদা.",
+      "tip": "Put Unit 1 together into a full mini-conversation:\n\n- **আসসালামু আলাইকুম।** — **ওয়ালাইকুম আসসালাম।**\n- **কেমন আছেন?** — **ভালো আছি, আর আপনি?**\n- **আপনার নাম কী?** — **আমার নাম রাফি।**\n- **খোদা হাফেজ!** — **আবার দেখা হবে।**\n\nCheck yourself on two choices: **আপনি / আপনার / আছেন** for elders and strangers, **তুমি / তোমার / আছো** for friends; and **জি**, the polite 'yes', vs neutral **হ্যাঁ**.\n\nNo new words in this lesson.",
       "sentences": [
         {
           "bn": "আপনার নাম কী?",
@@ -270,8 +324,17 @@
           "bn": "ভালো আছি, ধন্যবাদ।",
           "tr": "bhalo achhi, dhonnobad.",
           "en": "I'm well, thank you."
+        },
+        {
+          "bn": "জি, আমি শিক্ষক।",
+          "tr": "ji, ami shikkhok.",
+          "en": "Yes, I am a teacher.",
+          "alt": [
+            "Yes, I'm a teacher."
+          ]
         }
-      ]
+      ],
+      "kind": "review"
     }
   ]
 }

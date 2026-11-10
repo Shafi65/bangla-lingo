@@ -3,7 +3,7 @@
   "unit": "u01-basics",
   "title": "What's your name?",
   "status": "draft",
-  "tip": "Adding **-র** (*-r*) makes 'my / your': আমি → **আমার** (*amar*), তুমি → **তোমার** (*tomar*), আপনি → **আপনার** (*apnar*). Pick the 'your' that matches the 'you' you would use with that person.\n\nBengali puts the question word where the answer will go: **আপনার নাম কী?** is literally 'Your name what?', and the answer is **আমার নাম নাদিয়া** 'My name (is) Nadia'.\n\nSpelling note: **কী** (long ী) means 'what'; **কি** (short ি) is a yes/no question marker you'll meet in Unit 2. They sound the same.\n\nSneak peek at the alphabet: the letter quizzes are ক as in কী, and র as in আমার.",
+  "tip": "Adding **-র** (*-r*) makes 'my / your': আমি → **আমার** (*amar*), তুমি → **তোমার** (*tomar*), আপনি → **আপনার** (*apnar*). Pick the 'your' that matches the 'you' you would use with that person.\n\nBengali puts the question word where the answer will go: **আপনার নাম কী?** is literally 'Your name what?', and the answer is **আমার নাম নাদিয়া** 'My name (is) Nadia'.\n\nSpelling note: **কী** (long ী) means 'what'; **কি** (short ি) is a yes/no question marker you'll meet in Unit 2. They sound the same.",
   "vocab": [
     {
       "id": "nam",
@@ -172,25 +172,33 @@
     },
     {
       "id": "e08",
-      "type": "script_recognize",
-      "glyph": "ক",
+      "type": "listen_select",
+      "audio": {
+        "bn": "তোমার",
+        "tr": "tomar",
+        "en": "your (familiar)"
+      },
       "options": [
-        "kh",
-        "g",
-        "k",
-        "t"
+        "আমার",
+        "আপনার",
+        "নাম",
+        "তোমার"
       ],
-      "answer": 2
+      "answer": 3
     },
     {
       "id": "e09",
-      "type": "script_recognize",
-      "glyph": "র",
+      "type": "listen_select",
+      "audio": {
+        "bn": "আপনার নাম কী?",
+        "tr": "apnar nam ki?",
+        "en": "What is your name? (polite)"
+      },
       "options": [
-        "l",
-        "r",
-        "n",
-        "d"
+        "তোমার নাম কী?",
+        "আপনার নাম কী?",
+        "আমার নাম নাদিয়া।",
+        "আমি নাদিয়া।"
       ],
       "answer": 1
     },

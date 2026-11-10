@@ -3,43 +3,23 @@
   "unit": "u02-pronouns",
   "title": "Review: people",
   "status": "draft",
-  "tip": "Time to put Unit 2 together. Check yourself on the pronoun grid (ordinary → polite):\n\n- **I / we:** আমি / আমরা\n- **you:** তুই, তুমি / তোরা, তোমরা → **আপনি / আপনারা**\n- **he, she / they:** সে, ও / তারা, ওরা → **তিনি, উনি / ওনারা**\n\nNew words: **বাংলা** is the *language* (Bengali); **বাংলাদেশি** is the *nationality*; **ইংরেজি** is English. Bengali speakers on both sides of the border call themselves **বাঙালি** (*bangali*) — an ethnic and linguistic identity, not a nationality.\n\nBangladesh is one of very few countries named after its language: *Bangla-desh* = 'Bangla country'.",
-  "vocab": [
-    {
-      "id": "bangladeshi",
-      "bn": "বাংলাদেশি",
-      "tr": "bangladeshi",
-      "en": "Bangladeshi"
-    },
-    {
-      "id": "bangla",
-      "bn": "বাংলা",
-      "tr": "bangla",
-      "en": "Bengali (language)",
-      "notes": "The language (and the region of Bengal)."
-    },
-    {
-      "id": "ingreji",
-      "bn": "ইংরেজি",
-      "tr": "ingreji",
-      "en": "English (language)"
-    }
-  ],
+  "tip": "Time to put Unit 2 together. Check yourself on the pronoun grid (ordinary → polite):\n\n- **I / we:** আমি / আমরা\n- **you:** তুই, তুমি / তোরা, তোমরা → **আপনি / আপনারা**\n- **he, she / they:** সে, ও / তারা, ওরা → **তিনি, উনি / ওনারা**\n\n'Is not' follows the same ladder: আমি **নই**, তুমি **নও**, আপনি / উনি **নন**, সে **নয়**. Absence is always **নেই**.\n\nBengali speakers on both sides of the border call themselves **বাঙালি** (*bangali*): an ethnic and linguistic identity, not a nationality.\n\nNo new words in this lesson.",
+  "vocab": [],
   "exercises": [
     {
       "id": "e01",
       "type": "select_translation",
       "prompt": {
-        "bn": "বাংলা",
-        "tr": "bangla",
-        "en": "Bengali (language)"
+        "bn": "ওরা ভালো মানুষ।",
+        "tr": "ora bhalo manush.",
+        "en": "They are good people."
       },
       "direction": "bn_to_en",
       "options": [
-        "Bangladeshi",
-        "Bengali (language)",
-        "English (language)",
-        "Bangladesh"
+        "We are good people.",
+        "They are good people.",
+        "They are my friends.",
+        "He is a good boy."
       ],
       "answer": 1
     },
@@ -47,53 +27,64 @@
       "id": "e02",
       "type": "select_translation",
       "prompt": {
-        "bn": "বাংলাদেশি",
-        "tr": "bangladeshi",
-        "en": "Bangladeshi"
+        "bn": "উনি কে?",
+        "tr": "uni ke?",
+        "en": "Who is he?"
       },
       "direction": "bn_to_en",
       "options": [
-        "Bangladesh",
-        "Bengali (language)",
-        "Bangladeshi",
-        "country"
+        "How is he?",
+        "Where is he?",
+        "What is this?",
+        "Who is he?"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e03",
+      "type": "listen_select",
+      "audio": {
+        "bn": "তোরা ওখানে আছিস?",
+        "tr": "tora okhane achhish?",
+        "en": "Are you guys there?"
+      },
+      "options": [
+        "তোরা এখানে আছিস?",
+        "তোমরা ওখানে আছো?",
+        "তোরা ওখানে আছিস?",
+        "তুই ওখানে আছিস?"
       ],
       "answer": 2
     },
     {
-      "id": "e03",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "ইংরেজি",
-        "tr": "ingreji",
-        "en": "English (language)"
+      "id": "e04",
+      "type": "listen_select",
+      "audio": {
+        "bn": "সে ভালো আছে।",
+        "tr": "she bhalo achhe.",
+        "en": "He is well."
       },
-      "direction": "bn_to_en",
       "options": [
-        "English (language)",
-        "Bengali (language)",
-        "America",
-        "Bangladeshi"
+        "সে ভালো আছে।",
+        "সে এখানে নেই।",
+        "তুই ভালো আছিস।",
+        "সে ভালো মানুষ।"
       ],
       "answer": 0
     },
     {
-      "id": "e04",
+      "id": "e05",
+      "type": "match_pairs",
       "pairs": [
         {
-          "bn": "বাংলা",
-          "tr": "bangla",
-          "en": "Bengali (language)"
+          "bn": "তুই",
+          "tr": "tui",
+          "en": "you (intimate)"
         },
         {
-          "bn": "ইংরেজি",
-          "tr": "ingreji",
-          "en": "English (language)"
-        },
-        {
-          "bn": "বাংলাদেশি",
-          "tr": "bangladeshi",
-          "en": "Bangladeshi"
+          "bn": "আমরা",
+          "tr": "amra",
+          "en": "we"
         },
         {
           "bn": "তোমরা",
@@ -104,215 +95,239 @@
           "bn": "আপনারা",
           "tr": "apnara",
           "en": "you (polite, plural)"
+        },
+        {
+          "bn": "তারা",
+          "tr": "tara",
+          "en": "they"
         }
-      ],
-      "type": "match_pairs"
-    },
-    {
-      "id": "e05",
-      "type": "listen_select",
-      "audio": {
-        "bn": "বাংলাদেশি",
-        "tr": "bangladeshi",
-        "en": "Bangladeshi"
-      },
-      "options": [
-        "বাংলাদেশ",
-        "বাংলাদেশি",
-        "বাংলা",
-        "ইংরেজি"
-      ],
-      "answer": 1
+      ]
     },
     {
       "id": "e06",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "আপনি কি বাংলাদেশি?",
-        "tr": "apni ki bangladeshi?",
-        "en": "Are you Bangladeshi? (polite)"
-      },
-      "direction": "en_to_bn",
-      "options": [
-        "তুমি কি বাংলাদেশি?",
-        "আপনি কি বাংলাদেশি?",
-        "আপনি কী বাংলাদেশি?",
-        "আপনি কি বাংলাদেশ?"
-      ],
-      "answer": 1
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "তিনি",
+          "tr": "tini",
+          "en": "he/she (polite)"
+        },
+        {
+          "bn": "ও",
+          "tr": "o",
+          "en": "he/she (spoken)"
+        },
+        {
+          "bn": "ছেলে",
+          "tr": "chhele",
+          "en": "boy"
+        },
+        {
+          "bn": "মেয়ে",
+          "tr": "meye",
+          "en": "girl"
+        },
+        {
+          "bn": "ডাক্তার",
+          "tr": "daktar",
+          "en": "doctor"
+        }
+      ]
     },
     {
       "id": "e07",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "তুমি ছাত্র নও।",
-        "tr": "tumi chhatro noo.",
-        "en": "You are not a student. (to a male friend, familiar)"
-      },
-      "direction": "en_to_bn",
-      "options": [
-        "তুমি ছাত্র নই।",
-        "তুমি ছাত্র নয়।",
-        "তুমি ছাত্র নও।",
-        "তুমি ছাত্র নন।"
-      ],
-      "answer": 2
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "নই",
+          "tr": "noi",
+          "en": "am not"
+        },
+        {
+          "bn": "নও",
+          "tr": "noo",
+          "en": "are not (familiar)"
+        },
+        {
+          "bn": "নন",
+          "tr": "non",
+          "en": "is not / are not (polite)"
+        },
+        {
+          "bn": "নয়",
+          "tr": "noy",
+          "en": "is not"
+        },
+        {
+          "bn": "নেই",
+          "tr": "nei",
+          "en": "is not (here); there isn't"
+        }
+      ]
     },
     {
       "id": "e08",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "আমি এখানে, তুমি কোথায়?",
-        "tr": "ami ekhane, tumi kothay?",
-        "en": "I'm here, where are you?"
-      },
-      "direction": "en_to_bn",
-      "options": [
-        "আমি ওখানে, তুমি কোথায়?",
-        "আমি এখানে, তুমি কে?",
-        "আমি এখানে নেই, তুমি কোথায়?",
-        "আমি এখানে, তুমি কোথায়?"
-      ],
-      "answer": 3
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "কোথায়",
+          "tr": "kothay",
+          "en": "where"
+        },
+        {
+          "bn": "থেকে",
+          "tr": "theke",
+          "en": "from"
+        },
+        {
+          "bn": "দেশ",
+          "tr": "desh",
+          "en": "country"
+        },
+        {
+          "bn": "বাংলা",
+          "tr": "bangla",
+          "en": "Bengali (language)"
+        },
+        {
+          "bn": "ইংরেজি",
+          "tr": "ingreji",
+          "en": "English (language)"
+        }
+      ]
     },
     {
       "id": "e09",
-      "type": "word_bank",
+      "type": "select_translation",
       "prompt": {
-        "bn": "এটা কি বাংলা?",
-        "tr": "eta ki bangla?",
-        "en": "Is this Bengali?"
+        "bn": "উনি আমার বন্ধু নন।",
+        "tr": "uni amar bondhu non.",
+        "en": "He is not my friend. (polite)"
       },
-      "direction": "bn_to_en",
-      "tiles": [
-        "Is",
-        "what",
-        "this",
-        "Bengali",
-        "Bangladeshi",
-        "English"
+      "direction": "en_to_bn",
+      "options": [
+        "উনি আমার বন্ধু নই।",
+        "উনি আমার বন্ধু নও।",
+        "উনি আমার বন্ধু নন।",
+        "উনি আমার বন্ধু নেই।"
       ],
-      "answer": [
-        "Is",
-        "this",
-        "Bengali"
-      ]
+      "answer": 2,
+      "why": "Polite উনি takes **নন**; নেই would mean he isn't *there*."
     },
     {
       "id": "e10",
-      "type": "word_bank",
+      "type": "select_translation",
       "prompt": {
-        "bn": "আপনি কোথা থেকে এসেছেন?",
-        "tr": "apni kotha theke eshechhen?",
-        "en": "Where are you from?"
+        "bn": "আপনারা কেমন আছেন?",
+        "tr": "apnara kemon achhen?",
+        "en": "How are you all? (polite: to a group of elders)"
       },
-      "direction": "bn_to_en",
-      "tiles": [
-        "Where",
-        "are",
-        "you",
-        "from",
-        "am",
-        "have"
+      "direction": "en_to_bn",
+      "options": [
+        "তোমরা কেমন আছো?",
+        "আপনি কেমন আছেন?",
+        "আপনারা কেমন আছো?",
+        "আপনারা কেমন আছেন?"
       ],
-      "answer": [
-        "Where",
-        "are",
-        "you",
-        "from"
-      ]
+      "answer": 3,
+      "why": "Polite plural 'you' is **আপনারা**, and the verb stays polite: **আছেন**."
     },
     {
       "id": "e11",
       "type": "word_bank",
       "prompt": {
-        "bn": "উনি শিক্ষক নন, উনি ডাক্তার।",
-        "tr": "uni shikkhok non, uni daktar.",
-        "en": "She is not a teacher, she is a doctor."
+        "bn": "আপনি কোথা থেকে এসেছেন?",
+        "tr": "apni kotha theke eshechhen?",
+        "en": "Where are you from? (polite)"
       },
       "direction": "en_to_bn",
       "tiles": [
-        "উনি",
-        "উনি",
-        "শিক্ষক",
-        "ডাক্তার",
-        "নন",
-        "নয়",
-        "নেই"
+        "আপনি",
+        "কোথা",
+        "কোথায়",
+        "থেকে",
+        "এসেছেন",
+        "এসেছি",
+        "তুমি"
       ],
       "answer": [
-        "উনি",
-        "শিক্ষক",
-        "নন",
-        "উনি",
-        "ডাক্তার"
-      ]
+        "আপনি",
+        "কোথা",
+        "থেকে",
+        "এসেছেন"
+      ],
+      "why": "Before থেকে, কোথায় shortens to **কোথা**; আপনি takes **এসেছেন**."
     },
     {
       "id": "e12",
       "type": "word_bank",
       "prompt": {
-        "bn": "ওরা আমার বন্ধু, ওরা বাংলাদেশি।",
-        "tr": "ora amar bondhu, ora bangladeshi.",
-        "en": "They are my friends, they are Bangladeshi."
+        "bn": "এটা কি আম? না, ওটা আম।",
+        "tr": "eta ki am? na, ota am.",
+        "en": "Is this a mango? No, that is a mango."
       },
       "direction": "en_to_bn",
       "tiles": [
-        "ওরা",
-        "ওরা",
-        "আমরা",
-        "আমার",
-        "বন্ধু",
-        "বাংলাদেশি",
-        "বাংলা"
+        "এটা",
+        "কি",
+        "আম",
+        "না",
+        "ওটা",
+        "আম",
+        "কী",
+        "নয়"
       ],
       "answer": [
-        "ওরা",
-        "আমার",
-        "বন্ধু",
-        "ওরা",
-        "বাংলাদেশি"
-      ]
+        "এটা",
+        "কি",
+        "আম",
+        "না",
+        "ওটা",
+        "আম"
+      ],
+      "why": "This = **এটা**, that = **ওটা**; a yes/no question takes **কি** (short ি)."
     },
     {
       "id": "e13",
       "type": "word_bank",
       "prompt": {
-        "bn": "তুই কোথায়?",
-        "tr": "tui kothay?",
-        "en": "Where are you? (to your school best friend)"
+        "bn": "আমি এখানে, তুমি কোথায়?",
+        "tr": "ami ekhane, tumi kothay?",
+        "en": "I'm here, where are you?"
       },
-      "direction": "en_to_bn",
+      "direction": "bn_to_en",
       "tiles": [
-        "তুই",
-        "আপনি",
-        "কোথায়",
-        "কোথা",
-        "কে"
+        "I'm",
+        "here",
+        "where",
+        "are",
+        "you",
+        "there",
+        "who"
       ],
       "answer": [
-        "তুই",
-        "কোথায়"
+        "I'm",
+        "here",
+        "where",
+        "are",
+        "you"
       ]
     },
     {
       "id": "e14",
       "type": "type_translation",
       "prompt": {
-        "bn": "তিনি আমার বাংলা শিক্ষক।",
-        "tr": "tini amar bangla shikkhok.",
-        "en": "He is my Bengali teacher."
+        "bn": "আমি বাংলাদেশ থেকে এসেছি।",
+        "tr": "ami bangladesh theke eshechhi.",
+        "en": "I am from Bangladesh."
       },
       "direction": "bn_to_en",
       "accepted": [
-        "He is my Bengali teacher.",
-        "He is my Bangla teacher.",
-        "She is my Bengali teacher.",
-        "She is my Bangla teacher.",
-        "He's my Bengali teacher.",
-        "He's my Bangla teacher.",
-        "She's my Bengali teacher.",
-        "She's my Bangla teacher."
+        "I am from Bangladesh.",
+        "I'm from Bangladesh.",
+        "I have come from Bangladesh.",
+        "I came from Bangladesh.",
+        "I've come from Bangladesh."
       ]
     },
     {

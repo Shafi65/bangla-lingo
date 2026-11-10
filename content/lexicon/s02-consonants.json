@@ -319,7 +319,7 @@
       "tr": "sho",
       "en": "sh as in 'shop'",
       "pos": "letter",
-      "lesson": "s02-l06",
+      "lesson": "s02-l06b",
       "notes": "Name: talobbo sho (তালব্য শ). The most common sh letter (শিক্ষক)."
     },
     {
@@ -328,7 +328,7 @@
       "tr": "sho",
       "en": "sh as in 'shop' (same sound as শ)",
       "pos": "letter",
-      "lesson": "s02-l06",
+      "lesson": "s02-l06b",
       "notes": "Name: murdhonno sho (মূর্ধন্য ষ). Same sound as শ; spelling only. Rarely starts a word; common in the middle (মানুষ)."
     },
     {
@@ -337,7 +337,7 @@
       "tr": "sho",
       "en": "sh, or s before t / n / r / l",
       "pos": "letter",
-      "lesson": "s02-l06",
+      "lesson": "s02-l06b",
       "notes": "Name: donto sho (দন্ত্য স). Usually 'sh' (সকাল shokal), but 's' in clusters like স্ত, স্ক (s04)."
     },
     {
@@ -346,7 +346,7 @@
       "tr": "ho",
       "en": "h as in 'hat'",
       "pos": "letter",
-      "lesson": "s02-l06",
+      "lesson": "s02-l06b",
       "notes": "Name: ho (হ). Changes shape with some vowel signs: হু, হৃ (s03-l02)."
     },
     {
@@ -363,7 +363,7 @@
       "tr": "hat",
       "en": "hand",
       "pos": "noun",
-      "lesson": "s02-l06"
+      "lesson": "s02-l06b"
     },
     {
       "id": "l-rra",
@@ -398,7 +398,7 @@
       "tr": "t",
       "en": "final t with no vowel after it",
       "pos": "letter",
-      "lesson": "s02-l07",
+      "lesson": "s02-l07b",
       "notes": "Name: khondo to (খণ্ড ত), 'broken t'. U+09CE. Only appears at the end of a syllable (হঠাৎ, উৎসব)."
     },
     {
@@ -407,7 +407,7 @@
       "tr": "ng",
       "en": "ng as in 'sing' (nasal at the end of a syllable)",
       "pos": "letter",
-      "lesson": "s02-l07",
+      "lesson": "s02-l07b",
       "notes": "Name: onushshar (অনুস্বার). U+0982. Same sound as ঙ. Shown standalone here; fonts may draw a dotted circle."
     },
     {
@@ -416,7 +416,7 @@
       "tr": "h",
       "en": "a short breath; inside a word it doubles the next consonant",
       "pos": "letter",
-      "lesson": "s02-l07",
+      "lesson": "s02-l07b",
       "notes": "Name: bishorgo (বিসর্গ). U+0983. দুঃখিত is said dukkhito: the ঃ makes the খ double. Shown standalone; fonts may draw a dotted circle."
     },
     {
@@ -425,7 +425,7 @@
       "tr": "a~",
       "en": "ঁ makes the vowel nasal (shown on আ: a~)",
       "pos": "letter",
-      "lesson": "s02-l07",
+      "lesson": "s02-l07b",
       "notes": "Sign: chondrobindu (চন্দ্রবিন্দু) ঁ, U+0981, 'moon and dot', written above the letter. Shown on আ because it cannot stand alone."
     },
     {
@@ -443,7 +443,7 @@
       "tr": "hothat",
       "en": "suddenly",
       "pos": "adv",
-      "lesson": "s02-l07"
+      "lesson": "s02-l07b"
     },
     {
       "id": "dukkhito",
@@ -451,7 +451,7 @@
       "tr": "dukkhito",
       "en": "sorry",
       "pos": "adj",
-      "lesson": "s02-l07",
+      "lesson": "s02-l07b",
       "notes": "'I'm sorry' = আমি দুঃখিত (formal). Shows ঃ doubling the খ."
     },
     {
@@ -460,7 +460,7 @@
       "tr": "cha~d",
       "en": "moon",
       "pos": "noun",
-      "lesson": "s02-l07",
+      "lesson": "s02-l07b",
       "notes": "The transliteration guide's own example of ঁ."
     }
   ]

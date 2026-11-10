@@ -1,9 +1,9 @@
 {
   "id": "s02-l08",
   "unit": "s02-consonants",
-  "title": "Consonants review: look-alikes",
+  "title": "Consonants review 1: look-alikes",
   "status": "draft",
-  "tip": "You can now recognize every consonant in the chart: **ক খ গ ঘ ঙ · চ ছ জ ঝ ঞ · ট ঠ ড ঢ ণ · ত থ দ ধ ন · প ফ ব ভ ম · য র ল · শ ষ স হ · ড় ঢ় য় ৎ ং ঃ ঁ**.\n\n**Shape look-alikes**: ব (triangle) vs র (triangle + dot); ধ (open top-left) vs থ (bottom loop) vs য; উ (vowel) vs ড (notch in the top line); ড vs ড় and য vs য় (the dot!).\n\n**Sound-alikes**: জ/য, ন/ণ, শ/ষ/স and ঙ/ং sound the same. You can't hear the difference, so learn each word's spelling.\n\n**Puff pairs**: ক/খ, চ/ছ, ট/ঠ, ত/থ, প/ফ. Listen for the breath. Next up: vowel signs, which let you read whole words like মামা and খালা.",
+  "tip": "Review 1 of 2: look-alikes. No new letters.\n\n**Shape look-alikes**: ব (triangle) vs র (triangle + dot); ধ (open top-left) vs থ (bottom loop) vs য; উ (vowel) vs ড (notch in the top line); ড vs ড়, ঢ vs ঢ় and য vs য় (the dot!).\n\n**Sound-alikes**: জ/য, ন/ণ, শ/ষ/স and ঙ/ং sound the same. You can't hear the difference, so learn each word's spelling.\n\n**Hard vs soft**: ট/ড (tongue curled back) vs ত/দ (tongue on the teeth).",
   "vocab": [],
   "exercises": [
     {
@@ -156,19 +156,21 @@
     },
     {
       "id": "e12",
-      "type": "listen_select",
-      "audio": {
-        "bn": "ছ",
-        "tr": "chho",
-        "en": "chh: ch with a strong puff of air"
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ঢোল",
+        "tr": "dhol",
+        "en": "drum (traditional)"
       },
+      "direction": "bn_to_en",
       "options": [
-        "চ",
-        "ছ",
-        "খ",
-        "ক"
+        "storm",
+        "drum (traditional)",
+        "dark / deep (of colour)",
+        "tree"
       ],
-      "answer": 1
+      "answer": 1,
+      "why": "ঢোল starts with **ঢ** (no dot: dh); গাঢ় ends with **ঢ়** (dot: rh)."
     },
     {
       "id": "e13",
@@ -208,29 +210,29 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "ছ",
-          "tr": "chho",
-          "en": "chh: ch with a strong puff of air"
+          "bn": "গাঢ়",
+          "tr": "garho",
+          "en": "dark / deep (of colour)"
         },
         {
-          "bn": "ধন্যবাদ",
-          "tr": "dhonnobad",
-          "en": "thank you"
+          "bn": "ঝড়",
+          "tr": "jhor",
+          "en": "storm"
         },
         {
-          "bn": "বড়",
-          "tr": "boro",
-          "en": "big"
+          "bn": "লাল",
+          "tr": "lal",
+          "en": "red"
+        },
+        {
+          "bn": "হাত",
+          "tr": "hat",
+          "en": "hand"
         },
         {
           "bn": "বাংলা",
           "tr": "bangla",
           "en": "Bengali (language)"
-        },
-        {
-          "bn": "মেয়ে",
-          "tr": "meye",
-          "en": "girl"
         }
       ]
     }

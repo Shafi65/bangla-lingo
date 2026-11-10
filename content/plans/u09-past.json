@@ -353,6 +353,118 @@
       ]
     },
     {
+      "id": "u09-l04b",
+      "title": "Doing, done, did",
+      "kind": "review",
+      "goal": "Tell করছি / করেছি / করলাম apart, and switch present ↔ past for every person.",
+      "grammar": [
+        "contrast: করছি (am doing) · করেছি (have done) · করলাম (did)",
+        "present → past by person: করিস/করলি · করো/করলে · করেন/করলেন · করে/করল",
+        "তাই 'so', কারণ 'because' with the new tenses"
+      ],
+      "new": [],
+      "review": [
+        "korchhi",
+        "korchho",
+        "korechhi",
+        "korlam",
+        "korli",
+        "korle",
+        "korlen",
+        "korlo",
+        "kori",
+        "koro",
+        "koren",
+        "kore",
+        "korish",
+        "ranna",
+        "matro",
+        "gotokal",
+        "ekhon",
+        "kheyechhi",
+        "tai",
+        "karon",
+        "pari",
+        "khete",
+        "kaj",
+        "protidin"
+      ],
+      "tip": "No new words: this lesson sorts out three look-alike forms of **করা**. Watch the middle of the word:\n\n- **করছি** (-ছ-): I **am doing**, right now\n- **করেছি** (-এছ-): I **have done**, just finished or still relevant\n- **করলাম** (-ল-): I **did**, a finished event\n\nTime words help: **এখন** 'now' → করছি; **মাত্র** 'just' → করেছি; **গতকাল** 'yesterday' → করলাম.\n\nThe person endings stay the same in every tense, present → past:\n\n- তুই: করিস → **করলি**\n- তুমি: করো → **করলে**\n- আপনি / তিনি: করেন → **করলেন**\n- সে / তারা: করে → **করল**\n\n**তাই** 'so' and **কারণ** 'because' come back too: **আমি মাত্র খেয়েছি, তাই এখন খেতে পারি না**.",
+      "sentences": [
+        {
+          "bn": "আমি এখন রান্না করছি।",
+          "tr": "ami ekhon ranna korchhi.",
+          "en": "I am cooking now.",
+          "alt": [
+            "I'm cooking now."
+          ]
+        },
+        {
+          "bn": "আমি মাত্র রান্না করেছি।",
+          "tr": "ami matro ranna korechhi.",
+          "en": "I have just cooked.",
+          "alt": [
+            "I've just cooked."
+          ]
+        },
+        {
+          "bn": "আমি গতকাল রান্না করলাম।",
+          "tr": "ami gotokal ranna korlam.",
+          "en": "I cooked yesterday.",
+          "alt": [
+            "Yesterday I cooked."
+          ]
+        },
+        {
+          "bn": "সে প্রতিদিন রান্না করে।",
+          "tr": "she protidin ranna kore.",
+          "en": "She cooks every day.",
+          "alt": [
+            "He cooks every day."
+          ]
+        },
+        {
+          "bn": "সে গতকাল রান্না করল।",
+          "tr": "she gotokal ranna korlo.",
+          "en": "She cooked yesterday.",
+          "alt": [
+            "He cooked yesterday."
+          ]
+        },
+        {
+          "bn": "আপনি গতকাল কী করলেন?",
+          "tr": "apni gotokal ki korlen?",
+          "en": "What did you do yesterday?"
+        },
+        {
+          "bn": "তুই গতকাল কী করলি?",
+          "tr": "tui gotokal ki korli?",
+          "en": "What did you do yesterday?"
+        },
+        {
+          "bn": "তুমি গতকাল কী করলে?",
+          "tr": "tumi gotokal ki korle?",
+          "en": "What did you do yesterday?"
+        },
+        {
+          "bn": "আমি মাত্র খেয়েছি, তাই এখন খেতে পারি না।",
+          "tr": "ami matro kheyechhi, tai ekhon khete pari na.",
+          "en": "I have just eaten, so I can't eat now.",
+          "alt": [
+            "I've just eaten, so I can't eat now."
+          ]
+        },
+        {
+          "bn": "এখন না, কারণ আমি কাজ করছি।",
+          "tr": "ekhon na, karon ami kaj korchhi.",
+          "en": "Not now, because I'm working.",
+          "alt": [
+            "Not now, I'm working."
+          ]
+        }
+      ]
+    },
+    {
       "id": "u09-l05",
       "title": "I didn't",
       "goal": "Say what you didn't do or haven't done yet.",
@@ -452,9 +564,10 @@
       "title": "Was / were",
       "goal": "Say where someone was and what they used to be.",
       "grammar": [
-        "past of 'to be': ছিলাম · ছিলি · ছিলে · ছিলেন · ছিল",
+        "past of 'to be': ছিলাম · ছিলে · ছিলেন · ছিল",
         "identity in the past needs ছিল- (unlike the present's zero copula): আমি ছাত্র ছিলাম",
-        "past perfect -এছিলাম (recognition): গিয়েছিলাম",
+        "ছিল- is also the past of আছ-",
+        "X-এর মতো 'like X'",
         "গত সপ্তাহে 'last week'"
       ],
       "new": [
@@ -462,10 +575,10 @@
         "chhile",
         "chhilen",
         "chhilo",
-        "giyechhilam",
         "goto-shoptahe",
         "bondho",
-        "shikkharthi"
+        "shikkharthi",
+        "moto"
       ],
       "review": [
         "ami",
@@ -477,9 +590,15 @@
         "she",
         "dhakay",
         "chhatro",
-        "baba"
+        "baba",
+        "shikkhok",
+        "shilete",
+        "dokan",
+        "tar",
+        "mayer",
+        "achhi"
       ],
-      "tip": "In the present, 'is' disappears: **আমি ছাত্র** 'I am a student'. In the past it **comes back** as **ছিল-**:\n\n- আমি **ছিলাম** — I was\n- তুমি **ছিলে** — you were\n- আপনি / তিনি **ছিলেন** — you were / he was (polite)\n- সে **ছিল** — he / she / it was\n\nSo: **আমি ছাত্র ছিলাম** 'I was a student', **আপনি কোথায় ছিলেন?** 'Where were you?', **দোকান বন্ধ ছিল** 'The shop was closed'.\n\nছিল- is also the past of **আছ-**: **আমি বাসায় আছি** 'I'm at home' → **আমি বাসায় ছিলাম** 'I was at home'.\n\n**গত সপ্তাহে** is 'last week'. Without **গত** ('last'), **সপ্তাহে** means 'in a week / per week'.\n\nYou'll also hear the past perfect **-এছিলাম**: **আমি গত সপ্তাহে সিলেটে গিয়েছিলাম** 'I went to (had been to) Sylhet last week'. For now, just recognise it. In speech it's often **গেছিলাম**.\n\n**শিক্ষার্থী** is a gender-neutral word for 'student' (ছাত্র male, ছাত্রী female). You'll see it on school notices and in the news.\n\n**ছিল** is also written **ছিলো**.",
+      "tip": "In the present, 'is' disappears: **আমি ছাত্র** 'I am a student'. In the past it **comes back** as **ছিল-**:\n\n- আমি **ছিলাম**: I was\n- তুমি **ছিলে**: you were\n- আপনি / তিনি **ছিলেন**: you were / he, she was (polite)\n- সে **ছিল**: he / she / it was\n\n**ছিল-** is also the past of **আছ-**: **আমি বাসায় আছি** → **আমি বাসায় ছিলাম** 'I was at home'.\n\n**গত সপ্তাহে** = 'last week'. **শিক্ষার্থী** is a gender-neutral 'student' (ছাত্র / ছাত্রী mark gender).\n\n**মতো** 'like' comes after a possessive: **সে তার মায়ের মতো** 'She is like her mother'. (Liking something is **পছন্দ**.)\n\n**ছিল** is also written **ছিলো**.",
       "sentences": [
         {
           "bn": "আমি গতকাল বাসায় ছিলাম।",
@@ -518,11 +637,11 @@
           ]
         },
         {
-          "bn": "আমি গত সপ্তাহে সিলেটে গিয়েছিলাম।",
-          "tr": "ami goto shoptahe shilete giyechhilam.",
-          "en": "I went to Sylhet last week.",
+          "bn": "আমি গত সপ্তাহে সিলেটে ছিলাম।",
+          "tr": "ami goto shoptahe shilete chhilam.",
+          "en": "I was in Sylhet last week.",
           "alt": [
-            "I had gone to Sylhet last week."
+            "Last week I was in Sylhet."
           ]
         },
         {
@@ -534,6 +653,14 @@
           "bn": "আমি ঢাকায় শিক্ষার্থী ছিলাম।",
           "tr": "ami dhakay shikkharthi chhilam.",
           "en": "I was a student in Dhaka."
+        },
+        {
+          "bn": "সে তার মায়ের মতো।",
+          "tr": "she tar mayer moto.",
+          "en": "She is like her mother.",
+          "alt": [
+            "He is like his mother."
+          ]
         }
       ]
     },
@@ -644,55 +771,77 @@
       ]
     },
     {
-      "id": "u09-l08",
-      "title": "Review: what happened?",
-      "goal": "Mix simple past, perfect, negative past and 'was'.",
+      "id": "u09-l07b",
+      "title": "Been there: the past perfect",
+      "goal": "Recognise the past perfect গিয়েছিলাম / গিয়েছিল and tell it apart from গেলাম and গিয়েছে.",
       "grammar": [
-        "review: -লাম/-লে/-লেন/-ল, -এছি, -নি, ছিল-"
+        "past perfect -এছিল- (recognition only): গিয়েছিলাম, গিয়েছিল",
+        "contrast: গেলাম 'went' · গিয়েছে 'has gone' · গিয়েছিল 'had gone / went (and came back)'",
+        "ছবি 'picture / film'"
       ],
       "new": [
-        "chhobi",
+        "giyechhilam",
         "giyechhilo",
-        "moto"
+        "chhobi"
       ],
       "review": [
-        "apni",
-        "ki-q",
-        "bhat",
-        "kheyechhen",
-        "ami",
-        "ekhono",
-        "khaini",
-        "gotokal",
-        "tumi",
-        "kothay",
-        "tar",
-        "mayer"
+        "gelam",
+        "gelo",
+        "giyechhe",
+        "goto-shoptahe",
+        "elam",
+        "jokhon",
+        "tokhon",
+        "karon",
+        "dekhlam",
+        "bondhur",
+        "shathe",
+        "chhilo",
+        "shilete",
+        "dhakay",
+        "dadi",
+        "thaken"
       ],
-      "tip": "Quick check of the past system:\n\n- **simple past** (*did*): করলাম, করলে, করলেন, করল\n- **perfect** (*have done*): করেছি, খেয়েছেন\n- **negative** (*didn't / haven't*): present + **-নি**: করিনি, খাইনি\n- **was**: ছিলাম, ছিলে, ছিলেন, ছিল\n- **past perfect** (*had done*, recognise only): গিয়েছিলাম, গিয়েছিল\n\n**ছবি** means both 'picture' and 'film': **একটা ছবি দেখলাম** 'I watched a film'.\n\n**মতো** (*moto*) 'like, similar to' follows a genitive, just like সাথে: **মায়ের মতো** 'like (her) mother'. It's not the 'like' of liking food; that's **পছন্দ**.",
+      "tip": "You'll often hear the past one step further back, the **past perfect**: stem + **-এছিল-** + ending.\n\n- **গিয়েছিলাম**: I went / had gone (আমি)\n- **গিয়েছিল**: he / she went / had gone (সে)\n\nIt is used for a trip that is over, when you went **and came back**: **আমি গত সপ্তাহে সিলেটে গিয়েছিলাম** 'I went to Sylhet last week'. It also marks what had already happened at a past moment: **আমি যখন এলাম, তখন সে বাজারে গিয়েছিল** 'When I came, he had gone to the market'.\n\nCompare **গেলাম** 'I went' and **গিয়েছে** 'has gone (and is still away)'. In speech you'll hear **গেছিলাম**, **গেছিল**. Just recognise these forms for now.\n\n**ছবি** is 'picture' and also 'film': **একটা ছবি দেখলাম** 'I watched a film'.",
       "sentences": [
         {
-          "bn": "আপনি কি ভাত খেয়েছেন?",
-          "tr": "apni ki bhat kheyechhen?",
-          "en": "Have you eaten?",
+          "bn": "আমি গত সপ্তাহে সিলেটে গিয়েছিলাম।",
+          "tr": "ami goto shoptahe shilete giyechhilam.",
+          "en": "I went to Sylhet last week.",
           "alt": [
-            "Have you had rice?"
+            "I had gone to Sylhet last week.",
+            "I had been to Sylhet last week."
           ]
         },
         {
-          "bn": "আমি এখনো খাইনি।",
-          "tr": "ami ekhono khaini.",
-          "en": "I haven't eaten yet."
+          "bn": "সে গত সপ্তাহে ঢাকায় গিয়েছিল।",
+          "tr": "she goto shoptahe dhakay giyechhilo.",
+          "en": "He went to Dhaka last week.",
+          "alt": [
+            "She went to Dhaka last week.",
+            "He had gone to Dhaka last week."
+          ]
         },
         {
-          "bn": "গতকাল তুমি কোথায় ছিলে?",
-          "tr": "gotokal tumi kothay chhile?",
-          "en": "Where were you yesterday?"
+          "bn": "আমি যখন এলাম, তখন সে বাজারে গিয়েছিল।",
+          "tr": "ami jokhon elam, tokhon she bajare giyechhilo.",
+          "en": "When I came, he had gone to the market.",
+          "alt": [
+            "When I came, she had gone to the market."
+          ]
         },
         {
-          "bn": "আমি বাসায় ছিলাম।",
-          "tr": "ami bashay chhilam.",
-          "en": "I was at home."
+          "bn": "সে এখন বাসায় নেই, সে অফিসে গিয়েছে।",
+          "tr": "she ekhon bashay nei, she ofise giyechhe.",
+          "en": "He's not home now; he has gone to the office.",
+          "alt": [
+            "She isn't at home now, she has gone to the office."
+          ]
+        },
+        {
+          "bn": "গত সপ্তাহে আমি সিলেটে গিয়েছিলাম, কারণ আমার দাদি সিলেটে থাকেন।",
+          "tr": "goto shoptahe ami shilete giyechhilam, karon amar dadi shilete thaken.",
+          "en": "Last week I went to Sylhet because my grandmother lives in Sylhet."
         },
         {
           "bn": "আমি একটা ছবি দেখলাম।",
@@ -703,43 +852,241 @@
           ]
         },
         {
-          "bn": "সে গত সপ্তাহে ঢাকায় গিয়েছিল।",
-          "tr": "she goto shoptahe dhakay giyechhilo.",
-          "en": "He went to Dhaka last week.",
+          "bn": "গতকাল আমরা বন্ধুর সাথে ছবি দেখলাম।",
+          "tr": "gotokal amra bondhur shathe chhobi dekhlam.",
+          "en": "Yesterday we watched a film with a friend.",
           "alt": [
-            "She had gone to Dhaka last week."
+            "We watched a movie with a friend yesterday."
           ]
         },
         {
-          "bn": "আমি মাত্র বাজার থেকে এলাম।",
-          "tr": "ami matro bajar theke elam.",
-          "en": "I just came from the market.",
+          "bn": "ছবি খুব ভালো ছিল।",
+          "tr": "chhobi khub bhalo chhilo.",
+          "en": "The film was very good.",
           "alt": [
-            "I've just come back from the market."
+            "The movie was very good."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u09-l08",
+      "title": "Review: did, have done",
+      "kind": "review",
+      "goal": "Recall the simple past for every person, the irregular pasts and the perfect (Lessons 1–4b).",
+      "grammar": [
+        "review: -লাম/-লি/-লে/-লেন/-ল, irregular pasts, perfect -এছি/-এছো/-এছেন/-এছে"
+      ],
+      "new": [],
+      "review": [
+        "gotokal",
+        "korlam",
+        "dekhlam",
+        "shunlam",
+        "porlam",
+        "kinlam",
+        "bollam",
+        "ghumalam",
+        "take",
+        "korli",
+        "korle",
+        "korlen",
+        "korlo",
+        "kinlen",
+        "kinlo",
+        "gelam",
+        "gelo",
+        "elam",
+        "ele",
+        "ashlam",
+        "khelam",
+        "dilam",
+        "nilam",
+        "kheyechhen",
+        "kheyechho",
+        "kheyechhi",
+        "korechhi",
+        "matro",
+        "giyechhe",
+        "ki-hoyechhe",
+        "eshechhe",
+        "bajare",
+        "shari",
+        "bhat",
+        "eksho",
+        "taka",
+        "tai",
+        "jachchhi"
+      ],
+      "tip": "No new words: this review mixes Lessons 1–4b.\n\n- **Simple past** (*did*): **-লাম** আমি · **-লি** তুই · **-লে** তুমি · **-লেন** আপনি · **-ল** সে: করলাম, করলি, করলে, করলেন, করল.\n- **Irregulars**: গেলাম / গেল 'went', এলাম or আসলাম 'I came', খেলাম 'I ate', দিলাম 'I gave', নিলাম 'I took'.\n- **Perfect** (*have done*): করেছি, খেয়েছি / খেয়েছো / খেয়েছেন, গিয়েছে, এসেছে.\n- **তাকে** 'him / her' is the object: **আমি তাকে বললাম** 'I told him'.\n\nEarlier words come back too: **বাজারে**, **শাড়ি**, **ভাত**, **টাকা**.",
+      "sentences": [
+        {
+          "bn": "গতকাল আমি একটা বই কিনলাম আর পড়লাম।",
+          "tr": "gotokal ami ekta boi kinlam ar porlam.",
+          "en": "Yesterday I bought a book and read it.",
+          "alt": [
+            "Yesterday I bought and read a book."
           ]
         },
         {
-          "bn": "আমরা গতকাল বিরিয়ানি খেলাম।",
-          "tr": "amra gotokal biriyani khelam.",
-          "en": "We ate biryani yesterday.",
+          "bn": "সে বাজারে একটা শাড়ি কিনল।",
+          "tr": "she bajare ekta shari kinlo.",
+          "en": "She bought a sari at the market."
+        },
+        {
+          "bn": "আমি কাজ করেছি, তাই এখন বাসায় যাচ্ছি।",
+          "tr": "ami kaj korechhi, tai ekhon bashay jachchhi.",
+          "en": "I've done the work, so I'm going home now.",
           "alt": [
-            "We had biryani yesterday."
+            "I have done my work, so now I'm going home."
           ]
         },
         {
-          "bn": "কী হয়েছে?",
-          "tr": "ki hoyechhe?",
-          "en": "What happened?",
+          "bn": "আপনি কি ভাত খেয়েছেন?",
+          "tr": "apni ki bhat kheyechhen?",
+          "en": "Have you eaten?",
           "alt": [
-            "What's wrong?"
+            "Have you had rice?"
           ]
         },
         {
-          "bn": "সে তার মায়ের মতো।",
-          "tr": "she tar mayer moto.",
-          "en": "She is like her mother.",
+          "bn": "সে মাত্র অফিসে গিয়েছে।",
+          "tr": "she matro ofise giyechhe.",
+          "en": "He has just gone to the office.",
           "alt": [
-            "He is like his mother."
+            "She has just gone to the office."
+          ]
+        },
+        {
+          "bn": "আমি তাকে একশ টাকা দিলাম।",
+          "tr": "ami take eksho taka dilam.",
+          "en": "I gave him a hundred taka.",
+          "alt": [
+            "I gave her 100 taka."
+          ]
+        },
+        {
+          "bn": "জি, আমি খেয়েছি।",
+          "tr": "ji, ami kheyechhi.",
+          "en": "Yes, I have eaten.",
+          "alt": [
+            "Yes, I've eaten."
+          ]
+        },
+        {
+          "bn": "তুমি কখন এলে?",
+          "tr": "tumi kokhon ele?",
+          "en": "When did you come?",
+          "alt": [
+            "When did you arrive?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u09-l08b",
+      "title": "Review: didn't, was, had",
+      "kind": "review",
+      "goal": "Recall -নি negatives, ছিল-, linking words and the past perfect (Lessons 5–7b).",
+      "grammar": [
+        "review: -নি vs past + না, ছিলাম/ছিলে/ছিলেন/ছিল, যখন…তখন, সাথে, মতো, গিয়েছিল-"
+      ],
+      "new": [],
+      "review": [
+        "korini",
+        "khaini",
+        "khaoni",
+        "jaini",
+        "dekhini",
+        "asheni",
+        "ekhono",
+        "ekhono-na",
+        "itimoddhe",
+        "chhilam",
+        "chhile",
+        "chhilen",
+        "chhilo",
+        "goto-shoptahe",
+        "bondho",
+        "shikkharthi",
+        "moto",
+        "uthlam",
+        "bondhur",
+        "shathe",
+        "dinta",
+        "jokhon",
+        "tokhon",
+        "kotha-talk",
+        "giyechhilam",
+        "giyechhilo",
+        "chhobi",
+        "gelam",
+        "bajare",
+        "dokan",
+        "tai",
+        "ofise"
+      ],
+      "tip": "No new words: this review mixes Lessons 5–7b.\n\n- **Didn't / haven't**: present form + **-নি**: করিনি, খাইনি, খাওনি, যাইনি, দেখিনি, আসেনি. **এখনো না** = 'not yet'.\n- **Chose not to**: simple past + **না**: **আমি গেলাম না** 'I didn't go (I decided not to)'.\n- **Was / were**: ছিলাম · ছিলে · ছিলেন · ছিল.\n- **Linking**: **যখন … তখন …** 'when …, then …'; **বন্ধুর সাথে** 'with a friend'; **মায়ের মতো** 'like (her) mother'.\n- **Past perfect** (recognise): গিয়েছিলাম, গিয়েছিল.",
+      "sentences": [
+        {
+          "bn": "আমি এখনো খাইনি।",
+          "tr": "ami ekhono khaini.",
+          "en": "I haven't eaten yet."
+        },
+        {
+          "bn": "আমি গেলাম না।",
+          "tr": "ami gelam na.",
+          "en": "I didn't go.",
+          "alt": [
+            "I decided not to go.",
+            "I chose not to go."
+          ]
+        },
+        {
+          "bn": "আমি যখন বাজারে গেলাম, তখন দোকান বন্ধ ছিল।",
+          "tr": "ami jokhon bajare gelam, tokhon dokan bondho chhilo.",
+          "en": "When I went to the market, the shop was closed."
+        },
+        {
+          "bn": "সে গত সপ্তাহে ঢাকায় ছিল, তাই সে আসেনি।",
+          "tr": "she goto shoptahe dhakay chhilo, tai she asheni.",
+          "en": "He was in Dhaka last week, so he didn't come.",
+          "alt": [
+            "She was in Dhaka last week, so she didn't come."
+          ]
+        },
+        {
+          "bn": "আমি গতকাল অফিসে যাইনি।",
+          "tr": "ami gotokal ofise jaini.",
+          "en": "I didn't go to the office yesterday.",
+          "alt": [
+            "I didn't go to work yesterday."
+          ]
+        },
+        {
+          "bn": "আমি বন্ধুর সাথে কথা বললাম।",
+          "tr": "ami bondhur shathe kotha bollam.",
+          "en": "I talked with my friend.",
+          "alt": [
+            "I spoke to a friend."
+          ]
+        },
+        {
+          "bn": "তুমি কোথায় ছিলে?",
+          "tr": "tumi kothay chhile?",
+          "en": "Where were you?"
+        },
+        {
+          "bn": "না, এখনো না।",
+          "tr": "na, ekhono na.",
+          "en": "No, not yet."
+        },
+        {
+          "bn": "সে তার মায়ের মতো, কিন্তু আমি আমার বাবার মতো।",
+          "tr": "she tar mayer moto, kintu ami amar babar moto.",
+          "en": "She is like her mother, but I am like my father.",
+          "alt": [
+            "He is like his mother, but I am like my father."
           ]
         }
       ]

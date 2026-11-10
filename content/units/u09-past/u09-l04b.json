@@ -1,0 +1,363 @@
+{
+  "id": "u09-l04b",
+  "unit": "u09-past",
+  "title": "Doing, done, did",
+  "status": "draft",
+  "tip": "No new words: this lesson sorts out three look-alike forms of **করা**. Watch the middle of the word:\n\n- **করছি** (-ছ-): I **am doing**, right now\n- **করেছি** (-এছ-): I **have done**, just finished or still relevant\n- **করলাম** (-ল-): I **did**, a finished event\n\nTime words help: **এখন** 'now' → করছি; **মাত্র** 'just' → করেছি; **গতকাল** 'yesterday' → করলাম.\n\nThe person endings stay the same in every tense, present → past:\n\n- তুই: করিস → **করলি**\n- তুমি: করো → **করলে**\n- আপনি / তিনি: করেন → **করলেন**\n- সে / তারা: করে → **করল**\n\n**তাই** 'so' and **কারণ** 'because' come back too: **আমি মাত্র খেয়েছি, তাই এখন খেতে পারি না**.",
+  "vocab": [],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "করছি",
+        "tr": "korchhi",
+        "en": "I am doing"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "I have done",
+        "I am doing",
+        "I did",
+        "I do"
+      ],
+      "answer": 1,
+      "why": "-ছ- marks 'right now': করছি 'I am doing'."
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "করেছি",
+        "tr": "korechhi",
+        "en": "I have done"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "you did (familiar)",
+        "I am doing",
+        "I do",
+        "I have done"
+      ],
+      "answer": 3,
+      "why": "-এছ- marks the perfect: করেছি 'I have done'."
+    },
+    {
+      "id": "e03",
+      "type": "listen_select",
+      "audio": {
+        "bn": "করলাম",
+        "tr": "korlam",
+        "en": "I did"
+      },
+      "options": [
+        "করছি",
+        "করেছি",
+        "করলাম",
+        "করলে"
+      ],
+      "answer": 2,
+      "why": "-ল- marks the simple past: করলাম 'I did'."
+    },
+    {
+      "id": "e04",
+      "type": "listen_select",
+      "audio": {
+        "bn": "করলেন",
+        "tr": "korlen",
+        "en": "you did (polite)"
+      },
+      "options": [
+        "করলেন",
+        "করেন",
+        "করলে",
+        "করছেন"
+      ],
+      "answer": 0,
+      "why": "আপনি adds -েন in every tense: করেন, করলেন."
+    },
+    {
+      "id": "e05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "করি",
+          "tr": "kori",
+          "en": "I do"
+        },
+        {
+          "bn": "করলাম",
+          "tr": "korlam",
+          "en": "I did"
+        },
+        {
+          "bn": "করো",
+          "tr": "koro",
+          "en": "you do (familiar)"
+        },
+        {
+          "bn": "করলে",
+          "tr": "korle",
+          "en": "you did (familiar)"
+        },
+        {
+          "bn": "করছো",
+          "tr": "korchho",
+          "en": "you are doing (familiar)"
+        }
+      ]
+    },
+    {
+      "id": "e06",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "করেন",
+          "tr": "koren",
+          "en": "you do (polite)"
+        },
+        {
+          "bn": "করলেন",
+          "tr": "korlen",
+          "en": "you did (polite)"
+        },
+        {
+          "bn": "করে",
+          "tr": "kore",
+          "en": "does"
+        },
+        {
+          "bn": "করল",
+          "tr": "korlo",
+          "en": "did"
+        },
+        {
+          "bn": "করলি",
+          "tr": "korli",
+          "en": "you did (intimate)"
+        }
+      ]
+    },
+    {
+      "id": "e07",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আমি মাত্র রান্না করেছি।",
+        "tr": "ami matro ranna korechhi.",
+        "en": "I have just cooked."
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "I am cooking now.",
+        "I have just cooked.",
+        "I cooked yesterday.",
+        "I cook every day."
+      ],
+      "answer": 1,
+      "why": "মাত্র 'just' + the perfect -এছি = 'have just …'."
+    },
+    {
+      "id": "e08",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "সে গতকাল রান্না করল।",
+        "tr": "she gotokal ranna korlo.",
+        "en": "She cooked yesterday."
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "She cooks every day.",
+        "She is cooking.",
+        "I cooked yesterday.",
+        "She cooked yesterday."
+      ],
+      "answer": 3,
+      "why": "সে takes plain -ল in the past: করল. আমি would be করলাম."
+    },
+    {
+      "id": "e09",
+      "type": "listen_select",
+      "audio": {
+        "bn": "আমি এখন রান্না করছি।",
+        "tr": "ami ekhon ranna korchhi.",
+        "en": "I am cooking now."
+      },
+      "options": [
+        "আমি মাত্র রান্না করেছি।",
+        "আমি গতকাল রান্না করলাম।",
+        "আমি এখন রান্না করছি।",
+        "সে এখন রান্না করছে।"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e10",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমি মাত্র খেয়েছি, তাই এখন খেতে পারি না।",
+        "tr": "ami matro kheyechhi, tai ekhon khete pari na.",
+        "en": "I have just eaten, so I can't eat now."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "I",
+        "have",
+        "just",
+        "eaten",
+        "so",
+        "I",
+        "can't",
+        "eat",
+        "now",
+        "because",
+        "can"
+      ],
+      "answer": [
+        "I",
+        "have",
+        "just",
+        "eaten",
+        "so",
+        "I",
+        "can't",
+        "eat",
+        "now"
+      ],
+      "alt": [
+        [
+          "I",
+          "have",
+          "just",
+          "eaten",
+          "so",
+          "now",
+          "I",
+          "can't",
+          "eat"
+        ]
+      ],
+      "why": "তাই 'so' introduces the result."
+    },
+    {
+      "id": "e11",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আপনি গতকাল কী করলেন?",
+        "tr": "apni gotokal ki korlen?",
+        "en": "What did you do yesterday? (polite)"
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "আপনি",
+        "গতকাল",
+        "কী",
+        "করলেন",
+        "করলে",
+        "করেন",
+        "তুমি"
+      ],
+      "answer": [
+        "আপনি",
+        "গতকাল",
+        "কী",
+        "করলেন"
+      ],
+      "alt": [
+        [
+          "গতকাল",
+          "আপনি",
+          "কী",
+          "করলেন"
+        ]
+      ],
+      "why": "আপনি in the past takes -লেন: করলেন."
+    },
+    {
+      "id": "e12",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "তুই গতকাল কী করলি?",
+        "tr": "tui gotokal ki korli?",
+        "en": "What did you do yesterday? (intimate)"
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "তুই",
+        "গতকাল",
+        "কী",
+        "করলি",
+        "করিস",
+        "করলে",
+        "তুমি"
+      ],
+      "answer": [
+        "তুই",
+        "গতকাল",
+        "কী",
+        "করলি"
+      ],
+      "alt": [
+        [
+          "গতকাল",
+          "তুই",
+          "কী",
+          "করলি"
+        ]
+      ],
+      "why": "তুই in the past takes -লি: করলি."
+    },
+    {
+      "id": "e13",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "তুমি এখন কী করছো?",
+        "tr": "tumi ekhon ki korchho?",
+        "en": "What are you doing now? (familiar)"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "তুমি এখন কী করো?",
+        "তুমি এখন কী করলে?",
+        "আপনি এখন কী করছেন?",
+        "তুমি এখন কী করছো?"
+      ],
+      "answer": 3,
+      "why": "Right now = -ছ-; with তুমি that's করছো."
+    },
+    {
+      "id": "e14",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "এখন না, কারণ আমি কাজ করছি।",
+        "tr": "ekhon na, karon ami kaj korchhi.",
+        "en": "Not now, because I'm working."
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "এখন না, কারণ আমি কাজ করছি।",
+        "এখন না, কারণ কাজ করছি।",
+        "ekhon na, karon ami kaj korchhi",
+        "ekhon na karon ami kaj korchhi",
+        "ekhon na karon kaj korchhi",
+        "ekhon na karon ami kaj korchi",
+        "ekhon na karon kaj korchi"
+      ],
+      "why": "কারণ 'because' comes before the reason; -ছি = right now."
+    },
+    {
+      "id": "e15",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "তুমি গতকাল কী করলে?",
+        "tr": "tumi gotokal ki korle?",
+        "en": "What did you do yesterday?"
+      },
+      "direction": "bn_to_en",
+      "accepted": [
+        "What did you do yesterday?",
+        "Yesterday what did you do?",
+        "What did you do yesterday"
+      ]
+    }
+  ]
+}

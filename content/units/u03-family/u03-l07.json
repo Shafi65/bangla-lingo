@@ -1,340 +1,350 @@
 {
   "id": "u03-l07",
   "unit": "u03-family",
-  "title": "Review: my family",
+  "title": "Review: the family map",
   "status": "draft",
-  "tip": "Last new words: **স্বামী** (*shami*, husband) and **স্ত্রী** (*stri*, wife). In everyday speech many people say **বউ** (*bou*) for 'wife'; it also means 'bride'.\n\nQuick recap of the family map:\n\n- **Father's side:** দাদা / দাদি · চাচা / চাচি · ফুফু / ফুফা\n- **Mother's side:** নানা / নানি · মামা / মামি · খালা / খালু\n- **ছেলে / মেয়ে** = son / daughter as well as boy / girl\n\nIn Bangladesh **দাদা** is your *grandfather*; a friend from Kolkata saying *dada* means an elder brother.\n\nHandy extras: **কিন্তু** 'but' (**আমার ভাই আছে, কিন্তু বোন নেই।**), **X মানে কী?** 'What does X mean?', and **সবাই কেমন আছে?** 'How is everyone?'",
-  "vocab": [
-    {
-      "id": "shami",
-      "bn": "স্বামী",
-      "tr": "shami",
-      "en": "husband",
-      "notes": "The ব-fola after স is silent."
-    },
-    {
-      "id": "stri",
-      "bn": "স্ত্রী",
-      "tr": "stri",
-      "en": "wife",
-      "notes": "Neutral/formal. Colloquially বউ."
-    },
-    {
-      "id": "bou",
-      "bn": "বউ",
-      "tr": "bou",
-      "en": "wife",
-      "notes": "Colloquial 'wife'; also 'bride' and 'daughter-in-law'. Also spelled বৌ."
-    },
-    {
-      "id": "kintu",
-      "bn": "কিন্তু",
-      "tr": "kintu",
-      "en": "but"
-    },
-    {
-      "id": "shobai",
-      "bn": "সবাই",
-      "tr": "shobai",
-      "en": "everyone"
-    },
-    {
-      "id": "mane",
-      "bn": "মানে",
-      "tr": "mane",
-      "en": "meaning",
-      "notes": "X মানে কী? = \"What does X mean?\". Also a filler: মানে… \"I mean…\"."
-    }
-  ],
+  "tip": "Review 1 of 2: the family map. No new words.\n\n- **Father's side** (বাবার): দাদা / দাদি · চাচা / চাচি · ফুফু / ফুফা\n- **Mother's side** (মায়ের): নানা / নানি · মামা / মামি · খালা / খালু\n- **Elder / younger:** বড় / ছোট; call elder siblings **ভাইয়া** and **আপু**\n- **His / her:** তার (from সে), ওর (from ও), **ওনার** (polite, from উনি); **তোর** = your (intimate)\n\nIn Bangladesh **দাদা** is your *grandfather*; a friend from Kolkata saying *dada* means an elder brother.",
+  "vocab": [],
   "exercises": [
     {
       "id": "e01",
       "type": "select_translation",
       "prompt": {
-        "bn": "স্বামী",
-        "tr": "shami",
-        "en": "husband"
+        "bn": "চাচা আমার বাবার ভাই।",
+        "tr": "chacha amar babar bhai.",
+        "en": "Chacha is my father's brother."
       },
       "direction": "bn_to_en",
       "options": [
-        "wife",
-        "husband",
-        "brother",
-        "father"
+        "Chacha is my father's brother.",
+        "Chacha is my mother's brother.",
+        "Chacha is my father's sister.",
+        "Chacha is my brother."
       ],
-      "answer": 1
+      "answer": 0,
+      "why": "**বাবার** = father's. চাচা is on your father's side; your mother's brother is মামা."
     },
     {
       "id": "e02",
       "type": "select_translation",
       "prompt": {
-        "bn": "বউ",
-        "tr": "bou",
-        "en": "wife"
+        "bn": "খালা আমার মায়ের বোন।",
+        "tr": "khala amar mayer bon.",
+        "en": "Khala is my mother's sister."
       },
       "direction": "bn_to_en",
       "options": [
-        "husband",
-        "child",
-        "wife",
-        "girl"
+        "Khala is my father's sister.",
+        "Khala is my mother's sister.",
+        "Khala is my mother's brother.",
+        "Khala is my sister."
+      ],
+      "answer": 1,
+      "why": "**মায়ের** = mother's. খালা is your mother's sister; your father's sister is ফুফু."
+    },
+    {
+      "id": "e03",
+      "type": "listen_select",
+      "audio": {
+        "bn": "আমার বড় ভাই ডাক্তার।",
+        "tr": "amar boro bhai daktar.",
+        "en": "My elder brother is a doctor."
+      },
+      "options": [
+        "আমার ছোট ভাই ডাক্তার।",
+        "আমার বড় বোন ডাক্তার।",
+        "আমার বড় ভাই ডাক্তার।",
+        "আমার বাবা ডাক্তার।"
       ],
       "answer": 2
     },
     {
-      "id": "e03",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "কিন্তু",
-        "tr": "kintu",
-        "en": "but"
+      "id": "e04",
+      "type": "listen_select",
+      "audio": {
+        "bn": "নানা আর নানি ভালো আছেন।",
+        "tr": "nana ar nani bhalo achhen.",
+        "en": "Grandpa and Grandma are well."
       },
-      "direction": "bn_to_en",
       "options": [
-        "and",
-        "OK",
-        "no",
-        "but"
+        "দাদা আর দাদি ভালো আছেন।",
+        "নানা আর নানি এখানে নেই।",
+        "মামা আর মামি ভালো আছেন।",
+        "নানা আর নানি ভালো আছেন।"
       ],
       "answer": 3
-    },
-    {
-      "id": "e04",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "সবাই",
-        "tr": "shobai",
-        "en": "everyone"
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "everyone",
-        "we",
-        "they",
-        "very"
-      ],
-      "answer": 0
     },
     {
       "id": "e05",
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "স্বামী",
-          "tr": "shami",
-          "en": "husband"
+          "bn": "মা",
+          "tr": "ma",
+          "en": "mother"
         },
         {
-          "bn": "স্ত্রী",
-          "tr": "stri",
-          "en": "wife"
+          "bn": "বাবা",
+          "tr": "baba",
+          "en": "father"
         },
         {
-          "bn": "কিন্তু",
-          "tr": "kintu",
-          "en": "but"
+          "bn": "ভাই",
+          "tr": "bhai",
+          "en": "brother"
         },
         {
-          "bn": "সবাই",
-          "tr": "shobai",
-          "en": "everyone"
+          "bn": "বোন",
+          "tr": "bon",
+          "en": "sister"
         },
         {
-          "bn": "মানে",
-          "tr": "mane",
-          "en": "meaning"
+          "bn": "পরিবার",
+          "tr": "poribar",
+          "en": "family"
         }
       ]
     },
     {
       "id": "e06",
-      "type": "listen_select",
-      "audio": {
-        "bn": "স্ত্রী",
-        "tr": "stri",
-        "en": "wife"
-      },
-      "options": [
-        "স্বামী",
-        "সবাই",
-        "স্ত্রী",
-        "শিক্ষক"
-      ],
-      "answer": 2
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "দাদা",
+          "tr": "dada",
+          "en": "grandfather (father's father)"
+        },
+        {
+          "bn": "দাদি",
+          "tr": "dadi",
+          "en": "grandmother (father's mother)"
+        },
+        {
+          "bn": "চাচি",
+          "tr": "chachi",
+          "en": "aunt (chacha's wife)"
+        },
+        {
+          "bn": "ফুফু",
+          "tr": "fufu",
+          "en": "aunt (father's sister)"
+        },
+        {
+          "bn": "ফুফা",
+          "tr": "fufa",
+          "en": "uncle (fufu's husband)"
+        }
+      ]
     },
     {
       "id": "e07",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "মামা, আপনি কেমন আছেন?",
-        "tr": "mama, apni kemon achhen?",
-        "en": "Uncle, how are you? (to your mother's brother)"
-      },
-      "direction": "en_to_bn",
-      "options": [
-        "চাচা, আপনি কেমন আছেন?",
-        "মামি, আপনি কেমন আছেন?",
-        "মামা, আপনি কেমন আছেন?",
-        "খালু, আপনি কেমন আছেন?"
-      ],
-      "answer": 2
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "নানা",
+          "tr": "nana",
+          "en": "grandfather (mother's father)"
+        },
+        {
+          "bn": "মামা",
+          "tr": "mama",
+          "en": "uncle (mother's brother)"
+        },
+        {
+          "bn": "মামি",
+          "tr": "mami",
+          "en": "aunt (mama's wife)"
+        },
+        {
+          "bn": "খালা",
+          "tr": "khala",
+          "en": "aunt (mother's sister)"
+        },
+        {
+          "bn": "খালু",
+          "tr": "khalu",
+          "en": "uncle (khala's husband)"
+        }
+      ]
     },
     {
       "id": "e08",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "আপনার কয়জন বাচ্চা আছে?",
-        "tr": "apnar koyjon bachcha achhe?",
-        "en": "How many children do you have? (polite)"
-      },
-      "direction": "en_to_bn",
-      "options": [
-        "আমার কয়জন বাচ্চা আছে?",
-        "আপনার কি বাচ্চা আছে?",
-        "আপনার দুইজন বাচ্চা আছে।",
-        "আপনার কয়জন বাচ্চা আছে?"
-      ],
-      "answer": 3
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "বড়",
+          "tr": "boro",
+          "en": "big"
+        },
+        {
+          "bn": "ছোট",
+          "tr": "chhoto",
+          "en": "small"
+        },
+        {
+          "bn": "ভাইয়া",
+          "tr": "bhaiya",
+          "en": "elder brother"
+        },
+        {
+          "bn": "আপু",
+          "tr": "apu",
+          "en": "elder sister"
+        },
+        {
+          "bn": "তোর",
+          "tr": "tor",
+          "en": "your (intimate)"
+        }
+      ]
     },
     {
       "id": "e09",
       "type": "select_translation",
       "prompt": {
-        "bn": "উনি আমার স্ত্রী।",
-        "tr": "uni amar stri.",
-        "en": "She is my wife."
+        "bn": "মামা, আপনি কেমন আছেন?",
+        "tr": "mama, apni kemon achhen?",
+        "en": "Uncle (your mother's brother), how are you?"
       },
       "direction": "en_to_bn",
       "options": [
-        "উনি আমার স্বামী।",
-        "উনি আমার মেয়ে।",
-        "উনি আমার স্ত্রী।",
-        "উনি আমার বোন।"
+        "চাচা, আপনি কেমন আছেন?",
+        "খালু, আপনি কেমন আছেন?",
+        "মামা, আপনি কেমন আছেন?",
+        "ফুফা, আপনি কেমন আছেন?"
       ],
-      "answer": 2
+      "answer": 2,
+      "why": "Your mother's brother is **মামা**; চাচা is your father's brother, খালু and ফুফা are uncles by marriage."
     },
     {
       "id": "e10",
-      "type": "word_bank",
+      "type": "select_translation",
       "prompt": {
-        "bn": "আমার ভাই আছে, কিন্তু বোন নেই।",
-        "tr": "amar bhai achhe, kintu bon nei.",
-        "en": "I have a brother, but no sister."
+        "bn": "ওনার নাম কী?",
+        "tr": "onar nam ki?",
+        "en": "What is his name? (polite: about an older man)"
       },
       "direction": "en_to_bn",
-      "tiles": [
-        "আমার",
-        "ভাই",
-        "আছে",
-        "কিন্তু",
-        "বোন",
-        "নেই",
-        "না",
-        "আমি"
+      "options": [
+        "ওর নাম কী?",
+        "তোর নাম কী?",
+        "তার নাম কী?",
+        "ওনার নাম কী?"
       ],
-      "answer": [
-        "আমার",
-        "ভাই",
-        "আছে",
-        "কিন্তু",
-        "বোন",
-        "নেই"
-      ]
+      "answer": 3,
+      "why": "**ওনার** is the polite 'his/her' (from উনি); ওর and তার are ordinary, তোর means 'your (intimate)'."
     },
     {
       "id": "e11",
       "type": "word_bank",
       "prompt": {
-        "bn": "আমার একটা ছেলে আর একটা মেয়ে আছে।",
-        "tr": "amar ekta chhele ar ekta meye achhe.",
-        "en": "I have a son and a daughter."
+        "bn": "রাফি আমার ছোট ভাই।",
+        "tr": "rafi amar chhoto bhai.",
+        "en": "Rafi is my younger brother."
       },
       "direction": "en_to_bn",
       "tiles": [
+        "রাফি",
         "আমার",
-        "একটা",
-        "ছেলে",
-        "আর",
-        "একটা",
-        "মেয়ে",
-        "আছে",
-        "কিন্তু",
-        "নেই",
+        "ছোট",
+        "বড়",
+        "ভাই",
+        "বোন",
         "আমি"
       ],
       "answer": [
+        "রাফি",
         "আমার",
-        "একটা",
-        "ছেলে",
-        "আর",
-        "একটা",
-        "মেয়ে",
-        "আছে"
-      ]
+        "ছোট",
+        "ভাই"
+      ],
+      "why": "Younger = **ছোট** ('small'); elder = বড় ('big')."
     },
     {
       "id": "e12",
       "type": "word_bank",
       "prompt": {
-        "bn": "বউ মানে স্ত্রী।",
-        "tr": "bou mane stri.",
-        "en": "\"Bou\" means wife."
+        "bn": "ওর নাম নাদিয়া।",
+        "tr": "or nam nadiya.",
+        "en": "Her name is Nadia."
       },
       "direction": "bn_to_en",
       "tiles": [
-        "Bou",
-        "means",
-        "wife",
-        "husband",
+        "Her",
+        "His",
         "name",
-        "is"
+        "is",
+        "Nadia",
+        "my",
+        "your"
       ],
       "answer": [
-        "Bou",
-        "means",
-        "wife"
+        "Her",
+        "name",
+        "is",
+        "Nadia"
+      ],
+      "alt": [
+        [
+          "His",
+          "name",
+          "is",
+          "Nadia"
+        ]
       ]
     },
     {
       "id": "e13",
       "type": "word_bank",
       "prompt": {
-        "bn": "উনি আমার স্বামী।",
-        "tr": "uni amar shami.",
-        "en": "He is my husband."
+        "bn": "আমার আব্বু শিক্ষক আর আম্মু ডাক্তার।",
+        "tr": "amar abbu shikkhok ar ammu daktar.",
+        "en": "My dad is a teacher and my mom is a doctor."
       },
       "direction": "bn_to_en",
       "tiles": [
-        "He",
+        "My",
+        "dad",
         "is",
+        "a",
+        "teacher",
+        "and",
         "my",
-        "husband",
-        "wife",
-        "your"
+        "mom",
+        "is",
+        "a",
+        "doctor",
+        "but",
+        "sister"
       ],
       "answer": [
-        "He",
+        "My",
+        "dad",
         "is",
+        "a",
+        "teacher",
+        "and",
         "my",
-        "husband"
+        "mom",
+        "is",
+        "a",
+        "doctor"
       ]
     },
     {
       "id": "e14",
       "type": "type_translation",
       "prompt": {
-        "bn": "সবাই কেমন আছে?",
-        "tr": "shobai kemon achhe?",
-        "en": "How is everyone?"
+        "bn": "তার নাম রাফি।",
+        "tr": "tar nam rafi.",
+        "en": "His name is Rafi."
       },
       "direction": "bn_to_en",
       "accepted": [
-        "How is everyone?",
-        "How's everyone?",
-        "How is everybody?",
-        "How's everybody?",
-        "How is everyone doing?",
-        "How's everyone doing?"
+        "His name is Rafi.",
+        "Her name is Rafi.",
+        "He is called Rafi.",
+        "His name's Rafi."
       ]
     },
     {
@@ -359,7 +369,8 @@
         "fupa ekhane nei",
         "phupha ekhane nei",
         "phupa ekhane nei"
-      ]
+      ],
+      "why": "Your father's sister is ফুফু, so her husband is **ফুফা**; absence is **নেই**."
     }
   ]
 }

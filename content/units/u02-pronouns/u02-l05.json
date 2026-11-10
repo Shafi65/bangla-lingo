@@ -3,7 +3,7 @@
   "unit": "u02-pronouns",
   "title": "Where are you from?",
   "status": "draft",
-  "tip": "**আপনি কোথা থেকে এসেছেন?** (*apni kotha theke eshechhen?*), literally 'You from where have come?', is how you ask 'Where are you from?'. Answer: **আমি আমেরিকা থেকে এসেছি** 'I have come from America.'\n\n- **থেকে** 'from' comes **after** the place: বাংলাদেশ থেকে. Bengali has *post*positions, not prepositions.\n- **কোথায়** 'where' shortens to **কোথা** before থেকে.\n\nLearn **এসেছি / এসেছেন** as chunks for now; the past tense comes in Unit 9.\n\nCulture: a common icebreaker is **আপনার দেশ কোথায়?** ('Where is your home?'). It often means which district your family is from, even if you live in Dhaka.",
+  "tip": "**আপনি কোথা থেকে এসেছেন?** (*apni kotha theke eshechhen?*), literally 'You from where have come?', is how you ask 'Where are you from?'. Answer: **আমি আমেরিকা থেকে এসেছি** 'I have come from America.'\n\n- **থেকে** 'from' comes **after** the place: বাংলাদেশ থেকে. Bengali has *post*positions, not prepositions.\n- **কোথায়** 'where' shortens to **কোথা** before থেকে.\n- **বাংলাদেশ** is the country; **বাংলাদেশি** is the nationality: আমি বাংলাদেশি 'I'm Bangladeshi'.\n\nLearn **এসেছি / এসেছেন** as chunks for now; the past tense comes in Unit 9.\n\nCulture: a common icebreaker is **আপনার দেশ কোথায়?** ('Where is your home?'). It often means which district your family is from, even if you live in Dhaka.",
   "vocab": [
     {
       "id": "kothay",
@@ -55,6 +55,12 @@
       "bn": "আমেরিকা",
       "tr": "amerika",
       "en": "America"
+    },
+    {
+      "id": "bangladeshi",
+      "bn": "বাংলাদেশি",
+      "tr": "bangladeshi",
+      "en": "Bangladeshi"
     }
   ],
   "exercises": [
@@ -145,6 +151,23 @@
     },
     {
       "id": "e06",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "বাংলাদেশি",
+        "tr": "bangladeshi",
+        "en": "Bangladeshi"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "Bangladesh",
+        "Bangladeshi",
+        "country",
+        "Bengali (language)"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e07",
       "type": "match_pairs",
       "pairs": [
         {
@@ -175,7 +198,7 @@
       ]
     },
     {
-      "id": "e07",
+      "id": "e08",
       "type": "listen_select",
       "audio": {
         "bn": "কোথায়",
@@ -191,7 +214,7 @@
       "answer": 0
     },
     {
-      "id": "e08",
+      "id": "e09",
       "type": "select_translation",
       "prompt": {
         "bn": "আপনি কোথা থেকে এসেছেন?",
@@ -208,7 +231,25 @@
       "answer": 2
     },
     {
-      "id": "e09",
+      "id": "e10",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আপনি কি বাংলাদেশি?",
+        "tr": "apni ki bangladeshi?",
+        "en": "Are you Bangladeshi? (polite)"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "আপনি কি বাংলাদেশ?",
+        "আপনি কোথা থেকে এসেছেন?",
+        "তুমি কি বাংলাদেশি?",
+        "আপনি কি বাংলাদেশি?"
+      ],
+      "answer": 3,
+      "why": "**বাংলাদেশ** is the country; the nationality adds -ি: **বাংলাদেশি**."
+    },
+    {
+      "id": "e11",
       "type": "word_bank",
       "prompt": {
         "bn": "আমি আমেরিকা থেকে এসেছি।",
@@ -233,7 +274,7 @@
       ]
     },
     {
-      "id": "e10",
+      "id": "e12",
       "type": "word_bank",
       "prompt": {
         "bn": "আমি বাংলাদেশ থেকে এসেছি।",
@@ -257,7 +298,7 @@
       ]
     },
     {
-      "id": "e11",
+      "id": "e13",
       "type": "word_bank",
       "prompt": {
         "bn": "রাফি কোথায়?",
@@ -278,32 +319,7 @@
       ]
     },
     {
-      "id": "e12",
-      "type": "word_bank",
-      "prompt": {
-        "bn": "ডাক্তার কোথায়?",
-        "tr": "daktar kothay?",
-        "en": "Where is the doctor?"
-      },
-      "direction": "bn_to_en",
-      "tiles": [
-        "Where",
-        "is",
-        "the",
-        "doctor",
-        "from",
-        "here",
-        "friend"
-      ],
-      "answer": [
-        "Where",
-        "is",
-        "the",
-        "doctor"
-      ]
-    },
-    {
-      "id": "e13",
+      "id": "e14",
       "type": "word_bank",
       "prompt": {
         "bn": "তোমার বন্ধু কোথায়?",
@@ -326,7 +342,7 @@
       ]
     },
     {
-      "id": "e14",
+      "id": "e15",
       "type": "type_translation",
       "prompt": {
         "bn": "আমার দেশ বাংলাদেশ।",

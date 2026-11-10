@@ -3,7 +3,7 @@
   "unit": "u01-basics",
   "title": "I and you",
   "status": "draft",
-  "tip": "Bengali has more than one 'you'. Use **আপনি** (*apni*) with elders, strangers, teachers and anyone you want to show respect to. Use **তুমি** (*tumi*) with friends, younger people and partners. When unsure, use আপনি. (A third, very intimate **তুই** comes in Unit 2.)\n\nThere is no 'am / is / are' in simple present sentences and no 'a / the': **আমি ছাত্র** (*ami chhatro*) = 'I (am a) student'. Student has a male form **ছাত্র** and a female form **ছাত্রী** (*chhatri*); **শিক্ষক** (*shikkhok*) is 'teacher' for anyone.\n\nSneak peek at the alphabet: the letter quizzes are আ as in আমি, and ম as in আমি and তুমি.",
+  "tip": "Bengali has more than one 'you'. Use **আপনি** (*apni*) with elders, strangers, teachers and anyone you want to show respect to. Use **তুমি** (*tumi*) with friends, younger people and partners. When unsure, use আপনি. (A third, very intimate **তুই** comes in Unit 2.)\n\nThere is no 'am / is / are' in simple present sentences and no 'a / the': **আমি ছাত্র** (*ami chhatro*) = 'I (am a) student'. Student has a male form **ছাত্র** and a female form **ছাত্রী** (*chhatri*); **শিক্ষক** (*shikkhok*) is 'teacher' for anyone.",
   "vocab": [
     {
       "id": "ami",
@@ -131,15 +131,19 @@
     },
     {
       "id": "e05",
-      "type": "script_recognize",
-      "glyph": "আ",
+      "type": "listen_select",
+      "audio": {
+        "bn": "আমি",
+        "tr": "ami",
+        "en": "I"
+      },
       "options": [
-        "o",
-        "a",
-        "i",
-        "u"
+        "আপনি",
+        "তুমি",
+        "আমি",
+        "ছাত্র"
       ],
-      "answer": 1
+      "answer": 2
     },
     {
       "id": "e06",
@@ -175,15 +179,19 @@
     },
     {
       "id": "e08",
-      "type": "script_recognize",
-      "glyph": "ম",
+      "type": "listen_select",
+      "audio": {
+        "bn": "তুমি",
+        "tr": "tumi",
+        "en": "you (familiar)"
+      },
       "options": [
-        "n",
-        "bh",
-        "m",
-        "t"
+        "আপনি",
+        "তুমি",
+        "আমি",
+        "শিক্ষক"
       ],
-      "answer": 2
+      "answer": 1
     },
     {
       "id": "e09",

@@ -1,32 +1,25 @@
 {
   "id": "u08-l09",
   "unit": "u08-daily-routine",
-  "title": "Review: a day in my life",
+  "title": "Review: my routine",
   "status": "draft",
-  "tip": "You can now describe a whole day:\n\n**আমি সাধারণত সকাল সাতটায় উঠি। তারপর গোসল করি আর নাস্তা করি। নাস্তার পরে অফিসে যাই। কাজের পরে বাসায় আসি, রান্না করি, তারপর ঘুমাই।**\n\n**সাধারণত** (*shadharonoto*) = 'usually'. Like the other frequency words, it goes early: **আপনি সাধারণত কয়টায় ঘুমান?** 'What time do you usually go to bed?'\n\nQuick checklist:\n\n- Endings: আমি **-ি**, তুমি **-ো**, আপনি **-েন**, সে **-ে** (করি, করো, করেন, করে).\n- Vowel-raising pairs: শুনি / শোনে, লিখি / লেখে, উঠি / ওঠেন.\n- Right now: **-ছি**, **-ছো**, **-ছেন**, **-ছে** (করছি, করছো…).\n- Clock times: **দশটা বাজে** 'it's ten', but **দশটায়** 'at ten'.",
-  "vocab": [
-    {
-      "id": "shadharonoto",
-      "bn": "সাধারণত",
-      "tr": "shadharonoto",
-      "en": "usually"
-    }
-  ],
+  "tip": "No new words: this review mixes Lessons 1–4b.\n\n- **Person endings**: আমি **করি**, তুই **করিস**, তুমি **করো**, আপনি **করেন**, সে **করে**.\n- **Raising pairs**: শুনি / শোনে, লিখি / লেখে, উঠি / ওঠেন. **No change**: দেখি / দেখে, পড়ি / পড়ে.\n- **Clock times**: **দশটা বাজে** 'it's ten', but **দশটায়** 'at ten'. Ask **কয়টায়?** for a time, **কখন?** for 'when'.\n- **Destinations** take **-এ**: **অফিসে যাই**, **স্কুলে যায়**, **বাসায় আসি**.\n\nWords from earlier units come back too: **রিকশায়**, **বাসে**, **নাস্তা**.",
+  "vocab": [],
   "exercises": [
     {
       "id": "e01",
       "type": "select_translation",
       "prompt": {
-        "bn": "সাধারণত",
-        "tr": "shadharonoto",
-        "en": "usually"
+        "bn": "আসলে আমার কাজ খুব কঠিন।",
+        "tr": "ashole amar kaj khub kothin.",
+        "en": "Actually, my work is very hard."
       },
       "direction": "bn_to_en",
       "options": [
-        "always",
-        "sometimes",
-        "usually",
-        "every day"
+        "Actually, my work is very easy.",
+        "Really, my work is very good.",
+        "Actually, my work is very hard.",
+        "Actually, I don't work."
       ],
       "answer": 2
     },
@@ -34,43 +27,128 @@
       "id": "e02",
       "type": "listen_select",
       "audio": {
-        "bn": "সাধারণত",
-        "tr": "shadharonoto",
-        "en": "usually"
+        "bn": "সত্যি",
+        "tr": "shotti",
+        "en": "really"
       },
       "options": [
-        "সবসময়",
+        "সত্যি",
+        "সাতটায়",
         "সাধারণত",
-        "প্রতিদিন",
-        "মাঝে মাঝে"
+        "আসলে"
       ],
-      "answer": 1
+      "answer": 0
     },
     {
       "id": "e03",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "আপনি সাধারণত কয়টায় ওঠেন?",
-        "tr": "apni shadharonoto koytay othen?",
-        "en": "What time do you usually get up? (polite)"
-      },
-      "direction": "en_to_bn",
-      "options": [
-        "আপনি সাধারণত কয়টায় উঠি?",
-        "আপনি সাধারণত কয়টা ওঠেন?",
-        "তুমি সাধারণত কয়টায় ওঠেন?",
-        "আপনি সাধারণত কয়টায় ওঠেন?"
-      ],
-      "answer": 3
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "করি",
+          "tr": "kori",
+          "en": "I do"
+        },
+        {
+          "bn": "করিস",
+          "tr": "korish",
+          "en": "you do (intimate)"
+        },
+        {
+          "bn": "করো",
+          "tr": "koro",
+          "en": "you do (familiar)"
+        },
+        {
+          "bn": "করেন",
+          "tr": "koren",
+          "en": "you do (polite)"
+        },
+        {
+          "bn": "করে",
+          "tr": "kore",
+          "en": "does"
+        }
+      ]
     },
     {
       "id": "e04",
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "সাধারণত",
-          "tr": "shadharonoto",
-          "en": "usually"
+          "bn": "উঠি",
+          "tr": "uthi",
+          "en": "I get up"
+        },
+        {
+          "bn": "ওঠেন",
+          "tr": "othen",
+          "en": "you get up (polite)"
+        },
+        {
+          "bn": "ঘুমাই",
+          "tr": "ghumai",
+          "en": "I sleep"
+        },
+        {
+          "bn": "ঘুমান",
+          "tr": "ghuman",
+          "en": "you sleep (polite)"
+        },
+        {
+          "bn": "ঘুম",
+          "tr": "ghum",
+          "en": "sleep"
+        }
+      ]
+    },
+    {
+      "id": "e05",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আমার ছোট বোন রিকশায় স্কুলে যায়।",
+        "tr": "amar chhoto bon rikshay skule jay.",
+        "en": "My younger sister goes to school by rickshaw."
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "My younger sister goes to school by bus.",
+        "My younger sister goes to school by rickshaw.",
+        "My younger sister comes to school by rickshaw.",
+        "My elder sister goes to school by rickshaw."
+      ],
+      "answer": 1,
+      "why": "যায় = 'goes' (সে form); আসে would be 'comes'."
+    },
+    {
+      "id": "e06",
+      "type": "listen_select",
+      "audio": {
+        "bn": "দশটায়",
+        "tr": "doshtay",
+        "en": "at ten o'clock"
+      },
+      "options": [
+        "দশটা",
+        "আটটায়",
+        "দশটায়",
+        "সাতটায়"
+      ],
+      "answer": 2,
+      "why": "-টায় means 'at': দশটায় 'at ten'. দশটা বাজে is 'it's ten'."
+    },
+    {
+      "id": "e07",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "সাতটায়",
+          "tr": "shattay",
+          "en": "at seven o'clock"
+        },
+        {
+          "bn": "আটটায়",
+          "tr": "attay",
+          "en": "at eight o'clock"
         },
         {
           "bn": "কয়টায়",
@@ -78,348 +156,263 @@
           "en": "at what time"
         },
         {
-          "bn": "তারপর",
-          "tr": "tarpor",
-          "en": "then"
+          "bn": "কখন",
+          "tr": "kokhon",
+          "en": "when"
         },
         {
-          "bn": "মাঝে মাঝে",
-          "tr": "majhe majhe",
-          "en": "sometimes"
-        },
-        {
-          "bn": "শোনে",
-          "tr": "shone",
-          "en": "listens"
+          "bn": "অফিস",
+          "tr": "ofis",
+          "en": "office"
         }
       ]
     },
     {
-      "id": "e05",
-      "type": "word_bank",
-      "prompt": {
-        "bn": "আমি সাধারণত সকাল সাতটায় উঠি।",
-        "tr": "ami shadharonoto shokal shattay uthi.",
-        "en": "I usually get up at seven in the morning."
-      },
-      "direction": "en_to_bn",
-      "tiles": [
-        "ওঠেন",
-        "আমি",
-        "রাত",
-        "সাতটায়",
-        "সাধারণত",
-        "উঠি",
-        "সকাল",
-        "সবসময়"
-      ],
-      "answer": [
-        "আমি",
-        "সাধারণত",
-        "সকাল",
-        "সাতটায়",
-        "উঠি"
-      ],
-      "alt": [
-        [
-          "সাধারণত",
-          "আমি",
-          "সকাল",
-          "সাতটায়",
-          "উঠি"
-        ],
-        [
-          "সাধারণত",
-          "সকাল",
-          "সাতটায়",
-          "উঠি"
-        ]
-      ]
-    },
-    {
-      "id": "e06",
-      "type": "word_bank",
-      "prompt": {
-        "bn": "তুমি এখন কী করছো?",
-        "tr": "tumi ekhon ki korchho?",
-        "en": "What are you doing now? (familiar)"
-      },
-      "direction": "en_to_bn",
-      "tiles": [
-        "করো",
-        "তুমি",
-        "করছেন",
-        "এখন",
-        "আপনি",
-        "কী",
-        "করছো"
-      ],
-      "answer": [
-        "তুমি",
-        "এখন",
-        "কী",
-        "করছো"
-      ],
-      "alt": [
-        [
-          "এখন",
-          "তুমি",
-          "কী",
-          "করছো"
-        ],
-        [
-          "এখন",
-          "কী",
-          "করছো"
-        ]
-      ]
-    },
-    {
-      "id": "e07",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "সে সবসময় গান শোনে।",
-        "tr": "she shobshomoy gan shone.",
-        "en": "She always listens to music."
-      },
-      "direction": "en_to_bn",
-      "options": [
-        "সে সবসময় গান শুনি।",
-        "সে সবসময় গান শোনে।",
-        "সে মাঝে মাঝে গান শোনে।",
-        "সে সবসময় গান দেখে।"
-      ],
-      "answer": 1
-    },
-    {
       "id": "e08",
-      "type": "word_bank",
-      "prompt": {
-        "bn": "কাজের পরে আমি বাসায় আসি, তারপর রান্না করি।",
-        "tr": "kajer pore ami bashay ashi, tarpor ranna kori.",
-        "en": "After work I come home, then I cook."
-      },
-      "direction": "bn_to_en",
-      "tiles": [
-        "eat",
-        "After",
-        "I",
-        "work",
-        "go",
-        "come",
-        "home",
-        "then",
-        "I",
-        "before",
-        "cook"
-      ],
-      "answer": [
-        "After",
-        "work",
-        "I",
-        "come",
-        "home",
-        "then",
-        "I",
-        "cook"
-      ],
-      "alt": [
-        [
-          "After",
-          "work",
-          "I",
-          "come",
-          "home",
-          "then",
-          "cook"
-        ]
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "স্কুল",
+          "tr": "skul",
+          "en": "school"
+        },
+        {
+          "bn": "যাও",
+          "tr": "jao",
+          "en": "you go (familiar)"
+        },
+        {
+          "bn": "যায়",
+          "tr": "jay",
+          "en": "goes"
+        },
+        {
+          "bn": "আসি",
+          "tr": "ashi",
+          "en": "I come"
+        },
+        {
+          "bn": "আসে",
+          "tr": "ashe",
+          "en": "comes"
+        }
       ]
     },
     {
       "id": "e09",
-      "type": "word_bank",
-      "prompt": {
-        "bn": "আমি কখনো টিভি দেখি না।",
-        "tr": "ami kokhono tibhi dekhi na.",
-        "en": "I never watch TV."
-      },
-      "direction": "en_to_bn",
-      "tiles": [
-        "দেখে",
-        "আমি",
-        "সবসময়",
-        "টিভি",
-        "না",
-        "কখনো",
-        "দেখি"
-      ],
-      "answer": [
-        "আমি",
-        "কখনো",
-        "টিভি",
-        "দেখি",
-        "না"
-      ],
-      "alt": [
-        [
-          "কখনো",
-          "টিভি",
-          "দেখি",
-          "না"
-        ]
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "পড়ে",
+          "tr": "pore",
+          "en": "reads"
+        },
+        {
+          "bn": "দেখে",
+          "tr": "dekhe",
+          "en": "watches"
+        },
+        {
+          "bn": "শুনি",
+          "tr": "shuni",
+          "en": "I listen"
+        },
+        {
+          "bn": "লেখে",
+          "tr": "lekhe",
+          "en": "writes"
+        },
+        {
+          "bn": "বলেন",
+          "tr": "bolen",
+          "en": "you speak (polite)"
+        }
       ]
     },
     {
       "id": "e10",
-      "type": "type_translation",
+      "type": "word_bank",
       "prompt": {
-        "bn": "আপনি সাধারণত কখন অফিসে যান?",
-        "tr": "apni shadharonoto kokhon ofise jan?",
-        "en": "When do you usually go to the office?"
+        "bn": "আমি সাধারণত রাতে বই পড়ি।",
+        "tr": "ami shadharonoto rate boi pori.",
+        "en": "I usually read books at night."
       },
       "direction": "bn_to_en",
-      "accepted": [
-        "When do you usually go to the office?",
-        "When do you usually go to work?",
-        "What time do you usually go to the office?",
-        "What time do you usually go to work?",
-        "When do you normally go to the office?",
-        "When do you normally go to work?",
-        "When do you generally go to the office?",
-        "When do you generally go to work?",
-        "Usually when do you go to the office?"
+      "tiles": [
+        "I",
+        "usually",
+        "read",
+        "books",
+        "at",
+        "night",
+        "write",
+        "morning",
+        "always"
+      ],
+      "answer": [
+        "I",
+        "usually",
+        "read",
+        "books",
+        "at",
+        "night"
+      ],
+      "alt": [
+        [
+          "at",
+          "night",
+          "I",
+          "usually",
+          "read",
+          "books"
+        ]
       ]
     },
     {
       "id": "e11",
       "type": "word_bank",
       "prompt": {
-        "bn": "আপনি সাধারণত কয়টায় ঘুমান?",
-        "tr": "apni shadharonoto koytay ghuman?",
-        "en": "What time do you usually go to bed? (polite)"
+        "bn": "আমি বাসে অফিসে যাই।",
+        "tr": "ami base ofise jai.",
+        "en": "I go to the office by bus."
       },
       "direction": "en_to_bn",
       "tiles": [
-        "কয়টা",
-        "আপনি",
-        "ঘুমাই",
-        "সাধারণত",
-        "তুমি",
-        "ঘুমান",
-        "কয়টায়"
-      ],
-      "answer": [
-        "আপনি",
-        "সাধারণত",
-        "কয়টায়",
-        "ঘুমান"
-      ],
-      "alt": [
-        [
-          "সাধারণত",
-          "কয়টায়",
-          "ঘুমান"
-        ]
-      ]
-    },
-    {
-      "id": "e12",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "আমি বাংলা পড়ি আর লিখি।",
-        "tr": "ami bangla pori ar likhi.",
-        "en": "I read and write Bengali."
-      },
-      "direction": "en_to_bn",
-      "options": [
-        "আমি বাংলা পড়ে আর লেখে।",
-        "সে বাংলা পড়ি আর লিখি।",
-        "আমি বাংলা পড়ি আর লিখি।",
-        "আমি বাংলা পড়ি আর বলি।"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "e13",
-      "type": "type_translation",
-      "prompt": {
-        "bn": "সে প্রতিদিন স্কুলে যায়।",
-        "tr": "she protidin skule jay.",
-        "en": "She goes to school every day."
-      },
-      "direction": "en_to_bn",
-      "accepted": [
-        "সে প্রতিদিন স্কুলে যায়।",
-        "প্রতিদিন সে স্কুলে যায়।",
-        "she protidin skule jay",
-        "protidin she skule jay",
-        "se protidin skule jay",
-        "protidin se skule jay",
-        "she protidin skule jae",
-        "se protidin skule jae"
-      ]
-    },
-    {
-      "id": "e14",
-      "type": "word_bank",
-      "prompt": {
-        "bn": "আমি আটটায় উঠি, তারপর অফিসে যাই।",
-        "tr": "ami attay uthi, tarpor ofise jai.",
-        "en": "I get up at eight, then I go to the office."
-      },
-      "direction": "en_to_bn",
-      "tiles": [
+        "আমি",
+        "বাসে",
+        "অফিসে",
+        "যাই",
         "যায়",
-        "আমি",
-        "দশটায়",
-        "উঠি",
-        "তারপর",
-        "অফিসে",
-        "আটটায়",
-        "যাই"
+        "অফিস",
+        "বাস"
       ],
       "answer": [
         "আমি",
-        "আটটায়",
-        "উঠি",
-        "তারপর",
+        "বাসে",
         "অফিসে",
         "যাই"
       ],
       "alt": [
         [
-          "আটটায়",
-          "উঠি",
-          "তারপর",
+          "আমি",
+          "অফিসে",
+          "বাসে",
+          "যাই"
+        ],
+        [
+          "বাসে",
           "অফিসে",
           "যাই"
         ],
         [
-          "আটটায়",
-          "আমি",
-          "উঠি",
-          "তারপর",
           "অফিসে",
+          "বাসে",
           "যাই"
         ]
+      ],
+      "why": "Destinations take -এ: অফিসে 'to the office'. আমি goes with যাই."
+    },
+    {
+      "id": "e12",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমি সকালে গোসল করি, তারপর নাস্তা করি।",
+        "tr": "ami shokale gosol kori, tarpor nashta kori.",
+        "en": "I bathe in the morning, then I have breakfast."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "আমি",
+        "সকালে",
+        "গোসল",
+        "করি",
+        "তারপর",
+        "নাস্তা",
+        "করি",
+        "করে",
+        "রাতে"
+      ],
+      "answer": [
+        "আমি",
+        "সকালে",
+        "গোসল",
+        "করি",
+        "তারপর",
+        "নাস্তা",
+        "করি"
+      ],
+      "alt": [
+        [
+          "সকালে",
+          "আমি",
+          "গোসল",
+          "করি",
+          "তারপর",
+          "নাস্তা",
+          "করি"
+        ],
+        [
+          "সকালে",
+          "গোসল",
+          "করি",
+          "তারপর",
+          "নাস্তা",
+          "করি"
+        ]
+      ],
+      "why": "Both verbs are আমি forms: করি."
+    },
+    {
+      "id": "e13",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আপনি কয়টায় ঘুম থেকে ওঠেন?",
+        "tr": "apni koytay ghum theke othen?",
+        "en": "What time do you wake up? (polite)"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "আপনি কয়টায় ঘুম থেকে উঠি?",
+        "আপনি কয়টা ঘুম থেকে ওঠেন?",
+        "আপনি কয়টায় ঘুমান?",
+        "আপনি কয়টায় ঘুম থেকে ওঠেন?"
+      ],
+      "answer": 3,
+      "why": "আপনি takes -েন, and ওঠা keeps its o: ওঠেন (but আমি উঠি)."
+    },
+    {
+      "id": "e14",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "সে গান শোনে আর আমি টিভি দেখি।",
+        "tr": "she gan shone ar ami tibhi dekhi.",
+        "en": "She listens to music and I watch TV."
+      },
+      "direction": "bn_to_en",
+      "accepted": [
+        "She listens to music and I watch TV.",
+        "He listens to music and I watch TV.",
+        "She listens to songs and I watch TV.",
+        "He listens to songs and I watch TV.",
+        "She listens to music and I watch television.",
+        "He listens to music and I watch television."
       ]
     },
     {
       "id": "e15",
-      "type": "select_translation",
+      "type": "type_translation",
       "prompt": {
-        "bn": "তুমি কি সাধারণত সকালে গোসল করো?",
-        "tr": "tumi ki shadharonoto shokale gosol koro?",
-        "en": "Do you usually bathe in the morning?"
+        "bn": "আমি বাংলা বলি আর লিখি।",
+        "tr": "ami bangla boli ar likhi.",
+        "en": "I speak and write Bengali."
       },
-      "direction": "bn_to_en",
-      "options": [
-        "Do you usually bathe in the morning?",
-        "Do you always bathe in the morning?",
-        "Do you usually bathe at night?",
-        "Do you usually sleep in the morning?"
-      ],
-      "answer": 0
+      "direction": "en_to_bn",
+      "accepted": [
+        "আমি বাংলা বলি আর লিখি।",
+        "বাংলা বলি আর লিখি।",
+        "ami bangla boli ar likhi",
+        "bangla boli ar likhi"
+      ]
     }
   ]
 }

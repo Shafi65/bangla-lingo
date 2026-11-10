@@ -16,7 +16,8 @@
         "ider",
         "shemai",
         "shalami",
-        "notun"
+        "notun",
+        "chhuti"
       ],
       "review": [
         "amra",
@@ -28,9 +29,10 @@
         "ami",
         "jama",
         "kinbo",
-        "khub"
+        "khub",
+        "amader"
       ],
-      "tip": "Bangladesh celebrates two Eids: *Eid-ul-Fitr*, at the end of Ramadan, and *Eid-ul-Adha*, the festival of sacrifice, about two months later. They follow the Islamic lunar calendar, so their dates move about 11 days earlier each year. The greeting for both is **ঈদ মোবারক!**, and the reply is the same.\n\nOn Eid morning people go to the Eid prayer (**ঈদের নামাজ**), wear **নতুন** (new) clothes and visit relatives. At Eid-ul-Fitr almost every home serves **সেমাই** (sweet milky vermicelli); at Eid-ul-Adha, families who can afford it sacrifice an animal and share the meat. Children greet elders with *salam* and get **সালামি** (Eid money): **আপু, সালামি দাও!** 'Apu, give me Eid money!'\n\nEndings: *-e* = 'at', *-er* = 'of':\n\n- **ঈদে আমরা গ্রামে যাই** — 'At Eid we go to the village'\n- **ঈদের দিন সকালে** — 'on the morning of Eid day'\n\nAt Eid millions leave Dhaka for their home villages.",
+      "tip": "Bangladesh celebrates two Eids: *Eid-ul-Fitr*, at the end of Ramadan, and *Eid-ul-Adha*, the festival of sacrifice, about two months later. Their dates follow the lunar calendar and move about 11 days earlier each year. Greet with **ঈদ মোবারক!**; the reply is the same.\n\nOn Eid morning people go to the Eid prayer (**ঈদের নামাজ**), wear **নতুন** (new) clothes and visit relatives. At Eid-ul-Fitr almost every home serves **সেমাই** (sweet milky vermicelli); at Eid-ul-Adha, families who can afford it sacrifice an animal and share the meat. Children greet elders with *salam* and get **সালামি** (Eid money): **আপু, সালামি দাও!** 'Apu, give me Eid money!'\n\nEndings: *-e* = 'at', *-er* = 'of':\n\n- **ঈদে আমরা গ্রামে যাই** — 'At Eid we go to the village'\n- **ঈদের দিন সকালে** — 'on the morning of Eid day'\n\nEid is a public holiday (**ছুটি**), and millions leave Dhaka for their home villages.",
       "sentences": [
         {
           "bn": "ঈদ মোবারক।",
@@ -54,6 +56,15 @@
           "en": "At Eid we go to the village.",
           "alt": [
             "We go to our village for Eid."
+          ]
+        },
+        {
+          "bn": "ঈদে আমাদের ছুটি।",
+          "tr": "ide amader chhuti.",
+          "en": "We have a holiday at Eid.",
+          "alt": [
+            "At Eid we have a holiday.",
+            "There is a holiday at Eid."
           ]
         },
         {
@@ -394,13 +405,13 @@
         "ekushe-februari",
         "shohid",
         "shohid-minar",
+        "shohid-minare",
         "bhasha",
         "matribhasha",
         "dibosh",
         "dibose",
         "bijoy-dibosh",
-        "shadhinota",
-        "chhuti"
+        "shadhinota"
       ],
       "review": [
         "shokale",
@@ -410,9 +421,10 @@
         "amader",
         "amar",
         "aj",
-        "kothay"
+        "kothay",
+        "chhuti"
       ],
-      "tip": "On **21 February 1952**, police in Dhaka opened fire on students and others demanding that **বাংলা** be a state language of Pakistan (which then included today's Bangladesh). Several were killed. Every year on **একুশে ফেব্রুয়ারি**, also called **শহীদ দিবস** (Martyrs' Day), people walk barefoot to the **শহীদ মিনার** from midnight on to lay flowers, singing *Amar bhaiyer rokte rangano Ekushe February* ('the 21st of February, reddened with my brother's blood'). Since 2000 the world also marks it as UNESCO's **International Mother Language Day** (**মাতৃভাষা** = mother tongue).\n\nTwo more national days mark the 1971 Liberation War. Both are public holidays (**ছুটি**):\n\n- **স্বাধীনতা দিবস**: Independence Day, **26 March**\n- **বিজয় দিবস**: Victory Day, **16 December**\n\n**দিবস** is the formal word for a named 'Day'; everyday 'day' is **দিন**. 'On' takes **-e**: **স্বাধীনতা দিবসে ছুটি** 'Independence Day is a holiday' (lit. 'on Independence Day, holiday').",
+      "tip": "On **21 February 1952**, police in Dhaka opened fire on students and others demanding that **বাংলা** be a state language of Pakistan (which then included today's Bangladesh). Several were killed. Every year on **একুশে ফেব্রুয়ারি**, also called **শহীদ দিবস** (Martyrs' Day), people walk barefoot to the **শহীদ মিনার** from midnight on to lay flowers, singing *Amar bhaiyer rokte rangano Ekushe February* ('the 21st of February, reddened with my brother's blood'). Since 2000 the world also marks it as UNESCO's **International Mother Language Day** (**মাতৃভাষা** = mother tongue).\n\nTwo more national days mark the 1971 Liberation War. Both are public holidays (**ছুটি**):\n\n- **স্বাধীনতা দিবস**: Independence Day, **26 March**\n- **বিজয় দিবস**: Victory Day, **16 December**\n\n**দিবস** is the formal word for a named 'Day'; everyday 'day' is **দিন**. 'On' and 'to' take **-e**: **স্বাধীনতা দিবসে ছুটি** 'Independence Day is a holiday', **আমরা শহীদ মিনারে যাই** 'we go to the Shaheed Minar'.",
       "sentences": [
         {
           "bn": "একুশে ফেব্রুয়ারি শহীদ দিবস।",
@@ -423,8 +435,8 @@
           ]
         },
         {
-          "bn": "সকালে আমরা শহীদ মিনার যাই।",
-          "tr": "shokale amra shohid minar jai.",
+          "bn": "সকালে আমরা শহীদ মিনারে যাই।",
+          "tr": "shokale amra shohid minare jai.",
           "en": "In the morning we go to the Shaheed Minar."
         },
         {
@@ -482,24 +494,23 @@
     {
       "id": "u10-l06",
       "title": "Invitations & guests",
-      "goal": "Invite people, welcome guests and give gifts.",
+      "goal": "Invite people politely and look after guests.",
       "grammar": [
         "future as polite request: আমাদের বাসায় আসবেন 'please come to our home'",
-        "আপনাকে 'you' (object); X-এর জন্য / আপনার জন্য 'for X / for you'",
-        "শুভ জন্মদিন"
+        "আপনাকে 'you' (object)",
+        "যদি 'if' + present: যদি সময় হয়",
+        "যখন … 'when …' (not a question)"
       ],
       "new": [
         "dawat",
         "apnake",
         "mehman",
-        "upohar",
-        "jonno",
-        "jonmodin",
-        "shubhechchha",
         "ashben",
         "ashbe",
         "pitha",
-        "khaben"
+        "khaben",
+        "jodi",
+        "hoy"
       ],
       "review": [
         "amader",
@@ -507,13 +518,15 @@
         "dilam",
         "aj",
         "eshechhe",
-        "ei",
-        "apnar",
-        "shubho",
-        "amar",
-        "tumi"
+        "tumi",
+        "shomoy",
+        "cha",
+        "jokhon",
+        "kheyechhi",
+        "dhonnobad",
+        "ashe"
       ],
-      "tip": "Bengali invitations use the **future** as a gentle request: **আমাদের বাসায় আসবেন** is literally 'You will come to our home', and it means 'Please do come!' For a more formal invitation, say **আপনাকে দাওয়াত দিলাম** 'I'm inviting you' (literally 'I gave you an invitation'). With a friend you'd use **তুমি**: **তুমি কি আসবে?** 'Will you come?'\n\nA **মেহমান** (guest) is treated with great honour. Expect tea, sweets and **পিঠা** (rice cakes, especially in winter), and expect to be asked **খাবেন?** 'Will you have some?' more than once. A first 'no' is often heard as politeness, so it's gracious to accept a little. Bringing a small **উপহার** (gift), such as sweets or fruit, is a nice touch.\n\n**জন্য** 'for' comes *after* the word, which takes the possessive *-r / -er* ending: **এই উপহার আপনার জন্য** 'This gift is for you'.\n\nWishes: **শুভ জন্মদিন** 'Happy birthday', **ঈদের শুভেচ্ছা** 'Eid greetings' (common in messages and cards).\n\n**Kolkata:** **নেমন্তন্ন** (*nemontonno*) 'invitation', **অতিথি** (*otithi*) 'guest'.",
+      "tip": "Bengali invitations use the **future** as a gentle request: **আমাদের বাসায় আসবেন** is literally 'You will come to our home', and it means 'Please do come!' More formally: **আপনাকে দাওয়াত দিলাম** 'I'm inviting you' (lit. 'I gave you an invitation'). To a friend: **তুমি কি আসবে?** 'Will you come?'\n\nSoften it with **যদি** 'if' + the present: **যদি সময় হয়, আমাদের বাসায় আসবেন** 'If you have time, please come'.\n\nA **মেহমান** (guest) is treated with great honour. Expect tea, sweets and **পিঠা** (rice cakes), and expect **খাবেন?** 'Will you have some?' more than once. A first 'no' is often heard as politeness, so accept a little.\n\n**Kolkata:** **নেমন্তন্ন** 'invitation', **অতিথি** 'guest'.",
       "sentences": [
         {
           "bn": "আমাদের বাসায় আসবেন।",
@@ -548,10 +561,84 @@
           ]
         },
         {
-          "bn": "এই উপহার আপনার জন্য।",
-          "tr": "ei upohar apnar jonno.",
-          "en": "This gift is for you."
+          "bn": "তুমি কি আসবে?",
+          "tr": "tumi ki ashbe?",
+          "en": "Will you come?"
         },
+        {
+          "bn": "পিঠা খাবেন?",
+          "tr": "pitha khaben?",
+          "en": "Would you like some pitha?",
+          "alt": [
+            "Will you have some pitha?"
+          ]
+        },
+        {
+          "bn": "যদি সময় হয়, আমাদের বাসায় আসবেন।",
+          "tr": "jodi shomoy hoy, amader bashay ashben.",
+          "en": "If you have time, please come to our home.",
+          "alt": [
+            "If there is time, please come to our place."
+          ]
+        },
+        {
+          "bn": "যখন মেহমান আসে, আমরা চা আর পিঠা খাই।",
+          "tr": "jokhon mehman ashe, amra cha ar pitha khai.",
+          "en": "When guests come, we have tea and pitha.",
+          "alt": [
+            "When guests come, we eat tea and pitha."
+          ]
+        },
+        {
+          "bn": "ধন্যবাদ, আমি খেয়েছি।",
+          "tr": "dhonnobad, ami kheyechhi.",
+          "en": "Thank you, I have eaten.",
+          "alt": [
+            "Thanks, I've already eaten."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u10-l06b",
+      "title": "Wishes & gifts",
+      "goal": "Wish people well, give a gift and talk about a crowd.",
+      "grammar": [
+        "শুভ + occasion: শুভ জন্মদিন",
+        "X-এর জন্য / আপনার জন্য 'for X / for you'",
+        "সবাইকে 'everyone' (object)",
+        "কারণ 'because' recap"
+      ],
+      "new": [
+        "upohar",
+        "jonno",
+        "jonmodin",
+        "shubhechchha",
+        "shobaike",
+        "lok"
+      ],
+      "review": [
+        "shubho",
+        "ider",
+        "amar",
+        "apnar",
+        "tomar",
+        "ei",
+        "aj",
+        "onek",
+        "melay",
+        "shundor",
+        "notun",
+        "kinlam",
+        "karon",
+        "amader",
+        "bashay",
+        "dhonnobad",
+        "boi",
+        "jama"
+      ],
+      "tip": "Wishes start with **শুভ** 'happy, auspicious': **শুভ জন্মদিন** 'Happy birthday', like **শুভ নববর্ষ**. Festival messages and cards often say **ঈদের শুভেচ্ছা** 'Eid greetings'; to a whole group, **সবাইকে ঈদের শুভেচ্ছা** 'Eid greetings to everyone'. **সবাইকে** is the object form of **সবাই**.\n\n**জন্য** 'for' comes *after* the word, which takes the possessive *-r / -er*: **আপনার জন্য** 'for you', **তোমার জন্য** 'for you (familiar)'. So: **এই উপহার আপনার জন্য** 'This gift is for you'.\n\nA small **উপহার** (gift), such as sweets or fruit, is a nice touch when you visit.\n\n**লোক** is the everyday word for 'people': **মেলায় অনেক লোক** 'There are lots of people at the fair'.",
+      "sentences": [
         {
           "bn": "শুভ জন্মদিন।",
           "tr": "shubho jonmodin.",
@@ -566,17 +653,14 @@
           ]
         },
         {
-          "bn": "তুমি কি আসবে?",
-          "tr": "tumi ki ashbe?",
-          "en": "Will you come?"
+          "bn": "এই উপহার আপনার জন্য।",
+          "tr": "ei upohar apnar jonno.",
+          "en": "This gift is for you."
         },
         {
-          "bn": "পিঠা খাবেন?",
-          "tr": "pitha khaben?",
-          "en": "Would you like some pitha?",
-          "alt": [
-            "Will you have some pitha?"
-          ]
+          "bn": "এই উপহার তোমার জন্য, কারণ আজ তোমার জন্মদিন।",
+          "tr": "ei upohar tomar jonno, karon aj tomar jonmodin.",
+          "en": "This gift is for you, because today is your birthday."
         },
         {
           "bn": "ঈদের শুভেচ্ছা।",
@@ -584,6 +668,43 @@
           "en": "Eid greetings.",
           "alt": [
             "Happy Eid."
+          ]
+        },
+        {
+          "bn": "সবাইকে ঈদের শুভেচ্ছা।",
+          "tr": "shobaike ider shubhechchha.",
+          "en": "Eid greetings to everyone.",
+          "alt": [
+            "Happy Eid, everyone."
+          ]
+        },
+        {
+          "bn": "আমি তোমার জন্য একটা নতুন বই কিনলাম।",
+          "tr": "ami tomar jonno ekta notun boi kinlam.",
+          "en": "I bought a new book for you."
+        },
+        {
+          "bn": "আজ আমাদের বাসায় অনেক লোক।",
+          "tr": "aj amader bashay onek lok.",
+          "en": "There are a lot of people at our home today.",
+          "alt": [
+            "Lots of people are at our house today."
+          ]
+        },
+        {
+          "bn": "মেলায় অনেক লোক।",
+          "tr": "melay onek lok.",
+          "en": "There are a lot of people at the fair.",
+          "alt": [
+            "The fair is very crowded."
+          ]
+        },
+        {
+          "bn": "উপহার খুব সুন্দর, ধন্যবাদ।",
+          "tr": "upohar khub shundor, dhonnobad.",
+          "en": "The gift is very beautiful, thank you.",
+          "alt": [
+            "The present is lovely, thanks."
           ]
         }
       ]
@@ -681,33 +802,112 @@
     {
       "id": "u10-l08",
       "title": "Review: festivals & friends",
-      "goal": "Greet, invite and celebrate across the year.",
+      "kind": "review",
+      "goal": "Greet, invite and celebrate across the year, choosing the right register.",
       "grammar": [
-        "review: festival greetings, invitations, চল/চলো/চলেন, register choice",
-        "যদি 'if' + present: যদি সময় হয়"
+        "review: festival greetings, -এ for 'at / on / to', invitations with the future, চল/চলো/চলেন, register choice"
       ],
-      "new": [
-        "shobaike",
-        "jodi",
-        "hoy",
-        "lok"
-      ],
+      "new": [],
       "review": [
+        "id-mubarak",
+        "ide",
         "ider",
-        "shubhechchha",
+        "shemai",
+        "shalami",
+        "notun",
+        "chhuti",
+        "romjane",
+        "roja",
+        "rakhi",
+        "iftar",
+        "iftare",
+        "khejur",
+        "sehri",
+        "pohela-boishakh",
+        "shubho",
+        "noboborsho",
         "shubho-noboborsho",
-        "bhaiya",
-        "amader",
-        "bashay",
+        "panta-bhat",
+        "mela",
+        "melay",
+        "alpona",
+        "shundor",
+        "pujay",
+        "durgapuja",
+        "utshob",
+        "protima",
+        "mondire",
+        "bijoya",
+        "ekushe-februari",
+        "shohid",
+        "shohid-minare",
+        "bhasha",
+        "matribhasha",
+        "dibosh",
+        "bijoy-dibosh",
+        "shadhinota",
+        "dawat",
+        "mehman",
         "ashben",
         "pitha",
         "khaben",
-        "aj",
-        "shomoy",
-        "melay"
+        "jodi",
+        "hoy",
+        "upohar",
+        "jonmodin",
+        "shubhechchha",
+        "shobaike",
+        "lok",
+        "cholo",
+        "cholen",
+        "chol",
+        "dost",
+        "ashbi",
+        "nach",
+        "hobe",
+        "grame",
+        "cha",
+        "bashay",
+        "shomoy"
       ],
-      "tip": "Match the greeting to the occasion:\n\n- Eid — **ঈদ মোবারক** (in messages also **ঈদের শুভেচ্ছা**)\n- Pohela Boishakh — **শুভ নববর্ষ**\n- after Durga Puja — **শুভ বিজয়া**\n- a birthday — **শুভ জন্মদিন**\n- to a whole group — **সবাইকে ঈদের শুভেচ্ছা** 'Eid greetings to everyone'\n\nAnd match the register to the person: **চলেন** with your teacher, **চলো** with a classmate, **চল** with your best friend. When in doubt, go one level *more* polite.\n\n**যদি** 'if' + present tense: **যদি সময় হয়** 'if there's time' (literally 'if time happens'). Put it in front of an invitation to make it soft and easy to decline: **যদি সময় হয়, আমাদের বাসায় আসবেন** 'If you have time, please come to our home.'\n\n**লোক** is the everyday word for 'people': **মেলায় অনেক লোক** 'There are lots of people at the fair.'",
+      "tip": "No new words: this review mixes the whole unit.\n\nMatch the greeting to the occasion:\n\n- Eid: **ঈদ মোবারক** (in messages also **ঈদের শুভেচ্ছা**)\n- Pohela Boishakh: **শুভ নববর্ষ**\n- after Durga Puja: **শুভ বিজয়া**\n- a birthday: **শুভ জন্মদিন**\n\nMatch the register to the person: **চলেন** with your teacher, **চলো** with a classmate, **চল** with your best friend. The future follows the same levels: **আসবেন** · **আসবে** · **আসবি**. When in doubt, go one level *more* polite.\n\nPlaces and days take **-e**: **ঈদে**, **পূজায়**, **রমজানে**, **মেলায়**, **মন্দিরে**, **শহীদ মিনারে**.",
       "sentences": [
+        {
+          "bn": "রমজানে আমরা রোজা রাখি, আর ইফতারে খেজুর খাই।",
+          "tr": "romjane amra roja rakhi, ar iftare khejur khai.",
+          "en": "In Ramadan we fast, and at iftar we eat dates.",
+          "alt": [
+            "During Ramadan we fast and eat dates at iftar."
+          ]
+        },
+        {
+          "bn": "পূজায় আমরা মন্দিরে যাই, আর ঈদে আমরা গ্রামে যাই।",
+          "tr": "pujay amra mondire jai, ar ide amra grame jai.",
+          "en": "At Puja we go to the temple, and at Eid we go to the village."
+        },
+        {
+          "bn": "একুশে ফেব্রুয়ারি আমরা শহীদ মিনারে যাই।",
+          "tr": "ekushe februari amra shohid minare jai.",
+          "en": "On 21 February we go to the Shaheed Minar."
+        },
+        {
+          "bn": "আজ পহেলা বৈশাখ, চলো মেলায় যাই।",
+          "tr": "aj pohela boishakh, cholo melay jai.",
+          "en": "Today is Pohela Boishakh, let's go to the fair."
+        },
+        {
+          "bn": "যদি সময় হয়, আমাদের বাসায় আসবেন, পিঠা খাবেন।",
+          "tr": "jodi shomoy hoy, amader bashay ashben, pitha khaben.",
+          "en": "If you have time, please come to our home and have some pitha."
+        },
+        {
+          "bn": "দোস্ত, তুই কি আসবি?",
+          "tr": "dost, tui ki ashbi?",
+          "en": "Buddy, will you come?",
+          "alt": [
+            "Mate, are you coming?"
+          ]
+        },
         {
           "bn": "সবাইকে ঈদের শুভেচ্ছা।",
           "tr": "shobaike ider shubhechchha.",
@@ -717,63 +917,21 @@
           ]
         },
         {
-          "bn": "শুভ নববর্ষ, ভাইয়া।",
-          "tr": "shubho noboborsho, bhaiya.",
-          "en": "Happy New Year, bhaiya.",
+          "bn": "আজ নাচ আর গান হবে।",
+          "tr": "aj nach ar gan hobe.",
+          "en": "There will be dancing and singing today."
+        },
+        {
+          "bn": "শুভ নববর্ষ, আপু।",
+          "tr": "shubho noboborsho, apu.",
+          "en": "Happy New Year, Apu."
+        },
+        {
+          "bn": "চলেন, চা খাই।",
+          "tr": "cholen, cha khai.",
+          "en": "Let's have tea.",
           "alt": [
-            "Happy New Year, brother."
-          ]
-        },
-        {
-          "bn": "আমাদের বাসায় আসবেন, পিঠা খাবেন।",
-          "tr": "amader bashay ashben, pitha khaben.",
-          "en": "Please come to our home and have some pitha."
-        },
-        {
-          "bn": "আজ পহেলা বৈশাখ, চলো মেলায় যাই।",
-          "tr": "aj pohela boishakh, cholo melay jai.",
-          "en": "Today is Pohela Boishakh, let's go to the fair."
-        },
-        {
-          "bn": "দোস্ত, চল ইফতার করি।",
-          "tr": "dost, chol iftar kori.",
-          "en": "Buddy, let's have iftar.",
-          "alt": [
-            "Mate, let's break the fast together."
-          ]
-        },
-        {
-          "bn": "একুশে ফেব্রুয়ারি আমরা শহীদ মিনার যাই।",
-          "tr": "ekushe februari amra shohid minar jai.",
-          "en": "On 21 February we go to the Shaheed Minar."
-        },
-        {
-          "bn": "শুভ জন্মদিন, বন্ধু।",
-          "tr": "shubho jonmodin, bondhu.",
-          "en": "Happy birthday, friend.",
-          "alt": [
-            "Happy birthday, my friend."
-          ]
-        },
-        {
-          "bn": "এই উপহার তোমার জন্য।",
-          "tr": "ei upohar tomar jonno.",
-          "en": "This gift is for you."
-        },
-        {
-          "bn": "যদি সময় হয়, আমাদের বাসায় আসবেন।",
-          "tr": "jodi shomoy hoy, amader bashay ashben.",
-          "en": "If you have time, please come to our home.",
-          "alt": [
-            "If there is time, please come to our place."
-          ]
-        },
-        {
-          "bn": "মেলায় অনেক লোক।",
-          "tr": "melay onek lok.",
-          "en": "There are a lot of people at the fair.",
-          "alt": [
-            "The fair is very crowded."
+            "Shall we have some tea?"
           ]
         }
       ]

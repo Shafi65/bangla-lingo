@@ -151,22 +151,45 @@
     },
     {
       "id": "s02-l06",
-      "title": "Consonants 6: য র ল শ ষ স হ",
-      "goal": "Read the semivowels, the three sh-letters, and হ.",
+      "title": "Consonants 6: য র ল",
+      "goal": "Read the semivowels য র ল and tell র from ব.",
       "grammar": [
         "য says j (same as জ); র is a tapped r",
-        "শ, ষ, স are all usually 'sh'; স is 's' before t/n/r/l (স্টেশন steshon)",
         "র = ব + dot below; don't confuse with ব"
       ],
       "new": [
         "l-ya",
         "l-ra",
         "l-la",
+        "lal"
+      ],
+      "review": [
+        "l-ba",
+        "l-dha",
+        "l-tha",
+        "bhalo"
+      ],
+      "tip": "Three more letters: **য র ল**.\n\n**র vs ব**: র (`ro`) is ব with a **dot below**. Bengali r is a quick tap of the tongue, as in Spanish *pero*: রাত (`rat`, night). Never curl it like English r.\n\n**য** sounds exactly like জ (`j`): যাব (`jabo`, I'll go). Only the spelling differs, so learn which j a word uses.\n\n**ল** is a clear l, as in *love*: লাল (`lal`, red), লবণ (`lobon`, salt).\n\nLook-alike drill: **ব র ধ থ য**. ব = triangle; র = triangle + dot; ধ = open top-left; থ = bottom loop.",
+      "sentences": [],
+      "preview": [
+        "jabo",
+        "rat",
+        "lobon"
+      ]
+    },
+    {
+      "id": "s02-l06b",
+      "title": "Consonants 6b: শ ষ স হ",
+      "goal": "Read the three sh-letters and হ.",
+      "grammar": [
+        "শ, ষ, স are all usually 'sh'; স is 's' before t/n/r/l (স্টেশন steshon)",
+        "হ = h"
+      ],
+      "new": [
         "l-sha",
         "l-ssa",
         "l-sa",
         "l-ha",
-        "lal",
         "hat"
       ],
       "review": [
@@ -174,60 +197,77 @@
         "desh",
         "manush",
         "hya",
-        "l-ba"
+        "l-la",
+        "l-ra"
       ],
-      "tip": "This lesson collects the rest of the chart: **য র ল** (semivowels), **শ ষ স** (sibilants) and **হ**.\n\n**র vs ব**: র (`ro`) is ব with a **dot below**. Bengali r is a quick tap of the tongue, as in Spanish *pero*: রাত (`rat`, night). **য** sounds exactly like জ (`j`): যাব (`jabo`, I'll go).\n\n**Three letters, one sound.** শ, ষ and স are normally all `sh`: শিক্ষক (`shikkhok`), সকাল (`shokal`, morning). স switches to a real `s` in clusters before t, n, r, l (স্টেশন `steshon`). Learn which one a word uses as part of its spelling.\n\nLook-alike drill: **ব র ধ থ য**. ব = triangle; র = triangle + dot; ধ = open top-left; থ = bottom loop.",
+      "tip": "**Three letters, one sound.** শ, ষ and স are normally all `sh`: শিক্ষক (`shikkhok`), মানুষ (`manush`), সকাল (`shokal`, morning). স becomes a real `s` in clusters before t, n, r, l (স্টেশন `steshon`).\n\nYou can't hear which one a word uses, so learn it as part of the spelling. Shape tips: **শ** is the common one; **ষ** has a slash through its middle and rarely starts a word; **স** has an open curl.\n\n**হ** is a plain h: হাত (`hat`, hand), হ্যাঁ (`hya~`, yes).",
       "sentences": [],
       "preview": [
-        "jabo",
-        "rat",
-        "lobon",
         "shokal"
       ]
     },
     {
       "id": "s02-l07",
-      "title": "Consonants 7: ড় ঢ় য় ৎ ং ঃ ঁ",
-      "goal": "Read the dotted letters and the four special signs at the end of the chart.",
+      "title": "Consonants 7: ড় ঢ় য়",
+      "goal": "Read the three dotted letters and tell them from their dotless partners.",
       "grammar": [
-        "A dot below changes the sound: ড → ড় (flapped r), ঢ → ঢ় (flapped rh), য → য় (y)",
-        "ৎ (khondo to) is a t with no vowel after it",
-        "ং = ng, ঃ = a breath (doubles the next consonant inside words), ঁ = nasal vowel"
+        "A dot below changes the sound: ড → ড় (flapped r), ঢ → ঢ় (flapped rh), য → য় (y)"
       ],
       "new": [
         "l-rra",
         "l-rrha",
         "l-yya",
+        "garho"
+      ],
+      "review": [
+        "meye",
+        "kothay",
+        "l-dda",
+        "l-ddha",
+        "l-ya",
+        "jhor"
+      ],
+      "tip": "**A dot changes everything.**\n\n- ড + dot = **ড়** (`r`): a flapped r. Curl the tongue back and flick it forward, like *tt* in American *butter*: বড় (`boro`, big).\n- ঢ + dot = **ঢ়** (`rh`): the same flap with a breath. Rare: গাঢ় (`garho`, deep, of a colour).\n- য + dot = **য়** (`y`): very common between vowels: মেয়ে (`meye`, girl), কোথায় (`kothay`, where).\n\nWhen you see a dot under a letter, check it twice: ড is `d`, ড় is `r`.",
+      "sentences": [],
+      "preview": [
+        "boro"
+      ]
+    },
+    {
+      "id": "s02-l07b",
+      "title": "Consonants 7b: ৎ ং ঃ ঁ",
+      "goal": "Read the four special signs at the end of the chart.",
+      "grammar": [
+        "ৎ (khondo to) is a t with no vowel after it",
+        "ং = ng, ঃ = a breath (doubles the next consonant inside words), ঁ = nasal vowel"
+      ],
+      "new": [
         "l-khondo-to",
         "l-onushshar",
         "l-bishorgo",
         "l-chondrobindu",
-        "garho",
         "hothat",
         "dukkhito",
         "chad"
       ],
       "review": [
-        "meye",
-        "kothay",
         "bangla",
         "hya",
-        "l-dda",
-        "l-ddha",
-        "l-ya"
+        "meye",
+        "l-rra"
       ],
-      "tip": "**A dot changes everything.** ড + dot = **ড়** (`r`, a flapped r: curl the tongue back and flick it forward, like *tt* in American *butter*): বড় (`boro`, big). ঢ + dot = **ঢ়** (`rh`, rare). য + dot = **য়** (`y`): মেয়ে (`meye`, girl), কোথায় (`kothay`, where). When you see a dot under a letter, check it twice.\n\n**ৎ** is a t that can never take a vowel: হঠাৎ (`hothat`, suddenly), উৎসব (`utshob`, festival).\n\n**Three signs that sit on other letters:**\n- **ং** = `ng` at the end of a syllable: বাংলা (`bangla`). Same sound as ঙ.\n- **ঃ** = a little breath; inside a word it doubles the next consonant: দুঃখিত (`dukkhito`, sorry).\n- **ঁ** (moon and dot) goes *above* a letter and makes the vowel nasal: চাঁদ (`cha~d`, moon), হ্যাঁ (`hya~`, yes). The `~` marks it.",
+      "tip": "Four special signs finish the chart.\n\n- **ৎ** is a t that never takes a vowel: হঠাৎ (`hothat`, suddenly), উৎসব (`utshob`, festival).\n- **ং** = `ng` at the end of a syllable: বাংলা (`bangla`). Same sound as ঙ.\n- **ঃ** = a little breath; inside a word it doubles the next consonant: দুঃখিত (`dukkhito`, sorry).\n- **ঁ** (moon and dot) sits *above* a letter and makes the vowel nasal: চাঁদ (`cha~d`, moon), হ্যাঁ (`hya~`). The `~` marks it.",
       "sentences": [],
       "preview": [
-        "boro",
         "utshob",
         "mangsho",
-        "pach"
+        "pach",
+        "boro"
       ]
     },
     {
       "id": "s02-l08",
-      "title": "Consonants review: look-alikes",
+      "title": "Consonants review 1: look-alikes",
       "goal": "Tell the confusable consonants apart and read the whole chart.",
       "grammar": [
         "Look-alike sets: ব/র, ধ/থ/য, ড/ড়, ঢ/ঢ়, য/য়, উ/ড",
@@ -257,13 +297,55 @@
         "dhonnobad",
         "bangla",
         "meye",
-        "theke"
+        "theke",
+        "dhol",
+        "jhor",
+        "garho",
+        "lal",
+        "hat"
       ],
-      "tip": "You can now recognize every consonant in the chart: **ক খ গ ঘ ঙ · চ ছ জ ঝ ঞ · ট ঠ ড ঢ ণ · ত থ দ ধ ন · প ফ ব ভ ম · য র ল · শ ষ স হ · ড় ঢ় য় ৎ ং ঃ ঁ**.\n\n**Shape look-alikes**: ব (triangle) vs র (triangle + dot); ধ (open top-left) vs থ (bottom loop) vs য; উ (vowel) vs ড (notch in the top line); ড vs ড় and য vs য় (the dot!).\n\n**Sound-alikes**: জ/য, ন/ণ, শ/ষ/স and ঙ/ং sound the same. You can't hear the difference, so learn each word's spelling.\n\n**Puff pairs**: ক/খ, চ/ছ, ট/ঠ, ত/থ, প/ফ. Listen for the breath. Next up: vowel signs, which let you read whole words like মামা and খালা.",
+      "tip": "Review 1 of 2: look-alikes. No new letters.\n\n**Shape look-alikes**: ব (triangle) vs র (triangle + dot); ধ (open top-left) vs থ (bottom loop) vs য; উ (vowel) vs ড (notch in the top line); ড vs ড়, ঢ vs ঢ় and য vs য় (the dot!).\n\n**Sound-alikes**: জ/য, ন/ণ, শ/ষ/স and ঙ/ং sound the same. You can't hear the difference, so learn each word's spelling.\n\n**Hard vs soft**: ট/ড (tongue curled back) vs ত/দ (tongue on the teeth).",
       "sentences": [],
       "preview": [
         "boro"
-      ]
+      ],
+      "kind": "review"
+    },
+    {
+      "id": "s02-l08b",
+      "title": "Consonants review 2: reading words",
+      "kind": "review",
+      "goal": "Read and hear every example word of the unit and the puff pairs.",
+      "grammar": [
+        "review: puff pairs ক/খ, গ/ঘ, চ/ছ, প/ফ",
+        "review: same-sound letters শ/ষ/স, ঙ/ং"
+      ],
+      "new": [],
+      "review": [
+        "gachh",
+        "goru",
+        "ghor",
+        "bangali",
+        "chokh",
+        "hothat",
+        "dukkhito",
+        "chad",
+        "l-gha",
+        "l-chha",
+        "l-pha",
+        "l-ssa",
+        "l-onushshar",
+        "kothay",
+        "chhatro",
+        "bhalo",
+        "shikkhok",
+        "manush",
+        "theke",
+        "bangla",
+        "bangladeshi"
+      ],
+      "tip": "Review 2 of 2: read whole words. You can now recognise every consonant in the chart:\n\n**ক খ গ ঘ ঙ · চ ছ জ ঝ ঞ · ট ঠ ড ঢ ণ · ত থ দ ধ ন · প ফ ব ভ ম · য র ল · শ ষ স হ · ড় ঢ় য় ৎ ং ঃ ঁ**\n\n**Puff pairs**: ক/খ, গ/ঘ, চ/ছ, ট/ঠ, ত/থ, প/ফ. Listen for the breath: গরু (`goru`) vs ঘর (`ghor`).\n\nNext up: vowel signs, which let you read words like মামা and খালা.",
+      "sentences": []
     }
   ]
 }

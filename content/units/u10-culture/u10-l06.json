@@ -3,7 +3,7 @@
   "unit": "u10-culture",
   "title": "Invitations & guests",
   "status": "draft",
-  "tip": "Bengali invitations use the **future** as a gentle request: **আমাদের বাসায় আসবেন** is literally 'You will come to our home', and it means 'Please do come!' For a more formal invitation, say **আপনাকে দাওয়াত দিলাম** 'I'm inviting you' (literally 'I gave you an invitation'). With a friend you'd use **তুমি**: **তুমি কি আসবে?** 'Will you come?'\n\nA **মেহমান** (guest) is treated with great honour. Expect tea, sweets and **পিঠা** (rice cakes, especially in winter), and expect to be asked **খাবেন?** 'Will you have some?' more than once. A first 'no' is often heard as politeness, so it's gracious to accept a little. Bringing a small **উপহার** (gift), such as sweets or fruit, is a nice touch.\n\n**জন্য** 'for' comes *after* the word, which takes the possessive *-r / -er* ending: **এই উপহার আপনার জন্য** 'This gift is for you'.\n\nWishes: **শুভ জন্মদিন** 'Happy birthday', **ঈদের শুভেচ্ছা** 'Eid greetings' (common in messages and cards).\n\n**Kolkata:** **নেমন্তন্ন** (*nemontonno*) 'invitation', **অতিথি** (*otithi*) 'guest'.",
+  "tip": "Bengali invitations use the **future** as a gentle request: **আমাদের বাসায় আসবেন** is literally 'You will come to our home', and it means 'Please do come!' More formally: **আপনাকে দাওয়াত দিলাম** 'I'm inviting you' (lit. 'I gave you an invitation'). To a friend: **তুমি কি আসবে?** 'Will you come?'\n\nSoften it with **যদি** 'if' + the present: **যদি সময় হয়, আমাদের বাসায় আসবেন** 'If you have time, please come'.\n\nA **মেহমান** (guest) is treated with great honour. Expect tea, sweets and **পিঠা** (rice cakes), and expect **খাবেন?** 'Will you have some?' more than once. A first 'no' is often heard as politeness, so accept a little.\n\n**Kolkata:** **নেমন্তন্ন** 'invitation', **অতিথি** 'guest'.",
   "vocab": [
     {
       "id": "dawat",
@@ -23,31 +23,6 @@
       "bn": "মেহমান",
       "tr": "mehman",
       "en": "guest"
-    },
-    {
-      "id": "upohar",
-      "bn": "উপহার",
-      "tr": "upohar",
-      "en": "gift"
-    },
-    {
-      "id": "jonno",
-      "bn": "জন্য",
-      "tr": "jonno",
-      "en": "for",
-      "notes": "After a genitive: আপনার জন্য 'for you'."
-    },
-    {
-      "id": "jonmodin",
-      "bn": "জন্মদিন",
-      "tr": "jonmodin",
-      "en": "birthday"
-    },
-    {
-      "id": "shubhechchha",
-      "bn": "শুভেচ্ছা",
-      "tr": "shubhechchha",
-      "en": "greetings"
     },
     {
       "id": "ashben",
@@ -75,6 +50,19 @@
       "bn": "খাবেন",
       "tr": "khaben",
       "en": "will you eat (polite)"
+    },
+    {
+      "id": "jodi",
+      "bn": "যদি",
+      "tr": "jodi",
+      "en": "if"
+    },
+    {
+      "id": "hoy",
+      "bn": "হয়",
+      "tr": "hoy",
+      "en": "is",
+      "notes": "From হওয়া \"be, become, happen\". যদি সময় হয় \"if there's time\"."
     }
   ],
   "exercises": [
@@ -91,7 +79,7 @@
         "gift",
         "invitation",
         "guest",
-        "greetings"
+        "holiday"
       ],
       "answer": 1
     },
@@ -105,66 +93,15 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "gift",
         "friend",
         "invitation",
+        "holiday",
         "guest"
       ],
       "answer": 3
     },
     {
       "id": "e03",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "ঈদের শুভেচ্ছা",
-        "tr": "ider shubhechchha",
-        "en": "Eid greetings"
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "Eid money",
-        "Eid prayer",
-        "Eid greetings",
-        "Happy New Year"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "e04",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "জন্মদিন",
-        "tr": "jonmodin",
-        "en": "birthday"
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "New Year",
-        "holiday",
-        "birthday",
-        "festival"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "e05",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "শুভেচ্ছা",
-        "tr": "shubhechchha",
-        "en": "greetings"
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "greetings",
-        "invitation",
-        "gift",
-        "thanks"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "e06",
       "type": "select_translation",
       "prompt": {
         "bn": "আসবেন",
@@ -175,30 +112,14 @@
       "options": [
         "will you eat (polite)",
         "I will go",
-        "(you, polite) have come",
-        "please come"
+        "please come",
+        "has come"
       ],
-      "answer": 3
+      "answer": 2,
+      "why": "The future -বেন to আপনি works as a polite invitation."
     },
     {
-      "id": "e07",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "আপনাকে",
-        "tr": "apnake",
-        "en": "you (polite, object)"
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "you (polite, object)",
-        "me",
-        "your (polite)",
-        "everyone"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "e08",
+      "id": "e04",
       "type": "listen_select",
       "audio": {
         "bn": "আসবে",
@@ -211,105 +132,128 @@
         "আসে",
         "আসি"
       ],
-      "answer": 1
+      "answer": 1,
+      "why": "আসবে is for তুমি; আপনি takes আসবেন."
+    },
+    {
+      "id": "e05",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আপনাকে",
+        "tr": "apnake",
+        "en": "you (polite, object)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "you (polite, object)",
+        "your (polite)",
+        "me",
+        "him"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e06",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "খাবেন",
+        "tr": "khaben",
+        "en": "will you eat (polite)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "do you eat (polite)",
+        "will you eat (polite)",
+        "have you eaten (polite)",
+        "I will buy"
+      ],
+      "answer": 1,
+      "why": "-বেন is the future for আপনি: খাবেন 'will you eat?'"
+    },
+    {
+      "id": "e07",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "যদি",
+        "tr": "jodi",
+        "en": "if"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "but",
+        "because",
+        "if",
+        "then"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e08",
+      "type": "listen_select",
+      "audio": {
+        "bn": "পিঠা",
+        "tr": "pitha",
+        "en": "pitha"
+      },
+      "options": [
+        "পিছনে",
+        "মিষ্টি",
+        "পানি",
+        "পিঠা"
+      ],
+      "answer": 3
     },
     {
       "id": "e09",
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "পিঠা",
-          "tr": "pitha",
-          "en": "pitha"
-        },
-        {
-          "bn": "খাবেন",
-          "tr": "khaben",
-          "en": "will you eat (polite)"
-        },
-        {
-          "bn": "জন্য",
-          "tr": "jonno",
-          "en": "for"
-        },
-        {
-          "bn": "উপহার",
-          "tr": "upohar",
-          "en": "gift"
+          "bn": "দাওয়াত",
+          "tr": "dawat",
+          "en": "invitation"
         },
         {
           "bn": "মেহমান",
           "tr": "mehman",
           "en": "guest"
+        },
+        {
+          "bn": "পিঠা",
+          "tr": "pitha",
+          "en": "pitha"
+        },
+        {
+          "bn": "যদি",
+          "tr": "jodi",
+          "en": "if"
+        },
+        {
+          "bn": "হয়",
+          "tr": "hoy",
+          "en": "is"
         }
       ]
     },
     {
       "id": "e10",
-      "type": "word_bank",
+      "type": "select_translation",
       "prompt": {
-        "bn": "আপনাকে দাওয়াত দিলাম।",
-        "tr": "apnake dawat dilam.",
-        "en": "I'm inviting you. (polite)"
+        "bn": "যখন মেহমান আসে, আমরা চা আর পিঠা খাই।",
+        "tr": "jokhon mehman ashe, amra cha ar pitha khai.",
+        "en": "When guests come, we have tea and pitha."
       },
-      "direction": "en_to_bn",
-      "tiles": [
-        "আপনার",
-        "আপনাকে",
-        "আমাকে",
-        "দাওয়াত",
-        "নিলাম",
-        "দিলাম"
+      "direction": "bn_to_en",
+      "options": [
+        "When will the guests come?",
+        "When guests come, we have tea and pitha.",
+        "When guests come, we only drink tea.",
+        "The guests came and had tea and pitha."
       ],
-      "answer": [
-        "আপনাকে",
-        "দাওয়াত",
-        "দিলাম"
-      ]
+      "answer": 1,
+      "why": "যখন is the 'when' that isn't a question; the question word is কখন."
     },
     {
       "id": "e11",
-      "type": "word_bank",
-      "prompt": {
-        "bn": "এই উপহার আপনার জন্য।",
-        "tr": "ei upohar apnar jonno.",
-        "en": "This gift is for you. (polite)"
-      },
-      "direction": "en_to_bn",
-      "tiles": [
-        "এই",
-        "তোমার",
-        "উপহার",
-        "আপনাকে",
-        "আপনার",
-        "জন্য"
-      ],
-      "answer": [
-        "এই",
-        "উপহার",
-        "আপনার",
-        "জন্য"
-      ]
-    },
-    {
-      "id": "e12",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "তুমি কি আসবে?",
-        "tr": "tumi ki ashbe?",
-        "en": "Will you come? (familiar)"
-      },
-      "direction": "en_to_bn",
-      "options": [
-        "তুমি কি যাবে?",
-        "তুমি কি আসবে?",
-        "তুমি কি এলে?",
-        "আপনি কি আসবেন?"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "e13",
       "type": "word_bank",
       "prompt": {
         "bn": "পিঠা খাবেন?",
@@ -357,38 +301,95 @@
       ]
     },
     {
+      "id": "e12",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "যদি সময় হয়, আমাদের বাসায় আসবেন।",
+        "tr": "jodi shomoy hoy, amader bashay ashben.",
+        "en": "If you have time, please come to our home. (polite)"
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "যদি",
+        "সময়",
+        "হয়",
+        "হবে",
+        "আমাদের",
+        "বাসায়",
+        "আসবেন",
+        "আসবে"
+      ],
+      "answer": [
+        "যদি",
+        "সময়",
+        "হয়",
+        "আমাদের",
+        "বাসায়",
+        "আসবেন"
+      ],
+      "why": "যদি 'if' takes the present: যদি সময় হয়. To আপনি: আসবেন."
+    },
+    {
+      "id": "e13",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আপনাকে দাওয়াত দিলাম।",
+        "tr": "apnake dawat dilam.",
+        "en": "I'm inviting you. (polite)"
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "আপনার",
+        "আপনাকে",
+        "আমাকে",
+        "দাওয়াত",
+        "নিলাম",
+        "দিলাম"
+      ],
+      "answer": [
+        "আপনাকে",
+        "দাওয়াত",
+        "দিলাম"
+      ],
+      "why": "The person you invite is the object: আপনাকে. You 'give' an invitation: দিলাম."
+    },
+    {
       "id": "e14",
       "type": "select_translation",
+      "prompt": {
+        "bn": "তুমি কি আসবে?",
+        "tr": "tumi ki ashbe?",
+        "en": "Will you come? (familiar)"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "তুমি কি যাবে?",
+        "আপনি কি আসবেন?",
+        "তুমি কি এলে?",
+        "তুমি কি আসবে?"
+      ],
+      "answer": 3,
+      "why": "তুমি takes the future -বে: আসবে."
+    },
+    {
+      "id": "e15",
+      "type": "type_translation",
       "prompt": {
         "bn": "আমাদের বাসায় আসবেন।",
         "tr": "amader bashay ashben.",
         "en": "(To your teacher) Please come to our home."
       },
       "direction": "en_to_bn",
-      "options": [
-        "আমাদের বাসায় আসবে।",
-        "আমার বাসায় আসবেন।",
-        "আমাদের বাসায় আসবেন।",
-        "আমাদের বাসায় এসেছে।"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "e15",
-      "type": "type_translation",
-      "prompt": {
-        "bn": "শুভ জন্মদিন।",
-        "tr": "shubho jonmodin.",
-        "en": "Happy birthday!"
-      },
-      "direction": "en_to_bn",
       "accepted": [
-        "শুভ জন্মদিন।",
-        "shubho jonmodin",
-        "subho jonmodin",
-        "shubho jonmodeen",
-        "shubho jonmo din"
-      ]
+        "আমাদের বাসায় আসবেন।",
+        "আমাদের বাসায় আসবেন",
+        "amader bashay ashben",
+        "amader basay ashben",
+        "amader bashai ashben",
+        "amader bashay asben",
+        "amader basay asben"
+      ],
+      "why": "To a teacher use আপনি: আসবেন."
     }
   ]
 }

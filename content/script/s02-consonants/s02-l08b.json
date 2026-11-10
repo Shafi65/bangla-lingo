@@ -1,0 +1,270 @@
+{
+  "id": "s02-l08b",
+  "unit": "s02-consonants",
+  "title": "Consonants review 2: reading words",
+  "status": "draft",
+  "tip": "Review 2 of 2: read whole words. You can now recognise every consonant in the chart:\n\n**ক খ গ ঘ ঙ · চ ছ জ ঝ ঞ · ট ঠ ড ঢ ণ · ত থ দ ধ ন · প ফ ব ভ ম · য র ল · শ ষ স হ · ড় ঢ় য় ৎ ং ঃ ঁ**\n\n**Puff pairs**: ক/খ, গ/ঘ, চ/ছ, ট/ঠ, ত/থ, প/ফ. Listen for the breath: গরু (`goru`) vs ঘর (`ghor`).\n\nNext up: vowel signs, which let you read words like মামা and খালা.",
+  "vocab": [],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "গাছ",
+        "tr": "gachh",
+        "en": "tree"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "tree",
+        "cow",
+        "room / house",
+        "eye"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "গরু",
+        "tr": "goru",
+        "en": "cow"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "tree",
+        "cow",
+        "storm",
+        "moon"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "চোখ",
+        "tr": "chokh",
+        "en": "eye"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "hand",
+        "drum (traditional)",
+        "eye",
+        "room / house"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e04",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "বাঙালি",
+        "tr": "bangali",
+        "en": "Bengali (person)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "Bangladeshi",
+        "Bengali (language)",
+        "room / house",
+        "Bengali (person)"
+      ],
+      "answer": 3,
+      "why": "**বাঙালি** is the people; বাংলা is the language; বাংলাদেশি is the nationality."
+    },
+    {
+      "id": "e05",
+      "type": "listen_select",
+      "audio": {
+        "bn": "ঘর",
+        "tr": "ghor",
+        "en": "room / house"
+      },
+      "options": [
+        "গরু",
+        "ঘর",
+        "গাছ",
+        "চোখ"
+      ],
+      "answer": 1,
+      "why": "**ঘ** has a breathy puff (ghor); **গ** has none (goru)."
+    },
+    {
+      "id": "e06",
+      "type": "listen_select",
+      "audio": {
+        "bn": "হঠাৎ",
+        "tr": "hothat",
+        "en": "suddenly"
+      },
+      "options": [
+        "হঠাৎ",
+        "হাত",
+        "দুঃখিত",
+        "চাঁদ"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e07",
+      "type": "listen_select",
+      "audio": {
+        "bn": "কোথায়",
+        "tr": "kothay",
+        "en": "where"
+      },
+      "options": [
+        "কোথা",
+        "থেকে",
+        "কোথায়",
+        "কেমন"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e08",
+      "type": "listen_select",
+      "audio": {
+        "bn": "ছাত্র",
+        "tr": "chhatro",
+        "en": "student (male)"
+      },
+      "options": [
+        "চোখ",
+        "চাঁদ",
+        "জি",
+        "ছাত্র"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e09",
+      "type": "listen_select",
+      "audio": {
+        "bn": "চাঁদ",
+        "tr": "cha~d",
+        "en": "moon"
+      },
+      "options": [
+        "চোখ",
+        "চাঁদ",
+        "ঢোল",
+        "ছাত্র"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e10",
+      "type": "script_recognize",
+      "glyph": "ঘ",
+      "options": [
+        "go (g as in 'go')",
+        "gho (g + breathy puff)",
+        "ko (k, no puff)",
+        "kho (k + puff of air)"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e11",
+      "type": "script_recognize",
+      "glyph": "ফ",
+      "options": [
+        "po (p, no puff)",
+        "bo (b as in 'bat')",
+        "fo (f, or a puffed p)",
+        "bho (breathy b, close to 'v')"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e12",
+      "type": "script_recognize",
+      "glyph": "ষ",
+      "options": [
+        "sho (sh as in 'shop')",
+        "jo (j as in 'jam')",
+        "po (p, no puff)",
+        "mo (m as in 'mother')"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e13",
+      "type": "script_recognize",
+      "glyph": "ং",
+      "options": [
+        "h (short breath, doubles the next consonant)",
+        "t (final t, no vowel after it)",
+        "a~ (nasal a)",
+        "ng (as in 'sing')"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e14",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "গাছ",
+          "tr": "gachh",
+          "en": "tree"
+        },
+        {
+          "bn": "গরু",
+          "tr": "goru",
+          "en": "cow"
+        },
+        {
+          "bn": "ঘর",
+          "tr": "ghor",
+          "en": "room / house"
+        },
+        {
+          "bn": "চোখ",
+          "tr": "chokh",
+          "en": "eye"
+        },
+        {
+          "bn": "দুঃখিত",
+          "tr": "dukkhito",
+          "en": "sorry"
+        }
+      ]
+    },
+    {
+      "id": "e15",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "ভালো",
+          "tr": "bhalo",
+          "en": "good, well"
+        },
+        {
+          "bn": "শিক্ষক",
+          "tr": "shikkhok",
+          "en": "teacher"
+        },
+        {
+          "bn": "মানুষ",
+          "tr": "manush",
+          "en": "person"
+        },
+        {
+          "bn": "থেকে",
+          "tr": "theke",
+          "en": "from"
+        },
+        {
+          "bn": "বাংলাদেশি",
+          "tr": "bangladeshi",
+          "en": "Bangladeshi"
+        }
+      ]
+    }
+  ]
+}

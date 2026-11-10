@@ -1,0 +1,404 @@
+{
+  "id": "u09-l08b",
+  "unit": "u09-past",
+  "title": "Review: didn't, was, had",
+  "status": "draft",
+  "tip": "No new words: this review mixes Lessons 5–7b.\n\n- **Didn't / haven't**: present form + **-নি**: করিনি, খাইনি, খাওনি, যাইনি, দেখিনি, আসেনি. **এখনো না** = 'not yet'.\n- **Chose not to**: simple past + **না**: **আমি গেলাম না** 'I didn't go (I decided not to)'.\n- **Was / were**: ছিলাম · ছিলে · ছিলেন · ছিল.\n- **Linking**: **যখন … তখন …** 'when …, then …'; **বন্ধুর সাথে** 'with a friend'; **মায়ের মতো** 'like (her) mother'.\n- **Past perfect** (recognise): গিয়েছিলাম, গিয়েছিল.",
+  "vocab": [],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আমি এখনো খাইনি।",
+        "tr": "ami ekhono khaini.",
+        "en": "I haven't eaten yet."
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "I haven't eaten yet.",
+        "I have already eaten.",
+        "I don't eat.",
+        "I'm still eating."
+      ],
+      "answer": 0,
+      "why": "-নি joins the present form (খাই) but means 'didn't / haven't'."
+    },
+    {
+      "id": "e02",
+      "type": "listen_select",
+      "audio": {
+        "bn": "খাওনি",
+        "tr": "khaoni",
+        "en": "you didn't eat (familiar)"
+      },
+      "options": [
+        "খাইনি",
+        "খাওনি",
+        "খেয়েছো",
+        "খাও"
+      ],
+      "answer": 1,
+      "why": "তুমি: খাও + -নি = খাওনি."
+    },
+    {
+      "id": "e03",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "করিনি",
+          "tr": "korini",
+          "en": "I didn't do"
+        },
+        {
+          "bn": "যাইনি",
+          "tr": "jaini",
+          "en": "I didn't go"
+        },
+        {
+          "bn": "দেখিনি",
+          "tr": "dekhini",
+          "en": "I didn't see"
+        },
+        {
+          "bn": "আসেনি",
+          "tr": "asheni",
+          "en": "hasn't come"
+        },
+        {
+          "bn": "ইতিমধ্যে",
+          "tr": "itimoddhe",
+          "en": "already"
+        }
+      ]
+    },
+    {
+      "id": "e04",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আমি গেলাম না।",
+        "tr": "ami gelam na.",
+        "en": "I didn't go."
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "I haven't gone yet.",
+        "I don't go.",
+        "I didn't go (I decided not to).",
+        "I went."
+      ],
+      "answer": 2,
+      "why": "Simple past + না means you chose not to. A plain 'didn't go' is যাইনি."
+    },
+    {
+      "id": "e05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "ছিলাম",
+          "tr": "chhilam",
+          "en": "I was"
+        },
+        {
+          "bn": "ছিলে",
+          "tr": "chhile",
+          "en": "you were (familiar)"
+        },
+        {
+          "bn": "ছিলেন",
+          "tr": "chhilen",
+          "en": "you were (polite)"
+        },
+        {
+          "bn": "ছিল",
+          "tr": "chhilo",
+          "en": "was"
+        },
+        {
+          "bn": "শিক্ষার্থী",
+          "tr": "shikkharthi",
+          "en": "student"
+        }
+      ]
+    },
+    {
+      "id": "e06",
+      "type": "listen_select",
+      "audio": {
+        "bn": "এখনো না",
+        "tr": "ekhono na",
+        "en": "not yet"
+      },
+      "options": [
+        "এখন",
+        "কখনো না",
+        "এখনো",
+        "এখনো না"
+      ],
+      "answer": 3,
+      "why": "এখনো না = 'not yet'; কখনো না = 'never'."
+    },
+    {
+      "id": "e07",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "উঠলাম",
+          "tr": "uthlam",
+          "en": "I got up"
+        },
+        {
+          "bn": "বন্ধুর",
+          "tr": "bondhur",
+          "en": "friend's"
+        },
+        {
+          "bn": "সাথে",
+          "tr": "shathe",
+          "en": "with"
+        },
+        {
+          "bn": "দিনটা",
+          "tr": "dinta",
+          "en": "the day"
+        },
+        {
+          "bn": "কথা",
+          "tr": "kotha",
+          "en": "talk"
+        }
+      ]
+    },
+    {
+      "id": "e08",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "গিয়েছিলাম",
+          "tr": "giyechhilam",
+          "en": "I had gone"
+        },
+        {
+          "bn": "গিয়েছিল",
+          "tr": "giyechhilo",
+          "en": "had gone"
+        },
+        {
+          "bn": "ছবি",
+          "tr": "chhobi",
+          "en": "film"
+        },
+        {
+          "bn": "বন্ধ",
+          "tr": "bondho",
+          "en": "closed"
+        },
+        {
+          "bn": "মতো",
+          "tr": "moto",
+          "en": "like"
+        }
+      ]
+    },
+    {
+      "id": "e09",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আমি যখন বাজারে গেলাম, তখন দোকান বন্ধ ছিল।",
+        "tr": "ami jokhon bajare gelam, tokhon dokan bondho chhilo.",
+        "en": "When I went to the market, the shop was closed."
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "When will I go to the market?",
+        "When I went to the market, the shop was closed.",
+        "I went to the market, then I closed the shop.",
+        "When I went to the market, the shop was open."
+      ],
+      "answer": 1,
+      "why": "যখন … তখন … links two events: 'when …, (then) …'."
+    },
+    {
+      "id": "e10",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "সে গত সপ্তাহে ঢাকায় ছিল, তাই সে আসেনি।",
+        "tr": "she goto shoptahe dhakay chhilo, tai she asheni.",
+        "en": "He was in Dhaka last week, so he didn't come."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "He",
+        "was",
+        "in",
+        "Dhaka",
+        "last",
+        "week",
+        "so",
+        "he",
+        "didn't",
+        "come",
+        "because",
+        "is",
+        "came"
+      ],
+      "answer": [
+        "He",
+        "was",
+        "in",
+        "Dhaka",
+        "last",
+        "week",
+        "so",
+        "he",
+        "didn't",
+        "come"
+      ],
+      "alt": [
+        [
+          "last",
+          "week",
+          "He",
+          "was",
+          "in",
+          "Dhaka",
+          "so",
+          "he",
+          "didn't",
+          "come"
+        ]
+      ],
+      "why": "তাই 'so' introduces the result; আসেনি = 'didn't come'."
+    },
+    {
+      "id": "e11",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমি গতকাল অফিসে যাইনি।",
+        "tr": "ami gotokal ofise jaini.",
+        "en": "I didn't go to the office yesterday."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "আমি",
+        "গতকাল",
+        "অফিসে",
+        "যাইনি",
+        "যাই",
+        "গেলাম",
+        "অফিস"
+      ],
+      "answer": [
+        "আমি",
+        "গতকাল",
+        "অফিসে",
+        "যাইনি"
+      ],
+      "alt": [
+        [
+          "গতকাল",
+          "আমি",
+          "অফিসে",
+          "যাইনি"
+        ]
+      ],
+      "why": "Past negative = present form যাই + -নি, written as one word."
+    },
+    {
+      "id": "e12",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমি বন্ধুর সাথে কথা বললাম।",
+        "tr": "ami bondhur shathe kotha bollam.",
+        "en": "I talked with my friend."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "আমি",
+        "বন্ধুর",
+        "সাথে",
+        "কথা",
+        "বললাম",
+        "বন্ধু",
+        "কোথা",
+        "বলি"
+      ],
+      "answer": [
+        "আমি",
+        "বন্ধুর",
+        "সাথে",
+        "কথা",
+        "বললাম"
+      ],
+      "alt": [
+        [
+          "বন্ধুর",
+          "সাথে",
+          "কথা",
+          "বললাম"
+        ]
+      ],
+      "why": "সাথে follows a possessive: বন্ধুর সাথে."
+    },
+    {
+      "id": "e13",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "তুমি কোথায় ছিলে?",
+        "tr": "tumi kothay chhile?",
+        "en": "Where were you? (familiar)"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "তুমি কোথায় ছিলেন?",
+        "আপনি কোথায় ছিলে?",
+        "তুমি কোথায় আছো?",
+        "তুমি কোথায় ছিলে?"
+      ],
+      "answer": 3,
+      "why": "তুমি takes -এ: ছিলে."
+    },
+    {
+      "id": "e14",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "না, এখনো না।",
+        "tr": "na, ekhono na.",
+        "en": "No, not yet."
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "না, এখনো না।",
+        "এখনো না।",
+        "না এখনো না",
+        "na, ekhono na",
+        "na ekhono na",
+        "ekhono na",
+        "na ekhono na.",
+        "na, ekhono na."
+      ]
+    },
+    {
+      "id": "e15",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "সে তার মায়ের মতো, কিন্তু আমি আমার বাবার মতো।",
+        "tr": "she tar mayer moto, kintu ami amar babar moto.",
+        "en": "She is like her mother, but I am like my father."
+      },
+      "direction": "bn_to_en",
+      "accepted": [
+        "She is like her mother, but I am like my father.",
+        "He is like his mother, but I am like my father.",
+        "She's like her mother, but I'm like my father.",
+        "He's like his mother, but I'm like my father.",
+        "She is like her mother but I am like my father.",
+        "He is like his mother but I am like my father.",
+        "She is like her mom, but I am like my dad.",
+        "He is like his mom, but I am like my dad.",
+        "She's like her mom, but I'm like my dad.",
+        "He's like his mom, but I'm like my dad."
+      ]
+    }
+  ]
+}

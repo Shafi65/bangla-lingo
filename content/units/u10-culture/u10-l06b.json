@@ -1,0 +1,384 @@
+{
+  "id": "u10-l06b",
+  "unit": "u10-culture",
+  "title": "Wishes & gifts",
+  "status": "draft",
+  "tip": "Wishes start with **শুভ** 'happy, auspicious': **শুভ জন্মদিন** 'Happy birthday', like **শুভ নববর্ষ**. Festival messages and cards often say **ঈদের শুভেচ্ছা** 'Eid greetings'; to a whole group, **সবাইকে ঈদের শুভেচ্ছা** 'Eid greetings to everyone'. **সবাইকে** is the object form of **সবাই**.\n\n**জন্য** 'for' comes *after* the word, which takes the possessive *-r / -er*: **আপনার জন্য** 'for you', **তোমার জন্য** 'for you (familiar)'. So: **এই উপহার আপনার জন্য** 'This gift is for you'.\n\nA small **উপহার** (gift), such as sweets or fruit, is a nice touch when you visit.\n\n**লোক** is the everyday word for 'people': **মেলায় অনেক লোক** 'There are lots of people at the fair'.",
+  "vocab": [
+    {
+      "id": "upohar",
+      "bn": "উপহার",
+      "tr": "upohar",
+      "en": "gift"
+    },
+    {
+      "id": "jonno",
+      "bn": "জন্য",
+      "tr": "jonno",
+      "en": "for",
+      "notes": "After a genitive: আপনার জন্য 'for you'."
+    },
+    {
+      "id": "jonmodin",
+      "bn": "জন্মদিন",
+      "tr": "jonmodin",
+      "en": "birthday"
+    },
+    {
+      "id": "shubhechchha",
+      "bn": "শুভেচ্ছা",
+      "tr": "shubhechchha",
+      "en": "greetings"
+    },
+    {
+      "id": "shobaike",
+      "bn": "সবাইকে",
+      "tr": "shobaike",
+      "en": "everyone",
+      "notes": "Object form of সবাই 'everyone'."
+    },
+    {
+      "id": "lok",
+      "bn": "লোক",
+      "tr": "lok",
+      "en": "people",
+      "notes": "Everyday word for \"person / people\"; মানুষ is more neutral."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "জন্মদিন",
+        "tr": "jonmodin",
+        "en": "birthday"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "New Year",
+        "holiday",
+        "birthday",
+        "festival"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "উপহার",
+        "tr": "upohar",
+        "en": "gift"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "gift",
+        "guest",
+        "invitation",
+        "sweet"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "জন্য",
+        "tr": "jonno",
+        "en": "for"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "with",
+        "for",
+        "like",
+        "from"
+      ],
+      "answer": 1,
+      "why": "জন্য follows a possessive: আপনার জন্য 'for you'."
+    },
+    {
+      "id": "e04",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "শুভেচ্ছা",
+        "tr": "shubhechchha",
+        "en": "greetings"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "invitation",
+        "thanks",
+        "gift",
+        "greetings"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e05",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "সবাইকে",
+        "tr": "shobaike",
+        "en": "everyone"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "someone",
+        "everyone",
+        "me",
+        "you (polite, object)"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e06",
+      "type": "listen_select",
+      "audio": {
+        "bn": "লোক",
+        "tr": "lok",
+        "en": "people"
+      },
+      "options": [
+        "লোক",
+        "লাল",
+        "লবণ",
+        "বোন"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e07",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "উপহার",
+          "tr": "upohar",
+          "en": "gift"
+        },
+        {
+          "bn": "জন্য",
+          "tr": "jonno",
+          "en": "for"
+        },
+        {
+          "bn": "জন্মদিন",
+          "tr": "jonmodin",
+          "en": "birthday"
+        },
+        {
+          "bn": "শুভেচ্ছা",
+          "tr": "shubhechchha",
+          "en": "greetings"
+        },
+        {
+          "bn": "লোক",
+          "tr": "lok",
+          "en": "people"
+        }
+      ]
+    },
+    {
+      "id": "e08",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "সবাইকে ঈদের শুভেচ্ছা।",
+        "tr": "shobaike ider shubhechchha.",
+        "en": "Eid greetings to everyone."
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "Eid Mubarak to you.",
+        "Happy New Year, everyone.",
+        "Eid greetings to everyone.",
+        "Eid money for everyone."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e09",
+      "type": "listen_select",
+      "audio": {
+        "bn": "শুভ জন্মদিন",
+        "tr": "shubho jonmodin",
+        "en": "Happy birthday"
+      },
+      "options": [
+        "শুভ নববর্ষ",
+        "শুভ বিজয়া",
+        "শুভ জন্মদিন",
+        "শুভ সকাল"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e10",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "মেলায় অনেক লোক।",
+        "tr": "melay onek lok.",
+        "en": "There are a lot of people at the fair."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "There",
+        "are",
+        "a",
+        "lot",
+        "of",
+        "people",
+        "at",
+        "the",
+        "fair",
+        "temple",
+        "is"
+      ],
+      "answer": [
+        "There",
+        "are",
+        "a",
+        "lot",
+        "of",
+        "people",
+        "at",
+        "the",
+        "fair"
+      ],
+      "alt": [
+        [
+          "a",
+          "lot",
+          "of",
+          "people",
+          "at",
+          "the",
+          "fair"
+        ]
+      ]
+    },
+    {
+      "id": "e11",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "এই উপহার তোমার জন্য, কারণ আজ তোমার জন্মদিন।",
+        "tr": "ei upohar tomar jonno, karon aj tomar jonmodin.",
+        "en": "This gift is for you, because today is your birthday."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "This",
+        "gift",
+        "is",
+        "for",
+        "you",
+        "because",
+        "today",
+        "is",
+        "your",
+        "birthday",
+        "so",
+        "guest"
+      ],
+      "answer": [
+        "This",
+        "gift",
+        "is",
+        "for",
+        "you",
+        "because",
+        "today",
+        "is",
+        "your",
+        "birthday"
+      ],
+      "why": "কারণ 'because' introduces the reason."
+    },
+    {
+      "id": "e12",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "এই উপহার আপনার জন্য।",
+        "tr": "ei upohar apnar jonno.",
+        "en": "This gift is for you. (polite)"
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "এই",
+        "উপহার",
+        "আপনার",
+        "আপনাকে",
+        "তোমার",
+        "জন্য"
+      ],
+      "answer": [
+        "এই",
+        "উপহার",
+        "আপনার",
+        "জন্য"
+      ],
+      "why": "জন্য follows the possessive: আপনার জন্য, not আপনাকে."
+    },
+    {
+      "id": "e13",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আমি তোমার জন্য একটা নতুন বই কিনলাম।",
+        "tr": "ami tomar jonno ekta notun boi kinlam.",
+        "en": "I bought a new book for you. (familiar)"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "আমি তোমার জন্য একটা নতুন বই কিনব।",
+        "আমি তোমার জন্য একটা নতুন বই কিনলাম।",
+        "আমি আপনার জন্য একটা নতুন বই কিনলাম।",
+        "আমি তোমার জন্য একটা নতুন জামা কিনলাম।"
+      ],
+      "answer": 1,
+      "why": "-লাম = 'I did' (past); কিনব is 'I will buy'. To a friend: তোমার জন্য."
+    },
+    {
+      "id": "e14",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "শুভ জন্মদিন।",
+        "tr": "shubho jonmodin.",
+        "en": "Happy birthday!"
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "শুভ জন্মদিন।",
+        "শুভ জন্মদিন",
+        "shubho jonmodin",
+        "subho jonmodin",
+        "shubho jonmodin!",
+        "shubho jonmo din"
+      ]
+    },
+    {
+      "id": "e15",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আজ আমাদের বাসায় অনেক লোক।",
+        "tr": "aj amader bashay onek lok.",
+        "en": "There are a lot of people at our home today."
+      },
+      "direction": "bn_to_en",
+      "accepted": [
+        "There are a lot of people at our home today.",
+        "There are a lot of people at our house today.",
+        "There are many people at our home today.",
+        "There are many people at our house today.",
+        "There are lots of people at our home today.",
+        "There are lots of people at our house today.",
+        "Today there are a lot of people at our home.",
+        "Today there are a lot of people at our house.",
+        "Today there are many people at our house.",
+        "Today there are lots of people at our house.",
+        "Lots of people are at our house today.",
+        "A lot of people are at our house today.",
+        "Many people are at our house today."
+      ]
+    }
+  ]
+}

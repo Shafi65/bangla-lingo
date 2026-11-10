@@ -1,0 +1,365 @@
+{
+  "id": "u02-l04b",
+  "unit": "u02-pronouns",
+  "title": "Is not: নই, নও, নন, নয়",
+  "status": "draft",
+  "tip": "'Is' has no word in Bengali, but **'is not'** does, and it changes with the person, just like আছি / আছো / আছেন:\n\n- আমি ছাত্র **নই** (*noi*): I'm not a student\n- তুমি ছাত্র **নও** (*noo*, said *no-o*): you're not\n- আপনি / উনি ছাত্র **নন** (*non*): you / he (polite) aren't\n- সে / ও ছাত্র **নয়** (*noy*): he / she isn't (also এটা … নয়: it isn't)\n\n**নয় or নেই?** নয় (and নই / নও / নন) denies *what* someone is: রাফি ডাক্তার **নয়**. **নেই** denies that someone is *there*: রাফি এখানে **নেই**.",
+  "vocab": [
+    {
+      "id": "noi",
+      "bn": "নই",
+      "tr": "noi",
+      "en": "am not",
+      "notes": "Goes with আমি / আমরা: আমি ছাত্র নই."
+    },
+    {
+      "id": "noo",
+      "bn": "নও",
+      "tr": "noo",
+      "en": "are not (familiar)",
+      "notes": "Goes with তুমি / তোমরা."
+    },
+    {
+      "id": "non",
+      "bn": "নন",
+      "tr": "non",
+      "en": "is not / are not (polite)",
+      "notes": "Goes with আপনি, তিনি, উনি."
+    },
+    {
+      "id": "noy-isnt",
+      "bn": "নয়",
+      "tr": "noy",
+      "en": "is not",
+      "notes": "Goes with সে, ও, এটা. In everyday Bangladeshi speech না is used for all persons: আমি ছাত্র না. নয় is also the number nine (Unit 5)."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "নই",
+        "tr": "noi",
+        "en": "am not"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "am not",
+        "are not (familiar)",
+        "is not",
+        "is not (here); there isn't"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "নও",
+        "tr": "noo",
+        "en": "are not (familiar)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "am not",
+        "is not / are not (polite)",
+        "are not (familiar)",
+        "are (familiar)"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "নন",
+        "tr": "non",
+        "en": "is not / are not (polite)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "are not (familiar)",
+        "is not / are not (polite)",
+        "am not",
+        "are (polite)"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e04",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "নয়",
+        "tr": "noy",
+        "en": "is not"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "are not (familiar)",
+        "is not (here); there isn't",
+        "am not",
+        "is not"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e05",
+      "type": "listen_select",
+      "audio": {
+        "bn": "নন",
+        "tr": "non",
+        "en": "is not / are not (polite)"
+      },
+      "options": [
+        "নও",
+        "নই",
+        "নয়",
+        "নন"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e06",
+      "type": "listen_select",
+      "audio": {
+        "bn": "রাফি এখানে নেই।",
+        "tr": "rafi ekhane nei.",
+        "en": "Rafi isn't here."
+      },
+      "options": [
+        "রাফি ডাক্তার নয়।",
+        "রাফি এখানে নেই।",
+        "রাফি এখানে আছে।",
+        "রাফি ওখানে আছে।"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e07",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "নই",
+          "tr": "noi",
+          "en": "am not"
+        },
+        {
+          "bn": "নও",
+          "tr": "noo",
+          "en": "are not (familiar)"
+        },
+        {
+          "bn": "নন",
+          "tr": "non",
+          "en": "is not / are not (polite)"
+        },
+        {
+          "bn": "নয়",
+          "tr": "noy",
+          "en": "is not"
+        },
+        {
+          "bn": "নেই",
+          "tr": "nei",
+          "en": "is not (here); there isn't"
+        }
+      ]
+    },
+    {
+      "id": "e08",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "রাফি ডাক্তার নয়।",
+        "tr": "rafi daktar noy.",
+        "en": "Rafi isn't a doctor."
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "রাফি ডাক্তার নেই।",
+        "রাফি ডাক্তার নয়।",
+        "রাফি ডাক্তার নও।",
+        "রাফি এখানে নয়।"
+      ],
+      "answer": 1,
+      "why": "**নয়** says what someone is not; **নেই** says someone isn't there."
+    },
+    {
+      "id": "e09",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "তুমি ডাক্তার নও।",
+        "tr": "tumi daktar noo.",
+        "en": "You aren't a doctor. (familiar: to a friend)"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "তুমি ডাক্তার নন।",
+        "তুমি ডাক্তার নই।",
+        "তুমি ডাক্তার নয়।",
+        "তুমি ডাক্তার নও।"
+      ],
+      "answer": 3,
+      "why": "তুমি takes **নও**, just as it takes আছো."
+    },
+    {
+      "id": "e10",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "উনি ডাক্তার নন।",
+        "tr": "uni daktar non.",
+        "en": "He is not a doctor. (polite)"
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "উনি",
+        "ডাক্তার",
+        "নন",
+        "নয়",
+        "নও",
+        "নই"
+      ],
+      "answer": [
+        "উনি",
+        "ডাক্তার",
+        "নন"
+      ],
+      "why": "উনি is polite, so it takes **নন** (polite forms end in -ন: আছেন, নন)."
+    },
+    {
+      "id": "e11",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "না, আমি শিক্ষক নই।",
+        "tr": "na, ami shikkhok noi.",
+        "en": "No, I am not a teacher."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "না",
+        "আমি",
+        "শিক্ষক",
+        "নই",
+        "নন",
+        "নয়",
+        "হ্যাঁ"
+      ],
+      "answer": [
+        "না",
+        "আমি",
+        "শিক্ষক",
+        "নই"
+      ],
+      "why": "আমি takes **নই**."
+    },
+    {
+      "id": "e12",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "রাফি এখানে নেই।",
+        "tr": "rafi ekhane nei.",
+        "en": "Rafi isn't here."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "রাফি",
+        "এখানে",
+        "ওখানে",
+        "নেই",
+        "নয়",
+        "নন"
+      ],
+      "answer": [
+        "রাফি",
+        "এখানে",
+        "নেই"
+      ],
+      "why": "Not being *there* is **নেই**; নয় only says what someone is not."
+    },
+    {
+      "id": "e13",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "সে আমার বন্ধু নয়।",
+        "tr": "she amar bondhu noy.",
+        "en": "He is not my friend."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "He",
+        "She",
+        "is",
+        "not",
+        "my",
+        "friend",
+        "here",
+        "teacher"
+      ],
+      "answer": [
+        "He",
+        "is",
+        "not",
+        "my",
+        "friend"
+      ],
+      "alt": [
+        [
+          "She",
+          "is",
+          "not",
+          "my",
+          "friend"
+        ]
+      ]
+    },
+    {
+      "id": "e14",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "এটা বাংলা নয়, এটা ইংরেজি।",
+        "tr": "eta bangla noy, eta ingreji.",
+        "en": "This is not Bengali, this is English."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "This",
+        "is",
+        "not",
+        "Bengali",
+        "this",
+        "is",
+        "English",
+        "here",
+        "that"
+      ],
+      "answer": [
+        "This",
+        "is",
+        "not",
+        "Bengali",
+        "this",
+        "is",
+        "English"
+      ]
+    },
+    {
+      "id": "e15",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আপনি ছাত্র নন।",
+        "tr": "apni chhatro non.",
+        "en": "You are not a student. (polite)"
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "আপনি ছাত্র নন।",
+        "আপনি ছাত্রী নন।",
+        "apni chhatro non",
+        "apni chatro non",
+        "apni chhatri non",
+        "apni chatri non"
+      ],
+      "why": "আপনি takes the polite **নন**."
+    }
+  ]
+}

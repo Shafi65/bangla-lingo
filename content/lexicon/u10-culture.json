@@ -415,6 +415,18 @@
       "notes": "Monument to the 1952 language martyrs in Dhaka; replicas stand in schools across the country."
     },
     {
+      "id": "shohid-minare",
+      "bn": "শহীদ মিনারে",
+      "tr": "shohid minare",
+      "en": "to the Shaheed Minar",
+      "alt": [
+        "at the Shaheed Minar"
+      ],
+      "pos": "phrase",
+      "lesson": "u10-l05",
+      "notes": "Destinations take -এ, as in অফিসে যাই: শহীদ মিনারে যাই 'we go to the Shaheed Minar'. In quick speech the ending is sometimes dropped."
+    },
+    {
       "id": "bhasha",
       "bn": "ভাষা",
       "tr": "bhasha",
@@ -490,7 +502,7 @@
         "time off"
       ],
       "pos": "noun",
-      "lesson": "u10-l05"
+      "lesson": "u10-l01"
     },
     {
       "id": "dawat",
@@ -546,7 +558,7 @@
         "present"
       ],
       "pos": "noun",
-      "lesson": "u10-l06"
+      "lesson": "u10-l06b"
     },
     {
       "id": "jonno",
@@ -554,7 +566,7 @@
       "tr": "jonno",
       "en": "for",
       "pos": "postposition",
-      "lesson": "u10-l06",
+      "lesson": "u10-l06b",
       "notes": "After a genitive: আপনার জন্য 'for you'."
     },
     {
@@ -563,7 +575,7 @@
       "tr": "jonmodin",
       "en": "birthday",
       "pos": "noun",
-      "lesson": "u10-l06"
+      "lesson": "u10-l06b"
     },
     {
       "id": "shubhechchha",
@@ -575,7 +587,7 @@
         "good wishes"
       ],
       "pos": "noun",
-      "lesson": "u10-l06"
+      "lesson": "u10-l06b"
     },
     {
       "id": "ashben",
@@ -751,7 +763,7 @@
         "all"
       ],
       "pos": "pronoun",
-      "lesson": "u10-l08",
+      "lesson": "u10-l06b",
       "notes": "Object form of সবাই 'everyone'."
     },
     {
@@ -763,7 +775,7 @@
         "in case"
       ],
       "pos": "particle",
-      "lesson": "u10-l08"
+      "lesson": "u10-l06"
     },
     {
       "id": "hoy",
@@ -776,7 +788,7 @@
         "there is"
       ],
       "pos": "verb",
-      "lesson": "u10-l08",
+      "lesson": "u10-l06",
       "notes": "From হওয়া \"be, become, happen\". যদি সময় হয় \"if there's time\"."
     },
     {
@@ -789,7 +801,7 @@
         "folks"
       ],
       "pos": "noun",
-      "lesson": "u10-l08",
+      "lesson": "u10-l06b",
       "notes": "Everyday word for \"person / people\"; মানুষ is more neutral."
     }
   ]

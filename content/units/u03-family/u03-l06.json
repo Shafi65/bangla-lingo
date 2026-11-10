@@ -3,7 +3,7 @@
   "unit": "u03-family",
   "title": "Calling strangers 'uncle'",
   "status": "draft",
-  "tip": "In Bangladesh you rarely call an adult by name or 'sir/madam'. You **promote them into your family**:\n\n- **ভাই / ভাইয়া**: a man around your age or a bit older (shopkeepers, waiters, colleagues)\n- **আপা / আপু**: a woman a bit older than you\n- **চাচা**: an older man; **খালা**: an older woman\n- **মামা**: rickshaw drivers, tea-stall owners: friendly and informal\n- **আংকেল / আন্টি**: friends' parents and older people in middle-class city life\n\nThese still take **আপনি** (polite verbs) unless you know the person well: *Chacha, apni kemon achhen?*\n\nThree lifesavers: **আমি জানি না** 'I don't know', **বুঝতে পারছি না** 'I don't understand', and **আচ্ছা** 'OK / I see'.",
+  "tip": "In Bangladesh you rarely call an adult by name or 'sir/madam'. You **promote them into your family**:\n\n- **ভাই / ভাইয়া**: a man around your age or a bit older (shopkeepers, waiters, colleagues)\n- **আপা / আপু**: a woman a bit older than you\n- **চাচা**: an older man; **খালা**: an older woman\n- **মামা**: rickshaw drivers, tea-stall owners: friendly and informal\n- **আংকেল / আন্টি**: friends' parents and older people in middle-class city life\n\nThese still take **আপনি** (polite verbs) unless you know the person well: *Chacha, apni kemon achhen?*\n\nFour lifesavers: **আমি জানি না** 'I don't know', **বুঝতে পারছি না** 'I don't understand', **আচ্ছা** 'OK / I see', and **X মানে কী?** 'What does X mean?'",
   "vocab": [
     {
       "id": "apa",
@@ -52,6 +52,13 @@
       "tr": "bujhte parchhi na",
       "en": "I don't understand",
       "notes": "Learn as a chunk for now (lit. \"I am not able to understand\"). The পারা \"can\" verb is taught in U8."
+    },
+    {
+      "id": "mane",
+      "bn": "মানে",
+      "tr": "mane",
+      "en": "meaning",
+      "notes": "X মানে কী? = \"What does X mean?\". Also a filler: মানে… \"I mean…\"."
     }
   ],
   "exercises": [
@@ -165,9 +172,9 @@
           "en": "OK"
         },
         {
-          "bn": "জানি",
-          "tr": "jani",
-          "en": "(I) know"
+          "bn": "মানে",
+          "tr": "mane",
+          "en": "meaning"
         }
       ]
     },
@@ -224,23 +231,6 @@
       "id": "e10",
       "type": "select_translation",
       "prompt": {
-        "bn": "চাচা",
-        "tr": "chacha",
-        "en": "Call the older shopkeeper 'uncle'."
-      },
-      "direction": "en_to_bn",
-      "options": [
-        "চাচা",
-        "খালা",
-        "আপা",
-        "আন্টি"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "e11",
-      "type": "select_translation",
-      "prompt": {
         "bn": "খালা",
         "tr": "khala",
         "en": "Call the older woman selling vegetables 'auntie'."
@@ -255,7 +245,7 @@
       "answer": 3
     },
     {
-      "id": "e12",
+      "id": "e11",
       "type": "word_bank",
       "prompt": {
         "bn": "খালা, কেমন আছেন?",
@@ -275,10 +265,11 @@
         "খালা",
         "কেমন",
         "আছেন"
-      ]
+      ],
+      "why": "Kin terms for strangers still take polite verbs: **আছেন**, not আছো or আছিস."
     },
     {
-      "id": "e13",
+      "id": "e12",
       "type": "word_bank",
       "prompt": {
         "bn": "ভাই, ডাক্তার কোথায় জানেন?",
@@ -310,7 +301,7 @@
       ]
     },
     {
-      "id": "e14",
+      "id": "e13",
       "type": "word_bank",
       "prompt": {
         "bn": "আপা, আমি বুঝতে পারছি না।",
@@ -332,6 +323,33 @@
         "I",
         "don't",
         "understand"
+      ]
+    },
+    {
+      "id": "e14",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আপা, বউ মানে কী?",
+        "tr": "apa, bou mane ki?",
+        "en": "Ma'am, what does \"bou\" mean?"
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "Ma'am",
+        "what",
+        "does",
+        "bou",
+        "mean",
+        "is",
+        "wife",
+        "name"
+      ],
+      "answer": [
+        "Ma'am",
+        "what",
+        "does",
+        "bou",
+        "mean"
       ]
     },
     {

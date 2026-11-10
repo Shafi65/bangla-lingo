@@ -1,0 +1,372 @@
+{
+  "id": "u08-l04b",
+  "unit": "u08-daily-routine",
+  "title": "Listen & write",
+  "status": "draft",
+  "tip": "Some verbs change their **vowel** between persons. The আমি form has **u** or **i**; the other forms have **o** or **e**:\n\n- শোনা 'listen': আমি **শুনি** — সে **শোনে**\n- লেখা 'write': আমি **লিখি** — সে **লেখে**\n- ওঠা 'get up': আমি **উঠি** — আপনি **ওঠেন** (Lesson 2)\n\nCompare **দেখা** from the last lesson, which never changes: আমি **দেখি**, সে **দেখে**. So learn each verb as an আমি + সে pair.\n\n**গান** is 'song', and **গান শোনা** is how you say 'listen to music': **আমি গান শুনি**.\n\n**সাধারণত** (*shadharonoto*) 'usually' goes early in the sentence: **আমি সাধারণত রাতে গান শুনি** 'I usually listen to music at night'.",
+  "vocab": [
+    {
+      "id": "shuni",
+      "bn": "শুনি",
+      "tr": "shuni",
+      "en": "I listen"
+    },
+    {
+      "id": "shone",
+      "bn": "শোনে",
+      "tr": "shone",
+      "en": "listens"
+    },
+    {
+      "id": "likhi",
+      "bn": "লিখি",
+      "tr": "likhi",
+      "en": "I write"
+    },
+    {
+      "id": "lekhe",
+      "bn": "লেখে",
+      "tr": "lekhe",
+      "en": "writes"
+    },
+    {
+      "id": "gan",
+      "bn": "গান",
+      "tr": "gan",
+      "en": "song",
+      "notes": "গান শোনা 'listen to music'; গান করা / গাওয়া 'sing'."
+    },
+    {
+      "id": "shadharonoto",
+      "bn": "সাধারণত",
+      "tr": "shadharonoto",
+      "en": "usually"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "শুনি",
+        "tr": "shuni",
+        "en": "I listen"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "listens",
+        "I listen",
+        "I watch",
+        "I write"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "শোনে",
+        "tr": "shone",
+        "en": "listens"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "I listen",
+        "writes",
+        "listens",
+        "watches"
+      ],
+      "answer": 2,
+      "why": "শোনে (o) is the সে form; the আমি form raises the vowel: শুনি."
+    },
+    {
+      "id": "e03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "লিখি",
+        "tr": "likhi",
+        "en": "I write"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "I write",
+        "writes",
+        "I read",
+        "I listen"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e04",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "লেখে",
+        "tr": "lekhe",
+        "en": "writes"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "I write",
+        "listens",
+        "reads",
+        "writes"
+      ],
+      "answer": 3,
+      "why": "লেখে (e) is the সে form; আমি raises it to i: লিখি."
+    },
+    {
+      "id": "e05",
+      "type": "listen_select",
+      "audio": {
+        "bn": "শোনে",
+        "tr": "shone",
+        "en": "listens"
+      },
+      "options": [
+        "শুনি",
+        "শোনে",
+        "দেখে",
+        "লেখে"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e06",
+      "type": "listen_select",
+      "audio": {
+        "bn": "লিখি",
+        "tr": "likhi",
+        "en": "I write"
+      },
+      "options": [
+        "লেখে",
+        "দেখি",
+        "লিখি",
+        "শুনি"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e07",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "গান",
+        "tr": "gan",
+        "en": "song"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "song",
+        "book",
+        "TV",
+        "name"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e08",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "সাধারণত",
+        "tr": "shadharonoto",
+        "en": "usually"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "now",
+        "at night",
+        "today",
+        "usually"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e09",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "শুনি",
+          "tr": "shuni",
+          "en": "I listen"
+        },
+        {
+          "bn": "শোনে",
+          "tr": "shone",
+          "en": "listens"
+        },
+        {
+          "bn": "লিখি",
+          "tr": "likhi",
+          "en": "I write"
+        },
+        {
+          "bn": "লেখে",
+          "tr": "lekhe",
+          "en": "writes"
+        },
+        {
+          "bn": "গান",
+          "tr": "gan",
+          "en": "song"
+        }
+      ]
+    },
+    {
+      "id": "e10",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আমি সাধারণত রাতে গান শুনি।",
+        "tr": "ami shadharonoto rate gan shuni.",
+        "en": "I usually listen to music at night."
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "She usually listens to music at night.",
+        "I usually listen to music in the morning.",
+        "I usually watch TV at night.",
+        "I usually listen to music at night."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e11",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমি টিভি দেখি আর সে গান শোনে।",
+        "tr": "ami tibhi dekhi ar she gan shone.",
+        "en": "I watch TV and she listens to music."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "I",
+        "watch",
+        "TV",
+        "and",
+        "she",
+        "listens",
+        "to",
+        "music",
+        "listen",
+        "reads"
+      ],
+      "answer": [
+        "I",
+        "watch",
+        "TV",
+        "and",
+        "she",
+        "listens",
+        "to",
+        "music"
+      ]
+    },
+    {
+      "id": "e12",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "সে ইংরেজি লেখে।",
+        "tr": "she ingreji lekhe.",
+        "en": "He writes English."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "লিখি",
+        "সে",
+        "ইংরেজি",
+        "লেখে",
+        "বাংলা",
+        "আমি"
+      ],
+      "answer": [
+        "সে",
+        "ইংরেজি",
+        "লেখে"
+      ],
+      "why": "সে takes the unraised stem: লেখে (আমি লিখি)."
+    },
+    {
+      "id": "e13",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমি বাংলা পড়ি আর লিখি।",
+        "tr": "ami bangla pori ar likhi.",
+        "en": "I read and write Bengali."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "লেখে",
+        "আমি",
+        "পড়ি",
+        "বাংলা",
+        "পড়ে",
+        "আর",
+        "লিখি"
+      ],
+      "answer": [
+        "আমি",
+        "বাংলা",
+        "পড়ি",
+        "আর",
+        "লিখি"
+      ],
+      "alt": [
+        [
+          "বাংলা",
+          "পড়ি",
+          "আর",
+          "লিখি"
+        ],
+        [
+          "আমি",
+          "বাংলা",
+          "লিখি",
+          "আর",
+          "পড়ি"
+        ],
+        [
+          "বাংলা",
+          "লিখি",
+          "আর",
+          "পড়ি"
+        ]
+      ],
+      "why": "With আমি both verbs end in -ি: পড়ি, লিখি."
+    },
+    {
+      "id": "e14",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আপনি সাধারণত কয়টায় ওঠেন?",
+        "tr": "apni shadharonoto koytay othen?",
+        "en": "What time do you usually get up? (polite)"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "আপনি সাধারণত কয়টায় উঠি?",
+        "আপনি সাধারণত কয়টায় ওঠেন?",
+        "আপনি সাধারণত কয়টা ওঠেন?",
+        "তুমি সাধারণত কয়টায় ওঠেন?"
+      ],
+      "answer": 1,
+      "why": "আপনি takes -েন with the unraised vowel: ওঠেন. কয়টায় = 'at what time'."
+    },
+    {
+      "id": "e15",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আমি গান শুনি।",
+        "tr": "ami gan shuni.",
+        "en": "I listen to music."
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "আমি গান শুনি।",
+        "গান শুনি।",
+        "ami gan shuni",
+        "gan shuni",
+        "ami gan suni",
+        "gan suni"
+      ]
+    }
+  ]
+}

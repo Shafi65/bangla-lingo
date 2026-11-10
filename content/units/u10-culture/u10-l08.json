@@ -3,107 +3,45 @@
   "unit": "u10-culture",
   "title": "Review: festivals & friends",
   "status": "draft",
-  "tip": "Match the greeting to the occasion:\n\n- Eid — **ঈদ মোবারক** (in messages also **ঈদের শুভেচ্ছা**)\n- Pohela Boishakh — **শুভ নববর্ষ**\n- after Durga Puja — **শুভ বিজয়া**\n- a birthday — **শুভ জন্মদিন**\n- to a whole group — **সবাইকে ঈদের শুভেচ্ছা** 'Eid greetings to everyone'\n\nAnd match the register to the person: **চলেন** with your teacher, **চলো** with a classmate, **চল** with your best friend. When in doubt, go one level *more* polite.\n\n**যদি** 'if' + present tense: **যদি সময় হয়** 'if there's time' (literally 'if time happens'). Put it in front of an invitation to make it soft and easy to decline: **যদি সময় হয়, আমাদের বাসায় আসবেন** 'If you have time, please come to our home.'\n\n**লোক** is the everyday word for 'people': **মেলায় অনেক লোক** 'There are lots of people at the fair.'",
-  "vocab": [
-    {
-      "id": "shobaike",
-      "bn": "সবাইকে",
-      "tr": "shobaike",
-      "en": "everyone",
-      "notes": "Object form of সবাই 'everyone'."
-    },
-    {
-      "id": "jodi",
-      "bn": "যদি",
-      "tr": "jodi",
-      "en": "if"
-    },
-    {
-      "id": "hoy",
-      "bn": "হয়",
-      "tr": "hoy",
-      "en": "is",
-      "notes": "From হওয়া \"be, become, happen\". যদি সময় হয় \"if there's time\"."
-    },
-    {
-      "id": "lok",
-      "bn": "লোক",
-      "tr": "lok",
-      "en": "people",
-      "notes": "Everyday word for \"person / people\"; মানুষ is more neutral."
-    }
-  ],
+  "tip": "No new words: this review mixes the whole unit.\n\nMatch the greeting to the occasion:\n\n- Eid: **ঈদ মোবারক** (in messages also **ঈদের শুভেচ্ছা**)\n- Pohela Boishakh: **শুভ নববর্ষ**\n- after Durga Puja: **শুভ বিজয়া**\n- a birthday: **শুভ জন্মদিন**\n\nMatch the register to the person: **চলেন** with your teacher, **চলো** with a classmate, **চল** with your best friend. The future follows the same levels: **আসবেন** · **আসবে** · **আসবি**. When in doubt, go one level *more* polite.\n\nPlaces and days take **-e**: **ঈদে**, **পূজায়**, **রমজানে**, **মেলায়**, **মন্দিরে**, **শহীদ মিনারে**.",
+  "vocab": [],
   "exercises": [
     {
       "id": "e01",
       "type": "select_translation",
       "prompt": {
-        "bn": "সবাইকে",
-        "tr": "shobaike",
-        "en": "everyone"
+        "bn": "রমজানে আমরা রোজা রাখি, আর ইফতারে খেজুর খাই।",
+        "tr": "romjane amra roja rakhi, ar iftare khejur khai.",
+        "en": "In Ramadan we fast, and at iftar we eat dates."
       },
       "direction": "bn_to_en",
       "options": [
-        "someone",
-        "everyone",
-        "me",
-        "you (polite, object)"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "e02",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "যদি",
-        "tr": "jodi",
-        "en": "if"
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "but",
-        "because",
-        "if",
-        "then"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "e03",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "হয়",
-        "tr": "hoy",
-        "en": "is"
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "is",
-        "will be",
-        "was",
-        "has come"
+        "In Ramadan we fast, and at iftar we eat dates.",
+        "In Ramadan we fast, and at sehri we eat dates.",
+        "At Eid we fast, and at iftar we eat sweets.",
+        "In Ramadan we pray, and at iftar we eat rice."
       ],
       "answer": 0
     },
     {
-      "id": "e04",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "লোক",
-        "tr": "lok",
-        "en": "people"
+      "id": "e02",
+      "type": "listen_select",
+      "audio": {
+        "bn": "শুভ নববর্ষ",
+        "tr": "shubho noboborsho",
+        "en": "Happy New Year"
       },
-      "direction": "bn_to_en",
       "options": [
-        "fair",
-        "guest",
-        "friend",
-        "people"
+        "শুভ বিজয়া",
+        "শুভ জন্মদিন",
+        "শুভ নববর্ষ",
+        "ঈদ মোবারক"
       ],
-      "answer": 3
+      "answer": 2,
+      "why": "Every wish starts with শুভ 'happy': শুভ নববর্ষ is for Pohela Boishakh."
     },
     {
-      "id": "e05",
+      "id": "e03",
       "type": "match_pairs",
       "pairs": [
         {
@@ -112,80 +50,187 @@
           "en": "Eid Mubarak"
         },
         {
-          "bn": "শুভ নববর্ষ",
-          "tr": "shubho noboborsho",
-          "en": "Happy New Year"
+          "bn": "সেমাই",
+          "tr": "shemai",
+          "en": "shemai"
         },
         {
-          "bn": "শুভ বিজয়া",
-          "tr": "shubho bijoya",
-          "en": "greeting after Durga Puja"
+          "bn": "সালামি",
+          "tr": "shalami",
+          "en": "Eid money"
         },
         {
-          "bn": "শুভ জন্মদিন",
-          "tr": "shubho jonmodin",
-          "en": "Happy birthday"
+          "bn": "নতুন",
+          "tr": "notun",
+          "en": "new"
         },
         {
-          "bn": "লোক",
-          "tr": "lok",
-          "en": "people"
+          "bn": "ছুটি",
+          "tr": "chhuti",
+          "en": "holiday"
         }
       ]
     },
     {
-      "id": "e06",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "সবাইকে ঈদের শুভেচ্ছা।",
-        "tr": "shobaike ider shubhechchha.",
-        "en": "Eid greetings to everyone."
+      "id": "e04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "পান্তা ভাত",
+          "tr": "panta bhat",
+          "en": "panta bhat"
+        },
+        {
+          "bn": "মেলা",
+          "tr": "mela",
+          "en": "fair"
+        },
+        {
+          "bn": "আলপনা",
+          "tr": "alpona",
+          "en": "alpona"
+        },
+        {
+          "bn": "সুন্দর",
+          "tr": "shundor",
+          "en": "beautiful"
+        },
+        {
+          "bn": "ইফতার",
+          "tr": "iftar",
+          "en": "iftar"
+        }
+      ]
+    },
+    {
+      "id": "e05",
+      "type": "listen_select",
+      "audio": {
+        "bn": "একুশে ফেব্রুয়ারি আমরা শহীদ মিনারে যাই।",
+        "tr": "ekushe februari amra shohid minare jai.",
+        "en": "On 21 February we go to the Shaheed Minar."
       },
-      "direction": "en_to_bn",
       "options": [
-        "সবাইকে শুভ নববর্ষ।",
-        "আমাকে ঈদের শুভেচ্ছা।",
-        "সবাইকে ঈদের শুভেচ্ছা।",
-        "সবাইকে ঈদে শুভেচ্ছা।"
+        "স্বাধীনতা দিবসে আমরা শহীদ মিনারে যাই।",
+        "একুশে ফেব্রুয়ারি আমরা মন্দিরে যাই।",
+        "একুশে ফেব্রুয়ারি আমরা মেলায় যাই।",
+        "একুশে ফেব্রুয়ারি আমরা শহীদ মিনারে যাই।"
       ],
-      "answer": 2
+      "answer": 3
+    },
+    {
+      "id": "e06",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "দুর্গাপূজা",
+          "tr": "durgapuja",
+          "en": "Durga Puja"
+        },
+        {
+          "bn": "প্রতিমা",
+          "tr": "protima",
+          "en": "image (idol)"
+        },
+        {
+          "bn": "বিজয়া",
+          "tr": "bijoya",
+          "en": "Bijoya"
+        },
+        {
+          "bn": "উৎসব",
+          "tr": "utshob",
+          "en": "festival"
+        },
+        {
+          "bn": "দাওয়াত",
+          "tr": "dawat",
+          "en": "invitation"
+        }
+      ]
     },
     {
       "id": "e07",
       "type": "select_translation",
       "prompt": {
-        "bn": "শুভ বিজয়া।",
-        "tr": "shubho bijoya.",
-        "en": "Greet a neighbour after Durga Puja."
+        "bn": "পূজায় আমরা মন্দিরে যাই, আর ঈদে আমরা গ্রামে যাই।",
+        "tr": "pujay amra mondire jai, ar ide amra grame jai.",
+        "en": "At Puja we go to the temple, and at Eid we go to the village."
       },
-      "direction": "en_to_bn",
+      "direction": "bn_to_en",
       "options": [
-        "শুভ বিজয়া।",
-        "শুভ নববর্ষ।",
-        "ঈদ মোবারক।",
-        "শুভ জন্মদিন।"
+        "At Puja we go to the village, and at Eid we go to the temple.",
+        "At Puja we go to the temple, and at Eid we go to the village.",
+        "At Puja we go to the fair, and at Eid we go to the mosque.",
+        "For Puja we buy a sari, and for Eid we buy a shirt."
       ],
-      "answer": 0
+      "answer": 1,
+      "why": "-এ / -য় means 'at' or 'to': পূজায় 'at Puja', মন্দিরে 'to the temple'."
     },
     {
       "id": "e08",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "শুভ নববর্ষ।",
-        "tr": "shubho noboborsho.",
-        "en": "Greet a friend on Pohela Boishakh."
-      },
-      "direction": "en_to_bn",
-      "options": [
-        "ঈদ মোবারক।",
-        "শুভ বিজয়া।",
-        "শুভ জন্মদিন।",
-        "শুভ নববর্ষ।"
-      ],
-      "answer": 3
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "ভাষা",
+          "tr": "bhasha",
+          "en": "language"
+        },
+        {
+          "bn": "মাতৃভাষা",
+          "tr": "matribhasha",
+          "en": "mother tongue"
+        },
+        {
+          "bn": "দিবস",
+          "tr": "dibosh",
+          "en": "day"
+        },
+        {
+          "bn": "বিজয় দিবস",
+          "tr": "bijoy dibosh",
+          "en": "Victory Day"
+        },
+        {
+          "bn": "স্বাধীনতা",
+          "tr": "shadhinota",
+          "en": "independence"
+        }
+      ]
     },
     {
       "id": "e09",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "মেহমান",
+          "tr": "mehman",
+          "en": "guest"
+        },
+        {
+          "bn": "উপহার",
+          "tr": "upohar",
+          "en": "gift"
+        },
+        {
+          "bn": "জন্মদিন",
+          "tr": "jonmodin",
+          "en": "birthday"
+        },
+        {
+          "bn": "লোক",
+          "tr": "lok",
+          "en": "people"
+        },
+        {
+          "bn": "সেহরি",
+          "tr": "sehri",
+          "en": "sehri"
+        }
+      ]
+    },
+    {
+      "id": "e10",
       "type": "word_bank",
       "prompt": {
         "bn": "আজ পহেলা বৈশাখ, চলো মেলায় যাই।",
@@ -219,23 +264,26 @@
       ]
     },
     {
-      "id": "e10",
+      "id": "e11",
       "type": "word_bank",
       "prompt": {
-        "bn": "যদি সময় হয়, আমাদের বাসায় আসবেন।",
-        "tr": "jodi shomoy hoy, amader bashay ashben.",
-        "en": "If you have time, please come to our home. (polite)"
+        "bn": "যদি সময় হয়, আমাদের বাসায় আসবেন, পিঠা খাবেন।",
+        "tr": "jodi shomoy hoy, amader bashay ashben, pitha khaben.",
+        "en": "If you have time, please come to our home and have some pitha. (polite)"
       },
       "direction": "en_to_bn",
       "tiles": [
         "যদি",
-        "হবে",
         "সময়",
         "হয়",
+        "হবে",
         "আমাদের",
-        "আসবে",
         "বাসায়",
-        "আসবেন"
+        "আসবেন",
+        "আসবে",
+        "পিঠা",
+        "খাবেন",
+        "খাবি"
       ],
       "answer": [
         "যদি",
@@ -243,182 +291,91 @@
         "হয়",
         "আমাদের",
         "বাসায়",
-        "আসবেন"
+        "আসবেন",
+        "পিঠা",
+        "খাবেন"
       ],
-      "alt": [
-        [
-          "আমাদের",
-          "বাসায়",
-          "আসবেন",
-          "যদি",
-          "সময়",
-          "হয়"
-        ]
-      ]
-    },
-    {
-      "id": "e11",
-      "type": "type_translation",
-      "prompt": {
-        "bn": "মেলায় অনেক লোক।",
-        "tr": "melay onek lok.",
-        "en": "There are a lot of people at the fair."
-      },
-      "direction": "bn_to_en",
-      "accepted": [
-        "There are a lot of people at the fair.",
-        "There are many people at the fair.",
-        "There are lots of people at the fair.",
-        "There are so many people at the fair.",
-        "A lot of people at the fair.",
-        "Lots of people at the fair.",
-        "Many people at the fair.",
-        "The fair is very crowded.",
-        "The fair is crowded.",
-        "There are a lot of people in the fair.",
-        "There are many people in the fair."
-      ]
+      "why": "যদি takes the present (হয়); a polite invitation uses the future -বেন: আসবেন, খাবেন."
     },
     {
       "id": "e12",
       "type": "word_bank",
       "prompt": {
-        "bn": "দোস্ত, চল ইফতার করি।",
-        "tr": "dost, chol iftar kori.",
-        "en": "Buddy, let's have iftar. (intimate)"
+        "bn": "সবাইকে ঈদের শুভেচ্ছা।",
+        "tr": "shobaike ider shubhechchha.",
+        "en": "Eid greetings to everyone."
       },
       "direction": "en_to_bn",
       "tiles": [
-        "চলেন",
-        "দোস্ত",
-        "সেহরি",
-        "চল",
-        "ইফতার",
-        "করি"
+        "সবাইকে",
+        "সবাই",
+        "ঈদের",
+        "ঈদে",
+        "শুভেচ্ছা",
+        "শুভ"
       ],
       "answer": [
-        "দোস্ত",
-        "চল",
-        "ইফতার",
-        "করি"
-      ]
+        "সবাইকে",
+        "ঈদের",
+        "শুভেচ্ছা"
+      ],
+      "why": "'Greetings to everyone' uses the object form সবাইকে; 'Eid's' is ঈদের."
     },
     {
       "id": "e13",
-      "type": "type_translation",
+      "type": "select_translation",
       "prompt": {
-        "bn": "আমাদের বাসায় আসবেন, পিঠা খাবেন।",
-        "tr": "amader bashay ashben, pitha khaben.",
-        "en": "Please come to our home and have some pitha."
+        "bn": "দোস্ত, তুই কি আসবি?",
+        "tr": "dost, tui ki ashbi?",
+        "en": "Buddy, will you come? (intimate, to your best friend)"
       },
-      "direction": "bn_to_en",
-      "accepted": [
-        "Please come to our home and have some pitha.",
-        "Please come to our home and have pitha.",
-        "Please come to our home and eat some pitha.",
-        "Please come to our home and eat pitha.",
-        "Please come to our home, have some pitha.",
-        "Please come to our home and have some rice cakes.",
-        "Please come to our house and have some pitha.",
-        "Please come to our house and have pitha.",
-        "Please come to our house and eat some pitha.",
-        "Please come to our house and eat pitha.",
-        "Please come to our house, have some pitha.",
-        "Please come to our house and have some rice cakes.",
-        "Please come to our place and have some pitha.",
-        "Please come to our place and have pitha.",
-        "Please come to our place and eat some pitha.",
-        "Please come to our place and eat pitha.",
-        "Please come to our place, have some pitha.",
-        "Please come to our place and have some rice cakes.",
-        "Come to our home and have some pitha.",
-        "Come to our home and have pitha.",
-        "Come to our home and eat some pitha.",
-        "Come to our home and eat pitha.",
-        "Come to our home, have some pitha.",
-        "Come to our home and have some rice cakes.",
-        "Come to our house and have some pitha.",
-        "Come to our house and have pitha.",
-        "Come to our house and eat some pitha.",
-        "Come to our house and eat pitha.",
-        "Come to our house, have some pitha.",
-        "Come to our house and have some rice cakes.",
-        "Come to our place and have some pitha.",
-        "Come to our place and have pitha.",
-        "Come to our place and eat some pitha.",
-        "Come to our place and eat pitha.",
-        "Come to our place, have some pitha.",
-        "Come to our place and have some rice cakes.",
-        "Do come to our home and have some pitha.",
-        "Do come to our home and have pitha.",
-        "Do come to our home and eat some pitha.",
-        "Do come to our home and eat pitha.",
-        "Do come to our home, have some pitha.",
-        "Do come to our home and have some rice cakes.",
-        "Do come to our house and have some pitha.",
-        "Do come to our house and have pitha.",
-        "Do come to our house and eat some pitha.",
-        "Do come to our house and eat pitha.",
-        "Do come to our house, have some pitha.",
-        "Do come to our house and have some rice cakes.",
-        "Do come to our place and have some pitha.",
-        "Do come to our place and have pitha.",
-        "Do come to our place and eat some pitha.",
-        "Do come to our place and eat pitha.",
-        "Do come to our place, have some pitha.",
-        "Do come to our place and have some rice cakes.",
-        "Please do come to our home and have some pitha.",
-        "Please do come to our home and have pitha.",
-        "Please do come to our home and eat some pitha.",
-        "Please do come to our home and eat pitha.",
-        "Please do come to our home, have some pitha.",
-        "Please do come to our home and have some rice cakes.",
-        "Please do come to our house and have some pitha.",
-        "Please do come to our house and have pitha.",
-        "Please do come to our house and eat some pitha.",
-        "Please do come to our house and eat pitha.",
-        "Please do come to our house, have some pitha.",
-        "Please do come to our house and have some rice cakes.",
-        "Please do come to our place and have some pitha.",
-        "Please do come to our place and have pitha.",
-        "Please do come to our place and eat some pitha.",
-        "Please do come to our place and eat pitha.",
-        "Please do come to our place, have some pitha.",
-        "Please do come to our place and have some rice cakes."
-      ]
+      "direction": "en_to_bn",
+      "options": [
+        "দোস্ত, তুই কি আসবে?",
+        "দোস্ত, তুই কি আসবি?",
+        "দোস্ত, তুই কি আসবেন?",
+        "দোস্ত, তুমি কি আসবি?"
+      ],
+      "answer": 1,
+      "why": "তুই takes the future -বি: আসবি. আসবে is for তুমি, আসবেন for আপনি."
     },
     {
       "id": "e14",
       "type": "select_translation",
       "prompt": {
-        "bn": "যদি সময় হয়, চলো মেলায় যাই।",
-        "tr": "jodi shomoy hoy, cholo melay jai.",
-        "en": "If there's time, let's go to the fair. (familiar)"
+        "bn": "চলেন, চা খাই।",
+        "tr": "cholen, cha khai.",
+        "en": "(To your teacher) Shall we have tea?"
       },
       "direction": "en_to_bn",
       "options": [
-        "যদি সময় হয়, চলেন মেলায় যাই।",
-        "যদি সময় হয়, চল মেলায় যাই।",
-        "যদি সময় হবে, চলো মেলায় যাই।",
-        "যদি সময় হয়, চলো মেলায় যাই।"
+        "চল, চা খাই।",
+        "চলো, চা খাই।",
+        "চলেন, চা খাই।",
+        "চলেন, চা খাবি।"
       ],
-      "answer": 3
+      "answer": 2,
+      "why": "With আপনি use চলেন; চলো is for তুমি, চল for তুই."
     },
     {
       "id": "e15",
-      "type": "listen_select",
-      "audio": {
-        "bn": "সবাইকে",
-        "tr": "shobaike",
-        "en": "everyone"
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আজ নাচ আর গান হবে।",
+        "tr": "aj nach ar gan hobe.",
+        "en": "There will be dancing and singing today."
       },
-      "options": [
-        "সবাই",
-        "সবাইকে",
-        "সব",
-        "সবজি"
-      ],
-      "answer": 1
+      "direction": "bn_to_en",
+      "accepted": [
+        "There will be dancing and singing today.",
+        "There will be dance and music today.",
+        "There will be dancing and music today.",
+        "Today there will be dancing and singing.",
+        "Today there will be dance and music.",
+        "Today there will be dancing and music.",
+        "There will be dance and song today.",
+        "Today there will be dance and songs."
+      ]
     }
   ]
 }

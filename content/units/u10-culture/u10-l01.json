@@ -3,7 +3,7 @@
   "unit": "u10-culture",
   "title": "Eid",
   "status": "draft",
-  "tip": "Bangladesh celebrates two Eids: *Eid-ul-Fitr*, at the end of Ramadan, and *Eid-ul-Adha*, the festival of sacrifice, about two months later. They follow the Islamic lunar calendar, so their dates move about 11 days earlier each year. The greeting for both is **ঈদ মোবারক!**, and the reply is the same.\n\nOn Eid morning people go to the Eid prayer (**ঈদের নামাজ**), wear **নতুন** (new) clothes and visit relatives. At Eid-ul-Fitr almost every home serves **সেমাই** (sweet milky vermicelli); at Eid-ul-Adha, families who can afford it sacrifice an animal and share the meat. Children greet elders with *salam* and get **সালামি** (Eid money): **আপু, সালামি দাও!** 'Apu, give me Eid money!'\n\nEndings: *-e* = 'at', *-er* = 'of':\n\n- **ঈদে আমরা গ্রামে যাই** — 'At Eid we go to the village'\n- **ঈদের দিন সকালে** — 'on the morning of Eid day'\n\nAt Eid millions leave Dhaka for their home villages.",
+  "tip": "Bangladesh celebrates two Eids: *Eid-ul-Fitr*, at the end of Ramadan, and *Eid-ul-Adha*, the festival of sacrifice, about two months later. Their dates follow the lunar calendar and move about 11 days earlier each year. Greet with **ঈদ মোবারক!**; the reply is the same.\n\nOn Eid morning people go to the Eid prayer (**ঈদের নামাজ**), wear **নতুন** (new) clothes and visit relatives. At Eid-ul-Fitr almost every home serves **সেমাই** (sweet milky vermicelli); at Eid-ul-Adha, families who can afford it sacrifice an animal and share the meat. Children greet elders with *salam* and get **সালামি** (Eid money): **আপু, সালামি দাও!** 'Apu, give me Eid money!'\n\nEndings: *-e* = 'at', *-er* = 'of':\n\n- **ঈদে আমরা গ্রামে যাই** — 'At Eid we go to the village'\n- **ঈদের দিন সকালে** — 'on the morning of Eid day'\n\nEid is a public holiday (**ছুটি**), and millions leave Dhaka for their home villages.",
   "vocab": [
     {
       "id": "id-mubarak",
@@ -43,6 +43,12 @@
       "bn": "নতুন",
       "tr": "notun",
       "en": "new"
+    },
+    {
+      "id": "chhuti",
+      "bn": "ছুটি",
+      "tr": "chhuti",
+      "en": "holiday"
     }
   ],
   "exercises": [
@@ -99,19 +105,20 @@
     },
     {
       "id": "e04",
-      "type": "listen_select",
-      "audio": {
-        "bn": "ঈদের",
-        "tr": "ider",
-        "en": "of Eid"
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ছুটি",
+        "tr": "chhuti",
+        "en": "holiday"
       },
+      "direction": "bn_to_en",
       "options": [
-        "ঈদে",
-        "ইলিশের",
-        "এটার",
-        "ঈদের"
+        "prayer",
+        "holiday",
+        "new",
+        "fair"
       ],
-      "answer": 3
+      "answer": 1
     },
     {
       "id": "e05",
@@ -151,15 +158,15 @@
       "id": "e07",
       "type": "listen_select",
       "audio": {
-        "bn": "সালামি",
-        "tr": "shalami",
-        "en": "Eid money"
+        "bn": "ছুটি",
+        "tr": "chhuti",
+        "en": "holiday"
       },
       "options": [
-        "সেমাই",
-        "শাড়ি",
-        "সালামি",
-        "সবজি"
+        "ছবি",
+        "ছয়",
+        "ছুটি",
+        "ছোট"
       ],
       "answer": 2
     },
