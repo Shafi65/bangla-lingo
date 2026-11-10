@@ -321,29 +321,20 @@
     },
     {
       "id": "e12",
-      "type": "word_bank",
+      "type": "select_translation",
       "prompt": {
-        "bn": "আমার দাদা সবসময় নামাজ পড়েন।",
-        "tr": "amar dada shobshomoy namaj poren.",
-        "en": "My grandfather always prays."
+        "bn": "আপনি কি প্রতিদিন নামাজ পড়েন?",
+        "tr": "apni ki protidin namaj poren?",
+        "en": "Do you pray every day?"
       },
       "direction": "bn_to_en",
-      "tiles": [
-        "sometimes",
-        "My",
-        "pray",
-        "grandfather",
-        "never",
-        "always",
-        "grandmother",
-        "prays"
+      "options": [
+        "Do you always pray?",
+        "Do you pray every day?",
+        "Do you pray sometimes?",
+        "Do you never pray?"
       ],
-      "answer": [
-        "My",
-        "grandfather",
-        "always",
-        "prays"
-      ]
+      "answer": 1
     },
     {
       "id": "e13",
@@ -401,20 +392,29 @@
     },
     {
       "id": "e15",
-      "type": "select_translation",
+      "type": "word_bank",
       "prompt": {
-        "bn": "আপনি কি প্রতিদিন নামাজ পড়েন?",
-        "tr": "apni ki protidin namaj poren?",
-        "en": "Do you pray every day?"
+        "bn": "আমার দাদা সবসময় নামাজ পড়েন।",
+        "tr": "amar dada shobshomoy namaj poren.",
+        "en": "My grandfather always prays."
       },
       "direction": "bn_to_en",
-      "options": [
-        "Do you always pray?",
-        "Do you pray every day?",
-        "Do you pray sometimes?",
-        "Do you never pray?"
+      "tiles": [
+        "sometimes",
+        "My",
+        "pray",
+        "grandfather",
+        "never",
+        "always",
+        "grandmother",
+        "prays"
       ],
-      "answer": 1
+      "answer": [
+        "My",
+        "grandfather",
+        "always",
+        "prays"
+      ]
     }
   ]
 }

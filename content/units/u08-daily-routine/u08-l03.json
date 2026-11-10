@@ -128,12 +128,12 @@
         "tr": "ami ofise jai.",
         "en": "I go to the office."
       },
-      "direction": "en_to_bn",
+      "direction": "bn_to_en",
       "options": [
-        "আমি অফিসে যায়।",
-        "আমি অফিসে যান।",
-        "আমি অফিসে যাও।",
-        "আমি অফিসে যাই।"
+        "He goes to the office.",
+        "I go to school.",
+        "I come to the office.",
+        "I go to the office."
       ],
       "answer": 3
     },
@@ -174,18 +174,18 @@
       "id": "e07",
       "type": "select_translation",
       "prompt": {
-        "bn": "আসে",
-        "tr": "ashe",
-        "en": "comes"
+        "bn": "স্কুলে",
+        "tr": "skule",
+        "en": "to school"
       },
       "direction": "bn_to_en",
       "options": [
-        "I come",
-        "goes",
-        "I go",
-        "comes"
+        "to the office",
+        "to school",
+        "school",
+        "at home"
       ],
-      "answer": 3
+      "answer": 1
     },
     {
       "id": "e08",

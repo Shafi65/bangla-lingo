@@ -414,12 +414,12 @@
       },
       "direction": "bn_to_en",
       "options": [
+        "Do you usually bathe in the morning?",
         "Do you always bathe in the morning?",
         "Do you usually bathe at night?",
-        "Do you usually sleep in the morning?",
-        "Do you usually bathe in the morning?"
+        "Do you usually sleep in the morning?"
       ],
-      "answer": 3
+      "answer": 0
     }
   ]
 }

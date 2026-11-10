@@ -3,7 +3,7 @@
   "unit": "u10-culture",
   "title": "Eid",
   "status": "draft",
-  "tip": "Bangladesh celebrates two Eids: *Eid-ul-Fitr*, which ends the month of Ramadan, and *Eid-ul-Adha*, the festival of sacrifice, about two months later. Both follow the Islamic lunar calendar, so their dates move about 11 days earlier each year. The greeting for both is **ঈদ মোবারক!** and the reply is the same words.\n\nOn Eid morning people go to the Eid prayer (**ঈদের নামাজ**), wear **নতুন** (new) clothes and visit relatives. At *Eid-ul-Fitr* almost every home serves **সেমাই**, sweet milky vermicelli. At *Eid-ul-Adha*, families who can afford it sacrifice an animal and share the meat with relatives, neighbours and people in need.\n\nChildren greet their elders with *salam* and receive **সালামি**, Eid money. **আপু, সালামি দাও!** 'Apu, give me Eid money!' is a classic line from a younger sibling.\n\nGrammar: **ঈদে** = 'at Eid' (the *-e* 'at' ending), **ঈদের** = 'of Eid' (the *-er* 'of' ending), as in **ঈদের দিন** 'Eid day'. Don't mix them up:\n\n- **ঈদে আমরা গ্রামে যাই** — 'At Eid we go to the village'\n- **ঈদের দিন সকালে** — 'on the morning of Eid day'\n\nMillions of people leave Dhaka for their home villages at Eid, and the city goes quiet for days.",
+  "tip": "Bangladesh celebrates two Eids: *Eid-ul-Fitr*, at the end of Ramadan, and *Eid-ul-Adha*, the festival of sacrifice, about two months later. They follow the Islamic lunar calendar, so their dates move about 11 days earlier each year. The greeting for both is **ঈদ মোবারক!**, and the reply is the same.\n\nOn Eid morning people go to the Eid prayer (**ঈদের নামাজ**), wear **নতুন** (new) clothes and visit relatives. At Eid-ul-Fitr almost every home serves **সেমাই** (sweet milky vermicelli); at Eid-ul-Adha, families who can afford it sacrifice an animal and share the meat. Children greet elders with *salam* and get **সালামি** (Eid money): **আপু, সালামি দাও!** 'Apu, give me Eid money!'\n\nEndings: *-e* = 'at', *-er* = 'of':\n\n- **ঈদে আমরা গ্রামে যাই** — 'At Eid we go to the village'\n- **ঈদের দিন সকালে** — 'on the morning of Eid day'\n\nAt Eid millions leave Dhaka for their home villages.",
   "vocab": [
     {
       "id": "id-mubarak",
@@ -236,6 +236,15 @@
         "morning",
         "we",
         "pray"
+      ],
+      "alt": [
+        [
+          "we",
+          "pray",
+          "On",
+          "Eid",
+          "morning"
+        ]
       ]
     },
     {
@@ -301,6 +310,25 @@
           "shirt",
           "for",
           "Eid"
+        ],
+        [
+          "for",
+          "Eid",
+          "I",
+          "will",
+          "buy",
+          "new",
+          "clothes"
+        ],
+        [
+          "for",
+          "Eid",
+          "I",
+          "will",
+          "buy",
+          "a",
+          "new",
+          "shirt"
         ]
       ]
     },
