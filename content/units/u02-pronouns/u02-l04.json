@@ -3,7 +3,7 @@
   "unit": "u02-pronouns",
   "title": "Is, isn't & yes/no",
   "status": "draft",
-  "tip": "To ask a yes/no question, add **কি** (*ki*), usually right after the subject: **আপনি কি শিক্ষক?** 'Are you a teacher?' Spelling: **কি** (short ি) is the question marker; **কী** (long ী) means 'what'. They sound the same: **এটা কী?** 'What is this?' vs **ওটা কি আম?** 'Is that a mango?'\n\n'Is' has no word in Bengali, but **'is not'** does — and it changes with the person:\n\n- আমি ছাত্র **নই** — I'm not a student\n- তুমি ছাত্র **নও** — you're not\n- আপনি / উনি ছাত্র **নন** — you / he (polite) aren't\n- সে / এটা **নয়** — he / it isn't\n\n**নয় or নেই?** Both come out as 'isn't' in English, but they deny different things:\n\n- **নয়** (and নই / নও / নন) denies *what* someone is: রাফি ডাক্তার **নয়** 'Rafi isn't a doctor.'\n- **নেই** denies that someone is *there* — it's the opposite of আছে: রাফি এখানে **নেই** 'Rafi isn't here.'\n\nIn relaxed Bangladeshi speech you'll also hear plain **না** in place of নয়: *ota am na*. In this course we practise the full set, which is used in writing and careful speech.\n\n**এটা / ওটা** = 'this / that'. The **-টা** on the end is a *classifier* — a little word Bengali attaches to things. You'll see lots of it in the Food unit.",
+  "tip": "To ask a yes/no question, add **কি** (*ki*), usually right after the subject: **আপনি কি শিক্ষক?** 'Are you a teacher?' Spelling: **কি** (short ি) is the question marker; **কী** (long ী) means 'what'. They sound the same: **এটা কী?** 'What is this?' vs **ওটা কি আম?** 'Is that a mango?'\n\n'Is' has no word in Bengali, but **'is not'** does, and it changes with the person:\n\n- আমি ছাত্র **নই**: I'm not a student\n- তুমি ছাত্র **নও**: you're not\n- আপনি / উনি ছাত্র **নন**: you / he (polite) aren't\n- সে / এটা **নয়**: he / it isn't\n\n**নয় or নেই?** **নয়** (and নই / নও / নন) denies *what* someone is: রাফি ডাক্তার **নয়**. **নেই** denies that someone is *there*: রাফি এখানে **নেই**.\n\n**এটা / ওটা** = this / that. **কে** = who.",
   "vocab": [
     {
       "id": "ki-q",
@@ -140,7 +140,7 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "is not / are not (polite)",
+        "are not (familiar)",
         "is not (here); there isn't",
         "is not",
         "am not"
@@ -166,22 +166,6 @@
     },
     {
       "id": "e07",
-      "type": "listen_select",
-      "audio": {
-        "bn": "এটা",
-        "tr": "eta",
-        "en": "this"
-      },
-      "options": [
-        "এটা",
-        "ওটা",
-        "এখানে",
-        "ওখানে"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "e08",
       "type": "match_pairs",
       "pairs": [
         {
@@ -212,7 +196,57 @@
       ]
     },
     {
+      "id": "e08",
+      "type": "listen_select",
+      "audio": {
+        "bn": "এটা",
+        "tr": "eta",
+        "en": "this"
+      },
+      "options": [
+        "এটা",
+        "ওটা",
+        "এখানে",
+        "ওখানে"
+      ],
+      "answer": 0
+    },
+    {
       "id": "e09",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "এটা কী?",
+        "tr": "eta ki?",
+        "en": "What is this?"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "এটা কি?",
+        "এটা কী?",
+        "ওটা কী?",
+        "এটা কে?"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e10",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "রাফি ডাক্তার নয়।",
+        "tr": "rafi daktar noy.",
+        "en": "Rafi isn't a doctor."
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "রাফি ডাক্তার নেই।",
+        "রাফি এখানে নয়।",
+        "রাফি ডাক্তার নও।",
+        "রাফি ডাক্তার নয়।"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e11",
       "type": "word_bank",
       "prompt": {
         "bn": "ওটা কি আম?",
@@ -235,24 +269,7 @@
       ]
     },
     {
-      "id": "e10",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "এটা কী?",
-        "tr": "eta ki?",
-        "en": "What is this?"
-      },
-      "direction": "en_to_bn",
-      "options": [
-        "এটা কি?",
-        "এটা কী?",
-        "ওটা কী?",
-        "এটা কে?"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "e11",
+      "id": "e12",
       "type": "word_bank",
       "prompt": {
         "bn": "উনি ডাক্তার নন।",
@@ -275,7 +292,7 @@
       ]
     },
     {
-      "id": "e12",
+      "id": "e13",
       "type": "word_bank",
       "prompt": {
         "bn": "আমি শিক্ষক নই।",
@@ -296,23 +313,6 @@
         "শিক্ষক",
         "নই"
       ]
-    },
-    {
-      "id": "e13",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "রাফি ডাক্তার নয়।",
-        "tr": "rafi daktar noy.",
-        "en": "Rafi isn't a doctor."
-      },
-      "direction": "en_to_bn",
-      "options": [
-        "রাফি ডাক্তার নেই।",
-        "রাফি এখানে নয়।",
-        "রাফি ডাক্তার নও।",
-        "রাফি ডাক্তার নয়।"
-      ],
-      "answer": 3
     },
     {
       "id": "e14",

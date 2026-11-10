@@ -3,7 +3,7 @@
   "unit": "s02-consonants",
   "title": "Consonants 2: চ ছ জ ঝ ঞ",
   "status": "draft",
-  "tip": "Row 2 is made with the tongue pressed to the roof of the mouth: **চ ছ জ ঝ ঞ**.\n\n**চ** = `ch` as in *church*, but without a puff. **ছ** = `chh`, the same sound with a strong puff of air (ছাত্র `chhatro`). চা (*tea*) vs ছা: the puff is the whole difference.\n\n**জ** = `j` as in *jam* (জি `ji`, the polite 'yes'). **ঝ** = `jh`, a breathy j (ঝাল `jhal`, *spicy*).\n\n**ঞ** is the row's nasal. You'll almost never see it alone; it hides inside conjuncts like ঞ্চ in পঞ্চাশ (`ponchash`, *fifty*).",
+  "tip": "Row 2 is made with the tongue pressed to the roof of the mouth: **চ ছ জ ঝ ঞ**.\n\n**চ** = `ch` as in *church*, without a puff. **ছ** = `chh`, the same sound with a strong puff of air (ছাত্র `chhatro`). The puff is the whole difference between চা (*tea*) and ছা.\n\n**জ** = `j` as in *jam* (জি `ji`, the polite 'yes'). **ঝ** = `jh`, a breathy j (ঝাল `jhal`, *spicy*).\n\n**ঞ** is the row's nasal. You'll almost never see it alone; it hides inside joined letters like ঞ্চ in পঞ্চাশ (`ponchash`, *fifty*).",
   "vocab": [
     {
       "id": "l-cha",
@@ -69,6 +69,18 @@
     },
     {
       "id": "e02",
+      "type": "script_recognize",
+      "glyph": "ছ",
+      "options": [
+        "jho (j + breathy puff)",
+        "cho (ch, no puff)",
+        "kho (k + puff of air)",
+        "chho (ch + strong puff)"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e03",
       "type": "listen_select",
       "audio": {
         "bn": "ছ",
@@ -82,18 +94,6 @@
         "ঝ"
       ],
       "answer": 0
-    },
-    {
-      "id": "e03",
-      "type": "script_recognize",
-      "glyph": "ছ",
-      "options": [
-        "jho (j + breathy puff)",
-        "cho (ch, no puff)",
-        "kho (k + puff of air)",
-        "chho (ch + strong puff)"
-      ],
-      "answer": 3
     },
     {
       "id": "e04",
@@ -198,39 +198,6 @@
     },
     {
       "id": "e11",
-      "type": "listen_select",
-      "audio": {
-        "bn": "ঝড়",
-        "tr": "jhor",
-        "en": "storm"
-      },
-      "options": [
-        "ঝাল",
-        "চোখ",
-        "ঝড়",
-        "ছাত্র"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "e12",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "চা",
-        "tr": "cha",
-        "en": "tea"
-      },
-      "direction": "en_to_bn",
-      "options": [
-        "চোখ",
-        "জি",
-        "ঝাল",
-        "চা"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "e13",
       "type": "select_translation",
       "prompt": {
         "bn": "ঝাল",
@@ -247,7 +214,24 @@
       "answer": 0
     },
     {
-      "id": "e14",
+      "id": "e12",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ঝড়",
+        "tr": "jhor",
+        "en": "storm"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "eye",
+        "tea",
+        "storm",
+        "tree"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e13",
       "type": "select_translation",
       "prompt": {
         "bn": "পঞ্চাশ",
@@ -264,7 +248,7 @@
       "answer": 2
     },
     {
-      "id": "e15",
+      "id": "e14",
       "type": "match_pairs",
       "pairs": [
         {
@@ -293,6 +277,22 @@
           "en": "n, found almost only inside conjuncts (ঞ্চ = 'nch')"
         }
       ]
+    },
+    {
+      "id": "e15",
+      "type": "listen_select",
+      "audio": {
+        "bn": "চা",
+        "tr": "cha",
+        "en": "tea"
+      },
+      "options": [
+        "চোখ",
+        "জি",
+        "ঝাল",
+        "চা"
+      ],
+      "answer": 3
     }
   ]
 }

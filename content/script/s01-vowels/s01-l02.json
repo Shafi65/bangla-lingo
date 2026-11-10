@@ -3,7 +3,7 @@
   "unit": "s01-vowels",
   "title": "Vowels 2: উ ঊ ঋ এ",
   "status": "draft",
-  "tip": "- **উ** and **ঊ** are both `u` as in *food*. Like ই/ঈ, they are a 'short' (*hroshsho-u*) and 'long' (*dirgho-u*) pair that **sound the same in speech**. Mnemonic: ঊ is উ with an extra hook on top, the 'longer' one has more ink.\n- **ঋ** is said `ri` as in *rip*. It mostly appears in words borrowed from Sanskrit, like ঋতু (season).\n- **এ** = `e`. It has two sounds: open 'a' as in *bad/ack* (এক `ek`, one; এখন `ekhon`, now) or 'ay' as in *say* (এই `ei`, this). You learn which by listening.\n\nWatch out: উ and ঊ are easy to confuse with the consonant ড (d) later. Look for the little tail on উ.",
+  "tip": "- **উ** and **ঊ** are both `u` as in *food*, a 'short' and 'long' pair that **sound the same** in speech. The long ঊ has one more stroke.\n- **ঋ** is said `ri` as in *rip*. It mostly appears in words borrowed from Sanskrit, like ঋতু (season).\n- **এ** = `e`. It has two sounds: an open 'a' as in *cat* (এক `ek`, one; এখন `ekhon`, now) or 'ay' as in *say* (এই `ei`, this). You learn which by listening.\n\nWatch out: উ looks a lot like the consonant ড (`d`) that you'll meet later; ড has a notch in its top line.",
   "vocab": [
     {
       "id": "l-u",
@@ -156,22 +156,6 @@
     },
     {
       "id": "e05",
-      "type": "listen_select",
-      "audio": {
-        "bn": "উট",
-        "tr": "ut",
-        "en": "camel"
-      },
-      "options": [
-        "উট",
-        "এক",
-        "ঋষি",
-        "ইট"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "e06",
       "type": "select_translation",
       "prompt": {
         "bn": "উট",
@@ -186,6 +170,22 @@
         "now"
       ],
       "answer": 1
+    },
+    {
+      "id": "e06",
+      "type": "listen_select",
+      "audio": {
+        "bn": "উট",
+        "tr": "ut",
+        "en": "camel"
+      },
+      "options": [
+        "উট",
+        "এক",
+        "ঋষি",
+        "ইট"
+      ],
+      "answer": 0
     },
     {
       "id": "e07",

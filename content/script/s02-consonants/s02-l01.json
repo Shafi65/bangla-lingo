@@ -3,7 +3,7 @@
   "unit": "s02-consonants",
   "title": "Consonants 1: ক খ গ ঘ ঙ",
   "status": "draft",
-  "tip": "**Consonants (ব্যঞ্জনবর্ণ byænjonborno) come in rows of five**, ordered from the back of the mouth to the lips. Row 1 is made in the throat: **ক খ গ ঘ ঙ**.\n\n**Every consonant has a built-in vowel `o`.** On its own, ক is read `ko`. At the end of a word that `o` usually goes silent: ঘর is `ghor`, not *ghoro*.\n\n**Aspiration is a real difference.** খ (`kh`) and ঘ (`gh`) are ক and গ with a puff of air; hold a hand in front of your mouth to feel it. ক is like the k in *skin* (no puff). Getting this wrong changes words, so listen closely.\n\n**ঙ** (`ng` as in *sing*) never starts a word and sounds just like the sign ং, which you'll meet in s02-l07.",
+  "tip": "**Consonants (ব্যঞ্জনবর্ণ) come in rows of five**, ordered from the back of the mouth to the lips. Row 1 is made in the throat: **ক খ গ ঘ ঙ**.\n\n**Every consonant has a built-in vowel `o`.** On its own, ক is read `ko`. At the end of a word that `o` usually goes silent: ঘর is `ghor`, not *ghoro*.\n\n**Aspiration is a real difference.** খ (`kh`) and ঘ (`gh`) are ক and গ with a puff of air; hold a hand in front of your mouth to feel it. ক is like the k in *skin* (no puff). Getting this wrong changes words, so listen closely.\n\n**ঙ** (`ng` as in *sing*) never starts a word and sounds just like the sign ং, which you'll meet later in this unit.",
   "vocab": [
     {
       "id": "l-ka",
@@ -82,6 +82,18 @@
     },
     {
       "id": "e02",
+      "type": "script_recognize",
+      "glyph": "খ",
+      "options": [
+        "ko (k, no puff)",
+        "gho (g + breathy puff)",
+        "kho (k + puff of air)",
+        "a (as in 'father')"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e03",
       "type": "listen_select",
       "audio": {
         "bn": "খ",
@@ -93,18 +105,6 @@
         "ঘ",
         "খ",
         "গ"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "e03",
-      "type": "script_recognize",
-      "glyph": "খ",
-      "options": [
-        "ko (k, no puff)",
-        "gho (g + breathy puff)",
-        "kho (k + puff of air)",
-        "a (as in 'father')"
       ],
       "answer": 2
     },
@@ -250,14 +250,14 @@
         "tr": "bangali",
         "en": "Bengali (person)"
       },
-      "direction": "en_to_bn",
+      "direction": "bn_to_en",
       "options": [
-        "বাঙালি",
-        "ঘর",
-        "গাছ",
-        "ঘণ্টা"
+        "cow",
+        "tree",
+        "Bengali (person)",
+        "room / house"
       ],
-      "answer": 0
+      "answer": 2
     },
     {
       "id": "e14",

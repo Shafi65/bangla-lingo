@@ -3,7 +3,7 @@
   "unit": "u03-family",
   "title": "I have…",
   "status": "draft",
-  "tip": "Bengali has no verb 'to have'. Instead you say **'to me there is'**: **আমার একটা বোন আছে** (*amar ekta bon achhe*) — literally 'My one sister exists' = 'I have a sister.' Note it's **আমার**, not আমি. The negative uses **নেই**: **আমার ভাই নেই** = 'I have no brother.' Question: **তোমার কি ভাই আছে?**\n\nWhen you count, Bengali adds a **classifier** to the number. For people use **-জন** (*-jon*): **একজন** (one person), **দুইজন** (two people), **কয়জন?** (how many people?). In casual speech **-টা** is common too: **একটা বোন**.\n\nPlural possessives: আমরা → **আমাদের** (our), তোমরা → **তোমাদের** (your, to two or more people you'd call তুমি). Others follow the same pattern: *apnader*, *oder*, *tader*.\n\nCulture: 'How many brothers and sisters do you have?' is a perfectly normal first-meeting question in Bangladesh — as are questions about marriage and children. It's friendly interest, not nosiness.",
+  "tip": "Bengali has no verb 'to have'. You say **'to me there is'**: **আমার একটা বোন আছে** (*amar ekta bon achhe*), literally 'My one sister exists' = 'I have a sister.' Note it's **আমার**, not আমি. Negative: **আমার ভাই নেই** 'I have no brother.' Question: **তোমার কি ভাই আছে?**\n\nTo count people, add **-জন** to the number: **একজন** (one person), **দুইজন** (two people), **কয়জন?** (how many people?). In casual speech **-টা** is common too: **একটা বোন**.\n\nPlural 'our / your': আমরা → **আমাদের**, তোমরা → **তোমাদের** (to two or more people you'd call তুমি).\n\n'How many brothers and sisters do you have?' is a normal first-meeting question in Bangladesh: friendly interest, not nosiness.",
   "vocab": [
     {
       "id": "ekta",
@@ -89,22 +89,6 @@
     },
     {
       "id": "e03",
-      "type": "listen_select",
-      "audio": {
-        "bn": "দুইজন",
-        "tr": "duijon",
-        "en": "two (people)"
-      },
-      "options": [
-        "কয়জন",
-        "একজন",
-        "আমাদের",
-        "দুইজন"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "e04",
       "type": "select_translation",
       "prompt": {
         "bn": "কয়জন",
@@ -121,7 +105,7 @@
       "answer": 0
     },
     {
-      "id": "e05",
+      "id": "e04",
       "type": "select_translation",
       "prompt": {
         "bn": "আমাদের",
@@ -138,7 +122,7 @@
       "answer": 2
     },
     {
-      "id": "e06",
+      "id": "e05",
       "type": "select_translation",
       "prompt": {
         "bn": "তোমাদের",
@@ -155,7 +139,7 @@
       "answer": 3
     },
     {
-      "id": "e07",
+      "id": "e06",
       "type": "select_translation",
       "prompt": {
         "bn": "বাচ্চা",
@@ -172,7 +156,7 @@
       "answer": 1
     },
     {
-      "id": "e08",
+      "id": "e07",
       "type": "match_pairs",
       "pairs": [
         {
@@ -203,7 +187,40 @@
       ]
     },
     {
+      "id": "e08",
+      "type": "listen_select",
+      "audio": {
+        "bn": "দুইজন",
+        "tr": "duijon",
+        "en": "two (people)"
+      },
+      "options": [
+        "কয়জন",
+        "একজন",
+        "আমাদের",
+        "দুইজন"
+      ],
+      "answer": 3
+    },
+    {
       "id": "e09",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আপনার কয়জন বাচ্চা আছে?",
+        "tr": "apnar koyjon bachcha achhe?",
+        "en": "How many children do you have? (polite)"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "আপনার দুইজন বাচ্চা আছে।",
+        "আমার কয়জন বাচ্চা আছে?",
+        "আপনার কয়জন বাচ্চা আছে?",
+        "আপনার কি বাচ্চা আছে?"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e10",
       "type": "word_bank",
       "prompt": {
         "bn": "আমার দুইজন বাচ্চা আছে।",
@@ -228,7 +245,7 @@
       ]
     },
     {
-      "id": "e10",
+      "id": "e11",
       "type": "word_bank",
       "prompt": {
         "bn": "আমার ভাই নেই।",
@@ -251,7 +268,7 @@
       ]
     },
     {
-      "id": "e11",
+      "id": "e12",
       "type": "word_bank",
       "prompt": {
         "bn": "তার একটা মেয়ে আছে।",
@@ -274,23 +291,6 @@
         "a",
         "daughter"
       ]
-    },
-    {
-      "id": "e12",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "আপনার কয়জন বাচ্চা আছে?",
-        "tr": "apnar koyjon bachcha achhe?",
-        "en": "How many children do you have? (polite)"
-      },
-      "direction": "en_to_bn",
-      "options": [
-        "আপনার দুইজন বাচ্চা আছে।",
-        "আমার কয়জন বাচ্চা আছে?",
-        "আপনার কয়জন বাচ্চা আছে?",
-        "আপনার কি বাচ্চা আছে?"
-      ],
-      "answer": 2
     },
     {
       "id": "e13",

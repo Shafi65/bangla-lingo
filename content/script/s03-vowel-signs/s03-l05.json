@@ -162,20 +162,15 @@
     },
     {
       "id": "e10",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "ফুফু",
-        "tr": "fufu",
-        "en": "aunt (father's sister)"
-      },
-      "direction": "bn_to_en",
+      "type": "script_recognize",
+      "glyph": "দূরে",
       "options": [
-        "uncle (khala's husband)",
-        "grandfather (father's father)",
-        "elder sister",
-        "aunt (father's sister)"
+        "dare",
+        "dori",
+        "dure",
+        "dura"
       ],
-      "answer": 3
+      "answer": 2
     },
     {
       "id": "e11",
@@ -192,12 +187,12 @@
     {
       "id": "e12",
       "type": "script_recognize",
-      "glyph": "বড়",
+      "glyph": "তৈরি",
       "options": [
-        "bora",
-        "boro",
-        "bari",
-        "biro"
+        "teri",
+        "toiri",
+        "tori",
+        "tairi"
       ],
       "answer": 1
     },
@@ -219,20 +214,15 @@
     },
     {
       "id": "e14",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "মামা",
-        "tr": "mama",
-        "en": "uncle (mother's brother)"
-      },
-      "direction": "en_to_bn",
+      "type": "script_recognize",
+      "glyph": "নদী",
       "options": [
-        "নানা",
-        "মামা",
-        "মামি",
-        "চাচা"
+        "nodo",
+        "nidi",
+        "nodu",
+        "nodi"
       ],
-      "answer": 1
+      "answer": 3
     },
     {
       "id": "e15",

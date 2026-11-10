@@ -3,7 +3,7 @@
   "unit": "u01-basics",
   "title": "What's your name?",
   "status": "draft",
-  "tip": "Adding **-র** (*-r*) makes 'my / your': আমি → **আমার** (*amar*, my), তুমি → **তোমার** (*tomar*), আপনি → **আপনার** (*apnar*). Match the 'your' to the 'you' you would use with that person.\n\nQuestion words stay where the answer goes: **আপনার নাম কী?** is literally 'Your name what?' and the answer is **আমার নাম রাফি** 'My name (is) Rafi'.\n\nSpelling note: **কী** (long ী) means 'what'; **কি** (short ি) is the yes/no question marker you'll meet in Unit 2. They sound the same.",
+  "tip": "Adding **-র** (*-r*) makes 'my / your': আমি → **আমার** (*amar*), তুমি → **তোমার** (*tomar*), আপনি → **আপনার** (*apnar*). Pick the 'your' that matches the 'you' you would use with that person.\n\nBengali puts the question word where the answer will go: **আপনার নাম কী?** is literally 'Your name what?', and the answer is **আমার নাম নাদিয়া** 'My name (is) Nadia'.\n\nSpelling note: **কী** (long ী) means 'what'; **কি** (short ি) is a yes/no question marker you'll meet in Unit 2. They sound the same.\n\nSneak peek at the alphabet: the letter quizzes are ক as in কী, and র as in আমার.",
   "vocab": [
     {
       "id": "nam",
@@ -91,39 +91,23 @@
     },
     {
       "id": "e04",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "তোমার",
         "tr": "tomar",
         "en": "your (familiar)"
       },
+      "direction": "bn_to_en",
       "options": [
-        "আমার",
-        "তোমার",
-        "আপনার",
-        "তুমি"
+        "your (polite)",
+        "your (familiar)",
+        "my",
+        "you (familiar)"
       ],
       "answer": 1
     },
     {
       "id": "e05",
-      "type": "select_translation",
-      "direction": "bn_to_en",
-      "prompt": {
-        "bn": "আপনার নাম কী?",
-        "tr": "apnar nam ki?",
-        "en": "What is your name?"
-      },
-      "options": [
-        "My name is Nadia.",
-        "What is your name?",
-        "Are you a teacher?",
-        "I am a student."
-      ],
-      "answer": 1
-    },
-    {
-      "id": "e06",
       "type": "match_pairs",
       "pairs": [
         {
@@ -154,7 +138,40 @@
       ]
     },
     {
+      "id": "e06",
+      "type": "select_translation",
+      "direction": "bn_to_en",
+      "prompt": {
+        "bn": "আপনার নাম কী?",
+        "tr": "apnar nam ki?",
+        "en": "What is your name?"
+      },
+      "options": [
+        "My name is Nadia.",
+        "Are you a teacher?",
+        "I am a student.",
+        "What is your name?"
+      ],
+      "answer": 3
+    },
+    {
       "id": "e07",
+      "audio": {
+        "bn": "আমার নাম নাদিয়া।",
+        "tr": "amar nam nadiya.",
+        "en": "My name is Nadia."
+      },
+      "options": [
+        "আপনার নাম কী?",
+        "তোমার নাম কী?",
+        "আমার নাম নাদিয়া।",
+        "আমি নাদিয়া।"
+      ],
+      "answer": 2,
+      "type": "listen_select"
+    },
+    {
+      "id": "e08",
       "type": "script_recognize",
       "glyph": "ক",
       "options": [
@@ -166,7 +183,36 @@
       "answer": 2
     },
     {
-      "id": "e08",
+      "id": "e09",
+      "type": "script_recognize",
+      "glyph": "র",
+      "options": [
+        "l",
+        "r",
+        "n",
+        "d"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e10",
+      "type": "select_translation",
+      "direction": "en_to_bn",
+      "prompt": {
+        "bn": "তোমার নাম কী?",
+        "tr": "tomar nam ki?",
+        "en": "What is your name? (familiar)"
+      },
+      "options": [
+        "তোমার নাম কী?",
+        "আপনার নাম কী?",
+        "আমার নাম কী?",
+        "তোমার নাম।"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e11",
       "type": "word_bank",
       "direction": "en_to_bn",
       "prompt": {
@@ -188,7 +234,7 @@
       ]
     },
     {
-      "id": "e09",
+      "id": "e12",
       "type": "word_bank",
       "direction": "bn_to_en",
       "prompt": {
@@ -212,40 +258,7 @@
       ]
     },
     {
-      "id": "e10",
-      "type": "listen_select",
-      "audio": {
-        "bn": "আমার নাম রাফি।",
-        "tr": "amar nam rafi.",
-        "en": "My name is Rafi."
-      },
-      "options": [
-        "আপনার নাম কী?",
-        "তোমার নাম কী?",
-        "আমার নাম রাফি।",
-        "আমি রাফি।"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "e11",
-      "type": "select_translation",
-      "direction": "en_to_bn",
-      "prompt": {
-        "bn": "তোমার নাম কী?",
-        "tr": "tomar nam ki?",
-        "en": "What is your name? (familiar)"
-      },
-      "options": [
-        "তোমার নাম কী?",
-        "আপনার নাম কী?",
-        "আমার নাম কী?",
-        "তোমার নাম।"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "e12",
+      "id": "e13",
       "type": "type_translation",
       "direction": "bn_to_en",
       "prompt": {
@@ -259,7 +272,7 @@
       ]
     },
     {
-      "id": "e13",
+      "id": "e14",
       "type": "type_translation",
       "direction": "en_to_bn",
       "prompt": {
@@ -274,18 +287,6 @@
         "aamar nam",
         "aamar naam"
       ]
-    },
-    {
-      "id": "e14",
-      "type": "script_recognize",
-      "glyph": "র",
-      "options": [
-        "l",
-        "r",
-        "n",
-        "d"
-      ],
-      "answer": 1
     }
   ]
 }

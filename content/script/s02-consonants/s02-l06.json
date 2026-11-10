@@ -3,7 +3,7 @@
   "unit": "s02-consonants",
   "title": "Consonants 6: য র ল শ ষ স হ",
   "status": "draft",
-  "tip": "This lesson collects the rest of the chart: **য র ল** (semivowels), **শ ষ স** (sibilants) and **হ**.\n\n**র vs ব**: র (`ro`) is ব with a **dot below**. Bengali r is a quick tap of the tongue, as in Spanish *pero*: রাত (`rat`, *night*). **য** sounds exactly like জ (`j`): যাব (`jabo`, *I'll go*).\n\n**Three letters, one sound.** শ, ষ and স are normally all `sh`: শিক্ষক (`shikkhok`), মানুষ (`manush`), সকাল (`shokal`). স switches to a real `s` in clusters before t, n, r, l (স্টেশন `steshon`). Learn which one a word uses as part of its spelling.\n\nLook-alike drill: **ব র ধ থ য**. ব = triangle; র = triangle + dot; ধ = open top-left; থ = bottom loop. Put them side by side and compare.",
+  "tip": "This lesson collects the rest of the chart: **য র ল** (semivowels), **শ ষ স** (sibilants) and **হ**.\n\n**র vs ব**: র (`ro`) is ব with a **dot below**. Bengali r is a quick tap of the tongue, as in Spanish *pero*: রাত (`rat`, night). **য** sounds exactly like জ (`j`): যাব (`jabo`, I'll go).\n\n**Three letters, one sound.** শ, ষ and স are normally all `sh`: শিক্ষক (`shikkhok`), সকাল (`shokal`, morning). স switches to a real `s` in clusters before t, n, r, l (স্টেশন `steshon`). Learn which one a word uses as part of its spelling.\n\nLook-alike drill: **ব র ধ থ য**. ব = triangle; র = triangle + dot; ধ = open top-left; থ = bottom loop.",
   "vocab": [
     {
       "id": "l-ya",
@@ -150,22 +150,75 @@
     },
     {
       "id": "e07",
+      "type": "script_recognize",
+      "glyph": "শ",
+      "options": [
+        "lo (l as in 'love')",
+        "ro (tapped r, as in Spanish 'pero')",
+        "sho (sh as in 'shop')",
+        "jo (j as in 'jam')"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e08",
+      "type": "script_recognize",
+      "glyph": "স",
+      "options": [
+        "mo (m as in 'mother')",
+        "sho (sh as in 'shop')",
+        "ho (h as in 'hat')",
+        "lo (l as in 'love')"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e09",
       "type": "listen_select",
       "audio": {
-        "bn": "হাত",
-        "tr": "hat",
-        "en": "hand"
+        "bn": "স",
+        "tr": "sho",
+        "en": "sh, or s before t / n / r / l"
       },
       "options": [
-        "হাত",
-        "রাত",
-        "লাল",
-        "যাব"
+        "স",
+        "ম",
+        "ল",
+        "ন"
       ],
       "answer": 0
     },
     {
-      "id": "e08",
+      "id": "e10",
+      "type": "script_recognize",
+      "glyph": "হ",
+      "options": [
+        "i (as in 'see')",
+        "sho (sh as in 'shop')",
+        "lo (l as in 'love')",
+        "ho (h as in 'hat')"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e11",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "হাত",
+        "tr": "hat",
+        "en": "hand"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "hand",
+        "red",
+        "night",
+        "morning"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e12",
       "type": "select_translation",
       "prompt": {
         "bn": "লাল",
@@ -182,73 +235,21 @@
       "answer": 1
     },
     {
-      "id": "e09",
-      "type": "script_recognize",
-      "glyph": "শ",
-      "options": [
-        "lo (l as in 'love')",
-        "ro (tapped r, as in Spanish 'pero')",
-        "sho (sh as in 'shop')",
-        "jo (j as in 'jam')"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "e10",
-      "type": "script_recognize",
-      "glyph": "স",
-      "options": [
-        "mo (m as in 'mother')",
-        "sho (sh as in 'shop')",
-        "ho (h as in 'hat')",
-        "lo (l as in 'love')"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "e11",
-      "type": "listen_select",
-      "audio": {
-        "bn": "স",
-        "tr": "sho",
-        "en": "sh, or s before t / n / r / l"
-      },
-      "options": [
-        "ম",
-        "স",
-        "ল",
-        "ন"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "e12",
+      "id": "e13",
       "type": "select_translation",
       "prompt": {
         "bn": "রাত",
         "tr": "rat",
         "en": "night"
       },
-      "direction": "en_to_bn",
+      "direction": "bn_to_en",
       "options": [
-        "হাত",
-        "সকাল",
-        "লবণ",
-        "রাত"
+        "hand",
+        "salt",
+        "night",
+        "morning"
       ],
-      "answer": 3
-    },
-    {
-      "id": "e13",
-      "type": "script_recognize",
-      "glyph": "হ",
-      "options": [
-        "i (as in 'see')",
-        "sho (sh as in 'shop')",
-        "lo (l as in 'love')",
-        "ho (h as in 'hat')"
-      ],
-      "answer": 3
+      "answer": 2
     },
     {
       "id": "e14",
@@ -268,7 +269,6 @@
     },
     {
       "id": "e15",
-      "type": "match_pairs",
       "pairs": [
         {
           "bn": "ল",
@@ -286,16 +286,17 @@
           "en": "h as in 'hat'"
         },
         {
-          "bn": "যাব",
-          "tr": "jabo",
-          "en": "I will go"
+          "bn": "লাল",
+          "tr": "lal",
+          "en": "red"
         },
         {
-          "bn": "সকাল",
-          "tr": "shokal",
-          "en": "morning"
+          "bn": "হাত",
+          "tr": "hat",
+          "en": "hand"
         }
-      ]
+      ],
+      "type": "match_pairs"
     }
   ]
 }

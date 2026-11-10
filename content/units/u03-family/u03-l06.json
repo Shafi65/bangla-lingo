@@ -3,7 +3,7 @@
   "unit": "u03-family",
   "title": "Calling strangers 'uncle'",
   "status": "draft",
-  "tip": "In Bangladesh you rarely call an adult by their name or 'sir/madam'. Instead you **promote them into your family**:\n\n- **ভাই / ভাইয়া** — any man around your age or a bit older (shopkeepers, waiters, colleagues)\n- **আপা / আপু** — any woman a bit older than you\n- **চাচা** — an older man; **খালা** — an older woman (also domestic helpers)\n- **মামা** — rickshaw drivers, tea-stall owners, street vendors: friendly and informal\n- **আংকেল / আন্টি** — friends' parents and older people in middle-class city life\n\nThese terms still take **আপনি** (polite verbs) unless you know the person well: *Chacha, apni kemon achhen?* — not *achho*.\n\nUsing them makes people warm to you instantly — a foreigner who says **মামা** to a rickshaw driver will usually get a big smile.\n\nThree lifesavers for talking to strangers: **আমি জানি না** \"I don't know\", **বুঝতে পারছি না** \"I don't understand\", and **আচ্ছা** \"OK / I see\".",
+  "tip": "In Bangladesh you rarely call an adult by name or 'sir/madam'. You **promote them into your family**:\n\n- **ভাই / ভাইয়া**: a man around your age or a bit older (shopkeepers, waiters, colleagues)\n- **আপা / আপু**: a woman a bit older than you\n- **চাচা**: an older man; **খালা**: an older woman\n- **মামা**: rickshaw drivers, tea-stall owners: friendly and informal\n- **আংকেল / আন্টি**: friends' parents and older people in middle-class city life\n\nThese still take **আপনি** (polite verbs) unless you know the person well: *Chacha, apni kemon achhen?*\n\nThree lifesavers: **আমি জানি না** 'I don't know', **বুঝতে পারছি না** 'I don't understand', and **আচ্ছা** 'OK / I see'.",
   "vocab": [
     {
       "id": "apa",
@@ -74,22 +74,6 @@
     },
     {
       "id": "e02",
-      "type": "listen_select",
-      "audio": {
-        "bn": "আংকেল",
-        "tr": "angkel",
-        "en": "uncle (address)"
-      },
-      "options": [
-        "আন্টি",
-        "আংকেল",
-        "আচ্ছা",
-        "আপা"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "e03",
       "type": "select_translation",
       "prompt": {
         "bn": "আন্টি",
@@ -106,7 +90,7 @@
       "answer": 3
     },
     {
-      "id": "e04",
+      "id": "e03",
       "type": "select_translation",
       "prompt": {
         "bn": "আচ্ছা",
@@ -123,7 +107,7 @@
       "answer": 1
     },
     {
-      "id": "e05",
+      "id": "e04",
       "type": "select_translation",
       "prompt": {
         "bn": "জানি",
@@ -140,23 +124,7 @@
       "answer": 0
     },
     {
-      "id": "e06",
-      "type": "listen_select",
-      "audio": {
-        "bn": "জানেন",
-        "tr": "janen",
-        "en": "(you, polite) know"
-      },
-      "options": [
-        "আছেন",
-        "জানি",
-        "এসেছেন",
-        "জানেন"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "e07",
+      "id": "e05",
       "type": "select_translation",
       "prompt": {
         "bn": "বুঝতে পারছি না",
@@ -173,7 +141,7 @@
       "answer": 1
     },
     {
-      "id": "e08",
+      "id": "e06",
       "type": "match_pairs",
       "pairs": [
         {
@@ -202,6 +170,38 @@
           "en": "(I) know"
         }
       ]
+    },
+    {
+      "id": "e07",
+      "type": "listen_select",
+      "audio": {
+        "bn": "আংকেল",
+        "tr": "angkel",
+        "en": "uncle (address)"
+      },
+      "options": [
+        "আন্টি",
+        "আংকেল",
+        "আচ্ছা",
+        "আপা"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e08",
+      "type": "listen_select",
+      "audio": {
+        "bn": "জানেন",
+        "tr": "janen",
+        "en": "(you, polite) know"
+      },
+      "options": [
+        "আছেন",
+        "জানি",
+        "এসেছেন",
+        "জানেন"
+      ],
+      "answer": 3
     },
     {
       "id": "e09",
@@ -311,22 +311,6 @@
     },
     {
       "id": "e14",
-      "type": "type_translation",
-      "prompt": {
-        "bn": "আমি জানি না।",
-        "tr": "ami jani na.",
-        "en": "I don't know."
-      },
-      "direction": "en_to_bn",
-      "accepted": [
-        "আমি জানি না।",
-        "জানি না।",
-        "ami jani na",
-        "jani na"
-      ]
-    },
-    {
-      "id": "e15",
       "type": "word_bank",
       "prompt": {
         "bn": "আপা, আমি বুঝতে পারছি না।",
@@ -348,6 +332,22 @@
         "I",
         "don't",
         "understand"
+      ]
+    },
+    {
+      "id": "e15",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আমি জানি না।",
+        "tr": "ami jani na.",
+        "en": "I don't know."
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "আমি জানি না।",
+        "জানি না।",
+        "ami jani na",
+        "jani na"
       ]
     }
   ]

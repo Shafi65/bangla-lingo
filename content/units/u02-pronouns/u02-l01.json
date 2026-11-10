@@ -3,7 +3,7 @@
   "unit": "u02-pronouns",
   "title": "He & she",
   "status": "draft",
-  "tip": "Bengali pronouns **don't mark gender**. **সে** means both 'he' and 'she'. Careful: its transliteration is *she*, but it's pronounced 'shay' and has nothing to do with English *she*!\n\nThe third person comes in two levels of respect, just like 'you':\n\n- **সে / ও** (*she / o*): ordinary — friends, peers, children. **ও** is the everyday spoken form (literally 'that one').\n- **তিনি / উনি** (*tini / uni*): polite — elders, teachers, anyone you would call আপনি. **তিনি** sounds bookish (news, writing); in conversation people say **উনি**.\n\nThe verb follows **respect**, not gender: সে ভালো **আছে** ('he/she is well') but উনি ভালো **আছেন** — the same polite **-েন** ending you already know from আপনি আছেন.",
+  "tip": "Bengali pronouns **don't mark gender**: **সে** means both 'he' and 'she'. Careful: its transliteration is *she*, but it's said 'shay' and has nothing to do with English *she*!\n\nThe third person has two levels of respect, just like 'you':\n\n- **সে / ও** (*she / o*): ordinary, for friends, peers and children. **ও** is the everyday spoken form.\n- **তিনি / উনি** (*tini / uni*): polite, for elders, teachers, anyone you would call আপনি. **তিনি** sounds bookish; in conversation people say **উনি**.\n\nThe verb follows **respect**, not gender: সে ভালো **আছে** ('he/she is well') but উনি ভালো **আছেন**, the same polite **-েন** ending as আপনি আছেন.",
   "vocab": [
     {
       "id": "she",
@@ -98,12 +98,12 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "he/she (polite)",
         "he/she (spoken)",
         "your (familiar)",
+        "he/she (polite)",
         "your (polite)"
       ],
-      "answer": 0
+      "answer": 2
     },
     {
       "id": "e04",
@@ -115,12 +115,12 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "he/she (polite, spoken)",
         "you (polite)",
+        "he/she (polite, spoken)",
         "he/she (polite)",
         "my"
       ],
-      "answer": 0
+      "answer": 1
     },
     {
       "id": "e05",
@@ -132,12 +132,12 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "is (he/she/it)",
         "am",
         "are (familiar)",
-        "are (polite)"
+        "are (polite)",
+        "is (he/she/it)"
       ],
-      "answer": 0
+      "answer": 3
     },
     {
       "id": "e06",
@@ -206,6 +206,39 @@
     },
     {
       "id": "e09",
+      "type": "listen_select",
+      "audio": {
+        "bn": "উনি",
+        "tr": "uni",
+        "en": "he/she (polite, spoken)"
+      },
+      "options": [
+        "সে",
+        "তিনি",
+        "ও",
+        "উনি"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e10",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ও ছাত্রী।",
+        "tr": "o chhatri.",
+        "en": "She is a student."
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "ও ডাক্তার।",
+        "আমি ছাত্রী।",
+        "ও ছাত্রী।",
+        "ও আমার বন্ধু।"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e11",
       "type": "word_bank",
       "prompt": {
         "bn": "ও আমার বন্ধু।",
@@ -230,7 +263,7 @@
       ]
     },
     {
-      "id": "e10",
+      "id": "e12",
       "type": "word_bank",
       "prompt": {
         "bn": "উনি আমার শিক্ষক।",
@@ -253,7 +286,7 @@
       ]
     },
     {
-      "id": "e11",
+      "id": "e13",
       "type": "word_bank",
       "prompt": {
         "bn": "উনি কেমন আছেন?",
@@ -276,27 +309,7 @@
       ]
     },
     {
-      "id": "e12",
-      "type": "type_translation",
-      "prompt": {
-        "bn": "সে ভালো আছে।",
-        "tr": "she bhalo achhe.",
-        "en": "He is well."
-      },
-      "direction": "bn_to_en",
-      "accepted": [
-        "He is well.",
-        "She is well.",
-        "She is fine.",
-        "He is fine.",
-        "He's well.",
-        "She's well.",
-        "He's fine.",
-        "She's fine."
-      ]
-    },
-    {
-      "id": "e13",
+      "id": "e14",
       "type": "word_bank",
       "prompt": {
         "bn": "তিনি শিক্ষক।",
@@ -317,21 +330,24 @@
       ]
     },
     {
-      "id": "e14",
-      "type": "select_translation",
+      "id": "e15",
+      "type": "type_translation",
       "prompt": {
-        "bn": "ও ছাত্রী।",
-        "tr": "o chhatri.",
-        "en": "She is a student."
+        "bn": "সে ভালো আছে।",
+        "tr": "she bhalo achhe.",
+        "en": "He is well."
       },
-      "direction": "en_to_bn",
-      "options": [
-        "ও ডাক্তার।",
-        "আমি ছাত্রী।",
-        "ও ছাত্রী।",
-        "ও আমার বন্ধু।"
-      ],
-      "answer": 2
+      "direction": "bn_to_en",
+      "accepted": [
+        "He is well.",
+        "She is well.",
+        "She is fine.",
+        "He is fine.",
+        "He's well.",
+        "She's well.",
+        "He's fine.",
+        "She's fine."
+      ]
     }
   ]
 }

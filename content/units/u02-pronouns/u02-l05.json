@@ -3,7 +3,7 @@
   "unit": "u02-pronouns",
   "title": "Where are you from?",
   "status": "draft",
-  "tip": "**আপনি কোথা থেকে এসেছেন?** (*apni kotha theke eshechhen?*) — literally 'You from where have come?' — is how you ask 'Where are you from?'. Answer: **আমি আমেরিকা থেকে এসেছি** 'I have come from America.'\n\nTwo things to notice:\n\n- **থেকে** 'from' comes **after** the place: বাংলাদেশ থেকে = 'from Bangladesh'. Bengali has *post*positions, not prepositions.\n- **কোথায়** 'where' shortens to **কোথা** before থেকে.\n\nLearn **এসেছি / এসেছেন** as chunks for now; the past tense comes in Unit 9.\n\nCulture: a very common Bangladeshi icebreaker is **আপনার দেশ কোথায়?** or **আপনার বাড়ি কোথায়?** — 'Where is your home?' It usually means *which district is your family from*, even if you live in Dhaka.",
+  "tip": "**আপনি কোথা থেকে এসেছেন?** (*apni kotha theke eshechhen?*), literally 'You from where have come?', is how you ask 'Where are you from?'. Answer: **আমি আমেরিকা থেকে এসেছি** 'I have come from America.'\n\n- **থেকে** 'from' comes **after** the place: বাংলাদেশ থেকে. Bengali has *post*positions, not prepositions.\n- **কোথায়** 'where' shortens to **কোথা** before থেকে.\n\nLearn **এসেছি / এসেছেন** as chunks for now; the past tense comes in Unit 9.\n\nCulture: a common icebreaker is **আপনার দেশ কোথায়?** ('Where is your home?'). It often means which district your family is from, even if you live in Dhaka.",
   "vocab": [
     {
       "id": "kothay",
@@ -145,22 +145,6 @@
     },
     {
       "id": "e06",
-      "type": "listen_select",
-      "audio": {
-        "bn": "কোথায়",
-        "tr": "kothay",
-        "en": "where"
-      },
-      "options": [
-        "কোথায়",
-        "কেমন",
-        "কোথা",
-        "ওখানে"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "e07",
       "type": "match_pairs",
       "pairs": [
         {
@@ -191,7 +175,40 @@
       ]
     },
     {
+      "id": "e07",
+      "type": "listen_select",
+      "audio": {
+        "bn": "কোথায়",
+        "tr": "kothay",
+        "en": "where"
+      },
+      "options": [
+        "কোথায়",
+        "কেমন",
+        "কে",
+        "ওখানে"
+      ],
+      "answer": 0
+    },
+    {
       "id": "e08",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আপনি কোথা থেকে এসেছেন?",
+        "tr": "apni kotha theke eshechhen?",
+        "en": "Where are you from? (polite)"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "আপনি কোথা থেকে এসেছি?",
+        "আপনি থেকে কোথা এসেছেন?",
+        "আপনি কোথা থেকে এসেছেন?",
+        "তুমি কোথা থেকে এসেছেন?"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e09",
       "type": "word_bank",
       "prompt": {
         "bn": "আমি আমেরিকা থেকে এসেছি।",
@@ -216,7 +233,7 @@
       ]
     },
     {
-      "id": "e09",
+      "id": "e10",
       "type": "word_bank",
       "prompt": {
         "bn": "আমি বাংলাদেশ থেকে এসেছি।",
@@ -238,23 +255,6 @@
         "থেকে",
         "এসেছি"
       ]
-    },
-    {
-      "id": "e10",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "আপনি কোথা থেকে এসেছেন?",
-        "tr": "apni kotha theke eshechhen?",
-        "en": "Where are you from? (polite)"
-      },
-      "direction": "en_to_bn",
-      "options": [
-        "আপনি কোথা থেকে এসেছি?",
-        "আপনি থেকে কোথা এসেছেন?",
-        "আপনি কোথা থেকে এসেছেন?",
-        "তুমি কোথা থেকে এসেছেন?"
-      ],
-      "answer": 2
     },
     {
       "id": "e11",
@@ -304,22 +304,6 @@
     },
     {
       "id": "e13",
-      "type": "type_translation",
-      "prompt": {
-        "bn": "আমার দেশ বাংলাদেশ।",
-        "tr": "amar desh bangladesh.",
-        "en": "My country is Bangladesh."
-      },
-      "direction": "bn_to_en",
-      "accepted": [
-        "My country is Bangladesh.",
-        "Bangladesh is my country.",
-        "My home country is Bangladesh.",
-        "My homeland is Bangladesh."
-      ]
-    },
-    {
-      "id": "e14",
       "type": "word_bank",
       "prompt": {
         "bn": "তোমার বন্ধু কোথায়?",
@@ -339,6 +323,22 @@
         "তোমার",
         "বন্ধু",
         "কোথায়"
+      ]
+    },
+    {
+      "id": "e14",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আমার দেশ বাংলাদেশ।",
+        "tr": "amar desh bangladesh.",
+        "en": "My country is Bangladesh."
+      },
+      "direction": "bn_to_en",
+      "accepted": [
+        "My country is Bangladesh.",
+        "Bangladesh is my country.",
+        "My home country is Bangladesh.",
+        "My homeland is Bangladesh."
       ]
     }
   ]

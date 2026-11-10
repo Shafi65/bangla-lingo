@@ -3,7 +3,7 @@
   "unit": "u03-family",
   "title": "Elder & younger",
   "status": "draft",
-  "tip": "**বড়** (*boro*) = big, **ছোট** (*chhoto*) = small. With family they mean **elder** and **younger**: **বড় ভাই** = elder brother, **ছোট বোন** = younger sister. Bengali almost always says *which* sibling.\n\nYou don't call an elder sibling by name — that would feel cheeky. Instead say **ভাইয়া** (*bhaiya*, elder brother) and **আপু** (*apu*, elder sister). Younger siblings you *do* call by name. In Kolkata the words are **দাদা** and **দিদি** — but careful: in Bangladesh **দাদা** means *grandfather*, as you'll see next lesson.\n\nEvery pronoun has a 'my/your' form with **-র**: সে → **তার**, ও → **ওর**, উনি → **ওনার**, তুই → **তোর**. Like সে, they don't show gender: **তার নাম** = 'his name' or 'her name'. Use **ওনার** for someone you'd call আপনি, and **তোর** only with people you'd call তুই.",
+  "tip": "**বড়** (*boro*) = big, **ছোট** (*chhoto*) = small. With family they mean **elder** and **younger**: **বড় ভাই** = elder brother, **ছোট বোন** = younger sister. Bengali almost always says *which* sibling.\n\nYou don't call an elder sibling by name; say **ভাইয়া** (*bhaiya*, elder brother) or **আপু** (*apu*, elder sister). Younger siblings you *do* call by name. In Kolkata the words are দাদা and দিদি, but in Bangladesh **দাদা** means *grandfather* (next lesson).\n\n'My/your' forms of the pronouns end in **-র**: সে → **তার**, ও → **ওর**, উনি → **ওনার**, তুই → **তোর**. They don't show gender: **তার নাম** = 'his name' or 'her name'. Use ওনার for someone you'd call আপনি, and তোর only with people you'd call তুই.",
   "vocab": [
     {
       "id": "boro",
@@ -116,22 +116,6 @@
     },
     {
       "id": "e04",
-      "type": "listen_select",
-      "audio": {
-        "bn": "আপু",
-        "tr": "apu",
-        "en": "elder sister"
-      },
-      "options": [
-        "আপু",
-        "আপনি",
-        "আমি",
-        "আব্বু"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "e05",
       "type": "select_translation",
       "prompt": {
         "bn": "তার",
@@ -148,7 +132,7 @@
       "answer": 0
     },
     {
-      "id": "e06",
+      "id": "e05",
       "type": "select_translation",
       "prompt": {
         "bn": "ওর",
@@ -159,13 +143,13 @@
       "options": [
         "they (spoken)",
         "your (intimate)",
-        "his/her (spoken)",
-        "my"
+        "my",
+        "his/her (spoken)"
       ],
-      "answer": 2
+      "answer": 3
     },
     {
-      "id": "e07",
+      "id": "e06",
       "type": "select_translation",
       "prompt": {
         "bn": "ওনার",
@@ -182,7 +166,7 @@
       "answer": 1
     },
     {
-      "id": "e08",
+      "id": "e07",
       "type": "match_pairs",
       "pairs": [
         {
@@ -213,7 +197,40 @@
       ]
     },
     {
+      "id": "e08",
+      "type": "listen_select",
+      "audio": {
+        "bn": "আপু",
+        "tr": "apu",
+        "en": "elder sister"
+      },
+      "options": [
+        "আপু",
+        "আপনি",
+        "আমি",
+        "আব্বু"
+      ],
+      "answer": 0
+    },
+    {
       "id": "e09",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "রাফি আমার ছোট ভাই।",
+        "tr": "rafi amar chhoto bhai.",
+        "en": "Rafi is my younger brother."
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "রাফি আমার বড় ভাই।",
+        "রাফি আমার ছোট বোন।",
+        "রাফি আমার ছোট ভাই।",
+        "রাফি তার ছোট ভাই।"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e10",
       "type": "word_bank",
       "prompt": {
         "bn": "ওনার নাম কী?",
@@ -238,7 +255,7 @@
       ]
     },
     {
-      "id": "e10",
+      "id": "e11",
       "type": "word_bank",
       "prompt": {
         "bn": "আমার বড় ভাই ডাক্তার।",
@@ -261,23 +278,6 @@
         "ভাই",
         "ডাক্তার"
       ]
-    },
-    {
-      "id": "e11",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "রাফি আমার ছোট ভাই।",
-        "tr": "rafi amar chhoto bhai.",
-        "en": "Rafi is my younger brother."
-      },
-      "direction": "en_to_bn",
-      "options": [
-        "রাফি আমার বড় ভাই।",
-        "রাফি আমার ছোট বোন।",
-        "রাফি আমার ছোট ভাই।",
-        "রাফি তার ছোট ভাই।"
-      ],
-      "answer": 2
     },
     {
       "id": "e12",
@@ -333,7 +333,7 @@
       "prompt": {
         "bn": "ভাইয়া, কেমন আছো?",
         "tr": "bhaiya, kemon achho?",
-        "en": "How are you? (to your elder brother)"
+        "en": "How are you? (to your elder brother, familiar 'you')"
       },
       "direction": "en_to_bn",
       "accepted": [

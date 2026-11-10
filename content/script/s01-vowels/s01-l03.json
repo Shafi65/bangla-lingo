@@ -3,7 +3,7 @@
   "unit": "s01-vowels",
   "title": "Vowels 3: ঐ ও ঔ + review",
   "status": "draft",
-  "tip": "The last three vowels are all built from shapes you know:\n\n- **ঐ** = `oi` as in *boy*. It is এ with a flick on top.\n- **ও** = `o` as in *go*. Compare with **অ** (`o` as in *or*): অ is short and open, ও is rounder and closed. Both are written `o` in transliteration, so trust your ears and the letter shape.\n- **ঔ** = `ou` as in *low*. It is ও with a squiggle on top.\n\n**All 11 vowels:** অ আ ই ঈ উ ঊ ঋ এ ঐ ও ঔ. Remember: ই/ঈ sound the same, and so do উ/ঊ.\n\nFun fact: ওষুধ (everyday) and ঔষধ (formal) both mean *medicine*.",
+  "tip": "The last three vowels are built from shapes you know:\n\n- **ঐ** = `oi` as in *boy*. It is এ with a flick on top.\n- **ও** = `o` as in *go*: rounder and more closed than **অ** (`o` as in *or*). Both are written `o` in transliteration, so trust your ears and the letter shape.\n- **ঔ** = `ou` as in *low*. It is ও with a squiggle on top.\n\n**All 11 vowels:** অ আ ই ঈ উ ঊ ঋ এ ঐ ও ঔ. Remember: ই/ঈ sound the same, and so do উ/ঊ.\n\nSome example words here contain joined letters you haven't learned yet (like ক্য in ঐক্য); just recognise them as whole words for now. Fun fact: ওষুধ (everyday) and ঔষধ (formal) both mean *medicine*.",
   "vocab": [
     {
       "id": "l-oi",
@@ -139,22 +139,6 @@
     },
     {
       "id": "e05",
-      "type": "listen_select",
-      "audio": {
-        "bn": "ওল",
-        "tr": "ol",
-        "en": "elephant-foot yam"
-      },
-      "options": [
-        "ওল",
-        "ঐক্য",
-        "উট",
-        "আম"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "e06",
       "type": "select_translation",
       "prompt": {
         "bn": "ওষুধ",
@@ -169,6 +153,22 @@
         "yam"
       ],
       "answer": 2
+    },
+    {
+      "id": "e06",
+      "type": "listen_select",
+      "audio": {
+        "bn": "ওল",
+        "tr": "ol",
+        "en": "elephant-foot yam"
+      },
+      "options": [
+        "ওল",
+        "ঐক্য",
+        "উট",
+        "আম"
+      ],
+      "answer": 0
     },
     {
       "id": "e07",

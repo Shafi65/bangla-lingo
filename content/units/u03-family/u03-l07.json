@@ -3,7 +3,7 @@
   "unit": "u03-family",
   "title": "Review: my family",
   "status": "draft",
-  "tip": "Last new words: **স্বামী** (*shami*, husband) and **স্ত্রী** (*stri*, wife). In everyday speech many people say **বউ** (*bou*) for 'wife' — it also means 'bride'. (The ব in স্বামী is silent, which you'll learn about in the conjuncts script unit.)\n\nQuick recap of the family map:\n\n- **Father's side:** দাদা / দাদি (grandparents) · চাচা / চাচি (his brother and his wife) · ফুফু / ফুফা (his sister and her husband)\n- **Mother's side:** নানা / নানি (grandparents) · মামা / মামি (her brother and his wife) · খালা / খালু (her sister and her husband)\n- **ছেলে / মেয়ে** = son / daughter as well as boy / girl\n\nOne more reminder: in Bangladesh **দাদা** is your *grandfather*. If a friend from Kolkata says *dada*, they probably mean an elder brother.\n\nTo join two ideas with 'but', use **কিন্তু**: **আমার ভাই আছে, কিন্তু বোন নেই।** When you hear a word you don't know, ask **X মানে কী?** \"What does X mean?\". **সবাই কেমন আছে?** \"How is everyone?\" is the classic question about someone's family.",
+  "tip": "Last new words: **স্বামী** (*shami*, husband) and **স্ত্রী** (*stri*, wife). In everyday speech many people say **বউ** (*bou*) for 'wife'; it also means 'bride'.\n\nQuick recap of the family map:\n\n- **Father's side:** দাদা / দাদি · চাচা / চাচি · ফুফু / ফুফা\n- **Mother's side:** নানা / নানি · মামা / মামি · খালা / খালু\n- **ছেলে / মেয়ে** = son / daughter as well as boy / girl\n\nIn Bangladesh **দাদা** is your *grandfather*; a friend from Kolkata saying *dada* means an elder brother.\n\nHandy extras: **কিন্তু** 'but' (**আমার ভাই আছে, কিন্তু বোন নেই।**), **X মানে কী?** 'What does X mean?', and **সবাই কেমন আছে?** 'How is everyone?'",
   "vocab": [
     {
       "id": "shami",
@@ -66,22 +66,6 @@
     },
     {
       "id": "e02",
-      "type": "listen_select",
-      "audio": {
-        "bn": "স্ত্রী",
-        "tr": "stri",
-        "en": "wife"
-      },
-      "options": [
-        "স্বামী",
-        "সবাই",
-        "স্ত্রী",
-        "শিক্ষক"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "e03",
       "type": "select_translation",
       "prompt": {
         "bn": "বউ",
@@ -98,7 +82,7 @@
       "answer": 2
     },
     {
-      "id": "e04",
+      "id": "e03",
       "type": "select_translation",
       "prompt": {
         "bn": "কিন্তু",
@@ -115,7 +99,7 @@
       "answer": 3
     },
     {
-      "id": "e05",
+      "id": "e04",
       "type": "select_translation",
       "prompt": {
         "bn": "সবাই",
@@ -132,24 +116,7 @@
       "answer": 0
     },
     {
-      "id": "e06",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "মানে",
-        "tr": "mane",
-        "en": "meaning"
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "name",
-        "what",
-        "meaning",
-        "but"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "e07",
+      "id": "e05",
       "type": "match_pairs",
       "pairs": [
         {
@@ -180,7 +147,74 @@
       ]
     },
     {
+      "id": "e06",
+      "type": "listen_select",
+      "audio": {
+        "bn": "স্ত্রী",
+        "tr": "stri",
+        "en": "wife"
+      },
+      "options": [
+        "স্বামী",
+        "সবাই",
+        "স্ত্রী",
+        "শিক্ষক"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e07",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "মামা, আপনি কেমন আছেন?",
+        "tr": "mama, apni kemon achhen?",
+        "en": "Uncle, how are you? (to your mother's brother)"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "চাচা, আপনি কেমন আছেন?",
+        "মামি, আপনি কেমন আছেন?",
+        "মামা, আপনি কেমন আছেন?",
+        "খালু, আপনি কেমন আছেন?"
+      ],
+      "answer": 2
+    },
+    {
       "id": "e08",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আপনার কয়জন বাচ্চা আছে?",
+        "tr": "apnar koyjon bachcha achhe?",
+        "en": "How many children do you have? (polite)"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "আমার কয়জন বাচ্চা আছে?",
+        "আপনার কি বাচ্চা আছে?",
+        "আপনার দুইজন বাচ্চা আছে।",
+        "আপনার কয়জন বাচ্চা আছে?"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e09",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "উনি আমার স্ত্রী।",
+        "tr": "uni amar stri.",
+        "en": "She is my wife."
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "উনি আমার স্বামী।",
+        "উনি আমার মেয়ে।",
+        "উনি আমার স্ত্রী।",
+        "উনি আমার বোন।"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e10",
       "type": "word_bank",
       "prompt": {
         "bn": "আমার ভাই আছে, কিন্তু বোন নেই।",
@@ -208,82 +242,7 @@
       ]
     },
     {
-      "id": "e09",
-      "type": "word_bank",
-      "prompt": {
-        "bn": "বউ মানে স্ত্রী।",
-        "tr": "bou mane stri.",
-        "en": "\"Bou\" means wife."
-      },
-      "direction": "bn_to_en",
-      "tiles": [
-        "Bou",
-        "means",
-        "wife",
-        "husband",
-        "name",
-        "is"
-      ],
-      "answer": [
-        "Bou",
-        "means",
-        "wife"
-      ]
-    },
-    {
-      "id": "e10",
-      "type": "type_translation",
-      "prompt": {
-        "bn": "সবাই কেমন আছে?",
-        "tr": "shobai kemon achhe?",
-        "en": "How is everyone?"
-      },
-      "direction": "bn_to_en",
-      "accepted": [
-        "How is everyone?",
-        "How's everyone?",
-        "How is everybody?",
-        "How's everybody?",
-        "How is everyone doing?",
-        "How's everyone doing?"
-      ]
-    },
-    {
       "id": "e11",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "দাদি",
-        "tr": "dadi",
-        "en": "grandmother (my father's mother)"
-      },
-      "direction": "en_to_bn",
-      "options": [
-        "নানি",
-        "দাদি",
-        "খালা",
-        "ফুফু"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "e12",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "উনি আমার স্ত্রী।",
-        "tr": "uni amar stri.",
-        "en": "She is my wife."
-      },
-      "direction": "en_to_bn",
-      "options": [
-        "উনি আমার স্বামী।",
-        "উনি আমার মেয়ে।",
-        "উনি আমার স্ত্রী।",
-        "উনি আমার বোন।"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "e13",
       "type": "word_bank",
       "prompt": {
         "bn": "আমার একটা ছেলে আর একটা মেয়ে আছে।",
@@ -314,31 +273,30 @@
       ]
     },
     {
-      "id": "e14",
-      "type": "type_translation",
+      "id": "e12",
+      "type": "word_bank",
       "prompt": {
-        "bn": "আমার ফুফা এখানে নেই।",
-        "tr": "amar fufa ekhane nei.",
-        "en": "My uncle (my father's sister's husband) isn't here."
+        "bn": "বউ মানে স্ত্রী।",
+        "tr": "bou mane stri.",
+        "en": "\"Bou\" means wife."
       },
-      "direction": "en_to_bn",
-      "accepted": [
-        "আমার ফুফা এখানে নেই।",
-        "আমার ফুপা এখানে নেই।",
-        "ফুফা এখানে নেই।",
-        "ফুপা এখানে নেই।",
-        "amar fufa ekhane nei",
-        "amar fupa ekhane nei",
-        "amar phupha ekhane nei",
-        "amar phupa ekhane nei",
-        "fufa ekhane nei",
-        "fupa ekhane nei",
-        "phupha ekhane nei",
-        "phupa ekhane nei"
+      "direction": "bn_to_en",
+      "tiles": [
+        "Bou",
+        "means",
+        "wife",
+        "husband",
+        "name",
+        "is"
+      ],
+      "answer": [
+        "Bou",
+        "means",
+        "wife"
       ]
     },
     {
-      "id": "e15",
+      "id": "e13",
       "type": "word_bank",
       "prompt": {
         "bn": "উনি আমার স্বামী।",
@@ -359,6 +317,48 @@
         "is",
         "my",
         "husband"
+      ]
+    },
+    {
+      "id": "e14",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "সবাই কেমন আছে?",
+        "tr": "shobai kemon achhe?",
+        "en": "How is everyone?"
+      },
+      "direction": "bn_to_en",
+      "accepted": [
+        "How is everyone?",
+        "How's everyone?",
+        "How is everybody?",
+        "How's everybody?",
+        "How is everyone doing?",
+        "How's everyone doing?"
+      ]
+    },
+    {
+      "id": "e15",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আমার ফুফা এখানে নেই।",
+        "tr": "amar fufa ekhane nei.",
+        "en": "My uncle (my father's sister's husband) isn't here."
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "আমার ফুফা এখানে নেই।",
+        "আমার ফুপা এখানে নেই।",
+        "ফুফা এখানে নেই।",
+        "ফুপা এখানে নেই।",
+        "amar fufa ekhane nei",
+        "amar fupa ekhane nei",
+        "amar phupha ekhane nei",
+        "amar phupa ekhane nei",
+        "fufa ekhane nei",
+        "fupa ekhane nei",
+        "phupha ekhane nei",
+        "phupa ekhane nei"
       ]
     }
   ]

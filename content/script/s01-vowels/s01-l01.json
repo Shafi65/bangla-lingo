@@ -3,7 +3,7 @@
   "unit": "s01-vowels",
   "title": "Vowels 1: অ আ ই ঈ",
   "status": "draft",
-  "tip": "**Bengali has 11 independent vowel letters (স্বরবর্ণ shorborno).** They are used when a vowel *starts* a syllable, e.g. at the start of a word.\n\n- **অ** = `o`, a short open 'o' as in *or*. Every consonant secretly carries this sound, so you will see অ everywhere later.\n- **আ** = `a` as in *father*. Mnemonic: আ is অ plus an extra stick (া), and that stick is exactly the sign that adds 'a' to a consonant later.\n- **ই** and **ঈ** are both `i` as in *see*. Their names are *hroshsho-i* ('short i') and *dirgho-i* ('long i'), but **in everyday speech they sound the same**. You just learn which one each word is spelled with.\n\nTip: all four letters 'hang' from a top line (মাত্রা matra), which is how Bengali letters join into words.",
+  "tip": "**Bengali has 11 vowel letters (স্বরবর্ণ *shorborno*).** They stand alone when a vowel *starts* a syllable, e.g. at the start of a word.\n\n- **অ** = `o`, a short open 'o' as in *or*. Every consonant secretly carries this sound, so you will see it everywhere later.\n- **আ** = `a` as in *father*. It is অ plus an extra stick (া), and that stick is exactly the sign that adds 'a' to a consonant later.\n- **ই** and **ঈ** are both `i` as in *see* ('short i' and 'long i'). **In everyday speech they sound the same**; you just learn which one each word is spelled with.\n\nAll four letters hang from a top line (মাত্রা *matra*), which is how Bengali letters join into words.",
   "vocab": [
     {
       "id": "l-o",
@@ -149,22 +149,6 @@
     },
     {
       "id": "e05",
-      "type": "listen_select",
-      "audio": {
-        "bn": "আম",
-        "tr": "am",
-        "en": "mango"
-      },
-      "options": [
-        "ইট",
-        "আম",
-        "ঈদ",
-        "অজগর"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "e06",
       "type": "select_translation",
       "prompt": {
         "bn": "আম",
@@ -179,6 +163,22 @@
         "many"
       ],
       "answer": 2
+    },
+    {
+      "id": "e06",
+      "type": "listen_select",
+      "audio": {
+        "bn": "আম",
+        "tr": "am",
+        "en": "mango"
+      },
+      "options": [
+        "ইট",
+        "আম",
+        "ঈদ",
+        "অজগর"
+      ],
+      "answer": 1
     },
     {
       "id": "e07",

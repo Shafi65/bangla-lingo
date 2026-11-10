@@ -3,7 +3,7 @@
   "unit": "u01-basics",
   "title": "Hello!",
   "status": "draft",
-  "tip": "**আসসালামু আলাইকুম** (*assalamu alaikum*, 'peace be upon you') is the everyday hello in Bangladesh; the reply is **ওয়ালাইকুম আসসালাম** (*walaikum assalam*). Hindu Bengalis, and most people in Kolkata, say **নমস্কার** (*nomoshkar*) instead. For 'yes', **জি** (*ji*) is the polite choice with elders and strangers; **হ্যাঁ** (*hya~*) is neutral.",
+  "tip": "**আসসালামু আলাইকুম** (*assalamu alaikum*, 'peace be upon you') is the everyday hello in Bangladesh; the reply is **ওয়ালাইকুম আসসালাম** (*walaikum assalam*). Hindu Bengalis, and most people in Kolkata, say **নমস্কার** (*nomoshkar*) instead. For 'yes', **জি** (*ji*) is the polite choice with elders and strangers; **হ্যাঁ** (*hya~*) is neutral. **না** (*na*) is 'no' and **ধন্যবাদ** (*dhonnobad*) is 'thank you'.\n\nSneak peek at the alphabet: the two letter quizzes are ন as in না and ধ as in ধন্যবাদ.",
   "vocab": [
     {
       "id": "assalamu-alaikum",
@@ -91,39 +91,23 @@
     },
     {
       "id": "e03",
-      "type": "listen_select",
-      "audio": {
-        "bn": "ধন্যবাদ",
-        "tr": "dhonnobad",
-        "en": "thank you"
-      },
-      "options": [
-        "ধন্যবাদ",
-        "না",
-        "হ্যাঁ",
-        "নমস্কার"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "e04",
       "type": "select_translation",
-      "direction": "en_to_bn",
       "prompt": {
         "bn": "আসসালামু আলাইকুম",
         "tr": "assalamu alaikum",
         "en": "hello (peace be upon you)"
       },
+      "direction": "bn_to_en",
       "options": [
-        "না",
-        "আসসালামু আলাইকুম",
-        "ধন্যবাদ",
-        "হ্যাঁ"
+        "no",
+        "thank you",
+        "yes (polite)",
+        "hello (peace be upon you)"
       ],
-      "answer": 1
+      "answer": 3
     },
     {
-      "id": "e05",
+      "id": "e04",
       "type": "select_translation",
       "direction": "bn_to_en",
       "prompt": {
@@ -140,31 +124,24 @@
       "answer": 1
     },
     {
+      "id": "e05",
+      "type": "select_translation",
+      "direction": "bn_to_en",
+      "prompt": {
+        "bn": "নমস্কার",
+        "tr": "nomoshkar",
+        "en": "hello (Hindu greeting)"
+      },
+      "options": [
+        "no",
+        "thank you",
+        "hello (Hindu greeting)",
+        "yes"
+      ],
+      "answer": 2
+    },
+    {
       "id": "e06",
-      "type": "script_recognize",
-      "glyph": "ন",
-      "options": [
-        "n",
-        "m",
-        "t",
-        "l"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "e07",
-      "type": "script_recognize",
-      "glyph": "ধ",
-      "options": [
-        "d",
-        "dh",
-        "th",
-        "bh"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "e08",
       "type": "match_pairs",
       "pairs": [
         {
@@ -195,59 +172,23 @@
       ]
     },
     {
-      "id": "e09",
-      "type": "select_translation",
-      "direction": "bn_to_en",
-      "prompt": {
-        "bn": "নমস্কার",
-        "tr": "nomoshkar",
-        "en": "hello (Hindu greeting)"
-      },
-      "options": [
-        "no",
-        "thank you",
-        "hello (Hindu greeting)",
-        "yes"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "e10",
-      "type": "type_translation",
-      "direction": "bn_to_en",
-      "prompt": {
+      "id": "e07",
+      "type": "listen_select",
+      "audio": {
         "bn": "ধন্যবাদ",
         "tr": "dhonnobad",
         "en": "thank you"
       },
-      "accepted": [
-        "thank you",
-        "thanks",
-        "thankyou"
-      ]
-    },
-    {
-      "id": "e11",
-      "type": "word_bank",
-      "direction": "en_to_bn",
-      "prompt": {
-        "bn": "হ্যাঁ, ধন্যবাদ।",
-        "tr": "hya~, dhonnobad.",
-        "en": "Yes, thank you."
-      },
-      "tiles": [
-        "না",
+      "options": [
         "ধন্যবাদ",
+        "না",
         "হ্যাঁ",
         "নমস্কার"
       ],
-      "answer": [
-        "হ্যাঁ",
-        "ধন্যবাদ"
-      ]
+      "answer": 0
     },
     {
-      "id": "e12",
+      "id": "e08",
       "type": "listen_select",
       "audio": {
         "bn": "ওয়ালাইকুম আসসালাম",
@@ -263,7 +204,31 @@
       "answer": 1
     },
     {
-      "id": "e13",
+      "id": "e09",
+      "type": "script_recognize",
+      "glyph": "ন",
+      "options": [
+        "n",
+        "m",
+        "t",
+        "l"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e10",
+      "type": "script_recognize",
+      "glyph": "ধ",
+      "options": [
+        "d",
+        "dh",
+        "th",
+        "bh"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e11",
       "type": "match_pairs",
       "pairs": [
         {
@@ -289,7 +254,27 @@
       ]
     },
     {
-      "id": "e14",
+      "id": "e12",
+      "type": "word_bank",
+      "direction": "en_to_bn",
+      "prompt": {
+        "bn": "হ্যাঁ, ধন্যবাদ।",
+        "tr": "hya~, dhonnobad.",
+        "en": "Yes, thank you."
+      },
+      "tiles": [
+        "না",
+        "ধন্যবাদ",
+        "হ্যাঁ",
+        "নমস্কার"
+      ],
+      "answer": [
+        "হ্যাঁ",
+        "ধন্যবাদ"
+      ]
+    },
+    {
+      "id": "e13",
       "type": "word_bank",
       "direction": "bn_to_en",
       "prompt": {
@@ -308,6 +293,21 @@
         "no",
         "thank",
         "you"
+      ]
+    },
+    {
+      "id": "e14",
+      "type": "type_translation",
+      "direction": "bn_to_en",
+      "prompt": {
+        "bn": "ধন্যবাদ",
+        "tr": "dhonnobad",
+        "en": "thank you"
+      },
+      "accepted": [
+        "thank you",
+        "thanks",
+        "thankyou"
       ]
     }
   ]

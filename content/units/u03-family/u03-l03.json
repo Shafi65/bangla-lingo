@@ -3,7 +3,7 @@
   "unit": "u03-family",
   "title": "Father's side",
   "status": "draft",
-  "tip": "English has one 'uncle'; Bengali has a different word for each one! On your **father's side**:\n\n- **দাদা / দাদি** — grandfather / grandmother\n- **চাচা / চাচি** — father's brother / his wife\n- **ফুফু / ফুফা** — father's sister / her husband (also said and spelled **ফুপু / ফুপা**)\n\nTo say 'father's', add **-র**: বাবা → **বাবার**. So **চাচা আমার বাবার ভাই** = 'Chacha is my father's brother.' Relatives are addressed by these words too: **চাচা, আপনি কেমন আছেন?**\n\n**Watch out — Kolkata difference:** in Bangladesh **দাদা** is your *grandfather*, but in Kolkata (and many Hindu families in Bangladesh) দাদা means *elder brother*! There, paternal grandparents are ঠাকুরদা / ঠাকুমা, father's brother is কাকা, and father's sister is পিসি. This course uses the Bangladesh meaning: **দাদা = grandfather**.",
+  "tip": "English has one 'uncle'; Bengali has a different word for each one! On your **father's side**:\n\n- **দাদা / দাদি**: grandfather / grandmother\n- **চাচা / চাচি**: father's brother / his wife\n- **ফুফু / ফুফা**: father's sister / her husband (also spelled **ফুপু / ফুপা**)\n\nAdd **-র** for 'father's': বাবা → **বাবার**. So **চাচা আমার বাবার ভাই** = 'Chacha is my father's brother.' You address relatives with these words too: **চাচা, আপনি কেমন আছেন?**\n\n**Kolkata difference:** in Bangladesh **দাদা** is your *grandfather*, but in Kolkata (and many Hindu families) it means *elder brother*; there paternal grandparents are ঠাকুরদা / ঠাকুমা. This course uses the Bangladesh meaning.",
   "vocab": [
     {
       "id": "dada",
@@ -73,22 +73,6 @@
     },
     {
       "id": "e02",
-      "type": "listen_select",
-      "audio": {
-        "bn": "দাদি",
-        "tr": "dadi",
-        "en": "grandmother (father's mother)"
-      },
-      "options": [
-        "দাদা",
-        "দাদি",
-        "চাচি",
-        "বাবা"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "e03",
       "type": "select_translation",
       "prompt": {
         "bn": "চাচা",
@@ -105,23 +89,7 @@
       "answer": 3
     },
     {
-      "id": "e04",
-      "type": "listen_select",
-      "audio": {
-        "bn": "চাচি",
-        "tr": "chachi",
-        "en": "aunt (chacha's wife)"
-      },
-      "options": [
-        "চাচা",
-        "দাদি",
-        "চাচি",
-        "ফুফু"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "e05",
+      "id": "e03",
       "type": "select_translation",
       "prompt": {
         "bn": "ফুফু",
@@ -138,7 +106,7 @@
       "answer": 1
     },
     {
-      "id": "e06",
+      "id": "e04",
       "type": "select_translation",
       "prompt": {
         "bn": "ফুফা",
@@ -155,7 +123,7 @@
       "answer": 0
     },
     {
-      "id": "e07",
+      "id": "e05",
       "type": "select_translation",
       "prompt": {
         "bn": "বাবার",
@@ -172,7 +140,7 @@
       "answer": 3
     },
     {
-      "id": "e08",
+      "id": "e06",
       "type": "match_pairs",
       "pairs": [
         {
@@ -203,7 +171,73 @@
       ]
     },
     {
+      "id": "e07",
+      "type": "listen_select",
+      "audio": {
+        "bn": "দাদি",
+        "tr": "dadi",
+        "en": "grandmother (father's mother)"
+      },
+      "options": [
+        "দাদা",
+        "দাদি",
+        "চাচি",
+        "বাবা"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e08",
+      "type": "listen_select",
+      "audio": {
+        "bn": "চাচি",
+        "tr": "chachi",
+        "en": "aunt (chacha's wife)"
+      },
+      "options": [
+        "চাচা",
+        "দাদি",
+        "চাচি",
+        "ফুফু"
+      ],
+      "answer": 2
+    },
+    {
       "id": "e09",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ফুফু",
+        "tr": "fufu",
+        "en": "aunt (my father's sister)"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "চাচি",
+        "ফুফু",
+        "দাদি",
+        "ফুফা"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e10",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "চাচা, আপনি কেমন আছেন?",
+        "tr": "chacha, apni kemon achhen?",
+        "en": "Uncle, how are you? (to your father's brother)"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "দাদা, আপনি কেমন আছেন?",
+        "চাচি, আপনি কেমন আছেন?",
+        "চাচা, আপনি কোথায়?",
+        "চাচা, আপনি কেমন আছেন?"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e11",
       "type": "word_bank",
       "prompt": {
         "bn": "চাচা আমার বাবার ভাই।",
@@ -228,7 +262,7 @@
       ]
     },
     {
-      "id": "e10",
+      "id": "e12",
       "type": "word_bank",
       "prompt": {
         "bn": "আমার দাদি খুব ভালো মানুষ।",
@@ -258,24 +292,7 @@
       ]
     },
     {
-      "id": "e11",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "ফুফু",
-        "tr": "fufu",
-        "en": "aunt (my father's sister)"
-      },
-      "direction": "en_to_bn",
-      "options": [
-        "চাচি",
-        "ফুফু",
-        "দাদি",
-        "ফুফা"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "e12",
+      "id": "e13",
       "type": "word_bank",
       "prompt": {
         "bn": "আমার চাচি শিক্ষক।",
@@ -298,24 +315,6 @@
         "is",
         "a",
         "teacher"
-      ]
-    },
-    {
-      "id": "e13",
-      "type": "type_translation",
-      "prompt": {
-        "bn": "ফুফু আমার বাবার বোন।",
-        "tr": "fufu amar babar bon.",
-        "en": "Fufu is my father's sister."
-      },
-      "direction": "en_to_bn",
-      "accepted": [
-        "ফুফু আমার বাবার বোন।",
-        "ফুপু আমার বাবার বোন।",
-        "fufu amar babar bon",
-        "fupu amar babar bon",
-        "phuphu amar babar bon",
-        "phupu amar babar bon"
       ]
     },
     {
@@ -343,20 +342,21 @@
     },
     {
       "id": "e15",
-      "type": "select_translation",
+      "type": "type_translation",
       "prompt": {
-        "bn": "চাচা, আপনি কেমন আছেন?",
-        "tr": "chacha, apni kemon achhen?",
-        "en": "Uncle, how are you? (to your father's brother)"
+        "bn": "ফুফু আমার বাবার বোন।",
+        "tr": "fufu amar babar bon.",
+        "en": "Fufu is my father's sister."
       },
       "direction": "en_to_bn",
-      "options": [
-        "দাদা, আপনি কেমন আছেন?",
-        "চাচি, আপনি কেমন আছেন?",
-        "চাচা, আপনি কোথায়?",
-        "চাচা, আপনি কেমন আছেন?"
-      ],
-      "answer": 3
+      "accepted": [
+        "ফুফু আমার বাবার বোন।",
+        "ফুপু আমার বাবার বোন।",
+        "fufu amar babar bon",
+        "fupu amar babar bon",
+        "phuphu amar babar bon",
+        "phupu amar babar bon"
+      ]
     }
   ]
 }

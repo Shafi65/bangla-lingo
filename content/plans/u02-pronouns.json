@@ -27,7 +27,7 @@
         "kemon",
         "achhen"
       ],
-      "tip": "Bengali pronouns **don't mark gender**. **সে** means both 'he' and 'she'. Careful: its transliteration is *she*, but it's pronounced 'shay' and has nothing to do with English *she*!\n\nThe third person comes in two levels of respect, just like 'you':\n\n- **সে / ও** (*she / o*): ordinary — friends, peers, children. **ও** is the everyday spoken form (literally 'that one').\n- **তিনি / উনি** (*tini / uni*): polite — elders, teachers, anyone you would call আপনি. **তিনি** sounds bookish (news, writing); in conversation people say **উনি**.\n\nThe verb follows **respect**, not gender: সে ভালো **আছে** ('he/she is well') but উনি ভালো **আছেন** — the same polite **-েন** ending you already know from আপনি আছেন.",
+      "tip": "Bengali pronouns **don't mark gender**: **সে** means both 'he' and 'she'. Careful: its transliteration is *she*, but it's said 'shay' and has nothing to do with English *she*!\n\nThe third person has two levels of respect, just like 'you':\n\n- **সে / ও** (*she / o*): ordinary, for friends, peers and children. **ও** is the everyday spoken form.\n- **তিনি / উনি** (*tini / uni*): polite, for elders, teachers, anyone you would call আপনি. **তিনি** sounds bookish; in conversation people say **উনি**.\n\nThe verb follows **respect**, not gender: সে ভালো **আছে** ('he/she is well') but উনি ভালো **আছেন**, the same polite **-েন** ending as আপনি আছেন.",
       "sentences": [
         {
           "bn": "সে ডাক্তার।",
@@ -129,7 +129,7 @@
         "khub",
         "daktar"
       ],
-      "tip": "Add **-রা** (*-ra*) to make pronouns plural:\n\n- আমি → **আমরা** (*amra*) we\n- তুমি → **তোমরা** (*tomra*), আপনি → **আপনারা** (*apnara*) you all\n- সে → **তারা** (*tara*), ও → **ওরা** (*ora*) they (polite: **ওনারা** *onara*)\n\nGood news: **the verb does not change for plural.** আমি ভালো **আছি**, আমরা ভালো **আছি**. আপনি **আছেন**, আপনারা **আছেন**. The ending only cares about *person* and *respect*.\n\nNouns usually don't need a plural ending when the context is clear: **তারা ডাক্তার** = 'They are doctors.' And **ছেলে / মেয়ে** mean 'boy / girl' but also 'son / daughter' — you'll use that in the Family unit.",
+      "tip": "Add **-রা** (*-ra*) to make pronouns plural:\n\n- আমি → **আমরা** (*amra*) we\n- তুমি → **তোমরা** (*tomra*), আপনি → **আপনারা** (*apnara*) you all\n- সে → **তারা** (*tara*), ও → **ওরা** (*ora*) they (ওরা is the everyday spoken form)\n\n**The verb does not change for plural**: আমি ভালো **আছি**, আমরা ভালো **আছি**; আপনি **আছেন**, আপনারা **আছেন**. The ending only cares about *person* and *respect*.\n\nNouns usually need no plural ending: **তারা ডাক্তার** = 'They are doctors.' **ছেলে / মেয়ে** mean 'boy / girl' and also 'son / daughter'.",
       "sentences": [
         {
           "bn": "আমরা ছাত্র।",
@@ -220,7 +220,7 @@
         "apni",
         "achhen"
       ],
-      "tip": "Bengali has **three** words for 'you'. Think of them as a ladder of closeness:\n\n- **আপনি** (*apni*) — respect: elders, strangers, teachers, shopkeepers.\n- **তুমি** (*tumi*) — warmth: friends, younger people, partners, many parents and grandparents.\n- **তুই** (*tui*) — intimacy: your best friends of the same age, younger brothers and sisters, small children. Its verb ends in **-িস**: তুই কেমন **আছিস**? Plural: **তোরা**.\n\n**Careful:** তুই to a stranger or an elder is a serious insult. Quick scenarios: your grandmother → **আপনি** (some families use তুমি); your little brother → **তুই** or তুমি; a rickshaw driver → **আপনি**; your school best friend → **তুই**. When in doubt, go one step *more* polite.\n\n**এখানে** = here, **ওখানে** = there. The opposite of আছে is **নেই** (*nei*), and it never changes: রাফি এখানে **নেই** 'Rafi isn't here.'",
+      "tip": "Bengali has **three** words for 'you', a ladder of closeness:\n\n- **আপনি** (*apni*): respect, for elders, strangers, teachers, shopkeepers.\n- **তুমি** (*tumi*): warmth, for friends, younger people, partners, many parents.\n- **তুই** (*tui*): intimacy, for best friends, younger siblings, small children. Its verb ends in **-িস**: তুই কেমন **আছিস**? Plural: **তোরা**.\n\n**Careful:** তুই to a stranger or an elder is a serious insult. Grandmother → আপনি (some families use তুমি); school best friend → তুই. When in doubt, go one step *more* polite.\n\n**এখানে** = here, **ওখানে** = there. The opposite of আছে is **নেই** (*nei*): রাফি এখানে **নেই** 'Rafi isn't here.'",
       "sentences": [
         {
           "bn": "তুই কেমন আছিস?",
@@ -328,7 +328,7 @@
         "ki-what",
         "am"
       ],
-      "tip": "To ask a yes/no question, add **কি** (*ki*), usually right after the subject: **আপনি কি শিক্ষক?** 'Are you a teacher?' Spelling: **কি** (short ি) is the question marker; **কী** (long ী) means 'what'. They sound the same: **এটা কী?** 'What is this?' vs **ওটা কি আম?** 'Is that a mango?'\n\n'Is' has no word in Bengali, but **'is not'** does — and it changes with the person:\n\n- আমি ছাত্র **নই** — I'm not a student\n- তুমি ছাত্র **নও** — you're not\n- আপনি / উনি ছাত্র **নন** — you / he (polite) aren't\n- সে / এটা **নয়** — he / it isn't\n\n**নয় or নেই?** Both come out as 'isn't' in English, but they deny different things:\n\n- **নয়** (and নই / নও / নন) denies *what* someone is: রাফি ডাক্তার **নয়** 'Rafi isn't a doctor.'\n- **নেই** denies that someone is *there* — it's the opposite of আছে: রাফি এখানে **নেই** 'Rafi isn't here.'\n\nIn relaxed Bangladeshi speech you'll also hear plain **না** in place of নয়: *ota am na*. In this course we practise the full set, which is used in writing and careful speech.\n\n**এটা / ওটা** = 'this / that'. The **-টা** on the end is a *classifier* — a little word Bengali attaches to things. You'll see lots of it in the Food unit.",
+      "tip": "To ask a yes/no question, add **কি** (*ki*), usually right after the subject: **আপনি কি শিক্ষক?** 'Are you a teacher?' Spelling: **কি** (short ি) is the question marker; **কী** (long ী) means 'what'. They sound the same: **এটা কী?** 'What is this?' vs **ওটা কি আম?** 'Is that a mango?'\n\n'Is' has no word in Bengali, but **'is not'** does, and it changes with the person:\n\n- আমি ছাত্র **নই**: I'm not a student\n- তুমি ছাত্র **নও**: you're not\n- আপনি / উনি ছাত্র **নন**: you / he (polite) aren't\n- সে / এটা **নয়**: he / it isn't\n\n**নয় or নেই?** **নয়** (and নই / নও / নন) denies *what* someone is: রাফি ডাক্তার **নয়**. **নেই** denies that someone is *there*: রাফি এখানে **নেই**.\n\n**এটা / ওটা** = this / that. **কে** = who.",
       "sentences": [
         {
           "bn": "আপনি কি শিক্ষক?",
@@ -434,7 +434,7 @@
         "tomar",
         "bondhu"
       ],
-      "tip": "**আপনি কোথা থেকে এসেছেন?** (*apni kotha theke eshechhen?*) — literally 'You from where have come?' — is how you ask 'Where are you from?'. Answer: **আমি আমেরিকা থেকে এসেছি** 'I have come from America.'\n\nTwo things to notice:\n\n- **থেকে** 'from' comes **after** the place: বাংলাদেশ থেকে = 'from Bangladesh'. Bengali has *post*positions, not prepositions.\n- **কোথায়** 'where' shortens to **কোথা** before থেকে.\n\nLearn **এসেছি / এসেছেন** as chunks for now; the past tense comes in Unit 9.\n\nCulture: a very common Bangladeshi icebreaker is **আপনার দেশ কোথায়?** or **আপনার বাড়ি কোথায়?** — 'Where is your home?' It usually means *which district is your family from*, even if you live in Dhaka.",
+      "tip": "**আপনি কোথা থেকে এসেছেন?** (*apni kotha theke eshechhen?*), literally 'You from where have come?', is how you ask 'Where are you from?'. Answer: **আমি আমেরিকা থেকে এসেছি** 'I have come from America.'\n\n- **থেকে** 'from' comes **after** the place: বাংলাদেশ থেকে. Bengali has *post*positions, not prepositions.\n- **কোথায়** 'where' shortens to **কোথা** before থেকে.\n\nLearn **এসেছি / এসেছেন** as chunks for now; the past tense comes in Unit 9.\n\nCulture: a common icebreaker is **আপনার দেশ কোথায়?** ('Where is your home?'). It often means which district your family is from, even if you live in Dhaka.",
       "sentences": [
         {
           "bn": "আপনি কোথা থেকে এসেছেন?",

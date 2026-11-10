@@ -3,7 +3,7 @@
   "unit": "u03-family",
   "title": "Parents & siblings",
   "status": "draft",
-  "tip": "Two pairs for parents: **মা / বাবা** (*ma / baba*) are universal; **আম্মু / আব্বু** (*ammu / abbu*) are the warm, everyday words in many Bangladeshi (especially Muslim) homes — like 'mom' and 'dad'. In Kolkata and Hindu families you'll mostly hear মা and বাবা. Both pairs are correct: use whichever your family uses.\n\nSiblings are simply **ভাই** (*bhai*, brother) and **বোন** (*bon*, sister). Remember: no word for 'is' and no 'a / the': **ও আমার ভাই** = 'He (is) my brother.'\n\nShowing someone a photo? Start with **এটা আমার …** 'this is my …': **এটা আমার পরিবার** = 'This is my family.' (**পরিবার**, *poribar* = family.) Bangladeshi families are often large and close-knit, and grandparents, uncles and aunts may live under the same roof — which is why the next lessons have so many kinship words.",
+  "tip": "Two pairs for parents: **মা / বাবা** (*ma / baba*) are universal; **আম্মু / আব্বু** (*ammu / abbu*) are the warm, everyday words in many Bangladeshi (especially Muslim) homes, like 'mom' and 'dad'. In Kolkata and Hindu families you'll mostly hear মা and বাবা. Both pairs are correct: use whichever your family uses.\n\nSiblings are **ভাই** (*bhai*, brother) and **বোন** (*bon*, sister). Still no word for 'is' and no 'a / the': **ও আমার ভাই** = 'He (is) my brother.'\n\nTo show someone your family: **এটা আমার পরিবার** 'This is my family.' (**পরিবার**, *poribar* = family.)",
   "vocab": [
     {
       "id": "poribar",
@@ -89,22 +89,6 @@
     },
     {
       "id": "e03",
-      "type": "listen_select",
-      "audio": {
-        "bn": "বাবা",
-        "tr": "baba",
-        "en": "father"
-      },
-      "options": [
-        "মা",
-        "বাবা",
-        "আব্বু",
-        "বোন"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "e04",
       "type": "select_translation",
       "prompt": {
         "bn": "আম্মু",
@@ -121,7 +105,7 @@
       "answer": 2
     },
     {
-      "id": "e05",
+      "id": "e04",
       "type": "select_translation",
       "prompt": {
         "bn": "আব্বু",
@@ -138,23 +122,7 @@
       "answer": 3
     },
     {
-      "id": "e06",
-      "type": "listen_select",
-      "audio": {
-        "bn": "ভাই",
-        "tr": "bhai",
-        "en": "brother"
-      },
-      "options": [
-        "বাবা",
-        "বোন",
-        "আম্মু",
-        "ভাই"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "e07",
+      "id": "e05",
       "type": "select_translation",
       "prompt": {
         "bn": "বোন",
@@ -171,13 +139,12 @@
       "answer": 0
     },
     {
-      "id": "e08",
-      "type": "match_pairs",
+      "id": "e06",
       "pairs": [
         {
-          "bn": "মা",
-          "tr": "ma",
-          "en": "mother"
+          "bn": "বাবা",
+          "tr": "baba",
+          "en": "father"
         },
         {
           "bn": "আব্বু",
@@ -185,9 +152,9 @@
           "en": "dad"
         },
         {
-          "bn": "ভাই",
-          "tr": "bhai",
-          "en": "brother"
+          "bn": "আম্মু",
+          "tr": "ammu",
+          "en": "mom"
         },
         {
           "bn": "বোন",
@@ -195,14 +162,81 @@
           "en": "sister"
         },
         {
-          "bn": "পরিবার",
-          "tr": "poribar",
-          "en": "family"
+          "bn": "ভাই",
+          "tr": "bhai",
+          "en": "brother"
         }
-      ]
+      ],
+      "type": "match_pairs"
+    },
+    {
+      "id": "e07",
+      "type": "listen_select",
+      "audio": {
+        "bn": "বাবা",
+        "tr": "baba",
+        "en": "father"
+      },
+      "options": [
+        "মা",
+        "বাবা",
+        "আব্বু",
+        "বোন"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e08",
+      "type": "listen_select",
+      "audio": {
+        "bn": "ভাই",
+        "tr": "bhai",
+        "en": "brother"
+      },
+      "options": [
+        "বাবা",
+        "বোন",
+        "আম্মু",
+        "ভাই"
+      ],
+      "answer": 3
     },
     {
       "id": "e09",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "এটা আমার পরিবার।",
+        "tr": "eta amar poribar.",
+        "en": "This is my family."
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "ওটা আমার পরিবার।",
+        "এটা আমার পরিবার।",
+        "এটা তোমার পরিবার।",
+        "এটা আমার বোন।"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e10",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "মা কোথায়?",
+        "tr": "ma kothay?",
+        "en": "Where is Mom?"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "বাবা কোথায়?",
+        "মা কেমন?",
+        "মা কোথায়?",
+        "বোন কোথায়?"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e11",
       "type": "word_bank",
       "prompt": {
         "bn": "ও আমার ভাই।",
@@ -227,24 +261,7 @@
       ]
     },
     {
-      "id": "e10",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "এটা আমার পরিবার।",
-        "tr": "eta amar poribar.",
-        "en": "This is my family."
-      },
-      "direction": "en_to_bn",
-      "options": [
-        "ওটা আমার পরিবার।",
-        "এটা আমার পরিবার।",
-        "এটা তোমার পরিবার।",
-        "এটা আমার বোন।"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "e11",
+      "id": "e12",
       "type": "word_bank",
       "prompt": {
         "bn": "সে আমার বোন।",
@@ -269,7 +286,7 @@
       ]
     },
     {
-      "id": "e12",
+      "id": "e13",
       "type": "word_bank",
       "prompt": {
         "bn": "উনি আমার বাবা।",
@@ -292,7 +309,7 @@
       ]
     },
     {
-      "id": "e13",
+      "id": "e14",
       "type": "word_bank",
       "prompt": {
         "bn": "আমার আম্মু ডাক্তার।",
@@ -315,7 +332,7 @@
       ]
     },
     {
-      "id": "e14",
+      "id": "e15",
       "type": "type_translation",
       "prompt": {
         "bn": "উনি আমার মা।",
@@ -331,23 +348,6 @@
         "She is my mum.",
         "She's my mum."
       ]
-    },
-    {
-      "id": "e15",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "মা কোথায়?",
-        "tr": "ma kothay?",
-        "en": "Where is Mom?"
-      },
-      "direction": "en_to_bn",
-      "options": [
-        "বাবা কোথায়?",
-        "মা কেমন?",
-        "মা কোথায়?",
-        "বোন কোথায়?"
-      ],
-      "answer": 2
     }
   ]
 }

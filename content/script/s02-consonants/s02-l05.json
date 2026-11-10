@@ -3,7 +3,7 @@
   "unit": "s02-consonants",
   "title": "Consonants 5: প ফ ব ভ ম",
   "status": "draft",
-  "tip": "Row 5 is made with the lips: **প ফ ব ভ ম**. After four rows you know the pattern: plain, puffed, voiced, voiced-puffed, nasal.\n\n**ফ** is officially an aspirated p, but in Bangladesh it's usually a plain **f**: ফল (`fol`, *fruit*). **ভ** is a breathy b that can sound like *v*: ভালো (`bhalo`, *good*).\n\n**ব** is the shape to memorize carefully: a simple triangle hanging from the top line. Next lesson you'll meet **র**, which is ব plus a dot underneath. Many words depend on that dot!\n\n**ম** (`mo`) is the m in মানুষ (`manush`, *person*) and in many family words you'll read in s03 (মা, মামা).",
+  "tip": "Row 5 is made with the lips: **প ফ ব ভ ম**. After four rows you know the pattern: plain, puffed, voiced, voiced-puffed, nasal.\n\n**ফ** is officially a puffed p, but in Bangladesh it's usually a plain **f**: ফল (`fol`, *fruit*). **ভ** is a breathy b that can sound like *v*: ভালো (`bhalo`, *good*).\n\n**ব** is the shape to memorise carefully: a simple triangle hanging from the top line. In the next lesson you'll meet **র**, which is ব plus a dot underneath. Many words depend on that dot!\n\n**ম** (`mo`) is the m in মানুষ (`manush`, *person*) and in family words you'll read soon (মা, মামা).",
   "vocab": [
     {
       "id": "l-pa",
@@ -251,7 +251,6 @@
     },
     {
       "id": "e15",
-      "type": "match_pairs",
       "pairs": [
         {
           "bn": "প",
@@ -269,16 +268,17 @@
           "en": "bh: breathy b, often close to 'v'"
         },
         {
-          "bn": "বাংলা",
-          "tr": "bangla",
-          "en": "Bengali (language)"
+          "bn": "ফল",
+          "tr": "fol",
+          "en": "fruit"
         },
         {
           "bn": "পানি",
           "tr": "pani",
           "en": "water"
         }
-      ]
+      ],
+      "type": "match_pairs"
     }
   ]
 }

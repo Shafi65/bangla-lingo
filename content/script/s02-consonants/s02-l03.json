@@ -3,7 +3,7 @@
   "unit": "s02-consonants",
   "title": "Consonants 3: ট ঠ ড ঢ ণ",
   "status": "draft",
-  "tip": "Row 3 is the **retroflex** row: curl your tongue tip back and touch the ridge behind your teeth. **ট ঠ ড ঢ ণ**.\n\nGood news for English speakers: **English t and d are already close to ট and ড.** টাকা (`taka`, *taka/money*) and ডাক্তার (`daktar`, *doctor*) sound natural to you. ঠ and ঢ add a puff: ঠিক আছে (`thik achhe`, *OK*), ঢাকা (`dhaka`).\n\n**ঠ is not English 'th'.** It's a t with breath, like the t in *top* said forcefully.\n\n**ণ** sounds just like ন (`n`); learn it as 'the other n letter' (লবণ `lobon`, *salt*). Watch out: **ড** looks like the vowel **উ**, but ড has a notch in the top line.",
+  "tip": "Row 3 is the **retroflex** row: curl your tongue tip back and touch the ridge behind your teeth. **ট ঠ ড ঢ ণ**.\n\nGood news: **English t and d are already close to ট and ড.** টাকা (`taka`, money) and ডাক্তার (`daktar`, doctor) sound natural to you. ঠ and ঢ add a puff: ঠিক আছে (`thik achhe`, OK), ঢাকা (`dhaka`). **ঠ is not English 'th'**; think of the t in *top* said forcefully.\n\n**ণ** sounds just like ন (`n`); learn it as 'the other n letter' (লবণ `lobon`, salt). Watch out: **ড** looks like the vowel **উ**, but ড has a notch in the top line.",
   "vocab": [
     {
       "id": "l-tta",
@@ -215,12 +215,12 @@
         "tr": "dal",
         "en": "lentils"
       },
-      "direction": "en_to_bn",
+      "direction": "bn_to_en",
       "options": [
-        "ঢোল",
-        "ডাল",
-        "টাকা",
-        "লবণ"
+        "salt",
+        "lentils",
+        "Dhaka",
+        "drum (traditional)"
       ],
       "answer": 1
     },

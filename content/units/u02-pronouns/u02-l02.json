@@ -3,7 +3,7 @@
   "unit": "u02-pronouns",
   "title": "We & they",
   "status": "draft",
-  "tip": "Add **-রা** (*-ra*) to make pronouns plural:\n\n- আমি → **আমরা** (*amra*) we\n- তুমি → **তোমরা** (*tomra*), আপনি → **আপনারা** (*apnara*) you all\n- সে → **তারা** (*tara*), ও → **ওরা** (*ora*) they (polite: **ওনারা** *onara*)\n\nGood news: **the verb does not change for plural.** আমি ভালো **আছি**, আমরা ভালো **আছি**. আপনি **আছেন**, আপনারা **আছেন**. The ending only cares about *person* and *respect*.\n\nNouns usually don't need a plural ending when the context is clear: **তারা ডাক্তার** = 'They are doctors.' And **ছেলে / মেয়ে** mean 'boy / girl' but also 'son / daughter' — you'll use that in the Family unit.",
+  "tip": "Add **-রা** (*-ra*) to make pronouns plural:\n\n- আমি → **আমরা** (*amra*) we\n- তুমি → **তোমরা** (*tomra*), আপনি → **আপনারা** (*apnara*) you all\n- সে → **তারা** (*tara*), ও → **ওরা** (*ora*) they (ওরা is the everyday spoken form)\n\n**The verb does not change for plural**: আমি ভালো **আছি**, আমরা ভালো **আছি**; আপনি **আছেন**, আপনারা **আছেন**. The ending only cares about *person* and *respect*.\n\nNouns usually need no plural ending: **তারা ডাক্তার** = 'They are doctors.' **ছেলে / মেয়ে** mean 'boy / girl' and also 'son / daughter'.",
   "vocab": [
     {
       "id": "amra",
@@ -130,22 +130,6 @@
     },
     {
       "id": "e05",
-      "type": "listen_select",
-      "audio": {
-        "bn": "ওরা",
-        "tr": "ora",
-        "en": "they (spoken)"
-      },
-      "options": [
-        "ও",
-        "ওরা",
-        "তারা",
-        "আমরা"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "e06",
       "type": "select_translation",
       "prompt": {
         "bn": "ছেলে",
@@ -162,7 +146,7 @@
       "answer": 1
     },
     {
-      "id": "e07",
+      "id": "e06",
       "type": "select_translation",
       "prompt": {
         "bn": "মেয়ে",
@@ -179,7 +163,7 @@
       "answer": 3
     },
     {
-      "id": "e08",
+      "id": "e07",
       "type": "match_pairs",
       "pairs": [
         {
@@ -210,7 +194,40 @@
       ]
     },
     {
+      "id": "e08",
+      "type": "listen_select",
+      "audio": {
+        "bn": "ওরা",
+        "tr": "ora",
+        "en": "they (spoken)"
+      },
+      "options": [
+        "ও",
+        "ওরা",
+        "তারা",
+        "আমরা"
+      ],
+      "answer": 1
+    },
+    {
       "id": "e09",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আপনারা কেমন আছেন?",
+        "tr": "apnara kemon achhen?",
+        "en": "How are you all? (polite)"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "তোমরা কেমন আছো?",
+        "আপনারা কেমন আছেন?",
+        "আপনারা কেমন আছো?",
+        "আপনি কেমন আছেন?"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e10",
       "type": "word_bank",
       "prompt": {
         "bn": "আমরা ছাত্র।",
@@ -233,7 +250,7 @@
       ]
     },
     {
-      "id": "e10",
+      "id": "e11",
       "type": "word_bank",
       "prompt": {
         "bn": "ওরা ভালো মানুষ।",
@@ -256,7 +273,7 @@
       ]
     },
     {
-      "id": "e11",
+      "id": "e12",
       "type": "word_bank",
       "prompt": {
         "bn": "ও খুব ভালো মেয়ে।",
@@ -284,7 +301,7 @@
       ]
     },
     {
-      "id": "e12",
+      "id": "e13",
       "type": "word_bank",
       "prompt": {
         "bn": "আমরা ভালো আছি।",
@@ -307,43 +324,7 @@
       ]
     },
     {
-      "id": "e13",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "আপনারা কেমন আছেন?",
-        "tr": "apnara kemon achhen?",
-        "en": "How are you all? (polite)"
-      },
-      "direction": "en_to_bn",
-      "options": [
-        "তোমরা কেমন আছো?",
-        "আপনারা কেমন আছেন?",
-        "আপনারা কেমন আছো?",
-        "আপনি কেমন আছেন?"
-      ],
-      "answer": 1
-    },
-    {
       "id": "e14",
-      "type": "type_translation",
-      "prompt": {
-        "bn": "তোমরা কেমন আছো?",
-        "tr": "tomra kemon achho?",
-        "en": "How are you all?"
-      },
-      "direction": "bn_to_en",
-      "accepted": [
-        "How are you all?",
-        "How are you guys?",
-        "How are you?",
-        "How are you all doing?",
-        "How are you guys doing?",
-        "How're you all?",
-        "How're you guys?"
-      ]
-    },
-    {
-      "id": "e15",
       "type": "word_bank",
       "prompt": {
         "bn": "তারা আমার বন্ধু।",
@@ -363,6 +344,25 @@
         "তারা",
         "আমার",
         "বন্ধু"
+      ]
+    },
+    {
+      "id": "e15",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "তোমরা কেমন আছো?",
+        "tr": "tomra kemon achho?",
+        "en": "How are you all?"
+      },
+      "direction": "bn_to_en",
+      "accepted": [
+        "How are you all?",
+        "How are you guys?",
+        "How are you?",
+        "How are you all doing?",
+        "How are you guys doing?",
+        "How're you all?",
+        "How're you guys?"
       ]
     }
   ]

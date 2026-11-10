@@ -3,7 +3,7 @@
   "unit": "s02-consonants",
   "title": "Consonants 7: ড় ঢ় য় ৎ ং ঃ ঁ",
   "status": "draft",
-  "tip": "**A dot changes everything.** ড + dot = **ড়** (`r`, a flapped r: curl the tongue back and flick it forward, like *tt* in American *butter*): বড় (`boro`, *big*). ঢ + dot = **ঢ়** (`rh`, rare). য + dot = **য়** (`y`): মেয়ে (`meye`, *girl*), কোথায় (`kothay`, *where*). When you see a dot under a letter, check it twice.\n\n**ৎ** (khondo to) is a t that can never take a vowel: হঠাৎ (`hothat`, *suddenly*), উৎসব (`utshob`, *festival*).\n\n**Three signs that sit on other letters:**\n- **ং** = `ng` at the end of a syllable: বাংলা (`bangla`), মাংস (`mangsho`). Same sound as ঙ.\n- **ঃ** = a little breath; inside a word it doubles the next consonant: দুঃখিত (`dukkhito`, *sorry*).\n- **ঁ** (moon and dot) goes *above* a letter and makes the vowel nasal: চাঁদ (`cha~d`, *moon*), হ্যাঁ (`hya~`, *yes*). The `~` in transliteration marks it.",
+  "tip": "**A dot changes everything.** ড + dot = **ড়** (`r`, a flapped r: curl the tongue back and flick it forward, like *tt* in American *butter*): বড় (`boro`, big). ঢ + dot = **ঢ়** (`rh`, rare). য + dot = **য়** (`y`): মেয়ে (`meye`, girl), কোথায় (`kothay`, where). When you see a dot under a letter, check it twice.\n\n**ৎ** is a t that can never take a vowel: হঠাৎ (`hothat`, suddenly), উৎসব (`utshob`, festival).\n\n**Three signs that sit on other letters:**\n- **ং** = `ng` at the end of a syllable: বাংলা (`bangla`). Same sound as ঙ.\n- **ঃ** = a little breath; inside a word it doubles the next consonant: দুঃখিত (`dukkhito`, sorry).\n- **ঁ** (moon and dot) goes *above* a letter and makes the vowel nasal: চাঁদ (`cha~d`, moon), হ্যাঁ (`hya~`, yes). The `~` marks it.",
   "vocab": [
     {
       "id": "l-rra",
@@ -97,22 +97,6 @@
     },
     {
       "id": "e02",
-      "type": "listen_select",
-      "audio": {
-        "bn": "ড়",
-        "tr": "ro",
-        "en": "flapped r: tongue curled back, flicked forward (like the tt in American 'butter')"
-      },
-      "options": [
-        "ড",
-        "ড়",
-        "ঢ",
-        "য়"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "e03",
       "type": "script_recognize",
       "glyph": "ঢ়",
       "options": [
@@ -124,7 +108,7 @@
       "answer": 2
     },
     {
-      "id": "e04",
+      "id": "e03",
       "type": "script_recognize",
       "glyph": "য়",
       "options": [
@@ -136,23 +120,7 @@
       "answer": 3
     },
     {
-      "id": "e05",
-      "type": "listen_select",
-      "audio": {
-        "bn": "য়",
-        "tr": "yo",
-        "en": "y as in 'yes' (often a glide between vowels)"
-      },
-      "options": [
-        "য়",
-        "য",
-        "ড়",
-        "প"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "e06",
+      "id": "e04",
       "type": "script_recognize",
       "glyph": "ৎ",
       "options": [
@@ -164,7 +132,7 @@
       "answer": 1
     },
     {
-      "id": "e07",
+      "id": "e05",
       "type": "script_recognize",
       "glyph": "ং",
       "options": [
@@ -176,7 +144,7 @@
       "answer": 3
     },
     {
-      "id": "e08",
+      "id": "e06",
       "type": "script_recognize",
       "glyph": "ঃ",
       "options": [
@@ -188,108 +156,24 @@
       "answer": 2
     },
     {
-      "id": "e09",
+      "id": "e07",
       "type": "script_recognize",
       "glyph": "আঁ",
       "options": [
-        "a (as in 'father')",
         "a~ (nasal a)",
+        "a (as in 'father')",
         "ng (as in 'sing')",
         "o (as in 'or')"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "e10",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "গাঢ়",
-        "tr": "garho",
-        "en": "dark / deep (of colour)"
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "big",
-        "dark / deep (of colour)",
-        "moon",
-        "five"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "e11",
-      "type": "listen_select",
-      "audio": {
-        "bn": "চাঁদ",
-        "tr": "cha~d",
-        "en": "moon"
-      },
-      "options": [
-        "চাঁদ",
-        "পাঁচ",
-        "মাংস",
-        "বড়"
       ],
       "answer": 0
     },
     {
-      "id": "e12",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "দুঃখিত",
-        "tr": "dukkhito",
-        "en": "sorry"
-      },
-      "direction": "en_to_bn",
-      "options": [
-        "হঠাৎ",
-        "উৎসব",
-        "দুঃখিত",
-        "গাঢ়"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "e13",
-      "type": "listen_select",
-      "audio": {
-        "bn": "হঠাৎ",
-        "tr": "hothat",
-        "en": "suddenly"
-      },
-      "options": [
-        "দুঃখিত",
-        "হঠাৎ",
-        "উৎসব",
-        "মেয়ে"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "e14",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "চাঁদ",
-        "tr": "cha~d",
-        "en": "moon"
-      },
-      "direction": "en_to_bn",
-      "options": [
-        "বড়",
-        "মাংস",
-        "পাঁচ",
-        "চাঁদ"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "e15",
-      "type": "match_pairs",
+      "id": "e08",
       "pairs": [
         {
-          "bn": "ঢ়",
-          "tr": "rho",
-          "en": "flapped r with a puff of breath"
+          "bn": "গাঢ়",
+          "tr": "garho",
+          "en": "dark / deep (of colour)"
         },
         {
           "bn": "ৎ",
@@ -311,7 +195,124 @@
           "tr": "a~",
           "en": "ঁ makes the vowel nasal (shown on আ: a~)"
         }
-      ]
+      ],
+      "type": "match_pairs"
+    },
+    {
+      "id": "e09",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "গাঢ়",
+        "tr": "garho",
+        "en": "dark / deep (of colour)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "dark / deep (of colour)",
+        "big",
+        "moon",
+        "five"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e10",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "চাঁদ",
+        "tr": "cha~d",
+        "en": "moon"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "five",
+        "moon",
+        "big",
+        "sorry"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e11",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "দুঃখিত",
+        "tr": "dukkhito",
+        "en": "sorry"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "suddenly",
+        "moon",
+        "sorry",
+        "festival"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e12",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "হঠাৎ",
+        "tr": "hothat",
+        "en": "suddenly"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "moon",
+        "festival",
+        "sorry",
+        "suddenly"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e13",
+      "type": "listen_select",
+      "audio": {
+        "bn": "চাঁদ",
+        "tr": "cha~d",
+        "en": "moon"
+      },
+      "options": [
+        "বড়",
+        "মাংস",
+        "পাঁচ",
+        "চাঁদ"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e14",
+      "type": "listen_select",
+      "audio": {
+        "bn": "হঠাৎ",
+        "tr": "hothat",
+        "en": "suddenly"
+      },
+      "options": [
+        "দুঃখিত",
+        "হঠাৎ",
+        "উৎসব",
+        "মেয়ে"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e15",
+      "type": "listen_select",
+      "audio": {
+        "bn": "দুঃখিত",
+        "tr": "dukkhito",
+        "en": "sorry"
+      },
+      "options": [
+        "হঠাৎ",
+        "চাঁদ",
+        "বড়",
+        "দুঃখিত"
+      ],
+      "answer": 3
     }
   ]
 }

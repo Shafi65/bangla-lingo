@@ -3,7 +3,7 @@
   "unit": "u01-basics",
   "title": "Review: hello & goodbye",
   "status": "draft",
-  "tip": "Put Unit 1 together into a full mini-conversation:\n\n- **আসসালামু আলাইকুম।** — **ওয়ালাইকুম আসসালাম।**\n- **কেমন আছেন?** — **ভালো আছি, আর আপনি?**\n- **আপনার নাম কী?** — **আমার নাম রাফি।**\n- **খোদা হাফেজ!** — **আবার দেখা হবে।**\n\n**খোদা হাফেজ** (*khoda hafez*, 'may God protect you') is the usual goodbye in Bangladesh; **আল্লাহ হাফেজ** (*allah hafez*) is also common. Hindu speakers and people in Kolkata often say **আসি** (*ashi*, lit. 'I'll come [again]') or **আবার দেখা হবে**.",
+  "tip": "Put Unit 1 together into a full mini-conversation:\n\n- **আসসালামু আলাইকুম।** — **ওয়ালাইকুম আসসালাম।**\n- **কেমন আছেন?** — **ভালো আছি, আর আপনি?**\n- **আপনার নাম কী?** — **আমার নাম রাফি।**\n- **খোদা হাফেজ!** — **আবার দেখা হবে।**\n\n**খোদা হাফেজ** (*khoda hafez*, 'may God protect you') is the usual goodbye in Bangladesh; **আল্লাহ হাফেজ** (*allah hafez*) is also common. Hindu speakers and people in Kolkata often say **আসি** (*ashi*, lit. 'I'll come [again]') or **আবার দেখা হবে**.\n\nSneak peek at the alphabet: the letter quizzes are হ as in হাফেজ, and দ as in খোদা.",
   "vocab": [
     {
       "id": "khoda-hafez",
@@ -56,6 +56,22 @@
     },
     {
       "id": "e03",
+      "type": "listen_select",
+      "audio": {
+        "bn": "খোদা হাফেজ।",
+        "tr": "khoda hafez.",
+        "en": "Goodbye."
+      },
+      "options": [
+        "খোদা হাফেজ।",
+        "আবার দেখা হবে।",
+        "ধন্যবাদ।",
+        "নমস্কার।"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e04",
       "type": "match_pairs",
       "pairs": [
         {
@@ -86,132 +102,7 @@
       ]
     },
     {
-      "id": "e04",
-      "type": "select_translation",
-      "direction": "en_to_bn",
-      "prompt": {
-        "bn": "আপনার নাম কী?",
-        "tr": "apnar nam ki?",
-        "en": "What is your name? (polite)"
-      },
-      "options": [
-        "তোমার নাম কী?",
-        "আমার নাম কী?",
-        "আপনি কেমন আছেন?",
-        "আপনার নাম কী?"
-      ],
-      "answer": 3
-    },
-    {
       "id": "e05",
-      "type": "word_bank",
-      "direction": "en_to_bn",
-      "prompt": {
-        "bn": "আসসালামু আলাইকুম, আমার নাম রাফি।",
-        "tr": "assalamu alaikum, amar nam rafi.",
-        "en": "Hello, my name is Rafi."
-      },
-      "tiles": [
-        "আপনার",
-        "নাম",
-        "আসসালামু আলাইকুম",
-        "কী",
-        "রাফি",
-        "আমার",
-        "ধন্যবাদ"
-      ],
-      "answer": [
-        "আসসালামু আলাইকুম",
-        "আমার",
-        "নাম",
-        "রাফি"
-      ]
-    },
-    {
-      "id": "e06",
-      "type": "script_recognize",
-      "glyph": "হ",
-      "options": [
-        "bh",
-        "kh",
-        "h",
-        "gh"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "e07",
-      "type": "select_translation",
-      "direction": "bn_to_en",
-      "prompt": {
-        "bn": "তুমি কেমন আছো?",
-        "tr": "tumi kemon achho?",
-        "en": "How are you?"
-      },
-      "options": [
-        "How are you?",
-        "What is your name?",
-        "Are you a student?",
-        "See you again."
-      ],
-      "answer": 0
-    },
-    {
-      "id": "e08",
-      "type": "type_translation",
-      "direction": "bn_to_en",
-      "prompt": {
-        "bn": "আমি শিক্ষক।",
-        "tr": "ami shikkhok.",
-        "en": "I am a teacher."
-      },
-      "accepted": [
-        "i am a teacher",
-        "i'm a teacher",
-        "i am teacher"
-      ]
-    },
-    {
-      "id": "e09",
-      "type": "listen_select",
-      "audio": {
-        "bn": "খোদা হাফেজ।",
-        "tr": "khoda hafez.",
-        "en": "Goodbye."
-      },
-      "options": [
-        "খোদা হাফেজ।",
-        "আবার দেখা হবে।",
-        "ধন্যবাদ।",
-        "নমস্কার।"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "e10",
-      "type": "word_bank",
-      "direction": "bn_to_en",
-      "prompt": {
-        "bn": "ধন্যবাদ, খোদা হাফেজ।",
-        "tr": "dhonnobad, khoda hafez.",
-        "en": "Thank you, goodbye."
-      },
-      "tiles": [
-        "hello",
-        "you",
-        "yes",
-        "goodbye",
-        "thank",
-        "see"
-      ],
-      "answer": [
-        "thank",
-        "you",
-        "goodbye"
-      ]
-    },
-    {
-      "id": "e11",
       "type": "match_pairs",
       "pairs": [
         {
@@ -242,7 +133,65 @@
       ]
     },
     {
-      "id": "e12",
+      "id": "e06",
+      "type": "script_recognize",
+      "glyph": "হ",
+      "options": [
+        "bh",
+        "kh",
+        "h",
+        "gh"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e07",
+      "type": "script_recognize",
+      "glyph": "দ",
+      "options": [
+        "dh",
+        "t",
+        "d",
+        "r"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e08",
+      "type": "select_translation",
+      "direction": "en_to_bn",
+      "prompt": {
+        "bn": "আপনার নাম কী?",
+        "tr": "apnar nam ki?",
+        "en": "What is your name? (polite)"
+      },
+      "options": [
+        "তোমার নাম কী?",
+        "আমার নাম কী?",
+        "আপনি কেমন আছেন?",
+        "আপনার নাম কী?"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e09",
+      "type": "select_translation",
+      "direction": "bn_to_en",
+      "prompt": {
+        "bn": "তুমি কেমন আছো?",
+        "tr": "tumi kemon achho?",
+        "en": "How are you?"
+      },
+      "options": [
+        "How are you?",
+        "What is your name?",
+        "Are you a student?",
+        "See you again."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e10",
       "type": "select_translation",
       "direction": "en_to_bn",
       "prompt": {
@@ -259,7 +208,70 @@
       "answer": 1
     },
     {
+      "id": "e11",
+      "type": "word_bank",
+      "direction": "en_to_bn",
+      "prompt": {
+        "bn": "আসসালামু আলাইকুম, আমার নাম রাফি।",
+        "tr": "assalamu alaikum, amar nam rafi.",
+        "en": "Hello, my name is Rafi."
+      },
+      "tiles": [
+        "আপনার",
+        "নাম",
+        "আসসালামু আলাইকুম",
+        "কী",
+        "রাফি",
+        "আমার",
+        "ধন্যবাদ"
+      ],
+      "answer": [
+        "আসসালামু আলাইকুম",
+        "আমার",
+        "নাম",
+        "রাফি"
+      ]
+    },
+    {
+      "id": "e12",
+      "type": "word_bank",
+      "direction": "bn_to_en",
+      "prompt": {
+        "bn": "ধন্যবাদ, খোদা হাফেজ।",
+        "tr": "dhonnobad, khoda hafez.",
+        "en": "Thank you, goodbye."
+      },
+      "tiles": [
+        "hello",
+        "you",
+        "yes",
+        "goodbye",
+        "thank",
+        "see"
+      ],
+      "answer": [
+        "thank",
+        "you",
+        "goodbye"
+      ]
+    },
+    {
       "id": "e13",
+      "type": "type_translation",
+      "direction": "bn_to_en",
+      "prompt": {
+        "bn": "আমি শিক্ষক।",
+        "tr": "ami shikkhok.",
+        "en": "I am a teacher."
+      },
+      "accepted": [
+        "i am a teacher",
+        "i'm a teacher",
+        "i am teacher"
+      ]
+    },
+    {
+      "id": "e14",
       "type": "type_translation",
       "direction": "en_to_bn",
       "prompt": {
@@ -279,18 +291,6 @@
         "allah hafej",
         "allah hafiz"
       ]
-    },
-    {
-      "id": "e14",
-      "type": "script_recognize",
-      "glyph": "দ",
-      "options": [
-        "dh",
-        "t",
-        "d",
-        "r"
-      ],
-      "answer": 2
     }
   ]
 }

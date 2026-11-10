@@ -3,7 +3,7 @@
   "unit": "u01-basics",
   "title": "How are you?",
   "status": "draft",
-  "tip": "**আছ-** (*achh-*) means 'to be (in a state / somewhere)'. Its ending changes with the person:\n\n- আমি **আছি** (*achhi*) — I am\n- তুমি **আছো** (*achho*) — you (familiar) are\n- আপনি **আছেন** (*achhen*) — you (polite) are\n\nPolite আপনি forms almost always end in **-েন** (*-en*). So: **কেমন আছেন?** (polite) vs **কেমন আছো?** (familiar). The pronoun is often dropped because the ending already says who you mean.\n\nIn Bangladesh many people begin their answer with **আলহামদুলিল্লাহ** ('praise be to God'): *Alhamdulillah, bhalo achhi.*",
+  "tip": "**আছ-** (*achh-*) means 'to be (in a state / somewhere)'. Its ending changes with the person:\n\n- আমি **আছি** (*achhi*): I am\n- তুমি **আছো** (*achho*): you (familiar) are\n- আপনি **আছেন** (*achhen*): you (polite) are\n\nPolite আপনি forms almost always end in **-েন**, so **কেমন আছেন?** is polite and **কেমন আছো?** is familiar. The pronoun is often dropped because the ending already says who you mean.\n\nUseful words: **ভালো** (*bhalo*) good, **খুব** (*khub*) very, **আর** (*ar*) and. In Bangladesh many people answer **আলহামদুলিল্লাহ, ভালো আছি** ('praise be to God, I'm well').\n\nSneak peek at the alphabet: the letter quiz is ভ as in ভালো.",
   "vocab": [
     {
       "id": "kemon",
@@ -114,6 +114,32 @@
     },
     {
       "id": "e04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "আছেন",
+          "tr": "achhen",
+          "en": "are (polite)"
+        },
+        {
+          "bn": "আছো",
+          "tr": "achho",
+          "en": "are (familiar)"
+        },
+        {
+          "bn": "আছি",
+          "tr": "achhi",
+          "en": "am"
+        },
+        {
+          "bn": "আলহামদুলিল্লাহ",
+          "tr": "alhamdulillah",
+          "en": "praise be to God"
+        }
+      ]
+    },
+    {
+      "id": "e05",
       "type": "listen_select",
       "audio": {
         "bn": "ভালো আছি।",
@@ -129,7 +155,23 @@
       "answer": 1
     },
     {
-      "id": "e05",
+      "id": "e06",
+      "type": "listen_select",
+      "audio": {
+        "bn": "কেমন আছেন?",
+        "tr": "kemon achhen?",
+        "en": "How are you?"
+      },
+      "options": [
+        "কেমন আছেন?",
+        "কেমন আছো?",
+        "ভালো আছি।",
+        "আর আপনি?"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e07",
       "type": "match_pairs",
       "pairs": [
         {
@@ -160,19 +202,53 @@
       ]
     },
     {
-      "id": "e06",
+      "id": "e08",
       "type": "script_recognize",
       "glyph": "ভ",
       "options": [
         "b",
-        "bh",
         "ph",
-        "dh"
+        "dh",
+        "bh"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e09",
+      "type": "select_translation",
+      "direction": "bn_to_en",
+      "prompt": {
+        "bn": "আলহামদুলিল্লাহ, ভালো আছি।",
+        "tr": "alhamdulillah, bhalo achhi.",
+        "en": "Praise be to God, I'm well."
+      },
+      "options": [
+        "Thank you, I'm well.",
+        "Praise be to God, I'm well.",
+        "I'm not well.",
+        "How are you?"
       ],
       "answer": 1
     },
     {
-      "id": "e07",
+      "id": "e10",
+      "type": "select_translation",
+      "direction": "en_to_bn",
+      "prompt": {
+        "bn": "তুমি কেমন আছো?",
+        "tr": "tumi kemon achho?",
+        "en": "How are you? (familiar)"
+      },
+      "options": [
+        "আপনি কেমন আছেন?",
+        "তুমি কেমন আছো?",
+        "তুমি কেমন আছেন?",
+        "আমি ভালো আছি।"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e11",
       "type": "word_bank",
       "direction": "en_to_bn",
       "prompt": {
@@ -196,40 +272,7 @@
       ]
     },
     {
-      "id": "e08",
-      "type": "select_translation",
-      "direction": "en_to_bn",
-      "prompt": {
-        "bn": "তুমি কেমন আছো?",
-        "tr": "tumi kemon achho?",
-        "en": "How are you? (familiar)"
-      },
-      "options": [
-        "আপনি কেমন আছেন?",
-        "তুমি কেমন আছো?",
-        "তুমি কেমন আছেন?",
-        "আমি ভালো আছি।"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "e09",
-      "type": "listen_select",
-      "audio": {
-        "bn": "কেমন আছেন?",
-        "tr": "kemon achhen?",
-        "en": "How are you?"
-      },
-      "options": [
-        "কেমন আছেন?",
-        "কেমন আছো?",
-        "ভালো আছি।",
-        "আর আপনি?"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "e10",
+      "id": "e12",
       "type": "word_bank",
       "direction": "bn_to_en",
       "prompt": {
@@ -254,24 +297,7 @@
       ]
     },
     {
-      "id": "e11",
-      "type": "select_translation",
-      "direction": "bn_to_en",
-      "prompt": {
-        "bn": "আলহামদুলিল্লাহ, ভালো আছি।",
-        "tr": "alhamdulillah, bhalo achhi.",
-        "en": "Praise be to God, I'm well."
-      },
-      "options": [
-        "Thank you, I'm well.",
-        "Praise be to God, I'm well.",
-        "I'm not well.",
-        "How are you?"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "e12",
+      "id": "e13",
       "type": "type_translation",
       "direction": "bn_to_en",
       "prompt": {
@@ -286,7 +312,7 @@
       ]
     },
     {
-      "id": "e13",
+      "id": "e14",
       "type": "type_translation",
       "direction": "en_to_bn",
       "prompt": {
@@ -303,32 +329,6 @@
         "apni kemon achhen",
         "apni kemon achen",
         "apni kemon asen"
-      ]
-    },
-    {
-      "id": "e14",
-      "type": "match_pairs",
-      "pairs": [
-        {
-          "bn": "আছেন",
-          "tr": "achhen",
-          "en": "are (polite)"
-        },
-        {
-          "bn": "আছো",
-          "tr": "achho",
-          "en": "are (familiar)"
-        },
-        {
-          "bn": "আছি",
-          "tr": "achhi",
-          "en": "am"
-        },
-        {
-          "bn": "আলহামদুলিল্লাহ",
-          "tr": "alhamdulillah",
-          "en": "praise be to God"
-        }
       ]
     }
   ]

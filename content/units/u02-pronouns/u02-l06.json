@@ -79,24 +79,6 @@
     },
     {
       "id": "e04",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "আপনি কি বাংলাদেশি?",
-        "tr": "apni ki bangladeshi?",
-        "en": "Are you Bangladeshi? (polite)"
-      },
-      "direction": "en_to_bn",
-      "options": [
-        "তুমি কি বাংলাদেশি?",
-        "আপনি কি বাংলাদেশি?",
-        "আপনি কী বাংলাদেশি?",
-        "আপনি কি বাংলাদেশ?"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "e05",
-      "type": "match_pairs",
       "pairs": [
         {
           "bn": "বাংলা",
@@ -114,44 +96,87 @@
           "en": "Bangladeshi"
         },
         {
-          "bn": "বাংলাদেশ",
-          "tr": "bangladesh",
-          "en": "Bangladesh"
+          "bn": "তোমরা",
+          "tr": "tomra",
+          "en": "you (familiar, plural)"
         },
         {
-          "bn": "তুই",
-          "tr": "tui",
-          "en": "you (intimate)"
+          "bn": "আপনারা",
+          "tr": "apnara",
+          "en": "you (polite, plural)"
         }
-      ]
+      ],
+      "type": "match_pairs"
+    },
+    {
+      "id": "e05",
+      "type": "listen_select",
+      "audio": {
+        "bn": "বাংলাদেশি",
+        "tr": "bangladeshi",
+        "en": "Bangladeshi"
+      },
+      "options": [
+        "বাংলাদেশ",
+        "বাংলাদেশি",
+        "বাংলা",
+        "ইংরেজি"
+      ],
+      "answer": 1
     },
     {
       "id": "e06",
-      "type": "word_bank",
+      "type": "select_translation",
       "prompt": {
-        "bn": "না, এটা ইংরেজি।",
-        "tr": "na, eta ingreji.",
-        "en": "No, this is English."
+        "bn": "আপনি কি বাংলাদেশি?",
+        "tr": "apni ki bangladeshi?",
+        "en": "Are you Bangladeshi? (polite)"
       },
-      "direction": "bn_to_en",
-      "tiles": [
-        "No",
-        "yes",
-        "this",
-        "that",
-        "is",
-        "English",
-        "Bengali"
+      "direction": "en_to_bn",
+      "options": [
+        "তুমি কি বাংলাদেশি?",
+        "আপনি কি বাংলাদেশি?",
+        "আপনি কী বাংলাদেশি?",
+        "আপনি কি বাংলাদেশ?"
       ],
-      "answer": [
-        "No",
-        "this",
-        "is",
-        "English"
-      ]
+      "answer": 1
     },
     {
       "id": "e07",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "তুমি ছাত্র নও।",
+        "tr": "tumi chhatro noo.",
+        "en": "You are not a student. (to a male friend, familiar)"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "তুমি ছাত্র নই।",
+        "তুমি ছাত্র নয়।",
+        "তুমি ছাত্র নও।",
+        "তুমি ছাত্র নন।"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e08",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আমি এখানে, তুমি কোথায়?",
+        "tr": "ami ekhane, tumi kothay?",
+        "en": "I'm here, where are you?"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "আমি ওখানে, তুমি কোথায়?",
+        "আমি এখানে, তুমি কে?",
+        "আমি এখানে নেই, তুমি কোথায়?",
+        "আমি এখানে, তুমি কোথায়?"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e09",
       "type": "word_bank",
       "prompt": {
         "bn": "এটা কি বাংলা?",
@@ -174,7 +199,31 @@
       ]
     },
     {
-      "id": "e08",
+      "id": "e10",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আপনি কোথা থেকে এসেছেন?",
+        "tr": "apni kotha theke eshechhen?",
+        "en": "Where are you from?"
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "Where",
+        "are",
+        "you",
+        "from",
+        "am",
+        "have"
+      ],
+      "answer": [
+        "Where",
+        "are",
+        "you",
+        "from"
+      ]
+    },
+    {
+      "id": "e11",
       "type": "word_bank",
       "prompt": {
         "bn": "উনি শিক্ষক নন, উনি ডাক্তার।",
@@ -200,27 +249,7 @@
       ]
     },
     {
-      "id": "e09",
-      "type": "type_translation",
-      "prompt": {
-        "bn": "তিনি আমার বাংলা শিক্ষক।",
-        "tr": "tini amar bangla shikkhok.",
-        "en": "He is my Bengali teacher."
-      },
-      "direction": "bn_to_en",
-      "accepted": [
-        "He is my Bengali teacher.",
-        "He is my Bangla teacher.",
-        "She is my Bengali teacher.",
-        "She is my Bangla teacher.",
-        "He's my Bengali teacher.",
-        "He's my Bangla teacher.",
-        "She's my Bengali teacher.",
-        "She's my Bangla teacher."
-      ]
-    },
-    {
-      "id": "e10",
+      "id": "e12",
       "type": "word_bank",
       "prompt": {
         "bn": "ওরা আমার বন্ধু, ওরা বাংলাদেশি।",
@@ -246,7 +275,7 @@
       ]
     },
     {
-      "id": "e11",
+      "id": "e13",
       "type": "word_bank",
       "prompt": {
         "bn": "তুই কোথায়?",
@@ -267,24 +296,27 @@
       ]
     },
     {
-      "id": "e12",
-      "type": "select_translation",
+      "id": "e14",
+      "type": "type_translation",
       "prompt": {
-        "bn": "আমি এখানে, তুমি কোথায়?",
-        "tr": "ami ekhane, tumi kothay?",
-        "en": "I'm here, where are you?"
+        "bn": "তিনি আমার বাংলা শিক্ষক।",
+        "tr": "tini amar bangla shikkhok.",
+        "en": "He is my Bengali teacher."
       },
-      "direction": "en_to_bn",
-      "options": [
-        "আমি ওখানে, তুমি কোথায়?",
-        "আমি এখানে, তুমি কে?",
-        "আমি এখানে নেই, তুমি কোথায়?",
-        "আমি এখানে, তুমি কোথায়?"
-      ],
-      "answer": 3
+      "direction": "bn_to_en",
+      "accepted": [
+        "He is my Bengali teacher.",
+        "He is my Bangla teacher.",
+        "She is my Bengali teacher.",
+        "She is my Bangla teacher.",
+        "He's my Bengali teacher.",
+        "He's my Bangla teacher.",
+        "She's my Bengali teacher.",
+        "She's my Bangla teacher."
+      ]
     },
     {
-      "id": "e13",
+      "id": "e15",
       "type": "type_translation",
       "prompt": {
         "bn": "জি, আমি বাংলাদেশি।",
@@ -299,39 +331,6 @@
         "jee, ami bangladeshi",
         "ji, ami bangladeshee"
       ]
-    },
-    {
-      "id": "e14",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "এটা কি ইংরেজি?",
-        "tr": "eta ki ingreji?",
-        "en": "Is this English?"
-      },
-      "direction": "en_to_bn",
-      "options": [
-        "এটা কী ইংরেজি?",
-        "এটা ইংরেজি নয়।",
-        "এটা কি ইংরেজি?",
-        "ওটা কি বাংলা?"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "e15",
-      "type": "listen_select",
-      "audio": {
-        "bn": "বাংলাদেশি",
-        "tr": "bangladeshi",
-        "en": "Bangladeshi"
-      },
-      "options": [
-        "বাংলাদেশ",
-        "বাংলাদেশি",
-        "বাংলা",
-        "ইংরেজি"
-      ],
-      "answer": 1
     }
   ]
 }

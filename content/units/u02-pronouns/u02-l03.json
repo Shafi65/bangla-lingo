@@ -3,7 +3,7 @@
   "unit": "u02-pronouns",
   "title": "tui, tumi, apni",
   "status": "draft",
-  "tip": "Bengali has **three** words for 'you'. Think of them as a ladder of closeness:\n\n- **আপনি** (*apni*) — respect: elders, strangers, teachers, shopkeepers.\n- **তুমি** (*tumi*) — warmth: friends, younger people, partners, many parents and grandparents.\n- **তুই** (*tui*) — intimacy: your best friends of the same age, younger brothers and sisters, small children. Its verb ends in **-িস**: তুই কেমন **আছিস**? Plural: **তোরা**.\n\n**Careful:** তুই to a stranger or an elder is a serious insult. Quick scenarios: your grandmother → **আপনি** (some families use তুমি); your little brother → **তুই** or তুমি; a rickshaw driver → **আপনি**; your school best friend → **তুই**. When in doubt, go one step *more* polite.\n\n**এখানে** = here, **ওখানে** = there. The opposite of আছে is **নেই** (*nei*), and it never changes: রাফি এখানে **নেই** 'Rafi isn't here.'",
+  "tip": "Bengali has **three** words for 'you', a ladder of closeness:\n\n- **আপনি** (*apni*): respect, for elders, strangers, teachers, shopkeepers.\n- **তুমি** (*tumi*): warmth, for friends, younger people, partners, many parents.\n- **তুই** (*tui*): intimacy, for best friends, younger siblings, small children. Its verb ends in **-িস**: তুই কেমন **আছিস**? Plural: **তোরা**.\n\n**Careful:** তুই to a stranger or an elder is a serious insult. Grandmother → আপনি (some families use তুমি); school best friend → তুই. When in doubt, go one step *more* polite.\n\n**এখানে** = here, **ওখানে** = there. The opposite of আছে is **নেই** (*nei*): রাফি এখানে **নেই** 'Rafi isn't here.'",
   "vocab": [
     {
       "id": "tui",
@@ -116,22 +116,6 @@
     },
     {
       "id": "e05",
-      "type": "listen_select",
-      "audio": {
-        "bn": "ওখানে",
-        "tr": "okhane",
-        "en": "there"
-      },
-      "options": [
-        "ওরা",
-        "এখানে",
-        "এখন",
-        "ওখানে"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "e06",
       "type": "select_translation",
       "prompt": {
         "bn": "নেই",
@@ -148,7 +132,7 @@
       "answer": 1
     },
     {
-      "id": "e07",
+      "id": "e06",
       "type": "match_pairs",
       "pairs": [
         {
@@ -179,7 +163,40 @@
       ]
     },
     {
+      "id": "e07",
+      "type": "listen_select",
+      "audio": {
+        "bn": "ওখানে",
+        "tr": "okhane",
+        "en": "there"
+      },
+      "options": [
+        "ওরা",
+        "এখানে",
+        "এখন",
+        "ওখানে"
+      ],
+      "answer": 3
+    },
+    {
       "id": "e08",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আপনি কেমন আছেন?",
+        "tr": "apni kemon achhen?",
+        "en": "How are you? (to your grandmother)"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "তুই কেমন আছিস?",
+        "আপনি কেমন আছিস?",
+        "আপনি কেমন আছেন?",
+        "তুই কেমন আছেন?"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e09",
       "type": "word_bank",
       "prompt": {
         "bn": "তুই কেমন আছিস?",
@@ -200,23 +217,6 @@
         "are",
         "you"
       ]
-    },
-    {
-      "id": "e09",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "আপনি কেমন আছেন?",
-        "tr": "apni kemon achhen?",
-        "en": "How are you? (to your grandmother)"
-      },
-      "direction": "en_to_bn",
-      "options": [
-        "তুই কেমন আছিস?",
-        "আপনি কেমন আছিস?",
-        "আপনি কেমন আছেন?",
-        "তুই কেমন আছেন?"
-      ],
-      "answer": 2
     },
     {
       "id": "e10",
@@ -297,22 +297,6 @@
     },
     {
       "id": "e13",
-      "type": "type_translation",
-      "prompt": {
-        "bn": "নাদিয়া ওখানে আছে।",
-        "tr": "nadiya okhane achhe.",
-        "en": "Nadia is there."
-      },
-      "direction": "bn_to_en",
-      "accepted": [
-        "Nadia is there.",
-        "Nadia's there.",
-        "Nadiya is there.",
-        "Nadiya's there."
-      ]
-    },
-    {
-      "id": "e14",
       "type": "word_bank",
       "prompt": {
         "bn": "আমি এখানে আছি।",
@@ -332,6 +316,22 @@
         "আমি",
         "এখানে",
         "আছি"
+      ]
+    },
+    {
+      "id": "e14",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "নাদিয়া ওখানে আছে।",
+        "tr": "nadiya okhane achhe.",
+        "en": "Nadia is there."
+      },
+      "direction": "bn_to_en",
+      "accepted": [
+        "Nadia is there.",
+        "Nadia's there.",
+        "Nadiya is there.",
+        "Nadiya's there."
       ]
     }
   ]
