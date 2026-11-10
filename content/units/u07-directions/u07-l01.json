@@ -3,7 +3,7 @@
   "unit": "u07-directions",
   "title": "Where is…?",
   "status": "draft",
-  "tip": "'Where is X?' is just **X কোথায়?** (*X kothay?*) — no verb needed: **স্টেশন কোথায়?** 'Where is the station?', **হোটেল কোথায়?** 'Where is the hotel?'\n\nTo say *in* a place, add the locative ending:\n\n- **-এ** after a consonant: সিলেট → **সিলেটে** 'in Sylhet', বাংলাদেশ → **বাংলাদেশে** 'in Bangladesh'\n- **-য়** after a vowel: ঢাকা → **ঢাকায়** 'in Dhaka', বাসা → **বাসায়** 'at home'\n\nBangladesh has two words for home. **বাসা** (*basha*) is where you live now — usually a city flat. **বাড়ি** (*bari*) is your family home, often the ancestral village. So **আপনার বাসা কোথায়?** = 'Where do you live (in this city)?' while **তোমার বাড়ি কোথায়?** = 'Where are you from originally?' — one of the first things a new acquaintance asks. The answer is usually a district: **আমার বাড়ি সিলেটে।**\n\n**Kolkata:** বাড়ি is the normal word for home; বাসা means rented lodgings.",
+  "tip": "'Where is X?' is just **X কোথায়?** — no verb needed: **স্টেশন কোথায়?**, **হোটেল কোথায়?**\n\nTo say *in* a place, add the locative ending:\n\n- **-এ** after a consonant: সিলেট → **সিলেটে**, বাংলাদেশ → **বাংলাদেশে**\n- **-য়** after a vowel: ঢাকা → **ঢাকায়**, বাসা → **বাসায়**\n\nBangladesh has two words for home. **বাসা** (*basha*) is where you live now, usually a city flat. **বাড়ি** (*bari*) is your family home, often in the village. So **আপনার বাসা কোথায়?** = 'Where do you live (in this city)?', while **তোমার বাড়ি কোথায়?** = 'Where are you from originally?' The answer is usually a district: **আমার বাড়ি সিলেটে।**\n\n*Kolkata:* বাড়ি is the normal word for home; বাসা means rented lodgings.",
   "vocab": [
     {
       "id": "steshon",
@@ -123,21 +123,34 @@
       "answer": 2
     },
     {
-      "id": "e04",
-      "type": "type_translation",
-      "prompt": {
-        "bn": "সিলেট কোথায়?",
-        "tr": "shilet kothay?",
-        "en": "Where is Sylhet?"
-      },
-      "direction": "en_to_bn",
-      "accepted": [
-        "সিলেট কোথায়?",
-        "shilet kothay",
-        "silet kothay",
-        "sylhet kothay",
-        "shilet kothai",
-        "silet kothai"
+      "id": "e09",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "স্টেশন",
+          "tr": "steshon",
+          "en": "station"
+        },
+        {
+          "bn": "হোটেল",
+          "tr": "hotel",
+          "en": "hotel"
+        },
+        {
+          "bn": "বাসা",
+          "tr": "basha",
+          "en": "home"
+        },
+        {
+          "bn": "সিলেটে",
+          "tr": "shilete",
+          "en": "in Sylhet"
+        },
+        {
+          "bn": "বাংলাদেশে",
+          "tr": "bangladeshe",
+          "en": "in Bangladesh"
+        }
       ]
     },
     {
@@ -158,23 +171,6 @@
       "answer": 1
     },
     {
-      "id": "e06",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "ঢাকা বাংলাদেশে।",
-        "tr": "dhaka bangladeshe.",
-        "en": "Dhaka is in Bangladesh."
-      },
-      "direction": "en_to_bn",
-      "options": [
-        "ঢাকা বাংলাদেশ।",
-        "ঢাকায় বাংলাদেশ।",
-        "বাংলাদেশ ঢাকায়।",
-        "ঢাকা বাংলাদেশে।"
-      ],
-      "answer": 3
-    },
-    {
       "id": "e07",
       "type": "listen_select",
       "audio": {
@@ -184,11 +180,11 @@
       },
       "options": [
         "ঢাকা",
-        "ঢাকায়",
+        "সিলেটে",
         "বাসায়",
-        "সিলেটে"
+        "ঢাকায়"
       ],
-      "answer": 1
+      "answer": 3
     },
     {
       "id": "e08",
@@ -207,57 +203,38 @@
       "answer": 2
     },
     {
-      "id": "e09",
-      "type": "match_pairs",
-      "pairs": [
-        {
-          "bn": "স্টেশন",
-          "tr": "steshon",
-          "en": "station"
-        },
-        {
-          "bn": "হোটেল",
-          "tr": "hotel",
-          "en": "hotel"
-        },
-        {
-          "bn": "ঢাকা",
-          "tr": "dhaka",
-          "en": "Dhaka"
-        },
-        {
-          "bn": "সিলেটে",
-          "tr": "shilete",
-          "en": "in Sylhet"
-        },
-        {
-          "bn": "বাংলাদেশে",
-          "tr": "bangladeshe",
-          "en": "in Bangladesh"
-        }
-      ]
+      "id": "e06",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ঢাকা বাংলাদেশে।",
+        "tr": "dhaka bangladeshe.",
+        "en": "Dhaka is in Bangladesh."
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "ঢাকা বাংলাদেশ।",
+        "ঢাকায় বাংলাদেশ।",
+        "বাংলাদেশ ঢাকায়।",
+        "ঢাকা বাংলাদেশে।"
+      ],
+      "answer": 3
     },
     {
       "id": "e10",
-      "type": "word_bank",
+      "type": "select_translation",
       "prompt": {
-        "bn": "হোটেল কোথায়?",
-        "tr": "hotel kothay?",
-        "en": "Where is the hotel?"
+        "bn": "আমার বাড়ি সিলেটে।",
+        "tr": "amar bari shilete.",
+        "en": "My home town is in Sylhet."
       },
-      "direction": "en_to_bn",
-      "tiles": [
-        "কোথা",
-        "হোটেল",
-        "এখানে",
-        "কোথায়",
-        "থেকে",
-        "স্টেশন"
+      "direction": "bn_to_en",
+      "options": [
+        "My home town is in Sylhet.",
+        "I live in Dhaka.",
+        "Sylhet is far from Dhaka.",
+        "I am at the hotel."
       ],
-      "answer": [
-        "হোটেল",
-        "কোথায়"
-      ]
+      "answer": 0
     },
     {
       "id": "e11",
@@ -305,25 +282,6 @@
         "আমার",
         "বাড়ি",
         "সিলেটে"
-      ]
-    },
-    {
-      "id": "e13",
-      "type": "type_translation",
-      "prompt": {
-        "bn": "আপনার বাসা কোথায়?",
-        "tr": "apnar basha kothay?",
-        "en": "Where do you live?"
-      },
-      "direction": "bn_to_en",
-      "accepted": [
-        "Where do you live?",
-        "Where is your home?",
-        "Where's your home?",
-        "Where is your house?",
-        "Where's your house?",
-        "Where is your flat?",
-        "Where do you stay?"
       ]
     },
     {
@@ -375,6 +333,43 @@
         "তোমার নাম কী?"
       ],
       "answer": 2
+    },
+    {
+      "id": "e04",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "সিলেট কোথায়?",
+        "tr": "shilet kothay?",
+        "en": "Where is Sylhet?"
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "সিলেট কোথায়?",
+        "shilet kothay",
+        "silet kothay",
+        "sylhet kothay",
+        "shilet kothai",
+        "silet kothai"
+      ]
+    },
+    {
+      "id": "e13",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আপনার বাসা কোথায়?",
+        "tr": "apnar basha kothay?",
+        "en": "Where do you live?"
+      },
+      "direction": "bn_to_en",
+      "accepted": [
+        "Where do you live?",
+        "Where is your home?",
+        "Where's your home?",
+        "Where is your house?",
+        "Where's your house?",
+        "Where is your flat?",
+        "Where do you stay?"
+      ]
     }
   ]
 }

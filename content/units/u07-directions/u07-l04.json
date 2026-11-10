@@ -3,7 +3,7 @@
   "unit": "u07-directions",
   "title": "Places in town",
   "status": "draft",
-  "tip": "Mosques (**মসজিদ**) are everywhere in Bangladesh and make the handiest landmarks: **মসজিদের সামনে** 'in front of the mosque'. Hindu temples (**মন্দির**) are common too, especially in older neighbourhoods. People often give their address this way — a road name plus 'next to the market' (**বাজারের পাশে**) or 'near the mosque' (**মসজিদের কাছে**).\n\n'Live' (in a place) is **থাকি** (I) / **থাকেন** (you or he/she, polite):\n\n- **আমি শহরে থাকি** — 'I live in the city'\n- **আমার নানি গ্রামে থাকেন** — 'My grandmother lives in the village' (polite **-েন** for an elder)\n- **আপনি কোথায় থাকেন?** — 'Where do you live?' (polite)\n\n**আছে** at the end of a sentence means 'there is': **মসজিদের সামনে একটা দোকান আছে** 'There's a shop in front of the mosque'.\n\n**Culture:** most city families still have a village home — the **বাড়ি** from Lesson 1 — and go back to their **গ্রাম** for Eid. Dhaka empties out as millions travel home.",
+  "tip": "Mosques (**মসজিদ**) are everywhere in Bangladesh and make handy landmarks: **মসজিদের সামনে** 'in front of the mosque'. Hindu temples (**মন্দির**) are common too. Addresses often work this way: **বাজারের পাশে** 'next to the market'.\n\n'Live' (in a place) is **থাকি** (I) / **থাকেন** (polite 'you' or he/she):\n\n- **আমি শহরে থাকি** — 'I live in the city'\n- **আমার নানি গ্রামে থাকেন** — 'My grandmother lives in the village' (polite -েন for an elder)\n- **আপনি কোথায় থাকেন?** — 'Where do you live?'\n\n**আছে** at the end means 'there is': **মসজিদের সামনে একটা দোকান আছে**.\n\n*Culture:* most city families still have a village **বাড়ি** and return to their **গ্রাম** for Eid; Dhaka empties out.",
   "vocab": [
     {
       "id": "hashpatal",
@@ -134,12 +134,12 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "mosque",
         "temple",
+        "mosque",
         "hospital",
         "hotel"
       ],
-      "answer": 1
+      "answer": 0
     },
     {
       "id": "e05",
@@ -179,9 +179,9 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "মসজিদ",
-          "tr": "moshjid",
-          "en": "mosque"
+          "bn": "থাকেন",
+          "tr": "thaken",
+          "en": "lives (polite)"
         },
         {
           "bn": "বাজারের",
@@ -326,6 +326,32 @@
       ]
     },
     {
+      "id": "e15",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "এটা একটা ছোট গ্রাম।",
+        "tr": "eta ekta chhoto gram.",
+        "en": "This is a small village."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "city",
+        "This",
+        "a",
+        "big",
+        "village",
+        "is",
+        "small"
+      ],
+      "answer": [
+        "This",
+        "is",
+        "a",
+        "small",
+        "village"
+      ]
+    },
+    {
       "id": "e13",
       "type": "type_translation",
       "prompt": {
@@ -353,32 +379,6 @@
         "Dhaka's a big city.",
         "Dhaka is a large city.",
         "Dhaka is a big town."
-      ]
-    },
-    {
-      "id": "e15",
-      "type": "word_bank",
-      "prompt": {
-        "bn": "এটা একটা ছোট গ্রাম।",
-        "tr": "eta ekta chhoto gram.",
-        "en": "This is a small village."
-      },
-      "direction": "bn_to_en",
-      "tiles": [
-        "city",
-        "This",
-        "a",
-        "big",
-        "village",
-        "is",
-        "small"
-      ],
-      "answer": [
-        "This",
-        "is",
-        "a",
-        "small",
-        "village"
       ]
     }
   ]

@@ -3,7 +3,7 @@
   "unit": "u06-bazaar",
   "title": "Taka & prices",
   "status": "draft",
-  "tip": "Prices are just **number + টাকা** (*taka*): **পঞ্চাশ টাকা** 'fifty taka', **একশ টাকা** 'a hundred taka'. With no 'is' in the present, **চা দশ টাকা** simply means 'Tea (is) ten taka'. The currency sign is **৳**, and in English you'll see *Tk 50* or *50 taka*.\n\nHundreds are built with **-শ** (*-sho*): **একশ** 100, **দুইশ** 200, **পাঁচশ** 500. A thousand is **হাজার**, so **এক হাজার টাকা** = ৳1,000.\n\nWatch the pairs that sound alike:\n\n- **পঞ্চাশ** 50 vs **পনেরো** 15 vs **পাঁচশ** 500\n- **দুইশ** 200 vs **দুইটা** 'two (things)'\n- **দশ টাকা** 'ten taka' vs **দশটা** 'ten o'clock / ten things'\n\nA taka is 100 **পয়সা** (*poysha*). You'll rarely handle poysha coins today, but the word survives in sayings about money. **শুধু** (*shudhu*) 'only, just' is handy: **শুধু পঞ্চাশ টাকা** 'only fifty taka'.\n\n**Culture:** the notes you'll handle most are ৳10, ৳20, ৳50, ৳100, ৳200, ৳500 and ৳1,000, plus ৳1, ৳2 and ৳5 coins. Small vendors and rickshaw drivers often can't break a ৳500 or ৳1,000 note, so keep small notes for the bazaar. Price tags may use Bengali digits (Unit 5): ৫০ = 50.\n\n**Listening tip:** numbers come fast, so don't be shy to ask again: **কত?**",
+  "tip": "Prices are just **number + টাকা** (*taka*): **পঞ্চাশ টাকা** 'fifty taka'. With no 'is' in the present, **চা দশ টাকা** means 'Tea (is) ten taka'. The sign is **৳**; in English you'll see *Tk 50*.\n\nHundreds are built with **-শ** (*-sho*): **একশ** 100, **দুইশ** 200, **পাঁচশ** 500. A thousand is **হাজার**: **এক হাজার টাকা** = ৳1,000. Price tags may use Bengali digits: ৫০ = 50.\n\nWatch the look-alikes:\n\n- **পঞ্চাশ** 50 / **পনেরো** 15 / **পাঁচশ** 500\n- **দুইশ** 200 / **দুইটা** 'two (things)'\n- **দশ টাকা** 'ten taka' / **দশটা** 'ten o'clock'\n\nA taka is 100 **পয়সা** (*poysha*). **শুধু** (*shudhu*) = 'only': **শুধু পঞ্চাশ টাকা**.\n\n*Culture:* small vendors and rickshaw drivers often can't break a ৳500 or ৳1,000 note, so keep small notes handy. If you miss a price, just ask again: **কত?**",
   "vocab": [
     {
       "id": "taka",
@@ -133,12 +133,12 @@
         "en": "fifty"
       },
       "options": [
-        "পনেরো",
         "পঞ্চাশ",
+        "পনেরো",
         "পাঁচশ",
         "পাঁচ"
       ],
-      "answer": 1
+      "answer": 0
     },
     {
       "id": "e07",
@@ -357,10 +357,10 @@
       "options": [
         "এটা পঞ্চাশ টাকা।",
         "এটা পাঁচ টাকা।",
-        "এটা পাঁচশ টাকা।",
-        "এটা পাঁচশ পয়সা।"
+        "এটা পাঁচশ পয়সা।",
+        "এটা পাঁচশ টাকা।"
       ],
-      "answer": 2
+      "answer": 3
     },
     {
       "id": "e15",
@@ -368,7 +368,7 @@
       "prompt": {
         "bn": "কত টাকা?",
         "tr": "koto taka?",
-        "en": "How many taka?"
+        "en": "How many taka? (asking the price)"
       },
       "direction": "en_to_bn",
       "accepted": [

@@ -3,7 +3,7 @@
   "unit": "u05-numbers-time",
   "title": "What time is it?",
   "status": "draft",
-  "tip": "**কয়টা বাজে?** (*koyta baje?*) = 'What time is it?' — literally 'How many has it struck?', like a clock bell. **বাজে** means 'rings / strikes'.\n\nThe answer is **number + -টা + বাজে**: **তিনটা বাজে** 'It's three o'clock', **এখন দশটা বাজে** 'It's ten now'. Don't drop the **-টা**: the hour is always তিন**টা**, পাঁচ**টা**, বারো**টা**. One and two o'clock use words you know: **একটা বাজে**, **দুইটা বাজে**. (Kolkata: তিনটে, দুটো.)\n\n**কয়টা** asks 'how many (things)?'; for people it's **কয়জন**, which you met in Unit 3.\n\n**সময়** (*shomoy*) is 'time' in the sense of having time: **আপনার কি সময় আছে?** 'Do you have time?' **ঘণ্টা** = hour, **মিনিট** = minute.\n\nCulture: Bangladeshi time can be relaxed — a meeting 'at five' may start at quarter past. Bangladesh has a single time zone, 6 hours ahead of GMT, with no daylight saving.",
+  "tip": "**কয়টা বাজে?** (*koyta baje?*) = 'What time is it?' — literally 'How many has it struck?', like a clock bell. **বাজে** = 'strikes / rings'.\n\nAnswer with **number + -টা + বাজে**: **তিনটা বাজে** 'It's three o'clock', **এখন দশটা বাজে** 'It's ten now'. Don't drop the **-টা** (তিন**টা**, বারো**টা**). One and two o'clock use words you know: **একটা বাজে**, **দুইটা বাজে**. (Kolkata: তিনটে, দুটো.)\n\n**কয়টা** asks 'how many (things)?'; for people it's **কয়জন** (Unit 3).\n\n**সময়** (*shomoy*) is 'time' as in having time: **আপনার কি সময় আছে?** **ঘণ্টা** = hour, **মিনিট** = minute: **আমার দশ মিনিট সময় আছে** 'I have ten minutes.'\n\n*Culture:* a meeting 'at five' may start at quarter past.",
   "vocab": [
     {
       "id": "koyta",
@@ -97,40 +97,6 @@
       "answer": 2
     },
     {
-      "id": "e03",
-      "type": "word_bank",
-      "prompt": {
-        "bn": "আমার এক ঘণ্টা সময় আছে।",
-        "tr": "amar ek ghonta shomoy achhe.",
-        "en": "I have one hour."
-      },
-      "direction": "bn_to_en",
-      "tiles": [
-        "minute",
-        "I",
-        "an",
-        "one",
-        "hour",
-        "time",
-        "have",
-        "ten"
-      ],
-      "answer": [
-        "I",
-        "have",
-        "one",
-        "hour"
-      ],
-      "alt": [
-        [
-          "I",
-          "have",
-          "an",
-          "hour"
-        ]
-      ]
-    },
-    {
       "id": "e04",
       "type": "select_translation",
       "prompt": {
@@ -164,6 +130,22 @@
       "answer": 1
     },
     {
+      "id": "e07",
+      "type": "listen_select",
+      "audio": {
+        "bn": "বারোটা",
+        "tr": "barota",
+        "en": "twelve (o'clock)"
+      },
+      "options": [
+        "বারো",
+        "বাবা",
+        "দুইটা",
+        "বারোটা"
+      ],
+      "answer": 3
+    },
+    {
       "id": "e06",
       "type": "select_translation",
       "prompt": {
@@ -181,37 +163,21 @@
       "answer": 0
     },
     {
-      "id": "e07",
-      "type": "listen_select",
-      "audio": {
-        "bn": "বারোটা",
-        "tr": "barota",
-        "en": "twelve (o'clock)"
-      },
-      "options": [
-        "বারো",
-        "বাবা",
-        "দুইটা",
-        "বারোটা"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "e08",
+      "id": "e16",
       "type": "select_translation",
       "prompt": {
-        "bn": "সময়",
-        "tr": "shomoy",
-        "en": "time"
+        "bn": "বাজে",
+        "tr": "baje",
+        "en": "strikes (the hour)"
       },
       "direction": "bn_to_en",
       "options": [
-        "hour",
-        "now",
-        "time",
-        "minute"
+        "eats",
+        "costs",
+        "goes",
+        "strikes (the hour)"
       ],
-      "answer": 2
+      "answer": 3
     },
     {
       "id": "e09",
@@ -242,6 +208,40 @@
           "tr": "pa~chta",
           "en": "five (o'clock)"
         }
+      ]
+    },
+    {
+      "id": "e03",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমার এক ঘণ্টা সময় আছে।",
+        "tr": "amar ek ghonta shomoy achhe.",
+        "en": "I have one hour."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "minute",
+        "I",
+        "an",
+        "one",
+        "hour",
+        "time",
+        "have",
+        "ten"
+      ],
+      "answer": [
+        "I",
+        "have",
+        "one",
+        "hour"
+      ],
+      "alt": [
+        [
+          "I",
+          "have",
+          "an",
+          "hour"
+        ]
       ]
     },
     {
@@ -301,23 +301,21 @@
       ]
     },
     {
-      "id": "e12",
-      "type": "type_translation",
+      "id": "e14",
+      "type": "select_translation",
       "prompt": {
-        "bn": "আমার দশ মিনিট সময় আছে।",
-        "tr": "amar dosh minit shomoy achhe.",
-        "en": "I have ten minutes."
+        "bn": "এখন কয়টা বাজে?",
+        "tr": "ekhon koyta baje?",
+        "en": "What time is it now?"
       },
-      "direction": "bn_to_en",
-      "accepted": [
-        "I have ten minutes.",
-        "I have 10 minutes.",
-        "I have ten minutes of time.",
-        "I have 10 minutes of time.",
-        "I've got ten minutes.",
-        "I've got 10 minutes.",
-        "I have got ten minutes."
-      ]
+      "direction": "en_to_bn",
+      "options": [
+        "এখন কয়টা বাজে?",
+        "এখন তিনটা বাজে।",
+        "এখন কয়জন আছে?",
+        "আপনার কি সময় আছে?"
+      ],
+      "answer": 0
     },
     {
       "id": "e13",
@@ -345,21 +343,23 @@
       ]
     },
     {
-      "id": "e14",
-      "type": "select_translation",
+      "id": "e12",
+      "type": "type_translation",
       "prompt": {
-        "bn": "এখন কয়টা বাজে?",
-        "tr": "ekhon koyta baje?",
-        "en": "What time is it now?"
+        "bn": "আমার দশ মিনিট সময় আছে।",
+        "tr": "amar dosh minit shomoy achhe.",
+        "en": "I have ten minutes."
       },
-      "direction": "en_to_bn",
-      "options": [
-        "এখন তিনটা বাজে।",
-        "এখন কয়টা বাজে?",
-        "এখন কয়জন আছে?",
-        "আপনার কি সময় আছে?"
-      ],
-      "answer": 1
+      "direction": "bn_to_en",
+      "accepted": [
+        "I have ten minutes.",
+        "I have 10 minutes.",
+        "I have ten minutes of time.",
+        "I have 10 minutes of time.",
+        "I've got ten minutes.",
+        "I've got 10 minutes.",
+        "I have got ten minutes."
+      ]
     },
     {
       "id": "e15",

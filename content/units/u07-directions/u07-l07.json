@@ -176,27 +176,23 @@
       "id": "e08",
       "type": "word_bank",
       "prompt": {
-        "bn": "স্টেশন কোন দিকে?",
-        "tr": "steshon kon dike?",
-        "en": "Which way is the station?"
+        "bn": "মোড়ে ডানে যান।",
+        "tr": "more dane jan.",
+        "en": "Turn right at the intersection."
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "tiles": [
-        "far",
-        "station",
-        "Which",
-        "How",
-        "the",
-        "hotel",
-        "way",
-        "is"
+        "ডানে",
+        "মোড়ে",
+        "যান",
+        "বামে",
+        "সোজা",
+        "মোড়"
       ],
       "answer": [
-        "Which",
-        "way",
-        "is",
-        "the",
-        "station"
+        "মোড়ে",
+        "ডানে",
+        "যান"
       ]
     },
     {
@@ -274,25 +270,6 @@
           "বাসে",
           "যাব"
         ]
-      ]
-    },
-    {
-      "id": "e11",
-      "type": "type_translation",
-      "prompt": {
-        "bn": "এখানে থামেন, ভাই।",
-        "tr": "ekhane thamen, bhai.",
-        "en": "Stop here, brother."
-      },
-      "direction": "bn_to_en",
-      "accepted": [
-        "Stop here, brother.",
-        "Stop here, bhai.",
-        "Brother, stop here.",
-        "Please stop here, brother.",
-        "Stop here please, brother.",
-        "Please stop here.",
-        "Stop here, please."
       ]
     },
     {
@@ -392,12 +369,31 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "The hospital is in front of the mosque.",
-        "The hospital is behind the mosque.",
         "The hospital is next to the mosque.",
+        "The hospital is behind the mosque.",
+        "The hospital is in front of the mosque.",
         "The hospital is far from the mosque."
       ],
-      "answer": 2
+      "answer": 0
+    },
+    {
+      "id": "e11",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "এখানে থামেন, ভাই।",
+        "tr": "ekhane thamen, bhai.",
+        "en": "Stop here, brother."
+      },
+      "direction": "bn_to_en",
+      "accepted": [
+        "Stop here, brother.",
+        "Stop here, bhai.",
+        "Brother, stop here.",
+        "Please stop here, brother.",
+        "Stop here please, brother.",
+        "Please stop here.",
+        "Stop here, please."
+      ]
     }
   ]
 }

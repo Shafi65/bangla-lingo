@@ -3,7 +3,7 @@
   "unit": "u05-numbers-time",
   "title": "Days of the week",
   "status": "draft",
-  "tip": "Every day ends in **-বার** (*-bar*, 'day of the week'), and like English the names come from the sun, moon and planets:\n\n**রবিবার** Sun-day · **সোমবার** Moon-day · **মঙ্গলবার** (Mars) · **বুধবার** (Mercury) · **বৃহস্পতিবার** (Jupiter) · **শুক্রবার** (Venus) · **শনিবার** (Saturn)\n\n**আজ কী বার?** = 'What day is it today?' (**দিন** is 'day' in general: **সাত দিন** 'seven days'.)\n\n**কাল** (*kal*) means **both 'yesterday' and 'tomorrow'** — the verb's tense tells you which. With no verb, as in **কাল শনিবার**, people understand 'tomorrow'. To be explicit, say **আগামীকাল** (tomorrow) or **গতকাল** (yesterday); you'll use গতকাল in Unit 9.\n\nCulture: in Bangladesh the weekly holiday is **শুক্রবার** (Friday), the day of **Jumma** prayers. Government offices and many businesses also close on **শনিবার**, so the working week runs Sunday to Thursday — and Thursday night is the big night out. Perfect for biryani.",
+  "tip": "Every day ends in **-বার** (*-bar*, 'day of the week'), and like English the names come from the sun, moon and planets:\n\n**রবিবার** Sun-day · **সোমবার** Moon-day · **মঙ্গলবার** (Mars) · **বুধবার** (Mercury) · **বৃহস্পতিবার** (Jupiter) · **শুক্রবার** (Venus) · **শনিবার** (Saturn)\n\n**আজ কী বার?** = 'What day is it today?' **দিন** is 'day' in general: **সাত দিন** 'seven days'. **সপ্তাহে** means 'in a week': **এক সপ্তাহে সাত দিন**.\n\n**কাল** (*kal*) means **both 'yesterday' and 'tomorrow'**; a verb's tense tells you which. With no verb, as in **কাল শনিবার**, it means 'tomorrow'.\n\n*Culture:* the weekly holiday in Bangladesh is **শুক্রবার** (Friday), the day of Jumma prayers. Many offices close on **শনিবার** too, so the working week runs Sunday to Thursday.",
   "vocab": [
     {
       "id": "aj",
@@ -120,6 +120,23 @@
       "answer": 2
     },
     {
+      "id": "e05",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "বার",
+        "tr": "bar",
+        "en": "day (of the week)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "week",
+        "today",
+        "night",
+        "day (of the week)"
+      ],
+      "answer": 3
+    },
+    {
       "id": "e03",
       "type": "match_pairs",
       "pairs": [
@@ -167,19 +184,35 @@
       "answer": 0
     },
     {
-      "id": "e05",
+      "id": "e11",
       "type": "select_translation",
       "prompt": {
-        "bn": "বার",
-        "tr": "bar",
-        "en": "day (of the week)"
+        "bn": "সপ্তাহে",
+        "tr": "shoptahe",
+        "en": "in a week"
       },
       "direction": "bn_to_en",
       "options": [
-        "week",
+        "in a week",
         "today",
-        "night",
-        "day (of the week)"
+        "on Friday",
+        "at night"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e15",
+      "type": "listen_select",
+      "audio": {
+        "bn": "শনিবার",
+        "tr": "shonibar",
+        "en": "Saturday"
+      },
+      "options": [
+        "রবিবার",
+        "সোমবার",
+        "মঙ্গলবার",
+        "শনিবার"
       ],
       "answer": 3
     },
@@ -199,6 +232,40 @@
         "কাল মঙ্গলবার।"
       ],
       "answer": 1
+    },
+    {
+      "id": "e10",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আজ শুক্রবার।",
+        "tr": "aj shukrobar.",
+        "en": "Today is Friday."
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "কাল শুক্রবার।",
+        "আজ শনিবার।",
+        "আজ বৃহস্পতিবার।",
+        "আজ শুক্রবার।"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e14",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "কাল শনিবার।",
+        "tr": "kal shonibar.",
+        "en": "Tomorrow is Saturday."
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "আজ শনিবার।",
+        "কাল সোমবার।",
+        "কাল শনিবার।",
+        "কাল রবিবার।"
+      ],
+      "answer": 2
     },
     {
       "id": "e07",
@@ -287,60 +354,6 @@
       ]
     },
     {
-      "id": "e10",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "আজ শুক্রবার।",
-        "tr": "aj shukrobar.",
-        "en": "Today is Friday."
-      },
-      "direction": "en_to_bn",
-      "options": [
-        "কাল শুক্রবার।",
-        "আজ শনিবার।",
-        "আজ বৃহস্পতিবার।",
-        "আজ শুক্রবার।"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "e11",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "সপ্তাহে",
-        "tr": "shoptahe",
-        "en": "in a week"
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "in a week",
-        "today",
-        "on Friday",
-        "at night"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "e12",
-      "type": "type_translation",
-      "prompt": {
-        "bn": "এক সপ্তাহে সাত দিন।",
-        "tr": "ek shoptahe shat din.",
-        "en": "There are seven days in a week."
-      },
-      "direction": "bn_to_en",
-      "accepted": [
-        "There are seven days in a week.",
-        "There are 7 days in a week.",
-        "A week has seven days.",
-        "A week has 7 days.",
-        "There are seven days in one week.",
-        "One week has seven days.",
-        "Seven days in a week.",
-        "7 days in a week."
-      ]
-    },
-    {
       "id": "e13",
       "type": "word_bank",
       "prompt": {
@@ -377,37 +390,24 @@
       ]
     },
     {
-      "id": "e14",
-      "type": "select_translation",
+      "id": "e12",
+      "type": "type_translation",
       "prompt": {
-        "bn": "কাল শনিবার।",
-        "tr": "kal shonibar.",
-        "en": "Tomorrow is Saturday."
+        "bn": "এক সপ্তাহে সাত দিন।",
+        "tr": "ek shoptahe shat din.",
+        "en": "There are seven days in a week."
       },
-      "direction": "en_to_bn",
-      "options": [
-        "আজ শনিবার।",
-        "কাল শনিবার।",
-        "কাল সোমবার।",
-        "কাল রবিবার।"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "e15",
-      "type": "listen_select",
-      "audio": {
-        "bn": "শনিবার",
-        "tr": "shonibar",
-        "en": "Saturday"
-      },
-      "options": [
-        "রবিবার",
-        "সোমবার",
-        "মঙ্গলবার",
-        "শনিবার"
-      ],
-      "answer": 3
+      "direction": "bn_to_en",
+      "accepted": [
+        "There are seven days in a week.",
+        "There are 7 days in a week.",
+        "A week has seven days.",
+        "A week has 7 days.",
+        "There are seven days in one week.",
+        "One week has seven days.",
+        "Seven days in a week.",
+        "7 days in a week."
+      ]
     }
   ]
 }

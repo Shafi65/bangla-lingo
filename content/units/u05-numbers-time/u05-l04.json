@@ -3,7 +3,7 @@
   "unit": "u05-numbers-time",
   "title": "Tens to 100",
   "status": "draft",
-  "tip": "The tens: **দশ (10), বিশ (20), ত্রিশ (30), চল্লিশ (40), পঞ্চাশ (50), ষাট (60), সত্তর (70), আশি (80), নব্বই (90), একশ (100).**\n\nEach ten echoes a small number, which helps — and also makes them easy to mix up:\n\n- **তিন** 3 · **তেরো** 13 · **ত্রিশ** 30\n- **চার** 4 · **চৌদ্দ** 14 · **চল্লিশ** 40\n- **পাঁচ** 5 · **পনেরো** 15 · **পঞ্চাশ** 50\n- **সাত** 7 · **সতেরো** 17 · **সত্তর** 70\n- **আট** 8 · **আঠারো** 18 · **আশি** 80\n- **নয়** 9 · **নব্বই** 90\n\n**সাত** (7) and **ষাট** (60) are both transliterated *shat*; the difference is the 't' (tongue curled back in ষাট). Listen to the audio!\n\nHonest warning: **every number from 21 to 99 has its own form** (21 is *ekush*, 99 is *niranobboi*). Don't try to learn them all at once — the tens get you through most prices and ages.\n\n**একশ** (100) is also spelled **একশো**. **হাজার** = 1,000. Above that, South Asia counts in *lakh* (100,000) and *crore* (10 million), so 1,00,000 is written with commas that way.",
+  "tip": "The tens: **দশ (10), বিশ (20), ত্রিশ (30), চল্লিশ (40), পঞ্চাশ (50), ষাট (60), সত্তর (70), আশি (80), নব্বই (90), একশ (100).**\n\nEach ten echoes a smaller number, which helps (and makes them easy to mix up):\n\n- **তিন** 3 · **তেরো** 13 · **ত্রিশ** 30\n- **চার** 4 · **চৌদ্দ** 14 · **চল্লিশ** 40\n- **পাঁচ** 5 · **পনেরো** 15 · **পঞ্চাশ** 50\n- **সাত** 7 · **সতেরো** 17 · **সত্তর** 70\n- **আট** 8 · **আঠারো** 18 · **আশি** 80\n- **নয়** 9 · **নব্বই** 90\n\n**সাত** (7) and **ষাট** (60) are both written *shat*; ষাট has a curled-back 't'. Learn to tell them apart by sight.\n\nEvery number from 21 to 99 has its own form (21 is *ekush*, 99 is *niranobboi*). Don't learn them all yet: the tens cover most prices and ages.\n\n**একশ** (100) is also spelled **একশো**. **হাজার** = 1,000. Above that, South Asia counts in *lakh* (100,000) and *crore* (10 million).",
   "vocab": [
     {
       "id": "trish",
@@ -122,7 +122,7 @@
         "en": "sixty"
       },
       "options": [
-        "সাত",
+        "সত্তর",
         "ষাট",
         "ষোলো",
         "ছয়"
@@ -183,18 +183,18 @@
       "id": "e08",
       "type": "select_translation",
       "prompt": {
-        "bn": "চল্লিশ",
-        "tr": "chollish",
-        "en": "forty"
+        "bn": "একশ",
+        "tr": "eksho",
+        "en": "one hundred"
       },
       "direction": "bn_to_en",
       "options": [
-        "fourteen",
-        "four",
-        "fifty",
-        "forty"
+        "ten",
+        "one thousand",
+        "one hundred",
+        "ninety"
       ],
-      "answer": 3
+      "answer": 2
     },
     {
       "id": "e09",
@@ -206,9 +206,9 @@
           "en": "sixty"
         },
         {
-          "bn": "সত্তর",
-          "tr": "shottor",
-          "en": "seventy"
+          "bn": "চল্লিশ",
+          "tr": "chollish",
+          "en": "forty"
         },
         {
           "bn": "আশি",
@@ -262,6 +262,20 @@
           "one",
           "thousand",
           "people",
+          "there"
+        ],
+        [
+          "a",
+          "thousand",
+          "people",
+          "are",
+          "there"
+        ],
+        [
+          "one",
+          "thousand",
+          "people",
+          "are",
           "there"
         ]
       ]
@@ -348,10 +362,10 @@
       "options": [
         "সতেরো আর ত্রিশ একশ।",
         "সত্তর আর তেরো একশ।",
-        "সত্তর আর ত্রিশ একশ।",
-        "সত্তর আর ত্রিশ হাজার।"
+        "সত্তর আর ত্রিশ হাজার।",
+        "সত্তর আর ত্রিশ একশ।"
       ],
-      "answer": 2
+      "answer": 3
     },
     {
       "id": "e15",

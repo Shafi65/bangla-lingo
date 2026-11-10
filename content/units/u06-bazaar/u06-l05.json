@@ -3,7 +3,7 @@
   "unit": "u06-bazaar",
   "title": "Kilos, halis & vegetables",
   "status": "draft",
-  "tip": "Quantities go **number + measure + item**, with no 'of': **দুই কেজি আলু** 'two kilos (of) potatoes', **এক ডজন কলা** 'a dozen bananas'. Half a kilo is **আধা কেজি**; the Unit 5 fractions work too: **দেড় কেজি** 1½ kg, **আড়াই কেজি** 2½ kg.\n\nEggs and bananas are often sold by the **হালি** (*hali*), a set of **four**. **এক হালি ডিম** = 4 eggs. Ask for 'a dozen' and you may get three halis!\n\nTo say you **need** something, the person goes in the -র form and the verb is **লাগবে** (*lagbe*): **আমার পেঁয়াজ লাগবে** 'I need onions', literally 'to-me onions will-be-needed'. It's **আমার**, not আমি.\n\nBangladeshi vendors quote prices **per kilo**: **আলু পঞ্চাশ টাকা কেজি** 'potatoes are 50 taka a kilo'. To ask, say **টমেটোর কেজি কত?** 'How much is a kilo of tomatoes?'\n\n**Culture:** at the fresh market (*kacha bazar*) vegetables are weighed on a hand scale in front of you. It's fine to pick out your own tomatoes before they go on the scale.",
+  "tip": "Quantities go **number + measure + item**, with no 'of': **দুই কেজি আলু** 'two kilos (of) potatoes', **এক ডজন কলা** 'a dozen bananas'. Half a kilo is **আধা কেজি**; Unit 5's fractions work too: **দেড় কেজি**, **আড়াই কেজি**.\n\nEggs and bananas are often sold by the **হালি** (*hali*), a set of **four**: **এক হালি ডিম** = 4 eggs. Ask for 'a dozen' and you may get three halis!\n\nTo say you **need** something, the person takes the -র form and the verb is **লাগবে** (*lagbe*): **আমার পেঁয়াজ লাগবে** 'I need onions', literally 'to-me onions will-be-needed'. It's **আমার**, not আমি.\n\nPrices are quoted per kilo: **আলু পঞ্চাশ টাকা কেজি** 'potatoes are 50 taka a kilo'. To ask: **টমেটোর কেজি কত?**\n\n*Culture:* at the fresh market (*kacha bazar*) vegetables are weighed in front of you; picking your own tomatoes is fine.",
   "vocab": [
     {
       "id": "keji",
@@ -193,11 +193,11 @@
       "direction": "bn_to_en",
       "options": [
         "onion",
-        "tomato",
+        "mango",
         "potato",
-        "mango"
+        "tomato"
       ],
-      "answer": 1
+      "answer": 3
     },
     {
       "id": "e09",
@@ -354,12 +354,12 @@
       },
       "direction": "en_to_bn",
       "options": [
-        "আধা কেজি টমেটো কত?",
         "টমেটোর কেজি কত?",
+        "আধা কেজি টমেটো কত?",
         "এক হালি টমেটো কত?",
         "আমার টমেটো লাগবে।"
       ],
-      "answer": 1
+      "answer": 0
     },
     {
       "id": "e14",

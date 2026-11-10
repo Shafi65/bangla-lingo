@@ -3,7 +3,7 @@
   "unit": "u04-food",
   "title": "Fruit & classifiers",
   "status": "draft",
-  "tip": "Bengali has no 'a' or 'the' — it uses **classifiers** instead:\n\n- **একটা আম** (*ekta am*) — *a* mango (number + -টা)\n- **আমটা** (*amta*) — *the* mango (noun + -টা)\n- **আমগুলো** (*amgulo*) — *the* mangoes (noun + -গুলো)\n\nSo putting **-টা** *after* the noun makes it specific, like 'the'. Putting it on a *number* gives 'a / one'.\n\n**-টি** (*-ti*) is the more formal or written version (**একটি আম**); it also sounds a bit gentle or affectionate, and Kolkata speakers use it more. **-গুলি** is the written version of -গুলো.\n\nBangladesh is mango heaven: summer (*am-ka~thaler din*, 'mango and jackfruit days') brings dozens of varieties like *Langra*, *Himsagar* and *Fazli*.",
+  "tip": "Bengali has no 'a' or 'the' — it uses **classifiers** instead:\n\n- **একটা আম** (*ekta am*) — *a* mango (number + -টা)\n- **আমটা** (*amta*) — *the* mango (noun + -টা)\n- **আমগুলো** (*amgulo*) — *the* mangoes (noun + -গুলো)\n\nSo putting **-টা** *after* the noun makes it specific, like 'the'. Putting it on a *number* gives 'a / one'.\n\n**-টি** (*-ti*) is the more formal or written version (**একটি আম**); it also sounds a bit gentle or affectionate, and Kolkata speakers use it more. **-গুলি** is the written version of -গুলো.\n\nBangladesh is mango heaven: summer brings dozens of varieties like *Langra*, *Himsagar* and *Fazli*.",
   "vocab": [
     {
       "id": "kola",
@@ -164,11 +164,11 @@
       "direction": "bn_to_en",
       "options": [
         "how many (people)",
-        "one; a (formal)",
+        "the bananas",
         "two (people)",
-        "the bananas"
+        "one; a (formal)"
       ],
-      "answer": 1
+      "answer": 3
     },
     {
       "id": "e08",

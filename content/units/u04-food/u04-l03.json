@@ -3,7 +3,7 @@
   "unit": "u04-food",
   "title": "I eat, you eat",
   "status": "draft",
-  "tip": "Here's your first full verb. The stem is **খা-** (*kha-*), and the ending shows who:\n\n- আমি / আমরা → **খাই** (*khai*)\n- তুই / তোরা → **খাস** (*khash*)\n- তুমি / তোমরা → **খাও** (*khao*)\n- আপনি / তিনি / উনি → **খান** (*khan*)\n- সে / ও / তারা → **খায়** (*khay*)\n\nNotice again: polite forms end in **-ন**, and polite 'you' = polite 'he/she'. So **তিনি মাছ খান** (polite) but **সে মাছ খায়** (ordinary).\n\nBengali **eats** drinks: **আমি পানি খাই** = 'I drink water', **চা খাই** = 'I drink tea'. (Even cigarettes are 'eaten'!)\n\nTo say 'don't', put **না** *after* the verb: **আমি মাংস খাই না** = 'I don't eat meat.' (Not নেই — that's 'there isn't'.) The word order is subject – object – verb: আমি ভাত খাই = 'I rice eat.'",
+  "tip": "Your first full verb. The stem is **খা-** (*kha-*) and the ending shows who:\n\n- আমি / আমরা → **খাই** (*khai*)\n- তুই / তোরা → **খাস** (*khash*)\n- তুমি / তোমরা → **খাও** (*khao*)\n- আপনি / তিনি / উনি → **খান** (*khan*)\n- সে / ও / তারা → **খায়** (*khay*)\n\nPolite forms end in **-ন**, and polite 'you' = polite 'he/she': **তিনি মাছ খান** (polite) but **সে মাছ খায়**.\n\nBengali 'eats' drinks too: **আমি চা খাই** = 'I drink tea'.\n\nFor 'don't', put **না** *after* the verb: **আমি মাংস খাই না** = 'I don't eat meat.' (Not নেই, which means 'there isn't'.) Word order is subject – object – verb: আমি ভাত খাই = 'I rice eat.'",
   "vocab": [
     {
       "id": "khai",
@@ -148,12 +148,12 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "rice",
         "flatbread",
+        "rice",
         "breakfast",
         "lentils"
       ],
-      "answer": 1
+      "answer": 0
     },
     {
       "id": "e07",
@@ -215,10 +215,10 @@
       "options": [
         "তুমি কি চা খাও?",
         "আপনি কি চা খাও?",
-        "আপনি কি পানি খান?",
-        "আপনি কি চা খান?"
+        "আপনি কি চা খান?",
+        "আপনি কি পানি খান?"
       ],
-      "answer": 3
+      "answer": 2
     },
     {
       "id": "e10",

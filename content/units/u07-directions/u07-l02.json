@@ -3,7 +3,7 @@
   "unit": "u07-directions",
   "title": "Left, right, straight",
   "status": "draft",
-  "tip": "Directions use the polite command **যান** (*jan*) 'go': **ডানে যান** 'go right', **বামে যান** 'go left', **সোজা যান** 'go straight'. The same words also say where something is: **হোটেল বামে** 'the hotel is on the left'.\n\n**মোড়** (*mor*) — intersection, corner — is the key landmark word in Bangladeshi cities. With the locative it becomes **মোড়ে** 'at the intersection': **মোড়ে বামে যান** 'turn left at the intersection'.\n\nTwo little words after a noun:\n\n- **দিয়ে** 'along, through': **এই রাস্তা দিয়ে সোজা যান** 'go straight along this road'\n- **থেকে** 'from': **এই মোড় থেকে ডানে যান** 'turn right from this intersection'\n\n**Culture:** street names and house numbers won't get you far in Dhaka. People find their way by landmarks — a big intersection (whole neighbourhoods are known by their মোড়, like Shahbag or Farmgate), a mosque, a well-known shop. Expect directions in short steps — 'go straight to the intersection, then ask again' — and don't hesitate to ask a shopkeeper or tea-stall owner.\n\n**Kolkata:** people more often say **ডানদিকে** / **বাঁদিকে** ('to the right side / left side').",
+  "tip": "Directions use the polite command **যান** (*jan*) 'go': **ডানে যান** 'go right', **বামে যান** 'go left', **সোজা যান** 'go straight'. The same words say where something is: **হোটেল বামে** 'the hotel is on the left'.\n\n**মোড়** (*mor*), the intersection or corner, is the key landmark word in Bangladeshi cities. With -এ it becomes **মোড়ে** 'at the intersection': **মোড়ে বামে যান**.\n\nTwo little words after a noun:\n\n- **দিয়ে** 'along': **এই রাস্তা দিয়ে সোজা যান**\n- **থেকে** 'from': **এই মোড় থেকে ডানে যান**\n\n*Culture:* in Dhaka people find their way by landmarks (a big intersection, a mosque, a well-known shop) and in short steps: 'go straight to the intersection, then ask again'. Asking a shopkeeper is normal.\n\n*Kolkata:* **ডানদিকে** / **বাঁদিকে** ('right side / left side').",
   "vocab": [
     {
       "id": "dane",
@@ -137,11 +137,11 @@
       "direction": "bn_to_en",
       "options": [
         "(you, polite) eat",
-        "go (polite)",
+        "want (polite)",
         "give (polite)",
-        "want (polite)"
+        "go (polite)"
       ],
-      "answer": 1
+      "answer": 3
     },
     {
       "id": "e06",
@@ -170,12 +170,12 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "from",
         "along",
+        "from",
         "here",
         "in front of"
       ],
-      "answer": 1
+      "answer": 0
     },
     {
       "id": "e08",

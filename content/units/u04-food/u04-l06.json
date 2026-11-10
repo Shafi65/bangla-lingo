@@ -3,7 +3,7 @@
   "unit": "u04-food",
   "title": "Tastes & likes",
   "status": "draft",
-  "tip": "To say 'I like X', Bengali turns the sentence around: **আমার মাছ পছন্দ** — literally 'to me, fish (is a) liking'. The person who likes goes in the **-র** form (**আমার**, **তোমার**, **আপনার**…), not আমি. No verb needed! Negative: **আমার ঝাল পছন্দ না**.\n\nThe other way is **ভালো লাগে** 'feels good': **আমার ভাত ভালো লাগে** = 'I like rice.' Asking politely: **আপনার কি ঝাল ভালো লাগে?**\n\nHunger works the same way: **আমার ক্ষুধা লেগেছে** — 'to me, hunger has struck' = 'I'm hungry.' In casual Bangladeshi speech you'll hear **খিদা লাগছে**.\n\nTastes: **ঝাল** (spicy-hot), **মিষ্টি** (sweet — and 'sweets'!). Bengal is famous for its sweets: রসগোল্লা, চমচম, মিষ্টি দই (sweet yoghurt). **মজার** = tasty: before a noun use **মজার** (**এটা মজার খাবার**); after it, colloquial Bangladeshi speech also says just **মজা**: **খাবার খুব মজা**.",
+  "tip": "To say 'I like X', Bengali turns the sentence around: **আমার মাছ পছন্দ** — literally 'to me, fish (is a) liking'. The person goes in the **-র** form (**আমার**, **তোমার**, **আপনার**), not আমি, and no verb is needed. Negative: **আমার ঝাল পছন্দ না**.\n\nThe other way is **ভালো লাগে** ('feels good'): **আমার ভাত ভালো লাগে** = 'I like rice.' Politely: **আপনার কি ঝাল ভালো লাগে?**\n\nHunger works the same way: **আমার ক্ষুধা লেগেছে** — 'to me, hunger has struck' = 'I'm hungry.' (In casual speech you'll hear **খিদা লাগছে**.)\n\nTastes: **ঝাল** spicy-hot, **মিষ্টি** sweet (also 'sweets'!). **মজার** = tasty before a noun (**মজার খাবার**); after it, casual speech also says **মজা**: **খাবার খুব মজা**.",
   "vocab": [
     {
       "id": "pochhondo",
@@ -148,6 +148,23 @@
       "answer": 0
     },
     {
+      "id": "e16",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আমার ভাত ভালো লাগে।",
+        "tr": "amar bhat bhalo lage.",
+        "en": "I like rice."
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "I want rice.",
+        "I eat rice.",
+        "I like rice.",
+        "I need rice."
+      ],
+      "answer": 2
+    },
+    {
       "id": "e06",
       "type": "match_pairs",
       "pairs": [
@@ -269,31 +286,6 @@
       "answer": 3
     },
     {
-      "id": "e10",
-      "type": "word_bank",
-      "prompt": {
-        "bn": "এটা খুব ঝাল।",
-        "tr": "eta khub jhal.",
-        "en": "This is very spicy."
-      },
-      "direction": "bn_to_en",
-      "tiles": [
-        "This",
-        "is",
-        "very",
-        "spicy",
-        "sweet",
-        "tasty",
-        "not"
-      ],
-      "answer": [
-        "This",
-        "is",
-        "very",
-        "spicy"
-      ]
-    },
-    {
       "id": "e11",
       "type": "word_bank",
       "prompt": {
@@ -342,26 +334,6 @@
       ]
     },
     {
-      "id": "e13",
-      "type": "type_translation",
-      "prompt": {
-        "bn": "আমার ঝাল পছন্দ না।",
-        "tr": "amar jhal pochhondo na.",
-        "en": "I don't like spicy food."
-      },
-      "direction": "bn_to_en",
-      "accepted": [
-        "I don't like spicy food.",
-        "I do not like spicy food.",
-        "I don't like spicy things.",
-        "I do not like spicy things.",
-        "I don't like hot food.",
-        "I do not like hot food.",
-        "I don't like spicy.",
-        "I don't like spicy foods."
-      ]
-    },
-    {
       "id": "e14",
       "type": "select_translation",
       "prompt": {
@@ -372,11 +344,11 @@
       "direction": "en_to_bn",
       "options": [
         "এটা মিষ্টি খাবার।",
-        "এটা মজার খাবার।",
+        "এটা কি মজার খাবার?",
         "এটা ঝাল খাবার।",
-        "এটা কি মজার খাবার?"
+        "এটা মজার খাবার।"
       ],
-      "answer": 1
+      "answer": 3
     },
     {
       "id": "e15",
@@ -406,6 +378,26 @@
           "খুব",
           "মজার"
         ]
+      ]
+    },
+    {
+      "id": "e13",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আমার ঝাল পছন্দ না।",
+        "tr": "amar jhal pochhondo na.",
+        "en": "I don't like spicy food."
+      },
+      "direction": "bn_to_en",
+      "accepted": [
+        "I don't like spicy food.",
+        "I do not like spicy food.",
+        "I don't like spicy things.",
+        "I do not like spicy things.",
+        "I don't like hot food.",
+        "I do not like hot food.",
+        "I don't like spicy.",
+        "I don't like spicy foods."
       ]
     }
   ]

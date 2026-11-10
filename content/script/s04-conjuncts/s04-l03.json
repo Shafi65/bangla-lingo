@@ -229,12 +229,12 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "hunger",
         "sweet",
+        "hunger",
         "teacher",
         "doctor"
       ],
-      "answer": 1
+      "answer": 0
     },
     {
       "id": "e15",

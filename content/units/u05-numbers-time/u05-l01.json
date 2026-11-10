@@ -3,7 +3,7 @@
   "unit": "u05-numbers-time",
   "title": "One to ten",
   "status": "draft",
-  "tip": "**এক** (*ek*) you already know. Here are the rest:\n\n**১ এক · ২ দুই · ৩ তিন · ৪ চার · ৫ পাঁচ · ৬ ছয় · ৭ সাত · ৮ আট · ৯ নয় · ১০ দশ**\n\nNumbers go **before** the noun. With people or family you can just say **আমার দুই ভাই আছে** 'I have two brothers'. For things, Bengali usually adds the classifier **-টা**: **দুইটা আম** 'two mangoes' — and the noun stays singular! (Kolkata says **দুটো**.)\n\nCareful with sound-alikes: **দুই** (2) vs **দশ** (10), and **ছয়** (6) rhymes with **নয়** (9).\n\n**নয়** (*noy*) 'nine' is spelled exactly like **নয়** 'is not'. Context always makes it clear.\n\nArithmetic is easy to say: **পাঁচ আর পাঁচ দশ** 'five and five (is) ten'.",
+  "tip": "**এক** (*ek*) you already know. Here are the rest:\n\n**১ এক · ২ দুই · ৩ তিন · ৪ চার · ৫ পাঁচ · ৬ ছয় · ৭ সাত · ৮ আট · ৯ নয় · ১০ দশ**\n\nNumbers go **before** the noun. With people or family you can just say **আমার দুই ভাই আছে** 'I have two brothers'. For things, Bengali usually adds the classifier **-টা**: **দুইটা আম** 'two mangoes' — and the noun stays singular! (Kolkata says **দুটো**.)\n\nCareful: **ছয়** (6) rhymes with **নয়** (9), and **সাত** (7) and **আট** (8) are easy to swap.\n\n**নয়** (*noy*) 'nine' is spelled exactly like **নয়** 'is not'. Context tells you which: **নয় আর এক দশ** is 'nine and one is ten'.\n\nArithmetic is easy to say: **পাঁচ আর পাঁচ দশ** 'five and five (is) ten'.",
   "vocab": [
     {
       "id": "dui",
@@ -273,35 +273,35 @@
       "id": "e12",
       "type": "word_bank",
       "prompt": {
-        "bn": "চার আর পাঁচ নয়।",
-        "tr": "char ar pa~ch noy.",
-        "en": "Four and five is nine."
+        "bn": "নয় আর এক দশ।",
+        "tr": "noy ar ek dosh.",
+        "en": "Nine and one is ten."
       },
       "direction": "bn_to_en",
       "tiles": [
-        "five",
-        "nine",
-        "Four",
-        "not",
-        "is",
-        "plus",
+        "one",
+        "Nine",
         "ten",
-        "and"
+        "is",
+        "and",
+        "not",
+        "plus",
+        "five"
       ],
       "answer": [
-        "Four",
+        "Nine",
         "and",
-        "five",
+        "one",
         "is",
-        "nine"
+        "ten"
       ],
       "alt": [
         [
-          "Four",
+          "Nine",
           "plus",
-          "five",
+          "one",
           "is",
-          "nine"
+          "ten"
         ]
       ]
     },
@@ -334,16 +334,16 @@
       "id": "e14",
       "type": "select_translation",
       "prompt": {
-        "bn": "আমার দুই ভাই আছে।",
-        "tr": "amar dui bhai achhe.",
-        "en": "I have two brothers."
+        "bn": "আমার চার ভাই আছে।",
+        "tr": "amar char bhai achhe.",
+        "en": "I have four brothers."
       },
       "direction": "en_to_bn",
       "options": [
         "আমার দশ ভাই আছে।",
-        "আমার দুই বোন আছে।",
+        "আমার চার বোন আছে।",
         "আমার তিন ভাই আছে।",
-        "আমার দুই ভাই আছে।"
+        "আমার চার ভাই আছে।"
       ],
       "answer": 3
     },

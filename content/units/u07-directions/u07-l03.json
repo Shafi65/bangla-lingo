@@ -3,7 +3,7 @@
   "unit": "u07-directions",
   "title": "Near, far, next to",
   "status": "draft",
-  "tip": "English puts 'near, behind, next to' *before* the noun; Bengali puts them **after** it, as **postpositions**. The noun takes the genitive 'of' ending first:\n\n- **স্টেশনের কাছে** — 'near the station' (lit. 'the station's near-side')\n- **বাড়ির পাশে** — 'next to the house'\n- **হোটেলের সামনে** — 'in front of the hotel'\n- **স্টেশনের পিছনে** — 'behind the station'\n\nThe ending is **-এর** after a consonant (স্টেশন → স্টেশনের, হোটেল → হোটেলের) and **-র** after a vowel (বাড়ি → বাড়ির, বাসা → বাসার). Don't drop it: **স্টেশন কাছে** means 'the station is near', not 'near the station'.\n\nMany of these words also stand alone: **বাবা বাইরে** 'Dad is outside', **আপু উপরে** 'Apu is upstairs', **বাজার কি দূরে?** 'Is the market far?' They all end in **-এ** — they are really place nouns in the locative ('at the near side', 'at the front').\n\n'Far *from*' takes **থেকে** instead of the genitive: **স্টেশন থেকে দূরে** 'far from the station'.\n\nIn speech you'll also hear **পেছনে** for পিছনে and **ভেতরে** for ভিতরে.",
+  "tip": "English puts 'near, behind, next to' *before* the noun; Bengali puts them **after** it, as **postpositions**. The noun takes the 'of' ending first:\n\n- **স্টেশনের কাছে** — 'near the station'\n- **বাড়ির পাশে** — 'next to the house'\n- **হোটেলের সামনে** — 'in front of the hotel'\n- **স্টেশনের পিছনে** — 'behind the station'\n\nThe ending is **-এর** after a consonant (স্টেশনের, হোটেলের) and **-র** after a vowel (বাড়ির, বাসার). Don't drop it: **স্টেশন কাছে** means 'the station is near'.\n\nMany of these words stand alone too: **বাবা বাইরে** 'Dad is outside', **আপু উপরে** 'Apu is upstairs', **বাজার কি দূরে?** 'Is the market far?' 'Far *from*' takes **থেকে**: **স্টেশন থেকে দূরে**.\n\nAlso heard: **পেছনে** for পিছনে, **ভেতরে** for ভিতরে.",
   "vocab": [
     {
       "id": "kachhe",
@@ -211,12 +211,12 @@
         "tr": "hotel steshoner kachhe.",
         "en": "The hotel is near the station."
       },
-      "direction": "en_to_bn",
+      "direction": "bn_to_en",
       "options": [
-        "হোটেল স্টেশন কাছে।",
-        "স্টেশন হোটেলের কাছে।",
-        "হোটেল স্টেশনের কাছে।",
-        "হোটেল স্টেশনের পিছনে।"
+        "The station is near the hotel.",
+        "The hotel is behind the station.",
+        "The hotel is near the station.",
+        "The hotel is far from the station."
       ],
       "answer": 2
     },
@@ -335,26 +335,6 @@
       ]
     },
     {
-      "id": "e12",
-      "type": "type_translation",
-      "prompt": {
-        "bn": "বাবা বাইরে।",
-        "tr": "baba baire.",
-        "en": "Dad is outside."
-      },
-      "direction": "bn_to_en",
-      "accepted": [
-        "Dad is outside.",
-        "Dad's outside.",
-        "Father is outside.",
-        "My father is outside.",
-        "My dad is outside.",
-        "Dad is out.",
-        "Father is out.",
-        "Baba is outside."
-      ]
-    },
-    {
       "id": "e13",
       "type": "word_bank",
       "prompt": {
@@ -392,12 +372,32 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "Where is the market?",
         "Is the market far?",
+        "Where is the market?",
         "The market is far.",
         "Is the market near?"
       ],
-      "answer": 1
+      "answer": 0
+    },
+    {
+      "id": "e12",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "বাবা বাইরে।",
+        "tr": "baba baire.",
+        "en": "Dad is outside."
+      },
+      "direction": "bn_to_en",
+      "accepted": [
+        "Dad is outside.",
+        "Dad's outside.",
+        "Father is outside.",
+        "My father is outside.",
+        "My dad is outside.",
+        "Dad is out.",
+        "Father is out.",
+        "Baba is outside."
+      ]
     },
     {
       "id": "e15",

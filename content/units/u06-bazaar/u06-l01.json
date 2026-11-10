@@ -3,7 +3,7 @@
   "unit": "u06-bazaar",
   "title": "How much?",
   "status": "draft",
-  "tip": "To ask a price, say **দাম কত?** (*dam koto?*) — literally 'price how-much?'. Like কী in Unit 1, **কত** sits where the answer will go, so the word order doesn't change. Even shorter, point and say **এটা কত?** 'How much is this?'\n\nThree question words look alike:\n\n- **কত** (*koto*) — how much: **দাম কত?**\n- **কয়টা** (*koyta*) — how many (things), from Unit 5\n- **কয়জন** (*koyjon*) — how many (people), from Unit 3\n\nFor a price, it's **কত**.\n\nTo say *whose* price, add the genitive ending: **-র** after a vowel (এটা → **এটার**, 'of this') and **-এর** after a consonant (ইলিশ → **ইলিশের**, 'of the hilsa'). So **ইলিশের দাম কত?** = 'How much is the hilsa?'. Don't mix up **দাম** (*dam*, price) and **নাম** (*nam*, name): **এটার নাম কী?** asks what something is called.\n\nThe ending **-এ** means 'at / in': **বাজারে** = 'at the market'. Location needs **আছি / আছে**: **আমি বাজারে আছি** 'I am at the market'.\n\n**Culture:** in a Bangladeshi bazaar you don't say 'excuse me'. You call the shopkeeper **ভাই** (brother) if he's about your age, **মামা** ('uncle', the classic friendly address for vendors and rickshaw drivers in Dhaka), or **চাচা** for an older man. A woman vendor is **আপা** or **খালা**. *ভাই, এটার দাম কত?* is the most natural opener there is.",
+  "tip": "To ask a price, say **দাম কত?** (*dam koto?*) — 'price how-much?'. Like কী in Unit 1, **কত** sits where the answer will go, so word order doesn't change. Or just point: **এটা কত?** 'How much is this?'\n\nThree look-alike question words:\n\n- **কত** (*koto*) — how much (prices)\n- **কয়টা** (*koyta*) — how many (things), Unit 5\n- **কয়জন** (*koyjon*) — how many (people), Unit 3\n\nTo say *whose* price, add **-র** after a vowel (এটা → **এটার** 'of this') or **-এর** after a consonant (ইলিশ → **ইলিশের**): **ইলিশের দাম কত?** 'How much is the hilsa?' Don't mix up **দাম** (price) and **নাম** (name): **এটার নাম কী?**\n\n**-এ** means 'at / in': **বাজারে** 'at the market'. **আমি বাজারে আছি** 'I am at the market.'\n\n*Culture:* in a bazaar, call the shopkeeper **ভাই** (brother) if he's about your age, or **মামা** ('uncle', the classic friendly address for vendors and rickshaw drivers). *ভাই, এটার দাম কত?* is the most natural opener.",
   "vocab": [
     {
       "id": "bajar",
@@ -322,12 +322,12 @@
       },
       "direction": "en_to_bn",
       "options": [
-        "এটার নাম কী?",
         "এটা কত?",
+        "এটার নাম কী?",
         "এটা কোথায়?",
         "ওটা কত?"
       ],
-      "answer": 1
+      "answer": 0
     },
     {
       "id": "e14",

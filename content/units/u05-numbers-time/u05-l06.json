@@ -3,7 +3,7 @@
   "unit": "u05-numbers-time",
   "title": "Half past & quarter",
   "status": "draft",
-  "tip": "Bengali tells half and quarter hours with special words that go **before** the hour:\n\n- **সাড়ে** (*share*) = half past: **সাড়ে তিনটা** 3:30, **সাড়ে বারোটা** 12:30\n- **সোয়া** (*shoya*) = quarter past: **সোয়া পাঁচটা** 5:15\n- **পৌনে** (*poune*) = quarter to: **পৌনে দশটা** 9:45 (lit. 'ten less a quarter' — so it's the hour *coming up*)\n\n**Exception:** 1:30 and 2:30 have their own words — **দেড়টা** (*derta*) and **আড়াইটা** (*araita*). Never say *সাড়ে একটা* or *সাড়ে দুইটা*!\n\nThese work for amounts too: **দেড় ঘণ্টা** = an hour and a half, **আড়াই ঘণ্টা** = two and a half hours, **সাড়ে তিন** = 3½. You'll hear them constantly with prices and kilos at the bazaar.",
+  "tip": "Bengali tells half and quarter hours with special words that go **before** the hour:\n\n- **সাড়ে** (*share*) = half past: **সাড়ে তিনটা** 3:30, **সাড়ে বারোটা** 12:30\n- **সোয়া** (*shoya*) = quarter past: **সোয়া পাঁচটা** 5:15\n- **পৌনে** (*poune*) = quarter to: **পৌনে দশটা** 9:45 (lit. 'ten less a quarter' — so it's the hour *coming up*)\n\n**Exception:** 1:30 and 2:30 have their own words — **দেড়টা** (*derta*) and **আড়াইটা** (*araita*). Standard Bengali uses these, not *সাড়ে একটা* / *সাড়ে দুইটা*. (You may hear সাড়ে দুইটা in casual speech, but don't say it yourself.)\n\nThese work for amounts too: **দেড় ঘণ্টা** = an hour and a half, **আড়াই ঘণ্টা** = two and a half hours, **সাড়ে তিন** = 3½. You'll hear them constantly with prices and kilos at the bazaar.",
   "vocab": [
     {
       "id": "share",
@@ -225,12 +225,12 @@
       },
       "direction": "en_to_bn",
       "options": [
-        "সোয়া দশটা বাজে।",
         "পৌনে দশটা বাজে।",
+        "সোয়া দশটা বাজে।",
         "সাড়ে দশটা বাজে।",
         "পৌনে বারোটা বাজে।"
       ],
-      "answer": 1
+      "answer": 0
     },
     {
       "id": "e11",

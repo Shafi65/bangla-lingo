@@ -3,7 +3,7 @@
   "unit": "u05-numbers-time",
   "title": "Morning, noon & night",
   "status": "draft",
-  "tip": "Bengali divides the day differently from English:\n\n- **সকাল** (*shokal*) — morning, until about 11\n- **দুপুর** (*dupur*) — midday to about 3 (lunch is the big meal)\n- **বিকাল** (*bikal*) — late afternoon, tea-and-snack time\n- **সন্ধ্যা** (*shondha*) — dusk/evening, from sunset (the Maghrib call to prayer) to about 8\n- **রাত** (*rat*) — night\n\nAdd **-এ** to say *when*: সকাল → **সকালে** 'in the morning', রাত → **রাতে** 'at night'. After a vowel it becomes **-য়**: সন্ধ্যা → **সন্ধ্যায়**.\n\nThere's no a.m./p.m. — put the **plain** word (no -এ) before the time: **রাত দশটা** = 10 p.m., **দুপুর বারোটা** = 12 noon, **বিকাল পাঁচটা** = 5 p.m.\n\nKolkata (and many Bangladeshis) say **বিকেল / বিকেলে**.",
+  "tip": "Bengali divides the day differently from English:\n\n- **সকাল** (*shokal*) — morning, until about 11\n- **দুপুর** (*dupur*) — midday to about 3 (lunch is the big meal)\n- **বিকাল** (*bikal*) — late afternoon, tea-and-snack time (**নাস্তা** means 'snack' as well as 'breakfast')\n- **সন্ধ্যা** (*shondha*) — dusk/evening, from sunset to about 8\n- **রাত** (*rat*) — night\n\nAdd **-এ** to say *when*: সকাল → **সকালে** 'in the morning', রাত → **রাতে** 'at night'. After a vowel it becomes **-য়**: সন্ধ্যা → **সন্ধ্যায়**.\n\nThere's no a.m./p.m. Put the **plain** word (no -এ) before the time: **রাত দশটা** = 10 p.m., **দুপুর বারোটা** = 12 noon, **বিকাল পাঁচটা** = 5 p.m.\n\nKolkata (and many Bangladeshis) say **বিকেল / বিকেলে**.",
   "vocab": [
     {
       "id": "shokal",
@@ -191,9 +191,9 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "সকাল",
-          "tr": "shokal",
-          "en": "morning"
+          "bn": "রাতে",
+          "tr": "rate",
+          "en": "at night"
         },
         {
           "bn": "দুপুর",

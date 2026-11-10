@@ -3,7 +3,7 @@
   "unit": "u04-food",
   "title": "I want…",
   "status": "draft",
-  "tip": "**চাই** (*chai*) = 'I want'. It conjugates like খাই: তুমি **চাও**, আপনি **চান**. Careful not to confuse **চা** (tea) with **চাই** (want): **আমি চা চাই** = 'I want tea.'\n\nTo say you **want to do** something, put the verb in its **-তে** form first: খা- → **খেতে** (*khete*). **আমি ভাত খেতে চাই** = 'I want to eat rice.' (The vowel changes from আ to এ — just learn খেতে as a word.)\n\n**কিছু** = something/anything: **আপনি কিছু খেতে চান?** 'Would you like something to eat?'\n\nCulture: Bangladeshi hosts offer food again and again. A first **না, ধন্যবাদ** is often heard as politeness, so the offer will come back. If you really don't want more, say it warmly two or three times — or accept a little!\n\n**সমস্যা নেই** \"no problem\" and **অবশ্যই** \"of course\" are polite all-purpose replies. **আমার … দরকার** means \"I need …\".",
+  "tip": "**চাই** (*chai*) = 'I want'. It conjugates like খাই: তুমি **চাও**, আপনি **চান**. Don't confuse **চা** (tea) with **চাই** (want): **আমি চা চাই** = 'I want tea.'\n\nTo say you want **to do** something, put the verb in its **-তে** form first: খা- → **খেতে** (*khete*). **আমি ভাত খেতে চাই** = 'I want to eat rice.' (Just learn খেতে as a word.)\n\n**কিছু** = something / anything: **আপনি কিছু খেতে চান?** 'Would you like something to eat?'\n\n**আমার … দরকার** = 'I need …'. **অবশ্যই** 'of course' and **সমস্যা নেই** 'no problem' are polite all-purpose replies.\n\n*Culture:* hosts offer food again and again, so a first **না, ধন্যবাদ** is often taken as politeness. Refuse warmly two or three times, or accept a little!",
   "vocab": [
     {
       "id": "chai",
@@ -156,10 +156,10 @@
       "options": [
         "need",
         "question",
-        "problem",
-        "food"
+        "food",
+        "problem"
       ],
-      "answer": 2
+      "answer": 3
     },
     {
       "id": "e07",
@@ -183,9 +183,9 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "চাই",
-          "tr": "chai",
-          "en": "(I/we) want"
+          "bn": "কিছু",
+          "tr": "kichhu",
+          "en": "something"
         },
         {
           "bn": "চান",
@@ -266,12 +266,12 @@
       },
       "direction": "en_to_bn",
       "options": [
-        "আপনি কী খেতে চান?",
         "আপনি কিছু খেতে চান?",
+        "আপনি কী খেতে চান?",
         "তুমি কিছু খেতে চাও?",
         "আপনি কিছু খান?"
       ],
-      "answer": 1
+      "answer": 0
     },
     {
       "id": "e12",

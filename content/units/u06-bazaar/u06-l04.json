@@ -3,7 +3,7 @@
   "unit": "u06-bazaar",
   "title": "This one, those ones",
   "status": "draft",
-  "tip": "**এই** (*ei*) 'this' and **ওই** (*oi*) 'that' go before a noun: **এই দোকানদার** 'this shopkeeper'. On their own, add **-টা**: **এইটা** 'this one', **ওইটা** 'that one'. They're spoken forms of the এটা / ওটা you know from Unit 2, and perfect for pointing at a pile of fruit.\n\nThe classifier **-টা** on a noun makes it specific, like 'the': **মাছটা** 'the fish (that one)'. **-গুলো** makes it specific *and* plural: **কলাগুলো** 'the bananas'.\n\n- **এইটা / এটা** — this one\n- **ওইটা / ওটা** — that one\n- **এগুলো** — these\n- **ওগুলো** — those\n\n(You'll also hear the more emphatic এইগুলো / ওইগুলো.)\n\nIn speech you'll often hear **এই মাছটা**, with both 'this' and -টা together. That's normal, not redundant.\n\n'Not this one, that one' is simply **এইটা না, ওইটা।** If nothing looks good, ask for **অন্য একটা** 'a different one'. Picking your own fish or fruit is normal at a bazaar, and vendors expect you to point.",
+  "tip": "**এই** (*ei*) 'this' and **ওই** (*oi*) 'that' go before a noun: **এই দোকানদার** 'this shopkeeper'. On their own, add **-টা**: **এইটা** 'this one', **ওইটা** 'that one' (spoken forms of the এটা / ওটা you know).\n\n**-টা** on a noun makes it specific, like 'the': **মাছটা** 'the fish'. **-গুলো** makes it specific *and* plural: **কলাগুলো** 'the bananas'.\n\n- **এইটা / এটা** — this one\n- **ওইটা / ওটা** — that one\n- **এগুলো** — these\n- **ওগুলো** — those\n\nYou'll often hear both together: **এই মাছটা** 'this fish'. That's normal.\n\n'Not this one, that one' is **এইটা না, ওইটা।** If nothing looks good, ask for **অন্য একটা** 'a different one'. Picking your own fish or fruit is normal; vendors expect you to point.",
   "vocab": [
     {
       "id": "ei",
@@ -113,7 +113,7 @@
         "en": "this one"
       },
       "options": [
-        "এটা",
+        "ওটা",
         "এইটা",
         "ওইটা",
         "এটার"
@@ -328,11 +328,11 @@
       "direction": "en_to_bn",
       "options": [
         "ওইটা না, এইটা।",
-        "এইটা না, ওইটা।",
+        "এগুলো না, ওগুলো।",
         "এইটা না, এগুলো।",
-        "এগুলো না, ওগুলো।"
+        "এইটা না, ওইটা।"
       ],
-      "answer": 1
+      "answer": 3
     },
     {
       "id": "e14",

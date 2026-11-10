@@ -3,7 +3,7 @@
   "unit": "u05-numbers-time",
   "title": "Review: numbers & time",
   "status": "draft",
-  "tip": "Last new words: **বছর** (*bochhor*, year), **বছরে** (in a year), **মাস** (*mash*, month) and **প্রথম** (*prothom*, first). **আমার বয়স বিশ বছর** = 'I'm twenty years old' — বছর is optional when talking about age. **আজ আমার প্রথম দিন** = 'Today is my first day'.\n\nDon't mix up **মাস** (month), **মা** (mother) and **মাংস** (meat)!\n\nBangladesh uses three calendars side by side: the Gregorian calendar for work, the Bengali calendar (*Bongabdo*) for festivals like Pohela Boishakh — its year is about 593 years behind (2026 ≈ 1433) — and the Islamic Hijri calendar for Ramadan and Eid.\n\nQuick check:\n\n- **কয়টা বাজে?** — **সাড়ে পাঁচটা বাজে।**\n- 1:30 = **দেড়টা**, 2:30 = **আড়াইটা** (never *সাড়ে দুইটা*)\n- **আজ কী বার?** — **আজ শুক্রবার।**\n- **সকালে, দুপুরে, রাতে** = in the morning, at noon, at night",
+  "tip": "Last new words: **বছর** (*bochhor*, year), **বছরে** (in a year), **মাস** (*mash*, month) and **প্রথম** (*prothom*, first). **আমার বয়স বিশ বছর** = 'I'm twenty years old' (বছর is optional). **আজ আমার প্রথম দিন** = 'Today is my first day'. Don't mix up **মাস** (month), **মা** (mother) and **মাংস** (meat)!\n\nQuick check:\n\n- **কয়টা বাজে?** — **সাড়ে পাঁচটা বাজে।**\n- 1:30 = **দেড়টা**, 2:30 = **আড়াইটা** (not সাড়ে দুইটা)\n- **আজ কী বার?** — **আজ শুক্রবার।**\n- **সকালে, দুপুরে, রাতে** = in the morning, at noon, at night\n- Digits: **১৫** = 15, **২০** = 20\n\nBangladesh uses three calendars side by side: the Gregorian calendar for work, the Bengali calendar (*Bongabdo*, about 593 years behind: 2026 ≈ 1433) for festivals like Pohela Boishakh, and the Islamic Hijri calendar for Ramadan and Eid.",
   "vocab": [
     {
       "id": "bochhor",
@@ -347,20 +347,15 @@
     },
     {
       "id": "e14",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "আমার এক মাস সময় আছে।",
-        "tr": "amar ek mash shomoy achhe.",
-        "en": "I have one month."
-      },
-      "direction": "en_to_bn",
+      "type": "script_recognize",
+      "glyph": "১৫",
       "options": [
-        "আমার এক বছর সময় আছে।",
-        "আমার এক ঘণ্টা সময় আছে।",
-        "আমার এক মাস সময় আছে।",
-        "আমার এক মিনিট সময় আছে।"
+        "ponero (15)",
+        "tero (13)",
+        "pa~ch (5)",
+        "sholo (16)"
       ],
-      "answer": 2
+      "answer": 0
     },
     {
       "id": "e15",

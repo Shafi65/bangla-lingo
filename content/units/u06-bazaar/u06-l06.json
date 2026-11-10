@@ -3,7 +3,7 @@
   "unit": "u06-bazaar",
   "title": "Haggling",
   "status": "draft",
-  "tip": "Bargaining is normal in a bazaar, but not in fixed-price shops or supermarkets. Three chunks get you a long way:\n\n- **দাম একটু কম রাখেন।** — 'Lower the price a little, please.' (lit. 'keep the price a little less')\n- **এত দাম কেন?** — 'Why so expensive?'\n- **শেষ দাম কত?** — 'What's your final price?'\n\n**রাখেন** (*rakhen*) is the polite command of 'keep'; with a price it means 'make it…': **দুইশ টাকা রাখেন** 'make it 200 taka'. Standard/Kolkata: **রাখুন**. Notice **কম** 'less' vs **বেশি** 'more', and **সস্তা** 'cheap' vs **দামি** 'expensive' (from **দাম** 'price').\n\nTo say no, **লাগবে না** ('I don't need it') is polite and final. To agree: **ঠিক আছে** 'OK'.\n\nNegation of adjectives is easy in speech: just add **না**, as in **ভালো না** 'not good'.\n\n**Bargaining etiquette:**\n\n- Haggle most over clothes, souvenirs and rickshaw fares. At the fresh market, vegetable prices per kilo are often close to fixed, so a small discount or a little extra is a win.\n- Smile and keep it friendly: **মামা, দাম একটু কম রাখেন।** works better than arguing.\n- Once you name a price and the vendor says **ঠিক আছে**, you've agreed, so buy it.\n- Walking away with a polite **লাগবে না** is fine, and it sometimes brings the price down.",
+  "tip": "Bargaining is normal in a bazaar, but not in fixed-price shops. Three chunks get you far:\n\n- **দাম একটু কম রাখেন।** — 'Lower the price a little, please.' (lit. 'keep the price a little less')\n- **এত দাম কেন?** — 'Why so expensive?'\n- **শেষ দাম কত?** — 'What's your final price?'\n\n**রাখেন** (*rakhen*) is the polite command of 'keep'; with a price it means 'make it…': **দুইশ টাকা রাখেন**. (Standard/Kolkata: **রাখুন**.) **কম** 'less' vs **বেশি** 'more'; **সস্তা** 'cheap' vs **দামি** 'expensive' (from দাম).\n\nTo refuse, **লাগবে না** ('I don't need it') is polite and final. To agree: **ঠিক আছে** 'OK'. Adjectives negate with **না**: **ভালো না** 'not good'.\n\n*Etiquette:* smile, name a fair price, and once the vendor says ঠিক আছে you've agreed. Haggle most over clothes and rickshaw fares; per-kilo vegetable prices are close to fixed.",
   "vocab": [
     {
       "id": "kom",
@@ -88,18 +88,17 @@
     },
     {
       "id": "e02",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "বেশি",
         "tr": "beshi",
         "en": "more"
       },
-      "direction": "bn_to_en",
       "options": [
-        "less",
-        "cheap",
-        "more",
-        "OK"
+        "কম",
+        "দামি",
+        "বেশি",
+        "শেষ"
       ],
       "answer": 2
     },
@@ -198,12 +197,12 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "first",
         "last",
+        "first",
         "OK",
         "only"
       ],
-      "answer": 1
+      "answer": 0
     },
     {
       "id": "e09",

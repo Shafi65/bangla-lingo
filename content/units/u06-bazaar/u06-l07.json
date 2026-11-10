@@ -3,7 +3,7 @@
   "unit": "u06-bazaar",
   "title": "Clothes shopping",
   "status": "draft",
-  "tip": "The future for 'I' ends in **-ব** (*-bo*): **কিনব** (*kinbo*) 'I will buy'. For আপনি it's **-বেন**: **কিনবেন** 'you will buy'. Put **না** after the verb to negate: **কিনব না** 'I won't buy'. (You'll also see the spelling কিনবো.)\n\nUseful words: **শাড়ি** (sari), **জামা** (shirt / top / dress), **লুঙ্গি** (the wrap many Bangladeshi men wear at home). Add **-টা** for 'the one': **শাড়িটা** 'the sari', **জামাটা** 'the shirt'. Colours go before the noun: **লাল শাড়ি** 'a red sari'. Careful: **শাড়ি** (*shari*) sounds close to **সাড়ে** (*share*, 'half past').\n\nBefore paying with a big note, ask **ভাংতি আছে?** 'Do you have change?' **ভাংতি** and **খুচরা** both mean 'change' (small notes and coins), you'll hear both, and both are right. In Kolkata it's **খুচরো** (*khuchro*).\n\n**কোনো … নেই** means 'no … at all': **কোনো সমস্যা নেই** 'no problem at all'.\n\n**Culture:** clothing markets are where bargaining is most expected, so it's normal to ask the price of several saris before you choose. Red-and-white saris are the classic choice for Pohela Boishakh (Bengali New Year), which you'll meet in Unit 10.",
+  "tip": "The future for 'I' ends in **-ব** (*-bo*): **কিনব** 'I will buy'. For আপনি it's **-বেন**: **কিনবেন**. Put **না** after the verb to negate: **কিনব না** 'I won't buy'. (You'll also see কিনবো.)\n\nClothes: **শাড়ি** (sari), **জামা** (shirt / top / dress), **লুঙ্গি** (the wrap many men wear at home). **-টা** gives 'the': **শাড়িটা**, **জামাটা**. Colours go before the noun: **লাল শাড়ি**. Careful: **শাড়ি** (*shari*) sounds close to **সাড়ে** (*share*).\n\nBefore paying with a big note, ask **ভাংতি আছে?** 'Do you have change?' **ভাংতি** and **খুচরা** both mean 'change' (Kolkata: খুচরো).\n\n**কোনো … নেই** means 'no … at all': **কোনো সমস্যা নেই** 'no problem at all'.\n\n*Culture:* clothing markets are where bargaining is most expected; ask the price of several saris before choosing.",
   "vocab": [
     {
       "id": "shari",
@@ -201,12 +201,12 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "There's no change.",
-        "What's the problem?",
         "No problem at all.",
+        "What's the problem?",
+        "There's no change.",
         "All the problems."
       ],
-      "answer": 2
+      "answer": 0
     },
     {
       "id": "e09",
@@ -268,8 +268,8 @@
       "id": "e11",
       "type": "word_bank",
       "prompt": {
-        "bn": "ভাংতি আছে?",
-        "tr": "bhangti achhe?",
+        "bn": "খুচরা আছে?",
+        "tr": "khuchra achhe?",
         "en": "Do you have change?"
       },
       "direction": "bn_to_en",
@@ -322,11 +322,11 @@
       "direction": "en_to_bn",
       "options": [
         "ওই জামাটা কত?",
-        "এই জামাটা কত?",
+        "এই জামাটা কিনব।",
         "এই শাড়িটা কত?",
-        "এই জামাটা কিনব।"
+        "এই জামাটা কত?"
       ],
-      "answer": 1
+      "answer": 3
     },
     {
       "id": "e13",

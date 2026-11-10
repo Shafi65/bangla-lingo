@@ -3,7 +3,7 @@
   "unit": "u07-directions",
   "title": "Rickshaw & CNG",
   "status": "draft",
-  "tip": "Hailing a rickshaw goes like this: call **এই রিকশা!** ('Hey, rickshaw!'), name your destination and ask **যাবেন?** 'Will you go?' — **ধানমন্ডি যাবেন?** In speech the destination often needs no ending at all. If the driver says **না**, or just shakes his head, he doesn't want that route — ask the next one.\n\nAddress drivers as **মামা** (lit. 'uncle', mother's brother) or **ভাই** 'brother' — friendly and respectful. Use the polite forms **যাবেন** and **থামেন**; plenty of people say তুমি to drivers, but আপনি is always safe.\n\nThe future of 'go': **যাব** = 'I / we will go', **যাবেন** = 'you (polite) will go'. 'By rickshaw' takes the locative: **রিকশায় যাব**.\n\n**Agree the fare before you get in.** In practice rickshaws and CNGs don't run on a meter, so ask **ভাড়া কত?** If it sounds high, say **ভাড়া একটু বেশি** and make a counter-offer with your Unit 6 haggling: **পঞ্চাশ টাকা রাখেন?** A smile and a fair number work better than a long argument.\n\nTo get off: **মামা, এখানে থামেন** 'Stop here, please'. You'll hear **এখানে রাখেন** (lit. 'keep it here') just as often — both are right. And **কতদূর?** asks 'how far?': **ধানমন্ডি কতদূর?**\n\nA **সিএনজি** is the green, gas-powered auto-rickshaw — faster than a rickshaw and better for longer trips. In Kolkata it's an **অটো**.",
+  "tip": "To hail a rickshaw, call **এই রিকশা!** ('Hey, rickshaw!'), name the place and ask **যাবেন?** 'Will you go?' — **ধানমন্ডি যাবেন?** The destination often needs no ending, though **স্টেশনে যাব** ('I'll go to the station') works too. If the driver says **না**, ask the next one.\n\nCall drivers **মামা** (lit. 'uncle') or **ভাই**, and use the polite **যাবেন** and **থামেন**.\n\nThe future of 'go': **যাব** = 'I / we will go', **যাবেন** = 'you (polite) will go'. 'By rickshaw' takes the locative: **রিকশায় যাব**.\n\n**Agree the fare before you get in:** **ভাড়া কত?** If it sounds high, say **ভাড়া একটু বেশি** and counter: **পঞ্চাশ টাকা রাখেন?** To get off: **মামা, এখানে থামেন** (**এখানে রাখেন** also works). **কতদূর?** = 'how far?'\n\nA **সিএনজি** is the green gas-powered auto-rickshaw, faster for longer trips. (Kolkata: **অটো**.)",
   "vocab": [
     {
       "id": "riksha",
@@ -182,11 +182,11 @@
       "direction": "bn_to_en",
       "options": [
         "What's the fare?",
-        "The fare is a bit high.",
+        "The fare is very high.",
         "The fare is a bit low.",
-        "The fare is very high."
+        "The fare is a bit high."
       ],
-      "answer": 1
+      "answer": 3
     },
     {
       "id": "e08",
@@ -328,11 +328,11 @@
       "direction": "en_to_bn",
       "options": [
         "আমি একটা সিএনজি লাগবে।",
-        "আমার একটা সিএনজি লাগবে।",
+        "আমার একটা সিএনজি লাগবে না।",
         "আমার একটা রিকশা লাগবে।",
-        "আমার একটা সিএনজি লাগবে না।"
+        "আমার একটা সিএনজি লাগবে।"
       ],
-      "answer": 1
+      "answer": 3
     },
     {
       "id": "e14",

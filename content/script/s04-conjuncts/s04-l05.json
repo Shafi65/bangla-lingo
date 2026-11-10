@@ -215,9 +215,14 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "ক্ষ",
-          "tr": "kkho",
-          "en": "kkh / kh (ক + ষ), NOT 'ksh'"
+          "bn": "ন্ধ",
+          "tr": "ndho",
+          "en": "n + dh (ন + ধ)"
+        },
+        {
+          "bn": "ম্ম",
+          "tr": "mmo",
+          "en": "double m (ম + ম)"
         },
         {
           "bn": "ক্ত",
@@ -228,11 +233,6 @@
           "bn": "ন্য",
           "tr": "nno",
           "en": "্য (jo-fola) on ন: doubles the n (ধন্যবাদ)"
-        },
-        {
-          "bn": "স্ব",
-          "tr": "sho",
-          "en": "্ব (bo-fola) on স: the ব is silent (স্বামী = shami)"
         },
         {
           "bn": "র্গ",

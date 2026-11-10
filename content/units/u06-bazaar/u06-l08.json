@@ -227,11 +227,11 @@
       "direction": "en_to_bn",
       "options": [
         "আমার ব্যাগ লাগবে।",
-        "আমার ব্যাগ লাগবে না।",
         "আমার ব্যাগ নেই।",
+        "আমার ব্যাগ লাগবে না।",
         "আমার ব্যাগ দেন।"
       ],
-      "answer": 1
+      "answer": 2
     },
     {
       "id": "e10",
@@ -325,18 +325,35 @@
       "id": "e13",
       "type": "select_translation",
       "prompt": {
-        "bn": "এগুলো খুব দামি।",
-        "tr": "egulo khub dami.",
-        "en": "These are very expensive."
+        "bn": "আমি এই শাড়িটা কিনব।",
+        "tr": "ami ei sharita kinbo.",
+        "en": "I will buy this sari."
       },
       "direction": "en_to_bn",
       "options": [
-        "ওগুলো খুব দামি।",
-        "এগুলো খুব সস্তা।",
-        "এগুলো খুব দামি।",
-        "এটা খুব দামি।"
+        "আমি ওই শাড়িটা কিনব।",
+        "আমি এই জামাটা কিনব।",
+        "আপনি এই শাড়িটা কিনবেন।",
+        "আমি এই শাড়িটা কিনব।"
       ],
-      "answer": 2
+      "answer": 3
+    },
+    {
+      "id": "e15",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ঠিক আছে, দুইশ টাকা রাখেন।",
+        "tr": "thik achhe, duisho taka rakhen.",
+        "en": "OK, make it two hundred taka."
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "OK, make it two hundred taka.",
+        "OK, give me two hundred taka.",
+        "OK, make it twenty taka.",
+        "No, two hundred taka is too much."
+      ],
+      "answer": 0
     },
     {
       "id": "e14",
@@ -377,23 +394,6 @@
         "amake akta beg den",
         "amake akta beg din"
       ]
-    },
-    {
-      "id": "e15",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "ঠিক আছে, দুইশ টাকা রাখেন।",
-        "tr": "thik achhe, duisho taka rakhen.",
-        "en": "OK, make it two hundred taka."
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "OK, make it two hundred taka.",
-        "OK, give me two hundred taka.",
-        "OK, make it twenty taka.",
-        "No, two hundred taka is too much."
-      ],
-      "answer": 0
     }
   ]
 }
