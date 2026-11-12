@@ -278,6 +278,18 @@
         "then",
         "I",
         "cook"
+      ],
+      "alt": [
+        [
+          "I",
+          "come",
+          "home",
+          "After",
+          "work",
+          "then",
+          "I",
+          "cook"
+        ]
       ]
     },
     {
@@ -356,8 +368,7 @@
         "আপনি কি বাংলা বলতে পারেন?",
         "আপনি বাংলা বলতে পারেন?",
         "apni ki bangla bolte paren",
-        "apni bangla bolte paren",
-        "apni ki bangla bolte paren?"
+        "apni bangla bolte paren"
       ],
       "why": "আপনি takes the polite ending: পারেন."
     },

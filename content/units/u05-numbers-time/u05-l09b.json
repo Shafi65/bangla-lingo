@@ -281,6 +281,13 @@
           "half",
           "past",
           "five"
+        ],
+        [
+          "now",
+          "It's",
+          "half",
+          "past",
+          "five"
         ]
       ]
     },
@@ -390,8 +397,7 @@
         "aj ki bar",
         "aaj ki bar",
         "aj ki baar",
-        "aaj ki baar",
-        "aj ki bar?"
+        "aaj ki baar"
       ],
       "why": "Weekdays use **বার**; **দিন** is any day."
     },

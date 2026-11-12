@@ -3,7 +3,7 @@
   "unit": "u09-past",
   "title": "Doing, done, did",
   "status": "draft",
-  "tip": "No new words: this lesson sorts out three look-alike forms of **করা**. Watch the middle of the word:\n\n- **করছি** (-ছ-): I **am doing**, right now\n- **করেছি** (-এছ-): I **have done**, just finished or still relevant\n- **করলাম** (-ল-): I **did**, a finished event\n\nTime words help: **এখন** 'now' → করছি; **মাত্র** 'just' → করেছি; **গতকাল** 'yesterday' → করলাম.\n\nThe person endings stay the same in every tense, present → past:\n\n- তুই: করিস → **করলি**\n- তুমি: করো → **করলে**\n- আপনি / তিনি: করেন → **করলেন**\n- সে / তারা: করে → **করল**\n\n**তাই** 'so' and **কারণ** 'because' come back too: **আমি মাত্র খেয়েছি, তাই এখন খেতে পারি না**.",
+  "tip": "No new words: this lesson sorts out three look-alike forms of **করা**. Watch the middle of the word:\n\n- **করছি** (-ছ-): I **am doing**, right now\n- **করেছি** (-এছ-): I **have done**, just finished or still relevant\n- **করলাম** (-ল-): I **did**, a finished event\n\nTime words help: **এখন** 'now' → করছি; **মাত্র** 'just' → করেছি; **গতকাল** 'yesterday' → করলাম.\n\nEach person has its own ending, present → past:\n\n- তুই: করিস → **করলি**\n- তুমি: করো → **করলে**\n- আপনি / তিনি: করেন → **করলেন**\n- সে / তারা: করে → **করল**\n\n**তাই** 'so' and **কারণ** 'because' come back too: **আমি মাত্র খেয়েছি, তাই এখন খেতে পারি না**.",
   "vocab": [],
   "exercises": [
     {
@@ -337,7 +337,6 @@
         "এখন না, কারণ আমি কাজ করছি।",
         "এখন না, কারণ কাজ করছি।",
         "ekhon na, karon ami kaj korchhi",
-        "ekhon na karon ami kaj korchhi",
         "ekhon na karon kaj korchhi",
         "ekhon na karon ami kaj korchi",
         "ekhon na karon kaj korchi"
@@ -355,8 +354,7 @@
       "direction": "bn_to_en",
       "accepted": [
         "What did you do yesterday?",
-        "Yesterday what did you do?",
-        "What did you do yesterday"
+        "Yesterday what did you do?"
       ]
     },
     {

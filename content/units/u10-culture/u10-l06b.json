@@ -254,6 +254,17 @@
           "at",
           "the",
           "fair"
+        ],
+        [
+          "at",
+          "the",
+          "fair",
+          "There",
+          "are",
+          "a",
+          "lot",
+          "of",
+          "people"
         ]
       ]
     },
@@ -292,7 +303,21 @@
         "your",
         "birthday"
       ],
-      "why": "কারণ 'because' introduces the reason."
+      "why": "কারণ 'because' introduces the reason.",
+      "alt": [
+        [
+          "This",
+          "gift",
+          "is",
+          "for",
+          "you",
+          "because",
+          "your",
+          "birthday",
+          "is",
+          "today"
+        ]
+      ]
     },
     {
       "id": "e12",
@@ -348,10 +373,8 @@
       "direction": "en_to_bn",
       "accepted": [
         "শুভ জন্মদিন।",
-        "শুভ জন্মদিন",
         "shubho jonmodin",
         "subho jonmodin",
-        "shubho jonmodin!",
         "shubho jonmo din"
       ]
     },
