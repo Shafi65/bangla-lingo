@@ -14,6 +14,8 @@ import {
   type LessonState,
   type ProgressState,
 } from "@/lib/progress";
+import { useDueCount } from "@/lib/review";
+import { isReviewLesson } from "@/lib/lessonKind";
 import { AppShell } from "./AppShell";
 import { CheckIcon, LockIcon, RepeatIcon, StarIcon } from "./icons";
 import { GoalRing } from "./Stats";
@@ -33,11 +35,6 @@ interface NumberedUnit {
 interface Section {
   n: number;
   units: NumberedUnit[];
-}
-
-/** Review lessons are titled "Review: …" in content (the only loaded marker). */
-export function isReviewLesson(l: Pick<LessonSummary, "title">): boolean {
-  return /^review\b/i.test(l.title.trim());
 }
 
 /**
@@ -161,6 +158,7 @@ function ContinueCard({
   const review = isReviewLesson(lesson);
   const done = unit.lessons.filter((l) => progress.completed[l.id]).length;
   const idx = unit.lessons.findIndex((l) => l.id === lesson.id);
+  const due = useDueCount();
 
   return (
     <section
@@ -193,6 +191,18 @@ function ContinueCard({
           {anyDone ? "Continue" : "Start the first lesson"}
         </Link>
       </div>
+      {due > 0 && (
+        <Link
+          href="/practice"
+          className="flex items-center gap-2 border-t-2 border-line px-5 py-3 text-sm font-extrabold text-accent-dark hover:bg-sunk"
+        >
+          <RepeatIcon />
+          <span className="flex-1">
+            {due} {due === 1 ? "word" : "words"} to review
+          </span>
+          <span aria-hidden>Review now</span>
+        </Link>
+      )}
     </section>
   );
 }

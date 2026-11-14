@@ -24,11 +24,11 @@ function UnitCard({ unit }: { unit: GuideUnit }) {
       {!soon && <span aria-hidden className="shrink-0 text-2xl font-black text-brand-dark">›</span>}
     </>
   );
-  const cls = "flex items-center justify-between gap-3 rounded-2xl border-2 border-b-4 border-line bg-white p-4";
+  const cls = "flex items-center justify-between gap-3 rounded-2xl border-2 border-b-4 border-line bg-surface p-4";
   return soon ? (
     <div className={`${cls} opacity-70`}>{body}</div>
   ) : (
-    <Link href={`/guide/${unit.id}`} className={`${cls} hover:bg-gray-50`}>
+    <Link href={`/guide/${unit.id}`} className={`${cls} hover:bg-sunk`}>
       {body}
     </Link>
   );

@@ -75,9 +75,9 @@ export function WordList({ words, index }: { words: ReviewWord[]; index: WordInd
       </p>
 
       {now === 0 ? (
-        <div className="mt-8 h-48 animate-pulse rounded-3xl bg-white" aria-hidden />
+        <div className="mt-8 h-48 animate-pulse rounded-3xl bg-surface" aria-hidden />
       ) : total === 0 ? (
-        <div className="mt-8 rounded-3xl border-2 border-dashed border-line bg-white p-6 text-center">
+        <div className="mt-8 rounded-3xl border-2 border-dashed border-line bg-surface p-6 text-center">
           <p className="text-xl font-black">No words yet</p>
           <p className="mt-1 font-semibold text-muted">Each lesson you finish adds a handful.</p>
           <Link href="/" className="btn btn-primary mt-5">
@@ -99,7 +99,7 @@ export function WordList({ words, index }: { words: ReviewWord[]; index: WordInd
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
                 placeholder="Search Bengali, transliteration or English"
-                className="w-full rounded-2xl border-2 border-line bg-white px-4 py-3 text-base font-semibold outline-none focus:border-brand focus-visible:outline-none"
+                className="w-full rounded-2xl border-2 border-line bg-surface px-4 py-3 text-base font-semibold outline-none focus:border-brand focus-visible:outline-none"
               />
             </label>
             {units.length > 1 && (
@@ -108,7 +108,7 @@ export function WordList({ words, index }: { words: ReviewWord[]; index: WordInd
                 <select
                   value={unit}
                   onChange={(e) => setUnit(e.target.value)}
-                  className="w-full rounded-2xl border-2 border-line bg-white px-3 py-2.5 text-base font-bold outline-none focus:border-brand"
+                  className="w-full rounded-2xl border-2 border-line bg-surface px-3 py-2.5 text-base font-bold outline-none focus:border-brand"
                 >
                   <option value="all">All units</option>
                   {units.map(([id, title]) => (
@@ -129,7 +129,7 @@ export function WordList({ words, index }: { words: ReviewWord[]; index: WordInd
                   className={`rounded-full border-2 px-3 py-1 text-sm font-extrabold transition ${
                     filter === c.key
                       ? "border-brand bg-brand-light text-brand-dark"
-                      : "border-line bg-white text-muted hover:text-ink"
+                      : "border-line bg-surface text-muted hover:text-ink"
                   }`}
                 >
                   {c.label}
@@ -145,7 +145,7 @@ export function WordList({ words, index }: { words: ReviewWord[]; index: WordInd
                 {g.title}
                 <span className="ml-2 text-sm font-bold text-muted">{g.words.length}</span>
               </h2>
-              <ul className="flex flex-col divide-y-2 divide-line rounded-2xl border-2 border-line bg-white">
+              <ul className="flex flex-col divide-y-2 divide-line rounded-2xl border-2 border-line bg-surface">
                 {g.words.map((w) => (
                   <li key={w.id} className="flex items-center gap-3 px-3 py-3">
                     <SpeakButton bn={w.bn} size="sm" />

@@ -93,22 +93,15 @@
 
   --shadow-lift: 0 1px 2px rgb(0 0 0 / 0.4), 0 8px 20px -10px rgb(0 0 0 / 0.6);
   --shadow-sheet: 0 -8px 24px -12px rgb(0 0 0 / 0.7);
-
-  /* Neutral greys used by older screens map onto the dark ramp. */
-  --color-gray-50: var(--color-sunk);
-  --color-gray-100: var(--color-sunk);
-  --color-gray-200: var(--color-line);
-  --color-gray-300: var(--color-line-strong);
 }
 :root {
   color-scheme: light;
+  /* Sticky app header: fixed content height + its border + the device's top
+     inset. Sticky bars and scroll offsets below the header use --header-h. */
+  --header-core: 3.5rem;
+  --header-h: calc(var(--header-core) + 2px + env(safe-area-inset-top, 0px));
 }
 
-/* Screens owned by other workstreams still say bg-white: give them the surface.
-   (Unlayered, so it wins over the utility; text-white is untouched.) */
-[data-theme="dark"] .bg-white {
-  background-color: var(--color-surface);
-}
 
 html,
 body {

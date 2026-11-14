@@ -2,6 +2,7 @@
 
 import { createContext, useContext, type ReactNode } from "react";
 import { useProgress } from "@/lib/progress";
+import { useThemeSync } from "@/lib/ui/theme";
 
 const ScriptLessonsContext = createContext<readonly string[]>([]);
 
@@ -13,6 +14,7 @@ export function CourseProvider({
   scriptLessonIds: string[];
   children: ReactNode;
 }) {
+  useThemeSync();
   return (
     <ScriptLessonsContext.Provider value={scriptLessonIds}>
       {children}

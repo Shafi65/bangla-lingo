@@ -105,9 +105,14 @@ export interface Lesson {
 }
 
 /** What the course map needs: units with lesson titles resolved. */
+/** Plan `kind` (content/plans/*.json); lessons without one are "lesson". */
+export type LessonKind = "lesson" | "review" | "checkpoint";
+
 export interface LessonSummary {
   id: string;
   title: string;
+  /** From the unit's plan file; "lesson" when there is no plan or no `kind`. */
+  kind: LessonKind;
   exerciseCount: number;
   /** True while the lesson is awaiting native-speaker review. */
   draft: boolean;

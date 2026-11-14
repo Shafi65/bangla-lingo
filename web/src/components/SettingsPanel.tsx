@@ -246,7 +246,7 @@ function Section({
 }) {
   const hId = useId();
   return (
-    <section id={id} aria-labelledby={hId} className="scroll-mt-24 card p-5">
+    <section id={id} aria-labelledby={hId} className="scroll-mt-[calc(var(--header-h)+1rem)] card p-5">
       <h2 id={hId} className="text-xl font-black">{title}</h2>
       {hint && <p className="mt-0.5 mb-4 text-sm font-semibold text-muted">{hint}</p>}
       {!hint && <div className="mb-3" />}

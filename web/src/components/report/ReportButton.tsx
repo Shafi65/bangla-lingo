@@ -114,7 +114,7 @@ function ReportSheet({
       onClick={(e) => {
         if (e.target === ref.current) ref.current?.close();
       }}
-      className="m-auto w-[min(92vw,30rem)] max-h-[90dvh] overflow-y-auto rounded-3xl border-2 border-line bg-white p-5 text-ink backdrop:bg-black/40"
+      className="m-auto w-[min(92vw,30rem)] max-h-[90dvh] overflow-y-auto rounded-3xl border-2 border-line bg-surface p-5 text-ink backdrop:bg-scrim"
     >
       <form onSubmit={submit}>
         <h2 id={`${uid}-title`} className="text-xl font-black">
@@ -132,7 +132,7 @@ function ReportSheet({
               <label
                 key={c}
                 className={`flex min-h-12 cursor-pointer items-center gap-3 rounded-2xl border-2 px-3 font-bold ${
-                  category === c ? "border-brand bg-brand-light text-brand-dark" : "border-line bg-white"
+                  category === c ? "border-brand bg-brand-light text-brand-dark" : "border-line bg-surface"
                 }`}
               >
                 <input
@@ -159,7 +159,7 @@ function ReportSheet({
             rows={3}
             data-enter-native
             placeholder="What should it say instead?"
-            className="mt-1 w-full rounded-2xl border-2 border-line bg-white p-3 text-base font-semibold"
+            className="mt-1 w-full rounded-2xl border-2 border-line bg-surface p-3 text-base font-semibold"
           />
         </label>
 

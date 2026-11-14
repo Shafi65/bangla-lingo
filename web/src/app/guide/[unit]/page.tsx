@@ -35,7 +35,7 @@ export default async function GuideUnitPage({ params }: PageProps<"/guide/[unit]
       {u.description && <p className="mt-1 text-lg font-semibold text-muted">{u.description}</p>}
 
       {u.lessons === null ? (
-        <div className="mt-8 rounded-3xl border-2 border-dashed border-line bg-white p-6 text-center">
+        <div className="mt-8 rounded-3xl border-2 border-dashed border-line bg-surface p-6 text-center">
           <p className="text-xl font-black">Coming soon</p>
           <p className="mt-1 font-semibold text-muted">This unit&rsquo;s notes are still being written.</p>
         </div>
@@ -45,7 +45,7 @@ export default async function GuideUnitPage({ params }: PageProps<"/guide/[unit]
             <ul className="flex flex-wrap gap-2">
               {u.lessons.map((l) => (
                 <li key={l.id}>
-                  <a href={`#${l.id}`} className="inline-block rounded-full border-2 border-line bg-white px-3 py-1 text-sm font-extrabold hover:bg-gray-50">
+                  <a href={`#${l.id}`} className="inline-block rounded-full border-2 border-line bg-surface px-3 py-1 text-sm font-extrabold hover:bg-sunk">
                     {l.title}
                   </a>
                 </li>

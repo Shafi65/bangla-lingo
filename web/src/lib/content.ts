@@ -18,6 +18,7 @@ import type {
   CourseSummary,
   Exercise,
   Lesson,
+  LessonKind,
   ScriptRecognizeExercise,
   UnitDef,
 } from "./types";
@@ -79,6 +80,26 @@ function isLesson(v: unknown): v is Lesson {
   );
 }
 
+const LESSON_KINDS = new Set<LessonKind>(["lesson", "review", "checkpoint"]);
+
+/**
+ * Lesson kinds from `<baseDir>/plans/<unit-id>.json` ({ lessons: [{ id, kind? }] }).
+ * Missing plan, unknown kind or malformed entries simply yield no entry.
+ */
+export function readPlanKinds(baseDir: string, unitId: string): Map<string, LessonKind> {
+  const out = new Map<string, LessonKind>();
+  const plan = readJson(path.join(baseDir, "plans", `${unitId}.json`)) as
+    | { lessons?: { id?: unknown; kind?: unknown }[] }
+    | undefined;
+  if (!plan || !Array.isArray(plan.lessons)) return out;
+  for (const l of plan.lessons) {
+    if (typeof l?.id === "string" && LESSON_KINDS.has(l.kind as LessonKind)) {
+      out.set(l.id, l.kind as LessonKind);
+    }
+  }
+  return out;
+}
+
 interface LoadedCourse {
   summary: CourseSummary;
   lessons: Map<string, Lesson>;
@@ -104,6 +125,7 @@ function loadFrom(
 
   const lessons = new Map<string, Lesson>();
   const units = raw.units.map((unit) => {
+    const kinds = readPlanKinds(baseDir, unit.id);
     const summaries = unit.lessons.flatMap((lessonId) => {
       const file = lessonPath(baseDir, unit, lessonId);
       const data = readJson(file);
@@ -121,6 +143,7 @@ function loadFrom(
         {
           id: lesson.id,
           title: lesson.title ?? lesson.id,
+          kind: kinds.get(lesson.id) ?? "lesson",
           exerciseCount: lesson.exercises.length,
           draft: lesson.status === "draft",
           glyph:

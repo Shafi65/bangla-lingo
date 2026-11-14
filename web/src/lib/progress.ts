@@ -1,6 +1,7 @@
 import { useSyncExternalStore } from "react";
 import { EMPTY_MEMORY, parseMemory, type WordMemoryState } from "./review/state";
 import type { CourseSummary, UnitSummary } from "./types";
+import { THEME_KEY } from "./ui/theme-script";
 
 export interface LessonRecord {
   completedAt: string; // ISO timestamp of most recent completion
@@ -11,6 +12,9 @@ export interface LessonRecord {
 /** How transliteration (romanized Bengali) is displayed. */
 export type TranslitMode = "always" | "auto" | "hidden";
 export type TtsSpeed = "slow" | "normal" | "fast";
+/** Appearance preference; "system" follows the OS. */
+export type ThemePref = "light" | "dark" | "system";
+export const THEME_PREFS: readonly ThemePref[] = ["light", "dark", "system"];
 export const DAILY_GOALS = [10, 20, 30, 50] as const;
 export type DailyGoal = (typeof DAILY_GOALS)[number];
 
@@ -19,6 +23,7 @@ export interface Settings {
   sound: boolean;
   ttsSpeed: TtsSpeed;
   dailyGoal: DailyGoal;
+  theme: ThemePref;
 }
 
 export const DEFAULT_SETTINGS: Settings = Object.freeze({
@@ -26,6 +31,7 @@ export const DEFAULT_SETTINGS: Settings = Object.freeze({
   sound: true,
   ttsSpeed: "normal",
   dailyGoal: 20,
+  theme: "system",
 }) as Settings;
 
 export const TTS_RATES: Record<TtsSpeed, number> = {
@@ -126,9 +132,34 @@ export function lessonStars(rec: LessonRecord | undefined): 0 | 1 | 2 | 3 {
   return 1;
 }
 
-function sanitizeSettings(s: unknown): Settings {
+/**
+ * Old versions (and the pre-paint script in app/layout.tsx) keep the theme
+ * under a small key of its own. Used once, for stored settings that predate
+ * the `theme` field; settings are the source of truth after that.
+ */
+function legacyTheme(): ThemePref | undefined {
+  try {
+    const v = window.localStorage.getItem(THEME_KEY);
+    return v === "light" || v === "dark" ? v : undefined;
+  } catch {
+    return undefined;
+  }
+}
+
+/** Keep the tiny key the pre-paint script reads in step with settings.theme. */
+function mirrorTheme(theme: ThemePref) {
+  try {
+    if (theme === "system") window.localStorage.removeItem(THEME_KEY);
+    else window.localStorage.setItem(THEME_KEY, theme);
+  } catch {
+    // storage disabled: nothing to mirror
+  }
+}
+
+export function sanitizeSettings(s: unknown, fallbackTheme: ThemePref = DEFAULT_SETTINGS.theme): Settings {
   const v = (s ?? {}) as Partial<Settings>;
   return {
+    theme: THEME_PREFS.includes(v.theme as ThemePref) ? (v.theme as ThemePref) : fallbackTheme,
     translit: (["always", "auto", "hidden"] as const).includes(v.translit as TranslitMode)
       ? (v.translit as TranslitMode)
       : DEFAULT_SETTINGS.translit,
@@ -162,6 +193,17 @@ function withActivity(prev: ProgressState, xp: number): ProgressState {
   return { ...prev, xp: prev.xp + xp, streak, lastActiveDate: today, daily };
 }
 
+/** True if the stored blob already has a valid settings.theme (so migration is done). */
+function storedTheme(raw: string | null): boolean {
+  if (!raw) return false;
+  try {
+    const t = (JSON.parse(raw) as { settings?: { theme?: unknown } }).settings?.theme;
+    return THEME_PREFS.includes(t as ThemePref);
+  } catch {
+    return false;
+  }
+}
+
 const STORAGE_KEY = "banglalingo.progress.v1";
 const MEMORY_KEY = "banglalingo.memory.v1";
 
@@ -174,13 +216,16 @@ export class LocalStorageProgressStore implements ProgressStore {
   get(): ProgressState {
     if (typeof window === "undefined" || this.memoryOnly) return this.cacheState;
     let raw: string | null = null;
+    let legacy: ThemePref | undefined;
     try {
       raw = window.localStorage.getItem(STORAGE_KEY);
+      legacy = legacyTheme();
     } catch {
       return this.cacheState;
     }
-    if (raw === this.cacheRaw) return this.cacheState; // stable snapshot
-    this.cacheRaw = raw;
+    const key = `${legacy ?? ""}|${raw ?? ""}`;
+    if (key === this.cacheRaw) return this.cacheState; // stable snapshot
+    this.cacheRaw = key;
     try {
       const parsed = raw ? (JSON.parse(raw) as Partial<ProgressState>) : null;
       this.cacheState =
@@ -196,10 +241,18 @@ export class LocalStorageProgressStore implements ProgressStore {
     } catch {
       this.cacheState = EMPTY_PROGRESS;
     }
+    // Migration: a theme chosen before it lived in settings.
+    if (legacy && this.cacheState.settings.theme === "system" && !storedTheme(raw)) {
+      this.cacheState = {
+        ...this.cacheState,
+        settings: { ...this.cacheState.settings, theme: legacy },
+      };
+    }
     return this.cacheState;
   }
 
   private write(next: ProgressState) {
+    mirrorTheme(next.settings.theme);
     try {
       window.localStorage.setItem(STORAGE_KEY, JSON.stringify(next));
     } catch {

@@ -330,7 +330,7 @@ describe("settings defaults / migration / sanitising", () => {
 describe("lesson unlocking", () => {
   const unit = (id: string, lessons: string[]): UnitSummary => ({
     id, title: id, track: "main",
-    lessons: lessons.map((l) => ({ id: l, title: l, exerciseCount: 1, draft: false })),
+    lessons: lessons.map((l) => ({ id: l, title: l, kind: "lesson" as const, exerciseCount: 1, draft: false })),
   });
   const course: CourseSummary = {
     id: "c", title: "c", source: "content",

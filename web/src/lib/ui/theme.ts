@@ -1,32 +1,18 @@
 "use client";
 // Appearance preference (Light / Dark / System).
 //
-// The progress store's Settings shape (lib/progress.ts) has no theme field and
-// sanitises unknown keys away, so the preference lives under its own guarded
-// localStorage key. The inline script in app/layout.tsx (THEME_SCRIPT) reads
-// the same key before first paint and resolves "system" via matchMedia, so
+// The preference is `settings.theme` in the progress store (lib/progress.ts),
+// the single source of truth. The store also mirrors light/dark into the small
+// localStorage key THEME_KEY (and clears it for "system"), because the inline
+// script in app/layout.tsx (THEME_SCRIPT) must read it before first paint,
+// before any JS has loaded. The script resolves "system" via matchMedia, so
 // <html data-theme> is always "light" or "dark".
-import { useSyncExternalStore } from "react";
-
-export type ThemePref = "light" | "dark" | "system";
+import { useEffect } from "react";
+import { progressStore, useProgress, type ThemePref } from "../progress";
 import { THEME_KEY } from "./theme-script";
+
+export type { ThemePref };
 export { THEME_KEY };
-const EVENT = "banglalingo:theme";
-
-function readPref(): ThemePref {
-  try {
-    const v = window.localStorage.getItem(THEME_KEY);
-    return v === "light" || v === "dark" ? v : "system";
-  } catch {
-    return "system";
-  }
-}
-
-let memoryPref: ThemePref | null = null;
-
-function current(): ThemePref {
-  return memoryPref ?? readPref();
-}
 
 export function applyTheme(pref: ThemePref): void {
   const dark =
@@ -38,34 +24,27 @@ export function applyTheme(pref: ThemePref): void {
 }
 
 export function setThemePref(pref: ThemePref): void {
-  try {
-    if (pref === "system") window.localStorage.removeItem(THEME_KEY);
-    else window.localStorage.setItem(THEME_KEY, pref);
-    memoryPref = null;
-  } catch {
-    memoryPref = pref; // storage disabled: remember for this tab only
-  }
+  progressStore.updateSettings({ theme: pref });
   applyTheme(pref);
-  window.dispatchEvent(new Event(EVENT));
-}
-
-function subscribe(cb: () => void): () => void {
-  const onStorage = (e: StorageEvent) => {
-    if (e.key === THEME_KEY) {
-      applyTheme(current());
-      cb();
-    }
-  };
-  window.addEventListener(EVENT, cb);
-  window.addEventListener("storage", onStorage);
-  return () => {
-    window.removeEventListener(EVENT, cb);
-    window.removeEventListener("storage", onStorage);
-  };
 }
 
 /** Saved preference; "system" during SSR and first hydration. */
 export function useThemePref(): ThemePref {
-  return useSyncExternalStore(subscribe, current, () => "system");
+  return useProgress().settings.theme;
 }
 
+/**
+ * Applies theme changes made elsewhere (another tab, a reset). Mounted once in
+ * the root layout. Does nothing on first render: the pre-paint script already
+ * set the right theme, and re-applying the server snapshot would flash.
+ */
+export function useThemeSync(): void {
+  useEffect(
+    () =>
+      progressStore.subscribe(() => {
+        const pref = progressStore.get().settings.theme;
+        if (document.documentElement.dataset.themePref !== pref) applyTheme(pref);
+      }),
+    [],
+  );
+}

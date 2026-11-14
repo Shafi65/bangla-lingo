@@ -60,7 +60,7 @@ export function PracticeHub({ words, index }: { words: ReviewWord[]; index: Word
 
   const tabClass = (t: Tab) =>
     `flex-1 rounded-xl px-3 py-2 text-base font-black transition ${
-      tab === t ? "bg-white text-ink shadow-sm" : "text-muted hover:text-ink"
+      tab === t ? "bg-surface text-ink shadow-sm" : "text-muted hover:text-ink"
     }`;
 
   return (
@@ -101,7 +101,7 @@ export function PracticeHub({ words, index }: { words: ReviewWord[]; index: Word
       {tab === "review" ? (
         <section id="panel-review" role="tabpanel" aria-labelledby="tab-review" className="mt-6">
           {now === 0 ? (
-            <div className="h-48 animate-pulse rounded-3xl bg-white" aria-hidden />
+            <div className="h-48 animate-pulse rounded-3xl bg-surface" aria-hidden />
           ) : learned.size === 0 ? (
             <Empty
               title="Nothing to review yet"
@@ -111,7 +111,7 @@ export function PracticeHub({ words, index }: { words: ReviewWord[]; index: Word
             />
           ) : (
             <>
-              <div className="rounded-3xl border-2 border-line bg-white p-6 text-center">
+              <div className="rounded-3xl border-2 border-line bg-surface p-6 text-center">
                 {due.length > 0 ? (
                   <>
                     <p className="text-5xl font-black text-brand-dark" data-testid="due-count">
@@ -144,7 +144,7 @@ export function PracticeHub({ words, index }: { words: ReviewWord[]; index: Word
               <h2 className="mt-8 mb-3 text-lg font-black">Your {learned.size} words</h2>
               <ul className="grid grid-cols-4 gap-2" aria-label="Words by strength">
                 {(["Weak", "Fair", "Good", "Strong"] as const).map((label, i) => (
-                  <li key={label} className="rounded-2xl border-2 border-line bg-white px-2 py-3 text-center">
+                  <li key={label} className="rounded-2xl border-2 border-line bg-surface px-2 py-3 text-center">
                     <StrengthMeter level={(i + 1) as 1 | 2 | 3 | 4} />
                     <span className="block text-2xl font-black">{levels[i]}</span>
                     <span className="block text-xs font-bold text-muted">{label}</span>
@@ -162,7 +162,7 @@ export function PracticeHub({ words, index }: { words: ReviewWord[]; index: Word
       ) : (
         <section id="panel-mistakes" role="tabpanel" aria-labelledby="tab-mistakes" className="mt-6">
           {now === 0 ? (
-            <div className="h-48 animate-pulse rounded-3xl bg-white" aria-hidden />
+            <div className="h-48 animate-pulse rounded-3xl bg-surface" aria-hidden />
           ) : mistakes.length === 0 ? (
             <Empty
               title="No mistakes to fix"
@@ -173,7 +173,7 @@ export function PracticeHub({ words, index }: { words: ReviewWord[]; index: Word
               <button type="button" className="btn btn-primary w-full" onClick={() => start("mistakes", mistakes)}>
                 <RepeatIcon /> Practise these
               </button>
-              <ul className="mt-4 flex flex-col divide-y-2 divide-line rounded-2xl border-2 border-line bg-white">
+              <ul className="mt-4 flex flex-col divide-y-2 divide-line rounded-2xl border-2 border-line bg-surface">
                 {mistakes.map((id) => {
                   const w = byId.get(id)!;
                   const rec = memory.words[id];
@@ -206,7 +206,7 @@ export function PracticeHub({ words, index }: { words: ReviewWord[]; index: Word
 
 function Empty({ title, body, href, cta }: { title: string; body: string; href?: string; cta?: string }) {
   return (
-    <div className="rounded-3xl border-2 border-dashed border-line bg-white p-6 text-center">
+    <div className="rounded-3xl border-2 border-dashed border-line bg-surface p-6 text-center">
       <p className="text-xl font-black">{title}</p>
       <p className="mt-1 font-semibold text-muted">{body}</p>
       {href && cta && (

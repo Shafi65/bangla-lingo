@@ -5,7 +5,7 @@ import type { GuideWord } from "@/lib/guide/data";
 /** New vocabulary of a lesson: Bengali + speaker, transliteration, English. */
 export function WordTable({ words, caption }: { words: GuideWord[]; caption: string }) {
   return (
-    <div className="overflow-hidden rounded-2xl border-2 border-line bg-white">
+    <div className="overflow-hidden rounded-2xl border-2 border-line bg-surface">
       <table className="w-full table-fixed border-collapse text-left">
         <caption className="sr-only">{caption}</caption>
         <thead className="bg-paper text-xs font-extrabold tracking-wide text-muted uppercase">

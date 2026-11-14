@@ -4,6 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import type { ComponentType, ReactNode } from "react";
 import { BookIcon, GearIcon, GuideIcon, PathIcon, RepeatIcon, SearchBookIcon } from "./icons";
+import { useDueCount } from "@/lib/review";
 import { Logo } from "./Logo";
 import { GoalRing, StreakBadge } from "./Stats";
 
@@ -24,6 +25,23 @@ const NAV: NavItem[] = [
 ];
 const SETTINGS: NavItem = { href: "/settings", label: "Settings", Icon: GearIcon };
 
+/** Small count pill; renders nothing at 0 (which is also the SSR / first-render value). */
+function DueBadge({ n, className = "" }: { n: number; className?: string }) {
+  if (n <= 0) return null;
+  return (
+    <span
+      aria-hidden
+      className={`inline-flex min-w-[1.25rem] items-center justify-center rounded-full bg-accent px-1.5 text-[0.6875rem] leading-5 font-black text-white ${className}`}
+    >
+      {n > 99 ? "99+" : n}
+    </span>
+  );
+}
+
+function dueLabel(label: string, n: number) {
+  return n > 0 ? `${label}, ${n} ${n === 1 ? "word" : "words"} to review` : label;
+}
+
 function isActive(pathname: string, href: string) {
   return href === "/" ? pathname === "/" : pathname === href || pathname.startsWith(`${href}/`);
 }
@@ -42,6 +60,7 @@ export function AppShell({
   aside?: ReactNode;
 }) {
   const pathname = usePathname();
+  const due = useDueCount();
 
   return (
     <div className="flex min-h-dvh flex-1 flex-col bg-paper">
@@ -52,7 +71,7 @@ export function AppShell({
         Skip to content
       </a>
       <header className="sticky top-0 z-20 border-b-2 border-line bg-surface/90 pt-[env(safe-area-inset-top)] backdrop-blur-md">
-        <div className="mx-auto flex max-w-6xl items-center justify-between gap-3 px-4 py-2.5">
+        <div className="mx-auto flex h-[var(--header-core)] max-w-6xl items-center justify-between gap-3 px-4">
           <Link href="/" className="flex shrink-0 items-center gap-2 rounded-xl" aria-label="BanglaLingo home">
             <Logo />
             <span className="text-xl font-black tracking-tight text-brand-dark max-[360px]:hidden">
@@ -63,7 +82,11 @@ export function AppShell({
             <ul className="flex items-center gap-0.5">
               {[...NAV, SETTINGS].map((item) => (
                 <li key={item.href}>
-                  <TopLink item={item} active={isActive(pathname, item.href)} />
+                  <TopLink
+                    item={item}
+                    active={isActive(pathname, item.href)}
+                    due={item.href === "/practice" ? due : 0}
+                  />
                 </li>
               ))}
             </ul>
@@ -92,7 +115,7 @@ export function AppShell({
           {children}
         </main>
         {aside && (
-          <aside className="sticky top-20 hidden w-72 shrink-0 self-start pt-6 lg:block">{aside}</aside>
+          <aside className="sticky top-[calc(var(--header-h)+1.5rem)] hidden w-72 shrink-0 self-start pt-6 lg:block">{aside}</aside>
         )}
       </div>
 
@@ -108,14 +131,16 @@ export function AppShell({
                 <Link
                   href={href}
                   aria-current={active ? "page" : undefined}
+                  aria-label={href === "/practice" ? dueLabel(label, due) : undefined}
                   className={`flex flex-col items-center gap-0.5 rounded-xl py-2 text-[0.6875rem] font-extrabold transition-colors ${
                     active ? "text-brand-dark" : "text-muted hover:text-ink"
                   }`}
                 >
                   <span
-                    className={`rounded-xl px-3.5 py-1 transition-colors ${active ? "bg-brand-light" : ""}`}
+                    className={`relative rounded-xl px-3.5 py-1 transition-colors ${active ? "bg-brand-light" : ""}`}
                   >
                     <Icon />
+                    {href === "/practice" && <DueBadge n={due} className="absolute -top-1 -right-0.5 ring-2 ring-surface" />}
                   </span>
                   {short ?? label}
                 </Link>
@@ -128,13 +153,13 @@ export function AppShell({
   );
 }
 
-function TopLink({ item, active }: { item: NavItem; active: boolean }) {
+function TopLink({ item, active, due }: { item: NavItem; active: boolean; due: number }) {
   const { href, label, Icon } = item;
   return (
     <Link
       href={href}
       aria-current={active ? "page" : undefined}
-      aria-label={label}
+      aria-label={dueLabel(label, due)}
       title={label}
       className={`flex items-center gap-2 rounded-xl px-2.5 py-2 font-extrabold transition-colors ${
         active ? "bg-brand-light text-brand-dark" : "text-muted hover:bg-sunk hover:text-ink"
@@ -142,6 +167,7 @@ function TopLink({ item, active }: { item: NavItem; active: boolean }) {
     >
       <Icon />
       <span className="hidden xl:inline">{label}</span>
+      <DueBadge n={due} />
     </Link>
   );
 }

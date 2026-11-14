@@ -85,7 +85,7 @@ export function Dictionary({ data }: { data: DictData }) {
   const visible = results.slice(0, shown);
   const reset = () => setShown(PAGE);
   const field =
-    "min-h-12 w-full rounded-2xl border-2 border-line bg-white px-3 text-base font-semibold text-ink";
+    "min-h-12 w-full rounded-2xl border-2 border-line bg-surface px-3 text-base font-semibold text-ink";
 
   return (
     <AppShell>
@@ -94,7 +94,7 @@ export function Dictionary({ data }: { data: DictData }) {
         Every word and letter in the course. Search in Bengali, in Roman letters or in English.
       </p>
 
-      <div className="sticky top-[57px] z-10 -mx-4 mt-4 space-y-2 bg-paper/95 px-4 py-2 backdrop-blur">
+      <div className="sticky top-[var(--header-h)] z-10 -mx-4 mt-4 space-y-2 bg-paper px-4 py-2">
         <label className="block">
           <span className="sr-only">Search the dictionary</span>
           <input
@@ -159,14 +159,14 @@ export function Dictionary({ data }: { data: DictData }) {
       </p>
 
       {results.length === 0 ? (
-        <div className="mt-4 rounded-3xl border-2 border-dashed border-line bg-white p-6 text-center">
+        <div className="mt-4 rounded-3xl border-2 border-dashed border-line bg-surface p-6 text-center">
           <p className="text-xl font-black">Nothing found</p>
           <p className="mt-1 font-semibold text-muted">Try a shorter search or clear the filters.</p>
         </div>
       ) : (
         <ul className="mt-2 space-y-2">
           {visible.map((e) => (
-            <li key={e.id} className="rounded-2xl border-2 border-line bg-white p-3">
+            <li key={e.id} className="rounded-2xl border-2 border-line bg-surface p-3">
               <div className="flex items-start gap-3">
                 <SpeakButton bn={e.bn} size="sm" />
                 <div className="min-w-0 flex-1">

@@ -10,7 +10,7 @@ function H({ children }: { children: React.ReactNode }) {
 
 export function LessonSection({ lesson, index }: { lesson: GuideLesson; index: number }) {
   return (
-    <section id={lesson.id} aria-labelledby={`${lesson.id}-h`} className="scroll-mt-20 rounded-3xl border-2 border-line bg-white p-4">
+    <section id={lesson.id} aria-labelledby={`${lesson.id}-h`} className="scroll-mt-[calc(var(--header-h)+1rem)] rounded-3xl border-2 border-line bg-surface p-4">
       <p className="text-xs font-extrabold tracking-wide text-brand-dark uppercase">
         {lesson.kind === "lesson" ? `Lesson ${index + 1}` : lesson.kind === "review" ? "Review" : "Checkpoint"}
       </p>
