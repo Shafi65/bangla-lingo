@@ -81,6 +81,9 @@ function collect() {
       for (const ex of lesson.exercises ?? []) {
         addText(ex.prompt);
         addText(ex.audio);
+        addText(ex.sentence); // fill_blank: the complete sentence
+        addText(ex.questionBn);
+        for (const l of ex.lines ?? []) addText(l); // reading: every line
         for (const p of ex.pairs ?? []) addText(p);
         for (const o of ex.options ?? []) add(o);
         for (const t of ex.tiles ?? []) add(t);

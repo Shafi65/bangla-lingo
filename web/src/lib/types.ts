@@ -36,6 +36,8 @@ interface ExerciseBase {
    * (a quieter "Why?" line when correct). Supports **bold**, *italic*, `code`.
    */
   why?: string;
+  /** Set by `npm run recycle` on generated review exercises. Never hand-written. */
+  recycle?: true;
 }
 
 export interface SelectTranslationExercise extends ExerciseBase {
@@ -82,13 +84,58 @@ export interface ScriptRecognizeExercise extends ExerciseBase {
   answer: number;
 }
 
+/**
+ * A Bengali sentence with one gap. `sentence` is the complete correct sentence;
+ * `blank` is the exact word/phrase of `sentence.bn` that is removed (it occurs
+ * exactly once as a whole token sequence). Give EITHER `options` + `answer`
+ * (choose the missing word) OR `accepted` (type it).
+ */
+export interface FillBlankExercise extends ExerciseBase {
+  type: "fill_blank";
+  sentence: BnText;
+  blank: string;
+  options?: string[];
+  answer?: number;
+  /** Typed variant: Bengali and transliteration spellings. `blank` itself is always accepted too. */
+  accepted?: string[];
+}
+
+/** Hear a Bengali sentence, choose what it means. Text and transliteration stay hidden until checked. */
+export interface ListenMeaningExercise extends ExerciseBase {
+  type: "listen_meaning";
+  audio: BnText;
+  /** English meanings. */
+  options: string[];
+  answer: number;
+}
+
+export interface ReadingLine extends BnText {
+  speaker?: string;
+}
+
+/** A short dialogue or text (2-8 lines) followed by one comprehension question. */
+export interface ReadingExercise extends ExerciseBase {
+  type: "reading";
+  title?: string;
+  lines: ReadingLine[];
+  /** The question in English. With `questionBn` it is that question's English gloss. */
+  question: string;
+  /** Optional Bengali version of the question (shown as the main question). */
+  questionBn?: BnText;
+  options: string[];
+  answer: number;
+}
+
 export type Exercise =
   | SelectTranslationExercise
   | WordBankExercise
   | MatchPairsExercise
   | ListenSelectExercise
   | TypeTranslationExercise
-  | ScriptRecognizeExercise;
+  | ScriptRecognizeExercise
+  | FillBlankExercise
+  | ListenMeaningExercise
+  | ReadingExercise;
 
 export type ExerciseType = Exercise["type"];
 

@@ -31,7 +31,13 @@ export function checkResponse(ex: Exercise, r: Response): boolean {
     case "select_translation":
     case "listen_select":
     case "script_recognize":
+    case "listen_meaning":
+    case "reading":
       return r.kind === "index" && r.value === ex.answer;
+    case "fill_blank":
+      if (ex.options) return r.kind === "index" && r.value === ex.answer;
+      // Typed: the blank itself is always accepted, plus the authored spellings.
+      return r.kind === "text" && [ex.blank, ...(ex.accepted ?? [])].some((a) => answersMatch(a, r.value));
     case "word_bank":
       return (
         r.kind === "tiles" &&
@@ -51,7 +57,11 @@ export function checkResponse(ex: Exercise, r: Response): boolean {
 /** What to show in the feedback panel as the correct answer. */
 export function solutionFor(
   ex: Exercise,
-): { text: BnText; display: string } | { glyph: string; sound: string } | null {
+):
+  | { text: BnText; display: string }
+  | { glyph: string; sound: string }
+  | { answer: string }
+  | null {
   switch (ex.type) {
     case "select_translation":
       return {
@@ -75,6 +85,13 @@ export function solutionFor(
       };
     case "listen_select":
       return { text: ex.audio, display: ex.options[ex.answer] ?? ex.audio.bn };
+    case "fill_blank":
+      // `display` is the missing word; the sentence is shown in full below it.
+      return { text: ex.sentence, display: ex.blank };
+    case "listen_meaning":
+      return { text: ex.audio, display: ex.options[ex.answer] ?? ex.audio.en };
+    case "reading":
+      return { answer: ex.options[ex.answer] ?? "" };
     case "script_recognize":
       return { glyph: ex.glyph, sound: ex.options[ex.answer] };
     case "match_pairs":

@@ -84,6 +84,12 @@ function build(): Index {
       if ("prompt" in ex) add(ex.prompt.bn, ex.prompt.tr);
       if (ex.type === "listen_select") add(ex.audio.bn, ex.audio.tr);
       if (ex.type === "match_pairs") for (const p of ex.pairs) add(p.bn, p.tr);
+      if (ex.type === "listen_meaning") add(ex.audio.bn, ex.audio.tr);
+      if (ex.type === "fill_blank") add(ex.sentence.bn, ex.sentence.tr);
+      if (ex.type === "reading") {
+        for (const l of ex.lines) add(l.bn, l.tr);
+        if (ex.questionBn) add(ex.questionBn.bn, ex.questionBn.tr);
+      }
     }
   }
   // Single-word entries double as token entries.
@@ -113,6 +119,10 @@ function bengaliOptions(ex: Exercise): string[] {
       return ex.direction === "en_to_bn" ? ex.tiles : [];
     case "listen_select":
       return ex.options;
+    case "fill_blank":
+      return ex.options ?? [];
+    case "reading":
+      return ex.options.every((o) => /[\u0980-\u09FF]/.test(o)) ? ex.options : [];
     default:
       return [];
   }

@@ -21,6 +21,8 @@ function audioManifest(): string {
 }
 
 const nextConfig: NextConfig = {
+  // The e2e suite builds the demo-fixture variant into its own folder (e2e/servers.mjs).
+  ...(process.env.NEXT_DIST_DIR ? { distDir: process.env.NEXT_DIST_DIR } : {}),
   cacheComponents: true,
   partialPrefetching: true,
   env: {

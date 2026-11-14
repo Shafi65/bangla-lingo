@@ -73,6 +73,9 @@ describe("content loader (real ../content)", () => {
         if ("prompt" in e) chk(`${l.id}/${e.id} prompt`, e.prompt);
         if (e.type === "listen_select") chk(`${l.id}/${e.id} audio`, e.audio);
         if (e.type === "match_pairs") e.pairs.forEach((p, i) => chk(`${l.id}/${e.id} pair${i}`, p));
+        if (e.type === "listen_meaning") chk(`${l.id}/${e.id} audio`, e.audio);
+        if (e.type === "fill_blank") chk(`${l.id}/${e.id} sentence`, e.sentence);
+        if (e.type === "reading") e.lines.forEach((ln, i) => chk(`${l.id}/${e.id} line${i}`, ln));
       }
     }
     expect(bad).toEqual([]);
@@ -84,7 +87,13 @@ describe("content loader (real ../content)", () => {
         case "select_translation":
         case "listen_select":
         case "script_recognize":
+        case "listen_meaning":
+        case "reading":
           return { kind: "index", value: e.answer } as const;
+        case "fill_blank":
+          return e.options
+            ? ({ kind: "index", value: e.answer as number } as const)
+            : ({ kind: "text", value: (e.accepted ?? [e.blank])[0] } as const);
         case "word_bank":
           return { kind: "tiles", value: matchTiles(e.tiles, e.answer) } as const;
         case "type_translation":

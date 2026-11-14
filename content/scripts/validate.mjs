@@ -6,7 +6,7 @@
 //             unit reviews covering <80% of the unit's words, reviews that introduce new words.
 import fs from "node:fs";
 import {
-  BENGALI, POS, REGISTERS, findProductionFirst, findUntaught, isRecycle, isReviewLesson, knownAt, lessonPath, loadAll,
+  BENGALI, POS, REGISTERS, blankOccurrences, findProductionFirst, findUntaught, isRecycle, isReviewLesson, knownAt, lessonPath, loadAll,
   loadLessons, readJson, rel, reviewCoverage, tokenize,
 } from "./lib.mjs";
 
@@ -23,6 +23,7 @@ const serr = (rule, where, msg) => { strictCounts[rule] = (strictCounts[rule] ??
 const TYPES = new Set([
   "select_translation", "word_bank", "match_pairs",
   "listen_select", "type_translation", "script_recognize",
+  "fill_blank", "listen_meaning", "reading",
 ]);
 const MAX_RECYCLE = 6; // recycle-tagged exercises per lesson (default run adds 3; extra match_pairs may add more)
 const DIRS = new Set(["bn_to_en", "en_to_bn"]);
@@ -178,6 +179,51 @@ function checkExercise(where, ex) {
       if (!DIRS.has(ex.direction)) err(where, "bad direction");
       if (!isStrArr(ex.accepted)) err(where, "accepted must be non-empty string[]");
       break;
+    case "fill_blank": {
+      checkBnText(`${where}.sentence`, ex.sentence);
+      if (!isStr(ex.blank)) { err(where, "blank must be a non-empty string"); break; }
+      if (!BENGALI.test(ex.blank)) err(where, `blank "${ex.blank}" has no Bengali characters`);
+      else if (isStr(ex.sentence?.bn)) {
+        const n = blankOccurrences(ex.sentence.bn, ex.blank).length;
+        if (n !== 1) err(where, `blank "${ex.blank}" must occur exactly once in sentence.bn as whole word(s) (found ${n})`);
+      }
+      const choice = ex.options !== undefined || ex.answer !== undefined;
+      const typed = ex.accepted !== undefined;
+      if (choice && typed) err(where, "give either options + answer or accepted, not both");
+      else if (!choice && !typed) err(where, "needs options + answer (choose) or accepted (type)");
+      else if (choice) {
+        checkIndex(where, ex);
+        if (ex.options?.some((o) => !BENGALI.test(o))) err(where, "options must be Bengali script");
+        else if (Array.isArray(ex.options) && ex.options[ex.answer] !== undefined &&
+          ex.options[ex.answer].normalize("NFC").trim() !== ex.blank.normalize("NFC").trim())
+          err(where, `correct option "${ex.options[ex.answer]}" must equal blank "${ex.blank}"`);
+      } else if (!isStrArr(ex.accepted)) err(where, "accepted must be non-empty string[]");
+      break;
+    }
+    case "listen_meaning":
+      checkBnText(`${where}.audio`, ex.audio);
+      checkIndex(where, ex);
+      if (ex.options?.some((o) => BENGALI.test(o))) err(where, "options must be English meanings");
+      break;
+    case "reading": {
+      if (ex.title !== undefined && !isStr(ex.title)) err(where, "title must be a non-empty string");
+      if (!Array.isArray(ex.lines) || ex.lines.length < 2 || ex.lines.length > 8) err(where, "reading needs 2–8 lines");
+      else {
+        ex.lines.forEach((l, i) => {
+          checkBnText(`${where}.lines[${i}]`, l);
+          if (l?.speaker !== undefined && !isStr(l.speaker)) err(`${where}.lines[${i}]`, "speaker must be a non-empty string");
+        });
+        const withSpeaker = ex.lines.filter((l) => l?.speaker !== undefined).length;
+        if (withSpeaker !== 0 && withSpeaker !== ex.lines.length) err(where, "give every line a speaker, or none");
+      }
+      if (!isStr(ex.question)) err(where, "question must be a non-empty string (English)");
+      else if (BENGALI.test(ex.question)) err(where, "question is English; put Bengali in questionBn");
+      if (ex.questionBn !== undefined) checkBnText(`${where}.questionBn`, ex.questionBn);
+      checkIndex(where, ex);
+      if (Array.isArray(ex.options) && ex.options.some((o) => BENGALI.test(o)) && !ex.options.every((o) => BENGALI.test(o)))
+        err(where, "options must be all English or all Bengali script");
+      break;
+    }
     case "script_recognize":
       if (!isStr(ex.glyph) || !BENGALI.test(ex.glyph)) err(where, "glyph must be Bengali");
       checkIndex(where, ex);

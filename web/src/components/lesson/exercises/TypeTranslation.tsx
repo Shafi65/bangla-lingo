@@ -57,7 +57,7 @@ export function TypeTranslation({
 }
 
 /** Optional help for typing Bengali; closed by default so it never gives answers away. */
-function TypingHelp() {
+export function TypingHelp() {
   const [open, setOpen] = useState(false);
   const id = useId();
   return (

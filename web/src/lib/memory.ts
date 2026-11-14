@@ -26,7 +26,9 @@ export function setMemoryStore(s: ProgressStore): void {
 function trimExercise(ex: Exercise): Partial<Exercise> {
   const out: Record<string, unknown> = { id: ex.id, type: ex.type };
   if ("prompt" in ex && ex.prompt) out.prompt = { bn: ex.prompt.bn };
-  if (ex.type === "listen_select" && ex.audio) out.audio = { bn: ex.audio.bn };
+  if ((ex.type === "listen_select" || ex.type === "listen_meaning") && ex.audio) out.audio = { bn: ex.audio.bn };
+  if (ex.type === "fill_blank") out.blank = ex.blank;
+  if (ex.type === "reading" && Array.isArray(ex.lines)) out.lines = ex.lines.map((l) => ({ bn: l?.bn }));
   if (ex.type === "match_pairs" && Array.isArray(ex.pairs)) out.pairs = ex.pairs.map((p) => ({ bn: p?.bn }));
   if (ex.type === "script_recognize") out.glyph = ex.glyph;
   return out as Partial<Exercise>;

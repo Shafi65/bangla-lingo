@@ -8,7 +8,9 @@
 //     "<lessonId>:rv~<n>~<wordId>" (the player reports practice items under the
 //     part before the first ":", so the word id survives either way).
 //   - Otherwise the tested strings are: prompt.bn (select/type/word bank),
-//     audio.bn (listen), every pair's bn (match pairs), glyph (script).
+//     audio.bn (listen_select, listen_meaning), every pair's bn (match pairs),
+//     glyph (script), the blank (fill_blank: only the missing word, not the
+//     rest of the sentence) and every line's bn (reading).
 //   - A string that is itself a lexicon entry maps to that entry. A sentence is
 //     scanned token by token for lexicon entries (multi-word entries match as
 //     contiguous runs; longest match wins).
@@ -113,6 +115,12 @@ export function testedStrings(ex: Exercise): string[] {
       return [ex.audio?.bn].filter((s): s is string => typeof s === "string");
     case "match_pairs":
       return (ex.pairs ?? []).map((p) => p?.bn).filter((s): s is string => typeof s === "string");
+    case "fill_blank":
+      return typeof ex.blank === "string" ? [ex.blank] : [];
+    case "listen_meaning":
+      return [ex.audio?.bn].filter((s): s is string => typeof s === "string");
+    case "reading":
+      return (ex.lines ?? []).map((l) => l?.bn).filter((s): s is string => typeof s === "string");
     case "script_recognize":
       return typeof ex.glyph === "string" ? [ex.glyph] : [];
     default:

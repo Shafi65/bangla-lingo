@@ -194,6 +194,81 @@ export function speak(bn: string, { slow = false }: { slow?: boolean } = {}): bo
   return true;
 }
 
+/**
+ * Speak several lines one after another (a dialogue). Lines that cannot be
+ * spoken are skipped. Starting any other clip, or calling the returned `stop`,
+ * ends the queue. `onLine(i)` fires as each line starts; `onEnd` once at the end.
+ */
+export function speakQueue(
+  lines: readonly string[],
+  { onLine, onEnd }: { onLine?: (i: number) => void; onEnd?: () => void } = {},
+): () => void {
+  let stopped = false;
+  const finish = () => {
+    if (stopped) return;
+    stopped = true;
+    onEnd?.();
+  };
+  const stop = () => {
+    if (stopped) return;
+    audioEl?.pause();
+    synth()?.cancel();
+    finish();
+  };
+  const waitFor = (text: string) =>
+    new Promise<boolean>((resolve) => {
+      // resolves true when the line finished by itself, false when something interrupted it
+      const clip = MANIFEST.items[audioKey(text)] && audioEl;
+      if (clip) {
+        const a = clip;
+        const done = (ok: boolean) => {
+          a.removeEventListener("ended", onEnded);
+          a.removeEventListener("playing", onPlaying);
+          a.removeEventListener("pause", onPause);
+          a.removeEventListener("error", onErr);
+          window.clearTimeout(guard);
+          resolve(ok);
+        };
+        const onEnded = () => done(true);
+        let started = false; // a pause fired by the clip swap before playback begins is not an interruption
+        const onPlaying = () => {
+          started = true;
+        };
+        const onPause = () => {
+          if (started && !a.ended) done(false);
+        };
+        const onErr = () => done(false);
+        a.addEventListener("ended", onEnded);
+        a.addEventListener("playing", onPlaying);
+        a.addEventListener("pause", onPause);
+        a.addEventListener("error", onErr);
+        const guard = window.setTimeout(() => done(false), 30_000);
+        return;
+      }
+      // Device voice: poll until the engine goes quiet.
+      const s = synth();
+      let ticks = 0;
+      const poll = window.setInterval(() => {
+        ticks++;
+        const busy = !!s && (s.speaking || s.pending);
+        if ((!busy && ticks > 3) || ticks > 300) {
+          window.clearInterval(poll);
+          resolve(!stopped);
+        }
+      }, 100);
+    });
+  void (async () => {
+    for (let i = 0; i < lines.length && !stopped; i++) {
+      onLine?.(i);
+      if (!speak(lines[i])) continue;
+      if (!(await waitFor(lines[i]))) break;
+      if (!stopped) await new Promise((r) => window.setTimeout(r, 250));
+    }
+    finish();
+  })();
+  return stop;
+}
+
 // ---------------------------------------------------------------------------
 // React hooks
 

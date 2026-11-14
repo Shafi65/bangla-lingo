@@ -13,6 +13,7 @@
 import "server-only";
 import fs from "node:fs";
 import path from "node:path";
+import { splitAtBlank } from "./fillBlank";
 import type {
   CourseDef,
   CourseSummary,
@@ -36,7 +37,56 @@ const EXERCISE_TYPES = new Set<Exercise["type"]>([
   "listen_select",
   "type_translation",
   "script_recognize",
+  "fill_blank",
+  "listen_meaning",
+  "reading",
 ]);
+
+const isStr = (v: unknown): v is string => typeof v === "string" && v.trim().length > 0;
+const isBnText = (v: unknown): boolean => {
+  const t = v as { bn?: unknown; tr?: unknown; en?: unknown } | null;
+  return !!t && isStr(t.bn) && isStr(t.tr) && isStr(t.en);
+};
+const isChoice = (e: { options?: unknown; answer?: unknown }): boolean =>
+  Array.isArray(e.options) &&
+  e.options.length >= 2 &&
+  e.options.every(isStr) &&
+  Number.isInteger(e.answer) &&
+  (e.answer as number) >= 0 &&
+  (e.answer as number) < e.options.length;
+
+/**
+ * Structural check for the sentence-level types, so malformed content is
+ * skipped at build time instead of crashing the player. (The six original
+ * types keep their light check: id + known type.)
+ */
+function isWellFormedSentenceType(e: Exercise): boolean {
+  switch (e.type) {
+    case "fill_blank":
+      return (
+        isBnText(e.sentence) &&
+        isStr(e.blank) &&
+        splitAtBlank(e.sentence.bn, e.blank) !== null &&
+        (e.options !== undefined
+          ? isChoice(e)
+          : Array.isArray(e.accepted) && e.accepted.length > 0 && e.accepted.every(isStr))
+      );
+    case "listen_meaning":
+      return isBnText(e.audio) && isChoice(e);
+    case "reading":
+      return (
+        Array.isArray(e.lines) &&
+        e.lines.length >= 2 &&
+        e.lines.length <= 8 &&
+        e.lines.every((l) => isBnText(l) && (l.speaker === undefined || isStr(l.speaker))) &&
+        isStr(e.question) &&
+        (e.questionBn === undefined || isBnText(e.questionBn)) &&
+        isChoice(e)
+      );
+    default:
+      return true;
+  }
+}
 
 function warn(msg: string) {
   console.warn(`[content] ${msg}`);
@@ -75,7 +125,8 @@ function isLesson(v: unknown): v is Lesson {
     Array.isArray(l.exercises) &&
     l.exercises.length > 0 &&
     l.exercises.every(
-      (e) => typeof e?.id === "string" && EXERCISE_TYPES.has(e.type),
+      (e) =>
+        typeof e?.id === "string" && EXERCISE_TYPES.has(e.type) && isWellFormedSentenceType(e),
     )
   );
 }

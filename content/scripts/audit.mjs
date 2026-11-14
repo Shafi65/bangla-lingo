@@ -3,8 +3,10 @@
 // Usage: npm run audit [-- --words] [-- --json]
 //   --words  list every under-recycled word
 //   --json   machine-readable output
+import fs from "node:fs";
+import path from "node:path";
 import {
-  CORE_POS, exerciseText, findProductionFirst, findUntaught, hasForm, isRecycle, loadAll, loadLessons,
+  CORE_POS, ROOT, exerciseText, findProductionFirst, findUntaught, hasForm, isRecycle, loadAll, loadLessons,
   reviewCoverage, targetCounts,
 } from "./lib.mjs";
 
@@ -39,11 +41,16 @@ const load = lessons.map((l) => ({ id: l.id, n: l.data.vocab.length, track: l.un
 const heavy = load.filter((l) => l.n > 10);
 
 // ---- 3. Skill balance (recycle-tagged exercises are counted separately)
+const SENTENCE_TYPES = ["fill_blank", "listen_meaning", "reading"];
+let clips = new Set();
+try { clips = new Set(Object.keys(JSON.parse(fs.readFileSync(path.join(ROOT, "audio", "manifest.json"), "utf8")).items ?? {})); } catch { /* no manifest */ }
+const hasClip = (bn) => clips.has(String(bn).normalize("NFC").trim());
+const sent = { fillChoice: 0, fillTyped: 0, listenMeaning: 0, reading: 0, withClips: 0 };
 const mix = {}; let b2e = 0, e2b = 0, typedBn = 0, total = 0, recycleCount = 0;
 const recycleMix = {};
 const perUnit = new Map();
 for (const l of lessons) {
-  const u = perUnit.get(l.unit.id) ?? { lessons: 0, ex: 0, produce: 0, listen: 0, typedBn: 0, recycle: 0 };
+  const u = perUnit.get(l.unit.id) ?? { lessons: 0, ex: 0, produce: 0, listen: 0, typedBn: 0, recycle: 0, sentListen: 0 };
   u.lessons++;
   for (const ex of l.data.exercises) {
     if (isRecycle(ex)) {
@@ -57,6 +64,14 @@ for (const l of lessons) {
     if (ex.direction === "bn_to_en") b2e++;
     if (ex.direction === "en_to_bn") { e2b++; u.produce++; }
     if (ex.type === "listen_select") u.listen++;
+    if (ex.type === "fill_blank") sent[ex.options ? "fillChoice" : "fillTyped"]++;
+    // sentence-level listening: hear (listen_meaning) or read-with-audio (reading) whole sentences
+    if (ex.type === "listen_meaning" || ex.type === "reading") {
+      sent[ex.type === "reading" ? "reading" : "listenMeaning"]++;
+      u.sentListen++;
+      const texts = ex.type === "reading" ? (ex.lines ?? []).map((x) => x.bn) : [ex.audio?.bn];
+      if (texts.every(hasClip)) sent.withClips++;
+    }
     if (ex.type === "type_translation" && ex.direction === "en_to_bn") { typedBn++; u.typedBn++; }
   }
   perUnit.set(l.unit.id, u);
@@ -81,6 +96,7 @@ const report = {
   recycling: { words: eligible.length, neverReused: never.length, under3LaterLessons: under3.length, coreUnder3: coreUnder3.length },
   load: { heavyLessons: heavy },
   balance: { mix, bnToEn: b2e, enToBn: e2b, typedEnToBn: typedBn },
+  sentenceLevel: { ...sent, listening: sent.listenMeaning + sent.reading, listeningShare: Math.round((100 * (sent.listenMeaning + sent.reading)) / Math.max(1, total)) },
   recycleBalance: recycleMix,
   productionFirst: productionFirst.length,
   untaughtTokens: untaught.length,
@@ -105,8 +121,11 @@ console.log(`  over 10: ${heavy.map((l) => `${l.id} (${l.n})`).join(", ") || "no
 console.log("\nSKILL BALANCE (hand-written exercises only)");
 console.log(`  ${Object.entries(mix).map(([k, v]) => `${k} ${v} (${pct(v, total)})`).join(" · ")}`);
 console.log(`  Bengali→English ${b2e} · English→Bengali ${e2b} (${pct(e2b, b2e + e2b)} of directed; target ≥40%) · typed English→Bengali ${typedBn} (${pct(typedBn, total)}; target ≥5%)`);
+const sentListen = sent.listenMeaning + sent.reading;
+console.log(`  sentence-level: fill_blank ${sent.fillChoice} choose + ${sent.fillTyped} typed · listen_meaning ${sent.listenMeaning} · reading ${sent.reading}`);
+console.log(`  sentence-level listening (listen_meaning + reading): ${sentListen} (${pct(sentListen, total)} of exercises), ${sent.withClips} with recorded clips for all their Bengali`);
 console.log("  per unit (production share · listening share · typed en→bn):");
-for (const [id, u] of perUnit) console.log(`    ${id.padEnd(20)} ${pct(u.produce, u.ex).padStart(4)} · ${pct(u.listen, u.ex).padStart(4)} · ${u.typedBn}`);
+for (const [id, u] of perUnit) console.log(`    ${id.padEnd(20)} ${pct(u.produce, u.ex).padStart(4)} · ${pct(u.listen, u.ex).padStart(4)} · ${u.typedBn}${u.sentListen ? `   (+ sentence-level listening ${pct(u.sentListen, u.ex)})` : ""}`);
 console.log(`  recycle exercises (separate): ${recycleCount}${recycleCount ? " — " + Object.entries(recycleMix).map(([k, v]) => `${k} ${v}`).join(" · ") : ""}`);
 
 console.log("\nLESSON SHAPE");

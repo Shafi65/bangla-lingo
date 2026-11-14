@@ -15,9 +15,12 @@ import { Feedback } from "./Feedback";
 import { LessonEnvContext } from "./LessonEnv";
 import { MiniMarkdown } from "./MiniMarkdown";
 import { TipDialog } from "./TipDialog";
+import { FillBlank } from "./exercises/FillBlank";
+import { ListenMeaning } from "./exercises/ListenMeaning";
 import { ListenSelect } from "./exercises/ListenSelect";
 import { MatchPairs } from "./exercises/MatchPairs";
 import { ScriptRecognize } from "./exercises/ScriptRecognize";
+import { Reading } from "./exercises/Reading";
 import { SelectTranslation } from "./exercises/SelectTranslation";
 import { TypeTranslation } from "./exercises/TypeTranslation";
 import { WordBank } from "./exercises/WordBank";
@@ -221,7 +224,7 @@ function LessonRun({
         footerRef={footerRef}
         result={result}
         hint={
-          ex.type === "type_translation"
+          ex.type === "type_translation" || (ex.type === "fill_blank" && !ex.options)
             ? "Press Enter to check"
             : ex.type === "match_pairs"
               ? "Match every pair, then check"
@@ -329,6 +332,12 @@ function ExerciseView(props: ExerciseProps<Exercise>) {
       return <TypeTranslation {...props} ex={ex} />;
     case "script_recognize":
       return <ScriptRecognize {...props} ex={ex} />;
+    case "fill_blank":
+      return <FillBlank {...props} ex={ex} />;
+    case "listen_meaning":
+      return <ListenMeaning {...props} ex={ex} />;
+    case "reading":
+      return <Reading {...props} ex={ex} />;
   }
 }
 

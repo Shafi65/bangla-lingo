@@ -3,7 +3,10 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
-export const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
+// CONTENT_DIR overrides the content root (the validator tests point it at small temp dirs).
+export const ROOT = process.env.CONTENT_DIR
+  ? path.resolve(process.env.CONTENT_DIR)
+  : path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 export const BENGALI = /[ঀ-৿]/;
 export const POS = new Set([
   "noun", "pronoun", "verb", "adj", "adv", "postposition", "particle",
@@ -27,6 +30,23 @@ export function tokenize(s) {
     .replace(/[।॥?!,.;:"“”'‘’()—–]/g, " ")
     .split(/\s+/)
     .filter(Boolean);
+}
+/**
+ * Start indexes of the whole-token-sequence occurrences of `blank` in `sentence` (fill_blank).
+ * "ভালো" does not match inside "ভালোবাসি"; punctuation such as । or , ends a token.
+ */
+export function blankOccurrences(sentence, blank) {
+  const s = String(sentence).normalize("NFC");
+  const b = String(blank).normalize("NFC").trim().replace(/\s+/g, " ");
+  const edge = /[\s।॥?!,.;:"“”'‘’()—–]/;
+  const out = [];
+  if (!b) return out;
+  for (let i = s.indexOf(b); i >= 0; i = s.indexOf(b, i + 1)) {
+    const before = i === 0 ? "" : s[i - 1];
+    const after = i + b.length >= s.length ? "" : s[i + b.length];
+    if ((!before || edge.test(before)) && (!after || edge.test(after))) out.push(i);
+  }
+  return out;
 }
 /** Split an English sentence into word-bank tiles. */
 export function enTiles(s) {
@@ -152,6 +172,8 @@ export function exerciseTokens(ex) {
   const out = [];
   const add = (s) => typeof s === "string" && BENGALI.test(s) && out.push(...tokenize(s).filter((t) => BENGALI.test(t)));
   add(ex.prompt?.bn); add(ex.audio?.bn); add(ex.glyph);
+  add(ex.sentence?.bn); add(ex.questionBn?.bn);
+  for (const l of ex.lines ?? []) add(l.bn);
   for (const o of ex.options ?? []) add(o);
   for (const t of ex.tiles ?? []) add(t);
   for (const p of ex.pairs ?? []) add(p.bn);
@@ -171,6 +193,9 @@ export function exerciseTargetText(ex) {
   const add = (s) => typeof s === "string" && BENGALI.test(s) && parts.push(...tokenize(s).filter((t) => BENGALI.test(t)));
   add(ex.prompt?.bn); add(ex.audio?.bn); add(ex.glyph);
   for (const p of ex.pairs ?? []) add(p.bn);
+  // sentence-level types: the blank only (not the rest of the sentence); every line of a reading text
+  if (ex.type === "fill_blank") add(ex.blank);
+  for (const l of ex.lines ?? []) add(l.bn);
   if (ex.type === "select_translation" && ex.direction === "en_to_bn") add(ex.options?.[ex.answer]);
   if (ex.type === "listen_select") add(ex.options?.[ex.answer]);
   if (ex.type === "word_bank" && ex.direction === "en_to_bn") add((ex.answer ?? []).join(" "));
@@ -250,7 +275,9 @@ export function findUntaught(ctx, lessons) {
   return out;
 }
 
-const RECOG = new Set(["select_translation:bn_to_en", "match_pairs:", "listen_select:", "script_recognize:"]);
+// listen_meaning and reading are recognition. A fill_blank is production only for the word that is the blank
+// (typed or chosen from Bengali options); words that merely sit in its sentence are context, like en_to_bn distractors.
+const RECOG = new Set(["select_translation:bn_to_en", "match_pairs:", "listen_select:", "script_recognize:", "listen_meaning:", "reading:"]);
 /** New vocab whose first exercise (ignoring recycle exercises) is production. [{lesson, word, ex, type, track}] */
 export function findProductionFirst(lessons) {
   const out = [];
@@ -261,7 +288,8 @@ export function findProductionFirst(lessons) {
       if (!first) continue;
       const key = `${first.type}:${first.direction ?? ""}`;
       const isTarget = first.prompt?.bn?.includes(v.bn) || first.audio?.bn?.includes(v.bn) || first.glyph === v.bn || (first.pairs ?? []).some((p) => p.bn === v.bn);
-      if (!RECOG.has(key) && !(key === "select_translation:en_to_bn" && !isTarget))
+      const contextOnly = first.type === "fill_blank" && !hasForm(` ${tokenize(first.blank ?? "").join(" ")} `, v.bn);
+      if (!RECOG.has(key) && !contextOnly && !(key === "select_translation:en_to_bn" && !isTarget))
         out.push({ lesson: l.id, word: v.id, ex: first.id, type: first.type, track: l.unit.track });
     }
   }

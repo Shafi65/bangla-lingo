@@ -33,7 +33,9 @@ export function Feedback({
       {sol && (
         <div className="flex min-w-0 flex-col gap-1">
           {!correct && <div className="font-extrabold">The answer is:</div>}
-          {"glyph" in sol ? (
+          {"answer" in sol ? (
+            !correct && <div className="text-lg font-bold text-pretty text-ink">{sol.answer}</div>
+          ) : "glyph" in sol ? (
             <div className="flex items-center gap-3">
               <span lang="bn" className="bn-display text-4xl font-bold text-ink">{sol.glyph}</span>
               <span className="text-lg font-bold text-ink">sounds like “{sol.sound}”</span>
