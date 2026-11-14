@@ -1,11 +1,21 @@
 name: CI
+
+# Manual only while the GitHub account has a billing lock (failures were emailing the owner).
+# To re-enable automatic runs, replace the `on:` block below with:
+#
+#   on:
+#     push:
+#       branches: [main]
+#     pull_request:
+#     workflow_dispatch:
+#
 on:
-  # Manual only while the GitHub account has a billing lock (failures were emailing the owner).
-  # To restore automatic runs, put back: push (branches: [main]) and pull_request.
   workflow_dispatch:
+
 jobs:
-  validate-and-build:
+  validate-test-build:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -13,10 +23,44 @@ jobs:
           node-version: 22
           cache: npm
           cache-dependency-path: web/package-lock.json
-      - run: npm run validate
-      - run: npm ci
+
+      - name: Install web dependencies
+        run: npm ci
         working-directory: web
-      - run: npm run lint
+
+      - name: Validate content
+        run: npm run validate
+      - name: Validate content (strict)
+        run: npm run validate:strict
+
+      - name: Lint
+        run: npm run lint
         working-directory: web
-      - run: npm run build
+
+      - name: Unit tests
+        run: npm test
         working-directory: web
+
+      - name: Build
+        run: npm run build
+        working-directory: web
+
+      - name: Install Playwright browser
+        run: npx playwright install --with-deps chromium
+        working-directory: web
+        # Fallback: hosted runners usually ship /usr/bin/google-chrome (used automatically by
+        # playwright.config.ts); this makes Playwright's own Chromium available if not.
+
+      - name: End-to-end tests
+        run: npm run test:e2e
+        working-directory: web
+        env:
+          E2E_SKIP_BUILD: "1" # reuse the build from the previous step
+
+      - name: Upload Playwright traces on failure
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: playwright-results
+          path: web/node_modules/.cache/playwright-results
+          if-no-files-found: ignore
