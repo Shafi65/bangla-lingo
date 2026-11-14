@@ -350,37 +350,37 @@
     },
     {
       "id": "r01",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "দুই",
         "tr": "dui",
         "en": "two"
       },
+      "direction": "bn_to_en",
       "options": [
-        "দুই",
-        "দুইজন",
-        "এগারো",
-        "একটা"
+        "one; a",
+        "two",
+        "eleven",
+        "four"
       ],
-      "answer": 0,
+      "answer": 1,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "নয়",
         "tr": "noy",
         "en": "nine"
       },
-      "direction": "en_to_bn",
       "options": [
-        "নয়",
-        "আট",
         "বারো",
-        "তিন"
+        "পনেরো",
+        "নয়",
+        "চৌদ্দ"
       ],
-      "answer": 0,
+      "answer": 2,
       "recycle": true
     },
     {
@@ -391,20 +391,25 @@
         "tr": "at",
         "en": "eight"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "two (things)",
-        "three",
-        "twelve",
-        "eight"
+        "আট",
+        "সাত",
+        "নয়",
+        "দুই"
       ],
-      "answer": 3,
+      "answer": 0,
       "recycle": true
     },
     {
       "id": "r04",
       "type": "match_pairs",
       "pairs": [
+        {
+          "bn": "মজার",
+          "tr": "mojar",
+          "en": "tasty"
+        },
         {
           "bn": "দুইটা",
           "tr": "duita",
@@ -419,11 +424,6 @@
           "bn": "ওর",
           "tr": "or",
           "en": "his/her (spoken)"
-        },
-        {
-          "bn": "মজার",
-          "tr": "mojar",
-          "en": "tasty"
         }
       ],
       "recycle": true
@@ -433,9 +433,9 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "কোথা",
-          "tr": "kotha",
-          "en": "where (before থেকে)"
+          "bn": "বউ",
+          "tr": "bou",
+          "en": "wife"
         },
         {
           "bn": "মজা",
@@ -443,9 +443,9 @@
           "en": "fun; tasty"
         },
         {
-          "bn": "বউ",
-          "tr": "bou",
-          "en": "wife"
+          "bn": "কোথা",
+          "tr": "kotha",
+          "en": "where (before থেকে)"
         },
         {
           "bn": "কে",

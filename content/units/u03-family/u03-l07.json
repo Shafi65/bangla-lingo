@@ -380,49 +380,49 @@
         "tr": "jani",
         "en": "(I) know"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "(you, polite) have come",
-        "are (polite)",
-        "(I) know",
-        "is not / are not (polite)"
+        "এসেছেন",
+        "আছেন",
+        "জানি",
+        "নন"
       ],
       "answer": 2,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "জানেন",
         "tr": "janen",
         "en": "(you, polite) know"
       },
+      "direction": "bn_to_en",
       "options": [
-        "নেই",
-        "আছি",
-        "এসেছেন",
-        "জানেন"
+        "are not (familiar)",
+        "(you, polite) know",
+        "(you, polite) have come",
+        "am not"
       ],
-      "answer": 3,
+      "answer": 1,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "আচ্ছা",
         "tr": "achchha",
         "en": "OK"
       },
-      "direction": "en_to_bn",
       "options": [
-        "কিন্তু",
-        "কি",
+        "আচ্ছা",
         "আর",
-        "আচ্ছা"
+        "না",
+        "জি"
       ],
-      "answer": 3,
+      "answer": 0,
       "recycle": true
     },
     {
@@ -435,14 +435,14 @@
           "en": "auntie (address)"
         },
         {
-          "bn": "মানে",
-          "tr": "mane",
-          "en": "meaning"
-        },
-        {
           "bn": "আংকেল",
           "tr": "angkel",
           "en": "uncle (address)"
+        },
+        {
+          "bn": "মানে",
+          "tr": "mane",
+          "en": "meaning"
         },
         {
           "bn": "এসেছি",
@@ -457,9 +457,9 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "আপা",
-          "tr": "apa",
-          "en": "elder sister; ma'am"
+          "bn": "আমাদের",
+          "tr": "amader",
+          "en": "our"
         },
         {
           "bn": "কে",
@@ -472,9 +472,9 @@
           "en": "Bangladeshi"
         },
         {
-          "bn": "আমাদের",
-          "tr": "amader",
-          "en": "our"
+          "bn": "আপা",
+          "tr": "apa",
+          "en": "elder sister; ma'am"
         }
       ],
       "recycle": true

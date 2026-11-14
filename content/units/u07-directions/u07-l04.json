@@ -337,42 +337,42 @@
         "tr": "niche",
         "en": "downstairs"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "upstairs",
-        "downstairs",
-        "from",
-        "next to"
+        "উপরে",
+        "নিচে",
+        "থেকে",
+        "পাশে"
       ],
       "answer": 1,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "ভিতরে",
         "tr": "bhitore",
         "en": "inside"
       },
+      "direction": "bn_to_en",
       "options": [
-        "দিকে",
-        "ভিতরে",
-        "নিচে",
-        "দিয়ে"
+        "way",
+        "inside",
+        "downstairs",
+        "along"
       ],
       "answer": 1,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "কোন",
         "tr": "kon",
         "en": "which"
       },
-      "direction": "en_to_bn",
       "options": [
         "কে",
         "ওরা",
@@ -414,14 +414,14 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "কয়জন",
-          "tr": "koyjon",
-          "en": "how many (people)"
+          "bn": "আমাদের",
+          "tr": "amader",
+          "en": "our"
         },
         {
-          "bn": "দশ",
-          "tr": "dosh",
-          "en": "ten"
+          "bn": "ইলিশের",
+          "tr": "ilisher",
+          "en": "of the hilsa"
         },
         {
           "bn": "আরও",

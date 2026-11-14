@@ -350,13 +350,12 @@
     },
     {
       "id": "r01",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "গরুর",
         "tr": "gorur",
         "en": "cow's"
       },
-      "direction": "en_to_bn",
       "options": [
         "গরুর",
         "বন্ধু",
@@ -374,29 +373,30 @@
         "tr": "bhat",
         "en": "rice"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "grandfather (mother's father)",
-        "water",
-        "elder brother",
-        "rice"
+        "নানা",
+        "পানি",
+        "ভাইয়া",
+        "ভাত"
       ],
       "answer": 3,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "ডাল",
         "tr": "dal",
         "en": "lentils"
       },
+      "direction": "bn_to_en",
       "options": [
-        "মা",
-        "ছাত্র",
-        "ডাক্তার",
-        "ডাল"
+        "mother",
+        "student (male)",
+        "doctor",
+        "lentils"
       ],
       "answer": 3,
       "recycle": true

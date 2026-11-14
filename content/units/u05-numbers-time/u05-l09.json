@@ -351,37 +351,37 @@
     },
     {
       "id": "r01",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "সপ্তাহে",
         "tr": "shoptahe",
         "en": "in a week"
       },
+      "direction": "bn_to_en",
       "options": [
-        "সপ্তাহে",
-        "কাল",
-        "কোথায়",
-        "অবশ্যই"
+        "here",
+        "in a week",
+        "in the evening",
+        "where (before থেকে)"
       ],
-      "answer": 0,
+      "answer": 1,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "বছরে",
         "tr": "bochhore",
         "en": "in a year"
       },
-      "direction": "en_to_bn",
       "options": [
-        "কোথায়",
         "অবশ্যই",
-        "বছরে",
-        "কয়টা"
+        "দুপুরে",
+        "কয়জন",
+        "বছরে"
       ],
-      "answer": 2,
+      "answer": 3,
       "recycle": true
     },
     {
@@ -392,12 +392,12 @@
         "tr": "kal",
         "en": "tomorrow; yesterday"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "in a year",
-        "at noon",
-        "of course",
-        "tomorrow; yesterday"
+        "রাতে",
+        "কয়জন",
+        "খুব",
+        "কাল"
       ],
       "answer": 3,
       "recycle": true
@@ -407,14 +407,14 @@
       "type": "match_pairs",
       "pairs": [
         {
+          "bn": "প্রথম",
+          "tr": "prothom",
+          "en": "first"
+        },
+        {
           "bn": "বছর",
           "tr": "bochhor",
           "en": "year"
-        },
-        {
-          "bn": "দিন",
-          "tr": "din",
-          "en": "day"
         },
         {
           "bn": "মাস",
@@ -422,9 +422,9 @@
           "en": "month"
         },
         {
-          "bn": "বাজে",
-          "tr": "baje",
-          "en": "strikes (the hour)"
+          "bn": "আড়াইটা",
+          "tr": "araita",
+          "en": "half past two"
         }
       ],
       "recycle": true
@@ -434,24 +434,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "আড়াইটা",
-          "tr": "araita",
-          "en": "half past two"
+          "bn": "দিন",
+          "tr": "din",
+          "en": "day"
         },
         {
-          "bn": "আড়াই",
-          "tr": "arai",
-          "en": "two and a half"
+          "bn": "দেড়",
+          "tr": "der",
+          "en": "one and a half"
         },
         {
-          "bn": "সাড়ে",
-          "tr": "share",
-          "en": "half past"
+          "bn": "দেড়টা",
+          "tr": "derta",
+          "en": "half past one"
         },
         {
-          "bn": "প্রথম",
-          "tr": "prothom",
-          "en": "first"
+          "bn": "সোয়া",
+          "tr": "shoya",
+          "en": "quarter past"
         }
       ],
       "recycle": true

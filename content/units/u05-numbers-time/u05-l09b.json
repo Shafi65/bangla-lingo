@@ -25,22 +25,6 @@
     },
     {
       "id": "e02",
-      "type": "listen_select",
-      "audio": {
-        "bn": "আড়াই",
-        "tr": "arai",
-        "en": "two and a half"
-      },
-      "options": [
-        "দেড়",
-        "দেড়টা",
-        "আড়াই",
-        "আড়াইটা"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "e03",
       "type": "select_translation",
       "prompt": {
         "bn": "পৌনে দশটা বাজে।",
@@ -58,7 +42,40 @@
       "why": "**পৌনে** = quarter *to*; **সোয়া** = quarter *past*."
     },
     {
+      "id": "e03",
+      "type": "listen_select",
+      "audio": {
+        "bn": "আড়াই",
+        "tr": "arai",
+        "en": "two and a half"
+      },
+      "options": [
+        "দেড়",
+        "দেড়টা",
+        "আড়াই",
+        "আড়াইটা"
+      ],
+      "answer": 2
+    },
+    {
       "id": "e04",
+      "type": "listen_select",
+      "audio": {
+        "bn": "রাতে",
+        "tr": "rate",
+        "en": "at night"
+      },
+      "options": [
+        "রাত",
+        "দুপুরে",
+        "রাতে",
+        "সকালে"
+      ],
+      "answer": 2,
+      "why": "**রাত** is 'night'; with **-এ** it becomes **রাতে** 'at night'."
+    },
+    {
+      "id": "e05",
       "type": "match_pairs",
       "pairs": [
         {
@@ -85,37 +102,6 @@
           "bn": "রাত",
           "tr": "rat",
           "en": "night"
-        }
-      ]
-    },
-    {
-      "id": "e05",
-      "type": "match_pairs",
-      "pairs": [
-        {
-          "bn": "সকালে",
-          "tr": "shokale",
-          "en": "in the morning"
-        },
-        {
-          "bn": "দুপুরে",
-          "tr": "dupure",
-          "en": "at noon"
-        },
-        {
-          "bn": "বিকালে",
-          "tr": "bikale",
-          "en": "in the afternoon"
-        },
-        {
-          "bn": "সন্ধ্যায়",
-          "tr": "shondhay",
-          "en": "in the evening"
-        },
-        {
-          "bn": "রাতে",
-          "tr": "rate",
-          "en": "at night"
         }
       ]
     },
@@ -155,45 +141,9 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "শুক্রবার",
-          "tr": "shukrobar",
-          "en": "Friday"
-        },
-        {
-          "bn": "শনিবার",
-          "tr": "shonibar",
-          "en": "Saturday"
-        },
-        {
-          "bn": "আজ",
-          "tr": "aj",
-          "en": "today"
-        },
-        {
-          "bn": "কাল",
-          "tr": "kal",
-          "en": "tomorrow; yesterday"
-        },
-        {
-          "bn": "সপ্তাহে",
-          "tr": "shoptahe",
-          "en": "in a week"
-        }
-      ]
-    },
-    {
-      "id": "e08",
-      "type": "match_pairs",
-      "pairs": [
-        {
-          "bn": "সময়",
-          "tr": "shomoy",
-          "en": "time"
-        },
-        {
-          "bn": "ঘণ্টা",
-          "tr": "ghonta",
-          "en": "hour"
+          "bn": "মাস",
+          "tr": "mash",
+          "en": "month"
         },
         {
           "bn": "মিনিট",
@@ -201,55 +151,24 @@
           "en": "minute"
         },
         {
-          "bn": "মাস",
-          "tr": "mash",
-          "en": "month"
+          "bn": "সপ্তাহে",
+          "tr": "shoptahe",
+          "en": "in a week"
         },
         {
-          "bn": "বছর",
-          "tr": "bochhor",
-          "en": "year"
+          "bn": "দিন",
+          "tr": "din",
+          "en": "day"
+        },
+        {
+          "bn": "বছরে",
+          "tr": "bochhore",
+          "en": "in a year"
         }
       ]
     },
     {
-      "id": "e09",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "আড়াইটা বাজে।",
-        "tr": "araita baje.",
-        "en": "It's half past two."
-      },
-      "direction": "en_to_bn",
-      "options": [
-        "সাড়ে দুইটা বাজে।",
-        "দেড়টা বাজে।",
-        "আড়াইটা বাজে।",
-        "সোয়া দুইটা বাজে।"
-      ],
-      "answer": 2,
-      "why": "2:30 is **আড়াইটা** and 1:30 is **দেড়টা**; সাড়ে is used from 3:30."
-    },
-    {
-      "id": "e10",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "আমি সকালে চা খাই।",
-        "tr": "ami shokale cha khai.",
-        "en": "I drink tea in the morning."
-      },
-      "direction": "en_to_bn",
-      "options": [
-        "আমি সকাল চা খাই।",
-        "আমি রাতে চা খাই।",
-        "আমি সকালে চা খান।",
-        "আমি সকালে চা খাই।"
-      ],
-      "answer": 3,
-      "why": "'In the morning' takes the locative: সকাল + **-এ** = সকালে."
-    },
-    {
-      "id": "e11",
+      "id": "e08",
       "type": "word_bank",
       "prompt": {
         "bn": "এখন সাড়ে পাঁচটা বাজে।",
@@ -292,7 +211,7 @@
       ]
     },
     {
-      "id": "e12",
+      "id": "e09",
       "type": "word_bank",
       "prompt": {
         "bn": "আমার দেড় ঘণ্টা সময় আছে।",
@@ -323,7 +242,7 @@
       ]
     },
     {
-      "id": "e13",
+      "id": "e10",
       "type": "word_bank",
       "prompt": {
         "bn": "সোয়া বারোটা বাজে।",
@@ -347,7 +266,7 @@
       "why": "Clock hours take **-টা**: বারোটা; bare বারো is just 'twelve'."
     },
     {
-      "id": "e14",
+      "id": "e11",
       "type": "word_bank",
       "prompt": {
         "bn": "শুক্রবার দুপুরে আমরা বিরিয়ানি খাই।",
@@ -383,6 +302,74 @@
       ]
     },
     {
+      "id": "e12",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আজ শুক্রবার, কাল শনিবার।",
+        "tr": "aj shukrobar, kal shonibar.",
+        "en": "Today is Friday, tomorrow is Saturday."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "কাল",
+        "শনিবার",
+        "বছর",
+        "আজ",
+        "বৃহস্পতিবার",
+        "শুক্রবার"
+      ],
+      "answer": [
+        "আজ",
+        "শুক্রবার",
+        "কাল",
+        "শনিবার"
+      ],
+      "alt": [
+        [
+          "কাল",
+          "শনিবার",
+          "আজ",
+          "শুক্রবার"
+        ]
+      ],
+      "why": "**আজ** is 'today'; **কাল** with no verb is 'tomorrow'."
+    },
+    {
+      "id": "e13",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আমি সন্ধ্যায় চা খাই।",
+        "tr": "ami shondhay cha khai.",
+        "en": "I drink tea in the evening."
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "আমি সন্ধ্যা চা খাই।",
+        "আমি সন্ধ্যায় চা খাই।",
+        "আমি সকালে চা খাই।",
+        "আমি সন্ধ্যায় চা খান।"
+      ],
+      "answer": 1,
+      "why": "'In the evening' is সন্ধ্যা + **-য়** = **সন্ধ্যায়**, and **আমি** takes **খাই**."
+    },
+    {
+      "id": "e14",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আড়াইটা বাজে।",
+        "tr": "araita baje.",
+        "en": "It's half past two."
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "আড়াইটা বাজে।",
+        "araita baje",
+        "araaita baje",
+        "arai ta baje"
+      ],
+      "why": "2:30 is **আড়াইটা**, and clock times end in **বাজে**; সাড়ে is used from 3:30."
+    },
+    {
       "id": "e15",
       "type": "type_translation",
       "prompt": {
@@ -403,6 +390,23 @@
     },
     {
       "id": "r01",
+      "type": "listen_select",
+      "audio": {
+        "bn": "বিকালে",
+        "tr": "bikale",
+        "en": "in the afternoon"
+      },
+      "options": [
+        "বছরে",
+        "বিকালে",
+        "কোথায়",
+        "খুব"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r02",
       "type": "select_translation",
       "prompt": {
         "bn": "কলাটা",
@@ -411,16 +415,16 @@
       },
       "direction": "en_to_bn",
       "options": [
+        "ভাত",
+        "মাছ",
         "কলাটা",
-        "শিক্ষক",
-        "সময়",
-        "পানি"
+        "বাবা"
       ],
-      "answer": 0,
+      "answer": 2,
       "recycle": true
     },
     {
-      "id": "r02",
+      "id": "r03",
       "type": "select_translation",
       "prompt": {
         "bn": "কলাগুলো",
@@ -429,29 +433,12 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "need",
-        "student (female)",
-        "Tuesday",
-        "the bananas"
+        "wife",
+        "the bananas",
+        "day (of the week)",
+        "uncle (fufu's husband)"
       ],
-      "answer": 3,
-      "recycle": true
-    },
-    {
-      "id": "r03",
-      "type": "listen_select",
-      "audio": {
-        "bn": "আমগুলো",
-        "tr": "amgulo",
-        "en": "the mangoes"
-      },
-      "options": [
-        "বউ",
-        "আম্মু",
-        "মিনিট",
-        "আমগুলো"
-      ],
-      "answer": 3,
+      "answer": 1,
       "recycle": true
     },
     {
@@ -459,14 +446,14 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "সমস্যা",
-          "tr": "shomossha",
-          "en": "problem"
+          "bn": "ফল",
+          "tr": "fol",
+          "en": "fruit"
         },
         {
-          "bn": "পছন্দ",
-          "tr": "pochhondo",
-          "en": "liking"
+          "bn": "আমগুলো",
+          "tr": "amgulo",
+          "en": "the mangoes"
         },
         {
           "bn": "মজা",
@@ -474,9 +461,9 @@
           "en": "fun; tasty"
         },
         {
-          "bn": "ফল",
-          "tr": "fol",
-          "en": "fruit"
+          "bn": "পছন্দ",
+          "tr": "pochhondo",
+          "en": "liking"
         }
       ],
       "recycle": true
@@ -485,6 +472,11 @@
       "id": "r05",
       "type": "match_pairs",
       "pairs": [
+        {
+          "bn": "সমস্যা",
+          "tr": "shomossha",
+          "en": "problem"
+        },
         {
           "bn": "মজার",
           "tr": "mojar",
@@ -499,11 +491,6 @@
           "bn": "ছাড়া",
           "tr": "chhara",
           "en": "without"
-        },
-        {
-          "bn": "খারাপ",
-          "tr": "kharap",
-          "en": "bad"
         }
       ],
       "recycle": true

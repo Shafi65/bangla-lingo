@@ -385,42 +385,42 @@
         "tr": "shohid minar",
         "en": "Shaheed Minar"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "Shaheed Minar",
-        "hello (in reply)",
-        "Eid Mubarak",
-        "Victory Day"
+        "শহীদ মিনার",
+        "ওয়ালাইকুম আসসালাম",
+        "ঈদ মোবারক",
+        "বিজয় দিবস"
       ],
       "answer": 0,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "এখনো না",
         "tr": "ekhono na",
         "en": "not yet"
       },
+      "direction": "bn_to_en",
       "options": [
-        "এখনো না",
-        "পহেলা বৈশাখ",
-        "লাগবে না",
-        "ধন্যবাদ"
+        "not yet",
+        "Pohela Boishakh",
+        "I don't need it",
+        "thank you"
       ],
       "answer": 0,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "সাথে",
         "tr": "shathe",
         "en": "with"
       },
-      "direction": "en_to_bn",
       "options": [
         "পিছনে",
         "দিয়ে",

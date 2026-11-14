@@ -390,20 +390,19 @@
     },
     {
       "id": "r01",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "গিয়েছিলাম",
         "tr": "giyechhilam",
         "en": "I had gone"
       },
-      "direction": "en_to_bn",
       "options": [
-        "খাইনি",
         "গিয়েছিলাম",
-        "এসেছে",
-        "যাব"
+        "করছেন",
+        "গেলাম",
+        "খাইনি"
       ],
-      "answer": 1,
+      "answer": 0,
       "recycle": true
     },
     {
@@ -414,42 +413,38 @@
         "tr": "giyechhilo",
         "en": "had gone"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "I saw",
-        "(I) have come",
-        "had gone",
-        "give (polite)"
+        "গিয়েছিল",
+        "দিন",
+        "দেখে",
+        "করল"
       ],
-      "answer": 2,
+      "answer": 0,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "ছবি",
         "tr": "chhobi",
         "en": "film"
       },
+      "direction": "bn_to_en",
       "options": [
-        "দাদা",
-        "রুটি",
-        "ছবি",
-        "বাচ্চা"
+        "film",
+        "bus",
+        "student (female)",
+        "uncle (father's brother)"
       ],
-      "answer": 2,
+      "answer": 0,
       "recycle": true
     },
     {
       "id": "r04",
       "type": "match_pairs",
       "pairs": [
-        {
-          "bn": "ইতিমধ্যে",
-          "tr": "itimoddhe",
-          "en": "already"
-        },
         {
           "bn": "দেখিনি",
           "tr": "dekhini",
@@ -464,6 +459,11 @@
           "bn": "এখনো",
           "tr": "ekhono",
           "en": "yet"
+        },
+        {
+          "bn": "ইতিমধ্যে",
+          "tr": "itimoddhe",
+          "en": "already"
         }
       ],
       "recycle": true
@@ -472,11 +472,6 @@
       "id": "r05",
       "type": "match_pairs",
       "pairs": [
-        {
-          "bn": "যাইনি",
-          "tr": "jaini",
-          "en": "I didn't go"
-        },
         {
           "bn": "মাজি",
           "tr": "maji",
@@ -491,6 +486,11 @@
           "bn": "খাওনি",
           "tr": "khaoni",
           "en": "you didn't eat (familiar)"
+        },
+        {
+          "bn": "যাইনি",
+          "tr": "jaini",
+          "en": "I didn't go"
         }
       ],
       "recycle": true

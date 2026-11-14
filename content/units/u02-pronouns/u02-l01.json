@@ -351,13 +351,12 @@
     },
     {
       "id": "r01",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "আর",
         "tr": "ar",
         "en": "and"
       },
-      "direction": "en_to_bn",
       "options": [
         "জি",
         "আর",
@@ -375,29 +374,30 @@
         "tr": "khub",
         "en": "very"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "how",
-        "very",
-        "see you again",
-        "yes (polite)"
+        "কেমন",
+        "খুব",
+        "আবার দেখা হবে",
+        "জি"
       ],
       "answer": 1,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "আছি",
         "tr": "achhi",
         "en": "am"
       },
+      "direction": "bn_to_en",
       "options": [
-        "আছি",
-        "আছেন",
-        "আছে",
-        "আছো"
+        "am",
+        "are (polite)",
+        "is (he/she/it)",
+        "are (familiar)"
       ],
       "answer": 0,
       "recycle": true

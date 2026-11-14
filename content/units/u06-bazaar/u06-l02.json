@@ -385,42 +385,42 @@
         "tr": "etar",
         "en": "of this"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "our",
-        "my",
-        "what",
-        "of this"
+        "আমাদের",
+        "আমার",
+        "কী",
+        "এটার"
       ],
       "answer": 3,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "বাজার",
         "tr": "bajar",
         "en": "market"
       },
+      "direction": "bn_to_en",
       "options": [
-        "ডিম",
-        "আন্টি",
-        "বাজার",
-        "পানি"
+        "egg",
+        "auntie (address)",
+        "market",
+        "water"
       ],
       "answer": 2,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "ইলিশের",
         "tr": "ilisher",
         "en": "of the hilsa"
       },
-      "direction": "en_to_bn",
       "options": [
         "পছন্দ",
         "শনিবার",
@@ -435,9 +435,9 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "পৌনে",
-          "tr": "poune",
-          "en": "quarter to"
+          "bn": "সন্ধ্যায়",
+          "tr": "shondhay",
+          "en": "in the evening"
         },
         {
           "bn": "বাজারে",
@@ -462,24 +462,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "সকালে",
-          "tr": "shokale",
-          "en": "in the morning"
+          "bn": "বিকালে",
+          "tr": "bikale",
+          "en": "in the afternoon"
         },
         {
-          "bn": "দুপুরে",
-          "tr": "dupure",
-          "en": "at noon"
+          "bn": "সপ্তাহে",
+          "tr": "shoptahe",
+          "en": "in a week"
         },
         {
-          "bn": "কাল",
-          "tr": "kal",
-          "en": "tomorrow; yesterday"
+          "bn": "বছরে",
+          "tr": "bochhore",
+          "en": "in a year"
         },
         {
-          "bn": "দেড়",
-          "tr": "der",
-          "en": "one and a half"
+          "bn": "আড়াই",
+          "tr": "arai",
+          "en": "two and a half"
         }
       ],
       "recycle": true

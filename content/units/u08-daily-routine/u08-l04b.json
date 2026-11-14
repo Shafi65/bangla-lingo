@@ -370,30 +370,30 @@
     },
     {
       "id": "r01",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "বলেন",
         "tr": "bolen",
         "en": "you speak (polite)"
       },
+      "direction": "bn_to_en",
       "options": [
-        "ঘুমান",
-        "যাই",
-        "থাকি",
-        "বলেন"
+        "I listen",
+        "I watch",
+        "you speak (polite)",
+        "(you, familiar) eat"
       ],
-      "answer": 3,
+      "answer": 2,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "বলি",
         "tr": "boli",
         "en": "I speak"
       },
-      "direction": "en_to_bn",
       "options": [
         "বলি",
         "দিন",
@@ -411,12 +411,12 @@
         "tr": "kore",
         "en": "does"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "comes",
-        "(you, polite) know",
-        "does",
-        "I listen"
+        "আসে",
+        "জানেন",
+        "করে",
+        "শুনি"
       ],
       "answer": 2,
       "recycle": true

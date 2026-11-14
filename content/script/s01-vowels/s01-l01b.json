@@ -1,0 +1,302 @@
+{
+  "id": "s01-l01b",
+  "unit": "s01-vowels",
+  "title": "Vowels 1b: ই ঈ",
+  "status": "draft",
+  "tip": "**ই** and **ঈ** are both `i` as in *see*. Their names are 'short i' (ই) and 'long i' (ঈ), but **in everyday speech they sound the same**. You just learn which one each word is spelled with:\n\n- **ই**লিশ (hilsa), **ই**ট (brick)\n- **ঈ**গল (eagle), **ঈ**দ (Eid)\n\nBecause they sound alike, you will only ever tell them apart by sight, never by ear.\n\n*Culture:* ইলিশ is Bangladesh's national fish, and ঈদ is one of the biggest holidays of the year.",
+  "vocab": [
+    {
+      "id": "l-i",
+      "bn": "ই",
+      "tr": "i",
+      "en": "i as in 'see' (short-i letter)",
+      "notes": "Name: hroshsho-i (হ্রস্ব ই) = 'short i'. Sounds the same as ঈ in modern speech."
+    },
+    {
+      "id": "l-ii",
+      "bn": "ঈ",
+      "tr": "i",
+      "en": "i as in 'see' (long-i letter)",
+      "notes": "Name: dirgho-i (দীর্ঘ ই) = 'long i'. Same sound as ই; only the spelling differs."
+    },
+    {
+      "id": "ilish",
+      "bn": "ইলিশ",
+      "tr": "ilish",
+      "en": "hilsa (fish)",
+      "notes": "Bangladesh's national fish."
+    },
+    {
+      "id": "it",
+      "bn": "ইট",
+      "tr": "it",
+      "en": "brick"
+    },
+    {
+      "id": "igol",
+      "bn": "ঈগল",
+      "tr": "igol",
+      "en": "eagle"
+    },
+    {
+      "id": "id",
+      "bn": "ঈদ",
+      "tr": "id",
+      "en": "Eid"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "script_recognize",
+      "glyph": "ই",
+      "options": [
+        "a (as in 'father')",
+        "o (as in 'or')",
+        "i (as in 'see')",
+        "u (as in 'food')"
+      ],
+      "answer": 2,
+      "why": "**ই** is `i` as in *see*: the 'short i' letter."
+    },
+    {
+      "id": "e02",
+      "type": "script_recognize",
+      "glyph": "ঈ",
+      "options": [
+        "i (as in 'see')",
+        "a (as in 'father')",
+        "o (as in 'or')",
+        "ri (as in 'rip')"
+      ],
+      "answer": 0,
+      "why": "**ঈ** is the 'long i' letter, but it sounds just like ই: `i` as in *see*."
+    },
+    {
+      "id": "e03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ইলিশ",
+        "tr": "ilish",
+        "en": "hilsa (fish)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "hilsa (fish)",
+        "eagle",
+        "brick",
+        "sky"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e04",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ইট",
+        "tr": "it",
+        "en": "brick"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "Eid",
+        "mango",
+        "brick",
+        "eagle"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e05",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ঈগল",
+        "tr": "igol",
+        "en": "eagle"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "python (snake)",
+        "eagle",
+        "hilsa (fish)",
+        "Eid"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e06",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ঈদ",
+        "tr": "id",
+        "en": "Eid"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "brick",
+        "sky",
+        "hilsa (fish)",
+        "Eid"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e07",
+      "type": "script_recognize",
+      "glyph": "ইট",
+      "options": [
+        "at",
+        "it",
+        "ot",
+        "ut"
+      ],
+      "answer": 1,
+      "why": "It starts with **ই** `i`, so ইট is `it`."
+    },
+    {
+      "id": "e08",
+      "type": "script_recognize",
+      "glyph": "ঈগল",
+      "options": [
+        "agol",
+        "ogol",
+        "igol",
+        "ugol"
+      ],
+      "answer": 2,
+      "why": "It starts with **ঈ**, which is also `i`, so ঈগল is `igol`."
+    },
+    {
+      "id": "e09",
+      "type": "listen_select",
+      "audio": {
+        "bn": "ইলিশ",
+        "tr": "ilish",
+        "en": "hilsa (fish)"
+      },
+      "options": [
+        "আকাশ",
+        "ইলিশ",
+        "অনেক",
+        "ঈদ"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e10",
+      "type": "listen_select",
+      "audio": {
+        "bn": "ঈদ",
+        "tr": "id",
+        "en": "Eid"
+      },
+      "options": [
+        "আম",
+        "ইলিশ",
+        "ঈদ",
+        "অজগর"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e11",
+      "type": "listen_select",
+      "audio": {
+        "bn": "ইট",
+        "tr": "it",
+        "en": "brick"
+      },
+      "options": [
+        "ইট",
+        "আকাশ",
+        "ঈগল",
+        "অনেক"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e12",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "ইলিশ",
+          "tr": "ilish",
+          "en": "hilsa (fish)"
+        },
+        {
+          "bn": "ইট",
+          "tr": "it",
+          "en": "brick"
+        },
+        {
+          "bn": "ঈগল",
+          "tr": "igol",
+          "en": "eagle"
+        },
+        {
+          "bn": "ঈদ",
+          "tr": "id",
+          "en": "Eid"
+        },
+        {
+          "bn": "আম",
+          "tr": "am",
+          "en": "mango"
+        }
+      ]
+    },
+    {
+      "id": "e13",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ই",
+        "tr": "i",
+        "en": "i as in 'see' (short-i letter)"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "ঈ",
+        "অ",
+        "ই",
+        "আ"
+      ],
+      "answer": 2,
+      "why": "**ই** is the 'short i' letter (হ্রস্ব ই); ঈ is the 'long i' letter."
+    },
+    {
+      "id": "e14",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ঈ",
+        "tr": "i",
+        "en": "i as in 'see' (long-i letter)"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "ই",
+        "ঈ",
+        "আ",
+        "অ"
+      ],
+      "answer": 1,
+      "why": "**ঈ** is the 'long i' letter (দীর্ঘ ই); ই is the 'short i' letter."
+    },
+    {
+      "id": "e15",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ঈগল",
+        "tr": "igol",
+        "en": "eagle"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "ইলিশ",
+        "ইট",
+        "ঈদ",
+        "ঈগল"
+      ],
+      "answer": 3
+    }
+  ]
+}

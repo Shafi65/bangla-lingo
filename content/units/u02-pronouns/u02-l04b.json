@@ -369,42 +369,42 @@
         "tr": "ki",
         "en": "(yes/no question marker)"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "no",
-        "and",
-        "(yes/no question marker)",
-        "yes (polite)"
+        "না",
+        "আর",
+        "কি",
+        "জি"
       ],
       "answer": 2,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "কে",
         "tr": "ke",
         "en": "who"
       },
+      "direction": "bn_to_en",
       "options": [
-        "ও",
-        "আপনারা",
-        "তারা",
-        "কে"
+        "you (polite, plural)",
+        "that",
+        "who",
+        "you (intimate, plural)"
       ],
-      "answer": 3,
+      "answer": 2,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "ওটা",
         "tr": "ota",
         "en": "that"
       },
-      "direction": "en_to_bn",
       "options": [
         "তোমার",
         "ওরা",

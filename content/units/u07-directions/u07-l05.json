@@ -374,18 +374,17 @@
     },
     {
       "id": "r01",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "থাকি",
         "tr": "thaki",
         "en": "I live"
       },
-      "direction": "en_to_bn",
       "options": [
-        "আছিস",
-        "দিন",
+        "যাব",
+        "খেতে",
         "থাকি",
-        "লেগেছে"
+        "চাই"
       ],
       "answer": 2,
       "recycle": true
@@ -398,31 +397,32 @@
         "tr": "tahole",
         "en": "then"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "then",
-        "yes",
-        "no",
-        "but"
+        "জি",
+        "হ্যাঁ",
+        "তাহলে",
+        "আর"
       ],
-      "answer": 0,
+      "answer": 2,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "গ্রামে",
         "tr": "grame",
         "en": "in the village"
       },
+      "direction": "bn_to_en",
       "options": [
-        "মসজিদের",
-        "মেয়ে",
-        "মোড়",
-        "গ্রামে"
+        "the shirt",
+        "girl",
+        "in the village",
+        "vegetables"
       ],
-      "answer": 3,
+      "answer": 2,
       "recycle": true
     },
     {
@@ -430,9 +430,9 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "শহরে",
-          "tr": "shohore",
-          "en": "in the city"
+          "bn": "গ্রাম",
+          "tr": "gram",
+          "en": "village"
         },
         {
           "bn": "স্টেশনের",
@@ -440,14 +440,14 @@
           "en": "of the station"
         },
         {
+          "bn": "শহরে",
+          "tr": "shohore",
+          "en": "in the city"
+        },
+        {
           "bn": "শহর",
           "tr": "shohor",
           "en": "city"
-        },
-        {
-          "bn": "গ্রাম",
-          "tr": "gram",
-          "en": "village"
         }
       ],
       "recycle": true
@@ -467,14 +467,14 @@
           "en": "so"
         },
         {
-          "bn": "কিনব",
-          "tr": "kinbo",
-          "en": "I will buy"
-        },
-        {
           "bn": "বাড়ির",
           "tr": "barir",
           "en": "of the house"
+        },
+        {
+          "bn": "কিনব",
+          "tr": "kinbo",
+          "en": "I will buy"
         }
       ],
       "recycle": true

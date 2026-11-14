@@ -396,30 +396,30 @@
     },
     {
       "id": "r01",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "দেড়",
         "tr": "der",
         "en": "one and a half"
       },
+      "direction": "bn_to_en",
       "options": [
-        "ত্রিশ",
-        "দেড়",
-        "তিন",
-        "বারোটা"
+        "thirty",
+        "one and a half",
+        "three",
+        "twelve (o'clock)"
       ],
       "answer": 1,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "আড়াই",
         "tr": "arai",
         "en": "two and a half"
       },
-      "direction": "en_to_bn",
       "options": [
         "আড়াই",
         "দুইজন",
@@ -437,12 +437,12 @@
         "tr": "share",
         "en": "half past"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "half past",
-        "ten",
-        "two and a half",
-        "quarter past"
+        "সাড়ে",
+        "দশ",
+        "আড়াই",
+        "সোয়া"
       ],
       "answer": 0,
       "recycle": true

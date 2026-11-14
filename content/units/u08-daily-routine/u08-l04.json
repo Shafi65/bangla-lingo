@@ -365,49 +365,49 @@
         "tr": "jai",
         "en": "I go"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "(I) have come",
-        "(you/he/she, polite) want",
-        "need",
-        "I go"
+        "এসেছি",
+        "চান",
+        "লাগবে",
+        "যাই"
       ],
       "answer": 3,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "আসি",
         "tr": "ashi",
         "en": "I come"
       },
+      "direction": "bn_to_en",
       "options": [
-        "চাই",
-        "কিনব",
-        "ঘুমাই",
-        "আসি"
+        "(I/we) want",
+        "I come",
+        "I will buy",
+        "I sleep"
       ],
-      "answer": 3,
+      "answer": 1,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "যায়",
         "tr": "jay",
         "en": "goes"
       },
-      "direction": "en_to_bn",
       "options": [
-        "দেখে",
-        "পড়ি",
         "যায়",
-        "চান"
+        "কিনব",
+        "বলি",
+        "দিন"
       ],
-      "answer": 2,
+      "answer": 0,
       "recycle": true
     },
     {
@@ -415,14 +415,14 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "ঘুম",
-          "tr": "ghum",
-          "en": "sleep"
-        },
-        {
           "bn": "যাও",
           "tr": "jao",
           "en": "you go (familiar)"
+        },
+        {
+          "bn": "আসে",
+          "tr": "ashe",
+          "en": "comes"
         },
         {
           "bn": "কখন",
@@ -430,9 +430,9 @@
           "en": "when"
         },
         {
-          "bn": "আসে",
-          "tr": "ashe",
-          "en": "comes"
+          "bn": "ঘুম",
+          "tr": "ghum",
+          "en": "sleep"
         }
       ],
       "recycle": true
@@ -442,9 +442,9 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "অফিস",
-          "tr": "ofis",
-          "en": "office"
+          "bn": "অফিসে",
+          "tr": "ofise",
+          "en": "to the office"
         },
         {
           "bn": "স্কুল",
@@ -452,14 +452,14 @@
           "en": "school"
         },
         {
-          "bn": "অফিসে",
-          "tr": "ofise",
-          "en": "to the office"
-        },
-        {
           "bn": "স্কুলে",
           "tr": "skule",
           "en": "to school"
+        },
+        {
+          "bn": "অফিস",
+          "tr": "ofis",
+          "en": "office"
         }
       ],
       "recycle": true

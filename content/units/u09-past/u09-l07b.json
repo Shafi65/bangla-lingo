@@ -386,35 +386,35 @@
     },
     {
       "id": "r01",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "উঠলাম",
         "tr": "uthlam",
         "en": "I got up"
       },
+      "direction": "bn_to_en",
       "options": [
-        "এসেছেন",
-        "উঠলাম",
-        "পড়লাম",
-        "শুনলাম"
+        "(you, polite) have come",
+        "I got up",
+        "I read",
+        "I heard"
       ],
       "answer": 1,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "দিনটা",
         "tr": "dinta",
         "en": "the day"
       },
-      "direction": "en_to_bn",
       "options": [
-        "মজা",
-        "গান",
+        "রাস্তা",
+        "আব্বু",
         "দিনটা",
-        "আংকেল"
+        "আমগুলো"
       ],
       "answer": 2,
       "recycle": true
@@ -427,14 +427,14 @@
         "tr": "kotha",
         "en": "talk"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "of the house",
-        "poisha",
-        "mother's",
-        "talk"
+        "কথা",
+        "গোসল",
+        "বিরিয়ানি",
+        "বাচ্চা"
       ],
-      "answer": 3,
+      "answer": 0,
       "recycle": true
     },
     {
@@ -447,14 +447,14 @@
           "en": "always"
         },
         {
-          "bn": "দেখছে",
-          "tr": "dekhchhe",
-          "en": "is watching"
-        },
-        {
           "bn": "আগে",
           "tr": "age",
           "en": "before"
+        },
+        {
+          "bn": "দেখছে",
+          "tr": "dekhchhe",
+          "en": "is watching"
         },
         {
           "bn": "খেয়েছো",
@@ -474,14 +474,14 @@
           "en": "I am reading"
         },
         {
-          "bn": "কখনো",
-          "tr": "kokhono",
-          "en": "ever"
-        },
-        {
           "bn": "পারে",
           "tr": "pare",
           "en": "(he/she) can"
+        },
+        {
+          "bn": "কখনো",
+          "tr": "kokhono",
+          "en": "ever"
         },
         {
           "bn": "বলতে",

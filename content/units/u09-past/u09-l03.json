@@ -421,34 +421,34 @@
     },
     {
       "id": "r01",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "কিনলেন",
         "tr": "kinlen",
         "en": "you bought (polite)"
       },
+      "direction": "bn_to_en",
       "options": [
-        "এসেছেন",
-        "কিনল",
-        "কিনলেন",
-        "করলেন"
+        "you bought (polite)",
+        "feels",
+        "you go (familiar)",
+        "is not"
       ],
-      "answer": 2,
+      "answer": 0,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "করলে",
         "tr": "korle",
         "en": "you did (familiar)"
       },
-      "direction": "en_to_bn",
       "options": [
-        "ছাড়বে",
-        "করেন",
-        "মাজি",
+        "খায়",
+        "ঘুমালাম",
+        "দেখি",
         "করলে"
       ],
       "answer": 3,
@@ -462,14 +462,14 @@
         "tr": "korlo",
         "en": "did"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "I saw",
-        "did",
-        "I am going",
-        "you are doing (polite)"
+        "করল",
+        "আসি",
+        "আছিস",
+        "বলি"
       ],
-      "answer": 1,
+      "answer": 0,
       "recycle": true
     },
     {
@@ -487,14 +487,14 @@
           "en": "bought"
         },
         {
-          "bn": "ট্রেনে",
-          "tr": "trene",
-          "en": "by train"
-        },
-        {
           "bn": "করলেন",
           "tr": "korlen",
           "en": "you did (polite)"
+        },
+        {
+          "bn": "ট্রেনে",
+          "tr": "trene",
+          "en": "by train"
         }
       ],
       "recycle": true
@@ -504,14 +504,9 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "কেন",
-          "tr": "keno",
-          "en": "why"
-        },
-        {
-          "bn": "কাছে",
-          "tr": "kachhe",
-          "en": "near"
+          "bn": "করলি",
+          "tr": "korli",
+          "en": "you did (intimate)"
         },
         {
           "bn": "তোরা",
@@ -519,9 +514,14 @@
           "en": "you (intimate, plural)"
         },
         {
-          "bn": "করলি",
-          "tr": "korli",
-          "en": "you did (intimate)"
+          "bn": "কাছে",
+          "tr": "kachhe",
+          "en": "near"
+        },
+        {
+          "bn": "কেন",
+          "tr": "keno",
+          "en": "why"
         }
       ],
       "recycle": true

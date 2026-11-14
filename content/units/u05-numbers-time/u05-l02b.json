@@ -363,13 +363,12 @@
     },
     {
       "id": "r01",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "পনেরো",
         "tr": "ponero",
         "en": "fifteen"
       },
-      "direction": "en_to_bn",
       "options": [
         "আট",
         "পনেরো",
@@ -387,29 +386,30 @@
         "tr": "choddo",
         "en": "fourteen"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "fourteen",
-        "nine",
-        "two",
-        "seven"
+        "চৌদ্দ",
+        "নয়",
+        "দুই",
+        "সাত"
       ],
       "answer": 0,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "খারাপ",
         "tr": "kharap",
         "en": "bad"
       },
+      "direction": "bn_to_en",
       "options": [
-        "ছোট",
-        "ভালো",
-        "খারাপ",
-        "বাংলাদেশি"
+        "small",
+        "good, well",
+        "bad",
+        "Bangladeshi"
       ],
       "answer": 2,
       "recycle": true

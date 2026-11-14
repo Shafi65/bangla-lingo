@@ -386,13 +386,12 @@
     },
     {
       "id": "r01",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "ঈদের",
         "tr": "ider",
         "en": "of Eid"
       },
-      "direction": "en_to_bn",
       "options": [
         "রোজা",
         "আংকেল",
@@ -410,29 +409,30 @@
         "tr": "ide",
         "en": "at Eid"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "to school",
-        "wife",
-        "at Eid",
-        "vegetables"
+        "স্কুলে",
+        "বউ",
+        "ঈদে",
+        "সবজি"
       ],
       "answer": 2,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "সালামি",
         "tr": "shalami",
         "en": "Eid money"
       },
+      "direction": "bn_to_en",
       "options": [
-        "রবিবার",
-        "হোটেল",
-        "সালামি",
-        "মানুষ"
+        "Sunday",
+        "hotel",
+        "Eid money",
+        "person"
       ],
       "answer": 2,
       "recycle": true

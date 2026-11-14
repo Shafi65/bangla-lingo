@@ -376,35 +376,35 @@
     },
     {
       "id": "r01",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "কেউ",
         "tr": "keu",
         "en": "someone"
       },
+      "direction": "bn_to_en",
       "options": [
-        "তুই",
-        "আপনার",
-        "কেউ",
-        "কী"
+        "someone",
+        "you (intimate)",
+        "your (polite)",
+        "what"
       ],
-      "answer": 2,
+      "answer": 0,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "মসজিদ",
         "tr": "moshjid",
         "en": "mosque"
       },
-      "direction": "en_to_bn",
       "options": [
         "ফুফু",
-        "স্বামী",
+        "বাজারে",
         "মসজিদ",
-        "দাম"
+        "ডাল"
       ],
       "answer": 2,
       "recycle": true
@@ -417,14 +417,14 @@
         "tr": "shahajjo",
         "en": "help"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "help",
-        "father's",
-        "hour",
-        "road"
+        "মানুষ",
+        "বিরিয়ানি",
+        "মোড়",
+        "সাহায্য"
       ],
-      "answer": 0,
+      "answer": 3,
       "recycle": true
     },
     {
@@ -432,24 +432,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "দিয়ে",
-          "tr": "diye",
-          "en": "along"
-        },
-        {
-          "bn": "মসজিদের",
-          "tr": "moshjider",
-          "en": "of the mosque"
-        },
-        {
           "bn": "মন্দির",
           "tr": "mondir",
           "en": "temple"
         },
         {
+          "bn": "দিয়ে",
+          "tr": "diye",
+          "en": "along"
+        },
+        {
           "bn": "বাজারের",
           "tr": "bajarer",
           "en": "of the market"
+        },
+        {
+          "bn": "মসজিদের",
+          "tr": "moshjider",
+          "en": "of the mosque"
         }
       ],
       "recycle": true
@@ -469,14 +469,14 @@
           "en": "road"
         },
         {
-          "bn": "মোড়ে",
-          "tr": "more",
-          "en": "at the intersection"
-        },
-        {
           "bn": "যান",
           "tr": "jan",
           "en": "go (polite)"
+        },
+        {
+          "bn": "মোড়ে",
+          "tr": "more",
+          "en": "at the intersection"
         }
       ],
       "recycle": true

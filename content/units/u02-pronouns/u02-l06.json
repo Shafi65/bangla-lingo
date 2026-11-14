@@ -349,13 +349,12 @@
     },
     {
       "id": "r01",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "আবার দেখা হবে",
         "tr": "abar dekha hobe",
         "en": "see you again"
       },
-      "direction": "en_to_bn",
       "options": [
         "নমস্কার",
         "আবার দেখা হবে",
@@ -373,29 +372,30 @@
         "tr": "alhamdulillah",
         "en": "praise be to God"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "praise be to God",
-        "goodbye",
-        "thank you",
-        "see you again"
+        "আলহামদুলিল্লাহ",
+        "খোদা হাফেজ",
+        "ধন্যবাদ",
+        "আবার দেখা হবে"
       ],
       "answer": 0,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "ধন্যবাদ",
         "tr": "dhonnobad",
         "en": "thank you"
       },
+      "direction": "bn_to_en",
       "options": [
-        "ওয়ালাইকুম আসসালাম",
-        "আবার দেখা হবে",
-        "নমস্কার",
-        "ধন্যবাদ"
+        "hello (in reply)",
+        "see you again",
+        "hello (Hindu greeting)",
+        "thank you"
       ],
       "answer": 3,
       "recycle": true

@@ -366,37 +366,37 @@
     },
     {
       "id": "r01",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "যান",
         "tr": "jan",
         "en": "go (polite)"
       },
+      "direction": "bn_to_en",
       "options": [
-        "যান",
-        "কিনব",
-        "লেগেছে",
-        "খেতে"
+        "go (polite)",
+        "I will buy",
+        "has come on (felt)",
+        "to eat"
       ],
       "answer": 0,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "দিয়ে",
         "tr": "diye",
         "en": "along"
       },
-      "direction": "en_to_bn",
       "options": [
-        "কাছে",
-        "থেকে",
+        "পিছনে",
         "দিয়ে",
-        "সামনে"
+        "পাশে",
+        "থেকে"
       ],
-      "answer": 2,
+      "answer": 1,
       "recycle": true
     },
     {
@@ -407,14 +407,14 @@
         "tr": "shoja",
         "en": "straight"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "here",
-        "straight",
-        "far",
-        "in a week"
+        "সবচেয়ে",
+        "অবশ্যই",
+        "সোজা",
+        "ডানে"
       ],
-      "answer": 1,
+      "answer": 2,
       "recycle": true
     },
     {
@@ -454,6 +454,11 @@
           "en": "change"
         },
         {
+          "bn": "ব্যাগ",
+          "tr": "byag",
+          "en": "bag"
+        },
+        {
           "bn": "সবচেয়ে",
           "tr": "shobcheye",
           "en": "the most"
@@ -462,11 +467,6 @@
           "bn": "মোড়",
           "tr": "mor",
           "en": "intersection"
-        },
-        {
-          "bn": "ব্যাগ",
-          "tr": "byag",
-          "en": "bag"
         }
       ],
       "recycle": true

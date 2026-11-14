@@ -425,20 +425,19 @@
     },
     {
       "id": "r01",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "তাই",
         "tr": "tai",
         "en": "so"
       },
-      "direction": "en_to_bn",
       "options": [
         "আচ্ছা",
-        "আর",
-        "না",
-        "তাই"
+        "কিন্তু",
+        "তাই",
+        "না"
       ],
-      "answer": 3,
+      "answer": 2,
       "recycle": true
     },
     {
@@ -449,29 +448,30 @@
         "tr": "karon",
         "en": "because"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "and",
-        "OK",
-        "then",
-        "because"
+        "কারণ",
+        "আচ্ছা",
+        "তাহলে",
+        "কি"
       ],
-      "answer": 3,
+      "answer": 0,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "পরে",
         "tr": "pore",
         "en": "after"
       },
+      "direction": "bn_to_en",
       "options": [
-        "পরে",
-        "নিচে",
-        "পিছনে",
-        "কাছে"
+        "after",
+        "along",
+        "next to",
+        "way"
       ],
       "answer": 0,
       "recycle": true
@@ -481,9 +481,9 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "ঘুমের",
-          "tr": "ghumer",
-          "en": "of sleep"
+          "bn": "ফোন",
+          "tr": "fon",
+          "en": "phone"
         },
         {
           "bn": "আগে",
@@ -491,9 +491,9 @@
           "en": "before"
         },
         {
-          "bn": "ফোন",
-          "tr": "fon",
-          "en": "phone"
+          "bn": "ঘুমের",
+          "tr": "ghumer",
+          "en": "of sleep"
         },
         {
           "bn": "তারপর",
@@ -508,24 +508,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "লেখে",
-          "tr": "lekhe",
-          "en": "writes"
-        },
-        {
           "bn": "কাজের",
           "tr": "kajer",
           "en": "of work"
         },
         {
-          "bn": "নাস্তার",
-          "tr": "nashtar",
-          "en": "of breakfast"
-        },
-        {
           "bn": "শুনি",
           "tr": "shuni",
           "en": "I listen"
+        },
+        {
+          "bn": "লেখে",
+          "tr": "lekhe",
+          "en": "writes"
+        },
+        {
+          "bn": "নাস্তার",
+          "tr": "nashtar",
+          "en": "of breakfast"
         }
       ],
       "recycle": true

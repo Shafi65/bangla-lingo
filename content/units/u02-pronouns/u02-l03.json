@@ -336,35 +336,35 @@
     },
     {
       "id": "r01",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "আপনারা",
         "tr": "apnara",
         "en": "you (polite, plural)"
       },
+      "direction": "bn_to_en",
       "options": [
-        "সে",
-        "আপনারা",
-        "ওরা",
-        "আমি"
+        "I",
+        "they (spoken)",
+        "you (polite, plural)",
+        "what"
       ],
-      "answer": 1,
+      "answer": 2,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "তোমরা",
         "tr": "tomra",
         "en": "you (familiar, plural)"
       },
-      "direction": "en_to_bn",
       "options": [
-        "আপনার",
+        "কী",
         "তোমরা",
-        "উনি",
-        "সে"
+        "ও",
+        "আপনারা"
       ],
       "answer": 1,
       "recycle": true
@@ -377,12 +377,12 @@
         "tr": "tara",
         "en": "they"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "they",
-        "he/she",
-        "your (polite)",
-        "you (intimate)"
+        "তারা",
+        "সে",
+        "আপনার",
+        "তুই"
       ],
       "answer": 0,
       "recycle": true

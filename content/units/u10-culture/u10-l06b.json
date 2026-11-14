@@ -405,35 +405,35 @@
     },
     {
       "id": "r01",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "আসবেন",
         "tr": "ashben",
         "en": "please come"
       },
+      "direction": "bn_to_en",
       "options": [
-        "দাও",
-        "আসেনি",
-        "খাই",
-        "আসবেন"
+        "please come",
+        "I brush",
+        "(you, polite) have come",
+        "(you/he/she, polite) eat"
       ],
-      "answer": 3,
+      "answer": 0,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "যদি",
         "tr": "jodi",
         "en": "if"
       },
-      "direction": "en_to_bn",
       "options": [
         "জি",
-        "যখন",
+        "কারণ",
         "যদি",
-        "না"
+        "তাহলে"
       ],
       "answer": 2,
       "recycle": true
@@ -446,14 +446,14 @@
         "tr": "hoy",
         "en": "is"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "go (polite)",
-        "I am going",
-        "I came",
-        "is"
+        "খাই",
+        "হয়",
+        "করিনি",
+        "আছো"
       ],
-      "answer": 3,
+      "answer": 1,
       "recycle": true
     },
     {
@@ -471,14 +471,14 @@
           "en": "will come"
         },
         {
-          "bn": "খাবেন",
-          "tr": "khaben",
-          "en": "will you eat (polite)"
-        },
-        {
           "bn": "পিঠা",
           "tr": "pitha",
           "en": "pitha"
+        },
+        {
+          "bn": "খাবেন",
+          "tr": "khaben",
+          "en": "will you eat (polite)"
         }
       ],
       "recycle": true
@@ -488,9 +488,9 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "দাওয়াত",
-          "tr": "dawat",
-          "en": "invitation"
+          "bn": "সুন্দর",
+          "tr": "shundor",
+          "en": "beautiful"
         },
         {
           "bn": "খেজুর",
@@ -498,14 +498,14 @@
           "en": "dates"
         },
         {
-          "bn": "সুন্দর",
-          "tr": "shundor",
-          "en": "beautiful"
-        },
-        {
           "bn": "মেলা",
           "tr": "mela",
           "en": "fair"
+        },
+        {
+          "bn": "দাওয়াত",
+          "tr": "dawat",
+          "en": "invitation"
         }
       ],
       "recycle": true

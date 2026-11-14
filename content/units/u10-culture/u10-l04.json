@@ -432,30 +432,30 @@
     },
     {
       "id": "r01",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "মেলা",
         "tr": "mela",
         "en": "fair"
       },
+      "direction": "bn_to_en",
       "options": [
-        "ডিম",
-        "মানে",
-        "মেলা",
-        "রাস্তা"
+        "egg",
+        "meaning",
+        "fair",
+        "road"
       ],
       "answer": 2,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "মেলায়",
         "tr": "melay",
         "en": "to the fair"
       },
-      "direction": "en_to_bn",
       "options": [
         "শুক্রবার",
         "মেলায়",
@@ -473,12 +473,12 @@
         "tr": "pohela boishakh",
         "en": "Pohela Boishakh"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "not yet",
-        "what happened",
-        "OK",
-        "Pohela Boishakh"
+        "এখনো না",
+        "কী হয়েছে",
+        "ঠিক আছে",
+        "পহেলা বৈশাখ"
       ],
       "answer": 3,
       "recycle": true

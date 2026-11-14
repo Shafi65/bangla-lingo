@@ -367,18 +367,17 @@
     },
     {
       "id": "r01",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "বছরে",
-        "tr": "bochhore",
-        "en": "in a year"
+      "type": "listen_select",
+      "audio": {
+        "bn": "তিনটা",
+        "tr": "tinta",
+        "en": "three (o'clock)"
       },
-      "direction": "en_to_bn",
       "options": [
-        "বছরে",
-        "কয়টা",
-        "রাতে",
-        "কেমন"
+        "তিনটা",
+        "দশ",
+        "বারোটা",
+        "দেড়টা"
       ],
       "answer": 0,
       "recycle": true
@@ -387,33 +386,34 @@
       "id": "r02",
       "type": "select_translation",
       "prompt": {
-        "bn": "দিন",
-        "tr": "din",
-        "en": "day"
+        "bn": "খারাপ",
+        "tr": "kharap",
+        "en": "bad"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "aunt (chacha's wife)",
-        "day",
-        "Friday",
-        "food"
+        "খারাপ",
+        "মিষ্টি",
+        "মজার",
+        "ঝাল"
       ],
-      "answer": 1,
+      "answer": 0,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "listen_select",
-      "audio": {
-        "bn": "তিনটা",
-        "tr": "tinta",
-        "en": "three (o'clock)"
+      "type": "select_translation",
+      "prompt": {
+        "bn": "সব",
+        "tr": "shob",
+        "en": "all"
       },
+      "direction": "bn_to_en",
       "options": [
-        "আড়াইটা",
-        "একটি",
-        "দশ",
-        "তিনটা"
+        "tasty",
+        "spicy",
+        "Bangladeshi",
+        "all"
       ],
       "answer": 3,
       "recycle": true
@@ -423,9 +423,14 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "আমাদের",
-          "tr": "amader",
-          "en": "our"
+          "bn": "তুমি",
+          "tr": "tumi",
+          "en": "you (familiar)"
+        },
+        {
+          "bn": "আপনার",
+          "tr": "apnar",
+          "en": "your (polite)"
         },
         {
           "bn": "দুইজন",
@@ -433,14 +438,9 @@
           "en": "two (people)"
         },
         {
-          "bn": "সব",
-          "tr": "shob",
-          "en": "all"
-        },
-        {
-          "bn": "আপনার",
-          "tr": "apnar",
-          "en": "your (polite)"
+          "bn": "আমাদের",
+          "tr": "amader",
+          "en": "our"
         }
       ],
       "recycle": true
@@ -465,9 +465,9 @@
           "en": "who"
         },
         {
-          "bn": "তুমি",
-          "tr": "tumi",
-          "en": "you (familiar)"
+          "bn": "তুই",
+          "tr": "tui",
+          "en": "you (intimate)"
         }
       ],
       "recycle": true

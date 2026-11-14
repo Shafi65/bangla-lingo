@@ -1,0 +1,304 @@
+{
+  "id": "s01-l02b",
+  "unit": "s01-vowels",
+  "title": "Vowels 2b: ঋ এ",
+  "status": "draft",
+  "tip": "- **ঋ** is said `ri` as in *rip*. It mostly appears in words borrowed from Sanskrit, like **ঋ**তু (season) and **ঋ**ষি (sage).\n- **এ** = `e`. It has two sounds: an open 'a' as in *cat* (**এ**ক `ek`, one; **এ**খন `ekhon`, now) or 'ay' as in *say* (এই `ei`, this). You learn which by listening.\n\n*Culture:* Bengal traditionally counts six seasons (ছয় ঋতু), not four.",
+  "vocab": [
+    {
+      "id": "l-ri",
+      "bn": "ঋ",
+      "tr": "ri",
+      "en": "ri as in 'rip'",
+      "notes": "Name: ri (ঋ). Historically a vowel; in modern Bengali it is simply said 'ri'. Found mostly in Sanskrit-origin words."
+    },
+    {
+      "id": "l-e",
+      "bn": "এ",
+      "tr": "e",
+      "en": "e as in 'bed' or 'ay' as in 'say'",
+      "notes": "Name: e (এ). Two pronunciations; the word decides which (open æ in এক 'ack' and এখন 'ækhon'; 'ay' in এই 'ei')."
+    },
+    {
+      "id": "rishi",
+      "bn": "ঋষি",
+      "tr": "rishi",
+      "en": "sage (wise holy man)"
+    },
+    {
+      "id": "ritu",
+      "bn": "ঋতু",
+      "tr": "ritu",
+      "en": "season",
+      "notes": "Bengal traditionally has six seasons (ছয় ঋতু)."
+    },
+    {
+      "id": "ek",
+      "bn": "এক",
+      "tr": "ek",
+      "en": "one",
+      "notes": "Pronounced like English 'ack' (open e)."
+    },
+    {
+      "id": "ekhon",
+      "bn": "এখন",
+      "tr": "ekhon",
+      "en": "now",
+      "notes": "Pronounced with an open e, like 'ack-hon' (æ)."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "script_recognize",
+      "glyph": "ঋ",
+      "options": [
+        "ri (as in 'rip')",
+        "u (as in 'food')",
+        "o (as in 'or')",
+        "i (as in 'see')"
+      ],
+      "answer": 0,
+      "why": "**ঋ** is a vowel letter, but today it is simply said `ri`."
+    },
+    {
+      "id": "e02",
+      "type": "script_recognize",
+      "glyph": "এ",
+      "options": [
+        "a (as in 'father')",
+        "i (as in 'see')",
+        "e (as in 'bed' / 'say')",
+        "ri (as in 'rip')"
+      ],
+      "answer": 2,
+      "why": "**এ** is `e`: as in *bed*, *say*, or the *a* of *cat*."
+    },
+    {
+      "id": "e03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ঋষি",
+        "tr": "rishi",
+        "en": "sage (wise holy man)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "season",
+        "sage (wise holy man)",
+        "lawyer",
+        "now"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e04",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ঋতু",
+        "tr": "ritu",
+        "en": "season"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "dawn",
+        "one",
+        "camel",
+        "season"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e05",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "এক",
+        "tr": "ek",
+        "en": "one"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "one",
+        "many / a lot",
+        "now",
+        "Eid"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e06",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "এখন",
+        "tr": "ekhon",
+        "en": "now"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "season",
+        "sky",
+        "now",
+        "one"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e07",
+      "type": "script_recognize",
+      "glyph": "ঋতু",
+      "options": [
+        "itu",
+        "ritu",
+        "utu",
+        "otu"
+      ],
+      "answer": 1,
+      "why": "It starts with **ঋ**, said `ri`, so ঋতু is `ritu`."
+    },
+    {
+      "id": "e08",
+      "type": "script_recognize",
+      "glyph": "এখন",
+      "options": [
+        "okhon",
+        "ikhon",
+        "ukhon",
+        "ekhon"
+      ],
+      "answer": 3,
+      "why": "It starts with **এ** `e`, so এখন is `ekhon`."
+    },
+    {
+      "id": "e09",
+      "type": "listen_select",
+      "audio": {
+        "bn": "ঋষি",
+        "tr": "rishi",
+        "en": "sage (wise holy man)"
+      },
+      "options": [
+        "এক",
+        "ঋষি",
+        "উকিল",
+        "ইলিশ"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e10",
+      "type": "listen_select",
+      "audio": {
+        "bn": "এক",
+        "tr": "ek",
+        "en": "one"
+      },
+      "options": [
+        "এক",
+        "উট",
+        "ঋতু",
+        "আম"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e11",
+      "type": "listen_select",
+      "audio": {
+        "bn": "এখন",
+        "tr": "ekhon",
+        "en": "now"
+      },
+      "options": [
+        "ঋষি",
+        "ঊষা",
+        "এখন",
+        "আকাশ"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e12",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "ঋষি",
+          "tr": "rishi",
+          "en": "sage (wise holy man)"
+        },
+        {
+          "bn": "ঋতু",
+          "tr": "ritu",
+          "en": "season"
+        },
+        {
+          "bn": "এক",
+          "tr": "ek",
+          "en": "one"
+        },
+        {
+          "bn": "এখন",
+          "tr": "ekhon",
+          "en": "now"
+        },
+        {
+          "bn": "উট",
+          "tr": "ut",
+          "en": "camel"
+        }
+      ]
+    },
+    {
+      "id": "e13",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ঋ",
+        "tr": "ri",
+        "en": "ri as in 'rip'"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "এ",
+        "ঋ",
+        "উ",
+        "ই"
+      ],
+      "answer": 1,
+      "why": "**ঋ** is said `ri`."
+    },
+    {
+      "id": "e14",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "এ",
+        "tr": "e",
+        "en": "e as in 'bed' or 'ay' as in 'say'"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "আ",
+        "ঋ",
+        "ই",
+        "এ"
+      ],
+      "answer": 3,
+      "why": "**এ** is the `e` letter; আ is `a`."
+    },
+    {
+      "id": "e15",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ঋতু",
+        "tr": "ritu",
+        "en": "season"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "ঋষি",
+        "এক",
+        "ঋতু",
+        "ঊরু"
+      ],
+      "answer": 2
+    }
+  ]
+}

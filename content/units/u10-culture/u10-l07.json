@@ -398,20 +398,19 @@
     },
     {
       "id": "r01",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "সবাইকে",
         "tr": "shobaike",
         "en": "everyone"
       },
-      "direction": "en_to_bn",
       "options": [
-        "তাকে",
+        "ওর",
+        "কোন",
         "সবাইকে",
-        "আপনি",
-        "তোরা"
+        "আপনি"
       ],
-      "answer": 1,
+      "answer": 2,
       "recycle": true
     },
     {
@@ -422,29 +421,30 @@
         "tr": "jonno",
         "en": "for"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "along",
-        "for",
-        "way",
-        "near"
+        "উপরে",
+        "পাশে",
+        "জন্য",
+        "থেকে"
       ],
-      "answer": 1,
+      "answer": 2,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "পান্তা ভাত",
         "tr": "panta bhat",
         "en": "panta bhat"
       },
+      "direction": "bn_to_en",
       "options": [
-        "খোদা হাফেজ",
-        "ঈদ মোবারক",
-        "পান্তা ভাত",
-        "ওয়ালাইকুম আসসালাম"
+        "Happy New Year",
+        "hello (in reply)",
+        "panta bhat",
+        "goodbye"
       ],
       "answer": 2,
       "recycle": true
@@ -454,24 +454,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "উপহার",
-          "tr": "upohar",
-          "en": "gift"
-        },
-        {
-          "bn": "লোক",
-          "tr": "lok",
-          "en": "people"
-        },
-        {
           "bn": "জন্মদিন",
           "tr": "jonmodin",
           "en": "birthday"
         },
         {
+          "bn": "উপহার",
+          "tr": "upohar",
+          "en": "gift"
+        },
+        {
           "bn": "শুভেচ্ছা",
           "tr": "shubhechchha",
           "en": "greetings"
+        },
+        {
+          "bn": "লোক",
+          "tr": "lok",
+          "en": "people"
         }
       ],
       "recycle": true
@@ -481,14 +481,14 @@
       "type": "match_pairs",
       "pairs": [
         {
+          "bn": "পূজা",
+          "tr": "puja",
+          "en": "puja"
+        },
+        {
           "bn": "প্রতিমা",
           "tr": "protima",
           "en": "image (idol)"
-        },
-        {
-          "bn": "সালামি",
-          "tr": "shalami",
-          "en": "Eid money"
         },
         {
           "bn": "সেহরি",
@@ -496,9 +496,9 @@
           "en": "sehri"
         },
         {
-          "bn": "পূজা",
-          "tr": "puja",
-          "en": "puja"
+          "bn": "সালামি",
+          "tr": "shalami",
+          "en": "Eid money"
         }
       ],
       "recycle": true

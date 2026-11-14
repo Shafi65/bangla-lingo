@@ -429,37 +429,37 @@
     },
     {
       "id": "r01",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "সত্যি",
         "tr": "shotti",
         "en": "really"
       },
+      "direction": "bn_to_en",
       "options": [
-        "সত্যি",
-        "কোথায়",
-        "কতদূর",
-        "ডানে"
+        "left",
+        "really",
+        "right",
+        "the most"
       ],
-      "answer": 0,
+      "answer": 1,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "করো",
         "tr": "koro",
         "en": "you do (familiar)"
       },
-      "direction": "en_to_bn",
       "options": [
+        "নন",
+        "চান",
         "করো",
-        "চাই",
-        "খায়",
-        "দাও"
+        "দেন"
       ],
-      "answer": 0,
+      "answer": 2,
       "recycle": true
     },
     {
@@ -470,12 +470,12 @@
         "tr": "ashole",
         "en": "actually"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "at ten o'clock",
-        "actually",
-        "only",
-        "of course"
+        "কয়জন",
+        "আসলে",
+        "ওখানে",
+        "সোজা"
       ],
       "answer": 1,
       "recycle": true
@@ -485,6 +485,11 @@
       "type": "match_pairs",
       "pairs": [
         {
+          "bn": "কাজ",
+          "tr": "kaj",
+          "en": "work"
+        },
+        {
           "bn": "কঠিন",
           "tr": "kothin",
           "en": "difficult"
@@ -493,11 +498,6 @@
           "bn": "ভাংতি",
           "tr": "bhangti",
           "en": "change"
-        },
-        {
-          "bn": "কাজ",
-          "tr": "kaj",
-          "en": "work"
         },
         {
           "bn": "করিস",
@@ -512,24 +512,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "শুধু",
-          "tr": "shudhu",
-          "en": "only"
-        },
-        {
           "bn": "দেড়",
           "tr": "der",
           "en": "one and a half"
         },
         {
-          "bn": "এসেছি",
-          "tr": "eshechhi",
-          "en": "(I) have come"
+          "bn": "শুধু",
+          "tr": "shudhu",
+          "en": "only"
         },
         {
           "bn": "বিকালে",
           "tr": "bikale",
           "en": "in the afternoon"
+        },
+        {
+          "bn": "পাঁচটা",
+          "tr": "pa~chta",
+          "en": "five (o'clock)"
         }
       ],
       "recycle": true

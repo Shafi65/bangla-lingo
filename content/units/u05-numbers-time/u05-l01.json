@@ -372,60 +372,55 @@
         "tr": "ekti",
         "en": "one; a (formal)"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "one; a (formal)",
-        "eight",
-        "seven",
-        "five"
+        "একটি",
+        "আট",
+        "সাত",
+        "পাঁচ"
       ],
       "answer": 0,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "কলা",
         "tr": "kola",
         "en": "banana"
       },
+      "direction": "bn_to_en",
       "options": [
-        "নানি",
-        "কলা",
-        "পানি",
-        "মুরগি"
+        "grandfather (father's father)",
+        "banana",
+        "aunt (chacha's wife)",
+        "egg"
       ],
       "answer": 1,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "তারা",
         "tr": "tara",
         "en": "they"
       },
-      "direction": "en_to_bn",
       "options": [
-        "তোমরা",
-        "আপনি",
+        "এটা",
         "তারা",
-        "সবাই"
+        "আপনি",
+        "উনি"
       ],
-      "answer": 2,
+      "answer": 1,
       "recycle": true
     },
     {
       "id": "r04",
       "type": "match_pairs",
       "pairs": [
-        {
-          "bn": "থেকে",
-          "tr": "theke",
-          "en": "from"
-        },
         {
           "bn": "আমাদের",
           "tr": "amader",
@@ -440,6 +435,11 @@
           "bn": "আছিস",
           "tr": "achhish",
           "en": "are (intimate)"
+        },
+        {
+          "bn": "থেকে",
+          "tr": "theke",
+          "en": "from"
         }
       ],
       "recycle": true
@@ -448,11 +448,6 @@
       "id": "r05",
       "type": "match_pairs",
       "pairs": [
-        {
-          "bn": "এসেছেন",
-          "tr": "eshechhen",
-          "en": "(you, polite) have come"
-        },
         {
           "bn": "তোমরা",
           "tr": "tomra",
@@ -467,6 +462,11 @@
           "bn": "কেমন",
           "tr": "kemon",
           "en": "how"
+        },
+        {
+          "bn": "এসেছেন",
+          "tr": "eshechhen",
+          "en": "(you, polite) have come"
         }
       ],
       "recycle": true

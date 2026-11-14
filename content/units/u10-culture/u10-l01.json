@@ -415,30 +415,30 @@
     },
     {
       "id": "r01",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "ফোন",
         "tr": "fon",
         "en": "phone"
       },
+      "direction": "bn_to_en",
       "options": [
-        "দোকান",
-        "ফোন",
-        "কলাটা",
-        "দাম"
+        "shop",
+        "phone",
+        "the banana",
+        "price"
       ],
       "answer": 1,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "স্কুল",
         "tr": "skul",
         "en": "school"
       },
-      "direction": "en_to_bn",
       "options": [
         "বাবা",
         "কাপ",
@@ -456,12 +456,12 @@
         "tr": "kajer",
         "en": "of work"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "at Eid",
-        "age",
-        "of work",
-        "Bengali (language)"
+        "ঈদে",
+        "বয়স",
+        "কাজের",
+        "বাংলা"
       ],
       "answer": 2,
       "recycle": true

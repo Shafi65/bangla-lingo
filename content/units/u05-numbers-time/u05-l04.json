@@ -390,30 +390,30 @@
     },
     {
       "id": "r01",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "তিন",
         "tr": "tin",
         "en": "three"
       },
+      "direction": "bn_to_en",
       "options": [
-        "সত্তর",
-        "আট",
-        "ত্রিশ",
-        "তিন"
+        "seventy",
+        "eight",
+        "thirty",
+        "three"
       ],
       "answer": 3,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "বুঝতে পারছি না",
         "tr": "bujhte parchhi na",
         "en": "I don't understand"
       },
-      "direction": "en_to_bn",
       "options": [
         "আসসালামু আলাইকুম",
         "বুঝতে পারছি না",
@@ -431,12 +431,12 @@
         "tr": "tomader",
         "en": "your (familiar, plural)"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "they",
-        "you (intimate, plural)",
-        "your (familiar, plural)",
-        "this"
+        "তারা",
+        "তোরা",
+        "তোমাদের",
+        "এটা"
       ],
       "answer": 2,
       "recycle": true

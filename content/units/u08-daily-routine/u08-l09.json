@@ -422,42 +422,42 @@
         "tr": "bolte",
         "en": "to speak"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "I listen",
-        "(you, polite) know",
-        "to speak",
-        "I get up"
+        "শুনি",
+        "জানেন",
+        "বলতে",
+        "উঠি"
       ],
       "answer": 2,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "পারি",
         "tr": "pari",
         "en": "(I) can"
       },
+      "direction": "bn_to_en",
       "options": [
-        "খাচ্ছি",
-        "পারি",
-        "থাকি",
-        "নেই"
+        "listens",
+        "I brush",
+        "(I/we) want",
+        "(I) can"
       ],
-      "answer": 1,
+      "answer": 3,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "পারেন",
         "tr": "paren",
         "en": "(you, polite) can"
       },
-      "direction": "en_to_bn",
       "options": [
         "থামেন",
         "পারেন",

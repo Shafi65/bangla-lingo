@@ -384,30 +384,30 @@
     },
     {
       "id": "r01",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "পাঁচশ",
         "tr": "pa~chsho",
         "en": "five hundred"
       },
+      "direction": "bn_to_en",
       "options": [
-        "আড়াইটা",
-        "দেড়",
-        "পাঁচশ",
-        "ত্রিশ"
+        "half past two",
+        "one and a half",
+        "five hundred",
+        "thirty"
       ],
       "answer": 2,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "দুইশ",
         "tr": "duisho",
         "en": "two hundred"
       },
-      "direction": "en_to_bn",
       "options": [
         "দুইশ",
         "একশ",
@@ -425,12 +425,12 @@
         "tr": "shudhu",
         "en": "only"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "only",
-        "very",
-        "tomorrow; yesterday",
-        "today"
+        "শুধু",
+        "খুব",
+        "কাল",
+        "আজ"
       ],
       "answer": 0,
       "recycle": true
@@ -467,24 +467,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "বিকালে",
-          "tr": "bikale",
-          "en": "in the afternoon"
+          "bn": "সকালে",
+          "tr": "shokale",
+          "en": "in the morning"
         },
         {
-          "bn": "সন্ধ্যায়",
-          "tr": "shondhay",
-          "en": "in the evening"
+          "bn": "কাল",
+          "tr": "kal",
+          "en": "tomorrow; yesterday"
         },
         {
-          "bn": "দেড়টা",
-          "tr": "derta",
-          "en": "half past one"
+          "bn": "দুপুরে",
+          "tr": "dupure",
+          "en": "at noon"
         },
         {
-          "bn": "সোয়া",
-          "tr": "shoya",
-          "en": "quarter past"
+          "bn": "সাড়ে",
+          "tr": "share",
+          "en": "half past"
         }
       ],
       "recycle": true

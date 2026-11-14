@@ -371,49 +371,49 @@
         "tr": "tinta",
         "en": "three (o'clock)"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "fifty",
-        "half past one",
-        "thirteen",
-        "three (o'clock)"
+        "পঞ্চাশ",
+        "দেড়টা",
+        "তেরো",
+        "তিনটা"
       ],
       "answer": 3,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "কয়টা",
         "tr": "koyta",
         "en": "what time; how many"
       },
+      "direction": "bn_to_en",
       "options": [
-        "কোথা",
-        "কেমন",
-        "কয়টা",
-        "অবশ্যই"
+        "how",
+        "here",
+        "where",
+        "what time; how many"
       ],
-      "answer": 2,
+      "answer": 3,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "মিনিট",
         "tr": "minit",
         "en": "minute"
       },
-      "direction": "en_to_bn",
       "options": [
         "ছাত্রী",
-        "মানে",
         "মিনিট",
-        "নাম"
+        "গরুর",
+        "পরিবার"
       ],
-      "answer": 2,
+      "answer": 1,
       "recycle": true
     },
     {
@@ -426,11 +426,6 @@
           "en": "something"
         },
         {
-          "bn": "চান",
-          "tr": "chan",
-          "en": "(you/he/she, polite) want"
-        },
-        {
           "bn": "খেতে",
           "tr": "khete",
           "en": "to eat"
@@ -439,6 +434,11 @@
           "bn": "লেগেছে",
           "tr": "legechhe",
           "en": "has come on (felt)"
+        },
+        {
+          "bn": "চান",
+          "tr": "chan",
+          "en": "(you/he/she, polite) want"
         }
       ],
       "recycle": true
@@ -448,9 +448,9 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "চাও",
-          "tr": "chao",
-          "en": "(you, familiar) want"
+          "bn": "আমটা",
+          "tr": "amta",
+          "en": "the mango"
         },
         {
           "bn": "লাগে",
@@ -458,14 +458,14 @@
           "en": "feels"
         },
         {
-          "bn": "আমটা",
-          "tr": "amta",
-          "en": "the mango"
-        },
-        {
           "bn": "অবশ্যই",
           "tr": "oboshshoi",
           "en": "of course"
+        },
+        {
+          "bn": "চাও",
+          "tr": "chao",
+          "en": "(you, familiar) want"
         }
       ],
       "recycle": true

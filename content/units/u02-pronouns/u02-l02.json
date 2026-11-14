@@ -373,47 +373,47 @@
         "tr": "tini",
         "en": "he/she (polite)"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "he/she (polite)",
-        "you (familiar, plural)",
-        "your (familiar)",
-        "you (polite)"
+        "তিনি",
+        "তোমরা",
+        "তোমার",
+        "আপনি"
       ],
       "answer": 0,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "সে",
         "tr": "she",
         "en": "he/she"
       },
+      "direction": "bn_to_en",
       "options": [
-        "ও",
-        "সে",
-        "আপনারা",
-        "কী"
+        "your (polite)",
+        "you (familiar)",
+        "you (polite, plural)",
+        "he/she"
       ],
-      "answer": 1,
+      "answer": 3,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "উনি",
         "tr": "uni",
         "en": "he/she (polite, spoken)"
       },
-      "direction": "en_to_bn",
       "options": [
         "আপনি",
         "উনি",
         "আপনার",
-        "তারা"
+        "ওরা"
       ],
       "answer": 1,
       "recycle": true

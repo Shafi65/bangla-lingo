@@ -359,35 +359,35 @@
     },
     {
       "id": "r01",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "বুঝতে পারছি না",
         "tr": "bujhte parchhi na",
         "en": "I don't understand"
       },
+      "direction": "bn_to_en",
       "options": [
-        "খোদা হাফেজ",
-        "নমস্কার",
-        "ধন্যবাদ",
-        "বুঝতে পারছি না"
+        "goodbye",
+        "hello (Hindu greeting)",
+        "thank you",
+        "I don't understand"
       ],
       "answer": 3,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "সে",
         "tr": "she",
         "en": "he/she"
       },
-      "direction": "en_to_bn",
       "options": [
+        "তুমি",
         "ওরা",
-        "আপনারা",
         "সে",
-        "আপনার"
+        "আমাদের"
       ],
       "answer": 2,
       "recycle": true
@@ -400,14 +400,14 @@
         "tr": "walaikum assalam",
         "en": "hello (in reply)"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "hello (in reply)",
-        "praise be to God",
-        "I don't understand",
-        "see you again"
+        "আবার দেখা হবে",
+        "ধন্যবাদ",
+        "ওয়ালাইকুম আসসালাম",
+        "খোদা হাফেজ"
       ],
-      "answer": 0,
+      "answer": 2,
       "recycle": true
     },
     {
@@ -415,9 +415,9 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "মায়ের",
-          "tr": "mayer",
-          "en": "mother's"
+          "bn": "নন",
+          "tr": "non",
+          "en": "is not / are not (polite)"
         },
         {
           "bn": "আপনারা",
@@ -430,9 +430,9 @@
           "en": "they (spoken)"
         },
         {
-          "bn": "নন",
-          "tr": "non",
-          "en": "is not / are not (polite)"
+          "bn": "মায়ের",
+          "tr": "mayer",
+          "en": "mother's"
         }
       ],
       "recycle": true
@@ -441,11 +441,6 @@
       "id": "r05",
       "type": "match_pairs",
       "pairs": [
-        {
-          "bn": "তোরা",
-          "tr": "tora",
-          "en": "you (intimate, plural)"
-        },
         {
           "bn": "মানুষ",
           "tr": "manush",
@@ -460,6 +455,11 @@
           "bn": "তিনি",
           "tr": "tini",
           "en": "he/she (polite)"
+        },
+        {
+          "bn": "তোরা",
+          "tr": "tora",
+          "en": "you (intimate, plural)"
         }
       ],
       "recycle": true

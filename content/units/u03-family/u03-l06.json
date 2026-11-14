@@ -370,13 +370,12 @@
     },
     {
       "id": "r01",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "দুইজন",
         "tr": "duijon",
         "en": "two (people)"
       },
-      "direction": "en_to_bn",
       "options": [
         "দুইজন",
         "একটা",
@@ -394,29 +393,30 @@
         "tr": "kintu",
         "en": "but"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "OK",
-        "no",
-        "and",
-        "but"
+        "আচ্ছা",
+        "না",
+        "আর",
+        "কিন্তু"
       ],
       "answer": 3,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "সবাই",
         "tr": "shobai",
         "en": "everyone"
       },
+      "direction": "bn_to_en",
       "options": [
-        "তিনি",
-        "কে",
-        "সবাই",
-        "সে"
+        "he/she (polite)",
+        "who",
+        "everyone",
+        "he/she"
       ],
       "answer": 2,
       "recycle": true

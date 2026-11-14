@@ -363,55 +363,60 @@
         "tr": "mami",
         "en": "aunt (mama's wife)"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "elder brother",
-        "aunt (mama's wife)",
-        "Bengali (language)",
-        "brother"
+        "ভাইয়া",
+        "মামি",
+        "বাংলা",
+        "ভাই"
       ],
       "answer": 1,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "খালু",
         "tr": "khalu",
         "en": "uncle (khala's husband)"
       },
+      "direction": "bn_to_en",
       "options": [
-        "বাংলা",
-        "বাবা",
-        "ফুফা",
-        "খালু"
+        "uncle (khala's husband)",
+        "boy",
+        "sister",
+        "family"
       ],
-      "answer": 3,
+      "answer": 0,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "মায়ের",
         "tr": "mayer",
         "en": "mother's"
       },
-      "direction": "en_to_bn",
       "options": [
-        "মায়ের",
         "ছাত্র",
-        "ভাই",
-        "আব্বু"
+        "বাবা",
+        "মায়ের",
+        "দাদি"
       ],
-      "answer": 0,
+      "answer": 2,
       "recycle": true
     },
     {
       "id": "r04",
       "type": "match_pairs",
       "pairs": [
+        {
+          "bn": "নানা",
+          "tr": "nana",
+          "en": "grandfather (mother's father)"
+        },
         {
           "bn": "মামা",
           "tr": "mama",
@@ -421,11 +426,6 @@
           "bn": "নানি",
           "tr": "nani",
           "en": "grandmother (mother's mother)"
-        },
-        {
-          "bn": "নানা",
-          "tr": "nana",
-          "en": "grandfather (mother's father)"
         },
         {
           "bn": "খালা",
@@ -440,24 +440,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "ওর",
-          "tr": "or",
-          "en": "his/her (spoken)"
-        },
-        {
           "bn": "ভাইয়া",
           "tr": "bhaiya",
           "en": "elder brother"
         },
         {
-          "bn": "তোর",
-          "tr": "tor",
-          "en": "your (intimate)"
-        },
-        {
           "bn": "আম্মু",
           "tr": "ammu",
           "en": "mom"
+        },
+        {
+          "bn": "ওর",
+          "tr": "or",
+          "en": "his/her (spoken)"
+        },
+        {
+          "bn": "তোর",
+          "tr": "tor",
+          "en": "your (intimate)"
         }
       ],
       "recycle": true

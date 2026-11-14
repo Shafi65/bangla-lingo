@@ -368,42 +368,42 @@
         "tr": "chhara",
         "en": "without"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "without",
-        "from",
-        "cup",
-        "good, well"
+        "ছাড়া",
+        "থেকে",
+        "কাপ",
+        "ভালো"
       ],
       "answer": 0,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "লবণ",
         "tr": "lobon",
         "en": "salt"
       },
+      "direction": "bn_to_en",
       "options": [
-        "গরুর",
-        "খাবার",
-        "লবণ",
-        "ভাই"
+        "cow's",
+        "food",
+        "salt",
+        "brother"
       ],
       "answer": 2,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "দুধ",
         "tr": "dudh",
         "en": "milk"
       },
-      "direction": "en_to_bn",
       "options": [
         "ফুফা",
         "নানি",

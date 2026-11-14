@@ -384,13 +384,12 @@
     },
     {
       "id": "r01",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "হিন্দুদের",
         "tr": "hinduder",
         "en": "of the Hindus"
       },
-      "direction": "en_to_bn",
       "options": [
         "বোন",
         "হিন্দুদের",
@@ -408,29 +407,30 @@
         "tr": "mondire",
         "en": "to the temple"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "to the temple",
-        "TV",
-        "the shop",
-        "dates"
+        "মন্দিরে",
+        "টিভি",
+        "দোকানটা",
+        "খেজুর"
       ],
       "answer": 0,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "পূজায়",
         "tr": "pujay",
         "en": "at Puja"
       },
+      "direction": "bn_to_en",
       "options": [
-        "আপু",
-        "পূজায়",
-        "হোটেলের",
-        "দিন"
+        "elder sister",
+        "at Puja",
+        "of the hotel",
+        "day"
       ],
       "answer": 1,
       "recycle": true

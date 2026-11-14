@@ -320,42 +320,42 @@
         "tr": "unish",
         "en": "nineteen"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "one; a (formal)",
-        "two (things)",
-        "nineteen",
-        "twenty"
+        "একটি",
+        "দুইটা",
+        "উনিশ",
+        "বিশ"
       ],
       "answer": 2,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "আঠারো",
         "tr": "atharo",
         "en": "eighteen"
       },
+      "direction": "bn_to_en",
       "options": [
-        "আঠারো",
-        "ছয়",
-        "নয়",
-        "চৌদ্দ"
+        "eighteen",
+        "six",
+        "nine",
+        "fourteen"
       ],
       "answer": 0,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "ষোলো",
         "tr": "sholo",
         "en": "sixteen"
       },
-      "direction": "en_to_bn",
       "options": [
         "চৌদ্দ",
         "সতেরো",

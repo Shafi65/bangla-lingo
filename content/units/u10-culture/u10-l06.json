@@ -399,42 +399,42 @@
         "tr": "shadhinota",
         "en": "independence"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "Ramadan",
-        "Wednesday",
-        "train",
-        "independence"
+        "রমজান",
+        "বুধবার",
+        "ট্রেন",
+        "স্বাধীনতা"
       ],
       "answer": 3,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "ভাষা",
         "tr": "bhasha",
         "en": "language"
       },
+      "direction": "bn_to_en",
       "options": [
-        "দিবস",
-        "মানুষ",
-        "ছেলে",
-        "ভাষা"
+        "day",
+        "person",
+        "boy",
+        "language"
       ],
       "answer": 3,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "মাতৃভাষা",
         "tr": "matribhasha",
         "en": "mother tongue"
       },
-      "direction": "en_to_bn",
       "options": [
         "মাতৃভাষা",
         "নাস্তা",

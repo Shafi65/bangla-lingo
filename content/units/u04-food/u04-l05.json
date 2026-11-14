@@ -383,13 +383,12 @@
     },
     {
       "id": "r01",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "অবশ্যই",
         "tr": "oboshshoi",
         "en": "of course"
       },
-      "direction": "en_to_bn",
       "options": [
         "কোথা",
         "অবশ্যই",
@@ -407,29 +406,30 @@
         "tr": "chan",
         "en": "(you/he/she, polite) want"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "is not / are not (polite)",
-        "(you/he/she, polite) want",
-        "is (he/she/it)",
-        "are (familiar)"
+        "নন",
+        "চান",
+        "আছে",
+        "আছো"
       ],
       "answer": 1,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "কিছু",
         "tr": "kichhu",
         "en": "something"
       },
+      "direction": "bn_to_en",
       "options": [
-        "আপনার",
-        "কিছু",
-        "তিনি",
-        "তোর"
+        "your (polite)",
+        "something",
+        "he/she (polite)",
+        "your (intimate)"
       ],
       "answer": 1,
       "recycle": true

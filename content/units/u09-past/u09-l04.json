@@ -369,18 +369,17 @@
     },
     {
       "id": "r01",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "আসলাম",
         "tr": "ashlam",
         "en": "I came"
       },
-      "direction": "en_to_bn",
       "options": [
         "আসলাম",
-        "উঠি",
-        "দেখে",
-        "যান"
+        "দেখলাম",
+        "জানি",
+        "নয়"
       ],
       "answer": 0,
       "recycle": true
@@ -393,31 +392,32 @@
         "tr": "dilam",
         "en": "I gave"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "I came",
-        "will leave",
-        "I gave",
-        "went"
+        "দিলাম",
+        "আছে",
+        "খাচ্ছি",
+        "করলি"
       ],
-      "answer": 2,
+      "answer": 0,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "এলে",
         "tr": "ele",
         "en": "you came (familiar)"
       },
+      "direction": "bn_to_en",
       "options": [
-        "পড়ে",
-        "কিনলেন",
-        "এলে",
-        "লিখি"
+        "I speak",
+        "you came (familiar)",
+        "has come on (felt)",
+        "is not"
       ],
-      "answer": 2,
+      "answer": 1,
       "recycle": true
     },
     {
@@ -430,6 +430,11 @@
           "en": "upstairs"
         },
         {
+          "bn": "এলাম",
+          "tr": "elam",
+          "en": "I came"
+        },
+        {
           "bn": "নিলাম",
           "tr": "nilam",
           "en": "I took"
@@ -438,11 +443,6 @@
           "bn": "গেলাম",
           "tr": "gelam",
           "en": "I went"
-        },
-        {
-          "bn": "এলাম",
-          "tr": "elam",
-          "en": "I came"
         }
       ],
       "recycle": true
@@ -451,6 +451,11 @@
       "id": "r05",
       "type": "match_pairs",
       "pairs": [
+        {
+          "bn": "কাল",
+          "tr": "kal",
+          "en": "tomorrow; yesterday"
+        },
         {
           "bn": "গেল",
           "tr": "gelo",
@@ -465,11 +470,6 @@
           "bn": "খাস",
           "tr": "khash",
           "en": "(you, intimate) eat"
-        },
-        {
-          "bn": "কাল",
-          "tr": "kal",
-          "en": "tomorrow; yesterday"
         }
       ],
       "recycle": true

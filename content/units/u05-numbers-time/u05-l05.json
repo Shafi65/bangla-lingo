@@ -385,13 +385,12 @@
     },
     {
       "id": "r01",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "সত্তর",
         "tr": "shottor",
         "en": "seventy"
       },
-      "direction": "en_to_bn",
       "options": [
         "সত্তর",
         "দুই",
@@ -409,29 +408,30 @@
         "tr": "trish",
         "en": "thirty"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "one; a",
-        "thirty",
-        "thousand",
-        "forty"
+        "একটা",
+        "ত্রিশ",
+        "হাজার",
+        "চল্লিশ"
       ],
       "answer": 1,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "চল্লিশ",
         "tr": "chollish",
         "en": "forty"
       },
+      "direction": "bn_to_en",
       "options": [
-        "নয়",
-        "তেরো",
-        "চল্লিশ",
-        "দুইটা"
+        "nine",
+        "thirteen",
+        "forty",
+        "two (things)"
       ],
       "answer": 2,
       "recycle": true

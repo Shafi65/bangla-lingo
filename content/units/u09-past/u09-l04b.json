@@ -365,42 +365,42 @@
         "tr": "kheyechhen",
         "en": "have you eaten (polite)"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "you read (polite)",
-        "have you eaten (polite)",
-        "give (polite)",
-        "I have done"
+        "পড়েন",
+        "খেয়েছেন",
+        "দেন",
+        "করেছি"
       ],
       "answer": 1,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "গিয়েছে",
         "tr": "giyechhe",
         "en": "has gone"
       },
+      "direction": "bn_to_en",
       "options": [
-        "লিখি",
-        "গিয়েছে",
-        "ঘুমালাম",
-        "করছে"
+        "has gone",
+        "I read",
+        "I go",
+        "have you eaten (familiar)"
       ],
-      "answer": 1,
+      "answer": 0,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "খেয়েছো",
         "tr": "kheyechho",
         "en": "have you eaten (familiar)"
       },
-      "direction": "en_to_bn",
       "options": [
         "পড়েন",
         "খেয়েছো",

@@ -373,45 +373,45 @@
         "tr": "tometo",
         "en": "tomato"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "tomato",
-        "teacher",
-        "English (language)",
-        "brother"
+        "টমেটো",
+        "শিক্ষক",
+        "ইংরেজি",
+        "ভাই"
       ],
       "answer": 0,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "জামাটা",
         "tr": "jamata",
         "en": "the shirt"
       },
+      "direction": "bn_to_en",
       "options": [
-        "জামাটা",
-        "বাজার",
-        "লবণ",
-        "ভাংতি"
+        "the shirt",
+        "market",
+        "salt",
+        "change"
       ],
       "answer": 0,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "শাড়িটা",
         "tr": "sharita",
         "en": "the sari"
       },
-      "direction": "en_to_bn",
       "options": [
-        "ভাড়া",
-        "চিনি",
+        "দুধ",
+        "মসজিদের",
         "জামা",
         "শাড়িটা"
       ],
@@ -428,6 +428,11 @@
           "en": "shirt"
         },
         {
+          "bn": "কোনো",
+          "tr": "kono",
+          "en": "any"
+        },
+        {
           "bn": "শেষ",
           "tr": "shesh",
           "en": "last"
@@ -436,11 +441,6 @@
           "bn": "মাছটা",
           "tr": "machhta",
           "en": "the fish"
-        },
-        {
-          "bn": "কোনো",
-          "tr": "kono",
-          "en": "any"
         }
       ],
       "recycle": true
@@ -450,6 +450,11 @@
       "type": "match_pairs",
       "pairs": [
         {
+          "bn": "কোথা",
+          "tr": "kotha",
+          "en": "where (before থেকে)"
+        },
+        {
           "bn": "ছয়",
           "tr": "chhoy",
           "en": "six"
@@ -458,11 +463,6 @@
           "bn": "ওনার",
           "tr": "onar",
           "en": "his/her (polite)"
-        },
-        {
-          "bn": "এসেছেন",
-          "tr": "eshechhen",
-          "en": "(you, polite) have come"
         },
         {
           "bn": "তিন",

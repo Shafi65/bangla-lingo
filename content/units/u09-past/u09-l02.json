@@ -370,42 +370,42 @@
         "tr": "ghumalam",
         "en": "I slept"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "I watch",
-        "you speak (polite)",
-        "is doing",
-        "I slept"
+        "দেখি",
+        "বলেন",
+        "করছে",
+        "ঘুমালাম"
       ],
       "answer": 3,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "শুনলাম",
         "tr": "shunlam",
         "en": "I heard"
       },
+      "direction": "bn_to_en",
       "options": [
-        "কিনল",
-        "বলি",
-        "করিস",
-        "শুনলাম"
+        "bought",
+        "I speak",
+        "you do (intimate)",
+        "I heard"
       ],
       "answer": 3,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "বললাম",
         "tr": "bollam",
         "en": "I said"
       },
-      "direction": "en_to_bn",
       "options": [
         "লেখে",
         "যাবে",

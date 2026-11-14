@@ -379,13 +379,12 @@
     },
     {
       "id": "r01",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "যাইনি",
         "tr": "jaini",
         "en": "I didn't go"
       },
-      "direction": "en_to_bn",
       "options": [
         "খাইনি",
         "আসি",
@@ -403,29 +402,30 @@
         "tr": "korini",
         "en": "I didn't do"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "you were (familiar)",
-        "I did",
-        "watches",
-        "I didn't do"
+        "ছিলে",
+        "করলাম",
+        "দেখে",
+        "করিনি"
       ],
       "answer": 3,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "দেখিনি",
         "tr": "dekhini",
         "en": "I didn't see"
       },
+      "direction": "bn_to_en",
       "options": [
-        "করলেন",
-        "আছি",
-        "দেখিনি",
-        "খেয়েছি"
+        "you did (polite)",
+        "am",
+        "I didn't see",
+        "I have eaten"
       ],
       "answer": 2,
       "recycle": true

@@ -422,20 +422,19 @@
     },
     {
       "id": "r01",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "উঠি",
         "tr": "uthi",
         "en": "I get up"
       },
-      "direction": "en_to_bn",
       "options": [
-        "যাই",
-        "থাকি",
-        "দে",
-        "উঠি"
+        "ঘুমান",
+        "উঠি",
+        "যাবেন",
+        "করে"
       ],
-      "answer": 3,
+      "answer": 1,
       "recycle": true
     },
     {
@@ -446,31 +445,32 @@
         "tr": "doshtay",
         "en": "at ten o'clock"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "there",
-        "when",
-        "in the morning",
-        "at ten o'clock"
+        "সত্যি",
+        "সাতটায়",
+        "দশটায়",
+        "কয়টা"
       ],
-      "answer": 3,
+      "answer": 2,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "সাতটায়",
         "tr": "shattay",
         "en": "at seven o'clock"
       },
+      "direction": "bn_to_en",
       "options": [
-        "কখন",
-        "কয়জন",
-        "সাতটায়",
-        "সপ্তাহে"
+        "how many (people)",
+        "at seven o'clock",
+        "at ten o'clock",
+        "far"
       ],
-      "answer": 2,
+      "answer": 1,
       "recycle": true
     },
     {
@@ -478,9 +478,9 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "গোসল",
-          "tr": "gosol",
-          "en": "bath"
+          "bn": "ওঠেন",
+          "tr": "othen",
+          "en": "you get up (polite)"
         },
         {
           "bn": "খুচরা",
@@ -488,14 +488,14 @@
           "en": "change"
         },
         {
+          "bn": "গোসল",
+          "tr": "gosol",
+          "en": "bath"
+        },
+        {
           "bn": "ঘুমান",
           "tr": "ghuman",
           "en": "you sleep (polite)"
-        },
-        {
-          "bn": "ওঠেন",
-          "tr": "othen",
-          "en": "you get up (polite)"
         }
       ],
       "recycle": true
@@ -505,14 +505,14 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "একশ",
-          "tr": "eksho",
-          "en": "one hundred"
+          "bn": "ঘুমাই",
+          "tr": "ghumai",
+          "en": "I sleep"
         },
         {
-          "bn": "জিনিস",
-          "tr": "jinish",
-          "en": "thing"
+          "bn": "নব্বই",
+          "tr": "nobboi",
+          "en": "ninety"
         },
         {
           "bn": "সাড়ে",
@@ -520,9 +520,9 @@
           "en": "half past"
         },
         {
-          "bn": "ঘুমাই",
-          "tr": "ghumai",
-          "en": "I sleep"
+          "bn": "জিনিস",
+          "tr": "jinish",
+          "en": "thing"
         }
       ],
       "recycle": true

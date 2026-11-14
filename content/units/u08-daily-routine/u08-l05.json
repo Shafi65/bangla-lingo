@@ -390,13 +390,12 @@
     },
     {
       "id": "r01",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "সাধারণত",
         "tr": "shadharonoto",
         "en": "usually"
       },
-      "direction": "en_to_bn",
       "options": [
         "সাধারণত",
         "সপ্তাহে",
@@ -414,29 +413,30 @@
         "tr": "shuni",
         "en": "I listen"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "I come",
-        "(you, polite) have come",
-        "I am eating",
-        "I listen"
+        "আসি",
+        "এসেছেন",
+        "খাচ্ছি",
+        "শুনি"
       ],
       "answer": 3,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "লিখি",
         "tr": "likhi",
         "en": "I write"
       },
+      "direction": "bn_to_en",
       "options": [
-        "লিখি",
-        "এসেছেন",
-        "খাও",
-        "করছি"
+        "I write",
+        "(you, polite) have come",
+        "(you, familiar) eat",
+        "I am doing"
       ],
       "answer": 0,
       "recycle": true

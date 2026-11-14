@@ -398,20 +398,19 @@
     },
     {
       "id": "r01",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "সব",
         "tr": "shob",
         "en": "all"
       },
-      "direction": "en_to_bn",
       "options": [
-        "মিষ্টি",
         "সব",
+        "মিষ্টি",
         "বড়",
         "ঝাল"
       ],
-      "answer": 1,
+      "answer": 0,
       "recycle": true
     },
     {
@@ -422,31 +421,32 @@
         "tr": "assalamu alaikum",
         "en": "hello (peace be upon you)"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "I don't understand",
-        "hello (peace be upon you)",
-        "thank you",
-        "goodbye"
+        "আলহামদুলিল্লাহ",
+        "খোদা হাফেজ",
+        "ধন্যবাদ",
+        "আসসালামু আলাইকুম"
       ],
-      "answer": 1,
+      "answer": 3,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "তার",
         "tr": "tar",
         "en": "his/her"
       },
+      "direction": "bn_to_en",
       "options": [
-        "তার",
-        "আপনারা",
-        "ওর",
-        "তোমার"
+        "you (familiar, plural)",
+        "his/her",
+        "you (polite)",
+        "we"
       ],
-      "answer": 0,
+      "answer": 1,
       "recycle": true
     },
     {
@@ -454,14 +454,14 @@
       "type": "match_pairs",
       "pairs": [
         {
+          "bn": "আছো",
+          "tr": "achho",
+          "en": "are (familiar)"
+        },
+        {
           "bn": "তোর",
           "tr": "tor",
           "en": "your (intimate)"
-        },
-        {
-          "bn": "ওনার",
-          "tr": "onar",
-          "en": "his/her (polite)"
         },
         {
           "bn": "নয়",
@@ -469,9 +469,9 @@
           "en": "is not"
         },
         {
-          "bn": "আছো",
-          "tr": "achho",
-          "en": "are (familiar)"
+          "bn": "ওনার",
+          "tr": "onar",
+          "en": "his/her (polite)"
         }
       ],
       "recycle": true
@@ -481,11 +481,6 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "উনি",
-          "tr": "uni",
-          "en": "he/she (polite, spoken)"
-        },
-        {
           "bn": "নই",
           "tr": "noi",
           "en": "am not"
@@ -494,6 +489,11 @@
           "bn": "তুই",
           "tr": "tui",
           "en": "you (intimate)"
+        },
+        {
+          "bn": "উনি",
+          "tr": "uni",
+          "en": "he/she (polite, spoken)"
         },
         {
           "bn": "আছি",

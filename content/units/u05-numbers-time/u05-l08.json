@@ -364,13 +364,12 @@
     },
     {
       "id": "r01",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "বিকালে",
         "tr": "bikale",
         "en": "in the afternoon"
       },
-      "direction": "en_to_bn",
       "options": [
         "সকালে",
         "বিকালে",
@@ -388,29 +387,30 @@
         "tr": "dupure",
         "en": "at noon"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "in the afternoon",
-        "at noon",
-        "today",
-        "in the morning"
+        "বিকালে",
+        "দুপুরে",
+        "আজ",
+        "সকালে"
       ],
       "answer": 1,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "সন্ধ্যায়",
         "tr": "shondhay",
         "en": "in the evening"
       },
+      "direction": "bn_to_en",
       "options": [
-        "সকালে",
-        "কোথা",
-        "সন্ধ্যায়",
-        "খুব"
+        "in the morning",
+        "where (before থেকে)",
+        "in the evening",
+        "very"
       ],
       "answer": 2,
       "recycle": true

@@ -381,42 +381,42 @@
         "tr": "bari",
         "en": "home (family home)"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "hour",
-        "shopkeeper",
-        "elder sister; ma'am",
-        "home (family home)"
+        "ঘণ্টা",
+        "দোকানদার",
+        "আপা",
+        "বাড়ি"
       ],
       "answer": 3,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "বাসায়",
         "tr": "bashay",
         "en": "at home"
       },
+      "direction": "bn_to_en",
       "options": [
-        "সন্ধ্যা",
-        "শাড়ি",
-        "বাসায়",
-        "শিক্ষক"
+        "aunt (mama's wife)",
+        "grandfather (father's father)",
+        "the mango",
+        "at home"
       ],
-      "answer": 2,
+      "answer": 3,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "বাসা",
         "tr": "basha",
         "en": "home (where you live now)"
       },
-      "direction": "en_to_bn",
       "options": [
         "গরুর",
         "শাড়ি",
@@ -431,9 +431,9 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "জানেন",
-          "tr": "janen",
-          "en": "(you, polite) know"
+          "bn": "এসেছি",
+          "tr": "eshechhi",
+          "en": "(I) have come"
         },
         {
           "bn": "জামাটা",
@@ -446,9 +446,9 @@
           "en": "you will buy (polite)"
         },
         {
-          "bn": "কোথা",
-          "tr": "kotha",
-          "en": "where (before থেকে)"
+          "bn": "আপনারা",
+          "tr": "apnara",
+          "en": "you (polite, plural)"
         }
       ],
       "recycle": true
@@ -458,14 +458,9 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "আপনারা",
-          "tr": "apnara",
-          "en": "you (polite, plural)"
-        },
-        {
-          "bn": "তোর",
-          "tr": "tor",
-          "en": "your (intimate)"
+          "bn": "নও",
+          "tr": "noo",
+          "en": "are not (familiar)"
         },
         {
           "bn": "ও",
@@ -473,9 +468,14 @@
           "en": "he/she (spoken)"
         },
         {
-          "bn": "নয়",
-          "tr": "noy",
-          "en": "is not"
+          "bn": "এসেছেন",
+          "tr": "eshechhen",
+          "en": "(you, polite) have come"
+        },
+        {
+          "bn": "সবাই",
+          "tr": "shobai",
+          "en": "everyone"
         }
       ],
       "recycle": true

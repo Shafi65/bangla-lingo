@@ -132,12 +132,13 @@
       "type": "script_recognize",
       "glyph": "কেমন",
       "options": [
-        "kamon",
+        "ekmon",
         "komon",
         "kemon",
         "kimon"
       ],
-      "answer": 2
+      "answer": 2,
+      "why": "**ে** is written before ক but read after it: ক + ে = কে `ke`, so কেমন is `kemon`, not *ekmon*."
     },
     {
       "id": "e08",

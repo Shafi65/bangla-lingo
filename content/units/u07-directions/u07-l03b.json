@@ -3,7 +3,7 @@
   "unit": "u07-directions",
   "title": "Inside, outside, which way",
   "status": "draft",
-  "tip": "Four words that often stand alone:\n\n**ভিতরে** 'inside' · **বাইরে** 'outside' · **উপরে** 'upstairs, above' · **নিচে** 'downstairs, below'\n\n**বাবা বাইরে** 'Dad is outside', **আপু উপরে** 'Apu is upstairs'. With a noun, add 'of' first: **বাসার ভিতরে** 'inside the house' (বাসা + -র).\n\n'Which way?' is **কোন দিকে?** (**কোন** 'which', **দিকে** 'towards'). Answer with a point: **ওই দিকে** 'that way'. Keep **কোন** (which) apart from **কোথায়** (where).\n\nIn speech, **না** between two choices means 'or': **ডানে না বামে?** 'right or left?'\n\nAlso heard: **ভেতরে**, **ওপরে**.",
+  "tip": "Four words that often stand alone:\n\n**ভিতরে** 'inside' · **বাইরে** 'outside' · **উপরে** 'upstairs, above' · **নিচে** 'downstairs, below'\n\n**বাবা বাইরে** 'Dad is outside'. With a noun, use the 'of' ending from the last lesson: **বাসার ভিতরে** 'inside the house' (বাসা + -র), just like **স্টেশনের কাছে**.\n\n'Which way?' is **কোন দিকে?** (**কোন** 'which', **দিকে** 'towards'). Answer **ওই দিকে** 'that way'. Keep **কোন** (which) apart from **কোথায়** (where).\n\nYou'll also hear **ডানে না বামে?** 'right or left?': in a question, **না** between two choices means 'or'.\n\nAlso heard: **ভেতরে**, **ওপরে**.",
   "vocab": [
     {
       "id": "bhitore",
@@ -101,7 +101,8 @@
         "Apu is upstairs, Dad is downstairs.",
         "Apu is upstairs, Dad is outside."
       ],
-      "answer": 2
+      "answer": 2,
+      "why": "**উপরে** is 'upstairs' and **নিচে** is 'downstairs'."
     },
     {
       "id": "e04",
@@ -141,6 +142,24 @@
     },
     {
       "id": "e06",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "হোটেল কোন দিকে, ডানে না বামে?",
+        "tr": "hotel kon dike, dane na bame?",
+        "en": "Which way is the hotel, right or left?"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "Which way is the station, right or left?",
+        "Which way is the hotel, straight or right?",
+        "Which way is the hotel, right or left?",
+        "Is the hotel near or far?"
+      ],
+      "answer": 2,
+      "why": "In a question, **না** between two choices means 'or': **ডানে না বামে?** 'right or left?'"
+    },
+    {
+      "id": "e07",
       "type": "listen_select",
       "audio": {
         "bn": "উপরে",
@@ -156,7 +175,7 @@
       "answer": 3
     },
     {
-      "id": "e07",
+      "id": "e08",
       "type": "listen_select",
       "audio": {
         "bn": "নিচে",
@@ -172,7 +191,7 @@
       "answer": 1
     },
     {
-      "id": "e08",
+      "id": "e09",
       "type": "listen_select",
       "audio": {
         "bn": "কোন",
@@ -188,7 +207,7 @@
       "answer": 0
     },
     {
-      "id": "e09",
+      "id": "e10",
       "type": "match_pairs",
       "pairs": [
         {
@@ -219,7 +238,44 @@
       ]
     },
     {
-      "id": "e10",
+      "id": "e11",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "স্টেশন ওই দিকে।",
+        "tr": "steshon oi dike.",
+        "en": "The station is that way."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "this",
+        "station",
+        "way",
+        "The",
+        "which",
+        "is",
+        "hotel",
+        "that"
+      ],
+      "answer": [
+        "The",
+        "station",
+        "is",
+        "that",
+        "way"
+      ],
+      "alt": [
+        [
+          "that",
+          "way",
+          "is",
+          "The",
+          "station"
+        ]
+      ],
+      "why": "**ওই দিকে** is 'that way'; **কোন দিকে** asks 'which way?'."
+    },
+    {
+      "id": "e12",
       "type": "word_bank",
       "prompt": {
         "bn": "বাবা বাইরে।",
@@ -237,67 +293,43 @@
       "answer": [
         "বাবা",
         "বাইরে"
-      ]
-    },
-    {
-      "id": "e11",
-      "type": "word_bank",
-      "prompt": {
-        "bn": "চাচা বাসার বাইরে।",
-        "tr": "chacha bashar baire.",
-        "en": "Uncle is outside the house."
-      },
-      "direction": "bn_to_en",
-      "tiles": [
-        "the",
-        "upstairs",
-        "inside",
-        "outside",
-        "Uncle",
-        "is",
-        "house",
-        "hotel"
       ],
-      "answer": [
-        "Uncle",
-        "is",
-        "outside",
-        "the",
-        "house"
-      ]
-    },
-    {
-      "id": "e12",
-      "type": "word_bank",
-      "prompt": {
-        "bn": "হোটেল কোন দিকে, ডানে না বামে?",
-        "tr": "hotel kon dike, dane na bame?",
-        "en": "Which way is the hotel, right or left?"
-      },
-      "direction": "en_to_bn",
-      "tiles": [
-        "সোজা",
-        "না",
-        "দিকে",
-        "বামে",
-        "কে",
-        "কোন",
-        "ডানে",
-        "কোথায়",
-        "হোটেল"
-      ],
-      "answer": [
-        "হোটেল",
-        "কোন",
-        "দিকে",
-        "ডানে",
-        "না",
-        "বামে"
-      ],
-      "why": "In speech, **না** between two choices means 'or': ডানে না বামে?"
+      "why": "No word for 'is' is needed: **বাবা বাইরে** 'Dad (is) outside'."
     },
     {
       "id": "e13",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "স্টেশন কোন দিকে?",
+        "tr": "steshon kon dike?",
+        "en": "Which way is the station?"
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "কোথায়",
+        "দিকে",
+        "হোটেল",
+        "স্টেশন",
+        "ওই",
+        "কোন",
+        "সোজা"
+      ],
+      "answer": [
+        "স্টেশন",
+        "কোন",
+        "দিকে"
+      ],
+      "alt": [
+        [
+          "কোন",
+          "দিকে",
+          "স্টেশন"
+        ]
+      ],
+      "why": "'Which way' is **কোন দিকে**; **কোথায়** asks 'where'."
+    },
+    {
+      "id": "e14",
       "type": "select_translation",
       "prompt": {
         "bn": "দোকানটা নিচে।",
@@ -311,25 +343,8 @@
         "দোকানটা বাইরে।",
         "দোকানটা নেই।"
       ],
-      "answer": 1
-    },
-    {
-      "id": "e14",
-      "type": "type_translation",
-      "prompt": {
-        "bn": "স্টেশন ওই দিকে।",
-        "tr": "steshon oi dike.",
-        "en": "The station is that way."
-      },
-      "direction": "bn_to_en",
-      "accepted": [
-        "The station is that way.",
-        "The station's that way.",
-        "The station is over there.",
-        "The station is in that direction.",
-        "The station is that direction.",
-        "The station is towards there."
-      ]
+      "answer": 1,
+      "why": "**নিচে** is 'downstairs'; **উপরে** is 'upstairs'."
     },
     {
       "id": "e15",
@@ -358,20 +373,19 @@
     },
     {
       "id": "r01",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "দূরে",
-        "tr": "dure",
-        "en": "far"
+      "type": "listen_select",
+      "audio": {
+        "bn": "পাশে",
+        "tr": "pashe",
+        "en": "next to"
       },
-      "direction": "en_to_bn",
       "options": [
-        "দূরে",
-        "কত",
-        "কোথা",
-        "বিকালে"
+        "বাইরে",
+        "উপরে",
+        "পাশে",
+        "দিকে"
       ],
-      "answer": 0,
+      "answer": 2,
       "recycle": true
     },
     {
@@ -382,31 +396,32 @@
         "tr": "shamne",
         "en": "in front of"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "inside",
-        "in front of",
-        "near",
-        "without"
+        "পাশে",
+        "বাইরে",
+        "সামনে",
+        "দিয়ে"
       ],
-      "answer": 1,
+      "answer": 2,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "listen_select",
-      "audio": {
-        "bn": "পাশে",
-        "tr": "pashe",
-        "en": "next to"
+      "type": "select_translation",
+      "prompt": {
+        "bn": "দূরে",
+        "tr": "dure",
+        "en": "far"
       },
+      "direction": "bn_to_en",
       "options": [
-        "উপরে",
-        "পিছনে",
-        "পাশে",
-        "দিকে"
+        "very",
+        "far",
+        "in a week",
+        "why"
       ],
-      "answer": 2,
+      "answer": 1,
       "recycle": true
     },
     {
@@ -414,9 +429,14 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "বাড়ির",
-          "tr": "barir",
-          "en": "of the house"
+          "bn": "জিনিস",
+          "tr": "jinish",
+          "en": "thing"
+        },
+        {
+          "bn": "হোটেলের",
+          "tr": "hoteler",
+          "en": "of the hotel"
         },
         {
           "bn": "স্টেশনের",
@@ -424,14 +444,9 @@
           "en": "of the station"
         },
         {
-          "bn": "খুচরা",
-          "tr": "khuchra",
-          "en": "change"
-        },
-        {
-          "bn": "হোটেলের",
-          "tr": "hoteler",
-          "en": "of the hotel"
+          "bn": "বাড়ির",
+          "tr": "barir",
+          "en": "of the house"
         }
       ],
       "recycle": true
@@ -441,19 +456,19 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "ইলিশের",
-          "tr": "ilisher",
-          "en": "of the hilsa"
+          "bn": "নন",
+          "tr": "non",
+          "en": "is not / are not (polite)"
         },
         {
-          "bn": "জিনিস",
-          "tr": "jinish",
-          "en": "thing"
+          "bn": "আট",
+          "tr": "at",
+          "en": "eight"
         },
         {
-          "bn": "কিন্তু",
-          "tr": "kintu",
-          "en": "but"
+          "bn": "খুচরা",
+          "tr": "khuchra",
+          "en": "change"
         },
         {
           "bn": "দুইশ",

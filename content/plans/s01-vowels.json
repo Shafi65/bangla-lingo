@@ -3,48 +3,76 @@
   "lessons": [
     {
       "id": "s01-l01",
-      "title": "Vowels 1: অ আ ই ঈ",
-      "goal": "",
+      "title": "Vowels 1: অ আ",
+      "goal": "Read the first two vowel letters, অ and আ, and words that start with them.",
       "grammar": [],
       "new": [
         "l-o",
         "l-a",
-        "l-i",
-        "l-ii",
         "ojogor",
         "onek",
         "am",
-        "akash",
+        "akash"
+      ],
+      "review": [],
+      "tip": "**Bengali has 11 vowel letters (স্বরবর্ণ *shorborno*).** They stand alone when a vowel *starts* a syllable, e.g. at the start of a word. Here are the first two:\n\n- **অ** = `o`, a short open 'o' as in *or*. Every consonant secretly carries this sound, so you will see it everywhere later.\n- **আ** = `a` as in *father*. It is অ plus an extra stick (া), and that stick is exactly the sign that adds 'a' to a consonant later.\n\nBoth hang from a top line (মাত্রা *matra*), which is how Bengali letters join into words. Like an alphabet chart, each letter comes with words that start with it: **অ**জগর, **আ**ম.",
+      "sentences": []
+    },
+    {
+      "id": "s01-l01b",
+      "title": "Vowels 1b: ই ঈ",
+      "goal": "Read the two i-letters, ই and ঈ, and words that start with them.",
+      "grammar": [],
+      "new": [
+        "l-i",
+        "l-ii",
         "ilish",
         "it",
         "igol",
         "id"
       ],
-      "review": [],
-      "tip": "**Bengali has 11 vowel letters (স্বরবর্ণ *shorborno*).** They stand alone when a vowel *starts* a syllable, e.g. at the start of a word.\n\n- **অ** = `o`, a short open 'o' as in *or*. Every consonant secretly carries this sound, so you will see it everywhere later.\n- **আ** = `a` as in *father*. It is অ plus an extra stick (া), and that stick is exactly the sign that adds 'a' to a consonant later.\n- **ই** and **ঈ** are both `i` as in *see* ('short i' and 'long i'). **In everyday speech they sound the same**; you just learn which one each word is spelled with.\n\nAll four letters hang from a top line (মাত্রা *matra*), which is how Bengali letters join into words.",
+      "review": [
+        "am"
+      ],
+      "tip": "**ই** and **ঈ** are both `i` as in *see*. Their names are 'short i' (ই) and 'long i' (ঈ), but **in everyday speech they sound the same**. You just learn which one each word is spelled with:\n\n- **ই**লিশ (hilsa), **ই**ট (brick)\n- **ঈ**গল (eagle), **ঈ**দ (Eid)\n\nBecause they sound alike, you will only ever tell them apart by sight, never by ear.\n\n*Culture:* ইলিশ is Bangladesh's national fish, and ঈদ is one of the biggest holidays of the year.",
       "sentences": []
     },
     {
       "id": "s01-l02",
-      "title": "Vowels 2: উ ঊ ঋ এ",
-      "goal": "",
+      "title": "Vowels 2: উ ঊ",
+      "goal": "Read the two u-letters, উ and ঊ, and words that start with them.",
       "grammar": [],
       "new": [
         "l-u",
         "l-uu",
-        "l-ri",
-        "l-e",
         "ut",
         "ukil",
         "uru",
-        "usha",
+        "usha"
+      ],
+      "review": [
+        "it"
+      ],
+      "tip": "**উ** and **ঊ** are both `u` as in *food*: a 'short u' and a 'long u' that **sound the same** in speech, just like ই and ঈ. The long **ঊ** has one more stroke.\n\nLearn the spelling with the word:\n\n- **উ**ট (camel), **উ**কিল (lawyer)\n- **ঊ**রু (thigh), **ঊ**ষা (dawn)\n\nঊ is rare at the start of a word, so these are two of the few you'll see.\n\nWatch out: উ looks a lot like the consonant ড (`d`) that you'll meet later; ড has a notch in its top line.",
+      "sentences": []
+    },
+    {
+      "id": "s01-l02b",
+      "title": "Vowels 2b: ঋ এ",
+      "goal": "Read ঋ and এ and words that start with them.",
+      "grammar": [],
+      "new": [
+        "l-ri",
+        "l-e",
         "rishi",
         "ritu",
         "ek",
         "ekhon"
       ],
-      "review": [],
-      "tip": "- **উ** and **ঊ** are both `u` as in *food*, a 'short' and 'long' pair that **sound the same** in speech. The long ঊ has one more stroke.\n- **ঋ** is said `ri` as in *rip*. It mostly appears in words borrowed from Sanskrit, like ঋতু (season).\n- **এ** = `e`. It has two sounds: an open 'a' as in *cat* (এক `ek`, one; এখন `ekhon`, now) or 'ay' as in *say* (এই `ei`, this). You learn which by listening.\n\nWatch out: উ looks a lot like the consonant ড (`d`) that you'll meet later; ড has a notch in its top line.",
+      "review": [
+        "ut"
+      ],
+      "tip": "- **ঋ** is said `ri` as in *rip*. It mostly appears in words borrowed from Sanskrit, like **ঋ**তু (season) and **ঋ**ষি (sage).\n- **এ** = `e`. It has two sounds: an open 'a' as in *cat* (**এ**ক `ek`, one; **এ**খন `ekhon`, now) or 'ay' as in *say* (এই `ei`, this). You learn which by listening.\n\n*Culture:* Bengal traditionally counts six seasons (ছয় ঋতু), not four.",
       "sentences": []
     },
     {

@@ -375,33 +375,33 @@
     },
     {
       "id": "r01",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "তোমাদের",
         "tr": "tomader",
         "en": "your (familiar, plural)"
       },
+      "direction": "bn_to_en",
       "options": [
-        "এটা",
-        "তার",
-        "তোমাদের",
-        "তারা"
+        "this",
+        "your (familiar, plural)",
+        "he/she (polite, spoken)",
+        "his/her (polite)"
       ],
-      "answer": 2,
+      "answer": 1,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "আমাদের",
         "tr": "amader",
         "en": "our"
       },
-      "direction": "en_to_bn",
       "options": [
-        "তারা",
-        "আমার",
+        "আমরা",
+        "আপনি",
         "কী",
         "আমাদের"
       ],
@@ -416,14 +416,14 @@
         "tr": "shami",
         "en": "husband"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "elder sister",
-        "husband",
-        "aunt (mama's wife)",
-        "country"
+        "খালু",
+        "নানা",
+        "মেয়ে",
+        "স্বামী"
       ],
-      "answer": 1,
+      "answer": 3,
       "recycle": true
     },
     {
@@ -458,11 +458,6 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "চাচি",
-          "tr": "chachi",
-          "en": "aunt (chacha's wife)"
-        },
-        {
           "bn": "তার",
           "tr": "tar",
           "en": "his/her"
@@ -476,6 +471,11 @@
           "bn": "না",
           "tr": "na",
           "en": "no"
+        },
+        {
+          "bn": "চাচি",
+          "tr": "chachi",
+          "en": "aunt (chacha's wife)"
         }
       ],
       "recycle": true

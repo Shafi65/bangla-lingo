@@ -373,20 +373,19 @@
     },
     {
       "id": "r01",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "ঠিক আছে",
         "tr": "thik achhe",
         "en": "OK"
       },
-      "direction": "en_to_bn",
       "options": [
-        "লাগবে না",
         "ঠিক আছে",
+        "লাগবে না",
         "আবার দেখা হবে",
         "নমস্কার"
       ],
-      "answer": 1,
+      "answer": 0,
       "recycle": true
     },
     {
@@ -397,29 +396,30 @@
         "tr": "shobcheye",
         "en": "the most"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "the most",
-        "right",
-        "there",
-        "in a week"
+        "বছরে",
+        "সবচেয়ে",
+        "কয়জন",
+        "রাতে"
       ],
-      "answer": 0,
+      "answer": 1,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "শাড়ি",
         "tr": "shari",
         "en": "sari"
       },
+      "direction": "bn_to_en",
       "options": [
-        "নাস্তা",
-        "দোকান",
-        "শাড়ি",
-        "মানে"
+        "breakfast",
+        "shop",
+        "sari",
+        "meaning"
       ],
       "answer": 2,
       "recycle": true

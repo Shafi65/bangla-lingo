@@ -392,37 +392,37 @@
     },
     {
       "id": "r01",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "যাবে",
         "tr": "jabe",
         "en": "will go"
       },
+      "direction": "bn_to_en",
       "options": [
-        "যাবে",
-        "দাও",
-        "আছিস",
-        "জানি"
+        "(I) know",
+        "will go",
+        "(you, polite) have come",
+        "(you, intimate) eat"
       ],
-      "answer": 0,
+      "answer": 1,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "পর্যন্ত",
         "tr": "porjonto",
         "en": "to"
       },
-      "direction": "en_to_bn",
       "options": [
+        "দিয়ে",
+        "সামনে",
         "পর্যন্ত",
-        "কাছে",
-        "পাশে",
-        "পিছনে"
+        "উপরে"
       ],
-      "answer": 0,
+      "answer": 2,
       "recycle": true
     },
     {
@@ -433,12 +433,12 @@
         "tr": "chharbe",
         "en": "will leave"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "I will go",
-        "is not (here); there isn't",
-        "will leave",
-        "(you/he/she, polite) want"
+        "খাস",
+        "খান",
+        "ছাড়বে",
+        "নেই"
       ],
       "answer": 2,
       "recycle": true
@@ -448,24 +448,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "বাসে",
-          "tr": "base",
-          "en": "by bus"
-        },
-        {
-          "bn": "গাড়ি",
-          "tr": "gari",
-          "en": "car"
-        },
-        {
           "bn": "ট্রেনে",
           "tr": "trene",
           "en": "by train"
         },
         {
+          "bn": "বাসে",
+          "tr": "base",
+          "en": "by bus"
+        },
+        {
           "bn": "বাস",
           "tr": "bas",
           "en": "bus"
+        },
+        {
+          "bn": "গাড়ি",
+          "tr": "gari",
+          "en": "car"
         }
       ],
       "recycle": true
@@ -485,14 +485,14 @@
           "en": "train"
         },
         {
-          "bn": "টিকিট",
-          "tr": "tikit",
-          "en": "ticket"
-        },
-        {
           "bn": "ডজন",
           "tr": "dozon",
           "en": "dozen"
+        },
+        {
+          "bn": "টিকিট",
+          "tr": "tikit",
+          "en": "ticket"
         }
       ],
       "recycle": true

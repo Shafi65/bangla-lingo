@@ -340,30 +340,30 @@
     },
     {
       "id": "r01",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "লেগেছে",
         "tr": "legechhe",
         "en": "has come on (felt)"
       },
+      "direction": "bn_to_en",
       "options": [
-        "এসেছি",
-        "আছেন",
-        "আছিস",
-        "লেগেছে"
+        "is not / are not (polite)",
+        "are (polite)",
+        "(you/he/she, polite) want",
+        "has come on (felt)"
       ],
       "answer": 3,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "লাগে",
         "tr": "lage",
         "en": "feels"
       },
-      "direction": "en_to_bn",
       "options": [
         "লাগে",
         "খায়",
@@ -381,12 +381,12 @@
         "tr": "khudha",
         "en": "hunger"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "grandfather (father's father)",
-        "meat",
-        "hunger",
-        "uncle (khala's husband)"
+        "দাদা",
+        "মাংস",
+        "ক্ষুধা",
+        "খালু"
       ],
       "answer": 2,
       "recycle": true

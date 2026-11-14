@@ -373,13 +373,12 @@
     },
     {
       "id": "r01",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "বছর",
         "tr": "bochhor",
         "en": "year"
       },
-      "direction": "en_to_bn",
       "options": [
         "দোকানটা",
         "বছর",
@@ -397,29 +396,30 @@
         "tr": "prothom",
         "en": "first"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "expensive",
-        "sweet",
-        "first",
-        "good, well"
+        "দামি",
+        "মিষ্টি",
+        "প্রথম",
+        "ভালো"
       ],
       "answer": 2,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "মিনিট",
         "tr": "minit",
         "en": "minute"
       },
+      "direction": "bn_to_en",
       "options": [
-        "মিনিট",
-        "বছর",
-        "বাচ্চা",
-        "নানি"
+        "minute",
+        "year",
+        "child",
+        "grandmother (mother's mother)"
       ],
       "answer": 0,
       "recycle": true
@@ -429,24 +429,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "আশি",
-          "tr": "ashi",
-          "en": "eighty"
-        },
-        {
           "bn": "তিনি",
           "tr": "tini",
           "en": "he/she (polite)"
         },
         {
-          "bn": "বিকাল",
-          "tr": "bikal",
-          "en": "afternoon"
+          "bn": "জানি",
+          "tr": "jani",
+          "en": "(I) know"
         },
         {
           "bn": "ওর",
           "tr": "or",
           "en": "his/her (spoken)"
+        },
+        {
+          "bn": "আশি",
+          "tr": "ashi",
+          "en": "eighty"
         }
       ],
       "recycle": true
@@ -456,14 +456,9 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "জানি",
-          "tr": "jani",
-          "en": "(I) know"
-        },
-        {
-          "bn": "নব্বই",
-          "tr": "nobboi",
-          "en": "ninety"
+          "bn": "তার",
+          "tr": "tar",
+          "en": "his/her"
         },
         {
           "bn": "এগারো",
@@ -471,9 +466,14 @@
           "en": "eleven"
         },
         {
-          "bn": "তার",
-          "tr": "tar",
-          "en": "his/her"
+          "bn": "ওখানে",
+          "tr": "okhane",
+          "en": "there"
+        },
+        {
+          "bn": "নব্বই",
+          "tr": "nobboi",
+          "en": "ninety"
         }
       ],
       "recycle": true

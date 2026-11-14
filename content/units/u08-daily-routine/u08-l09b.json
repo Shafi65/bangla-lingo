@@ -397,35 +397,35 @@
     },
     {
       "id": "r01",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "থাকেন",
         "tr": "thaken",
         "en": "lives (polite)"
       },
+      "direction": "bn_to_en",
       "options": [
-        "পড়ছি",
-        "থাকেন",
-        "ছাড়বে",
-        "করছে"
+        "I get up",
+        "are (intimate)",
+        "I am reading",
+        "lives (polite)"
       ],
-      "answer": 1,
+      "answer": 3,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "যাবে",
         "tr": "jabe",
         "en": "will go"
       },
-      "direction": "en_to_bn",
       "options": [
         "যাবে",
-        "আছি",
-        "কিনব",
-        "নই"
+        "করে",
+        "দিন",
+        "কিনবেন"
       ],
       "answer": 0,
       "recycle": true
@@ -438,14 +438,14 @@
         "tr": "jabo",
         "en": "I will go"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "(I/we) want",
-        "(you, familiar) eat",
-        "I will go",
-        "(I) know"
+        "নও",
+        "করছে",
+        "এসেছি",
+        "যাব"
       ],
-      "answer": 2,
+      "answer": 3,
       "recycle": true
     },
     {
@@ -453,9 +453,9 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "তাহলে",
-          "tr": "tahole",
-          "en": "then"
+          "bn": "পর্যন্ত",
+          "tr": "porjonto",
+          "en": "to"
         },
         {
           "bn": "থাকি",
@@ -463,14 +463,14 @@
           "en": "I live"
         },
         {
+          "bn": "তাহলে",
+          "tr": "tahole",
+          "en": "then"
+        },
+        {
           "bn": "থামেন",
           "tr": "thamen",
           "en": "stop (polite)"
-        },
-        {
-          "bn": "পর্যন্ত",
-          "tr": "porjonto",
-          "en": "to"
         }
       ],
       "recycle": true
@@ -479,6 +479,11 @@
       "id": "r05",
       "type": "match_pairs",
       "pairs": [
+        {
+          "bn": "ছাড়বে",
+          "tr": "chharbe",
+          "en": "will leave"
+        },
         {
           "bn": "শহরে",
           "tr": "shohore",
@@ -493,11 +498,6 @@
           "bn": "কেউ",
           "tr": "keu",
           "en": "someone"
-        },
-        {
-          "bn": "ছাড়বে",
-          "tr": "chharbe",
-          "en": "will leave"
         }
       ],
       "recycle": true

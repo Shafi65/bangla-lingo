@@ -383,30 +383,30 @@
     },
     {
       "id": "r01",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "খাস",
         "tr": "khash",
         "en": "(you, intimate) eat"
       },
+      "direction": "bn_to_en",
       "options": [
-        "খাস",
-        "খেতে",
-        "জানি",
-        "এসেছি"
+        "(you, intimate) eat",
+        "are not (familiar)",
+        "(you, familiar) want",
+        "(you/he/she, polite) want"
       ],
       "answer": 0,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "খায়",
         "tr": "khay",
         "en": "(he/she/they) eats"
       },
-      "direction": "en_to_bn",
       "options": [
         "খায়",
         "এসেছি",
@@ -424,12 +424,12 @@
         "tr": "khao",
         "en": "(you, familiar) eat"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "(you/he/she, polite) want",
-        "(you, familiar) eat",
-        "(I/we) want",
-        "(I) know"
+        "চান",
+        "খাও",
+        "চাই",
+        "জানি"
       ],
       "answer": 1,
       "recycle": true

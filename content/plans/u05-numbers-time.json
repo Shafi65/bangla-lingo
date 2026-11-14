@@ -859,7 +859,7 @@
       "title": "Tomorrow, weeks & years",
       "goal": "Use 'tomorrow', talk about days, weeks, months and years.",
       "grammar": [
-        "কাল = tomorrow OR yesterday",
+        "কাল = tomorrow (no verb) OR yesterday (past verb)",
         "দিন (any day) vs বার (weekday)",
         "-এ 'in' with time spans: সপ্তাহে, বছরে"
       ],
@@ -885,9 +885,10 @@
         "boyosh",
         "amar",
         "shomoy",
-        "achhe"
+        "achhe",
+        "eshechhi"
       ],
-      "tip": "**কাল** (*kal*) means **both 'tomorrow' and 'yesterday'**; the verb's tense tells you which. With no verb, as in **কাল শনিবার**, it means 'tomorrow'.\n\n**দিন** is any 'day' (**বার** is only for weekday names): **সাত দিন** 'seven days'.\n\nFor 'in' a span of time, add **-এ**: **সপ্তাহে** 'in a week', **বছরে** 'in a year': **এক বছরে বারো মাস**.\n\n**বছর** 'year' (**আমার বয়স বিশ বছর** 'I'm twenty years old'), **মাস** 'month', **প্রথম** 'first': **আজ আমার প্রথম দিন**.\n\nDon't mix up **মাস** (month), **মা** (mother) and **মাংস** (meat)!",
+      "tip": "**কাল** (*kal*) means **'tomorrow' or 'yesterday'**, and the sentence tells you which:\n\n- No verb, as in **কাল শনিবার**: usually 'tomorrow'.\n- A past verb, as in **আমি কাল এসেছি**: 'yesterday'.\n\n**দিন** is any 'day' (**বার** is only for weekday names): **সাত দিন** 'seven days'.\n\nFor 'in' a span of time, add **-এ**: **সপ্তাহে** 'in a week', **বছরে** 'in a year': **এক বছরে বারো মাস**.\n\n**বছর** 'year' (**আমার বয়স বিশ বছর** 'I'm twenty'), **মাস** 'month', **প্রথম** 'first'.\n\nDon't mix up **মাস** (month), **মা** (mother) and **মাংস** (meat)!",
       "sentences": [
         {
           "bn": "কাল শনিবার।",
@@ -948,6 +949,14 @@
           "en": "I have one month.",
           "alt": [
             "I have a month."
+          ]
+        },
+        {
+          "bn": "আমি কাল এসেছি।",
+          "tr": "ami kal eshechhi.",
+          "en": "I came yesterday.",
+          "alt": [
+            "I arrived yesterday."
           ]
         }
       ]
@@ -1109,7 +1118,9 @@
         "bochhor",
         "baba",
         "biriyani",
-        "cha"
+        "cha",
+        "din-day",
+        "bochhore"
       ],
       "tip": "No new words: time, parts of the day, and days.\n\n- **কয়টা বাজে?** — **পাঁচটা বাজে।** Clock hours take **-টা**.\n- **সাড়ে** half past (from 3:30), **সোয়া** quarter past, **পৌনে** quarter to. 1:30 = **দেড়টা**, 2:30 = **আড়াইটা**.\n- 'In the …' adds **-এ / -য়**: সকাল → **সকালে**, সন্ধ্যা → **সন্ধ্যায়**.\n- **আজ কী বার?** **বার** is for weekday names; **দিন** is any day.\n- **কাল** = tomorrow or yesterday.",
       "sentences": [

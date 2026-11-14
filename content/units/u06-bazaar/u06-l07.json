@@ -374,13 +374,12 @@
     },
     {
       "id": "r01",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "কেন",
         "tr": "keno",
         "en": "why"
       },
-      "direction": "en_to_bn",
       "options": [
         "আজ",
         "কেন",
@@ -398,29 +397,30 @@
         "tr": "eto",
         "en": "so"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "so",
-        "only",
-        "at night",
-        "today"
+        "এত",
+        "শুধু",
+        "রাতে",
+        "আজ"
       ],
       "answer": 0,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "রাখেন",
         "tr": "rakhen",
         "en": "keep (polite)"
       },
+      "direction": "bn_to_en",
       "options": [
-        "দাও",
-        "খাও",
-        "নয়",
-        "রাখেন"
+        "give (familiar)",
+        "(you, familiar) eat",
+        "is not",
+        "keep (polite)"
       ],
       "answer": 3,
       "recycle": true

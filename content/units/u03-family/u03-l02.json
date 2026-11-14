@@ -378,55 +378,60 @@
         "tr": "ma",
         "en": "mother"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "student (female)",
-        "mother",
-        "country",
-        "father"
+        "ছাত্রী",
+        "মা",
+        "দেশ",
+        "বাবা"
       ],
       "answer": 1,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "পরিবার",
         "tr": "poribar",
         "en": "family"
       },
+      "direction": "bn_to_en",
       "options": [
-        "বন্ধু",
-        "পরিবার",
-        "বাবা",
-        "ছাত্রী"
+        "friend",
+        "family",
+        "father",
+        "student (female)"
       ],
       "answer": 1,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "বাবা",
         "tr": "baba",
         "en": "father"
       },
-      "direction": "en_to_bn",
       "options": [
-        "বাবা",
+        "বাংলা",
         "দেশ",
-        "মানুষ",
-        "ইংরেজি"
+        "বাবা",
+        "ভাইয়া"
       ],
-      "answer": 0,
+      "answer": 2,
       "recycle": true
     },
     {
       "id": "r04",
       "type": "match_pairs",
       "pairs": [
+        {
+          "bn": "আপনারা",
+          "tr": "apnara",
+          "en": "you (polite, plural)"
+        },
         {
           "bn": "খুব",
           "tr": "khub",
@@ -441,11 +446,6 @@
           "bn": "আম্মু",
           "tr": "ammu",
           "en": "mom"
-        },
-        {
-          "bn": "আপনারা",
-          "tr": "apnara",
-          "en": "you (polite, plural)"
         }
       ],
       "recycle": true
@@ -455,14 +455,14 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "আমরা",
-          "tr": "amra",
-          "en": "we"
-        },
-        {
           "bn": "নও",
           "tr": "noo",
           "en": "are not (familiar)"
+        },
+        {
+          "bn": "আমরা",
+          "tr": "amra",
+          "en": "we"
         },
         {
           "bn": "ওরা",

@@ -1,9 +1,9 @@
 {
   "id": "s01-l01",
   "unit": "s01-vowels",
-  "title": "Vowels 1: অ আ ই ঈ",
+  "title": "Vowels 1: অ আ",
   "status": "draft",
-  "tip": "**Bengali has 11 vowel letters (স্বরবর্ণ *shorborno*).** They stand alone when a vowel *starts* a syllable, e.g. at the start of a word.\n\n- **অ** = `o`, a short open 'o' as in *or*. Every consonant secretly carries this sound, so you will see it everywhere later.\n- **আ** = `a` as in *father*. It is অ plus an extra stick (া), and that stick is exactly the sign that adds 'a' to a consonant later.\n- **ই** and **ঈ** are both `i` as in *see* ('short i' and 'long i'). **In everyday speech they sound the same**; you just learn which one each word is spelled with.\n\nAll four letters hang from a top line (মাত্রা *matra*), which is how Bengali letters join into words.",
+  "tip": "**Bengali has 11 vowel letters (স্বরবর্ণ *shorborno*).** They stand alone when a vowel *starts* a syllable, e.g. at the start of a word. Here are the first two:\n\n- **অ** = `o`, a short open 'o' as in *or*. Every consonant secretly carries this sound, so you will see it everywhere later.\n- **আ** = `a` as in *father*. It is অ plus an extra stick (া), and that stick is exactly the sign that adds 'a' to a consonant later.\n\nBoth hang from a top line (মাত্রা *matra*), which is how Bengali letters join into words. Like an alphabet chart, each letter comes with words that start with it: **অ**জগর, **আ**ম.",
   "vocab": [
     {
       "id": "l-o",
@@ -18,20 +18,6 @@
       "tr": "a",
       "en": "a as in 'father'",
       "notes": "Name: sworo-a (স্বরে আ). Looks like অ with an extra stroke (া) on the right."
-    },
-    {
-      "id": "l-i",
-      "bn": "ই",
-      "tr": "i",
-      "en": "i as in 'see' (short-i letter)",
-      "notes": "Name: hroshsho-i (হ্রস্ব ই) = 'short i'. Sounds the same as ঈ in modern speech."
-    },
-    {
-      "id": "l-ii",
-      "bn": "ঈ",
-      "tr": "i",
-      "en": "i as in 'see' (long-i letter)",
-      "notes": "Name: dirgho-i (দীর্ঘ ই) = 'long i'. Same sound as ই; only the spelling differs."
     },
     {
       "id": "ojogor",
@@ -57,31 +43,6 @@
       "bn": "আকাশ",
       "tr": "akash",
       "en": "sky"
-    },
-    {
-      "id": "ilish",
-      "bn": "ইলিশ",
-      "tr": "ilish",
-      "en": "hilsa (fish)",
-      "notes": "Bangladesh's national fish."
-    },
-    {
-      "id": "it",
-      "bn": "ইট",
-      "tr": "it",
-      "en": "brick"
-    },
-    {
-      "id": "igol",
-      "bn": "ঈগল",
-      "tr": "igol",
-      "en": "eagle"
-    },
-    {
-      "id": "id",
-      "bn": "ঈদ",
-      "tr": "id",
-      "en": "Eid"
     }
   ],
   "exercises": [
@@ -95,7 +56,8 @@
         "i (as in 'see')",
         "u (as in 'food')"
       ],
-      "answer": 0
+      "answer": 0,
+      "why": "**অ** is the short, open `o` of *or*."
     },
     {
       "id": "e02",
@@ -103,52 +65,32 @@
       "glyph": "আ",
       "options": [
         "i (as in 'see')",
-        "a (as in 'father')",
         "o (as in 'or')",
+        "a (as in 'father')",
         "e (as in 'bed' / 'say')"
+      ],
+      "answer": 2,
+      "why": "**আ** is অ plus the stick **া**, which makes it `a` as in *father*."
+    },
+    {
+      "id": "e03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "অজগর",
+        "tr": "ojogor",
+        "en": "python (snake)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "mango",
+        "python (snake)",
+        "sky",
+        "rice"
       ],
       "answer": 1
     },
     {
-      "id": "e03",
-      "type": "script_recognize",
-      "glyph": "ই",
-      "options": [
-        "a (as in 'father')",
-        "o (as in 'or')",
-        "i (as in 'see')",
-        "u (as in 'food')"
-      ],
-      "answer": 2
-    },
-    {
       "id": "e04",
-      "type": "match_pairs",
-      "pairs": [
-        {
-          "bn": "অ",
-          "tr": "o",
-          "en": "o as in 'or'"
-        },
-        {
-          "bn": "আ",
-          "tr": "a",
-          "en": "a as in 'father'"
-        },
-        {
-          "bn": "ই",
-          "tr": "i",
-          "en": "i (short-i letter)"
-        },
-        {
-          "bn": "ঈ",
-          "tr": "i",
-          "en": "i (long-i letter)"
-        }
-      ]
-    },
-    {
-      "id": "e05",
       "type": "select_translation",
       "prompt": {
         "bn": "আম",
@@ -158,139 +100,122 @@
       "direction": "bn_to_en",
       "options": [
         "sky",
-        "brick",
+        "many / a lot",
+        "fish",
+        "mango"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e05",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আকাশ",
+        "tr": "akash",
+        "en": "sky"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "sky",
+        "python (snake)",
         "mango",
-        "many"
+        "water"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e06",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "অনেক",
+        "tr": "onek",
+        "en": "many / a lot"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "mango",
+        "sky",
+        "many / a lot",
+        "one"
       ],
       "answer": 2
     },
     {
-      "id": "e06",
-      "type": "listen_select",
-      "audio": {
-        "bn": "আম",
-        "tr": "am",
-        "en": "mango"
-      },
-      "options": [
-        "ইট",
-        "আম",
-        "ঈদ",
-        "অজগর"
-      ],
-      "answer": 1
-    },
-    {
       "id": "e07",
       "type": "script_recognize",
-      "glyph": "ঈ",
+      "glyph": "আম",
       "options": [
-        "o (as in 'or')",
-        "i (as in 'see')",
-        "a (as in 'father')",
-        "ri (as in 'rip')"
+        "om",
+        "am",
+        "im",
+        "um"
       ],
-      "answer": 1
+      "answer": 1,
+      "why": "It starts with **আ** `a` (with the extra stick), so আম is `am`."
     },
     {
       "id": "e08",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "ইলিশ",
-        "tr": "ilish",
-        "en": "hilsa (fish)"
-      },
-      "direction": "bn_to_en",
+      "type": "script_recognize",
+      "glyph": "অনেক",
       "options": [
-        "hilsa (fish)",
-        "eagle",
-        "python (snake)",
-        "Eid"
+        "anek",
+        "inek",
+        "unek",
+        "onek"
       ],
-      "answer": 0
+      "answer": 3,
+      "why": "It starts with **অ** `o` (no extra stick), so অনেক is `onek`."
     },
     {
       "id": "e09",
       "type": "listen_select",
       "audio": {
-        "bn": "ঈগল",
-        "tr": "igol",
-        "en": "eagle"
+        "bn": "আকাশ",
+        "tr": "akash",
+        "en": "sky"
       },
       "options": [
+        "অজগর",
         "আকাশ",
         "অনেক",
-        "ইলিশ",
-        "ঈগল"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "e10",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "অজগর",
-        "tr": "ojogor",
-        "en": "python (snake)"
-      },
-      "direction": "en_to_bn",
-      "options": [
-        "আম",
-        "অজগর",
-        "ঈগল",
-        "ইট"
+        "আম"
       ],
       "answer": 1
     },
     {
-      "id": "e11",
-      "type": "match_pairs",
-      "pairs": [
-        {
-          "bn": "অনেক",
-          "tr": "onek",
-          "en": "many / a lot"
-        },
-        {
-          "bn": "আকাশ",
-          "tr": "akash",
-          "en": "sky"
-        },
-        {
-          "bn": "ইট",
-          "tr": "it",
-          "en": "brick"
-        },
-        {
-          "bn": "ঈদ",
-          "tr": "id",
-          "en": "Eid"
-        },
-        {
-          "bn": "ইলিশ",
-          "tr": "ilish",
-          "en": "hilsa (fish)"
-        }
-      ]
-    },
-    {
-      "id": "e12",
+      "id": "e10",
       "type": "listen_select",
       "audio": {
-        "bn": "ইট",
-        "tr": "it",
-        "en": "brick"
+        "bn": "অজগর",
+        "tr": "ojogor",
+        "en": "python (snake)"
       },
       "options": [
         "আম",
-        "ঈদ",
-        "ইট",
-        "অনেক"
+        "অনেক",
+        "আকাশ",
+        "অজগর"
       ],
-      "answer": 2
+      "answer": 3
     },
     {
-      "id": "e13",
+      "id": "e11",
+      "type": "listen_select",
+      "audio": {
+        "bn": "অনেক",
+        "tr": "onek",
+        "en": "many / a lot"
+      },
+      "options": [
+        "অনেক",
+        "আকাশ",
+        "অজগর",
+        "আম"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e12",
       "type": "match_pairs",
       "pairs": [
         {
@@ -299,19 +224,14 @@
           "en": "python (snake)"
         },
         {
-          "bn": "আম",
-          "tr": "am",
-          "en": "mango"
-        },
-        {
-          "bn": "ঈগল",
-          "tr": "igol",
-          "en": "eagle"
-        },
-        {
           "bn": "অনেক",
           "tr": "onek",
           "en": "many / a lot"
+        },
+        {
+          "bn": "আম",
+          "tr": "am",
+          "en": "mango"
         },
         {
           "bn": "আকাশ",
@@ -321,21 +241,57 @@
       ]
     },
     {
+      "id": "e13",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আ",
+        "tr": "a",
+        "en": "a as in 'father'"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "অ",
+        "আ",
+        "ই",
+        "উ"
+      ],
+      "answer": 1,
+      "why": "**আ** = অ + the stick **া**, which adds `a`."
+    },
+    {
       "id": "e14",
       "type": "select_translation",
       "prompt": {
-        "bn": "ঈদ",
-        "tr": "id",
-        "en": "Eid"
+        "bn": "অ",
+        "tr": "o",
+        "en": "o as in 'or' (short, open)"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "eagle",
-        "brick",
-        "Eid",
-        "mango"
+        "আ",
+        "উ",
+        "অ",
+        "ই"
       ],
-      "answer": 2
+      "answer": 2,
+      "why": "**অ** has no extra stick; it is the short `o` of *or*."
+    },
+    {
+      "id": "e15",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আম",
+        "tr": "am",
+        "en": "mango"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "অজগর",
+        "আম",
+        "আকাশ",
+        "অনেক"
+      ],
+      "answer": 1
     }
   ]
 }

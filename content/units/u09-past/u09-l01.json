@@ -402,13 +402,12 @@
     },
     {
       "id": "r01",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "শহর",
         "tr": "shohor",
         "en": "city"
       },
-      "direction": "en_to_bn",
       "options": [
         "টাকা",
         "হোটেলের",
@@ -426,29 +425,30 @@
         "tr": "steshone",
         "en": "to the station"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "to the station",
-        "elder sister; ma'am",
-        "lungi",
-        "temple"
+        "স্টেশনে",
+        "আপা",
+        "লুঙ্গি",
+        "মন্দির"
       ],
       "answer": 0,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "ট্রেন",
         "tr": "tren",
         "en": "train"
       },
+      "direction": "bn_to_en",
       "options": [
-        "মোড়ে",
-        "ট্রেন",
-        "মানে",
-        "গাড়ি"
+        "at the intersection",
+        "train",
+        "meaning",
+        "car"
       ],
       "answer": 1,
       "recycle": true

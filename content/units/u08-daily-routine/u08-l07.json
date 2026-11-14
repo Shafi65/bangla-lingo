@@ -483,30 +483,30 @@
     },
     {
       "id": "r01",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "সবসময়",
         "tr": "shobshomoy",
         "en": "always"
       },
+      "direction": "bn_to_en",
       "options": [
-        "সবচেয়ে",
-        "কোথায়",
-        "দূরে",
-        "সবসময়"
+        "the most",
+        "where",
+        "far",
+        "always"
       ],
       "answer": 3,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "প্রতিদিন",
         "tr": "protidin",
         "en": "every day"
       },
-      "direction": "en_to_bn",
       "options": [
         "প্রতিদিন",
         "এখানে",
@@ -524,12 +524,12 @@
         "tr": "poren",
         "en": "you read (polite)"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "I am reading",
-        "does",
-        "you read (polite)",
-        "you do (familiar)"
+        "পড়ছি",
+        "করে",
+        "পড়েন",
+        "করো"
       ],
       "answer": 2,
       "recycle": true

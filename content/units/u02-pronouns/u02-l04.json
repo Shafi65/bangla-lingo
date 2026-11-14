@@ -337,20 +337,19 @@
     },
     {
       "id": "r01",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "তোরা",
         "tr": "tora",
         "en": "you (intimate, plural)"
       },
-      "direction": "en_to_bn",
       "options": [
-        "তোমার",
-        "আমার",
-        "আমরা",
-        "তোরা"
+        "কী",
+        "তোরা",
+        "আপনি",
+        "তোমরা"
       ],
-      "answer": 3,
+      "answer": 1,
       "recycle": true
     },
     {
@@ -361,29 +360,30 @@
         "tr": "achhish",
         "en": "are (intimate)"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "am",
-        "is not (here); there isn't",
-        "is (he/she/it)",
-        "are (intimate)"
+        "আছি",
+        "আছিস",
+        "আছে",
+        "নেই"
       ],
-      "answer": 3,
+      "answer": 1,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "তুই",
         "tr": "tui",
         "en": "you (intimate)"
       },
+      "direction": "bn_to_en",
       "options": [
-        "তুই",
-        "আপনি",
-        "এটা",
-        "তিনি"
+        "you (intimate)",
+        "my",
+        "who",
+        "we"
       ],
       "answer": 0,
       "recycle": true

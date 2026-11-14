@@ -1,9 +1,9 @@
 {
   "id": "s01-l02",
   "unit": "s01-vowels",
-  "title": "Vowels 2: উ ঊ ঋ এ",
+  "title": "Vowels 2: উ ঊ",
   "status": "draft",
-  "tip": "- **উ** and **ঊ** are both `u` as in *food*, a 'short' and 'long' pair that **sound the same** in speech. The long ঊ has one more stroke.\n- **ঋ** is said `ri` as in *rip*. It mostly appears in words borrowed from Sanskrit, like ঋতু (season).\n- **এ** = `e`. It has two sounds: an open 'a' as in *cat* (এক `ek`, one; এখন `ekhon`, now) or 'ay' as in *say* (এই `ei`, this). You learn which by listening.\n\nWatch out: উ looks a lot like the consonant ড (`d`) that you'll meet later; ড has a notch in its top line.",
+  "tip": "**উ** and **ঊ** are both `u` as in *food*: a 'short u' and a 'long u' that **sound the same** in speech, just like ই and ঈ. The long **ঊ** has one more stroke.\n\nLearn the spelling with the word:\n\n- **উ**ট (camel), **উ**কিল (lawyer)\n- **ঊ**রু (thigh), **ঊ**ষা (dawn)\n\nঊ is rare at the start of a word, so these are two of the few you'll see.\n\nWatch out: উ looks a lot like the consonant ড (`d`) that you'll meet later; ড has a notch in its top line.",
   "vocab": [
     {
       "id": "l-u",
@@ -18,20 +18,6 @@
       "tr": "u",
       "en": "u as in 'food' (long-u letter)",
       "notes": "Name: dirgho-u (দীর্ঘ ঊ). Same sound as উ; it is উ with an extra loop on top-right. Rare at the start of words."
-    },
-    {
-      "id": "l-ri",
-      "bn": "ঋ",
-      "tr": "ri",
-      "en": "ri as in 'rip'",
-      "notes": "Name: ri (ঋ). Historically a vowel; in modern Bengali it is simply said 'ri'. Found mostly in Sanskrit-origin words."
-    },
-    {
-      "id": "l-e",
-      "bn": "এ",
-      "tr": "e",
-      "en": "e as in 'bed' or 'ay' as in 'say'",
-      "notes": "Name: e (এ). Two pronunciations; the word decides which (open æ in এক 'ack' and এখন 'ækhon'; 'ay' in এই 'ei')."
     },
     {
       "id": "ut",
@@ -57,33 +43,6 @@
       "tr": "usha",
       "en": "dawn",
       "notes": "Also a common girl's name. Alphabet-chart word: ঊ-তে ঊষা."
-    },
-    {
-      "id": "rishi",
-      "bn": "ঋষি",
-      "tr": "rishi",
-      "en": "sage (wise holy man)"
-    },
-    {
-      "id": "ritu",
-      "bn": "ঋতু",
-      "tr": "ritu",
-      "en": "season",
-      "notes": "Bengal traditionally has six seasons (ছয় ঋতু)."
-    },
-    {
-      "id": "ek",
-      "bn": "এক",
-      "tr": "ek",
-      "en": "one",
-      "notes": "Pronounced like English 'ack' (open e)."
-    },
-    {
-      "id": "ekhon",
-      "bn": "এখন",
-      "tr": "ekhon",
-      "en": "now",
-      "notes": "Pronounced with an open e, like 'ack-hon' (æ)."
     }
   ],
   "exercises": [
@@ -94,165 +53,176 @@
       "options": [
         "i (as in 'see')",
         "u (as in 'food')",
-        "e (as in 'bed' / 'say')",
-        "a (as in 'father')"
+        "a (as in 'father')",
+        "o (as in 'or')"
       ],
-      "answer": 1
+      "answer": 1,
+      "why": "**উ** is `u` as in *food*: the 'short u' letter."
     },
     {
       "id": "e02",
       "type": "script_recognize",
-      "glyph": "ঋ",
+      "glyph": "ঊ",
       "options": [
-        "ri (as in 'rip')",
         "o (as in 'or')",
-        "u (as in 'food')",
-        "e (as in 'bed' / 'say')"
+        "i (as in 'see')",
+        "a (as in 'father')",
+        "u (as in 'food')"
+      ],
+      "answer": 3,
+      "why": "**ঊ** is the 'long u' letter, but it sounds just like উ: `u` as in *food*."
+    },
+    {
+      "id": "e03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "উট",
+        "tr": "ut",
+        "en": "camel"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "camel",
+        "brick",
+        "eagle",
+        "thigh"
       ],
       "answer": 0
     },
     {
-      "id": "e03",
-      "type": "script_recognize",
-      "glyph": "এ",
-      "options": [
-        "a (as in 'father')",
-        "ri (as in 'rip')",
-        "i (as in 'see')",
-        "e (as in 'bed' / 'say')"
-      ],
-      "answer": 3
-    },
-    {
       "id": "e04",
-      "type": "match_pairs",
-      "pairs": [
-        {
-          "bn": "উ",
-          "tr": "u",
-          "en": "u (short-u letter)"
-        },
-        {
-          "bn": "ঊ",
-          "tr": "u",
-          "en": "u (long-u letter)"
-        },
-        {
-          "bn": "ঋ",
-          "tr": "ri",
-          "en": "ri as in 'rip'"
-        },
-        {
-          "bn": "এ",
-          "tr": "e",
-          "en": "e as in 'bed' / 'say'"
-        },
-        {
-          "bn": "আ",
-          "tr": "a",
-          "en": "a as in 'father'"
-        }
-      ]
+      "type": "select_translation",
+      "prompt": {
+        "bn": "উকিল",
+        "tr": "ukil",
+        "en": "lawyer"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "doctor",
+        "lawyer",
+        "teacher",
+        "eagle"
+      ],
+      "answer": 1
     },
     {
       "id": "e05",
       "type": "select_translation",
       "prompt": {
-        "bn": "উট",
-        "tr": "ut",
-        "en": "camel"
+        "bn": "ঊরু",
+        "tr": "uru",
+        "en": "thigh"
       },
       "direction": "bn_to_en",
       "options": [
-        "brick",
         "camel",
-        "season",
-        "now"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "e06",
-      "type": "listen_select",
-      "audio": {
-        "bn": "উট",
-        "tr": "ut",
-        "en": "camel"
-      },
-      "options": [
-        "উট",
-        "এক",
-        "ঋষি",
-        "ইট"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "e07",
-      "type": "script_recognize",
-      "glyph": "ঊ",
-      "options": [
-        "o (as in 'or')",
-        "e (as in 'bed' / 'say')",
-        "u (as in 'food')",
-        "ri (as in 'rip')"
+        "dawn",
+        "thigh",
+        "sky"
       ],
       "answer": 2
     },
     {
-      "id": "e08",
+      "id": "e06",
       "type": "select_translation",
       "prompt": {
-        "bn": "ঋতু",
-        "tr": "ritu",
-        "en": "season"
+        "bn": "ঊষা",
+        "tr": "usha",
+        "en": "dawn"
       },
       "direction": "bn_to_en",
       "options": [
-        "season",
-        "dawn",
+        "night",
+        "sky",
         "lawyer",
-        "one"
+        "dawn"
       ],
-      "answer": 0
+      "answer": 3
+    },
+    {
+      "id": "e07",
+      "type": "script_recognize",
+      "glyph": "উট",
+      "options": [
+        "ut",
+        "it",
+        "at",
+        "ot"
+      ],
+      "answer": 0,
+      "why": "It starts with **উ** `u`, so উট is `ut`."
+    },
+    {
+      "id": "e08",
+      "type": "script_recognize",
+      "glyph": "উকিল",
+      "options": [
+        "ikil",
+        "akil",
+        "ukil",
+        "okil"
+      ],
+      "answer": 2,
+      "why": "It starts with **উ** `u`, so উকিল is `ukil`."
     },
     {
       "id": "e09",
       "type": "listen_select",
       "audio": {
-        "bn": "এখন",
-        "tr": "ekhon",
-        "en": "now"
+        "bn": "উকিল",
+        "tr": "ukil",
+        "en": "lawyer"
       },
       "options": [
         "ঊষা",
-        "এখন",
         "উকিল",
-        "ঋতু"
+        "ইলিশ",
+        "আকাশ"
       ],
       "answer": 1
     },
     {
       "id": "e10",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "এক",
-        "tr": "ek",
-        "en": "one"
+      "type": "listen_select",
+      "audio": {
+        "bn": "ঊরু",
+        "tr": "uru",
+        "en": "thigh"
       },
-      "direction": "en_to_bn",
       "options": [
-        "এক",
         "উট",
+        "অনেক",
         "ঊরু",
-        "অনেক"
+        "ঈদ"
       ],
-      "answer": 0
+      "answer": 2
     },
     {
       "id": "e11",
+      "type": "listen_select",
+      "audio": {
+        "bn": "ঊষা",
+        "tr": "usha",
+        "en": "dawn"
+      },
+      "options": [
+        "ইট",
+        "আম",
+        "অজগর",
+        "ঊষা"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e12",
       "type": "match_pairs",
       "pairs": [
+        {
+          "bn": "উট",
+          "tr": "ut",
+          "en": "camel"
+        },
         {
           "bn": "উকিল",
           "tr": "ukil",
@@ -264,85 +234,70 @@
           "en": "thigh"
         },
         {
-          "bn": "ঋষি",
-          "tr": "rishi",
-          "en": "sage (wise holy man)"
-        },
-        {
-          "bn": "এখন",
-          "tr": "ekhon",
-          "en": "now"
-        },
-        {
           "bn": "ঊষা",
           "tr": "usha",
           "en": "dawn"
-        }
-      ]
-    },
-    {
-      "id": "e12",
-      "type": "match_pairs",
-      "pairs": [
-        {
-          "bn": "উকিল",
-          "tr": "ukil",
-          "en": "lawyer"
         },
         {
-          "bn": "ঋতু",
-          "tr": "ritu",
-          "en": "season"
-        },
-        {
-          "bn": "এক",
-          "tr": "ek",
-          "en": "one"
-        },
-        {
-          "bn": "ঋষি",
-          "tr": "rishi",
-          "en": "sage (wise holy man)"
-        },
-        {
-          "bn": "উট",
-          "tr": "ut",
-          "en": "camel"
+          "bn": "ইট",
+          "tr": "it",
+          "en": "brick"
         }
       ]
     },
     {
       "id": "e13",
-      "type": "listen_select",
-      "audio": {
-        "bn": "ঊষা",
-        "tr": "usha",
-        "en": "dawn"
+      "type": "select_translation",
+      "prompt": {
+        "bn": "উ",
+        "tr": "u",
+        "en": "u as in 'food' (short-u letter)"
       },
+      "direction": "en_to_bn",
       "options": [
-        "উট",
-        "এক",
-        "ঊষা",
-        "ঋতু"
+        "উ",
+        "ঊ",
+        "ই",
+        "অ"
       ],
-      "answer": 2
+      "answer": 0,
+      "why": "**উ** is the 'short u' letter (হ্রস্ব উ); ঊ, the 'long u', has one more stroke."
     },
     {
       "id": "e14",
       "type": "select_translation",
       "prompt": {
-        "bn": "ঊরু",
-        "tr": "uru",
-        "en": "thigh"
+        "bn": "ঊ",
+        "tr": "u",
+        "en": "u as in 'food' (long-u letter)"
       },
       "direction": "en_to_bn",
       "options": [
-        "উট",
-        "ঋতু",
-        "এক",
-        "ঊরু"
+        "ই",
+        "উ",
+        "আ",
+        "ঊ"
       ],
-      "answer": 3
+      "answer": 3,
+      "why": "**ঊ** is the 'long u' letter (দীর্ঘ উ): উ with one more stroke."
+    },
+    {
+      "id": "e15",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "উট",
+        "tr": "ut",
+        "en": "camel"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "ইট",
+        "উট",
+        "ঊরু",
+        "আম"
+      ],
+      "answer": 1,
+      "why": "উট (camel) starts with **উ** `u`; ইট (brick) starts with **ই** `i`."
     }
   ]
 }

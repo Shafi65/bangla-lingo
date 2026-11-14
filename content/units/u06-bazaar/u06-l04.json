@@ -373,13 +373,12 @@
     },
     {
       "id": "r01",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "একটু",
         "tr": "ektu",
         "en": "a little"
       },
-      "direction": "en_to_bn",
       "options": [
         "কোথায়",
         "এখানে",
@@ -397,31 +396,32 @@
         "tr": "din",
         "en": "give (polite, standard)"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "(you/he/she, polite) want",
-        "are not (familiar)",
-        "give (polite, standard)",
-        "(you, familiar) want"
+        "চান",
+        "নও",
+        "দিন",
+        "চাও"
       ],
       "answer": 2,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "দে",
         "tr": "de",
         "en": "give (intimate)"
       },
+      "direction": "bn_to_en",
       "options": [
-        "বাজে",
-        "এসেছি",
-        "চাই",
-        "দে"
+        "give (intimate)",
+        "to eat",
+        "(he/she/they) eats",
+        "(you, intimate) eat"
       ],
-      "answer": 3,
+      "answer": 0,
       "recycle": true
     },
     {
@@ -429,14 +429,14 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "দাও",
-          "tr": "dao",
-          "en": "give (familiar)"
+          "bn": "পৌনে",
+          "tr": "poune",
+          "en": "quarter to"
         },
         {
-          "bn": "সপ্তাহে",
-          "tr": "shoptahe",
-          "en": "in a week"
+          "bn": "আমাকে",
+          "tr": "amake",
+          "en": "me"
         },
         {
           "bn": "আরও",
@@ -444,9 +444,9 @@
           "en": "more"
         },
         {
-          "bn": "আমাকে",
-          "tr": "amake",
-          "en": "me"
+          "bn": "দাও",
+          "tr": "dao",
+          "en": "give (familiar)"
         }
       ],
       "recycle": true
@@ -456,14 +456,9 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "বুধবার",
-          "tr": "budhbar",
-          "en": "Wednesday"
-        },
-        {
-          "bn": "মাস",
-          "tr": "mash",
-          "en": "month"
+          "bn": "রাত",
+          "tr": "rat",
+          "en": "night"
         },
         {
           "bn": "শনিবার",
@@ -474,6 +469,11 @@
           "bn": "বৃহস্পতিবার",
           "tr": "brihoshpotibar",
           "en": "Thursday"
+        },
+        {
+          "bn": "বুধবার",
+          "tr": "budhbar",
+          "en": "Wednesday"
         }
       ],
       "recycle": true

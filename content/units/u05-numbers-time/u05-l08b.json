@@ -3,7 +3,7 @@
   "unit": "u05-numbers-time",
   "title": "Tomorrow, weeks & years",
   "status": "draft",
-  "tip": "**কাল** (*kal*) means **both 'tomorrow' and 'yesterday'**; the verb's tense tells you which. With no verb, as in **কাল শনিবার**, it means 'tomorrow'.\n\n**দিন** is any 'day' (**বার** is only for weekday names): **সাত দিন** 'seven days'.\n\nFor 'in' a span of time, add **-এ**: **সপ্তাহে** 'in a week', **বছরে** 'in a year': **এক বছরে বারো মাস**.\n\n**বছর** 'year' (**আমার বয়স বিশ বছর** 'I'm twenty years old'), **মাস** 'month', **প্রথম** 'first': **আজ আমার প্রথম দিন**.\n\nDon't mix up **মাস** (month), **মা** (mother) and **মাংস** (meat)!",
+  "tip": "**কাল** (*kal*) means **'tomorrow' or 'yesterday'**, and the sentence tells you which:\n\n- No verb, as in **কাল শনিবার**: usually 'tomorrow'.\n- A past verb, as in **আমি কাল এসেছি**: 'yesterday'.\n\n**দিন** is any 'day' (**বার** is only for weekday names): **সাত দিন** 'seven days'.\n\nFor 'in' a span of time, add **-এ**: **সপ্তাহে** 'in a week', **বছরে** 'in a year': **এক বছরে বারো মাস**.\n\n**বছর** 'year' (**আমার বয়স বিশ বছর** 'I'm twenty'), **মাস** 'month', **প্রথম** 'first'.\n\nDon't mix up **মাস** (month), **মা** (mother) and **মাংস** (meat)!",
   "vocab": [
     {
       "id": "kal",
@@ -74,72 +74,6 @@
       "id": "e02",
       "type": "select_translation",
       "prompt": {
-        "bn": "দিন",
-        "tr": "din",
-        "en": "day"
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "week",
-        "day",
-        "night",
-        "month"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "e03",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "আজ শুক্রবার, কাল শনিবার।",
-        "tr": "aj shukrobar, kal shonibar.",
-        "en": "Today is Friday, tomorrow is Saturday."
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "Today is Saturday, tomorrow is Friday.",
-        "Today is Friday, tomorrow is Saturday.",
-        "Today is Thursday, tomorrow is Friday.",
-        "Tomorrow is Friday, today is Saturday."
-      ],
-      "answer": 1
-    },
-    {
-      "id": "e04",
-      "type": "listen_select",
-      "audio": {
-        "bn": "কাল",
-        "tr": "kal",
-        "en": "tomorrow; yesterday"
-      },
-      "options": [
-        "লাল",
-        "কলা",
-        "আজ",
-        "কাল"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "e05",
-      "type": "listen_select",
-      "audio": {
-        "bn": "দিন",
-        "tr": "din",
-        "en": "day"
-      },
-      "options": [
-        "দুই",
-        "দিন",
-        "ডিম",
-        "দশ"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "e06",
-      "type": "select_translation",
-      "prompt": {
         "bn": "সপ্তাহে",
         "tr": "shoptahe",
         "en": "in a week"
@@ -154,24 +88,7 @@
       "answer": 0
     },
     {
-      "id": "e07",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "বছর",
-        "tr": "bochhor",
-        "en": "year"
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "month",
-        "year",
-        "week",
-        "day"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "e08",
+      "id": "e03",
       "type": "select_translation",
       "prompt": {
         "bn": "মাস",
@@ -189,7 +106,7 @@
       "why": "**মাস** 'month' ≠ **মা** 'mother' ≠ **মাংস** 'meat'."
     },
     {
-      "id": "e09",
+      "id": "e04",
       "type": "select_translation",
       "prompt": {
         "bn": "বছরে",
@@ -203,10 +120,11 @@
         "in a year",
         "at night"
       ],
-      "answer": 2
+      "answer": 2,
+      "why": "বছর 'year' + **-এ** = **বছরে** 'in a year'."
     },
     {
-      "id": "e10",
+      "id": "e05",
       "type": "select_translation",
       "prompt": {
         "bn": "প্রথম",
@@ -223,7 +141,75 @@
       "answer": 0
     },
     {
-      "id": "e11",
+      "id": "e06",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আজ শুক্রবার, কাল শনিবার।",
+        "tr": "aj shukrobar, kal shonibar.",
+        "en": "Today is Friday, tomorrow is Saturday."
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "Today is Saturday, tomorrow is Friday.",
+        "Today is Friday, tomorrow is Saturday.",
+        "Today is Thursday, tomorrow is Friday.",
+        "Tomorrow is Friday, today is Saturday."
+      ],
+      "answer": 1,
+      "why": "With no verb, **কাল** means 'tomorrow' here: Friday, then Saturday."
+    },
+    {
+      "id": "e07",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আমি কাল এসেছি।",
+        "tr": "ami kal eshechhi.",
+        "en": "I came yesterday."
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "I came yesterday.",
+        "I'm coming tomorrow.",
+        "I came today.",
+        "I came on Saturday."
+      ],
+      "answer": 0,
+      "why": "**এসেছি** is a past form, so here **কাল** means 'yesterday'."
+    },
+    {
+      "id": "e08",
+      "type": "listen_select",
+      "audio": {
+        "bn": "কাল",
+        "tr": "kal",
+        "en": "tomorrow; yesterday"
+      },
+      "options": [
+        "লাল",
+        "কলা",
+        "আজ",
+        "কাল"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e09",
+      "type": "listen_select",
+      "audio": {
+        "bn": "দিন",
+        "tr": "din",
+        "en": "day"
+      },
+      "options": [
+        "দুই",
+        "দিন",
+        "ডিম",
+        "দশ"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e10",
       "type": "match_pairs",
       "pairs": [
         {
@@ -254,33 +240,7 @@
       ]
     },
     {
-      "id": "e12",
-      "type": "word_bank",
-      "prompt": {
-        "bn": "এক বছরে বারো মাস।",
-        "tr": "ek bochhore baro mash.",
-        "en": "There are twelve months in a year."
-      },
-      "direction": "en_to_bn",
-      "tiles": [
-        "বিশ",
-        "সপ্তাহে",
-        "বারো",
-        "বছর",
-        "এক",
-        "মাস",
-        "বছরে"
-      ],
-      "answer": [
-        "এক",
-        "বছরে",
-        "বারো",
-        "মাস"
-      ],
-      "why": "'In a year' is বছর + **-এ**: বছরে."
-    },
-    {
-      "id": "e13",
+      "id": "e11",
       "type": "word_bank",
       "prompt": {
         "bn": "এক সপ্তাহে সাত দিন।",
@@ -322,6 +282,61 @@
       ]
     },
     {
+      "id": "e12",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "এক বছরে বারো মাস।",
+        "tr": "ek bochhore baro mash.",
+        "en": "There are twelve months in a year."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "বিশ",
+        "সপ্তাহে",
+        "বারো",
+        "দিন",
+        "এক",
+        "মাস",
+        "বছরে"
+      ],
+      "answer": [
+        "এক",
+        "বছরে",
+        "বারো",
+        "মাস"
+      ],
+      "alt": [
+        [
+          "বছরে",
+          "বারো",
+          "মাস"
+        ]
+      ],
+      "why": "'In a year' is বছর + **-এ**: **বছরে**."
+    },
+    {
+      "id": "e13",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "কাল শনিবার।",
+        "tr": "kal shonibar.",
+        "en": "Tomorrow is Saturday."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "আজ",
+        "শনিবার",
+        "দিন",
+        "কাল",
+        "শুক্রবার"
+      ],
+      "answer": [
+        "কাল",
+        "শনিবার"
+      ],
+      "why": "**কাল** with no verb means 'tomorrow'; **আজ** is 'today'."
+    },
+    {
       "id": "e14",
       "type": "select_translation",
       "prompt": {
@@ -336,7 +351,8 @@
         "আজ তোমার প্রথম দিন।",
         "আজ আমার প্রথম দিন।"
       ],
-      "answer": 3
+      "answer": 3,
+      "why": "**আজ** is 'today', **প্রথম** is 'first', and **আমার** is 'my'."
     },
     {
       "id": "e15",
@@ -363,53 +379,53 @@
       "id": "r01",
       "type": "select_translation",
       "prompt": {
-        "bn": "বুধবার",
-        "tr": "budhbar",
-        "en": "Wednesday"
+        "bn": "সোমবার",
+        "tr": "shombar",
+        "en": "Monday"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "hour",
-        "wife",
-        "Wednesday",
-        "doctor"
+        "বয়স",
+        "সোমবার",
+        "পছন্দ",
+        "গরুর"
       ],
-      "answer": 2,
+      "answer": 1,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "listen_select",
-      "audio": {
-        "bn": "বার",
-        "tr": "bar",
-        "en": "day (of the week)"
-      },
-      "options": [
-        "ফুফু",
-        "বছর",
-        "দুপুর",
-        "বার"
-      ],
-      "answer": 3,
-      "recycle": true
-    },
-    {
-      "id": "r03",
       "type": "select_translation",
       "prompt": {
         "bn": "রবিবার",
         "tr": "robibar",
         "en": "Sunday"
       },
-      "direction": "en_to_bn",
+      "direction": "bn_to_en",
       "options": [
-        "ছাত্রী",
-        "মজা",
-        "শিক্ষক",
-        "রবিবার"
+        "Sunday",
+        "grandmother (mother's mother)",
+        "afternoon",
+        "Bengali (language)"
       ],
-      "answer": 3,
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "listen_select",
+      "audio": {
+        "bn": "মঙ্গলবার",
+        "tr": "monggolbar",
+        "en": "Tuesday"
+      },
+      "options": [
+        "মঙ্গলবার",
+        "ছাত্রী",
+        "শিক্ষক",
+        "মানে"
+      ],
+      "answer": 0,
       "recycle": true
     },
     {
@@ -417,14 +433,14 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "সত্তর",
-          "tr": "shottor",
-          "en": "seventy"
+          "bn": "বার",
+          "tr": "bar",
+          "en": "day (of the week)"
         },
         {
-          "bn": "আশি",
-          "tr": "ashi",
-          "en": "eighty"
+          "bn": "বুধবার",
+          "tr": "budhbar",
+          "en": "Wednesday"
         },
         {
           "bn": "নব্বই",
@@ -432,9 +448,9 @@
           "en": "ninety"
         },
         {
-          "bn": "সোমবার",
-          "tr": "shombar",
-          "en": "Monday"
+          "bn": "বাজে",
+          "tr": "baje",
+          "en": "strikes (the hour)"
         }
       ],
       "recycle": true
@@ -449,9 +465,9 @@
           "en": "Thursday"
         },
         {
-          "bn": "মঙ্গলবার",
-          "tr": "monggolbar",
-          "en": "Tuesday"
+          "bn": "আশি",
+          "tr": "ashi",
+          "en": "eighty"
         },
         {
           "bn": "তিনটা",
@@ -459,9 +475,9 @@
           "en": "three (o'clock)"
         },
         {
-          "bn": "ত্রিশ",
-          "tr": "trish",
-          "en": "thirty"
+          "bn": "সত্তর",
+          "tr": "shottor",
+          "en": "seventy"
         }
       ],
       "recycle": true

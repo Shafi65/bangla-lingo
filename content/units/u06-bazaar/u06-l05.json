@@ -505,49 +505,49 @@
         "tr": "oita",
         "en": "that one"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "he/she (polite)",
-        "his/her (polite)",
-        "that one",
-        "you (intimate)"
+        "তিনি",
+        "ওনার",
+        "ওইটা",
+        "তুই"
       ],
       "answer": 2,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "ওগুলো",
         "tr": "ogulo",
         "en": "those"
       },
+      "direction": "bn_to_en",
       "options": [
-        "ওগুলো",
-        "তারা",
-        "তোমার",
-        "আপনি"
+        "those",
+        "they",
+        "your (familiar)",
+        "you (polite)"
       ],
       "answer": 0,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "এইটা",
         "tr": "eita",
         "en": "this one"
       },
-      "direction": "en_to_bn",
       "options": [
-        "ওরা",
-        "এইটা",
-        "উনি",
-        "তোমাদের"
+        "আমরা",
+        "আপনি",
+        "ওনার",
+        "এইটা"
       ],
-      "answer": 1,
+      "answer": 3,
       "recycle": true
     },
     {
@@ -560,14 +560,14 @@
           "en": "the shop"
         },
         {
-          "bn": "এই",
-          "tr": "ei",
-          "en": "this"
-        },
-        {
           "bn": "এগুলো",
           "tr": "egulo",
           "en": "these"
+        },
+        {
+          "bn": "এই",
+          "tr": "ei",
+          "en": "this"
         },
         {
           "bn": "ওই",
@@ -592,14 +592,14 @@
           "en": "other"
         },
         {
-          "bn": "ইলিশের",
-          "tr": "ilisher",
-          "en": "of the hilsa"
-        },
-        {
           "bn": "মাছটা",
           "tr": "machhta",
           "en": "the fish"
+        },
+        {
+          "bn": "ইলিশের",
+          "tr": "ilisher",
+          "en": "of the hilsa"
         }
       ],
       "recycle": true

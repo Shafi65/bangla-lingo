@@ -25,7 +25,7 @@
       "tr": "i",
       "en": "i as in 'see' (short-i letter)",
       "pos": "letter",
-      "lesson": "s01-l01",
+      "lesson": "s01-l01b",
       "notes": "Name: hroshsho-i (হ্রস্ব ই) = 'short i'. Sounds the same as ঈ in modern speech."
     },
     {
@@ -34,7 +34,7 @@
       "tr": "i",
       "en": "i as in 'see' (long-i letter)",
       "pos": "letter",
-      "lesson": "s01-l01",
+      "lesson": "s01-l01b",
       "notes": "Name: dirgho-i (দীর্ঘ ই) = 'long i'. Same sound as ই; only the spelling differs."
     },
     {
@@ -76,7 +76,7 @@
       "tr": "ilish",
       "en": "hilsa (fish)",
       "pos": "noun",
-      "lesson": "s01-l01",
+      "lesson": "s01-l01b",
       "notes": "Bangladesh's national fish."
     },
     {
@@ -85,7 +85,7 @@
       "tr": "it",
       "en": "brick",
       "pos": "noun",
-      "lesson": "s01-l01"
+      "lesson": "s01-l01b"
     },
     {
       "id": "igol",
@@ -93,7 +93,7 @@
       "tr": "igol",
       "en": "eagle",
       "pos": "noun",
-      "lesson": "s01-l01"
+      "lesson": "s01-l01b"
     },
     {
       "id": "id",
@@ -101,7 +101,7 @@
       "tr": "id",
       "en": "Eid",
       "pos": "noun",
-      "lesson": "s01-l01"
+      "lesson": "s01-l01b"
     },
     {
       "id": "l-u",
@@ -127,7 +127,7 @@
       "tr": "ri",
       "en": "ri as in 'rip'",
       "pos": "letter",
-      "lesson": "s01-l02",
+      "lesson": "s01-l02b",
       "notes": "Name: ri (ঋ). Historically a vowel; in modern Bengali it is simply said 'ri'. Found mostly in Sanskrit-origin words."
     },
     {
@@ -136,7 +136,7 @@
       "tr": "e",
       "en": "e as in 'bed' or 'ay' as in 'say'",
       "pos": "letter",
-      "lesson": "s01-l02",
+      "lesson": "s01-l02b",
       "notes": "Name: e (এ). Two pronunciations; the word decides which (open æ in এক 'ack' and এখন 'ækhon'; 'ay' in এই 'ei')."
     },
     {
@@ -178,7 +178,7 @@
       "tr": "rishi",
       "en": "sage (wise holy man)",
       "pos": "noun",
-      "lesson": "s01-l02"
+      "lesson": "s01-l02b"
     },
     {
       "id": "ritu",
@@ -186,7 +186,7 @@
       "tr": "ritu",
       "en": "season",
       "pos": "noun",
-      "lesson": "s01-l02",
+      "lesson": "s01-l02b",
       "notes": "Bengal traditionally has six seasons (ছয় ঋতু)."
     },
     {
@@ -195,7 +195,7 @@
       "tr": "ek",
       "en": "one",
       "pos": "number",
-      "lesson": "s01-l02",
+      "lesson": "s01-l02b",
       "notes": "Pronounced like English 'ack' (open e)."
     },
     {
@@ -204,7 +204,7 @@
       "tr": "ekhon",
       "en": "now",
       "pos": "adv",
-      "lesson": "s01-l02",
+      "lesson": "s01-l02b",
       "notes": "Pronounced with an open e, like 'ack-hon' (æ)."
     },
     {

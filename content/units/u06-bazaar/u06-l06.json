@@ -433,30 +433,30 @@
     },
     {
       "id": "r01",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "টমেটোর",
         "tr": "tometor",
         "en": "of tomatoes"
       },
+      "direction": "bn_to_en",
       "options": [
-        "কলা",
-        "টমেটোর",
-        "আম্মু",
-        "বিকাল"
+        "banana",
+        "of tomatoes",
+        "mom",
+        "afternoon"
       ],
       "answer": 1,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "ডজন",
         "tr": "dozon",
         "en": "dozen"
       },
-      "direction": "en_to_bn",
       "options": [
         "হালি",
         "ডজন",
@@ -474,12 +474,12 @@
         "tr": "adha",
         "en": "half"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "last",
-        "spicy",
-        "sweet",
-        "half"
+        "শেষ",
+        "ঝাল",
+        "মিষ্টি",
+        "আধা"
       ],
       "answer": 3,
       "recycle": true

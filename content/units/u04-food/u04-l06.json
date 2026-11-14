@@ -408,42 +408,42 @@
         "tr": "ekti",
         "en": "one; a (formal)"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "two (people)",
-        "country",
-        "one; a (formal)",
-        "husband"
+        "দুইজন",
+        "দেশ",
+        "একটি",
+        "স্বামী"
       ],
       "answer": 2,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "ফল",
         "tr": "fol",
         "en": "fruit"
       },
+      "direction": "bn_to_en",
       "options": [
-        "ফল",
-        "আম্মু",
-        "কলাটা",
-        "বাংলা"
+        "fruit",
+        "mom",
+        "the banana",
+        "Bengali (language)"
       ],
       "answer": 0,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "আমগুলো",
         "tr": "amgulo",
         "en": "the mangoes"
       },
-      "direction": "en_to_bn",
       "options": [
         "বোন",
         "আমগুলো",

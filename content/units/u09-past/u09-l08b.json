@@ -402,42 +402,42 @@
         "tr": "da~t maja",
         "en": "brushing teeth"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "brushing teeth",
-        "what happened",
-        "thank you",
-        "hello (in reply)"
+        "দাঁত মাজা",
+        "কী হয়েছে",
+        "ধন্যবাদ",
+        "ওয়ালাইকুম আসসালাম"
       ],
       "answer": 0,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "মাঝে মাঝে",
         "tr": "majhe majhe",
         "en": "sometimes"
       },
+      "direction": "bn_to_en",
       "options": [
-        "কী হয়েছে",
-        "মাঝে মাঝে",
-        "ধন্যবাদ",
-        "আলহামদুলিল্লাহ"
+        "what happened",
+        "sometimes",
+        "thank you",
+        "praise be to God"
       ],
       "answer": 1,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "মনে হয়",
         "tr": "mone hoy",
         "en": "I think"
       },
-      "direction": "en_to_bn",
       "options": [
         "আসসালামু আলাইকুম",
         "মনে হয়",

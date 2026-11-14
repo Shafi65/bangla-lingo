@@ -351,20 +351,19 @@
     },
     {
       "id": "r01",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "এসেছেন",
         "tr": "eshechhen",
         "en": "(you, polite) have come"
       },
-      "direction": "en_to_bn",
       "options": [
+        "নয়",
         "আছো",
-        "নও",
-        "নই",
-        "এসেছেন"
+        "এসেছেন",
+        "নন"
       ],
-      "answer": 3,
+      "answer": 2,
       "recycle": true
     },
     {
@@ -375,31 +374,32 @@
         "tr": "eshechhi",
         "en": "(I) have come"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "are not (familiar)",
-        "are (polite)",
-        "(I) have come",
-        "are (familiar)"
+        "এসেছি",
+        "নন",
+        "আছি",
+        "আছেন"
       ],
-      "answer": 2,
+      "answer": 0,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "নমস্কার",
         "tr": "nomoshkar",
         "en": "hello (Hindu greeting)"
       },
+      "direction": "bn_to_en",
       "options": [
-        "ধন্যবাদ",
-        "ওয়ালাইকুম আসসালাম",
-        "আলহামদুলিল্লাহ",
-        "নমস্কার"
+        "hello (Hindu greeting)",
+        "praise be to God",
+        "goodbye",
+        "thank you"
       ],
-      "answer": 3,
+      "answer": 0,
       "recycle": true
     },
     {
@@ -407,24 +407,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "আছেন",
-          "tr": "achhen",
-          "en": "are (polite)"
-        },
-        {
           "bn": "নই",
           "tr": "noi",
           "en": "am not"
         },
         {
-          "bn": "তারা",
-          "tr": "tara",
-          "en": "they"
+          "bn": "আছেন",
+          "tr": "achhen",
+          "en": "are (polite)"
         },
         {
           "bn": "কি",
           "tr": "ki",
           "en": "(yes/no question marker)"
+        },
+        {
+          "bn": "তারা",
+          "tr": "tara",
+          "en": "they"
         }
       ],
       "recycle": true
@@ -434,9 +434,9 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "তোমরা",
-          "tr": "tomra",
-          "en": "you (familiar, plural)"
+          "bn": "এখানে",
+          "tr": "ekhane",
+          "en": "here"
         },
         {
           "bn": "আছিস",
@@ -444,14 +444,14 @@
           "en": "are (intimate)"
         },
         {
-          "bn": "এখানে",
-          "tr": "ekhane",
-          "en": "here"
-        },
-        {
           "bn": "নন",
           "tr": "non",
           "en": "is not / are not (polite)"
+        },
+        {
+          "bn": "তোমরা",
+          "tr": "tomra",
+          "en": "you (familiar, plural)"
         }
       ],
       "recycle": true

@@ -369,42 +369,42 @@
         "tr": "rakhi",
         "en": "I keep"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "I am doing",
-        "I listen",
-        "is not (here); there isn't",
-        "I keep"
+        "করছি",
+        "শুনি",
+        "নেই",
+        "রাখি"
       ],
       "answer": 3,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "রমজান",
         "tr": "romjan",
         "en": "Ramadan"
       },
+      "direction": "bn_to_en",
       "options": [
-        "প্রশ্ন",
-        "রমজান",
-        "পয়সা",
-        "নানি"
+        "question",
+        "Ramadan",
+        "poisha",
+        "grandmother (mother's mother)"
       ],
       "answer": 1,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "সেহরি",
         "tr": "sehri",
         "en": "sehri"
       },
-      "direction": "en_to_bn",
       "options": [
         "নানি",
         "সমস্যা",

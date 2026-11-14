@@ -360,30 +360,30 @@
     },
     {
       "id": "r01",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "তার",
         "tr": "tar",
         "en": "his/her"
       },
+      "direction": "bn_to_en",
       "options": [
-        "ওরা",
-        "তোমরা",
-        "আমরা",
-        "তার"
+        "he/she (polite, spoken)",
+        "he/she (spoken)",
+        "I",
+        "his/her"
       ],
       "answer": 3,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "ওর",
         "tr": "or",
         "en": "his/her (spoken)"
       },
-      "direction": "en_to_bn",
       "options": [
         "ওর",
         "আপনি",
@@ -401,12 +401,12 @@
         "tr": "tor",
         "en": "your (intimate)"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "that",
-        "who",
-        "we",
-        "your (intimate)"
+        "ওটা",
+        "কে",
+        "আমরা",
+        "তোর"
       ],
       "answer": 3,
       "recycle": true

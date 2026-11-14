@@ -379,42 +379,42 @@
         "tr": "thamen",
         "en": "stop (polite)"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "stop (polite)",
-        "are (intimate)",
-        "I will buy",
-        "keep (polite)"
+        "থামেন",
+        "আছিস",
+        "কিনব",
+        "রাখেন"
       ],
       "answer": 0,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "সিএনজি",
         "tr": "si-en-ji",
         "en": "CNG"
       },
+      "direction": "bn_to_en",
       "options": [
-        "বাজারে",
-        "বিরিয়ানি",
-        "সিএনজি",
-        "দেশ"
+        "at the market",
+        "biryani",
+        "CNG",
+        "country"
       ],
       "answer": 2,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "রিকশায়",
         "tr": "rikshay",
         "en": "by rickshaw"
       },
-      "direction": "en_to_bn",
       "options": [
         "মুরগি",
         "চাচা",
