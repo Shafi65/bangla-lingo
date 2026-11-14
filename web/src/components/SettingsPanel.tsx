@@ -15,6 +15,7 @@ import {
   useCanSpeak,
   useDeviceVoice,
 } from "@/lib/speech";
+import { setThemePref, useThemePref, type ThemePref } from "@/lib/ui/theme";
 import { AppShell } from "./AppShell";
 
 // The language's own name, so no lesson text is hard-coded. Also listed in
@@ -64,6 +65,8 @@ export function SettingsPanel() {
           />
         </Section>
 
+        <AppearanceSection />
+
         <Section title="Sound">
           <Toggle
             label="Sound effects"
@@ -87,6 +90,24 @@ export function SettingsPanel() {
         <ResetSection hasProgress={p.xp > 0 || Object.keys(p.completed).length > 0} />
       </div>
     </AppShell>
+  );
+}
+
+function AppearanceSection() {
+  const pref = useThemePref();
+  return (
+    <Section id="appearance" title="Appearance" hint="Dark mode is easier on the eyes at night.">
+      <Segmented<ThemePref>
+        label="Appearance"
+        value={pref}
+        options={[
+          { value: "light", label: "Light", sub: "Always light" },
+          { value: "dark", label: "Dark", sub: "Always dark" },
+          { value: "system", label: "System", sub: "Match this device" },
+        ]}
+        onChange={setThemePref}
+      />
+    </Section>
   );
 }
 
@@ -178,7 +199,7 @@ function AudioSection({
         <p className="mt-2 text-sm font-semibold text-muted">Changing the speed plays a short sample.</p>
       </div>
 
-      <details className="mt-5 rounded-2xl bg-paper p-4" open={can === "no" || undefined}>
+      <details className="mt-5 rounded-2xl bg-sunk p-4" open={can === "no" || undefined}>
         <summary className="cursor-pointer font-extrabold">Install a Bengali voice on your device</summary>
         <p className="mt-2 text-sm font-semibold text-muted">
           Recorded audio for every word is coming. Until then, a voice installed on your device can
@@ -202,7 +223,7 @@ function StatusRow({ ok, label, children }: { ok: boolean; label: string; childr
     <li className="flex items-start gap-2">
       <span
         aria-hidden
-        className={`mt-1 inline-block h-3 w-3 shrink-0 rounded-full ${ok ? "bg-brand" : "bg-gray-300"}`}
+        className={`mt-1 inline-block h-3 w-3 shrink-0 rounded-full ${ok ? "bg-brand" : "bg-line-strong"}`}
       />
       <span>
         <span className="font-extrabold text-ink">{label}:</span> {children}
@@ -225,7 +246,7 @@ function Section({
 }) {
   const hId = useId();
   return (
-    <section id={id} aria-labelledby={hId} className="scroll-mt-24 rounded-3xl border-2 border-line bg-white p-5">
+    <section id={id} aria-labelledby={hId} className="scroll-mt-24 card p-5">
       <h2 id={hId} className="text-xl font-black">{title}</h2>
       {hint && <p className="mt-0.5 mb-4 text-sm font-semibold text-muted">{hint}</p>}
       {!hint && <div className="mb-3" />}
@@ -256,8 +277,8 @@ function Segmented<T extends string | number>({
           return (
             <label
               key={String(o.value)}
-              className={`flex cursor-pointer flex-col items-center justify-center rounded-2xl border-2 border-b-4 px-2 py-3 text-center transition has-[:focus-visible]:outline-3 has-[:focus-visible]:outline-offset-2 has-[:focus-visible]:outline-ink ${
-                on ? "border-brand bg-brand-light text-brand-dark" : "border-line bg-white hover:bg-gray-50"
+              className={`flex cursor-pointer flex-col items-center justify-center rounded-2xl border-2 border-b-4 px-2 py-3 text-center transition has-[:focus-visible]:outline-3 has-[:focus-visible]:outline-offset-2 has-[:focus-visible]:outline-focus ${
+                on ? "border-brand bg-brand-light text-brand-dark" : "border-line-strong bg-surface hover:bg-sunk"
               }`}
             >
               <input
@@ -302,10 +323,10 @@ function Toggle({
       </span>
       <span
         aria-hidden
-        className={`relative h-8 w-14 shrink-0 rounded-full transition ${checked ? "bg-brand" : "bg-gray-300"}`}
+        className={`relative h-8 w-14 shrink-0 rounded-full transition ${checked ? "bg-brand" : "bg-line-strong"}`}
       >
         <span
-          className={`absolute top-1 h-6 w-6 rounded-full bg-white shadow transition-[left] ${checked ? "left-7" : "left-1"}`}
+          className={`absolute top-1 h-6 w-6 rounded-full bg-[#fff] shadow transition-[left] ${checked ? "left-7" : "left-1"}`}
         />
       </span>
     </button>

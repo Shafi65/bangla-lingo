@@ -38,14 +38,19 @@ export function MatchPairs({ ex, locked, onChange }: ExerciseProps<MatchPairsExe
     setSel(null);
   };
 
+  // Same card as multiple choice; state via data attributes so styles stay in one place.
+  const state = (side: Side, i: number): "matched" | "wrong" | "selected" | undefined => {
+    if (matched.has(i)) return "matched";
+    if (wrong && wrong[side] === i) return "wrong";
+    if (sel && sel.side === side && sel.i === i) return "selected";
+    return undefined;
+  };
   const cls = (side: Side, i: number) => {
-    const base =
-      "choice flex min-h-16 flex-col items-center justify-center text-center";
-    if (matched.has(i)) return `${base} border-line bg-paper text-muted opacity-50`;
-    if (wrong && wrong[side] === i)
-      return `${base} animate-shake border-accent bg-accent-light text-accent-dark`;
-    if (sel && sel.side === side && sel.i === i)
-      return `${base} border-brand bg-brand-light text-brand-dark`;
+    const st = state(side, i);
+    const base = "choice min-h-16 flex-col justify-center gap-0 text-center";
+    if (st === "matched") return `${base} match-done`;
+    if (st === "wrong") return `${base} animate-shake border-accent! bg-accent-light! text-accent-dark! [--lip:var(--color-accent)]`;
+    if (st === "selected") return `${base} border-brand! bg-brand-light! text-brand-dark! [--lip:var(--color-brand)]`;
     return base;
   };
 
@@ -60,6 +65,7 @@ export function MatchPairs({ ex, locked, onChange }: ExerciseProps<MatchPairsExe
               type="button"
               data-enter-native
               className={cls("bn", i)}
+              aria-pressed={state("bn", i) === "selected"}
               disabled={locked || matched.has(i)}
               onClick={() => tap("bn", i)}
             >
@@ -75,10 +81,11 @@ export function MatchPairs({ ex, locked, onChange }: ExerciseProps<MatchPairsExe
               type="button"
               data-enter-native
               className={cls("en", i)}
+              aria-pressed={state("en", i) === "selected"}
               disabled={locked || matched.has(i)}
               onClick={() => tap("en", i)}
             >
-              {ex.pairs[i].en}
+              <span className="text-pretty">{ex.pairs[i].en}</span>
             </button>
           ))}
         </div>

@@ -5,6 +5,7 @@ import "@fontsource-variable/noto-sans-bengali";
 import "./globals.css";
 import { CourseProvider } from "@/components/CourseContext";
 import { getCourse } from "@/lib/content";
+import { THEME_SCRIPT } from "@/lib/ui/theme-script";
 
 export const metadata: Metadata = {
   title: "BanglaLingo: learn Bengali",
@@ -15,9 +16,13 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
-  themeColor: "#006a4e",
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "#006a4e" },
+    { media: "(prefers-color-scheme: dark)", color: "#0d1614" },
+  ],
   width: "device-width",
   initialScale: 1,
+  viewportFit: "cover",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
@@ -25,7 +30,11 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     .units.filter((u) => u.track === "script")
     .flatMap((u) => u.lessons.map((l) => l.id));
   return (
-    <html lang="en" className="h-full antialiased">
+    // data-theme is corrected before paint by THEME_SCRIPT (saved choice or OS setting).
+    <html lang="en" data-theme="light" className="h-full antialiased" suppressHydrationWarning>
+      <head>
+        <script dangerouslySetInnerHTML={{ __html: THEME_SCRIPT }} />
+      </head>
       <body className="flex min-h-full flex-col font-sans">
         <CourseProvider scriptLessonIds={scriptLessonIds}>{children}</CourseProvider>
       </body>

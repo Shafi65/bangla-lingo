@@ -25,7 +25,7 @@ export function TipDialog({ tip, onClose }: { tip: string; onClose: () => void }
       onClick={(e) => {
         if (e.target === ref.current) ref.current?.close(); // backdrop
       }}
-      className="m-auto w-[min(92vw,34rem)] max-h-[85dvh] overflow-y-auto rounded-3xl border-2 border-brand/20 bg-brand-light p-5 text-ink backdrop:bg-black/40"
+      className="animate-rise m-auto max-h-[85dvh] w-[min(92vw,34rem)] overflow-y-auto rounded-[var(--radius-panel)] border-2 border-brand/25 bg-brand-light p-6 text-ink backdrop:bg-[var(--color-scrim)] backdrop:backdrop-blur-[2px]"
     >
       <h2 id="tip-title" className="mb-2 text-lg font-black text-brand-dark">
         Tip

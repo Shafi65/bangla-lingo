@@ -56,15 +56,25 @@ export function Done({
   const toGo = Math.max(goal - xpToday, 0);
 
   return (
-    <main className="mx-auto flex min-h-dvh w-full max-w-xl flex-col items-center justify-center gap-7 px-4 py-10 text-center">
-      <div className="relative flex h-36 w-36 items-center justify-center">
+    <main className="mx-auto flex min-h-dvh w-full max-w-xl flex-col items-center justify-center gap-7 bg-surface px-4 pt-[max(2.5rem,env(safe-area-inset-top))] pb-[max(2.5rem,env(safe-area-inset-bottom))] text-center">
+      <div className="relative flex h-40 w-40 items-center justify-center">
         <Burst />
-        <div className="animate-medal flex h-28 w-28 items-center justify-center rounded-full border-b-[6px] border-sun-dark/40 bg-sun text-white">
-          <StarIcon size={64} />
+        {/* Medal: a marigold disc with a running-stitch ring, like a kantha roundel. */}
+        <div
+          className="kantha-edge animate-medal flex h-32 w-32 items-center justify-center rounded-full bg-sun text-white"
+          style={
+            {
+              boxShadow: "0 6px 0 var(--color-sun-edge)",
+              "--stitch": "rgb(255 255 255 / 0.6)",
+              "--radius-panel": "9999px",
+            } as CSSProperties
+          }
+        >
+          <StarIcon size={68} />
         </div>
       </div>
 
-      <div>
+      <div className="animate-rise">
         <h1 className="text-3xl font-black text-brand-dark">{title}</h1>
         <p className="mt-1 text-lg font-extrabold text-ink">{subtitle}</p>
         <p className="mt-1 font-semibold text-muted">
@@ -72,7 +82,7 @@ export function Done({
         </p>
       </div>
 
-      <dl className="grid w-full max-w-sm grid-cols-3 gap-3">
+      <dl className="stagger grid w-full max-w-sm grid-cols-3 gap-3">
         <Stat label="XP earned">
           <span className="flex items-center gap-1 text-sun-dark">
             <BoltIcon /> {xp}
@@ -84,7 +94,7 @@ export function Done({
         <Stat label="Stars">
           <span className="flex gap-0.5" role="img" aria-label={`${stars} of 3 stars`}>
             {[0, 1, 2].map((i) => (
-              <span key={i} className={i < stars ? "text-sun" : "text-line"}>
+              <span key={i} className={i < stars ? "text-sun" : "text-line-strong"}>
                 <StarIcon size={20} />
               </span>
             ))}
@@ -92,7 +102,7 @@ export function Done({
         </Stat>
       </dl>
 
-      <ul className="flex w-full max-w-sm flex-col gap-2 text-left font-bold">
+      <ul className="stagger flex w-full max-w-sm flex-col gap-2 text-left font-bold">
         <li className="flex items-center gap-3 rounded-2xl bg-brand-light px-4 py-3 text-brand-dark">
           <span aria-hidden className="text-xl">{goalJustMet || toGo === 0 ? "✓" : "◔"}</span>
           {goalJustMet
@@ -131,9 +141,9 @@ export function Done({
 
 function Stat({ label, children }: { label: string; children: ReactNode }) {
   return (
-    <div className="flex flex-col items-center gap-1 rounded-2xl border-2 border-line bg-white px-2 py-3">
+    <div className="flex flex-col items-center gap-1 rounded-[var(--radius-card)] border-2 border-line bg-surface px-2 py-3">
       <dt className="text-xs font-extrabold text-muted">{label}</dt>
-      <dd className="flex min-h-8 items-center text-2xl font-black">{children}</dd>
+      <dd className="flex min-h-8 items-center text-2xl font-black tabular-nums">{children}</dd>
     </div>
   );
 }

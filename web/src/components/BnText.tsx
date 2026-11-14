@@ -20,7 +20,7 @@ export function BnText({
       <div className="min-w-0">
         <div
           lang="bn"
-          className={`font-bold text-ink ${size === "lg" ? "text-3xl" : "text-xl"}`}
+          className={`font-bold text-pretty text-ink [overflow-wrap:anywhere] ${size === "lg" ? "text-3xl" : "text-xl"}`}
         >
           {text.bn}
         </div>
@@ -28,7 +28,7 @@ export function BnText({
           <Translit tr={text.tr} />
         </div>
         {showEn && text.en && (
-          <div className="text-sm font-semibold text-ink/80">{text.en}</div>
+          <div className="text-sm font-semibold text-pretty text-ink/80">{text.en}</div>
         )}
       </div>
     </div>

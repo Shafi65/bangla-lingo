@@ -17,7 +17,8 @@ export function ScriptRecognize({
         <div
           lang="bn"
           aria-label={`Letter ${ex.glyph}`}
-          className="flex h-40 w-40 items-center justify-center rounded-3xl border-2 border-b-[6px] border-line bg-white text-8xl font-bold text-ink"
+          className="bn-display flex h-40 w-40 items-center justify-center rounded-[var(--radius-panel)] border-2 border-line-strong bg-surface text-8xl font-bold text-ink"
+          style={{ boxShadow: "0 6px 0 var(--color-line-strong)" }}
         >
           {ex.glyph}
         </div>

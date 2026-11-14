@@ -31,12 +31,18 @@ export function ListenSelect({
   return (
     <div className="flex flex-col gap-6">
       <h2 className="text-2xl font-black">Tap what you hear</h2>
-      <div className="flex items-center justify-center gap-4 py-2">
-        <SpeakButton bn={ex.audio.bn} size="lg" />
-        <SpeakButton bn={ex.audio.bn} slow />
+      <div className="flex items-end justify-center gap-6 py-2">
+        <div className="flex flex-col items-center gap-2">
+          <SpeakButton bn={ex.audio.bn} size="lg" />
+          <span aria-hidden className="text-sm font-extrabold text-muted">Play</span>
+        </div>
+        <div className="flex flex-col items-center gap-2">
+          <SpeakButton bn={ex.audio.bn} slow className="h-14! w-14!" />
+          <span aria-hidden className="text-sm font-extrabold text-muted">Slower</span>
+        </div>
       </div>
       {can === "no" && (
-        <div className="rounded-2xl bg-paper p-3 text-center text-sm font-semibold text-muted">
+        <div className="rounded-2xl bg-sunk p-3 text-center text-sm font-semibold text-muted">
           No Bengali audio on this device.{" "}
           {reveal ? (
             <span>

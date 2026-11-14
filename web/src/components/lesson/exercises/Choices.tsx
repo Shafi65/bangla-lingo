@@ -101,10 +101,11 @@ export function Choices({
           <button
             key={orig}
             type="button"
-            className={`choice flex items-center gap-3 ${large ? "relative min-h-20 justify-center text-center sm:px-9" : ""}`}
+            className={`choice ${large ? "relative min-h-20 justify-center text-center sm:px-9" : ""}`}
             aria-pressed={selected === orig}
             aria-keyshortcuts={String(slot + 1)}
             data-verdict={verdict(orig)}
+            data-dim={locked && verdict(orig) === undefined ? "true" : undefined}
             disabled={locked}
             onClick={() => {
               setSelected(orig);
@@ -117,8 +118,8 @@ export function Choices({
             >
               {slot + 1}
             </span>
-            <span className="flex min-w-0 flex-col leading-tight">
-              <span lang={bengali ? "bn" : undefined} className={bengali ? "text-2xl" : ""}>
+            <span className="flex min-w-0 flex-col leading-tight text-pretty">
+              <span lang={bengali ? "bn" : undefined} className={bengali ? "text-2xl leading-snug" : ""}>
                 {opt}
               </span>
               {tr && <Translit tr={tr} inButton className="text-sm font-semibold" />}

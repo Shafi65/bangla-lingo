@@ -1,9 +1,10 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { BnText } from "@/components/BnText";
 import { Translit } from "@/components/Translit";
 import { seededShuffle } from "@/lib/answers";
+import { useFlip } from "@/lib/ui/flip";
 import type { WordBankExercise } from "@/lib/types";
 import { useLessonEnv } from "../LessonEnv";
 import { modalOpen } from "./Choices";
@@ -44,9 +45,9 @@ export function WordBank({ ex, locked, onChange }: ExerciseProps<WordBankExercis
     return () => window.removeEventListener("keydown", onKey);
   }, [locked, onChange]);
 
-  const tileBase =
-    "flex min-h-12 flex-col items-center justify-center rounded-xl border-2 border-b-4 border-line px-4 py-2 text-lg leading-tight font-bold transition";
-  const tileCls = `${tileBase} bg-white active:translate-y-0.5`;
+  const area = useRef<HTMLDivElement>(null);
+  useFlip(area, picked);
+  const bn = !bnToEn;
 
   return (
     <div className="flex flex-col gap-6">
@@ -56,60 +57,65 @@ export function WordBank({ ex, locked, onChange }: ExerciseProps<WordBankExercis
       {bnToEn ? (
         <BnText text={ex.prompt} size="lg" />
       ) : (
-        <p className="text-3xl font-bold">“{ex.prompt.en}”</p>
+        <p className="text-3xl leading-tight font-bold text-pretty">“{ex.prompt.en}”</p>
       )}
 
-      {/* Answer line */}
-      <div
-        className="flex min-h-[7.5rem] flex-wrap content-start gap-2 border-y-2 border-line py-3"
-        role="group"
-        aria-label="Your answer"
-      >
-        {picked.map((tileIdx, pos) => (
-          <button
-            key={`${tileIdx}-${pos}`}
-            type="button"
-            data-enter-native
-            disabled={locked}
-            aria-label={`Remove ${ex.tiles[tileIdx]}`}
-            className={`${tileCls} animate-pop`}
-            lang={bnToEn ? undefined : "bn"}
-            onClick={() => update(picked.filter((_, p) => p !== pos))}
-          >
-            <span>{ex.tiles[tileIdx]}</span>
-            {trOf(tileIdx) && (
-              <Translit tr={trOf(tileIdx)!} inButton className="text-xs font-semibold" />
-            )}
-          </button>
-        ))}
-      </div>
-
-      {/* Bank */}
-      <div className="flex flex-wrap justify-center gap-2">
-        {order.map((tileIdx) => {
-          const used = picked.includes(tileIdx);
-          return (
+      <div ref={area} className="flex flex-col gap-6">
+        {/* Answer line */}
+        <div
+          className="flex min-h-[8rem] flex-wrap content-start gap-x-2 gap-y-3 border-y-2 border-line py-3"
+          role="group"
+          aria-label="Your answer"
+        >
+          {picked.map((tileIdx, pos) => (
             <button
               key={tileIdx}
+              data-flip={tileIdx}
               type="button"
               data-enter-native
-              disabled={locked || used}
-              aria-hidden={used}
-              lang={bnToEn ? undefined : "bn"}
-              className={used ? `${tileBase} bg-line text-transparent` : `${tileCls} hover:bg-gray-50`}
-              onClick={() => update([...picked, tileIdx])}
+              disabled={locked}
+              aria-label={`Remove ${ex.tiles[tileIdx]}`}
+              className="tile"
+              lang={bn ? "bn" : undefined}
+              onClick={() => update(picked.filter((_, p) => p !== pos))}
             >
               <span>{ex.tiles[tileIdx]}</span>
               {trOf(tileIdx) && (
-                <Translit
-                  tr={trOf(tileIdx)!}
-                  inButton
-                  className={`text-xs font-semibold ${used ? "invisible" : ""}`}
-                />
+                <Translit tr={trOf(tileIdx)!} inButton className="text-xs font-semibold" />
               )}
             </button>
-          );
-        })}
+          ))}
+        </div>
+
+        {/* Bank: a used tile leaves a recessed slot of the same size behind. */}
+        <div className="flex flex-wrap justify-center gap-x-2 gap-y-3">
+          {order.map((tileIdx) => {
+            const used = picked.includes(tileIdx);
+            const tr = trOf(tileIdx);
+            return (
+              <span key={tileIdx} className="relative inline-flex">
+                <span aria-hidden className="tile-slot" lang={bn ? "bn" : undefined}>
+                  <span>{ex.tiles[tileIdx]}</span>
+                  {tr && <Translit tr={tr} inButton className="text-xs font-semibold" />}
+                </span>
+                {!used && (
+                  <button
+                    type="button"
+                    data-flip={tileIdx}
+                    data-enter-native
+                    disabled={locked}
+                    lang={bn ? "bn" : undefined}
+                    className="tile absolute inset-0"
+                    onClick={() => update([...picked, tileIdx])}
+                  >
+                    <span>{ex.tiles[tileIdx]}</span>
+                    {tr && <Translit tr={tr} inButton className="text-xs font-semibold" />}
+                  </button>
+                )}
+              </span>
+            );
+          })}
+        </div>
       </div>
     </div>
   );

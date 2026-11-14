@@ -1,5 +1,6 @@
 "use client";
 
+import type { CSSProperties } from "react";
 import { speak, useCanSpeak } from "@/lib/speech";
 
 const NO_VOICE = "No Bengali voice on this device";
@@ -18,8 +19,9 @@ export function SpeakButton({
   // Stays enabled while the device voice list is still loading, so a tap always tries.
   const hasVoice = useCanSpeak(bn) !== "no";
   const dims =
-    size === "lg" ? "h-20 w-20" : size === "sm" ? "h-8 w-8" : "h-11 w-11";
-  const icon = size === "lg" ? 40 : size === "sm" ? 16 : 22;
+    size === "lg" ? "h-24 w-24 rounded-[1.75rem]" : size === "sm" ? "h-8 w-8 rounded-xl" : "h-11 w-11 rounded-2xl";
+  const icon = size === "lg" ? 44 : size === "sm" ? 16 : 22;
+  const lipH = size === "lg" ? "5px" : size === "sm" ? "3px" : "4px";
   const label = hasVoice ? `${slow ? "Play slowly" : "Play audio"}: ${bn}` : NO_VOICE;
 
   return (
@@ -33,10 +35,14 @@ export function SpeakButton({
           e.stopPropagation();
           speak(bn, { slow });
         }}
-        className={`${dims} inline-flex shrink-0 items-center justify-center rounded-2xl border-b-4 transition ${
-          hasVoice
-            ? "border-brand-dark bg-brand text-white hover:brightness-110 active:translate-y-0.5 active:border-b-2"
-            : "cursor-not-allowed border-line bg-line text-muted"
+        style={
+          {
+            "--lip": hasVoice ? "var(--color-brand-edge)" : "var(--color-line-strong)",
+            "--lip-h": lipH,
+          } as CSSProperties
+        }
+        className={`${dims} press inline-flex shrink-0 items-center justify-center ${
+          hasVoice ? "bg-brand text-white hover:brightness-110" : "cursor-not-allowed bg-line text-muted"
         } ${className}`}
       >
         <svg width={icon} height={icon} viewBox="0 0 24 24" fill="none" aria-hidden>

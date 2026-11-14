@@ -1,8 +1,9 @@
 "use client";
 
 import Link from "next/link";
-import { useCallback, useEffect, useMemo, useState, type ReactNode } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState, type ReactNode } from "react";
 import { checkResponse, type Response } from "@/lib/answers";
+import { recordExerciseResult } from "@/lib/memory";
 import { progressStore, todayXp } from "@/lib/progress";
 import { playSfx } from "@/lib/sfx";
 import type { Exercise, Lesson } from "@/lib/types";
@@ -86,6 +87,7 @@ function LessonRun({
   const [summary, setSummary] = useState<DoneSummary | null>(null);
 
   const [tipOpen, setTipOpen] = useState(false);
+  const [footerRef, footerH] = useElementHeight<HTMLElement>(120);
 
   const exIndex = queue[pos];
   const ex = lesson.exercises[exIndex];
@@ -96,6 +98,15 @@ function LessonRun({
     if (!response || result !== null) return;
     const ok = checkResponse(ex, response);
     setResult(ok);
+    // Spaced-review memory. Practice exercises carry "<lessonId>:<exerciseId>"
+    // ids; report them under their source lesson and original id.
+    try {
+      const colon = mode === "practice" ? ex.id.indexOf(":") : -1;
+      if (colon > 0) recordExerciseResult(ex.id.slice(0, colon), { ...ex, id: ex.id.slice(colon + 1) }, ok);
+      else recordExerciseResult(lesson.id, ex, ok);
+    } catch {
+      // memory is best-effort; never break the lesson
+    }
     playSfx(ok ? "correct" : "wrong");
     if (ok) {
       setSolved((s) => s + 1);
@@ -104,7 +115,7 @@ function LessonRun({
       setMissed((m) => new Set(m).add(exIndex));
       setQueue((q) => [...q, exIndex]); // retry at the end
     }
-  }, [response, result, ex, exIndex]);
+  }, [response, result, ex, exIndex, lesson.id, mode]);
 
   const advance = useCallback(() => {
     if (result === null) return;
@@ -178,7 +189,7 @@ function LessonRun({
   };
 
   return (
-    <div className="flex min-h-dvh flex-col">
+    <div className="flex min-h-dvh flex-col bg-surface">
       <TopBar
         hearts={hearts}
         progress={solved / total}
@@ -188,7 +199,11 @@ function LessonRun({
       />
       {tipOpen && lesson.tip && <TipDialog tip={lesson.tip} onClose={() => setTipOpen(false)} />}
 
-      <main className="mx-auto w-full max-w-xl flex-1 px-4 pt-6 pb-56">
+      <main
+        className="mx-auto w-full max-w-xl flex-1 px-4 pt-6"
+        // Reserve exactly the footer's height, so the feedback sheet never covers the last option.
+        style={{ paddingBottom: footerH + 24 }}
+      >
         {pos >= total && (
           <p className="mb-3 flex items-center gap-2 text-sm font-extrabold text-accent-dark">
             <span aria-hidden>↻</span> Another go at one you missed
@@ -202,47 +217,101 @@ function LessonRun({
         </div>
       </main>
 
-      <footer
-        className={`fixed inset-x-0 bottom-0 border-t-2 pb-[env(safe-area-inset-bottom)] ${
-          result === null
-            ? "border-line bg-white"
-            : result
-              ? "animate-slide-up border-brand/20 bg-brand-light"
-              : "animate-slide-up border-accent/20 bg-accent-light"
-        }`}
-      >
-        <div className="mx-auto flex max-w-xl flex-col gap-4 px-4 py-5 sm:flex-row sm:items-end sm:justify-between">
-          <div className="min-w-0 flex-1">
-            {result !== null ? (
-              <Feedback ex={ex} correct={result} />
-            ) : (
-              <p className="hidden text-sm font-semibold text-muted sm:block">
-                {ex.type === "type_translation"
-                  ? "Press Enter to check"
-                  : ex.type === "match_pairs"
-                    ? "Match every pair, then check"
-                    : "Pick with the number keys, press Enter to check"}
-              </p>
-            )}
-          </div>
-          {result === null ? (
-            <button type="button" className="btn btn-primary w-full sm:w-44" disabled={!response} onClick={check}>
-              Check
-            </button>
-          ) : (
-            <button
-              type="button"
-              autoFocus
-              className={`btn w-full sm:w-44 ${result ? "btn-primary" : "btn-danger"}`}
-              onClick={advance}
-            >
-              Continue
-            </button>
-          )}
-        </div>
-      </footer>
+      <ActionBar
+        footerRef={footerRef}
+        result={result}
+        hint={
+          ex.type === "type_translation"
+            ? "Press Enter to check"
+            : ex.type === "match_pairs"
+              ? "Match every pair, then check"
+              : ex.type === "word_bank"
+                ? "Tap words to build your answer. Backspace removes the last one."
+                : "Pick with the number keys, press Enter to check"
+        }
+        feedback={
+          result !== null ? (
+            <Feedback ex={ex} correct={result} lessonId={mode === "practice" ? ex.id.split(":")[0] : lesson.id} />
+          ) : null
+        }
+        canCheck={!!response}
+        onCheck={check}
+        onContinue={advance}
+      />
     </div>
   );
+}
+
+/**
+ * Sticky bottom bar: Check, then the feedback sheet with Continue. Fixed to the
+ * viewport with safe-area padding; its height is reported so the page reserves room.
+ */
+function ActionBar({
+  footerRef,
+  result,
+  hint,
+  feedback,
+  canCheck,
+  onCheck,
+  onContinue,
+}: {
+  footerRef: (el: HTMLElement | null) => void;
+  result: boolean | null;
+  hint: string;
+  feedback: ReactNode;
+  canCheck: boolean;
+  onCheck: () => void;
+  onContinue: () => void;
+}) {
+  const tone =
+    result === null
+      ? "border-line bg-surface"
+      : result
+        ? "animate-sheet border-brand/25 bg-brand-light"
+        : "animate-sheet border-accent/25 bg-accent-light";
+  return (
+    <footer
+      ref={footerRef}
+      className={`fixed inset-x-0 bottom-0 z-10 border-t-2 pb-[env(safe-area-inset-bottom)] transition-colors ${tone}`}
+      style={result === null ? undefined : { boxShadow: "var(--shadow-sheet)" }}
+    >
+      <div className="mx-auto flex max-w-xl flex-col gap-4 px-4 pt-4 pb-4 sm:flex-row sm:items-end sm:justify-between sm:pt-5">
+        <div className="min-w-0 flex-1">
+          {feedback ?? <p className="hidden text-sm font-semibold text-muted sm:block">{hint}</p>}
+        </div>
+        {result === null ? (
+          <button type="button" className="btn btn-primary w-full sm:w-44" disabled={!canCheck} onClick={onCheck}>
+            Check
+          </button>
+        ) : (
+          <button
+            type="button"
+            autoFocus
+            className={`btn w-full sm:w-44 ${result ? "btn-primary" : "btn-danger"}`}
+            onClick={onContinue}
+          >
+            Continue
+          </button>
+        )}
+      </div>
+    </footer>
+  );
+}
+
+/** Live height of an element (for reserving space under a fixed footer). */
+function useElementHeight<T extends HTMLElement>(fallback: number) {
+  const [h, setH] = useState(fallback);
+  const ro = useRef<ResizeObserver | null>(null);
+  const ref = useCallback((el: T | null) => {
+    ro.current?.disconnect();
+    ro.current = null;
+    if (!el) return;
+    setH(el.offsetHeight);
+    if (typeof ResizeObserver === "undefined") return;
+    ro.current = new ResizeObserver(() => setH(el.offsetHeight));
+    ro.current.observe(el);
+  }, []);
+  return [ref, h] as const;
 }
 
 function ExerciseView(props: ExerciseProps<Exercise>) {
@@ -305,62 +374,88 @@ function TopBar({
 }) {
   const pct = Math.round(progress * 100);
   return (
-    <header className="mx-auto flex w-full max-w-xl items-center gap-4 px-4 pt-5">
-      <ExitControl
-        exitHref={exitHref}
-        onExit={onExit}
-        label="Quit"
-        className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl text-muted hover:bg-gray-100"
-      >
-        <svg width="22" height="22" viewBox="0 0 24 24" aria-hidden>
-          <path d="M6 6l12 12M18 6L6 18" stroke="currentColor" strokeWidth="3" strokeLinecap="round" />
-        </svg>
-      </ExitControl>
-      <div
-        className="h-4 flex-1 overflow-hidden rounded-full bg-line"
-        role="progressbar"
-        aria-label="Lesson progress"
-        aria-valuemin={0}
-        aria-valuemax={100}
-        aria-valuenow={pct}
-      >
-        <div
-          className="h-full rounded-full bg-brand transition-[width] duration-500"
-          style={{ width: `${Math.max(progress * 100, 2)}%` }}
-        />
-      </div>
-      {onTip && (
-        <button
-          type="button"
-          onClick={onTip}
-          aria-haspopup="dialog"
-          className="shrink-0 rounded-xl border-2 border-brand/30 bg-brand-light px-2.5 py-1 text-sm font-black text-brand-dark hover:brightness-95"
+    <header className="sticky top-0 z-10 bg-surface/95 pt-[env(safe-area-inset-top)] backdrop-blur-sm">
+      <div className="mx-auto flex w-full max-w-xl items-center gap-3 px-4 py-3 sm:gap-4 sm:pt-5">
+        <ExitControl
+          exitHref={exitHref}
+          onExit={onExit}
+          label="Quit"
+          className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl text-muted transition-colors hover:bg-sunk hover:text-ink"
         >
-          Tip
-        </button>
-      )}
-      <div
-        className={`flex items-center gap-1 font-black ${hearts <= 1 ? "text-accent-dark" : "text-accent"}`}
-        role="img"
-        aria-label={`${hearts} of ${MAX_HEARTS} hearts left`}
-      >
-        <HeartIcon />
-        <span aria-hidden className="text-accent-dark">{hearts}</span>
+          <svg width="22" height="22" viewBox="0 0 24 24" aria-hidden>
+            <path d="M6 6l12 12M18 6L6 18" stroke="currentColor" strokeWidth="3" strokeLinecap="round" />
+          </svg>
+        </ExitControl>
+        <div
+          className="relative h-4 flex-1 overflow-hidden rounded-full bg-line"
+          role="progressbar"
+          aria-label="Lesson progress"
+          aria-valuemin={0}
+          aria-valuemax={100}
+          aria-valuenow={pct}
+        >
+          <div
+            className="relative h-full rounded-full bg-brand transition-[width] duration-500 ease-[var(--ease-spring)]"
+            style={{ width: `${Math.max(progress * 100, 4)}%` }}
+          >
+            {/* highlight along the top of the fill */}
+            <span aria-hidden className="absolute inset-x-2 top-1 h-1 rounded-full bg-white/35" />
+          </div>
+        </div>
+        {onTip && (
+          <button
+            type="button"
+            onClick={onTip}
+            aria-haspopup="dialog"
+            className="shrink-0 rounded-xl border-2 border-brand/30 bg-brand-light px-2.5 py-1 text-sm font-black text-brand-dark transition hover:brightness-95"
+          >
+            Tip
+          </button>
+        )}
+        <Hearts hearts={hearts} />
       </div>
     </header>
+  );
+}
+
+/** Heart counter: thumps and drops a ghost heart each time one is lost. */
+function Hearts({ hearts }: { hearts: number }) {
+  const [prev, setPrev] = useState(hearts);
+  const [lost, setLost] = useState(0); // bumps on every loss, used as an animation key
+  if (hearts !== prev) {
+    // Adjust state during render (React's recommended pattern; no effect needed).
+    setPrev(hearts);
+    if (hearts < prev) setLost((n) => n + 1);
+  }
+  return (
+    <div
+      className={`relative flex shrink-0 items-center gap-1 font-black ${hearts <= 1 ? "text-accent-dark" : "text-accent"}`}
+      role="img"
+      aria-label={`${hearts} of ${MAX_HEARTS} hearts left`}
+    >
+      <span key={lost} className={`relative inline-flex ${lost ? "animate-heart" : ""}`}>
+        <HeartIcon />
+        {lost > 0 && (
+          <span aria-hidden className="heart-ghost pointer-events-none absolute inset-0 text-accent">
+            <HeartIcon broken />
+          </span>
+        )}
+      </span>
+      <span aria-hidden className="min-w-[1ch] text-lg text-accent-dark tabular-nums">{hearts}</span>
+    </div>
   );
 }
 
 function Intro({ lesson, onStart }: { lesson: Lesson; onStart: () => void }) {
   return (
     <div className="flex min-h-dvh flex-col bg-paper">
-      <header className="mx-auto flex w-full max-w-xl items-center px-4 pt-5">
-        <Link href="/" className="rounded-lg px-1 font-extrabold text-muted hover:text-ink">
+      <header className="mx-auto flex w-full max-w-xl items-center px-4 pt-[max(1.25rem,env(safe-area-inset-top))]">
+        <Link href="/" className="rounded-lg px-1 py-1 font-extrabold text-muted transition-colors hover:text-ink">
           <span aria-hidden>←</span> Back to the map
         </Link>
       </header>
-      <main className="mx-auto flex w-full max-w-xl flex-1 flex-col gap-6 px-4 pt-6 pb-32">
-        <h1 className="text-3xl font-black">{lesson.title}</h1>
+      <main className="animate-rise mx-auto flex w-full max-w-xl flex-1 flex-col gap-6 px-4 pt-6 pb-36">
+        <h1 className="text-3xl leading-tight font-black text-balance">{lesson.title}</h1>
         {lesson.status === "draft" && (
           <p className="-mt-3 rounded-2xl bg-sun-light px-4 py-3 text-sm font-semibold text-sun-dark">
             Early version: a native speaker is still checking this lesson, so a
@@ -368,7 +463,7 @@ function Intro({ lesson, onStart }: { lesson: Lesson; onStart: () => void }) {
           </p>
         )}
         {lesson.tip && (
-          <div className="rounded-2xl border-2 border-brand/20 bg-brand-light p-4 text-base leading-relaxed font-semibold text-ink">
+          <div className="rounded-[var(--radius-card)] border-2 border-brand/20 bg-brand-light p-4 text-base leading-relaxed font-semibold text-ink">
             <h2 className="mb-1 font-black text-brand-dark">Before you start</h2>
             <MiniMarkdown text={lesson.tip} />
           </div>
@@ -376,12 +471,12 @@ function Intro({ lesson, onStart }: { lesson: Lesson; onStart: () => void }) {
         {lesson.vocab.length > 0 && (
           <section>
             <h2 className="mb-3 text-lg font-black">New words</h2>
-            <ul className="flex flex-col divide-y-2 divide-line rounded-2xl border-2 border-line bg-white">
+            <ul className="card flex flex-col divide-y-2 divide-line overflow-hidden">
               {lesson.vocab.map((v) => (
-                <li key={v.id} className="p-3">
+                <li key={v.id} className="px-4 py-3">
                   <div className="flex items-center justify-between gap-3">
                     <BnText text={v} />
-                    <span className="max-w-[45%] text-right font-bold">{v.en}</span>
+                    <span className="max-w-[45%] text-right font-bold text-pretty">{v.en}</span>
                   </div>
                   {v.notes && (
                     <p className="mt-1.5 pl-11 text-sm font-semibold text-muted">{v.notes}</p>
@@ -392,8 +487,8 @@ function Intro({ lesson, onStart }: { lesson: Lesson; onStart: () => void }) {
           </section>
         )}
       </main>
-      <footer className="fixed inset-x-0 bottom-0 border-t-2 border-line bg-white pb-[env(safe-area-inset-bottom)]">
-        <div className="mx-auto max-w-xl px-4 py-5">
+      <footer className="fixed inset-x-0 bottom-0 border-t-2 border-line bg-surface pb-[env(safe-area-inset-bottom)]">
+        <div className="mx-auto max-w-xl px-4 pt-4 pb-4">
           <button type="button" autoFocus className="btn btn-primary w-full" onClick={onStart}>
             Start lesson
           </button>
@@ -413,13 +508,13 @@ function OutOfHearts({
   onExit?: () => void;
 }) {
   return (
-    <main className="mx-auto flex min-h-dvh w-full max-w-xl flex-col items-center justify-center gap-6 px-4 text-center">
-      <div className="text-accent">
-        <HeartIcon size={88} broken />
+    <main className="mx-auto flex min-h-dvh w-full max-w-xl flex-col items-center justify-center gap-6 bg-surface px-4 text-center">
+      <div className="animate-medal flex h-32 w-32 items-center justify-center rounded-full bg-accent-light text-accent">
+        <HeartIcon size={72} broken />
       </div>
-      <div>
+      <div className="animate-rise">
         <h1 className="text-3xl font-black">Out of hearts</h1>
-        <p className="mt-1 font-semibold text-muted">
+        <p className="mx-auto mt-1 max-w-sm font-semibold text-pretty text-muted">
           Mistakes are how this sticks. Have another go: the words will feel
           familiar now.
         </p>

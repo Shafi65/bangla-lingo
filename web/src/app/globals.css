@@ -1,20 +1,46 @@
 @import "tailwindcss";
 
+/* Dark mode follows the resolved theme on <html data-theme> (set before paint
+   by the inline script in layout.tsx: Light, Dark or System). */
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+
+/* ------------------------------------------------------------------------
+   Design tokens
+   Colour roles (light values here, dark values further down):
+     paper    page background            surface  cards, sheets, controls
+     sunk     hover / recessed wells      line     hairlines and borders
+     line-strong  control edges and idle path stitches
+     ink / muted  text
+     brand / accent / sun   fills (flag green, flag red, marigold)
+     *-dark   the same hue as TEXT on surface/paper (AA contrast)
+     *-light  the same hue as a quiet TINT background
+     *-edge   the darker "pressable" lip under a filled button
+   ------------------------------------------------------------------------ */
 @theme {
-  /* Bangladesh-flag palette. Use the -dark tones for text on white (WCAG AA). */
   --color-brand: #006a4e;
-  --color-brand-dark: #004d38;
-  --color-brand-light: #e3f3ec;
+  --color-brand-dark: #00523c;
+  --color-brand-light: #e2f2ea;
+  --color-brand-edge: #004332;
+
   --color-accent: #f42a41;
   --color-accent-dark: #c21a2f;
   --color-accent-light: #fde8ea;
+  --color-accent-edge: #a8172a;
+
   --color-sun: #ffb300;
-  --color-sun-dark: #9a5800;
-  --color-sun-light: #fff4d6;
+  --color-sun-dark: #8a4f00;
+  --color-sun-light: #fff3d1;
+  --color-sun-edge: #c98600;
+
   --color-ink: #1f2a2e;
   --color-muted: #56656b;
   --color-line: #e2e8e6;
+  --color-line-strong: #cbd5d1;
   --color-paper: #f4f8f6;
+  --color-surface: #ffffff;
+  --color-sunk: #edf2f0;
+  --color-focus: #1f2a2e;
+  --color-scrim: rgb(10 20 18 / 0.45);
 
   --font-sans:
     "Nunito Variable", "Noto Sans Bengali Variable", "Noto Sans Bengali",
@@ -22,135 +48,327 @@
   --font-bengali:
     "Noto Sans Bengali Variable", "Noto Sans Bengali", "Hind Siliguri",
     "Nunito Variable", system-ui, sans-serif;
+
+  /* Radius by hierarchy: tile < control < card < panel. */
+  --radius-tile: 0.75rem;
+  --radius-control: 1rem;
+  --radius-card: 1.25rem;
+  --radius-panel: 1.75rem;
+
+  /* Raised surfaces: one soft lift, plus the pressable lip (see .btn). */
+  --shadow-lift: 0 1px 2px rgb(16 40 32 / 0.06), 0 6px 18px -8px rgb(16 40 32 / 0.18);
+  --shadow-sheet: 0 -8px 24px -12px rgb(16 40 32 / 0.22);
+
+  --ease-out-soft: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+/* Dark: a deep river-green night, not grey. Fills stay on-brand; text tones lift. */
+[data-theme="dark"] {
+  color-scheme: dark;
+  --color-brand: #0a7d5c;
+  --color-brand-dark: #74d4ae;
+  --color-brand-light: #123a2e;
+  --color-brand-edge: #04503b;
+
+  --color-accent: #f2475b;
+  --color-accent-dark: #ff929e;
+  --color-accent-light: #3d1c22;
+  --color-accent-edge: #a3182b;
+
+  --color-sun: #ffb92e;
+  --color-sun-dark: #ffd273;
+  --color-sun-light: #3a2e10;
+  --color-sun-edge: #b37700;
+
+  --color-ink: #e6eeeb;
+  --color-muted: #9cada7;
+  --color-line: #263531;
+  --color-line-strong: #364843;
+  --color-paper: #0d1614;
+  --color-surface: #15201d;
+  --color-sunk: #1c2a26;
+  --color-focus: #e6eeeb;
+  --color-scrim: rgb(0 0 0 / 0.6);
+
+  --shadow-lift: 0 1px 2px rgb(0 0 0 / 0.4), 0 8px 20px -10px rgb(0 0 0 / 0.6);
+  --shadow-sheet: 0 -8px 24px -12px rgb(0 0 0 / 0.7);
+
+  /* Neutral greys used by older screens map onto the dark ramp. */
+  --color-gray-50: var(--color-sunk);
+  --color-gray-100: var(--color-sunk);
+  --color-gray-200: var(--color-line);
+  --color-gray-300: var(--color-line-strong);
+}
+:root {
+  color-scheme: light;
+}
+
+/* Screens owned by other workstreams still say bg-white: give them the surface.
+   (Unlayered, so it wins over the utility; text-white is untouched.) */
+[data-theme="dark"] .bg-white {
+  background-color: var(--color-surface);
 }
 
 html,
 body {
-  background: #ffffff;
+  background: var(--color-surface);
   color: var(--color-ink);
 }
+body {
+  -webkit-tap-highlight-color: transparent;
+}
 
-/* Any Bengali text: Bengali glyphs read small at Latin sizes */
+/* Bengali text. Noto Sans Bengali has tall ascenders (reph, ি ী ৈ ৌ) and deep
+   descenders (ু ূ ৃ, conjunct feet), so give it more line-height than Latin
+   and never clip it vertically. */
 [lang="bn"] {
   font-family: var(--font-bengali);
-  line-height: 1.5;
+  line-height: 1.6;
+  font-feature-settings: "kern";
+}
+/* Display-size Bengali (big prompt glyphs) needs less leading but no clipping. */
+.bn-display {
+  line-height: 1.35;
+  padding-block: 0.08em;
 }
 
 /* One visible focus style everywhere (keyboard only). */
 :focus-visible {
-  outline: 3px solid var(--color-ink);
+  outline: 3px solid var(--color-focus);
   outline-offset: 3px;
   border-radius: 0.75rem;
 }
 
+/* Fields that show focus with their own border colour opt out of the ring. */
+.focus-border:focus-visible {
+  outline: none;
+}
+
+::selection {
+  background: color-mix(in oklab, var(--color-brand) 30%, transparent);
+}
+
+/* Pressable surfaces: a coloured lip under the face (box-shadow, so pressing
+   never shifts layout). --lip is the lip colour, --lip-h its height. */
+@utility press {
+  --lip-h: 4px;
+  box-shadow: 0 var(--lip-h) 0 var(--lip);
+  transition:
+    transform 90ms ease-out,
+    box-shadow 90ms ease-out,
+    background-color 150ms,
+    border-color 150ms,
+    color 150ms,
+    filter 150ms;
+  &:active:not(:disabled, [aria-disabled="true"]) {
+    transform: translateY(var(--lip-h));
+    box-shadow: 0 0 0 var(--lip);
+  }
+}
+
 @layer components {
-/* Chunky "pressable" buttons: sentence case, no shouting. */
-.btn {
-  @apply inline-flex min-h-12 items-center justify-center gap-2 rounded-2xl px-6 py-3 text-lg font-extrabold transition select-none;
-  border-bottom-width: 4px;
-}
-.btn:active:not(:disabled) {
-  transform: translateY(2px);
-  border-bottom-width: 2px;
-}
-.btn:disabled {
-  @apply cursor-not-allowed border-line bg-line text-muted;
-}
-.btn-primary {
-  @apply border-brand-dark bg-brand text-white hover:brightness-110;
-}
-.btn-danger {
-  @apply border-accent-dark bg-accent-dark text-white hover:brightness-110;
-}
-.btn-ghost {
-  @apply border-line bg-white text-ink hover:bg-gray-50;
-  border-width: 2px;
-  border-bottom-width: 4px;
+  .btn {
+    @apply press inline-flex min-h-12 items-center justify-center gap-2 px-6 py-3 text-lg font-extrabold select-none;
+    border-radius: var(--radius-control);
+    margin-bottom: 4px; /* room for the lip */
+  }
+  .btn:disabled {
+    @apply cursor-not-allowed bg-line text-muted;
+    --lip: var(--color-line-strong);
+  }
+  .btn-primary {
+    @apply bg-brand text-white;
+    --lip: var(--color-brand-edge);
+  }
+  .btn-primary:hover:not(:disabled) {
+    filter: brightness(1.08);
+  }
+  .btn-danger {
+    @apply bg-accent text-white;
+    --lip: var(--color-accent-edge);
+  }
+  .btn-danger:hover:not(:disabled) {
+    filter: brightness(1.06);
+  }
+  .btn-ghost {
+    @apply border-2 border-line-strong bg-surface text-ink;
+    --lip: var(--color-line-strong);
+    --lip-h: 3px;
+  }
+  .btn-ghost:hover:not(:disabled) {
+    @apply bg-sunk;
+  }
+  .btn-sm {
+    @apply min-h-10 px-4 py-2 text-base;
+  }
+
+  /* Answer choice card */
+  .choice {
+    @apply press flex w-full min-h-14 items-center gap-3 border-2 border-line-strong bg-surface px-4 py-3 text-left text-lg font-bold text-ink;
+    --lip: var(--color-line-strong);
+    --lip-h: 3px;
+    border-radius: var(--radius-control);
+    margin-bottom: 3px;
+    overflow-wrap: anywhere;
+  }
+  .choice:hover:not(:disabled) {
+    @apply bg-sunk;
+  }
+  .choice[aria-pressed="true"] {
+    @apply border-brand bg-brand-light text-brand-dark;
+    --lip: var(--color-brand);
+  }
+  .choice:disabled {
+    @apply cursor-default;
+  }
+  .choice[data-verdict="right"] {
+    @apply border-brand bg-brand-light text-brand-dark;
+    --lip: var(--color-brand);
+    animation: pop 0.28s var(--ease-spring);
+  }
+  .choice[data-verdict="wrong"] {
+    @apply border-accent bg-accent-light text-accent-dark;
+    --lip: var(--color-accent);
+    animation: shake 0.32s ease-in-out;
+  }
+  .choice[data-dim="true"] {
+    opacity: 0.55;
+  }
+
+  /* Word-bank tile */
+  .tile {
+    @apply press inline-flex min-h-12 flex-col items-center justify-center border-2 border-line-strong bg-surface px-4 py-1.5 text-lg leading-tight font-bold text-ink;
+    --lip: var(--color-line-strong);
+    --lip-h: 3px;
+    border-radius: var(--radius-tile);
+    margin-bottom: 3px;
+  }
+  .tile:hover:not(:disabled) {
+    @apply bg-sunk;
+  }
+  .tile-slot {
+    @apply inline-flex min-h-12 flex-col items-center justify-center border-2 border-transparent bg-sunk px-4 py-1.5 text-lg leading-tight font-bold text-transparent;
+    border-radius: var(--radius-tile);
+    margin-bottom: 3px;
+    box-shadow: inset 0 2px 0 var(--color-line);
+  }
+
+  .tile-slot * {
+    color: transparent !important;
+  }
+
+  .card {
+    @apply border-2 border-line bg-surface;
+    border-radius: var(--radius-panel);
+  }
+
+  .chip {
+    @apply inline-flex items-center gap-1 rounded-full px-2.5 py-0.5 text-xs font-extrabold;
+  }
+
+  .kbd {
+    @apply inline-flex h-7 min-w-7 shrink-0 items-center justify-center rounded-lg border-2 border-line-strong px-1 text-sm font-extrabold text-muted;
+  }
+  .choice[aria-pressed="true"] .kbd {
+    @apply border-brand text-brand-dark;
+  }
+  .choice[data-verdict] .kbd {
+    border-color: currentColor;
+    color: inherit;
+  }
+
+  .translit-reveal {
+    @apply rounded-md border border-dashed border-muted/50 px-1.5 text-xs font-bold text-muted not-italic hover:border-brand hover:text-brand-dark;
+  }
+
+  /* Kantha running stitch: the thread that joins lessons on the map. */
+  .stitch {
+    stroke-dasharray: 2 9;
+    stroke-linecap: round;
+    stroke-width: 5;
+    fill: none;
+  }
+  /* The same stitch as an inset border on a cloth-like patch. */
+  .kantha-edge {
+    position: relative;
+  }
+  .kantha-edge::after {
+    content: "";
+    position: absolute;
+    inset: 7px;
+    border: 2px dashed var(--stitch, rgb(255 255 255 / 0.4));
+    border-radius: calc(var(--radius-panel) - 7px);
+    pointer-events: none;
+  }
 }
 
-/* Answer choice card */
-.choice {
-  @apply w-full min-h-14 rounded-2xl border-2 border-b-4 border-line bg-white px-4 py-3 text-left text-lg font-bold transition;
-}
-.choice:hover:not(:disabled) {
-  @apply bg-gray-50;
-}
-.choice[aria-pressed="true"] {
-  @apply border-brand bg-brand-light text-brand-dark;
-}
-.choice:disabled {
-  @apply cursor-default;
-}
-.choice[data-verdict="right"] {
-  @apply border-brand bg-brand-light text-brand-dark;
-}
-.choice[data-verdict="wrong"] {
-  @apply border-accent bg-accent-light text-accent-dark;
-}
-
-.kbd {
-  @apply inline-flex h-7 min-w-7 shrink-0 items-center justify-center rounded-lg border-2 border-line px-1 text-sm font-extrabold text-muted;
-}
-.choice[aria-pressed="true"] .kbd {
-  @apply border-brand text-brand-dark;
-}
-.choice[data-verdict] .kbd {
-  border-color: currentColor;
-  color: inherit;
-}
-
-.translit-reveal {
-  @apply rounded-md border border-dashed border-muted/50 px-1.5 text-xs font-bold text-muted not-italic hover:border-brand hover:text-brand-dark;
-}
-
-/* Kantha running stitch: the thread that joins lessons on the map. */
-.stitch {
-  stroke-dasharray: 2 9;
-  stroke-linecap: round;
-  stroke-width: 5;
-  fill: none;
-}
-}
-
+/* ---------------------------------------------------------------- Motion */
 @keyframes pop {
   0% { transform: scale(0.96); }
   60% { transform: scale(1.03); }
   100% { transform: scale(1); }
 }
 .animate-pop {
-  animation: pop 0.25s ease-out;
+  animation: pop 0.25s var(--ease-spring);
 }
 @keyframes shake {
   0%, 100% { transform: translateX(0); }
-  25% { transform: translateX(-6px); }
-  75% { transform: translateX(6px); }
+  20% { transform: translateX(-7px); }
+  40% { transform: translateX(6px); }
+  60% { transform: translateX(-4px); }
+  80% { transform: translateX(2px); }
 }
 .animate-shake {
-  animation: shake 0.3s ease-in-out;
+  animation: shake 0.34s ease-in-out;
 }
-@keyframes slide-up {
-  from { transform: translateY(100%); }
-  to { transform: translateY(0); }
+@keyframes sheet-up {
+  from { transform: translateY(24px); opacity: 0.4; }
+  to { transform: none; opacity: 1; }
 }
-.animate-slide-up {
-  animation: slide-up 0.2s ease-out;
+.animate-sheet {
+  animation: sheet-up 0.26s var(--ease-out-soft) both;
 }
 @keyframes fade-in {
-  from { opacity: 0; transform: translateY(6px); }
+  from { opacity: 0; transform: translateX(18px); }
   to { opacity: 1; transform: none; }
 }
+/* New exercise slides in from the right, like turning a page forward. */
 .animate-enter {
-  animation: fade-in 0.22s ease-out both;
+  animation: fade-in 0.3s var(--ease-out-soft) both;
+}
+@keyframes rise {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: none; }
+}
+.animate-rise {
+  animation: rise 0.35s var(--ease-out-soft) both;
 }
 /* Gentle breathing ring around the recommended next lesson. */
 @keyframes beckon {
-  0%, 100% { box-shadow: 0 0 0 0 rgb(0 106 78 / 0.28); }
-  50% { box-shadow: 0 0 0 10px rgb(0 106 78 / 0); }
+  0%, 100% { box-shadow: 0 6px 0 var(--lip), 0 0 0 0 color-mix(in oklab, var(--color-brand) 35%, transparent); }
+  50% { box-shadow: 0 6px 0 var(--lip), 0 0 0 12px color-mix(in oklab, var(--color-brand) 0%, transparent); }
 }
 .animate-beckon {
   animation: beckon 2.4s ease-in-out infinite;
 }
-
+/* Heart lost: the icon thumps and a ghost heart drops away. */
+@keyframes heart-thump {
+  0% { transform: scale(1); }
+  30% { transform: scale(1.35); }
+  55% { transform: scale(0.85); }
+  100% { transform: scale(1); }
+}
+.animate-heart {
+  animation: heart-thump 0.5s var(--ease-spring);
+}
+@keyframes heart-drop {
+  0% { transform: translateY(0) scale(1); opacity: 0.9; }
+  100% { transform: translateY(26px) scale(0.6) rotate(18deg); opacity: 0; }
+}
+.heart-ghost {
+  animation: heart-drop 0.7s ease-in both;
+}
 /* End-of-lesson burst: petals in flag colours flung from the medal. */
 @keyframes petal {
   0% { transform: translate(0, 0) rotate(0deg) scale(0.4); opacity: 0; }
@@ -178,6 +396,24 @@ body {
 .animate-medal {
   animation: medal 0.5s cubic-bezier(0.3, 1.4, 0.5, 1) both;
 }
+/* Stats on the end screen arrive one after another. */
+.stagger > * {
+  animation: rise 0.4s var(--ease-out-soft) both;
+}
+.stagger > *:nth-child(2) { animation-delay: 80ms; }
+.stagger > *:nth-child(3) { animation-delay: 160ms; }
+.stagger > *:nth-child(4) { animation-delay: 240ms; }
+
+@keyframes shimmer {
+  from { background-position: 200% 0; }
+  to { background-position: -200% 0; }
+}
+.skeleton {
+  border-radius: var(--radius-card);
+  background: linear-gradient(90deg, var(--color-sunk) 0%, var(--color-line) 50%, var(--color-sunk) 100%);
+  background-size: 200% 100%;
+  animation: shimmer 1.4s linear infinite;
+}
 
 @media (prefers-reduced-motion: reduce) {
   *,
@@ -185,10 +421,27 @@ body {
   *::after {
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
+    animation-delay: 0ms !important;
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
-  .petal {
+  .petal,
+  .heart-ghost {
     display: none;
   }
+}
+
+/* Matched pair: flashes green, then settles into a quiet "done" card. */
+@keyframes match-done {
+  0% { transform: scale(1); background: var(--color-brand-light); border-color: var(--color-brand); color: var(--color-brand-dark); opacity: 1; }
+  35% { transform: scale(1.04); background: var(--color-brand-light); border-color: var(--color-brand); color: var(--color-brand-dark); opacity: 1; }
+  100% { transform: scale(1); opacity: 0.45; }
+}
+.choice.match-done {
+  background: var(--color-sunk);
+  border-color: var(--color-line);
+  color: var(--color-muted);
+  box-shadow: none;
+  opacity: 0.45;
+  animation: match-done 0.6s var(--ease-out-soft);
 }

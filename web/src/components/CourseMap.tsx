@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { useEffect, useId, useRef, useState, type CSSProperties } from "react";
 import type { CourseSummary, LessonSummary, UnitSummary } from "@/lib/types";
 import {
   currentStreak,
@@ -19,7 +20,7 @@ import { GoalRing } from "./Stats";
 
 // Zig-zag offsets for the lesson path (px from centre) and row geometry.
 const OFFSETS = [0, 52, 76, 52, 0, -52, -76, -52];
-const ROW = 104;
+const ROW = 108;
 const NODE = 72;
 const STITCH_W = 240;
 
@@ -29,25 +30,51 @@ interface NumberedUnit {
   label: string;
 }
 
+interface Section {
+  n: number;
+  units: NumberedUnit[];
+}
+
+/** Review lessons are titled "Review: …" in content (the only loaded marker). */
+export function isReviewLesson(l: Pick<LessonSummary, "title">): boolean {
+  return /^review\b/i.test(l.title.trim());
+}
+
+/**
+ * Sections group the course into stages: the main units up to and including
+ * the next script unit (the script track is woven between main units).
+ */
+function sectionsOf(course: CourseSummary): Section[] {
+  let mainN = 0;
+  let scriptN = 0;
+  const out: Section[] = [];
+  let cur: NumberedUnit[] = [];
+  for (const unit of course.units) {
+    cur.push({ unit, label: unit.track === "script" ? `Script ${++scriptN}` : `Unit ${++mainN}` });
+    if (unit.track === "script") {
+      out.push({ n: out.length + 1, units: cur });
+      cur = [];
+    }
+  }
+  if (cur.length) out.push({ n: out.length + 1, units: cur });
+  return out;
+}
+
 export function CourseMap({ course }: { course: CourseSummary }) {
   const progress = useProgress();
   const nextId = nextLessonId(course, progress);
   const next = findLesson(course, nextId);
   const anyDone = Object.keys(progress.completed).length > 0;
+  const sections = sectionsOf(course);
+  const currentSection =
+    sections.find((s) => s.units.some((u) => u.unit.lessons.some((l) => l.id === nextId)))?.n ?? 1;
+  const [openOverride, setOpenOverride] = useState<Record<number, boolean>>({});
 
-  let mainN = 0;
-  let scriptN = 0;
-  const numbered: NumberedUnit[] = course.units.map((unit) => ({
-    unit,
-    label: unit.track === "script" ? `Script ${++scriptN}` : `Unit ${++mainN}`,
-  }));
-  // Show the first not-yet-available unit in full, fold the rest away.
-  const firstSoon = numbered.findIndex((n) => n.unit.lessons.length === 0);
-  const shown = firstSoon < 0 ? numbered : numbered.slice(0, firstSoon + 1);
-  const later = firstSoon < 0 ? [] : numbered.slice(firstSoon + 1);
+  useScrollToCurrent(nextId, anyDone);
 
   return (
     <AppShell aside={<Aside anyDone={anyDone} />}>
+      <h1 className="sr-only">{course.title}</h1>
       {course.source === "fixture" && (
         <p className="mb-6 rounded-2xl border-2 border-dashed border-sun bg-sun-light p-3 text-sm font-semibold text-sun-dark">
           Showing the built-in demo lesson. Real course content will appear
@@ -57,43 +84,47 @@ export function CourseMap({ course }: { course: CourseSummary }) {
 
       <StreakNudge progress={progress} />
 
-      {next && <UpNext lesson={next.lesson} unit={next.unit} anyDone={anyDone} />}
+      {next ? (
+        <ContinueCard lesson={next.lesson} unit={next.unit} progress={progress} anyDone={anyDone} />
+      ) : (
+        <AllDone />
+      )}
 
-      <ol aria-label="Course path" className="mt-8 flex flex-col gap-10">
-        {shown.map(({ unit, label }) => (
-          <li key={unit.id}>
-            {unit.lessons.length === 0 ? (
-              <ComingSoon unit={unit} label={label} />
-            ) : (
-              <UnitBlock unit={unit} label={label} progress={progress} nextId={nextId} />
-            )}
+      <ol aria-label="Course sections" className="mt-10 flex flex-col gap-12">
+        {sections.map((s) => (
+          <li key={s.n}>
+            <SectionBlock
+              section={s}
+              progress={progress}
+              nextId={nextId}
+              open={openOverride[s.n] ?? s.n === currentSection}
+              onToggle={(open) => setOpenOverride((o) => ({ ...o, [s.n]: open }))}
+            />
           </li>
         ))}
       </ol>
-
-      {later.length > 0 && (
-        <details className="group mt-6 rounded-2xl border-2 border-dashed border-line bg-white/60 p-4">
-          <summary className="cursor-pointer list-none rounded-lg font-extrabold text-muted marker:hidden">
-            <span className="inline-block transition group-open:rotate-90" aria-hidden>›</span>{" "}
-            {later.length} more units on the way
-          </summary>
-          <ul className="mt-3 flex flex-col gap-2">
-            {later.map(({ unit, label }) => (
-              <li key={unit.id} className="flex gap-3 text-sm">
-                <span className={`w-16 shrink-0 font-extrabold ${unit.track === "script" ? "text-accent-dark" : "text-brand-dark"}`}>
-                  {label}
-                </span>
-                <span>
-                  <span className="font-extrabold text-ink">{unit.title}</span>
-                  {unit.description && <span className="block font-semibold text-muted">{unit.description}</span>}
-                </span>
-              </li>
-            ))}
-          </ul>
-        </details>
-      )}
     </AppShell>
   );
+}
+
+/** Once progress is known, bring the up-next lesson into view if it is off-screen. */
+function useScrollToCurrent(nextId: string | undefined, anyDone: boolean) {
+  const done = useRef(false);
+  useEffect(() => {
+    if (done.current || !anyDone || !nextId) return;
+    done.current = true;
+    const el = document.getElementById(`lesson-${nextId}`);
+    if (!el) return;
+    const r = el.getBoundingClientRect();
+    if (r.top >= 80 && r.bottom <= window.innerHeight - 96) return;
+    const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    // Let the first paint settle so the motion reads as "here you are".
+    const t = window.setTimeout(
+      () => el.scrollIntoView({ block: "center", behavior: reduce ? "auto" : "smooth" }),
+      250,
+    );
+    return () => window.clearTimeout(t);
+  }, [nextId, anyDone]);
 }
 
 function findLesson(course: CourseSummary, id: string | undefined) {
@@ -115,36 +146,96 @@ function StreakNudge({ progress }: { progress: ProgressState }) {
   );
 }
 
-function UpNext({ lesson, unit, anyDone }: { lesson: LessonSummary; unit: UnitSummary; anyDone: boolean }) {
+function ContinueCard({
+  lesson,
+  unit,
+  progress,
+  anyDone,
+}: {
+  lesson: LessonSummary;
+  unit: UnitSummary;
+  progress: ProgressState;
+  anyDone: boolean;
+}) {
   const script = unit.track === "script";
+  const review = isReviewLesson(lesson);
+  const done = unit.lessons.filter((l) => progress.completed[l.id]).length;
+  const idx = unit.lessons.findIndex((l) => l.id === lesson.id);
+
   return (
     <section
-      aria-label="Up next"
-      className="flex items-center gap-4 rounded-3xl border-2 border-b-4 border-line bg-white p-4"
+      aria-labelledby="continue-title"
+      className="card overflow-hidden"
+      style={{ boxShadow: "var(--shadow-lift)" }}
     >
-      <div className="min-w-0 flex-1">
-        <p className="text-sm font-bold text-muted">{anyDone ? "Pick up where you left off" : "Start here"}</p>
-        <p className="truncate text-xl font-black text-ink">{lesson.title}</p>
-        <p className={`text-sm font-bold ${script ? "text-accent-dark" : "text-brand-dark"}`}>{unit.title}</p>
+      <div className="flex items-center gap-4 p-5 pb-4">
+        <NodeFace lesson={lesson} state="unlocked" script={script} review={review} size={64} />
+        <div className="min-w-0 flex-1">
+          <p className="text-sm font-bold text-muted">
+            {anyDone ? "Pick up where you left off" : "Start here"}
+          </p>
+          <h2 id="continue-title" className="text-2xl leading-tight font-black text-balance text-ink">
+            {lesson.title}
+          </h2>
+          <p className={`mt-0.5 text-sm font-extrabold ${script ? "text-accent-dark" : "text-brand-dark"}`}>
+            {unit.title}, lesson {idx + 1} of {unit.lessons.length}
+          </p>
+        </div>
       </div>
-      <Link href={`/lesson/${lesson.id}`} className="btn btn-primary shrink-0">
-        {anyDone ? "Continue" : "Start"}
+      <div className="flex flex-col gap-3 border-t-2 border-line bg-sunk/60 px-5 py-4 sm:flex-row sm:items-center">
+        <div className="flex flex-1 items-center gap-3" aria-hidden>
+          <Bar value={done / unit.lessons.length} tone={script ? "accent" : "brand"} />
+          <span className="shrink-0 text-sm font-bold text-muted">
+            {done}/{unit.lessons.length}
+          </span>
+        </div>
+        <Link href={`/lesson/${lesson.id}`} className="btn btn-primary w-full sm:w-auto">
+          {anyDone ? "Continue" : "Start the first lesson"}
+        </Link>
+      </div>
+    </section>
+  );
+}
+
+function AllDone() {
+  return (
+    <section className="card p-6 text-center" style={{ boxShadow: "var(--shadow-lift)" }}>
+      <p lang="bn" className="text-3xl font-bold text-brand-dark">শাবাশ!</p>
+      <h2 className="mt-1 text-2xl font-black">Every lesson is done</h2>
+      <p className="mt-1 font-semibold text-muted">
+        New units are on the way. Mixed practice keeps the words fresh until then.
+      </p>
+      <Link href="/practice" className="btn btn-primary mt-4">
+        <RepeatIcon /> Practice
       </Link>
     </section>
+  );
+}
+
+function Bar({ value, tone, onBrand = false }: { value: number; tone: "brand" | "accent"; onBrand?: boolean }) {
+  const track = onBrand ? "bg-white/25" : tone === "accent" ? "bg-accent-light" : "bg-brand-light";
+  const fill = onBrand ? "bg-[#fff]" : tone === "accent" ? "bg-accent" : "bg-brand";
+  return (
+    <span className={`block h-2.5 w-full overflow-hidden rounded-full ${track}`}>
+      <span
+        className={`block h-full rounded-full transition-[width] duration-700 ease-out ${fill}`}
+        style={{ width: `${Math.round(value * 100)}%` }}
+      />
+    </span>
   );
 }
 
 function Aside({ anyDone }: { anyDone: boolean }) {
   return (
     <div className="flex flex-col gap-4">
-      <section className="rounded-3xl border-2 border-line bg-white p-5">
+      <section className="card p-5">
         <h2 className="mb-3 text-lg font-black">Today</h2>
         <GoalRing size={84} stroke={9} showLabel />
         <Link href="/settings#goal" className="mt-3 inline-block rounded text-sm font-bold text-brand-dark underline-offset-2 hover:underline">
           Change daily goal
         </Link>
       </section>
-      <section className="rounded-3xl border-2 border-line bg-white p-5">
+      <section className="card p-5">
         <h2 className="text-lg font-black">Practice</h2>
         <p className="mt-1 mb-4 text-sm font-semibold text-muted">
           {anyDone
@@ -161,14 +252,104 @@ function Aside({ anyDone }: { anyDone: boolean }) {
   );
 }
 
+function SectionBlock({
+  section,
+  progress,
+  nextId,
+  open,
+  onToggle,
+}: {
+  section: Section;
+  progress: ProgressState;
+  nextId: string | undefined;
+  open: boolean;
+  onToggle: (open: boolean) => void;
+}) {
+  const bodyId = useId();
+  const lessons = section.units.flatMap((u) => u.unit.lessons);
+  const done = lessons.filter((l) => progress.completed[l.id]).length;
+  const total = lessons.length;
+
+  return (
+    <section aria-labelledby={`${bodyId}-h`}>
+      <div className="flex items-end justify-between gap-4 border-b-2 border-line pb-3">
+        <div className="min-w-0">
+          <h2 id={`${bodyId}-h`} className="text-sm font-extrabold text-muted">
+            Section {section.n}
+          </h2>
+          <p className="text-lg leading-snug font-black text-ink">
+            {section.units.map((u) => u.unit.title).join(", ")}
+          </p>
+          <p className="text-sm font-bold text-muted">
+            {done === total && total > 0 ? "Complete" : `${done} of ${total} lessons done`}
+          </p>
+        </div>
+        <button
+          type="button"
+          aria-expanded={open}
+          aria-controls={bodyId}
+          onClick={() => onToggle(!open)}
+          className="flex shrink-0 items-center gap-1.5 rounded-xl px-3 py-2 text-sm font-extrabold text-muted transition-colors hover:bg-sunk hover:text-ink"
+        >
+          {open ? "Hide" : "Show"}
+          <svg width="14" height="14" viewBox="0 0 24 24" aria-hidden className={`transition-transform ${open ? "rotate-180" : ""}`}>
+            <path d="M5 9l7 7 7-7" stroke="currentColor" strokeWidth="3.2" fill="none" strokeLinecap="round" strokeLinejoin="round" />
+          </svg>
+        </button>
+      </div>
+
+      <div id={bodyId}>
+        {open ? (
+          <ol className="mt-6 flex flex-col gap-12">
+            {section.units.map(({ unit, label }) => (
+              <li key={unit.id}>
+                {unit.lessons.length === 0 ? (
+                  <ComingSoon unit={unit} label={label} />
+                ) : (
+                  <UnitBlock unit={unit} label={label} progress={progress} nextId={nextId} />
+                )}
+              </li>
+            ))}
+          </ol>
+        ) : (
+          <ul className="mt-3 flex flex-col gap-2">
+            {section.units.map(({ unit, label }) => {
+              const d = unit.lessons.filter((l) => progress.completed[l.id]).length;
+              const script = unit.track === "script";
+              return (
+                <li key={unit.id}>
+                  <button
+                    type="button"
+                    onClick={() => onToggle(true)}
+                    className="flex w-full items-center gap-3 rounded-2xl px-2 py-2 text-left hover:bg-sunk"
+                  >
+                    <span className={`w-16 shrink-0 text-sm font-extrabold ${script ? "text-accent-dark" : "text-brand-dark"}`}>
+                      {label}
+                    </span>
+                    <span className="min-w-0 flex-1 font-extrabold text-ink">{unit.title}</span>
+                    <span className="flex w-24 shrink-0 items-center gap-2 text-xs font-bold text-muted">
+                      <Bar value={unit.lessons.length ? d / unit.lessons.length : 0} tone={script ? "accent" : "brand"} />
+                      {d}/{unit.lessons.length}
+                    </span>
+                  </button>
+                </li>
+              );
+            })}
+          </ul>
+        )}
+      </div>
+    </section>
+  );
+}
+
 function ComingSoon({ unit, label }: { unit: UnitSummary; label: string }) {
   const script = unit.track === "script";
   return (
-    <div className="rounded-3xl border-2 border-dashed border-line bg-white/60 p-5">
+    <div className="rounded-[var(--radius-panel)] border-2 border-dashed border-line-strong bg-surface/60 p-5">
       <p className={`text-sm font-extrabold ${script ? "text-accent-dark" : "text-brand-dark"}`}>
         {label}, coming soon
       </p>
-      <h2 className="text-xl font-black text-ink">{unit.title}</h2>
+      <h3 className="text-xl font-black text-ink">{unit.title}</h3>
       {unit.description && <p className="font-semibold text-muted">{unit.description}</p>}
     </div>
   );
@@ -212,7 +393,7 @@ function UnitBlock({
               <path
                 key={l.id}
                 d={`M${x1} ${y1} C${x1} ${y1 + ROW / 2} ${x2} ${y2 - ROW / 2} ${x2} ${y2}`}
-                className={`stitch ${lit ? (script ? "stroke-accent" : "stroke-brand") : "stroke-gray-300"}`}
+                className={`stitch ${lit ? (script ? "stroke-accent" : "stroke-brand") : "stroke-line-strong"}`}
               />
             );
           })}
@@ -250,43 +431,42 @@ function UnitHeader({
   const total = unit.lessons.length;
   const glyph = script ? unit.lessons.find((l) => l.glyph)?.glyph : undefined;
 
+  // A cloth patch with a running-stitch edge: green for the main course,
+  // undyed cloth with red thread for the script track.
   return (
     <header
-      className={
-        script
-          ? "flex items-center gap-4 rounded-3xl border-2 border-b-4 border-accent/40 bg-white p-5"
-          : "rounded-3xl border-b-4 border-brand-dark bg-brand p-5 text-white"
+      className={`kantha-edge flex items-center gap-4 rounded-[var(--radius-panel)] p-6 ${
+        script ? "border-2 border-accent/30 bg-surface" : "bg-brand text-white"
+      }`}
+      style={
+        {
+          "--stitch": script ? "color-mix(in oklab, var(--color-accent) 45%, transparent)" : "rgb(255 255 255 / 0.38)",
+        } as CSSProperties
       }
     >
       <div className="min-w-0 flex-1">
         <p className={`flex flex-wrap items-center gap-x-3 gap-y-1 text-sm font-extrabold ${script ? "text-accent-dark" : "text-white/85"}`}>
           <span>{label}</span>
-          <span className={script ? "text-muted" : "text-white/85"}>
-            {done} of {total} done
-          </span>
           {draft && <DraftChip onBrand={!script} />}
         </p>
-        <h2 id={`unit-${unit.id}`} className={`text-2xl font-black ${script ? "text-ink" : ""}`}>
+        <h3 id={`unit-${unit.id}`} className={`text-2xl leading-tight font-black text-balance ${script ? "text-ink" : ""}`}>
           {unit.title}
-        </h2>
+        </h3>
         {unit.description && (
-          <p className={`font-semibold ${script ? "text-muted" : "text-white/90"}`}>{unit.description}</p>
+          <p className={`mt-0.5 font-semibold ${script ? "text-muted" : "text-white/90"}`}>{unit.description}</p>
         )}
-        <div
-          className={`mt-3 h-2 overflow-hidden rounded-full ${script ? "bg-accent-light" : "bg-white/25"}`}
-          aria-hidden
-        >
-          <div
-            className={`h-full rounded-full ${script ? "bg-accent" : "bg-white"}`}
-            style={{ width: `${(done / total) * 100}%` }}
-          />
+        <div className="mt-3 flex items-center gap-3">
+          <Bar value={total ? done / total : 0} tone={script ? "accent" : "brand"} onBrand={!script} />
+          <span className={`shrink-0 text-sm font-extrabold ${script ? "text-muted" : "text-white/90"}`}>
+            {done === total ? "Done" : `${done} of ${total}`}
+          </span>
         </div>
       </div>
       {glyph && (
         <span
           lang="bn"
           aria-hidden
-          className="flex h-20 w-20 shrink-0 items-center justify-center rounded-2xl bg-accent-light text-5xl font-bold text-accent-dark"
+          className="bn-display flex h-20 w-20 shrink-0 items-center justify-center rounded-2xl bg-accent-light text-5xl font-bold text-accent-dark"
         >
           {glyph}
         </span>
@@ -300,11 +480,78 @@ export function DraftChip({ onBrand = false }: { onBrand?: boolean }) {
   return (
     <span
       title="These lessons are an early version and are being checked by a native speaker."
-      className={`rounded-full px-2 py-0.5 text-xs font-extrabold ${
-        onBrand ? "bg-white/20 text-white" : "bg-sun-light text-sun-dark"
-      }`}
+      className={`chip ${onBrand ? "bg-white/20 text-white" : "bg-sun-light text-sun-dark"}`}
     >
       Early version
+    </span>
+  );
+}
+
+/** The visual of a lesson node (shared by the map and the continue card). */
+function NodeFace({
+  lesson,
+  state,
+  script,
+  review,
+  size = NODE,
+  isNext = false,
+}: {
+  lesson: LessonSummary;
+  state: LessonState;
+  script: boolean;
+  review: boolean;
+  size?: number;
+  isNext?: boolean;
+}) {
+  const shape = script && !review ? "rounded-[1.35rem]" : "rounded-full";
+  let colors: string;
+  let lip: string;
+  if (state === "locked") {
+    colors = "border-2 border-line-strong bg-sunk text-muted";
+    lip = "var(--color-line-strong)";
+  } else if (review) {
+    colors = state === "completed" ? "bg-sun text-white" : "border-2 border-sun bg-sun-light text-sun-dark";
+    lip = state === "completed" ? "var(--color-sun-edge)" : "var(--color-sun)";
+  } else if (state === "completed") {
+    colors = script ? "bg-accent text-white" : "bg-brand text-white";
+    lip = script ? "var(--color-accent-edge)" : "var(--color-brand-edge)";
+  } else {
+    colors = script ? "border-2 border-accent bg-surface text-accent-dark" : "border-2 border-brand bg-surface text-brand-dark";
+    lip = script ? "var(--color-accent)" : "var(--color-brand)";
+  }
+
+  const icon =
+    state === "locked" ? (
+      <LockIcon size={size * 0.36} />
+    ) : state === "completed" && !review ? (
+      <CheckIcon size={size * 0.46} />
+    ) : review ? (
+      <span className="[&_svg]:h-[1.9rem] [&_svg]:w-[1.9rem]"><RepeatIcon /></span>
+    ) : script && lesson.glyph ? (
+      <span lang="bn" className="bn-display font-bold" style={{ fontSize: size * 0.42 }}>
+        {lesson.glyph}
+      </span>
+    ) : (
+      <StarIcon size={size * 0.44} />
+    );
+
+  return (
+    <span
+      className={`press relative flex shrink-0 items-center justify-center ${state === "locked" ? "pointer-events-none" : ""} ${shape} ${colors} ${isNext ? "animate-beckon" : ""} ${
+        review && state !== "locked" ? "kantha-edge" : ""
+      }`}
+      style={
+        {
+          width: size,
+          height: size,
+          "--lip": lip,
+          "--lip-h": "6px",
+          "--stitch": state === "completed" ? "rgb(255 255 255 / 0.55)" : "color-mix(in oklab, var(--color-sun-dark) 45%, transparent)",
+          "--radius-panel": "9999px",
+        } as CSSProperties
+      }
+    >
+      {icon}
     </span>
   );
 }
@@ -327,32 +574,10 @@ function LessonRow({
   const offset = OFFSETS[index % OFFSETS.length];
   const labelLeft = offset > 0; // put the title on the roomier side
   const stars = lessonStars(record);
-  const gap = NODE / 2 + 14;
+  const gap = NODE / 2 + 16;
+  const review = isReviewLesson(lesson);
 
-  const shape = script ? "rounded-2xl" : "rounded-full";
-  const colors =
-    state === "locked"
-      ? "border-gray-300 bg-line text-muted"
-      : state === "completed"
-        ? script
-          ? "border-accent-dark bg-accent text-white"
-          : "border-brand-dark bg-brand text-white"
-        : script
-          ? "border-accent bg-white text-accent-dark border-2 border-b-[6px]"
-          : "border-brand bg-white text-brand-dark border-2 border-b-[6px]";
-
-  const icon =
-    state === "locked" ? (
-      <LockIcon />
-    ) : state === "completed" ? (
-      <CheckIcon />
-    ) : script && lesson.glyph ? (
-      <span lang="bn" className="text-3xl font-bold">{lesson.glyph}</span>
-    ) : (
-      <StarIcon size={32} />
-    );
-
-  const a11y = `${lesson.title}, ${
+  const a11y = `${lesson.title}${review ? " (review)" : ""}, ${
     state === "locked"
       ? "locked: finish the previous lesson first"
       : state === "completed"
@@ -362,30 +587,27 @@ function LessonRow({
           : "ready to start"
   }`;
 
-  const nodeCls = `absolute flex items-center justify-center border-b-[6px] transition ${shape} ${colors} ${
-    isNext ? "animate-beckon" : ""
-  }`;
-  const nodeStyle = {
-    width: NODE,
-    height: NODE,
+  const pos = {
     top: 16,
     left: `calc(50% + ${offset - NODE / 2}px)`,
-  };
+  } as const;
+  const face = <NodeFace lesson={lesson} state={state} script={script} review={review} isNext={isNext} />;
 
   return (
     <li className="relative" style={{ height: ROW }}>
       {state === "locked" ? (
-        <span className={nodeCls} style={nodeStyle} role="img" aria-label={a11y}>
-          {icon}
+        <span id={`lesson-${lesson.id}`} className="absolute" style={pos} role="img" aria-label={a11y}>
+          {face}
         </span>
       ) : (
         <Link
+          id={`lesson-${lesson.id}`}
           href={`/lesson/${lesson.id}`}
           aria-label={a11y}
-          className={`${nodeCls} hover:brightness-105 active:translate-y-1 active:border-b-2`}
-          style={nodeStyle}
+          className="group absolute scroll-my-40 rounded-full hover:brightness-105 [&:active>span]:translate-y-[6px] [&:active>span]:shadow-none"
+          style={pos}
         >
-          {icon}
+          {face}
         </Link>
       )}
       <div
@@ -399,13 +621,10 @@ function LessonRow({
             : { right: 0, left: `calc(50% + ${offset}px + ${gap}px)` }),
         }}
       >
-        {isNext && (
-          <span className="mb-1 rounded-full bg-brand px-2.5 py-0.5 text-xs font-extrabold text-white">
-            Up next
-          </span>
-        )}
-        <span className={`text-base leading-tight font-extrabold ${state === "locked" ? "text-muted" : "text-ink"}`}>
-          {lesson.title}
+        {isNext && <span className="chip mb-1 bg-brand text-white">Up next</span>}
+        {review && !isNext && <span className="chip mb-1 bg-sun-light text-sun-dark">Review</span>}
+        <span className={`text-base leading-tight font-extrabold text-balance ${state === "locked" ? "text-muted" : "text-ink"}`}>
+          {review ? lesson.title.replace(/^review\s*:?\s*/i, "") || lesson.title : lesson.title}
         </span>
         {state === "completed" && <Stars n={stars} />}
       </div>
@@ -417,7 +636,7 @@ function Stars({ n }: { n: number }) {
   return (
     <span className="mt-1 flex gap-0.5">
       {[0, 1, 2].map((i) => (
-        <span key={i} className={i < n ? "text-sun" : "text-line"}>
+        <span key={i} className={i < n ? "text-sun" : "text-line-strong"}>
           <StarIcon size={16} />
         </span>
       ))}

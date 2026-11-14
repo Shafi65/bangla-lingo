@@ -94,7 +94,7 @@ export function StreakBadge() {
       </span>
       <span aria-hidden>{n}</span>
       {status === "at-risk" && (
-        <span aria-hidden className="absolute -top-0.5 left-4 h-2.5 w-2.5 rounded-full border-2 border-white bg-accent" />
+        <span aria-hidden className="absolute -top-0.5 left-4 h-2.5 w-2.5 rounded-full border-2 border-surface bg-accent" />
       )}
     </span>
   );
