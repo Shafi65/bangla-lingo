@@ -1,4 +1,5 @@
 import { useSyncExternalStore } from "react";
+import { EMPTY_MEMORY, parseMemory, type WordMemoryState } from "./review/state";
 import type { CourseSummary, UnitSummary } from "./types";
 
 export interface LessonRecord {
@@ -55,7 +56,11 @@ export interface ProgressStore {
   /** XP from a practice session (counts for the daily goal and streak). */
   recordPractice(xp: number): ProgressState;
   updateSettings(patch: Partial<Settings>): ProgressState;
-  /** Erase learning progress; settings are kept. */
+  /** Per-word spaced-review memory (see lib/review/). */
+  getWordMemory(): WordMemoryState;
+  /** Replace word memory with `fn(previous)`; returning the same object is a no-op. */
+  updateWordMemory(fn: (prev: WordMemoryState) => WordMemoryState): WordMemoryState;
+  /** Erase learning progress and word memory; settings are kept. */
   reset(): void;
   subscribe(listener: () => void): () => void;
 }
@@ -158,6 +163,7 @@ function withActivity(prev: ProgressState, xp: number): ProgressState {
 }
 
 const STORAGE_KEY = "banglalingo.progress.v1";
+const MEMORY_KEY = "banglalingo.memory.v1";
 
 export class LocalStorageProgressStore implements ProgressStore {
   private listeners = new Set<() => void>();
@@ -237,13 +243,61 @@ export class LocalStorageProgressStore implements ProgressStore {
 
   reset() {
     const settings = this.get().settings;
+    this.writeMemory(EMPTY_MEMORY, false);
     this.write({ ...EMPTY_PROGRESS, settings });
+  }
+
+  // Word memory lives under its own key so the (larger, frequently written)
+  // per-word data never risks the core progress blob.
+  private memRaw: string | null = null;
+  private memState: WordMemoryState = EMPTY_MEMORY;
+  private memOnly = false;
+
+  getWordMemory(): WordMemoryState {
+    if (typeof window === "undefined" || this.memOnly) return this.memState;
+    let raw: string | null = null;
+    try {
+      raw = window.localStorage.getItem(MEMORY_KEY);
+    } catch {
+      return this.memState;
+    }
+    if (raw === this.memRaw) return this.memState; // stable snapshot
+    this.memRaw = raw;
+    this.memState = raw ? parseMemory(raw) : EMPTY_MEMORY;
+    return this.memState;
+  }
+
+  private writeMemory(next: WordMemoryState, notify = true) {
+    this.memState = next;
+    if (typeof window === "undefined") return;
+    if (!this.memOnly) {
+      try {
+        const raw = JSON.stringify(next);
+        window.localStorage.setItem(MEMORY_KEY, raw);
+        this.memRaw = raw;
+      } catch {
+        this.memOnly = true; // storage full / disabled: keep in memory only
+      }
+    }
+    if (notify) this.listeners.forEach((l) => l());
+  }
+
+  updateWordMemory(fn: (prev: WordMemoryState) => WordMemoryState): WordMemoryState {
+    const prev = this.getWordMemory();
+    let next: WordMemoryState;
+    try {
+      next = fn(prev);
+    } catch {
+      return prev;
+    }
+    if (next !== prev) this.writeMemory(next);
+    return next;
   }
 
   subscribe(listener: () => void) {
     this.listeners.add(listener);
     const onStorage = (e: StorageEvent) => {
-      if (e.key === STORAGE_KEY) listener();
+      if (e.key === STORAGE_KEY || e.key === MEMORY_KEY || e.key === null) listener();
     };
     window.addEventListener("storage", onStorage);
     return () => {
@@ -261,6 +315,15 @@ export function useProgress(store: ProgressStore = progressStore): ProgressState
     (cb) => store.subscribe(cb),
     () => store.get(),
     () => EMPTY_PROGRESS,
+  );
+}
+
+/** Reactive word memory; EMPTY_MEMORY during SSR / first hydration. */
+export function useWordMemory(store: ProgressStore = progressStore): WordMemoryState {
+  return useSyncExternalStore(
+    (cb) => store.subscribe(cb),
+    () => store.getWordMemory(),
+    () => EMPTY_MEMORY,
   );
 }
 
