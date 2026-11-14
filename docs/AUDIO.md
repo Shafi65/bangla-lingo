@@ -46,6 +46,8 @@ Re-run step 5 whenever lessons change; only new text is synthesized and clips th
 | `npm run gen:audio -- --test` | synthesize one sample clip to a temp file |
 | `AZURE_VOICE=bn-BD-PradeepNeural` | use the male Bangladeshi voice (regenerates all clips) |
 
+Two marks can't be spoken on their own — ং and ঃ. The script synthesizes a stand-in instead (অং and আঃ, falling back to the marks' names) and stores it under the original mark; see `SPEAK_AS` in `content/scripts/gen-audio.mjs`.
+
 The GitHub workflow **Generate audio** (Actions tab → *Run workflow*) does the same job in the cloud if the repository secrets `AZURE_SPEECH_KEY` and `AZURE_SPEECH_REGION` are set.
 
 The clips are computer-generated; the app says so in Settings → Audio.

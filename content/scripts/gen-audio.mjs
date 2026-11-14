@@ -39,6 +39,13 @@ const MAX_TRIES = 6;
 const AUDIO_DIR = path.join(ROOT, "..", "web", "public", "audio");
 const MANIFEST = path.join(ROOT, "audio", "manifest.json");
 
+// Marks that can't be spoken on their own: synthesize a stand-in instead (tried in order).
+// The clip is still stored under the original text, so the app finds it. Change a stand-in → delete its clip to regenerate.
+const SPEAK_AS = {
+  "ং": ["অং", "অনুস্বার"], // onushshar: the "ng" of অং (ong)
+  "ঃ": ["আঃ", "বিসর্গ"], // bishorgo: the short breath of আঃ (ah!)
+};
+
 // Bengali strings the app speaks that are not lesson content.
 // Keep in sync with the voice sample in web/src/components/SettingsPanel.tsx.
 const APP_STRINGS = ["বাংলা"];
@@ -195,7 +202,11 @@ async function main() {
       const text = queue.shift();
       const file = `${sha1(text)}.mp3`;
       try {
-        const buf = await synthesize(text, { key, region });
+        let buf;
+        for (const say of SPEAK_AS[text] ?? [text]) {
+          try { buf = await synthesize(say, { key, region }); break; }
+          catch (e) { if (say === (SPEAK_AS[text] ?? [text]).at(-1)) throw e; }
+        }
         const out = path.join(AUDIO_DIR, file);
         fs.writeFileSync(`${out}.tmp`, buf);
         fs.renameSync(`${out}.tmp`, out);
