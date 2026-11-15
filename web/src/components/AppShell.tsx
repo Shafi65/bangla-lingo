@@ -6,6 +6,7 @@ import type { ComponentType, ReactNode } from "react";
 import { BookIcon, GearIcon, GuideIcon, PathIcon, RepeatIcon, SearchBookIcon } from "./icons";
 import { useDueCount } from "@/lib/review";
 import { Logo } from "./Logo";
+import { ProfileIcon } from "./profile/ProfileIcon";
 import { GoalRing, StreakBadge } from "./Stats";
 
 interface NavItem {
@@ -23,6 +24,7 @@ const NAV: NavItem[] = [
   { href: "/guide", label: "Guide", Icon: GuideIcon },
   { href: "/dictionary", label: "Dictionary", short: "Dictionary", Icon: SearchBookIcon },
 ];
+const PROFILE: NavItem = { href: "/profile", label: "Profile", Icon: ProfileIcon };
 const SETTINGS: NavItem = { href: "/settings", label: "Settings", Icon: GearIcon };
 
 /** Small count pill; renders nothing at 0 (which is also the SSR / first-render value). */
@@ -80,7 +82,7 @@ export function AppShell({
           </Link>
           <nav aria-label="Main" className="hidden md:block">
             <ul className="flex items-center gap-0.5">
-              {[...NAV, SETTINGS].map((item) => (
+              {[...NAV, PROFILE, SETTINGS].map((item) => (
                 <li key={item.href}>
                   <TopLink
                     item={item}
@@ -95,6 +97,16 @@ export function AppShell({
             <StreakBadge />
             <Link href="/settings#goal" className="rounded-full" aria-label="Daily goal settings">
               <GoalRing size={38} />
+            </Link>
+            <Link
+              href="/profile"
+              aria-label="Profile"
+              aria-current={isActive(pathname, "/profile") ? "page" : undefined}
+              className={`flex h-9 w-9 items-center justify-center rounded-xl md:hidden ${
+                isActive(pathname, "/profile") ? "bg-brand-light text-brand-dark" : "text-muted hover:bg-sunk"
+              }`}
+            >
+              <ProfileIcon />
             </Link>
             <Link
               href="/settings"
