@@ -4,6 +4,7 @@ import "@fontsource-variable/nunito";
 import "@fontsource-variable/noto-sans-bengali";
 import "./globals.css";
 import { CourseProvider } from "@/components/CourseContext";
+import { OfflineStatus } from "@/components/offline/OfflineStatus";
 import { getCourse } from "@/lib/content";
 import { THEME_SCRIPT } from "@/lib/ui/theme-script";
 
@@ -37,6 +38,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       </head>
       <body className="flex min-h-full flex-col font-sans">
         <CourseProvider scriptLessonIds={scriptLessonIds}>{children}</CourseProvider>
+        <OfflineStatus />
       </body>
     </html>
   );
