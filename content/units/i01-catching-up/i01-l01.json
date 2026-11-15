@@ -1,0 +1,621 @@
+{
+  "id": "i01-l01",
+  "unit": "i01-catching-up",
+  "title": "When I was small",
+  "status": "draft",
+  "tip": "**Used to**: verb stem + **-তাম** for আমি and আমরা.\n\n- থাকা → **থাকতাম** 'I used to live'\n- খেলা → **খেলতাম**, পড়া → **পড়তাম**, করা → **করতাম**\n- যাওয়া changes its stem: **যেতাম** 'I used to go'\n\nUse it for things that happened again and again, or went on for a long time: **ছোটবেলায় আমি গ্রামে থাকতাম** 'When I was small, I lived in the village'. For one finished event, keep the simple past: **গেলাম** 'I went'.\n\nNegative: **না** after the verb: **থাকতাম না** 'I didn't use to live'. Never -নি here.\n\n**বড় হয়েছি** 'I grew up' uses the perfect: **আমি ঢাকায় বড় হয়েছি**.",
+  "vocab": [
+    {
+      "id": "chhotobela",
+      "bn": "ছোটবেলা",
+      "tr": "chhotobela",
+      "en": "childhood",
+      "notes": "Also spelled ছোটোবেলা."
+    },
+    {
+      "id": "chhotobelay",
+      "bn": "ছোটবেলায়",
+      "tr": "chhotobelay",
+      "en": "in childhood"
+    },
+    {
+      "id": "thaktam",
+      "bn": "থাকতাম",
+      "tr": "thaktam",
+      "en": "I used to live",
+      "notes": "আমি / আমরা form. Negative: থাকতাম না."
+    },
+    {
+      "id": "jetam",
+      "bn": "যেতাম",
+      "tr": "jetam",
+      "en": "I used to go",
+      "notes": "যাওয়া changes its stem in the habitual: যেতাম, যেত."
+    },
+    {
+      "id": "kheltam",
+      "bn": "খেলতাম",
+      "tr": "kheltam",
+      "en": "I used to play"
+    },
+    {
+      "id": "kortam",
+      "bn": "করতাম",
+      "tr": "kortam",
+      "en": "I used to do",
+      "notes": "Older Kolkata writing also has করতুম."
+    },
+    {
+      "id": "portam",
+      "bn": "পড়তাম",
+      "tr": "portam",
+      "en": "I used to study"
+    },
+    {
+      "id": "khela",
+      "bn": "খেলা",
+      "tr": "khela",
+      "en": "game; playing",
+      "notes": "Don't confuse with খেল 'he/she ate'."
+    },
+    {
+      "id": "math",
+      "bn": "মাঠ",
+      "tr": "math",
+      "en": "field; playground"
+    },
+    {
+      "id": "mathe",
+      "bn": "মাঠে",
+      "tr": "mathe",
+      "en": "in the field"
+    },
+    {
+      "id": "pukur",
+      "bn": "পুকুর",
+      "tr": "pukur",
+      "en": "pond"
+    },
+    {
+      "id": "boro-hoyechhi",
+      "bn": "বড় হয়েছি",
+      "tr": "boro hoyechhi",
+      "en": "I grew up",
+      "notes": "Uses the present perfect: literally 'I have become big'."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "গেলাম",
+        "tr": "gelam",
+        "en": "I went (once)"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "যাই",
+        "যাব",
+        "গেলাম",
+        "যাচ্ছি"
+      ],
+      "answer": 2,
+      "why": "One finished trip: simple past **গেলাম**."
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ছিলাম",
+        "tr": "chhilam",
+        "en": "I was"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "ছিলে",
+        "ছিলাম",
+        "ছিলেন",
+        "আছি"
+      ],
+      "answer": 1,
+      "why": "আমি takes **-লাম**: ছিলাম."
+    },
+    {
+      "id": "e03",
+      "type": "reading",
+      "title": "Nani remembers",
+      "lines": [
+        {
+          "bn": "আমি একটা ছোট গ্রামে বড় হয়েছি।",
+          "tr": "ami ekta chhoto grame boro hoyechhi.",
+          "en": "I grew up in a small village."
+        },
+        {
+          "bn": "আমাদের বাড়ির পাশে একটা পুকুর ছিল।",
+          "tr": "amader barir pashe ekta pukur chhilo.",
+          "en": "There was a pond next to our house."
+        },
+        {
+          "bn": "গ্রামে একটা বড় মাঠ ছিল।",
+          "tr": "grame ekta boro math chhilo.",
+          "en": "There was a big field in the village."
+        },
+        {
+          "bn": "স্কুল আমাদের বাড়ি থেকে দূরে ছিল, কিন্তু আমি প্রতিদিন স্কুলে যেতাম।",
+          "tr": "skul amader bari theke dure chhilo, kintu ami protidin skule jetam.",
+          "en": "School was far from our house, but I went to school every day."
+        },
+        {
+          "bn": "বিকালে আমরা সবাই মাঠে খেলতাম।",
+          "tr": "bikale amra shobai mathe kheltam.",
+          "en": "In the afternoon we all used to play in the field."
+        },
+        {
+          "bn": "আমার ছোটবেলা খুব সুন্দর ছিল।",
+          "tr": "amar chhotobela khub shundor chhilo.",
+          "en": "My childhood was very lovely."
+        }
+      ],
+      "question": "What is Nani talking about?",
+      "options": [
+        "Her childhood in a village",
+        "Her life in Dhaka now",
+        "A trip to the village last week"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e04",
+      "type": "reading",
+      "title": "Nani remembers",
+      "lines": [
+        {
+          "bn": "আমি একটা ছোট গ্রামে বড় হয়েছি।",
+          "tr": "ami ekta chhoto grame boro hoyechhi.",
+          "en": "I grew up in a small village."
+        },
+        {
+          "bn": "আমাদের বাড়ির পাশে একটা পুকুর ছিল।",
+          "tr": "amader barir pashe ekta pukur chhilo.",
+          "en": "There was a pond next to our house."
+        },
+        {
+          "bn": "গ্রামে একটা বড় মাঠ ছিল।",
+          "tr": "grame ekta boro math chhilo.",
+          "en": "There was a big field in the village."
+        },
+        {
+          "bn": "স্কুল আমাদের বাড়ি থেকে দূরে ছিল, কিন্তু আমি প্রতিদিন স্কুলে যেতাম।",
+          "tr": "skul amader bari theke dure chhilo, kintu ami protidin skule jetam.",
+          "en": "School was far from our house, but I went to school every day."
+        },
+        {
+          "bn": "বিকালে আমরা সবাই মাঠে খেলতাম।",
+          "tr": "bikale amra shobai mathe kheltam.",
+          "en": "In the afternoon we all used to play in the field."
+        },
+        {
+          "bn": "আমার ছোটবেলা খুব সুন্দর ছিল।",
+          "tr": "amar chhotobela khub shundor chhilo.",
+          "en": "My childhood was very lovely."
+        }
+      ],
+      "question": "What was far from Nani's house?",
+      "options": [
+        "The school",
+        "The pond",
+        "The field"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e05",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "ছোটবেলায় আমি গ্রামে থাকতাম।",
+        "tr": "chhotobelay ami grame thaktam.",
+        "en": "When I was small, I lived in the village."
+      },
+      "options": [
+        "I live in the village now.",
+        "Yesterday I went to the village.",
+        "My grandmother lives in a village.",
+        "When I was small, I lived in the village."
+      ],
+      "answer": 3,
+      "why": "**থাকতাম** 'I used to live': a long state in the past."
+    },
+    {
+      "id": "e06",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "রাতে আমি বই পড়তাম।",
+        "tr": "rate ami boi portam.",
+        "en": "At night I used to read books."
+      },
+      "options": [
+        "At night I used to read books.",
+        "I'm reading a book now.",
+        "I read a book last night.",
+        "I will read a book tonight."
+      ],
+      "answer": 0,
+      "why": "**পড়তাম**: again and again, so 'used to read'."
+    },
+    {
+      "id": "e07",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "করতাম",
+        "tr": "kortam",
+        "en": "I used to do"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "I did",
+        "I used to do",
+        "I am doing",
+        "I have done"
+      ],
+      "answer": 1,
+      "why": "**-তাম** = 'used to': করতাম."
+    },
+    {
+      "id": "e08",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "খেলা",
+        "tr": "khela",
+        "en": "game; playing"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "field",
+        "pond",
+        "game; playing",
+        "he/she ate"
+      ],
+      "answer": 2,
+      "why": "**খেলা** is the noun 'game, playing'. খেল (no া) is 'he/she ate'."
+    },
+    {
+      "id": "e09",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "বিকালে আমরা মাঠে খেলতাম।",
+        "tr": "bikale amra mathe kheltam.",
+        "en": "In the afternoon we used to play in the field."
+      },
+      "blank": "খেলতাম",
+      "options": [
+        "খেলি",
+        "খেলতাম",
+        "খেলা"
+      ],
+      "answer": 1,
+      "why": "Every afternoon, again and again: **-তাম**. খেলি is 'I play' (now); খেলা is the noun 'game'."
+    },
+    {
+      "id": "e10",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "প্রতিদিন সকালে আমি স্কুলে যেতাম।",
+        "tr": "protidin shokale ami skule jetam.",
+        "en": "Every morning I used to go to school."
+      },
+      "blank": "যেতাম",
+      "options": [
+        "যেতাম",
+        "যাই",
+        "গেলাম",
+        "যাব"
+      ],
+      "answer": 0,
+      "why": "যাওয়া changes its stem: **যেতাম** 'I used to go'. গেলাম = went once; যাই = I go."
+    },
+    {
+      "id": "e11",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "ছোটবেলায় আমি শহরে থাকতাম না।",
+        "tr": "chhotobelay ami shohore thaktam na.",
+        "en": "As a child I didn't live in the city."
+      },
+      "blank": "না",
+      "options": [
+        "নেই",
+        "না",
+        "নই"
+      ],
+      "answer": 1,
+      "why": "The habitual is negated with **না** after the verb."
+    },
+    {
+      "id": "e12",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "ছোটবেলায় আমি শহরে থাকতাম না।",
+        "tr": "chhotobelay ami shohore thaktam na.",
+        "en": "As a child I didn't live in the city."
+      },
+      "options": [
+        "As a child I lived in the city.",
+        "As a child I didn't live in the city.",
+        "I don't live in the city now.",
+        "I haven't been to the city yet."
+      ],
+      "answer": 1,
+      "why": "**থাকতাম না** 'I didn't use to live'."
+    },
+    {
+      "id": "e13",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "সকালে আমি মায়ের সাথে নাস্তা করতাম।",
+        "tr": "shokale ami mayer shathe nashta kortam.",
+        "en": "In the morning I used to have breakfast with my mother."
+      },
+      "blank": "করতাম",
+      "accepted": [
+        "করতাম",
+        "kortam"
+      ],
+      "why": "আমি + used to: **-তাম** → করতাম."
+    },
+    {
+      "id": "e14",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "ছোটবেলায় আমি গ্রামে থাকতাম।",
+        "tr": "chhotobelay ami grame thaktam.",
+        "en": "When I was small, I lived in the village."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "পড়তাম",
+        "গ্রামে",
+        "থাকতাম",
+        "থাকি",
+        "আমি",
+        "ছোটবেলা",
+        "ছোটবেলায়"
+      ],
+      "answer": [
+        "ছোটবেলায়",
+        "আমি",
+        "গ্রামে",
+        "থাকতাম"
+      ],
+      "alt": [
+        [
+          "আমি",
+          "ছোটবেলায়",
+          "গ্রামে",
+          "থাকতাম"
+        ],
+        [
+          "ছোটবেলায়",
+          "গ্রামে",
+          "থাকতাম"
+        ]
+      ],
+      "why": "**ছোটবেলায়** 'in childhood' + **থাকতাম** 'I used to live'."
+    },
+    {
+      "id": "e15",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "বিকালে আমরা মাঠে খেলতাম।",
+        "tr": "bikale amra mathe kheltam.",
+        "en": "In the afternoon we used to play in the field."
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "বিকালে আমরা মাঠে খেলতাম",
+        "বিকেলে আমরা মাঠে খেলতাম",
+        "আমরা বিকালে মাঠে খেলতাম",
+        "আমরা বিকেলে মাঠে খেলতাম",
+        "বিকালে মাঠে খেলতাম",
+        "বিকেলে মাঠে খেলতাম",
+        "bikale amra mathe kheltam",
+        "amra bikale mathe kheltam",
+        "bikale mathe kheltam"
+      ],
+      "why": "আমরা takes the same ending as আমি: **খেলতাম**."
+    },
+    {
+      "id": "e16",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "ছোটবেলায় আমি ঢাকায় থাকতাম।",
+        "tr": "chhotobelay ami dhakay thaktam.",
+        "en": "When I was small, I lived in Dhaka."
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "ছোটবেলায় আমি ঢাকায় থাকতাম",
+        "ছোটোবেলায় আমি ঢাকায় থাকতাম",
+        "আমি ছোটবেলায় ঢাকায় থাকতাম",
+        "আমি ছোটোবেলায় ঢাকায় থাকতাম",
+        "ছোটবেলায় ঢাকায় থাকতাম",
+        "ছোটোবেলায় ঢাকায় থাকতাম",
+        "chhotobelay ami dhakay thaktam",
+        "chotobelay ami dhakay thaktam",
+        "ami chhotobelay dhakay thaktam",
+        "ami chotobelay dhakay thaktam",
+        "chhotobelay dhakay thaktam",
+        "chotobelay dhakay thaktam"
+      ],
+      "why": "Say it about yourself with **ছোটবেলায় আমি … থাকতাম**."
+    },
+    {
+      "id": "e17",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমি ঢাকায় বড় হয়েছি।",
+        "tr": "ami dhakay boro hoyechhi.",
+        "en": "I grew up in Dhaka."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "হয়েছে",
+        "ঢাকায়",
+        "থাকতাম",
+        "ছোট",
+        "বড়",
+        "আমি",
+        "হয়েছি"
+      ],
+      "answer": [
+        "আমি",
+        "ঢাকায়",
+        "বড়",
+        "হয়েছি"
+      ],
+      "alt": [
+        [
+          "ঢাকায়",
+          "বড়",
+          "হয়েছি"
+        ]
+      ],
+      "why": "**বড় হয়েছি** 'I grew up' uses the perfect (আমি → হয়েছি)."
+    },
+    {
+      "id": "e18",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "পুকুর",
+          "tr": "pukur",
+          "en": "pond"
+        },
+        {
+          "bn": "মাঠ",
+          "tr": "math",
+          "en": "field; playground"
+        },
+        {
+          "bn": "ছোটবেলা",
+          "tr": "chhotobela",
+          "en": "childhood"
+        },
+        {
+          "bn": "গ্রাম",
+          "tr": "gram",
+          "en": "village"
+        },
+        {
+          "bn": "স্কুল",
+          "tr": "skul",
+          "en": "school"
+        }
+      ]
+    },
+    {
+      "id": "r01",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আপনাকে দাওয়াত দিলাম।",
+        "tr": "apnake dawat dilam.",
+        "en": "I'm inviting you."
+      },
+      "blank": "আপনাকে",
+      "accepted": [
+        "আপনাকে",
+        "apnake"
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "কথা",
+        "tr": "kotha",
+        "en": "talk"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "fear",
+        "of the hilsa",
+        "talk",
+        "at Puja"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "listen_select",
+      "audio": {
+        "bn": "দিনটা",
+        "tr": "dinta",
+        "en": "the day"
+      },
+      "options": [
+        "আপা",
+        "কলাগুলো",
+        "খেলা",
+        "দিনটা"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "বন্ধুর",
+          "tr": "bondhur",
+          "en": "friend's"
+        },
+        {
+          "bn": "বন্ধ",
+          "tr": "bondho",
+          "en": "closed"
+        },
+        {
+          "bn": "কাল",
+          "tr": "kal",
+          "en": "tomorrow; yesterday"
+        },
+        {
+          "bn": "শিক্ষার্থী",
+          "tr": "shikkharthi",
+          "en": "student"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "বাজে",
+          "tr": "baje",
+          "en": "strikes (the hour)"
+        },
+        {
+          "bn": "থামেন",
+          "tr": "thamen",
+          "en": "stop (polite)"
+        },
+        {
+          "bn": "খেতে",
+          "tr": "khete",
+          "en": "to eat"
+        },
+        {
+          "bn": "একটু",
+          "tr": "ektu",
+          "en": "a little"
+        }
+      ],
+      "recycle": true
+    }
+  ]
+}

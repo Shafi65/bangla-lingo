@@ -1,0 +1,614 @@
+{
+  "id": "i01-l08",
+  "unit": "i01-catching-up",
+  "title": "Review: Catching up",
+  "status": "draft",
+  "tip": "This review mixes the whole unit.\n\n- **করতাম · করতি · করতে · করত · করতেন**: used to (habit, long state)\n- **করছিলাম · করছিলে · করছিল · করছিলেন**: was doing (in progress)\n- **করলাম**, **এল**, **চলে গেল**: did (one event)\n\nTime words help: **প্রতি**, **প্রায়ই**, **ছোটবেলায়**, **গরমকালে** point to the habitual; **ঠিক তখন** introduces an event; **তখন** with -ছিল- sets the scene.\n\nNegatives: **খেতাম না**, **ঘুমাচ্ছিলাম না**, and **এখন আর … না** for 'not any more'.",
+  "vocab": [],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "reading",
+      "title": "Nadia: my Fridays",
+      "lines": [
+        {
+          "bn": "ছোটবেলায় প্রতি শুক্রবার আমি বাবার সাথে বাজারে যেতাম।",
+          "tr": "chhotobelay proti shukrobar ami babar shathe bajare jetam.",
+          "en": "As a child I went to the market with my father every Friday."
+        },
+        {
+          "bn": "দুপুরে আমরা সবাই একসাথে ভাত খেতাম।",
+          "tr": "dupure amra shobai ekshathe bhat khetam.",
+          "en": "At noon we all ate together."
+        },
+        {
+          "bn": "বিকালে আমরা মাঠে ক্রিকেট খেলতাম, আর আমার ভাই আমাদের সাথে আসত।",
+          "tr": "bikale amra mathe kriket kheltam, ar amar bhai amader shathe ashto.",
+          "en": "In the afternoon we played cricket in the field, and my brother used to come with us."
+        },
+        {
+          "bn": "শুক্রবার আমার খুব ভালো লাগত।",
+          "tr": "shukrobar amar khub bhalo lagto.",
+          "en": "I really loved Fridays."
+        }
+      ],
+      "question": "Who did Nadia go to the market with?",
+      "options": [
+        "Her father",
+        "Her grandmother",
+        "Her brother"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e02",
+      "type": "reading",
+      "title": "Rafi: holidays in the village",
+      "lines": [
+        {
+          "bn": "আমরা ঢাকায় থাকতাম, কিন্তু ছুটিতে গ্রামে যেতাম।",
+          "tr": "amra dhakay thaktam, kintu chhutite grame jetam.",
+          "en": "We lived in Dhaka, but in the holidays we went to the village."
+        },
+        {
+          "bn": "গ্রামে আমার নানি থাকতেন, আর নানা শহরে কাজ করতেন।",
+          "tr": "grame amar nani thakten, ar nana shohore kaj korten.",
+          "en": "My grandmother lived in the village, and my grandfather worked in town."
+        },
+        {
+          "bn": "সকালে আমি গ্রামের পুকুরে সাঁতার কাটতাম, আর বিকালে ঘুড়ি ওড়াতাম।",
+          "tr": "shokale ami gramer pukure sha~tar kattam, ar bikale ghuri oratam.",
+          "en": "In the morning I swam in the village pond, and in the afternoon I flew kites."
+        },
+        {
+          "bn": "রাতে নানি আমাদের গল্প বলতেন।",
+          "tr": "rate nani amader golpo bolten.",
+          "en": "At night Nani told us stories."
+        }
+      ],
+      "question": "What did Rafi do in the morning?",
+      "options": [
+        "He flew kites",
+        "He listened to stories",
+        "He swam in the pond"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e03",
+      "type": "reading",
+      "title": "Nani: Friday evenings",
+      "lines": [
+        {
+          "bn": "আমার ছোটবেলায় টিভি ছিল না।",
+          "tr": "amar chhotobelay tibhi chhilo na.",
+          "en": "When I was small, there was no TV."
+        },
+        {
+          "bn": "শুক্রবার সন্ধ্যায় আমরা সবাই একসাথে গান শুনতাম।",
+          "tr": "shukrobar shondhay amra shobai ekshathe gan shuntam.",
+          "en": "On Friday evenings we all listened to songs together."
+        },
+        {
+          "bn": "আমি আর আমার বোন প্রায়ই লুকোচুরি খেলতাম।",
+          "tr": "ami ar amar bon prayi lukochuri kheltam.",
+          "en": "My sister and I often played hide-and-seek."
+        },
+        {
+          "bn": "আমরা অনেক মজা করতাম।",
+          "tr": "amra onek moja kortam.",
+          "en": "We had a lot of fun."
+        }
+      ],
+      "question": "What did the family do together on Friday evenings?",
+      "options": [
+        "They watched TV",
+        "They listened to songs",
+        "They played cricket"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e04",
+      "type": "reading",
+      "title": "Last night",
+      "lines": [
+        {
+          "speaker": "Rafi",
+          "bn": "কাল রাতে কারেন্ট চলে গেল। তুমি তখন কী করছিলে?",
+          "tr": "kal rate karent chole gelo. tumi tokhon ki korchhile?",
+          "en": "The power went off last night. What were you doing then?"
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "আমি একটা বই পড়ছিলাম। আর তুমি?",
+          "tr": "ami ekta boi porchhilam. ar tumi?",
+          "en": "I was reading a book. And you?"
+        },
+        {
+          "speaker": "Rafi",
+          "bn": "আমি বাজারে যাচ্ছিলাম, আর বৃষ্টি হচ্ছিল।",
+          "tr": "ami bajare jachchhilam, ar brishti hochchhilo.",
+          "en": "I was going to the market, and it was raining."
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "আম্মু আমাকে ডাকছিল, কিন্তু আমি শুনিনি!",
+          "tr": "ammu amake dakchhilo, kintu ami shunini!",
+          "en": "Mum was calling me, but I didn't hear!"
+        }
+      ],
+      "question": "What was Rafi doing when the power went off?",
+      "options": [
+        "Reading a book",
+        "Calling Nadia",
+        "Going to the market"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e05",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "আমার ছোটবেলা খুব সুন্দর ছিল, তখনকার দিনগুলো খুব মনে পড়ে।",
+        "tr": "amar chhotobela khub shundor chhilo, tokhonkar dingulo khub mone pore.",
+        "en": "My childhood was lovely; I often think of those days."
+      },
+      "options": [
+        "My childhood was lovely; I often think of those days.",
+        "My childhood was hard; I don't like to think about it.",
+        "These days are lovely, and I'm very happy now.",
+        "I wrote a letter about my childhood."
+      ],
+      "answer": 0,
+      "why": "**তখনকার দিনগুলো** 'those days' + **মনে পড়ে** 'come to mind'."
+    },
+    {
+      "id": "e06",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "ফোনটা বাজছিল, কিন্তু আমরা গল্প করছিলাম।",
+        "tr": "fonta bajchhilo, kintu amra golpo korchhilam.",
+        "en": "The phone was ringing, but we were chatting."
+      },
+      "options": [
+        "The phone rang, so we stopped chatting.",
+        "We used to chat on the phone every night.",
+        "The phone was ringing, but we were chatting.",
+        "We were on the phone all evening."
+      ],
+      "answer": 2,
+      "why": "Two things in progress: **বাজছিল**, **গল্প করছিলাম**."
+    },
+    {
+      "id": "e07",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "গ্রাম অনেক বদলে গেছে, এখন আর আগের মতো নেই।",
+        "tr": "gram onek bodle gechhe, ekhon ar ager moto nei.",
+        "en": "The village has changed a lot; it isn't what it used to be."
+      },
+      "options": [
+        "The village hasn't changed at all.",
+        "We moved to a new village last year.",
+        "The village has changed a lot; it isn't what it used to be.",
+        "The village is changing, but slowly."
+      ],
+      "answer": 2,
+      "why": "**বদলে গেছে** 'has changed'; **আগের মতো নেই** 'isn't as before'."
+    },
+    {
+      "id": "e08",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "সারাদিন",
+          "tr": "sharadin",
+          "en": "all day"
+        },
+        {
+          "bn": "শীতকালে",
+          "tr": "shitkale",
+          "en": "in winter"
+        },
+        {
+          "bn": "গরমকালে",
+          "tr": "goromkale",
+          "en": "in summer"
+        },
+        {
+          "bn": "বর্ষাকালে",
+          "tr": "borshakale",
+          "en": "in the rainy season"
+        },
+        {
+          "bn": "খেলা",
+          "tr": "khela",
+          "en": "game; playing"
+        }
+      ]
+    },
+    {
+      "id": "e09",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "স্মৃতি",
+          "tr": "sriti",
+          "en": "memory"
+        },
+        {
+          "bn": "চিঠি",
+          "tr": "chithi",
+          "en": "letter"
+        },
+        {
+          "bn": "মোমবাতি",
+          "tr": "mombati",
+          "en": "candle"
+        },
+        {
+          "bn": "দরজায়",
+          "tr": "dorjay",
+          "en": "at the door"
+        },
+        {
+          "bn": "ভাইবোন",
+          "tr": "bhaibon",
+          "en": "siblings"
+        }
+      ]
+    },
+    {
+      "id": "e10",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আমার বোন প্রতিদিন আমার সাথে স্কুলে যেত।",
+        "tr": "amar bon protidin amar shathe skule jeto.",
+        "en": "My sister used to go to school with me every day."
+      },
+      "blank": "যেত",
+      "options": [
+        "গেল",
+        "যায়",
+        "যেত"
+      ],
+      "answer": 2,
+      "why": "Every day, in the past, সে: **যেত**."
+    },
+    {
+      "id": "e11",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "কারেন্ট যখন চলে গেল, তখন আপনি কী করছিলেন?",
+        "tr": "karent jokhon chole gelo, tokhon apni ki korchhilen?",
+        "en": "When the power went off, what were you (polite) doing?"
+      },
+      "blank": "করছিলেন",
+      "options": [
+        "করতেন",
+        "করছিলেন",
+        "করলেন"
+      ],
+      "answer": 1,
+      "why": "In progress at that moment, আপনি: **করছিলেন**."
+    },
+    {
+      "id": "e12",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "ফোনটা বাজছিল, কিন্তু আমি ঘুমাচ্ছিলাম।",
+        "tr": "fonta bajchhilo, kintu ami ghumachchhilam.",
+        "en": "The phone was ringing, but I was asleep."
+      },
+      "blank": "ঘুমাচ্ছিলাম",
+      "options": [
+        "ঘুমালাম",
+        "ঘুমাই",
+        "ঘুমাচ্ছিলাম"
+      ],
+      "answer": 2,
+      "why": "Going on while the phone rang: **ঘুমাচ্ছিলাম**."
+    },
+    {
+      "id": "e13",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "তুমি ছোটবেলায় কী করতে?",
+        "tr": "tumi chhotobelay ki korte?",
+        "en": "What did you (familiar) use to do as a child?"
+      },
+      "blank": "করতে",
+      "accepted": [
+        "করতে",
+        "korte"
+      ],
+      "why": "তুমি + used to: **করতে**."
+    },
+    {
+      "id": "e14",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "ছোটবেলায় আমি টিভি দেখতাম না।",
+        "tr": "chhotobelay ami tibhi dekhtam na.",
+        "en": "As a child I didn't watch TV."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "টিভি",
+        "দেখছিলাম",
+        "আমি",
+        "এখন",
+        "দেখিনি",
+        "না",
+        "ছোটবেলায়",
+        "দেখতাম"
+      ],
+      "answer": [
+        "ছোটবেলায়",
+        "আমি",
+        "টিভি",
+        "দেখতাম",
+        "না"
+      ],
+      "alt": [
+        [
+          "আমি",
+          "ছোটবেলায়",
+          "টিভি",
+          "দেখতাম",
+          "না"
+        ],
+        [
+          "ছোটবেলায়",
+          "টিভি",
+          "দেখতাম",
+          "না"
+        ]
+      ],
+      "why": "'Didn't use to': **-তাম + না**, not -নি."
+    },
+    {
+      "id": "e15",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "রাফি আমাদের বাড়ির পাশে থাকত।",
+        "tr": "rafi amader barir pashe thakto.",
+        "en": "Rafi used to live next to our house."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "বাড়ির",
+        "থাকত",
+        "আমাদের",
+        "থাকি",
+        "থাকতাম",
+        "রাফি",
+        "থাকে",
+        "পাশে"
+      ],
+      "answer": [
+        "রাফি",
+        "আমাদের",
+        "বাড়ির",
+        "পাশে",
+        "থাকত"
+      ],
+      "why": "Rafi is সে: **থাকত**."
+    },
+    {
+      "id": "e16",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আমি এখন আর ফুটবল খেলি না।",
+        "tr": "ami ekhon ar futbol kheli na.",
+        "en": "I don't play football any more."
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "আমি এখন আর ফুটবল খেলি না",
+        "এখন আর আমি ফুটবল খেলি না",
+        "এখন আর ফুটবল খেলি না",
+        "ami ekhon ar futbol kheli na",
+        "ekhon ar ami futbol kheli na",
+        "ekhon ar futbol kheli na"
+      ],
+      "why": "**এখন আর** + present + **না**."
+    },
+    {
+      "id": "e17",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আমি খাচ্ছিলাম, ঠিক তখন নাদিয়া এল।",
+        "tr": "ami khachchhilam, thik tokhon nadiya elo.",
+        "en": "I was eating when Nadia came."
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "আমি খাচ্ছিলাম, ঠিক তখন নাদিয়া এল",
+        "আমি খাচ্ছিলাম, ঠিক তখন নাদিয়া এলো",
+        "আমি খাচ্ছিলাম, ঠিক তখন নাদিয়া আসল",
+        "আমি খাচ্ছিলাম, ঠিক তখন নাদিয়া আসলো",
+        "আমি খাচ্ছিলাম, তখন নাদিয়া এল",
+        "আমি খাচ্ছিলাম, তখন নাদিয়া এলো",
+        "আমি খাচ্ছিলাম, তখন নাদিয়া আসল",
+        "আমি খাচ্ছিলাম, তখন নাদিয়া আসলো",
+        "আমি যখন খাচ্ছিলাম, তখন নাদিয়া এল",
+        "আমি যখন খাচ্ছিলাম, তখন নাদিয়া এলো",
+        "আমি যখন খাচ্ছিলাম, তখন নাদিয়া আসল",
+        "আমি যখন খাচ্ছিলাম, তখন নাদিয়া আসলো",
+        "যখন আমি খাচ্ছিলাম, তখন নাদিয়া এল",
+        "যখন আমি খাচ্ছিলাম, তখন নাদিয়া এলো",
+        "যখন আমি খাচ্ছিলাম, তখন নাদিয়া আসল",
+        "যখন আমি খাচ্ছিলাম, তখন নাদিয়া আসলো",
+        "নাদিয়া যখন এল, তখন আমি খাচ্ছিলাম",
+        "নাদিয়া যখন এলো, তখন আমি খাচ্ছিলাম",
+        "নাদিয়া যখন আসল, তখন আমি খাচ্ছিলাম",
+        "নাদিয়া যখন আসলো, তখন আমি খাচ্ছিলাম",
+        "যখন নাদিয়া এল, তখন আমি খাচ্ছিলাম",
+        "যখন নাদিয়া এলো, তখন আমি খাচ্ছিলাম",
+        "যখন নাদিয়া আসল, তখন আমি খাচ্ছিলাম",
+        "যখন নাদিয়া আসলো, তখন আমি খাচ্ছিলাম",
+        "আমি ভাত খাচ্ছিলাম, ঠিক তখন নাদিয়া এল",
+        "আমি ভাত খাচ্ছিলাম, ঠিক তখন নাদিয়া এলো",
+        "আমি ভাত খাচ্ছিলাম, ঠিক তখন নাদিয়া আসল",
+        "আমি ভাত খাচ্ছিলাম, ঠিক তখন নাদিয়া আসলো",
+        "আমি যখন ভাত খাচ্ছিলাম, তখন নাদিয়া এল",
+        "আমি যখন ভাত খাচ্ছিলাম, তখন নাদিয়া এলো",
+        "আমি যখন ভাত খাচ্ছিলাম, তখন নাদিয়া আসল",
+        "আমি যখন ভাত খাচ্ছিলাম, তখন নাদিয়া আসলো",
+        "নাদিয়া যখন এল, তখন আমি ভাত খাচ্ছিলাম",
+        "নাদিয়া যখন এলো, তখন আমি ভাত খাচ্ছিলাম",
+        "নাদিয়া যখন আসল, তখন আমি ভাত খাচ্ছিলাম",
+        "নাদিয়া যখন আসলো, তখন আমি ভাত খাচ্ছিলাম",
+        "ami khachchhilam, thik tokhon nadiya elo",
+        "ami khachchilam, thik tokhon nadiya elo",
+        "ami khachchhilam, tokhon nadiya elo",
+        "ami khachchilam, tokhon nadiya elo",
+        "ami jokhon khachchhilam, tokhon nadiya elo",
+        "ami jokhon khachchilam, tokhon nadiya elo",
+        "jokhon ami khachchhilam, tokhon nadiya elo",
+        "jokhon ami khachchilam, tokhon nadiya elo",
+        "nadiya jokhon elo, tokhon ami khachchhilam",
+        "nadiya jokhon elo, tokhon ami khachchilam",
+        "jokhon nadiya elo, tokhon ami khachchhilam",
+        "jokhon nadiya elo, tokhon ami khachchilam",
+        "ami bhat khachchhilam, thik tokhon nadiya elo",
+        "ami bhat khachchilam, thik tokhon nadiya elo",
+        "ami jokhon bhat khachchhilam, tokhon nadiya elo",
+        "ami jokhon bhat khachchilam, tokhon nadiya elo",
+        "nadiya jokhon elo, tokhon ami bhat khachchhilam",
+        "nadiya jokhon elo, tokhon ami bhat khachchilam"
+      ],
+      "why": "Eating = background (**খাচ্ছিলাম**); Nadia's arrival = event (**এল**)."
+    },
+    {
+      "id": "e18",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আমি আমাদের গ্রাম খুব ভালোবাসতাম।",
+        "tr": "ami amader gram khub bhalobashtam.",
+        "en": "I loved our village very much."
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "আমি আমাদের গ্রাম খুব ভালোবাসতাম",
+        "আমি আমাদের গ্রাম খুব ভালবাসতাম",
+        "আমাদের গ্রাম আমি খুব ভালোবাসতাম",
+        "আমাদের গ্রাম আমি খুব ভালবাসতাম",
+        "আমি আমাদের গ্রামকে খুব ভালোবাসতাম",
+        "আমি আমাদের গ্রামকে খুব ভালবাসতাম",
+        "ami amader gram khub bhalobashtam",
+        "amader gram ami khub bhalobashtam"
+      ],
+      "why": "ভালোবাসি 'I love' → **ভালোবাসতাম** 'I used to love, I loved'."
+    },
+    {
+      "id": "r01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "লিখতাম",
+        "tr": "likhtam",
+        "en": "I used to write"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "has gone (spoken)",
+        "I used to write",
+        "you will buy (polite)",
+        "say (familiar); you say"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "listen_select",
+      "audio": {
+        "bn": "এখনকার",
+        "tr": "ekhonkar",
+        "en": "of today"
+      },
+      "options": [
+        "পাতলা",
+        "সামনের",
+        "পরিষ্কার",
+        "এখনকার"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "সকালে আমরা শহীদ মিনারে যাই।",
+        "tr": "shokale amra shohid minare jai.",
+        "en": "In the morning we go to the Shaheed Minar."
+      },
+      "blank": "শহীদ মিনারে",
+      "options": [
+        "মাঝে মাঝে",
+        "শহীদ মিনারে",
+        "দয়া করে",
+        "ঈদ মোবারক"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "যদি",
+          "tr": "jodi",
+          "en": "if"
+        },
+        {
+          "bn": "দুষ্টু",
+          "tr": "dushtu",
+          "en": "naughty"
+        },
+        {
+          "bn": "হয়",
+          "tr": "hoy",
+          "en": "is"
+        },
+        {
+          "bn": "আসবেন",
+          "tr": "ashben",
+          "en": "please come"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "আসবে",
+          "tr": "ashbe",
+          "en": "will come"
+        },
+        {
+          "bn": "আপনাকে",
+          "tr": "apnake",
+          "en": "you (polite, object)"
+        },
+        {
+          "bn": "রমজান",
+          "tr": "romjan",
+          "en": "Ramadan"
+        },
+        {
+          "bn": "সবাইকে",
+          "tr": "shobaike",
+          "en": "everyone"
+        }
+      ],
+      "recycle": true
+    }
+  ]
+}

@@ -1,0 +1,674 @@
+{
+  "id": "i01-l07",
+  "unit": "i01-catching-up",
+  "title": "Back then and now",
+  "status": "draft",
+  "tip": "Three past tenses, three jobs:\n\n- **করতাম** 'used to do': a habit or a long state. **আমরা চিঠি লিখতাম** 'We used to write letters.'\n- **করলাম** 'did': one finished event. **রাফি এল** 'Rafi came.'\n- **করছিলাম** 'was doing': in progress at a moment. **আমি চিঠি পড়ছিলাম** 'I was reading a letter.'\n\nAsk yourself: did it happen **again and again**, **once**, or was it **going on**?\n\n**মনে পড়ে** 'comes to mind' takes **আমার**: **আমার তখনকার কথা মনে পড়ে** 'I think back to those days.'\n\n**-কার** makes 'of (a time)': **তখনকার** 'of that time', **এখনকার** 'of today'.",
+  "vocab": [
+    {
+      "id": "sriti",
+      "bn": "স্মৃতি",
+      "tr": "sriti",
+      "en": "memory",
+      "notes": "স্মৃ is said 'sri': the ম is silent."
+    },
+    {
+      "id": "mone-pore",
+      "bn": "মনে পড়ে",
+      "tr": "mone pore",
+      "en": "I remember (it comes to mind)",
+      "notes": "Takes the -র form: আমার মনে পড়ে."
+    },
+    {
+      "id": "gramer",
+      "bn": "গ্রামের",
+      "tr": "gramer",
+      "en": "of the village"
+    },
+    {
+      "id": "tokhonkar",
+      "bn": "তখনকার",
+      "tr": "tokhonkar",
+      "en": "of that time"
+    },
+    {
+      "id": "ekhonkar",
+      "bn": "এখনকার",
+      "tr": "ekhonkar",
+      "en": "of today"
+    },
+    {
+      "id": "ager",
+      "bn": "আগের",
+      "tr": "ager",
+      "en": "former; earlier"
+    },
+    {
+      "id": "dingulo",
+      "bn": "দিনগুলো",
+      "tr": "dingulo",
+      "en": "the days",
+      "notes": "Also দিনগুলি."
+    },
+    {
+      "id": "bodle-gechhe",
+      "bn": "বদলে গেছে",
+      "tr": "bodle gechhe",
+      "en": "has changed",
+      "notes": "Compound verb, learned as a chunk for now. Full form বদলে গিয়েছে."
+    },
+    {
+      "id": "chithi",
+      "bn": "চিঠি",
+      "tr": "chithi",
+      "en": "letter"
+    },
+    {
+      "id": "likhtam",
+      "bn": "লিখতাম",
+      "tr": "likhtam",
+      "en": "I used to write"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "পড়ছিলাম",
+        "tr": "porchhilam",
+        "en": "I was reading"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "পড়ছিলাম",
+        "পড়তাম",
+        "পড়লাম",
+        "পড়ছি"
+      ],
+      "answer": 0,
+      "why": "In progress in the past: **পড়ছিলাম**."
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "বাজছিল",
+        "tr": "bajchhilo",
+        "en": "was ringing"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "বাজে",
+        "বাজছিল",
+        "ডাকছিল",
+        "হচ্ছিল"
+      ],
+      "answer": 1,
+      "why": "**বাজছিল** 'was ringing' (বাজা 'to ring, to strike')."
+    },
+    {
+      "id": "e03",
+      "type": "reading",
+      "title": "Then and now",
+      "lines": [
+        {
+          "speaker": "Nani",
+          "bn": "আগের দিনগুলো খুব সুন্দর ছিল।",
+          "tr": "ager dingulo khub shundor chhilo.",
+          "en": "The old days were very beautiful."
+        },
+        {
+          "speaker": "Rafi",
+          "bn": "তখন গ্রাম কেমন ছিল?",
+          "tr": "tokhon gram kemon chhilo?",
+          "en": "What was the village like then?"
+        },
+        {
+          "speaker": "Nani",
+          "bn": "আমরা গ্রামের পুকুরে সাঁতার কাটতাম। তখন ফোন ছিল না, তাই আমরা চিঠি লিখতাম।",
+          "tr": "amra gramer pukure sha~tar kattam. tokhon fon chhilo na, tai amra chithi likhtam.",
+          "en": "We used to swim in the village pond. There were no phones then, so we wrote letters."
+        },
+        {
+          "speaker": "Rafi",
+          "bn": "এখন গ্রাম অনেক বদলে গেছে।",
+          "tr": "ekhon gram onek bodle gechhe.",
+          "en": "The village has changed a lot now."
+        },
+        {
+          "speaker": "Nani",
+          "bn": "হ্যাঁ, গ্রাম আর আগের মতো নেই। কিন্তু আমার তখনকার কথা খুব মনে পড়ে।",
+          "tr": "hya~, gram ar ager moto nei. kintu amar tokhonkar kotha khub mone pore.",
+          "en": "Yes, the village isn't what it was. But I often think back to those days."
+        }
+      ],
+      "question": "What are Rafi and Nani talking about?",
+      "options": [
+        "Rafi's plans for next week",
+        "How the village used to be and how it is now",
+        "A letter Rafi got yesterday"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e04",
+      "type": "reading",
+      "title": "Nadia's throwback post",
+      "lines": [
+        {
+          "bn": "পুরনো ছবি, পুরনো স্মৃতি।",
+          "tr": "purono chhobi, purono sriti.",
+          "en": "Old photo, old memories."
+        },
+        {
+          "bn": "এটা আমাদের গ্রামের বাড়ি।",
+          "tr": "eta amader gramer bari.",
+          "en": "This is our village house."
+        },
+        {
+          "bn": "গরমকালে আমরা সবাই এখানে একসাথে থাকতাম।",
+          "tr": "goromkale amra shobai ekhane ekshathe thaktam.",
+          "en": "In summer we all used to stay here together."
+        },
+        {
+          "bn": "আমি আর আমার ভাই সারাদিন পুকুরে সাঁতার কাটতাম।",
+          "tr": "ami ar amar bhai sharadin pukure sha~tar kattam.",
+          "en": "My brother and I used to swim in the pond all day."
+        },
+        {
+          "bn": "সন্ধ্যায় নানি আমাদের গল্প বলতেন।",
+          "tr": "shondhay nani amader golpo bolten.",
+          "en": "In the evening Nani used to tell us stories."
+        },
+        {
+          "bn": "এখন সব বদলে গেছে, কিন্তু তখনকার দিনগুলো খুব মনে পড়ে।",
+          "tr": "ekhon shob bodle gechhe, kintu tokhonkar dingulo khub mone pore.",
+          "en": "Everything has changed now, but I often think of those days."
+        }
+      ],
+      "question": "Who swam with Nadia all day?",
+      "options": [
+        "Her grandmother",
+        "Her brother",
+        "Her friends from Dhaka"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e05",
+      "type": "reading",
+      "title": "Nadia's throwback post",
+      "lines": [
+        {
+          "bn": "পুরনো ছবি, পুরনো স্মৃতি।",
+          "tr": "purono chhobi, purono sriti.",
+          "en": "Old photo, old memories."
+        },
+        {
+          "bn": "এটা আমাদের গ্রামের বাড়ি।",
+          "tr": "eta amader gramer bari.",
+          "en": "This is our village house."
+        },
+        {
+          "bn": "গরমকালে আমরা সবাই এখানে একসাথে থাকতাম।",
+          "tr": "goromkale amra shobai ekhane ekshathe thaktam.",
+          "en": "In summer we all used to stay here together."
+        },
+        {
+          "bn": "আমি আর আমার ভাই সারাদিন পুকুরে সাঁতার কাটতাম।",
+          "tr": "ami ar amar bhai sharadin pukure sha~tar kattam.",
+          "en": "My brother and I used to swim in the pond all day."
+        },
+        {
+          "bn": "সন্ধ্যায় নানি আমাদের গল্প বলতেন।",
+          "tr": "shondhay nani amader golpo bolten.",
+          "en": "In the evening Nani used to tell us stories."
+        },
+        {
+          "bn": "এখন সব বদলে গেছে, কিন্তু তখনকার দিনগুলো খুব মনে পড়ে।",
+          "tr": "ekhon shob bodle gechhe, kintu tokhonkar dingulo khub mone pore.",
+          "en": "Everything has changed now, but I often think of those days."
+        }
+      ],
+      "question": "When did the family stay at the village house?",
+      "options": [
+        "In winter",
+        "In the rainy season",
+        "In summer"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e06",
+      "type": "reading",
+      "title": "Nadia's throwback post",
+      "lines": [
+        {
+          "bn": "পুরনো ছবি, পুরনো স্মৃতি।",
+          "tr": "purono chhobi, purono sriti.",
+          "en": "Old photo, old memories."
+        },
+        {
+          "bn": "এটা আমাদের গ্রামের বাড়ি।",
+          "tr": "eta amader gramer bari.",
+          "en": "This is our village house."
+        },
+        {
+          "bn": "গরমকালে আমরা সবাই এখানে একসাথে থাকতাম।",
+          "tr": "goromkale amra shobai ekhane ekshathe thaktam.",
+          "en": "In summer we all used to stay here together."
+        },
+        {
+          "bn": "আমি আর আমার ভাই সারাদিন পুকুরে সাঁতার কাটতাম।",
+          "tr": "ami ar amar bhai sharadin pukure sha~tar kattam.",
+          "en": "My brother and I used to swim in the pond all day."
+        },
+        {
+          "bn": "সন্ধ্যায় নানি আমাদের গল্প বলতেন।",
+          "tr": "shondhay nani amader golpo bolten.",
+          "en": "In the evening Nani used to tell us stories."
+        },
+        {
+          "bn": "এখন সব বদলে গেছে, কিন্তু তখনকার দিনগুলো খুব মনে পড়ে।",
+          "tr": "ekhon shob bodle gechhe, kintu tokhonkar dingulo khub mone pore.",
+          "en": "Everything has changed now, but I often think of those days."
+        }
+      ],
+      "question": "What did Nani do in the evenings?",
+      "options": [
+        "She cooked for everyone",
+        "She swam in the pond",
+        "She told them stories"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e07",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "তখন ফোন ছিল না, তাই আমরা চিঠি লিখতাম।",
+        "tr": "tokhon fon chhilo na, tai amra chithi likhtam.",
+        "en": "There were no phones then, so we used to write letters."
+      },
+      "options": [
+        "There's no phone here, so I'm writing a letter.",
+        "We wrote a letter yesterday because the phone was off.",
+        "There were no phones then, so we used to write letters.",
+        "We had phones then, so we never wrote letters."
+      ],
+      "answer": 2,
+      "why": "**লিখতাম** 'we used to write': a habit back then."
+    },
+    {
+      "id": "e08",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "গ্রামে আমার অনেক স্মৃতি আছে।",
+        "tr": "grame amar onek sriti achhe.",
+        "en": "I have many memories of the village."
+      },
+      "options": [
+        "I have many friends in the village.",
+        "I don't remember the village.",
+        "There were many ponds in the village.",
+        "I have many memories of the village."
+      ],
+      "answer": 3,
+      "why": "**স্মৃতি** 'memory, memories'."
+    },
+    {
+      "id": "e09",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "এখনকার",
+        "tr": "ekhonkar",
+        "en": "of today"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "of that time",
+        "of today",
+        "now",
+        "earlier"
+      ],
+      "answer": 1,
+      "why": "এখন 'now' + **-কার** 'of': এখনকার 'of today'."
+    },
+    {
+      "id": "e10",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আমি যখন একটা চিঠি পড়ছিলাম, তখন রাফি এল।",
+        "tr": "ami jokhon ekta chithi porchhilam, tokhon rafi elo.",
+        "en": "When I was reading a letter, Rafi came."
+      },
+      "blank": "পড়ছিলাম",
+      "options": [
+        "পড়তাম",
+        "পড়লাম",
+        "পড়ছিলাম"
+      ],
+      "answer": 2,
+      "why": "In progress when Rafi came: **পড়ছিলাম**."
+    },
+    {
+      "id": "e11",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "তখন ফোন ছিল না, তাই আমরা চিঠি লিখতাম।",
+        "tr": "tokhon fon chhilo na, tai amra chithi likhtam.",
+        "en": "There were no phones then, so we used to write letters."
+      },
+      "blank": "লিখতাম",
+      "options": [
+        "লিখতাম",
+        "লিখি",
+        "লেখে"
+      ],
+      "answer": 0,
+      "why": "A habit back then: **লিখতাম**."
+    },
+    {
+      "id": "e12",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "গতকাল আমি একটা চিঠি পড়লাম।",
+        "tr": "gotokal ami ekta chithi porlam.",
+        "en": "Yesterday I read a letter."
+      },
+      "blank": "পড়লাম",
+      "options": [
+        "পড়তাম",
+        "পড়ছিলাম",
+        "পড়লাম"
+      ],
+      "answer": 2,
+      "why": "**গতকাল**, one finished event: simple past **পড়লাম**."
+    },
+    {
+      "id": "e13",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আমাদের গ্রাম অনেক বদলে গেছে।",
+        "tr": "amader gram onek bodle gechhe.",
+        "en": "Our village has changed a lot."
+      },
+      "blank": "বদলে গেছে",
+      "accepted": [
+        "বদলে গেছে",
+        "বদলে গিয়েছে",
+        "bodle gechhe",
+        "bodle geche"
+      ],
+      "why": "'Has changed' (and is different now): **বদলে গেছে**."
+    },
+    {
+      "id": "e14",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "তখনকার স্কুল ছোট ছিল, এখনকার স্কুল অনেক বড়।",
+        "tr": "tokhonkar skul chhoto chhilo, ekhonkar skul onek boro.",
+        "en": "Schools back then were small; schools today are much bigger."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "অনেক",
+        "আগে",
+        "বড়",
+        "এখন",
+        "তখনকার",
+        "আছে",
+        "ছোট",
+        "স্কুল",
+        "এখনকার",
+        "স্কুল",
+        "ছিল"
+      ],
+      "answer": [
+        "তখনকার",
+        "স্কুল",
+        "ছোট",
+        "ছিল",
+        "এখনকার",
+        "স্কুল",
+        "অনেক",
+        "বড়"
+      ],
+      "alt": [
+        [
+          "এখনকার",
+          "স্কুল",
+          "অনেক",
+          "বড়",
+          "তখনকার",
+          "স্কুল",
+          "ছোট",
+          "ছিল"
+        ]
+      ],
+      "why": "**তখনকার** 'of that time' vs **এখনকার** 'of today'."
+    },
+    {
+      "id": "e15",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "গ্রাম আর আগের মতো নেই।",
+        "tr": "gram ar ager moto nei.",
+        "en": "The village isn't what it used to be."
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "গ্রাম আর আগের মতো নেই",
+        "গ্রাম এখন আর আগের মতো নেই",
+        "গ্রামটা আর আগের মতো নেই",
+        "gram ar ager moto nei",
+        "gram ekhon ar ager moto nei"
+      ],
+      "why": "**আর … নেই** 'no longer is'; **আগের মতো** 'like before'."
+    },
+    {
+      "id": "e16",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আমার তখনকার কথা খুব মনে পড়ে।",
+        "tr": "amar tokhonkar kotha khub mone pore.",
+        "en": "I often think back to those days."
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "আমার তখনকার কথা খুব মনে পড়ে",
+        "তখনকার কথা আমার খুব মনে পড়ে",
+        "তখনকার কথা খুব মনে পড়ে",
+        "আমার তখনকার দিনগুলো খুব মনে পড়ে",
+        "আমার তখনকার দিনগুলি খুব মনে পড়ে",
+        "তখনকার দিনগুলো আমার খুব মনে পড়ে",
+        "তখনকার দিনগুলি আমার খুব মনে পড়ে",
+        "তখনকার দিনগুলো খুব মনে পড়ে",
+        "তখনকার দিনগুলি খুব মনে পড়ে",
+        "amar tokhonkar kotha khub mone pore",
+        "tokhonkar kotha amar khub mone pore",
+        "tokhonkar kotha khub mone pore",
+        "amar tokhonkar dingulo khub mone pore",
+        "tokhonkar dingulo amar khub mone pore",
+        "tokhonkar dingulo khub mone pore"
+      ],
+      "why": "**মনে পড়ে** takes **আমার**: it 'comes to my mind'."
+    },
+    {
+      "id": "e17",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "তোমার কি গ্রামের কথা মনে পড়ে?",
+        "tr": "tomar ki gramer kotha mone pore?",
+        "en": "Do you (familiar) think about the village?"
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "পড়ে",
+        "আপনার",
+        "কি",
+        "কথা",
+        "গ্রামের",
+        "তোমার",
+        "গ্রাম",
+        "তুমি",
+        "মনে"
+      ],
+      "answer": [
+        "তোমার",
+        "কি",
+        "গ্রামের",
+        "কথা",
+        "মনে",
+        "পড়ে"
+      ],
+      "alt": [
+        [
+          "গ্রামের",
+          "কথা",
+          "কি",
+          "তোমার",
+          "মনে",
+          "পড়ে"
+        ]
+      ],
+      "why": "Familiar: **তোমার** (not তুমি) with মনে পড়ে."
+    },
+    {
+      "id": "e18",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "স্মৃতি",
+          "tr": "sriti",
+          "en": "memory"
+        },
+        {
+          "bn": "চিঠি",
+          "tr": "chithi",
+          "en": "letter"
+        },
+        {
+          "bn": "আগের",
+          "tr": "ager",
+          "en": "former; earlier"
+        },
+        {
+          "bn": "এখনকার",
+          "tr": "ekhonkar",
+          "en": "of today"
+        },
+        {
+          "bn": "তখনকার",
+          "tr": "tokhonkar",
+          "en": "of that time"
+        }
+      ]
+    },
+    {
+      "id": "r01",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আমি পড়ছিলাম, ঠিক তখন কারেন্ট চলে গেল।",
+        "tr": "ami porchhilam, thik tokhon karent chole gelo.",
+        "en": "I was studying, and just then the power went off."
+      },
+      "blank": "কারেন্ট",
+      "accepted": [
+        "কারেন্ট",
+        "karent"
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ফোনটা",
+        "tr": "fonta",
+        "en": "the phone"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "worry; thought",
+        "market",
+        "martyr",
+        "the phone"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "listen_select",
+      "audio": {
+        "bn": "মোমবাতি",
+        "tr": "mombati",
+        "en": "candle"
+      },
+      "options": [
+        "বই",
+        "মোমবাতি",
+        "লবণ",
+        "গাড়ি"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "দরজায়",
+          "tr": "dorjay",
+          "en": "at the door"
+        },
+        {
+          "bn": "ছুটিতে",
+          "tr": "chhutite",
+          "en": "in the holidays"
+        },
+        {
+          "bn": "প্রায়ই",
+          "tr": "prayi",
+          "en": "often"
+        },
+        {
+          "bn": "বর্ষাকালে",
+          "tr": "borshakale",
+          "en": "in the rainy season"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "শীতকালে",
+          "tr": "shitkale",
+          "en": "in winter"
+        },
+        {
+          "bn": "ছোটবেলা",
+          "tr": "chhotobela",
+          "en": "childhood"
+        },
+        {
+          "bn": "লুকোচুরি",
+          "tr": "lukochuri",
+          "en": "hide-and-seek"
+        },
+        {
+          "bn": "ঘুড়ি",
+          "tr": "ghuri",
+          "en": "kite"
+        }
+      ],
+      "recycle": true
+    }
+  ]
+}

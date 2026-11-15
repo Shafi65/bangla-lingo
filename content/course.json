@@ -1,6 +1,16 @@
 {
   "id": "bn-for-en",
   "title": "Bengali for English speakers",
+  "sections": [
+    {
+      "id": 1,
+      "title": "Foundations"
+    },
+    {
+      "id": 3,
+      "title": "Intermediate"
+    }
+  ],
   "units": [
     {
       "id": "u01-basics",
@@ -229,6 +239,29 @@
         "u10-l06b",
         "u10-l07",
         "u10-l08"
+      ]
+    },
+    {
+      "id": "i01-catching-up",
+      "title": "Catching up",
+      "description": "How life used to be, and what was going on when something happened",
+      "track": "main",
+      "level": "intermediate",
+      "section": 3,
+      "assumes": [
+        "bridge"
+      ],
+      "scriptOnly": true,
+      "lessons": [
+        "i01-l01",
+        "i01-l02",
+        "i01-l03",
+        "i01-l04",
+        "i01-l05",
+        "i01-l06",
+        "i01-l07",
+        "i01-l08",
+        "i01-c01"
       ]
     }
   ]

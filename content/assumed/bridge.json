@@ -1,0 +1,1762 @@
+{
+  "name": "bridge",
+  "entries": [
+    {
+      "id": "korbo",
+      "bn": "করব",
+      "tr": "korbo",
+      "en": "I will do",
+      "pos": "verb"
+    },
+    {
+      "id": "korbi",
+      "bn": "করবি",
+      "tr": "korbi",
+      "en": "you will do (intimate)",
+      "pos": "verb"
+    },
+    {
+      "id": "korbe",
+      "bn": "করবে",
+      "tr": "korbe",
+      "en": "you (familiar) / he, she will do",
+      "pos": "verb",
+      "notes": "Same form for তুমি and সে."
+    },
+    {
+      "id": "korben",
+      "bn": "করবেন",
+      "tr": "korben",
+      "en": "you (polite) / he, she (polite) will do",
+      "pos": "verb"
+    },
+    {
+      "id": "jabi",
+      "bn": "যাবি",
+      "tr": "jabi",
+      "en": "you will go (intimate)",
+      "pos": "verb"
+    },
+    {
+      "id": "khabo",
+      "bn": "খাব",
+      "tr": "khabo",
+      "en": "I will eat",
+      "pos": "verb"
+    },
+    {
+      "id": "khabe",
+      "bn": "খাবে",
+      "tr": "khabe",
+      "en": "you (familiar) / he, she will eat",
+      "pos": "verb"
+    },
+    {
+      "id": "ashbo",
+      "bn": "আসব",
+      "tr": "ashbo",
+      "en": "I will come",
+      "pos": "verb"
+    },
+    {
+      "id": "dekhbo",
+      "bn": "দেখব",
+      "tr": "dekhbo",
+      "en": "I will see",
+      "pos": "verb"
+    },
+    {
+      "id": "dekhbe",
+      "bn": "দেখবে",
+      "tr": "dekhbe",
+      "en": "you (familiar) / he, she will see",
+      "pos": "verb"
+    },
+    {
+      "id": "dekhben",
+      "bn": "দেখবেন",
+      "tr": "dekhben",
+      "en": "you (polite) will see",
+      "pos": "verb"
+    },
+    {
+      "id": "bolbo",
+      "bn": "বলব",
+      "tr": "bolbo",
+      "en": "I will say",
+      "pos": "verb"
+    },
+    {
+      "id": "bolbe",
+      "bn": "বলবে",
+      "tr": "bolbe",
+      "en": "you (familiar) / he, she will say",
+      "pos": "verb"
+    },
+    {
+      "id": "bolben",
+      "bn": "বলবেন",
+      "tr": "bolben",
+      "en": "you (polite) will say",
+      "pos": "verb"
+    },
+    {
+      "id": "thakbo",
+      "bn": "থাকব",
+      "tr": "thakbo",
+      "en": "I will stay",
+      "pos": "verb",
+      "alt": [
+        "I will live",
+        "I will be (there)"
+      ]
+    },
+    {
+      "id": "thakbe",
+      "bn": "থাকবে",
+      "tr": "thakbe",
+      "en": "you (familiar) / he, she will stay",
+      "pos": "verb"
+    },
+    {
+      "id": "thakben",
+      "bn": "থাকবেন",
+      "tr": "thakben",
+      "en": "you (polite) will stay",
+      "pos": "verb"
+    },
+    {
+      "id": "debo",
+      "bn": "দেব",
+      "tr": "debo",
+      "en": "I will give",
+      "pos": "verb",
+      "notes": "BD colloquial দিব (dibo); accept both."
+    },
+    {
+      "id": "debe",
+      "bn": "দেবে",
+      "tr": "debe",
+      "en": "you (familiar) / he, she will give",
+      "pos": "verb",
+      "notes": "BD colloquial দিবে."
+    },
+    {
+      "id": "deben",
+      "bn": "দেবেন",
+      "tr": "deben",
+      "en": "you (polite) will give",
+      "pos": "verb",
+      "notes": "BD colloquial দিবেন."
+    },
+    {
+      "id": "nebo",
+      "bn": "নেব",
+      "tr": "nebo",
+      "en": "I will take",
+      "pos": "verb",
+      "notes": "BD colloquial নিব (nibo)."
+    },
+    {
+      "id": "neben",
+      "bn": "নেবেন",
+      "tr": "neben",
+      "en": "you (polite) will take",
+      "pos": "verb",
+      "notes": "BD colloquial নিবেন."
+    },
+    {
+      "id": "hobo",
+      "bn": "হব",
+      "tr": "hobo",
+      "en": "I will be / become",
+      "pos": "verb"
+    },
+    {
+      "id": "parbo",
+      "bn": "পারব",
+      "tr": "parbo",
+      "en": "I will be able to",
+      "pos": "verb"
+    },
+    {
+      "id": "parbe",
+      "bn": "পারবে",
+      "tr": "parbe",
+      "en": "you (familiar) / he, she will be able to",
+      "pos": "verb"
+    },
+    {
+      "id": "parben",
+      "bn": "পারবেন",
+      "tr": "parben",
+      "en": "you (polite) will be able to",
+      "pos": "verb"
+    },
+    {
+      "id": "pabo",
+      "bn": "পাব",
+      "tr": "pabo",
+      "en": "I will get",
+      "pos": "verb"
+    },
+    {
+      "id": "shikhbo",
+      "bn": "শিখব",
+      "tr": "shikhbo",
+      "en": "I will learn",
+      "pos": "verb"
+    },
+    {
+      "id": "korechho",
+      "bn": "করেছো",
+      "tr": "korechho",
+      "en": "you (familiar) have done",
+      "pos": "verb",
+      "notes": "Also spelled করেছ."
+    },
+    {
+      "id": "korechhe",
+      "bn": "করেছে",
+      "tr": "korechhe",
+      "en": "he/she has done",
+      "pos": "verb"
+    },
+    {
+      "id": "korechhen",
+      "bn": "করেছেন",
+      "tr": "korechhen",
+      "en": "you (polite) have done",
+      "pos": "verb"
+    },
+    {
+      "id": "giyechhi",
+      "bn": "গিয়েছি",
+      "tr": "giyechhi",
+      "en": "I have gone",
+      "pos": "verb",
+      "notes": "Spoken: গেছি."
+    },
+    {
+      "id": "gechhi",
+      "bn": "গেছি",
+      "tr": "gechhi",
+      "en": "I have gone (spoken)",
+      "pos": "verb",
+      "notes": "Common spoken form of গিয়েছি in both BD and Kolkata."
+    },
+    {
+      "id": "gechhe",
+      "bn": "গেছে",
+      "tr": "gechhe",
+      "en": "has gone (spoken)",
+      "pos": "verb",
+      "notes": "Spoken form of গিয়েছে."
+    },
+    {
+      "id": "giyechhen",
+      "bn": "গিয়েছেন",
+      "tr": "giyechhen",
+      "en": "you (polite) have gone",
+      "pos": "verb"
+    },
+    {
+      "id": "eshechho",
+      "bn": "এসেছো",
+      "tr": "eshechho",
+      "en": "you (familiar) have come",
+      "pos": "verb"
+    },
+    {
+      "id": "kheyechhe",
+      "bn": "খেয়েছে",
+      "tr": "kheyechhe",
+      "en": "he/she has eaten",
+      "pos": "verb"
+    },
+    {
+      "id": "dekhechhi",
+      "bn": "দেখেছি",
+      "tr": "dekhechhi",
+      "en": "I have seen",
+      "pos": "verb"
+    },
+    {
+      "id": "dekhechho",
+      "bn": "দেখেছো",
+      "tr": "dekhechho",
+      "en": "you (familiar) have seen",
+      "pos": "verb"
+    },
+    {
+      "id": "dekhechhe",
+      "bn": "দেখেছে",
+      "tr": "dekhechhe",
+      "en": "he/she has seen",
+      "pos": "verb"
+    },
+    {
+      "id": "bolechhi",
+      "bn": "বলেছি",
+      "tr": "bolechhi",
+      "en": "I have said",
+      "pos": "verb"
+    },
+    {
+      "id": "bolechhe",
+      "bn": "বলেছে",
+      "tr": "bolechhe",
+      "en": "he/she has said",
+      "pos": "verb"
+    },
+    {
+      "id": "bolechhen",
+      "bn": "বলেছেন",
+      "tr": "bolechhen",
+      "en": "you (polite) / he, she (polite) have said",
+      "pos": "verb"
+    },
+    {
+      "id": "shunechhi",
+      "bn": "শুনেছি",
+      "tr": "shunechhi",
+      "en": "I have heard",
+      "pos": "verb"
+    },
+    {
+      "id": "hoyechhe",
+      "bn": "হয়েছে",
+      "tr": "hoyechhe",
+      "en": "has happened; has become",
+      "pos": "verb"
+    },
+    {
+      "id": "hoyechhi",
+      "bn": "হয়েছি",
+      "tr": "hoyechhi",
+      "en": "I have become",
+      "pos": "verb"
+    },
+    {
+      "id": "peyechhi",
+      "bn": "পেয়েছি",
+      "tr": "peyechhi",
+      "en": "I have got",
+      "pos": "verb",
+      "alt": [
+        "I have found",
+        "I have received"
+      ]
+    },
+    {
+      "id": "kinechhi",
+      "bn": "কিনেছি",
+      "tr": "kinechhi",
+      "en": "I have bought",
+      "pos": "verb"
+    },
+    {
+      "id": "diyechhi",
+      "bn": "দিয়েছি",
+      "tr": "diyechhi",
+      "en": "I have given",
+      "pos": "verb"
+    },
+    {
+      "id": "niyechhi",
+      "bn": "নিয়েছি",
+      "tr": "niyechhi",
+      "en": "I have taken",
+      "pos": "verb"
+    },
+    {
+      "id": "porechhi",
+      "bn": "পড়েছি",
+      "tr": "porechhi",
+      "en": "I have read",
+      "pos": "verb",
+      "alt": [
+        "I have studied"
+      ]
+    },
+    {
+      "id": "shikhechhi",
+      "bn": "শিখেছি",
+      "tr": "shikhechhi",
+      "en": "I have learned",
+      "pos": "verb"
+    },
+    {
+      "id": "koreni",
+      "bn": "করেনি",
+      "tr": "koreni",
+      "en": "he/she didn't do",
+      "pos": "verb",
+      "notes": "-নি negates the perfect: 'didn't / hasn't'."
+    },
+    {
+      "id": "koroni",
+      "bn": "করোনি",
+      "tr": "koroni",
+      "en": "you (familiar) didn't do",
+      "pos": "verb"
+    },
+    {
+      "id": "korenni",
+      "bn": "করেননি",
+      "tr": "korenni",
+      "en": "you (polite) didn't do",
+      "pos": "verb"
+    },
+    {
+      "id": "jayni",
+      "bn": "যায়নি",
+      "tr": "jayni",
+      "en": "he/she didn't go",
+      "pos": "verb"
+    },
+    {
+      "id": "hoyni",
+      "bn": "হয়নি",
+      "tr": "hoyni",
+      "en": "didn't happen; hasn't become",
+      "pos": "verb"
+    },
+    {
+      "id": "bolini",
+      "bn": "বলিনি",
+      "tr": "bolini",
+      "en": "I didn't say",
+      "pos": "verb"
+    },
+    {
+      "id": "parini",
+      "bn": "পারিনি",
+      "tr": "parini",
+      "en": "I couldn't",
+      "pos": "verb"
+    },
+    {
+      "id": "shunini",
+      "bn": "শুনিনি",
+      "tr": "shunini",
+      "en": "I haven't heard",
+      "pos": "verb"
+    },
+    {
+      "id": "eshechhilo",
+      "bn": "এসেছিল",
+      "tr": "eshechhilo",
+      "en": "had come",
+      "pos": "verb",
+      "notes": "Past perfect; recognition (as U9's গিয়েছিলাম)."
+    },
+    {
+      "id": "eshechhilen",
+      "bn": "এসেছিলেন",
+      "tr": "eshechhilen",
+      "en": "(polite) had come",
+      "pos": "verb",
+      "notes": "Past perfect; recognition."
+    },
+    {
+      "id": "holam",
+      "bn": "হলাম",
+      "tr": "holam",
+      "en": "I became",
+      "pos": "verb",
+      "alt": [
+        "I was",
+        "I got"
+      ]
+    },
+    {
+      "id": "holo",
+      "bn": "হল",
+      "tr": "holo",
+      "en": "became; happened",
+      "pos": "verb",
+      "notes": "Also spelled হলো."
+    },
+    {
+      "id": "dekhlo",
+      "bn": "দেখল",
+      "tr": "dekhlo",
+      "en": "he/she saw",
+      "pos": "verb"
+    },
+    {
+      "id": "bollo",
+      "bn": "বলল",
+      "tr": "bollo",
+      "en": "he/she said",
+      "pos": "verb"
+    },
+    {
+      "id": "bollen",
+      "bn": "বললেন",
+      "tr": "bollen",
+      "en": "you (polite) / he, she (polite) said",
+      "pos": "verb"
+    },
+    {
+      "id": "gelen",
+      "bn": "গেলেন",
+      "tr": "gelen",
+      "en": "you (polite) / he, she (polite) went",
+      "pos": "verb"
+    },
+    {
+      "id": "elo",
+      "bn": "এল",
+      "tr": "elo",
+      "en": "he/she came",
+      "pos": "verb",
+      "notes": "Also এলো; BD colloquial আসল / আসলো."
+    },
+    {
+      "id": "dilo",
+      "bn": "দিল",
+      "tr": "dilo",
+      "en": "he/she gave",
+      "pos": "verb"
+    },
+    {
+      "id": "nilo",
+      "bn": "নিল",
+      "tr": "nilo",
+      "en": "he/she took",
+      "pos": "verb"
+    },
+    {
+      "id": "khelo",
+      "bn": "খেল",
+      "tr": "khelo",
+      "en": "he/she ate",
+      "pos": "verb",
+      "notes": "Also spelled খেলো. Do not confuse with খেলা 'play'."
+    },
+    {
+      "id": "pelam",
+      "bn": "পেলাম",
+      "tr": "pelam",
+      "en": "I got",
+      "pos": "verb",
+      "alt": [
+        "I found",
+        "I received"
+      ]
+    },
+    {
+      "id": "pelo",
+      "bn": "পেল",
+      "tr": "pelo",
+      "en": "he/she got",
+      "pos": "verb"
+    },
+    {
+      "id": "parlo",
+      "bn": "পারল",
+      "tr": "parlo",
+      "en": "he/she could",
+      "pos": "verb",
+      "alt": [
+        "he/she managed"
+      ]
+    },
+    {
+      "id": "shikhlam",
+      "bn": "শিখলাম",
+      "tr": "shikhlam",
+      "en": "I learned",
+      "pos": "verb"
+    },
+    {
+      "id": "bujhlam",
+      "bn": "বুঝলাম",
+      "tr": "bujhlam",
+      "en": "I understood",
+      "pos": "verb",
+      "alt": [
+        "I see"
+      ]
+    },
+    {
+      "id": "boshlam",
+      "bn": "বসলাম",
+      "tr": "boshlam",
+      "en": "I sat",
+      "pos": "verb"
+    },
+    {
+      "id": "thake",
+      "bn": "থাকে",
+      "tr": "thake",
+      "en": "he/she stays",
+      "pos": "verb",
+      "alt": [
+        "he/she lives"
+      ]
+    },
+    {
+      "id": "thako",
+      "bn": "থাকো",
+      "tr": "thako",
+      "en": "you (familiar) stay",
+      "pos": "verb",
+      "alt": [
+        "you live"
+      ]
+    },
+    {
+      "id": "bole-says",
+      "bn": "বলে",
+      "tr": "bole",
+      "en": "he/she says",
+      "pos": "verb",
+      "notes": "Same spelling: participle 'saying' and 'because' (taught in I2/I8)."
+    },
+    {
+      "id": "bolchhi",
+      "bn": "বলছি",
+      "tr": "bolchhi",
+      "en": "I am saying",
+      "pos": "verb",
+      "alt": [
+        "I am speaking"
+      ]
+    },
+    {
+      "id": "jachchhe",
+      "bn": "যাচ্ছে",
+      "tr": "jachchhe",
+      "en": "he/she is going",
+      "pos": "verb"
+    },
+    {
+      "id": "jachchho",
+      "bn": "যাচ্ছো",
+      "tr": "jachchho",
+      "en": "you (familiar) are going",
+      "pos": "verb"
+    },
+    {
+      "id": "ashchhe",
+      "bn": "আসছে",
+      "tr": "ashchhe",
+      "en": "he/she is coming",
+      "pos": "verb"
+    },
+    {
+      "id": "ashchhi",
+      "bn": "আসছি",
+      "tr": "ashchhi",
+      "en": "I am coming",
+      "pos": "verb"
+    },
+    {
+      "id": "hochchhe",
+      "bn": "হচ্ছে",
+      "tr": "hochchhe",
+      "en": "is happening",
+      "pos": "verb",
+      "alt": [
+        "is becoming"
+      ]
+    },
+    {
+      "id": "khachchhe",
+      "bn": "খাচ্ছে",
+      "tr": "khachchhe",
+      "en": "he/she is eating",
+      "pos": "verb"
+    },
+    {
+      "id": "shikhchhi",
+      "bn": "শিখছি",
+      "tr": "shikhchhi",
+      "en": "I am learning",
+      "pos": "verb"
+    },
+    {
+      "id": "pai",
+      "bn": "পাই",
+      "tr": "pai",
+      "en": "I get",
+      "pos": "verb"
+    },
+    {
+      "id": "pay",
+      "bn": "পায়",
+      "tr": "pay",
+      "en": "he/she gets",
+      "pos": "verb"
+    },
+    {
+      "id": "pao",
+      "bn": "পাও",
+      "tr": "pao",
+      "en": "you (familiar) get",
+      "pos": "verb"
+    },
+    {
+      "id": "shikhi",
+      "bn": "শিখি",
+      "tr": "shikhi",
+      "en": "I learn",
+      "pos": "verb"
+    },
+    {
+      "id": "shekhe",
+      "bn": "শেখে",
+      "tr": "shekhe",
+      "en": "he/she learns",
+      "pos": "verb"
+    },
+    {
+      "id": "bujhi",
+      "bn": "বুঝি",
+      "tr": "bujhi",
+      "en": "I understand",
+      "pos": "verb"
+    },
+    {
+      "id": "bhalobashi",
+      "bn": "ভালোবাসি",
+      "tr": "bhalobashi",
+      "en": "I love",
+      "pos": "verb"
+    },
+    {
+      "id": "bhalobashen",
+      "bn": "ভালোবাসেন",
+      "tr": "bhalobashen",
+      "en": "you (polite) / he, she (polite) love",
+      "pos": "verb"
+    },
+    {
+      "id": "kheli",
+      "bn": "খেলি",
+      "tr": "kheli",
+      "en": "I play",
+      "pos": "verb"
+    },
+    {
+      "id": "hati-walk",
+      "bn": "হাঁটি",
+      "tr": "ha~ti",
+      "en": "I walk",
+      "pos": "verb"
+    },
+    {
+      "id": "paro",
+      "bn": "পারো",
+      "tr": "paro",
+      "en": "you (familiar) can",
+      "pos": "verb"
+    },
+    {
+      "id": "parish",
+      "bn": "পারিস",
+      "tr": "parish",
+      "en": "you (intimate) can",
+      "pos": "verb"
+    },
+    {
+      "id": "chash",
+      "bn": "চাস",
+      "tr": "chash",
+      "en": "you (intimate) want",
+      "pos": "verb"
+    },
+    {
+      "id": "chay",
+      "bn": "চায়",
+      "tr": "chay",
+      "en": "he/she wants",
+      "pos": "verb"
+    },
+    {
+      "id": "korte",
+      "bn": "করতে",
+      "tr": "korte",
+      "en": "to do",
+      "pos": "verb",
+      "notes": "Same spelling as তুমি করতে 'you used to do' (I1)."
+    },
+    {
+      "id": "jete",
+      "bn": "যেতে",
+      "tr": "jete",
+      "en": "to go",
+      "pos": "verb"
+    },
+    {
+      "id": "ashte",
+      "bn": "আসতে",
+      "tr": "ashte",
+      "en": "to come",
+      "pos": "verb"
+    },
+    {
+      "id": "dite",
+      "bn": "দিতে",
+      "tr": "dite",
+      "en": "to give",
+      "pos": "verb"
+    },
+    {
+      "id": "nite",
+      "bn": "নিতে",
+      "tr": "nite",
+      "en": "to take",
+      "pos": "verb"
+    },
+    {
+      "id": "hote",
+      "bn": "হতে",
+      "tr": "hote",
+      "en": "to be; to become",
+      "pos": "verb"
+    },
+    {
+      "id": "thakte",
+      "bn": "থাকতে",
+      "tr": "thakte",
+      "en": "to stay",
+      "pos": "verb"
+    },
+    {
+      "id": "dekhte",
+      "bn": "দেখতে",
+      "tr": "dekhte",
+      "en": "to see",
+      "pos": "verb",
+      "notes": "দেখতে + adjective = 'looks …' (দেখতে সুন্দর)."
+    },
+    {
+      "id": "shikhte",
+      "bn": "শিখতে",
+      "tr": "shikhte",
+      "en": "to learn",
+      "pos": "verb"
+    },
+    {
+      "id": "porte",
+      "bn": "পড়তে",
+      "tr": "porte",
+      "en": "to read; to study",
+      "pos": "verb"
+    },
+    {
+      "id": "kinte",
+      "bn": "কিনতে",
+      "tr": "kinte",
+      "en": "to buy",
+      "pos": "verb"
+    },
+    {
+      "id": "shunte",
+      "bn": "শুনতে",
+      "tr": "shunte",
+      "en": "to hear",
+      "pos": "verb"
+    },
+    {
+      "id": "bujhte",
+      "bn": "বুঝতে",
+      "tr": "bujhte",
+      "en": "to understand",
+      "pos": "verb"
+    },
+    {
+      "id": "uthte",
+      "bn": "উঠতে",
+      "tr": "uthte",
+      "en": "to get up",
+      "pos": "verb"
+    },
+    {
+      "id": "ghumate",
+      "bn": "ঘুমাতে",
+      "tr": "ghumate",
+      "en": "to sleep",
+      "pos": "verb",
+      "notes": "Kolkata ঘুমোতে."
+    },
+    {
+      "id": "bolo",
+      "bn": "বলো",
+      "tr": "bolo",
+      "en": "say (familiar); you say",
+      "pos": "verb"
+    },
+    {
+      "id": "dekho",
+      "bn": "দেখো",
+      "tr": "dekho",
+      "en": "look (familiar); you see",
+      "pos": "verb"
+    },
+    {
+      "id": "shono",
+      "bn": "শোনো",
+      "tr": "shono",
+      "en": "listen (familiar)",
+      "pos": "verb"
+    },
+    {
+      "id": "bosho",
+      "bn": "বসো",
+      "tr": "bosho",
+      "en": "sit (familiar)",
+      "pos": "verb"
+    },
+    {
+      "id": "esho",
+      "bn": "এসো",
+      "tr": "esho",
+      "en": "come (familiar)",
+      "pos": "verb",
+      "notes": "BD colloquial আসো (asho); accept both."
+    },
+    {
+      "id": "nao",
+      "bn": "নাও",
+      "tr": "nao",
+      "en": "take (familiar)",
+      "pos": "verb"
+    },
+    {
+      "id": "rakho",
+      "bn": "রাখো",
+      "tr": "rakho",
+      "en": "keep; put (familiar)",
+      "pos": "verb"
+    },
+    {
+      "id": "boshen",
+      "bn": "বসেন",
+      "tr": "boshen",
+      "en": "sit (polite, colloquial)",
+      "pos": "verb",
+      "notes": "Standard বসুন (I12)."
+    },
+    {
+      "id": "ashen",
+      "bn": "আসেন",
+      "tr": "ashen",
+      "en": "come (polite, colloquial)",
+      "pos": "verb",
+      "notes": "Standard আসুন (I12)."
+    },
+    {
+      "id": "dekhen",
+      "bn": "দেখেন",
+      "tr": "dekhen",
+      "en": "look (polite, colloquial)",
+      "pos": "verb",
+      "notes": "Standard দেখুন (I12)."
+    },
+    {
+      "id": "nen",
+      "bn": "নেন",
+      "tr": "nen",
+      "en": "take (polite, colloquial)",
+      "pos": "verb",
+      "notes": "Standard নিন (I5)."
+    },
+    {
+      "id": "doya-kore",
+      "bn": "দয়া করে",
+      "tr": "doya kore",
+      "en": "please",
+      "pos": "phrase"
+    },
+    {
+      "id": "tomake",
+      "bn": "তোমাকে",
+      "tr": "tomake",
+      "en": "you (familiar, object)",
+      "pos": "pronoun"
+    },
+    {
+      "id": "toke",
+      "bn": "তোকে",
+      "tr": "toke",
+      "en": "you (intimate, object)",
+      "pos": "pronoun"
+    },
+    {
+      "id": "oke",
+      "bn": "ওকে",
+      "tr": "oke",
+      "en": "him/her (spoken)",
+      "pos": "pronoun"
+    },
+    {
+      "id": "onake",
+      "bn": "ওনাকে",
+      "tr": "onake",
+      "en": "him/her (polite)",
+      "pos": "pronoun"
+    },
+    {
+      "id": "tader",
+      "bn": "তাদের",
+      "tr": "tader",
+      "en": "their; them",
+      "pos": "pronoun"
+    },
+    {
+      "id": "oder",
+      "bn": "ওদের",
+      "tr": "oder",
+      "en": "their; them (spoken)",
+      "pos": "pronoun"
+    },
+    {
+      "id": "apnader",
+      "bn": "আপনাদের",
+      "tr": "apnader",
+      "en": "your (polite, plural)",
+      "pos": "pronoun"
+    },
+    {
+      "id": "nije",
+      "bn": "নিজে",
+      "tr": "nije",
+      "en": "oneself",
+      "pos": "pronoun",
+      "alt": [
+        "myself",
+        "yourself",
+        "himself",
+        "herself"
+      ]
+    },
+    {
+      "id": "nijer",
+      "bn": "নিজের",
+      "tr": "nijer",
+      "en": "one's own",
+      "pos": "pronoun",
+      "alt": [
+        "my own",
+        "your own"
+      ]
+    },
+    {
+      "id": "kar",
+      "bn": "কার",
+      "tr": "kar",
+      "en": "whose",
+      "pos": "pronoun"
+    },
+    {
+      "id": "kake",
+      "bn": "কাকে",
+      "tr": "kake",
+      "en": "whom",
+      "pos": "pronoun"
+    },
+    {
+      "id": "konta",
+      "bn": "কোনটা",
+      "tr": "konta",
+      "en": "which one",
+      "pos": "pronoun"
+    },
+    {
+      "id": "kibhabe",
+      "bn": "কীভাবে",
+      "tr": "kibhabe",
+      "en": "how (in what way)",
+      "pos": "adv"
+    },
+    {
+      "id": "kobe",
+      "bn": "কবে",
+      "tr": "kobe",
+      "en": "when (on what day)",
+      "pos": "adv"
+    },
+    {
+      "id": "kotokkhon",
+      "bn": "কতক্ষণ",
+      "tr": "kotokkhon",
+      "en": "how long",
+      "pos": "adv"
+    },
+    {
+      "id": "kothao",
+      "bn": "কোথাও",
+      "tr": "kothao",
+      "en": "somewhere; anywhere",
+      "pos": "adv"
+    },
+    {
+      "id": "ebong",
+      "bn": "এবং",
+      "tr": "ebong",
+      "en": "and",
+      "pos": "particle",
+      "notes": "Written/neutral; আর is the everyday 'and'."
+    },
+    {
+      "id": "ba",
+      "bn": "বা",
+      "tr": "ba",
+      "en": "or",
+      "pos": "particle"
+    },
+    {
+      "id": "othoba",
+      "bn": "অথবা",
+      "tr": "othoba",
+      "en": "or (formal)",
+      "pos": "particle"
+    },
+    {
+      "id": "tobe",
+      "bn": "তবে",
+      "tr": "tobe",
+      "en": "but; however",
+      "pos": "particle"
+    },
+    {
+      "id": "tachhara",
+      "bn": "তাছাড়া",
+      "tr": "tachhara",
+      "en": "besides",
+      "pos": "particle"
+    },
+    {
+      "id": "shejonno",
+      "bn": "সেজন্য",
+      "tr": "shejonno",
+      "en": "for that reason",
+      "pos": "particle"
+    },
+    {
+      "id": "abar",
+      "bn": "আবার",
+      "tr": "abar",
+      "en": "again",
+      "pos": "adv"
+    },
+    {
+      "id": "ekhoni",
+      "bn": "এখনই",
+      "tr": "ekhoni",
+      "en": "right now",
+      "pos": "adv"
+    },
+    {
+      "id": "ajke",
+      "bn": "আজকে",
+      "tr": "ajke",
+      "en": "today",
+      "pos": "adv"
+    },
+    {
+      "id": "agamikal",
+      "bn": "আগামীকাল",
+      "tr": "agamikal",
+      "en": "tomorrow",
+      "pos": "adv"
+    },
+    {
+      "id": "agami",
+      "bn": "আগামী",
+      "tr": "agami",
+      "en": "next (coming)",
+      "pos": "adj"
+    },
+    {
+      "id": "goto",
+      "bn": "গত",
+      "tr": "goto",
+      "en": "last (past)",
+      "pos": "adj"
+    },
+    {
+      "id": "shamner",
+      "bn": "সামনের",
+      "tr": "shamner",
+      "en": "next (coming)",
+      "pos": "adj",
+      "notes": "সামনের সপ্তাহে 'next week' (spoken)."
+    },
+    {
+      "id": "porer",
+      "bn": "পরের",
+      "tr": "porer",
+      "en": "next; following",
+      "pos": "adj"
+    },
+    {
+      "id": "roj",
+      "bn": "রোজ",
+      "tr": "roj",
+      "en": "every day",
+      "pos": "adv"
+    },
+    {
+      "id": "shoptaho",
+      "bn": "সপ্তাহ",
+      "tr": "shoptaho",
+      "en": "week",
+      "pos": "noun"
+    },
+    {
+      "id": "deri",
+      "bn": "দেরি",
+      "tr": "deri",
+      "en": "delay; lateness",
+      "pos": "noun",
+      "alt": [
+        "late"
+      ]
+    },
+    {
+      "id": "taratari",
+      "bn": "তাড়াতাড়ি",
+      "tr": "taratari",
+      "en": "quickly; early",
+      "pos": "adv"
+    },
+    {
+      "id": "aste",
+      "bn": "আস্তে",
+      "tr": "aste",
+      "en": "slowly; softly",
+      "pos": "adv"
+    },
+    {
+      "id": "kichhukkhon",
+      "bn": "কিছুক্ষণ",
+      "tr": "kichhukkhon",
+      "en": "a little while",
+      "pos": "adv"
+    },
+    {
+      "id": "koyek",
+      "bn": "কয়েক",
+      "tr": "koyek",
+      "en": "a few",
+      "pos": "adj"
+    },
+    {
+      "id": "koyekta",
+      "bn": "কয়েকটা",
+      "tr": "koyekta",
+      "en": "a few (things)",
+      "pos": "number"
+    },
+    {
+      "id": "besh",
+      "bn": "বেশ",
+      "tr": "besh",
+      "en": "quite",
+      "pos": "adv"
+    },
+    {
+      "id": "pray",
+      "bn": "প্রায়",
+      "tr": "pray",
+      "en": "almost; about",
+      "pos": "adv"
+    },
+    {
+      "id": "lomba",
+      "bn": "লম্বা",
+      "tr": "lomba",
+      "en": "tall; long",
+      "pos": "adj"
+    },
+    {
+      "id": "mota",
+      "bn": "মোটা",
+      "tr": "mota",
+      "en": "fat; thick",
+      "pos": "adj"
+    },
+    {
+      "id": "patla",
+      "bn": "পাতলা",
+      "tr": "patla",
+      "en": "thin",
+      "pos": "adj"
+    },
+    {
+      "id": "shohoj",
+      "bn": "সহজ",
+      "tr": "shohoj",
+      "en": "easy",
+      "pos": "adj"
+    },
+    {
+      "id": "purono",
+      "bn": "পুরনো",
+      "tr": "purono",
+      "en": "old (of things)",
+      "pos": "adj",
+      "notes": "Also spelled পুরোনো."
+    },
+    {
+      "id": "porishkar",
+      "bn": "পরিষ্কার",
+      "tr": "porishkar",
+      "en": "clean; clear",
+      "pos": "adj"
+    },
+    {
+      "id": "nongra",
+      "bn": "নোংরা",
+      "tr": "nongra",
+      "en": "dirty",
+      "pos": "adj"
+    },
+    {
+      "id": "byasto",
+      "bn": "ব্যস্ত",
+      "tr": "byasto",
+      "en": "busy",
+      "pos": "adj"
+    },
+    {
+      "id": "khali",
+      "bn": "খালি",
+      "tr": "khali",
+      "en": "empty; free",
+      "pos": "adj"
+    },
+    {
+      "id": "joruri",
+      "bn": "জরুরি",
+      "tr": "joruri",
+      "en": "urgent",
+      "pos": "adj"
+    },
+    {
+      "id": "thik",
+      "bn": "ঠিক",
+      "tr": "thik",
+      "en": "right; correct; exactly",
+      "pos": "adj"
+    },
+    {
+      "id": "klanto",
+      "bn": "ক্লান্ত",
+      "tr": "klanto",
+      "en": "tired",
+      "pos": "adj"
+    },
+    {
+      "id": "khushi",
+      "bn": "খুশি",
+      "tr": "khushi",
+      "en": "happy",
+      "pos": "adj"
+    },
+    {
+      "id": "oshustho",
+      "bn": "অসুস্থ",
+      "tr": "oshustho",
+      "en": "ill",
+      "pos": "adj",
+      "alt": [
+        "sick",
+        "unwell"
+      ]
+    },
+    {
+      "id": "gorom",
+      "bn": "গরম",
+      "tr": "gorom",
+      "en": "hot; heat",
+      "pos": "adj"
+    },
+    {
+      "id": "thanda",
+      "bn": "ঠান্ডা",
+      "tr": "thanda",
+      "en": "cold; a cold",
+      "pos": "adj"
+    },
+    {
+      "id": "bhari",
+      "bn": "ভারী",
+      "tr": "bhari",
+      "en": "heavy",
+      "pos": "adj"
+    },
+    {
+      "id": "halka",
+      "bn": "হালকা",
+      "tr": "halka",
+      "en": "light (not heavy)",
+      "pos": "adj"
+    },
+    {
+      "id": "nil",
+      "bn": "নীল",
+      "tr": "nil",
+      "en": "blue",
+      "pos": "adj"
+    },
+    {
+      "id": "shobuj",
+      "bn": "সবুজ",
+      "tr": "shobuj",
+      "en": "green",
+      "pos": "adj"
+    },
+    {
+      "id": "holud",
+      "bn": "হলুদ",
+      "tr": "holud",
+      "en": "yellow; turmeric",
+      "pos": "adj"
+    },
+    {
+      "id": "kalo",
+      "bn": "কালো",
+      "tr": "kalo",
+      "en": "black",
+      "pos": "adj"
+    },
+    {
+      "id": "shada",
+      "bn": "সাদা",
+      "tr": "shada",
+      "en": "white",
+      "pos": "adj"
+    },
+    {
+      "id": "rong",
+      "bn": "রং",
+      "tr": "rong",
+      "en": "colour",
+      "pos": "noun"
+    },
+    {
+      "id": "cheye",
+      "bn": "চেয়ে",
+      "tr": "cheye",
+      "en": "than",
+      "pos": "postposition",
+      "notes": "X-এর চেয়ে 'than X'."
+    },
+    {
+      "id": "rag",
+      "bn": "রাগ",
+      "tr": "rag",
+      "en": "anger",
+      "pos": "noun"
+    },
+    {
+      "id": "bhoy",
+      "bn": "ভয়",
+      "tr": "bhoy",
+      "en": "fear",
+      "pos": "noun"
+    },
+    {
+      "id": "chinta",
+      "bn": "চিন্তা",
+      "tr": "chinta",
+      "en": "worry; thought",
+      "pos": "noun"
+    },
+    {
+      "id": "mon",
+      "bn": "মন",
+      "tr": "mon",
+      "en": "mind; heart",
+      "pos": "noun"
+    },
+    {
+      "id": "shorir",
+      "bn": "শরীর",
+      "tr": "shorir",
+      "en": "body; health",
+      "pos": "noun"
+    },
+    {
+      "id": "matha",
+      "bn": "মাথা",
+      "tr": "matha",
+      "en": "head",
+      "pos": "noun"
+    },
+    {
+      "id": "pet",
+      "bn": "পেট",
+      "tr": "pet",
+      "en": "stomach",
+      "pos": "noun"
+    },
+    {
+      "id": "pa",
+      "bn": "পা",
+      "tr": "pa",
+      "en": "foot; leg",
+      "pos": "noun"
+    },
+    {
+      "id": "kan",
+      "bn": "কান",
+      "tr": "kan",
+      "en": "ear",
+      "pos": "noun"
+    },
+    {
+      "id": "mukh",
+      "bn": "মুখ",
+      "tr": "mukh",
+      "en": "face; mouth",
+      "pos": "noun"
+    },
+    {
+      "id": "jor",
+      "bn": "জ্বর",
+      "tr": "jor",
+      "en": "fever",
+      "pos": "noun"
+    },
+    {
+      "id": "byatha",
+      "bn": "ব্যথা",
+      "tr": "byatha",
+      "en": "pain",
+      "pos": "noun"
+    },
+    {
+      "id": "oshukh",
+      "bn": "অসুখ",
+      "tr": "oshukh",
+      "en": "illness",
+      "pos": "noun"
+    },
+    {
+      "id": "abohawa",
+      "bn": "আবহাওয়া",
+      "tr": "abohawa",
+      "en": "weather",
+      "pos": "noun"
+    },
+    {
+      "id": "brishti",
+      "bn": "বৃষ্টি",
+      "tr": "brishti",
+      "en": "rain",
+      "pos": "noun"
+    },
+    {
+      "id": "rod",
+      "bn": "রোদ",
+      "tr": "rod",
+      "en": "sunshine",
+      "pos": "noun"
+    },
+    {
+      "id": "shit",
+      "bn": "শীত",
+      "tr": "shit",
+      "en": "cold (weather); winter",
+      "pos": "noun"
+    },
+    {
+      "id": "batash",
+      "bn": "বাতাস",
+      "tr": "batash",
+      "en": "wind; air",
+      "pos": "noun"
+    },
+    {
+      "id": "megh",
+      "bn": "মেঘ",
+      "tr": "megh",
+      "en": "cloud",
+      "pos": "noun"
+    },
+    {
+      "id": "borsha",
+      "bn": "বর্ষা",
+      "tr": "borsha",
+      "en": "monsoon",
+      "pos": "noun",
+      "alt": [
+        "rainy season"
+      ]
+    },
+    {
+      "id": "rannaghor",
+      "bn": "রান্নাঘর",
+      "tr": "rannaghor",
+      "en": "kitchen",
+      "pos": "noun"
+    },
+    {
+      "id": "dorja",
+      "bn": "দরজা",
+      "tr": "dorja",
+      "en": "door",
+      "pos": "noun"
+    },
+    {
+      "id": "janala",
+      "bn": "জানালা",
+      "tr": "janala",
+      "en": "window",
+      "pos": "noun",
+      "notes": "Kolkata জানলা."
+    },
+    {
+      "id": "tebil",
+      "bn": "টেবিল",
+      "tr": "tebil",
+      "en": "table",
+      "pos": "noun"
+    },
+    {
+      "id": "cheyar",
+      "bn": "চেয়ার",
+      "tr": "cheyar",
+      "en": "chair",
+      "pos": "noun"
+    },
+    {
+      "id": "bichhana",
+      "bn": "বিছানা",
+      "tr": "bichhana",
+      "en": "bed",
+      "pos": "noun"
+    },
+    {
+      "id": "chabi",
+      "bn": "চাবি",
+      "tr": "chabi",
+      "en": "key",
+      "pos": "noun"
+    },
+    {
+      "id": "chhad",
+      "bn": "ছাদ",
+      "tr": "chhad",
+      "en": "roof",
+      "pos": "noun"
+    },
+    {
+      "id": "bathrum",
+      "bn": "বাথরুম",
+      "tr": "bathrum",
+      "en": "bathroom",
+      "pos": "noun"
+    },
+    {
+      "id": "moddhe",
+      "bn": "মধ্যে",
+      "tr": "moddhe",
+      "en": "in; within; among",
+      "pos": "postposition"
+    },
+    {
+      "id": "chakri",
+      "bn": "চাকরি",
+      "tr": "chakri",
+      "en": "job",
+      "pos": "noun"
+    },
+    {
+      "id": "porashona",
+      "bn": "পড়াশোনা",
+      "tr": "porashona",
+      "en": "studies",
+      "pos": "noun"
+    },
+    {
+      "id": "klas",
+      "bn": "ক্লাস",
+      "tr": "klas",
+      "en": "class",
+      "pos": "noun"
+    },
+    {
+      "id": "porikkha",
+      "bn": "পরীক্ষা",
+      "tr": "porikkha",
+      "en": "exam; test",
+      "pos": "noun"
+    },
+    {
+      "id": "bishshobiddaloy",
+      "bn": "বিশ্ববিদ্যালয়",
+      "tr": "bishshobiddaloy",
+      "en": "university",
+      "pos": "noun"
+    },
+    {
+      "id": "kolej",
+      "bn": "কলেজ",
+      "tr": "kolej",
+      "en": "college",
+      "pos": "noun"
+    },
+    {
+      "id": "byabsha",
+      "bn": "ব্যবসা",
+      "tr": "byabsha",
+      "en": "business",
+      "pos": "noun"
+    },
+    {
+      "id": "miting",
+      "bn": "মিটিং",
+      "tr": "miting",
+      "en": "meeting",
+      "pos": "noun"
+    },
+    {
+      "id": "mohila",
+      "bn": "মহিলা",
+      "tr": "mohila",
+      "en": "woman",
+      "pos": "noun"
+    },
+    {
+      "id": "chhelemeye",
+      "bn": "ছেলেমেয়ে",
+      "tr": "chhelemeye",
+      "en": "children",
+      "pos": "noun",
+      "alt": [
+        "boys and girls",
+        "sons and daughters"
+      ]
+    },
+    {
+      "id": "protibeshi",
+      "bn": "প্রতিবেশী",
+      "tr": "protibeshi",
+      "en": "neighbour",
+      "pos": "noun"
+    },
+    {
+      "id": "biye",
+      "bn": "বিয়ে",
+      "tr": "biye",
+      "en": "wedding; marriage",
+      "pos": "noun"
+    },
+    {
+      "id": "mesej",
+      "bn": "মেসেজ",
+      "tr": "mesej",
+      "en": "message",
+      "pos": "noun"
+    }
+  ]
+}

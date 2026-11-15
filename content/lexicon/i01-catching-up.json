@@ -1,0 +1,758 @@
+{
+  "unit": "i01-catching-up",
+  "entries": [
+    {
+      "id": "chhotobela",
+      "bn": "ছোটবেলা",
+      "tr": "chhotobela",
+      "en": "childhood",
+      "pos": "noun",
+      "lesson": "i01-l01",
+      "notes": "Also spelled ছোটোবেলা."
+    },
+    {
+      "id": "chhotobelay",
+      "bn": "ছোটবেলায়",
+      "tr": "chhotobelay",
+      "en": "in childhood",
+      "alt": [
+        "as a child",
+        "when I was small"
+      ],
+      "pos": "adv",
+      "lesson": "i01-l01"
+    },
+    {
+      "id": "thaktam",
+      "bn": "থাকতাম",
+      "tr": "thaktam",
+      "en": "I used to live",
+      "alt": [
+        "I used to stay",
+        "I lived"
+      ],
+      "pos": "verb",
+      "lesson": "i01-l01",
+      "notes": "আমি / আমরা form. Negative: থাকতাম না."
+    },
+    {
+      "id": "jetam",
+      "bn": "যেতাম",
+      "tr": "jetam",
+      "en": "I used to go",
+      "pos": "verb",
+      "lesson": "i01-l01",
+      "notes": "যাওয়া changes its stem in the habitual: যেতাম, যেত."
+    },
+    {
+      "id": "kheltam",
+      "bn": "খেলতাম",
+      "tr": "kheltam",
+      "en": "I used to play",
+      "pos": "verb",
+      "lesson": "i01-l01"
+    },
+    {
+      "id": "kortam",
+      "bn": "করতাম",
+      "tr": "kortam",
+      "en": "I used to do",
+      "pos": "verb",
+      "lesson": "i01-l01",
+      "notes": "Older Kolkata writing also has করতুম."
+    },
+    {
+      "id": "portam",
+      "bn": "পড়তাম",
+      "tr": "portam",
+      "en": "I used to study",
+      "alt": [
+        "I used to read"
+      ],
+      "pos": "verb",
+      "lesson": "i01-l01"
+    },
+    {
+      "id": "khela",
+      "bn": "খেলা",
+      "tr": "khela",
+      "en": "game; playing",
+      "alt": [
+        "game",
+        "playing",
+        "sport"
+      ],
+      "pos": "noun",
+      "lesson": "i01-l01",
+      "notes": "Don't confuse with খেল 'he/she ate'."
+    },
+    {
+      "id": "math",
+      "bn": "মাঠ",
+      "tr": "math",
+      "en": "field; playground",
+      "alt": [
+        "field",
+        "playground"
+      ],
+      "pos": "noun",
+      "lesson": "i01-l01"
+    },
+    {
+      "id": "mathe",
+      "bn": "মাঠে",
+      "tr": "mathe",
+      "en": "in the field",
+      "alt": [
+        "on the field",
+        "on the playground"
+      ],
+      "pos": "noun",
+      "lesson": "i01-l01"
+    },
+    {
+      "id": "pukur",
+      "bn": "পুকুর",
+      "tr": "pukur",
+      "en": "pond",
+      "pos": "noun",
+      "lesson": "i01-l01"
+    },
+    {
+      "id": "boro-hoyechhi",
+      "bn": "বড় হয়েছি",
+      "tr": "boro hoyechhi",
+      "en": "I grew up",
+      "pos": "phrase",
+      "lesson": "i01-l01",
+      "notes": "Uses the present perfect: literally 'I have become big'."
+    },
+    {
+      "id": "korti",
+      "bn": "করতি",
+      "tr": "korti",
+      "en": "you used to do (intimate)",
+      "pos": "verb",
+      "lesson": "i01-l02",
+      "register": "intimate"
+    },
+    {
+      "id": "korte-hab",
+      "bn": "করতে",
+      "tr": "korte",
+      "en": "you used to do (familiar)",
+      "pos": "verb",
+      "lesson": "i01-l02",
+      "register": "familiar",
+      "notes": "Same spelling as the infinitive করতে 'to do'; the subject decides: তুমি কী করতে? 'What did you use to do?'"
+    },
+    {
+      "id": "korten",
+      "bn": "করতেন",
+      "tr": "korten",
+      "en": "you / he, she (polite) used to do",
+      "alt": [
+        "you used to do (polite)",
+        "he/she used to do (polite)"
+      ],
+      "pos": "verb",
+      "lesson": "i01-l02",
+      "register": "polite"
+    },
+    {
+      "id": "korto",
+      "bn": "করত",
+      "tr": "korto",
+      "en": "he/she used to do",
+      "pos": "verb",
+      "lesson": "i01-l02",
+      "notes": "Also spelled করতো."
+    },
+    {
+      "id": "thakto",
+      "bn": "থাকত",
+      "tr": "thakto",
+      "en": "he/she used to live",
+      "alt": [
+        "he/she used to stay"
+      ],
+      "pos": "verb",
+      "lesson": "i01-l02",
+      "notes": "Also spelled থাকতো."
+    },
+    {
+      "id": "thakten",
+      "bn": "থাকতেন",
+      "tr": "thakten",
+      "en": "you / he, she (polite) used to live",
+      "pos": "verb",
+      "lesson": "i01-l02",
+      "register": "polite"
+    },
+    {
+      "id": "jeto",
+      "bn": "যেত",
+      "tr": "jeto",
+      "en": "he/she used to go",
+      "pos": "verb",
+      "lesson": "i01-l02",
+      "notes": "Also spelled যেতো."
+    },
+    {
+      "id": "bolten",
+      "bn": "বলতেন",
+      "tr": "bolten",
+      "en": "you / he, she (polite) used to tell",
+      "alt": [
+        "used to say (polite)"
+      ],
+      "pos": "verb",
+      "lesson": "i01-l02",
+      "register": "polite"
+    },
+    {
+      "id": "ashto",
+      "bn": "আসত",
+      "tr": "ashto",
+      "en": "he/she used to come",
+      "pos": "verb",
+      "lesson": "i01-l02",
+      "notes": "Also spelled আসতো."
+    },
+    {
+      "id": "proti",
+      "bn": "প্রতি",
+      "tr": "proti",
+      "en": "every",
+      "pos": "adj",
+      "lesson": "i01-l02",
+      "notes": "প্রতি + time word: প্রতি রাতে 'every night', প্রতি শুক্রবার 'every Friday'."
+    },
+    {
+      "id": "golpo",
+      "bn": "গল্প",
+      "tr": "golpo",
+      "en": "story",
+      "alt": [
+        "tale"
+      ],
+      "pos": "noun",
+      "lesson": "i01-l02"
+    },
+    {
+      "id": "sharadin",
+      "bn": "সারাদিন",
+      "tr": "sharadin",
+      "en": "all day",
+      "pos": "adv",
+      "lesson": "i01-l03",
+      "notes": "Also written সারা দিন."
+    },
+    {
+      "id": "shitkale",
+      "bn": "শীতকালে",
+      "tr": "shitkale",
+      "en": "in winter",
+      "pos": "adv",
+      "lesson": "i01-l03"
+    },
+    {
+      "id": "goromkale",
+      "bn": "গরমকালে",
+      "tr": "goromkale",
+      "en": "in summer",
+      "pos": "adv",
+      "lesson": "i01-l03"
+    },
+    {
+      "id": "borshakale",
+      "bn": "বর্ষাকালে",
+      "tr": "borshakale",
+      "en": "in the rainy season",
+      "alt": [
+        "in the monsoon"
+      ],
+      "pos": "adv",
+      "lesson": "i01-l03"
+    },
+    {
+      "id": "chhutite",
+      "bn": "ছুটিতে",
+      "tr": "chhutite",
+      "en": "in the holidays",
+      "alt": [
+        "on holiday",
+        "during the holidays"
+      ],
+      "pos": "adv",
+      "lesson": "i01-l03"
+    },
+    {
+      "id": "prayi",
+      "bn": "প্রায়ই",
+      "tr": "prayi",
+      "en": "often",
+      "pos": "adv",
+      "lesson": "i01-l03"
+    },
+    {
+      "id": "ekshathe",
+      "bn": "একসাথে",
+      "tr": "ekshathe",
+      "en": "together",
+      "pos": "adv",
+      "lesson": "i01-l03",
+      "kolkata": {
+        "bn": "একসঙ্গে",
+        "tr": "ekshongge"
+      }
+    },
+    {
+      "id": "shatar",
+      "bn": "সাঁতার",
+      "tr": "sha~tar",
+      "en": "swimming",
+      "pos": "noun",
+      "lesson": "i01-l03"
+    },
+    {
+      "id": "shatar-katam",
+      "bn": "সাঁতার কাটতাম",
+      "tr": "sha~tar kattam",
+      "en": "I used to swim",
+      "pos": "phrase",
+      "lesson": "i01-l03",
+      "notes": "সাঁতার কাটা 'to swim' is a noun + verb; the ending goes on the verb."
+    },
+    {
+      "id": "ghuri",
+      "bn": "ঘুড়ি",
+      "tr": "ghuri",
+      "en": "kite",
+      "pos": "noun",
+      "lesson": "i01-l03"
+    },
+    {
+      "id": "ghuri-oratam",
+      "bn": "ঘুড়ি ওড়াতাম",
+      "tr": "ghuri oratam",
+      "en": "I used to fly kites",
+      "alt": [
+        "I used to fly a kite"
+      ],
+      "pos": "phrase",
+      "lesson": "i01-l03"
+    },
+    {
+      "id": "lukochuri",
+      "bn": "লুকোচুরি",
+      "tr": "lukochuri",
+      "en": "hide-and-seek",
+      "pos": "noun",
+      "lesson": "i01-l03",
+      "notes": "লুকোচুরি খেলা 'to play hide-and-seek'."
+    },
+    {
+      "id": "khetam",
+      "bn": "খেতাম",
+      "tr": "khetam",
+      "en": "I used to eat",
+      "alt": [
+        "I used to drink",
+        "I used to have"
+      ],
+      "pos": "verb",
+      "lesson": "i01-l04",
+      "notes": "খাওয়া covers eating and drinking: দুধ খেতাম 'I used to drink milk'."
+    },
+    {
+      "id": "dekhtam",
+      "bn": "দেখতাম",
+      "tr": "dekhtam",
+      "en": "I used to watch",
+      "alt": [
+        "I used to see"
+      ],
+      "pos": "verb",
+      "lesson": "i01-l04"
+    },
+    {
+      "id": "shuntam",
+      "bn": "শুনতাম",
+      "tr": "shuntam",
+      "en": "I used to listen",
+      "alt": [
+        "I used to hear"
+      ],
+      "pos": "verb",
+      "lesson": "i01-l04"
+    },
+    {
+      "id": "bhalobashtam",
+      "bn": "ভালোবাসতাম",
+      "tr": "bhalobashtam",
+      "en": "I used to love",
+      "alt": [
+        "I loved"
+      ],
+      "pos": "verb",
+      "lesson": "i01-l04",
+      "notes": "Also spelled ভালবাসতাম."
+    },
+    {
+      "id": "lagto",
+      "bn": "লাগত",
+      "tr": "lagto",
+      "en": "used to feel",
+      "alt": [
+        "used to seem"
+      ],
+      "pos": "verb",
+      "lesson": "i01-l04",
+      "notes": "আমার ভালো লাগত 'I used to like it'. Also spelled লাগতো."
+    },
+    {
+      "id": "ekhon-ar",
+      "bn": "এখন আর",
+      "tr": "ekhon ar",
+      "en": "(not) any more",
+      "pos": "phrase",
+      "lesson": "i01-l04",
+      "notes": "With a negative verb: এখন আর খেলি না 'I don't play any more'."
+    },
+    {
+      "id": "dushtu",
+      "bn": "দুষ্টু",
+      "tr": "dushtu",
+      "en": "naughty",
+      "pos": "adj",
+      "lesson": "i01-l04"
+    },
+    {
+      "id": "bhaibon",
+      "bn": "ভাইবোন",
+      "tr": "bhaibon",
+      "en": "siblings",
+      "alt": [
+        "brothers and sisters"
+      ],
+      "pos": "noun",
+      "lesson": "i01-l04"
+    },
+    {
+      "id": "kriket",
+      "bn": "ক্রিকেট",
+      "tr": "kriket",
+      "en": "cricket",
+      "pos": "noun",
+      "lesson": "i01-l04"
+    },
+    {
+      "id": "futbol",
+      "bn": "ফুটবল",
+      "tr": "futbol",
+      "en": "football",
+      "alt": [
+        "soccer"
+      ],
+      "pos": "noun",
+      "lesson": "i01-l04"
+    },
+    {
+      "id": "pukure",
+      "bn": "পুকুরে",
+      "tr": "pukure",
+      "en": "in the pond",
+      "alt": [
+        "in a pond"
+      ],
+      "pos": "noun",
+      "lesson": "i01-l04"
+    },
+    {
+      "id": "korchhilam",
+      "bn": "করছিলাম",
+      "tr": "korchhilam",
+      "en": "I was doing",
+      "pos": "verb",
+      "lesson": "i01-l05"
+    },
+    {
+      "id": "korchhile",
+      "bn": "করছিলে",
+      "tr": "korchhile",
+      "en": "you (familiar) were doing",
+      "pos": "verb",
+      "lesson": "i01-l05",
+      "register": "familiar"
+    },
+    {
+      "id": "korchhilen",
+      "bn": "করছিলেন",
+      "tr": "korchhilen",
+      "en": "you / he, she (polite) were doing",
+      "pos": "verb",
+      "lesson": "i01-l05",
+      "register": "polite"
+    },
+    {
+      "id": "korchhilo",
+      "bn": "করছিল",
+      "tr": "korchhilo",
+      "en": "he/she was doing",
+      "pos": "verb",
+      "lesson": "i01-l05",
+      "notes": "Also spelled করছিলো."
+    },
+    {
+      "id": "jachchhilam",
+      "bn": "যাচ্ছিলাম",
+      "tr": "jachchhilam",
+      "en": "I was going",
+      "pos": "verb",
+      "lesson": "i01-l05"
+    },
+    {
+      "id": "khachchhilam",
+      "bn": "খাচ্ছিলাম",
+      "tr": "khachchhilam",
+      "en": "I was eating",
+      "pos": "verb",
+      "lesson": "i01-l05"
+    },
+    {
+      "id": "porchhilam",
+      "bn": "পড়ছিলাম",
+      "tr": "porchhilam",
+      "en": "I was reading",
+      "alt": [
+        "I was studying"
+      ],
+      "pos": "verb",
+      "lesson": "i01-l05"
+    },
+    {
+      "id": "dekhchhilam",
+      "bn": "দেখছিলাম",
+      "tr": "dekhchhilam",
+      "en": "I was watching",
+      "alt": [
+        "I was looking"
+      ],
+      "pos": "verb",
+      "lesson": "i01-l05"
+    },
+    {
+      "id": "ghumachchhilam",
+      "bn": "ঘুমাচ্ছিলাম",
+      "tr": "ghumachchhilam",
+      "en": "I was sleeping",
+      "alt": [
+        "I was asleep"
+      ],
+      "pos": "verb",
+      "lesson": "i01-l05",
+      "kolkata": {
+        "bn": "ঘুমোচ্ছিলাম",
+        "tr": "ghumochchhilam"
+      }
+    },
+    {
+      "id": "hochchhilo",
+      "bn": "হচ্ছিল",
+      "tr": "hochchhilo",
+      "en": "was happening",
+      "pos": "verb",
+      "lesson": "i01-l05",
+      "notes": "বৃষ্টি হচ্ছিল 'it was raining'. Also spelled হচ্ছিলো."
+    },
+    {
+      "id": "ashchhilo",
+      "bn": "আসছিল",
+      "tr": "ashchhilo",
+      "en": "was coming",
+      "pos": "verb",
+      "lesson": "i01-l05",
+      "notes": "Also spelled আসছিলো."
+    },
+    {
+      "id": "karent",
+      "bn": "কারেন্ট",
+      "tr": "karent",
+      "en": "electricity (power)",
+      "alt": [
+        "power",
+        "electricity"
+      ],
+      "pos": "noun",
+      "lesson": "i01-l06",
+      "notes": "The everyday word for the power supply: কারেন্ট চলে গেল 'the power went off'."
+    },
+    {
+      "id": "chole-gelo",
+      "bn": "চলে গেল",
+      "tr": "chole gelo",
+      "en": "went (off); left",
+      "pos": "phrase",
+      "lesson": "i01-l06",
+      "notes": "Compound verb, learned as a chunk for now. Also spelled চলে গেলো."
+    },
+    {
+      "id": "bajchhilo",
+      "bn": "বাজছিল",
+      "tr": "bajchhilo",
+      "en": "was ringing",
+      "pos": "verb",
+      "lesson": "i01-l06"
+    },
+    {
+      "id": "fonta",
+      "bn": "ফোনটা",
+      "tr": "fonta",
+      "en": "the phone",
+      "pos": "noun",
+      "lesson": "i01-l06"
+    },
+    {
+      "id": "dorjay",
+      "bn": "দরজায়",
+      "tr": "dorjay",
+      "en": "at the door",
+      "pos": "noun",
+      "lesson": "i01-l06"
+    },
+    {
+      "id": "dakchhilo",
+      "bn": "ডাকছিল",
+      "tr": "dakchhilo",
+      "en": "was calling",
+      "pos": "verb",
+      "lesson": "i01-l06",
+      "notes": "ডাকা 'to call (someone)'."
+    },
+    {
+      "id": "mombati",
+      "bn": "মোমবাতি",
+      "tr": "mombati",
+      "en": "candle",
+      "pos": "noun",
+      "lesson": "i01-l06"
+    },
+    {
+      "id": "thik-tokhon",
+      "bn": "ঠিক তখন",
+      "tr": "thik tokhon",
+      "en": "just then",
+      "pos": "phrase",
+      "lesson": "i01-l06"
+    },
+    {
+      "id": "golpo-korchhilam",
+      "bn": "গল্প করছিলাম",
+      "tr": "golpo korchhilam",
+      "en": "I was chatting",
+      "alt": [
+        "we were chatting"
+      ],
+      "pos": "phrase",
+      "lesson": "i01-l06",
+      "notes": "গল্প করা 'to chat' (literally 'to do stories')."
+    },
+    {
+      "id": "sriti",
+      "bn": "স্মৃতি",
+      "tr": "sriti",
+      "en": "memory",
+      "alt": [
+        "memories"
+      ],
+      "pos": "noun",
+      "lesson": "i01-l07",
+      "notes": "স্মৃ is said 'sri': the ম is silent."
+    },
+    {
+      "id": "mone-pore",
+      "bn": "মনে পড়ে",
+      "tr": "mone pore",
+      "en": "I remember (it comes to mind)",
+      "pos": "phrase",
+      "lesson": "i01-l07",
+      "notes": "Takes the -র form: আমার মনে পড়ে."
+    },
+    {
+      "id": "gramer",
+      "bn": "গ্রামের",
+      "tr": "gramer",
+      "en": "of the village",
+      "pos": "noun",
+      "lesson": "i01-l07"
+    },
+    {
+      "id": "tokhonkar",
+      "bn": "তখনকার",
+      "tr": "tokhonkar",
+      "en": "of that time",
+      "alt": [
+        "of those days"
+      ],
+      "pos": "adj",
+      "lesson": "i01-l07"
+    },
+    {
+      "id": "ekhonkar",
+      "bn": "এখনকার",
+      "tr": "ekhonkar",
+      "en": "of today",
+      "alt": [
+        "present-day"
+      ],
+      "pos": "adj",
+      "lesson": "i01-l07"
+    },
+    {
+      "id": "ager",
+      "bn": "আগের",
+      "tr": "ager",
+      "en": "former; earlier",
+      "alt": [
+        "previous"
+      ],
+      "pos": "adj",
+      "lesson": "i01-l07"
+    },
+    {
+      "id": "dingulo",
+      "bn": "দিনগুলো",
+      "tr": "dingulo",
+      "en": "the days",
+      "pos": "noun",
+      "lesson": "i01-l07",
+      "notes": "Also দিনগুলি."
+    },
+    {
+      "id": "bodle-gechhe",
+      "bn": "বদলে গেছে",
+      "tr": "bodle gechhe",
+      "en": "has changed",
+      "pos": "phrase",
+      "lesson": "i01-l07",
+      "notes": "Compound verb, learned as a chunk for now. Full form বদলে গিয়েছে."
+    },
+    {
+      "id": "chithi",
+      "bn": "চিঠি",
+      "tr": "chithi",
+      "en": "letter",
+      "pos": "noun",
+      "lesson": "i01-l07"
+    },
+    {
+      "id": "likhtam",
+      "bn": "লিখতাম",
+      "tr": "likhtam",
+      "en": "I used to write",
+      "pos": "verb",
+      "lesson": "i01-l07"
+    }
+  ]
+}

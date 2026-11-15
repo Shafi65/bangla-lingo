@@ -1,0 +1,629 @@
+{
+  "id": "i01-l04",
+  "unit": "i01-catching-up",
+  "title": "Not any more",
+  "status": "draft",
+  "tip": "To say you **didn't use to** do something, put **না** after the -তাম verb: **আগে আমি গান শুনতাম না** 'I didn't use to listen to music'. Never add -নি to it: **-নি** is the plain 'didn't / haven't', as in **খাইনি** 'I haven't eaten'.\n\nFor **not any more**, use the present with **এখন আর … না**: **আমি এখন আর ফুটবল খেলি না** 'I don't play football any more'. Compare **এখনো না** 'not yet'.\n\nLiking works the same way: **আমার ভালো লাগে** 'I like it' → **আমার ভালো লাগত** 'I used to like it'. **আমার ক্রিকেট দেখতে ভালো লাগত** 'I liked watching cricket.'",
+  "vocab": [
+    {
+      "id": "khetam",
+      "bn": "খেতাম",
+      "tr": "khetam",
+      "en": "I used to eat",
+      "notes": "খাওয়া covers eating and drinking: দুধ খেতাম 'I used to drink milk'."
+    },
+    {
+      "id": "dekhtam",
+      "bn": "দেখতাম",
+      "tr": "dekhtam",
+      "en": "I used to watch"
+    },
+    {
+      "id": "shuntam",
+      "bn": "শুনতাম",
+      "tr": "shuntam",
+      "en": "I used to listen"
+    },
+    {
+      "id": "bhalobashtam",
+      "bn": "ভালোবাসতাম",
+      "tr": "bhalobashtam",
+      "en": "I used to love",
+      "notes": "Also spelled ভালবাসতাম."
+    },
+    {
+      "id": "lagto",
+      "bn": "লাগত",
+      "tr": "lagto",
+      "en": "used to feel",
+      "notes": "আমার ভালো লাগত 'I used to like it'. Also spelled লাগতো."
+    },
+    {
+      "id": "ekhon-ar",
+      "bn": "এখন আর",
+      "tr": "ekhon ar",
+      "en": "(not) any more",
+      "notes": "With a negative verb: এখন আর খেলি না 'I don't play any more'."
+    },
+    {
+      "id": "dushtu",
+      "bn": "দুষ্টু",
+      "tr": "dushtu",
+      "en": "naughty"
+    },
+    {
+      "id": "bhaibon",
+      "bn": "ভাইবোন",
+      "tr": "bhaibon",
+      "en": "siblings"
+    },
+    {
+      "id": "kriket",
+      "bn": "ক্রিকেট",
+      "tr": "kriket",
+      "en": "cricket"
+    },
+    {
+      "id": "futbol",
+      "bn": "ফুটবল",
+      "tr": "futbol",
+      "en": "football"
+    },
+    {
+      "id": "pukure",
+      "bn": "পুকুরে",
+      "tr": "pukure",
+      "en": "in the pond"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "গরমকালে",
+        "tr": "goromkale",
+        "en": "in summer"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "শীতকালে",
+        "গরমকালে",
+        "বর্ষাকালে",
+        "ছুটিতে"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "সাঁতার কাটতাম",
+        "tr": "sha~tar kattam",
+        "en": "I used to swim"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "সাঁতার",
+        "ঘুড়ি ওড়াতাম",
+        "সাঁতার কাটতাম",
+        "লুকোচুরি"
+      ],
+      "answer": 2,
+      "why": "Noun + verb: **সাঁতার কাটতাম**."
+    },
+    {
+      "id": "e03",
+      "type": "reading",
+      "title": "Then and now",
+      "lines": [
+        {
+          "speaker": "Nadia",
+          "bn": "রাফি, তুমি কি এখনো ক্রিকেট দেখো?",
+          "tr": "rafi, tumi ki ekhono kriket dekho?",
+          "en": "Rafi, do you still watch cricket?"
+        },
+        {
+          "speaker": "Rafi",
+          "bn": "না, এখন আর দেখি না। ছোটবেলায় প্রতিদিন দেখতাম।",
+          "tr": "na, ekhon ar dekhi na. chhotobelay protidin dekhtam.",
+          "en": "No, not any more. As a kid I watched it every day."
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "আমি ছোটবেলায় ফুটবল খেলতাম।",
+          "tr": "ami chhotobelay futbol kheltam.",
+          "en": "I used to play football as a child."
+        },
+        {
+          "speaker": "Rafi",
+          "bn": "সত্যি? আর এখন?",
+          "tr": "shotti? ar ekhon?",
+          "en": "Really? And now?"
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "এখন আর খেলি না। সময় নেই।",
+          "tr": "ekhon ar kheli na. shomoy nei.",
+          "en": "I don't play any more. There's no time."
+        }
+      ],
+      "question": "What did Rafi use to do every day?",
+      "options": [
+        "Play cricket",
+        "Play football",
+        "Watch cricket"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e04",
+      "type": "reading",
+      "title": "Then and now",
+      "lines": [
+        {
+          "speaker": "Nadia",
+          "bn": "রাফি, তুমি কি এখনো ক্রিকেট দেখো?",
+          "tr": "rafi, tumi ki ekhono kriket dekho?",
+          "en": "Rafi, do you still watch cricket?"
+        },
+        {
+          "speaker": "Rafi",
+          "bn": "না, এখন আর দেখি না। ছোটবেলায় প্রতিদিন দেখতাম।",
+          "tr": "na, ekhon ar dekhi na. chhotobelay protidin dekhtam.",
+          "en": "No, not any more. As a kid I watched it every day."
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "আমি ছোটবেলায় ফুটবল খেলতাম।",
+          "tr": "ami chhotobelay futbol kheltam.",
+          "en": "I used to play football as a child."
+        },
+        {
+          "speaker": "Rafi",
+          "bn": "সত্যি? আর এখন?",
+          "tr": "shotti? ar ekhon?",
+          "en": "Really? And now?"
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "এখন আর খেলি না। সময় নেই।",
+          "tr": "ekhon ar kheli na. shomoy nei.",
+          "en": "I don't play any more. There's no time."
+        }
+      ],
+      "question": "Why doesn't Nadia play football now?",
+      "options": [
+        "She doesn't like it any more",
+        "She never played it",
+        "She has no time"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e05",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "আগে আমি দুধ খেতাম, এখন আর খাই না।",
+        "tr": "age ami dudh khetam, ekhon ar khai na.",
+        "en": "I used to drink milk, but I don't any more."
+      },
+      "options": [
+        "I haven't had milk yet.",
+        "I didn't use to drink milk, but now I do.",
+        "I used to drink milk, but I don't any more.",
+        "I drink milk every day."
+      ],
+      "answer": 2,
+      "why": "**খেতাম** 'used to drink' + **এখন আর খাই না** 'don't any more'."
+    },
+    {
+      "id": "e06",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "আমার ক্রিকেট দেখতে খুব ভালো লাগত।",
+        "tr": "amar kriket dekhte khub bhalo lagto.",
+        "en": "I really liked watching cricket."
+      },
+      "options": [
+        "I really like playing cricket now.",
+        "I didn't like watching cricket.",
+        "I really liked watching cricket.",
+        "I watched cricket yesterday."
+      ],
+      "answer": 2,
+      "why": "**লাগত** 'used to feel': আমার ভালো লাগত 'I liked it'."
+    },
+    {
+      "id": "e07",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "আমি রাতে গান শুনতাম।",
+        "tr": "ami rate gan shuntam.",
+        "en": "I used to listen to songs at night."
+      },
+      "options": [
+        "I'm listening to a song now.",
+        "I listened to a song last night.",
+        "I used to listen to songs at night.",
+        "I used to sing at night."
+      ],
+      "answer": 2,
+      "why": "**শুনতাম** 'I used to listen'."
+    },
+    {
+      "id": "e08",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "ভালোবাসতাম",
+          "tr": "bhalobashtam",
+          "en": "I used to love"
+        },
+        {
+          "bn": "দুষ্টু",
+          "tr": "dushtu",
+          "en": "naughty"
+        },
+        {
+          "bn": "ভাইবোন",
+          "tr": "bhaibon",
+          "en": "siblings"
+        },
+        {
+          "bn": "পুকুরে",
+          "tr": "pukure",
+          "en": "in the pond"
+        },
+        {
+          "bn": "ফুটবল",
+          "tr": "futbol",
+          "en": "football"
+        }
+      ]
+    },
+    {
+      "id": "e09",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আমি এখন আর ফুটবল খেলি না।",
+        "tr": "ami ekhon ar futbol kheli na.",
+        "en": "I don't play football any more."
+      },
+      "blank": "এখন আর",
+      "options": [
+        "এখন আর",
+        "এখনো",
+        "আগে",
+        "গতকাল"
+      ],
+      "answer": 0,
+      "why": "'Not any more' = **এখন আর … না**. এখনো না is 'not yet'."
+    },
+    {
+      "id": "e10",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আগে আমি গান শুনতাম না, এখন শুনি।",
+        "tr": "age ami gan shuntam na, ekhon shuni.",
+        "en": "I didn't use to listen to music; now I do."
+      },
+      "blank": "শুনতাম",
+      "options": [
+        "শুনতাম",
+        "শুনিনি",
+        "শুনি",
+        "শুনলাম"
+      ],
+      "answer": 0,
+      "why": "'Didn't use to' = **-তাম + না**: শুনতাম না. শুনিনি means 'I haven't heard'."
+    },
+    {
+      "id": "e11",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "আমরা পুকুরে সাঁতার কাটতাম।",
+        "tr": "amra pukure sha~tar kattam.",
+        "en": "We used to swim in the pond."
+      },
+      "options": [
+        "We swam in the pond yesterday.",
+        "We don't swim in the pond any more.",
+        "We used to play next to the pond.",
+        "We used to swim in the pond."
+      ],
+      "answer": 3,
+      "why": "**পুকুরে** 'in the pond' + **সাঁতার কাটতাম**."
+    },
+    {
+      "id": "e12",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আমি আমাদের গ্রাম খুব ভালোবাসতাম।",
+        "tr": "ami amader gram khub bhalobashtam.",
+        "en": "I loved our village very much."
+      },
+      "blank": "ভালোবাসতাম",
+      "accepted": [
+        "ভালোবাসতাম",
+        "ভালবাসতাম",
+        "bhalobastam",
+        "bhalobashtam"
+      ],
+      "why": "ভালোবাসি 'I love' → **ভালোবাসতাম** 'I used to love, I loved'."
+    },
+    {
+      "id": "e13",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমি এখন আর টিভি দেখি না।",
+        "tr": "ami ekhon ar tibhi dekhi na.",
+        "en": "I don't watch TV any more."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "এখনো",
+        "এখন",
+        "না",
+        "আমি",
+        "দেখতাম",
+        "আর",
+        "দেখি",
+        "টিভি",
+        "নেই"
+      ],
+      "answer": [
+        "আমি",
+        "এখন",
+        "আর",
+        "টিভি",
+        "দেখি",
+        "না"
+      ],
+      "alt": [
+        [
+          "এখন",
+          "আর",
+          "আমি",
+          "টিভি",
+          "দেখি",
+          "না"
+        ],
+        [
+          "এখন",
+          "আর",
+          "টিভি",
+          "দেখি",
+          "না"
+        ]
+      ],
+      "why": "Not any more: **এখন আর** + present verb + **না**."
+    },
+    {
+      "id": "e14",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আমি ছোটবেলায় খুব দুষ্টু ছিলাম।",
+        "tr": "ami chhotobelay khub dushtu chhilam.",
+        "en": "I was very naughty as a child."
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "আমার ভাই ছোটবেলায় খুব দুষ্টু ছিল।",
+        "তুমি ছোটবেলায় খুব দুষ্টু ছিলে।",
+        "আমি এখন আর দুষ্টু নই।",
+        "আমি ছোটবেলায় খুব দুষ্টু ছিলাম।"
+      ],
+      "answer": 3,
+      "why": "আমি → **ছিলাম**."
+    },
+    {
+      "id": "e15",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "তোমার ভাইবোন কয়জন?",
+        "tr": "tomar bhaibon koyjon?",
+        "en": "How many brothers and sisters do you (familiar) have?"
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "তোমার ভাইবোন কয়জন",
+        "তোমার কয়জন ভাইবোন",
+        "তোমার কয়জন ভাইবোন আছে",
+        "tomar bhaibon koyjon",
+        "tomar koyjon bhaibon",
+        "tomar koyjon bhaibon achhe",
+        "tomar koyjon bhaibon ache"
+      ],
+      "why": "Familiar 'your' = **তোমার**; ভাইবোন 'siblings'."
+    },
+    {
+      "id": "e16",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আগে আমি দুধ খেতাম, এখন আর খাই না।",
+        "tr": "age ami dudh khetam, ekhon ar khai na.",
+        "en": "I used to drink milk, but I don't any more."
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "আগে আমি দুধ খেতাম, এখন আর খাই না",
+        "আমি আগে দুধ খেতাম, এখন আর খাই না",
+        "আগে দুধ খেতাম, এখন আর খাই না",
+        "আগে আমি দুধ খেতাম, কিন্তু এখন আর খাই না",
+        "আমি আগে দুধ খেতাম, কিন্তু এখন আর খাই না",
+        "আগে দুধ খেতাম, কিন্তু এখন আর খাই না",
+        "age ami dudh khetam, ekhon ar khai na",
+        "ami age dudh khetam, ekhon ar khai na",
+        "age dudh khetam, ekhon ar khai na",
+        "age ami dudh khetam, kintu ekhon ar khai na",
+        "ami age dudh khetam, kintu ekhon ar khai na",
+        "age dudh khetam, kintu ekhon ar khai na"
+      ],
+      "why": "Then: **খেতাম**. Now: **এখন আর খাই না**."
+    },
+    {
+      "id": "e17",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমার ক্রিকেট দেখতে খুব ভালো লাগত।",
+        "tr": "amar kriket dekhte khub bhalo lagto.",
+        "en": "I really liked watching cricket."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "আমার",
+        "লাগত",
+        "দেখতে",
+        "ভালো",
+        "খুব",
+        "ক্রিকেট",
+        "লাগে",
+        "দেখতাম",
+        "আমি"
+      ],
+      "answer": [
+        "আমার",
+        "ক্রিকেট",
+        "দেখতে",
+        "খুব",
+        "ভালো",
+        "লাগত"
+      ],
+      "alt": [
+        [
+          "ক্রিকেট",
+          "দেখতে",
+          "আমার",
+          "খুব",
+          "ভালো",
+          "লাগত"
+        ]
+      ],
+      "why": "Liking: **আমার** … **ভালো লাগত** (not আমি)."
+    },
+    {
+      "id": "e18",
+      "type": "listen_select",
+      "audio": {
+        "bn": "দুষ্টু",
+        "tr": "dushtu",
+        "en": "naughty"
+      },
+      "options": [
+        "দুষ্টু",
+        "দুধ",
+        "দুই",
+        "দূরে"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "r01",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "বিকালে আমি আর আমার বোন একসাথে ঘুড়ি ওড়াতাম।",
+        "tr": "bikale ami ar amar bon ekshathe ghuri oratam.",
+        "en": "In the afternoon my sister and I used to fly kites together."
+      },
+      "blank": "একসাথে",
+      "options": [
+        "আসলে",
+        "ওখানে",
+        "বছরে",
+        "একসাথে"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "শীতকালে আমরা প্রায়ই লুকোচুরি খেলতাম।",
+        "tr": "shitkale amra prayi lukochuri kheltam.",
+        "en": "In winter we often played hide-and-seek."
+      },
+      "options": [
+        "His name is Rafi.",
+        "In winter we often played hide-and-seek.",
+        "It's half past two now.",
+        "This is very spicy."
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "সারাদিন",
+        "tr": "sharadin",
+        "en": "all day"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "ছোটবেলায়",
+        "সারাদিন",
+        "সবসময়",
+        "শীতকালে"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "নাচ",
+          "tr": "nach",
+          "en": "dance"
+        },
+        {
+          "bn": "হবে",
+          "tr": "hobe",
+          "en": "will be"
+        },
+        {
+          "bn": "চলেন",
+          "tr": "cholen",
+          "en": "let's"
+        },
+        {
+          "bn": "দোস্ত",
+          "tr": "dost",
+          "en": "buddy"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "চল",
+          "tr": "chol",
+          "en": "let's"
+        },
+        {
+          "bn": "দিকে",
+          "tr": "dike",
+          "en": "way"
+        },
+        {
+          "bn": "পর্যন্ত",
+          "tr": "porjonto",
+          "en": "to"
+        },
+        {
+          "bn": "করলেন",
+          "tr": "korlen",
+          "en": "you did (polite)"
+        }
+      ],
+      "recycle": true
+    }
+  ]
+}

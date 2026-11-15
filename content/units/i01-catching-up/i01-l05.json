@@ -1,0 +1,595 @@
+{
+  "id": "i01-l05",
+  "unit": "i01-catching-up",
+  "title": "What were you doing?",
+  "status": "draft",
+  "tip": "**Was doing**: take the present-continuous form and swap its ending for a **ছিল** ending.\n\n- করছি → **করছিলাম** 'I was doing'\n- তুমি **করছিলে** · সে **করছিল** · আপনি **করছিলেন**\n- যাচ্ছি → **যাচ্ছিলাম**, খাচ্ছি → **খাচ্ছিলাম**, পড়ছি → **পড়ছিলাম**\n\nIt describes one moment in the past, not a habit: **আমি তখন ঘুমাচ্ছিলাম** 'I was sleeping then' vs **আমি রাতে বই পড়তাম** 'I used to read at night'.\n\nWeather: **বৃষ্টি হচ্ছিল** 'it was raining'.\n\nNegative with **না**: **ঘুমাচ্ছিলাম না** 'I wasn't sleeping'.\n\nOther spellings: করছিলো, হচ্ছিলো. Kolkata: ঘুমোচ্ছিলাম.",
+  "vocab": [
+    {
+      "id": "korchhilam",
+      "bn": "করছিলাম",
+      "tr": "korchhilam",
+      "en": "I was doing"
+    },
+    {
+      "id": "korchhile",
+      "bn": "করছিলে",
+      "tr": "korchhile",
+      "en": "you (familiar) were doing"
+    },
+    {
+      "id": "korchhilen",
+      "bn": "করছিলেন",
+      "tr": "korchhilen",
+      "en": "you / he, she (polite) were doing"
+    },
+    {
+      "id": "korchhilo",
+      "bn": "করছিল",
+      "tr": "korchhilo",
+      "en": "he/she was doing",
+      "notes": "Also spelled করছিলো."
+    },
+    {
+      "id": "jachchhilam",
+      "bn": "যাচ্ছিলাম",
+      "tr": "jachchhilam",
+      "en": "I was going"
+    },
+    {
+      "id": "khachchhilam",
+      "bn": "খাচ্ছিলাম",
+      "tr": "khachchhilam",
+      "en": "I was eating"
+    },
+    {
+      "id": "porchhilam",
+      "bn": "পড়ছিলাম",
+      "tr": "porchhilam",
+      "en": "I was reading"
+    },
+    {
+      "id": "dekhchhilam",
+      "bn": "দেখছিলাম",
+      "tr": "dekhchhilam",
+      "en": "I was watching"
+    },
+    {
+      "id": "ghumachchhilam",
+      "bn": "ঘুমাচ্ছিলাম",
+      "tr": "ghumachchhilam",
+      "en": "I was sleeping"
+    },
+    {
+      "id": "hochchhilo",
+      "bn": "হচ্ছিল",
+      "tr": "hochchhilo",
+      "en": "was happening",
+      "notes": "বৃষ্টি হচ্ছিল 'it was raining'. Also spelled হচ্ছিলো."
+    },
+    {
+      "id": "ashchhilo",
+      "bn": "আসছিল",
+      "tr": "ashchhilo",
+      "en": "was coming",
+      "notes": "Also spelled আসছিলো."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "করছি",
+        "tr": "korchhi",
+        "en": "I am doing (right now)"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "করি",
+        "করতাম",
+        "করছি",
+        "করলাম"
+      ],
+      "answer": 2,
+      "why": "Going on now: **করছি**."
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "দেখতাম",
+        "tr": "dekhtam",
+        "en": "I used to watch"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "দেখতাম",
+        "দেখি",
+        "দেখলাম",
+        "দেখব"
+      ],
+      "answer": 0,
+      "why": "Used to: **-তাম**."
+    },
+    {
+      "id": "e03",
+      "type": "reading",
+      "title": "A missed call",
+      "lines": [
+        {
+          "speaker": "Nadia",
+          "bn": "রাফি, কাল রাতে আমি ফোন করলাম, তুমি কোথায় ছিলে?",
+          "tr": "rafi, kal rate ami fon korlam, tumi kothay chhile?",
+          "en": "Rafi, I called last night. Where were you?"
+        },
+        {
+          "speaker": "Rafi",
+          "bn": "আমি বাসায় ছিলাম। ঘুমাচ্ছিলাম।",
+          "tr": "ami bashay chhilam. ghumachchhilam.",
+          "en": "I was at home. I was sleeping."
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "আটটায়?",
+          "tr": "attay?",
+          "en": "At eight o'clock?"
+        },
+        {
+          "speaker": "Rafi",
+          "bn": "হ্যাঁ, খুব ক্লান্ত ছিলাম। তুমি কী করছিলে?",
+          "tr": "hya~, khub klanto chhilam. tumi ki korchhile?",
+          "en": "Yes, I was very tired. What were you doing?"
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "আমরা সবাই বাইরে চা খাচ্ছিলাম।",
+          "tr": "amra shobai baire cha khachchhilam.",
+          "en": "We were all having tea outside."
+        }
+      ],
+      "question": "What was Rafi doing when Nadia called?",
+      "options": [
+        "Sleeping",
+        "Having tea outside",
+        "Watching TV"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e04",
+      "type": "reading",
+      "title": "A missed call",
+      "lines": [
+        {
+          "speaker": "Nadia",
+          "bn": "রাফি, কাল রাতে আমি ফোন করলাম, তুমি কোথায় ছিলে?",
+          "tr": "rafi, kal rate ami fon korlam, tumi kothay chhile?",
+          "en": "Rafi, I called last night. Where were you?"
+        },
+        {
+          "speaker": "Rafi",
+          "bn": "আমি বাসায় ছিলাম। ঘুমাচ্ছিলাম।",
+          "tr": "ami bashay chhilam. ghumachchhilam.",
+          "en": "I was at home. I was sleeping."
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "আটটায়?",
+          "tr": "attay?",
+          "en": "At eight o'clock?"
+        },
+        {
+          "speaker": "Rafi",
+          "bn": "হ্যাঁ, খুব ক্লান্ত ছিলাম। তুমি কী করছিলে?",
+          "tr": "hya~, khub klanto chhilam. tumi ki korchhile?",
+          "en": "Yes, I was very tired. What were you doing?"
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "আমরা সবাই বাইরে চা খাচ্ছিলাম।",
+          "tr": "amra shobai baire cha khachchhilam.",
+          "en": "We were all having tea outside."
+        }
+      ],
+      "question": "Why was Rafi asleep at eight?",
+      "options": [
+        "It was very late",
+        "He was very tired",
+        "He was ill"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e05",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "তুমি তখন কী করছিলে?",
+        "tr": "tumi tokhon ki korchhile?",
+        "en": "What were you (familiar) doing then?"
+      },
+      "options": [
+        "What are you doing now?",
+        "What did you use to do then?",
+        "Where were you then?",
+        "What were you (familiar) doing then?"
+      ],
+      "answer": 3,
+      "why": "**করছিলে** 'you were doing' (তুমি)."
+    },
+    {
+      "id": "e06",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "বাইরে বৃষ্টি হচ্ছিল।",
+        "tr": "baire brishti hochchhilo.",
+        "en": "It was raining outside."
+      },
+      "options": [
+        "It's raining outside.",
+        "It used to rain a lot.",
+        "It was raining outside.",
+        "It isn't raining any more."
+      ],
+      "answer": 2,
+      "why": "**হচ্ছিল** 'was happening': বৃষ্টি হচ্ছিল 'it was raining'."
+    },
+    {
+      "id": "e07",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "করছিলাম",
+          "tr": "korchhilam",
+          "en": "I was doing"
+        },
+        {
+          "bn": "করছিলে",
+          "tr": "korchhile",
+          "en": "you (familiar) were doing"
+        },
+        {
+          "bn": "করছিল",
+          "tr": "korchhilo",
+          "en": "he/she was doing"
+        },
+        {
+          "bn": "করছিলেন",
+          "tr": "korchhilen",
+          "en": "you / he, she (polite) were doing"
+        },
+        {
+          "bn": "দেখছিলাম",
+          "tr": "dekhchhilam",
+          "en": "I was watching"
+        }
+      ]
+    },
+    {
+      "id": "e08",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "আমি ঘুমাচ্ছিলাম না, একটা বই পড়ছিলাম।",
+        "tr": "ami ghumachchhilam na, ekta boi porchhilam.",
+        "en": "I wasn't sleeping; I was reading a book."
+      },
+      "options": [
+        "I was sleeping, not reading.",
+        "I didn't sleep; I read a book all night.",
+        "I wasn't sleeping; I was reading a book.",
+        "I'm reading a book now."
+      ],
+      "answer": 2,
+      "why": "**ঘুমাচ্ছিলাম না** 'I wasn't sleeping', **পড়ছিলাম** 'I was reading'."
+    },
+    {
+      "id": "e09",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "যাচ্ছিলাম",
+        "tr": "jachchhilam",
+        "en": "I was going"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "I used to go",
+        "I went",
+        "I was going",
+        "I am going"
+      ],
+      "answer": 2,
+      "why": "**-ছিলাম** = 'was …ing'."
+    },
+    {
+      "id": "e10",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "নাদিয়া তখন বাসায় আসছিল।",
+        "tr": "nadiya tokhon bashay ashchhilo.",
+        "en": "Nadia was coming home then."
+      },
+      "options": [
+        "Nadia was coming home then.",
+        "Nadia came home yesterday.",
+        "Nadia is coming home now.",
+        "Nadia was at home then."
+      ],
+      "answer": 0,
+      "why": "**আসছিল** 'was coming'."
+    },
+    {
+      "id": "e11",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আপনি তখন কী করছিলেন?",
+        "tr": "apni tokhon ki korchhilen?",
+        "en": "What were you (polite) doing then?"
+      },
+      "blank": "করছিলেন",
+      "options": [
+        "করছিলে",
+        "করছিল",
+        "করতেন",
+        "করছিলেন"
+      ],
+      "answer": 3,
+      "why": "আপনি → **-ছিলেন**. করতেন would be 'used to do'."
+    },
+    {
+      "id": "e12",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "সে অফিসে কাজ করছিল।",
+        "tr": "she ofise kaj korchhilo.",
+        "en": "He was working at the office."
+      },
+      "blank": "করছিল",
+      "options": [
+        "করছিল",
+        "করছিলাম",
+        "করত",
+        "করছে"
+      ],
+      "answer": 0,
+      "why": "সে + was doing: **করছিল**. করছে = is doing; করত = used to do."
+    },
+    {
+      "id": "e13",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আমি তখন বাসায় রান্না করছিলাম।",
+        "tr": "ami tokhon bashay ranna korchhilam.",
+        "en": "I was cooking at home then."
+      },
+      "blank": "করছিলাম",
+      "accepted": [
+        "করছিলাম",
+        "korchhilam",
+        "korchilam"
+      ],
+      "why": "করছি 'I am doing' + ছিলাম → **করছিলাম** 'I was doing'."
+    },
+    {
+      "id": "e14",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমি বাজারে যাচ্ছিলাম।",
+        "tr": "ami bajare jachchhilam.",
+        "en": "I was going to the market."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "যাচ্ছিলাম",
+        "পড়ছিলাম",
+        "বাজারে",
+        "যাচ্ছি",
+        "আমি",
+        "হচ্ছিল"
+      ],
+      "answer": [
+        "আমি",
+        "বাজারে",
+        "যাচ্ছিলাম"
+      ],
+      "alt": [
+        [
+          "বাজারে",
+          "যাচ্ছিলাম"
+        ]
+      ],
+      "why": "যাচ্ছি 'I am going' → **যাচ্ছিলাম** 'I was going'."
+    },
+    {
+      "id": "e15",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আমি টিভি দেখছিলাম।",
+        "tr": "ami tibhi dekhchhilam.",
+        "en": "I was watching TV."
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "আমি টিভি দেখছিলাম",
+        "টিভি দেখছিলাম",
+        "ami tibhi dekhchhilam",
+        "ami tibhi dekhchilam",
+        "tibhi dekhchhilam",
+        "tibhi dekhchilam"
+      ],
+      "why": "দেখছি → **দেখছিলাম**."
+    },
+    {
+      "id": "e16",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আমরা তখন ভাত খাচ্ছিলাম।",
+        "tr": "amra tokhon bhat khachchhilam.",
+        "en": "We were eating rice then."
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "আমরা তখন ভাত খাচ্ছিলাম",
+        "তখন আমরা ভাত খাচ্ছিলাম",
+        "amra tokhon bhat khachchhilam",
+        "amra tokhon bhat khachchilam",
+        "tokhon amra bhat khachchhilam",
+        "tokhon amra bhat khachchilam"
+      ],
+      "why": "আমরা takes the আমি ending: **খাচ্ছিলাম**."
+    },
+    {
+      "id": "e17",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "তুমি তখন কী করছিলে?",
+        "tr": "tumi tokhon ki korchhile?",
+        "en": "What were you (familiar) doing then?"
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "আপনি",
+        "করছিলে",
+        "কী",
+        "তখন",
+        "আসছিল",
+        "করছিলেন",
+        "তুমি"
+      ],
+      "answer": [
+        "তুমি",
+        "তখন",
+        "কী",
+        "করছিলে"
+      ],
+      "alt": [
+        [
+          "তখন",
+          "তুমি",
+          "কী",
+          "করছিলে"
+        ]
+      ],
+      "why": "তুমি → **-ছিলে**."
+    },
+    {
+      "id": "e18",
+      "type": "listen_select",
+      "audio": {
+        "bn": "ঘুমাচ্ছিলাম",
+        "tr": "ghumachchhilam",
+        "en": "I was sleeping"
+      },
+      "options": [
+        "ঘুমালাম",
+        "ঘুমাচ্ছিলাম",
+        "ঘুমাই",
+        "ঘুমাতে"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "r01",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "আমি আমাদের গ্রাম খুব ভালোবাসতাম।",
+        "tr": "ami amader gram khub bhalobashtam.",
+        "en": "I loved our village very much."
+      },
+      "options": [
+        "I ate rice and fish.",
+        "I loved our village very much.",
+        "I worked yesterday.",
+        "You are a teacher."
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "খেতাম",
+        "tr": "khetam",
+        "en": "I used to eat"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "পারেন",
+        "খেতাম",
+        "ছিলাম",
+        "দেবে"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আমি রাতে গান শুনতাম।",
+        "tr": "ami rate gan shuntam.",
+        "en": "I used to listen to songs at night."
+      },
+      "blank": "শুনতাম",
+      "accepted": [
+        "শুনতাম",
+        "shuntam"
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "লাগত",
+          "tr": "lagto",
+          "en": "used to feel"
+        },
+        {
+          "bn": "পুকুরে",
+          "tr": "pukure",
+          "en": "in the pond"
+        },
+        {
+          "bn": "দুষ্টু",
+          "tr": "dushtu",
+          "en": "naughty"
+        },
+        {
+          "bn": "ক্রিকেট",
+          "tr": "kriket",
+          "en": "cricket"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "ফুটবল",
+          "tr": "futbol",
+          "en": "football"
+        },
+        {
+          "bn": "ভাইবোন",
+          "tr": "bhaibon",
+          "en": "siblings"
+        },
+        {
+          "bn": "থাকতাম",
+          "tr": "thaktam",
+          "en": "I used to live"
+        },
+        {
+          "bn": "মাঠ",
+          "tr": "math",
+          "en": "field; playground"
+        }
+      ],
+      "recycle": true
+    }
+  ]
+}

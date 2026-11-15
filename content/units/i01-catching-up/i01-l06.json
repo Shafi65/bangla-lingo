@@ -1,0 +1,626 @@
+{
+  "id": "i01-l06",
+  "unit": "i01-catching-up",
+  "title": "It was raining when…",
+  "status": "draft",
+  "tip": "In a story, the **past continuous** paints the background and the **simple past** gives the event that breaks in:\n\n**আমি পড়ছিলাম, ঠিক তখন কারেন্ট চলে গেল।** 'I was studying, and just then the power went off.'\n\n- background, going on: পড়ছিলাম, বাজছিল, হচ্ছিল\n- event, happened once: চলে গেল, এল\n\nWith **যখন … তখন**: **আমি যখন ভাত খাচ্ছিলাম, তখন রাফি এল** 'When I was eating, Rafi came.'\n\n**চলে গেল** 'went off; left' is learned as one chunk for now. **কারেন্ট** is the everyday word for the electricity supply.",
+  "vocab": [
+    {
+      "id": "karent",
+      "bn": "কারেন্ট",
+      "tr": "karent",
+      "en": "electricity (power)",
+      "notes": "The everyday word for the power supply: কারেন্ট চলে গেল 'the power went off'."
+    },
+    {
+      "id": "chole-gelo",
+      "bn": "চলে গেল",
+      "tr": "chole gelo",
+      "en": "went (off); left",
+      "notes": "Compound verb, learned as a chunk for now. Also spelled চলে গেলো."
+    },
+    {
+      "id": "bajchhilo",
+      "bn": "বাজছিল",
+      "tr": "bajchhilo",
+      "en": "was ringing"
+    },
+    {
+      "id": "fonta",
+      "bn": "ফোনটা",
+      "tr": "fonta",
+      "en": "the phone"
+    },
+    {
+      "id": "dorjay",
+      "bn": "দরজায়",
+      "tr": "dorjay",
+      "en": "at the door"
+    },
+    {
+      "id": "dakchhilo",
+      "bn": "ডাকছিল",
+      "tr": "dakchhilo",
+      "en": "was calling",
+      "notes": "ডাকা 'to call (someone)'."
+    },
+    {
+      "id": "mombati",
+      "bn": "মোমবাতি",
+      "tr": "mombati",
+      "en": "candle"
+    },
+    {
+      "id": "thik-tokhon",
+      "bn": "ঠিক তখন",
+      "tr": "thik tokhon",
+      "en": "just then"
+    },
+    {
+      "id": "golpo-korchhilam",
+      "bn": "গল্প করছিলাম",
+      "tr": "golpo korchhilam",
+      "en": "I was chatting",
+      "notes": "গল্প করা 'to chat' (literally 'to do stories')."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ঘুমাচ্ছিলাম",
+        "tr": "ghumachchhilam",
+        "en": "I was sleeping"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "ঘুমাই",
+        "ঘুমালাম",
+        "ঘুমাতে",
+        "ঘুমাচ্ছিলাম"
+      ],
+      "answer": 3,
+      "why": "In progress in the past: **-ছিলাম**."
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "হচ্ছিল",
+        "tr": "hochchhilo",
+        "en": "was happening"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "হচ্ছে",
+        "হল",
+        "হচ্ছিল",
+        "হয়েছে"
+      ],
+      "answer": 2,
+      "why": "হচ্ছে 'is happening' → **হচ্ছিল** 'was happening'."
+    },
+    {
+      "id": "e03",
+      "type": "reading",
+      "title": "No power",
+      "lines": [
+        {
+          "speaker": "Rafi",
+          "bn": "নাদিয়া, কাল রাতে কী হয়েছে?",
+          "tr": "nadiya, kal rate ki hoyechhe?",
+          "en": "Nadia, what happened last night?"
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "আমি পড়ছিলাম, ঠিক তখন কারেন্ট চলে গেল।",
+          "tr": "ami porchhilam, thik tokhon karent chole gelo.",
+          "en": "I was studying, and just then the power went off."
+        },
+        {
+          "speaker": "Rafi",
+          "bn": "আমি তখন তোমাকে ফোন করছিলাম!",
+          "tr": "ami tokhon tomake fon korchhilam!",
+          "en": "I was calling you then!"
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "হ্যাঁ, ফোনটা বাজছিল, কিন্তু আম্মু আমাকে ডাকছিল।",
+          "tr": "hya~, fonta bajchhilo, kintu ammu amake dakchhilo.",
+          "en": "Yes, the phone was ringing, but Mum was calling me."
+        },
+        {
+          "speaker": "Rafi",
+          "bn": "তারপর?",
+          "tr": "tarpor?",
+          "en": "And then?"
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "আমাদের কাছে মোমবাতি ছিল না, তাই আমরা সবাই বাইরে গেলাম।",
+          "tr": "amader kachhe mombati chhilo na, tai amra shobai baire gelam.",
+          "en": "We didn't have a candle, so we all went outside."
+        }
+      ],
+      "question": "What was Nadia doing when the power went off?",
+      "options": [
+        "Talking to Rafi on the phone",
+        "Sleeping",
+        "Studying"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e04",
+      "type": "reading",
+      "title": "No power",
+      "lines": [
+        {
+          "speaker": "Rafi",
+          "bn": "নাদিয়া, কাল রাতে কী হয়েছে?",
+          "tr": "nadiya, kal rate ki hoyechhe?",
+          "en": "Nadia, what happened last night?"
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "আমি পড়ছিলাম, ঠিক তখন কারেন্ট চলে গেল।",
+          "tr": "ami porchhilam, thik tokhon karent chole gelo.",
+          "en": "I was studying, and just then the power went off."
+        },
+        {
+          "speaker": "Rafi",
+          "bn": "আমি তখন তোমাকে ফোন করছিলাম!",
+          "tr": "ami tokhon tomake fon korchhilam!",
+          "en": "I was calling you then!"
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "হ্যাঁ, ফোনটা বাজছিল, কিন্তু আম্মু আমাকে ডাকছিল।",
+          "tr": "hya~, fonta bajchhilo, kintu ammu amake dakchhilo.",
+          "en": "Yes, the phone was ringing, but Mum was calling me."
+        },
+        {
+          "speaker": "Rafi",
+          "bn": "তারপর?",
+          "tr": "tarpor?",
+          "en": "And then?"
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "আমাদের কাছে মোমবাতি ছিল না, তাই আমরা সবাই বাইরে গেলাম।",
+          "tr": "amader kachhe mombati chhilo na, tai amra shobai baire gelam.",
+          "en": "We didn't have a candle, so we all went outside."
+        }
+      ],
+      "question": "Why did everyone go outside?",
+      "options": [
+        "They had no candle",
+        "Rafi was at the door",
+        "It had stopped raining"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e05",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "আমি যখন ভাত খাচ্ছিলাম, তখন রাফি এল।",
+        "tr": "ami jokhon bhat khachchhilam, tokhon rafi elo.",
+        "en": "When I was eating, Rafi came."
+      },
+      "options": [
+        "When I was eating, Rafi came.",
+        "When I came, Rafi was eating.",
+        "I ate after Rafi left.",
+        "Rafi used to come at lunchtime."
+      ],
+      "answer": 0,
+      "why": "Background **খাচ্ছিলাম** (was eating), event **এল** (came)."
+    },
+    {
+      "id": "e06",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "ফোনটা বাজছিল, কিন্তু আমি ঘুমাচ্ছিলাম।",
+        "tr": "fonta bajchhilo, kintu ami ghumachchhilam.",
+        "en": "The phone was ringing, but I was asleep."
+      },
+      "options": [
+        "The phone was ringing, but I was asleep.",
+        "The phone rang and woke me up.",
+        "I was on the phone, so I didn't sleep.",
+        "My phone rings every night."
+      ],
+      "answer": 0,
+      "why": "Both verbs are background: **বাজছিল**, **ঘুমাচ্ছিলাম**."
+    },
+    {
+      "id": "e07",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "দরজায়",
+        "tr": "dorjay",
+        "en": "at the door"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "the door",
+        "in the room",
+        "outside",
+        "at the door"
+      ],
+      "answer": 3,
+      "why": "দরজা 'door' + **-য়** 'at': দরজায়."
+    },
+    {
+      "id": "e08",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "আমরা গল্প করছিলাম, টিভি দেখছিলাম না।",
+        "tr": "amra golpo korchhilam, tibhi dekhchhilam na.",
+        "en": "We were chatting, not watching TV."
+      },
+      "options": [
+        "We used to chat and watch TV.",
+        "We watched TV and then chatted.",
+        "We are chatting now.",
+        "We were chatting, not watching TV."
+      ],
+      "answer": 3,
+      "why": "**গল্প করছিলাম** 'we were chatting'."
+    },
+    {
+      "id": "e09",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আমি পড়ছিলাম, ঠিক তখন কারেন্ট চলে গেল।",
+        "tr": "ami porchhilam, thik tokhon karent chole gelo.",
+        "en": "I was studying, and just then the power went off."
+      },
+      "blank": "পড়ছিলাম",
+      "options": [
+        "পড়লাম",
+        "পড়ছিলাম",
+        "পড়তাম"
+      ],
+      "answer": 1,
+      "why": "The background, still going on when something happened: past continuous **পড়ছিলাম**."
+    },
+    {
+      "id": "e10",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আমি যখন ভাত খাচ্ছিলাম, তখন রাফি এল।",
+        "tr": "ami jokhon bhat khachchhilam, tokhon rafi elo.",
+        "en": "When I was eating, Rafi came."
+      },
+      "blank": "এল",
+      "options": [
+        "এল",
+        "আসছিল",
+        "আসত"
+      ],
+      "answer": 0,
+      "why": "Rafi's arrival is the event that happened once: simple past **এল**."
+    },
+    {
+      "id": "e11",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "কারেন্ট যখন চলে গেল, তখন তুমি কী করছিলে?",
+        "tr": "karent jokhon chole gelo, tokhon tumi ki korchhile?",
+        "en": "When the power went off, what were you (familiar) doing?"
+      },
+      "blank": "করছিলে",
+      "options": [
+        "করছিলেন",
+        "করলে",
+        "করছিলে",
+        "করতে"
+      ],
+      "answer": 2,
+      "why": "তুমি + was doing: **করছিলে**. করলে = you did; করতে = you used to do."
+    },
+    {
+      "id": "e12",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "দরজায় কে ছিল?",
+        "tr": "dorjay ke chhilo?",
+        "en": "Who was at the door?"
+      },
+      "options": [
+        "Where is the door?",
+        "Who was at the door?",
+        "Who opened the door?",
+        "Who was calling me?"
+      ],
+      "answer": 1,
+      "why": "**দরজায়** 'at the door'; **কে** 'who'."
+    },
+    {
+      "id": "e13",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আম্মু আমাকে ডাকছিল।",
+        "tr": "ammu amake dakchhilo.",
+        "en": "Mum was calling me."
+      },
+      "blank": "ডাকছিল",
+      "accepted": [
+        "ডাকছিল",
+        "ডাকছিলো",
+        "dakchhilo",
+        "dakchilo"
+      ],
+      "why": "Going on in the past, সে-form: **-ছিল** → ডাকছিল."
+    },
+    {
+      "id": "e14",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমি পড়ছিলাম, ঠিক তখন কারেন্ট চলে গেল।",
+        "tr": "ami porchhilam, thik tokhon karent chole gelo.",
+        "en": "I was studying, and just then the power went off."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "পড়তাম",
+        "ঠিক",
+        "ছিলাম",
+        "কারেন্ট",
+        "গেল",
+        "এখন",
+        "চলে",
+        "পড়ছিলাম",
+        "তখন",
+        "আমি"
+      ],
+      "answer": [
+        "আমি",
+        "পড়ছিলাম",
+        "ঠিক",
+        "তখন",
+        "কারেন্ট",
+        "চলে",
+        "গেল"
+      ],
+      "why": "Background **পড়ছিলাম**, then the event: **ঠিক তখন … চলে গেল**."
+    },
+    {
+      "id": "e15",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আপনি তখন কোথায় ছিলেন?",
+        "tr": "apni tokhon kothay chhilen?",
+        "en": "Where were you (polite) then?"
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "আপনি তখন কোথায় ছিলেন",
+        "তখন আপনি কোথায় ছিলেন",
+        "apni tokhon kothay chhilen",
+        "apni tokhon kothay chilen",
+        "tokhon apni kothay chhilen",
+        "tokhon apni kothay chilen"
+      ],
+      "why": "আপনি → **ছিলেন**."
+    },
+    {
+      "id": "e16",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আমি পড়ছিলাম, ঠিক তখন কারেন্ট চলে গেল।",
+        "tr": "ami porchhilam, thik tokhon karent chole gelo.",
+        "en": "I was reading when the power went off."
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "আমি পড়ছিলাম, ঠিক তখন কারেন্ট চলে গেল",
+        "আমি পড়ছিলাম, ঠিক তখন কারেন্ট চলে গেলো",
+        "আমি পড়ছিলাম, তখন কারেন্ট চলে গেল",
+        "আমি পড়ছিলাম, তখন কারেন্ট চলে গেলো",
+        "আমি যখন পড়ছিলাম, তখন কারেন্ট চলে গেল",
+        "আমি যখন পড়ছিলাম, তখন কারেন্ট চলে গেলো",
+        "যখন আমি পড়ছিলাম, তখন কারেন্ট চলে গেল",
+        "যখন আমি পড়ছিলাম, তখন কারেন্ট চলে গেলো",
+        "কারেন্ট যখন চলে গেল, তখন আমি পড়ছিলাম",
+        "কারেন্ট যখন চলে গেলো, তখন আমি পড়ছিলাম",
+        "যখন কারেন্ট চলে গেল, তখন আমি পড়ছিলাম",
+        "যখন কারেন্ট চলে গেলো, তখন আমি পড়ছিলাম",
+        "আমি বই পড়ছিলাম, ঠিক তখন কারেন্ট চলে গেল",
+        "আমি বই পড়ছিলাম, ঠিক তখন কারেন্ট চলে গেলো",
+        "আমি যখন বই পড়ছিলাম, তখন কারেন্ট চলে গেল",
+        "আমি যখন বই পড়ছিলাম, তখন কারেন্ট চলে গেলো",
+        "কারেন্ট যখন চলে গেল, তখন আমি বই পড়ছিলাম",
+        "কারেন্ট যখন চলে গেলো, তখন আমি বই পড়ছিলাম",
+        "ami porchhilam, thik tokhon karent chole gelo",
+        "ami porchilam, thik tokhon karent chole gelo",
+        "ami porchhilam, tokhon karent chole gelo",
+        "ami porchilam, tokhon karent chole gelo",
+        "ami jokhon porchhilam, tokhon karent chole gelo",
+        "ami jokhon porchilam, tokhon karent chole gelo",
+        "jokhon ami porchhilam, tokhon karent chole gelo",
+        "jokhon ami porchilam, tokhon karent chole gelo",
+        "karent jokhon chole gelo, tokhon ami porchhilam",
+        "karent jokhon chole gelo, tokhon ami porchilam",
+        "jokhon karent chole gelo, tokhon ami porchhilam",
+        "jokhon karent chole gelo, tokhon ami porchilam",
+        "ami boi porchhilam, thik tokhon karent chole gelo",
+        "ami boi porchilam, thik tokhon karent chole gelo",
+        "ami jokhon boi porchhilam, tokhon karent chole gelo",
+        "ami jokhon boi porchilam, tokhon karent chole gelo",
+        "karent jokhon chole gelo, tokhon ami boi porchhilam",
+        "karent jokhon chole gelo, tokhon ami boi porchilam"
+      ],
+      "why": "Reading = background (**পড়ছিলাম**); the power cut = event (**চলে গেল**)."
+    },
+    {
+      "id": "e17",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমরা গল্প করছিলাম, টিভি দেখছিলাম না।",
+        "tr": "amra golpo korchhilam, tibhi dekhchhilam na.",
+        "en": "We were chatting, not watching TV."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "আমরা",
+        "দেখতাম",
+        "না",
+        "নেই",
+        "টিভি",
+        "করতাম",
+        "দেখছিলাম",
+        "গল্প",
+        "করছিলাম"
+      ],
+      "answer": [
+        "আমরা",
+        "গল্প",
+        "করছিলাম",
+        "টিভি",
+        "দেখছিলাম",
+        "না"
+      ],
+      "why": "Two things in progress: both **-ছিলাম**; **না** after the verb."
+    },
+    {
+      "id": "e18",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "কারেন্ট",
+          "tr": "karent",
+          "en": "electricity (power)"
+        },
+        {
+          "bn": "মোমবাতি",
+          "tr": "mombati",
+          "en": "candle"
+        },
+        {
+          "bn": "ফোনটা",
+          "tr": "fonta",
+          "en": "the phone"
+        },
+        {
+          "bn": "দরজায়",
+          "tr": "dorjay",
+          "en": "at the door"
+        },
+        {
+          "bn": "বৃষ্টি",
+          "tr": "brishti",
+          "en": "rain"
+        }
+      ]
+    },
+    {
+      "id": "r01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "করছিল",
+        "tr": "korchhilo",
+        "en": "he/she was doing"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "করছিল",
+        "আসবেন",
+        "খেলাম",
+        "চাস"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আমি বাজারে যাচ্ছিলাম।",
+        "tr": "ami bajare jachchhilam.",
+        "en": "I was going to the market."
+      },
+      "blank": "যাচ্ছিলাম",
+      "accepted": [
+        "যাচ্ছিলাম",
+        "jachchhilam"
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "বড় হয়েছি",
+        "tr": "boro hoyechhi",
+        "en": "I grew up"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "I grew up",
+        "sometimes",
+        "hello (Hindu greeting)",
+        "I think"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "থাকত",
+          "tr": "thakto",
+          "en": "he/she used to live"
+        },
+        {
+          "bn": "থাকতেন",
+          "tr": "thakten",
+          "en": "you / he, she (polite) used to live"
+        },
+        {
+          "bn": "করতি",
+          "tr": "korti",
+          "en": "you used to do (intimate)"
+        },
+        {
+          "bn": "বলতেন",
+          "tr": "bolten",
+          "en": "you / he, she (polite) used to tell"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "যেত",
+          "tr": "jeto",
+          "en": "he/she used to go"
+        },
+        {
+          "bn": "পুকুর",
+          "tr": "pukur",
+          "en": "pond"
+        },
+        {
+          "bn": "প্রতি",
+          "tr": "proti",
+          "en": "every"
+        },
+        {
+          "bn": "খেলা",
+          "tr": "khela",
+          "en": "game; playing"
+        }
+      ],
+      "recycle": true
+    }
+  ]
+}

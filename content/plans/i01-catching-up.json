@@ -1,0 +1,1446 @@
+{
+  "unit": "i01-catching-up",
+  "lessons": [
+    {
+      "id": "i01-l01",
+      "title": "When I was small",
+      "goal": "Say how your life used to be when you were small: where you lived and what you did every day.",
+      "grammar": [
+        "past habitual -তাম for আমি / আমরা: থাকতাম, যেতাম, খেলতাম, পড়তাম, করতাম",
+        "ছোটবেলায় 'in childhood'; negative: -তাম + না",
+        "বড় হয়েছি 'I grew up'"
+      ],
+      "new": [
+        "chhotobela",
+        "chhotobelay",
+        "thaktam",
+        "jetam",
+        "kheltam",
+        "kortam",
+        "portam",
+        "khela",
+        "math",
+        "mathe",
+        "pukur",
+        "boro-hoyechhi"
+      ],
+      "review": [
+        "gram",
+        "grame",
+        "shohore",
+        "skule",
+        "protidin",
+        "bikale",
+        "rate",
+        "shokale",
+        "chhilo",
+        "chhilam",
+        "gelam",
+        "dhakay",
+        "thaki",
+        "amader",
+        "barir",
+        "pashe",
+        "mayer",
+        "shathe",
+        "nashta",
+        "boi"
+      ],
+      "tip": "**Used to**: verb stem + **-তাম** for আমি and আমরা.\n\n- থাকা → **থাকতাম** 'I used to live'\n- খেলা → **খেলতাম**, পড়া → **পড়তাম**, করা → **করতাম**\n- যাওয়া changes its stem: **যেতাম** 'I used to go'\n\nUse it for things that happened again and again, or went on for a long time: **ছোটবেলায় আমি গ্রামে থাকতাম** 'When I was small, I lived in the village'. For one finished event, keep the simple past: **গেলাম** 'I went'.\n\nNegative: **না** after the verb: **থাকতাম না** 'I didn't use to live'. Never -নি here.\n\n**বড় হয়েছি** 'I grew up' uses the perfect: **আমি ঢাকায় বড় হয়েছি**.",
+      "sentences": [
+        {
+          "bn": "ছোটবেলায় আমি গ্রামে থাকতাম।",
+          "tr": "chhotobelay ami grame thaktam.",
+          "en": "When I was small, I lived in the village.",
+          "alt": [
+            "As a child I lived in a village.",
+            "In my childhood I used to live in the village."
+          ]
+        },
+        {
+          "bn": "আমার ছোটবেলা খুব সুন্দর ছিল।",
+          "tr": "amar chhotobela khub shundor chhilo.",
+          "en": "My childhood was very lovely.",
+          "alt": [
+            "I had a beautiful childhood.",
+            "My childhood was very beautiful."
+          ]
+        },
+        {
+          "bn": "প্রতিদিন সকালে আমি স্কুলে যেতাম।",
+          "tr": "protidin shokale ami skule jetam.",
+          "en": "Every morning I used to go to school.",
+          "alt": [
+            "I went to school every morning."
+          ]
+        },
+        {
+          "bn": "বিকালে আমরা মাঠে খেলতাম।",
+          "tr": "bikale amra mathe kheltam.",
+          "en": "In the afternoon we used to play in the field.",
+          "alt": [
+            "We played in the field in the afternoons."
+          ]
+        },
+        {
+          "bn": "রাতে আমি বই পড়তাম।",
+          "tr": "rate ami boi portam.",
+          "en": "At night I used to read books.",
+          "alt": [
+            "I read books at night."
+          ]
+        },
+        {
+          "bn": "সকালে আমি মায়ের সাথে নাস্তা করতাম।",
+          "tr": "shokale ami mayer shathe nashta kortam.",
+          "en": "In the morning I used to have breakfast with my mother."
+        },
+        {
+          "bn": "ছোটবেলায় খেলা আমার খুব পছন্দ ছিল।",
+          "tr": "chhotobelay khela amar khub pochhondo chhilo.",
+          "en": "As a child I really liked playing.",
+          "alt": [
+            "When I was small I loved games."
+          ]
+        },
+        {
+          "bn": "ছোটবেলায় আমি শহরে থাকতাম না।",
+          "tr": "chhotobelay ami shohore thaktam na.",
+          "en": "As a child I didn't live in the city."
+        },
+        {
+          "bn": "আমি ঢাকায় বড় হয়েছি, আর আপনি?",
+          "tr": "ami dhakay boro hoyechhi, ar apni?",
+          "en": "I grew up in Dhaka. And you (polite)?",
+          "alt": [
+            "I grew up in Dhaka, and you?"
+          ]
+        },
+        {
+          "bn": "তুমি এখন কোথায় থাকো?",
+          "tr": "tumi ekhon kothay thako?",
+          "en": "Where do you (familiar) live now?"
+        }
+      ],
+      "dialogue": {
+        "title": "Nani remembers",
+        "lines": [
+          {
+            "bn": "আমি একটা ছোট গ্রামে বড় হয়েছি।",
+            "tr": "ami ekta chhoto grame boro hoyechhi.",
+            "en": "I grew up in a small village."
+          },
+          {
+            "bn": "আমাদের বাড়ির পাশে একটা পুকুর ছিল।",
+            "tr": "amader barir pashe ekta pukur chhilo.",
+            "en": "There was a pond next to our house."
+          },
+          {
+            "bn": "গ্রামে একটা বড় মাঠ ছিল।",
+            "tr": "grame ekta boro math chhilo.",
+            "en": "There was a big field in the village."
+          },
+          {
+            "bn": "স্কুল আমাদের বাড়ি থেকে দূরে ছিল, কিন্তু আমি প্রতিদিন স্কুলে যেতাম।",
+            "tr": "skul amader bari theke dure chhilo, kintu ami protidin skule jetam.",
+            "en": "School was far from our house, but I went to school every day."
+          },
+          {
+            "bn": "বিকালে আমরা সবাই মাঠে খেলতাম।",
+            "tr": "bikale amra shobai mathe kheltam.",
+            "en": "In the afternoon we all used to play in the field."
+          },
+          {
+            "bn": "আমার ছোটবেলা খুব সুন্দর ছিল।",
+            "tr": "amar chhotobela khub shundor chhilo.",
+            "en": "My childhood was very lovely."
+          }
+        ],
+        "questions": [
+          {
+            "question": "What is Nani talking about?",
+            "options": [
+              "Her childhood in a village",
+              "Her life in Dhaka now",
+              "A trip to the village last week"
+            ],
+            "answer": 0
+          },
+          {
+            "question": "What was far from Nani's house?",
+            "options": [
+              "The pond",
+              "The school",
+              "The field"
+            ],
+            "answer": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "i01-l02",
+      "title": "You used to…",
+      "goal": "Ask and tell how other people used to live, with the right ending for তুই, তুমি, সে and আপনি.",
+      "grammar": [
+        "past habitual across persons: করতাম · করতি · করতে · করত · করতেন",
+        "তুমি করতে 'you used to do' vs the infinitive করতে 'to do'",
+        "প্রতি + time word 'every'"
+      ],
+      "new": [
+        "korti",
+        "korte-hab",
+        "korten",
+        "korto",
+        "thakto",
+        "thakten",
+        "jeto",
+        "bolten",
+        "ashto",
+        "proti",
+        "golpo"
+      ],
+      "review": [
+        "kortam",
+        "thaktam",
+        "jetam",
+        "chhotobelay",
+        "nani",
+        "nana",
+        "dadi",
+        "bon",
+        "bhai",
+        "bashay",
+        "shukrobar",
+        "rate",
+        "ki-what",
+        "kothay",
+        "tumi",
+        "apni",
+        "tui",
+        "tokhon"
+      ],
+      "tip": "The habitual past takes the same person endings as ছিলাম / ছিলে / ছিল / ছিলেন:\n\n- আমি **করতাম** · তুই **করতি** · তুমি **করতে** · সে **করত** · আপনি / উনি **করতেন**\n\nPlurals match their singulars: আমরা করতাম, তোমরা করতে, তারা করত.\n\nWatch out: তুমি **করতে** 'you used to do' is spelled exactly like the infinitive **করতে** 'to do' (করতে পারি 'I can do'). The subject decides: **তুমি ছোটবেলায় কী করতে?** 'What did you use to do as a child?'\n\n**প্রতি** + a time word means 'every': **প্রতি রাতে** 'every night', **প্রতি শুক্রবার** 'every Friday'.\n\nYou'll also see করতো, থাকতো: same word, another spelling.",
+      "sentences": [
+        {
+          "bn": "তুমি ছোটবেলায় কী করতে?",
+          "tr": "tumi chhotobelay ki korte?",
+          "en": "What did you (familiar) use to do as a child?",
+          "alt": [
+            "What did you do when you were small?"
+          ]
+        },
+        {
+          "bn": "আপনি ছোটবেলায় কোথায় থাকতেন?",
+          "tr": "apni chhotobelay kothay thakten?",
+          "en": "Where did you (polite) live as a child?",
+          "alt": [
+            "Where did you use to live when you were small?"
+          ]
+        },
+        {
+          "bn": "তুই তখন কী করতি?",
+          "tr": "tui tokhon ki korti?",
+          "en": "What did you (intimate) use to do back then?",
+          "alt": [
+            "What did you do back then?"
+          ]
+        },
+        {
+          "bn": "আমার দাদি প্রতি রাতে আমাদের গল্প বলতেন।",
+          "tr": "amar dadi proti rate amader golpo bolten.",
+          "en": "My grandmother used to tell us stories every night."
+        },
+        {
+          "bn": "রাফি আমাদের বাড়ির পাশে থাকত।",
+          "tr": "rafi amader barir pashe thakto.",
+          "en": "Rafi used to live next to our house."
+        },
+        {
+          "bn": "নাদিয়া প্রতি শুক্রবার আমাদের বাসায় আসত।",
+          "tr": "nadiya proti shukrobar amader bashay ashto.",
+          "en": "Nadia used to come to our home every Friday."
+        },
+        {
+          "bn": "আমার বোন আমার সাথে স্কুলে যেত।",
+          "tr": "amar bon amar shathe skule jeto.",
+          "en": "My sister used to go to school with me."
+        },
+        {
+          "bn": "আমার নানা শহরে কাজ করতেন।",
+          "tr": "amar nana shohore kaj korten.",
+          "en": "My grandfather used to work in the city."
+        },
+        {
+          "bn": "সে তখন ঢাকায় থাকত না।",
+          "tr": "she tokhon dhakay thakto na.",
+          "en": "He didn't live in Dhaka then.",
+          "alt": [
+            "She didn't live in Dhaka at that time."
+          ]
+        },
+        {
+          "bn": "আমার বড় ভাই অফিসে কাজ করত।",
+          "tr": "amar boro bhai ofise kaj korto.",
+          "en": "My elder brother used to work in an office."
+        }
+      ],
+      "dialogue": {
+        "title": "Nani's school days",
+        "lines": [
+          {
+            "speaker": "Rafi",
+            "bn": "নানি, তুমি ছোটবেলায় কী করতে?",
+            "tr": "nani, tumi chhotobelay ki korte?",
+            "en": "Nani, what did you use to do when you were small?"
+          },
+          {
+            "speaker": "Nani",
+            "bn": "আমি প্রতিদিন স্কুলে যেতাম।",
+            "tr": "ami protidin skule jetam.",
+            "en": "I went to school every day."
+          },
+          {
+            "speaker": "Rafi",
+            "bn": "তোমার ছোট বোন কি তোমার সাথে যেত?",
+            "tr": "tomar chhoto bon ki tomar shathe jeto?",
+            "en": "Did your little sister go with you?"
+          },
+          {
+            "speaker": "Nani",
+            "bn": "হ্যাঁ, ও আমার সাথে যেত।",
+            "tr": "hya~, o amar shathe jeto.",
+            "en": "Yes, she used to go with me."
+          },
+          {
+            "speaker": "Rafi",
+            "bn": "আর রাতে তোমরা কী করতে?",
+            "tr": "ar rate tomra ki korte?",
+            "en": "And what did you all do at night?"
+          },
+          {
+            "speaker": "Nani",
+            "bn": "আমার বাবা প্রতি রাতে আমাদের গল্প বলতেন।",
+            "tr": "amar baba proti rate amader golpo bolten.",
+            "en": "My father used to tell us stories every night."
+          }
+        ],
+        "questions": [
+          {
+            "question": "Who used to go to school with Nani?",
+            "options": [
+              "Her father",
+              "Her little sister",
+              "Rafi"
+            ],
+            "answer": 1
+          },
+          {
+            "question": "What happened every night?",
+            "options": [
+              "Nani told Rafi a story",
+              "Nani went to school",
+              "Nani's father told the children stories"
+            ],
+            "answer": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "i01-l03",
+      "title": "Every summer",
+      "goal": "Describe what you did every summer, winter or holiday, with time words that mean 'again and again'.",
+      "grammar": [
+        "time frames with the habitual: প্রতি …, প্রায়ই, সারাদিন",
+        "seasons in -কালে (গরমকালে, শীতকালে, বর্ষাকালে); ছুটিতে",
+        "noun + verb activities: সাঁতার কাটতাম, ঘুড়ি ওড়াতাম, লুকোচুরি খেলতাম"
+      ],
+      "new": [
+        "sharadin",
+        "shitkale",
+        "goromkale",
+        "borshakale",
+        "chhutite",
+        "prayi",
+        "ekshathe",
+        "shatar",
+        "shatar-katam",
+        "ghuri",
+        "ghuri-oratam",
+        "lukochuri"
+      ],
+      "review": [
+        "proti",
+        "kheltam",
+        "jetam",
+        "thaktam",
+        "portam",
+        "korte-hab",
+        "korten",
+        "grame",
+        "bashay",
+        "bikale",
+        "shokale",
+        "rate",
+        "bon",
+        "amra",
+        "pochhondo",
+        "lal",
+        "bochhor"
+      ],
+      "tip": "Time words that mean **again and again** go with **-তাম**:\n\n- **প্রতি** বছর 'every year', **প্রায়ই** 'often', **সারাদিন** 'all day'\n- seasons with **-কালে**: **গরমকালে** 'in summer', **শীতকালে** 'in winter', **বর্ষাকালে** 'in the rainy season'\n- **ছুটিতে** 'in the holidays' (ছুটি + -তে 'in')\n\n**গরমকালে আমরা সারাদিন সাঁতার কাটতাম** 'In summer we'd swim all day.'\n\nSome activities are a noun + a verb: **সাঁতার কাটা** 'to swim', **লুকোচুরি খেলা** 'to play hide-and-seek'. The ending goes on the verb: সাঁতার **কাটতাম**, ঘুড়ি **ওড়াতাম** 'I used to fly kites'.\n\n**একসাথে** 'together' (Kolkata: একসঙ্গে).",
+      "sentences": [
+        {
+          "bn": "ছুটিতে আমরা গ্রামে যেতাম।",
+          "tr": "chhutite amra grame jetam.",
+          "en": "In the holidays we used to go to the village."
+        },
+        {
+          "bn": "গরমকালে আমরা সারাদিন সাঁতার কাটতাম।",
+          "tr": "goromkale amra sharadin sha~tar kattam.",
+          "en": "In summer we used to swim all day."
+        },
+        {
+          "bn": "বিকালে আমি আর আমার বোন একসাথে ঘুড়ি ওড়াতাম।",
+          "tr": "bikale ami ar amar bon ekshathe ghuri oratam.",
+          "en": "In the afternoon my sister and I used to fly kites together."
+        },
+        {
+          "bn": "শীতকালে আমরা প্রায়ই লুকোচুরি খেলতাম।",
+          "tr": "shitkale amra prayi lukochuri kheltam.",
+          "en": "In winter we often played hide-and-seek."
+        },
+        {
+          "bn": "বর্ষাকালে আমি বাসায় বই পড়তাম।",
+          "tr": "borshakale ami bashay boi portam.",
+          "en": "In the rainy season I used to read books at home."
+        },
+        {
+          "bn": "সাঁতার আমার খুব পছন্দ ছিল।",
+          "tr": "sha~tar amar khub pochhondo chhilo.",
+          "en": "I really liked swimming."
+        },
+        {
+          "bn": "আমার একটা লাল ঘুড়ি ছিল।",
+          "tr": "amar ekta lal ghuri chhilo.",
+          "en": "I had a red kite."
+        },
+        {
+          "bn": "ছুটিতে তুমি কী করতে?",
+          "tr": "chhutite tumi ki korte?",
+          "en": "What did you (familiar) use to do in the holidays?"
+        },
+        {
+          "bn": "ছুটিতে আপনি কী করতেন?",
+          "tr": "chhutite apni ki korten?",
+          "en": "What did you (polite) use to do in the holidays?"
+        },
+        {
+          "bn": "শীতকালে আমরা সাঁতার কাটতাম না।",
+          "tr": "shitkale amra sha~tar kattam na.",
+          "en": "In winter we didn't swim.",
+          "alt": [
+            "We didn't use to swim in winter."
+          ]
+        }
+      ],
+      "dialogue": {
+        "title": "Summer holidays",
+        "lines": [
+          {
+            "bn": "প্রতি বছর ছুটিতে আমরা গ্রামে যেতাম।",
+            "tr": "proti bochhor chhutite amra grame jetam.",
+            "en": "Every year in the holidays we went to the village."
+          },
+          {
+            "bn": "আমি আর আমার ভাই সারাদিন একসাথে খেলতাম।",
+            "tr": "ami ar amar bhai sharadin ekshathe kheltam.",
+            "en": "My brother and I played together all day."
+          },
+          {
+            "bn": "সকালে আমরা সাঁতার কাটতাম।",
+            "tr": "shokale amra sha~tar kattam.",
+            "en": "In the morning we used to swim."
+          },
+          {
+            "bn": "বিকালে আমরা মাঠে ঘুড়ি ওড়াতাম।",
+            "tr": "bikale amra mathe ghuri oratam.",
+            "en": "In the afternoon we flew kites in the field."
+          },
+          {
+            "bn": "রাতে আমরা লুকোচুরি খেলতাম।",
+            "tr": "rate amra lukochuri kheltam.",
+            "en": "At night we played hide-and-seek."
+          },
+          {
+            "bn": "আমার ছুটি খুব পছন্দ ছিল।",
+            "tr": "amar chhuti khub pochhondo chhilo.",
+            "en": "I really loved the holidays."
+          }
+        ],
+        "questions": [
+          {
+            "question": "What is the text about?",
+            "options": [
+              "One special day in Dhaka",
+              "What the writer did every day in the holidays",
+              "What the writer does now in winter"
+            ],
+            "answer": 1
+          },
+          {
+            "question": "When did they fly kites?",
+            "options": [
+              "In the morning",
+              "At night",
+              "In the afternoon"
+            ],
+            "answer": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "i01-l04",
+      "title": "Not any more",
+      "goal": "Say what you used to do and don't do any more, and what you didn't use to do.",
+      "grammar": [
+        "negative habitual: -তাম + না (খেতাম না), never -নি",
+        "এখন আর … না 'not any more' vs এখনো না 'not yet'",
+        "লাগত: আমার ভালো লাগত 'I used to like it'"
+      ],
+      "new": [
+        "khetam",
+        "dekhtam",
+        "shuntam",
+        "bhalobashtam",
+        "lagto",
+        "ekhon-ar",
+        "dushtu",
+        "bhaibon",
+        "kriket",
+        "futbol",
+        "pukure"
+      ],
+      "review": [
+        "kheli",
+        "khai",
+        "dekhi",
+        "ekhono",
+        "ekhono-na",
+        "khaini",
+        "tibhi",
+        "gan",
+        "dudh",
+        "age",
+        "ekhon",
+        "lage",
+        "pochhondo",
+        "shomoy",
+        "nei",
+        "shatar-katam",
+        "dekho",
+        "dekhen"
+      ],
+      "tip": "To say you **didn't use to** do something, put **না** after the -তাম verb: **আগে আমি গান শুনতাম না** 'I didn't use to listen to music'. Never add -নি to it: **-নি** is the plain 'didn't / haven't', as in **খাইনি** 'I haven't eaten'.\n\nFor **not any more**, use the present with **এখন আর … না**: **আমি এখন আর ফুটবল খেলি না** 'I don't play football any more'. Compare **এখনো না** 'not yet'.\n\nLiking works the same way: **আমার ভালো লাগে** 'I like it' → **আমার ভালো লাগত** 'I used to like it'. **আমার ক্রিকেট দেখতে ভালো লাগত** 'I liked watching cricket.'",
+      "sentences": [
+        {
+          "bn": "আগে আমি দুধ খেতাম, এখন আর খাই না।",
+          "tr": "age ami dudh khetam, ekhon ar khai na.",
+          "en": "I used to drink milk, but I don't any more.",
+          "alt": [
+            "I used to drink milk; now I don't any more."
+          ]
+        },
+        {
+          "bn": "ছোটবেলায় আমি প্রতিদিন টিভি দেখতাম।",
+          "tr": "chhotobelay ami protidin tibhi dekhtam.",
+          "en": "As a child I used to watch TV every day."
+        },
+        {
+          "bn": "আমি রাতে গান শুনতাম।",
+          "tr": "ami rate gan shuntam.",
+          "en": "I used to listen to songs at night.",
+          "alt": [
+            "I used to listen to music at night."
+          ]
+        },
+        {
+          "bn": "আমি আমাদের গ্রাম খুব ভালোবাসতাম।",
+          "tr": "ami amader gram khub bhalobashtam.",
+          "en": "I loved our village very much.",
+          "alt": [
+            "I really loved our village."
+          ]
+        },
+        {
+          "bn": "আমার ক্রিকেট দেখতে খুব ভালো লাগত।",
+          "tr": "amar kriket dekhte khub bhalo lagto.",
+          "en": "I really liked watching cricket.",
+          "alt": [
+            "I used to love watching cricket."
+          ]
+        },
+        {
+          "bn": "তোমার ভাইবোন কয়জন?",
+          "tr": "tomar bhaibon koyjon?",
+          "en": "How many brothers and sisters do you (familiar) have?",
+          "alt": [
+            "How many siblings do you have?"
+          ]
+        },
+        {
+          "bn": "আমি ছোটবেলায় খুব দুষ্টু ছিলাম।",
+          "tr": "ami chhotobelay khub dushtu chhilam.",
+          "en": "I was very naughty as a child."
+        },
+        {
+          "bn": "আমি এখন আর ফুটবল খেলি না।",
+          "tr": "ami ekhon ar futbol kheli na.",
+          "en": "I don't play football any more."
+        },
+        {
+          "bn": "আমরা পুকুরে সাঁতার কাটতাম।",
+          "tr": "amra pukure sha~tar kattam.",
+          "en": "We used to swim in the pond."
+        },
+        {
+          "bn": "আপনি কি এখনো ক্রিকেট দেখেন?",
+          "tr": "apni ki ekhono kriket dekhen?",
+          "en": "Do you (polite) still watch cricket?"
+        }
+      ],
+      "dialogue": {
+        "title": "Then and now",
+        "lines": [
+          {
+            "speaker": "Nadia",
+            "bn": "রাফি, তুমি কি এখনো ক্রিকেট দেখো?",
+            "tr": "rafi, tumi ki ekhono kriket dekho?",
+            "en": "Rafi, do you still watch cricket?"
+          },
+          {
+            "speaker": "Rafi",
+            "bn": "না, এখন আর দেখি না। ছোটবেলায় প্রতিদিন দেখতাম।",
+            "tr": "na, ekhon ar dekhi na. chhotobelay protidin dekhtam.",
+            "en": "No, not any more. As a kid I watched it every day."
+          },
+          {
+            "speaker": "Nadia",
+            "bn": "আমি ছোটবেলায় ফুটবল খেলতাম।",
+            "tr": "ami chhotobelay futbol kheltam.",
+            "en": "I used to play football as a child."
+          },
+          {
+            "speaker": "Rafi",
+            "bn": "সত্যি? আর এখন?",
+            "tr": "shotti? ar ekhon?",
+            "en": "Really? And now?"
+          },
+          {
+            "speaker": "Nadia",
+            "bn": "এখন আর খেলি না। সময় নেই।",
+            "tr": "ekhon ar kheli na. shomoy nei.",
+            "en": "I don't play any more. There's no time."
+          }
+        ],
+        "questions": [
+          {
+            "question": "What did Rafi use to do every day?",
+            "options": [
+              "Play cricket",
+              "Watch cricket",
+              "Play football"
+            ],
+            "answer": 1
+          },
+          {
+            "question": "Why doesn't Nadia play football now?",
+            "options": [
+              "She has no time",
+              "She doesn't like it any more",
+              "She never played it"
+            ],
+            "answer": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "i01-l05",
+      "title": "What were you doing?",
+      "goal": "Ask and say what was going on at a moment in the past.",
+      "grammar": [
+        "past continuous: continuous stem + ছিল endings: করছিলাম · করছিলে · করছিল · করছিলেন",
+        "যাচ্ছিলাম, খাচ্ছিলাম, ঘুমাচ্ছিলাম; বৃষ্টি হচ্ছিল",
+        "করছিলাম 'was doing' vs করতাম 'used to do' vs করছি 'am doing'"
+      ],
+      "new": [
+        "korchhilam",
+        "korchhile",
+        "korchhilen",
+        "korchhilo",
+        "jachchhilam",
+        "khachchhilam",
+        "porchhilam",
+        "dekhchhilam",
+        "ghumachchhilam",
+        "hochchhilo",
+        "ashchhilo"
+      ],
+      "review": [
+        "korchhi",
+        "korchho",
+        "korchhen",
+        "korchhe",
+        "jachchhi",
+        "khachchhi",
+        "porchhi",
+        "chhilam",
+        "chhile",
+        "chhilen",
+        "chhilo",
+        "tokhon",
+        "kal",
+        "rate",
+        "fon",
+        "korlam",
+        "brishti",
+        "klanto",
+        "baire",
+        "attay",
+        "bashay"
+      ],
+      "tip": "**Was doing**: take the present-continuous form and swap its ending for a **ছিল** ending.\n\n- করছি → **করছিলাম** 'I was doing'\n- তুমি **করছিলে** · সে **করছিল** · আপনি **করছিলেন**\n- যাচ্ছি → **যাচ্ছিলাম**, খাচ্ছি → **খাচ্ছিলাম**, পড়ছি → **পড়ছিলাম**\n\nIt describes one moment in the past, not a habit: **আমি তখন ঘুমাচ্ছিলাম** 'I was sleeping then' vs **আমি রাতে বই পড়তাম** 'I used to read at night'.\n\nWeather: **বৃষ্টি হচ্ছিল** 'it was raining'.\n\nNegative with **না**: **ঘুমাচ্ছিলাম না** 'I wasn't sleeping'.\n\nOther spellings: করছিলো, হচ্ছিলো. Kolkata: ঘুমোচ্ছিলাম.",
+      "sentences": [
+        {
+          "bn": "তুমি তখন কী করছিলে?",
+          "tr": "tumi tokhon ki korchhile?",
+          "en": "What were you (familiar) doing then?"
+        },
+        {
+          "bn": "আপনি তখন কী করছিলেন?",
+          "tr": "apni tokhon ki korchhilen?",
+          "en": "What were you (polite) doing then?"
+        },
+        {
+          "bn": "আমি তখন বাসায় রান্না করছিলাম।",
+          "tr": "ami tokhon bashay ranna korchhilam.",
+          "en": "I was cooking at home then."
+        },
+        {
+          "bn": "সে অফিসে কাজ করছিল।",
+          "tr": "she ofise kaj korchhilo.",
+          "en": "He was working at the office.",
+          "alt": [
+            "She was working in the office."
+          ]
+        },
+        {
+          "bn": "আমি বাজারে যাচ্ছিলাম।",
+          "tr": "ami bajare jachchhilam.",
+          "en": "I was going to the market.",
+          "alt": [
+            "I was on my way to the market."
+          ]
+        },
+        {
+          "bn": "আমরা তখন ভাত খাচ্ছিলাম।",
+          "tr": "amra tokhon bhat khachchhilam.",
+          "en": "We were eating rice then.",
+          "alt": [
+            "We were having our meal then."
+          ]
+        },
+        {
+          "bn": "আমি ঘুমাচ্ছিলাম না, একটা বই পড়ছিলাম।",
+          "tr": "ami ghumachchhilam na, ekta boi porchhilam.",
+          "en": "I wasn't sleeping; I was reading a book."
+        },
+        {
+          "bn": "আমি টিভি দেখছিলাম।",
+          "tr": "ami tibhi dekhchhilam.",
+          "en": "I was watching TV."
+        },
+        {
+          "bn": "বাইরে বৃষ্টি হচ্ছিল।",
+          "tr": "baire brishti hochchhilo.",
+          "en": "It was raining outside."
+        },
+        {
+          "bn": "নাদিয়া তখন বাসায় আসছিল।",
+          "tr": "nadiya tokhon bashay ashchhilo.",
+          "en": "Nadia was coming home then."
+        }
+      ],
+      "dialogue": {
+        "title": "A missed call",
+        "lines": [
+          {
+            "speaker": "Nadia",
+            "bn": "রাফি, কাল রাতে আমি ফোন করলাম, তুমি কোথায় ছিলে?",
+            "tr": "rafi, kal rate ami fon korlam, tumi kothay chhile?",
+            "en": "Rafi, I called last night. Where were you?"
+          },
+          {
+            "speaker": "Rafi",
+            "bn": "আমি বাসায় ছিলাম। ঘুমাচ্ছিলাম।",
+            "tr": "ami bashay chhilam. ghumachchhilam.",
+            "en": "I was at home. I was sleeping."
+          },
+          {
+            "speaker": "Nadia",
+            "bn": "আটটায়?",
+            "tr": "attay?",
+            "en": "At eight o'clock?"
+          },
+          {
+            "speaker": "Rafi",
+            "bn": "হ্যাঁ, খুব ক্লান্ত ছিলাম। তুমি কী করছিলে?",
+            "tr": "hya~, khub klanto chhilam. tumi ki korchhile?",
+            "en": "Yes, I was very tired. What were you doing?"
+          },
+          {
+            "speaker": "Nadia",
+            "bn": "আমরা সবাই বাইরে চা খাচ্ছিলাম।",
+            "tr": "amra shobai baire cha khachchhilam.",
+            "en": "We were all having tea outside."
+          }
+        ],
+        "questions": [
+          {
+            "question": "What was Rafi doing when Nadia called?",
+            "options": [
+              "Having tea outside",
+              "Watching TV",
+              "Sleeping"
+            ],
+            "answer": 2
+          },
+          {
+            "question": "Why was Rafi asleep at eight?",
+            "options": [
+              "He was very tired",
+              "It was very late",
+              "He was ill"
+            ],
+            "answer": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "i01-l06",
+      "title": "It was raining when…",
+      "goal": "Tell a short story: what was going on in the background, and what suddenly happened.",
+      "grammar": [
+        "background in the past continuous, event in the simple past",
+        "ঠিক তখন 'just then'; যখন … তখন with a continuous and a simple past",
+        "চলে গেল 'went (off); left' as a chunk"
+      ],
+      "new": [
+        "karent",
+        "chole-gelo",
+        "bajchhilo",
+        "fonta",
+        "dorjay",
+        "dakchhilo",
+        "mombati",
+        "thik-tokhon",
+        "golpo-korchhilam"
+      ],
+      "review": [
+        "porchhilam",
+        "ghumachchhilam",
+        "hochchhilo",
+        "khachchhilam",
+        "korchhile",
+        "jokhon",
+        "tokhon",
+        "elo",
+        "ammu",
+        "amake",
+        "kachhe",
+        "chhilo",
+        "tai",
+        "baire",
+        "brishti",
+        "dorja",
+        "tarpor",
+        "ki-hoyechhe"
+      ],
+      "tip": "In a story, the **past continuous** paints the background and the **simple past** gives the event that breaks in:\n\n**আমি পড়ছিলাম, ঠিক তখন কারেন্ট চলে গেল।** 'I was studying, and just then the power went off.'\n\n- background, going on: পড়ছিলাম, বাজছিল, হচ্ছিল\n- event, happened once: চলে গেল, এল\n\nWith **যখন … তখন**: **আমি যখন ভাত খাচ্ছিলাম, তখন রাফি এল** 'When I was eating, Rafi came.'\n\n**চলে গেল** 'went off; left' is learned as one chunk for now. **কারেন্ট** is the everyday word for the electricity supply.",
+      "sentences": [
+        {
+          "bn": "আমি পড়ছিলাম, ঠিক তখন কারেন্ট চলে গেল।",
+          "tr": "ami porchhilam, thik tokhon karent chole gelo.",
+          "en": "I was studying, and just then the power went off.",
+          "alt": [
+            "I was reading when the power went off.",
+            "I was studying when the power went out."
+          ]
+        },
+        {
+          "bn": "ফোনটা বাজছিল, কিন্তু আমি ঘুমাচ্ছিলাম।",
+          "tr": "fonta bajchhilo, kintu ami ghumachchhilam.",
+          "en": "The phone was ringing, but I was asleep.",
+          "alt": [
+            "The phone was ringing but I was sleeping."
+          ]
+        },
+        {
+          "bn": "আম্মু আমাকে ডাকছিল।",
+          "tr": "ammu amake dakchhilo.",
+          "en": "Mum was calling me.",
+          "alt": [
+            "Mom was calling me."
+          ]
+        },
+        {
+          "bn": "দরজায় কে ছিল?",
+          "tr": "dorjay ke chhilo?",
+          "en": "Who was at the door?"
+        },
+        {
+          "bn": "আমাদের কাছে একটা মোমবাতি ছিল।",
+          "tr": "amader kachhe ekta mombati chhilo.",
+          "en": "We had a candle."
+        },
+        {
+          "bn": "বৃষ্টি হচ্ছিল, ঠিক তখন কারেন্ট চলে গেল।",
+          "tr": "brishti hochchhilo, thik tokhon karent chole gelo.",
+          "en": "It was raining, and just then the power went off."
+        },
+        {
+          "bn": "আমি যখন ভাত খাচ্ছিলাম, তখন রাফি এল।",
+          "tr": "ami jokhon bhat khachchhilam, tokhon rafi elo.",
+          "en": "When I was eating, Rafi came.",
+          "alt": [
+            "Rafi came while I was eating."
+          ]
+        },
+        {
+          "bn": "কারেন্ট যখন চলে গেল, তখন তুমি কী করছিলে?",
+          "tr": "karent jokhon chole gelo, tokhon tumi ki korchhile?",
+          "en": "When the power went off, what were you (familiar) doing?"
+        },
+        {
+          "bn": "আপনি তখন কোথায় ছিলেন?",
+          "tr": "apni tokhon kothay chhilen?",
+          "en": "Where were you (polite) then?"
+        },
+        {
+          "bn": "আমরা গল্প করছিলাম, টিভি দেখছিলাম না।",
+          "tr": "amra golpo korchhilam, tibhi dekhchhilam na.",
+          "en": "We were chatting, not watching TV."
+        }
+      ],
+      "dialogue": {
+        "title": "No power",
+        "lines": [
+          {
+            "speaker": "Rafi",
+            "bn": "নাদিয়া, কাল রাতে কী হয়েছে?",
+            "tr": "nadiya, kal rate ki hoyechhe?",
+            "en": "Nadia, what happened last night?"
+          },
+          {
+            "speaker": "Nadia",
+            "bn": "আমি পড়ছিলাম, ঠিক তখন কারেন্ট চলে গেল।",
+            "tr": "ami porchhilam, thik tokhon karent chole gelo.",
+            "en": "I was studying, and just then the power went off."
+          },
+          {
+            "speaker": "Rafi",
+            "bn": "আমি তখন তোমাকে ফোন করছিলাম!",
+            "tr": "ami tokhon tomake fon korchhilam!",
+            "en": "I was calling you then!"
+          },
+          {
+            "speaker": "Nadia",
+            "bn": "হ্যাঁ, ফোনটা বাজছিল, কিন্তু আম্মু আমাকে ডাকছিল।",
+            "tr": "hya~, fonta bajchhilo, kintu ammu amake dakchhilo.",
+            "en": "Yes, the phone was ringing, but Mum was calling me."
+          },
+          {
+            "speaker": "Rafi",
+            "bn": "তারপর?",
+            "tr": "tarpor?",
+            "en": "And then?"
+          },
+          {
+            "speaker": "Nadia",
+            "bn": "আমাদের কাছে মোমবাতি ছিল না, তাই আমরা সবাই বাইরে গেলাম।",
+            "tr": "amader kachhe mombati chhilo na, tai amra shobai baire gelam.",
+            "en": "We didn't have a candle, so we all went outside."
+          }
+        ],
+        "questions": [
+          {
+            "question": "What was Nadia doing when the power went off?",
+            "options": [
+              "Talking to Rafi on the phone",
+              "Studying",
+              "Sleeping"
+            ],
+            "answer": 1
+          },
+          {
+            "question": "Why did everyone go outside?",
+            "options": [
+              "Rafi was at the door",
+              "It had stopped raining",
+              "They had no candle"
+            ],
+            "answer": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "i01-l07",
+      "title": "Back then and now",
+      "goal": "Compare life back then with life now, and choose between করতাম, করলাম and করছিলাম.",
+      "grammar": [
+        "habitual করতাম vs simple past করলাম vs past continuous করছিলাম",
+        "আমার … মনে পড়ে 'I think back to; I remember'",
+        "তখনকার 'of that time', এখনকার 'of today', আগের মতো 'as before'"
+      ],
+      "new": [
+        "sriti",
+        "mone-pore",
+        "gramer",
+        "tokhonkar",
+        "ekhonkar",
+        "ager",
+        "dingulo",
+        "bodle-gechhe",
+        "chithi",
+        "likhtam"
+      ],
+      "review": [
+        "kortam",
+        "korlam",
+        "porchhilam",
+        "porlam",
+        "elo",
+        "chhilo",
+        "nei",
+        "moto",
+        "tai",
+        "shob",
+        "onek",
+        "shundor",
+        "kotha-talk",
+        "purono",
+        "chhobi",
+        "ekshathe",
+        "sharadin",
+        "shondhay"
+      ],
+      "tip": "Three past tenses, three jobs:\n\n- **করতাম** 'used to do': a habit or a long state. **আমরা চিঠি লিখতাম** 'We used to write letters.'\n- **করলাম** 'did': one finished event. **রাফি এল** 'Rafi came.'\n- **করছিলাম** 'was doing': in progress at a moment. **আমি চিঠি পড়ছিলাম** 'I was reading a letter.'\n\nAsk yourself: did it happen **again and again**, **once**, or was it **going on**?\n\n**মনে পড়ে** 'comes to mind' takes **আমার**: **আমার তখনকার কথা মনে পড়ে** 'I think back to those days.'\n\n**-কার** makes 'of (a time)': **তখনকার** 'of that time', **এখনকার** 'of today'.",
+      "sentences": [
+        {
+          "bn": "তখনকার দিনগুলো খুব সুন্দর ছিল।",
+          "tr": "tokhonkar dingulo khub shundor chhilo.",
+          "en": "Those days were very beautiful.",
+          "alt": [
+            "The days back then were lovely."
+          ]
+        },
+        {
+          "bn": "গ্রামে আমার অনেক স্মৃতি আছে।",
+          "tr": "grame amar onek sriti achhe.",
+          "en": "I have many memories of the village.",
+          "alt": [
+            "I have a lot of memories in the village."
+          ]
+        },
+        {
+          "bn": "তখন ফোন ছিল না, তাই আমরা চিঠি লিখতাম।",
+          "tr": "tokhon fon chhilo na, tai amra chithi likhtam.",
+          "en": "There were no phones then, so we used to write letters."
+        },
+        {
+          "bn": "আমাদের গ্রাম অনেক বদলে গেছে।",
+          "tr": "amader gram onek bodle gechhe.",
+          "en": "Our village has changed a lot."
+        },
+        {
+          "bn": "গ্রাম আর আগের মতো নেই।",
+          "tr": "gram ar ager moto nei.",
+          "en": "The village isn't what it used to be.",
+          "alt": [
+            "The village is no longer the same as before."
+          ]
+        },
+        {
+          "bn": "তখনকার স্কুল ছোট ছিল, এখনকার স্কুল অনেক বড়।",
+          "tr": "tokhonkar skul chhoto chhilo, ekhonkar skul onek boro.",
+          "en": "Schools back then were small; schools today are much bigger."
+        },
+        {
+          "bn": "আমি গ্রামের পুকুরে সাঁতার কাটতাম।",
+          "tr": "ami gramer pukure sha~tar kattam.",
+          "en": "I used to swim in the village pond."
+        },
+        {
+          "bn": "আপনার কি তখনকার কথা মনে পড়ে?",
+          "tr": "apnar ki tokhonkar kotha mone pore?",
+          "en": "Do you (polite) think back to those days?",
+          "alt": [
+            "Do you remember those days?"
+          ]
+        },
+        {
+          "bn": "তোমার কি গ্রামের কথা মনে পড়ে?",
+          "tr": "tomar ki gramer kotha mone pore?",
+          "en": "Do you (familiar) think about the village?",
+          "alt": [
+            "Do you remember the village?"
+          ]
+        },
+        {
+          "bn": "আমি যখন একটা চিঠি পড়ছিলাম, তখন রাফি এল।",
+          "tr": "ami jokhon ekta chithi porchhilam, tokhon rafi elo.",
+          "en": "When I was reading a letter, Rafi came.",
+          "alt": [
+            "Rafi came while I was reading a letter."
+          ]
+        }
+      ],
+      "dialogue": {
+        "title": "Then and now",
+        "lines": [
+          {
+            "speaker": "Nani",
+            "bn": "আগের দিনগুলো খুব সুন্দর ছিল।",
+            "tr": "ager dingulo khub shundor chhilo.",
+            "en": "The old days were very beautiful."
+          },
+          {
+            "speaker": "Rafi",
+            "bn": "তখন গ্রাম কেমন ছিল?",
+            "tr": "tokhon gram kemon chhilo?",
+            "en": "What was the village like then?"
+          },
+          {
+            "speaker": "Nani",
+            "bn": "আমরা গ্রামের পুকুরে সাঁতার কাটতাম। তখন ফোন ছিল না, তাই আমরা চিঠি লিখতাম।",
+            "tr": "amra gramer pukure sha~tar kattam. tokhon fon chhilo na, tai amra chithi likhtam.",
+            "en": "We used to swim in the village pond. There were no phones then, so we wrote letters."
+          },
+          {
+            "speaker": "Rafi",
+            "bn": "এখন গ্রাম অনেক বদলে গেছে।",
+            "tr": "ekhon gram onek bodle gechhe.",
+            "en": "The village has changed a lot now."
+          },
+          {
+            "speaker": "Nani",
+            "bn": "হ্যাঁ, গ্রাম আর আগের মতো নেই। কিন্তু আমার তখনকার কথা খুব মনে পড়ে।",
+            "tr": "hya~, gram ar ager moto nei. kintu amar tokhonkar kotha khub mone pore.",
+            "en": "Yes, the village isn't what it was. But I often think back to those days."
+          }
+        ],
+        "questions": [
+          {
+            "question": "What are Rafi and Nani talking about?",
+            "options": [
+              "Rafi's plans for next week",
+              "How the village used to be and how it is now",
+              "A letter Rafi got yesterday"
+            ],
+            "answer": 1
+          },
+          {
+            "question": "Why did people write letters back then?",
+            "options": [
+              "There were no phones",
+              "Nani liked writing",
+              "Letters were cheap"
+            ],
+            "answer": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "i01-l08",
+      "title": "Review: Catching up",
+      "kind": "review",
+      "goal": "Use all three past tenses of the unit in short monologues and conversations.",
+      "grammar": [
+        "review: habitual -তাম across persons, with time frames",
+        "review: negative habitual and এখন আর … না",
+        "review: past continuous, background vs event, then vs now"
+      ],
+      "new": [],
+      "review": [
+        "chhotobelay",
+        "thaktam",
+        "jetam",
+        "kheltam",
+        "kortam",
+        "korte-hab",
+        "korten",
+        "korto",
+        "thakto",
+        "thakten",
+        "jeto",
+        "bolten",
+        "ashto",
+        "proti",
+        "golpo",
+        "ekshathe",
+        "shatar-katam",
+        "ghuri-oratam",
+        "lukochuri",
+        "khetam",
+        "shuntam",
+        "lagto",
+        "kriket",
+        "korchhile",
+        "porchhilam",
+        "jachchhilam",
+        "hochchhilo",
+        "karent",
+        "chole-gelo",
+        "dakchhilo"
+      ],
+      "tip": "This review mixes the whole unit.\n\n- **করতাম · করতি · করতে · করত · করতেন**: used to (habit, long state)\n- **করছিলাম · করছিলে · করছিল · করছিলেন**: was doing (in progress)\n- **করলাম**, **এল**, **চলে গেল**: did (one event)\n\nTime words help: **প্রতি**, **প্রায়ই**, **ছোটবেলায়**, **গরমকালে** point to the habitual; **ঠিক তখন** introduces an event; **তখন** with -ছিল- sets the scene.\n\nNegatives: **খেতাম না**, **ঘুমাচ্ছিলাম না**, and **এখন আর … না** for 'not any more'.",
+      "sentences": [
+        {
+          "bn": "ছোটবেলায় প্রতি শুক্রবার আমি বাবার সাথে বাজারে যেতাম।",
+          "tr": "chhotobelay proti shukrobar ami babar shathe bajare jetam.",
+          "en": "As a child I used to go to the market with my father every Friday."
+        },
+        {
+          "bn": "দুপুরে আমরা সবাই একসাথে ভাত খেতাম।",
+          "tr": "dupure amra shobai ekshathe bhat khetam.",
+          "en": "At noon we all used to eat together."
+        },
+        {
+          "bn": "বিকালে আমরা মাঠে ক্রিকেট খেলতাম।",
+          "tr": "bikale amra mathe kriket kheltam.",
+          "en": "In the afternoon we used to play cricket in the field."
+        },
+        {
+          "bn": "শুক্রবার আমার খুব ভালো লাগত।",
+          "tr": "shukrobar amar khub bhalo lagto.",
+          "en": "I really loved Fridays."
+        },
+        {
+          "bn": "আমার নানি গ্রামে থাকতেন।",
+          "tr": "amar nani grame thakten.",
+          "en": "My grandmother used to live in the village."
+        },
+        {
+          "bn": "রাতে নানি আমাদের গল্প বলতেন।",
+          "tr": "rate nani amader golpo bolten.",
+          "en": "At night Nani used to tell us stories."
+        },
+        {
+          "bn": "আমি আর আমার বোন লুকোচুরি খেলতাম।",
+          "tr": "ami ar amar bon lukochuri kheltam.",
+          "en": "My sister and I used to play hide-and-seek."
+        },
+        {
+          "bn": "আমরা অনেক মজা করতাম।",
+          "tr": "amra onek moja kortam.",
+          "en": "We used to have a lot of fun."
+        },
+        {
+          "bn": "কারেন্ট যখন চলে গেল, তখন আমরা খাচ্ছিলাম।",
+          "tr": "karent jokhon chole gelo, tokhon amra khachchhilam.",
+          "en": "When the power went off, we were eating."
+        }
+      ],
+      "dialogue": {
+        "title": "Nadia: my Fridays",
+        "lines": [
+          {
+            "bn": "ছোটবেলায় প্রতি শুক্রবার আমি বাবার সাথে বাজারে যেতাম।",
+            "tr": "chhotobelay proti shukrobar ami babar shathe bajare jetam.",
+            "en": "As a child I went to the market with my father every Friday."
+          },
+          {
+            "bn": "দুপুরে আমরা সবাই একসাথে ভাত খেতাম।",
+            "tr": "dupure amra shobai ekshathe bhat khetam.",
+            "en": "At noon we all ate together."
+          },
+          {
+            "bn": "বিকালে আমরা মাঠে ক্রিকেট খেলতাম, আর আমার ভাই আমাদের সাথে আসত।",
+            "tr": "bikale amra mathe kriket kheltam, ar amar bhai amader shathe ashto.",
+            "en": "In the afternoon we played cricket in the field, and my brother used to come with us."
+          },
+          {
+            "bn": "শুক্রবার আমার খুব ভালো লাগত।",
+            "tr": "shukrobar amar khub bhalo lagto.",
+            "en": "I really loved Fridays."
+          }
+        ],
+        "questions": [
+          {
+            "question": "Who did Nadia go to the market with?",
+            "options": [
+              "Her grandmother",
+              "Her father",
+              "Her brother"
+            ],
+            "answer": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "i01-c01",
+      "title": "Checkpoint: Catching up",
+      "kind": "checkpoint",
+      "goal": "Follow a short story about the past, describe your childhood, and choose between habitual, continuous and simple past.",
+      "grammar": [
+        "checkpoint: past habitual, past continuous and simple past in context"
+      ],
+      "new": [],
+      "review": [
+        "chhotobelay",
+        "jetam",
+        "gelam",
+        "jachchhilam",
+        "korten",
+        "korchhile",
+        "shatar-katam",
+        "pukure",
+        "ekhon-ar",
+        "kriket",
+        "bolten",
+        "proti",
+        "golpo",
+        "khachchhilam",
+        "karent",
+        "chole-gelo",
+        "bodle-gechhe",
+        "thaktam"
+      ],
+      "tip": "Show what you can do with the past:\n\n- follow a story told in three past tenses\n- say how your childhood was\n- pick **করতাম** (habit), **করলাম** (once) or **করছিলাম** (in progress) from the context\n\nRemember the endings by person: আমি **-তাম / -ছিলাম**, তুমি **-তে / -ছিলে**, সে **-ত / -ছিল**, আপনি **-তেন / -ছিলেন**.",
+      "sentences": [
+        {
+          "bn": "ছোটবেলায় আমি প্রতিদিন স্কুলে যেতাম।",
+          "tr": "chhotobelay ami protidin skule jetam.",
+          "en": "As a child I went to school every day."
+        },
+        {
+          "bn": "গতকাল আমি বাজারে গেলাম।",
+          "tr": "gotokal ami bajare gelam.",
+          "en": "Yesterday I went to the market."
+        },
+        {
+          "bn": "আমি বাজারে যাচ্ছিলাম, ঠিক তখন নাদিয়া ফোন করল।",
+          "tr": "ami bajare jachchhilam, thik tokhon nadiya fon korlo.",
+          "en": "I was going to the market when Nadia called."
+        },
+        {
+          "bn": "আপনি তখন কী করতেন?",
+          "tr": "apni tokhon ki korten?",
+          "en": "What did you (polite) use to do then?"
+        },
+        {
+          "bn": "নাদিয়া যখন ফোন করল, তখন তুমি কী করছিলে?",
+          "tr": "nadiya jokhon fon korlo, tokhon tumi ki korchhile?",
+          "en": "When Nadia called, what were you (familiar) doing?"
+        },
+        {
+          "bn": "গরমকালে আমরা পুকুরে সাঁতার কাটতাম।",
+          "tr": "goromkale amra pukure sha~tar kattam.",
+          "en": "In summer we used to swim in the pond."
+        },
+        {
+          "bn": "আমি এখন আর ক্রিকেট খেলি না।",
+          "tr": "ami ekhon ar kriket kheli na.",
+          "en": "I don't play cricket any more."
+        },
+        {
+          "bn": "নানি প্রতি রাতে আমাকে গল্প বলতেন।",
+          "tr": "nani proti rate amake golpo bolten.",
+          "en": "Nani used to tell me stories every night."
+        },
+        {
+          "bn": "আমি যখন খাচ্ছিলাম, তখন কারেন্ট চলে গেল।",
+          "tr": "ami jokhon khachchhilam, tokhon karent chole gelo.",
+          "en": "When I was eating, the power went off."
+        },
+        {
+          "bn": "আমাদের গ্রাম অনেক বদলে গেছে।",
+          "tr": "amader gram onek bodle gechhe.",
+          "en": "Our village has changed a lot."
+        }
+      ],
+      "dialogue": {
+        "title": "Nani's pond",
+        "lines": [
+          {
+            "bn": "আমার নানি গ্রামে থাকেন।",
+            "tr": "amar nani grame thaken.",
+            "en": "My grandmother lives in a village."
+          },
+          {
+            "bn": "ওনার বাড়ির পাশে একটা পুকুর আছে।",
+            "tr": "onar barir pashe ekta pukur achhe.",
+            "en": "There is a pond next to her house."
+          },
+          {
+            "bn": "নানি বললেন, \"ছোটবেলায় আমি প্রতিদিন এই পুকুরে সাঁতার কাটতাম।\"",
+            "tr": "nani bollen, \"chhotobelay ami protidin ei pukure sha~tar kattam.\"",
+            "en": "Nani said, \"As a child I used to swim in this pond every day.\""
+          },
+          {
+            "bn": "তখন গ্রামে অনেক বড় মাঠ ছিল, কিন্তু এখন গ্রাম অনেক বদলে গেছে।",
+            "tr": "tokhon grame onek boro math chhilo, kintu ekhon gram onek bodle gechhe.",
+            "en": "Back then the village had lots of big fields, but now it has changed a lot."
+          },
+          {
+            "bn": "গত বছর গরমকালে আমি গ্রামে ছিলাম।",
+            "tr": "goto bochhor goromkale ami grame chhilam.",
+            "en": "Last summer I was in the village."
+          },
+          {
+            "bn": "এক রাতে আমি আর নানি গল্প করছিলাম, আর বাইরে বৃষ্টি হচ্ছিল।",
+            "tr": "ek rate ami ar nani golpo korchhilam, ar baire brishti hochchhilo.",
+            "en": "One night Nani and I were chatting, and it was raining outside."
+          },
+          {
+            "bn": "ঠিক তখন কারেন্ট চলে গেল।",
+            "tr": "thik tokhon karent chole gelo.",
+            "en": "Just then the power went off."
+          },
+          {
+            "bn": "আমাদের কাছে একটা মোমবাতি ছিল, আর নানি আমাকে তখনকার গল্প বললেন।",
+            "tr": "amader kachhe ekta mombati chhilo, ar nani amake tokhonkar golpo bollen.",
+            "en": "We had a candle, and Nani told me stories from back then."
+          }
+        ],
+        "questions": [
+          {
+            "question": "What is the story about?",
+            "options": [
+              "Rafi's first trip to Dhaka",
+              "Nani's pond, and a night Rafi spent with her in the village",
+              "How Nani learned to swim last summer"
+            ],
+            "answer": 1
+          },
+          {
+            "question": "What did Nani do every day as a child?",
+            "options": [
+              "She swam in the pond",
+              "She flew kites in the field",
+              "She told stories"
+            ],
+            "answer": 0
+          }
+        ]
+      }
+    }
+  ]
+}

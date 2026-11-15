@@ -1,0 +1,564 @@
+{
+  "id": "i01-c01",
+  "unit": "i01-catching-up",
+  "title": "Checkpoint: Catching up",
+  "status": "draft",
+  "tip": "Show what you can do with the past:\n\n- follow a story told in three past tenses\n- say how your childhood was\n- pick **করতাম** (habit), **করলাম** (once) or **করছিলাম** (in progress) from the context\n\nRemember the endings by person: আমি **-তাম / -ছিলাম**, তুমি **-তে / -ছিলে**, সে **-ত / -ছিল**, আপনি **-তেন / -ছিলেন**.",
+  "vocab": [],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "reading",
+      "title": "Nani's pond",
+      "lines": [
+        {
+          "bn": "আমার নানি গ্রামে থাকেন।",
+          "tr": "amar nani grame thaken.",
+          "en": "My grandmother lives in a village."
+        },
+        {
+          "bn": "ওনার বাড়ির পাশে একটা পুকুর আছে।",
+          "tr": "onar barir pashe ekta pukur achhe.",
+          "en": "There is a pond next to her house."
+        },
+        {
+          "bn": "নানি বললেন, \"ছোটবেলায় আমি প্রতিদিন এই পুকুরে সাঁতার কাটতাম।\"",
+          "tr": "nani bollen, \"chhotobelay ami protidin ei pukure sha~tar kattam.\"",
+          "en": "Nani said, \"As a child I used to swim in this pond every day.\""
+        },
+        {
+          "bn": "তখন গ্রামে অনেক বড় মাঠ ছিল, কিন্তু এখন গ্রাম অনেক বদলে গেছে।",
+          "tr": "tokhon grame onek boro math chhilo, kintu ekhon gram onek bodle gechhe.",
+          "en": "Back then the village had lots of big fields, but now it has changed a lot."
+        },
+        {
+          "bn": "গত বছর গরমকালে আমি গ্রামে ছিলাম।",
+          "tr": "goto bochhor goromkale ami grame chhilam.",
+          "en": "Last summer I was in the village."
+        },
+        {
+          "bn": "এক রাতে আমি আর নানি গল্প করছিলাম, আর বাইরে বৃষ্টি হচ্ছিল।",
+          "tr": "ek rate ami ar nani golpo korchhilam, ar baire brishti hochchhilo.",
+          "en": "One night Nani and I were chatting, and it was raining outside."
+        },
+        {
+          "bn": "ঠিক তখন কারেন্ট চলে গেল।",
+          "tr": "thik tokhon karent chole gelo.",
+          "en": "Just then the power went off."
+        },
+        {
+          "bn": "আমাদের কাছে একটা মোমবাতি ছিল, আর নানি আমাকে তখনকার গল্প বললেন।",
+          "tr": "amader kachhe ekta mombati chhilo, ar nani amake tokhonkar golpo bollen.",
+          "en": "We had a candle, and Nani told me stories from back then."
+        }
+      ],
+      "question": "What is the story about?",
+      "options": [
+        "Nani's pond, and a night Rafi spent with her in the village",
+        "Rafi's first trip to Dhaka",
+        "How Nani learned to swim last summer"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e02",
+      "type": "reading",
+      "title": "Nani's pond",
+      "lines": [
+        {
+          "bn": "আমার নানি গ্রামে থাকেন।",
+          "tr": "amar nani grame thaken.",
+          "en": "My grandmother lives in a village."
+        },
+        {
+          "bn": "ওনার বাড়ির পাশে একটা পুকুর আছে।",
+          "tr": "onar barir pashe ekta pukur achhe.",
+          "en": "There is a pond next to her house."
+        },
+        {
+          "bn": "নানি বললেন, \"ছোটবেলায় আমি প্রতিদিন এই পুকুরে সাঁতার কাটতাম।\"",
+          "tr": "nani bollen, \"chhotobelay ami protidin ei pukure sha~tar kattam.\"",
+          "en": "Nani said, \"As a child I used to swim in this pond every day.\""
+        },
+        {
+          "bn": "তখন গ্রামে অনেক বড় মাঠ ছিল, কিন্তু এখন গ্রাম অনেক বদলে গেছে।",
+          "tr": "tokhon grame onek boro math chhilo, kintu ekhon gram onek bodle gechhe.",
+          "en": "Back then the village had lots of big fields, but now it has changed a lot."
+        },
+        {
+          "bn": "গত বছর গরমকালে আমি গ্রামে ছিলাম।",
+          "tr": "goto bochhor goromkale ami grame chhilam.",
+          "en": "Last summer I was in the village."
+        },
+        {
+          "bn": "এক রাতে আমি আর নানি গল্প করছিলাম, আর বাইরে বৃষ্টি হচ্ছিল।",
+          "tr": "ek rate ami ar nani golpo korchhilam, ar baire brishti hochchhilo.",
+          "en": "One night Nani and I were chatting, and it was raining outside."
+        },
+        {
+          "bn": "ঠিক তখন কারেন্ট চলে গেল।",
+          "tr": "thik tokhon karent chole gelo.",
+          "en": "Just then the power went off."
+        },
+        {
+          "bn": "আমাদের কাছে একটা মোমবাতি ছিল, আর নানি আমাকে তখনকার গল্প বললেন।",
+          "tr": "amader kachhe ekta mombati chhilo, ar nani amake tokhonkar golpo bollen.",
+          "en": "We had a candle, and Nani told me stories from back then."
+        }
+      ],
+      "question": "What did Nani do every day as a child?",
+      "options": [
+        "She swam in the pond",
+        "She flew kites in the field",
+        "She told stories"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e03",
+      "type": "reading",
+      "title": "Nani's pond",
+      "lines": [
+        {
+          "bn": "আমার নানি গ্রামে থাকেন।",
+          "tr": "amar nani grame thaken.",
+          "en": "My grandmother lives in a village."
+        },
+        {
+          "bn": "ওনার বাড়ির পাশে একটা পুকুর আছে।",
+          "tr": "onar barir pashe ekta pukur achhe.",
+          "en": "There is a pond next to her house."
+        },
+        {
+          "bn": "নানি বললেন, \"ছোটবেলায় আমি প্রতিদিন এই পুকুরে সাঁতার কাটতাম।\"",
+          "tr": "nani bollen, \"chhotobelay ami protidin ei pukure sha~tar kattam.\"",
+          "en": "Nani said, \"As a child I used to swim in this pond every day.\""
+        },
+        {
+          "bn": "তখন গ্রামে অনেক বড় মাঠ ছিল, কিন্তু এখন গ্রাম অনেক বদলে গেছে।",
+          "tr": "tokhon grame onek boro math chhilo, kintu ekhon gram onek bodle gechhe.",
+          "en": "Back then the village had lots of big fields, but now it has changed a lot."
+        },
+        {
+          "bn": "গত বছর গরমকালে আমি গ্রামে ছিলাম।",
+          "tr": "goto bochhor goromkale ami grame chhilam.",
+          "en": "Last summer I was in the village."
+        },
+        {
+          "bn": "এক রাতে আমি আর নানি গল্প করছিলাম, আর বাইরে বৃষ্টি হচ্ছিল।",
+          "tr": "ek rate ami ar nani golpo korchhilam, ar baire brishti hochchhilo.",
+          "en": "One night Nani and I were chatting, and it was raining outside."
+        },
+        {
+          "bn": "ঠিক তখন কারেন্ট চলে গেল।",
+          "tr": "thik tokhon karent chole gelo.",
+          "en": "Just then the power went off."
+        },
+        {
+          "bn": "আমাদের কাছে একটা মোমবাতি ছিল, আর নানি আমাকে তখনকার গল্প বললেন।",
+          "tr": "amader kachhe ekta mombati chhilo, ar nani amake tokhonkar golpo bollen.",
+          "en": "We had a candle, and Nani told me stories from back then."
+        }
+      ],
+      "question": "What happened while Rafi and Nani were chatting?",
+      "options": [
+        "It started to rain",
+        "Nani fell asleep",
+        "The power went off"
+      ],
+      "answer": 2,
+      "why": "The rain was already going on (**হচ্ছিল**); the event was **কারেন্ট চলে গেল**."
+    },
+    {
+      "id": "e04",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "নানি বললেন, \"ছোটবেলায় আমি প্রতিদিন এই পুকুরে সাঁতার কাটতাম।\"",
+        "tr": "nani bollen, \"chhotobelay ami protidin ei pukure sha~tar kattam.\"",
+        "en": "Nani said, \"As a child I used to swim in this pond every day.\""
+      },
+      "options": [
+        "Nani said, \"I swim in this pond every day.\"",
+        "Nani said, \"As a child I used to swim in this pond every day.\"",
+        "Nani said, \"I swam in this pond yesterday.\"",
+        "Nani said, \"I never learned to swim.\""
+      ],
+      "answer": 1,
+      "why": "**সাঁতার কাটতাম**: a childhood habit."
+    },
+    {
+      "id": "e05",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "এক রাতে আমি আর নানি গল্প করছিলাম, আর বাইরে বৃষ্টি হচ্ছিল।",
+        "tr": "ek rate ami ar nani golpo korchhilam, ar baire brishti hochchhilo.",
+        "en": "One night Nani and I were chatting, and it was raining outside."
+      },
+      "options": [
+        "Every night Nani told me a story.",
+        "One night it rained, so we didn't talk.",
+        "One night Nani and I went out in the rain.",
+        "One night Nani and I were chatting, and it was raining outside."
+      ],
+      "answer": 3,
+      "why": "Two background verbs: **গল্প করছিলাম**, **হচ্ছিল**."
+    },
+    {
+      "id": "e06",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "ছোটবেলায় আমি প্রতিদিন স্কুলে যেতাম।",
+        "tr": "chhotobelay ami protidin skule jetam.",
+        "en": "As a child I went to school every day."
+      },
+      "blank": "যেতাম",
+      "options": [
+        "গেলাম",
+        "যেতাম",
+        "যাচ্ছিলাম"
+      ],
+      "answer": 1,
+      "why": "Every day in childhood: a habit, **যেতাম**."
+    },
+    {
+      "id": "e07",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "গতকাল আমি বাজারে গেলাম।",
+        "tr": "gotokal ami bajare gelam.",
+        "en": "Yesterday I went to the market."
+      },
+      "blank": "গেলাম",
+      "options": [
+        "যেতাম",
+        "গেলাম",
+        "যাচ্ছিলাম"
+      ],
+      "answer": 1,
+      "why": "One finished event yesterday: **গেলাম**."
+    },
+    {
+      "id": "e08",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আমি বাজারে যাচ্ছিলাম, ঠিক তখন নাদিয়া ফোন করল।",
+        "tr": "ami bajare jachchhilam, thik tokhon nadiya fon korlo.",
+        "en": "I was going to the market when Nadia called."
+      },
+      "blank": "যাচ্ছিলাম",
+      "options": [
+        "যেতাম",
+        "যাচ্ছিলাম",
+        "গেলাম"
+      ],
+      "answer": 1,
+      "why": "In progress when the call came: **যাচ্ছিলাম**."
+    },
+    {
+      "id": "e09",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আপনি তখন কী করতেন?",
+        "tr": "apni tokhon ki korten?",
+        "en": "What did you (polite) use to do then?"
+      },
+      "blank": "করতেন",
+      "options": [
+        "করতে",
+        "করত",
+        "করতেন"
+      ],
+      "answer": 2,
+      "why": "আপনি + used to: **করতেন**."
+    },
+    {
+      "id": "e10",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "নাদিয়া যখন ফোন করল, তখন তুমি কী করছিলে?",
+        "tr": "nadiya jokhon fon korlo, tokhon tumi ki korchhile?",
+        "en": "When Nadia called, what were you (familiar) doing?"
+      },
+      "blank": "করছিলে",
+      "accepted": [
+        "করছিলে",
+        "korchhile",
+        "korchile"
+      ],
+      "why": "তুমি + was doing: **করছিলে**."
+    },
+    {
+      "id": "e11",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "ছোটবেলায় আমি গ্রামে থাকতাম।",
+        "tr": "chhotobelay ami grame thaktam.",
+        "en": "When I was small, I lived in a village."
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "ছোটবেলায় আমি গ্রামে থাকতাম",
+        "ছোটোবেলায় আমি গ্রামে থাকতাম",
+        "আমি ছোটবেলায় গ্রামে থাকতাম",
+        "আমি ছোটোবেলায় গ্রামে থাকতাম",
+        "ছোটবেলায় গ্রামে থাকতাম",
+        "ছোটোবেলায় গ্রামে থাকতাম",
+        "chhotobelay ami grame thaktam",
+        "chotobelay ami grame thaktam",
+        "ami chhotobelay grame thaktam",
+        "ami chotobelay grame thaktam",
+        "chhotobelay grame thaktam",
+        "chotobelay grame thaktam"
+      ],
+      "why": "**ছোটবেলায়** + **থাকতাম**."
+    },
+    {
+      "id": "e12",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "গরমকালে আমরা পুকুরে সাঁতার কাটতাম।",
+        "tr": "goromkale amra pukure sha~tar kattam.",
+        "en": "In summer we used to swim in the pond."
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "গরমকালে আমরা পুকুরে সাঁতার কাটতাম",
+        "আমরা গরমকালে পুকুরে সাঁতার কাটতাম",
+        "গরমকালে পুকুরে সাঁতার কাটতাম",
+        "goromkale amra pukure sha~tar kattam",
+        "goromkale amra pukure shatar kattam",
+        "amra goromkale pukure sha~tar kattam",
+        "amra goromkale pukure shatar kattam",
+        "goromkale pukure sha~tar kattam",
+        "goromkale pukure shatar kattam"
+      ],
+      "why": "**গরমকালে** + **সাঁতার কাটতাম**."
+    },
+    {
+      "id": "e13",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আমি এখন আর ক্রিকেট খেলি না।",
+        "tr": "ami ekhon ar kriket kheli na.",
+        "en": "I don't play cricket any more."
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "আমি এখন আর ক্রিকেট খেলি না",
+        "এখন আর আমি ক্রিকেট খেলি না",
+        "এখন আর ক্রিকেট খেলি না",
+        "ami ekhon ar kriket kheli na",
+        "ekhon ar ami kriket kheli na",
+        "ekhon ar kriket kheli na"
+      ],
+      "why": "**এখন আর** + present + **না**."
+    },
+    {
+      "id": "e14",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "নানি প্রতি রাতে আমাকে গল্প বলতেন।",
+        "tr": "nani proti rate amake golpo bolten.",
+        "en": "Nani used to tell me stories every night."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "আমাকে",
+        "বলি",
+        "প্রতিদিন",
+        "বলতেন",
+        "বললেন",
+        "রাতে",
+        "প্রতি",
+        "গল্প",
+        "নানি"
+      ],
+      "answer": [
+        "নানি",
+        "প্রতি",
+        "রাতে",
+        "আমাকে",
+        "গল্প",
+        "বলতেন"
+      ],
+      "alt": [
+        [
+          "প্রতি",
+          "রাতে",
+          "নানি",
+          "আমাকে",
+          "গল্প",
+          "বলতেন"
+        ]
+      ],
+      "why": "Nani (polite) + every night: **বলতেন**. বললেন = told (once)."
+    },
+    {
+      "id": "e15",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমি যখন খাচ্ছিলাম, তখন কারেন্ট চলে গেল।",
+        "tr": "ami jokhon khachchhilam, tokhon karent chole gelo.",
+        "en": "When I was eating, the power went off."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "খেতাম",
+        "খাচ্ছিলাম",
+        "চলে",
+        "এখন",
+        "আমি",
+        "তখন",
+        "যখন",
+        "কারেন্ট",
+        "খেলাম",
+        "গেল"
+      ],
+      "answer": [
+        "আমি",
+        "যখন",
+        "খাচ্ছিলাম",
+        "তখন",
+        "কারেন্ট",
+        "চলে",
+        "গেল"
+      ],
+      "alt": [
+        [
+          "যখন",
+          "আমি",
+          "খাচ্ছিলাম",
+          "তখন",
+          "কারেন্ট",
+          "চলে",
+          "গেল"
+        ]
+      ],
+      "why": "Background **খাচ্ছিলাম**, event **চলে গেল**."
+    },
+    {
+      "id": "e16",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আমাদের গ্রাম অনেক বদলে গেছে।",
+        "tr": "amader gram onek bodle gechhe.",
+        "en": "Our village has changed a lot."
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "আমাদের গ্রাম অনেক বদলে গেছে।",
+        "আমাদের গ্রাম আগের মতো আছে।",
+        "আমরা অনেক গ্রামে যেতাম।",
+        "আমাদের গ্রাম অনেক বড় ছিল।"
+      ],
+      "answer": 0,
+      "why": "**বদলে গেছে** 'has changed'."
+    },
+    {
+      "id": "r01",
+      "type": "listen_select",
+      "audio": {
+        "bn": "করছিল",
+        "tr": "korchhilo",
+        "en": "he/she was doing"
+      },
+      "options": [
+        "করছিল",
+        "খেয়েছেন",
+        "পারি",
+        "যেতাম"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "নাদিয়া তখন বাসায় আসছিল।",
+        "tr": "nadiya tokhon bashay ashchhilo.",
+        "en": "Nadia was coming home then."
+      },
+      "blank": "আসছিল",
+      "options": [
+        "আসছিল",
+        "বসো",
+        "গিয়েছি",
+        "শিখতে"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "শহীদ মিনার কোথায়?",
+        "tr": "shohid minar kothay?",
+        "en": "Where is the Shaheed Minar?"
+      },
+      "options": [
+        "Where is the mosque? Behind the market.",
+        "Where is the Shaheed Minar?",
+        "Independence Day is a holiday.",
+        "You are a student."
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "জন্য",
+          "tr": "jonno",
+          "en": "for"
+        },
+        {
+          "bn": "জন্মদিন",
+          "tr": "jonmodin",
+          "en": "birthday"
+        },
+        {
+          "bn": "লোক",
+          "tr": "lok",
+          "en": "people"
+        },
+        {
+          "bn": "পূজা",
+          "tr": "puja",
+          "en": "puja"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "পূজায়",
+          "tr": "pujay",
+          "en": "at Puja"
+        },
+        {
+          "bn": "মন্দিরে",
+          "tr": "mondire",
+          "en": "to the temple"
+        },
+        {
+          "bn": "স্বাধীনতা",
+          "tr": "shadhinota",
+          "en": "independence"
+        },
+        {
+          "bn": "ভাষা",
+          "tr": "bhasha",
+          "en": "language"
+        }
+      ],
+      "recycle": true
+    }
+  ]
+}

@@ -1,0 +1,623 @@
+{
+  "id": "i01-l02",
+  "unit": "i01-catching-up",
+  "title": "You used to…",
+  "status": "draft",
+  "tip": "The habitual past takes the same person endings as ছিলাম / ছিলে / ছিল / ছিলেন:\n\n- আমি **করতাম** · তুই **করতি** · তুমি **করতে** · সে **করত** · আপনি / উনি **করতেন**\n\nPlurals match their singulars: আমরা করতাম, তোমরা করতে, তারা করত.\n\nWatch out: তুমি **করতে** 'you used to do' is spelled exactly like the infinitive **করতে** 'to do' (করতে পারি 'I can do'). The subject decides: **তুমি ছোটবেলায় কী করতে?** 'What did you use to do as a child?'\n\n**প্রতি** + a time word means 'every': **প্রতি রাতে** 'every night', **প্রতি শুক্রবার** 'every Friday'.\n\nYou'll also see করতো, থাকতো: same word, another spelling.",
+  "vocab": [
+    {
+      "id": "korti",
+      "bn": "করতি",
+      "tr": "korti",
+      "en": "you used to do (intimate)"
+    },
+    {
+      "id": "korte-hab",
+      "bn": "করতে",
+      "tr": "korte",
+      "en": "you used to do (familiar)",
+      "notes": "Same spelling as the infinitive করতে 'to do'; the subject decides: তুমি কী করতে? 'What did you use to do?'"
+    },
+    {
+      "id": "korten",
+      "bn": "করতেন",
+      "tr": "korten",
+      "en": "you / he, she (polite) used to do"
+    },
+    {
+      "id": "korto",
+      "bn": "করত",
+      "tr": "korto",
+      "en": "he/she used to do",
+      "notes": "Also spelled করতো."
+    },
+    {
+      "id": "thakto",
+      "bn": "থাকত",
+      "tr": "thakto",
+      "en": "he/she used to live",
+      "notes": "Also spelled থাকতো."
+    },
+    {
+      "id": "thakten",
+      "bn": "থাকতেন",
+      "tr": "thakten",
+      "en": "you / he, she (polite) used to live"
+    },
+    {
+      "id": "jeto",
+      "bn": "যেত",
+      "tr": "jeto",
+      "en": "he/she used to go",
+      "notes": "Also spelled যেতো."
+    },
+    {
+      "id": "bolten",
+      "bn": "বলতেন",
+      "tr": "bolten",
+      "en": "you / he, she (polite) used to tell"
+    },
+    {
+      "id": "ashto",
+      "bn": "আসত",
+      "tr": "ashto",
+      "en": "he/she used to come",
+      "notes": "Also spelled আসতো."
+    },
+    {
+      "id": "proti",
+      "bn": "প্রতি",
+      "tr": "proti",
+      "en": "every",
+      "notes": "প্রতি + time word: প্রতি রাতে 'every night', প্রতি শুক্রবার 'every Friday'."
+    },
+    {
+      "id": "golpo",
+      "bn": "গল্প",
+      "tr": "golpo",
+      "en": "story"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "থাকতাম",
+        "tr": "thaktam",
+        "en": "I used to live"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "থাকি",
+        "থাকব",
+        "ছিলাম",
+        "থাকতাম"
+      ],
+      "answer": 3,
+      "why": "Used to: **-তাম**."
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "যেতাম",
+        "tr": "jetam",
+        "en": "I used to go"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "যাই",
+        "গেলাম",
+        "যাব",
+        "যেতাম"
+      ],
+      "answer": 3,
+      "why": "যাওয়া → **যেতাম** in the habitual."
+    },
+    {
+      "id": "e03",
+      "type": "reading",
+      "title": "Nani's school days",
+      "lines": [
+        {
+          "speaker": "Rafi",
+          "bn": "নানি, তুমি ছোটবেলায় কী করতে?",
+          "tr": "nani, tumi chhotobelay ki korte?",
+          "en": "Nani, what did you use to do when you were small?"
+        },
+        {
+          "speaker": "Nani",
+          "bn": "আমি প্রতিদিন স্কুলে যেতাম।",
+          "tr": "ami protidin skule jetam.",
+          "en": "I went to school every day."
+        },
+        {
+          "speaker": "Rafi",
+          "bn": "তোমার ছোট বোন কি তোমার সাথে যেত?",
+          "tr": "tomar chhoto bon ki tomar shathe jeto?",
+          "en": "Did your little sister go with you?"
+        },
+        {
+          "speaker": "Nani",
+          "bn": "হ্যাঁ, ও আমার সাথে যেত।",
+          "tr": "hya~, o amar shathe jeto.",
+          "en": "Yes, she used to go with me."
+        },
+        {
+          "speaker": "Rafi",
+          "bn": "আর রাতে তোমরা কী করতে?",
+          "tr": "ar rate tomra ki korte?",
+          "en": "And what did you all do at night?"
+        },
+        {
+          "speaker": "Nani",
+          "bn": "আমার বাবা প্রতি রাতে আমাদের গল্প বলতেন।",
+          "tr": "amar baba proti rate amader golpo bolten.",
+          "en": "My father used to tell us stories every night."
+        }
+      ],
+      "question": "Who used to go to school with Nani?",
+      "options": [
+        "Her father",
+        "Rafi",
+        "Her little sister"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e04",
+      "type": "reading",
+      "title": "Nani's school days",
+      "lines": [
+        {
+          "speaker": "Rafi",
+          "bn": "নানি, তুমি ছোটবেলায় কী করতে?",
+          "tr": "nani, tumi chhotobelay ki korte?",
+          "en": "Nani, what did you use to do when you were small?"
+        },
+        {
+          "speaker": "Nani",
+          "bn": "আমি প্রতিদিন স্কুলে যেতাম।",
+          "tr": "ami protidin skule jetam.",
+          "en": "I went to school every day."
+        },
+        {
+          "speaker": "Rafi",
+          "bn": "তোমার ছোট বোন কি তোমার সাথে যেত?",
+          "tr": "tomar chhoto bon ki tomar shathe jeto?",
+          "en": "Did your little sister go with you?"
+        },
+        {
+          "speaker": "Nani",
+          "bn": "হ্যাঁ, ও আমার সাথে যেত।",
+          "tr": "hya~, o amar shathe jeto.",
+          "en": "Yes, she used to go with me."
+        },
+        {
+          "speaker": "Rafi",
+          "bn": "আর রাতে তোমরা কী করতে?",
+          "tr": "ar rate tomra ki korte?",
+          "en": "And what did you all do at night?"
+        },
+        {
+          "speaker": "Nani",
+          "bn": "আমার বাবা প্রতি রাতে আমাদের গল্প বলতেন।",
+          "tr": "amar baba proti rate amader golpo bolten.",
+          "en": "My father used to tell us stories every night."
+        }
+      ],
+      "question": "What happened every night?",
+      "options": [
+        "Nani's father told the children stories",
+        "Nani told Rafi a story",
+        "Nani went to school"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e05",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "আপনি ছোটবেলায় কোথায় থাকতেন?",
+        "tr": "apni chhotobelay kothay thakten?",
+        "en": "Where did you (polite) live as a child?"
+      },
+      "options": [
+        "Where do you live now?",
+        "Where did you (polite) live as a child?",
+        "Who did you live with as a child?",
+        "Where were you yesterday?"
+      ],
+      "answer": 1,
+      "why": "আপনি + used to: **থাকতেন**."
+    },
+    {
+      "id": "e06",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "নাদিয়া প্রতি শুক্রবার আমাদের বাসায় আসত।",
+        "tr": "nadiya proti shukrobar amader bashay ashto.",
+        "en": "Nadia used to come to our home every Friday."
+      },
+      "options": [
+        "Nadia used to come to our home every Friday.",
+        "Nadia came to our home last Friday.",
+        "We used to go to Nadia's home every Friday.",
+        "Nadia is coming to our home on Friday."
+      ],
+      "answer": 0,
+      "why": "**প্রতি শুক্রবার** 'every Friday' + **আসত** 'she used to come'."
+    },
+    {
+      "id": "e07",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "করতাম",
+          "tr": "kortam",
+          "en": "I used to do"
+        },
+        {
+          "bn": "করতি",
+          "tr": "korti",
+          "en": "you (intimate) used to do"
+        },
+        {
+          "bn": "করতে",
+          "tr": "korte",
+          "en": "you (familiar) used to do"
+        },
+        {
+          "bn": "করত",
+          "tr": "korto",
+          "en": "he/she used to do"
+        },
+        {
+          "bn": "করতেন",
+          "tr": "korten",
+          "en": "you / he, she (polite) used to do"
+        }
+      ]
+    },
+    {
+      "id": "e08",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আর রাতে তোমরা কী করতে?",
+        "tr": "ar rate tomra ki korte?",
+        "en": "And what did you all do at night?"
+      },
+      "blank": "করতে",
+      "options": [
+        "করতাম",
+        "করতে",
+        "করত",
+        "করতেন"
+      ],
+      "answer": 1,
+      "why": "তুমি / তোমরা take **-তে**: করতে. Here it means 'you used to do', not 'to do'."
+    },
+    {
+      "id": "e09",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আমার দাদি প্রতি রাতে আমাদের গল্প বলতেন।",
+        "tr": "amar dadi proti rate amader golpo bolten.",
+        "en": "My grandmother used to tell us stories every night."
+      },
+      "blank": "বলতেন",
+      "options": [
+        "বলি",
+        "বলেন",
+        "বলতেন",
+        "বলল"
+      ],
+      "answer": 2,
+      "why": "A grandmother gets the polite ending, and 'every night' needs the habitual: **বলতেন**. বলেন = tells (now); বলল = said (once)."
+    },
+    {
+      "id": "e10",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "সে তখন ঢাকায় থাকত না।",
+        "tr": "she tokhon dhakay thakto na.",
+        "en": "He didn't live in Dhaka then."
+      },
+      "options": [
+        "He didn't live in Dhaka then.",
+        "He doesn't live in Dhaka now.",
+        "He was in Dhaka then.",
+        "He hasn't been to Dhaka."
+      ],
+      "answer": 0,
+      "why": "**থাকত না**: the habitual negated with না."
+    },
+    {
+      "id": "e11",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "রাফি আমাদের বাড়ির পাশে থাকত।",
+        "tr": "rafi amader barir pashe thakto.",
+        "en": "Rafi used to live next to our house."
+      },
+      "blank": "থাকত",
+      "options": [
+        "থাকি",
+        "থাকতাম",
+        "থাকত",
+        "থাকে"
+      ],
+      "answer": 2,
+      "why": "Rafi is সে: **-ত** → থাকত. থাকে is 'he lives' (now)."
+    },
+    {
+      "id": "e12",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আমার নানা শহরে কাজ করতেন।",
+        "tr": "amar nana shohore kaj korten.",
+        "en": "My grandfather (polite) used to work in the city."
+      },
+      "blank": "করতেন",
+      "accepted": [
+        "করতেন",
+        "korten"
+      ],
+      "why": "Grandparents get the polite ending: **করতেন**."
+    },
+    {
+      "id": "e13",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "তুমি ছোটবেলায় কী করতে?",
+        "tr": "tumi chhotobelay ki korte?",
+        "en": "What did you (familiar) use to do as a child?"
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "কী",
+        "আপনি",
+        "তুমি",
+        "ছোটবেলায়",
+        "করতে",
+        "করতেন",
+        "করতি"
+      ],
+      "answer": [
+        "তুমি",
+        "ছোটবেলায়",
+        "কী",
+        "করতে"
+      ],
+      "alt": [
+        [
+          "ছোটবেলায়",
+          "তুমি",
+          "কী",
+          "করতে"
+        ]
+      ],
+      "why": "তুমি → **করতে**: same spelling as 'to do', but here it means 'you used to do'."
+    },
+    {
+      "id": "e14",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "তুই তখন কী করতি?",
+        "tr": "tui tokhon ki korti?",
+        "en": "What did you (intimate) use to do back then?"
+      },
+      "options": [
+        "What did you (intimate) use to do back then?",
+        "What do you do now?",
+        "What did I use to do back then?",
+        "What did you do yesterday?"
+      ],
+      "answer": 0,
+      "why": "তুই → **করতি**."
+    },
+    {
+      "id": "e15",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আমার বড় ভাই অফিসে কাজ করত।",
+        "tr": "amar boro bhai ofise kaj korto.",
+        "en": "My elder brother used to work in an office."
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "আমার বড় ভাই অফিসে কাজ করত",
+        "আমার বড় ভাই অফিসে কাজ করতো",
+        "আমার বড়ো ভাই অফিসে কাজ করত",
+        "আমার বড়ো ভাই অফিসে কাজ করতো",
+        "amar boro bhai ofise kaj korto"
+      ],
+      "why": "Your brother is সে: **করত**."
+    },
+    {
+      "id": "e16",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আপনি ছোটবেলায় কোথায় থাকতেন?",
+        "tr": "apni chhotobelay kothay thakten?",
+        "en": "Where did you (polite) live as a child?"
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "আপনি ছোটবেলায় কোথায় থাকতেন",
+        "আপনি ছোটোবেলায় কোথায় থাকতেন",
+        "ছোটবেলায় আপনি কোথায় থাকতেন",
+        "ছোটোবেলায় আপনি কোথায় থাকতেন",
+        "apni chhotobelay kothay thakten",
+        "apni chotobelay kothay thakten",
+        "chhotobelay apni kothay thakten",
+        "chotobelay apni kothay thakten"
+      ],
+      "why": "আপনি → **-তেন**: থাকতেন."
+    },
+    {
+      "id": "e17",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "নাদিয়া প্রতি শুক্রবার আমাদের বাসায় আসত।",
+        "tr": "nadiya proti shukrobar amader bashay ashto.",
+        "en": "Nadia used to come to our home every Friday."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "আসছে",
+        "প্রতি",
+        "বাসায়",
+        "শুক্রবার",
+        "আসত",
+        "আসে",
+        "প্রতিদিন",
+        "আমাদের",
+        "নাদিয়া"
+      ],
+      "answer": [
+        "নাদিয়া",
+        "প্রতি",
+        "শুক্রবার",
+        "আমাদের",
+        "বাসায়",
+        "আসত"
+      ],
+      "alt": [
+        [
+          "প্রতি",
+          "শুক্রবার",
+          "নাদিয়া",
+          "আমাদের",
+          "বাসায়",
+          "আসত"
+        ]
+      ],
+      "why": "**প্রতি** + day = 'every …'; Nadia is সে → **আসত**."
+    },
+    {
+      "id": "e18",
+      "type": "listen_select",
+      "audio": {
+        "bn": "গল্প",
+        "tr": "golpo",
+        "en": "story"
+      },
+      "options": [
+        "গান",
+        "গরম",
+        "গল্প",
+        "গ্রাম"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "r01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "পড়তাম",
+        "tr": "portam",
+        "en": "I used to study"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "you were (familiar)",
+        "he/she came",
+        "I love",
+        "I used to study"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "listen_select",
+      "audio": {
+        "bn": "খেলতাম",
+        "tr": "kheltam",
+        "en": "I used to play"
+      },
+      "options": [
+        "খাবি",
+        "খেলতাম",
+        "খায়",
+        "দিতে"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "ছোটবেলায় খেলা আমার খুব পছন্দ ছিল।",
+        "tr": "chhotobelay khela amar khub pochhondo chhilo.",
+        "en": "As a child I really liked playing."
+      },
+      "blank": "খেলা",
+      "options": [
+        "খালা",
+        "স্কুল",
+        "মুখ",
+        "খেলা"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "মাঠ",
+          "tr": "math",
+          "en": "field; playground"
+        },
+        {
+          "bn": "ছোটবেলা",
+          "tr": "chhotobela",
+          "en": "childhood"
+        },
+        {
+          "bn": "পুকুর",
+          "tr": "pukur",
+          "en": "pond"
+        },
+        {
+          "bn": "মাঠে",
+          "tr": "mathe",
+          "en": "in the field"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "যাবেন",
+          "tr": "jaben",
+          "en": "will you go (polite)"
+        },
+        {
+          "bn": "জন্য",
+          "tr": "jonno",
+          "en": "for"
+        },
+        {
+          "bn": "কেউ",
+          "tr": "keu",
+          "en": "someone"
+        },
+        {
+          "bn": "আছে",
+          "tr": "achhe",
+          "en": "is (he/she/it)"
+        }
+      ],
+      "recycle": true
+    }
+  ]
+}
