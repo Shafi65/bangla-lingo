@@ -83,6 +83,10 @@ async function answerCorrectly(page: Page, ex: Ex) {
 }
 
 test("completes u01-l01 with every answer correct and earns XP", async ({ page }) => {
+  // A fresh browser would be sent to the first-run intro; this test starts on the map.
+  await page.addInitScript(() => {
+    localStorage.setItem("banglalingo.onboarding.v1", JSON.stringify({ version: 1, completed: true, skipped: true }));
+  });
   await page.goto("/");
   await expect(page.getByRole("link", { name: new RegExp(lesson.title, "i") }).first()).toBeVisible();
   const before = await progress(page);
