@@ -20,6 +20,11 @@ export type DailyGoal = (typeof DAILY_GOALS)[number];
 
 export interface Settings {
   translit: TranslitMode;
+  /**
+   * Intermediate ("script only") lessons hide transliteration until tapped; turn this on to follow the
+   * `translit` setting there too.
+   */
+  alwaysRomanize: boolean;
   sound: boolean;
   ttsSpeed: TtsSpeed;
   dailyGoal: DailyGoal;
@@ -28,6 +33,7 @@ export interface Settings {
 
 export const DEFAULT_SETTINGS: Settings = Object.freeze({
   translit: "auto",
+  alwaysRomanize: false,
   sound: true,
   ttsSpeed: "normal",
   dailyGoal: 20,
@@ -163,6 +169,7 @@ export function sanitizeSettings(s: unknown, fallbackTheme: ThemePref = DEFAULT_
     translit: (["always", "auto", "hidden"] as const).includes(v.translit as TranslitMode)
       ? (v.translit as TranslitMode)
       : DEFAULT_SETTINGS.translit,
+    alwaysRomanize: typeof v.alwaysRomanize === "boolean" ? v.alwaysRomanize : DEFAULT_SETTINGS.alwaysRomanize,
     sound: typeof v.sound === "boolean" ? v.sound : DEFAULT_SETTINGS.sound,
     ttsSpeed: (["slow", "normal", "fast"] as const).includes(v.ttsSpeed as TtsSpeed)
       ? (v.ttsSpeed as TtsSpeed)

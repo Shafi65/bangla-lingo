@@ -1,6 +1,6 @@
 // Server-only: Bengali -> transliteration lookup built from content.
 //
-// Sources (earlier wins): content/lexicon/*.json entries, lesson vocab,
+// Sources (earlier wins): content/lexicon/*.json entries, content/assumed/*.json entries, lesson vocab,
 // content/plans/*.json sentences, then prompts/pairs/audio inside lessons.
 // Each (bn, tr) pair is indexed as a whole string and, when the word counts
 // line up, token by token. `translitFor` then returns only the entries a given
@@ -70,6 +70,11 @@ function build(): Index {
 
   const base = path.resolve(getContentBaseDir());
   for (const f of jsonFiles(path.join(base, "lexicon"))) {
+    const d = readJson(f) as { entries?: { bn?: unknown; tr?: unknown }[] } | undefined;
+    for (const e of d?.entries ?? []) add(e?.bn, e?.tr);
+  }
+  // assumed-known lists (content/assumed/*.json): words intermediate units use without teaching them
+  for (const f of jsonFiles(path.join(base, "assumed"))) {
     const d = readJson(f) as { entries?: { bn?: unknown; tr?: unknown }[] } | undefined;
     for (const e of d?.entries ?? []) add(e?.bn, e?.tr);
   }

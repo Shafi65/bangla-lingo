@@ -14,6 +14,24 @@ export const POS = new Set([
 ]);
 export const REGISTERS = new Set(["intimate", "familiar", "polite", "formal-written"]);
 
+// Levels: a unit is "beginner" unless course.json says "level": "intermediate".
+export const LEVELS = ["beginner", "intermediate"];
+export const unitLevel = (u) => (u?.level === "intermediate" ? "intermediate" : "beginner");
+/** Section number of a unit (missing = 1). */
+export const unitSection = (u) => (Number.isInteger(u?.section) && u.section >= 1 ? u.section : 1);
+/** Most new items one main-track lesson may introduce (strict), by level. */
+export const MAX_NEW = { beginner: 10, intermediate: 12 };
+/** Hand-written exercises per lesson (warning outside the range), by level. */
+export const EXERCISE_RANGE = { beginner: [8, 15], intermediate: [12, 18] };
+/**
+ * Skill-balance targets per level, in percent: English->Bengali share of directed exercises,
+ * typed Bengali share of exercises, sentence-level listening share of exercises (null = no target).
+ */
+export const LEVEL_TARGETS = {
+  beginner: { enToBn: 45, typedBn: 8, sentListen: null },
+  intermediate: { enToBn: 55, typedBn: 15, sentListen: 20 },
+};
+
 export function readJson(file) {
   return JSON.parse(fs.readFileSync(file, "utf8"));
 }
@@ -87,6 +105,19 @@ export function loadAll() {
     }
   }
 
+  // Assumed-known lists: content/assumed/<name>.json ({ name, entries }), listed by a unit's "assumes".
+  const assumed = new Map(); // name -> { name, entries: [...(+ _assumed, _name, _file)], _file }
+  const asmDir = path.join(ROOT, "assumed");
+  for (const f of fs.existsSync(asmDir) ? fs.readdirSync(asmDir).filter((x) => x.endsWith(".json")).sort() : []) {
+    const file = path.join(asmDir, f);
+    let data;
+    try { data = readJson(file); } catch (e) { P("error", rel(file), `invalid JSON: ${e.message}`); continue; }
+    const name = f.replace(/\.json$/, "");
+    if (data?.name !== name) P("error", rel(file), `name "${data?.name}" doesn't match file name`);
+    if (!Array.isArray(data?.entries)) { P("error", rel(file), "entries must be an array"); continue; }
+    assumed.set(name, { name, _file: rel(file), entries: data.entries.map((e) => ({ ...e, _assumed: true, _name: name, _file: rel(file) })) });
+  }
+
   // Plans
   const plans = new Map(); // unitId -> plan
   const planDir = path.join(ROOT, "plans");
@@ -113,16 +144,28 @@ export function loadAll() {
   }
   for (const [uid, plan] of plans) if (!units.has(uid)) P("error", plan._file, `unit "${uid}" is not in course.json`);
 
-  return { course, units, lexicon, plans, order, lessonInfo, problems };
+  return { course, units, lexicon, assumed, plans, order, lessonInfo, problems };
 }
 
-/** All lexicon entries introduced at or before the given lesson (course order). */
+/** Assumed-known entries a unit may use without teaching them (its "assumes" lists), tagged `_assumed: true`. */
+export function assumedFor(ctx, unit) {
+  const out = [];
+  for (const name of Array.isArray(unit?.assumes) ? unit.assumes : []) out.push(...(ctx.assumed?.get(name)?.entries ?? []));
+  return out;
+}
+
+/**
+ * All entries known at or before the given lesson: lexicon entries introduced by then (course order), plus
+ * the assumed-known entries of the lesson's unit (flagged `_assumed`, no `lesson`/`_unit`).
+ */
 export function knownAt(ctx, lessonId) {
-  const idx = ctx.lessonInfo.get(lessonId)?.index ?? -1;
-  return [...ctx.lexicon.values()].filter((e) => {
+  const info = ctx.lessonInfo.get(lessonId);
+  const idx = info?.index ?? -1;
+  const lex = [...ctx.lexicon.values()].filter((e) => {
     const i = ctx.lessonInfo.get(e.lesson)?.index;
     return i !== undefined && i <= idx;
   });
+  return info ? [...lex, ...assumedFor(ctx, info.unit)] : lex;
 }
 
 /** Deterministic PRNG (mulberry32) seeded from a string. */
@@ -263,11 +306,13 @@ export function findUntaught(ctx, lessons) {
   const out = [];
   for (const l of lessons) {
     if (l.unit.track === "script") continue; // script lessons preview later words and build syllables
+    const assumedTok = new Set(assumedFor(ctx, l.unit).flatMap((e) => tokenize(e.bn ?? ""))); // units that "assume" a list
     for (const ex of l.data.exercises) {
       for (const t of exerciseTokens(ex)) {
         const at = introAt.get(t);
+        if (assumedTok.has(t)) continue;
         if (at !== undefined && at <= l.idx) continue;
-        if ([...t].length > 1 && [...t].every((c) => DIGITS.includes(c) && (introAt.get(c) ?? Infinity) <= l.idx)) continue;
+        if ([...t].length > 1 && [...t].every((c) => DIGITS.includes(c) && ((introAt.get(c) ?? Infinity) <= l.idx || assumedTok.has(c)))) continue;
         out.push({ lesson: l.id, ex: ex.id, token: t, taughtIn: at === undefined ? null : ctx.order[at] });
       }
     }
@@ -294,4 +339,44 @@ export function findProductionFirst(lessons) {
     }
   }
   return out;
+}
+
+// ---------------------------------------------------------------------------
+// Skill balance per unit / level (audit, validate --strict)
+// ---------------------------------------------------------------------------
+
+/**
+ * Skill-balance counts over the hand-written (non-recycle) exercises of the given lessons.
+ * Directed exercises are those with a direction plus fill_blank (which counts as English->Bengali).
+ * typedBn = typed English->Bengali translations + typed fill_blank. sentListen = listen_meaning + reading.
+ */
+export function skillStats(lessons) {
+  const st = { lessons: lessons.length, total: 0, directed: 0, enToBn: 0, typedBn: 0, sentListen: 0, reading: 0, listenMeaning: 0, fillChoice: 0, fillTyped: 0 };
+  for (const l of lessons) {
+    for (const ex of l.data.exercises) {
+      if (isRecycle(ex)) continue;
+      st.total++;
+      if (ex.type === "fill_blank") {
+        st.directed++; st.enToBn++;
+        if (ex.options) st.fillChoice++; else { st.fillTyped++; st.typedBn++; }
+      } else if (ex.direction) {
+        st.directed++;
+        if (ex.direction === "en_to_bn") st.enToBn++;
+        if (ex.type === "type_translation" && ex.direction === "en_to_bn") st.typedBn++;
+      }
+      if (ex.type === "listen_meaning") { st.sentListen++; st.listenMeaning++; }
+      if (ex.type === "reading") { st.sentListen++; st.reading++; }
+    }
+  }
+  st.enToBnPct = (100 * st.enToBn) / Math.max(1, st.directed);
+  st.typedBnPct = (100 * st.typedBn) / Math.max(1, st.total);
+  st.sentListenPct = (100 * st.sentListen) / Math.max(1, st.total);
+  return st;
+}
+
+/** Authored lessons grouped by unit, in course order: Map unitId -> lessons. */
+export function lessonsByUnit(lessons) {
+  const m = new Map();
+  for (const l of lessons) { if (!m.has(l.unit.id)) m.set(l.unit.id, []); m.get(l.unit.id).push(l); }
+  return m;
 }

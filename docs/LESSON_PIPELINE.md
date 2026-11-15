@@ -1,6 +1,6 @@
 # Lesson pipeline
 
-How a lesson goes from idea → playable. Three layers of data, each validated by `npm run validate`.
+How a lesson goes from idea → playable. Three layers of data, each validated by `npm run validate`. Units are beginner by default; an intermediate unit (`"level": "intermediate"` in `course.json`) follows the same pipeline with a different recipe and quality bar (see "Intermediate recipe").
 
 ```
 curriculum outline (goals, grammar, vocab targets)
@@ -69,6 +69,8 @@ Proper names used in sentences (রাফি, নাদিয়া) are entries
 ```
 Optional `"kind"`: `"lesson"` (default) · `"review"` · `"checkpoint"`. A lesson is treated as a **review** when `kind` is `"review"` or its title starts with "Review". Reviews must introduce no new items and, together, test at least 80% of their unit's words (names and letters excluded) as targets (prompt, audio, pair, or the answer of an en→bn item); `npm run validate:strict` enforces this. A `checkpoint` is a mixed cross-unit test with no new items.
 
+Optional `"dialogue"` (intermediate recipe; see below) and `"scriptOnly": true` (copied into the generated lesson).
+
 Optional `"preview": ["khala", …]` (script track): words from **any** unit used as reading examples ("A is for Apple"). They're exercised in the lesson but don't count as taught.
 
 Rules (enforced by the validator):
@@ -76,6 +78,22 @@ Rules (enforced by the validator):
 - **No word before its time:** every Bengali token in a sentence must be a lexicon form introduced in this lesson or earlier (course order). Unknown tokens → add them to the lexicon (or rephrase).
 - 6–10 sentences per lesson; every `new` item appears in ≥1 sentence (except letters/standalone phrases).
 - Sentences end with `।` or `?`; `alt` lists other natural English translations.
+- `review` ids may also name entries of the unit's assumed lists (`content/assumed/`, see CONTENT_SCHEMA.md): they are known words, not course vocabulary.
+
+### Plan `dialogue` (intermediate units)
+```json
+"dialogue": {
+  "title": "On the phone",
+  "lines": [
+    { "speaker": "Rafi", "bn": "তুমি কোথায়?", "tr": "tumi kothay?", "en": "Where are you?" },
+    { "speaker": "Mina", "bn": "আমি বাড়ি আছি।", "tr": "ami bari achhi", "en": "I am at home." }
+  ],
+  "questions": [
+    { "question": "Where is Mina?", "options": ["At home", "At work", "Nowhere"], "answer": 0 }
+  ]
+}
+```
+`title` and `speaker` are optional (give every line a speaker, or none); 2–8 lines of full BnText; at least one `question` (English `question`, optionally `questionBn`; `options` all English or all Bengali; `answer` an index). **Taught-before-used applies** to every line, `questionBn` and Bengali option, exactly as for sentences, so the dialogue may use new words of this lesson, earlier words and the unit's assumed words, nothing else. The generator turns each question (at most 2) into a `reading` exercise over the same lines. An intermediate non-review plan lesson without a dialogue gets a validator warning.
 
 ## ③ Lesson — generated, then curated
 `npm run gen:lesson -- u02-l01` builds a **draft** lesson from the plan + lexicon (vocab block, tip, ~14 exercises in a standard order) and adds it to `course.json`. It refuses to overwrite an existing lesson unless `--force`.
@@ -96,10 +114,32 @@ Hand-written lessons rarely bring old words back, so every main-track lesson exc
 ```
 - `npm run recycle` removes every `recycle`-tagged exercise and rebuilds them. It never touches untagged exercises and is **idempotent and deterministic** (seeded by lesson id), so re-running without content changes changes nothing.
 - Selection walks the course in order, tracking in how many later lessons each earlier word has appeared (hand-written exercises included). It favours core parts of speech (pronoun, verb, particle, postposition, number, adverb) and words with the fewest later appearances, avoids words already in the lesson or recycled in the previous lesson, and prefers expanding gaps (about 1, 3, 7+ lessons after the last sighting).
-- Forms rotate: Bengali→English select, listen-and-select, English→Bengali select. Distractors are always words already taught (main track); English distractors never share a gloss with the answer. With `--pairs P`, P extra 4-word `match_pairs` recycle exercises are added per lesson, which is by far the cheapest way to raise coverage.
+- Forms rotate: Bengali→English select, listen-and-select, English→Bengali select. **In intermediate units** the rotation also includes `fill_blank` (choose, typed) and `listen_meaning`, built from plan sentences of earlier authored lessons whose words are all taught by then (or assumed by the unit); a form with no usable sentence falls back to the next form. Assumed-known words serve as distractors only, never as targets. Distractors are always words already taught (main track); English distractors never share a gloss with the answer. With `--pairs P`, P extra 4-word `match_pairs` recycle exercises are added per lesson, which is by far the cheapest way to raise coverage.
+- The report ends with how many lessons changed (or would change with `--dry`); after a content-neutral run it says `0 lessons changed`.
 - Options: `--dry` (report only) · `--lesson <id>` (write one lesson; the whole course is still simulated so counts stay consistent) · `--count N` (default 3) · `--count-late M --late-from <unit-prefix>` (a larger count from a later unit, default `u06`) · `--pairs P`.
 - Recycle exercises are exempt from the "each new item appears ≥2×" check, are listed separately by `npm run audit`, and sit on top of the 8–15 hand-written exercises (up to 6 recycle exercises per lesson are accepted).
 - **After any content change (new or edited lesson, plan or lexicon), run `npm run recycle` before committing**, then `npm run validate`. Because selection depends on everything earlier in the course, a change in one lesson can alter recycle exercises in later lessons; that is expected.
+
+## Intermediate recipe (units with `"level": "intermediate"`)
+`npm run gen:lesson` picks the recipe from the unit's level. Target 16 hand-written exercises (12–18), sentence-level, produce-first, with every new word still met by recognition first:
+
+| # | Exercise | Source |
+|---|---|---|
+| 3 | `select_translation` en→bn (warm-up recall) | plan `review` words (topped up from other known words); never this lesson's new words, not even as options |
+| 1–2 | `reading` | plan `dialogue` (one per question, max 2) |
+| 3 | `listen_meaning` | plan `sentences`; those carrying new words not yet seen come first |
+| 0+ | `select_translation` bn→en (+ `listen_select`) | only for a new word the reading and listening did not show |
+| up to 4 | `fill_blank` on a new word inside a plan sentence | 3 choose (Bengali options), then 1 typed (`accepted`: the word and its transliteration) |
+| 2 | `word_bank` en→bn | plan sentences |
+| 2 | `type_translation` en→bn | plan sentences (`accepted`: the Bengali and its transliteration) |
+
+Distractors come from every word known at that lesson, including the unit's assumed words. Names are not used as fill-in targets. Without a `dialogue` the lesson has no reading (strict validation then fails until the author adds one). Curate afterwards as for beginner lessons: sharper distractors, a `why` on the grammar exercises, natural English.
+
+### Intermediate rules
+Applied to units with `"level": "intermediate"` only (beginner rules are unchanged):
+- normal mode: 12–18 hand-written exercises per lesson (warning outside the range);
+- `validate:strict`: ≤ 12 new items per lesson (beginner: 10); every non-review, non-checkpoint lesson has at least one `reading` and one `listen_meaning`; per unit, over its hand-written exercises: English→Bengali (`en_to_bn` select / word bank / type, plus `fill_blank`) ≥ 55% of directed exercises (those with a direction, plus `fill_blank`); typed Bengali (`type_translation` en→bn plus typed `fill_blank`) ≥ 15% of exercises; sentence-level listening (`listen_meaning` + `reading`) ≥ 20% of exercises. Rule names in the strict summary: `int-reading`, `int-listen`, `int-en-to-bn`, `int-typed`, `int-sentence-listening`.
+- `npm run audit` prints a **PER LEVEL** block (beginner and intermediate; recycling, load, and the three shares against that level's targets: beginner ≥45% en→bn and ≥8% typed, intermediate ≥55% / ≥15% / ≥20%, with `ok`/`BELOW`) and, for intermediate, the shares per unit. `npm run status` adds a line per level.
 
 ## Standard lesson recipe (what the generator emits, in order)
 | # | Exercise | Source |
@@ -119,8 +159,9 @@ The generator sorts the draft recognise → listen → match → word bank (bn�
 | command | does |
 |---|---|
 | `npm run validate` | schema + lexicon + plan + no-word-before-its-time checks (sentences) |
-| `npm run validate:strict` | `validate` plus teaching-quality rules as errors: (1) no untaught Bengali in main-track exercises (multi-digit numerals made of taught digits and typed `accepted` variants are exempt), (2) a new word's first exercise is recognition, (3) ≤10 new items per lesson, (4) each unit's review lessons test ≥80% of its words, (5) reviews introduce no new words. Prints a count per rule. |
+| `npm run validate:strict` | `validate` plus teaching-quality rules as errors: (1) no untaught Bengali in main-track exercises (multi-digit numerals made of taught digits and typed `accepted` variants are exempt; a unit's assumed words count as taught), (2) a new word's first exercise is recognition, (3) ≤10 new items per lesson (≤12 intermediate), (4) each unit's review lessons test ≥80% of its words, (5) reviews introduce no new words, (6) intermediate units: the reading / listen_meaning / skill-share rules above. Prints a count per rule. |
 | `npm run recycle [-- --dry --lesson <id> --count N --pairs P]` | rebuild the `recycle` review exercises (see ④) |
 | `npm run audit [-- --words --json]` | teaching metrics: recycling, load, skill balance (recycle counted separately), lesson shape, untaught words, per-unit review coverage, words tested ≤2 times |
-| `npm run gen:lesson -- <id> [--force]` | draft lesson from plan |
-| `npm run status` | coverage dashboard: planned vs authored vs reviewed, lexicon size per unit |
+| `npm run gen:lesson -- <id> [--force] [--dry]` | draft lesson from plan (standard recipe, or the intermediate recipe for intermediate units) |
+| `npm run status` | coverage dashboard: planned vs authored vs reviewed, lexicon size per unit, and a line per level |
+| `npm run gen:audio [-- --dry]` | recorded clips for every Bengali string: lexicon, assumed lists, plan sentences and dialogues, lesson exercises |

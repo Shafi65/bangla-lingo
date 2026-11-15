@@ -1,6 +1,8 @@
 // TypeScript mirror of docs/CONTENT_SCHEMA.md. Keep in sync with the schema doc.
 
 export type Track = "main" | "script";
+/** Course level of a unit; units without `level` are "beginner". */
+export type Level = "beginner" | "intermediate";
 export type Direction = "bn_to_en" | "en_to_bn";
 
 /** Bengali text in all three forms. `tr` follows content/TRANSLITERATION.md. */
@@ -21,12 +23,27 @@ export interface UnitDef {
   description?: string;
   track: Track;
   lessons: string[];
+  /** Default "beginner". */
+  level?: Level;
+  /** Section number (see CourseDef.sections); default 1. */
+  section?: number;
+  /** Names of content/assumed/<name>.json lists whose words the unit assumes (used by the content tools; the app only reads them for transliteration). */
+  assumes?: string[];
+  /** Default for the unit's lessons: hide transliteration unless tapped (a lesson's own `scriptOnly` wins). */
+  scriptOnly?: boolean;
+}
+
+/** A titled group of units on the course map. */
+export interface SectionDef {
+  id: number;
+  title: string;
 }
 
 export interface CourseDef {
   id: string;
   title: string;
   units: UnitDef[];
+  sections?: SectionDef[];
 }
 
 interface ExerciseBase {
@@ -147,6 +164,11 @@ export interface Lesson {
   status?: string;
   reviewedBy?: string;
   tip?: string;
+  /**
+   * Show Bengali script only: transliteration is hidden until tapped, whatever the always/fade setting
+   * says, unless the learner turned on "Always show romanization". The loader fills in the unit default.
+   */
+  scriptOnly?: boolean;
   vocab: VocabItem[];
   exercises: Exercise[];
 }
@@ -172,6 +194,10 @@ export interface UnitSummary {
   title: string;
   description?: string;
   track: Track;
+  /** Always set by the loader ("beginner" when course.json has no level). */
+  level?: Level;
+  /** Always set by the loader (1 when course.json has no section). */
+  section?: number;
   lessons: LessonSummary[];
 }
 
@@ -179,6 +205,8 @@ export interface CourseSummary {
   id: string;
   title: string;
   units: UnitSummary[];
+  /** Section titles from course.json; absent when the course defines none (the map then groups units itself). */
+  sections?: SectionDef[];
   /** "content" = real ../content, "fixture" = built-in demo fallback. */
   source: "content" | "fixture";
 }

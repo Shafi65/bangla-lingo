@@ -29,6 +29,55 @@ Lessons are generated from `content/lexicon/` + `content/plans/` — see `docs/L
 `track` is `"main"` (vocab/grammar, in `content/units/<unit-id>/`) or `"script"` (alphabet, in `content/script/<unit-id>/`).
 Lesson file path: `content/{units|script}/<unit-id>/<lesson-id>.json`.
 
+### Levels, sections, assumed words, script-only display
+All optional; a unit without them is a **beginner** unit in **section 1** with no assumed list and normal transliteration.
+```json
+{
+  "id": "bn-for-en",
+  "title": "Bengali for English speakers",
+  "sections": [{ "id": 1, "title": "Foundations" }, { "id": 2, "title": "Going further" }],
+  "units": [
+    {
+      "id": "i01-catching-up",
+      "title": "Catching up",
+      "track": "main",
+      "level": "intermediate",
+      "section": 2,
+      "assumes": ["bridge"],
+      "scriptOnly": true,
+      "lessons": ["i01-l01"]
+    }
+  ]
+}
+```
+| field | on | meaning |
+|---|---|---|
+| `level` | unit | `"beginner"` (default) or `"intermediate"`. Intermediate units get the intermediate rules (see LESSON_PIPELINE.md), the intermediate generator recipe and the intermediate audit targets; the course map marks them with an "Intermediate" badge and numbers main units per level. |
+| `sections` | course | `[{ "id": <positive integer>, "title": "…" }]`. When present, the course map groups units under these titles (a header per section) instead of its built-in grouping. Section ids must be unique. |
+| `section` | unit | A section `id` (default 1). It must be listed in `sections` when `sections` exists. Units stay in `course.json` order within their section. |
+| `assumes` | unit | Names of `content/assumed/<name>.json` lists (below). Their words count as already taught for this unit. Not for script units. |
+| `scriptOnly` | unit | Default for the unit's lessons (see below); a lesson's own `scriptOnly` wins. |
+
+### Assumed-known lists — `content/assumed/<name>.json`
+Words an intermediate unit may use without teaching them (e.g. everything from Section 1, or a published "bridge" list), so units can be written independently of the units before them.
+```json
+{
+  "name": "bridge",
+  "entries": [
+    { "id": "bari", "bn": "বাড়ি", "tr": "bari", "en": "home", "pos": "noun", "alt": ["house"], "notes": "optional" }
+  ]
+}
+```
+`name` must equal the file name. Entries have the lexicon's `id` (lowercase slug), `bn`, `tr`, `en`, `pos` and optional `alt`, `notes`; no `lesson`. **Ids must not collide with `content/lexicon/` ids**, and may not repeat. For a unit that lists the name in `assumes`:
+- the taught-before-used checks (plan sentences, dialogues, `validate`, `validate:strict`, `audit`) treat the entries as already taught; a plan's `review` list may name them (warm-up recall);
+- the generator and `npm run recycle` use them as distractors (never as recycle targets);
+- the app looks up their transliteration, and `npm run gen:audio` records their Bengali.
+
+They are **not course vocabulary**: they don't appear in recycling, review-coverage or "thinly tested" metrics, and nothing is ever tested on them for the learner's spaced review.
+
+### Script-only lessons
+A lesson file may carry `"scriptOnly": true` (unit default: `"scriptOnly": true` on the unit in `course.json`; the lesson value wins, so `false` opts one lesson out). In those lessons the app hides transliteration by default: it is shown only when the learner taps "Show pronunciation", whatever their Always / Fade out / Hidden setting says. (Inside answer buttons and word tiles it is hidden entirely; the feedback after checking still shows it.) The Settings toggle "Always show romanization, even in intermediate lessons" (stored as `settings.alwaysRomanize`, default off) turns that off and applies the normal setting there. Practice sessions are unaffected.
+
 ## Lesson file
 ```json
 {
@@ -38,6 +87,7 @@ Lesson file path: `content/{units|script}/<unit-id>/<lesson-id>.json`.
   "status": "draft",
   "reviewedBy": "optional — who did the native-speaker review",
   "tip": "Optional short markdown grammar/culture tip shown before the lesson.",
+  "scriptOnly": false,
   "vocab": [
     { "id": "ami", "bn": "আমি", "tr": "ami", "en": "I", "notes": "optional" }
   ],
@@ -99,4 +149,4 @@ Rules:
 - Answer checking ignores case, punctuation, and extra spaces.
 - The app shuffles `options` each time an exercise is shown, so never rely on option position in other fields; `answer` is always the index into the authored `options`.
 - The app looks up transliteration for Bengali options and tiles from `content/lexicon/`, lesson `vocab` and plan sentences (by exact text, then word by word), so every Bengali option/tile should be spelled as in the lexicon. No match means no transliteration is shown.
-- 8–15 hand-written exercises per lesson, plus up to 5 review exercises marked `"recycle": true` that `npm run recycle` appends (never edit those by hand). Each new vocab item must appear at least twice.
+- 8–15 hand-written exercises per lesson (12–18 in intermediate units), plus up to 6 review exercises marked `"recycle": true` that `npm run recycle` appends (never edit those by hand). Each new vocab item must appear at least twice.

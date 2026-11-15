@@ -20,7 +20,9 @@ import type {
   Exercise,
   Lesson,
   LessonKind,
+  Level,
   ScriptRecognizeExercise,
+  SectionDef,
   UnitDef,
 } from "./types";
 
@@ -131,6 +133,23 @@ function isLesson(v: unknown): v is Lesson {
   );
 }
 
+/** course.json "sections": [{ id, title }]; malformed entries are dropped, none left = undefined. Sorted by id. */
+export function parseSections(v: unknown): SectionDef[] | undefined {
+  if (!Array.isArray(v)) return undefined;
+  const out: SectionDef[] = [];
+  for (const s of v as { id?: unknown; title?: unknown }[]) {
+    if (Number.isInteger(s?.id) && (s.id as number) >= 1 && isStr(s?.title) && !out.some((o) => o.id === s.id)) {
+      out.push({ id: s.id as number, title: (s.title as string).trim() });
+    }
+  }
+  return out.length ? out.sort((a, b) => a.id - b.id) : undefined;
+}
+/** "intermediate" only when stated; everything else is a beginner unit. */
+export const levelOf = (u: Pick<UnitDef, "level">): Level => (u.level === "intermediate" ? "intermediate" : "beginner");
+/** Section number of a unit; missing or invalid = 1. */
+export const sectionOf = (u: Pick<UnitDef, "section">): number =>
+  Number.isInteger(u.section) && (u.section as number) >= 1 ? (u.section as number) : 1;
+
 const LESSON_KINDS = new Set<LessonKind>(["lesson", "review", "checkpoint"]);
 
 /**
@@ -188,7 +207,12 @@ function loadFrom(
         warn(`lesson ${file} does not match the schema; skipping`);
         return [];
       }
+      // scriptOnly: the lesson's own boolean wins, else the unit's default, else unset.
+      const scriptOnly =
+        typeof data.scriptOnly === "boolean" ? data.scriptOnly : unit.scriptOnly === true ? true : undefined;
       const lesson: Lesson = { ...data, vocab: data.vocab ?? [] };
+      if (scriptOnly === undefined) delete lesson.scriptOnly;
+      else lesson.scriptOnly = scriptOnly;
       lessons.set(lesson.id, lesson);
       return [
         {
@@ -212,9 +236,12 @@ function loadFrom(
       title: unit.title ?? unit.id,
       description: unit.description,
       track: unit.track,
+      level: levelOf(unit),
+      section: sectionOf(unit),
       lessons: summaries,
     };
   });
+  const sections = parseSections(raw.sections);
 
   if (lessons.size === 0) {
     warn(`${baseDir}/course.json lists no loadable lessons`);
@@ -227,6 +254,7 @@ function loadFrom(
       title: raw.title ?? raw.id,
       // Units with no loadable lessons yet are kept; the map shows them as "coming soon".
       units,
+      ...(sections ? { sections } : {}),
       source,
     },
     lessons,

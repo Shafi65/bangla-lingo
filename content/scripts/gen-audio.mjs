@@ -66,8 +66,14 @@ function collect() {
 
   for (const s of APP_STRINGS) add(s);
   for (const e of ctx.lexicon.values()) add(e.bn);
+  // assumed-known entries (content/assumed/*.json) are shown and spoken in lessons that assume them
+  for (const set of ctx.assumed.values()) for (const e of set.entries) add(e.bn);
   for (const plan of ctx.plans.values()) {
-    for (const l of plan.lessons ?? []) for (const s of l.sentences ?? []) addText(s);
+    for (const l of plan.lessons ?? []) {
+      for (const s of l.sentences ?? []) addText(s);
+      for (const ln of l.dialogue?.lines ?? []) addText(ln); // intermediate plans: the reading dialogue
+      for (const q of l.dialogue?.questions ?? []) { addText(q.questionBn); for (const o of q.options ?? []) add(o); }
+    }
   }
   let lessons = 0;
   for (const u of ctx.course.units) {

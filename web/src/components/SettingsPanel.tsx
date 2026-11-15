@@ -63,6 +63,14 @@ export function SettingsPanel() {
             ]}
             onChange={(translit) => update({ translit })}
           />
+          <div className="mt-4 border-t-2 border-line pt-4">
+            <Toggle
+              label="Always show romanization, even in intermediate lessons"
+              sub="Intermediate lessons show Bengali script only; the romanization appears when you tap. Turn this on to follow the setting above there too."
+              checked={s.alwaysRomanize}
+              onChange={(alwaysRomanize) => update({ alwaysRomanize })}
+            />
+          </div>
         </Section>
 
         <AppearanceSection />

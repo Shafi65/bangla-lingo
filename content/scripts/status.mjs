@@ -1,12 +1,13 @@
 #!/usr/bin/env node
 // Coverage dashboard: planned vs authored vs reviewed, per unit. Usage: npm run status [-- --md]
 import fs from "node:fs";
-import { lessonPath, loadAll, readJson } from "./lib.mjs";
+import { lessonPath, loadAll, readJson, unitLevel } from "./lib.mjs";
 
 const md = process.argv.includes("--md");
 const ctx = loadAll();
 const rows = [];
 const tot = { planned: 0, draft: 0, reviewed: 0, lex: 0, sent: 0 };
+const byLevel = new Map(); // level -> same totals
 for (const u of ctx.course.units) {
   const plan = ctx.plans.get(u.id);
   const planned = plan?.lessons.length ?? 0;
@@ -21,6 +22,9 @@ for (const u of ctx.course.units) {
   const authored = draft + reviewed;
   const bar = planned ? "█".repeat(authored) + "░".repeat(Math.max(0, planned - authored)) : "(no plan)";
   rows.push([u.id, u.track, planned, draft, reviewed, lex, sent, bar]);
+  const lv = byLevel.get(unitLevel(u)) ?? { planned: 0, draft: 0, reviewed: 0, lex: 0, sent: 0 };
+  Object.assign(lv, { planned: lv.planned + planned, draft: lv.draft + draft, reviewed: lv.reviewed + reviewed, lex: lv.lex + lex, sent: lv.sent + sent });
+  byLevel.set(unitLevel(u), lv);
   Object.assign(tot, { planned: tot.planned + planned, draft: tot.draft + draft, reviewed: tot.reviewed + reviewed, lex: tot.lex + lex, sent: tot.sent + sent });
 }
 const head = ["unit", "track", "planned", "draft", "reviewed", "lexicon", "sentences", "progress"];
@@ -33,6 +37,16 @@ if (md) {
   const line = (r) => r.map((c, i) => String(c).padEnd(w[i])).join("  ");
   console.log(line(head)); console.log(w.map((n) => "-".repeat(n)).join("  "));
   rows.forEach((r) => console.log(line(r)));
+}
+// Per level (beginner is everything without "level": "intermediate")
+if (byLevel.size) {
+  console.log("");
+  for (const level of ["beginner", "intermediate"]) {
+    const v = byLevel.get(level);
+    if (!v) continue;
+    const units = ctx.course.units.filter((u) => unitLevel(u) === level).length;
+    console.log(`${level.padEnd(12)} ${units} units · ${v.planned} planned · ${v.draft} draft · ${v.reviewed} reviewed · ${v.lex} lexicon · ${v.sent} sentences — ${Math.round(((v.draft + v.reviewed) / Math.max(1, v.planned)) * 100)}% authored`);
+  }
 }
 // Next unauthored planned lessons, in course order
 const next = ctx.order.filter((id) => {

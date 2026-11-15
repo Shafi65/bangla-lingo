@@ -6,8 +6,8 @@
 import fs from "node:fs";
 import path from "node:path";
 import {
-  CORE_POS, ROOT, exerciseText, findProductionFirst, findUntaught, hasForm, isRecycle, loadAll, loadLessons,
-  reviewCoverage, targetCounts,
+  CORE_POS, LEVELS, LEVEL_TARGETS, MAX_NEW, ROOT, exerciseText, findProductionFirst, findUntaught, hasForm, isRecycle, lessonsByUnit,
+  loadAll, loadLessons, reviewCoverage, skillStats, targetCounts, unitLevel,
 } from "./lib.mjs";
 
 const args = new Set(process.argv.slice(2));
@@ -89,6 +89,29 @@ const coverage = reviewCoverage(ctx, lessons);
 const thin = targetCounts(ctx, lessons).filter((w) => w.n <= 2);
 
 const pct = (a, b) => `${Math.round((100 * a) / Math.max(1, b))}%`;
+
+// ---- 7. Per level (beginner / intermediate): load, recycling and skill shares against the level's targets
+const levelOf = (unitId) => unitLevel(ctx.units.get(unitId));
+const levels = [];
+for (const level of LEVELS) {
+  const ls = lessons.filter((l) => unitLevel(l.unit) === level);
+  if (!ls.length) continue;
+  const t = LEVEL_TARGETS[level];
+  const st = skillStats(ls);
+  const lw = eligible.filter((w) => levelOf(w.unit) === level);
+  const mainLs = ls.filter((l) => l.unit.track === "main");
+  const units = [...lessonsByUnit(ls)].map(([id, us]) => ({ id, ...skillStats(us), track: ctx.units.get(id).track }));
+  levels.push({
+    level, lessons: ls.length, units: units.length, exercises: st.total,
+    recycling: { words: lw.length, neverReused: lw.filter((w) => w.reuse === 0).length, under3LaterLessons: lw.filter((w) => w.reuse < 3).length },
+    maxNewItems: MAX_NEW[level], heavyLessons: mainLs.filter((l) => l.data.vocab.length > MAX_NEW[level]).map((l) => l.id),
+    targets: t,
+    enToBnPct: Math.round(st.enToBnPct), typedBnPct: Math.round(st.typedBnPct), sentenceListeningPct: Math.round(st.sentListenPct),
+    perUnit: units.filter((u) => u.track === "main").map((u) => ({ unit: u.id, exercises: u.total, enToBnPct: Math.round(u.enToBnPct), typedBnPct: Math.round(u.typedBnPct), sentenceListeningPct: Math.round(u.sentListenPct) })),
+  });
+}
+const mark = (v, target) => (target === null ? "" : v >= target ? " ok" : " BELOW");
+
 const report = {
   lessons: lessons.length,
   exercises: total,
@@ -102,6 +125,7 @@ const report = {
   untaughtTokens: untaught.length,
   reviewCoverage: coverage.map((c) => ({ unit: c.unit, reviews: c.reviews, words: c.words, covered: c.covered, pct: Math.round(c.pct) })),
   targetsTestedAtMost2: thin.length,
+  levels,
 };
 
 if (args.has("--json")) { console.log(JSON.stringify({ ...report, never: never.map((w) => w.id), untaught, productionFirstList: productionFirst, thinTargets: thin.map((w) => `${w.id} (${w.n}×)`), reviewMissing: Object.fromEntries(coverage.map((c) => [c.unit, c.missing])) }, null, 2)); process.exit(0); }
@@ -143,6 +167,18 @@ for (const c of coverage)
 
 console.log("\nTHINLY TESTED TARGETS");
 console.log(`  main-track words that are a target in ≤2 exercises in the whole course: ${thin.length}   (use --words to list)`);
+
+console.log("\nPER LEVEL (hand-written exercises; assumed-known words are not course vocabulary)");
+for (const lv of levels) {
+  const t = lv.targets;
+  console.log(`  ${lv.level}: ${lv.units} units · ${lv.lessons} lessons · ${lv.exercises} exercises`);
+  console.log(`    recycling: never seen again ${lv.recycling.neverReused}/${lv.recycling.words} · seen in <3 later lessons ${lv.recycling.under3LaterLessons}/${lv.recycling.words}`);
+  console.log(`    new items per lesson: max ${lv.maxNewItems}; over: ${lv.heavyLessons.join(", ") || "none"}`);
+  console.log(`    English→Bengali share of directed exercises ${lv.enToBnPct}% (target ≥${t.enToBn}%${mark(lv.enToBnPct, t.enToBn)}) · typed Bengali ${lv.typedBnPct}% (target ≥${t.typedBn}%${mark(lv.typedBnPct, t.typedBn)})` +
+    (t.sentListen === null ? ` · sentence-level listening ${lv.sentenceListeningPct}%` : ` · sentence-level listening ${lv.sentenceListeningPct}% (target ≥${t.sentListen}%${mark(lv.sentenceListeningPct, t.sentListen)})`));
+  if (lv.level === "intermediate") for (const u of lv.perUnit)
+    console.log(`      ${u.unit.padEnd(22)} en→bn ${String(u.enToBnPct).padStart(3)}%${mark(u.enToBnPct, t.enToBn)} · typed ${String(u.typedBnPct).padStart(3)}%${mark(u.typedBnPct, t.typedBn)} · sentence listening ${String(u.sentenceListeningPct).padStart(3)}%${mark(u.sentenceListeningPct, t.sentListen)}`);
+}
 
 if (args.has("--words")) {
   console.log("\nUNDER-RECYCLED WORDS (<3 later lessons)");

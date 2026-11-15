@@ -8,7 +8,7 @@ import { progressStore, todayXp } from "@/lib/progress";
 import { playSfx } from "@/lib/sfx";
 import type { Exercise, Lesson } from "@/lib/types";
 import { BnText } from "@/components/BnText";
-import { useIsScriptLesson } from "@/components/CourseContext";
+import { ScriptOnlyContext, useIsScriptLesson } from "@/components/CourseContext";
 import type { TranslitMap } from "@/lib/translit";
 import { Done, type DoneSummary } from "./Done";
 import { Feedback } from "./Feedback";
@@ -50,14 +50,16 @@ export function LessonPlayer({
   // Bumping `attempt` remounts the run with fresh state (retry).
   const [attempt, setAttempt] = useState(0);
   return (
-    <LessonRun
-      key={attempt}
-      lesson={lesson}
-      mode={mode}
-      translit={translit}
-      onRetry={() => setAttempt((a) => a + 1)}
-      onExit={onExit}
-    />
+    <ScriptOnlyContext.Provider value={mode === "lesson" && lesson.scriptOnly === true}>
+      <LessonRun
+        key={attempt}
+        lesson={lesson}
+        mode={mode}
+        translit={translit}
+        onRetry={() => setAttempt((a) => a + 1)}
+        onExit={onExit}
+      />
+    </ScriptOnlyContext.Provider>
   );
 }
 

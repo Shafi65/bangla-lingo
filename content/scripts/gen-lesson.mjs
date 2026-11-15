@@ -1,8 +1,11 @@
 #!/usr/bin/env node
 // Build a DRAFT lesson from its plan + lexicon, following the recipe in docs/LESSON_PIPELINE.md.
 // Usage: npm run gen:lesson -- <lesson-id> [--force] [--dry]
+// Units with "level": "intermediate" get the intermediate recipe (gen-intermediate.mjs) instead of the standard one.
 import fs from "node:fs";
-import { BENGALI, enKey, enTiles, stripParens, knownAt, lessonPath, loadAll, readJson, rel, rng, shuffle, tokenize, writeJson } from "./lib.mjs";
+import path from "node:path";
+import { BENGALI, ROOT, assumedFor, enKey, enTiles, stripParens, knownAt, lessonPath, loadAll, readJson, rel, rng, shuffle, tokenize, unitLevel, writeJson } from "./lib.mjs";
+import { buildIntermediate } from "./gen-intermediate.mjs";
 
 const args = process.argv.slice(2);
 const lessonId = args.find((a) => !a.startsWith("--"));
@@ -20,8 +23,9 @@ if (fs.existsSync(out) && !force && !dry) { console.error(`${rel(out)} exists �
 
 const rand = rng(lessonId);
 const pick = (arr, n) => shuffle(arr, rand).slice(0, n);
+const assumedById = new Map(assumedFor(ctx, unit).map((e) => [e.id, e]));
 const lex = (id) => {
-  const e = ctx.lexicon.get(id);
+  const e = ctx.lexicon.get(id) ?? assumedById.get(id); // plan "review" lists may name assumed-known entries
   if (!e) { console.error(`lexicon id "${id}" missing`); process.exit(1); }
   return e;
 };
@@ -32,7 +36,8 @@ const newE = P.new.map(lex);
 const reviewE = P.review.map(lex);
 const previewE = (P.preview ?? []).map(lex);
 // Main-track lessons draw distractors only from main-track words (not alphabet example words).
-const known = knownAt(ctx, lessonId).filter((e) => unit.track === "script" || ctx.units.get(e._unit)?.track === "main");
+const known = knownAt(ctx, lessonId).filter((e) => unit.track === "script" || e._assumed || ctx.units.get(e._unit)?.track === "main");
+const intermediate = unitLevel(unit) === "intermediate" && unit.track === "main";
 const knownWords = known.filter((e) => e.pos !== "phrase" && e.pos !== "letter" && !e.bn.includes(" "));
 const isScript = unit.track === "script";
 
@@ -63,6 +68,10 @@ function altSequences(tiles, seqs, answer) {
 const ex = [];
 const add = (o) => ex.push({ id: `e${String(ex.length + 1).padStart(2, "0")}`, ...o });
 
+if (intermediate) {
+  // Intermediate recipe (gen-intermediate.mjs): warm-up -> reading -> listen_meaning -> fill_blank -> word bank en->bn -> type en->bn
+  ex.push(...buildIntermediate({ ctx, lessonId, P, newE, reviewE, known, rand }));
+} else {
 const sentences = P.sentences ?? [];
 let sentenceBudget = isScript ? 0 : Math.min(sentences.length, 6);
 const letters = newE.filter((e) => e.pos === "letter");
@@ -151,6 +160,7 @@ const rank = (e) =>
 const ordered = ex.map((e, i) => ({ e, i })).sort((a, b) => rank(a.e) - rank(b.e) || a.i - b.i)
   .map(({ e }, i) => ({ ...e, id: `e${String(i + 1).padStart(2, "0")}` }));
 ex.length = 0; ex.push(...ordered);
+}
 
 const lesson = {
   id: lessonId,
@@ -158,6 +168,7 @@ const lesson = {
   title: P.title,
   status: "draft",
   ...(P.tip ? { tip: P.tip } : {}),
+  ...(P.scriptOnly === true ? { scriptOnly: true } : {}),
   vocab: newE.map((e) => ({ id: e.id, bn: e.bn, tr: e.tr, en: e.en, ...(e.notes ? { notes: e.notes } : {}) })),
   exercises: ex,
 };
@@ -166,13 +177,13 @@ if (dry) { console.log(JSON.stringify(lesson, null, 2)); process.exit(0); }
 writeJson(out, lesson);
 
 // Register in course.json in plan order.
-const coursePath = new URL("../course.json", import.meta.url);
+const coursePath = path.join(ROOT, "course.json"); // honours CONTENT_DIR
 const course = readJson(coursePath);
 const u = course.units.find((x) => x.id === unit.id);
 if (!u.lessons.includes(lessonId)) {
   const planOrder = ctx.plans.get(unit.id).lessons.map((l) => l.id);
   u.lessons = [...u.lessons, lessonId].sort((a, b) => planOrder.indexOf(a) - planOrder.indexOf(b));
-  writeJson(coursePath.pathname, course);
+  writeJson(coursePath, course);
 }
 const counts = ex.reduce((m, e) => ((m[e.type] = (m[e.type] ?? 0) + 1), m), {});
 console.log(`✓ wrote ${rel(out)} — ${ex.length} exercises ${JSON.stringify(counts)}\n  Next: curate distractors & grammar exercises, then npm run validate.`);

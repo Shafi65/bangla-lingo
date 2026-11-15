@@ -10,10 +10,14 @@
 //   --count-late M  count for lessons from --late-from onward (default: same as --count)
 //   --late-from   unit prefix where --count-late starts (default u06)
 //
+// Intermediate units (course.json "level": "intermediate") also rotate through fill_blank (choose / typed) and listen_meaning
+// forms, built from plan sentences whose words are all taught by then; units that "assume" lists may use those entries as distractors.
+//
 // Idempotent: existing `"recycle": true` exercises are removed first; hand-written exercises are never touched.
 // Deterministic: random choices are seeded by lesson id.
 import {
-  CORE_POS, exerciseText, hasForm, isRecycle, lessonPath, loadAll, loadLessons, rng, shuffle, writeJson,
+  CORE_POS, assumedFor, blankOccurrences, enKey, exerciseText, hasForm, isRecycle, lessonPath, loadAll, loadLessons, rng, shuffle, tokenize,
+  unitLevel, writeJson,
 } from "./lib.mjs";
 
 const argv = process.argv.slice(2);
@@ -59,7 +63,26 @@ const NEED = [12, 9, 6, 3];
 
 const form = (slot, lessonIdx) => (slot + lessonIdx) % 3;
 
-function build(kind, target, pool, rand) {
+// Sentence-level material: plan sentences of authored main-track lessons, with the position of their lesson.
+const planSentences = [];
+for (const l of lessons) {
+  if (l.unit.track !== "main") continue;
+  for (const sn of ctx.lessonInfo.get(l.id)?.planLesson?.sentences ?? []) if (sn?.bn && sn?.tr && sn?.en) planSentences.push({ ...sn, at: lessonPos.get(l.id), toks: tokenize(sn.bn) });
+}
+// Earliest lesson position at which each Bengali token is taught (lexicon), for "all words known by lesson i" checks.
+const introPos = new Map();
+for (const e of ctx.lexicon.values()) {
+  const at = lessonPos.get(e.lesson);
+  if (at === undefined) continue;
+  for (const t of tokenize(e.bn)) if (!introPos.has(t) || introPos.get(t) > at) introPos.set(t, at);
+}
+/** Plan sentences from earlier lessons whose every word is taught by lesson i (or assumed by its unit). */
+function sentencesFor(i, unit) {
+  const assumedTok = new Set(assumedFor(ctx, unit).flatMap((e) => tokenize(e.bn)));
+  return planSentences.filter((sn) => sn.at < i && sn.toks.every((t) => assumedTok.has(t) || (introPos.get(t) ?? Infinity) <= i));
+}
+
+function build(kind, target, pool, rand, sents = []) {
   // pool: words taught at or before this lesson (main track, no letter/name)
   const others = pool.filter((d) => d.id !== target.id && d.bn !== target.bn);
   const pickDistractors = (valid, n = 3) => {
@@ -89,10 +112,35 @@ function build(kind, target, pool, rand) {
     const d = pickDistractors((x) => x.tr !== target.tr && x.bn !== target.bn);
     return d && { type: "listen_select", audio: bt(target), ...place(target.bn, d.map((x) => x.bn)) };
   }
+  if (kind === "fill_choice" || kind === "fill_typed") {
+    const withTarget = sents.filter((sn) => blankOccurrences(sn.bn, target.bn).length === 1);
+    if (!withTarget.length) return null;
+    const sn = withTarget[Math.floor(rand() * withTarget.length)];
+    const base = { type: "fill_blank", sentence: { bn: sn.bn, tr: sn.tr, en: sn.en }, blank: target.bn };
+    if (kind === "fill_typed") return { ...base, accepted: [...new Set([target.bn, target.tr])] };
+    const inSentence = new Set(sn.toks);
+    const d = pickDistractors((x) => !clash(target, x) && x.tr !== target.tr && !tokenize(x.bn).some((t) => inSentence.has(t)));
+    return d && { ...base, ...place(target.bn, d.map((x) => x.bn)) };
+  }
+  if (kind === "listen_meaning") {
+    const withTarget = sents.filter((sn) => blankOccurrences(sn.bn, target.bn).length === 1);
+    if (!withTarget.length) return null;
+    const sn = withTarget[Math.floor(rand() * withTarget.length)];
+    const mine = new Set([sn.en, ...(sn.alt ?? [])].map(enKey));
+    const wrong = [], seen = new Set(mine);
+    for (const o of shuffle(sents, rand)) {
+      const k = enKey(o.en);
+      if (o.bn === sn.bn || seen.has(k) || (o.alt ?? []).some((a) => mine.has(enKey(a)))) continue;
+      seen.add(k); wrong.push(o.en);
+      if (wrong.length === 3) break;
+    }
+    return wrong.length === 3 ? { type: "listen_meaning", audio: { bn: sn.bn, tr: sn.tr, en: sn.en }, ...place(sn.en, wrong) } : null;
+  }
   const d = pickDistractors((x) => !clash(target, x) && x.tr !== target.tr);
   return d && { type: "select_translation", prompt: bt(target), direction: "en_to_bn", ...place(target.bn, d.map((x) => x.bn)) };
 }
 const KINDS = ["bn_to_en", "listen", "en_to_bn"];
+const KINDS_INTERMEDIATE = ["fill_choice", "listen_meaning", "en_to_bn", "fill_typed", "bn_to_en", "listen"];
 
 const unitIdx = (id) => ctx.course.units.findIndex((u) => u.id === id);
 const lateIdx = ctx.course.units.findIndex((u) => u.id.startsWith(LATE_FROM));
@@ -111,7 +159,9 @@ lessons.forEach((l, i) => {
 
   const n = lateIdx >= 0 && unitIdx(l.unit.id) >= lateIdx ? COUNT_LATE : COUNT;
   const rand = rng("recycle:" + l.id);
-  const pool = words.filter((w) => w.at <= i);
+  const intermediate = unitLevel(l.unit) === "intermediate";
+  const pool = [...words.filter((w) => w.at <= i), ...assumedFor(ctx, l.unit)]; // assumed entries: distractors only, never targets
+  const sents = intermediate ? sentencesFor(i, l.unit) : [];
   const cands = words.filter((w) => w.at < i && !hasForm(handHere, w.bn) && !prevMainRecycled.has(w.id));
   const scored = cands.map((w) => {
     const ideal = IDEAL_GAP[Math.min(w.count, IDEAL_GAP.length - 1)];
@@ -130,7 +180,8 @@ lessons.forEach((l, i) => {
     if (used.has(w.bn)) continue;
     const slot = made.length;
     let ex = null;
-    for (let k = 0; k < 3 && !ex; k++) ex = build(KINDS[(form(slot, i) + k) % 3], w, pool, rand);
+    if (intermediate) for (let k = 0; k < KINDS_INTERMEDIATE.length && !ex; k++) ex = build(KINDS_INTERMEDIATE[(slot + i + k) % KINDS_INTERMEDIATE.length], w, pool, rand, sents);
+    else for (let k = 0; k < 3 && !ex; k++) ex = build(KINDS[(form(slot, i) + k) % 3], w, pool, rand);
     if (!ex) continue;
     used.add(w.bn);
     made.push({ w, ex: { id: `r${String(made.length + 1).padStart(2, "0")}`, ...ex, recycle: true } });
@@ -166,10 +217,6 @@ for (const r of report) {
   if (only && r.lesson !== only) continue;
   console.log(`${r.lesson}${r.shortfall ? "  (SHORT)" : ""}: ${r.words.join(" | ")}`);
 }
-if (!dry) {
-  for (const { l, next } of writes) {
-    if (JSON.stringify(next) === JSON.stringify(l.data)) continue;
-    writeJson(lessonPath(l.unit, l.id), next);
-  }
-}
-console.log(`\n${dry ? "[dry run] would process" : "processed"} ${writes.length} lessons, ${writes.reduce((n, w) => n + w.next.exercises.filter(isRecycle).length, 0)} recycle exercises.`);
+const changed = writes.filter(({ l, next }) => JSON.stringify(next) !== JSON.stringify(l.data));
+if (!dry) for (const { l, next } of changed) writeJson(lessonPath(l.unit, l.id), next);
+console.log(`\n${dry ? "[dry run] would process" : "processed"} ${writes.length} lessons, ${writes.reduce((n, w) => n + w.next.exercises.filter(isRecycle).length, 0)} recycle exercises; ${changed.length} lesson${changed.length === 1 ? "" : "s"} ${dry ? "would change" : "changed"}.`);

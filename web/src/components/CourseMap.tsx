@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useEffect, useId, useRef, useState, type CSSProperties } from "react";
+import type { Section } from "@/lib/courseSections";
 import type { CourseSummary, LessonSummary, UnitSummary } from "@/lib/types";
 import {
   currentStreak,
@@ -15,6 +16,7 @@ import {
   type ProgressState,
 } from "@/lib/progress";
 import { useDueCount } from "@/lib/review";
+import { sectionsOf } from "@/lib/courseSections";
 import { isReviewLesson } from "@/lib/lessonKind";
 import { AppShell } from "./AppShell";
 import { CheckIcon, LockIcon, RepeatIcon, StarIcon } from "./icons";
@@ -26,36 +28,7 @@ const ROW = 108;
 const NODE = 72;
 const STITCH_W = 240;
 
-interface NumberedUnit {
-  unit: UnitSummary;
-  /** "Unit 3" / "Script 2": main and script units are numbered separately. */
-  label: string;
-}
-
-interface Section {
-  n: number;
-  units: NumberedUnit[];
-}
-
-/**
- * Sections group the course into stages: the main units up to and including
- * the next script unit (the script track is woven between main units).
- */
-function sectionsOf(course: CourseSummary): Section[] {
-  let mainN = 0;
-  let scriptN = 0;
-  const out: Section[] = [];
-  let cur: NumberedUnit[] = [];
-  for (const unit of course.units) {
-    cur.push({ unit, label: unit.track === "script" ? `Script ${++scriptN}` : `Unit ${++mainN}` });
-    if (unit.track === "script") {
-      out.push({ n: out.length + 1, units: cur });
-      cur = [];
-    }
-  }
-  if (cur.length) out.push({ n: out.length + 1, units: cur });
-  return out;
-}
+const isIntermediate = (u: UnitSummary) => u.level === "intermediate";
 
 export function CourseMap({ course }: { course: CourseSummary }) {
   const progress = useProgress();
@@ -288,7 +261,7 @@ function SectionBlock({
             Section {section.n}
           </h2>
           <p className="text-lg leading-snug font-black text-ink">
-            {section.units.map((u) => u.unit.title).join(", ")}
+            {section.title ?? section.units.map((u) => u.unit.title).join(", ")}
           </p>
           <p className="text-sm font-bold text-muted">
             {done === total && total > 0 ? "Complete" : `${done} of ${total} lessons done`}
@@ -336,7 +309,10 @@ function SectionBlock({
                     <span className={`w-16 shrink-0 text-sm font-extrabold ${script ? "text-accent-dark" : "text-brand-dark"}`}>
                       {label}
                     </span>
-                    <span className="min-w-0 flex-1 font-extrabold text-ink">{unit.title}</span>
+                    <span className="flex min-w-0 flex-1 flex-wrap items-center gap-x-2 font-extrabold text-ink">
+                      {unit.title}
+                      {isIntermediate(unit) && <LevelChip />}
+                    </span>
                     <span className="flex w-24 shrink-0 items-center gap-2 text-xs font-bold text-muted">
                       <Bar value={unit.lessons.length ? d / unit.lessons.length : 0} tone={script ? "accent" : "brand"} />
                       {d}/{unit.lessons.length}
@@ -356,8 +332,9 @@ function ComingSoon({ unit, label }: { unit: UnitSummary; label: string }) {
   const script = unit.track === "script";
   return (
     <div className="rounded-[var(--radius-panel)] border-2 border-dashed border-line-strong bg-surface/60 p-5">
-      <p className={`text-sm font-extrabold ${script ? "text-accent-dark" : "text-brand-dark"}`}>
-        {label}, coming soon
+      <p className={`flex flex-wrap items-center gap-x-3 gap-y-1 text-sm font-extrabold ${script ? "text-accent-dark" : "text-brand-dark"}`}>
+        <span>{label}, coming soon</span>
+        {isIntermediate(unit) && <LevelChip />}
       </p>
       <h3 className="text-xl font-black text-ink">{unit.title}</h3>
       {unit.description && <p className="font-semibold text-muted">{unit.description}</p>}
@@ -457,6 +434,7 @@ function UnitHeader({
       <div className="min-w-0 flex-1">
         <p className={`flex flex-wrap items-center gap-x-3 gap-y-1 text-sm font-extrabold ${script ? "text-accent-dark" : "text-white/85"}`}>
           <span>{label}</span>
+          {isIntermediate(unit) && <LevelChip onBrand={!script} />}
           {draft && <DraftChip onBrand={!script} />}
         </p>
         <h3 id={`unit-${unit.id}`} className={`text-2xl leading-tight font-black text-balance ${script ? "text-ink" : ""}`}>
@@ -482,6 +460,18 @@ function UnitHeader({
         </span>
       )}
     </header>
+  );
+}
+
+/** Marks units of the intermediate level. */
+export function LevelChip({ onBrand = false }: { onBrand?: boolean }) {
+  return (
+    <span
+      title="Intermediate level: Bengali script with longer sentences and dialogues."
+      className={`chip ${onBrand ? "bg-white/20 text-white" : "bg-brand-light text-brand-dark"}`}
+    >
+      Intermediate
+    </span>
   );
 }
 

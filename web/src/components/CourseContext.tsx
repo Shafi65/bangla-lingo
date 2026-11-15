@@ -2,9 +2,13 @@
 
 import { createContext, useContext, type ReactNode } from "react";
 import { useProgress } from "@/lib/progress";
+import { resolveTranslitVisibility, type TranslitVisibility } from "@/lib/translitVisibility";
 import { useThemeSync } from "@/lib/ui/theme";
 
 const ScriptLessonsContext = createContext<readonly string[]>([]);
+
+/** True inside a lesson marked `scriptOnly` (see Lesson.scriptOnly): transliteration is hidden until tapped. */
+export const ScriptOnlyContext = createContext(false);
 
 /** Makes course-wide facts (currently: the script lesson ids) available to client UI. */
 export function CourseProvider({
@@ -22,23 +26,13 @@ export function CourseProvider({
   );
 }
 
-/**
- * How transliteration should appear right now:
- * - "show": always visible
- * - "faded": visible but quieter (learner has started the script track)
- * - "reveal": hidden behind a tap (setting "hidden", or every script lesson done)
- */
-export type TranslitVisibility = "show" | "faded" | "reveal";
+export type { TranslitVisibility };
 
 export function useTranslitVisibility(): TranslitVisibility {
   const { settings, completed } = useProgress();
   const scriptIds = useContext(ScriptLessonsContext);
-  if (settings.translit === "always") return "show";
-  if (settings.translit === "hidden") return "reveal";
-  if (scriptIds.length === 0) return "show";
-  const done = scriptIds.filter((id) => completed[id]).length;
-  if (done === 0) return "show";
-  return done >= scriptIds.length ? "reveal" : "faded";
+  const scriptOnly = useContext(ScriptOnlyContext);
+  return resolveTranslitVisibility(settings, scriptIds, completed, scriptOnly);
 }
 
 /** True if this lesson id (or a practice exercise id "<lessonId>:<n>") is in the script track. */
