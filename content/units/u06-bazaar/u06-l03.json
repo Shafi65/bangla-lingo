@@ -159,19 +159,19 @@
     },
     {
       "id": "e07",
-      "type": "listen_select",
+      "type": "listen_meaning",
       "audio": {
-        "bn": "দাও",
-        "tr": "dao",
-        "en": "give (familiar)"
+        "bn": "ভাই, একটা কলা দেন।",
+        "tr": "bhai, ekta kola den.",
+        "en": "Brother, please give me a banana."
       },
       "options": [
-        "দে",
-        "খাও",
-        "দাও",
-        "দেন"
+        "Brother, please give me a banana.",
+        "Brother, please give me a mango.",
+        "Brother, do you have bananas?",
+        "Brother, please give me two bananas."
       ],
-      "answer": 2
+      "answer": 0
     },
     {
       "id": "e08",
@@ -209,34 +209,21 @@
     },
     {
       "id": "e10",
-      "type": "match_pairs",
-      "pairs": [
-        {
-          "bn": "আমাকে",
-          "tr": "amake",
-          "en": "me"
-        },
-        {
-          "bn": "দে",
-          "tr": "de",
-          "en": "give (intimate)"
-        },
-        {
-          "bn": "দাও",
-          "tr": "dao",
-          "en": "give (familiar)"
-        },
-        {
-          "bn": "দেন",
-          "tr": "den",
-          "en": "give (polite)"
-        },
-        {
-          "bn": "একটু",
-          "tr": "ektu",
-          "en": "a little"
-        }
-      ]
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আমাকে একটু ভাত দিন।",
+        "tr": "amake ektu bhat din.",
+        "en": "Please give me a little rice. (polite)"
+      },
+      "blank": "দিন",
+      "options": [
+        "দাও",
+        "দিন",
+        "দে",
+        "খাও"
+      ],
+      "answer": 1,
+      "why": "A polite (আপনি) request ends in **-ন**: দিন (or দেন). দাও is for তুমি, দে for তুই."
     },
     {
       "id": "e11",
@@ -275,38 +262,24 @@
     },
     {
       "id": "e12",
-      "type": "word_bank",
+      "type": "type_translation",
       "prompt": {
-        "bn": "একটু পানি দাও।",
-        "tr": "ektu pani dao.",
-        "en": "Give me a little water."
+        "bn": "আপু, পানি দাও।",
+        "tr": "apu, pani dao.",
+        "en": "Apu, give me water. (familiar: তুমি)"
       },
-      "direction": "bn_to_en",
-      "tiles": [
-        "Give",
-        "rice",
-        "me",
-        "one",
-        "a",
-        "little",
-        "some",
-        "water"
+      "direction": "en_to_bn",
+      "accepted": [
+        "আপু, পানি দাও।",
+        "আপু, আমাকে পানি দাও।",
+        "পানি দাও, আপু।",
+        "আমাকে পানি দাও, আপু।",
+        "apu pani dao",
+        "apu amake pani dao",
+        "pani dao apu",
+        "amake pani dao apu"
       ],
-      "answer": [
-        "Give",
-        "me",
-        "a",
-        "little",
-        "water"
-      ],
-      "alt": [
-        [
-          "Give",
-          "me",
-          "some",
-          "water"
-        ]
-      ]
+      "why": "For তুমি the request form is **দাও**."
     },
     {
       "id": "e13",

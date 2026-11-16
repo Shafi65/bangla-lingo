@@ -195,70 +195,37 @@
     },
     {
       "id": "e09",
-      "type": "match_pairs",
-      "pairs": [
-        {
-          "bn": "দোকান",
-          "tr": "dokan",
-          "en": "shop"
-        },
-        {
-          "bn": "দোকানদার",
-          "tr": "dokandar",
-          "en": "shopkeeper"
-        },
-        {
-          "bn": "বাজার",
-          "tr": "bajar",
-          "en": "market"
-        },
-        {
-          "bn": "দাম",
-          "tr": "dam",
-          "en": "price"
-        },
-        {
-          "bn": "কত",
-          "tr": "koto",
-          "en": "how much"
-        }
-      ]
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "দোকানদার বাজারে আছে।",
+        "tr": "dokandar bajare achhe.",
+        "en": "The shopkeeper is at the market."
+      },
+      "blank": "বাজারে",
+      "options": [
+        "বাজার",
+        "বাজারে",
+        "দোকান",
+        "দোকানদার"
+      ],
+      "answer": 1,
+      "why": "With আছে 'is (at)', the place takes **-এ**: বাজারে 'at the market'."
     },
     {
       "id": "e10",
-      "type": "word_bank",
-      "prompt": {
+      "type": "listen_meaning",
+      "audio": {
         "bn": "ভাই, এটার দাম কত?",
         "tr": "bhai, etar dam koto?",
         "en": "Brother, how much is this?"
       },
-      "direction": "bn_to_en",
-      "tiles": [
-        "Brother",
-        "how",
-        "many",
-        "is",
-        "much",
-        "this",
-        "name",
-        "are"
+      "options": [
+        "Brother, where is this?",
+        "Brother, how much is this?",
+        "Brother, what is this called?",
+        "Brother, how much is the hilsa?"
       ],
-      "answer": [
-        "Brother",
-        "how",
-        "much",
-        "is",
-        "this"
-      ],
-      "alt": [
-        [
-          "how",
-          "much",
-          "is",
-          "this",
-          "Brother"
-        ]
-      ]
+      "answer": 1
     },
     {
       "id": "e11",
@@ -333,17 +300,19 @@
       "id": "e14",
       "type": "type_translation",
       "prompt": {
-        "bn": "দোকানদার কোথায়?",
-        "tr": "dokandar kothay?",
-        "en": "Where is the shopkeeper?"
+        "bn": "বাজার কোথায়?",
+        "tr": "bajar kothay?",
+        "en": "Where is the market?"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "accepted": [
-        "Where is the shopkeeper?",
-        "Where's the shopkeeper?",
-        "Where is the shop owner?",
-        "Where's the shop owner?",
-        "Where is the storekeeper?"
+        "বাজার কোথায়?",
+        "বাজারটা কোথায়?",
+        "bajar kothay",
+        "bazar kothay",
+        "bajar kothai",
+        "bazar kothai",
+        "bajarta kothay"
       ]
     },
     {

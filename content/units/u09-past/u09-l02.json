@@ -248,55 +248,37 @@
     },
     {
       "id": "e11",
-      "type": "word_bank",
-      "prompt": {
-        "bn": "তুই কী করলি?",
-        "tr": "tui ki korli?",
-        "en": "What did you do?"
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "তুমি গতকাল কী করলে?",
+        "tr": "tumi gotokal ki korle?",
+        "en": "What did you do yesterday? (familiar)"
       },
-      "direction": "bn_to_en",
-      "tiles": [
-        "do",
-        "he",
-        "What",
-        "you",
-        "does",
-        "did"
+      "blank": "করলে",
+      "options": [
+        "করলে",
+        "করলি",
+        "করলেন",
+        "করল"
       ],
-      "answer": [
-        "What",
-        "did",
-        "you",
-        "do"
-      ]
+      "answer": 0,
+      "why": "তুমি takes **-লে** in the past: করলে."
     },
     {
       "id": "e12",
-      "type": "word_bank",
-      "prompt": {
+      "type": "listen_meaning",
+      "audio": {
         "bn": "তিনি রান্না করলেন।",
         "tr": "tini ranna korlen.",
         "en": "She cooked."
       },
-      "direction": "bn_to_en",
-      "tiles": [
-        "I",
-        "cooks",
-        "She",
-        "cooked",
-        "He",
-        "you"
+      "options": [
+        "She cooks.",
+        "She cooked.",
+        "I cooked.",
+        "She will cook."
       ],
-      "answer": [
-        "She",
-        "cooked"
-      ],
-      "alt": [
-        [
-          "He",
-          "cooked"
-        ]
-      ]
+      "answer": 1
     },
     {
       "id": "e13",
@@ -323,14 +305,15 @@
         "tr": "tara gotokal kaj korlo.",
         "en": "They worked yesterday."
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "accepted": [
-        "They worked yesterday.",
-        "Yesterday they worked.",
-        "They did work yesterday.",
-        "They did the work yesterday.",
-        "They did their work yesterday.",
-        "Yesterday they did the work."
+        "তারা গতকাল কাজ করল।",
+        "তারা গতকাল কাজ করলো।",
+        "গতকাল তারা কাজ করল।",
+        "গতকাল তারা কাজ করলো।",
+        "tara gotokal kaj korlo",
+        "gotokal tara kaj korlo",
+        "tara gotkal kaj korlo"
       ]
     },
     {

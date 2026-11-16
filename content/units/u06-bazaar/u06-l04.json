@@ -223,34 +223,21 @@
     },
     {
       "id": "e10",
-      "type": "match_pairs",
-      "pairs": [
-        {
-          "bn": "এই",
-          "tr": "ei",
-          "en": "this"
-        },
-        {
-          "bn": "ওই",
-          "tr": "oi",
-          "en": "that"
-        },
-        {
-          "bn": "এগুলো",
-          "tr": "egulo",
-          "en": "these"
-        },
-        {
-          "bn": "ওগুলো",
-          "tr": "ogulo",
-          "en": "those"
-        },
-        {
-          "bn": "দোকানটা",
-          "tr": "dokanta",
-          "en": "the shop"
-        }
-      ]
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "ওগুলো ভালো না।",
+        "tr": "ogulo bhalo na.",
+        "en": "Those aren't good."
+      },
+      "blank": "ওগুলো",
+      "options": [
+        "এগুলো",
+        "ওগুলো",
+        "এই",
+        "ওই"
+      ],
+      "answer": 1,
+      "why": "Several things over there = **ওগুলো** 'those'; এগুলো = these."
     },
     {
       "id": "e11",
@@ -277,45 +264,19 @@
     },
     {
       "id": "e12",
-      "type": "word_bank",
-      "prompt": {
+      "type": "listen_meaning",
+      "audio": {
         "bn": "ওই মাছটা দেন।",
         "tr": "oi machhta den.",
         "en": "Please give me that fish."
       },
-      "direction": "bn_to_en",
-      "tiles": [
-        "Please",
-        "this",
-        "give",
-        "fish",
-        "me",
-        "those",
-        "that",
-        "one"
+      "options": [
+        "Please give me this fish.",
+        "Please give me those fish.",
+        "Please give me that fish.",
+        "Is that fish good?"
       ],
-      "answer": [
-        "Please",
-        "give",
-        "me",
-        "that",
-        "fish"
-      ],
-      "alt": [
-        [
-          "give",
-          "me",
-          "that",
-          "fish"
-        ],
-        [
-          "give",
-          "me",
-          "that",
-          "fish",
-          "Please"
-        ]
-      ]
+      "answer": 2
     },
     {
       "id": "e13",
@@ -358,17 +319,24 @@
       "id": "e15",
       "type": "type_translation",
       "prompt": {
-        "bn": "এগুলো কত?",
-        "tr": "egulo koto?",
-        "en": "How much are these?"
+        "bn": "ওইটা দেন।",
+        "tr": "oita den.",
+        "en": "Please give me that one. (polite)"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "accepted": [
-        "How much are these?",
-        "How much are these ones?",
-        "How much for these?",
-        "What do these cost?",
-        "How much do these cost?"
+        "ওইটা দেন।",
+        "ওইটা দিন।",
+        "ওটা দেন।",
+        "ওটা দিন।",
+        "আমাকে ওইটা দেন।",
+        "আমাকে ওইটা দিন।",
+        "oita den",
+        "oita din",
+        "ota den",
+        "ota din",
+        "amake oita den",
+        "amake oita din"
       ]
     },
     {

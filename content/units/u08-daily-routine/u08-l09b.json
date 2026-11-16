@@ -74,34 +74,20 @@
     },
     {
       "id": "e04",
-      "type": "match_pairs",
-      "pairs": [
-        {
-          "bn": "পড়ছি",
-          "tr": "porchhi",
-          "en": "I am reading"
-        },
-        {
-          "bn": "রান্না",
-          "tr": "ranna",
-          "en": "cooking"
-        },
-        {
-          "bn": "প্রতিদিন",
-          "tr": "protidin",
-          "en": "every day"
-        },
-        {
-          "bn": "সবসময়",
-          "tr": "shobshomoy",
-          "en": "always"
-        },
-        {
-          "bn": "মাঝে মাঝে",
-          "tr": "majhe majhe",
-          "en": "sometimes"
-        }
-      ]
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "তুমি এখন কী করছো?",
+        "tr": "tumi ekhon ki korchho?",
+        "en": "What are you doing now? (familiar)"
+      },
+      "blank": "করছো",
+      "options": [
+        "করছি",
+        "করছেন",
+        "করছো"
+      ],
+      "answer": 2,
+      "why": "তুমি + right now = **করছো**."
     },
     {
       "id": "e05",
@@ -187,34 +173,47 @@
     },
     {
       "id": "e09",
-      "type": "match_pairs",
-      "pairs": [
+      "type": "reading",
+      "title": "On the phone",
+      "lines": [
         {
-          "bn": "তারপর",
-          "tr": "tarpor",
-          "en": "then"
+          "speaker": "Mina",
+          "bn": "তুমি এখন কী করছো?",
+          "tr": "tumi ekhon ki korchho?",
+          "en": "What are you doing now?"
         },
         {
-          "bn": "আগে",
-          "tr": "age",
-          "en": "before"
+          "speaker": "Rafi",
+          "bn": "আমি রান্না করছি।",
+          "tr": "ami ranna korchhi.",
+          "en": "I'm cooking."
         },
         {
-          "bn": "পরে",
-          "tr": "pore",
-          "en": "after"
+          "speaker": "Mina",
+          "bn": "তুমি কি প্রতিদিন রাতে রান্না করো?",
+          "tr": "tumi ki protidin rate ranna koro?",
+          "en": "Do you cook every night?"
         },
         {
-          "bn": "নাস্তার",
-          "tr": "nashtar",
-          "en": "of breakfast"
+          "speaker": "Rafi",
+          "bn": "হ্যাঁ, কারণ সকালে সময় নেই। তুমি কী করছো?",
+          "tr": "hya~, karon shokale shomoy nei. tumi ki korchho?",
+          "en": "Yes, because there's no time in the morning. What are you doing?"
         },
         {
-          "bn": "প্রশ্ন",
-          "tr": "proshno",
-          "en": "question"
+          "speaker": "Mina",
+          "bn": "আমি বই পড়ছি।",
+          "tr": "ami boi porchhi.",
+          "en": "I'm reading a book."
         }
-      ]
+      ],
+      "question": "Why does Rafi cook at night?",
+      "options": [
+        "There's no time in the morning",
+        "Mina asked him to",
+        "He sleeps all day"
+      ],
+      "answer": 0
     },
     {
       "id": "e10",
@@ -249,48 +248,19 @@
     },
     {
       "id": "e11",
-      "type": "word_bank",
-      "prompt": {
+      "type": "listen_meaning",
+      "audio": {
         "bn": "কাজের পরে আমি বাসায় আসি, তারপর রান্না করি।",
         "tr": "kajer pore ami bashay ashi, tarpor ranna kori.",
         "en": "After work I come home, then I cook."
       },
-      "direction": "bn_to_en",
-      "tiles": [
-        "After",
-        "work",
-        "I",
-        "come",
-        "home",
-        "then",
-        "I",
-        "cook",
-        "before",
-        "go",
-        "eat"
+      "options": [
+        "Before work I come home, then I cook.",
+        "After work I go to the office, then I cook.",
+        "After work I come home, then I cook.",
+        "After work I come home, then I sleep."
       ],
-      "answer": [
-        "After",
-        "work",
-        "I",
-        "come",
-        "home",
-        "then",
-        "I",
-        "cook"
-      ],
-      "alt": [
-        [
-          "I",
-          "come",
-          "home",
-          "After",
-          "work",
-          "then",
-          "I",
-          "cook"
-        ]
-      ]
+      "answer": 2
     },
     {
       "id": "e12",
@@ -380,19 +350,15 @@
         "tr": "ghumer age ami fon dekhi.",
         "en": "Before sleeping I look at my phone."
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "accepted": [
-        "Before sleeping I look at my phone.",
-        "Before sleep I look at my phone.",
-        "Before bed I look at my phone.",
-        "Before bed I check my phone.",
-        "Before sleeping I check my phone.",
-        "I look at my phone before sleeping.",
-        "I look at my phone before bed.",
-        "I check my phone before bed.",
-        "I check my phone before sleeping.",
-        "Before going to sleep I look at my phone.",
-        "I look at my phone before going to sleep."
+        "ঘুমের আগে আমি ফোন দেখি।",
+        "ঘুমের আগে ফোন দেখি।",
+        "আমি ঘুমের আগে ফোন দেখি।",
+        "ghumer age ami fon dekhi",
+        "ghumer age fon dekhi",
+        "ami ghumer age fon dekhi",
+        "ghumer age ami phone dekhi"
       ]
     },
     {

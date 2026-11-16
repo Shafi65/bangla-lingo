@@ -116,23 +116,6 @@
       "answer": 1
     },
     {
-      "id": "e04",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "ডজন",
-        "tr": "dozon",
-        "en": "dozen"
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "dozen",
-        "four (a set of four)",
-        "two",
-        "ten"
-      ],
-      "answer": 0
-    },
-    {
       "id": "e05",
       "type": "select_translation",
       "prompt": {
@@ -275,74 +258,45 @@
       ]
     },
     {
-      "id": "e12",
+      "id": "e04",
       "type": "word_bank",
       "prompt": {
-        "bn": "এক হালি ডিম দেন।",
-        "tr": "ek hali dim den.",
-        "en": "Please give me four eggs."
+        "bn": "এক হালি কলা দিন।",
+        "tr": "ek hali kola din.",
+        "en": "Please give me four bananas. (polite)"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "tiles": [
-        "Please",
-        "give",
-        "me",
-        "four",
-        "eggs",
-        "a",
-        "dozen",
-        "hali",
-        "of",
-        "kilo"
+        "দিন",
+        "হালি",
+        "দাও",
+        "ডজন",
+        "কলা",
+        "এক",
+        "কেজি"
       ],
       "answer": [
-        "Please",
-        "give",
-        "me",
-        "four",
-        "eggs"
-      ],
-      "alt": [
-        [
-          "give",
-          "me",
-          "four",
-          "eggs"
-        ],
-        [
-          "Please",
-          "give",
-          "me",
-          "a",
-          "hali",
-          "of",
-          "eggs"
-        ],
-        [
-          "give",
-          "me",
-          "a",
-          "hali",
-          "of",
-          "eggs"
-        ],
-        [
-          "give",
-          "me",
-          "a",
-          "hali",
-          "of",
-          "eggs",
-          "Please"
-        ],
-        [
-          "give",
-          "me",
-          "four",
-          "eggs",
-          "Please"
-        ]
+        "এক",
+        "হালি",
+        "কলা",
+        "দিন"
       ]
+    },
+    {
+      "id": "e12",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "এক ডজন কলা কত?",
+        "tr": "ek dozon kola koto?",
+        "en": "How much is a dozen bananas?"
+      },
+      "options": [
+        "How much are four bananas?",
+        "How much is a dozen bananas?",
+        "How much is a kilo of bananas?",
+        "Do you have a dozen bananas?"
+      ],
+      "answer": 1
     },
     {
       "id": "e13",
@@ -399,102 +353,22 @@
       "id": "e15",
       "type": "type_translation",
       "prompt": {
-        "bn": "আলু পঞ্চাশ টাকা কেজি।",
-        "tr": "alu ponchash taka keji.",
-        "en": "Potatoes are fifty taka a kilo."
+        "bn": "এক কেজি পেঁয়াজ কত?",
+        "tr": "ek keji pe~yaj koto?",
+        "en": "How much is a kilo of onions?"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "accepted": [
-        "Potatoes are fifty taka a kilo",
-        "Potatoes are fifty taka per kilo",
-        "Potatoes are fifty taka a kg",
-        "Potatoes are fifty taka per kg",
-        "Potatoes are fifty taka a kilogram",
-        "Potatoes are fifty taka per kilogram",
-        "Potatoes are 50 taka a kilo",
-        "Potatoes are 50 taka per kilo",
-        "Potatoes are 50 taka a kg",
-        "Potatoes are 50 taka per kg",
-        "Potatoes are 50 taka a kilogram",
-        "Potatoes are 50 taka per kilogram",
-        "Potatoes are Tk 50 a kilo",
-        "Potatoes are Tk 50 per kilo",
-        "Potatoes are Tk 50 a kg",
-        "Potatoes are Tk 50 per kg",
-        "Potatoes are Tk 50 a kilogram",
-        "Potatoes are Tk 50 per kilogram",
-        "Potatoes are Tk50 a kilo",
-        "Potatoes are Tk50 per kilo",
-        "Potatoes are Tk50 a kg",
-        "Potatoes are Tk50 per kg",
-        "Potatoes are Tk50 a kilogram",
-        "Potatoes are Tk50 per kilogram",
-        "Potatoes are 50 Tk a kilo",
-        "Potatoes are 50 Tk per kilo",
-        "Potatoes are 50 Tk a kg",
-        "Potatoes are 50 Tk per kg",
-        "Potatoes are 50 Tk a kilogram",
-        "Potatoes are 50 Tk per kilogram",
-        "Potatoes cost fifty taka a kilo",
-        "Potatoes cost fifty taka per kilo",
-        "Potatoes cost fifty taka a kg",
-        "Potatoes cost fifty taka per kg",
-        "Potatoes cost fifty taka a kilogram",
-        "Potatoes cost fifty taka per kilogram",
-        "Potatoes cost 50 taka a kilo",
-        "Potatoes cost 50 taka per kilo",
-        "Potatoes cost 50 taka a kg",
-        "Potatoes cost 50 taka per kg",
-        "Potatoes cost 50 taka a kilogram",
-        "Potatoes cost 50 taka per kilogram",
-        "Potatoes cost Tk 50 a kilo",
-        "Potatoes cost Tk 50 per kilo",
-        "Potatoes cost Tk 50 a kg",
-        "Potatoes cost Tk 50 per kg",
-        "Potatoes cost Tk 50 a kilogram",
-        "Potatoes cost Tk 50 per kilogram",
-        "Potatoes cost Tk50 a kilo",
-        "Potatoes cost Tk50 per kilo",
-        "Potatoes cost Tk50 a kg",
-        "Potatoes cost Tk50 per kg",
-        "Potatoes cost Tk50 a kilogram",
-        "Potatoes cost Tk50 per kilogram",
-        "Potatoes cost 50 Tk a kilo",
-        "Potatoes cost 50 Tk per kilo",
-        "Potatoes cost 50 Tk a kg",
-        "Potatoes cost 50 Tk per kg",
-        "Potatoes cost 50 Tk a kilogram",
-        "Potatoes cost 50 Tk per kilogram",
-        "Potato is fifty taka a kilo",
-        "Potato is fifty taka per kilo",
-        "Potato is fifty taka a kg",
-        "Potato is fifty taka per kg",
-        "Potato is fifty taka a kilogram",
-        "Potato is fifty taka per kilogram",
-        "Potato is 50 taka a kilo",
-        "Potato is 50 taka per kilo",
-        "Potato is 50 taka a kg",
-        "Potato is 50 taka per kg",
-        "Potato is 50 taka a kilogram",
-        "Potato is 50 taka per kilogram",
-        "Potato is Tk 50 a kilo",
-        "Potato is Tk 50 per kilo",
-        "Potato is Tk 50 a kg",
-        "Potato is Tk 50 per kg",
-        "Potato is Tk 50 a kilogram",
-        "Potato is Tk 50 per kilogram",
-        "Potato is Tk50 a kilo",
-        "Potato is Tk50 per kilo",
-        "Potato is Tk50 a kg",
-        "Potato is Tk50 per kg",
-        "Potato is Tk50 a kilogram",
-        "Potato is Tk50 per kilogram",
-        "Potato is 50 Tk a kilo",
-        "Potato is 50 Tk per kilo",
-        "Potato is 50 Tk a kg",
-        "Potato is 50 Tk per kg",
-        "Potato is 50 Tk a kilogram",
-        "Potato is 50 Tk per kilogram"
+        "এক কেজি পেঁয়াজ কত?",
+        "এক কেজি পেঁয়াজের দাম কত?",
+        "পেঁয়াজের কেজি কত?",
+        "১ কেজি পেঁয়াজ কত?",
+        "ek keji pe~yaj koto",
+        "ek keji peyaj koto",
+        "ek keji piyaj koto",
+        "ek kg peyaj koto",
+        "peyajer keji koto",
+        "ek keji peyajer dam koto"
       ]
     },
     {

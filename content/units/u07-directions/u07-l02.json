@@ -144,23 +144,6 @@
       "answer": 3
     },
     {
-      "id": "e06",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "রাস্তা",
-        "tr": "rasta",
-        "en": "road"
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "intersection",
-        "station",
-        "shop",
-        "road"
-      ],
-      "answer": 3
-    },
-    {
       "id": "e07",
       "type": "select_translation",
       "prompt": {
@@ -226,6 +209,23 @@
       ]
     },
     {
+      "id": "e06",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "মোড়ে ডানে যান।",
+        "tr": "more dane jan.",
+        "en": "Turn right at the intersection."
+      },
+      "blank": "মোড়ে",
+      "options": [
+        "মোড়",
+        "রাস্তা",
+        "মোড়ে"
+      ],
+      "answer": 2,
+      "why": "'At the intersection' = **মোড়ে** (-এ 'at')."
+    },
+    {
       "id": "e10",
       "type": "word_bank",
       "prompt": {
@@ -250,40 +250,19 @@
     },
     {
       "id": "e11",
-      "type": "word_bank",
-      "prompt": {
+      "type": "listen_meaning",
+      "audio": {
         "bn": "এই রাস্তা দিয়ে সোজা যান।",
         "tr": "ei rasta diye shoja jan.",
         "en": "Go straight along this road."
       },
-      "direction": "bn_to_en",
-      "tiles": [
-        "this",
-        "from",
-        "road",
-        "Go",
-        "left",
-        "straight",
-        "the",
-        "along",
-        "down"
+      "options": [
+        "Turn left at this road.",
+        "Go straight along this road.",
+        "Go straight from the intersection.",
+        "Go right along this road."
       ],
-      "answer": [
-        "Go",
-        "straight",
-        "along",
-        "this",
-        "road"
-      ],
-      "alt": [
-        [
-          "Go",
-          "straight",
-          "down",
-          "this",
-          "road"
-        ]
-      ]
+      "answer": 1
     },
     {
       "id": "e12",
@@ -328,14 +307,11 @@
         "tr": "hotel bame.",
         "en": "The hotel is on the left."
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "accepted": [
-        "The hotel is on the left.",
-        "The hotel's on the left.",
-        "The hotel is to the left.",
-        "Hotel is on the left.",
-        "The hotel is on your left.",
-        "The hotel is left."
+        "হোটেল বামে।",
+        "হোটেলটা বামে।",
+        "hotel bame"
       ]
     },
     {

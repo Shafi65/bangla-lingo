@@ -121,40 +121,6 @@
       "answer": 1
     },
     {
-      "id": "e05",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "সেমাই",
-        "tr": "shemai",
-        "en": "shemai"
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "shemai",
-        "biryani",
-        "flatbread",
-        "sugar"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "e06",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "সালামি",
-        "tr": "shalami",
-        "en": "Eid money"
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "Eid money",
-        "new clothes",
-        "price",
-        "prayer"
-      ],
-      "answer": 0
-    },
-    {
       "id": "e07",
       "type": "listen_select",
       "audio": {
@@ -219,6 +185,23 @@
       ]
     },
     {
+      "id": "e05",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "ঈদের দিন সকালে আমরা নামাজ পড়ি।",
+        "tr": "ider din shokale amra namaj pori.",
+        "en": "On Eid morning we pray."
+      },
+      "blank": "ঈদের",
+      "options": [
+        "ঈদে",
+        "ঈদের",
+        "নতুন"
+      ],
+      "answer": 1,
+      "why": "'Eid day' = **ঈদের দিন** (-এর 'of'); ঈদে = 'at Eid'."
+    },
+    {
       "id": "e10",
       "type": "word_bank",
       "prompt": {
@@ -279,90 +262,19 @@
     },
     {
       "id": "e12",
-      "type": "word_bank",
-      "prompt": {
-        "bn": "ঈদে আমি নতুন জামা কিনব।",
-        "tr": "ide ami notun jama kinbo.",
-        "en": "I will buy new clothes for Eid."
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "ঈদে আমাদের ছুটি।",
+        "tr": "ide amader chhuti.",
+        "en": "We have a holiday at Eid."
       },
-      "direction": "bn_to_en",
-      "tiles": [
-        "I",
-        "bought",
-        "will",
-        "a",
-        "buy",
-        "new",
-        "shirt",
-        "clothes",
-        "for",
-        "Eid"
+      "options": [
+        "We work at Eid.",
+        "We buy new clothes at Eid.",
+        "We have a holiday at Eid.",
+        "We go to the village at Eid."
       ],
-      "answer": [
-        "I",
-        "will",
-        "buy",
-        "new",
-        "clothes",
-        "for",
-        "Eid"
-      ],
-      "alt": [
-        [
-          "I",
-          "will",
-          "buy",
-          "a",
-          "new",
-          "shirt",
-          "for",
-          "Eid"
-        ],
-        [
-          "for",
-          "Eid",
-          "I",
-          "will",
-          "buy",
-          "new",
-          "clothes"
-        ],
-        [
-          "for",
-          "Eid",
-          "I",
-          "will",
-          "buy",
-          "a",
-          "new",
-          "shirt"
-        ]
-      ]
-    },
-    {
-      "id": "e13",
-      "type": "type_translation",
-      "prompt": {
-        "bn": "ঈদে আমরা সেমাই খাই।",
-        "tr": "ide amra shemai khai.",
-        "en": "At Eid we eat shemai."
-      },
-      "direction": "bn_to_en",
-      "accepted": [
-        "At Eid we eat shemai.",
-        "We eat shemai at Eid.",
-        "On Eid we eat shemai.",
-        "We eat shemai on Eid.",
-        "For Eid we eat shemai.",
-        "We eat shemai for Eid.",
-        "At Eid we eat semai.",
-        "We eat semai at Eid.",
-        "At Eid we eat vermicelli.",
-        "We eat vermicelli at Eid.",
-        "We eat sweet vermicelli at Eid.",
-        "At Eid we have shemai.",
-        "We have shemai at Eid."
-      ]
+      "answer": 2
     },
     {
       "id": "e14",
@@ -411,6 +323,46 @@
           "গ্রামে",
           "যাই"
         ]
+      ]
+    },
+    {
+      "id": "e06",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "ঈদে আমি নতুন জামা কিনব।",
+        "tr": "ide ami notun jama kinbo.",
+        "en": "I will buy new clothes for Eid."
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "ঈদে আমি নতুন জামা কিনব।",
+        "আমি ঈদে নতুন জামা কিনব।",
+        "ঈদে নতুন জামা কিনব।",
+        "ঈদে আমি নতুন জামা কিনবো।",
+        "ide ami notun jama kinbo",
+        "ami ide notun jama kinbo",
+        "ide notun jama kinbo",
+        "eide ami notun jama kinbo"
+      ]
+    },
+    {
+      "id": "e13",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "ঈদে আমরা সেমাই খাই।",
+        "tr": "ide amra shemai khai.",
+        "en": "At Eid we eat shemai."
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "ঈদে আমরা সেমাই খাই।",
+        "আমরা ঈদে সেমাই খাই।",
+        "ঈদে সেমাই খাই।",
+        "ide amra shemai khai",
+        "amra ide shemai khai",
+        "ide shemai khai",
+        "ide amra semai khai",
+        "eide amra shemai khai"
       ]
     },
     {

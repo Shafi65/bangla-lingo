@@ -173,20 +173,20 @@
     },
     {
       "id": "e07",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "ভাড়া একটু বেশি।",
-        "tr": "bhara ektu beshi.",
-        "en": "The fare is a bit high."
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "মামা, যাবেন?",
+        "tr": "mama, jaben?",
+        "en": "Will you go, mama? (polite, to a driver)"
       },
-      "direction": "bn_to_en",
+      "blank": "যাবেন",
       "options": [
-        "What's the fare?",
-        "The fare is very high.",
-        "The fare is a bit low.",
-        "The fare is a bit high."
+        "যাব",
+        "থামেন",
+        "যাবেন"
       ],
-      "answer": 3
+      "answer": 2,
+      "why": "Asking a driver politely: **যাবেন?** 'will you go?'. যাব = I will go; থামেন = stop!"
     },
     {
       "id": "e08",
@@ -294,28 +294,19 @@
     },
     {
       "id": "e12",
-      "type": "word_bank",
-      "prompt": {
-        "bn": "এই রিকশা, যাবেন?",
-        "tr": "ei riksha, jaben?",
-        "en": "Rickshaw! Will you go?"
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "আমরা রিকশায় যাব।",
+        "tr": "amra rikshay jabo.",
+        "en": "We will go by rickshaw."
       },
-      "direction": "bn_to_en",
-      "tiles": [
-        "I",
-        "go",
-        "Will",
-        "stop",
-        "you",
-        "by",
-        "Rickshaw"
+      "options": [
+        "We will go by rickshaw.",
+        "We will go by CNG.",
+        "Will you go by rickshaw?",
+        "We went by rickshaw."
       ],
-      "answer": [
-        "Rickshaw",
-        "Will",
-        "you",
-        "go"
-      ]
+      "answer": 0
     },
     {
       "id": "e13",
@@ -342,13 +333,13 @@
         "tr": "dhanmondi kotodur?",
         "en": "How far is Dhanmondi?"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "accepted": [
-        "How far is Dhanmondi?",
-        "How far's Dhanmondi?",
-        "How far away is Dhanmondi?",
-        "How far is it to Dhanmondi?",
-        "Dhanmondi is how far?"
+        "ধানমন্ডি কতদূর?",
+        "ধানমন্ডি কত দূর?",
+        "ধানমন্ডি কতদূরে?",
+        "dhanmondi kotodur",
+        "dhanmondi koto dur"
       ]
     },
     {

@@ -149,57 +149,6 @@
       "answer": 3
     },
     {
-      "id": "e06",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "পান্তা ভাত",
-        "tr": "panta bhat",
-        "en": "panta bhat"
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "panta bhat",
-        "biryani",
-        "lentils",
-        "flatbread"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "e07",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "মেলা",
-        "tr": "mela",
-        "en": "fair"
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "fair",
-        "market",
-        "shop",
-        "village"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "e08",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "মেলায়",
-        "tr": "melay",
-        "en": "to the fair"
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "to the market",
-        "at home",
-        "fair",
-        "to the fair"
-      ],
-      "answer": 3
-    },
-    {
       "id": "e09",
       "type": "select_translation",
       "prompt": {
@@ -248,32 +197,20 @@
       ]
     },
     {
-      "id": "e11",
-      "type": "word_bank",
-      "prompt": {
+      "id": "e07",
+      "type": "listen_meaning",
+      "audio": {
         "bn": "তুমি কি মেলায় যাবে?",
         "tr": "tumi ki melay jabe?",
         "en": "Will you go to the fair?"
       },
-      "direction": "bn_to_en",
-      "tiles": [
-        "Will",
-        "went",
-        "you",
-        "go",
-        "to",
-        "market",
-        "the",
-        "fair"
+      "options": [
+        "Did you go to the fair?",
+        "Will you go to the market?",
+        "Will you go to the fair?",
+        "Where is the fair?"
       ],
-      "answer": [
-        "Will",
-        "you",
-        "go",
-        "to",
-        "the",
-        "fair"
-      ]
+      "answer": 2
     },
     {
       "id": "e12",
@@ -283,43 +220,34 @@
         "tr": "amra panta bhat ar ilish khai.",
         "en": "We eat panta bhat and hilsa."
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "tiles": [
-        "We",
-        "ate",
-        "eat",
-        "panta",
-        "biryani",
-        "bhat",
-        "and",
-        "hilsa"
+        "পান্তা",
+        "মাছ",
+        "ইলিশ",
+        "ভাত",
+        "খেলাম",
+        "আমরা",
+        "খাই",
+        "আর"
       ],
       "answer": [
-        "We",
-        "eat",
-        "panta",
-        "bhat",
-        "and",
-        "hilsa"
-      ]
-    },
-    {
-      "id": "e13",
-      "type": "type_translation",
-      "prompt": {
-        "bn": "পহেলা বৈশাখ বাংলা নববর্ষ।",
-        "tr": "pohela boishakh bangla noboborsho.",
-        "en": "Pohela Boishakh is the Bengali New Year."
-      },
-      "direction": "bn_to_en",
-      "accepted": [
-        "Pohela Boishakh is the Bengali New Year.",
-        "Pohela Boishakh is Bengali New Year.",
-        "Pohela Boishakh is the Bangla New Year.",
-        "Pohela Boishakh is Bangla New Year.",
-        "Pohela Boishakh is the Bengali New Year's Day.",
-        "Pohela Baishakh is the Bengali New Year.",
-        "Pohela Baishakh is Bengali New Year."
+        "আমরা",
+        "পান্তা",
+        "ভাত",
+        "আর",
+        "ইলিশ",
+        "খাই"
+      ],
+      "alt": [
+        [
+          "আমরা",
+          "ইলিশ",
+          "আর",
+          "পান্তা",
+          "ভাত",
+          "খাই"
+        ]
       ]
     },
     {
@@ -359,6 +287,72 @@
         "আলপনা",
         "খুব",
         "সুন্দর"
+      ]
+    },
+    {
+      "id": "e08",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আমি একটা লাল শাড়ি কিনব।",
+        "tr": "ami ekta lal shari kinbo.",
+        "en": "I will buy a red sari."
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "আমি একটা লাল শাড়ি কিনলাম।",
+        "আমি একটা নতুন শাড়ি কিনব।",
+        "আমি একটা লাল জামা কিনব।",
+        "আমি একটা লাল শাড়ি কিনব।"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e06",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আজ পহেলা বৈশাখ।",
+        "tr": "aj pohela boishakh.",
+        "en": "Today is Pohela Boishakh."
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "আজ পহেলা বৈশাখ।",
+        "aj pohela boishakh",
+        "aj pohela boisakh",
+        "aj pohela baishakh",
+        "aaj pohela boishakh"
+      ]
+    },
+    {
+      "id": "e11",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "মেলা কোথায়?",
+        "tr": "mela kothay?",
+        "en": "Where is the fair?"
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "মেলা কোথায়?",
+        "mela kothay",
+        "mela kothai"
+      ]
+    },
+    {
+      "id": "e13",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "পহেলা বৈশাখ বাংলা নববর্ষ।",
+        "tr": "pohela boishakh bangla noboborsho.",
+        "en": "Pohela Boishakh is the Bengali New Year."
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "পহেলা বৈশাখ বাংলা নববর্ষ।",
+        "pohela boishakh bangla noboborsho",
+        "pohela boisakh bangla noboborsho",
+        "pohela boishakh bangla nobobarsho",
+        "pohela baishakh bangla noboborsho"
       ]
     },
     {

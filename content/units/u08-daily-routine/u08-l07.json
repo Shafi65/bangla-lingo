@@ -256,45 +256,19 @@
     },
     {
       "id": "e10",
-      "type": "word_bank",
-      "prompt": {
+      "type": "listen_meaning",
+      "audio": {
         "bn": "ঘুমের আগে আমি ফোন দেখি।",
         "tr": "ghumer age ami fon dekhi.",
         "en": "Before sleeping I look at my phone."
       },
-      "direction": "bn_to_en",
-      "tiles": [
-        "after",
-        "phone",
-        "I",
-        "Before",
-        "work",
-        "look",
-        "watch",
-        "at",
-        "sleeping",
-        "my"
+      "options": [
+        "After sleeping I look at my phone.",
+        "Before sleeping I read a book.",
+        "Before sleeping I look at my phone.",
+        "Before work I look at my phone."
       ],
-      "answer": [
-        "Before",
-        "sleeping",
-        "I",
-        "look",
-        "at",
-        "my",
-        "phone"
-      ],
-      "alt": [
-        [
-          "I",
-          "look",
-          "at",
-          "my",
-          "phone",
-          "Before",
-          "sleeping"
-        ]
-      ]
+      "answer": 2
     },
     {
       "id": "e11",
@@ -339,71 +313,20 @@
     },
     {
       "id": "e12",
-      "type": "word_bank",
-      "prompt": {
-        "bn": "আমি সকালে উঠি, তারপর গোসল করি।",
-        "tr": "ami shokale uthi, tarpor gosol kori.",
-        "en": "I get up in the morning, then I bathe."
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "সকালে সময় নেই, তাই আমি রাতে রান্না করি।",
+        "tr": "shokale shomoy nei, tai ami rate ranna kori.",
+        "en": "There's no time in the morning, so I cook at night."
       },
-      "direction": "bn_to_en",
-      "tiles": [
-        "night",
-        "I",
-        "then",
-        "morning",
-        "up",
-        "bathe",
-        "the",
-        "before",
-        "get",
-        "in",
-        "I",
-        "sleep"
+      "blank": "তাই",
+      "options": [
+        "কারণ",
+        "তাই",
+        "আগে"
       ],
-      "answer": [
-        "I",
-        "get",
-        "up",
-        "in",
-        "the",
-        "morning",
-        "then",
-        "I",
-        "bathe"
-      ],
-      "alt": [
-        [
-          "I",
-          "get",
-          "up",
-          "in",
-          "the",
-          "morning",
-          "then",
-          "bathe"
-        ],
-        [
-          "in",
-          "the",
-          "morning",
-          "I",
-          "get",
-          "up",
-          "then",
-          "I",
-          "bathe"
-        ],
-        [
-          "in",
-          "the",
-          "morning",
-          "I",
-          "get",
-          "up",
-          "then",
-          "bathe"
-        ]
-      ]
+      "answer": 1,
+      "why": "**তাই** 'so' introduces the result; **কারণ** 'because' introduces the reason."
     },
     {
       "id": "e13",
@@ -426,19 +349,17 @@
       "id": "e14",
       "type": "type_translation",
       "prompt": {
-        "bn": "সকালে সময় নেই, তাই আমি রাতে রান্না করি।",
-        "tr": "shokale shomoy nei, tai ami rate ranna kori.",
-        "en": "There's no time in the morning, so I cook at night."
+        "bn": "তারপর আমি নাস্তা করি।",
+        "tr": "tarpor ami nashta kori.",
+        "en": "Then I have breakfast."
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "accepted": [
-        "There's no time in the morning, so I cook at night.",
-        "There is no time in the morning, so I cook at night.",
-        "I have no time in the morning, so I cook at night.",
-        "I don't have time in the morning, so I cook at night.",
-        "I do not have time in the morning, so I cook at night.",
-        "In the morning there's no time, so I cook at night.",
-        "In the morning there is no time, so I cook at night."
+        "তারপর আমি নাস্তা করি।",
+        "তারপর নাস্তা করি।",
+        "tarpor ami nashta kori",
+        "tarpor nashta kori",
+        "tarpor ami nasta kori"
       ]
     },
     {

@@ -154,23 +154,6 @@
       "answer": 2
     },
     {
-      "id": "e06",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "যাও",
-        "tr": "jao",
-        "en": "you go (familiar)"
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "you go (familiar)",
-        "I go",
-        "goes",
-        "go (polite)"
-      ],
-      "answer": 0
-    },
-    {
       "id": "e07",
       "type": "select_translation",
       "prompt": {
@@ -234,6 +217,23 @@
           "en": "you go (familiar)"
         }
       ]
+    },
+    {
+      "id": "e06",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আমার ছোট ভাই স্কুলে যায়।",
+        "tr": "amar chhoto bhai skule jay.",
+        "en": "My younger brother goes to school."
+      },
+      "blank": "যায়",
+      "options": [
+        "যাই",
+        "যাও",
+        "যায়"
+      ],
+      "answer": 2,
+      "why": "A third person (my brother = সে) takes **যায়**. যাই = I go; যাও = you go."
     },
     {
       "id": "e10",
@@ -330,39 +330,19 @@
     },
     {
       "id": "e13",
-      "type": "word_bank",
-      "prompt": {
+      "type": "listen_meaning",
+      "audio": {
         "bn": "আমি রাতে বাসায় আসি।",
         "tr": "ami rate bashay ashi.",
         "en": "I come home at night."
       },
-      "direction": "bn_to_en",
-      "tiles": [
-        "comes",
-        "I",
-        "go",
-        "home",
-        "at",
-        "morning",
-        "come",
-        "night"
+      "options": [
+        "I come home in the morning.",
+        "He comes home at night.",
+        "I go to the office at night.",
+        "I come home at night."
       ],
-      "answer": [
-        "I",
-        "come",
-        "home",
-        "at",
-        "night"
-      ],
-      "alt": [
-        [
-          "at",
-          "night",
-          "I",
-          "come",
-          "home"
-        ]
-      ]
+      "answer": 3
     },
     {
       "id": "e14",
@@ -372,16 +352,13 @@
         "tr": "she kokhon ashe?",
         "en": "When does he come?"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "accepted": [
-        "When does he come?",
-        "When does she come?",
-        "When does he arrive?",
-        "When does she arrive?",
-        "What time does he come?",
-        "What time does she come?",
-        "When is he coming?",
-        "When is she coming?"
+        "সে কখন আসে?",
+        "she kokhon ashe",
+        "she kokhon ase",
+        "se kokhon ashe",
+        "se kokhon ase"
       ]
     },
     {

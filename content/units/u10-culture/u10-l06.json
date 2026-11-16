@@ -84,23 +84,6 @@
       "answer": 1
     },
     {
-      "id": "e02",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "মেহমান",
-        "tr": "mehman",
-        "en": "guest"
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "friend",
-        "invitation",
-        "holiday",
-        "guest"
-      ],
-      "answer": 3
-    },
-    {
       "id": "e03",
       "type": "select_translation",
       "prompt": {
@@ -171,23 +154,6 @@
       "why": "-বেন is the future for আপনি: খাবেন 'will you eat?'"
     },
     {
-      "id": "e07",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "যদি",
-        "tr": "jodi",
-        "en": "if"
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "but",
-        "because",
-        "if",
-        "then"
-      ],
-      "answer": 2
-    },
-    {
       "id": "e08",
       "type": "listen_select",
       "audio": {
@@ -235,6 +201,22 @@
       ]
     },
     {
+      "id": "e02",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "আজ আমাদের বাসায় মেহমান।",
+        "tr": "aj amader bashay mehman.",
+        "en": "We have guests at home today."
+      },
+      "options": [
+        "We have guests at home today.",
+        "We are guests at their home today.",
+        "We have guests at home tomorrow.",
+        "There are no guests at home today."
+      ],
+      "answer": 0
+    },
+    {
       "id": "e10",
       "type": "select_translation",
       "prompt": {
@@ -254,51 +236,20 @@
     },
     {
       "id": "e11",
-      "type": "word_bank",
-      "prompt": {
+      "type": "fill_blank",
+      "sentence": {
         "bn": "পিঠা খাবেন?",
         "tr": "pitha khaben?",
-        "en": "Would you like some pitha?"
+        "en": "Would you like some pitha? (polite)"
       },
-      "direction": "bn_to_en",
-      "tiles": [
-        "Would",
-        "Will",
-        "you",
-        "like",
-        "have",
-        "some",
-        "sweets",
-        "pitha"
+      "blank": "খাবেন",
+      "options": [
+        "খেয়েছেন",
+        "খাবেন",
+        "খাই"
       ],
-      "answer": [
-        "Would",
-        "you",
-        "like",
-        "some",
-        "pitha"
-      ],
-      "alt": [
-        [
-          "Will",
-          "you",
-          "have",
-          "some",
-          "pitha"
-        ],
-        [
-          "Would",
-          "you",
-          "like",
-          "pitha"
-        ],
-        [
-          "Will",
-          "you",
-          "have",
-          "pitha"
-        ]
-      ]
+      "answer": 1,
+      "why": "A polite offer uses the future: **খাবেন?** 'will you eat?'"
     },
     {
       "id": "e12",
@@ -372,6 +323,28 @@
       "why": "তুমি takes the future -বে: আসবে."
     },
     {
+      "id": "e07",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "মেহমান এসেছে।",
+        "tr": "mehman eshechhe.",
+        "en": "The guests have arrived."
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "মেহমান এসেছে।",
+        "মেহমান এসেছেন।",
+        "মেহমানরা এসেছে।",
+        "মেহমানরা এসেছেন।",
+        "mehman eshechhe",
+        "mehman eshechhen",
+        "mehman esheche",
+        "mehman eseche",
+        "mehman eshechen",
+        "mehmanra eshechhe"
+      ]
+    },
+    {
       "id": "e15",
       "type": "type_translation",
       "prompt": {
@@ -382,7 +355,6 @@
       "direction": "en_to_bn",
       "accepted": [
         "আমাদের বাসায় আসবেন।",
-        "আমাদের বাসায় আসবেন",
         "amader bashay ashben",
         "amader basay ashben",
         "amader bashai ashben",

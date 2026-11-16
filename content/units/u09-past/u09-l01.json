@@ -217,66 +217,36 @@
     },
     {
       "id": "e09",
-      "type": "word_bank",
-      "prompt": {
+      "type": "listen_meaning",
+      "audio": {
         "bn": "আমি তাকে বললাম।",
         "tr": "ami take bollam.",
         "en": "I told him."
       },
-      "direction": "bn_to_en",
-      "tiles": [
-        "him",
-        "I",
-        "his",
-        "told",
-        "tell",
-        "her",
-        "me"
+      "options": [
+        "I told him.",
+        "He told me.",
+        "I will tell him.",
+        "I heard him."
       ],
-      "answer": [
-        "I",
-        "told",
-        "him"
-      ],
-      "alt": [
-        [
-          "I",
-          "told",
-          "her"
-        ]
-      ]
+      "answer": 0
     },
     {
       "id": "e10",
-      "type": "word_bank",
-      "prompt": {
+      "type": "fill_blank",
+      "sentence": {
         "bn": "আমি বই পড়লাম।",
         "tr": "ami boi porlam.",
-        "en": "I read a book."
+        "en": "I read a book. (past)"
       },
-      "direction": "bn_to_en",
-      "tiles": [
-        "book",
-        "am",
-        "I",
-        "a",
-        "reading",
-        "read",
-        "books"
+      "blank": "পড়লাম",
+      "options": [
+        "পড়ি",
+        "পড়ছি",
+        "পড়লাম"
       ],
-      "answer": [
-        "I",
-        "read",
-        "a",
-        "book"
-      ],
-      "alt": [
-        [
-          "I",
-          "read",
-          "books"
-        ]
-      ]
+      "answer": 2,
+      "why": "Past for আমি: stem + **-লাম**: পড়লাম."
     },
     {
       "id": "e11",
@@ -349,16 +319,13 @@
         "tr": "ami gan shunlam.",
         "en": "I listened to music."
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "accepted": [
-        "I listened to music.",
-        "I listened to a song.",
-        "I listened to songs.",
-        "I heard a song.",
-        "I heard music.",
-        "I heard songs.",
-        "I listened to some music.",
-        "I listened to the song."
+        "আমি গান শুনলাম।",
+        "গান শুনলাম।",
+        "ami gan shunlam",
+        "gan shunlam",
+        "ami gan sunlam"
       ]
     },
     {

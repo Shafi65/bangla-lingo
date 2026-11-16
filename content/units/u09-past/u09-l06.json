@@ -111,23 +111,6 @@
       "why": "আপনি takes -েন: ছিলেন."
     },
     {
-      "id": "e04",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "ছিল",
-        "tr": "chhilo",
-        "en": "was"
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "was",
-        "I was",
-        "is",
-        "you were (familiar)"
-      ],
-      "answer": 0
-    },
-    {
       "id": "e05",
       "type": "select_translation",
       "prompt": {
@@ -161,23 +144,6 @@
         "cheap"
       ],
       "answer": 2
-    },
-    {
-      "id": "e07",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "শিক্ষার্থী",
-        "tr": "shikkharthi",
-        "en": "student"
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "teacher",
-        "doctor",
-        "friend",
-        "student"
-      ],
-      "answer": 3
     },
     {
       "id": "e08",
@@ -228,47 +194,67 @@
       ]
     },
     {
+      "id": "e04",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "সে ঢাকায় ছিল।",
+        "tr": "she dhakay chhilo.",
+        "en": "He was in Dhaka."
+      },
+      "blank": "ছিল",
+      "options": [
+        "ছিলাম",
+        "ছিলেন",
+        "আছে",
+        "ছিল"
+      ],
+      "answer": 3,
+      "why": "সে → **ছিল**; ছিলেন is polite (আপনি / তিনি)."
+    },
+    {
+      "id": "e07",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আমি ঢাকায় শিক্ষার্থী ছিলাম।",
+        "tr": "ami dhakay shikkharthi chhilam.",
+        "en": "I was a student in Dhaka."
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "আমি ঢাকায় শিক্ষার্থী ছিলাম।",
+        "আমি ঢাকায় শিক্ষক ছিলাম।",
+        "আমি ঢাকায় শিক্ষার্থী আছি।",
+        "সে ঢাকায় শিক্ষার্থী ছিল।"
+      ],
+      "answer": 0,
+      "why": "Identity in the past needs **ছিলাম**: আমি … শিক্ষার্থী ছিলাম."
+    },
+    {
       "id": "e10",
-      "type": "word_bank",
+      "type": "type_translation",
       "prompt": {
         "bn": "দোকান বন্ধ ছিল।",
         "tr": "dokan bondho chhilo.",
         "en": "The shop was closed."
       },
-      "direction": "bn_to_en",
-      "tiles": [
-        "is",
-        "shop",
-        "The",
-        "closed",
-        "store",
-        "was",
-        "open"
-      ],
-      "answer": [
-        "The",
-        "shop",
-        "was",
-        "closed"
-      ],
-      "alt": [
-        [
-          "The",
-          "store",
-          "was",
-          "closed"
-        ]
+      "direction": "en_to_bn",
+      "accepted": [
+        "দোকান বন্ধ ছিল।",
+        "দোকানটা বন্ধ ছিল।",
+        "dokan bondho chhilo",
+        "dokanta bondho chhilo",
+        "dokan bondo chilo",
+        "dokan bondho chilo"
       ]
     },
     {
       "id": "e11",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_meaning",
+      "audio": {
         "bn": "সে তার মায়ের মতো।",
         "tr": "she tar mayer moto.",
         "en": "She is like her mother."
       },
-      "direction": "bn_to_en",
       "options": [
         "She is with her mother.",
         "She is like her mother.",
@@ -276,7 +262,7 @@
         "She was her mother."
       ],
       "answer": 1,
-      "why": "মতো 'like (similar to)' follows a possessive: মায়ের মতো."
+      "why": "**X-এর মতো** = like X."
     },
     {
       "id": "e12",

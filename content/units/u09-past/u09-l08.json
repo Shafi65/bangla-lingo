@@ -122,65 +122,36 @@
     },
     {
       "id": "e06",
-      "type": "match_pairs",
-      "pairs": [
-        {
-          "bn": "গেলাম",
-          "tr": "gelam",
-          "en": "I went"
-        },
-        {
-          "bn": "গেল",
-          "tr": "gelo",
-          "en": "went"
-        },
-        {
-          "bn": "এলাম",
-          "tr": "elam",
-          "en": "I came"
-        },
-        {
-          "bn": "এলে",
-          "tr": "ele",
-          "en": "you came (familiar)"
-        },
-        {
-          "bn": "খেলাম",
-          "tr": "khelam",
-          "en": "I ate"
-        }
-      ]
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "সে কোথায় গেল?",
+        "tr": "she kothay gelo?",
+        "en": "Where did he go?"
+      },
+      "blank": "গেল",
+      "options": [
+        "গেলাম",
+        "গেল",
+        "যায়",
+        "এলে"
+      ],
+      "answer": 1,
+      "why": "সে + went = **গেল**; গেলাম = I went."
     },
     {
       "id": "e07",
-      "type": "match_pairs",
-      "pairs": [
-        {
-          "bn": "দিলাম",
-          "tr": "dilam",
-          "en": "I gave"
-        },
-        {
-          "bn": "নিলাম",
-          "tr": "nilam",
-          "en": "I took"
-        },
-        {
-          "bn": "কিনলেন",
-          "tr": "kinlen",
-          "en": "you bought (polite)"
-        },
-        {
-          "bn": "খেয়েছো",
-          "tr": "kheyechho",
-          "en": "have you eaten (familiar)"
-        },
-        {
-          "bn": "মাত্র",
-          "tr": "matro",
-          "en": "just"
-        }
-      ]
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আপনি কী কিনলেন?",
+        "tr": "apni ki kinlen?",
+        "en": "What did you buy? (polite)"
+      },
+      "blank": "কিনলেন",
+      "accepted": [
+        "কিনলেন",
+        "kinlen"
+      ],
+      "why": "আপনি takes **-লেন** in the past: কিনলেন."
     },
     {
       "id": "e08",
@@ -217,52 +188,19 @@
     },
     {
       "id": "e10",
-      "type": "word_bank",
-      "prompt": {
+      "type": "listen_meaning",
+      "audio": {
         "bn": "আমি কাজ করেছি, তাই এখন বাসায় যাচ্ছি।",
         "tr": "ami kaj korechhi, tai ekhon bashay jachchhi.",
         "en": "I've done the work, so I'm going home now."
       },
-      "direction": "bn_to_en",
-      "tiles": [
-        "I've",
-        "done",
-        "the",
-        "work",
-        "so",
-        "I'm",
-        "going",
-        "home",
-        "now",
-        "because",
-        "did",
-        "coming"
+      "options": [
+        "I'm working, so I'm not going home now.",
+        "I've done the work, so I'm going to the office now.",
+        "I did the work yesterday, so I'm at home now.",
+        "I've done the work, so I'm going home now."
       ],
-      "answer": [
-        "I've",
-        "done",
-        "the",
-        "work",
-        "so",
-        "I'm",
-        "going",
-        "home",
-        "now"
-      ],
-      "alt": [
-        [
-          "I've",
-          "done",
-          "the",
-          "work",
-          "so",
-          "now",
-          "I'm",
-          "going",
-          "home"
-        ]
-      ],
-      "why": "তাই 'so' introduces the result."
+      "answer": 3
     },
     {
       "id": "e11",
@@ -363,9 +301,7 @@
         "জি, আমি খেয়েছি।",
         "জি, খেয়েছি।",
         "ji, ami kheyechhi",
-        "ji ami kheyechhi",
         "ji kheyechhi",
-        "ji, kheyechhi",
         "ji ami kheyechi",
         "ji kheyechi",
         "ji ami kheyesi"
@@ -377,15 +313,16 @@
       "prompt": {
         "bn": "তুমি কখন এলে?",
         "tr": "tumi kokhon ele?",
-        "en": "When did you come?"
+        "en": "When did you come? (familiar)"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "accepted": [
-        "When did you come?",
-        "When did you arrive?",
-        "When did you get here?",
-        "What time did you come?",
-        "What time did you arrive?"
+        "তুমি কখন এলে?",
+        "কখন এলে?",
+        "তুমি কখন আসলে?",
+        "tumi kokhon ele",
+        "kokhon ele",
+        "tumi kokhon ashle"
       ]
     },
     {

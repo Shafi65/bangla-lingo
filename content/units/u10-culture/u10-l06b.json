@@ -64,23 +64,6 @@
       "answer": 2
     },
     {
-      "id": "e02",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "উপহার",
-        "tr": "upohar",
-        "en": "gift"
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "gift",
-        "guest",
-        "invitation",
-        "sweet"
-      ],
-      "answer": 0
-    },
-    {
       "id": "e03",
       "type": "select_translation",
       "prompt": {
@@ -97,23 +80,6 @@
       ],
       "answer": 1,
       "why": "জন্য follows a possessive: আপনার জন্য 'for you'."
-    },
-    {
-      "id": "e04",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "শুভেচ্ছা",
-        "tr": "shubhechchha",
-        "en": "greetings"
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "invitation",
-        "thanks",
-        "gift",
-        "greetings"
-      ],
-      "answer": 3
     },
     {
       "id": "e05",
@@ -180,6 +146,22 @@
       ]
     },
     {
+      "id": "e02",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "উপহার খুব সুন্দর, ধন্যবাদ।",
+        "tr": "upohar khub shundor, dhonnobad.",
+        "en": "The gift is very beautiful, thank you."
+      },
+      "options": [
+        "The gift is very expensive, thank you.",
+        "The book is very beautiful, thank you.",
+        "Thank you for the invitation.",
+        "The gift is very beautiful, thank you."
+      ],
+      "answer": 3
+    },
+    {
       "id": "e08",
       "type": "select_translation",
       "prompt": {
@@ -187,14 +169,15 @@
         "tr": "shobaike ider shubhechchha.",
         "en": "Eid greetings to everyone."
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "Eid Mubarak to you.",
-        "Happy New Year, everyone.",
-        "Eid greetings to everyone.",
-        "Eid money for everyone."
+        "সবাই ঈদের শুভেচ্ছা।",
+        "সবাইকে ঈদের শুভেচ্ছা।",
+        "সবাইকে ঈদে শুভেচ্ছা।",
+        "আমাকে ঈদের শুভেচ্ছা।"
       ],
-      "answer": 2
+      "answer": 1,
+      "why": "Greetings go *to* someone: **সবাইকে** (-কে), and 'Eid greetings' = **ঈদের** শুভেচ্ছা."
     },
     {
       "id": "e09",
@@ -214,59 +197,20 @@
     },
     {
       "id": "e10",
-      "type": "word_bank",
-      "prompt": {
-        "bn": "মেলায় অনেক লোক।",
-        "tr": "melay onek lok.",
-        "en": "There are a lot of people at the fair."
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "এই উপহার তোমার জন্য।",
+        "tr": "ei upohar tomar jonno.",
+        "en": "This gift is for you. (familiar)"
       },
-      "direction": "bn_to_en",
-      "tiles": [
-        "There",
-        "are",
-        "a",
-        "lot",
-        "of",
-        "people",
-        "at",
-        "the",
-        "fair",
-        "temple",
-        "is"
+      "blank": "তোমার",
+      "options": [
+        "তোমার",
+        "তুমি",
+        "আপনার"
       ],
-      "answer": [
-        "There",
-        "are",
-        "a",
-        "lot",
-        "of",
-        "people",
-        "at",
-        "the",
-        "fair"
-      ],
-      "alt": [
-        [
-          "a",
-          "lot",
-          "of",
-          "people",
-          "at",
-          "the",
-          "fair"
-        ],
-        [
-          "at",
-          "the",
-          "fair",
-          "There",
-          "are",
-          "a",
-          "lot",
-          "of",
-          "people"
-        ]
-      ]
+      "answer": 0,
+      "why": "জন্য 'for' takes the possessive: **তোমার** জন্য (আপনার জন্য if polite)."
     },
     {
       "id": "e11",
@@ -363,6 +307,23 @@
       "why": "-লাম = 'I did' (past); কিনব is 'I will buy'. To a friend: তোমার জন্য."
     },
     {
+      "id": "e04",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আজ আমার জন্মদিন।",
+        "tr": "aj amar jonmodin.",
+        "en": "Today is my birthday."
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "আজ আমার জন্মদিন।",
+        "আজকে আমার জন্মদিন।",
+        "aj amar jonmodin",
+        "aaj amar jonmodin",
+        "aj amar janmadin"
+      ]
+    },
+    {
       "id": "e14",
       "type": "type_translation",
       "prompt": {
@@ -386,21 +347,12 @@
         "tr": "aj amader bashay onek lok.",
         "en": "There are a lot of people at our home today."
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "accepted": [
-        "There are a lot of people at our home today.",
-        "There are a lot of people at our house today.",
-        "There are many people at our home today.",
-        "There are many people at our house today.",
-        "There are lots of people at our home today.",
-        "There are lots of people at our house today.",
-        "Today there are a lot of people at our home.",
-        "Today there are a lot of people at our house.",
-        "Today there are many people at our house.",
-        "Today there are lots of people at our house.",
-        "Lots of people are at our house today.",
-        "A lot of people are at our house today.",
-        "Many people are at our house today."
+        "আজ আমাদের বাসায় অনেক লোক।",
+        "আমাদের বাসায় আজ অনেক লোক।",
+        "aj amader bashay onek lok",
+        "amader bashay aj onek lok"
       ]
     },
     {

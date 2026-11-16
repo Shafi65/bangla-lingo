@@ -178,19 +178,19 @@
     },
     {
       "id": "e08",
-      "type": "listen_select",
+      "type": "listen_meaning",
       "audio": {
-        "bn": "পাশে",
-        "tr": "pashe",
-        "en": "next to"
+        "bn": "দোকানটা হোটেলের পাশে।",
+        "tr": "dokanta hoteler pashe.",
+        "en": "The shop is next to the hotel."
       },
       "options": [
-        "সামনে",
-        "পিছনে",
-        "কাছে",
-        "পাশে"
+        "The shop is next to the hotel.",
+        "The shop is behind the hotel.",
+        "The hotel is next to the shop.",
+        "The shop is far from the hotel."
       ],
-      "answer": 3
+      "answer": 0
     },
     {
       "id": "e09",
@@ -249,38 +249,20 @@
     },
     {
       "id": "e11",
-      "type": "word_bank",
-      "prompt": {
+      "type": "fill_blank",
+      "sentence": {
         "bn": "বাড়ির সামনে একটা দোকান আছে।",
         "tr": "barir shamne ekta dokan achhe.",
         "en": "There is a shop in front of the house."
       },
-      "direction": "bn_to_en",
-      "tiles": [
-        "hotel",
-        "There",
-        "behind",
-        "front",
-        "of",
-        "is",
-        "a",
-        "in",
-        "next",
-        "shop",
-        "the",
-        "house"
+      "blank": "বাড়ির",
+      "options": [
+        "বাড়ি",
+        "বাড়ির",
+        "বাসায়"
       ],
-      "answer": [
-        "There",
-        "is",
-        "a",
-        "shop",
-        "in",
-        "front",
-        "of",
-        "the",
-        "house"
-      ]
+      "answer": 1,
+      "why": "Before সামনে the noun takes **-র**: বাড়ির সামনে."
     },
     {
       "id": "e12",
@@ -331,17 +313,14 @@
         "tr": "steshon onek dure.",
         "en": "The station is very far."
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "accepted": [
-        "The station is very far.",
-        "The station is far away.",
-        "The station is very far away.",
-        "The station is a long way away.",
-        "The station's very far.",
-        "The station is quite far.",
-        "The station is really far.",
-        "The station is a long way off.",
-        "The station is far."
+        "স্টেশন অনেক দূরে।",
+        "স্টেশন খুব দূরে।",
+        "স্টেশনটা অনেক দূরে।",
+        "steshon onek dure",
+        "steshon khub dure",
+        "station onek dure"
       ]
     },
     {

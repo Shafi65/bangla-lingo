@@ -209,46 +209,36 @@
     },
     {
       "id": "e09",
-      "type": "listen_select",
-      "audio": {
-        "bn": "আমি বই পড়ি।",
-        "tr": "ami boi pori.",
-        "en": "I read books."
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আমি রাতে টিভি দেখি।",
+        "tr": "ami rate tibhi dekhi.",
+        "en": "I watch TV at night."
       },
+      "blank": "দেখি",
       "options": [
-        "সে বই পড়ে।",
-        "আমি টিভি দেখি।",
-        "আমি বই পড়ি।",
-        "আমি বাংলা বলি।"
+        "দেখে",
+        "দেখি",
+        "বলি"
       ],
-      "answer": 2
+      "answer": 1,
+      "why": "আমি takes **-ি**: দেখি. দেখে is for সে."
     },
     {
       "id": "e10",
-      "type": "word_bank",
-      "prompt": {
+      "type": "listen_meaning",
+      "audio": {
         "bn": "আমি একটু বাংলা বলি।",
         "tr": "ami ektu bangla boli.",
         "en": "I speak a little Bengali."
       },
-      "direction": "bn_to_en",
-      "tiles": [
-        "I",
-        "speak",
-        "a",
-        "little",
-        "Bengali",
-        "English",
-        "read",
-        "lot"
+      "options": [
+        "I speak a little Bengali.",
+        "I speak a lot of Bengali.",
+        "I read a little Bengali.",
+        "He speaks a little Bengali."
       ],
-      "answer": [
-        "I",
-        "speak",
-        "a",
-        "little",
-        "Bengali"
-      ]
+      "answer": 0
     },
     {
       "id": "e11",
@@ -329,15 +319,12 @@
         "tr": "amar chhoto bon boi pore.",
         "en": "My younger sister reads books."
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "accepted": [
-        "My younger sister reads books.",
-        "My little sister reads books.",
-        "My younger sister reads a book.",
-        "My little sister reads a book.",
-        "My younger sister reads.",
-        "My little sister reads.",
-        "My younger sister studies books."
+        "আমার ছোট বোন বই পড়ে।",
+        "ছোট বোন বই পড়ে।",
+        "amar chhoto bon boi pore",
+        "chhoto bon boi pore"
       ]
     },
     {
@@ -353,8 +340,7 @@
         "আমি বাংলা পড়ি।",
         "বাংলা পড়ি।",
         "ami bangla pori",
-        "bangla pori",
-        "ami bangla poRi"
+        "bangla pori"
       ]
     },
     {

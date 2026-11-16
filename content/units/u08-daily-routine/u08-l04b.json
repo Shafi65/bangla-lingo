@@ -131,22 +131,6 @@
       "answer": 1
     },
     {
-      "id": "e06",
-      "type": "listen_select",
-      "audio": {
-        "bn": "লিখি",
-        "tr": "likhi",
-        "en": "I write"
-      },
-      "options": [
-        "লেখে",
-        "দেখি",
-        "লিখি",
-        "শুনি"
-      ],
-      "answer": 2
-    },
-    {
       "id": "e07",
       "type": "select_translation",
       "prompt": {
@@ -213,52 +197,36 @@
     },
     {
       "id": "e10",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "আমি সাধারণত রাতে গান শুনি।",
-        "tr": "ami shadharonoto rate gan shuni.",
-        "en": "I usually listen to music at night."
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "সে গান শোনে।",
+        "tr": "she gan shone.",
+        "en": "She listens to music."
       },
-      "direction": "bn_to_en",
+      "blank": "শোনে",
       "options": [
-        "She usually listens to music at night.",
-        "I usually listen to music in the morning.",
-        "I usually watch TV at night.",
-        "I usually listen to music at night."
+        "শুনি",
+        "দেখে",
+        "শোনে"
       ],
-      "answer": 3
+      "answer": 2,
+      "why": "With সে the vowel stays **o**: শোনে. Only the আমি form raises: শুনি."
     },
     {
       "id": "e11",
-      "type": "word_bank",
-      "prompt": {
+      "type": "listen_meaning",
+      "audio": {
         "bn": "আমি টিভি দেখি আর সে গান শোনে।",
         "tr": "ami tibhi dekhi ar she gan shone.",
         "en": "I watch TV and she listens to music."
       },
-      "direction": "bn_to_en",
-      "tiles": [
-        "I",
-        "watch",
-        "TV",
-        "and",
-        "she",
-        "listens",
-        "to",
-        "music",
-        "listen",
-        "reads"
+      "options": [
+        "I listen to music and she watches TV.",
+        "I watch TV and she listens to music.",
+        "I watch TV and she writes.",
+        "We watch TV and listen to music."
       ],
-      "answer": [
-        "I",
-        "watch",
-        "TV",
-        "and",
-        "she",
-        "listens",
-        "to",
-        "music"
-      ]
+      "answer": 1
     },
     {
       "id": "e12",
@@ -349,6 +317,23 @@
       ],
       "answer": 1,
       "why": "আপনি takes -েন with the unraised vowel: ওঠেন. কয়টায় = 'at what time'."
+    },
+    {
+      "id": "e06",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আমি বাংলা লিখি।",
+        "tr": "ami bangla likhi.",
+        "en": "I write Bengali."
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "আমি বাংলা লিখি।",
+        "বাংলা লিখি।",
+        "ami bangla likhi",
+        "bangla likhi"
+      ],
+      "why": "The আমি form raises e → i: **লিখি**."
     },
     {
       "id": "e15",

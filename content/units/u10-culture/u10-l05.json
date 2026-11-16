@@ -175,40 +175,6 @@
       "answer": 1
     },
     {
-      "id": "e07",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "বিজয় দিবস",
-        "tr": "bijoy dibosh",
-        "en": "Victory Day"
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "Independence Day",
-        "Martyrs' Day",
-        "Victory Day",
-        "New Year"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "e08",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "স্বাধীনতা",
-        "tr": "shadhinota",
-        "en": "independence"
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "independence",
-        "victory",
-        "language",
-        "holiday"
-      ],
-      "answer": 0
-    },
-    {
       "id": "e09",
       "type": "select_translation",
       "prompt": {
@@ -258,40 +224,37 @@
       ]
     },
     {
+      "id": "e07",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "আজ বিজয় দিবস, আমাদের ছুটি।",
+        "tr": "aj bijoy dibosh, amader chhuti.",
+        "en": "Today is Victory Day, we have a holiday."
+      },
+      "options": [
+        "Today is Independence Day, we have a holiday.",
+        "Today is Victory Day, we have a holiday.",
+        "Today is Victory Day, we have work.",
+        "Tomorrow is Victory Day, we have a holiday."
+      ],
+      "answer": 1
+    },
+    {
       "id": "e11",
-      "type": "word_bank",
-      "prompt": {
+      "type": "fill_blank",
+      "sentence": {
         "bn": "বাংলা আমার মাতৃভাষা।",
         "tr": "bangla amar matribhasha.",
         "en": "Bengali is my mother tongue."
       },
-      "direction": "bn_to_en",
-      "tiles": [
-        "Bengali",
-        "our",
-        "is",
-        "my",
-        "father",
-        "mother",
-        "tongue",
-        "language"
+      "blank": "আমার",
+      "options": [
+        "আমি",
+        "আমাকে",
+        "আমার"
       ],
-      "answer": [
-        "Bengali",
-        "is",
-        "my",
-        "mother",
-        "tongue"
-      ],
-      "alt": [
-        [
-          "Bengali",
-          "is",
-          "my",
-          "mother",
-          "language"
-        ]
-      ]
+      "answer": 2,
+      "why": "'My' = **আমার**."
     },
     {
       "id": "e12",
@@ -315,21 +278,6 @@
         "ফেব্রুয়ারি",
         "শহীদ",
         "দিবস"
-      ]
-    },
-    {
-      "id": "e13",
-      "type": "type_translation",
-      "prompt": {
-        "bn": "বাংলা আমাদের ভাষা।",
-        "tr": "bangla amader bhasha.",
-        "en": "Bengali is our language."
-      },
-      "direction": "bn_to_en",
-      "accepted": [
-        "Bengali is our language.",
-        "Bangla is our language.",
-        "Bengali is our tongue."
       ]
     },
     {
@@ -381,6 +329,39 @@
         ]
       ],
       "why": "Destinations take -এ: শহীদ মিনারে যাই, like অফিসে যাই."
+    },
+    {
+      "id": "e08",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আজ বিজয় দিবস।",
+        "tr": "aj bijoy dibosh.",
+        "en": "Today is Victory Day."
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "আজ বিজয় দিবস।",
+        "aj bijoy dibosh",
+        "aj bijoy dibos",
+        "aaj bijoy dibosh",
+        "aj bijoy divosh"
+      ]
+    },
+    {
+      "id": "e13",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "বাংলা আমাদের ভাষা।",
+        "tr": "bangla amader bhasha.",
+        "en": "Bengali is our language."
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "বাংলা আমাদের ভাষা।",
+        "bangla amader bhasha",
+        "bangla amader basha",
+        "bangla amader vasha"
+      ]
     },
     {
       "id": "r01",

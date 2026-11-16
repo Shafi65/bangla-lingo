@@ -182,77 +182,35 @@
     },
     {
       "id": "e09",
-      "type": "listen_select",
+      "type": "listen_meaning",
       "audio": {
         "bn": "আমি গত সপ্তাহে সিলেটে গিয়েছিলাম।",
         "tr": "ami goto shoptahe shilete giyechhilam.",
         "en": "I went to Sylhet last week."
       },
       "options": [
-        "আমি গত সপ্তাহে সিলেটে ছিলাম।",
-        "সে গত সপ্তাহে সিলেটে গিয়েছিল।",
-        "আমি গত সপ্তাহে ঢাকায় গিয়েছিলাম।",
-        "আমি গত সপ্তাহে সিলেটে গিয়েছিলাম।"
+        "I was in Sylhet last week.",
+        "He went to Sylhet last week.",
+        "I will go to Sylhet next week.",
+        "I went to Sylhet last week."
       ],
       "answer": 3
     },
     {
       "id": "e10",
-      "type": "word_bank",
-      "prompt": {
+      "type": "listen_meaning",
+      "audio": {
         "bn": "সে গত সপ্তাহে ঢাকায় গিয়েছিল।",
         "tr": "she goto shoptahe dhakay giyechhilo.",
         "en": "He went to Dhaka last week."
       },
-      "direction": "bn_to_en",
-      "tiles": [
-        "He",
-        "went",
-        "had",
-        "gone",
-        "to",
-        "Dhaka",
-        "last",
-        "week",
-        "goes",
-        "every"
+      "options": [
+        "He went to Dhaka last week.",
+        "He goes to Dhaka every week.",
+        "He has just gone to Dhaka.",
+        "I went to Dhaka last week."
       ],
-      "answer": [
-        "He",
-        "went",
-        "to",
-        "Dhaka",
-        "last",
-        "week"
-      ],
-      "alt": [
-        [
-          "He",
-          "had",
-          "gone",
-          "to",
-          "Dhaka",
-          "last",
-          "week"
-        ],
-        [
-          "last",
-          "week",
-          "He",
-          "went",
-          "to",
-          "Dhaka"
-        ],
-        [
-          "last",
-          "week",
-          "He",
-          "had",
-          "gone",
-          "to",
-          "Dhaka"
-        ]
-      ]
+      "answer": 0
     },
     {
       "id": "e11",
@@ -369,20 +327,32 @@
         "tr": "gotokal amra bondhur shathe chhobi dekhlam.",
         "en": "Yesterday we watched a film with a friend."
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "accepted": [
-        "Yesterday we watched a film with a friend.",
-        "Yesterday we watched a movie with a friend.",
-        "Yesterday we saw a film with a friend.",
-        "Yesterday we saw a movie with a friend.",
-        "We watched a film with a friend yesterday.",
-        "We watched a movie with a friend yesterday.",
-        "We saw a film with a friend yesterday.",
-        "We saw a movie with a friend yesterday.",
-        "Yesterday we watched a film with our friend.",
-        "Yesterday we watched a movie with my friend.",
-        "Yesterday we watched a film with my friend."
+        "গতকাল আমরা বন্ধুর সাথে ছবি দেখলাম।",
+        "আমরা গতকাল বন্ধুর সাথে ছবি দেখলাম।",
+        "গতকাল বন্ধুর সাথে ছবি দেখলাম।",
+        "gotokal amra bondhur shathe chhobi dekhlam",
+        "amra gotokal bondhur shathe chhobi dekhlam",
+        "gotokal bondhur shathe chhobi dekhlam"
       ]
+    },
+    {
+      "id": "e15",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "সে এখন বাসায় নেই, সে অফিসে গিয়েছে।",
+        "tr": "she ekhon bashay nei, she ofise giyechhe.",
+        "en": "He's not home now; he has gone to the office."
+      },
+      "blank": "নেই",
+      "options": [
+        "ছিল",
+        "আছে",
+        "নেই"
+      ],
+      "answer": 2,
+      "why": "Not present somewhere = **নেই**."
     },
     {
       "id": "r01",

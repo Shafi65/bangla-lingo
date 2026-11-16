@@ -138,65 +138,38 @@
     },
     {
       "id": "e07",
-      "type": "match_pairs",
-      "pairs": [
-        {
-          "bn": "সাতটায়",
-          "tr": "shattay",
-          "en": "at seven o'clock"
-        },
-        {
-          "bn": "আটটায়",
-          "tr": "attay",
-          "en": "at eight o'clock"
-        },
-        {
-          "bn": "কয়টায়",
-          "tr": "koytay",
-          "en": "at what time"
-        },
-        {
-          "bn": "কখন",
-          "tr": "kokhon",
-          "en": "when"
-        },
-        {
-          "bn": "অফিস",
-          "tr": "ofis",
-          "en": "office"
-        }
-      ]
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আমি আটটায় অফিসে যাই।",
+        "tr": "ami attay ofise jai.",
+        "en": "I go to the office at eight."
+      },
+      "blank": "আটটায়",
+      "options": [
+        "আট",
+        "সাতটায়",
+        "আটটায়"
+      ],
+      "answer": 2,
+      "why": "'At eight' = **আটটায়** (-টায় 'at … o'clock')."
     },
     {
       "id": "e08",
-      "type": "match_pairs",
-      "pairs": [
-        {
-          "bn": "স্কুল",
-          "tr": "skul",
-          "en": "school"
-        },
-        {
-          "bn": "যাও",
-          "tr": "jao",
-          "en": "you go (familiar)"
-        },
-        {
-          "bn": "যায়",
-          "tr": "jay",
-          "en": "goes"
-        },
-        {
-          "bn": "আসি",
-          "tr": "ashi",
-          "en": "I come"
-        },
-        {
-          "bn": "আসে",
-          "tr": "ashe",
-          "en": "comes"
-        }
-      ]
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "তুমি কি স্কুলে যাও?",
+        "tr": "tumi ki skule jao?",
+        "en": "Do you go to school? (familiar)"
+      },
+      "blank": "যাও",
+      "options": [
+        "যাই",
+        "যাও",
+        "যায়",
+        "যান"
+      ],
+      "answer": 1,
+      "why": "তুমি takes **-ও**: যাও."
     },
     {
       "id": "e09",
@@ -231,42 +204,19 @@
     },
     {
       "id": "e10",
-      "type": "word_bank",
-      "prompt": {
+      "type": "listen_meaning",
+      "audio": {
         "bn": "আমি সাধারণত রাতে বই পড়ি।",
         "tr": "ami shadharonoto rate boi pori.",
         "en": "I usually read books at night."
       },
-      "direction": "bn_to_en",
-      "tiles": [
-        "I",
-        "usually",
-        "read",
-        "books",
-        "at",
-        "night",
-        "write",
-        "morning",
-        "always"
+      "options": [
+        "I usually read books in the morning.",
+        "I always read books at night.",
+        "She usually reads books at night.",
+        "I usually read books at night."
       ],
-      "answer": [
-        "I",
-        "usually",
-        "read",
-        "books",
-        "at",
-        "night"
-      ],
-      "alt": [
-        [
-          "at",
-          "night",
-          "I",
-          "usually",
-          "read",
-          "books"
-        ]
-      ]
+      "answer": 3
     },
     {
       "id": "e11",
@@ -388,14 +338,13 @@
         "tr": "she gan shone ar ami tibhi dekhi.",
         "en": "She listens to music and I watch TV."
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "accepted": [
-        "She listens to music and I watch TV.",
-        "He listens to music and I watch TV.",
-        "She listens to songs and I watch TV.",
-        "He listens to songs and I watch TV.",
-        "She listens to music and I watch television.",
-        "He listens to music and I watch television."
+        "সে গান শোনে আর আমি টিভি দেখি।",
+        "she gan shone ar ami tibhi dekhi",
+        "she gan shone ar ami tivi dekhi",
+        "se gan shone ar ami tibhi dekhi",
+        "she gan shone ar ami tv dekhi"
       ]
     },
     {

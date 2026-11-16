@@ -120,13 +120,12 @@
     },
     {
       "id": "e05",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_meaning",
+      "audio": {
         "bn": "মসজিদের সামনে একটা দোকান আছে।",
         "tr": "moshjider shamne ekta dokan achhe.",
         "en": "There is a shop in front of the mosque."
       },
-      "direction": "bn_to_en",
       "options": [
         "There is a mosque in front of the shop.",
         "There is a shop behind the mosque.",
@@ -134,7 +133,7 @@
         "The shop is next to the mosque."
       ],
       "answer": 2,
-      "why": "**আছে** at the end = 'there is'."
+      "why": "**মসজিদের সামনে** = in front of the mosque."
     },
     {
       "id": "e06",
@@ -281,33 +280,21 @@
     },
     {
       "id": "e13",
-      "type": "word_bank",
+      "type": "type_translation",
       "prompt": {
-        "bn": "মসজিদ কোথায়? বাজারের পিছনে।",
-        "tr": "moshjid kothay? bajarer pichhone.",
-        "en": "Where is the mosque? Behind the market."
+        "bn": "হাসপাতাল কি দূরে?",
+        "tr": "hashpatal ki dure?",
+        "en": "Is the hospital far?"
       },
-      "direction": "bn_to_en",
-      "tiles": [
-        "temple",
-        "the",
-        "is",
-        "Behind",
-        "front",
-        "market",
-        "Where",
-        "the",
-        "mosque",
-        "next"
-      ],
-      "answer": [
-        "Where",
-        "is",
-        "the",
-        "mosque",
-        "Behind",
-        "the",
-        "market"
+      "direction": "en_to_bn",
+      "accepted": [
+        "হাসপাতাল কি দূরে?",
+        "হাসপাতালটা কি দূরে?",
+        "হাসপাতাল দূরে?",
+        "hashpatal ki dure",
+        "hashpatal dure",
+        "haspatal ki dure",
+        "hospital ki dure"
       ]
     },
     {
@@ -328,6 +315,23 @@
         "hospital kothay",
         "hashpatal kothae"
       ]
+    },
+    {
+      "id": "e15",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "মসজিদ কোথায়? বাজারের পিছনে।",
+        "tr": "moshjid kothay? bajarer pichhone.",
+        "en": "Where is the mosque? Behind the market."
+      },
+      "blank": "বাজারের",
+      "options": [
+        "বাজারের",
+        "বাজার",
+        "বাজারে"
+      ],
+      "answer": 0,
+      "why": "Before পিছনে the noun takes **-এর**: বাজারের পিছনে."
     },
     {
       "id": "r01",

@@ -108,23 +108,6 @@
       "answer": 2
     },
     {
-      "id": "e04",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "করেছি",
-        "tr": "korechhi",
-        "en": "I have done"
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "I am doing",
-        "you do (familiar)",
-        "you did (familiar)",
-        "I have done"
-      ],
-      "answer": 3
-    },
-    {
       "id": "e05",
       "type": "select_translation",
       "prompt": {
@@ -223,6 +206,23 @@
       ]
     },
     {
+      "id": "e04",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "জি, আমি খেয়েছি।",
+        "tr": "ji, ami kheyechhi.",
+        "en": "Yes, I have eaten."
+      },
+      "blank": "খেয়েছি",
+      "options": [
+        "খেয়েছো",
+        "খেয়েছেন",
+        "খেয়েছি"
+      ],
+      "answer": 2,
+      "why": "আমি takes **-ছি**: খেয়েছি."
+    },
+    {
       "id": "e10",
       "type": "word_bank",
       "prompt": {
@@ -251,28 +251,19 @@
     },
     {
       "id": "e11",
-      "type": "word_bank",
-      "prompt": {
-        "bn": "জি, আমি খেয়েছি।",
-        "tr": "ji, ami kheyechhi.",
-        "en": "Yes, I have eaten."
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "ভাত খেয়েছো?",
+        "tr": "bhat kheyechho?",
+        "en": "Have you eaten?"
       },
-      "direction": "bn_to_en",
-      "tiles": [
-        "you",
-        "Yes",
-        "have",
-        "No",
-        "eaten",
-        "I",
-        "eat"
+      "options": [
+        "Have you eaten?",
+        "Did you eat fish?",
+        "Are you eating now?",
+        "Will you eat?"
       ],
-      "answer": [
-        "Yes",
-        "I",
-        "have",
-        "eaten"
-      ]
+      "answer": 0
     },
     {
       "id": "e12",
@@ -311,22 +302,15 @@
         "tr": "she matro ofise giyechhe.",
         "en": "He has just gone to the office."
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "accepted": [
-        "He has just gone to the office.",
-        "She has just gone to the office.",
-        "He's just gone to the office.",
-        "She's just gone to the office.",
-        "He has just left for the office.",
-        "She has just left for the office.",
-        "He just went to the office.",
-        "She just went to the office.",
-        "He has just gone to work.",
-        "She has just gone to work.",
-        "He just left for the office.",
-        "She just left for the office.",
-        "He just went to work.",
-        "She just went to work."
+        "সে মাত্র অফিসে গিয়েছে।",
+        "সে মাত্র অফিসে গেছে।",
+        "she matro ofise giyechhe",
+        "she matro ofise gechhe",
+        "she matro ofise giyeche",
+        "she matro ofise gieche",
+        "she matro offise giyechhe"
       ]
     },
     {

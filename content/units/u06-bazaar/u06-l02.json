@@ -190,56 +190,19 @@
     },
     {
       "id": "e09",
-      "type": "word_bank",
-      "prompt": {
+      "type": "listen_meaning",
+      "audio": {
         "bn": "ইলিশ এক হাজার টাকা।",
         "tr": "ilish ek hajar taka.",
         "en": "The hilsa is a thousand taka."
       },
-      "direction": "bn_to_en",
-      "tiles": [
-        "The",
-        "hilsa",
-        "is",
-        "a",
-        "hundred",
-        "thousand",
-        "one",
-        "taka",
-        "fish"
+      "options": [
+        "The hilsa is a hundred taka.",
+        "The hilsa is fifty taka.",
+        "The hilsa is a thousand taka.",
+        "The hilsa is two hundred taka."
       ],
-      "answer": [
-        "The",
-        "hilsa",
-        "is",
-        "a",
-        "thousand",
-        "taka"
-      ],
-      "alt": [
-        [
-          "The",
-          "hilsa",
-          "is",
-          "one",
-          "thousand",
-          "taka"
-        ],
-        [
-          "hilsa",
-          "is",
-          "a",
-          "thousand",
-          "taka"
-        ],
-        [
-          "hilsa",
-          "is",
-          "one",
-          "thousand",
-          "taka"
-        ]
-      ]
+      "answer": 2
     },
     {
       "id": "e10",
@@ -264,62 +227,42 @@
     },
     {
       "id": "e11",
-      "type": "word_bank",
-      "prompt": {
+      "type": "fill_blank",
+      "sentence": {
         "bn": "শুধু পঞ্চাশ টাকা।",
         "tr": "shudhu ponchash taka.",
         "en": "Only fifty taka."
       },
-      "direction": "bn_to_en",
-      "tiles": [
-        "fifteen",
-        "Only",
-        "taka",
-        "Just",
-        "fifty",
-        "hundred"
+      "blank": "শুধু",
+      "options": [
+        "খুব",
+        "কত",
+        "পয়সা",
+        "শুধু"
       ],
-      "answer": [
-        "Only",
-        "fifty",
-        "taka"
-      ],
-      "alt": [
-        [
-          "Just",
-          "fifty",
-          "taka"
-        ]
-      ]
+      "answer": 3,
+      "why": "**শুধু** 'only' goes before the amount."
     },
     {
       "id": "e12",
       "type": "type_translation",
       "prompt": {
-        "bn": "দাম দুইশ টাকা।",
-        "tr": "dam duisho taka.",
-        "en": "The price is two hundred taka."
+        "bn": "এটা বিশ টাকা।",
+        "tr": "eta bish taka.",
+        "en": "This is twenty taka."
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "accepted": [
-        "The price is two hundred taka",
-        "The price is 200 taka",
-        "The price is Tk 200",
-        "The price is Tk200",
-        "The price is 200 Tk",
-        "It's two hundred taka",
-        "It's 200 taka",
-        "It's Tk 200",
-        "It's Tk200",
-        "It's 200 Tk",
-        "It is two hundred taka",
-        "It is 200 taka",
-        "It is Tk 200",
-        "It is Tk200",
-        "It is 200 Tk",
-        "Two hundred taka.",
-        "200 taka.",
-        "Tk 200."
+        "এটা বিশ টাকা।",
+        "এইটা বিশ টাকা।",
+        "এটা ২০ টাকা।",
+        "বিশ টাকা।",
+        "eta bish taka",
+        "eita bish taka",
+        "bish taka",
+        "eta 20 taka",
+        "eta bis taka",
+        "eta 20 tk"
       ]
     },
     {

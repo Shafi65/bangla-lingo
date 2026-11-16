@@ -232,39 +232,21 @@
       "answer": 1
     },
     {
-      "id": "e10",
-      "type": "word_bank",
-      "prompt": {
-        "bn": "আমি একটু বাংলা বলতে পারি।",
-        "tr": "ami ektu bangla bolte pari.",
-        "en": "I can speak a little Bengali."
+      "id": "e13",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "সে একটু বাংলা বলতে পারে।",
+        "tr": "she ektu bangla bolte pare.",
+        "en": "He can speak a little Bengali."
       },
-      "direction": "en_to_bn",
-      "tiles": [
-        "খুব",
+      "blank": "পারে",
+      "options": [
         "পারে",
-        "আমি",
-        "বলতে",
-        "বাংলা",
-        "বলি",
-        "একটু",
-        "পারি"
+        "পারি",
+        "পারেন"
       ],
-      "answer": [
-        "আমি",
-        "একটু",
-        "বাংলা",
-        "বলতে",
-        "পারি"
-      ],
-      "alt": [
-        [
-          "একটু",
-          "বাংলা",
-          "বলতে",
-          "পারি"
-        ]
-      ]
+      "answer": 0,
+      "why": "সে takes **-ে**: পারে. পারি = I can; পারেন = you / he (polite) can."
     },
     {
       "id": "e11",
@@ -302,86 +284,34 @@
     },
     {
       "id": "e12",
-      "type": "word_bank",
-      "prompt": {
+      "type": "listen_meaning",
+      "audio": {
         "bn": "সে খুব ভালো বাংলা বলতে পারে।",
         "tr": "she khub bhalo bangla bolte pare.",
         "en": "She can speak Bengali very well."
       },
-      "direction": "bn_to_en",
-      "tiles": [
-        "good",
-        "She",
-        "speak",
-        "I",
-        "well",
-        "Bengali",
-        "can",
-        "very",
-        "Bangla"
+      "options": [
+        "She can't speak Bengali.",
+        "I can speak Bengali very well.",
+        "She can speak a little Bengali.",
+        "She can speak Bengali very well."
       ],
-      "answer": [
-        "She",
-        "can",
-        "speak",
-        "Bengali",
-        "very",
-        "well"
-      ],
-      "alt": [
-        [
-          "She",
-          "can",
-          "speak",
-          "Bangla",
-          "very",
-          "well"
-        ],
-        [
-          "She",
-          "can",
-          "speak",
-          "very",
-          "good",
-          "Bengali"
-        ],
-        [
-          "She",
-          "can",
-          "speak",
-          "very",
-          "good",
-          "Bangla"
-        ]
-      ]
+      "answer": 3
     },
     {
-      "id": "e13",
-      "type": "word_bank",
+      "id": "e10",
+      "type": "type_translation",
       "prompt": {
-        "bn": "মনে হয় সে বাসায় আছে।",
-        "tr": "mone hoy she bashay achhe.",
-        "en": "I think he is at home."
+        "bn": "আমি একটু বাংলা বলতে পারি।",
+        "tr": "ami ektu bangla bolte pari.",
+        "en": "I can speak a little Bengali."
       },
-      "direction": "bn_to_en",
-      "tiles": [
-        "office",
-        "I",
-        "home",
-        "can",
-        "is",
-        "the",
-        "he",
-        "think",
-        "at"
-      ],
-      "answer": [
-        "I",
-        "think",
-        "he",
-        "is",
-        "at",
-        "home"
+      "direction": "en_to_bn",
+      "accepted": [
+        "আমি একটু বাংলা বলতে পারি।",
+        "একটু বাংলা বলতে পারি।",
+        "ami ektu bangla bolte pari",
+        "ektu bangla bolte pari"
       ]
     },
     {
@@ -392,18 +322,14 @@
         "tr": "amar mone hoy eta bhul.",
         "en": "I think this is wrong."
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "accepted": [
-        "I think this is wrong.",
-        "I think it's wrong.",
-        "I think it is wrong.",
-        "I think this is a mistake.",
-        "I think it's a mistake.",
-        "I think it is a mistake.",
-        "I think this is incorrect.",
-        "I think it's incorrect.",
-        "I think it is incorrect.",
-        "I think that this is wrong."
+        "আমার মনে হয় এটা ভুল।",
+        "মনে হয় এটা ভুল।",
+        "আমার মনে হয় এইটা ভুল।",
+        "amar mone hoy eta bhul",
+        "mone hoy eta bhul",
+        "amar mone hoy eita bhul"
       ]
     },
     {

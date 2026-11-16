@@ -164,23 +164,6 @@
       "answer": 2
     },
     {
-      "id": "e07",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "এখনো না",
-        "tr": "ekhono na",
-        "en": "not yet"
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "never",
-        "no thanks",
-        "already",
-        "not yet"
-      ],
-      "answer": 3
-    },
-    {
       "id": "e08",
       "type": "match_pairs",
       "pairs": [
@@ -212,38 +195,37 @@
       ]
     },
     {
-      "id": "e09",
-      "type": "word_bank",
-      "prompt": {
-        "bn": "আমি এখনো খাইনি।",
-        "tr": "ami ekhono khaini.",
-        "en": "I haven't eaten yet."
+      "id": "e07",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আমি কাজ করিনি।",
+        "tr": "ami kaj korini.",
+        "en": "I didn't do the work."
       },
-      "direction": "bn_to_en",
-      "tiles": [
-        "eat",
-        "already",
-        "I",
-        "haven't",
-        "don't",
-        "eaten",
-        "didn't",
-        "yet"
+      "blank": "করিনি",
+      "options": [
+        "করি",
+        "করিনি",
+        "করলাম"
       ],
-      "answer": [
-        "I",
-        "haven't",
-        "eaten",
-        "yet"
+      "answer": 1,
+      "why": "'Didn't do' = present form + **-নি**: করিনি."
+    },
+    {
+      "id": "e09",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "না, এখনো না।",
+        "tr": "na, ekhono na.",
+        "en": "No, not yet."
+      },
+      "options": [
+        "No, not yet.",
+        "No, never.",
+        "Yes, already.",
+        "No, not now."
       ],
-      "alt": [
-        [
-          "I",
-          "didn't",
-          "eat",
-          "yet"
-        ]
-      ]
+      "answer": 0
     },
     {
       "id": "e10",
@@ -276,37 +258,20 @@
     },
     {
       "id": "e11",
-      "type": "word_bank",
-      "prompt": {
+      "type": "fill_blank",
+      "sentence": {
         "bn": "তুমি কেন খাওনি?",
         "tr": "tumi keno khaoni?",
-        "en": "Why didn't you eat?"
+        "en": "Why didn't you eat? (familiar)"
       },
-      "direction": "bn_to_en",
-      "tiles": [
-        "you",
-        "don't",
-        "Why",
-        "eaten",
-        "eat",
-        "haven't",
-        "I",
-        "didn't"
+      "blank": "খাওনি",
+      "options": [
+        "খাইনি",
+        "খাও",
+        "খাওনি"
       ],
-      "answer": [
-        "Why",
-        "didn't",
-        "you",
-        "eat"
-      ],
-      "alt": [
-        [
-          "Why",
-          "haven't",
-          "you",
-          "eaten"
-        ]
-      ]
+      "answer": 2,
+      "why": "তুমি + 'didn't' = **খাওনি** (খাও + নি). খাইনি = I didn't eat."
     },
     {
       "id": "e12",
@@ -316,18 +281,15 @@
         "tr": "ami tibhi dekhini.",
         "en": "I didn't watch TV."
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "accepted": [
-        "I didn't watch TV.",
-        "I haven't watched TV.",
-        "I did not watch TV.",
-        "I have not watched TV.",
-        "I didn't watch television.",
-        "I haven't watched television.",
-        "I didn't watch the TV.",
-        "I haven't watched the TV.",
-        "I didn't see the TV.",
-        "I haven't seen the TV."
+        "আমি টিভি দেখিনি।",
+        "টিভি দেখিনি।",
+        "ami tibhi dekhini",
+        "tibhi dekhini",
+        "ami tivi dekhini",
+        "ami tibhi dekhi ni",
+        "ami tv dekhini"
       ]
     },
     {

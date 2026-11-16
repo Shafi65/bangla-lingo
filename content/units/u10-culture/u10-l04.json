@@ -128,57 +128,6 @@
       "answer": 1
     },
     {
-      "id": "e05",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "উৎসব",
-        "tr": "utshob",
-        "en": "festival"
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "fair",
-        "idol",
-        "festival",
-        "temple"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "e06",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "প্রতিমা",
-        "tr": "protima",
-        "en": "idol"
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "temple",
-        "image (idol)",
-        "festival",
-        "sari"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "e07",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "মন্দিরে",
-        "tr": "mondire",
-        "en": "to the temple"
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "to the temple",
-        "temple",
-        "at home",
-        "to the market"
-      ],
-      "answer": 0
-    },
-    {
       "id": "e08",
       "type": "select_translation",
       "prompt": {
@@ -192,6 +141,22 @@
         "Eid",
         "New Year",
         "Ramadan"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e05",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "আমার বন্ধু পূজা করে।",
+        "tr": "amar bondhu puja kore.",
+        "en": "My friend does puja."
+      },
+      "options": [
+        "My friend does puja.",
+        "I do puja.",
+        "My friend goes to the temple.",
+        "My friend buys a sari for Puja."
       ],
       "answer": 0
     },
@@ -272,6 +237,23 @@
       ]
     },
     {
+      "id": "e07",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "দুর্গাপূজা হিন্দুদের বড় উৎসব।",
+        "tr": "durgapuja hinduder boro utshob.",
+        "en": "Durga Puja is a big festival of the Hindus."
+      },
+      "blank": "হিন্দুদের",
+      "options": [
+        "আমাদের",
+        "আমার",
+        "হিন্দুদের"
+      ],
+      "answer": 2,
+      "why": "'Of the Hindus' = **হিন্দুদের** (-দের 'of the …s')."
+    },
+    {
       "id": "e11",
       "type": "word_bank",
       "prompt": {
@@ -309,73 +291,20 @@
       "prompt": {
         "bn": "প্রতিমা খুব সুন্দর।",
         "tr": "protima khub shundor.",
-        "en": "The image is very beautiful."
+        "en": "The idol is very beautiful."
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "tiles": [
-        "The",
-        "image",
-        "idol",
-        "temple",
-        "is",
-        "very",
-        "new",
-        "beautiful",
-        "pretty"
+        "উৎসব",
+        "খুব",
+        "নতুন",
+        "সুন্দর",
+        "প্রতিমা"
       ],
       "answer": [
-        "The",
-        "image",
-        "is",
-        "very",
-        "beautiful"
-      ],
-      "alt": [
-        [
-          "The",
-          "idol",
-          "is",
-          "very",
-          "beautiful"
-        ],
-        [
-          "The",
-          "image",
-          "is",
-          "very",
-          "pretty"
-        ],
-        [
-          "The",
-          "idol",
-          "is",
-          "very",
-          "pretty"
-        ]
-      ]
-    },
-    {
-      "id": "e13",
-      "type": "type_translation",
-      "prompt": {
-        "bn": "নমস্কার, শুভ বিজয়া।",
-        "tr": "nomoshkar, shubho bijoya.",
-        "en": "Nomoshkar, Shubho Bijoya."
-      },
-      "direction": "bn_to_en",
-      "accepted": [
-        "Nomoshkar, Shubho Bijoya.",
-        "Namaskar, Shubho Bijoya.",
-        "Nomoshkar, Subho Bijoya.",
-        "Namaskar, Subho Bijoya.",
-        "Hello, Shubho Bijoya.",
-        "Hello, happy Bijoya.",
-        "Nomoshkar, happy Bijoya.",
-        "Namaskar, happy Bijoya.",
-        "Hello, Shubho Vijaya.",
-        "Hello, happy Vijaya.",
-        "Namaskar, Shubho Vijaya.",
-        "Namaskar, happy Vijaya."
+        "প্রতিমা",
+        "খুব",
+        "সুন্দর"
       ]
     },
     {
@@ -428,6 +357,46 @@
           "আমাদের",
           "উৎসব"
         ]
+      ]
+    },
+    {
+      "id": "e06",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "পূজায় আমি নতুন শাড়ি কিনব।",
+        "tr": "pujay ami notun shari kinbo.",
+        "en": "I will buy a new sari for Puja."
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "পূজায় আমি নতুন শাড়ি কিনব।",
+        "আমি পূজায় নতুন শাড়ি কিনব।",
+        "পূজায় নতুন শাড়ি কিনব।",
+        "পূজায় আমি নতুন শাড়ি কিনবো।",
+        "pujay ami notun shari kinbo",
+        "ami pujay notun shari kinbo",
+        "pujay notun shari kinbo",
+        "pujay ami notun sari kinbo",
+        "pujai ami notun shari kinbo"
+      ]
+    },
+    {
+      "id": "e13",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "শুভ বিজয়া।",
+        "tr": "shubho bijoya.",
+        "en": "(To a Hindu friend, after Durga Puja) Shubho Bijoya!"
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "শুভ বিজয়া।",
+        "নমস্কার, শুভ বিজয়া।",
+        "shubho bijoya",
+        "nomoshkar shubho bijoya",
+        "subho bijoya",
+        "shubho bijaya",
+        "nomaskar shubho bijoya"
       ]
     },
     {

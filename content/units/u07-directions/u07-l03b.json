@@ -176,35 +176,36 @@
     },
     {
       "id": "e08",
-      "type": "listen_select",
-      "audio": {
-        "bn": "নিচে",
-        "tr": "niche",
-        "en": "downstairs"
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "চাচা বাসার বাইরে।",
+        "tr": "chacha bashar baire.",
+        "en": "Uncle (father's brother) is outside the house."
       },
+      "blank": "বাসার",
       "options": [
-        "নেই",
-        "নিচে",
-        "কাছে",
-        "নাম"
+        "বাসা",
+        "বাসায়",
+        "বাসার"
       ],
-      "answer": 1
+      "answer": 2,
+      "why": "Before বাইরে 'outside' the noun takes **-র**: বাসার বাইরে."
     },
     {
       "id": "e09",
-      "type": "listen_select",
+      "type": "listen_meaning",
       "audio": {
-        "bn": "কোন",
-        "tr": "kon",
-        "en": "which"
+        "bn": "হোটেল কোন দিকে?",
+        "tr": "hotel kon dike?",
+        "en": "Which way is the hotel?"
       },
       "options": [
-        "কোন",
-        "কে",
-        "কোথায়",
-        "কত"
+        "Which way is the station?",
+        "Is the hotel that way?",
+        "Is the hotel upstairs?",
+        "Which way is the hotel?"
       ],
-      "answer": 0
+      "answer": 3
     },
     {
       "id": "e10",
@@ -239,40 +240,19 @@
     },
     {
       "id": "e11",
-      "type": "word_bank",
+      "type": "type_translation",
       "prompt": {
         "bn": "স্টেশন ওই দিকে।",
         "tr": "steshon oi dike.",
         "en": "The station is that way."
       },
-      "direction": "bn_to_en",
-      "tiles": [
-        "this",
-        "station",
-        "way",
-        "The",
-        "which",
-        "is",
-        "hotel",
-        "that"
-      ],
-      "answer": [
-        "The",
-        "station",
-        "is",
-        "that",
-        "way"
-      ],
-      "alt": [
-        [
-          "that",
-          "way",
-          "is",
-          "The",
-          "station"
-        ]
-      ],
-      "why": "**ওই দিকে** is 'that way'; **কোন দিকে** asks 'which way?'."
+      "direction": "en_to_bn",
+      "accepted": [
+        "স্টেশন ওই দিকে।",
+        "স্টেশনটা ওই দিকে।",
+        "steshon oi dike",
+        "station oi dike"
+      ]
     },
     {
       "id": "e12",

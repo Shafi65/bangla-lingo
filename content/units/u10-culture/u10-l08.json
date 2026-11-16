@@ -200,68 +200,63 @@
     },
     {
       "id": "e09",
-      "type": "match_pairs",
-      "pairs": [
+      "type": "reading",
+      "title": "A birthday",
+      "lines": [
         {
-          "bn": "মেহমান",
-          "tr": "mehman",
-          "en": "guest"
+          "speaker": "Nadia",
+          "bn": "দোস্ত, আজ আমার জন্মদিন। তুই কি আসবি?",
+          "tr": "dost, aj amar jonmodin. tui ki ashbi?",
+          "en": "Buddy, it's my birthday today. Will you come?"
         },
         {
-          "bn": "উপহার",
-          "tr": "upohar",
-          "en": "gift"
+          "speaker": "Rafi",
+          "bn": "অবশ্যই! তোর জন্য একটা উপহার কিনব।",
+          "tr": "oboshshoi! tor jonno ekta upohar kinbo.",
+          "en": "Of course! I'll buy a present for you."
         },
         {
-          "bn": "জন্মদিন",
-          "tr": "jonmodin",
-          "en": "birthday"
+          "speaker": "Nadia",
+          "bn": "আমাদের বাসায় অনেক লোক আসবে।",
+          "tr": "amader bashay onek lok ashbe.",
+          "en": "Lots of people will come to our home."
         },
         {
-          "bn": "লোক",
-          "tr": "lok",
-          "en": "people"
+          "speaker": "Rafi",
+          "bn": "পিঠা হবে?",
+          "tr": "pitha hobe?",
+          "en": "Will there be pitha?"
         },
         {
-          "bn": "সেহরি",
-          "tr": "sehri",
-          "en": "sehri"
+          "speaker": "Nadia",
+          "bn": "হ্যাঁ, পিঠা আর মিষ্টি হবে।",
+          "tr": "hya~, pitha ar mishti hobe.",
+          "en": "Yes, there will be pitha and sweets."
         }
-      ]
+      ],
+      "question": "Why is Nadia inviting Rafi?",
+      "options": [
+        "It's Eid",
+        "It's Pohela Boishakh",
+        "It's her birthday"
+      ],
+      "answer": 2
     },
     {
       "id": "e10",
-      "type": "word_bank",
-      "prompt": {
+      "type": "listen_meaning",
+      "audio": {
         "bn": "আজ পহেলা বৈশাখ, চলো মেলায় যাই।",
         "tr": "aj pohela boishakh, cholo melay jai.",
         "en": "Today is Pohela Boishakh, let's go to the fair."
       },
-      "direction": "bn_to_en",
-      "tiles": [
-        "Today",
-        "was",
-        "is",
-        "Pohela",
-        "Boishakh",
-        "let's",
-        "go",
-        "to",
-        "market",
-        "the",
-        "fair"
+      "options": [
+        "Today is Pohela Boishakh, let's go to the market.",
+        "Today is Pohela Boishakh, let's go to the fair.",
+        "Tomorrow is Pohela Boishakh, let's go to the fair.",
+        "Today is Eid, let's go to the fair."
       ],
-      "answer": [
-        "Today",
-        "is",
-        "Pohela",
-        "Boishakh",
-        "let's",
-        "go",
-        "to",
-        "the",
-        "fair"
-      ]
+      "answer": 1
     },
     {
       "id": "e11",
@@ -323,21 +318,24 @@
     },
     {
       "id": "e13",
-      "type": "select_translation",
+      "type": "type_translation",
       "prompt": {
         "bn": "দোস্ত, তুই কি আসবি?",
         "tr": "dost, tui ki ashbi?",
         "en": "Buddy, will you come? (intimate, to your best friend)"
       },
       "direction": "en_to_bn",
-      "options": [
-        "দোস্ত, তুই কি আসবে?",
+      "accepted": [
         "দোস্ত, তুই কি আসবি?",
-        "দোস্ত, তুই কি আসবেন?",
-        "দোস্ত, তুমি কি আসবি?"
+        "দোস্ত, তুই আসবি?",
+        "তুই কি আসবি, দোস্ত?",
+        "dost tui ki ashbi",
+        "dost tui ashbi",
+        "tui ki ashbi dost",
+        "dost tui ki asbi",
+        "dosto tui ki ashbi"
       ],
-      "answer": 1,
-      "why": "তুই takes the future -বি: আসবি. আসবে is for তুমি, আসবেন for আপনি."
+      "why": "তুই takes **-বি** in the future: আসবি."
     },
     {
       "id": "e14",
@@ -365,16 +363,15 @@
         "tr": "aj nach ar gan hobe.",
         "en": "There will be dancing and singing today."
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "accepted": [
-        "There will be dancing and singing today.",
-        "There will be dance and music today.",
-        "There will be dancing and music today.",
-        "Today there will be dancing and singing.",
-        "Today there will be dance and music.",
-        "Today there will be dancing and music.",
-        "There will be dance and song today.",
-        "Today there will be dance and songs."
+        "আজ নাচ আর গান হবে।",
+        "আজকে নাচ আর গান হবে।",
+        "আজ গান আর নাচ হবে।",
+        "aj nach ar gan hobe",
+        "aj gan ar nach hobe",
+        "aaj nach ar gan hobe",
+        "aj nac ar gan hobe"
       ]
     },
     {

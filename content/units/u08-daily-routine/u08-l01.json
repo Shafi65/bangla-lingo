@@ -136,19 +136,19 @@
     },
     {
       "id": "e05",
-      "type": "listen_select",
+      "type": "listen_meaning",
       "audio": {
-        "bn": "করে",
-        "tr": "kore",
-        "en": "does"
+        "bn": "সে কাজ করে।",
+        "tr": "she kaj kore.",
+        "en": "He works."
       },
       "options": [
-        "করি",
-        "করেন",
-        "করে",
-        "করিস"
+        "I work.",
+        "He works.",
+        "He doesn't work.",
+        "Do you work?"
       ],
-      "answer": 2
+      "answer": 1
     },
     {
       "id": "e06",
@@ -259,53 +259,40 @@
     },
     {
       "id": "e11",
-      "type": "word_bank",
-      "prompt": {
-        "bn": "সে কাজ করে।",
-        "tr": "she kaj kore.",
-        "en": "He works."
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আমরা কাজ করি।",
+        "tr": "amra kaj kori.",
+        "en": "We work."
       },
-      "direction": "bn_to_en",
-      "tiles": [
-        "works",
-        "They",
-        "He",
-        "work",
-        "I"
+      "blank": "করি",
+      "options": [
+        "করি",
+        "করে",
+        "করো",
+        "করেন"
       ],
-      "answer": [
-        "He",
-        "works"
-      ]
+      "answer": 0,
+      "why": "আমরা takes the আমি ending: **করি**."
     },
     {
       "id": "e12",
-      "type": "word_bank",
+      "type": "type_translation",
       "prompt": {
         "bn": "তুই কী করিস?",
         "tr": "tui ki korish?",
-        "en": "What do you do? (intimate)"
+        "en": "What do you do? (intimate: তুই)"
       },
       "direction": "en_to_bn",
-      "tiles": [
-        "করো",
-        "তুই",
-        "করেন",
-        "কী",
-        "তুমি",
-        "করিস"
+      "accepted": [
+        "তুই কী করিস?",
+        "কী করিস?",
+        "tui ki korish",
+        "ki korish",
+        "tui ki koris",
+        "ki koris"
       ],
-      "answer": [
-        "তুই",
-        "কী",
-        "করিস"
-      ],
-      "alt": [
-        [
-          "কী",
-          "করিস"
-        ]
-      ]
+      "why": "তুই takes **-িস**: করিস."
     },
     {
       "id": "e13",

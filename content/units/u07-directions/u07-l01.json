@@ -188,17 +188,17 @@
     },
     {
       "id": "e08",
-      "type": "listen_select",
+      "type": "listen_meaning",
       "audio": {
-        "bn": "সিলেট",
-        "tr": "shilet",
-        "en": "Sylhet"
+        "bn": "সিলেট কোথায়?",
+        "tr": "shilet kothay?",
+        "en": "Where is Sylhet?"
       },
       "options": [
-        "সিলেটে",
-        "স্টেশন",
-        "সিলেট",
-        "হোটেল"
+        "Where is Dhaka?",
+        "Is Sylhet far?",
+        "Where is Sylhet?",
+        "Where is the station?"
       ],
       "answer": 2
     },
@@ -286,36 +286,20 @@
     },
     {
       "id": "e14",
-      "type": "word_bank",
-      "prompt": {
+      "type": "fill_blank",
+      "sentence": {
         "bn": "আমি বাসায় আছি।",
         "tr": "ami bashay achhi.",
         "en": "I am at home."
       },
-      "direction": "bn_to_en",
-      "tiles": [
-        "are",
-        "home",
-        "I",
-        "in",
-        "at",
-        "Dhaka",
-        "am",
-        "house"
+      "blank": "বাসায়",
+      "options": [
+        "বাসায়",
+        "বাসা",
+        "হোটেল"
       ],
-      "answer": [
-        "I",
-        "am",
-        "at",
-        "home"
-      ],
-      "alt": [
-        [
-          "I",
-          "am",
-          "home"
-        ]
-      ]
+      "answer": 0,
+      "why": "'At' a place takes **-য়** after a vowel: বাসা → বাসায়."
     },
     {
       "id": "e15",
@@ -356,19 +340,17 @@
       "id": "e13",
       "type": "type_translation",
       "prompt": {
-        "bn": "আপনার বাসা কোথায়?",
-        "tr": "apnar basha kothay?",
-        "en": "Where do you live?"
+        "bn": "স্টেশন কোথায়?",
+        "tr": "steshon kothay?",
+        "en": "Where is the station?"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "accepted": [
-        "Where do you live?",
-        "Where is your home?",
-        "Where's your home?",
-        "Where is your house?",
-        "Where's your house?",
-        "Where is your flat?",
-        "Where do you stay?"
+        "স্টেশন কোথায়?",
+        "স্টেশনটা কোথায়?",
+        "steshon kothay",
+        "station kothay",
+        "steshon kothai"
       ]
     },
     {

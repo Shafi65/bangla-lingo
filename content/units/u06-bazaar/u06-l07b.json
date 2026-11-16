@@ -191,49 +191,19 @@
     },
     {
       "id": "e09",
-      "type": "word_bank",
-      "prompt": {
+      "type": "listen_meaning",
+      "audio": {
         "bn": "খুচরা টাকা আছে?",
         "tr": "khuchra taka achhe?",
         "en": "Do you have change?"
       },
-      "direction": "bn_to_en",
-      "tiles": [
-        "have",
-        "you",
-        "any",
-        "Do",
-        "Is",
-        "price",
-        "change",
-        "there"
+      "options": [
+        "Do you have change?",
+        "I don't have change.",
+        "Do you need a bag?",
+        "Is everything cheap?"
       ],
-      "answer": [
-        "Do",
-        "you",
-        "have",
-        "change"
-      ],
-      "alt": [
-        [
-          "Do",
-          "you",
-          "have",
-          "any",
-          "change"
-        ],
-        [
-          "Is",
-          "there",
-          "change"
-        ],
-        [
-          "Is",
-          "there",
-          "any",
-          "change"
-        ]
-      ]
+      "answer": 0
     },
     {
       "id": "e10",
@@ -279,57 +249,25 @@
     },
     {
       "id": "e12",
-      "type": "word_bank",
+      "type": "type_translation",
       "prompt": {
-        "bn": "বাজারে সব জিনিস সস্তা।",
-        "tr": "bajare shob jinish shosta.",
-        "en": "Everything is cheap at the market."
+        "bn": "একটা ব্যাগ দেন।",
+        "tr": "ekta byag den.",
+        "en": "Please give me a bag. (polite)"
       },
-      "direction": "bn_to_en",
-      "tiles": [
-        "Everything",
-        "shop",
-        "at",
-        "market",
-        "the",
-        "in",
-        "is",
-        "expensive",
-        "cheap"
-      ],
-      "answer": [
-        "Everything",
-        "is",
-        "cheap",
-        "at",
-        "the",
-        "market"
-      ],
-      "alt": [
-        [
-          "Everything",
-          "is",
-          "cheap",
-          "in",
-          "the",
-          "market"
-        ],
-        [
-          "at",
-          "the",
-          "market",
-          "Everything",
-          "is",
-          "cheap"
-        ],
-        [
-          "in",
-          "the",
-          "market",
-          "Everything",
-          "is",
-          "cheap"
-        ]
+      "direction": "en_to_bn",
+      "accepted": [
+        "একটা ব্যাগ দেন।",
+        "একটা ব্যাগ দিন।",
+        "আমাকে একটা ব্যাগ দেন।",
+        "আমাকে একটা ব্যাগ দিন।",
+        "ekta byag den",
+        "ekta byag din",
+        "amake ekta byag den",
+        "amake ekta byag din",
+        "ekta bag den",
+        "ekta bag din",
+        "amake ekta bag den"
       ]
     },
     {
@@ -386,6 +324,23 @@
         "khuchro achhe",
         "khuchro ache"
       ]
+    },
+    {
+      "id": "e15",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "ভাংতি নেই।",
+        "tr": "bhangti nei.",
+        "en": "I don't have change."
+      },
+      "blank": "নেই",
+      "options": [
+        "না",
+        "আছে",
+        "নেই"
+      ],
+      "answer": 2,
+      "why": "Not having something is **নেই**, not না."
     },
     {
       "id": "r01",

@@ -109,34 +109,19 @@
     },
     {
       "id": "e06",
-      "type": "match_pairs",
-      "pairs": [
-        {
-          "bn": "করেন",
-          "tr": "koren",
-          "en": "you do (polite)"
-        },
-        {
-          "bn": "করলেন",
-          "tr": "korlen",
-          "en": "you did (polite)"
-        },
-        {
-          "bn": "করে",
-          "tr": "kore",
-          "en": "does"
-        },
-        {
-          "bn": "করল",
-          "tr": "korlo",
-          "en": "did"
-        },
-        {
-          "bn": "করলি",
-          "tr": "korli",
-          "en": "you did (intimate)"
-        }
-      ]
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "সে গতকাল রান্না করল।",
+        "tr": "she gotokal ranna korlo.",
+        "en": "She cooked yesterday."
+      },
+      "blank": "করল",
+      "accepted": [
+        "করল",
+        "korlo",
+        "করলো"
+      ],
+      "why": "সে takes **-ল** in the past: করল."
     },
     {
       "id": "e07",
@@ -176,67 +161,36 @@
     },
     {
       "id": "e09",
-      "type": "listen_select",
-      "audio": {
-        "bn": "আমি এখন রান্না করছি।",
-        "tr": "ami ekhon ranna korchhi.",
-        "en": "I am cooking now."
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "সে প্রতিদিন রান্না করে।",
+        "tr": "she protidin ranna kore.",
+        "en": "She cooks every day."
       },
+      "blank": "করে",
       "options": [
-        "আমি মাত্র রান্না করেছি।",
-        "আমি গতকাল রান্না করলাম।",
-        "আমি এখন রান্না করছি।",
-        "সে এখন রান্না করছে।"
+        "করে",
+        "করল",
+        "করলাম"
       ],
-      "answer": 2
+      "answer": 0,
+      "why": "Every day = a habit → present **করে**. করল = she cooked (once)."
     },
     {
       "id": "e10",
-      "type": "word_bank",
-      "prompt": {
+      "type": "listen_meaning",
+      "audio": {
         "bn": "আমি মাত্র খেয়েছি, তাই এখন খেতে পারি না।",
         "tr": "ami matro kheyechhi, tai ekhon khete pari na.",
         "en": "I have just eaten, so I can't eat now."
       },
-      "direction": "bn_to_en",
-      "tiles": [
-        "I",
-        "have",
-        "just",
-        "eaten",
-        "so",
-        "I",
-        "can't",
-        "eat",
-        "now",
-        "because",
-        "can"
+      "options": [
+        "I haven't eaten yet, so I can eat now.",
+        "I am eating now, so I can't come.",
+        "I have just eaten, so I can't eat now.",
+        "I have just cooked, so you can eat now."
       ],
-      "answer": [
-        "I",
-        "have",
-        "just",
-        "eaten",
-        "so",
-        "I",
-        "can't",
-        "eat",
-        "now"
-      ],
-      "alt": [
-        [
-          "I",
-          "have",
-          "just",
-          "eaten",
-          "so",
-          "now",
-          "I",
-          "can't",
-          "eat"
-        ]
-      ],
-      "why": "তাই 'so' introduces the result."
+      "answer": 2
     },
     {
       "id": "e11",
@@ -349,12 +303,17 @@
       "prompt": {
         "bn": "তুমি গতকাল কী করলে?",
         "tr": "tumi gotokal ki korle?",
-        "en": "What did you do yesterday?"
+        "en": "What did you do yesterday? (familiar)"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "accepted": [
-        "What did you do yesterday?",
-        "Yesterday what did you do?"
+        "তুমি গতকাল কী করলে?",
+        "গতকাল তুমি কী করলে?",
+        "গতকাল কী করলে?",
+        "tumi gotokal ki korle",
+        "gotokal tumi ki korle",
+        "gotokal ki korle",
+        "tumi gotkal ki korle"
       ]
     },
     {

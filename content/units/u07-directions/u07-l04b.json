@@ -173,19 +173,20 @@
     },
     {
       "id": "e08",
-      "type": "listen_select",
-      "audio": {
-        "bn": "গ্রামে",
-        "tr": "grame",
-        "en": "in the village"
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আমার নানা শহরে থাকেন।",
+        "tr": "amar nana shohore thaken.",
+        "en": "My grandfather (mother's father) lives in the city."
       },
+      "blank": "থাকেন",
       "options": [
-        "গ্রাম",
-        "শহরে",
-        "বাজারে",
-        "গ্রামে"
+        "থাকি",
+        "থাকেন",
+        "আছি"
       ],
-      "answer": 3
+      "answer": 1,
+      "why": "A grandfather gets the polite form: **থাকেন**. থাকি is 'I live'."
     },
     {
       "id": "e09",
@@ -286,57 +287,19 @@
     },
     {
       "id": "e13",
-      "type": "word_bank",
-      "prompt": {
+      "type": "listen_meaning",
+      "audio": {
         "bn": "আমি ঢাকায় থাকি, কিন্তু আমার বাড়ি সিলেটে।",
         "tr": "ami dhakay thaki, kintu amar bari shilete.",
         "en": "I live in Dhaka, but my family home is in Sylhet."
       },
-      "direction": "bn_to_en",
-      "tiles": [
-        "Dhaka",
-        "I",
-        "flat",
-        "but",
-        "village",
-        "in",
-        "home",
-        "my",
-        "is",
-        "in",
-        "family",
-        "live",
-        "city",
-        "Sylhet"
+      "options": [
+        "I live in Sylhet, but my family home is in Dhaka.",
+        "I am in Dhaka, but my family is in Sylhet.",
+        "I live in Dhaka, but my family home is in Sylhet.",
+        "I live in Dhaka, and my family lives there too."
       ],
-      "answer": [
-        "I",
-        "live",
-        "in",
-        "Dhaka",
-        "but",
-        "my",
-        "family",
-        "home",
-        "is",
-        "in",
-        "Sylhet"
-      ],
-      "why": "**বাড়ি** is the family home (often in the home district); where you live now is **বাসা**.",
-      "alt": [
-        [
-          "I",
-          "live",
-          "in",
-          "Dhaka",
-          "but",
-          "my",
-          "home",
-          "is",
-          "in",
-          "Sylhet"
-        ]
-      ]
+      "answer": 2
     },
     {
       "id": "e14",
@@ -344,14 +307,15 @@
       "prompt": {
         "bn": "আপনি কোথায় থাকেন?",
         "tr": "apni kothay thaken?",
-        "en": "Where do you live?"
+        "en": "Where do you live? (polite)"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "accepted": [
-        "Where do you live?",
-        "Where do you stay?",
-        "Where are you living?",
-        "Where are you staying?"
+        "আপনি কোথায় থাকেন?",
+        "কোথায় থাকেন?",
+        "apni kothay thaken",
+        "kothay thaken",
+        "apni kothai thaken"
       ]
     },
     {

@@ -75,23 +75,6 @@
       "answer": 0
     },
     {
-      "id": "e02",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "দোস্ত",
-        "tr": "dost",
-        "en": "buddy"
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "brother",
-        "guest",
-        "buddy",
-        "teacher"
-      ],
-      "answer": 2
-    },
-    {
       "id": "e03",
       "type": "select_translation",
       "prompt": {
@@ -124,23 +107,6 @@
         "will you come (intimate)"
       ],
       "answer": 1
-    },
-    {
-      "id": "e05",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "নাচ",
-        "tr": "nach",
-        "en": "dance"
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "song",
-        "fair",
-        "festival",
-        "dance"
-      ],
-      "answer": 3
     },
     {
       "id": "e06",
@@ -207,6 +173,22 @@
       ]
     },
     {
+      "id": "e02",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "দোস্ত, তুই কোথায়?",
+        "tr": "dost, tui kothay?",
+        "en": "Buddy, where are you?"
+      },
+      "options": [
+        "Buddy, where are you?",
+        "Buddy, where is he?",
+        "Buddy, when are you coming?",
+        "Buddy, what are you eating?"
+      ],
+      "answer": 0
+    },
+    {
       "id": "e09",
       "type": "select_translation",
       "prompt": {
@@ -242,36 +224,20 @@
     },
     {
       "id": "e11",
-      "type": "word_bank",
-      "prompt": {
-        "bn": "দোস্ত, তুই কোথায়?",
-        "tr": "dost, tui kothay?",
-        "en": "Buddy, where are you?"
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "চলো, যাই।",
+        "tr": "cholo, jai.",
+        "en": "Let's go. (familiar: তুমি)"
       },
-      "direction": "bn_to_en",
-      "tiles": [
-        "he",
-        "Buddy",
-        "Mate",
-        "where",
-        "is",
-        "are",
-        "you"
+      "blank": "চলো",
+      "options": [
+        "চল",
+        "চলো",
+        "চলেন"
       ],
-      "answer": [
-        "Buddy",
-        "where",
-        "are",
-        "you"
-      ],
-      "alt": [
-        [
-          "Mate",
-          "where",
-          "are",
-          "you"
-        ]
-      ]
+      "answer": 1,
+      "why": "To a তুমি friend: **চলো**; চল is for তুই, চলেন for আপনি."
     },
     {
       "id": "e12",
@@ -304,73 +270,38 @@
         "tr": "aj nach ar gan hobe.",
         "en": "There will be dancing and singing today."
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "tiles": [
-        "There",
-        "was",
-        "will",
-        "be",
-        "dancing",
-        "and",
-        "eat",
-        "singing",
-        "music",
-        "today"
+        "হবে",
+        "আর",
+        "আজ",
+        "ছিল",
+        "গান",
+        "নাচ",
+        "কাল"
       ],
       "answer": [
-        "There",
-        "will",
-        "be",
-        "dancing",
-        "and",
-        "singing",
-        "today"
+        "আজ",
+        "নাচ",
+        "আর",
+        "গান",
+        "হবে"
       ],
       "alt": [
         [
-          "There",
-          "will",
-          "be",
-          "dancing",
-          "and",
-          "music",
-          "today"
+          "আজ",
+          "গান",
+          "আর",
+          "নাচ",
+          "হবে"
         ],
         [
-          "today",
-          "There",
-          "will",
-          "be",
-          "dancing",
-          "and",
-          "singing"
-        ],
-        [
-          "today",
-          "There",
-          "will",
-          "be",
-          "dancing",
-          "and",
-          "music"
+          "নাচ",
+          "আর",
+          "গান",
+          "হবে",
+          "আজ"
         ]
-      ]
-    },
-    {
-      "id": "e14",
-      "type": "type_translation",
-      "prompt": {
-        "bn": "তুই কি আসবি?",
-        "tr": "tui ki ashbi?",
-        "en": "Will you come?"
-      },
-      "direction": "bn_to_en",
-      "accepted": [
-        "Will you come?",
-        "Are you coming?",
-        "Are you going to come?",
-        "You coming?",
-        "Will you come too?"
       ]
     },
     {
@@ -394,6 +325,40 @@
         "চল",
         "গান",
         "শুনি"
+      ]
+    },
+    {
+      "id": "e05",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "তুই কি আসবি?",
+        "tr": "tui ki ashbi?",
+        "en": "Will you come? (intimate: তুই)"
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "তুই কি আসবি?",
+        "তুই আসবি?",
+        "আসবি?",
+        "tui ki ashbi",
+        "tui ashbi",
+        "ashbi",
+        "tui ki asbi"
+      ],
+      "why": "তুই takes **-বি** in the future: আসবি."
+    },
+    {
+      "id": "e14",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "চল, মেলায় যাই।",
+        "tr": "chol, melay jai.",
+        "en": "Let's go to the fair. (intimate: তুই)"
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "চল, মেলায় যাই।",
+        "chol melay jai"
       ]
     },
     {

@@ -106,23 +106,6 @@
       "answer": 1
     },
     {
-      "id": "e03",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "মাঝে মাঝে",
-        "tr": "majhe majhe",
-        "en": "sometimes"
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "always",
-        "never",
-        "sometimes",
-        "every day"
-      ],
-      "answer": 2
-    },
-    {
       "id": "e04",
       "type": "select_translation",
       "prompt": {
@@ -219,6 +202,23 @@
           "en": "brushing teeth"
         }
       ]
+    },
+    {
+      "id": "e03",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "সে কখনো মাছ খায় না।",
+        "tr": "she kokhono machh khay na.",
+        "en": "She never eats fish."
+      },
+      "blank": "কখনো",
+      "options": [
+        "সবসময়",
+        "কখনো",
+        "প্রতিদিন"
+      ],
+      "answer": 1,
+      "why": "'Never' = **কখনো** … verb + না."
     },
     {
       "id": "e09",
@@ -337,24 +337,20 @@
       "answer": 1
     },
     {
-      "id": "e13",
-      "type": "type_translation",
-      "prompt": {
-        "bn": "আমি মাঝে মাঝে টিভি দেখি।",
-        "tr": "ami majhe majhe tibhi dekhi.",
-        "en": "I sometimes watch TV."
+      "id": "e15",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "আমার দাদা সবসময় নামাজ পড়েন।",
+        "tr": "amar dada shobshomoy namaj poren.",
+        "en": "My grandfather always prays."
       },
-      "direction": "bn_to_en",
-      "accepted": [
-        "I sometimes watch TV.",
-        "Sometimes I watch TV.",
-        "I watch TV sometimes.",
-        "I sometimes watch television.",
-        "Sometimes I watch television.",
-        "I watch television sometimes.",
-        "I occasionally watch TV.",
-        "I watch TV now and then."
-      ]
+      "options": [
+        "My grandfather always prays.",
+        "My grandfather sometimes prays.",
+        "My grandmother always prays.",
+        "I always pray."
+      ],
+      "answer": 0
     },
     {
       "id": "e14",
@@ -391,29 +387,23 @@
       ]
     },
     {
-      "id": "e15",
-      "type": "word_bank",
+      "id": "e13",
+      "type": "type_translation",
       "prompt": {
-        "bn": "আমার দাদা সবসময় নামাজ পড়েন।",
-        "tr": "amar dada shobshomoy namaj poren.",
-        "en": "My grandfather always prays."
+        "bn": "আমি মাঝে মাঝে টিভি দেখি।",
+        "tr": "ami majhe majhe tibhi dekhi.",
+        "en": "I sometimes watch TV."
       },
-      "direction": "bn_to_en",
-      "tiles": [
-        "sometimes",
-        "My",
-        "pray",
-        "grandfather",
-        "never",
-        "always",
-        "grandmother",
-        "prays"
-      ],
-      "answer": [
-        "My",
-        "grandfather",
-        "always",
-        "prays"
+      "direction": "en_to_bn",
+      "accepted": [
+        "আমি মাঝে মাঝে টিভি দেখি।",
+        "মাঝে মাঝে আমি টিভি দেখি।",
+        "আমি মাঝেমাঝে টিভি দেখি।",
+        "ami majhe majhe tibhi dekhi",
+        "majhe majhe ami tibhi dekhi",
+        "ami maje maje tibhi dekhi",
+        "ami majhe majhe tivi dekhi",
+        "ami majhe majhe tv dekhi"
       ]
     },
     {

@@ -56,7 +56,7 @@
         {
           "bn": "দিন",
           "tr": "din",
-          "en": "day"
+          "en": "give (polite, standard)"
         },
         {
           "bn": "আমাকে",
@@ -75,9 +75,9 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "বাজারে",
-          "tr": "bajare",
-          "en": "at the market"
+          "bn": "বাজার",
+          "tr": "bajar",
+          "en": "market"
         },
         {
           "bn": "দোকানটা",
@@ -152,9 +152,9 @@
           "en": "other"
         },
         {
-          "bn": "কম",
-          "tr": "kom",
-          "en": "less"
+          "bn": "লুঙ্গি",
+          "tr": "lunggi",
+          "en": "lungi"
         },
         {
           "bn": "বেশি",
@@ -165,51 +165,65 @@
     },
     {
       "id": "e07",
-      "type": "match_pairs",
-      "pairs": [
+      "type": "reading",
+      "title": "Buying a sari",
+      "lines": [
         {
-          "bn": "শাড়ি",
-          "tr": "shari",
-          "en": "sari"
+          "speaker": "Nadia",
+          "bn": "ভাই, এই শাড়িটা কত?",
+          "tr": "bhai, ei sharita koto?",
+          "en": "Brother, how much is this sari?"
         },
         {
-          "bn": "জামা",
-          "tr": "jama",
-          "en": "shirt"
+          "speaker": "Shopkeeper",
+          "bn": "এক হাজার টাকা। এটা সবচেয়ে ভালো শাড়ি।",
+          "tr": "ek hajar taka. eta shobcheye bhalo shari.",
+          "en": "A thousand taka. This is the best sari."
         },
         {
-          "bn": "লুঙ্গি",
-          "tr": "lunggi",
-          "en": "lungi"
+          "speaker": "Nadia",
+          "bn": "এত দাম কেন? একটু কম রাখেন।",
+          "tr": "eto dam keno? ektu kom rakhen.",
+          "en": "Why so expensive? Please lower it a little."
         },
         {
-          "bn": "দামি",
-          "tr": "dami",
-          "en": "expensive"
+          "speaker": "Shopkeeper",
+          "bn": "ঠিক আছে, শেষ দাম পাঁচশ টাকা। কিনবেন?",
+          "tr": "thik achhe, shesh dam pa~chsho taka. kinben?",
+          "en": "OK, the final price is five hundred taka. Will you buy it?"
         },
         {
-          "bn": "শেষ",
-          "tr": "shesh",
-          "en": "last"
+          "speaker": "Nadia",
+          "bn": "হ্যাঁ, কিনব। কিন্তু ব্যাগ লাগবে না।",
+          "tr": "hya~, kinbo. kintu byag lagbe na.",
+          "en": "Yes, I'll buy it. But I don't need a bag."
         }
-      ]
+      ],
+      "question": "How much will Nadia pay for the sari?",
+      "options": [
+        "A thousand taka",
+        "Five hundred taka",
+        "Fifty taka"
+      ],
+      "answer": 1
     },
     {
       "id": "e08",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "এত দাম কেন? একটু কম রাখেন।",
-        "tr": "eto dam keno? ektu kom rakhen.",
-        "en": "Why so expensive? Please lower it a little."
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আপু, আরও একটু পানি দাও।",
+        "tr": "apu, aro ektu pani dao.",
+        "en": "Apu, give me a little more water. (familiar: তুমি)"
       },
-      "direction": "bn_to_en",
+      "blank": "দাও",
       "options": [
-        "Why so cheap? Please give a little more.",
-        "What's the price? Keep it a little.",
-        "Why so expensive? Please lower it a little.",
-        "Why so expensive? Give me a little more."
+        "দে",
+        "দিন",
+        "দাও",
+        "দেন"
       ],
-      "answer": 2
+      "answer": 2,
+      "why": "তুমি → **দাও**; তুই → দে; আপনি → দিন / দেন."
     },
     {
       "id": "e09",
@@ -255,31 +269,24 @@
     },
     {
       "id": "e11",
-      "type": "word_bank",
+      "type": "type_translation",
       "prompt": {
         "bn": "আমার দুই কেজি পেঁয়াজ লাগবে।",
         "tr": "amar dui keji pe~yaj lagbe.",
         "en": "I need two kilos of onions."
       },
-      "direction": "bn_to_en",
-      "tiles": [
-        "want",
-        "I",
-        "onions",
-        "kilos",
-        "need",
-        "of",
-        "potatoes",
-        "two",
-        "four"
-      ],
-      "answer": [
-        "I",
-        "need",
-        "two",
-        "kilos",
-        "of",
-        "onions"
+      "direction": "en_to_bn",
+      "accepted": [
+        "আমার দুই কেজি পেঁয়াজ লাগবে।",
+        "দুই কেজি পেঁয়াজ লাগবে।",
+        "আমার ২ কেজি পেঁয়াজ লাগবে।",
+        "amar dui keji pe~yaj lagbe",
+        "dui keji pe~yaj lagbe",
+        "amar dui keji peyaj lagbe",
+        "amar dui keji piyaj lagbe",
+        "amar dui kg peyaj lagbe",
+        "dui keji peyaj lagbe",
+        "amar 2 keji peyaj lagbe"
       ]
     },
     {
@@ -310,60 +317,34 @@
     },
     {
       "id": "e13",
-      "type": "word_bank",
-      "prompt": {
-        "bn": "এইটা না, ওইটা। ওইটা সবচেয়ে সস্তা।",
-        "tr": "eita na, oita. oita shobcheye shosta.",
-        "en": "Not this one, that one. That one is the cheapest."
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "বাজারে সব জিনিস সস্তা।",
+        "tr": "bajare shob jinish shosta.",
+        "en": "Everything is cheap at the market."
       },
-      "direction": "bn_to_en",
-      "tiles": [
-        "is",
-        "this",
-        "that",
-        "Not",
-        "cheapest",
-        "expensive",
-        "the",
-        "That",
-        "one",
-        "these",
-        "best",
-        "one",
-        "one"
+      "options": [
+        "Everything is expensive at the market.",
+        "Nothing is cheap at the market.",
+        "Everything is cheap at this shop.",
+        "Everything is cheap at the market."
       ],
-      "answer": [
-        "Not",
-        "this",
-        "one",
-        "that",
-        "one",
-        "That",
-        "one",
-        "is",
-        "the",
-        "cheapest"
-      ]
+      "answer": 3
     },
     {
       "id": "e14",
       "type": "type_translation",
       "prompt": {
-        "bn": "আমার কোনো ব্যাগ লাগবে না।",
-        "tr": "amar kono byag lagbe na.",
-        "en": "I don't need any bag."
+        "bn": "ওই জামাটা খুব দামি।",
+        "tr": "oi jamata khub dami.",
+        "en": "That shirt is very expensive."
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "accepted": [
-        "I don't need any bag.",
-        "I don't need a bag.",
-        "I don't need any bags.",
-        "I do not need any bag.",
-        "I do not need a bag.",
-        "I won't need a bag.",
-        "I won't need any bag.",
-        "I don't need a bag at all.",
-        "I need no bag."
+        "ওই জামাটা খুব দামি।",
+        "ওই জামাটা অনেক দামি।",
+        "oi jamata khub dami",
+        "oi jamata onek dami"
       ]
     },
     {

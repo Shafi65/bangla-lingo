@@ -154,33 +154,17 @@
     },
     {
       "id": "e07",
-      "type": "match_pairs",
-      "pairs": [
-        {
-          "bn": "শহর",
-          "tr": "shohor",
-          "en": "city"
-        },
-        {
-          "bn": "গ্রাম",
-          "tr": "gram",
-          "en": "village"
-        },
-        {
-          "bn": "শহরে",
-          "tr": "shohore",
-          "en": "in the city"
-        },
-        {
-          "bn": "গ্রামে",
-          "tr": "grame",
-          "en": "in the village"
-        },
-        {
-          "bn": "সাহায্য",
-          "tr": "shahajjo",
-          "en": "help"
-        }
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আমার সাহায্য দরকার।",
+        "tr": "amar shahajjo dorkar.",
+        "en": "I need help."
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "আমার সাহায্য দরকার।",
+        "amar shahajjo dorkar",
+        "amar sahajjo dorkar"
       ]
     },
     {
@@ -244,38 +228,19 @@
     },
     {
       "id": "e11",
-      "type": "word_bank",
-      "prompt": {
+      "type": "listen_meaning",
+      "audio": {
         "bn": "দোকানটা বাড়ির পিছনে, বাজারের কাছে।",
         "tr": "dokanta barir pichhone, bajarer kachhe.",
         "en": "The shop is behind the house, near the market."
       },
-      "direction": "bn_to_en",
-      "tiles": [
-        "behind",
-        "The",
-        "the",
-        "house",
-        "front",
-        "far",
-        "shop",
-        "market",
-        "near",
-        "is",
-        "the",
-        "hotel"
+      "options": [
+        "The shop is in front of the house, near the market.",
+        "The shop is behind the house, near the market.",
+        "The house is behind the shop, near the market.",
+        "The shop is behind the market, near the house."
       ],
-      "answer": [
-        "The",
-        "shop",
-        "is",
-        "behind",
-        "the",
-        "house",
-        "near",
-        "the",
-        "market"
-      ]
+      "answer": 1
     },
     {
       "id": "e12",
@@ -303,68 +268,37 @@
     },
     {
       "id": "e13",
-      "type": "word_bank",
+      "type": "type_translation",
       "prompt": {
         "bn": "আমার নানি গ্রামে থাকেন, কিন্তু আমি শহরে থাকি।",
         "tr": "amar nani grame thaken, kintu ami shohore thaki.",
-        "en": "My grandmother lives in the village, but I live in the city."
+        "en": "My grandmother (mother's mother) lives in the village, but I live in the city."
       },
-      "direction": "bn_to_en",
-      "tiles": [
-        "house",
-        "in",
-        "grandmother",
-        "village",
-        "I",
-        "grandfather",
-        "the",
-        "live",
-        "lives",
-        "but",
-        "My",
-        "is",
-        "the",
-        "in",
-        "city"
-      ],
-      "answer": [
-        "My",
-        "grandmother",
-        "lives",
-        "in",
-        "the",
-        "village",
-        "but",
-        "I",
-        "live",
-        "in",
-        "the",
-        "city"
+      "direction": "en_to_bn",
+      "accepted": [
+        "আমার নানি গ্রামে থাকেন, কিন্তু আমি শহরে থাকি।",
+        "নানি গ্রামে থাকেন, কিন্তু আমি শহরে থাকি।",
+        "amar nani grame thaken kintu ami shohore thaki",
+        "nani grame thaken kintu ami shohore thaki",
+        "amar nani grame thaken kintu ami sohore thaki"
       ]
     },
     {
       "id": "e14",
-      "type": "type_translation",
-      "prompt": {
-        "bn": "আপনি শহরে থাকেন? তাহলে আপনার বাসা কোথায়?",
-        "tr": "apni shohore thaken? tahole apnar basha kothay?",
-        "en": "You live in the city? Then where is your home?"
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "মন্দির মসজিদের পাশে।",
+        "tr": "mondir moshjider pashe.",
+        "en": "The temple is next to the mosque."
       },
-      "direction": "bn_to_en",
+      "blank": "মসজিদের",
       "accepted": [
-        "You live in the city? Then where is your home?",
-        "You live in the city? Then where is your house?",
-        "You live in the city? So where is your home?",
-        "You live in the city? So where is your house?",
-        "You live in the city? Then where do you live?",
-        "Do you live in the city? Then where is your home?",
-        "Do you live in the city? Then where is your house?",
-        "You live in the city? In that case, where is your home?",
-        "You live in town? Then where is your home?",
-        "You live in the city? Then where's your home?",
-        "You live in the city? Then where's your house?",
-        "Do you live in the city? So where is your home?"
-      ]
+        "মসজিদের",
+        "moshjider",
+        "mosjider",
+        "moshjeder"
+      ],
+      "why": "Before পাশে the noun takes **-এর**: মসজিদের পাশে."
     },
     {
       "id": "e15",

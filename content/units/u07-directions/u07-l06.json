@@ -164,23 +164,6 @@
       "answer": 0
     },
     {
-      "id": "e07",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "টিকিট",
-        "tr": "tikit",
-        "en": "ticket"
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "ticket",
-        "fare",
-        "bag",
-        "train"
-      ],
-      "answer": 0
-    },
-    {
       "id": "e08",
       "type": "match_pairs",
       "pairs": [
@@ -210,6 +193,23 @@
           "en": "ticket"
         }
       ]
+    },
+    {
+      "id": "e07",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "ঢাকা থেকে সিলেট কতদূর?",
+        "tr": "dhaka theke shilet kotodur?",
+        "en": "How far is Sylhet from Dhaka?"
+      },
+      "blank": "থেকে",
+      "options": [
+        "পর্যন্ত",
+        "থেকে",
+        "দিয়ে"
+      ],
+      "answer": 1,
+      "why": "'From' = **থেকে**, after the place: ঢাকা থেকে."
     },
     {
       "id": "e09",
@@ -288,30 +288,19 @@
     },
     {
       "id": "e12",
-      "type": "word_bank",
-      "prompt": {
+      "type": "listen_meaning",
+      "audio": {
         "bn": "তুমি কি বাসে যাবে?",
         "tr": "tumi ki base jabe?",
         "en": "Will you go by bus?"
       },
-      "direction": "bn_to_en",
-      "tiles": [
-        "train",
-        "by",
-        "Will",
-        "I",
-        "bus",
-        "go",
-        "you",
-        "Do"
+      "options": [
+        "Will you go by train?",
+        "I will go by bus.",
+        "Where is the bus?",
+        "Will you go by bus?"
       ],
-      "answer": [
-        "Will",
-        "you",
-        "go",
-        "by",
-        "bus"
-      ]
+      "answer": 3
     },
     {
       "id": "e14",
@@ -357,18 +346,20 @@
       "id": "e13",
       "type": "type_translation",
       "prompt": {
-        "bn": "ট্রেন কি এখন ছাড়বে?",
-        "tr": "tren ki ekhon chharbe?",
-        "en": "Is the train leaving now?"
+        "bn": "ট্রেন এখন ছাড়বে।",
+        "tr": "tren ekhon chharbe.",
+        "en": "The train will leave now."
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "accepted": [
-        "Is the train leaving now?",
-        "Will the train leave now?",
-        "Does the train leave now?",
-        "Is the train going to leave now?",
-        "Will the train depart now?",
-        "Is the train departing now?"
+        "ট্রেন এখন ছাড়বে।",
+        "ট্রেনটা এখন ছাড়বে।",
+        "এখন ট্রেন ছাড়বে।",
+        "tren ekhon chharbe",
+        "ekhon tren chharbe",
+        "tren ekhon charbe",
+        "train ekhon chharbe",
+        "train ekhon charbe"
       ]
     },
     {

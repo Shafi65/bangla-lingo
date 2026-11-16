@@ -78,13 +78,12 @@
     },
     {
       "id": "e02",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_meaning",
+      "audio": {
         "bn": "ওই লাল শাড়িটা কত?",
         "tr": "oi lal sharita koto?",
         "en": "How much is that red sari?"
       },
-      "direction": "bn_to_en",
       "options": [
         "How much is this red sari?",
         "How much is that red shirt?",
@@ -92,7 +91,7 @@
         "How much is that red sari?"
       ],
       "answer": 3,
-      "why": "**ওই** = that, **এই** = this."
+      "why": "**ওই** = that; **শাড়িটা** = the sari."
     },
     {
       "id": "e03",
@@ -127,23 +126,6 @@
         "change"
       ],
       "answer": 0
-    },
-    {
-      "id": "e05",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "এই জামাটা কত?",
-        "tr": "ei jamata koto?",
-        "en": "How much is this shirt?"
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "How much is that shirt?",
-        "How much is this shirt?",
-        "How much is this sari?",
-        "Is this shirt cheap?"
-      ],
-      "answer": 1
     },
     {
       "id": "e06",
@@ -246,6 +228,23 @@
       ]
     },
     {
+      "id": "e05",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "এই জামাটা কত?",
+        "tr": "ei jamata koto?",
+        "en": "How much is this shirt?"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "ওই জামাটা কত?",
+        "এই শাড়িটা কত?",
+        "এই জামাটা কত?",
+        "এই জামাটা কোথায়?"
+      ],
+      "answer": 2
+    },
+    {
       "id": "e11",
       "type": "word_bank",
       "prompt": {
@@ -273,43 +272,20 @@
     },
     {
       "id": "e12",
-      "type": "word_bank",
-      "prompt": {
-        "bn": "এখানে কোনো লুঙ্গি নেই।",
-        "tr": "ekhane kono lunggi nei.",
-        "en": "There are no lungis here."
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আপনি কী কিনবেন?",
+        "tr": "apni ki kinben?",
+        "en": "What will you buy? (polite)"
       },
-      "direction": "bn_to_en",
-      "tiles": [
-        "are",
-        "here",
-        "shirts",
-        "lungis",
-        "is",
-        "there",
-        "at",
-        "no",
-        "There",
-        "all"
+      "blank": "কিনবেন",
+      "options": [
+        "কিনবেন",
+        "কিনব",
+        "চাই"
       ],
-      "answer": [
-        "There",
-        "are",
-        "no",
-        "lungis",
-        "here"
-      ],
-      "alt": [
-        [
-          "There",
-          "are",
-          "no",
-          "lungis",
-          "here",
-          "at",
-          "all"
-        ]
-      ]
+      "answer": 0,
+      "why": "আপনি takes the polite ending **-বেন**: কিনবেন. কিনব is 'I will buy'."
     },
     {
       "id": "e13",
@@ -359,17 +335,23 @@
       "id": "e15",
       "type": "type_translation",
       "prompt": {
-        "bn": "আপনি কী কিনবেন?",
-        "tr": "apni ki kinben?",
-        "en": "What will you buy?"
+        "bn": "আমি একটা লুঙ্গি কিনব।",
+        "tr": "ami ekta lunggi kinbo.",
+        "en": "I will buy a lungi."
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "accepted": [
-        "What will you buy?",
-        "What are you going to buy?",
-        "What would you like to buy?",
-        "What'll you buy?",
-        "What will you be buying?"
+        "আমি একটা লুঙ্গি কিনব।",
+        "আমি একটা লুঙ্গি কিনবো।",
+        "একটা লুঙ্গি কিনব।",
+        "একটা লুঙ্গি কিনবো।",
+        "আমি লুঙ্গি কিনব।",
+        "ami ekta lunggi kinbo",
+        "ekta lunggi kinbo",
+        "ami lunggi kinbo",
+        "ami ekta lungi kinbo",
+        "ekta lungi kinbo",
+        "ami lungi kinbo"
       ]
     },
     {

@@ -144,23 +144,6 @@
       "answer": 2
     },
     {
-      "id": "e06",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "সেহরি",
-        "tr": "sehri",
-        "en": "sehri"
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "sehri",
-        "iftar",
-        "breakfast",
-        "dinner"
-      ],
-      "answer": 0
-    },
-    {
       "id": "e07",
       "type": "select_translation",
       "prompt": {
@@ -176,23 +159,6 @@
         "iftar"
       ],
       "answer": 3
-    },
-    {
-      "id": "e08",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "খেজুর",
-        "tr": "khejur",
-        "en": "dates"
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "sugar",
-        "bananas",
-        "dates",
-        "rice"
-      ],
-      "answer": 2
     },
     {
       "id": "e09",
@@ -226,49 +192,37 @@
       ]
     },
     {
-      "id": "e10",
-      "type": "word_bank",
-      "prompt": {
-        "bn": "রমজানে আমি রোজা রাখি।",
-        "tr": "romjane ami roja rakhi.",
-        "en": "I fast during Ramadan."
+      "id": "e08",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আপনি কি রোজা রাখেন?",
+        "tr": "apni ki roja rakhen?",
+        "en": "Do you fast? (polite)"
       },
-      "direction": "bn_to_en",
-      "tiles": [
-        "Eid",
-        "I",
-        "fast",
-        "eat",
-        "during",
-        "in",
-        "Ramadan"
+      "blank": "রাখেন",
+      "options": [
+        "রাখেন",
+        "রাখি",
+        "খান"
       ],
-      "answer": [
-        "I",
-        "fast",
-        "during",
-        "Ramadan"
+      "answer": 0,
+      "why": "আপনি takes **-েন**: রাখেন. রাখি = I keep."
+    },
+    {
+      "id": "e10",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "আজ আমাদের বাসায় ইফতার।",
+        "tr": "aj amader bashay iftar.",
+        "en": "Iftar is at our home today."
+      },
+      "options": [
+        "Iftar is at your home today.",
+        "Iftar is at our home today.",
+        "Sehri is at our home today.",
+        "There's no iftar at our home today."
       ],
-      "alt": [
-        [
-          "I",
-          "fast",
-          "in",
-          "Ramadan"
-        ],
-        [
-          "in",
-          "Ramadan",
-          "I",
-          "fast"
-        ],
-        [
-          "during",
-          "Ramadan",
-          "I",
-          "fast"
-        ]
-      ]
+      "answer": 1
     },
     {
       "id": "e11",
@@ -331,26 +285,6 @@
       ]
     },
     {
-      "id": "e13",
-      "type": "type_translation",
-      "prompt": {
-        "bn": "আপনি কি রোজা রাখেন?",
-        "tr": "apni ki roja rakhen?",
-        "en": "Do you fast?"
-      },
-      "direction": "bn_to_en",
-      "accepted": [
-        "Do you fast?",
-        "Are you fasting?",
-        "Do you keep the fast?",
-        "Are you keeping the fast?",
-        "Do you keep roja?",
-        "Do you keep roza?",
-        "Do you observe the fast?",
-        "Do you fast during Ramadan?"
-      ]
-    },
-    {
       "id": "e14",
       "type": "select_translation",
       "prompt": {
@@ -383,6 +317,46 @@
         "আমি ইফতার করলাম।"
       ],
       "answer": 1
+    },
+    {
+      "id": "e13",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "এখন রমজান মাস।",
+        "tr": "ekhon romjan mash.",
+        "en": "It's the month of Ramadan now."
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "এখন রমজান মাস।",
+        "এখন রমজান।",
+        "ekhon romjan mash",
+        "ekhon romjan",
+        "ekhon ramjan mash",
+        "ekhon romjan mas",
+        "ekhon romzan mash"
+      ]
+    },
+    {
+      "id": "e06",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "রমজানে আমি রোজা রাখি।",
+        "tr": "romjane ami roja rakhi.",
+        "en": "I fast during Ramadan."
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "রমজানে আমি রোজা রাখি।",
+        "আমি রমজানে রোজা রাখি।",
+        "রমজানে রোজা রাখি।",
+        "romjane ami roja rakhi",
+        "ami romjane roja rakhi",
+        "romjane roja rakhi",
+        "romjane ami roza rakhi",
+        "ramjane ami roja rakhi",
+        "romzane ami roja rakhi"
+      ]
     },
     {
       "id": "r01",

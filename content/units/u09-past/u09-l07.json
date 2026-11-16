@@ -314,67 +314,34 @@
     },
     {
       "id": "e11",
-      "type": "word_bank",
-      "prompt": {
+      "type": "listen_meaning",
+      "audio": {
         "bn": "দিনটা খুব ভালো ছিল।",
         "tr": "dinta khub bhalo chhilo.",
         "en": "The day was very good."
       },
-      "direction": "bn_to_en",
-      "tiles": [
-        "good",
-        "It",
-        "day",
-        "was",
-        "The",
-        "is",
-        "very",
-        "a"
+      "options": [
+        "Today is very good.",
+        "The day was very bad.",
+        "The day was very good.",
+        "The food was very good."
       ],
-      "answer": [
-        "The",
-        "day",
-        "was",
-        "very",
-        "good"
-      ],
-      "alt": [
-        [
-          "It",
-          "was",
-          "a",
-          "very",
-          "good",
-          "day"
-        ]
-      ]
+      "answer": 2
     },
     {
       "id": "e12",
       "type": "type_translation",
       "prompt": {
-        "bn": "গতকাল আমি সকাল সাতটায় উঠলাম।",
-        "tr": "gotokal ami shokal shattay uthlam.",
-        "en": "Yesterday I got up at seven in the morning."
+        "bn": "তারপর আমি ঘুমালাম।",
+        "tr": "tarpor ami ghumalam.",
+        "en": "Then I slept."
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "accepted": [
-        "Yesterday I got up at seven in the morning.",
-        "Yesterday I woke up at seven in the morning.",
-        "I got up at seven in the morning yesterday.",
-        "I woke up at seven in the morning yesterday.",
-        "Yesterday I got up at 7 in the morning.",
-        "Yesterday I woke up at 7 in the morning.",
-        "I got up at 7 in the morning yesterday.",
-        "I woke up at 7 in the morning yesterday.",
-        "Yesterday I got up at seven o'clock in the morning.",
-        "Yesterday I woke up at seven o'clock in the morning.",
-        "Yesterday I got up at 7 am.",
-        "Yesterday I woke up at 7 am.",
-        "I got up at 7 am yesterday.",
-        "I woke up at 7 am yesterday.",
-        "Yesterday I got up at seven am.",
-        "Yesterday I woke up at seven am."
+        "তারপর আমি ঘুমালাম।",
+        "তারপর ঘুমালাম।",
+        "tarpor ami ghumalam",
+        "tarpor ghumalam"
       ]
     },
     {
@@ -416,6 +383,23 @@
         "রাতে আমি বাসায় এলাম।"
       ],
       "answer": 2
+    },
+    {
+      "id": "e15",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আমরা বাজারে চা খেলাম।",
+        "tr": "amra bajare cha khelam.",
+        "en": "We had tea at the market."
+      },
+      "blank": "খেলাম",
+      "options": [
+        "খাই",
+        "খেলাম",
+        "খাও"
+      ],
+      "answer": 1,
+      "why": "আমরা takes the আমি ending in the past too: **খেলাম**."
     },
     {
       "id": "r01",

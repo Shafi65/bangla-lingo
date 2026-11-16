@@ -103,23 +103,6 @@
       "answer": 2
     },
     {
-      "id": "e03",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "দামি",
-        "tr": "dami",
-        "en": "expensive"
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "expensive",
-        "cheap",
-        "price",
-        "less"
-      ],
-      "answer": 0
-    },
-    {
       "id": "e04",
       "type": "select_translation",
       "prompt": {
@@ -236,49 +219,37 @@
       ]
     },
     {
-      "id": "e10",
-      "type": "word_bank",
-      "prompt": {
-        "bn": "দাম একটু কম রাখেন।",
-        "tr": "dam ektu kom rakhen.",
-        "en": "Please lower the price a little."
+      "id": "e03",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "এটা এত দামি কেন?",
+        "tr": "eta eto dami keno?",
+        "en": "Why is this so expensive?"
       },
-      "direction": "bn_to_en",
-      "tiles": [
-        "raise",
-        "the",
-        "Please",
-        "little",
-        "price",
-        "more",
-        "lower",
-        "a"
+      "blank": "কেন",
+      "options": [
+        "কত",
+        "কেন",
+        "কোথায়"
       ],
-      "answer": [
-        "Please",
-        "lower",
-        "the",
-        "price",
-        "a",
-        "little"
+      "answer": 1,
+      "why": "**কেন** = why; কত = how much; কোথায় = where."
+    },
+    {
+      "id": "e10",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "দাম অনেক বেশি।",
+        "tr": "dam onek beshi.",
+        "en": "The price is too high."
+      },
+      "options": [
+        "The price is too high.",
+        "The price is low.",
+        "This one is cheap.",
+        "What's the final price?"
       ],
-      "alt": [
-        [
-          "lower",
-          "the",
-          "price",
-          "a",
-          "little"
-        ],
-        [
-          "lower",
-          "the",
-          "price",
-          "a",
-          "little",
-          "Please"
-        ]
-      ]
+      "answer": 0
     },
     {
       "id": "e11",
@@ -370,23 +341,13 @@
         "tr": "shesh dam koto?",
         "en": "What's the final price?"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "accepted": [
-        "What's the final price",
-        "What's the last price",
-        "What's the best price",
-        "What's your final price",
-        "What's your last price",
-        "What's your best price",
-        "What is the final price",
-        "What is the last price",
-        "What is the best price",
-        "What is your final price",
-        "What is your last price",
-        "What is your best price",
-        "How much is the final price?",
-        "Final price?",
-        "How much is your final price?"
+        "শেষ দাম কত?",
+        "শেষ দাম কত টাকা?",
+        "shesh dam koto",
+        "shesh dam koto taka",
+        "sesh dam koto"
       ]
     },
     {

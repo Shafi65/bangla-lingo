@@ -164,23 +164,6 @@
       "answer": 2
     },
     {
-      "id": "e07",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "যাচ্ছি",
-        "tr": "jachchhi",
-        "en": "I am going"
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "I am eating",
-        "I go",
-        "I am reading",
-        "I am going"
-      ],
-      "answer": 3
-    },
-    {
       "id": "e08",
       "type": "select_translation",
       "prompt": {
@@ -229,6 +212,23 @@
       ]
     },
     {
+      "id": "e07",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আমি কাজ করছি।",
+        "tr": "ami kaj korchhi.",
+        "en": "I am working (right now)."
+      },
+      "blank": "করছি",
+      "options": [
+        "করছি",
+        "করি",
+        "করছে"
+      ],
+      "answer": 0,
+      "why": "Right now = **-ছি** for আমি: করছি. করি = I work (in general)."
+    },
+    {
       "id": "e10",
       "type": "select_translation",
       "prompt": {
@@ -247,31 +247,22 @@
     },
     {
       "id": "e11",
-      "type": "word_bank",
+      "type": "type_translation",
       "prompt": {
         "bn": "তুমি কী করছো?",
         "tr": "tumi ki korchho?",
         "en": "What are you doing? (familiar)"
       },
       "direction": "en_to_bn",
-      "tiles": [
-        "করো",
-        "তুমি",
-        "আপনি",
-        "কী",
-        "করছেন",
-        "করছো"
-      ],
-      "answer": [
-        "তুমি",
-        "কী",
-        "করছো"
-      ],
-      "alt": [
-        [
-          "কী",
-          "করছো"
-        ]
+      "accepted": [
+        "তুমি কী করছো?",
+        "তুমি কী করছ?",
+        "কী করছো?",
+        "কী করছ?",
+        "tumi ki korchho",
+        "ki korchho",
+        "tumi ki korcho",
+        "ki korcho"
       ]
     },
     {
@@ -314,28 +305,19 @@
     },
     {
       "id": "e13",
-      "type": "word_bank",
-      "prompt": {
+      "type": "listen_meaning",
+      "audio": {
         "bn": "সে টিভি দেখছে।",
         "tr": "she tibhi dekhchhe.",
         "en": "He is watching TV."
       },
-      "direction": "bn_to_en",
-      "tiles": [
-        "watches",
-        "He",
-        "doing",
-        "TV",
-        "is",
-        "I",
-        "watching"
+      "options": [
+        "He watches TV.",
+        "I am watching TV.",
+        "He is watching TV.",
+        "He is reading a book."
       ],
-      "answer": [
-        "He",
-        "is",
-        "watching",
-        "TV"
-      ]
+      "answer": 2
     },
     {
       "id": "e14",
@@ -345,18 +327,13 @@
         "tr": "ami boi porchhi.",
         "en": "I am reading a book."
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "accepted": [
-        "I am reading a book.",
-        "I'm reading a book.",
-        "I am reading.",
-        "I'm reading.",
-        "I am reading books.",
-        "I'm reading books.",
-        "I am reading the book.",
-        "I'm reading the book.",
-        "I am studying.",
-        "I'm studying."
+        "আমি বই পড়ছি।",
+        "বই পড়ছি।",
+        "ami boi porchhi",
+        "boi porchhi",
+        "ami boi porchi"
       ]
     },
     {

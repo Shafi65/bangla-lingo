@@ -7,24 +7,6 @@
   "vocab": [],
   "exercises": [
     {
-      "id": "e01",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "আমি এখনো খাইনি।",
-        "tr": "ami ekhono khaini.",
-        "en": "I haven't eaten yet."
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "I haven't eaten yet.",
-        "I have already eaten.",
-        "I don't eat.",
-        "I'm still eating."
-      ],
-      "answer": 0,
-      "why": "-নি joins the present form (খাই) but means 'didn't / haven't'."
-    },
-    {
       "id": "e02",
       "type": "listen_select",
       "audio": {
@@ -40,6 +22,24 @@
       ],
       "answer": 1,
       "why": "তুমি: খাও + -নি = খাওনি."
+    },
+    {
+      "id": "e01",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আমি এখনো খাইনি।",
+        "tr": "ami ekhono khaini.",
+        "en": "I haven't eaten yet."
+      },
+      "blank": "খাইনি",
+      "options": [
+        "খাই",
+        "খেলাম",
+        "খাওনি",
+        "খাইনি"
+      ],
+      "answer": 3,
+      "why": "'Haven't … yet' = এখনো + **-নি**: খাইনি."
     },
     {
       "id": "e03",
@@ -140,34 +140,53 @@
     },
     {
       "id": "e07",
-      "type": "match_pairs",
-      "pairs": [
+      "type": "reading",
+      "title": "Yesterday",
+      "lines": [
         {
-          "bn": "উঠলাম",
-          "tr": "uthlam",
-          "en": "I got up"
+          "speaker": "Mina",
+          "bn": "তুমি গতকাল কোথায় ছিলে?",
+          "tr": "tumi gotokal kothay chhile?",
+          "en": "Where were you yesterday?"
         },
         {
-          "bn": "বন্ধুর",
-          "tr": "bondhur",
-          "en": "friend's"
+          "speaker": "Rafi",
+          "bn": "আমি বন্ধুর সাথে বাজারে গেলাম।",
+          "tr": "ami bondhur shathe bajare gelam.",
+          "en": "I went to the market with a friend."
         },
         {
-          "bn": "সাথে",
-          "tr": "shathe",
-          "en": "with"
+          "speaker": "Mina",
+          "bn": "তোমরা কী করলে?",
+          "tr": "tomra ki korle?",
+          "en": "What did you two do?"
         },
         {
-          "bn": "দিনটা",
-          "tr": "dinta",
-          "en": "the day"
+          "speaker": "Rafi",
+          "bn": "আমরা চা খেলাম আর কথা বললাম।",
+          "tr": "amra cha khelam ar kotha bollam.",
+          "en": "We had tea and talked."
         },
         {
-          "bn": "কথা",
-          "tr": "kotha",
-          "en": "talk"
+          "speaker": "Mina",
+          "bn": "দিনটা কেমন ছিল?",
+          "tr": "dinta kemon chhilo?",
+          "en": "How was the day?"
+        },
+        {
+          "speaker": "Rafi",
+          "bn": "খুব ভালো ছিল।",
+          "tr": "khub bhalo chhilo.",
+          "en": "It was very good."
         }
-      ]
+      ],
+      "question": "What did Rafi and his friend do at the market?",
+      "options": [
+        "They had tea and talked",
+        "They bought a sari",
+        "They watched a film"
+      ],
+      "answer": 0
     },
     {
       "id": "e08",
@@ -220,55 +239,19 @@
     },
     {
       "id": "e10",
-      "type": "word_bank",
-      "prompt": {
+      "type": "listen_meaning",
+      "audio": {
         "bn": "সে গত সপ্তাহে ঢাকায় ছিল, তাই সে আসেনি।",
         "tr": "she goto shoptahe dhakay chhilo, tai she asheni.",
         "en": "He was in Dhaka last week, so he didn't come."
       },
-      "direction": "bn_to_en",
-      "tiles": [
-        "He",
-        "was",
-        "in",
-        "Dhaka",
-        "last",
-        "week",
-        "so",
-        "he",
-        "didn't",
-        "come",
-        "because",
-        "is",
-        "came"
+      "options": [
+        "He was in Dhaka last week, so he came.",
+        "He was in Dhaka last week, so he didn't come.",
+        "I was in Dhaka last week, so I didn't come.",
+        "He is in Dhaka now, so he can't come."
       ],
-      "answer": [
-        "He",
-        "was",
-        "in",
-        "Dhaka",
-        "last",
-        "week",
-        "so",
-        "he",
-        "didn't",
-        "come"
-      ],
-      "alt": [
-        [
-          "last",
-          "week",
-          "He",
-          "was",
-          "in",
-          "Dhaka",
-          "so",
-          "he",
-          "didn't",
-          "come"
-        ]
-      ],
-      "why": "তাই 'so' introduces the result; আসেনি = 'didn't come'."
+      "answer": 1
     },
     {
       "id": "e11",
@@ -378,20 +361,14 @@
       "id": "e15",
       "type": "type_translation",
       "prompt": {
-        "bn": "সে তার মায়ের মতো, কিন্তু আমি আমার বাবার মতো।",
-        "tr": "she tar mayer moto, kintu ami amar babar moto.",
-        "en": "She is like her mother, but I am like my father."
+        "bn": "সে তার মায়ের মতো।",
+        "tr": "she tar mayer moto.",
+        "en": "She is like her mother."
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "accepted": [
-        "She is like her mother, but I am like my father.",
-        "He is like his mother, but I am like my father.",
-        "She's like her mother, but I'm like my father.",
-        "He's like his mother, but I'm like my father.",
-        "She is like her mom, but I am like my dad.",
-        "He is like his mom, but I am like my dad.",
-        "She's like her mom, but I'm like my dad.",
-        "He's like his mom, but I'm like my dad."
+        "সে তার মায়ের মতো।",
+        "she tar mayer moto"
       ]
     },
     {

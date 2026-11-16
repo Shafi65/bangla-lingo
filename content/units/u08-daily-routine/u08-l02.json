@@ -191,22 +191,6 @@
       "answer": 3
     },
     {
-      "id": "e08",
-      "type": "listen_select",
-      "audio": {
-        "bn": "আটটায়",
-        "tr": "attay",
-        "en": "at eight o'clock"
-      },
-      "options": [
-        "দশটায়",
-        "আট",
-        "আটটায়",
-        "সাতটায়"
-      ],
-      "answer": 2
-    },
-    {
       "id": "e09",
       "type": "match_pairs",
       "pairs": [
@@ -270,6 +254,24 @@
           "উঠি"
         ]
       ]
+    },
+    {
+      "id": "e08",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আমি সকাল সাতটায় ঘুম থেকে উঠি।",
+        "tr": "ami shokal shattay ghum theke uthi.",
+        "en": "I wake up at seven in the morning."
+      },
+      "blank": "সাতটায়",
+      "accepted": [
+        "সাতটায়",
+        "shattay",
+        "sattay",
+        "shat tay",
+        "৭টায়"
+      ],
+      "why": "'At seven' = সাত + **-টায়**: সাতটায়."
     },
     {
       "id": "e11",
@@ -341,32 +343,19 @@
     },
     {
       "id": "e13",
-      "type": "word_bank",
-      "prompt": {
-        "bn": "আমি রাত দশটায় ঘুমাই।",
-        "tr": "ami rat doshtay ghumai.",
-        "en": "I sleep at ten at night."
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "সে রাতে গোসল করে।",
+        "tr": "she rate gosol kore.",
+        "en": "She bathes at night."
       },
-      "direction": "bn_to_en",
-      "tiles": [
-        "morning",
-        "I",
-        "at",
-        "seven",
-        "sleep",
-        "in",
-        "ten",
-        "at",
-        "night"
+      "options": [
+        "She bathes in the morning.",
+        "She bathes at night.",
+        "I bathe at night.",
+        "She sleeps at night."
       ],
-      "answer": [
-        "I",
-        "sleep",
-        "at",
-        "ten",
-        "at",
-        "night"
-      ]
+      "answer": 1
     },
     {
       "id": "e14",
@@ -374,19 +363,16 @@
       "prompt": {
         "bn": "আপনি কয়টায় ঘুমান?",
         "tr": "apni koytay ghuman?",
-        "en": "What time do you go to bed?"
+        "en": "What time do you go to bed? (polite)"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "accepted": [
-        "What time do you go to bed?",
-        "What time do you sleep?",
-        "What time do you go to sleep?",
-        "At what time do you go to bed?",
-        "At what time do you sleep?",
-        "At what time do you go to sleep?",
-        "When do you go to bed?",
-        "When do you sleep?",
-        "When do you go to sleep?"
+        "আপনি কয়টায় ঘুমান?",
+        "কয়টায় ঘুমান?",
+        "apni koytay ghuman",
+        "koytay ghuman",
+        "apni koitay ghuman",
+        "apni koy tay ghuman"
       ]
     },
     {

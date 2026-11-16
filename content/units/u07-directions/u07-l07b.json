@@ -138,34 +138,47 @@
     },
     {
       "id": "e07",
-      "type": "match_pairs",
-      "pairs": [
+      "type": "reading",
+      "title": "A rickshaw ride",
+      "lines": [
         {
-          "bn": "ভাড়া",
-          "tr": "bhara",
-          "en": "fare"
+          "speaker": "Rafi",
+          "bn": "মামা, ধানমন্ডি যাবেন?",
+          "tr": "mama, dhanmondi jaben?",
+          "en": "Mama, will you go to Dhanmondi?"
         },
         {
-          "bn": "টিকিট",
-          "tr": "tikit",
-          "en": "ticket"
+          "speaker": "Driver",
+          "bn": "যাব। ভাড়া একশ টাকা।",
+          "tr": "jabo. bhara eksho taka.",
+          "en": "I'll go. The fare is a hundred taka."
         },
         {
-          "bn": "কতদূর",
-          "tr": "kotodur",
-          "en": "how far"
+          "speaker": "Rafi",
+          "bn": "এত ভাড়া কেন? পঞ্চাশ টাকা রাখেন।",
+          "tr": "eto bhara keno? ponchash taka rakhen.",
+          "en": "Why such a high fare? Make it fifty taka."
         },
         {
-          "bn": "পর্যন্ত",
-          "tr": "porjonto",
-          "en": "to"
+          "speaker": "Driver",
+          "bn": "ঠিক আছে, সত্তর টাকা।",
+          "tr": "thik achhe, shottor taka.",
+          "en": "OK, seventy taka."
         },
         {
-          "bn": "দিয়ে",
-          "tr": "diye",
-          "en": "along"
+          "speaker": "Rafi",
+          "bn": "ঠিক আছে। মোড়ে ডানে যান।",
+          "tr": "thik achhe. more dane jan.",
+          "en": "OK. Turn right at the intersection."
         }
-      ]
+      ],
+      "question": "What fare do Rafi and the driver agree on?",
+      "options": [
+        "A hundred taka",
+        "Fifty taka",
+        "Seventy taka"
+      ],
+      "answer": 2
     },
     {
       "id": "e08",
@@ -261,96 +274,57 @@
     },
     {
       "id": "e12",
-      "type": "word_bank",
-      "prompt": {
+      "type": "listen_meaning",
+      "audio": {
         "bn": "তুমি কি বাসে যাবে, না ট্রেনে?",
         "tr": "tumi ki base jabe, na trene?",
         "en": "Will you go by bus or by train?"
       },
-      "direction": "bn_to_en",
-      "tiles": [
-        "or",
-        "by",
-        "car",
-        "bus",
-        "go",
-        "station",
-        "Will",
-        "you",
-        "by",
-        "train",
-        "I"
+      "options": [
+        "Will you go by bus or by train?",
+        "Will you go by bus or by car?",
+        "Did you go by bus or by train?",
+        "Will we go by bus or by train?"
       ],
-      "answer": [
-        "Will",
-        "you",
-        "go",
-        "by",
-        "bus",
-        "or",
-        "by",
-        "train"
-      ],
-      "alt": [
-        [
-          "Will",
-          "you",
-          "go",
-          "by",
-          "bus",
-          "or",
-          "train"
-        ]
-      ]
+      "answer": 0,
+      "why": "Spoken **না** between two choices means 'or'."
     },
     {
       "id": "e13",
-      "type": "word_bank",
+      "type": "type_translation",
       "prompt": {
         "bn": "ঢাকা থেকে সিলেট পর্যন্ত ভাড়া কত?",
         "tr": "dhaka theke shilet porjonto bhara koto?",
         "en": "What's the fare from Dhaka to Sylhet?"
       },
-      "direction": "bn_to_en",
-      "tiles": [
-        "the",
-        "ticket",
-        "from",
-        "to",
-        "Dhaka",
-        "Sylhet",
-        "fare",
-        "What's",
-        "by",
-        "far"
-      ],
-      "answer": [
-        "What's",
-        "the",
-        "fare",
-        "from",
-        "Dhaka",
-        "to",
-        "Sylhet"
+      "direction": "en_to_bn",
+      "accepted": [
+        "ঢাকা থেকে সিলেট পর্যন্ত ভাড়া কত?",
+        "ঢাকা থেকে সিলেট ভাড়া কত?",
+        "ঢাকা থেকে সিলেটের ভাড়া কত?",
+        "dhaka theke shilet porjonto bhara koto",
+        "dhaka theke shilet bhara koto",
+        "dhaka theke silet porjonto bhara koto",
+        "dhaka theke shilet porjonto vara koto",
+        "dhaka theke shileter bhara koto"
       ]
     },
     {
       "id": "e14",
-      "type": "type_translation",
-      "prompt": {
+      "type": "fill_blank",
+      "sentence": {
         "bn": "আমার একটা সিএনজি লাগবে।",
         "tr": "amar ekta si-en-ji lagbe.",
         "en": "I need a CNG."
       },
-      "direction": "bn_to_en",
-      "accepted": [
-        "I need a CNG.",
-        "I need an auto-rickshaw.",
-        "I need a CNG auto-rickshaw.",
-        "I need one CNG.",
-        "I'll need a CNG.",
-        "I will need a CNG."
-      ]
+      "blank": "আমার",
+      "options": [
+        "আমি",
+        "আমার",
+        "আমাকে"
+      ],
+      "answer": 1,
+      "why": "লাগবে 'will be needed' takes the owner form: **আমার** … লাগবে."
     },
     {
       "id": "e15",

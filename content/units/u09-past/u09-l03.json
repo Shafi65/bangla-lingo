@@ -177,23 +177,6 @@
       "answer": 0
     },
     {
-      "id": "e08",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "নিলাম",
-        "tr": "nilam",
-        "en": "I took"
-      },
-      "direction": "bn_to_en",
-      "options": [
-        "I gave",
-        "I came",
-        "I took",
-        "I ate"
-      ],
-      "answer": 2
-    },
-    {
       "id": "e09",
       "type": "match_pairs",
       "pairs": [
@@ -223,6 +206,23 @@
           "en": "I took"
         }
       ]
+    },
+    {
+      "id": "e08",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "তুমি কখন এলে?",
+        "tr": "tumi kokhon ele?",
+        "en": "When did you come? (familiar)"
+      },
+      "blank": "এলে",
+      "options": [
+        "এলাম",
+        "এলে",
+        "গেল"
+      ],
+      "answer": 1,
+      "why": "তুমি takes **-লে**: এলে 'you came'. এলাম = I came."
     },
     {
       "id": "e10",
@@ -260,36 +260,19 @@
     },
     {
       "id": "e11",
-      "type": "word_bank",
-      "prompt": {
-        "bn": "তুমি কখন এলে?",
-        "tr": "tumi kokhon ele?",
-        "en": "When did you come?"
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "আমি গতকাল বাজারে গেলাম।",
+        "tr": "ami gotokal bajare gelam.",
+        "en": "I went to the market yesterday."
       },
-      "direction": "bn_to_en",
-      "tiles": [
-        "go",
-        "When",
-        "you",
-        "Where",
-        "arrive",
-        "did",
-        "come"
+      "options": [
+        "I go to the market every day.",
+        "He went to the market yesterday.",
+        "I came from the market yesterday.",
+        "I went to the market yesterday."
       ],
-      "answer": [
-        "When",
-        "did",
-        "you",
-        "come"
-      ],
-      "alt": [
-        [
-          "When",
-          "did",
-          "you",
-          "arrive"
-        ]
-      ]
+      "answer": 3
     },
     {
       "id": "e12",
@@ -372,15 +355,15 @@
         "tr": "ami bhat ar machh khelam.",
         "en": "I ate rice and fish."
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "accepted": [
-        "I ate rice and fish.",
-        "I had rice and fish.",
-        "I ate fish and rice.",
-        "I had fish and rice.",
-        "I ate rice and a fish.",
-        "I ate rice with fish.",
-        "I had rice with fish."
+        "আমি ভাত আর মাছ খেলাম।",
+        "আমি মাছ আর ভাত খেলাম।",
+        "ভাত আর মাছ খেলাম।",
+        "ami bhat ar machh khelam",
+        "ami machh ar bhat khelam",
+        "bhat ar machh khelam",
+        "ami bhat ar mach khelam"
       ]
     },
     {
