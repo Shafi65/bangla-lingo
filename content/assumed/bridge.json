@@ -2,160 +2,12 @@
   "name": "bridge",
   "entries": [
     {
-      "id": "korbo",
-      "bn": "করব",
-      "tr": "korbo",
-      "en": "I will do",
-      "pos": "verb"
-    },
-    {
-      "id": "korbi",
-      "bn": "করবি",
-      "tr": "korbi",
-      "en": "you will do (intimate)",
-      "pos": "verb"
-    },
-    {
-      "id": "korbe",
-      "bn": "করবে",
-      "tr": "korbe",
-      "en": "you (familiar) / he, she will do",
-      "pos": "verb",
-      "notes": "Same form for তুমি and সে."
-    },
-    {
-      "id": "korben",
-      "bn": "করবেন",
-      "tr": "korben",
-      "en": "you (polite) / he, she (polite) will do",
-      "pos": "verb"
-    },
-    {
-      "id": "jabi",
-      "bn": "যাবি",
-      "tr": "jabi",
-      "en": "you will go (intimate)",
-      "pos": "verb"
-    },
-    {
-      "id": "khabo",
-      "bn": "খাব",
-      "tr": "khabo",
-      "en": "I will eat",
-      "pos": "verb"
-    },
-    {
-      "id": "khabe",
-      "bn": "খাবে",
-      "tr": "khabe",
-      "en": "you (familiar) / he, she will eat",
-      "pos": "verb"
-    },
-    {
-      "id": "ashbo",
-      "bn": "আসব",
-      "tr": "ashbo",
-      "en": "I will come",
-      "pos": "verb"
-    },
-    {
-      "id": "dekhbo",
-      "bn": "দেখব",
-      "tr": "dekhbo",
-      "en": "I will see",
-      "pos": "verb"
-    },
-    {
-      "id": "dekhbe",
-      "bn": "দেখবে",
-      "tr": "dekhbe",
-      "en": "you (familiar) / he, she will see",
-      "pos": "verb"
-    },
-    {
-      "id": "dekhben",
-      "bn": "দেখবেন",
-      "tr": "dekhben",
-      "en": "you (polite) will see",
-      "pos": "verb"
-    },
-    {
-      "id": "bolbo",
-      "bn": "বলব",
-      "tr": "bolbo",
-      "en": "I will say",
-      "pos": "verb"
-    },
-    {
-      "id": "bolbe",
-      "bn": "বলবে",
-      "tr": "bolbe",
-      "en": "you (familiar) / he, she will say",
-      "pos": "verb"
-    },
-    {
-      "id": "bolben",
-      "bn": "বলবেন",
-      "tr": "bolben",
-      "en": "you (polite) will say",
-      "pos": "verb"
-    },
-    {
-      "id": "thakbo",
-      "bn": "থাকব",
-      "tr": "thakbo",
-      "en": "I will stay",
-      "pos": "verb",
-      "alt": [
-        "I will live",
-        "I will be (there)"
-      ]
-    },
-    {
-      "id": "thakbe",
-      "bn": "থাকবে",
-      "tr": "thakbe",
-      "en": "you (familiar) / he, she will stay",
-      "pos": "verb"
-    },
-    {
-      "id": "thakben",
-      "bn": "থাকবেন",
-      "tr": "thakben",
-      "en": "you (polite) will stay",
-      "pos": "verb"
-    },
-    {
-      "id": "debo",
-      "bn": "দেব",
-      "tr": "debo",
-      "en": "I will give",
-      "pos": "verb",
-      "notes": "BD colloquial দিব (dibo); accept both."
-    },
-    {
       "id": "debe",
       "bn": "দেবে",
       "tr": "debe",
       "en": "you (familiar) / he, she will give",
       "pos": "verb",
       "notes": "BD colloquial দিবে."
-    },
-    {
-      "id": "deben",
-      "bn": "দেবেন",
-      "tr": "deben",
-      "en": "you (polite) will give",
-      "pos": "verb",
-      "notes": "BD colloquial দিবেন."
-    },
-    {
-      "id": "nebo",
-      "bn": "নেব",
-      "tr": "nebo",
-      "en": "I will take",
-      "pos": "verb",
-      "notes": "BD colloquial নিব (nibo)."
     },
     {
       "id": "neben",
@@ -827,14 +679,6 @@
       "pos": "verb"
     },
     {
-      "id": "dekhte",
-      "bn": "দেখতে",
-      "tr": "dekhte",
-      "en": "to see",
-      "pos": "verb",
-      "notes": "দেখতে + adjective = 'looks …' (দেখতে সুন্দর)."
-    },
-    {
       "id": "shikhte",
       "bn": "শিখতে",
       "tr": "shikhte",
@@ -974,13 +818,6 @@
       "pos": "phrase"
     },
     {
-      "id": "tomake",
-      "bn": "তোমাকে",
-      "tr": "tomake",
-      "en": "you (familiar, object)",
-      "pos": "pronoun"
-    },
-    {
       "id": "toke",
       "bn": "তোকে",
       "tr": "toke",
@@ -1047,13 +884,6 @@
       ]
     },
     {
-      "id": "kar",
-      "bn": "কার",
-      "tr": "kar",
-      "en": "whose",
-      "pos": "pronoun"
-    },
-    {
       "id": "kake",
       "bn": "কাকে",
       "tr": "kake",
@@ -1072,13 +902,6 @@
       "bn": "কীভাবে",
       "tr": "kibhabe",
       "en": "how (in what way)",
-      "pos": "adv"
-    },
-    {
-      "id": "kobe",
-      "bn": "কবে",
-      "tr": "kobe",
-      "en": "when (on what day)",
       "pos": "adv"
     },
     {
@@ -1160,33 +983,11 @@
       "pos": "adv"
     },
     {
-      "id": "agamikal",
-      "bn": "আগামীকাল",
-      "tr": "agamikal",
-      "en": "tomorrow",
-      "pos": "adv"
-    },
-    {
-      "id": "agami",
-      "bn": "আগামী",
-      "tr": "agami",
-      "en": "next (coming)",
-      "pos": "adj"
-    },
-    {
       "id": "goto",
       "bn": "গত",
       "tr": "goto",
       "en": "last (past)",
       "pos": "adj"
-    },
-    {
-      "id": "shamner",
-      "bn": "সামনের",
-      "tr": "shamner",
-      "en": "next (coming)",
-      "pos": "adj",
-      "notes": "সামনের সপ্তাহে 'next week' (spoken)."
     },
     {
       "id": "porer",
@@ -1316,13 +1117,6 @@
       "bn": "নোংরা",
       "tr": "nongra",
       "en": "dirty",
-      "pos": "adj"
-    },
-    {
-      "id": "byasto",
-      "bn": "ব্যস্ত",
-      "tr": "byasto",
-      "en": "busy",
       "pos": "adj"
     },
     {

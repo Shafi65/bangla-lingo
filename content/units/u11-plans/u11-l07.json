@@ -1,0 +1,355 @@
+{
+  "id": "u11-l07",
+  "unit": "u11-plans",
+  "title": "Let's make plans",
+  "status": "draft",
+  "tip": "**Making plans together.**\n\n- 'Let's…' = **চল / চলো / চলেন** + the আমি present: **চলো, বেড়াতে যাই** 'Let's go out'.\n- Invite with a future question: **তুমি কি আমাদের সাথে যাবে?** 'Will you come with us?' To an elder: **আপনি কি … আসবেন?**\n- Purpose with **-তে**: **ছবি দেখতে যাব** 'I'll go to see a film', **খেতে যাই** 'let's go and eat'.\n\nAccept with **অবশ্যই আসব** 'Of course I'll come'. No আমি needed: -ব already says 'I'.\n\nMuslim speakers often add **ইনশাআল্লাহ** 'God willing' to a plan: **ইনশাআল্লাহ, আমি আসব।** Hindu speakers don't use it; a plain future is fine for everyone.",
+  "vocab": [
+    {
+      "id": "inshaallah",
+      "bn": "ইনশাআল্লাহ",
+      "tr": "inshaallah",
+      "en": "God willing",
+      "notes": "Muslim speakers add it to plans: ইনশাআল্লাহ, আমি আসব. Also written ইনশাল্লাহ. Hindu speakers don't use it."
+    },
+    {
+      "id": "berate",
+      "bn": "বেড়াতে",
+      "tr": "berate",
+      "en": "to go out (on a visit or trip)",
+      "notes": "With যাওয়া: বেড়াতে যাব 'I'll go out / go on a trip / go visiting'."
+    },
+    {
+      "id": "dekhte",
+      "bn": "দেখতে",
+      "tr": "dekhte",
+      "en": "to see",
+      "notes": "-তে + a verb of motion gives purpose: ছবি দেখতে যাব 'I'll go to see a film'."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "চলো, শুক্রবার বেড়াতে যাই।",
+        "tr": "cholo, shukrobar berate jai.",
+        "en": "Let's go out on Friday.",
+        "alt": [
+          "Let's go on an outing on Friday."
+        ]
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "Let's go to the market on Friday.",
+        "Let's go out on Friday.",
+        "I will go out on Friday.",
+        "We went out on Friday."
+      ],
+      "answer": 1,
+      "why": "**চলো** + the আমি present (**যাই**) = 'let's…'."
+    },
+    {
+      "id": "e02",
+      "type": "listen_select",
+      "audio": {
+        "bn": "ইনশাআল্লাহ",
+        "tr": "inshaallah",
+        "en": "God willing"
+      },
+      "options": [
+        "আসসালামু আলাইকুম",
+        "আলহামদুলিল্লাহ",
+        "ধন্যবাদ",
+        "ইনশাআল্লাহ"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ইনশাআল্লাহ, আমি আসব।",
+        "tr": "inshaallah, ami ashbo.",
+        "en": "God willing, I'll come."
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "God willing, I'll come.",
+        "I won't come.",
+        "Please come.",
+        "Thank God, I came."
+      ],
+      "answer": 0,
+      "why": "**আসব** is future 'I will come'; **ইনশাআল্লাহ** = 'God willing'."
+    },
+    {
+      "id": "e04",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আমরা কাল ছবি দেখতে যাব।",
+        "tr": "amra kal chhobi dekhte jabo.",
+        "en": "We will go to see a film tomorrow.",
+        "alt": [
+          "Tomorrow we'll go to see a movie."
+        ]
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "Let's go to the fair tomorrow.",
+        "We will watch TV tomorrow.",
+        "We will go to see a film tomorrow.",
+        "We saw a film yesterday."
+      ],
+      "answer": 2,
+      "why": "**দেখতে** 'to see' + **যাব** = 'will go to see'."
+    },
+    {
+      "id": "e05",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "তুমি কি কাল আমাদের বাসায় আসবে?",
+        "tr": "tumi ki kal amader bashay ashbe?",
+        "en": "Will you come to our home tomorrow?",
+        "alt": [
+          "Will you come to our place tomorrow?"
+        ]
+      },
+      "options": [
+        "Will you go home tomorrow?",
+        "Will we come to your home tomorrow?",
+        "Did you come to our home yesterday?",
+        "Will you come to our home tomorrow?"
+      ],
+      "answer": 3,
+      "why": "**আসবে** 'will you come'; **আমাদের বাসায়** 'to our home'."
+    },
+    {
+      "id": "e06",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "চলো",
+          "tr": "cholo",
+          "en": "let's (familiar)"
+        },
+        {
+          "bn": "চলেন",
+          "tr": "cholen",
+          "en": "let's (polite)"
+        },
+        {
+          "bn": "বেড়াতে",
+          "tr": "berate",
+          "en": "to go out"
+        },
+        {
+          "bn": "দেখতে",
+          "tr": "dekhte",
+          "en": "to see"
+        },
+        {
+          "bn": "ইনশাআল্লাহ",
+          "tr": "inshaallah",
+          "en": "God willing"
+        }
+      ]
+    },
+    {
+      "id": "e07",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "দোস্ত, কাল মেলায় যাবি?",
+        "tr": "dost, kal melay jabi?",
+        "en": "Buddy, will you go to the fair tomorrow?",
+        "alt": [
+          "Mate, are you going to the fair tomorrow?"
+        ]
+      },
+      "options": [
+        "Buddy, let's go to the fair today.",
+        "Buddy, did you go to the fair?",
+        "Buddy, will you go to the fair tomorrow?",
+        "Buddy, I'll go to the fair tomorrow."
+      ],
+      "answer": 2,
+      "why": "**যাবি** is the তুই future 'will you go'."
+    },
+    {
+      "id": "e08",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "চলেন, খেতে যাই।",
+        "tr": "cholen, khete jai.",
+        "en": "Let's go and eat. (polite)",
+        "alt": [
+          "Shall we go and eat?"
+        ]
+      },
+      "blank": "চলেন",
+      "options": [
+        "চলো",
+        "চলেন",
+        "যান",
+        "চল"
+      ],
+      "answer": 1,
+      "why": "With **আপনি**, 'let's' is **চলেন** (চলো for তুমি, চল for তুই)."
+    },
+    {
+      "id": "e09",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "অবশ্যই আসব।",
+        "tr": "oboshshoi ashbo.",
+        "en": "Of course I'll come."
+      },
+      "blank": "আসব",
+      "options": [
+        "আসব",
+        "আসবেন",
+        "আসবে",
+        "আসলাম"
+      ],
+      "answer": 0,
+      "why": "No subject needed: the **-ব** ending already says 'I will'."
+    },
+    {
+      "id": "e10",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "তুমি কি আমাদের সাথে যাবে?",
+        "tr": "tumi ki amader shathe jabe?",
+        "en": "Will you go with us? (familiar)"
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "যাবেন",
+        "তুমি",
+        "কি",
+        "সাথে",
+        "আমার",
+        "যাব",
+        "যাবে",
+        "আমাদের"
+      ],
+      "answer": [
+        "তুমি",
+        "কি",
+        "আমাদের",
+        "সাথে",
+        "যাবে"
+      ],
+      "alt": [
+        [
+          "তুমি",
+          "আমাদের",
+          "সাথে",
+          "যাবে"
+        ],
+        [
+          "আমাদের",
+          "সাথে",
+          "যাবে"
+        ]
+      ],
+      "why": "Familiar **তুমি** → **যাবে**; 'with us' = **আমাদের সাথে**."
+    },
+    {
+      "id": "e11",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "ঠিক আছে, কাল দেখা হবে।",
+        "tr": "thik achhe, kal dekha hobe.",
+        "en": "OK, see you tomorrow."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "you",
+        "again",
+        "see",
+        "tomorrow",
+        "saw",
+        "yesterday",
+        "OK"
+      ],
+      "answer": [
+        "OK",
+        "see",
+        "you",
+        "tomorrow"
+      ],
+      "why": "**দেখা হবে** '(we) will meet' = 'see you'."
+    },
+    {
+      "id": "e12",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আপনি কি কাল আমাদের বাসায় আসবেন?",
+        "tr": "apni ki kal amader bashay ashben?",
+        "en": "Will you come to our home tomorrow? (polite)"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "আপনি কি কাল আমাদের বাসায় আসবেন?",
+        "আমরা কি কাল আপনার বাসায় আসব?",
+        "আপনি কি কাল আমাদের বাসায় এসেছেন?",
+        "তুমি কি কাল আমাদের বাসায় আসবে?"
+      ],
+      "answer": 0,
+      "why": "Inviting an elder: polite **আপনি** + **আসবেন**."
+    },
+    {
+      "id": "e13",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "ইনশাআল্লাহ, আমি আসব।",
+        "tr": "inshaallah, ami ashbo.",
+        "en": "God willing, I'll come."
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "ইনশাআল্লাহ আমি আসব",
+        "ইনশাআল্লাহ আমি আসবো",
+        "ইনশাআল্লাহ আসব",
+        "ইনশাআল্লাহ আসবো",
+        "ইনশাল্লাহ আমি আসব",
+        "ইনশাল্লাহ আমি আসবো",
+        "ইনশাল্লাহ আসব",
+        "ইনশাল্লাহ আসবো",
+        "আমি আসব ইনশাআল্লাহ",
+        "আমি আসবো ইনশাআল্লাহ",
+        "inshaallah ami ashbo",
+        "insaallah ami asbo",
+        "inshaallah ashbo",
+        "insaallah asbo",
+        "inshallah ami ashbo",
+        "insallah ami asbo",
+        "inshallah ashbo",
+        "insallah asbo",
+        "ami ashbo inshaallah",
+        "ami asbo insaallah",
+        "insha allah ami ashbo",
+        "inshallah ami asbo"
+      ],
+      "why": "**আসব** 'I will come'."
+    },
+    {
+      "id": "e14",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "চলো, মেলায় যাই।",
+        "tr": "cholo, melay jai.",
+        "en": "Let's go to the fair. (familiar)"
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "চলো মেলায় যাই",
+        "চলো আমরা মেলায় যাই",
+        "cholo melay jai",
+        "cholo amra melay jai"
+      ],
+      "why": "**চলো** (তুমি) + the আমি present **যাই** = 'let's go'."
+    }
+  ]
+}

@@ -1,0 +1,564 @@
+{
+  "unit": "u11-plans",
+  "entries": [
+    {
+      "id": "agamikal",
+      "bn": "আগামীকাল",
+      "tr": "agamikal",
+      "en": "tomorrow",
+      "pos": "adv",
+      "lesson": "u11-l01",
+      "notes": "Always 'tomorrow'. Plain কাল can mean 'tomorrow' or 'yesterday'; the verb decides."
+    },
+    {
+      "id": "porshu",
+      "bn": "পরশু",
+      "tr": "porshu",
+      "en": "the day after tomorrow",
+      "alt": [
+        "day after tomorrow"
+      ],
+      "pos": "adv",
+      "lesson": "u11-l01",
+      "notes": "With a past verb it means 'the day before yesterday', just as কাল is 'tomorrow' or 'yesterday'."
+    },
+    {
+      "id": "agami",
+      "bn": "আগামী",
+      "tr": "agami",
+      "en": "next",
+      "alt": [
+        "coming",
+        "next (coming)"
+      ],
+      "pos": "adj",
+      "lesson": "u11-l01",
+      "notes": "আগামী সপ্তাহে 'next week', আগামী বছর 'next year'. A little more formal than সামনের. In Kolkata you also hear আসছে সপ্তাহে."
+    },
+    {
+      "id": "shamner",
+      "bn": "সামনের",
+      "tr": "shamner",
+      "en": "next (spoken)",
+      "alt": [
+        "next",
+        "coming"
+      ],
+      "pos": "adj",
+      "lesson": "u11-l01",
+      "notes": "Literally 'of the front' (সামনে + -এর). Everyday word for 'next': সামনের মাসে 'next month'."
+    },
+    {
+      "id": "mashe",
+      "bn": "মাসে",
+      "tr": "mashe",
+      "en": "in the month",
+      "alt": [
+        "month",
+        "in a month",
+        "a month"
+      ],
+      "pos": "adv",
+      "lesson": "u11-l01",
+      "notes": "মাস + -এ: আগামী মাসে 'next month'."
+    },
+    {
+      "id": "dekha-hobe",
+      "bn": "দেখা হবে",
+      "tr": "dekha hobe",
+      "en": "(we) will meet",
+      "alt": [
+        "see you",
+        "we'll meet",
+        "we will meet"
+      ],
+      "pos": "phrase",
+      "lesson": "u11-l01",
+      "notes": "কাল দেখা হবে 'See you tomorrow'. You know it from আবার দেখা হবে."
+    },
+    {
+      "id": "korbo",
+      "bn": "করব",
+      "tr": "korbo",
+      "en": "I will do",
+      "alt": [
+        "I'll do",
+        "we will do",
+        "will do"
+      ],
+      "pos": "verb",
+      "lesson": "u11-l02",
+      "notes": "Future of করা for আমি / আমরা. Also spelled করবো."
+    },
+    {
+      "id": "khabo",
+      "bn": "খাব",
+      "tr": "khabo",
+      "en": "I will eat",
+      "alt": [
+        "I'll eat",
+        "I'll have",
+        "we will eat",
+        "will eat"
+      ],
+      "pos": "verb",
+      "lesson": "u11-l02",
+      "notes": "Also spelled খাবো."
+    },
+    {
+      "id": "ashbo",
+      "bn": "আসব",
+      "tr": "ashbo",
+      "en": "I will come",
+      "alt": [
+        "I'll come",
+        "we will come",
+        "will come"
+      ],
+      "pos": "verb",
+      "lesson": "u11-l02",
+      "notes": "Also spelled আসবো."
+    },
+    {
+      "id": "dekhbo",
+      "bn": "দেখব",
+      "tr": "dekhbo",
+      "en": "I will see",
+      "alt": [
+        "I will watch",
+        "I'll watch",
+        "I'll see",
+        "we will watch"
+      ],
+      "pos": "verb",
+      "lesson": "u11-l02",
+      "notes": "Also spelled দেখবো."
+    },
+    {
+      "id": "porbo",
+      "bn": "পড়ব",
+      "tr": "porbo",
+      "en": "I will read",
+      "alt": [
+        "I will study",
+        "I'll read",
+        "I'll study",
+        "we will read"
+      ],
+      "pos": "verb",
+      "lesson": "u11-l02",
+      "notes": "Also spelled পড়বো."
+    },
+    {
+      "id": "thakbo",
+      "bn": "থাকব",
+      "tr": "thakbo",
+      "en": "I will stay",
+      "alt": [
+        "I will be",
+        "I'll stay",
+        "I'll be",
+        "we will stay"
+      ],
+      "pos": "verb",
+      "lesson": "u11-l02",
+      "notes": "'I'll stay / I'll be (somewhere, or in a state)': আমি ঢাকায় থাকব. Also spelled থাকবো."
+    },
+    {
+      "id": "ghumabo",
+      "bn": "ঘুমাব",
+      "tr": "ghumabo",
+      "en": "I will sleep",
+      "alt": [
+        "I'll sleep",
+        "I'll go to sleep",
+        "we will sleep"
+      ],
+      "pos": "verb",
+      "lesson": "u11-l02",
+      "notes": "Also spelled ঘুমাবো.",
+      "kolkata": {
+        "bn": "ঘুমোব",
+        "tr": "ghumobo"
+      }
+    },
+    {
+      "id": "bolbo",
+      "bn": "বলব",
+      "tr": "bolbo",
+      "en": "I will say",
+      "alt": [
+        "I will tell",
+        "I'll tell",
+        "I'll say",
+        "we will tell"
+      ],
+      "pos": "verb",
+      "lesson": "u11-l02",
+      "notes": "Also spelled বলবো."
+    },
+    {
+      "id": "korbe",
+      "bn": "করবে",
+      "tr": "korbe",
+      "en": "you (familiar) / he, she will do",
+      "alt": [
+        "will do",
+        "you will do",
+        "he will do",
+        "she will do"
+      ],
+      "pos": "verb",
+      "lesson": "u11-l03",
+      "notes": "Future for তুমি and for সে / ও / তারা. Don't confuse with করলে 'you did'."
+    },
+    {
+      "id": "korben",
+      "bn": "করবেন",
+      "tr": "korben",
+      "en": "you (polite) / he, she (polite) will do",
+      "alt": [
+        "will do",
+        "you will do"
+      ],
+      "pos": "verb",
+      "lesson": "u11-l03",
+      "register": "polite"
+    },
+    {
+      "id": "korbi",
+      "bn": "করবি",
+      "tr": "korbi",
+      "en": "you (intimate) will do",
+      "alt": [
+        "will do",
+        "you will do"
+      ],
+      "pos": "verb",
+      "lesson": "u11-l03",
+      "register": "intimate"
+    },
+    {
+      "id": "khabe",
+      "bn": "খাবে",
+      "tr": "khabe",
+      "en": "you (familiar) / he, she will eat",
+      "alt": [
+        "will eat",
+        "will you eat",
+        "will have",
+        "you will eat"
+      ],
+      "pos": "verb",
+      "lesson": "u11-l03"
+    },
+    {
+      "id": "dekhbe",
+      "bn": "দেখবে",
+      "tr": "dekhbe",
+      "en": "you (familiar) / he, she will see",
+      "alt": [
+        "will see",
+        "will watch",
+        "you will watch"
+      ],
+      "pos": "verb",
+      "lesson": "u11-l03"
+    },
+    {
+      "id": "dekhben",
+      "bn": "দেখবেন",
+      "tr": "dekhben",
+      "en": "you (polite) will see",
+      "alt": [
+        "will see",
+        "will watch",
+        "you will watch",
+        "he, she (polite) will see"
+      ],
+      "pos": "verb",
+      "lesson": "u11-l03",
+      "register": "polite"
+    },
+    {
+      "id": "jabi",
+      "bn": "যাবি",
+      "tr": "jabi",
+      "en": "you (intimate) will go",
+      "alt": [
+        "will you go",
+        "will go",
+        "you will go"
+      ],
+      "pos": "verb",
+      "lesson": "u11-l03",
+      "register": "intimate"
+    },
+    {
+      "id": "thakbe",
+      "bn": "থাকবে",
+      "tr": "thakbe",
+      "en": "you (familiar) / he, she will stay",
+      "alt": [
+        "will stay",
+        "will be",
+        "he will be",
+        "she will be"
+      ],
+      "pos": "verb",
+      "lesson": "u11-l04"
+    },
+    {
+      "id": "thakben",
+      "bn": "থাকবেন",
+      "tr": "thakben",
+      "en": "you / he, she (polite) will stay",
+      "alt": [
+        "will stay",
+        "will be"
+      ],
+      "pos": "verb",
+      "lesson": "u11-l04",
+      "register": "polite"
+    },
+    {
+      "id": "bolbe",
+      "bn": "বলবে",
+      "tr": "bolbe",
+      "en": "you (familiar) / he, she will say",
+      "alt": [
+        "will say",
+        "will tell",
+        "he will say",
+        "she will say"
+      ],
+      "pos": "verb",
+      "lesson": "u11-l04"
+    },
+    {
+      "id": "bolben",
+      "bn": "বলবেন",
+      "tr": "bolben",
+      "en": "you / he, she (polite) will say",
+      "alt": [
+        "will say",
+        "will tell"
+      ],
+      "pos": "verb",
+      "lesson": "u11-l04",
+      "register": "polite"
+    },
+    {
+      "id": "kinbe",
+      "bn": "কিনবে",
+      "tr": "kinbe",
+      "en": "you (familiar) / he, she will buy",
+      "alt": [
+        "will buy",
+        "he will buy",
+        "she will buy"
+      ],
+      "pos": "verb",
+      "lesson": "u11-l04",
+      "notes": "কেনা 'buy' uses the stem কিন- in the future, as in কিনব."
+    },
+    {
+      "id": "shunbe",
+      "bn": "শুনবে",
+      "tr": "shunbe",
+      "en": "you (familiar) / he, she will listen",
+      "alt": [
+        "will listen",
+        "will hear",
+        "will listen to"
+      ],
+      "pos": "verb",
+      "lesson": "u11-l04",
+      "notes": "শোনা 'listen' uses the stem শুন- (as in শুনি)."
+    },
+    {
+      "id": "uthbe",
+      "bn": "উঠবে",
+      "tr": "uthbe",
+      "en": "you (familiar) / he, she will get up",
+      "alt": [
+        "will get up",
+        "will wake up"
+      ],
+      "pos": "verb",
+      "lesson": "u11-l04",
+      "notes": "ওঠা 'get up' uses the stem উঠ- (as in উঠি)."
+    },
+    {
+      "id": "kobe",
+      "bn": "কবে",
+      "tr": "kobe",
+      "en": "when (on what day)",
+      "alt": [
+        "when",
+        "what day"
+      ],
+      "pos": "adv",
+      "lesson": "u11-l05",
+      "notes": "Asks for the day or date; কখন / কয়টায় ask for the time."
+    },
+    {
+      "id": "kar",
+      "bn": "কার",
+      "tr": "kar",
+      "en": "whose",
+      "alt": [
+        "whom",
+        "with whom"
+      ],
+      "pos": "pronoun",
+      "lesson": "u11-l05",
+      "notes": "কে 'who' + -র. কার সাথে 'with whom' (literally 'whose with')."
+    },
+    {
+      "id": "tomake",
+      "bn": "তোমাকে",
+      "tr": "tomake",
+      "en": "you (familiar, object)",
+      "alt": [
+        "you",
+        "to you"
+      ],
+      "pos": "pronoun",
+      "lesson": "u11-l05",
+      "register": "familiar",
+      "notes": "তুমি + -কে, like আমাকে, তাকে, আপনাকে."
+    },
+    {
+      "id": "janabo",
+      "bn": "জানাব",
+      "tr": "janabo",
+      "en": "I will let (you) know",
+      "alt": [
+        "I'll let you know",
+        "I will inform",
+        "I will let you know"
+      ],
+      "pos": "verb",
+      "lesson": "u11-l05",
+      "notes": "Future of জানানো 'let know, inform'. Also spelled জানাবো."
+    },
+    {
+      "id": "plyan",
+      "bn": "প্ল্যান",
+      "tr": "plyan",
+      "en": "plan",
+      "alt": [
+        "plans"
+      ],
+      "pos": "noun",
+      "lesson": "u11-l05",
+      "notes": "The English word, used everywhere in Bangladesh: কালকের প্ল্যান কী?"
+    },
+    {
+      "id": "kalker",
+      "bn": "কালকের",
+      "tr": "kalker",
+      "en": "tomorrow's",
+      "alt": [
+        "of tomorrow",
+        "for tomorrow",
+        "yesterday's"
+      ],
+      "pos": "adj",
+      "lesson": "u11-l05",
+      "notes": "কাল + -এর. Like কাল, it can also mean 'yesterday's'."
+    },
+    {
+      "id": "byasto",
+      "bn": "ব্যস্ত",
+      "tr": "byasto",
+      "en": "busy",
+      "pos": "adj",
+      "lesson": "u11-l06"
+    },
+    {
+      "id": "debo",
+      "bn": "দেব",
+      "tr": "debo",
+      "en": "I will give",
+      "alt": [
+        "I'll give",
+        "we will give",
+        "will give"
+      ],
+      "pos": "verb",
+      "lesson": "u11-l06",
+      "notes": "Bangladeshi speech often says দিব (dibo); both are accepted when you type. Also spelled দেবো."
+    },
+    {
+      "id": "deben",
+      "bn": "দেবেন",
+      "tr": "deben",
+      "en": "you (polite) will give",
+      "alt": [
+        "will you give",
+        "will give",
+        "could you give"
+      ],
+      "pos": "verb",
+      "lesson": "u11-l06",
+      "register": "polite",
+      "notes": "Also দিবেন (diben) in Bangladeshi speech. আপনি কি আমাকে … দেবেন? is a polite request."
+    },
+    {
+      "id": "nebo",
+      "bn": "নেব",
+      "tr": "nebo",
+      "en": "I will take",
+      "alt": [
+        "I'll take",
+        "I'll have",
+        "will take"
+      ],
+      "pos": "verb",
+      "lesson": "u11-l06",
+      "notes": "Also নিব (nibo) in Bangladeshi speech. Shopping: আমি এটা নেব 'I'll take this one'."
+    },
+    {
+      "id": "inshaallah",
+      "bn": "ইনশাআল্লাহ",
+      "tr": "inshaallah",
+      "en": "God willing",
+      "alt": [
+        "if God wills",
+        "hopefully"
+      ],
+      "pos": "phrase",
+      "lesson": "u11-l07",
+      "notes": "Muslim speakers add it to plans: ইনশাআল্লাহ, আমি আসব. Also written ইনশাল্লাহ. Hindu speakers don't use it."
+    },
+    {
+      "id": "berate",
+      "bn": "বেড়াতে",
+      "tr": "berate",
+      "en": "to go out (on a visit or trip)",
+      "alt": [
+        "to visit",
+        "for an outing",
+        "on a trip",
+        "to go out"
+      ],
+      "pos": "verb",
+      "lesson": "u11-l07",
+      "notes": "With যাওয়া: বেড়াতে যাব 'I'll go out / go on a trip / go visiting'."
+    },
+    {
+      "id": "dekhte",
+      "bn": "দেখতে",
+      "tr": "dekhte",
+      "en": "to see",
+      "alt": [
+        "to watch"
+      ],
+      "pos": "verb",
+      "lesson": "u11-l07",
+      "notes": "-তে + a verb of motion gives purpose: ছবি দেখতে যাব 'I'll go to see a film'."
+    }
+  ]
+}

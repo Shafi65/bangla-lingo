@@ -1,0 +1,406 @@
+{
+  "id": "u11-l02",
+  "unit": "u11-plans",
+  "title": "I'll do it",
+  "status": "draft",
+  "tip": "**The future for আমি and আমরা ends in -ব** (*-bo*). Take the আমি present form, drop the final **-ই** and add **-ব**:\n\n- করি → **করব** 'I'll do'\n- পড়ি → **পড়ব** 'I'll read'\n- খাই → **খাব**, ঘুমাই → **ঘুমাব**\n\n**আমরা** uses exactly the same form: **আমরা টিভি দেখব** 'We'll watch TV'.\n\nYou'll often see a final **ো**: করবো, খাবো. Both spellings are fine when you type.\n\n**থাকব** is 'I'll stay' or 'I'll be (somewhere)': **আমি ঢাকায় থাকব** 'I'll be in Dhaka'.",
+  "vocab": [
+    {
+      "id": "korbo",
+      "bn": "করব",
+      "tr": "korbo",
+      "en": "I will do",
+      "notes": "Future of করা for আমি / আমরা. Also spelled করবো."
+    },
+    {
+      "id": "khabo",
+      "bn": "খাব",
+      "tr": "khabo",
+      "en": "I will eat",
+      "notes": "Also spelled খাবো."
+    },
+    {
+      "id": "ashbo",
+      "bn": "আসব",
+      "tr": "ashbo",
+      "en": "I will come",
+      "notes": "Also spelled আসবো."
+    },
+    {
+      "id": "dekhbo",
+      "bn": "দেখব",
+      "tr": "dekhbo",
+      "en": "I will see",
+      "notes": "Also spelled দেখবো."
+    },
+    {
+      "id": "porbo",
+      "bn": "পড়ব",
+      "tr": "porbo",
+      "en": "I will read",
+      "notes": "Also spelled পড়বো."
+    },
+    {
+      "id": "thakbo",
+      "bn": "থাকব",
+      "tr": "thakbo",
+      "en": "I will stay",
+      "notes": "'I'll stay / I'll be (somewhere, or in a state)': আমি ঢাকায় থাকব. Also spelled থাকবো."
+    },
+    {
+      "id": "ghumabo",
+      "bn": "ঘুমাব",
+      "tr": "ghumabo",
+      "en": "I will sleep",
+      "notes": "Also spelled ঘুমাবো."
+    },
+    {
+      "id": "bolbo",
+      "bn": "বলব",
+      "tr": "bolbo",
+      "en": "I will say",
+      "notes": "Also spelled বলবো."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "করব",
+        "tr": "korbo",
+        "en": "I will do"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "I did",
+        "I do",
+        "I am doing",
+        "I will do"
+      ],
+      "answer": 3,
+      "why": "**-ব** marks the future for আমি: **করি** 'I do' → **করব** 'I will do'."
+    },
+    {
+      "id": "e02",
+      "type": "listen_select",
+      "audio": {
+        "bn": "খাব",
+        "tr": "khabo",
+        "en": "I will eat"
+      },
+      "options": [
+        "খাব",
+        "খাই",
+        "খেলাম",
+        "খাবেন"
+      ],
+      "answer": 0,
+      "why": "**খাব** 'I will eat' ends in **-ব**; **খাই** is the present."
+    },
+    {
+      "id": "e03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "খাব",
+        "tr": "khabo",
+        "en": "I will eat"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "I eat",
+        "I ate",
+        "I will eat",
+        "you will eat (polite)"
+      ],
+      "answer": 2,
+      "why": "**খাই** 'I eat' → **খাব** 'I will eat'. **খাবেন** is polite 'you will eat'."
+    },
+    {
+      "id": "e04",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আসব",
+        "tr": "ashbo",
+        "en": "I will come"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "I come",
+        "I will come",
+        "you will come (polite)",
+        "I came"
+      ],
+      "answer": 1,
+      "why": "**আসি** 'I come' → **আসব** 'I will come'."
+    },
+    {
+      "id": "e05",
+      "type": "listen_select",
+      "audio": {
+        "bn": "দেখব",
+        "tr": "dekhbo",
+        "en": "I will see"
+      },
+      "options": [
+        "দেখব",
+        "দেখলাম",
+        "দেখি",
+        "দেখে"
+      ],
+      "answer": 0,
+      "why": "**দেখব** 'I will see' ends in **-ব**."
+    },
+    {
+      "id": "e06",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "থাকব",
+        "tr": "thakbo",
+        "en": "I will stay"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "I will go",
+        "I was",
+        "I live",
+        "I will stay"
+      ],
+      "answer": 3,
+      "why": "**থাকি** 'I live / stay' → **থাকব** 'I will stay'. 'I was' is **ছিলাম**."
+    },
+    {
+      "id": "e07",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "দেখব",
+          "tr": "dekhbo",
+          "en": "I will see"
+        },
+        {
+          "bn": "পড়ব",
+          "tr": "porbo",
+          "en": "I will read"
+        },
+        {
+          "bn": "ঘুমাব",
+          "tr": "ghumabo",
+          "en": "I will sleep"
+        },
+        {
+          "bn": "বলব",
+          "tr": "bolbo",
+          "en": "I will say"
+        },
+        {
+          "bn": "করব",
+          "tr": "korbo",
+          "en": "I will do"
+        }
+      ]
+    },
+    {
+      "id": "e08",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "আমরা রাতে টিভি দেখব।",
+        "tr": "amra rate tibhi dekhbo.",
+        "en": "We will watch TV at night.",
+        "alt": [
+          "We'll watch TV tonight."
+        ]
+      },
+      "options": [
+        "He will watch TV at night.",
+        "We will watch TV at night.",
+        "We watch TV at night.",
+        "We watched TV at night."
+      ],
+      "answer": 1,
+      "why": "**আমরা** takes the same **-ব** ending as আমি: **দেখব** 'we will watch'."
+    },
+    {
+      "id": "e09",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আমি কাল কাজ করব।",
+        "tr": "ami kal kaj korbo.",
+        "en": "I will work tomorrow.",
+        "alt": [
+          "Tomorrow I will work."
+        ]
+      },
+      "blank": "করব",
+      "options": [
+        "করেছি",
+        "করলাম",
+        "করব",
+        "করি"
+      ],
+      "answer": 2,
+      "why": "A plan for **কাল** 'tomorrow' needs the future: **করব**."
+    },
+    {
+      "id": "e10",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমি আজ রাতে বই পড়ব।",
+        "tr": "ami aj rate boi porbo.",
+        "en": "I will read a book tonight.",
+        "alt": [
+          "Tonight I will read a book."
+        ]
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "I",
+        "watch",
+        "a",
+        "yesterday",
+        "tonight",
+        "book",
+        "read",
+        "will",
+        "reads"
+      ],
+      "answer": [
+        "I",
+        "will",
+        "read",
+        "a",
+        "book",
+        "tonight"
+      ],
+      "why": "**পড়ব** is future: 'I will read'."
+    },
+    {
+      "id": "e11",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমরা দুপুরে বিরিয়ানি খাব।",
+        "tr": "amra dupure biriyani khabo.",
+        "en": "We will eat biryani at noon.",
+        "alt": [
+          "We'll have biryani for lunch."
+        ]
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "খাই",
+        "খাব",
+        "খেলাম",
+        "বিরিয়ানি",
+        "দুপুরে",
+        "আমরা"
+      ],
+      "answer": [
+        "আমরা",
+        "দুপুরে",
+        "বিরিয়ানি",
+        "খাব"
+      ],
+      "alt": [
+        [
+          "দুপুরে",
+          "আমরা",
+          "বিরিয়ানি",
+          "খাব"
+        ]
+      ],
+      "why": "**আমরা** + **খাব**: 'we will eat' uses the same form as 'I will eat'."
+    },
+    {
+      "id": "e12",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আমি রাত দশটায় ঘুমাব।",
+        "tr": "ami rat doshtay ghumabo.",
+        "en": "I will sleep at ten at night.",
+        "alt": [
+          "I'll go to sleep at 10 pm."
+        ]
+      },
+      "blank": "ঘুমাব",
+      "options": [
+        "ঘুমাই",
+        "ঘুমালাম",
+        "ঘুমাব",
+        "ঘুমান"
+      ],
+      "answer": 2,
+      "why": "Future = আমি present minus **-ই** plus **-ব**: ঘুমাই → **ঘুমাব**."
+    },
+    {
+      "id": "e13",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আমি আগামী সপ্তাহে ঢাকায় থাকব।",
+        "tr": "ami agami shoptahe dhakay thakbo.",
+        "en": "I will be in Dhaka next week.",
+        "alt": [
+          "I will stay in Dhaka next week."
+        ]
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "আমি আগামী সপ্তাহে ঢাকায় থাকব।",
+        "আমি আগামী সপ্তাহে ঢাকায় যাব।",
+        "আমি ঢাকায় থাকি।",
+        "আমি গত সপ্তাহে ঢাকায় ছিলাম।"
+      ],
+      "answer": 0,
+      "why": "**থাকব** 'I will stay / be (there)'. **যাব** is 'I will go', **ছিলাম** 'I was'."
+    },
+    {
+      "id": "e14",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আমি তাকে বলব।",
+        "tr": "ami take bolbo.",
+        "en": "I will tell him.",
+        "alt": [
+          "I will tell her.",
+          "I'll tell him."
+        ]
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "আমি তাকে বলব",
+        "আমি তাকে বলবো",
+        "তাকে বলব",
+        "তাকে বলবো",
+        "আমি ওকে বলব",
+        "আমি ওকে বলবো",
+        "ওকে বলব",
+        "ওকে বলবো",
+        "ami take bolbo",
+        "take bolbo",
+        "ami oke bolbo",
+        "oke bolbo"
+      ],
+      "why": "**বলি** 'I say' → **বলব** 'I will tell'; **তাকে** 'him / her'."
+    },
+    {
+      "id": "e15",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আমি আগামীকাল আসব।",
+        "tr": "ami agamikal ashbo.",
+        "en": "I will come tomorrow.",
+        "alt": [
+          "I'll come tomorrow."
+        ]
+      },
+      "blank": "আসব",
+      "accepted": [
+        "আসব",
+        "আসবো",
+        "ashbo",
+        "asbo",
+        "aashbo"
+      ],
+      "why": "**আসি** 'I come' → **আসব** 'I will come'."
+    }
+  ]
+}

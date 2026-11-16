@@ -1,0 +1,387 @@
+{
+  "id": "u11-l01",
+  "unit": "u11-plans",
+  "title": "Tomorrow & next week",
+  "status": "draft",
+  "tip": "**Time words that point forward.** কাল means both 'tomorrow' and 'yesterday'; the verb tells you which. **আগামীকাল** (*agamikal*) is always 'tomorrow', and **পরশু** (*porshu*) is 'the day after tomorrow'.\n\nFor 'next', put **আগামী** or the everyday **সামনের** before the time word: **আগামী সপ্তাহে** 'next week', **সামনের মাসে** 'next month', **আগামী বছর** 'next year'. **এই শুক্রবার** is 'this Friday'.\n\nYou already know some future verbs: **যাব** 'I'll go', **আসবে** 'will come', **কিনব** 'I'll buy'. The next lessons show the pattern behind them.\n\n**কাল দেখা হবে।** 'See you tomorrow.'",
+  "vocab": [
+    {
+      "id": "agamikal",
+      "bn": "আগামীকাল",
+      "tr": "agamikal",
+      "en": "tomorrow",
+      "notes": "Always 'tomorrow'. Plain কাল can mean 'tomorrow' or 'yesterday'; the verb decides."
+    },
+    {
+      "id": "porshu",
+      "bn": "পরশু",
+      "tr": "porshu",
+      "en": "the day after tomorrow",
+      "notes": "With a past verb it means 'the day before yesterday', just as কাল is 'tomorrow' or 'yesterday'."
+    },
+    {
+      "id": "agami",
+      "bn": "আগামী",
+      "tr": "agami",
+      "en": "next",
+      "notes": "আগামী সপ্তাহে 'next week', আগামী বছর 'next year'. A little more formal than সামনের. In Kolkata you also hear আসছে সপ্তাহে."
+    },
+    {
+      "id": "shamner",
+      "bn": "সামনের",
+      "tr": "shamner",
+      "en": "next (spoken)",
+      "notes": "Literally 'of the front' (সামনে + -এর). Everyday word for 'next': সামনের মাসে 'next month'."
+    },
+    {
+      "id": "mashe",
+      "bn": "মাসে",
+      "tr": "mashe",
+      "en": "in the month",
+      "notes": "মাস + -এ: আগামী মাসে 'next month'."
+    },
+    {
+      "id": "dekha-hobe",
+      "bn": "দেখা হবে",
+      "tr": "dekha hobe",
+      "en": "(we) will meet",
+      "notes": "কাল দেখা হবে 'See you tomorrow'. You know it from আবার দেখা হবে."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আগামীকাল",
+        "tr": "agamikal",
+        "en": "tomorrow"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "tomorrow",
+        "yesterday",
+        "the day after tomorrow",
+        "today"
+      ],
+      "answer": 0,
+      "why": "**আগামীকাল** is always 'tomorrow'; 'yesterday' is **গতকাল**."
+    },
+    {
+      "id": "e02",
+      "type": "listen_select",
+      "audio": {
+        "bn": "পরশু",
+        "tr": "porshu",
+        "en": "the day after tomorrow"
+      },
+      "options": [
+        "গতকাল",
+        "আগামীকাল",
+        "আজ",
+        "পরশু"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "পরশু",
+        "tr": "porshu",
+        "en": "the day after tomorrow"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "today",
+        "the day after tomorrow",
+        "tomorrow",
+        "next week"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e04",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আগামী সপ্তাহে",
+        "tr": "agami shoptahe",
+        "en": "next week"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "last week",
+        "this week",
+        "next week",
+        "next month"
+      ],
+      "answer": 2,
+      "why": "**আগামী** 'next' + **সপ্তাহে** 'in the week'. 'Last week' is **গত সপ্তাহে**."
+    },
+    {
+      "id": "e05",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "সামনের মাসে",
+        "tr": "shamner mashe",
+        "en": "next month"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "next month",
+        "last month",
+        "this month",
+        "next week"
+      ],
+      "answer": 0,
+      "why": "**সামনের** is the everyday word for 'next'; **মাসে** = 'in the month'."
+    },
+    {
+      "id": "e06",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "কাল দেখা হবে।",
+        "tr": "kal dekha hobe.",
+        "en": "See you tomorrow.",
+        "alt": [
+          "We'll meet tomorrow.",
+          "We will meet tomorrow."
+        ]
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "See you again.",
+        "See you tomorrow.",
+        "I saw him yesterday.",
+        "Let's go tomorrow."
+      ],
+      "answer": 1,
+      "why": "**দেখা হবে** 'we will meet' is a future phrase, so **কাল** here is 'tomorrow'."
+    },
+    {
+      "id": "e07",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "আমি আগামীকাল ঢাকায় যাব।",
+        "tr": "ami agamikal dhakay jabo.",
+        "en": "I will go to Dhaka tomorrow.",
+        "alt": [
+          "I'll go to Dhaka tomorrow.",
+          "Tomorrow I will go to Dhaka."
+        ]
+      },
+      "options": [
+        "I will go to Sylhet tomorrow.",
+        "I go to Dhaka every day.",
+        "I went to Dhaka yesterday.",
+        "I will go to Dhaka tomorrow."
+      ],
+      "answer": 3,
+      "why": "**যাব** is the future 'I will go'; 'I went' is **গেলাম**."
+    },
+    {
+      "id": "e08",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "আগামীকাল",
+          "tr": "agamikal",
+          "en": "tomorrow"
+        },
+        {
+          "bn": "পরশু",
+          "tr": "porshu",
+          "en": "the day after tomorrow"
+        },
+        {
+          "bn": "গতকাল",
+          "tr": "gotokal",
+          "en": "yesterday"
+        },
+        {
+          "bn": "আজ",
+          "tr": "aj",
+          "en": "today"
+        },
+        {
+          "bn": "আগামী",
+          "tr": "agami",
+          "en": "next"
+        }
+      ]
+    },
+    {
+      "id": "e09",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "সে পরশু আসবে।",
+        "tr": "she porshu ashbe.",
+        "en": "He will come the day after tomorrow.",
+        "alt": [
+          "She will come the day after tomorrow."
+        ]
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "day",
+        "the",
+        "She",
+        "after",
+        "tomorrow",
+        "came",
+        "will",
+        "yesterday",
+        "come",
+        "He"
+      ],
+      "answer": [
+        "He",
+        "will",
+        "come",
+        "the",
+        "day",
+        "after",
+        "tomorrow"
+      ],
+      "alt": [
+        [
+          "She",
+          "will",
+          "come",
+          "the",
+          "day",
+          "after",
+          "tomorrow"
+        ]
+      ],
+      "why": "**আসবে** is future ('will come'), so **পরশু** points forward: 'the day after tomorrow'."
+    },
+    {
+      "id": "e10",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আমরা সামনের মাসে গ্রামে যাব।",
+        "tr": "amra shamner mashe grame jabo.",
+        "en": "We will go to the village next month.",
+        "alt": [
+          "Next month we will go to the village."
+        ]
+      },
+      "blank": "সামনের",
+      "options": [
+        "গত",
+        "পরশু",
+        "সামনের",
+        "আজ"
+      ],
+      "answer": 2,
+      "why": "The verb **যাব** is future, so the time word must point forward: **সামনের মাসে** 'next month'."
+    },
+    {
+      "id": "e11",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আগামী বছর আমি বাংলাদেশে যাব।",
+        "tr": "agami bochhor ami bangladeshe jabo.",
+        "en": "Next year I will go to Bangladesh.",
+        "alt": [
+          "I will go to Bangladesh next year."
+        ]
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "আমি",
+        "যাব",
+        "বাংলাদেশে",
+        "গত",
+        "আগামী",
+        "বছর",
+        "গেলাম"
+      ],
+      "answer": [
+        "আগামী",
+        "বছর",
+        "আমি",
+        "বাংলাদেশে",
+        "যাব"
+      ],
+      "alt": [
+        [
+          "আমি",
+          "আগামী",
+          "বছর",
+          "বাংলাদেশে",
+          "যাব"
+        ],
+        [
+          "আগামী",
+          "বছর",
+          "বাংলাদেশে",
+          "যাব"
+        ]
+      ],
+      "why": "**আগামী বছর** 'next year' + the future **যাব**. The time word can also come after **আমি**."
+    },
+    {
+      "id": "e12",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আপনি কি আগামী সপ্তাহে আসবেন?",
+        "tr": "apni ki agami shoptahe ashben?",
+        "en": "Will you come next week? (polite)",
+        "alt": [
+          "Are you coming next week?"
+        ]
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "আপনি কি গত সপ্তাহে এসেছেন?",
+        "তুমি কি আগামী সপ্তাহে আসবে?",
+        "আপনি কি আগামী সপ্তাহে আসবেন?",
+        "আপনি কি আগামী সপ্তাহে যাবেন?"
+      ],
+      "answer": 2,
+      "why": "Polite **আপনি** takes **আসবেন** 'will come'; **আগামী সপ্তাহে** = 'next week'."
+    },
+    {
+      "id": "e13",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "পরশু শুক্রবার।",
+        "tr": "porshu shukrobar.",
+        "en": "The day after tomorrow is Friday."
+      },
+      "blank": "পরশু",
+      "accepted": [
+        "পরশু",
+        "porshu",
+        "porshoo",
+        "parshu",
+        "porsu"
+      ],
+      "why": "**পরশু** is 'the day after tomorrow'."
+    },
+    {
+      "id": "e14",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "কাল দেখা হবে।",
+        "tr": "kal dekha hobe.",
+        "en": "See you tomorrow.",
+        "alt": [
+          "We'll meet tomorrow.",
+          "We will meet tomorrow."
+        ]
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "কাল দেখা হবে",
+        "আগামীকাল দেখা হবে",
+        "kal dekha hobe",
+        "kaal dekha hobe",
+        "agamikal dekha hobe"
+      ],
+      "why": "**দেখা হবে** '(we) will meet' = 'see you'."
+    }
+  ]
+}

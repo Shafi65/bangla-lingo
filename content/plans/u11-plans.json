@@ -1,0 +1,811 @@
+{
+  "unit": "u11-plans",
+  "lessons": [
+    {
+      "id": "u11-l01",
+      "kind": "lesson",
+      "title": "Tomorrow & next week",
+      "goal": "Say when something will happen: tomorrow, the day after, next week, month or year.",
+      "grammar": [
+        "time words for the future: আগামীকাল, পরশু, আগামী / সামনের + সপ্তাহে / মাসে / বছর",
+        "the verb sets the time: কাল + future = tomorrow"
+      ],
+      "new": [
+        "agamikal",
+        "porshu",
+        "agami",
+        "shamner",
+        "mashe",
+        "dekha-hobe"
+      ],
+      "review": [
+        "kal",
+        "gotokal",
+        "aj",
+        "jabo",
+        "ashbe",
+        "jaben",
+        "kinbo",
+        "shoptahe",
+        "bochhor",
+        "shukrobar"
+      ],
+      "tip": "**Time words that point forward.** কাল means both 'tomorrow' and 'yesterday'; the verb tells you which. **আগামীকাল** (*agamikal*) is always 'tomorrow', and **পরশু** (*porshu*) is 'the day after tomorrow'.\n\nFor 'next', put **আগামী** or the everyday **সামনের** before the time word: **আগামী সপ্তাহে** 'next week', **সামনের মাসে** 'next month', **আগামী বছর** 'next year'. **এই শুক্রবার** is 'this Friday'.\n\nYou already know some future verbs: **যাব** 'I'll go', **আসবে** 'will come', **কিনব** 'I'll buy'. The next lessons show the pattern behind them.\n\n**কাল দেখা হবে।** 'See you tomorrow.'",
+      "sentences": [
+        {
+          "bn": "আমি আগামীকাল ঢাকায় যাব।",
+          "tr": "ami agamikal dhakay jabo.",
+          "en": "I will go to Dhaka tomorrow.",
+          "alt": [
+            "I'll go to Dhaka tomorrow.",
+            "Tomorrow I will go to Dhaka."
+          ]
+        },
+        {
+          "bn": "সে পরশু আসবে।",
+          "tr": "she porshu ashbe.",
+          "en": "He will come the day after tomorrow.",
+          "alt": [
+            "She will come the day after tomorrow."
+          ]
+        },
+        {
+          "bn": "আমরা সামনের মাসে গ্রামে যাব।",
+          "tr": "amra shamner mashe grame jabo.",
+          "en": "We will go to the village next month.",
+          "alt": [
+            "Next month we will go to the village."
+          ]
+        },
+        {
+          "bn": "আগামী বছর আমি বাংলাদেশে যাব।",
+          "tr": "agami bochhor ami bangladeshe jabo.",
+          "en": "Next year I will go to Bangladesh.",
+          "alt": [
+            "I will go to Bangladesh next year."
+          ]
+        },
+        {
+          "bn": "আপনি কি আগামী সপ্তাহে আসবেন?",
+          "tr": "apni ki agami shoptahe ashben?",
+          "en": "Will you come next week? (polite)",
+          "alt": [
+            "Are you coming next week?"
+          ]
+        },
+        {
+          "bn": "কাল দেখা হবে।",
+          "tr": "kal dekha hobe.",
+          "en": "See you tomorrow.",
+          "alt": [
+            "We'll meet tomorrow.",
+            "We will meet tomorrow."
+          ]
+        },
+        {
+          "bn": "ট্রেন আগামীকাল সকালে ছাড়বে।",
+          "tr": "tren agamikal shokale chharbe.",
+          "en": "The train will leave tomorrow morning.",
+          "alt": [
+            "The train leaves tomorrow morning."
+          ]
+        },
+        {
+          "bn": "এই শুক্রবার আমি একটা শাড়ি কিনব।",
+          "tr": "ei shukrobar ami ekta shari kinbo.",
+          "en": "This Friday I will buy a sari.",
+          "alt": [
+            "I will buy a sari this Friday."
+          ]
+        },
+        {
+          "bn": "পরশু শুক্রবার।",
+          "tr": "porshu shukrobar.",
+          "en": "The day after tomorrow is Friday."
+        }
+      ]
+    },
+    {
+      "id": "u11-l02",
+      "kind": "lesson",
+      "title": "I'll do it",
+      "goal": "Say what you (and we) will do, with the future ending -ব.",
+      "grammar": [
+        "future for আমি / আমরা: stem + -ব (করব, খাব, থাকব)",
+        "build it from the আমি present: করি → করব, ঘুমাই → ঘুমাব"
+      ],
+      "new": [
+        "korbo",
+        "khabo",
+        "ashbo",
+        "dekhbo",
+        "porbo",
+        "thakbo",
+        "ghumabo",
+        "bolbo"
+      ],
+      "review": [
+        "ami",
+        "amra",
+        "kori",
+        "khai",
+        "ashi",
+        "dekhi",
+        "pori",
+        "thaki",
+        "ghumai",
+        "boli"
+      ],
+      "tip": "**The future for আমি and আমরা ends in -ব** (*-bo*). Take the আমি present form, drop the final **-ই** and add **-ব**:\n\n- করি → **করব** 'I'll do'\n- পড়ি → **পড়ব** 'I'll read'\n- খাই → **খাব**, ঘুমাই → **ঘুমাব**\n\n**আমরা** uses exactly the same form: **আমরা টিভি দেখব** 'We'll watch TV'.\n\nYou'll often see a final **ো**: করবো, খাবো. Both spellings are fine when you type.\n\n**থাকব** is 'I'll stay' or 'I'll be (somewhere)': **আমি ঢাকায় থাকব** 'I'll be in Dhaka'.",
+      "sentences": [
+        {
+          "bn": "আমি কাল কাজ করব।",
+          "tr": "ami kal kaj korbo.",
+          "en": "I will work tomorrow.",
+          "alt": [
+            "Tomorrow I will work."
+          ]
+        },
+        {
+          "bn": "আমরা দুপুরে বিরিয়ানি খাব।",
+          "tr": "amra dupure biriyani khabo.",
+          "en": "We will eat biryani at noon.",
+          "alt": [
+            "We'll have biryani for lunch."
+          ]
+        },
+        {
+          "bn": "আমি আগামীকাল আসব।",
+          "tr": "ami agamikal ashbo.",
+          "en": "I will come tomorrow.",
+          "alt": [
+            "I'll come tomorrow."
+          ]
+        },
+        {
+          "bn": "আমরা রাতে টিভি দেখব।",
+          "tr": "amra rate tibhi dekhbo.",
+          "en": "We will watch TV at night.",
+          "alt": [
+            "We'll watch TV tonight."
+          ]
+        },
+        {
+          "bn": "আমি আজ রাতে বই পড়ব।",
+          "tr": "ami aj rate boi porbo.",
+          "en": "I will read a book tonight.",
+          "alt": [
+            "Tonight I will read a book."
+          ]
+        },
+        {
+          "bn": "আমি আগামী সপ্তাহে ঢাকায় থাকব।",
+          "tr": "ami agami shoptahe dhakay thakbo.",
+          "en": "I will be in Dhaka next week.",
+          "alt": [
+            "I will stay in Dhaka next week."
+          ]
+        },
+        {
+          "bn": "আমি রাত দশটায় ঘুমাব।",
+          "tr": "ami rat doshtay ghumabo.",
+          "en": "I will sleep at ten at night.",
+          "alt": [
+            "I'll go to sleep at 10 pm."
+          ]
+        },
+        {
+          "bn": "আমি তাকে বলব।",
+          "tr": "ami take bolbo.",
+          "en": "I will tell him.",
+          "alt": [
+            "I will tell her.",
+            "I'll tell him."
+          ]
+        },
+        {
+          "bn": "আজ আমি রান্না করব।",
+          "tr": "aj ami ranna korbo.",
+          "en": "Today I will cook.",
+          "alt": [
+            "I will cook today."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u11-l03",
+      "kind": "lesson",
+      "title": "Will you?",
+      "goal": "Ask what someone will do, with the right 'you' ending.",
+      "grammar": [
+        "future 'you': তুই -বি · তুমি -বে · আপনি -বেন",
+        "same endings on every verb: খাবি · খাবে · খাবেন"
+      ],
+      "new": [
+        "korbe",
+        "korben",
+        "korbi",
+        "khabe",
+        "dekhbe",
+        "dekhben",
+        "jabi"
+      ],
+      "review": [
+        "tui",
+        "tumi",
+        "apni",
+        "korle",
+        "koro",
+        "koren",
+        "jabe",
+        "jaben",
+        "khaben",
+        "khabi",
+        "ashbe",
+        "dost"
+      ],
+      "tip": "**Three 'you's, three endings**, just like the present:\n\n- তুই → **-বি**: **করবি** (*korbi*)\n- তুমি → **-বে**: **করবে** (*korbe*)\n- আপনি → **-বেন**: **করবেন** (*korben*)\n\nCompare the present: করিস · করো · করেন. The future just puts **ব** in front of the ending.\n\nEvery verb works the same way: **খাবি · খাবে · খাবেন**, **যাবি · যাবে · যাবেন**.\n\nDon't mix up **করবে** 'you will do' and **করলে** 'you did'.\n\n**তুমি কাল কী করবে?** 'What will you do tomorrow?' is the everyday way to ask about plans. With an elder: **আপনি কাল কী করবেন?**",
+      "sentences": [
+        {
+          "bn": "তুমি কাল কী করবে?",
+          "tr": "tumi kal ki korbe?",
+          "en": "What will you do tomorrow?"
+        },
+        {
+          "bn": "আপনি কাল কী করবেন?",
+          "tr": "apni kal ki korben?",
+          "en": "What will you do tomorrow? (polite)"
+        },
+        {
+          "bn": "তুই কী করবি?",
+          "tr": "tui ki korbi?",
+          "en": "What will you do? (intimate)"
+        },
+        {
+          "bn": "তুমি কী খাবে?",
+          "tr": "tumi ki khabe?",
+          "en": "What will you eat?",
+          "alt": [
+            "What will you have?"
+          ]
+        },
+        {
+          "bn": "আপনি কি টিভি দেখবেন?",
+          "tr": "apni ki tibhi dekhben?",
+          "en": "Will you watch TV? (polite)"
+        },
+        {
+          "bn": "তুমি কি ছবি দেখবে?",
+          "tr": "tumi ki chhobi dekhbe?",
+          "en": "Will you watch a film?",
+          "alt": [
+            "Will you see a movie?"
+          ]
+        },
+        {
+          "bn": "দোস্ত, তুই কি ঢাকায় যাবি?",
+          "tr": "dost, tui ki dhakay jabi?",
+          "en": "Buddy, will you go to Dhaka?",
+          "alt": [
+            "Mate, will you go to Dhaka?"
+          ]
+        },
+        {
+          "bn": "আপনি কি চা খাবেন?",
+          "tr": "apni ki cha khaben?",
+          "en": "Will you have tea? (polite)",
+          "alt": [
+            "Would you like some tea?"
+          ]
+        },
+        {
+          "bn": "তুমি কি আগামীকাল আসবে?",
+          "tr": "tumi ki agamikal ashbe?",
+          "en": "Will you come tomorrow?"
+        }
+      ]
+    },
+    {
+      "id": "u11-l04",
+      "kind": "lesson",
+      "title": "He'll, she'll, they'll",
+      "goal": "Say what other people will do, ordinary and polite.",
+      "grammar": [
+        "সে / ও / তারা -বে · তিনি / উনি -বেন (the same endings as তুমি / আপনি)",
+        "raised stems in the future: কেনা → কিনবে, শোনা → শুনবে, ওঠা → উঠবে"
+      ],
+      "new": [
+        "thakbe",
+        "thakben",
+        "bolbe",
+        "bolben",
+        "kinbe",
+        "shunbe",
+        "uthbe"
+      ],
+      "review": [
+        "she",
+        "uni",
+        "tara",
+        "ashbe",
+        "kinbo",
+        "shuni",
+        "uthi",
+        "othen",
+        "notun",
+        "jama",
+        "shikkhok"
+      ],
+      "tip": "**He, she and they** use endings you already know:\n\n- সে / ও / তারা → **-বে**: **সে আসবে** 'he'll come', **তারা আসবে** 'they'll come'\n- তিনি / উনি (polite) → **-বেন**: **উনি আসবেন**\n\nSo **-বে** is both 'you (তুমি) will' and 'he/she will', and **-বেন** is both polite 'you' and polite 'he/she'. The pronoun or the context tells you who.\n\n**Vowel change:** in the future, **এ** and **ও** in a stem rise to **ই** and **উ**, as in the আমি present: কেনা → **কিনবে**, শোনা → **শুনবে** (শুনি), ওঠা → **উঠবে** (উঠি). Start from the আমি form and swap the ending.",
+      "sentences": [
+        {
+          "bn": "সে কাল বাসায় থাকবে।",
+          "tr": "she kal bashay thakbe.",
+          "en": "She will be at home tomorrow.",
+          "alt": [
+            "He will be at home tomorrow.",
+            "She will stay at home tomorrow."
+          ]
+        },
+        {
+          "bn": "উনি আগামী সপ্তাহে ঢাকায় থাকবেন।",
+          "tr": "uni agami shoptahe dhakay thakben.",
+          "en": "She will be in Dhaka next week. (polite)",
+          "alt": [
+            "He will be in Dhaka next week."
+          ]
+        },
+        {
+          "bn": "নাদিয়া কী বলবে?",
+          "tr": "nadiya ki bolbe?",
+          "en": "What will Nadia say?"
+        },
+        {
+          "bn": "উনি কী বলবেন?",
+          "tr": "uni ki bolben?",
+          "en": "What will he say? (polite)",
+          "alt": [
+            "What will she say?"
+          ]
+        },
+        {
+          "bn": "সে একটা নতুন জামা কিনবে।",
+          "tr": "she ekta notun jama kinbe.",
+          "en": "He will buy a new shirt.",
+          "alt": [
+            "She will buy a new shirt."
+          ]
+        },
+        {
+          "bn": "রাফি রাতে গান শুনবে।",
+          "tr": "rafi rate gan shunbe.",
+          "en": "Rafi will listen to songs at night.",
+          "alt": [
+            "Rafi will listen to music tonight."
+          ]
+        },
+        {
+          "bn": "সে কাল সকাল সাতটায় উঠবে।",
+          "tr": "she kal shokal shattay uthbe.",
+          "en": "She will get up at seven tomorrow morning.",
+          "alt": [
+            "He will get up at 7 tomorrow morning."
+          ]
+        },
+        {
+          "bn": "তারা সামনের মাসে আসবে।",
+          "tr": "tara shamner mashe ashbe.",
+          "en": "They will come next month."
+        },
+        {
+          "bn": "সে বাজারে কী কিনবে?",
+          "tr": "she bajare ki kinbe?",
+          "en": "What will he buy at the market?",
+          "alt": [
+            "What will she buy at the market?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u11-l05",
+      "kind": "lesson",
+      "title": "When? Where? With whom?",
+      "goal": "Ask and answer questions about plans.",
+      "grammar": [
+        "question words with the future: কবে (what day), কয়টায় (what time), কোথায়, কার সাথে",
+        "তোমাকে 'you' as an object: তোমাকে ফোন করব"
+      ],
+      "new": [
+        "kobe",
+        "kar",
+        "tomake",
+        "janabo",
+        "plyan",
+        "kalker"
+      ],
+      "review": [
+        "kokhon",
+        "koytay",
+        "kothay",
+        "ki-what",
+        "shathe",
+        "amake",
+        "take",
+        "fon",
+        "pore-later",
+        "thakbe"
+      ],
+      "tip": "**Asking about plans.** Put the question word before the verb:\n\n- **কবে** 'when, on what day': **তুমি কবে আসবে?**\n- **কয়টায়** / **কখন** 'at what time': **কয়টায় আসবে?**\n- **কোথায়** 'where', **কী** 'what', **কার সাথে** 'with whom'\n\n**কালকের প্ল্যান কী?** 'What's the plan for tomorrow?' **প্ল্যান** is the English word, used everywhere in Bangladesh.\n\n**তোমাকে** is 'you' as an object (তুমি + -কে), like আমাকে and তাকে: **আমি তোমাকে ফোন করব** 'I'll call you', **তোমাকে পরে জানাব** 'I'll let you know later'.",
+      "sentences": [
+        {
+          "bn": "তুমি কবে আসবে?",
+          "tr": "tumi kobe ashbe?",
+          "en": "When will you come?",
+          "alt": [
+            "What day will you come?"
+          ]
+        },
+        {
+          "bn": "আপনি কবে ঢাকায় যাবেন?",
+          "tr": "apni kobe dhakay jaben?",
+          "en": "When will you go to Dhaka? (polite)"
+        },
+        {
+          "bn": "তুমি কার সাথে যাবে?",
+          "tr": "tumi kar shathe jabe?",
+          "en": "Who will you go with?",
+          "alt": [
+            "With whom will you go?"
+          ]
+        },
+        {
+          "bn": "কালকের প্ল্যান কী?",
+          "tr": "kalker plyan ki?",
+          "en": "What's the plan for tomorrow?",
+          "alt": [
+            "What are tomorrow's plans?"
+          ]
+        },
+        {
+          "bn": "তুমি কয়টায় আসবে?",
+          "tr": "tumi koytay ashbe?",
+          "en": "What time will you come?"
+        },
+        {
+          "bn": "আমি তোমাকে পরে জানাব।",
+          "tr": "ami tomake pore janabo.",
+          "en": "I will let you know later."
+        },
+        {
+          "bn": "আমি তোমাকে ফোন করব।",
+          "tr": "ami tomake fon korbo.",
+          "en": "I will call you.",
+          "alt": [
+            "I'll phone you."
+          ]
+        },
+        {
+          "bn": "তোমরা কোথায় থাকবে?",
+          "tr": "tomra kothay thakbe?",
+          "en": "Where will you stay? (plural)",
+          "alt": [
+            "Where will you all stay?"
+          ]
+        },
+        {
+          "bn": "সে বাজারে কী কিনবে?",
+          "tr": "she bajare ki kinbe?",
+          "en": "What will he buy at the market?",
+          "alt": [
+            "What will she buy at the market?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u11-l06",
+      "kind": "lesson",
+      "title": "I won't",
+      "goal": "Say what you won't do, and offer, give and take.",
+      "grammar": [
+        "negative future: verb + না (যাব না, আসবে না)",
+        "short stems of দেওয়া / নেওয়া: দেব, দেবেন, নেব (BD speech also দিব, দিবেন, নিব)"
+      ],
+      "new": [
+        "byasto",
+        "debo",
+        "deben",
+        "nebo"
+      ],
+      "review": [
+        "na",
+        "asheni",
+        "kichhu",
+        "ofise",
+        "amake",
+        "ektu",
+        "pani",
+        "eta",
+        "taka",
+        "mangsho"
+      ],
+      "tip": "**'Won't' = future + না.** Add **না** after the verb, as in the present:\n\n- **যাব** → **যাব না** 'I won't go'\n- **আসবে** → **আসবে না** 'won't come'\n\nDon't use -নি here: **আসেনি** means 'didn't come'.\n\n**দেওয়া** 'give' and **নেওয়া** 'take' have short future stems: **দেব** 'I'll give', **দেবেন** 'you'll give (polite)', **নেব** 'I'll take'. In Bangladesh you'll also hear **দিব, দিবেন, নিব**; both are accepted when you type.\n\nA polite request: **আপনি কি আমাকে একটু পানি দেবেন?** 'Could you give me a little water?' At a shop: **আমি এটা নেব** 'I'll take this one'.",
+      "sentences": [
+        {
+          "bn": "আমি কাল অফিসে যাব না।",
+          "tr": "ami kal ofise jabo na.",
+          "en": "I won't go to the office tomorrow."
+        },
+        {
+          "bn": "আমি কাল ব্যস্ত থাকব।",
+          "tr": "ami kal byasto thakbo.",
+          "en": "I will be busy tomorrow."
+        },
+        {
+          "bn": "সে আজ আসবে না।",
+          "tr": "she aj ashbe na.",
+          "en": "She won't come today.",
+          "alt": [
+            "He won't come today."
+          ]
+        },
+        {
+          "bn": "আমরা মাংস খাব না।",
+          "tr": "amra mangsho khabo na.",
+          "en": "We won't eat meat."
+        },
+        {
+          "bn": "আমি তোমাকে টাকা দেব।",
+          "tr": "ami tomake taka debo.",
+          "en": "I will give you money.",
+          "alt": [
+            "I'll give you the money."
+          ]
+        },
+        {
+          "bn": "আপনি কি আমাকে একটু পানি দেবেন?",
+          "tr": "apni ki amake ektu pani deben?",
+          "en": "Could you give me a little water?",
+          "alt": [
+            "Will you give me some water?"
+          ]
+        },
+        {
+          "bn": "আমি এটা নেব।",
+          "tr": "ami eta nebo.",
+          "en": "I'll take this one.",
+          "alt": [
+            "I will take this."
+          ]
+        },
+        {
+          "bn": "না, আমি কিছু খাব না।",
+          "tr": "na, ami kichhu khabo na.",
+          "en": "No, I won't eat anything.",
+          "alt": [
+            "No, I won't have anything."
+          ]
+        },
+        {
+          "bn": "তুমি কাল আসবে না?",
+          "tr": "tumi kal ashbe na?",
+          "en": "Won't you come tomorrow?",
+          "alt": [
+            "Aren't you coming tomorrow?"
+          ]
+        },
+        {
+          "bn": "আমি তাকে বলব না।",
+          "tr": "ami take bolbo na.",
+          "en": "I won't tell him.",
+          "alt": [
+            "I won't tell her."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u11-l07",
+      "kind": "lesson",
+      "title": "Let's make plans",
+      "goal": "Suggest plans, invite friends and elders, and accept.",
+      "grammar": [
+        "'let's' = চল / চলো / চলেন + আমি present; invitations as future questions (আসবে? আসবেন?)",
+        "purpose with -তে: ছবি দেখতে যাব, খেতে যাই"
+      ],
+      "new": [
+        "inshaallah",
+        "berate",
+        "dekhte"
+      ],
+      "review": [
+        "chol",
+        "cholo",
+        "cholen",
+        "khete",
+        "oboshshoi",
+        "amader",
+        "melay",
+        "chhobi",
+        "thik-achhe",
+        "dost"
+      ],
+      "tip": "**Making plans together.**\n\n- 'Let's…' = **চল / চলো / চলেন** + the আমি present: **চলো, বেড়াতে যাই** 'Let's go out'.\n- Invite with a future question: **তুমি কি আমাদের সাথে যাবে?** 'Will you come with us?' To an elder: **আপনি কি … আসবেন?**\n- Purpose with **-তে**: **ছবি দেখতে যাব** 'I'll go to see a film', **খেতে যাই** 'let's go and eat'.\n\nAccept with **অবশ্যই আসব** 'Of course I'll come'. No আমি needed: -ব already says 'I'.\n\nMuslim speakers often add **ইনশাআল্লাহ** 'God willing' to a plan: **ইনশাআল্লাহ, আমি আসব।** Hindu speakers don't use it; a plain future is fine for everyone.",
+      "sentences": [
+        {
+          "bn": "চলো, শুক্রবার বেড়াতে যাই।",
+          "tr": "cholo, shukrobar berate jai.",
+          "en": "Let's go out on Friday.",
+          "alt": [
+            "Let's go on an outing on Friday."
+          ]
+        },
+        {
+          "bn": "আমরা কাল ছবি দেখতে যাব।",
+          "tr": "amra kal chhobi dekhte jabo.",
+          "en": "We will go to see a film tomorrow.",
+          "alt": [
+            "Tomorrow we'll go to see a movie."
+          ]
+        },
+        {
+          "bn": "তুমি কি আমাদের সাথে যাবে?",
+          "tr": "tumi ki amader shathe jabe?",
+          "en": "Will you go with us?",
+          "alt": [
+            "Will you come with us?"
+          ]
+        },
+        {
+          "bn": "ইনশাআল্লাহ, আমি আসব।",
+          "tr": "inshaallah, ami ashbo.",
+          "en": "God willing, I'll come."
+        },
+        {
+          "bn": "চলেন, খেতে যাই।",
+          "tr": "cholen, khete jai.",
+          "en": "Let's go and eat. (polite)",
+          "alt": [
+            "Shall we go and eat?"
+          ]
+        },
+        {
+          "bn": "তুমি কি কাল আমাদের বাসায় আসবে?",
+          "tr": "tumi ki kal amader bashay ashbe?",
+          "en": "Will you come to our home tomorrow?",
+          "alt": [
+            "Will you come to our place tomorrow?"
+          ]
+        },
+        {
+          "bn": "অবশ্যই আসব।",
+          "tr": "oboshshoi ashbo.",
+          "en": "Of course I'll come."
+        },
+        {
+          "bn": "দোস্ত, কাল মেলায় যাবি?",
+          "tr": "dost, kal melay jabi?",
+          "en": "Buddy, will you go to the fair tomorrow?",
+          "alt": [
+            "Mate, are you going to the fair tomorrow?"
+          ]
+        },
+        {
+          "bn": "ঠিক আছে, কাল দেখা হবে।",
+          "tr": "thik achhe, kal dekha hobe.",
+          "en": "OK, see you tomorrow."
+        }
+      ]
+    },
+    {
+      "id": "u11-l08",
+      "kind": "review",
+      "title": "Review: Plans",
+      "goal": "Bring the whole future pattern together: every person, questions, 'won't' and invitations.",
+      "grammar": [
+        "the future across persons: -ব · -বি · -বে · -বেন",
+        "future vs present vs past of the same verb"
+      ],
+      "new": [],
+      "review": [
+        "agamikal",
+        "porshu",
+        "agami",
+        "shamner",
+        "mashe",
+        "dekha-hobe",
+        "korbo",
+        "khabo",
+        "ashbo",
+        "dekhbo",
+        "porbo",
+        "thakbo",
+        "ghumabo",
+        "bolbo",
+        "korbe",
+        "korben",
+        "korbi",
+        "khabe",
+        "dekhbe",
+        "dekhben",
+        "jabi",
+        "thakbe",
+        "thakben",
+        "bolbe",
+        "bolben",
+        "kinbe",
+        "shunbe",
+        "uthbe",
+        "kobe",
+        "kar",
+        "tomake",
+        "janabo",
+        "plyan",
+        "kalker",
+        "byasto",
+        "debo",
+        "deben",
+        "nebo",
+        "inshaallah",
+        "berate",
+        "dekhte"
+      ],
+      "tip": "**One pattern, four endings.** Take the stem from the আমি present (কর-, খা-, কিন-, শুন-) and add:\n\n- আমি / আমরা **-ব** · তুই **-বি** · তুমি / সে / তারা **-বে** · আপনি / উনি **-বেন**\n\nAdd **না** after the verb for 'won't': **আসব না**. Ask with **কবে, কয়টায়, কোথায়, কার সাথে**, and invite with **চলো…** or **আসবে?**\n\nWatch the tense: **করব** 'I'll do' · **করি** 'I do' · **করলাম** 'I did'.",
+      "sentences": [
+        {
+          "bn": "আগামী সপ্তাহে তুমি কী করবে?",
+          "tr": "agami shoptahe tumi ki korbe?",
+          "en": "What will you do next week?"
+        },
+        {
+          "bn": "আমি পরশু গ্রামে যাব।",
+          "tr": "ami porshu grame jabo.",
+          "en": "I will go to the village the day after tomorrow."
+        },
+        {
+          "bn": "উনি আগামী সপ্তাহে ঢাকায় থাকবেন।",
+          "tr": "uni agami shoptahe dhakay thakben.",
+          "en": "He will be in Dhaka next week. (polite)",
+          "alt": [
+            "She will be in Dhaka next week."
+          ]
+        },
+        {
+          "bn": "আমি আজ রাতে টিভি দেখব না।",
+          "tr": "ami aj rate tibhi dekhbo na.",
+          "en": "I won't watch TV tonight."
+        },
+        {
+          "bn": "তুই কি পরশু আসবি?",
+          "tr": "tui ki porshu ashbi?",
+          "en": "Will you come the day after tomorrow? (intimate)"
+        },
+        {
+          "bn": "আমি কাল ব্যস্ত থাকব, তাই আসব না।",
+          "tr": "ami kal byasto thakbo, tai ashbo na.",
+          "en": "I'll be busy tomorrow, so I won't come."
+        },
+        {
+          "bn": "দোস্ত, তুই কি মেলায় যাবি?",
+          "tr": "dost, tui ki melay jabi?",
+          "en": "Buddy, will you go to the fair?"
+        },
+        {
+          "bn": "সে রাতে গান শুনবে।",
+          "tr": "she rate gan shunbe.",
+          "en": "He will listen to songs at night.",
+          "alt": [
+            "She will listen to music at night."
+          ]
+        },
+        {
+          "bn": "আমরা সামনের মাসে গ্রামে যাব।",
+          "tr": "amra shamner mashe grame jabo.",
+          "en": "We will go to the village next month."
+        }
+      ]
+    }
+  ]
+}

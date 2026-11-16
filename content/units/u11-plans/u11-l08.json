@@ -1,0 +1,429 @@
+{
+  "id": "u11-l08",
+  "unit": "u11-plans",
+  "title": "Review: Plans",
+  "status": "draft",
+  "tip": "**One pattern, four endings.** Take the stem from the আমি present (কর-, খা-, কিন-, শুন-) and add:\n\n- আমি / আমরা **-ব** · তুই **-বি** · তুমি / সে / তারা **-বে** · আপনি / উনি **-বেন**\n\nAdd **না** after the verb for 'won't': **আসব না**. Ask with **কবে, কয়টায়, কোথায়, কার সাথে**, and invite with **চলো…** or **আসবে?**\n\nWatch the tense: **করব** 'I'll do' · **করি** 'I do' · **করলাম** 'I did'.",
+  "vocab": [],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "reading",
+      "title": "Friday plans",
+      "lines": [
+        {
+          "speaker": "Rafi",
+          "bn": "নাদিয়া, শুক্রবার তোমার প্ল্যান কী? বাসায় থাকবে?",
+          "tr": "nadiya, shukrobar tomar plyan ki? bashay thakbe?",
+          "en": "Nadia, what's your plan for Friday? Will you stay at home?"
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "সকালে বাসায় বই পড়ব। বিকালে আমরা মেলায় বেড়াতে যাব।",
+          "tr": "shokale bashay boi porbo. bikale amra melay berate jabo.",
+          "en": "In the morning I'll read at home. In the afternoon we'll go out to the fair."
+        },
+        {
+          "speaker": "Rafi",
+          "bn": "মেলায় কী করবে?",
+          "tr": "melay ki korbe?",
+          "en": "What will you do at the fair?"
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "আম্মু শাড়ি কিনবে, আর আমি পিঠা খাব। তুমি কি আমাদের সাথে যাবে?",
+          "tr": "ammu shari kinbe, ar ami pitha khabo. tumi ki amader shathe jabe?",
+          "en": "Mum will buy a sari, and I'll eat pitha. Will you come with us?"
+        },
+        {
+          "speaker": "Rafi",
+          "bn": "ইনশাআল্লাহ যাব। কয়টায় আসব?",
+          "tr": "inshaallah jabo. koytay ashbo?",
+          "en": "God willing, I'll go. What time shall I come?"
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "দুপুরে আমাদের বাসায় খাবে, তারপর যাব। শুক্রবার দেখা হবে।",
+          "tr": "dupure amader bashay khabe, tarpor jabo. shukrobar dekha hobe.",
+          "en": "Have lunch at our place, then we'll go. See you on Friday."
+        }
+      ],
+      "question": "Where will Rafi have lunch on Friday?",
+      "options": [
+        "At Nadia's home",
+        "At the fair",
+        "At his own home"
+      ],
+      "answer": 0,
+      "why": "Nadia says **দুপুরে আমাদের বাসায় খাবে** 'have lunch at our place'."
+    },
+    {
+      "id": "e02",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "আগামীকাল",
+          "tr": "agamikal",
+          "en": "tomorrow"
+        },
+        {
+          "bn": "পরশু",
+          "tr": "porshu",
+          "en": "the day after tomorrow"
+        },
+        {
+          "bn": "কালকের",
+          "tr": "kalker",
+          "en": "tomorrow's"
+        },
+        {
+          "bn": "কবে",
+          "tr": "kobe",
+          "en": "when (on what day)"
+        },
+        {
+          "bn": "ঘুমাব",
+          "tr": "ghumabo",
+          "en": "I will sleep"
+        }
+      ]
+    },
+    {
+      "id": "e03",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "করব",
+          "tr": "korbo",
+          "en": "I will do"
+        },
+        {
+          "bn": "করবেন",
+          "tr": "korben",
+          "en": "you (polite) will do"
+        },
+        {
+          "bn": "করবি",
+          "tr": "korbi",
+          "en": "you (intimate) will do"
+        },
+        {
+          "bn": "দেখবে",
+          "tr": "dekhbe",
+          "en": "you (familiar) will see"
+        },
+        {
+          "bn": "দেখবেন",
+          "tr": "dekhben",
+          "en": "you (polite) will see"
+        }
+      ]
+    },
+    {
+      "id": "e04",
+      "type": "listen_select",
+      "audio": {
+        "bn": "দেবেন",
+        "tr": "deben",
+        "en": "you (polite) will give"
+      },
+      "options": [
+        "দিন",
+        "দেবেন",
+        "দেন",
+        "দেব"
+      ],
+      "answer": 1,
+      "why": "**দেবেন** = polite future 'you will give'."
+    },
+    {
+      "id": "e05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "বলব",
+          "tr": "bolbo",
+          "en": "I will say"
+        },
+        {
+          "bn": "বলবে",
+          "tr": "bolbe",
+          "en": "he / she will say"
+        },
+        {
+          "bn": "বলবেন",
+          "tr": "bolben",
+          "en": "he / she (polite) will say"
+        },
+        {
+          "bn": "দেব",
+          "tr": "debo",
+          "en": "I will give"
+        },
+        {
+          "bn": "নেব",
+          "tr": "nebo",
+          "en": "I will take"
+        }
+      ]
+    },
+    {
+      "id": "e06",
+      "type": "listen_select",
+      "audio": {
+        "bn": "উঠবে",
+        "tr": "uthbe",
+        "en": "you (familiar) / he, she will get up"
+      },
+      "options": [
+        "উঠবে",
+        "উঠলাম",
+        "ওঠেন",
+        "উঠি"
+      ],
+      "answer": 0,
+      "why": "**উঠবে** 'he / she will get up' (stem **উঠ-**)."
+    },
+    {
+      "id": "e07",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "আমি কাল ব্যস্ত থাকব, তাই আসব না।",
+        "tr": "ami kal byasto thakbo, tai ashbo na.",
+        "en": "I'll be busy tomorrow, so I won't come."
+      },
+      "options": [
+        "I'll be free tomorrow, so I'll come.",
+        "I was busy yesterday, so I didn't come.",
+        "You'll be busy tomorrow, so you won't come.",
+        "I'll be busy tomorrow, so I won't come."
+      ],
+      "answer": 3,
+      "why": "**থাকব** 'I will be' and **আসব না** 'I won't come' are both future."
+    },
+    {
+      "id": "e08",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "উনি আগামী সপ্তাহে ঢাকায় থাকবেন।",
+        "tr": "uni agami shoptahe dhakay thakben.",
+        "en": "He will be in Dhaka next week. (polite)",
+        "alt": [
+          "She will be in Dhaka next week."
+        ]
+      },
+      "options": [
+        "I will be in Dhaka next week.",
+        "He lives in Dhaka.",
+        "He will be in Dhaka next week. (polite)",
+        "He was in Dhaka last week."
+      ],
+      "answer": 2,
+      "why": "**উনি** + **থাকবেন** 'will be (there)', polite."
+    },
+    {
+      "id": "e09",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "দোস্ত, তুই কি মেলায় যাবি?",
+        "tr": "dost, tui ki melay jabi?",
+        "en": "Buddy, will you go to the fair?"
+      },
+      "blank": "যাবি",
+      "options": [
+        "যাবে",
+        "যাবি",
+        "যাব",
+        "যাবেন"
+      ],
+      "answer": 1,
+      "why": "**তুই** takes **-বি**: **যাবি**."
+    },
+    {
+      "id": "e10",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "সে রাতে গান শুনবে।",
+        "tr": "she rate gan shunbe.",
+        "en": "He will listen to songs at night.",
+        "alt": [
+          "She will listen to music at night."
+        ]
+      },
+      "blank": "শুনবে",
+      "options": [
+        "শুনবে",
+        "শুনলাম",
+        "শোনে",
+        "শুনি"
+      ],
+      "answer": 0,
+      "why": "Future for **সে**: stem **শুন-** + **-বে**."
+    },
+    {
+      "id": "e11",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "তুমি কার সাথে যাবে?",
+        "tr": "tumi kar shathe jabe?",
+        "en": "Who will you go with? (familiar)"
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "যাবে",
+        "কে",
+        "যাবি",
+        "তুমি",
+        "সাথে",
+        "কার",
+        "কোথায়"
+      ],
+      "answer": [
+        "তুমি",
+        "কার",
+        "সাথে",
+        "যাবে"
+      ],
+      "alt": [
+        [
+          "কার",
+          "সাথে",
+          "যাবে"
+        ],
+        [
+          "কার",
+          "সাথে",
+          "তুমি",
+          "যাবে"
+        ]
+      ],
+      "why": "**কার সাথে** 'with whom'; **তুমি** → **যাবে**."
+    },
+    {
+      "id": "e12",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমি তোমাকে পরে জানাব।",
+        "tr": "ami tomake pore janabo.",
+        "en": "I will let you know later."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "তোমার",
+        "আমি",
+        "আগে",
+        "তোমাকে",
+        "জানাব",
+        "পরে"
+      ],
+      "answer": [
+        "আমি",
+        "তোমাকে",
+        "পরে",
+        "জানাব"
+      ],
+      "alt": [
+        [
+          "তোমাকে",
+          "পরে",
+          "জানাব"
+        ],
+        [
+          "আমি",
+          "পরে",
+          "তোমাকে",
+          "জানাব"
+        ],
+        [
+          "পরে",
+          "তোমাকে",
+          "জানাব"
+        ]
+      ],
+      "why": "**তোমাকে** 'you' (object) + **জানাব** 'I will let know'."
+    },
+    {
+      "id": "e13",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আমরা কাল ছবি দেখতে যাব।",
+        "tr": "amra kal chhobi dekhte jabo.",
+        "en": "We will go to see a film tomorrow.",
+        "alt": [
+          "Tomorrow we'll go to see a movie."
+        ]
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "আমরা কাল টিভি দেখব।",
+        "চলো, কাল মেলায় যাই।",
+        "আমরা গতকাল ছবি দেখলাম।",
+        "আমরা কাল ছবি দেখতে যাব।"
+      ],
+      "answer": 3,
+      "why": "**দেখতে যাব** 'will go to see'."
+    },
+    {
+      "id": "e14",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আমরা সামনের মাসে গ্রামে যাব।",
+        "tr": "amra shamner mashe grame jabo.",
+        "en": "We will go to the village next month."
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "আমরা সামনের মাসে গ্রামে যাব",
+        "আমরা সামনের মাসে গ্রামে যাবো",
+        "আমরা আগামী মাসে গ্রামে যাব",
+        "আমরা আগামী মাসে গ্রামে যাবো",
+        "সামনের মাসে আমরা গ্রামে যাব",
+        "সামনের মাসে আমরা গ্রামে যাবো",
+        "আগামী মাসে আমরা গ্রামে যাব",
+        "আগামী মাসে আমরা গ্রামে যাবো",
+        "সামনের মাসে গ্রামে যাব",
+        "সামনের মাসে গ্রামে যাবো",
+        "আগামী মাসে গ্রামে যাব",
+        "আগামী মাসে গ্রামে যাবো",
+        "amra shamner mashe grame jabo",
+        "amra samner mase grame jabo",
+        "amra agami mashe grame jabo",
+        "amra agami mase grame jabo",
+        "shamner mashe amra grame jabo",
+        "samner mase amra grame jabo",
+        "agami mashe amra grame jabo",
+        "agami mase amra grame jabo",
+        "shamner mashe grame jabo",
+        "samner mase grame jabo",
+        "agami mashe grame jabo",
+        "agami mase grame jabo"
+      ],
+      "why": "**সামনের / আগামী মাসে** 'next month' + **যাব** (আমরা)."
+    },
+    {
+      "id": "e15",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আমি আজ রাতে টিভি দেখব না।",
+        "tr": "ami aj rate tibhi dekhbo na.",
+        "en": "I won't watch TV tonight."
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "আমি আজ রাতে টিভি দেখব না",
+        "আমি আজ রাতে টিভি দেখবো না",
+        "আজ রাতে আমি টিভি দেখব না",
+        "আজ রাতে আমি টিভি দেখবো না",
+        "আজ রাতে টিভি দেখব না",
+        "আজ রাতে টিভি দেখবো না",
+        "আমি রাতে টিভি দেখব না",
+        "আমি রাতে টিভি দেখবো না",
+        "ami aj rate tibhi dekhbo na",
+        "aj rate ami tibhi dekhbo na",
+        "aj rate tibhi dekhbo na",
+        "ami rate tibhi dekhbo na"
+      ],
+      "why": "Future + **না**: **দেখব না** 'I won't watch'."
+    }
+  ]
+}

@@ -1,0 +1,402 @@
+{
+  "id": "u11-l05",
+  "unit": "u11-plans",
+  "title": "When? Where? With whom?",
+  "status": "draft",
+  "tip": "**Asking about plans.** Put the question word before the verb:\n\n- **কবে** 'when, on what day': **তুমি কবে আসবে?**\n- **কয়টায়** / **কখন** 'at what time': **কয়টায় আসবে?**\n- **কোথায়** 'where', **কী** 'what', **কার সাথে** 'with whom'\n\n**কালকের প্ল্যান কী?** 'What's the plan for tomorrow?' **প্ল্যান** is the English word, used everywhere in Bangladesh.\n\n**তোমাকে** is 'you' as an object (তুমি + -কে), like আমাকে and তাকে: **আমি তোমাকে ফোন করব** 'I'll call you', **তোমাকে পরে জানাব** 'I'll let you know later'.",
+  "vocab": [
+    {
+      "id": "kobe",
+      "bn": "কবে",
+      "tr": "kobe",
+      "en": "when (on what day)",
+      "notes": "Asks for the day or date; কখন / কয়টায় ask for the time."
+    },
+    {
+      "id": "kar",
+      "bn": "কার",
+      "tr": "kar",
+      "en": "whose",
+      "notes": "কে 'who' + -র. কার সাথে 'with whom' (literally 'whose with')."
+    },
+    {
+      "id": "tomake",
+      "bn": "তোমাকে",
+      "tr": "tomake",
+      "en": "you (familiar, object)",
+      "notes": "তুমি + -কে, like আমাকে, তাকে, আপনাকে."
+    },
+    {
+      "id": "janabo",
+      "bn": "জানাব",
+      "tr": "janabo",
+      "en": "I will let (you) know",
+      "notes": "Future of জানানো 'let know, inform'. Also spelled জানাবো."
+    },
+    {
+      "id": "plyan",
+      "bn": "প্ল্যান",
+      "tr": "plyan",
+      "en": "plan",
+      "notes": "The English word, used everywhere in Bangladesh: কালকের প্ল্যান কী?"
+    },
+    {
+      "id": "kalker",
+      "bn": "কালকের",
+      "tr": "kalker",
+      "en": "tomorrow's",
+      "notes": "কাল + -এর. Like কাল, it can also mean 'yesterday's'."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "তুমি কবে আসবে?",
+        "tr": "tumi kobe ashbe?",
+        "en": "When will you come?",
+        "alt": [
+          "What day will you come?"
+        ]
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "When will you come?",
+        "Who will come?",
+        "When did you come?",
+        "Why will you come?"
+      ],
+      "answer": 0,
+      "why": "**কবে** asks 'when, on what day'."
+    },
+    {
+      "id": "e02",
+      "type": "listen_select",
+      "audio": {
+        "bn": "কবে",
+        "tr": "kobe",
+        "en": "when (on what day)"
+      },
+      "options": [
+        "কোথায়",
+        "কবে",
+        "কখন",
+        "কেন"
+      ],
+      "answer": 1,
+      "why": "**কবে** 'on what day' vs **কখন** 'at what time'."
+    },
+    {
+      "id": "e03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "তুমি কার সাথে যাবে?",
+        "tr": "tumi kar shathe jabe?",
+        "en": "Who will you go with?",
+        "alt": [
+          "With whom will you go?"
+        ]
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "Who will go with you?",
+        "Where will you go?",
+        "When will you go?",
+        "Who will you go with?"
+      ],
+      "answer": 3,
+      "why": "**কার সাথে** = 'with whom'; **তুমি** is the one going."
+    },
+    {
+      "id": "e04",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "কালকের প্ল্যান কী?",
+        "tr": "kalker plyan ki?",
+        "en": "What's the plan for tomorrow?",
+        "alt": [
+          "What are tomorrow's plans?"
+        ]
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "What will you eat tomorrow?",
+        "What did you do yesterday?",
+        "What's the plan for tomorrow?",
+        "What's your name?"
+      ],
+      "answer": 2,
+      "why": "**কালকের** = কাল + -এর 'tomorrow's'."
+    },
+    {
+      "id": "e05",
+      "type": "listen_select",
+      "audio": {
+        "bn": "তোমাকে",
+        "tr": "tomake",
+        "en": "you (familiar, object)"
+      },
+      "options": [
+        "তোমাকে",
+        "তাকে",
+        "আমাকে",
+        "তোমার"
+      ],
+      "answer": 0,
+      "why": "**তোমাকে** = তুমি + **-কে** 'you' (object)."
+    },
+    {
+      "id": "e06",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আমি তোমাকে পরে জানাব।",
+        "tr": "ami tomake pore janabo.",
+        "en": "I will let you know later."
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "I told him later.",
+        "You will tell me later.",
+        "I will call you later.",
+        "I will let you know later."
+      ],
+      "answer": 3,
+      "why": "**জানাব** 'I will let (you) know'; **তোমাকে** 'you' (object)."
+    },
+    {
+      "id": "e07",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "কবে",
+          "tr": "kobe",
+          "en": "when (on what day)"
+        },
+        {
+          "bn": "কখন",
+          "tr": "kokhon",
+          "en": "when (at what time)"
+        },
+        {
+          "bn": "কোথায়",
+          "tr": "kothay",
+          "en": "where"
+        },
+        {
+          "bn": "কার",
+          "tr": "kar",
+          "en": "whose"
+        },
+        {
+          "bn": "তোমাকে",
+          "tr": "tomake",
+          "en": "you (object)"
+        }
+      ]
+    },
+    {
+      "id": "e08",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "আমি তোমাকে ফোন করব।",
+        "tr": "ami tomake fon korbo.",
+        "en": "I will call you.",
+        "alt": [
+          "I'll phone you."
+        ]
+      },
+      "options": [
+        "I will call him.",
+        "Will you call me?",
+        "I will call you.",
+        "I called you."
+      ],
+      "answer": 2,
+      "why": "**তোমাকে** 'you' + **ফোন করব** 'I will call'."
+    },
+    {
+      "id": "e09",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আপনি কবে ঢাকায় যাবেন?",
+        "tr": "apni kobe dhakay jaben?",
+        "en": "When will you go to Dhaka? (polite)"
+      },
+      "blank": "যাবেন",
+      "options": [
+        "যাব",
+        "যাবেন",
+        "যাবে",
+        "যাবি"
+      ],
+      "answer": 1,
+      "why": "**আপনি** → **-বেন**: **যাবেন**."
+    },
+    {
+      "id": "e10",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "তুমি কয়টায় আসবে?",
+        "tr": "tumi koytay ashbe?",
+        "en": "What time will you come?"
+      },
+      "blank": "কয়টায়",
+      "options": [
+        "কবে",
+        "কয়টায়",
+        "কোথায়",
+        "কার"
+      ],
+      "answer": 1,
+      "why": "'What time' = **কয়টায়**; **কবে** asks 'what day'."
+    },
+    {
+      "id": "e11",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "তুমি কার সাথে যাবে?",
+        "tr": "tumi kar shathe jabe?",
+        "en": "Who will you go with? (familiar)"
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "যাবে",
+        "কবে",
+        "যাবেন",
+        "তুমি",
+        "কার",
+        "কে",
+        "সাথে"
+      ],
+      "answer": [
+        "তুমি",
+        "কার",
+        "সাথে",
+        "যাবে"
+      ],
+      "alt": [
+        [
+          "কার",
+          "সাথে",
+          "যাবে"
+        ],
+        [
+          "কার",
+          "সাথে",
+          "তুমি",
+          "যাবে"
+        ]
+      ],
+      "why": "'With whom' = **কার সাথে**; familiar **তুমি** → **যাবে**."
+    },
+    {
+      "id": "e12",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "কালকের প্ল্যান কী?",
+        "tr": "kalker plyan ki?",
+        "en": "What's the plan for tomorrow?",
+        "alt": [
+          "What are tomorrow's plans?"
+        ]
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "tomorrow",
+        "What's",
+        "your",
+        "yesterday",
+        "the",
+        "for",
+        "name",
+        "plan"
+      ],
+      "answer": [
+        "What's",
+        "the",
+        "plan",
+        "for",
+        "tomorrow"
+      ],
+      "why": "**কালকের** 'tomorrow's' (কাল + -এর); **প্ল্যান** 'plan'."
+    },
+    {
+      "id": "e13",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "তোমরা কোথায় থাকবে?",
+        "tr": "tomra kothay thakbe?",
+        "en": "Where will you stay? (familiar, plural)"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "তোমরা কোথায় থাকবে?",
+        "তোমরা কবে আসবে?",
+        "আপনারা কোথায় থাকবেন?",
+        "তোমরা কোথায় ছিলে?"
+      ],
+      "answer": 0,
+      "why": "Familiar plural **তোমরা** takes **-বে**: **থাকবে**. **ছিলে** is the past."
+    },
+    {
+      "id": "e14",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "তুমি কবে আসবে?",
+        "tr": "tumi kobe ashbe?",
+        "en": "When will you come? (familiar)"
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "তুমি কবে আসবে",
+        "কবে আসবে",
+        "তুমি কখন আসবে",
+        "কখন আসবে",
+        "tumi kobe ashbe",
+        "tumi kobe asbe",
+        "kobe ashbe",
+        "kobe asbe",
+        "tumi kokhon ashbe",
+        "tumi kokhon asbe",
+        "kokhon ashbe",
+        "kokhon asbe"
+      ],
+      "why": "Familiar **তুমি** → **আসবে**; 'when' = **কবে** (day) or **কখন** (time)."
+    },
+    {
+      "id": "e15",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আমি তোমাকে ফোন করব।",
+        "tr": "ami tomake fon korbo.",
+        "en": "I will call you.",
+        "alt": [
+          "I'll phone you."
+        ]
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "আমি তোমাকে ফোন করব",
+        "আমি তোমাকে ফোন করবো",
+        "তোমাকে ফোন করব",
+        "তোমাকে ফোন করবো",
+        "আমি আপনাকে ফোন করব",
+        "আমি আপনাকে ফোন করবো",
+        "আপনাকে ফোন করব",
+        "আপনাকে ফোন করবো",
+        "আমি তোকে ফোন করব",
+        "আমি তোকে ফোন করবো",
+        "তোকে ফোন করব",
+        "তোকে ফোন করবো",
+        "ami tomake fon korbo",
+        "tomake fon korbo",
+        "ami apnake fon korbo",
+        "apnake fon korbo",
+        "ami toke fon korbo",
+        "toke fon korbo"
+      ],
+      "why": "**তোমাকে** 'you' (object) + **ফোন করব** 'I will call'."
+    }
+  ]
+}

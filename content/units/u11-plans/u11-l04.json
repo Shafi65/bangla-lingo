@@ -1,0 +1,413 @@
+{
+  "id": "u11-l04",
+  "unit": "u11-plans",
+  "title": "He'll, she'll, they'll",
+  "status": "draft",
+  "tip": "**He, she and they** use endings you already know:\n\n- সে / ও / তারা → **-বে**: **সে আসবে** 'he'll come', **তারা আসবে** 'they'll come'\n- তিনি / উনি (polite) → **-বেন**: **উনি আসবেন**\n\nSo **-বে** is both 'you (তুমি) will' and 'he/she will', and **-বেন** is both polite 'you' and polite 'he/she'. The pronoun or the context tells you who.\n\n**Vowel change:** in the future, **এ** and **ও** in a stem rise to **ই** and **উ**, as in the আমি present: কেনা → **কিনবে**, শোনা → **শুনবে** (শুনি), ওঠা → **উঠবে** (উঠি). Start from the আমি form and swap the ending.",
+  "vocab": [
+    {
+      "id": "thakbe",
+      "bn": "থাকবে",
+      "tr": "thakbe",
+      "en": "you (familiar) / he, she will stay"
+    },
+    {
+      "id": "thakben",
+      "bn": "থাকবেন",
+      "tr": "thakben",
+      "en": "you / he, she (polite) will stay"
+    },
+    {
+      "id": "bolbe",
+      "bn": "বলবে",
+      "tr": "bolbe",
+      "en": "you (familiar) / he, she will say"
+    },
+    {
+      "id": "bolben",
+      "bn": "বলবেন",
+      "tr": "bolben",
+      "en": "you / he, she (polite) will say"
+    },
+    {
+      "id": "kinbe",
+      "bn": "কিনবে",
+      "tr": "kinbe",
+      "en": "you (familiar) / he, she will buy",
+      "notes": "কেনা 'buy' uses the stem কিন- in the future, as in কিনব."
+    },
+    {
+      "id": "shunbe",
+      "bn": "শুনবে",
+      "tr": "shunbe",
+      "en": "you (familiar) / he, she will listen",
+      "notes": "শোনা 'listen' uses the stem শুন- (as in শুনি)."
+    },
+    {
+      "id": "uthbe",
+      "bn": "উঠবে",
+      "tr": "uthbe",
+      "en": "you (familiar) / he, she will get up",
+      "notes": "ওঠা 'get up' uses the stem উঠ- (as in উঠি)."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "সে কাল বাসায় থাকবে।",
+        "tr": "she kal bashay thakbe.",
+        "en": "She will be at home tomorrow.",
+        "alt": [
+          "He will be at home tomorrow.",
+          "She will stay at home tomorrow."
+        ]
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "She lives at home.",
+        "I will be at home tomorrow.",
+        "She was at home yesterday.",
+        "She will be at home tomorrow."
+      ],
+      "answer": 3,
+      "why": "**সে** takes **-বে**, the same ending as তুমি: **থাকবে**."
+    },
+    {
+      "id": "e02",
+      "type": "listen_select",
+      "audio": {
+        "bn": "থাকবেন",
+        "tr": "thakben",
+        "en": "you / he, she (polite) will stay"
+      },
+      "options": [
+        "থাকবেন",
+        "থাকব",
+        "থাকবে",
+        "থাকেন"
+      ],
+      "answer": 0,
+      "why": "**থাকবেন** = future + polite **-েন**."
+    },
+    {
+      "id": "e03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "উনি আগামী সপ্তাহে ঢাকায় থাকবেন।",
+        "tr": "uni agami shoptahe dhakay thakben.",
+        "en": "She will be in Dhaka next week. (polite)",
+        "alt": [
+          "He will be in Dhaka next week."
+        ]
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "She was in Dhaka last week.",
+        "She lives in Dhaka.",
+        "She will be in Dhaka next week.",
+        "I will be in Dhaka next week."
+      ],
+      "answer": 2,
+      "why": "**উনি** (polite he/she) takes **-বেন**: **থাকবেন**."
+    },
+    {
+      "id": "e04",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "বলবে",
+        "tr": "bolbe",
+        "en": "he / she will say"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "I will say",
+        "he / she will say",
+        "you (polite) will say",
+        "he / she said"
+      ],
+      "answer": 1,
+      "why": "**-বে** after সে: **বলবে** 'he / she will say'."
+    },
+    {
+      "id": "e05",
+      "type": "listen_select",
+      "audio": {
+        "bn": "বলবেন",
+        "tr": "bolben",
+        "en": "you / he, she (polite) will say"
+      },
+      "options": [
+        "বলেন",
+        "বলবেন",
+        "বলব",
+        "বলবে"
+      ],
+      "answer": 1,
+      "why": "**বলবেন** ends in **-বেন** (polite)."
+    },
+    {
+      "id": "e06",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "কিনবে",
+        "tr": "kinbe",
+        "en": "he / she will buy"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "you (polite) will buy",
+        "I will buy",
+        "he / she bought",
+        "he / she will buy"
+      ],
+      "answer": 3,
+      "why": "**কেনা** → stem **কিন-** in the future: **কিনবে**."
+    },
+    {
+      "id": "e07",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "শুনবে",
+          "tr": "shunbe",
+          "en": "he / she will listen"
+        },
+        {
+          "bn": "উঠবে",
+          "tr": "uthbe",
+          "en": "he / she will get up"
+        },
+        {
+          "bn": "বলবেন",
+          "tr": "bolben",
+          "en": "he / she (polite) will say"
+        },
+        {
+          "bn": "থাকবে",
+          "tr": "thakbe",
+          "en": "he / she will stay"
+        },
+        {
+          "bn": "কিনবে",
+          "tr": "kinbe",
+          "en": "he / she will buy"
+        }
+      ]
+    },
+    {
+      "id": "e08",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "রাফি রাতে গান শুনবে।",
+        "tr": "rafi rate gan shunbe.",
+        "en": "Rafi will listen to songs at night.",
+        "alt": [
+          "Rafi will listen to music tonight."
+        ]
+      },
+      "options": [
+        "Rafi will listen to songs at night.",
+        "Rafi listens to songs at night.",
+        "Rafi listened to songs at night.",
+        "I will listen to songs at night."
+      ],
+      "answer": 0,
+      "why": "**শুনবে** is future; শোনা uses the stem **শুন-**."
+    },
+    {
+      "id": "e09",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "সে কাল সকাল সাতটায় উঠবে।",
+        "tr": "she kal shokal shattay uthbe.",
+        "en": "She will get up at seven tomorrow morning.",
+        "alt": [
+          "He will get up at 7 tomorrow morning."
+        ]
+      },
+      "blank": "উঠবে",
+      "options": [
+        "ওঠেন",
+        "উঠলাম",
+        "উঠবে",
+        "উঠি"
+      ],
+      "answer": 2,
+      "why": "**সে** → **-বে**, and ওঠা uses the raised stem **উঠ-** (as in উঠি)."
+    },
+    {
+      "id": "e10",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "উনি কী বলবেন?",
+        "tr": "uni ki bolben?",
+        "en": "What will he say? (polite)",
+        "alt": [
+          "What will she say?"
+        ]
+      },
+      "blank": "বলবেন",
+      "options": [
+        "বলবে",
+        "বলব",
+        "বললাম",
+        "বলবেন"
+      ],
+      "answer": 3,
+      "why": "**উনি** (polite he/she) takes **-বেন**, like আপনি."
+    },
+    {
+      "id": "e11",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "তারা সামনের মাসে আসবে।",
+        "tr": "tara shamner mashe ashbe.",
+        "en": "They will come next month."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "will",
+        "last",
+        "next",
+        "week",
+        "They",
+        "come",
+        "month",
+        "came"
+      ],
+      "answer": [
+        "They",
+        "will",
+        "come",
+        "next",
+        "month"
+      ],
+      "why": "**আসবে** after **তারা** = 'they will come'."
+    },
+    {
+      "id": "e12",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "সে একটা নতুন জামা কিনবে।",
+        "tr": "she ekta notun jama kinbe.",
+        "en": "He will buy a new shirt.",
+        "alt": [
+          "She will buy a new shirt."
+        ]
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "কিনল",
+        "জামা",
+        "সে",
+        "কিনব",
+        "কিনবে",
+        "একটা",
+        "নতুন"
+      ],
+      "answer": [
+        "সে",
+        "একটা",
+        "নতুন",
+        "জামা",
+        "কিনবে"
+      ],
+      "alt": [
+        [
+          "সে",
+          "নতুন",
+          "একটা",
+          "জামা",
+          "কিনবে"
+        ],
+        [
+          "সে",
+          "নতুন",
+          "জামা",
+          "কিনবে"
+        ]
+      ],
+      "why": "**সে** → **কিনবে**. **কিনব** is 'I will buy', **কিনল** 'bought'."
+    },
+    {
+      "id": "e13",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "নাদিয়া কী বলবে?",
+        "tr": "nadiya ki bolbe?",
+        "en": "What will Nadia say?"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "আমি কী বলব?",
+        "নাদিয়া কী বলবে?",
+        "নাদিয়া কী কিনবে?",
+        "নাদিয়া কী শুনবে?"
+      ],
+      "answer": 1,
+      "why": "**বলবে** 'will say' for a third person (নাদিয়া)."
+    },
+    {
+      "id": "e14",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "সে কাল বাসায় থাকবে।",
+        "tr": "she kal bashay thakbe.",
+        "en": "He will be at home tomorrow."
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "সে কাল বাসায় থাকবে",
+        "সে আগামীকাল বাসায় থাকবে",
+        "কাল সে বাসায় থাকবে",
+        "আগামীকাল সে বাসায় থাকবে",
+        "ও কাল বাসায় থাকবে",
+        "ও আগামীকাল বাসায় থাকবে",
+        "উনি কাল বাসায় থাকবেন",
+        "উনি আগামীকাল বাসায় থাকবেন",
+        "she kal bashay thakbe",
+        "se kal basay thakbe",
+        "she kaal bashay thakbe",
+        "she agamikal bashay thakbe",
+        "se agamikal basay thakbe",
+        "kal she bashay thakbe",
+        "kal se basay thakbe",
+        "kaal she bashay thakbe",
+        "agamikal she bashay thakbe",
+        "agamikal se basay thakbe",
+        "o kal bashay thakbe",
+        "o kal basay thakbe",
+        "o kaal bashay thakbe",
+        "o agamikal bashay thakbe",
+        "o agamikal basay thakbe",
+        "uni kal bashay thakben",
+        "uni kal basay thakben",
+        "uni kaal bashay thakben",
+        "uni agamikal bashay thakben",
+        "uni agamikal basay thakben"
+      ],
+      "why": "**সে** + **থাকবে** 'will be (somewhere)'."
+    },
+    {
+      "id": "e15",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "সে বাজারে কী কিনবে?",
+        "tr": "she bajare ki kinbe?",
+        "en": "What will he buy at the market?",
+        "alt": [
+          "What will she buy at the market?"
+        ]
+      },
+      "blank": "কিনবে",
+      "accepted": [
+        "কিনবে",
+        "kinbe",
+        "kinbey"
+      ],
+      "why": "**সে** → **-বে**; কেনা uses the stem **কিন-**: **কিনবে**."
+    }
+  ]
+}

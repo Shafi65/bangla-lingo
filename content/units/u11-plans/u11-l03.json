@@ -1,0 +1,382 @@
+{
+  "id": "u11-l03",
+  "unit": "u11-plans",
+  "title": "Will you?",
+  "status": "draft",
+  "tip": "**Three 'you's, three endings**, just like the present:\n\n- তুই → **-বি**: **করবি** (*korbi*)\n- তুমি → **-বে**: **করবে** (*korbe*)\n- আপনি → **-বেন**: **করবেন** (*korben*)\n\nCompare the present: করিস · করো · করেন. The future just puts **ব** in front of the ending.\n\nEvery verb works the same way: **খাবি · খাবে · খাবেন**, **যাবি · যাবে · যাবেন**.\n\nDon't mix up **করবে** 'you will do' and **করলে** 'you did'.\n\n**তুমি কাল কী করবে?** 'What will you do tomorrow?' is the everyday way to ask about plans. With an elder: **আপনি কাল কী করবেন?**",
+  "vocab": [
+    {
+      "id": "korbe",
+      "bn": "করবে",
+      "tr": "korbe",
+      "en": "you (familiar) / he, she will do",
+      "notes": "Future for তুমি and for সে / ও / তারা. Don't confuse with করলে 'you did'."
+    },
+    {
+      "id": "korben",
+      "bn": "করবেন",
+      "tr": "korben",
+      "en": "you (polite) / he, she (polite) will do"
+    },
+    {
+      "id": "korbi",
+      "bn": "করবি",
+      "tr": "korbi",
+      "en": "you (intimate) will do"
+    },
+    {
+      "id": "khabe",
+      "bn": "খাবে",
+      "tr": "khabe",
+      "en": "you (familiar) / he, she will eat"
+    },
+    {
+      "id": "dekhbe",
+      "bn": "দেখবে",
+      "tr": "dekhbe",
+      "en": "you (familiar) / he, she will see"
+    },
+    {
+      "id": "dekhben",
+      "bn": "দেখবেন",
+      "tr": "dekhben",
+      "en": "you (polite) will see"
+    },
+    {
+      "id": "jabi",
+      "bn": "যাবি",
+      "tr": "jabi",
+      "en": "you (intimate) will go"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "তুমি কাল কী করবে?",
+        "tr": "tumi kal ki korbe?",
+        "en": "What will you do tomorrow?"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "What do you do?",
+        "What did you do yesterday?",
+        "What will you do tomorrow?",
+        "What are you doing?"
+      ],
+      "answer": 2,
+      "why": "**তুমি** takes **-বে** in the future: **করবে** 'you will do'."
+    },
+    {
+      "id": "e02",
+      "type": "listen_select",
+      "audio": {
+        "bn": "করবেন",
+        "tr": "korben",
+        "en": "you (polite) / he, she (polite) will do"
+      },
+      "options": [
+        "করলেন",
+        "করেন",
+        "করবে",
+        "করবেন"
+      ],
+      "answer": 3,
+      "why": "**করবেন** = future + polite **-েন**."
+    },
+    {
+      "id": "e03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আপনি কাল কী করবেন?",
+        "tr": "apni kal ki korben?",
+        "en": "What will you do tomorrow? (polite)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "What will we do tomorrow?",
+        "What will you do tomorrow? (polite)",
+        "What do you do? (polite)",
+        "What did you do? (polite)"
+      ],
+      "answer": 1,
+      "why": "**আপনি** takes **-বেন**: **করবেন**."
+    },
+    {
+      "id": "e04",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "করবি",
+        "tr": "korbi",
+        "en": "you (intimate) will do"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "you (intimate) will do",
+        "you (familiar) will do",
+        "you (intimate) did",
+        "I will do"
+      ],
+      "answer": 0,
+      "why": "**তুই** takes **-বি**: **করবি**. Past is **করলি**."
+    },
+    {
+      "id": "e05",
+      "type": "listen_select",
+      "audio": {
+        "bn": "খাবে",
+        "tr": "khabe",
+        "en": "you (familiar) / he, she will eat"
+      },
+      "options": [
+        "খাবি",
+        "খাবে",
+        "খাবেন",
+        "খাব"
+      ],
+      "answer": 1,
+      "why": "**খাবে** ends in **-বে** (তুমি)."
+    },
+    {
+      "id": "e06",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "তুমি কী খাবে?",
+        "tr": "tumi ki khabe?",
+        "en": "What will you eat?",
+        "alt": [
+          "What will you have?"
+        ]
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "What will you eat?",
+        "What did you eat?",
+        "What will I eat?",
+        "What do you eat?"
+      ],
+      "answer": 0,
+      "why": "**খাবে** is the future for **তুমি**."
+    },
+    {
+      "id": "e07",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "দেখবেন",
+        "tr": "dekhben",
+        "en": "you (polite) will see"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "I will see",
+        "you (familiar) will see",
+        "you (polite) will see",
+        "you (polite) see"
+      ],
+      "answer": 2,
+      "why": "**-বেন** = polite future: **দেখবেন**."
+    },
+    {
+      "id": "e08",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "দেখবে",
+          "tr": "dekhbe",
+          "en": "you (familiar) will see"
+        },
+        {
+          "bn": "যাবি",
+          "tr": "jabi",
+          "en": "you (intimate) will go"
+        },
+        {
+          "bn": "করবি",
+          "tr": "korbi",
+          "en": "you (intimate) will do"
+        },
+        {
+          "bn": "করবেন",
+          "tr": "korben",
+          "en": "you (polite) will do"
+        },
+        {
+          "bn": "খাব",
+          "tr": "khabo",
+          "en": "I will eat"
+        }
+      ]
+    },
+    {
+      "id": "e09",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "তুমি কি ছবি দেখবে?",
+        "tr": "tumi ki chhobi dekhbe?",
+        "en": "Will you watch a film?",
+        "alt": [
+          "Will you see a movie?"
+        ]
+      },
+      "options": [
+        "Did you watch a film?",
+        "Do you watch films?",
+        "I will watch a film.",
+        "Will you watch a film?"
+      ],
+      "answer": 3,
+      "why": "**দেখবে** 'you will watch'; the past would be different (দেখলাম 'I watched')."
+    },
+    {
+      "id": "e10",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আপনি কি চা খাবেন?",
+        "tr": "apni ki cha khaben?",
+        "en": "Will you have tea? (polite)",
+        "alt": [
+          "Would you like some tea?"
+        ]
+      },
+      "blank": "খাবেন",
+      "options": [
+        "খাবেন",
+        "খাব",
+        "খাবি",
+        "খাবে"
+      ],
+      "answer": 0,
+      "why": "**আপনি** always takes **-বেন**: **খাবেন**."
+    },
+    {
+      "id": "e11",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "দোস্ত, তুই কি ঢাকায় যাবি?",
+        "tr": "dost, tui ki dhakay jabi?",
+        "en": "Buddy, will you go to Dhaka?",
+        "alt": [
+          "Mate, will you go to Dhaka?"
+        ]
+      },
+      "blank": "যাবি",
+      "options": [
+        "যাবে",
+        "যাব",
+        "যাবেন",
+        "যাবি"
+      ],
+      "answer": 3,
+      "why": "With **তুই** (a close friend, দোস্ত) the future ends in **-বি**: **যাবি**."
+    },
+    {
+      "id": "e12",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "তুমি কাল কী করবে?",
+        "tr": "tumi kal ki korbe?",
+        "en": "What will you do tomorrow? (familiar)"
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "করবেন",
+        "কাল",
+        "আপনি",
+        "করবে",
+        "তুমি",
+        "কী",
+        "করলে"
+      ],
+      "answer": [
+        "তুমি",
+        "কাল",
+        "কী",
+        "করবে"
+      ],
+      "alt": [
+        [
+          "কাল",
+          "তুমি",
+          "কী",
+          "করবে"
+        ],
+        [
+          "কাল",
+          "কী",
+          "করবে"
+        ]
+      ],
+      "why": "Familiar **তুমি** → **করবে**. **করলে** is the past 'you did'."
+    },
+    {
+      "id": "e13",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আপনি কি টিভি দেখবেন?",
+        "tr": "apni ki tibhi dekhben?",
+        "en": "Will you watch TV? (polite)"
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "কি",
+        "টিভি",
+        "দেখবে",
+        "তুমি",
+        "দেখব",
+        "আপনি",
+        "দেখবেন"
+      ],
+      "answer": [
+        "আপনি",
+        "কি",
+        "টিভি",
+        "দেখবেন"
+      ],
+      "alt": [
+        [
+          "আপনি",
+          "টিভি",
+          "দেখবেন"
+        ]
+      ],
+      "why": "Polite **আপনি** → **দেখবেন**."
+    },
+    {
+      "id": "e14",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "তুমি কি আগামীকাল আসবে?",
+        "tr": "tumi ki agamikal ashbe?",
+        "en": "Will you come tomorrow? (familiar)"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "তুই কি আগামীকাল আসবি?",
+        "তুমি কি আগামীকাল আসবে?",
+        "আপনি কি আগামীকাল আসবেন?",
+        "তুমি কি গতকাল এলে?"
+      ],
+      "answer": 1,
+      "why": "Familiar **তুমি** takes **-বে**: **আসবে**."
+    },
+    {
+      "id": "e15",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আপনি কী খাবেন?",
+        "tr": "apni ki khaben?",
+        "en": "What will you eat? (polite)"
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "আপনি কী খাবেন",
+        "কী খাবেন",
+        "আপনি কি খাবেন",
+        "apni ki khaben",
+        "ki khaben"
+      ],
+      "why": "Polite 'you' → **খাবেন**."
+    }
+  ]
+}

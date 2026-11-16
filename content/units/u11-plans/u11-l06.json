@@ -1,0 +1,378 @@
+{
+  "id": "u11-l06",
+  "unit": "u11-plans",
+  "title": "I won't",
+  "status": "draft",
+  "tip": "**'Won't' = future + না.** Add **না** after the verb, as in the present:\n\n- **যাব** → **যাব না** 'I won't go'\n- **আসবে** → **আসবে না** 'won't come'\n\nDon't use -নি here: **আসেনি** means 'didn't come'.\n\n**দেওয়া** 'give' and **নেওয়া** 'take' have short future stems: **দেব** 'I'll give', **দেবেন** 'you'll give (polite)', **নেব** 'I'll take'. In Bangladesh you'll also hear **দিব, দিবেন, নিব**; both are accepted when you type.\n\nA polite request: **আপনি কি আমাকে একটু পানি দেবেন?** 'Could you give me a little water?' At a shop: **আমি এটা নেব** 'I'll take this one'.",
+  "vocab": [
+    {
+      "id": "byasto",
+      "bn": "ব্যস্ত",
+      "tr": "byasto",
+      "en": "busy"
+    },
+    {
+      "id": "debo",
+      "bn": "দেব",
+      "tr": "debo",
+      "en": "I will give",
+      "notes": "Bangladeshi speech often says দিব (dibo); both are accepted when you type. Also spelled দেবো."
+    },
+    {
+      "id": "deben",
+      "bn": "দেবেন",
+      "tr": "deben",
+      "en": "you (polite) will give",
+      "notes": "Also দিবেন (diben) in Bangladeshi speech. আপনি কি আমাকে … দেবেন? is a polite request."
+    },
+    {
+      "id": "nebo",
+      "bn": "নেব",
+      "tr": "nebo",
+      "en": "I will take",
+      "notes": "Also নিব (nibo) in Bangladeshi speech. Shopping: আমি এটা নেব 'I'll take this one'."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আমি কাল অফিসে যাব না।",
+        "tr": "ami kal ofise jabo na.",
+        "en": "I won't go to the office tomorrow."
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "I will go to the office tomorrow.",
+        "I won't go to the office tomorrow.",
+        "I don't go to the office.",
+        "I didn't go to the office yesterday."
+      ],
+      "answer": 1,
+      "why": "Future + **না** = 'won't': **যাব না**."
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ব্যস্ত",
+        "tr": "byasto",
+        "en": "busy"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "busy",
+        "free",
+        "happy",
+        "difficult"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e03",
+      "type": "listen_select",
+      "audio": {
+        "bn": "দেব",
+        "tr": "debo",
+        "en": "I will give"
+      },
+      "options": [
+        "দিলাম",
+        "দেবেন",
+        "দেন",
+        "দেব"
+      ],
+      "answer": 3,
+      "why": "**দেব** 'I will give' (Bangladesh also says দিব)."
+    },
+    {
+      "id": "e04",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আমি তোমাকে টাকা দেব।",
+        "tr": "ami tomake taka debo.",
+        "en": "I will give you money.",
+        "alt": [
+          "I'll give you the money."
+        ]
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "You will give me money.",
+        "Give me money.",
+        "I will give you money.",
+        "I gave you money."
+      ],
+      "answer": 2,
+      "why": "**দেওয়া** 'give' → **দেব** 'I will give'."
+    },
+    {
+      "id": "e05",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আপনি কি আমাকে একটু পানি দেবেন?",
+        "tr": "apni ki amake ektu pani deben?",
+        "en": "Could you give me a little water?",
+        "alt": [
+          "Will you give me some water?"
+        ]
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "I will give you a little water.",
+        "Give me a little water. (familiar)",
+        "Did you give me water?",
+        "Could you give me a little water?"
+      ],
+      "answer": 3,
+      "why": "**আপনি** + **দেবেন** 'will you give' makes a polite request."
+    },
+    {
+      "id": "e06",
+      "type": "listen_select",
+      "audio": {
+        "bn": "নেব",
+        "tr": "nebo",
+        "en": "I will take"
+      },
+      "options": [
+        "খাব",
+        "নেব",
+        "দেব",
+        "নিলাম"
+      ],
+      "answer": 1,
+      "why": "**নেব** 'I will take' (Bangladesh also says নিব)."
+    },
+    {
+      "id": "e07",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "দেব",
+          "tr": "debo",
+          "en": "I will give"
+        },
+        {
+          "bn": "নেব",
+          "tr": "nebo",
+          "en": "I will take"
+        },
+        {
+          "bn": "ব্যস্ত",
+          "tr": "byasto",
+          "en": "busy"
+        },
+        {
+          "bn": "দেবেন",
+          "tr": "deben",
+          "en": "you (polite) will give"
+        },
+        {
+          "bn": "থাকব",
+          "tr": "thakbo",
+          "en": "I will stay"
+        }
+      ]
+    },
+    {
+      "id": "e08",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "সে আজ আসবে না।",
+        "tr": "she aj ashbe na.",
+        "en": "She won't come today.",
+        "alt": [
+          "He won't come today."
+        ]
+      },
+      "options": [
+        "She will come today.",
+        "She didn't come today.",
+        "She won't come today.",
+        "She came today."
+      ],
+      "answer": 2,
+      "why": "**আসবে না** = 'won't come'; 'didn't come' is **আসেনি**."
+    },
+    {
+      "id": "e09",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আমরা মাংস খাব না।",
+        "tr": "amra mangsho khabo na.",
+        "en": "We won't eat meat."
+      },
+      "blank": "না",
+      "options": [
+        "না",
+        "নই",
+        "নয়",
+        "নেই"
+      ],
+      "answer": 0,
+      "why": "The future is made negative with **না** after the verb: **খাব না**."
+    },
+    {
+      "id": "e10",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আমি কাল ব্যস্ত থাকব।",
+        "tr": "ami kal byasto thakbo.",
+        "en": "I will be busy tomorrow."
+      },
+      "blank": "থাকব",
+      "options": [
+        "ছিলাম",
+        "থাকব",
+        "থাকি",
+        "আছি"
+      ],
+      "answer": 1,
+      "why": "A plan for 'tomorrow' needs the future **থাকব** 'I will be'."
+    },
+    {
+      "id": "e11",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমি তাকে বলব না।",
+        "tr": "ami take bolbo na.",
+        "en": "I won't tell him.",
+        "alt": [
+          "I won't tell her."
+        ]
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "না",
+        "বললাম",
+        "বলব",
+        "নেই",
+        "তাকে",
+        "বলবে",
+        "আমি"
+      ],
+      "answer": [
+        "আমি",
+        "তাকে",
+        "বলব",
+        "না"
+      ],
+      "alt": [
+        [
+          "তাকে",
+          "বলব",
+          "না"
+        ]
+      ],
+      "why": "**বলব** + **না** = 'I won't tell'."
+    },
+    {
+      "id": "e12",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "না, আমি কিছু খাব না।",
+        "tr": "na, ami kichhu khabo na.",
+        "en": "No, I won't eat anything.",
+        "alt": [
+          "No, I won't have anything."
+        ]
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "didn't",
+        "No",
+        "won't",
+        "something",
+        "I",
+        "eat",
+        "anything",
+        "ate"
+      ],
+      "answer": [
+        "No",
+        "I",
+        "won't",
+        "eat",
+        "anything"
+      ],
+      "why": "**খাব না** = 'I won't eat'."
+    },
+    {
+      "id": "e13",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আমি এটা নেব।",
+        "tr": "ami eta nebo.",
+        "en": "I'll take this one.",
+        "alt": [
+          "I will take this."
+        ]
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "আমি এটা নেব না।",
+        "আমি এটা নিলাম।",
+        "আমি এটা নেব।",
+        "আমি এটা দেব।"
+      ],
+      "answer": 2,
+      "why": "**নেব** 'I will take'; **দেব** is 'I will give', **নিলাম** 'I took'."
+    },
+    {
+      "id": "e14",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আমি কাল ব্যস্ত থাকব।",
+        "tr": "ami kal byasto thakbo.",
+        "en": "I will be busy tomorrow."
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "আমি কাল ব্যস্ত থাকব",
+        "আমি কাল ব্যস্ত থাকবো",
+        "কাল আমি ব্যস্ত থাকব",
+        "কাল আমি ব্যস্ত থাকবো",
+        "আমি আগামীকাল ব্যস্ত থাকব",
+        "আমি আগামীকাল ব্যস্ত থাকবো",
+        "আগামীকাল আমি ব্যস্ত থাকব",
+        "আগামীকাল আমি ব্যস্ত থাকবো",
+        "কাল ব্যস্ত থাকব",
+        "কাল ব্যস্ত থাকবো",
+        "আগামীকাল ব্যস্ত থাকব",
+        "আগামীকাল ব্যস্ত থাকবো",
+        "ami kal byasto thakbo",
+        "ami kaal byasto thakbo",
+        "kal ami byasto thakbo",
+        "kaal ami byasto thakbo",
+        "ami agamikal byasto thakbo",
+        "agamikal ami byasto thakbo",
+        "kal byasto thakbo",
+        "kaal byasto thakbo",
+        "agamikal byasto thakbo"
+      ],
+      "why": "'I will be' = **থাকব**: **ব্যস্ত থাকব** 'I'll be busy'."
+    },
+    {
+      "id": "e15",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "তুমি কাল আসবে না?",
+        "tr": "tumi kal ashbe na?",
+        "en": "Won't you come tomorrow?",
+        "alt": [
+          "Aren't you coming tomorrow?"
+        ]
+      },
+      "blank": "আসবে",
+      "accepted": [
+        "আসবে",
+        "ashbe",
+        "asbe",
+        "aashbe"
+      ],
+      "why": "**তুমি** → **-বে**, then **না**: **আসবে না?** 'won't you come?'"
+    }
+  ]
+}

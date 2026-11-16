@@ -7,6 +7,10 @@
       "title": "Foundations"
     },
     {
+      "id": 2,
+      "title": "Everyday life"
+    },
+    {
       "id": 3,
       "title": "Intermediate"
     }
@@ -239,6 +243,24 @@
         "u10-l06b",
         "u10-l07",
         "u10-l08"
+      ]
+    },
+    {
+      "id": "u11-plans",
+      "title": "Plans",
+      "description": "Tomorrow, next week and plans: the future tense for every person",
+      "track": "main",
+      "level": "beginner",
+      "section": 2,
+      "lessons": [
+        "u11-l01",
+        "u11-l02",
+        "u11-l03",
+        "u11-l04",
+        "u11-l05",
+        "u11-l06",
+        "u11-l07",
+        "u11-l08"
       ]
     },
     {
