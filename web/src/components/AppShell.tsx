@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 import type { ComponentType, ReactNode } from "react";
 import { BookIcon, GearIcon, GuideIcon, PathIcon, RepeatIcon, SearchBookIcon } from "./icons";
 import { useDueCount } from "@/lib/review";
+import { TranslateIcon } from "./translate/TranslateIcon";
 import { Logo } from "./Logo";
 import { ProfileIcon } from "./profile/ProfileIcon";
 import { GoalRing, StreakBadge } from "./Stats";
@@ -14,6 +15,8 @@ interface NavItem {
   label: string;
   /** Shorter label for the phone tab bar. */
   short?: string;
+  /** Left out of the phone tab bar (five tabs fit legibly at 360px); still in the wide-screen nav. */
+  wideOnly?: boolean;
   Icon: ComponentType;
 }
 
@@ -22,7 +25,9 @@ const NAV: NavItem[] = [
   { href: "/practice", label: "Practice", Icon: RepeatIcon },
   { href: "/words", label: "My words", short: "Words", Icon: BookIcon },
   { href: "/guide", label: "Guide", Icon: GuideIcon },
-  { href: "/dictionary", label: "Dictionary", short: "Dictionary", Icon: SearchBookIcon },
+  { href: "/translate", label: "Translate", Icon: TranslateIcon },
+  // On phones the Translate page links to the full dictionary ("Browse all ... words").
+  { href: "/dictionary", label: "Dictionary", short: "Dictionary", Icon: SearchBookIcon, wideOnly: true },
 ];
 const PROFILE: NavItem = { href: "/profile", label: "Profile", Icon: ProfileIcon };
 const SETTINGS: NavItem = { href: "/settings", label: "Settings", Icon: GearIcon };
@@ -51,7 +56,8 @@ function isActive(pathname: string, href: string) {
 /**
  * Chrome shared by the non-lesson screens: sticky header with streak + daily
  * goal, inline nav on wide screens and a bottom tab bar on phones (Settings
- * moves to a header button there, keeping the bar to five tabs).
+ * moves to a header button there and Dictionary is reached from Translate,
+ * keeping the bar to five tabs).
  */
 export function AppShell({
   children,
@@ -88,6 +94,7 @@ export function AppShell({
                     item={item}
                     active={isActive(pathname, item.href)}
                     due={item.href === "/practice" ? due : 0}
+                    compact={item === PROFILE || item === SETTINGS}
                   />
                 </li>
               ))}
@@ -136,8 +143,9 @@ export function AppShell({
         className="fixed inset-x-0 bottom-0 z-20 border-t-2 border-line bg-surface/95 pb-[env(safe-area-inset-bottom)] backdrop-blur-md md:hidden"
       >
         <ul className="mx-auto grid max-w-xl grid-cols-5">
-          {NAV.map(({ href, label, short, Icon }) => {
-            const active = isActive(pathname, href);
+          {NAV.filter((item) => !item.wideOnly).map(({ href, label, short, Icon }) => {
+            // The dictionary is opened from Translate on phones, so that tab stays lit there.
+            const active = isActive(pathname, href) || (href === "/translate" && isActive(pathname, "/dictionary"));
             return (
               <li key={href}>
                 <Link
@@ -165,7 +173,8 @@ export function AppShell({
   );
 }
 
-function TopLink({ item, active, due }: { item: NavItem; active: boolean; due: number }) {
+/** `compact`: icon only until very wide screens, so seven links fit one row at 1280px. */
+function TopLink({ item, active, due, compact = false }: { item: NavItem; active: boolean; due: number; compact?: boolean }) {
   const { href, label, Icon } = item;
   return (
     <Link
@@ -178,7 +187,7 @@ function TopLink({ item, active, due }: { item: NavItem; active: boolean; due: n
       }`}
     >
       <Icon />
-      <span className="hidden xl:inline">{label}</span>
+      <span className={`hidden whitespace-nowrap ${compact ? "2xl:inline" : "xl:inline"}`}>{label}</span>
       <DueBadge n={due} />
     </Link>
   );

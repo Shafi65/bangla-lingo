@@ -6,6 +6,7 @@ export const STATIC_ROUTES = [
   "/words",
   "/guide",
   "/dictionary",
+  "/translate",
   "/settings",
   "/offline",
 ] as const;
@@ -26,8 +27,16 @@ export function shellRoutes(opts: {
 
 /**
  * Static page routes from Next's app-path-routes-manifest (values are route patterns): drops
- * dynamic segments (listed separately), file routes (icons, manifest, json) and internals.
+ * dynamic segments (listed separately), file routes (icons, manifest, json), internals and
+ * request handlers under an `api` segment (e.g. /translate/api, which only answers POST).
  */
 export function pageRoutesFromManifest(values: readonly string[]): string[] {
-  return values.filter((r) => r.startsWith("/") && !r.includes("[") && !r.startsWith("/_") && !/\.[A-Za-z0-9]+$/.test(r));
+  return values.filter(
+    (r) =>
+      r.startsWith("/") &&
+      !r.includes("[") &&
+      !r.startsWith("/_") &&
+      !/\.[A-Za-z0-9]+$/.test(r) &&
+      !/(^|\/)api(\/|$)/.test(r),
+  );
 }
