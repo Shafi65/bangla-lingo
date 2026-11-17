@@ -456,54 +456,52 @@
     },
     {
       "id": "r01",
-      "type": "listen_select",
+      "type": "listen_meaning",
       "audio": {
-        "bn": "করছিল",
-        "tr": "korchhilo",
-        "en": "he/she was doing"
+        "bn": "সে অফিসে কাজ করছিল।",
+        "tr": "she ofise kaj korchhilo.",
+        "en": "He was working at the office."
       },
       "options": [
-        "করছিল",
-        "খেয়েছেন",
-        "পারি",
-        "যেতাম"
+        "I have a snack in the afternoon.",
+        "Go straight.",
+        "He was working at the office.",
+        "I am a student, my name is Nadia."
       ],
-      "answer": 0,
+      "answer": 2,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "fill_blank",
-      "sentence": {
-        "bn": "নাদিয়া তখন বাসায় আসছিল।",
-        "tr": "nadiya tokhon bashay ashchhilo.",
-        "en": "Nadia was coming home then."
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আসছিল",
+        "tr": "ashchhilo",
+        "en": "was coming"
       },
-      "blank": "আসছিল",
+      "direction": "en_to_bn",
       "options": [
+        "আসবেন",
+        "ঘুমান",
         "আসছিল",
-        "বসো",
-        "গিয়েছি",
-        "শিখতে"
+        "খেয়েছি"
       ],
-      "answer": 0,
+      "answer": 2,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "listen_meaning",
-      "audio": {
-        "bn": "শহীদ মিনার কোথায়?",
-        "tr": "shohid minar kothay?",
-        "en": "Where is the Shaheed Minar?"
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "ইনশাআল্লাহ, আমি আসব।",
+        "tr": "inshaallah, ami ashbo.",
+        "en": "God willing, I'll come."
       },
-      "options": [
-        "Where is the mosque? Behind the market.",
-        "Where is the Shaheed Minar?",
-        "Independence Day is a holiday.",
-        "You are a student."
+      "blank": "ইনশাআল্লাহ",
+      "accepted": [
+        "ইনশাআল্লাহ",
+        "inshaallah"
       ],
-      "answer": 1,
       "recycle": true
     },
     {
@@ -511,24 +509,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "জন্য",
-          "tr": "jonno",
-          "en": "for"
+          "bn": "দেবেন",
+          "tr": "deben",
+          "en": "you (polite) will give"
         },
         {
-          "bn": "জন্মদিন",
-          "tr": "jonmodin",
-          "en": "birthday"
+          "bn": "কার",
+          "tr": "kar",
+          "en": "whose"
         },
         {
-          "bn": "লোক",
-          "tr": "lok",
-          "en": "people"
+          "bn": "থাকবেন",
+          "tr": "thakben",
+          "en": "you / he, she (polite) will stay"
         },
         {
-          "bn": "পূজা",
-          "tr": "puja",
-          "en": "puja"
+          "bn": "করবি",
+          "tr": "korbi",
+          "en": "you (intimate) will do"
         }
       ],
       "recycle": true
@@ -538,24 +536,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "পূজায়",
-          "tr": "pujay",
-          "en": "at Puja"
+          "bn": "ব্যস্ত",
+          "tr": "byasto",
+          "en": "busy"
         },
         {
-          "bn": "মন্দিরে",
-          "tr": "mondire",
-          "en": "to the temple"
+          "bn": "প্ল্যান",
+          "tr": "plyan",
+          "en": "plan"
         },
         {
-          "bn": "স্বাধীনতা",
-          "tr": "shadhinota",
-          "en": "independence"
+          "bn": "কালকের",
+          "tr": "kalker",
+          "en": "tomorrow's"
         },
         {
-          "bn": "ভাষা",
-          "tr": "bhasha",
-          "en": "language"
+          "bn": "দেব",
+          "tr": "debo",
+          "en": "I will give"
         }
       ],
       "recycle": true

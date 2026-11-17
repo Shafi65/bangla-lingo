@@ -409,12 +409,12 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "egg",
-        "meaning",
         "fair",
-        "road"
+        "brother",
+        "bath",
+        "hotel"
       ],
-      "answer": 2,
+      "answer": 0,
       "recycle": true
     },
     {
@@ -426,30 +426,30 @@
         "en": "to the fair"
       },
       "options": [
-        "শুক্রবার",
         "মেলায়",
-        "গ্রাম",
-        "ক্ষুধা"
+        "ভাইয়া",
+        "বোন",
+        "দাঁত"
       ],
-      "answer": 1,
+      "answer": 0,
       "recycle": true
     },
     {
       "id": "r03",
       "type": "select_translation",
       "prompt": {
-        "bn": "পহেলা বৈশাখ",
-        "tr": "pohela boishakh",
-        "en": "Pohela Boishakh"
+        "bn": "পান্তা ভাত",
+        "tr": "panta bhat",
+        "en": "panta bhat"
       },
       "direction": "en_to_bn",
       "options": [
-        "এখনো না",
-        "কী হয়েছে",
+        "পান্তা ভাত",
+        "কখনো না",
         "ঠিক আছে",
-        "পহেলা বৈশাখ"
+        "খোদা হাফেজ"
       ],
-      "answer": 3,
+      "answer": 0,
       "recycle": true
     },
     {
@@ -457,9 +457,9 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "ঘুমান",
-          "tr": "ghuman",
-          "en": "you sleep (polite)"
+          "bn": "সাড়ে",
+          "tr": "share",
+          "en": "half past"
         },
         {
           "bn": "আলপনা",
@@ -467,14 +467,14 @@
           "en": "alpona"
         },
         {
-          "bn": "কয়টায়",
-          "tr": "koytay",
-          "en": "at what time"
+          "bn": "চাও",
+          "tr": "chao",
+          "en": "(you, familiar) want"
         },
         {
-          "bn": "বলেন",
-          "tr": "bolen",
-          "en": "you speak (polite)"
+          "bn": "নয়",
+          "tr": "noy",
+          "en": "is not"
         }
       ],
       "recycle": true
@@ -484,24 +484,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "আছিস",
-          "tr": "achhish",
-          "en": "are (intimate)"
+          "bn": "ডানে",
+          "tr": "dane",
+          "en": "right"
+        },
+        {
+          "bn": "ওখানে",
+          "tr": "okhane",
+          "en": "there"
+        },
+        {
+          "bn": "আপনারা",
+          "tr": "apnara",
+          "en": "you (polite, plural)"
         },
         {
           "bn": "হ্যাঁ",
           "tr": "hya~",
           "en": "yes"
-        },
-        {
-          "bn": "নও",
-          "tr": "noo",
-          "en": "are not (familiar)"
-        },
-        {
-          "bn": "ত্রিশ",
-          "tr": "trish",
-          "en": "thirty"
         }
       ],
       "recycle": true

@@ -244,40 +244,56 @@
     {
       "id": "e12",
       "type": "word_bank",
-      "direction": "bn_to_en",
       "prompt": {
-        "bn": "তোমার নাম কী?",
-        "tr": "tomar nam ki?",
-        "en": "What is your name?"
+        "bn": "আমি শিক্ষক, আমার নাম নাদিয়া।",
+        "tr": "ami shikkhok, amar nam nadiya.",
+        "en": "I am a teacher, my name is Nadia."
       },
+      "direction": "en_to_bn",
       "tiles": [
-        "name",
-        "my",
-        "what",
-        "your",
-        "am",
-        "is"
+        "আমার",
+        "শিক্ষক",
+        "আপনার",
+        "নাদিয়া",
+        "আমি",
+        "নাম",
+        "ছাত্রী"
       ],
       "answer": [
-        "what",
-        "is",
-        "your",
-        "name"
-      ]
+        "আমি",
+        "শিক্ষক",
+        "আমার",
+        "নাম",
+        "নাদিয়া"
+      ],
+      "alt": [
+        [
+          "আমার",
+          "নাম",
+          "নাদিয়া",
+          "আমি",
+          "শিক্ষক"
+        ]
+      ],
+      "why": "'I' is **আমি**; 'my' is **আমার**."
     },
     {
       "id": "e13",
       "type": "type_translation",
-      "direction": "bn_to_en",
       "prompt": {
         "bn": "আপনার নাম কী?",
         "tr": "apnar nam ki?",
-        "en": "What is your name?"
+        "en": "What is your name? (polite)"
       },
+      "direction": "en_to_bn",
       "accepted": [
-        "what is your name",
-        "what's your name"
-      ]
+        "আপনার নাম কী?",
+        "apnar nam ki",
+        "apnar naam ki",
+        "aapnar nam ki",
+        "aapnar naam ki"
+      ],
+      "why": "The polite 'your' is **আপনার**; **তোমার** is familiar."
     },
     {
       "id": "e14",
@@ -306,12 +322,12 @@
       },
       "direction": "en_to_bn",
       "options": [
-        "তুমি",
         "কী",
-        "তোমার",
-        "আমার"
+        "তুমি",
+        "আপনার",
+        "তোমার"
       ],
-      "answer": 0,
+      "answer": 1,
       "recycle": true
     },
     {
@@ -324,29 +340,29 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "your (polite)",
-        "your (familiar)",
         "you (polite)",
-        "what"
+        "my",
+        "what",
+        "your (familiar)"
       ],
-      "answer": 2,
+      "answer": 0,
       "recycle": true
     },
     {
       "id": "r03",
       "type": "listen_select",
       "audio": {
-        "bn": "শিক্ষক",
-        "tr": "shikkhok",
-        "en": "teacher"
+        "bn": "ছাত্র",
+        "tr": "chhatro",
+        "en": "student (male)"
       },
       "options": [
-        "নাম",
-        "ছাত্র",
         "ছাত্রী",
+        "ছাত্র",
+        "নাম",
         "শিক্ষক"
       ],
-      "answer": 3,
+      "answer": 1,
       "recycle": true
     }
   ]

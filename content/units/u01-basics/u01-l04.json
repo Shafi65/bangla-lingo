@@ -278,41 +278,44 @@
     {
       "id": "e12",
       "type": "word_bank",
-      "direction": "bn_to_en",
       "prompt": {
-        "bn": "ভালো আছি, আর আপনি?",
-        "tr": "bhalo achhi, ar apni?",
-        "en": "I'm well, and you?"
+        "bn": "ভালো আছি, আর তুমি?",
+        "tr": "bhalo achhi, ar tumi?",
+        "en": "I'm well, and you? (familiar)"
       },
+      "direction": "en_to_bn",
       "tiles": [
-        "very",
-        "and",
-        "I'm",
-        "how",
-        "you",
-        "well",
-        "are"
+        "আছো",
+        "ভালো",
+        "তুমি",
+        "কেমন",
+        "আছি",
+        "আপনি",
+        "আর"
       ],
       "answer": [
-        "I'm",
-        "well",
-        "and",
-        "you"
-      ]
+        "ভালো",
+        "আছি",
+        "আর",
+        "তুমি"
+      ],
+      "why": "With a friend the 'you' is **তুমি**; **আছি** goes with 'I'."
     },
     {
       "id": "e13",
       "type": "type_translation",
-      "direction": "bn_to_en",
       "prompt": {
         "bn": "খুব ভালো।",
         "tr": "khub bhalo.",
         "en": "Very good."
       },
+      "direction": "en_to_bn",
       "accepted": [
-        "very good",
-        "very well",
-        "very fine"
+        "খুব ভালো।",
+        "khub bhalo",
+        "khoob bhalo",
+        "khub valo",
+        "khoob valo"
       ]
     },
     {
@@ -398,19 +401,19 @@
           "en": "what"
         },
         {
-          "bn": "হ্যাঁ",
-          "tr": "hya~",
-          "en": "yes"
-        },
-        {
-          "bn": "ছাত্র",
-          "tr": "chhatro",
-          "en": "student (male)"
+          "bn": "না",
+          "tr": "na",
+          "en": "no"
         },
         {
           "bn": "নাম",
           "tr": "nam",
           "en": "name"
+        },
+        {
+          "bn": "হ্যাঁ",
+          "tr": "hya~",
+          "en": "yes"
         }
       ],
       "recycle": true

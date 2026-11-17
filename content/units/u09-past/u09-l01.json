@@ -371,53 +371,53 @@
       "id": "r01",
       "type": "listen_select",
       "audio": {
-        "bn": "শহর",
-        "tr": "shohor",
-        "en": "city"
+        "bn": "পর্যন্ত",
+        "tr": "porjonto",
+        "en": "to"
       },
       "options": [
-        "টাকা",
-        "হোটেলের",
-        "শহর",
-        "মামি"
+        "পর্যন্ত",
+        "দিকে",
+        "বাইরে",
+        "পাশে"
       ],
-      "answer": 2,
+      "answer": 0,
       "recycle": true
     },
     {
       "id": "r02",
       "type": "select_translation",
       "prompt": {
-        "bn": "স্টেশনে",
-        "tr": "steshone",
-        "en": "to the station"
+        "bn": "যাব",
+        "tr": "jabo",
+        "en": "I will go"
       },
       "direction": "en_to_bn",
       "options": [
-        "স্টেশনে",
-        "আপা",
-        "লুঙ্গি",
-        "মন্দির"
+        "ঘুমান",
+        "যাব",
+        "জানি",
+        "পারি"
       ],
-      "answer": 0,
+      "answer": 1,
       "recycle": true
     },
     {
       "id": "r03",
       "type": "select_translation",
       "prompt": {
-        "bn": "ট্রেন",
-        "tr": "tren",
-        "en": "train"
+        "bn": "তাহলে",
+        "tr": "tahole",
+        "en": "then"
       },
       "direction": "bn_to_en",
       "options": [
-        "at the intersection",
-        "train",
-        "meaning",
-        "car"
+        "but",
+        "OK",
+        "and",
+        "then"
       ],
-      "answer": 1,
+      "answer": 3,
       "recycle": true
     },
     {
@@ -425,24 +425,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "গ্রামে",
-          "tr": "grame",
-          "en": "in the village"
+          "bn": "গাড়ি",
+          "tr": "gari",
+          "en": "car"
         },
         {
-          "bn": "গ্রাম",
-          "tr": "gram",
-          "en": "village"
+          "bn": "ভাড়া",
+          "tr": "bhara",
+          "en": "fare"
         },
         {
-          "bn": "মন্দির",
-          "tr": "mondir",
-          "en": "temple"
+          "bn": "নাস্তার",
+          "tr": "nashtar",
+          "en": "of breakfast"
         },
         {
-          "bn": "হাসপাতাল",
-          "tr": "hashpatal",
-          "en": "hospital"
+          "bn": "শহর",
+          "tr": "shohor",
+          "en": "city"
         }
       ],
       "recycle": true
@@ -452,24 +452,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "টিকিট",
-          "tr": "tikit",
-          "en": "ticket"
+          "bn": "হাসপাতাল",
+          "tr": "hashpatal",
+          "en": "hospital"
         },
         {
-          "bn": "মসজিদের",
-          "tr": "moshjider",
-          "en": "of the mosque"
+          "bn": "মন্দির",
+          "tr": "mondir",
+          "en": "temple"
         },
         {
-          "bn": "বাজারের",
-          "tr": "bajarer",
-          "en": "of the market"
+          "bn": "গ্রাম",
+          "tr": "gram",
+          "en": "village"
         },
         {
-          "bn": "রিকশা",
-          "tr": "riksha",
-          "en": "rickshaw"
+          "bn": "শহরে",
+          "tr": "shohore",
+          "en": "in the city"
         }
       ],
       "recycle": true

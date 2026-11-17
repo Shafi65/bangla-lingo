@@ -358,53 +358,53 @@
       "id": "r01",
       "type": "listen_select",
       "audio": {
-        "bn": "কেন",
-        "tr": "keno",
-        "en": "why"
+        "bn": "রাখেন",
+        "tr": "rakhen",
+        "en": "keep (polite)"
       },
       "options": [
-        "আজ",
-        "কেন",
-        "সপ্তাহে",
-        "শুধু"
+        "রাখেন",
+        "এসেছি",
+        "নন",
+        "খান"
       ],
-      "answer": 1,
+      "answer": 0,
       "recycle": true
     },
     {
       "id": "r02",
       "type": "select_translation",
       "prompt": {
-        "bn": "এত",
-        "tr": "eto",
-        "en": "so"
+        "bn": "কেন",
+        "tr": "keno",
+        "en": "why"
       },
       "direction": "en_to_bn",
       "options": [
-        "এত",
-        "শুধু",
         "রাতে",
-        "আজ"
+        "বিকালে",
+        "শুধু",
+        "কেন"
       ],
-      "answer": 0,
+      "answer": 3,
       "recycle": true
     },
     {
       "id": "r03",
       "type": "select_translation",
       "prompt": {
-        "bn": "রাখেন",
-        "tr": "rakhen",
-        "en": "keep (polite)"
+        "bn": "এত",
+        "tr": "eto",
+        "en": "so"
       },
       "direction": "bn_to_en",
       "options": [
-        "give (familiar)",
-        "(you, familiar) eat",
-        "is not",
-        "keep (polite)"
+        "a little",
+        "at night",
+        "so",
+        "tomorrow; yesterday"
       ],
-      "answer": 3,
+      "answer": 2,
       "recycle": true
     },
     {
@@ -417,14 +417,14 @@
           "en": "cheap"
         },
         {
+          "bn": "শেষ",
+          "tr": "shesh",
+          "en": "last"
+        },
+        {
           "bn": "বেশি",
           "tr": "beshi",
           "en": "more"
-        },
-        {
-          "bn": "কম",
-          "tr": "kom",
-          "en": "less"
         },
         {
           "bn": "দামি",
@@ -439,24 +439,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "দাও",
-          "tr": "dao",
-          "en": "give (familiar)"
-        },
-        {
-          "bn": "শেষ",
-          "tr": "shesh",
-          "en": "last"
-        },
-        {
-          "bn": "আমাকে",
-          "tr": "amake",
-          "en": "me"
+          "bn": "দে",
+          "tr": "de",
+          "en": "give (intimate)"
         },
         {
           "bn": "আরও",
           "tr": "aro",
           "en": "more"
+        },
+        {
+          "bn": "কম",
+          "tr": "kom",
+          "en": "less"
+        },
+        {
+          "bn": "আমাকে",
+          "tr": "amake",
+          "en": "me"
         }
       ],
       "recycle": true

@@ -382,6 +382,113 @@
         "agamikal dekha hobe"
       ],
       "why": "**দেখা হবে** '(we) will meet' = 'see you'."
+    },
+    {
+      "id": "r01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আপনাকে",
+        "tr": "apnake",
+        "en": "you (polite, object)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "these",
+        "someone",
+        "you (polite, object)",
+        "your (polite)"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "listen_select",
+      "audio": {
+        "bn": "মেহমান",
+        "tr": "mehman",
+        "en": "guest"
+      },
+      "options": [
+        "অফিস",
+        "ভাই",
+        "ফুফু",
+        "মেহমান"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "শিক্ষার্থী",
+        "tr": "shikkharthi",
+        "en": "student"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "বউ",
+        "সন্ধ্যা",
+        "শিক্ষার্থী",
+        "খাবার"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "আরও",
+          "tr": "aro",
+          "en": "more"
+        },
+        {
+          "bn": "এত",
+          "tr": "eto",
+          "en": "so"
+        },
+        {
+          "bn": "পনেরো",
+          "tr": "ponero",
+          "en": "fifteen"
+        },
+        {
+          "bn": "দিনটা",
+          "tr": "dinta",
+          "en": "the day"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "আছি",
+          "tr": "achhi",
+          "en": "am"
+        },
+        {
+          "bn": "বন্ধ",
+          "tr": "bondho",
+          "en": "closed"
+        },
+        {
+          "bn": "ত্রিশ",
+          "tr": "trish",
+          "en": "thirty"
+        },
+        {
+          "bn": "এলাম",
+          "tr": "elam",
+          "en": "I came"
+        }
+      ],
+      "recycle": true
     }
   ]
 }

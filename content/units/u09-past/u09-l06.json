@@ -367,53 +367,53 @@
       "id": "r01",
       "type": "listen_select",
       "audio": {
-        "bn": "যাইনি",
-        "tr": "jaini",
-        "en": "I didn't go"
+        "bn": "দেখিনি",
+        "tr": "dekhini",
+        "en": "I didn't see"
       },
       "options": [
-        "খাইনি",
-        "আসি",
-        "গেলাম",
-        "যাইনি"
+        "দেখিনি",
+        "করলাম",
+        "যায়",
+        "থাকেন"
       ],
-      "answer": 3,
+      "answer": 0,
       "recycle": true
     },
     {
       "id": "r02",
       "type": "select_translation",
       "prompt": {
-        "bn": "করিনি",
-        "tr": "korini",
-        "en": "I didn't do"
+        "bn": "খাইনি",
+        "tr": "khaini",
+        "en": "I haven't eaten"
       },
       "direction": "en_to_bn",
       "options": [
-        "ছিলে",
-        "করলাম",
-        "দেখে",
-        "করিনি"
+        "ছিলেন",
+        "খাস",
+        "খাইনি",
+        "দাও"
       ],
-      "answer": 3,
+      "answer": 2,
       "recycle": true
     },
     {
       "id": "r03",
       "type": "select_translation",
       "prompt": {
-        "bn": "দেখিনি",
-        "tr": "dekhini",
-        "en": "I didn't see"
+        "bn": "আসেনি",
+        "tr": "asheni",
+        "en": "hasn't come"
       },
       "direction": "bn_to_en",
       "options": [
-        "you did (polite)",
-        "am",
-        "I didn't see",
-        "I have eaten"
+        "stop (polite)",
+        "hasn't come",
+        "I was",
+        "is not / are not (polite)"
       ],
-      "answer": 2,
+      "answer": 1,
       "recycle": true
     },
     {
@@ -421,24 +421,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "খাইনি",
-          "tr": "khaini",
-          "en": "I haven't eaten"
+          "bn": "খাওনি",
+          "tr": "khaoni",
+          "en": "you didn't eat (familiar)"
+        },
+        {
+          "bn": "যাইনি",
+          "tr": "jaini",
+          "en": "I didn't go"
+        },
+        {
+          "bn": "করিনি",
+          "tr": "korini",
+          "en": "I didn't do"
         },
         {
           "bn": "ইতিমধ্যে",
           "tr": "itimoddhe",
           "en": "already"
-        },
-        {
-          "bn": "এখনো",
-          "tr": "ekhono",
-          "en": "yet"
-        },
-        {
-          "bn": "আসেনি",
-          "tr": "asheni",
-          "en": "hasn't come"
         }
       ],
       "recycle": true
@@ -448,24 +448,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "দিলাম",
-          "tr": "dilam",
-          "en": "I gave"
+          "bn": "খেলাম",
+          "tr": "khelam",
+          "en": "I ate"
         },
         {
-          "bn": "এলাম",
-          "tr": "elam",
-          "en": "I came"
+          "bn": "এলে",
+          "tr": "ele",
+          "en": "you came (familiar)"
         },
         {
-          "bn": "খাওনি",
-          "tr": "khaoni",
-          "en": "you didn't eat (familiar)"
+          "bn": "গেল",
+          "tr": "gelo",
+          "en": "went"
         },
         {
-          "bn": "নিলাম",
-          "tr": "nilam",
-          "en": "I took"
+          "bn": "এখনো",
+          "tr": "ekhono",
+          "en": "yet"
         }
       ],
       "recycle": true

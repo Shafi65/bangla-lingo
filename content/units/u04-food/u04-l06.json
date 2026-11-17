@@ -287,51 +287,35 @@
     },
     {
       "id": "e11",
-      "type": "word_bank",
-      "prompt": {
+      "type": "fill_blank",
+      "sentence": {
         "bn": "আমার ক্ষুধা লেগেছে।",
         "tr": "amar khudha legechhe.",
         "en": "I'm hungry."
       },
-      "direction": "en_to_bn",
-      "tiles": [
+      "blank": "আমার",
+      "accepted": [
         "আমার",
-        "ক্ষুধা",
-        "লেগেছে",
-        "আমি",
-        "ভালো",
-        "তোমার"
+        "amar",
+        "aamar"
       ],
-      "answer": [
-        "আমার",
-        "ক্ষুধা",
-        "লেগেছে"
-      ]
+      "why": "Hunger 'comes on' to you: **আমার** ক্ষুধা লেগেছে, not আমি."
     },
     {
       "id": "e12",
-      "type": "word_bank",
-      "prompt": {
+      "type": "listen_meaning",
+      "audio": {
         "bn": "মিষ্টি আমার খুব পছন্দ।",
         "tr": "mishti amar khub pochhondo.",
         "en": "I really like sweets."
       },
-      "direction": "bn_to_en",
-      "tiles": [
-        "I",
-        "really",
-        "like",
-        "sweets",
-        "don't",
-        "spicy",
-        "food"
+      "options": [
+        "I really like sweets.",
+        "I don't like sweets.",
+        "This sweet is very spicy.",
+        "Do you like sweets?"
       ],
-      "answer": [
-        "I",
-        "really",
-        "like",
-        "sweets"
-      ]
+      "answer": 0
     },
     {
       "id": "e14",
@@ -384,20 +368,19 @@
       "id": "e13",
       "type": "type_translation",
       "prompt": {
-        "bn": "আমার ঝাল পছন্দ না।",
-        "tr": "amar jhal pochhondo na.",
-        "en": "I don't like spicy food."
+        "bn": "এটা খুব ঝাল।",
+        "tr": "eta khub jhal.",
+        "en": "This is very spicy."
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "accepted": [
-        "I don't like spicy food.",
-        "I do not like spicy food.",
-        "I don't like spicy things.",
-        "I do not like spicy things.",
-        "I don't like hot food.",
-        "I do not like hot food.",
-        "I don't like spicy.",
-        "I don't like spicy foods."
+        "এটা খুব ঝাল।",
+        "eta khub jhal",
+        "eta khub jhaal",
+        "eta khub jal",
+        "eta khoob jhal",
+        "eta khoob jhaal",
+        "eta khoob jal"
       ]
     },
     {
@@ -490,14 +473,14 @@
           "en": "milk"
         },
         {
+          "bn": "ডাল",
+          "tr": "dal",
+          "en": "lentils"
+        },
+        {
           "bn": "লবণ",
           "tr": "lobon",
           "en": "salt"
-        },
-        {
-          "bn": "মুরগি",
-          "tr": "murgi",
-          "en": "chicken"
         },
         {
           "bn": "কলা",

@@ -278,39 +278,21 @@
     },
     {
       "id": "e13",
-      "type": "word_bank",
-      "prompt": {
+      "type": "fill_blank",
+      "sentence": {
         "bn": "সে আমার বন্ধু নয়।",
         "tr": "she amar bondhu noy.",
         "en": "He is not my friend."
       },
-      "direction": "bn_to_en",
-      "tiles": [
-        "He",
-        "She",
-        "is",
-        "not",
-        "my",
-        "friend",
-        "here",
-        "teacher"
+      "blank": "নয়",
+      "options": [
+        "নই",
+        "নন",
+        "নয়",
+        "নও"
       ],
-      "answer": [
-        "He",
-        "is",
-        "not",
-        "my",
-        "friend"
-      ],
-      "alt": [
-        [
-          "She",
-          "is",
-          "not",
-          "my",
-          "friend"
-        ]
-      ]
+      "answer": 2,
+      "why": "For সে the 'is not' form is **নয়**; নই goes with আমি, নও with তুমি, নন is polite."
     },
     {
       "id": "e14",
@@ -365,16 +347,16 @@
       "id": "r01",
       "type": "select_translation",
       "prompt": {
-        "bn": "কি",
-        "tr": "ki",
-        "en": "(yes/no question marker)"
+        "bn": "কে",
+        "tr": "ke",
+        "en": "who"
       },
       "direction": "en_to_bn",
       "options": [
-        "না",
-        "আর",
-        "কি",
-        "জি"
+        "তোরা",
+        "আমার",
+        "কে",
+        "তোমরা"
       ],
       "answer": 2,
       "recycle": true
@@ -383,35 +365,35 @@
       "id": "r02",
       "type": "select_translation",
       "prompt": {
-        "bn": "কে",
-        "tr": "ke",
-        "en": "who"
+        "bn": "ওটা",
+        "tr": "ota",
+        "en": "that"
       },
       "direction": "bn_to_en",
       "options": [
-        "you (polite, plural)",
+        "we",
         "that",
         "who",
-        "you (intimate, plural)"
+        "you (intimate)"
       ],
-      "answer": 2,
+      "answer": 1,
       "recycle": true
     },
     {
       "id": "r03",
       "type": "listen_select",
       "audio": {
-        "bn": "ওটা",
-        "tr": "ota",
-        "en": "that"
+        "bn": "কি",
+        "tr": "ki",
+        "en": "(yes/no question marker)"
       },
       "options": [
-        "তোমার",
-        "ওরা",
-        "আপনি",
-        "ওটা"
+        "জি",
+        "হ্যাঁ",
+        "কি",
+        "আর"
       ],
-      "answer": 3,
+      "answer": 2,
       "recycle": true
     },
     {
@@ -429,14 +411,14 @@
           "en": "they"
         },
         {
+          "bn": "মেয়ে",
+          "tr": "meye",
+          "en": "girl"
+        },
+        {
           "bn": "আমরা",
           "tr": "amra",
           "en": "we"
-        },
-        {
-          "bn": "ছেলে",
-          "tr": "chhele",
-          "en": "boy"
         }
       ],
       "recycle": true
@@ -446,14 +428,14 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "মেয়ে",
-          "tr": "meye",
-          "en": "girl"
+          "bn": "তিনি",
+          "tr": "tini",
+          "en": "he/she (polite)"
         },
         {
-          "bn": "আপনারা",
-          "tr": "apnara",
-          "en": "you (polite, plural)"
+          "bn": "ছেলে",
+          "tr": "chhele",
+          "en": "boy"
         },
         {
           "bn": "মানুষ",
@@ -461,9 +443,9 @@
           "en": "person"
         },
         {
-          "bn": "ও",
-          "tr": "o",
-          "en": "he/she (spoken)"
+          "bn": "আপনারা",
+          "tr": "apnara",
+          "en": "you (polite, plural)"
         }
       ],
       "recycle": true

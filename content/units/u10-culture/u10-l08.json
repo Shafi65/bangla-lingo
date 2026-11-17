@@ -384,47 +384,47 @@
       },
       "direction": "en_to_bn",
       "options": [
-        "শহীদ মিনার",
-        "ওয়ালাইকুম আসসালাম",
         "ঈদ মোবারক",
-        "বিজয় দিবস"
+        "শহীদ মিনার",
+        "মনে হয়",
+        "আলহামদুলিল্লাহ"
       ],
-      "answer": 0,
+      "answer": 1,
       "recycle": true
     },
     {
       "id": "r02",
       "type": "select_translation",
       "prompt": {
-        "bn": "এখনো না",
-        "tr": "ekhono na",
-        "en": "not yet"
+        "bn": "গিয়েছিলাম",
+        "tr": "giyechhilam",
+        "en": "I had gone"
       },
       "direction": "bn_to_en",
       "options": [
-        "not yet",
-        "Pohela Boishakh",
-        "I don't need it",
-        "thank you"
+        "please come",
+        "I had gone",
+        "I brush",
+        "goes"
       ],
-      "answer": 0,
+      "answer": 1,
       "recycle": true
     },
     {
       "id": "r03",
       "type": "listen_select",
       "audio": {
-        "bn": "সাথে",
-        "tr": "shathe",
-        "en": "with"
+        "bn": "মতো",
+        "tr": "moto",
+        "en": "like"
       },
       "options": [
-        "পিছনে",
-        "দিয়ে",
+        "ভিতরে",
+        "আগে",
         "সাথে",
         "মতো"
       ],
-      "answer": 2,
+      "answer": 3,
       "recycle": true
     },
     {
@@ -432,24 +432,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "গিয়েছিলাম",
-          "tr": "giyechhilam",
-          "en": "I had gone"
+          "bn": "হিন্দুদের",
+          "tr": "hinduder",
+          "en": "of the Hindus"
         },
         {
-          "bn": "গিয়েছিল",
-          "tr": "giyechhilo",
-          "en": "had gone"
+          "bn": "তখন",
+          "tr": "tokhon",
+          "en": "then"
         },
         {
-          "bn": "উঠলাম",
-          "tr": "uthlam",
-          "en": "I got up"
+          "bn": "ছিলে",
+          "tr": "chhile",
+          "en": "you were (familiar)"
         },
         {
-          "bn": "ছিলেন",
-          "tr": "chhilen",
-          "en": "you were (polite)"
+          "bn": "সাথে",
+          "tr": "shathe",
+          "en": "with"
         }
       ],
       "recycle": true
@@ -459,24 +459,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "হিন্দুদের",
-          "tr": "hinduder",
-          "en": "of the Hindus"
+          "bn": "ছিলেন",
+          "tr": "chhilen",
+          "en": "you were (polite)"
         },
         {
-          "bn": "মতো",
-          "tr": "moto",
-          "en": "like"
+          "bn": "বন্ধুর",
+          "tr": "bondhur",
+          "en": "friend's"
         },
         {
-          "bn": "ছিলে",
-          "tr": "chhile",
-          "en": "you were (familiar)"
+          "bn": "উঠলাম",
+          "tr": "uthlam",
+          "en": "I got up"
         },
         {
-          "bn": "তখন",
-          "tr": "tokhon",
-          "en": "then"
+          "bn": "কথা",
+          "tr": "kotha",
+          "en": "talk"
         }
       ],
       "recycle": true

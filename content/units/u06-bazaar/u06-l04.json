@@ -343,33 +343,33 @@
       "id": "r01",
       "type": "listen_select",
       "audio": {
-        "bn": "একটু",
-        "tr": "ektu",
-        "en": "a little"
+        "bn": "আরও",
+        "tr": "aro",
+        "en": "more"
       },
       "options": [
-        "কোথায়",
+        "অবশ্যই",
         "এখানে",
-        "বিকালে",
-        "একটু"
+        "আরও",
+        "কেমন"
       ],
-      "answer": 3,
+      "answer": 2,
       "recycle": true
     },
     {
       "id": "r02",
       "type": "select_translation",
       "prompt": {
-        "bn": "দিন",
-        "tr": "din",
-        "en": "give (polite, standard)"
+        "bn": "দাও",
+        "tr": "dao",
+        "en": "give (familiar)"
       },
       "direction": "en_to_bn",
       "options": [
-        "চান",
-        "নও",
-        "দিন",
-        "চাও"
+        "আছি",
+        "জানেন",
+        "দাও",
+        "আছেন"
       ],
       "answer": 2,
       "recycle": true
@@ -378,18 +378,18 @@
       "id": "r03",
       "type": "select_translation",
       "prompt": {
-        "bn": "দে",
-        "tr": "de",
-        "en": "give (intimate)"
+        "bn": "একটু",
+        "tr": "ektu",
+        "en": "a little"
       },
       "direction": "bn_to_en",
       "options": [
-        "give (intimate)",
-        "to eat",
-        "(he/she/they) eats",
-        "(you, intimate) eat"
+        "in the afternoon",
+        "where (before থেকে)",
+        "only",
+        "a little"
       ],
-      "answer": 0,
+      "answer": 3,
       "recycle": true
     },
     {
@@ -397,24 +397,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "পৌনে",
-          "tr": "poune",
-          "en": "quarter to"
+          "bn": "দে",
+          "tr": "de",
+          "en": "give (intimate)"
+        },
+        {
+          "bn": "ঘণ্টা",
+          "tr": "ghonta",
+          "en": "hour"
+        },
+        {
+          "bn": "বিকালে",
+          "tr": "bikale",
+          "en": "in the afternoon"
         },
         {
           "bn": "আমাকে",
           "tr": "amake",
           "en": "me"
-        },
-        {
-          "bn": "আরও",
-          "tr": "aro",
-          "en": "more"
-        },
-        {
-          "bn": "দাও",
-          "tr": "dao",
-          "en": "give (familiar)"
         }
       ],
       "recycle": true
@@ -424,9 +424,9 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "রাত",
-          "tr": "rat",
-          "en": "night"
+          "bn": "দিন",
+          "tr": "din",
+          "en": "give (polite, standard)"
         },
         {
           "bn": "শনিবার",

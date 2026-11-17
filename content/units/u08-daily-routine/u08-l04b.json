@@ -357,53 +357,53 @@
       "id": "r01",
       "type": "select_translation",
       "prompt": {
-        "bn": "বলেন",
-        "tr": "bolen",
-        "en": "you speak (polite)"
+        "bn": "বলি",
+        "tr": "boli",
+        "en": "I speak"
       },
       "direction": "bn_to_en",
       "options": [
-        "I listen",
-        "I watch",
-        "you speak (polite)",
-        "(you, familiar) eat"
+        "you sleep (polite)",
+        "I go",
+        "I live",
+        "I speak"
       ],
-      "answer": 2,
+      "answer": 3,
       "recycle": true
     },
     {
       "id": "r02",
       "type": "listen_select",
       "audio": {
-        "bn": "বলি",
-        "tr": "boli",
-        "en": "I speak"
+        "bn": "বলেন",
+        "tr": "bolen",
+        "en": "you speak (polite)"
       },
       "options": [
-        "বলি",
-        "দিন",
-        "ওঠেন",
-        "থাকেন"
+        "খাস",
+        "উঠি",
+        "বলেন",
+        "বাজে"
       ],
-      "answer": 0,
+      "answer": 2,
       "recycle": true
     },
     {
       "id": "r03",
       "type": "select_translation",
       "prompt": {
-        "bn": "করে",
-        "tr": "kore",
-        "en": "does"
+        "bn": "বই",
+        "tr": "boi",
+        "en": "book"
       },
       "direction": "en_to_bn",
       "options": [
-        "আসে",
-        "জানেন",
-        "করে",
-        "শুনি"
+        "দুপুর",
+        "বই",
+        "হোটেল",
+        "আব্বু"
       ],
-      "answer": 2,
+      "answer": 1,
       "recycle": true
     },
     {
@@ -411,14 +411,14 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "কঠিন",
-          "tr": "kothin",
-          "en": "difficult"
+          "bn": "করেন",
+          "tr": "koren",
+          "en": "you do (polite)"
         },
         {
-          "bn": "করি",
-          "tr": "kori",
-          "en": "I do"
+          "bn": "কাজ",
+          "tr": "kaj",
+          "en": "work"
         },
         {
           "bn": "আসলে",
@@ -426,9 +426,9 @@
           "en": "actually"
         },
         {
-          "bn": "বই",
-          "tr": "boi",
-          "en": "book"
+          "bn": "কঠিন",
+          "tr": "kothin",
+          "en": "difficult"
         }
       ],
       "recycle": true
@@ -438,9 +438,14 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "করো",
-          "tr": "koro",
-          "en": "you do (familiar)"
+          "bn": "করিস",
+          "tr": "korish",
+          "en": "you do (intimate)"
+        },
+        {
+          "bn": "ভাংতি",
+          "tr": "bhangti",
+          "en": "change"
         },
         {
           "bn": "সত্যি",
@@ -448,14 +453,9 @@
           "en": "really"
         },
         {
-          "bn": "ব্যাগ",
-          "tr": "byag",
-          "en": "bag"
-        },
-        {
-          "bn": "কাজ",
-          "tr": "kaj",
-          "en": "work"
+          "bn": "করে",
+          "tr": "kore",
+          "en": "does"
         }
       ],
       "recycle": true

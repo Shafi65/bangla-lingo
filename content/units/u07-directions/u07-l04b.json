@@ -423,14 +423,14 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "মোড়",
-          "tr": "mor",
-          "en": "intersection"
+          "bn": "এইটা",
+          "tr": "eita",
+          "en": "this one"
         },
         {
-          "bn": "রাস্তা",
-          "tr": "rasta",
-          "en": "road"
+          "bn": "মোড়ে",
+          "tr": "more",
+          "en": "at the intersection"
         },
         {
           "bn": "যান",
@@ -438,9 +438,9 @@
           "en": "go (polite)"
         },
         {
-          "bn": "মোড়ে",
-          "tr": "more",
-          "en": "at the intersection"
+          "bn": "ওইটা",
+          "tr": "oita",
+          "en": "that one"
         }
       ],
       "recycle": true

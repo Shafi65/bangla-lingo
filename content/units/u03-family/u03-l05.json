@@ -293,28 +293,19 @@
     },
     {
       "id": "e13",
-      "type": "word_bank",
-      "prompt": {
+      "type": "listen_meaning",
+      "audio": {
         "bn": "তোমাদের কি বাচ্চা আছে?",
         "tr": "tomader ki bachcha achhe?",
         "en": "Do you have children?"
       },
-      "direction": "bn_to_en",
-      "tiles": [
-        "Do",
-        "you",
-        "have",
-        "children",
-        "sister",
-        "are",
-        "we"
+      "options": [
+        "We have a child.",
+        "Where are your children?",
+        "Do you have children?",
+        "Do you have a sister?"
       ],
-      "answer": [
-        "Do",
-        "you",
-        "have",
-        "children"
-      ]
+      "answer": 2
     },
     {
       "id": "e14",
@@ -349,61 +340,70 @@
         "tr": "amar bou daktar.",
         "en": "My wife is a doctor."
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "accepted": [
-        "My wife is a doctor.",
-        "My wife's a doctor."
-      ]
+        "আমার বউ ডাক্তার।",
+        "আমার স্ত্রী ডাক্তার।",
+        "amar bou daktar",
+        "amar stri daktar",
+        "amar bow daktar",
+        "amar istri daktar",
+        "amar bou doctor",
+        "amar stri doctor",
+        "amar bow doctor",
+        "amar istri doctor"
+      ],
+      "why": "**বউ** is the everyday word for 'wife'; **স্ত্রী** is more formal. Both work."
     },
     {
       "id": "r01",
       "type": "select_translation",
       "prompt": {
-        "bn": "মামি",
-        "tr": "mami",
-        "en": "aunt (mama's wife)"
+        "bn": "মামা",
+        "tr": "mama",
+        "en": "uncle (mother's brother)"
       },
       "direction": "en_to_bn",
       "options": [
-        "ভাইয়া",
-        "মামি",
-        "বাংলা",
-        "ভাই"
+        "পরিবার",
+        "বোন",
+        "মামা",
+        "স্ত্রী"
       ],
-      "answer": 1,
+      "answer": 2,
       "recycle": true
     },
     {
       "id": "r02",
       "type": "select_translation",
       "prompt": {
-        "bn": "খালু",
-        "tr": "khalu",
-        "en": "uncle (khala's husband)"
+        "bn": "মায়ের",
+        "tr": "mayer",
+        "en": "mother's"
       },
       "direction": "bn_to_en",
       "options": [
-        "uncle (khala's husband)",
-        "boy",
-        "sister",
-        "family"
+        "student (female)",
+        "grandfather (mother's father)",
+        "mom",
+        "mother's"
       ],
-      "answer": 0,
+      "answer": 3,
       "recycle": true
     },
     {
       "id": "r03",
       "type": "listen_select",
       "audio": {
-        "bn": "মায়ের",
-        "tr": "mayer",
-        "en": "mother's"
+        "bn": "খালা",
+        "tr": "khala",
+        "en": "aunt (mother's sister)"
       },
       "options": [
         "ছাত্র",
-        "বাবা",
-        "মায়ের",
-        "দাদি"
+        "ভাই",
+        "খালা",
+        "ফুফু"
       ],
       "answer": 2,
       "recycle": true
@@ -413,24 +413,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "নানা",
-          "tr": "nana",
-          "en": "grandfather (mother's father)"
-        },
-        {
-          "bn": "মামা",
-          "tr": "mama",
-          "en": "uncle (mother's brother)"
-        },
-        {
           "bn": "নানি",
           "tr": "nani",
           "en": "grandmother (mother's mother)"
         },
         {
-          "bn": "খালা",
-          "tr": "khala",
-          "en": "aunt (mother's sister)"
+          "bn": "মামি",
+          "tr": "mami",
+          "en": "aunt (mama's wife)"
+        },
+        {
+          "bn": "খালু",
+          "tr": "khalu",
+          "en": "uncle (khala's husband)"
+        },
+        {
+          "bn": "নানা",
+          "tr": "nana",
+          "en": "grandfather (mother's father)"
         }
       ],
       "recycle": true
@@ -440,24 +440,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "ভাইয়া",
-          "tr": "bhaiya",
-          "en": "elder brother"
-        },
-        {
-          "bn": "আম্মু",
-          "tr": "ammu",
-          "en": "mom"
-        },
-        {
-          "bn": "ওর",
-          "tr": "or",
-          "en": "his/her (spoken)"
+          "bn": "তার",
+          "tr": "tar",
+          "en": "his/her"
         },
         {
           "bn": "তোর",
           "tr": "tor",
           "en": "your (intimate)"
+        },
+        {
+          "bn": "আব্বু",
+          "tr": "abbu",
+          "en": "dad"
+        },
+        {
+          "bn": "আপু",
+          "tr": "apu",
+          "en": "elder sister"
         }
       ],
       "recycle": true

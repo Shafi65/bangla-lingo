@@ -197,26 +197,21 @@
     },
     {
       "id": "e09",
-      "type": "word_bank",
-      "prompt": {
-        "bn": "তুই কেমন আছিস?",
-        "tr": "tui kemon achhish?",
-        "en": "How are you?"
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "তোরা কেমন আছিস?",
+        "tr": "tora kemon achhish?",
+        "en": "How are you guys? (intimate: to your close friends)"
       },
-      "direction": "bn_to_en",
-      "tiles": [
-        "How",
-        "are",
-        "you",
-        "is",
-        "he",
-        "am"
+      "blank": "আছিস",
+      "options": [
+        "আছো",
+        "আছিস",
+        "আছেন",
+        "আছে"
       ],
-      "answer": [
-        "How",
-        "are",
-        "you"
-      ]
+      "answer": 1,
+      "why": "**তোরা**, like তুই, takes the -িস ending: **আছিস**."
     },
     {
       "id": "e10",
@@ -326,47 +321,48 @@
         "tr": "nadiya okhane achhe.",
         "en": "Nadia is there."
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "accepted": [
-        "Nadia is there.",
-        "Nadia's there.",
-        "Nadiya is there.",
-        "Nadiya's there."
+        "নাদিয়া ওখানে আছে।",
+        "nadiya okhane achhe",
+        "nadia okhane achhe",
+        "nadiya okhane ache",
+        "nadia okhane ache"
       ]
     },
     {
       "id": "r01",
       "type": "select_translation",
       "prompt": {
-        "bn": "আপনারা",
-        "tr": "apnara",
-        "en": "you (polite, plural)"
+        "bn": "তোমরা",
+        "tr": "tomra",
+        "en": "you (familiar, plural)"
       },
       "direction": "bn_to_en",
       "options": [
-        "I",
-        "they (spoken)",
-        "you (polite, plural)",
-        "what"
+        "he/she (polite)",
+        "you (familiar, plural)",
+        "your (familiar)",
+        "I"
       ],
-      "answer": 2,
+      "answer": 1,
       "recycle": true
     },
     {
       "id": "r02",
       "type": "listen_select",
       "audio": {
-        "bn": "তোমরা",
-        "tr": "tomra",
-        "en": "you (familiar, plural)"
+        "bn": "আপনারা",
+        "tr": "apnara",
+        "en": "you (polite, plural)"
       },
       "options": [
-        "কী",
-        "তোমরা",
+        "আপনারা",
+        "উনি",
         "ও",
-        "আপনারা"
+        "তুই"
       ],
-      "answer": 1,
+      "answer": 0,
       "recycle": true
     },
     {
@@ -379,18 +375,23 @@
       },
       "direction": "en_to_bn",
       "options": [
-        "তারা",
-        "সে",
-        "আপনার",
-        "তুই"
+        "উনি",
+        "ও",
+        "তুমি",
+        "তারা"
       ],
-      "answer": 0,
+      "answer": 3,
       "recycle": true
     },
     {
       "id": "r04",
       "type": "match_pairs",
       "pairs": [
+        {
+          "bn": "ছেলে",
+          "tr": "chhele",
+          "en": "boy"
+        },
         {
           "bn": "মানুষ",
           "tr": "manush",
@@ -400,11 +401,6 @@
           "bn": "আমরা",
           "tr": "amra",
           "en": "we"
-        },
-        {
-          "bn": "ছেলে",
-          "tr": "chhele",
-          "en": "boy"
         },
         {
           "bn": "মেয়ে",
@@ -419,24 +415,24 @@
       "type": "match_pairs",
       "pairs": [
         {
+          "bn": "সে",
+          "tr": "she",
+          "en": "he/she"
+        },
+        {
           "bn": "আপনার",
           "tr": "apnar",
           "en": "your (polite)"
         },
         {
-          "bn": "ও",
-          "tr": "o",
-          "en": "he/she (spoken)"
+          "bn": "বন্ধু",
+          "tr": "bondhu",
+          "en": "friend"
         },
         {
           "bn": "আর",
           "tr": "ar",
           "en": "and"
-        },
-        {
-          "bn": "বন্ধু",
-          "tr": "bondhu",
-          "en": "friend"
         }
       ],
       "recycle": true

@@ -568,68 +568,60 @@
     },
     {
       "id": "r01",
-      "type": "fill_blank",
-      "sentence": {
-        "bn": "আমি পড়ছিলাম, ঠিক তখন কারেন্ট চলে গেল।",
-        "tr": "ami porchhilam, thik tokhon karent chole gelo.",
-        "en": "I was studying, and just then the power went off."
+      "type": "listen_select",
+      "audio": {
+        "bn": "কারেন্ট",
+        "tr": "karent",
+        "en": "electricity (power)"
       },
-      "blank": "কারেন্ট",
-      "accepted": [
+      "options": [
+        "মহিলা",
+        "মাঠে",
         "কারেন্ট",
-        "karent"
+        "ছাত্র"
       ],
+      "answer": 2,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "ফোনটা",
-        "tr": "fonta",
-        "en": "the phone"
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "ফোনটা বাজছিল, কিন্তু আমি ঘুমাচ্ছিলাম।",
+        "tr": "fonta bajchhilo, kintu ami ghumachchhilam.",
+        "en": "The phone was ringing, but I was asleep."
       },
-      "direction": "bn_to_en",
+      "blank": "ফোনটা",
       "options": [
-        "worry; thought",
-        "market",
-        "martyr",
-        "the phone"
+        "বন্ধু",
+        "লুঙ্গি",
+        "ফোনটা",
+        "নানি"
       ],
-      "answer": 3,
+      "answer": 2,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "listen_select",
+      "type": "listen_meaning",
       "audio": {
-        "bn": "মোমবাতি",
-        "tr": "mombati",
-        "en": "candle"
+        "bn": "আমাদের কাছে একটা মোমবাতি ছিল।",
+        "tr": "amader kachhe ekta mombati chhilo.",
+        "en": "We had a candle."
       },
       "options": [
-        "বই",
-        "মোমবাতি",
-        "লবণ",
-        "গাড়ি"
+        "Where are you from?",
+        "When do you go to the office?",
+        "We had a candle.",
+        "Do you drink tea?"
       ],
-      "answer": 1,
+      "answer": 2,
       "recycle": true
     },
     {
       "id": "r04",
       "type": "match_pairs",
       "pairs": [
-        {
-          "bn": "দরজায়",
-          "tr": "dorjay",
-          "en": "at the door"
-        },
-        {
-          "bn": "ছুটিতে",
-          "tr": "chhutite",
-          "en": "in the holidays"
-        },
         {
           "bn": "প্রায়ই",
           "tr": "prayi",
@@ -639,6 +631,16 @@
           "bn": "বর্ষাকালে",
           "tr": "borshakale",
           "en": "in the rainy season"
+        },
+        {
+          "bn": "দরজায়",
+          "tr": "dorjay",
+          "en": "at the door"
+        },
+        {
+          "bn": "ছুটিতে",
+          "tr": "chhutite",
+          "en": "in the holidays"
         }
       ],
       "recycle": true
@@ -648,14 +650,9 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "শীতকালে",
-          "tr": "shitkale",
-          "en": "in winter"
-        },
-        {
-          "bn": "ছোটবেলা",
-          "tr": "chhotobela",
-          "en": "childhood"
+          "bn": "ঘুড়ি",
+          "tr": "ghuri",
+          "en": "kite"
         },
         {
           "bn": "লুকোচুরি",
@@ -663,9 +660,14 @@
           "en": "hide-and-seek"
         },
         {
-          "bn": "ঘুড়ি",
-          "tr": "ghuri",
-          "en": "kite"
+          "bn": "ছোটবেলা",
+          "tr": "chhotobela",
+          "en": "childhood"
+        },
+        {
+          "bn": "শীতকালে",
+          "tr": "shitkale",
+          "en": "in winter"
         }
       ],
       "recycle": true

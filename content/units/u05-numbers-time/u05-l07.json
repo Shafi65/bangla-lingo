@@ -219,30 +219,19 @@
     },
     {
       "id": "e09",
-      "type": "word_bank",
-      "prompt": {
+      "type": "listen_meaning",
+      "audio": {
         "bn": "দুপুরে আমরা ভাত খাই।",
         "tr": "dupure amra bhat khai.",
         "en": "We eat rice at noon."
       },
-      "direction": "bn_to_en",
-      "tiles": [
-        "rice",
-        "We",
-        "night",
-        "at",
-        "eat",
-        "noon",
-        "morning",
-        "in"
+      "options": [
+        "We eat rice at night.",
+        "We eat breakfast in the morning.",
+        "We eat rice at noon.",
+        "I eat roti at noon."
       ],
-      "answer": [
-        "We",
-        "eat",
-        "rice",
-        "at",
-        "noon"
-      ]
+      "answer": 2
     },
     {
       "id": "e10",
@@ -309,21 +298,23 @@
       "id": "e12",
       "type": "type_translation",
       "prompt": {
-        "bn": "বিকালে আমি নাস্তা খাই।",
-        "tr": "bikale ami nashta khai.",
-        "en": "I have a snack in the afternoon."
+        "bn": "আমি সকালে চা খাই।",
+        "tr": "ami shokale cha khai.",
+        "en": "I drink tea in the morning."
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "accepted": [
-        "I have a snack in the afternoon.",
-        "I eat a snack in the afternoon.",
-        "I have snacks in the afternoon.",
-        "I eat snacks in the afternoon.",
-        "In the afternoon I have a snack.",
-        "In the afternoon I eat a snack.",
-        "I have a snack in the late afternoon.",
-        "I eat a snack in the late afternoon."
-      ]
+        "আমি সকালে চা খাই।",
+        "সকালে আমি চা খাই।",
+        "সকালে চা খাই।",
+        "ami shokale cha khai",
+        "shokale ami cha khai",
+        "shokale cha khai",
+        "ami sokale cha khai",
+        "sokale ami cha khai",
+        "sokale cha khai"
+      ],
+      "why": "'In the morning' is সকাল + **-এ**: **সকালে**."
     },
     {
       "id": "e13",
@@ -398,53 +389,53 @@
       "id": "r01",
       "type": "select_translation",
       "prompt": {
-        "bn": "দেড়",
-        "tr": "der",
-        "en": "one and a half"
+        "bn": "সাড়ে",
+        "tr": "share",
+        "en": "half past"
       },
       "direction": "bn_to_en",
       "options": [
-        "thirty",
-        "one and a half",
-        "three",
-        "twelve (o'clock)"
+        "two (people)",
+        "forty",
+        "fourteen",
+        "half past"
       ],
-      "answer": 1,
+      "answer": 3,
       "recycle": true
     },
     {
       "id": "r02",
       "type": "listen_select",
       "audio": {
-        "bn": "আড়াই",
-        "tr": "arai",
-        "en": "two and a half"
+        "bn": "দেড়টা",
+        "tr": "derta",
+        "en": "half past one"
       },
       "options": [
-        "আড়াই",
-        "দুইজন",
-        "পাঁচ",
-        "সতেরো"
+        "উনিশ",
+        "দেড়টা",
+        "দশ",
+        "হাজার"
       ],
-      "answer": 0,
+      "answer": 1,
       "recycle": true
     },
     {
       "id": "r03",
       "type": "select_translation",
       "prompt": {
-        "bn": "সাড়ে",
-        "tr": "share",
-        "en": "half past"
+        "bn": "পৌনে",
+        "tr": "poune",
+        "en": "quarter to"
       },
       "direction": "en_to_bn",
       "options": [
-        "সাড়ে",
-        "দশ",
-        "আড়াই",
-        "সোয়া"
+        "একশ",
+        "পৌনে",
+        "বারোটা",
+        "ষোলো"
       ],
-      "answer": 0,
+      "answer": 1,
       "recycle": true
     },
     {
@@ -452,14 +443,9 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "একটি",
-          "tr": "ekti",
-          "en": "one; a (formal)"
-        },
-        {
-          "bn": "দেড়টা",
-          "tr": "derta",
-          "en": "half past one"
+          "bn": "দেড়",
+          "tr": "der",
+          "en": "one and a half"
         },
         {
           "bn": "আড়াইটা",
@@ -467,9 +453,14 @@
           "en": "half past two"
         },
         {
-          "bn": "পৌনে",
-          "tr": "poune",
-          "en": "quarter to"
+          "bn": "একটি",
+          "tr": "ekti",
+          "en": "one; a (formal)"
+        },
+        {
+          "bn": "আড়াই",
+          "tr": "arai",
+          "en": "two and a half"
         }
       ],
       "recycle": true
@@ -479,24 +470,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "ক্ষুধা",
-          "tr": "khudha",
-          "en": "hunger"
-        },
-        {
-          "bn": "ঝাল",
-          "tr": "jhal",
-          "en": "spicy"
-        },
-        {
           "bn": "মিষ্টি",
           "tr": "mishti",
           "en": "sweet"
         },
         {
-          "bn": "দরকার",
-          "tr": "dorkar",
-          "en": "need"
+          "bn": "পছন্দ",
+          "tr": "pochhondo",
+          "en": "liking"
+        },
+        {
+          "bn": "কলাগুলো",
+          "tr": "kolagulo",
+          "en": "the bananas"
+        },
+        {
+          "bn": "ক্ষুধা",
+          "tr": "khudha",
+          "en": "hunger"
         }
       ],
       "recycle": true

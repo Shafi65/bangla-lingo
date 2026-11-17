@@ -337,16 +337,16 @@
       "id": "r01",
       "type": "select_translation",
       "prompt": {
-        "bn": "নিচে",
-        "tr": "niche",
-        "en": "downstairs"
+        "bn": "কোন",
+        "tr": "kon",
+        "en": "which"
       },
       "direction": "en_to_bn",
       "options": [
-        "উপরে",
-        "নিচে",
-        "থেকে",
-        "পাশে"
+        "ও",
+        "কোন",
+        "আপনার",
+        "তুমি"
       ],
       "answer": 1,
       "recycle": true
@@ -355,35 +355,35 @@
       "id": "r02",
       "type": "select_translation",
       "prompt": {
-        "bn": "ভিতরে",
-        "tr": "bhitore",
-        "en": "inside"
+        "bn": "বাইরে",
+        "tr": "baire",
+        "en": "outside"
       },
       "direction": "bn_to_en",
       "options": [
-        "way",
-        "inside",
-        "downstairs",
-        "along"
+        "upstairs",
+        "behind",
+        "outside",
+        "downstairs"
       ],
-      "answer": 1,
+      "answer": 2,
       "recycle": true
     },
     {
       "id": "r03",
       "type": "listen_select",
       "audio": {
-        "bn": "কোন",
-        "tr": "kon",
-        "en": "which"
+        "bn": "দিকে",
+        "tr": "dike",
+        "en": "way"
       },
       "options": [
-        "কে",
-        "ওরা",
-        "কোন",
-        "ওইটা"
+        "সামনে",
+        "দিকে",
+        "উপরে",
+        "পাশে"
       ],
-      "answer": 2,
+      "answer": 1,
       "recycle": true
     },
     {
@@ -391,24 +391,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "উপরে",
-          "tr": "upore",
-          "en": "upstairs"
-        },
-        {
           "bn": "বাসার",
           "tr": "bashar",
           "en": "of the home"
         },
         {
-          "bn": "বাইরে",
-          "tr": "baire",
-          "en": "outside"
+          "bn": "উপরে",
+          "tr": "upore",
+          "en": "upstairs"
         },
         {
-          "bn": "দিকে",
-          "tr": "dike",
-          "en": "way"
+          "bn": "নিচে",
+          "tr": "niche",
+          "en": "downstairs"
+        },
+        {
+          "bn": "ভিতরে",
+          "tr": "bhitore",
+          "en": "inside"
         }
       ],
       "recycle": true
@@ -418,24 +418,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "আমাদের",
-          "tr": "amader",
-          "en": "our"
+          "bn": "আট",
+          "tr": "at",
+          "en": "eight"
         },
         {
-          "bn": "ইলিশের",
-          "tr": "ilisher",
-          "en": "of the hilsa"
+          "bn": "দশ",
+          "tr": "dosh",
+          "en": "ten"
         },
         {
-          "bn": "আরও",
-          "tr": "aro",
-          "en": "more"
+          "bn": "কয়জন",
+          "tr": "koyjon",
+          "en": "how many (people)"
         },
         {
-          "bn": "বাসায়",
-          "tr": "bashay",
-          "en": "at home"
+          "bn": "একশ",
+          "tr": "eksho",
+          "en": "one hundred"
         }
       ],
       "recycle": true

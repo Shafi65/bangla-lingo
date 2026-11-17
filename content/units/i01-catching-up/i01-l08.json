@@ -505,55 +505,55 @@
     },
     {
       "id": "r01",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "লিখতাম",
-        "tr": "likhtam",
-        "en": "I used to write"
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "তখন ফোন ছিল না, তাই আমরা চিঠি লিখতাম।",
+        "tr": "tokhon fon chhilo na, tai amra chithi likhtam.",
+        "en": "There were no phones then, so we used to write letters."
       },
-      "direction": "bn_to_en",
+      "blank": "লিখতাম",
       "options": [
-        "has gone (spoken)",
-        "I used to write",
-        "you will buy (polite)",
-        "say (familiar); you say"
+        "আছে",
+        "গিয়েছে",
+        "লিখতাম",
+        "আছিস"
       ],
-      "answer": 1,
+      "answer": 2,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "listen_select",
+      "type": "listen_meaning",
       "audio": {
-        "bn": "এখনকার",
-        "tr": "ekhonkar",
-        "en": "of today"
+        "bn": "তখনকার স্কুল ছোট ছিল, এখনকার স্কুল অনেক বড়।",
+        "tr": "tokhonkar skul chhoto chhilo, ekhonkar skul onek boro.",
+        "en": "Schools back then were small; schools today are much bigger."
       },
       "options": [
-        "পাতলা",
-        "সামনের",
-        "পরিষ্কার",
-        "এখনকার"
+        "Yesterday I got up at seven in the morning.",
+        "Schools back then were small; schools today are much bigger.",
+        "21 February is Martyrs' Day.",
+        "The price is too high."
       ],
-      "answer": 3,
+      "answer": 1,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "fill_blank",
-      "sentence": {
-        "bn": "সকালে আমরা শহীদ মিনারে যাই।",
-        "tr": "shokale amra shohid minare jai.",
-        "en": "In the morning we go to the Shaheed Minar."
+      "type": "select_translation",
+      "prompt": {
+        "bn": "কিনবে",
+        "tr": "kinbe",
+        "en": "you (familiar) / he, she will buy"
       },
-      "blank": "শহীদ মিনারে",
+      "direction": "en_to_bn",
       "options": [
-        "মাঝে মাঝে",
-        "শহীদ মিনারে",
-        "দয়া করে",
-        "ঈদ মোবারক"
+        "নই",
+        "শুনেছি",
+        "কিনবে",
+        "নেই"
       ],
-      "answer": 1,
+      "answer": 2,
       "recycle": true
     },
     {
@@ -561,24 +561,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "যদি",
-          "tr": "jodi",
-          "en": "if"
-        },
-        {
           "bn": "দুষ্টু",
           "tr": "dushtu",
           "en": "naughty"
         },
         {
-          "bn": "হয়",
-          "tr": "hoy",
-          "en": "is"
+          "bn": "শুনবে",
+          "tr": "shunbe",
+          "en": "you (familiar) / he, she will listen"
         },
         {
-          "bn": "আসবেন",
-          "tr": "ashben",
-          "en": "please come"
+          "bn": "বলবেন",
+          "tr": "bolben",
+          "en": "you / he, she (polite) will say"
+        },
+        {
+          "bn": "নেব",
+          "tr": "nebo",
+          "en": "I will take"
         }
       ],
       "recycle": true
@@ -588,24 +588,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "আসবে",
-          "tr": "ashbe",
-          "en": "will come"
+          "bn": "কবে",
+          "tr": "kobe",
+          "en": "when (on what day)"
         },
         {
-          "bn": "আপনাকে",
-          "tr": "apnake",
-          "en": "you (polite, object)"
+          "bn": "জানাব",
+          "tr": "janabo",
+          "en": "I will let (you) know"
         },
         {
-          "bn": "রমজান",
-          "tr": "romjan",
-          "en": "Ramadan"
+          "bn": "থাকবে",
+          "tr": "thakbe",
+          "en": "you (familiar) / he, she will stay"
         },
         {
-          "bn": "সবাইকে",
-          "tr": "shobaike",
-          "en": "everyone"
+          "bn": "উঠবে",
+          "tr": "uthbe",
+          "en": "you (familiar) / he, she will get up"
         }
       ],
       "recycle": true

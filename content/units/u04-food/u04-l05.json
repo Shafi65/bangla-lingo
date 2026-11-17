@@ -283,44 +283,19 @@
     },
     {
       "id": "e12",
-      "type": "word_bank",
-      "prompt": {
-        "bn": "এখানে একটি আম আছে।",
-        "tr": "ekhane ekti am achhe.",
-        "en": "There is a mango here."
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "আমি একটা কলা খাই।",
+        "tr": "ami ekta kola khai.",
+        "en": "I eat a banana."
       },
-      "direction": "bn_to_en",
-      "tiles": [
-        "There",
-        "is",
-        "a",
-        "mango",
-        "here",
-        "the",
-        "mangoes",
-        "are"
+      "options": [
+        "I eat the bananas.",
+        "I want a mango.",
+        "The banana is mine.",
+        "I eat a banana."
       ],
-      "answer": [
-        "There",
-        "is",
-        "a",
-        "mango",
-        "here"
-      ],
-      "alt": [
-        [
-          "here",
-          "is",
-          "a",
-          "mango"
-        ],
-        [
-          "a",
-          "mango",
-          "is",
-          "here"
-        ]
-      ]
+      "answer": 3
     },
     {
       "id": "e13",
@@ -349,20 +324,20 @@
     },
     {
       "id": "e14",
-      "type": "select_translation",
-      "prompt": {
+      "type": "fill_blank",
+      "sentence": {
         "bn": "আমগুলো কোথায়?",
         "tr": "amgulo kothay?",
         "en": "Where are the mangoes?"
       },
-      "direction": "en_to_bn",
-      "options": [
-        "আমটা কোথায়?",
-        "কলাগুলো কোথায়?",
-        "আমগুলো কোথায়?",
-        "একটা আম কোথায়?"
+      "blank": "আমগুলো",
+      "accepted": [
+        "আমগুলো",
+        "amgulo",
+        "aamgulo",
+        "am gulo"
       ],
-      "answer": 2
+      "why": "**-গুলো** makes 'the' plural: আমগুলো 'the mangoes'; আমটা is just one."
     },
     {
       "id": "e15",
@@ -372,46 +347,46 @@
         "tr": "kolata amar.",
         "en": "The banana is mine."
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "accepted": [
-        "The banana is mine.",
-        "That banana is mine.",
-        "This banana is mine.",
-        "The banana's mine.",
-        "That banana's mine."
-      ]
+        "কলাটা আমার।",
+        "kolata amar",
+        "kola ta amar",
+        "kolatha amar"
+      ],
+      "why": "**-টা** on the noun means 'the': কলাটা 'the banana'."
     },
     {
       "id": "r01",
       "type": "listen_select",
       "audio": {
-        "bn": "অবশ্যই",
-        "tr": "oboshshoi",
-        "en": "of course"
+        "bn": "চাও",
+        "tr": "chao",
+        "en": "(you, familiar) want"
       },
       "options": [
-        "কোথা",
-        "অবশ্যই",
-        "কয়জন",
-        "কোথায়"
+        "আছো",
+        "নেই",
+        "চাই",
+        "চাও"
       ],
-      "answer": 1,
+      "answer": 3,
       "recycle": true
     },
     {
       "id": "r02",
       "type": "select_translation",
       "prompt": {
-        "bn": "চান",
-        "tr": "chan",
-        "en": "(you/he/she, polite) want"
+        "bn": "খেতে",
+        "tr": "khete",
+        "en": "to eat"
       },
       "direction": "en_to_bn",
       "options": [
-        "নন",
-        "চান",
-        "আছে",
-        "আছো"
+        "আছিস",
+        "খেতে",
+        "আছেন",
+        "এসেছি"
       ],
       "answer": 1,
       "recycle": true
@@ -420,18 +395,18 @@
       "id": "r03",
       "type": "select_translation",
       "prompt": {
-        "bn": "কিছু",
-        "tr": "kichhu",
-        "en": "something"
+        "bn": "অবশ্যই",
+        "tr": "oboshshoi",
+        "en": "of course"
       },
       "direction": "bn_to_en",
       "options": [
-        "your (polite)",
-        "something",
-        "he/she (polite)",
-        "your (intimate)"
+        "of course",
+        "here",
+        "there",
+        "where (before থেকে)"
       ],
-      "answer": 1,
+      "answer": 0,
       "recycle": true
     },
     {
@@ -439,24 +414,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "সমস্যা",
-          "tr": "shomossha",
-          "en": "problem"
-        },
-        {
           "bn": "দরকার",
           "tr": "dorkar",
           "en": "need"
         },
         {
-          "bn": "চাও",
-          "tr": "chao",
-          "en": "(you, familiar) want"
+          "bn": "সমস্যা",
+          "tr": "shomossha",
+          "en": "problem"
         },
         {
-          "bn": "খেতে",
-          "tr": "khete",
-          "en": "to eat"
+          "bn": "চান",
+          "tr": "chan",
+          "en": "(you/he/she, polite) want"
+        },
+        {
+          "bn": "কিছু",
+          "tr": "kichhu",
+          "en": "something"
         }
       ],
       "recycle": true
@@ -466,14 +441,14 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "ডাল",
-          "tr": "dal",
-          "en": "lentils"
-        },
-        {
           "bn": "গরুর",
           "tr": "gorur",
           "en": "cow's"
+        },
+        {
+          "bn": "সবজি",
+          "tr": "shobji",
+          "en": "vegetables"
         },
         {
           "bn": "খাবার",
@@ -481,9 +456,9 @@
           "en": "food"
         },
         {
-          "bn": "সবজি",
-          "tr": "shobji",
-          "en": "vegetables"
+          "bn": "মুরগি",
+          "tr": "murgi",
+          "en": "chicken"
         }
       ],
       "recycle": true

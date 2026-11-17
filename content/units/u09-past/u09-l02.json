@@ -349,53 +349,53 @@
       "id": "r01",
       "type": "select_translation",
       "prompt": {
-        "bn": "ঘুমালাম",
-        "tr": "ghumalam",
-        "en": "I slept"
+        "bn": "তাকে",
+        "tr": "take",
+        "en": "him"
       },
       "direction": "en_to_bn",
       "options": [
-        "দেখি",
-        "বলেন",
-        "করছে",
-        "ঘুমালাম"
+        "আপনারা",
+        "আমি",
+        "তাকে",
+        "এইটা"
       ],
-      "answer": 3,
+      "answer": 2,
       "recycle": true
     },
     {
       "id": "r02",
       "type": "select_translation",
       "prompt": {
-        "bn": "শুনলাম",
-        "tr": "shunlam",
-        "en": "I heard"
+        "bn": "বললাম",
+        "tr": "bollam",
+        "en": "I said"
       },
       "direction": "bn_to_en",
       "options": [
-        "bought",
-        "I speak",
-        "you do (intimate)",
-        "I heard"
+        "I read",
+        "am",
+        "I said",
+        "I write"
       ],
-      "answer": 3,
+      "answer": 2,
       "recycle": true
     },
     {
       "id": "r03",
       "type": "listen_select",
       "audio": {
-        "bn": "বললাম",
-        "tr": "bollam",
-        "en": "I said"
+        "bn": "দেখলাম",
+        "tr": "dekhlam",
+        "en": "I saw"
       },
       "options": [
+        "দেখলাম",
         "লেখে",
-        "যাবে",
-        "লাগে",
+        "পড়ে",
         "বললাম"
       ],
-      "answer": 3,
+      "answer": 0,
       "recycle": true
     },
     {
@@ -403,19 +403,19 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "দেখলাম",
-          "tr": "dekhlam",
-          "en": "I saw"
+          "bn": "শুনলাম",
+          "tr": "shunlam",
+          "en": "I heard"
         },
         {
-          "bn": "মসজিদ",
-          "tr": "moshjid",
-          "en": "mosque"
+          "bn": "প্রশ্ন",
+          "tr": "proshno",
+          "en": "question"
         },
         {
-          "bn": "তাকে",
-          "tr": "take",
-          "en": "him"
+          "bn": "ঘুমালাম",
+          "tr": "ghumalam",
+          "en": "I slept"
         },
         {
           "bn": "পড়লাম",
@@ -430,24 +430,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "সাহায্য",
-          "tr": "shahajjo",
-          "en": "help"
+          "bn": "ট্রেন",
+          "tr": "tren",
+          "en": "train"
         },
         {
-          "bn": "ভাড়া",
-          "tr": "bhara",
-          "en": "fare"
+          "bn": "গ্রামে",
+          "tr": "grame",
+          "en": "in the village"
         },
         {
-          "bn": "গাড়ি",
-          "tr": "gari",
-          "en": "car"
+          "bn": "মসজিদের",
+          "tr": "moshjider",
+          "en": "of the mosque"
         },
         {
-          "bn": "সিএনজি",
-          "tr": "si-en-ji",
-          "en": "CNG"
+          "bn": "বাজারের",
+          "tr": "bajarer",
+          "en": "of the market"
         }
       ],
       "recycle": true

@@ -243,47 +243,36 @@
         "tr": "o amar bhai.",
         "en": "He is my brother."
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "tiles": [
-        "He",
-        "is",
-        "my",
-        "brother",
-        "sister",
-        "your",
-        "father"
+        "বোন",
+        "ও",
+        "তোমার",
+        "ভাই",
+        "আমার",
+        "বাবা"
       ],
       "answer": [
-        "He",
-        "is",
-        "my",
-        "brother"
+        "ও",
+        "আমার",
+        "ভাই"
       ]
     },
     {
       "id": "e12",
-      "type": "word_bank",
-      "prompt": {
+      "type": "listen_meaning",
+      "audio": {
         "bn": "সে আমার বোন।",
         "tr": "she amar bon.",
         "en": "She is my sister."
       },
-      "direction": "bn_to_en",
-      "tiles": [
-        "She",
-        "is",
-        "my",
-        "sister",
-        "brother",
-        "mother",
-        "am"
+      "options": [
+        "She is my mother.",
+        "She is my sister.",
+        "Where is my sister?",
+        "This is my family."
       ],
-      "answer": [
-        "She",
-        "is",
-        "my",
-        "sister"
-      ]
+      "answer": 1
     },
     {
       "id": "e13",
@@ -337,17 +326,18 @@
       "prompt": {
         "bn": "উনি আমার মা।",
         "tr": "uni amar ma.",
-        "en": "She is my mother."
+        "en": "She is my mother. (polite)"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "accepted": [
-        "She is my mother.",
-        "She's my mother.",
-        "She is my mom.",
-        "She's my mom.",
-        "She is my mum.",
-        "She's my mum."
-      ]
+        "উনি আমার মা।",
+        "তিনি আমার মা।",
+        "uni amar ma",
+        "tini amar ma",
+        "uni amar maa",
+        "tini amar maa"
+      ],
+      "why": "Speaking respectfully about your mother, 'she' is **উনি**."
     },
     {
       "id": "r01",

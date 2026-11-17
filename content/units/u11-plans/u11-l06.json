@@ -373,6 +373,113 @@
         "aashbe"
       ],
       "why": "**তুমি** → **-বে**, then **না**: **আসবে না?** 'won't you come?'"
+    },
+    {
+      "id": "r01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "কবে",
+        "tr": "kobe",
+        "en": "when (on what day)"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "কবে",
+        "এত",
+        "অবশ্যই",
+        "সোজা"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "জানাব",
+        "tr": "janabo",
+        "en": "I will let (you) know"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "I will let (you) know",
+        "I gave",
+        "will you come (intimate)",
+        "you (familiar) / he, she will do"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "listen_select",
+      "audio": {
+        "bn": "কার",
+        "tr": "kar",
+        "en": "whose"
+      },
+      "options": [
+        "কার",
+        "আপনার",
+        "কেউ",
+        "তাকে"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "দেখব",
+          "tr": "dekhbo",
+          "en": "I will see"
+        },
+        {
+          "bn": "প্ল্যান",
+          "tr": "plyan",
+          "en": "plan"
+        },
+        {
+          "bn": "পড়ব",
+          "tr": "porbo",
+          "en": "I will read"
+        },
+        {
+          "bn": "কালকের",
+          "tr": "kalker",
+          "en": "tomorrow's"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "আসব",
+          "tr": "ashbo",
+          "en": "I will come"
+        },
+        {
+          "bn": "শুনলাম",
+          "tr": "shunlam",
+          "en": "I heard"
+        },
+        {
+          "bn": "ওর",
+          "tr": "or",
+          "en": "his/her (spoken)"
+        },
+        {
+          "bn": "ঘুমাব",
+          "tr": "ghumabo",
+          "en": "I will sleep"
+        }
+      ],
+      "recycle": true
     }
   ]
 }

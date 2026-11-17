@@ -235,24 +235,23 @@
       "prompt": {
         "bn": "ওনার নাম কী?",
         "tr": "onar nam ki?",
-        "en": "What is his name?"
+        "en": "What is his name? (polite)"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "tiles": [
-        "What",
-        "is",
-        "his",
-        "name",
-        "your",
-        "my",
-        "where"
+        "ওর",
+        "নাম",
+        "কি",
+        "ওনার",
+        "তার",
+        "কী"
       ],
       "answer": [
-        "What",
-        "is",
-        "his",
-        "name"
-      ]
+        "ওনার",
+        "নাম",
+        "কী"
+      ],
+      "why": "The polite 'his/her' is **ওনার**; 'what' is **কী** (long ী)."
     },
     {
       "id": "e11",
@@ -281,28 +280,19 @@
     },
     {
       "id": "e12",
-      "type": "word_bank",
-      "prompt": {
+      "type": "listen_meaning",
+      "audio": {
         "bn": "ওর নাম নাদিয়া।",
         "tr": "or nam nadiya.",
         "en": "Her name is Nadia."
       },
-      "direction": "bn_to_en",
-      "tiles": [
-        "Her",
-        "name",
-        "is",
-        "Nadia",
-        "my",
-        "your",
-        "What"
+      "options": [
+        "My name is Nadia.",
+        "Where is Nadia?",
+        "Your name is Nadia.",
+        "Her name is Nadia."
       ],
-      "answer": [
-        "Her",
-        "name",
-        "is",
-        "Nadia"
-      ]
+      "answer": 3
     },
     {
       "id": "e13",
@@ -358,17 +348,18 @@
       "prompt": {
         "bn": "তোর বড় বোন কোথায়?",
         "tr": "tor boro bon kothay?",
-        "en": "Where is your elder sister?"
+        "en": "Where is your elder sister? (intimate)"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "accepted": [
-        "Where is your elder sister?",
-        "Where's your elder sister?",
-        "Where is your older sister?",
-        "Where's your older sister?",
-        "Where is your big sister?",
-        "Where's your big sister?"
-      ]
+        "তোর বড় বোন কোথায়?",
+        "তোর আপু কোথায়?",
+        "tor boro bon kothay",
+        "tor apu kothay",
+        "tor boro bon kothai",
+        "tor apu kothai"
+      ],
+      "why": "The intimate 'your' is **তোর**; 'elder' is **বড়**."
     },
     {
       "id": "r01",

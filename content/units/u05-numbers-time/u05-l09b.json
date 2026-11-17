@@ -175,71 +175,39 @@
         "tr": "ekhon share pa~chta baje.",
         "en": "It's half past five now."
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "tiles": [
-        "now",
-        "quarter",
-        "five",
-        "past",
-        "half",
-        "to",
-        "It's",
-        "six"
+        "সোয়া",
+        "বাজে",
+        "পাঁচ",
+        "এখন",
+        "পৌনে",
+        "সাড়ে",
+        "পাঁচটা"
       ],
       "answer": [
-        "It's",
-        "half",
-        "past",
-        "five",
-        "now"
+        "এখন",
+        "সাড়ে",
+        "পাঁচটা",
+        "বাজে"
       ],
-      "alt": [
-        [
-          "It's",
-          "now",
-          "half",
-          "past",
-          "five"
-        ],
-        [
-          "now",
-          "It's",
-          "half",
-          "past",
-          "five"
-        ]
-      ]
+      "why": "Half past = **সাড়ে** + the hour with -টা: সাড়ে পাঁচটা."
     },
     {
       "id": "e09",
-      "type": "word_bank",
-      "prompt": {
+      "type": "listen_meaning",
+      "audio": {
         "bn": "আমার দেড় ঘণ্টা সময় আছে।",
         "tr": "amar der ghonta shomoy achhe.",
         "en": "I have an hour and a half."
       },
-      "direction": "bn_to_en",
-      "tiles": [
-        "an",
-        "hour",
-        "I",
-        "a",
-        "half",
-        "and",
-        "two",
-        "don't",
-        "minutes",
-        "have"
+      "options": [
+        "It's half past one.",
+        "I have two and a half hours.",
+        "I have ten minutes.",
+        "I have an hour and a half."
       ],
-      "answer": [
-        "I",
-        "have",
-        "an",
-        "hour",
-        "and",
-        "a",
-        "half"
-      ]
+      "answer": 3
     },
     {
       "id": "e10",
@@ -397,12 +365,12 @@
         "en": "in the afternoon"
       },
       "options": [
-        "বছরে",
         "বিকালে",
-        "কোথায়",
-        "খুব"
+        "ওখানে",
+        "খুব",
+        "কয়টা"
       ],
-      "answer": 1,
+      "answer": 0,
       "recycle": true
     },
     {
@@ -415,27 +383,27 @@
       },
       "direction": "en_to_bn",
       "options": [
-        "ভাত",
-        "মাছ",
+        "কাপ",
         "কলাটা",
-        "বাবা"
+        "বন্ধু",
+        "বিরিয়ানি"
       ],
-      "answer": 2,
+      "answer": 1,
       "recycle": true
     },
     {
       "id": "r03",
       "type": "select_translation",
       "prompt": {
-        "bn": "কলাগুলো",
-        "tr": "kolagulo",
-        "en": "the bananas"
+        "bn": "আমগুলো",
+        "tr": "amgulo",
+        "en": "the mangoes"
       },
       "direction": "bn_to_en",
       "options": [
         "wife",
-        "the bananas",
-        "day (of the week)",
+        "the mangoes",
+        "night",
         "uncle (fufu's husband)"
       ],
       "answer": 1,
@@ -446,14 +414,9 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "ফল",
-          "tr": "fol",
-          "en": "fruit"
-        },
-        {
-          "bn": "আমগুলো",
-          "tr": "amgulo",
-          "en": "the mangoes"
+          "bn": "সমস্যা",
+          "tr": "shomossha",
+          "en": "problem"
         },
         {
           "bn": "মজা",
@@ -461,9 +424,14 @@
           "en": "fun; tasty"
         },
         {
-          "bn": "পছন্দ",
-          "tr": "pochhondo",
-          "en": "liking"
+          "bn": "দরকার",
+          "tr": "dorkar",
+          "en": "need"
+        },
+        {
+          "bn": "ছাড়া",
+          "tr": "chhara",
+          "en": "without"
         }
       ],
       "recycle": true
@@ -473,9 +441,9 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "সমস্যা",
-          "tr": "shomossha",
-          "en": "problem"
+          "bn": "উনি",
+          "tr": "uni",
+          "en": "he/she (polite, spoken)"
         },
         {
           "bn": "মজার",
@@ -483,14 +451,14 @@
           "en": "tasty"
         },
         {
-          "bn": "উনি",
-          "tr": "uni",
-          "en": "he/she (polite, spoken)"
+          "bn": "খারাপ",
+          "tr": "kharap",
+          "en": "bad"
         },
         {
-          "bn": "ছাড়া",
-          "tr": "chhara",
-          "en": "without"
+          "bn": "নন",
+          "tr": "non",
+          "en": "is not / are not (polite)"
         }
       ],
       "recycle": true

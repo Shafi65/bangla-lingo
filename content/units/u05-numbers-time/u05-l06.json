@@ -257,46 +257,19 @@
     },
     {
       "id": "e12",
-      "type": "word_bank",
-      "prompt": {
-        "bn": "আমার দেড় ঘণ্টা সময় আছে।",
-        "tr": "amar der ghonta shomoy achhe.",
-        "en": "I have an hour and a half."
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "আমাদের আড়াই ঘণ্টা সময় আছে।",
+        "tr": "amader arai ghonta shomoy achhe.",
+        "en": "We have two and a half hours."
       },
-      "direction": "bn_to_en",
-      "tiles": [
-        "hour",
-        "two",
-        "I",
-        "a",
-        "and",
-        "hours",
-        "have",
-        "half",
-        "an",
-        "one",
-        "quarter"
+      "options": [
+        "We have two and a half hours.",
+        "We have an hour and a half.",
+        "It's half past two.",
+        "I have two hours."
       ],
-      "answer": [
-        "I",
-        "have",
-        "an",
-        "hour",
-        "and",
-        "a",
-        "half"
-      ],
-      "alt": [
-        [
-          "I",
-          "have",
-          "one",
-          "and",
-          "a",
-          "half",
-          "hours"
-        ]
-      ]
+      "answer": 0
     },
     {
       "id": "e13",
@@ -327,24 +300,34 @@
       "id": "e14",
       "type": "type_translation",
       "prompt": {
-        "bn": "পৌনে দশটা বাজে।",
-        "tr": "poune doshta baje.",
-        "en": "It's quarter to ten."
+        "bn": "সাড়ে তিনটা বাজে।",
+        "tr": "share tinta baje.",
+        "en": "It's half past three."
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "accepted": [
-        "It's quarter to ten.",
-        "It's a quarter to ten.",
-        "It is quarter to ten.",
-        "It is a quarter to ten.",
-        "It's 9:45.",
-        "It is 9:45.",
-        "It's nine forty-five.",
-        "It is nine forty-five.",
-        "Quarter to ten.",
-        "It's quarter to 10.",
-        "It's fifteen to ten."
-      ]
+        "সাড়ে তিনটা বাজে।",
+        "এখন সাড়ে তিনটা বাজে।",
+        "share tinta baje",
+        "ekhon share tinta baje",
+        "sare tinta baje",
+        "ekhon sare tinta baje",
+        "shaare tinta baje",
+        "ekhon shaare tinta baje",
+        "share teenta baje",
+        "ekhon share teenta baje",
+        "sare teenta baje",
+        "ekhon sare teenta baje",
+        "shaare teenta baje",
+        "ekhon shaare teenta baje",
+        "akhon share tinta baje",
+        "akhon sare tinta baje",
+        "akhon shaare tinta baje",
+        "akhon share teenta baje",
+        "akhon sare teenta baje",
+        "akhon shaare teenta baje"
+      ],
+      "why": "From 3:30 up, half past is **সাড়ে** + the hour with -টা: সাড়ে তিনটা."
     },
     {
       "id": "e15",
@@ -367,34 +350,34 @@
       "id": "r01",
       "type": "select_translation",
       "prompt": {
-        "bn": "তিনটা",
-        "tr": "tinta",
-        "en": "three (o'clock)"
+        "bn": "কয়টা",
+        "tr": "koyta",
+        "en": "what time; how many"
       },
       "direction": "en_to_bn",
       "options": [
-        "পঞ্চাশ",
-        "দেড়টা",
-        "তেরো",
-        "তিনটা"
+        "খুব",
+        "এখানে",
+        "কয়টা",
+        "কোথা"
       ],
-      "answer": 3,
+      "answer": 2,
       "recycle": true
     },
     {
       "id": "r02",
       "type": "select_translation",
       "prompt": {
-        "bn": "কয়টা",
-        "tr": "koyta",
-        "en": "what time; how many"
+        "bn": "মিনিট",
+        "tr": "minit",
+        "en": "minute"
       },
       "direction": "bn_to_en",
       "options": [
-        "how",
-        "here",
-        "where",
-        "what time; how many"
+        "dad",
+        "cup",
+        "boy",
+        "minute"
       ],
       "answer": 3,
       "recycle": true
@@ -403,15 +386,15 @@
       "id": "r03",
       "type": "listen_select",
       "audio": {
-        "bn": "মিনিট",
-        "tr": "minit",
-        "en": "minute"
+        "bn": "লেগেছে",
+        "tr": "legechhe",
+        "en": "has come on (felt)"
       },
       "options": [
-        "ছাত্রী",
-        "মিনিট",
-        "গরুর",
-        "পরিবার"
+        "জানেন",
+        "লেগেছে",
+        "নন",
+        "এসেছেন"
       ],
       "answer": 1,
       "recycle": true
@@ -421,24 +404,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "কিছু",
-          "tr": "kichhu",
-          "en": "something"
-        },
-        {
           "bn": "খেতে",
           "tr": "khete",
           "en": "to eat"
         },
         {
-          "bn": "লেগেছে",
-          "tr": "legechhe",
-          "en": "has come on (felt)"
+          "bn": "লাগে",
+          "tr": "lage",
+          "en": "feels"
         },
         {
           "bn": "চান",
           "tr": "chan",
           "en": "(you/he/she, polite) want"
+        },
+        {
+          "bn": "অবশ্যই",
+          "tr": "oboshshoi",
+          "en": "of course"
         }
       ],
       "recycle": true
@@ -448,19 +431,19 @@
       "type": "match_pairs",
       "pairs": [
         {
+          "bn": "ঝাল",
+          "tr": "jhal",
+          "en": "spicy"
+        },
+        {
+          "bn": "ফল",
+          "tr": "fol",
+          "en": "fruit"
+        },
+        {
           "bn": "আমটা",
           "tr": "amta",
           "en": "the mango"
-        },
-        {
-          "bn": "লাগে",
-          "tr": "lage",
-          "en": "feels"
-        },
-        {
-          "bn": "অবশ্যই",
-          "tr": "oboshshoi",
-          "en": "of course"
         },
         {
           "bn": "চাও",

@@ -267,55 +267,43 @@
       "prompt": {
         "bn": "আমার দাদি খুব ভালো মানুষ।",
         "tr": "amar dadi khub bhalo manush.",
-        "en": "My grandmother is a very good person."
+        "en": "My grandmother (my father's mother) is a very good person."
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "tiles": [
-        "My",
-        "grandmother",
-        "is",
-        "a",
-        "very",
-        "good",
-        "person",
-        "grandfather",
-        "well"
+        "চাচি",
+        "আমার",
+        "মানুষ",
+        "দাদা",
+        "খুব",
+        "দাদি",
+        "ভালো",
+        "বড়"
       ],
       "answer": [
-        "My",
-        "grandmother",
-        "is",
-        "a",
-        "very",
-        "good",
-        "person"
-      ]
+        "আমার",
+        "দাদি",
+        "খুব",
+        "ভালো",
+        "মানুষ"
+      ],
+      "why": "Your father's mother is **দাদি**; দাদা is your father's father."
     },
     {
       "id": "e13",
-      "type": "word_bank",
-      "prompt": {
+      "type": "listen_meaning",
+      "audio": {
         "bn": "আমার চাচি শিক্ষক।",
         "tr": "amar chachi shikkhok.",
         "en": "My aunt is a teacher."
       },
-      "direction": "bn_to_en",
-      "tiles": [
-        "My",
-        "aunt",
-        "is",
-        "a",
-        "teacher",
-        "uncle",
-        "doctor"
+      "options": [
+        "My uncle is a teacher.",
+        "My grandmother is a teacher.",
+        "My aunt is a teacher.",
+        "My aunt is a doctor."
       ],
-      "answer": [
-        "My",
-        "aunt",
-        "is",
-        "a",
-        "teacher"
-      ]
+      "answer": 2
     },
     {
       "id": "e14",
@@ -362,16 +350,16 @@
       "id": "r01",
       "type": "select_translation",
       "prompt": {
-        "bn": "তার",
-        "tr": "tar",
-        "en": "his/her"
+        "bn": "ওর",
+        "tr": "or",
+        "en": "his/her (spoken)"
       },
       "direction": "bn_to_en",
       "options": [
-        "he/she (polite, spoken)",
-        "he/she (spoken)",
+        "he/she",
         "I",
-        "his/her"
+        "who",
+        "his/her (spoken)"
       ],
       "answer": 3,
       "recycle": true
@@ -380,35 +368,35 @@
       "id": "r02",
       "type": "listen_select",
       "audio": {
-        "bn": "ওর",
-        "tr": "or",
-        "en": "his/her (spoken)"
+        "bn": "ওনার",
+        "tr": "onar",
+        "en": "his/her (polite)"
       },
       "options": [
-        "ওর",
-        "আপনি",
-        "আপনার",
-        "তারা"
+        "ওরা",
+        "উনি",
+        "ওনার",
+        "এটা"
       ],
-      "answer": 0,
+      "answer": 2,
       "recycle": true
     },
     {
       "id": "r03",
       "type": "select_translation",
       "prompt": {
-        "bn": "তোর",
-        "tr": "tor",
-        "en": "your (intimate)"
+        "bn": "তার",
+        "tr": "tar",
+        "en": "his/her"
       },
       "direction": "en_to_bn",
       "options": [
-        "ওটা",
-        "কে",
-        "আমরা",
-        "তোর"
+        "তার",
+        "ওরা",
+        "তোরা",
+        "ও"
       ],
-      "answer": 3,
+      "answer": 0,
       "recycle": true
     },
     {
@@ -416,19 +404,19 @@
       "type": "match_pairs",
       "pairs": [
         {
+          "bn": "ছোট",
+          "tr": "chhoto",
+          "en": "small"
+        },
+        {
+          "bn": "তোর",
+          "tr": "tor",
+          "en": "your (intimate)"
+        },
+        {
           "bn": "আপু",
           "tr": "apu",
           "en": "elder sister"
-        },
-        {
-          "bn": "ওনার",
-          "tr": "onar",
-          "en": "his/her (polite)"
-        },
-        {
-          "bn": "বড়",
-          "tr": "boro",
-          "en": "big"
         },
         {
           "bn": "ভাইয়া",
@@ -443,6 +431,11 @@
       "type": "match_pairs",
       "pairs": [
         {
+          "bn": "আছি",
+          "tr": "achhi",
+          "en": "am"
+        },
+        {
           "bn": "আর",
           "tr": "ar",
           "en": "and"
@@ -451,11 +444,6 @@
           "bn": "তোরা",
           "tr": "tora",
           "en": "you (intimate, plural)"
-        },
-        {
-          "bn": "ছোট",
-          "tr": "chhoto",
-          "en": "small"
         },
         {
           "bn": "আপনার",

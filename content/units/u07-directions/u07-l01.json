@@ -357,15 +357,15 @@
       "id": "r01",
       "type": "listen_select",
       "audio": {
-        "bn": "বছর",
-        "tr": "bochhor",
-        "en": "year"
+        "bn": "প্রথম",
+        "tr": "prothom",
+        "en": "first"
       },
       "options": [
-        "দোকানটা",
-        "বছর",
-        "পছন্দ",
-        "বৃহস্পতিবার"
+        "অন্য",
+        "প্রথম",
+        "দামি",
+        "আধা"
       ],
       "answer": 1,
       "recycle": true
@@ -374,16 +374,16 @@
       "id": "r02",
       "type": "select_translation",
       "prompt": {
-        "bn": "প্রথম",
-        "tr": "prothom",
-        "en": "first"
+        "bn": "রাত",
+        "tr": "rat",
+        "en": "night"
       },
       "direction": "en_to_bn",
       "options": [
-        "দামি",
-        "মিষ্টি",
-        "প্রথম",
-        "ভালো"
+        "মুরগি",
+        "আন্টি",
+        "রাত",
+        "মামি"
       ],
       "answer": 2,
       "recycle": true
@@ -392,18 +392,18 @@
       "id": "r03",
       "type": "select_translation",
       "prompt": {
-        "bn": "মিনিট",
-        "tr": "minit",
-        "en": "minute"
+        "bn": "ওর",
+        "tr": "or",
+        "en": "his/her (spoken)"
       },
       "direction": "bn_to_en",
       "options": [
-        "minute",
-        "year",
-        "child",
-        "grandmother (mother's mother)"
+        "your (familiar)",
+        "this",
+        "his/her (spoken)",
+        "who"
       ],
-      "answer": 0,
+      "answer": 2,
       "recycle": true
     },
     {
@@ -411,24 +411,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "তিনি",
-          "tr": "tini",
-          "en": "he/she (polite)"
-        },
-        {
           "bn": "জানি",
           "tr": "jani",
           "en": "(I) know"
         },
         {
-          "bn": "ওর",
-          "tr": "or",
-          "en": "his/her (spoken)"
+          "bn": "তার",
+          "tr": "tar",
+          "en": "his/her"
         },
         {
-          "bn": "আশি",
-          "tr": "ashi",
-          "en": "eighty"
+          "bn": "তিনি",
+          "tr": "tini",
+          "en": "he/she (polite)"
+        },
+        {
+          "bn": "নব্বই",
+          "tr": "nobboi",
+          "en": "ninety"
         }
       ],
       "recycle": true
@@ -438,14 +438,14 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "তার",
-          "tr": "tar",
-          "en": "his/her"
-        },
-        {
           "bn": "এগারো",
           "tr": "egaro",
           "en": "eleven"
+        },
+        {
+          "bn": "বারোটা",
+          "tr": "barota",
+          "en": "twelve (o'clock)"
         },
         {
           "bn": "ওখানে",
@@ -453,9 +453,9 @@
           "en": "there"
         },
         {
-          "bn": "নব্বই",
-          "tr": "nobboi",
-          "en": "ninety"
+          "bn": "ওনার",
+          "tr": "onar",
+          "en": "his/her (polite)"
         }
       ],
       "recycle": true

@@ -359,16 +359,16 @@
       "id": "r01",
       "type": "select_translation",
       "prompt": {
-        "bn": "পাঁচশ",
-        "tr": "pa~chsho",
-        "en": "five hundred"
+        "bn": "শুধু",
+        "tr": "shudhu",
+        "en": "only"
       },
       "direction": "bn_to_en",
       "options": [
-        "half past two",
-        "one and a half",
-        "five hundred",
-        "thirty"
+        "very",
+        "at noon",
+        "only",
+        "here"
       ],
       "answer": 2,
       "recycle": true
@@ -377,35 +377,35 @@
       "id": "r02",
       "type": "listen_select",
       "audio": {
-        "bn": "দুইশ",
-        "tr": "duisho",
-        "en": "two hundred"
+        "bn": "পাঁচশ",
+        "tr": "pa~chsho",
+        "en": "five hundred"
       },
       "options": [
-        "দুইশ",
-        "একশ",
-        "সতেরো",
-        "ত্রিশ"
+        "পৌনে",
+        "পাঁচশ",
+        "আট",
+        "দশটা"
       ],
-      "answer": 0,
+      "answer": 1,
       "recycle": true
     },
     {
       "id": "r03",
       "type": "select_translation",
       "prompt": {
-        "bn": "শুধু",
-        "tr": "shudhu",
-        "en": "only"
+        "bn": "দুইশ",
+        "tr": "duisho",
+        "en": "two hundred"
       },
       "direction": "en_to_bn",
       "options": [
-        "শুধু",
-        "খুব",
-        "কাল",
-        "আজ"
+        "চার",
+        "আঠারো",
+        "তেরো",
+        "দুইশ"
       ],
-      "answer": 0,
+      "answer": 3,
       "recycle": true
     },
     {
@@ -413,14 +413,14 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "আজ",
-          "tr": "aj",
-          "en": "today"
+          "bn": "সন্ধ্যায়",
+          "tr": "shondhay",
+          "en": "in the evening"
         },
         {
-          "bn": "রাতে",
-          "tr": "rate",
-          "en": "at night"
+          "bn": "পয়সা",
+          "tr": "poysha",
+          "en": "poisha"
         },
         {
           "bn": "টাকা",
@@ -428,9 +428,9 @@
           "en": "taka"
         },
         {
-          "bn": "পয়সা",
-          "tr": "poysha",
-          "en": "poisha"
+          "bn": "সপ্তাহে",
+          "tr": "shoptahe",
+          "en": "in a week"
         }
       ],
       "recycle": true
@@ -440,24 +440,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "সকালে",
-          "tr": "shokale",
-          "en": "in the morning"
+          "bn": "আড়াই",
+          "tr": "arai",
+          "en": "two and a half"
         },
         {
-          "bn": "কাল",
-          "tr": "kal",
-          "en": "tomorrow; yesterday"
+          "bn": "বছরে",
+          "tr": "bochhore",
+          "en": "in a year"
+        },
+        {
+          "bn": "রাতে",
+          "tr": "rate",
+          "en": "at night"
         },
         {
           "bn": "দুপুরে",
           "tr": "dupure",
           "en": "at noon"
-        },
-        {
-          "bn": "সাড়ে",
-          "tr": "share",
-          "en": "half past"
         }
       ],
       "recycle": true

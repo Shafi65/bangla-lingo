@@ -397,6 +397,113 @@
         "toke fon korbo"
       ],
       "why": "**তোমাকে** 'you' (object) + **ফোন করব** 'I will call'."
+    },
+    {
+      "id": "r01",
+      "type": "listen_select",
+      "audio": {
+        "bn": "উঠবে",
+        "tr": "uthbe",
+        "en": "you (familiar) / he, she will get up"
+      },
+      "options": [
+        "ছিলেন",
+        "বলি",
+        "করছো",
+        "উঠবে"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "বলবে",
+        "tr": "bolbe",
+        "en": "you (familiar) / he, she will say"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "চাই",
+        "চাও",
+        "বলবে",
+        "যাবি"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "শুনবে",
+        "tr": "shunbe",
+        "en": "you (familiar) / he, she will listen"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "(I) have come",
+        "I come",
+        "you did (familiar)",
+        "you (familiar) / he, she will listen"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "তোমাদের",
+          "tr": "tomader",
+          "en": "your (familiar, plural)"
+        },
+        {
+          "bn": "কিনবে",
+          "tr": "kinbe",
+          "en": "you (familiar) / he, she will buy"
+        },
+        {
+          "bn": "পরশু",
+          "tr": "porshu",
+          "en": "the day after tomorrow"
+        },
+        {
+          "bn": "বলবেন",
+          "tr": "bolben",
+          "en": "you / he, she (polite) will say"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "বিশ",
+          "tr": "bish",
+          "en": "twenty"
+        },
+        {
+          "bn": "বাজে",
+          "tr": "baje",
+          "en": "strikes (the hour)"
+        },
+        {
+          "bn": "আশি",
+          "tr": "ashi",
+          "en": "eighty"
+        },
+        {
+          "bn": "করিস",
+          "tr": "korish",
+          "en": "you do (intimate)"
+        }
+      ],
+      "recycle": true
     }
   ]
 }

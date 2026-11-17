@@ -401,33 +401,33 @@
       "id": "r01",
       "type": "listen_select",
       "audio": {
-        "bn": "উঠি",
-        "tr": "uthi",
-        "en": "I get up"
+        "bn": "ওঠেন",
+        "tr": "othen",
+        "en": "you get up (polite)"
       },
       "options": [
         "ঘুমান",
-        "উঠি",
-        "যাবেন",
-        "করে"
+        "থাকি",
+        "দে",
+        "ওঠেন"
       ],
-      "answer": 1,
+      "answer": 3,
       "recycle": true
     },
     {
       "id": "r02",
       "type": "select_translation",
       "prompt": {
-        "bn": "দশটায়",
-        "tr": "doshtay",
-        "en": "at ten o'clock"
+        "bn": "উঠি",
+        "tr": "uthi",
+        "en": "I get up"
       },
       "direction": "en_to_bn",
       "options": [
-        "সত্যি",
-        "সাতটায়",
-        "দশটায়",
-        "কয়টা"
+        "যাব",
+        "যায়",
+        "উঠি",
+        "যাবেন"
       ],
       "answer": 2,
       "recycle": true
@@ -436,18 +436,18 @@
       "id": "r03",
       "type": "select_translation",
       "prompt": {
-        "bn": "সাতটায়",
-        "tr": "shattay",
-        "en": "at seven o'clock"
+        "bn": "দশটায়",
+        "tr": "doshtay",
+        "en": "at ten o'clock"
       },
       "direction": "bn_to_en",
       "options": [
-        "how many (people)",
-        "at seven o'clock",
         "at ten o'clock",
-        "far"
+        "at what time",
+        "straight",
+        "actually"
       ],
-      "answer": 1,
+      "answer": 0,
       "recycle": true
     },
     {
@@ -455,24 +455,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "ওঠেন",
-          "tr": "othen",
-          "en": "you get up (polite)"
+          "bn": "ঘুমাই",
+          "tr": "ghumai",
+          "en": "I sleep"
         },
         {
-          "bn": "খুচরা",
-          "tr": "khuchra",
-          "en": "change"
+          "bn": "জিনিস",
+          "tr": "jinish",
+          "en": "thing"
+        },
+        {
+          "bn": "সাতটায়",
+          "tr": "shattay",
+          "en": "at seven o'clock"
         },
         {
           "bn": "গোসল",
           "tr": "gosol",
           "en": "bath"
-        },
-        {
-          "bn": "ঘুমান",
-          "tr": "ghuman",
-          "en": "you sleep (polite)"
         }
       ],
       "recycle": true
@@ -482,24 +482,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "ঘুমাই",
-          "tr": "ghumai",
-          "en": "I sleep"
+          "bn": "হাজার",
+          "tr": "hajar",
+          "en": "thousand"
         },
         {
-          "bn": "নব্বই",
-          "tr": "nobboi",
-          "en": "ninety"
+          "bn": "দেড়টা",
+          "tr": "derta",
+          "en": "half past one"
         },
         {
-          "bn": "সাড়ে",
-          "tr": "share",
-          "en": "half past"
+          "bn": "ঘুমান",
+          "tr": "ghuman",
+          "en": "you sleep (polite)"
         },
         {
-          "bn": "জিনিস",
-          "tr": "jinish",
-          "en": "thing"
+          "bn": "কোথা",
+          "tr": "kotha",
+          "en": "where (before থেকে)"
         }
       ],
       "recycle": true

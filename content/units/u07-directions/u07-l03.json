@@ -428,14 +428,14 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "ভাংতি",
-          "tr": "bhangti",
-          "en": "change"
-        },
-        {
           "bn": "ব্যাগ",
           "tr": "byag",
           "en": "bag"
+        },
+        {
+          "bn": "খুচরা",
+          "tr": "khuchra",
+          "en": "change"
         },
         {
           "bn": "সবচেয়ে",

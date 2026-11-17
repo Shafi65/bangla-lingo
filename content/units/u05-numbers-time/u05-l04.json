@@ -229,56 +229,19 @@
     },
     {
       "id": "e10",
-      "type": "word_bank",
-      "prompt": {
+      "type": "listen_meaning",
+      "audio": {
         "bn": "ওখানে এক হাজার মানুষ আছে।",
         "tr": "okhane ek hajar manush achhe.",
         "en": "There are a thousand people there."
       },
-      "direction": "bn_to_en",
-      "tiles": [
-        "people",
-        "a",
-        "hundred",
-        "There",
-        "thousand",
-        "are",
-        "one",
-        "there",
-        "here"
+      "options": [
+        "There are a hundred people here.",
+        "There are ten people there.",
+        "Are there a thousand people here?",
+        "There are a thousand people there."
       ],
-      "answer": [
-        "There",
-        "are",
-        "a",
-        "thousand",
-        "people",
-        "there"
-      ],
-      "alt": [
-        [
-          "There",
-          "are",
-          "one",
-          "thousand",
-          "people",
-          "there"
-        ],
-        [
-          "a",
-          "thousand",
-          "people",
-          "are",
-          "there"
-        ],
-        [
-          "one",
-          "thousand",
-          "people",
-          "are",
-          "there"
-        ]
-      ]
+      "answer": 3
     },
     {
       "id": "e11",
@@ -309,21 +272,26 @@
       "id": "e12",
       "type": "type_translation",
       "prompt": {
-        "bn": "আমার মায়ের বয়স ষাট।",
-        "tr": "amar mayer boyosh shat.",
-        "en": "My mother is sixty."
+        "bn": "পঞ্চাশ আর পঞ্চাশ একশ।",
+        "tr": "ponchash ar ponchash eksho.",
+        "en": "Fifty and fifty is a hundred."
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "accepted": [
-        "My mother is sixty.",
-        "My mother is sixty years old.",
-        "My mother is 60.",
-        "My mother is 60 years old.",
-        "My mother's age is sixty.",
-        "My mother's age is 60.",
-        "My mom is sixty.",
-        "My mom is 60."
-      ]
+        "পঞ্চাশ আর পঞ্চাশ একশ।",
+        "পঞ্চাশ আর পঞ্চাশ একশো।",
+        "পঞ্চাশ আর পঞ্চাশ একশত।",
+        "ponchash ar ponchash eksho",
+        "ponchash ar ponchash ekshoto",
+        "ponchas ar ponchas eksho",
+        "ponchas ar ponchas ekshoto",
+        "panchash ar panchash eksho",
+        "panchash ar panchash ekshoto",
+        "ponchash ar ponchash ekso",
+        "ponchas ar ponchas ekso",
+        "panchash ar panchash ekso"
+      ],
+      "why": "100 is **একশ** (also written একশো)."
     },
     {
       "id": "e13",
@@ -348,6 +316,14 @@
         "আর",
         "দশ",
         "একশ"
+      ],
+      "alt": [
+        [
+          "দশ",
+          "আর",
+          "নব্বই",
+          "একশ"
+        ]
       ]
     },
     {
@@ -392,53 +368,53 @@
       "id": "r01",
       "type": "select_translation",
       "prompt": {
-        "bn": "তিন",
-        "tr": "tin",
-        "en": "three"
+        "bn": "বুঝতে পারছি না",
+        "tr": "bujhte parchhi na",
+        "en": "I don't understand"
       },
       "direction": "bn_to_en",
       "options": [
-        "seventy",
-        "eight",
-        "thirty",
-        "three"
+        "hello (in reply)",
+        "I don't understand",
+        "hello (Hindu greeting)",
+        "praise be to God"
       ],
-      "answer": 3,
+      "answer": 1,
       "recycle": true
     },
     {
       "id": "r02",
       "type": "listen_select",
       "audio": {
-        "bn": "বুঝতে পারছি না",
-        "tr": "bujhte parchhi na",
-        "en": "I don't understand"
+        "bn": "জানি",
+        "tr": "jani",
+        "en": "(I) know"
       },
       "options": [
-        "আসসালামু আলাইকুম",
-        "বুঝতে পারছি না",
-        "খোদা হাফেজ",
-        "নমস্কার"
+        "খাই",
+        "চাও",
+        "আছো",
+        "জানি"
       ],
-      "answer": 1,
+      "answer": 3,
       "recycle": true
     },
     {
       "id": "r03",
       "type": "select_translation",
       "prompt": {
-        "bn": "তোমাদের",
-        "tr": "tomader",
-        "en": "your (familiar, plural)"
+        "bn": "আমাদের",
+        "tr": "amader",
+        "en": "our"
       },
       "direction": "en_to_bn",
       "options": [
-        "তারা",
-        "তোরা",
-        "তোমাদের",
-        "এটা"
+        "তুই",
+        "আপনারা",
+        "ওর",
+        "আমাদের"
       ],
-      "answer": 2,
+      "answer": 3,
       "recycle": true
     },
     {
@@ -446,24 +422,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "ও",
-          "tr": "o",
-          "en": "he/she (spoken)"
-        },
-        {
-          "bn": "আমরা",
-          "tr": "amra",
-          "en": "we"
-        },
-        {
           "bn": "বারো",
           "tr": "baro",
           "en": "twelve"
         },
         {
-          "bn": "আচ্ছা",
-          "tr": "achchha",
-          "en": "OK"
+          "bn": "ও",
+          "tr": "o",
+          "en": "he/she (spoken)"
+        },
+        {
+          "bn": "তারা",
+          "tr": "tara",
+          "en": "they"
+        },
+        {
+          "bn": "তোমাদের",
+          "tr": "tomader",
+          "en": "your (familiar, plural)"
         }
       ],
       "recycle": true
@@ -473,24 +449,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "জানি",
-          "tr": "jani",
-          "en": "(I) know"
+          "bn": "ফুফু",
+          "tr": "fufu",
+          "en": "aunt (father's sister)"
+        },
+        {
+          "bn": "আমরা",
+          "tr": "amra",
+          "en": "we"
+        },
+        {
+          "bn": "আচ্ছা",
+          "tr": "achchha",
+          "en": "OK"
         },
         {
           "bn": "এগারো",
           "tr": "egaro",
           "en": "eleven"
-        },
-        {
-          "bn": "সে",
-          "tr": "she",
-          "en": "he/she"
-        },
-        {
-          "bn": "মামা",
-          "tr": "mama",
-          "en": "uncle (mother's brother)"
         }
       ],
       "recycle": true

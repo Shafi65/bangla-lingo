@@ -367,53 +367,53 @@
       "id": "r01",
       "type": "listen_select",
       "audio": {
-        "bn": "হিন্দুদের",
-        "tr": "hinduder",
-        "en": "of the Hindus"
+        "bn": "পূজা",
+        "tr": "puja",
+        "en": "puja"
       },
       "options": [
-        "বোন",
-        "হিন্দুদের",
-        "দুপুর",
-        "আপু"
+        "পূজা",
+        "বাচ্চা",
+        "মাতৃভাষা",
+        "বাড়ির"
       ],
-      "answer": 1,
+      "answer": 0,
       "recycle": true
     },
     {
       "id": "r02",
       "type": "select_translation",
       "prompt": {
-        "bn": "মন্দিরে",
-        "tr": "mondire",
-        "en": "to the temple"
+        "bn": "পূজায়",
+        "tr": "pujay",
+        "en": "at Puja"
       },
       "direction": "en_to_bn",
       "options": [
-        "মন্দিরে",
-        "টিভি",
-        "দোকানটা",
-        "খেজুর"
+        "ট্রেন",
+        "দাম",
+        "সন্ধ্যা",
+        "পূজায়"
       ],
-      "answer": 0,
+      "answer": 3,
       "recycle": true
     },
     {
       "id": "r03",
       "type": "select_translation",
       "prompt": {
-        "bn": "পূজায়",
-        "tr": "pujay",
-        "en": "at Puja"
+        "bn": "মন্দিরে",
+        "tr": "mondire",
+        "en": "to the temple"
       },
       "direction": "bn_to_en",
       "options": [
-        "elder sister",
-        "at Puja",
-        "of the hotel",
-        "day"
+        "fair",
+        "aunt (mother's sister)",
+        "fruit",
+        "to the temple"
       ],
-      "answer": 1,
+      "answer": 3,
       "recycle": true
     },
     {
@@ -421,24 +421,24 @@
       "type": "match_pairs",
       "pairs": [
         {
+          "bn": "বিজয়া",
+          "tr": "bijoya",
+          "en": "Bijoya"
+        },
+        {
           "bn": "দুর্গাপূজা",
           "tr": "durgapuja",
           "en": "Durga Puja"
         },
         {
-          "bn": "পূজা",
-          "tr": "puja",
-          "en": "puja"
+          "bn": "হিন্দুদের",
+          "tr": "hinduder",
+          "en": "of the Hindus"
         },
         {
-          "bn": "প্রতিমা",
-          "tr": "protima",
-          "en": "image (idol)"
-        },
-        {
-          "bn": "বিজয়া",
-          "tr": "bijoya",
-          "en": "Bijoya"
+          "bn": "উৎসব",
+          "tr": "utshob",
+          "en": "festival"
         }
       ],
       "recycle": true
@@ -448,19 +448,19 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "উৎসব",
-          "tr": "utshob",
-          "en": "festival"
+          "bn": "সালামি",
+          "tr": "shalami",
+          "en": "Eid money"
+        },
+        {
+          "bn": "প্রতিমা",
+          "tr": "protima",
+          "en": "image (idol)"
         },
         {
           "bn": "ঈদের",
           "tr": "ider",
           "en": "of Eid"
-        },
-        {
-          "bn": "সেমাই",
-          "tr": "shemai",
-          "en": "shemai"
         },
         {
           "bn": "ঈদে",

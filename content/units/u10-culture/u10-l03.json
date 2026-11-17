@@ -365,47 +365,47 @@
       },
       "direction": "en_to_bn",
       "options": [
-        "করছি",
-        "শুনি",
-        "নেই",
-        "রাখি"
+        "করো",
+        "ছিলেন",
+        "রাখি",
+        "করছেন"
       ],
-      "answer": 3,
+      "answer": 2,
       "recycle": true
     },
     {
       "id": "r02",
       "type": "select_translation",
       "prompt": {
-        "bn": "রমজান",
-        "tr": "romjan",
-        "en": "Ramadan"
+        "bn": "রমজানে",
+        "tr": "romjane",
+        "en": "in Ramadan"
       },
       "direction": "bn_to_en",
       "options": [
-        "question",
-        "Ramadan",
-        "poisha",
-        "grandmother (mother's mother)"
+        "in Ramadan",
+        "at the market",
+        "the shop",
+        "fare"
       ],
-      "answer": 1,
+      "answer": 0,
       "recycle": true
     },
     {
       "id": "r03",
       "type": "listen_select",
       "audio": {
-        "bn": "সেহরি",
-        "tr": "sehri",
-        "en": "sehri"
+        "bn": "রমজান",
+        "tr": "romjan",
+        "en": "Ramadan"
       },
       "options": [
-        "নানি",
-        "সমস্যা",
-        "সেহরি",
-        "রুটি"
+        "দাঁত",
+        "মাছটা",
+        "মামা",
+        "রমজান"
       ],
-      "answer": 2,
+      "answer": 3,
       "recycle": true
     },
     {
@@ -413,24 +413,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "ইফতারে",
-          "tr": "iftare",
-          "en": "at iftar"
-        },
-        {
           "bn": "ইফতার",
           "tr": "iftar",
           "en": "iftar"
         },
         {
-          "bn": "রোজা",
-          "tr": "roja",
-          "en": "fast"
+          "bn": "ইফতারে",
+          "tr": "iftare",
+          "en": "at iftar"
         },
         {
-          "bn": "রমজানে",
-          "tr": "romjane",
-          "en": "in Ramadan"
+          "bn": "সেহরি",
+          "tr": "sehri",
+          "en": "sehri"
+        },
+        {
+          "bn": "খেজুর",
+          "tr": "khejur",
+          "en": "dates"
         }
       ],
       "recycle": true
@@ -440,24 +440,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "কিছু",
-          "tr": "kichhu",
-          "en": "something"
+          "bn": "জানেন",
+          "tr": "janen",
+          "en": "(you, polite) know"
         },
         {
-          "bn": "এইটা",
-          "tr": "eita",
-          "en": "this one"
+          "bn": "ভুল",
+          "tr": "bhul",
+          "en": "wrong"
         },
         {
-          "bn": "খেজুর",
-          "tr": "khejur",
-          "en": "dates"
+          "bn": "বলেন",
+          "tr": "bolen",
+          "en": "you speak (polite)"
         },
         {
-          "bn": "সবচেয়ে",
-          "tr": "shobcheye",
-          "en": "the most"
+          "bn": "রোজা",
+          "tr": "roja",
+          "en": "fast"
         }
       ],
       "recycle": true

@@ -219,36 +219,19 @@
     },
     {
       "id": "e10",
-      "type": "word_bank",
-      "prompt": {
+      "type": "listen_meaning",
+      "audio": {
         "bn": "আপু, তুমি কি এক কাপ চা চাও?",
         "tr": "apu, tumi ki ek kap cha chao?",
         "en": "Apu, do you want a cup of tea?"
       },
-      "direction": "bn_to_en",
-      "tiles": [
-        "milk",
-        "tea",
-        "a",
-        "cup",
-        "two",
-        "you",
-        "of",
-        "Apu",
-        "eat",
-        "do",
-        "want"
+      "options": [
+        "Apu, I want a cup of tea.",
+        "Apu, where is the tea?",
+        "Apu, do you want a cup of tea?",
+        "Apu, do you drink tea without sugar?"
       ],
-      "answer": [
-        "Apu",
-        "do",
-        "you",
-        "want",
-        "a",
-        "cup",
-        "of",
-        "tea"
-      ]
+      "answer": 2
     },
     {
       "id": "e11",
@@ -258,28 +241,38 @@
         "tr": "amar khudha legechhe, kichhu khete chai.",
         "en": "I'm hungry, I want to eat something."
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "tiles": [
-        "don't",
-        "hungry",
-        "eat",
-        "nothing",
-        "want",
-        "to",
-        "I'm",
-        "rice",
-        "something",
-        "I"
+        "আমি",
+        "কিছু",
+        "খাই",
+        "আমার",
+        "চাই",
+        "লেগেছে",
+        "চান",
+        "খেতে",
+        "ক্ষুধা"
       ],
       "answer": [
-        "I'm",
-        "hungry",
-        "I",
-        "want",
-        "to",
-        "eat",
-        "something"
-      ]
+        "আমার",
+        "ক্ষুধা",
+        "লেগেছে",
+        "কিছু",
+        "খেতে",
+        "চাই"
+      ],
+      "alt": [
+        [
+          "আমার",
+          "ক্ষুধা",
+          "লেগেছে",
+          "আমি",
+          "কিছু",
+          "খেতে",
+          "চাই"
+        ]
+      ],
+      "why": "Hunger takes **আমার**; 'I want to eat' is **খেতে চাই**."
     },
     {
       "id": "e12",
@@ -363,20 +356,32 @@
       "prompt": {
         "bn": "জি, অবশ্যই, সমস্যা নেই।",
         "tr": "ji, oboshshoi, shomossha nei.",
-        "en": "Yes, of course, no problem."
+        "en": "Yes, of course, no problem. (polite)"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "accepted": [
-        "Yes, of course, no problem.",
-        "Yes, of course. No problem.",
-        "Yes, sure, no problem.",
-        "Yes, certainly, no problem.",
-        "Of course, no problem.",
-        "Yes of course, no problem.",
-        "Yes, of course, there's no problem.",
-        "Yes, of course, it's no problem.",
-        "Yes, definitely, no problem."
-      ]
+        "জি, অবশ্যই, সমস্যা নেই।",
+        "জ্বি, অবশ্যই, সমস্যা নেই।",
+        "ji, oboshshoi, shomossha nei",
+        "jee, oboshshoi, shomossha nei",
+        "ji, oboshoi, shomossha nei",
+        "jee, oboshoi, shomossha nei",
+        "ji, obosshoi, shomossha nei",
+        "jee, obosshoi, shomossha nei",
+        "ji, oboshshoi, somossa nei",
+        "jee, oboshshoi, somossa nei",
+        "ji, oboshoi, somossa nei",
+        "jee, oboshoi, somossa nei",
+        "ji, obosshoi, somossa nei",
+        "jee, obosshoi, somossa nei",
+        "ji, oboshshoi, shomossa nei",
+        "jee, oboshshoi, shomossa nei",
+        "ji, oboshoi, shomossa nei",
+        "jee, oboshoi, shomossa nei",
+        "ji, obosshoi, shomossa nei",
+        "jee, obosshoi, shomossa nei"
+      ],
+      "why": "The polite 'yes' is **জি**; 'no problem' is **সমস্যা নেই** ('there is no problem')."
     },
     {
       "id": "e15",
@@ -454,9 +459,9 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "আছো",
-          "tr": "achho",
-          "en": "are (familiar)"
+          "bn": "নই",
+          "tr": "noi",
+          "en": "am not"
         },
         {
           "bn": "তোর",
@@ -464,9 +469,9 @@
           "en": "your (intimate)"
         },
         {
-          "bn": "নয়",
-          "tr": "noy",
-          "en": "is not"
+          "bn": "আছো",
+          "tr": "achho",
+          "en": "are (familiar)"
         },
         {
           "bn": "ওনার",
@@ -481,14 +486,9 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "নই",
-          "tr": "noi",
-          "en": "am not"
-        },
-        {
-          "bn": "তুই",
-          "tr": "tui",
-          "en": "you (intimate)"
+          "bn": "আছি",
+          "tr": "achhi",
+          "en": "am"
         },
         {
           "bn": "উনি",
@@ -496,9 +496,14 @@
           "en": "he/she (polite, spoken)"
         },
         {
-          "bn": "আছি",
-          "tr": "achhi",
-          "en": "am"
+          "bn": "নন",
+          "tr": "non",
+          "en": "is not / are not (polite)"
+        },
+        {
+          "bn": "তুই",
+          "tr": "tui",
+          "en": "you (intimate)"
         }
       ],
       "recycle": true

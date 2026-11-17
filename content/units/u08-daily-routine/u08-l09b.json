@@ -365,53 +365,53 @@
       "id": "r01",
       "type": "select_translation",
       "prompt": {
-        "bn": "থাকেন",
-        "tr": "thaken",
-        "en": "lives (polite)"
+        "bn": "মাঝে মাঝে",
+        "tr": "majhe majhe",
+        "en": "sometimes"
       },
       "direction": "bn_to_en",
       "options": [
-        "I get up",
-        "are (intimate)",
-        "I am reading",
-        "lives (polite)"
+        "goodbye",
+        "sometimes",
+        "praise be to God",
+        "thank you"
       ],
-      "answer": 3,
+      "answer": 1,
       "recycle": true
     },
     {
       "id": "r02",
       "type": "listen_select",
       "audio": {
-        "bn": "যাবে",
-        "tr": "jabe",
-        "en": "will go"
+        "bn": "সবসময়",
+        "tr": "shobshomoy",
+        "en": "always"
       },
       "options": [
-        "যাবে",
-        "করে",
-        "দিন",
-        "কিনবেন"
+        "সকালে",
+        "সবসময়",
+        "আরও",
+        "খুব"
       ],
-      "answer": 0,
+      "answer": 1,
       "recycle": true
     },
     {
       "id": "r03",
       "type": "select_translation",
       "prompt": {
-        "bn": "যাব",
-        "tr": "jabo",
-        "en": "I will go"
+        "bn": "স্কুল",
+        "tr": "skul",
+        "en": "school"
       },
       "direction": "en_to_bn",
       "options": [
-        "নও",
-        "করছে",
-        "এসেছি",
-        "যাব"
+        "স্কুল",
+        "দাদি",
+        "ডাল",
+        "দরকার"
       ],
-      "answer": 3,
+      "answer": 0,
       "recycle": true
     },
     {
@@ -419,24 +419,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "পর্যন্ত",
-          "tr": "porjonto",
-          "en": "to"
+          "bn": "কতদূর",
+          "tr": "kotodur",
+          "en": "how far"
         },
         {
-          "bn": "থাকি",
-          "tr": "thaki",
-          "en": "I live"
+          "bn": "কেউ",
+          "tr": "keu",
+          "en": "someone"
         },
         {
-          "bn": "তাহলে",
-          "tr": "tahole",
-          "en": "then"
+          "bn": "থাকেন",
+          "tr": "thaken",
+          "en": "lives (polite)"
         },
         {
-          "bn": "থামেন",
-          "tr": "thamen",
-          "en": "stop (polite)"
+          "bn": "যাবেন",
+          "tr": "jaben",
+          "en": "will you go (polite)"
         }
       ],
       "recycle": true
@@ -446,24 +446,24 @@
       "type": "match_pairs",
       "pairs": [
         {
+          "bn": "থাকি",
+          "tr": "thaki",
+          "en": "I live"
+        },
+        {
+          "bn": "থামেন",
+          "tr": "thamen",
+          "en": "stop (polite)"
+        },
+        {
           "bn": "ছাড়বে",
           "tr": "chharbe",
           "en": "will leave"
         },
         {
-          "bn": "শহরে",
-          "tr": "shohore",
-          "en": "in the city"
-        },
-        {
-          "bn": "যাবেন",
-          "tr": "jaben",
-          "en": "will you go (polite)"
-        },
-        {
-          "bn": "কেউ",
-          "tr": "keu",
-          "en": "someone"
+          "bn": "যাবে",
+          "tr": "jabe",
+          "en": "will go"
         }
       ],
       "recycle": true

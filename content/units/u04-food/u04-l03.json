@@ -274,45 +274,37 @@
         "tr": "amra nashta khai.",
         "en": "We eat breakfast."
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "tiles": [
-        "We",
-        "eat",
-        "breakfast",
-        "eats",
-        "They",
-        "lunch"
+        "খায়",
+        "আমরা",
+        "খান",
+        "নাস্তা",
+        "তারা",
+        "খাই"
       ],
       "answer": [
-        "We",
-        "eat",
-        "breakfast"
-      ]
+        "আমরা",
+        "নাস্তা",
+        "খাই"
+      ],
+      "why": "With **আমরা** 'we' the verb is **খাই**, the same as with আমি."
     },
     {
       "id": "e13",
-      "type": "word_bank",
-      "prompt": {
+      "type": "listen_meaning",
+      "audio": {
         "bn": "ও ডিম খায় না।",
         "tr": "o dim khay na.",
         "en": "She doesn't eat eggs."
       },
-      "direction": "bn_to_en",
-      "tiles": [
-        "She",
-        "doesn't",
-        "eat",
-        "eggs",
-        "I",
-        "don't",
-        "fish"
+      "options": [
+        "I don't eat eggs.",
+        "She eats eggs.",
+        "She doesn't eat eggs.",
+        "Does she eat eggs?"
       ],
-      "answer": [
-        "She",
-        "doesn't",
-        "eat",
-        "eggs"
-      ]
+      "answer": 2
     },
     {
       "id": "e14",
@@ -342,23 +334,20 @@
       "id": "e15",
       "type": "type_translation",
       "prompt": {
-        "bn": "সে রুটি খায়।",
-        "tr": "she ruti khay.",
-        "en": "He eats roti."
+        "bn": "আমি পানি খাই।",
+        "tr": "ami pani khai.",
+        "en": "I drink water."
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "accepted": [
-        "He eats roti.",
-        "She eats roti.",
-        "He eats bread.",
-        "She eats bread.",
-        "He eats flatbread.",
-        "She eats flatbread.",
-        "He eats chapati.",
-        "She eats chapati.",
-        "He eats rotis.",
-        "She eats rotis."
-      ]
+        "আমি পানি খাই।",
+        "পানি খাই।",
+        "ami pani khai",
+        "pani khai",
+        "ami paani khai",
+        "paani khai"
+      ],
+      "why": "Bengali 'eats' drinks too: water is **খাই**, not drunk."
     },
     {
       "id": "r01",
@@ -445,19 +434,19 @@
       "type": "match_pairs",
       "pairs": [
         {
+          "bn": "আচ্ছা",
+          "tr": "achchha",
+          "en": "OK"
+        },
+        {
           "bn": "কিন্তু",
           "tr": "kintu",
           "en": "but"
         },
         {
-          "bn": "সবাই",
-          "tr": "shobai",
-          "en": "everyone"
-        },
-        {
-          "bn": "আচ্ছা",
-          "tr": "achchha",
-          "en": "OK"
+          "bn": "আমাদের",
+          "tr": "amader",
+          "en": "our"
         },
         {
           "bn": "জানি",

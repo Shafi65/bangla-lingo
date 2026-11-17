@@ -166,55 +166,37 @@
         "tr": "ami shob khai.",
         "en": "I eat everything."
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "tiles": [
-        "everything",
-        "something",
-        "eat",
-        "eats",
-        "I",
-        "don't"
+        "সবাই",
+        "আমি",
+        "কিছু",
+        "খাই",
+        "সব",
+        "খায়"
       ],
       "answer": [
-        "I",
-        "eat",
-        "everything"
-      ]
+        "আমি",
+        "সব",
+        "খাই"
+      ],
+      "why": "**সব** is 'all / everything'; **সবাই** is 'everyone'."
     },
     {
       "id": "e09",
-      "type": "word_bank",
-      "prompt": {
+      "type": "listen_meaning",
+      "audio": {
         "bn": "ভাত ভালো, কিন্তু ডাল খারাপ।",
         "tr": "bhat bhalo, kintu dal kharap.",
         "en": "The rice is good, but the dal is bad."
       },
-      "direction": "bn_to_en",
-      "tiles": [
-        "is",
-        "fish",
-        "not",
-        "dal",
-        "The",
-        "the",
-        "bad",
-        "sweet",
-        "is",
-        "but",
-        "good",
-        "rice"
+      "options": [
+        "The dal is good, but the rice is bad.",
+        "The rice is good, but the dal is bad.",
+        "The rice and the dal are good.",
+        "The rice isn't bad, but the dal is spicy."
       ],
-      "answer": [
-        "The",
-        "rice",
-        "is",
-        "good",
-        "but",
-        "the",
-        "dal",
-        "is",
-        "bad"
-      ]
+      "answer": 1
     },
     {
       "id": "e10",
@@ -396,9 +378,14 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "মজা",
-          "tr": "moja",
-          "en": "fun; tasty"
+          "bn": "খাস",
+          "tr": "khash",
+          "en": "(you, intimate) eat"
+        },
+        {
+          "bn": "নাস্তা",
+          "tr": "nashta",
+          "en": "breakfast"
         },
         {
           "bn": "কাপ",
@@ -406,14 +393,9 @@
           "en": "cup"
         },
         {
-          "bn": "রুটি",
-          "tr": "ruti",
-          "en": "flatbread"
-        },
-        {
-          "bn": "খাস",
-          "tr": "khash",
-          "en": "(you, intimate) eat"
+          "bn": "মজা",
+          "tr": "moja",
+          "en": "fun; tasty"
         }
       ],
       "recycle": true
@@ -428,19 +410,19 @@
           "en": "elder sister; ma'am"
         },
         {
-          "bn": "নাস্তা",
-          "tr": "nashta",
-          "en": "breakfast"
+          "bn": "রুটি",
+          "tr": "ruti",
+          "en": "flatbread"
         },
         {
-          "bn": "বাচ্চা",
-          "tr": "bachcha",
-          "en": "child"
+          "bn": "স্বামী",
+          "tr": "shami",
+          "en": "husband"
         },
         {
-          "bn": "স্ত্রী",
-          "tr": "stri",
-          "en": "wife"
+          "bn": "আংকেল",
+          "tr": "angkel",
+          "en": "uncle (address)"
         }
       ],
       "recycle": true

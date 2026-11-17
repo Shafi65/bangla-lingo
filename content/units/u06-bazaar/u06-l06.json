@@ -396,33 +396,33 @@
       "id": "r01",
       "type": "select_translation",
       "prompt": {
-        "bn": "টমেটোর",
-        "tr": "tometor",
-        "en": "of tomatoes"
+        "bn": "আধা",
+        "tr": "adha",
+        "en": "half"
       },
       "direction": "bn_to_en",
       "options": [
-        "banana",
-        "of tomatoes",
-        "mom",
-        "afternoon"
+        "big",
+        "tasty",
+        "half",
+        "expensive"
       ],
-      "answer": 1,
+      "answer": 2,
       "recycle": true
     },
     {
       "id": "r02",
       "type": "listen_select",
       "audio": {
-        "bn": "ডজন",
-        "tr": "dozon",
-        "en": "dozen"
+        "bn": "আলু",
+        "tr": "alu",
+        "en": "potato"
       },
       "options": [
-        "হালি",
-        "ডজন",
-        "কেজি",
-        "তেরো"
+        "বউ",
+        "আলু",
+        "মেয়ে",
+        "আম্মু"
       ],
       "answer": 1,
       "recycle": true
@@ -431,18 +431,18 @@
       "id": "r03",
       "type": "select_translation",
       "prompt": {
-        "bn": "আধা",
-        "tr": "adha",
-        "en": "half"
+        "bn": "কেজি",
+        "tr": "keji",
+        "en": "kilo"
       },
       "direction": "en_to_bn",
       "options": [
-        "শেষ",
-        "ঝাল",
-        "মিষ্টি",
-        "আধা"
+        "ডজন",
+        "হালি",
+        "কেজি",
+        "বাচ্চা"
       ],
-      "answer": 3,
+      "answer": 2,
       "recycle": true
     },
     {
@@ -450,24 +450,24 @@
       "type": "match_pairs",
       "pairs": [
         {
+          "bn": "পাঁচশ",
+          "tr": "pa~chsho",
+          "en": "five hundred"
+        },
+        {
           "bn": "হালি",
           "tr": "hali",
           "en": "four (a set of four)"
         },
         {
-          "bn": "টমেটো",
-          "tr": "tometo",
-          "en": "tomato"
+          "bn": "টমেটোর",
+          "tr": "tometor",
+          "en": "of tomatoes"
         },
         {
           "bn": "শুধু",
           "tr": "shudhu",
           "en": "only"
-        },
-        {
-          "bn": "কেজি",
-          "tr": "keji",
-          "en": "kilo"
         }
       ],
       "recycle": true
@@ -477,14 +477,14 @@
       "type": "match_pairs",
       "pairs": [
         {
+          "bn": "ডজন",
+          "tr": "dozon",
+          "en": "dozen"
+        },
+        {
           "bn": "পেঁয়াজ",
           "tr": "pe~yaj",
           "en": "onion"
-        },
-        {
-          "bn": "আলু",
-          "tr": "alu",
-          "en": "potato"
         },
         {
           "bn": "বাজার",
@@ -492,9 +492,9 @@
           "en": "market"
         },
         {
-          "bn": "পাঁচশ",
-          "tr": "pa~chsho",
-          "en": "five hundred"
+          "bn": "টমেটো",
+          "tr": "tometo",
+          "en": "tomato"
         }
       ],
       "recycle": true

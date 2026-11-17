@@ -381,47 +381,47 @@
       },
       "direction": "en_to_bn",
       "options": [
-        "দাঁত মাজা",
-        "কী হয়েছে",
-        "ধন্যবাদ",
-        "ওয়ালাইকুম আসসালাম"
+        "নমস্কার",
+        "আলহামদুলিল্লাহ",
+        "এখনো না",
+        "দাঁত মাজা"
       ],
-      "answer": 0,
+      "answer": 3,
       "recycle": true
     },
     {
       "id": "r02",
       "type": "select_translation",
       "prompt": {
-        "bn": "মাঝে মাঝে",
-        "tr": "majhe majhe",
-        "en": "sometimes"
+        "bn": "মনে হয়",
+        "tr": "mone hoy",
+        "en": "I think"
       },
       "direction": "bn_to_en",
       "options": [
-        "what happened",
-        "sometimes",
-        "thank you",
-        "praise be to God"
+        "see you again",
+        "hello (peace be upon you)",
+        "I think",
+        "hello (Hindu greeting)"
       ],
-      "answer": 1,
+      "answer": 2,
       "recycle": true
     },
     {
       "id": "r03",
       "type": "listen_select",
       "audio": {
-        "bn": "মনে হয়",
-        "tr": "mone hoy",
-        "en": "I think"
+        "bn": "মাঝে মাঝে",
+        "tr": "majhe majhe",
+        "en": "sometimes"
       },
       "options": [
-        "আসসালামু আলাইকুম",
+        "বুঝতে পারছি না",
         "মনে হয়",
         "মাঝে মাঝে",
-        "কখনো না"
+        "আলহামদুলিল্লাহ"
       ],
-      "answer": 1,
+      "answer": 2,
       "recycle": true
     },
     {
@@ -429,24 +429,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "পরে",
-          "tr": "pore",
-          "en": "after"
-        },
-        {
-          "bn": "স্কুলে",
-          "tr": "skule",
-          "en": "to school"
-        },
-        {
-          "bn": "হয়তো",
-          "tr": "hoyto",
-          "en": "maybe"
+          "bn": "আগে",
+          "tr": "age",
+          "en": "before"
         },
         {
           "bn": "পড়েন",
           "tr": "poren",
           "en": "you read (polite)"
+        },
+        {
+          "bn": "পারে",
+          "tr": "pare",
+          "en": "(he/she) can"
+        },
+        {
+          "bn": "বলতে",
+          "tr": "bolte",
+          "en": "to speak"
         }
       ],
       "recycle": true
@@ -456,24 +456,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "প্রশ্ন",
-          "tr": "proshno",
-          "en": "question"
+          "bn": "কাজের",
+          "tr": "kajer",
+          "en": "of work"
         },
         {
-          "bn": "উত্তর",
-          "tr": "uttor",
-          "en": "answer"
+          "bn": "গোসল",
+          "tr": "gosol",
+          "en": "bath"
         },
         {
-          "bn": "দাঁত",
-          "tr": "da~t",
-          "en": "teeth"
+          "bn": "ফোন",
+          "tr": "fon",
+          "en": "phone"
         },
         {
-          "bn": "নাস্তার",
-          "tr": "nashtar",
-          "en": "of breakfast"
+          "bn": "স্কুলে",
+          "tr": "skule",
+          "en": "to school"
         }
       ],
       "recycle": true

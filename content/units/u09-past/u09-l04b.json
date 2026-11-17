@@ -320,53 +320,53 @@
       "id": "r01",
       "type": "select_translation",
       "prompt": {
-        "bn": "খেয়েছেন",
-        "tr": "kheyechhen",
-        "en": "have you eaten (polite)"
+        "bn": "এসেছে",
+        "tr": "eshechhe",
+        "en": "has come"
       },
       "direction": "en_to_bn",
       "options": [
-        "পড়েন",
-        "খেয়েছেন",
-        "দেন",
-        "করেছি"
+        "থাকেন",
+        "দিলাম",
+        "খেতে",
+        "এসেছে"
       ],
-      "answer": 1,
+      "answer": 3,
       "recycle": true
     },
     {
       "id": "r02",
       "type": "select_translation",
       "prompt": {
-        "bn": "গিয়েছে",
-        "tr": "giyechhe",
-        "en": "has gone"
+        "bn": "খেয়েছো",
+        "tr": "kheyechho",
+        "en": "have you eaten (familiar)"
       },
       "direction": "bn_to_en",
       "options": [
-        "has gone",
-        "I read",
-        "I go",
-        "have you eaten (familiar)"
+        "I listen",
+        "have you eaten (familiar)",
+        "(you/he/she, polite) eat",
+        "I took"
       ],
-      "answer": 0,
+      "answer": 1,
       "recycle": true
     },
     {
       "id": "r03",
       "type": "listen_select",
       "audio": {
-        "bn": "খেয়েছো",
-        "tr": "kheyechho",
-        "en": "have you eaten (familiar)"
+        "bn": "গিয়েছে",
+        "tr": "giyechhe",
+        "en": "has gone"
       },
       "options": [
-        "পড়েন",
-        "খেয়েছো",
-        "পারে",
-        "কিনবেন"
+        "ঘুমালাম",
+        "ওঠেন",
+        "গিয়েছে",
+        "কিনব"
       ],
-      "answer": 1,
+      "answer": 2,
       "recycle": true
     },
     {
@@ -384,14 +384,14 @@
           "en": "I slept"
         },
         {
-          "bn": "দেখলাম",
-          "tr": "dekhlam",
-          "en": "I saw"
+          "bn": "এলাম",
+          "tr": "elam",
+          "en": "I came"
         },
         {
-          "bn": "এসেছে",
-          "tr": "eshechhe",
-          "en": "has come"
+          "bn": "খেয়েছেন",
+          "tr": "kheyechhen",
+          "en": "have you eaten (polite)"
         }
       ],
       "recycle": true
@@ -401,16 +401,6 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "কিনলাম",
-          "tr": "kinlam",
-          "en": "I bought"
-        },
-        {
-          "bn": "আড়াইটা",
-          "tr": "araita",
-          "en": "half past two"
-        },
-        {
           "bn": "পড়লাম",
           "tr": "porlam",
           "en": "I read"
@@ -419,6 +409,16 @@
           "bn": "বললাম",
           "tr": "bollam",
           "en": "I said"
+        },
+        {
+          "bn": "দেখলাম",
+          "tr": "dekhlam",
+          "en": "I saw"
+        },
+        {
+          "bn": "কিনলাম",
+          "tr": "kinlam",
+          "en": "I bought"
         }
       ],
       "recycle": true

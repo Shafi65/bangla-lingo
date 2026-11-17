@@ -289,72 +289,50 @@
     },
     {
       "id": "e13",
-      "type": "word_bank",
+      "type": "type_translation",
       "prompt": {
         "bn": "আমরা সবাই ভালো আছি।",
         "tr": "amra shobai bhalo achhi.",
         "en": "We are all well."
       },
-      "direction": "bn_to_en",
-      "tiles": [
-        "We",
-        "are",
-        "all",
-        "well",
-        "they",
-        "very",
-        "is"
+      "direction": "en_to_bn",
+      "accepted": [
+        "আমরা সবাই ভালো আছি।",
+        "সবাই ভালো আছি।",
+        "amra shobai bhalo achhi",
+        "shobai bhalo achhi",
+        "amra shobai bhalo achi",
+        "shobai bhalo achi",
+        "amra shobai valo achhi",
+        "shobai valo achhi",
+        "amra shobai valo achi",
+        "shobai valo achi",
+        "amra sobai bhalo achhi",
+        "sobai bhalo achhi",
+        "amra sobai bhalo achi",
+        "sobai bhalo achi",
+        "amra sobai valo achhi",
+        "sobai valo achhi",
+        "amra sobai valo achi",
+        "sobai valo achi"
       ],
-      "answer": [
-        "We",
-        "are",
-        "all",
-        "well"
-      ],
-      "alt": [
-        [
-          "We",
-          "all",
-          "are",
-          "well"
-        ]
-      ]
+      "why": "With **আমরা** the verb is **আছি**, the same as with আমি."
     },
     {
       "id": "e14",
-      "type": "word_bank",
-      "prompt": {
-        "bn": "তোমরা কয়জন?",
-        "tr": "tomra koyjon?",
-        "en": "How many of you are there?"
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "আমার দুইজন বোন আছে, কিন্তু ভাই নেই।",
+        "tr": "amar duijon bon achhe, kintu bhai nei.",
+        "en": "I have two sisters, but no brother."
       },
-      "direction": "bn_to_en",
-      "tiles": [
-        "How",
-        "many",
-        "of",
-        "you",
-        "are",
-        "there",
-        "much",
-        "we"
+      "options": [
+        "I have two brothers, but no sister.",
+        "I have a brother and two sisters.",
+        "My two sisters aren't here.",
+        "I have two sisters, but no brother."
       ],
-      "answer": [
-        "How",
-        "many",
-        "of",
-        "you",
-        "are",
-        "there"
-      ],
-      "alt": [
-        [
-          "How",
-          "many",
-          "are",
-          "you"
-        ]
-      ]
+      "answer": 3
     },
     {
       "id": "e15",
@@ -377,53 +355,53 @@
       "id": "r01",
       "type": "select_translation",
       "prompt": {
-        "bn": "তোমাদের",
-        "tr": "tomader",
-        "en": "your (familiar, plural)"
+        "bn": "আমাদের",
+        "tr": "amader",
+        "en": "our"
       },
       "direction": "bn_to_en",
       "options": [
+        "our",
+        "his/her (polite)",
         "this",
-        "your (familiar, plural)",
-        "he/she (polite, spoken)",
-        "his/her (polite)"
+        "who"
       ],
-      "answer": 1,
+      "answer": 0,
       "recycle": true
     },
     {
       "id": "r02",
       "type": "listen_select",
       "audio": {
-        "bn": "আমাদের",
-        "tr": "amader",
-        "en": "our"
+        "bn": "তোমাদের",
+        "tr": "tomader",
+        "en": "your (familiar, plural)"
       },
       "options": [
-        "আমরা",
-        "আপনি",
+        "ওরা",
         "কী",
-        "আমাদের"
+        "তোমাদের",
+        "আমার"
       ],
-      "answer": 3,
+      "answer": 2,
       "recycle": true
     },
     {
       "id": "r03",
       "type": "select_translation",
       "prompt": {
-        "bn": "স্বামী",
-        "tr": "shami",
-        "en": "husband"
+        "bn": "বউ",
+        "tr": "bou",
+        "en": "wife"
       },
       "direction": "en_to_bn",
       "options": [
-        "খালু",
-        "নানা",
-        "মেয়ে",
-        "স্বামী"
+        "আপু",
+        "বউ",
+        "মামি",
+        "দেশ"
       ],
-      "answer": 3,
+      "answer": 1,
       "recycle": true
     },
     {
@@ -431,24 +409,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "ওনার",
-          "tr": "onar",
-          "en": "his/her (polite)"
-        },
-        {
           "bn": "স্ত্রী",
           "tr": "stri",
           "en": "wife"
         },
         {
-          "bn": "আপু",
-          "tr": "apu",
-          "en": "elder sister"
+          "bn": "স্বামী",
+          "tr": "shami",
+          "en": "husband"
         },
         {
-          "bn": "হ্যাঁ",
-          "tr": "hya~",
-          "en": "yes"
+          "bn": "ওর",
+          "tr": "or",
+          "en": "his/her (spoken)"
+        },
+        {
+          "bn": "ভাইয়া",
+          "tr": "bhaiya",
+          "en": "elder brother"
         }
       ],
       "recycle": true
@@ -458,24 +436,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "তার",
-          "tr": "tar",
-          "en": "his/her"
+          "bn": "দেশ",
+          "tr": "desh",
+          "en": "country"
         },
         {
-          "bn": "বউ",
-          "tr": "bou",
-          "en": "wife"
+          "bn": "হ্যাঁ",
+          "tr": "hya~",
+          "en": "yes"
+        },
+        {
+          "bn": "ওনার",
+          "tr": "onar",
+          "en": "his/her (polite)"
         },
         {
           "bn": "না",
           "tr": "na",
           "en": "no"
-        },
-        {
-          "bn": "চাচি",
-          "tr": "chachi",
-          "en": "aunt (chacha's wife)"
         }
       ],
       "recycle": true

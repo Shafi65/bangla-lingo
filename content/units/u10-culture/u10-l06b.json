@@ -365,47 +365,47 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "please come",
-        "I brush",
-        "(you, polite) have come",
-        "(you/he/she, polite) eat"
+        "watches",
+        "has come on (felt)",
+        "you do (polite)",
+        "please come"
       ],
-      "answer": 0,
+      "answer": 3,
       "recycle": true
     },
     {
       "id": "r02",
       "type": "listen_select",
       "audio": {
-        "bn": "যদি",
-        "tr": "jodi",
-        "en": "if"
+        "bn": "খাবেন",
+        "tr": "khaben",
+        "en": "will you eat (polite)"
       },
       "options": [
-        "জি",
-        "কারণ",
-        "যদি",
-        "তাহলে"
+        "ঘুমান",
+        "খাবেন",
+        "ছিলে",
+        "কিনলাম"
       ],
-      "answer": 2,
+      "answer": 1,
       "recycle": true
     },
     {
       "id": "r03",
       "type": "select_translation",
       "prompt": {
-        "bn": "হয়",
-        "tr": "hoy",
-        "en": "is"
+        "bn": "আসবে",
+        "tr": "ashbe",
+        "en": "will come"
       },
       "direction": "en_to_bn",
       "options": [
-        "খাই",
-        "হয়",
-        "করিনি",
-        "আছো"
+        "লাগে",
+        "আছি",
+        "করেছি",
+        "আসবে"
       ],
-      "answer": 1,
+      "answer": 3,
       "recycle": true
     },
     {
@@ -413,14 +413,14 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "মেহমান",
-          "tr": "mehman",
-          "en": "guest"
+          "bn": "হয়",
+          "tr": "hoy",
+          "en": "is"
         },
         {
-          "bn": "আসবে",
-          "tr": "ashbe",
-          "en": "will come"
+          "bn": "যদি",
+          "tr": "jodi",
+          "en": "if"
         },
         {
           "bn": "পিঠা",
@@ -428,9 +428,9 @@
           "en": "pitha"
         },
         {
-          "bn": "খাবেন",
-          "tr": "khaben",
-          "en": "will you eat (polite)"
+          "bn": "মেহমান",
+          "tr": "mehman",
+          "en": "guest"
         }
       ],
       "recycle": true
@@ -440,24 +440,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "সুন্দর",
-          "tr": "shundor",
-          "en": "beautiful"
-        },
-        {
           "bn": "খেজুর",
           "tr": "khejur",
           "en": "dates"
         },
         {
-          "bn": "মেলা",
-          "tr": "mela",
-          "en": "fair"
-        },
-        {
           "bn": "দাওয়াত",
           "tr": "dawat",
           "en": "invitation"
+        },
+        {
+          "bn": "রমজানে",
+          "tr": "romjane",
+          "en": "in Ramadan"
+        },
+        {
+          "bn": "সেহরি",
+          "tr": "sehri",
+          "en": "sehri"
         }
       ],
       "recycle": true

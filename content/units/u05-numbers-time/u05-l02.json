@@ -204,30 +204,26 @@
     },
     {
       "id": "e10",
-      "type": "word_bank",
+      "type": "type_translation",
       "prompt": {
         "bn": "দশ আর তিন তেরো।",
         "tr": "dosh ar tin tero.",
         "en": "Ten and three is thirteen."
       },
-      "direction": "bn_to_en",
-      "tiles": [
-        "three",
-        "thirty",
-        "Ten",
-        "thirteen",
-        "and",
-        "is",
-        "three",
-        "twelve"
+      "direction": "en_to_bn",
+      "accepted": [
+        "দশ আর তিন তেরো।",
+        "তিন আর দশ তেরো।",
+        "dosh ar tin tero",
+        "tin ar dosh tero",
+        "dos ar tin tero",
+        "tin ar dos tero",
+        "dosh ar teen tero",
+        "teen ar dosh tero",
+        "dos ar teen tero",
+        "teen ar dos tero"
       ],
-      "answer": [
-        "Ten",
-        "and",
-        "three",
-        "is",
-        "thirteen"
-      ]
+      "why": "No verb is needed: 'ten and three thirteen'."
     },
     {
       "id": "e11",
@@ -282,30 +278,19 @@
     },
     {
       "id": "e13",
-      "type": "word_bank",
-      "prompt": {
+      "type": "listen_meaning",
+      "audio": {
         "bn": "এখানে পনেরো মানুষ আছে।",
         "tr": "ekhane ponero manush achhe.",
         "en": "There are fifteen people here."
       },
-      "direction": "bn_to_en",
-      "tiles": [
-        "people",
-        "are",
-        "There",
-        "five",
-        "fifty",
-        "here",
-        "there",
-        "fifteen"
+      "options": [
+        "There are fifteen people here.",
+        "There are five people here.",
+        "There are fifteen people there.",
+        "There are eleven people here."
       ],
-      "answer": [
-        "There",
-        "are",
-        "fifteen",
-        "people",
-        "here"
-      ]
+      "answer": 0
     },
     {
       "id": "e14",
@@ -416,14 +401,14 @@
           "en": "two (things)"
         },
         {
-          "bn": "এসেছি",
-          "tr": "eshechhi",
-          "en": "(I) have come"
+          "bn": "থেকে",
+          "tr": "theke",
+          "en": "from"
         },
         {
-          "bn": "ওর",
-          "tr": "or",
-          "en": "his/her (spoken)"
+          "bn": "কে",
+          "tr": "ke",
+          "en": "who"
         }
       ],
       "recycle": true
@@ -433,9 +418,9 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "বউ",
-          "tr": "bou",
-          "en": "wife"
+          "bn": "পরিবার",
+          "tr": "poribar",
+          "en": "family"
         },
         {
           "bn": "মজা",
@@ -443,14 +428,14 @@
           "en": "fun; tasty"
         },
         {
-          "bn": "কোথা",
-          "tr": "kotha",
-          "en": "where (before থেকে)"
+          "bn": "শিক্ষক",
+          "tr": "shikkhok",
+          "en": "teacher"
         },
         {
-          "bn": "কে",
-          "tr": "ke",
-          "en": "who"
+          "bn": "বউ",
+          "tr": "bou",
+          "en": "wife"
         }
       ],
       "recycle": true

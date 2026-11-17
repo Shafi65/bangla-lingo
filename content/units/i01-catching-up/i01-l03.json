@@ -518,70 +518,58 @@
     },
     {
       "id": "r01",
-      "type": "listen_select",
+      "type": "listen_meaning",
       "audio": {
-        "bn": "আসত",
-        "tr": "ashto",
-        "en": "he/she used to come"
+        "bn": "নাদিয়া প্রতি শুক্রবার আমাদের বাসায় আসত।",
+        "tr": "nadiya proti shukrobar amader bashay ashto.",
+        "en": "Nadia used to come to our home every Friday."
       },
       "options": [
-        "আছি",
-        "আসত",
-        "থাকো",
-        "কিনবেন"
+        "I want milk tea without sugar.",
+        "My elder brother is a doctor.",
+        "Nadia used to come to our home every Friday.",
+        "They are my friends."
       ],
-      "answer": 1,
+      "answer": 2,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "fill_blank",
-      "sentence": {
-        "bn": "আমার বড় ভাই অফিসে কাজ করত।",
-        "tr": "amar boro bhai ofise kaj korto.",
-        "en": "My elder brother used to work in an office."
+      "type": "select_translation",
+      "prompt": {
+        "bn": "করত",
+        "tr": "korto",
+        "en": "he/she used to do"
       },
-      "blank": "করত",
+      "direction": "en_to_bn",
       "options": [
+        "পারল",
+        "শিখতে",
         "করত",
-        "শিখছি",
-        "ছিলাম",
-        "খায়"
+        "চাস"
       ],
-      "answer": 0,
+      "answer": 2,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "listen_meaning",
-      "audio": {
+      "type": "fill_blank",
+      "sentence": {
         "bn": "তুমি ছোটবেলায় কী করতে?",
         "tr": "tumi chhotobelay ki korte?",
         "en": "What did you (familiar) use to do as a child?"
       },
-      "options": [
-        "Ma'am, I don't understand.",
-        "What did you (familiar) use to do as a child?",
-        "Where is the school?",
-        "What do you do?"
+      "blank": "করতে",
+      "accepted": [
+        "করতে",
+        "korte"
       ],
-      "answer": 1,
       "recycle": true
     },
     {
       "id": "r04",
       "type": "match_pairs",
       "pairs": [
-        {
-          "bn": "করতি",
-          "tr": "korti",
-          "en": "you used to do (intimate)"
-        },
-        {
-          "bn": "থাকতেন",
-          "tr": "thakten",
-          "en": "you / he, she (polite) used to live"
-        },
         {
           "bn": "বলতেন",
           "tr": "bolten",
@@ -591,6 +579,16 @@
           "bn": "থাকত",
           "tr": "thakto",
           "en": "he/she used to live"
+        },
+        {
+          "bn": "করতি",
+          "tr": "korti",
+          "en": "you used to do (intimate)"
+        },
+        {
+          "bn": "থাকতেন",
+          "tr": "thakten",
+          "en": "you / he, she (polite) used to live"
         }
       ],
       "recycle": true
@@ -600,24 +598,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "চলো",
-          "tr": "cholo",
-          "en": "let's"
-        },
-        {
           "bn": "গল্প",
           "tr": "golpo",
           "en": "story"
         },
         {
-          "bn": "আসবি",
-          "tr": "ashbi",
-          "en": "will you come (intimate)"
+          "bn": "পূজা",
+          "tr": "puja",
+          "en": "puja"
         },
         {
-          "bn": "খাবি",
-          "tr": "khabi",
-          "en": "will you eat (intimate)"
+          "bn": "দেখতে",
+          "tr": "dekhte",
+          "en": "to see"
+        },
+        {
+          "bn": "বেড়াতে",
+          "tr": "berate",
+          "en": "to go out (on a visit or trip)"
         }
       ],
       "recycle": true

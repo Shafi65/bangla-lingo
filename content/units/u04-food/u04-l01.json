@@ -247,26 +247,19 @@
     },
     {
       "id": "e11",
-      "type": "word_bank",
-      "prompt": {
-        "bn": "ওটা কি মাছ?",
-        "tr": "ota ki machh?",
-        "en": "Is that fish?"
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "না, ওটা মাংস।",
+        "tr": "na, ota mangsho.",
+        "en": "No, that's meat."
       },
-      "direction": "bn_to_en",
-      "tiles": [
-        "Is",
-        "that",
-        "fish",
-        "this",
-        "meat",
-        "egg"
+      "options": [
+        "Yes, that's fish.",
+        "No, this is chicken.",
+        "Is that meat?",
+        "No, that's meat."
       ],
-      "answer": [
-        "Is",
-        "that",
-        "fish"
-      ]
+      "answer": 3
     },
     {
       "id": "e12",
@@ -342,20 +335,20 @@
       "id": "e15",
       "type": "type_translation",
       "prompt": {
-        "bn": "সবজি খুব ভালো।",
-        "tr": "shobji khub bhalo.",
-        "en": "The vegetables are very good."
+        "bn": "এটা কি ডিম?",
+        "tr": "eta ki dim?",
+        "en": "Is this an egg?"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "accepted": [
-        "The vegetables are very good.",
-        "Vegetables are very good.",
-        "The vegetables are really good.",
-        "Vegetables are really good.",
-        "The vegetables are very nice.",
-        "Vegetables are very nice.",
-        "The vegetable is very good."
-      ]
+        "এটা কি ডিম?",
+        "এটা ডিম?",
+        "eta ki dim",
+        "eta dim",
+        "eta ki deem",
+        "eta deem"
+      ],
+      "why": "A yes/no question puts **কি** after the subject: এটা কি …?"
     },
     {
       "id": "r01",
@@ -367,9 +360,9 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "goodbye",
-        "hello (Hindu greeting)",
-        "thank you",
+        "hello (in reply)",
+        "praise be to God",
+        "hello (peace be upon you)",
         "I don't understand"
       ],
       "answer": 3,
@@ -379,17 +372,17 @@
       "id": "r02",
       "type": "listen_select",
       "audio": {
-        "bn": "সে",
-        "tr": "she",
-        "en": "he/she"
+        "bn": "মায়ের",
+        "tr": "mayer",
+        "en": "mother's"
       },
       "options": [
-        "তুমি",
-        "ওরা",
-        "সে",
-        "আমাদের"
+        "স্ত্রী",
+        "মায়ের",
+        "আপু",
+        "বাংলা"
       ],
-      "answer": 2,
+      "answer": 1,
       "recycle": true
     },
     {
@@ -402,12 +395,12 @@
       },
       "direction": "en_to_bn",
       "options": [
-        "আবার দেখা হবে",
-        "ধন্যবাদ",
         "ওয়ালাইকুম আসসালাম",
+        "আলহামদুলিল্লাহ",
+        "আবার দেখা হবে",
         "খোদা হাফেজ"
       ],
-      "answer": 2,
+      "answer": 0,
       "recycle": true
     },
     {
@@ -415,24 +408,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "নন",
-          "tr": "non",
-          "en": "is not / are not (polite)"
-        },
-        {
           "bn": "আপনারা",
           "tr": "apnara",
           "en": "you (polite, plural)"
         },
         {
-          "bn": "ওরা",
-          "tr": "ora",
-          "en": "they (spoken)"
+          "bn": "নও",
+          "tr": "noo",
+          "en": "are not (familiar)"
         },
         {
-          "bn": "মায়ের",
-          "tr": "mayer",
-          "en": "mother's"
+          "bn": "সে",
+          "tr": "she",
+          "en": "he/she"
+        },
+        {
+          "bn": "তারা",
+          "tr": "tara",
+          "en": "they"
         }
       ],
       "recycle": true
@@ -442,14 +435,9 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "মানুষ",
-          "tr": "manush",
-          "en": "person"
-        },
-        {
-          "bn": "নও",
-          "tr": "noo",
-          "en": "are not (familiar)"
+          "bn": "তোরা",
+          "tr": "tora",
+          "en": "you (intimate, plural)"
         },
         {
           "bn": "তিনি",
@@ -457,9 +445,14 @@
           "en": "he/she (polite)"
         },
         {
-          "bn": "তোরা",
-          "tr": "tora",
-          "en": "you (intimate, plural)"
+          "bn": "নয়",
+          "tr": "noy",
+          "en": "is not"
+        },
+        {
+          "bn": "ওরা",
+          "tr": "ora",
+          "en": "they (spoken)"
         }
       ],
       "recycle": true

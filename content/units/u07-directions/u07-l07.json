@@ -334,27 +334,27 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "(I) know",
         "will go",
         "(you, polite) have come",
-        "(you, intimate) eat"
+        "you will buy (polite)",
+        "go (polite)"
       ],
-      "answer": 1,
+      "answer": 0,
       "recycle": true
     },
     {
       "id": "r02",
       "type": "listen_select",
       "audio": {
-        "bn": "পর্যন্ত",
-        "tr": "porjonto",
-        "en": "to"
+        "bn": "ছাড়বে",
+        "tr": "chharbe",
+        "en": "will leave"
       },
       "options": [
-        "দিয়ে",
-        "সামনে",
-        "পর্যন্ত",
-        "উপরে"
+        "খায়",
+        "নও",
+        "ছাড়বে",
+        "নই"
       ],
       "answer": 2,
       "recycle": true
@@ -363,18 +363,18 @@
       "id": "r03",
       "type": "select_translation",
       "prompt": {
-        "bn": "ছাড়বে",
-        "tr": "chharbe",
-        "en": "will leave"
+        "bn": "পর্যন্ত",
+        "tr": "porjonto",
+        "en": "to"
       },
       "direction": "en_to_bn",
       "options": [
-        "খাস",
-        "খান",
-        "ছাড়বে",
-        "নেই"
+        "পর্যন্ত",
+        "দিকে",
+        "পাশে",
+        "ছাড়া"
       ],
-      "answer": 2,
+      "answer": 0,
       "recycle": true
     },
     {
@@ -382,24 +382,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "ট্রেনে",
-          "tr": "trene",
-          "en": "by train"
+          "bn": "গাড়ি",
+          "tr": "gari",
+          "en": "car"
         },
         {
-          "bn": "বাসে",
-          "tr": "base",
-          "en": "by bus"
+          "bn": "টিকিট",
+          "tr": "tikit",
+          "en": "ticket"
+        },
+        {
+          "bn": "ট্রেন",
+          "tr": "tren",
+          "en": "train"
         },
         {
           "bn": "বাস",
           "tr": "bas",
           "en": "bus"
-        },
-        {
-          "bn": "গাড়ি",
-          "tr": "gari",
-          "en": "car"
         }
       ],
       "recycle": true
@@ -409,24 +409,24 @@
       "type": "match_pairs",
       "pairs": [
         {
+          "bn": "ইলিশের",
+          "tr": "ilisher",
+          "en": "of the hilsa"
+        },
+        {
+          "bn": "বাসে",
+          "tr": "base",
+          "en": "by bus"
+        },
+        {
+          "bn": "ট্রেনে",
+          "tr": "trene",
+          "en": "by train"
+        },
+        {
           "bn": "কিনবেন",
           "tr": "kinben",
           "en": "you will buy (polite)"
-        },
-        {
-          "bn": "ট্রেন",
-          "tr": "tren",
-          "en": "train"
-        },
-        {
-          "bn": "ডজন",
-          "tr": "dozon",
-          "en": "dozen"
-        },
-        {
-          "bn": "টিকিট",
-          "tr": "tikit",
-          "en": "ticket"
         }
       ],
       "recycle": true

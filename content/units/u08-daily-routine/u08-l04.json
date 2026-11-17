@@ -347,53 +347,53 @@
       "id": "r01",
       "type": "select_translation",
       "prompt": {
-        "bn": "যাই",
-        "tr": "jai",
-        "en": "I go"
+        "bn": "যাও",
+        "tr": "jao",
+        "en": "you go (familiar)"
       },
       "direction": "en_to_bn",
       "options": [
-        "এসেছি",
-        "চান",
-        "লাগবে",
-        "যাই"
+        "খান",
+        "খায়",
+        "যাও",
+        "করি"
       ],
-      "answer": 3,
+      "answer": 2,
       "recycle": true
     },
     {
       "id": "r02",
       "type": "select_translation",
       "prompt": {
-        "bn": "আসি",
-        "tr": "ashi",
-        "en": "I come"
+        "bn": "যাই",
+        "tr": "jai",
+        "en": "I go"
       },
       "direction": "bn_to_en",
       "options": [
-        "(I/we) want",
-        "I come",
-        "I will buy",
-        "I sleep"
+        "is not / are not (polite)",
+        "(you, intimate) eat",
+        "I go",
+        "give (polite)"
       ],
-      "answer": 1,
+      "answer": 2,
       "recycle": true
     },
     {
       "id": "r03",
       "type": "listen_select",
       "audio": {
-        "bn": "যায়",
-        "tr": "jay",
-        "en": "goes"
+        "bn": "আসে",
+        "tr": "ashe",
+        "en": "comes"
       },
       "options": [
-        "যায়",
-        "কিনব",
-        "বলি",
-        "দিন"
+        "করিস",
+        "আছো",
+        "আসে",
+        "যাই"
       ],
-      "answer": 0,
+      "answer": 2,
       "recycle": true
     },
     {
@@ -401,24 +401,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "যাও",
-          "tr": "jao",
-          "en": "you go (familiar)"
-        },
-        {
-          "bn": "আসে",
-          "tr": "ashe",
-          "en": "comes"
-        },
-        {
           "bn": "কখন",
           "tr": "kokhon",
           "en": "when"
         },
         {
-          "bn": "ঘুম",
-          "tr": "ghum",
-          "en": "sleep"
+          "bn": "স্কুলে",
+          "tr": "skule",
+          "en": "to school"
+        },
+        {
+          "bn": "যায়",
+          "tr": "jay",
+          "en": "goes"
+        },
+        {
+          "bn": "আসি",
+          "tr": "ashi",
+          "en": "I come"
         }
       ],
       "recycle": true
@@ -428,19 +428,19 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "অফিসে",
-          "tr": "ofise",
-          "en": "to the office"
-        },
-        {
           "bn": "স্কুল",
           "tr": "skul",
           "en": "school"
         },
         {
-          "bn": "স্কুলে",
-          "tr": "skule",
-          "en": "to school"
+          "bn": "ঘুম",
+          "tr": "ghum",
+          "en": "sleep"
+        },
+        {
+          "bn": "অফিসে",
+          "tr": "ofise",
+          "en": "to the office"
         },
         {
           "bn": "অফিস",

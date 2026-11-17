@@ -276,28 +276,23 @@
       "id": "e12",
       "type": "word_bank",
       "prompt": {
-        "bn": "ও খুব ভালো মেয়ে।",
-        "tr": "o khub bhalo meye.",
-        "en": "She is a very good girl."
+        "bn": "সে ভালো ছেলে।",
+        "tr": "she bhalo chhele.",
+        "en": "He is a good boy."
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "tiles": [
-        "She",
-        "is",
-        "are",
-        "a",
-        "very",
-        "good",
-        "girl",
-        "boy"
+        "ছেলে",
+        "খুব",
+        "সে",
+        "মেয়ে",
+        "ভালো",
+        "আমরা"
       ],
       "answer": [
-        "She",
-        "is",
-        "a",
-        "very",
-        "good",
-        "girl"
+        "সে",
+        "ভালো",
+        "ছেলে"
       ]
     },
     {
@@ -352,18 +347,16 @@
       "prompt": {
         "bn": "তোমরা কেমন আছো?",
         "tr": "tomra kemon achho?",
-        "en": "How are you all?"
+        "en": "How are you all? (familiar: to your classmates)"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "accepted": [
-        "How are you all?",
-        "How are you guys?",
-        "How are you?",
-        "How are you all doing?",
-        "How are you guys doing?",
-        "How're you all?",
-        "How're you guys?"
-      ]
+        "তোমরা কেমন আছো?",
+        "তোমরা কেমন আছ?",
+        "tomra kemon achho",
+        "tomra kemon acho"
+      ],
+      "why": "The familiar plural 'you' is **তোমরা**; the verb stays **আছো**, as with তুমি."
     },
     {
       "id": "r01",
@@ -375,28 +368,28 @@
       },
       "direction": "en_to_bn",
       "options": [
+        "আমরা",
         "তিনি",
         "তোমরা",
-        "তোমার",
-        "আপনি"
+        "ওরা"
       ],
-      "answer": 0,
+      "answer": 1,
       "recycle": true
     },
     {
       "id": "r02",
       "type": "select_translation",
       "prompt": {
-        "bn": "সে",
-        "tr": "she",
-        "en": "he/she"
+        "bn": "উনি",
+        "tr": "uni",
+        "en": "he/she (polite, spoken)"
       },
       "direction": "bn_to_en",
       "options": [
         "your (polite)",
-        "you (familiar)",
-        "you (polite, plural)",
-        "he/she"
+        "you (familiar, plural)",
+        "they",
+        "he/she (polite, spoken)"
       ],
       "answer": 3,
       "recycle": true
@@ -405,15 +398,15 @@
       "id": "r03",
       "type": "listen_select",
       "audio": {
-        "bn": "উনি",
-        "tr": "uni",
-        "en": "he/she (polite, spoken)"
+        "bn": "ডাক্তার",
+        "tr": "daktar",
+        "en": "doctor"
       },
       "options": [
-        "আপনি",
-        "উনি",
-        "আপনার",
-        "ওরা"
+        "শিক্ষক",
+        "ডাক্তার",
+        "নাম",
+        "ছাত্র"
       ],
       "answer": 1,
       "recycle": true
@@ -422,38 +415,6 @@
       "id": "r04",
       "type": "match_pairs",
       "pairs": [
-        {
-          "bn": "ছাত্রী",
-          "tr": "chhatri",
-          "en": "student (female)"
-        },
-        {
-          "bn": "জি",
-          "tr": "ji",
-          "en": "yes (polite)"
-        },
-        {
-          "bn": "তুমি",
-          "tr": "tumi",
-          "en": "you (familiar)"
-        },
-        {
-          "bn": "ডাক্তার",
-          "tr": "daktar",
-          "en": "doctor"
-        }
-      ],
-      "recycle": true
-    },
-    {
-      "id": "r05",
-      "type": "match_pairs",
-      "pairs": [
-        {
-          "bn": "নাম",
-          "tr": "nam",
-          "en": "name"
-        },
         {
           "bn": "হ্যাঁ",
           "tr": "hya~",
@@ -465,9 +426,14 @@
           "en": "I"
         },
         {
-          "bn": "শিক্ষক",
-          "tr": "shikkhok",
-          "en": "teacher"
+          "bn": "না",
+          "tr": "na",
+          "en": "no"
+        },
+        {
+          "bn": "ছাত্রী",
+          "tr": "chhatri",
+          "en": "student (female)"
         }
       ],
       "recycle": true

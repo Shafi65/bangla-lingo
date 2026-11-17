@@ -405,18 +405,18 @@
       "id": "r01",
       "type": "select_translation",
       "prompt": {
-        "bn": "ছিলে",
-        "tr": "chhile",
-        "en": "you were (familiar)"
+        "bn": "মতো",
+        "tr": "moto",
+        "en": "like"
       },
       "direction": "en_to_bn",
       "options": [
-        "ছিলে",
-        "খাইনি",
-        "খাওনি",
-        "কিনব"
+        "আগে",
+        "উপরে",
+        "নিচে",
+        "মতো"
       ],
-      "answer": 0,
+      "answer": 3,
       "recycle": true
     },
     {
@@ -429,29 +429,29 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "I write",
+        "(I) know",
+        "I took",
         "you were (polite)",
-        "went",
-        "I will go"
+        "I saw"
       ],
-      "answer": 1,
+      "answer": 2,
       "recycle": true
     },
     {
       "id": "r03",
       "type": "listen_select",
       "audio": {
-        "bn": "ছিলাম",
-        "tr": "chhilam",
-        "en": "I was"
+        "bn": "ছিলে",
+        "tr": "chhile",
+        "en": "you were (familiar)"
       },
       "options": [
-        "চাই",
-        "ছিলাম",
-        "পড়লাম",
-        "পারি"
+        "ছিলে",
+        "খান",
+        "বললাম",
+        "উঠলাম"
       ],
-      "answer": 1,
+      "answer": 0,
       "recycle": true
     },
     {
@@ -464,19 +464,19 @@
           "en": "I came"
         },
         {
-          "bn": "মতো",
-          "tr": "moto",
-          "en": "like"
-        },
-        {
-          "bn": "খেলাম",
-          "tr": "khelam",
-          "en": "I ate"
-        },
-        {
           "bn": "শিক্ষার্থী",
           "tr": "shikkharthi",
           "en": "student"
+        },
+        {
+          "bn": "ছিলাম",
+          "tr": "chhilam",
+          "en": "I was"
+        },
+        {
+          "bn": "নিলাম",
+          "tr": "nilam",
+          "en": "I took"
         }
       ],
       "recycle": true
@@ -486,24 +486,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "খেয়েছেন",
-          "tr": "kheyechhen",
-          "en": "have you eaten (polite)"
-        },
-        {
-          "bn": "করেছি",
-          "tr": "korechhi",
-          "en": "I have done"
-        },
-        {
           "bn": "গিয়েছে",
           "tr": "giyechhe",
           "en": "has gone"
         },
         {
-          "bn": "এলে",
-          "tr": "ele",
-          "en": "you came (familiar)"
+          "bn": "খেয়েছেন",
+          "tr": "kheyechhen",
+          "en": "have you eaten (polite)"
+        },
+        {
+          "bn": "দিলাম",
+          "tr": "dilam",
+          "en": "I gave"
+        },
+        {
+          "bn": "করেছি",
+          "tr": "korechhi",
+          "en": "I have done"
         }
       ],
       "recycle": true

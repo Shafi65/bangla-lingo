@@ -308,49 +308,52 @@
         "tr": "apa, ami bujhte parchhi na.",
         "en": "Ma'am, I don't understand."
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "tiles": [
-        "Ma'am",
-        "I",
-        "don't",
-        "understand",
-        "know",
-        "Uncle",
-        "am"
+        "ভাই",
+        "বুঝতে পারছি না",
+        "আমি",
+        "জানি",
+        "আপা",
+        "না"
       ],
       "answer": [
-        "Ma'am",
-        "I",
-        "don't",
-        "understand"
-      ]
+        "আপা",
+        "আমি",
+        "বুঝতে পারছি না"
+      ],
+      "alt": [
+        [
+          "আপা",
+          "বুঝতে পারছি না"
+        ],
+        [
+          "আমি",
+          "বুঝতে পারছি না",
+          "আপা"
+        ],
+        [
+          "বুঝতে পারছি না",
+          "আপা"
+        ]
+      ],
+      "why": "**বুঝতে পারছি না** is 'I don't understand'; **জানি না** is 'I don't know'."
     },
     {
       "id": "e14",
-      "type": "word_bank",
-      "prompt": {
+      "type": "listen_meaning",
+      "audio": {
         "bn": "আপা, বউ মানে কী?",
         "tr": "apa, bou mane ki?",
         "en": "Ma'am, what does \"bou\" mean?"
       },
-      "direction": "bn_to_en",
-      "tiles": [
-        "Ma'am",
-        "what",
-        "does",
-        "bou",
-        "mean",
-        "is",
-        "wife",
-        "name"
+      "options": [
+        "Ma'am, where is your wife?",
+        "Ma'am, what does \"bou\" mean?",
+        "Ma'am, I don't understand.",
+        "Ma'am, are you a doctor?"
       ],
-      "answer": [
-        "Ma'am",
-        "what",
-        "does",
-        "bou",
-        "mean"
-      ]
+      "answer": 1
     },
     {
       "id": "e15",
@@ -453,19 +456,19 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "কোথা",
-          "tr": "kotha",
-          "en": "where (before থেকে)"
-        },
-        {
-          "bn": "দাদা",
-          "tr": "dada",
-          "en": "grandfather (father's father)"
+          "bn": "চাচি",
+          "tr": "chachi",
+          "en": "aunt (chacha's wife)"
         },
         {
           "bn": "বাবার",
           "tr": "babar",
           "en": "father's"
+        },
+        {
+          "bn": "দাদা",
+          "tr": "dada",
+          "en": "grandfather (father's father)"
         },
         {
           "bn": "দাদি",

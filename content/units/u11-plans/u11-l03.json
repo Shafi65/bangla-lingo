@@ -377,6 +377,113 @@
         "ki khaben"
       ],
       "why": "Polite 'you' → **খাবেন**."
+    },
+    {
+      "id": "r01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "বলব",
+        "tr": "bolbo",
+        "en": "I will say"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "বলব",
+        "কিনলেন",
+        "করছে",
+        "বলতে"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "করব",
+        "tr": "korbo",
+        "en": "I will do"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "I will do",
+        "I will sleep",
+        "need",
+        "will leave"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "listen_select",
+      "audio": {
+        "bn": "আসব",
+        "tr": "ashbo",
+        "en": "I will come"
+      },
+      "options": [
+        "ঘুমাই",
+        "চলেন",
+        "আসব",
+        "করবেন"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "ঘুমাব",
+          "tr": "ghumabo",
+          "en": "I will sleep"
+        },
+        {
+          "bn": "চলো",
+          "tr": "cholo",
+          "en": "let's"
+        },
+        {
+          "bn": "পড়ব",
+          "tr": "porbo",
+          "en": "I will read"
+        },
+        {
+          "bn": "থাকব",
+          "tr": "thakbo",
+          "en": "I will stay"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "আসেনি",
+          "tr": "asheni",
+          "en": "hasn't come"
+        },
+        {
+          "bn": "নাচ",
+          "tr": "nach",
+          "en": "dance"
+        },
+        {
+          "bn": "চলেন",
+          "tr": "cholen",
+          "en": "let's"
+        },
+        {
+          "bn": "তোমরা",
+          "tr": "tomra",
+          "en": "you (familiar, plural)"
+        }
+      ],
+      "recycle": true
     }
   ]
 }

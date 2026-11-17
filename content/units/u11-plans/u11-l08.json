@@ -424,6 +424,113 @@
         "ami rate tibhi dekhbo na"
       ],
       "why": "Future + **না**: **দেখব না** 'I won't watch'."
+    },
+    {
+      "id": "r01",
+      "type": "listen_select",
+      "audio": {
+        "bn": "শহীদ মিনার",
+        "tr": "shohid minar",
+        "en": "Shaheed Minar"
+      },
+      "options": [
+        "শহীদ মিনারে",
+        "শহীদ মিনার",
+        "আলহামদুলিল্লাহ",
+        "একুশে ফেব্রুয়ারি"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "একুশে ফেব্রুয়ারি",
+        "tr": "ekushe februari",
+        "en": "21 February"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "গত সপ্তাহে",
+        "মাঝে মাঝে",
+        "বুঝতে পারছি না",
+        "একুশে ফেব্রুয়ারি"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "শহীদ মিনারে",
+        "tr": "shohid minare",
+        "en": "to the Shaheed Minar"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "thank you",
+        "to the Shaheed Minar",
+        "Eid Mubarak",
+        "hello (Hindu greeting)"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "ভাষা",
+          "tr": "bhasha",
+          "en": "language"
+        },
+        {
+          "bn": "আপনাকে",
+          "tr": "apnake",
+          "en": "you (polite, object)"
+        },
+        {
+          "bn": "হয়",
+          "tr": "hoy",
+          "en": "is"
+        },
+        {
+          "bn": "সবাইকে",
+          "tr": "shobaike",
+          "en": "everyone"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "দিবস",
+          "tr": "dibosh",
+          "en": "day"
+        },
+        {
+          "bn": "শুভেচ্ছা",
+          "tr": "shubhechchha",
+          "en": "greetings"
+        },
+        {
+          "bn": "শহীদ",
+          "tr": "shohid",
+          "en": "martyr"
+        },
+        {
+          "bn": "হিন্দুদের",
+          "tr": "hinduder",
+          "en": "of the Hindus"
+        }
+      ],
+      "recycle": true
     }
   ]
 }

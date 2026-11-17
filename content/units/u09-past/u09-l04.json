@@ -355,17 +355,17 @@
       "id": "r01",
       "type": "listen_select",
       "audio": {
-        "bn": "আসলাম",
-        "tr": "ashlam",
-        "en": "I came"
+        "bn": "করলে",
+        "tr": "korle",
+        "en": "you did (familiar)"
       },
       "options": [
-        "আসলাম",
-        "দেখলাম",
-        "জানি",
-        "নয়"
+        "কিনল",
+        "করলে",
+        "খাও",
+        "যাচ্ছি"
       ],
-      "answer": 0,
+      "answer": 1,
       "recycle": true
     },
     {
@@ -378,30 +378,30 @@
       },
       "direction": "en_to_bn",
       "options": [
+        "দেখছে",
         "দিলাম",
-        "আছে",
-        "খাচ্ছি",
-        "করলি"
+        "খেতে",
+        "করিস"
       ],
-      "answer": 0,
+      "answer": 1,
       "recycle": true
     },
     {
       "id": "r03",
       "type": "select_translation",
       "prompt": {
-        "bn": "এলে",
-        "tr": "ele",
-        "en": "you came (familiar)"
+        "bn": "নিলাম",
+        "tr": "nilam",
+        "en": "I took"
       },
       "direction": "bn_to_en",
       "options": [
-        "I speak",
-        "you came (familiar)",
+        "I took",
+        "I read",
         "has come on (felt)",
-        "is not"
+        "(I/we) eat"
       ],
-      "answer": 1,
+      "answer": 0,
       "recycle": true
     },
     {
@@ -409,24 +409,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "উপরে",
-          "tr": "upore",
-          "en": "upstairs"
-        },
-        {
-          "bn": "এলাম",
-          "tr": "elam",
+          "bn": "আসলাম",
+          "tr": "ashlam",
           "en": "I came"
         },
         {
-          "bn": "নিলাম",
-          "tr": "nilam",
-          "en": "I took"
+          "bn": "রিকশা",
+          "tr": "riksha",
+          "en": "rickshaw"
         },
         {
           "bn": "গেলাম",
           "tr": "gelam",
           "en": "I went"
+        },
+        {
+          "bn": "বাড়ির",
+          "tr": "barir",
+          "en": "of the house"
         }
       ],
       "recycle": true
@@ -436,24 +436,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "কাল",
-          "tr": "kal",
-          "en": "tomorrow; yesterday"
+          "bn": "ভিতরে",
+          "tr": "bhitore",
+          "en": "inside"
+        },
+        {
+          "bn": "ট্রেনে",
+          "tr": "trene",
+          "en": "by train"
+        },
+        {
+          "bn": "এলে",
+          "tr": "ele",
+          "en": "you came (familiar)"
         },
         {
           "bn": "গেল",
           "tr": "gelo",
           "en": "went"
-        },
-        {
-          "bn": "ওটা",
-          "tr": "ota",
-          "en": "that"
-        },
-        {
-          "bn": "খাস",
-          "tr": "khash",
-          "en": "(you, intimate) eat"
         }
       ],
       "recycle": true

@@ -290,29 +290,19 @@
     },
     {
       "id": "e13",
-      "type": "word_bank",
-      "prompt": {
+      "type": "listen_meaning",
+      "audio": {
         "bn": "দুধ চা খুব ভালো।",
         "tr": "dudh cha khub bhalo.",
         "en": "Milk tea is very good."
       },
-      "direction": "bn_to_en",
-      "tiles": [
-        "Milk",
-        "tea",
-        "is",
-        "very",
-        "good",
-        "water",
-        "sugar"
+      "options": [
+        "Tea without sugar is very good.",
+        "Milk tea is very good.",
+        "There is no milk.",
+        "Is there milk tea here?"
       ],
-      "answer": [
-        "Milk",
-        "tea",
-        "is",
-        "very",
-        "good"
-      ]
+      "answer": 1
     },
     {
       "id": "e14",
@@ -335,18 +325,19 @@
       "id": "e15",
       "type": "type_translation",
       "prompt": {
-        "bn": "চিনি ছাড়া চা।",
-        "tr": "chini chhara cha.",
-        "en": "Tea without sugar."
+        "bn": "দুধ ছাড়া চা।",
+        "tr": "dudh chhara cha.",
+        "en": "Tea without milk."
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "accepted": [
-        "Tea without sugar.",
-        "Tea with no sugar.",
-        "Tea, no sugar.",
-        "Sugarless tea.",
-        "Tea without any sugar."
-      ]
+        "দুধ ছাড়া চা।",
+        "dudh chhara cha",
+        "dudh chara cha",
+        "dud chhara cha",
+        "dud chara cha"
+      ],
+      "why": "**ছাড়া** 'without' comes after the thing you leave out: দুধ ছাড়া."
     },
     {
       "id": "r01",

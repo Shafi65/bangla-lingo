@@ -369,16 +369,16 @@
       "id": "r01",
       "type": "select_translation",
       "prompt": {
-        "bn": "ফোন",
-        "tr": "fon",
-        "en": "phone"
+        "bn": "উঠলাম",
+        "tr": "uthlam",
+        "en": "I got up"
       },
       "direction": "bn_to_en",
       "options": [
-        "shop",
-        "phone",
-        "the banana",
-        "price"
+        "(he/she/they) eats",
+        "I got up",
+        "I go",
+        "stop (polite)"
       ],
       "answer": 1,
       "recycle": true
@@ -392,10 +392,10 @@
         "en": "school"
       },
       "options": [
-        "বাবা",
-        "কাপ",
+        "বাজার",
+        "পছন্দ",
         "স্কুল",
-        "খালু"
+        "কথা"
       ],
       "answer": 2,
       "recycle": true
@@ -404,18 +404,18 @@
       "id": "r03",
       "type": "select_translation",
       "prompt": {
-        "bn": "কাজের",
-        "tr": "kajer",
-        "en": "of work"
+        "bn": "দাঁত",
+        "tr": "da~t",
+        "en": "teeth"
       },
       "direction": "en_to_bn",
       "options": [
-        "ঈদে",
-        "বয়স",
-        "কাজের",
-        "বাংলা"
+        "চা",
+        "ট্রেন",
+        "কথা",
+        "দাঁত"
       ],
-      "answer": 2,
+      "answer": 3,
       "recycle": true
     },
     {
@@ -423,24 +423,24 @@
       "type": "match_pairs",
       "pairs": [
         {
+          "bn": "নাস্তার",
+          "tr": "nashtar",
+          "en": "of breakfast"
+        },
+        {
+          "bn": "উত্তর",
+          "tr": "uttor",
+          "en": "answer"
+        },
+        {
+          "bn": "লাগে",
+          "tr": "lage",
+          "en": "feels"
+        },
+        {
           "bn": "ঘুমের",
           "tr": "ghumer",
           "en": "of sleep"
-        },
-        {
-          "bn": "বামে",
-          "tr": "bame",
-          "en": "left"
-        },
-        {
-          "bn": "ওইটা",
-          "tr": "oita",
-          "en": "that one"
-        },
-        {
-          "bn": "তিনটা",
-          "tr": "tinta",
-          "en": "three (o'clock)"
         }
       ],
       "recycle": true
@@ -450,24 +450,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "দুইজন",
-          "tr": "duijon",
-          "en": "two (people)"
+          "bn": "দশটায়",
+          "tr": "doshtay",
+          "en": "at ten o'clock"
         },
         {
-          "bn": "ও",
-          "tr": "o",
-          "en": "he/she (spoken)"
+          "bn": "সোজা",
+          "tr": "shoja",
+          "en": "straight"
         },
         {
-          "bn": "উনিশ",
-          "tr": "unish",
-          "en": "nineteen"
+          "bn": "এগুলো",
+          "tr": "egulo",
+          "en": "these"
         },
         {
-          "bn": "আট",
-          "tr": "at",
-          "en": "eight"
+          "bn": "পাঁচটা",
+          "tr": "pa~chta",
+          "en": "five (o'clock)"
         }
       ],
       "recycle": true

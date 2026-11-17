@@ -334,12 +334,12 @@
         "en": "I had gone"
       },
       "options": [
+        "উঠি",
         "গিয়েছিলাম",
-        "করছেন",
-        "গেলাম",
-        "খাইনি"
+        "গিয়েছিল",
+        "করছো"
       ],
-      "answer": 0,
+      "answer": 1,
       "recycle": true
     },
     {
@@ -353,9 +353,9 @@
       "direction": "en_to_bn",
       "options": [
         "গিয়েছিল",
-        "দিন",
-        "দেখে",
-        "করল"
+        "শুনলাম",
+        "আসেনি",
+        "দিন"
       ],
       "answer": 0,
       "recycle": true
@@ -364,16 +364,16 @@
       "id": "r03",
       "type": "select_translation",
       "prompt": {
-        "bn": "ছবি",
-        "tr": "chhobi",
-        "en": "film"
+        "bn": "এখনো না",
+        "tr": "ekhono na",
+        "en": "not yet"
       },
       "direction": "bn_to_en",
       "options": [
-        "film",
-        "bus",
-        "student (female)",
-        "uncle (father's brother)"
+        "not yet",
+        "I don't understand",
+        "last week",
+        "praise be to God"
       ],
       "answer": 0,
       "recycle": true
@@ -383,14 +383,14 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "দেখিনি",
-          "tr": "dekhini",
-          "en": "I didn't see"
+          "bn": "খাইনি",
+          "tr": "khaini",
+          "en": "I haven't eaten"
         },
         {
-          "bn": "করিনি",
-          "tr": "korini",
-          "en": "I didn't do"
+          "bn": "ছবি",
+          "tr": "chhobi",
+          "en": "film"
         },
         {
           "bn": "এখনো",
@@ -398,9 +398,9 @@
           "en": "yet"
         },
         {
-          "bn": "ইতিমধ্যে",
-          "tr": "itimoddhe",
-          "en": "already"
+          "bn": "করিনি",
+          "tr": "korini",
+          "en": "I didn't do"
         }
       ],
       "recycle": true
@@ -410,16 +410,6 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "মাজি",
-          "tr": "maji",
-          "en": "I brush"
-        },
-        {
-          "bn": "পারেন",
-          "tr": "paren",
-          "en": "(you, polite) can"
-        },
-        {
           "bn": "খাওনি",
           "tr": "khaoni",
           "en": "you didn't eat (familiar)"
@@ -428,6 +418,16 @@
           "bn": "যাইনি",
           "tr": "jaini",
           "en": "I didn't go"
+        },
+        {
+          "bn": "দেখিনি",
+          "tr": "dekhini",
+          "en": "I didn't see"
+        },
+        {
+          "bn": "ইতিমধ্যে",
+          "tr": "itimoddhe",
+          "en": "already"
         }
       ],
       "recycle": true

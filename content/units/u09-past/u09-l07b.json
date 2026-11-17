@@ -364,10 +364,10 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "(you, polite) have come",
+        "I brush",
         "I got up",
-        "I read",
-        "I heard"
+        "I came",
+        "you did (intimate)"
       ],
       "answer": 1,
       "recycle": true
@@ -381,12 +381,12 @@
         "en": "the day"
       },
       "options": [
-        "রাস্তা",
-        "আব্বু",
+        "আন্টি",
         "দিনটা",
-        "আমগুলো"
+        "সবজি",
+        "কলাগুলো"
       ],
-      "answer": 2,
+      "answer": 1,
       "recycle": true
     },
     {
@@ -399,12 +399,12 @@
       },
       "direction": "en_to_bn",
       "options": [
-        "কথা",
-        "গোসল",
-        "বিরিয়ানি",
-        "বাচ্চা"
+        "হাসপাতাল",
+        "কাজ",
+        "বন্ধুর",
+        "কথা"
       ],
-      "answer": 0,
+      "answer": 3,
       "recycle": true
     },
     {
@@ -417,14 +417,14 @@
           "en": "always"
         },
         {
-          "bn": "আগে",
-          "tr": "age",
-          "en": "before"
+          "bn": "হয়তো",
+          "tr": "hoyto",
+          "en": "maybe"
         },
         {
-          "bn": "দেখছে",
-          "tr": "dekhchhe",
-          "en": "is watching"
+          "bn": "মাজি",
+          "tr": "maji",
+          "en": "I brush"
         },
         {
           "bn": "খেয়েছো",
@@ -439,14 +439,14 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "পড়ছি",
-          "tr": "porchhi",
-          "en": "I am reading"
+          "bn": "পরে",
+          "tr": "pore",
+          "en": "after"
         },
         {
-          "bn": "পারে",
-          "tr": "pare",
-          "en": "(he/she) can"
+          "bn": "দেখছে",
+          "tr": "dekhchhe",
+          "en": "is watching"
         },
         {
           "bn": "কখনো",
@@ -454,9 +454,9 @@
           "en": "ever"
         },
         {
-          "bn": "বলতে",
-          "tr": "bolte",
-          "en": "to speak"
+          "bn": "পারেন",
+          "tr": "paren",
+          "en": "(you, polite) can"
         }
       ],
       "recycle": true

@@ -270,27 +270,50 @@
     },
     {
       "id": "e13",
-      "type": "word_bank",
+      "type": "type_translation",
       "prompt": {
-        "bn": "তুমি কেমন আছো?",
-        "tr": "tumi kemon achho?",
-        "en": "How are you? (familiar)"
+        "bn": "ভালো আছি, ধন্যবাদ।",
+        "tr": "bhalo achhi, dhonnobad.",
+        "en": "I'm well, thank you."
       },
-      "direction": "bn_to_en",
-      "tiles": [
-        "How",
-        "are",
-        "you",
-        "what",
-        "is",
-        "name",
-        "very"
+      "direction": "en_to_bn",
+      "accepted": [
+        "ভালো আছি, ধন্যবাদ।",
+        "আমি ভালো আছি, ধন্যবাদ।",
+        "bhalo achhi, dhonnobad",
+        "ami bhalo achhi, dhonnobad",
+        "bhalo achi, dhonnobad",
+        "ami bhalo achi, dhonnobad",
+        "valo achhi, dhonnobad",
+        "ami valo achhi, dhonnobad",
+        "valo achi, dhonnobad",
+        "ami valo achi, dhonnobad",
+        "bhalo achhi, donnobad",
+        "ami bhalo achhi, donnobad",
+        "bhalo achi, donnobad",
+        "ami bhalo achi, donnobad",
+        "valo achhi, donnobad",
+        "ami valo achhi, donnobad",
+        "valo achi, donnobad",
+        "ami valo achi, donnobad",
+        "bhalo achhi, dhonyobad",
+        "ami bhalo achhi, dhonyobad",
+        "bhalo achi, dhonyobad",
+        "ami bhalo achi, dhonyobad",
+        "valo achhi, dhonyobad",
+        "ami valo achhi, dhonyobad",
+        "valo achi, dhonyobad",
+        "ami valo achi, dhonyobad",
+        "bhalo achhi, dhanyabad",
+        "ami bhalo achhi, dhanyabad",
+        "bhalo achi, dhanyabad",
+        "ami bhalo achi, dhanyabad",
+        "valo achhi, dhanyabad",
+        "ami valo achhi, dhanyabad",
+        "valo achi, dhanyabad",
+        "ami valo achi, dhanyabad"
       ],
-      "answer": [
-        "How",
-        "are",
-        "you"
-      ]
+      "why": "**আছি** goes with 'I'; you can leave out আমি."
     },
     {
       "id": "e14",

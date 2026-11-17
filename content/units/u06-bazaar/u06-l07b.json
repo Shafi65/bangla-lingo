@@ -346,53 +346,53 @@
       "id": "r01",
       "type": "select_translation",
       "prompt": {
-        "bn": "কিনবেন",
-        "tr": "kinben",
-        "en": "you will buy (polite)"
+        "bn": "কিনব",
+        "tr": "kinbo",
+        "en": "I will buy"
       },
       "direction": "en_to_bn",
       "options": [
-        "রাখেন",
-        "আছিস",
-        "দে",
-        "কিনবেন"
+        "বাজে",
+        "কিনব",
+        "আছে",
+        "খান"
       ],
-      "answer": 3,
+      "answer": 1,
       "recycle": true
     },
     {
       "id": "r02",
       "type": "select_translation",
       "prompt": {
-        "bn": "কিনব",
-        "tr": "kinbo",
-        "en": "I will buy"
+        "bn": "কিনবেন",
+        "tr": "kinben",
+        "en": "you will buy (polite)"
       },
       "direction": "bn_to_en",
       "options": [
-        "keep (polite)",
-        "is not (here); there isn't",
+        "need",
         "(I) know",
-        "I will buy"
+        "you will buy (polite)",
+        "(you/he/she, polite) want"
       ],
-      "answer": 3,
+      "answer": 2,
       "recycle": true
     },
     {
       "id": "r03",
       "type": "listen_select",
       "audio": {
-        "bn": "জামা",
-        "tr": "jama",
-        "en": "shirt"
+        "bn": "জামাটা",
+        "tr": "jamata",
+        "en": "the shirt"
       },
       "options": [
-        "আলু",
-        "জামা",
-        "বুধবার",
-        "ফুফু"
+        "পানি",
+        "আপা",
+        "জামাটা",
+        "বিরিয়ানি"
       ],
-      "answer": 1,
+      "answer": 2,
       "recycle": true
     },
     {
@@ -400,14 +400,14 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "এগুলো",
-          "tr": "egulo",
-          "en": "these"
-        },
-        {
           "bn": "লুঙ্গি",
           "tr": "lunggi",
           "en": "lungi"
+        },
+        {
+          "bn": "এগুলো",
+          "tr": "egulo",
+          "en": "these"
         },
         {
           "bn": "ওগুলো",
@@ -415,9 +415,9 @@
           "en": "those"
         },
         {
-          "bn": "জামাটা",
-          "tr": "jamata",
-          "en": "the shirt"
+          "bn": "শাড়ি",
+          "tr": "shari",
+          "en": "sari"
         }
       ],
       "recycle": true
@@ -432,19 +432,19 @@
           "en": "poisha"
         },
         {
-          "bn": "শাড়ি",
-          "tr": "shari",
-          "en": "sari"
+          "bn": "মাছটা",
+          "tr": "machhta",
+          "en": "the fish"
+        },
+        {
+          "bn": "জামা",
+          "tr": "jama",
+          "en": "shirt"
         },
         {
           "bn": "কোনো",
           "tr": "kono",
           "en": "any"
-        },
-        {
-          "bn": "দে",
-          "tr": "de",
-          "en": "give (intimate)"
         }
       ],
       "recycle": true

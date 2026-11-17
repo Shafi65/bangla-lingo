@@ -330,47 +330,47 @@
       },
       "direction": "en_to_bn",
       "options": [
-        "আমাদের",
-        "আমার",
-        "কী",
-        "এটার"
+        "এটার",
+        "আপনি",
+        "ওর",
+        "তোমার"
       ],
-      "answer": 3,
+      "answer": 0,
       "recycle": true
     },
     {
       "id": "r02",
       "type": "select_translation",
       "prompt": {
-        "bn": "বাজার",
-        "tr": "bajar",
-        "en": "market"
+        "bn": "দোকানদার",
+        "tr": "dokandar",
+        "en": "shopkeeper"
       },
       "direction": "bn_to_en",
       "options": [
-        "egg",
-        "auntie (address)",
-        "market",
-        "water"
+        "Wednesday",
+        "fun; tasty",
+        "problem",
+        "shopkeeper"
       ],
-      "answer": 2,
+      "answer": 3,
       "recycle": true
     },
     {
       "id": "r03",
       "type": "listen_select",
       "audio": {
-        "bn": "ইলিশের",
-        "tr": "ilisher",
-        "en": "of the hilsa"
+        "bn": "বাজার",
+        "tr": "bajar",
+        "en": "market"
       },
       "options": [
-        "পছন্দ",
-        "শনিবার",
+        "দাদা",
         "বাজার",
-        "ইলিশের"
+        "বউ",
+        "ডাল"
       ],
-      "answer": 3,
+      "answer": 1,
       "recycle": true
     },
     {
@@ -378,24 +378,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "সন্ধ্যায়",
-          "tr": "shondhay",
-          "en": "in the evening"
-        },
-        {
           "bn": "বাজারে",
           "tr": "bajare",
           "en": "at the market"
         },
         {
-          "bn": "দোকানদার",
-          "tr": "dokandar",
-          "en": "shopkeeper"
+          "bn": "সাড়ে",
+          "tr": "share",
+          "en": "half past"
         },
         {
           "bn": "দোকান",
           "tr": "dokan",
           "en": "shop"
+        },
+        {
+          "bn": "ইলিশের",
+          "tr": "ilisher",
+          "en": "of the hilsa"
         }
       ],
       "recycle": true
@@ -405,24 +405,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "বিকালে",
-          "tr": "bikale",
-          "en": "in the afternoon"
+          "bn": "পৌনে",
+          "tr": "poune",
+          "en": "quarter to"
         },
         {
-          "bn": "সপ্তাহে",
-          "tr": "shoptahe",
-          "en": "in a week"
+          "bn": "কাল",
+          "tr": "kal",
+          "en": "tomorrow; yesterday"
         },
         {
-          "bn": "বছরে",
-          "tr": "bochhore",
-          "en": "in a year"
+          "bn": "আজ",
+          "tr": "aj",
+          "en": "today"
         },
         {
-          "bn": "আড়াই",
-          "tr": "arai",
-          "en": "two and a half"
+          "bn": "সকালে",
+          "tr": "shokale",
+          "en": "in the morning"
         }
       ],
       "recycle": true

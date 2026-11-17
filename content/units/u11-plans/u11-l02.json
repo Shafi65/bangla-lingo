@@ -401,6 +401,113 @@
         "aashbo"
       ],
       "why": "**আসি** 'I come' → **আসব** 'I will come'."
+    },
+    {
+      "id": "r01",
+      "type": "listen_select",
+      "audio": {
+        "bn": "মাসে",
+        "tr": "mashe",
+        "en": "in the month"
+      },
+      "options": [
+        "আগামীকাল",
+        "মাসে",
+        "এত",
+        "একটু"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "পরশু",
+        "tr": "porshu",
+        "en": "the day after tomorrow"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "কেমন",
+        "এত",
+        "সবচেয়ে",
+        "পরশু"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "সামনের",
+        "tr": "shamner",
+        "en": "next (spoken)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "expensive",
+        "next (spoken)",
+        "last",
+        "difficult"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "দশ",
+          "tr": "dosh",
+          "en": "ten"
+        },
+        {
+          "bn": "পড়ছি",
+          "tr": "porchhi",
+          "en": "I am reading"
+        },
+        {
+          "bn": "কাছে",
+          "tr": "kachhe",
+          "en": "near"
+        },
+        {
+          "bn": "এটার",
+          "tr": "etar",
+          "en": "of this"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "কয়টা",
+          "tr": "koyta",
+          "en": "what time; how many"
+        },
+        {
+          "bn": "সাত",
+          "tr": "shat",
+          "en": "seven"
+        },
+        {
+          "bn": "হাজার",
+          "tr": "hajar",
+          "en": "thousand"
+        },
+        {
+          "bn": "এখানে",
+          "tr": "ekhane",
+          "en": "here"
+        }
+      ],
+      "recycle": true
     }
   ]
 }

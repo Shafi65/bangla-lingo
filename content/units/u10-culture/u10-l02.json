@@ -362,15 +362,15 @@
       "id": "r01",
       "type": "listen_select",
       "audio": {
-        "bn": "ঈদের",
-        "tr": "ider",
-        "en": "of Eid"
+        "bn": "নতুন",
+        "tr": "notun",
+        "en": "new"
       },
       "options": [
-        "রোজা",
-        "আংকেল",
-        "ঈদের",
-        "বই"
+        "কম",
+        "ঝাল",
+        "নতুন",
+        "দামি"
       ],
       "answer": 2,
       "recycle": true
@@ -379,36 +379,36 @@
       "id": "r02",
       "type": "select_translation",
       "prompt": {
-        "bn": "ঈদে",
-        "tr": "ide",
-        "en": "at Eid"
+        "bn": "সালামি",
+        "tr": "shalami",
+        "en": "Eid money"
       },
       "direction": "en_to_bn",
       "options": [
-        "স্কুলে",
-        "বউ",
-        "ঈদে",
-        "সবজি"
+        "সালামি",
+        "বাসার",
+        "দুধ",
+        "সেমাই"
       ],
-      "answer": 2,
+      "answer": 0,
       "recycle": true
     },
     {
       "id": "r03",
       "type": "select_translation",
       "prompt": {
-        "bn": "সালামি",
-        "tr": "shalami",
-        "en": "Eid money"
+        "bn": "ঈদের",
+        "tr": "ider",
+        "en": "of Eid"
       },
       "direction": "bn_to_en",
       "options": [
-        "Sunday",
-        "hotel",
-        "Eid money",
-        "person"
+        "person",
+        "of Eid",
+        "in the village",
+        "hotel"
       ],
-      "answer": 2,
+      "answer": 1,
       "recycle": true
     },
     {
@@ -416,24 +416,24 @@
       "type": "match_pairs",
       "pairs": [
         {
+          "bn": "শুনি",
+          "tr": "shuni",
+          "en": "I listen"
+        },
+        {
           "bn": "ছুটি",
           "tr": "chhuti",
           "en": "holiday"
         },
         {
-          "bn": "পড়ে",
-          "tr": "pore",
-          "en": "reads"
+          "bn": "ঈদে",
+          "tr": "ide",
+          "en": "at Eid"
         },
         {
-          "bn": "ভুল",
-          "tr": "bhul",
-          "en": "wrong"
-        },
-        {
-          "bn": "নতুন",
-          "tr": "notun",
-          "en": "new"
+          "bn": "প্রশ্ন",
+          "tr": "proshno",
+          "en": "question"
         }
       ],
       "recycle": true
@@ -443,24 +443,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "আচ্ছা",
-          "tr": "achchha",
-          "en": "OK"
+          "bn": "ষাট",
+          "tr": "shat",
+          "en": "sixty"
         },
         {
-          "bn": "তোমাদের",
-          "tr": "tomader",
-          "en": "your (familiar, plural)"
+          "bn": "তোমার",
+          "tr": "tomar",
+          "en": "your (familiar)"
         },
         {
-          "bn": "আশি",
-          "tr": "ashi",
-          "en": "eighty"
+          "bn": "যাব",
+          "tr": "jabo",
+          "en": "I will go"
         },
         {
-          "bn": "তেরো",
-          "tr": "tero",
-          "en": "thirteen"
+          "bn": "কয়জন",
+          "tr": "koyjon",
+          "en": "how many (people)"
         }
       ],
       "recycle": true

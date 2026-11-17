@@ -291,22 +291,23 @@
       "prompt": {
         "bn": "উনি কেমন আছেন?",
         "tr": "uni kemon achhen?",
-        "en": "How is he?"
+        "en": "How is he? (polite)"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "tiles": [
-        "yes",
-        "is",
-        "teacher",
-        "student",
-        "he",
-        "How"
+        "আছে",
+        "উনি",
+        "আছো",
+        "কেমন",
+        "ও",
+        "আছেন"
       ],
       "answer": [
-        "How",
-        "is",
-        "he"
-      ]
+        "উনি",
+        "কেমন",
+        "আছেন"
+      ],
+      "why": "Polite **উনি** takes **আছেন**; ordinary ও takes আছে."
     },
     {
       "id": "e14",
@@ -337,16 +338,42 @@
         "tr": "she bhalo achhe.",
         "en": "He is well."
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "accepted": [
-        "He is well.",
-        "She is well.",
-        "She is fine.",
-        "He is fine.",
-        "He's well.",
-        "She's well.",
-        "He's fine.",
-        "She's fine."
+        "সে ভালো আছে।",
+        "ও ভালো আছে।",
+        "উনি ভালো আছেন।",
+        "তিনি ভালো আছেন।",
+        "ভালো আছে।",
+        "ভালো আছেন।",
+        "she bhalo achhe",
+        "o bhalo achhe",
+        "uni bhalo achhen",
+        "tini bhalo achhen",
+        "bhalo achhe",
+        "bhalo achhen",
+        "she bhalo ache",
+        "o bhalo ache",
+        "uni bhalo achen",
+        "tini bhalo achen",
+        "bhalo ache",
+        "bhalo achen",
+        "she valo achhe",
+        "o valo achhe",
+        "uni valo achhen",
+        "tini valo achhen",
+        "valo achhe",
+        "valo achhen",
+        "she valo ache",
+        "o valo ache",
+        "uni valo achen",
+        "tini valo achen",
+        "valo ache",
+        "valo achen",
+        "se bhalo achhe",
+        "se bhalo ache",
+        "se valo achhe",
+        "se valo ache"
       ]
     },
     {
@@ -358,12 +385,12 @@
         "en": "and"
       },
       "options": [
-        "জি",
         "আর",
         "না",
-        "হ্যাঁ"
+        "হ্যাঁ",
+        "জি"
       ],
-      "answer": 1,
+      "answer": 0,
       "recycle": true
     },
     {
@@ -377,11 +404,11 @@
       "direction": "en_to_bn",
       "options": [
         "কেমন",
-        "খুব",
-        "আবার দেখা হবে",
-        "জি"
+        "ছাত্রী",
+        "হ্যাঁ",
+        "খুব"
       ],
-      "answer": 1,
+      "answer": 3,
       "recycle": true
     },
     {
@@ -395,8 +422,8 @@
       "direction": "bn_to_en",
       "options": [
         "am",
-        "are (polite)",
         "is (he/she/it)",
+        "are (polite)",
         "are (familiar)"
       ],
       "answer": 0,
@@ -407,14 +434,9 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "না",
-          "tr": "na",
-          "en": "no"
-        },
-        {
-          "bn": "কী",
-          "tr": "ki",
-          "en": "what"
+          "bn": "জি",
+          "tr": "ji",
+          "en": "yes (polite)"
         },
         {
           "bn": "আপনার",
@@ -422,9 +444,14 @@
           "en": "your (polite)"
         },
         {
-          "bn": "আছো",
-          "tr": "achho",
-          "en": "are (familiar)"
+          "bn": "তুমি",
+          "tr": "tumi",
+          "en": "you (familiar)"
+        },
+        {
+          "bn": "কী",
+          "tr": "ki",
+          "en": "what"
         }
       ],
       "recycle": true

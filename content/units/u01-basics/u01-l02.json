@@ -179,19 +179,21 @@
     },
     {
       "id": "e08",
-      "type": "listen_select",
-      "audio": {
-        "bn": "তুমি",
-        "tr": "tumi",
-        "en": "you (familiar)"
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আমি ছাত্রী।",
+        "tr": "ami chhatri.",
+        "en": "I am a student. (said by a woman)"
       },
+      "direction": "en_to_bn",
       "options": [
-        "আপনি",
-        "তুমি",
-        "আমি",
-        "শিক্ষক"
+        "আমি ছাত্র।",
+        "তুমি ছাত্রী।",
+        "আমি শিক্ষক।",
+        "আমি ছাত্রী।"
       ],
-      "answer": 1
+      "answer": 3,
+      "why": "A female student is **ছাত্রী**; **ছাত্র** is a male student."
     },
     {
       "id": "e09",
@@ -230,27 +232,25 @@
     {
       "id": "e11",
       "type": "word_bank",
-      "direction": "bn_to_en",
       "prompt": {
-        "bn": "আপনি শিক্ষক।",
-        "tr": "apni shikkhok.",
-        "en": "You are a teacher."
+        "bn": "তুমি ছাত্র।",
+        "tr": "tumi chhatro.",
+        "en": "You are a student. (familiar: to a boy in your class)"
       },
+      "direction": "en_to_bn",
       "tiles": [
-        "student",
-        "you",
-        "am",
-        "are",
-        "I",
-        "a",
-        "teacher"
+        "আপনি",
+        "ছাত্রী",
+        "তুমি",
+        "শিক্ষক",
+        "ছাত্র",
+        "আমি"
       ],
       "answer": [
-        "you",
-        "are",
-        "a",
-        "teacher"
-      ]
+        "তুমি",
+        "ছাত্র"
+      ],
+      "why": "A classmate is **তুমি**; a male student is **ছাত্র**."
     },
     {
       "id": "e12",

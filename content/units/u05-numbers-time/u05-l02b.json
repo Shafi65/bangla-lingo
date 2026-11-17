@@ -211,30 +211,19 @@
     },
     {
       "id": "e10",
-      "type": "word_bank",
-      "prompt": {
-        "bn": "দশ আর ছয় ষোলো।",
-        "tr": "dosh ar chhoy sholo.",
-        "en": "Ten and six is sixteen."
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "না, আমার বয়স আঠারো।",
+        "tr": "na, amar boyosh atharo.",
+        "en": "No, I'm eighteen."
       },
-      "direction": "bn_to_en",
-      "tiles": [
-        "seventeen",
-        "is",
-        "sixteen",
-        "seven",
-        "and",
-        "Ten",
-        "sixty",
-        "six"
+      "options": [
+        "No, I'm eight.",
+        "Yes, I'm eighteen.",
+        "No, I'm eighteen.",
+        "No, my name is Nadia."
       ],
-      "answer": [
-        "Ten",
-        "and",
-        "six",
-        "is",
-        "sixteen"
-      ]
+      "answer": 2
     },
     {
       "id": "e11",
@@ -318,29 +307,25 @@
         "tr": "or boyosh baro.",
         "en": "He is twelve."
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "accepted": [
-        "He is twelve.",
-        "He is twelve years old.",
-        "He is 12.",
-        "He is 12 years old.",
-        "She is twelve.",
-        "She is twelve years old.",
-        "She is 12.",
-        "She is 12 years old.",
-        "He's twelve.",
-        "She's twelve.",
-        "He's 12.",
-        "She's 12.",
-        "His age is twelve.",
-        "Her age is twelve.",
-        "His age is 12.",
-        "Her age is 12.",
-        "He's twelve years old.",
-        "She's twelve years old.",
-        "He's 12 years old.",
-        "She's 12 years old."
-      ]
+        "ওর বয়স বারো।",
+        "তার বয়স বারো।",
+        "ওনার বয়স বারো।",
+        "or boyosh baro",
+        "tar boyosh baro",
+        "onar boyosh baro",
+        "or boyos baro",
+        "tar boyos baro",
+        "onar boyos baro",
+        "or boyosh baaro",
+        "tar boyosh baaro",
+        "onar boyosh baaro",
+        "or boyos baaro",
+        "tar boyos baaro",
+        "onar boyos baaro"
+      ],
+      "why": "Age is 'his age twelve': **ওর বয়স** (or তার বয়স) বারো, with no verb."
     },
     {
       "id": "e15",
@@ -365,33 +350,33 @@
       "id": "r01",
       "type": "listen_select",
       "audio": {
-        "bn": "পনেরো",
-        "tr": "ponero",
-        "en": "fifteen"
+        "bn": "চৌদ্দ",
+        "tr": "choddo",
+        "en": "fourteen"
       },
       "options": [
-        "আট",
-        "পনেরো",
-        "তেরো",
-        "চার"
+        "দুইটা",
+        "একটি",
+        "দুইজন",
+        "চৌদ্দ"
       ],
-      "answer": 1,
+      "answer": 3,
       "recycle": true
     },
     {
       "id": "r02",
       "type": "select_translation",
       "prompt": {
-        "bn": "চৌদ্দ",
-        "tr": "choddo",
-        "en": "fourteen"
+        "bn": "পনেরো",
+        "tr": "ponero",
+        "en": "fifteen"
       },
       "direction": "en_to_bn",
       "options": [
-        "চৌদ্দ",
-        "নয়",
-        "দুই",
-        "সাত"
+        "পনেরো",
+        "একটি",
+        "এগারো",
+        "ছয়"
       ],
       "answer": 0,
       "recycle": true
@@ -406,12 +391,12 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "small",
         "good, well",
         "bad",
-        "Bangladeshi"
+        "spicy",
+        "tasty"
       ],
-      "answer": 2,
+      "answer": 1,
       "recycle": true
     },
     {
@@ -419,24 +404,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "বিরিয়ানি",
-          "tr": "biriyani",
-          "en": "biryani"
-        },
-        {
           "bn": "সব",
           "tr": "shob",
           "en": "all"
         },
         {
-          "bn": "ওটা",
-          "tr": "ota",
-          "en": "that"
+          "bn": "আপনারা",
+          "tr": "apnara",
+          "en": "you (polite, plural)"
         },
         {
-          "bn": "তোরা",
-          "tr": "tora",
-          "en": "you (intimate, plural)"
+          "bn": "সে",
+          "tr": "she",
+          "en": "he/she"
+        },
+        {
+          "bn": "বিরিয়ানি",
+          "tr": "biriyani",
+          "en": "biryani"
         }
       ],
       "recycle": true
@@ -446,24 +431,24 @@
       "type": "match_pairs",
       "pairs": [
         {
+          "bn": "তোরা",
+          "tr": "tora",
+          "en": "you (intimate, plural)"
+        },
+        {
           "bn": "ওরা",
           "tr": "ora",
           "en": "they (spoken)"
         },
         {
-          "bn": "নন",
-          "tr": "non",
-          "en": "is not / are not (polite)"
+          "bn": "নও",
+          "tr": "noo",
+          "en": "are not (familiar)"
         },
         {
-          "bn": "ফুফা",
-          "tr": "fufa",
-          "en": "uncle (fufu's husband)"
-        },
-        {
-          "bn": "আপনারা",
-          "tr": "apnara",
-          "en": "you (polite, plural)"
+          "bn": "ওটা",
+          "tr": "ota",
+          "en": "that"
         }
       ],
       "recycle": true

@@ -269,36 +269,19 @@
     },
     {
       "id": "e11",
-      "type": "word_bank",
-      "prompt": {
-        "bn": "এখন তিনটা বাজে।",
-        "tr": "ekhon tinta baje.",
-        "en": "It's three o'clock now."
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "এখন দশটা বাজে।",
+        "tr": "ekhon doshta baje.",
+        "en": "It's ten o'clock now."
       },
-      "direction": "bn_to_en",
-      "tiles": [
-        "o'clock",
-        "thirteen",
-        "now",
-        "It's",
-        "ten",
-        "three",
-        "time"
+      "options": [
+        "It's two o'clock now.",
+        "It's ten o'clock now.",
+        "I have ten minutes.",
+        "What time is it now?"
       ],
-      "answer": [
-        "It's",
-        "three",
-        "o'clock",
-        "now"
-      ],
-      "alt": [
-        [
-          "It's",
-          "now",
-          "three",
-          "o'clock"
-        ]
-      ]
+      "answer": 1
     },
     {
       "id": "e14",
@@ -350,16 +333,44 @@
         "tr": "amar dosh minit shomoy achhe.",
         "en": "I have ten minutes."
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "accepted": [
-        "I have ten minutes.",
-        "I have 10 minutes.",
-        "I have ten minutes of time.",
-        "I have 10 minutes of time.",
-        "I've got ten minutes.",
-        "I've got 10 minutes.",
-        "I have got ten minutes."
-      ]
+        "আমার দশ মিনিট সময় আছে।",
+        "আমার দশ মিনিট আছে।",
+        "amar dosh minit shomoy achhe",
+        "amar dosh minit achhe",
+        "amar dos minit shomoy achhe",
+        "amar dos minit achhe",
+        "amar dosh minute shomoy achhe",
+        "amar dosh minute achhe",
+        "amar dos minute shomoy achhe",
+        "amar dos minute achhe",
+        "amar dosh minit somoy achhe",
+        "amar dos minit somoy achhe",
+        "amar dosh minute somoy achhe",
+        "amar dos minute somoy achhe",
+        "amar dosh minit shomoi achhe",
+        "amar dos minit shomoi achhe",
+        "amar dosh minute shomoi achhe",
+        "amar dos minute shomoi achhe",
+        "amar dosh minit shomoy ache",
+        "amar dosh minit ache",
+        "amar dos minit shomoy ache",
+        "amar dos minit ache",
+        "amar dosh minute shomoy ache",
+        "amar dosh minute ache",
+        "amar dos minute shomoy ache",
+        "amar dos minute ache",
+        "amar dosh minit somoy ache",
+        "amar dos minit somoy ache",
+        "amar dosh minute somoy ache",
+        "amar dos minute somoy ache",
+        "amar dosh minit shomoi ache",
+        "amar dos minit shomoi ache",
+        "amar dosh minute shomoi ache",
+        "amar dos minute shomoi ache"
+      ],
+      "why": "'I have' is **আমার** … **আছে**; সময় 'time' is often added."
     },
     {
       "id": "e15",

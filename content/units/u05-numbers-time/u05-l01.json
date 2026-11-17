@@ -271,39 +271,19 @@
     },
     {
       "id": "e12",
-      "type": "word_bank",
-      "prompt": {
+      "type": "listen_meaning",
+      "audio": {
         "bn": "নয় আর এক দশ।",
         "tr": "noy ar ek dosh.",
         "en": "Nine and one is ten."
       },
-      "direction": "bn_to_en",
-      "tiles": [
-        "one",
-        "Nine",
-        "ten",
-        "is",
-        "and",
-        "not",
-        "plus",
-        "five"
+      "options": [
+        "Five and five is ten.",
+        "Six and one is seven.",
+        "Nine and one is ten.",
+        "Nine and two is eleven."
       ],
-      "answer": [
-        "Nine",
-        "and",
-        "one",
-        "is",
-        "ten"
-      ],
-      "alt": [
-        [
-          "Nine",
-          "plus",
-          "one",
-          "is",
-          "ten"
-        ]
-      ]
+      "answer": 2
     },
     {
       "id": "e13",
@@ -374,12 +354,12 @@
       },
       "direction": "en_to_bn",
       "options": [
-        "একটি",
-        "আট",
-        "সাত",
-        "পাঁচ"
+        "নয়",
+        "চার",
+        "পাঁচ",
+        "একটি"
       ],
-      "answer": 0,
+      "answer": 3,
       "recycle": true
     },
     {
@@ -392,29 +372,29 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "grandfather (father's father)",
+        "tea",
+        "sugar",
         "banana",
-        "aunt (chacha's wife)",
-        "egg"
+        "biryani"
       ],
-      "answer": 1,
+      "answer": 2,
       "recycle": true
     },
     {
       "id": "r03",
       "type": "listen_select",
       "audio": {
-        "bn": "তারা",
-        "tr": "tara",
-        "en": "they"
+        "bn": "এসেছি",
+        "tr": "eshechhi",
+        "en": "(I) have come"
       },
       "options": [
-        "এটা",
-        "তারা",
-        "আপনি",
-        "উনি"
+        "আছো",
+        "খান",
+        "এসেছি",
+        "চাই"
       ],
-      "answer": 1,
+      "answer": 2,
       "recycle": true
     },
     {
@@ -422,14 +402,9 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "আমাদের",
-          "tr": "amader",
-          "en": "our"
-        },
-        {
-          "bn": "হ্যাঁ",
-          "tr": "hya~",
-          "en": "yes"
+          "bn": "কোথা",
+          "tr": "kotha",
+          "en": "where (before থেকে)"
         },
         {
           "bn": "আছিস",
@@ -437,9 +412,14 @@
           "en": "are (intimate)"
         },
         {
-          "bn": "থেকে",
-          "tr": "theke",
-          "en": "from"
+          "bn": "কেমন",
+          "tr": "kemon",
+          "en": "how"
+        },
+        {
+          "bn": "হ্যাঁ",
+          "tr": "hya~",
+          "en": "yes"
         }
       ],
       "recycle": true
@@ -454,19 +434,19 @@
           "en": "you (familiar, plural)"
         },
         {
+          "bn": "এসেছেন",
+          "tr": "eshechhen",
+          "en": "(you, polite) have come"
+        },
+        {
           "bn": "আছেন",
           "tr": "achhen",
           "en": "are (polite)"
         },
         {
-          "bn": "কেমন",
-          "tr": "kemon",
-          "en": "how"
-        },
-        {
-          "bn": "এসেছেন",
-          "tr": "eshechhen",
-          "en": "(you, polite) have come"
+          "bn": "ওর",
+          "tr": "or",
+          "en": "his/her (spoken)"
         }
       ],
       "recycle": true

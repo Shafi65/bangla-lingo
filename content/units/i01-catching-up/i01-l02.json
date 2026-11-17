@@ -514,52 +514,52 @@
     },
     {
       "id": "r01",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "পড়তাম",
-        "tr": "portam",
-        "en": "I used to study"
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "রাতে আমি বই পড়তাম।",
+        "tr": "rate ami boi portam.",
+        "en": "At night I used to read books."
       },
-      "direction": "bn_to_en",
+      "blank": "পড়তাম",
       "options": [
-        "you were (familiar)",
-        "he/she came",
-        "I love",
-        "I used to study"
+        "আছে",
+        "পেল",
+        "ঘুমাতে",
+        "পড়তাম"
       ],
       "answer": 3,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "listen_select",
+      "type": "listen_meaning",
       "audio": {
-        "bn": "খেলতাম",
-        "tr": "kheltam",
-        "en": "I used to play"
+        "bn": "বিকালে আমরা মাঠে খেলতাম।",
+        "tr": "bikale amra mathe kheltam.",
+        "en": "In the afternoon we used to play in the field."
       },
       "options": [
-        "খাবি",
-        "খেলতাম",
-        "খায়",
-        "দিতে"
+        "I didn't watch TV.",
+        "Do you like spicy food?",
+        "In the afternoon we used to play in the field.",
+        "I will buy new clothes for Eid."
       ],
-      "answer": 1,
+      "answer": 2,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "fill_blank",
-      "sentence": {
-        "bn": "ছোটবেলায় খেলা আমার খুব পছন্দ ছিল।",
-        "tr": "chhotobelay khela amar khub pochhondo chhilo.",
-        "en": "As a child I really liked playing."
+      "type": "select_translation",
+      "prompt": {
+        "bn": "খেলা",
+        "tr": "khela",
+        "en": "game; playing"
       },
-      "blank": "খেলা",
+      "direction": "en_to_bn",
       "options": [
-        "খালা",
-        "স্কুল",
-        "মুখ",
+        "টিকিট",
+        "রাত",
+        "মাথা",
         "খেলা"
       ],
       "answer": 3,
@@ -569,11 +569,6 @@
       "id": "r04",
       "type": "match_pairs",
       "pairs": [
-        {
-          "bn": "মাঠ",
-          "tr": "math",
-          "en": "field; playground"
-        },
         {
           "bn": "ছোটবেলা",
           "tr": "chhotobela",
@@ -588,6 +583,11 @@
           "bn": "মাঠে",
           "tr": "mathe",
           "en": "in the field"
+        },
+        {
+          "bn": "মাঠ",
+          "tr": "math",
+          "en": "field; playground"
         }
       ],
       "recycle": true
@@ -597,24 +597,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "যাবেন",
-          "tr": "jaben",
-          "en": "will you go (polite)"
+          "bn": "স্বাধীনতা",
+          "tr": "shadhinota",
+          "en": "independence"
         },
         {
-          "bn": "জন্য",
-          "tr": "jonno",
-          "en": "for"
+          "bn": "আসবি",
+          "tr": "ashbi",
+          "en": "will you come (intimate)"
         },
         {
-          "bn": "কেউ",
-          "tr": "keu",
-          "en": "someone"
+          "bn": "খাবি",
+          "tr": "khabi",
+          "en": "will you eat (intimate)"
         },
         {
-          "bn": "আছে",
-          "tr": "achhe",
-          "en": "is (he/she/it)"
+          "bn": "মেলা",
+          "tr": "mela",
+          "en": "fair"
         }
       ],
       "recycle": true

@@ -287,29 +287,19 @@
     },
     {
       "id": "e13",
-      "type": "word_bank",
-      "prompt": {
+      "type": "listen_meaning",
+      "audio": {
         "bn": "আমার মামি ডাক্তার।",
         "tr": "amar mami daktar.",
         "en": "My aunt is a doctor."
       },
-      "direction": "bn_to_en",
-      "tiles": [
-        "My",
-        "aunt",
-        "uncle",
-        "is",
-        "a",
-        "doctor",
-        "teacher"
+      "options": [
+        "My aunt is a doctor.",
+        "My uncle is a doctor.",
+        "My mother is a doctor.",
+        "My aunt is a teacher."
       ],
-      "answer": [
-        "My",
-        "aunt",
-        "is",
-        "a",
-        "doctor"
-      ]
+      "answer": 0
     },
     {
       "id": "e14",
@@ -340,17 +330,18 @@
       "prompt": {
         "bn": "খালু ওখানে আছেন।",
         "tr": "khalu okhane achhen.",
-        "en": "Uncle is there."
+        "en": "Khalu (your mother's sister's husband) is there. (polite)"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "accepted": [
-        "Uncle is there.",
-        "Khalu is there.",
-        "My uncle is there.",
-        "Uncle is over there.",
-        "Khalu is over there.",
-        "My uncle is over there."
-      ]
+        "খালু ওখানে আছেন।",
+        "আমার খালু ওখানে আছেন।",
+        "khalu okhane achhen",
+        "amar khalu okhane achhen",
+        "khalu okhane achen",
+        "amar khalu okhane achen"
+      ],
+      "why": "An uncle gets the polite verb **আছেন**."
     },
     {
       "id": "r01",
@@ -373,34 +364,34 @@
       "id": "r02",
       "type": "select_translation",
       "prompt": {
-        "bn": "খোদা হাফেজ",
-        "tr": "khoda hafez",
-        "en": "goodbye"
+        "bn": "আসসালামু আলাইকুম",
+        "tr": "assalamu alaikum",
+        "en": "hello (peace be upon you)"
       },
       "direction": "en_to_bn",
       "options": [
-        "ওয়ালাইকুম আসসালাম",
+        "আলহামদুলিল্লাহ",
         "আবার দেখা হবে",
-        "নমস্কার",
-        "খোদা হাফেজ"
+        "আসসালামু আলাইকুম",
+        "ধন্যবাদ"
       ],
-      "answer": 3,
+      "answer": 2,
       "recycle": true
     },
     {
       "id": "r03",
       "type": "select_translation",
       "prompt": {
-        "bn": "আসসালামু আলাইকুম",
-        "tr": "assalamu alaikum",
-        "en": "hello (peace be upon you)"
+        "bn": "খোদা হাফেজ",
+        "tr": "khoda hafez",
+        "en": "goodbye"
       },
       "direction": "bn_to_en",
       "options": [
+        "goodbye",
         "hello (peace be upon you)",
-        "thank you",
-        "praise be to God",
-        "goodbye"
+        "hello (in reply)",
+        "hello (Hindu greeting)"
       ],
       "answer": 0,
       "recycle": true
@@ -410,9 +401,9 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "আছি",
-          "tr": "achhi",
-          "en": "am"
+          "bn": "ছেলে",
+          "tr": "chhele",
+          "en": "boy"
         },
         {
           "bn": "তিনি",
@@ -425,9 +416,9 @@
           "en": "you (familiar)"
         },
         {
-          "bn": "ছেলে",
-          "tr": "chhele",
-          "en": "boy"
+          "bn": "ইংরেজি",
+          "tr": "ingreji",
+          "en": "English (language)"
         }
       ],
       "recycle": true
@@ -436,6 +427,11 @@
       "id": "r05",
       "type": "match_pairs",
       "pairs": [
+        {
+          "bn": "আম্মু",
+          "tr": "ammu",
+          "en": "mom"
+        },
         {
           "bn": "ছাত্রী",
           "tr": "chhatri",
@@ -447,14 +443,9 @@
           "en": "friend"
         },
         {
-          "bn": "ইংরেজি",
-          "tr": "ingreji",
-          "en": "English (language)"
-        },
-        {
-          "bn": "আব্বু",
-          "tr": "abbu",
-          "en": "dad"
+          "bn": "পরিবার",
+          "tr": "poribar",
+          "en": "family"
         }
       ],
       "recycle": true

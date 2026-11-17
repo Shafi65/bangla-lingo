@@ -246,7 +246,7 @@
       "direction": "en_to_bn",
       "tiles": [
         "আপা",
-        "আপু",
+        "ভাই",
         "আমি",
         "বুঝতে পারছি না",
         "জানি",
@@ -276,32 +276,19 @@
     },
     {
       "id": "e12",
-      "type": "word_bank",
-      "prompt": {
+      "type": "listen_meaning",
+      "audio": {
         "bn": "আপনার কয়জন বাচ্চা আছে?",
         "tr": "apnar koyjon bachcha achhe?",
         "en": "How many children do you have?"
       },
-      "direction": "bn_to_en",
-      "tiles": [
-        "How",
-        "many",
-        "children",
-        "do",
-        "you",
-        "have",
-        "much",
-        "we",
-        "are"
+      "options": [
+        "Do you have children?",
+        "How many brothers do you have?",
+        "Where are your children?",
+        "How many children do you have?"
       ],
-      "answer": [
-        "How",
-        "many",
-        "children",
-        "do",
-        "you",
-        "have"
-      ]
+      "answer": 3
     },
     {
       "id": "e13",
@@ -337,14 +324,15 @@
         "tr": "amader poribar khub boro.",
         "en": "Our family is very big."
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "accepted": [
-        "Our family is very big.",
-        "Our family is very large.",
-        "We have a very big family.",
-        "We have a very large family.",
-        "Our family's very big."
-      ]
+        "আমাদের পরিবার খুব বড়।",
+        "amader poribar khub boro",
+        "amader paribar khub boro",
+        "amader poribar khoob boro",
+        "amader paribar khoob boro"
+      ],
+      "why": "'Our' is **আমাদের**; the sentence needs no verb."
     },
     {
       "id": "e15",
@@ -375,12 +363,12 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "goodbye",
-        "see you again",
-        "hello (in reply)",
-        "thank you"
+        "hello (peace be upon you)",
+        "I don't understand",
+        "praise be to God",
+        "see you again"
       ],
-      "answer": 1,
+      "answer": 3,
       "recycle": true
     },
     {
@@ -392,12 +380,12 @@
         "en": "praise be to God"
       },
       "options": [
+        "বুঝতে পারছি না",
+        "আলহামদুলিল্লাহ",
         "নমস্কার",
-        "আসসালামু আলাইকুম",
-        "ওয়ালাইকুম আসসালাম",
-        "আলহামদুলিল্লাহ"
+        "আসসালামু আলাইকুম"
       ],
-      "answer": 3,
+      "answer": 1,
       "recycle": true
     },
     {
@@ -410,12 +398,12 @@
       },
       "direction": "en_to_bn",
       "options": [
+        "আবার দেখা হবে",
         "নমস্কার",
         "ধন্যবাদ",
-        "খোদা হাফেজ",
-        "বুঝতে পারছি না"
+        "খোদা হাফেজ"
       ],
-      "answer": 0,
+      "answer": 1,
       "recycle": true
     },
     {
@@ -423,14 +411,14 @@
       "type": "match_pairs",
       "pairs": [
         {
+          "bn": "এটা",
+          "tr": "eta",
+          "en": "this"
+        },
+        {
           "bn": "বাংলা",
           "tr": "bangla",
           "en": "Bengali (language)"
-        },
-        {
-          "bn": "জি",
-          "tr": "ji",
-          "en": "yes (polite)"
         },
         {
           "bn": "থেকে",
@@ -438,9 +426,9 @@
           "en": "from"
         },
         {
-          "bn": "দেশ",
-          "tr": "desh",
-          "en": "country"
+          "bn": "জি",
+          "tr": "ji",
+          "en": "yes (polite)"
         }
       ],
       "recycle": true
@@ -450,14 +438,9 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "তারা",
-          "tr": "tara",
-          "en": "they"
-        },
-        {
-          "bn": "ও",
-          "tr": "o",
-          "en": "he/she (spoken)"
+          "bn": "ওটা",
+          "tr": "ota",
+          "en": "that"
         },
         {
           "bn": "নই",
@@ -465,9 +448,14 @@
           "en": "am not"
         },
         {
-          "bn": "এটা",
-          "tr": "eta",
-          "en": "this"
+          "bn": "তোমরা",
+          "tr": "tomra",
+          "en": "you (familiar, plural)"
+        },
+        {
+          "bn": "ও",
+          "tr": "o",
+          "en": "he/she (spoken)"
         }
       ],
       "recycle": true

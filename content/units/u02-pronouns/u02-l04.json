@@ -280,22 +280,21 @@
         "tr": "na, eta ingreji.",
         "en": "No, this is English."
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "tiles": [
-        "No",
-        "this",
-        "is",
-        "English",
-        "Bengali",
-        "that",
-        "yes"
+        "ওটা",
+        "না",
+        "বাংলা",
+        "এটা",
+        "কি",
+        "ইংরেজি"
       ],
       "answer": [
-        "No",
-        "this",
-        "is",
-        "English"
-      ]
+        "না",
+        "এটা",
+        "ইংরেজি"
+      ],
+      "why": "This = **এটা**; that = ওটা."
     },
     {
       "id": "e14",
@@ -327,13 +326,30 @@
       "prompt": {
         "bn": "আপনি কি শিক্ষক?",
         "tr": "apni ki shikkhok?",
-        "en": "Are you a teacher?"
+        "en": "Are you a teacher? (polite)"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "accepted": [
-        "Are you a teacher?",
-        "Are you the teacher?"
-      ]
+        "আপনি কি শিক্ষক?",
+        "আপনি শিক্ষক?",
+        "apni ki shikkhok",
+        "apni shikkhok",
+        "apni ki shikkhak",
+        "apni shikkhak",
+        "apni ki sikkhok",
+        "apni sikkhok",
+        "apni ki shikhok",
+        "apni shikhok",
+        "aapni ki shikkhok",
+        "aapni shikkhok",
+        "aapni ki shikkhak",
+        "aapni shikkhak",
+        "aapni ki sikkhok",
+        "aapni sikkhok",
+        "aapni ki shikhok",
+        "aapni shikhok"
+      ],
+      "why": "A yes/no question puts **কি** (short ি) after the subject."
     },
     {
       "id": "r01",
@@ -403,9 +419,9 @@
           "en": "is not (here); there isn't"
         },
         {
-          "bn": "সে",
-          "tr": "she",
-          "en": "he/she"
+          "bn": "ও",
+          "tr": "o",
+          "en": "he/she (spoken)"
         },
         {
           "bn": "ওরা",
@@ -420,24 +436,24 @@
       "type": "match_pairs",
       "pairs": [
         {
+          "bn": "তুমি",
+          "tr": "tumi",
+          "en": "you (familiar)"
+        },
+        {
+          "bn": "নাম",
+          "tr": "nam",
+          "en": "name"
+        },
+        {
           "bn": "তোমার",
           "tr": "tomar",
           "en": "your (familiar)"
         },
         {
-          "bn": "খুব",
-          "tr": "khub",
-          "en": "very"
-        },
-        {
           "bn": "জি",
           "tr": "ji",
           "en": "yes (polite)"
-        },
-        {
-          "bn": "তুমি",
-          "tr": "tumi",
-          "en": "you (familiar)"
         }
       ],
       "recycle": true

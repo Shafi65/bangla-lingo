@@ -231,32 +231,19 @@
     },
     {
       "id": "e10",
-      "type": "word_bank",
-      "prompt": {
+      "type": "listen_meaning",
+      "audio": {
         "bn": "আশি আর বিশ একশ।",
         "tr": "ashi ar bish eksho.",
         "en": "Eighty and twenty is a hundred."
       },
-      "direction": "bn_to_en",
-      "tiles": [
-        "a",
-        "thousand",
-        "twenty",
-        "hundred",
-        "Eighty",
-        "two",
-        "eighteen",
-        "is",
-        "and"
+      "options": [
+        "Eight and two is ten.",
+        "Eighty and twenty is a hundred.",
+        "Ninety and ten is a hundred.",
+        "Eighty and twenty is a thousand."
       ],
-      "answer": [
-        "Eighty",
-        "and",
-        "twenty",
-        "is",
-        "a",
-        "hundred"
-      ]
+      "answer": 1
     },
     {
       "id": "e11",
@@ -319,14 +306,19 @@
         "tr": "amar dui bhai ar tin bon achhe.",
         "en": "I have two brothers and three sisters."
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "accepted": [
-        "I have two brothers and three sisters.",
-        "I've got two brothers and three sisters.",
-        "I have 2 brothers and 3 sisters.",
-        "I've two brothers and three sisters.",
-        "I have got two brothers and three sisters."
-      ]
+        "আমার দুই ভাই আর তিন বোন আছে।",
+        "amar dui bhai ar tin bon achhe",
+        "amar dui vai ar tin bon achhe",
+        "amar dui bhai ar tin bon ache",
+        "amar dui vai ar tin bon ache",
+        "amar dui bhai ar teen bon achhe",
+        "amar dui vai ar teen bon achhe",
+        "amar dui bhai ar teen bon ache",
+        "amar dui vai ar teen bon ache"
+      ],
+      "why": "'I have' is **আমার** … **আছে**; the number goes straight before the noun."
     },
     {
       "id": "e14",

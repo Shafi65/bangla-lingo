@@ -279,27 +279,32 @@
       "prompt": {
         "bn": "তুমি কী খেতে চাও?",
         "tr": "tumi ki khete chao?",
-        "en": "What do you want to eat?"
+        "en": "What do you want to eat? (familiar)"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "tiles": [
-        "What",
-        "do",
-        "you",
-        "want",
-        "to",
-        "eat",
-        "need",
-        "does"
+        "চান",
+        "তুমি",
+        "খাও",
+        "কী",
+        "কি",
+        "খেতে",
+        "চাও"
       ],
       "answer": [
-        "What",
-        "do",
-        "you",
-        "want",
-        "to",
-        "eat"
-      ]
+        "তুমি",
+        "কী",
+        "খেতে",
+        "চাও"
+      ],
+      "alt": [
+        [
+          "কী",
+          "খেতে",
+          "চাও"
+        ]
+      ],
+      "why": "**কী** (long ী) asks 'what'; with **কি** it would mean 'Do you want to eat?'."
     },
     {
       "id": "e13",
@@ -340,46 +345,47 @@
     },
     {
       "id": "e14",
-      "type": "word_bank",
-      "prompt": {
+      "type": "listen_meaning",
+      "audio": {
         "bn": "চিনি নেই, সমস্যা নেই।",
         "tr": "chini nei, shomossha nei.",
         "en": "There's no sugar, no problem."
       },
-      "direction": "bn_to_en",
-      "tiles": [
-        "There",
-        "is",
-        "no",
-        "sugar",
-        "no",
-        "problem",
-        "need",
-        "salt"
+      "options": [
+        "I don't want sugar, thank you.",
+        "There's no sugar, no problem.",
+        "I need sugar, it's a problem.",
+        "Is there any sugar here?"
       ],
-      "answer": [
-        "There",
-        "is",
-        "no",
-        "sugar",
-        "no",
-        "problem"
-      ]
+      "answer": 1
     },
     {
       "id": "e15",
       "type": "type_translation",
       "prompt": {
-        "bn": "আমার পানি দরকার।",
-        "tr": "amar pani dorkar.",
-        "en": "I need water."
+        "bn": "তুমি কি পানি চাও?",
+        "tr": "tumi ki pani chao?",
+        "en": "Do you want water? (familiar)"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "accepted": [
-        "I need water.",
-        "I need some water.",
-        "I need the water."
-      ]
+        "তুমি কি পানি চাও?",
+        "তুমি পানি চাও?",
+        "পানি চাও?",
+        "tumi ki pani chao",
+        "tumi pani chao",
+        "pani chao",
+        "tumi ki paani chao",
+        "tumi paani chao",
+        "paani chao",
+        "tumi ki pani chaw",
+        "tumi pani chaw",
+        "pani chaw",
+        "tumi ki paani chaw",
+        "tumi paani chaw",
+        "paani chaw"
+      ],
+      "why": "With **তুমি**, 'want' is **চাও**."
     },
     {
       "id": "r01",
@@ -391,12 +397,12 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "(you, intimate) eat",
+        "is (he/she/it)",
+        "is not / are not (polite)",
         "are not (familiar)",
-        "(you, familiar) want",
-        "(you/he/she, polite) want"
+        "(you, intimate) eat"
       ],
-      "answer": 0,
+      "answer": 3,
       "recycle": true
     },
     {
@@ -408,30 +414,30 @@
         "en": "(he/she/they) eats"
       },
       "options": [
+        "চান",
+        "খাস",
         "খায়",
-        "এসেছি",
-        "জানেন",
-        "আছিস"
+        "নও"
       ],
-      "answer": 0,
+      "answer": 2,
       "recycle": true
     },
     {
       "id": "r03",
       "type": "select_translation",
       "prompt": {
-        "bn": "খাও",
-        "tr": "khao",
-        "en": "(you, familiar) eat"
+        "bn": "রুটি",
+        "tr": "ruti",
+        "en": "flatbread"
       },
       "direction": "en_to_bn",
       "options": [
-        "চান",
-        "খাও",
-        "চাই",
-        "জানি"
+        "রুটি",
+        "নাস্তা",
+        "বাংলা",
+        "ফুফু"
       ],
-      "answer": 1,
+      "answer": 0,
       "recycle": true
     },
     {
@@ -439,19 +445,19 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "নাস্তা",
-          "tr": "nashta",
-          "en": "breakfast"
-        },
-        {
           "bn": "একটা",
           "tr": "ekta",
           "en": "one; a"
         },
         {
-          "bn": "রুটি",
-          "tr": "ruti",
-          "en": "flatbread"
+          "bn": "নাস্তা",
+          "tr": "nashta",
+          "en": "breakfast"
+        },
+        {
+          "bn": "সবাই",
+          "tr": "shobai",
+          "en": "everyone"
         },
         {
           "bn": "জানেন",
@@ -466,24 +472,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "আন্টি",
-          "tr": "anti",
-          "en": "auntie (address)"
-        },
-        {
-          "bn": "আংকেল",
-          "tr": "angkel",
-          "en": "uncle (address)"
-        },
-        {
-          "bn": "স্বামী",
-          "tr": "shami",
-          "en": "husband"
-        },
-        {
           "bn": "মানে",
           "tr": "mane",
           "en": "meaning"
+        },
+        {
+          "bn": "বাচ্চা",
+          "tr": "bachcha",
+          "en": "child"
+        },
+        {
+          "bn": "স্ত্রী",
+          "tr": "stri",
+          "en": "wife"
+        },
+        {
+          "bn": "আন্টি",
+          "tr": "anti",
+          "en": "auntie (address)"
         }
       ],
       "recycle": true

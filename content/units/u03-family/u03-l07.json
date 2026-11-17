@@ -264,72 +264,43 @@
       "id": "e12",
       "type": "word_bank",
       "prompt": {
-        "bn": "ওর নাম নাদিয়া।",
-        "tr": "or nam nadiya.",
-        "en": "Her name is Nadia."
+        "bn": "তোর বড় বোন কোথায়?",
+        "tr": "tor boro bon kothay?",
+        "en": "Where is your elder sister? (intimate)"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "tiles": [
-        "Her",
-        "His",
-        "name",
-        "is",
-        "Nadia",
-        "my",
-        "your"
+        "তোমার",
+        "বোন",
+        "ছোট",
+        "তোর",
+        "কোথায়",
+        "ভাই",
+        "বড়"
       ],
       "answer": [
-        "Her",
-        "name",
-        "is",
-        "Nadia"
+        "তোর",
+        "বড়",
+        "বোন",
+        "কোথায়"
       ],
-      "alt": [
-        [
-          "His",
-          "name",
-          "is",
-          "Nadia"
-        ]
-      ]
+      "why": "The intimate 'your' is **তোর**; তোমার is familiar. Elder = **বড়**."
     },
     {
       "id": "e13",
-      "type": "word_bank",
-      "prompt": {
+      "type": "listen_meaning",
+      "audio": {
         "bn": "আমার আব্বু শিক্ষক আর আম্মু ডাক্তার।",
         "tr": "amar abbu shikkhok ar ammu daktar.",
         "en": "My dad is a teacher and my mom is a doctor."
       },
-      "direction": "bn_to_en",
-      "tiles": [
-        "My",
-        "dad",
-        "is",
-        "a",
-        "teacher",
-        "and",
-        "my",
-        "mom",
-        "is",
-        "a",
-        "doctor",
-        "but",
-        "sister"
+      "options": [
+        "My dad is a teacher and my mom is a doctor.",
+        "My mom is a teacher and my dad is a doctor.",
+        "My dad and my mom are teachers.",
+        "My brother is a teacher and my sister is a doctor."
       ],
-      "answer": [
-        "My",
-        "dad",
-        "is",
-        "a",
-        "teacher",
-        "and",
-        "my",
-        "mom",
-        "is",
-        "a",
-        "doctor"
-      ]
+      "answer": 0
     },
     {
       "id": "e14",
@@ -339,13 +310,19 @@
         "tr": "tar nam rafi.",
         "en": "His name is Rafi."
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "accepted": [
-        "His name is Rafi.",
-        "Her name is Rafi.",
-        "He is called Rafi.",
-        "His name's Rafi."
-      ]
+        "তার নাম রাফি।",
+        "ওর নাম রাফি।",
+        "ওনার নাম রাফি।",
+        "tar nam rafi",
+        "or nam rafi",
+        "onar nam rafi",
+        "tar naam rafi",
+        "or naam rafi",
+        "onar naam rafi"
+      ],
+      "why": "'His' is **তার** or **ওর** (polite: ওনার)."
     },
     {
       "id": "e15",
@@ -376,16 +353,16 @@
       "id": "r01",
       "type": "select_translation",
       "prompt": {
-        "bn": "জানি",
-        "tr": "jani",
-        "en": "(I) know"
+        "bn": "আচ্ছা",
+        "tr": "achchha",
+        "en": "OK"
       },
       "direction": "en_to_bn",
       "options": [
-        "এসেছেন",
-        "আছেন",
-        "জানি",
-        "নন"
+        "আর",
+        "কি",
+        "আচ্ছা",
+        "হ্যাঁ"
       ],
       "answer": 2,
       "recycle": true
@@ -412,15 +389,15 @@
       "id": "r03",
       "type": "listen_select",
       "audio": {
-        "bn": "আচ্ছা",
-        "tr": "achchha",
-        "en": "OK"
+        "bn": "জানি",
+        "tr": "jani",
+        "en": "(I) know"
       },
       "options": [
-        "আচ্ছা",
-        "আর",
-        "না",
-        "জি"
+        "জানি",
+        "আছিস",
+        "এসেছেন",
+        "জানেন"
       ],
       "answer": 0,
       "recycle": true
@@ -435,19 +412,19 @@
           "en": "auntie (address)"
         },
         {
-          "bn": "আংকেল",
-          "tr": "angkel",
-          "en": "uncle (address)"
-        },
-        {
           "bn": "মানে",
           "tr": "mane",
           "en": "meaning"
         },
         {
-          "bn": "এসেছি",
-          "tr": "eshechhi",
-          "en": "(I) have come"
+          "bn": "আংকেল",
+          "tr": "angkel",
+          "en": "uncle (address)"
+        },
+        {
+          "bn": "কোথা",
+          "tr": "kotha",
+          "en": "where (before থেকে)"
         }
       ],
       "recycle": true
@@ -457,14 +434,14 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "আমাদের",
-          "tr": "amader",
-          "en": "our"
-        },
-        {
           "bn": "কে",
           "tr": "ke",
           "en": "who"
+        },
+        {
+          "bn": "এসেছি",
+          "tr": "eshechhi",
+          "en": "(I) have come"
         },
         {
           "bn": "বাংলাদেশি",

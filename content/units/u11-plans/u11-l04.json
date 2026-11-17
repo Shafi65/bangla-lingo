@@ -408,6 +408,113 @@
         "kinbey"
       ],
       "why": "**সে** → **-বে**; কেনা uses the stem **কিন-**: **কিনবে**."
+    },
+    {
+      "id": "r01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "করবেন",
+        "tr": "korben",
+        "en": "you (polite) / he, she (polite) will do"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "you are doing (familiar)",
+        "is not",
+        "you (polite) / he, she (polite) will do",
+        "I have eaten"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "listen_select",
+      "audio": {
+        "bn": "করবে",
+        "tr": "korbe",
+        "en": "you (familiar) / he, she will do"
+      },
+      "options": [
+        "করবে",
+        "খাচ্ছি",
+        "থাকি",
+        "করছো"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "খাবে",
+        "tr": "khabe",
+        "en": "you (familiar) / he, she will eat"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "খাবে",
+        "দাও",
+        "খাইনি",
+        "দেখি"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "করবি",
+          "tr": "korbi",
+          "en": "you (intimate) will do"
+        },
+        {
+          "bn": "যাবি",
+          "tr": "jabi",
+          "en": "you (intimate) will go"
+        },
+        {
+          "bn": "দেখবে",
+          "tr": "dekhbe",
+          "en": "you (familiar) / he, she will see"
+        },
+        {
+          "bn": "চল",
+          "tr": "chol",
+          "en": "let's"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "একটু",
+          "tr": "ektu",
+          "en": "a little"
+        },
+        {
+          "bn": "দেখবেন",
+          "tr": "dekhben",
+          "en": "you (polite) will see"
+        },
+        {
+          "bn": "লেখে",
+          "tr": "lekhe",
+          "en": "writes"
+        },
+        {
+          "bn": "চল্লিশ",
+          "tr": "chollish",
+          "en": "forty"
+        }
+      ],
+      "recycle": true
     }
   ]
 }

@@ -216,20 +216,19 @@
     },
     {
       "id": "e10",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "ছয়",
-        "tr": "chhoy",
-        "en": "৬"
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "আমি দুইটা ডিম চাই।",
+        "tr": "ami duita dim chai.",
+        "en": "I want two eggs."
       },
-      "direction": "en_to_bn",
       "options": [
-        "নয়",
-        "সাত",
-        "দুই",
-        "ছয়"
+        "I want ten eggs.",
+        "I want two eggs.",
+        "I have two eggs.",
+        "I eat two bananas."
       ],
-      "answer": 3
+      "answer": 1
     },
     {
       "id": "e11",
@@ -316,18 +315,18 @@
       "id": "r01",
       "type": "select_translation",
       "prompt": {
-        "bn": "উনিশ",
-        "tr": "unish",
-        "en": "nineteen"
+        "bn": "বিশ",
+        "tr": "bish",
+        "en": "twenty"
       },
       "direction": "en_to_bn",
       "options": [
         "একটি",
-        "দুইটা",
-        "উনিশ",
-        "বিশ"
+        "বিশ",
+        "বারো",
+        "দশ"
       ],
-      "answer": 2,
+      "answer": 1,
       "recycle": true
     },
     {
@@ -340,27 +339,27 @@
       },
       "direction": "bn_to_en",
       "options": [
+        "seven",
+        "seventeen",
         "eighteen",
-        "six",
-        "nine",
-        "fourteen"
+        "twelve"
       ],
-      "answer": 0,
+      "answer": 2,
       "recycle": true
     },
     {
       "id": "r03",
       "type": "listen_select",
       "audio": {
-        "bn": "ষোলো",
-        "tr": "sholo",
-        "en": "sixteen"
+        "bn": "সতেরো",
+        "tr": "shotero",
+        "en": "seventeen"
       },
       "options": [
-        "চৌদ্দ",
+        "তেরো",
+        "বারো",
         "সতেরো",
-        "ষোলো",
-        "বারো"
+        "পাঁচ"
       ],
       "answer": 2,
       "recycle": true
@@ -370,9 +369,9 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "সতেরো",
-          "tr": "shotero",
-          "en": "seventeen"
+          "bn": "ষোলো",
+          "tr": "sholo",
+          "en": "sixteen"
         },
         {
           "bn": "বয়স",
@@ -380,14 +379,14 @@
           "en": "age"
         },
         {
-          "bn": "বিশ",
-          "tr": "bish",
-          "en": "twenty"
+          "bn": "কয়জন",
+          "tr": "koyjon",
+          "en": "how many (people)"
         },
         {
-          "bn": "নও",
-          "tr": "noo",
-          "en": "are not (familiar)"
+          "bn": "উনিশ",
+          "tr": "unish",
+          "en": "nineteen"
         }
       ],
       "recycle": true
@@ -397,24 +396,24 @@
       "type": "match_pairs",
       "pairs": [
         {
+          "bn": "তিন",
+          "tr": "tin",
+          "en": "three"
+        },
+        {
           "bn": "একজন",
           "tr": "ekjon",
           "en": "one (person)"
         },
         {
-          "bn": "কয়জন",
-          "tr": "koyjon",
-          "en": "how many (people)"
+          "bn": "পাঁচ",
+          "tr": "pa~ch",
+          "en": "five"
         },
         {
           "bn": "ওখানে",
           "tr": "okhane",
           "en": "there"
-        },
-        {
-          "bn": "দুইটা",
-          "tr": "duita",
-          "en": "two (things)"
         }
       ],
       "recycle": true

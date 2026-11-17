@@ -356,16 +356,16 @@
       "id": "r01",
       "type": "select_translation",
       "prompt": {
-        "bn": "টমেটো",
-        "tr": "tometo",
-        "en": "tomato"
+        "bn": "শাড়িটা",
+        "tr": "sharita",
+        "en": "the sari"
       },
       "direction": "en_to_bn",
       "options": [
-        "টমেটো",
-        "শিক্ষক",
-        "ইংরেজি",
-        "ভাই"
+        "শাড়িটা",
+        "পেঁয়াজ",
+        "দরকার",
+        "রুটি"
       ],
       "answer": 0,
       "recycle": true
@@ -374,33 +374,33 @@
       "id": "r02",
       "type": "select_translation",
       "prompt": {
-        "bn": "জামাটা",
-        "tr": "jamata",
-        "en": "the shirt"
+        "bn": "অন্য",
+        "tr": "onno",
+        "en": "other"
       },
       "direction": "bn_to_en",
       "options": [
-        "the shirt",
-        "market",
-        "salt",
-        "change"
+        "cheap",
+        "more",
+        "bad",
+        "other"
       ],
-      "answer": 0,
+      "answer": 3,
       "recycle": true
     },
     {
       "id": "r03",
       "type": "listen_select",
       "audio": {
-        "bn": "শাড়িটা",
-        "tr": "sharita",
-        "en": "the sari"
+        "bn": "আলু",
+        "tr": "alu",
+        "en": "potato"
       },
       "options": [
-        "দুধ",
-        "মসজিদের",
-        "জামা",
-        "শাড়িটা"
+        "সিএনজি",
+        "চিনি",
+        "শাড়িটা",
+        "আলু"
       ],
       "answer": 3,
       "recycle": true
@@ -415,19 +415,19 @@
           "en": "shirt"
         },
         {
-          "bn": "কোনো",
-          "tr": "kono",
-          "en": "any"
+          "bn": "বেশি",
+          "tr": "beshi",
+          "en": "more"
         },
         {
-          "bn": "শেষ",
-          "tr": "shesh",
-          "en": "last"
+          "bn": "ডজন",
+          "tr": "dozon",
+          "en": "dozen"
         },
         {
-          "bn": "মাছটা",
-          "tr": "machhta",
-          "en": "the fish"
+          "bn": "টমেটো",
+          "tr": "tometo",
+          "en": "tomato"
         }
       ],
       "recycle": true
@@ -437,24 +437,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "কোথা",
-          "tr": "kotha",
-          "en": "where (before থেকে)"
-        },
-        {
-          "bn": "ছয়",
-          "tr": "chhoy",
-          "en": "six"
-        },
-        {
-          "bn": "ওনার",
-          "tr": "onar",
-          "en": "his/her (polite)"
+          "bn": "ব্যাগ",
+          "tr": "byag",
+          "en": "bag"
         },
         {
           "bn": "তিন",
           "tr": "tin",
           "en": "three"
+        },
+        {
+          "bn": "জামাটা",
+          "tr": "jamata",
+          "en": "the shirt"
+        },
+        {
+          "bn": "শাড়ি",
+          "tr": "shari",
+          "en": "sari"
         }
       ],
       "recycle": true

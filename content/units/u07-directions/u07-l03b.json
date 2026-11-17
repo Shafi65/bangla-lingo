@@ -355,15 +355,15 @@
       "id": "r01",
       "type": "listen_select",
       "audio": {
-        "bn": "পাশে",
-        "tr": "pashe",
-        "en": "next to"
+        "bn": "সামনে",
+        "tr": "shamne",
+        "en": "in front of"
       },
       "options": [
-        "বাইরে",
-        "উপরে",
-        "পাশে",
-        "দিকে"
+        "নিচে",
+        "পিছনে",
+        "সামনে",
+        "দিয়ে"
       ],
       "answer": 2,
       "recycle": true
@@ -372,34 +372,34 @@
       "id": "r02",
       "type": "select_translation",
       "prompt": {
-        "bn": "সামনে",
-        "tr": "shamne",
-        "en": "in front of"
+        "bn": "দূরে",
+        "tr": "dure",
+        "en": "far"
       },
       "direction": "en_to_bn",
       "options": [
-        "পাশে",
-        "বাইরে",
-        "সামনে",
-        "দিয়ে"
+        "কয়জন",
+        "রাতে",
+        "কাল",
+        "দূরে"
       ],
-      "answer": 2,
+      "answer": 3,
       "recycle": true
     },
     {
       "id": "r03",
       "type": "select_translation",
       "prompt": {
-        "bn": "দূরে",
-        "tr": "dure",
-        "en": "far"
+        "bn": "পাশে",
+        "tr": "pashe",
+        "en": "next to"
       },
       "direction": "bn_to_en",
       "options": [
-        "very",
-        "far",
-        "in a week",
-        "why"
+        "upstairs",
+        "next to",
+        "behind",
+        "outside"
       ],
       "answer": 1,
       "recycle": true
@@ -409,24 +409,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "জিনিস",
-          "tr": "jinish",
-          "en": "thing"
-        },
-        {
           "bn": "হোটেলের",
           "tr": "hoteler",
           "en": "of the hotel"
         },
         {
-          "bn": "স্টেশনের",
-          "tr": "steshoner",
-          "en": "of the station"
+          "bn": "কাছে",
+          "tr": "kachhe",
+          "en": "near"
         },
         {
           "bn": "বাড়ির",
           "tr": "barir",
           "en": "of the house"
+        },
+        {
+          "bn": "স্টেশনের",
+          "tr": "steshoner",
+          "en": "of the station"
         }
       ],
       "recycle": true
@@ -436,24 +436,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "নন",
-          "tr": "non",
-          "en": "is not / are not (polite)"
-        },
-        {
-          "bn": "আট",
-          "tr": "at",
-          "en": "eight"
-        },
-        {
-          "bn": "খুচরা",
-          "tr": "khuchra",
-          "en": "change"
-        },
-        {
           "bn": "দুইশ",
           "tr": "duisho",
           "en": "two hundred"
+        },
+        {
+          "bn": "জানেন",
+          "tr": "janen",
+          "en": "(you, polite) know"
+        },
+        {
+          "bn": "ভাংতি",
+          "tr": "bhangti",
+          "en": "change"
+        },
+        {
+          "bn": "জিনিস",
+          "tr": "jinish",
+          "en": "thing"
         }
       ],
       "recycle": true

@@ -299,24 +299,20 @@
     },
     {
       "id": "e13",
-      "type": "word_bank",
+      "type": "type_translation",
       "prompt": {
         "bn": "রাফি কোথায়?",
         "tr": "rafi kothay?",
         "en": "Where is Rafi?"
       },
       "direction": "en_to_bn",
-      "tiles": [
-        "রাফি",
-        "কোথায়",
-        "কোথা",
-        "থেকে",
-        "এখানে"
+      "accepted": [
+        "রাফি কোথায়?",
+        "rafi kothay",
+        "rafi kothai",
+        "rafi kotay"
       ],
-      "answer": [
-        "রাফি",
-        "কোথায়"
-      ]
+      "why": "'Where' is **কোথায়**; কোথা is only used before থেকে."
     },
     {
       "id": "e14",
@@ -349,45 +345,47 @@
         "tr": "amar desh bangladesh.",
         "en": "My country is Bangladesh."
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "accepted": [
-        "My country is Bangladesh.",
-        "Bangladesh is my country.",
-        "My home country is Bangladesh.",
-        "My homeland is Bangladesh."
+        "আমার দেশ বাংলাদেশ।",
+        "বাংলাদেশ আমার দেশ।",
+        "amar desh bangladesh",
+        "bangladesh amar desh",
+        "amar des banglades",
+        "banglades amar des"
       ]
     },
     {
       "id": "r01",
       "type": "select_translation",
       "prompt": {
-        "bn": "নও",
-        "tr": "noo",
-        "en": "are not (familiar)"
+        "bn": "নই",
+        "tr": "noi",
+        "en": "am not"
       },
       "direction": "bn_to_en",
       "options": [
-        "is (he/she/it)",
-        "am",
-        "are not (familiar)",
-        "are (polite)"
+        "are (intimate)",
+        "am not",
+        "(you, polite) have come",
+        "is (he/she/it)"
       ],
-      "answer": 2,
+      "answer": 1,
       "recycle": true
     },
     {
       "id": "r02",
       "type": "listen_select",
       "audio": {
-        "bn": "নয়",
-        "tr": "noy",
-        "en": "is not"
+        "bn": "নন",
+        "tr": "non",
+        "en": "is not / are not (polite)"
       },
       "options": [
-        "নেই",
-        "নয়",
+        "আছিস",
+        "নন",
         "আছো",
-        "এসেছেন"
+        "নই"
       ],
       "answer": 1,
       "recycle": true
@@ -396,18 +394,18 @@
       "id": "r03",
       "type": "select_translation",
       "prompt": {
-        "bn": "নন",
-        "tr": "non",
-        "en": "is not / are not (polite)"
+        "bn": "নও",
+        "tr": "noo",
+        "en": "are not (familiar)"
       },
       "direction": "en_to_bn",
       "options": [
         "আছেন",
-        "এসেছেন",
-        "এসেছি",
-        "নন"
+        "নেই",
+        "নও",
+        "এসেছেন"
       ],
-      "answer": 3,
+      "answer": 2,
       "recycle": true
     },
     {
@@ -420,19 +418,19 @@
           "en": "you (intimate)"
         },
         {
-          "bn": "নই",
-          "tr": "noi",
-          "en": "am not"
+          "bn": "এটা",
+          "tr": "eta",
+          "en": "this"
+        },
+        {
+          "bn": "নয়",
+          "tr": "noy",
+          "en": "is not"
         },
         {
           "bn": "আছিস",
           "tr": "achhish",
           "en": "are (intimate)"
-        },
-        {
-          "bn": "এটা",
-          "tr": "eta",
-          "en": "this"
         }
       ],
       "recycle": true
@@ -442,16 +440,6 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "তিনি",
-          "tr": "tini",
-          "en": "he/she (polite)"
-        },
-        {
-          "bn": "ইংরেজি",
-          "tr": "ingreji",
-          "en": "English (language)"
-        },
-        {
           "bn": "বাংলা",
           "tr": "bangla",
           "en": "Bengali (language)"
@@ -460,6 +448,16 @@
           "bn": "তোরা",
           "tr": "tora",
           "en": "you (intimate, plural)"
+        },
+        {
+          "bn": "ও",
+          "tr": "o",
+          "en": "he/she (spoken)"
+        },
+        {
+          "bn": "ইংরেজি",
+          "tr": "ingreji",
+          "en": "English (language)"
         }
       ],
       "recycle": true

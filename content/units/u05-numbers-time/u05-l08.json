@@ -203,37 +203,37 @@
     },
     {
       "id": "e09",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "আজ শুক্রবার।",
-        "tr": "aj shukrobar.",
-        "en": "Today is Friday."
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আজ কী বার?",
+        "tr": "aj ki bar?",
+        "en": "What day is it today?"
       },
-      "direction": "bn_to_en",
+      "blank": "কী",
       "options": [
-        "Today is Friday.",
-        "Today is Thursday.",
-        "Today is Saturday.",
-        "It's Friday night."
+        "কি",
+        "কে",
+        "কী",
+        "কয়টা"
       ],
-      "answer": 0
+      "answer": 2,
+      "why": "**কী** (long ী) asks 'what'; **কি** (short ি) only makes a yes/no question."
     },
     {
       "id": "e10",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_meaning",
+      "audio": {
         "bn": "শনিবার সকালে আমি চা খাই।",
         "tr": "shonibar shokale ami cha khai.",
         "en": "I drink tea on Saturday morning."
       },
-      "direction": "bn_to_en",
       "options": [
         "I drink tea on Sunday morning.",
-        "I drink tea on Saturday morning.",
         "I drink tea on Saturday night.",
-        "I eat rice on Saturday morning."
+        "I eat rice on Saturday morning.",
+        "I drink tea on Saturday morning."
       ],
-      "answer": 1
+      "answer": 3
     },
     {
       "id": "e11",
@@ -286,25 +286,25 @@
       "id": "e13",
       "type": "word_bank",
       "prompt": {
-        "bn": "আজ কী বার?",
-        "tr": "aj ki bar?",
-        "en": "What day is it today?"
+        "bn": "আজ কি মঙ্গলবার?",
+        "tr": "aj ki monggolbar?",
+        "en": "Is today Tuesday?"
       },
       "direction": "en_to_bn",
       "tiles": [
-        "নাম",
-        "আজ",
         "কী",
-        "এখন",
-        "বার",
-        "কয়টা"
+        "আজ",
+        "বুধবার",
+        "কি",
+        "মঙ্গলবার",
+        "বার"
       ],
       "answer": [
         "আজ",
-        "কী",
-        "বার"
+        "কি",
+        "মঙ্গলবার"
       ],
-      "why": "Ask about a weekday with **বার**: আজ কী বার?"
+      "why": "A yes/no question takes **কি** (short ি) after the subject; কী means 'what'."
     },
     {
       "id": "e14",

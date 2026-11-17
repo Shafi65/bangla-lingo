@@ -355,16 +355,16 @@
       "id": "r02",
       "type": "select_translation",
       "prompt": {
-        "bn": "খারাপ",
-        "tr": "kharap",
-        "en": "bad"
+        "bn": "আশি",
+        "tr": "ashi",
+        "en": "eighty"
       },
       "direction": "en_to_bn",
       "options": [
-        "খারাপ",
-        "মিষ্টি",
-        "মজার",
-        "ঝাল"
+        "আশি",
+        "বারোটা",
+        "একশ",
+        "ষোলো"
       ],
       "answer": 0,
       "recycle": true
@@ -373,18 +373,18 @@
       "id": "r03",
       "type": "select_translation",
       "prompt": {
-        "bn": "সব",
-        "tr": "shob",
-        "en": "all"
+        "bn": "সত্তর",
+        "tr": "shottor",
+        "en": "seventy"
       },
       "direction": "bn_to_en",
       "options": [
-        "tasty",
-        "spicy",
-        "Bangladeshi",
-        "all"
+        "quarter past",
+        "half past two",
+        "seventy",
+        "one; a (formal)"
       ],
-      "answer": 3,
+      "answer": 2,
       "recycle": true
     },
     {
@@ -392,24 +392,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "তুমি",
-          "tr": "tumi",
-          "en": "you (familiar)"
-        },
-        {
           "bn": "আপনার",
           "tr": "apnar",
           "en": "your (polite)"
         },
         {
-          "bn": "দুইজন",
-          "tr": "duijon",
-          "en": "two (people)"
+          "bn": "সব",
+          "tr": "shob",
+          "en": "all"
         },
         {
-          "bn": "আমাদের",
-          "tr": "amader",
-          "en": "our"
+          "bn": "কিন্তু",
+          "tr": "kintu",
+          "en": "but"
+        },
+        {
+          "bn": "কয়জন",
+          "tr": "koyjon",
+          "en": "how many (people)"
         }
       ],
       "recycle": true
@@ -419,24 +419,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "খায়",
-          "tr": "khay",
-          "en": "(he/she/they) eats"
-        },
-        {
           "bn": "কেমন",
           "tr": "kemon",
           "en": "how"
         },
         {
-          "bn": "কে",
-          "tr": "ke",
-          "en": "who"
+          "bn": "লাগে",
+          "tr": "lage",
+          "en": "feels"
         },
         {
-          "bn": "তুই",
-          "tr": "tui",
-          "en": "you (intimate)"
+          "bn": "তুমি",
+          "tr": "tumi",
+          "en": "you (familiar)"
+        },
+        {
+          "bn": "তোমাদের",
+          "tr": "tomader",
+          "en": "your (familiar, plural)"
         }
       ],
       "recycle": true

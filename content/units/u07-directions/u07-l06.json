@@ -420,9 +420,9 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "উপরে",
-          "tr": "upore",
-          "en": "upstairs"
+          "bn": "নিচে",
+          "tr": "niche",
+          "en": "downstairs"
         },
         {
           "bn": "কোন",
@@ -452,19 +452,19 @@
           "en": "of the home"
         },
         {
-          "bn": "ভিতরে",
-          "tr": "bhitore",
-          "en": "inside"
-        },
-        {
-          "bn": "নিচে",
-          "tr": "niche",
-          "en": "downstairs"
+          "bn": "উপরে",
+          "tr": "upore",
+          "en": "upstairs"
         },
         {
           "bn": "বাইরে",
           "tr": "baire",
           "en": "outside"
+        },
+        {
+          "bn": "ভিতরে",
+          "tr": "bhitore",
+          "en": "inside"
         }
       ],
       "recycle": true

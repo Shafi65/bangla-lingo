@@ -417,16 +417,16 @@
       "id": "r01",
       "type": "select_translation",
       "prompt": {
-        "bn": "সত্যি",
-        "tr": "shotti",
-        "en": "really"
+        "bn": "করো",
+        "tr": "koro",
+        "en": "you do (familiar)"
       },
       "direction": "bn_to_en",
       "options": [
-        "left",
-        "really",
-        "right",
-        "the most"
+        "give (intimate)",
+        "you do (familiar)",
+        "(you/he/she, polite) want",
+        "you will buy (polite)"
       ],
       "answer": 1,
       "recycle": true
@@ -435,35 +435,35 @@
       "id": "r02",
       "type": "listen_select",
       "audio": {
-        "bn": "করো",
-        "tr": "koro",
-        "en": "you do (familiar)"
+        "bn": "করিস",
+        "tr": "korish",
+        "en": "you do (intimate)"
       },
       "options": [
         "নন",
-        "চান",
-        "করো",
-        "দেন"
+        "করিস",
+        "থাকি",
+        "নই"
       ],
-      "answer": 2,
+      "answer": 1,
       "recycle": true
     },
     {
       "id": "r03",
       "type": "select_translation",
       "prompt": {
-        "bn": "আসলে",
-        "tr": "ashole",
-        "en": "actually"
+        "bn": "সত্যি",
+        "tr": "shotti",
+        "en": "really"
       },
       "direction": "en_to_bn",
       "options": [
-        "কয়জন",
-        "আসলে",
-        "ওখানে",
-        "সোজা"
+        "আজ",
+        "একটু",
+        "দূরে",
+        "সত্যি"
       ],
-      "answer": 1,
+      "answer": 3,
       "recycle": true
     },
     {
@@ -476,19 +476,19 @@
           "en": "work"
         },
         {
+          "bn": "টিকিট",
+          "tr": "tikit",
+          "en": "ticket"
+        },
+        {
           "bn": "কঠিন",
           "tr": "kothin",
           "en": "difficult"
         },
         {
-          "bn": "ভাংতি",
-          "tr": "bhangti",
-          "en": "change"
-        },
-        {
-          "bn": "করিস",
-          "tr": "korish",
-          "en": "you do (intimate)"
+          "bn": "আসলে",
+          "tr": "ashole",
+          "en": "actually"
         }
       ],
       "recycle": true
@@ -498,24 +498,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "দেড়",
-          "tr": "der",
-          "en": "one and a half"
+          "bn": "বাজে",
+          "tr": "baje",
+          "en": "strikes (the hour)"
         },
         {
-          "bn": "শুধু",
-          "tr": "shudhu",
-          "en": "only"
+          "bn": "লেগেছে",
+          "tr": "legechhe",
+          "en": "has come on (felt)"
         },
         {
-          "bn": "বিকালে",
-          "tr": "bikale",
-          "en": "in the afternoon"
+          "bn": "খুচরা",
+          "tr": "khuchra",
+          "en": "change"
         },
         {
-          "bn": "পাঁচটা",
-          "tr": "pa~chta",
-          "en": "five (o'clock)"
+          "bn": "কোনো",
+          "tr": "kono",
+          "en": "any"
         }
       ],
       "recycle": true

@@ -364,12 +364,12 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "see you again",
         "what happened",
         "I think",
-        "praise be to God"
+        "thank you",
+        "hello (peace be upon you)"
       ],
-      "answer": 1,
+      "answer": 0,
       "recycle": true
     },
     {
@@ -381,10 +381,10 @@
         "en": "you bought (polite)"
       },
       "options": [
-        "করলাম",
+        "এসেছে",
         "কিনলেন",
-        "পারি",
-        "খায়"
+        "নন",
+        "খেয়েছেন"
       ],
       "answer": 1,
       "recycle": true
@@ -399,12 +399,12 @@
       },
       "direction": "en_to_bn",
       "options": [
+        "যাব",
         "আছো",
-        "কিনল",
-        "করেছি",
-        "বললাম"
+        "দাও",
+        "কিনল"
       ],
-      "answer": 1,
+      "answer": 3,
       "recycle": true
     },
     {
@@ -412,24 +412,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "দিকে",
-          "tr": "dike",
-          "en": "way"
+          "bn": "লিখি",
+          "tr": "likhi",
+          "en": "I write"
         },
         {
-          "bn": "নব্বই",
-          "tr": "nobboi",
-          "en": "ninety"
+          "bn": "বলি",
+          "tr": "boli",
+          "en": "I speak"
+        },
+        {
+          "bn": "কোন",
+          "tr": "kon",
+          "en": "which"
         },
         {
           "bn": "সাধারণত",
           "tr": "shadharonoto",
           "en": "usually"
-        },
-        {
-          "bn": "লিখি",
-          "tr": "likhi",
-          "en": "I write"
         }
       ],
       "recycle": true
@@ -438,11 +438,6 @@
       "id": "r05",
       "type": "match_pairs",
       "pairs": [
-        {
-          "bn": "তোমার",
-          "tr": "tomar",
-          "en": "your (familiar)"
-        },
         {
           "bn": "অবশ্যই",
           "tr": "oboshshoi",
@@ -457,6 +452,11 @@
           "bn": "পঞ্চাশ",
           "tr": "ponchash",
           "en": "fifty"
+        },
+        {
+          "bn": "নব্বই",
+          "tr": "nobboi",
+          "en": "ninety"
         }
       ],
       "recycle": true

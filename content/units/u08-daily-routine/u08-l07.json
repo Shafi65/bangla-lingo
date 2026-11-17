@@ -406,16 +406,16 @@
       "id": "r01",
       "type": "select_translation",
       "prompt": {
-        "bn": "সবসময়",
-        "tr": "shobshomoy",
-        "en": "always"
+        "bn": "মাজি",
+        "tr": "maji",
+        "en": "I brush"
       },
       "direction": "bn_to_en",
       "options": [
-        "the most",
-        "where",
-        "far",
-        "always"
+        "you will buy (polite)",
+        "I write",
+        "I am eating",
+        "I brush"
       ],
       "answer": 3,
       "recycle": true
@@ -429,30 +429,30 @@
         "en": "every day"
       },
       "options": [
-        "প্রতিদিন",
-        "এখানে",
-        "বছরে",
-        "কত"
+        "একটু",
+        "কতদূর",
+        "এত",
+        "প্রতিদিন"
       ],
-      "answer": 0,
+      "answer": 3,
       "recycle": true
     },
     {
       "id": "r03",
       "type": "select_translation",
       "prompt": {
-        "bn": "পড়েন",
-        "tr": "poren",
-        "en": "you read (polite)"
+        "bn": "কখনো",
+        "tr": "kokhono",
+        "en": "ever"
       },
       "direction": "en_to_bn",
       "options": [
-        "পড়ছি",
-        "করে",
-        "পড়েন",
-        "করো"
+        "বামে",
+        "কখনো",
+        "আজ",
+        "কোথায়"
       ],
-      "answer": 2,
+      "answer": 1,
       "recycle": true
     },
     {
@@ -460,9 +460,9 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "বলি",
-          "tr": "boli",
-          "en": "I speak"
+          "bn": "সবসময়",
+          "tr": "shobshomoy",
+          "en": "always"
         },
         {
           "bn": "দাঁত",
@@ -470,14 +470,14 @@
           "en": "teeth"
         },
         {
-          "bn": "কখনো",
-          "tr": "kokhono",
-          "en": "ever"
+          "bn": "যায়",
+          "tr": "jay",
+          "en": "goes"
         },
         {
-          "bn": "মাজি",
-          "tr": "maji",
-          "en": "I brush"
+          "bn": "পড়েন",
+          "tr": "poren",
+          "en": "you read (polite)"
         }
       ],
       "recycle": true
@@ -492,11 +492,6 @@
           "en": "you go (familiar)"
         },
         {
-          "bn": "দেখে",
-          "tr": "dekhe",
-          "en": "watches"
-        },
-        {
           "bn": "আসে",
           "tr": "ashe",
           "en": "comes"
@@ -505,6 +500,11 @@
           "bn": "বলেন",
           "tr": "bolen",
           "en": "you speak (polite)"
+        },
+        {
+          "bn": "দেখে",
+          "tr": "dekhe",
+          "en": "watches"
         }
       ],
       "recycle": true

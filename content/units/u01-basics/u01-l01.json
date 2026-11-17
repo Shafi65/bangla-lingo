@@ -253,34 +253,21 @@
     },
     {
       "id": "e11",
-      "type": "match_pairs",
-      "pairs": [
-        {
-          "bn": "নমস্কার",
-          "tr": "nomoshkar",
-          "en": "hello (Hindu greeting)"
-        },
-        {
-          "bn": "ওয়ালাইকুম আসসালাম",
-          "tr": "walaikum assalam",
-          "en": "hello (in reply)"
-        },
-        {
-          "bn": "খোদা হাফেজ",
-          "tr": "khoda hafez",
-          "en": "goodbye"
-        },
-        {
-          "bn": "আবার দেখা হবে",
-          "tr": "abar dekha hobe",
-          "en": "see you again"
-        },
-        {
-          "bn": "জি",
-          "tr": "ji",
-          "en": "yes (polite)"
-        }
-      ]
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ওয়ালাইকুম আসসালাম।",
+        "tr": "walaikum assalam.",
+        "en": "Hello. (in reply to 'assalamu alaikum')"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "আসসালামু আলাইকুম।",
+        "ওয়ালাইকুম আসসালাম।",
+        "নমস্কার।",
+        "খোদা হাফেজ।"
+      ],
+      "answer": 1,
+      "why": "The reply to আসসালামু আলাইকুম is **ওয়ালাইকুম আসসালাম** ('and peace be upon you')."
     },
     {
       "id": "e12",
@@ -328,18 +315,17 @@
         "tr": "na, dhonnobad.",
         "en": "No, thank you."
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "tiles": [
-        "yes",
-        "thank",
-        "no",
-        "hello",
-        "you"
+        "হ্যাঁ",
+        "ধন্যবাদ",
+        "না",
+        "জি",
+        "নমস্কার"
       ],
       "answer": [
-        "no",
-        "thank",
-        "you"
+        "না",
+        "ধন্যবাদ"
       ]
     },
     {

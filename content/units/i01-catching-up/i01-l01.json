@@ -515,52 +515,54 @@
     },
     {
       "id": "r01",
-      "type": "fill_blank",
-      "sentence": {
-        "bn": "আপনাকে দাওয়াত দিলাম।",
-        "tr": "apnake dawat dilam.",
-        "en": "I'm inviting you."
+      "type": "listen_select",
+      "audio": {
+        "bn": "বিজয় দিবস",
+        "tr": "bijoy dibosh",
+        "en": "Victory Day"
       },
-      "blank": "আপনাকে",
-      "accepted": [
-        "আপনাকে",
-        "apnake"
+      "options": [
+        "শহীদ মিনার",
+        "বিজয় দিবস",
+        "মনে হয়",
+        "এখনো না"
       ],
+      "answer": 1,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "কথা",
-        "tr": "kotha",
-        "en": "talk"
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আমি সেহরি খাই, তারপর নামাজ পড়ি।",
+        "tr": "ami sehri khai, tarpor namaj pori.",
+        "en": "I eat sehri, then I pray."
       },
-      "direction": "bn_to_en",
+      "blank": "সেহরি",
       "options": [
-        "fear",
-        "of the hilsa",
-        "talk",
-        "at Puja"
+        "বৃষ্টি",
+        "সেহরি",
+        "আপু",
+        "মাঠ"
       ],
-      "answer": 2,
+      "answer": 1,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "listen_select",
+      "type": "listen_meaning",
       "audio": {
-        "bn": "দিনটা",
-        "tr": "dinta",
-        "en": "the day"
+        "bn": "এখন রমজান মাস।",
+        "tr": "ekhon romjan mash.",
+        "en": "It's the month of Ramadan now."
       },
       "options": [
-        "আপা",
-        "কলাগুলো",
-        "খেলা",
-        "দিনটা"
+        "My mother is sixty.",
+        "It's the month of Ramadan now.",
+        "I read books.",
+        "I am from Bangladesh."
       ],
-      "answer": 3,
+      "answer": 1,
       "recycle": true
     },
     {
@@ -568,24 +570,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "বন্ধুর",
-          "tr": "bondhur",
-          "en": "friend's"
+          "bn": "দিবসে",
+          "tr": "dibose",
+          "en": "on the day"
         },
         {
-          "bn": "বন্ধ",
-          "tr": "bondho",
-          "en": "closed"
+          "bn": "লোক",
+          "tr": "lok",
+          "en": "people"
         },
         {
-          "bn": "কাল",
-          "tr": "kal",
-          "en": "tomorrow; yesterday"
+          "bn": "পূজায়",
+          "tr": "pujay",
+          "en": "at Puja"
         },
         {
-          "bn": "শিক্ষার্থী",
-          "tr": "shikkharthi",
-          "en": "student"
+          "bn": "ইফতারে",
+          "tr": "iftare",
+          "en": "at iftar"
         }
       ],
       "recycle": true
@@ -595,24 +597,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "বাজে",
-          "tr": "baje",
-          "en": "strikes (the hour)"
+          "bn": "দাওয়াত",
+          "tr": "dawat",
+          "en": "invitation"
         },
         {
-          "bn": "থামেন",
-          "tr": "thamen",
-          "en": "stop (polite)"
+          "bn": "প্রতিমা",
+          "tr": "protima",
+          "en": "image (idol)"
         },
         {
-          "bn": "খেতে",
-          "tr": "khete",
-          "en": "to eat"
+          "bn": "উপহার",
+          "tr": "upohar",
+          "en": "gift"
         },
         {
-          "bn": "একটু",
-          "tr": "ektu",
-          "en": "a little"
+          "bn": "আলপনা",
+          "tr": "alpona",
+          "en": "alpona"
         }
       ],
       "recycle": true

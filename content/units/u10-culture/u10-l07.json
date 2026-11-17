@@ -370,12 +370,12 @@
         "en": "everyone"
       },
       "options": [
-        "ওর",
-        "কোন",
+        "আমাকে",
         "সবাইকে",
-        "আপনি"
+        "এগুলো",
+        "তোমাদের"
       ],
-      "answer": 2,
+      "answer": 1,
       "recycle": true
     },
     {
@@ -388,28 +388,28 @@
       },
       "direction": "en_to_bn",
       "options": [
-        "উপরে",
-        "পাশে",
+        "দিয়ে",
         "জন্য",
-        "থেকে"
+        "দিকে",
+        "কাছে"
       ],
-      "answer": 2,
+      "answer": 1,
       "recycle": true
     },
     {
       "id": "r03",
       "type": "select_translation",
       "prompt": {
-        "bn": "পান্তা ভাত",
-        "tr": "panta bhat",
-        "en": "panta bhat"
+        "bn": "উপহার",
+        "tr": "upohar",
+        "en": "gift"
       },
       "direction": "bn_to_en",
       "options": [
-        "Happy New Year",
-        "hello (in reply)",
-        "panta bhat",
-        "goodbye"
+        "English (language)",
+        "of the market",
+        "gift",
+        "sleep"
       ],
       "answer": 2,
       "recycle": true
@@ -419,14 +419,14 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "জন্মদিন",
-          "tr": "jonmodin",
-          "en": "birthday"
+          "bn": "রমজান",
+          "tr": "romjan",
+          "en": "Ramadan"
         },
         {
-          "bn": "উপহার",
-          "tr": "upohar",
-          "en": "gift"
+          "bn": "লোক",
+          "tr": "lok",
+          "en": "people"
         },
         {
           "bn": "শুভেচ্ছা",
@@ -434,9 +434,9 @@
           "en": "greetings"
         },
         {
-          "bn": "লোক",
-          "tr": "lok",
-          "en": "people"
+          "bn": "জন্মদিন",
+          "tr": "jonmodin",
+          "en": "birthday"
         }
       ],
       "recycle": true
@@ -446,24 +446,24 @@
       "type": "match_pairs",
       "pairs": [
         {
+          "bn": "মন্দিরে",
+          "tr": "mondire",
+          "en": "to the temple"
+        },
+        {
+          "bn": "দুর্গাপূজা",
+          "tr": "durgapuja",
+          "en": "Durga Puja"
+        },
+        {
           "bn": "পূজা",
           "tr": "puja",
           "en": "puja"
         },
         {
-          "bn": "প্রতিমা",
-          "tr": "protima",
-          "en": "image (idol)"
-        },
-        {
-          "bn": "সেহরি",
-          "tr": "sehri",
-          "en": "sehri"
-        },
-        {
-          "bn": "সালামি",
-          "tr": "shalami",
-          "en": "Eid money"
+          "bn": "গিয়েছিল",
+          "tr": "giyechhilo",
+          "en": "had gone"
         }
       ],
       "recycle": true

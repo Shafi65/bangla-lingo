@@ -293,25 +293,25 @@
       "prompt": {
         "bn": "আমি এখানে, তুমি কোথায়?",
         "tr": "ami ekhane, tumi kothay?",
-        "en": "I'm here, where are you?"
+        "en": "I'm here, where are you? (familiar)"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "tiles": [
-        "I'm",
-        "here",
-        "where",
-        "are",
-        "you",
-        "there",
-        "who"
+        "কোথা",
+        "তুমি",
+        "এখানে",
+        "আপনি",
+        "আমি",
+        "ওখানে",
+        "কোথায়"
       ],
       "answer": [
-        "I'm",
-        "here",
-        "where",
-        "are",
-        "you"
-      ]
+        "আমি",
+        "এখানে",
+        "তুমি",
+        "কোথায়"
+      ],
+      "why": "'Where' on its own is **কোথায়**; কোথা is only used before থেকে."
     },
     {
       "id": "e14",
@@ -321,14 +321,20 @@
         "tr": "ami bangladesh theke eshechhi.",
         "en": "I am from Bangladesh."
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "accepted": [
-        "I am from Bangladesh.",
-        "I'm from Bangladesh.",
-        "I have come from Bangladesh.",
-        "I came from Bangladesh.",
-        "I've come from Bangladesh."
-      ]
+        "আমি বাংলাদেশ থেকে এসেছি।",
+        "বাংলাদেশ থেকে এসেছি।",
+        "ami bangladesh theke eshechhi",
+        "bangladesh theke eshechhi",
+        "ami bangladesh theke eshechi",
+        "bangladesh theke eshechi",
+        "ami bangladesh theke esechhi",
+        "bangladesh theke esechhi",
+        "ami bangladesh theke esechi",
+        "bangladesh theke esechi"
+      ],
+      "why": "**থেকে** 'from' comes after the place, and 'I have come' is **এসেছি**."
     },
     {
       "id": "e15",
@@ -410,14 +416,14 @@
           "en": "your (polite)"
         },
         {
-          "bn": "নাম",
-          "tr": "nam",
-          "en": "name"
-        },
-        {
           "bn": "ছাত্রী",
           "tr": "chhatri",
           "en": "student (female)"
+        },
+        {
+          "bn": "খুব",
+          "tr": "khub",
+          "en": "very"
         },
         {
           "bn": "আর",
@@ -432,9 +438,9 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "খুব",
-          "tr": "khub",
-          "en": "very"
+          "bn": "নাম",
+          "tr": "nam",
+          "en": "name"
         },
         {
           "bn": "আছি",

@@ -349,53 +349,53 @@
       "id": "r01",
       "type": "listen_select",
       "audio": {
-        "bn": "ঠিক আছে",
-        "tr": "thik achhe",
-        "en": "OK"
+        "bn": "তাহলে",
+        "tr": "tahole",
+        "en": "then"
       },
       "options": [
-        "ঠিক আছে",
-        "লাগবে না",
-        "আবার দেখা হবে",
-        "নমস্কার"
+        "হ্যাঁ",
+        "আচ্ছা",
+        "তাহলে",
+        "না"
       ],
-      "answer": 0,
+      "answer": 2,
       "recycle": true
     },
     {
       "id": "r02",
       "type": "select_translation",
       "prompt": {
-        "bn": "সবচেয়ে",
-        "tr": "shobcheye",
-        "en": "the most"
+        "bn": "গ্রাম",
+        "tr": "gram",
+        "en": "village"
       },
       "direction": "en_to_bn",
       "options": [
-        "বছরে",
-        "সবচেয়ে",
-        "কয়জন",
-        "রাতে"
+        "গ্রাম",
+        "দুপুর",
+        "ভাইয়া",
+        "মাছ"
       ],
-      "answer": 1,
+      "answer": 0,
       "recycle": true
     },
     {
       "id": "r03",
       "type": "select_translation",
       "prompt": {
-        "bn": "শাড়ি",
-        "tr": "shari",
-        "en": "sari"
+        "bn": "সবচেয়ে",
+        "tr": "shobcheye",
+        "en": "the most"
       },
       "direction": "bn_to_en",
       "options": [
-        "breakfast",
-        "shop",
-        "sari",
-        "meaning"
+        "where (before থেকে)",
+        "very",
+        "so",
+        "the most"
       ],
-      "answer": 2,
+      "answer": 3,
       "recycle": true
     },
     {
@@ -403,24 +403,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "টমেটোর",
-          "tr": "tometor",
-          "en": "of tomatoes"
+          "bn": "কম",
+          "tr": "kom",
+          "en": "less"
+        },
+        {
+          "bn": "শহর",
+          "tr": "shohor",
+          "en": "city"
+        },
+        {
+          "bn": "শেষ",
+          "tr": "shesh",
+          "en": "last"
         },
         {
           "bn": "আধা",
           "tr": "adha",
           "en": "half"
-        },
-        {
-          "bn": "আলু",
-          "tr": "alu",
-          "en": "potato"
-        },
-        {
-          "bn": "পেঁয়াজ",
-          "tr": "pe~yaj",
-          "en": "onion"
         }
       ],
       "recycle": true
@@ -430,24 +430,24 @@
       "type": "match_pairs",
       "pairs": [
         {
+          "bn": "টমেটোর",
+          "tr": "tometor",
+          "en": "of tomatoes"
+        },
+        {
           "bn": "হালি",
           "tr": "hali",
           "en": "four (a set of four)"
         },
         {
-          "bn": "কম",
-          "tr": "kom",
-          "en": "less"
+          "bn": "পেঁয়াজ",
+          "tr": "pe~yaj",
+          "en": "onion"
         },
         {
           "bn": "লুঙ্গি",
           "tr": "lunggi",
           "en": "lungi"
-        },
-        {
-          "bn": "অন্য",
-          "tr": "onno",
-          "en": "other"
         }
       ],
       "recycle": true

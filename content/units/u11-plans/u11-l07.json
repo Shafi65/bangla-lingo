@@ -350,6 +350,113 @@
         "cholo amra melay jai"
       ],
       "why": "**চলো** (তুমি) + the আমি present **যাই** = 'let's go'."
+    },
+    {
+      "id": "r01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "দেবেন",
+        "tr": "deben",
+        "en": "you (polite) will give"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "you (polite) will give",
+        "is not / are not (polite)",
+        "(you, polite) have come",
+        "you get up (polite)"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "listen_select",
+      "audio": {
+        "bn": "দেব",
+        "tr": "debo",
+        "en": "I will give"
+      },
+      "options": [
+        "লেগেছে",
+        "শুনলাম",
+        "দেব",
+        "যাবি"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "নেব",
+        "tr": "nebo",
+        "en": "I will take"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "খাইনি",
+        "নেব",
+        "নেই",
+        "যাচ্ছি"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "দেখবে",
+          "tr": "dekhbe",
+          "en": "you (familiar) / he, she will see"
+        },
+        {
+          "bn": "খাবে",
+          "tr": "khabe",
+          "en": "you (familiar) / he, she will eat"
+        },
+        {
+          "bn": "ব্যস্ত",
+          "tr": "byasto",
+          "en": "busy"
+        },
+        {
+          "bn": "করবে",
+          "tr": "korbe",
+          "en": "you (familiar) / he, she will do"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "করবেন",
+          "tr": "korben",
+          "en": "you (polite) / he, she (polite) will do"
+        },
+        {
+          "bn": "দেখবেন",
+          "tr": "dekhben",
+          "en": "you (polite) will see"
+        },
+        {
+          "bn": "জন্য",
+          "tr": "jonno",
+          "en": "for"
+        },
+        {
+          "bn": "যদি",
+          "tr": "jodi",
+          "en": "if"
+        }
+      ],
+      "recycle": true
     }
   ]
 }
