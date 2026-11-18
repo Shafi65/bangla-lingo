@@ -175,6 +175,7 @@ async function main() {
   console.log(`Lessons scanned: ${lessons}`);
   console.log(`Bengali strings: ${strings.length} (${chars} characters)`);
   console.log(`To synthesize: ${todo.length} (${todoChars} characters)${sameVoice ? "" : prev.voice ? ` [voice changed from ${prev.voice}]` : ""}`);
+  if (DRY && todo.length && todo.length <= 20) for (const s of todo) console.log(`  missing: ${s}`);
   if (DRY) return;
 
   const key = process.env.AZURE_SPEECH_KEY;
