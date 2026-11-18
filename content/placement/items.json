@@ -1,0 +1,1917 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "id": "pl-a0-r01",
+      "band": "A0",
+      "skill": "reading-script",
+      "unit": "s01-vowels",
+      "target": "vowels at the start of a word: আ",
+      "exercise": {
+        "id": "pl-a0-r01",
+        "type": "script_recognize",
+        "glyph": "আম",
+        "options": [
+          "am",
+          "om",
+          "im",
+          "um"
+        ],
+        "answer": 0
+      }
+    },
+    {
+      "id": "pl-a0-r02",
+      "band": "A0",
+      "skill": "reading-script",
+      "unit": "s03-vowel-signs",
+      "target": "vowel signs া and ি",
+      "exercise": {
+        "id": "pl-a0-r02",
+        "type": "script_recognize",
+        "glyph": "দাদি",
+        "options": [
+          "dida",
+          "dadi",
+          "dada",
+          "didi"
+        ],
+        "answer": 1
+      }
+    },
+    {
+      "id": "pl-a0-r03",
+      "band": "A0",
+      "skill": "reading-script",
+      "unit": "s03-vowel-signs",
+      "target": "inherent o and the sign ী",
+      "exercise": {
+        "id": "pl-a0-r03",
+        "type": "script_recognize",
+        "glyph": "নদী",
+        "options": [
+          "nadi",
+          "nidu",
+          "nodi",
+          "nodu"
+        ],
+        "answer": 2
+      }
+    },
+    {
+      "id": "pl-a0-r04",
+      "band": "A0",
+      "skill": "reading-script",
+      "unit": "s03-vowel-signs",
+      "target": "ক vs খ; inherent o",
+      "exercise": {
+        "id": "pl-a0-r04",
+        "type": "script_recognize",
+        "glyph": "কলা",
+        "options": [
+          "kala",
+          "koli",
+          "khola",
+          "kola"
+        ],
+        "answer": 3
+      }
+    },
+    {
+      "id": "pl-a0-r05",
+      "band": "A0",
+      "skill": "reading-script",
+      "unit": "s03-vowel-signs",
+      "target": "consonants ব ম দ ন with া",
+      "exercise": {
+        "id": "pl-a0-r05",
+        "type": "listen_select",
+        "audio": {
+          "bn": "বাবা",
+          "tr": "baba",
+          "en": "father"
+        },
+        "options": [
+          "বাবা",
+          "মামা",
+          "দাদা",
+          "নানা"
+        ],
+        "answer": 0
+      }
+    },
+    {
+      "id": "pl-a0-r06",
+      "band": "A0",
+      "skill": "reading-script",
+      "unit": "s04-conjuncts",
+      "target": "conjunct স্ত vs ন্ত",
+      "exercise": {
+        "id": "pl-a0-r06",
+        "type": "listen_select",
+        "audio": {
+          "bn": "নাস্তা",
+          "tr": "nashta",
+          "en": "breakfast"
+        },
+        "options": [
+          "রাস্তা",
+          "নাস্তা",
+          "সস্তা",
+          "শান্ত"
+        ],
+        "answer": 1
+      }
+    },
+    {
+      "id": "pl-a1-l01",
+      "band": "A1",
+      "skill": "listening",
+      "unit": "u04-food",
+      "target": "present tense negative",
+      "exercise": {
+        "id": "pl-a1-l01",
+        "type": "listen_meaning",
+        "audio": {
+          "bn": "ও ডিম খায় না।",
+          "tr": "o dim khay na.",
+          "en": "She doesn't eat eggs."
+        },
+        "options": [
+          "She eats eggs.",
+          "I don't eat meat.",
+          "She doesn't eat eggs.",
+          "Where are the eggs?"
+        ],
+        "answer": 2
+      }
+    },
+    {
+      "id": "pl-a1-l02",
+      "band": "A1",
+      "skill": "listening",
+      "unit": "u03-family",
+      "target": "possession with আছে",
+      "exercise": {
+        "id": "pl-a1-l02",
+        "type": "listen_meaning",
+        "audio": {
+          "bn": "আমার একটা বোন আছে।",
+          "tr": "amar ekta bon achhe.",
+          "en": "I have a sister."
+        },
+        "options": [
+          "I don't have a sister.",
+          "My sister is a doctor.",
+          "Where is my sister?",
+          "I have a sister."
+        ],
+        "answer": 3
+      }
+    },
+    {
+      "id": "pl-a1-l03",
+      "band": "A1",
+      "skill": "listening",
+      "unit": "u05-numbers-time",
+      "target": "clock time",
+      "exercise": {
+        "id": "pl-a1-l03",
+        "type": "listen_meaning",
+        "audio": {
+          "bn": "এখন দশটা বাজে।",
+          "tr": "ekhon doshta baje.",
+          "en": "It's ten o'clock now."
+        },
+        "options": [
+          "It's ten o'clock now.",
+          "It's two o'clock now.",
+          "I have ten minutes.",
+          "It's half past ten now."
+        ],
+        "answer": 0
+      }
+    },
+    {
+      "id": "pl-a1-l04",
+      "band": "A1",
+      "skill": "listening",
+      "unit": "u02-pronouns",
+      "target": "where are you from",
+      "exercise": {
+        "id": "pl-a1-l04",
+        "type": "listen_meaning",
+        "audio": {
+          "bn": "আপনি কোথা থেকে এসেছেন?",
+          "tr": "apni kotha theke eshechhen?",
+          "en": "Where are you from? (polite)"
+        },
+        "options": [
+          "Where do you live? (polite)",
+          "Where are you from? (polite)",
+          "How are you? (polite)",
+          "What is your name? (polite)"
+        ],
+        "answer": 1
+      }
+    },
+    {
+      "id": "pl-a1-l05",
+      "band": "A1",
+      "skill": "listening",
+      "unit": "u05-numbers-time",
+      "target": "time of day + present tense",
+      "exercise": {
+        "id": "pl-a1-l05",
+        "type": "listen_meaning",
+        "audio": {
+          "bn": "দুপুরে আমরা ভাত খাই।",
+          "tr": "dupure amra bhat khai.",
+          "en": "We eat rice at noon."
+        },
+        "options": [
+          "We eat rice at night.",
+          "We eat fish at noon.",
+          "We eat rice at noon.",
+          "I want rice."
+        ],
+        "answer": 2
+      }
+    },
+    {
+      "id": "pl-a1-l06",
+      "band": "A1",
+      "skill": "listening",
+      "unit": "u03-family",
+      "target": "yes/no question with কি",
+      "exercise": {
+        "id": "pl-a1-l06",
+        "type": "listen_meaning",
+        "audio": {
+          "bn": "তোমাদের কি বাচ্চা আছে?",
+          "tr": "tomader ki bachcha achhe?",
+          "en": "Do you have children?"
+        },
+        "options": [
+          "Do you have brothers?",
+          "Where are the children?",
+          "How many children do you have?",
+          "Do you have children?"
+        ],
+        "answer": 3
+      }
+    },
+    {
+      "id": "pl-a1-l07",
+      "band": "A1",
+      "skill": "listening",
+      "unit": "u05-numbers-time",
+      "target": "time of day + present tense",
+      "exercise": {
+        "id": "pl-a1-l07",
+        "type": "listen_meaning",
+        "audio": {
+          "bn": "আমি সকালে চা খাই।",
+          "tr": "ami shokale cha khai.",
+          "en": "I drink tea in the morning."
+        },
+        "options": [
+          "I drink tea in the morning.",
+          "I drink tea at night.",
+          "I want tea.",
+          "I drink water in the morning."
+        ],
+        "answer": 0
+      }
+    },
+    {
+      "id": "pl-a1-v01",
+      "band": "A1",
+      "skill": "vocabulary",
+      "unit": "u03-family",
+      "target": "word meaning",
+      "exercise": {
+        "id": "pl-a1-v01",
+        "type": "select_translation",
+        "direction": "bn_to_en",
+        "prompt": {
+          "bn": "পরিবার",
+          "tr": "poribar",
+          "en": "family"
+        },
+        "options": [
+          "father",
+          "family",
+          "friend",
+          "food"
+        ],
+        "answer": 1
+      }
+    },
+    {
+      "id": "pl-a1-v02",
+      "band": "A1",
+      "skill": "vocabulary",
+      "unit": "u05-numbers-time",
+      "target": "days of the week",
+      "exercise": {
+        "id": "pl-a1-v02",
+        "type": "select_translation",
+        "direction": "en_to_bn",
+        "prompt": {
+          "bn": "মঙ্গলবার",
+          "tr": "monggolbar",
+          "en": "Tuesday"
+        },
+        "options": [
+          "বুধবার",
+          "সোমবার",
+          "মঙ্গলবার",
+          "শুক্রবার"
+        ],
+        "answer": 2
+      }
+    },
+    {
+      "id": "pl-a1-v03",
+      "band": "A1",
+      "skill": "vocabulary",
+      "unit": "u04-food",
+      "target": "word meaning",
+      "exercise": {
+        "id": "pl-a1-v03",
+        "type": "select_translation",
+        "direction": "bn_to_en",
+        "prompt": {
+          "bn": "চিনি",
+          "tr": "chini",
+          "en": "sugar"
+        },
+        "options": [
+          "salt",
+          "milk",
+          "water",
+          "sugar"
+        ],
+        "answer": 3
+      }
+    },
+    {
+      "id": "pl-a1-r01",
+      "band": "A1",
+      "skill": "reading-script",
+      "unit": "u03-family",
+      "target": "family sentence: বড় / ছোট",
+      "exercise": {
+        "id": "pl-a1-r01",
+        "type": "select_translation",
+        "direction": "bn_to_en",
+        "prompt": {
+          "bn": "আমার বড় ভাই ডাক্তার।",
+          "tr": "amar boro bhai daktar.",
+          "en": "My elder brother is a doctor."
+        },
+        "options": [
+          "My elder brother is a doctor.",
+          "My younger brother is a doctor.",
+          "My father is a doctor.",
+          "My elder sister is a teacher."
+        ],
+        "answer": 0
+      }
+    },
+    {
+      "id": "pl-a1-r02",
+      "band": "A1",
+      "skill": "reading-script",
+      "unit": "u01-basics",
+      "target": "a 2-line chat",
+      "exercise": {
+        "id": "pl-a1-r02",
+        "type": "reading",
+        "lines": [
+          {
+            "speaker": "Rafi",
+            "bn": "তুমি কেমন আছো?",
+            "tr": "tumi kemon achho?",
+            "en": "How are you? (familiar)"
+          },
+          {
+            "speaker": "Nadia",
+            "bn": "ভালো আছি, আর তুমি?",
+            "tr": "bhalo achhi, ar tumi?",
+            "en": "I'm well, and you? (familiar)"
+          }
+        ],
+        "question": "What does Nadia say?",
+        "options": [
+          "I'm a teacher.",
+          "I'm well, and you?",
+          "Thank you, goodbye.",
+          "My name is Nadia."
+        ],
+        "answer": 1
+      }
+    },
+    {
+      "id": "pl-a1-r03",
+      "band": "A1",
+      "skill": "reading-script",
+      "unit": "u03-family",
+      "target": "a 2-line text",
+      "exercise": {
+        "id": "pl-a1-r03",
+        "type": "reading",
+        "lines": [
+          {
+            "bn": "আমার একটা ছেলে আর একটা মেয়ে আছে।",
+            "tr": "amar ekta chhele ar ekta meye achhe.",
+            "en": "I have a son and a daughter."
+          },
+          {
+            "bn": "আমাদের পরিবার খুব বড়।",
+            "tr": "amader poribar khub boro.",
+            "en": "Our family is very big."
+          }
+        ],
+        "question": "How many children does the writer have?",
+        "options": [
+          "One",
+          "Three",
+          "Two",
+          "None"
+        ],
+        "answer": 2
+      }
+    },
+    {
+      "id": "pl-a1-r04",
+      "band": "A1",
+      "skill": "reading-script",
+      "unit": "u05-numbers-time",
+      "target": "time word + present tense",
+      "exercise": {
+        "id": "pl-a1-r04",
+        "type": "select_translation",
+        "direction": "bn_to_en",
+        "prompt": {
+          "bn": "রাতে আমি রুটি খাই।",
+          "tr": "rate ami ruti khai.",
+          "en": "I eat roti at night."
+        },
+        "options": [
+          "I eat rice at night.",
+          "I eat roti in the morning.",
+          "I want roti at night.",
+          "I eat roti at night."
+        ],
+        "answer": 3
+      }
+    },
+    {
+      "id": "pl-a1-g01",
+      "band": "A1",
+      "skill": "grammar",
+      "unit": "u04-food",
+      "target": "present ending by person (আমি)",
+      "exercise": {
+        "id": "pl-a1-g01",
+        "type": "fill_blank",
+        "sentence": {
+          "bn": "আমি ভাত খাই।",
+          "tr": "ami bhat khai.",
+          "en": "I eat rice."
+        },
+        "blank": "খাই",
+        "options": [
+          "খাই",
+          "খাও",
+          "খান",
+          "খায়"
+        ],
+        "answer": 0
+      }
+    },
+    {
+      "id": "pl-a1-g02",
+      "band": "A1",
+      "skill": "grammar",
+      "unit": "u04-food",
+      "target": "present ending by person (polite third person)",
+      "exercise": {
+        "id": "pl-a1-g02",
+        "type": "fill_blank",
+        "sentence": {
+          "bn": "তিনি মাছ খান।",
+          "tr": "tini machh khan.",
+          "en": "He eats fish. (polite)"
+        },
+        "blank": "খান",
+        "options": [
+          "খাই",
+          "খান",
+          "খাস",
+          "খাও"
+        ],
+        "answer": 1
+      }
+    },
+    {
+      "id": "pl-a1-g03",
+      "band": "A1",
+      "skill": "grammar",
+      "unit": "u03-family",
+      "target": "আছে vs নেই",
+      "exercise": {
+        "id": "pl-a1-g03",
+        "type": "fill_blank",
+        "sentence": {
+          "bn": "আমার ভাই নেই।",
+          "tr": "amar bhai nei.",
+          "en": "I don't have a brother."
+        },
+        "blank": "নেই",
+        "options": [
+          "আছে",
+          "নয়",
+          "নেই",
+          "না"
+        ],
+        "answer": 2
+      }
+    },
+    {
+      "id": "pl-a1-g04",
+      "band": "A1",
+      "skill": "grammar",
+      "unit": "u03-family",
+      "target": "possessive -র",
+      "exercise": {
+        "id": "pl-a1-g04",
+        "type": "fill_blank",
+        "sentence": {
+          "bn": "চাচা আমার বাবার ভাই।",
+          "tr": "chacha amar babar bhai.",
+          "en": "Chacha is my father's brother."
+        },
+        "blank": "বাবার",
+        "options": [
+          "বাবা",
+          "মা",
+          "মায়ের",
+          "বাবার"
+        ],
+        "answer": 3
+      }
+    },
+    {
+      "id": "pl-a1-g05",
+      "band": "A1",
+      "skill": "grammar",
+      "unit": "u04-food",
+      "target": "classifier -টা",
+      "exercise": {
+        "id": "pl-a1-g05",
+        "type": "fill_blank",
+        "sentence": {
+          "bn": "আমটা খুব ভালো।",
+          "tr": "amta khub bhalo.",
+          "en": "The mango is very good."
+        },
+        "blank": "আমটা",
+        "options": [
+          "আমটা",
+          "আমগুলো",
+          "কলাটা",
+          "একটা"
+        ],
+        "answer": 0
+      }
+    },
+    {
+      "id": "pl-a1-g06",
+      "band": "A1",
+      "skill": "grammar",
+      "unit": "u04-food",
+      "target": "negation with না",
+      "exercise": {
+        "id": "pl-a1-g06",
+        "type": "fill_blank",
+        "sentence": {
+          "bn": "আমি মাংস খাই না।",
+          "tr": "ami mangsho khai na.",
+          "en": "I don't eat meat."
+        },
+        "blank": "না",
+        "options": [
+          "নেই",
+          "না",
+          "নয়",
+          "নই"
+        ],
+        "answer": 1
+      }
+    },
+    {
+      "id": "pl-a1-g07",
+      "band": "A1",
+      "skill": "grammar",
+      "unit": "u02-pronouns",
+      "target": "negative copula নয়",
+      "exercise": {
+        "id": "pl-a1-g07",
+        "type": "fill_blank",
+        "sentence": {
+          "bn": "রাফি ডাক্তার নয়।",
+          "tr": "rafi daktar noy.",
+          "en": "Rafi isn't a doctor."
+        },
+        "blank": "নয়",
+        "options": [
+          "নেই",
+          "আছে",
+          "নয়",
+          "নও"
+        ],
+        "answer": 2
+      }
+    },
+    {
+      "id": "pl-a2a-l01",
+      "band": "A2a",
+      "skill": "listening",
+      "unit": "u06-bazaar",
+      "target": "asking a price",
+      "exercise": {
+        "id": "pl-a2a-l01",
+        "type": "listen_meaning",
+        "audio": {
+          "bn": "ভাই, এটার দাম কত?",
+          "tr": "bhai, etar dam koto?",
+          "en": "Brother, how much is this?"
+        },
+        "options": [
+          "Brother, please give me this.",
+          "Where is the market?",
+          "Brother, is this fish fresh?",
+          "Brother, how much is this?"
+        ],
+        "answer": 3
+      }
+    },
+    {
+      "id": "pl-a2a-l02",
+      "band": "A2a",
+      "skill": "listening",
+      "unit": "u09-past",
+      "target": "simple past + time word",
+      "exercise": {
+        "id": "pl-a2a-l02",
+        "type": "listen_meaning",
+        "audio": {
+          "bn": "আমি গতকাল বাজারে গেলাম।",
+          "tr": "ami gotokal bajare gelam.",
+          "en": "I went to the market yesterday."
+        },
+        "options": [
+          "I went to the market yesterday.",
+          "I will go to the market tomorrow.",
+          "I go to the market every day.",
+          "I was at the market."
+        ],
+        "answer": 0
+      }
+    },
+    {
+      "id": "pl-a2a-l03",
+      "band": "A2a",
+      "skill": "listening",
+      "unit": "u09-past",
+      "target": "have you eaten? (present perfect)",
+      "exercise": {
+        "id": "pl-a2a-l03",
+        "type": "listen_meaning",
+        "audio": {
+          "bn": "ভাত খেয়েছো?",
+          "tr": "bhat kheyechho?",
+          "en": "Have you eaten?"
+        },
+        "options": [
+          "Do you want rice?",
+          "Have you eaten?",
+          "What did you eat?",
+          "Will you eat rice?"
+        ],
+        "answer": 1
+      }
+    },
+    {
+      "id": "pl-a2a-l04",
+      "band": "A2a",
+      "skill": "listening",
+      "unit": "u07-directions",
+      "target": "directions",
+      "exercise": {
+        "id": "pl-a2a-l04",
+        "type": "listen_meaning",
+        "audio": {
+          "bn": "এই রাস্তা দিয়ে সোজা যান।",
+          "tr": "ei rasta diye shoja jan.",
+          "en": "Go straight along this road."
+        },
+        "options": [
+          "Turn right at the intersection.",
+          "The road is very far.",
+          "Go straight along this road.",
+          "Stop here, please."
+        ],
+        "answer": 2
+      }
+    },
+    {
+      "id": "pl-a2a-l05",
+      "band": "A2a",
+      "skill": "listening",
+      "unit": "u08-daily-routine",
+      "target": "present continuous",
+      "exercise": {
+        "id": "pl-a2a-l05",
+        "type": "listen_meaning",
+        "audio": {
+          "bn": "সে টিভি দেখছে।",
+          "tr": "she tibhi dekhchhe.",
+          "en": "He is watching TV."
+        },
+        "options": [
+          "He watches TV every day.",
+          "He watched TV.",
+          "He doesn't watch TV.",
+          "He is watching TV."
+        ],
+        "answer": 3
+      }
+    },
+    {
+      "id": "pl-a2a-l06",
+      "band": "A2a",
+      "skill": "listening",
+      "unit": "u06-bazaar",
+      "target": "bargaining",
+      "exercise": {
+        "id": "pl-a2a-l06",
+        "type": "listen_meaning",
+        "audio": {
+          "bn": "দাম অনেক বেশি।",
+          "tr": "dam onek beshi.",
+          "en": "The price is too high."
+        },
+        "options": [
+          "The price is too high.",
+          "The price is very low.",
+          "What's the final price?",
+          "Fifty taka."
+        ],
+        "answer": 0
+      }
+    },
+    {
+      "id": "pl-a2a-l07",
+      "band": "A2a",
+      "skill": "listening",
+      "unit": "u10-culture",
+      "target": "everyday sentence",
+      "exercise": {
+        "id": "pl-a2a-l07",
+        "type": "listen_meaning",
+        "audio": {
+          "bn": "আজ আমাদের বাসায় মেহমান।",
+          "tr": "aj amader bashay mehman.",
+          "en": "We have guests at home today."
+        },
+        "options": [
+          "We are at home today.",
+          "We have guests at home today.",
+          "Our guests left today.",
+          "Today is a holiday."
+        ],
+        "answer": 1
+      }
+    },
+    {
+      "id": "pl-a2a-v01",
+      "band": "A2a",
+      "skill": "vocabulary",
+      "unit": "u07-directions",
+      "target": "word meaning",
+      "exercise": {
+        "id": "pl-a2a-v01",
+        "type": "select_translation",
+        "direction": "bn_to_en",
+        "prompt": {
+          "bn": "হাসপাতাল",
+          "tr": "hashpatal",
+          "en": "hospital"
+        },
+        "options": [
+          "station",
+          "mosque",
+          "hospital",
+          "market"
+        ],
+        "answer": 2
+      }
+    },
+    {
+      "id": "pl-a2a-v02",
+      "band": "A2a",
+      "skill": "vocabulary",
+      "unit": "u06-bazaar",
+      "target": "adjectives",
+      "exercise": {
+        "id": "pl-a2a-v02",
+        "type": "select_translation",
+        "direction": "en_to_bn",
+        "prompt": {
+          "bn": "দামি",
+          "tr": "dami",
+          "en": "expensive"
+        },
+        "options": [
+          "সস্তা",
+          "লাল",
+          "নতুন",
+          "দামি"
+        ],
+        "answer": 3
+      }
+    },
+    {
+      "id": "pl-a2a-v03",
+      "band": "A2a",
+      "skill": "vocabulary",
+      "unit": "u08-daily-routine",
+      "target": "frequency words",
+      "exercise": {
+        "id": "pl-a2a-v03",
+        "type": "select_translation",
+        "direction": "bn_to_en",
+        "prompt": {
+          "bn": "সবসময়",
+          "tr": "shobshomoy",
+          "en": "always"
+        },
+        "options": [
+          "always",
+          "never",
+          "sometimes",
+          "every day"
+        ],
+        "answer": 0
+      }
+    },
+    {
+      "id": "pl-a2a-r01",
+      "band": "A2a",
+      "skill": "reading-script",
+      "unit": "u06-bazaar",
+      "target": "a 3-line dialogue (gist)",
+      "exercise": {
+        "id": "pl-a2a-r01",
+        "type": "reading",
+        "title": "At the sari shop",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "bn": "ভাই, এই শাড়িটা কত?",
+            "tr": "bhai, ei sharita koto?",
+            "en": "Brother, how much is this sari?"
+          },
+          {
+            "speaker": "Seller",
+            "bn": "এক হাজার টাকা। এটা সবচেয়ে ভালো শাড়ি।",
+            "tr": "ek hajar taka. eta shobcheye bhalo shari.",
+            "en": "A thousand taka. This is the best sari."
+          },
+          {
+            "speaker": "Customer",
+            "bn": "এত দাম কেন? একটু কম রাখেন।",
+            "tr": "eto dam keno? ektu kom rakhen.",
+            "en": "Why so expensive? Please lower it a little."
+          }
+        ],
+        "question": "What does the customer want?",
+        "options": [
+          "A different colour",
+          "A lower price",
+          "A bag",
+          "Change for a thousand taka"
+        ],
+        "answer": 1
+      }
+    },
+    {
+      "id": "pl-a2a-r02",
+      "band": "A2a",
+      "skill": "reading-script",
+      "unit": "u07-directions",
+      "target": "a 4-line dialogue (detail)",
+      "exercise": {
+        "id": "pl-a2a-r02",
+        "type": "reading",
+        "title": "A rickshaw ride",
+        "lines": [
+          {
+            "speaker": "Passenger",
+            "bn": "মামা, ধানমন্ডি যাবেন?",
+            "tr": "mama, dhanmondi jaben?",
+            "en": "Mama, will you go to Dhanmondi?"
+          },
+          {
+            "speaker": "Driver",
+            "bn": "যাব। ভাড়া একশ টাকা।",
+            "tr": "jabo. bhara eksho taka.",
+            "en": "I'll go. The fare is a hundred taka."
+          },
+          {
+            "speaker": "Passenger",
+            "bn": "এত ভাড়া কেন? পঞ্চাশ টাকা রাখেন।",
+            "tr": "eto bhara keno? ponchash taka rakhen.",
+            "en": "Why such a high fare? Make it fifty taka."
+          },
+          {
+            "speaker": "Driver",
+            "bn": "ঠিক আছে, সত্তর টাকা।",
+            "tr": "thik achhe, shottor taka.",
+            "en": "OK, seventy taka."
+          }
+        ],
+        "question": "What fare do they agree on?",
+        "options": [
+          "A hundred taka",
+          "Fifty taka",
+          "Seventy taka",
+          "A hundred and fifty taka"
+        ],
+        "answer": 2
+      }
+    },
+    {
+      "id": "pl-a2a-r03",
+      "band": "A2a",
+      "skill": "reading-script",
+      "unit": "u09-past",
+      "target": "যখন … তখন with the past",
+      "exercise": {
+        "id": "pl-a2a-r03",
+        "type": "select_translation",
+        "direction": "bn_to_en",
+        "prompt": {
+          "bn": "আমি যখন বাজারে গেলাম, তখন দোকান বন্ধ ছিল।",
+          "tr": "ami jokhon bajare gelam, tokhon dokan bondho chhilo.",
+          "en": "When I went to the market, the shop was closed."
+        },
+        "options": [
+          "When I go to the market, the shop is open.",
+          "I went to the market, but it was far.",
+          "The shop was closed, so I went home.",
+          "When I went to the market, the shop was closed."
+        ],
+        "answer": 3
+      }
+    },
+    {
+      "id": "pl-a2a-r04",
+      "band": "A2a",
+      "skill": "reading-script",
+      "unit": "u08-daily-routine",
+      "target": "a short text (detail)",
+      "exercise": {
+        "id": "pl-a2a-r04",
+        "type": "reading",
+        "lines": [
+          {
+            "bn": "সকালে সময় নেই, তাই আমি রাতে রান্না করি।",
+            "tr": "shokale shomoy nei, tai ami rate ranna kori.",
+            "en": "There's no time in the morning, so I cook at night."
+          },
+          {
+            "bn": "কাজের পরে আমি বাসায় আসি, তারপর রান্না করি।",
+            "tr": "kajer pore ami bashay ashi, tarpor ranna kori.",
+            "en": "After work I come home, then I cook."
+          }
+        ],
+        "question": "When does the writer cook?",
+        "options": [
+          "At night, after work",
+          "In the morning",
+          "At noon",
+          "Before work"
+        ],
+        "answer": 0
+      }
+    },
+    {
+      "id": "pl-a2a-g01",
+      "band": "A2a",
+      "skill": "grammar",
+      "unit": "u09-past",
+      "target": "-নি vs না for \"didn't\"",
+      "exercise": {
+        "id": "pl-a2a-g01",
+        "type": "fill_blank",
+        "sentence": {
+          "bn": "আমি কাজ করিনি।",
+          "tr": "ami kaj korini.",
+          "en": "I didn't do the work."
+        },
+        "blank": "করিনি",
+        "options": [
+          "করি না",
+          "করিনি",
+          "করলাম",
+          "করছি"
+        ],
+        "answer": 1
+      }
+    },
+    {
+      "id": "pl-a2a-g02",
+      "band": "A2a",
+      "skill": "grammar",
+      "unit": "u09-past",
+      "target": "-নি: hasn't yet",
+      "exercise": {
+        "id": "pl-a2a-g02",
+        "type": "fill_blank",
+        "sentence": {
+          "bn": "সে এখনো আসেনি।",
+          "tr": "she ekhono asheni.",
+          "en": "He hasn't come yet."
+        },
+        "blank": "আসেনি",
+        "options": [
+          "আসে না",
+          "এসেছে",
+          "আসেনি",
+          "আসবে"
+        ],
+        "answer": 2
+      }
+    },
+    {
+      "id": "pl-a2a-g03",
+      "band": "A2a",
+      "skill": "grammar",
+      "unit": "u09-past",
+      "target": "simple past by person",
+      "exercise": {
+        "id": "pl-a2a-g03",
+        "type": "fill_blank",
+        "sentence": {
+          "bn": "আপনি কী কিনলেন?",
+          "tr": "apni ki kinlen?",
+          "en": "What did you buy? (polite)"
+        },
+        "blank": "কিনলেন",
+        "options": [
+          "কিনলাম",
+          "কিনল",
+          "কিনবেন",
+          "কিনলেন"
+        ],
+        "answer": 3
+      }
+    },
+    {
+      "id": "pl-a2a-g04",
+      "band": "A2a",
+      "skill": "grammar",
+      "unit": "u08-daily-routine",
+      "target": "present continuous vs habitual",
+      "exercise": {
+        "id": "pl-a2a-g04",
+        "type": "fill_blank",
+        "sentence": {
+          "bn": "আমি এখন ভাত খাচ্ছি।",
+          "tr": "ami ekhon bhat khachchhi.",
+          "en": "I am eating rice now."
+        },
+        "blank": "খাচ্ছি",
+        "options": [
+          "খাচ্ছি",
+          "খাই",
+          "খেলাম",
+          "খাব"
+        ],
+        "answer": 0
+      }
+    },
+    {
+      "id": "pl-a2a-g05",
+      "band": "A2a",
+      "skill": "grammar",
+      "unit": "u07-directions",
+      "target": "locative -য়",
+      "exercise": {
+        "id": "pl-a2a-g05",
+        "type": "fill_blank",
+        "sentence": {
+          "bn": "আমি বাসায় আছি।",
+          "tr": "ami bashay achhi.",
+          "en": "I am at home."
+        },
+        "blank": "বাসায়",
+        "options": [
+          "বাসায়",
+          "বাসা",
+          "বাসার"
+        ],
+        "answer": 0
+      }
+    },
+    {
+      "id": "pl-a2a-g06",
+      "band": "A2a",
+      "skill": "grammar",
+      "unit": "u07-directions",
+      "target": "genitive before a postposition",
+      "exercise": {
+        "id": "pl-a2a-g06",
+        "type": "fill_blank",
+        "sentence": {
+          "bn": "হোটেল স্টেশনের কাছে।",
+          "tr": "hotel steshoner kachhe.",
+          "en": "The hotel is near the station."
+        },
+        "blank": "স্টেশনের",
+        "options": [
+          "স্টেশন",
+          "স্টেশনে",
+          "স্টেশনের",
+          "হোটেলের"
+        ],
+        "answer": 2
+      }
+    },
+    {
+      "id": "pl-a2a-g07",
+      "band": "A2a",
+      "skill": "grammar",
+      "unit": "u06-bazaar",
+      "target": "experiencer -র with লাগবে",
+      "exercise": {
+        "id": "pl-a2a-g07",
+        "type": "fill_blank",
+        "sentence": {
+          "bn": "আমার পেঁয়াজ লাগবে।",
+          "tr": "amar pe~yaj lagbe.",
+          "en": "I need onions."
+        },
+        "blank": "আমার",
+        "options": [
+          "আমি",
+          "আমাকে",
+          "আমরা",
+          "আমার"
+        ],
+        "answer": 3
+      }
+    },
+    {
+      "id": "pl-a2b-l01",
+      "band": "A2b",
+      "skill": "listening",
+      "unit": "u11-plans",
+      "target": "future plan",
+      "exercise": {
+        "id": "pl-a2b-l01",
+        "type": "listen_meaning",
+        "audio": {
+          "bn": "আমি আগামীকাল ঢাকায় যাব।",
+          "tr": "ami agamikal dhakay jabo.",
+          "en": "I will go to Dhaka tomorrow."
+        },
+        "options": [
+          "I will go to Dhaka tomorrow.",
+          "I went to Dhaka yesterday.",
+          "I live in Dhaka.",
+          "I will go to Sylhet tomorrow."
+        ],
+        "answer": 0
+      }
+    },
+    {
+      "id": "pl-a2b-l02",
+      "band": "A2b",
+      "skill": "listening",
+      "unit": "u11-plans",
+      "target": "future negative",
+      "exercise": {
+        "id": "pl-a2b-l02",
+        "type": "listen_meaning",
+        "audio": {
+          "bn": "সে আজ আসবে না।",
+          "tr": "she aj ashbe na.",
+          "en": "She won't come today."
+        },
+        "options": [
+          "She will come today.",
+          "She won't come today.",
+          "She didn't come today.",
+          "She came yesterday."
+        ],
+        "answer": 1
+      }
+    },
+    {
+      "id": "pl-a2b-l03",
+      "band": "A2b",
+      "skill": "listening",
+      "unit": "u11-plans",
+      "target": "future with -কে",
+      "exercise": {
+        "id": "pl-a2b-l03",
+        "type": "listen_meaning",
+        "audio": {
+          "bn": "আমি তোমাকে পরে জানাব।",
+          "tr": "ami tomake pore janabo.",
+          "en": "I will let you know later."
+        },
+        "options": [
+          "I will call you later.",
+          "I told you before.",
+          "I will let you know later.",
+          "I will give you money."
+        ],
+        "answer": 2
+      }
+    },
+    {
+      "id": "pl-a2b-l04",
+      "band": "A2b",
+      "skill": "listening",
+      "unit": "u11-plans",
+      "target": "invitation",
+      "exercise": {
+        "id": "pl-a2b-l04",
+        "type": "listen_meaning",
+        "audio": {
+          "bn": "তুমি কি কাল আমাদের বাসায় আসবে?",
+          "tr": "tumi ki kal amader bashay ashbe?",
+          "en": "Will you come to our home tomorrow?"
+        },
+        "options": [
+          "Did you come to our home yesterday?",
+          "Shall we come to your home?",
+          "Where is your home?",
+          "Will you come to our home tomorrow?"
+        ],
+        "answer": 3
+      }
+    },
+    {
+      "id": "pl-a2b-l05",
+      "band": "A2b",
+      "skill": "listening",
+      "unit": "u11-plans",
+      "target": "future + তাই",
+      "exercise": {
+        "id": "pl-a2b-l05",
+        "type": "listen_meaning",
+        "audio": {
+          "bn": "আমি কাল ব্যস্ত থাকব, তাই আসব না।",
+          "tr": "ami kal byasto thakbo, tai ashbo na.",
+          "en": "I'll be busy tomorrow, so I won't come."
+        },
+        "options": [
+          "I'll be busy tomorrow, so I won't come.",
+          "I was busy, so I didn't come.",
+          "I won't be busy tomorrow, so I'll come.",
+          "I'm busy today, but I'll come tomorrow."
+        ],
+        "answer": 0
+      }
+    },
+    {
+      "id": "pl-a2b-l06",
+      "band": "A2b",
+      "skill": "listening",
+      "unit": "u11-plans",
+      "target": "intimate future question",
+      "exercise": {
+        "id": "pl-a2b-l06",
+        "type": "listen_meaning",
+        "audio": {
+          "bn": "দোস্ত, কাল মেলায় যাবি?",
+          "tr": "dost, kal melay jabi?",
+          "en": "Buddy, will you go to the fair tomorrow?"
+        },
+        "options": [
+          "Buddy, did you go to the fair?",
+          "Buddy, will you go to the fair tomorrow?",
+          "Buddy, where is the fair?",
+          "Buddy, let's go to the fair today."
+        ],
+        "answer": 1
+      }
+    },
+    {
+      "id": "pl-a2b-v01",
+      "band": "A2b",
+      "skill": "vocabulary",
+      "unit": "u11-plans",
+      "target": "time words",
+      "exercise": {
+        "id": "pl-a2b-v01",
+        "type": "select_translation",
+        "direction": "bn_to_en",
+        "prompt": {
+          "bn": "পরশু",
+          "tr": "porshu",
+          "en": "the day after tomorrow"
+        },
+        "options": [
+          "tomorrow",
+          "yesterday",
+          "the day after tomorrow",
+          "next week"
+        ],
+        "answer": 2
+      }
+    },
+    {
+      "id": "pl-a2b-v02",
+      "band": "A2b",
+      "skill": "vocabulary",
+      "unit": "u11-plans",
+      "target": "time phrases",
+      "exercise": {
+        "id": "pl-a2b-v02",
+        "type": "select_translation",
+        "direction": "en_to_bn",
+        "prompt": {
+          "bn": "সামনের মাসে",
+          "tr": "shamner mashe",
+          "en": "next month"
+        },
+        "options": [
+          "আগামী সপ্তাহে",
+          "গত সপ্তাহে",
+          "আগামী বছর",
+          "সামনের মাসে"
+        ],
+        "answer": 3
+      }
+    },
+    {
+      "id": "pl-a2b-v03",
+      "band": "A2b",
+      "skill": "vocabulary",
+      "unit": "u11-plans",
+      "target": "word meaning",
+      "exercise": {
+        "id": "pl-a2b-v03",
+        "type": "select_translation",
+        "direction": "bn_to_en",
+        "prompt": {
+          "bn": "ব্যস্ত",
+          "tr": "byasto",
+          "en": "busy"
+        },
+        "options": [
+          "busy",
+          "tired",
+          "ready",
+          "free"
+        ],
+        "answer": 0
+      }
+    },
+    {
+      "id": "pl-a2b-r01",
+      "band": "A2b",
+      "skill": "reading-script",
+      "unit": "u11-plans",
+      "target": "a 2-line dialogue: future plan",
+      "exercise": {
+        "id": "pl-a2b-r01",
+        "type": "reading",
+        "title": "Friday plans",
+        "lines": [
+          {
+            "speaker": "Rafi",
+            "bn": "নাদিয়া, শুক্রবার তোমার প্ল্যান কী? বাসায় থাকবে?",
+            "tr": "nadiya, shukrobar tomar plyan ki? bashay thakbe?",
+            "en": "Nadia, what's your plan for Friday? Will you stay at home?"
+          },
+          {
+            "speaker": "Nadia",
+            "bn": "সকালে বাসায় বই পড়ব। বিকালে আমরা মেলায় বেড়াতে যাব।",
+            "tr": "shokale bashay boi porbo. bikale amra melay berate jabo.",
+            "en": "In the morning I'll read at home. In the afternoon we'll go out to the fair."
+          }
+        ],
+        "question": "What will Nadia do in the morning?",
+        "options": [
+          "Go to the fair",
+          "Read at home",
+          "Stay with Rafi",
+          "Go shopping"
+        ],
+        "answer": 1
+      }
+    },
+    {
+      "id": "pl-a2b-r02",
+      "band": "A2b",
+      "skill": "reading-script",
+      "unit": "u11-plans",
+      "target": "a 3-line dialogue (detail)",
+      "exercise": {
+        "id": "pl-a2b-r02",
+        "type": "reading",
+        "title": "At the fair",
+        "lines": [
+          {
+            "speaker": "Rafi",
+            "bn": "মেলায় কী করবে?",
+            "tr": "melay ki korbe?",
+            "en": "What will you do at the fair?"
+          },
+          {
+            "speaker": "Nadia",
+            "bn": "আম্মু শাড়ি কিনবে, আর আমি পিঠা খাব। তুমি কি আমাদের সাথে যাবে?",
+            "tr": "ammu shari kinbe, ar ami pitha khabo. tumi ki amader shathe jabe?",
+            "en": "Mum will buy a sari, and I'll eat pitha. Will you come with us?"
+          },
+          {
+            "speaker": "Rafi",
+            "bn": "ইনশাআল্লাহ যাব। কয়টায় আসব?",
+            "tr": "inshaallah jabo. koytay ashbo?",
+            "en": "God willing, I'll go. What time shall I come?"
+          }
+        ],
+        "question": "Who will buy a sari?",
+        "options": [
+          "Nadia",
+          "Rafi",
+          "Nadia's mother",
+          "Rafi's mother"
+        ],
+        "answer": 2
+      }
+    },
+    {
+      "id": "pl-a2b-r03",
+      "band": "A2b",
+      "skill": "reading-script",
+      "unit": "u11-plans",
+      "target": "polite request with the future",
+      "exercise": {
+        "id": "pl-a2b-r03",
+        "type": "select_translation",
+        "direction": "bn_to_en",
+        "prompt": {
+          "bn": "আপনি কি আমাকে একটু পানি দেবেন?",
+          "tr": "apni ki amake ektu pani deben?",
+          "en": "Could you give me a little water?"
+        },
+        "options": [
+          "Did you give me some water?",
+          "I will give you a little water.",
+          "Is there any water here?",
+          "Could you give me a little water?"
+        ],
+        "answer": 3
+      }
+    },
+    {
+      "id": "pl-a2b-g01",
+      "band": "A2b",
+      "skill": "grammar",
+      "unit": "u11-plans",
+      "target": "future by person (polite)",
+      "exercise": {
+        "id": "pl-a2b-g01",
+        "type": "fill_blank",
+        "sentence": {
+          "bn": "আপনি কাল কী করবেন?",
+          "tr": "apni kal ki korben?",
+          "en": "What will you do tomorrow? (polite)"
+        },
+        "blank": "করবেন",
+        "options": [
+          "করবেন",
+          "করব",
+          "করবে",
+          "করলেন"
+        ],
+        "answer": 0
+      }
+    },
+    {
+      "id": "pl-a2b-g02",
+      "band": "A2b",
+      "skill": "grammar",
+      "unit": "u11-plans",
+      "target": "future by person (আমি)",
+      "exercise": {
+        "id": "pl-a2b-g02",
+        "type": "fill_blank",
+        "sentence": {
+          "bn": "আমি কাল কাজ করব।",
+          "tr": "ami kal kaj korbo.",
+          "en": "I will work tomorrow."
+        },
+        "blank": "করব",
+        "options": [
+          "করবে",
+          "করব",
+          "করলাম",
+          "করি"
+        ],
+        "answer": 1
+      }
+    },
+    {
+      "id": "pl-a2b-g03",
+      "band": "A2b",
+      "skill": "grammar",
+      "unit": "u11-plans",
+      "target": "future negative",
+      "exercise": {
+        "id": "pl-a2b-g03",
+        "type": "fill_blank",
+        "sentence": {
+          "bn": "আমরা মাংস খাব না।",
+          "tr": "amra mangsho khabo na.",
+          "en": "We won't eat meat."
+        },
+        "blank": "খাব",
+        "options": [
+          "খাই",
+          "খেলাম",
+          "খাব",
+          "খাবে"
+        ],
+        "answer": 2
+      }
+    },
+    {
+      "id": "pl-a2b-g04",
+      "band": "A2b",
+      "skill": "grammar",
+      "unit": "u11-plans",
+      "target": "future of থাকা",
+      "exercise": {
+        "id": "pl-a2b-g04",
+        "type": "fill_blank",
+        "sentence": {
+          "bn": "সে কাল বাসায় থাকবে।",
+          "tr": "she kal bashay thakbe.",
+          "en": "She will be at home tomorrow."
+        },
+        "blank": "থাকবে",
+        "options": [
+          "থাকব",
+          "থাকবেন",
+          "ছিল",
+          "থাকবে"
+        ],
+        "answer": 3
+      }
+    },
+    {
+      "id": "pl-a2b-g05",
+      "band": "A2b",
+      "skill": "grammar",
+      "unit": "u11-plans",
+      "target": "future: তুই form",
+      "exercise": {
+        "id": "pl-a2b-g05",
+        "type": "fill_blank",
+        "sentence": {
+          "bn": "দোস্ত, তুই কি ঢাকায় যাবি?",
+          "tr": "dost, tui ki dhakay jabi?",
+          "en": "Buddy, will you go to Dhaka?"
+        },
+        "blank": "যাবি",
+        "options": [
+          "যাবি",
+          "যাবে",
+          "যাবেন",
+          "যাব"
+        ],
+        "answer": 0
+      }
+    },
+    {
+      "id": "pl-a2b-g06",
+      "band": "A2b",
+      "skill": "grammar",
+      "unit": "u11-plans",
+      "target": "object case -কে",
+      "exercise": {
+        "id": "pl-a2b-g06",
+        "type": "fill_blank",
+        "sentence": {
+          "bn": "আমি তোমাকে টাকা দেব।",
+          "tr": "ami tomake taka debo.",
+          "en": "I will give you money."
+        },
+        "blank": "তোমাকে",
+        "options": [
+          "তোমার",
+          "তোমাকে",
+          "তুমি",
+          "তোমরা"
+        ],
+        "answer": 1
+      }
+    },
+    {
+      "id": "pl-a2b-g07",
+      "band": "A2b",
+      "skill": "grammar",
+      "unit": "u11-plans",
+      "target": "infinitive -তে with যাওয়া",
+      "exercise": {
+        "id": "pl-a2b-g07",
+        "type": "fill_blank",
+        "sentence": {
+          "bn": "আমরা কাল ছবি দেখতে যাব।",
+          "tr": "amra kal chhobi dekhte jabo.",
+          "en": "We will go to see a film tomorrow."
+        },
+        "blank": "দেখতে",
+        "options": [
+          "দেখব",
+          "দেখে",
+          "দেখতে",
+          "দেখি"
+        ],
+        "answer": 2
+      }
+    },
+    {
+      "id": "pl-b1-l01",
+      "band": "B1",
+      "skill": "listening",
+      "unit": "i01-catching-up",
+      "target": "past habitual -তাম",
+      "exercise": {
+        "id": "pl-b1-l01",
+        "type": "listen_meaning",
+        "audio": {
+          "bn": "ছোটবেলায় আমি গ্রামে থাকতাম।",
+          "tr": "chhotobelay ami grame thaktam.",
+          "en": "When I was small, I lived in a village."
+        },
+        "options": [
+          "I live in the village now.",
+          "I will live in the village.",
+          "When I was small, I lived in the city.",
+          "When I was small, I lived in a village."
+        ],
+        "answer": 3
+      }
+    },
+    {
+      "id": "pl-b1-l02",
+      "band": "B1",
+      "skill": "listening",
+      "unit": "i01-catching-up",
+      "target": "past continuous",
+      "exercise": {
+        "id": "pl-b1-l02",
+        "type": "listen_meaning",
+        "audio": {
+          "bn": "বাইরে বৃষ্টি হচ্ছিল।",
+          "tr": "baire brishti hochchhilo.",
+          "en": "It was raining outside."
+        },
+        "options": [
+          "It was raining outside.",
+          "It is raining outside.",
+          "It will rain outside.",
+          "It rained outside yesterday."
+        ],
+        "answer": 0
+      }
+    },
+    {
+      "id": "pl-b1-l03",
+      "band": "B1",
+      "skill": "listening",
+      "unit": "i01-catching-up",
+      "target": "যখন … তখন with the past continuous",
+      "exercise": {
+        "id": "pl-b1-l03",
+        "type": "listen_meaning",
+        "audio": {
+          "bn": "আমি যখন ভাত খাচ্ছিলাম, তখন রাফি এল।",
+          "tr": "ami jokhon bhat khachchhilam, tokhon rafi elo.",
+          "en": "When I was eating, Rafi came."
+        },
+        "options": [
+          "When Rafi came, I ate.",
+          "When I was eating, Rafi came.",
+          "Rafi was eating when I came.",
+          "I used to eat with Rafi."
+        ],
+        "answer": 1
+      }
+    },
+    {
+      "id": "pl-b1-v01",
+      "band": "B1",
+      "skill": "vocabulary",
+      "unit": "i01-catching-up",
+      "target": "time words",
+      "exercise": {
+        "id": "pl-b1-v01",
+        "type": "select_translation",
+        "direction": "bn_to_en",
+        "prompt": {
+          "bn": "ছোটবেলায়",
+          "tr": "chhotobelay",
+          "en": "in childhood"
+        },
+        "options": [
+          "these days",
+          "last year",
+          "as a child",
+          "in the evening"
+        ],
+        "answer": 2
+      }
+    },
+    {
+      "id": "pl-b1-r01",
+      "band": "B1",
+      "skill": "reading-script",
+      "unit": "i01-catching-up",
+      "target": "আর … না (not any more) vs habitual past",
+      "exercise": {
+        "id": "pl-b1-r01",
+        "type": "reading",
+        "title": "Cricket",
+        "lines": [
+          {
+            "speaker": "Nadia",
+            "bn": "রাফি, তুমি কি এখনো ক্রিকেট দেখো?",
+            "tr": "rafi, tumi ki ekhono kriket dekho?",
+            "en": "Rafi, do you still watch cricket?"
+          },
+          {
+            "speaker": "Rafi",
+            "bn": "না, এখন আর দেখি না। ছোটবেলায় প্রতিদিন দেখতাম।",
+            "tr": "na, ekhon ar dekhi na. chhotobelay protidin dekhtam.",
+            "en": "No, not any more. As a kid I watched it every day."
+          }
+        ],
+        "question": "Does Rafi watch cricket now?",
+        "options": [
+          "Yes, every day",
+          "Only on Fridays",
+          "No, he has never watched it",
+          "No, but he did every day as a child"
+        ],
+        "answer": 3
+      }
+    },
+    {
+      "id": "pl-b1-r02",
+      "band": "B1",
+      "skill": "reading-script",
+      "unit": "i01-catching-up",
+      "target": "a 3-line text (detail)",
+      "exercise": {
+        "id": "pl-b1-r02",
+        "type": "reading",
+        "title": "The old days",
+        "lines": [
+          {
+            "bn": "আগের দিনগুলো খুব সুন্দর ছিল।",
+            "tr": "ager dingulo khub shundor chhilo.",
+            "en": "The old days were very beautiful."
+          },
+          {
+            "bn": "আমরা গ্রামের পুকুরে সাঁতার কাটতাম। তখন ফোন ছিল না, তাই আমরা চিঠি লিখতাম।",
+            "tr": "amra gramer pukure sha~tar kattam. tokhon fon chhilo na, tai amra chithi likhtam.",
+            "en": "We used to swim in the village pond. There were no phones then, so we wrote letters."
+          },
+          {
+            "bn": "এখন গ্রাম অনেক বদলে গেছে।",
+            "tr": "ekhon gram onek bodle gechhe.",
+            "en": "The village has changed a lot now."
+          }
+        ],
+        "question": "Why did they write letters?",
+        "options": [
+          "There were no phones then",
+          "They lived far away",
+          "They liked writing",
+          "Phones were too expensive"
+        ],
+        "answer": 0
+      }
+    },
+    {
+      "id": "pl-b1-r03",
+      "band": "B1",
+      "skill": "reading-script",
+      "unit": "i01-catching-up",
+      "target": "habitual past vs present",
+      "exercise": {
+        "id": "pl-b1-r03",
+        "type": "select_translation",
+        "direction": "bn_to_en",
+        "prompt": {
+          "bn": "আগে আমি দুধ খেতাম, এখন আর খাই না।",
+          "tr": "age ami dudh khetam, ekhon ar khai na.",
+          "en": "I used to drink milk, but I don't any more."
+        },
+        "options": [
+          "I didn't use to drink milk, but now I do.",
+          "I used to drink milk, but I don't any more.",
+          "I drank milk this morning.",
+          "I will stop drinking milk."
+        ],
+        "answer": 1
+      }
+    },
+    {
+      "id": "pl-b1-g01",
+      "band": "B1",
+      "skill": "grammar",
+      "unit": "i01-catching-up",
+      "target": "past habitual -তাম",
+      "exercise": {
+        "id": "pl-b1-g01",
+        "type": "fill_blank",
+        "sentence": {
+          "bn": "রাতে আমি বই পড়তাম।",
+          "tr": "rate ami boi portam.",
+          "en": "At night I used to read books."
+        },
+        "blank": "পড়তাম",
+        "options": [
+          "পড়লাম",
+          "পড়ছি",
+          "পড়তাম",
+          "পড়ব"
+        ],
+        "answer": 2
+      }
+    },
+    {
+      "id": "pl-b1-g02",
+      "band": "B1",
+      "skill": "grammar",
+      "unit": "i01-catching-up",
+      "target": "past continuous -ছিলাম",
+      "exercise": {
+        "id": "pl-b1-g02",
+        "type": "fill_blank",
+        "sentence": {
+          "bn": "আমি টিভি দেখছিলাম।",
+          "tr": "ami tibhi dekhchhilam.",
+          "en": "I was watching TV."
+        },
+        "blank": "দেখছিলাম",
+        "options": [
+          "দেখতাম",
+          "দেখছি",
+          "দেখলাম",
+          "দেখছিলাম"
+        ],
+        "answer": 3
+      }
+    },
+    {
+      "id": "pl-b1-g03",
+      "band": "B1",
+      "skill": "grammar",
+      "unit": "i01-catching-up",
+      "target": "past habitual by person (polite)",
+      "exercise": {
+        "id": "pl-b1-g03",
+        "type": "fill_blank",
+        "sentence": {
+          "bn": "আপনি ছোটবেলায় কোথায় থাকতেন?",
+          "tr": "apni chhotobelay kothay thakten?",
+          "en": "Where did you (polite) live as a child?"
+        },
+        "blank": "থাকতেন",
+        "options": [
+          "থাকতেন",
+          "থাকতাম",
+          "থাকত",
+          "থাকবেন"
+        ],
+        "answer": 0
+      }
+    }
+  ]
+}

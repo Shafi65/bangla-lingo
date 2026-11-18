@@ -1,0 +1,145 @@
+{
+  "version": 1,
+  "about": "Placement test settings. Cut scores are initial expert judgments; recalibrate once real results are in.",
+  "bands": [
+    { "id": "A0", "label": "Alphabet", "units": "script track" },
+    { "id": "A1", "label": "Units 1–5", "startUnit": "u01-basics" },
+    { "id": "A2a", "label": "Units 6–10", "startUnit": "u06-bazaar" },
+    { "id": "A2b", "label": "Units 11–12", "startUnit": "u11-plans" },
+    { "id": "B1", "label": "Intermediate", "startUnit": "i01-catching-up" }
+  ],
+  "skills": {
+    "listening": "listening",
+    "reading-script": "reading",
+    "vocabulary": "reading",
+    "grammar": "grammar"
+  },
+  "stages": {
+    "scriptCheck": {
+      "slots": [
+        { "group": "reading", "band": "A0" },
+        { "group": "reading", "band": "A0" },
+        { "group": "reading", "band": "A0" }
+      ]
+    },
+    "routing": {
+      "slots": [
+        { "group": "listening", "band": "A1" },
+        { "group": "reading", "band": "A1", "skill": "vocabulary" },
+        { "group": "grammar", "band": "A1" },
+        { "group": "listening", "band": "A2a" },
+        { "group": "reading", "band": "A2a", "skill": "reading-script" },
+        { "group": "grammar", "band": "A2a" },
+        { "group": "grammar", "band": "A2b" }
+      ],
+      "cuts": [
+        { "maxCorrect": 2, "block": "A" },
+        { "maxCorrect": 5, "block": "B" },
+        { "maxCorrect": 7, "block": "C" }
+      ]
+    },
+    "blocks": {
+      "A": { "band": "A1" },
+      "B": { "band": "A2a" },
+      "C": { "band": "A2b" }
+    },
+    "blockSlots": [
+      { "group": "listening" },
+      { "group": "reading", "skill": "vocabulary" },
+      { "group": "grammar" },
+      { "group": "listening" },
+      { "group": "reading", "skill": "reading-script" },
+      { "group": "grammar" },
+      { "group": "listening" },
+      { "group": "reading" },
+      { "group": "grammar" }
+    ],
+    "final": {
+      "A": [
+        { "maxTotal": 8, "band": "A1" },
+        { "maxTotal": 16, "band": "A2a" }
+      ],
+      "B": [
+        { "maxTotal": 6, "band": "A1" },
+        { "maxTotal": 11, "band": "A2a" },
+        { "maxTotal": 16, "band": "A2b" }
+      ],
+      "C": [
+        { "maxTotal": 10, "band": "A2a" },
+        { "maxTotal": 13, "band": "A2b" },
+        { "maxTotal": 16, "band": "B1" }
+      ]
+    }
+  },
+  "earlyStop": {
+    "bottom": { "maxRoutingCorrect": 1, "maxRoutingListeningCorrect": 0 },
+    "top": { "block": "C", "minTotal": 16 }
+  },
+  "scoring": {
+    "passRatio": 0.66,
+    "minItems": 2
+  },
+  "routes": {
+    "intermediate": { "grammarAtLeast": "A2b", "readingAtLeast": "A2a" },
+    "fastLane": { "listeningAtLeast": "A2a", "readingBelow": "A1" }
+  },
+  "completedAccuracy": 0.8,
+  "background": {
+    "questions": [
+      {
+        "id": "homeUse",
+        "text": "Do you hear or speak Bengali at home?",
+        "options": [
+          { "id": "never", "label": "Never" },
+          { "id": "sometimes", "label": "Sometimes" },
+          { "id": "daily", "label": "Every day" }
+        ]
+      },
+      {
+        "id": "homeVariety",
+        "text": "Which kind of Bengali do you hear at home?",
+        "options": [
+          { "id": "standard", "label": "Standard (Dhaka or Kolkata)" },
+          { "id": "sylheti", "label": "Sylheti" },
+          { "id": "chittagonian", "label": "Chittagonian" },
+          { "id": "regional", "label": "Another regional variety" },
+          { "id": "unsure", "label": "Not sure" },
+          { "id": "none", "label": "None" }
+        ]
+      },
+      {
+        "id": "readScript",
+        "text": "Can you read Bengali script?",
+        "options": [
+          { "id": "no", "label": "No" },
+          { "id": "some", "label": "Some letters" },
+          { "id": "slowly", "label": "Slowly" },
+          { "id": "yes", "label": "Yes" }
+        ]
+      },
+      {
+        "id": "studied",
+        "text": "Have you studied Bengali in a class or course?",
+        "options": [
+          { "id": "no", "label": "No" },
+          { "id": "little", "label": "A little" },
+          { "id": "year", "label": "A year or more" }
+        ]
+      },
+      {
+        "id": "goal",
+        "text": "What's your main goal?",
+        "options": [
+          { "id": "family", "label": "Talk with family" },
+          { "id": "travel", "label": "Travel" },
+          { "id": "reading", "label": "Reading" },
+          { "id": "work", "label": "Work or study" },
+          { "id": "other", "label": "Something else" }
+        ]
+      }
+    ],
+    "scriptCheckWhen": { "readScript": ["no", "some"] },
+    "heritageWhen": { "homeUse": ["daily"], "readScript": ["no", "some", "slowly"] },
+    "varietyNoteWhen": { "homeVariety": ["sylheti", "chittagonian", "regional"] }
+  }
+}

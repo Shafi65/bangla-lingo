@@ -1,10 +1,10 @@
 import type { KnownLevel, StartPoint } from "./storage";
 
 /**
- * Hook for the future placement test. When it exists, set this to its route and the
- * "I know some" branch will offer it first (see OnboardingFlow). Null = not built yet.
+ * The placement test route. The "I know some" branch offers it first (see OnboardingFlow).
+ * Null would hide the link.
  */
-export const PLACEMENT_TEST_HREF: string | null = null;
+export const PLACEMENT_TEST_HREF: string | null = "/placement";
 
 export interface StartTargets {
   /** First lesson of Unit 1. */

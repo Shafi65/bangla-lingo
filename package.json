@@ -11,6 +11,7 @@
     "audit": "node content/scripts/audit.mjs",
     "recycle": "node content/scripts/recycle.mjs",
     "validate:strict": "node content/scripts/validate.mjs --strict",
+    "validate:placement": "node content/scripts/validate-placement.mjs",
     "test": "npm run validate && npm run validate:strict && npm --prefix web test && npm --prefix web run test:e2e",
     "test:unit": "npm --prefix web test",
     "test:e2e": "npm --prefix web run test:e2e"
