@@ -7,6 +7,35 @@ export interface LessonRecord {
   completedAt: string; // ISO timestamp of most recent completion
   bestAccuracy: number; // 0..1
   timesCompleted: number;
+  /**
+   * Marked done by the placement test, not played: no stars (bestAccuracy 0, timesCompleted 0), no XP,
+   * no review seeding. Dropped as soon as the learner actually completes the lesson.
+   */
+  placed?: true;
+}
+
+/** A lesson the learner skipped past via placement rather than played. */
+export function isPlaced(rec: LessonRecord | undefined): boolean {
+  return rec?.placed === true;
+}
+
+/** Records of lessons the learner actually played (placed ones removed). */
+export function earnedRecords(completed: Record<string, LessonRecord>): Record<string, LessonRecord> {
+  const out: Record<string, LessonRecord> = {};
+  for (const [id, rec] of Object.entries(completed)) if (!isPlaced(rec)) out[id] = rec;
+  return out;
+}
+
+/** Tolerant read of stored lesson records; `placed` is kept only as the literal `true`, with no score. */
+function sanitizeCompleted(c: unknown): Record<string, LessonRecord> {
+  const out: Record<string, LessonRecord> = {};
+  if (!c || typeof c !== "object") return out;
+  for (const [id, v] of Object.entries(c as Record<string, Partial<LessonRecord> | null>)) {
+    if (!v || typeof v !== "object") continue;
+    const { placed, ...rest } = v;
+    out[id] = placed === true ? { ...(rest as LessonRecord), bestAccuracy: 0, timesCompleted: 0, placed: true } : (rest as LessonRecord);
+  }
+  return out;
 }
 
 /** How transliteration (romanized Bengali) is displayed. */
@@ -65,6 +94,12 @@ export interface ProgressState {
 export interface ProgressStore {
   get(): ProgressState;
   completeLesson(lessonId: string, xp: number, accuracy: number): ProgressState;
+  /**
+   * Mark lessons done without playing them (placement test), in one write and one notification.
+   * No XP, streak, last-active or daily-log change; records are flagged `placed`. Lessons already
+   * completed are left alone.
+   */
+  completeLessons(ids: string[], opts: { source: "placement" }): ProgressState;
   /** XP from a practice session (counts for the daily goal and streak). */
   recordPractice(xp: number): ProgressState;
   updateSettings(patch: Partial<Settings>): ProgressState;
@@ -132,7 +167,7 @@ export function todayXp(p: ProgressState, today?: string): number {
 
 /** 1–3 stars from best accuracy; 0 if never completed. */
 export function lessonStars(rec: LessonRecord | undefined): 0 | 1 | 2 | 3 {
-  if (!rec) return 0;
+  if (!rec || rec.placed) return 0;
   if (rec.bestAccuracy >= 0.95) return 3;
   if (rec.bestAccuracy >= 0.75) return 2;
   return 1;
@@ -240,7 +275,7 @@ export class LocalStorageProgressStore implements ProgressStore {
           ? {
               ...EMPTY_PROGRESS,
               ...parsed,
-              completed: parsed.completed ?? {},
+              completed: sanitizeCompleted(parsed.completed),
               daily: parsed.daily ?? {},
               settings: sanitizeSettings(parsed.settings),
             }
@@ -284,6 +319,23 @@ export class LocalStorageProgressStore implements ProgressStore {
         },
       },
     };
+    this.write(next);
+    return next;
+  }
+
+  completeLessons(ids: string[], opts: { source: "placement" }) {
+    const prev = this.get();
+    if (opts.source !== "placement") return prev;
+    const completedAt = new Date().toISOString();
+    const completed = { ...prev.completed };
+    let changed = false;
+    for (const id of ids) {
+      if (completed[id]) continue;
+      completed[id] = { completedAt, bestAccuracy: 0, timesCompleted: 0, placed: true };
+      changed = true;
+    }
+    if (!changed) return prev;
+    const next: ProgressState = { ...prev, completed };
     this.write(next);
     return next;
   }

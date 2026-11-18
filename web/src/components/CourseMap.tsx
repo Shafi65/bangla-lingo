@@ -581,7 +581,9 @@ function LessonRow({
     state === "locked"
       ? "locked: finish the previous lesson first"
       : state === "completed"
-        ? `completed, ${stars} of 3 stars. Practise again`
+        ? record?.placed
+          ? "placed: marked done by the placement test. Practise it"
+          : `completed, ${stars} of 3 stars. Practise again`
         : isNext
           ? "up next"
           : "ready to start"
@@ -626,7 +628,7 @@ function LessonRow({
         <span className={`text-base leading-tight font-extrabold text-balance ${state === "locked" ? "text-muted" : "text-ink"}`}>
           {review ? lesson.title.replace(/^review\s*:?\s*/i, "") || lesson.title : lesson.title}
         </span>
-        {state === "completed" && <Stars n={stars} />}
+        {state === "completed" && (record?.placed ? <span className="chip mt-1 bg-line text-muted">Placed</span> : <Stars n={stars} />)}
       </div>
     </li>
   );

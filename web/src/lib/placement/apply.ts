@@ -64,19 +64,13 @@ export function writeStoredPlacement(v: StoredPlacement): boolean {
 }
 
 /**
- * Mark every lesson before the placed unit as done (0 XP, `accuracy` as the recorded score).
- * Lessons already completed are left alone. Returns how many were newly marked.
- *
- * Note: ProgressStore has no bulk call, so this is one completeLesson() per lesson; each also
- * counts as activity for today (streak 1, +0 XP).
+ * Mark every lesson before the placed unit as done, flagged `placed`: no XP, no streak or activity,
+ * no stars, and no word-memory seeding. Lessons already completed are left alone. Returns how many
+ * were newly marked.
  */
-export function applyPlacement(store: ProgressStore, p: Placement, accuracy: number): number {
+export function applyPlacement(store: ProgressStore, p: Placement): number {
   const done = store.get().completed;
-  let n = 0;
-  for (const id of p.completeLessonIds) {
-    if (done[id]) continue;
-    store.completeLesson(id, 0, accuracy);
-    n++;
-  }
-  return n;
+  const ids = p.completeLessonIds.filter((id) => !done[id]);
+  if (ids.length) store.completeLessons(ids, { source: "placement" });
+  return ids.length;
 }

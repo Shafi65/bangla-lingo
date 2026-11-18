@@ -102,7 +102,6 @@ if (cfg) {
   const sc = cfg.scoring ?? {};
   if (!(sc.passRatio > 0 && sc.passRatio <= 1) || !Number.isInteger(sc.minItems)) err("config scoring: passRatio (0..1] and minItems needed");
   for (const [k, v] of Object.entries(cfg.routes ?? {})) for (const b of Object.values(v)) if (!BANDS.includes(b)) err(`config routes.${k}: bad band ${b}`);
-  if (!(cfg.completedAccuracy >= 0 && cfg.completedAccuracy <= 1)) err("config completedAccuracy must be 0..1");
   const qs = cfg.background?.questions ?? [];
   const qIds = new Set();
   for (const q of qs) {

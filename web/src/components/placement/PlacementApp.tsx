@@ -58,7 +58,7 @@ export function PlacementApp({ bank, config, units }: { bank: ItemBank; config: 
   const accept = () => {
     if (!placement) return;
     setBusy(true);
-    applyPlacement(progressStore, placement, config.completedAccuracy);
+    applyPlacement(progressStore, placement);
     writeStoredPlacement(toStored(placement, bg, true));
     markIntroDone();
     router.push(`/lesson/${encodeURIComponent(placement.startLessonId)}`);

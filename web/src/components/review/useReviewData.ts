@@ -23,7 +23,7 @@ export function useReviewData(words: readonly ReviewWord[], index: WordIndex) {
 
   const learned = useMemo(() => {
     const s = new Set<string>();
-    for (const w of words) if (memory.words[w.id] || progress.completed[w.lesson]) s.add(w.id);
+    for (const w of words) if (memory.words[w.id] || (progress.completed[w.lesson] && !progress.completed[w.lesson].placed)) s.add(w.id);
     return s;
   }, [words, memory.words, progress.completed]);
 

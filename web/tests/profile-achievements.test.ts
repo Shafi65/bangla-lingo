@@ -7,10 +7,15 @@ const BASE: ProfileStats = {
   bestStreak: 0,
   wordsLearned: 0,
   lessonsCompleted: 0,
+  lessonsPlayed: 0,
   daysActive: 0,
   perfectLessons: 0,
   reviewed: false,
   units: [
+    { id: "u1", label: "Unit 1", title: "Basics", track: "main", done: 0, total: 5 },
+    { id: "s1", label: "Script 1", title: "Vowels", track: "script", done: 0, total: 4 },
+  ],
+  playedUnits: [
     { id: "u1", label: "Unit 1", title: "Basics", track: "main", done: 0, total: 5 },
     { id: "s1", label: "Script 1", title: "Vowels", track: "script", done: 0, total: 4 },
   ],
@@ -40,7 +45,7 @@ describe("achievements", () => {
   });
 
   it("earns thresholds at exactly the target and caps progress", () => {
-    const a = byId({ ...BASE, xp: 500, bestStreak: 7, wordsLearned: 49, lessonsCompleted: 12 });
+    const a = byId({ ...BASE, xp: 500, bestStreak: 7, wordsLearned: 49, lessonsCompleted: 12, lessonsPlayed: 12 });
     expect(a["xp-100"].earned).toBe(true);
     expect(a["xp-500"].earned).toBe(true);
     expect(a["xp-1000"]).toMatchObject({ earned: false, value: 500, target: 1000 });
@@ -68,12 +73,14 @@ describe("achievements", () => {
   });
 
   it("points a locked unit badge at the closest unit", () => {
+    const units: ProfileStats["units"] = [
+      { id: "u1", label: "Unit 1", title: "Basics", track: "main", done: 2, total: 5 },
+      { id: "s1", label: "Script 1", title: "Vowels", track: "script", done: 3, total: 4 },
+    ];
     const s: ProfileStats = {
       ...BASE,
-      units: [
-        { id: "u1", label: "Unit 1", title: "Basics", track: "main", done: 2, total: 5 },
-        { id: "s1", label: "Script 1", title: "Vowels", track: "script", done: 3, total: 4 },
-      ],
+      units,
+      playedUnits: units,
       scriptDone: 3,
     };
     expect(byId(s)["unit-done"].progressText).toBe("Vowels: 3 of 4 lessons");

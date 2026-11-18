@@ -41,16 +41,16 @@ interface Def {
 const n = (x: number) => x.toLocaleString("en-US");
 
 function closestUnit(s: ProfileStats): string {
-  const open = s.units.filter((u) => u.done > 0 && u.done < u.total);
+  const open = s.playedUnits.filter((u) => u.done > 0 && u.done < u.total);
   if (!open.length) return "No unit started yet";
   const best = open.reduce((a, b) => (b.done / b.total > a.done / a.total ? b : a));
   return `${best.title}: ${best.done} of ${best.total} lessons`;
 }
 
 const DEFS: Def[] = [
-  { id: "first-lesson", title: "First steps", goal: "Finish your first lesson", motif: "lotus", tone: "brand", target: 1, unit: ["lesson", "lessons"], value: (s) => s.lessonsCompleted },
-  { id: "lessons-10", title: "Ten lessons", goal: "Finish 10 lessons", motif: "lotus", tone: "brand", tier: "10", target: 10, unit: ["lesson", "lessons"], value: (s) => s.lessonsCompleted },
-  { id: "lessons-50", title: "Fifty lessons", goal: "Finish 50 lessons", motif: "lotus", tone: "brand", tier: "50", target: 50, unit: ["lesson", "lessons"], value: (s) => s.lessonsCompleted },
+  { id: "first-lesson", title: "First steps", goal: "Finish your first lesson", motif: "lotus", tone: "brand", target: 1, unit: ["lesson", "lessons"], value: (s) => s.lessonsPlayed },
+  { id: "lessons-10", title: "Ten lessons", goal: "Finish 10 lessons", motif: "lotus", tone: "brand", tier: "10", target: 10, unit: ["lesson", "lessons"], value: (s) => s.lessonsPlayed },
+  { id: "lessons-50", title: "Fifty lessons", goal: "Finish 50 lessons", motif: "lotus", tone: "brand", tier: "50", target: 50, unit: ["lesson", "lessons"], value: (s) => s.lessonsPlayed },
   { id: "streak-3", title: "Three in a row", goal: "Keep a 3-day streak", motif: "sun", tone: "sun", tier: "3", target: 3, unit: ["day", "days"], value: (s) => s.bestStreak },
   { id: "streak-7", title: "A full week", goal: "Keep a 7-day streak", motif: "sun", tone: "sun", tier: "7", target: 7, unit: ["day", "days"], value: (s) => s.bestStreak },
   { id: "streak-30", title: "A month of days", goal: "Keep a 30-day streak", motif: "sun", tone: "sun", tier: "30", target: 30, unit: ["day", "days"], value: (s) => s.bestStreak },

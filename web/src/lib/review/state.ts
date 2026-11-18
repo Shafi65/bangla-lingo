@@ -98,7 +98,7 @@ export function applyGrades(s: WordMemoryState, grades: { id: string; grade: Gra
  * Migration for learners who finished lessons before word memory existed (or
  * whose answers were never recorded): every vocab word of a completed lesson
  * without a record gets one, as if answered "good" once at completion time.
- * Low lesson accuracy shortens the first interval. Returns `s` unchanged if
+ * Placed lessons (skipped via the placement test) are not seeded. Low lesson accuracy shortens the first interval. Returns `s` unchanged if
  * nothing is missing.
  * Example: lesson done 3 days ago at 100 % -> record due ~1.5 days after
  * completion, i.e. already due now.
@@ -110,6 +110,7 @@ export function seedFromCompleted(
 ): WordMemoryState {
   let words: Record<string, WordRecord> | undefined;
   for (const [lessonId, rec] of Object.entries(completed)) {
+    if (rec.placed) continue; // placed, not played: words enter review when the learner meets them
     const vocab = lessonVocab[lessonId];
     if (!vocab) continue;
     const at = Date.parse(rec.completedAt);

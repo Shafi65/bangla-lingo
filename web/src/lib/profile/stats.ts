@@ -1,7 +1,7 @@
 // Profile statistics: pure functions over the stored progress and word memory.
 // No React, no DOM, and no clock reads: callers pass `today` (local date key)
 // and `now` (epoch ms), so the page can compute them only after mount.
-import { currentStreak, localDateKey, type LessonRecord, type ProgressState } from "../progress";
+import { currentStreak, earnedRecords, localDateKey, type LessonRecord, type ProgressState } from "../progress";
 import { strength, type Strength } from "../review/scheduler";
 import type { WordMemoryState } from "../review/state";
 import { numberUnits } from "../courseSections";
@@ -33,6 +33,7 @@ export function activeDaySet(p: ProgressState): Set<string> {
   const days = new Set<string>();
   for (const [k, v] of Object.entries(p.daily)) if (isDateKey(k) && v > 0) days.add(k);
   for (const rec of Object.values(p.completed)) {
+    if (rec.placed) continue; // placement is not activity
     const t = Date.parse(rec.completedAt);
     if (Number.isFinite(t)) days.add(localDateKey(new Date(t)));
   }
@@ -128,7 +129,7 @@ export function learnedWordIds(
   memory: WordMemoryState,
   completed: Record<string, LessonRecord>,
 ): string[] {
-  return words.filter((w) => memory.words[w.id] || completed[w.lesson]).map((w) => w.id);
+  return words.filter((w) => memory.words[w.id] || (completed[w.lesson] && !completed[w.lesson].placed)).map((w) => w.id);
 }
 
 export type StrengthCounts = Record<Strength, number>;
@@ -149,6 +150,7 @@ export function strengthCounts(ids: readonly string[], memory: WordMemoryState, 
  */
 export function hasReviewed(memory: WordMemoryState, completed: Record<string, LessonRecord>): boolean {
   const ends = Object.values(completed)
+    .filter((r) => !r.placed)
     .map((r) => Date.parse(r.completedAt))
     .filter(Number.isFinite);
   const LESSON_WINDOW = 60 * 60_000;
@@ -187,12 +189,17 @@ export interface ProfileStats {
   streak: number;
   bestStreak: number;
   wordsLearned: number;
+  /** All lessons marked done, including ones skipped via placement. */
   lessonsCompleted: number;
+  /** Lessons the learner actually played (placed ones excluded); achievements use this. */
+  lessonsPlayed: number;
   daysActive: number;
   /** Lessons completed with every exercise right first time. */
   perfectLessons: number;
   reviewed: boolean;
   units: UnitProgress[];
+  /** Same, counting only lessons the learner played (placed ones excluded). */
+  playedUnits: UnitProgress[];
   unitsFinished: number;
   /** All script-track units complete (false if the course has none). */
   scriptComplete: boolean;
@@ -209,10 +216,14 @@ export const PERFECT = 0.999;
 export function profileStats({ progress: p, memory, words, course, today, now }: ProfileInput): ProfileStats {
   const learned = learnedWordIds(words, memory, p.completed);
   const units = unitProgress(course, p.completed);
-  const script = units.filter((u) => u.track === "script");
+  // Effort-based figures (unit/script achievements) ignore placed lessons.
+  const played = earnedRecords(p.completed);
+  const playedUnits = unitProgress(course, played);
+  const script = playedUnits.filter((u) => u.track === "script");
   const scriptDone = script.reduce((n, u) => n + u.done, 0);
   const scriptTotal = script.reduce((n, u) => n + u.total, 0);
   const lessonsCompleted = Object.keys(p.completed).length;
+  const lessonsPlayed = Object.keys(played).length;
   const days = activeDaySet(p);
   return {
     xp: Math.max(0, Math.round(p.xp)),
@@ -220,11 +231,13 @@ export function profileStats({ progress: p, memory, words, course, today, now }:
     bestStreak: bestStreak(p, today),
     wordsLearned: learned.length,
     lessonsCompleted,
+    lessonsPlayed,
     daysActive: days.size,
     perfectLessons: Object.values(p.completed).filter((r) => r.bestAccuracy >= PERFECT).length,
     reviewed: hasReviewed(memory, p.completed),
     units,
-    unitsFinished: units.filter((u) => u.total > 0 && u.done === u.total).length,
+    playedUnits,
+    unitsFinished: playedUnits.filter((u) => u.total > 0 && u.done === u.total).length,
     scriptComplete: scriptTotal > 0 && scriptDone === scriptTotal,
     scriptDone,
     scriptTotal,

@@ -193,16 +193,18 @@ export function OnboardingFlow({
               {level === "some" && (
                 <div className="animate-rise mt-5 flex flex-col gap-3">
                   <p className="rounded-2xl bg-sun-light px-4 py-3 text-sm font-bold text-sun-dark" role="note">
-                    A placement test is coming soon.
-                    {PLACEMENT_TEST_HREF && (
+                    {PLACEMENT_TEST_HREF ? (
                       <>
-                        {" "}
+                        Not sure where you fit?{" "}
                         <Link href={PLACEMENT_TEST_HREF} className="underline">
-                          Take it now
-                        </Link>
+                          Take the placement test
+                        </Link>{" "}
+                        and we will suggest a starting point, or choose one yourself.{" "}
                       </>
-                    )}{" "}
-                    Until then, choose where to start. You can always change course from the map.
+                    ) : (
+                      <>Choose where to start. </>
+                    )}
+                    You can always change course from the map.
                   </p>
                   <p id={`${uid}-at`} className="font-extrabold">
                     Start at

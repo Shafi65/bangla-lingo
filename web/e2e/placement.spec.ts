@@ -70,6 +70,10 @@ test("all correct places the learner in the intermediate track and marks the ear
   expect(done).toContain("u11-l01");
   expect(done.some((id) => id.startsWith("i01"))).toBe(false);
   expect(stored.progress.xp).toBe(0);
+  expect(stored.progress.streak).toBe(0);
+  expect(stored.progress.lastActiveDate).toBeNull();
+  expect(stored.progress.daily ?? {}).toEqual({});
+  expect(stored.progress.completed["u01-l01"]).toMatchObject({ placed: true, bestAccuracy: 0, timesCompleted: 0 });
   expect(stored.placement).toMatchObject({ version: 1, accepted: true, route: "intermediate", startLessonId: "i01-l01" });
 
   // The map now recommends the placed lesson.
@@ -100,6 +104,6 @@ test("stopping early gives a partial result; the intro links to the test", async
   await page.getByRole("button", { name: "Get started" }).click();
   await page.getByRole("button", { name: "Continue" }).click();
   await page.getByText("I know some already").click();
-  await page.getByRole("link", { name: "Take it now" }).click();
+  await page.getByRole("link", { name: "Take the placement test" }).click();
   await expect(page).toHaveURL(/\/placement$/);
 });

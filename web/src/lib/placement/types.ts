@@ -91,8 +91,6 @@ export interface PlacementConfig {
     intermediate: { grammarAtLeast: Band; readingAtLeast: Band };
     fastLane: { listeningAtLeast: Band; readingBelow: Band };
   };
-  /** Accuracy recorded for lessons the placement marks as done. */
-  completedAccuracy: number;
   background: {
     questions: BackgroundQuestion[];
     scriptCheckWhen: BackgroundRule;
