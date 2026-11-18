@@ -1,0 +1,541 @@
+{
+  "id": "u12-l05",
+  "unit": "u12-have-to",
+  "title": "I couldn't, I'll be able to",
+  "status": "draft",
+  "tip": "**'Couldn't' = পারিনি.** As in **করিনি**, **-নি** makes the past negative: **আমি আসতে পারিনি** 'I couldn't come'. For সে it's **পারেনি**. You'll also hear **পারলাম না**; both are fine.\n\n**'Will be able to' = পারব, পারবে, পারবেন**, with the future endings you know: **আমি সাতটায় আসতে পারব** 'I can come at seven'.\n\n**পারব না** 'I won't be able to' is how to say no to a plan: **দুঃখিত, আমি আজ আসতে পারব না।** 'Sorry, I can't come today.'\n\nEnglish 'can' about a later time is usually **পারব / পারবে** in Bengali.",
+  "vocab": [
+    {
+      "id": "parini",
+      "bn": "পারিনি",
+      "tr": "parini",
+      "en": "I couldn't",
+      "notes": "পারি + -নি, like করিনি. Also heard: পারলাম না (accepted when you type)."
+    },
+    {
+      "id": "pareni",
+      "bn": "পারেনি",
+      "tr": "pareni",
+      "en": "he/she couldn't",
+      "notes": "পারে + -নি, like আসেনি."
+    },
+    {
+      "id": "parbo",
+      "bn": "পারব",
+      "tr": "parbo",
+      "en": "I will be able to",
+      "notes": "Future of পারা. পারব না \"I won't be able to\". Also spelled পারবো."
+    },
+    {
+      "id": "parbe",
+      "bn": "পারবে",
+      "tr": "parbe",
+      "en": "you (familiar) / he, she will be able to"
+    },
+    {
+      "id": "parben",
+      "bn": "পারবেন",
+      "tr": "parben",
+      "en": "you (polite) will be able to",
+      "notes": "আপনি কি … পারবেন? is a polite \"Could you…?\"."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আমি কাল আসতে পারিনি।",
+        "tr": "ami kal ashte parini.",
+        "en": "I couldn't come yesterday.",
+        "alt": [
+          "I wasn't able to come yesterday."
+        ]
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "I can't come tomorrow.",
+        "I couldn't come yesterday.",
+        "I didn't want to come yesterday.",
+        "I can come tomorrow."
+      ],
+      "answer": 1,
+      "why": "**-নি** puts পারা in the past: **পারিনি** \"couldn't\". With a past verb, কাল is \"yesterday\"."
+    },
+    {
+      "id": "e02",
+      "type": "listen_select",
+      "audio": {
+        "bn": "পারেনি",
+        "tr": "pareni",
+        "en": "he/she couldn't"
+      },
+      "options": [
+        "পারেনি",
+        "পারিনি",
+        "পারে",
+        "পারবে"
+      ],
+      "answer": 0,
+      "why": "**পারেনি** \"he/she couldn't\"; **পারিনি** is for আমি."
+    },
+    {
+      "id": "e03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "পারব",
+        "tr": "parbo",
+        "en": "I will be able to"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "I can",
+        "I couldn't",
+        "I will be able to",
+        "you will be able to"
+      ],
+      "answer": 2,
+      "why": "Future **-ব** for আমি: **পারব** \"I will be able to\"."
+    },
+    {
+      "id": "e04",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "দুঃখিত, আমি আজ আসতে পারব না।",
+        "tr": "dukkhito, ami aj ashte parbo na.",
+        "en": "Sorry, I can't come today.",
+        "alt": [
+          "Sorry, I won't be able to come today."
+        ]
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "Sorry, I couldn't come today.",
+        "Thank you, I will come today.",
+        "Sorry, I don't want to come today.",
+        "Sorry, I can't come today."
+      ],
+      "answer": 3,
+      "why": "**দুঃখিত** \"sorry\"; **পারব না** \"I won't be able to\", a polite no to a plan."
+    },
+    {
+      "id": "e05",
+      "type": "listen_select",
+      "audio": {
+        "bn": "পারবে",
+        "tr": "parbe",
+        "en": "you (familiar) / he, she will be able to"
+      },
+      "options": [
+        "পারব",
+        "পারবে",
+        "পারবেন",
+        "পারে"
+      ],
+      "answer": 1,
+      "why": "**পারবে**: তুমি / সে + future **-বে**."
+    },
+    {
+      "id": "e06",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আপনি কি শুক্রবার আসতে পারবেন?",
+        "tr": "apni ki shukrobar ashte parben?",
+        "en": "Can you come on Friday? (polite)",
+        "alt": [
+          "Will you be able to come on Friday?",
+          "Could you come on Friday?"
+        ]
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "Did you come on Friday?",
+        "Do you want to come on Friday?",
+        "Can you come on Friday?",
+        "Do you have to come on Friday?"
+      ],
+      "answer": 2,
+      "why": "**পারবেন** \"(you, polite) will be able to\": \"Can you come on Friday?\""
+    },
+    {
+      "id": "e07",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "পারিনি",
+          "tr": "parini",
+          "en": "I couldn't"
+        },
+        {
+          "bn": "পারেনি",
+          "tr": "pareni",
+          "en": "he/she couldn't"
+        },
+        {
+          "bn": "পারব",
+          "tr": "parbo",
+          "en": "I will be able to"
+        },
+        {
+          "bn": "পারবে",
+          "tr": "parbe",
+          "en": "you (familiar) / he, she will be able to"
+        },
+        {
+          "bn": "পারবেন",
+          "tr": "parben",
+          "en": "you (polite) will be able to"
+        }
+      ]
+    },
+    {
+      "id": "e08",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "আমি রাতে ঘুমাতে পারিনি।",
+        "tr": "ami rate ghumate parini.",
+        "en": "I couldn't sleep at night.",
+        "alt": [
+          "I couldn't sleep last night."
+        ]
+      },
+      "options": [
+        "I couldn't sleep at night.",
+        "I can't sleep at night.",
+        "I won't sleep tonight.",
+        "I have to sleep at night."
+      ],
+      "answer": 0,
+      "why": "**ঘুমাতে পারিনি** \"couldn't sleep\" (past)."
+    },
+    {
+      "id": "e09",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "সে কি আমাদের সাথে যেতে পারবে?",
+        "tr": "she ki amader shathe jete parbe?",
+        "en": "Can he go with us?",
+        "alt": [
+          "Will he be able to go with us?",
+          "Can she go with us?"
+        ]
+      },
+      "options": [
+        "Did he go with us?",
+        "Does he want to go with us?",
+        "Does he have to go with us?",
+        "Can he go with us?"
+      ],
+      "answer": 3,
+      "why": "**যেতে পারবে** \"will be able to go\"; English says \"can\" here."
+    },
+    {
+      "id": "e10",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "সে গতকাল অফিসে যেতে পারেনি।",
+        "tr": "she gotokal ofise jete pareni.",
+        "en": "She couldn't go to the office yesterday.",
+        "alt": [
+          "He couldn't go to the office yesterday."
+        ]
+      },
+      "blank": "পারেনি",
+      "options": [
+        "পারবে",
+        "পারে",
+        "পারেনি",
+        "পারিনি"
+      ],
+      "answer": 2,
+      "why": "\"Yesterday\" + সে → **পারেনি**; **পারিনি** is for আমি."
+    },
+    {
+      "id": "e11",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "তুমি কি কাল আসতে পারবে?",
+        "tr": "tumi ki kal ashte parbe?",
+        "en": "Can you come tomorrow? (familiar)",
+        "alt": [
+          "Will you be able to come tomorrow?"
+        ]
+      },
+      "blank": "পারবে",
+      "options": [
+        "পারবেন",
+        "পারবে",
+        "পারব",
+        "পারিনি"
+      ],
+      "answer": 1,
+      "why": "**তুমি** + future → **পারবে**; **পারবেন** is for আপনি."
+    },
+    {
+      "id": "e12",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আমি সাতটায় আসতে পারব।",
+        "tr": "ami shattay ashte parbo.",
+        "en": "I can come at seven.",
+        "alt": [
+          "I will be able to come at seven.",
+          "I'll be able to come at seven."
+        ]
+      },
+      "blank": "পারব",
+      "accepted": [
+        "পারব",
+        "পারবো",
+        "parbo",
+        "paarbo"
+      ],
+      "why": "\"I will be able to\" = **পারব** (also spelled পারবো)."
+    },
+    {
+      "id": "e13",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমি তাকে বলতে পারিনি।",
+        "tr": "ami take bolte parini.",
+        "en": "I couldn't tell him.",
+        "alt": [
+          "I couldn't tell her."
+        ]
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "পারেনি",
+        "বললাম",
+        "বলতে",
+        "আমাকে",
+        "পারিনি",
+        "তাকে",
+        "আমি"
+      ],
+      "answer": [
+        "আমি",
+        "তাকে",
+        "বলতে",
+        "পারিনি"
+      ],
+      "alt": [
+        [
+          "তাকে",
+          "বলতে",
+          "পারিনি"
+        ]
+      ],
+      "why": "আমি → **পারিনি** \"I couldn't\"."
+    },
+    {
+      "id": "e14",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আপনি কি শুক্রবার আসতে পারবেন?",
+        "tr": "apni ki shukrobar ashte parben?",
+        "en": "Can you come on Friday? (polite)",
+        "alt": [
+          "Will you be able to come on Friday?",
+          "Could you come on Friday?"
+        ]
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "আপনি কি শুক্রবার আসতে চান?",
+        "আপনি কি শুক্রবার আসতে পারবেন?",
+        "তুমি কি শুক্রবার আসতে পারবে?",
+        "আপনি কি শুক্রবার আসতে পারবে?"
+      ],
+      "answer": 1,
+      "why": "**আপনি** → **পারবেন**; **চান** would be \"want\"."
+    },
+    {
+      "id": "e15",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "দুঃখিত, আমি আজ আসতে পারব না।",
+        "tr": "dukkhito, ami aj ashte parbo na.",
+        "en": "Sorry, I can't come today.",
+        "alt": [
+          "Sorry, I won't be able to come today."
+        ]
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "দুঃখিত আমি আজ আসতে পারব না",
+        "দুঃখিত আমি আজ আসতে পারবো না",
+        "দুঃখিত আমি আজকে আসতে পারব না",
+        "দুঃখিত আমি আজকে আসতে পারবো না",
+        "দুঃখিত আজ আসতে পারব না",
+        "দুঃখিত আজ আসতে পারবো না",
+        "দুঃখিত আজকে আসতে পারব না",
+        "দুঃখিত আজকে আসতে পারবো না",
+        "সরি আমি আজ আসতে পারব না",
+        "সরি আমি আজ আসতে পারবো না",
+        "সরি আমি আজকে আসতে পারব না",
+        "সরি আমি আজকে আসতে পারবো না",
+        "সরি আজ আসতে পারব না",
+        "সরি আজ আসতে পারবো না",
+        "সরি আজকে আসতে পারব না",
+        "সরি আজকে আসতে পারবো না",
+        "dukkhito ami aj ashte parbo na",
+        "dukkhito ami aj ashte parbona",
+        "dukkhito ami aj aste parbo na",
+        "dukkhito ami aj aste parbona",
+        "dukkhito ami aaj ashte parbo na",
+        "dukkhito ami aaj ashte parbona",
+        "dukkhito ami aaj aste parbo na",
+        "dukkhito ami aaj aste parbona",
+        "dukkhito aj ashte parbo na",
+        "dukkhito aj ashte parbona",
+        "dukkhito aj aste parbo na",
+        "dukkhito aj aste parbona",
+        "dukkhito aaj ashte parbo na",
+        "dukkhito aaj ashte parbona",
+        "dukkhito aaj aste parbo na",
+        "dukkhito aaj aste parbona",
+        "duhkhito ami aj ashte parbo na",
+        "duhkhito ami aj ashte parbona",
+        "duhkhito ami aj aste parbo na",
+        "duhkhito ami aj aste parbona",
+        "duhkhito ami aaj ashte parbo na",
+        "duhkhito ami aaj ashte parbona",
+        "duhkhito ami aaj aste parbo na",
+        "duhkhito ami aaj aste parbona",
+        "duhkhito aj ashte parbo na",
+        "duhkhito aj ashte parbona",
+        "duhkhito aj aste parbo na",
+        "duhkhito aj aste parbona",
+        "duhkhito aaj ashte parbo na",
+        "duhkhito aaj ashte parbona",
+        "duhkhito aaj aste parbo na",
+        "duhkhito aaj aste parbona",
+        "sorry ami aj ashte parbo na",
+        "sorry ami aj ashte parbona",
+        "sorry ami aj aste parbo na",
+        "sorry ami aj aste parbona",
+        "sorry ami aaj ashte parbo na",
+        "sorry ami aaj ashte parbona",
+        "sorry ami aaj aste parbo na",
+        "sorry ami aaj aste parbona",
+        "sorry aj ashte parbo na",
+        "sorry aj ashte parbona",
+        "sorry aj aste parbo na",
+        "sorry aj aste parbona",
+        "sorry aaj ashte parbo na",
+        "sorry aaj ashte parbona",
+        "sorry aaj aste parbo na",
+        "sorry aaj aste parbona"
+      ],
+      "why": "**দুঃখিত** \"sorry\", then **আসতে পারব না** \"I won't be able to come\"."
+    },
+    {
+      "id": "r01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "চালাতে",
+        "tr": "chalate",
+        "en": "to drive"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "feels",
+        "will leave",
+        "to go",
+        "to drive"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "listen_select",
+      "audio": {
+        "bn": "বুঝতে",
+        "tr": "bujhte",
+        "en": "to understand"
+      },
+      "options": [
+        "দেখব",
+        "পারি",
+        "বুঝতে",
+        "খেলাম"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "পারিস",
+        "tr": "parish",
+        "en": "you (intimate) can"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "পারেনি",
+        "যাচ্ছি",
+        "পারিস",
+        "পারে"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "লিখতে",
+          "tr": "likhte",
+          "en": "to write"
+        },
+        {
+          "bn": "শুনতে",
+          "tr": "shunte",
+          "en": "to listen"
+        },
+        {
+          "bn": "থাকতে",
+          "tr": "thakte",
+          "en": "to stay"
+        },
+        {
+          "bn": "পারো",
+          "tr": "paro",
+          "en": "you (familiar) can"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "লেগেছে",
+          "tr": "legechhe",
+          "en": "has come on (felt)"
+        },
+        {
+          "bn": "পাঁচ",
+          "tr": "pa~ch",
+          "en": "five"
+        },
+        {
+          "bn": "বারোটা",
+          "tr": "barota",
+          "en": "twelve (o'clock)"
+        },
+        {
+          "bn": "কিনতে",
+          "tr": "kinte",
+          "en": "to buy"
+        }
+      ],
+      "recycle": true
+    }
+  ]
+}

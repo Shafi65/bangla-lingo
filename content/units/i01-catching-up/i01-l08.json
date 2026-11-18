@@ -505,55 +505,53 @@
     },
     {
       "id": "r01",
-      "type": "fill_blank",
-      "sentence": {
-        "bn": "তখন ফোন ছিল না, তাই আমরা চিঠি লিখতাম।",
-        "tr": "tokhon fon chhilo na, tai amra chithi likhtam.",
-        "en": "There were no phones then, so we used to write letters."
+      "type": "select_translation",
+      "prompt": {
+        "bn": "লিখতাম",
+        "tr": "likhtam",
+        "en": "I used to write"
       },
-      "blank": "লিখতাম",
+      "direction": "en_to_bn",
       "options": [
-        "আছে",
-        "গিয়েছে",
         "লিখতাম",
-        "আছিস"
+        "দে",
+        "আসব",
+        "নই"
       ],
-      "answer": 2,
+      "answer": 0,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "listen_meaning",
-      "audio": {
+      "type": "fill_blank",
+      "sentence": {
         "bn": "তখনকার স্কুল ছোট ছিল, এখনকার স্কুল অনেক বড়।",
         "tr": "tokhonkar skul chhoto chhilo, ekhonkar skul onek boro.",
         "en": "Schools back then were small; schools today are much bigger."
       },
-      "options": [
-        "Yesterday I got up at seven in the morning.",
-        "Schools back then were small; schools today are much bigger.",
-        "21 February is Martyrs' Day.",
-        "The price is too high."
+      "blank": "এখনকার",
+      "accepted": [
+        "এখনকার",
+        "ekhonkar"
       ],
-      "answer": 1,
       "recycle": true
     },
     {
       "id": "r03",
       "type": "select_translation",
       "prompt": {
-        "bn": "কিনবে",
-        "tr": "kinbe",
-        "en": "you (familiar) / he, she will buy"
+        "bn": "হতে",
+        "tr": "hote",
+        "en": "to become"
       },
-      "direction": "en_to_bn",
+      "direction": "bn_to_en",
       "options": [
-        "নই",
-        "শুনেছি",
-        "কিনবে",
-        "নেই"
+        "to see",
+        "I have got",
+        "was",
+        "to become"
       ],
-      "answer": 2,
+      "answer": 3,
       "recycle": true
     },
     {
@@ -566,19 +564,19 @@
           "en": "naughty"
         },
         {
-          "bn": "শুনবে",
-          "tr": "shunbe",
-          "en": "you (familiar) / he, she will listen"
+          "bn": "লিখতে",
+          "tr": "likhte",
+          "en": "to write"
         },
         {
-          "bn": "বলবেন",
-          "tr": "bolben",
-          "en": "you / he, she (polite) will say"
+          "bn": "বুঝতে",
+          "tr": "bujhte",
+          "en": "to understand"
         },
         {
-          "bn": "নেব",
-          "tr": "nebo",
-          "en": "I will take"
+          "bn": "পারো",
+          "tr": "paro",
+          "en": "you (familiar) can"
         }
       ],
       "recycle": true
@@ -588,24 +586,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "কবে",
-          "tr": "kobe",
-          "en": "when (on what day)"
+          "bn": "চায়",
+          "tr": "chay",
+          "en": "he/she wants"
         },
         {
-          "bn": "জানাব",
-          "tr": "janabo",
-          "en": "I will let (you) know"
+          "bn": "পারিনি",
+          "tr": "parini",
+          "en": "I couldn't"
         },
         {
-          "bn": "থাকবে",
-          "tr": "thakbe",
-          "en": "you (familiar) / he, she will stay"
+          "bn": "চাস",
+          "tr": "chash",
+          "en": "you (intimate) want"
         },
         {
-          "bn": "উঠবে",
-          "tr": "uthbe",
-          "en": "you (familiar) / he, she will get up"
+          "bn": "শিখতে",
+          "tr": "shikhte",
+          "en": "to learn"
         }
       ],
       "recycle": true

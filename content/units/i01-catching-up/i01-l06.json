@@ -519,55 +519,55 @@
     },
     {
       "id": "r01",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "করছিল",
-        "tr": "korchhilo",
-        "en": "he/she was doing"
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "সে অফিসে কাজ করছিল।",
+        "tr": "she ofise kaj korchhilo.",
+        "en": "He was working at the office."
       },
-      "direction": "bn_to_en",
+      "blank": "করছিল",
       "options": [
-        "to eat",
-        "I used to study",
-        "he/she was doing",
-        "you go (familiar)"
+        "করছিল",
+        "বলল",
+        "শিখি",
+        "জানি"
       ],
-      "answer": 2,
+      "answer": 0,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "listen_select",
+      "type": "listen_meaning",
       "audio": {
-        "bn": "যাচ্ছিলাম",
-        "tr": "jachchhilam",
-        "en": "I was going"
+        "bn": "আমি বাজারে যাচ্ছিলাম।",
+        "tr": "ami bajare jachchhilam.",
+        "en": "I was going to the market."
       },
       "options": [
-        "থাকো",
-        "খাবেন",
-        "যাচ্ছিলাম",
-        "দেখছে"
+        "I listened to music.",
+        "I was going to the market.",
+        "Nadia used to come to our home every Friday.",
+        "Can you understand what I say?"
       ],
-      "answer": 2,
+      "answer": 1,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "fill_blank",
-      "sentence": {
-        "bn": "আমি ঢাকায় বড় হয়েছি, আর আপনি?",
-        "tr": "ami dhakay boro hoyechhi, ar apni?",
-        "en": "I grew up in Dhaka. And you (polite)?"
+      "type": "select_translation",
+      "prompt": {
+        "bn": "বড় হয়েছি",
+        "tr": "boro hoyechhi",
+        "en": "I grew up"
       },
-      "blank": "বড় হয়েছি",
+      "direction": "en_to_bn",
       "options": [
-        "বড় হয়েছি",
-        "পহেলা বৈশাখ",
+        "সাঁতার কাটতাম",
         "ঠিক আছে",
-        "শহীদ মিনারে"
+        "বড় হয়েছি",
+        "ঠিক তখন"
       ],
-      "answer": 0,
+      "answer": 2,
       "recycle": true
     },
     {
@@ -580,14 +580,14 @@
           "en": "you used to do (intimate)"
         },
         {
-          "bn": "থাকতেন",
-          "tr": "thakten",
-          "en": "you / he, she (polite) used to live"
-        },
-        {
           "bn": "বলতেন",
           "tr": "bolten",
           "en": "you / he, she (polite) used to tell"
+        },
+        {
+          "bn": "থাকতেন",
+          "tr": "thakten",
+          "en": "you / he, she (polite) used to live"
         },
         {
           "bn": "থাকত",
@@ -602,16 +602,6 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "খেলা",
-          "tr": "khela",
-          "en": "game; playing"
-        },
-        {
-          "bn": "যেত",
-          "tr": "jeto",
-          "en": "he/she used to go"
-        },
-        {
           "bn": "পুকুর",
           "tr": "pukur",
           "en": "pond"
@@ -620,6 +610,16 @@
           "bn": "প্রতি",
           "tr": "proti",
           "en": "every"
+        },
+        {
+          "bn": "যেত",
+          "tr": "jeto",
+          "en": "he/she used to go"
+        },
+        {
+          "bn": "খেলা",
+          "tr": "khela",
+          "en": "game; playing"
         }
       ],
       "recycle": true

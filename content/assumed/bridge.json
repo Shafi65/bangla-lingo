@@ -25,27 +25,6 @@
       "pos": "verb"
     },
     {
-      "id": "parbo",
-      "bn": "পারব",
-      "tr": "parbo",
-      "en": "I will be able to",
-      "pos": "verb"
-    },
-    {
-      "id": "parbe",
-      "bn": "পারবে",
-      "tr": "parbe",
-      "en": "you (familiar) / he, she will be able to",
-      "pos": "verb"
-    },
-    {
-      "id": "parben",
-      "bn": "পারবেন",
-      "tr": "parben",
-      "en": "you (polite) will be able to",
-      "pos": "verb"
-    },
-    {
       "id": "pabo",
       "bn": "পাব",
       "tr": "pabo",
@@ -279,13 +258,6 @@
       "bn": "বলিনি",
       "tr": "bolini",
       "en": "I didn't say",
-      "pos": "verb"
-    },
-    {
-      "id": "parini",
-      "bn": "পারিনি",
-      "tr": "parini",
-      "en": "I couldn't",
       "pos": "verb"
     },
     {
@@ -601,134 +573,6 @@
       "pos": "verb"
     },
     {
-      "id": "paro",
-      "bn": "পারো",
-      "tr": "paro",
-      "en": "you (familiar) can",
-      "pos": "verb"
-    },
-    {
-      "id": "parish",
-      "bn": "পারিস",
-      "tr": "parish",
-      "en": "you (intimate) can",
-      "pos": "verb"
-    },
-    {
-      "id": "chash",
-      "bn": "চাস",
-      "tr": "chash",
-      "en": "you (intimate) want",
-      "pos": "verb"
-    },
-    {
-      "id": "chay",
-      "bn": "চায়",
-      "tr": "chay",
-      "en": "he/she wants",
-      "pos": "verb"
-    },
-    {
-      "id": "korte",
-      "bn": "করতে",
-      "tr": "korte",
-      "en": "to do",
-      "pos": "verb",
-      "notes": "Same spelling as তুমি করতে 'you used to do' (I1)."
-    },
-    {
-      "id": "jete",
-      "bn": "যেতে",
-      "tr": "jete",
-      "en": "to go",
-      "pos": "verb"
-    },
-    {
-      "id": "ashte",
-      "bn": "আসতে",
-      "tr": "ashte",
-      "en": "to come",
-      "pos": "verb"
-    },
-    {
-      "id": "dite",
-      "bn": "দিতে",
-      "tr": "dite",
-      "en": "to give",
-      "pos": "verb"
-    },
-    {
-      "id": "nite",
-      "bn": "নিতে",
-      "tr": "nite",
-      "en": "to take",
-      "pos": "verb"
-    },
-    {
-      "id": "hote",
-      "bn": "হতে",
-      "tr": "hote",
-      "en": "to be; to become",
-      "pos": "verb"
-    },
-    {
-      "id": "thakte",
-      "bn": "থাকতে",
-      "tr": "thakte",
-      "en": "to stay",
-      "pos": "verb"
-    },
-    {
-      "id": "shikhte",
-      "bn": "শিখতে",
-      "tr": "shikhte",
-      "en": "to learn",
-      "pos": "verb"
-    },
-    {
-      "id": "porte",
-      "bn": "পড়তে",
-      "tr": "porte",
-      "en": "to read; to study",
-      "pos": "verb"
-    },
-    {
-      "id": "kinte",
-      "bn": "কিনতে",
-      "tr": "kinte",
-      "en": "to buy",
-      "pos": "verb"
-    },
-    {
-      "id": "shunte",
-      "bn": "শুনতে",
-      "tr": "shunte",
-      "en": "to hear",
-      "pos": "verb"
-    },
-    {
-      "id": "bujhte",
-      "bn": "বুঝতে",
-      "tr": "bujhte",
-      "en": "to understand",
-      "pos": "verb"
-    },
-    {
-      "id": "uthte",
-      "bn": "উঠতে",
-      "tr": "uthte",
-      "en": "to get up",
-      "pos": "verb"
-    },
-    {
-      "id": "ghumate",
-      "bn": "ঘুমাতে",
-      "tr": "ghumate",
-      "en": "to sleep",
-      "pos": "verb",
-      "notes": "Kolkata ঘুমোতে."
-    },
-    {
       "id": "bolo",
       "bn": "বলো",
       "tr": "bolo",
@@ -822,20 +666,6 @@
       "bn": "তোকে",
       "tr": "toke",
       "en": "you (intimate, object)",
-      "pos": "pronoun"
-    },
-    {
-      "id": "oke",
-      "bn": "ওকে",
-      "tr": "oke",
-      "en": "him/her (spoken)",
-      "pos": "pronoun"
-    },
-    {
-      "id": "onake",
-      "bn": "ওনাকে",
-      "tr": "onake",
-      "en": "him/her (polite)",
       "pos": "pronoun"
     },
     {
@@ -962,13 +792,6 @@
       "pos": "particle"
     },
     {
-      "id": "abar",
-      "bn": "আবার",
-      "tr": "abar",
-      "en": "again",
-      "pos": "adv"
-    },
-    {
       "id": "ekhoni",
       "bn": "এখনই",
       "tr": "ekhoni",
@@ -1019,20 +842,6 @@
       "alt": [
         "late"
       ]
-    },
-    {
-      "id": "taratari",
-      "bn": "তাড়াতাড়ি",
-      "tr": "taratari",
-      "en": "quickly; early",
-      "pos": "adv"
-    },
-    {
-      "id": "aste",
-      "bn": "আস্তে",
-      "tr": "aste",
-      "en": "slowly; softly",
-      "pos": "adv"
     },
     {
       "id": "kichhukkhon",
@@ -1255,13 +1064,6 @@
       "bn": "ভয়",
       "tr": "bhoy",
       "en": "fear",
-      "pos": "noun"
-    },
-    {
-      "id": "chinta",
-      "bn": "চিন্তা",
-      "tr": "chinta",
-      "en": "worry; thought",
       "pos": "noun"
     },
     {

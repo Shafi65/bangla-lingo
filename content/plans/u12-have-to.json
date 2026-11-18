@@ -1,0 +1,859 @@
+{
+  "unit": "u12-have-to",
+  "lessons": [
+    {
+      "id": "u12-l01",
+      "kind": "lesson",
+      "title": "To do, to go",
+      "goal": "Build the -তে form (\"to do\", \"to go\") and use it with চাই, পারি and motion verbs.",
+      "grammar": [
+        "the -তে form: the আমি present minus -ই, plus -তে (করি → করতে); খেতে, যেতে are irregular",
+        "-তে before চাই / পারি, and after a motion verb for \"in order to\""
+      ],
+      "new": [
+        "korte",
+        "jete",
+        "ashte",
+        "porte",
+        "kinte",
+        "thakte",
+        "shunte"
+      ],
+      "review": [
+        "chai",
+        "chao",
+        "chan",
+        "pari",
+        "pare",
+        "khete",
+        "bolte",
+        "dekhte",
+        "kori",
+        "pori",
+        "shuni",
+        "thaki",
+        "jabo"
+      ],
+      "tip": "**The -তে form is the 'to …' of Bengali.** Take the আমি present, drop **-ই** and add **-তে**:\n\n- করি → **করতে** 'to do'\n- পড়ি → **পড়তে** 'to read'\n- শুনি → **শুনতে**, থাকি → **থাকতে**\n\nTwo break the rule, as in the future: খাই → **খেতে**, যাই → **যেতে**.\n\nThe -তে form never changes for the person. It comes **before** the verb that carries the ending: **আমি বই পড়তে চাই** 'I want to read a book', **সে রান্না করতে পারে** 'she can cook'.\n\nAfter a verb of going it means 'to, in order to': **মাছ কিনতে বাজারে যাব** 'I'll go to the market to buy fish'.",
+      "sentences": [
+        {
+          "bn": "আমি মাছ কিনতে বাজারে যাব।",
+          "tr": "ami machh kinte bajare jabo.",
+          "en": "I will go to the market to buy fish.",
+          "alt": [
+            "I'll go to the market to buy fish."
+          ]
+        },
+        {
+          "bn": "আমি বই পড়তে চাই।",
+          "tr": "ami boi porte chai.",
+          "en": "I want to read a book.",
+          "alt": [
+            "I want to read books."
+          ]
+        },
+        {
+          "bn": "তুমি কি গান শুনতে চাও?",
+          "tr": "tumi ki gan shunte chao?",
+          "en": "Do you want to listen to songs?",
+          "alt": [
+            "Do you want to listen to music?"
+          ]
+        },
+        {
+          "bn": "আমি ঢাকায় থাকতে চাই।",
+          "tr": "ami dhakay thakte chai.",
+          "en": "I want to live in Dhaka.",
+          "alt": [
+            "I want to stay in Dhaka."
+          ]
+        },
+        {
+          "bn": "আমি একটু বাংলা পড়তে পারি।",
+          "tr": "ami ektu bangla porte pari.",
+          "en": "I can read a little Bengali."
+        },
+        {
+          "bn": "সে খুব ভালো রান্না করতে পারে।",
+          "tr": "she khub bhalo ranna korte pare.",
+          "en": "She can cook very well.",
+          "alt": [
+            "He can cook very well."
+          ]
+        },
+        {
+          "bn": "তুমি কী করতে চাও?",
+          "tr": "tumi ki korte chao?",
+          "en": "What do you want to do?"
+        },
+        {
+          "bn": "আমি তোমার বাসায় যেতে চাই।",
+          "tr": "ami tomar bashay jete chai.",
+          "en": "I want to go to your home.",
+          "alt": [
+            "I want to go to your house."
+          ]
+        },
+        {
+          "bn": "আপনি কি আসতে চান?",
+          "tr": "apni ki ashte chan?",
+          "en": "Do you want to come? (polite)",
+          "alt": [
+            "Would you like to come?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u12-l02",
+      "kind": "lesson",
+      "title": "I have to",
+      "goal": "Say what someone has to do: -কে + -তে + হবে.",
+      "grammar": [
+        "obligation: X-কে + -তে form + হবে (আমাকে যেতে হবে)",
+        "the person goes in the -কে form (আমাকে, তোমাকে, আপনাকে, তাকে, ওকে, ওনাকে; আমরা → আমাদের); হবে never changes"
+      ],
+      "new": [
+        "hobe-must",
+        "uthte",
+        "ghumate",
+        "taratari",
+        "oke",
+        "onake"
+      ],
+      "review": [
+        "amake",
+        "tomake",
+        "apnake",
+        "take",
+        "amader",
+        "jete",
+        "ashte",
+        "korte",
+        "thakte",
+        "porte",
+        "hobe"
+      ],
+      "tip": "**'Have to' = -তে form + হবে.** The person who has to do it goes in the **-কে** form, not আমি:\n\n- **আমাকে যেতে হবে।** 'I have to go.'\n- **তোমাকে, আপনাকে, তাকে, ওকে, ওনাকে** + -তে + **হবে**\n\nFor আমরা use **আমাদের**: **আমাদের এখন ঘুমাতে হবে** 'We have to sleep now'.\n\n**হবে never changes**, whoever has to do it: **আপনাকে আসতে হবে**.\n\n*আমি যেতে হবে* is the most common learner mistake. Think of it as 'to me, going will be (needed)'.",
+      "sentences": [
+        {
+          "bn": "আমাকে যেতে হবে।",
+          "tr": "amake jete hobe.",
+          "en": "I have to go.",
+          "alt": [
+            "I must go."
+          ]
+        },
+        {
+          "bn": "আমাকে কাল তাড়াতাড়ি উঠতে হবে।",
+          "tr": "amake kal taratari uthte hobe.",
+          "en": "I have to get up early tomorrow.",
+          "alt": [
+            "I must get up early tomorrow."
+          ]
+        },
+        {
+          "bn": "তোমাকে আজ কাজ করতে হবে।",
+          "tr": "tomake aj kaj korte hobe.",
+          "en": "You have to work today.",
+          "alt": [
+            "Today you have to work."
+          ]
+        },
+        {
+          "bn": "আপনাকে এখানে থাকতে হবে।",
+          "tr": "apnake ekhane thakte hobe.",
+          "en": "You have to stay here. (polite)",
+          "alt": [
+            "You have to stay here."
+          ]
+        },
+        {
+          "bn": "ওকে স্কুলে যেতে হবে।",
+          "tr": "oke skule jete hobe.",
+          "en": "He has to go to school.",
+          "alt": [
+            "She has to go to school."
+          ]
+        },
+        {
+          "bn": "ওনাকে কাল ঢাকায় যেতে হবে।",
+          "tr": "onake kal dhakay jete hobe.",
+          "en": "She has to go to Dhaka tomorrow. (polite)",
+          "alt": [
+            "He has to go to Dhaka tomorrow."
+          ]
+        },
+        {
+          "bn": "আমাদের এখন ঘুমাতে হবে।",
+          "tr": "amader ekhon ghumate hobe.",
+          "en": "We have to sleep now.",
+          "alt": [
+            "We have to go to sleep now."
+          ]
+        },
+        {
+          "bn": "তাকে সাতটায় আসতে হবে।",
+          "tr": "take shattay ashte hobe.",
+          "en": "He has to come at seven.",
+          "alt": [
+            "She has to come at seven."
+          ]
+        },
+        {
+          "bn": "আমাকে রাতে বই পড়তে হবে।",
+          "tr": "amake rate boi porte hobe.",
+          "en": "I have to read a book at night.",
+          "alt": [
+            "I have to read at night."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u12-l03",
+      "kind": "lesson",
+      "title": "You don't have to",
+      "goal": "Say that something isn't necessary, and ask what has to be done.",
+      "grammar": [
+        "-তে হবে না = 'don't have to' (no need), not 'mustn't'",
+        "questions: কী / কখন / কোথায় + -তে হবে?"
+      ],
+      "new": [
+        "dite",
+        "nite",
+        "chinta"
+      ],
+      "review": [
+        "hobe-must",
+        "tomake",
+        "apnake",
+        "amake",
+        "oke",
+        "amader",
+        "ki-what",
+        "kokhon",
+        "kothay",
+        "taka",
+        "byag",
+        "ashte",
+        "jete",
+        "korte"
+      ],
+      "tip": "**Add না for 'don't have to'.** **তোমাকে আসতে হবে না** means 'you don't have to come': there's no need. It does **not** mean 'you mustn't come'.\n\nA friendly one to know: **চিন্তা করতে হবে না** 'no need to worry'.\n\n**Ask with a question word** before the -তে form: **আমাকে কী করতে হবে?** 'What do I have to do?', **কখন যেতে হবে?** 'When do (we) have to go?' The person can be left out when it's clear.\n\n**দিতে** 'to give' also means 'to pay': **এখানে টাকা দিতে হবে না** 'You don't have to pay here'.",
+      "sentences": [
+        {
+          "bn": "তোমাকে আসতে হবে না।",
+          "tr": "tomake ashte hobe na.",
+          "en": "You don't have to come.",
+          "alt": [
+            "You needn't come."
+          ]
+        },
+        {
+          "bn": "এখানে টাকা দিতে হবে না।",
+          "tr": "ekhane taka dite hobe na.",
+          "en": "You don't have to pay here.",
+          "alt": [
+            "There's no need to pay here.",
+            "You don't have to give money here."
+          ]
+        },
+        {
+          "bn": "চিন্তা করতে হবে না।",
+          "tr": "chinta korte hobe na.",
+          "en": "Don't worry.",
+          "alt": [
+            "No need to worry.",
+            "There's no need to worry."
+          ]
+        },
+        {
+          "bn": "আজ আমাকে অফিসে যেতে হবে না।",
+          "tr": "aj amake ofise jete hobe na.",
+          "en": "I don't have to go to the office today.",
+          "alt": [
+            "Today I don't have to go to the office."
+          ]
+        },
+        {
+          "bn": "আমাকে কী করতে হবে?",
+          "tr": "amake ki korte hobe?",
+          "en": "What do I have to do?",
+          "alt": [
+            "What should I do?"
+          ]
+        },
+        {
+          "bn": "আমাদের কখন যেতে হবে?",
+          "tr": "amader kokhon jete hobe?",
+          "en": "When do we have to go?",
+          "alt": [
+            "When do we have to leave?"
+          ]
+        },
+        {
+          "bn": "আমাকে কোথায় যেতে হবে?",
+          "tr": "amake kothay jete hobe?",
+          "en": "Where do I have to go?"
+        },
+        {
+          "bn": "তোমাকে একটা ব্যাগ নিতে হবে।",
+          "tr": "tomake ekta byag nite hobe.",
+          "en": "You have to take a bag.",
+          "alt": [
+            "You need to take a bag."
+          ]
+        },
+        {
+          "bn": "ওকে কাল স্কুলে যেতে হবে না।",
+          "tr": "oke kal skule jete hobe na.",
+          "en": "He doesn't have to go to school tomorrow.",
+          "alt": [
+            "She doesn't have to go to school tomorrow."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u12-l04",
+      "kind": "lesson",
+      "title": "I can",
+      "goal": "Say what you and others can and can't do with পারা.",
+      "grammar": [
+        "পারা takes the normal present endings: পারি · পারিস · পারো · পারে · পারেন, with আমি / তুমি / সে (not the -কে form)",
+        "'can't' = -তে form + পারি না"
+      ],
+      "new": [
+        "paro",
+        "parish",
+        "likhte",
+        "chalate",
+        "bujhte"
+      ],
+      "review": [
+        "pari",
+        "pare",
+        "paren",
+        "bolte",
+        "porte",
+        "korte",
+        "ranna",
+        "gari",
+        "bangla",
+        "ingreji",
+        "kintu",
+        "amar",
+        "baba"
+      ],
+      "tip": "**পারা 'can' takes the ordinary present endings:**\n\n- আমি **পারি** · তুই **পারিস** · তুমি **পারো** · সে **পারে** · আপনি **পারেন**\n\nThe person stays **আমি, তুমি, সে** here, not the -কে form: **আমি গাড়ি চালাতে পারি** 'I can drive', but **আমাকে গাড়ি চালাতে হবে** 'I have to drive'.\n\n'Can't' = **পারি না**, with না at the very end: **আমি লিখতে পারি না** 'I can't write'.\n\n**বুঝতে পারি** 'I can understand' is the usual way to say you understand a language: **আমি বাংলা বুঝতে পারি**.",
+      "sentences": [
+        {
+          "bn": "আমি বাংলা পড়তে পারি, কিন্তু লিখতে পারি না।",
+          "tr": "ami bangla porte pari, kintu likhte pari na.",
+          "en": "I can read Bengali, but I can't write it.",
+          "alt": [
+            "I can read Bengali but I can't write."
+          ]
+        },
+        {
+          "bn": "তুমি কি গাড়ি চালাতে পারো?",
+          "tr": "tumi ki gari chalate paro?",
+          "en": "Can you drive? (familiar)",
+          "alt": [
+            "Can you drive a car?"
+          ]
+        },
+        {
+          "bn": "তুই কি রান্না করতে পারিস?",
+          "tr": "tui ki ranna korte parish?",
+          "en": "Can you cook? (intimate)"
+        },
+        {
+          "bn": "আমি বাংলা বুঝতে পারি।",
+          "tr": "ami bangla bujhte pari.",
+          "en": "I can understand Bengali.",
+          "alt": [
+            "I understand Bengali."
+          ]
+        },
+        {
+          "bn": "সে ইংরেজি লিখতে পারে।",
+          "tr": "she ingreji likhte pare.",
+          "en": "She can write English.",
+          "alt": [
+            "He can write English."
+          ]
+        },
+        {
+          "bn": "আপনি কি বাংলা লিখতে পারেন?",
+          "tr": "apni ki bangla likhte paren?",
+          "en": "Can you write Bengali? (polite)"
+        },
+        {
+          "bn": "আমি গাড়ি চালাতে পারি না।",
+          "tr": "ami gari chalate pari na.",
+          "en": "I can't drive.",
+          "alt": [
+            "I can't drive a car.",
+            "I cannot drive."
+          ]
+        },
+        {
+          "bn": "আমার বাবা খুব ভালো রান্না করতে পারেন।",
+          "tr": "amar baba khub bhalo ranna korte paren.",
+          "en": "My father can cook very well.",
+          "alt": [
+            "My dad can cook very well."
+          ]
+        },
+        {
+          "bn": "তুমি কি আমার কথা বুঝতে পারো?",
+          "tr": "tumi ki amar kotha bujhte paro?",
+          "en": "Can you understand what I say?",
+          "alt": [
+            "Can you understand me?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u12-l05",
+      "kind": "lesson",
+      "title": "I couldn't, I'll be able to",
+      "goal": "Say what you couldn't do, what you'll be able to do, and say no to a plan politely.",
+      "grammar": [
+        "past: পারিনি 'I couldn't', পারেনি 'he/she couldn't' (-নি, as in করিনি)",
+        "future: পারব · পারবে · পারবেন; পারব না 'won't be able to'"
+      ],
+      "new": [
+        "parini",
+        "pareni",
+        "parbo",
+        "parbe",
+        "parben"
+      ],
+      "review": [
+        "dukkhito",
+        "pari",
+        "korini",
+        "asheni",
+        "gotokal",
+        "kal",
+        "ashbe",
+        "ashben",
+        "shukrobar",
+        "shattay",
+        "shathe",
+        "take",
+        "ghumate",
+        "bolte"
+      ],
+      "tip": "**'Couldn't' = পারিনি.** As in **করিনি**, **-নি** makes the past negative: **আমি আসতে পারিনি** 'I couldn't come'. For সে it's **পারেনি**. You'll also hear **পারলাম না**; both are fine.\n\n**'Will be able to' = পারব, পারবে, পারবেন**, with the future endings you know: **আমি সাতটায় আসতে পারব** 'I can come at seven'.\n\n**পারব না** 'I won't be able to' is how to say no to a plan: **দুঃখিত, আমি আজ আসতে পারব না।** 'Sorry, I can't come today.'\n\nEnglish 'can' about a later time is usually **পারব / পারবে** in Bengali.",
+      "sentences": [
+        {
+          "bn": "আমি কাল আসতে পারিনি।",
+          "tr": "ami kal ashte parini.",
+          "en": "I couldn't come yesterday.",
+          "alt": [
+            "I wasn't able to come yesterday."
+          ]
+        },
+        {
+          "bn": "দুঃখিত, আমি আজ আসতে পারব না।",
+          "tr": "dukkhito, ami aj ashte parbo na.",
+          "en": "Sorry, I can't come today.",
+          "alt": [
+            "Sorry, I won't be able to come today."
+          ]
+        },
+        {
+          "bn": "তুমি কি কাল আসতে পারবে?",
+          "tr": "tumi ki kal ashte parbe?",
+          "en": "Can you come tomorrow? (familiar)",
+          "alt": [
+            "Will you be able to come tomorrow?"
+          ]
+        },
+        {
+          "bn": "আপনি কি শুক্রবার আসতে পারবেন?",
+          "tr": "apni ki shukrobar ashte parben?",
+          "en": "Can you come on Friday? (polite)",
+          "alt": [
+            "Will you be able to come on Friday?",
+            "Could you come on Friday?"
+          ]
+        },
+        {
+          "bn": "সে গতকাল অফিসে যেতে পারেনি।",
+          "tr": "she gotokal ofise jete pareni.",
+          "en": "She couldn't go to the office yesterday.",
+          "alt": [
+            "He couldn't go to the office yesterday."
+          ]
+        },
+        {
+          "bn": "আমি রাতে ঘুমাতে পারিনি।",
+          "tr": "ami rate ghumate parini.",
+          "en": "I couldn't sleep at night.",
+          "alt": [
+            "I couldn't sleep last night."
+          ]
+        },
+        {
+          "bn": "আমি সাতটায় আসতে পারব।",
+          "tr": "ami shattay ashte parbo.",
+          "en": "I can come at seven.",
+          "alt": [
+            "I will be able to come at seven.",
+            "I'll be able to come at seven."
+          ]
+        },
+        {
+          "bn": "সে কি আমাদের সাথে যেতে পারবে?",
+          "tr": "she ki amader shathe jete parbe?",
+          "en": "Can he go with us?",
+          "alt": [
+            "Will he be able to go with us?",
+            "Can she go with us?"
+          ]
+        },
+        {
+          "bn": "আমি তাকে বলতে পারিনি।",
+          "tr": "ami take bolte parini.",
+          "en": "I couldn't tell him.",
+          "alt": [
+            "I couldn't tell her."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u12-l06",
+      "kind": "lesson",
+      "title": "I want to",
+      "goal": "Say what you and others want (and don't want) to do.",
+      "grammar": [
+        "চাওয়া: চাই · চাস · চাও · চায় · চান, with আমি / তুমি / সে (not the -কে form)",
+        "noun + চাই 'want something' vs -তে form + চাই 'want to do'; চাই না"
+      ],
+      "new": [
+        "chay",
+        "chash",
+        "shikhte",
+        "hote"
+      ],
+      "review": [
+        "chai",
+        "chao",
+        "chan",
+        "khete",
+        "jete",
+        "thakte",
+        "korte",
+        "daktar",
+        "shikkhok",
+        "bangla",
+        "grame",
+        "kichhu",
+        "uni"
+      ],
+      "tip": "**চাওয়া 'want' + -তে form = 'want to'.** You know চাই, চাও, চান. Two more forms complete the set:\n\n- আমি **চাই** · তুই **চাস** · তুমি **চাও** · সে **চায়** · আপনি **চান**\n\nWith a noun it's 'want something': **আমি চা চাই** 'I want tea'. With a -তে form it's 'want to do': **আমি চা খেতে চাই** 'I want to have tea'.\n\nAs with পারা, the person stays **আমি / সে**, never the -কে form. 'Don't want to' = **চাই না**: **আমি যেতে চাই না**.\n\n**হতে** 'to become': **সে ডাক্তার হতে চায়** 'She wants to become a doctor'.",
+      "sentences": [
+        {
+          "bn": "আমি বাংলা শিখতে চাই।",
+          "tr": "ami bangla shikhte chai.",
+          "en": "I want to learn Bengali."
+        },
+        {
+          "bn": "সে ডাক্তার হতে চায়।",
+          "tr": "she daktar hote chay.",
+          "en": "She wants to become a doctor.",
+          "alt": [
+            "He wants to become a doctor.",
+            "She wants to be a doctor."
+          ]
+        },
+        {
+          "bn": "তুই কী খেতে চাস?",
+          "tr": "tui ki khete chash?",
+          "en": "What do you want to eat? (intimate)"
+        },
+        {
+          "bn": "তুমি কি আমার সাথে আসতে চাও?",
+          "tr": "tumi ki amar shathe ashte chao?",
+          "en": "Do you want to come with me? (familiar)",
+          "alt": [
+            "Would you like to come with me?"
+          ]
+        },
+        {
+          "bn": "উনি এখানে থাকতে চান।",
+          "tr": "uni ekhane thakte chan.",
+          "en": "He wants to stay here. (polite)",
+          "alt": [
+            "She wants to stay here.",
+            "He wants to live here."
+          ]
+        },
+        {
+          "bn": "আমি আজ রান্না করতে চাই না।",
+          "tr": "ami aj ranna korte chai na.",
+          "en": "I don't want to cook today.",
+          "alt": [
+            "Today I don't want to cook."
+          ]
+        },
+        {
+          "bn": "রাফি শিক্ষক হতে চায়।",
+          "tr": "rafi shikkhok hote chay.",
+          "en": "Rafi wants to become a teacher.",
+          "alt": [
+            "Rafi wants to be a teacher."
+          ]
+        },
+        {
+          "bn": "আমরা গ্রামে যেতে চাই।",
+          "tr": "amra grame jete chai.",
+          "en": "We want to go to the village."
+        },
+        {
+          "bn": "সে কিছু খেতে চায় না।",
+          "tr": "she kichhu khete chay na.",
+          "en": "He doesn't want to eat anything.",
+          "alt": [
+            "She doesn't want to eat anything."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u12-l07",
+      "kind": "lesson",
+      "title": "May I? Could you?",
+      "goal": "Ask permission and make polite requests with পারা.",
+      "grammar": [
+        "permission: আমি কি … -তে পারি? 'May I…?'",
+        "request: আপনি কি … -তে পারবেন? 'Could you…?' (তুমি কি … পারবে?)"
+      ],
+      "new": [
+        "boshte",
+        "aste",
+        "abar"
+      ],
+      "review": [
+        "ki-q",
+        "pari",
+        "parben",
+        "parbe",
+        "ashte",
+        "bolte",
+        "nite",
+        "bhitore",
+        "ekhane",
+        "shahajjo",
+        "oboshshoi",
+        "ji",
+        "dukkhito",
+        "kotha-talk"
+      ],
+      "tip": "**'May I…?' = আমি কি … -তে পারি?** **আমি কি ভিতরে আসতে পারি?** 'May I come in?' **আমি কি এখানে বসতে পারি?** 'May I sit here?'\n\n**'Could you…?' = আপনি কি … -তে পারবেন?** The future পারবেন sounds softer than পারেন: **আপনি কি একটু আস্তে বলতে পারবেন?** 'Could you speak a little more slowly?' To a friend: **তুমি কি … পারবে?**\n\nAnswer **জি, অবশ্যই** 'Yes, of course' or **দুঃখিত, পারব না** 'Sorry, I can't'.\n\nListen closely: **আস্তে** (*aste*) 'slowly' vs **আসতে** (*ashte*) 'to come'.",
+      "sentences": [
+        {
+          "bn": "আমি কি ভিতরে আসতে পারি?",
+          "tr": "ami ki bhitore ashte pari?",
+          "en": "May I come in?",
+          "alt": [
+            "Can I come in?"
+          ]
+        },
+        {
+          "bn": "আমি কি এখানে বসতে পারি?",
+          "tr": "ami ki ekhane boshte pari?",
+          "en": "May I sit here?",
+          "alt": [
+            "Can I sit here?"
+          ]
+        },
+        {
+          "bn": "আপনি কি একটু আস্তে বলতে পারবেন?",
+          "tr": "apni ki ektu aste bolte parben?",
+          "en": "Could you speak a little more slowly?",
+          "alt": [
+            "Could you speak a bit more slowly?",
+            "Can you speak slowly?"
+          ]
+        },
+        {
+          "bn": "আপনি কি আবার বলতে পারবেন?",
+          "tr": "apni ki abar bolte parben?",
+          "en": "Could you say that again?",
+          "alt": [
+            "Could you say it again?",
+            "Can you repeat that?"
+          ]
+        },
+        {
+          "bn": "আপনি কি আমাকে একটু সাহায্য করতে পারবেন?",
+          "tr": "apni ki amake ektu shahajjo korte parben?",
+          "en": "Could you help me a little?",
+          "alt": [
+            "Could you help me?",
+            "Can you help me a bit?"
+          ]
+        },
+        {
+          "bn": "জি, অবশ্যই।",
+          "tr": "ji, oboshshoi.",
+          "en": "Yes, of course.",
+          "alt": [
+            "Yes, certainly."
+          ]
+        },
+        {
+          "bn": "আমি কি এটা নিতে পারি?",
+          "tr": "ami ki eta nite pari?",
+          "en": "May I take this?",
+          "alt": [
+            "Can I take this?"
+          ]
+        },
+        {
+          "bn": "তুমি কি আমাকে একটু সাহায্য করতে পারবে?",
+          "tr": "tumi ki amake ektu shahajjo korte parbe?",
+          "en": "Could you help me a little? (familiar)",
+          "alt": [
+            "Can you help me?"
+          ]
+        },
+        {
+          "bn": "আমি কি আপনার সাথে একটু কথা বলতে পারি?",
+          "tr": "ami ki apnar shathe ektu kotha bolte pari?",
+          "en": "May I talk to you for a moment?",
+          "alt": [
+            "Could I have a word with you?",
+            "Can I talk to you for a minute?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u12-l08",
+      "kind": "review",
+      "title": "Review: Have to, can, want to",
+      "goal": "Bring the three frames together: have to, can / could / will be able to, want to, and polite asking.",
+      "grammar": [
+        "-কে + -তে + হবে vs আমি + -তে + পারি / চাই",
+        "পারি · পারব · পারিনি: can, will be able to, couldn't"
+      ],
+      "new": [],
+      "review": [
+        "korte",
+        "jete",
+        "ashte",
+        "porte",
+        "kinte",
+        "thakte",
+        "shunte",
+        "hobe-must",
+        "uthte",
+        "ghumate",
+        "taratari",
+        "oke",
+        "onake",
+        "dite",
+        "nite",
+        "chinta",
+        "paro",
+        "parish",
+        "likhte",
+        "chalate",
+        "bujhte",
+        "parini",
+        "pareni",
+        "parbo",
+        "parbe",
+        "parben",
+        "chay",
+        "chash",
+        "shikhte",
+        "hote",
+        "boshte",
+        "aste",
+        "abar"
+      ],
+      "tip": "**Three frames, one -তে form.**\n\n- **-কে + -তে + হবে** 'have to': **আমাকে যেতে হবে**; add না for 'don't have to'\n- **আমি + -তে + পারি / পারব / পারিনি** 'can / will be able to / couldn't'\n- **আমি + -তে + চাই** 'want to'\n\nOnly হবে takes the -কে form (আমাকে, তোমাকে, ওকে). পারা and চাওয়া keep আমি, তুমি, সে and change their own ending.\n\nAsk politely with **আমি কি … পারি?** 'May I…?' and **আপনি কি … পারবেন?** 'Could you…?'",
+      "sentences": [
+        {
+          "bn": "আমাকে কাল সকালে উঠতে হবে।",
+          "tr": "amake kal shokale uthte hobe.",
+          "en": "I have to get up tomorrow morning.",
+          "alt": [
+            "Tomorrow I have to get up in the morning."
+          ]
+        },
+        {
+          "bn": "তোমাকে কাল আসতে হবে না।",
+          "tr": "tomake kal ashte hobe na.",
+          "en": "You don't have to come tomorrow."
+        },
+        {
+          "bn": "আমি বাংলা বুঝতে পারি, কিন্তু বলতে পারি না।",
+          "tr": "ami bangla bujhte pari, kintu bolte pari na.",
+          "en": "I can understand Bengali, but I can't speak it.",
+          "alt": [
+            "I understand Bengali but I can't speak it."
+          ]
+        },
+        {
+          "bn": "দুঃখিত, আমি শুক্রবার যেতে পারব না।",
+          "tr": "dukkhito, ami shukrobar jete parbo na.",
+          "en": "Sorry, I can't go on Friday.",
+          "alt": [
+            "Sorry, I won't be able to go on Friday."
+          ]
+        },
+        {
+          "bn": "সে কাল আসতে পারেনি।",
+          "tr": "she kal ashte pareni.",
+          "en": "He couldn't come yesterday.",
+          "alt": [
+            "She couldn't come yesterday."
+          ]
+        },
+        {
+          "bn": "আমি ডাক্তার হতে চাই।",
+          "tr": "ami daktar hote chai.",
+          "en": "I want to become a doctor.",
+          "alt": [
+            "I want to be a doctor."
+          ]
+        },
+        {
+          "bn": "ওনাকে এখানে বসতে হবে।",
+          "tr": "onake ekhane boshte hobe.",
+          "en": "She has to sit here. (polite)",
+          "alt": [
+            "He has to sit here."
+          ]
+        },
+        {
+          "bn": "আমি কি একটু গান শুনতে পারি?",
+          "tr": "ami ki ektu gan shunte pari?",
+          "en": "May I listen to some music?",
+          "alt": [
+            "Can I listen to music for a bit?"
+          ]
+        },
+        {
+          "bn": "শনিবার আমি আসতে পারব।",
+          "tr": "shonibar ami ashte parbo.",
+          "en": "I can come on Saturday.",
+          "alt": [
+            "I will be able to come on Saturday."
+          ]
+        }
+      ]
+    }
+  ]
+}

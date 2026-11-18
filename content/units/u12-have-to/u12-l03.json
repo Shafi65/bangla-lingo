@@ -1,0 +1,497 @@
+{
+  "id": "u12-l03",
+  "unit": "u12-have-to",
+  "title": "You don't have to",
+  "status": "draft",
+  "tip": "**Add না for 'don't have to'.** **তোমাকে আসতে হবে না** means 'you don't have to come': there's no need. It does **not** mean 'you mustn't come'.\n\nA friendly one to know: **চিন্তা করতে হবে না** 'no need to worry'.\n\n**Ask with a question word** before the -তে form: **আমাকে কী করতে হবে?** 'What do I have to do?', **কখন যেতে হবে?** 'When do (we) have to go?' The person can be left out when it's clear.\n\n**দিতে** 'to give' also means 'to pay': **এখানে টাকা দিতে হবে না** 'You don't have to pay here'.",
+  "vocab": [
+    {
+      "id": "dite",
+      "bn": "দিতে",
+      "tr": "dite",
+      "en": "to give",
+      "notes": "Infinitive of দেওয়া. টাকা দিতে হবে \"(you) have to pay\"."
+    },
+    {
+      "id": "nite",
+      "bn": "নিতে",
+      "tr": "nite",
+      "en": "to take",
+      "notes": "Infinitive of নেওয়া."
+    },
+    {
+      "id": "chinta",
+      "bn": "চিন্তা",
+      "tr": "chinta",
+      "en": "worry",
+      "notes": "চিন্তা করা \"to worry\". চিন্তা করতে হবে না \"no need to worry; don't worry\"."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "তোমাকে আসতে হবে না।",
+        "tr": "tomake ashte hobe na.",
+        "en": "You don't have to come.",
+        "alt": [
+          "You needn't come."
+        ]
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "You have to come.",
+        "You don't have to come.",
+        "You can't come.",
+        "You didn't come."
+      ],
+      "answer": 1,
+      "why": "**-তে হবে না** = \"don't have to\" (no need). It does not mean \"mustn't\"."
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "দিতে",
+        "tr": "dite",
+        "en": "to give"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "to take",
+        "I gave",
+        "to go",
+        "to give"
+      ],
+      "answer": 3,
+      "why": "দেওয়া \"give\" → **দিতে** \"to give\"."
+    },
+    {
+      "id": "e03",
+      "type": "listen_select",
+      "audio": {
+        "bn": "নিতে",
+        "tr": "nite",
+        "en": "to take"
+      },
+      "options": [
+        "নিতে",
+        "দিতে",
+        "নিলাম",
+        "নেব"
+      ],
+      "answer": 0,
+      "why": "নেওয়া \"take\" → **নিতে** \"to take\"."
+    },
+    {
+      "id": "e04",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "চিন্তা করতে হবে না।",
+        "tr": "chinta korte hobe na.",
+        "en": "Don't worry.",
+        "alt": [
+          "No need to worry.",
+          "There's no need to worry."
+        ]
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "I am worried.",
+        "You have to think.",
+        "Don't worry.",
+        "Don't come."
+      ],
+      "answer": 2,
+      "why": "**চিন্তা করা** \"to worry\"; **চিন্তা করতে হবে না** \"no need to worry\"."
+    },
+    {
+      "id": "e05",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "এখানে টাকা দিতে হবে না।",
+        "tr": "ekhane taka dite hobe na.",
+        "en": "You don't have to pay here.",
+        "alt": [
+          "There's no need to pay here.",
+          "You don't have to give money here."
+        ]
+      },
+      "options": [
+        "You don't have to pay here.",
+        "You have to pay here.",
+        "I can't pay here.",
+        "There is no money here."
+      ],
+      "answer": 0,
+      "why": "**দিতে হবে না** \"don't have to give / pay\"."
+    },
+    {
+      "id": "e06",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "দিতে",
+          "tr": "dite",
+          "en": "to give"
+        },
+        {
+          "bn": "নিতে",
+          "tr": "nite",
+          "en": "to take"
+        },
+        {
+          "bn": "চিন্তা",
+          "tr": "chinta",
+          "en": "worry"
+        },
+        {
+          "bn": "তাড়াতাড়ি",
+          "tr": "taratari",
+          "en": "early"
+        },
+        {
+          "bn": "ঘুমাতে",
+          "tr": "ghumate",
+          "en": "to sleep"
+        }
+      ]
+    },
+    {
+      "id": "e07",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আমাকে কী করতে হবে?",
+        "tr": "amake ki korte hobe?",
+        "en": "What do I have to do?",
+        "alt": [
+          "What should I do?"
+        ]
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "What can I do?",
+        "What do I have to do?",
+        "What did I do?",
+        "What do you want to do?"
+      ],
+      "answer": 1,
+      "why": "**কী** + **করতে হবে** = \"what (do I) have to do\"."
+    },
+    {
+      "id": "e08",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "ওকে কাল স্কুলে যেতে হবে না।",
+        "tr": "oke kal skule jete hobe na.",
+        "en": "He doesn't have to go to school tomorrow.",
+        "alt": [
+          "She doesn't have to go to school tomorrow."
+        ]
+      },
+      "options": [
+        "He has to go to school tomorrow.",
+        "He didn't go to school yesterday.",
+        "He doesn't have to go to school tomorrow.",
+        "He can't go to school tomorrow."
+      ],
+      "answer": 2,
+      "why": "**যেতে হবে না** \"doesn't have to go\"; the verb hasn't changed to the past."
+    },
+    {
+      "id": "e09",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আজ আমাকে অফিসে যেতে হবে না।",
+        "tr": "aj amake ofise jete hobe na.",
+        "en": "I don't have to go to the office today.",
+        "alt": [
+          "Today I don't have to go to the office."
+        ]
+      },
+      "blank": "না",
+      "options": [
+        "না",
+        "নেই",
+        "নয়",
+        "নই"
+      ],
+      "answer": 0,
+      "why": "Put **না** after **হবে** for \"don't have to\"."
+    },
+    {
+      "id": "e10",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আমাদের কখন যেতে হবে?",
+        "tr": "amader kokhon jete hobe?",
+        "en": "When do we have to go?",
+        "alt": [
+          "When do we have to leave?"
+        ]
+      },
+      "blank": "কখন",
+      "options": [
+        "কোথায়",
+        "কী",
+        "কখন",
+        "কে"
+      ],
+      "answer": 2,
+      "why": "\"When\" = **কখন**; the question word comes before the -তে form."
+    },
+    {
+      "id": "e11",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "তোমাকে একটা ব্যাগ নিতে হবে।",
+        "tr": "tomake ekta byag nite hobe.",
+        "en": "You have to take a bag.",
+        "alt": [
+          "You need to take a bag."
+        ]
+      },
+      "blank": "নিতে",
+      "accepted": [
+        "নিতে",
+        "nite",
+        "neete"
+      ],
+      "why": "নেওয়া \"take\" → **নিতে** \"to take\"."
+    },
+    {
+      "id": "e12",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমাকে কোথায় যেতে হবে?",
+        "tr": "amake kothay jete hobe?",
+        "en": "Where do I have to go?"
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "হবে",
+        "আমাকে",
+        "যাব",
+        "কখন",
+        "কোথায়",
+        "যেতে",
+        "আমি"
+      ],
+      "answer": [
+        "আমাকে",
+        "কোথায়",
+        "যেতে",
+        "হবে"
+      ],
+      "alt": [
+        [
+          "কোথায়",
+          "যেতে",
+          "হবে"
+        ],
+        [
+          "কোথায়",
+          "আমাকে",
+          "যেতে",
+          "হবে"
+        ]
+      ],
+      "why": "\"Where\" = **কোথায়**, then **যেতে হবে**; the person is **আমাকে**."
+    },
+    {
+      "id": "e13",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "চিন্তা করতে হবে না।",
+        "tr": "chinta korte hobe na.",
+        "en": "No need to worry.",
+        "alt": [
+          "Don't worry."
+        ]
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "হবে",
+        "করতে",
+        "চাই",
+        "নেই",
+        "না",
+        "চিন্তা",
+        "করি"
+      ],
+      "answer": [
+        "চিন্তা",
+        "করতে",
+        "হবে",
+        "না"
+      ],
+      "why": "**চিন্তা করতে হবে না** literally \"(you) don't have to worry\"."
+    },
+    {
+      "id": "e14",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "তোমাকে কিছু নিতে হবে না।",
+        "tr": "tomake kichhu nite hobe na.",
+        "en": "You don't have to take anything."
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "তুমি কিছু নিতে হবে না।",
+        "তোমাকে কিছু নিতে হবে না।",
+        "তোমাকে কিছু দিতে হবে না।",
+        "তোমাকে কিছু নিতে হবে।"
+      ],
+      "answer": 1,
+      "why": "**তোমাকে** (not তুমি) + **নিতে** \"to take\" + **হবে না** \"don't have to\"."
+    },
+    {
+      "id": "e15",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আজ আমাকে অফিসে যেতে হবে না।",
+        "tr": "aj amake ofise jete hobe na.",
+        "en": "I don't have to go to the office today.",
+        "alt": [
+          "Today I don't have to go to the office."
+        ]
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "আজ আমাকে অফিসে যেতে হবে না",
+        "আমাকে আজ অফিসে যেতে হবে না",
+        "আজ অফিসে যেতে হবে না",
+        "আজকে আমাকে অফিসে যেতে হবে না",
+        "আমাকে আজকে অফিসে যেতে হবে না",
+        "aj amake ofise jete hobe na",
+        "aj amake offise jete hobe na",
+        "aj amake afise jete hobe na",
+        "aaj amake ofise jete hobe na",
+        "aaj amake offise jete hobe na",
+        "aaj amake afise jete hobe na",
+        "ajke amake ofise jete hobe na",
+        "ajke amake offise jete hobe na",
+        "ajke amake afise jete hobe na",
+        "amake aj ofise jete hobe na",
+        "amake aj offise jete hobe na",
+        "amake aj afise jete hobe na",
+        "amake aaj ofise jete hobe na",
+        "amake aaj offise jete hobe na",
+        "amake aaj afise jete hobe na",
+        "amake ajke ofise jete hobe na",
+        "amake ajke offise jete hobe na",
+        "amake ajke afise jete hobe na",
+        "aj ofise jete hobe na"
+      ],
+      "why": "\"I don't have to\" = **আমাকে … হবে না**."
+    },
+    {
+      "id": "r01",
+      "type": "listen_select",
+      "audio": {
+        "bn": "উঠতে",
+        "tr": "uthte",
+        "en": "to get up"
+      },
+      "options": [
+        "দেখিনি",
+        "উঠতে",
+        "করেন",
+        "খান"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ওনাকে",
+        "tr": "onake",
+        "en": "him/her (polite)"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "এগুলো",
+        "ওনাকে",
+        "তিনি",
+        "ওরা"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "দেখতে",
+        "tr": "dekhte",
+        "en": "to see"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "I was",
+        "reads",
+        "I read",
+        "to see"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "নাচ",
+          "tr": "nach",
+          "en": "dance"
+        },
+        {
+          "bn": "দাওয়াত",
+          "tr": "dawat",
+          "en": "invitation"
+        },
+        {
+          "bn": "বেড়াতে",
+          "tr": "berate",
+          "en": "to go out (on a visit or trip)"
+        },
+        {
+          "bn": "উৎসব",
+          "tr": "utshob",
+          "en": "festival"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "আড়াই",
+          "tr": "arai",
+          "en": "two and a half"
+        },
+        {
+          "bn": "একশ",
+          "tr": "eksho",
+          "en": "one hundred"
+        },
+        {
+          "bn": "খায়",
+          "tr": "khay",
+          "en": "(he/she/they) eats"
+        },
+        {
+          "bn": "ছাড়া",
+          "tr": "chhara",
+          "en": "without"
+        }
+      ],
+      "recycle": true
+    }
+  ]
+}

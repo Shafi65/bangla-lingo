@@ -1,0 +1,485 @@
+{
+  "id": "u12-l01",
+  "unit": "u12-have-to",
+  "title": "To do, to go",
+  "status": "draft",
+  "tip": "**The -তে form is the 'to …' of Bengali.** Take the আমি present, drop **-ই** and add **-তে**:\n\n- করি → **করতে** 'to do'\n- পড়ি → **পড়তে** 'to read'\n- শুনি → **শুনতে**, থাকি → **থাকতে**\n\nTwo break the rule, as in the future: খাই → **খেতে**, যাই → **যেতে**.\n\nThe -তে form never changes for the person. It comes **before** the verb that carries the ending: **আমি বই পড়তে চাই** 'I want to read a book', **সে রান্না করতে পারে** 'she can cook'.\n\nAfter a verb of going it means 'to, in order to': **মাছ কিনতে বাজারে যাব** 'I'll go to the market to buy fish'.",
+  "vocab": [
+    {
+      "id": "korte",
+      "bn": "করতে",
+      "tr": "korte",
+      "en": "to do",
+      "notes": "Infinitive of করা: কর- + -তে. Same spelling as তুমি করতে \"you used to do\", met later."
+    },
+    {
+      "id": "jete",
+      "bn": "যেতে",
+      "tr": "jete",
+      "en": "to go",
+      "notes": "Infinitive of যাওয়া. Irregular: যাই → যেতে (like খাই → খেতে)."
+    },
+    {
+      "id": "ashte",
+      "bn": "আসতে",
+      "tr": "ashte",
+      "en": "to come",
+      "notes": "Infinitive of আসা. Do not confuse with আস্তে (aste) \"slowly\"."
+    },
+    {
+      "id": "porte",
+      "bn": "পড়তে",
+      "tr": "porte",
+      "en": "to read",
+      "notes": "Infinitive of পড়া."
+    },
+    {
+      "id": "kinte",
+      "bn": "কিনতে",
+      "tr": "kinte",
+      "en": "to buy",
+      "notes": "Infinitive of কেনা; the stem is কিন- as in কিনব."
+    },
+    {
+      "id": "thakte",
+      "bn": "থাকতে",
+      "tr": "thakte",
+      "en": "to stay",
+      "notes": "Infinitive of থাকা."
+    },
+    {
+      "id": "shunte",
+      "bn": "শুনতে",
+      "tr": "shunte",
+      "en": "to listen",
+      "notes": "Infinitive of শোনা; the stem is শুন- as in শুনবে."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "করতে",
+        "tr": "korte",
+        "en": "to do"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "to go",
+        "to do",
+        "I do",
+        "I will do"
+      ],
+      "answer": 1,
+      "why": "করি \"I do\" → **করতে** \"to do\": drop -ই, add -তে."
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "যেতে",
+        "tr": "jete",
+        "en": "to go"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "to come",
+        "I go",
+        "to go",
+        "to eat"
+      ],
+      "answer": 2,
+      "why": "Irregular, like খেতে: যাই → **যেতে** \"to go\"."
+    },
+    {
+      "id": "e03",
+      "type": "listen_select",
+      "audio": {
+        "bn": "আসতে",
+        "tr": "ashte",
+        "en": "to come"
+      },
+      "options": [
+        "আসি",
+        "আসব",
+        "যেতে",
+        "আসতে"
+      ],
+      "answer": 3,
+      "why": "**আসতে** \"to come\": আস- + -তে."
+    },
+    {
+      "id": "e04",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আমি বই পড়তে চাই।",
+        "tr": "ami boi porte chai.",
+        "en": "I want to read a book.",
+        "alt": [
+          "I want to read books."
+        ]
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "I am reading a book.",
+        "I want to read a book.",
+        "I can read a book.",
+        "I will read a book."
+      ],
+      "answer": 1,
+      "why": "**পড়তে** \"to read\" + **চাই** \"I want\"."
+    },
+    {
+      "id": "e05",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আমি মাছ কিনতে বাজারে যাব।",
+        "tr": "ami machh kinte bajare jabo.",
+        "en": "I will go to the market to buy fish.",
+        "alt": [
+          "I'll go to the market to buy fish."
+        ]
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "I bought fish at the market.",
+        "I want to buy fish.",
+        "I will go to the market to buy fish.",
+        "I can buy fish at the market."
+      ],
+      "answer": 2,
+      "why": "After a verb of going, **কিনতে** means \"to buy, in order to buy\"."
+    },
+    {
+      "id": "e06",
+      "type": "listen_select",
+      "audio": {
+        "bn": "থাকতে",
+        "tr": "thakte",
+        "en": "to stay"
+      },
+      "options": [
+        "থাকতে",
+        "থাকি",
+        "থাকব",
+        "করতে"
+      ],
+      "answer": 0,
+      "why": "**থাকতে** \"to stay, to live\": থাকি → থাক- + -তে."
+    },
+    {
+      "id": "e07",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "তুমি কি গান শুনতে চাও?",
+        "tr": "tumi ki gan shunte chao?",
+        "en": "Do you want to listen to songs?",
+        "alt": [
+          "Do you want to listen to music?"
+        ]
+      },
+      "options": [
+        "Do you want to listen to songs?",
+        "Are you listening to songs?",
+        "Did you listen to songs?",
+        "Can you listen to songs?"
+      ],
+      "answer": 0,
+      "why": "**শুনতে চাও** \"(you) want to listen\"; \"can\" would be **পারো**."
+    },
+    {
+      "id": "e08",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "কিনতে",
+          "tr": "kinte",
+          "en": "to buy"
+        },
+        {
+          "bn": "থাকতে",
+          "tr": "thakte",
+          "en": "to stay"
+        },
+        {
+          "bn": "শুনতে",
+          "tr": "shunte",
+          "en": "to listen"
+        },
+        {
+          "bn": "পড়তে",
+          "tr": "porte",
+          "en": "to read"
+        },
+        {
+          "bn": "যেতে",
+          "tr": "jete",
+          "en": "to go"
+        }
+      ]
+    },
+    {
+      "id": "e09",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আমি তোমার বাসায় যেতে চাই।",
+        "tr": "ami tomar bashay jete chai.",
+        "en": "I want to go to your home.",
+        "alt": [
+          "I want to go to your house."
+        ]
+      },
+      "blank": "যেতে",
+      "options": [
+        "যাই",
+        "যেতে",
+        "যাব",
+        "গেলাম"
+      ],
+      "answer": 1,
+      "why": "Before **চাই** the verb takes the -তে form: **যেতে চাই**."
+    },
+    {
+      "id": "e10",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "সে খুব ভালো রান্না করতে পারে।",
+        "tr": "she khub bhalo ranna korte pare.",
+        "en": "She can cook very well.",
+        "alt": [
+          "He can cook very well."
+        ]
+      },
+      "blank": "করতে",
+      "options": [
+        "করতে",
+        "করে",
+        "করি",
+        "করব"
+      ],
+      "answer": 0,
+      "why": "**পারে** \"can\" needs a -তে form before it: **রান্না করতে পারে**."
+    },
+    {
+      "id": "e11",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমি ঢাকায় থাকতে চাই।",
+        "tr": "ami dhakay thakte chai.",
+        "en": "I want to live in Dhaka.",
+        "alt": [
+          "I want to stay in Dhaka."
+        ]
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "চাই",
+        "ঢাকায়",
+        "থাকতে",
+        "পারি",
+        "থাকব",
+        "থাকি",
+        "আমি"
+      ],
+      "answer": [
+        "আমি",
+        "ঢাকায়",
+        "থাকতে",
+        "চাই"
+      ],
+      "alt": [
+        [
+          "ঢাকায়",
+          "থাকতে",
+          "চাই"
+        ]
+      ],
+      "why": "**থাকতে** \"to live\" + **চাই** \"I want\"."
+    },
+    {
+      "id": "e12",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "তুমি কী করতে চাও?",
+        "tr": "tumi ki korte chao?",
+        "en": "What do you want to do?"
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "তুমি",
+        "করব",
+        "করতে",
+        "চাও",
+        "করি",
+        "কী",
+        "চাই"
+      ],
+      "answer": [
+        "তুমি",
+        "কী",
+        "করতে",
+        "চাও"
+      ],
+      "alt": [
+        [
+          "কী",
+          "করতে",
+          "চাও"
+        ]
+      ],
+      "why": "**তুমি** → **চাও**; the -তে form **করতে** is the same for everyone."
+    },
+    {
+      "id": "e13",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আপনি কি আসতে চান?",
+        "tr": "apni ki ashte chan?",
+        "en": "Do you want to come? (polite)",
+        "alt": [
+          "Would you like to come?"
+        ]
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "আপনি কি আসতে পারেন?",
+        "আপনি কি আসতে চাও?",
+        "আপনি কি আসতে চান?",
+        "তুমি কি আসতে চাও?"
+      ],
+      "answer": 2,
+      "why": "**আপনি** takes **চান**; **চাও** goes with তুমি, and **পারেন** is \"can\"."
+    },
+    {
+      "id": "e14",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আমি একটু বাংলা পড়তে পারি।",
+        "tr": "ami ektu bangla porte pari.",
+        "en": "I can read a little Bengali."
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "আমি একটু বাংলা পড়তে পারি",
+        "একটু বাংলা পড়তে পারি",
+        "আমি বাংলা একটু পড়তে পারি",
+        "বাংলা একটু পড়তে পারি",
+        "ami ektu bangla porte pari",
+        "ektu bangla porte pari",
+        "ami bangla ektu porte pari",
+        "bangla ektu porte pari",
+        "aami ektu bangla porte pari",
+        "ami aktu bangla porte pari"
+      ],
+      "why": "\"to read\" = **পড়তে**, then **পারি** \"I can\"."
+    },
+    {
+      "id": "r01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "বিজয় দিবস",
+        "tr": "bijoy dibosh",
+        "en": "Victory Day"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "আসসালামু আলাইকুম",
+        "মাঝে মাঝে",
+        "বিজয় দিবস",
+        "আবার দেখা হবে"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "প্রতিমা",
+        "tr": "protima",
+        "en": "image (idol)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "to school",
+        "flatbread",
+        "invitation",
+        "image (idol)"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "listen_select",
+      "audio": {
+        "bn": "পূজা",
+        "tr": "puja",
+        "en": "puja"
+      },
+      "options": [
+        "নামাজ",
+        "কলা",
+        "ঈদের",
+        "পূজা"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "মাতৃভাষা",
+          "tr": "matribhasha",
+          "en": "mother tongue"
+        },
+        {
+          "bn": "স্বাধীনতা",
+          "tr": "shadhinota",
+          "en": "independence"
+        },
+        {
+          "bn": "মেলা",
+          "tr": "mela",
+          "en": "fair"
+        },
+        {
+          "bn": "রমজান",
+          "tr": "romjan",
+          "en": "Ramadan"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "মেহমান",
+          "tr": "mehman",
+          "en": "guest"
+        },
+        {
+          "bn": "আলপনা",
+          "tr": "alpona",
+          "en": "alpona"
+        },
+        {
+          "bn": "সেহরি",
+          "tr": "sehri",
+          "en": "sehri"
+        },
+        {
+          "bn": "করিনি",
+          "tr": "korini",
+          "en": "I didn't do"
+        }
+      ],
+      "recycle": true
+    }
+  ]
+}

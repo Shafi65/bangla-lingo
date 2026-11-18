@@ -1,0 +1,530 @@
+{
+  "id": "u12-l07",
+  "unit": "u12-have-to",
+  "title": "May I? Could you?",
+  "status": "draft",
+  "tip": "**'May I…?' = আমি কি … -তে পারি?** **আমি কি ভিতরে আসতে পারি?** 'May I come in?' **আমি কি এখানে বসতে পারি?** 'May I sit here?'\n\n**'Could you…?' = আপনি কি … -তে পারবেন?** The future পারবেন sounds softer than পারেন: **আপনি কি একটু আস্তে বলতে পারবেন?** 'Could you speak a little more slowly?' To a friend: **তুমি কি … পারবে?**\n\nAnswer **জি, অবশ্যই** 'Yes, of course' or **দুঃখিত, পারব না** 'Sorry, I can't'.\n\nListen closely: **আস্তে** (*aste*) 'slowly' vs **আসতে** (*ashte*) 'to come'.",
+  "vocab": [
+    {
+      "id": "boshte",
+      "bn": "বসতে",
+      "tr": "boshte",
+      "en": "to sit",
+      "notes": "Infinitive of বসা. আমি কি এখানে বসতে পারি? \"May I sit here?\""
+    },
+    {
+      "id": "aste",
+      "bn": "আস্তে",
+      "tr": "aste",
+      "en": "slowly",
+      "notes": "একটু আস্তে বলবেন? \"Could you speak more slowly?\" Do not confuse with আসতে (ashte) \"to come\"."
+    },
+    {
+      "id": "abar",
+      "bn": "আবার",
+      "tr": "abar",
+      "en": "again"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আমি কি ভিতরে আসতে পারি?",
+        "tr": "ami ki bhitore ashte pari?",
+        "en": "May I come in?",
+        "alt": [
+          "Can I come in?"
+        ]
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "Can you come in?",
+        "May I come in?",
+        "Do I have to come in?",
+        "I want to come in."
+      ],
+      "answer": 1,
+      "why": "**আমি কি … পারি?** asks permission: \"May I…?\""
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "বসতে",
+        "tr": "boshte",
+        "en": "to sit"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "to sit",
+        "to stay",
+        "to speak",
+        "to sleep"
+      ],
+      "answer": 0,
+      "why": "বসা \"sit\" → **বসতে** \"to sit\"."
+    },
+    {
+      "id": "e03",
+      "type": "listen_select",
+      "audio": {
+        "bn": "আস্তে",
+        "tr": "aste",
+        "en": "slowly"
+      },
+      "options": [
+        "আসতে",
+        "আস্তে",
+        "আসব",
+        "আবার"
+      ],
+      "answer": 1,
+      "why": "**আস্তে** (*aste*) \"slowly\" vs **আসতে** (*ashte*) \"to come\"."
+    },
+    {
+      "id": "e04",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আপনি কি একটু আস্তে বলতে পারবেন?",
+        "tr": "apni ki ektu aste bolte parben?",
+        "en": "Could you speak a little more slowly?",
+        "alt": [
+          "Could you speak a bit more slowly?",
+          "Can you speak slowly?"
+        ]
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "Could you come a little later?",
+        "Can you speak a little Bengali?",
+        "Could you speak a little more slowly?",
+        "Could you say that again?"
+      ],
+      "answer": 2,
+      "why": "**আস্তে** \"slowly\" + **বলতে পারবেন?** \"could you speak?\""
+    },
+    {
+      "id": "e05",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আবার",
+        "tr": "abar",
+        "en": "again"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "later",
+        "now",
+        "slowly",
+        "again"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e06",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "বসতে",
+          "tr": "boshte",
+          "en": "to sit"
+        },
+        {
+          "bn": "আস্তে",
+          "tr": "aste",
+          "en": "slowly"
+        },
+        {
+          "bn": "আবার",
+          "tr": "abar",
+          "en": "again"
+        },
+        {
+          "bn": "আসতে",
+          "tr": "ashte",
+          "en": "to come"
+        },
+        {
+          "bn": "পারবেন",
+          "tr": "parben",
+          "en": "you (polite) will be able to"
+        }
+      ]
+    },
+    {
+      "id": "e07",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "আপনি কি আবার বলতে পারবেন?",
+        "tr": "apni ki abar bolte parben?",
+        "en": "Could you say that again?",
+        "alt": [
+          "Could you say it again?",
+          "Can you repeat that?"
+        ]
+      },
+      "options": [
+        "Could you say that again?",
+        "Could you speak slowly?",
+        "Did you say that again?",
+        "Do you want to speak?"
+      ],
+      "answer": 0,
+      "why": "**আবার** \"again\"; **পারবেন?** makes it a polite request."
+    },
+    {
+      "id": "e08",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "আমি কি এটা নিতে পারি?",
+        "tr": "ami ki eta nite pari?",
+        "en": "May I take this?",
+        "alt": [
+          "Can I take this?"
+        ]
+      },
+      "options": [
+        "Can I give this?",
+        "Do I have to take this?",
+        "May I take this?",
+        "I will take this."
+      ],
+      "answer": 2,
+      "why": "**নিতে** \"to take\"; **আমি কি … পারি?** \"May I…?\""
+    },
+    {
+      "id": "e09",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আমি কি এখানে বসতে পারি?",
+        "tr": "ami ki ekhane boshte pari?",
+        "en": "May I sit here?",
+        "alt": [
+          "Can I sit here?"
+        ]
+      },
+      "blank": "পারি",
+      "options": [
+        "পারি",
+        "পারবেন",
+        "চাই",
+        "হবে"
+      ],
+      "answer": 0,
+      "why": "\"May I…?\" = **আমি কি … পারি?**"
+    },
+    {
+      "id": "e10",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আপনি কি আমাকে একটু সাহায্য করতে পারবেন?",
+        "tr": "apni ki amake ektu shahajjo korte parben?",
+        "en": "Could you help me a little?",
+        "alt": [
+          "Could you help me?",
+          "Can you help me a bit?"
+        ]
+      },
+      "blank": "পারবেন",
+      "options": [
+        "পারবে",
+        "পারবেন",
+        "পারব",
+        "পারি"
+      ],
+      "answer": 1,
+      "why": "A polite request to **আপনি**: **পারবেন?** \"could you?\""
+    },
+    {
+      "id": "e11",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আপনি কি একটু আস্তে বলতে পারবেন?",
+        "tr": "apni ki ektu aste bolte parben?",
+        "en": "Could you speak a little more slowly?",
+        "alt": [
+          "Could you speak a bit more slowly?",
+          "Can you speak slowly?"
+        ]
+      },
+      "blank": "আস্তে",
+      "accepted": [
+        "আস্তে",
+        "aste",
+        "aaste"
+      ],
+      "why": "\"Slowly\" = **আস্তে** (*aste*), not **আসতে** \"to come\"."
+    },
+    {
+      "id": "e12",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "তুমি কি আমাকে একটু সাহায্য করতে পারবে?",
+        "tr": "tumi ki amake ektu shahajjo korte parbe?",
+        "en": "Could you help me a little? (familiar)",
+        "alt": [
+          "Can you help me?"
+        ]
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "সাহায্য",
+        "পারবে",
+        "করতে",
+        "আমি",
+        "তুমি",
+        "আমাকে",
+        "করি",
+        "পারবেন",
+        "কি",
+        "একটু"
+      ],
+      "answer": [
+        "তুমি",
+        "কি",
+        "আমাকে",
+        "একটু",
+        "সাহায্য",
+        "করতে",
+        "পারবে"
+      ],
+      "alt": [
+        [
+          "তুমি",
+          "কি",
+          "একটু",
+          "আমাকে",
+          "সাহায্য",
+          "করতে",
+          "পারবে"
+        ],
+        [
+          "তুমি",
+          "আমাকে",
+          "একটু",
+          "সাহায্য",
+          "করতে",
+          "পারবে"
+        ]
+      ],
+      "why": "To a friend: **তুমি কি … পারবে?**"
+    },
+    {
+      "id": "e13",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমি কি আপনার সাথে একটু কথা বলতে পারি?",
+        "tr": "ami ki apnar shathe ektu kotha bolte pari?",
+        "en": "May I talk to you for a moment?",
+        "alt": [
+          "Could I have a word with you?",
+          "Can I talk to you for a minute?"
+        ]
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "সাথে",
+        "কথা",
+        "বলতে",
+        "একটু",
+        "পারবেন",
+        "কি",
+        "পারি",
+        "আপনাকে",
+        "আপনার",
+        "আমি",
+        "বলি"
+      ],
+      "answer": [
+        "আমি",
+        "কি",
+        "আপনার",
+        "সাথে",
+        "একটু",
+        "কথা",
+        "বলতে",
+        "পারি"
+      ],
+      "alt": [
+        [
+          "আমি",
+          "কি",
+          "একটু",
+          "আপনার",
+          "সাথে",
+          "কথা",
+          "বলতে",
+          "পারি"
+        ]
+      ],
+      "why": "**কথা বলতে** \"to talk\" + **আমি কি … পারি?** \"May I…?\""
+    },
+    {
+      "id": "e14",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আপনি কি আবার বলতে পারবেন?",
+        "tr": "apni ki abar bolte parben?",
+        "en": "Could you say that again?",
+        "alt": [
+          "Could you say it again?",
+          "Can you repeat that?"
+        ]
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "আপনি কি আস্তে বলতে পারবেন?",
+        "আমি কি আবার বলতে পারি?",
+        "আপনি কি আবার আসতে পারবেন?",
+        "আপনি কি আবার বলতে পারবেন?"
+      ],
+      "answer": 3,
+      "why": "**আবার** \"again\" + **বলতে** \"to say\" + **পারবেন?** \"could you?\""
+    },
+    {
+      "id": "e15",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আমি কি ভিতরে আসতে পারি?",
+        "tr": "ami ki bhitore ashte pari?",
+        "en": "May I come in?",
+        "alt": [
+          "Can I come in?"
+        ]
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "আমি কি ভিতরে আসতে পারি",
+        "ভিতরে আসতে পারি",
+        "আমি কি ভেতরে আসতে পারি",
+        "ভেতরে আসতে পারি",
+        "আমি কি আসতে পারি",
+        "আসতে পারি",
+        "ami ki bhitore ashte pari",
+        "ami ki bhitore aste pari",
+        "ami ki bhetore ashte pari",
+        "ami ki bhetore aste pari",
+        "ami ki vitore ashte pari",
+        "ami ki vitore aste pari",
+        "bhitore ashte pari",
+        "bhitore aste pari",
+        "bhetore ashte pari",
+        "bhetore aste pari",
+        "vitore ashte pari",
+        "vitore aste pari",
+        "ami ki ashte pari",
+        "ashte pari"
+      ],
+      "why": "\"May I…?\" = **আমি কি … পারি?** with **আসতে** \"to come\"."
+    },
+    {
+      "id": "r01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "শিখতে",
+        "tr": "shikhte",
+        "en": "to learn"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "কিনলাম",
+        "বলবেন",
+        "শিখতে",
+        "দিলাম"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "হতে",
+        "tr": "hote",
+        "en": "to become"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "you were (polite)",
+        "let's",
+        "you (familiar) / he, she will stay",
+        "to become"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "listen_select",
+      "audio": {
+        "bn": "চায়",
+        "tr": "chay",
+        "en": "he/she wants"
+      },
+      "options": [
+        "খাই",
+        "চায়",
+        "খান",
+        "আসবে"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "শুনবে",
+          "tr": "shunbe",
+          "en": "you (familiar) / he, she will listen"
+        },
+        {
+          "bn": "চিন্তা",
+          "tr": "chinta",
+          "en": "worry"
+        },
+        {
+          "bn": "দিতে",
+          "tr": "dite",
+          "en": "to give"
+        },
+        {
+          "bn": "চাস",
+          "tr": "chash",
+          "en": "you (intimate) want"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "বলবেন",
+          "tr": "bolben",
+          "en": "you / he, she (polite) will say"
+        },
+        {
+          "bn": "উঠবে",
+          "tr": "uthbe",
+          "en": "you (familiar) / he, she will get up"
+        },
+        {
+          "bn": "কবে",
+          "tr": "kobe",
+          "en": "when (on what day)"
+        },
+        {
+          "bn": "থাকবেন",
+          "tr": "thakben",
+          "en": "you / he, she (polite) will stay"
+        }
+      ],
+      "recycle": true
+    }
+  ]
+}

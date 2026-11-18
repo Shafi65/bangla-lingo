@@ -1,0 +1,524 @@
+{
+  "id": "u12-l02",
+  "unit": "u12-have-to",
+  "title": "I have to",
+  "status": "draft",
+  "tip": "**'Have to' = -তে form + হবে.** The person who has to do it goes in the **-কে** form, not আমি:\n\n- **আমাকে যেতে হবে।** 'I have to go.'\n- **তোমাকে, আপনাকে, তাকে, ওকে, ওনাকে** + -তে + **হবে**\n\nFor আমরা use **আমাদের**: **আমাদের এখন ঘুমাতে হবে** 'We have to sleep now'.\n\n**হবে never changes**, whoever has to do it: **আপনাকে আসতে হবে**.\n\n*আমি যেতে হবে* is the most common learner mistake. Think of it as 'to me, going will be (needed)'.",
+  "vocab": [
+    {
+      "id": "hobe-must",
+      "bn": "হবে",
+      "tr": "hobe",
+      "en": "have to (after a -তে verb)",
+      "notes": "X-কে + infinitive + হবে: আমাকে যেতে হবে \"I have to go\". Same word as হবে \"will be\"; the verb never changes for the person."
+    },
+    {
+      "id": "uthte",
+      "bn": "উঠতে",
+      "tr": "uthte",
+      "en": "to get up",
+      "notes": "Infinitive of ওঠা; the stem is উঠ- as in উঠি."
+    },
+    {
+      "id": "ghumate",
+      "bn": "ঘুমাতে",
+      "tr": "ghumate",
+      "en": "to sleep",
+      "notes": "Infinitive of ঘুমানো: ঘুমাই → ঘুমাতে. Kolkata ঘুমোতে."
+    },
+    {
+      "id": "taratari",
+      "bn": "তাড়াতাড়ি",
+      "tr": "taratari",
+      "en": "early",
+      "notes": "তাড়াতাড়ি উঠতে হবে \"have to get up early\"; তাড়াতাড়ি আসো \"come quickly\"."
+    },
+    {
+      "id": "oke",
+      "bn": "ওকে",
+      "tr": "oke",
+      "en": "him/her (spoken)",
+      "notes": "Object form of ও: ওকে যেতে হবে \"he/she has to go\"."
+    },
+    {
+      "id": "onake",
+      "bn": "ওনাকে",
+      "tr": "onake",
+      "en": "him/her (polite)",
+      "notes": "Object form of উনি: ওনাকে আসতে হবে."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আমাকে যেতে হবে।",
+        "tr": "amake jete hobe.",
+        "en": "I have to go.",
+        "alt": [
+          "I must go."
+        ]
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "I want to go.",
+        "I have to go.",
+        "I can go.",
+        "I will go."
+      ],
+      "answer": 1,
+      "why": "**আমাকে** + **যেতে** + **হবে** = \"I have to go\"."
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "উঠতে",
+        "tr": "uthte",
+        "en": "to get up"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "I get up",
+        "to sleep",
+        "to get up",
+        "to go"
+      ],
+      "answer": 2,
+      "why": "উঠি \"I get up\" → **উঠতে** \"to get up\"."
+    },
+    {
+      "id": "e03",
+      "type": "listen_select",
+      "audio": {
+        "bn": "ঘুমাতে",
+        "tr": "ghumate",
+        "en": "to sleep"
+      },
+      "options": [
+        "ঘুমাই",
+        "ঘুমাতে",
+        "ঘুমাব",
+        "উঠতে"
+      ],
+      "answer": 1,
+      "why": "ঘুমাই → **ঘুমাতে** \"to sleep\"."
+    },
+    {
+      "id": "e04",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "তাড়াতাড়ি",
+        "tr": "taratari",
+        "en": "early"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "early",
+        "late",
+        "always",
+        "again"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e05",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ওকে স্কুলে যেতে হবে।",
+        "tr": "oke skule jete hobe.",
+        "en": "He has to go to school.",
+        "alt": [
+          "She has to go to school."
+        ]
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "He wants to go to school.",
+        "He went to school.",
+        "I have to go to school.",
+        "He has to go to school."
+      ],
+      "answer": 3,
+      "why": "**ওকে** is the -কে form of ও: **ওকে … হবে** = \"he/she has to\"."
+    },
+    {
+      "id": "e06",
+      "type": "listen_select",
+      "audio": {
+        "bn": "ওনাকে",
+        "tr": "onake",
+        "en": "him/her (polite)"
+      },
+      "options": [
+        "ওনার",
+        "ওকে",
+        "ওনাকে",
+        "আপনাকে"
+      ],
+      "answer": 2,
+      "why": "**ওনাকে** is the polite -কে form: উনি → **ওনাকে**."
+    },
+    {
+      "id": "e07",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "হবে",
+          "tr": "hobe",
+          "en": "have to (after a -তে verb)"
+        },
+        {
+          "bn": "উঠতে",
+          "tr": "uthte",
+          "en": "to get up"
+        },
+        {
+          "bn": "ঘুমাতে",
+          "tr": "ghumate",
+          "en": "to sleep"
+        },
+        {
+          "bn": "তাড়াতাড়ি",
+          "tr": "taratari",
+          "en": "early"
+        },
+        {
+          "bn": "ওকে",
+          "tr": "oke",
+          "en": "him/her (spoken)"
+        }
+      ]
+    },
+    {
+      "id": "e08",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "আমাকে কাল তাড়াতাড়ি উঠতে হবে।",
+        "tr": "amake kal taratari uthte hobe.",
+        "en": "I have to get up early tomorrow.",
+        "alt": [
+          "I must get up early tomorrow."
+        ]
+      },
+      "options": [
+        "I have to get up early tomorrow.",
+        "I got up early yesterday.",
+        "I want to get up early tomorrow.",
+        "I can get up early tomorrow."
+      ],
+      "answer": 0,
+      "why": "**উঠতে হবে** \"have to get up\"; \"want to\" would be **উঠতে চাই**."
+    },
+    {
+      "id": "e09",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "তোমাকে আজ কাজ করতে হবে।",
+        "tr": "tomake aj kaj korte hobe.",
+        "en": "You have to work today.",
+        "alt": [
+          "Today you have to work."
+        ]
+      },
+      "blank": "তোমাকে",
+      "options": [
+        "তোমাকে",
+        "তুমি",
+        "তোমার",
+        "তোমরা"
+      ],
+      "answer": 0,
+      "why": "With **হবে** \"have to\", the person goes in the -কে form: **তোমাকে**."
+    },
+    {
+      "id": "e10",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আপনাকে এখানে থাকতে হবে।",
+        "tr": "apnake ekhane thakte hobe.",
+        "en": "You have to stay here. (polite)",
+        "alt": [
+          "You have to stay here."
+        ]
+      },
+      "blank": "হবে",
+      "options": [
+        "চান",
+        "হবে",
+        "পারেন",
+        "আছেন"
+      ],
+      "answer": 1,
+      "why": "**হবে** never changes for the person, even with **আপনাকে**."
+    },
+    {
+      "id": "e11",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আমাদের এখন ঘুমাতে হবে।",
+        "tr": "amader ekhon ghumate hobe.",
+        "en": "We have to sleep now.",
+        "alt": [
+          "We have to go to sleep now."
+        ]
+      },
+      "blank": "ঘুমাতে",
+      "accepted": [
+        "ঘুমাতে",
+        "ghumate",
+        "ghumaate",
+        "ঘুমোতে",
+        "ghumote"
+      ],
+      "why": "ঘুমাই → **ঘুমাতে**; for আমরা the -কে slot is **আমাদের**."
+    },
+    {
+      "id": "e12",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "ওনাকে কাল ঢাকায় যেতে হবে।",
+        "tr": "onake kal dhakay jete hobe.",
+        "en": "She has to go to Dhaka tomorrow. (polite)",
+        "alt": [
+          "He has to go to Dhaka tomorrow."
+        ]
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "ওনাকে",
+        "ঢাকায়",
+        "হবে",
+        "যেতে",
+        "কাল",
+        "যাবেন",
+        "ওনার",
+        "উনি"
+      ],
+      "answer": [
+        "ওনাকে",
+        "কাল",
+        "ঢাকায়",
+        "যেতে",
+        "হবে"
+      ],
+      "alt": [
+        [
+          "কাল",
+          "ওনাকে",
+          "ঢাকায়",
+          "যেতে",
+          "হবে"
+        ]
+      ],
+      "why": "Polite **উনি** becomes **ওনাকে** before **যেতে হবে**."
+    },
+    {
+      "id": "e13",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "তাকে সাতটায় আসতে হবে।",
+        "tr": "take shattay ashte hobe.",
+        "en": "He has to come at seven.",
+        "alt": [
+          "She has to come at seven."
+        ]
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "has",
+        "can",
+        "at",
+        "seven",
+        "come",
+        "to",
+        "He",
+        "wants",
+        "She"
+      ],
+      "answer": [
+        "He",
+        "has",
+        "to",
+        "come",
+        "at",
+        "seven"
+      ],
+      "alt": [
+        [
+          "She",
+          "has",
+          "to",
+          "come",
+          "at",
+          "seven"
+        ]
+      ],
+      "why": "**তাকে … আসতে হবে** = \"he/she has to come\"."
+    },
+    {
+      "id": "e14",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আমাকে রাতে বই পড়তে হবে।",
+        "tr": "amake rate boi porte hobe.",
+        "en": "I have to read a book at night.",
+        "alt": [
+          "I have to read at night."
+        ]
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "আমি রাতে বই পড়তে হবে।",
+        "আমি রাতে বই পড়তে চাই।",
+        "আমাকে রাতে বই পড়ি।",
+        "আমাকে রাতে বই পড়তে হবে।"
+      ],
+      "answer": 3,
+      "why": "*আমি … হবে* is wrong: the person who has to goes in the -কে form, **আমাকে**."
+    },
+    {
+      "id": "e15",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আমাকে কাল তাড়াতাড়ি উঠতে হবে।",
+        "tr": "amake kal taratari uthte hobe.",
+        "en": "I have to get up early tomorrow.",
+        "alt": [
+          "I must get up early tomorrow."
+        ]
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "আমাকে কাল তাড়াতাড়ি উঠতে হবে",
+        "আমাকে আগামীকাল তাড়াতাড়ি উঠতে হবে",
+        "কাল আমাকে তাড়াতাড়ি উঠতে হবে",
+        "আগামীকাল আমাকে তাড়াতাড়ি উঠতে হবে",
+        "amake kal taratari uthte hobe",
+        "amake kal taratari utte hobe",
+        "amake kaal taratari uthte hobe",
+        "amake kaal taratari utte hobe",
+        "amake agamikal taratari uthte hobe",
+        "amake agamikal taratari utte hobe",
+        "amakey kal taratari uthte hobe",
+        "amakey kal taratari utte hobe",
+        "amakey kaal taratari uthte hobe",
+        "amakey kaal taratari utte hobe",
+        "amakey agamikal taratari uthte hobe",
+        "amakey agamikal taratari utte hobe",
+        "kal amake taratari uthte hobe",
+        "kaal amake taratari uthte hobe",
+        "agamikal amake taratari uthte hobe"
+      ],
+      "why": "\"I have to\" = **আমাকে … হবে**; \"to get up\" = **উঠতে**."
+    },
+    {
+      "id": "r01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "কিনতে",
+        "tr": "kinte",
+        "en": "to buy"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "to sleep",
+        "to buy",
+        "will you come (intimate)",
+        "writes"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "listen_select",
+      "audio": {
+        "bn": "শুনতে",
+        "tr": "shunte",
+        "en": "to listen"
+      },
+      "options": [
+        "পড়ে",
+        "যান",
+        "নেব",
+        "শুনতে"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আসবি",
+        "tr": "ashbi",
+        "en": "will you come (intimate)"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "আসবি",
+        "ছিলেন",
+        "দেখবেন",
+        "বাজে"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "দিবসে",
+          "tr": "dibose",
+          "en": "on the day"
+        },
+        {
+          "bn": "ইফতারে",
+          "tr": "iftare",
+          "en": "at iftar"
+        },
+        {
+          "bn": "খাবি",
+          "tr": "khabi",
+          "en": "will you eat (intimate)"
+        },
+        {
+          "bn": "পূজায়",
+          "tr": "pujay",
+          "en": "at Puja"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "জন্মদিন",
+          "tr": "jonmodin",
+          "en": "birthday"
+        },
+        {
+          "bn": "খাও",
+          "tr": "khao",
+          "en": "(you, familiar) eat"
+        },
+        {
+          "bn": "উপহার",
+          "tr": "upohar",
+          "en": "gift"
+        },
+        {
+          "bn": "লাগবে",
+          "tr": "lagbe",
+          "en": "need"
+        }
+      ],
+      "recycle": true
+    }
+  ]
+}

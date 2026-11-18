@@ -518,19 +518,17 @@
     },
     {
       "id": "r01",
-      "type": "listen_meaning",
-      "audio": {
+      "type": "fill_blank",
+      "sentence": {
         "bn": "নাদিয়া প্রতি শুক্রবার আমাদের বাসায় আসত।",
         "tr": "nadiya proti shukrobar amader bashay ashto.",
         "en": "Nadia used to come to our home every Friday."
       },
-      "options": [
-        "I want milk tea without sugar.",
-        "My elder brother is a doctor.",
-        "Nadia used to come to our home every Friday.",
-        "They are my friends."
+      "blank": "আসত",
+      "accepted": [
+        "আসত",
+        "ashto"
       ],
-      "answer": 2,
       "recycle": true
     },
     {
@@ -541,45 +539,37 @@
         "tr": "korto",
         "en": "he/she used to do"
       },
-      "direction": "en_to_bn",
+      "direction": "bn_to_en",
       "options": [
-        "পারল",
-        "শিখতে",
-        "করত",
-        "চাস"
+        "I saw",
+        "have you eaten (familiar)",
+        "he/she used to do",
+        "I walk"
       ],
       "answer": 2,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "fill_blank",
-      "sentence": {
-        "bn": "তুমি ছোটবেলায় কী করতে?",
-        "tr": "tumi chhotobelay ki korte?",
-        "en": "What did you (familiar) use to do as a child?"
+      "type": "listen_select",
+      "audio": {
+        "bn": "করতে",
+        "tr": "korte",
+        "en": "you used to do (familiar)"
       },
-      "blank": "করতে",
-      "accepted": [
-        "করতে",
-        "korte"
+      "options": [
+        "এলে",
+        "নেবেন",
+        "শুনিনি",
+        "করতে"
       ],
+      "answer": 3,
       "recycle": true
     },
     {
       "id": "r04",
       "type": "match_pairs",
       "pairs": [
-        {
-          "bn": "বলতেন",
-          "tr": "bolten",
-          "en": "you / he, she (polite) used to tell"
-        },
-        {
-          "bn": "থাকত",
-          "tr": "thakto",
-          "en": "he/she used to live"
-        },
         {
           "bn": "করতি",
           "tr": "korti",
@@ -589,6 +579,16 @@
           "bn": "থাকতেন",
           "tr": "thakten",
           "en": "you / he, she (polite) used to live"
+        },
+        {
+          "bn": "থাকত",
+          "tr": "thakto",
+          "en": "he/she used to live"
+        },
+        {
+          "bn": "বলতেন",
+          "tr": "bolten",
+          "en": "you / he, she (polite) used to tell"
         }
       ],
       "recycle": true
@@ -598,24 +598,24 @@
       "type": "match_pairs",
       "pairs": [
         {
+          "bn": "আবার",
+          "tr": "abar",
+          "en": "again"
+        },
+        {
+          "bn": "বসতে",
+          "tr": "boshte",
+          "en": "to sit"
+        },
+        {
+          "bn": "আস্তে",
+          "tr": "aste",
+          "en": "slowly"
+        },
+        {
           "bn": "গল্প",
           "tr": "golpo",
           "en": "story"
-        },
-        {
-          "bn": "পূজা",
-          "tr": "puja",
-          "en": "puja"
-        },
-        {
-          "bn": "দেখতে",
-          "tr": "dekhte",
-          "en": "to see"
-        },
-        {
-          "bn": "বেড়াতে",
-          "tr": "berate",
-          "en": "to go out (on a visit or trip)"
         }
       ],
       "recycle": true

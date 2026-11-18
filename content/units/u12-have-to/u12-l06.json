@@ -1,0 +1,476 @@
+{
+  "id": "u12-l06",
+  "unit": "u12-have-to",
+  "title": "I want to",
+  "status": "draft",
+  "tip": "**চাওয়া 'want' + -তে form = 'want to'.** You know চাই, চাও, চান. Two more forms complete the set:\n\n- আমি **চাই** · তুই **চাস** · তুমি **চাও** · সে **চায়** · আপনি **চান**\n\nWith a noun it's 'want something': **আমি চা চাই** 'I want tea'. With a -তে form it's 'want to do': **আমি চা খেতে চাই** 'I want to have tea'.\n\nAs with পারা, the person stays **আমি / সে**, never the -কে form. 'Don't want to' = **চাই না**: **আমি যেতে চাই না**.\n\n**হতে** 'to become': **সে ডাক্তার হতে চায়** 'She wants to become a doctor'.",
+  "vocab": [
+    {
+      "id": "chay",
+      "bn": "চায়",
+      "tr": "chay",
+      "en": "he/she wants"
+    },
+    {
+      "id": "chash",
+      "bn": "চাস",
+      "tr": "chash",
+      "en": "you (intimate) want"
+    },
+    {
+      "id": "shikhte",
+      "bn": "শিখতে",
+      "tr": "shikhte",
+      "en": "to learn",
+      "notes": "Infinitive of শেখা; the stem is শিখ-. বাংলা শিখতে চাই \"I want to learn Bengali\"."
+    },
+    {
+      "id": "hote",
+      "bn": "হতে",
+      "tr": "hote",
+      "en": "to become",
+      "notes": "Infinitive of হওয়া. ডাক্তার হতে চায় \"wants to become a doctor\"."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আমি বাংলা শিখতে চাই।",
+        "tr": "ami bangla shikhte chai.",
+        "en": "I want to learn Bengali."
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "I can speak Bengali.",
+        "I have to learn Bengali.",
+        "I want to learn Bengali.",
+        "I am learning Bengali."
+      ],
+      "answer": 2,
+      "why": "**শিখতে** \"to learn\" + **চাই** \"I want\"."
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "চায়",
+        "tr": "chay",
+        "en": "he/she wants"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "I want",
+        "he/she wants",
+        "you (familiar) want",
+        "he/she can"
+      ],
+      "answer": 1,
+      "why": "সে → **চায়**, like খায়, যায়."
+    },
+    {
+      "id": "e03",
+      "type": "listen_select",
+      "audio": {
+        "bn": "চাস",
+        "tr": "chash",
+        "en": "you (intimate) want"
+      },
+      "options": [
+        "চাস",
+        "চাও",
+        "চায়",
+        "চাই"
+      ],
+      "answer": 0,
+      "why": "তুই → **চাস**, like খাস."
+    },
+    {
+      "id": "e04",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "সে ডাক্তার হতে চায়।",
+        "tr": "she daktar hote chay.",
+        "en": "She wants to become a doctor.",
+        "alt": [
+          "He wants to become a doctor.",
+          "She wants to be a doctor."
+        ]
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "She is a doctor.",
+        "She has to see a doctor.",
+        "She can become a doctor.",
+        "She wants to become a doctor."
+      ],
+      "answer": 3,
+      "why": "**হতে** \"to become\" + **চায়** \"(she) wants\"."
+    },
+    {
+      "id": "e05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "চায়",
+          "tr": "chay",
+          "en": "he/she wants"
+        },
+        {
+          "bn": "চাস",
+          "tr": "chash",
+          "en": "you (intimate) want"
+        },
+        {
+          "bn": "শিখতে",
+          "tr": "shikhte",
+          "en": "to learn"
+        },
+        {
+          "bn": "হতে",
+          "tr": "hote",
+          "en": "to become"
+        },
+        {
+          "bn": "চাও",
+          "tr": "chao",
+          "en": "(you, familiar) want"
+        }
+      ]
+    },
+    {
+      "id": "e06",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "উনি এখানে থাকতে চান।",
+        "tr": "uni ekhane thakte chan.",
+        "en": "He wants to stay here. (polite)",
+        "alt": [
+          "She wants to stay here.",
+          "He wants to live here."
+        ]
+      },
+      "options": [
+        "He wants to stay here.",
+        "He has to stay here.",
+        "He can stay here.",
+        "He stayed here."
+      ],
+      "answer": 0,
+      "why": "**চান** \"(polite) wants\"; \"has to\" would be **ওনাকে … হবে**."
+    },
+    {
+      "id": "e07",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "সে কিছু খেতে চায় না।",
+        "tr": "she kichhu khete chay na.",
+        "en": "He doesn't want to eat anything.",
+        "alt": [
+          "She doesn't want to eat anything."
+        ]
+      },
+      "options": [
+        "He wants to eat something.",
+        "He can't eat anything.",
+        "He doesn't want to eat anything.",
+        "He didn't eat anything."
+      ],
+      "answer": 2,
+      "why": "**চায় না** \"doesn't want\"."
+    },
+    {
+      "id": "e08",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "রাফি শিক্ষক হতে চায়।",
+        "tr": "rafi shikkhok hote chay.",
+        "en": "Rafi wants to become a teacher.",
+        "alt": [
+          "Rafi wants to be a teacher."
+        ]
+      },
+      "blank": "চায়",
+      "options": [
+        "চাই",
+        "চাও",
+        "চায়",
+        "চাস"
+      ],
+      "answer": 2,
+      "why": "**রাফি** is সে → **চায়**."
+    },
+    {
+      "id": "e09",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "তুই কী খেতে চাস?",
+        "tr": "tui ki khete chash?",
+        "en": "What do you want to eat? (intimate)"
+      },
+      "blank": "চাস",
+      "options": [
+        "চাস",
+        "চাও",
+        "চায়",
+        "চান"
+      ],
+      "answer": 0,
+      "why": "**তুই** → **চাস**, like খাস."
+    },
+    {
+      "id": "e10",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আমি আজ রান্না করতে চাই না।",
+        "tr": "ami aj ranna korte chai na.",
+        "en": "I don't want to cook today.",
+        "alt": [
+          "Today I don't want to cook."
+        ]
+      },
+      "blank": "করতে",
+      "options": [
+        "করি",
+        "করতে",
+        "করব",
+        "করলাম"
+      ],
+      "answer": 1,
+      "why": "Before **চাই** the verb is the -তে form: **রান্না করতে চাই না**."
+    },
+    {
+      "id": "e11",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আমি বাংলা শিখতে চাই।",
+        "tr": "ami bangla shikhte chai.",
+        "en": "I want to learn Bengali."
+      },
+      "blank": "শিখতে",
+      "accepted": [
+        "শিখতে",
+        "shikhte",
+        "shikte",
+        "sikhte"
+      ],
+      "why": "শেখা \"learn\" → **শিখতে** (stem শিখ-)."
+    },
+    {
+      "id": "e12",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "তুমি কি আমার সাথে আসতে চাও?",
+        "tr": "tumi ki amar shathe ashte chao?",
+        "en": "Do you want to come with me? (familiar)",
+        "alt": [
+          "Would you like to come with me?"
+        ]
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "চাও",
+        "চাই",
+        "আমার",
+        "সাথে",
+        "আমাকে",
+        "তুমি",
+        "আসি",
+        "কি",
+        "আসতে"
+      ],
+      "answer": [
+        "তুমি",
+        "কি",
+        "আমার",
+        "সাথে",
+        "আসতে",
+        "চাও"
+      ],
+      "why": "**তুমি** → **চাও**; \"with me\" = **আমার সাথে**."
+    },
+    {
+      "id": "e13",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমরা গ্রামে যেতে চাই।",
+        "tr": "amra grame jete chai.",
+        "en": "We want to go to the village."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "যেতে",
+        "যাই",
+        "চাই",
+        "গ্রামে",
+        "আমরা",
+        "আমাকে",
+        "চায়"
+      ],
+      "answer": [
+        "আমরা",
+        "গ্রামে",
+        "যেতে",
+        "চাই"
+      ],
+      "why": "**আমরা** takes the same form as আমি: **চাই**."
+    },
+    {
+      "id": "e14",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আমি যেতে চাই না।",
+        "tr": "ami jete chai na.",
+        "en": "I don't want to go."
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "আমাকে যেতে চাই না।",
+        "আমি যেতে চাই না।",
+        "আমি যেতে পারি না।",
+        "আমি যেতে চাই।"
+      ],
+      "answer": 1,
+      "why": "With **চাওয়া** the person stays **আমি**; **না** goes at the end."
+    },
+    {
+      "id": "e15",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "সে ডাক্তার হতে চায়।",
+        "tr": "she daktar hote chay.",
+        "en": "She wants to become a doctor.",
+        "alt": [
+          "He wants to become a doctor.",
+          "She wants to be a doctor."
+        ]
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "সে ডাক্তার হতে চায়",
+        "ও ডাক্তার হতে চায়",
+        "ডাক্তার হতে চায়",
+        "উনি ডাক্তার হতে চান",
+        "তিনি ডাক্তার হতে চান",
+        "ডাক্তার হতে চান",
+        "she daktar hote chay",
+        "uni daktar hote chan",
+        "tini daktar hote chan",
+        "she daktar hote chae",
+        "o daktar hote chay",
+        "daktar hote chay",
+        "she dakter hote chay",
+        "se daktar hote chay"
+      ],
+      "why": "\"to become\" = **হতে**; সে → **চায়**."
+    },
+    {
+      "id": "r01",
+      "type": "listen_select",
+      "audio": {
+        "bn": "পারেনি",
+        "tr": "pareni",
+        "en": "he/she couldn't"
+      },
+      "options": [
+        "জানাব",
+        "নই",
+        "গিয়েছিলাম",
+        "পারেনি"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "পারব",
+        "tr": "parbo",
+        "en": "I will be able to"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "কিনতে",
+        "পারব",
+        "করবে",
+        "বাজে"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "পারবেন",
+        "tr": "parben",
+        "en": "you (polite) will be able to"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "to understand",
+        "to do",
+        "you (polite) will be able to",
+        "to write"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "পারিনি",
+          "tr": "parini",
+          "en": "I couldn't"
+        },
+        {
+          "bn": "তাড়াতাড়ি",
+          "tr": "taratari",
+          "en": "early"
+        },
+        {
+          "bn": "পারবে",
+          "tr": "parbe",
+          "en": "you (familiar) / he, she will be able to"
+        },
+        {
+          "bn": "ওকে",
+          "tr": "oke",
+          "en": "him/her (spoken)"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "কাছে",
+          "tr": "kachhe",
+          "en": "near"
+        },
+        {
+          "bn": "দূরে",
+          "tr": "dure",
+          "en": "far"
+        },
+        {
+          "bn": "দশ",
+          "tr": "dosh",
+          "en": "ten"
+        },
+        {
+          "bn": "ওনাকে",
+          "tr": "onake",
+          "en": "him/her (polite)"
+        }
+      ],
+      "recycle": true
+    }
+  ]
+}

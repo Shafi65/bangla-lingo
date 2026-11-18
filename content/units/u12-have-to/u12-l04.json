@@ -1,0 +1,452 @@
+{
+  "id": "u12-l04",
+  "unit": "u12-have-to",
+  "title": "I can",
+  "status": "draft",
+  "tip": "**পারা 'can' takes the ordinary present endings:**\n\n- আমি **পারি** · তুই **পারিস** · তুমি **পারো** · সে **পারে** · আপনি **পারেন**\n\nThe person stays **আমি, তুমি, সে** here, not the -কে form: **আমি গাড়ি চালাতে পারি** 'I can drive', but **আমাকে গাড়ি চালাতে হবে** 'I have to drive'.\n\n'Can't' = **পারি না**, with না at the very end: **আমি লিখতে পারি না** 'I can't write'.\n\n**বুঝতে পারি** 'I can understand' is the usual way to say you understand a language: **আমি বাংলা বুঝতে পারি**.",
+  "vocab": [
+    {
+      "id": "paro",
+      "bn": "পারো",
+      "tr": "paro",
+      "en": "you (familiar) can"
+    },
+    {
+      "id": "parish",
+      "bn": "পারিস",
+      "tr": "parish",
+      "en": "you (intimate) can"
+    },
+    {
+      "id": "likhte",
+      "bn": "লিখতে",
+      "tr": "likhte",
+      "en": "to write",
+      "notes": "Infinitive of লেখা; the stem is লিখ- as in লিখি."
+    },
+    {
+      "id": "chalate",
+      "bn": "চালাতে",
+      "tr": "chalate",
+      "en": "to drive",
+      "notes": "Infinitive of চালানো. গাড়ি চালাতে পারি \"I can drive\"."
+    },
+    {
+      "id": "bujhte",
+      "bn": "বুঝতে",
+      "tr": "bujhte",
+      "en": "to understand",
+      "notes": "Infinitive of বোঝা. বুঝতে পারি \"I can understand\"; বুঝতে পারছি না \"I don't understand (right now)\"."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "পারো",
+        "tr": "paro",
+        "en": "you (familiar) can"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "I can",
+        "he/she can",
+        "you (familiar) can",
+        "you (polite) can"
+      ],
+      "answer": 2,
+      "why": "**তুমি** → **পারো**, like করো, যাও."
+    },
+    {
+      "id": "e02",
+      "type": "listen_select",
+      "audio": {
+        "bn": "পারিস",
+        "tr": "parish",
+        "en": "you (intimate) can"
+      },
+      "options": [
+        "পারিস",
+        "পারি",
+        "পারো",
+        "পারেন"
+      ],
+      "answer": 0,
+      "why": "**তুই** → **পারিস**, like করিস."
+    },
+    {
+      "id": "e03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আমি বাংলা পড়তে পারি, কিন্তু লিখতে পারি না।",
+        "tr": "ami bangla porte pari, kintu likhte pari na.",
+        "en": "I can read Bengali, but I can't write it.",
+        "alt": [
+          "I can read Bengali but I can't write."
+        ]
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "I can write Bengali, but I can't read it.",
+        "I can read Bengali, but I can't write it.",
+        "I want to read Bengali, but I can't.",
+        "I read Bengali, but I don't write it."
+      ],
+      "answer": 1,
+      "why": "**পড়তে পারি** \"can read\", **লিখতে পারি না** \"can't write\"."
+    },
+    {
+      "id": "e04",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "তুমি কি গাড়ি চালাতে পারো?",
+        "tr": "tumi ki gari chalate paro?",
+        "en": "Can you drive? (familiar)",
+        "alt": [
+          "Can you drive a car?"
+        ]
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "Do you want to drive?",
+        "Do you have a car?",
+        "Will you drive the car?",
+        "Can you drive?"
+      ],
+      "answer": 3,
+      "why": "**চালাতে** \"to drive\" + **পারো** \"(you) can\"."
+    },
+    {
+      "id": "e05",
+      "type": "listen_select",
+      "audio": {
+        "bn": "বুঝতে",
+        "tr": "bujhte",
+        "en": "to understand"
+      },
+      "options": [
+        "বলতে",
+        "বুঝতে",
+        "লিখতে",
+        "উঠতে"
+      ],
+      "answer": 1,
+      "why": "**বুঝতে** \"to understand\"; **বলতে** is \"to speak\"."
+    },
+    {
+      "id": "e06",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "পারো",
+          "tr": "paro",
+          "en": "you (familiar) can"
+        },
+        {
+          "bn": "পারিস",
+          "tr": "parish",
+          "en": "you (intimate) can"
+        },
+        {
+          "bn": "লিখতে",
+          "tr": "likhte",
+          "en": "to write"
+        },
+        {
+          "bn": "চালাতে",
+          "tr": "chalate",
+          "en": "to drive"
+        },
+        {
+          "bn": "বুঝতে",
+          "tr": "bujhte",
+          "en": "to understand"
+        }
+      ]
+    },
+    {
+      "id": "e07",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "আমি বাংলা বুঝতে পারি।",
+        "tr": "ami bangla bujhte pari.",
+        "en": "I can understand Bengali.",
+        "alt": [
+          "I understand Bengali."
+        ]
+      },
+      "options": [
+        "I can understand Bengali.",
+        "I can speak Bengali.",
+        "I want to learn Bengali.",
+        "I can't understand Bengali."
+      ],
+      "answer": 0,
+      "why": "**বুঝতে পারি** \"I can understand\"; there is no **না**."
+    },
+    {
+      "id": "e08",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "তুই কি রান্না করতে পারিস?",
+        "tr": "tui ki ranna korte parish?",
+        "en": "Can you cook? (intimate)"
+      },
+      "options": [
+        "Do you want to cook?",
+        "Are you cooking?",
+        "Can you cook?",
+        "Do you have to cook?"
+      ],
+      "answer": 2,
+      "why": "**পারিস** \"(you, intimate) can\"; \"want\" would be **চাস**."
+    },
+    {
+      "id": "e09",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আপনি কি বাংলা লিখতে পারেন?",
+        "tr": "apni ki bangla likhte paren?",
+        "en": "Can you write Bengali? (polite)"
+      },
+      "blank": "পারেন",
+      "options": [
+        "পারো",
+        "পারেন",
+        "পারি",
+        "পারিস"
+      ],
+      "answer": 1,
+      "why": "**আপনি** → **পারেন**, like করেন."
+    },
+    {
+      "id": "e10",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আমি গাড়ি চালাতে পারি না।",
+        "tr": "ami gari chalate pari na.",
+        "en": "I can't drive.",
+        "alt": [
+          "I can't drive a car.",
+          "I cannot drive."
+        ]
+      },
+      "blank": "আমি",
+      "options": [
+        "আমাকে",
+        "আমার",
+        "আমি",
+        "আমরা"
+      ],
+      "answer": 2,
+      "why": "With **পারা** the person stays **আমি**; the -কে form is only for **হবে** \"have to\"."
+    },
+    {
+      "id": "e11",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "সে ইংরেজি লিখতে পারে।",
+        "tr": "she ingreji likhte pare.",
+        "en": "She can write English.",
+        "alt": [
+          "He can write English."
+        ]
+      },
+      "blank": "লিখতে",
+      "accepted": [
+        "লিখতে",
+        "likhte",
+        "likte"
+      ],
+      "why": "লিখি → **লিখতে** \"to write\"."
+    },
+    {
+      "id": "e12",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমার বাবা খুব ভালো রান্না করতে পারেন।",
+        "tr": "amar baba khub bhalo ranna korte paren.",
+        "en": "My father can cook very well.",
+        "alt": [
+          "My dad can cook very well."
+        ]
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "পারেন",
+        "খুব",
+        "ভালো",
+        "পারো",
+        "বাবা",
+        "করতে",
+        "রান্না",
+        "করি",
+        "আমাকে",
+        "আমার"
+      ],
+      "answer": [
+        "আমার",
+        "বাবা",
+        "খুব",
+        "ভালো",
+        "রান্না",
+        "করতে",
+        "পারেন"
+      ],
+      "why": "A father is spoken of politely: **পারেন**."
+    },
+    {
+      "id": "e13",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "তুমি কি আমার কথা বুঝতে পারো?",
+        "tr": "tumi ki amar kotha bujhte paro?",
+        "en": "Can you understand what I say? (familiar)",
+        "alt": [
+          "Can you understand me?"
+        ]
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "তুমি কি আমার কথা বুঝতে পারেন?",
+        "তোমাকে কি আমার কথা বুঝতে হবে?",
+        "তুমি কি আমার কথা বলতে পারো?",
+        "তুমি কি আমার কথা বুঝতে পারো?"
+      ],
+      "answer": 3,
+      "why": "**তুমি** → **পারো**; **বুঝতে** \"to understand\", not **বলতে** \"to say\"."
+    },
+    {
+      "id": "e14",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আমি বাংলা বুঝতে পারি।",
+        "tr": "ami bangla bujhte pari.",
+        "en": "I can understand Bengali.",
+        "alt": [
+          "I understand Bengali."
+        ]
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "আমি বাংলা বুঝতে পারি",
+        "বাংলা বুঝতে পারি",
+        "আমি বাংলা বুঝি",
+        "ami bangla bujhte pari",
+        "bangla bujhte pari",
+        "ami bangla bujte pari",
+        "ami bangla bujhi",
+        "aami bangla bujhte pari"
+      ],
+      "why": "\"to understand\" = **বুঝতে**, then **পারি** \"I can\"."
+    },
+    {
+      "id": "r01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "নিতে",
+        "tr": "nite",
+        "en": "to take"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "করেছি",
+        "থাকতে",
+        "নিতে",
+        "ঘুমালাম"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "দিতে",
+        "tr": "dite",
+        "en": "to give"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "has gone",
+        "you did (intimate)",
+        "am not",
+        "to give"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "listen_select",
+      "audio": {
+        "bn": "চিন্তা",
+        "tr": "chinta",
+        "en": "worry"
+      },
+      "options": [
+        "চিন্তা",
+        "রমজানে",
+        "দাদি",
+        "লুঙ্গি"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "মাত্র",
+          "tr": "matro",
+          "en": "just"
+        },
+        {
+          "bn": "সবাই",
+          "tr": "shobai",
+          "en": "everyone"
+        },
+        {
+          "bn": "দুইটা",
+          "tr": "duita",
+          "en": "two (things)"
+        },
+        {
+          "bn": "লোক",
+          "tr": "lok",
+          "en": "people"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "ওইটা",
+          "tr": "oita",
+          "en": "that one"
+        },
+        {
+          "bn": "করল",
+          "tr": "korlo",
+          "en": "did"
+        },
+        {
+          "bn": "কয়জন",
+          "tr": "koyjon",
+          "en": "how many (people)"
+        },
+        {
+          "bn": "জি",
+          "tr": "ji",
+          "en": "yes (polite)"
+        }
+      ],
+      "recycle": true
+    }
+  ]
+}

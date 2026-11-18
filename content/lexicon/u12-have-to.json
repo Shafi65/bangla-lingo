@@ -1,0 +1,377 @@
+{
+  "unit": "u12-have-to",
+  "entries": [
+    {
+      "id": "korte",
+      "bn": "করতে",
+      "tr": "korte",
+      "en": "to do",
+      "pos": "verb",
+      "lesson": "u12-l01",
+      "notes": "Infinitive of করা: কর- + -তে. Same spelling as তুমি করতে \"you used to do\", met later."
+    },
+    {
+      "id": "jete",
+      "bn": "যেতে",
+      "tr": "jete",
+      "en": "to go",
+      "pos": "verb",
+      "lesson": "u12-l01",
+      "notes": "Infinitive of যাওয়া. Irregular: যাই → যেতে (like খাই → খেতে)."
+    },
+    {
+      "id": "ashte",
+      "bn": "আসতে",
+      "tr": "ashte",
+      "en": "to come",
+      "pos": "verb",
+      "lesson": "u12-l01",
+      "notes": "Infinitive of আসা. Do not confuse with আস্তে (aste) \"slowly\"."
+    },
+    {
+      "id": "porte",
+      "bn": "পড়তে",
+      "tr": "porte",
+      "en": "to read",
+      "alt": [
+        "to study"
+      ],
+      "pos": "verb",
+      "lesson": "u12-l01",
+      "notes": "Infinitive of পড়া."
+    },
+    {
+      "id": "kinte",
+      "bn": "কিনতে",
+      "tr": "kinte",
+      "en": "to buy",
+      "pos": "verb",
+      "lesson": "u12-l01",
+      "notes": "Infinitive of কেনা; the stem is কিন- as in কিনব."
+    },
+    {
+      "id": "thakte",
+      "bn": "থাকতে",
+      "tr": "thakte",
+      "en": "to stay",
+      "alt": [
+        "to live",
+        "to be (somewhere)"
+      ],
+      "pos": "verb",
+      "lesson": "u12-l01",
+      "notes": "Infinitive of থাকা."
+    },
+    {
+      "id": "shunte",
+      "bn": "শুনতে",
+      "tr": "shunte",
+      "en": "to listen",
+      "alt": [
+        "to hear"
+      ],
+      "pos": "verb",
+      "lesson": "u12-l01",
+      "notes": "Infinitive of শোনা; the stem is শুন- as in শুনবে."
+    },
+    {
+      "id": "hobe-must",
+      "bn": "হবে",
+      "tr": "hobe",
+      "en": "have to (after a -তে verb)",
+      "alt": [
+        "must",
+        "have to",
+        "has to"
+      ],
+      "pos": "verb",
+      "lesson": "u12-l02",
+      "notes": "X-কে + infinitive + হবে: আমাকে যেতে হবে \"I have to go\". Same word as হবে \"will be\"; the verb never changes for the person."
+    },
+    {
+      "id": "uthte",
+      "bn": "উঠতে",
+      "tr": "uthte",
+      "en": "to get up",
+      "alt": [
+        "to wake up"
+      ],
+      "pos": "verb",
+      "lesson": "u12-l02",
+      "notes": "Infinitive of ওঠা; the stem is উঠ- as in উঠি."
+    },
+    {
+      "id": "ghumate",
+      "bn": "ঘুমাতে",
+      "tr": "ghumate",
+      "en": "to sleep",
+      "pos": "verb",
+      "lesson": "u12-l02",
+      "notes": "Infinitive of ঘুমানো: ঘুমাই → ঘুমাতে. Kolkata ঘুমোতে."
+    },
+    {
+      "id": "taratari",
+      "bn": "তাড়াতাড়ি",
+      "tr": "taratari",
+      "en": "early",
+      "alt": [
+        "quickly",
+        "soon",
+        "fast"
+      ],
+      "pos": "adv",
+      "lesson": "u12-l02",
+      "notes": "তাড়াতাড়ি উঠতে হবে \"have to get up early\"; তাড়াতাড়ি আসো \"come quickly\"."
+    },
+    {
+      "id": "oke",
+      "bn": "ওকে",
+      "tr": "oke",
+      "en": "him/her (spoken)",
+      "alt": [
+        "him",
+        "her"
+      ],
+      "pos": "pronoun",
+      "lesson": "u12-l02",
+      "notes": "Object form of ও: ওকে যেতে হবে \"he/she has to go\"."
+    },
+    {
+      "id": "onake",
+      "bn": "ওনাকে",
+      "tr": "onake",
+      "en": "him/her (polite)",
+      "alt": [
+        "him",
+        "her"
+      ],
+      "pos": "pronoun",
+      "lesson": "u12-l02",
+      "register": "polite",
+      "notes": "Object form of উনি: ওনাকে আসতে হবে."
+    },
+    {
+      "id": "dite",
+      "bn": "দিতে",
+      "tr": "dite",
+      "en": "to give",
+      "alt": [
+        "to pay"
+      ],
+      "pos": "verb",
+      "lesson": "u12-l03",
+      "notes": "Infinitive of দেওয়া. টাকা দিতে হবে \"(you) have to pay\"."
+    },
+    {
+      "id": "nite",
+      "bn": "নিতে",
+      "tr": "nite",
+      "en": "to take",
+      "pos": "verb",
+      "lesson": "u12-l03",
+      "notes": "Infinitive of নেওয়া."
+    },
+    {
+      "id": "chinta",
+      "bn": "চিন্তা",
+      "tr": "chinta",
+      "en": "worry",
+      "alt": [
+        "thought",
+        "worrying"
+      ],
+      "pos": "noun",
+      "lesson": "u12-l03",
+      "notes": "চিন্তা করা \"to worry\". চিন্তা করতে হবে না \"no need to worry; don't worry\"."
+    },
+    {
+      "id": "paro",
+      "bn": "পারো",
+      "tr": "paro",
+      "en": "you (familiar) can",
+      "pos": "verb",
+      "lesson": "u12-l04"
+    },
+    {
+      "id": "parish",
+      "bn": "পারিস",
+      "tr": "parish",
+      "en": "you (intimate) can",
+      "pos": "verb",
+      "lesson": "u12-l04",
+      "register": "intimate"
+    },
+    {
+      "id": "likhte",
+      "bn": "লিখতে",
+      "tr": "likhte",
+      "en": "to write",
+      "pos": "verb",
+      "lesson": "u12-l04",
+      "notes": "Infinitive of লেখা; the stem is লিখ- as in লিখি."
+    },
+    {
+      "id": "chalate",
+      "bn": "চালাতে",
+      "tr": "chalate",
+      "en": "to drive",
+      "alt": [
+        "to ride",
+        "to run (a machine)"
+      ],
+      "pos": "verb",
+      "lesson": "u12-l04",
+      "notes": "Infinitive of চালানো. গাড়ি চালাতে পারি \"I can drive\"."
+    },
+    {
+      "id": "bujhte",
+      "bn": "বুঝতে",
+      "tr": "bujhte",
+      "en": "to understand",
+      "pos": "verb",
+      "lesson": "u12-l04",
+      "notes": "Infinitive of বোঝা. বুঝতে পারি \"I can understand\"; বুঝতে পারছি না \"I don't understand (right now)\"."
+    },
+    {
+      "id": "parini",
+      "bn": "পারিনি",
+      "tr": "parini",
+      "en": "I couldn't",
+      "alt": [
+        "I could not",
+        "I wasn't able to",
+        "I haven't been able to"
+      ],
+      "pos": "verb",
+      "lesson": "u12-l05",
+      "notes": "পারি + -নি, like করিনি. Also heard: পারলাম না (accepted when you type)."
+    },
+    {
+      "id": "pareni",
+      "bn": "পারেনি",
+      "tr": "pareni",
+      "en": "he/she couldn't",
+      "alt": [
+        "he couldn't",
+        "she couldn't",
+        "he/she wasn't able to"
+      ],
+      "pos": "verb",
+      "lesson": "u12-l05",
+      "notes": "পারে + -নি, like আসেনি."
+    },
+    {
+      "id": "parbo",
+      "bn": "পারব",
+      "tr": "parbo",
+      "en": "I will be able to",
+      "alt": [
+        "I can (later)",
+        "I'll be able to"
+      ],
+      "pos": "verb",
+      "lesson": "u12-l05",
+      "notes": "Future of পারা. পারব না \"I won't be able to\". Also spelled পারবো."
+    },
+    {
+      "id": "parbe",
+      "bn": "পারবে",
+      "tr": "parbe",
+      "en": "you (familiar) / he, she will be able to",
+      "alt": [
+        "can you (later)",
+        "will be able to"
+      ],
+      "pos": "verb",
+      "lesson": "u12-l05"
+    },
+    {
+      "id": "parben",
+      "bn": "পারবেন",
+      "tr": "parben",
+      "en": "you (polite) will be able to",
+      "alt": [
+        "could you",
+        "will you be able to"
+      ],
+      "pos": "verb",
+      "lesson": "u12-l05",
+      "register": "polite",
+      "notes": "আপনি কি … পারবেন? is a polite \"Could you…?\"."
+    },
+    {
+      "id": "chay",
+      "bn": "চায়",
+      "tr": "chay",
+      "en": "he/she wants",
+      "alt": [
+        "wants"
+      ],
+      "pos": "verb",
+      "lesson": "u12-l06"
+    },
+    {
+      "id": "chash",
+      "bn": "চাস",
+      "tr": "chash",
+      "en": "you (intimate) want",
+      "pos": "verb",
+      "lesson": "u12-l06",
+      "register": "intimate"
+    },
+    {
+      "id": "shikhte",
+      "bn": "শিখতে",
+      "tr": "shikhte",
+      "en": "to learn",
+      "pos": "verb",
+      "lesson": "u12-l06",
+      "notes": "Infinitive of শেখা; the stem is শিখ-. বাংলা শিখতে চাই \"I want to learn Bengali\"."
+    },
+    {
+      "id": "hote",
+      "bn": "হতে",
+      "tr": "hote",
+      "en": "to become",
+      "alt": [
+        "to be"
+      ],
+      "pos": "verb",
+      "lesson": "u12-l06",
+      "notes": "Infinitive of হওয়া. ডাক্তার হতে চায় \"wants to become a doctor\"."
+    },
+    {
+      "id": "boshte",
+      "bn": "বসতে",
+      "tr": "boshte",
+      "en": "to sit",
+      "pos": "verb",
+      "lesson": "u12-l07",
+      "notes": "Infinitive of বসা. আমি কি এখানে বসতে পারি? \"May I sit here?\""
+    },
+    {
+      "id": "aste",
+      "bn": "আস্তে",
+      "tr": "aste",
+      "en": "slowly",
+      "alt": [
+        "softly",
+        "quietly"
+      ],
+      "pos": "adv",
+      "lesson": "u12-l07",
+      "notes": "একটু আস্তে বলবেন? \"Could you speak more slowly?\" Do not confuse with আসতে (ashte) \"to come\"."
+    },
+    {
+      "id": "abar",
+      "bn": "আবার",
+      "tr": "abar",
+      "en": "again",
+      "alt": [
+        "once more"
+      ],
+      "pos": "adv",
+      "lesson": "u12-l07"
+    }
+  ]
+}

@@ -526,45 +526,47 @@
         "tr": "ekshathe",
         "en": "together"
       },
-      "direction": "en_to_bn",
+      "direction": "bn_to_en",
       "options": [
-        "একসাথে",
-        "দশটায়",
-        "হয়তো",
-        "আস্তে"
+        "together",
+        "where",
+        "in the evening",
+        "already"
       ],
       "answer": 0,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "fill_blank",
-      "sentence": {
-        "bn": "শীতকালে আমরা প্রায়ই লুকোচুরি খেলতাম।",
-        "tr": "shitkale amra prayi lukochuri kheltam.",
-        "en": "In winter we often played hide-and-seek."
+      "type": "listen_select",
+      "audio": {
+        "bn": "প্রায়ই",
+        "tr": "prayi",
+        "en": "often"
       },
-      "blank": "প্রায়ই",
-      "accepted": [
+      "options": [
         "প্রায়ই",
-        "prayi"
+        "রাতে",
+        "রোজ",
+        "গতকাল"
       ],
+      "answer": 0,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "সারাদিন",
-        "tr": "sharadin",
-        "en": "all day"
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "গরমকালে আমরা সারাদিন সাঁতার কাটতাম।",
+        "tr": "goromkale amra sharadin sha~tar kattam.",
+        "en": "In summer we used to swim all day."
       },
-      "direction": "bn_to_en",
+      "blank": "সারাদিন",
       "options": [
-        "at what time",
-        "yet",
-        "all day",
-        "there"
+        "সন্ধ্যায়",
+        "দুপুরে",
+        "সারাদিন",
+        "আগামীকাল"
       ],
       "answer": 2,
       "recycle": true
@@ -574,24 +576,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "নাচ",
-          "tr": "nach",
-          "en": "dance"
+          "bn": "ত্রিশ",
+          "tr": "trish",
+          "en": "thirty"
         },
         {
-          "bn": "মেহমান",
-          "tr": "mehman",
-          "en": "guest"
+          "bn": "তিনি",
+          "tr": "tini",
+          "en": "he/she (polite)"
         },
         {
-          "bn": "জন্মদিন",
-          "tr": "jonmodin",
-          "en": "birthday"
+          "bn": "দিকে",
+          "tr": "dike",
+          "en": "way"
         },
         {
-          "bn": "মাতৃভাষা",
-          "tr": "matribhasha",
-          "en": "mother tongue"
+          "bn": "পর্যন্ত",
+          "tr": "porjonto",
+          "en": "to"
         }
       ],
       "recycle": true
@@ -601,24 +603,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "পর্যন্ত",
-          "tr": "porjonto",
-          "en": "to"
+          "bn": "যদি",
+          "tr": "jodi",
+          "en": "if"
         },
         {
-          "bn": "দিকে",
-          "tr": "dike",
-          "en": "way"
+          "bn": "বলবে",
+          "tr": "bolbe",
+          "en": "you (familiar) / he, she will say"
         },
         {
-          "bn": "আছেন",
-          "tr": "achhen",
-          "en": "are (polite)"
+          "bn": "চলেন",
+          "tr": "cholen",
+          "en": "let's"
         },
         {
-          "bn": "উৎসব",
-          "tr": "utshob",
-          "en": "festival"
+          "bn": "কেন",
+          "tr": "keno",
+          "en": "why"
         }
       ],
       "recycle": true

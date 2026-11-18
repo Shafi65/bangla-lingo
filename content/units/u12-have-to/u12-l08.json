@@ -1,0 +1,545 @@
+{
+  "id": "u12-l08",
+  "unit": "u12-have-to",
+  "title": "Review: Have to, can, want to",
+  "status": "draft",
+  "tip": "**Three frames, one -তে form.**\n\n- **-কে + -তে + হবে** 'have to': **আমাকে যেতে হবে**; add না for 'don't have to'\n- **আমি + -তে + পারি / পারব / পারিনি** 'can / will be able to / couldn't'\n- **আমি + -তে + চাই** 'want to'\n\nOnly হবে takes the -কে form (আমাকে, তোমাকে, ওকে). পারা and চাওয়া keep আমি, তুমি, সে and change their own ending.\n\nAsk politely with **আমি কি … পারি?** 'May I…?' and **আপনি কি … পারবেন?** 'Could you…?'",
+  "vocab": [],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "reading",
+      "title": "Can you come on Friday?",
+      "lines": [
+        {
+          "speaker": "Rafi",
+          "bn": "নাদিয়া, তুমি কি শুক্রবার আমাদের বাসায় আসতে পারবে?",
+          "tr": "nadiya, tumi ki shukrobar amader bashay ashte parbe?",
+          "en": "Nadia, can you come to our place on Friday?"
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "দুঃখিত, শুক্রবার আমাকে অফিসে যেতে হবে।",
+          "tr": "dukkhito, shukrobar amake ofise jete hobe.",
+          "en": "Sorry, on Friday I have to go to the office."
+        },
+        {
+          "speaker": "Rafi",
+          "bn": "শনিবার কি তোমাকে অফিসে যেতে হবে?",
+          "tr": "shonibar ki tomake ofise jete hobe?",
+          "en": "Do you have to go to the office on Saturday?"
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "না, শনিবার যেতে হবে না। শনিবার আমি আসতে পারব। কয়টায় আসতে হবে?",
+          "tr": "na, shonibar jete hobe na. shonibar ami ashte parbo. koytay ashte hobe?",
+          "en": "No, I don't have to go on Saturday. I can come on Saturday. What time should I come?"
+        },
+        {
+          "speaker": "Rafi",
+          "bn": "সন্ধ্যা সাতটায়। আম্মু তোমার জন্য বিরিয়ানি রান্না করতে চান।",
+          "tr": "shondha shattay. ammu tomar jonno biriyani ranna korte chan.",
+          "en": "At seven in the evening. Mum wants to cook biryani for you."
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "খুব ভালো! গত সপ্তাহে আমি আসতে পারিনি, তাই শনিবার অবশ্যই আসব।",
+          "tr": "khub bhalo! goto shoptahe ami ashte parini, tai shonibar oboshshoi ashbo.",
+          "en": "Great! I couldn't come last week, so I'll definitely come on Saturday."
+        }
+      ],
+      "question": "When will Nadia come?",
+      "options": [
+        "On Friday evening",
+        "On Saturday evening",
+        "On Saturday morning"
+      ],
+      "answer": 1,
+      "why": "Nadia **has to** work on Friday (**যেতে হবে**), but **শনিবার আমি আসতে পারব**; Rafi says **সন্ধ্যা সাতটায়**."
+    },
+    {
+      "id": "e02",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "পড়তে",
+          "tr": "porte",
+          "en": "to read"
+        },
+        {
+          "bn": "কিনতে",
+          "tr": "kinte",
+          "en": "to buy"
+        },
+        {
+          "bn": "থাকতে",
+          "tr": "thakte",
+          "en": "to stay"
+        },
+        {
+          "bn": "শুনতে",
+          "tr": "shunte",
+          "en": "to listen"
+        },
+        {
+          "bn": "উঠতে",
+          "tr": "uthte",
+          "en": "to get up"
+        }
+      ]
+    },
+    {
+      "id": "e03",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "ঘুমাতে",
+          "tr": "ghumate",
+          "en": "to sleep"
+        },
+        {
+          "bn": "তাড়াতাড়ি",
+          "tr": "taratari",
+          "en": "early"
+        },
+        {
+          "bn": "ওকে",
+          "tr": "oke",
+          "en": "him/her (spoken)"
+        },
+        {
+          "bn": "ওনাকে",
+          "tr": "onake",
+          "en": "him/her (polite)"
+        },
+        {
+          "bn": "দিতে",
+          "tr": "dite",
+          "en": "to give"
+        }
+      ]
+    },
+    {
+      "id": "e04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "নিতে",
+          "tr": "nite",
+          "en": "to take"
+        },
+        {
+          "bn": "চিন্তা",
+          "tr": "chinta",
+          "en": "worry"
+        },
+        {
+          "bn": "লিখতে",
+          "tr": "likhte",
+          "en": "to write"
+        },
+        {
+          "bn": "চালাতে",
+          "tr": "chalate",
+          "en": "to drive"
+        },
+        {
+          "bn": "পারো",
+          "tr": "paro",
+          "en": "you (familiar) can"
+        }
+      ]
+    },
+    {
+      "id": "e05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "পারিস",
+          "tr": "parish",
+          "en": "you (intimate) can"
+        },
+        {
+          "bn": "চাস",
+          "tr": "chash",
+          "en": "you (intimate) want"
+        },
+        {
+          "bn": "চায়",
+          "tr": "chay",
+          "en": "he/she wants"
+        },
+        {
+          "bn": "হতে",
+          "tr": "hote",
+          "en": "to become"
+        },
+        {
+          "bn": "বসতে",
+          "tr": "boshte",
+          "en": "to sit"
+        }
+      ]
+    },
+    {
+      "id": "e06",
+      "type": "listen_select",
+      "audio": {
+        "bn": "আস্তে",
+        "tr": "aste",
+        "en": "slowly"
+      },
+      "options": [
+        "আসতে",
+        "আবার",
+        "আছে",
+        "আস্তে"
+      ],
+      "answer": 3,
+      "why": "**আস্তে** (*aste*) \"slowly\"; **আসতে** (*ashte*) is \"to come\"."
+    },
+    {
+      "id": "e07",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "সে কাল আসতে পারেনি।",
+        "tr": "she kal ashte pareni.",
+        "en": "He couldn't come yesterday.",
+        "alt": [
+          "She couldn't come yesterday."
+        ]
+      },
+      "options": [
+        "He can't come tomorrow.",
+        "He couldn't come yesterday.",
+        "He doesn't have to come tomorrow.",
+        "He didn't want to come yesterday."
+      ],
+      "answer": 1,
+      "why": "**পারেনি** \"couldn't\" is past, so কাল means \"yesterday\"."
+    },
+    {
+      "id": "e08",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "আপনি কি আবার বলতে পারবেন?",
+        "tr": "apni ki abar bolte parben?",
+        "en": "Could you say that again?",
+        "alt": [
+          "Could you say it again?",
+          "Can you repeat that?"
+        ]
+      },
+      "options": [
+        "Could you say that again?",
+        "Could you speak more slowly?",
+        "Do you want to say it again?",
+        "Did you say that again?"
+      ],
+      "answer": 0,
+      "why": "**আবার** \"again\" + **পারবেন?** \"could you?\""
+    },
+    {
+      "id": "e09",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আমাকে কাল সকালে উঠতে হবে।",
+        "tr": "amake kal shokale uthte hobe.",
+        "en": "I have to get up tomorrow morning.",
+        "alt": [
+          "Tomorrow I have to get up in the morning."
+        ]
+      },
+      "blank": "আমাকে",
+      "options": [
+        "আমি",
+        "আমাকে",
+        "আমার",
+        "আমরা"
+      ],
+      "answer": 1,
+      "why": "**হবে** \"have to\" takes the -কে form: **আমাকে**."
+    },
+    {
+      "id": "e10",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "দুঃখিত, আমি শুক্রবার যেতে পারব না।",
+        "tr": "dukkhito, ami shukrobar jete parbo na.",
+        "en": "Sorry, I won't be able to go on Friday.",
+        "alt": [
+          "Sorry, I can't go on Friday."
+        ]
+      },
+      "blank": "পারব",
+      "options": [
+        "পারিনি",
+        "পারবে",
+        "পারব",
+        "পারবেন"
+      ],
+      "answer": 2,
+      "why": "A plan for Friday needs the future: আমি → **পারব না**."
+    },
+    {
+      "id": "e11",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "সে ইংরেজি শিখতে চায়।",
+        "tr": "she ingreji shikhte chay.",
+        "en": "She wants to learn English.",
+        "alt": [
+          "He wants to learn English."
+        ]
+      },
+      "blank": "শিখতে",
+      "accepted": [
+        "শিখতে",
+        "shikhte",
+        "shikte",
+        "sikhte"
+      ],
+      "why": "\"to learn\" = **শিখতে**, before **চায়** \"wants\"."
+    },
+    {
+      "id": "e12",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "ওনাকে এখানে বসতে হবে।",
+        "tr": "onake ekhane boshte hobe.",
+        "en": "She has to sit here. (polite)",
+        "alt": [
+          "He has to sit here."
+        ]
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "হবে",
+        "ওনাকে",
+        "এখানে",
+        "পারেন",
+        "উনি",
+        "চান",
+        "বসতে"
+      ],
+      "answer": [
+        "ওনাকে",
+        "এখানে",
+        "বসতে",
+        "হবে"
+      ],
+      "alt": [
+        [
+          "এখানে",
+          "ওনাকে",
+          "বসতে",
+          "হবে"
+        ]
+      ],
+      "why": "**হবে** needs the -কে form: উনি → **ওনাকে**."
+    },
+    {
+      "id": "e13",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আমি বাংলা বুঝতে পারি, কিন্তু বলতে পারি না।",
+        "tr": "ami bangla bujhte pari, kintu bolte pari na.",
+        "en": "I can understand Bengali, but I can't speak it.",
+        "alt": [
+          "I understand Bengali but I can't speak it."
+        ]
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "আমি বাংলা বলতে পারি, কিন্তু বুঝতে পারি না।",
+        "আমাকে বাংলা বুঝতে হবে, কিন্তু বলতে হবে না।",
+        "আমি বাংলা বুঝতে পারি, কিন্তু বলতে পারি না।",
+        "আমি বাংলা বুঝতে চাই, কিন্তু বলতে চাই না।"
+      ],
+      "answer": 2,
+      "why": "\"can\" = **পারি**, \"can't\" = **পারি না**; **বুঝতে** \"to understand\", **বলতে** \"to speak\"."
+    },
+    {
+      "id": "e14",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "তোমাকে কাল আসতে হবে না।",
+        "tr": "tomake kal ashte hobe na.",
+        "en": "You don't have to come tomorrow."
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "তোমাকে কাল আসতে হবে না",
+        "তোমাকে আগামীকাল আসতে হবে না",
+        "আপনাকে কাল আসতে হবে না",
+        "আপনাকে আগামীকাল আসতে হবে না",
+        "তোকে কাল আসতে হবে না",
+        "তোকে আগামীকাল আসতে হবে না",
+        "কাল তোমাকে আসতে হবে না",
+        "কাল আপনাকে আসতে হবে না",
+        "আগামীকাল তোমাকে আসতে হবে না",
+        "আগামীকাল আপনাকে আসতে হবে না",
+        "কাল আসতে হবে না",
+        "tomake kal ashte hobe na",
+        "tomake kal aste hobe na",
+        "tomake kaal ashte hobe na",
+        "tomake kaal aste hobe na",
+        "tomake agamikal ashte hobe na",
+        "tomake agamikal aste hobe na",
+        "tomakey kal ashte hobe na",
+        "tomakey kal aste hobe na",
+        "tomakey kaal ashte hobe na",
+        "tomakey kaal aste hobe na",
+        "tomakey agamikal ashte hobe na",
+        "tomakey agamikal aste hobe na",
+        "apnake kal ashte hobe na",
+        "apnake kal aste hobe na",
+        "apnake kaal ashte hobe na",
+        "apnake kaal aste hobe na",
+        "apnake agamikal ashte hobe na",
+        "apnake agamikal aste hobe na",
+        "toke kal ashte hobe na",
+        "toke kal aste hobe na",
+        "toke kaal ashte hobe na",
+        "toke kaal aste hobe na",
+        "toke agamikal ashte hobe na",
+        "toke agamikal aste hobe na",
+        "kal tomake ashte hobe na",
+        "kal tomake aste hobe na",
+        "kaal tomake ashte hobe na",
+        "kaal tomake aste hobe na",
+        "kal ashte hobe na"
+      ],
+      "why": "\"You don't have to\" = **তোমাকে … হবে না**."
+    },
+    {
+      "id": "e15",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আমি ডাক্তার হতে চাই।",
+        "tr": "ami daktar hote chai.",
+        "en": "I want to become a doctor.",
+        "alt": [
+          "I want to be a doctor."
+        ]
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "আমি ডাক্তার হতে চাই",
+        "ডাক্তার হতে চাই",
+        "ami daktar hote chai",
+        "daktar hote chai",
+        "ami dakter hote chai",
+        "aami daktar hote chai"
+      ],
+      "why": "\"to become\" = **হতে**, then **চাই** \"I want\"."
+    },
+    {
+      "id": "r01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ইনশাআল্লাহ",
+        "tr": "inshaallah",
+        "en": "God willing"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "God willing",
+        "panta bhat",
+        "21 February",
+        "see you again"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "listen_select",
+      "audio": {
+        "bn": "থাকবে",
+        "tr": "thakbe",
+        "en": "you (familiar) / he, she will stay"
+      },
+      "options": [
+        "রাখি",
+        "চাই",
+        "থাকবে",
+        "পড়ছি"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "কার",
+        "tr": "kar",
+        "en": "whose"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "আমরা",
+        "তুমি",
+        "কার",
+        "তার"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "জানাব",
+          "tr": "janabo",
+          "en": "I will let (you) know"
+        },
+        {
+          "bn": "দেবেন",
+          "tr": "deben",
+          "en": "you (polite) will give"
+        },
+        {
+          "bn": "করবি",
+          "tr": "korbi",
+          "en": "you (intimate) will do"
+        },
+        {
+          "bn": "কিনবে",
+          "tr": "kinbe",
+          "en": "you (familiar) / he, she will buy"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "খেয়েছেন",
+          "tr": "kheyechhen",
+          "en": "have you eaten (polite)"
+        },
+        {
+          "bn": "দেব",
+          "tr": "debo",
+          "en": "I will give"
+        },
+        {
+          "bn": "প্ল্যান",
+          "tr": "plyan",
+          "en": "plan"
+        },
+        {
+          "bn": "একজন",
+          "tr": "ekjon",
+          "en": "one (person)"
+        }
+      ],
+      "recycle": true
+    }
+  ]
+}
