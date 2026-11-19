@@ -51,7 +51,7 @@ export function ListenMeaning({ ex, locked, onChange }: ExerciseProps<ListenMean
           ) : (
             <button
               type="button"
-              className="font-black text-brand underline"
+              className="min-h-11 font-black text-brand underline"
               onClick={() => setReveal(true)}
             >
               Show the sentence instead

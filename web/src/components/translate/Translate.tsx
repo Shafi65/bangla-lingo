@@ -32,7 +32,7 @@ function Chip({ children, onClick, bn }: { children: string; onClick: () => void
       data-enter-native
       onClick={onClick}
       lang={bn ? "bn" : undefined}
-      className="inline-flex min-h-9 items-center rounded-full border-2 border-line bg-surface px-3.5 text-[0.9375rem] font-bold text-ink hover:border-brand/40 hover:bg-brand-light/50"
+      className="inline-flex min-h-11 items-center rounded-full border-2 border-line bg-surface px-3.5 text-[0.9375rem] font-bold text-ink hover:border-brand/40 hover:bg-brand-light/50"
     >
       {children}
     </button>
@@ -142,7 +142,7 @@ export function Translate({ data }: { data: TranslateData }) {
             onClick={swap}
             aria-label={`Swap: translate ${NAMES[to].en} to ${NAMES[from].en}`}
             title="Swap languages"
-            className="flex h-10 w-10 items-center justify-center rounded-full bg-brand-light text-brand-dark transition-transform hover:brightness-95 active:rotate-180 motion-reduce:transition-none"
+            className="flex h-11 w-11 items-center justify-center rounded-full bg-brand-light text-brand-dark transition-transform hover:brightness-95 active:rotate-180 motion-reduce:transition-none"
           >
             <SwapIcon />
           </button>
@@ -191,7 +191,7 @@ export function Translate({ data }: { data: TranslateData }) {
               type="button"
               data-enter-native
               onClick={clear}
-              className="inline-flex h-9 items-center gap-1 rounded-xl px-2.5 text-sm font-extrabold text-muted hover:bg-sunk hover:text-ink"
+              className="inline-flex h-11 items-center gap-1 rounded-xl px-2.5 text-sm font-extrabold text-muted hover:bg-sunk hover:text-ink"
             >
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.6" strokeLinecap="round" aria-hidden>
                 <path d="M6 6l12 12M18 6L6 18" />
@@ -199,7 +199,7 @@ export function Translate({ data }: { data: TranslateData }) {
               Clear
             </button>
           )}
-          <button type="submit" data-enter-native className="btn btn-primary ml-auto min-h-10 px-5 py-2 text-base" disabled={machine.s === "loading"}>
+          <button type="submit" data-enter-native className="btn btn-primary ml-auto min-h-11 px-5 py-2 text-base" disabled={machine.s === "loading"}>
             {machine.s === "loading" ? "Translating…" : "Translate"}
           </button>
         </div>

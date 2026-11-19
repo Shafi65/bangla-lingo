@@ -73,7 +73,7 @@ export function PlacementApp({ bank, config, units }: { bank: ItemBank; config: 
       <header className="mx-auto flex h-14 w-full max-w-md items-center justify-between gap-3 px-4 pt-[env(safe-area-inset-top)]">
         <span className="text-base font-black text-ink">Placement test</span>
         {shownPhase !== "test" && (
-          <Link href="/" aria-label="Close and go to the course" className="flex h-10 w-10 items-center justify-center rounded-xl text-muted hover:bg-sunk hover:text-ink">
+          <Link href="/" aria-label="Close and go to the course" className="flex h-11 w-11 items-center justify-center rounded-xl text-muted hover:bg-sunk hover:text-ink">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden>
               <path d="M6 6l12 12M18 6L6 18" stroke="currentColor" strokeWidth="2.6" strokeLinecap="round" />
             </svg>

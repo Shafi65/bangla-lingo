@@ -45,7 +45,7 @@ export default function GuidePage() {
         Grammar notes and word lists for every unit, to read before or after a lesson.
       </p>
       <p className="mt-2">
-        <Link href="/dictionary" className="font-extrabold text-brand-dark underline">
+        <Link href="/dictionary" className="inline-flex min-h-11 items-center font-extrabold text-brand-dark underline">
           Search the dictionary
         </Link>
       </p>

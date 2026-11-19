@@ -193,7 +193,7 @@ body {
     @apply bg-sunk;
   }
   .btn-sm {
-    @apply min-h-10 px-4 py-2 text-base;
+    @apply min-h-11 px-4 py-2 text-base;
   }
 
   /* Answer choice card */
@@ -231,7 +231,7 @@ body {
 
   /* Word-bank tile */
   .tile {
-    @apply press inline-flex min-h-12 flex-col items-center justify-center border-2 border-line-strong bg-surface px-4 py-1.5 text-lg leading-tight font-bold text-ink;
+    @apply press inline-flex max-w-full min-h-12 flex-col items-center justify-center border-2 border-line-strong bg-surface px-4 py-1.5 text-lg leading-tight font-bold text-ink;
     --lip: var(--color-line-strong);
     --lip-h: 3px;
     border-radius: var(--radius-tile);
@@ -241,7 +241,7 @@ body {
     @apply bg-sunk;
   }
   .tile-slot {
-    @apply inline-flex min-h-12 flex-col items-center justify-center border-2 border-transparent bg-sunk px-4 py-1.5 text-lg leading-tight font-bold text-transparent;
+    @apply inline-flex max-w-full min-h-12 flex-col items-center justify-center border-2 border-transparent bg-sunk px-4 py-1.5 text-lg leading-tight font-bold text-transparent;
     border-radius: var(--radius-tile);
     margin-bottom: 3px;
     box-shadow: inset 0 2px 0 var(--color-line);

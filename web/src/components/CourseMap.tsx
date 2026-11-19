@@ -272,7 +272,7 @@ function SectionBlock({
           aria-expanded={open}
           aria-controls={bodyId}
           onClick={() => onToggle(!open)}
-          className="flex shrink-0 items-center gap-1.5 rounded-xl px-3 py-2 text-sm font-extrabold text-muted transition-colors hover:bg-sunk hover:text-ink"
+          className="flex min-h-11 shrink-0 items-center gap-1.5 rounded-xl px-3 py-2 text-sm font-extrabold text-muted transition-colors hover:bg-sunk hover:text-ink"
         >
           {open ? "Hide" : "Show"}
           <svg width="14" height="14" viewBox="0 0 24 24" aria-hidden className={`transition-transform ${open ? "rotate-180" : ""}`}>
@@ -304,7 +304,7 @@ function SectionBlock({
                   <button
                     type="button"
                     onClick={() => onToggle(true)}
-                    className="flex w-full items-center gap-3 rounded-2xl px-2 py-2 text-left hover:bg-sunk"
+                    className="flex min-h-11 w-full items-center gap-3 rounded-2xl px-2 py-2 text-left hover:bg-sunk"
                   >
                     <span className={`w-16 shrink-0 text-sm font-extrabold ${script ? "text-accent-dark" : "text-brand-dark"}`}>
                       {label}

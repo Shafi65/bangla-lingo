@@ -19,7 +19,7 @@ export function SpeakButton({
   // Stays enabled while the device voice list is still loading, so a tap always tries.
   const hasVoice = useCanSpeak(bn) !== "no";
   const dims =
-    size === "lg" ? "h-24 w-24 rounded-[1.75rem]" : size === "sm" ? "h-8 w-8 rounded-xl" : "h-11 w-11 rounded-2xl";
+    size === "lg" ? "h-24 w-24 rounded-[1.75rem]" : size === "sm" ? "relative h-8 w-8 rounded-xl after:absolute after:-inset-1.5 after:content-['']" : "h-11 w-11 rounded-2xl";
   const icon = size === "lg" ? 44 : size === "sm" ? 16 : 22;
   const lipH = size === "lg" ? "5px" : size === "sm" ? "3px" : "4px";
   const label = hasVoice ? `${slow ? "Play slowly" : "Play audio"}: ${bn}` : NO_VOICE;

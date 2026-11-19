@@ -58,7 +58,7 @@ export function ReportButton({ lessonId, exerciseId }: { lessonId: string; exerc
         type="button"
         data-enter-native
         onClick={() => setOpen(true)}
-        className="rounded-lg px-1 text-sm font-bold text-muted underline hover:text-ink"
+        className="inline-flex min-h-11 items-center rounded-lg px-2 text-sm font-bold text-muted underline hover:text-ink"
       >
         Report a problem
       </button>

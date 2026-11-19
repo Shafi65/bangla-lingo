@@ -391,7 +391,7 @@ function TopBar({
           exitHref={exitHref}
           onExit={onExit}
           label="Quit"
-          className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl text-muted transition-colors hover:bg-sunk hover:text-ink"
+          className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl text-muted transition-colors hover:bg-sunk hover:text-ink"
         >
           <svg width="22" height="22" viewBox="0 0 24 24" aria-hidden>
             <path d="M6 6l12 12M18 6L6 18" stroke="currentColor" strokeWidth="3" strokeLinecap="round" />
@@ -418,7 +418,7 @@ function TopBar({
             type="button"
             onClick={onTip}
             aria-haspopup="dialog"
-            className="shrink-0 rounded-xl border-2 border-brand/30 bg-brand-light px-2.5 py-1 text-sm font-black text-brand-dark transition hover:brightness-95"
+            className="min-h-11 shrink-0 rounded-xl border-2 border-brand/30 bg-brand-light px-3 py-1 text-sm font-black text-brand-dark transition hover:brightness-95"
           >
             Tip
           </button>
@@ -461,7 +461,7 @@ function Intro({ lesson, onStart }: { lesson: Lesson; onStart: () => void }) {
   return (
     <div className="flex min-h-dvh flex-col bg-paper">
       <header className="mx-auto flex w-full max-w-xl items-center px-4 pt-[max(1.25rem,env(safe-area-inset-top))]">
-        <Link href="/" className="rounded-lg px-1 py-1 font-extrabold text-muted transition-colors hover:text-ink">
+        <Link href="/" className="inline-flex min-h-11 items-center rounded-lg px-1 py-1 font-extrabold text-muted transition-colors hover:text-ink">
           <span aria-hidden>←</span> Back to the map
         </Link>
       </header>

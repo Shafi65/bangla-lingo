@@ -49,7 +49,7 @@ export function Intro({ headingRef, onBegin }: { headingRef: RefObject<HTMLHeadi
         <button type="button" className="btn btn-primary w-full" onClick={onBegin}>
           Begin
         </button>
-        <Link href="/" className="self-center rounded-lg px-2 py-1 font-extrabold text-muted underline-offset-4 hover:text-ink hover:underline">
+        <Link href="/" className="inline-flex min-h-11 items-center self-center rounded-lg px-3 py-1 font-extrabold text-muted underline-offset-4 hover:text-ink hover:underline">
           Not now
         </Link>
       </div>

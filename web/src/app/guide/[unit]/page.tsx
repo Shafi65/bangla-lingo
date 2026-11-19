@@ -27,7 +27,7 @@ export default async function GuideUnitPage({ params }: PageProps<"/guide/[unit]
   return (
     <AppShell>
       <p>
-        <Link href="/guide" className="font-extrabold text-brand-dark underline">
+        <Link href="/guide" className="inline-flex min-h-11 items-center font-extrabold text-brand-dark underline">
           ‹ Guidebook
         </Link>
       </p>
@@ -45,7 +45,7 @@ export default async function GuideUnitPage({ params }: PageProps<"/guide/[unit]
             <ul className="flex flex-wrap gap-2">
               {u.lessons.map((l) => (
                 <li key={l.id}>
-                  <a href={`#${l.id}`} className="inline-block rounded-full border-2 border-line bg-surface px-3 py-1 text-sm font-extrabold hover:bg-sunk">
+                  <a href={`#${l.id}`} className="inline-flex min-h-11 items-center rounded-full border-2 border-line bg-surface px-3 py-1 text-sm font-extrabold hover:bg-sunk">
                     {l.title}
                   </a>
                 </li>

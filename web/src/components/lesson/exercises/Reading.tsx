@@ -145,7 +145,7 @@ function Line({
             aria-expanded={open}
             aria-controls={id}
             onClick={() => setOpen((o) => !o)}
-            className="mt-1 -ml-1 min-h-8 rounded-md px-1 text-sm font-extrabold text-brand-dark underline decoration-2 underline-offset-2"
+            className="-ml-1 min-h-11 rounded-md px-1 text-sm font-extrabold text-brand-dark underline decoration-2 underline-offset-2"
           >
             {open ? "Hide translation" : "Show translation"}
           </button>

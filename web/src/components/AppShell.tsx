@@ -80,9 +80,9 @@ export function AppShell({
       </a>
       <header className="sticky top-0 z-20 border-b-2 border-line bg-surface/90 pt-[env(safe-area-inset-top)] backdrop-blur-md">
         <div className="mx-auto flex h-[var(--header-core)] max-w-6xl items-center justify-between gap-3 px-4">
-          <Link href="/" className="flex shrink-0 items-center gap-2 rounded-xl" aria-label="BanglaLingo home">
+          <Link href="/" className="flex min-h-11 min-w-11 shrink-0 items-center gap-2 rounded-xl" aria-label="BanglaLingo home">
             <Logo />
-            <span className="text-xl font-black tracking-tight text-brand-dark max-[360px]:hidden">
+            <span className="text-xl font-black tracking-tight text-brand-dark max-[400px]:hidden">
               BanglaLingo
             </span>
           </Link>
@@ -100,16 +100,16 @@ export function AppShell({
               ))}
             </ul>
           </nav>
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-1 min-[400px]:gap-2">
             <StreakBadge />
-            <Link href="/settings#goal" className="rounded-full" aria-label="Daily goal settings">
+            <Link href="/settings#goal" className="flex h-11 w-11 items-center justify-center rounded-full" aria-label="Daily goal settings">
               <GoalRing size={38} />
             </Link>
             <Link
               href="/profile"
               aria-label="Profile"
               aria-current={isActive(pathname, "/profile") ? "page" : undefined}
-              className={`flex h-9 w-9 items-center justify-center rounded-xl md:hidden ${
+              className={`flex h-11 w-11 items-center justify-center rounded-xl md:hidden ${
                 isActive(pathname, "/profile") ? "bg-brand-light text-brand-dark" : "text-muted hover:bg-sunk"
               }`}
             >
@@ -119,7 +119,7 @@ export function AppShell({
               href="/settings"
               aria-label="Settings"
               aria-current={isActive(pathname, "/settings") ? "page" : undefined}
-              className={`flex h-9 w-9 items-center justify-center rounded-xl md:hidden ${
+              className={`flex h-11 w-11 items-center justify-center rounded-xl md:hidden ${
                 isActive(pathname, "/settings") ? "bg-brand-light text-brand-dark" : "text-muted hover:bg-sunk"
               }`}
             >

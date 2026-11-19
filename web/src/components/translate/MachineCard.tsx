@@ -24,7 +24,7 @@ function CopyButton({ text }: { text: string }) {
           // Clipboard blocked: nothing to do; the text can still be selected by hand.
         }
       }}
-      className="inline-flex h-8 items-center gap-1.5 rounded-xl border-2 border-line-strong bg-surface px-3 text-sm font-extrabold text-ink hover:bg-sunk"
+      className="inline-flex h-11 items-center gap-1.5 rounded-xl border-2 border-line-strong bg-surface px-3 text-sm font-extrabold text-ink hover:bg-sunk"
     >
       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
         {copied ? (

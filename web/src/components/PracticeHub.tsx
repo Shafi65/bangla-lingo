@@ -59,7 +59,7 @@ export function PracticeHub({ words, index }: { words: ReviewWord[]; index: Word
   }
 
   const tabClass = (t: Tab) =>
-    `flex-1 rounded-xl px-3 py-2 text-base font-black transition ${
+    `min-h-11 flex-1 rounded-xl px-3 py-2 text-base font-black transition ${
       tab === t ? "bg-surface text-ink shadow-sm" : "text-muted hover:text-ink"
     }`;
 

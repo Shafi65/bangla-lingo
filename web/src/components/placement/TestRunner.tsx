@@ -100,7 +100,7 @@ export function TestRunner({
         ) : (
           <button
             type="button"
-            className="h-10 rounded-xl px-2 text-sm font-extrabold text-muted hover:bg-sunk hover:text-ink"
+            className="h-11 rounded-xl px-2 text-sm font-extrabold text-muted hover:bg-sunk hover:text-ink"
             onClick={() => setConfirmStop(true)}
           >
             Stop test
