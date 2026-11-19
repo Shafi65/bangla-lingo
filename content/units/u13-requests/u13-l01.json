@@ -1,0 +1,522 @@
+{
+  "id": "u13-l01",
+  "unit": "u13-requests",
+  "title": "Come here, sit down",
+  "status": "draft",
+  "tip": "**A তুমি command is just the তুমি present form.** You already know it: **খাও** 'eat!', **যাও** 'go!', **দাও** 'give!', **করো** 'do!'. The same goes for any verb: **বসো** 'sit', **বলো** 'say', **শোনো** 'listen', **দেখো** 'look', **নাও** 'take'.\n\nOne is irregular: **আসা** 'come' → **এসো** (many Bangladeshis say **আসো**). **এদিকে এসো** 'Come here (this way)'.\n\nUse these with friends, younger relatives and children, people you call **তুমি**. Add **একটু** 'a little' to soften: **একটু শোনো** 'listen a sec'. The sentence often needs no 'you': **এখানে বসো** 'Sit here'.",
+  "vocab": [
+    {
+      "id": "bosho",
+      "bn": "বসো",
+      "tr": "bosho",
+      "en": "sit (familiar)",
+      "notes": "তুমি command of বসা; same form as তুমি বসো 'you sit'."
+    },
+    {
+      "id": "esho",
+      "bn": "এসো",
+      "tr": "esho",
+      "en": "come (familiar)",
+      "notes": "Irregular: আসা → এসো. Many Bangladeshi speakers say আসো (asho); both are accepted in typed answers."
+    },
+    {
+      "id": "bolo",
+      "bn": "বলো",
+      "tr": "bolo",
+      "en": "say (familiar)",
+      "notes": "Same form as তুমি বলো 'you say'."
+    },
+    {
+      "id": "shono",
+      "bn": "শোনো",
+      "tr": "shono",
+      "en": "listen (familiar)",
+      "notes": "Also gets a friend's attention: শোনো! 'Listen!'"
+    },
+    {
+      "id": "dekho",
+      "bn": "দেখো",
+      "tr": "dekho",
+      "en": "look (familiar)",
+      "notes": "Same form as তুমি দেখো 'you see'."
+    },
+    {
+      "id": "nao",
+      "bn": "নাও",
+      "tr": "nao",
+      "en": "take (familiar)",
+      "notes": "Offering something: এটা নাও 'Take this / Here you go'."
+    },
+    {
+      "id": "edike",
+      "bn": "এদিকে",
+      "tr": "edike",
+      "en": "this way",
+      "notes": "এ- 'this' + দিকে 'way, direction'. এদিকে এসো 'Come here'."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "বসো",
+        "tr": "bosho",
+        "en": "sit (familiar)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "sit",
+        "say",
+        "come",
+        "listen"
+      ],
+      "answer": 0,
+      "why": "**বসো** = তুমি বসো 'you sit', used as a command."
+    },
+    {
+      "id": "e02",
+      "type": "listen_select",
+      "audio": {
+        "bn": "এসো",
+        "tr": "esho",
+        "en": "come (familiar)"
+      },
+      "options": [
+        "বসো",
+        "আসি",
+        "এসো",
+        "আসতে"
+      ],
+      "answer": 2,
+      "why": "আসা 'come' is irregular: the command is **এসো**."
+    },
+    {
+      "id": "e03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "এদিকে এসো।",
+        "tr": "edike esho.",
+        "en": "Come here.",
+        "alt": [
+          "Come over here.",
+          "Come this way."
+        ]
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "Go there.",
+        "Come here.",
+        "Sit here.",
+        "Come later."
+      ],
+      "answer": 1,
+      "why": "**এদিকে** 'this way' + **এসো** 'come'."
+    },
+    {
+      "id": "e04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "বলো",
+          "tr": "bolo",
+          "en": "say (familiar)"
+        },
+        {
+          "bn": "শোনো",
+          "tr": "shono",
+          "en": "listen (familiar)"
+        },
+        {
+          "bn": "দেখো",
+          "tr": "dekho",
+          "en": "look (familiar)"
+        },
+        {
+          "bn": "নাও",
+          "tr": "nao",
+          "en": "take (familiar)"
+        },
+        {
+          "bn": "এদিকে",
+          "tr": "edike",
+          "en": "this way"
+        }
+      ]
+    },
+    {
+      "id": "e05",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "একটু শোনো।",
+        "tr": "ektu shono.",
+        "en": "Listen a moment.",
+        "alt": [
+          "Listen for a second.",
+          "Listen a bit."
+        ]
+      },
+      "options": [
+        "Look a moment.",
+        "Speak slowly.",
+        "Listen a moment.",
+        "Come a little closer."
+      ],
+      "answer": 2,
+      "why": "**শোনো** 'listen'; **একটু** softens it."
+    },
+    {
+      "id": "e06",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "দেখো, ওটা আমার বাসা।",
+        "tr": "dekho, ota amar basha.",
+        "en": "Look, that's my home.",
+        "alt": [
+          "Look, that is my house.",
+          "Look, that's where I live."
+        ]
+      },
+      "options": [
+        "Look, that's my home.",
+        "Listen, this is my home.",
+        "Come, that's my school.",
+        "Look, that's my office."
+      ],
+      "answer": 0,
+      "why": "**দেখো** 'look'."
+    },
+    {
+      "id": "e07",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "এটা নাও।",
+        "tr": "eta nao.",
+        "en": "Take this.",
+        "alt": [
+          "Here, take this.",
+          "Here you go."
+        ]
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "Give this.",
+        "Eat this.",
+        "Look at this.",
+        "Take this."
+      ],
+      "answer": 3,
+      "why": "**নাও** 'take' vs **দাও** 'give'."
+    },
+    {
+      "id": "e08",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "ভিতরে এসো, বসো।",
+        "tr": "bhitore esho, bosho.",
+        "en": "Come in, sit down.",
+        "alt": [
+          "Come inside and sit down.",
+          "Come in and sit."
+        ]
+      },
+      "blank": "এসো",
+      "options": [
+        "আসি",
+        "এসো",
+        "আসতে",
+        "আসব"
+      ],
+      "answer": 1,
+      "why": "A command to তুমি: **এসো**, not আসি 'I come' or আসতে 'to come'."
+    },
+    {
+      "id": "e09",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আবার বলো।",
+        "tr": "abar bolo.",
+        "en": "Say it again. (to a friend)",
+        "alt": [
+          "Say that again.",
+          "Tell me again."
+        ]
+      },
+      "blank": "বলো",
+      "options": [
+        "বলি",
+        "বলতে",
+        "বলব",
+        "বলো"
+      ],
+      "answer": 3,
+      "why": "To a friend the command is the তুমি form: **বলো**."
+    },
+    {
+      "id": "e10",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "ভিতরে এসো, বসো।",
+        "tr": "bhitore esho, bosho.",
+        "en": "Come in, sit down.",
+        "alt": [
+          "Come inside and sit down.",
+          "Come in and sit."
+        ]
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "বসো",
+        "বাইরে",
+        "এসো",
+        "আসি",
+        "বসতে",
+        "যাও",
+        "ভিতরে"
+      ],
+      "answer": [
+        "ভিতরে",
+        "এসো",
+        "বসো"
+      ],
+      "why": "Two commands in a row: **এসো**, **বসো**."
+    },
+    {
+      "id": "e11",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "দেখো, ওটা আমার বাসা।",
+        "tr": "dekho, ota amar basha.",
+        "en": "Look, that's my home.",
+        "alt": [
+          "Look, that is my house.",
+          "Look, that's where I live."
+        ]
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "তোমার",
+        "এটা",
+        "ওটা",
+        "শোনো",
+        "দেখো",
+        "বাসা",
+        "আমার"
+      ],
+      "answer": [
+        "দেখো",
+        "ওটা",
+        "আমার",
+        "বাসা"
+      ],
+      "why": "**দেখো** 'look' opens the sentence, as in English."
+    },
+    {
+      "id": "e12",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "এটা নাও।",
+        "tr": "eta nao.",
+        "en": "Take this. (familiar)",
+        "alt": [
+          "Here, take this.",
+          "Here you go."
+        ]
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "এটা দাও।",
+        "ওটা নাও।",
+        "এটা নাও।",
+        "এটা খাও।"
+      ],
+      "answer": 2,
+      "why": "**নাও** 'take'; **দাও** 'give'; **এটা** 'this', **ওটা** 'that'."
+    },
+    {
+      "id": "e13",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আস্তে বলো।",
+        "tr": "aste bolo.",
+        "en": "Speak slowly.",
+        "alt": [
+          "Say it slowly.",
+          "Talk slowly."
+        ]
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "আস্তে বলো।",
+        "আসতে বলো।",
+        "আবার বলো।",
+        "আস্তে বলি।"
+      ],
+      "answer": 0,
+      "why": "**আস্তে** 'slowly' (not **আসতে** 'to come'); **বলো** is the command."
+    },
+    {
+      "id": "e14",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "এখানে বসো।",
+        "tr": "ekhane bosho.",
+        "en": "Sit here. (familiar)",
+        "alt": [
+          "Sit down here."
+        ]
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "এখানে বসো",
+        "বসো এখানে",
+        "তুমি এখানে বসো",
+        "ekhane bosho",
+        "ekhane boso",
+        "bosho ekhane",
+        "boso ekhane",
+        "tumi ekhane bosho",
+        "tumi ekhane boso",
+        "ekhane bo~sho",
+        "ekhane bo~so"
+      ],
+      "why": "**এখানে** 'here' + **বসো** 'sit'."
+    },
+    {
+      "id": "e15",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "এদিকে এসো।",
+        "tr": "edike esho.",
+        "en": "Come here. (familiar)",
+        "alt": [
+          "Come over here.",
+          "Come this way."
+        ]
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "এদিকে এসো",
+        "এদিকে আসো",
+        "এখানে এসো",
+        "এখানে আসো",
+        "edike esho",
+        "edike eso",
+        "edike asho",
+        "edike aso",
+        "ekhane esho",
+        "ekhane eso",
+        "ekhane asho",
+        "ekhane aso"
+      ],
+      "why": "**এদিকে এসো** 'come this way'. Many Bangladeshis say **আসো**; both are fine."
+    },
+    {
+      "id": "r01",
+      "type": "listen_select",
+      "audio": {
+        "bn": "মনে হয়",
+        "tr": "mone hoy",
+        "en": "I think"
+      },
+      "options": [
+        "এখনো না",
+        "মাঝে মাঝে",
+        "আসসালামু আলাইকুম",
+        "মনে হয়"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "দাঁত মাজা",
+        "tr": "da~t maja",
+        "en": "brushing teeth"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "দাঁত মাজা",
+        "ঈদ মোবারক",
+        "এখনো না",
+        "মাঝে মাঝে"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "পান্তা ভাত",
+        "tr": "panta bhat",
+        "en": "panta bhat"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "panta bhat",
+        "what happened",
+        "I think",
+        "sometimes"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "সাড়ে",
+          "tr": "share",
+          "en": "half past"
+        },
+        {
+          "bn": "ব্যস্ত",
+          "tr": "byasto",
+          "en": "busy"
+        },
+        {
+          "bn": "প্রতিদিন",
+          "tr": "protidin",
+          "en": "every day"
+        },
+        {
+          "bn": "পর্যন্ত",
+          "tr": "porjonto",
+          "en": "to"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "কালকের",
+          "tr": "kalker",
+          "en": "tomorrow's"
+        },
+        {
+          "bn": "এগুলো",
+          "tr": "egulo",
+          "en": "these"
+        },
+        {
+          "bn": "ছিলে",
+          "tr": "chhile",
+          "en": "you were (familiar)"
+        },
+        {
+          "bn": "খাওনি",
+          "tr": "khaoni",
+          "en": "you didn't eat (familiar)"
+        }
+      ],
+      "recycle": true
+    }
+  ]
+}

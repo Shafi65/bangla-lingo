@@ -456,50 +456,52 @@
     },
     {
       "id": "r01",
-      "type": "fill_blank",
-      "sentence": {
-        "bn": "সে অফিসে কাজ করছিল।",
-        "tr": "she ofise kaj korchhilo.",
-        "en": "He was working at the office."
+      "type": "listen_select",
+      "audio": {
+        "bn": "করছিল",
+        "tr": "korchhilo",
+        "en": "he/she was doing"
       },
-      "blank": "করছিল",
-      "accepted": [
+      "options": [
         "করছিল",
-        "korchhilo"
+        "জানেন",
+        "দেখিনি",
+        "নন"
       ],
+      "answer": 0,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "আসছিল",
-        "tr": "ashchhilo",
-        "en": "was coming"
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "নাদিয়া তখন বাসায় আসছিল।",
+        "tr": "nadiya tokhon bashay ashchhilo.",
+        "en": "Nadia was coming home then."
       },
-      "direction": "bn_to_en",
+      "blank": "আসছিল",
       "options": [
-        "I have gone",
-        "was coming",
-        "look (familiar); you see",
-        "I gave"
+        "আসছিল",
+        "উঠি",
+        "এসেছি",
+        "হয়"
       ],
-      "answer": 1,
+      "answer": 0,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "listen_select",
+      "type": "listen_meaning",
       "audio": {
-        "bn": "চালাতে",
-        "tr": "chalate",
-        "en": "to drive"
+        "bn": "লাইন কেটে গেছে।",
+        "tr": "lain kete gechhe.",
+        "en": "The line got cut."
       },
       "options": [
-        "দেখেছো",
-        "শোনে",
-        "চালাতে",
-        "বলিনি"
+        "Where do you live?",
+        "I watched a film.",
+        "The line got cut.",
+        "I will give you money."
       ],
       "answer": 2,
       "recycle": true
@@ -509,24 +511,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "পারিস",
-          "tr": "parish",
-          "en": "you (intimate) can"
+          "bn": "দেরি",
+          "tr": "deri",
+          "en": "delay; lateness"
         },
         {
-          "bn": "রাখেন",
-          "tr": "rakhen",
-          "en": "keep (polite)"
+          "bn": "লাইন",
+          "tr": "lain",
+          "en": "line"
         },
         {
-          "bn": "সাধারণত",
-          "tr": "shadharonoto",
-          "en": "usually"
+          "bn": "দেখাতে",
+          "tr": "dekhate",
+          "en": "to show"
         },
         {
-          "bn": "পারেনি",
-          "tr": "pareni",
-          "en": "he/she couldn't"
+          "bn": "ফোনে",
+          "tr": "fone",
+          "en": "on the phone"
         }
       ],
       "recycle": true
@@ -536,24 +538,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "দেখবেন",
-          "tr": "dekhben",
-          "en": "you (polite) will see"
+          "bn": "সাধারণত",
+          "tr": "shadharonoto",
+          "en": "usually"
         },
         {
-          "bn": "করো",
-          "tr": "koro",
-          "en": "you do (familiar)"
+          "bn": "বলবেন",
+          "tr": "bolben",
+          "en": "you / he, she (polite) will say"
         },
         {
-          "bn": "নিচে",
-          "tr": "niche",
-          "en": "downstairs"
+          "bn": "অপেক্ষা",
+          "tr": "opekkha",
+          "en": "waiting"
         },
         {
-          "bn": "কারণ",
-          "tr": "karon",
-          "en": "because"
+          "bn": "দেব",
+          "tr": "debo",
+          "en": "I will give"
         }
       ],
       "recycle": true

@@ -1,0 +1,508 @@
+{
+  "id": "u13-l03",
+  "unit": "u13-requests",
+  "title": "Wait! Don't worry",
+  "status": "draft",
+  "tip": "**'Wait!'** In everyday speech: **একটু দাঁড়ান** (আপনি) or **এক মিনিট দাঁড়াও** (তুমি). **দাঁড়ানো** means 'stand', but here it means 'hold on'. Offices and phone recordings say **একটু অপেক্ষা করুন** 'please wait a moment'.\n\n**করুন** is the standard polite 'do' (করি → করুন): **আমাকে সাহায্য করুন** 'Please help me'.\n\n**'Don't…' (polite) = the future + না:** **চিন্তা করবেন না** 'Don't worry', **যাবেন না** 'Don't go', **দেরি করবেন না** 'Don't be late'. (With তুমি people say **চিন্তা কোরো না**; that form comes later.)\n\n**দেরি** is 'lateness': **আমার একটু দেরি হবে** 'I'll be a bit late'.",
+  "vocab": [
+    {
+      "id": "korun",
+      "bn": "করুন",
+      "tr": "korun",
+      "en": "please do (standard)",
+      "notes": "করি → কর- + -উন. Everyday Bangladeshi speech also uses করেন."
+    },
+    {
+      "id": "opekkha",
+      "bn": "অপেক্ষা",
+      "tr": "opekkha",
+      "en": "waiting",
+      "notes": "অপেক্ষা করুন 'please wait': a little formal (offices, phone recordings)."
+    },
+    {
+      "id": "daran",
+      "bn": "দাঁড়ান",
+      "tr": "da~ran",
+      "en": "wait (polite); stand",
+      "notes": "Command of দাঁড়ানো 'stand'. একটু দাঁড়ান 'wait a moment' is everyday speech."
+    },
+    {
+      "id": "darao",
+      "bn": "দাঁড়াও",
+      "tr": "da~rao",
+      "en": "wait (familiar); stand",
+      "notes": "Command of দাঁড়ানো 'stand', to someone you call তুমি."
+    },
+    {
+      "id": "deri",
+      "bn": "দেরি",
+      "tr": "deri",
+      "en": "delay; lateness",
+      "notes": "দেরি করা 'be late, take long'; আমার দেরি হবে 'I'll be late'."
+    },
+    {
+      "id": "ekhoni",
+      "bn": "এখনই",
+      "tr": "ekhoni",
+      "en": "right now",
+      "notes": "এখন 'now' + -ই 'just, exactly'."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "একটু দাঁড়ান।",
+        "tr": "ektu da~ran.",
+        "en": "Wait a moment, please.",
+        "alt": [
+          "Please wait a bit.",
+          "Hold on a moment, please."
+        ]
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "Wait a moment, please.",
+        "Sit for a moment, please.",
+        "Speak a little, please.",
+        "Come a little closer, please."
+      ],
+      "answer": 0,
+      "why": "**দাঁড়ান** literally means 'stand', but **একটু দাঁড়ান** means 'hold on'."
+    },
+    {
+      "id": "e02",
+      "type": "listen_select",
+      "audio": {
+        "bn": "দাঁড়াও",
+        "tr": "da~rao",
+        "en": "wait (familiar); stand"
+      },
+      "options": [
+        "দাঁড়ান",
+        "দাও",
+        "দেখো",
+        "দাঁড়াও"
+      ],
+      "answer": 3,
+      "why": "**-ও** goes with তুমি (**দাঁড়াও**); **-ন** with আপনি (**দাঁড়ান**)."
+    },
+    {
+      "id": "e03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "অপেক্ষা",
+        "tr": "opekkha",
+        "en": "waiting"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "worry",
+        "waiting",
+        "help",
+        "lateness"
+      ],
+      "answer": 1,
+      "why": "**অপেক্ষা করুন** 'please wait'."
+    },
+    {
+      "id": "e04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "করুন",
+          "tr": "korun",
+          "en": "please do (standard)"
+        },
+        {
+          "bn": "দেরি",
+          "tr": "deri",
+          "en": "delay; lateness"
+        },
+        {
+          "bn": "এখনই",
+          "tr": "ekhoni",
+          "en": "right now"
+        },
+        {
+          "bn": "অপেক্ষা",
+          "tr": "opekkha",
+          "en": "waiting"
+        },
+        {
+          "bn": "দাঁড়ান",
+          "tr": "da~ran",
+          "en": "wait (polite); stand"
+        }
+      ]
+    },
+    {
+      "id": "e05",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "চিন্তা করবেন না।",
+        "tr": "chinta korben na.",
+        "en": "Don't worry.",
+        "alt": [
+          "Please don't worry."
+        ]
+      },
+      "options": [
+        "Don't worry.",
+        "Don't be late.",
+        "I'm not worried.",
+        "Don't go."
+      ],
+      "answer": 0,
+      "why": "Polite 'don't': the future **করবেন** + **না**."
+    },
+    {
+      "id": "e06",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "আমার একটু দেরি হবে।",
+        "tr": "amar ektu deri hobe.",
+        "en": "I'll be a little late.",
+        "alt": [
+          "I will be a bit late."
+        ]
+      },
+      "options": [
+        "I'm a little early.",
+        "Wait a little.",
+        "I'll be a little late.",
+        "I was a little late."
+      ],
+      "answer": 2,
+      "why": "**দেরি** 'lateness' + **হবে** 'will be'."
+    },
+    {
+      "id": "e07",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "এখনই যাবেন না।",
+        "tr": "ekhoni jaben na.",
+        "en": "Don't go just yet.",
+        "alt": [
+          "Please don't leave yet.",
+          "Don't go right now."
+        ]
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "Go right now.",
+        "Don't go just yet.",
+        "You don't have to go now.",
+        "I won't go now."
+      ],
+      "answer": 1,
+      "why": "**যাবেন না** 'don't go' (polite); **এখনই** 'right now'."
+    },
+    {
+      "id": "e08",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আমাকে সাহায্য করুন।",
+        "tr": "amake shahajjo korun.",
+        "en": "Please help me. (standard polite)",
+        "alt": [
+          "Help me, please."
+        ]
+      },
+      "blank": "করুন",
+      "options": [
+        "করো",
+        "করি",
+        "করব",
+        "করুন"
+      ],
+      "answer": 3,
+      "why": "Standard polite: করি → কর- + **-উন** = **করুন**."
+    },
+    {
+      "id": "e09",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "দেরি করবেন না।",
+        "tr": "deri korben na.",
+        "en": "Don't be late.",
+        "alt": [
+          "Please don't be late.",
+          "Please don't take long."
+        ]
+      },
+      "blank": "করবেন",
+      "options": [
+        "করবেন",
+        "করুন",
+        "করলাম",
+        "করব"
+      ],
+      "answer": 0,
+      "why": "Polite 'don't' = future **করবেন** + না. (**করুন না** would mean 'do it, please!')"
+    },
+    {
+      "id": "e10",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "একটু অপেক্ষা করুন।",
+        "tr": "ektu opekkha korun.",
+        "en": "Please wait a moment.",
+        "alt": [
+          "Please wait a little.",
+          "Please hold on."
+        ]
+      },
+      "blank": "অপেক্ষা",
+      "accepted": [
+        "অপেক্ষা",
+        "opekkha",
+        "opekha",
+        "apekkha",
+        "opekhkha"
+      ],
+      "why": "**অপেক্ষা করুন** 'please wait', the formal way."
+    },
+    {
+      "id": "e11",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "চিন্তা করবেন না।",
+        "tr": "chinta korben na.",
+        "en": "Don't worry. (polite)",
+        "alt": [
+          "Please don't worry."
+        ]
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "করবেন",
+        "নেই",
+        "চিন্তা",
+        "করি",
+        "করুন",
+        "না"
+      ],
+      "answer": [
+        "চিন্তা",
+        "করবেন",
+        "না"
+      ],
+      "why": "'Don't' (polite) = future **করবেন** + **না**."
+    },
+    {
+      "id": "e12",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "এখনই এসো।",
+        "tr": "ekhoni esho.",
+        "en": "Come right now. (familiar)",
+        "alt": [
+          "Come right away.",
+          "Come now."
+        ]
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "এসো",
+        "আসুন",
+        "এখানে",
+        "এখনই",
+        "যাও",
+        "আসি"
+      ],
+      "answer": [
+        "এখনই",
+        "এসো"
+      ],
+      "why": "**এখনই** 'right now' + **এসো** (তুমি)."
+    },
+    {
+      "id": "e13",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "এক মিনিট দাঁড়াও।",
+        "tr": "ek minit da~rao.",
+        "en": "Wait a minute. (familiar)",
+        "alt": [
+          "Hold on a minute.",
+          "Just a minute."
+        ]
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "এক মিনিট দাঁড়ান।",
+        "এক মিনিট বসো।",
+        "এক মিনিট দাঁড়াও।",
+        "এক ঘণ্টা দাঁড়াও।"
+      ],
+      "answer": 2,
+      "why": "To a friend: **দাঁড়াও**; **মিনিট** 'minute', not **ঘণ্টা** 'hour'."
+    },
+    {
+      "id": "e14",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আমার একটু দেরি হবে।",
+        "tr": "amar ektu deri hobe.",
+        "en": "I'll be a little late.",
+        "alt": [
+          "I will be a bit late."
+        ]
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "আমি একটু দেরি হবে।",
+        "আমার একটু দেরি হবে।",
+        "আমাকে একটু যেতে হবে।",
+        "একটু দেরি করবেন না।"
+      ],
+      "answer": 1,
+      "why": "Lateness 'comes to' you: **আমার** দেরি হবে, not আমি."
+    },
+    {
+      "id": "e15",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আমাকে সাহায্য করুন।",
+        "tr": "amake shahajjo korun.",
+        "en": "Please help me.",
+        "alt": [
+          "Help me, please."
+        ]
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "আমাকে সাহায্য করুন",
+        "আমাকে সাহায্য করেন",
+        "সাহায্য করুন",
+        "সাহায্য করেন",
+        "আমাকে একটু সাহায্য করুন",
+        "আমাকে একটু সাহায্য করেন",
+        "দয়া করে আমাকে সাহায্য করুন",
+        "দয়া করে আমাকে সাহায্য করেন",
+        "amake sahajjo korun",
+        "amake shahajjo korun",
+        "amake sahajjo koren",
+        "amake shahajjo koren",
+        "sahajjo korun",
+        "shahajjo korun",
+        "amake ektu sahajjo korun",
+        "amake ektu shahajjo korun",
+        "amake sahajjo korun please",
+        "amake shahajjo korun please",
+        "amake sahajo korun",
+        "amake shahajo korun"
+      ],
+      "why": "**সাহায্য করুন** 'please help' with **আমাকে** 'me'."
+    },
+    {
+      "id": "r01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "নিন",
+        "tr": "nin",
+        "en": "please take (standard)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "I write",
+        "you (familiar) can",
+        "let's",
+        "please take (standard)"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "listen_select",
+      "audio": {
+        "bn": "শুনুন",
+        "tr": "shunun",
+        "en": "please listen; excuse me"
+      },
+      "options": [
+        "শুনুন",
+        "উঠি",
+        "দেখবে",
+        "জানি"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "বসুন",
+        "tr": "boshun",
+        "en": "please sit (standard)"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "পারব",
+        "আসবেন",
+        "বসুন",
+        "ঘুমাব"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "সন্ধ্যায়",
+          "tr": "shondhay",
+          "en": "in the evening"
+        },
+        {
+          "bn": "বলুন",
+          "tr": "bolun",
+          "en": "please say (standard)"
+        },
+        {
+          "bn": "দেখে",
+          "tr": "dekhe",
+          "en": "watches"
+        },
+        {
+          "bn": "বসেন",
+          "tr": "boshen",
+          "en": "sit (polite)"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "গিয়েছিলাম",
+          "tr": "giyechhilam",
+          "en": "I had gone"
+        },
+        {
+          "bn": "একটি",
+          "tr": "ekti",
+          "en": "one; a (formal)"
+        },
+        {
+          "bn": "ছিলাম",
+          "tr": "chhilam",
+          "en": "I was"
+        },
+        {
+          "bn": "তিনটা",
+          "tr": "tinta",
+          "en": "three (o'clock)"
+        }
+      ],
+      "recycle": true
+    }
+  ]
+}

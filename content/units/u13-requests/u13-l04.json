@@ -1,0 +1,531 @@
+{
+  "id": "u13-l04",
+  "unit": "u13-requests",
+  "title": "Could you…? Thanks!",
+  "status": "draft",
+  "tip": "**A command is fine for offers** (বসুন, চা নিন). **To ask a favour, a question is softer** (U12): **আপনি কি দরজা খুলতে পারবেন?** 'Could you open the door?' To a friend: **তুমি কি … পারবে?**\n\n**প্লিজ**, from English, is everywhere in Bangladeshi speech and sounds more casual than **দয়া করে**: **প্লিজ, দরজা বন্ধ করো** 'Close the door, please'.\n\n**Thanks:** **অনেক ধন্যবাদ** 'Thank you very much'. Replies: **কোনো ব্যাপার না** 'It's nothing' or **কোনো সমস্যা নেই** 'No problem'.\n\n*Culture:* with family and close friends, ধন্যবাদ can sound stiff; people often just smile and say **আচ্ছা**.",
+  "vocab": [
+    {
+      "id": "plij",
+      "bn": "প্লিজ",
+      "tr": "plij",
+      "en": "please",
+      "notes": "From English. Very common in Bangladeshi speech, more casual than দয়া করে."
+    },
+    {
+      "id": "khulte",
+      "bn": "খুলতে",
+      "tr": "khulte",
+      "en": "to open",
+      "notes": "Infinitive of খোলা 'open': খুলি → খুল- + -তে (the vowel rises, as in শুনতে)."
+    },
+    {
+      "id": "dekhate",
+      "bn": "দেখাতে",
+      "tr": "dekhate",
+      "en": "to show",
+      "notes": "Infinitive of দেখানো 'show' (from দেখা 'see')."
+    },
+    {
+      "id": "dorja",
+      "bn": "দরজা",
+      "tr": "dorja",
+      "en": "door"
+    },
+    {
+      "id": "byapar",
+      "bn": "ব্যাপার",
+      "tr": "byapar",
+      "en": "matter; thing",
+      "notes": "কোনো ব্যাপার না 'no problem, it's nothing': a common reply to thanks."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "দরজা",
+        "tr": "dorja",
+        "en": "door"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "window",
+        "road",
+        "door",
+        "house"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e02",
+      "type": "listen_select",
+      "audio": {
+        "bn": "খুলতে",
+        "tr": "khulte",
+        "en": "to open"
+      },
+      "options": [
+        "বলতে",
+        "খুলতে",
+        "খেতে",
+        "শুনতে"
+      ],
+      "answer": 1,
+      "why": "খোলা 'open' → **খুলতে** 'to open' (the vowel rises, like শুনতে)."
+    },
+    {
+      "id": "e03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আপনি কি দরজা খুলতে পারবেন?",
+        "tr": "apni ki dorja khulte parben?",
+        "en": "Could you open the door?",
+        "alt": [
+          "Can you open the door?"
+        ]
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "Could you close the door?",
+        "May I open the door?",
+        "Do you have to open the door?",
+        "Could you open the door?"
+      ],
+      "answer": 3,
+      "why": "A favour as a question: **আপনি কি … পারবেন?**"
+    },
+    {
+      "id": "e04",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "দেখাতে",
+        "tr": "dekhate",
+        "en": "to show"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "to show",
+        "to see",
+        "to write",
+        "to give"
+      ],
+      "answer": 0,
+      "why": "দেখা 'see' → দেখানো 'show': **দেখাতে** 'to show' (vs **দেখতে** 'to see')."
+    },
+    {
+      "id": "e05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "প্লিজ",
+          "tr": "plij",
+          "en": "please"
+        },
+        {
+          "bn": "ব্যাপার",
+          "tr": "byapar",
+          "en": "matter; thing"
+        },
+        {
+          "bn": "দরজা",
+          "tr": "dorja",
+          "en": "door"
+        },
+        {
+          "bn": "খুলতে",
+          "tr": "khulte",
+          "en": "to open"
+        },
+        {
+          "bn": "দেখাতে",
+          "tr": "dekhate",
+          "en": "to show"
+        }
+      ]
+    },
+    {
+      "id": "e06",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "কোনো ব্যাপার না।",
+        "tr": "kono byapar na.",
+        "en": "It's nothing.",
+        "alt": [
+          "No problem.",
+          "Don't mention it.",
+          "You're welcome."
+        ]
+      },
+      "options": [
+        "Thank you very much.",
+        "It's nothing.",
+        "I don't know.",
+        "Not yet."
+      ],
+      "answer": 1,
+      "why": "**কোনো ব্যাপার না** is a common reply to thanks."
+    },
+    {
+      "id": "e07",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "আপনি কি আমাকে রাস্তা দেখাতে পারবেন?",
+        "tr": "apni ki amake rasta dekhate parben?",
+        "en": "Could you show me the way?",
+        "alt": [
+          "Can you show me the way?"
+        ]
+      },
+      "options": [
+        "Could you show me the way?",
+        "Could you see the road?",
+        "Can I show you the way?",
+        "Could you tell me your name?"
+      ],
+      "answer": 0,
+      "why": "**দেখাতে** 'to show' + **পারবেন?** 'could you?'"
+    },
+    {
+      "id": "e08",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "প্লিজ, দরজা বন্ধ করো।",
+        "tr": "plij, dorja bondho koro.",
+        "en": "Close the door, please.",
+        "alt": [
+          "Please close the door."
+        ]
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "Open the door, please.",
+        "The door is closed.",
+        "Close the door, please.",
+        "Please don't close the door."
+      ],
+      "answer": 2,
+      "why": "**বন্ধ করো** 'close' (তুমি); **প্লিজ** 'please'."
+    },
+    {
+      "id": "e09",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আপনি কি দরজা খুলতে পারবেন?",
+        "tr": "apni ki dorja khulte parben?",
+        "en": "Could you open the door?",
+        "alt": [
+          "Can you open the door?"
+        ]
+      },
+      "blank": "পারবেন",
+      "options": [
+        "পারবে",
+        "পারি",
+        "পারব",
+        "পারবেন"
+      ],
+      "answer": 3,
+      "why": "A polite request to **আপনি**: **পারবেন?** 'could you?'"
+    },
+    {
+      "id": "e10",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আপনি কি আমাকে রাস্তা দেখাতে পারবেন?",
+        "tr": "apni ki amake rasta dekhate parben?",
+        "en": "Could you show me the way?",
+        "alt": [
+          "Can you show me the way?"
+        ]
+      },
+      "blank": "দেখাতে",
+      "options": [
+        "দেখতে",
+        "দেখাতে",
+        "দেখো",
+        "দেখব"
+      ],
+      "answer": 1,
+      "why": "**দেখাতে** 'to show' vs **দেখতে** 'to see'."
+    },
+    {
+      "id": "e11",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "কোনো ব্যাপার না।",
+        "tr": "kono byapar na.",
+        "en": "It's nothing.",
+        "alt": [
+          "No problem.",
+          "Don't mention it.",
+          "You're welcome."
+        ]
+      },
+      "blank": "ব্যাপার",
+      "accepted": [
+        "ব্যাপার",
+        "byapar",
+        "bapar",
+        "beapar",
+        "byapaar"
+      ],
+      "why": "**কোনো ব্যাপার না** 'it's nothing / no problem'."
+    },
+    {
+      "id": "e12",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "তুমি কি দরজা খুলতে পারবে?",
+        "tr": "tumi ki dorja khulte parbe?",
+        "en": "Could you open the door? (familiar)",
+        "alt": [
+          "Can you open the door?"
+        ]
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "তুমি",
+        "খুলতে",
+        "কি",
+        "পারবে",
+        "আপনি",
+        "বন্ধ",
+        "পারবেন",
+        "দরজা"
+      ],
+      "answer": [
+        "তুমি",
+        "কি",
+        "দরজা",
+        "খুলতে",
+        "পারবে"
+      ],
+      "alt": [
+        [
+          "তুমি",
+          "দরজা",
+          "খুলতে",
+          "পারবে"
+        ]
+      ],
+      "why": "To a friend: **তুমি কি … পারবে?**"
+    },
+    {
+      "id": "e13",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "প্লিজ, আমাকে একটু সাহায্য করো।",
+        "tr": "plij, amake ektu shahajjo koro.",
+        "en": "Please help me a bit. (familiar)",
+        "alt": [
+          "Please help me.",
+          "Help me a little, please."
+        ]
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "প্লিজ",
+        "করুন",
+        "একটু",
+        "আমাকে",
+        "সাহায্য",
+        "পারবে",
+        "আমার",
+        "করো"
+      ],
+      "answer": [
+        "প্লিজ",
+        "আমাকে",
+        "একটু",
+        "সাহায্য",
+        "করো"
+      ],
+      "alt": [
+        [
+          "আমাকে",
+          "একটু",
+          "সাহায্য",
+          "করো"
+        ],
+        [
+          "প্লিজ",
+          "একটু",
+          "আমাকে",
+          "সাহায্য",
+          "করো"
+        ],
+        [
+          "আমাকে",
+          "একটু",
+          "সাহায্য",
+          "করো",
+          "প্লিজ"
+        ]
+      ],
+      "why": "**প্লিজ** + command **করো** (তুমি)."
+    },
+    {
+      "id": "e14",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "অনেক ধন্যবাদ।",
+        "tr": "onek dhonnobad.",
+        "en": "Thank you very much.",
+        "alt": [
+          "Thanks a lot.",
+          "Many thanks."
+        ]
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "অনেক ধন্যবাদ।",
+        "কোনো ব্যাপার না।",
+        "কোনো সমস্যা নেই।",
+        "জি, অবশ্যই।"
+      ],
+      "answer": 0,
+      "why": "**অনেক** 'a lot' + **ধন্যবাদ** 'thank you'."
+    },
+    {
+      "id": "e15",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "কোনো সমস্যা নেই।",
+        "tr": "kono shomossha nei.",
+        "en": "No problem at all.",
+        "alt": [
+          "There is no problem."
+        ]
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "কোনো সমস্যা নেই",
+        "কোনো ব্যাপার না",
+        "সমস্যা নেই",
+        "ব্যাপার না",
+        "কোন সমস্যা নেই",
+        "কোন ব্যাপার না",
+        "kono shomossha nei",
+        "kono somossa nei",
+        "kono byapar na",
+        "shomossha nei",
+        "somossa nei",
+        "byapar na",
+        "kono shomosha nei",
+        "kono somosa nei",
+        "kono samossa nei",
+        "kono bapar na"
+      ],
+      "why": "**কোনো সমস্যা নেই** or **কোনো ব্যাপার না**: both answer thanks."
+    },
+    {
+      "id": "r01",
+      "type": "listen_select",
+      "audio": {
+        "bn": "দাঁড়ান",
+        "tr": "da~ran",
+        "en": "wait (polite); stand"
+      },
+      "options": [
+        "শুনলাম",
+        "দাঁড়ান",
+        "শুনি",
+        "পারবে"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "দাঁড়াও",
+        "tr": "da~rao",
+        "en": "wait (familiar); stand"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "পারেন",
+        "দাও",
+        "যাবেন",
+        "দাঁড়াও"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "এখনই",
+        "tr": "ekhoni",
+        "en": "right now"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "the day after tomorrow",
+        "right now",
+        "at what time",
+        "today"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "অপেক্ষা",
+          "tr": "opekkha",
+          "en": "waiting"
+        },
+        {
+          "bn": "পৌনে",
+          "tr": "poune",
+          "en": "quarter to"
+        },
+        {
+          "bn": "দেরি",
+          "tr": "deri",
+          "en": "delay; lateness"
+        },
+        {
+          "bn": "কিনলাম",
+          "tr": "kinlam",
+          "en": "I bought"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "দেখিনি",
+          "tr": "dekhini",
+          "en": "I didn't see"
+        },
+        {
+          "bn": "করিস",
+          "tr": "korish",
+          "en": "you do (intimate)"
+        },
+        {
+          "bn": "করলে",
+          "tr": "korle",
+          "en": "you did (familiar)"
+        },
+        {
+          "bn": "তোমাদের",
+          "tr": "tomader",
+          "en": "your (familiar, plural)"
+        }
+      ],
+      "recycle": true
+    }
+  ]
+}

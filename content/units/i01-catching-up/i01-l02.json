@@ -520,47 +520,49 @@
         "tr": "portam",
         "en": "I used to study"
       },
-      "direction": "en_to_bn",
+      "direction": "bn_to_en",
       "options": [
-        "পড়তাম",
-        "আসেনি",
-        "খাও",
-        "হাঁটি"
+        "feels",
+        "I used to study",
+        "watches",
+        "you go (familiar)"
       ],
-      "answer": 0,
+      "answer": 1,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "fill_blank",
-      "sentence": {
-        "bn": "বিকালে আমরা মাঠে খেলতাম।",
-        "tr": "bikale amra mathe kheltam.",
-        "en": "In the afternoon we used to play in the field."
+      "type": "listen_select",
+      "audio": {
+        "bn": "খেলতাম",
+        "tr": "kheltam",
+        "en": "I used to play"
       },
-      "blank": "খেলতাম",
-      "accepted": [
-        "খেলতাম",
-        "kheltam"
+      "options": [
+        "যাচ্ছে",
+        "যেতাম",
+        "শেখে",
+        "খেলতাম"
       ],
+      "answer": 3,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "খেলা",
-        "tr": "khela",
-        "en": "game; playing"
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "ছোটবেলায় খেলা আমার খুব পছন্দ ছিল।",
+        "tr": "chhotobelay khela amar khub pochhondo chhilo.",
+        "en": "As a child I really liked playing."
       },
-      "direction": "bn_to_en",
+      "blank": "খেলা",
       "options": [
-        "holiday",
-        "key",
-        "game; playing",
-        "student (female)"
+        "বছর",
+        "স্টেশনে",
+        "মাংস",
+        "খেলা"
       ],
-      "answer": 2,
+      "answer": 3,
       "recycle": true
     },
     {
@@ -573,11 +575,6 @@
           "en": "childhood"
         },
         {
-          "bn": "পুকুর",
-          "tr": "pukur",
-          "en": "pond"
-        },
-        {
           "bn": "মাঠ",
           "tr": "math",
           "en": "field; playground"
@@ -586,6 +583,11 @@
           "bn": "মাঠে",
           "tr": "mathe",
           "en": "in the field"
+        },
+        {
+          "bn": "পুকুর",
+          "tr": "pukur",
+          "en": "pond"
         }
       ],
       "recycle": true
@@ -595,24 +597,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "কালকের",
-          "tr": "kalker",
-          "en": "tomorrow's"
+          "bn": "আছো",
+          "tr": "achho",
+          "en": "are (familiar)"
         },
         {
-          "bn": "দেখতে",
-          "tr": "dekhte",
-          "en": "to see"
-        },
-        {
-          "bn": "বেড়াতে",
-          "tr": "berate",
-          "en": "to go out (on a visit or trip)"
+          "bn": "আগামীকাল",
+          "tr": "agamikal",
+          "en": "tomorrow"
         },
         {
           "bn": "পড়েন",
           "tr": "poren",
           "en": "you read (polite)"
+        },
+        {
+          "bn": "চল",
+          "tr": "chol",
+          "en": "let's"
         }
       ],
       "recycle": true

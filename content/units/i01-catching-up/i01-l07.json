@@ -568,19 +568,17 @@
     },
     {
       "id": "r01",
-      "type": "listen_meaning",
-      "audio": {
+      "type": "fill_blank",
+      "sentence": {
         "bn": "আমি পড়ছিলাম, ঠিক তখন কারেন্ট চলে গেল।",
         "tr": "ami porchhilam, thik tokhon karent chole gelo.",
         "en": "I was studying, and just then the power went off."
       },
-      "options": [
-        "Mom is inside the house.",
-        "I have a sister.",
-        "I was studying, and just then the power went off.",
-        "How much is this?"
+      "blank": "কারেন্ট",
+      "accepted": [
+        "কারেন্ট",
+        "karent"
       ],
-      "answer": 2,
       "recycle": true
     },
     {
@@ -591,35 +589,42 @@
         "tr": "fonta",
         "en": "the phone"
       },
-      "direction": "en_to_bn",
+      "direction": "bn_to_en",
       "options": [
-        "মেঘ",
-        "ফোনটা",
-        "শাড়ি",
-        "কলাগুলো"
+        "hide-and-seek",
+        "the phone",
+        "Bengali (language)",
+        "city"
       ],
       "answer": 1,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "fill_blank",
-      "sentence": {
-        "bn": "আমাদের কাছে একটা মোমবাতি ছিল।",
-        "tr": "amader kachhe ekta mombati chhilo.",
-        "en": "We had a candle."
+      "type": "listen_select",
+      "audio": {
+        "bn": "মোমবাতি",
+        "tr": "mombati",
+        "en": "candle"
       },
-      "blank": "মোমবাতি",
-      "accepted": [
-        "মোমবাতি",
-        "mombati"
+      "options": [
+        "বয়স",
+        "মুরগি",
+        "মিটিং",
+        "মোমবাতি"
       ],
+      "answer": 3,
       "recycle": true
     },
     {
       "id": "r04",
       "type": "match_pairs",
       "pairs": [
+        {
+          "bn": "দরজায়",
+          "tr": "dorjay",
+          "en": "at the door"
+        },
         {
           "bn": "বর্ষাকালে",
           "tr": "borshakale",
@@ -634,11 +639,6 @@
           "bn": "ছুটিতে",
           "tr": "chhutite",
           "en": "in the holidays"
-        },
-        {
-          "bn": "দরজায়",
-          "tr": "dorjay",
-          "en": "at the door"
         }
       ],
       "recycle": true
@@ -653,11 +653,6 @@
           "en": "childhood"
         },
         {
-          "bn": "লুকোচুরি",
-          "tr": "lukochuri",
-          "en": "hide-and-seek"
-        },
-        {
           "bn": "ঘুড়ি",
           "tr": "ghuri",
           "en": "kite"
@@ -666,6 +661,11 @@
           "bn": "শীতকালে",
           "tr": "shitkale",
           "en": "in winter"
+        },
+        {
+          "bn": "লুকোচুরি",
+          "tr": "lukochuri",
+          "en": "hide-and-seek"
         }
       ],
       "recycle": true

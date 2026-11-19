@@ -1,0 +1,553 @@
+{
+  "id": "u13-l07",
+  "unit": "u13-requests",
+  "title": "Text me",
+  "status": "draft",
+  "tip": "**Texting.** A text is a **মেসেজ**. **পাঠানো** 'send': **পাঠাও** (তুমি), **পাঠান** (আপনি), **পাঠাব** 'I'll send'. Verbs whose আমি form ends in -আই (পাঠাই, খাই) have just one polite command: **পাঠান**, **খান**.\n\nShort replies:\n- **মেসেজ পেয়েছি** 'Got your message' (পেয়েছি 'I have got')\n- **বাসায় পৌঁছেছি** 'I've reached home': the text every Bangladeshi parent waits for after a trip.\n\n**'Let me know':** **আমাকে জানাও** (তুমি); politely, use the future: **আমাকে জানাবেন**, just as **আসবেন** means 'please come'.\n\n**ঠিকানা** 'address': **ঠিকানা পাঠাও** 'send the address'.",
+  "vocab": [
+    {
+      "id": "mesej",
+      "bn": "মেসেজ",
+      "tr": "mesej",
+      "en": "message"
+    },
+    {
+      "id": "pathao",
+      "bn": "পাঠাও",
+      "tr": "pathao",
+      "en": "send (familiar)"
+    },
+    {
+      "id": "pathan",
+      "bn": "পাঠান",
+      "tr": "pathan",
+      "en": "please send (polite)",
+      "notes": "পাঠানো 'send'. Verbs whose আমি form ends in -আই (পাঠাই, খাই, ঘুমাই) have one polite command: পাঠান, খান, ঘুমান."
+    },
+    {
+      "id": "pathabo",
+      "bn": "পাঠাব",
+      "tr": "pathabo",
+      "en": "I will send",
+      "notes": "Also spelled পাঠাবো."
+    },
+    {
+      "id": "peyechhi",
+      "bn": "পেয়েছি",
+      "tr": "peyechhi",
+      "en": "I have got"
+    },
+    {
+      "id": "janao",
+      "bn": "জানাও",
+      "tr": "janao",
+      "en": "let (me) know (familiar)"
+    },
+    {
+      "id": "janaben",
+      "bn": "জানাবেন",
+      "tr": "janaben",
+      "en": "please let (me) know (polite)",
+      "notes": "Polite future used as a gentle request, like আসবেন 'please come'."
+    },
+    {
+      "id": "pouchhechhi",
+      "bn": "পৌঁছেছি",
+      "tr": "pou~chhechhi",
+      "en": "I have reached",
+      "notes": "পৌঁছানো 'reach, arrive'. The classic text to family after a journey: বাসায় পৌঁছেছি."
+    },
+    {
+      "id": "thikana",
+      "bn": "ঠিকানা",
+      "tr": "thikana",
+      "en": "address"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আমাকে একটা মেসেজ পাঠাও।",
+        "tr": "amake ekta mesej pathao.",
+        "en": "Send me a message.",
+        "alt": [
+          "Text me.",
+          "Send me a text."
+        ]
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "Send me a message.",
+        "I'll send you a message.",
+        "Read my message.",
+        "I got a message."
+      ],
+      "answer": 0,
+      "why": "**পাঠাও** 'send' (তুমি) + **মেসেজ** 'message'."
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আমি বাসায় পৌঁছেছি।",
+        "tr": "ami bashay pou~chhechhi.",
+        "en": "I've reached home.",
+        "alt": [
+          "I've got home.",
+          "I have arrived home.",
+          "I'm home."
+        ]
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "I'm going home.",
+        "I'll be home soon.",
+        "I've reached home.",
+        "I'm still at home."
+      ],
+      "answer": 2,
+      "why": "**পৌঁছেছি** 'I have reached': the classic text after a trip."
+    },
+    {
+      "id": "e03",
+      "type": "listen_select",
+      "audio": {
+        "bn": "পেয়েছি",
+        "tr": "peyechhi",
+        "en": "I have got"
+      },
+      "options": [
+        "পৌঁছেছি",
+        "পেয়েছি",
+        "পাঠাব",
+        "পাচ্ছি"
+      ],
+      "answer": 1,
+      "why": "**পেয়েছি** 'I have got'; **পৌঁছেছি** 'I have reached'."
+    },
+    {
+      "id": "e04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "ঠিকানা",
+          "tr": "thikana",
+          "en": "address"
+        },
+        {
+          "bn": "পাঠান",
+          "tr": "pathan",
+          "en": "please send (polite)"
+        },
+        {
+          "bn": "পাঠাব",
+          "tr": "pathabo",
+          "en": "I will send"
+        },
+        {
+          "bn": "জানাও",
+          "tr": "janao",
+          "en": "let (me) know (familiar)"
+        },
+        {
+          "bn": "জানাবেন",
+          "tr": "janaben",
+          "en": "please let (me) know (polite)"
+        }
+      ]
+    },
+    {
+      "id": "e05",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "তোমার মেসেজ পেয়েছি।",
+        "tr": "tomar mesej peyechhi.",
+        "en": "I got your message.",
+        "alt": [
+          "I've got your message.",
+          "I received your message."
+        ]
+      },
+      "options": [
+        "I sent your message.",
+        "Send me your message.",
+        "I'll read your message.",
+        "I got your message."
+      ],
+      "answer": 3,
+      "why": "**পেয়েছি** 'I have got'."
+    },
+    {
+      "id": "e06",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "কখন আসবেন, আমাকে জানাবেন।",
+        "tr": "kokhon ashben, amake janaben.",
+        "en": "Let me know when you'll come.",
+        "alt": [
+          "Please let me know when you're coming.",
+          "Please tell me when you will come."
+        ]
+      },
+      "options": [
+        "Let me know when you'll come.",
+        "Tell me where you'll come.",
+        "I'll let you know when I'm coming.",
+        "When did you come?"
+      ],
+      "answer": 0,
+      "why": "**জানাবেন** 'please let me know': a polite future used as a request."
+    },
+    {
+      "id": "e07",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আপনার ঠিকানা পাঠান।",
+        "tr": "apnar thikana pathan.",
+        "en": "Please send your address.",
+        "alt": [
+          "Send me your address, please.",
+          "Please send me your address."
+        ]
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "I'll send your address.",
+        "Please send your address.",
+        "Please send your number.",
+        "Please write your name."
+      ],
+      "answer": 1,
+      "why": "**ঠিকানা** 'address' + **পাঠান** 'please send'."
+    },
+    {
+      "id": "e08",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আমাকে জানাও।",
+        "tr": "amake janao.",
+        "en": "Let me know. (familiar)",
+        "alt": [
+          "Tell me.",
+          "Let me know, OK?"
+        ]
+      },
+      "blank": "জানাও",
+      "options": [
+        "জানাব",
+        "জানাবেন",
+        "জানাও",
+        "জানি"
+      ],
+      "answer": 2,
+      "why": "To a friend: **জানাও**. Politely: **জানাবেন**."
+    },
+    {
+      "id": "e09",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আমি পরে মেসেজ পাঠাব।",
+        "tr": "ami pore mesej pathabo.",
+        "en": "I'll send a message later.",
+        "alt": [
+          "I'll text later.",
+          "I will send a message later."
+        ]
+      },
+      "blank": "পাঠাব",
+      "options": [
+        "পাঠাব",
+        "পাঠাও",
+        "পাঠান",
+        "পেয়েছি"
+      ],
+      "answer": 0,
+      "why": "'I'll send' = future **পাঠাব** (-ব)."
+    },
+    {
+      "id": "e10",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আমি বাসায় পৌঁছেছি।",
+        "tr": "ami bashay pou~chhechhi.",
+        "en": "I've reached home.",
+        "alt": [
+          "I've got home.",
+          "I have arrived home.",
+          "I'm home."
+        ]
+      },
+      "blank": "পৌঁছেছি",
+      "accepted": [
+        "পৌঁছেছি",
+        "পৌছেছি",
+        "pouchechi",
+        "pouchhechhi",
+        "pou~chechi",
+        "pou~chhechhi",
+        "pochechi",
+        "pochhechhi",
+        "pouchhechi"
+      ],
+      "why": "**পৌঁছেছি** 'I have reached'."
+    },
+    {
+      "id": "e11",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "তোমার মেসেজ পেয়েছি।",
+        "tr": "tomar mesej peyechhi.",
+        "en": "I got your message.",
+        "alt": [
+          "I've got your message.",
+          "I received your message."
+        ]
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "আমার",
+        "তোমার",
+        "পাঠাও",
+        "মেসেজ",
+        "পেয়েছি",
+        "তোমাকে"
+      ],
+      "answer": [
+        "তোমার",
+        "মেসেজ",
+        "পেয়েছি"
+      ],
+      "why": "**তোমার মেসেজ** 'your message' + **পেয়েছি** 'I've got'."
+    },
+    {
+      "id": "e12",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "ঠিক আছে, আমি তোমাকে ঠিকানা পাঠাব।",
+        "tr": "thik achhe, ami tomake thikana pathabo.",
+        "en": "OK, I'll send you the address.",
+        "alt": [
+          "All right, I will send you the address."
+        ]
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "তোমাকে",
+        "ঠিক আছে",
+        "পাঠাব",
+        "তোমার",
+        "নম্বর",
+        "ঠিকানা",
+        "আমি",
+        "পাঠাও"
+      ],
+      "answer": [
+        "ঠিক আছে",
+        "আমি",
+        "তোমাকে",
+        "ঠিকানা",
+        "পাঠাব"
+      ],
+      "alt": [
+        [
+          "ঠিক আছে",
+          "তোমাকে",
+          "ঠিকানা",
+          "পাঠাব"
+        ],
+        [
+          "ঠিক আছে",
+          "আমি",
+          "ঠিকানা",
+          "তোমাকে",
+          "পাঠাব"
+        ]
+      ],
+      "why": "**তোমাকে** 'to you' + **পাঠাব** 'I'll send'."
+    },
+    {
+      "id": "e13",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আমাকে একটা মেসেজ পাঠাও।",
+        "tr": "amake ekta mesej pathao.",
+        "en": "Send me a message. (familiar)",
+        "alt": [
+          "Text me.",
+          "Send me a text."
+        ]
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "আমি একটা মেসেজ পাঠাব।",
+        "আমাকে একটা মেসেজ পাঠান।",
+        "তোমার মেসেজ পেয়েছি।",
+        "আমাকে একটা মেসেজ পাঠাও।"
+      ],
+      "answer": 3,
+      "why": "To a friend: **পাঠাও**; to আপনি: **পাঠান**."
+    },
+    {
+      "id": "e14",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ঠিকানা পেয়েছি, ধন্যবাদ।",
+        "tr": "thikana peyechhi, dhonnobad.",
+        "en": "Got the address, thanks.",
+        "alt": [
+          "I got the address, thank you.",
+          "I've got the address, thanks."
+        ]
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "ঠিকানা পাঠাব, ধন্যবাদ।",
+        "ঠিকানা পেয়েছি, ধন্যবাদ।",
+        "ঠিকানা পাঠান, ধন্যবাদ।",
+        "নম্বর পেয়েছি, ধন্যবাদ।"
+      ],
+      "answer": 1,
+      "why": "**পেয়েছি** 'I've got'; **ঠিকানা** 'address'."
+    },
+    {
+      "id": "e15",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আপনার ঠিকানা পাঠান।",
+        "tr": "apnar thikana pathan.",
+        "en": "Please send your address.",
+        "alt": [
+          "Send me your address, please.",
+          "Please send me your address."
+        ]
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "আপনার ঠিকানা পাঠান",
+        "ঠিকানা পাঠান",
+        "আমাকে আপনার ঠিকানা পাঠান",
+        "দয়া করে আপনার ঠিকানা পাঠান",
+        "প্লিজ আপনার ঠিকানা পাঠান",
+        "আপনার ঠিকানা পাঠান প্লিজ",
+        "আপনার ঠিকানাটা পাঠান",
+        "apnar thikana pathan",
+        "thikana pathan",
+        "amake apnar thikana pathan",
+        "apnar thikana pathan plij",
+        "apnar thikana pathan please",
+        "plij apnar thikana pathan",
+        "apnar thikanata pathan"
+      ],
+      "why": "**আপনার ঠিকানা** 'your address' + **পাঠান** 'please send'."
+    },
+    {
+      "id": "r01",
+      "type": "listen_select",
+      "audio": {
+        "bn": "জোরে",
+        "tr": "jore",
+        "en": "loudly"
+      },
+      "options": [
+        "বিকালে",
+        "দশটায়",
+        "জোরে",
+        "কয়টা"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ধরছে",
+        "tr": "dhorchhe",
+        "en": "is picking up"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "আসবে",
+        "ধরছে",
+        "কিনবেন",
+        "দেখে"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "দয়া করে",
+        "tr": "doya kore",
+        "en": "please"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "OK",
+        "please",
+        "God willing",
+        "goodbye"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "চার্জ",
+          "tr": "charj",
+          "en": "charge (battery)"
+        },
+        {
+          "bn": "লাইন",
+          "tr": "lain",
+          "en": "line"
+        },
+        {
+          "bn": "ফোনে",
+          "tr": "fone",
+          "en": "on the phone"
+        },
+        {
+          "bn": "দাঁড়াও",
+          "tr": "da~rao",
+          "en": "wait (familiar); stand"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "বুঝতে",
+          "tr": "bujhte",
+          "en": "to understand"
+        },
+        {
+          "bn": "চায়",
+          "tr": "chay",
+          "en": "he/she wants"
+        },
+        {
+          "bn": "দাঁড়ান",
+          "tr": "da~ran",
+          "en": "wait (polite); stand"
+        },
+        {
+          "bn": "লিখতে",
+          "tr": "likhte",
+          "en": "to write"
+        }
+      ],
+      "recycle": true
+    }
+  ]
+}

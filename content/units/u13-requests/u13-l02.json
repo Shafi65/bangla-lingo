@@ -1,0 +1,518 @@
+{
+  "id": "u13-l02",
+  "unit": "u13-requests",
+  "title": "Please come in",
+  "status": "draft",
+  "tip": "**আপনি has two command forms, both polite.**\n\n- **Everyday Bangladesh:** the আপনি present form, as in **দেন**, **যান**, **থামেন**: **বসেন** 'sit', **বলেন** 'say'.\n- **Standard (signs, offices, Kolkata):** take the আমি form, drop -ই, add **-উন**: বসি → **বসুন**, বলি → **বলুন**, শুনি → **শুনুন**, আসি → **আসুন**. Like **দিন**, 'take' is **নিন**.\n\n**ভিতরে আসুন, বসুন** 'Come in, have a seat' is what a host says. **শুনুন** 'listen' is also how you politely say 'Excuse me' to a stranger.\n\n**দয়া করে** 'please' is formal or pleading; the polite verb already does most of the work.",
+  "vocab": [
+    {
+      "id": "boshen",
+      "bn": "বসেন",
+      "tr": "boshen",
+      "en": "sit (polite)",
+      "notes": "Everyday Bangladeshi polite command; same form as আপনি বসেন 'you sit'. Standard: বসুন."
+    },
+    {
+      "id": "boshun",
+      "bn": "বসুন",
+      "tr": "boshun",
+      "en": "please sit (standard)",
+      "notes": "Standard polite command: বসি → বস- + -উন. Everyday Bangladeshi speech often uses বসেন."
+    },
+    {
+      "id": "ashun",
+      "bn": "আসুন",
+      "tr": "ashun",
+      "en": "please come (standard)",
+      "notes": "আসি → আস- + -উন. Everyday Bangladeshi speech also uses আসেন."
+    },
+    {
+      "id": "bolun",
+      "bn": "বলুন",
+      "tr": "bolun",
+      "en": "please say (standard)",
+      "notes": "বলি → বল- + -উন. Everyday Bangladeshi speech also uses বলেন."
+    },
+    {
+      "id": "shunun",
+      "bn": "শুনুন",
+      "tr": "shunun",
+      "en": "please listen; excuse me",
+      "notes": "শুনি → শুন- + -উন. Also the polite way to get a stranger's attention. Everyday Bangladeshi speech also uses শোনেন."
+    },
+    {
+      "id": "nin",
+      "bn": "নিন",
+      "tr": "nin",
+      "en": "please take (standard)",
+      "notes": "Irregular, like দিন. Everyday Bangladeshi speech also uses নেন."
+    },
+    {
+      "id": "doya-kore",
+      "bn": "দয়া করে",
+      "tr": "doya kore",
+      "en": "please",
+      "notes": "Literally 'doing a kindness'. Formal or pleading; in everyday talk a polite verb form plus একটু is enough."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ভিতরে আসুন।",
+        "tr": "bhitore ashun.",
+        "en": "Please come in.",
+        "alt": [
+          "Come in.",
+          "Come inside, please."
+        ]
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "Please go outside.",
+        "Please come in.",
+        "Please sit down.",
+        "May I come in?"
+      ],
+      "answer": 1,
+      "why": "**আসুন** = আসি → আস- + **-উন**, the standard polite command."
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "বসুন",
+        "tr": "boshun",
+        "en": "please sit (standard)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "please come (standard)",
+        "please say (standard)",
+        "please sit (standard)",
+        "please take (standard)"
+      ],
+      "answer": 2,
+      "why": "বসি → বস- + **-উন** = **বসুন**."
+    },
+    {
+      "id": "e03",
+      "type": "listen_select",
+      "audio": {
+        "bn": "বসেন",
+        "tr": "boshen",
+        "en": "sit (polite)"
+      },
+      "options": [
+        "বসেন",
+        "বসুন",
+        "বসো",
+        "বসতে"
+      ],
+      "answer": 0,
+      "why": "**বসেন** is the everyday Bangladeshi polite form; **বসুন** the standard one."
+    },
+    {
+      "id": "e04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "বলুন",
+          "tr": "bolun",
+          "en": "please say (standard)"
+        },
+        {
+          "bn": "শুনুন",
+          "tr": "shunun",
+          "en": "please listen; excuse me"
+        },
+        {
+          "bn": "নিন",
+          "tr": "nin",
+          "en": "please take (standard)"
+        },
+        {
+          "bn": "দয়া করে",
+          "tr": "doya kore",
+          "en": "please"
+        },
+        {
+          "bn": "আসুন",
+          "tr": "ashun",
+          "en": "please come (standard)"
+        }
+      ]
+    },
+    {
+      "id": "e05",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "দয়া করে আস্তে বলুন।",
+        "tr": "doya kore aste bolun.",
+        "en": "Please speak slowly.",
+        "alt": [
+          "Please speak more slowly.",
+          "Please say it slowly."
+        ]
+      },
+      "options": [
+        "Please come slowly.",
+        "Please say it again.",
+        "Please listen carefully.",
+        "Please speak slowly."
+      ],
+      "answer": 3,
+      "why": "**আস্তে** 'slowly' + **বলুন** 'please speak'."
+    },
+    {
+      "id": "e06",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "শুনুন, এটা কত?",
+        "tr": "shunun, eta koto?",
+        "en": "Excuse me, how much is this?",
+        "alt": [
+          "Listen, how much is this?"
+        ]
+      },
+      "options": [
+        "Look, what is this?",
+        "Excuse me, how much is this?",
+        "Listen, where is this?",
+        "Excuse me, who is this?"
+      ],
+      "answer": 1,
+      "why": "**শুনুন** 'listen' is the polite way to get a stranger's attention."
+    },
+    {
+      "id": "e07",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "চা নিন।",
+        "tr": "cha nin.",
+        "en": "Please have some tea.",
+        "alt": [
+          "Have some tea.",
+          "Take some tea."
+        ]
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "Please have some tea.",
+        "Please give me tea.",
+        "I'll take tea.",
+        "Please make tea."
+      ],
+      "answer": 0,
+      "why": "**নিন** 'take, have' (offering); **দিন** 'give'."
+    },
+    {
+      "id": "e08",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আবার বলুন।",
+        "tr": "abar bolun.",
+        "en": "Please say that again. (standard polite)",
+        "alt": [
+          "Say it again, please.",
+          "Say that again."
+        ]
+      },
+      "blank": "বলুন",
+      "options": [
+        "বলো",
+        "বলি",
+        "বলুন",
+        "বলব"
+      ],
+      "answer": 2,
+      "why": "Standard polite: বলি → বল- + **-উন** = **বলুন**."
+    },
+    {
+      "id": "e09",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "একটু পানি দিন।",
+        "tr": "ektu pani din.",
+        "en": "Please give me some water. (standard polite)",
+        "alt": [
+          "Some water, please.",
+          "Please give a little water."
+        ]
+      },
+      "blank": "দিন",
+      "options": [
+        "নিন",
+        "দিন",
+        "দাও",
+        "দেব"
+      ],
+      "answer": 1,
+      "why": "**দিন** 'give' vs **নিন** 'take': both irregular -ন commands."
+    },
+    {
+      "id": "e10",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "ভিতরে আসুন।",
+        "tr": "bhitore ashun.",
+        "en": "Please come in.",
+        "alt": [
+          "Come in.",
+          "Come inside, please."
+        ]
+      },
+      "blank": "আসুন",
+      "accepted": [
+        "আসুন",
+        "আসেন",
+        "ashun",
+        "asun",
+        "asen",
+        "ashen"
+      ],
+      "why": "Polite 'come': standard **আসুন** or everyday Bangladeshi **আসেন**."
+    },
+    {
+      "id": "e11",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "দয়া করে আস্তে বলুন।",
+        "tr": "doya kore aste bolun.",
+        "en": "Please speak slowly.",
+        "alt": [
+          "Please speak more slowly.",
+          "Please say it slowly."
+        ]
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "আবার",
+        "আসতে",
+        "বলো",
+        "আস্তে",
+        "বলুন",
+        "দয়া করে"
+      ],
+      "answer": [
+        "দয়া করে",
+        "আস্তে",
+        "বলুন"
+      ],
+      "why": "**দয়া করে** 'please' + **আস্তে** 'slowly' + **বলুন**."
+    },
+    {
+      "id": "e12",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আংকেল, বসেন।",
+        "tr": "angkel, boshen.",
+        "en": "Please sit, uncle.",
+        "alt": [
+          "Uncle, have a seat.",
+          "Sit down, uncle."
+        ]
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "আন্টি",
+        "বসুন",
+        "বসেন",
+        "বসো",
+        "বসতে",
+        "আংকেল"
+      ],
+      "answer": [
+        "আংকেল",
+        "বসেন"
+      ],
+      "alt": [
+        [
+          "আংকেল",
+          "বসুন"
+        ]
+      ],
+      "why": "Everyday Bangladeshi polite command: **বসেন** (standard **বসুন**)."
+    },
+    {
+      "id": "e13",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "চা নিন।",
+        "tr": "cha nin.",
+        "en": "Please have some tea. (polite)",
+        "alt": [
+          "Have some tea.",
+          "Take some tea."
+        ]
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "চা দিন।",
+        "চা নাও।",
+        "চা নেব।",
+        "চা নিন।"
+      ],
+      "answer": 3,
+      "why": "Offering to আপনি: **নিন** 'take, have'. **নাও** is for তুমি."
+    },
+    {
+      "id": "e14",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "শুনুন, এটা কত?",
+        "tr": "shunun, eta koto?",
+        "en": "Excuse me, how much is this?",
+        "alt": [
+          "Listen, how much is this?"
+        ]
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "বলুন, এটা কী?",
+        "শুনুন, এটা কোথায়?",
+        "শুনুন, এটা কত?",
+        "আসুন, এটা কত?"
+      ],
+      "answer": 2,
+      "why": "**শুনুন** 'excuse me' + **এটা কত?** 'how much is this?'"
+    },
+    {
+      "id": "e15",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আবার বলুন।",
+        "tr": "abar bolun.",
+        "en": "Please say that again.",
+        "alt": [
+          "Say it again, please.",
+          "Say that again."
+        ]
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "আবার বলুন",
+        "আবার বলেন",
+        "দয়া করে আবার বলুন",
+        "দয়া করে আবার বলেন",
+        "একটু আবার বলুন",
+        "বলুন আবার",
+        "abar bolun",
+        "abar bolen",
+        "doya kore abar bolun",
+        "doya kore abar bolen",
+        "daya kore abar bolun",
+        "abar bolun please"
+      ],
+      "why": "**আবার** 'again' + **বলুন** (or everyday **বলেন**)."
+    },
+    {
+      "id": "r01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "শোনো",
+        "tr": "shono",
+        "en": "listen (familiar)"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "চলেন",
+        "পারেনি",
+        "শোনো",
+        "আসতে"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "এদিকে",
+        "tr": "edike",
+        "en": "this way"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "usually",
+        "then",
+        "this way",
+        "straight"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "listen_select",
+      "audio": {
+        "bn": "দেখো",
+        "tr": "dekho",
+        "en": "look (familiar)"
+      },
+      "options": [
+        "দেখব",
+        "দেখবে",
+        "এসো",
+        "দেখো"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "বেড়াতে",
+          "tr": "berate",
+          "en": "to go out (on a visit or trip)"
+        },
+        {
+          "bn": "সামনে",
+          "tr": "shamne",
+          "en": "in front of"
+        },
+        {
+          "bn": "এসো",
+          "tr": "esho",
+          "en": "come (familiar)"
+        },
+        {
+          "bn": "দেখতে",
+          "tr": "dekhte",
+          "en": "to see"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "দিকে",
+          "tr": "dike",
+          "en": "way"
+        },
+        {
+          "bn": "সতেরো",
+          "tr": "shotero",
+          "en": "seventeen"
+        },
+        {
+          "bn": "সবচেয়ে",
+          "tr": "shobcheye",
+          "en": "the most"
+        },
+        {
+          "bn": "করছো",
+          "tr": "korchho",
+          "en": "you are doing (familiar)"
+        }
+      ],
+      "recycle": true
+    }
+  ]
+}

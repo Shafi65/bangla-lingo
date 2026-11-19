@@ -1,0 +1,565 @@
+{
+  "id": "u13-l08",
+  "unit": "u13-requests",
+  "title": "Review: Requests & the phone",
+  "status": "draft",
+  "tip": "**Commands by formality.**\n\n- **তুমি:** the তুমি present form: **বসো**, **বলো**, **নাও**; irregular **এসো**.\n- **আপনি, everyday:** **বসেন**, **বলেন**; **standard:** **বসুন**, **বলুন**, **আসুন**, **করুন**, **দিন**, **নিন**.\n- **Polite 'don't':** future + না: **চিন্তা করবেন না**.\n\n**Favours** sound softer as questions: **আপনি কি … পারবেন?** Add **একটু** or **প্লিজ**.\n\n**On the phone:** **হ্যালো, কে বলছেন?** · **আমি রাফি বলছি** · **শুনতে পাচ্ছি না** · **লাইন কেটে গেছে** · **আচ্ছা, এখন রাখি**.\n\n**Texts:** **মেসেজ পেয়েছি**, **বাসায় পৌঁছেছি**, **আমাকে জানাও**.",
+  "vocab": [],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "reading",
+      "title": "A call for Nadia",
+      "lines": [
+        {
+          "speaker": "Rafi",
+          "bn": "হ্যালো, আন্টি, আমি রাফি বলছি।",
+          "tr": "hyalo, anti, ami rafi bolchhi.",
+          "en": "Hello, auntie, this is Rafi."
+        },
+        {
+          "speaker": "Auntie",
+          "bn": "হ্যাঁ, রাফি, বলো।",
+          "tr": "hya~, rafi, bolo.",
+          "en": "Yes, Rafi, go ahead."
+        },
+        {
+          "speaker": "Rafi",
+          "bn": "নাদিয়া কি আছে?",
+          "tr": "nadiya ki achhe?",
+          "en": "Is Nadia there?"
+        },
+        {
+          "speaker": "Auntie",
+          "bn": "ও এখন বাসায় নেই। পরে ফোন করো।",
+          "tr": "o ekhon bashay nei. pore fon koro.",
+          "en": "She isn't home now. Call later."
+        },
+        {
+          "speaker": "Rafi",
+          "bn": "আমি ওকে ফোন করেছি, কিন্তু ও ফোন ধরছে না।",
+          "tr": "ami oke fon korechhi, kintu o fon dhorchhe na.",
+          "en": "I called her, but she isn't picking up."
+        },
+        {
+          "speaker": "Auntie",
+          "bn": "ওর ফোনে চার্জ নেই। আমি ওকে বলব।",
+          "tr": "or fone charj nei. ami oke bolbo.",
+          "en": "Her phone has no charge. I'll tell her."
+        },
+        {
+          "speaker": "Rafi",
+          "bn": "অনেক ধন্যবাদ, আন্টি। আচ্ছা, এখন রাখি।",
+          "tr": "onek dhonnobad, anti. achchha, ekhon rakhi.",
+          "en": "Thanks a lot, auntie. OK, I'll hang up now."
+        }
+      ],
+      "question": "Why isn't Nadia answering her phone?",
+      "options": [
+        "Her phone has no charge.",
+        "She is asleep.",
+        "The line is busy."
+      ],
+      "answer": 0,
+      "why": "**ওর ফোনে চার্জ নেই** 'her phone has no charge'."
+    },
+    {
+      "id": "e02",
+      "type": "reading",
+      "title": "Texts",
+      "lines": [
+        {
+          "speaker": "Nadia",
+          "bn": "রাফি, তোমার মেসেজ পেয়েছি।",
+          "tr": "rafi, tomar mesej peyechhi.",
+          "en": "Rafi, I got your message."
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "আমি এখন বাসায় পৌঁছেছি।",
+          "tr": "ami ekhon bashay pou~chhechhi.",
+          "en": "I've reached home now."
+        },
+        {
+          "speaker": "Rafi",
+          "bn": "কাল কয়টায় আসবে? আমাকে জানাও।",
+          "tr": "kal koytay ashbe? amake janao.",
+          "en": "What time will you come tomorrow? Let me know."
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "দশটায় আসব। তোমার ঠিকানা পাঠাও।",
+          "tr": "doshtay ashbo. tomar thikana pathao.",
+          "en": "I'll come at ten. Send your address."
+        },
+        {
+          "speaker": "Rafi",
+          "bn": "ঠিক আছে, এখনই পাঠাব।",
+          "tr": "thik achhe, ekhoni pathabo.",
+          "en": "OK, I'll send it right now."
+        }
+      ],
+      "question": "What time will Nadia come tomorrow?",
+      "options": [
+        "At ten",
+        "At five",
+        "At eight"
+      ],
+      "answer": 0,
+      "why": "**দশটায় আসব** 'I'll come at ten'."
+    },
+    {
+      "id": "e03",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "বসো",
+          "tr": "bosho",
+          "en": "sit (familiar)"
+        },
+        {
+          "bn": "এসো",
+          "tr": "esho",
+          "en": "come (familiar)"
+        },
+        {
+          "bn": "শোনো",
+          "tr": "shono",
+          "en": "listen (familiar)"
+        },
+        {
+          "bn": "দেখো",
+          "tr": "dekho",
+          "en": "look (familiar)"
+        },
+        {
+          "bn": "নাও",
+          "tr": "nao",
+          "en": "take (familiar)"
+        }
+      ]
+    },
+    {
+      "id": "e04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "বসেন",
+          "tr": "boshen",
+          "en": "sit (polite)"
+        },
+        {
+          "bn": "বসুন",
+          "tr": "boshun",
+          "en": "please sit (standard)"
+        },
+        {
+          "bn": "আসুন",
+          "tr": "ashun",
+          "en": "please come (standard)"
+        },
+        {
+          "bn": "শুনুন",
+          "tr": "shunun",
+          "en": "please listen; excuse me"
+        },
+        {
+          "bn": "নিন",
+          "tr": "nin",
+          "en": "please take (standard)"
+        }
+      ]
+    },
+    {
+      "id": "e05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "দাঁড়ান",
+          "tr": "da~ran",
+          "en": "wait (polite); stand"
+        },
+        {
+          "bn": "দাঁড়াও",
+          "tr": "da~rao",
+          "en": "wait (familiar); stand"
+        },
+        {
+          "bn": "অপেক্ষা",
+          "tr": "opekkha",
+          "en": "waiting"
+        },
+        {
+          "bn": "দেরি",
+          "tr": "deri",
+          "en": "delay; lateness"
+        },
+        {
+          "bn": "এদিকে",
+          "tr": "edike",
+          "en": "this way"
+        }
+      ]
+    },
+    {
+      "id": "e06",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "দরজা",
+          "tr": "dorja",
+          "en": "door"
+        },
+        {
+          "bn": "খুলতে",
+          "tr": "khulte",
+          "en": "to open"
+        },
+        {
+          "bn": "দেখাতে",
+          "tr": "dekhate",
+          "en": "to show"
+        },
+        {
+          "bn": "নম্বর",
+          "tr": "nombor",
+          "en": "number"
+        },
+        {
+          "bn": "লাইন",
+          "tr": "lain",
+          "en": "line"
+        }
+      ]
+    },
+    {
+      "id": "e07",
+      "type": "listen_select",
+      "audio": {
+        "bn": "বলছেন",
+        "tr": "bolchhen",
+        "en": "you are speaking (polite)"
+      },
+      "options": [
+        "বলছি",
+        "বলছেন",
+        "বলুন",
+        "বলো"
+      ],
+      "answer": 1,
+      "why": "**কে বলছেন?** 'Who's speaking?' (polite)."
+    },
+    {
+      "id": "e08",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "আপনি কি একটু জোরে বলতে পারবেন?",
+        "tr": "apni ki ektu jore bolte parben?",
+        "en": "Could you speak a little louder?",
+        "alt": [
+          "Could you speak up a bit?",
+          "Can you speak louder?"
+        ]
+      },
+      "options": [
+        "Could you speak a little more slowly?",
+        "Could you say that again?",
+        "Could you speak a little louder?",
+        "Could you call a little later?"
+      ],
+      "answer": 2,
+      "why": "**জোরে** 'loudly' vs **আস্তে** 'slowly'."
+    },
+    {
+      "id": "e09",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "দুঃখিত, লাইন কেটে গেছে।",
+        "tr": "dukkhito, lain kete gechhe.",
+        "en": "Sorry, the line got cut.",
+        "alt": [
+          "Sorry, the call dropped.",
+          "Sorry, we got cut off."
+        ]
+      },
+      "options": [
+        "Sorry, the line is busy.",
+        "Sorry, my phone has no charge.",
+        "Sorry, I'll call later.",
+        "Sorry, the line got cut."
+      ],
+      "answer": 3,
+      "why": "**লাইন কেটে গেছে** 'the line got cut'."
+    },
+    {
+      "id": "e10",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "একটু অপেক্ষা করুন, উনি ফোনে কথা বলছেন।",
+        "tr": "ektu opekkha korun, uni fone kotha bolchhen.",
+        "en": "Please wait a moment, she's on the phone.",
+        "alt": [
+          "Please wait a moment, he is talking on the phone."
+        ]
+      },
+      "blank": "করুন",
+      "options": [
+        "করুন",
+        "করো",
+        "করবেন",
+        "করি"
+      ],
+      "answer": 0,
+      "why": "A polite request: **অপেক্ষা করুন** 'please wait'. **করবেন না** would be 'don't'."
+    },
+    {
+      "id": "e11",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আপনার নম্বর পাঠান, প্লিজ।",
+        "tr": "apnar nombor pathan, plij.",
+        "en": "Please send your number.",
+        "alt": [
+          "Send me your number, please."
+        ]
+      },
+      "blank": "পাঠান",
+      "options": [
+        "পাঠাও",
+        "পাঠাব",
+        "পাঠান",
+        "পেয়েছি"
+      ],
+      "answer": 2,
+      "why": "To আপনি: **পাঠান** 'please send'."
+    },
+    {
+      "id": "e12",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আমি শুনতে পাচ্ছি না।",
+        "tr": "ami shunte pachchhi na.",
+        "en": "I can't hear.",
+        "alt": [
+          "I can't hear you."
+        ]
+      },
+      "blank": "পাচ্ছি",
+      "accepted": [
+        "পাচ্ছি",
+        "pachchhi",
+        "pachchi",
+        "pachhi",
+        "pachi",
+        "pacchi"
+      ],
+      "why": "**শুনতে পাচ্ছি না** 'I can't hear'."
+    },
+    {
+      "id": "e13",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "দয়া করে আস্তে বলুন।",
+        "tr": "doya kore aste bolun.",
+        "en": "Please speak slowly.",
+        "alt": [
+          "Please speak more slowly.",
+          "Please say it slowly."
+        ]
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "আসতে",
+        "জোরে",
+        "বলছি",
+        "আস্তে",
+        "বলুন",
+        "দয়া করে"
+      ],
+      "answer": [
+        "দয়া করে",
+        "আস্তে",
+        "বলুন"
+      ],
+      "why": "**দয়া করে** 'please' + **আস্তে** 'slowly' + **বলুন**."
+    },
+    {
+      "id": "e14",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "কোনো ব্যাপার না।",
+        "tr": "kono byapar na.",
+        "en": "It's nothing.",
+        "alt": [
+          "No problem.",
+          "Don't mention it.",
+          "You're welcome."
+        ]
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "অনেক ধন্যবাদ।",
+        "কোনো ব্যাপার না।",
+        "চিন্তা করবেন না।",
+        "লাইন ব্যস্ত।"
+      ],
+      "answer": 1,
+      "why": "A reply to thanks: **কোনো ব্যাপার না** 'it's nothing'."
+    },
+    {
+      "id": "e15",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আপনি কি আমার কথা শুনতে পাচ্ছেন?",
+        "tr": "apni ki amar kotha shunte pachchhen?",
+        "en": "Can you hear me?",
+        "alt": [
+          "Can you hear what I'm saying?"
+        ]
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "আপনি কি আমার কথা শুনতে পাচ্ছেন",
+        "আমার কথা শুনতে পাচ্ছেন",
+        "আপনি কি আমাকে শুনতে পাচ্ছেন",
+        "আপনি কি শুনতে পাচ্ছেন",
+        "শুনতে পাচ্ছেন",
+        "আপনি আমার কথা শুনতে পাচ্ছেন",
+        "apni ki amar kotha shunte pachchen",
+        "apni ki amar kotha shunte pachchhen",
+        "apni ki amar kotha sunte pachchen",
+        "apni ki amar kotha sunte pachchhen",
+        "amar kotha shunte pachchen",
+        "amar kotha shunte pachchhen",
+        "amar kotha sunte pachchen",
+        "amar kotha sunte pachchhen",
+        "apni ki amake shunte pachchen",
+        "apni ki amake shunte pachchhen",
+        "apni ki amake sunte pachchen",
+        "apni ki amake sunte pachchhen",
+        "apni ki shunte pachchen",
+        "apni ki shunte pachchhen",
+        "apni ki sunte pachchen",
+        "apni ki sunte pachchhen",
+        "shunte pachchen",
+        "shunte pachchhen",
+        "sunte pachchen",
+        "sunte pachchhen",
+        "apni ki amar kotha shunte pachen",
+        "apni ki amar kotha shunte pachhen",
+        "apni ki amar kotha sunte pachen",
+        "apni ki amar kotha sunte pachhen",
+        "apni ki amar kotha shunte pacchen",
+        "apni ki amar kotha sunte pacchen"
+      ],
+      "why": "**শুনতে পাচ্ছেন?** 'can you hear?'"
+    },
+    {
+      "id": "r01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "জানাবেন",
+        "tr": "janaben",
+        "en": "please let (me) know (polite)"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "খেয়েছো",
+        "জানাবেন",
+        "ছিলে",
+        "দেখছে"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "হতে",
+        "tr": "hote",
+        "en": "to become"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "give (familiar)",
+        "to become",
+        "is not (here); there isn't",
+        "sit (familiar)"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "listen_select",
+      "audio": {
+        "bn": "চাস",
+        "tr": "chash",
+        "en": "you (intimate) want"
+      },
+      "options": [
+        "দেবেন",
+        "দেখাতে",
+        "চাস",
+        "পড়ছি"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "পারেনি",
+          "tr": "pareni",
+          "en": "he/she couldn't"
+        },
+        {
+          "bn": "চালাতে",
+          "tr": "chalate",
+          "en": "to drive"
+        },
+        {
+          "bn": "পারিস",
+          "tr": "parish",
+          "en": "you (intimate) can"
+        },
+        {
+          "bn": "শিখতে",
+          "tr": "shikhte",
+          "en": "to learn"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "পারো",
+          "tr": "paro",
+          "en": "you (familiar) can"
+        },
+        {
+          "bn": "এসেছেন",
+          "tr": "eshechhen",
+          "en": "(you, polite) have come"
+        },
+        {
+          "bn": "দেড়",
+          "tr": "der",
+          "en": "one and a half"
+        },
+        {
+          "bn": "পারিনি",
+          "tr": "parini",
+          "en": "I couldn't"
+        }
+      ],
+      "recycle": true
+    }
+  ]
+}

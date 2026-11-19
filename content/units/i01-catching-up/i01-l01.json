@@ -515,53 +515,52 @@
     },
     {
       "id": "r01",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "দাঁত মাজা",
-        "tr": "da~t maja",
-        "en": "brushing teeth"
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "না, এখনো না।",
+        "tr": "na, ekhono na.",
+        "en": "No, not yet."
       },
-      "direction": "en_to_bn",
-      "options": [
-        "বড় হয়েছি",
-        "দাঁত মাজা",
-        "ঈদ মোবারক",
-        "ধন্যবাদ"
+      "blank": "এখনো না",
+      "accepted": [
+        "এখনো না",
+        "ekhono na"
       ],
-      "answer": 1,
       "recycle": true
     },
     {
       "id": "r02",
       "type": "select_translation",
       "prompt": {
-        "bn": "এখনো না",
-        "tr": "ekhono na",
-        "en": "not yet"
+        "bn": "কখনো না",
+        "tr": "kokhono na",
+        "en": "never"
       },
-      "direction": "en_to_bn",
+      "direction": "bn_to_en",
       "options": [
-        "এখনো না",
-        "ঈদ মোবারক",
-        "দেখা হবে",
-        "কী হয়েছে"
+        "never",
+        "to the Shaheed Minar",
+        "(we) will meet",
+        "I don't need it"
       ],
       "answer": 0,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "fill_blank",
-      "sentence": {
-        "bn": "কখনো না।",
-        "tr": "kokhono na.",
-        "en": "Never."
+      "type": "listen_select",
+      "audio": {
+        "bn": "শহীদ মিনার",
+        "tr": "shohid minar",
+        "en": "Shaheed Minar"
       },
-      "blank": "কখনো না",
-      "accepted": [
-        "কখনো না",
-        "kokhono na"
+      "options": [
+        "লাগবে না",
+        "ইনশাআল্লাহ",
+        "শহীদ মিনার",
+        "কেটে গেছে"
       ],
+      "answer": 2,
       "recycle": true
     },
     {
@@ -569,24 +568,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "ওই",
-          "tr": "oi",
-          "en": "that"
+          "bn": "তার",
+          "tr": "tar",
+          "en": "his/her"
         },
         {
-          "bn": "ব্যস্ত",
-          "tr": "byasto",
-          "en": "busy"
+          "bn": "কেউ",
+          "tr": "keu",
+          "en": "someone"
         },
         {
-          "bn": "এই",
-          "tr": "ei",
-          "en": "this"
+          "bn": "এইটা",
+          "tr": "eita",
+          "en": "this one"
         },
         {
-          "bn": "কতদূর",
-          "tr": "kotodur",
-          "en": "how far"
+          "bn": "যাবি",
+          "tr": "jabi",
+          "en": "you (intimate) will go"
         }
       ],
       "recycle": true
@@ -596,24 +595,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "তিনটা",
-          "tr": "tinta",
-          "en": "three (o'clock)"
+          "bn": "করল",
+          "tr": "korlo",
+          "en": "did"
         },
         {
-          "bn": "খাবেন",
-          "tr": "khaben",
-          "en": "will you eat (polite)"
+          "bn": "লিখি",
+          "tr": "likhi",
+          "en": "I write"
         },
         {
-          "bn": "করলেন",
-          "tr": "korlen",
-          "en": "you did (polite)"
+          "bn": "ওই",
+          "tr": "oi",
+          "en": "that"
         },
         {
-          "bn": "খাচ্ছি",
-          "tr": "khachchhi",
-          "en": "I am eating"
+          "bn": "শুধু",
+          "tr": "shudhu",
+          "en": "only"
         }
       ],
       "recycle": true

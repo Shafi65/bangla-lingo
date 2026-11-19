@@ -518,50 +518,52 @@
     },
     {
       "id": "r01",
-      "type": "fill_blank",
-      "sentence": {
-        "bn": "নাদিয়া প্রতি শুক্রবার আমাদের বাসায় আসত।",
-        "tr": "nadiya proti shukrobar amader bashay ashto.",
-        "en": "Nadia used to come to our home every Friday."
+      "type": "listen_select",
+      "audio": {
+        "bn": "আসত",
+        "tr": "ashto",
+        "en": "he/she used to come"
       },
-      "blank": "আসত",
-      "accepted": [
-        "আসত",
-        "ashto"
+      "options": [
+        "পৌঁছেছি",
+        "করিস",
+        "বলে",
+        "আসত"
       ],
+      "answer": 3,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "করত",
-        "tr": "korto",
-        "en": "he/she used to do"
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আমার বড় ভাই অফিসে কাজ করত।",
+        "tr": "amar boro bhai ofise kaj korto.",
+        "en": "My elder brother used to work in an office."
       },
-      "direction": "bn_to_en",
+      "blank": "করত",
       "options": [
-        "I saw",
-        "have you eaten (familiar)",
-        "he/she used to do",
-        "I walk"
+        "পৌঁছেছি",
+        "পাব",
+        "করত",
+        "ছিলাম"
       ],
       "answer": 2,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "listen_select",
+      "type": "listen_meaning",
       "audio": {
-        "bn": "করতে",
-        "tr": "korte",
-        "en": "you used to do (familiar)"
+        "bn": "তুমি কি আমাকে একটু সাহায্য করতে পারবে?",
+        "tr": "tumi ki amake ektu shahajjo korte parbe?",
+        "en": "Could you help me a little? (familiar)"
       },
       "options": [
-        "এলে",
-        "নেবেন",
-        "শুনিনি",
-        "করতে"
+        "I will buy new clothes for Eid.",
+        "How much is this?",
+        "How are you? (familiar)",
+        "Could you help me a little? (familiar)"
       ],
       "answer": 3,
       "recycle": true
@@ -576,14 +578,14 @@
           "en": "you used to do (intimate)"
         },
         {
-          "bn": "থাকতেন",
-          "tr": "thakten",
-          "en": "you / he, she (polite) used to live"
-        },
-        {
           "bn": "থাকত",
           "tr": "thakto",
           "en": "he/she used to live"
+        },
+        {
+          "bn": "থাকতেন",
+          "tr": "thakten",
+          "en": "you / he, she (polite) used to live"
         },
         {
           "bn": "বলতেন",
@@ -598,24 +600,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "আবার",
-          "tr": "abar",
-          "en": "again"
-        },
-        {
-          "bn": "বসতে",
-          "tr": "boshte",
-          "en": "to sit"
-        },
-        {
-          "bn": "আস্তে",
-          "tr": "aste",
-          "en": "slowly"
+          "bn": "জানাবেন",
+          "tr": "janaben",
+          "en": "please let (me) know (polite)"
         },
         {
           "bn": "গল্প",
           "tr": "golpo",
           "en": "story"
+        },
+        {
+          "bn": "পাঠাও",
+          "tr": "pathao",
+          "en": "send (familiar)"
+        },
+        {
+          "bn": "পৌঁছেছি",
+          "tr": "pou~chhechhi",
+          "en": "I have reached"
         }
       ],
       "recycle": true

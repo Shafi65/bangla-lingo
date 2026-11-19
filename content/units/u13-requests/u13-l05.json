@@ -1,0 +1,526 @@
+{
+  "id": "u13-l05",
+  "unit": "u13-requests",
+  "title": "Hello, who's speaking?",
+  "status": "draft",
+  "tip": "**Phone talk.** Calls start with **হ্যালো** (or সালাম). Say who you are with **বলছি** 'I am speaking': **আমি রাফি বলছি** 'This is Rafi'. To ask who's calling: **কে বলছেন?** (polite, -ছেন).\n\nThe other person often says **জি, বলেন** 'Yes, go ahead'.\n\n**শুনতে পাচ্ছি** = 'I can hear' (literally 'I am getting to hear'): **আমার কথা শুনতে পাচ্ছেন?** 'Can you hear me?', **শুনতে পাচ্ছি না** 'I can't hear'.\n\nTo end a call, Bangladeshis say **আচ্ছা, এখন রাখি**: **রাখা** 'put down', so 'OK, I'll hang up now'. **পরে ফোন করব** 'I'll call later'.",
+  "vocab": [
+    {
+      "id": "hyalo",
+      "bn": "হ্যালো",
+      "tr": "hyalo",
+      "en": "hello (on the phone)",
+      "notes": "Answers and starts phone calls. Face to face, people greet with সালাম or নমস্কার."
+    },
+    {
+      "id": "bolchhen",
+      "bn": "বলছেন",
+      "tr": "bolchhen",
+      "en": "you are speaking (polite)",
+      "notes": "Present continuous of বলা. কে বলছেন? 'Who's speaking?'"
+    },
+    {
+      "id": "bolchhi",
+      "bn": "বলছি",
+      "tr": "bolchhi",
+      "en": "I am speaking",
+      "notes": "On the phone: আমি রাফি বলছি 'This is Rafi (speaking)'."
+    },
+    {
+      "id": "nombor",
+      "bn": "নম্বর",
+      "tr": "nombor",
+      "en": "number",
+      "notes": "ফোন নম্বর 'phone number'. Also spelled নাম্বার."
+    },
+    {
+      "id": "pachchhi",
+      "bn": "পাচ্ছি",
+      "tr": "pachchhi",
+      "en": "I am getting",
+      "notes": "Present continuous of পাওয়া 'get'. শুনতে পাচ্ছি 'I can hear'."
+    },
+    {
+      "id": "pachchhen",
+      "bn": "পাচ্ছেন",
+      "tr": "pachchhen",
+      "en": "you are getting (polite)",
+      "notes": "শুনতে পাচ্ছেন? 'Can you hear (me)?'"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "হ্যালো, কে বলছেন?",
+        "tr": "hyalo, ke bolchhen?",
+        "en": "Hello, who's speaking?",
+        "alt": [
+          "Hello, who is this?",
+          "Hello, who's calling?"
+        ]
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "Hello, who's speaking?",
+        "Hello, what are you saying?",
+        "Hello, where are you?",
+        "Hello, how are you?"
+      ],
+      "answer": 0,
+      "why": "**কে** 'who' + **বলছেন** 'are speaking' (polite)."
+    },
+    {
+      "id": "e02",
+      "type": "listen_select",
+      "audio": {
+        "bn": "বলছি",
+        "tr": "bolchhi",
+        "en": "I am speaking"
+      },
+      "options": [
+        "বলছেন",
+        "বলি",
+        "বলছি",
+        "বলব"
+      ],
+      "answer": 2,
+      "why": "**-ছি** = 'I am …-ing': **বলছি** 'I am speaking'."
+    },
+    {
+      "id": "e03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আমি রাফি বলছি।",
+        "tr": "ami rafi bolchhi.",
+        "en": "This is Rafi.",
+        "alt": [
+          "It's Rafi speaking.",
+          "Rafi speaking."
+        ]
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "I'm calling Rafi.",
+        "This is Rafi.",
+        "Rafi will speak.",
+        "I am telling Rafi."
+      ],
+      "answer": 1,
+      "why": "On the phone, **আমি … বলছি** = 'This is …'."
+    },
+    {
+      "id": "e04",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "নম্বর",
+        "tr": "nombor",
+        "en": "number"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "name",
+        "phone",
+        "address",
+        "number"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "হ্যালো",
+          "tr": "hyalo",
+          "en": "hello (on the phone)"
+        },
+        {
+          "bn": "নম্বর",
+          "tr": "nombor",
+          "en": "number"
+        },
+        {
+          "bn": "পাচ্ছি",
+          "tr": "pachchhi",
+          "en": "I am getting"
+        },
+        {
+          "bn": "পাচ্ছেন",
+          "tr": "pachchhen",
+          "en": "you are getting (polite)"
+        },
+        {
+          "bn": "বলছেন",
+          "tr": "bolchhen",
+          "en": "you are speaking (polite)"
+        }
+      ]
+    },
+    {
+      "id": "e06",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "আপনি কি আমার কথা শুনতে পাচ্ছেন?",
+        "tr": "apni ki amar kotha shunte pachchhen?",
+        "en": "Can you hear me?",
+        "alt": [
+          "Can you hear what I'm saying?"
+        ]
+      },
+      "options": [
+        "Can you hear me?",
+        "Can you understand me?",
+        "Are you listening to music?",
+        "Can I speak to you?"
+      ],
+      "answer": 0,
+      "why": "**শুনতে পাচ্ছেন?** 'can you hear?' (পাওয়া 'get')."
+    },
+    {
+      "id": "e07",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "আচ্ছা, এখন রাখি।",
+        "tr": "achchha, ekhon rakhi.",
+        "en": "OK, I'll hang up now.",
+        "alt": [
+          "OK, bye for now.",
+          "OK, I'll go now."
+        ]
+      },
+      "options": [
+        "OK, I'll write now.",
+        "OK, I'll call now.",
+        "OK, I'll eat now.",
+        "OK, I'll hang up now."
+      ],
+      "answer": 3,
+      "why": "**রাখি** here means 'I'll put (the phone) down'."
+    },
+    {
+      "id": "e08",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "জি, বলেন।",
+        "tr": "ji, bolen.",
+        "en": "Yes, go ahead.",
+        "alt": [
+          "Yes, please go on.",
+          "Yes, tell me."
+        ]
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "Yes, he's speaking.",
+        "Yes, I said so.",
+        "Yes, go ahead.",
+        "Yes, I'm coming."
+      ],
+      "answer": 2,
+      "why": "**বলেন** is the everyday polite command 'say (it)', so 'go ahead'."
+    },
+    {
+      "id": "e09",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আমি শুনতে পাচ্ছি না।",
+        "tr": "ami shunte pachchhi na.",
+        "en": "I can't hear.",
+        "alt": [
+          "I can't hear you."
+        ]
+      },
+      "blank": "পাচ্ছি",
+      "options": [
+        "পাচ্ছেন",
+        "পাচ্ছি",
+        "পারবেন",
+        "বলছি"
+      ],
+      "answer": 1,
+      "why": "With **আমি**: **পাচ্ছি**. **শুনতে পাচ্ছি না** 'I can't hear'."
+    },
+    {
+      "id": "e10",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "হ্যালো, কে বলছেন?",
+        "tr": "hyalo, ke bolchhen?",
+        "en": "Hello, who's speaking?",
+        "alt": [
+          "Hello, who is this?",
+          "Hello, who's calling?"
+        ]
+      },
+      "blank": "বলছেন",
+      "options": [
+        "বলছেন",
+        "বলছি",
+        "বলুন",
+        "বলবেন"
+      ],
+      "answer": 0,
+      "why": "Asking someone you call আপনি: **বলছেন** (-ছেন)."
+    },
+    {
+      "id": "e11",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আপনার ফোন নম্বর কত?",
+        "tr": "apnar fon nombor koto?",
+        "en": "What's your phone number?",
+        "alt": [
+          "What is your phone number?"
+        ]
+      },
+      "blank": "নম্বর",
+      "accepted": [
+        "নম্বর",
+        "নাম্বার",
+        "nombor",
+        "nambar",
+        "number",
+        "nomber",
+        "nombar"
+      ],
+      "why": "**ফোন নম্বর** 'phone number'; **কত?** 'how much / what number?'"
+    },
+    {
+      "id": "e12",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমি রাফি বলছি।",
+        "tr": "ami rafi bolchhi.",
+        "en": "This is Rafi.",
+        "alt": [
+          "It's Rafi speaking.",
+          "Rafi speaking."
+        ]
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "আমার",
+        "বলছি",
+        "বলছেন",
+        "রাফি",
+        "আমি",
+        "কে"
+      ],
+      "answer": [
+        "আমি",
+        "রাফি",
+        "বলছি"
+      ],
+      "alt": [
+        [
+          "রাফি",
+          "বলছি"
+        ]
+      ],
+      "why": "**আমি … বলছি** 'This is …'."
+    },
+    {
+      "id": "e13",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমি পরে ফোন করব।",
+        "tr": "ami pore fon korbo.",
+        "en": "I'll call later.",
+        "alt": [
+          "I will call later.",
+          "I'll call you later."
+        ]
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "পরে",
+        "আগে",
+        "করব",
+        "নম্বর",
+        "ফোন",
+        "করি",
+        "আমি"
+      ],
+      "answer": [
+        "আমি",
+        "পরে",
+        "ফোন",
+        "করব"
+      ],
+      "alt": [
+        [
+          "পরে",
+          "ফোন",
+          "করব"
+        ],
+        [
+          "আমি",
+          "ফোন",
+          "পরে",
+          "করব"
+        ]
+      ],
+      "why": "**পরে** 'later' + **ফোন করব** 'I'll call'."
+    },
+    {
+      "id": "e14",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "নাদিয়া কি আছে?",
+        "tr": "nadiya ki achhe?",
+        "en": "Is Nadia there?",
+        "alt": [
+          "Is Nadia in?"
+        ]
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "নাদিয়া কে?",
+        "নাদিয়া কোথায়?",
+        "নাদিয়া কি বলছেন?",
+        "নাদিয়া কি আছে?"
+      ],
+      "answer": 3,
+      "why": "**আছে?** 'is (she) there?'"
+    },
+    {
+      "id": "e15",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "হ্যালো, কে বলছেন?",
+        "tr": "hyalo, ke bolchhen?",
+        "en": "Hello, who's speaking?",
+        "alt": [
+          "Hello, who is this?",
+          "Hello, who's calling?"
+        ]
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "হ্যালো কে বলছেন",
+        "কে বলছেন",
+        "হ্যালো আপনি কে বলছেন",
+        "আসসালামু আলাইকুম কে বলছেন",
+        "hyalo ke bolchen",
+        "hyalo ke bolchhen",
+        "hello ke bolchen",
+        "hello ke bolchhen",
+        "halo ke bolchen",
+        "halo ke bolchhen",
+        "ke bolchen",
+        "ke bolchhen",
+        "hello ke bolsen"
+      ],
+      "why": "**হ্যালো** + **কে বলছেন?** 'who's speaking?'"
+    },
+    {
+      "id": "r01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "প্লিজ",
+        "tr": "plij",
+        "en": "please"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "প্লিজ",
+        "জি",
+        "কারণ",
+        "যখন"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "খুলতে",
+        "tr": "khulte",
+        "en": "to open"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "to speak",
+        "please come (standard)",
+        "to open",
+        "to stay"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "listen_select",
+      "audio": {
+        "bn": "দেখাতে",
+        "tr": "dekhate",
+        "en": "to show"
+      },
+      "options": [
+        "আসুন",
+        "চাই",
+        "দেখাতে",
+        "শোনো"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "এদিকে",
+          "tr": "edike",
+          "en": "this way"
+        },
+        {
+          "bn": "শোনো",
+          "tr": "shono",
+          "en": "listen (familiar)"
+        },
+        {
+          "bn": "দরজা",
+          "tr": "dorja",
+          "en": "door"
+        },
+        {
+          "bn": "ব্যাপার",
+          "tr": "byapar",
+          "en": "matter; thing"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "বলো",
+          "tr": "bolo",
+          "en": "say (familiar)"
+        },
+        {
+          "bn": "বলবে",
+          "tr": "bolbe",
+          "en": "you (familiar) / he, she will say"
+        },
+        {
+          "bn": "শুনলাম",
+          "tr": "shunlam",
+          "en": "I heard"
+        },
+        {
+          "bn": "নাও",
+          "tr": "nao",
+          "en": "take (familiar)"
+        }
+      ],
+      "recycle": true
+    }
+  ]
+}

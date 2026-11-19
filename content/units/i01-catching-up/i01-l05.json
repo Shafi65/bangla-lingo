@@ -489,54 +489,52 @@
     },
     {
       "id": "r01",
-      "type": "listen_select",
+      "type": "listen_meaning",
       "audio": {
-        "bn": "ভালোবাসতাম",
-        "tr": "bhalobashtam",
-        "en": "I used to love"
+        "bn": "আমি আমাদের গ্রাম খুব ভালোবাসতাম।",
+        "tr": "ami amader gram khub bhalobashtam.",
+        "en": "I loved our village very much."
       },
       "options": [
-        "পারেন",
-        "করত",
-        "ভালোবাসতাম",
-        "খায়"
+        "His name is Rafi.",
+        "I bought a new book for you.",
+        "I loved our village very much.",
+        "You have to take a bag."
       ],
       "answer": 2,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "fill_blank",
-      "sentence": {
-        "bn": "আগে আমি দুধ খেতাম, এখন আর খাই না।",
-        "tr": "age ami dudh khetam, ekhon ar khai na.",
-        "en": "I used to drink milk, but I don't any more."
+      "type": "select_translation",
+      "prompt": {
+        "bn": "খেতাম",
+        "tr": "khetam",
+        "en": "I used to eat"
       },
-      "blank": "খেতাম",
+      "direction": "en_to_bn",
       "options": [
-        "আসব",
+        "উঠলাম",
+        "নও",
         "খেতাম",
-        "পারব",
-        "খেয়েছো"
+        "করতেন"
       ],
-      "answer": 1,
+      "answer": 2,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "listen_meaning",
-      "audio": {
+      "type": "fill_blank",
+      "sentence": {
         "bn": "আমি রাতে গান শুনতাম।",
         "tr": "ami rate gan shuntam.",
         "en": "I used to listen to songs at night."
       },
-      "options": [
-        "I used to listen to songs at night.",
-        "Are you guys there?",
-        "I want to learn Bengali.",
-        "The rice is good, but the dal is bad."
+      "blank": "শুনতাম",
+      "accepted": [
+        "শুনতাম",
+        "shuntam"
       ],
-      "answer": 0,
       "recycle": true
     },
     {
@@ -549,6 +547,11 @@
           "en": "naughty"
         },
         {
+          "bn": "ক্রিকেট",
+          "tr": "kriket",
+          "en": "cricket"
+        },
+        {
           "bn": "লাগত",
           "tr": "lagto",
           "en": "used to feel"
@@ -557,11 +560,6 @@
           "bn": "পুকুরে",
           "tr": "pukure",
           "en": "in the pond"
-        },
-        {
-          "bn": "ক্রিকেট",
-          "tr": "kriket",
-          "en": "cricket"
         }
       ],
       "recycle": true
@@ -570,11 +568,6 @@
       "id": "r05",
       "type": "match_pairs",
       "pairs": [
-        {
-          "bn": "ফুটবল",
-          "tr": "futbol",
-          "en": "football"
-        },
         {
           "bn": "ভাইবোন",
           "tr": "bhaibon",
@@ -589,6 +582,11 @@
           "bn": "মাঠ",
           "tr": "math",
           "en": "field; playground"
+        },
+        {
+          "bn": "ফুটবল",
+          "tr": "futbol",
+          "en": "football"
         }
       ],
       "recycle": true

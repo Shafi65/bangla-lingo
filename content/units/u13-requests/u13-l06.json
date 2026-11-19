@@ -1,0 +1,520 @@
+{
+  "id": "u13-l06",
+  "unit": "u13-requests",
+  "title": "The line got cut",
+  "status": "draft",
+  "tip": "**When the phone lets you down:**\n\n- **লাইন কেটে গেছে** 'The line got cut' (কাটা 'cut' + গেছে 'has gone'); learn it as one chunk.\n- **সে ফোন ধরছে না** 'He isn't picking up' (ধরা 'hold, catch').\n- **আমার ফোনে চার্জ নেই** 'My phone has no charge'. **ফোনে** = ফোন + -এ 'on the phone'.\n- **লাইন ব্যস্ত** 'The line is busy'.\n\nAsk the other person to **একটু জোরে বলুন** 'speak up a little' (the opposite of **আস্তে**) or **পরে ফোন করুন** 'call later'.\n\nIn Bangladesh people also say **ফোন দেওয়া** for 'to call': **পরে ফোন দেব** 'I'll call later'.",
+  "vocab": [
+    {
+      "id": "lain",
+      "bn": "লাইন",
+      "tr": "lain",
+      "en": "line"
+    },
+    {
+      "id": "kete-gechhe",
+      "bn": "কেটে গেছে",
+      "tr": "kete gechhe",
+      "en": "has been cut off",
+      "notes": "কাটা 'cut' + গেছে 'has gone'. লাইন কেটে গেছে 'the call dropped'."
+    },
+    {
+      "id": "dhorchhe",
+      "bn": "ধরছে",
+      "tr": "dhorchhe",
+      "en": "is picking up",
+      "notes": "Present continuous of ধরা 'hold, catch'. ফোন ধরছে না 'isn't picking up'."
+    },
+    {
+      "id": "charj",
+      "bn": "চার্জ",
+      "tr": "charj",
+      "en": "charge (battery)"
+    },
+    {
+      "id": "jore",
+      "bn": "জোরে",
+      "tr": "jore",
+      "en": "loudly",
+      "notes": "একটু জোরে বলুন 'please speak up'. Opposite: আস্তে."
+    },
+    {
+      "id": "fone",
+      "bn": "ফোনে",
+      "tr": "fone",
+      "en": "on the phone",
+      "notes": "ফোন + -এ."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "লাইন কেটে গেছে।",
+        "tr": "lain kete gechhe.",
+        "en": "The line got cut.",
+        "alt": [
+          "The call dropped.",
+          "We got cut off.",
+          "The line went dead."
+        ]
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "The line got cut.",
+        "The line is busy.",
+        "The phone is broken.",
+        "I'll call again."
+      ],
+      "answer": 0,
+      "why": "**কেটে গেছে** 'has been cut off'."
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "জোরে",
+        "tr": "jore",
+        "en": "loudly"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "slowly",
+        "again",
+        "loudly",
+        "right now"
+      ],
+      "answer": 2,
+      "why": "**জোরে** 'loudly' is the opposite of **আস্তে** 'slowly, softly'."
+    },
+    {
+      "id": "e03",
+      "type": "listen_select",
+      "audio": {
+        "bn": "চার্জ",
+        "tr": "charj",
+        "en": "charge (battery)"
+      },
+      "options": [
+        "চা",
+        "চাই",
+        "চার",
+        "চার্জ"
+      ],
+      "answer": 3,
+      "why": "**চার্জ** (*charj*) 'charge'; **চার** (*char*) 'four'."
+    },
+    {
+      "id": "e04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "লাইন",
+          "tr": "lain",
+          "en": "line"
+        },
+        {
+          "bn": "ধরছে",
+          "tr": "dhorchhe",
+          "en": "is picking up"
+        },
+        {
+          "bn": "ফোনে",
+          "tr": "fone",
+          "en": "on the phone"
+        },
+        {
+          "bn": "চার্জ",
+          "tr": "charj",
+          "en": "charge (battery)"
+        },
+        {
+          "bn": "কেটে গেছে",
+          "tr": "kete gechhe",
+          "en": "has been cut off"
+        }
+      ]
+    },
+    {
+      "id": "e05",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "সে ফোন ধরছে না।",
+        "tr": "she fon dhorchhe na.",
+        "en": "He isn't answering the phone.",
+        "alt": [
+          "She isn't picking up.",
+          "She's not answering the phone."
+        ]
+      },
+      "options": [
+        "He doesn't have a phone.",
+        "He isn't answering the phone.",
+        "He is talking on the phone.",
+        "He'll call later."
+      ],
+      "answer": 1,
+      "why": "**ধরছে না** 'isn't picking up' (ধরা 'hold, catch')."
+    },
+    {
+      "id": "e06",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "আমার ফোনে চার্জ নেই।",
+        "tr": "amar fone charj nei.",
+        "en": "My phone has no charge.",
+        "alt": [
+          "My phone is out of charge.",
+          "My phone's battery is dead."
+        ]
+      },
+      "options": [
+        "My phone has no charge.",
+        "I don't have a phone.",
+        "My phone number is new.",
+        "There's no line."
+      ],
+      "answer": 0,
+      "why": "**ফোনে** 'in/on the phone' + **চার্জ নেই** 'no charge'."
+    },
+    {
+      "id": "e07",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আমি এখন ফোনে কথা বলছি।",
+        "tr": "ami ekhon fone kotha bolchhi.",
+        "en": "I'm talking on the phone now.",
+        "alt": [
+          "I'm on the phone now."
+        ]
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "I'll call you now.",
+        "I'm talking to him now.",
+        "I'm looking at the phone now.",
+        "I'm talking on the phone now."
+      ],
+      "answer": 3,
+      "why": "**ফোনে কথা বলছি** 'I'm talking on the phone'."
+    },
+    {
+      "id": "e08",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "একটু জোরে বলুন।",
+        "tr": "ektu jore bolun.",
+        "en": "Please speak a little louder.",
+        "alt": [
+          "Speak up, please.",
+          "Please speak louder."
+        ]
+      },
+      "blank": "জোরে",
+      "options": [
+        "আস্তে",
+        "জোরে",
+        "আবার",
+        "এখনই"
+      ],
+      "answer": 1,
+      "why": "'Louder' = **জোরে**; **আস্তে** is 'slowly, softly'."
+    },
+    {
+      "id": "e09",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "লাইন কেটে গেছে।",
+        "tr": "lain kete gechhe.",
+        "en": "The line got cut.",
+        "alt": [
+          "The call dropped.",
+          "We got cut off.",
+          "The line went dead."
+        ]
+      },
+      "blank": "কেটে গেছে",
+      "options": [
+        "ব্যস্ত",
+        "নেই",
+        "কেটে গেছে",
+        "ধরছে"
+      ],
+      "answer": 2,
+      "why": "**লাইন কেটে গেছে** 'the line got cut'; **লাইন ব্যস্ত** 'the line is busy'."
+    },
+    {
+      "id": "e10",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "সে ফোন ধরছে না।",
+        "tr": "she fon dhorchhe na.",
+        "en": "He isn't answering the phone.",
+        "alt": [
+          "She isn't picking up.",
+          "She's not answering the phone."
+        ]
+      },
+      "blank": "ধরছে",
+      "accepted": [
+        "ধরছে",
+        "dhorche",
+        "dhorchhe",
+        "dhorse",
+        "dhorche~",
+        "dhorchhe~"
+      ],
+      "why": "**ফোন ধরছে না** 'isn't picking up'."
+    },
+    {
+      "id": "e11",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমার ফোনে চার্জ নেই।",
+        "tr": "amar fone charj nei.",
+        "en": "My phone has no charge.",
+        "alt": [
+          "My phone is out of charge.",
+          "My phone's battery is dead."
+        ]
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "ফোন",
+        "আমার",
+        "ফোনে",
+        "আছে",
+        "তোমার",
+        "চার্জ",
+        "নেই"
+      ],
+      "answer": [
+        "আমার",
+        "ফোনে",
+        "চার্জ",
+        "নেই"
+      ],
+      "why": "**ফোনে** = ফোন + -এ 'in the phone'."
+    },
+    {
+      "id": "e12",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "পরে ফোন করুন।",
+        "tr": "pore fon korun.",
+        "en": "Please call later.",
+        "alt": [
+          "Call later, please.",
+          "Please call back later."
+        ]
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "করব",
+        "আগে",
+        "করুন",
+        "পরে",
+        "আবার",
+        "ফোন"
+      ],
+      "answer": [
+        "পরে",
+        "ফোন",
+        "করুন"
+      ],
+      "why": "**পরে** 'later' + **ফোন করুন** 'please call'."
+    },
+    {
+      "id": "e13",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "লাইন ব্যস্ত।",
+        "tr": "lain byasto.",
+        "en": "The line is busy.",
+        "alt": [
+          "The line's busy."
+        ]
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "লাইন কেটে গেছে।",
+        "আমি ব্যস্ত।",
+        "লাইন ব্যস্ত।",
+        "ফোনে চার্জ নেই।"
+      ],
+      "answer": 2,
+      "why": "**ব্যস্ত** 'busy' works for people and for phone lines."
+    },
+    {
+      "id": "e14",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "একটু জোরে বলুন।",
+        "tr": "ektu jore bolun.",
+        "en": "Please speak a little louder.",
+        "alt": [
+          "Speak up, please.",
+          "Please speak louder."
+        ]
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "একটু জোরে বলুন",
+        "একটু জোরে বলেন",
+        "জোরে বলুন",
+        "জোরে বলেন",
+        "দয়া করে একটু জোরে বলুন",
+        "প্লিজ একটু জোরে বলুন",
+        "প্লিজ একটু জোরে বলেন",
+        "আরও জোরে বলুন",
+        "আরও জোরে বলেন",
+        "ektu jore bolun",
+        "ektu jore bolen",
+        "jore bolun",
+        "jore bolen",
+        "plij ektu jore bolun",
+        "please ektu jore bolun",
+        "aro jore bolun",
+        "ektu jore bolun plij"
+      ],
+      "why": "**একটু জোরে** 'a little louder' + **বলুন** (or everyday **বলেন**)."
+    },
+    {
+      "id": "e15",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "লাইন কেটে গেছে।",
+        "tr": "lain kete gechhe.",
+        "en": "The line got cut.",
+        "alt": [
+          "The call dropped.",
+          "We got cut off.",
+          "The line went dead."
+        ]
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "লাইন কেটে গেছে",
+        "লাইনটা কেটে গেছে",
+        "লাইন কেটে গিয়েছে",
+        "lain kete geche",
+        "lain kete gechhe",
+        "line kete geche",
+        "line kete gechhe",
+        "lain kete gese",
+        "line kete gese",
+        "lain kete giyeche",
+        "lain kete giyechhe"
+      ],
+      "why": "**লাইন** + **কেটে গেছে** 'has been cut off', learnt as one chunk."
+    },
+    {
+      "id": "r01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "পাচ্ছি",
+        "tr": "pachchhi",
+        "en": "I am getting"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "I am getting",
+        "I haven't eaten",
+        "(I/we) eat",
+        "will you go (polite)"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "listen_select",
+      "audio": {
+        "bn": "বলছেন",
+        "tr": "bolchhen",
+        "en": "you are speaking (polite)"
+      },
+      "options": [
+        "বলছেন",
+        "নিন",
+        "বসেন",
+        "দেখবে"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "পাচ্ছেন",
+        "tr": "pachchhen",
+        "en": "you are getting (polite)"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "হবে",
+        "পাচ্ছেন",
+        "খেতে",
+        "খাচ্ছি"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "নিন",
+          "tr": "nin",
+          "en": "please take (standard)"
+        },
+        {
+          "bn": "নম্বর",
+          "tr": "nombor",
+          "en": "number"
+        },
+        {
+          "bn": "আসুন",
+          "tr": "ashun",
+          "en": "please come (standard)"
+        },
+        {
+          "bn": "বসেন",
+          "tr": "boshen",
+          "en": "sit (polite)"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "পড়ি",
+          "tr": "pori",
+          "en": "I read"
+        },
+        {
+          "bn": "শুনুন",
+          "tr": "shunun",
+          "en": "please listen; excuse me"
+        },
+        {
+          "bn": "বসুন",
+          "tr": "boshun",
+          "en": "please sit (standard)"
+        },
+        {
+          "bn": "জানেন",
+          "tr": "janen",
+          "en": "(you, polite) know"
+        }
+      ],
+      "recycle": true
+    }
+  ]
+}

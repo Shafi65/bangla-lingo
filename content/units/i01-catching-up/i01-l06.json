@@ -519,37 +519,35 @@
     },
     {
       "id": "r01",
-      "type": "fill_blank",
-      "sentence": {
-        "bn": "সে অফিসে কাজ করছিল।",
-        "tr": "she ofise kaj korchhilo.",
-        "en": "He was working at the office."
+      "type": "select_translation",
+      "prompt": {
+        "bn": "করছিল",
+        "tr": "korchhilo",
+        "en": "he/she was doing"
       },
-      "blank": "করছিল",
+      "direction": "en_to_bn",
       "options": [
+        "করেছেন",
+        "নিলাম",
         "করছিল",
-        "বলল",
-        "শিখি",
-        "জানি"
+        "আসবেন"
       ],
-      "answer": 0,
+      "answer": 2,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "listen_meaning",
-      "audio": {
+      "type": "fill_blank",
+      "sentence": {
         "bn": "আমি বাজারে যাচ্ছিলাম।",
         "tr": "ami bajare jachchhilam.",
         "en": "I was going to the market."
       },
-      "options": [
-        "I listened to music.",
-        "I was going to the market.",
-        "Nadia used to come to our home every Friday.",
-        "Can you understand what I say?"
+      "blank": "যাচ্ছিলাম",
+      "accepted": [
+        "যাচ্ছিলাম",
+        "jachchhilam"
       ],
-      "answer": 1,
       "recycle": true
     },
     {
@@ -560,14 +558,14 @@
         "tr": "boro hoyechhi",
         "en": "I grew up"
       },
-      "direction": "en_to_bn",
+      "direction": "bn_to_en",
       "options": [
-        "সাঁতার কাটতাম",
-        "ঠিক আছে",
-        "বড় হয়েছি",
-        "ঠিক তখন"
+        "Eid Mubarak",
+        "I grew up",
+        "to the Shaheed Minar",
+        "God willing"
       ],
-      "answer": 2,
+      "answer": 1,
       "recycle": true
     },
     {
@@ -575,9 +573,9 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "করতি",
-          "tr": "korti",
-          "en": "you used to do (intimate)"
+          "bn": "থাকত",
+          "tr": "thakto",
+          "en": "he/she used to live"
         },
         {
           "bn": "বলতেন",
@@ -590,9 +588,9 @@
           "en": "you / he, she (polite) used to live"
         },
         {
-          "bn": "থাকত",
-          "tr": "thakto",
-          "en": "he/she used to live"
+          "bn": "করতি",
+          "tr": "korti",
+          "en": "you used to do (intimate)"
         }
       ],
       "recycle": true
@@ -602,9 +600,9 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "পুকুর",
-          "tr": "pukur",
-          "en": "pond"
+          "bn": "যেত",
+          "tr": "jeto",
+          "en": "he/she used to go"
         },
         {
           "bn": "প্রতি",
@@ -612,9 +610,9 @@
           "en": "every"
         },
         {
-          "bn": "যেত",
-          "tr": "jeto",
-          "en": "he/she used to go"
+          "bn": "পুকুর",
+          "tr": "pukur",
+          "en": "pond"
         },
         {
           "bn": "খেলা",

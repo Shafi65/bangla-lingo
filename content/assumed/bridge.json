@@ -169,17 +169,6 @@
       "pos": "verb"
     },
     {
-      "id": "peyechhi",
-      "bn": "পেয়েছি",
-      "tr": "peyechhi",
-      "en": "I have got",
-      "pos": "verb",
-      "alt": [
-        "I have found",
-        "I have received"
-      ]
-    },
-    {
       "id": "kinechhi",
       "bn": "কিনেছি",
       "tr": "kinechhi",
@@ -441,16 +430,6 @@
       "notes": "Same spelling: participle 'saying' and 'because' (taught in I2/I8)."
     },
     {
-      "id": "bolchhi",
-      "bn": "বলছি",
-      "tr": "bolchhi",
-      "en": "I am saying",
-      "pos": "verb",
-      "alt": [
-        "I am speaking"
-      ]
-    },
-    {
       "id": "jachchhe",
       "bn": "যাচ্ছে",
       "tr": "jachchhe",
@@ -573,62 +552,11 @@
       "pos": "verb"
     },
     {
-      "id": "bolo",
-      "bn": "বলো",
-      "tr": "bolo",
-      "en": "say (familiar); you say",
-      "pos": "verb"
-    },
-    {
-      "id": "dekho",
-      "bn": "দেখো",
-      "tr": "dekho",
-      "en": "look (familiar); you see",
-      "pos": "verb"
-    },
-    {
-      "id": "shono",
-      "bn": "শোনো",
-      "tr": "shono",
-      "en": "listen (familiar)",
-      "pos": "verb"
-    },
-    {
-      "id": "bosho",
-      "bn": "বসো",
-      "tr": "bosho",
-      "en": "sit (familiar)",
-      "pos": "verb"
-    },
-    {
-      "id": "esho",
-      "bn": "এসো",
-      "tr": "esho",
-      "en": "come (familiar)",
-      "pos": "verb",
-      "notes": "BD colloquial আসো (asho); accept both."
-    },
-    {
-      "id": "nao",
-      "bn": "নাও",
-      "tr": "nao",
-      "en": "take (familiar)",
-      "pos": "verb"
-    },
-    {
       "id": "rakho",
       "bn": "রাখো",
       "tr": "rakho",
       "en": "keep; put (familiar)",
       "pos": "verb"
-    },
-    {
-      "id": "boshen",
-      "bn": "বসেন",
-      "tr": "boshen",
-      "en": "sit (polite, colloquial)",
-      "pos": "verb",
-      "notes": "Standard বসুন (I12)."
     },
     {
       "id": "ashen",
@@ -653,13 +581,6 @@
       "en": "take (polite, colloquial)",
       "pos": "verb",
       "notes": "Standard নিন (I5)."
-    },
-    {
-      "id": "doya-kore",
-      "bn": "দয়া করে",
-      "tr": "doya kore",
-      "en": "please",
-      "pos": "phrase"
     },
     {
       "id": "toke",
@@ -792,13 +713,6 @@
       "pos": "particle"
     },
     {
-      "id": "ekhoni",
-      "bn": "এখনই",
-      "tr": "ekhoni",
-      "en": "right now",
-      "pos": "adv"
-    },
-    {
       "id": "ajke",
       "bn": "আজকে",
       "tr": "ajke",
@@ -832,16 +746,6 @@
       "tr": "shoptaho",
       "en": "week",
       "pos": "noun"
-    },
-    {
-      "id": "deri",
-      "bn": "দেরি",
-      "tr": "deri",
-      "en": "delay; lateness",
-      "pos": "noun",
-      "alt": [
-        "late"
-      ]
     },
     {
       "id": "kichhukkhon",
@@ -1196,13 +1100,6 @@
       "pos": "noun"
     },
     {
-      "id": "dorja",
-      "bn": "দরজা",
-      "tr": "dorja",
-      "en": "door",
-      "pos": "noun"
-    },
-    {
       "id": "janala",
       "bn": "জানালা",
       "tr": "janala",
@@ -1345,13 +1242,6 @@
       "bn": "বিয়ে",
       "tr": "biye",
       "en": "wedding; marriage",
-      "pos": "noun"
-    },
-    {
-      "id": "mesej",
-      "bn": "মেসেজ",
-      "tr": "mesej",
-      "en": "message",
       "pos": "noun"
     }
   ]

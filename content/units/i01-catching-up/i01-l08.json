@@ -511,47 +511,49 @@
         "tr": "likhtam",
         "en": "I used to write"
       },
-      "direction": "en_to_bn",
+      "direction": "bn_to_en",
       "options": [
-        "লিখতাম",
-        "দে",
-        "আসব",
-        "নই"
+        "bought",
+        "you (polite) / he, she (polite) have said",
+        "I used to write",
+        "(I/we) want"
       ],
-      "answer": 0,
+      "answer": 2,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "fill_blank",
-      "sentence": {
-        "bn": "তখনকার স্কুল ছোট ছিল, এখনকার স্কুল অনেক বড়।",
-        "tr": "tokhonkar skul chhoto chhilo, ekhonkar skul onek boro.",
-        "en": "Schools back then were small; schools today are much bigger."
+      "type": "listen_select",
+      "audio": {
+        "bn": "এখনকার",
+        "tr": "ekhonkar",
+        "en": "of today"
       },
-      "blank": "এখনকার",
-      "accepted": [
-        "এখনকার",
-        "ekhonkar"
+      "options": [
+        "শুভ",
+        "খারাপ",
+        "জরুরি",
+        "এখনকার"
       ],
+      "answer": 3,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "হতে",
-        "tr": "hote",
-        "en": "to become"
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "হ্যালো, আমি নাদিয়া বলছি।",
+        "tr": "hyalo, ami nadiya bolchhi.",
+        "en": "Hello, this is Nadia."
       },
-      "direction": "bn_to_en",
+      "blank": "হ্যালো",
       "options": [
-        "to see",
-        "I have got",
-        "was",
-        "to become"
+        "মাঝে মাঝে",
+        "লাগবে না",
+        "হ্যালো",
+        "গত সপ্তাহে"
       ],
-      "answer": 3,
+      "answer": 2,
       "recycle": true
     },
     {
@@ -559,24 +561,24 @@
       "type": "match_pairs",
       "pairs": [
         {
+          "bn": "বলছি",
+          "tr": "bolchhi",
+          "en": "I am speaking"
+        },
+        {
+          "bn": "পাচ্ছেন",
+          "tr": "pachchhen",
+          "en": "you are getting (polite)"
+        },
+        {
+          "bn": "প্লিজ",
+          "tr": "plij",
+          "en": "please"
+        },
+        {
           "bn": "দুষ্টু",
           "tr": "dushtu",
           "en": "naughty"
-        },
-        {
-          "bn": "লিখতে",
-          "tr": "likhte",
-          "en": "to write"
-        },
-        {
-          "bn": "বুঝতে",
-          "tr": "bujhte",
-          "en": "to understand"
-        },
-        {
-          "bn": "পারো",
-          "tr": "paro",
-          "en": "you (familiar) can"
         }
       ],
       "recycle": true
@@ -586,24 +588,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "চায়",
-          "tr": "chay",
-          "en": "he/she wants"
+          "bn": "খুলতে",
+          "tr": "khulte",
+          "en": "to open"
         },
         {
-          "bn": "পারিনি",
-          "tr": "parini",
-          "en": "I couldn't"
+          "bn": "ধরছে",
+          "tr": "dhorchhe",
+          "en": "is picking up"
         },
         {
-          "bn": "চাস",
-          "tr": "chash",
-          "en": "you (intimate) want"
+          "bn": "বলছেন",
+          "tr": "bolchhen",
+          "en": "you are speaking (polite)"
         },
         {
-          "bn": "শিখতে",
-          "tr": "shikhte",
-          "en": "to learn"
+          "bn": "জোরে",
+          "tr": "jore",
+          "en": "loudly"
         }
       ],
       "recycle": true

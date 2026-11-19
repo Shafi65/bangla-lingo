@@ -1,0 +1,622 @@
+{
+  "unit": "u13-requests",
+  "entries": [
+    {
+      "id": "bosho",
+      "bn": "বসো",
+      "tr": "bosho",
+      "en": "sit (familiar)",
+      "alt": [
+        "sit",
+        "sit down"
+      ],
+      "pos": "verb",
+      "lesson": "u13-l01",
+      "register": "familiar",
+      "notes": "তুমি command of বসা; same form as তুমি বসো 'you sit'."
+    },
+    {
+      "id": "esho",
+      "bn": "এসো",
+      "tr": "esho",
+      "en": "come (familiar)",
+      "alt": [
+        "come"
+      ],
+      "pos": "verb",
+      "lesson": "u13-l01",
+      "register": "familiar",
+      "notes": "Irregular: আসা → এসো. Many Bangladeshi speakers say আসো (asho); both are accepted in typed answers."
+    },
+    {
+      "id": "bolo",
+      "bn": "বলো",
+      "tr": "bolo",
+      "en": "say (familiar)",
+      "alt": [
+        "say",
+        "tell",
+        "speak",
+        "you say"
+      ],
+      "pos": "verb",
+      "lesson": "u13-l01",
+      "register": "familiar",
+      "notes": "Same form as তুমি বলো 'you say'."
+    },
+    {
+      "id": "shono",
+      "bn": "শোনো",
+      "tr": "shono",
+      "en": "listen (familiar)",
+      "alt": [
+        "listen",
+        "hey, listen"
+      ],
+      "pos": "verb",
+      "lesson": "u13-l01",
+      "register": "familiar",
+      "notes": "Also gets a friend's attention: শোনো! 'Listen!'"
+    },
+    {
+      "id": "dekho",
+      "bn": "দেখো",
+      "tr": "dekho",
+      "en": "look (familiar)",
+      "alt": [
+        "look",
+        "see",
+        "you see"
+      ],
+      "pos": "verb",
+      "lesson": "u13-l01",
+      "register": "familiar",
+      "notes": "Same form as তুমি দেখো 'you see'."
+    },
+    {
+      "id": "nao",
+      "bn": "নাও",
+      "tr": "nao",
+      "en": "take (familiar)",
+      "alt": [
+        "take",
+        "here you go"
+      ],
+      "pos": "verb",
+      "lesson": "u13-l01",
+      "register": "familiar",
+      "notes": "Offering something: এটা নাও 'Take this / Here you go'."
+    },
+    {
+      "id": "edike",
+      "bn": "এদিকে",
+      "tr": "edike",
+      "en": "this way",
+      "alt": [
+        "over here",
+        "here",
+        "this side"
+      ],
+      "pos": "adv",
+      "lesson": "u13-l01",
+      "notes": "এ- 'this' + দিকে 'way, direction'. এদিকে এসো 'Come here'."
+    },
+    {
+      "id": "boshen",
+      "bn": "বসেন",
+      "tr": "boshen",
+      "en": "sit (polite)",
+      "alt": [
+        "please sit",
+        "sit",
+        "you sit (polite)"
+      ],
+      "pos": "verb",
+      "lesson": "u13-l02",
+      "register": "polite",
+      "notes": "Everyday Bangladeshi polite command; same form as আপনি বসেন 'you sit'. Standard: বসুন.",
+      "kolkata": {
+        "bn": "বসুন",
+        "tr": "boshun"
+      }
+    },
+    {
+      "id": "boshun",
+      "bn": "বসুন",
+      "tr": "boshun",
+      "en": "please sit (standard)",
+      "alt": [
+        "please sit",
+        "sit down",
+        "have a seat"
+      ],
+      "pos": "verb",
+      "lesson": "u13-l02",
+      "register": "polite",
+      "notes": "Standard polite command: বসি → বস- + -উন. Everyday Bangladeshi speech often uses বসেন."
+    },
+    {
+      "id": "ashun",
+      "bn": "আসুন",
+      "tr": "ashun",
+      "en": "please come (standard)",
+      "alt": [
+        "please come",
+        "come",
+        "come in"
+      ],
+      "pos": "verb",
+      "lesson": "u13-l02",
+      "register": "polite",
+      "notes": "আসি → আস- + -উন. Everyday Bangladeshi speech also uses আসেন."
+    },
+    {
+      "id": "bolun",
+      "bn": "বলুন",
+      "tr": "bolun",
+      "en": "please say (standard)",
+      "alt": [
+        "please say",
+        "please tell",
+        "say",
+        "tell",
+        "speak"
+      ],
+      "pos": "verb",
+      "lesson": "u13-l02",
+      "register": "polite",
+      "notes": "বলি → বল- + -উন. Everyday Bangladeshi speech also uses বলেন."
+    },
+    {
+      "id": "shunun",
+      "bn": "শুনুন",
+      "tr": "shunun",
+      "en": "please listen; excuse me",
+      "alt": [
+        "listen",
+        "excuse me",
+        "please listen"
+      ],
+      "pos": "verb",
+      "lesson": "u13-l02",
+      "register": "polite",
+      "notes": "শুনি → শুন- + -উন. Also the polite way to get a stranger's attention. Everyday Bangladeshi speech also uses শোনেন."
+    },
+    {
+      "id": "nin",
+      "bn": "নিন",
+      "tr": "nin",
+      "en": "please take (standard)",
+      "alt": [
+        "please take",
+        "take",
+        "have some",
+        "help yourself"
+      ],
+      "pos": "verb",
+      "lesson": "u13-l02",
+      "register": "polite",
+      "notes": "Irregular, like দিন. Everyday Bangladeshi speech also uses নেন."
+    },
+    {
+      "id": "doya-kore",
+      "bn": "দয়া করে",
+      "tr": "doya kore",
+      "en": "please",
+      "alt": [
+        "kindly"
+      ],
+      "pos": "phrase",
+      "lesson": "u13-l02",
+      "notes": "Literally 'doing a kindness'. Formal or pleading; in everyday talk a polite verb form plus একটু is enough."
+    },
+    {
+      "id": "korun",
+      "bn": "করুন",
+      "tr": "korun",
+      "en": "please do (standard)",
+      "alt": [
+        "do",
+        "please do"
+      ],
+      "pos": "verb",
+      "lesson": "u13-l03",
+      "register": "polite",
+      "notes": "করি → কর- + -উন. Everyday Bangladeshi speech also uses করেন."
+    },
+    {
+      "id": "opekkha",
+      "bn": "অপেক্ষা",
+      "tr": "opekkha",
+      "en": "waiting",
+      "alt": [
+        "wait"
+      ],
+      "pos": "noun",
+      "lesson": "u13-l03",
+      "notes": "অপেক্ষা করুন 'please wait': a little formal (offices, phone recordings)."
+    },
+    {
+      "id": "daran",
+      "bn": "দাঁড়ান",
+      "tr": "da~ran",
+      "en": "wait (polite); stand",
+      "alt": [
+        "please wait",
+        "wait",
+        "stand"
+      ],
+      "pos": "verb",
+      "lesson": "u13-l03",
+      "register": "polite",
+      "notes": "Command of দাঁড়ানো 'stand'. একটু দাঁড়ান 'wait a moment' is everyday speech."
+    },
+    {
+      "id": "darao",
+      "bn": "দাঁড়াও",
+      "tr": "da~rao",
+      "en": "wait (familiar); stand",
+      "alt": [
+        "wait",
+        "stand"
+      ],
+      "pos": "verb",
+      "lesson": "u13-l03",
+      "register": "familiar",
+      "notes": "Command of দাঁড়ানো 'stand', to someone you call তুমি."
+    },
+    {
+      "id": "deri",
+      "bn": "দেরি",
+      "tr": "deri",
+      "en": "delay; lateness",
+      "alt": [
+        "late",
+        "being late"
+      ],
+      "pos": "noun",
+      "lesson": "u13-l03",
+      "notes": "দেরি করা 'be late, take long'; আমার দেরি হবে 'I'll be late'."
+    },
+    {
+      "id": "ekhoni",
+      "bn": "এখনই",
+      "tr": "ekhoni",
+      "en": "right now",
+      "alt": [
+        "right away",
+        "immediately"
+      ],
+      "pos": "adv",
+      "lesson": "u13-l03",
+      "notes": "এখন 'now' + -ই 'just, exactly'."
+    },
+    {
+      "id": "plij",
+      "bn": "প্লিজ",
+      "tr": "plij",
+      "en": "please",
+      "alt": [
+        "pls"
+      ],
+      "pos": "particle",
+      "lesson": "u13-l04",
+      "notes": "From English. Very common in Bangladeshi speech, more casual than দয়া করে."
+    },
+    {
+      "id": "khulte",
+      "bn": "খুলতে",
+      "tr": "khulte",
+      "en": "to open",
+      "alt": [
+        "open"
+      ],
+      "pos": "verb",
+      "lesson": "u13-l04",
+      "notes": "Infinitive of খোলা 'open': খুলি → খুল- + -তে (the vowel rises, as in শুনতে)."
+    },
+    {
+      "id": "dekhate",
+      "bn": "দেখাতে",
+      "tr": "dekhate",
+      "en": "to show",
+      "alt": [
+        "show"
+      ],
+      "pos": "verb",
+      "lesson": "u13-l04",
+      "notes": "Infinitive of দেখানো 'show' (from দেখা 'see')."
+    },
+    {
+      "id": "dorja",
+      "bn": "দরজা",
+      "tr": "dorja",
+      "en": "door",
+      "pos": "noun",
+      "lesson": "u13-l04"
+    },
+    {
+      "id": "byapar",
+      "bn": "ব্যাপার",
+      "tr": "byapar",
+      "en": "matter; thing",
+      "alt": [
+        "affair"
+      ],
+      "pos": "noun",
+      "lesson": "u13-l04",
+      "notes": "কোনো ব্যাপার না 'no problem, it's nothing': a common reply to thanks."
+    },
+    {
+      "id": "hyalo",
+      "bn": "হ্যালো",
+      "tr": "hyalo",
+      "en": "hello (on the phone)",
+      "alt": [
+        "hello",
+        "hi"
+      ],
+      "pos": "phrase",
+      "lesson": "u13-l05",
+      "notes": "Answers and starts phone calls. Face to face, people greet with সালাম or নমস্কার."
+    },
+    {
+      "id": "bolchhen",
+      "bn": "বলছেন",
+      "tr": "bolchhen",
+      "en": "you are speaking (polite)",
+      "alt": [
+        "is speaking",
+        "are speaking",
+        "is calling"
+      ],
+      "pos": "verb",
+      "lesson": "u13-l05",
+      "register": "polite",
+      "notes": "Present continuous of বলা. কে বলছেন? 'Who's speaking?'"
+    },
+    {
+      "id": "bolchhi",
+      "bn": "বলছি",
+      "tr": "bolchhi",
+      "en": "I am speaking",
+      "alt": [
+        "I am saying",
+        "speaking"
+      ],
+      "pos": "verb",
+      "lesson": "u13-l05",
+      "notes": "On the phone: আমি রাফি বলছি 'This is Rafi (speaking)'."
+    },
+    {
+      "id": "nombor",
+      "bn": "নম্বর",
+      "tr": "nombor",
+      "en": "number",
+      "alt": [
+        "phone number"
+      ],
+      "pos": "noun",
+      "lesson": "u13-l05",
+      "notes": "ফোন নম্বর 'phone number'. Also spelled নাম্বার."
+    },
+    {
+      "id": "pachchhi",
+      "bn": "পাচ্ছি",
+      "tr": "pachchhi",
+      "en": "I am getting",
+      "alt": [
+        "I can (hear)",
+        "I'm getting"
+      ],
+      "pos": "verb",
+      "lesson": "u13-l05",
+      "notes": "Present continuous of পাওয়া 'get'. শুনতে পাচ্ছি 'I can hear'."
+    },
+    {
+      "id": "pachchhen",
+      "bn": "পাচ্ছেন",
+      "tr": "pachchhen",
+      "en": "you are getting (polite)",
+      "alt": [
+        "can you (hear)",
+        "you can (hear)"
+      ],
+      "pos": "verb",
+      "lesson": "u13-l05",
+      "register": "polite",
+      "notes": "শুনতে পাচ্ছেন? 'Can you hear (me)?'"
+    },
+    {
+      "id": "lain",
+      "bn": "লাইন",
+      "tr": "lain",
+      "en": "line",
+      "alt": [
+        "phone line",
+        "connection",
+        "queue"
+      ],
+      "pos": "noun",
+      "lesson": "u13-l06"
+    },
+    {
+      "id": "kete-gechhe",
+      "bn": "কেটে গেছে",
+      "tr": "kete gechhe",
+      "en": "has been cut off",
+      "alt": [
+        "got cut",
+        "dropped",
+        "went dead"
+      ],
+      "pos": "phrase",
+      "lesson": "u13-l06",
+      "notes": "কাটা 'cut' + গেছে 'has gone'. লাইন কেটে গেছে 'the call dropped'."
+    },
+    {
+      "id": "dhorchhe",
+      "bn": "ধরছে",
+      "tr": "dhorchhe",
+      "en": "is picking up",
+      "alt": [
+        "is answering",
+        "is holding"
+      ],
+      "pos": "verb",
+      "lesson": "u13-l06",
+      "notes": "Present continuous of ধরা 'hold, catch'. ফোন ধরছে না 'isn't picking up'."
+    },
+    {
+      "id": "charj",
+      "bn": "চার্জ",
+      "tr": "charj",
+      "en": "charge (battery)",
+      "alt": [
+        "battery",
+        "charge"
+      ],
+      "pos": "noun",
+      "lesson": "u13-l06"
+    },
+    {
+      "id": "jore",
+      "bn": "জোরে",
+      "tr": "jore",
+      "en": "loudly",
+      "alt": [
+        "louder",
+        "loud"
+      ],
+      "pos": "adv",
+      "lesson": "u13-l06",
+      "notes": "একটু জোরে বলুন 'please speak up'. Opposite: আস্তে."
+    },
+    {
+      "id": "fone",
+      "bn": "ফোনে",
+      "tr": "fone",
+      "en": "on the phone",
+      "alt": [
+        "by phone",
+        "in the phone"
+      ],
+      "pos": "noun",
+      "lesson": "u13-l06",
+      "notes": "ফোন + -এ."
+    },
+    {
+      "id": "mesej",
+      "bn": "মেসেজ",
+      "tr": "mesej",
+      "en": "message",
+      "alt": [
+        "text",
+        "text message"
+      ],
+      "pos": "noun",
+      "lesson": "u13-l07"
+    },
+    {
+      "id": "pathao",
+      "bn": "পাঠাও",
+      "tr": "pathao",
+      "en": "send (familiar)",
+      "alt": [
+        "send"
+      ],
+      "pos": "verb",
+      "lesson": "u13-l07",
+      "register": "familiar"
+    },
+    {
+      "id": "pathan",
+      "bn": "পাঠান",
+      "tr": "pathan",
+      "en": "please send (polite)",
+      "alt": [
+        "send",
+        "you send (polite)"
+      ],
+      "pos": "verb",
+      "lesson": "u13-l07",
+      "register": "polite",
+      "notes": "পাঠানো 'send'. Verbs whose আমি form ends in -আই (পাঠাই, খাই, ঘুমাই) have one polite command: পাঠান, খান, ঘুমান."
+    },
+    {
+      "id": "pathabo",
+      "bn": "পাঠাব",
+      "tr": "pathabo",
+      "en": "I will send",
+      "alt": [
+        "I'll send"
+      ],
+      "pos": "verb",
+      "lesson": "u13-l07",
+      "notes": "Also spelled পাঠাবো."
+    },
+    {
+      "id": "peyechhi",
+      "bn": "পেয়েছি",
+      "tr": "peyechhi",
+      "en": "I have got",
+      "alt": [
+        "I've got (it)",
+        "I have received",
+        "I got",
+        "I have found"
+      ],
+      "pos": "verb",
+      "lesson": "u13-l07"
+    },
+    {
+      "id": "janao",
+      "bn": "জানাও",
+      "tr": "janao",
+      "en": "let (me) know (familiar)",
+      "alt": [
+        "let me know",
+        "tell (me)"
+      ],
+      "pos": "verb",
+      "lesson": "u13-l07",
+      "register": "familiar"
+    },
+    {
+      "id": "janaben",
+      "bn": "জানাবেন",
+      "tr": "janaben",
+      "en": "please let (me) know (polite)",
+      "alt": [
+        "let me know",
+        "will you let me know"
+      ],
+      "pos": "verb",
+      "lesson": "u13-l07",
+      "register": "polite",
+      "notes": "Polite future used as a gentle request, like আসবেন 'please come'."
+    },
+    {
+      "id": "pouchhechhi",
+      "bn": "পৌঁছেছি",
+      "tr": "pou~chhechhi",
+      "en": "I have reached",
+      "alt": [
+        "I have arrived",
+        "I've arrived",
+        "I've got (there)"
+      ],
+      "pos": "verb",
+      "lesson": "u13-l07",
+      "notes": "পৌঁছানো 'reach, arrive'. The classic text to family after a journey: বাসায় পৌঁছেছি."
+    },
+    {
+      "id": "thikana",
+      "bn": "ঠিকানা",
+      "tr": "thikana",
+      "en": "address",
+      "pos": "noun",
+      "lesson": "u13-l07"
+    }
+  ]
+}

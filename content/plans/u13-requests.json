@@ -1,0 +1,932 @@
+{
+  "unit": "u13-requests",
+  "lessons": [
+    {
+      "id": "u13-l01",
+      "kind": "lesson",
+      "title": "Come here, sit down",
+      "goal": "Tell a friend or family member what to do with the familiar (তুমি) command.",
+      "grammar": [
+        "তুমি command = the তুমি present form: (তুমি) বসো 'you sit' → বসো! 'sit!'",
+        "irregular এসো 'come'; একটু softens a command"
+      ],
+      "new": [
+        "bosho",
+        "esho",
+        "bolo",
+        "shono",
+        "dekho",
+        "nao",
+        "edike"
+      ],
+      "review": [
+        "koro",
+        "khao",
+        "jao",
+        "dao",
+        "tumi",
+        "bhitore",
+        "ekhane",
+        "ektu",
+        "abar",
+        "aste",
+        "dike"
+      ],
+      "tip": "**A তুমি command is just the তুমি present form.** You already know it: **খাও** 'eat!', **যাও** 'go!', **দাও** 'give!', **করো** 'do!'. The same goes for any verb: **বসো** 'sit', **বলো** 'say', **শোনো** 'listen', **দেখো** 'look', **নাও** 'take'.\n\nOne is irregular: **আসা** 'come' → **এসো** (many Bangladeshis say **আসো**). **এদিকে এসো** 'Come here (this way)'.\n\nUse these with friends, younger relatives and children, people you call **তুমি**. Add **একটু** 'a little' to soften: **একটু শোনো** 'listen a sec'. The sentence often needs no 'you': **এখানে বসো** 'Sit here'.",
+      "sentences": [
+        {
+          "bn": "এদিকে এসো।",
+          "tr": "edike esho.",
+          "en": "Come here.",
+          "alt": [
+            "Come over here.",
+            "Come this way."
+          ]
+        },
+        {
+          "bn": "ভিতরে এসো, বসো।",
+          "tr": "bhitore esho, bosho.",
+          "en": "Come in, sit down.",
+          "alt": [
+            "Come inside and sit down.",
+            "Come in and sit."
+          ]
+        },
+        {
+          "bn": "এখানে বসো।",
+          "tr": "ekhane bosho.",
+          "en": "Sit here.",
+          "alt": [
+            "Sit down here."
+          ]
+        },
+        {
+          "bn": "আবার বলো।",
+          "tr": "abar bolo.",
+          "en": "Say it again.",
+          "alt": [
+            "Say that again.",
+            "Tell me again."
+          ]
+        },
+        {
+          "bn": "একটু শোনো।",
+          "tr": "ektu shono.",
+          "en": "Listen a moment.",
+          "alt": [
+            "Listen for a second.",
+            "Listen a bit."
+          ]
+        },
+        {
+          "bn": "দেখো, ওটা আমার বাসা।",
+          "tr": "dekho, ota amar basha.",
+          "en": "Look, that's my home.",
+          "alt": [
+            "Look, that is my house.",
+            "Look, that's where I live."
+          ]
+        },
+        {
+          "bn": "এটা নাও।",
+          "tr": "eta nao.",
+          "en": "Take this.",
+          "alt": [
+            "Here, take this.",
+            "Here you go."
+          ]
+        },
+        {
+          "bn": "চা খাও।",
+          "tr": "cha khao.",
+          "en": "Have some tea.",
+          "alt": [
+            "Drink tea.",
+            "Have tea."
+          ]
+        },
+        {
+          "bn": "আস্তে বলো।",
+          "tr": "aste bolo.",
+          "en": "Speak slowly.",
+          "alt": [
+            "Say it slowly.",
+            "Talk slowly."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u13-l02",
+      "kind": "lesson",
+      "title": "Please come in",
+      "goal": "Invite and instruct someone you call আপনি, in everyday and standard polite forms.",
+      "grammar": [
+        "আপনি command, everyday BD: the আপনি present form (বসেন, বলেন, দেন)",
+        "standard: আমি form minus -ই, plus -উন (বসি → বসুন); দিন, নিন irregular"
+      ],
+      "new": [
+        "boshen",
+        "boshun",
+        "ashun",
+        "bolun",
+        "shunun",
+        "nin",
+        "doya-kore"
+      ],
+      "review": [
+        "den",
+        "din-give",
+        "jan",
+        "bolen",
+        "koren",
+        "apni",
+        "angkel",
+        "pani",
+        "cha",
+        "koto",
+        "abar",
+        "aste"
+      ],
+      "tip": "**আপনি has two command forms, both polite.**\n\n- **Everyday Bangladesh:** the আপনি present form, as in **দেন**, **যান**, **থামেন**: **বসেন** 'sit', **বলেন** 'say'.\n- **Standard (signs, offices, Kolkata):** take the আমি form, drop -ই, add **-উন**: বসি → **বসুন**, বলি → **বলুন**, শুনি → **শুনুন**, আসি → **আসুন**. Like **দিন**, 'take' is **নিন**.\n\n**ভিতরে আসুন, বসুন** 'Come in, have a seat' is what a host says. **শুনুন** 'listen' is also how you politely say 'Excuse me' to a stranger.\n\n**দয়া করে** 'please' is formal or pleading; the polite verb already does most of the work.",
+      "sentences": [
+        {
+          "bn": "ভিতরে আসুন।",
+          "tr": "bhitore ashun.",
+          "en": "Please come in.",
+          "alt": [
+            "Come in.",
+            "Come inside, please."
+          ]
+        },
+        {
+          "bn": "বসুন।",
+          "tr": "boshun.",
+          "en": "Please sit down.",
+          "alt": [
+            "Have a seat.",
+            "Sit down, please."
+          ]
+        },
+        {
+          "bn": "আংকেল, বসেন।",
+          "tr": "angkel, boshen.",
+          "en": "Please sit, uncle.",
+          "alt": [
+            "Uncle, have a seat.",
+            "Sit down, uncle."
+          ]
+        },
+        {
+          "bn": "দয়া করে আস্তে বলুন।",
+          "tr": "doya kore aste bolun.",
+          "en": "Please speak slowly.",
+          "alt": [
+            "Please speak more slowly.",
+            "Please say it slowly."
+          ]
+        },
+        {
+          "bn": "আবার বলুন।",
+          "tr": "abar bolun.",
+          "en": "Please say that again.",
+          "alt": [
+            "Say it again, please.",
+            "Say that again."
+          ]
+        },
+        {
+          "bn": "শুনুন, এটা কত?",
+          "tr": "shunun, eta koto?",
+          "en": "Excuse me, how much is this?",
+          "alt": [
+            "Listen, how much is this?"
+          ]
+        },
+        {
+          "bn": "চা নিন।",
+          "tr": "cha nin.",
+          "en": "Please have some tea.",
+          "alt": [
+            "Have some tea.",
+            "Take some tea."
+          ]
+        },
+        {
+          "bn": "একটু পানি দিন।",
+          "tr": "ektu pani din.",
+          "en": "Please give me some water.",
+          "alt": [
+            "Some water, please.",
+            "Please give a little water."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u13-l03",
+      "kind": "lesson",
+      "title": "Wait! Don't worry",
+      "goal": "Ask someone to wait, ask for help, and say 'don't' politely.",
+      "grammar": [
+        "করুন 'please do' (করি → করুন); অপেক্ষা করুন, সাহায্য করুন",
+        "polite 'don't': future + না (চিন্তা করবেন না, যাবেন না)"
+      ],
+      "new": [
+        "korun",
+        "opekkha",
+        "daran",
+        "darao",
+        "deri",
+        "ekhoni"
+      ],
+      "review": [
+        "shahajjo",
+        "chinta",
+        "korben",
+        "jaben",
+        "amake",
+        "ektu",
+        "minit",
+        "ek",
+        "hobe",
+        "amar",
+        "esho",
+        "ashun"
+      ],
+      "tip": "**'Wait!'** In everyday speech: **একটু দাঁড়ান** (আপনি) or **এক মিনিট দাঁড়াও** (তুমি). **দাঁড়ানো** means 'stand', but here it means 'hold on'. Offices and phone recordings say **একটু অপেক্ষা করুন** 'please wait a moment'.\n\n**করুন** is the standard polite 'do' (করি → করুন): **আমাকে সাহায্য করুন** 'Please help me'.\n\n**'Don't…' (polite) = the future + না:** **চিন্তা করবেন না** 'Don't worry', **যাবেন না** 'Don't go', **দেরি করবেন না** 'Don't be late'. (With তুমি people say **চিন্তা কোরো না**; that form comes later.)\n\n**দেরি** is 'lateness': **আমার একটু দেরি হবে** 'I'll be a bit late'.",
+      "sentences": [
+        {
+          "bn": "একটু দাঁড়ান।",
+          "tr": "ektu da~ran.",
+          "en": "Wait a moment, please.",
+          "alt": [
+            "Please wait a bit.",
+            "Hold on a moment, please."
+          ]
+        },
+        {
+          "bn": "এক মিনিট দাঁড়াও।",
+          "tr": "ek minit da~rao.",
+          "en": "Wait a minute.",
+          "alt": [
+            "Hold on a minute.",
+            "Just a minute."
+          ]
+        },
+        {
+          "bn": "একটু অপেক্ষা করুন।",
+          "tr": "ektu opekkha korun.",
+          "en": "Please wait a moment.",
+          "alt": [
+            "Please wait a little.",
+            "Please hold on."
+          ]
+        },
+        {
+          "bn": "আমাকে সাহায্য করুন।",
+          "tr": "amake shahajjo korun.",
+          "en": "Please help me.",
+          "alt": [
+            "Help me, please."
+          ]
+        },
+        {
+          "bn": "চিন্তা করবেন না।",
+          "tr": "chinta korben na.",
+          "en": "Don't worry.",
+          "alt": [
+            "Please don't worry."
+          ]
+        },
+        {
+          "bn": "দেরি করবেন না।",
+          "tr": "deri korben na.",
+          "en": "Don't be late.",
+          "alt": [
+            "Please don't be late.",
+            "Please don't take long."
+          ]
+        },
+        {
+          "bn": "এখনই এসো।",
+          "tr": "ekhoni esho.",
+          "en": "Come right now.",
+          "alt": [
+            "Come right away.",
+            "Come now."
+          ]
+        },
+        {
+          "bn": "আমার একটু দেরি হবে।",
+          "tr": "amar ektu deri hobe.",
+          "en": "I'll be a little late.",
+          "alt": [
+            "I will be a bit late."
+          ]
+        },
+        {
+          "bn": "এখনই যাবেন না।",
+          "tr": "ekhoni jaben na.",
+          "en": "Don't go just yet.",
+          "alt": [
+            "Please don't leave yet.",
+            "Don't go right now."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u13-l04",
+      "kind": "lesson",
+      "title": "Could you…? Thanks!",
+      "goal": "Ask favours politely, and thank someone and reply to thanks.",
+      "grammar": [
+        "favour = question with পারবেন / পারবে: আপনি কি … -তে পারবেন?",
+        "প্লিজ / দয়া করে; replies to thanks: কোনো ব্যাপার না, কোনো সমস্যা নেই"
+      ],
+      "new": [
+        "plij",
+        "khulte",
+        "dekhate",
+        "dorja",
+        "byapar"
+      ],
+      "review": [
+        "parben",
+        "parbe",
+        "ki-q",
+        "dhonnobad",
+        "onek",
+        "kono",
+        "shomossha",
+        "nei",
+        "bondho",
+        "koro",
+        "rasta",
+        "shahajjo",
+        "amake",
+        "doya-kore"
+      ],
+      "tip": "**A command is fine for offers** (বসুন, চা নিন). **To ask a favour, a question is softer** (U12): **আপনি কি দরজা খুলতে পারবেন?** 'Could you open the door?' To a friend: **তুমি কি … পারবে?**\n\n**প্লিজ**, from English, is everywhere in Bangladeshi speech and sounds more casual than **দয়া করে**: **প্লিজ, দরজা বন্ধ করো** 'Close the door, please'.\n\n**Thanks:** **অনেক ধন্যবাদ** 'Thank you very much'. Replies: **কোনো ব্যাপার না** 'It's nothing' or **কোনো সমস্যা নেই** 'No problem'.\n\n*Culture:* with family and close friends, ধন্যবাদ can sound stiff; people often just smile and say **আচ্ছা**.",
+      "sentences": [
+        {
+          "bn": "আপনি কি দরজা খুলতে পারবেন?",
+          "tr": "apni ki dorja khulte parben?",
+          "en": "Could you open the door?",
+          "alt": [
+            "Can you open the door?"
+          ]
+        },
+        {
+          "bn": "তুমি কি দরজা খুলতে পারবে?",
+          "tr": "tumi ki dorja khulte parbe?",
+          "en": "Could you open the door? (familiar)",
+          "alt": [
+            "Can you open the door?"
+          ]
+        },
+        {
+          "bn": "প্লিজ, দরজা বন্ধ করো।",
+          "tr": "plij, dorja bondho koro.",
+          "en": "Close the door, please.",
+          "alt": [
+            "Please close the door."
+          ]
+        },
+        {
+          "bn": "আপনি কি আমাকে রাস্তা দেখাতে পারবেন?",
+          "tr": "apni ki amake rasta dekhate parben?",
+          "en": "Could you show me the way?",
+          "alt": [
+            "Can you show me the way?"
+          ]
+        },
+        {
+          "bn": "প্লিজ, আমাকে একটু সাহায্য করো।",
+          "tr": "plij, amake ektu shahajjo koro.",
+          "en": "Please help me a bit.",
+          "alt": [
+            "Please help me.",
+            "Help me a little, please."
+          ]
+        },
+        {
+          "bn": "অনেক ধন্যবাদ।",
+          "tr": "onek dhonnobad.",
+          "en": "Thank you very much.",
+          "alt": [
+            "Thanks a lot.",
+            "Many thanks."
+          ]
+        },
+        {
+          "bn": "কোনো ব্যাপার না।",
+          "tr": "kono byapar na.",
+          "en": "It's nothing.",
+          "alt": [
+            "No problem.",
+            "Don't mention it.",
+            "You're welcome."
+          ]
+        },
+        {
+          "bn": "কোনো সমস্যা নেই।",
+          "tr": "kono shomossha nei.",
+          "en": "No problem.",
+          "alt": [
+            "There's no problem.",
+            "It's no problem."
+          ]
+        },
+        {
+          "bn": "আপনি কি আমাকে একটু দেখাতে পারবেন?",
+          "tr": "apni ki amake ektu dekhate parben?",
+          "en": "Could you show me, please?",
+          "alt": [
+            "Could you show me?",
+            "Can you show me a little?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u13-l05",
+      "kind": "lesson",
+      "title": "Hello, who's speaking?",
+      "goal": "Answer and make a phone call: say who you are, ask who is calling, and end the call.",
+      "grammar": [
+        "আমি … বলছি 'This is …'; কে বলছেন? 'Who's speaking?'",
+        "শুনতে পাচ্ছি 'I can hear' (পাওয়া 'get', present continuous)"
+      ],
+      "new": [
+        "hyalo",
+        "bolchhen",
+        "bolchhi",
+        "nombor",
+        "pachchhi",
+        "pachchhen"
+      ],
+      "review": [
+        "ke",
+        "fon",
+        "shunte",
+        "kotha-talk",
+        "pore-later",
+        "korbo",
+        "rakhi",
+        "achchha",
+        "bolen",
+        "ji",
+        "koto",
+        "ki-q",
+        "achhe"
+      ],
+      "tip": "**Phone talk.** Calls start with **হ্যালো** (or সালাম). Say who you are with **বলছি** 'I am speaking': **আমি রাফি বলছি** 'This is Rafi'. To ask who's calling: **কে বলছেন?** (polite, -ছেন).\n\nThe other person often says **জি, বলেন** 'Yes, go ahead'.\n\n**শুনতে পাচ্ছি** = 'I can hear' (literally 'I am getting to hear'): **আমার কথা শুনতে পাচ্ছেন?** 'Can you hear me?', **শুনতে পাচ্ছি না** 'I can't hear'.\n\nTo end a call, Bangladeshis say **আচ্ছা, এখন রাখি**: **রাখা** 'put down', so 'OK, I'll hang up now'. **পরে ফোন করব** 'I'll call later'.",
+      "sentences": [
+        {
+          "bn": "হ্যালো, কে বলছেন?",
+          "tr": "hyalo, ke bolchhen?",
+          "en": "Hello, who's speaking?",
+          "alt": [
+            "Hello, who is this?",
+            "Hello, who's calling?"
+          ]
+        },
+        {
+          "bn": "আমি রাফি বলছি।",
+          "tr": "ami rafi bolchhi.",
+          "en": "This is Rafi.",
+          "alt": [
+            "It's Rafi speaking.",
+            "Rafi speaking."
+          ]
+        },
+        {
+          "bn": "জি, বলেন।",
+          "tr": "ji, bolen.",
+          "en": "Yes, go ahead.",
+          "alt": [
+            "Yes, please go on.",
+            "Yes, tell me."
+          ]
+        },
+        {
+          "bn": "আপনি কি আমার কথা শুনতে পাচ্ছেন?",
+          "tr": "apni ki amar kotha shunte pachchhen?",
+          "en": "Can you hear me?",
+          "alt": [
+            "Can you hear what I'm saying?"
+          ]
+        },
+        {
+          "bn": "আমি শুনতে পাচ্ছি না।",
+          "tr": "ami shunte pachchhi na.",
+          "en": "I can't hear.",
+          "alt": [
+            "I can't hear you."
+          ]
+        },
+        {
+          "bn": "আপনার ফোন নম্বর কত?",
+          "tr": "apnar fon nombor koto?",
+          "en": "What's your phone number?",
+          "alt": [
+            "What is your phone number?"
+          ]
+        },
+        {
+          "bn": "নাদিয়া কি আছে?",
+          "tr": "nadiya ki achhe?",
+          "en": "Is Nadia there?",
+          "alt": [
+            "Is Nadia in?"
+          ]
+        },
+        {
+          "bn": "আমি পরে ফোন করব।",
+          "tr": "ami pore fon korbo.",
+          "en": "I'll call later.",
+          "alt": [
+            "I will call later.",
+            "I'll call you later."
+          ]
+        },
+        {
+          "bn": "আচ্ছা, এখন রাখি।",
+          "tr": "achchha, ekhon rakhi.",
+          "en": "OK, I'll hang up now.",
+          "alt": [
+            "OK, bye for now.",
+            "OK, I'll go now."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u13-l06",
+      "kind": "lesson",
+      "title": "The line got cut",
+      "goal": "Handle phone problems: a dropped call, no answer, a dead battery, a bad line.",
+      "grammar": [
+        "লাইন কেটে গেছে 'the call dropped' as a chunk",
+        "ফোন ধরছে না 'isn't picking up'; ফোনে 'on the phone'"
+      ],
+      "new": [
+        "lain",
+        "kete-gechhe",
+        "dhorchhe",
+        "charj",
+        "jore",
+        "fone"
+      ],
+      "review": [
+        "fon",
+        "nei",
+        "abar",
+        "korun",
+        "bolun",
+        "pore-later",
+        "byasto",
+        "korbo",
+        "bolchhi",
+        "kotha-talk",
+        "ektu",
+        "aste",
+        "she"
+      ],
+      "tip": "**When the phone lets you down:**\n\n- **লাইন কেটে গেছে** 'The line got cut' (কাটা 'cut' + গেছে 'has gone'); learn it as one chunk.\n- **সে ফোন ধরছে না** 'He isn't picking up' (ধরা 'hold, catch').\n- **আমার ফোনে চার্জ নেই** 'My phone has no charge'. **ফোনে** = ফোন + -এ 'on the phone'.\n- **লাইন ব্যস্ত** 'The line is busy'.\n\nAsk the other person to **একটু জোরে বলুন** 'speak up a little' (the opposite of **আস্তে**) or **পরে ফোন করুন** 'call later'.\n\nIn Bangladesh people also say **ফোন দেওয়া** for 'to call': **পরে ফোন দেব** 'I'll call later'.",
+      "sentences": [
+        {
+          "bn": "লাইন কেটে গেছে।",
+          "tr": "lain kete gechhe.",
+          "en": "The line got cut.",
+          "alt": [
+            "The call dropped.",
+            "We got cut off.",
+            "The line went dead."
+          ]
+        },
+        {
+          "bn": "আমার ফোনে চার্জ নেই।",
+          "tr": "amar fone charj nei.",
+          "en": "My phone has no charge.",
+          "alt": [
+            "My phone is out of charge.",
+            "My phone's battery is dead."
+          ]
+        },
+        {
+          "bn": "একটু জোরে বলুন।",
+          "tr": "ektu jore bolun.",
+          "en": "Please speak a little louder.",
+          "alt": [
+            "Speak up, please.",
+            "Please speak louder."
+          ]
+        },
+        {
+          "bn": "সে ফোন ধরছে না।",
+          "tr": "she fon dhorchhe na.",
+          "en": "He isn't answering the phone.",
+          "alt": [
+            "She isn't picking up.",
+            "She's not answering the phone."
+          ]
+        },
+        {
+          "bn": "আমি আবার ফোন করব।",
+          "tr": "ami abar fon korbo.",
+          "en": "I'll call again.",
+          "alt": [
+            "I'll call back.",
+            "I will call again."
+          ]
+        },
+        {
+          "bn": "পরে ফোন করুন।",
+          "tr": "pore fon korun.",
+          "en": "Please call later.",
+          "alt": [
+            "Call later, please.",
+            "Please call back later."
+          ]
+        },
+        {
+          "bn": "আমি এখন ফোনে কথা বলছি।",
+          "tr": "ami ekhon fone kotha bolchhi.",
+          "en": "I'm talking on the phone now.",
+          "alt": [
+            "I'm on the phone now."
+          ]
+        },
+        {
+          "bn": "লাইন ব্যস্ত।",
+          "tr": "lain byasto.",
+          "en": "The line is busy.",
+          "alt": [
+            "The line's busy."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u13-l07",
+      "kind": "lesson",
+      "title": "Text me",
+      "goal": "Send and answer text messages: send me…, got it, I've reached home, let me know.",
+      "grammar": [
+        "পাঠাও / পাঠান 'send': -আ verbs have one polite command (পাঠান, like খান)",
+        "future as a gentle request: জানাবেন 'please let me know'"
+      ],
+      "new": [
+        "mesej",
+        "pathao",
+        "pathan",
+        "pathabo",
+        "peyechhi",
+        "janao",
+        "janaben",
+        "pouchhechhi",
+        "thikana"
+      ],
+      "review": [
+        "amake",
+        "tomake",
+        "tomar",
+        "apnar",
+        "ekhoni",
+        "pore-later",
+        "janabo",
+        "bashay",
+        "kokhon",
+        "ashben",
+        "dhonnobad",
+        "thik-achhe",
+        "ekta"
+      ],
+      "tip": "**Texting.** A text is a **মেসেজ**. **পাঠানো** 'send': **পাঠাও** (তুমি), **পাঠান** (আপনি), **পাঠাব** 'I'll send'. Verbs whose আমি form ends in -আই (পাঠাই, খাই) have just one polite command: **পাঠান**, **খান**.\n\nShort replies:\n- **মেসেজ পেয়েছি** 'Got your message' (পেয়েছি 'I have got')\n- **বাসায় পৌঁছেছি** 'I've reached home': the text every Bangladeshi parent waits for after a trip.\n\n**'Let me know':** **আমাকে জানাও** (তুমি); politely, use the future: **আমাকে জানাবেন**, just as **আসবেন** means 'please come'.\n\n**ঠিকানা** 'address': **ঠিকানা পাঠাও** 'send the address'.",
+      "sentences": [
+        {
+          "bn": "আমাকে একটা মেসেজ পাঠাও।",
+          "tr": "amake ekta mesej pathao.",
+          "en": "Send me a message.",
+          "alt": [
+            "Text me.",
+            "Send me a text."
+          ]
+        },
+        {
+          "bn": "আপনার ঠিকানা পাঠান।",
+          "tr": "apnar thikana pathan.",
+          "en": "Please send your address.",
+          "alt": [
+            "Send me your address, please.",
+            "Please send me your address."
+          ]
+        },
+        {
+          "bn": "আমি পরে মেসেজ পাঠাব।",
+          "tr": "ami pore mesej pathabo.",
+          "en": "I'll send a message later.",
+          "alt": [
+            "I'll text later.",
+            "I will send a message later."
+          ]
+        },
+        {
+          "bn": "তোমার মেসেজ পেয়েছি।",
+          "tr": "tomar mesej peyechhi.",
+          "en": "I got your message.",
+          "alt": [
+            "I've got your message.",
+            "I received your message."
+          ]
+        },
+        {
+          "bn": "আমি বাসায় পৌঁছেছি।",
+          "tr": "ami bashay pou~chhechhi.",
+          "en": "I've reached home.",
+          "alt": [
+            "I've got home.",
+            "I have arrived home.",
+            "I'm home."
+          ]
+        },
+        {
+          "bn": "আমাকে জানাও।",
+          "tr": "amake janao.",
+          "en": "Let me know.",
+          "alt": [
+            "Tell me.",
+            "Let me know, OK?"
+          ]
+        },
+        {
+          "bn": "কখন আসবেন, আমাকে জানাবেন।",
+          "tr": "kokhon ashben, amake janaben.",
+          "en": "Let me know when you'll come.",
+          "alt": [
+            "Please let me know when you're coming.",
+            "Please tell me when you will come."
+          ]
+        },
+        {
+          "bn": "ঠিকানা পেয়েছি, ধন্যবাদ।",
+          "tr": "thikana peyechhi, dhonnobad.",
+          "en": "Got the address, thanks.",
+          "alt": [
+            "I got the address, thank you.",
+            "I've got the address, thanks."
+          ]
+        },
+        {
+          "bn": "ঠিক আছে, আমি তোমাকে ঠিকানা পাঠাব।",
+          "tr": "thik achhe, ami tomake thikana pathabo.",
+          "en": "OK, I'll send you the address.",
+          "alt": [
+            "All right, I will send you the address."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u13-l08",
+      "kind": "review",
+      "title": "Review: Requests & the phone",
+      "goal": "Bring together commands by formality, polite requests and thanks, phone calls and messages.",
+      "grammar": [
+        "commands: তুমি বসো · আপনি বসেন / বসুন; polite 'don't' = future + না",
+        "phone: আমি … বলছি, কে বলছেন?, শুনতে পাচ্ছি না, লাইন কেটে গেছে"
+      ],
+      "new": [],
+      "review": [
+        "bosho",
+        "esho",
+        "bolo",
+        "shono",
+        "dekho",
+        "nao",
+        "edike",
+        "boshen",
+        "boshun",
+        "ashun",
+        "bolun",
+        "shunun",
+        "nin",
+        "doya-kore",
+        "korun",
+        "opekkha",
+        "daran",
+        "darao",
+        "deri",
+        "ekhoni",
+        "plij",
+        "khulte",
+        "dekhate",
+        "dorja",
+        "byapar",
+        "hyalo",
+        "bolchhen",
+        "bolchhi",
+        "nombor",
+        "pachchhi",
+        "pachchhen",
+        "lain",
+        "kete-gechhe",
+        "dhorchhe",
+        "charj",
+        "jore",
+        "fone",
+        "mesej",
+        "pathao",
+        "pathan",
+        "pathabo",
+        "peyechhi",
+        "janao",
+        "janaben",
+        "pouchhechhi",
+        "thikana"
+      ],
+      "tip": "**Commands by formality.**\n\n- **তুমি:** the তুমি present form: **বসো**, **বলো**, **নাও**; irregular **এসো**.\n- **আপনি, everyday:** **বসেন**, **বলেন**; **standard:** **বসুন**, **বলুন**, **আসুন**, **করুন**, **দিন**, **নিন**.\n- **Polite 'don't':** future + না: **চিন্তা করবেন না**.\n\n**Favours** sound softer as questions: **আপনি কি … পারবেন?** Add **একটু** or **প্লিজ**.\n\n**On the phone:** **হ্যালো, কে বলছেন?** · **আমি রাফি বলছি** · **শুনতে পাচ্ছি না** · **লাইন কেটে গেছে** · **আচ্ছা, এখন রাখি**.\n\n**Texts:** **মেসেজ পেয়েছি**, **বাসায় পৌঁছেছি**, **আমাকে জানাও**.",
+      "sentences": [
+        {
+          "bn": "ভিতরে আসুন, বসুন।",
+          "tr": "bhitore ashun, boshun.",
+          "en": "Please come in and sit down.",
+          "alt": [
+            "Come in, have a seat.",
+            "Please come in, sit down."
+          ]
+        },
+        {
+          "bn": "এদিকে এসো, এটা দেখো।",
+          "tr": "edike esho, eta dekho.",
+          "en": "Come here, look at this.",
+          "alt": [
+            "Come over here and look at this."
+          ]
+        },
+        {
+          "bn": "হ্যালো, আমি নাদিয়া বলছি।",
+          "tr": "hyalo, ami nadiya bolchhi.",
+          "en": "Hello, this is Nadia.",
+          "alt": [
+            "Hello, Nadia speaking.",
+            "Hello, it's Nadia."
+          ]
+        },
+        {
+          "bn": "দুঃখিত, লাইন কেটে গেছে।",
+          "tr": "dukkhito, lain kete gechhe.",
+          "en": "Sorry, the line got cut.",
+          "alt": [
+            "Sorry, the call dropped.",
+            "Sorry, we got cut off."
+          ]
+        },
+        {
+          "bn": "আপনি কি একটু জোরে বলতে পারবেন?",
+          "tr": "apni ki ektu jore bolte parben?",
+          "en": "Could you speak a little louder?",
+          "alt": [
+            "Could you speak up a bit?",
+            "Can you speak louder?"
+          ]
+        },
+        {
+          "bn": "একটু অপেক্ষা করুন, উনি ফোনে কথা বলছেন।",
+          "tr": "ektu opekkha korun, uni fone kotha bolchhen.",
+          "en": "Please wait a moment, she's on the phone.",
+          "alt": [
+            "Please wait a moment, he is talking on the phone."
+          ]
+        },
+        {
+          "bn": "চিন্তা করবেন না, আমি বাসায় পৌঁছেছি।",
+          "tr": "chinta korben na, ami bashay pou~chhechhi.",
+          "en": "Don't worry, I've reached home.",
+          "alt": [
+            "Don't worry, I've got home."
+          ]
+        },
+        {
+          "bn": "আপনার নম্বর পাঠান, প্লিজ।",
+          "tr": "apnar nombor pathan, plij.",
+          "en": "Please send your number.",
+          "alt": [
+            "Send me your number, please."
+          ]
+        },
+        {
+          "bn": "তোমার মেসেজ পেয়েছি, ধন্যবাদ।",
+          "tr": "tomar mesej peyechhi, dhonnobad.",
+          "en": "I got your message, thanks.",
+          "alt": [
+            "Got your message, thank you."
+          ]
+        }
+      ]
+    }
+  ]
+}
