@@ -6,6 +6,7 @@ import type { Section } from "@/lib/courseSections";
 import type { CourseSummary, LessonSummary, UnitSummary } from "@/lib/types";
 import {
   currentStreak,
+  isTestedOut,
   lessonStars,
   lessonStates,
   nextLessonId,
@@ -15,6 +16,7 @@ import {
   type LessonState,
   type ProgressState,
 } from "@/lib/progress";
+import { testOutOffer, type TestOutOffer } from "@/lib/checkpoint";
 import { useDueCount } from "@/lib/review";
 import { sectionsOf } from "@/lib/courseSections";
 import { isReviewLesson } from "@/lib/lessonKind";
@@ -35,6 +37,7 @@ export function CourseMap({ course }: { course: CourseSummary }) {
   const progress = useProgress();
   const nextId = nextLessonId(course, progress);
   const next = findLesson(course, nextId);
+  const offer = testOutOffer(course, progress.completed);
   const anyDone = Object.keys(progress.completed).length > 0;
   const sections = sectionsOf(course);
   const currentSection =
@@ -57,7 +60,7 @@ export function CourseMap({ course }: { course: CourseSummary }) {
       <DraftNotice className="mb-4" />
 
       {next ? (
-        <ContinueCard lesson={next.lesson} unit={next.unit} progress={progress} anyDone={anyDone} />
+        <ContinueCard lesson={next.lesson} unit={next.unit} progress={progress} anyDone={anyDone} offer={offer} />
       ) : (
         <AllDone />
       )}
@@ -69,6 +72,7 @@ export function CourseMap({ course }: { course: CourseSummary }) {
               section={s}
               progress={progress}
               nextId={nextId}
+              offer={offer}
               open={openOverride[s.n] ?? s.n === currentSection}
               onToggle={(open) => setOpenOverride((o) => ({ ...o, [s.n]: open }))}
             />
@@ -123,11 +127,13 @@ function ContinueCard({
   unit,
   progress,
   anyDone,
+  offer,
 }: {
   lesson: LessonSummary;
   unit: UnitSummary;
   progress: ProgressState;
   anyDone: boolean;
+  offer?: TestOutOffer;
 }) {
   const script = unit.track === "script";
   const review = isReviewLesson(lesson);
@@ -166,6 +172,15 @@ function ContinueCard({
           {anyDone ? "Continue" : "Start the first lesson"}
         </Link>
       </div>
+      {offer && offer.id !== lesson.id && (
+        <Link
+          href={`/lesson/${offer.id}?mode=testout`}
+          className="flex min-h-11 items-center gap-2 border-t-2 border-line px-5 py-3 text-sm font-extrabold text-brand-dark hover:bg-sunk"
+        >
+          <span className="flex-1">Know {offer.label} already? Take the checkpoint test.</span>
+          <span aria-hidden>Test out</span>
+        </Link>
+      )}
       {due > 0 && (
         <Link
           href="/practice"
@@ -241,12 +256,14 @@ function SectionBlock({
   section,
   progress,
   nextId,
+  offer,
   open,
   onToggle,
 }: {
   section: Section;
   progress: ProgressState;
   nextId: string | undefined;
+  offer?: TestOutOffer;
   open: boolean;
   onToggle: (open: boolean) => void;
 }) {
@@ -291,7 +308,13 @@ function SectionBlock({
                 {unit.lessons.length === 0 ? (
                   <ComingSoon unit={unit} label={label} />
                 ) : (
-                  <UnitBlock unit={unit} label={label} progress={progress} nextId={nextId} />
+                  <UnitBlock
+                    unit={unit}
+                    label={label}
+                    progress={progress}
+                    nextId={nextId}
+                    offer={offer && unit.lessons.some((l) => l.id === offer.id) ? offer : undefined}
+                  />
                 )}
               </li>
             ))}
@@ -349,11 +372,13 @@ function UnitBlock({
   label,
   progress,
   nextId,
+  offer,
 }: {
   unit: UnitSummary;
   label: string;
   progress: ProgressState;
   nextId: string | undefined;
+  offer?: TestOutOffer;
 }) {
   const states = lessonStates(unit, progress);
   const done = states.filter((s) => s === "completed").length;
@@ -374,6 +399,8 @@ function UnitBlock({
           </Link>
         </p>
       )}
+
+      {offer && <TestOutCard offer={offer} />}
 
       <div className="relative mt-4" style={{ height: n * ROW }}>
         <svg
@@ -411,6 +438,34 @@ function UnitBlock({
           ))}
         </ol>
       </div>
+    </section>
+  );
+}
+
+/** Offer to skip ahead: the checkpoint at the end of this unit, started before its unit is finished. */
+function TestOutCard({ offer }: { offer: TestOutOffer }) {
+  const titleId = useId();
+  return (
+    <section
+      aria-labelledby={titleId}
+      className="card mt-4 flex flex-col gap-3 p-4 sm:flex-row sm:items-center"
+    >
+      <div className="min-w-0 flex-1">
+        <h4 id={titleId} className="text-base font-black text-ink">
+          Test out of {offer.label}
+        </h4>
+        <p className="text-sm font-semibold text-pretty text-muted">
+          Already know this? Pass the checkpoint with at least one heart left and 80% right first time to mark{" "}
+          {offer.remaining === 1 ? "the lesson" : `${offer.remaining} lessons`} done. Fail, and nothing changes.
+        </p>
+      </div>
+      <Link
+        href={`/lesson/${offer.id}?mode=testout`}
+        aria-label={`Test out of ${offer.label}: take the checkpoint now`}
+        className="btn btn-ghost w-full sm:w-auto"
+      >
+        Test out
+      </Link>
     </section>
   );
 }
@@ -593,7 +648,9 @@ function LessonRow({
     state === "locked"
       ? "locked: finish the previous lesson first"
       : state === "completed"
-        ? record?.placed
+        ? isTestedOut(record)
+          ? "tested out: marked done by a checkpoint test-out. Practise it"
+          : record?.placed
           ? "placed: marked done by the placement test. Practise it"
           : `completed, ${stars} of 3 stars. Practise again`
         : isNext
@@ -637,10 +694,18 @@ function LessonRow({
       >
         {isNext && <span className="chip mb-1 bg-brand text-white">Up next</span>}
         {review && !isNext && <span className="chip mb-1 bg-sun-light text-sun-dark">Review</span>}
+        {lesson.kind === "checkpoint" && !isNext && <span className="chip mb-1 bg-brand-light text-brand-dark">Checkpoint</span>}
         <span className={`text-base leading-tight font-extrabold text-balance ${state === "locked" ? "text-muted" : "text-ink"}`}>
           {review ? lesson.title.replace(/^review\s*:?\s*/i, "") || lesson.title : lesson.title}
         </span>
-        {state === "completed" && (record?.placed ? <span className="chip mt-1 bg-line text-muted">Placed</span> : <Stars n={stars} />)}
+        {state === "completed" &&
+          (isTestedOut(record) ? (
+            <span className="chip mt-1 bg-brand-light text-brand-dark">Tested out</span>
+          ) : record?.placed ? (
+            <span className="chip mt-1 bg-line text-muted">Placed</span>
+          ) : (
+            <Stars n={stars} />
+          ))}
       </div>
     </li>
   );

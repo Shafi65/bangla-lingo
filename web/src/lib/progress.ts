@@ -8,10 +8,26 @@ export interface LessonRecord {
   bestAccuracy: number; // 0..1
   timesCompleted: number;
   /**
-   * Marked done by the placement test, not played: no stars (bestAccuracy 0, timesCompleted 0), no XP,
-   * no review seeding. Dropped as soon as the learner actually completes the lesson.
+   * Marked done without being played (placement test or checkpoint test-out): no stars (bestAccuracy 0,
+   * timesCompleted 0), no XP, no review seeding. Dropped as soon as the learner actually completes the lesson.
    */
   placed?: true;
+  /** With `placed`: "checkpoint" = tested out; absent = the placement test. */
+  via?: "checkpoint";
+}
+
+/** How lessons can be marked done without being played. */
+export type SkipSource = "placement" | "checkpoint";
+
+/** How a not-played lesson was marked done; undefined for a lesson the learner played. */
+export function skipSource(rec: LessonRecord | undefined): SkipSource | undefined {
+  if (rec?.placed !== true) return undefined;
+  return rec.via === "checkpoint" ? "checkpoint" : "placement";
+}
+
+/** Marked done by a checkpoint test-out. */
+export function isTestedOut(rec: LessonRecord | undefined): boolean {
+  return skipSource(rec) === "checkpoint";
 }
 
 /** A lesson the learner skipped past via placement rather than played. */
@@ -26,14 +42,17 @@ export function earnedRecords(completed: Record<string, LessonRecord>): Record<s
   return out;
 }
 
-/** Tolerant read of stored lesson records; `placed` is kept only as the literal `true`, with no score. */
+/** Tolerant read of stored lesson records; `placed` is kept only as the literal `true`, with no score (and `via` only as "checkpoint"). */
 function sanitizeCompleted(c: unknown): Record<string, LessonRecord> {
   const out: Record<string, LessonRecord> = {};
   if (!c || typeof c !== "object") return out;
   for (const [id, v] of Object.entries(c as Record<string, Partial<LessonRecord> | null>)) {
     if (!v || typeof v !== "object") continue;
-    const { placed, ...rest } = v;
-    out[id] = placed === true ? { ...(rest as LessonRecord), bestAccuracy: 0, timesCompleted: 0, placed: true } : (rest as LessonRecord);
+    const { placed, via, ...rest } = v;
+    out[id] =
+      placed === true
+        ? { ...(rest as LessonRecord), bestAccuracy: 0, timesCompleted: 0, placed: true, ...(via === "checkpoint" ? { via } : {}) }
+        : (rest as LessonRecord);
   }
   return out;
 }
@@ -95,11 +114,12 @@ export interface ProgressStore {
   get(): ProgressState;
   completeLesson(lessonId: string, xp: number, accuracy: number): ProgressState;
   /**
-   * Mark lessons done without playing them (placement test), in one write and one notification.
-   * No XP, streak, last-active or daily-log change; records are flagged `placed`. Lessons already
-   * completed are left alone.
+   * Mark lessons done without playing them (placement test or checkpoint test-out), in one write and
+   * one notification. No XP, streak, last-active or daily-log change, no stars, no word-memory seeding;
+   * records are flagged `placed` (plus `via: "checkpoint"` for a test-out). Lessons already completed
+   * are left alone.
    */
-  completeLessons(ids: string[], opts: { source: "placement" }): ProgressState;
+  completeLessons(ids: string[], opts: { source: SkipSource }): ProgressState;
   /** XP from a practice session (counts for the daily goal and streak). */
   recordPractice(xp: number): ProgressState;
   updateSettings(patch: Partial<Settings>): ProgressState;
@@ -323,15 +343,21 @@ export class LocalStorageProgressStore implements ProgressStore {
     return next;
   }
 
-  completeLessons(ids: string[], opts: { source: "placement" }) {
+  completeLessons(ids: string[], opts: { source: SkipSource }) {
     const prev = this.get();
-    if (opts.source !== "placement") return prev;
+    if (opts.source !== "placement" && opts.source !== "checkpoint") return prev;
     const completedAt = new Date().toISOString();
     const completed = { ...prev.completed };
     let changed = false;
     for (const id of ids) {
       if (completed[id]) continue;
-      completed[id] = { completedAt, bestAccuracy: 0, timesCompleted: 0, placed: true };
+      completed[id] = {
+        completedAt,
+        bestAccuracy: 0,
+        timesCompleted: 0,
+        placed: true,
+        ...(opts.source === "checkpoint" ? { via: "checkpoint" as const } : {}),
+      };
       changed = true;
     }
     if (!changed) return prev;

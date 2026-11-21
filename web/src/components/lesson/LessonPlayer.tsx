@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useCallback, useEffect, useMemo, useRef, useState, type ReactNode } from "react";
 import { checkResponse, type Response } from "@/lib/answers";
 import { recordExerciseResult } from "@/lib/memory";
+import { firstTryNeeded, testOutPassed, type TestOutInfo } from "@/lib/checkpoint";
 import { progressStore, todayXp } from "@/lib/progress";
 import { playSfx } from "@/lib/sfx";
 import type { Exercise, Lesson } from "@/lib/types";
@@ -11,6 +12,7 @@ import { BnText } from "@/components/BnText";
 import { ScriptOnlyContext, useIsScriptLesson } from "@/components/CourseContext";
 import type { TranslitMap } from "@/lib/translit";
 import { Done, type DoneSummary } from "./Done";
+import { TestOutIntro, TestOutResult, type TestOutOutcome } from "./TestOut";
 import { Feedback } from "./Feedback";
 import { LessonEnvContext } from "./LessonEnv";
 import { MiniMarkdown } from "./MiniMarkdown";
@@ -38,10 +40,13 @@ export function LessonPlayer({
   lesson,
   mode = "lesson",
   translit,
+  testOut,
   onExit,
 }: {
   lesson: Lesson;
   mode?: PlayerMode;
+  /** Set (checkpoint lessons only) to run the lesson as a test-out of the lessons it covers. */
+  testOut?: TestOutInfo;
   /** Transliteration for Bengali options/tiles (see lib/translit.ts). */
   translit?: TranslitMap;
   /** Practice: called by "Back" on the end screen instead of linking home. */
@@ -56,6 +61,7 @@ export function LessonPlayer({
         lesson={lesson}
         mode={mode}
         translit={translit}
+        testOut={mode === "lesson" ? testOut : undefined}
         onRetry={() => setAttempt((a) => a + 1)}
         onExit={onExit}
       />
@@ -69,17 +75,19 @@ function LessonRun({
   lesson,
   mode,
   translit,
+  testOut,
   onRetry,
   onExit,
 }: {
   lesson: Lesson;
   mode: PlayerMode;
   translit?: TranslitMap;
+  testOut?: TestOutInfo;
   onRetry: () => void;
   onExit?: () => void;
 }) {
   const total = lesson.exercises.length;
-  const hasIntro = mode === "lesson" && (!!lesson.tip || lesson.vocab.length > 0);
+  const hasIntro = mode === "lesson" && (!!testOut || !!lesson.tip || lesson.vocab.length > 0);
 
   const [phase, setPhase] = useState<Phase>(hasIntro ? "intro" : "play");
   const [queue, setQueue] = useState<number[]>(() => lesson.exercises.map((_, i) => i));
@@ -90,6 +98,7 @@ function LessonRun({
   const [missed, setMissed] = useState<Set<number>>(() => new Set());
   const [solved, setSolved] = useState(0);
   const [summary, setSummary] = useState<DoneSummary | null>(null);
+  const [outcome, setOutcome] = useState<TestOutOutcome | null>(null);
 
   const [tipOpen, setTipOpen] = useState(false);
   const [footerRef, footerH] = useElementHeight<HTMLElement>(120);
@@ -104,8 +113,8 @@ function LessonRun({
     const ok = checkResponse(ex, response);
     setResult(ok);
     // Spaced-review memory. Practice exercises carry "<lessonId>:<exerciseId>"
-    // ids; report them under their source lesson and original id.
-    try {
+    // ids; report them under their source lesson and original id. A test-out leaves no trace.
+    if (!testOut) try {
       const colon = mode === "practice" ? ex.id.indexOf(":") : -1;
       if (colon > 0) recordExerciseResult(ex.id.slice(0, colon), { ...ex, id: ex.id.slice(colon + 1) }, ok);
       else recordExerciseResult(lesson.id, ex, ok);
@@ -120,15 +129,35 @@ function LessonRun({
       setMissed((m) => new Set(m).add(exIndex));
       setQueue((q) => [...q, exIndex]); // retry at the end
     }
-  }, [response, result, ex, exIndex, lesson.id, mode]);
+  }, [response, result, ex, exIndex, lesson.id, mode, testOut]);
 
   const advance = useCallback(() => {
     if (result === null) return;
     if (!result && hearts <= 0) {
+      if (testOut) setOutcome({ passed: false, firstTry: total - missed.size, total, needed: firstTryNeeded(total), outOfHearts: true, newlyMarked: 0 });
       setPhase("out");
       return;
     }
     const next = pos + 1;
+    if (next >= queue.length && testOut) {
+      // Test-out: pass = a heart left and 80 % right first time. Nothing is recorded unless it passes,
+      // and a pass records no XP, streak or stars: it only marks the covered lessons done.
+      const firstTry = total - missed.size;
+      const passed = testOutPassed({ heartsLeft: hearts, firstTry, total });
+      const before = progressStore.get().completed;
+      if (passed) progressStore.completeLessons(testOut.covered, { source: "checkpoint" });
+      playSfx(passed ? "complete" : "wrong");
+      setOutcome({
+        passed,
+        firstTry,
+        total,
+        needed: firstTryNeeded(total),
+        outOfHearts: false,
+        newlyMarked: passed ? testOut.covered.filter((id) => !before[id]).length : 0,
+      });
+      setPhase("done");
+      return;
+    }
     if (next >= queue.length) {
       const firstTry = total - missed.size;
       const xp = (mode === "practice" ? XP_PRACTICE : XP_COMPLETE) + firstTry * XP_PER_FIRST_TRY;
@@ -155,7 +184,7 @@ function LessonRun({
     setPos(next);
     setResponse(null);
     setResult(null);
-  }, [result, hearts, pos, queue.length, total, missed.size, mode, lesson.id]);
+  }, [result, hearts, pos, queue.length, total, missed.size, mode, lesson.id, testOut]);
 
   // Enter = Check / Continue, wherever focus is (except links, text fields
   // and controls that need Enter themselves).
@@ -176,8 +205,14 @@ function LessonRun({
 
   const exitHref = mode === "practice" ? "/practice" : "/";
 
+  if (phase === "intro" && testOut) {
+    return <TestOutIntro lesson={lesson} info={testOut} needed={firstTryNeeded(total)} total={total} hearts={MAX_HEARTS} onStart={() => setPhase("play")} />;
+  }
   if (phase === "intro") {
     return <Intro lesson={lesson} onStart={() => setPhase("play")} />;
+  }
+  if (testOut && outcome && (phase === "done" || phase === "out")) {
+    return <TestOutResult info={testOut} outcome={outcome} onRetry={onRetry} />;
   }
   if (phase === "done" && summary) {
     return <Done title={mode === "practice" ? "Practice complete" : "Lesson complete"} subtitle={lesson.title} summary={summary} onExit={onExit} onRetry={onRetry} />;
@@ -200,7 +235,8 @@ function LessonRun({
         progress={solved / total}
         exitHref={exitHref}
         onExit={onExit}
-        onTip={mode === "lesson" && lesson.tip ? () => setTipOpen(true) : undefined}
+        onTip={mode === "lesson" && lesson.tip && !testOut ? () => setTipOpen(true) : undefined}
+        testOut={!!testOut}
       />
       {tipOpen && lesson.tip && <TipDialog tip={lesson.tip} onClose={() => setTipOpen(false)} />}
 
@@ -376,12 +412,14 @@ function TopBar({
   exitHref,
   onExit,
   onTip,
+  testOut = false,
 }: {
   hearts: number;
   progress: number;
   exitHref: string;
   onExit?: () => void;
   onTip?: () => void;
+  testOut?: boolean;
 }) {
   const pct = Math.round(progress * 100);
   return (
@@ -400,7 +438,7 @@ function TopBar({
         <div
           className="relative h-4 flex-1 overflow-hidden rounded-full bg-line"
           role="progressbar"
-          aria-label="Lesson progress"
+          aria-label={testOut ? "Test-out progress" : "Lesson progress"}
           aria-valuemin={0}
           aria-valuemax={100}
           aria-valuenow={pct}
