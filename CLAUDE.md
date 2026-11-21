@@ -8,3 +8,4 @@ Gamified Bengali course for English speakers. `web/` is the Next.js app; `conten
 - Before committing: `npm run validate` and `npm --prefix web run build` must pass.
 - **Keep the brand original:** never name or imitate another app's brand (names, mascots, signature colours, fonts, sounds, illustrations) in code, UI copy or docs. Mechanics like streaks and XP are fine.
 - Planning notes, logs and review notes are kept outside this repo — don't add them here.
+- Contributors other than the owner: work on a branch and open a pull request; don't push to main.
