@@ -277,6 +277,13 @@ export function OnboardingFlow({
             </button>
           )}
         </div>
+        {step === "hello" && (
+          <p className="mt-6 text-center text-xs font-semibold text-muted">
+            <Link href="/privacy" className="underline">
+              Privacy
+            </Link>
+          </p>
+        )}
       </main>
     </div>
   );

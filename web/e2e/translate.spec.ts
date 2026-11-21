@@ -23,7 +23,7 @@ test("course lookups as you type, and the machine layer reports it isn't set up"
 
   await box.fill("The weather is lovely today");
   await page.getByRole("button", { name: /^translate$/i }).click();
-  await expect(page.getByText(/full translation isn.t set up yet/i)).toBeVisible();
+  await expect(page.getByText(/machine translation isn.t set up yet/i)).toBeVisible();
   await expect(page.getByText(/machine translation/i).first()).toBeVisible();
 });
 

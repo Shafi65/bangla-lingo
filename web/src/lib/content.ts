@@ -29,8 +29,8 @@ import type {
 const WEB_ROOT = process.cwd();
 const CONTENT_DIR = process.env.CONTENT_DIR
   ? path.resolve(process.env.CONTENT_DIR)
-  : path.join(WEB_ROOT, "..", "content");
-const FIXTURE_DIR = path.join(WEB_ROOT, "src", "fixtures");
+  : path.join(/* turbopackIgnore: true */ WEB_ROOT, "..", "content");
+const FIXTURE_DIR = path.join(/* turbopackIgnore: true */ WEB_ROOT, "src", "fixtures");
 
 const EXERCISE_TYPES = new Set<Exercise["type"]>([
   "select_translation",

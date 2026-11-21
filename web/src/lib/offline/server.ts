@@ -9,7 +9,7 @@ import { pageRoutesFromManifest, shellRoutes } from "./routes";
 const WEB_ROOT = process.cwd();
 
 function contentDir(): string {
-  return process.env.CONTENT_DIR ? path.resolve(process.env.CONTENT_DIR) : path.join(WEB_ROOT, "..", "content");
+  return process.env.CONTENT_DIR ? path.resolve(process.env.CONTENT_DIR) : path.join(/* turbopackIgnore: true */ WEB_ROOT, "..", "content");
 }
 
 export function distDir(): string {
@@ -41,7 +41,7 @@ export function getAudioPacks(): AudioPackData {
   } catch {
     // No recorded audio: the panel shows nothing to download.
   }
-  const audioDir = path.join(WEB_ROOT, "public", "audio");
+  const audioDir = path.join(/* turbopackIgnore: true */ WEB_ROOT, "public", "audio");
   const sizeOf = (file: string) => {
     try {
       return fs.statSync(path.join(audioDir, file)).size;
@@ -66,10 +66,14 @@ export function getAudioPacks(): AudioPackData {
 
 export function getBuildId(): string {
   try {
-    return fs.readFileSync(path.join(distDir(), "BUILD_ID"), "utf8").trim() || "dev";
+    const id = fs.readFileSync(path.join(distDir(), "BUILD_ID"), "utf8").trim();
+    if (id) return id;
   } catch {
-    return "dev";
+    // On serverless hosts the function bundle has no .next/BUILD_ID; use the platform's id instead.
   }
+  // Must change on every deploy: it names the service worker's cache, so a fixed value would
+  // keep serving a stale app shell.
+  return process.env.VERCEL_DEPLOYMENT_ID || process.env.VERCEL_GIT_COMMIT_SHA || "dev";
 }
 
 /** Hashed build files (JS, CSS, fonts) under .next/static, as /_next/static/... URLs. */

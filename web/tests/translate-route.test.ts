@@ -1,6 +1,6 @@
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 import { handleTranslate, parseAzure, RATE_LIMIT, resetRateLimit } from "@/lib/translate/machine";
-import { pushRecent, RECENT_MAX } from "@/lib/translate/client";
+import { pushRecent, RECENT_MAX, requestMachine } from "@/lib/translate/client";
 import { pageRoutesFromManifest, shellRoutes } from "@/lib/offline/routes";
 
 const KEY = "sekret-key-123";
@@ -27,6 +27,26 @@ describe("POST /translate/api", () => {
     expect(res.status).toBe(503);
     expect(await res.json()).toEqual({ ok: false, configured: false });
     expect(fetch).not.toHaveBeenCalled();
+  });
+
+  it("treats a blank or whitespace-only key as not set up, even with a region", async () => {
+    const fetch = vi.fn();
+    for (const e of [{ AZURE_TRANSLATOR_KEY: "   ", AZURE_TRANSLATOR_REGION: "eastus" }, { AZURE_TRANSLATOR_REGION: "eastus" }]) {
+      const res = await handleTranslate(post({ text: "hi", from: "en", to: "bn" }), { env: e, fetch });
+      expect(res.status).toBe(503);
+      expect(await res.json()).toEqual({ ok: false, configured: false });
+    }
+    expect(fetch).not.toHaveBeenCalled();
+  });
+
+  it("the client turns the unconfigured answer into the calm 'unconfigured' state", async () => {
+    const res = await handleTranslate(post({ text: "hi", from: "en", to: "bn" }), { env: {} });
+    vi.stubGlobal("fetch", vi.fn(async () => res));
+    try {
+      expect(await requestMachine("hi", "en", "bn")).toEqual({ s: "unconfigured" });
+    } finally {
+      vi.unstubAllGlobals();
+    }
   });
 
   it("rejects other methods", async () => {

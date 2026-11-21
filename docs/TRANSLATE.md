@@ -74,7 +74,7 @@ The route:
 | Status | Meaning | What the learner sees |
 |---|---|---|
 | 200 | `{ ok: true, text, from, to }` | the translation |
-| 503 `{ configured: false }` | no key set | "Full translation isn't set up yet. Course words still work." |
+| 503 `{ configured: false }` | no key set | "Machine translation isn't set up yet. Course words still work." |
 | 400 / 415 | bad input | the reason |
 | 429 | over the rate limit | "Too many translations in a minute…" |
 | 502 / 504 | provider error / timeout | a short message; course words still work |
@@ -113,7 +113,7 @@ checked 2026-11-17). Check that page for current limits before relying on it.
    (as server-side variables; never with a `NEXT_PUBLIC_` prefix) and redeploy or restart. They are read
    at request time.
 7. Check: open `/translate`, type a sentence, press **Translate**. Without a key the card says
-   "Full translation isn't set up yet"; with a key it shows the translation.
+   "Machine translation isn't set up yet"; with a key it shows the translation.
 
 If the key is rotated in Azure, update the variable and restart. To turn machine translation off,
 remove `AZURE_TRANSLATOR_KEY`; course lookups keep working.

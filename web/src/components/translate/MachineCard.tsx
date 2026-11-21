@@ -83,7 +83,7 @@ export function MachineCard({
 
       {state.s === "unconfigured" && (
         <p className="mt-3 rounded-xl bg-surface px-3 py-2 font-bold text-ink">
-          Full translation isn&apos;t set up yet. Course words still work.
+          Machine translation isn&apos;t set up yet. Course words still work.
         </p>
       )}
 

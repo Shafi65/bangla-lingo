@@ -16,7 +16,9 @@ import {
   useDeviceVoice,
 } from "@/lib/speech";
 import { setThemePref, useThemePref, type ThemePref } from "@/lib/ui/theme";
+import Link from "next/link";
 import { AppShell } from "./AppShell";
+import { DraftNotice } from "./DraftNotice";
 
 // The language's own name, so no lesson text is hard-coded. Also listed in
 // content/scripts/gen-audio.mjs (APP_STRINGS) so it gets a recorded clip.
@@ -96,6 +98,15 @@ export function SettingsPanel() {
         />
 
         <ResetSection hasProgress={p.xp > 0 || Object.keys(p.completed).length > 0} />
+
+        <Section title="About">
+          <DraftNotice />
+          <p className="mt-2 text-sm font-semibold">
+            <Link href="/privacy" className="font-bold text-brand-dark underline">
+              Privacy
+            </Link>
+          </p>
+        </Section>
       </div>
     </AppShell>
   );

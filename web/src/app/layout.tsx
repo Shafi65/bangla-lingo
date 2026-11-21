@@ -6,6 +6,7 @@ import "./globals.css";
 import { CourseProvider } from "@/components/CourseContext";
 import { OfflineStatus } from "@/components/offline/OfflineStatus";
 import { getCourse } from "@/lib/content";
+import { SITE_ROBOTS } from "@/lib/indexing";
 import { THEME_SCRIPT } from "@/lib/ui/theme-script";
 
 export const metadata: Metadata = {
@@ -13,6 +14,7 @@ export const metadata: Metadata = {
   description:
     "Bite-sized lessons for English speakers learning Bengali (বাংলা): script, vocabulary and everyday phrases.",
   applicationName: "BanglaLingo",
+  ...(SITE_ROBOTS ? { robots: SITE_ROBOTS } : {}),
   appleWebApp: { capable: true, title: "BanglaLingo", statusBarStyle: "default" },
 };
 

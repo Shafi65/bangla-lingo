@@ -19,6 +19,7 @@ import { useDueCount } from "@/lib/review";
 import { sectionsOf } from "@/lib/courseSections";
 import { isReviewLesson } from "@/lib/lessonKind";
 import { AppShell } from "./AppShell";
+import { DraftNotice } from "./DraftNotice";
 import { CheckIcon, LockIcon, RepeatIcon, StarIcon } from "./icons";
 import { GoalRing } from "./Stats";
 
@@ -53,6 +54,7 @@ export function CourseMap({ course }: { course: CourseSummary }) {
       )}
 
       <StreakNudge progress={progress} />
+      <DraftNotice className="mb-4" />
 
       {next ? (
         <ContinueCard lesson={next.lesson} unit={next.unit} progress={progress} anyDone={anyDone} />
