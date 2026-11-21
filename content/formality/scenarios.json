@@ -1,0 +1,1295 @@
+{
+  "version": 1,
+  "roundSize": 10,
+  "unlockScore": 8,
+  "intro": [
+    {
+      "label": "Intimate",
+      "use": "Close friends, younger siblings and cousins; an elder to a child, with love. From a stranger it is rude.",
+      "pronoun": {
+        "bn": "তুই",
+        "tr": "tui",
+        "en": "you (intimate)"
+      },
+      "forms": [
+        {
+          "bn": "তুই আছিস",
+          "tr": "tui achhish",
+          "en": "you are"
+        },
+        {
+          "bn": "তুই খাস",
+          "tr": "tui khash",
+          "en": "you eat"
+        },
+        {
+          "bn": "দে",
+          "tr": "de",
+          "en": "give!"
+        },
+        {
+          "bn": "তোর",
+          "tr": "tor",
+          "en": "your"
+        }
+      ]
+    },
+    {
+      "label": "Familiar",
+      "use": "Friends, family (often parents too) and children. Also people your age once you know them.",
+      "pronoun": {
+        "bn": "তুমি",
+        "tr": "tumi",
+        "en": "you (familiar)"
+      },
+      "forms": [
+        {
+          "bn": "তুমি আছো",
+          "tr": "tumi achho",
+          "en": "you are"
+        },
+        {
+          "bn": "তুমি খাও",
+          "tr": "tumi khao",
+          "en": "you eat"
+        },
+        {
+          "bn": "দাও",
+          "tr": "dao",
+          "en": "give!"
+        },
+        {
+          "bn": "তোমার",
+          "tr": "tomar",
+          "en": "your"
+        }
+      ]
+    },
+    {
+      "label": "Respectful",
+      "use": "Elders, strangers, teachers, shopkeepers, drivers, and anyone at work. When in doubt, use this.",
+      "pronoun": {
+        "bn": "আপনি",
+        "tr": "apni",
+        "en": "you (polite)"
+      },
+      "forms": [
+        {
+          "bn": "আপনি আছেন",
+          "tr": "apni achhen",
+          "en": "you are"
+        },
+        {
+          "bn": "আপনি খান",
+          "tr": "apni khan",
+          "en": "you eat"
+        },
+        {
+          "bn": "দেন / দিন",
+          "tr": "den / din",
+          "en": "give!"
+        },
+        {
+          "bn": "আপনার",
+          "tr": "apnar",
+          "en": "your"
+        }
+      ]
+    }
+  ],
+  "tiers": [
+    {
+      "id": 1,
+      "title": "Who is this?",
+      "description": "Pick তুই, তুমি or আপনি for the person in front of you."
+    },
+    {
+      "id": 2,
+      "title": "Match the verb",
+      "description": "Pick the verb ending that goes with the pronoun: present, future and commands."
+    },
+    {
+      "id": 3,
+      "title": "Say it right",
+      "description": "Pick the whole sentence that fits the person and the situation."
+    },
+    {
+      "id": 4,
+      "title": "Tricky cases",
+      "description": "Families, affection, rudeness and work: where the simple rules bend."
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "t1-grandmother",
+      "tier": 1,
+      "situation": "You visit your grandmother (your father's mother, your দাদি). Which \"you\" do you use with her?",
+      "options": [
+        {
+          "bn": "তুই",
+          "tr": "tui",
+          "en": "you (intimate)"
+        },
+        {
+          "bn": "তুমি",
+          "tr": "tumi",
+          "en": "you (familiar)"
+        },
+        {
+          "bn": "আপনি",
+          "tr": "apni",
+          "en": "you (polite)"
+        }
+      ],
+      "answer": [
+        2,
+        1
+      ],
+      "why": "Grandparents are elders, so আপনি is the safe, respectful choice. Many families use তুমি with grandparents as a sign of closeness. তুই upward sounds rude.",
+      "varies": "Both are heard: আপনি is never wrong with a grandparent; many families use তুমি with their grandmother."
+    },
+    {
+      "id": "t1-rickshaw",
+      "tier": 1,
+      "situation": "You stop a rickshaw on a Dhaka street. The driver is older than you.",
+      "options": [
+        {
+          "bn": "তুই",
+          "tr": "tui",
+          "en": "you (intimate)"
+        },
+        {
+          "bn": "তুমি",
+          "tr": "tumi",
+          "en": "you (familiar)"
+        },
+        {
+          "bn": "আপনি",
+          "tr": "apni",
+          "en": "you (polite)"
+        }
+      ],
+      "answer": [
+        2
+      ],
+      "why": "An adult stranger gets আপনি. People often call a rickshaw driver মামা or ভাই, but the pronoun should still be আপনি; তুমি or তুই to a worker talks down to him."
+    },
+    {
+      "id": "t1-shopkeeper",
+      "tier": 1,
+      "situation": "You are buying vegetables from a middle-aged shopkeeper at the bazaar.",
+      "options": [
+        {
+          "bn": "তুই",
+          "tr": "tui",
+          "en": "you (intimate)"
+        },
+        {
+          "bn": "তুমি",
+          "tr": "tumi",
+          "en": "you (familiar)"
+        },
+        {
+          "bn": "আপনি",
+          "tr": "apni",
+          "en": "you (polite)"
+        }
+      ],
+      "answer": [
+        2
+      ],
+      "why": "A shopkeeper is an adult you don't know well: আপনি. You can still call him ভাই (or a woman আপা) to sound friendly."
+    },
+    {
+      "id": "t1-younger-cousin",
+      "tier": 1,
+      "situation": "Your eight-year-old cousin wants to play with you.",
+      "options": [
+        {
+          "bn": "তুই",
+          "tr": "tui",
+          "en": "you (intimate)"
+        },
+        {
+          "bn": "তুমি",
+          "tr": "tumi",
+          "en": "you (familiar)"
+        },
+        {
+          "bn": "আপনি",
+          "tr": "apni",
+          "en": "you (polite)"
+        }
+      ],
+      "answer": [
+        1,
+        0
+      ],
+      "why": "Children and younger relatives get তুমি. Within the family, তুই to a younger cousin is common and sounds warm, not rude.",
+      "varies": "Both are heard: তুমি is gentle and always fine; many families use তুই with younger cousins and siblings."
+    },
+    {
+      "id": "t1-close-friend",
+      "tier": 1,
+      "situation": "You are chatting with your best friend from school. You are the same age and have known each other for years.",
+      "options": [
+        {
+          "bn": "তুই",
+          "tr": "tui",
+          "en": "you (intimate)"
+        },
+        {
+          "bn": "তুমি",
+          "tr": "tumi",
+          "en": "you (familiar)"
+        },
+        {
+          "bn": "আপনি",
+          "tr": "apni",
+          "en": "you (polite)"
+        }
+      ],
+      "answer": [
+        0
+      ],
+      "why": "Close friends of the same age usually use তুই with each other: it is the most intimate \"you\". Friends who are less close stay with তুমি."
+    },
+    {
+      "id": "t1-teacher",
+      "tier": 1,
+      "situation": "You ask your teacher a question after class.",
+      "options": [
+        {
+          "bn": "তুই",
+          "tr": "tui",
+          "en": "you (intimate)"
+        },
+        {
+          "bn": "তুমি",
+          "tr": "tumi",
+          "en": "you (familiar)"
+        },
+        {
+          "bn": "আপনি",
+          "tr": "apni",
+          "en": "you (polite)"
+        }
+      ],
+      "answer": [
+        2
+      ],
+      "why": "Teachers always get আপনি, however friendly they are."
+    },
+    {
+      "id": "t1-child",
+      "tier": 1,
+      "situation": "A neighbour's five-year-old child waves at you.",
+      "options": [
+        {
+          "bn": "তুই",
+          "tr": "tui",
+          "en": "you (intimate)"
+        },
+        {
+          "bn": "তুমি",
+          "tr": "tumi",
+          "en": "you (familiar)"
+        },
+        {
+          "bn": "আপনি",
+          "tr": "apni",
+          "en": "you (polite)"
+        }
+      ],
+      "answer": [
+        1
+      ],
+      "why": "Small children get তুমি from adults they don't live with. আপনি to a child sounds odd, and তুই from a near stranger can sound rough."
+    },
+    {
+      "id": "t1-stranger-same-age",
+      "tier": 1,
+      "situation": "At a bus stop you ask a stranger about your own age which bus goes to the station.",
+      "options": [
+        {
+          "bn": "তুই",
+          "tr": "tui",
+          "en": "you (intimate)"
+        },
+        {
+          "bn": "তুমি",
+          "tr": "tumi",
+          "en": "you (familiar)"
+        },
+        {
+          "bn": "আপনি",
+          "tr": "apni",
+          "en": "you (polite)"
+        }
+      ],
+      "answer": [
+        2
+      ],
+      "why": "Adult strangers get আপনি, even if they are your age. You move to তুমি only once you know each other."
+    },
+    {
+      "id": "t1-boss",
+      "tier": 1,
+      "situation": "You greet your boss at the office in the morning.",
+      "options": [
+        {
+          "bn": "তুই",
+          "tr": "tui",
+          "en": "you (intimate)"
+        },
+        {
+          "bn": "তুমি",
+          "tr": "tumi",
+          "en": "you (familiar)"
+        },
+        {
+          "bn": "আপনি",
+          "tr": "apni",
+          "en": "you (polite)"
+        }
+      ],
+      "answer": [
+        2
+      ],
+      "why": "At work, a boss gets আপনি. Many Bangladeshi offices use আপনি in both directions."
+    },
+    {
+      "id": "t1-friends-plural",
+      "tier": 1,
+      "situation": "You find your two closest friends waiting for you. You want to ask where they all are going. Which plural \"you\"?",
+      "options": [
+        {
+          "bn": "তোরা",
+          "tr": "tora",
+          "en": "you all (intimate)"
+        },
+        {
+          "bn": "তোমরা",
+          "tr": "tomra",
+          "en": "you all (familiar)"
+        },
+        {
+          "bn": "আপনারা",
+          "tr": "apnara",
+          "en": "you all (polite)"
+        }
+      ],
+      "answer": [
+        0
+      ],
+      "why": "The plurals follow the same scale: তোরা (intimate), তোমরা (familiar), আপনারা (polite). Close friends you call তুই become তোরা together."
+    },
+    {
+      "id": "t1-guests-plural",
+      "tier": 1,
+      "situation": "Your parents' elderly friends arrive as guests. You speak to all of them together.",
+      "options": [
+        {
+          "bn": "তোরা",
+          "tr": "tora",
+          "en": "you all (intimate)"
+        },
+        {
+          "bn": "তোমরা",
+          "tr": "tomra",
+          "en": "you all (familiar)"
+        },
+        {
+          "bn": "আপনারা",
+          "tr": "apnara",
+          "en": "you all (polite)"
+        }
+      ],
+      "answer": [
+        2
+      ],
+      "why": "A group of elders gets আপনারা, the plural of আপনি."
+    },
+    {
+      "id": "t2-achho",
+      "tier": 2,
+      "situation": "You meet a cousin your age whom you call তুমি. Fill in the verb.",
+      "prompt": {
+        "bn": "তুমি কেমন ___?",
+        "tr": "tumi kemon ___?",
+        "en": "How are you?"
+      },
+      "options": [
+        {
+          "bn": "আছিস",
+          "tr": "achhish",
+          "en": "are (intimate)"
+        },
+        {
+          "bn": "আছো",
+          "tr": "achho",
+          "en": "are (familiar)"
+        },
+        {
+          "bn": "আছেন",
+          "tr": "achhen",
+          "en": "are (polite)"
+        }
+      ],
+      "answer": [
+        1
+      ],
+      "why": "তুমি takes the familiar ending -ো: তুমি আছো. আছিস goes with তুই and আছেন with আপনি.",
+      "notes": "Kolkata spelling often leaves off the final vowel sign of আছো; the word is the same."
+    },
+    {
+      "id": "t2-achhen",
+      "tier": 2,
+      "situation": "You greet your friend's father. Fill in the verb.",
+      "prompt": {
+        "bn": "আপনি কেমন ___?",
+        "tr": "apni kemon ___?",
+        "en": "How are you?"
+      },
+      "options": [
+        {
+          "bn": "আছো",
+          "tr": "achho",
+          "en": "are (familiar)"
+        },
+        {
+          "bn": "আছেন",
+          "tr": "achhen",
+          "en": "are (polite)"
+        },
+        {
+          "bn": "আছিস",
+          "tr": "achhish",
+          "en": "are (intimate)"
+        }
+      ],
+      "answer": [
+        1
+      ],
+      "why": "আপনি always takes the polite ending -েন: আছেন, খান, করেন."
+    },
+    {
+      "id": "t2-chan",
+      "tier": 2,
+      "situation": "You offer tea to an older neighbour. Fill in the verb.",
+      "prompt": {
+        "bn": "আপনি কি চা ___?",
+        "tr": "apni ki cha ___?",
+        "en": "Would you like tea?"
+      },
+      "options": [
+        {
+          "bn": "চাস",
+          "tr": "chash",
+          "en": "want (intimate)"
+        },
+        {
+          "bn": "চাও",
+          "tr": "chao",
+          "en": "want (familiar)"
+        },
+        {
+          "bn": "চান",
+          "tr": "chan",
+          "en": "want (polite)"
+        }
+      ],
+      "answer": [
+        2
+      ],
+      "why": "With আপনি the verb ends in -ন or -েন: চান. চাও is the তুমি form and চাস the তুই form."
+    },
+    {
+      "id": "t2-khash",
+      "tier": 2,
+      "situation": "You ask your younger brother, whom you call তুই, a question. Fill in the verb.",
+      "prompt": {
+        "bn": "তুই কি মাছ ___?",
+        "tr": "tui ki machh ___?",
+        "en": "Do you eat fish?"
+      },
+      "options": [
+        {
+          "bn": "খাস",
+          "tr": "khash",
+          "en": "eat (intimate)"
+        },
+        {
+          "bn": "খাও",
+          "tr": "khao",
+          "en": "eat (familiar)"
+        },
+        {
+          "bn": "খান",
+          "tr": "khan",
+          "en": "eat (polite)"
+        }
+      ],
+      "answer": [
+        0
+      ],
+      "why": "তুই takes the intimate ending -স or -িস: খাস, করিস, আছিস."
+    },
+    {
+      "id": "t2-koro",
+      "tier": 2,
+      "situation": "You ask a new friend your age, whom you call তুমি, about their job. Fill in the verb.",
+      "prompt": {
+        "bn": "তুমি কী কাজ ___?",
+        "tr": "tumi ki kaj ___?",
+        "en": "What work do you do?"
+      },
+      "options": [
+        {
+          "bn": "করিস",
+          "tr": "korish",
+          "en": "do (intimate)"
+        },
+        {
+          "bn": "করো",
+          "tr": "koro",
+          "en": "do (familiar)"
+        },
+        {
+          "bn": "করেন",
+          "tr": "koren",
+          "en": "do (polite)"
+        }
+      ],
+      "answer": [
+        1
+      ],
+      "why": "তুমি + present = the -ো form: করো. The same form is also the তুমি command (\"do!\")."
+    },
+    {
+      "id": "t2-paren",
+      "tier": 2,
+      "situation": "A visitor in a shop asks you a question. They use আপনি with you, and you use আপনি back. Fill in the verb.",
+      "prompt": {
+        "bn": "আপনি কি বাংলা বলতে ___?",
+        "tr": "apni ki bangla bolte ___?",
+        "en": "Can you speak Bengali?"
+      },
+      "options": [
+        {
+          "bn": "পারিস",
+          "tr": "parish",
+          "en": "can (intimate)"
+        },
+        {
+          "bn": "পারো",
+          "tr": "paro",
+          "en": "can (familiar)"
+        },
+        {
+          "bn": "পারেন",
+          "tr": "paren",
+          "en": "can (polite)"
+        }
+      ],
+      "answer": [
+        2
+      ],
+      "why": "\"Can\" follows the same pattern: পারিস (তুই), পারো (তুমি), পারেন (আপনি)."
+    },
+    {
+      "id": "t2-cmd-dao",
+      "tier": 2,
+      "situation": "You ask your mother for water. You call her তুমি. Pick the command.",
+      "prompt": {
+        "bn": "আম্মু, একটু পানি ___।",
+        "tr": "ammu, ektu pani ___",
+        "en": "Mom, give me some water."
+      },
+      "options": [
+        {
+          "bn": "দে",
+          "tr": "de",
+          "en": "give (intimate)"
+        },
+        {
+          "bn": "দাও",
+          "tr": "dao",
+          "en": "give (familiar)"
+        },
+        {
+          "bn": "দিন",
+          "tr": "din",
+          "en": "give (polite, standard)"
+        }
+      ],
+      "answer": [
+        1
+      ],
+      "why": "The তুমি command is the same as the তুমি present: দাও. দে is the তুই command; দিন is for আপনি."
+    },
+    {
+      "id": "t2-cmd-de",
+      "tier": 2,
+      "situation": "You ask your best friend, whom you call তুই, for water. Pick the command.",
+      "prompt": {
+        "bn": "দোস্ত, আমাকে একটু পানি ___।",
+        "tr": "dost, amake ektu pani ___",
+        "en": "Buddy, give me some water."
+      },
+      "options": [
+        {
+          "bn": "দে",
+          "tr": "de",
+          "en": "give (intimate)"
+        },
+        {
+          "bn": "দাও",
+          "tr": "dao",
+          "en": "give (familiar)"
+        },
+        {
+          "bn": "দেন",
+          "tr": "den",
+          "en": "give (polite)"
+        }
+      ],
+      "answer": [
+        0
+      ],
+      "why": "The তুই command is the bare stem: দে. Between close friends it sounds friendly, not bossy."
+    },
+    {
+      "id": "t2-cmd-bosun",
+      "tier": 2,
+      "situation": "An elderly uncle comes to visit. You invite him to sit. Pick the command.",
+      "prompt": {
+        "bn": "আংকেল, ___।",
+        "tr": "angkel, ___",
+        "en": "Uncle, please sit."
+      },
+      "options": [
+        {
+          "bn": "বসো",
+          "tr": "bosho",
+          "en": "sit (familiar)"
+        },
+        {
+          "bn": "বসুন",
+          "tr": "boshun",
+          "en": "please sit (standard)"
+        },
+        {
+          "bn": "বসেন",
+          "tr": "boshen",
+          "en": "sit (polite)"
+        }
+      ],
+      "answer": [
+        1,
+        2
+      ],
+      "why": "আপনি has two commands: everyday Bangladeshi বসেন (the আপনি present) and standard বসুন (-উন). বসো is for তুমি.",
+      "varies": "Both are heard: বসেন is everyday Bangladeshi speech; বসুন is the standard form, used in formal settings and in Kolkata.",
+      "notes": "In Kolkata বসুন is the usual polite command; বসেন sounds Bangladeshi."
+    },
+    {
+      "id": "t2-cmd-esho",
+      "tier": 2,
+      "situation": "You call a small child over to you. Pick the command.",
+      "prompt": {
+        "bn": "এদিকে ___।",
+        "tr": "edike ___",
+        "en": "Come this way."
+      },
+      "options": [
+        {
+          "bn": "এসো",
+          "tr": "esho",
+          "en": "come (familiar)"
+        },
+        {
+          "bn": "আসুন",
+          "tr": "ashun",
+          "en": "please come (standard)"
+        },
+        {
+          "bn": "আসবেন",
+          "tr": "ashben",
+          "en": "please come"
+        }
+      ],
+      "answer": [
+        0
+      ],
+      "why": "A child gets তুমি, so the familiar command এসো. আসুন and আসবেন are polite invitations for adults."
+    },
+    {
+      "id": "t2-jaben",
+      "tier": 2,
+      "situation": "You ask a rickshaw driver (you call him মামা) if he will go to Dhanmondi. Pick the verb.",
+      "prompt": {
+        "bn": "মামা, ধানমন্ডি ___?",
+        "tr": "mama, dhanmondi ___?",
+        "en": "Will you go to Dhanmondi?"
+      },
+      "options": [
+        {
+          "bn": "যাবি",
+          "tr": "jabi",
+          "en": "will go (intimate)"
+        },
+        {
+          "bn": "যাবে",
+          "tr": "jabe",
+          "en": "will go (familiar)"
+        },
+        {
+          "bn": "যাবেন",
+          "tr": "jaben",
+          "en": "will go (polite)"
+        }
+      ],
+      "answer": [
+        2
+      ],
+      "why": "Calling a rickshaw driver মামা is friendly, but the verb stays polite: যাবেন. যাবি or যাবে would talk down to him."
+    },
+    {
+      "id": "t3-nani-eaten",
+      "tier": 3,
+      "situation": "You visit your grandmother (your mother's mother, your নানি) at lunchtime. Ask if she has eaten.",
+      "options": [
+        {
+          "bn": "নানি, আপনি খেয়েছেন?",
+          "tr": "nani, apni kheyechhen?",
+          "en": "Nani, have you eaten?"
+        },
+        {
+          "bn": "নানি, তুমি খেয়েছো?",
+          "tr": "nani, tumi kheyechho?",
+          "en": "Nani, have you eaten?"
+        },
+        {
+          "bn": "নানি, আপনি খেয়েছো?",
+          "tr": "nani, apni kheyechho?",
+          "en": "Nani, have you eaten? (mismatched)"
+        }
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "why": "The pronoun and verb must match: আপনি … খেয়েছেন, তুমি … খেয়েছো. আপনি with the তুমি ending খেয়েছো is a mistake.",
+      "varies": "Both are heard: আপনি is respectful; many families say তুমি to a grandmother. Just keep the verb matching the pronoun."
+    },
+    {
+      "id": "t3-shop-potatoes",
+      "tier": 3,
+      "situation": "At the bazaar, ask the shopkeeper (you call him ভাই) for two kilos of potatoes.",
+      "options": [
+        {
+          "bn": "ভাই, আমাকে দুই কেজি আলু দেন।",
+          "tr": "bhai, amake dui keji alu den",
+          "en": "Brother, give me two kilos of potatoes."
+        },
+        {
+          "bn": "ভাই, আমাকে দুই কেজি আলু দে।",
+          "tr": "bhai, amake dui keji alu de",
+          "en": "Brother, give me two kilos of potatoes. (intimate)"
+        },
+        {
+          "bn": "ভাই, আমাকে দুই কেজি আলু দাও।",
+          "tr": "bhai, amake dui keji alu dao",
+          "en": "Brother, give me two kilos of potatoes. (familiar)"
+        }
+      ],
+      "answer": [
+        0
+      ],
+      "why": "A shopkeeper gets the polite command দেন (or standard দিন). ভাই is friendly, but it does not make তুই or তুমি polite."
+    },
+    {
+      "id": "t3-friend-come",
+      "tier": 3,
+      "situation": "Invite your best friend, whom you call তুই, to come tomorrow.",
+      "options": [
+        {
+          "bn": "দোস্ত, তুই কি কাল আসবি?",
+          "tr": "dost, tui ki kal ashbi?",
+          "en": "Buddy, will you come tomorrow?"
+        },
+        {
+          "bn": "দোস্ত, আপনি কি কাল আসবেন?",
+          "tr": "dost, apni ki kal ashben?",
+          "en": "Buddy, will you come tomorrow? (polite)"
+        },
+        {
+          "bn": "দোস্ত, তুই কি কাল আসবেন?",
+          "tr": "dost, tui ki kal ashben?",
+          "en": "Buddy, will you come tomorrow? (mismatched)"
+        }
+      ],
+      "answer": [
+        0
+      ],
+      "why": "তুই takes the -ি future: আসবি. আপনি to your best friend would sound cold, and তুই with আসবেন mixes two levels."
+    },
+    {
+      "id": "t3-boss-help",
+      "tier": 3,
+      "situation": "Ask your boss if she can help you.",
+      "options": [
+        {
+          "bn": "আপনি কি আমাকে সাহায্য করতে পারবেন?",
+          "tr": "apni ki amake shahajjo korte parben?",
+          "en": "Could you help me?"
+        },
+        {
+          "bn": "তুমি কি আমাকে সাহায্য করতে পারবে?",
+          "tr": "tumi ki amake shahajjo korte parbe?",
+          "en": "Could you help me? (familiar)"
+        },
+        {
+          "bn": "আপনি কি আমাকে সাহায্য করতে পারবে?",
+          "tr": "apni ki amake shahajjo korte parbe?",
+          "en": "Could you help me? (mismatched)"
+        }
+      ],
+      "answer": [
+        0
+      ],
+      "why": "A boss gets আপনি with the polite future পারবেন. পারবে is the তুমি form, so it doesn't go with আপনি."
+    },
+    {
+      "id": "t3-child-name",
+      "tier": 3,
+      "situation": "Ask a little girl you have just met what her name is.",
+      "options": [
+        {
+          "bn": "তোমার নাম কী?",
+          "tr": "tomar nam ki?",
+          "en": "What's your name?"
+        },
+        {
+          "bn": "আপনার নাম কী?",
+          "tr": "apnar nam ki?",
+          "en": "What's your name? (polite)"
+        },
+        {
+          "bn": "তোর নাম কী?",
+          "tr": "tor nam ki?",
+          "en": "What's your name? (intimate)"
+        }
+      ],
+      "answer": [
+        0
+      ],
+      "why": "\"Your\" changes with the pronoun too: তোর (তুই), তোমার (তুমি), আপনার (আপনি). A child gets তোমার; তোর from a stranger sounds rough."
+    },
+    {
+      "id": "t3-stranger-from",
+      "tier": 3,
+      "situation": "On a train, ask a stranger your age where they have come from.",
+      "options": [
+        {
+          "bn": "আপনি কোথা থেকে এসেছেন?",
+          "tr": "apni kotha theke eshechhen?",
+          "en": "Where have you come from?"
+        },
+        {
+          "bn": "তুমি কোথা থেকে এসেছেন?",
+          "tr": "tumi kotha theke eshechhen?",
+          "en": "Where have you come from? (mismatched)"
+        },
+        {
+          "bn": "আপনি কোথা থেকে এসেছি?",
+          "tr": "apni kotha theke eshechhi?",
+          "en": "Where have I come from? (wrong person)"
+        }
+      ],
+      "answer": [
+        0
+      ],
+      "why": "A stranger gets আপনি, and আপনি takes -েন: এসেছেন. এসেছি is the \"I\" form."
+    },
+    {
+      "id": "t3-teacher-slowly",
+      "tier": 3,
+      "situation": "Your teacher is speaking too fast. Ask her to speak a little more slowly.",
+      "options": [
+        {
+          "bn": "একটু আস্তে বলুন।",
+          "tr": "ektu aste bolun",
+          "en": "Please speak a little slowly."
+        },
+        {
+          "bn": "একটু আস্তে বলো।",
+          "tr": "ektu aste bolo",
+          "en": "Speak a little slowly. (familiar)"
+        },
+        {
+          "bn": "একটু আস্তে বলেন।",
+          "tr": "ektu aste bolen",
+          "en": "Please speak a little slowly. (everyday polite)"
+        }
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "why": "A teacher gets an আপনি command: standard বলুন or everyday বলেন. বলো is the তুমি command.",
+      "varies": "Both are heard: বলুন is standard and very polite; বলেন is the everyday Bangladeshi polite command.",
+      "notes": "In Kolkata বলুন is the norm; বলেন as a command sounds Bangladeshi."
+    },
+    {
+      "id": "t3-sister-worry",
+      "tier": 3,
+      "situation": "Your younger sister is nervous before an exam. Tell her not to worry.",
+      "options": [
+        {
+          "bn": "চিন্তা করিস না।",
+          "tr": "chinta korish na",
+          "en": "Don't worry. (intimate)"
+        },
+        {
+          "bn": "চিন্তা করো না।",
+          "tr": "chinta koro na",
+          "en": "Don't worry. (familiar)"
+        },
+        {
+          "bn": "চিন্তা করবেন না।",
+          "tr": "chinta korben na",
+          "en": "Don't worry. (polite)"
+        }
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "why": "A younger sibling gets তুই or তুমি, so করিস না or করো না. করবেন না is the polite \"don't\", for elders and strangers.",
+      "varies": "Both are heard: some families use তুই between siblings, others তুমি."
+    },
+    {
+      "id": "t3-aunty-come-in",
+      "tier": 3,
+      "situation": "Your friend's mother (you call her আন্টি) is at your door. Invite her in.",
+      "options": [
+        {
+          "bn": "আন্টি, ভিতরে আসুন।",
+          "tr": "anti, bhitore ashun",
+          "en": "Auntie, please come in."
+        },
+        {
+          "bn": "আন্টি, ভিতরে এসো।",
+          "tr": "anti, bhitore esho",
+          "en": "Auntie, come in. (familiar)"
+        },
+        {
+          "bn": "আন্টি, ভিতরে আসবি?",
+          "tr": "anti, bhitore ashbi?",
+          "en": "Auntie, will you come in? (intimate)"
+        }
+      ],
+      "answer": [
+        0
+      ],
+      "why": "An adult guest gets the polite command আসুন. এসো is how you'd call a child, and আসবি is for close friends only."
+    },
+    {
+      "id": "t3-friends-lets-go",
+      "tier": 3,
+      "situation": "You are with a group of close friends and want to leave. Say \"Let's go.\"",
+      "options": [
+        {
+          "bn": "চল, যাই।",
+          "tr": "chol, jai",
+          "en": "Let's go. (intimate)"
+        },
+        {
+          "bn": "চলেন, যাই।",
+          "tr": "cholen, jai",
+          "en": "Let's go. (polite)"
+        },
+        {
+          "bn": "চলো, যাই।",
+          "tr": "cholo, jai",
+          "en": "Let's go. (familiar)"
+        }
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "why": "\"Let's\" has three levels too: চল (তুই), চলো (তুমি), চলেন (আপনি). Close friends use চল or চলো.",
+      "varies": "Both are heard: friends who use তুই say চল; friends who use তুমি say চলো."
+    },
+    {
+      "id": "t4-parents",
+      "tier": 4,
+      "situation": "You are talking to your father (আব্বু). Which \"you\" do Bangladeshi families use?",
+      "options": [
+        {
+          "bn": "তুই",
+          "tr": "tui",
+          "en": "you (intimate)"
+        },
+        {
+          "bn": "তুমি",
+          "tr": "tumi",
+          "en": "you (familiar)"
+        },
+        {
+          "bn": "আপনি",
+          "tr": "apni",
+          "en": "you (polite)"
+        }
+      ],
+      "answer": [
+        1,
+        2
+      ],
+      "why": "Most urban families today use তুমি with both parents. In many older or rural families children say আপনি to their father, and sometimes to both parents. তুই to a parent is never polite.",
+      "varies": "Both are heard: তুমি is the most common today; some families use আপনি, especially with fathers. Follow your own family's habit."
+    },
+    {
+      "id": "t4-elder-says-tui",
+      "tier": 4,
+      "situation": "Your grandfather (দাদা) always calls you তুই, with love. You answer him. Which \"you\" do you use back?",
+      "options": [
+        {
+          "bn": "তুই",
+          "tr": "tui",
+          "en": "you (intimate)"
+        },
+        {
+          "bn": "তুমি",
+          "tr": "tumi",
+          "en": "you (familiar)"
+        },
+        {
+          "bn": "আপনি",
+          "tr": "apni",
+          "en": "you (polite)"
+        }
+      ],
+      "answer": [
+        1,
+        2
+      ],
+      "why": "An elder's তুই is affectionate, but it is not returned. You answer with তুমি or আপনি, as your family does.",
+      "varies": "Both are heard: some families use তুমি with grandparents, others আপনি.",
+      "notes": "In Kolkata দাদা means elder brother; a father's father has a different name there."
+    },
+    {
+      "id": "t4-waiter",
+      "tier": 4,
+      "situation": "In a restaurant, the man at the next table calls the young waiter তুই. You want to ask the waiter for water. Which \"you\" do you use?",
+      "options": [
+        {
+          "bn": "তুই",
+          "tr": "tui",
+          "en": "you (intimate)"
+        },
+        {
+          "bn": "তুমি",
+          "tr": "tumi",
+          "en": "you (familiar)"
+        },
+        {
+          "bn": "আপনি",
+          "tr": "apni",
+          "en": "you (polite)"
+        }
+      ],
+      "answer": [
+        2
+      ],
+      "why": "তুই from a stranger, especially to someone serving you, is talking down. তুমি to young service staff is very common but still a little condescending. আপনি is the respectful choice."
+    },
+    {
+      "id": "t4-younger-stranger",
+      "tier": 4,
+      "situation": "You are 30. A teenager you don't know, about 16, asks you for directions.",
+      "options": [
+        {
+          "bn": "তুই",
+          "tr": "tui",
+          "en": "you (intimate)"
+        },
+        {
+          "bn": "তুমি",
+          "tr": "tumi",
+          "en": "you (familiar)"
+        },
+        {
+          "bn": "আপনি",
+          "tr": "apni",
+          "en": "you (polite)"
+        }
+      ],
+      "answer": [
+        1,
+        2
+      ],
+      "why": "With a younger stranger both are possible: তুমি to a teenager is normal, and আপনি is polite and never wrong. Avoid তুই with someone you don't know.",
+      "varies": "Both are heard: many adults use তুমি with teenagers; others use আপনি with any stranger."
+    },
+    {
+      "id": "t4-friends-mother",
+      "tier": 4,
+      "situation": "You call your best friend তুই. Now you greet your best friend's mother.",
+      "options": [
+        {
+          "bn": "আন্টি, আপনি কেমন আছেন?",
+          "tr": "anti, apni kemon achhen?",
+          "en": "Auntie, how are you?"
+        },
+        {
+          "bn": "আন্টি, তুই কেমন আছিস?",
+          "tr": "anti, tui kemon achhish?",
+          "en": "Auntie, how are you? (intimate)"
+        },
+        {
+          "bn": "আন্টি, তুমি কেমন আছো?",
+          "tr": "anti, tumi kemon achho?",
+          "en": "Auntie, how are you? (familiar)"
+        }
+      ],
+      "answer": [
+        0
+      ],
+      "why": "Each person gets their own level: your friend is তুই, but your friend's mother is an elder, so আপনি. If you grew up in her house you may use তুমি with her."
+    },
+    {
+      "id": "t4-switch-to-tumi",
+      "tier": 4,
+      "situation": "A colleague your age, whom you've been calling আপনি, says: \"আমাকে তুমি বলো।\" (\"Call me তুমি.\") Ask how they are.",
+      "options": [
+        {
+          "bn": "তুমি কেমন আছো?",
+          "tr": "tumi kemon achho?",
+          "en": "How are you? (familiar)"
+        },
+        {
+          "bn": "আপনি কেমন আছেন?",
+          "tr": "apni kemon achhen?",
+          "en": "How are you? (polite)"
+        },
+        {
+          "bn": "তুই কেমন আছিস?",
+          "tr": "tui kemon achhish?",
+          "en": "How are you? (intimate)"
+        }
+      ],
+      "answer": [
+        0
+      ],
+      "why": "People move from আপনি to তুমি when they become friends, often with exactly this request. তুই is a further step that only close friends take."
+    },
+    {
+      "id": "t4-spot-mismatch",
+      "tier": 4,
+      "situation": "Only one of these sentences is correct Bengali. Which one?",
+      "options": [
+        {
+          "bn": "আপনি কী চাও?",
+          "tr": "apni ki chao?",
+          "en": "What do you want? (mismatched)"
+        },
+        {
+          "bn": "তুমি কী চান?",
+          "tr": "tumi ki chan?",
+          "en": "What do you want? (mismatched)"
+        },
+        {
+          "bn": "আপনি কী চান?",
+          "tr": "apni ki chan?",
+          "en": "What do you want?"
+        }
+      ],
+      "answer": [
+        2
+      ],
+      "why": "আপনি goes with চান and তুমি with চাও. Mixing a pronoun with another level's ending is the most common learner mistake."
+    },
+    {
+      "id": "t4-about-teacher",
+      "tier": 4,
+      "situation": "You tell a friend about your teacher, who is not there. Formality applies to \"he/she\" too.",
+      "options": [
+        {
+          "bn": "উনি আমার শিক্ষক।",
+          "tr": "uni amar shikkhok",
+          "en": "He is my teacher. (polite)"
+        },
+        {
+          "bn": "ও আমার শিক্ষক।",
+          "tr": "o amar shikkhok",
+          "en": "He is my teacher. (ordinary)"
+        },
+        {
+          "bn": "সে আমার শিক্ষক।",
+          "tr": "she amar shikkhok",
+          "en": "He is my teacher. (ordinary)"
+        }
+      ],
+      "answer": [
+        0
+      ],
+      "why": "Someone you would call আপনি is উনি when you talk about them (তিনি in writing). ও and সে are for friends, children and people you'd call তুমি or তুই."
+    },
+    {
+      "id": "t4-mixed-group",
+      "tier": 4,
+      "situation": "Your close friends are sitting with their parents. You ask the whole group how they are.",
+      "options": [
+        {
+          "bn": "তোরা",
+          "tr": "tora",
+          "en": "you all (intimate)"
+        },
+        {
+          "bn": "তোমরা",
+          "tr": "tomra",
+          "en": "you all (familiar)"
+        },
+        {
+          "bn": "আপনারা",
+          "tr": "apnara",
+          "en": "you all (polite)"
+        }
+      ],
+      "answer": [
+        2
+      ],
+      "why": "With a mixed group, use the level of its most senior members: আপনারা. তোরা would include the parents in your intimate তুই."
+    },
+    {
+      "id": "t4-younger-boss",
+      "tier": 4,
+      "situation": "Your new manager is five years younger than you. Ask if she is coming to the office today.",
+      "options": [
+        {
+          "bn": "আপনি কি আজ অফিসে আসবেন?",
+          "tr": "apni ki aj ofise ashben?",
+          "en": "Are you coming to the office today?"
+        },
+        {
+          "bn": "তুমি কি আজ অফিসে আসবে?",
+          "tr": "tumi ki aj ofise ashbe?",
+          "en": "Are you coming to the office today? (familiar)"
+        },
+        {
+          "bn": "তুই কি আজ অফিসে আসবি?",
+          "tr": "tui ki aj ofise ashbi?",
+          "en": "Are you coming to the office today? (intimate)"
+        }
+      ],
+      "answer": [
+        0
+      ],
+      "why": "Age is not the only thing that counts: at work, role and distance matter too. A manager gets আপনি, whatever her age."
+    }
+  ]
+}

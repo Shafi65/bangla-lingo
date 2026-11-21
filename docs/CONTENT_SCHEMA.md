@@ -150,3 +150,55 @@ Rules:
 - The app shuffles `options` each time an exercise is shown, so never rely on option position in other fields; `answer` is always the index into the authored `options`.
 - The app looks up transliteration for Bengali options and tiles from `content/lexicon/`, lesson `vocab` and plan sentences (by exact text, then word by word), so every Bengali option/tile should be spelled as in the lexicon. No match means no transliteration is shown.
 - 8–15 hand-written exercises per lesson (12–18 in intermediate units), plus up to 6 review exercises marked `"recycle": true` that `npm run recycle` appends (never edit those by hand). Each new vocab item must appear at least twice.
+
+## Formality trainer — `content/formality/scenarios.json`
+Scenario drills for তুই / তুমি / আপনি, played at `/formality`. `npm run validate:formality` enforces this section.
+```json
+{
+  "version": 1,
+  "roundSize": 10,
+  "unlockScore": 8,
+  "intro": [
+    {
+      "label": "Respectful",
+      "use": "Elders, strangers, teachers, and anyone at work.",
+      "pronoun": { "bn": "আপনি", "tr": "apni", "en": "you (polite)" },
+      "forms": [{ "bn": "আপনি আছেন", "tr": "apni achhen", "en": "you are" }, { "bn": "দেন / দিন", "tr": "den / din", "en": "give!" }]
+    }
+  ],
+  "tiers": [{ "id": 1, "title": "Who is this?", "description": "Pick তুই, তুমি or আপনি for the person in front of you." }],
+  "scenarios": [
+    {
+      "id": "t2-cmd-bosun",
+      "tier": 2,
+      "situation": "An elderly uncle comes to visit. You invite him to sit. Pick the command.",
+      "prompt": { "bn": "আংকেল, ___।", "tr": "angkel, ___", "en": "Uncle, please sit." },
+      "options": [
+        { "bn": "বসো", "tr": "bosho", "en": "sit (familiar)" },
+        { "bn": "বসুন", "tr": "boshun", "en": "please sit (standard)" },
+        { "bn": "বসেন", "tr": "boshen", "en": "sit (polite)" }
+      ],
+      "answer": [1, 2],
+      "why": "আপনি has two commands: everyday বসেন and standard বসুন. বসো is for তুমি.",
+      "varies": "Both are heard: বসেন is everyday Bangladeshi speech; বসুন is the standard form.",
+      "notes": "In Kolkata বসুন is the usual polite command."
+    }
+  ]
+}
+```
+| field | req | meaning |
+|---|---|---|
+| `roundSize` | ✓ | questions per round; every tier needs at least this many scenarios |
+| `unlockScore` | ✓ | a round score that unlocks the next tier (when the round included the newest unlocked tier) |
+| `intro` | ✓ | the intro card: one column per pronoun with a `label`, who it is for (`use`), the `pronoun` and its matching `forms` (BnText; `/` may separate two forms) |
+| `tiers` | ✓ | numbered `1, 2, 3 …` in order; 1 = which pronoun, 2 = matching verb form, 3 = whole sentence, 4 = tricky cases |
+| `id` | ✓ | unique lowercase slug |
+| `situation` | ✓ | English: who you are talking to and what you want to say |
+| `prompt` | | optional BnText frame; `___` (in both `bn` and `tr`) marks the gap the options fill |
+| `options` | ✓ | 2–4 BnText, different Bengali; the app shuffles them |
+| `answer` | ✓ | indexes into `options` of every acceptable answer (at least one option must be wrong) |
+| `why` | ✓ | one or two sentences shown after every answer |
+| `varies` | with 2+ answers | required when more than one answer is accepted, and only then; starts `"Both are heard: "` |
+| `notes` | | Kolkata or regional difference, shown with the feedback |
+
+Rules: every Bengali word in `prompt`, `options` and the intro's `pronoun`/`forms` must be a form in `content/lexicon/` (multi-word lexicon phrases count), and each `tr` must match the lexicon transliteration of its words; Bengali quoted inside `situation`, `why`, `varies`, `notes`, the intro's `use` and tier descriptions must also be lexicon forms, except endings written with a leading hyphen (`-েন`). Text is NFC without ZWJ/ZWNJ; `en` has no Bengali script. A missing word is a reason to write a different scenario, not to add a spelling here. Options whose Bengali has a recorded clip (`content/audio/manifest.json`) get a play button in the feedback.
