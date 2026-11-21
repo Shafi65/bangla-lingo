@@ -200,9 +200,36 @@ export function PracticeHub({ words, index }: { words: ReviewWord[]; index: Word
           )}
         </section>
       )}
+
+      <section aria-labelledby="more-practice" className="mt-10">
+        <h2 id="more-practice" className="mb-3 text-lg font-black">
+          More practice
+        </h2>
+        <ul className="flex flex-col gap-3">
+          {MORE_PRACTICE.map((m) => (
+            <li key={m.href}>
+              <Link
+                href={m.href}
+                className="flex min-h-11 flex-col rounded-2xl border-2 border-line bg-surface px-4 py-3 transition hover:border-line-strong"
+              >
+                <span className="text-lg font-black text-ink">
+                  {m.title}
+                </span>
+                <span className="font-semibold text-muted">{m.body}</span>
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </section>
     </AppShell>
   );
 }
+
+const MORE_PRACTICE = [
+  { href: "/speak", title: "Speaking practice", body: "Listen, say it aloud and compare with the model." },
+  { href: "/formality", title: "Formality trainer", body: "তুই, তুমি or আপনি? Pick the right \u201cyou\u201d for the person." },
+  { href: "/write", title: "Write the letters", body: "Trace each Bengali letter with your finger or mouse." },
+];
 
 function Empty({ title, body, href, cta }: { title: string; body: string; href?: string; cta?: string }) {
   return (

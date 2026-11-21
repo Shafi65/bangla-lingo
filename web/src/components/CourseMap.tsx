@@ -362,6 +362,16 @@ function UnitBlock({
   return (
     <section aria-labelledby={`unit-${unit.id}`}>
       <UnitHeader unit={unit} label={label} done={done} draft={draft} />
+      {script && (
+        <p className="mt-2 text-center">
+          <Link
+            href="/write"
+            className="inline-flex min-h-11 items-center rounded px-3 text-sm font-extrabold text-accent-dark underline underline-offset-2"
+          >
+            Practise writing
+          </Link>
+        </p>
+      )}
 
       <div className="relative mt-4" style={{ height: n * ROW }}>
         <svg

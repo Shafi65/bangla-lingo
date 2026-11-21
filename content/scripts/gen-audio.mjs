@@ -75,6 +75,21 @@ function collect() {
       for (const q of l.dialogue?.questions ?? []) { addText(q.questionBn); for (const o of q.options ?? []) add(o); }
     }
   }
+  // Formality trainer (content/formality/scenarios.json): options, and prompts with ___ filled by each correct answer
+  // (like fill_blank's complete `sentence` in lessons).
+  const formalityFile = path.join(ROOT, "formality", "scenarios.json");
+  if (fs.existsSync(formalityFile)) {
+    for (const sc of readJson(formalityFile).scenarios ?? []) {
+      for (const o of sc.options ?? []) addText(o);
+      const bn = sc.prompt?.bn;
+      if (typeof bn !== "string") continue;
+      if (!bn.includes("___")) { add(bn); continue; }
+      for (const i of sc.answer ?? []) {
+        const a = sc.options?.[i]?.bn;
+        if (a) add(bn.replace("___", a));
+      }
+    }
+  }
   let lessons = 0;
   for (const u of ctx.course.units) {
     for (const id of u.lessons) {
