@@ -421,65 +421,55 @@
         "tr": "koro",
         "en": "you do (familiar)"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "give (intimate)",
-        "you do (familiar)",
-        "(you/he/she, polite) want",
-        "you will buy (polite)"
+        "দে",
+        "করো",
+        "চান",
+        "কিনবেন"
       ],
       "answer": 1,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "করিস",
         "tr": "korish",
         "en": "you do (intimate)"
       },
+      "direction": "bn_to_en",
       "options": [
-        "নন",
-        "করিস",
-        "থাকি",
-        "নই"
+        "you do (intimate)",
+        "(I/we) eat",
+        "(you, familiar) eat",
+        "strikes (the hour)"
       ],
-      "answer": 1,
+      "answer": 0,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "সত্যি",
         "tr": "shotti",
         "en": "really"
       },
-      "direction": "en_to_bn",
       "options": [
-        "আজ",
-        "একটু",
-        "দূরে",
-        "সত্যি"
+        "আরও",
+        "বামে",
+        "সত্যি",
+        "সন্ধ্যায়"
       ],
-      "answer": 3,
+      "answer": 2,
       "recycle": true
     },
     {
       "id": "r04",
       "type": "match_pairs",
       "pairs": [
-        {
-          "bn": "কাজ",
-          "tr": "kaj",
-          "en": "work"
-        },
-        {
-          "bn": "টিকিট",
-          "tr": "tikit",
-          "en": "ticket"
-        },
         {
           "bn": "কঠিন",
           "tr": "kothin",
@@ -489,6 +479,16 @@
           "bn": "আসলে",
           "tr": "ashole",
           "en": "actually"
+        },
+        {
+          "bn": "কাজ",
+          "tr": "kaj",
+          "en": "work"
+        },
+        {
+          "bn": "টিকিট",
+          "tr": "tikit",
+          "en": "ticket"
         }
       ],
       "recycle": true
@@ -498,24 +498,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "বাজে",
-          "tr": "baje",
-          "en": "strikes (the hour)"
+          "bn": "আড়াইটা",
+          "tr": "araita",
+          "en": "half past two"
         },
         {
-          "bn": "লেগেছে",
-          "tr": "legechhe",
-          "en": "has come on (felt)"
-        },
-        {
-          "bn": "খুচরা",
-          "tr": "khuchra",
-          "en": "change"
+          "bn": "কাল",
+          "tr": "kal",
+          "en": "tomorrow; yesterday"
         },
         {
           "bn": "কোনো",
           "tr": "kono",
           "en": "any"
+        },
+        {
+          "bn": "জিনিস",
+          "tr": "jinish",
+          "en": "thing"
         }
       ],
       "recycle": true

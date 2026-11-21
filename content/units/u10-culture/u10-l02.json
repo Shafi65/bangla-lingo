@@ -416,9 +416,9 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "শুনি",
-          "tr": "shuni",
-          "en": "I listen"
+          "bn": "চার",
+          "tr": "char",
+          "en": "four"
         },
         {
           "bn": "ছুটি",
@@ -431,9 +431,9 @@
           "en": "at Eid"
         },
         {
-          "bn": "প্রশ্ন",
-          "tr": "proshno",
-          "en": "question"
+          "bn": "ভুল",
+          "tr": "bhul",
+          "en": "wrong"
         }
       ],
       "recycle": true
@@ -443,24 +443,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "ষাট",
-          "tr": "shat",
-          "en": "sixty"
+          "bn": "খায়",
+          "tr": "khay",
+          "en": "(he/she/they) eats"
+        },
+        {
+          "bn": "কিনবেন",
+          "tr": "kinben",
+          "en": "you will buy (polite)"
+        },
+        {
+          "bn": "কতদূর",
+          "tr": "kotodur",
+          "en": "how far"
         },
         {
           "bn": "তোমার",
           "tr": "tomar",
           "en": "your (familiar)"
-        },
-        {
-          "bn": "যাব",
-          "tr": "jabo",
-          "en": "I will go"
-        },
-        {
-          "bn": "কয়জন",
-          "tr": "koyjon",
-          "en": "how many (people)"
         }
       ],
       "recycle": true

@@ -348,12 +348,13 @@
     },
     {
       "id": "r01",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "চৌদ্দ",
         "tr": "choddo",
         "en": "fourteen"
       },
+      "direction": "en_to_bn",
       "options": [
         "দুইটা",
         "একটি",
@@ -371,30 +372,29 @@
         "tr": "ponero",
         "en": "fifteen"
       },
-      "direction": "en_to_bn",
+      "direction": "bn_to_en",
       "options": [
-        "পনেরো",
-        "একটি",
-        "এগারো",
-        "ছয়"
+        "fifteen",
+        "one; a (formal)",
+        "eleven",
+        "six"
       ],
       "answer": 0,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "খারাপ",
         "tr": "kharap",
         "en": "bad"
       },
-      "direction": "bn_to_en",
       "options": [
-        "good, well",
-        "bad",
-        "spicy",
-        "tasty"
+        "ভালো",
+        "খারাপ",
+        "ঝাল",
+        "মজার"
       ],
       "answer": 1,
       "recycle": true
@@ -409,14 +409,14 @@
           "en": "all"
         },
         {
-          "bn": "আপনারা",
-          "tr": "apnara",
-          "en": "you (polite, plural)"
+          "bn": "কয়জন",
+          "tr": "koyjon",
+          "en": "how many (people)"
         },
         {
-          "bn": "সে",
-          "tr": "she",
-          "en": "he/she"
+          "bn": "একজন",
+          "tr": "ekjon",
+          "en": "one (person)"
         },
         {
           "bn": "বিরিয়ানি",
@@ -431,24 +431,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "তোরা",
-          "tr": "tora",
-          "en": "you (intimate, plural)"
-        },
-        {
-          "bn": "ওরা",
-          "tr": "ora",
-          "en": "they (spoken)"
-        },
-        {
-          "bn": "নও",
-          "tr": "noo",
-          "en": "are not (familiar)"
+          "bn": "তোমাদের",
+          "tr": "tomader",
+          "en": "your (familiar, plural)"
         },
         {
           "bn": "ওটা",
           "tr": "ota",
           "en": "that"
+        },
+        {
+          "bn": "জানেন",
+          "tr": "janen",
+          "en": "(you, polite) know"
+        },
+        {
+          "bn": "ছাত্র",
+          "tr": "chhatro",
+          "en": "student (male)"
         }
       ],
       "recycle": true

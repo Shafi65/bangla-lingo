@@ -460,24 +460,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "দশ",
-          "tr": "dosh",
-          "en": "ten"
+          "bn": "সবসময়",
+          "tr": "shobshomoy",
+          "en": "always"
         },
         {
-          "bn": "পড়ছি",
-          "tr": "porchhi",
-          "en": "I am reading"
+          "bn": "বলতে",
+          "tr": "bolte",
+          "en": "to speak"
         },
         {
-          "bn": "কাছে",
-          "tr": "kachhe",
-          "en": "near"
+          "bn": "হাজার",
+          "tr": "hajar",
+          "en": "thousand"
         },
         {
-          "bn": "এটার",
-          "tr": "etar",
-          "en": "of this"
+          "bn": "আছো",
+          "tr": "achho",
+          "en": "are (familiar)"
         }
       ],
       "recycle": true
@@ -487,24 +487,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "কয়টা",
-          "tr": "koyta",
-          "en": "what time; how many"
+          "bn": "একশ",
+          "tr": "eksho",
+          "en": "one hundred"
         },
         {
-          "bn": "সাত",
-          "tr": "shat",
-          "en": "seven"
-        },
-        {
-          "bn": "হাজার",
-          "tr": "hajar",
-          "en": "thousand"
+          "bn": "সাড়ে",
+          "tr": "share",
+          "en": "half past"
         },
         {
           "bn": "এখানে",
           "tr": "ekhane",
           "en": "here"
+        },
+        {
+          "bn": "আট",
+          "tr": "at",
+          "en": "eight"
         }
       ],
       "recycle": true

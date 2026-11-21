@@ -419,9 +419,9 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "রমজান",
-          "tr": "romjan",
-          "en": "Ramadan"
+          "bn": "গিয়েছিল",
+          "tr": "giyechhilo",
+          "en": "had gone"
         },
         {
           "bn": "লোক",
@@ -446,9 +446,14 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "মন্দিরে",
-          "tr": "mondire",
-          "en": "to the temple"
+          "bn": "পূজা",
+          "tr": "puja",
+          "en": "puja"
+        },
+        {
+          "bn": "রমজান",
+          "tr": "romjan",
+          "en": "Ramadan"
         },
         {
           "bn": "দুর্গাপূজা",
@@ -456,14 +461,9 @@
           "en": "Durga Puja"
         },
         {
-          "bn": "পূজা",
-          "tr": "puja",
-          "en": "puja"
-        },
-        {
-          "bn": "গিয়েছিল",
-          "tr": "giyechhilo",
-          "en": "had gone"
+          "bn": "মন্দিরে",
+          "tr": "mondire",
+          "en": "to the temple"
         }
       ],
       "recycle": true

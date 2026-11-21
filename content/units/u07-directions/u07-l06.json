@@ -364,13 +364,12 @@
     },
     {
       "id": "r01",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "থামেন",
         "tr": "thamen",
         "en": "stop (polite)"
       },
-      "direction": "en_to_bn",
       "options": [
         "থামেন",
         "আছিস",
@@ -388,29 +387,30 @@
         "tr": "si-en-ji",
         "en": "CNG"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "at the market",
-        "biryani",
-        "CNG",
-        "country"
+        "বাজারে",
+        "বিরিয়ানি",
+        "সিএনজি",
+        "দেশ"
       ],
       "answer": 2,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "রিকশায়",
         "tr": "rikshay",
         "en": "by rickshaw"
       },
+      "direction": "bn_to_en",
       "options": [
-        "মুরগি",
-        "চাচা",
-        "মেয়ে",
-        "রিকশায়"
+        "chicken",
+        "uncle (father's brother)",
+        "girl",
+        "by rickshaw"
       ],
       "answer": 3,
       "recycle": true
@@ -420,9 +420,9 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "নিচে",
-          "tr": "niche",
-          "en": "downstairs"
+          "bn": "উপরে",
+          "tr": "upore",
+          "en": "upstairs"
         },
         {
           "bn": "কোন",
@@ -452,19 +452,19 @@
           "en": "of the home"
         },
         {
-          "bn": "উপরে",
-          "tr": "upore",
-          "en": "upstairs"
+          "bn": "ভিতরে",
+          "tr": "bhitore",
+          "en": "inside"
+        },
+        {
+          "bn": "নিচে",
+          "tr": "niche",
+          "en": "downstairs"
         },
         {
           "bn": "বাইরে",
           "tr": "baire",
           "en": "outside"
-        },
-        {
-          "bn": "ভিতরে",
-          "tr": "bhitore",
-          "en": "inside"
         }
       ],
       "recycle": true

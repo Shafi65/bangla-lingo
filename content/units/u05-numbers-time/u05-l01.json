@@ -352,49 +352,49 @@
         "tr": "ekti",
         "en": "one; a (formal)"
       },
-      "direction": "en_to_bn",
+      "direction": "bn_to_en",
       "options": [
-        "নয়",
-        "চার",
-        "পাঁচ",
-        "একটি"
+        "one; a (formal)",
+        "eight",
+        "seven",
+        "five"
       ],
-      "answer": 3,
+      "answer": 0,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "কলা",
         "tr": "kola",
         "en": "banana"
       },
-      "direction": "bn_to_en",
       "options": [
-        "tea",
-        "sugar",
-        "banana",
-        "biryani"
+        "নানি",
+        "কলা",
+        "পানি",
+        "মুরগি"
       ],
-      "answer": 2,
+      "answer": 1,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "listen_select",
-      "audio": {
-        "bn": "এসেছি",
-        "tr": "eshechhi",
-        "en": "(I) have come"
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আমাদের",
+        "tr": "amader",
+        "en": "our"
       },
+      "direction": "en_to_bn",
       "options": [
-        "আছো",
-        "খান",
-        "এসেছি",
-        "চাই"
+        "আপনারা",
+        "তোমাদের",
+        "কী",
+        "আমাদের"
       ],
-      "answer": 2,
+      "answer": 3,
       "recycle": true
     },
     {
@@ -402,24 +402,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "কোথা",
-          "tr": "kotha",
-          "en": "where (before থেকে)"
+          "bn": "তোরা",
+          "tr": "tora",
+          "en": "you (intimate, plural)"
         },
         {
-          "bn": "আছিস",
-          "tr": "achhish",
-          "en": "are (intimate)"
+          "bn": "নও",
+          "tr": "noo",
+          "en": "are not (familiar)"
         },
         {
-          "bn": "কেমন",
-          "tr": "kemon",
-          "en": "how"
+          "bn": "এসেছি",
+          "tr": "eshechhi",
+          "en": "(I) have come"
         },
         {
-          "bn": "হ্যাঁ",
-          "tr": "hya~",
-          "en": "yes"
+          "bn": "আচ্ছা",
+          "tr": "achchha",
+          "en": "OK"
         }
       ],
       "recycle": true
@@ -429,24 +429,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "তোমরা",
-          "tr": "tomra",
-          "en": "you (familiar, plural)"
+          "bn": "নই",
+          "tr": "noi",
+          "en": "am not"
         },
         {
-          "bn": "এসেছেন",
-          "tr": "eshechhen",
-          "en": "(you, polite) have come"
+          "bn": "থেকে",
+          "tr": "theke",
+          "en": "from"
         },
         {
-          "bn": "আছেন",
-          "tr": "achhen",
-          "en": "are (polite)"
+          "bn": "কোথা",
+          "tr": "kotha",
+          "en": "where (before থেকে)"
         },
         {
-          "bn": "ওর",
-          "tr": "or",
-          "en": "his/her (spoken)"
+          "bn": "আপনারা",
+          "tr": "apnara",
+          "en": "you (polite, plural)"
         }
       ],
       "recycle": true

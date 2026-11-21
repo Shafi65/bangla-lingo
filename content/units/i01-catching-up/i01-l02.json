@@ -522,12 +522,12 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "feels",
+        "take (intimate)",
+        "please come (standard)",
         "I used to study",
-        "watches",
-        "you go (familiar)"
+        "I haven't heard"
       ],
-      "answer": 1,
+      "answer": 2,
       "recycle": true
     },
     {
@@ -539,12 +539,12 @@
         "en": "I used to play"
       },
       "options": [
-        "যাচ্ছে",
-        "যেতাম",
-        "শেখে",
-        "খেলতাম"
+        "যাচ্ছি",
+        "খেলতাম",
+        "পারব",
+        "শুনতে"
       ],
-      "answer": 3,
+      "answer": 1,
       "recycle": true
     },
     {
@@ -557,18 +557,23 @@
       },
       "blank": "খেলা",
       "options": [
-        "বছর",
-        "স্টেশনে",
-        "মাংস",
-        "খেলা"
+        "মামি",
+        "পানি",
+        "খেলা",
+        "লাইন"
       ],
-      "answer": 3,
+      "answer": 2,
       "recycle": true
     },
     {
       "id": "r04",
       "type": "match_pairs",
       "pairs": [
+        {
+          "bn": "পুকুর",
+          "tr": "pukur",
+          "en": "pond"
+        },
         {
           "bn": "ছোটবেলা",
           "tr": "chhotobela",
@@ -583,11 +588,6 @@
           "bn": "মাঠে",
           "tr": "mathe",
           "en": "in the field"
-        },
-        {
-          "bn": "পুকুর",
-          "tr": "pukur",
-          "en": "pond"
         }
       ],
       "recycle": true
@@ -597,24 +597,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "আছো",
-          "tr": "achho",
-          "en": "are (familiar)"
+          "bn": "পৌঁছেছি",
+          "tr": "pou~chhechhi",
+          "en": "I have reached"
         },
         {
-          "bn": "আগামীকাল",
-          "tr": "agamikal",
-          "en": "tomorrow"
+          "bn": "পাঠাও",
+          "tr": "pathao",
+          "en": "send (familiar)"
         },
         {
-          "bn": "পড়েন",
-          "tr": "poren",
-          "en": "you read (polite)"
+          "bn": "জানাবেন",
+          "tr": "janaben",
+          "en": "please let (me) know (polite)"
         },
         {
-          "bn": "চল",
-          "tr": "chol",
-          "en": "let's"
+          "bn": "পাঠাব",
+          "tr": "pathabo",
+          "en": "I will send"
         }
       ],
       "recycle": true

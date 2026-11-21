@@ -369,42 +369,42 @@
         "tr": "majhe majhe",
         "en": "sometimes"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "goodbye",
-        "sometimes",
-        "praise be to God",
-        "thank you"
+        "খোদা হাফেজ",
+        "মাঝে মাঝে",
+        "আলহামদুলিল্লাহ",
+        "ধন্যবাদ"
       ],
       "answer": 1,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "সবসময়",
         "tr": "shobshomoy",
         "en": "always"
       },
+      "direction": "bn_to_en",
       "options": [
-        "সকালে",
-        "সবসময়",
-        "আরও",
-        "খুব"
+        "in the morning",
+        "always",
+        "more",
+        "very"
       ],
       "answer": 1,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "স্কুল",
         "tr": "skul",
         "en": "school"
       },
-      "direction": "en_to_bn",
       "options": [
         "স্কুল",
         "দাদি",

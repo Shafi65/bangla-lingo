@@ -318,20 +318,19 @@
     },
     {
       "id": "r01",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "এসেছে",
         "tr": "eshechhe",
         "en": "has come"
       },
-      "direction": "en_to_bn",
       "options": [
-        "থাকেন",
-        "দিলাম",
-        "খেতে",
-        "এসেছে"
+        "যাও",
+        "এসেছে",
+        "খাই",
+        "দাও"
       ],
-      "answer": 3,
+      "answer": 1,
       "recycle": true
     },
     {
@@ -342,31 +341,32 @@
         "tr": "kheyechho",
         "en": "have you eaten (familiar)"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "I listen",
-        "have you eaten (familiar)",
-        "(you/he/she, polite) eat",
-        "I took"
+        "খেয়েছো",
+        "জানেন",
+        "এসেছে",
+        "যায়"
       ],
-      "answer": 1,
+      "answer": 0,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "গিয়েছে",
         "tr": "giyechhe",
         "en": "has gone"
       },
+      "direction": "bn_to_en",
       "options": [
-        "ঘুমালাম",
-        "ওঠেন",
-        "গিয়েছে",
-        "কিনব"
+        "has gone",
+        "go (polite)",
+        "comes",
+        "did"
       ],
-      "answer": 2,
+      "answer": 0,
       "recycle": true
     },
     {
@@ -374,24 +374,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "শুনলাম",
-          "tr": "shunlam",
-          "en": "I heard"
-        },
-        {
           "bn": "ঘুমালাম",
           "tr": "ghumalam",
           "en": "I slept"
         },
         {
-          "bn": "এলাম",
-          "tr": "elam",
-          "en": "I came"
+          "bn": "শুনলাম",
+          "tr": "shunlam",
+          "en": "I heard"
         },
         {
           "bn": "খেয়েছেন",
           "tr": "kheyechhen",
           "en": "have you eaten (polite)"
+        },
+        {
+          "bn": "এলাম",
+          "tr": "elam",
+          "en": "I came"
         }
       ],
       "recycle": true
@@ -401,9 +401,9 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "পড়লাম",
-          "tr": "porlam",
-          "en": "I read"
+          "bn": "কিনলাম",
+          "tr": "kinlam",
+          "en": "I bought"
         },
         {
           "bn": "বললাম",
@@ -416,9 +416,9 @@
           "en": "I saw"
         },
         {
-          "bn": "কিনলাম",
-          "tr": "kinlam",
-          "en": "I bought"
+          "bn": "পড়লাম",
+          "tr": "porlam",
+          "en": "I read"
         }
       ],
       "recycle": true

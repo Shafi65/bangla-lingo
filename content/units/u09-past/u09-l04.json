@@ -353,37 +353,37 @@
     },
     {
       "id": "r01",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "করলে",
         "tr": "korle",
         "en": "you did (familiar)"
       },
+      "direction": "bn_to_en",
       "options": [
-        "কিনল",
-        "করলে",
-        "খাও",
-        "যাচ্ছি"
+        "you did (familiar)",
+        "you do (polite)",
+        "reads",
+        "I will buy"
       ],
-      "answer": 1,
+      "answer": 0,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "দিলাম",
         "tr": "dilam",
         "en": "I gave"
       },
-      "direction": "en_to_bn",
       "options": [
-        "দেখছে",
+        "আসলাম",
+        "ছাড়বে",
         "দিলাম",
-        "খেতে",
-        "করিস"
+        "গেল"
       ],
-      "answer": 1,
+      "answer": 2,
       "recycle": true
     },
     {
@@ -394,14 +394,14 @@
         "tr": "nilam",
         "en": "I took"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "I took",
-        "I read",
-        "has come on (felt)",
-        "(I/we) eat"
+        "শোনে",
+        "নিলাম",
+        "দিলাম",
+        "খায়"
       ],
-      "answer": 0,
+      "answer": 1,
       "recycle": true
     },
     {
@@ -414,9 +414,9 @@
           "en": "I came"
         },
         {
-          "bn": "রিকশা",
-          "tr": "riksha",
-          "en": "rickshaw"
+          "bn": "ট্রেনে",
+          "tr": "trene",
+          "en": "by train"
         },
         {
           "bn": "গেলাম",
@@ -424,9 +424,9 @@
           "en": "I went"
         },
         {
-          "bn": "বাড়ির",
-          "tr": "barir",
-          "en": "of the house"
+          "bn": "রিকশা",
+          "tr": "riksha",
+          "en": "rickshaw"
         }
       ],
       "recycle": true
@@ -436,24 +436,24 @@
       "type": "match_pairs",
       "pairs": [
         {
+          "bn": "গেল",
+          "tr": "gelo",
+          "en": "went"
+        },
+        {
+          "bn": "খাস",
+          "tr": "khash",
+          "en": "(you, intimate) eat"
+        },
+        {
           "bn": "ভিতরে",
           "tr": "bhitore",
           "en": "inside"
         },
         {
-          "bn": "ট্রেনে",
-          "tr": "trene",
-          "en": "by train"
-        },
-        {
           "bn": "এলে",
           "tr": "ele",
           "en": "you came (familiar)"
-        },
-        {
-          "bn": "গেল",
-          "tr": "gelo",
-          "en": "went"
         }
       ],
       "recycle": true

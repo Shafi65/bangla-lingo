@@ -432,24 +432,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "মাতৃভাষা",
-          "tr": "matribhasha",
-          "en": "mother tongue"
-        },
-        {
           "bn": "স্বাধীনতা",
           "tr": "shadhinota",
           "en": "independence"
         },
         {
-          "bn": "মেলা",
-          "tr": "mela",
-          "en": "fair"
-        },
-        {
           "bn": "রমজান",
           "tr": "romjan",
           "en": "Ramadan"
+        },
+        {
+          "bn": "মাতৃভাষা",
+          "tr": "matribhasha",
+          "en": "mother tongue"
+        },
+        {
+          "bn": "রমজানে",
+          "tr": "romjane",
+          "en": "in Ramadan"
         }
       ],
       "recycle": true
@@ -459,24 +459,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "মেহমান",
-          "tr": "mehman",
-          "en": "guest"
-        },
-        {
           "bn": "আলপনা",
           "tr": "alpona",
           "en": "alpona"
         },
         {
+          "bn": "মেলা",
+          "tr": "mela",
+          "en": "fair"
+        },
+        {
+          "bn": "মেহমান",
+          "tr": "mehman",
+          "en": "guest"
+        },
+        {
           "bn": "সেহরি",
           "tr": "sehri",
           "en": "sehri"
-        },
-        {
-          "bn": "করিনি",
-          "tr": "korini",
-          "en": "I didn't do"
         }
       ],
       "recycle": true

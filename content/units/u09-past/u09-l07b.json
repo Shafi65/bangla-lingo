@@ -362,60 +362,55 @@
         "tr": "uthlam",
         "en": "I got up"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "I brush",
-        "I got up",
-        "I came",
-        "you did (intimate)"
+        "মাজি",
+        "উঠলাম",
+        "এলাম",
+        "করলি"
       ],
       "answer": 1,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "দিনটা",
         "tr": "dinta",
         "en": "the day"
       },
+      "direction": "bn_to_en",
       "options": [
-        "আন্টি",
-        "দিনটা",
-        "সবজি",
-        "কলাগুলো"
+        "the day",
+        "TV",
+        "liking",
+        "month"
       ],
-      "answer": 1,
+      "answer": 0,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "কথা",
         "tr": "kotha",
         "en": "talk"
       },
-      "direction": "en_to_bn",
       "options": [
-        "হাসপাতাল",
-        "কাজ",
-        "বন্ধুর",
-        "কথা"
+        "কথা",
+        "নাম",
+        "রবিবার",
+        "চাচা"
       ],
-      "answer": 3,
+      "answer": 0,
       "recycle": true
     },
     {
       "id": "r04",
       "type": "match_pairs",
       "pairs": [
-        {
-          "bn": "সবসময়",
-          "tr": "shobshomoy",
-          "en": "always"
-        },
         {
           "bn": "হয়তো",
           "tr": "hoyto",
@@ -425,6 +420,11 @@
           "bn": "মাজি",
           "tr": "maji",
           "en": "I brush"
+        },
+        {
+          "bn": "সবসময়",
+          "tr": "shobshomoy",
+          "en": "always"
         },
         {
           "bn": "খেয়েছো",
@@ -439,11 +439,6 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "পরে",
-          "tr": "pore",
-          "en": "after"
-        },
-        {
           "bn": "দেখছে",
           "tr": "dekhchhe",
           "en": "is watching"
@@ -457,6 +452,11 @@
           "bn": "পারেন",
           "tr": "paren",
           "en": "(you, polite) can"
+        },
+        {
+          "bn": "পরে",
+          "tr": "pore",
+          "en": "after"
         }
       ],
       "recycle": true

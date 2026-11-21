@@ -413,17 +413,18 @@
     },
     {
       "id": "r01",
-      "type": "listen_select",
-      "audio": {
-        "bn": "মনে হয়",
-        "tr": "mone hoy",
-        "en": "I think"
+      "type": "select_translation",
+      "prompt": {
+        "bn": "দেখতে",
+        "tr": "dekhte",
+        "en": "to see"
       },
+      "direction": "en_to_bn",
       "options": [
-        "এখনো না",
-        "মাঝে মাঝে",
-        "আসসালামু আলাইকুম",
-        "মনে হয়"
+        "নিতে",
+        "পড়তে",
+        "খাস",
+        "দেখতে"
       ],
       "answer": 3,
       "recycle": true
@@ -432,34 +433,33 @@
       "id": "r02",
       "type": "select_translation",
       "prompt": {
-        "bn": "দাঁত মাজা",
-        "tr": "da~t maja",
-        "en": "brushing teeth"
+        "bn": "বেড়াতে",
+        "tr": "berate",
+        "en": "to go out (on a visit or trip)"
       },
-      "direction": "en_to_bn",
+      "direction": "bn_to_en",
       "options": [
-        "দাঁত মাজা",
-        "ঈদ মোবারক",
-        "এখনো না",
-        "মাঝে মাঝে"
+        "to go out (on a visit or trip)",
+        "goes",
+        "you came (familiar)",
+        "was"
       ],
       "answer": 0,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "পান্তা ভাত",
-        "tr": "panta bhat",
-        "en": "panta bhat"
+      "type": "listen_select",
+      "audio": {
+        "bn": "কালকের",
+        "tr": "kalker",
+        "en": "tomorrow's"
       },
-      "direction": "bn_to_en",
       "options": [
-        "panta bhat",
-        "what happened",
-        "I think",
-        "sometimes"
+        "কালকের",
+        "আগামী",
+        "কঠিন",
+        "সস্তা"
       ],
       "answer": 0,
       "recycle": true
@@ -469,9 +469,9 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "সাড়ে",
-          "tr": "share",
-          "en": "half past"
+          "bn": "করেছি",
+          "tr": "korechhi",
+          "en": "I have done"
         },
         {
           "bn": "ব্যস্ত",
@@ -479,14 +479,14 @@
           "en": "busy"
         },
         {
-          "bn": "প্রতিদিন",
-          "tr": "protidin",
-          "en": "every day"
+          "bn": "কোন",
+          "tr": "kon",
+          "en": "which"
         },
         {
-          "bn": "পর্যন্ত",
-          "tr": "porjonto",
-          "en": "to"
+          "bn": "দেড়টা",
+          "tr": "derta",
+          "en": "half past one"
         }
       ],
       "recycle": true
@@ -496,14 +496,14 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "কালকের",
-          "tr": "kalker",
-          "en": "tomorrow's"
+          "bn": "যাইনি",
+          "tr": "jaini",
+          "en": "I didn't go"
         },
         {
-          "bn": "এগুলো",
-          "tr": "egulo",
-          "en": "these"
+          "bn": "পড়েন",
+          "tr": "poren",
+          "en": "you read (polite)"
         },
         {
           "bn": "ছিলে",
@@ -511,9 +511,9 @@
           "en": "you were (familiar)"
         },
         {
-          "bn": "খাওনি",
-          "tr": "khaoni",
-          "en": "you didn't eat (familiar)"
+          "bn": "তারা",
+          "tr": "tara",
+          "en": "they"
         }
       ],
       "recycle": true

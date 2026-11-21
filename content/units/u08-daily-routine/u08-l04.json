@@ -345,20 +345,19 @@
     },
     {
       "id": "r01",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "যাও",
         "tr": "jao",
         "en": "you go (familiar)"
       },
-      "direction": "en_to_bn",
       "options": [
-        "খান",
-        "খায়",
-        "যাও",
-        "করি"
+        "এসেছেন",
+        "করিস",
+        "বলেন",
+        "যাও"
       ],
-      "answer": 2,
+      "answer": 3,
       "recycle": true
     },
     {
@@ -369,29 +368,30 @@
         "tr": "jai",
         "en": "I go"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "is not / are not (polite)",
-        "(you, intimate) eat",
-        "I go",
-        "give (polite)"
+        "ওঠেন",
+        "ঘুমাই",
+        "বাজে",
+        "যাই"
       ],
-      "answer": 2,
+      "answer": 3,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "আসে",
         "tr": "ashe",
         "en": "comes"
       },
+      "direction": "bn_to_en",
       "options": [
-        "করিস",
-        "আছো",
-        "আসে",
-        "যাই"
+        "watches",
+        "I read",
+        "comes",
+        "(you/he/she, polite) want"
       ],
       "answer": 2,
       "recycle": true
@@ -401,11 +401,6 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "কখন",
-          "tr": "kokhon",
-          "en": "when"
-        },
-        {
           "bn": "স্কুলে",
           "tr": "skule",
           "en": "to school"
@@ -414,6 +409,11 @@
           "bn": "যায়",
           "tr": "jay",
           "en": "goes"
+        },
+        {
+          "bn": "কখন",
+          "tr": "kokhon",
+          "en": "when"
         },
         {
           "bn": "আসি",
@@ -428,9 +428,9 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "স্কুল",
-          "tr": "skul",
-          "en": "school"
+          "bn": "অফিস",
+          "tr": "ofis",
+          "en": "office"
         },
         {
           "bn": "ঘুম",
@@ -443,9 +443,9 @@
           "en": "to the office"
         },
         {
-          "bn": "অফিস",
-          "tr": "ofis",
-          "en": "office"
+          "bn": "স্কুল",
+          "tr": "skul",
+          "en": "school"
         }
       ],
       "recycle": true

@@ -415,46 +415,46 @@
         "tr": "shono",
         "en": "listen (familiar)"
       },
-      "direction": "en_to_bn",
+      "direction": "bn_to_en",
       "options": [
-        "চলেন",
-        "পারেনি",
-        "শোনো",
-        "আসতে"
+        "let's",
+        "he/she couldn't",
+        "listen (familiar)",
+        "to come"
       ],
       "answer": 2,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "এদিকে",
         "tr": "edike",
         "en": "this way"
       },
-      "direction": "bn_to_en",
       "options": [
-        "usually",
-        "then",
-        "this way",
-        "straight"
+        "কতদূর",
+        "সাতটায়",
+        "সন্ধ্যায়",
+        "এদিকে"
       ],
-      "answer": 2,
+      "answer": 3,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "দেখো",
         "tr": "dekho",
         "en": "look (familiar)"
       },
+      "direction": "en_to_bn",
       "options": [
-        "দেখব",
-        "দেখবে",
-        "এসো",
+        "পড়ব",
+        "দেখবেন",
+        "বলো",
         "দেখো"
       ],
       "answer": 3,
@@ -465,14 +465,14 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "বেড়াতে",
-          "tr": "berate",
-          "en": "to go out (on a visit or trip)"
+          "bn": "দিলাম",
+          "tr": "dilam",
+          "en": "I gave"
         },
         {
-          "bn": "সামনে",
-          "tr": "shamne",
-          "en": "in front of"
+          "bn": "তার",
+          "tr": "tar",
+          "en": "his/her"
         },
         {
           "bn": "এসো",
@@ -480,9 +480,9 @@
           "en": "come (familiar)"
         },
         {
-          "bn": "দেখতে",
-          "tr": "dekhte",
-          "en": "to see"
+          "bn": "করলে",
+          "tr": "korle",
+          "en": "you did (familiar)"
         }
       ],
       "recycle": true
@@ -492,24 +492,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "দিকে",
-          "tr": "dike",
-          "en": "way"
+          "bn": "আঠারো",
+          "tr": "atharo",
+          "en": "eighteen"
         },
         {
-          "bn": "সতেরো",
-          "tr": "shotero",
-          "en": "seventeen"
+          "bn": "সামনে",
+          "tr": "shamne",
+          "en": "in front of"
+        },
+        {
+          "bn": "খাই",
+          "tr": "khai",
+          "en": "(I/we) eat"
         },
         {
           "bn": "সবচেয়ে",
           "tr": "shobcheye",
           "en": "the most"
-        },
-        {
-          "bn": "করছো",
-          "tr": "korchho",
-          "en": "you are doing (familiar)"
         }
       ],
       "recycle": true

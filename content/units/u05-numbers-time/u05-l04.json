@@ -366,55 +366,55 @@
     },
     {
       "id": "r01",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "বুঝতে পারছি না",
         "tr": "bujhte parchhi na",
         "en": "I don't understand"
       },
-      "direction": "bn_to_en",
       "options": [
-        "hello (in reply)",
-        "I don't understand",
-        "hello (Hindu greeting)",
-        "praise be to God"
+        "ওয়ালাইকুম আসসালাম",
+        "বুঝতে পারছি না",
+        "নমস্কার",
+        "আলহামদুলিল্লাহ"
       ],
       "answer": 1,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "listen_select",
-      "audio": {
-        "bn": "জানি",
-        "tr": "jani",
-        "en": "(I) know"
+      "type": "select_translation",
+      "prompt": {
+        "bn": "তারা",
+        "tr": "tara",
+        "en": "they"
       },
+      "direction": "en_to_bn",
       "options": [
-        "খাই",
-        "চাও",
-        "আছো",
-        "জানি"
+        "আমাদের",
+        "তারা",
+        "ওনার",
+        "তিনি"
       ],
-      "answer": 3,
+      "answer": 1,
       "recycle": true
     },
     {
       "id": "r03",
       "type": "select_translation",
       "prompt": {
-        "bn": "আমাদের",
-        "tr": "amader",
-        "en": "our"
+        "bn": "আমরা",
+        "tr": "amra",
+        "en": "we"
       },
-      "direction": "en_to_bn",
+      "direction": "bn_to_en",
       "options": [
-        "তুই",
-        "আপনারা",
-        "ওর",
-        "আমাদের"
+        "he/she",
+        "we",
+        "that",
+        "you (polite, plural)"
       ],
-      "answer": 3,
+      "answer": 1,
       "recycle": true
     },
     {
@@ -427,19 +427,19 @@
           "en": "twelve"
         },
         {
+          "bn": "এগারো",
+          "tr": "egaro",
+          "en": "eleven"
+        },
+        {
           "bn": "ও",
           "tr": "o",
           "en": "he/she (spoken)"
         },
         {
-          "bn": "তারা",
-          "tr": "tara",
-          "en": "they"
-        },
-        {
-          "bn": "তোমাদের",
-          "tr": "tomader",
-          "en": "your (familiar, plural)"
+          "bn": "বাচ্চা",
+          "tr": "bachcha",
+          "en": "child"
         }
       ],
       "recycle": true
@@ -449,24 +449,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "ফুফু",
-          "tr": "fufu",
-          "en": "aunt (father's sister)"
+          "bn": "ফুফা",
+          "tr": "fufa",
+          "en": "uncle (fufu's husband)"
         },
         {
-          "bn": "আমরা",
-          "tr": "amra",
-          "en": "we"
+          "bn": "স্বামী",
+          "tr": "shami",
+          "en": "husband"
         },
         {
-          "bn": "আচ্ছা",
-          "tr": "achchha",
-          "en": "OK"
+          "bn": "বাংলা",
+          "tr": "bangla",
+          "en": "Bengali (language)"
         },
         {
-          "bn": "এগারো",
-          "tr": "egaro",
-          "en": "eleven"
+          "bn": "খালা",
+          "tr": "khala",
+          "en": "aunt (mother's sister)"
         }
       ],
       "recycle": true

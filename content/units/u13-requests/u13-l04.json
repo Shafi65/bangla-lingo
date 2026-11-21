@@ -422,19 +422,20 @@
     },
     {
       "id": "r01",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "দাঁড়ান",
         "tr": "da~ran",
         "en": "wait (polite); stand"
       },
+      "direction": "en_to_bn",
       "options": [
-        "শুনলাম",
         "দাঁড়ান",
-        "শুনি",
-        "পারবে"
+        "পারব",
+        "করিনি",
+        "পড়ব"
       ],
-      "answer": 1,
+      "answer": 0,
       "recycle": true
     },
     {
@@ -445,32 +446,31 @@
         "tr": "da~rao",
         "en": "wait (familiar); stand"
       },
-      "direction": "en_to_bn",
+      "direction": "bn_to_en",
       "options": [
-        "পারেন",
-        "দাও",
-        "যাবেন",
-        "দাঁড়াও"
+        "give (polite, standard)",
+        "wait (familiar); stand",
+        "is",
+        "give (familiar)"
       ],
-      "answer": 3,
+      "answer": 1,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "এখনই",
         "tr": "ekhoni",
         "en": "right now"
       },
-      "direction": "bn_to_en",
       "options": [
-        "the day after tomorrow",
-        "right now",
-        "at what time",
-        "today"
+        "শুধু",
+        "আটটায়",
+        "এখনই",
+        "তখন"
       ],
-      "answer": 1,
+      "answer": 2,
       "recycle": true
     },
     {
@@ -478,24 +478,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "অপেক্ষা",
-          "tr": "opekkha",
-          "en": "waiting"
-        },
-        {
-          "bn": "পৌনে",
-          "tr": "poune",
-          "en": "quarter to"
-        },
-        {
           "bn": "দেরি",
           "tr": "deri",
           "en": "delay; lateness"
         },
         {
-          "bn": "কিনলাম",
-          "tr": "kinlam",
-          "en": "I bought"
+          "bn": "সোয়া",
+          "tr": "shoya",
+          "en": "quarter past"
+        },
+        {
+          "bn": "করলি",
+          "tr": "korli",
+          "en": "you did (intimate)"
+        },
+        {
+          "bn": "অপেক্ষা",
+          "tr": "opekkha",
+          "en": "waiting"
         }
       ],
       "recycle": true
@@ -505,24 +505,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "দেখিনি",
-          "tr": "dekhini",
-          "en": "I didn't see"
+          "bn": "গিয়েছিলাম",
+          "tr": "giyechhilam",
+          "en": "I had gone"
         },
         {
-          "bn": "করিস",
-          "tr": "korish",
-          "en": "you do (intimate)"
-        },
-        {
-          "bn": "করলে",
-          "tr": "korle",
-          "en": "you did (familiar)"
+          "bn": "এসেছে",
+          "tr": "eshechhe",
+          "en": "has come"
         },
         {
           "bn": "তোমাদের",
           "tr": "tomader",
           "en": "your (familiar, plural)"
+        },
+        {
+          "bn": "একটি",
+          "tr": "ekti",
+          "en": "one; a (formal)"
         }
       ],
       "recycle": true

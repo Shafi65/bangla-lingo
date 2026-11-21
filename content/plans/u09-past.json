@@ -1090,6 +1090,162 @@
           ]
         }
       ]
+    },
+    {
+      "id": "u09-c01",
+      "title": "Checkpoint: Units 7–9",
+      "kind": "checkpoint",
+      "goal": "Ask the way, describe your routine and tell what happened yesterday, mixing everything from Units 7–9.",
+      "grammar": [
+        "checkpoint: বাসা vs বাড়ি; genitive + postposition (স্টেশনের কাছে); -টায় 'at' a clock time",
+        "checkpoint: present simple vs continuous (করো / করছো); vowel raising (শুনি / শোনে)",
+        "checkpoint: past -লাম / -লি / -লে / -লেন / -ল; perfect খেয়েছেন; -নি for 'didn't'; ছিলাম / ছিলেন"
+      ],
+      "new": [],
+      "review": [
+        "bashay",
+        "bari",
+        "shoja",
+        "jan",
+        "rasta",
+        "diye",
+        "steshoner",
+        "rikshay",
+        "jabo",
+        "steshone",
+        "shattay",
+        "shone",
+        "tibhi",
+        "korchho",
+        "ranna",
+        "tarpor",
+        "tai",
+        "gotokal",
+        "korlam",
+        "dekhlam",
+        "ghumalam",
+        "korli",
+        "korle",
+        "korlen",
+        "korlo",
+        "gelam",
+        "elam",
+        "khelam",
+        "kheyechhen",
+        "khaini",
+        "jaini",
+        "ekhono",
+        "chhilam",
+        "chhilen",
+        "chhilo",
+        "bondho",
+        "uthlam",
+        "bondhur",
+        "shathe",
+        "dinta",
+        "shikkharthi",
+        "jokhon",
+        "tokhon"
+      ],
+      "tip": "A mixed test of Units 7–9: getting around, daily routine and the past. No new words.\n\n- **বাসা** = where you live now; **বাড়ি** = family home. Postpositions follow -এর: **স্টেশনের** কাছে.\n- Now vs usually: তুমি কী **করছো**? / তুমি কী **করো**?\n- Past: **-লাম / -লি / -লে / -লেন / -ল**. Have eaten: **খেয়েছি**. Didn't: **যাইনি**.\n- Was: **ছিলাম / ছিলে / ছিলেন / ছিল**.",
+      "sentences": [
+        {
+          "bn": "আমার বাড়ি সিলেটে।",
+          "tr": "amar bari shilete.",
+          "en": "My home town is in Sylhet."
+        },
+        {
+          "bn": "হোটেল স্টেশনের কাছে।",
+          "tr": "hotel steshoner kachhe.",
+          "en": "The hotel is near the station."
+        },
+        {
+          "bn": "এই রাস্তা দিয়ে সোজা যান।",
+          "tr": "ei rasta diye shoja jan.",
+          "en": "Go straight along this road."
+        },
+        {
+          "bn": "আমি স্টেশনে যাব।",
+          "tr": "ami steshone jabo.",
+          "en": "I will go to the station."
+        },
+        {
+          "bn": "আমি সাধারণত সাতটায় উঠি।",
+          "tr": "ami shadharonoto shattay uthi.",
+          "en": "I usually get up at seven."
+        },
+        {
+          "bn": "তুমি কী করছো?",
+          "tr": "tumi ki korchho?",
+          "en": "What are you doing?"
+        },
+        {
+          "bn": "আপনি খেয়েছেন?",
+          "tr": "apni kheyechhen?",
+          "en": "Have you eaten? (polite)"
+        },
+        {
+          "bn": "আমি গতকাল অফিসে যাইনি।",
+          "tr": "ami gotokal ofise jaini.",
+          "en": "I didn't go to the office yesterday."
+        },
+        {
+          "bn": "আপনি কোথায় ছিলেন?",
+          "tr": "apni kothay chhilen?",
+          "en": "Where were you? (polite)"
+        },
+        {
+          "bn": "আমি ছাত্র ছিলাম।",
+          "tr": "ami chhatro chhilam.",
+          "en": "I was a student."
+        }
+      ],
+      "dialogue": {
+        "title": "Yesterday",
+        "lines": [
+          {
+            "bn": "গতকাল আমি সকাল সাতটায় উঠলাম।",
+            "tr": "gotokal ami shokal shattay uthlam.",
+            "en": "Yesterday I got up at seven in the morning."
+          },
+          {
+            "bn": "তারপর আমি বন্ধুর সাথে বাজারে গেলাম।",
+            "tr": "tarpor ami bondhur shathe bajare gelam.",
+            "en": "Then I went to the market with a friend."
+          },
+          {
+            "bn": "আমরা যখন বাজারে গেলাম, তখন দোকান বন্ধ ছিল।",
+            "tr": "amra jokhon bajare gelam, tokhon dokan bondho chhilo.",
+            "en": "When we got to the market, the shop was closed."
+          },
+          {
+            "bn": "তাই আমরা রিকশায় বাসায় এলাম।",
+            "tr": "tai amra rikshay bashay elam.",
+            "en": "So we came home by rickshaw."
+          },
+          {
+            "bn": "আম্মু রান্না করলেন, আর আমরা ভাত আর মাছ খেলাম।",
+            "tr": "ammu ranna korlen, ar amra bhat ar machh khelam.",
+            "en": "Mom cooked, and we ate rice and fish."
+          },
+          {
+            "bn": "দিনটা খুব ভালো ছিল।",
+            "tr": "dinta khub bhalo chhilo.",
+            "en": "The day was very good."
+          }
+        ],
+        "questions": [
+          {
+            "question": "Why did they come home?",
+            "options": [
+              "The shop was closed",
+              "They were hungry",
+              "It was night"
+            ],
+            "answer": 0
+          }
+        ]
+      }
     }
   ]
 }

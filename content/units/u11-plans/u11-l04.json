@@ -494,9 +494,9 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "একটু",
-          "tr": "ektu",
-          "en": "a little"
+          "bn": "দে",
+          "tr": "de",
+          "en": "give (intimate)"
         },
         {
           "bn": "দেখবেন",
@@ -509,9 +509,9 @@
           "en": "writes"
         },
         {
-          "bn": "চল্লিশ",
-          "tr": "chollish",
-          "en": "forty"
+          "bn": "ত্রিশ",
+          "tr": "trish",
+          "en": "thirty"
         }
       ],
       "recycle": true

@@ -513,12 +513,12 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "bought",
-        "you (polite) / he, she (polite) have said",
+        "I will be able to",
         "I used to write",
-        "(I/we) want"
+        "I said",
+        "you (polite) / he, she (polite) said"
       ],
-      "answer": 2,
+      "answer": 1,
       "recycle": true
     },
     {
@@ -530,30 +530,30 @@
         "en": "of today"
       },
       "options": [
-        "শুভ",
-        "খারাপ",
-        "জরুরি",
-        "এখনকার"
+        "সুন্দর",
+        "নীল",
+        "এখনকার",
+        "আধা"
       ],
-      "answer": 3,
+      "answer": 2,
       "recycle": true
     },
     {
       "id": "r03",
       "type": "fill_blank",
       "sentence": {
-        "bn": "হ্যালো, আমি নাদিয়া বলছি।",
-        "tr": "hyalo, ami nadiya bolchhi.",
-        "en": "Hello, this is Nadia."
+        "bn": "আমি পড়ে গেছি।",
+        "tr": "ami pore gechhi.",
+        "en": "I fell down."
       },
-      "blank": "হ্যালো",
+      "blank": "পড়ে গেছি",
       "options": [
-        "মাঝে মাঝে",
         "লাগবে না",
-        "হ্যালো",
-        "গত সপ্তাহে"
+        "নমস্কার",
+        "আবার দেখা হবে",
+        "পড়ে গেছি"
       ],
-      "answer": 2,
+      "answer": 3,
       "recycle": true
     },
     {
@@ -561,24 +561,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "বলছি",
-          "tr": "bolchhi",
-          "en": "I am speaking"
-        },
-        {
-          "bn": "পাচ্ছেন",
-          "tr": "pachchhen",
-          "en": "you are getting (polite)"
-        },
-        {
-          "bn": "প্লিজ",
-          "tr": "plij",
-          "en": "please"
-        },
-        {
           "bn": "দুষ্টু",
           "tr": "dushtu",
           "en": "naughty"
+        },
+        {
+          "bn": "দিনে",
+          "tr": "dine",
+          "en": "a day; per day"
+        },
+        {
+          "bn": "ধরে",
+          "tr": "dhore",
+          "en": "for (a time)"
+        },
+        {
+          "bn": "খা",
+          "tr": "kha",
+          "en": "eat (intimate)"
         }
       ],
       "recycle": true
@@ -588,24 +588,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "খুলতে",
-          "tr": "khulte",
-          "en": "to open"
+          "bn": "দরজা",
+          "tr": "dorja",
+          "en": "door"
         },
         {
-          "bn": "ধরছে",
-          "tr": "dhorchhe",
-          "en": "is picking up"
+          "bn": "ঠিকানা",
+          "tr": "thikana",
+          "en": "address"
         },
         {
-          "bn": "বলছেন",
-          "tr": "bolchhen",
-          "en": "you are speaking (polite)"
+          "bn": "নে",
+          "tr": "ne",
+          "en": "take (intimate)"
         },
         {
-          "bn": "জোরে",
-          "tr": "jore",
-          "en": "loudly"
+          "bn": "মেসেজ",
+          "tr": "mesej",
+          "en": "message"
         }
       ],
       "recycle": true

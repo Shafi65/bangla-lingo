@@ -352,55 +352,55 @@
     },
     {
       "id": "r01",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "বুঝতে পারছি না",
-        "tr": "bujhte parchhi na",
-        "en": "I don't understand"
+      "type": "listen_select",
+      "audio": {
+        "bn": "কয়জন",
+        "tr": "koyjon",
+        "en": "how many (people)"
       },
-      "direction": "bn_to_en",
       "options": [
-        "hello (in reply)",
-        "praise be to God",
-        "hello (peace be upon you)",
-        "I don't understand"
+        "কোথায়",
+        "এখানে",
+        "খুব",
+        "কয়জন"
       ],
       "answer": 3,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "listen_select",
-      "audio": {
-        "bn": "মায়ের",
-        "tr": "mayer",
-        "en": "mother's"
+      "type": "select_translation",
+      "prompt": {
+        "bn": "জানেন",
+        "tr": "janen",
+        "en": "(you, polite) know"
       },
+      "direction": "en_to_bn",
       "options": [
-        "স্ত্রী",
-        "মায়ের",
-        "আপু",
-        "বাংলা"
+        "আছে",
+        "আছো",
+        "জানেন",
+        "আছেন"
       ],
-      "answer": 1,
+      "answer": 2,
       "recycle": true
     },
     {
       "id": "r03",
       "type": "select_translation",
       "prompt": {
-        "bn": "ওয়ালাইকুম আসসালাম",
-        "tr": "walaikum assalam",
-        "en": "hello (in reply)"
+        "bn": "সবাই",
+        "tr": "shobai",
+        "en": "everyone"
       },
-      "direction": "en_to_bn",
+      "direction": "bn_to_en",
       "options": [
-        "ওয়ালাইকুম আসসালাম",
-        "আলহামদুলিল্লাহ",
-        "আবার দেখা হবে",
-        "খোদা হাফেজ"
+        "my",
+        "they",
+        "everyone",
+        "I"
       ],
-      "answer": 0,
+      "answer": 2,
       "recycle": true
     },
     {
@@ -408,24 +408,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "আপনারা",
-          "tr": "apnara",
-          "en": "you (polite, plural)"
+          "bn": "তোমাদের",
+          "tr": "tomader",
+          "en": "your (familiar, plural)"
         },
         {
-          "bn": "নও",
-          "tr": "noo",
-          "en": "are not (familiar)"
+          "bn": "একজন",
+          "tr": "ekjon",
+          "en": "one (person)"
         },
         {
-          "bn": "সে",
-          "tr": "she",
-          "en": "he/she"
+          "bn": "আংকেল",
+          "tr": "angkel",
+          "en": "uncle (address)"
         },
         {
-          "bn": "তারা",
-          "tr": "tara",
-          "en": "they"
+          "bn": "জানি",
+          "tr": "jani",
+          "en": "(I) know"
         }
       ],
       "recycle": true
@@ -435,24 +435,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "তোরা",
-          "tr": "tora",
-          "en": "you (intimate, plural)"
+          "bn": "স্বামী",
+          "tr": "shami",
+          "en": "husband"
         },
         {
-          "bn": "তিনি",
-          "tr": "tini",
-          "en": "he/she (polite)"
+          "bn": "স্ত্রী",
+          "tr": "stri",
+          "en": "wife"
         },
         {
-          "bn": "নয়",
-          "tr": "noy",
-          "en": "is not"
+          "bn": "আপা",
+          "tr": "apa",
+          "en": "elder sister; ma'am"
         },
         {
-          "bn": "ওরা",
-          "tr": "ora",
-          "en": "they (spoken)"
+          "bn": "ওখানে",
+          "tr": "okhane",
+          "en": "there"
         }
       ],
       "recycle": true

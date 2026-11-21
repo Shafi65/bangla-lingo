@@ -351,20 +351,19 @@
     },
     {
       "id": "r01",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "বাড়ি",
         "tr": "bari",
         "en": "home (family home)"
       },
-      "direction": "en_to_bn",
       "options": [
-        "ঘণ্টা",
+        "খুচরা",
+        "বাড়ি",
         "দোকানদার",
-        "আপা",
-        "বাড়ি"
+        "সন্ধ্যা"
       ],
-      "answer": 3,
+      "answer": 1,
       "recycle": true
     },
     {
@@ -375,29 +374,30 @@
         "tr": "bashay",
         "en": "at home"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "aunt (mama's wife)",
-        "grandfather (father's father)",
-        "the mango",
-        "at home"
+        "সন্ধ্যা",
+        "শাড়ি",
+        "বাসায়",
+        "শিক্ষক"
       ],
-      "answer": 3,
+      "answer": 2,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "বাসা",
         "tr": "basha",
         "en": "home (where you live now)"
       },
+      "direction": "bn_to_en",
       "options": [
-        "গরুর",
-        "শাড়ি",
-        "বাসা",
-        "বাংলা"
+        "cow's",
+        "sari",
+        "home (where you live now)",
+        "Bengali (language)"
       ],
       "answer": 2,
       "recycle": true
@@ -407,24 +407,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "এসেছি",
-          "tr": "eshechhi",
-          "en": "(I) have come"
+          "bn": "ব্যাগ",
+          "tr": "byag",
+          "en": "bag"
         },
         {
-          "bn": "জামা",
-          "tr": "jama",
-          "en": "shirt"
+          "bn": "খুচরা",
+          "tr": "khuchra",
+          "en": "change"
         },
         {
-          "bn": "কোনো",
-          "tr": "kono",
-          "en": "any"
+          "bn": "সবচেয়ে",
+          "tr": "shobcheye",
+          "en": "the most"
         },
         {
-          "bn": "কে",
-          "tr": "ke",
-          "en": "who"
+          "bn": "জিনিস",
+          "tr": "jinish",
+          "en": "thing"
         }
       ],
       "recycle": true
@@ -434,24 +434,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "নও",
-          "tr": "noo",
-          "en": "are not (familiar)"
-        },
-        {
-          "bn": "আপনারা",
-          "tr": "apnara",
-          "en": "you (polite, plural)"
-        },
-        {
           "bn": "এসেছেন",
           "tr": "eshechhen",
           "en": "(you, polite) have come"
         },
         {
-          "bn": "ও",
-          "tr": "o",
-          "en": "he/she (spoken)"
+          "bn": "ভাংতি",
+          "tr": "bhangti",
+          "en": "change"
+        },
+        {
+          "bn": "কে",
+          "tr": "ke",
+          "en": "who"
+        },
+        {
+          "bn": "জানেন",
+          "tr": "janen",
+          "en": "(you, polite) know"
         }
       ],
       "recycle": true

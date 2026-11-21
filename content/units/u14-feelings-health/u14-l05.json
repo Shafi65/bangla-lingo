@@ -1,0 +1,493 @@
+{
+  "id": "u14-l05",
+  "unit": "u14-feelings-health",
+  "title": "At the doctor",
+  "status": "draft",
+  "tip": "The doctor asks **আপনার কী সমস্যা?** 'What's the problem?' and answers with polite commands: **ওষুধ খান** 'take the medicine', **বিশ্রাম নিন** 'get some rest'. In Bengali you **eat** medicine (**ওষুধ খাওয়া**), just as you 'eat' water: **অনেক পানি খান** 'drink lots of water'.\n\nHow often: **দিনে তিন বার** 'three times a day'; here **বার** means 'times'. When: **খাওয়ার পরে** 'after meals', **খাওয়ার আগে** 'before meals'.\n\nAt home, a sister says it with তুই: **ওষুধ খা** (**খাও → খা**). Better again? **আমি এখন সুস্থ** 'I'm well now'.",
+  "vocab": [
+    {
+      "id": "dine",
+      "bn": "দিনে",
+      "tr": "dine",
+      "en": "a day; per day",
+      "notes": "দিনে তিন বার 'three times a day'. Also 'in the daytime'."
+    },
+    {
+      "id": "bar-times",
+      "bn": "বার",
+      "tr": "bar",
+      "en": "times",
+      "notes": "Counts how often: এক বার 'once', দুই বার 'twice', তিন বার 'three times'. Often written as one word (তিনবার). Same spelling as বার 'day of the week' (U5)."
+    },
+    {
+      "id": "bishram",
+      "bn": "বিশ্রাম",
+      "tr": "bishram",
+      "en": "rest",
+      "notes": "বিশ্রাম নিন (আপনি) / নাও (তুমি) / নে (তুই) 'get some rest'."
+    },
+    {
+      "id": "khawar",
+      "bn": "খাওয়ার",
+      "tr": "khawar",
+      "en": "eating; meals",
+      "notes": "খাওয়া 'eating' + -র: খাওয়ার পরে 'after meals', খাওয়ার আগে 'before meals'."
+    },
+    {
+      "id": "shustho",
+      "bn": "সুস্থ",
+      "tr": "shustho",
+      "en": "well; healthy",
+      "notes": "Opposite of অসুস্থ 'ill'."
+    },
+    {
+      "id": "kha",
+      "bn": "খা",
+      "tr": "kha",
+      "en": "eat (intimate)",
+      "notes": "তুই command: খাও → খা. Medicine is 'eaten' in Bengali: ওষুধ খা 'take your medicine'."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "এই ওষুধ দিনে তিন বার খান।",
+        "tr": "ei oshudh dine tin bar khan.",
+        "en": "Take this medicine three times a day."
+      },
+      "options": [
+        "Take this medicine three times a day.",
+        "Take this medicine for three days.",
+        "Take three of these medicines.",
+        "Take this medicine at three o'clock."
+      ],
+      "answer": 0,
+      "why": "**দিনে** 'a day' + **তিন বার** 'three times'."
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "বিশ্রাম নিন।",
+        "tr": "bishram nin.",
+        "en": "Get some rest.",
+        "alt": [
+          "Rest, please.",
+          "Take some rest."
+        ]
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "Take this medicine.",
+        "Please sit down.",
+        "Get some rest.",
+        "Please wait."
+      ],
+      "answer": 2,
+      "why": "**বিশ্রাম** 'rest' + **নিন** 'please take'."
+    },
+    {
+      "id": "e03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "খাওয়ার পরে খান।",
+        "tr": "khawar pore khan.",
+        "en": "Take it after meals.",
+        "alt": [
+          "Take it after eating."
+        ]
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "Take it before meals.",
+        "Take it after meals.",
+        "Eat it now.",
+        "Eat it later."
+      ],
+      "answer": 1,
+      "why": "**খাওয়ার পরে** 'after eating'; **খাওয়ার আগে** is 'before'."
+    },
+    {
+      "id": "e04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "দিনে",
+          "tr": "dine",
+          "en": "a day; per day"
+        },
+        {
+          "bn": "বার",
+          "tr": "bar",
+          "en": "times"
+        },
+        {
+          "bn": "বিশ্রাম",
+          "tr": "bishram",
+          "en": "rest"
+        },
+        {
+          "bn": "সুস্থ",
+          "tr": "shustho",
+          "en": "well; healthy"
+        },
+        {
+          "bn": "খা",
+          "tr": "kha",
+          "en": "eat (intimate)"
+        }
+      ]
+    },
+    {
+      "id": "e05",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "আমি এখন সুস্থ।",
+        "tr": "ami ekhon shustho.",
+        "en": "I'm well now.",
+        "alt": [
+          "I'm better now.",
+          "I'm healthy now."
+        ]
+      },
+      "options": [
+        "I'm ill now.",
+        "I'm busy now.",
+        "I'm tired now.",
+        "I'm well now."
+      ],
+      "answer": 3,
+      "why": "**সুস্থ** 'well', the opposite of **অসুস্থ**."
+    },
+    {
+      "id": "e06",
+      "type": "listen_select",
+      "audio": {
+        "bn": "খাওয়ার",
+        "tr": "khawar",
+        "en": "eating; meals"
+      },
+      "options": [
+        "খাবার",
+        "খাওয়ার",
+        "খাবেন",
+        "খাবে"
+      ],
+      "answer": 1,
+      "why": "**খাওয়ার** 'of eating' (**খাওয়ার পরে**); **খাবার** is 'food'."
+    },
+    {
+      "id": "e07",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "এই ওষুধ খা।",
+        "tr": "ei oshudh kha.",
+        "en": "Take this medicine.",
+        "alt": [
+          "Have this medicine."
+        ]
+      },
+      "options": [
+        "Take this medicine.",
+        "I take this medicine.",
+        "Don't take this medicine.",
+        "Is this medicine?"
+      ],
+      "answer": 0,
+      "why": "**খা** is the তুই command: **খাও → খা**. Medicine is 'eaten'."
+    },
+    {
+      "id": "e08",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আপনার কী সমস্যা?",
+        "tr": "apnar ki shomossha?",
+        "en": "What's the problem?",
+        "alt": [
+          "What's wrong?",
+          "What seems to be the problem?"
+        ]
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "What's your name?",
+        "Where does it hurt?",
+        "What do you need?",
+        "What's the problem?"
+      ],
+      "answer": 3,
+      "why": "Doctors open with **আপনার কী সমস্যা?**"
+    },
+    {
+      "id": "e09",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "এই ওষুধ দিনে তিন বার খান।",
+        "tr": "ei oshudh dine tin bar khan.",
+        "en": "Take this medicine three times a day."
+      },
+      "blank": "বার",
+      "options": [
+        "দিন",
+        "ঘণ্টা",
+        "বার",
+        "মিনিট"
+      ],
+      "answer": 2,
+      "why": "**বার** 'times': **তিন বার** 'three times'."
+    },
+    {
+      "id": "e10",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "খাওয়ার আগে ওষুধ খা।",
+        "tr": "khawar age oshudh kha.",
+        "en": "Take the medicine before eating.",
+        "alt": [
+          "Take your medicine before meals."
+        ]
+      },
+      "blank": "আগে",
+      "options": [
+        "পরে",
+        "কাছে",
+        "আগে",
+        "সামনে"
+      ],
+      "answer": 2,
+      "why": "**খাওয়ার আগে** 'before meals'; **পরে** is 'after'."
+    },
+    {
+      "id": "e11",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "অনেক পানি খান।",
+        "tr": "onek pani khan.",
+        "en": "Drink lots of water. (polite)",
+        "alt": [
+          "Drink plenty of water."
+        ]
+      },
+      "blank": "খান",
+      "options": [
+        "খান",
+        "খা",
+        "খাই",
+        "খেতে"
+      ],
+      "answer": 0,
+      "why": "Water is 'eaten' too: **পানি খান** (আপনি). **খা** is for তুই."
+    },
+    {
+      "id": "e12",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "বিশ্রাম নিন।",
+        "tr": "bishram nin.",
+        "en": "Get some rest.",
+        "alt": [
+          "Rest, please.",
+          "Take some rest."
+        ]
+      },
+      "blank": "বিশ্রাম",
+      "accepted": [
+        "বিশ্রাম",
+        "bishram",
+        "bisram",
+        "bishraam",
+        "bishrám"
+      ],
+      "why": "**বিশ্রাম নিন** 'get some rest'."
+    },
+    {
+      "id": "e13",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "খাওয়ার পরে খান।",
+        "tr": "khawar pore khan.",
+        "en": "Take it after meals. (polite)",
+        "alt": [
+          "Take it after eating."
+        ]
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "খাবার",
+        "খা",
+        "খাওয়ার",
+        "পরে",
+        "আগে",
+        "খান"
+      ],
+      "answer": [
+        "খাওয়ার",
+        "পরে",
+        "খান"
+      ],
+      "why": "**খাওয়ার পরে** 'after meals' + **খান** (আপনি)."
+    },
+    {
+      "id": "e14",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "এই ওষুধ খা।",
+        "tr": "ei oshudh kha.",
+        "en": "Take this medicine. (to your brother, intimate)",
+        "alt": [
+          "Have this medicine."
+        ]
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "এই ওষুধ খান।",
+        "এই ওষুধ খা।",
+        "এই ওষুধ খাও।",
+        "এই ওষুধ খাবার।"
+      ],
+      "answer": 1,
+      "why": "To a brother or sister (তুই): **খা**. **খাও** is for তুমি, **খান** for আপনি."
+    },
+    {
+      "id": "e15",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "এই ওষুধ দিনে তিন বার খান।",
+        "tr": "ei oshudh dine tin bar khan.",
+        "en": "Take this medicine three times a day. (polite)"
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "এই ওষুধ দিনে তিন বার খান",
+        "এই ওষুধ দিনে তিনবার খান",
+        "ওষুধ দিনে তিন বার খান",
+        "ওষুধ দিনে তিনবার খান",
+        "দিনে তিন বার এই ওষুধ খান",
+        "এই ওষুধ দিনে তিন বার খাবেন",
+        "এই ওষুধটা দিনে তিন বার খান",
+        "এই ওষুধটা দিনে তিনবার খান",
+        "ei oshudh dine tin bar khan",
+        "ei osudh dine tin bar khan",
+        "oshudh dine tin bar khan",
+        "osudh dine tin bar khan",
+        "dine tin bar ei oshudh khan",
+        "dine tin bar ei osudh khan",
+        "ei oshudh dine tin bar khaben",
+        "ei osudh dine tin bar khaben",
+        "ei oshudh dine tinbar khan",
+        "ei oshud dine tin bar khan",
+        "ei oshudhta dine tin bar khan"
+      ],
+      "why": "**দিনে তিন বার** 'three times a day' + **খান**."
+    },
+    {
+      "id": "r01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "হয়েছে",
+        "tr": "hoyechhe",
+        "en": "has happened; has got"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "যাচ্ছি",
+        "বলেন",
+        "এসেছেন",
+        "হয়েছে"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ধরে",
+        "tr": "dhore",
+        "en": "for (a time)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "for (a time)",
+        "from",
+        "next to",
+        "outside"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "listen_select",
+      "audio": {
+        "bn": "পারবি",
+        "tr": "parbi",
+        "en": "you (intimate) will be able to"
+      },
+      "options": [
+        "পারবি",
+        "উঠি",
+        "লাগে",
+        "যাইনি"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "অসুস্থ",
+          "tr": "oshustho",
+          "en": "ill"
+        },
+        {
+          "bn": "ঠান্ডা",
+          "tr": "thanda",
+          "en": "cold; a cold"
+        },
+        {
+          "bn": "আয়",
+          "tr": "ay",
+          "en": "come (intimate)"
+        },
+        {
+          "bn": "জ্বর",
+          "tr": "jor",
+          "en": "fever"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "রাগ",
+          "tr": "rag",
+          "en": "anger"
+        },
+        {
+          "bn": "লাগছে",
+          "tr": "lagchhe",
+          "en": "feel (right now)"
+        },
+        {
+          "bn": "ভয়",
+          "tr": "bhoy",
+          "en": "fear"
+        },
+        {
+          "bn": "কাশি",
+          "tr": "kashi",
+          "en": "cough"
+        }
+      ],
+      "recycle": true
+    }
+  ]
+}

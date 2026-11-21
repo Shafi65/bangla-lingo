@@ -328,42 +328,42 @@
         "tr": "etar",
         "en": "of this"
       },
-      "direction": "en_to_bn",
+      "direction": "bn_to_en",
       "options": [
-        "এটার",
-        "আপনি",
-        "ওর",
-        "তোমার"
+        "of this",
+        "you (polite)",
+        "his/her (spoken)",
+        "your (familiar)"
       ],
       "answer": 0,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "দোকানদার",
         "tr": "dokandar",
         "en": "shopkeeper"
       },
-      "direction": "bn_to_en",
       "options": [
-        "Wednesday",
-        "fun; tasty",
-        "problem",
-        "shopkeeper"
+        "বুধবার",
+        "মজা",
+        "সমস্যা",
+        "দোকানদার"
       ],
       "answer": 3,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "বাজার",
         "tr": "bajar",
         "en": "market"
       },
+      "direction": "en_to_bn",
       "options": [
         "দাদা",
         "বাজার",

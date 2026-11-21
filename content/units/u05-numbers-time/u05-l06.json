@@ -354,47 +354,47 @@
         "tr": "koyta",
         "en": "what time; how many"
       },
-      "direction": "en_to_bn",
+      "direction": "bn_to_en",
       "options": [
-        "খুব",
-        "এখানে",
-        "কয়টা",
-        "কোথা"
+        "very",
+        "here",
+        "what time; how many",
+        "where (before থেকে)"
       ],
       "answer": 2,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "মিনিট",
         "tr": "minit",
         "en": "minute"
       },
-      "direction": "bn_to_en",
       "options": [
-        "dad",
-        "cup",
-        "boy",
-        "minute"
+        "আব্বু",
+        "কাপ",
+        "ছেলে",
+        "মিনিট"
       ],
       "answer": 3,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "listen_select",
-      "audio": {
-        "bn": "লেগেছে",
-        "tr": "legechhe",
-        "en": "has come on (felt)"
+      "type": "select_translation",
+      "prompt": {
+        "bn": "বিশ",
+        "tr": "bish",
+        "en": "twenty"
       },
+      "direction": "en_to_bn",
       "options": [
-        "জানেন",
-        "লেগেছে",
-        "নন",
-        "এসেছেন"
+        "তেরো",
+        "বিশ",
+        "চল্লিশ",
+        "দেড়টা"
       ],
       "answer": 1,
       "recycle": true
@@ -404,9 +404,9 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "খেতে",
-          "tr": "khete",
-          "en": "to eat"
+          "bn": "অবশ্যই",
+          "tr": "oboshshoi",
+          "en": "of course"
         },
         {
           "bn": "লাগে",
@@ -414,14 +414,14 @@
           "en": "feels"
         },
         {
+          "bn": "খেতে",
+          "tr": "khete",
+          "en": "to eat"
+        },
+        {
           "bn": "চান",
           "tr": "chan",
           "en": "(you/he/she, polite) want"
-        },
-        {
-          "bn": "অবশ্যই",
-          "tr": "oboshshoi",
-          "en": "of course"
         }
       ],
       "recycle": true
@@ -431,19 +431,19 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "ঝাল",
-          "tr": "jhal",
-          "en": "spicy"
+          "bn": "ক্ষুধা",
+          "tr": "khudha",
+          "en": "hunger"
         },
         {
-          "bn": "ফল",
-          "tr": "fol",
-          "en": "fruit"
+          "bn": "আমগুলো",
+          "tr": "amgulo",
+          "en": "the mangoes"
         },
         {
-          "bn": "আমটা",
-          "tr": "amta",
-          "en": "the mango"
+          "bn": "লেগেছে",
+          "tr": "legechhe",
+          "en": "has come on (felt)"
         },
         {
           "bn": "চাও",

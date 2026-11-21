@@ -1,0 +1,444 @@
+{
+  "id": "u12-c01",
+  "unit": "u12-have-to",
+  "title": "Checkpoint: Units 10–12",
+  "status": "draft",
+  "tip": "A mixed test of Units 10–12: festivals, plans and \"have to\". No new words.\n\n- Future: আমি **-ব**, তুই **-বি**, তুমি / সে **-বে**, আপনি **-বেন**. Won't: **খাব না**.\n- Have to: **আমাকে** যেতে হবে (the person takes **-কে**). Can and want keep আমি: **আমি** যেতে পারি / চাই.\n- **-তে হবে না** = don't have to, not \"mustn't\".\n- Couldn't: **পারিনি**. Will be able to: **পারব**.",
+  "vocab": [],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "করব",
+          "tr": "korbo",
+          "en": "I will do"
+        },
+        {
+          "bn": "করবি",
+          "tr": "korbi",
+          "en": "you (intimate) will do"
+        },
+        {
+          "bn": "করবে",
+          "tr": "korbe",
+          "en": "you (familiar) / he, she will do"
+        },
+        {
+          "bn": "করবেন",
+          "tr": "korben",
+          "en": "you (polite) will do"
+        }
+      ],
+      "why": "Future endings: আমি **-ব**, তুই **-বি**, তুমি / সে **-বে**, আপনি **-বেন**."
+    },
+    {
+      "id": "e02",
+      "type": "listen_select",
+      "audio": {
+        "bn": "পারিনি",
+        "tr": "parini",
+        "en": "I couldn't"
+      },
+      "options": [
+        "পারি",
+        "পারব",
+        "পারিনি",
+        "পারেনি"
+      ],
+      "answer": 2,
+      "why": "**পারিনি** = I couldn't; **পারেনি** = he/she couldn't; **পারব** = I will be able to."
+    },
+    {
+      "id": "e03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "তোমাকে আসতে হবে না।",
+        "tr": "tomake ashte hobe na.",
+        "en": "You don't have to come."
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "You must not come.",
+        "You have to come.",
+        "You don't have to come.",
+        "You can't come."
+      ],
+      "answer": 2,
+      "why": "**-তে হবে না** means there is no need; it does not forbid anything."
+    },
+    {
+      "id": "e04",
+      "type": "reading",
+      "title": "Plans for Eid",
+      "lines": [
+        {
+          "speaker": "Nadia",
+          "bn": "রাফি, ঈদে তুমি কী করবে?",
+          "tr": "rafi, ide tumi ki korbe?",
+          "en": "Rafi, what will you do at Eid?"
+        },
+        {
+          "speaker": "Rafi",
+          "bn": "আমি গ্রামে যাব, কিন্তু আগে আমাকে বাজারে যেতে হবে।",
+          "tr": "ami grame jabo, kintu age amake bajare jete hobe.",
+          "en": "I'll go to the village, but first I have to go to the market."
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "বাজারে কী কিনবে?",
+          "tr": "bajare ki kinbe?",
+          "en": "What will you buy at the market?"
+        },
+        {
+          "speaker": "Rafi",
+          "bn": "মায়ের জন্য একটা নতুন শাড়ি কিনব।",
+          "tr": "mayer jonno ekta notun shari kinbo.",
+          "en": "I'll buy a new sari for my mother."
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "ঈদের দিন আমাদের বাসায় আসবে?",
+          "tr": "ider din amader bashay ashbe?",
+          "en": "Will you come to our home on Eid day?"
+        },
+        {
+          "speaker": "Rafi",
+          "bn": "দুঃখিত, আমি আসতে পারব না, কারণ আমি গ্রামে থাকব।",
+          "tr": "dukkhito, ami ashte parbo na, karon ami grame thakbo.",
+          "en": "Sorry, I won't be able to come, because I'll be in the village."
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "ঠিক আছে, ঈদ মোবারক!",
+          "tr": "thik achhe, id mubarak!",
+          "en": "OK, Eid Mubarak!"
+        }
+      ],
+      "question": "Why can't Rafi come to Nadia's home on Eid day?",
+      "options": [
+        "He has to go to the market",
+        "He will be in the village",
+        "He has to work"
+      ],
+      "answer": 1,
+      "why": "**কারণ আমি গ্রামে থাকব** = because I'll be in the village. The market comes first, before Eid."
+    },
+    {
+      "id": "e05",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "আমাকে কাল তাড়াতাড়ি উঠতে হবে।",
+        "tr": "amake kal taratari uthte hobe.",
+        "en": "I have to get up early tomorrow."
+      },
+      "options": [
+        "I want to get up early tomorrow.",
+        "I got up early yesterday.",
+        "I have to get up early tomorrow.",
+        "I couldn't get up early."
+      ],
+      "answer": 2,
+      "why": "**আমাকে … -তে হবে** = I have to; with হবে, **কাল** means tomorrow."
+    },
+    {
+      "id": "e06",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আমাকে যেতে হবে।",
+        "tr": "amake jete hobe.",
+        "en": "I have to go."
+      },
+      "blank": "আমাকে",
+      "options": [
+        "আমি",
+        "আমাকে",
+        "আমার"
+      ],
+      "answer": 1,
+      "why": "\"Have to\" puts the person in the **-কে** form: **আমাকে** যেতে হবে."
+    },
+    {
+      "id": "e07",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আমি বাংলা বুঝতে পারি।",
+        "tr": "ami bangla bujhte pari.",
+        "en": "I can understand Bengali."
+      },
+      "blank": "আমি",
+      "options": [
+        "আমাকে",
+        "আমার",
+        "আমি"
+      ],
+      "answer": 2,
+      "why": "পারা has a normal subject: **আমি** … পারি (not আমাকে)."
+    },
+    {
+      "id": "e08",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আপনি কাল কী করবেন?",
+        "tr": "apni kal ki korben?",
+        "en": "What will you do tomorrow? (polite)"
+      },
+      "blank": "করবেন",
+      "options": [
+        "করব",
+        "করবে",
+        "করবেন",
+        "করবি"
+      ],
+      "answer": 2,
+      "why": "আপনি takes **-বেন**: **করবেন**."
+    },
+    {
+      "id": "e09",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "যদি সময় হয়, আমাদের বাসায় আসবেন।",
+        "tr": "jodi shomoy hoy, amader bashay ashben.",
+        "en": "If you have time, please come to our home."
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "When you have time, we will come to your home.",
+        "If you have time, please come to our home.",
+        "You have to come to our home.",
+        "Please come to our home today."
+      ],
+      "answer": 1,
+      "why": "**যদি** = if; the polite future **আসবেন** works as an invitation."
+    },
+    {
+      "id": "e10",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আপনি কি একটু আস্তে বলতে পারবেন?",
+        "tr": "apni ki ektu aste bolte parben?",
+        "en": "Could you speak a little more slowly? (polite)"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "তুমি কি একটু আস্তে বলতে পারবে?",
+        "আমি কি একটু আস্তে বলতে পারি?",
+        "আপনাকে একটু আস্তে বলতে হবে।",
+        "আপনি কি একটু আস্তে বলতে পারবেন?"
+      ],
+      "answer": 3,
+      "why": "A polite request: আপনি কি … **-তে পারবেন**? (আমি কি … পারি? asks permission.)"
+    },
+    {
+      "id": "e11",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমি বাংলা শিখতে চাই।",
+        "tr": "ami bangla shikhte chai.",
+        "en": "I want to learn Bengali."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "চাই",
+        "আমাকে",
+        "বাংলা",
+        "হবে",
+        "শিখতে",
+        "চায়",
+        "আমি"
+      ],
+      "answer": [
+        "আমি",
+        "বাংলা",
+        "শিখতে",
+        "চাই"
+      ],
+      "why": "Want to = **আমি** + **-তে** form + **চাই** (চায় is for সে)."
+    },
+    {
+      "id": "e12",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমি তোমাকে ফোন করব।",
+        "tr": "ami tomake fon korbo.",
+        "en": "I will call you."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "call",
+        "me",
+        "I",
+        "we",
+        "will",
+        "called",
+        "you"
+      ],
+      "answer": [
+        "I",
+        "will",
+        "call",
+        "you"
+      ],
+      "why": "**তোমাকে** = you (as object); **ফোন করব** = I will call."
+    },
+    {
+      "id": "e13",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আমি মাছ কিনতে বাজারে যাব।",
+        "tr": "ami machh kinte bajare jabo.",
+        "en": "I will go to the market to buy fish."
+      },
+      "blank": "কিনতে",
+      "accepted": [
+        "কিনতে",
+        "kinte",
+        "kin te"
+      ],
+      "why": "Purpose (\"to buy\") = the **-তে** form: **কিনতে**."
+    },
+    {
+      "id": "e14",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আমাকে আজ কাজ করতে হবে।",
+        "tr": "amake aj kaj korte hobe.",
+        "en": "I have to work today."
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "আমাকে আজ কাজ করতে হবে",
+        "আজ আমাকে কাজ করতে হবে",
+        "amake aj kaj korte hobe",
+        "aj amake kaj korte hobe",
+        "amake aaj kaj korte hobe",
+        "aaj amake kaj korte hobe"
+      ],
+      "why": "**আমাকে** + **-তে** form + **হবে**: আমাকে কাজ করতে হবে."
+    },
+    {
+      "id": "e15",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আমরা মাংস খাব না।",
+        "tr": "amra mangsho khabo na.",
+        "en": "We won't eat meat."
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "আমরা মাংস খাব না",
+        "amra mangsho khabo na",
+        "amra mangso khabo na"
+      ],
+      "why": "Won't = future + **না**: **খাব না**."
+    },
+    {
+      "id": "r01",
+      "type": "listen_select",
+      "audio": {
+        "bn": "পান্তা ভাত",
+        "tr": "panta bhat",
+        "en": "panta bhat"
+      },
+      "options": [
+        "কখনো না",
+        "এখনো না",
+        "একুশে ফেব্রুয়ারি",
+        "পান্তা ভাত"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "এখনো না",
+        "tr": "ekhono na",
+        "en": "not yet"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "শহীদ মিনারে",
+        "ধন্যবাদ",
+        "এখনো না",
+        "শহীদ মিনার"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "কী হয়েছে",
+        "tr": "ki hoyechhe",
+        "en": "what happened"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "goodbye",
+        "I don't need it",
+        "brushing teeth",
+        "what happened"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "নিচে",
+          "tr": "niche",
+          "en": "downstairs"
+        },
+        {
+          "bn": "হ্যাঁ",
+          "tr": "hya~",
+          "en": "yes"
+        },
+        {
+          "bn": "একশ",
+          "tr": "eksho",
+          "en": "one hundred"
+        },
+        {
+          "bn": "ষাট",
+          "tr": "shat",
+          "en": "sixty"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "করছে",
+          "tr": "korchhe",
+          "en": "is doing"
+        },
+        {
+          "bn": "থামেন",
+          "tr": "thamen",
+          "en": "stop (polite)"
+        },
+        {
+          "bn": "পড়লাম",
+          "tr": "porlam",
+          "en": "I read"
+        },
+        {
+          "bn": "আটটায়",
+          "tr": "attay",
+          "en": "at eight o'clock"
+        }
+      ],
+      "recycle": true
+    }
+  ]
+}

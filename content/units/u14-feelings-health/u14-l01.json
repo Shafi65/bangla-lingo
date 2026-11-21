@@ -1,0 +1,508 @@
+{
+  "id": "u14-l01",
+  "unit": "u14-feelings-health",
+  "title": "How do you feel?",
+  "status": "draft",
+  "tip": "**Feelings happen *to* you.** Bengali says 'to me, it feels good': **আমার ভালো লাগছে** 'I feel good'. The feeler takes the **-র** form (**আমার**, **তোমার**, **আপনার**) and **লাগছে** never changes. Negative: **আমার ভালো লাগছে না** 'I don't feel well'.\n\nFear and anger work the same way: **আমার ভয় লাগছে** 'I'm scared', **আমার রাগ লাগছে** 'I'm angry'. **মন খারাপ** 'sad' needs no verb at all: **আমার মন খারাপ**.\n\nAdjectives can also go with **আমি**: **আমি ক্লান্ত** 'I'm tired', **আমি খুশি** 'I'm happy'. To ask: **তোমার কেমন লাগছে?** 'How are you feeling?'",
+  "vocab": [
+    {
+      "id": "lagchhe",
+      "bn": "লাগছে",
+      "tr": "lagchhe",
+      "en": "feel (right now)",
+      "notes": "Present continuous of লাগা 'feel'. The feeler goes in the -র form and the verb never changes: আমার / তোমার / আপনার ভালো লাগছে. ভালো লাগে (U4) is a habit ('I like it'); লাগছে is how you feel now."
+    },
+    {
+      "id": "klanto",
+      "bn": "ক্লান্ত",
+      "tr": "klanto",
+      "en": "tired",
+      "notes": "Two ways: আমি ক্লান্ত 'I am tired' or আমার ক্লান্ত লাগছে 'I feel tired'."
+    },
+    {
+      "id": "khushi",
+      "bn": "খুশি",
+      "tr": "khushi",
+      "en": "happy",
+      "notes": "আমি খুব খুশি 'I'm very happy'."
+    },
+    {
+      "id": "bhoy",
+      "bn": "ভয়",
+      "tr": "bhoy",
+      "en": "fear",
+      "notes": "আমার ভয় লাগছে 'I'm scared' (to me, fear is felt). ভয় পাওয়া 'be afraid'."
+    },
+    {
+      "id": "rag",
+      "bn": "রাগ",
+      "tr": "rag",
+      "en": "anger",
+      "notes": "আমার রাগ লাগছে 'I'm angry'; also heard: আমার রাগ হচ্ছে. রাগ করা 'get angry (at someone)'."
+    },
+    {
+      "id": "mon-kharap",
+      "bn": "মন খারাপ",
+      "tr": "mon kharap",
+      "en": "sad; upset",
+      "notes": "Literally 'mind bad'. আমার মন খারাপ 'I'm sad'; no verb needed. মন 'mind; heart'."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আমার ভালো লাগছে।",
+        "tr": "amar bhalo lagchhe.",
+        "en": "I feel good.",
+        "alt": [
+          "I'm feeling good.",
+          "I feel fine."
+        ]
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "I feel good.",
+        "I like it.",
+        "I'm not well.",
+        "You feel good."
+      ],
+      "answer": 0,
+      "why": "**লাগছে** is how you feel right now; **ভালো লাগে** (U4) means 'I like it' in general."
+    },
+    {
+      "id": "e02",
+      "type": "listen_select",
+      "audio": {
+        "bn": "লাগছে",
+        "tr": "lagchhe",
+        "en": "feel (right now)"
+      },
+      "options": [
+        "লাগে",
+        "লেগেছে",
+        "লাগছে",
+        "লাগবে"
+      ],
+      "answer": 2,
+      "why": "**লাগছে** (-ছে) is happening now; **লাগে** is in general; **লাগবে** means 'will be needed'."
+    },
+    {
+      "id": "e03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ক্লান্ত",
+        "tr": "klanto",
+        "en": "tired"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "happy",
+        "tired",
+        "angry",
+        "busy"
+      ],
+      "answer": 1,
+      "why": "**ক্লান্ত** 'tired': **আমি ক্লান্ত** or **আমার ক্লান্ত লাগছে**."
+    },
+    {
+      "id": "e04",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আমার ভয় লাগছে।",
+        "tr": "amar bhoy lagchhe.",
+        "en": "I'm scared.",
+        "alt": [
+          "I'm afraid.",
+          "I feel scared."
+        ]
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "I'm angry.",
+        "I'm tired.",
+        "I'm hungry.",
+        "I'm scared."
+      ],
+      "answer": 3,
+      "why": "**ভয়** 'fear' + **লাগছে**: fear is felt *to me* (**আমার**)."
+    },
+    {
+      "id": "e05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "খুশি",
+          "tr": "khushi",
+          "en": "happy"
+        },
+        {
+          "bn": "রাগ",
+          "tr": "rag",
+          "en": "anger"
+        },
+        {
+          "bn": "মন খারাপ",
+          "tr": "mon kharap",
+          "en": "sad; upset"
+        },
+        {
+          "bn": "ক্লান্ত",
+          "tr": "klanto",
+          "en": "tired"
+        },
+        {
+          "bn": "ভয়",
+          "tr": "bhoy",
+          "en": "fear"
+        }
+      ]
+    },
+    {
+      "id": "e06",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "আজ আমার মন খারাপ।",
+        "tr": "aj amar mon kharap.",
+        "en": "I'm sad today.",
+        "alt": [
+          "I'm feeling down today.",
+          "I'm upset today."
+        ]
+      },
+      "options": [
+        "I'm angry today.",
+        "I'm sad today.",
+        "I'm happy today.",
+        "I'm tired today."
+      ],
+      "answer": 1,
+      "why": "**মন খারাপ** 'sad' (literally 'mind bad') needs no verb."
+    },
+    {
+      "id": "e07",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "আমার খুব রাগ লাগছে।",
+        "tr": "amar khub rag lagchhe.",
+        "en": "I'm really angry.",
+        "alt": [
+          "I feel very angry."
+        ]
+      },
+      "options": [
+        "I'm really angry.",
+        "I'm really scared.",
+        "I'm very hungry.",
+        "I feel very good."
+      ],
+      "answer": 0,
+      "why": "**রাগ** 'anger' + **লাগছে**: 'I feel angry'."
+    },
+    {
+      "id": "e08",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আমি খুব খুশি।",
+        "tr": "ami khub khushi.",
+        "en": "I'm very happy.",
+        "alt": [
+          "I am really happy."
+        ]
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "I'm very tired.",
+        "I'm very sad.",
+        "You're very happy.",
+        "I'm very happy."
+      ],
+      "answer": 3,
+      "why": "**খুশি** is an adjective, so it goes with **আমি** and needs no verb."
+    },
+    {
+      "id": "e09",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আমার ভালো লাগছে না।",
+        "tr": "amar bhalo lagchhe na.",
+        "en": "I don't feel well.",
+        "alt": [
+          "I'm not feeling good.",
+          "I don't feel good."
+        ]
+      },
+      "blank": "লাগছে",
+      "options": [
+        "লাগবে",
+        "আছি",
+        "লাগছে",
+        "লেগেছে"
+      ],
+      "answer": 2,
+      "why": "After **আমার** a feeling takes **লাগছে**; **না** comes after the verb."
+    },
+    {
+      "id": "e10",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আমি খুব ক্লান্ত।",
+        "tr": "ami khub klanto.",
+        "en": "I'm very tired.",
+        "alt": [
+          "I am really tired."
+        ]
+      },
+      "blank": "আমি",
+      "options": [
+        "আমার",
+        "আমাকে",
+        "আমি",
+        "আমরা"
+      ],
+      "answer": 2,
+      "why": "An adjective like **ক্লান্ত** goes with **আমি** and no verb. With **লাগছে** you'd say **আমার**."
+    },
+    {
+      "id": "e11",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "তোমার কেমন লাগছে?",
+        "tr": "tomar kemon lagchhe?",
+        "en": "How are you feeling?",
+        "alt": [
+          "How do you feel?"
+        ]
+      },
+      "blank": "কেমন",
+      "accepted": [
+        "কেমন",
+        "kemon",
+        "kmon",
+        "kæmon"
+      ],
+      "why": "**কেমন** 'how' + **লাগছে**: 'How are you feeling?'"
+    },
+    {
+      "id": "e12",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমার ভয় লাগছে।",
+        "tr": "amar bhoy lagchhe.",
+        "en": "I'm scared.",
+        "alt": [
+          "I'm afraid."
+        ]
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "আমি",
+        "লাগছে",
+        "ভয়",
+        "আমার",
+        "লাগে",
+        "রাগ"
+      ],
+      "answer": [
+        "আমার",
+        "ভয়",
+        "লাগছে"
+      ],
+      "why": "Fear is felt *to* you: **আমার** + **ভয়** + **লাগছে**."
+    },
+    {
+      "id": "e13",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমার একটু ক্লান্ত লাগছে।",
+        "tr": "amar ektu klanto lagchhe.",
+        "en": "I feel a bit tired.",
+        "alt": [
+          "I'm feeling a little tired."
+        ]
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "লাগে",
+        "একটু",
+        "ক্লান্ত",
+        "আমি",
+        "আমার",
+        "লাগছে",
+        "খুব"
+      ],
+      "answer": [
+        "আমার",
+        "একটু",
+        "ক্লান্ত",
+        "লাগছে"
+      ],
+      "alt": [
+        [
+          "আমি",
+          "একটু",
+          "ক্লান্ত"
+        ]
+      ],
+      "why": "**আমার … লাগছে** 'I feel …'; **আমি একটু ক্লান্ত** is also right."
+    },
+    {
+      "id": "e14",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আপনার কেমন লাগছে?",
+        "tr": "apnar kemon lagchhe?",
+        "en": "How are you feeling? (polite)",
+        "alt": [
+          "How do you feel?"
+        ]
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "আপনার কেমন লাগছে?",
+        "আপনি কেমন লাগছে?",
+        "আপনার কেমন লাগে?",
+        "তোমার কেমন লাগছে?"
+      ],
+      "answer": 0,
+      "why": "The feeler takes **-র**: **আপনার** … **লাগছে**. **লাগে** would ask 'how do you like it?'"
+    },
+    {
+      "id": "e15",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আজ আমার মন খারাপ।",
+        "tr": "aj amar mon kharap.",
+        "en": "I'm sad today.",
+        "alt": [
+          "I'm feeling down today.",
+          "I'm upset today."
+        ]
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "আজ আমার মন খারাপ",
+        "আমার আজ মন খারাপ",
+        "আমার মন খারাপ আজ",
+        "আজকে আমার মন খারাপ",
+        "আজ মন খারাপ",
+        "aj amar mon kharap",
+        "amar aj mon kharap",
+        "amar mon kharap aj",
+        "aj mon kharap",
+        "aaj amar mon kharap",
+        "aj amar mon kharap lagche",
+        "ajke amar mon kharap"
+      ],
+      "why": "**মন খারাপ** with **আমার**; no verb needed."
+    },
+    {
+      "id": "r01",
+      "type": "listen_select",
+      "audio": {
+        "bn": "মনে হয়",
+        "tr": "mone hoy",
+        "en": "I think"
+      },
+      "options": [
+        "শহীদ মিনার",
+        "মনে হয়",
+        "ইনশাআল্লাহ",
+        "বুঝতে পারছি না"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "দেখা হবে",
+        "tr": "dekha hobe",
+        "en": "(we) will meet"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "নমস্কার",
+        "ওয়ালাইকুম আসসালাম",
+        "দেখা হবে",
+        "গত সপ্তাহে"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "শহীদ মিনার",
+        "tr": "shohid minar",
+        "en": "Shaheed Minar"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "hello (Hindu greeting)",
+        "(we) will meet",
+        "Shaheed Minar",
+        "I don't need it"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "করলেন",
+          "tr": "korlen",
+          "en": "you did (polite)"
+        },
+        {
+          "bn": "দুইশ",
+          "tr": "duisho",
+          "en": "two hundred"
+        },
+        {
+          "bn": "করছি",
+          "tr": "korchhi",
+          "en": "I am doing"
+        },
+        {
+          "bn": "দেন",
+          "tr": "den",
+          "en": "give (polite)"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "দেখি",
+          "tr": "dekhi",
+          "en": "I watch"
+        },
+        {
+          "bn": "উঠলাম",
+          "tr": "uthlam",
+          "en": "I got up"
+        },
+        {
+          "bn": "যান",
+          "tr": "jan",
+          "en": "go (polite)"
+        },
+        {
+          "bn": "মাত্র",
+          "tr": "matro",
+          "en": "just"
+        }
+      ],
+      "recycle": true
+    }
+  ]
+}

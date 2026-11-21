@@ -1,0 +1,907 @@
+{
+  "unit": "u14-feelings-health",
+  "lessons": [
+    {
+      "id": "u14-l01",
+      "kind": "lesson",
+      "title": "How do you feel?",
+      "goal": "Say how you feel right now, with আমার … লাগছে and with আমি + adjective.",
+      "grammar": [
+        "experiencer: আমার / তোমার / আপনার + feeling + লাগছে (the verb never changes)",
+        "আমি ক্লান্ত / খুশি (adjective, no verb) vs আমার ভয় লাগছে (noun + লাগছে); মন খারাপ needs no verb"
+      ],
+      "new": [
+        "lagchhe",
+        "klanto",
+        "khushi",
+        "bhoy",
+        "rag",
+        "mon-kharap"
+      ],
+      "review": [
+        "amar",
+        "tomar",
+        "apnar",
+        "bhalo",
+        "kharap",
+        "kemon",
+        "khub",
+        "ektu",
+        "aj",
+        "ekhon",
+        "lage"
+      ],
+      "tip": "**Feelings happen *to* you.** Bengali says 'to me, it feels good': **আমার ভালো লাগছে** 'I feel good'. The feeler takes the **-র** form (**আমার**, **তোমার**, **আপনার**) and **লাগছে** never changes. Negative: **আমার ভালো লাগছে না** 'I don't feel well'.\n\nFear and anger work the same way: **আমার ভয় লাগছে** 'I'm scared', **আমার রাগ লাগছে** 'I'm angry'. **মন খারাপ** 'sad' needs no verb at all: **আমার মন খারাপ**.\n\nAdjectives can also go with **আমি**: **আমি ক্লান্ত** 'I'm tired', **আমি খুশি** 'I'm happy'. To ask: **তোমার কেমন লাগছে?** 'How are you feeling?'",
+      "sentences": [
+        {
+          "bn": "আমার ভালো লাগছে।",
+          "tr": "amar bhalo lagchhe.",
+          "en": "I feel good.",
+          "alt": [
+            "I'm feeling good.",
+            "I feel fine."
+          ]
+        },
+        {
+          "bn": "আমার ভালো লাগছে না।",
+          "tr": "amar bhalo lagchhe na.",
+          "en": "I don't feel well.",
+          "alt": [
+            "I'm not feeling good.",
+            "I don't feel good."
+          ]
+        },
+        {
+          "bn": "তোমার কেমন লাগছে?",
+          "tr": "tomar kemon lagchhe?",
+          "en": "How are you feeling?",
+          "alt": [
+            "How do you feel?"
+          ]
+        },
+        {
+          "bn": "আপনার এখন কেমন লাগছে?",
+          "tr": "apnar ekhon kemon lagchhe?",
+          "en": "How are you feeling now?",
+          "alt": [
+            "How do you feel now?"
+          ]
+        },
+        {
+          "bn": "আমি খুব ক্লান্ত।",
+          "tr": "ami khub klanto.",
+          "en": "I'm very tired.",
+          "alt": [
+            "I am really tired."
+          ]
+        },
+        {
+          "bn": "আমার একটু ক্লান্ত লাগছে।",
+          "tr": "amar ektu klanto lagchhe.",
+          "en": "I feel a bit tired.",
+          "alt": [
+            "I'm feeling a little tired."
+          ]
+        },
+        {
+          "bn": "আমার ভয় লাগছে।",
+          "tr": "amar bhoy lagchhe.",
+          "en": "I'm scared.",
+          "alt": [
+            "I'm afraid.",
+            "I feel scared."
+          ]
+        },
+        {
+          "bn": "আমার খুব রাগ লাগছে।",
+          "tr": "amar khub rag lagchhe.",
+          "en": "I'm really angry.",
+          "alt": [
+            "I feel very angry."
+          ]
+        },
+        {
+          "bn": "আজ আমার মন খারাপ।",
+          "tr": "aj amar mon kharap.",
+          "en": "I'm sad today.",
+          "alt": [
+            "I'm feeling down today.",
+            "I'm upset today."
+          ]
+        },
+        {
+          "bn": "আমি খুব খুশি।",
+          "tr": "ami khub khushi.",
+          "en": "I'm very happy.",
+          "alt": [
+            "I am really happy."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u14-l02",
+      "kind": "lesson",
+      "title": "What's wrong? (with friends)",
+      "goal": "Ask a close friend or sibling how they are and what's wrong, with তুই verbs and commands.",
+      "grammar": [
+        "তুই verbs end in -িস: আছিস, করছিস, কাঁদছিস; object তোকে",
+        "তুই command = bare stem: বসো → বস, শোনো → শোন, বলো → বল; 'don't' = present + না (চিন্তা করিস না)"
+      ],
+      "new": [
+        "thik",
+        "korchhish",
+        "kadchhish",
+        "toke",
+        "bosh",
+        "shon",
+        "bol"
+      ],
+      "review": [
+        "tui",
+        "tor",
+        "achhish",
+        "korish",
+        "ki-hoyechhe",
+        "keno",
+        "ekhane",
+        "chinta",
+        "shahajjo",
+        "korbo",
+        "de"
+      ],
+      "tip": "**তুই** is for your closest friends and brothers and sisters (U2). Its verbs end in **-িস**: **তুই ঠিক আছিস?** 'Are you OK?', **কী করছিস?** 'What are you doing?', **কাঁদছিস কেন?** 'Why are you crying?' The object form is **তোকে** 'you'.\n\n**A তুই command is the bare stem.** Take the তুমি command and drop the final **-ো**: **বসো → বস** 'sit', **শোনো → শোন** 'listen', **বলো → বল** 'tell'. You know one already: **দে** 'give!'.\n\n**'Don't' with তুই** is the present + **না**: **চিন্তা করিস না** 'don't worry'.\n\nThe caring question: **কী হয়েছে তোর?** 'What's wrong?'",
+      "sentences": [
+        {
+          "bn": "কী হয়েছে তোর?",
+          "tr": "ki hoyechhe tor?",
+          "en": "What's wrong with you?",
+          "alt": [
+            "What happened to you?",
+            "What's the matter?"
+          ]
+        },
+        {
+          "bn": "তুই ঠিক আছিস?",
+          "tr": "tui thik achhish?",
+          "en": "Are you OK?",
+          "alt": [
+            "Are you all right?"
+          ]
+        },
+        {
+          "bn": "হ্যাঁ, আমি ঠিক আছি।",
+          "tr": "hya~, ami thik achhi.",
+          "en": "Yes, I'm fine.",
+          "alt": [
+            "Yes, I'm OK.",
+            "Yes, I'm all right."
+          ]
+        },
+        {
+          "bn": "কাঁদছিস কেন?",
+          "tr": "ka~dchhish keno?",
+          "en": "Why are you crying?"
+        },
+        {
+          "bn": "এখানে বস।",
+          "tr": "ekhane bosh.",
+          "en": "Sit here.",
+          "alt": [
+            "Sit down here."
+          ]
+        },
+        {
+          "bn": "শোন, চিন্তা করিস না।",
+          "tr": "shon, chinta korish na.",
+          "en": "Listen, don't worry.",
+          "alt": [
+            "Hey, don't worry."
+          ]
+        },
+        {
+          "bn": "বল, কী হয়েছে?",
+          "tr": "bol, ki hoyechhe?",
+          "en": "Tell me, what happened?",
+          "alt": [
+            "Tell me, what's wrong?"
+          ]
+        },
+        {
+          "bn": "তুই কী করছিস?",
+          "tr": "tui ki korchhish?",
+          "en": "What are you doing?",
+          "alt": [
+            "What are you up to?"
+          ]
+        },
+        {
+          "bn": "আমি তোকে সাহায্য করব।",
+          "tr": "ami toke shahajjo korbo.",
+          "en": "I'll help you.",
+          "alt": [
+            "I will help you."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u14-l03",
+      "kind": "lesson",
+      "title": "My head hurts",
+      "goal": "Name parts of the body and say what hurts.",
+      "grammar": [
+        "'my X hurts' = আমার X ব্যথা করছে (lit. 'my X is doing pain'); short: আমার মাথা ব্যথা",
+        "শরীর 'body; health': আমার শরীর ভালো নেই / শরীর খারাপ"
+      ],
+      "new": [
+        "matha",
+        "byatha",
+        "pet",
+        "gola",
+        "pa",
+        "kan",
+        "shorir"
+      ],
+      "review": [
+        "hat",
+        "chokh",
+        "dat",
+        "korchhe",
+        "kothay",
+        "or",
+        "nei",
+        "kharap",
+        "apnar",
+        "tomar"
+      ],
+      "tip": "**'My X hurts' = আমার X ব্যথা করছে**, literally 'my X is doing pain': **আমার মাথা ব্যথা করছে** 'my head hurts; I have a headache'. Shorter and just as common: **আমার মাথা ব্যথা**.\n\nBody words: **মাথা** head, **গলা** throat, **পেট** stomach, **পা** foot or leg (one word for both), **কান** ear. You know **হাত** hand, **চোখ** eye and **দাঁত** teeth.\n\nThe question: **কোথায় ব্যথা?** 'Where does it hurt?'\n\n**শরীর** is 'body' and also 'health': **আমার শরীর ভালো নেই** or **আমার শরীর খারাপ** 'I'm not well'.",
+      "sentences": [
+        {
+          "bn": "আমার মাথা ব্যথা করছে।",
+          "tr": "amar matha byatha korchhe.",
+          "en": "My head hurts.",
+          "alt": [
+            "I have a headache."
+          ]
+        },
+        {
+          "bn": "আমার পেট ব্যথা করছে।",
+          "tr": "amar pet byatha korchhe.",
+          "en": "My stomach hurts.",
+          "alt": [
+            "I have a stomachache."
+          ]
+        },
+        {
+          "bn": "তোমার কোথায় ব্যথা?",
+          "tr": "tomar kothay byatha?",
+          "en": "Where does it hurt?",
+          "alt": [
+            "Where is the pain?"
+          ]
+        },
+        {
+          "bn": "আমার গলা ব্যথা করছে।",
+          "tr": "amar gola byatha korchhe.",
+          "en": "My throat hurts.",
+          "alt": [
+            "I have a sore throat."
+          ]
+        },
+        {
+          "bn": "ওর পা ব্যথা করছে।",
+          "tr": "or pa byatha korchhe.",
+          "en": "His leg hurts.",
+          "alt": [
+            "Her leg hurts.",
+            "His foot hurts.",
+            "Her foot hurts."
+          ]
+        },
+        {
+          "bn": "আমার কান ব্যথা করছে।",
+          "tr": "amar kan byatha korchhe.",
+          "en": "My ear hurts.",
+          "alt": [
+            "I have an earache."
+          ]
+        },
+        {
+          "bn": "আমার চোখ ব্যথা করছে।",
+          "tr": "amar chokh byatha korchhe.",
+          "en": "My eyes hurt.",
+          "alt": [
+            "My eye hurts."
+          ]
+        },
+        {
+          "bn": "আপনার কি দাঁত ব্যথা করছে?",
+          "tr": "apnar ki da~t byatha korchhe?",
+          "en": "Does your tooth hurt?",
+          "alt": [
+            "Do you have a toothache?"
+          ]
+        },
+        {
+          "bn": "আমার শরীর ভালো নেই।",
+          "tr": "amar shorir bhalo nei.",
+          "en": "I'm not feeling well.",
+          "alt": [
+            "I'm not well."
+          ]
+        },
+        {
+          "bn": "আজ আমার শরীর খারাপ।",
+          "tr": "aj amar shorir kharap.",
+          "en": "I'm unwell today.",
+          "alt": [
+            "I'm not well today."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u14-l04",
+      "kind": "lesson",
+      "title": "Fever and a cold",
+      "goal": "Say you have a fever, a cold or a cough and for how long; look after a sick brother or sister with তুই.",
+      "grammar": [
+        "illness 'happens': আমার জ্বর / কাশি হয়েছে; a cold 'strikes': ঠান্ডা লেগেছে",
+        "duration: দুই দিন ধরে 'for two days'; তুই: পারবি, irregular আয় 'come!'"
+      ],
+      "new": [
+        "jor",
+        "thanda",
+        "kashi",
+        "oshustho",
+        "hoyechhe",
+        "dhore",
+        "parbi",
+        "ay"
+      ],
+      "review": [
+        "legechhe",
+        "dui",
+        "din-day",
+        "tin",
+        "bon",
+        "chhoto",
+        "skule",
+        "jete",
+        "edike",
+        "bosh",
+        "tui",
+        "ki-q",
+        "aj"
+      ],
+      "tip": "Illnesses **happen** to you: **আমার জ্বর হয়েছে** 'I've got a fever', **আমার কাশি হয়েছে** 'I've got a cough'. A cold **strikes**: **ঠান্ডা লেগেছে** 'I've caught a cold', like **ক্ষুধা লেগেছে** in U4.\n\nFor how long? **দুই দিন ধরে** 'for two days': **দুই দিন ধরে আমার জ্বর**.\n\nTwo more তুই forms. **পারবি** 'will you be able to': **তুই কি আজ স্কুলে যেতে পারবি?** And the irregular **আয়** 'come!': তুমি **এসো**, আপনি **আসুন**, তুই **আয়**. **এদিকে আয়** 'come here'.",
+      "sentences": [
+        {
+          "bn": "আমার জ্বর হয়েছে।",
+          "tr": "amar jor hoyechhe.",
+          "en": "I have a fever.",
+          "alt": [
+            "I've got a fever.",
+            "I have a temperature."
+          ]
+        },
+        {
+          "bn": "আমার ঠান্ডা লেগেছে।",
+          "tr": "amar thanda legechhe.",
+          "en": "I've caught a cold.",
+          "alt": [
+            "I have a cold."
+          ]
+        },
+        {
+          "bn": "আমার কাশি হয়েছে।",
+          "tr": "amar kashi hoyechhe.",
+          "en": "I have a cough.",
+          "alt": [
+            "I've got a cough."
+          ]
+        },
+        {
+          "bn": "দুই দিন ধরে আমার জ্বর।",
+          "tr": "dui din dhore amar jor.",
+          "en": "I've had a fever for two days.",
+          "alt": [
+            "I have had a fever for two days."
+          ]
+        },
+        {
+          "bn": "আমার ছোট বোন অসুস্থ।",
+          "tr": "amar chhoto bon oshustho.",
+          "en": "My little sister is sick.",
+          "alt": [
+            "My younger sister is ill."
+          ]
+        },
+        {
+          "bn": "তুই কি অসুস্থ?",
+          "tr": "tui ki oshustho?",
+          "en": "Are you sick?",
+          "alt": [
+            "Are you ill?"
+          ]
+        },
+        {
+          "bn": "তুই কি আজ স্কুলে যেতে পারবি?",
+          "tr": "tui ki aj skule jete parbi?",
+          "en": "Can you go to school today?",
+          "alt": [
+            "Will you be able to go to school today?"
+          ]
+        },
+        {
+          "bn": "এদিকে আয়।",
+          "tr": "edike ay.",
+          "en": "Come here.",
+          "alt": [
+            "Come over here."
+          ]
+        },
+        {
+          "bn": "আয়, এখানে বস।",
+          "tr": "ay, ekhane bosh.",
+          "en": "Come, sit here.",
+          "alt": [
+            "Come and sit here."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u14-l05",
+      "kind": "lesson",
+      "title": "At the doctor",
+      "goal": "Tell a doctor what's wrong and understand how to take medicine.",
+      "grammar": [
+        "doctor's instructions as polite commands: ওষুধ খান, বিশ্রাম নিন, পানি খান (medicine and water are 'eaten')",
+        "how often and when: দিনে তিন বার; খাওয়ার আগে / পরে; তুই command খাও → খা"
+      ],
+      "new": [
+        "dine",
+        "bar-times",
+        "bishram",
+        "khawar",
+        "shustho",
+        "kha"
+      ],
+      "review": [
+        "daktar",
+        "oshudh",
+        "shomossha",
+        "khan",
+        "nin",
+        "jor",
+        "kashi",
+        "ei",
+        "dui",
+        "tin",
+        "age",
+        "pore-later",
+        "pani",
+        "onek",
+        "ekhon"
+      ],
+      "tip": "The doctor asks **আপনার কী সমস্যা?** 'What's the problem?' and answers with polite commands: **ওষুধ খান** 'take the medicine', **বিশ্রাম নিন** 'get some rest'. In Bengali you **eat** medicine (**ওষুধ খাওয়া**), just as you 'eat' water: **অনেক পানি খান** 'drink lots of water'.\n\nHow often: **দিনে তিন বার** 'three times a day'; here **বার** means 'times'. When: **খাওয়ার পরে** 'after meals', **খাওয়ার আগে** 'before meals'.\n\nAt home, a sister says it with তুই: **ওষুধ খা** (**খাও → খা**). Better again? **আমি এখন সুস্থ** 'I'm well now'.",
+      "sentences": [
+        {
+          "bn": "আপনার কী সমস্যা?",
+          "tr": "apnar ki shomossha?",
+          "en": "What's the problem?",
+          "alt": [
+            "What's wrong?",
+            "What seems to be the problem?"
+          ]
+        },
+        {
+          "bn": "ডাক্তার, আমার জ্বর আর কাশি।",
+          "tr": "daktar, amar jor ar kashi.",
+          "en": "Doctor, I have a fever and a cough."
+        },
+        {
+          "bn": "এই ওষুধ দিনে তিন বার খান।",
+          "tr": "ei oshudh dine tin bar khan.",
+          "en": "Take this medicine three times a day."
+        },
+        {
+          "bn": "খাওয়ার পরে খান।",
+          "tr": "khawar pore khan.",
+          "en": "Take it after meals.",
+          "alt": [
+            "Take it after eating."
+          ]
+        },
+        {
+          "bn": "বিশ্রাম নিন।",
+          "tr": "bishram nin.",
+          "en": "Get some rest.",
+          "alt": [
+            "Rest, please.",
+            "Take some rest."
+          ]
+        },
+        {
+          "bn": "অনেক পানি খান।",
+          "tr": "onek pani khan.",
+          "en": "Drink lots of water.",
+          "alt": [
+            "Drink plenty of water."
+          ]
+        },
+        {
+          "bn": "এই ওষুধ খা।",
+          "tr": "ei oshudh kha.",
+          "en": "Take this medicine.",
+          "alt": [
+            "Have this medicine."
+          ]
+        },
+        {
+          "bn": "খাওয়ার আগে ওষুধ খা।",
+          "tr": "khawar age oshudh kha.",
+          "en": "Take the medicine before eating.",
+          "alt": [
+            "Take your medicine before meals."
+          ]
+        },
+        {
+          "bn": "আমি এখন সুস্থ।",
+          "tr": "ami ekhon shustho.",
+          "en": "I'm well now.",
+          "alt": [
+            "I'm better now.",
+            "I'm healthy now."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u14-l06",
+      "kind": "lesson",
+      "title": "At the pharmacy",
+      "goal": "Find a pharmacy, ask for medicine and understand a warning; send a sibling with তুই.",
+      "grammar": [
+        "-এর 'of': জ্বরের ওষুধ, ওষুধের দোকান; খালি পেটে 'on an empty stomach'",
+        "polite warning = future + না (খাবেন না); তুই command নাও → নে; favour with পারবি"
+      ],
+      "new": [
+        "farmeshi",
+        "oshudher",
+        "jorer",
+        "khali",
+        "pete",
+        "ne"
+      ],
+      "review": [
+        "oshudh",
+        "dokan",
+        "kachhe",
+        "kono",
+        "achhe",
+        "koto",
+        "kothay",
+        "khaben",
+        "jonno",
+        "kinte",
+        "parbi",
+        "dine",
+        "dui",
+        "bar-times",
+        "khawar",
+        "tor"
+      ],
+      "tip": "**ফার্মেসি** is the usual word in Bangladesh; **ওষুধের দোকান** 'medicine shop' works everywhere. **-এর** means 'of': **জ্বরের ওষুধ** 'medicine for a fever'.\n\nAsk: **জ্বরের ওষুধ আছে?** 'Do you have anything for a fever?' and **এই ওষুধ কত?** The pharmacist may warn you: **খালি পেটে খাবেন না** 'Don't take it on an empty stomach' (polite 'don't' = future + **না**, U13).\n\nWith তুই, **নাও → নে**: **এই নে** 'here, take it'. And a favour from your brother: **তুই কি আমার জন্য ওষুধ কিনতে পারবি?**",
+      "sentences": [
+        {
+          "bn": "কাছে কি কোনো ফার্মেসি আছে?",
+          "tr": "kachhe ki kono farmeshi achhe?",
+          "en": "Is there a pharmacy nearby?",
+          "alt": [
+            "Is there a pharmacy near here?"
+          ]
+        },
+        {
+          "bn": "ওষুধের দোকান কোথায়?",
+          "tr": "oshudher dokan kothay?",
+          "en": "Where is the medicine shop?",
+          "alt": [
+            "Where's the pharmacy?"
+          ]
+        },
+        {
+          "bn": "জ্বরের ওষুধ আছে?",
+          "tr": "jorer oshudh achhe?",
+          "en": "Do you have medicine for a fever?",
+          "alt": [
+            "Do you have anything for a fever?"
+          ]
+        },
+        {
+          "bn": "এই ওষুধ কত?",
+          "tr": "ei oshudh koto?",
+          "en": "How much is this medicine?"
+        },
+        {
+          "bn": "এটা খালি পেটে খাবেন না।",
+          "tr": "eta khali pete khaben na.",
+          "en": "Don't take this on an empty stomach.",
+          "alt": [
+            "Please don't take this on an empty stomach."
+          ]
+        },
+        {
+          "bn": "দিনে দুই বার, খাওয়ার পরে।",
+          "tr": "dine dui bar, khawar pore.",
+          "en": "Twice a day, after meals.",
+          "alt": [
+            "Two times a day, after meals."
+          ]
+        },
+        {
+          "bn": "এই নে, তোর ওষুধ।",
+          "tr": "ei ne, tor oshudh.",
+          "en": "Here, take your medicine.",
+          "alt": [
+            "Here's your medicine."
+          ]
+        },
+        {
+          "bn": "তুই কি আমার জন্য ওষুধ কিনতে পারবি?",
+          "tr": "tui ki amar jonno oshudh kinte parbi?",
+          "en": "Can you buy medicine for me?",
+          "alt": [
+            "Could you buy some medicine for me?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u14-l07",
+      "kind": "lesson",
+      "title": "Help! Emergencies",
+      "goal": "Call for help, ask for an ambulance or the police, and say what happened.",
+      "grammar": [
+        "shouts: বাঁচাও! আগুন! · polite: সাহায্য করুন! X ডাকুন! (everyday ডাকেন)",
+        "what happened: একটা দুর্ঘটনা হয়েছে, আমি পড়ে গেছি; হাসপাতালে নিতে হবে; তুই: তাড়াতাড়ি আয়!"
+      ],
+      "new": [
+        "bachao",
+        "ambulens",
+        "pulish",
+        "dakun",
+        "joruri",
+        "agun",
+        "durghotona",
+        "pore-gechhi",
+        "hashpatale"
+      ],
+      "review": [
+        "shahajjo",
+        "korun",
+        "daktar",
+        "ekhane",
+        "ekta",
+        "hoyechhe",
+        "oke",
+        "nite",
+        "hobe-must",
+        "taratari",
+        "ay",
+        "eta",
+        "ami"
+      ],
+      "tip": "In danger, shout **বাঁচাও!** 'Help!' To ask a passer-by for help: **সাহায্য করুন!** 'Please help!'\n\n**ডাকুন** 'please call (someone to come)': **অ্যাম্বুলেন্স ডাকুন!**, **পুলিশ ডাকুন!**, **ডাক্তার ডাকুন!** Everyday speech also says **ডাকেন**. Fire is **আগুন!**\n\nSay what happened: **একটা দুর্ঘটনা হয়েছে** 'there's been an accident', **আমি পড়ে গেছি** 'I fell'. **এটা জরুরি** 'it's urgent'.\n\n**হাসপাতালে** 'to the hospital': **ওকে হাসপাতালে নিতে হবে** 'we have to take him to hospital'. To your sister: **তাড়াতাড়ি আয়!** 'Come quickly!'",
+      "sentences": [
+        {
+          "bn": "বাঁচাও!",
+          "tr": "ba~chao!",
+          "en": "Help!",
+          "alt": [
+            "Save me!"
+          ]
+        },
+        {
+          "bn": "সাহায্য করুন!",
+          "tr": "shahajjo korun!",
+          "en": "Please help!",
+          "alt": [
+            "Help, please!",
+            "Help me, please!"
+          ]
+        },
+        {
+          "bn": "অ্যাম্বুলেন্স ডাকুন!",
+          "tr": "ambulens dakun!",
+          "en": "Call an ambulance!",
+          "alt": [
+            "Please call an ambulance!"
+          ]
+        },
+        {
+          "bn": "পুলিশ ডাকুন!",
+          "tr": "pulish dakun!",
+          "en": "Call the police!",
+          "alt": [
+            "Please call the police!"
+          ]
+        },
+        {
+          "bn": "আগুন! আগুন!",
+          "tr": "agun! agun!",
+          "en": "Fire! Fire!"
+        },
+        {
+          "bn": "এখানে একটা দুর্ঘটনা হয়েছে।",
+          "tr": "ekhane ekta durghotona hoyechhe.",
+          "en": "There's been an accident here.",
+          "alt": [
+            "There has been an accident here."
+          ]
+        },
+        {
+          "bn": "আমি পড়ে গেছি।",
+          "tr": "ami pore gechhi.",
+          "en": "I fell down.",
+          "alt": [
+            "I fell.",
+            "I've fallen."
+          ]
+        },
+        {
+          "bn": "এটা জরুরি।",
+          "tr": "eta joruri.",
+          "en": "It's urgent.",
+          "alt": [
+            "This is urgent.",
+            "It's an emergency."
+          ]
+        },
+        {
+          "bn": "ওকে হাসপাতালে নিতে হবে।",
+          "tr": "oke hashpatale nite hobe.",
+          "en": "We have to take him to the hospital.",
+          "alt": [
+            "We have to take her to the hospital.",
+            "He has to go to hospital.",
+            "She has to go to hospital."
+          ]
+        },
+        {
+          "bn": "তাড়াতাড়ি আয়!",
+          "tr": "taratari ay!",
+          "en": "Come quickly!",
+          "alt": [
+            "Come fast!"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u14-l08",
+      "kind": "review",
+      "title": "Review: Feelings & health",
+      "goal": "Bring together feelings, aches and illness, the doctor and pharmacy, emergencies, and তুই with friends and siblings.",
+      "grammar": [
+        "feelings: আমার … লাগছে; আমার X ব্যথা করছে; আমার জ্বর হয়েছে",
+        "তুই: আছিস, করছিস, পারবি; commands বস, শোন, বল, আয়, খা, নে"
+      ],
+      "new": [],
+      "review": [
+        "lagchhe",
+        "klanto",
+        "khushi",
+        "bhoy",
+        "rag",
+        "mon-kharap",
+        "thik",
+        "korchhish",
+        "kadchhish",
+        "toke",
+        "bosh",
+        "shon",
+        "bol",
+        "matha",
+        "byatha",
+        "pet",
+        "gola",
+        "pa",
+        "kan",
+        "shorir",
+        "jor",
+        "thanda",
+        "kashi",
+        "oshustho",
+        "hoyechhe",
+        "dhore",
+        "parbi",
+        "ay",
+        "dine",
+        "bar-times",
+        "bishram",
+        "khawar",
+        "shustho",
+        "kha",
+        "farmeshi",
+        "oshudher",
+        "jorer",
+        "khali",
+        "pete",
+        "ne",
+        "bachao",
+        "ambulens",
+        "pulish",
+        "dakun",
+        "joruri",
+        "agun",
+        "durghotona",
+        "pore-gechhi",
+        "hashpatale"
+      ],
+      "tip": "**How you feel:** **আমার ভালো লাগছে / ভয় লাগছে / রাগ লাগছে**; **আমি ক্লান্ত**, **আমি খুশি**; **আমার মন খারাপ**.\n\n**Aches and illness:** **আমার মাথা ব্যথা করছে** · **আমার জ্বর হয়েছে** · **ঠান্ডা লেগেছে** · **দুই দিন ধরে**.\n\n**Doctor and pharmacy:** **দিনে তিন বার, খাওয়ার পরে** · **বিশ্রাম নিন** · **জ্বরের ওষুধ আছে?** · **খালি পেটে খাবেন না**.\n\n**Emergencies:** **বাঁচাও!** · **সাহায্য করুন!** · **অ্যাম্বুলেন্স ডাকুন!**\n\n**তুই:** **তুই ঠিক আছিস?** · **কী করছিস?** · **পারবি?** · commands are the bare stem: **বস**, **শোন**, **বল**, **খা**, **নে**, and irregular **আয়**.",
+      "sentences": [
+        {
+          "bn": "কী হয়েছে তোর? তুই ঠিক আছিস?",
+          "tr": "ki hoyechhe tor? tui thik achhish?",
+          "en": "What's wrong? Are you OK?",
+          "alt": [
+            "What happened to you? Are you all right?"
+          ]
+        },
+        {
+          "bn": "আমার শরীর ভালো নেই, মাথা ব্যথা করছে।",
+          "tr": "amar shorir bhalo nei, matha byatha korchhe.",
+          "en": "I'm not well, my head hurts.",
+          "alt": [
+            "I don't feel well, I have a headache."
+          ]
+        },
+        {
+          "bn": "দুই দিন ধরে আমার জ্বর আর গলা ব্যথা।",
+          "tr": "dui din dhore amar jor ar gola byatha.",
+          "en": "I've had a fever and a sore throat for two days."
+        },
+        {
+          "bn": "এই ওষুধ দিনে তিন বার খান, খাওয়ার পরে।",
+          "tr": "ei oshudh dine tin bar khan, khawar pore.",
+          "en": "Take this medicine three times a day, after meals."
+        },
+        {
+          "bn": "শোন, বিশ্রাম নে, চিন্তা করিস না।",
+          "tr": "shon, bishram ne, chinta korish na.",
+          "en": "Listen, get some rest, don't worry.",
+          "alt": [
+            "Listen, rest, and don't worry."
+          ]
+        },
+        {
+          "bn": "আমার ভয় লাগছে।",
+          "tr": "amar bhoy lagchhe.",
+          "en": "I'm scared.",
+          "alt": [
+            "I'm afraid."
+          ]
+        },
+        {
+          "bn": "অ্যাম্বুলেন্স ডাকুন, এটা জরুরি!",
+          "tr": "ambulens dakun, eta joruri!",
+          "en": "Call an ambulance, it's urgent!",
+          "alt": [
+            "Please call an ambulance, it's an emergency!"
+          ]
+        },
+        {
+          "bn": "জ্বরের ওষুধ আছে?",
+          "tr": "jorer oshudh achhe?",
+          "en": "Do you have medicine for a fever?",
+          "alt": [
+            "Do you have anything for a fever?"
+          ]
+        }
+      ]
+    }
+  ]
+}

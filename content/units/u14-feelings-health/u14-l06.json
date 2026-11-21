@@ -1,0 +1,499 @@
+{
+  "id": "u14-l06",
+  "unit": "u14-feelings-health",
+  "title": "At the pharmacy",
+  "status": "draft",
+  "tip": "**ফার্মেসি** is the usual word in Bangladesh; **ওষুধের দোকান** 'medicine shop' works everywhere. **-এর** means 'of': **জ্বরের ওষুধ** 'medicine for a fever'.\n\nAsk: **জ্বরের ওষুধ আছে?** 'Do you have anything for a fever?' and **এই ওষুধ কত?** The pharmacist may warn you: **খালি পেটে খাবেন না** 'Don't take it on an empty stomach' (polite 'don't' = future + **না**, U13).\n\nWith তুই, **নাও → নে**: **এই নে** 'here, take it'. And a favour from your brother: **তুই কি আমার জন্য ওষুধ কিনতে পারবি?**",
+  "vocab": [
+    {
+      "id": "farmeshi",
+      "bn": "ফার্মেসি",
+      "tr": "farmeshi",
+      "en": "pharmacy",
+      "notes": "Common in Bangladesh. Also ওষুধের দোকান 'medicine shop', usual in Kolkata."
+    },
+    {
+      "id": "oshudher",
+      "bn": "ওষুধের",
+      "tr": "oshudher",
+      "en": "medicine's; of medicine",
+      "notes": "ওষুধ + -এর: ওষুধের দোকান 'medicine shop'."
+    },
+    {
+      "id": "jorer",
+      "bn": "জ্বরের",
+      "tr": "jorer",
+      "en": "fever's; for fever",
+      "notes": "জ্বর + -এর: জ্বরের ওষুধ 'medicine for a fever'."
+    },
+    {
+      "id": "khali",
+      "bn": "খালি",
+      "tr": "khali",
+      "en": "empty; free",
+      "notes": "খালি পেটে 'on an empty stomach'. Also 'only': খালি পানি 'just water'."
+    },
+    {
+      "id": "pete",
+      "bn": "পেটে",
+      "tr": "pete",
+      "en": "in the stomach",
+      "notes": "পেট + -এ: খালি পেটে 'on an empty stomach'."
+    },
+    {
+      "id": "ne",
+      "bn": "নে",
+      "tr": "ne",
+      "en": "take (intimate)",
+      "notes": "তুই command: নাও → নে. এই নে 'here, take it'."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "কাছে কি কোনো ফার্মেসি আছে?",
+        "tr": "kachhe ki kono farmeshi achhe?",
+        "en": "Is there a pharmacy nearby?",
+        "alt": [
+          "Is there a pharmacy near here?"
+        ]
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "Is there a pharmacy nearby?",
+        "Is the pharmacy far?",
+        "Is there a hospital nearby?",
+        "Where is the pharmacy?"
+      ],
+      "answer": 0,
+      "why": "**কাছে কি কোনো … আছে?** 'Is there a … nearby?'"
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "জ্বরের ওষুধ আছে?",
+        "tr": "jorer oshudh achhe?",
+        "en": "Do you have medicine for a fever?",
+        "alt": [
+          "Do you have anything for a fever?"
+        ]
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "Do you have a fever?",
+        "Is the medicine for a cough?",
+        "Do you have medicine for a fever?",
+        "Have you taken medicine?"
+      ],
+      "answer": 2,
+      "why": "**জ্বর + -এর = জ্বরের** 'of fever': medicine for a fever."
+    },
+    {
+      "id": "e03",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "ফার্মেসি",
+          "tr": "farmeshi",
+          "en": "pharmacy"
+        },
+        {
+          "bn": "ওষুধের",
+          "tr": "oshudher",
+          "en": "medicine's; of medicine"
+        },
+        {
+          "bn": "খালি",
+          "tr": "khali",
+          "en": "empty; free"
+        },
+        {
+          "bn": "পেটে",
+          "tr": "pete",
+          "en": "in the stomach"
+        },
+        {
+          "bn": "নে",
+          "tr": "ne",
+          "en": "take (intimate)"
+        }
+      ]
+    },
+    {
+      "id": "e04",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "এটা খালি পেটে খাবেন না।",
+        "tr": "eta khali pete khaben na.",
+        "en": "Don't take this on an empty stomach.",
+        "alt": [
+          "Please don't take this on an empty stomach."
+        ]
+      },
+      "options": [
+        "Take this on an empty stomach.",
+        "Don't take this on an empty stomach.",
+        "Don't take this after meals.",
+        "This isn't for the stomach."
+      ],
+      "answer": 1,
+      "why": "Polite 'don't' = future **খাবেন** + **না**; **খালি পেটে** 'on an empty stomach'."
+    },
+    {
+      "id": "e05",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "এই নে, তোর ওষুধ।",
+        "tr": "ei ne, tor oshudh.",
+        "en": "Here, take your medicine.",
+        "alt": [
+          "Here's your medicine."
+        ]
+      },
+      "options": [
+        "Here, give me your medicine.",
+        "Is this your medicine?",
+        "Take my medicine.",
+        "Here, take your medicine."
+      ],
+      "answer": 3,
+      "why": "**নে** is the তুই 'take!' (**নাও → নে**)."
+    },
+    {
+      "id": "e06",
+      "type": "listen_select",
+      "audio": {
+        "bn": "ওষুধের",
+        "tr": "oshudher",
+        "en": "medicine's; of medicine"
+      },
+      "options": [
+        "ওষুধ",
+        "ওষুধের",
+        "জ্বরের",
+        "ডাক্তার"
+      ],
+      "answer": 1,
+      "why": "**-এর** 'of': **ওষুধের দোকান** 'medicine shop'."
+    },
+    {
+      "id": "e07",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ওষুধের দোকান কোথায়?",
+        "tr": "oshudher dokan kothay?",
+        "en": "Where is the medicine shop?",
+        "alt": [
+          "Where's the pharmacy?"
+        ]
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "Where is the medicine shop?",
+        "Is the shop nearby?",
+        "Where is the medicine?",
+        "How much is the medicine?"
+      ],
+      "answer": 0,
+      "why": "**ওষুধের দোকান** 'medicine shop' = pharmacy."
+    },
+    {
+      "id": "e08",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "তুই কি আমার জন্য ওষুধ কিনতে পারবি?",
+        "tr": "tui ki amar jonno oshudh kinte parbi?",
+        "en": "Can you buy medicine for me?",
+        "alt": [
+          "Could you buy some medicine for me?"
+        ]
+      },
+      "options": [
+        "Did you buy medicine for me?",
+        "Can I buy medicine for you?",
+        "Do you want medicine?",
+        "Can you buy medicine for me?"
+      ],
+      "answer": 3,
+      "why": "**আমার জন্য** 'for me' + **কিনতে পারবি** (তুই)."
+    },
+    {
+      "id": "e09",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "জ্বরের ওষুধ আছে?",
+        "tr": "jorer oshudh achhe?",
+        "en": "Do you have medicine for a fever?",
+        "alt": [
+          "Do you have anything for a fever?"
+        ]
+      },
+      "blank": "জ্বরের",
+      "options": [
+        "জ্বর",
+        "ওষুধের",
+        "জ্বরের",
+        "আমার"
+      ],
+      "answer": 2,
+      "why": "'Medicine for a fever' = **জ্বরের ওষুধ**, with **-এর**."
+    },
+    {
+      "id": "e10",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "এটা খালি পেটে খাবেন না।",
+        "tr": "eta khali pete khaben na.",
+        "en": "Don't take this on an empty stomach.",
+        "alt": [
+          "Please don't take this on an empty stomach."
+        ]
+      },
+      "blank": "খাবেন",
+      "options": [
+        "খান",
+        "খাবার",
+        "খাবেন",
+        "খেয়েছেন"
+      ],
+      "answer": 2,
+      "why": "Polite 'don't' = future **খাবেন** + **না** (U13)."
+    },
+    {
+      "id": "e11",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "দিনে দুই বার, খাওয়ার পরে।",
+        "tr": "dine dui bar, khawar pore.",
+        "en": "Twice a day, after meals.",
+        "alt": [
+          "Two times a day, after meals."
+        ]
+      },
+      "blank": "পরে",
+      "options": [
+        "পরে",
+        "আগে",
+        "কাছে",
+        "পেটে"
+      ],
+      "answer": 0,
+      "why": "**খাওয়ার পরে** 'after meals'."
+    },
+    {
+      "id": "e12",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "কাছে কি কোনো ফার্মেসি আছে?",
+        "tr": "kachhe ki kono farmeshi achhe?",
+        "en": "Is there a pharmacy nearby?",
+        "alt": [
+          "Is there a pharmacy near here?"
+        ]
+      },
+      "blank": "ফার্মেসি",
+      "accepted": [
+        "ফার্মেসি",
+        "ফার্মেসী",
+        "ফার্মাসি",
+        "farmeshi",
+        "farmesi",
+        "pharmeshi",
+        "pharmesi",
+        "farmasi",
+        "pharmacy"
+      ],
+      "why": "**ফার্মেসি** 'pharmacy'."
+    },
+    {
+      "id": "e13",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "জ্বরের ওষুধ আছে?",
+        "tr": "jorer oshudh achhe?",
+        "en": "Do you have medicine for a fever?",
+        "alt": [
+          "Do you have anything for a fever?"
+        ]
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "জ্বর",
+        "ওষুধ",
+        "আছে",
+        "নেই",
+        "ওষুধের",
+        "জ্বরের"
+      ],
+      "answer": [
+        "জ্বরের",
+        "ওষুধ",
+        "আছে"
+      ],
+      "why": "**জ্বরের ওষুধ** 'fever's medicine' + **আছে?**"
+    },
+    {
+      "id": "e14",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "এই নে।",
+        "tr": "ei ne.",
+        "en": "Here, take it. (intimate)",
+        "alt": [
+          "Here you go."
+        ]
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "এই নাও।",
+        "এই নে।",
+        "এই দে।",
+        "এই নিন।"
+      ],
+      "answer": 1,
+      "why": "To a sibling: **নে** (তুমি **নাও**, আপনি **নিন**). **দে** means 'give!'."
+    },
+    {
+      "id": "e15",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "ফার্মেসি কোথায়?",
+        "tr": "farmeshi kothay?",
+        "en": "Where is the pharmacy?",
+        "alt": [
+          "Where's the pharmacy?"
+        ]
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "ফার্মেসি কোথায়",
+        "ফার্মেসিটা কোথায়",
+        "ওষুধের দোকান কোথায়",
+        "ফার্মেসী কোথায়",
+        "ওষুধের দোকানটা কোথায়",
+        "farmeshi kothay",
+        "farmesi kothay",
+        "oshudher dokan kothay",
+        "osudher dokan kothay",
+        "oshudher dokanta kothay",
+        "osudher dokanta kothay",
+        "pharmeshi kothay",
+        "pharmacy kothay",
+        "farmeshita kothay",
+        "farmeshi kothai",
+        "farmesi kothai"
+      ],
+      "why": "**ফার্মেসি** + **কোথায়** 'where'; **ওষুধের দোকান কোথায়?** is fine too."
+    },
+    {
+      "id": "r01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "খা",
+        "tr": "kha",
+        "en": "eat (intimate)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "he/she couldn't",
+        "eat (intimate)",
+        "I heard",
+        "was"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "listen_select",
+      "audio": {
+        "bn": "মন খারাপ",
+        "tr": "mon kharap",
+        "en": "sad; upset"
+      },
+      "options": [
+        "দেখা হবে",
+        "এখনো না",
+        "মন খারাপ",
+        "বুঝতে পারছি না"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "সুস্থ",
+        "tr": "shustho",
+        "en": "well; healthy"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "ভালো",
+        "সস্তা",
+        "সুস্থ",
+        "বড়"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "তোকে",
+          "tr": "toke",
+          "en": "you (intimate, object)"
+        },
+        {
+          "bn": "বল",
+          "tr": "bol",
+          "en": "say (intimate)"
+        },
+        {
+          "bn": "করছিস",
+          "tr": "korchhish",
+          "en": "you (intimate) are doing"
+        },
+        {
+          "bn": "বিশ্রাম",
+          "tr": "bishram",
+          "en": "rest"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "শোন",
+          "tr": "shon",
+          "en": "listen (intimate)"
+        },
+        {
+          "bn": "কাঁদছিস",
+          "tr": "ka~dchhish",
+          "en": "you (intimate) are crying"
+        },
+        {
+          "bn": "ঠিক",
+          "tr": "thik",
+          "en": "all right; OK"
+        },
+        {
+          "bn": "গিয়েছে",
+          "tr": "giyechhe",
+          "en": "has gone"
+        }
+      ],
+      "recycle": true
+    }
+  ]
+}

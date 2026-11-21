@@ -336,19 +336,20 @@
     },
     {
       "id": "r01",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "তিনটা",
         "tr": "tinta",
         "en": "three (o'clock)"
       },
+      "direction": "en_to_bn",
       "options": [
-        "তিনটা",
-        "দশ",
-        "বারোটা",
-        "দেড়টা"
+        "চল্লিশ",
+        "দুইজন",
+        "দুই",
+        "তিনটা"
       ],
-      "answer": 0,
+      "answer": 3,
       "recycle": true
     },
     {
@@ -359,32 +360,31 @@
         "tr": "ashi",
         "en": "eighty"
       },
-      "direction": "en_to_bn",
+      "direction": "bn_to_en",
       "options": [
-        "আশি",
-        "বারোটা",
-        "একশ",
-        "ষোলো"
+        "eight",
+        "eighty",
+        "quarter to",
+        "sixteen"
       ],
-      "answer": 0,
+      "answer": 1,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "সত্তর",
         "tr": "shottor",
         "en": "seventy"
       },
-      "direction": "bn_to_en",
       "options": [
-        "quarter past",
-        "half past two",
-        "seventy",
-        "one; a (formal)"
+        "আড়াইটা",
+        "একটি",
+        "দশ",
+        "সত্তর"
       ],
-      "answer": 2,
+      "answer": 3,
       "recycle": true
     },
     {
@@ -402,9 +402,9 @@
           "en": "all"
         },
         {
-          "bn": "কিন্তু",
-          "tr": "kintu",
-          "en": "but"
+          "bn": "খারাপ",
+          "tr": "kharap",
+          "en": "bad"
         },
         {
           "bn": "কয়জন",
@@ -419,19 +419,19 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "কেমন",
-          "tr": "kemon",
-          "en": "how"
-        },
-        {
-          "bn": "লাগে",
-          "tr": "lage",
-          "en": "feels"
-        },
-        {
           "bn": "তুমি",
           "tr": "tumi",
           "en": "you (familiar)"
+        },
+        {
+          "bn": "কিন্তু",
+          "tr": "kintu",
+          "en": "but"
+        },
+        {
+          "bn": "কেমন",
+          "tr": "kemon",
+          "en": "how"
         },
         {
           "bn": "তোমাদের",

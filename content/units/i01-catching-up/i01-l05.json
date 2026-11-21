@@ -496,12 +496,12 @@
         "en": "I loved our village very much."
       },
       "options": [
-        "His name is Rafi.",
-        "I bought a new book for you.",
-        "I loved our village very much.",
-        "You have to take a bag."
+        "My friend does puja.",
+        "The price is two hundred taka.",
+        "Dad is outside.",
+        "I loved our village very much."
       ],
-      "answer": 2,
+      "answer": 3,
       "recycle": true
     },
     {
@@ -514,12 +514,12 @@
       },
       "direction": "en_to_bn",
       "options": [
-        "উঠলাম",
-        "নও",
-        "খেতাম",
-        "করতেন"
+        "বলছেন",
+        "করিস",
+        "দেখবে",
+        "খেতাম"
       ],
-      "answer": 2,
+      "answer": 3,
       "recycle": true
     },
     {
@@ -542,24 +542,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "দুষ্টু",
-          "tr": "dushtu",
-          "en": "naughty"
-        },
-        {
-          "bn": "ক্রিকেট",
-          "tr": "kriket",
-          "en": "cricket"
-        },
-        {
           "bn": "লাগত",
           "tr": "lagto",
           "en": "used to feel"
         },
         {
+          "bn": "দুষ্টু",
+          "tr": "dushtu",
+          "en": "naughty"
+        },
+        {
           "bn": "পুকুরে",
           "tr": "pukure",
           "en": "in the pond"
+        },
+        {
+          "bn": "ক্রিকেট",
+          "tr": "kriket",
+          "en": "cricket"
         }
       ],
       "recycle": true
@@ -569,16 +569,6 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "ভাইবোন",
-          "tr": "bhaibon",
-          "en": "siblings"
-        },
-        {
-          "bn": "থাকতাম",
-          "tr": "thaktam",
-          "en": "I used to live"
-        },
-        {
           "bn": "মাঠ",
           "tr": "math",
           "en": "field; playground"
@@ -587,6 +577,16 @@
           "bn": "ফুটবল",
           "tr": "futbol",
           "en": "football"
+        },
+        {
+          "bn": "ভাইবোন",
+          "tr": "bhaibon",
+          "en": "siblings"
+        },
+        {
+          "bn": "থাকতাম",
+          "tr": "thaktam",
+          "en": "I used to live"
         }
       ],
       "recycle": true

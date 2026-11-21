@@ -341,19 +341,20 @@
     },
     {
       "id": "r01",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "আরও",
         "tr": "aro",
         "en": "more"
       },
+      "direction": "en_to_bn",
       "options": [
         "অবশ্যই",
         "এখানে",
-        "আরও",
-        "কেমন"
+        "কেমন",
+        "আরও"
       ],
-      "answer": 2,
+      "answer": 3,
       "recycle": true
     },
     {
@@ -364,30 +365,29 @@
         "tr": "dao",
         "en": "give (familiar)"
       },
-      "direction": "en_to_bn",
+      "direction": "bn_to_en",
       "options": [
-        "আছি",
-        "জানেন",
-        "দাও",
-        "আছেন"
+        "(you, polite) know",
+        "am",
+        "give (familiar)",
+        "are (polite)"
       ],
       "answer": 2,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "একটু",
         "tr": "ektu",
         "en": "a little"
       },
-      "direction": "bn_to_en",
       "options": [
-        "in the afternoon",
-        "where (before থেকে)",
-        "only",
-        "a little"
+        "দুপুরে",
+        "আরও",
+        "কোথায়",
+        "একটু"
       ],
       "answer": 3,
       "recycle": true
@@ -397,16 +397,6 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "দে",
-          "tr": "de",
-          "en": "give (intimate)"
-        },
-        {
-          "bn": "ঘণ্টা",
-          "tr": "ghonta",
-          "en": "hour"
-        },
-        {
           "bn": "বিকালে",
           "tr": "bikale",
           "en": "in the afternoon"
@@ -415,6 +405,16 @@
           "bn": "আমাকে",
           "tr": "amake",
           "en": "me"
+        },
+        {
+          "bn": "দে",
+          "tr": "de",
+          "en": "give (intimate)"
+        },
+        {
+          "bn": "ঘণ্টা",
+          "tr": "ghonta",
+          "en": "hour"
         }
       ],
       "recycle": true
@@ -429,11 +429,6 @@
           "en": "give (polite, standard)"
         },
         {
-          "bn": "শনিবার",
-          "tr": "shonibar",
-          "en": "Saturday"
-        },
-        {
           "bn": "বৃহস্পতিবার",
           "tr": "brihoshpotibar",
           "en": "Thursday"
@@ -442,6 +437,11 @@
           "bn": "বুধবার",
           "tr": "budhbar",
           "en": "Wednesday"
+        },
+        {
+          "bn": "শনিবার",
+          "tr": "shonibar",
+          "en": "Saturday"
         }
       ],
       "recycle": true

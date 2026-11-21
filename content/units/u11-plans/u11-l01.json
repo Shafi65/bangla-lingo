@@ -422,18 +422,18 @@
       "id": "r03",
       "type": "select_translation",
       "prompt": {
-        "bn": "শিক্ষার্থী",
-        "tr": "shikkharthi",
-        "en": "student"
+        "bn": "দাঁত মাজা",
+        "tr": "da~t maja",
+        "en": "brushing teeth"
       },
       "direction": "en_to_bn",
       "options": [
-        "বউ",
-        "সন্ধ্যা",
-        "শিক্ষার্থী",
-        "খাবার"
+        "ঈদ মোবারক",
+        "দাঁত মাজা",
+        "এখনো না",
+        "খোদা হাফেজ"
       ],
-      "answer": 2,
+      "answer": 1,
       "recycle": true
     },
     {
@@ -441,24 +441,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "আরও",
-          "tr": "aro",
-          "en": "more"
+          "bn": "পাশে",
+          "tr": "pashe",
+          "en": "next to"
         },
         {
-          "bn": "এত",
-          "tr": "eto",
-          "en": "so"
+          "bn": "কোন",
+          "tr": "kon",
+          "en": "which"
         },
         {
-          "bn": "পনেরো",
-          "tr": "ponero",
-          "en": "fifteen"
+          "bn": "আছি",
+          "tr": "achhi",
+          "en": "am"
         },
         {
-          "bn": "দিনটা",
-          "tr": "dinta",
-          "en": "the day"
+          "bn": "করিস",
+          "tr": "korish",
+          "en": "you do (intimate)"
         }
       ],
       "recycle": true
@@ -468,24 +468,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "আছি",
-          "tr": "achhi",
-          "en": "am"
-        },
-        {
-          "bn": "বন্ধ",
-          "tr": "bondho",
-          "en": "closed"
-        },
-        {
-          "bn": "ত্রিশ",
-          "tr": "trish",
-          "en": "thirty"
-        },
-        {
-          "bn": "এলাম",
-          "tr": "elam",
+          "bn": "আসলাম",
+          "tr": "ashlam",
           "en": "I came"
+        },
+        {
+          "bn": "বিকালে",
+          "tr": "bikale",
+          "en": "in the afternoon"
+        },
+        {
+          "bn": "একজন",
+          "tr": "ekjon",
+          "en": "one (person)"
+        },
+        {
+          "bn": "ছাড়বে",
+          "tr": "chharbe",
+          "en": "will leave"
         }
       ],
       "recycle": true

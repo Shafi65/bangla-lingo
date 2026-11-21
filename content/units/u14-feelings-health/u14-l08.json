@@ -1,0 +1,563 @@
+{
+  "id": "u14-l08",
+  "unit": "u14-feelings-health",
+  "title": "Review: Feelings & health",
+  "status": "draft",
+  "tip": "**How you feel:** **আমার ভালো লাগছে / ভয় লাগছে / রাগ লাগছে**; **আমি ক্লান্ত**, **আমি খুশি**; **আমার মন খারাপ**.\n\n**Aches and illness:** **আমার মাথা ব্যথা করছে** · **আমার জ্বর হয়েছে** · **ঠান্ডা লেগেছে** · **দুই দিন ধরে**.\n\n**Doctor and pharmacy:** **দিনে তিন বার, খাওয়ার পরে** · **বিশ্রাম নিন** · **জ্বরের ওষুধ আছে?** · **খালি পেটে খাবেন না**.\n\n**Emergencies:** **বাঁচাও!** · **সাহায্য করুন!** · **অ্যাম্বুলেন্স ডাকুন!**\n\n**তুই:** **তুই ঠিক আছিস?** · **কী করছিস?** · **পারবি?** · commands are the bare stem: **বস**, **শোন**, **বল**, **খা**, **নে**, and irregular **আয়**.",
+  "vocab": [],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "reading",
+      "title": "Nadia isn't well",
+      "lines": [
+        {
+          "speaker": "Rafi",
+          "bn": "কী হয়েছে তোর? তুই ঠিক আছিস?",
+          "tr": "ki hoyechhe tor? tui thik achhish?",
+          "en": "What's wrong? Are you OK?"
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "না, আমার শরীর ভালো নেই। মাথা ব্যথা করছে।",
+          "tr": "na, amar shorir bhalo nei. matha byatha korchhe.",
+          "en": "No, I'm not well. My head hurts."
+        },
+        {
+          "speaker": "Rafi",
+          "bn": "কাঁদছিস কেন? এদিকে আয়, এখানে বস।",
+          "tr": "ka~dchhish keno? edike ay, ekhane bosh.",
+          "en": "Why are you crying? Come here, sit here."
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "আমার জ্বর হয়েছে, আর খুব ভয় লাগছে।",
+          "tr": "amar jor hoyechhe, ar khub bhoy lagchhe.",
+          "en": "I've got a fever, and I'm really scared."
+        },
+        {
+          "speaker": "Rafi",
+          "bn": "শোন, চিন্তা করিস না। এই নে, জ্বরের ওষুধ। খাওয়ার পরে খা।",
+          "tr": "shon, chinta korish na. ei ne, jorer oshudh. khawar pore kha.",
+          "en": "Listen, don't worry. Here, fever medicine. Take it after you eat."
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "ঠিক আছে। তুই কি আজ বাসায় থাকতে পারবি?",
+          "tr": "thik achhe. tui ki aj bashay thakte parbi?",
+          "en": "OK. Can you stay at home today?"
+        },
+        {
+          "speaker": "Rafi",
+          "bn": "হ্যাঁ, পারব। তুই বিশ্রাম নে।",
+          "tr": "hya~, parbo. tui bishram ne.",
+          "en": "Yes, I can. You get some rest."
+        }
+      ],
+      "question": "What's wrong with Nadia?",
+      "options": [
+        "She has a fever and a headache.",
+        "She has a cough and a sore throat.",
+        "She fell down.",
+        "She is angry with Rafi."
+      ],
+      "answer": 0,
+      "why": "Nadia says **মাথা ব্যথা করছে** and **আমার জ্বর হয়েছে**."
+    },
+    {
+      "id": "e02",
+      "type": "reading",
+      "title": "At the doctor's",
+      "lines": [
+        {
+          "speaker": "Doctor",
+          "bn": "আপনার কী সমস্যা?",
+          "tr": "apnar ki shomossha?",
+          "en": "What's the problem?"
+        },
+        {
+          "speaker": "Patient",
+          "bn": "দুই দিন ধরে আমার জ্বর আর কাশি। গলা ব্যথা করছে।",
+          "tr": "dui din dhore amar jor ar kashi. gola byatha korchhe.",
+          "en": "I've had a fever and a cough for two days. My throat hurts."
+        },
+        {
+          "speaker": "Doctor",
+          "bn": "আপনার ঠান্ডা লেগেছে। এই ওষুধ দিনে তিন বার খান।",
+          "tr": "apnar thanda legechhe. ei oshudh dine tin bar khan.",
+          "en": "You've caught a cold. Take this medicine three times a day."
+        },
+        {
+          "speaker": "Patient",
+          "bn": "খালি পেটে খাব?",
+          "tr": "khali pete khabo?",
+          "en": "Should I take it on an empty stomach?"
+        },
+        {
+          "speaker": "Doctor",
+          "bn": "না, খালি পেটে খাবেন না। খাওয়ার পরে খান। আর বিশ্রাম নিন।",
+          "tr": "na, khali pete khaben na. khawar pore khan. ar bishram nin.",
+          "en": "No, don't take it on an empty stomach. Take it after meals. And get some rest."
+        },
+        {
+          "speaker": "Patient",
+          "bn": "ধন্যবাদ, ডাক্তার।",
+          "tr": "dhonnobad, daktar.",
+          "en": "Thank you, doctor."
+        }
+      ],
+      "question": "When should the patient take the medicine?",
+      "options": [
+        "Three times a day, on an empty stomach",
+        "Twice a day, before meals",
+        "Three times a day, after meals",
+        "Once a day, at night"
+      ],
+      "answer": 2,
+      "why": "**দিনে তিন বার** 'three times a day', **খাওয়ার পরে** 'after meals'."
+    },
+    {
+      "id": "e03",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "ক্লান্ত",
+          "tr": "klanto",
+          "en": "tired"
+        },
+        {
+          "bn": "খুশি",
+          "tr": "khushi",
+          "en": "happy"
+        },
+        {
+          "bn": "রাগ",
+          "tr": "rag",
+          "en": "anger"
+        },
+        {
+          "bn": "মন খারাপ",
+          "tr": "mon kharap",
+          "en": "sad; upset"
+        },
+        {
+          "bn": "অসুস্থ",
+          "tr": "oshustho",
+          "en": "ill"
+        }
+      ]
+    },
+    {
+      "id": "e04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "পেট",
+          "tr": "pet",
+          "en": "stomach"
+        },
+        {
+          "bn": "পা",
+          "tr": "pa",
+          "en": "foot; leg"
+        },
+        {
+          "bn": "কান",
+          "tr": "kan",
+          "en": "ear"
+        },
+        {
+          "bn": "সুস্থ",
+          "tr": "shustho",
+          "en": "well; healthy"
+        },
+        {
+          "bn": "ফার্মেসি",
+          "tr": "farmeshi",
+          "en": "pharmacy"
+        }
+      ]
+    },
+    {
+      "id": "e05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "বাঁচাও",
+          "tr": "ba~chao",
+          "en": "help! (save me)"
+        },
+        {
+          "bn": "অ্যাম্বুলেন্স",
+          "tr": "ambulens",
+          "en": "ambulance"
+        },
+        {
+          "bn": "পুলিশ",
+          "tr": "pulish",
+          "en": "police"
+        },
+        {
+          "bn": "আগুন",
+          "tr": "agun",
+          "en": "fire"
+        },
+        {
+          "bn": "দুর্ঘটনা",
+          "tr": "durghotona",
+          "en": "accident"
+        }
+      ]
+    },
+    {
+      "id": "e06",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "করছিস",
+          "tr": "korchhish",
+          "en": "you (intimate) are doing"
+        },
+        {
+          "bn": "তোকে",
+          "tr": "toke",
+          "en": "you (intimate, object)"
+        },
+        {
+          "bn": "বল",
+          "tr": "bol",
+          "en": "say (intimate)"
+        },
+        {
+          "bn": "জরুরি",
+          "tr": "joruri",
+          "en": "urgent"
+        },
+        {
+          "bn": "হাসপাতালে",
+          "tr": "hashpatale",
+          "en": "to the hospital; in hospital"
+        }
+      ]
+    },
+    {
+      "id": "e07",
+      "type": "listen_select",
+      "audio": {
+        "bn": "ডাকুন",
+        "tr": "dakun",
+        "en": "please call (standard)"
+      },
+      "options": [
+        "ডাক্তার",
+        "ডাকুন",
+        "দাঁড়ান",
+        "করুন"
+      ],
+      "answer": 1,
+      "why": "**ডাকুন** 'please call (to come)': **পুলিশ ডাকুন!**"
+    },
+    {
+      "id": "e08",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "আমি পড়ে গেছি, আমার পা ব্যথা করছে।",
+        "tr": "ami pore gechhi, amar pa byatha korchhe.",
+        "en": "I fell, my leg hurts.",
+        "alt": [
+          "I fell down and my foot hurts."
+        ]
+      },
+      "options": [
+        "I fell, my head hurts.",
+        "I read a lot, my eyes hurt.",
+        "I went out, my leg hurts.",
+        "I fell, my leg hurts."
+      ],
+      "answer": 3,
+      "why": "**পড়ে গেছি** 'I fell' + **পা ব্যথা করছে** 'my leg hurts'."
+    },
+    {
+      "id": "e09",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "আমার মন খারাপ, আর খুব ক্লান্ত লাগছে।",
+        "tr": "amar mon kharap, ar khub klanto lagchhe.",
+        "en": "I'm sad, and I feel very tired.",
+        "alt": [
+          "I'm upset and I feel really tired."
+        ]
+      },
+      "options": [
+        "I'm happy, but very tired.",
+        "I'm sad, and I feel very tired.",
+        "I'm angry and very hungry.",
+        "I'm sad and scared."
+      ],
+      "answer": 1,
+      "why": "**মন খারাপ** 'sad' + **ক্লান্ত লাগছে** 'feel tired'."
+    },
+    {
+      "id": "e10",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "ওষুধের দোকান কোথায়?",
+        "tr": "oshudher dokan kothay?",
+        "en": "Where is the medicine shop?",
+        "alt": [
+          "Where's the pharmacy?"
+        ]
+      },
+      "blank": "ওষুধের",
+      "options": [
+        "ওষুধের",
+        "ওষুধ",
+        "জ্বরের",
+        "খালি"
+      ],
+      "answer": 0,
+      "why": "**ওষুধ + -এর = ওষুধের** 'of medicine'."
+    },
+    {
+      "id": "e11",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আমি তোকে ফোন করব।",
+        "tr": "ami toke fon korbo.",
+        "en": "I'll call you. (intimate)",
+        "alt": [
+          "I will phone you."
+        ]
+      },
+      "blank": "তোকে",
+      "options": [
+        "তোর",
+        "তুই",
+        "আপনার",
+        "তোকে"
+      ],
+      "answer": 3,
+      "why": "Object 'you' for তুই: **তোকে**."
+    },
+    {
+      "id": "e12",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "ওকে হাসপাতালে নিতে হবে।",
+        "tr": "oke hashpatale nite hobe.",
+        "en": "We have to take him to the hospital.",
+        "alt": [
+          "We have to take her to the hospital."
+        ]
+      },
+      "blank": "হাসপাতালে",
+      "accepted": [
+        "হাসপাতালে",
+        "hashpatale",
+        "haspatale",
+        "hospitale",
+        "hashpatal e"
+      ],
+      "why": "**হাসপাতাল + -এ = হাসপাতালে** 'to the hospital'."
+    },
+    {
+      "id": "e13",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আপনার এখন কেমন লাগছে?",
+        "tr": "apnar ekhon kemon lagchhe?",
+        "en": "How are you feeling now? (polite)",
+        "alt": [
+          "How do you feel now?"
+        ]
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "কেমন",
+        "ভালো",
+        "এখন",
+        "লাগে",
+        "লাগছে",
+        "আপনার",
+        "আপনি"
+      ],
+      "answer": [
+        "আপনার",
+        "এখন",
+        "কেমন",
+        "লাগছে"
+      ],
+      "alt": [
+        [
+          "এখন",
+          "আপনার",
+          "কেমন",
+          "লাগছে"
+        ]
+      ],
+      "why": "The feeler takes **-র**: **আপনার** … **লাগছে**."
+    },
+    {
+      "id": "e14",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "তুই ঠিক আছিস?",
+        "tr": "tui thik achhish?",
+        "en": "Are you OK? (to a close friend)",
+        "alt": [
+          "Are you all right?"
+        ]
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "তুই ঠিক আছো?",
+        "তুমি ঠিক আছিস?",
+        "তুই ঠিক আছিস?",
+        "তোর ঠিক আছিস?"
+      ],
+      "answer": 2,
+      "why": "**তুই** + **আছিস**; **আছো** goes with তুমি."
+    },
+    {
+      "id": "e15",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আমার পেট ব্যথা করছে।",
+        "tr": "amar pet byatha korchhe.",
+        "en": "My stomach hurts.",
+        "alt": [
+          "I have a stomachache."
+        ]
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "আমার পেট ব্যথা করছে",
+        "আমার পেট ব্যথা",
+        "পেট ব্যথা করছে",
+        "আমার পেটব্যথা করছে",
+        "আমার পেট ব্যাথা করছে",
+        "আমার পেটে ব্যথা করছে",
+        "আমার পেটে ব্যথা",
+        "amar pet byatha korchhe",
+        "amar pet byatha korche",
+        "amar pet byatha",
+        "pet byatha korchhe",
+        "pet byatha korche",
+        "amar pete byatha korchhe",
+        "amar pete byatha korche",
+        "amar pete byatha",
+        "amar pet betha korche",
+        "amar pet batha korche",
+        "amar pet bytha korche"
+      ],
+      "why": "Body part + **ব্যথা করছে**, with **আমার**."
+    },
+    {
+      "id": "r01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "হ্যালো",
+        "tr": "hyalo",
+        "en": "hello (on the phone)"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "আলহামদুলিল্লাহ",
+        "মনে হয়",
+        "আবার দেখা হবে",
+        "হ্যালো"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "পাচ্ছেন",
+        "tr": "pachchhen",
+        "en": "you are getting (polite)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "writes",
+        "you came (familiar)",
+        "listen (familiar)",
+        "you are getting (polite)"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "listen_select",
+      "audio": {
+        "bn": "ধরছে",
+        "tr": "dhorchhe",
+        "en": "is picking up"
+      },
+      "options": [
+        "ধরছে",
+        "দিন",
+        "ছিলাম",
+        "খাস"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "দেখাতে",
+          "tr": "dekhate",
+          "en": "to show"
+        },
+        {
+          "bn": "জোরে",
+          "tr": "jore",
+          "en": "loudly"
+        },
+        {
+          "bn": "প্লিজ",
+          "tr": "plij",
+          "en": "please"
+        },
+        {
+          "bn": "বলছেন",
+          "tr": "bolchhen",
+          "en": "you are speaking (polite)"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "বলছি",
+          "tr": "bolchhi",
+          "en": "I am speaking"
+        },
+        {
+          "bn": "বামে",
+          "tr": "bame",
+          "en": "left"
+        },
+        {
+          "bn": "পারে",
+          "tr": "pare",
+          "en": "(he/she) can"
+        },
+        {
+          "bn": "সাথে",
+          "tr": "shathe",
+          "en": "with"
+        }
+      ],
+      "recycle": true
+    }
+  ]
+}

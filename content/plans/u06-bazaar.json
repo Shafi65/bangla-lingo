@@ -954,6 +954,170 @@
           ]
         }
       ]
+    },
+    {
+      "id": "u06-c01",
+      "title": "Checkpoint: Units 4–6",
+      "kind": "checkpoint",
+      "goal": "Order food, tell the time, and shop and haggle at the bazaar, mixing everything from Units 4–6.",
+      "grammar": [
+        "checkpoint: present endings by person (খাই / খাও / খান / খায়); -তে চাই 'want to'",
+        "checkpoint: experiencer আমার with পছন্দ / লাগবে; একটা vs একটু",
+        "checkpoint: clock times with সাড়ে / দেড়টা / আড়াইটা; imperatives দে / দাও / দেন / দিন"
+      ],
+      "new": [],
+      "review": [
+        "mangsho",
+        "khai",
+        "khan",
+        "khete",
+        "kichhu",
+        "amgulo",
+        "mishti",
+        "dui",
+        "ashi-eighty",
+        "eksho",
+        "koyta",
+        "baje",
+        "tinta",
+        "share",
+        "derta",
+        "araita",
+        "shoya",
+        "poune",
+        "kal",
+        "shonibar",
+        "dam",
+        "koto",
+        "etar",
+        "taka",
+        "pachsho",
+        "amake",
+        "den",
+        "ektu",
+        "ei",
+        "eita",
+        "keji",
+        "alu",
+        "lagbe",
+        "kom",
+        "rakhen",
+        "eto",
+        "keno",
+        "lagbe-na",
+        "thik-achhe"
+      ],
+      "tip": "A mixed test of Units 4–6: food, numbers and time, the bazaar. No new words.\n\n- Endings by person: আমি **খাই**, তুমি **খাও**, আপনি **খান**, সে **খায়**.\n- Liking and needing are felt: **আমার** মাছ পছন্দ, **আমার** আলু লাগবে.\n- **সাড়ে** তিনটা is 3:30, but 1:30 and 2:30 are **দেড়টা** and **আড়াইটা**.\n- \"Give\": দে (তুই) · দাও (তুমি) · দেন / দিন (আপনি).",
+      "sentences": [
+        {
+          "bn": "আপনি কী খান?",
+          "tr": "apni ki khan?",
+          "en": "What do you eat? (polite)"
+        },
+        {
+          "bn": "আমি ভাত খেতে চাই।",
+          "tr": "ami bhat khete chai.",
+          "en": "I want to eat rice."
+        },
+        {
+          "bn": "আমার মাছ পছন্দ।",
+          "tr": "amar machh pochhondo.",
+          "en": "I like fish."
+        },
+        {
+          "bn": "আমাকে একটু ভাত দিন।",
+          "tr": "amake ektu bhat din.",
+          "en": "Please give me a little rice."
+        },
+        {
+          "bn": "আমাকে একটা ইলিশ দেন।",
+          "tr": "amake ekta ilish den.",
+          "en": "Please give me a hilsa."
+        },
+        {
+          "bn": "আমার দুই কেজি আলু লাগবে।",
+          "tr": "amar dui keji alu lagbe.",
+          "en": "I need two kilos of potatoes."
+        },
+        {
+          "bn": "এখন সাড়ে তিনটা বাজে।",
+          "tr": "ekhon share tinta baje.",
+          "en": "It's half past three now."
+        },
+        {
+          "bn": "কাল শনিবার।",
+          "tr": "kal shonibar.",
+          "en": "Tomorrow is Saturday."
+        },
+        {
+          "bn": "এটা কত?",
+          "tr": "eta koto?",
+          "en": "How much is this?"
+        },
+        {
+          "bn": "আমি মাংস খাই না।",
+          "tr": "ami mangsho khai na.",
+          "en": "I don't eat meat."
+        }
+      ],
+      "dialogue": {
+        "title": "Mangoes at the bazaar",
+        "lines": [
+          {
+            "speaker": "Rafi",
+            "bn": "ভাই, এই আমগুলো কত?",
+            "tr": "bhai, ei amgulo koto?",
+            "en": "Brother, how much are these mangoes?"
+          },
+          {
+            "speaker": "Shopkeeper",
+            "bn": "একশ টাকা কেজি।",
+            "tr": "eksho taka keji.",
+            "en": "A hundred taka a kilo."
+          },
+          {
+            "speaker": "Rafi",
+            "bn": "এত দাম কেন? একটু কম রাখেন।",
+            "tr": "eto dam keno? ektu kom rakhen.",
+            "en": "Why so expensive? Please lower it a little."
+          },
+          {
+            "speaker": "Shopkeeper",
+            "bn": "ঠিক আছে, আশি টাকা দেন।",
+            "tr": "thik achhe, ashi taka den.",
+            "en": "OK, give me eighty taka."
+          },
+          {
+            "speaker": "Rafi",
+            "bn": "আচ্ছা, আমাকে দুই কেজি দেন।",
+            "tr": "achchha, amake dui keji den.",
+            "en": "OK, please give me two kilos."
+          },
+          {
+            "speaker": "Shopkeeper",
+            "bn": "আর কিছু লাগবে?",
+            "tr": "ar kichhu lagbe?",
+            "en": "Do you need anything else?"
+          },
+          {
+            "speaker": "Rafi",
+            "bn": "না, লাগবে না, ধন্যবাদ।",
+            "tr": "na, lagbe na, dhonnobad.",
+            "en": "No, I don't need anything, thank you."
+          }
+        ],
+        "questions": [
+          {
+            "question": "In the end, what price per kilo do they agree on?",
+            "options": [
+              "100 taka",
+              "80 taka",
+              "160 taka"
+            ],
+            "answer": 1
+          }
+        ]
+      }
     }
   ]
 }

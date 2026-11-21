@@ -1002,6 +1002,176 @@
           "en": "I have two brothers."
         }
       ]
+    },
+    {
+      "id": "u03-c01",
+      "title": "Checkpoint: Units 1–3",
+      "kind": "checkpoint",
+      "goal": "Greet people, introduce your family and say what you have, mixing everything from Units 1–3.",
+      "grammar": [
+        "checkpoint: verb endings by person and politeness (আছি / আছো / আছেন / আছে / আছিস)",
+        "checkpoint: কি (yes/no) vs কী (what); নই / নও / নন / নয় vs নেই",
+        "checkpoint: father's side vs mother's side; having with আছে / নেই; -জন for people"
+      ],
+      "new": [],
+      "review": [
+        "na",
+        "apni",
+        "shikkhok",
+        "ki-what",
+        "amar",
+        "kemon",
+        "achhen",
+        "uni",
+        "achhe",
+        "daktar",
+        "chhele",
+        "meye",
+        "ekhane",
+        "nei",
+        "ki-q",
+        "noi",
+        "non",
+        "ke",
+        "kotha",
+        "theke",
+        "eshechhen",
+        "bhai",
+        "bon",
+        "boro",
+        "bhaiya",
+        "onar",
+        "chacha",
+        "fufu",
+        "nani",
+        "mama",
+        "khala",
+        "mayer",
+        "ekta",
+        "duijon",
+        "amader",
+        "bachcha",
+        "achchha",
+        "kintu",
+        "mane"
+      ],
+      "tip": "A checkpoint mixes everything from Units 1–3. There are no new words: show what you know.\n\n- The verb follows the person: আমি **আছি**, তুমি **আছো**, আপনি **আছেন**, সে **আছে**, তুই **আছিস**.\n- **কি** asks yes/no; **কী** means \"what\".\n- **নই / নও / নন / নয়** = is not (something); **নেই** = is not there, don't have.\n- Father's side: **চাচা, ফুফু, দাদা**. Mother's side: **মামা, খালা, নানা**.",
+      "sentences": [
+        {
+          "bn": "আসসালামু আলাইকুম, আমার নাম রাফি।",
+          "tr": "assalamu alaikum, amar nam rafi.",
+          "en": "Hello, my name is Rafi."
+        },
+        {
+          "bn": "চাচা, আপনি কেমন আছেন?",
+          "tr": "chacha, apni kemon achhen?",
+          "en": "Uncle, how are you?"
+        },
+        {
+          "bn": "তোমার নাম কী?",
+          "tr": "tomar nam ki?",
+          "en": "What is your name?"
+        },
+        {
+          "bn": "আমি শিক্ষক নই।",
+          "tr": "ami shikkhok noi.",
+          "en": "I am not a teacher."
+        },
+        {
+          "bn": "মামা আমার মায়ের ভাই।",
+          "tr": "mama amar mayer bhai.",
+          "en": "Mama is my mother's brother."
+        },
+        {
+          "bn": "আমার ভাই আছে, কিন্তু বোন নেই।",
+          "tr": "amar bhai achhe, kintu bon nei.",
+          "en": "I have a brother, but no sister."
+        },
+        {
+          "bn": "আমার দুইজন ভাই আছে।",
+          "tr": "amar duijon bhai achhe.",
+          "en": "I have two brothers."
+        },
+        {
+          "bn": "আপনি কোথা থেকে এসেছেন?",
+          "tr": "apni kotha theke eshechhen?",
+          "en": "Where are you from?"
+        },
+        {
+          "bn": "আমার বড় ভাই ডাক্তার।",
+          "tr": "amar boro bhai daktar.",
+          "en": "My elder brother is a doctor."
+        },
+        {
+          "bn": "রাফি এখানে নেই।",
+          "tr": "rafi ekhane nei.",
+          "en": "Rafi isn't here."
+        }
+      ],
+      "dialogue": {
+        "title": "Who is he?",
+        "lines": [
+          {
+            "speaker": "Emma",
+            "bn": "রাফি, উনি কে?",
+            "tr": "rafi, uni ke?",
+            "en": "Rafi, who is he?"
+          },
+          {
+            "speaker": "Rafi",
+            "bn": "উনি আমার মামা।",
+            "tr": "uni amar mama.",
+            "en": "He is my uncle (mama)."
+          },
+          {
+            "speaker": "Emma",
+            "bn": "মামা মানে কী?",
+            "tr": "mama mane ki?",
+            "en": "What does \"mama\" mean?"
+          },
+          {
+            "speaker": "Rafi",
+            "bn": "মামা আমার মায়ের ভাই।",
+            "tr": "mama amar mayer bhai.",
+            "en": "Mama is my mother's brother."
+          },
+          {
+            "speaker": "Emma",
+            "bn": "আচ্ছা। ওনার কি বাচ্চা আছে?",
+            "tr": "achchha. onar ki bachcha achhe?",
+            "en": "OK. Does he have children?"
+          },
+          {
+            "speaker": "Rafi",
+            "bn": "ওনার দুইজন মেয়ে আছে, কিন্তু ছেলে নেই।",
+            "tr": "onar duijon meye achhe, kintu chhele nei.",
+            "en": "He has two daughters, but no son."
+          },
+          {
+            "speaker": "Emma",
+            "bn": "উনি কি ডাক্তার?",
+            "tr": "uni ki daktar?",
+            "en": "Is he a doctor?"
+          },
+          {
+            "speaker": "Rafi",
+            "bn": "না, উনি ডাক্তার নন, উনি শিক্ষক।",
+            "tr": "na, uni daktar non, uni shikkhok.",
+            "en": "No, he isn't a doctor, he is a teacher."
+          }
+        ],
+        "questions": [
+          {
+            "question": "Who is the man?",
+            "options": [
+              "Rafi's mother's brother",
+              "Rafi's father's brother",
+              "Rafi's elder brother"
+            ],
+            "answer": 0
+          }
+        ]
+      }
     }
   ]
 }

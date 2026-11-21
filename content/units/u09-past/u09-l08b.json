@@ -373,13 +373,12 @@
     },
     {
       "id": "r01",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "দাঁত মাজা",
         "tr": "da~t maja",
         "en": "brushing teeth"
       },
-      "direction": "en_to_bn",
       "options": [
         "নমস্কার",
         "আলহামদুলিল্লাহ",
@@ -397,29 +396,30 @@
         "tr": "mone hoy",
         "en": "I think"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "see you again",
-        "hello (peace be upon you)",
-        "I think",
-        "hello (Hindu greeting)"
+        "আবার দেখা হবে",
+        "আসসালামু আলাইকুম",
+        "মনে হয়",
+        "নমস্কার"
       ],
       "answer": 2,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "মাঝে মাঝে",
         "tr": "majhe majhe",
         "en": "sometimes"
       },
+      "direction": "bn_to_en",
       "options": [
-        "বুঝতে পারছি না",
-        "মনে হয়",
-        "মাঝে মাঝে",
-        "আলহামদুলিল্লাহ"
+        "I don't understand",
+        "I think",
+        "sometimes",
+        "praise be to God"
       ],
       "answer": 2,
       "recycle": true

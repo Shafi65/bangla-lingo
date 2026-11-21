@@ -369,53 +369,53 @@
       "id": "r01",
       "type": "select_translation",
       "prompt": {
-        "bn": "উঠলাম",
-        "tr": "uthlam",
-        "en": "I got up"
+        "bn": "বলেন",
+        "tr": "bolen",
+        "en": "you speak (polite)"
       },
       "direction": "bn_to_en",
       "options": [
-        "(he/she/they) eats",
-        "I got up",
-        "I go",
-        "stop (polite)"
+        "(you/he/she, polite) eat",
+        "(you, polite) know",
+        "are (intimate)",
+        "you speak (polite)"
       ],
-      "answer": 1,
+      "answer": 3,
       "recycle": true
     },
     {
       "id": "r02",
       "type": "listen_select",
       "audio": {
-        "bn": "স্কুল",
-        "tr": "skul",
-        "en": "school"
+        "bn": "ও",
+        "tr": "o",
+        "en": "he/she (spoken)"
       },
       "options": [
-        "বাজার",
-        "পছন্দ",
-        "স্কুল",
-        "কথা"
+        "তোর",
+        "আমাদের",
+        "এইটা",
+        "ও"
       ],
-      "answer": 2,
+      "answer": 3,
       "recycle": true
     },
     {
       "id": "r03",
       "type": "select_translation",
       "prompt": {
-        "bn": "দাঁত",
-        "tr": "da~t",
-        "en": "teeth"
+        "bn": "চল্লিশ",
+        "tr": "chollish",
+        "en": "forty"
       },
       "direction": "en_to_bn",
       "options": [
-        "চা",
-        "ট্রেন",
-        "কথা",
-        "দাঁত"
+        "বারো",
+        "আঠারো",
+        "চল্লিশ",
+        "বারোটা"
       ],
-      "answer": 3,
+      "answer": 2,
       "recycle": true
     },
     {
@@ -423,24 +423,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "নাস্তার",
-          "tr": "nashtar",
-          "en": "of breakfast"
+          "bn": "দুইজন",
+          "tr": "duijon",
+          "en": "two (people)"
         },
         {
-          "bn": "উত্তর",
-          "tr": "uttor",
-          "en": "answer"
+          "bn": "দিকে",
+          "tr": "dike",
+          "en": "way"
         },
         {
-          "bn": "লাগে",
-          "tr": "lage",
-          "en": "feels"
+          "bn": "ত্রিশ",
+          "tr": "trish",
+          "en": "thirty"
         },
         {
-          "bn": "ঘুমের",
-          "tr": "ghumer",
-          "en": "of sleep"
+          "bn": "এটার",
+          "tr": "etar",
+          "en": "of this"
         }
       ],
       "recycle": true
@@ -450,24 +450,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "দশটায়",
-          "tr": "doshtay",
-          "en": "at ten o'clock"
+          "bn": "কয়জন",
+          "tr": "koyjon",
+          "en": "how many (people)"
         },
         {
-          "bn": "সোজা",
-          "tr": "shoja",
-          "en": "straight"
+          "bn": "দে",
+          "tr": "de",
+          "en": "give (intimate)"
         },
         {
-          "bn": "এগুলো",
-          "tr": "egulo",
-          "en": "these"
+          "bn": "সত্যি",
+          "tr": "shotti",
+          "en": "really"
         },
         {
-          "bn": "পাঁচটা",
-          "tr": "pa~chta",
-          "en": "five (o'clock)"
+          "bn": "আপনারা",
+          "tr": "apnara",
+          "en": "you (polite, plural)"
         }
       ],
       "recycle": true

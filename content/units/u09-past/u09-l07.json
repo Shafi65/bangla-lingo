@@ -403,20 +403,19 @@
     },
     {
       "id": "r01",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "মতো",
         "tr": "moto",
         "en": "like"
       },
-      "direction": "en_to_bn",
       "options": [
         "আগে",
+        "মতো",
         "উপরে",
-        "নিচে",
-        "মতো"
+        "নিচে"
       ],
-      "answer": 3,
+      "answer": 1,
       "recycle": true
     },
     {
@@ -427,29 +426,30 @@
         "tr": "chhilen",
         "en": "you were (polite)"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "(I) know",
-        "I took",
-        "you were (polite)",
-        "I saw"
+        "যাই",
+        "শোনে",
+        "যায়",
+        "ছিলেন"
       ],
-      "answer": 2,
+      "answer": 3,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "ছিলে",
         "tr": "chhile",
         "en": "you were (familiar)"
       },
+      "direction": "bn_to_en",
       "options": [
-        "ছিলে",
-        "খান",
-        "বললাম",
-        "উঠলাম"
+        "you were (familiar)",
+        "(you/he/she, polite) eat",
+        "I said",
+        "I ate"
       ],
       "answer": 0,
       "recycle": true

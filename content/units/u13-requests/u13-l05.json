@@ -423,42 +423,42 @@
         "tr": "plij",
         "en": "please"
       },
-      "direction": "en_to_bn",
+      "direction": "bn_to_en",
       "options": [
-        "প্লিজ",
-        "জি",
-        "কারণ",
-        "যখন"
+        "please",
+        "yes (polite)",
+        "because",
+        "when"
       ],
       "answer": 0,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "খুলতে",
         "tr": "khulte",
         "en": "to open"
       },
-      "direction": "bn_to_en",
       "options": [
-        "to speak",
-        "please come (standard)",
-        "to open",
-        "to stay"
+        "বলতে",
+        "আসুন",
+        "খুলতে",
+        "থাকতে"
       ],
       "answer": 2,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "দেখাতে",
         "tr": "dekhate",
         "en": "to show"
       },
+      "direction": "en_to_bn",
       "options": [
         "আসুন",
         "চাই",
@@ -505,9 +505,9 @@
           "en": "say (familiar)"
         },
         {
-          "bn": "বলবে",
-          "tr": "bolbe",
-          "en": "you (familiar) / he, she will say"
+          "bn": "আছেন",
+          "tr": "achhen",
+          "en": "are (polite)"
         },
         {
           "bn": "শুনলাম",

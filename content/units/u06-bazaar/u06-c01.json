@@ -1,0 +1,449 @@
+{
+  "id": "u06-c01",
+  "unit": "u06-bazaar",
+  "title": "Checkpoint: Units 4–6",
+  "status": "draft",
+  "tip": "A mixed test of Units 4–6: food, numbers and time, the bazaar. No new words.\n\n- Endings by person: আমি **খাই**, তুমি **খাও**, আপনি **খান**, সে **খায়**.\n- Liking and needing are felt: **আমার** মাছ পছন্দ, **আমার** আলু লাগবে.\n- **সাড়ে** তিনটা is 3:30, but 1:30 and 2:30 are **দেড়টা** and **আড়াইটা**.\n- \"Give\": দে (তুই) · দাও (তুমি) · দেন / দিন (আপনি).",
+  "vocab": [],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "সাড়ে",
+          "tr": "share",
+          "en": "half past"
+        },
+        {
+          "bn": "সোয়া",
+          "tr": "shoya",
+          "en": "quarter past"
+        },
+        {
+          "bn": "পৌনে",
+          "tr": "poune",
+          "en": "quarter to"
+        },
+        {
+          "bn": "দেড়টা",
+          "tr": "derta",
+          "en": "half past one"
+        },
+        {
+          "bn": "আড়াইটা",
+          "tr": "araita",
+          "en": "half past two"
+        }
+      ],
+      "why": "**সাড়ে** + hour = half past (from 3:30 on); 1:30 and 2:30 have their own words."
+    },
+    {
+      "id": "e02",
+      "type": "listen_select",
+      "audio": {
+        "bn": "পাঁচশ",
+        "tr": "pa~chsho",
+        "en": "five hundred"
+      },
+      "options": [
+        "পাঁচ",
+        "পঞ্চাশ",
+        "পাঁচশ",
+        "পনেরো"
+      ],
+      "answer": 2,
+      "why": "**পাঁচশ** = 500 (পাঁচ + শ \"hundred\"); পঞ্চাশ = 50, পনেরো = 15."
+    },
+    {
+      "id": "e03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "কাল শনিবার।",
+        "tr": "kal shonibar.",
+        "en": "Tomorrow is Saturday."
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "Today is Saturday.",
+        "Tomorrow is Saturday.",
+        "Is tomorrow Saturday?",
+        "Saturday is a holiday."
+      ],
+      "answer": 1,
+      "why": "With no past verb, **কাল** means tomorrow; আজ = today."
+    },
+    {
+      "id": "e04",
+      "type": "script_recognize",
+      "glyph": "মিষ্টি",
+      "options": [
+        "mitti (no sh)",
+        "mishiti (an i between sh and t)",
+        "mishti (ষ্ট: sh + t)",
+        "misht (no final i)"
+      ],
+      "answer": 2,
+      "why": "**ষ্ট** stacks ষ (sh) on ট (t) with no vowel between; ি adds the final i."
+    },
+    {
+      "id": "e05",
+      "type": "reading",
+      "title": "Mangoes at the bazaar",
+      "lines": [
+        {
+          "speaker": "Rafi",
+          "bn": "ভাই, এই আমগুলো কত?",
+          "tr": "bhai, ei amgulo koto?",
+          "en": "Brother, how much are these mangoes?"
+        },
+        {
+          "speaker": "Shopkeeper",
+          "bn": "একশ টাকা কেজি।",
+          "tr": "eksho taka keji.",
+          "en": "A hundred taka a kilo."
+        },
+        {
+          "speaker": "Rafi",
+          "bn": "এত দাম কেন? একটু কম রাখেন।",
+          "tr": "eto dam keno? ektu kom rakhen.",
+          "en": "Why so expensive? Please lower it a little."
+        },
+        {
+          "speaker": "Shopkeeper",
+          "bn": "ঠিক আছে, আশি টাকা দেন।",
+          "tr": "thik achhe, ashi taka den.",
+          "en": "OK, give me eighty taka."
+        },
+        {
+          "speaker": "Rafi",
+          "bn": "আচ্ছা, আমাকে দুই কেজি দেন।",
+          "tr": "achchha, amake dui keji den.",
+          "en": "OK, please give me two kilos."
+        },
+        {
+          "speaker": "Shopkeeper",
+          "bn": "আর কিছু লাগবে?",
+          "tr": "ar kichhu lagbe?",
+          "en": "Do you need anything else?"
+        },
+        {
+          "speaker": "Rafi",
+          "bn": "না, লাগবে না, ধন্যবাদ।",
+          "tr": "na, lagbe na, dhonnobad.",
+          "en": "No, I don't need anything, thank you."
+        }
+      ],
+      "question": "In the end, what price per kilo do they agree on?",
+      "options": [
+        "100 taka",
+        "80 taka",
+        "160 taka"
+      ],
+      "answer": 1,
+      "why": "The shopkeeper drops from **একশ** (100) to **আশি** (80) a kilo; two kilos make 160."
+    },
+    {
+      "id": "e06",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "এখন সাড়ে তিনটা বাজে।",
+        "tr": "ekhon share tinta baje.",
+        "en": "It's half past three now."
+      },
+      "options": [
+        "It's three o'clock now.",
+        "It's quarter past three now.",
+        "It's half past two now.",
+        "It's half past three now."
+      ],
+      "answer": 3,
+      "why": "**সাড়ে তিনটা** = 3:30. 3:15 is সোয়া তিনটা, and 2:30 is আড়াইটা."
+    },
+    {
+      "id": "e07",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আপনি কী খান?",
+        "tr": "apni ki khan?",
+        "en": "What do you eat? (polite)"
+      },
+      "blank": "খান",
+      "options": [
+        "খাই",
+        "খাও",
+        "খান",
+        "খায়"
+      ],
+      "answer": 2,
+      "why": "আপনি takes **-ন**: খান. খাই = I, খাও = তুমি, খায় = সে."
+    },
+    {
+      "id": "e08",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আমার মাছ পছন্দ।",
+        "tr": "amar machh pochhondo.",
+        "en": "I like fish."
+      },
+      "blank": "আমার",
+      "options": [
+        "আমি",
+        "আমার",
+        "আমাকে"
+      ],
+      "answer": 1,
+      "why": "Liking is something you feel, so the person takes **-র**: **আমার** মাছ পছন্দ."
+    },
+    {
+      "id": "e09",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আমাকে একটু ভাত দিন।",
+        "tr": "amake ektu bhat din.",
+        "en": "Please give me a little rice."
+      },
+      "blank": "একটু",
+      "options": [
+        "একটা",
+        "একটু"
+      ],
+      "answer": 1,
+      "why": "**একটু** = a little (rice, water); **একটা** = one (a mango, a bag)."
+    },
+    {
+      "id": "e10",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আমাকে একটা ইলিশ দেন।",
+        "tr": "amake ekta ilish den.",
+        "en": "Please give me a hilsa. (polite)"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "আমাকে একটা ইলিশ দে।",
+        "আমাকে একটা ইলিশ দেন।",
+        "আমাকে একটা ইলিশ দাও।",
+        "আমি একটা ইলিশ দেন।"
+      ],
+      "answer": 1,
+      "why": "To a stranger use **দেন** (or standard দিন); দাও is for তুমি, দে for তুই. \"Me\" is **আমাকে**."
+    },
+    {
+      "id": "e11",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমার দুই কেজি আলু লাগবে।",
+        "tr": "amar dui keji alu lagbe.",
+        "en": "I need two kilos of potatoes."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "কেজি",
+        "আমি",
+        "লাগবে",
+        "হালি",
+        "আমার",
+        "আলু",
+        "পেঁয়াজ",
+        "দুই"
+      ],
+      "answer": [
+        "আমার",
+        "দুই",
+        "কেজি",
+        "আলু",
+        "লাগবে"
+      ],
+      "why": "Need = **আমার** … **লাগবে**; number + measure + noun: দুই কেজি আলু."
+    },
+    {
+      "id": "e12",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "এখন কয়টা বাজে?",
+        "tr": "ekhon koyta baje?",
+        "en": "What time is it now?"
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "time",
+        "day",
+        "is",
+        "What",
+        "today",
+        "now",
+        "it",
+        "how"
+      ],
+      "answer": [
+        "What",
+        "time",
+        "is",
+        "it",
+        "now"
+      ],
+      "why": "**কয়টা বাজে?** = what time is it? (literally \"how many has it struck?\")."
+    },
+    {
+      "id": "e13",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আমি ভাত খেতে চাই।",
+        "tr": "ami bhat khete chai.",
+        "en": "I want to eat rice."
+      },
+      "blank": "খেতে",
+      "accepted": [
+        "খেতে",
+        "khete",
+        "kheta"
+      ],
+      "why": "\"Want to\" = **-তে** form + চাই: **খেতে** চাই."
+    },
+    {
+      "id": "e14",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "এটা কত?",
+        "tr": "eta koto?",
+        "en": "How much is this?"
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "এটা কত",
+        "এটার দাম কত",
+        "এইটা কত",
+        "eta koto",
+        "etar dam koto",
+        "eita koto",
+        "eta koto taka"
+      ],
+      "why": "**কত** goes where the answer goes: এটা **কত**? → এটা পঞ্চাশ টাকা."
+    },
+    {
+      "id": "e15",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আমি মাংস খাই না।",
+        "tr": "ami mangsho khai na.",
+        "en": "I don't eat meat."
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "আমি মাংস খাই না",
+        "ami mangsho khai na",
+        "ami mangso khai na",
+        "ami mangsho khaina"
+      ],
+      "why": "Negate with **না** after the verb: খাই **না**."
+    },
+    {
+      "id": "r01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "রাত",
+        "tr": "rat",
+        "en": "night"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "বুধবার",
+        "রাত",
+        "নানা",
+        "বোন"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "প্রথম",
+        "tr": "prothom",
+        "en": "first"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "cheap",
+        "bad",
+        "first",
+        "tasty"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "listen_select",
+      "audio": {
+        "bn": "তুই",
+        "tr": "tui",
+        "en": "you (intimate)"
+      },
+      "options": [
+        "তুই",
+        "আমাদের",
+        "এটার",
+        "আপনারা"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "চল্লিশ",
+          "tr": "chollish",
+          "en": "forty"
+        },
+        {
+          "bn": "তোর",
+          "tr": "tor",
+          "en": "your (intimate)"
+        },
+        {
+          "bn": "আছো",
+          "tr": "achho",
+          "en": "are (familiar)"
+        },
+        {
+          "bn": "বারো",
+          "tr": "baro",
+          "en": "twelve"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "চৌদ্দ",
+          "tr": "choddo",
+          "en": "fourteen"
+        },
+        {
+          "bn": "ষাট",
+          "tr": "shat",
+          "en": "sixty"
+        },
+        {
+          "bn": "আমাদের",
+          "tr": "amader",
+          "en": "our"
+        },
+        {
+          "bn": "লেগেছে",
+          "tr": "legechhe",
+          "en": "has come on (felt)"
+        }
+      ],
+      "recycle": true
+    }
+  ]
+}

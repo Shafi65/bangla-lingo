@@ -1,0 +1,449 @@
+{
+  "id": "u03-c01",
+  "unit": "u03-family",
+  "title": "Checkpoint: Units 1–3",
+  "status": "draft",
+  "tip": "A checkpoint mixes everything from Units 1–3. There are no new words: show what you know.\n\n- The verb follows the person: আমি **আছি**, তুমি **আছো**, আপনি **আছেন**, সে **আছে**, তুই **আছিস**.\n- **কি** asks yes/no; **কী** means \"what\".\n- **নই / নও / নন / নয়** = is not (something); **নেই** = is not there, don't have.\n- Father's side: **চাচা, ফুফু, দাদা**. Mother's side: **মামা, খালা, নানা**.",
+  "vocab": [],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "চাচা",
+          "tr": "chacha",
+          "en": "uncle (father's brother)"
+        },
+        {
+          "bn": "মামা",
+          "tr": "mama",
+          "en": "uncle (mother's brother)"
+        },
+        {
+          "bn": "ফুফু",
+          "tr": "fufu",
+          "en": "aunt (father's sister)"
+        },
+        {
+          "bn": "খালা",
+          "tr": "khala",
+          "en": "aunt (mother's sister)"
+        },
+        {
+          "bn": "নানি",
+          "tr": "nani",
+          "en": "grandmother (mother's mother)"
+        }
+      ],
+      "why": "Father's side: **চাচা, ফুফু, দাদা, দাদি**. Mother's side: **মামা, খালা, নানা, নানি**."
+    },
+    {
+      "id": "e02",
+      "type": "listen_select",
+      "audio": {
+        "bn": "আপনি কেমন আছেন?",
+        "tr": "apni kemon achhen?",
+        "en": "How are you? (polite)"
+      },
+      "options": [
+        "তুমি কেমন আছো?",
+        "আপনি কেমন আছেন?",
+        "তুই কেমন আছিস?"
+      ],
+      "answer": 1,
+      "why": "The verb ending matches the pronoun: আপনি **আছেন**, তুমি **আছো**, তুই **আছিস**."
+    },
+    {
+      "id": "e03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "রাফি এখানে নেই।",
+        "tr": "rafi ekhane nei.",
+        "en": "Rafi isn't here."
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "Rafi isn't a doctor.",
+        "Rafi is here.",
+        "Rafi isn't here.",
+        "Where is Rafi?"
+      ],
+      "answer": 2,
+      "why": "**নেই** = not there; \"isn't a doctor\" would be রাফি ডাক্তার **নয়**."
+    },
+    {
+      "id": "e04",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "চাচা, আপনি কেমন আছেন?",
+        "tr": "chacha, apni kemon achhen?",
+        "en": "Uncle, how are you?"
+      },
+      "blank": "আছেন",
+      "options": [
+        "আছো",
+        "আছেন",
+        "আছিস",
+        "আছে"
+      ],
+      "answer": 1,
+      "why": "You speak to an uncle with **আপনি**, and আপনি takes **আছেন**."
+    },
+    {
+      "id": "e05",
+      "type": "reading",
+      "title": "Who is he?",
+      "lines": [
+        {
+          "speaker": "Emma",
+          "bn": "রাফি, উনি কে?",
+          "tr": "rafi, uni ke?",
+          "en": "Rafi, who is he?"
+        },
+        {
+          "speaker": "Rafi",
+          "bn": "উনি আমার মামা।",
+          "tr": "uni amar mama.",
+          "en": "He is my uncle (mama)."
+        },
+        {
+          "speaker": "Emma",
+          "bn": "মামা মানে কী?",
+          "tr": "mama mane ki?",
+          "en": "What does \"mama\" mean?"
+        },
+        {
+          "speaker": "Rafi",
+          "bn": "মামা আমার মায়ের ভাই।",
+          "tr": "mama amar mayer bhai.",
+          "en": "Mama is my mother's brother."
+        },
+        {
+          "speaker": "Emma",
+          "bn": "আচ্ছা। ওনার কি বাচ্চা আছে?",
+          "tr": "achchha. onar ki bachcha achhe?",
+          "en": "OK. Does he have children?"
+        },
+        {
+          "speaker": "Rafi",
+          "bn": "ওনার দুইজন মেয়ে আছে, কিন্তু ছেলে নেই।",
+          "tr": "onar duijon meye achhe, kintu chhele nei.",
+          "en": "He has two daughters, but no son."
+        },
+        {
+          "speaker": "Emma",
+          "bn": "উনি কি ডাক্তার?",
+          "tr": "uni ki daktar?",
+          "en": "Is he a doctor?"
+        },
+        {
+          "speaker": "Rafi",
+          "bn": "না, উনি ডাক্তার নন, উনি শিক্ষক।",
+          "tr": "na, uni daktar non, uni shikkhok.",
+          "en": "No, he isn't a doctor, he is a teacher."
+        }
+      ],
+      "question": "Who is the man?",
+      "options": [
+        "Rafi's father's brother",
+        "Rafi's mother's brother",
+        "Rafi's elder brother"
+      ],
+      "answer": 1,
+      "why": "**মামা** is your mother's brother (**মায়ের ভাই**); your father's brother is চাচা."
+    },
+    {
+      "id": "e06",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "আমার ভাই আছে, কিন্তু বোন নেই।",
+        "tr": "amar bhai achhe, kintu bon nei.",
+        "en": "I have a brother, but no sister."
+      },
+      "options": [
+        "I have a sister, but no brother.",
+        "I have a brother, but no sister.",
+        "My brother is a doctor, but my sister isn't.",
+        "I don't have a brother or a sister."
+      ],
+      "answer": 1,
+      "why": "**আমার … আছে** = I have; **নেই** = I don't have."
+    },
+    {
+      "id": "e07",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আমি শিক্ষক নই।",
+        "tr": "ami shikkhok noi.",
+        "en": "I am not a teacher."
+      },
+      "blank": "নই",
+      "options": [
+        "নয়",
+        "নন",
+        "নই",
+        "নেই"
+      ],
+      "answer": 2,
+      "why": "আমি **নই** · তুমি নও · আপনি / উনি নন · সে নয়. **নেই** means \"not there\"."
+    },
+    {
+      "id": "e08",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "তোমার নাম কী?",
+        "tr": "tomar nam ki?",
+        "en": "What is your name?"
+      },
+      "blank": "কী",
+      "options": [
+        "কি",
+        "কী"
+      ],
+      "answer": 1,
+      "why": "**কী** (long ী) = what. **কি** (short ি) only turns a sentence into a yes/no question."
+    },
+    {
+      "id": "e09",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "মামা আমার মায়ের ভাই।",
+        "tr": "mama amar mayer bhai.",
+        "en": "Mama is my mother's brother."
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "মামা আমার বাবার ভাই।",
+        "চাচা আমার মায়ের ভাই।",
+        "খালা আমার মায়ের বোন।",
+        "মামা আমার মায়ের ভাই।"
+      ],
+      "answer": 3,
+      "why": "Mother's = **মায়ের**, father's = **বাবার**; mother's brother = **মামা**."
+    },
+    {
+      "id": "e10",
+      "type": "script_recognize",
+      "glyph": "বড়",
+      "options": [
+        "bodo (ব + ড, no dot)",
+        "roro (র + ড়)",
+        "boro (ব + ড়)",
+        "boyo (ব + য়)"
+      ],
+      "answer": 2,
+      "why": "The dot under ড makes **ড়**, a flapped r; ব has no dot (র has one)."
+    },
+    {
+      "id": "e11",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আপনি কোথা থেকে এসেছেন?",
+        "tr": "apni kotha theke eshechhen?",
+        "en": "Where are you from? (polite)"
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "এসেছি",
+        "থেকে",
+        "আপনি",
+        "কোথায়",
+        "এসেছেন",
+        "তুমি",
+        "কোথা"
+      ],
+      "answer": [
+        "আপনি",
+        "কোথা",
+        "থেকে",
+        "এসেছেন"
+      ],
+      "why": "Before থেকে, \"where\" is **কোথা**; **এসেছেন** is the আপনি form (এসেছি = I have come)."
+    },
+    {
+      "id": "e12",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমাদের একটা মেয়ে আছে।",
+        "tr": "amader ekta meye achhe.",
+        "en": "We have a daughter."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "have",
+        "son",
+        "We",
+        "don't",
+        "a",
+        "I",
+        "daughter"
+      ],
+      "answer": [
+        "We",
+        "have",
+        "a",
+        "daughter"
+      ],
+      "why": "**আমাদের** (our) + noun + **আছে** = we have."
+    },
+    {
+      "id": "e13",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আমার দুইজন ভাই আছে।",
+        "tr": "amar duijon bhai achhe.",
+        "en": "I have two brothers."
+      },
+      "blank": "দুইজন",
+      "accepted": [
+        "দুইজন",
+        "duijon",
+        "dui jon",
+        "duijn"
+      ],
+      "why": "People are counted with **-জন**: একজন, **দুইজন**."
+    },
+    {
+      "id": "e14",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আমার বড় ভাই ডাক্তার।",
+        "tr": "amar boro bhai daktar.",
+        "en": "My elder brother is a doctor."
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "আমার বড় ভাই ডাক্তার",
+        "আমার ভাইয়া ডাক্তার",
+        "amar boro bhai daktar",
+        "amar bhaiya daktar",
+        "amar boro bhai doctor"
+      ],
+      "why": "Elder = **বড়**, and no word for \"is\": **আমার বড় ভাই ডাক্তার**."
+    },
+    {
+      "id": "e15",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আমার ভাই নেই।",
+        "tr": "amar bhai nei.",
+        "en": "I don't have a brother."
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "আমার ভাই নেই",
+        "amar bhai nei",
+        "amar bhai nai"
+      ],
+      "why": "Not having = **আমার** + noun + **নেই**."
+    },
+    {
+      "id": "r01",
+      "type": "listen_select",
+      "audio": {
+        "bn": "ছাত্র",
+        "tr": "chhatro",
+        "en": "student (male)"
+      },
+      "options": [
+        "বন্ধু",
+        "বাবা",
+        "ছাত্র",
+        "ছেলে"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "বুঝতে পারছি না",
+        "tr": "bujhte parchhi na",
+        "en": "I don't understand"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "নমস্কার",
+        "আসসালামু আলাইকুম",
+        "বুঝতে পারছি না",
+        "ধন্যবাদ"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "তারা",
+        "tr": "tara",
+        "en": "they"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "they",
+        "who",
+        "his/her (polite)",
+        "you (intimate)"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "ওরা",
+          "tr": "ora",
+          "en": "they (spoken)"
+        },
+        {
+          "bn": "আপনারা",
+          "tr": "apnara",
+          "en": "you (polite, plural)"
+        },
+        {
+          "bn": "সে",
+          "tr": "she",
+          "en": "he/she"
+        },
+        {
+          "bn": "নও",
+          "tr": "noo",
+          "en": "are not (familiar)"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "মানুষ",
+          "tr": "manush",
+          "en": "person"
+        },
+        {
+          "bn": "তোরা",
+          "tr": "tora",
+          "en": "you (intimate, plural)"
+        },
+        {
+          "bn": "তিনি",
+          "tr": "tini",
+          "en": "he/she (polite)"
+        },
+        {
+          "bn": "নানা",
+          "tr": "nana",
+          "en": "grandfather (mother's father)"
+        }
+      ],
+      "recycle": true
+    }
+  ]
+}

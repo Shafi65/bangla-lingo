@@ -854,6 +854,161 @@
           ]
         }
       ]
+    },
+    {
+      "id": "u12-c01",
+      "title": "Checkpoint: Units 10–12",
+      "kind": "checkpoint",
+      "goal": "Talk about festivals and plans, invite and decline, and say what you have to, can and want to do, mixing everything from Units 10–12.",
+      "grammar": [
+        "checkpoint: future by person (-ব / -বি / -বে / -বেন) and its negative (খাব না)",
+        "checkpoint: আমাকে … -তে হবে (have to) vs আমি … -তে পারি / চাই (can / want to); -তে হবে না = don't have to",
+        "checkpoint: পারিনি / পারব; -তে for purpose; invitations with যদি and আসবেন"
+      ],
+      "new": [],
+      "review": [
+        "id-mubarak",
+        "ide",
+        "ider",
+        "notun",
+        "jonno",
+        "ashben",
+        "ashbe",
+        "hobe",
+        "jodi",
+        "hoy",
+        "korbo",
+        "khabo",
+        "thakbo",
+        "korbe",
+        "korben",
+        "korbi",
+        "kinbe",
+        "tomake",
+        "korte",
+        "jete",
+        "ashte",
+        "kinte",
+        "hobe-must",
+        "uthte",
+        "taratari",
+        "parini",
+        "parbo",
+        "parben",
+        "shikhte",
+        "aste"
+      ],
+      "tip": "A mixed test of Units 10–12: festivals, plans and \"have to\". No new words.\n\n- Future: আমি **-ব**, তুই **-বি**, তুমি / সে **-বে**, আপনি **-বেন**. Won't: **খাব না**.\n- Have to: **আমাকে** যেতে হবে (the person takes **-কে**). Can and want keep আমি: **আমি** যেতে পারি / চাই.\n- **-তে হবে না** = don't have to, not \"mustn't\".\n- Couldn't: **পারিনি**. Will be able to: **পারব**.",
+      "sentences": [
+        {
+          "bn": "আপনি কাল কী করবেন?",
+          "tr": "apni kal ki korben?",
+          "en": "What will you do tomorrow? (polite)"
+        },
+        {
+          "bn": "আমাকে যেতে হবে।",
+          "tr": "amake jete hobe.",
+          "en": "I have to go."
+        },
+        {
+          "bn": "আমি বাংলা বুঝতে পারি।",
+          "tr": "ami bangla bujhte pari.",
+          "en": "I can understand Bengali."
+        },
+        {
+          "bn": "তোমাকে আসতে হবে না।",
+          "tr": "tomake ashte hobe na.",
+          "en": "You don't have to come."
+        },
+        {
+          "bn": "আমাকে কাল তাড়াতাড়ি উঠতে হবে।",
+          "tr": "amake kal taratari uthte hobe.",
+          "en": "I have to get up early tomorrow."
+        },
+        {
+          "bn": "আমি মাছ কিনতে বাজারে যাব।",
+          "tr": "ami machh kinte bajare jabo.",
+          "en": "I will go to the market to buy fish."
+        },
+        {
+          "bn": "যদি সময় হয়, আমাদের বাসায় আসবেন।",
+          "tr": "jodi shomoy hoy, amader bashay ashben.",
+          "en": "If you have time, please come to our home."
+        },
+        {
+          "bn": "আপনি কি একটু আস্তে বলতে পারবেন?",
+          "tr": "apni ki ektu aste bolte parben?",
+          "en": "Could you speak a little more slowly?"
+        },
+        {
+          "bn": "আমি তোমাকে ফোন করব।",
+          "tr": "ami tomake fon korbo.",
+          "en": "I will call you."
+        },
+        {
+          "bn": "আমরা মাংস খাব না।",
+          "tr": "amra mangsho khabo na.",
+          "en": "We won't eat meat."
+        }
+      ],
+      "dialogue": {
+        "title": "Plans for Eid",
+        "lines": [
+          {
+            "speaker": "Nadia",
+            "bn": "রাফি, ঈদে তুমি কী করবে?",
+            "tr": "rafi, ide tumi ki korbe?",
+            "en": "Rafi, what will you do at Eid?"
+          },
+          {
+            "speaker": "Rafi",
+            "bn": "আমি গ্রামে যাব, কিন্তু আগে আমাকে বাজারে যেতে হবে।",
+            "tr": "ami grame jabo, kintu age amake bajare jete hobe.",
+            "en": "I'll go to the village, but first I have to go to the market."
+          },
+          {
+            "speaker": "Nadia",
+            "bn": "বাজারে কী কিনবে?",
+            "tr": "bajare ki kinbe?",
+            "en": "What will you buy at the market?"
+          },
+          {
+            "speaker": "Rafi",
+            "bn": "মায়ের জন্য একটা নতুন শাড়ি কিনব।",
+            "tr": "mayer jonno ekta notun shari kinbo.",
+            "en": "I'll buy a new sari for my mother."
+          },
+          {
+            "speaker": "Nadia",
+            "bn": "ঈদের দিন আমাদের বাসায় আসবে?",
+            "tr": "ider din amader bashay ashbe?",
+            "en": "Will you come to our home on Eid day?"
+          },
+          {
+            "speaker": "Rafi",
+            "bn": "দুঃখিত, আমি আসতে পারব না, কারণ আমি গ্রামে থাকব।",
+            "tr": "dukkhito, ami ashte parbo na, karon ami grame thakbo.",
+            "en": "Sorry, I won't be able to come, because I'll be in the village."
+          },
+          {
+            "speaker": "Nadia",
+            "bn": "ঠিক আছে, ঈদ মোবারক!",
+            "tr": "thik achhe, id mubarak!",
+            "en": "OK, Eid Mubarak!"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Why can't Rafi come to Nadia's home on Eid day?",
+            "options": [
+              "He will be in the village",
+              "He has to go to the market",
+              "He has to work"
+            ],
+            "answer": 0
+          }
+        ]
+      }
     }
   ]
 }

@@ -356,12 +356,13 @@
     },
     {
       "id": "r01",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "রাখেন",
         "tr": "rakhen",
         "en": "keep (polite)"
       },
+      "direction": "en_to_bn",
       "options": [
         "রাখেন",
         "এসেছি",
@@ -379,30 +380,29 @@
         "tr": "keno",
         "en": "why"
       },
-      "direction": "en_to_bn",
+      "direction": "bn_to_en",
       "options": [
-        "রাতে",
-        "বিকালে",
-        "শুধু",
-        "কেন"
+        "at night",
+        "in the afternoon",
+        "only",
+        "why"
       ],
       "answer": 3,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "এত",
         "tr": "eto",
         "en": "so"
       },
-      "direction": "bn_to_en",
       "options": [
-        "a little",
-        "at night",
-        "so",
-        "tomorrow; yesterday"
+        "একটু",
+        "রাতে",
+        "এত",
+        "কাল"
       ],
       "answer": 2,
       "recycle": true

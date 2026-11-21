@@ -517,14 +517,14 @@
       "id": "r01",
       "type": "fill_blank",
       "sentence": {
-        "bn": "না, এখনো না।",
-        "tr": "na, ekhono na.",
-        "en": "No, not yet."
+        "bn": "লাইন কেটে গেছে।",
+        "tr": "lain kete gechhe.",
+        "en": "The line got cut."
       },
-      "blank": "এখনো না",
+      "blank": "কেটে গেছে",
       "accepted": [
-        "এখনো না",
-        "ekhono na"
+        "কেটে গেছে",
+        "kete gechhe"
       ],
       "recycle": true
     },
@@ -538,29 +538,29 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "never",
+        "what happened",
         "to the Shaheed Minar",
-        "(we) will meet",
-        "I don't need it"
+        "never",
+        "sometimes"
       ],
-      "answer": 0,
+      "answer": 2,
       "recycle": true
     },
     {
       "id": "r03",
       "type": "listen_select",
       "audio": {
-        "bn": "শহীদ মিনার",
-        "tr": "shohid minar",
-        "en": "Shaheed Minar"
+        "bn": "অপেক্ষা",
+        "tr": "opekkha",
+        "en": "waiting"
       },
       "options": [
-        "লাগবে না",
-        "ইনশাআল্লাহ",
-        "শহীদ মিনার",
-        "কেটে গেছে"
+        "মায়ের",
+        "বিশ্ববিদ্যালয়",
+        "পূজা",
+        "অপেক্ষা"
       ],
-      "answer": 2,
+      "answer": 3,
       "recycle": true
     },
     {
@@ -568,19 +568,19 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "তার",
-          "tr": "tar",
-          "en": "his/her"
+          "bn": "চার্জ",
+          "tr": "charj",
+          "en": "charge (battery)"
         },
         {
-          "bn": "কেউ",
-          "tr": "keu",
-          "en": "someone"
+          "bn": "চায়",
+          "tr": "chay",
+          "en": "he/she wants"
         },
         {
-          "bn": "এইটা",
-          "tr": "eita",
-          "en": "this one"
+          "bn": "ফোনে",
+          "tr": "fone",
+          "en": "on the phone"
         },
         {
           "bn": "যাবি",
@@ -595,24 +595,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "করল",
-          "tr": "korlo",
-          "en": "did"
+          "bn": "এইটা",
+          "tr": "eita",
+          "en": "this one"
         },
         {
-          "bn": "লিখি",
-          "tr": "likhi",
-          "en": "I write"
+          "bn": "পড়তে",
+          "tr": "porte",
+          "en": "to read"
         },
         {
-          "bn": "ওই",
-          "tr": "oi",
-          "en": "that"
+          "bn": "থাকবেন",
+          "tr": "thakben",
+          "en": "you / he, she (polite) will stay"
         },
         {
-          "bn": "শুধু",
-          "tr": "shudhu",
-          "en": "only"
+          "bn": "আপনাকে",
+          "tr": "apnake",
+          "en": "you (polite, object)"
         }
       ],
       "recycle": true

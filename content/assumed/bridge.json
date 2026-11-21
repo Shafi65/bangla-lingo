@@ -155,13 +155,6 @@
       "pos": "verb"
     },
     {
-      "id": "hoyechhe",
-      "bn": "হয়েছে",
-      "tr": "hoyechhe",
-      "en": "has happened; has become",
-      "pos": "verb"
-    },
-    {
       "id": "hoyechhi",
       "bn": "হয়েছি",
       "tr": "hoyechhi",
@@ -583,13 +576,6 @@
       "notes": "Standard নিন (I5)."
     },
     {
-      "id": "toke",
-      "bn": "তোকে",
-      "tr": "toke",
-      "en": "you (intimate, object)",
-      "pos": "pronoun"
-    },
-    {
       "id": "tader",
       "bn": "তাদের",
       "tr": "tader",
@@ -833,63 +819,10 @@
       "pos": "adj"
     },
     {
-      "id": "khali",
-      "bn": "খালি",
-      "tr": "khali",
-      "en": "empty; free",
-      "pos": "adj"
-    },
-    {
-      "id": "joruri",
-      "bn": "জরুরি",
-      "tr": "joruri",
-      "en": "urgent",
-      "pos": "adj"
-    },
-    {
-      "id": "thik",
-      "bn": "ঠিক",
-      "tr": "thik",
-      "en": "right; correct; exactly",
-      "pos": "adj"
-    },
-    {
-      "id": "klanto",
-      "bn": "ক্লান্ত",
-      "tr": "klanto",
-      "en": "tired",
-      "pos": "adj"
-    },
-    {
-      "id": "khushi",
-      "bn": "খুশি",
-      "tr": "khushi",
-      "en": "happy",
-      "pos": "adj"
-    },
-    {
-      "id": "oshustho",
-      "bn": "অসুস্থ",
-      "tr": "oshustho",
-      "en": "ill",
-      "pos": "adj",
-      "alt": [
-        "sick",
-        "unwell"
-      ]
-    },
-    {
       "id": "gorom",
       "bn": "গরম",
       "tr": "gorom",
       "en": "hot; heat",
-      "pos": "adj"
-    },
-    {
-      "id": "thanda",
-      "bn": "ঠান্ডা",
-      "tr": "thanda",
-      "en": "cold; a cold",
       "pos": "adj"
     },
     {
@@ -957,20 +890,6 @@
       "notes": "X-এর চেয়ে 'than X'."
     },
     {
-      "id": "rag",
-      "bn": "রাগ",
-      "tr": "rag",
-      "en": "anger",
-      "pos": "noun"
-    },
-    {
-      "id": "bhoy",
-      "bn": "ভয়",
-      "tr": "bhoy",
-      "en": "fear",
-      "pos": "noun"
-    },
-    {
       "id": "mon",
       "bn": "মন",
       "tr": "mon",
@@ -978,59 +897,10 @@
       "pos": "noun"
     },
     {
-      "id": "shorir",
-      "bn": "শরীর",
-      "tr": "shorir",
-      "en": "body; health",
-      "pos": "noun"
-    },
-    {
-      "id": "matha",
-      "bn": "মাথা",
-      "tr": "matha",
-      "en": "head",
-      "pos": "noun"
-    },
-    {
-      "id": "pet",
-      "bn": "পেট",
-      "tr": "pet",
-      "en": "stomach",
-      "pos": "noun"
-    },
-    {
-      "id": "pa",
-      "bn": "পা",
-      "tr": "pa",
-      "en": "foot; leg",
-      "pos": "noun"
-    },
-    {
-      "id": "kan",
-      "bn": "কান",
-      "tr": "kan",
-      "en": "ear",
-      "pos": "noun"
-    },
-    {
       "id": "mukh",
       "bn": "মুখ",
       "tr": "mukh",
       "en": "face; mouth",
-      "pos": "noun"
-    },
-    {
-      "id": "jor",
-      "bn": "জ্বর",
-      "tr": "jor",
-      "en": "fever",
-      "pos": "noun"
-    },
-    {
-      "id": "byatha",
-      "bn": "ব্যথা",
-      "tr": "byatha",
-      "en": "pain",
       "pos": "noun"
     },
     {

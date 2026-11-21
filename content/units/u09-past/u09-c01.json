@@ -1,0 +1,446 @@
+{
+  "id": "u09-c01",
+  "unit": "u09-past",
+  "title": "Checkpoint: Units 7–9",
+  "status": "draft",
+  "tip": "A mixed test of Units 7–9: getting around, daily routine and the past. No new words.\n\n- **বাসা** = where you live now; **বাড়ি** = family home. Postpositions follow -এর: **স্টেশনের** কাছে.\n- Now vs usually: তুমি কী **করছো**? / তুমি কী **করো**?\n- Past: **-লাম / -লি / -লে / -লেন / -ল**. Have eaten: **খেয়েছি**. Didn't: **যাইনি**.\n- Was: **ছিলাম / ছিলে / ছিলেন / ছিল**.",
+  "vocab": [],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "করলাম",
+          "tr": "korlam",
+          "en": "I did"
+        },
+        {
+          "bn": "করলি",
+          "tr": "korli",
+          "en": "you did (intimate)"
+        },
+        {
+          "bn": "করলে",
+          "tr": "korle",
+          "en": "you did (familiar)"
+        },
+        {
+          "bn": "করলেন",
+          "tr": "korlen",
+          "en": "you did (polite)"
+        },
+        {
+          "bn": "করল",
+          "tr": "korlo",
+          "en": "he/she did"
+        }
+      ],
+      "why": "Past endings: আমি **-লাম**, তুই **-লি**, তুমি **-লে**, আপনি **-লেন**, সে **-ল**."
+    },
+    {
+      "id": "e02",
+      "type": "listen_select",
+      "audio": {
+        "bn": "শোনে",
+        "tr": "shone",
+        "en": "listens"
+      },
+      "options": [
+        "শুনি",
+        "শোনে",
+        "শুনলাম",
+        "লেখে"
+      ],
+      "answer": 1,
+      "why": "সে **শোনে** keeps ো; the আমি form raises it to **শুনি**."
+    },
+    {
+      "id": "e03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আমার বাড়ি সিলেটে।",
+        "tr": "amar bari shilete.",
+        "en": "My home town is in Sylhet."
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "I live in Sylhet now.",
+        "My home town is in Sylhet.",
+        "I went to Sylhet.",
+        "Where is Sylhet?"
+      ],
+      "answer": 1,
+      "why": "**বাড়ি** = family home, home town; where you live now is **বাসা** (আমার বাসা ঢাকায়)."
+    },
+    {
+      "id": "e04",
+      "type": "reading",
+      "title": "Yesterday",
+      "lines": [
+        {
+          "bn": "গতকাল আমি সকাল সাতটায় উঠলাম।",
+          "tr": "gotokal ami shokal shattay uthlam.",
+          "en": "Yesterday I got up at seven in the morning."
+        },
+        {
+          "bn": "তারপর আমি বন্ধুর সাথে বাজারে গেলাম।",
+          "tr": "tarpor ami bondhur shathe bajare gelam.",
+          "en": "Then I went to the market with a friend."
+        },
+        {
+          "bn": "আমরা যখন বাজারে গেলাম, তখন দোকান বন্ধ ছিল।",
+          "tr": "amra jokhon bajare gelam, tokhon dokan bondho chhilo.",
+          "en": "When we got to the market, the shop was closed."
+        },
+        {
+          "bn": "তাই আমরা রিকশায় বাসায় এলাম।",
+          "tr": "tai amra rikshay bashay elam.",
+          "en": "So we came home by rickshaw."
+        },
+        {
+          "bn": "আম্মু রান্না করলেন, আর আমরা ভাত আর মাছ খেলাম।",
+          "tr": "ammu ranna korlen, ar amra bhat ar machh khelam.",
+          "en": "Mom cooked, and we ate rice and fish."
+        },
+        {
+          "bn": "দিনটা খুব ভালো ছিল।",
+          "tr": "dinta khub bhalo chhilo.",
+          "en": "The day was very good."
+        }
+      ],
+      "question": "Why did they come home?",
+      "options": [
+        "They were hungry",
+        "It was night",
+        "The shop was closed"
+      ],
+      "answer": 2,
+      "why": "**দোকান বন্ধ ছিল**, **তাই** … বাসায় এলাম: তাই = so."
+    },
+    {
+      "id": "e05",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "আমি এখনো খাইনি।",
+        "tr": "ami ekhono khaini.",
+        "en": "I haven't eaten yet."
+      },
+      "options": [
+        "I have already eaten.",
+        "I haven't eaten yet.",
+        "I am eating now.",
+        "I ate rice yesterday."
+      ],
+      "answer": 1,
+      "why": "**-নি** = didn't / haven't; **এখনো** = yet."
+    },
+    {
+      "id": "e06",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আমি গতকাল অফিসে যাইনি।",
+        "tr": "ami gotokal ofise jaini.",
+        "en": "I didn't go to the office yesterday."
+      },
+      "blank": "যাইনি",
+      "options": [
+        "যাই",
+        "যাইনি",
+        "যাচ্ছি",
+        "গিয়েছে"
+      ],
+      "answer": 1,
+      "why": "A plain \"didn't\" = present form + **-নি**: যাই → **যাইনি**."
+    },
+    {
+      "id": "e07",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আপনি কোথায় ছিলেন?",
+        "tr": "apni kothay chhilen?",
+        "en": "Where were you? (polite)"
+      },
+      "blank": "ছিলেন",
+      "options": [
+        "ছিলাম",
+        "ছিলে",
+        "ছিলেন",
+        "ছিল"
+      ],
+      "answer": 2,
+      "why": "আপনি takes **-েন**: **ছিলেন**. ছিলাম = I, ছিলে = তুমি, ছিল = সে."
+    },
+    {
+      "id": "e08",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "হোটেল স্টেশনের কাছে।",
+        "tr": "hotel steshoner kachhe.",
+        "en": "The hotel is near the station."
+      },
+      "blank": "স্টেশনের",
+      "options": [
+        "স্টেশন",
+        "স্টেশনে",
+        "স্টেশনের"
+      ],
+      "answer": 2,
+      "why": "Postpositions follow a genitive: **স্টেশনের** কাছে \"near the station\"."
+    },
+    {
+      "id": "e09",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "তুমি কী করছো?",
+        "tr": "tumi ki korchho?",
+        "en": "What are you doing?"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "What do you do?",
+        "What are you doing?",
+        "What did you do?",
+        "Where are you going?"
+      ],
+      "answer": 1,
+      "why": "**-ছ-** = right now: করছো. **করো** = what you usually do; **করলে** = past."
+    },
+    {
+      "id": "e10",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আপনি খেয়েছেন?",
+        "tr": "apni kheyechhen?",
+        "en": "Have you eaten? (polite)"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "ভাত খেয়েছো?",
+        "আমি খেয়েছি।",
+        "আপনি খেয়েছেন?",
+        "আপনি কী খান?"
+      ],
+      "answer": 2,
+      "why": "**খেয়েছেন** = have eaten, for আপনি; খেয়েছো is the তুমি form."
+    },
+    {
+      "id": "e11",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমি টিভি দেখলাম, তারপর ঘুমালাম।",
+        "tr": "ami tibhi dekhlam, tarpor ghumalam.",
+        "en": "I watched TV, then I slept."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "ঘুমালাম",
+        "দেখি",
+        "আমি",
+        "আগে",
+        "দেখলাম",
+        "তারপর",
+        "টিভি",
+        "ঘুমাই"
+      ],
+      "answer": [
+        "আমি",
+        "টিভি",
+        "দেখলাম",
+        "তারপর",
+        "ঘুমালাম"
+      ],
+      "why": "Tell a story with **-লাম** + **তারপর**: দেখলাম, তারপর ঘুমালাম."
+    },
+    {
+      "id": "e12",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "এই রাস্তা দিয়ে সোজা যান।",
+        "tr": "ei rasta diye shoja jan.",
+        "en": "Go straight along this road."
+      },
+      "direction": "bn_to_en",
+      "tiles": [
+        "left",
+        "Go",
+        "road",
+        "from",
+        "straight",
+        "this",
+        "right",
+        "along"
+      ],
+      "answer": [
+        "Go",
+        "straight",
+        "along",
+        "this",
+        "road"
+      ],
+      "why": "**সোজা** = straight, **দিয়ে** = along, **যান** = go (polite)."
+    },
+    {
+      "id": "e13",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আমি সাধারণত সাতটায় উঠি।",
+        "tr": "ami shadharonoto shattay uthi.",
+        "en": "I usually get up at seven."
+      },
+      "blank": "সাতটায়",
+      "accepted": [
+        "সাতটায়",
+        "shattay",
+        "sattay",
+        "shatay",
+        "satay"
+      ],
+      "why": "\"At\" a clock time = **-টায়**: **সাতটায়**. কয়টা বাজে? asks what time it is now."
+    },
+    {
+      "id": "e14",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আমি স্টেশনে যাব।",
+        "tr": "ami steshone jabo.",
+        "en": "I will go to the station."
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "আমি স্টেশনে যাব",
+        "স্টেশনে যাব",
+        "ami steshone jabo",
+        "steshone jabo"
+      ],
+      "why": "\"I will\" = **-ব**: যাব. \"To\" a place takes **-এ**: স্টেশনে."
+    },
+    {
+      "id": "e15",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আমি ছাত্র ছিলাম।",
+        "tr": "ami chhatro chhilam.",
+        "en": "I was a student."
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "আমি ছাত্র ছিলাম",
+        "আমি ছাত্রী ছিলাম",
+        "আমি শিক্ষার্থী ছিলাম",
+        "ami chhatro chhilam",
+        "ami chhatri chhilam",
+        "ami shikkharthi chhilam",
+        "ami chatro chilam"
+      ],
+      "why": "The present needs no verb (আমি ছাত্র), but the past does: **আমি ছাত্র ছিলাম**."
+    },
+    {
+      "id": "r01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ঘুমের",
+        "tr": "ghumer",
+        "en": "of sleep"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "ফোন",
+        "খালু",
+        "বই",
+        "ঘুমের"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "নামাজ",
+        "tr": "namaj",
+        "en": "prayer"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "price",
+        "Sunday",
+        "prayer",
+        "aunt (father's sister)"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "listen_select",
+      "audio": {
+        "bn": "নাস্তার",
+        "tr": "nashtar",
+        "en": "of breakfast"
+      },
+      "options": [
+        "নাস্তার",
+        "হোটেলের",
+        "ভাত",
+        "দুধ"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "প্রশ্ন",
+          "tr": "proshno",
+          "en": "question"
+        },
+        {
+          "bn": "দাঁত",
+          "tr": "da~t",
+          "en": "teeth"
+        },
+        {
+          "bn": "উত্তর",
+          "tr": "uttor",
+          "en": "answer"
+        },
+        {
+          "bn": "স্কুল",
+          "tr": "skul",
+          "en": "school"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "দূরে",
+          "tr": "dure",
+          "en": "far"
+        },
+        {
+          "bn": "ষোলো",
+          "tr": "sholo",
+          "en": "sixteen"
+        },
+        {
+          "bn": "বিশ",
+          "tr": "bish",
+          "en": "twenty"
+        },
+        {
+          "bn": "তোমাদের",
+          "tr": "tomader",
+          "en": "your (familiar, plural)"
+        }
+      ],
+      "recycle": true
+    }
+  ]
+}

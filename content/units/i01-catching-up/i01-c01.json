@@ -463,12 +463,12 @@
         "en": "he/she was doing"
       },
       "options": [
-        "করছিল",
-        "জানেন",
-        "দেখিনি",
-        "নন"
+        "বললেন",
+        "করেছি",
+        "করেন",
+        "করছিল"
       ],
-      "answer": 0,
+      "answer": 3,
       "recycle": true
     },
     {
@@ -481,29 +481,29 @@
       },
       "blank": "আসছিল",
       "options": [
-        "আসছিল",
-        "উঠি",
-        "এসেছি",
-        "হয়"
+        "বলেছেন",
+        "লিখি",
+        "বাঁচাও",
+        "আসছিল"
       ],
-      "answer": 0,
+      "answer": 3,
       "recycle": true
     },
     {
       "id": "r03",
       "type": "listen_meaning",
       "audio": {
-        "bn": "লাইন কেটে গেছে।",
-        "tr": "lain kete gechhe.",
-        "en": "The line got cut."
+        "bn": "আমি ঢাকায় বড় হয়েছি, আর আপনি?",
+        "tr": "ami dhakay boro hoyechhi, ar apni?",
+        "en": "I grew up in Dhaka. And you (polite)?"
       },
       "options": [
-        "Where do you live?",
-        "I watched a film.",
-        "The line got cut.",
-        "I will give you money."
+        "I grew up in Dhaka. And you (polite)?",
+        "After breakfast I go to the office.",
+        "How are you feeling?",
+        "What's the price?"
       ],
-      "answer": 2,
+      "answer": 0,
       "recycle": true
     },
     {
@@ -511,24 +511,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "দেরি",
-          "tr": "deri",
-          "en": "delay; lateness"
+          "bn": "খালি",
+          "tr": "khali",
+          "en": "empty; free"
         },
         {
-          "bn": "লাইন",
-          "tr": "lain",
-          "en": "line"
+          "bn": "ফার্মেসি",
+          "tr": "farmeshi",
+          "en": "pharmacy"
         },
         {
-          "bn": "দেখাতে",
-          "tr": "dekhate",
-          "en": "to show"
+          "bn": "ওষুধের",
+          "tr": "oshudher",
+          "en": "medicine's; of medicine"
         },
         {
-          "bn": "ফোনে",
-          "tr": "fone",
-          "en": "on the phone"
+          "bn": "সুস্থ",
+          "tr": "shustho",
+          "en": "well; healthy"
         }
       ],
       "recycle": true
@@ -538,9 +538,9 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "সাধারণত",
-          "tr": "shadharonoto",
-          "en": "usually"
+          "bn": "লাইন",
+          "tr": "lain",
+          "en": "line"
         },
         {
           "bn": "বলবেন",
@@ -548,14 +548,14 @@
           "en": "you / he, she (polite) will say"
         },
         {
-          "bn": "অপেক্ষা",
-          "tr": "opekkha",
-          "en": "waiting"
+          "bn": "সাধারণত",
+          "tr": "shadharonoto",
+          "en": "usually"
         },
         {
-          "bn": "দেব",
-          "tr": "debo",
-          "en": "I will give"
+          "bn": "ব্যথা",
+          "tr": "byatha",
+          "en": "pain"
         }
       ],
       "recycle": true

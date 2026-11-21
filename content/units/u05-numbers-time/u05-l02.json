@@ -335,37 +335,37 @@
     },
     {
       "id": "r01",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "দুই",
         "tr": "dui",
         "en": "two"
       },
-      "direction": "bn_to_en",
       "options": [
-        "one; a",
-        "two",
-        "eleven",
-        "four"
+        "দুই",
+        "দুইজন",
+        "এগারো",
+        "একটা"
       ],
-      "answer": 1,
+      "answer": 0,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "নয়",
         "tr": "noy",
         "en": "nine"
       },
+      "direction": "en_to_bn",
       "options": [
-        "বারো",
-        "পনেরো",
         "নয়",
-        "চৌদ্দ"
+        "আট",
+        "বারো",
+        "তিন"
       ],
-      "answer": 2,
+      "answer": 0,
       "recycle": true
     },
     {
@@ -376,14 +376,14 @@
         "tr": "at",
         "en": "eight"
       },
-      "direction": "en_to_bn",
+      "direction": "bn_to_en",
       "options": [
-        "আট",
-        "সাত",
-        "নয়",
-        "দুই"
+        "two (things)",
+        "three",
+        "twelve",
+        "eight"
       ],
-      "answer": 0,
+      "answer": 3,
       "recycle": true
     },
     {
@@ -391,24 +391,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "মজার",
-          "tr": "mojar",
-          "en": "tasty"
-        },
-        {
           "bn": "দুইটা",
           "tr": "duita",
           "en": "two (things)"
         },
         {
-          "bn": "থেকে",
-          "tr": "theke",
-          "en": "from"
+          "bn": "এসেছেন",
+          "tr": "eshechhen",
+          "en": "(you, polite) have come"
         },
         {
           "bn": "কে",
           "tr": "ke",
           "en": "who"
+        },
+        {
+          "bn": "মজার",
+          "tr": "mojar",
+          "en": "tasty"
         }
       ],
       "recycle": true
@@ -418,9 +418,9 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "পরিবার",
-          "tr": "poribar",
-          "en": "family"
+          "bn": "ডাক্তার",
+          "tr": "daktar",
+          "en": "doctor"
         },
         {
           "bn": "মজা",
@@ -428,14 +428,14 @@
           "en": "fun; tasty"
         },
         {
-          "bn": "শিক্ষক",
-          "tr": "shikkhok",
-          "en": "teacher"
+          "bn": "মেয়ে",
+          "tr": "meye",
+          "en": "girl"
         },
         {
-          "bn": "বউ",
-          "tr": "bou",
-          "en": "wife"
+          "bn": "নাম",
+          "tr": "nam",
+          "en": "name"
         }
       ],
       "recycle": true

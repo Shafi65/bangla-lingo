@@ -391,42 +391,42 @@
         "tr": "ekti",
         "en": "one; a (formal)"
       },
-      "direction": "en_to_bn",
+      "direction": "bn_to_en",
       "options": [
-        "দুইজন",
-        "দেশ",
-        "একটি",
-        "স্বামী"
+        "two (people)",
+        "country",
+        "one; a (formal)",
+        "husband"
       ],
       "answer": 2,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "ফল",
         "tr": "fol",
         "en": "fruit"
       },
-      "direction": "bn_to_en",
       "options": [
-        "fruit",
-        "mom",
-        "the banana",
-        "Bengali (language)"
+        "ফল",
+        "আম্মু",
+        "কলাটা",
+        "বাংলা"
       ],
       "answer": 0,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "আমগুলো",
         "tr": "amgulo",
         "en": "the mangoes"
       },
+      "direction": "en_to_bn",
       "options": [
         "বোন",
         "আমগুলো",
@@ -473,14 +473,14 @@
           "en": "milk"
         },
         {
-          "bn": "ডাল",
-          "tr": "dal",
-          "en": "lentils"
-        },
-        {
           "bn": "লবণ",
           "tr": "lobon",
           "en": "salt"
+        },
+        {
+          "bn": "মুরগি",
+          "tr": "murgi",
+          "en": "chicken"
         },
         {
           "bn": "কলা",

@@ -369,35 +369,35 @@
     },
     {
       "id": "r01",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "পর্যন্ত",
         "tr": "porjonto",
         "en": "to"
       },
+      "direction": "bn_to_en",
       "options": [
-        "পর্যন্ত",
-        "দিকে",
-        "বাইরে",
-        "পাশে"
+        "to",
+        "way",
+        "outside",
+        "next to"
       ],
       "answer": 0,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "যাব",
         "tr": "jabo",
         "en": "I will go"
       },
-      "direction": "en_to_bn",
       "options": [
-        "ঘুমান",
+        "করিস",
         "যাব",
-        "জানি",
-        "পারি"
+        "করছো",
+        "জানেন"
       ],
       "answer": 1,
       "recycle": true
@@ -410,14 +410,14 @@
         "tr": "tahole",
         "en": "then"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "but",
-        "OK",
-        "and",
-        "then"
+        "তাহলে",
+        "আর",
+        "কারণ",
+        "কি"
       ],
-      "answer": 3,
+      "answer": 0,
       "recycle": true
     },
     {
@@ -425,24 +425,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "গাড়ি",
-          "tr": "gari",
-          "en": "car"
-        },
-        {
           "bn": "ভাড়া",
           "tr": "bhara",
           "en": "fare"
         },
         {
-          "bn": "নাস্তার",
-          "tr": "nashtar",
-          "en": "of breakfast"
-        },
-        {
           "bn": "শহর",
           "tr": "shohor",
           "en": "city"
+        },
+        {
+          "bn": "গাড়ি",
+          "tr": "gari",
+          "en": "car"
+        },
+        {
+          "bn": "নাস্তার",
+          "tr": "nashtar",
+          "en": "of breakfast"
         }
       ],
       "recycle": true
@@ -457,6 +457,11 @@
           "en": "hospital"
         },
         {
+          "bn": "শহরে",
+          "tr": "shohore",
+          "en": "in the city"
+        },
+        {
           "bn": "মন্দির",
           "tr": "mondir",
           "en": "temple"
@@ -465,11 +470,6 @@
           "bn": "গ্রাম",
           "tr": "gram",
           "en": "village"
-        },
-        {
-          "bn": "শহরে",
-          "tr": "shohore",
-          "en": "in the city"
         }
       ],
       "recycle": true

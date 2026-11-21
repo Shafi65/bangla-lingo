@@ -351,49 +351,49 @@
         "tr": "jan",
         "en": "go (polite)"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "go (polite)",
-        "I will buy",
-        "has come on (felt)",
-        "to eat"
+        "যান",
+        "কিনব",
+        "লেগেছে",
+        "খেতে"
       ],
       "answer": 0,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "দিয়ে",
         "tr": "diye",
         "en": "along"
       },
+      "direction": "bn_to_en",
       "options": [
-        "পিছনে",
-        "দিয়ে",
-        "পাশে",
-        "থেকে"
+        "near",
+        "from",
+        "along",
+        "in front of"
       ],
-      "answer": 1,
+      "answer": 2,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "সোজা",
         "tr": "shoja",
         "en": "straight"
       },
-      "direction": "en_to_bn",
       "options": [
-        "সবচেয়ে",
-        "অবশ্যই",
+        "এখানে",
         "সোজা",
-        "ডানে"
+        "দূরে",
+        "সপ্তাহে"
       ],
-      "answer": 2,
+      "answer": 1,
       "recycle": true
     },
     {
@@ -428,24 +428,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "ব্যাগ",
-          "tr": "byag",
-          "en": "bag"
+          "bn": "উনিশ",
+          "tr": "unish",
+          "en": "nineteen"
         },
         {
-          "bn": "খুচরা",
-          "tr": "khuchra",
-          "en": "change"
-        },
-        {
-          "bn": "সবচেয়ে",
-          "tr": "shobcheye",
-          "en": "the most"
+          "bn": "দুইশ",
+          "tr": "duisho",
+          "en": "two hundred"
         },
         {
           "bn": "মোড়",
           "tr": "mor",
           "en": "intersection"
+        },
+        {
+          "bn": "জানি",
+          "tr": "jani",
+          "en": "(I) know"
         }
       ],
       "recycle": true

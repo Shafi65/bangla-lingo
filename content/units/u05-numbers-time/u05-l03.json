@@ -319,42 +319,42 @@
         "tr": "bish",
         "en": "twenty"
       },
-      "direction": "en_to_bn",
+      "direction": "bn_to_en",
       "options": [
-        "একটি",
-        "বিশ",
-        "বারো",
-        "দশ"
+        "one; a (formal)",
+        "twenty",
+        "twelve",
+        "ten"
       ],
       "answer": 1,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "আঠারো",
         "tr": "atharo",
         "en": "eighteen"
       },
-      "direction": "bn_to_en",
       "options": [
-        "seven",
-        "seventeen",
-        "eighteen",
-        "twelve"
+        "সাত",
+        "সতেরো",
+        "আঠারো",
+        "বারো"
       ],
       "answer": 2,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "সতেরো",
         "tr": "shotero",
         "en": "seventeen"
       },
+      "direction": "en_to_bn",
       "options": [
         "তেরো",
         "বারো",
@@ -379,9 +379,9 @@
           "en": "age"
         },
         {
-          "bn": "কয়জন",
-          "tr": "koyjon",
-          "en": "how many (people)"
+          "bn": "জানি",
+          "tr": "jani",
+          "en": "(I) know"
         },
         {
           "bn": "উনিশ",
@@ -401,9 +401,9 @@
           "en": "three"
         },
         {
-          "bn": "একজন",
-          "tr": "ekjon",
-          "en": "one (person)"
+          "bn": "ওখানে",
+          "tr": "okhane",
+          "en": "there"
         },
         {
           "bn": "পাঁচ",
@@ -411,9 +411,9 @@
           "en": "five"
         },
         {
-          "bn": "ওখানে",
-          "tr": "okhane",
-          "en": "there"
+          "bn": "হ্যাঁ",
+          "tr": "hya~",
+          "en": "yes"
         }
       ],
       "recycle": true

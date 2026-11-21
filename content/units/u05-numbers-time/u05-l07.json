@@ -387,30 +387,30 @@
     },
     {
       "id": "r01",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "সাড়ে",
         "tr": "share",
         "en": "half past"
       },
-      "direction": "bn_to_en",
       "options": [
-        "two (people)",
-        "forty",
-        "fourteen",
-        "half past"
+        "দুইজন",
+        "চল্লিশ",
+        "চৌদ্দ",
+        "সাড়ে"
       ],
       "answer": 3,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "দেড়টা",
         "tr": "derta",
         "en": "half past one"
       },
+      "direction": "en_to_bn",
       "options": [
         "উনিশ",
         "দেড়টা",
@@ -428,12 +428,12 @@
         "tr": "poune",
         "en": "quarter to"
       },
-      "direction": "en_to_bn",
+      "direction": "bn_to_en",
       "options": [
-        "একশ",
-        "পৌনে",
-        "বারোটা",
-        "ষোলো"
+        "one hundred",
+        "quarter to",
+        "twelve (o'clock)",
+        "sixteen"
       ],
       "answer": 1,
       "recycle": true
@@ -470,24 +470,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "মিষ্টি",
-          "tr": "mishti",
-          "en": "sweet"
-        },
-        {
           "bn": "পছন্দ",
           "tr": "pochhondo",
           "en": "liking"
         },
         {
-          "bn": "কলাগুলো",
-          "tr": "kolagulo",
-          "en": "the bananas"
+          "bn": "মিষ্টি",
+          "tr": "mishti",
+          "en": "sweet"
         },
         {
-          "bn": "ক্ষুধা",
-          "tr": "khudha",
-          "en": "hunger"
+          "bn": "কলাটা",
+          "tr": "kolata",
+          "en": "the banana"
+        },
+        {
+          "bn": "দরকার",
+          "tr": "dorkar",
+          "en": "need"
         }
       ],
       "recycle": true

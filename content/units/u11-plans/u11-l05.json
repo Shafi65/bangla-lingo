@@ -483,9 +483,9 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "বিশ",
-          "tr": "bish",
-          "en": "twenty"
+          "bn": "কাছে",
+          "tr": "kachhe",
+          "en": "near"
         },
         {
           "bn": "বাজে",
@@ -493,14 +493,14 @@
           "en": "strikes (the hour)"
         },
         {
-          "bn": "আশি",
-          "tr": "ashi",
-          "en": "eighty"
+          "bn": "পনেরো",
+          "tr": "ponero",
+          "en": "fifteen"
         },
         {
-          "bn": "করিস",
-          "tr": "korish",
-          "en": "you do (intimate)"
+          "bn": "বিশ",
+          "tr": "bish",
+          "en": "twenty"
         }
       ],
       "recycle": true

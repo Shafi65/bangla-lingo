@@ -358,12 +358,13 @@
     },
     {
       "id": "r01",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "বিকালে",
         "tr": "bikale",
         "en": "in the afternoon"
       },
+      "direction": "en_to_bn",
       "options": [
         "বিকালে",
         "ওখানে",
@@ -377,34 +378,33 @@
       "id": "r02",
       "type": "select_translation",
       "prompt": {
-        "bn": "কলাটা",
-        "tr": "kolata",
-        "en": "the banana"
+        "bn": "কলাগুলো",
+        "tr": "kolagulo",
+        "en": "the bananas"
       },
-      "direction": "en_to_bn",
+      "direction": "bn_to_en",
       "options": [
-        "কাপ",
-        "কলাটা",
-        "বন্ধু",
-        "বিরিয়ানি"
+        "cup",
+        "the bananas",
+        "friend",
+        "biryani"
       ],
       "answer": 1,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "আমগুলো",
-        "tr": "amgulo",
-        "en": "the mangoes"
+      "type": "listen_select",
+      "audio": {
+        "bn": "আমটা",
+        "tr": "amta",
+        "en": "the mango"
       },
-      "direction": "bn_to_en",
       "options": [
-        "wife",
-        "the mangoes",
-        "night",
-        "uncle (fufu's husband)"
+        "বউ",
+        "আমটা",
+        "রাত",
+        "ফুফা"
       ],
       "answer": 1,
       "recycle": true
@@ -414,24 +414,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "সমস্যা",
-          "tr": "shomossha",
-          "en": "problem"
-        },
-        {
           "bn": "মজা",
           "tr": "moja",
           "en": "fun; tasty"
         },
         {
-          "bn": "দরকার",
-          "tr": "dorkar",
-          "en": "need"
+          "bn": "ফল",
+          "tr": "fol",
+          "en": "fruit"
         },
         {
-          "bn": "ছাড়া",
-          "tr": "chhara",
-          "en": "without"
+          "bn": "ঝাল",
+          "tr": "jhal",
+          "en": "spicy"
+        },
+        {
+          "bn": "সমস্যা",
+          "tr": "shomossha",
+          "en": "problem"
         }
       ],
       "recycle": true
@@ -441,9 +441,9 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "উনি",
-          "tr": "uni",
-          "en": "he/she (polite, spoken)"
+          "bn": "ছাড়া",
+          "tr": "chhara",
+          "en": "without"
         },
         {
           "bn": "মজার",
@@ -451,14 +451,14 @@
           "en": "tasty"
         },
         {
-          "bn": "খারাপ",
-          "tr": "kharap",
-          "en": "bad"
-        },
-        {
           "bn": "নন",
           "tr": "non",
           "en": "is not / are not (polite)"
+        },
+        {
+          "bn": "উনি",
+          "tr": "uni",
+          "en": "he/she (polite, spoken)"
         }
       ],
       "recycle": true

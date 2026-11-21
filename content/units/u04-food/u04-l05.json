@@ -358,53 +358,53 @@
     },
     {
       "id": "r01",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "চাও",
         "tr": "chao",
         "en": "(you, familiar) want"
       },
+      "direction": "en_to_bn",
       "options": [
-        "আছো",
-        "নেই",
-        "চাই",
-        "চাও"
+        "চাও",
+        "আছিস",
+        "খাই",
+        "আছো"
       ],
-      "answer": 3,
+      "answer": 0,
       "recycle": true
     },
     {
       "id": "r02",
       "type": "select_translation",
       "prompt": {
-        "bn": "খেতে",
-        "tr": "khete",
-        "en": "to eat"
+        "bn": "চান",
+        "tr": "chan",
+        "en": "(you/he/she, polite) want"
       },
-      "direction": "en_to_bn",
+      "direction": "bn_to_en",
       "options": [
-        "আছিস",
-        "খেতে",
-        "আছেন",
-        "এসেছি"
+        "are (intimate)",
+        "(you/he/she, polite) want",
+        "are (polite)",
+        "(I) have come"
       ],
       "answer": 1,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "অবশ্যই",
-        "tr": "oboshshoi",
-        "en": "of course"
+      "type": "listen_select",
+      "audio": {
+        "bn": "কিছু",
+        "tr": "kichhu",
+        "en": "something"
       },
-      "direction": "bn_to_en",
       "options": [
-        "of course",
-        "here",
-        "there",
-        "where (before থেকে)"
+        "কিছু",
+        "তোমরা",
+        "কে",
+        "ওর"
       ],
       "answer": 0,
       "recycle": true
@@ -424,14 +424,14 @@
           "en": "problem"
         },
         {
-          "bn": "চান",
-          "tr": "chan",
-          "en": "(you/he/she, polite) want"
+          "bn": "খেতে",
+          "tr": "khete",
+          "en": "to eat"
         },
         {
-          "bn": "কিছু",
-          "tr": "kichhu",
-          "en": "something"
+          "bn": "অবশ্যই",
+          "tr": "oboshshoi",
+          "en": "of course"
         }
       ],
       "recycle": true
@@ -441,9 +441,9 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "গরুর",
-          "tr": "gorur",
-          "en": "cow's"
+          "bn": "ডাল",
+          "tr": "dal",
+          "en": "lentils"
         },
         {
           "bn": "সবজি",
@@ -451,14 +451,14 @@
           "en": "vegetables"
         },
         {
+          "bn": "গরুর",
+          "tr": "gorur",
+          "en": "cow's"
+        },
+        {
           "bn": "খাবার",
           "tr": "khabar",
           "en": "food"
-        },
-        {
-          "bn": "মুরগি",
-          "tr": "murgi",
-          "en": "chicken"
         }
       ],
       "recycle": true

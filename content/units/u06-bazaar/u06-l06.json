@@ -394,37 +394,37 @@
     },
     {
       "id": "r01",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "আধা",
         "tr": "adha",
         "en": "half"
       },
-      "direction": "bn_to_en",
       "options": [
-        "big",
-        "tasty",
-        "half",
-        "expensive"
+        "বড়",
+        "মজার",
+        "আধা",
+        "দামি"
       ],
       "answer": 2,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "আলু",
         "tr": "alu",
         "en": "potato"
       },
+      "direction": "en_to_bn",
       "options": [
-        "বউ",
         "আলু",
-        "মেয়ে",
-        "আম্মু"
+        "আপু",
+        "নানা",
+        "বার"
       ],
-      "answer": 1,
+      "answer": 0,
       "recycle": true
     },
     {
@@ -435,20 +435,30 @@
         "tr": "keji",
         "en": "kilo"
       },
-      "direction": "en_to_bn",
+      "direction": "bn_to_en",
       "options": [
-        "ডজন",
-        "হালি",
-        "কেজি",
-        "বাচ্চা"
+        "dozen",
+        "four (a set of four)",
+        "elder sister; ma'am",
+        "kilo"
       ],
-      "answer": 2,
+      "answer": 3,
       "recycle": true
     },
     {
       "id": "r04",
       "type": "match_pairs",
       "pairs": [
+        {
+          "bn": "শুধু",
+          "tr": "shudhu",
+          "en": "only"
+        },
+        {
+          "bn": "টমেটোর",
+          "tr": "tometor",
+          "en": "of tomatoes"
+        },
         {
           "bn": "পাঁচশ",
           "tr": "pa~chsho",
@@ -458,16 +468,6 @@
           "bn": "হালি",
           "tr": "hali",
           "en": "four (a set of four)"
-        },
-        {
-          "bn": "টমেটোর",
-          "tr": "tometor",
-          "en": "of tomatoes"
-        },
-        {
-          "bn": "শুধু",
-          "tr": "shudhu",
-          "en": "only"
         }
       ],
       "recycle": true
@@ -482,9 +482,9 @@
           "en": "dozen"
         },
         {
-          "bn": "পেঁয়াজ",
-          "tr": "pe~yaj",
-          "en": "onion"
+          "bn": "টমেটো",
+          "tr": "tometo",
+          "en": "tomato"
         },
         {
           "bn": "বাজার",
@@ -492,9 +492,9 @@
           "en": "market"
         },
         {
-          "bn": "টমেটো",
-          "tr": "tometo",
-          "en": "tomato"
+          "bn": "পেঁয়াজ",
+          "tr": "pe~yaj",
+          "en": "onion"
         }
       ],
       "recycle": true

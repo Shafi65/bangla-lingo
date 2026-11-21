@@ -1,0 +1,511 @@
+{
+  "id": "u14-l03",
+  "unit": "u14-feelings-health",
+  "title": "My head hurts",
+  "status": "draft",
+  "tip": "**'My X hurts' = আমার X ব্যথা করছে**, literally 'my X is doing pain': **আমার মাথা ব্যথা করছে** 'my head hurts; I have a headache'. Shorter and just as common: **আমার মাথা ব্যথা**.\n\nBody words: **মাথা** head, **গলা** throat, **পেট** stomach, **পা** foot or leg (one word for both), **কান** ear. You know **হাত** hand, **চোখ** eye and **দাঁত** teeth.\n\nThe question: **কোথায় ব্যথা?** 'Where does it hurt?'\n\n**শরীর** is 'body' and also 'health': **আমার শরীর ভালো নেই** or **আমার শরীর খারাপ** 'I'm not well'.",
+  "vocab": [
+    {
+      "id": "matha",
+      "bn": "মাথা",
+      "tr": "matha",
+      "en": "head",
+      "notes": "আমার মাথা ব্যথা করছে 'my head hurts; I have a headache'."
+    },
+    {
+      "id": "byatha",
+      "bn": "ব্যথা",
+      "tr": "byatha",
+      "en": "pain",
+      "notes": "X ব্যথা করছে 'X hurts' (lit. 'X is doing pain'). Short: আমার মাথা ব্যথা 'I have a headache'. Also spelled ব্যাথা."
+    },
+    {
+      "id": "pet",
+      "bn": "পেট",
+      "tr": "pet",
+      "en": "stomach"
+    },
+    {
+      "id": "gola",
+      "bn": "গলা",
+      "tr": "gola",
+      "en": "throat",
+      "notes": "গলা ব্যথা 'sore throat'. Also 'neck' and 'voice'."
+    },
+    {
+      "id": "pa",
+      "bn": "পা",
+      "tr": "pa",
+      "en": "foot; leg",
+      "notes": "One word covers foot and leg."
+    },
+    {
+      "id": "kan",
+      "bn": "কান",
+      "tr": "kan",
+      "en": "ear"
+    },
+    {
+      "id": "shorir",
+      "bn": "শরীর",
+      "tr": "shorir",
+      "en": "body; health",
+      "notes": "আমার শরীর ভালো নেই / শরীর খারাপ 'I'm not well'. শরীর কেমন? 'How's your health?'"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আমার মাথা ব্যথা করছে।",
+        "tr": "amar matha byatha korchhe.",
+        "en": "My head hurts.",
+        "alt": [
+          "I have a headache."
+        ]
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "My head hurts.",
+        "My stomach hurts.",
+        "My hand hurts.",
+        "I'm scared."
+      ],
+      "answer": 0,
+      "why": "X **ব্যথা করছে** 'X hurts' (literally 'X is doing pain')."
+    },
+    {
+      "id": "e02",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "মাথা",
+          "tr": "matha",
+          "en": "head"
+        },
+        {
+          "bn": "পেট",
+          "tr": "pet",
+          "en": "stomach"
+        },
+        {
+          "bn": "গলা",
+          "tr": "gola",
+          "en": "throat"
+        },
+        {
+          "bn": "পা",
+          "tr": "pa",
+          "en": "foot; leg"
+        },
+        {
+          "bn": "কান",
+          "tr": "kan",
+          "en": "ear"
+        }
+      ]
+    },
+    {
+      "id": "e03",
+      "type": "listen_select",
+      "audio": {
+        "bn": "ব্যথা",
+        "tr": "byatha",
+        "en": "pain"
+      },
+      "options": [
+        "ব্যস্ত",
+        "ব্যাপার",
+        "ব্যথা",
+        "ব্যাগ"
+      ],
+      "answer": 2,
+      "why": "**ব্যথা** 'pain'. Don't mix it up with **ব্যস্ত** 'busy'."
+    },
+    {
+      "id": "e04",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "শরীর",
+        "tr": "shorir",
+        "en": "body; health"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "head",
+        "body; health",
+        "stomach",
+        "ear"
+      ],
+      "answer": 1,
+      "why": "**শরীর** 'body', and also 'health': **শরীর খারাপ** 'unwell'."
+    },
+    {
+      "id": "e05",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "আমার গলা ব্যথা করছে।",
+        "tr": "amar gola byatha korchhe.",
+        "en": "My throat hurts.",
+        "alt": [
+          "I have a sore throat."
+        ]
+      },
+      "options": [
+        "My ear hurts.",
+        "My head hurts.",
+        "My eyes hurt.",
+        "My throat hurts."
+      ],
+      "answer": 3,
+      "why": "**গলা** 'throat' (also 'neck')."
+    },
+    {
+      "id": "e06",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "আমার শরীর ভালো নেই।",
+        "tr": "amar shorir bhalo nei.",
+        "en": "I'm not feeling well.",
+        "alt": [
+          "I'm not well."
+        ]
+      },
+      "options": [
+        "I'm not at home.",
+        "I'm not feeling well.",
+        "I'm not hungry.",
+        "I feel good."
+      ],
+      "answer": 1,
+      "why": "**শরীর ভালো নেই** 'health isn't good' = 'I'm not well'."
+    },
+    {
+      "id": "e07",
+      "type": "listen_select",
+      "audio": {
+        "bn": "পা",
+        "tr": "pa",
+        "en": "foot; leg"
+      },
+      "options": [
+        "পা",
+        "পানি",
+        "পাঁচ",
+        "পেট"
+      ],
+      "answer": 0,
+      "why": "**পা** is foot *and* leg."
+    },
+    {
+      "id": "e08",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "তোমার কোথায় ব্যথা?",
+        "tr": "tomar kothay byatha?",
+        "en": "Where does it hurt?",
+        "alt": [
+          "Where is the pain?"
+        ]
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "Where are you?",
+        "When does it hurt?",
+        "Does it hurt a lot?",
+        "Where does it hurt?"
+      ],
+      "answer": 3,
+      "why": "**কোথায়** 'where' + **ব্যথা** 'pain'."
+    },
+    {
+      "id": "e09",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আমার পেট ব্যথা করছে।",
+        "tr": "amar pet byatha korchhe.",
+        "en": "My stomach hurts.",
+        "alt": [
+          "I have a stomachache."
+        ]
+      },
+      "blank": "পেট",
+      "options": [
+        "পা",
+        "গলা",
+        "পেট",
+        "কান"
+      ],
+      "answer": 2,
+      "why": "**পেট** 'stomach'."
+    },
+    {
+      "id": "e10",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "ওর পা ব্যথা করছে।",
+        "tr": "or pa byatha korchhe.",
+        "en": "His leg hurts.",
+        "alt": [
+          "Her leg hurts.",
+          "His foot hurts.",
+          "Her foot hurts."
+        ]
+      },
+      "blank": "করছে",
+      "options": [
+        "করছি",
+        "করছিস",
+        "করছে",
+        "করবেন"
+      ],
+      "answer": 2,
+      "why": "It's the pain that 'does': always **ব্যথা করছে**, whoever hurts."
+    },
+    {
+      "id": "e11",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আমার কান ব্যথা করছে।",
+        "tr": "amar kan byatha korchhe.",
+        "en": "My ear hurts.",
+        "alt": [
+          "I have an earache."
+        ]
+      },
+      "blank": "কান",
+      "accepted": [
+        "কান",
+        "kan",
+        "kaan"
+      ],
+      "why": "**কান** 'ear'."
+    },
+    {
+      "id": "e12",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমার গলা ব্যথা করছে।",
+        "tr": "amar gola byatha korchhe.",
+        "en": "My throat hurts.",
+        "alt": [
+          "I have a sore throat."
+        ]
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "আমার",
+        "গলা",
+        "করছে",
+        "ব্যথা",
+        "আমি",
+        "করি",
+        "পেট"
+      ],
+      "answer": [
+        "আমার",
+        "গলা",
+        "ব্যথা",
+        "করছে"
+      ],
+      "why": "**আমার** + body part + **ব্যথা করছে**."
+    },
+    {
+      "id": "e13",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আজ আমার শরীর খারাপ।",
+        "tr": "aj amar shorir kharap.",
+        "en": "I'm unwell today.",
+        "alt": [
+          "I'm not well today."
+        ]
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "মাথা",
+        "শরীর",
+        "আমি",
+        "খারাপ",
+        "আমার",
+        "আজ",
+        "ভালো"
+      ],
+      "answer": [
+        "আজ",
+        "আমার",
+        "শরীর",
+        "খারাপ"
+      ],
+      "alt": [
+        [
+          "আমার",
+          "আজ",
+          "শরীর",
+          "খারাপ"
+        ]
+      ],
+      "why": "**শরীর খারাপ** 'unwell' needs no verb."
+    },
+    {
+      "id": "e14",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আপনার কি দাঁত ব্যথা করছে?",
+        "tr": "apnar ki da~t byatha korchhe?",
+        "en": "Does your tooth hurt? (polite)",
+        "alt": [
+          "Do you have a toothache?"
+        ]
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "আপনার কি দাঁত ব্যথা করছে?",
+        "আপনি কি দাঁত ব্যথা করছে?",
+        "আপনার কি হাত ব্যথা করছে?",
+        "আপনার দাঁত কোথায়?"
+      ],
+      "answer": 0,
+      "why": "The person in pain is in the **-র** form: **আপনার**."
+    },
+    {
+      "id": "e15",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আমার মাথা ব্যথা করছে।",
+        "tr": "amar matha byatha korchhe.",
+        "en": "My head hurts.",
+        "alt": [
+          "I have a headache."
+        ]
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "আমার মাথা ব্যথা করছে",
+        "আমার মাথা ব্যথা",
+        "মাথা ব্যথা করছে",
+        "আমার মাথাব্যথা করছে",
+        "আমার মাথা ব্যাথা করছে",
+        "আমার মাথাব্যথা",
+        "amar matha byatha korchhe",
+        "amar matha byatha korche",
+        "amar matha byatha",
+        "matha byatha korchhe",
+        "matha byatha korche",
+        "amar matha bytha korche",
+        "amar matha betha korche",
+        "amar matha batha korche",
+        "amar matha betha korchhe"
+      ],
+      "why": "**আমার মাথা ব্যথা করছে**, or short: **আমার মাথা ব্যথা**."
+    },
+    {
+      "id": "r01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "কাঁদছিস",
+        "tr": "ka~dchhish",
+        "en": "you (intimate) are crying"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "you (intimate) are crying",
+        "please say (standard)",
+        "you (polite) will give",
+        "you (familiar) / he, she will say"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "listen_select",
+      "audio": {
+        "bn": "তোকে",
+        "tr": "toke",
+        "en": "you (intimate, object)"
+      },
+      "options": [
+        "তিনি",
+        "তোকে",
+        "ওনাকে",
+        "তোমার"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "শোন",
+        "tr": "shon",
+        "en": "listen (intimate)"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "নও",
+        "পাঠাব",
+        "শোন",
+        "এলাম"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "বস",
+          "tr": "bosh",
+          "en": "sit (intimate)"
+        },
+        {
+          "bn": "ঠিক",
+          "tr": "thik",
+          "en": "all right; OK"
+        },
+        {
+          "bn": "পাঠাব",
+          "tr": "pathabo",
+          "en": "I will send"
+        },
+        {
+          "bn": "বল",
+          "tr": "bol",
+          "en": "say (intimate)"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "জানাবেন",
+          "tr": "janaben",
+          "en": "please let (me) know (polite)"
+        },
+        {
+          "bn": "পাঠাও",
+          "tr": "pathao",
+          "en": "send (familiar)"
+        },
+        {
+          "bn": "ঠিকানা",
+          "tr": "thikana",
+          "en": "address"
+        },
+        {
+          "bn": "পৌঁছেছি",
+          "tr": "pou~chhechhi",
+          "en": "I have reached"
+        }
+      ],
+      "recycle": true
+    }
+  ]
+}

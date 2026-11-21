@@ -379,47 +379,47 @@
         "tr": "eita",
         "en": "this one"
       },
-      "direction": "en_to_bn",
+      "direction": "bn_to_en",
       "options": [
-        "কী",
-        "তিনি",
-        "এইটা",
-        "তোমরা"
+        "what",
+        "he/she (polite)",
+        "this one",
+        "you (familiar, plural)"
       ],
       "answer": 2,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "এগুলো",
         "tr": "egulo",
         "en": "these"
       },
-      "direction": "bn_to_en",
       "options": [
-        "your (familiar)",
-        "everyone",
-        "these",
-        "he/she"
+        "তোমার",
+        "সবাই",
+        "এগুলো",
+        "সে"
       ],
       "answer": 2,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "ওই",
         "tr": "oi",
         "en": "that"
       },
+      "direction": "en_to_bn",
       "options": [
-        "তোমরা",
-        "ওই",
         "তুই",
-        "সে"
+        "ওই",
+        "তোমার",
+        "আমাদের"
       ],
       "answer": 1,
       "recycle": true
@@ -429,24 +429,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "ওইটা",
-          "tr": "oita",
-          "en": "that one"
-        },
-        {
           "bn": "এই",
           "tr": "ei",
           "en": "this"
         },
         {
-          "bn": "দোকানটা",
-          "tr": "dokanta",
-          "en": "the shop"
+          "bn": "ওইটা",
+          "tr": "oita",
+          "en": "that one"
         },
         {
           "bn": "ওগুলো",
           "tr": "ogulo",
           "en": "those"
+        },
+        {
+          "bn": "দোকানটা",
+          "tr": "dokanta",
+          "en": "the shop"
         }
       ],
       "recycle": true
@@ -456,6 +456,16 @@
       "type": "match_pairs",
       "pairs": [
         {
+          "bn": "অন্য",
+          "tr": "onno",
+          "en": "other"
+        },
+        {
+          "bn": "ইলিশের",
+          "tr": "ilisher",
+          "en": "of the hilsa"
+        },
+        {
           "bn": "দাম",
           "tr": "dam",
           "en": "price"
@@ -464,16 +474,6 @@
           "bn": "মাছটা",
           "tr": "machhta",
           "en": "the fish"
-        },
-        {
-          "bn": "ইলিশের",
-          "tr": "ilisher",
-          "en": "of the hilsa"
-        },
-        {
-          "bn": "অন্য",
-          "tr": "onno",
-          "en": "other"
         }
       ],
       "recycle": true

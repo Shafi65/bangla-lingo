@@ -341,17 +341,18 @@
     },
     {
       "id": "r01",
-      "type": "listen_select",
-      "audio": {
-        "bn": "গরুর",
-        "tr": "gorur",
-        "en": "cow's"
+      "type": "select_translation",
+      "prompt": {
+        "bn": "মুরগি",
+        "tr": "murgi",
+        "en": "chicken"
       },
+      "direction": "en_to_bn",
       "options": [
-        "গরুর",
-        "বন্ধু",
-        "ভাইয়া",
-        "মায়ের"
+        "মুরগি",
+        "দুধ",
+        "আপা",
+        "লবণ"
       ],
       "answer": 0,
       "recycle": true
@@ -360,36 +361,35 @@
       "id": "r02",
       "type": "select_translation",
       "prompt": {
-        "bn": "ভাত",
-        "tr": "bhat",
-        "en": "rice"
+        "bn": "খাবার",
+        "tr": "khabar",
+        "en": "food"
       },
-      "direction": "en_to_bn",
+      "direction": "bn_to_en",
       "options": [
-        "নানা",
-        "পানি",
-        "ভাইয়া",
-        "ভাত"
+        "meaning",
+        "meat",
+        "grandmother (father's mother)",
+        "food"
       ],
       "answer": 3,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "ডাল",
-        "tr": "dal",
-        "en": "lentils"
+      "type": "listen_select",
+      "audio": {
+        "bn": "ভাত",
+        "tr": "bhat",
+        "en": "rice"
       },
-      "direction": "bn_to_en",
       "options": [
-        "mother",
-        "student (male)",
-        "doctor",
-        "lentils"
+        "ভাত",
+        "দুধ",
+        "খাবার",
+        "ছাত্র"
       ],
-      "answer": 3,
+      "answer": 0,
       "recycle": true
     },
     {
@@ -397,24 +397,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "খাবার",
-          "tr": "khabar",
-          "en": "food"
+          "bn": "ডিম",
+          "tr": "dim",
+          "en": "egg"
         },
         {
-          "bn": "মাছ",
-          "tr": "machh",
-          "en": "fish"
+          "bn": "ডাল",
+          "tr": "dal",
+          "en": "lentils"
         },
         {
-          "bn": "সবজি",
-          "tr": "shobji",
-          "en": "vegetables"
+          "bn": "গরুর",
+          "tr": "gorur",
+          "en": "cow's"
         },
         {
-          "bn": "মুরগি",
-          "tr": "murgi",
-          "en": "chicken"
+          "bn": "মাংস",
+          "tr": "mangsho",
+          "en": "meat"
         }
       ],
       "recycle": true
@@ -424,24 +424,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "একজন",
-          "tr": "ekjon",
-          "en": "one (person)"
+          "bn": "সবজি",
+          "tr": "shobji",
+          "en": "vegetables"
         },
         {
-          "bn": "ডিম",
-          "tr": "dim",
-          "en": "egg"
+          "bn": "আন্টি",
+          "tr": "anti",
+          "en": "auntie (address)"
         },
         {
-          "bn": "মাংস",
-          "tr": "mangsho",
-          "en": "meat"
+          "bn": "হ্যাঁ",
+          "tr": "hya~",
+          "en": "yes"
         },
         {
-          "bn": "কয়জন",
-          "tr": "koyjon",
-          "en": "how many (people)"
+          "bn": "মাছ",
+          "tr": "machh",
+          "en": "fish"
         }
       ],
       "recycle": true

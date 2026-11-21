@@ -410,44 +410,44 @@
         "tr": "korlo",
         "en": "did"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "I heard",
-        "did",
-        "I said",
-        "(you/he/she, polite) want"
+        "শুনলাম",
+        "করল",
+        "বললাম",
+        "চান"
       ],
       "answer": 1,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "কিনল",
         "tr": "kinlo",
         "en": "bought"
       },
+      "direction": "bn_to_en",
       "options": [
-        "চাও",
-        "এসেছি",
-        "কিনল",
-        "করছে"
+        "give (familiar)",
+        "keep (polite)",
+        "did",
+        "bought"
       ],
-      "answer": 2,
+      "answer": 3,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "কিনলেন",
         "tr": "kinlen",
         "en": "you bought (polite)"
       },
-      "direction": "en_to_bn",
       "options": [
-        "দিলাম",
+        "আসলাম",
         "কিনলেন",
         "যাচ্ছি",
         "করছেন"

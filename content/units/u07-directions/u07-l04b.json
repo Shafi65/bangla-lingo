@@ -346,42 +346,42 @@
         "tr": "keu",
         "en": "someone"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "someone",
-        "you (intimate)",
-        "your (polite)",
-        "what"
+        "কেউ",
+        "তুই",
+        "আপনার",
+        "কী"
       ],
       "answer": 0,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "মসজিদ",
         "tr": "moshjid",
         "en": "mosque"
       },
+      "direction": "bn_to_en",
       "options": [
-        "ফুফু",
-        "বাজারে",
-        "মসজিদ",
-        "ডাল"
+        "aunt (father's sister)",
+        "at the market",
+        "mosque",
+        "lentils"
       ],
       "answer": 2,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "সাহায্য",
         "tr": "shahajjo",
         "en": "help"
       },
-      "direction": "en_to_bn",
       "options": [
         "মানুষ",
         "বিরিয়ানি",
@@ -423,14 +423,14 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "এইটা",
-          "tr": "eita",
-          "en": "this one"
+          "bn": "রাস্তা",
+          "tr": "rasta",
+          "en": "road"
         },
         {
-          "bn": "মোড়ে",
-          "tr": "more",
-          "en": "at the intersection"
+          "bn": "কিনবেন",
+          "tr": "kinben",
+          "en": "you will buy (polite)"
         },
         {
           "bn": "যান",
@@ -438,9 +438,9 @@
           "en": "go (polite)"
         },
         {
-          "bn": "ওইটা",
-          "tr": "oita",
-          "en": "that one"
+          "bn": "মোড়ে",
+          "tr": "more",
+          "en": "at the intersection"
         }
       ],
       "recycle": true

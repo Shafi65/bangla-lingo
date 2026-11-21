@@ -399,33 +399,33 @@
     },
     {
       "id": "r01",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "ওঠেন",
         "tr": "othen",
         "en": "you get up (polite)"
       },
+      "direction": "bn_to_en",
       "options": [
-        "ঘুমান",
-        "থাকি",
-        "দে",
-        "ওঠেন"
+        "(I) know",
+        "you get up (polite)",
+        "go (polite)",
+        "(he/she/they) eats"
       ],
-      "answer": 3,
+      "answer": 1,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "উঠি",
         "tr": "uthi",
         "en": "I get up"
       },
-      "direction": "en_to_bn",
       "options": [
         "যাব",
-        "যায়",
+        "যাও",
         "উঠি",
         "যাবেন"
       ],
@@ -440,12 +440,12 @@
         "tr": "doshtay",
         "en": "at ten o'clock"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "at ten o'clock",
-        "at what time",
-        "straight",
-        "actually"
+        "দশটায়",
+        "কয়টায়",
+        "সোজা",
+        "আসলে"
       ],
       "answer": 0,
       "recycle": true
@@ -460,9 +460,9 @@
           "en": "I sleep"
         },
         {
-          "bn": "জিনিস",
-          "tr": "jinish",
-          "en": "thing"
+          "bn": "সাড়ে",
+          "tr": "share",
+          "en": "half past"
         },
         {
           "bn": "সাতটায়",
@@ -482,14 +482,14 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "হাজার",
-          "tr": "hajar",
-          "en": "thousand"
+          "bn": "কোথা",
+          "tr": "kotha",
+          "en": "where (before থেকে)"
         },
         {
-          "bn": "দেড়টা",
-          "tr": "derta",
-          "en": "half past one"
+          "bn": "সন্ধ্যায়",
+          "tr": "shondhay",
+          "en": "in the evening"
         },
         {
           "bn": "ঘুমান",
@@ -497,9 +497,9 @@
           "en": "you sleep (polite)"
         },
         {
-          "bn": "কোথা",
-          "tr": "kotha",
-          "en": "where (before থেকে)"
+          "bn": "আজ",
+          "tr": "aj",
+          "en": "today"
         }
       ],
       "recycle": true

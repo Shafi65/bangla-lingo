@@ -354,18 +354,17 @@
     },
     {
       "id": "r01",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "শাড়িটা",
-        "tr": "sharita",
-        "en": "the sari"
+      "type": "listen_select",
+      "audio": {
+        "bn": "শাড়ি",
+        "tr": "shari",
+        "en": "sari"
       },
-      "direction": "en_to_bn",
       "options": [
-        "শাড়িটা",
-        "পেঁয়াজ",
-        "দরকার",
-        "রুটি"
+        "শাড়ি",
+        "শিক্ষক",
+        "ইংরেজি",
+        "ভাই"
       ],
       "answer": 0,
       "recycle": true
@@ -374,33 +373,34 @@
       "id": "r02",
       "type": "select_translation",
       "prompt": {
-        "bn": "অন্য",
-        "tr": "onno",
-        "en": "other"
+        "bn": "ডজন",
+        "tr": "dozon",
+        "en": "dozen"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "cheap",
-        "more",
-        "bad",
-        "other"
+        "ডজন",
+        "হালি",
+        "কেজি",
+        "মন্দির"
       ],
-      "answer": 3,
+      "answer": 0,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "listen_select",
-      "audio": {
-        "bn": "আলু",
-        "tr": "alu",
-        "en": "potato"
+      "type": "select_translation",
+      "prompt": {
+        "bn": "খুচরা",
+        "tr": "khuchra",
+        "en": "change"
       },
+      "direction": "bn_to_en",
       "options": [
-        "সিএনজি",
-        "চিনি",
-        "শাড়িটা",
-        "আলু"
+        "fare",
+        "sugar",
+        "sari",
+        "change"
       ],
       "answer": 3,
       "recycle": true
@@ -410,24 +410,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "জামা",
-          "tr": "jama",
-          "en": "shirt"
+          "bn": "আপনারা",
+          "tr": "apnara",
+          "en": "you (polite, plural)"
         },
         {
-          "bn": "বেশি",
-          "tr": "beshi",
-          "en": "more"
+          "bn": "ব্যাগ",
+          "tr": "byag",
+          "en": "bag"
         },
         {
-          "bn": "ডজন",
-          "tr": "dozon",
-          "en": "dozen"
+          "bn": "জামাটা",
+          "tr": "jamata",
+          "en": "the shirt"
         },
         {
-          "bn": "টমেটো",
-          "tr": "tometo",
-          "en": "tomato"
+          "bn": "তিন",
+          "tr": "tin",
+          "en": "three"
         }
       ],
       "recycle": true
@@ -437,24 +437,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "ব্যাগ",
-          "tr": "byag",
-          "en": "bag"
+          "bn": "লাগে",
+          "tr": "lage",
+          "en": "feels"
         },
         {
-          "bn": "তিন",
-          "tr": "tin",
-          "en": "three"
+          "bn": "নন",
+          "tr": "non",
+          "en": "is not / are not (polite)"
         },
         {
-          "bn": "জামাটা",
-          "tr": "jamata",
-          "en": "the shirt"
+          "bn": "ছয়",
+          "tr": "chhoy",
+          "en": "six"
         },
         {
-          "bn": "শাড়ি",
-          "tr": "shari",
-          "en": "sari"
+          "bn": "পাঁচটা",
+          "tr": "pa~chta",
+          "en": "five (o'clock)"
         }
       ],
       "recycle": true

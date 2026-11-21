@@ -347,55 +347,55 @@
     },
     {
       "id": "r01",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "তাহলে",
         "tr": "tahole",
         "en": "then"
       },
+      "direction": "bn_to_en",
       "options": [
-        "হ্যাঁ",
-        "আচ্ছা",
-        "তাহলে",
-        "না"
+        "yes",
+        "then",
+        "OK",
+        "no"
       ],
-      "answer": 2,
+      "answer": 1,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "গ্রাম",
         "tr": "gram",
         "en": "village"
       },
-      "direction": "en_to_bn",
       "options": [
+        "মোড়",
+        "গরুর",
         "গ্রাম",
-        "দুপুর",
-        "ভাইয়া",
-        "মাছ"
+        "চাচা"
       ],
-      "answer": 0,
+      "answer": 2,
       "recycle": true
     },
     {
       "id": "r03",
       "type": "select_translation",
       "prompt": {
-        "bn": "সবচেয়ে",
-        "tr": "shobcheye",
-        "en": "the most"
+        "bn": "শহর",
+        "tr": "shohor",
+        "en": "city"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "where (before থেকে)",
-        "very",
-        "so",
-        "the most"
+        "শহর",
+        "বাচ্চা",
+        "জামা",
+        "সমস্যা"
       ],
-      "answer": 3,
+      "answer": 0,
       "recycle": true
     },
     {
@@ -403,14 +403,14 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "কম",
-          "tr": "kom",
-          "en": "less"
+          "bn": "টমেটোর",
+          "tr": "tometor",
+          "en": "of tomatoes"
         },
         {
-          "bn": "শহর",
-          "tr": "shohor",
-          "en": "city"
+          "bn": "বেশি",
+          "tr": "beshi",
+          "en": "more"
         },
         {
           "bn": "শেষ",
@@ -430,19 +430,19 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "টমেটোর",
-          "tr": "tometor",
-          "en": "of tomatoes"
+          "bn": "জামা",
+          "tr": "jama",
+          "en": "shirt"
         },
         {
-          "bn": "হালি",
-          "tr": "hali",
-          "en": "four (a set of four)"
+          "bn": "টমেটো",
+          "tr": "tometo",
+          "en": "tomato"
         },
         {
-          "bn": "পেঁয়াজ",
-          "tr": "pe~yaj",
-          "en": "onion"
+          "bn": "অন্য",
+          "tr": "onno",
+          "en": "other"
         },
         {
           "bn": "লুঙ্গি",

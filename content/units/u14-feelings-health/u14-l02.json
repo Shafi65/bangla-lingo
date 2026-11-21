@@ -1,0 +1,513 @@
+{
+  "id": "u14-l02",
+  "unit": "u14-feelings-health",
+  "title": "What's wrong? (with friends)",
+  "status": "draft",
+  "tip": "**তুই** is for your closest friends and brothers and sisters (U2). Its verbs end in **-িস**: **তুই ঠিক আছিস?** 'Are you OK?', **কী করছিস?** 'What are you doing?', **কাঁদছিস কেন?** 'Why are you crying?' The object form is **তোকে** 'you'.\n\n**A তুই command is the bare stem.** Take the তুমি command and drop the final **-ো**: **বসো → বস** 'sit', **শোনো → শোন** 'listen', **বলো → বল** 'tell'. You know one already: **দে** 'give!'.\n\n**'Don't' with তুই** is the present + **না**: **চিন্তা করিস না** 'don't worry'.\n\nThe caring question: **কী হয়েছে তোর?** 'What's wrong?'",
+  "vocab": [
+    {
+      "id": "thik",
+      "bn": "ঠিক",
+      "tr": "thik",
+      "en": "all right; OK",
+      "notes": "ঠিক + আছ-: ঠিক আছি 'I'm OK', তুই ঠিক আছিস? 'are you OK?' (তুমি ঠিক আছো?, আপনি ঠিক আছেন?). ঠিক আছে 'OK' (U6)."
+    },
+    {
+      "id": "korchhish",
+      "bn": "করছিস",
+      "tr": "korchhish",
+      "en": "you (intimate) are doing",
+      "notes": "তুই present continuous: -ছিস. করছি · করছো · করছেন · করছিস. কী করছিস? 'What are you up to?'"
+    },
+    {
+      "id": "kadchhish",
+      "bn": "কাঁদছিস",
+      "tr": "ka~dchhish",
+      "en": "you (intimate) are crying",
+      "notes": "কাঁদা 'cry'. কাঁদছিস কেন? 'Why are you crying?'"
+    },
+    {
+      "id": "toke",
+      "bn": "তোকে",
+      "tr": "toke",
+      "en": "you (intimate, object)",
+      "notes": "Object form of তুই, like তোমাকে (তুমি) and আপনাকে (আপনি)."
+    },
+    {
+      "id": "bosh",
+      "bn": "বস",
+      "tr": "bosh",
+      "en": "sit (intimate)",
+      "notes": "তুই command = the bare stem: বসো → বস. Also spelled বোস."
+    },
+    {
+      "id": "shon",
+      "bn": "শোন",
+      "tr": "shon",
+      "en": "listen (intimate)",
+      "notes": "তুই command: শোনো → শোন. Also opens a sentence: শোন, … 'Listen, …'."
+    },
+    {
+      "id": "bol",
+      "bn": "বল",
+      "tr": "bol",
+      "en": "say (intimate)",
+      "notes": "তুই command: বলো → বল. বল, কী হয়েছে? 'Tell me, what's wrong?'"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "তুই ঠিক আছিস?",
+        "tr": "tui thik achhish?",
+        "en": "Are you OK?",
+        "alt": [
+          "Are you all right?"
+        ]
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "Are you OK?",
+        "Are you sure?",
+        "Is it OK?",
+        "Where are you?"
+      ],
+      "answer": 0,
+      "why": "**ঠিক** 'all right' + **আছিস** (তুই): 'Are you OK?'"
+    },
+    {
+      "id": "e02",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "কী হয়েছে তোর?",
+        "tr": "ki hoyechhe tor?",
+        "en": "What's wrong with you?",
+        "alt": [
+          "What happened to you?",
+          "What's the matter?"
+        ]
+      },
+      "options": [
+        "What are you doing?",
+        "What do you want?",
+        "What's wrong with you?",
+        "Where are you going?"
+      ],
+      "answer": 2,
+      "why": "**কী হয়েছে** 'what happened' + **তোর** (তুই): 'What's the matter with you?'"
+    },
+    {
+      "id": "e03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "কাঁদছিস কেন?",
+        "tr": "ka~dchhish keno?",
+        "en": "Why are you crying?"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "Why are you laughing?",
+        "Why are you crying?",
+        "What are you doing?",
+        "Why are you angry?"
+      ],
+      "answer": 1,
+      "why": "**কাঁদছিস**: কাঁদা 'cry' + the তুই ending **-ছিস**."
+    },
+    {
+      "id": "e04",
+      "type": "listen_select",
+      "audio": {
+        "bn": "করছিস",
+        "tr": "korchhish",
+        "en": "you (intimate) are doing"
+      },
+      "options": [
+        "করছো",
+        "করছেন",
+        "করিস",
+        "করছিস"
+      ],
+      "answer": 3,
+      "why": "The তুই present continuous ends in **-ছিস**: **করছিস**. (**করছো** তুমি, **করছেন** আপনি.)"
+    },
+    {
+      "id": "e05",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "এখানে বস।",
+        "tr": "ekhane bosh.",
+        "en": "Sit here.",
+        "alt": [
+          "Sit down here."
+        ]
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "I'm sitting here.",
+        "Sit here.",
+        "Sit here, please. (polite)",
+        "Stand here."
+      ],
+      "answer": 1,
+      "why": "**বস** is the তুই command: **বসো** minus the final **-ো**."
+    },
+    {
+      "id": "e06",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "বস",
+          "tr": "bosh",
+          "en": "sit (intimate)"
+        },
+        {
+          "bn": "শোন",
+          "tr": "shon",
+          "en": "listen (intimate)"
+        },
+        {
+          "bn": "বল",
+          "tr": "bol",
+          "en": "say (intimate)"
+        },
+        {
+          "bn": "তোকে",
+          "tr": "toke",
+          "en": "you (intimate, object)"
+        },
+        {
+          "bn": "ঠিক",
+          "tr": "thik",
+          "en": "all right; OK"
+        }
+      ]
+    },
+    {
+      "id": "e07",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "শোন, চিন্তা করিস না।",
+        "tr": "shon, chinta korish na.",
+        "en": "Listen, don't worry.",
+        "alt": [
+          "Hey, don't worry."
+        ]
+      },
+      "options": [
+        "Listen, don't worry.",
+        "Listen, I'm not worried.",
+        "Look, don't go.",
+        "Listen, don't be late."
+      ],
+      "answer": 0,
+      "why": "তুই 'don't' = present **করিস** + **না**."
+    },
+    {
+      "id": "e08",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "বল, কী হয়েছে?",
+        "tr": "bol, ki hoyechhe?",
+        "en": "Tell me, what happened?",
+        "alt": [
+          "Tell me, what's wrong?"
+        ]
+      },
+      "options": [
+        "Listen, what happened?",
+        "Say it again.",
+        "Tell me, what are you doing?",
+        "Tell me, what happened?"
+      ],
+      "answer": 3,
+      "why": "**বল** 'tell!' is the তুই form of **বলো**."
+    },
+    {
+      "id": "e09",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "তুই কী করছিস?",
+        "tr": "tui ki korchhish?",
+        "en": "What are you doing?",
+        "alt": [
+          "What are you up to?"
+        ]
+      },
+      "blank": "করছিস",
+      "options": [
+        "করছো",
+        "করছেন",
+        "করছিস",
+        "করছি"
+      ],
+      "answer": 2,
+      "why": "With **তুই** the verb ends in **-িস**: **করছিস**."
+    },
+    {
+      "id": "e10",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আমি তোকে সাহায্য করব।",
+        "tr": "ami toke shahajjo korbo.",
+        "en": "I'll help you. (intimate)",
+        "alt": [
+          "I will help you."
+        ]
+      },
+      "blank": "তোকে",
+      "options": [
+        "তোর",
+        "তুই",
+        "তোকে",
+        "তোমার"
+      ],
+      "answer": 2,
+      "why": "The object 'you' for তুই is **তোকে** (like **তোমাকে**, **আপনাকে**)."
+    },
+    {
+      "id": "e11",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "শোন, এখানে বস।",
+        "tr": "shon, ekhane bosh.",
+        "en": "Listen, sit here. (intimate)",
+        "alt": [
+          "Hey, sit down here."
+        ]
+      },
+      "blank": "বস",
+      "accepted": [
+        "বস",
+        "বোস",
+        "bosh",
+        "bos",
+        "bosh."
+      ],
+      "why": "তুই command = bare stem: **বসো → বস**."
+    },
+    {
+      "id": "e12",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "তুই ঠিক আছিস?",
+        "tr": "tui thik achhish?",
+        "en": "Are you OK? (intimate)",
+        "alt": [
+          "Are you all right?"
+        ]
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "আছেন",
+        "তোর",
+        "আছিস",
+        "আছো",
+        "তুই",
+        "ঠিক"
+      ],
+      "answer": [
+        "তুই",
+        "ঠিক",
+        "আছিস"
+      ],
+      "why": "**তুই** goes with **আছিস**."
+    },
+    {
+      "id": "e13",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "বল, কী হয়েছে?",
+        "tr": "bol, ki hoyechhe?",
+        "en": "Tell me, what's wrong? (intimate)",
+        "alt": [
+          "Tell me, what happened?"
+        ]
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "কী",
+        "কেন",
+        "বল",
+        "করছিস",
+        "শোন",
+        "হয়েছে"
+      ],
+      "answer": [
+        "বল",
+        "কী",
+        "হয়েছে"
+      ],
+      "why": "**বল** 'tell!' (তুই) + **কী হয়েছে** 'what happened'."
+    },
+    {
+      "id": "e14",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "শোন, চিন্তা করিস না।",
+        "tr": "shon, chinta korish na.",
+        "en": "Listen, don't worry. (intimate)",
+        "alt": [
+          "Hey, don't worry."
+        ]
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "শোন, চিন্তা করিস না।",
+        "শোনো, চিন্তা করবেন না।",
+        "শোন, চিন্তা করছিস না।",
+        "বস, চিন্তা করিস না।"
+      ],
+      "answer": 0,
+      "why": "তুই 'don't' = present **করিস** + **না**; **শোন** is the তুই 'listen'."
+    },
+    {
+      "id": "e15",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "কাঁদছিস কেন?",
+        "tr": "ka~dchhish keno?",
+        "en": "Why are you crying? (intimate)"
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "কাঁদছিস কেন",
+        "তুই কাঁদছিস কেন",
+        "কেন কাঁদছিস",
+        "তুই কেন কাঁদছিস",
+        "কাদছিস কেন",
+        "তুই কাদছিস কেন",
+        "ka~dchhish keno",
+        "kadchhish keno",
+        "kadchhis keno",
+        "kadchish keno",
+        "tui ka~dchhish keno",
+        "tui kadchhish keno",
+        "tui kadchhis keno",
+        "tui kadchish keno",
+        "keno ka~dchhish",
+        "keno kadchhish",
+        "keno kadchhis",
+        "keno kadchish",
+        "tui keno ka~dchhish",
+        "tui keno kadchhish",
+        "tui keno kadchhis",
+        "tui keno kadchish",
+        "kadchis keno",
+        "tui kadchis keno",
+        "kandchhish keno",
+        "tui kandchhish keno"
+      ],
+      "why": "**কাঁদছিস** (তুই) + **কেন** 'why'; **কেন** can go before or after."
+    },
+    {
+      "id": "r01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "লাগছে",
+        "tr": "lagchhe",
+        "en": "feel (right now)"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "এসেছি",
+        "লাগছে",
+        "দেখবে",
+        "বলেন"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ক্লান্ত",
+        "tr": "klanto",
+        "en": "tired"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "less",
+        "tired",
+        "spicy",
+        "tomorrow's"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "listen_select",
+      "audio": {
+        "bn": "খুশি",
+        "tr": "khushi",
+        "en": "happy"
+      },
+      "options": [
+        "শুভ",
+        "কঠিন",
+        "সব",
+        "খুশি"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "ভয়",
+          "tr": "bhoy",
+          "en": "fear"
+        },
+        {
+          "bn": "তারপর",
+          "tr": "tarpor",
+          "en": "then"
+        },
+        {
+          "bn": "রাগ",
+          "tr": "rag",
+          "en": "anger"
+        },
+        {
+          "bn": "বারো",
+          "tr": "baro",
+          "en": "twelve"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "খেলাম",
+          "tr": "khelam",
+          "en": "I ate"
+        },
+        {
+          "bn": "খাইনি",
+          "tr": "khaini",
+          "en": "I haven't eaten"
+        },
+        {
+          "bn": "চলেন",
+          "tr": "cholen",
+          "en": "let's"
+        },
+        {
+          "bn": "ওখানে",
+          "tr": "okhane",
+          "en": "there"
+        }
+      ],
+      "recycle": true
+    }
+  ]
+}

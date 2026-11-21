@@ -591,12 +591,12 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "hide-and-seek",
-        "the phone",
-        "Bengali (language)",
-        "city"
+        "teeth",
+        "poisha",
+        "guest",
+        "the phone"
       ],
-      "answer": 1,
+      "answer": 3,
       "recycle": true
     },
     {
@@ -608,9 +608,9 @@
         "en": "candle"
       },
       "options": [
-        "বয়স",
-        "মুরগি",
-        "মিটিং",
+        "খেলা",
+        "দরজা",
+        "নানা",
         "মোমবাতি"
       ],
       "answer": 3,
@@ -621,24 +621,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "দরজায়",
-          "tr": "dorjay",
-          "en": "at the door"
-        },
-        {
           "bn": "বর্ষাকালে",
           "tr": "borshakale",
           "en": "in the rainy season"
         },
         {
-          "bn": "প্রায়ই",
-          "tr": "prayi",
-          "en": "often"
-        },
-        {
           "bn": "ছুটিতে",
           "tr": "chhutite",
           "en": "in the holidays"
+        },
+        {
+          "bn": "দরজায়",
+          "tr": "dorjay",
+          "en": "at the door"
+        },
+        {
+          "bn": "প্রায়ই",
+          "tr": "prayi",
+          "en": "often"
         }
       ],
       "recycle": true
@@ -648,9 +648,9 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "ছোটবেলা",
-          "tr": "chhotobela",
-          "en": "childhood"
+          "bn": "শীতকালে",
+          "tr": "shitkale",
+          "en": "in winter"
         },
         {
           "bn": "ঘুড়ি",
@@ -658,9 +658,9 @@
           "en": "kite"
         },
         {
-          "bn": "শীতকালে",
-          "tr": "shitkale",
-          "en": "in winter"
+          "bn": "ছোটবেলা",
+          "tr": "chhotobela",
+          "en": "childhood"
         },
         {
           "bn": "লুকোচুরি",

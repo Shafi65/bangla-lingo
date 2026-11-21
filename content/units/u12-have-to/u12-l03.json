@@ -471,14 +471,14 @@
       "type": "match_pairs",
       "pairs": [
         {
+          "bn": "ছয়",
+          "tr": "chhoy",
+          "en": "six"
+        },
+        {
           "bn": "আড়াই",
           "tr": "arai",
           "en": "two and a half"
-        },
-        {
-          "bn": "একশ",
-          "tr": "eksho",
-          "en": "one hundred"
         },
         {
           "bn": "খায়",

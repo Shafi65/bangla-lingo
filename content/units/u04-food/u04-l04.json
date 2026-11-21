@@ -389,33 +389,33 @@
     },
     {
       "id": "r01",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "খাস",
         "tr": "khash",
         "en": "(you, intimate) eat"
       },
-      "direction": "bn_to_en",
       "options": [
-        "is (he/she/it)",
-        "is not / are not (polite)",
-        "are not (familiar)",
-        "(you, intimate) eat"
+        "এসেছি",
+        "নয়",
+        "এসেছেন",
+        "খাস"
       ],
       "answer": 3,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "খায়",
         "tr": "khay",
         "en": "(he/she/they) eats"
       },
+      "direction": "en_to_bn",
       "options": [
-        "চান",
-        "খাস",
+        "জানি",
+        "চাও",
         "খায়",
         "নও"
       ],
@@ -430,12 +430,12 @@
         "tr": "ruti",
         "en": "flatbread"
       },
-      "direction": "en_to_bn",
+      "direction": "bn_to_en",
       "options": [
-        "রুটি",
-        "নাস্তা",
-        "বাংলা",
-        "ফুফু"
+        "flatbread",
+        "breakfast",
+        "Bengali (language)",
+        "aunt (father's sister)"
       ],
       "answer": 0,
       "recycle": true
@@ -445,9 +445,9 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "একটা",
-          "tr": "ekta",
-          "en": "one; a"
+          "bn": "জি",
+          "tr": "ji",
+          "en": "yes (polite)"
         },
         {
           "bn": "নাস্তা",
@@ -455,14 +455,14 @@
           "en": "breakfast"
         },
         {
-          "bn": "সবাই",
-          "tr": "shobai",
-          "en": "everyone"
+          "bn": "আছি",
+          "tr": "achhi",
+          "en": "am"
         },
         {
-          "bn": "জানেন",
-          "tr": "janen",
-          "en": "(you, polite) know"
+          "bn": "তোমরা",
+          "tr": "tomra",
+          "en": "you (familiar, plural)"
         }
       ],
       "recycle": true
@@ -472,24 +472,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "মানে",
-          "tr": "mane",
-          "en": "meaning"
+          "bn": "ছাত্রী",
+          "tr": "chhatri",
+          "en": "student (female)"
         },
         {
-          "bn": "বাচ্চা",
-          "tr": "bachcha",
-          "en": "child"
+          "bn": "আপনার",
+          "tr": "apnar",
+          "en": "your (polite)"
         },
         {
-          "bn": "স্ত্রী",
-          "tr": "stri",
+          "bn": "বউ",
+          "tr": "bou",
           "en": "wife"
         },
         {
-          "bn": "আন্টি",
-          "tr": "anti",
-          "en": "auntie (address)"
+          "bn": "মা",
+          "tr": "ma",
+          "en": "mother"
         }
       ],
       "recycle": true

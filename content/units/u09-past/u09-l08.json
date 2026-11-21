@@ -327,37 +327,37 @@
     },
     {
       "id": "r01",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "গিয়েছিলাম",
         "tr": "giyechhilam",
         "en": "I had gone"
       },
+      "direction": "bn_to_en",
       "options": [
-        "উঠি",
-        "গিয়েছিলাম",
-        "গিয়েছিল",
-        "করছো"
+        "I haven't eaten",
+        "I had gone",
+        "has come",
+        "I will go"
       ],
       "answer": 1,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "গিয়েছিল",
         "tr": "giyechhilo",
         "en": "had gone"
       },
-      "direction": "en_to_bn",
       "options": [
-        "গিয়েছিল",
-        "শুনলাম",
-        "আসেনি",
-        "দিন"
+        "করলাম",
+        "শুনি",
+        "করিস",
+        "গিয়েছিল"
       ],
-      "answer": 0,
+      "answer": 3,
       "recycle": true
     },
     {
@@ -368,14 +368,14 @@
         "tr": "ekhono na",
         "en": "not yet"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "not yet",
-        "I don't understand",
-        "last week",
-        "praise be to God"
+        "খোদা হাফেজ",
+        "এখনো না",
+        "ঠিক আছে",
+        "গত সপ্তাহে"
       ],
-      "answer": 0,
+      "answer": 1,
       "recycle": true
     },
     {
@@ -383,9 +383,9 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "খাইনি",
-          "tr": "khaini",
-          "en": "I haven't eaten"
+          "bn": "এখনো",
+          "tr": "ekhono",
+          "en": "yet"
         },
         {
           "bn": "ছবি",
@@ -393,9 +393,9 @@
           "en": "film"
         },
         {
-          "bn": "এখনো",
-          "tr": "ekhono",
-          "en": "yet"
+          "bn": "খাইনি",
+          "tr": "khaini",
+          "en": "I haven't eaten"
         },
         {
           "bn": "করিনি",
@@ -410,24 +410,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "খাওনি",
-          "tr": "khaoni",
-          "en": "you didn't eat (familiar)"
-        },
-        {
-          "bn": "যাইনি",
-          "tr": "jaini",
-          "en": "I didn't go"
-        },
-        {
           "bn": "দেখিনি",
           "tr": "dekhini",
           "en": "I didn't see"
         },
         {
+          "bn": "খাওনি",
+          "tr": "khaoni",
+          "en": "you didn't eat (familiar)"
+        },
+        {
           "bn": "ইতিমধ্যে",
           "tr": "itimoddhe",
           "en": "already"
+        },
+        {
+          "bn": "যাইনি",
+          "tr": "jaini",
+          "en": "I didn't go"
         }
       ],
       "recycle": true

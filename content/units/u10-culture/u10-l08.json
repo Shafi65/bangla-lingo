@@ -414,15 +414,15 @@
       "id": "r03",
       "type": "listen_select",
       "audio": {
-        "bn": "মতো",
-        "tr": "moto",
-        "en": "like"
+        "bn": "হিন্দুদের",
+        "tr": "hinduder",
+        "en": "of the Hindus"
       },
       "options": [
-        "ভিতরে",
-        "আগে",
-        "সাথে",
-        "মতো"
+        "বাবা",
+        "মামা",
+        "দোকানদার",
+        "হিন্দুদের"
       ],
       "answer": 3,
       "recycle": true
@@ -432,24 +432,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "হিন্দুদের",
-          "tr": "hinduder",
-          "en": "of the Hindus"
+          "bn": "উঠলাম",
+          "tr": "uthlam",
+          "en": "I got up"
         },
         {
-          "bn": "তখন",
-          "tr": "tokhon",
-          "en": "then"
+          "bn": "শিক্ষার্থী",
+          "tr": "shikkharthi",
+          "en": "student"
         },
         {
-          "bn": "ছিলে",
-          "tr": "chhile",
-          "en": "you were (familiar)"
+          "bn": "আশি",
+          "tr": "ashi",
+          "en": "eighty"
         },
         {
-          "bn": "সাথে",
-          "tr": "shathe",
-          "en": "with"
+          "bn": "কথা",
+          "tr": "kotha",
+          "en": "talk"
         }
       ],
       "recycle": true
@@ -459,24 +459,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "ছিলেন",
-          "tr": "chhilen",
-          "en": "you were (polite)"
+          "bn": "নব্বই",
+          "tr": "nobboi",
+          "en": "ninety"
         },
         {
-          "bn": "বন্ধুর",
-          "tr": "bondhur",
-          "en": "friend's"
+          "bn": "যাও",
+          "tr": "jao",
+          "en": "you go (familiar)"
         },
         {
-          "bn": "উঠলাম",
-          "tr": "uthlam",
-          "en": "I got up"
+          "bn": "দুইটা",
+          "tr": "duita",
+          "en": "two (things)"
         },
         {
-          "bn": "কথা",
-          "tr": "kotha",
-          "en": "talk"
+          "bn": "কয়টায়",
+          "tr": "koytay",
+          "en": "at what time"
         }
       ],
       "recycle": true

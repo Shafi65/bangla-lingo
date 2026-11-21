@@ -332,42 +332,42 @@
         "tr": "jabe",
         "en": "will go"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "will go",
-        "(you, polite) have come",
-        "you will buy (polite)",
-        "go (polite)"
+        "যাবে",
+        "এসেছেন",
+        "কিনবেন",
+        "যান"
       ],
       "answer": 0,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "ছাড়বে",
         "tr": "chharbe",
         "en": "will leave"
       },
+      "direction": "bn_to_en",
       "options": [
-        "খায়",
-        "নও",
-        "ছাড়বে",
-        "নই"
+        "(he/she/they) eats",
+        "are not (familiar)",
+        "will leave",
+        "am not"
       ],
       "answer": 2,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "পর্যন্ত",
         "tr": "porjonto",
         "en": "to"
       },
-      "direction": "en_to_bn",
       "options": [
         "পর্যন্ত",
         "দিকে",
@@ -409,9 +409,9 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "ইলিশের",
-          "tr": "ilisher",
-          "en": "of the hilsa"
+          "bn": "শাড়িটা",
+          "tr": "sharita",
+          "en": "the sari"
         },
         {
           "bn": "বাসে",
@@ -424,9 +424,9 @@
           "en": "by train"
         },
         {
-          "bn": "কিনবেন",
-          "tr": "kinben",
-          "en": "you will buy (polite)"
+          "bn": "সবচেয়ে",
+          "tr": "shobcheye",
+          "en": "the most"
         }
       ],
       "recycle": true

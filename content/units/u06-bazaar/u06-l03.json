@@ -357,30 +357,30 @@
     },
     {
       "id": "r01",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "শুধু",
         "tr": "shudhu",
         "en": "only"
       },
-      "direction": "bn_to_en",
       "options": [
-        "very",
-        "at noon",
-        "only",
-        "here"
+        "খুব",
+        "দুপুরে",
+        "শুধু",
+        "এখানে"
       ],
       "answer": 2,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "পাঁচশ",
         "tr": "pa~chsho",
         "en": "five hundred"
       },
+      "direction": "en_to_bn",
       "options": [
         "পৌনে",
         "পাঁচশ",
@@ -398,12 +398,12 @@
         "tr": "duisho",
         "en": "two hundred"
       },
-      "direction": "en_to_bn",
+      "direction": "bn_to_en",
       "options": [
-        "চার",
-        "আঠারো",
-        "তেরো",
-        "দুইশ"
+        "four",
+        "eighteen",
+        "thirteen",
+        "two hundred"
       ],
       "answer": 3,
       "recycle": true

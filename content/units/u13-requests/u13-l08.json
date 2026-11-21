@@ -462,49 +462,49 @@
         "tr": "janaben",
         "en": "please let (me) know (polite)"
       },
-      "direction": "en_to_bn",
+      "direction": "bn_to_en",
       "options": [
-        "খেয়েছো",
-        "জানাবেন",
-        "ছিলে",
-        "দেখছে"
+        "I will say",
+        "he/she wants",
+        "you were (polite)",
+        "please let (me) know (polite)"
       ],
-      "answer": 1,
+      "answer": 3,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "হতে",
-        "tr": "hote",
-        "en": "to become"
+      "type": "listen_select",
+      "audio": {
+        "bn": "চালাতে",
+        "tr": "chalate",
+        "en": "to drive"
       },
-      "direction": "bn_to_en",
       "options": [
-        "give (familiar)",
-        "to become",
-        "is not (here); there isn't",
-        "sit (familiar)"
+        "চালাতে",
+        "যাব",
+        "ঘুমান",
+        "আসবেন"
       ],
-      "answer": 1,
+      "answer": 0,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "listen_select",
-      "audio": {
-        "bn": "চাস",
-        "tr": "chash",
-        "en": "you (intimate) want"
+      "type": "select_translation",
+      "prompt": {
+        "bn": "পারিস",
+        "tr": "parish",
+        "en": "you (intimate) can"
       },
+      "direction": "en_to_bn",
       "options": [
-        "দেবেন",
-        "দেখাতে",
-        "চাস",
-        "পড়ছি"
+        "পারিস",
+        "নিলাম",
+        "দেখলাম",
+        "লেগেছে"
       ],
-      "answer": 2,
+      "answer": 0,
       "recycle": true
     },
     {
@@ -512,24 +512,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "পারেনি",
-          "tr": "pareni",
-          "en": "he/she couldn't"
+          "bn": "দেড়",
+          "tr": "der",
+          "en": "one and a half"
         },
         {
-          "bn": "চালাতে",
-          "tr": "chalate",
-          "en": "to drive"
+          "bn": "এসেছেন",
+          "tr": "eshechhen",
+          "en": "(you, polite) have come"
         },
         {
-          "bn": "পারিস",
-          "tr": "parish",
-          "en": "you (intimate) can"
+          "bn": "দে",
+          "tr": "de",
+          "en": "give (intimate)"
         },
         {
-          "bn": "শিখতে",
-          "tr": "shikhte",
-          "en": "to learn"
+          "bn": "ইতিমধ্যে",
+          "tr": "itimoddhe",
+          "en": "already"
         }
       ],
       "recycle": true
@@ -539,24 +539,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "পারো",
-          "tr": "paro",
-          "en": "you (familiar) can"
+          "bn": "লেখে",
+          "tr": "lekhe",
+          "en": "writes"
         },
         {
-          "bn": "এসেছেন",
-          "tr": "eshechhen",
-          "en": "(you, polite) have come"
+          "bn": "সাধারণত",
+          "tr": "shadharonoto",
+          "en": "usually"
         },
         {
-          "bn": "দেড়",
-          "tr": "der",
-          "en": "one and a half"
+          "bn": "আর",
+          "tr": "ar",
+          "en": "and"
         },
         {
-          "bn": "পারিনি",
-          "tr": "parini",
-          "en": "I couldn't"
+          "bn": "খাচ্ছি",
+          "tr": "khachchhi",
+          "en": "I am eating"
         }
       ],
       "recycle": true

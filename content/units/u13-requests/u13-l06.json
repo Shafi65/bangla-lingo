@@ -411,37 +411,37 @@
     },
     {
       "id": "r01",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "পাচ্ছি",
         "tr": "pachchhi",
         "en": "I am getting"
       },
-      "direction": "bn_to_en",
       "options": [
-        "I am getting",
-        "I haven't eaten",
-        "(I/we) eat",
-        "will you go (polite)"
+        "পাচ্ছি",
+        "করলি",
+        "এসেছেন",
+        "হতে"
       ],
       "answer": 0,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "বলছেন",
         "tr": "bolchhen",
         "en": "you are speaking (polite)"
       },
+      "direction": "en_to_bn",
       "options": [
-        "বলছেন",
-        "নিন",
-        "বসেন",
-        "দেখবে"
+        "লেগেছে",
+        "বসো",
+        "বললাম",
+        "বলছেন"
       ],
-      "answer": 0,
+      "answer": 3,
       "recycle": true
     },
     {
@@ -452,12 +452,12 @@
         "tr": "pachchhen",
         "en": "you are getting (polite)"
       },
-      "direction": "en_to_bn",
+      "direction": "bn_to_en",
       "options": [
-        "হবে",
-        "পাচ্ছেন",
-        "খেতে",
-        "খাচ্ছি"
+        "is not (here); there isn't",
+        "you are getting (polite)",
+        "you were (familiar)",
+        "you (familiar) / he, she will listen"
       ],
       "answer": 1,
       "recycle": true
@@ -472,9 +472,9 @@
           "en": "please take (standard)"
         },
         {
-          "bn": "নম্বর",
-          "tr": "nombor",
-          "en": "number"
+          "bn": "বসেন",
+          "tr": "boshen",
+          "en": "sit (polite)"
         },
         {
           "bn": "আসুন",
@@ -482,9 +482,9 @@
           "en": "please come (standard)"
         },
         {
-          "bn": "বসেন",
-          "tr": "boshen",
-          "en": "sit (polite)"
+          "bn": "নম্বর",
+          "tr": "nombor",
+          "en": "number"
         }
       ],
       "recycle": true
@@ -494,9 +494,14 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "পড়ি",
-          "tr": "pori",
-          "en": "I read"
+          "bn": "চাস",
+          "tr": "chash",
+          "en": "you (intimate) want"
+        },
+        {
+          "bn": "হতে",
+          "tr": "hote",
+          "en": "to become"
         },
         {
           "bn": "শুনুন",
@@ -507,11 +512,6 @@
           "bn": "বসুন",
           "tr": "boshun",
           "en": "please sit (standard)"
-        },
-        {
-          "bn": "জানেন",
-          "tr": "janen",
-          "en": "(you, polite) know"
         }
       ],
       "recycle": true

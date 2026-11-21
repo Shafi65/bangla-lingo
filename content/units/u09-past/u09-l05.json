@@ -362,42 +362,42 @@
         "tr": "ki hoyechhe",
         "en": "what happened"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "what happened",
-        "I think",
-        "thank you",
-        "hello (peace be upon you)"
+        "কী হয়েছে",
+        "মনে হয়",
+        "ধন্যবাদ",
+        "আসসালামু আলাইকুম"
       ],
       "answer": 0,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "কিনলেন",
         "tr": "kinlen",
         "en": "you bought (polite)"
       },
+      "direction": "bn_to_en",
       "options": [
-        "এসেছে",
-        "কিনলেন",
-        "নন",
-        "খেয়েছেন"
+        "I will go",
+        "you bought (polite)",
+        "I didn't go",
+        "I gave"
       ],
       "answer": 1,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "কিনল",
         "tr": "kinlo",
         "en": "bought"
       },
-      "direction": "en_to_bn",
       "options": [
         "যাব",
         "আছো",

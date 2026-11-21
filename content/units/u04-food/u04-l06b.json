@@ -322,35 +322,35 @@
     },
     {
       "id": "r01",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "লেগেছে",
         "tr": "legechhe",
         "en": "has come on (felt)"
       },
-      "direction": "bn_to_en",
       "options": [
-        "is not / are not (polite)",
-        "are (polite)",
-        "(you/he/she, polite) want",
-        "has come on (felt)"
+        "নন",
+        "আছেন",
+        "চান",
+        "লেগেছে"
       ],
       "answer": 3,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "লাগে",
         "tr": "lage",
         "en": "feels"
       },
+      "direction": "en_to_bn",
       "options": [
         "লাগে",
-        "খায়",
-        "খান",
-        "এসেছেন"
+        "খাও",
+        "নয়",
+        "জানেন"
       ],
       "answer": 0,
       "recycle": true
@@ -359,18 +359,18 @@
       "id": "r03",
       "type": "select_translation",
       "prompt": {
-        "bn": "ক্ষুধা",
-        "tr": "khudha",
-        "en": "hunger"
+        "bn": "মজা",
+        "tr": "moja",
+        "en": "fun; tasty"
       },
-      "direction": "en_to_bn",
+      "direction": "bn_to_en",
       "options": [
-        "দাদা",
-        "মাংস",
-        "ক্ষুধা",
-        "খালু"
+        "fish",
+        "chicken",
+        "aunt (mother's sister)",
+        "fun; tasty"
       ],
-      "answer": 2,
+      "answer": 3,
       "recycle": true
     },
     {
@@ -383,19 +383,19 @@
           "en": "(you, intimate) eat"
         },
         {
-          "bn": "নাস্তা",
-          "tr": "nashta",
-          "en": "breakfast"
-        },
-        {
           "bn": "কাপ",
           "tr": "kap",
           "en": "cup"
         },
         {
-          "bn": "মজা",
-          "tr": "moja",
-          "en": "fun; tasty"
+          "bn": "রুটি",
+          "tr": "ruti",
+          "en": "flatbread"
+        },
+        {
+          "bn": "ক্ষুধা",
+          "tr": "khudha",
+          "en": "hunger"
         }
       ],
       "recycle": true
@@ -405,24 +405,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "আপা",
-          "tr": "apa",
-          "en": "elder sister; ma'am"
+          "bn": "নাস্তা",
+          "tr": "nashta",
+          "en": "breakfast"
         },
         {
-          "bn": "রুটি",
-          "tr": "ruti",
-          "en": "flatbread"
+          "bn": "তুই",
+          "tr": "tui",
+          "en": "you (intimate)"
         },
         {
-          "bn": "স্বামী",
-          "tr": "shami",
-          "en": "husband"
+          "bn": "ওনার",
+          "tr": "onar",
+          "en": "his/her (polite)"
         },
         {
-          "bn": "আংকেল",
-          "tr": "angkel",
-          "en": "uncle (address)"
+          "bn": "আছেন",
+          "tr": "achhen",
+          "en": "are (polite)"
         }
       ],
       "recycle": true

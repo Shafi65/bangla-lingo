@@ -361,49 +361,49 @@
         "tr": "boli",
         "en": "I speak"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "you sleep (polite)",
-        "I go",
-        "I live",
-        "I speak"
+        "ঘুমান",
+        "যাই",
+        "থাকি",
+        "বলি"
       ],
       "answer": 3,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "বলেন",
         "tr": "bolen",
         "en": "you speak (polite)"
       },
+      "direction": "bn_to_en",
       "options": [
-        "খাস",
-        "উঠি",
-        "বলেন",
-        "বাজে"
+        "you speak (polite)",
+        "give (polite, standard)",
+        "you get up (polite)",
+        "lives (polite)"
       ],
-      "answer": 2,
+      "answer": 0,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "বই",
         "tr": "boi",
         "en": "book"
       },
-      "direction": "en_to_bn",
       "options": [
-        "দুপুর",
         "বই",
-        "হোটেল",
+        "মিনিট",
+        "টাকা",
         "আব্বু"
       ],
-      "answer": 1,
+      "answer": 0,
       "recycle": true
     },
     {
@@ -416,6 +416,11 @@
           "en": "you do (polite)"
         },
         {
+          "bn": "কঠিন",
+          "tr": "kothin",
+          "en": "difficult"
+        },
+        {
           "bn": "কাজ",
           "tr": "kaj",
           "en": "work"
@@ -424,11 +429,6 @@
           "bn": "আসলে",
           "tr": "ashole",
           "en": "actually"
-        },
-        {
-          "bn": "কঠিন",
-          "tr": "kothin",
-          "en": "difficult"
         }
       ],
       "recycle": true
@@ -438,24 +438,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "করিস",
-          "tr": "korish",
-          "en": "you do (intimate)"
-        },
-        {
-          "bn": "ভাংতি",
-          "tr": "bhangti",
-          "en": "change"
-        },
-        {
           "bn": "সত্যি",
           "tr": "shotti",
           "en": "really"
         },
         {
+          "bn": "করিস",
+          "tr": "korish",
+          "en": "you do (intimate)"
+        },
+        {
           "bn": "করে",
           "tr": "kore",
           "en": "does"
+        },
+        {
+          "bn": "ভাংতি",
+          "tr": "bhangti",
+          "en": "change"
         }
       ],
       "recycle": true

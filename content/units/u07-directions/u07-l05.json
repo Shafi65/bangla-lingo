@@ -365,55 +365,55 @@
     },
     {
       "id": "r01",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "থাকি",
         "tr": "thaki",
         "en": "I live"
       },
+      "direction": "bn_to_en",
       "options": [
-        "যাবেন",
-        "খেতে",
-        "থাকি",
-        "চাও"
+        "stop (polite)",
+        "to eat",
+        "I live",
+        "(you, familiar) want"
       ],
       "answer": 2,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "তাহলে",
         "tr": "tahole",
         "en": "then"
       },
-      "direction": "en_to_bn",
       "options": [
         "আচ্ছা",
-        "তাহলে",
         "জি",
+        "তাহলে",
         "হ্যাঁ"
       ],
-      "answer": 1,
+      "answer": 2,
       "recycle": true
     },
     {
       "id": "r03",
       "type": "select_translation",
       "prompt": {
-        "bn": "গ্রাম",
-        "tr": "gram",
-        "en": "village"
+        "bn": "শহরে",
+        "tr": "shohore",
+        "en": "in the city"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "village",
-        "onion",
-        "sugar",
-        "of the station"
+        "মসজিদের",
+        "শহরে",
+        "মাস",
+        "ক্ষুধা"
       ],
-      "answer": 0,
+      "answer": 1,
       "recycle": true
     },
     {
@@ -421,24 +421,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "শহরে",
-          "tr": "shohore",
-          "en": "in the city"
-        },
-        {
-          "bn": "গ্রামে",
-          "tr": "grame",
-          "en": "in the village"
-        },
-        {
-          "bn": "কিনব",
-          "tr": "kinbo",
-          "en": "I will buy"
+          "bn": "মোড়",
+          "tr": "mor",
+          "en": "intersection"
         },
         {
           "bn": "শহর",
           "tr": "shohor",
           "en": "city"
+        },
+        {
+          "bn": "গ্রাম",
+          "tr": "gram",
+          "en": "village"
+        },
+        {
+          "bn": "গ্রামে",
+          "tr": "grame",
+          "en": "in the village"
         }
       ],
       "recycle": true
@@ -448,24 +448,24 @@
       "type": "match_pairs",
       "pairs": [
         {
+          "bn": "হোটেলের",
+          "tr": "hoteler",
+          "en": "of the hotel"
+        },
+        {
+          "bn": "বাড়ির",
+          "tr": "barir",
+          "en": "of the house"
+        },
+        {
           "bn": "স্টেশনের",
           "tr": "steshoner",
           "en": "of the station"
         },
         {
-          "bn": "এত",
-          "tr": "eto",
-          "en": "so"
-        },
-        {
-          "bn": "মোড়",
-          "tr": "mor",
-          "en": "intersection"
-        },
-        {
-          "bn": "হোটেলের",
-          "tr": "hoteler",
-          "en": "of the hotel"
+          "bn": "কিনব",
+          "tr": "kinbo",
+          "en": "I will buy"
         }
       ],
       "recycle": true

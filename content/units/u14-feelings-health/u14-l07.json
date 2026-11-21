@@ -1,0 +1,522 @@
+{
+  "id": "u14-l07",
+  "unit": "u14-feelings-health",
+  "title": "Help! Emergencies",
+  "status": "draft",
+  "tip": "In danger, shout **বাঁচাও!** 'Help!' To ask a passer-by for help: **সাহায্য করুন!** 'Please help!'\n\n**ডাকুন** 'please call (someone to come)': **অ্যাম্বুলেন্স ডাকুন!**, **পুলিশ ডাকুন!**, **ডাক্তার ডাকুন!** Everyday speech also says **ডাকেন**. Fire is **আগুন!**\n\nSay what happened: **একটা দুর্ঘটনা হয়েছে** 'there's been an accident', **আমি পড়ে গেছি** 'I fell'. **এটা জরুরি** 'it's urgent'.\n\n**হাসপাতালে** 'to the hospital': **ওকে হাসপাতালে নিতে হবে** 'we have to take him to hospital'. To your sister: **তাড়াতাড়ি আয়!** 'Come quickly!'",
+  "vocab": [
+    {
+      "id": "bachao",
+      "bn": "বাঁচাও",
+      "tr": "ba~chao",
+      "en": "help! (save me)",
+      "notes": "Command of বাঁচানো 'save'. Shouted in danger. সাহায্য করুন! is the polite 'please help'."
+    },
+    {
+      "id": "ambulens",
+      "bn": "অ্যাম্বুলেন্স",
+      "tr": "ambulens",
+      "en": "ambulance"
+    },
+    {
+      "id": "pulish",
+      "bn": "পুলিশ",
+      "tr": "pulish",
+      "en": "police"
+    },
+    {
+      "id": "dakun",
+      "bn": "ডাকুন",
+      "tr": "dakun",
+      "en": "please call (standard)",
+      "notes": "Standard polite command of ডাকা 'call (someone to come)': ডাক্তার ডাকুন 'call a doctor'. Everyday Bangladeshi speech also says ডাকেন. For phoning: ফোন করুন."
+    },
+    {
+      "id": "joruri",
+      "bn": "জরুরি",
+      "tr": "joruri",
+      "en": "urgent",
+      "notes": "এটা জরুরি 'it's urgent'."
+    },
+    {
+      "id": "agun",
+      "bn": "আগুন",
+      "tr": "agun",
+      "en": "fire"
+    },
+    {
+      "id": "durghotona",
+      "bn": "দুর্ঘটনা",
+      "tr": "durghotona",
+      "en": "accident",
+      "notes": "একটা দুর্ঘটনা হয়েছে 'there's been an accident'."
+    },
+    {
+      "id": "pore-gechhi",
+      "bn": "পড়ে গেছি",
+      "tr": "pore gechhi",
+      "en": "I fell (down)",
+      "notes": "পড়ে যাওয়া 'fall down'. Same পড়ে as in পড়া 'fall', not 'read'."
+    },
+    {
+      "id": "hashpatale",
+      "bn": "হাসপাতালে",
+      "tr": "hashpatale",
+      "en": "to the hospital; in hospital",
+      "notes": "হাসপাতাল + -এ, like বাসায়, স্কুলে."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "বাঁচাও!",
+        "tr": "ba~chao!",
+        "en": "Help!",
+        "alt": [
+          "Save me!"
+        ]
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "Help!",
+        "Stop!",
+        "Wait!",
+        "Come here!"
+      ],
+      "answer": 0,
+      "why": "**বাঁচাও!** 'save (me)!' is what you shout in danger."
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "অ্যাম্বুলেন্স ডাকুন!",
+        "tr": "ambulens dakun!",
+        "en": "Call an ambulance!",
+        "alt": [
+          "Please call an ambulance!"
+        ]
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "Call the police!",
+        "Call a doctor!",
+        "Call an ambulance!",
+        "Where's the ambulance?"
+      ],
+      "answer": 2,
+      "why": "**ডাকুন** 'please call (someone to come)'."
+    },
+    {
+      "id": "e03",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "পুলিশ",
+          "tr": "pulish",
+          "en": "police"
+        },
+        {
+          "bn": "আগুন",
+          "tr": "agun",
+          "en": "fire"
+        },
+        {
+          "bn": "দুর্ঘটনা",
+          "tr": "durghotona",
+          "en": "accident"
+        },
+        {
+          "bn": "জরুরি",
+          "tr": "joruri",
+          "en": "urgent"
+        },
+        {
+          "bn": "হাসপাতালে",
+          "tr": "hashpatale",
+          "en": "to the hospital; in hospital"
+        }
+      ]
+    },
+    {
+      "id": "e04",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "আমি পড়ে গেছি।",
+        "tr": "ami pore gechhi.",
+        "en": "I fell down.",
+        "alt": [
+          "I fell.",
+          "I've fallen."
+        ]
+      },
+      "options": [
+        "I've read it.",
+        "I fell down.",
+        "I went home.",
+        "I'm lost."
+      ],
+      "answer": 1,
+      "why": "**পড়ে গেছি** 'I fell'. পড়া also means 'read', but **পড়ে যাওয়া** is 'fall down'."
+    },
+    {
+      "id": "e05",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "এখানে একটা দুর্ঘটনা হয়েছে।",
+        "tr": "ekhane ekta durghotona hoyechhe.",
+        "en": "There's been an accident here.",
+        "alt": [
+          "There has been an accident here."
+        ]
+      },
+      "options": [
+        "There's a fire here.",
+        "Someone fell here.",
+        "There's a hospital here.",
+        "There's been an accident here."
+      ],
+      "answer": 3,
+      "why": "**একটা দুর্ঘটনা হয়েছে** 'an accident has happened'."
+    },
+    {
+      "id": "e06",
+      "type": "listen_select",
+      "audio": {
+        "bn": "বাঁচাও",
+        "tr": "ba~chao",
+        "en": "help! (save me)"
+      },
+      "options": [
+        "বাসায়",
+        "বাঁচাও",
+        "বাবা",
+        "বসো"
+      ],
+      "answer": 1,
+      "why": "**বাঁচাও** *ba~chao*, with a nasal **ঁ**."
+    },
+    {
+      "id": "e07",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "ওকে হাসপাতালে নিতে হবে।",
+        "tr": "oke hashpatale nite hobe.",
+        "en": "We have to take him to the hospital.",
+        "alt": [
+          "We have to take her to the hospital.",
+          "He has to go to hospital.",
+          "She has to go to hospital."
+        ]
+      },
+      "options": [
+        "We have to take him to the hospital.",
+        "He has to go home.",
+        "He is in the hospital.",
+        "We have to call the police."
+      ],
+      "answer": 0,
+      "why": "**হাসপাতালে** 'to the hospital' + **নিতে হবে** 'have to take' (U12)."
+    },
+    {
+      "id": "e08",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "এটা জরুরি।",
+        "tr": "eta joruri.",
+        "en": "It's urgent.",
+        "alt": [
+          "This is urgent.",
+          "It's an emergency."
+        ]
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "It's nearby.",
+        "It's a problem.",
+        "It's a hospital.",
+        "It's urgent."
+      ],
+      "answer": 3,
+      "why": "**জরুরি** 'urgent'."
+    },
+    {
+      "id": "e09",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "পুলিশ ডাকুন!",
+        "tr": "pulish dakun!",
+        "en": "Call the police!",
+        "alt": [
+          "Please call the police!"
+        ]
+      },
+      "blank": "ডাকুন",
+      "options": [
+        "করুন",
+        "দিন",
+        "ডাকুন",
+        "বলুন"
+      ],
+      "answer": 2,
+      "why": "**ডাকুন** 'please call (to come)', standard polite like **করুন**, **বলুন**."
+    },
+    {
+      "id": "e10",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "সাহায্য করুন!",
+        "tr": "shahajjo korun!",
+        "en": "Please help!",
+        "alt": [
+          "Help, please!",
+          "Help me, please!"
+        ]
+      },
+      "blank": "করুন",
+      "options": [
+        "ডাকুন",
+        "করি",
+        "করুন",
+        "করব"
+      ],
+      "answer": 2,
+      "why": "**সাহায্য করুন** 'please help'."
+    },
+    {
+      "id": "e11",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "তাড়াতাড়ি আয়!",
+        "tr": "taratari ay!",
+        "en": "Come quickly! (to your sister, intimate)",
+        "alt": [
+          "Come fast!"
+        ]
+      },
+      "blank": "আয়",
+      "options": [
+        "আয়",
+        "এসো",
+        "আসুন",
+        "আসি"
+      ],
+      "answer": 0,
+      "why": "To a sibling (তুই): **আয়**. **এসো** is তুমি, **আসুন** আপনি."
+    },
+    {
+      "id": "e12",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "ডাক্তার ডাকুন!",
+        "tr": "daktar dakun!",
+        "en": "Call a doctor! (polite)",
+        "alt": [
+          "Please call a doctor!"
+        ]
+      },
+      "blank": "ডাকুন",
+      "accepted": [
+        "ডাকুন",
+        "ডাকেন",
+        "dakun",
+        "daakun",
+        "daken",
+        "daaken"
+      ],
+      "why": "Standard **ডাকুন**; everyday Bangladeshi speech also says **ডাকেন**."
+    },
+    {
+      "id": "e13",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "এখানে একটা দুর্ঘটনা হয়েছে।",
+        "tr": "ekhane ekta durghotona hoyechhe.",
+        "en": "There's been an accident here.",
+        "alt": [
+          "There has been an accident here."
+        ]
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "আগুন",
+        "ওখানে",
+        "হয়েছে",
+        "একটা",
+        "এখানে",
+        "হবে",
+        "দুর্ঘটনা"
+      ],
+      "answer": [
+        "এখানে",
+        "একটা",
+        "দুর্ঘটনা",
+        "হয়েছে"
+      ],
+      "why": "**একটা দুর্ঘটনা হয়েছে** 'an accident has happened'."
+    },
+    {
+      "id": "e14",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আমি পড়ে গেছি।",
+        "tr": "ami pore gechhi.",
+        "en": "I fell down.",
+        "alt": [
+          "I fell.",
+          "I've fallen."
+        ]
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "ও পড়ে গেছে।",
+        "আমি পড়ে গেছি।",
+        "আমি পড়ি।",
+        "আমি বাসায় গেছি।"
+      ],
+      "answer": 1,
+      "why": "**পড়ে গেছি** 'I fell'; **আমি পড়ি** means 'I read'."
+    },
+    {
+      "id": "e15",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "অ্যাম্বুলেন্স ডাকুন!",
+        "tr": "ambulens dakun!",
+        "en": "Call an ambulance! (polite)",
+        "alt": [
+          "Please call an ambulance!"
+        ]
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "অ্যাম্বুলেন্স ডাকুন",
+        "অ্যাম্বুলেন্স ডাকেন",
+        "এম্বুলেন্স ডাকুন",
+        "এম্বুলেন্স ডাকেন",
+        "একটা অ্যাম্বুলেন্স ডাকুন",
+        "একটা অ্যাম্বুলেন্স ডাকেন",
+        "অ্যাম্বুলেন্স ডাকুন প্লিজ",
+        "ambulens dakun",
+        "ekta ambulens dakun",
+        "ambulens dakun plij",
+        "ambulens daken",
+        "embulens dakun",
+        "embulens daken",
+        "ambulance dakun",
+        "ambulance daken",
+        "ambulence dakun"
+      ],
+      "why": "**অ্যাম্বুলেন্স** + **ডাকুন** (or everyday **ডাকেন**)."
+    },
+    {
+      "id": "r01",
+      "type": "listen_select",
+      "audio": {
+        "bn": "নে",
+        "tr": "ne",
+        "en": "take (intimate)"
+      },
+      "options": [
+        "দেখলাম",
+        "খেতে",
+        "দেখতে",
+        "নে"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ওষুধের",
+        "tr": "oshudher",
+        "en": "medicine's; of medicine"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "পেটে",
+        "জ্বর",
+        "নাস্তার",
+        "ওষুধের"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "পেটে",
+        "tr": "pete",
+        "en": "in the stomach"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "school",
+        "vegetables",
+        "in the stomach",
+        "noon"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "মাথা",
+          "tr": "matha",
+          "en": "head"
+        },
+        {
+          "bn": "ফার্মেসি",
+          "tr": "farmeshi",
+          "en": "pharmacy"
+        },
+        {
+          "bn": "খালি",
+          "tr": "khali",
+          "en": "empty; free"
+        },
+        {
+          "bn": "জ্বরের",
+          "tr": "jorer",
+          "en": "fever's; for fever"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "পেট",
+          "tr": "pet",
+          "en": "stomach"
+        },
+        {
+          "bn": "গলা",
+          "tr": "gola",
+          "en": "throat"
+        },
+        {
+          "bn": "খুলতে",
+          "tr": "khulte",
+          "en": "to open"
+        },
+        {
+          "bn": "কান",
+          "tr": "kan",
+          "en": "ear"
+        }
+      ],
+      "recycle": true
+    }
+  ]
+}

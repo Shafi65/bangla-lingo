@@ -357,42 +357,42 @@
         "tr": "chhara",
         "en": "without"
       },
-      "direction": "en_to_bn",
+      "direction": "bn_to_en",
       "options": [
-        "ছাড়া",
-        "থেকে",
-        "কাপ",
-        "ভালো"
+        "without",
+        "from",
+        "cup",
+        "good, well"
       ],
       "answer": 0,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "লবণ",
         "tr": "lobon",
         "en": "salt"
       },
-      "direction": "bn_to_en",
       "options": [
-        "cow's",
-        "food",
-        "salt",
-        "brother"
+        "গরুর",
+        "খাবার",
+        "লবণ",
+        "ভাই"
       ],
       "answer": 2,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "দুধ",
         "tr": "dudh",
         "en": "milk"
       },
+      "direction": "en_to_bn",
       "options": [
         "ফুফা",
         "নানি",
@@ -407,9 +407,9 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "তোমাদের",
-          "tr": "tomader",
-          "en": "your (familiar, plural)"
+          "bn": "তোর",
+          "tr": "tor",
+          "en": "your (intimate)"
         },
         {
           "bn": "কাপ",
@@ -422,9 +422,9 @@
           "en": "sugar"
         },
         {
-          "bn": "দুইজন",
-          "tr": "duijon",
-          "en": "two (people)"
+          "bn": "তার",
+          "tr": "tar",
+          "en": "his/her"
         }
       ],
       "recycle": true
@@ -434,24 +434,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "আচ্ছা",
-          "tr": "achchha",
-          "en": "OK"
+          "bn": "ইংরেজি",
+          "tr": "ingreji",
+          "en": "English (language)"
         },
         {
-          "bn": "কিন্তু",
-          "tr": "kintu",
-          "en": "but"
+          "bn": "বাংলাদেশি",
+          "tr": "bangladeshi",
+          "en": "Bangladeshi"
         },
         {
-          "bn": "আমাদের",
-          "tr": "amader",
-          "en": "our"
+          "bn": "বন্ধু",
+          "tr": "bondhu",
+          "en": "friend"
         },
         {
-          "bn": "জানি",
-          "tr": "jani",
-          "en": "(I) know"
+          "bn": "ওর",
+          "tr": "or",
+          "en": "his/her (spoken)"
         }
       ],
       "recycle": true

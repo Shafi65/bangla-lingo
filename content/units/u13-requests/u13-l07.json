@@ -444,12 +444,13 @@
     },
     {
       "id": "r01",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "জোরে",
         "tr": "jore",
         "en": "loudly"
       },
+      "direction": "en_to_bn",
       "options": [
         "বিকালে",
         "দশটায়",
@@ -467,38 +468,42 @@
         "tr": "dhorchhe",
         "en": "is picking up"
       },
-      "direction": "en_to_bn",
+      "direction": "bn_to_en",
       "options": [
-        "আসবে",
-        "ধরছে",
-        "কিনবেন",
-        "দেখে"
+        "will come",
+        "is picking up",
+        "you will buy (polite)",
+        "watches"
       ],
       "answer": 1,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "দয়া করে",
         "tr": "doya kore",
         "en": "please"
       },
-      "direction": "bn_to_en",
       "options": [
-        "OK",
-        "please",
-        "God willing",
-        "goodbye"
+        "ঠিক আছে",
+        "ইনশাআল্লাহ",
+        "দয়া করে",
+        "খোদা হাফেজ"
       ],
-      "answer": 1,
+      "answer": 2,
       "recycle": true
     },
     {
       "id": "r04",
       "type": "match_pairs",
       "pairs": [
+        {
+          "bn": "দাঁড়াও",
+          "tr": "da~rao",
+          "en": "wait (familiar); stand"
+        },
         {
           "bn": "চার্জ",
           "tr": "charj",
@@ -513,11 +518,6 @@
           "bn": "ফোনে",
           "tr": "fone",
           "en": "on the phone"
-        },
-        {
-          "bn": "দাঁড়াও",
-          "tr": "da~rao",
-          "en": "wait (familiar); stand"
         }
       ],
       "recycle": true
@@ -527,24 +527,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "বুঝতে",
-          "tr": "bujhte",
-          "en": "to understand"
+          "bn": "পারো",
+          "tr": "paro",
+          "en": "you (familiar) can"
         },
         {
-          "bn": "চায়",
-          "tr": "chay",
-          "en": "he/she wants"
-        },
-        {
-          "bn": "দাঁড়ান",
-          "tr": "da~ran",
-          "en": "wait (polite); stand"
+          "bn": "দেরি",
+          "tr": "deri",
+          "en": "delay; lateness"
         },
         {
           "bn": "লিখতে",
           "tr": "likhte",
           "en": "to write"
+        },
+        {
+          "bn": "দাঁড়ান",
+          "tr": "da~ran",
+          "en": "wait (polite); stand"
         }
       ],
       "recycle": true

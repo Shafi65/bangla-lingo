@@ -525,12 +525,12 @@
         "en": "he/she used to come"
       },
       "options": [
-        "পৌঁছেছি",
-        "করিস",
-        "বলে",
-        "আসত"
+        "করতেন",
+        "খাওনি",
+        "আসত",
+        "আছি"
       ],
-      "answer": 3,
+      "answer": 2,
       "recycle": true
     },
     {
@@ -543,29 +543,29 @@
       },
       "blank": "করত",
       "options": [
-        "পৌঁছেছি",
-        "পাব",
+        "ছিলে",
         "করত",
-        "ছিলাম"
+        "গিয়েছে",
+        "করেনি"
       ],
-      "answer": 2,
+      "answer": 1,
       "recycle": true
     },
     {
       "id": "r03",
       "type": "listen_meaning",
       "audio": {
-        "bn": "তুমি কি আমাকে একটু সাহায্য করতে পারবে?",
-        "tr": "tumi ki amake ektu shahajjo korte parbe?",
-        "en": "Could you help me a little? (familiar)"
+        "bn": "তুমি ছোটবেলায় কী করতে?",
+        "tr": "tumi chhotobelay ki korte?",
+        "en": "What did you (familiar) use to do as a child?"
       },
       "options": [
-        "I will buy new clothes for Eid.",
-        "How much is this?",
-        "How are you? (familiar)",
-        "Could you help me a little? (familiar)"
+        "I have three sisters.",
+        "What did you (familiar) use to do as a child?",
+        "I need two kilos of onions.",
+        "Yes, go ahead."
       ],
-      "answer": 3,
+      "answer": 1,
       "recycle": true
     },
     {
@@ -573,24 +573,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "করতি",
-          "tr": "korti",
-          "en": "you used to do (intimate)"
-        },
-        {
           "bn": "থাকত",
           "tr": "thakto",
           "en": "he/she used to live"
         },
         {
-          "bn": "থাকতেন",
-          "tr": "thakten",
-          "en": "you / he, she (polite) used to live"
+          "bn": "করতি",
+          "tr": "korti",
+          "en": "you used to do (intimate)"
         },
         {
           "bn": "বলতেন",
           "tr": "bolten",
           "en": "you / he, she (polite) used to tell"
+        },
+        {
+          "bn": "থাকতেন",
+          "tr": "thakten",
+          "en": "you / he, she (polite) used to live"
         }
       ],
       "recycle": true
@@ -600,9 +600,9 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "জানাবেন",
-          "tr": "janaben",
-          "en": "please let (me) know (polite)"
+          "bn": "ডাকুন",
+          "tr": "dakun",
+          "en": "please call (standard)"
         },
         {
           "bn": "গল্প",
@@ -610,14 +610,14 @@
           "en": "story"
         },
         {
-          "bn": "পাঠাও",
-          "tr": "pathao",
-          "en": "send (familiar)"
+          "bn": "পুলিশ",
+          "tr": "pulish",
+          "en": "police"
         },
         {
-          "bn": "পৌঁছেছি",
-          "tr": "pou~chhechhi",
-          "en": "I have reached"
+          "bn": "বাঁচাও",
+          "tr": "ba~chao",
+          "en": "help! (save me)"
         }
       ],
       "recycle": true

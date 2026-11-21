@@ -527,12 +527,12 @@
       },
       "direction": "en_to_bn",
       "options": [
-        "করেছেন",
-        "নিলাম",
+        "করবি",
         "করছিল",
-        "আসবেন"
+        "এসেছেন",
+        "পারিনি"
       ],
-      "answer": 2,
+      "answer": 1,
       "recycle": true
     },
     {
@@ -560,23 +560,18 @@
       },
       "direction": "bn_to_en",
       "options": [
-        "Eid Mubarak",
-        "I grew up",
-        "to the Shaheed Minar",
-        "God willing"
+        "hello (peace be upon you)",
+        "sad; upset",
+        "Pohela Boishakh",
+        "I grew up"
       ],
-      "answer": 1,
+      "answer": 3,
       "recycle": true
     },
     {
       "id": "r04",
       "type": "match_pairs",
       "pairs": [
-        {
-          "bn": "থাকত",
-          "tr": "thakto",
-          "en": "he/she used to live"
-        },
         {
           "bn": "বলতেন",
           "tr": "bolten",
@@ -586,6 +581,11 @@
           "bn": "থাকতেন",
           "tr": "thakten",
           "en": "you / he, she (polite) used to live"
+        },
+        {
+          "bn": "থাকত",
+          "tr": "thakto",
+          "en": "he/she used to live"
         },
         {
           "bn": "করতি",
@@ -600,6 +600,16 @@
       "type": "match_pairs",
       "pairs": [
         {
+          "bn": "খেলা",
+          "tr": "khela",
+          "en": "game; playing"
+        },
+        {
+          "bn": "পুকুর",
+          "tr": "pukur",
+          "en": "pond"
+        },
+        {
           "bn": "যেত",
           "tr": "jeto",
           "en": "he/she used to go"
@@ -608,16 +618,6 @@
           "bn": "প্রতি",
           "tr": "proti",
           "en": "every"
-        },
-        {
-          "bn": "পুকুর",
-          "tr": "pukur",
-          "en": "pond"
-        },
-        {
-          "bn": "খেলা",
-          "tr": "khela",
-          "en": "game; playing"
         }
       ],
       "recycle": true

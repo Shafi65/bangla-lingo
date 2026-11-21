@@ -396,12 +396,13 @@
     },
     {
       "id": "r01",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "সত্তর",
         "tr": "shottor",
         "en": "seventy"
       },
+      "direction": "en_to_bn",
       "options": [
         "সত্তর",
         "দুই",
@@ -419,30 +420,29 @@
         "tr": "trish",
         "en": "thirty"
       },
-      "direction": "en_to_bn",
+      "direction": "bn_to_en",
       "options": [
-        "একটা",
-        "ত্রিশ",
-        "হাজার",
-        "চল্লিশ"
+        "one; a",
+        "thirty",
+        "thousand",
+        "forty"
       ],
       "answer": 1,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "চল্লিশ",
         "tr": "chollish",
         "en": "forty"
       },
-      "direction": "bn_to_en",
       "options": [
-        "nine",
-        "thirteen",
-        "forty",
-        "two (things)"
+        "নয়",
+        "তেরো",
+        "চল্লিশ",
+        "দুইটা"
       ],
       "answer": 2,
       "recycle": true
@@ -484,19 +484,19 @@
           "en": "eighty"
         },
         {
-          "bn": "জানেন",
-          "tr": "janen",
-          "en": "(you, polite) know"
+          "bn": "তোমরা",
+          "tr": "tomra",
+          "en": "you (familiar, plural)"
+        },
+        {
+          "bn": "আছি",
+          "tr": "achhi",
+          "en": "am"
         },
         {
           "bn": "আঠারো",
           "tr": "atharo",
           "en": "eighteen"
-        },
-        {
-          "bn": "বিশ",
-          "tr": "bish",
-          "en": "twenty"
         }
       ],
       "recycle": true

@@ -355,42 +355,42 @@
         "tr": "bar",
         "en": "day (of the week)"
       },
-      "direction": "en_to_bn",
+      "direction": "bn_to_en",
       "options": [
-        "ইংরেজি",
-        "সময়",
-        "চাচা",
-        "বার"
+        "English (language)",
+        "time",
+        "uncle (father's brother)",
+        "day (of the week)"
       ],
       "answer": 3,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "বৃহস্পতিবার",
         "tr": "brihoshpotibar",
         "en": "Thursday"
       },
-      "direction": "bn_to_en",
       "options": [
-        "cup",
-        "egg",
-        "sugar",
-        "Thursday"
+        "কাপ",
+        "ডিম",
+        "চিনি",
+        "বৃহস্পতিবার"
       ],
       "answer": 3,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "বুধবার",
         "tr": "budhbar",
         "en": "Wednesday"
       },
+      "direction": "en_to_bn",
       "options": [
         "কলাগুলো",
         "মাছ",

@@ -408,13 +408,12 @@
     },
     {
       "id": "r01",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "খাচ্ছি",
         "tr": "khachchhi",
         "en": "I am eating"
       },
-      "direction": "en_to_bn",
       "options": [
         "পড়েন",
         "খাচ্ছি",
@@ -432,29 +431,30 @@
         "tr": "korchhe",
         "en": "is doing"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "is doing",
-        "are not (familiar)",
-        "is watching",
-        "give (polite)"
+        "করছে",
+        "নও",
+        "দেখছে",
+        "দেন"
       ],
       "answer": 0,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "করছেন",
         "tr": "korchhen",
         "en": "you are doing (polite)"
       },
+      "direction": "bn_to_en",
       "options": [
-        "বাজে",
-        "চাই",
-        "করছেন",
-        "নও"
+        "(he/she/they) eats",
+        "goes",
+        "you are doing (polite)",
+        "is doing"
       ],
       "answer": 2,
       "recycle": true
@@ -463,11 +463,6 @@
       "id": "r04",
       "type": "match_pairs",
       "pairs": [
-        {
-          "bn": "করছো",
-          "tr": "korchho",
-          "en": "you are doing (familiar)"
-        },
         {
           "bn": "পড়ছি",
           "tr": "porchhi",
@@ -482,6 +477,11 @@
           "bn": "যাচ্ছি",
           "tr": "jachchhi",
           "en": "I am going"
+        },
+        {
+          "bn": "করছো",
+          "tr": "korchho",
+          "en": "you are doing (familiar)"
         }
       ],
       "recycle": true
@@ -496,11 +496,6 @@
           "en": "I sleep"
         },
         {
-          "bn": "যাই",
-          "tr": "jai",
-          "en": "I go"
-        },
-        {
           "bn": "দেখছে",
           "tr": "dekhchhe",
           "en": "is watching"
@@ -509,6 +504,11 @@
           "bn": "কখন",
           "tr": "kokhon",
           "en": "when"
+        },
+        {
+          "bn": "যাই",
+          "tr": "jai",
+          "en": "I go"
         }
       ],
       "recycle": true

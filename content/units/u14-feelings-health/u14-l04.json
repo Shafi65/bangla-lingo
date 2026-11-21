@@ -1,0 +1,514 @@
+{
+  "id": "u14-l04",
+  "unit": "u14-feelings-health",
+  "title": "Fever and a cold",
+  "status": "draft",
+  "tip": "Illnesses **happen** to you: **আমার জ্বর হয়েছে** 'I've got a fever', **আমার কাশি হয়েছে** 'I've got a cough'. A cold **strikes**: **ঠান্ডা লেগেছে** 'I've caught a cold', like **ক্ষুধা লেগেছে** in U4.\n\nFor how long? **দুই দিন ধরে** 'for two days': **দুই দিন ধরে আমার জ্বর**.\n\nTwo more তুই forms. **পারবি** 'will you be able to': **তুই কি আজ স্কুলে যেতে পারবি?** And the irregular **আয়** 'come!': তুমি **এসো**, আপনি **আসুন**, তুই **আয়**. **এদিকে আয়** 'come here'.",
+  "vocab": [
+    {
+      "id": "jor",
+      "bn": "জ্বর",
+      "tr": "jor",
+      "en": "fever",
+      "notes": "আমার জ্বর হয়েছে / জ্বর এসেছে 'I've got a fever'. Pronounced jor: the ব-ফলা is silent."
+    },
+    {
+      "id": "thanda",
+      "bn": "ঠান্ডা",
+      "tr": "thanda",
+      "en": "cold; a cold",
+      "notes": "ঠান্ডা লেগেছে 'have caught a cold'; ঠান্ডা পানি 'cold water'. Also spelled ঠাণ্ডা."
+    },
+    {
+      "id": "kashi",
+      "bn": "কাশি",
+      "tr": "kashi",
+      "en": "cough",
+      "notes": "আমার কাশি হয়েছে 'I have a cough'."
+    },
+    {
+      "id": "oshustho",
+      "bn": "অসুস্থ",
+      "tr": "oshustho",
+      "en": "ill",
+      "notes": "অ- 'not' + সুস্থ 'well' (U14-L05)."
+    },
+    {
+      "id": "hoyechhe",
+      "bn": "হয়েছে",
+      "tr": "hoyechhe",
+      "en": "has happened; has got",
+      "notes": "Illnesses 'happen' to you: আমার জ্বর হয়েছে 'I've got a fever'. কী হয়েছে? 'What happened? What's wrong?'"
+    },
+    {
+      "id": "dhore",
+      "bn": "ধরে",
+      "tr": "dhore",
+      "en": "for (a time)",
+      "notes": "After a length of time: দুই দিন ধরে 'for two days'. (Literally 'holding'.)"
+    },
+    {
+      "id": "parbi",
+      "bn": "পারবি",
+      "tr": "parbi",
+      "en": "you (intimate) will be able to",
+      "notes": "তুই future of পারা: পারব · পারবে · পারবেন · পারবি. তুই কি … পারবি? 'Can you …?' to a friend or sibling."
+    },
+    {
+      "id": "ay",
+      "bn": "আয়",
+      "tr": "ay",
+      "en": "come (intimate)",
+      "notes": "Irregular তুই command of আসা: তুমি এসো, আপনি আসেন / আসুন, তুই আয়."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আমার জ্বর হয়েছে।",
+        "tr": "amar jor hoyechhe.",
+        "en": "I have a fever.",
+        "alt": [
+          "I've got a fever.",
+          "I have a temperature."
+        ]
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "I have a fever.",
+        "I have a cold.",
+        "I'm very hot.",
+        "I'm hungry."
+      ],
+      "answer": 0,
+      "why": "Illness 'happens' to you: **আমার** জ্বর **হয়েছে**."
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আমার ঠান্ডা লেগেছে।",
+        "tr": "amar thanda legechhe.",
+        "en": "I've caught a cold.",
+        "alt": [
+          "I have a cold."
+        ]
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "I've got a fever.",
+        "I'm happy.",
+        "I've caught a cold.",
+        "I'm hungry."
+      ],
+      "answer": 2,
+      "why": "A cold 'strikes': **ঠান্ডা লেগেছে**, like **ক্ষুধা লেগেছে**."
+    },
+    {
+      "id": "e03",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "জ্বর",
+          "tr": "jor",
+          "en": "fever"
+        },
+        {
+          "bn": "কাশি",
+          "tr": "kashi",
+          "en": "cough"
+        },
+        {
+          "bn": "অসুস্থ",
+          "tr": "oshustho",
+          "en": "ill"
+        },
+        {
+          "bn": "ঠান্ডা",
+          "tr": "thanda",
+          "en": "cold; a cold"
+        },
+        {
+          "bn": "আয়",
+          "tr": "ay",
+          "en": "come (intimate)"
+        }
+      ]
+    },
+    {
+      "id": "e04",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "দুই দিন ধরে আমার জ্বর।",
+        "tr": "dui din dhore amar jor.",
+        "en": "I've had a fever for two days.",
+        "alt": [
+          "I have had a fever for two days."
+        ]
+      },
+      "options": [
+        "I had a fever two days ago.",
+        "I've had a fever for two days.",
+        "I'll have a fever in two days.",
+        "I've had a cough for two days."
+      ],
+      "answer": 1,
+      "why": "**দুই দিন ধরে** 'for two days'."
+    },
+    {
+      "id": "e05",
+      "type": "listen_select",
+      "audio": {
+        "bn": "হয়েছে",
+        "tr": "hoyechhe",
+        "en": "has happened; has got"
+      },
+      "options": [
+        "হবে",
+        "হয়",
+        "হতে",
+        "হয়েছে"
+      ],
+      "answer": 3,
+      "why": "**হয়েছে** 'has happened': **জ্বর হয়েছে** 'have got a fever'."
+    },
+    {
+      "id": "e06",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "তুই কি আজ স্কুলে যেতে পারবি?",
+        "tr": "tui ki aj skule jete parbi?",
+        "en": "Can you go to school today?",
+        "alt": [
+          "Will you be able to go to school today?"
+        ]
+      },
+      "options": [
+        "Did you go to school today?",
+        "Can you go to school today?",
+        "Do you want to go to school today?",
+        "I can't go to school today."
+      ],
+      "answer": 1,
+      "why": "**পারবি** is the তুই 'will be able to'."
+    },
+    {
+      "id": "e07",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "এদিকে আয়।",
+        "tr": "edike ay.",
+        "en": "Come here.",
+        "alt": [
+          "Come over here."
+        ]
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "Come here.",
+        "Go there.",
+        "Sit here.",
+        "Look here."
+      ],
+      "answer": 0,
+      "why": "**আয়** is the তুই 'come!' (তুমি **এসো**)."
+    },
+    {
+      "id": "e08",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "আমার ছোট বোন অসুস্থ।",
+        "tr": "amar chhoto bon oshustho.",
+        "en": "My little sister is sick.",
+        "alt": [
+          "My younger sister is ill."
+        ]
+      },
+      "options": [
+        "My little brother is sick.",
+        "My big sister is tired.",
+        "My little sister is fine.",
+        "My little sister is sick."
+      ],
+      "answer": 3,
+      "why": "**অসুস্থ** 'ill'; like other adjectives it needs no verb."
+    },
+    {
+      "id": "e09",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আমার কাশি হয়েছে।",
+        "tr": "amar kashi hoyechhe.",
+        "en": "I have a cough.",
+        "alt": [
+          "I've got a cough."
+        ]
+      },
+      "blank": "কাশি",
+      "options": [
+        "কান",
+        "খুশি",
+        "কাশি",
+        "কাছে"
+      ],
+      "answer": 2,
+      "why": "**কাশি** 'cough' (not **কান** 'ear')."
+    },
+    {
+      "id": "e10",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "তুই কি অসুস্থ?",
+        "tr": "tui ki oshustho?",
+        "en": "Are you sick?",
+        "alt": [
+          "Are you ill?"
+        ]
+      },
+      "blank": "অসুস্থ",
+      "options": [
+        "ঠান্ডা",
+        "খুশি",
+        "অসুস্থ",
+        "ক্লান্ত"
+      ],
+      "answer": 2,
+      "why": "**অসুস্থ** 'ill, sick'."
+    },
+    {
+      "id": "e11",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আয়, এখানে বস।",
+        "tr": "ay, ekhane bosh.",
+        "en": "Come, sit here. (intimate)",
+        "alt": [
+          "Come and sit here."
+        ]
+      },
+      "blank": "আয়",
+      "options": [
+        "আয়",
+        "এসো",
+        "আসুন",
+        "আসি"
+      ],
+      "answer": 0,
+      "why": "With তুই: **আয়**, then **বস**. **এসো** is for তুমি, **আসুন** for আপনি."
+    },
+    {
+      "id": "e12",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আমার জ্বর হয়েছে।",
+        "tr": "amar jor hoyechhe.",
+        "en": "I have a fever.",
+        "alt": [
+          "I've got a fever."
+        ]
+      },
+      "blank": "জ্বর",
+      "accepted": [
+        "জ্বর",
+        "jor",
+        "jwor",
+        "jwar",
+        "jhor"
+      ],
+      "why": "**জ্বর** 'fever'; the ব-ফলা is silent: *jor*."
+    },
+    {
+      "id": "e13",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "দুই দিন ধরে আমার জ্বর।",
+        "tr": "dui din dhore amar jor.",
+        "en": "I've had a fever for two days."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "থেকে",
+        "জ্বর",
+        "কাশি",
+        "আমার",
+        "দিন",
+        "দুই",
+        "ধরে",
+        "হবে"
+      ],
+      "answer": [
+        "দুই",
+        "দিন",
+        "ধরে",
+        "আমার",
+        "জ্বর"
+      ],
+      "alt": [
+        [
+          "আমার",
+          "দুই",
+          "দিন",
+          "ধরে",
+          "জ্বর"
+        ]
+      ],
+      "why": "Length of time + **ধরে** 'for'."
+    },
+    {
+      "id": "e14",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "তুই কি আজ স্কুলে যেতে পারবি?",
+        "tr": "tui ki aj skule jete parbi?",
+        "en": "Can you go to school today? (intimate)",
+        "alt": [
+          "Will you be able to go to school today?"
+        ]
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "তুই কি আজ স্কুলে যেতে পারবে?",
+        "তুই কি আজ স্কুলে যেতে পারবি?",
+        "তুমি কি আজ স্কুলে যেতে পারবি?",
+        "তুই কি আজ স্কুলে যেতে পারিনি?"
+      ],
+      "answer": 1,
+      "why": "**তুই** goes with **পারবি**; **তুমি** with **পারবে**."
+    },
+    {
+      "id": "e15",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আমার ঠান্ডা লেগেছে।",
+        "tr": "amar thanda legechhe.",
+        "en": "I've caught a cold.",
+        "alt": [
+          "I have a cold."
+        ]
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "আমার ঠান্ডা লেগেছে",
+        "ঠান্ডা লেগেছে",
+        "আমার ঠাণ্ডা লেগেছে",
+        "ঠাণ্ডা লেগেছে",
+        "amar thanda legechhe",
+        "amar thanda legeche",
+        "thanda legechhe",
+        "thanda legeche",
+        "amar tanda legechhe",
+        "amar thanda legse"
+      ],
+      "why": "A cold 'strikes': **আমার ঠান্ডা লেগেছে**."
+    },
+    {
+      "id": "r01",
+      "type": "listen_select",
+      "audio": {
+        "bn": "শরীর",
+        "tr": "shorir",
+        "en": "body; health"
+      },
+      "options": [
+        "দাদা",
+        "শরীর",
+        "ইফতার",
+        "খাবার"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "গলা",
+        "tr": "gola",
+        "en": "throat"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "গলা",
+        "রোজা",
+        "কলা",
+        "বাসা"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "মাথা",
+        "tr": "matha",
+        "en": "head"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "to the office",
+        "flatbread",
+        "head",
+        "mosque"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "পেট",
+          "tr": "pet",
+          "en": "stomach"
+        },
+        {
+          "bn": "পা",
+          "tr": "pa",
+          "en": "foot; leg"
+        },
+        {
+          "bn": "পাঠান",
+          "tr": "pathan",
+          "en": "please send (polite)"
+        },
+        {
+          "bn": "ব্যথা",
+          "tr": "byatha",
+          "en": "pain"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "মেসেজ",
+          "tr": "mesej",
+          "en": "message"
+        },
+        {
+          "bn": "পেয়েছি",
+          "tr": "peyechhi",
+          "en": "I have got"
+        },
+        {
+          "bn": "খেয়েছি",
+          "tr": "kheyechhi",
+          "en": "I have eaten"
+        },
+        {
+          "bn": "জানাও",
+          "tr": "janao",
+          "en": "let (me) know (familiar)"
+        }
+      ],
+      "recycle": true
+    }
+  ]
+}

@@ -399,37 +399,37 @@
     },
     {
       "id": "r01",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "নিন",
         "tr": "nin",
         "en": "please take (standard)"
       },
-      "direction": "bn_to_en",
       "options": [
-        "I write",
-        "you (familiar) can",
-        "let's",
-        "please take (standard)"
+        "উঠলাম",
+        "চলেন",
+        "নিন",
+        "বলেন"
       ],
-      "answer": 3,
+      "answer": 2,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "শুনুন",
         "tr": "shunun",
         "en": "please listen; excuse me"
       },
+      "direction": "en_to_bn",
       "options": [
+        "করে",
+        "খেয়েছো",
         "শুনুন",
-        "উঠি",
-        "দেখবে",
-        "জানি"
+        "খায়"
       ],
-      "answer": 0,
+      "answer": 2,
       "recycle": true
     },
     {
@@ -440,12 +440,12 @@
         "tr": "boshun",
         "en": "please sit (standard)"
       },
-      "direction": "en_to_bn",
+      "direction": "bn_to_en",
       "options": [
-        "পারব",
-        "আসবেন",
-        "বসুন",
-        "ঘুমাব"
+        "you get up (polite)",
+        "take (familiar)",
+        "please sit (standard)",
+        "you (familiar) / he, she will see"
       ],
       "answer": 2,
       "recycle": true
@@ -455,9 +455,14 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "সন্ধ্যায়",
-          "tr": "shondhay",
-          "en": "in the evening"
+          "bn": "বসেন",
+          "tr": "boshen",
+          "en": "sit (polite)"
+        },
+        {
+          "bn": "বলবে",
+          "tr": "bolbe",
+          "en": "you (familiar) / he, she will say"
         },
         {
           "bn": "বলুন",
@@ -465,14 +470,9 @@
           "en": "please say (standard)"
         },
         {
-          "bn": "দেখে",
-          "tr": "dekhe",
-          "en": "watches"
-        },
-        {
-          "bn": "বসেন",
-          "tr": "boshen",
-          "en": "sit (polite)"
+          "bn": "দেখিনি",
+          "tr": "dekhini",
+          "en": "I didn't see"
         }
       ],
       "recycle": true
@@ -482,24 +482,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "গিয়েছিলাম",
-          "tr": "giyechhilam",
-          "en": "I had gone"
+          "bn": "ছিলেন",
+          "tr": "chhilen",
+          "en": "you were (polite)"
         },
         {
-          "bn": "একটি",
-          "tr": "ekti",
-          "en": "one; a (formal)"
+          "bn": "লাগে",
+          "tr": "lage",
+          "en": "feels"
         },
         {
-          "bn": "ছিলাম",
-          "tr": "chhilam",
-          "en": "I was"
+          "bn": "শুনি",
+          "tr": "shuni",
+          "en": "I listen"
         },
         {
-          "bn": "তিনটা",
-          "tr": "tinta",
-          "en": "three (o'clock)"
+          "bn": "পর্যন্ত",
+          "tr": "porjonto",
+          "en": "to"
         }
       ],
       "recycle": true

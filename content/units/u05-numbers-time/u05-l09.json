@@ -343,30 +343,30 @@
     },
     {
       "id": "r01",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "সপ্তাহে",
         "tr": "shoptahe",
         "en": "in a week"
       },
-      "direction": "bn_to_en",
       "options": [
-        "here",
-        "in a week",
-        "in the evening",
-        "where (before থেকে)"
+        "এখানে",
+        "সপ্তাহে",
+        "সন্ধ্যায়",
+        "কোথা"
       ],
       "answer": 1,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "বছরে",
         "tr": "bochhore",
         "en": "in a year"
       },
+      "direction": "en_to_bn",
       "options": [
         "অবশ্যই",
         "দুপুরে",
@@ -384,12 +384,12 @@
         "tr": "kal",
         "en": "tomorrow; yesterday"
       },
-      "direction": "en_to_bn",
+      "direction": "bn_to_en",
       "options": [
-        "রাতে",
-        "কয়জন",
-        "খুব",
-        "কাল"
+        "at night",
+        "how many (people)",
+        "very",
+        "tomorrow; yesterday"
       ],
       "answer": 3,
       "recycle": true

@@ -365,20 +365,19 @@
     },
     {
       "id": "r01",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "বলতে",
         "tr": "bolte",
         "en": "to speak"
       },
-      "direction": "en_to_bn",
       "options": [
-        "শুনি",
-        "জানেন",
         "বলতে",
-        "উঠি"
+        "দাও",
+        "থাকি",
+        "করছে"
       ],
-      "answer": 2,
+      "answer": 0,
       "recycle": true
     },
     {
@@ -389,29 +388,30 @@
         "tr": "pari",
         "en": "(I) can"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "listens",
-        "I brush",
-        "(I/we) want",
-        "(I) can"
+        "খাচ্ছি",
+        "পারি",
+        "থাকি",
+        "নেই"
       ],
-      "answer": 3,
+      "answer": 1,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "পারেন",
         "tr": "paren",
         "en": "(you, polite) can"
       },
+      "direction": "bn_to_en",
       "options": [
-        "থামেন",
-        "পারেন",
-        "পড়েন",
-        "ছাড়বে"
+        "stop (polite)",
+        "(you, polite) can",
+        "you read (polite)",
+        "will leave"
       ],
       "answer": 1,
       "recycle": true

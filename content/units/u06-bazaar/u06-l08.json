@@ -370,34 +370,34 @@
     },
     {
       "id": "r01",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "খুচরা",
         "tr": "khuchra",
         "en": "change"
       },
-      "direction": "bn_to_en",
       "options": [
-        "change",
-        "uncle (address)",
-        "milk",
-        "aunt (mother's sister)"
+        "বাবার",
+        "খুচরা",
+        "ডিম",
+        "জিনিস"
       ],
-      "answer": 0,
+      "answer": 1,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "সোমবার",
         "tr": "shombar",
         "en": "Monday"
       },
+      "direction": "en_to_bn",
       "options": [
-        "আংকেল",
-        "বউ",
-        "খুচরা",
+        "সন্ধ্যা",
+        "আব্বু",
+        "শুক্রবার",
         "সোমবার"
       ],
       "answer": 3,
@@ -411,12 +411,12 @@
         "tr": "bochhor",
         "en": "year"
       },
-      "direction": "en_to_bn",
+      "direction": "bn_to_en",
       "options": [
-        "শিক্ষক",
-        "মাছ",
-        "বছর",
-        "দরকার"
+        "sari",
+        "teacher",
+        "year",
+        "father's"
       ],
       "answer": 2,
       "recycle": true
@@ -431,6 +431,11 @@
           "en": "minute"
         },
         {
+          "bn": "সকাল",
+          "tr": "shokal",
+          "en": "morning"
+        },
+        {
           "bn": "মাস",
           "tr": "mash",
           "en": "month"
@@ -439,11 +444,6 @@
           "bn": "মঙ্গলবার",
           "tr": "monggolbar",
           "en": "Tuesday"
-        },
-        {
-          "bn": "সকাল",
-          "tr": "shokal",
-          "en": "morning"
         }
       ],
       "recycle": true
@@ -453,9 +453,9 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "বার",
-          "tr": "bar",
-          "en": "day (of the week)"
+          "bn": "রবিবার",
+          "tr": "robibar",
+          "en": "Sunday"
         },
         {
           "bn": "দুপুর",
@@ -463,9 +463,9 @@
           "en": "noon"
         },
         {
-          "bn": "রবিবার",
-          "tr": "robibar",
-          "en": "Sunday"
+          "bn": "বার",
+          "tr": "bar",
+          "en": "day (of the week)"
         },
         {
           "bn": "বিকাল",

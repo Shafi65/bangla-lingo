@@ -1,0 +1,663 @@
+{
+  "unit": "u14-feelings-health",
+  "entries": [
+    {
+      "id": "lagchhe",
+      "bn": "লাগছে",
+      "tr": "lagchhe",
+      "en": "feel (right now)",
+      "alt": [
+        "feels",
+        "am feeling",
+        "is feeling",
+        "are feeling"
+      ],
+      "pos": "verb",
+      "lesson": "u14-l01",
+      "notes": "Present continuous of লাগা 'feel'. The feeler goes in the -র form and the verb never changes: আমার / তোমার / আপনার ভালো লাগছে. ভালো লাগে (U4) is a habit ('I like it'); লাগছে is how you feel now."
+    },
+    {
+      "id": "klanto",
+      "bn": "ক্লান্ত",
+      "tr": "klanto",
+      "en": "tired",
+      "alt": [
+        "exhausted"
+      ],
+      "pos": "adj",
+      "lesson": "u14-l01",
+      "notes": "Two ways: আমি ক্লান্ত 'I am tired' or আমার ক্লান্ত লাগছে 'I feel tired'."
+    },
+    {
+      "id": "khushi",
+      "bn": "খুশি",
+      "tr": "khushi",
+      "en": "happy",
+      "alt": [
+        "glad",
+        "pleased"
+      ],
+      "pos": "adj",
+      "lesson": "u14-l01",
+      "notes": "আমি খুব খুশি 'I'm very happy'."
+    },
+    {
+      "id": "bhoy",
+      "bn": "ভয়",
+      "tr": "bhoy",
+      "en": "fear",
+      "alt": [
+        "fright",
+        "scared"
+      ],
+      "pos": "noun",
+      "lesson": "u14-l01",
+      "notes": "আমার ভয় লাগছে 'I'm scared' (to me, fear is felt). ভয় পাওয়া 'be afraid'.",
+      "kolkata": {
+        "bn": "ভয় করছে",
+        "tr": "bhoy korchhe"
+      }
+    },
+    {
+      "id": "rag",
+      "bn": "রাগ",
+      "tr": "rag",
+      "en": "anger",
+      "alt": [
+        "angry"
+      ],
+      "pos": "noun",
+      "lesson": "u14-l01",
+      "notes": "আমার রাগ লাগছে 'I'm angry'; also heard: আমার রাগ হচ্ছে. রাগ করা 'get angry (at someone)'."
+    },
+    {
+      "id": "mon-kharap",
+      "bn": "মন খারাপ",
+      "tr": "mon kharap",
+      "en": "sad; upset",
+      "alt": [
+        "sad",
+        "upset",
+        "down",
+        "feeling low"
+      ],
+      "pos": "phrase",
+      "lesson": "u14-l01",
+      "notes": "Literally 'mind bad'. আমার মন খারাপ 'I'm sad'; no verb needed. মন 'mind; heart'."
+    },
+    {
+      "id": "thik",
+      "bn": "ঠিক",
+      "tr": "thik",
+      "en": "all right; OK",
+      "alt": [
+        "right",
+        "correct",
+        "fine",
+        "exactly"
+      ],
+      "pos": "adj",
+      "lesson": "u14-l02",
+      "notes": "ঠিক + আছ-: ঠিক আছি 'I'm OK', তুই ঠিক আছিস? 'are you OK?' (তুমি ঠিক আছো?, আপনি ঠিক আছেন?). ঠিক আছে 'OK' (U6)."
+    },
+    {
+      "id": "korchhish",
+      "bn": "করছিস",
+      "tr": "korchhish",
+      "en": "you (intimate) are doing",
+      "alt": [
+        "are you doing",
+        "you are doing"
+      ],
+      "pos": "verb",
+      "lesson": "u14-l02",
+      "register": "intimate",
+      "notes": "তুই present continuous: -ছিস. করছি · করছো · করছেন · করছিস. কী করছিস? 'What are you up to?'"
+    },
+    {
+      "id": "kadchhish",
+      "bn": "কাঁদছিস",
+      "tr": "ka~dchhish",
+      "en": "you (intimate) are crying",
+      "alt": [
+        "are you crying",
+        "you are crying"
+      ],
+      "pos": "verb",
+      "lesson": "u14-l02",
+      "register": "intimate",
+      "notes": "কাঁদা 'cry'. কাঁদছিস কেন? 'Why are you crying?'"
+    },
+    {
+      "id": "toke",
+      "bn": "তোকে",
+      "tr": "toke",
+      "en": "you (intimate, object)",
+      "alt": [
+        "you",
+        "to you"
+      ],
+      "pos": "pronoun",
+      "lesson": "u14-l02",
+      "register": "intimate",
+      "notes": "Object form of তুই, like তোমাকে (তুমি) and আপনাকে (আপনি)."
+    },
+    {
+      "id": "bosh",
+      "bn": "বস",
+      "tr": "bosh",
+      "en": "sit (intimate)",
+      "alt": [
+        "sit",
+        "sit down"
+      ],
+      "pos": "verb",
+      "lesson": "u14-l02",
+      "register": "intimate",
+      "notes": "তুই command = the bare stem: বসো → বস. Also spelled বোস.",
+      "kolkata": {
+        "bn": "বোস",
+        "tr": "bosh"
+      }
+    },
+    {
+      "id": "shon",
+      "bn": "শোন",
+      "tr": "shon",
+      "en": "listen (intimate)",
+      "alt": [
+        "listen",
+        "hey, listen"
+      ],
+      "pos": "verb",
+      "lesson": "u14-l02",
+      "register": "intimate",
+      "notes": "তুই command: শোনো → শোন. Also opens a sentence: শোন, … 'Listen, …'."
+    },
+    {
+      "id": "bol",
+      "bn": "বল",
+      "tr": "bol",
+      "en": "say (intimate)",
+      "alt": [
+        "say",
+        "tell",
+        "speak",
+        "tell me"
+      ],
+      "pos": "verb",
+      "lesson": "u14-l02",
+      "register": "intimate",
+      "notes": "তুই command: বলো → বল. বল, কী হয়েছে? 'Tell me, what's wrong?'"
+    },
+    {
+      "id": "matha",
+      "bn": "মাথা",
+      "tr": "matha",
+      "en": "head",
+      "pos": "noun",
+      "lesson": "u14-l03",
+      "notes": "আমার মাথা ব্যথা করছে 'my head hurts; I have a headache'."
+    },
+    {
+      "id": "byatha",
+      "bn": "ব্যথা",
+      "tr": "byatha",
+      "en": "pain",
+      "alt": [
+        "ache",
+        "hurt",
+        "sore"
+      ],
+      "pos": "noun",
+      "lesson": "u14-l03",
+      "notes": "X ব্যথা করছে 'X hurts' (lit. 'X is doing pain'). Short: আমার মাথা ব্যথা 'I have a headache'. Also spelled ব্যাথা."
+    },
+    {
+      "id": "pet",
+      "bn": "পেট",
+      "tr": "pet",
+      "en": "stomach",
+      "alt": [
+        "belly",
+        "tummy"
+      ],
+      "pos": "noun",
+      "lesson": "u14-l03"
+    },
+    {
+      "id": "gola",
+      "bn": "গলা",
+      "tr": "gola",
+      "en": "throat",
+      "alt": [
+        "neck",
+        "voice"
+      ],
+      "pos": "noun",
+      "lesson": "u14-l03",
+      "notes": "গলা ব্যথা 'sore throat'. Also 'neck' and 'voice'."
+    },
+    {
+      "id": "pa",
+      "bn": "পা",
+      "tr": "pa",
+      "en": "foot; leg",
+      "alt": [
+        "foot",
+        "leg",
+        "feet",
+        "legs"
+      ],
+      "pos": "noun",
+      "lesson": "u14-l03",
+      "notes": "One word covers foot and leg."
+    },
+    {
+      "id": "kan",
+      "bn": "কান",
+      "tr": "kan",
+      "en": "ear",
+      "alt": [
+        "ears"
+      ],
+      "pos": "noun",
+      "lesson": "u14-l03"
+    },
+    {
+      "id": "shorir",
+      "bn": "শরীর",
+      "tr": "shorir",
+      "en": "body; health",
+      "alt": [
+        "body",
+        "health"
+      ],
+      "pos": "noun",
+      "lesson": "u14-l03",
+      "notes": "আমার শরীর ভালো নেই / শরীর খারাপ 'I'm not well'. শরীর কেমন? 'How's your health?'"
+    },
+    {
+      "id": "jor",
+      "bn": "জ্বর",
+      "tr": "jor",
+      "en": "fever",
+      "alt": [
+        "temperature"
+      ],
+      "pos": "noun",
+      "lesson": "u14-l04",
+      "notes": "আমার জ্বর হয়েছে / জ্বর এসেছে 'I've got a fever'. Pronounced jor: the ব-ফলা is silent."
+    },
+    {
+      "id": "thanda",
+      "bn": "ঠান্ডা",
+      "tr": "thanda",
+      "en": "cold; a cold",
+      "alt": [
+        "cold",
+        "a cold",
+        "chilly"
+      ],
+      "pos": "adj",
+      "lesson": "u14-l04",
+      "notes": "ঠান্ডা লেগেছে 'have caught a cold'; ঠান্ডা পানি 'cold water'. Also spelled ঠাণ্ডা."
+    },
+    {
+      "id": "kashi",
+      "bn": "কাশি",
+      "tr": "kashi",
+      "en": "cough",
+      "alt": [
+        "a cough"
+      ],
+      "pos": "noun",
+      "lesson": "u14-l04",
+      "notes": "আমার কাশি হয়েছে 'I have a cough'."
+    },
+    {
+      "id": "oshustho",
+      "bn": "অসুস্থ",
+      "tr": "oshustho",
+      "en": "ill",
+      "alt": [
+        "sick",
+        "unwell"
+      ],
+      "pos": "adj",
+      "lesson": "u14-l04",
+      "notes": "অ- 'not' + সুস্থ 'well' (U14-L05)."
+    },
+    {
+      "id": "hoyechhe",
+      "bn": "হয়েছে",
+      "tr": "hoyechhe",
+      "en": "has happened; has got",
+      "alt": [
+        "happened",
+        "has become",
+        "have got",
+        "has got"
+      ],
+      "pos": "verb",
+      "lesson": "u14-l04",
+      "notes": "Illnesses 'happen' to you: আমার জ্বর হয়েছে 'I've got a fever'. কী হয়েছে? 'What happened? What's wrong?'"
+    },
+    {
+      "id": "dhore",
+      "bn": "ধরে",
+      "tr": "dhore",
+      "en": "for (a time)",
+      "alt": [
+        "for"
+      ],
+      "pos": "postposition",
+      "lesson": "u14-l04",
+      "notes": "After a length of time: দুই দিন ধরে 'for two days'. (Literally 'holding'.)"
+    },
+    {
+      "id": "parbi",
+      "bn": "পারবি",
+      "tr": "parbi",
+      "en": "you (intimate) will be able to",
+      "alt": [
+        "can you (later)",
+        "will you be able to",
+        "you can"
+      ],
+      "pos": "verb",
+      "lesson": "u14-l04",
+      "register": "intimate",
+      "notes": "তুই future of পারা: পারব · পারবে · পারবেন · পারবি. তুই কি … পারবি? 'Can you …?' to a friend or sibling."
+    },
+    {
+      "id": "ay",
+      "bn": "আয়",
+      "tr": "ay",
+      "en": "come (intimate)",
+      "alt": [
+        "come",
+        "come here"
+      ],
+      "pos": "verb",
+      "lesson": "u14-l04",
+      "register": "intimate",
+      "notes": "Irregular তুই command of আসা: তুমি এসো, আপনি আসেন / আসুন, তুই আয়."
+    },
+    {
+      "id": "dine",
+      "bn": "দিনে",
+      "tr": "dine",
+      "en": "a day; per day",
+      "alt": [
+        "per day",
+        "a day",
+        "daily",
+        "in the daytime"
+      ],
+      "pos": "adv",
+      "lesson": "u14-l05",
+      "notes": "দিনে তিন বার 'three times a day'. Also 'in the daytime'."
+    },
+    {
+      "id": "bar-times",
+      "bn": "বার",
+      "tr": "bar",
+      "en": "times",
+      "alt": [
+        "time"
+      ],
+      "pos": "noun",
+      "lesson": "u14-l05",
+      "notes": "Counts how often: এক বার 'once', দুই বার 'twice', তিন বার 'three times'. Often written as one word (তিনবার). Same spelling as বার 'day of the week' (U5)."
+    },
+    {
+      "id": "bishram",
+      "bn": "বিশ্রাম",
+      "tr": "bishram",
+      "en": "rest",
+      "alt": [
+        "a rest"
+      ],
+      "pos": "noun",
+      "lesson": "u14-l05",
+      "notes": "বিশ্রাম নিন (আপনি) / নাও (তুমি) / নে (তুই) 'get some rest'."
+    },
+    {
+      "id": "khawar",
+      "bn": "খাওয়ার",
+      "tr": "khawar",
+      "en": "eating; meals",
+      "alt": [
+        "eating",
+        "meals",
+        "a meal"
+      ],
+      "pos": "noun",
+      "lesson": "u14-l05",
+      "notes": "খাওয়া 'eating' + -র: খাওয়ার পরে 'after meals', খাওয়ার আগে 'before meals'."
+    },
+    {
+      "id": "shustho",
+      "bn": "সুস্থ",
+      "tr": "shustho",
+      "en": "well; healthy",
+      "alt": [
+        "well",
+        "healthy",
+        "better",
+        "recovered"
+      ],
+      "pos": "adj",
+      "lesson": "u14-l05",
+      "notes": "Opposite of অসুস্থ 'ill'."
+    },
+    {
+      "id": "kha",
+      "bn": "খা",
+      "tr": "kha",
+      "en": "eat (intimate)",
+      "alt": [
+        "eat",
+        "take (medicine)",
+        "have"
+      ],
+      "pos": "verb",
+      "lesson": "u14-l05",
+      "register": "intimate",
+      "notes": "তুই command: খাও → খা. Medicine is 'eaten' in Bengali: ওষুধ খা 'take your medicine'."
+    },
+    {
+      "id": "farmeshi",
+      "bn": "ফার্মেসি",
+      "tr": "farmeshi",
+      "en": "pharmacy",
+      "alt": [
+        "chemist",
+        "drugstore",
+        "chemist's"
+      ],
+      "pos": "noun",
+      "lesson": "u14-l06",
+      "notes": "Common in Bangladesh. Also ওষুধের দোকান 'medicine shop', usual in Kolkata."
+    },
+    {
+      "id": "oshudher",
+      "bn": "ওষুধের",
+      "tr": "oshudher",
+      "en": "medicine's; of medicine",
+      "alt": [
+        "of medicine",
+        "medicine"
+      ],
+      "pos": "noun",
+      "lesson": "u14-l06",
+      "notes": "ওষুধ + -এর: ওষুধের দোকান 'medicine shop'."
+    },
+    {
+      "id": "jorer",
+      "bn": "জ্বরের",
+      "tr": "jorer",
+      "en": "fever's; for fever",
+      "alt": [
+        "for fever",
+        "for a fever",
+        "of fever"
+      ],
+      "pos": "noun",
+      "lesson": "u14-l06",
+      "notes": "জ্বর + -এর: জ্বরের ওষুধ 'medicine for a fever'."
+    },
+    {
+      "id": "khali",
+      "bn": "খালি",
+      "tr": "khali",
+      "en": "empty; free",
+      "alt": [
+        "empty"
+      ],
+      "pos": "adj",
+      "lesson": "u14-l06",
+      "notes": "খালি পেটে 'on an empty stomach'. Also 'only': খালি পানি 'just water'."
+    },
+    {
+      "id": "pete",
+      "bn": "পেটে",
+      "tr": "pete",
+      "en": "in the stomach",
+      "alt": [
+        "on the stomach",
+        "on an empty stomach"
+      ],
+      "pos": "noun",
+      "lesson": "u14-l06",
+      "notes": "পেট + -এ: খালি পেটে 'on an empty stomach'."
+    },
+    {
+      "id": "ne",
+      "bn": "নে",
+      "tr": "ne",
+      "en": "take (intimate)",
+      "alt": [
+        "take",
+        "here you go"
+      ],
+      "pos": "verb",
+      "lesson": "u14-l06",
+      "register": "intimate",
+      "notes": "তুই command: নাও → নে. এই নে 'here, take it'."
+    },
+    {
+      "id": "bachao",
+      "bn": "বাঁচাও",
+      "tr": "ba~chao",
+      "en": "help! (save me)",
+      "alt": [
+        "save me",
+        "help me"
+      ],
+      "pos": "verb",
+      "lesson": "u14-l07",
+      "notes": "Command of বাঁচানো 'save'. Shouted in danger. সাহায্য করুন! is the polite 'please help'."
+    },
+    {
+      "id": "ambulens",
+      "bn": "অ্যাম্বুলেন্স",
+      "tr": "ambulens",
+      "en": "ambulance",
+      "pos": "noun",
+      "lesson": "u14-l07"
+    },
+    {
+      "id": "pulish",
+      "bn": "পুলিশ",
+      "tr": "pulish",
+      "en": "police",
+      "alt": [
+        "the police",
+        "policeman"
+      ],
+      "pos": "noun",
+      "lesson": "u14-l07"
+    },
+    {
+      "id": "dakun",
+      "bn": "ডাকুন",
+      "tr": "dakun",
+      "en": "please call (standard)",
+      "alt": [
+        "call",
+        "call (for)",
+        "please call"
+      ],
+      "pos": "verb",
+      "lesson": "u14-l07",
+      "register": "polite",
+      "notes": "Standard polite command of ডাকা 'call (someone to come)': ডাক্তার ডাকুন 'call a doctor'. Everyday Bangladeshi speech also says ডাকেন. For phoning: ফোন করুন."
+    },
+    {
+      "id": "joruri",
+      "bn": "জরুরি",
+      "tr": "joruri",
+      "en": "urgent",
+      "alt": [
+        "emergency",
+        "an emergency"
+      ],
+      "pos": "adj",
+      "lesson": "u14-l07",
+      "notes": "এটা জরুরি 'it's urgent'."
+    },
+    {
+      "id": "agun",
+      "bn": "আগুন",
+      "tr": "agun",
+      "en": "fire",
+      "alt": [
+        "a fire"
+      ],
+      "pos": "noun",
+      "lesson": "u14-l07"
+    },
+    {
+      "id": "durghotona",
+      "bn": "দুর্ঘটনা",
+      "tr": "durghotona",
+      "en": "accident",
+      "alt": [
+        "an accident"
+      ],
+      "pos": "noun",
+      "lesson": "u14-l07",
+      "notes": "একটা দুর্ঘটনা হয়েছে 'there's been an accident'."
+    },
+    {
+      "id": "pore-gechhi",
+      "bn": "পড়ে গেছি",
+      "tr": "pore gechhi",
+      "en": "I fell (down)",
+      "alt": [
+        "I fell",
+        "I've fallen",
+        "I have fallen"
+      ],
+      "pos": "phrase",
+      "lesson": "u14-l07",
+      "notes": "পড়ে যাওয়া 'fall down'. Same পড়ে as in পড়া 'fall', not 'read'."
+    },
+    {
+      "id": "hashpatale",
+      "bn": "হাসপাতালে",
+      "tr": "hashpatale",
+      "en": "to the hospital; in hospital",
+      "alt": [
+        "to the hospital",
+        "at the hospital",
+        "in hospital"
+      ],
+      "pos": "noun",
+      "lesson": "u14-l07",
+      "notes": "হাসপাতাল + -এ, like বাসায়, স্কুলে."
+    }
+  ]
+}

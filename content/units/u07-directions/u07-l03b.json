@@ -353,30 +353,30 @@
     },
     {
       "id": "r01",
-      "type": "listen_select",
-      "audio": {
+      "type": "select_translation",
+      "prompt": {
         "bn": "সামনে",
         "tr": "shamne",
         "en": "in front of"
       },
+      "direction": "bn_to_en",
       "options": [
-        "নিচে",
-        "পিছনে",
-        "সামনে",
-        "দিয়ে"
+        "downstairs",
+        "behind",
+        "in front of",
+        "along"
       ],
       "answer": 2,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "select_translation",
-      "prompt": {
+      "type": "listen_select",
+      "audio": {
         "bn": "দূরে",
         "tr": "dure",
         "en": "far"
       },
-      "direction": "en_to_bn",
       "options": [
         "কয়জন",
         "রাতে",
@@ -394,12 +394,12 @@
         "tr": "pashe",
         "en": "next to"
       },
-      "direction": "bn_to_en",
+      "direction": "en_to_bn",
       "options": [
-        "upstairs",
-        "next to",
-        "behind",
-        "outside"
+        "উপরে",
+        "পাশে",
+        "পিছনে",
+        "বাইরে"
       ],
       "answer": 1,
       "recycle": true
@@ -436,24 +436,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "দুইশ",
-          "tr": "duisho",
-          "en": "two hundred"
+          "bn": "ইলিশের",
+          "tr": "ilisher",
+          "en": "of the hilsa"
         },
         {
-          "bn": "জানেন",
-          "tr": "janen",
-          "en": "(you, polite) know"
+          "bn": "আট",
+          "tr": "at",
+          "en": "eight"
         },
         {
-          "bn": "ভাংতি",
-          "tr": "bhangti",
-          "en": "change"
+          "bn": "নও",
+          "tr": "noo",
+          "en": "are not (familiar)"
         },
         {
-          "bn": "জিনিস",
-          "tr": "jinish",
-          "en": "thing"
+          "bn": "নব্বই",
+          "tr": "nobboi",
+          "en": "ninety"
         }
       ],
       "recycle": true

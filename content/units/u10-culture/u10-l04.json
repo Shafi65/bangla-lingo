@@ -457,9 +457,9 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "সাড়ে",
-          "tr": "share",
-          "en": "half past"
+          "bn": "দেড়",
+          "tr": "der",
+          "en": "one and a half"
         },
         {
           "bn": "আলপনা",
@@ -467,14 +467,14 @@
           "en": "alpona"
         },
         {
-          "bn": "চাও",
-          "tr": "chao",
-          "en": "(you, familiar) want"
+          "bn": "চান",
+          "tr": "chan",
+          "en": "(you/he/she, polite) want"
         },
         {
-          "bn": "নয়",
-          "tr": "noy",
-          "en": "is not"
+          "bn": "পড়ছি",
+          "tr": "porchhi",
+          "en": "I am reading"
         }
       ],
       "recycle": true
@@ -484,24 +484,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "ডানে",
-          "tr": "dane",
-          "en": "right"
-        },
-        {
-          "bn": "ওখানে",
-          "tr": "okhane",
-          "en": "there"
-        },
-        {
-          "bn": "আপনারা",
-          "tr": "apnara",
-          "en": "you (polite, plural)"
+          "bn": "নয়",
+          "tr": "noy",
+          "en": "is not"
         },
         {
           "bn": "হ্যাঁ",
           "tr": "hya~",
           "en": "yes"
+        },
+        {
+          "bn": "দুপুরে",
+          "tr": "dupure",
+          "en": "at noon"
+        },
+        {
+          "bn": "ষাট",
+          "tr": "shat",
+          "en": "sixty"
         }
       ],
       "recycle": true
