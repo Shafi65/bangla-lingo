@@ -75,12 +75,13 @@ function collect() {
       for (const q of l.dialogue?.questions ?? []) { addText(q.questionBn); for (const o of q.options ?? []) add(o); }
     }
   }
-  // Formality trainer (content/formality/scenarios.json): options, and prompts with ___ filled by each correct answer
-  // (like fill_blank's complete `sentence` in lessons).
+  // Formality trainer (content/formality/scenarios.json): only the correct options (indexes in `answer`), and prompts
+  // with ___ filled by each correct answer (like fill_blank's complete `sentence` in lessons). Wrong options get no
+  // audio: a confident native voice saying a wrong sentence would reinforce the error.
   const formalityFile = path.join(ROOT, "formality", "scenarios.json");
   if (fs.existsSync(formalityFile)) {
     for (const sc of readJson(formalityFile).scenarios ?? []) {
-      for (const o of sc.options ?? []) addText(o);
+      for (const i of sc.answer ?? []) addText(sc.options?.[i]);
       const bn = sc.prompt?.bn;
       if (typeof bn !== "string") continue;
       if (!bn.includes("___")) { add(bn); continue; }
