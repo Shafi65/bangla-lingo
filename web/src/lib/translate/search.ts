@@ -10,6 +10,12 @@
 // key, 2 a key (or a word in it) starts with the query. Within a tier: taught words before assumed
 // words before example sentences, letters last, the main gloss before alternatives, then the key
 // closest in length to the query, then course order.
+//
+// When nothing matches, three rescues are tried (all on the device): Bengali endings are stripped
+// (ভাতটা -> ভাত + -টা), English plurals / -ing / -ed forms go back to a base word (drinking -> drink),
+// and small typos are forgiven ("Did you mean ..."), always ranked below real matches.
+import { bengaliSplits, describeSplit, englishStems } from "./inflect";
+import { typoDistance } from "./fuzzy";
 import type { Lang, TItem } from "./types";
 
 const BENGALI_CHAR = /[ঀ-৿]/g;
@@ -210,15 +216,105 @@ export function matchAll(px: Prepared, query: string, { onlyWords = false } = {}
 /** English words that rarely have a Bengali word of their own (articles, copulas, particles). */
 const SKIP_WORDS = new Set(["a", "an", "the", "to", "of", "is", "are", "am", "be", "was", "were", "do", "does", "did", "and"]);
 
+/** A near-miss: the query is within a typo or two of this item. */
+export interface Suggestion {
+  /** Index into Prepared.items. */
+  i: number;
+  item: TItem;
+  via: "en" | "tr";
+  /** What to show and search for: the matched English or romanized text. */
+  label: string;
+  /** Typos away (1 or 2). */
+  distance: number;
+  /** The whole phrase matched, not just one word of it. */
+  whole: boolean;
+}
+
 export interface WordHit {
   word: string;
   hit?: Hit;
+  /** How the word was reached when it isn't an exact match, e.g. "ভাতটা → ভাত + -টা 'the'". */
+  note?: string;
+  /** A close spelling, when the word isn't in the course. */
+  suggestion?: Suggestion;
 }
 
 export type CourseResult =
   | { kind: "empty" }
-  | { kind: "phrase"; hits: Hit[]; total: number }
+  | {
+      kind: "phrase";
+      hits: Hit[];
+      total: number;
+      /** Set when the hits are for a base form of the word typed (ending stripped, plural undone). */
+      note?: string;
+      /** Close spellings, offered only when nothing matched. */
+      suggestions?: Suggestion[];
+    }
   | { kind: "words"; words: WordHit[] };
+
+const wordsOf = (k: string) => k.split(" ").filter(Boolean);
+
+/**
+ * Items within a typo or two of the query (Damerau-Levenshtein: 1 for 4-7 letters, 2 for 8 or more,
+ * none shorter), on English glosses and romanizations. Closest first, then taught words before
+ * assumed words and sentences. Exact matches are not returned: use matchAll for those.
+ */
+export function suggest(px: Prepared, query: string, { onlyWords = false, limit = 3 } = {}): Suggestion[] {
+  if (detectScript(query) !== "latin") return [];
+  const qe = normEn(query);
+  const qr = normRoman(query);
+  const out: (Suggestion & { rank: number })[] = [];
+  for (let i = 0; i < px.items.length; i++) {
+    const item = px.items[i];
+    if (onlyWords && item.s) continue;
+    let best: Suggestion | null = null;
+    const consider = (q: string, keys: Key[], via: "en" | "tr", raw: string) => {
+      if (!q) return;
+      for (const { k } of keys) {
+        const cands = item.s ? [k] : [k, ...(k.includes(" ") ? wordsOf(k) : [])];
+        for (const c of cands) {
+          const d = typoDistance(q, c);
+          if (d < 0) continue;
+          const whole = c === k;
+          if (!best || d < best.distance || (d === best.distance && whole && !best.whole)) {
+            best = { i, item, via, label: via === "tr" && whole ? raw : c, distance: d, whole };
+          }
+        }
+      }
+    };
+    consider(qe, px.en[i], "en", "");
+    consider(qr, px.ro[i], "tr", item.tr.replace(/~/g, "").toLowerCase());
+    const b = best as Suggestion | null;
+    if (b) out.push({ ...b, rank: b.distance * 1000 + px.base[i] * 10 });
+  }
+  out.sort((a, b) => a.rank - b.rank || a.i - b.i);
+  const seen = new Set<string>();
+  const res: Suggestion[] = [];
+  for (const o of out) {
+    if (seen.has(o.label)) continue;
+    seen.add(o.label);
+    res.push({ i: o.i, item: o.item, via: o.via, label: o.label, distance: o.distance, whole: o.whole });
+    if (res.length >= limit) break;
+  }
+  return res;
+}
+
+/** Hits for a base form of `word` (an ending stripped, a plural undone), with a note saying how. */
+function viaBase(px: Prepared, shown: string, key: string, script: "bn" | "latin"): { hits: Hit[]; note: string } | null {
+  if (script === "bn") {
+    for (const split of bengaliSplits(key)) {
+      const found = matchAll(px, split.base, { onlyWords: true }).filter((h) => h.tier === 0);
+      if (found.length) return { hits: found, note: describeSplit(shown, split) };
+    }
+    return null;
+  }
+  for (const stem of englishStems(key)) {
+    // Exact only: a stem like "dog" must not match a letter whose gloss merely mentions it.
+    const found = matchAll(px, stem, { onlyWords: true }).filter((h) => h.tier === 0);
+    if (found.length) return { hits: found, note: `${shown} → ${stem}` };
+  }
+  return null;
+}
 
 /** The query's words for the per-word fallback: [as typed (punctuation trimmed), search form]. */
 function queryWords(query: string): [string, string][] {
@@ -226,7 +322,7 @@ function queryWords(query: string): [string, string][] {
   const out: [string, string][] = [];
   for (const raw of query.split(/\s+/)) {
     for (const piece of (script === "bn" ? [raw] : raw.split(/[^\p{L}\p{N}'’]+/u))) {
-      const shown = piece.replace(/^[^\p{L}\p{N}]+|[^\p{L}\p{N}]+$/gu, "");
+      const shown = piece.replace(/^[^\p{L}\p{M}\p{N}]+|[^\p{L}\p{M}\p{N}]+$/gu, "");
       const key = script === "bn" ? normBn(shown) : normEn(shown);
       if (!key || (script !== "bn" && SKIP_WORDS.has(key))) continue;
       out.push([shown, key]);
@@ -235,28 +331,65 @@ function queryWords(query: string): [string, string][] {
   return out;
 }
 
+/** One word of the per-word fallback: exact, then a base form, then a close spelling. */
+function lookupWord(px: Prepared, shown: string, key: string, script: "bn" | "latin"): WordHit {
+  const top = matchAll(px, key, { onlyWords: true })[0];
+  if (top && top.tier <= 1) return { word: shown, hit: top };
+  const base = viaBase(px, shown, key, script);
+  if (base) return { word: shown, hit: base.hits[0], note: base.note };
+  const sg = suggest(px, key, { onlyWords: true, limit: 1 })[0];
+  return sg ? { word: shown, suggestion: sg } : { word: shown };
+}
+
 /**
  * Course results for the box. Whole-phrase matches first; when a multi-word query has no exact or
- * whole-word match, each word is looked up on its own instead.
+ * whole-word match, each word is looked up on its own instead. With no match at all, a base form
+ * (Bengali ending stripped, English plural or -ing/-ed undone) and then close spellings are tried.
  */
 export function searchCourse(px: Prepared, query: string, limit = 8): CourseResult {
   const q = query.trim();
-  if (detectScript(q) === "none") return { kind: "empty" };
+  const script = detectScript(q);
+  if (script === "none") return { kind: "empty" };
   const hits = matchAll(px, q);
   const multi = normEn(q).split(" ").length > 1 || normBn(q).split(" ").length > 1;
   const full = hits.length > 0 && hits[0].tier <= 1;
-  if (!multi || full) return { kind: "phrase", hits: hits.slice(0, limit), total: hits.length };
+  if (full) return { kind: "phrase", hits: hits.slice(0, limit), total: hits.length };
+  const lang = script === "bn" ? "bn" : "latin";
 
-  const words: WordHit[] = [];
+  if (!multi) {
+    const key = script === "bn" ? normBn(q) : normEn(q);
+    const shown = q.replace(/^[^\p{L}\p{M}\p{N}]+|[^\p{L}\p{M}\p{N}]+$/gu, "");
+    const base = key ? viaBase(px, shown, key, lang) : null;
+    if (base) {
+      const rest = hits.filter((h) => !base.hits.some((b) => b.i === h.i));
+      const all = [...base.hits, ...rest];
+      return { kind: "phrase", hits: all.slice(0, limit), total: all.length, note: base.note };
+    }
+    if (hits.length === 0) {
+      const suggestions = suggest(px, q);
+      return { kind: "phrase", hits: [], total: 0, ...(suggestions.length ? { suggestions } : {}) };
+    }
+    return { kind: "phrase", hits: hits.slice(0, limit), total: hits.length };
+  }
+
+  // A whole phrase one typo away ("thnak you") beats looking at the words one by one.
+  if (hits.length === 0) {
+    const whole = suggest(px, q).filter((s) => s.whole);
+    if (whole.length) return { kind: "phrase", hits: [], total: 0, suggestions: whole };
+  }
+
+  const out: WordHit[] = [];
   const seen = new Set<string>();
   for (const [shown, key] of queryWords(q)) {
     if (seen.has(key)) continue;
     seen.add(key);
-    const top = matchAll(px, key, { onlyWords: true })[0];
-    words.push({ word: shown, hit: top && top.tier <= 1 ? top : undefined });
+    out.push(lookupWord(px, shown, key, lang));
   }
-  if (!words.some((w) => w.hit)) return { kind: "phrase", hits: hits.slice(0, limit), total: hits.length };
-  return { kind: "words", words: words.slice(0, limit) };
+  if (!out.some((w) => w.hit)) {
+    const suggestions = hits.length === 0 ? suggest(px, q) : [];
+    return { kind: "phrase", hits: hits.slice(0, limit), total: hits.length, ...(suggestions.length ? { suggestions } : {}) };
+  }
+  return { kind: "words", words: out.slice(0, limit) };
 }
 
 /**

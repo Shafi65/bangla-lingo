@@ -3,10 +3,12 @@
 import Link from "next/link";
 import { useDeferredValue, useEffect, useMemo, useRef, useState, useSyncExternalStore } from "react";
 import { AppShell } from "../AppShell";
-import { CourseResults } from "./CourseResults";
+import { CourseResults, type Availability } from "./CourseResults";
 import { MachineCard } from "./MachineCard";
-import { recentStore, pushRecent, requestMachine, type MachineState } from "@/lib/translate/client";
-import { detectLang, prepare, romanizeWithCourse, searchCourse } from "@/lib/translate/search";
+import { fetchConfigured, recentStore, pushRecent, requestMachine, type MachineState } from "@/lib/translate/client";
+import { composeRoman } from "@/lib/translate/romanize";
+import { detectRomanized } from "@/lib/translate/romanized";
+import { detectScript, prepare, searchCourse } from "@/lib/translate/search";
 import type { Lang, TranslateData } from "@/lib/translate/types";
 
 export const MAX_CHARS = 500;
@@ -14,7 +16,7 @@ const NAMES: Record<Lang, { en: string; native: string }> = {
   en: { en: "English", native: "English" },
   bn: { en: "Bengali", native: "বাংলা" },
 };
-const EXAMPLES = ["thank you", "কেমন আছেন?", "ami", "water", "where is the market"];
+const EXAMPLES = ["thank you", "কেমন আছেন?", "ami bhat khai", "water", "where is the market"];
 const other = (l: Lang): Lang => (l === "en" ? "bn" : "en");
 
 function SwapIcon() {
@@ -24,6 +26,15 @@ function SwapIcon() {
     </svg>
   );
 }
+
+const subscribeOnline = (cb: () => void) => {
+  window.addEventListener("online", cb);
+  window.addEventListener("offline", cb);
+  return () => {
+    window.removeEventListener("online", cb);
+    window.removeEventListener("offline", cb);
+  };
+};
 
 function Chip({ children, onClick, bn }: { children: string; onClick: () => void; bn?: boolean }) {
   return (
@@ -48,17 +59,37 @@ export function Translate({ data }: { data: TranslateData }) {
   const abortRef = useRef<AbortController | null>(null);
   const recent = useSyncExternalStore(recentStore.subscribe, recentStore.get, recentStore.server);
 
-  const detected = detectLang(text);
-  const from: Lang = manual ? chosen : (detected ?? chosen);
-  const to = other(from);
+  const [configured, setConfigured] = useState<boolean | null>(null);
+  const online = useSyncExternalStore(subscribeOnline, () => navigator.onLine, () => true);
 
   const px = useMemo(() => prepare(data.items), [data]);
+  const script = detectScript(text);
+  // Latin letters that look like Bengali spelled out ("ami bhat khai") are read as Bengali.
+  const looksRoman = useMemo(() => script === "latin" && detectRomanized(px, text).romanized, [px, script, text]);
+  const from: Lang = manual ? chosen : script === "bn" ? "bn" : looksRoman ? "bn" : script === "latin" ? "en" : chosen;
+  const to = other(from);
+  const romanized = from === "bn" && script === "latin";
+
   const deferred = useDeferredValue(text);
   const result = useMemo(() => searchCourse(px, deferred), [px, deferred]);
 
   const trimmed = text.trim();
-  const stale = machine.s === "done" && machine.source !== trimmed;
-  const romanized = machine.s === "done" && machine.to === "bn" ? romanizeWithCourse(px, machine.text) : null;
+  const stale =
+    machine.s === "done" && (machine.source !== trimmed || machine.from !== from || machine.to !== to || !!machine.read !== romanized);
+  const romanOut = machine.s === "done" && machine.to === "bn" ? composeRoman(px, machine.text, machine.roman) : null;
+
+  // Does machine translation have a chance? Only asked (the health check never calls Azure) once
+  // the course has nothing to show, so the empty state can say why.
+  const nothingFound = result.kind === "phrase" && result.hits.length === 0;
+  useEffect(() => {
+    if (!nothingFound || configured !== null) return;
+    const ctrl = new AbortController();
+    void fetchConfigured(ctrl.signal).then((c) => {
+      if (!ctrl.signal.aborted && c !== null) setConfigured(c);
+    });
+    return () => ctrl.abort();
+  }, [nothingFound, configured]);
+  const availability: Availability = !online ? "offline" : configured === false ? "off" : configured === true ? "on" : "unknown";
 
   // Remember a lookup once the learner pauses on something the course knows.
   useEffect(() => {
@@ -72,7 +103,7 @@ export function Translate({ data }: { data: TranslateData }) {
 
   useEffect(() => () => abortRef.current?.abort(), []);
 
-  const translate = async (value = text, dir: Lang = from) => {
+  const translate = async (value = text, dir: Lang = from, rom: boolean = romanized) => {
     const t = value.trim();
     if (!t) {
       inputRef.current?.focus();
@@ -83,7 +114,8 @@ export function Translate({ data }: { data: TranslateData }) {
     const ctrl = new AbortController();
     abortRef.current = ctrl;
     setMachine({ s: "loading" });
-    const next = await requestMachine(t.slice(0, MAX_CHARS), dir, other(dir), ctrl.signal);
+    const next = await requestMachine(t.slice(0, MAX_CHARS), dir, other(dir), { romanized: rom, signal: ctrl.signal });
+    if (next.s === "unconfigured") setConfigured(false);
     if (!ctrl.signal.aborted) setMachine(next);
   };
 
@@ -103,11 +135,21 @@ export function Translate({ data }: { data: TranslateData }) {
     const next = other(from);
     setChosen(next);
     setManual(true);
-    if (machine.s === "done" && !stale) {
+    if (machine.s === "done" && !stale && !machine.read) {
       setText(machine.text.slice(0, MAX_CHARS));
       setMachine({ s: "idle" });
     }
   };
+
+  const itsEnglish = () => {
+    setChosen("en");
+    setManual(true);
+  };
+  const readAsBengali = () => {
+    setManual(false);
+  };
+  const fromName = romanized ? "Romanized Bengali" : NAMES[from].en;
+  const dirLabel = `${fromName} → ${NAMES[to].en}`;
 
   const status =
     result.kind === "empty"
@@ -115,7 +157,9 @@ export function Translate({ data }: { data: TranslateData }) {
       : result.kind === "words"
         ? `${result.words.filter((w) => w.hit).length} of ${result.words.length} words found in the course`
         : result.hits.length === 0
-          ? "Not in the course yet"
+          ? result.suggestions?.length
+          ? `Not in the course yet. Did you mean ${result.suggestions.map((x) => x.label).join(" or ")}?`
+          : "Not in the course yet"
           : `${result.total} course ${result.total === 1 ? "result" : "results"}`;
 
   return (
@@ -132,37 +176,56 @@ export function Translate({ data }: { data: TranslateData }) {
           void translate();
         }}
       >
-        <div className="flex items-center gap-2 border-b-2 border-line px-3 py-2" role="group" aria-label="Translation direction">
-          <span className="flex-1 text-center text-base font-black text-ink" lang={from === "bn" ? "bn" : undefined}>
-            {NAMES[from].native}
-          </span>
+        <div className="flex flex-wrap items-center gap-x-2 gap-y-1 border-b-2 border-line px-3 py-2">
           <button
             type="button"
             data-enter-native
             onClick={swap}
-            aria-label={`Swap: translate ${NAMES[to].en} to ${NAMES[from].en}`}
+            aria-label={`Direction: ${fromName} to ${NAMES[to].en}. Tap to swap.`}
             title="Swap languages"
-            className="flex h-11 w-11 items-center justify-center rounded-full bg-brand-light text-brand-dark transition-transform hover:brightness-95 active:rotate-180 motion-reduce:transition-none"
+            className="inline-flex min-h-11 items-center gap-2 rounded-full bg-brand-light px-4 text-base font-black text-brand-dark transition-colors hover:brightness-95 motion-reduce:transition-none"
           >
+            <span aria-hidden lang={from === "bn" && !romanized ? "bn" : undefined}>
+              {romanized ? "Romanized Bengali" : NAMES[from].native}
+            </span>
+            <span aria-hidden>→</span>
+            <span aria-hidden lang={to === "bn" ? "bn" : undefined}>{NAMES[to].native}</span>
             <SwapIcon />
           </button>
-          <span className="flex-1 text-center text-base font-black text-muted" lang={to === "bn" ? "bn" : undefined}>
-            {NAMES[to].native}
-          </span>
+          {script === "latin" && looksRoman && !manual && (
+            <button
+              type="button"
+              data-enter-native
+              onClick={itsEnglish}
+              className="inline-flex min-h-11 items-center rounded-xl px-2.5 text-sm font-extrabold text-ink underline decoration-2 underline-offset-2 hover:bg-sunk"
+            >
+              It&apos;s English
+            </button>
+          )}
+          {script === "latin" && looksRoman && manual && chosen === "en" && (
+            <button
+              type="button"
+              data-enter-native
+              onClick={readAsBengali}
+              className="inline-flex min-h-11 items-center rounded-xl px-2.5 text-sm font-extrabold text-ink underline decoration-2 underline-offset-2 hover:bg-sunk"
+            >
+              Read as romanized Bengali
+            </button>
+          )}
         </div>
         <p className="sr-only" aria-live="polite">
-          {`Translating ${NAMES[from].en} to ${NAMES[to].en}`}
+          {`Translating ${dirLabel}`}
         </p>
 
         <label className="block px-4 pt-3">
-          <span className="sr-only">Text to translate, {NAMES[from].en}</span>
+          <span className="sr-only">Text to translate, {fromName}</span>
           <textarea
             ref={inputRef}
             data-enter-native
             value={text}
             maxLength={MAX_CHARS}
             rows={2}
-            lang={from === "bn" ? "bn" : "en"}
+            lang={from === "bn" && !romanized ? "bn" : "en"}
             onChange={(e) => {
               setText(e.target.value);
               if (!e.target.value.trim()) setManual(false);
@@ -173,7 +236,7 @@ export function Translate({ data }: { data: TranslateData }) {
                 void translate();
               }
             }}
-            placeholder={from === "bn" ? "বাংলায় লিখুন" : "Type a word or sentence"}
+            placeholder={from === "bn" && !romanized ? "বাংলায় লিখুন" : "Type English or Bengali (ami bhat khai)"}
             autoComplete="off"
             autoCapitalize="none"
             spellCheck={false}
@@ -221,7 +284,7 @@ export function Translate({ data }: { data: TranslateData }) {
               ))}
             </div>
             <p className="mt-2 text-sm font-semibold text-muted">
-              No Bengali keyboard? Type the sounds: <em>dhonnobad</em>, <em>kemon achen</em>.
+              No Bengali keyboard? Type the sounds: <em>dhonnobad</em>, <em>tumi kemon acho</em>.
             </p>
           </div>
           {recent.length > 0 && (
@@ -249,8 +312,17 @@ export function Translate({ data }: { data: TranslateData }) {
         </div>
       )}
 
-      {trimmed && <CourseResults result={result} data={data} />}
-      {trimmed && <MachineCard state={machine} romanized={romanized} stale={stale} />}
+      {trimmed && <CourseResults result={result} data={data} onPick={fill} availability={availability} />}
+      {trimmed && (
+        <MachineCard
+          state={machine}
+          romanized={romanOut}
+          stale={stale}
+          availability={availability}
+          quiet={nothingFound}
+          onEnglish={machine.s === "done" && machine.read && !stale ? itsEnglish : undefined}
+        />
+      )}
 
       <p className="mt-8 border-t-2 border-line pt-4 text-center">
         <Link href="/dictionary" className="font-extrabold text-brand-dark underline decoration-2 underline-offset-2">

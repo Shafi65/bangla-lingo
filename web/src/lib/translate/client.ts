@@ -1,39 +1,78 @@
 // Browser side of the Translate page: the machine-translation request and recent lookups.
-import type { Lang, MachineResponse } from "./types";
+import { cacheGet, cacheKey, cacheSet } from "./cache";
+import { QUOTA_MESSAGE, type HealthResponse, type Lang, type MachineResponse } from "./types";
 
 export type MachineState =
   | { s: "idle" }
   | { s: "loading" }
-  | { s: "done"; text: string; from: Lang; to: Lang; source: string }
+  | {
+      s: "done";
+      text: string;
+      from: Lang;
+      to: Lang;
+      source: string;
+      /** Romanized input: the Bengali script it was read as. */
+      read?: string;
+      /** Bengali output: approximate romanization from the translator, one entry per word. */
+      roman?: string[] | null;
+      /** Came from this device's cache (no request was made). */
+      cached?: boolean;
+    }
   | { s: "unconfigured" }
   | { s: "offline" }
-  | { s: "error"; message: string };
+  | { s: "error"; message: string; quota?: boolean };
 
-/** Ask the server to translate `text`. Never throws. */
-export async function requestMachine(
-  text: string,
-  from: Lang,
-  to: Lang,
-  signal?: AbortSignal,
-): Promise<MachineState> {
+export interface MachineOptions {
+  /** The text is Bengali typed with Roman letters (from must be "bn", to "en"). */
+  romanized?: boolean;
+  signal?: AbortSignal;
+}
+
+const GENERIC = "Translation isn't available right now. Course words still work.";
+
+/** Ask the server to translate `text` (or answer from this device's cache). Never throws. */
+export async function requestMachine(text: string, from: Lang, to: Lang, opts: MachineOptions = {}): Promise<MachineState> {
+  const { signal } = opts;
+  const romanized = !!opts.romanized && from === "bn" && to === "en";
+  const ckey = cacheKey(text, from, to, romanized);
+  const hit = cacheGet(ckey);
+  if (hit) {
+    return { s: "done", text: hit.text, from, to, source: text, read: hit.read, roman: hit.roman ?? null, cached: true };
+  }
   if (typeof navigator !== "undefined" && navigator.onLine === false) return { s: "offline" };
   try {
     const res = await fetch("/translate/api", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ text, from, to }),
+      body: JSON.stringify({ text, from, to, ...(romanized ? { romanized: true } : {}) }),
       cache: "no-store",
       signal,
     });
     const body = (await res.json().catch(() => null)) as MachineResponse | null;
-    if (body && body.ok) return { s: "done", text: body.text, from: body.from, to: body.to, source: text };
+    if (body && body.ok) {
+      const roman = Array.isArray(body.roman) ? body.roman : null;
+      cacheSet(ckey, { text: body.text, ...(body.read ? { read: body.read } : {}), roman });
+      return { s: "done", text: body.text, from: body.from, to: body.to, source: text, read: body.read, roman };
+    }
     if (body && "configured" in body && body.configured === false) return { s: "unconfigured" };
+    if (body && "quota" in body && body.quota) return { s: "error", message: body.error || QUOTA_MESSAGE, quota: true };
     if (body && "error" in body && typeof body.error === "string") return { s: "error", message: body.error };
-    return { s: "error", message: "Translation isn't available right now. Course words still work." };
+    return { s: "error", message: GENERIC };
   } catch (err) {
     if ((err as { name?: string })?.name === "AbortError") return { s: "idle" };
     if (typeof navigator !== "undefined" && navigator.onLine === false) return { s: "offline" };
     return { s: "error", message: "Couldn't reach the translator. Check your connection and try again." };
+  }
+}
+
+/** Is machine translation set up on the server? Asks the health endpoint (which never calls Azure). null = unknown. */
+export async function fetchConfigured(signal?: AbortSignal): Promise<boolean | null> {
+  try {
+    const res = await fetch("/translate/api?health=1", { cache: "no-store", signal });
+    const body = (await res.json().catch(() => null)) as HealthResponse | null;
+    return body && typeof body.configured === "boolean" ? body.configured : null;
+  } catch {
+    return null;
   }
 }
 
