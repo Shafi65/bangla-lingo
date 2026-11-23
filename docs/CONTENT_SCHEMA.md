@@ -4,6 +4,8 @@ All content is JSON under `content/`. `content/scripts/validate.mjs` (`npm run v
 
 Lessons are generated from `content/lexicon/` + `content/plans/` — see `docs/LESSON_PIPELINE.md`.
 
+Third-party material (stories, recordings, photos, dictionary data) lives in `content/library/` with a licence `source` block — see `docs/LICENSING.md`.
+
 ## `content/course.json`
 ```json
 {

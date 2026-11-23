@@ -1,0 +1,24 @@
+{
+  "_comment": "Licences the validator knows. allowed=false blocks the licence (reason is shown). See docs/LICENSING.md.",
+  "licences": [
+    { "id": "public-domain", "name": "Public domain", "url": "https://creativecommons.org/publicdomain/mark/1.0/", "allowed": true, "attribution": false, "shareAlike": false, "publicDomain": true },
+    { "id": "CC0-1.0", "name": "CC0 1.0", "url": "https://creativecommons.org/publicdomain/zero/1.0/", "allowed": true, "attribution": false, "shareAlike": false },
+    { "id": "CC-BY-4.0", "name": "CC BY 4.0", "url": "https://creativecommons.org/licenses/by/4.0/", "allowed": true, "attribution": true, "shareAlike": false },
+    { "id": "CC-BY-3.0", "name": "CC BY 3.0", "url": "https://creativecommons.org/licenses/by/3.0/", "allowed": true, "attribution": true, "shareAlike": false },
+    { "id": "CC-BY-2.0-FR", "name": "CC BY 2.0 FR", "url": "https://creativecommons.org/licenses/by/2.0/fr/", "allowed": true, "attribution": true, "shareAlike": false },
+    { "id": "CC-BY-SA-4.0", "name": "CC BY-SA 4.0", "url": "https://creativecommons.org/licenses/by-sa/4.0/", "allowed": true, "attribution": true, "shareAlike": true },
+    { "id": "CC-BY-SA-3.0", "name": "CC BY-SA 3.0", "url": "https://creativecommons.org/licenses/by-sa/3.0/", "allowed": true, "attribution": true, "shareAlike": true },
+    { "id": "CC-BY-SA-2.5", "name": "CC BY-SA 2.5", "url": "https://creativecommons.org/licenses/by-sa/2.5/", "allowed": true, "attribution": true, "shareAlike": true },
+    { "id": "CC-BY-SA-2.0", "name": "CC BY-SA 2.0", "url": "https://creativecommons.org/licenses/by-sa/2.0/", "allowed": true, "attribution": true, "shareAlike": true },
+    { "id": "OFL-1.1", "name": "SIL Open Font License 1.1", "url": "https://openfontlicense.org/", "allowed": true, "attribution": true, "shareAlike": false },
+    { "id": "MIT", "name": "MIT License", "url": "https://opensource.org/license/mit", "allowed": true, "attribution": true, "shareAlike": false },
+    { "id": "Apache-2.0", "name": "Apache License 2.0", "url": "https://www.apache.org/licenses/LICENSE-2.0", "allowed": true, "attribution": true, "shareAlike": false },
+
+    { "id": "CC-BY-NC-4.0", "name": "CC BY-NC 4.0", "url": "https://creativecommons.org/licenses/by-nc/4.0/", "allowed": false, "reason": "non-commercial: not allowed in an app with a paid tier" },
+    { "id": "CC-BY-NC-SA-4.0", "name": "CC BY-NC-SA 4.0", "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/", "allowed": false, "reason": "non-commercial: not allowed in an app with a paid tier" },
+    { "id": "CC-BY-NC-ND-4.0", "name": "CC BY-NC-ND 4.0", "url": "https://creativecommons.org/licenses/by-nc-nd/4.0/", "allowed": false, "reason": "non-commercial and no-derivatives" },
+    { "id": "CC-BY-ND-4.0", "name": "CC BY-ND 4.0", "url": "https://creativecommons.org/licenses/by-nd/4.0/", "allowed": false, "reason": "no-derivatives: we can't add glosses, audio or questions" },
+    { "id": "GPL-3.0", "name": "GNU GPL 3.0", "url": "https://www.gnu.org/licenses/gpl-3.0.html", "allowed": false, "reason": "copyleft: conflicts with app-store terms" },
+    { "id": "GPL-2.0", "name": "GNU GPL 2.0", "url": "https://www.gnu.org/licenses/old-licenses/gpl-2.0.html", "allowed": false, "reason": "copyleft: conflicts with app-store terms" }
+  ]
+}
