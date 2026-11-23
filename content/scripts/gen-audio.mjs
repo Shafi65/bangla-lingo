@@ -16,6 +16,7 @@ import crypto from "node:crypto";
 import fs from "node:fs";
 import path from "node:path";
 import { BENGALI, ROOT, lessonPath, loadAll, readJson, rel, writeJson } from "./lib.mjs";
+import { FAMILY_FILE, familyAudioStrings } from "./validate-family.mjs";
 
 // Load KEY=VALUE pairs from the repo-root .env (git-ignored) without overriding real env vars.
 {
@@ -90,6 +91,19 @@ function collect() {
         if (a) add(bn.replace("___", a));
       }
     }
+  }
+  // Graded stories (content/stories/*.json): every line's Bengali only. Titles, questions and options are not voiced
+  // (wrong options would be a confident voice saying a wrong answer).
+  const storyDir = path.join(ROOT, "stories");
+  for (const f of fs.existsSync(storyDir) ? fs.readdirSync(storyDir).filter((x) => x.endsWith(".json")).sort() : []) {
+    let story;
+    try { story = readJson(path.join(storyDir, f)); } catch { console.warn(`skip stories/${f}: invalid JSON`); continue; }
+    for (const l of Array.isArray(story?.lines) ? story.lines : []) addText(l);
+  }
+  // My family (content/family/kin.json): kin terms, and the phrases /family composes from them (default and listed
+  // address terms and pronouns, plus the bare phrase used when someone is called by name). See validate-family.mjs.
+  if (fs.existsSync(FAMILY_FILE)) {
+    try { for (const s of familyAudioStrings(readJson(FAMILY_FILE))) add(s); } catch { console.warn("skip family/kin.json: invalid JSON"); }
   }
   let lessons = 0;
   for (const u of ctx.course.units) {

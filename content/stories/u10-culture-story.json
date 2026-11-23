@@ -1,0 +1,135 @@
+{
+  "id": "u10-culture-story",
+  "unit": "u10-culture",
+  "title": {
+    "bn": "ঈদ মোবারক!",
+    "tr": "id mubarak!",
+    "en": "Eid Mubarak!"
+  },
+  "summary": "Eid at home: Eid money, shemai, guests and a gift for Nani.",
+  "status": "draft",
+  "lines": [
+    {
+      "bn": "আজ ঈদ!",
+      "tr": "aj id!",
+      "en": "Today is Eid!"
+    },
+    {
+      "speaker": "Rafi",
+      "bn": "ঈদ মোবারক, নানি!",
+      "tr": "id mubarak, nani!",
+      "en": "Eid Mubarak, Nani!"
+    },
+    {
+      "speaker": "Nani",
+      "bn": "ঈদ মোবারক! এটা তোমার সালামি।",
+      "tr": "id mubarak! eta tomar shalami.",
+      "en": "Eid Mubarak! This is your Eid money."
+    },
+    {
+      "speaker": "Rafi",
+      "bn": "পাঁচশ টাকা! ধন্যবাদ, নানি!",
+      "tr": "pa~chsho taka! dhonnobad, nani!",
+      "en": "Five hundred taka! Thank you, Nani!"
+    },
+    {
+      "speaker": "Ammu",
+      "bn": "রাফি, সেমাই আছে!",
+      "tr": "rafi, shemai achhe!",
+      "en": "Rafi, there's shemai!"
+    },
+    {
+      "speaker": "Nadia",
+      "bn": "আজ আমাদের বাসায় আসবে?",
+      "tr": "aj amader bashay ashbe?",
+      "en": "Will you come to our home today?"
+    },
+    {
+      "speaker": "Emma",
+      "bn": "অবশ্যই! ঈদ মোবারক!",
+      "tr": "oboshshoi! id mubarak!",
+      "en": "Of course! Eid Mubarak!"
+    },
+    {
+      "bn": "বিকালে বাসায় অনেক মেহমান।",
+      "tr": "bikale bashay onek mehman.",
+      "en": "In the afternoon the house is full of guests."
+    },
+    {
+      "speaker": "Emma",
+      "bn": "নানি, এটা আপনার জন্য। একটা উপহার।",
+      "tr": "nani, eta apnar jonno. ekta upohar.",
+      "en": "Nani, this is for you. A gift."
+    },
+    {
+      "speaker": "Nani",
+      "bn": "আমার জন্য? খুব সুন্দর!",
+      "tr": "amar jonno? khub shundor!",
+      "en": "For me? It's beautiful!"
+    },
+    {
+      "speaker": "Rafi",
+      "bn": "চলো, সবাই সেমাই খাই!",
+      "tr": "cholo, shobai shemai khai!",
+      "en": "Come on, let's all eat shemai!"
+    }
+  ],
+  "questions": [
+    {
+      "after": 2,
+      "question": "What does Nani give Rafi?",
+      "options": [
+        "Eid money",
+        "A book",
+        "Shemai"
+      ],
+      "answer": 0,
+      "why": "সালামি is the money elders give younger family members at Eid."
+    },
+    {
+      "after": 5,
+      "question": "What is Nadia asking Emma?",
+      "options": [
+        "Will you come to our home today?",
+        "Where is our home?",
+        "Are you at home today?"
+      ],
+      "answer": 0,
+      "why": "আসবে = will (you) come; আমাদের বাসায় = to our home."
+    },
+    {
+      "after": 8,
+      "question": "Who is the gift for?",
+      "options": [
+        {
+          "bn": "নানি",
+          "tr": "nani",
+          "en": "Nani"
+        },
+        {
+          "bn": "রাফি",
+          "tr": "rafi",
+          "en": "Rafi"
+        },
+        {
+          "bn": "নাদিয়া",
+          "tr": "nadiya",
+          "en": "Nadia"
+        }
+      ],
+      "answer": 0,
+      "why": "এটা আপনার জন্য = 'this is for you', said to Nani. জন্য = for."
+    },
+    {
+      "after": 10,
+      "question": "What does Rafi suggest?",
+      "options": [
+        "Let's all eat shemai",
+        "Let's go to the fair",
+        "Let's all sleep"
+      ],
+      "answer": 0,
+      "why": "চলো … খাই = 'let's eat'; সবাই = everyone."
+    }
+  ]
+}

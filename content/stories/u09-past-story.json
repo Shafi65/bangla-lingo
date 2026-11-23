@@ -1,0 +1,136 @@
+{
+  "id": "u09-past-story",
+  "unit": "u09-past",
+  "title": {
+    "bn": "গতকাল",
+    "tr": "gotokal",
+    "en": "Yesterday"
+  },
+  "summary": "Rafi had a fun day out; Nadia had a long day at work.",
+  "status": "draft",
+  "lines": [
+    {
+      "speaker": "Nadia",
+      "bn": "রাফি, গতকাল তুমি কোথায় ছিলে?",
+      "tr": "rafi, gotokal tumi kothay chhile?",
+      "en": "Rafi, where were you yesterday?"
+    },
+    {
+      "speaker": "Rafi",
+      "bn": "আমি বন্ধুর সাথে ছবি দেখলাম।",
+      "tr": "ami bondhur shathe chhobi dekhlam.",
+      "en": "I saw a film with a friend."
+    },
+    {
+      "speaker": "Nadia",
+      "bn": "কোন ছবি?",
+      "tr": "kon chhobi?",
+      "en": "Which film?"
+    },
+    {
+      "speaker": "Rafi",
+      "bn": "একটা বাংলা ছবি। খুব ভালো ছিল!",
+      "tr": "ekta bangla chhobi. khub bhalo chhilo!",
+      "en": "A Bengali film. It was very good!"
+    },
+    {
+      "speaker": "Rafi",
+      "bn": "তারপর আমরা বিরিয়ানি খেলাম। আর তুমি?",
+      "tr": "tarpor amra biriyani khelam. ar tumi?",
+      "en": "Then we ate biryani. And you?"
+    },
+    {
+      "speaker": "Nadia",
+      "bn": "আমি অনেক কাজ করলাম। আর আজ এখনো কিছু খাইনি।",
+      "tr": "ami onek kaj korlam. ar aj ekhono kichhu khaini.",
+      "en": "I worked a lot. And today I haven't eaten anything yet."
+    },
+    {
+      "speaker": "Rafi",
+      "bn": "কী! কিছু খাওনি?",
+      "tr": "ki! kichhu khaoni?",
+      "en": "What! You haven't eaten anything?"
+    },
+    {
+      "speaker": "Nadia",
+      "bn": "না। শুধু চা খেলাম।",
+      "tr": "na. shudhu cha khelam.",
+      "en": "No. I only had tea."
+    },
+    {
+      "speaker": "Rafi",
+      "bn": "আম্মু মাত্র রান্না করল। ভাত আর মাছ!",
+      "tr": "ammu matro ranna korlo. bhat ar machh!",
+      "en": "Mom just cooked. Rice and fish!"
+    },
+    {
+      "speaker": "Nadia",
+      "bn": "আলহামদুলিল্লাহ!",
+      "tr": "alhamdulillah!",
+      "en": "Thank God!"
+    }
+  ],
+  "questions": [
+    {
+      "after": 1,
+      "question": "What did Rafi do yesterday?",
+      "options": [
+        "He saw a film with a friend",
+        "He went to Sylhet",
+        "He worked a lot"
+      ],
+      "answer": 0,
+      "why": "ছবি can mean 'picture' or 'film'; দেখলাম = I saw; বন্ধুর সাথে = with a friend."
+    },
+    {
+      "after": 3,
+      "question": "How was the film?",
+      "questionBn": {
+        "bn": "ছবি কেমন ছিল?",
+        "tr": "chhobi kemon chhilo?",
+        "en": "How was the film?"
+      },
+      "options": [
+        {
+          "bn": "খুব ভালো",
+          "tr": "khub bhalo",
+          "en": "very good"
+        },
+        {
+          "bn": "খারাপ",
+          "tr": "kharap",
+          "en": "bad"
+        },
+        {
+          "bn": "কঠিন",
+          "tr": "kothin",
+          "en": "difficult"
+        }
+      ],
+      "answer": 0,
+      "why": "Rafi says খুব ভালো ছিল: 'it was very good'."
+    },
+    {
+      "after": 7,
+      "question": "What has Nadia had today?",
+      "options": [
+        "Only tea",
+        "Biryani",
+        "Rice and fish"
+      ],
+      "answer": 0,
+      "why": "খাইনি = I haven't eaten; শুধু চা খেলাম = I only had tea."
+    },
+    {
+      "after": 8,
+      "question": "Who just cooked?",
+      "options": [
+        "Mom",
+        "Rafi",
+        "Nadia"
+      ],
+      "answer": 0,
+      "why": "আম্মু মাত্র রান্না করল = Mom just cooked. মাত্র = just."
+    }
+  ]
+}

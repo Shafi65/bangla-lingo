@@ -57,6 +57,15 @@ for (const e of lexicon.values()) {
   if (!POS.has(e.pos)) err(where, `pos "${e.pos}" invalid (one of ${[...POS].join(", ")})`);
   if (e.register && !REGISTERS.has(e.register)) err(where, `register "${e.register}" invalid`);
   if (e.alt && !isStrArr(e.alt)) err(where, "alt must be string[]");
+  // Supplementary lexicons (e.g. family-extra.json, used by /family): their unit is not in course.json and their
+  // entries are not taught by any lesson, so they have no `lesson` (see CONTENT_SCHEMA.md, "My family").
+  if (!ctx.units.has(e._unit)) {
+    if (e.lesson !== undefined) err(where, `supplementary lexicon (unit "${e._unit}" is not in course.json): entries have no "lesson"`);
+    const k = `${e.bn}|${e.en}`;
+    if (byBn.has(k)) err(where, `same bn+en as "${byBn.get(k)}" — reuse that id instead`);
+    byBn.set(k, e.id);
+    continue;
+  }
   const info = lessonInfo.get(e.lesson);
   if (!info) { err(where, `lesson "${e.lesson}" not found in any plan/course`); continue; }
   if (info.unit.id !== e._unit) err(where, `lesson ${e.lesson} belongs to ${info.unit.id}, but entry is in ${e._unit} lexicon`);

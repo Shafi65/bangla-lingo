@@ -202,3 +202,93 @@ Scenario drills for তুই / তুমি / আপনি, played at `/formali
 | `notes` | | Kolkata or regional difference, shown with the feedback |
 
 Rules: every Bengali word in `prompt`, `options` and the intro's `pronoun`/`forms` must be a form in `content/lexicon/` (multi-word lexicon phrases count), and each `tr` must match the lexicon transliteration of its words; Bengali quoted inside `situation`, `why`, `varies`, `notes`, the intro's `use` and tier descriptions must also be lexicon forms, except endings written with a leading hyphen (`-েন`). Text is NFC without ZWJ/ZWNJ; `en` has no Bengali script. A missing word is a reason to write a different scenario, not to add a spelling here. Options whose Bengali has a recorded clip (`content/audio/manifest.json`) get a play button in the feedback.
+
+## Stories — `content/stories/<unit-id>-story.json`
+One short graded story per main-track beginner unit (from the second unit on), read at `/stories`. A story unlocks when the learner completes its unit's first lesson; finishing it is stored in the browser only (no XP or streak). `npm run validate:stories` enforces this section.
+```json
+{
+  "id": "u02-pronouns-story",
+  "unit": "u02-pronouns",
+  "title": { "bn": "নাদিয়া কে?", "tr": "nadiya ke?", "en": "Who is Nadia?" },
+  "summary": "Rafi meets Emma and introduces Nadia.",
+  "status": "draft",
+  "lines": [
+    { "speaker": "Rafi", "bn": "আমি ছাত্র। ও নাদিয়া।", "tr": "ami chhatro. o nadiya.", "en": "I'm a student. This is Nadia." },
+    { "speaker": "Nadia", "bn": "না! ও আমার বন্ধু নয়।", "tr": "na! o amar bondhu noy.", "en": "No! He isn't my friend.", "senses": { "নয়": "noy-isnt" } }
+  ],
+  "questions": [
+    { "after": 0, "question": "Who is Nadia?", "questionBn": { "bn": "নাদিয়া কে?", "tr": "nadiya ke?", "en": "Who is Nadia?" },
+      "options": [{ "bn": "ডাক্তার", "tr": "daktar", "en": "a doctor" }, { "bn": "শিক্ষক", "tr": "shikkhok", "en": "a teacher" }],
+      "answer": 0, "why": "Rafi says ও ডাক্তার: 'she is a doctor'." },
+    { "after": 1, "question": "What does Nadia say about Rafi?", "options": ["He isn't her friend.", "He is a doctor."], "answer": 0, "why": "নয় means 'is not'." }
+  ]
+}
+```
+| field | req | meaning |
+|---|---|---|
+| `id` | ✓ | `<unit-id>-story`, equal to the file name; one story per unit |
+| `unit` | ✓ | a main-track beginner unit in `course.json` |
+| `title` | ✓ | BnText |
+| `summary` | | one English sentence for the story list |
+| `status` | | `"draft"` (default) or `"reviewed"`; `reviewedBy` as for lessons |
+| `lines` | ✓ | 6–12 lines `{ speaker?, bn, tr, en, senses? }`, shown one at a time. `speaker` is an English name; a line without one is narration. |
+| `senses` | | on a line, `questionBn` or a Bengali option: `{ "<word>": "<lexicon id>" }` picks the meaning of a word that two lexicon entries spell alike (নয় nine / is not, দিন day / give, বার day / times, হবে will be / have to). Required for such a word once both entries are taught. |
+| `questions` | ✓ | 3–4 multiple-choice questions about meaning, each shown after line `after` (0-based, in line order). `question` is English; `questionBn` (BnText) also shows it in Bengali. `options` are 2–4 English strings **or** 2–4 BnText (Bengali answers); every story has at least one of each kind. `answer` indexes the authored `options` (the app shuffles them). `why` is shown after answering. |
+
+Rules: every Bengali word in `title`, `lines`, `questionBn` and Bengali options must be a `content/lexicon/` form **taught by the end of the story's unit** (course order, script units included; letters don't count; multi-word lexicon phrases count), and each `tr` must match the lexicon transliteration of its words. Bengali quoted inside `question` and `why` must be taught forms too. No digits in `bn` (write numbers as words), NFC without ZWJ/ZWNJ, no Bengali script in `en`, `speaker`, `summary` or English options. The validator splits each line into lexicon forms by greedy longest match, the same rule the app uses for its tap-a-word glosses, so every word of a valid story has a gloss. `npm run gen:audio` records every line's Bengali (not titles, questions or options).
+
+## My family — `content/family/kin.json`
+Kin terms for the learner's own family tree, played at `/family`. `npm run validate:family` enforces this section.
+```json
+{
+  "version": 1,
+  "defaultVariety": "bd",
+  "varieties": [{ "id": "bd", "label": "Bangladesh", "description": "Words used in many Bangladeshi families, especially Muslim families." }],
+  "pronouns": [{ "id": "apni", "bn": "আপনি", "tr": "apni", "en": "you (respectful)", "use": "Elders and anyone you show respect to." }],
+  "kinds": [{ "id": "how", "label": "Ask how they are" }],
+  "phrases": [
+    { "id": "how-apni", "kind": "how", "pronouns": ["apni"], "bn": "{addr}, আপনি কেমন আছেন?", "tr": "{addr}, apni kemon achhen?", "en": "{addr}, how are you?" },
+    { "id": "intro-apni", "kind": "intro", "pronouns": ["apni"], "bn": "উনি আমার {ref}।", "tr": "uni amar {ref}", "en": "This is my {label}." }
+  ],
+  "groups": [
+    { "id": "mothers-siblings", "title": "Mum's brothers and sisters", "hint": "Aunts and uncles on Mum's side",
+      "asks": [
+        { "key": "gender", "q": "Is this Mum's brother or sister?", "options": [{ "v": "m", "label": "Brother" }, { "v": "f", "label": "Sister" }] },
+        { "key": "age", "q": "Older or younger than Mum?", "options": [{ "v": "elder", "label": "Older than Mum" }, { "v": "younger", "label": "Younger than Mum" }] }
+      ] }
+  ],
+  "relations": [
+    {
+      "id": "mother-younger-sister", "group": "mothers-siblings", "gen": 1, "gender": "f",
+      "pick": { "gender": "f", "age": "younger" },
+      "label": "mother's younger sister", "short": "Mum's younger sister",
+      "explain": "Aunts and uncles are named by the parent they come from.",
+      "pronoun": { "default": "apni", "also": ["tumi"], "note": "আপনি is the safe choice." },
+      "phrases": ["greet", "how", "miss", "festival"],
+      "terms": {
+        "bd": { "ref": { "bn": "ছোট খালা", "tr": "chhoto khala", "en": "aunt" }, "addr": [{ "bn": "খালামণি", "tr": "khalamoni", "en": "auntie" }], "note": "optional" },
+        "wb": { "ref": { "bn": "ছোট মাসি", "tr": "chhoto mashi", "en": "aunt" }, "addr": [], "pronoun": { "default": "tumi", "also": ["apni"] } }
+      },
+      "actions": [{ "label": "Add her husband", "group": "aunt-uncle-spouses", "preset": { "via": "mother-younger-sister" } }]
+    }
+  ]
+}
+```
+| field | on | meaning |
+|---|---|---|
+| `varieties` | file | Family-word sets the learner can switch between (`bd`: common in many Bangladeshi families; `wb`: common in many Hindu families and West Bengal). Described as common usage, never as rules. `defaultVariety` is used until the learner chooses. |
+| `pronouns` | file | Exactly `apni`, `tumi`, `tui`, in that order, each a BnText plus `use`. |
+| `kinds` | file | Phrase kinds a relation can list (`greet`, `how`, `miss`, `festival`). `intro` is reserved for the "talking about them" sentence. |
+| `phrases` | file | Templates. `variety` and `pronouns` restrict where a template applies; for every kind (and `intro`), variety and pronoun **exactly one** template must match. Non-intro templates hold one `{addr}` in `bn`, `tr` and `en`, either opening (`{addr}, …`) or closing (`…, {addr}।`) the phrase: it is filled with the address term, or removed when the person is called by name. `intro` templates hold `{ref}` (bn/tr) and `{label}` (en). Optional `note`. |
+| `groups` | file | The guided "Add a relative" flow: questions (`asks`) answered one at a time. Every combination of answers must lead to exactly one relation of the group (its `pick`). |
+| `gen` | relation | Tree row: 2 grandparents, 1 parents' generation, 0 the learner's, -1 children's. |
+| `label` / `short` | relation | English. `label` is lower-case ("mother's younger sister"; shown as "Your …" and in `{label}`); `short` is for prompts ("Mum's younger sister"). |
+| `explain` | relation | The "why" note on the card. |
+| `pronoun` | relation | `{ default, also, note? }`: the usual pronoun and others families also use. A variety's `terms.<v>.pronoun` overrides it. |
+| `phrases` | relation | 2–4 kinds shown on the card. |
+| `terms` | relation | One entry per variety: `ref` (talking about them), `addr` (calling them; first = usual; empty = by name), optional `note`, optional `pronoun`. |
+| `actions` | relation | Buttons on the card that open a group with some answers preset (e.g. "Add her child (your cousin)"). Preset keys and values must belong to that group. |
+
+Rules: every Bengali word in terms, pronouns, templates **and every phrase composed from them** (each relation × variety × pronoun × address term) must be a form in `content/lexicon/`, and each `tr` must match the lexicon transliteration word by word; Bengali quoted inside `explain`, `note` and `use` must also be lexicon forms. Kin words that no lesson teaches live in the supplementary lexicon `content/lexicon/family-extra.json` (same format, unit `family-extra`, entries without `lesson`; `npm run validate` checks ids and spellings but not lesson placement, because the unit is not in `course.json`). `npm run gen:audio` records every term, the intro sentence and each phrase for the default and listed address terms and pronouns, plus the bare phrase used when someone is called by name or by the family's own word.
+
+The learner's tree is stored on the device only, in `localStorage` key `banglalingo.family.v1`: `{ v: 1, variety?, people: [{ id, rel, name?, call?, pronoun?, linkedTo? }], quiz: { rounds, best } }`. `call` is `{ type: "term", bn, tr }`, `{ type: "name" }` or `{ type: "custom", text }`.

@@ -1,0 +1,157 @@
+{
+  "id": "u12-have-to-story",
+  "unit": "u12-have-to",
+  "title": {
+    "bn": "তাড়াতাড়ি উঠতে হবে!",
+    "tr": "taratari uthte hobe!",
+    "en": "We have to get up early!",
+    "senses": {
+      "হবে": "hobe-must"
+    }
+  },
+  "summary": "The night before the train: everyone has something they have to do.",
+  "status": "draft",
+  "lines": [
+    {
+      "speaker": "Ammu",
+      "bn": "কাল সকাল দশটায় ট্রেন।",
+      "tr": "kal shokal doshtay tren.",
+      "en": "The train is at ten tomorrow morning."
+    },
+    {
+      "speaker": "Ammu",
+      "bn": "সবাইকে তাড়াতাড়ি উঠতে হবে।",
+      "tr": "shobaike taratari uthte hobe.",
+      "en": "Everyone has to get up early.",
+      "senses": {
+        "হবে": "hobe-must"
+      }
+    },
+    {
+      "speaker": "Rafi",
+      "bn": "কয়টায় উঠতে হবে?",
+      "tr": "koytay uthte hobe?",
+      "en": "What time do we have to get up?",
+      "senses": {
+        "হবে": "hobe-must"
+      }
+    },
+    {
+      "speaker": "Ammu",
+      "bn": "সাতটায়।",
+      "tr": "shattay.",
+      "en": "At seven."
+    },
+    {
+      "speaker": "Rafi",
+      "bn": "সাতটায়! আমি সাতটায় উঠতে পারি না!",
+      "tr": "shattay! ami shattay uthte pari na!",
+      "en": "At seven! I can't get up at seven!"
+    },
+    {
+      "speaker": "Nadia",
+      "bn": "আমাকে কাল সকালে কাজ করতে হবে। আমি পরশু আসব।",
+      "tr": "amake kal shokale kaj korte hobe. ami porshu ashbo.",
+      "en": "I have to work tomorrow morning. I'll come the day after.",
+      "senses": {
+        "হবে": "hobe-must"
+      }
+    },
+    {
+      "speaker": "Ammu",
+      "bn": "রাফি, তোমাকে এখন ঘুমাতে হবে।",
+      "tr": "rafi, tomake ekhon ghumate hobe.",
+      "en": "Rafi, you have to sleep now.",
+      "senses": {
+        "হবে": "hobe-must"
+      }
+    },
+    {
+      "speaker": "Rafi",
+      "bn": "কিন্তু আম্মু, আমাকে উপহার কিনতে হবে!",
+      "tr": "kintu ammu, amake upohar kinte hobe!",
+      "en": "But Mom, I have to buy a gift!",
+      "senses": {
+        "হবে": "hobe-must"
+      }
+    },
+    {
+      "speaker": "Ammu",
+      "bn": "চিন্তা নেই, আমি গতকাল কিনলাম। এখন ঘুমাতে যাও!",
+      "tr": "chinta nei, ami gotokal kinlam. ekhon ghumate jao!",
+      "en": "Don't worry, I bought one yesterday. Now go to sleep!"
+    },
+    {
+      "speaker": "Rafi",
+      "bn": "আচ্ছা, আম্মু।",
+      "tr": "achchha, ammu.",
+      "en": "OK, Mom."
+    }
+  ],
+  "questions": [
+    {
+      "after": 1,
+      "question": "What does everyone have to do?",
+      "options": [
+        "Get up early",
+        "Buy tickets",
+        "Make pitha"
+      ],
+      "answer": 0,
+      "why": "উঠতে হবে = have to get up; তাড়াতাড়ি = early."
+    },
+    {
+      "after": 3,
+      "question": "At what time does everyone have to get up?",
+      "questionBn": {
+        "bn": "সবাইকে কয়টায় উঠতে হবে?",
+        "tr": "shobaike koytay uthte hobe?",
+        "en": "At what time does everyone have to get up?",
+        "senses": {
+          "হবে": "hobe-must"
+        }
+      },
+      "options": [
+        {
+          "bn": "সাতটায়",
+          "tr": "shattay",
+          "en": "at seven"
+        },
+        {
+          "bn": "দশটায়",
+          "tr": "doshtay",
+          "en": "at ten"
+        },
+        {
+          "bn": "আটটায়",
+          "tr": "attay",
+          "en": "at eight"
+        }
+      ],
+      "answer": 0,
+      "why": "The train is দশটায় (at ten), so they get up সাতটায় (at seven)."
+    },
+    {
+      "after": 5,
+      "question": "Why isn't Nadia going tomorrow?",
+      "options": [
+        "She has to work",
+        "She is ill",
+        "She has to buy a gift"
+      ],
+      "answer": 0,
+      "why": "আমাকে কাজ করতে হবে = I have to work. পরশু = the day after tomorrow."
+    },
+    {
+      "after": 8,
+      "question": "Who has already bought the gift?",
+      "options": [
+        "Ammu",
+        "Rafi",
+        "Nadia"
+      ],
+      "answer": 0,
+      "why": "আমি গতকাল কিনলাম = I bought it yesterday, says Ammu."
+    }
+  ]
+}

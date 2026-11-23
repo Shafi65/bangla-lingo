@@ -1,0 +1,151 @@
+{
+  "id": "u02-pronouns-story",
+  "unit": "u02-pronouns",
+  "title": {
+    "bn": "নাদিয়া কে?",
+    "tr": "nadiya ke?",
+    "en": "Who is Nadia?"
+  },
+  "summary": "Rafi meets Emma, a student from America, and introduces Nadia.",
+  "status": "draft",
+  "lines": [
+    {
+      "speaker": "Rafi",
+      "bn": "আসসালামু আলাইকুম। আমি রাফি।",
+      "tr": "assalamu alaikum. ami rafi.",
+      "en": "Hello. I'm Rafi."
+    },
+    {
+      "speaker": "Emma",
+      "bn": "ওয়ালাইকুম আসসালাম। আমি আমেরিকা থেকে এসেছি।",
+      "tr": "walaikum assalam. ami amerika theke eshechhi.",
+      "en": "Hello. I've come from America."
+    },
+    {
+      "speaker": "Rafi",
+      "bn": "আপনি কি ছাত্রী?",
+      "tr": "apni ki chhatri?",
+      "en": "Are you a student?"
+    },
+    {
+      "speaker": "Emma",
+      "bn": "হ্যাঁ, আমি ছাত্রী। আর আপনি?",
+      "tr": "hya~, ami chhatri. ar apni?",
+      "en": "Yes, I'm a student. And you?"
+    },
+    {
+      "speaker": "Rafi",
+      "bn": "আমি ছাত্র। ও নাদিয়া। ও ডাক্তার।",
+      "tr": "ami chhatro. o nadiya. o daktar.",
+      "en": "I'm a student. This is Nadia. She's a doctor."
+    },
+    {
+      "speaker": "Nadia",
+      "bn": "আপনি কেমন আছেন?",
+      "tr": "apni kemon achhen?",
+      "en": "How are you?"
+    },
+    {
+      "speaker": "Emma",
+      "bn": "ভালো আছি, ধন্যবাদ। রাফি কি আপনার বন্ধু?",
+      "tr": "bhalo achhi, dhonnobad. rafi ki apnar bondhu?",
+      "en": "I'm well, thank you. Is Rafi your friend?"
+    },
+    {
+      "speaker": "Nadia",
+      "bn": "না! ও আমার বন্ধু নয়।",
+      "tr": "na! o amar bondhu noy.",
+      "en": "No! He isn't my friend.",
+      "senses": {
+        "নয়": "noy-isnt"
+      }
+    },
+    {
+      "speaker": "Rafi",
+      "bn": "আমরা বন্ধু নই?",
+      "tr": "amra bondhu noi?",
+      "en": "We aren't friends?"
+    },
+    {
+      "speaker": "Nadia",
+      "bn": "হ্যাঁ, হ্যাঁ। আমরা বন্ধু।",
+      "tr": "hya~, hya~. amra bondhu.",
+      "en": "Yes, yes. We're friends."
+    }
+  ],
+  "questions": [
+    {
+      "after": 1,
+      "question": "Where has Emma come from?",
+      "options": [
+        "From America",
+        "From Bangladesh",
+        "From Dhaka"
+      ],
+      "answer": 0,
+      "why": "আমেরিকা থেকে এসেছি means 'I have come from America'."
+    },
+    {
+      "after": 3,
+      "question": "Emma is a female student. Which word does she use?",
+      "options": [
+        {
+          "bn": "ছাত্রী",
+          "tr": "chhatri",
+          "en": "student (female)"
+        },
+        {
+          "bn": "ছাত্র",
+          "tr": "chhatro",
+          "en": "student (male)"
+        },
+        {
+          "bn": "শিক্ষক",
+          "tr": "shikkhok",
+          "en": "teacher"
+        }
+      ],
+      "answer": 0,
+      "why": "ছাত্রী is a female student; ছাত্র is a male student."
+    },
+    {
+      "after": 4,
+      "question": "Who is Nadia?",
+      "questionBn": {
+        "bn": "নাদিয়া কে?",
+        "tr": "nadiya ke?",
+        "en": "Who is Nadia?"
+      },
+      "options": [
+        {
+          "bn": "ডাক্তার",
+          "tr": "daktar",
+          "en": "a doctor"
+        },
+        {
+          "bn": "শিক্ষক",
+          "tr": "shikkhok",
+          "en": "a teacher"
+        },
+        {
+          "bn": "ছাত্রী",
+          "tr": "chhatri",
+          "en": "a student"
+        }
+      ],
+      "answer": 0,
+      "why": "Rafi says ও ডাক্তার: 'she is a doctor'."
+    },
+    {
+      "after": 7,
+      "question": "What does Nadia say about Rafi at first?",
+      "options": [
+        "He isn't her friend.",
+        "He is a doctor.",
+        "He is from America."
+      ],
+      "answer": 0,
+      "why": "নয় means 'is not': ও আমার বন্ধু নয় = 'he isn't my friend'. She's teasing him."
+    }
+  ]
+}

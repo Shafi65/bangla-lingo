@@ -1,0 +1,462 @@
+{
+  "unit": "family-extra",
+  "entries": [
+    {
+      "id": "abba",
+      "bn": "আব্বা",
+      "tr": "abba",
+      "en": "dad (Abba)",
+      "alt": [
+        "father"
+      ],
+      "pos": "noun",
+      "notes": "Common in many Bangladeshi Muslim families; many people also address a father-in-law this way."
+    },
+    {
+      "id": "amma",
+      "bn": "আম্মা",
+      "tr": "amma",
+      "en": "mum (Amma)",
+      "alt": [
+        "mother",
+        "mom"
+      ],
+      "pos": "noun",
+      "notes": "Common in many Bangladeshi Muslim families; many people also address a mother-in-law this way."
+    },
+    {
+      "id": "chachchu",
+      "bn": "চাচ্চু",
+      "tr": "chachchu",
+      "en": "uncle (affectionate, father's brother)",
+      "pos": "noun"
+    },
+    {
+      "id": "mamu",
+      "bn": "মামু",
+      "tr": "mamu",
+      "en": "uncle (affectionate, mother's brother)",
+      "pos": "noun"
+    },
+    {
+      "id": "khalamoni",
+      "bn": "খালামণি",
+      "tr": "khalamoni",
+      "en": "auntie (affectionate, mother's sister)",
+      "pos": "noun"
+    },
+    {
+      "id": "nanu",
+      "bn": "নানু",
+      "tr": "nanu",
+      "en": "grandpa or grandma (mother's side, affectionate)",
+      "pos": "noun"
+    },
+    {
+      "id": "dadu",
+      "bn": "দাদু",
+      "tr": "dadu",
+      "en": "grandpa (affectionate)",
+      "alt": [
+        "grandfather"
+      ],
+      "pos": "noun"
+    },
+    {
+      "id": "thakurda",
+      "bn": "ঠাকুরদা",
+      "tr": "thakurda",
+      "en": "grandfather (father's father; Hindu families, Kolkata)",
+      "pos": "noun"
+    },
+    {
+      "id": "thakuma",
+      "bn": "ঠাকুমা",
+      "tr": "thakuma",
+      "en": "grandmother (father's mother; Hindu families, Kolkata)",
+      "pos": "noun"
+    },
+    {
+      "id": "thamma",
+      "bn": "ঠাম্মা",
+      "tr": "thamma",
+      "en": "grandma (father's mother, affectionate)",
+      "pos": "noun"
+    },
+    {
+      "id": "dadamoshai",
+      "bn": "দাদামশাই",
+      "tr": "dadamoshai",
+      "en": "grandfather (mother's father; Hindu families, Kolkata)",
+      "pos": "noun"
+    },
+    {
+      "id": "didima",
+      "bn": "দিদিমা",
+      "tr": "didima",
+      "en": "grandmother (mother's mother; Hindu families, Kolkata)",
+      "pos": "noun"
+    },
+    {
+      "id": "dida",
+      "bn": "দিদা",
+      "tr": "dida",
+      "en": "grandma (mother's mother, affectionate)",
+      "pos": "noun"
+    },
+    {
+      "id": "jyatha",
+      "bn": "জ্যাঠা",
+      "tr": "jyatha",
+      "en": "uncle (father's older brother; Hindu families, Kolkata)",
+      "pos": "noun"
+    },
+    {
+      "id": "jethu",
+      "bn": "জেঠু",
+      "tr": "jethu",
+      "en": "uncle (father's older brother, affectionate)",
+      "pos": "noun"
+    },
+    {
+      "id": "jethima",
+      "bn": "জেঠিমা",
+      "tr": "jethima",
+      "en": "aunt (wife of father's older brother)",
+      "pos": "noun"
+    },
+    {
+      "id": "kaka",
+      "bn": "কাকা",
+      "tr": "kaka",
+      "en": "uncle (father's younger brother; Hindu families, Kolkata)",
+      "pos": "noun"
+    },
+    {
+      "id": "kaku",
+      "bn": "কাকু",
+      "tr": "kaku",
+      "en": "uncle (father's younger brother, affectionate)",
+      "pos": "noun"
+    },
+    {
+      "id": "kakima",
+      "bn": "কাকিমা",
+      "tr": "kakima",
+      "en": "aunt (wife of father's younger brother)",
+      "pos": "noun"
+    },
+    {
+      "id": "pishi",
+      "bn": "পিসি",
+      "tr": "pishi",
+      "en": "aunt (father's sister; Hindu families, Kolkata)",
+      "pos": "noun"
+    },
+    {
+      "id": "pishima",
+      "bn": "পিসিমা",
+      "tr": "pishima",
+      "en": "aunt (father's sister, respectful)",
+      "pos": "noun"
+    },
+    {
+      "id": "pishemoshai",
+      "bn": "পিসেমশাই",
+      "tr": "pishemoshai",
+      "en": "uncle (husband of father's sister)",
+      "pos": "noun"
+    },
+    {
+      "id": "mamima",
+      "bn": "মামিমা",
+      "tr": "mamima",
+      "en": "aunt (wife of mother's brother, respectful)",
+      "pos": "noun"
+    },
+    {
+      "id": "mashi",
+      "bn": "মাসি",
+      "tr": "mashi",
+      "en": "aunt (mother's sister; Hindu families, Kolkata)",
+      "pos": "noun"
+    },
+    {
+      "id": "mashima",
+      "bn": "মাসিমা",
+      "tr": "mashima",
+      "en": "aunt (mother's sister, respectful)",
+      "pos": "noun"
+    },
+    {
+      "id": "mesho",
+      "bn": "মেসো",
+      "tr": "mesho",
+      "en": "uncle (husband of mother's sister)",
+      "pos": "noun"
+    },
+    {
+      "id": "meshomoshai",
+      "bn": "মেসোমশাই",
+      "tr": "meshomoshai",
+      "en": "uncle (husband of mother's sister, respectful)",
+      "pos": "noun"
+    },
+    {
+      "id": "didi",
+      "bn": "দিদি",
+      "tr": "didi",
+      "en": "elder sister (Hindu families, Kolkata)",
+      "pos": "noun"
+    },
+    {
+      "id": "dada-brother",
+      "bn": "দাদা",
+      "tr": "dada",
+      "en": "elder brother (Hindu families, Kolkata)",
+      "pos": "noun",
+      "notes": "In many Bangladeshi Muslim families দাদা means your father's father instead."
+    },
+    {
+      "id": "boudi",
+      "bn": "বৌদি",
+      "tr": "boudi",
+      "en": "elder brother's wife (Hindu families, Kolkata)",
+      "pos": "noun"
+    },
+    {
+      "id": "bhabi",
+      "bn": "ভাবি",
+      "tr": "bhabi",
+      "en": "elder brother's wife; sister-in-law",
+      "pos": "noun"
+    },
+    {
+      "id": "dulabhai",
+      "bn": "দুলাভাই",
+      "tr": "dulabhai",
+      "en": "elder sister's husband",
+      "pos": "noun"
+    },
+    {
+      "id": "jamaibabu",
+      "bn": "জামাইবাবু",
+      "tr": "jamaibabu",
+      "en": "elder sister's husband (Hindu families, Kolkata)",
+      "pos": "noun"
+    },
+    {
+      "id": "jamai",
+      "bn": "জামাই",
+      "tr": "jamai",
+      "en": "son-in-law",
+      "pos": "noun",
+      "notes": "In everyday Bangladeshi speech জামাই can also mean husband."
+    },
+    {
+      "id": "boner",
+      "bn": "বোনের",
+      "tr": "boner",
+      "en": "sister's",
+      "pos": "noun"
+    },
+    {
+      "id": "bhaiyer",
+      "bn": "ভাইয়ের",
+      "tr": "bhaiyer",
+      "en": "brother's",
+      "pos": "noun"
+    },
+    {
+      "id": "bhognipoti",
+      "bn": "ভগ্নিপতি",
+      "tr": "bhognipoti",
+      "en": "sister's husband (formal)",
+      "pos": "noun"
+    },
+    {
+      "id": "shoshur",
+      "bn": "শ্বশুর",
+      "tr": "shoshur",
+      "en": "father-in-law",
+      "pos": "noun"
+    },
+    {
+      "id": "shashuri",
+      "bn": "শাশুড়ি",
+      "tr": "shashuri",
+      "en": "mother-in-law",
+      "pos": "noun"
+    },
+    {
+      "id": "bhashur",
+      "bn": "ভাসুর",
+      "tr": "bhashur",
+      "en": "husband's elder brother",
+      "pos": "noun"
+    },
+    {
+      "id": "debor",
+      "bn": "দেবর",
+      "tr": "debor",
+      "en": "husband's younger brother",
+      "pos": "noun"
+    },
+    {
+      "id": "nonod",
+      "bn": "ননদ",
+      "tr": "nonod",
+      "en": "husband's sister",
+      "pos": "noun"
+    },
+    {
+      "id": "shyalok",
+      "bn": "শ্যালক",
+      "tr": "shyalok",
+      "en": "wife's brother",
+      "pos": "noun"
+    },
+    {
+      "id": "shyalika",
+      "bn": "শ্যালিকা",
+      "tr": "shyalika",
+      "en": "wife's sister",
+      "pos": "noun"
+    },
+    {
+      "id": "shala",
+      "bn": "শালা",
+      "tr": "shala",
+      "en": "wife's brother (everyday)",
+      "pos": "noun",
+      "notes": "Also a very common swear word, so say শ্যালক when in doubt."
+    },
+    {
+      "id": "shali",
+      "bn": "শালি",
+      "tr": "shali",
+      "en": "wife's sister (everyday)",
+      "pos": "noun",
+      "notes": "Also used as an insult, so say শ্যালিকা when in doubt."
+    },
+    {
+      "id": "bouma",
+      "bn": "বউমা",
+      "tr": "bouma",
+      "en": "daughter-in-law",
+      "pos": "noun"
+    },
+    {
+      "id": "bhatija",
+      "bn": "ভাতিজা",
+      "tr": "bhatija",
+      "en": "nephew (brother's son)",
+      "pos": "noun"
+    },
+    {
+      "id": "bhatiji",
+      "bn": "ভাতিজি",
+      "tr": "bhatiji",
+      "en": "niece (brother's daughter)",
+      "pos": "noun"
+    },
+    {
+      "id": "bhaipo",
+      "bn": "ভাইপো",
+      "tr": "bhaipo",
+      "en": "nephew (brother's son; Hindu families, Kolkata)",
+      "pos": "noun"
+    },
+    {
+      "id": "bhaijhi",
+      "bn": "ভাইঝি",
+      "tr": "bhaijhi",
+      "en": "niece (brother's daughter; Hindu families, Kolkata)",
+      "pos": "noun"
+    },
+    {
+      "id": "bhagne",
+      "bn": "ভাগ্নে",
+      "tr": "bhagne",
+      "en": "nephew (sister's son)",
+      "pos": "noun"
+    },
+    {
+      "id": "bhagni",
+      "bn": "ভাগ্নি",
+      "tr": "bhagni",
+      "en": "niece (sister's daughter)",
+      "pos": "noun"
+    },
+    {
+      "id": "chachato",
+      "bn": "চাচাতো",
+      "tr": "chachato",
+      "en": "cousin through your father's brother",
+      "pos": "adj"
+    },
+    {
+      "id": "fufato",
+      "bn": "ফুফাতো",
+      "tr": "fufato",
+      "en": "cousin through your father's sister",
+      "pos": "adj"
+    },
+    {
+      "id": "mamato",
+      "bn": "মামাতো",
+      "tr": "mamato",
+      "en": "cousin through your mother's brother",
+      "pos": "adj"
+    },
+    {
+      "id": "khalato",
+      "bn": "খালাতো",
+      "tr": "khalato",
+      "en": "cousin through your mother's sister",
+      "pos": "adj"
+    },
+    {
+      "id": "jyathtuto",
+      "bn": "জ্যাঠতুতো",
+      "tr": "jyathtuto",
+      "en": "cousin through your father's older brother (Kolkata)",
+      "pos": "adj"
+    },
+    {
+      "id": "khurtuto",
+      "bn": "খুড়তুতো",
+      "tr": "khurtuto",
+      "en": "cousin through your father's younger brother (Kolkata)",
+      "pos": "adj"
+    },
+    {
+      "id": "pistuto",
+      "bn": "পিসতুতো",
+      "tr": "pistuto",
+      "en": "cousin through your father's sister (Kolkata)",
+      "pos": "adj"
+    },
+    {
+      "id": "mastuto",
+      "bn": "মাসতুতো",
+      "tr": "mastuto",
+      "en": "cousin through your mother's sister (Kolkata)",
+      "pos": "adj"
+    },
+    {
+      "id": "mejo",
+      "bn": "মেজো",
+      "tr": "mejo",
+      "en": "second-eldest (of siblings)",
+      "pos": "adj"
+    },
+    {
+      "id": "bor",
+      "bn": "বর",
+      "tr": "bor",
+      "en": "husband; bridegroom",
+      "pos": "noun"
+    }
+  ]
+}

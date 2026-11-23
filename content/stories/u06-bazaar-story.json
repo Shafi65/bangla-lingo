@@ -1,0 +1,148 @@
+{
+  "id": "u06-bazaar-story",
+  "unit": "u06-bazaar",
+  "title": {
+    "bn": "ইলিশের দাম",
+    "tr": "ilisher dam",
+    "en": "The price of hilsa"
+  },
+  "summary": "Rafi tries to bargain for hilsa at the bazaar.",
+  "status": "draft",
+  "lines": [
+    {
+      "bn": "আজ রাফি বাজারে।",
+      "tr": "aj rafi bajare.",
+      "en": "Today Rafi is at the market."
+    },
+    {
+      "speaker": "Rafi",
+      "bn": "ভাই, ইলিশের দাম কত?",
+      "tr": "bhai, ilisher dam koto?",
+      "en": "Brother, how much is the hilsa?"
+    },
+    {
+      "speaker": "Shopkeeper",
+      "bn": "এই মাছটা এক হাজার টাকা।",
+      "tr": "ei machhta ek hajar taka.",
+      "en": "This fish is one thousand taka."
+    },
+    {
+      "speaker": "Rafi",
+      "bn": "এক হাজার! এত দাম কেন?",
+      "tr": "ek hajar! eto dam keno?",
+      "en": "A thousand! Why so expensive?"
+    },
+    {
+      "speaker": "Shopkeeper",
+      "bn": "ভাই, এটা ইলিশ! সবচেয়ে ভালো মাছ।",
+      "tr": "bhai, eta ilish! shobcheye bhalo machh.",
+      "en": "Brother, this is hilsa! The best fish there is."
+    },
+    {
+      "speaker": "Rafi",
+      "bn": "একটু কম রাখেন।",
+      "tr": "ektu kom rakhen.",
+      "en": "Make it a little cheaper, please."
+    },
+    {
+      "speaker": "Shopkeeper",
+      "bn": "না, ভাই। শেষ দাম।",
+      "tr": "na, bhai. shesh dam.",
+      "en": "No, brother. That's my final price."
+    },
+    {
+      "speaker": "Rafi",
+      "bn": "ঠিক আছে। আধা কেজি দেন।",
+      "tr": "thik achhe. adha keji den.",
+      "en": "OK. Give me half a kilo."
+    },
+    {
+      "speaker": "Shopkeeper",
+      "bn": "আধা কেজি পাঁচশ টাকা। আর কিছু লাগবে?",
+      "tr": "adha keji pa~chsho taka. ar kichhu lagbe?",
+      "en": "Half a kilo is five hundred taka. Anything else?"
+    },
+    {
+      "speaker": "Rafi",
+      "bn": "এক হালি ডিম আর এক কেজি আলু।",
+      "tr": "ek hali dim ar ek keji alu.",
+      "en": "Four eggs and a kilo of potatoes."
+    },
+    {
+      "speaker": "Ammu",
+      "bn": "ইলিশ! খুব ভালো।",
+      "tr": "ilish! khub bhalo.",
+      "en": "Hilsa! Very good."
+    }
+  ],
+  "questions": [
+    {
+      "after": 2,
+      "question": "How much is the whole fish?",
+      "options": [
+        "1,000 taka",
+        "500 taka",
+        "200 taka"
+      ],
+      "answer": 0,
+      "why": "এক হাজার টাকা = one thousand taka."
+    },
+    {
+      "after": 5,
+      "question": "Which sentence means 'Make it a little cheaper, please'?",
+      "options": [
+        {
+          "bn": "একটু কম রাখেন।",
+          "tr": "ektu kom rakhen.",
+          "en": "Make it a little cheaper, please."
+        },
+        {
+          "bn": "আরও বেশি দেন।",
+          "tr": "aro beshi den.",
+          "en": "Give me more."
+        },
+        {
+          "bn": "আধা কেজি দেন।",
+          "tr": "adha keji den.",
+          "en": "Give me half a kilo."
+        }
+      ],
+      "answer": 0,
+      "why": "কম রাখেন = 'keep it lower': the classic way to bargain in a Bangladeshi bazaar."
+    },
+    {
+      "after": 8,
+      "question": "How much hilsa does Rafi buy?",
+      "options": [
+        "Half a kilo",
+        "One kilo",
+        "Two kilos"
+      ],
+      "answer": 0,
+      "why": "আধা = half; কেজি = kilo."
+    },
+    {
+      "after": 9,
+      "question": "What else does Rafi buy?",
+      "options": [
+        {
+          "bn": "ডিম আর আলু",
+          "tr": "dim ar alu",
+          "en": "eggs and potatoes"
+        },
+        {
+          "bn": "পেঁয়াজ আর টমেটো",
+          "tr": "pe~yaj ar tometo",
+          "en": "onions and tomatoes"
+        },
+        {
+          "bn": "শাড়ি আর জামা",
+          "tr": "shari ar jama",
+          "en": "a sari and a shirt"
+        }
+      ],
+      "answer": 0,
+      "why": "এক হালি ডিম = four eggs (a হালি is a set of four); এক কেজি আলু = a kilo of potatoes."
+    }
+  ]
+}

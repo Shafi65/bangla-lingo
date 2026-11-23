@@ -1,0 +1,160 @@
+{
+  "id": "u13-requests-story",
+  "unit": "u13-requests",
+  "title": {
+    "bn": "আমরা সিলেটে পৌঁছেছি",
+    "tr": "amra shilete pou~chhechhi",
+    "en": "We've reached Sylhet"
+  },
+  "summary": "A warm welcome at Mama's house, and a phone call that keeps cutting out.",
+  "status": "draft",
+  "lines": [
+    {
+      "speaker": "Mami",
+      "bn": "এসো, এসো! ভিতরে এসো।",
+      "tr": "esho, esho! bhitore esho.",
+      "en": "Come, come! Come inside."
+    },
+    {
+      "speaker": "Mami",
+      "bn": "আপনারা এদিকে বসুন।",
+      "tr": "apnara edike boshun.",
+      "en": "Please sit over here."
+    },
+    {
+      "speaker": "Mami",
+      "bn": "রাফি, পিঠা নাও।",
+      "tr": "rafi, pitha nao.",
+      "en": "Rafi, have some pitha."
+    },
+    {
+      "speaker": "Rafi",
+      "bn": "ধন্যবাদ, মামি!",
+      "tr": "dhonnobad, mami!",
+      "en": "Thank you, Mami!"
+    },
+    {
+      "speaker": "Rafi",
+      "bn": "আম্মু, আপু ফোন ধরছে না।",
+      "tr": "ammu, apu fon dhorchhe na.",
+      "en": "Mom, Apu isn't picking up the phone."
+    },
+    {
+      "speaker": "Ammu",
+      "bn": "আবার ফোন করো।",
+      "tr": "abar fon koro.",
+      "en": "Call again."
+    },
+    {
+      "speaker": "Rafi",
+      "bn": "হ্যালো, আপু? আমি রাফি বলছি।",
+      "tr": "hyalo, apu? ami rafi bolchhi.",
+      "en": "Hello, Apu? It's Rafi."
+    },
+    {
+      "speaker": "Nadia",
+      "bn": "রাফি, জোরে বলো! আমি শুনতে পাচ্ছি না।",
+      "tr": "rafi, jore bolo! ami shunte pachchhi na.",
+      "en": "Rafi, speak up! I can't hear you."
+    },
+    {
+      "speaker": "Rafi",
+      "bn": "আমরা সিলেটে পৌঁছেছি!",
+      "tr": "amra shilete pou~chhechhi!",
+      "en": "We've reached Sylhet!"
+    },
+    {
+      "speaker": "Nadia",
+      "bn": "আলহামদুলিল্লাহ! আমাকে ঠিকানা মেসেজ পাঠাও, প্লিজ।",
+      "tr": "alhamdulillah! amake thikana mesej pathao, plij.",
+      "en": "Thank God! Please message me the address."
+    },
+    {
+      "speaker": "Rafi",
+      "bn": "আচ্ছা, এখনই পাঠাব।",
+      "tr": "achchha, ekhoni pathabo.",
+      "en": "OK, I'll send it right now."
+    },
+    {
+      "speaker": "Rafi",
+      "bn": "হ্যালো? আপু? লাইন কেটে গেছে!",
+      "tr": "hyalo? apu? lain kete gechhe!",
+      "en": "Hello? Apu? The line's been cut off!"
+    }
+  ],
+  "questions": [
+    {
+      "after": 1,
+      "question": "What does Mami ask the guests to do?",
+      "options": [
+        "Sit over here",
+        "Wait outside",
+        "Close the door"
+      ],
+      "answer": 0,
+      "why": "এদিকে = this way, over here; বসুন = please sit (polite)."
+    },
+    {
+      "after": 4,
+      "question": "Which sentence means 'Apu isn't picking up the phone'?",
+      "options": [
+        {
+          "bn": "আপু ফোন ধরছে না।",
+          "tr": "apu fon dhorchhe na.",
+          "en": "Apu isn't picking up the phone."
+        },
+        {
+          "bn": "আপু ফোন করছে।",
+          "tr": "apu fon korchhe.",
+          "en": "Apu is calling."
+        },
+        {
+          "bn": "আপু খুব ব্যস্ত।",
+          "tr": "apu khub byasto.",
+          "en": "Apu is very busy."
+        }
+      ],
+      "answer": 0,
+      "why": "ধরছে = is picking up; ধরছে না = isn't picking up."
+    },
+    {
+      "after": 7,
+      "question": "Why does Nadia say জোরে বলো?",
+      "options": [
+        "She can't hear Rafi",
+        "She is angry",
+        "She is busy"
+      ],
+      "answer": 0,
+      "why": "জোরে বলো = speak loudly; শুনতে পাচ্ছি না = I can't hear."
+    },
+    {
+      "after": 9,
+      "question": "What does Nadia want?",
+      "questionBn": {
+        "bn": "নাদিয়া কী চায়?",
+        "tr": "nadiya ki chay?",
+        "en": "What does Nadia want?"
+      },
+      "options": [
+        {
+          "bn": "ঠিকানা",
+          "tr": "thikana",
+          "en": "the address"
+        },
+        {
+          "bn": "পিঠা",
+          "tr": "pitha",
+          "en": "pitha"
+        },
+        {
+          "bn": "টিকিট",
+          "tr": "tikit",
+          "en": "a ticket"
+        }
+      ],
+      "answer": 0,
+      "why": "ঠিকানা মেসেজ পাঠাও = send the address by message."
+    }
+  ]
+}

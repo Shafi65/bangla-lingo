@@ -1,0 +1,140 @@
+{
+  "id": "u03-family-story",
+  "unit": "u03-family",
+  "title": {
+    "bn": "আমাদের পরিবার",
+    "tr": "amader poribar",
+    "en": "Our family"
+  },
+  "summary": "Emma visits Rafi's home and meets his parents and Nani.",
+  "status": "draft",
+  "lines": [
+    {
+      "speaker": "Rafi",
+      "bn": "এটা আমাদের পরিবার।",
+      "tr": "eta amader poribar.",
+      "en": "This is our family."
+    },
+    {
+      "speaker": "Rafi",
+      "bn": "উনি আমার আম্মু, আর উনি আমার আব্বু।",
+      "tr": "uni amar ammu, ar uni amar abbu.",
+      "en": "She's my mom, and he's my dad."
+    },
+    {
+      "speaker": "Emma",
+      "bn": "আসসালামু আলাইকুম, আন্টি। আসসালামু আলাইকুম, আংকেল।",
+      "tr": "assalamu alaikum, anti. assalamu alaikum, angkel.",
+      "en": "Hello, auntie. Hello, uncle."
+    },
+    {
+      "speaker": "Ammu",
+      "bn": "ওয়ালাইকুম আসসালাম। তুমি কেমন আছো?",
+      "tr": "walaikum assalam. tumi kemon achho?",
+      "en": "Hello. How are you?"
+    },
+    {
+      "speaker": "Emma",
+      "bn": "ভালো আছি, আন্টি। নাদিয়া কি আপনার মেয়ে?",
+      "tr": "bhalo achhi, anti. nadiya ki apnar meye?",
+      "en": "I'm well, auntie. Is Nadia your daughter?"
+    },
+    {
+      "speaker": "Ammu",
+      "bn": "হ্যাঁ। নাদিয়া আমার মেয়ে, আর রাফি আমার ছেলে।",
+      "tr": "hya~. nadiya amar meye, ar rafi amar chhele.",
+      "en": "Yes. Nadia is my daughter, and Rafi is my son."
+    },
+    {
+      "speaker": "Rafi",
+      "bn": "নাদিয়া আমার আপু। ও আমার বন্ধু নয়, ও আমার বোন!",
+      "tr": "nadiya amar apu. o amar bondhu noy, o amar bon!",
+      "en": "Nadia is my big sister. She isn't my friend, she's my sister!",
+      "senses": {
+        "নয়": "noy-isnt"
+      }
+    },
+    {
+      "speaker": "Rafi",
+      "bn": "আর উনি আমার নানি।",
+      "tr": "ar uni amar nani.",
+      "en": "And she's my grandmother."
+    },
+    {
+      "speaker": "Nani",
+      "bn": "তুমি কি বাঙালি?",
+      "tr": "tumi ki bangali?",
+      "en": "Are you Bengali?"
+    },
+    {
+      "speaker": "Emma",
+      "bn": "না, নানি। আমি আমেরিকা থেকে এসেছি।",
+      "tr": "na, nani. ami amerika theke eshechhi.",
+      "en": "No, Nani. I've come from America."
+    },
+    {
+      "speaker": "Nani",
+      "bn": "আচ্ছা। তুমি এখন আমাদের পরিবার।",
+      "tr": "achchha. tumi ekhon amader poribar.",
+      "en": "I see. Now you're family."
+    }
+  ],
+  "questions": [
+    {
+      "after": 1,
+      "question": "Who are the two people Rafi shows Emma first?",
+      "options": [
+        "His mom and dad",
+        "His grandparents",
+        "His teachers"
+      ],
+      "answer": 0,
+      "why": "আম্মু is 'mom' and আব্বু is 'dad'. উনি is the polite 'he/she'."
+    },
+    {
+      "after": 6,
+      "question": "Rafi says Nadia is his …",
+      "options": [
+        {
+          "bn": "আপু",
+          "tr": "apu",
+          "en": "elder sister"
+        },
+        {
+          "bn": "খালা",
+          "tr": "khala",
+          "en": "aunt"
+        },
+        {
+          "bn": "নানি",
+          "tr": "nani",
+          "en": "grandmother"
+        }
+      ],
+      "answer": 0,
+      "why": "আপু means 'elder sister'. Rafi jokes that she isn't his friend, she's his sister."
+    },
+    {
+      "after": 7,
+      "question": "Nani is Rafi's …",
+      "options": [
+        "mother's mother",
+        "father's mother",
+        "father's sister"
+      ],
+      "answer": 0,
+      "why": "নানি is your mother's mother; দাদি is your father's mother."
+    },
+    {
+      "after": 10,
+      "question": "What does Nani tell Emma at the end?",
+      "options": [
+        "Now you're family.",
+        "You're Bengali.",
+        "See you again."
+      ],
+      "answer": 0,
+      "why": "আমাদের পরিবার = 'our family': Nani welcomes Emma."
+    }
+  ]
+}

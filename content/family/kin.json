@@ -1,0 +1,5033 @@
+{
+  "version": 1,
+  "defaultVariety": "bd",
+  "varieties": [
+    {
+      "id": "bd",
+      "label": "Bangladesh",
+      "description": "Words used in many Bangladeshi families, especially Muslim families."
+    },
+    {
+      "id": "wb",
+      "label": "Hindu families & Kolkata",
+      "description": "Words used in many Hindu families in Bangladesh and in West Bengal."
+    }
+  ],
+  "pronouns": [
+    {
+      "id": "apni",
+      "bn": "আপনি",
+      "tr": "apni",
+      "en": "you (respectful)",
+      "use": "Elders and anyone you show respect to."
+    },
+    {
+      "id": "tumi",
+      "bn": "তুমি",
+      "tr": "tumi",
+      "en": "you (familiar)",
+      "use": "Close family, and most relatives younger than you."
+    },
+    {
+      "id": "tui",
+      "bn": "তুই",
+      "tr": "tui",
+      "en": "you (intimate)",
+      "use": "Very close: brothers, sisters, children. Never to elders."
+    }
+  ],
+  "kinds": [
+    {
+      "id": "greet",
+      "label": "Say hello"
+    },
+    {
+      "id": "how",
+      "label": "Ask how they are"
+    },
+    {
+      "id": "miss",
+      "label": "Say you miss them"
+    },
+    {
+      "id": "festival",
+      "label": "Festival greeting"
+    }
+  ],
+  "phrases": [
+    {
+      "id": "greet-bd",
+      "kind": "greet",
+      "variety": "bd",
+      "bn": "আসসালামু আলাইকুম, {addr}।",
+      "tr": "assalamu alaikum, {addr}",
+      "en": "Assalamu alaikum, {addr}.",
+      "note": "The respectful hello to elders in many Bangladeshi families."
+    },
+    {
+      "id": "greet-wb",
+      "kind": "greet",
+      "variety": "wb",
+      "bn": "নমস্কার, {addr}।",
+      "tr": "nomoshkar, {addr}",
+      "en": "Nomoshkar, {addr}.",
+      "note": "A respectful hello; with close elders many people simply ask how they are."
+    },
+    {
+      "id": "how-apni",
+      "kind": "how",
+      "pronouns": [
+        "apni"
+      ],
+      "bn": "{addr}, আপনি কেমন আছেন?",
+      "tr": "{addr}, apni kemon achhen?",
+      "en": "{addr}, how are you?"
+    },
+    {
+      "id": "how-tumi",
+      "kind": "how",
+      "pronouns": [
+        "tumi"
+      ],
+      "bn": "{addr}, তুমি কেমন আছো?",
+      "tr": "{addr}, tumi kemon achho?",
+      "en": "{addr}, how are you?"
+    },
+    {
+      "id": "how-tui",
+      "kind": "how",
+      "pronouns": [
+        "tui"
+      ],
+      "bn": "{addr}, তুই কেমন আছিস?",
+      "tr": "{addr}, tui kemon achhish?",
+      "en": "{addr}, how are you?"
+    },
+    {
+      "id": "miss-apni",
+      "kind": "miss",
+      "pronouns": [
+        "apni"
+      ],
+      "bn": "{addr}, আপনার কথা খুব মনে পড়ে।",
+      "tr": "{addr}, apnar kotha khub mone pore",
+      "en": "{addr}, I miss you a lot.",
+      "note": "Literally \"I think of you a lot\": the usual way to say I miss you."
+    },
+    {
+      "id": "miss-tumi",
+      "kind": "miss",
+      "pronouns": [
+        "tumi"
+      ],
+      "bn": "{addr}, তোমার কথা খুব মনে পড়ে।",
+      "tr": "{addr}, tomar kotha khub mone pore",
+      "en": "{addr}, I miss you a lot.",
+      "note": "Literally \"I think of you a lot\": the usual way to say I miss you."
+    },
+    {
+      "id": "miss-tui",
+      "kind": "miss",
+      "pronouns": [
+        "tui"
+      ],
+      "bn": "{addr}, তোর কথা খুব মনে পড়ে।",
+      "tr": "{addr}, tor kotha khub mone pore",
+      "en": "{addr}, I miss you a lot.",
+      "note": "Literally \"I think of you a lot\": the usual way to say I miss you."
+    },
+    {
+      "id": "fest-bd",
+      "kind": "festival",
+      "variety": "bd",
+      "bn": "ঈদ মোবারক, {addr}!",
+      "tr": "id mubarak, {addr}",
+      "en": "Eid Mubarak, {addr}!",
+      "note": "At Eid."
+    },
+    {
+      "id": "fest-wb",
+      "kind": "festival",
+      "variety": "wb",
+      "bn": "শুভ বিজয়া, {addr}!",
+      "tr": "shubho bijoya, {addr}",
+      "en": "Shubho Bijoya, {addr}!",
+      "note": "After Durga Puja, on Bijoya."
+    },
+    {
+      "id": "intro-apni",
+      "kind": "intro",
+      "pronouns": [
+        "apni"
+      ],
+      "bn": "উনি আমার {ref}।",
+      "tr": "uni amar {ref}",
+      "en": "This is my {label}."
+    },
+    {
+      "id": "intro-tumi",
+      "kind": "intro",
+      "pronouns": [
+        "tumi",
+        "tui"
+      ],
+      "bn": "ও আমার {ref}।",
+      "tr": "o amar {ref}",
+      "en": "This is my {label}."
+    }
+  ],
+  "groups": [
+    {
+      "id": "parents",
+      "title": "Parents",
+      "hint": "Your mother and father",
+      "asks": [
+        {
+          "key": "who",
+          "q": "Who are you adding?",
+          "options": [
+            {
+              "v": "father",
+              "label": "Father"
+            },
+            {
+              "v": "mother",
+              "label": "Mother"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "grandparents",
+      "title": "Grandparents",
+      "hint": "On Dad's side or Mum's side",
+      "asks": [
+        {
+          "key": "side",
+          "q": "Whose parents?",
+          "options": [
+            {
+              "v": "father",
+              "label": "Dad's parents"
+            },
+            {
+              "v": "mother",
+              "label": "Mum's parents"
+            }
+          ]
+        },
+        {
+          "key": "gender",
+          "q": "Grandfather or grandmother?",
+          "options": [
+            {
+              "v": "m",
+              "label": "Grandfather"
+            },
+            {
+              "v": "f",
+              "label": "Grandmother"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fathers-siblings",
+      "title": "Dad's brothers and sisters",
+      "hint": "Aunts and uncles on Dad's side",
+      "asks": [
+        {
+          "key": "gender",
+          "q": "Is this Dad's brother or sister?",
+          "options": [
+            {
+              "v": "m",
+              "label": "Brother"
+            },
+            {
+              "v": "f",
+              "label": "Sister"
+            }
+          ]
+        },
+        {
+          "key": "age",
+          "q": "Older or younger than Dad?",
+          "options": [
+            {
+              "v": "elder",
+              "label": "Older than Dad"
+            },
+            {
+              "v": "younger",
+              "label": "Younger than Dad"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mothers-siblings",
+      "title": "Mum's brothers and sisters",
+      "hint": "Aunts and uncles on Mum's side",
+      "asks": [
+        {
+          "key": "gender",
+          "q": "Is this Mum's brother or sister?",
+          "options": [
+            {
+              "v": "m",
+              "label": "Brother"
+            },
+            {
+              "v": "f",
+              "label": "Sister"
+            }
+          ]
+        },
+        {
+          "key": "age",
+          "q": "Older or younger than Mum?",
+          "options": [
+            {
+              "v": "elder",
+              "label": "Older than Mum"
+            },
+            {
+              "v": "younger",
+              "label": "Younger than Mum"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aunt-uncle-spouses",
+      "title": "Aunts and uncles by marriage",
+      "hint": "The husband or wife of an aunt or uncle",
+      "asks": [
+        {
+          "key": "via",
+          "q": "Whose husband or wife?",
+          "options": [
+            {
+              "v": "father-elder-brother",
+              "label": "Dad's older brother's wife"
+            },
+            {
+              "v": "father-younger-brother",
+              "label": "Dad's younger brother's wife"
+            },
+            {
+              "v": "father-elder-sister",
+              "label": "Dad's older sister's husband"
+            },
+            {
+              "v": "father-younger-sister",
+              "label": "Dad's younger sister's husband"
+            },
+            {
+              "v": "mother-elder-brother",
+              "label": "Mum's older brother's wife"
+            },
+            {
+              "v": "mother-younger-brother",
+              "label": "Mum's younger brother's wife"
+            },
+            {
+              "v": "mother-elder-sister",
+              "label": "Mum's older sister's husband"
+            },
+            {
+              "v": "mother-younger-sister",
+              "label": "Mum's younger sister's husband"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "siblings",
+      "title": "Brothers and sisters",
+      "hint": "Older or younger than you",
+      "asks": [
+        {
+          "key": "gender",
+          "q": "Brother or sister?",
+          "options": [
+            {
+              "v": "m",
+              "label": "Brother"
+            },
+            {
+              "v": "f",
+              "label": "Sister"
+            }
+          ]
+        },
+        {
+          "key": "age",
+          "q": "Older or younger than you?",
+          "options": [
+            {
+              "v": "elder",
+              "label": "Older than me"
+            },
+            {
+              "v": "younger",
+              "label": "Younger than me"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "siblings-spouses",
+      "title": "Brothers' and sisters' husbands and wives",
+      "hint": "Your brothers- and sisters-in-law",
+      "asks": [
+        {
+          "key": "who",
+          "q": "Who are you adding?",
+          "options": [
+            {
+              "v": "elder-brother-wife",
+              "label": "My older brother's wife"
+            },
+            {
+              "v": "younger-brother-wife",
+              "label": "My younger brother's wife"
+            },
+            {
+              "v": "elder-sister-husband",
+              "label": "My older sister's husband"
+            },
+            {
+              "v": "younger-sister-husband",
+              "label": "My younger sister's husband"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spouse",
+      "title": "Husband or wife",
+      "hint": "Your partner",
+      "asks": [
+        {
+          "key": "who",
+          "q": "Who are you adding?",
+          "options": [
+            {
+              "v": "husband",
+              "label": "My husband"
+            },
+            {
+              "v": "wife",
+              "label": "My wife"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spouse-family",
+      "title": "My spouse's family",
+      "hint": "Parents-in-law, brothers- and sisters-in-law",
+      "asks": [
+        {
+          "key": "whose",
+          "q": "Whose family?",
+          "options": [
+            {
+              "v": "husband",
+              "label": "My husband's family"
+            },
+            {
+              "v": "wife",
+              "label": "My wife's family"
+            }
+          ]
+        },
+        {
+          "key": "who",
+          "q": "Who are you adding?",
+          "options": [
+            {
+              "v": "father",
+              "label": "Their father"
+            },
+            {
+              "v": "mother",
+              "label": "Their mother"
+            },
+            {
+              "v": "elder-brother",
+              "label": "Their older brother"
+            },
+            {
+              "v": "younger-brother",
+              "label": "Their younger brother"
+            },
+            {
+              "v": "elder-sister",
+              "label": "Their older sister"
+            },
+            {
+              "v": "younger-sister",
+              "label": "Their younger sister"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "children",
+      "title": "Children",
+      "hint": "Sons, daughters and their spouses",
+      "asks": [
+        {
+          "key": "who",
+          "q": "Who are you adding?",
+          "options": [
+            {
+              "v": "son",
+              "label": "My son"
+            },
+            {
+              "v": "daughter",
+              "label": "My daughter"
+            },
+            {
+              "v": "son-wife",
+              "label": "My son's wife"
+            },
+            {
+              "v": "daughter-husband",
+              "label": "My daughter's husband"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nieces-nephews",
+      "title": "Nieces and nephews",
+      "hint": "Your brothers' and sisters' children",
+      "asks": [
+        {
+          "key": "via",
+          "q": "Whose child?",
+          "options": [
+            {
+              "v": "brother",
+              "label": "My brother's child"
+            },
+            {
+              "v": "sister",
+              "label": "My sister's child"
+            }
+          ]
+        },
+        {
+          "key": "gender",
+          "q": "Nephew or niece?",
+          "options": [
+            {
+              "v": "m",
+              "label": "Nephew (boy)"
+            },
+            {
+              "v": "f",
+              "label": "Niece (girl)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cousins",
+      "title": "Cousins",
+      "hint": "Your aunts' and uncles' children",
+      "asks": [
+        {
+          "key": "via",
+          "q": "Whose child?",
+          "options": [
+            {
+              "v": "fbe",
+              "label": "Dad's older brother's child"
+            },
+            {
+              "v": "fby",
+              "label": "Dad's younger brother's child"
+            },
+            {
+              "v": "fs",
+              "label": "Dad's sister's child"
+            },
+            {
+              "v": "mb",
+              "label": "Mum's brother's child"
+            },
+            {
+              "v": "ms",
+              "label": "Mum's sister's child"
+            }
+          ]
+        },
+        {
+          "key": "gender",
+          "q": "Boy or girl?",
+          "options": [
+            {
+              "v": "m",
+              "label": "Boy"
+            },
+            {
+              "v": "f",
+              "label": "Girl"
+            }
+          ]
+        },
+        {
+          "key": "age",
+          "q": "Older or younger than you?",
+          "options": [
+            {
+              "v": "elder",
+              "label": "Older than me"
+            },
+            {
+              "v": "younger",
+              "label": "Younger than me"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "father",
+      "group": "parents",
+      "gen": 1,
+      "gender": "m",
+      "pick": {
+        "who": "father"
+      },
+      "label": "father",
+      "short": "Dad",
+      "explain": "Children call their father by a word for dad, never by his name.",
+      "pronoun": {
+        "default": "tumi",
+        "also": [
+          "apni"
+        ],
+        "note": "Many Bangladeshi families use আপনি with their father (sometimes with both parents); many others use তুমি. Follow your family."
+      },
+      "phrases": [
+        "greet",
+        "how",
+        "miss",
+        "festival"
+      ],
+      "terms": {
+        "bd": {
+          "ref": {
+            "bn": "বাবা",
+            "tr": "baba",
+            "en": "father"
+          },
+          "addr": [
+            {
+              "bn": "আব্বু",
+              "tr": "abbu",
+              "en": "dad"
+            },
+            {
+              "bn": "আব্বা",
+              "tr": "abba",
+              "en": "dad"
+            },
+            {
+              "bn": "বাবা",
+              "tr": "baba",
+              "en": "dad"
+            }
+          ],
+          "note": "আব্বু and আব্বা are very common in Bangladesh; বাবা is understood everywhere."
+        },
+        "wb": {
+          "ref": {
+            "bn": "বাবা",
+            "tr": "baba",
+            "en": "father"
+          },
+          "addr": [
+            {
+              "bn": "বাবা",
+              "tr": "baba",
+              "en": "dad"
+            }
+          ]
+        }
+      },
+      "actions": [
+        {
+          "label": "Add Dad's parents",
+          "group": "grandparents",
+          "preset": {
+            "side": "father"
+          }
+        },
+        {
+          "label": "Add Dad's brother or sister",
+          "group": "fathers-siblings"
+        }
+      ]
+    },
+    {
+      "id": "mother",
+      "group": "parents",
+      "gen": 1,
+      "gender": "f",
+      "pick": {
+        "who": "mother"
+      },
+      "label": "mother",
+      "short": "Mum",
+      "explain": "Children call their mother by a word for mum, never by her name.",
+      "pronoun": {
+        "default": "tumi",
+        "also": [
+          "apni"
+        ],
+        "note": "Most families use তুমি with their mother; some use আপনি with both parents."
+      },
+      "phrases": [
+        "greet",
+        "how",
+        "miss",
+        "festival"
+      ],
+      "terms": {
+        "bd": {
+          "ref": {
+            "bn": "মা",
+            "tr": "ma",
+            "en": "mother"
+          },
+          "addr": [
+            {
+              "bn": "আম্মু",
+              "tr": "ammu",
+              "en": "mum"
+            },
+            {
+              "bn": "আম্মা",
+              "tr": "amma",
+              "en": "mum"
+            },
+            {
+              "bn": "মা",
+              "tr": "ma",
+              "en": "mum"
+            }
+          ],
+          "note": "আম্মু and আম্মা are very common in Bangladesh; মা is understood everywhere."
+        },
+        "wb": {
+          "ref": {
+            "bn": "মা",
+            "tr": "ma",
+            "en": "mother"
+          },
+          "addr": [
+            {
+              "bn": "মা",
+              "tr": "ma",
+              "en": "mum"
+            }
+          ]
+        }
+      },
+      "actions": [
+        {
+          "label": "Add Mum's parents",
+          "group": "grandparents",
+          "preset": {
+            "side": "mother"
+          }
+        },
+        {
+          "label": "Add Mum's brother or sister",
+          "group": "mothers-siblings"
+        }
+      ]
+    },
+    {
+      "id": "fathers-father",
+      "group": "grandparents",
+      "gen": 2,
+      "gender": "m",
+      "pick": {
+        "side": "father",
+        "gender": "m"
+      },
+      "label": "father's father",
+      "short": "Dad's father",
+      "explain": "Bengali has different words for the grandparents on your father's side and on your mother's side.",
+      "pronoun": {
+        "default": "tumi",
+        "also": [
+          "apni"
+        ],
+        "note": "Many grandchildren use তুমি with grandparents; আপনি is never wrong."
+      },
+      "phrases": [
+        "greet",
+        "how",
+        "miss",
+        "festival"
+      ],
+      "terms": {
+        "bd": {
+          "ref": {
+            "bn": "দাদা",
+            "tr": "dada",
+            "en": "grandfather"
+          },
+          "addr": [
+            {
+              "bn": "দাদা",
+              "tr": "dada",
+              "en": "grandpa"
+            },
+            {
+              "bn": "দাদু",
+              "tr": "dadu",
+              "en": "grandpa"
+            }
+          ],
+          "note": "In these families দাদা means your father's father."
+        },
+        "wb": {
+          "ref": {
+            "bn": "ঠাকুরদা",
+            "tr": "thakurda",
+            "en": "grandfather"
+          },
+          "addr": [
+            {
+              "bn": "দাদু",
+              "tr": "dadu",
+              "en": "grandpa"
+            }
+          ],
+          "note": "In these families দাদা means elder brother, so a grandfather is দাদু."
+        }
+      }
+    },
+    {
+      "id": "fathers-mother",
+      "group": "grandparents",
+      "gen": 2,
+      "gender": "f",
+      "pick": {
+        "side": "father",
+        "gender": "f"
+      },
+      "label": "father's mother",
+      "short": "Dad's mother",
+      "explain": "Bengali has different words for the grandparents on your father's side and on your mother's side.",
+      "pronoun": {
+        "default": "tumi",
+        "also": [
+          "apni"
+        ],
+        "note": "Many grandchildren use তুমি with grandparents; আপনি is never wrong."
+      },
+      "phrases": [
+        "greet",
+        "how",
+        "miss",
+        "festival"
+      ],
+      "terms": {
+        "bd": {
+          "ref": {
+            "bn": "দাদি",
+            "tr": "dadi",
+            "en": "grandmother"
+          },
+          "addr": [
+            {
+              "bn": "দাদি",
+              "tr": "dadi",
+              "en": "grandma"
+            }
+          ]
+        },
+        "wb": {
+          "ref": {
+            "bn": "ঠাকুমা",
+            "tr": "thakuma",
+            "en": "grandmother"
+          },
+          "addr": [
+            {
+              "bn": "ঠাকুমা",
+              "tr": "thakuma",
+              "en": "grandma"
+            },
+            {
+              "bn": "ঠাম্মা",
+              "tr": "thamma",
+              "en": "grandma"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "mothers-father",
+      "group": "grandparents",
+      "gen": 2,
+      "gender": "m",
+      "pick": {
+        "side": "mother",
+        "gender": "m"
+      },
+      "label": "mother's father",
+      "short": "Mum's father",
+      "explain": "Your mother's parents have their own words, different from your father's parents.",
+      "pronoun": {
+        "default": "tumi",
+        "also": [
+          "apni"
+        ],
+        "note": "Many grandchildren use তুমি with grandparents; আপনি is never wrong."
+      },
+      "phrases": [
+        "greet",
+        "how",
+        "miss",
+        "festival"
+      ],
+      "terms": {
+        "bd": {
+          "ref": {
+            "bn": "নানা",
+            "tr": "nana",
+            "en": "grandfather"
+          },
+          "addr": [
+            {
+              "bn": "নানা",
+              "tr": "nana",
+              "en": "grandpa"
+            },
+            {
+              "bn": "নানু",
+              "tr": "nanu",
+              "en": "grandpa"
+            }
+          ]
+        },
+        "wb": {
+          "ref": {
+            "bn": "দাদামশাই",
+            "tr": "dadamoshai",
+            "en": "grandfather"
+          },
+          "addr": [
+            {
+              "bn": "দাদু",
+              "tr": "dadu",
+              "en": "grandpa"
+            }
+          ],
+          "note": "Many families call both grandfathers দাদু."
+        }
+      }
+    },
+    {
+      "id": "mothers-mother",
+      "group": "grandparents",
+      "gen": 2,
+      "gender": "f",
+      "pick": {
+        "side": "mother",
+        "gender": "f"
+      },
+      "label": "mother's mother",
+      "short": "Mum's mother",
+      "explain": "Your mother's parents have their own words, different from your father's parents.",
+      "pronoun": {
+        "default": "tumi",
+        "also": [
+          "apni"
+        ],
+        "note": "Many grandchildren use তুমি with grandparents; আপনি is never wrong."
+      },
+      "phrases": [
+        "greet",
+        "how",
+        "miss",
+        "festival"
+      ],
+      "terms": {
+        "bd": {
+          "ref": {
+            "bn": "নানি",
+            "tr": "nani",
+            "en": "grandmother"
+          },
+          "addr": [
+            {
+              "bn": "নানি",
+              "tr": "nani",
+              "en": "grandma"
+            },
+            {
+              "bn": "নানু",
+              "tr": "nanu",
+              "en": "grandma"
+            }
+          ],
+          "note": "নানু is used for both grandparents on your mother's side."
+        },
+        "wb": {
+          "ref": {
+            "bn": "দিদিমা",
+            "tr": "didima",
+            "en": "grandmother"
+          },
+          "addr": [
+            {
+              "bn": "দিদা",
+              "tr": "dida",
+              "en": "grandma"
+            },
+            {
+              "bn": "দিদিমা",
+              "tr": "didima",
+              "en": "grandma"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "father-elder-brother",
+      "group": "fathers-siblings",
+      "gen": 1,
+      "gender": "m",
+      "pick": {
+        "gender": "m",
+        "age": "elder"
+      },
+      "label": "father's older brother",
+      "short": "Dad's older brother",
+      "explain": "Aunts and uncles are named by the parent they come from, so your father's brother has a word of their own.",
+      "pronoun": {
+        "default": "apni",
+        "also": [
+          "tumi"
+        ],
+        "note": "আপনি is the safe choice; many families use তুমি with aunts and uncles they grew up with."
+      },
+      "phrases": [
+        "greet",
+        "how",
+        "miss",
+        "festival"
+      ],
+      "terms": {
+        "bd": {
+          "ref": {
+            "bn": "বড় চাচা",
+            "tr": "boro chacha",
+            "en": "uncle"
+          },
+          "addr": [
+            {
+              "bn": "চাচা",
+              "tr": "chacha",
+              "en": "uncle"
+            },
+            {
+              "bn": "বড় আব্বু",
+              "tr": "boro abbu",
+              "en": "uncle"
+            },
+            {
+              "bn": "চাচ্চু",
+              "tr": "chachchu",
+              "en": "uncle"
+            }
+          ],
+          "note": "With several uncles, the eldest is বড় চাচা, the second মেজো চাচা and the youngest ছোট চাচা."
+        },
+        "wb": {
+          "ref": {
+            "bn": "জ্যাঠা",
+            "tr": "jyatha",
+            "en": "uncle"
+          },
+          "addr": [
+            {
+              "bn": "জেঠু",
+              "tr": "jethu",
+              "en": "uncle"
+            },
+            {
+              "bn": "জ্যাঠা",
+              "tr": "jyatha",
+              "en": "uncle"
+            }
+          ],
+          "note": "Your father's older brother is জ্যাঠা and his younger brother is কাকা: two different words.",
+          "pronoun": {
+            "default": "tumi",
+            "also": [
+              "apni"
+            ],
+            "note": "In many Kolkata families children use তুমি with aunts and uncles."
+          }
+        }
+      },
+      "actions": [
+        {
+          "label": "Add his wife",
+          "group": "aunt-uncle-spouses",
+          "preset": {
+            "via": "father-elder-brother"
+          }
+        },
+        {
+          "label": "Add his child (your cousin)",
+          "group": "cousins",
+          "preset": {
+            "via": "fbe"
+          }
+        }
+      ]
+    },
+    {
+      "id": "father-elder-brother-wife",
+      "group": "aunt-uncle-spouses",
+      "gen": 1,
+      "gender": "f",
+      "pick": {
+        "via": "father-elder-brother"
+      },
+      "label": "father's older brother's wife",
+      "short": "Dad's older brother's wife",
+      "explain": "An aunt or uncle by marriage takes a word from the same side of the family as your father's brother.",
+      "pronoun": {
+        "default": "apni",
+        "also": [
+          "tumi"
+        ],
+        "note": "আপনি is the safe choice with an aunt or uncle by marriage."
+      },
+      "phrases": [
+        "greet",
+        "how",
+        "miss",
+        "festival"
+      ],
+      "terms": {
+        "bd": {
+          "ref": {
+            "bn": "বড় চাচি",
+            "tr": "boro chachi",
+            "en": "aunt"
+          },
+          "addr": [
+            {
+              "bn": "চাচি",
+              "tr": "chachi",
+              "en": "aunt"
+            },
+            {
+              "bn": "বড় আম্মু",
+              "tr": "boro ammu",
+              "en": "aunt"
+            }
+          ],
+          "note": "The wife of a চাচা is a চাচি."
+        },
+        "wb": {
+          "ref": {
+            "bn": "জেঠিমা",
+            "tr": "jethima",
+            "en": "aunt"
+          },
+          "addr": [
+            {
+              "bn": "জেঠিমা",
+              "tr": "jethima",
+              "en": "aunt"
+            }
+          ],
+          "pronoun": {
+            "default": "tumi",
+            "also": [
+              "apni"
+            ],
+            "note": "In many Kolkata families children use তুমি with aunts and uncles."
+          }
+        }
+      },
+      "actions": [
+        {
+          "label": "Add her child (your cousin)",
+          "group": "cousins",
+          "preset": {
+            "via": "fbe"
+          }
+        }
+      ]
+    },
+    {
+      "id": "father-younger-brother",
+      "group": "fathers-siblings",
+      "gen": 1,
+      "gender": "m",
+      "pick": {
+        "gender": "m",
+        "age": "younger"
+      },
+      "label": "father's younger brother",
+      "short": "Dad's younger brother",
+      "explain": "Aunts and uncles are named by the parent they come from, so your father's brother has a word of their own.",
+      "pronoun": {
+        "default": "apni",
+        "also": [
+          "tumi"
+        ],
+        "note": "আপনি is the safe choice; many families use তুমি with aunts and uncles they grew up with."
+      },
+      "phrases": [
+        "greet",
+        "how",
+        "miss",
+        "festival"
+      ],
+      "terms": {
+        "bd": {
+          "ref": {
+            "bn": "ছোট চাচা",
+            "tr": "chhoto chacha",
+            "en": "uncle"
+          },
+          "addr": [
+            {
+              "bn": "চাচ্চু",
+              "tr": "chachchu",
+              "en": "uncle"
+            },
+            {
+              "bn": "চাচা",
+              "tr": "chacha",
+              "en": "uncle"
+            }
+          ],
+          "note": "With several uncles, the eldest is বড় চাচা, the second মেজো চাচা and the youngest ছোট চাচা."
+        },
+        "wb": {
+          "ref": {
+            "bn": "কাকা",
+            "tr": "kaka",
+            "en": "uncle"
+          },
+          "addr": [
+            {
+              "bn": "কাকু",
+              "tr": "kaku",
+              "en": "uncle"
+            },
+            {
+              "bn": "কাকা",
+              "tr": "kaka",
+              "en": "uncle"
+            }
+          ],
+          "note": "Your father's older brother is জ্যাঠা and his younger brother is কাকা: two different words.",
+          "pronoun": {
+            "default": "tumi",
+            "also": [
+              "apni"
+            ],
+            "note": "In many Kolkata families children use তুমি with aunts and uncles."
+          }
+        }
+      },
+      "actions": [
+        {
+          "label": "Add his wife",
+          "group": "aunt-uncle-spouses",
+          "preset": {
+            "via": "father-younger-brother"
+          }
+        },
+        {
+          "label": "Add his child (your cousin)",
+          "group": "cousins",
+          "preset": {
+            "via": "fby"
+          }
+        }
+      ]
+    },
+    {
+      "id": "father-younger-brother-wife",
+      "group": "aunt-uncle-spouses",
+      "gen": 1,
+      "gender": "f",
+      "pick": {
+        "via": "father-younger-brother"
+      },
+      "label": "father's younger brother's wife",
+      "short": "Dad's younger brother's wife",
+      "explain": "An aunt or uncle by marriage takes a word from the same side of the family as your father's brother.",
+      "pronoun": {
+        "default": "apni",
+        "also": [
+          "tumi"
+        ],
+        "note": "আপনি is the safe choice with an aunt or uncle by marriage."
+      },
+      "phrases": [
+        "greet",
+        "how",
+        "miss",
+        "festival"
+      ],
+      "terms": {
+        "bd": {
+          "ref": {
+            "bn": "ছোট চাচি",
+            "tr": "chhoto chachi",
+            "en": "aunt"
+          },
+          "addr": [
+            {
+              "bn": "চাচি",
+              "tr": "chachi",
+              "en": "aunt"
+            }
+          ],
+          "note": "The wife of a চাচা is a চাচি."
+        },
+        "wb": {
+          "ref": {
+            "bn": "কাকিমা",
+            "tr": "kakima",
+            "en": "aunt"
+          },
+          "addr": [
+            {
+              "bn": "কাকিমা",
+              "tr": "kakima",
+              "en": "aunt"
+            }
+          ],
+          "pronoun": {
+            "default": "tumi",
+            "also": [
+              "apni"
+            ],
+            "note": "In many Kolkata families children use তুমি with aunts and uncles."
+          }
+        }
+      },
+      "actions": [
+        {
+          "label": "Add her child (your cousin)",
+          "group": "cousins",
+          "preset": {
+            "via": "fby"
+          }
+        }
+      ]
+    },
+    {
+      "id": "father-elder-sister",
+      "group": "fathers-siblings",
+      "gen": 1,
+      "gender": "f",
+      "pick": {
+        "gender": "f",
+        "age": "elder"
+      },
+      "label": "father's older sister",
+      "short": "Dad's older sister",
+      "explain": "Aunts and uncles are named by the parent they come from, so your father's sister has a word of their own.",
+      "pronoun": {
+        "default": "apni",
+        "also": [
+          "tumi"
+        ],
+        "note": "আপনি is the safe choice; many families use তুমি with aunts and uncles they grew up with."
+      },
+      "phrases": [
+        "greet",
+        "how",
+        "miss",
+        "festival"
+      ],
+      "terms": {
+        "bd": {
+          "ref": {
+            "bn": "বড় ফুফু",
+            "tr": "boro fufu",
+            "en": "aunt"
+          },
+          "addr": [
+            {
+              "bn": "ফুফু",
+              "tr": "fufu",
+              "en": "aunt"
+            }
+          ],
+          "note": "ফুফু is your father's sister; your mother's sister is খালা."
+        },
+        "wb": {
+          "ref": {
+            "bn": "বড় পিসি",
+            "tr": "boro pishi",
+            "en": "aunt"
+          },
+          "addr": [
+            {
+              "bn": "পিসি",
+              "tr": "pishi",
+              "en": "aunt"
+            },
+            {
+              "bn": "পিসিমা",
+              "tr": "pishima",
+              "en": "aunt"
+            }
+          ],
+          "note": "পিসি is your father's sister; your mother's sister is মাসি.",
+          "pronoun": {
+            "default": "tumi",
+            "also": [
+              "apni"
+            ],
+            "note": "In many Kolkata families children use তুমি with aunts and uncles."
+          }
+        }
+      },
+      "actions": [
+        {
+          "label": "Add her husband",
+          "group": "aunt-uncle-spouses",
+          "preset": {
+            "via": "father-elder-sister"
+          }
+        },
+        {
+          "label": "Add her child (your cousin)",
+          "group": "cousins",
+          "preset": {
+            "via": "fs"
+          }
+        }
+      ]
+    },
+    {
+      "id": "father-elder-sister-husband",
+      "group": "aunt-uncle-spouses",
+      "gen": 1,
+      "gender": "m",
+      "pick": {
+        "via": "father-elder-sister"
+      },
+      "label": "father's older sister's husband",
+      "short": "Dad's older sister's husband",
+      "explain": "An aunt or uncle by marriage takes a word from the same side of the family as your father's sister.",
+      "pronoun": {
+        "default": "apni",
+        "also": [
+          "tumi"
+        ],
+        "note": "আপনি is the safe choice with an aunt or uncle by marriage."
+      },
+      "phrases": [
+        "greet",
+        "how",
+        "miss",
+        "festival"
+      ],
+      "terms": {
+        "bd": {
+          "ref": {
+            "bn": "বড় ফুফা",
+            "tr": "boro fufa",
+            "en": "uncle"
+          },
+          "addr": [
+            {
+              "bn": "ফুফা",
+              "tr": "fufa",
+              "en": "uncle"
+            }
+          ],
+          "note": "The husband of a ফুফু is a ফুফা."
+        },
+        "wb": {
+          "ref": {
+            "bn": "পিসেমশাই",
+            "tr": "pishemoshai",
+            "en": "uncle"
+          },
+          "addr": [
+            {
+              "bn": "পিসেমশাই",
+              "tr": "pishemoshai",
+              "en": "uncle"
+            }
+          ],
+          "pronoun": {
+            "default": "tumi",
+            "also": [
+              "apni"
+            ],
+            "note": "In many Kolkata families children use তুমি with aunts and uncles."
+          }
+        }
+      },
+      "actions": [
+        {
+          "label": "Add his child (your cousin)",
+          "group": "cousins",
+          "preset": {
+            "via": "fs"
+          }
+        }
+      ]
+    },
+    {
+      "id": "father-younger-sister",
+      "group": "fathers-siblings",
+      "gen": 1,
+      "gender": "f",
+      "pick": {
+        "gender": "f",
+        "age": "younger"
+      },
+      "label": "father's younger sister",
+      "short": "Dad's younger sister",
+      "explain": "Aunts and uncles are named by the parent they come from, so your father's sister has a word of their own.",
+      "pronoun": {
+        "default": "apni",
+        "also": [
+          "tumi"
+        ],
+        "note": "আপনি is the safe choice; many families use তুমি with aunts and uncles they grew up with."
+      },
+      "phrases": [
+        "greet",
+        "how",
+        "miss",
+        "festival"
+      ],
+      "terms": {
+        "bd": {
+          "ref": {
+            "bn": "ছোট ফুফু",
+            "tr": "chhoto fufu",
+            "en": "aunt"
+          },
+          "addr": [
+            {
+              "bn": "ফুফু",
+              "tr": "fufu",
+              "en": "aunt"
+            }
+          ],
+          "note": "ফুফু is your father's sister; your mother's sister is খালা."
+        },
+        "wb": {
+          "ref": {
+            "bn": "ছোট পিসি",
+            "tr": "chhoto pishi",
+            "en": "aunt"
+          },
+          "addr": [
+            {
+              "bn": "পিসি",
+              "tr": "pishi",
+              "en": "aunt"
+            },
+            {
+              "bn": "পিসিমা",
+              "tr": "pishima",
+              "en": "aunt"
+            }
+          ],
+          "note": "পিসি is your father's sister; your mother's sister is মাসি.",
+          "pronoun": {
+            "default": "tumi",
+            "also": [
+              "apni"
+            ],
+            "note": "In many Kolkata families children use তুমি with aunts and uncles."
+          }
+        }
+      },
+      "actions": [
+        {
+          "label": "Add her husband",
+          "group": "aunt-uncle-spouses",
+          "preset": {
+            "via": "father-younger-sister"
+          }
+        },
+        {
+          "label": "Add her child (your cousin)",
+          "group": "cousins",
+          "preset": {
+            "via": "fs"
+          }
+        }
+      ]
+    },
+    {
+      "id": "father-younger-sister-husband",
+      "group": "aunt-uncle-spouses",
+      "gen": 1,
+      "gender": "m",
+      "pick": {
+        "via": "father-younger-sister"
+      },
+      "label": "father's younger sister's husband",
+      "short": "Dad's younger sister's husband",
+      "explain": "An aunt or uncle by marriage takes a word from the same side of the family as your father's sister.",
+      "pronoun": {
+        "default": "apni",
+        "also": [
+          "tumi"
+        ],
+        "note": "আপনি is the safe choice with an aunt or uncle by marriage."
+      },
+      "phrases": [
+        "greet",
+        "how",
+        "miss",
+        "festival"
+      ],
+      "terms": {
+        "bd": {
+          "ref": {
+            "bn": "ছোট ফুফা",
+            "tr": "chhoto fufa",
+            "en": "uncle"
+          },
+          "addr": [
+            {
+              "bn": "ফুফা",
+              "tr": "fufa",
+              "en": "uncle"
+            }
+          ],
+          "note": "The husband of a ফুফু is a ফুফা."
+        },
+        "wb": {
+          "ref": {
+            "bn": "পিসেমশাই",
+            "tr": "pishemoshai",
+            "en": "uncle"
+          },
+          "addr": [
+            {
+              "bn": "পিসেমশাই",
+              "tr": "pishemoshai",
+              "en": "uncle"
+            }
+          ],
+          "pronoun": {
+            "default": "tumi",
+            "also": [
+              "apni"
+            ],
+            "note": "In many Kolkata families children use তুমি with aunts and uncles."
+          }
+        }
+      },
+      "actions": [
+        {
+          "label": "Add his child (your cousin)",
+          "group": "cousins",
+          "preset": {
+            "via": "fs"
+          }
+        }
+      ]
+    },
+    {
+      "id": "mother-elder-brother",
+      "group": "mothers-siblings",
+      "gen": 1,
+      "gender": "m",
+      "pick": {
+        "gender": "m",
+        "age": "elder"
+      },
+      "label": "mother's older brother",
+      "short": "Mum's older brother",
+      "explain": "Aunts and uncles are named by the parent they come from, so your mother's brother has a word of their own.",
+      "pronoun": {
+        "default": "apni",
+        "also": [
+          "tumi"
+        ],
+        "note": "আপনি is the safe choice; many families use তুমি with aunts and uncles they grew up with."
+      },
+      "phrases": [
+        "greet",
+        "how",
+        "miss",
+        "festival"
+      ],
+      "terms": {
+        "bd": {
+          "ref": {
+            "bn": "বড় মামা",
+            "tr": "boro mama",
+            "en": "uncle"
+          },
+          "addr": [
+            {
+              "bn": "মামা",
+              "tr": "mama",
+              "en": "uncle"
+            },
+            {
+              "bn": "মামু",
+              "tr": "mamu",
+              "en": "uncle"
+            }
+          ],
+          "note": "মামা is used in Bangladesh and in Kolkata alike."
+        },
+        "wb": {
+          "ref": {
+            "bn": "বড় মামা",
+            "tr": "boro mama",
+            "en": "uncle"
+          },
+          "addr": [
+            {
+              "bn": "মামা",
+              "tr": "mama",
+              "en": "uncle"
+            }
+          ],
+          "note": "মামা is used in Bangladesh and in Kolkata alike.",
+          "pronoun": {
+            "default": "tumi",
+            "also": [
+              "apni"
+            ],
+            "note": "In many Kolkata families children use তুমি with aunts and uncles."
+          }
+        }
+      },
+      "actions": [
+        {
+          "label": "Add his wife",
+          "group": "aunt-uncle-spouses",
+          "preset": {
+            "via": "mother-elder-brother"
+          }
+        },
+        {
+          "label": "Add his child (your cousin)",
+          "group": "cousins",
+          "preset": {
+            "via": "mb"
+          }
+        }
+      ]
+    },
+    {
+      "id": "mother-elder-brother-wife",
+      "group": "aunt-uncle-spouses",
+      "gen": 1,
+      "gender": "f",
+      "pick": {
+        "via": "mother-elder-brother"
+      },
+      "label": "mother's older brother's wife",
+      "short": "Mum's older brother's wife",
+      "explain": "An aunt or uncle by marriage takes a word from the same side of the family as your mother's brother.",
+      "pronoun": {
+        "default": "apni",
+        "also": [
+          "tumi"
+        ],
+        "note": "আপনি is the safe choice with an aunt or uncle by marriage."
+      },
+      "phrases": [
+        "greet",
+        "how",
+        "miss",
+        "festival"
+      ],
+      "terms": {
+        "bd": {
+          "ref": {
+            "bn": "বড় মামি",
+            "tr": "boro mami",
+            "en": "aunt"
+          },
+          "addr": [
+            {
+              "bn": "মামি",
+              "tr": "mami",
+              "en": "aunt"
+            }
+          ],
+          "note": "The wife of a মামা is a মামি."
+        },
+        "wb": {
+          "ref": {
+            "bn": "মামিমা",
+            "tr": "mamima",
+            "en": "aunt"
+          },
+          "addr": [
+            {
+              "bn": "মামিমা",
+              "tr": "mamima",
+              "en": "aunt"
+            },
+            {
+              "bn": "মামি",
+              "tr": "mami",
+              "en": "aunt"
+            }
+          ],
+          "pronoun": {
+            "default": "tumi",
+            "also": [
+              "apni"
+            ],
+            "note": "In many Kolkata families children use তুমি with aunts and uncles."
+          }
+        }
+      },
+      "actions": [
+        {
+          "label": "Add her child (your cousin)",
+          "group": "cousins",
+          "preset": {
+            "via": "mb"
+          }
+        }
+      ]
+    },
+    {
+      "id": "mother-younger-brother",
+      "group": "mothers-siblings",
+      "gen": 1,
+      "gender": "m",
+      "pick": {
+        "gender": "m",
+        "age": "younger"
+      },
+      "label": "mother's younger brother",
+      "short": "Mum's younger brother",
+      "explain": "Aunts and uncles are named by the parent they come from, so your mother's brother has a word of their own.",
+      "pronoun": {
+        "default": "apni",
+        "also": [
+          "tumi"
+        ],
+        "note": "আপনি is the safe choice; many families use তুমি with aunts and uncles they grew up with."
+      },
+      "phrases": [
+        "greet",
+        "how",
+        "miss",
+        "festival"
+      ],
+      "terms": {
+        "bd": {
+          "ref": {
+            "bn": "ছোট মামা",
+            "tr": "chhoto mama",
+            "en": "uncle"
+          },
+          "addr": [
+            {
+              "bn": "মামা",
+              "tr": "mama",
+              "en": "uncle"
+            },
+            {
+              "bn": "মামু",
+              "tr": "mamu",
+              "en": "uncle"
+            }
+          ],
+          "note": "মামা is used in Bangladesh and in Kolkata alike."
+        },
+        "wb": {
+          "ref": {
+            "bn": "ছোট মামা",
+            "tr": "chhoto mama",
+            "en": "uncle"
+          },
+          "addr": [
+            {
+              "bn": "মামা",
+              "tr": "mama",
+              "en": "uncle"
+            }
+          ],
+          "note": "মামা is used in Bangladesh and in Kolkata alike.",
+          "pronoun": {
+            "default": "tumi",
+            "also": [
+              "apni"
+            ],
+            "note": "In many Kolkata families children use তুমি with aunts and uncles."
+          }
+        }
+      },
+      "actions": [
+        {
+          "label": "Add his wife",
+          "group": "aunt-uncle-spouses",
+          "preset": {
+            "via": "mother-younger-brother"
+          }
+        },
+        {
+          "label": "Add his child (your cousin)",
+          "group": "cousins",
+          "preset": {
+            "via": "mb"
+          }
+        }
+      ]
+    },
+    {
+      "id": "mother-younger-brother-wife",
+      "group": "aunt-uncle-spouses",
+      "gen": 1,
+      "gender": "f",
+      "pick": {
+        "via": "mother-younger-brother"
+      },
+      "label": "mother's younger brother's wife",
+      "short": "Mum's younger brother's wife",
+      "explain": "An aunt or uncle by marriage takes a word from the same side of the family as your mother's brother.",
+      "pronoun": {
+        "default": "apni",
+        "also": [
+          "tumi"
+        ],
+        "note": "আপনি is the safe choice with an aunt or uncle by marriage."
+      },
+      "phrases": [
+        "greet",
+        "how",
+        "miss",
+        "festival"
+      ],
+      "terms": {
+        "bd": {
+          "ref": {
+            "bn": "ছোট মামি",
+            "tr": "chhoto mami",
+            "en": "aunt"
+          },
+          "addr": [
+            {
+              "bn": "মামি",
+              "tr": "mami",
+              "en": "aunt"
+            }
+          ],
+          "note": "The wife of a মামা is a মামি."
+        },
+        "wb": {
+          "ref": {
+            "bn": "মামিমা",
+            "tr": "mamima",
+            "en": "aunt"
+          },
+          "addr": [
+            {
+              "bn": "মামিমা",
+              "tr": "mamima",
+              "en": "aunt"
+            },
+            {
+              "bn": "মামি",
+              "tr": "mami",
+              "en": "aunt"
+            }
+          ],
+          "pronoun": {
+            "default": "tumi",
+            "also": [
+              "apni"
+            ],
+            "note": "In many Kolkata families children use তুমি with aunts and uncles."
+          }
+        }
+      },
+      "actions": [
+        {
+          "label": "Add her child (your cousin)",
+          "group": "cousins",
+          "preset": {
+            "via": "mb"
+          }
+        }
+      ]
+    },
+    {
+      "id": "mother-elder-sister",
+      "group": "mothers-siblings",
+      "gen": 1,
+      "gender": "f",
+      "pick": {
+        "gender": "f",
+        "age": "elder"
+      },
+      "label": "mother's older sister",
+      "short": "Mum's older sister",
+      "explain": "Aunts and uncles are named by the parent they come from, so your mother's sister has a word of their own.",
+      "pronoun": {
+        "default": "apni",
+        "also": [
+          "tumi"
+        ],
+        "note": "আপনি is the safe choice; many families use তুমি with aunts and uncles they grew up with."
+      },
+      "phrases": [
+        "greet",
+        "how",
+        "miss",
+        "festival"
+      ],
+      "terms": {
+        "bd": {
+          "ref": {
+            "bn": "বড় খালা",
+            "tr": "boro khala",
+            "en": "aunt"
+          },
+          "addr": [
+            {
+              "bn": "খালা",
+              "tr": "khala",
+              "en": "aunt"
+            },
+            {
+              "bn": "খালামণি",
+              "tr": "khalamoni",
+              "en": "auntie"
+            }
+          ],
+          "note": "খালা is your mother's sister; your father's sister is ফুফু."
+        },
+        "wb": {
+          "ref": {
+            "bn": "বড় মাসি",
+            "tr": "boro mashi",
+            "en": "aunt"
+          },
+          "addr": [
+            {
+              "bn": "মাসি",
+              "tr": "mashi",
+              "en": "aunt"
+            },
+            {
+              "bn": "মাসিমা",
+              "tr": "mashima",
+              "en": "aunt"
+            }
+          ],
+          "note": "মাসি is your mother's sister; your father's sister is পিসি.",
+          "pronoun": {
+            "default": "tumi",
+            "also": [
+              "apni"
+            ],
+            "note": "In many Kolkata families children use তুমি with aunts and uncles."
+          }
+        }
+      },
+      "actions": [
+        {
+          "label": "Add her husband",
+          "group": "aunt-uncle-spouses",
+          "preset": {
+            "via": "mother-elder-sister"
+          }
+        },
+        {
+          "label": "Add her child (your cousin)",
+          "group": "cousins",
+          "preset": {
+            "via": "ms"
+          }
+        }
+      ]
+    },
+    {
+      "id": "mother-elder-sister-husband",
+      "group": "aunt-uncle-spouses",
+      "gen": 1,
+      "gender": "m",
+      "pick": {
+        "via": "mother-elder-sister"
+      },
+      "label": "mother's older sister's husband",
+      "short": "Mum's older sister's husband",
+      "explain": "An aunt or uncle by marriage takes a word from the same side of the family as your mother's sister.",
+      "pronoun": {
+        "default": "apni",
+        "also": [
+          "tumi"
+        ],
+        "note": "আপনি is the safe choice with an aunt or uncle by marriage."
+      },
+      "phrases": [
+        "greet",
+        "how",
+        "miss",
+        "festival"
+      ],
+      "terms": {
+        "bd": {
+          "ref": {
+            "bn": "বড় খালু",
+            "tr": "boro khalu",
+            "en": "uncle"
+          },
+          "addr": [
+            {
+              "bn": "খালু",
+              "tr": "khalu",
+              "en": "uncle"
+            }
+          ],
+          "note": "The husband of a খালা is a খালু."
+        },
+        "wb": {
+          "ref": {
+            "bn": "মেসোমশাই",
+            "tr": "meshomoshai",
+            "en": "uncle"
+          },
+          "addr": [
+            {
+              "bn": "মেসো",
+              "tr": "mesho",
+              "en": "uncle"
+            },
+            {
+              "bn": "মেসোমশাই",
+              "tr": "meshomoshai",
+              "en": "uncle"
+            }
+          ],
+          "pronoun": {
+            "default": "tumi",
+            "also": [
+              "apni"
+            ],
+            "note": "In many Kolkata families children use তুমি with aunts and uncles."
+          }
+        }
+      },
+      "actions": [
+        {
+          "label": "Add his child (your cousin)",
+          "group": "cousins",
+          "preset": {
+            "via": "ms"
+          }
+        }
+      ]
+    },
+    {
+      "id": "mother-younger-sister",
+      "group": "mothers-siblings",
+      "gen": 1,
+      "gender": "f",
+      "pick": {
+        "gender": "f",
+        "age": "younger"
+      },
+      "label": "mother's younger sister",
+      "short": "Mum's younger sister",
+      "explain": "Aunts and uncles are named by the parent they come from, so your mother's sister has a word of their own.",
+      "pronoun": {
+        "default": "apni",
+        "also": [
+          "tumi"
+        ],
+        "note": "আপনি is the safe choice; many families use তুমি with aunts and uncles they grew up with."
+      },
+      "phrases": [
+        "greet",
+        "how",
+        "miss",
+        "festival"
+      ],
+      "terms": {
+        "bd": {
+          "ref": {
+            "bn": "ছোট খালা",
+            "tr": "chhoto khala",
+            "en": "aunt"
+          },
+          "addr": [
+            {
+              "bn": "খালামণি",
+              "tr": "khalamoni",
+              "en": "auntie"
+            },
+            {
+              "bn": "খালা",
+              "tr": "khala",
+              "en": "aunt"
+            }
+          ],
+          "note": "খালা is your mother's sister; your father's sister is ফুফু."
+        },
+        "wb": {
+          "ref": {
+            "bn": "ছোট মাসি",
+            "tr": "chhoto mashi",
+            "en": "aunt"
+          },
+          "addr": [
+            {
+              "bn": "মাসি",
+              "tr": "mashi",
+              "en": "aunt"
+            },
+            {
+              "bn": "মাসিমা",
+              "tr": "mashima",
+              "en": "aunt"
+            }
+          ],
+          "note": "মাসি is your mother's sister; your father's sister is পিসি.",
+          "pronoun": {
+            "default": "tumi",
+            "also": [
+              "apni"
+            ],
+            "note": "In many Kolkata families children use তুমি with aunts and uncles."
+          }
+        }
+      },
+      "actions": [
+        {
+          "label": "Add her husband",
+          "group": "aunt-uncle-spouses",
+          "preset": {
+            "via": "mother-younger-sister"
+          }
+        },
+        {
+          "label": "Add her child (your cousin)",
+          "group": "cousins",
+          "preset": {
+            "via": "ms"
+          }
+        }
+      ]
+    },
+    {
+      "id": "mother-younger-sister-husband",
+      "group": "aunt-uncle-spouses",
+      "gen": 1,
+      "gender": "m",
+      "pick": {
+        "via": "mother-younger-sister"
+      },
+      "label": "mother's younger sister's husband",
+      "short": "Mum's younger sister's husband",
+      "explain": "An aunt or uncle by marriage takes a word from the same side of the family as your mother's sister.",
+      "pronoun": {
+        "default": "apni",
+        "also": [
+          "tumi"
+        ],
+        "note": "আপনি is the safe choice with an aunt or uncle by marriage."
+      },
+      "phrases": [
+        "greet",
+        "how",
+        "miss",
+        "festival"
+      ],
+      "terms": {
+        "bd": {
+          "ref": {
+            "bn": "ছোট খালু",
+            "tr": "chhoto khalu",
+            "en": "uncle"
+          },
+          "addr": [
+            {
+              "bn": "খালু",
+              "tr": "khalu",
+              "en": "uncle"
+            }
+          ],
+          "note": "The husband of a খালা is a খালু."
+        },
+        "wb": {
+          "ref": {
+            "bn": "মেসোমশাই",
+            "tr": "meshomoshai",
+            "en": "uncle"
+          },
+          "addr": [
+            {
+              "bn": "মেসো",
+              "tr": "mesho",
+              "en": "uncle"
+            },
+            {
+              "bn": "মেসোমশাই",
+              "tr": "meshomoshai",
+              "en": "uncle"
+            }
+          ],
+          "pronoun": {
+            "default": "tumi",
+            "also": [
+              "apni"
+            ],
+            "note": "In many Kolkata families children use তুমি with aunts and uncles."
+          }
+        }
+      },
+      "actions": [
+        {
+          "label": "Add his child (your cousin)",
+          "group": "cousins",
+          "preset": {
+            "via": "ms"
+          }
+        }
+      ]
+    },
+    {
+      "id": "elder-brother",
+      "group": "siblings",
+      "gen": 0,
+      "gender": "m",
+      "pick": {
+        "gender": "m",
+        "age": "elder"
+      },
+      "label": "older brother",
+      "short": "your older brother",
+      "explain": "Older brothers and sisters get a special word, because you show them respect.",
+      "pronoun": {
+        "default": "tumi",
+        "also": [
+          "apni"
+        ],
+        "note": "Most people use তুমি with an older brother or sister; some families use আপনি with a much older sibling."
+      },
+      "phrases": [
+        "greet",
+        "how",
+        "miss",
+        "festival"
+      ],
+      "terms": {
+        "bd": {
+          "ref": {
+            "bn": "বড় ভাই",
+            "tr": "boro bhai",
+            "en": "elder brother"
+          },
+          "addr": [
+            {
+              "bn": "ভাইয়া",
+              "tr": "bhaiya",
+              "en": "big brother"
+            }
+          ],
+          "note": "You call an older brother ভাইয়া, never by his name."
+        },
+        "wb": {
+          "ref": {
+            "bn": "দাদা",
+            "tr": "dada",
+            "en": "elder brother"
+          },
+          "addr": [
+            {
+              "bn": "দাদা",
+              "tr": "dada",
+              "en": "big brother"
+            }
+          ],
+          "note": "In these families দাদা means elder brother."
+        }
+      },
+      "actions": [
+        {
+          "label": "Add his wife",
+          "group": "siblings-spouses",
+          "preset": {
+            "who": "elder-brother-wife"
+          }
+        },
+        {
+          "label": "Add his child",
+          "group": "nieces-nephews",
+          "preset": {
+            "via": "brother"
+          }
+        }
+      ]
+    },
+    {
+      "id": "younger-brother",
+      "group": "siblings",
+      "gen": 0,
+      "gender": "m",
+      "pick": {
+        "gender": "m",
+        "age": "younger"
+      },
+      "label": "younger brother",
+      "short": "your younger brother",
+      "explain": "In Bengali you say whether a brother or sister is older or younger than you.",
+      "pronoun": {
+        "default": "tumi",
+        "also": [
+          "tui"
+        ],
+        "note": "Many brothers and sisters use তুই with each other."
+      },
+      "phrases": [
+        "how",
+        "miss",
+        "festival"
+      ],
+      "terms": {
+        "bd": {
+          "ref": {
+            "bn": "ছোট ভাই",
+            "tr": "chhoto bhai",
+            "en": "younger brother"
+          },
+          "addr": [],
+          "note": "Younger brothers and sisters are called by their name."
+        },
+        "wb": {
+          "ref": {
+            "bn": "ছোট ভাই",
+            "tr": "chhoto bhai",
+            "en": "younger brother"
+          },
+          "addr": []
+        }
+      },
+      "actions": [
+        {
+          "label": "Add his wife",
+          "group": "siblings-spouses",
+          "preset": {
+            "who": "younger-brother-wife"
+          }
+        },
+        {
+          "label": "Add his child",
+          "group": "nieces-nephews",
+          "preset": {
+            "via": "brother"
+          }
+        }
+      ]
+    },
+    {
+      "id": "elder-sister",
+      "group": "siblings",
+      "gen": 0,
+      "gender": "f",
+      "pick": {
+        "gender": "f",
+        "age": "elder"
+      },
+      "label": "older sister",
+      "short": "your older sister",
+      "explain": "Older brothers and sisters get a special word, because you show them respect.",
+      "pronoun": {
+        "default": "tumi",
+        "also": [
+          "apni"
+        ],
+        "note": "Most people use তুমি with an older brother or sister; some families use আপনি with a much older sibling."
+      },
+      "phrases": [
+        "greet",
+        "how",
+        "miss",
+        "festival"
+      ],
+      "terms": {
+        "bd": {
+          "ref": {
+            "bn": "বড় বোন",
+            "tr": "boro bon",
+            "en": "elder sister"
+          },
+          "addr": [
+            {
+              "bn": "আপু",
+              "tr": "apu",
+              "en": "big sister"
+            },
+            {
+              "bn": "আপা",
+              "tr": "apa",
+              "en": "big sister"
+            }
+          ],
+          "note": "You call an older sister আপু or আপা, never by her name."
+        },
+        "wb": {
+          "ref": {
+            "bn": "দিদি",
+            "tr": "didi",
+            "en": "elder sister"
+          },
+          "addr": [
+            {
+              "bn": "দিদি",
+              "tr": "didi",
+              "en": "big sister"
+            }
+          ]
+        }
+      },
+      "actions": [
+        {
+          "label": "Add her husband",
+          "group": "siblings-spouses",
+          "preset": {
+            "who": "elder-sister-husband"
+          }
+        },
+        {
+          "label": "Add her child",
+          "group": "nieces-nephews",
+          "preset": {
+            "via": "sister"
+          }
+        }
+      ]
+    },
+    {
+      "id": "younger-sister",
+      "group": "siblings",
+      "gen": 0,
+      "gender": "f",
+      "pick": {
+        "gender": "f",
+        "age": "younger"
+      },
+      "label": "younger sister",
+      "short": "your younger sister",
+      "explain": "In Bengali you say whether a brother or sister is older or younger than you.",
+      "pronoun": {
+        "default": "tumi",
+        "also": [
+          "tui"
+        ],
+        "note": "Many brothers and sisters use তুই with each other."
+      },
+      "phrases": [
+        "how",
+        "miss",
+        "festival"
+      ],
+      "terms": {
+        "bd": {
+          "ref": {
+            "bn": "ছোট বোন",
+            "tr": "chhoto bon",
+            "en": "younger sister"
+          },
+          "addr": [],
+          "note": "Younger brothers and sisters are called by their name."
+        },
+        "wb": {
+          "ref": {
+            "bn": "ছোট বোন",
+            "tr": "chhoto bon",
+            "en": "younger sister"
+          },
+          "addr": []
+        }
+      },
+      "actions": [
+        {
+          "label": "Add her husband",
+          "group": "siblings-spouses",
+          "preset": {
+            "who": "younger-sister-husband"
+          }
+        },
+        {
+          "label": "Add her child",
+          "group": "nieces-nephews",
+          "preset": {
+            "via": "sister"
+          }
+        }
+      ]
+    },
+    {
+      "id": "elder-brother-wife",
+      "group": "siblings-spouses",
+      "gen": 0,
+      "gender": "f",
+      "pick": {
+        "who": "elder-brother-wife"
+      },
+      "label": "older brother's wife",
+      "short": "your older brother's wife",
+      "explain": "The husband or wife of an older brother or sister gets a family title.",
+      "pronoun": {
+        "default": "tumi",
+        "also": [
+          "apni"
+        ],
+        "note": "Many people use তুমি with a sister-in-law; some families use আপনি."
+      },
+      "phrases": [
+        "greet",
+        "how",
+        "miss",
+        "festival"
+      ],
+      "terms": {
+        "bd": {
+          "ref": {
+            "bn": "ভাবি",
+            "tr": "bhabi",
+            "en": "sister-in-law"
+          },
+          "addr": [
+            {
+              "bn": "ভাবি",
+              "tr": "bhabi",
+              "en": "sister-in-law"
+            }
+          ],
+          "note": "You call her ভাবি too."
+        },
+        "wb": {
+          "ref": {
+            "bn": "বৌদি",
+            "tr": "boudi",
+            "en": "sister-in-law"
+          },
+          "addr": [
+            {
+              "bn": "বৌদি",
+              "tr": "boudi",
+              "en": "sister-in-law"
+            }
+          ],
+          "note": "You call her বৌদি too."
+        }
+      },
+      "actions": [
+        {
+          "label": "Add her child",
+          "group": "nieces-nephews",
+          "preset": {
+            "via": "brother"
+          }
+        }
+      ]
+    },
+    {
+      "id": "younger-brother-wife",
+      "group": "siblings-spouses",
+      "gen": 0,
+      "gender": "f",
+      "pick": {
+        "who": "younger-brother-wife"
+      },
+      "label": "younger brother's wife",
+      "short": "your younger brother's wife",
+      "explain": "The husband or wife of a younger brother or sister is usually called by name.",
+      "pronoun": {
+        "default": "tumi",
+        "also": [
+          "apni"
+        ]
+      },
+      "phrases": [
+        "how",
+        "miss",
+        "festival"
+      ],
+      "terms": {
+        "bd": {
+          "ref": {
+            "bn": "ভাইয়ের বউ",
+            "tr": "bhaiyer bou",
+            "en": "brother's wife"
+          },
+          "addr": [],
+          "note": "A younger brother's wife is usually called by her name."
+        },
+        "wb": {
+          "ref": {
+            "bn": "ভাইয়ের বউ",
+            "tr": "bhaiyer bou",
+            "en": "brother's wife"
+          },
+          "addr": []
+        }
+      },
+      "actions": [
+        {
+          "label": "Add her child",
+          "group": "nieces-nephews",
+          "preset": {
+            "via": "brother"
+          }
+        }
+      ]
+    },
+    {
+      "id": "elder-sister-husband",
+      "group": "siblings-spouses",
+      "gen": 0,
+      "gender": "m",
+      "pick": {
+        "who": "elder-sister-husband"
+      },
+      "label": "older sister's husband",
+      "short": "your older sister's husband",
+      "explain": "The husband or wife of an older brother or sister gets a family title.",
+      "pronoun": {
+        "default": "apni",
+        "also": [
+          "tumi"
+        ],
+        "note": "আপনি is usual at first; many families move to তুমি."
+      },
+      "phrases": [
+        "greet",
+        "how",
+        "miss",
+        "festival"
+      ],
+      "terms": {
+        "bd": {
+          "ref": {
+            "bn": "দুলাভাই",
+            "tr": "dulabhai",
+            "en": "brother-in-law"
+          },
+          "addr": [
+            {
+              "bn": "দুলাভাই",
+              "tr": "dulabhai",
+              "en": "brother-in-law"
+            }
+          ],
+          "note": "You call him দুলাভাই too."
+        },
+        "wb": {
+          "ref": {
+            "bn": "জামাইবাবু",
+            "tr": "jamaibabu",
+            "en": "brother-in-law"
+          },
+          "addr": [
+            {
+              "bn": "জামাইবাবু",
+              "tr": "jamaibabu",
+              "en": "brother-in-law"
+            }
+          ],
+          "note": "You call him জামাইবাবু too."
+        }
+      },
+      "actions": [
+        {
+          "label": "Add his child",
+          "group": "nieces-nephews",
+          "preset": {
+            "via": "sister"
+          }
+        }
+      ]
+    },
+    {
+      "id": "younger-sister-husband",
+      "group": "siblings-spouses",
+      "gen": 0,
+      "gender": "m",
+      "pick": {
+        "who": "younger-sister-husband"
+      },
+      "label": "younger sister's husband",
+      "short": "your younger sister's husband",
+      "explain": "The husband or wife of a younger brother or sister is usually called by name.",
+      "pronoun": {
+        "default": "tumi",
+        "also": [
+          "apni"
+        ]
+      },
+      "phrases": [
+        "how",
+        "miss",
+        "festival"
+      ],
+      "terms": {
+        "bd": {
+          "ref": {
+            "bn": "বোনের জামাই",
+            "tr": "boner jamai",
+            "en": "sister's husband"
+          },
+          "addr": [],
+          "note": "A younger sister's husband is usually called by his name."
+        },
+        "wb": {
+          "ref": {
+            "bn": "ভগ্নিপতি",
+            "tr": "bhognipoti",
+            "en": "sister's husband"
+          },
+          "addr": [],
+          "note": "ভগ্নিপতি is the formal word; people often just use his name."
+        }
+      },
+      "actions": [
+        {
+          "label": "Add his child",
+          "group": "nieces-nephews",
+          "preset": {
+            "via": "sister"
+          }
+        }
+      ]
+    },
+    {
+      "id": "husband",
+      "group": "spouse",
+      "gen": 0,
+      "gender": "m",
+      "pick": {
+        "who": "husband"
+      },
+      "label": "husband",
+      "short": "your husband",
+      "explain": "Couples usually call each other by name or a pet name.",
+      "pronoun": {
+        "default": "tumi",
+        "also": [
+          "apni"
+        ],
+        "note": "Most couples use তুমি; some older couples use আপনি."
+      },
+      "phrases": [
+        "how",
+        "miss",
+        "festival"
+      ],
+      "terms": {
+        "bd": {
+          "ref": {
+            "bn": "স্বামী",
+            "tr": "shami",
+            "en": "husband"
+          },
+          "addr": [],
+          "note": "In everyday Bangladeshi speech many people also say জামাই for a husband."
+        },
+        "wb": {
+          "ref": {
+            "bn": "বর",
+            "tr": "bor",
+            "en": "husband"
+          },
+          "addr": [],
+          "note": "স্বামী is the more formal word."
+        }
+      },
+      "actions": [
+        {
+          "label": "Add his parents or siblings",
+          "group": "spouse-family",
+          "preset": {
+            "whose": "husband"
+          }
+        },
+        {
+          "label": "Add your child",
+          "group": "children"
+        }
+      ]
+    },
+    {
+      "id": "wife",
+      "group": "spouse",
+      "gen": 0,
+      "gender": "f",
+      "pick": {
+        "who": "wife"
+      },
+      "label": "wife",
+      "short": "your wife",
+      "explain": "Couples usually call each other by name or a pet name.",
+      "pronoun": {
+        "default": "tumi",
+        "also": [
+          "apni"
+        ],
+        "note": "Most couples use তুমি; some older couples use আপনি."
+      },
+      "phrases": [
+        "how",
+        "miss",
+        "festival"
+      ],
+      "terms": {
+        "bd": {
+          "ref": {
+            "bn": "বউ",
+            "tr": "bou",
+            "en": "wife"
+          },
+          "addr": [],
+          "note": "স্ত্রী is the more formal word."
+        },
+        "wb": {
+          "ref": {
+            "bn": "বউ",
+            "tr": "bou",
+            "en": "wife"
+          },
+          "addr": [],
+          "note": "স্ত্রী is the more formal word."
+        }
+      },
+      "actions": [
+        {
+          "label": "Add her parents or siblings",
+          "group": "spouse-family",
+          "preset": {
+            "whose": "wife"
+          }
+        },
+        {
+          "label": "Add your child",
+          "group": "children"
+        }
+      ]
+    },
+    {
+      "id": "husband-father",
+      "group": "spouse-family",
+      "gen": 1,
+      "gender": "m",
+      "pick": {
+        "whose": "husband",
+        "who": "father"
+      },
+      "label": "husband's father",
+      "short": "Husband's father",
+      "explain": "Parents-in-law are addressed like your own parents, with respect.",
+      "pronoun": {
+        "default": "apni",
+        "also": [],
+        "note": "আপনি with parents-in-law."
+      },
+      "phrases": [
+        "greet",
+        "how",
+        "miss",
+        "festival"
+      ],
+      "terms": {
+        "bd": {
+          "ref": {
+            "bn": "শ্বশুর",
+            "tr": "shoshur",
+            "en": "father-in-law"
+          },
+          "addr": [
+            {
+              "bn": "আব্বা",
+              "tr": "abba",
+              "en": "dad"
+            },
+            {
+              "bn": "বাবা",
+              "tr": "baba",
+              "en": "dad"
+            }
+          ],
+          "note": "Many people call their parents-in-law আব্বা and আম্মা, like their own parents."
+        },
+        "wb": {
+          "ref": {
+            "bn": "শ্বশুর",
+            "tr": "shoshur",
+            "en": "father-in-law"
+          },
+          "addr": [
+            {
+              "bn": "বাবা",
+              "tr": "baba",
+              "en": "dad"
+            }
+          ],
+          "note": "Many people call their parents-in-law বাবা and মা."
+        }
+      }
+    },
+    {
+      "id": "husband-mother",
+      "group": "spouse-family",
+      "gen": 1,
+      "gender": "f",
+      "pick": {
+        "whose": "husband",
+        "who": "mother"
+      },
+      "label": "husband's mother",
+      "short": "Husband's mother",
+      "explain": "Parents-in-law are addressed like your own parents, with respect.",
+      "pronoun": {
+        "default": "apni",
+        "also": [
+          "tumi"
+        ],
+        "note": "আপনি with parents-in-law; some families use তুমি with a mother-in-law."
+      },
+      "phrases": [
+        "greet",
+        "how",
+        "miss",
+        "festival"
+      ],
+      "terms": {
+        "bd": {
+          "ref": {
+            "bn": "শাশুড়ি",
+            "tr": "shashuri",
+            "en": "mother-in-law"
+          },
+          "addr": [
+            {
+              "bn": "আম্মা",
+              "tr": "amma",
+              "en": "mum"
+            },
+            {
+              "bn": "মা",
+              "tr": "ma",
+              "en": "mum"
+            }
+          ],
+          "note": "Many people call their parents-in-law আব্বা and আম্মা, like their own parents."
+        },
+        "wb": {
+          "ref": {
+            "bn": "শাশুড়ি",
+            "tr": "shashuri",
+            "en": "mother-in-law"
+          },
+          "addr": [
+            {
+              "bn": "মা",
+              "tr": "ma",
+              "en": "mum"
+            }
+          ],
+          "note": "Many people call their parents-in-law বাবা and মা."
+        }
+      }
+    },
+    {
+      "id": "husband-elder-brother",
+      "group": "spouse-family",
+      "gen": 0,
+      "gender": "m",
+      "pick": {
+        "whose": "husband",
+        "who": "elder-brother"
+      },
+      "label": "husband's older brother",
+      "short": "Husband's older brother",
+      "explain": "Your husband's older brothers and sisters are treated like your own elders.",
+      "pronoun": {
+        "default": "apni",
+        "also": [
+          "tumi"
+        ],
+        "note": "আপনি is the safe choice with your spouse's older siblings."
+      },
+      "phrases": [
+        "greet",
+        "how",
+        "miss",
+        "festival"
+      ],
+      "terms": {
+        "bd": {
+          "ref": {
+            "bn": "ভাসুর",
+            "tr": "bhashur",
+            "en": "brother-in-law"
+          },
+          "addr": [
+            {
+              "bn": "ভাইয়া",
+              "tr": "bhaiya",
+              "en": "big brother"
+            }
+          ],
+          "note": "ভাসুর is your husband's older brother; his younger brother is দেবর."
+        },
+        "wb": {
+          "ref": {
+            "bn": "ভাসুর",
+            "tr": "bhashur",
+            "en": "brother-in-law"
+          },
+          "addr": [
+            {
+              "bn": "দাদা",
+              "tr": "dada",
+              "en": "big brother"
+            }
+          ],
+          "note": "ভাসুর is your husband's older brother; his younger brother is দেবর."
+        }
+      }
+    },
+    {
+      "id": "husband-younger-brother",
+      "group": "spouse-family",
+      "gen": 0,
+      "gender": "m",
+      "pick": {
+        "whose": "husband",
+        "who": "younger-brother"
+      },
+      "label": "husband's younger brother",
+      "short": "Husband's younger brother",
+      "explain": "Your husband's younger brothers and sisters are usually called by name.",
+      "pronoun": {
+        "default": "tumi",
+        "also": [
+          "apni"
+        ]
+      },
+      "phrases": [
+        "how",
+        "miss",
+        "festival"
+      ],
+      "terms": {
+        "bd": {
+          "ref": {
+            "bn": "দেবর",
+            "tr": "debor",
+            "en": "brother-in-law"
+          },
+          "addr": [],
+          "note": "দেবর is your husband's younger brother, usually called by name."
+        },
+        "wb": {
+          "ref": {
+            "bn": "দেবর",
+            "tr": "debor",
+            "en": "brother-in-law"
+          },
+          "addr": [],
+          "note": "দেবর is your husband's younger brother, usually called by name."
+        }
+      }
+    },
+    {
+      "id": "husband-elder-sister",
+      "group": "spouse-family",
+      "gen": 0,
+      "gender": "f",
+      "pick": {
+        "whose": "husband",
+        "who": "elder-sister"
+      },
+      "label": "husband's older sister",
+      "short": "Husband's older sister",
+      "explain": "Your husband's older brothers and sisters are treated like your own elders.",
+      "pronoun": {
+        "default": "apni",
+        "also": [
+          "tumi"
+        ],
+        "note": "আপনি is the safe choice with your spouse's older siblings."
+      },
+      "phrases": [
+        "greet",
+        "how",
+        "miss",
+        "festival"
+      ],
+      "terms": {
+        "bd": {
+          "ref": {
+            "bn": "ননদ",
+            "tr": "nonod",
+            "en": "sister-in-law"
+          },
+          "addr": [
+            {
+              "bn": "আপা",
+              "tr": "apa",
+              "en": "big sister"
+            },
+            {
+              "bn": "আপু",
+              "tr": "apu",
+              "en": "big sister"
+            }
+          ],
+          "note": "ননদ is your husband's sister, older or younger."
+        },
+        "wb": {
+          "ref": {
+            "bn": "ননদ",
+            "tr": "nonod",
+            "en": "sister-in-law"
+          },
+          "addr": [
+            {
+              "bn": "দিদি",
+              "tr": "didi",
+              "en": "big sister"
+            }
+          ],
+          "note": "ননদ is your husband's sister, older or younger."
+        }
+      }
+    },
+    {
+      "id": "husband-younger-sister",
+      "group": "spouse-family",
+      "gen": 0,
+      "gender": "f",
+      "pick": {
+        "whose": "husband",
+        "who": "younger-sister"
+      },
+      "label": "husband's younger sister",
+      "short": "Husband's younger sister",
+      "explain": "Your husband's younger brothers and sisters are usually called by name.",
+      "pronoun": {
+        "default": "tumi",
+        "also": [
+          "apni"
+        ]
+      },
+      "phrases": [
+        "how",
+        "miss",
+        "festival"
+      ],
+      "terms": {
+        "bd": {
+          "ref": {
+            "bn": "ননদ",
+            "tr": "nonod",
+            "en": "sister-in-law"
+          },
+          "addr": [],
+          "note": "ননদ is your husband's sister, older or younger."
+        },
+        "wb": {
+          "ref": {
+            "bn": "ননদ",
+            "tr": "nonod",
+            "en": "sister-in-law"
+          },
+          "addr": [],
+          "note": "ননদ is your husband's sister, older or younger."
+        }
+      }
+    },
+    {
+      "id": "wife-father",
+      "group": "spouse-family",
+      "gen": 1,
+      "gender": "m",
+      "pick": {
+        "whose": "wife",
+        "who": "father"
+      },
+      "label": "wife's father",
+      "short": "Wife's father",
+      "explain": "Parents-in-law are addressed like your own parents, with respect.",
+      "pronoun": {
+        "default": "apni",
+        "also": [],
+        "note": "আপনি with parents-in-law."
+      },
+      "phrases": [
+        "greet",
+        "how",
+        "miss",
+        "festival"
+      ],
+      "terms": {
+        "bd": {
+          "ref": {
+            "bn": "শ্বশুর",
+            "tr": "shoshur",
+            "en": "father-in-law"
+          },
+          "addr": [
+            {
+              "bn": "আব্বা",
+              "tr": "abba",
+              "en": "dad"
+            },
+            {
+              "bn": "বাবা",
+              "tr": "baba",
+              "en": "dad"
+            }
+          ],
+          "note": "Many people call their parents-in-law আব্বা and আম্মা, like their own parents."
+        },
+        "wb": {
+          "ref": {
+            "bn": "শ্বশুর",
+            "tr": "shoshur",
+            "en": "father-in-law"
+          },
+          "addr": [
+            {
+              "bn": "বাবা",
+              "tr": "baba",
+              "en": "dad"
+            }
+          ],
+          "note": "Many people call their parents-in-law বাবা and মা."
+        }
+      }
+    },
+    {
+      "id": "wife-mother",
+      "group": "spouse-family",
+      "gen": 1,
+      "gender": "f",
+      "pick": {
+        "whose": "wife",
+        "who": "mother"
+      },
+      "label": "wife's mother",
+      "short": "Wife's mother",
+      "explain": "Parents-in-law are addressed like your own parents, with respect.",
+      "pronoun": {
+        "default": "apni",
+        "also": [
+          "tumi"
+        ],
+        "note": "আপনি with parents-in-law; some families use তুমি with a mother-in-law."
+      },
+      "phrases": [
+        "greet",
+        "how",
+        "miss",
+        "festival"
+      ],
+      "terms": {
+        "bd": {
+          "ref": {
+            "bn": "শাশুড়ি",
+            "tr": "shashuri",
+            "en": "mother-in-law"
+          },
+          "addr": [
+            {
+              "bn": "আম্মা",
+              "tr": "amma",
+              "en": "mum"
+            },
+            {
+              "bn": "মা",
+              "tr": "ma",
+              "en": "mum"
+            }
+          ],
+          "note": "Many people call their parents-in-law আব্বা and আম্মা, like their own parents."
+        },
+        "wb": {
+          "ref": {
+            "bn": "শাশুড়ি",
+            "tr": "shashuri",
+            "en": "mother-in-law"
+          },
+          "addr": [
+            {
+              "bn": "মা",
+              "tr": "ma",
+              "en": "mum"
+            }
+          ],
+          "note": "Many people call their parents-in-law বাবা and মা."
+        }
+      }
+    },
+    {
+      "id": "wife-elder-brother",
+      "group": "spouse-family",
+      "gen": 0,
+      "gender": "m",
+      "pick": {
+        "whose": "wife",
+        "who": "elder-brother"
+      },
+      "label": "wife's older brother",
+      "short": "Wife's older brother",
+      "explain": "Your wife's older brothers and sisters are treated like your own elders.",
+      "pronoun": {
+        "default": "apni",
+        "also": [
+          "tumi"
+        ],
+        "note": "আপনি is the safe choice with your spouse's older siblings."
+      },
+      "phrases": [
+        "greet",
+        "how",
+        "miss",
+        "festival"
+      ],
+      "terms": {
+        "bd": {
+          "ref": {
+            "bn": "শ্যালক",
+            "tr": "shyalok",
+            "en": "brother-in-law"
+          },
+          "addr": [
+            {
+              "bn": "ভাইয়া",
+              "tr": "bhaiya",
+              "en": "big brother"
+            }
+          ],
+          "note": "You will also hear শালা, but it is also a swear word, so শ্যালক is safer."
+        },
+        "wb": {
+          "ref": {
+            "bn": "শ্যালক",
+            "tr": "shyalok",
+            "en": "brother-in-law"
+          },
+          "addr": [
+            {
+              "bn": "দাদা",
+              "tr": "dada",
+              "en": "big brother"
+            }
+          ],
+          "note": "You will also hear শালা, but it is also a swear word, so শ্যালক is safer."
+        }
+      }
+    },
+    {
+      "id": "wife-younger-brother",
+      "group": "spouse-family",
+      "gen": 0,
+      "gender": "m",
+      "pick": {
+        "whose": "wife",
+        "who": "younger-brother"
+      },
+      "label": "wife's younger brother",
+      "short": "Wife's younger brother",
+      "explain": "Your wife's younger brothers and sisters are usually called by name.",
+      "pronoun": {
+        "default": "tumi",
+        "also": [
+          "apni"
+        ]
+      },
+      "phrases": [
+        "how",
+        "miss",
+        "festival"
+      ],
+      "terms": {
+        "bd": {
+          "ref": {
+            "bn": "শ্যালক",
+            "tr": "shyalok",
+            "en": "brother-in-law"
+          },
+          "addr": [],
+          "note": "You will also hear শালা, but it is also a swear word, so শ্যালক is safer."
+        },
+        "wb": {
+          "ref": {
+            "bn": "শ্যালক",
+            "tr": "shyalok",
+            "en": "brother-in-law"
+          },
+          "addr": [],
+          "note": "You will also hear শালা, but it is also a swear word, so শ্যালক is safer."
+        }
+      }
+    },
+    {
+      "id": "wife-elder-sister",
+      "group": "spouse-family",
+      "gen": 0,
+      "gender": "f",
+      "pick": {
+        "whose": "wife",
+        "who": "elder-sister"
+      },
+      "label": "wife's older sister",
+      "short": "Wife's older sister",
+      "explain": "Your wife's older brothers and sisters are treated like your own elders.",
+      "pronoun": {
+        "default": "apni",
+        "also": [
+          "tumi"
+        ],
+        "note": "আপনি is the safe choice with your spouse's older siblings."
+      },
+      "phrases": [
+        "greet",
+        "how",
+        "miss",
+        "festival"
+      ],
+      "terms": {
+        "bd": {
+          "ref": {
+            "bn": "শ্যালিকা",
+            "tr": "shyalika",
+            "en": "sister-in-law"
+          },
+          "addr": [
+            {
+              "bn": "আপা",
+              "tr": "apa",
+              "en": "big sister"
+            },
+            {
+              "bn": "আপু",
+              "tr": "apu",
+              "en": "big sister"
+            }
+          ],
+          "note": "You will also hear শালি, but it can be an insult, so শ্যালিকা is safer."
+        },
+        "wb": {
+          "ref": {
+            "bn": "শ্যালিকা",
+            "tr": "shyalika",
+            "en": "sister-in-law"
+          },
+          "addr": [
+            {
+              "bn": "দিদি",
+              "tr": "didi",
+              "en": "big sister"
+            }
+          ],
+          "note": "You will also hear শালি, but it can be an insult, so শ্যালিকা is safer."
+        }
+      }
+    },
+    {
+      "id": "wife-younger-sister",
+      "group": "spouse-family",
+      "gen": 0,
+      "gender": "f",
+      "pick": {
+        "whose": "wife",
+        "who": "younger-sister"
+      },
+      "label": "wife's younger sister",
+      "short": "Wife's younger sister",
+      "explain": "Your wife's younger brothers and sisters are usually called by name.",
+      "pronoun": {
+        "default": "tumi",
+        "also": [
+          "apni"
+        ]
+      },
+      "phrases": [
+        "how",
+        "miss",
+        "festival"
+      ],
+      "terms": {
+        "bd": {
+          "ref": {
+            "bn": "শ্যালিকা",
+            "tr": "shyalika",
+            "en": "sister-in-law"
+          },
+          "addr": [],
+          "note": "You will also hear শালি, but it can be an insult, so শ্যালিকা is safer."
+        },
+        "wb": {
+          "ref": {
+            "bn": "শ্যালিকা",
+            "tr": "shyalika",
+            "en": "sister-in-law"
+          },
+          "addr": [],
+          "note": "You will also hear শালি, but it can be an insult, so শ্যালিকা is safer."
+        }
+      }
+    },
+    {
+      "id": "son",
+      "group": "children",
+      "gen": -1,
+      "gender": "m",
+      "pick": {
+        "who": "son"
+      },
+      "label": "son",
+      "short": "your son",
+      "explain": "Parents call their children by name or a pet name.",
+      "pronoun": {
+        "default": "tumi",
+        "also": [
+          "tui"
+        ],
+        "note": "Many parents use তুই with their children, as a sign of closeness."
+      },
+      "phrases": [
+        "how",
+        "miss",
+        "festival"
+      ],
+      "terms": {
+        "bd": {
+          "ref": {
+            "bn": "ছেলে",
+            "tr": "chhele",
+            "en": "son"
+          },
+          "addr": [],
+          "note": "Many Bangladeshi parents also call a son আব্বু, as a pet name."
+        },
+        "wb": {
+          "ref": {
+            "bn": "ছেলে",
+            "tr": "chhele",
+            "en": "son"
+          },
+          "addr": []
+        }
+      },
+      "actions": [
+        {
+          "label": "Add his wife",
+          "group": "children",
+          "preset": {
+            "who": "son-wife"
+          }
+        }
+      ]
+    },
+    {
+      "id": "daughter",
+      "group": "children",
+      "gen": -1,
+      "gender": "f",
+      "pick": {
+        "who": "daughter"
+      },
+      "label": "daughter",
+      "short": "your daughter",
+      "explain": "Parents call their children by name or a pet name.",
+      "pronoun": {
+        "default": "tumi",
+        "also": [
+          "tui"
+        ],
+        "note": "Many parents use তুই with their children, as a sign of closeness."
+      },
+      "phrases": [
+        "how",
+        "miss",
+        "festival"
+      ],
+      "terms": {
+        "bd": {
+          "ref": {
+            "bn": "মেয়ে",
+            "tr": "meye",
+            "en": "daughter"
+          },
+          "addr": [],
+          "note": "Many Bangladeshi parents also call a daughter আম্মু, as a pet name."
+        },
+        "wb": {
+          "ref": {
+            "bn": "মেয়ে",
+            "tr": "meye",
+            "en": "daughter"
+          },
+          "addr": [],
+          "note": "Many parents also call a daughter মা, as a pet name."
+        }
+      },
+      "actions": [
+        {
+          "label": "Add her husband",
+          "group": "children",
+          "preset": {
+            "who": "daughter-husband"
+          }
+        }
+      ]
+    },
+    {
+      "id": "son-wife",
+      "group": "children",
+      "gen": -1,
+      "gender": "f",
+      "pick": {
+        "who": "son-wife"
+      },
+      "label": "son's wife",
+      "short": "your son's wife",
+      "explain": "A daughter-in-law is often called by the family word for her.",
+      "pronoun": {
+        "default": "tumi",
+        "also": []
+      },
+      "phrases": [
+        "how",
+        "miss",
+        "festival"
+      ],
+      "terms": {
+        "bd": {
+          "ref": {
+            "bn": "বউমা",
+            "tr": "bouma",
+            "en": "daughter-in-law"
+          },
+          "addr": [
+            {
+              "bn": "বউমা",
+              "tr": "bouma",
+              "en": "daughter-in-law"
+            }
+          ]
+        },
+        "wb": {
+          "ref": {
+            "bn": "বউমা",
+            "tr": "bouma",
+            "en": "daughter-in-law"
+          },
+          "addr": [
+            {
+              "bn": "বউমা",
+              "tr": "bouma",
+              "en": "daughter-in-law"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "daughter-husband",
+      "group": "children",
+      "gen": -1,
+      "gender": "m",
+      "pick": {
+        "who": "daughter-husband"
+      },
+      "label": "daughter's husband",
+      "short": "your daughter's husband",
+      "explain": "A son-in-law is a respected guest in his wife's family.",
+      "pronoun": {
+        "default": "tumi",
+        "also": [
+          "apni"
+        ],
+        "note": "Many parents-in-law use তুমি; some families use আপনি with a son-in-law."
+      },
+      "phrases": [
+        "how",
+        "miss",
+        "festival"
+      ],
+      "terms": {
+        "bd": {
+          "ref": {
+            "bn": "জামাই",
+            "tr": "jamai",
+            "en": "son-in-law"
+          },
+          "addr": [],
+          "note": "He is usually called by name; some parents-in-law call him বাবা."
+        },
+        "wb": {
+          "ref": {
+            "bn": "জামাই",
+            "tr": "jamai",
+            "en": "son-in-law"
+          },
+          "addr": []
+        }
+      }
+    },
+    {
+      "id": "brother-son",
+      "group": "nieces-nephews",
+      "gen": -1,
+      "gender": "m",
+      "pick": {
+        "via": "brother",
+        "gender": "m"
+      },
+      "label": "brother's son",
+      "short": "your brother's son",
+      "explain": "A brother's children and a sister's children have different words.",
+      "pronoun": {
+        "default": "tumi",
+        "also": [
+          "tui"
+        ],
+        "note": "Many aunts and uncles use তুই with nieces and nephews."
+      },
+      "phrases": [
+        "how",
+        "miss",
+        "festival"
+      ],
+      "terms": {
+        "bd": {
+          "ref": {
+            "bn": "ভাতিজা",
+            "tr": "bhatija",
+            "en": "nephew"
+          },
+          "addr": []
+        },
+        "wb": {
+          "ref": {
+            "bn": "ভাইপো",
+            "tr": "bhaipo",
+            "en": "nephew"
+          },
+          "addr": []
+        }
+      }
+    },
+    {
+      "id": "brother-daughter",
+      "group": "nieces-nephews",
+      "gen": -1,
+      "gender": "f",
+      "pick": {
+        "via": "brother",
+        "gender": "f"
+      },
+      "label": "brother's daughter",
+      "short": "your brother's daughter",
+      "explain": "A brother's children and a sister's children have different words.",
+      "pronoun": {
+        "default": "tumi",
+        "also": [
+          "tui"
+        ],
+        "note": "Many aunts and uncles use তুই with nieces and nephews."
+      },
+      "phrases": [
+        "how",
+        "miss",
+        "festival"
+      ],
+      "terms": {
+        "bd": {
+          "ref": {
+            "bn": "ভাতিজি",
+            "tr": "bhatiji",
+            "en": "niece"
+          },
+          "addr": []
+        },
+        "wb": {
+          "ref": {
+            "bn": "ভাইঝি",
+            "tr": "bhaijhi",
+            "en": "niece"
+          },
+          "addr": []
+        }
+      }
+    },
+    {
+      "id": "sister-son",
+      "group": "nieces-nephews",
+      "gen": -1,
+      "gender": "m",
+      "pick": {
+        "via": "sister",
+        "gender": "m"
+      },
+      "label": "sister's son",
+      "short": "your sister's son",
+      "explain": "A sister's children have their own words, different from a brother's.",
+      "pronoun": {
+        "default": "tumi",
+        "also": [
+          "tui"
+        ],
+        "note": "Many aunts and uncles use তুই with nieces and nephews."
+      },
+      "phrases": [
+        "how",
+        "miss",
+        "festival"
+      ],
+      "terms": {
+        "bd": {
+          "ref": {
+            "bn": "ভাগ্নে",
+            "tr": "bhagne",
+            "en": "nephew"
+          },
+          "addr": []
+        },
+        "wb": {
+          "ref": {
+            "bn": "ভাগ্নে",
+            "tr": "bhagne",
+            "en": "nephew"
+          },
+          "addr": []
+        }
+      }
+    },
+    {
+      "id": "sister-daughter",
+      "group": "nieces-nephews",
+      "gen": -1,
+      "gender": "f",
+      "pick": {
+        "via": "sister",
+        "gender": "f"
+      },
+      "label": "sister's daughter",
+      "short": "your sister's daughter",
+      "explain": "A sister's children have their own words, different from a brother's.",
+      "pronoun": {
+        "default": "tumi",
+        "also": [
+          "tui"
+        ],
+        "note": "Many aunts and uncles use তুই with nieces and nephews."
+      },
+      "phrases": [
+        "how",
+        "miss",
+        "festival"
+      ],
+      "terms": {
+        "bd": {
+          "ref": {
+            "bn": "ভাগ্নি",
+            "tr": "bhagni",
+            "en": "niece"
+          },
+          "addr": []
+        },
+        "wb": {
+          "ref": {
+            "bn": "ভাগ্নি",
+            "tr": "bhagni",
+            "en": "niece"
+          },
+          "addr": []
+        }
+      }
+    },
+    {
+      "id": "cousin-fbe-son-elder",
+      "group": "cousins",
+      "gen": 0,
+      "gender": "m",
+      "pick": {
+        "via": "fbe",
+        "gender": "m",
+        "age": "elder"
+      },
+      "label": "cousin (father's older brother's son, older than you)",
+      "short": "Dad's older brother's son",
+      "explain": "A cousin is a brother or sister with a prefix that says which aunt or uncle they come from. Older cousins are addressed like older siblings.",
+      "pronoun": {
+        "default": "tumi",
+        "also": [
+          "apni"
+        ],
+        "note": "Most cousins use তুমি; some use আপনি with a much older cousin."
+      },
+      "phrases": [
+        "greet",
+        "how",
+        "miss",
+        "festival"
+      ],
+      "terms": {
+        "bd": {
+          "ref": {
+            "bn": "চাচাতো ভাই",
+            "tr": "chachato bhai",
+            "en": "cousin"
+          },
+          "addr": [
+            {
+              "bn": "ভাইয়া",
+              "tr": "bhaiya",
+              "en": "big brother"
+            }
+          ]
+        },
+        "wb": {
+          "ref": {
+            "bn": "জ্যাঠতুতো ভাই",
+            "tr": "jyathtuto bhai",
+            "en": "cousin"
+          },
+          "addr": [
+            {
+              "bn": "দাদা",
+              "tr": "dada",
+              "en": "big brother"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "cousin-fbe-son-younger",
+      "group": "cousins",
+      "gen": 0,
+      "gender": "m",
+      "pick": {
+        "via": "fbe",
+        "gender": "m",
+        "age": "younger"
+      },
+      "label": "cousin (father's older brother's son, younger than you)",
+      "short": "Dad's older brother's son",
+      "explain": "A cousin is a brother or sister with a prefix that says which aunt or uncle they come from. Younger cousins are called by name.",
+      "pronoun": {
+        "default": "tumi",
+        "also": [
+          "tui"
+        ],
+        "note": "Cousins close in age often use তুই."
+      },
+      "phrases": [
+        "how",
+        "miss",
+        "festival"
+      ],
+      "terms": {
+        "bd": {
+          "ref": {
+            "bn": "চাচাতো ভাই",
+            "tr": "chachato bhai",
+            "en": "cousin"
+          },
+          "addr": []
+        },
+        "wb": {
+          "ref": {
+            "bn": "জ্যাঠতুতো ভাই",
+            "tr": "jyathtuto bhai",
+            "en": "cousin"
+          },
+          "addr": []
+        }
+      }
+    },
+    {
+      "id": "cousin-fbe-daughter-elder",
+      "group": "cousins",
+      "gen": 0,
+      "gender": "f",
+      "pick": {
+        "via": "fbe",
+        "gender": "f",
+        "age": "elder"
+      },
+      "label": "cousin (father's older brother's daughter, older than you)",
+      "short": "Dad's older brother's daughter",
+      "explain": "A cousin is a brother or sister with a prefix that says which aunt or uncle they come from. Older cousins are addressed like older siblings.",
+      "pronoun": {
+        "default": "tumi",
+        "also": [
+          "apni"
+        ],
+        "note": "Most cousins use তুমি; some use আপনি with a much older cousin."
+      },
+      "phrases": [
+        "greet",
+        "how",
+        "miss",
+        "festival"
+      ],
+      "terms": {
+        "bd": {
+          "ref": {
+            "bn": "চাচাতো বোন",
+            "tr": "chachato bon",
+            "en": "cousin"
+          },
+          "addr": [
+            {
+              "bn": "আপু",
+              "tr": "apu",
+              "en": "big sister"
+            },
+            {
+              "bn": "আপা",
+              "tr": "apa",
+              "en": "big sister"
+            }
+          ]
+        },
+        "wb": {
+          "ref": {
+            "bn": "জ্যাঠতুতো বোন",
+            "tr": "jyathtuto bon",
+            "en": "cousin"
+          },
+          "addr": [
+            {
+              "bn": "দিদি",
+              "tr": "didi",
+              "en": "big sister"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "cousin-fbe-daughter-younger",
+      "group": "cousins",
+      "gen": 0,
+      "gender": "f",
+      "pick": {
+        "via": "fbe",
+        "gender": "f",
+        "age": "younger"
+      },
+      "label": "cousin (father's older brother's daughter, younger than you)",
+      "short": "Dad's older brother's daughter",
+      "explain": "A cousin is a brother or sister with a prefix that says which aunt or uncle they come from. Younger cousins are called by name.",
+      "pronoun": {
+        "default": "tumi",
+        "also": [
+          "tui"
+        ],
+        "note": "Cousins close in age often use তুই."
+      },
+      "phrases": [
+        "how",
+        "miss",
+        "festival"
+      ],
+      "terms": {
+        "bd": {
+          "ref": {
+            "bn": "চাচাতো বোন",
+            "tr": "chachato bon",
+            "en": "cousin"
+          },
+          "addr": []
+        },
+        "wb": {
+          "ref": {
+            "bn": "জ্যাঠতুতো বোন",
+            "tr": "jyathtuto bon",
+            "en": "cousin"
+          },
+          "addr": []
+        }
+      }
+    },
+    {
+      "id": "cousin-fby-son-elder",
+      "group": "cousins",
+      "gen": 0,
+      "gender": "m",
+      "pick": {
+        "via": "fby",
+        "gender": "m",
+        "age": "elder"
+      },
+      "label": "cousin (father's younger brother's son, older than you)",
+      "short": "Dad's younger brother's son",
+      "explain": "A cousin is a brother or sister with a prefix that says which aunt or uncle they come from. Older cousins are addressed like older siblings.",
+      "pronoun": {
+        "default": "tumi",
+        "also": [
+          "apni"
+        ],
+        "note": "Most cousins use তুমি; some use আপনি with a much older cousin."
+      },
+      "phrases": [
+        "greet",
+        "how",
+        "miss",
+        "festival"
+      ],
+      "terms": {
+        "bd": {
+          "ref": {
+            "bn": "চাচাতো ভাই",
+            "tr": "chachato bhai",
+            "en": "cousin"
+          },
+          "addr": [
+            {
+              "bn": "ভাইয়া",
+              "tr": "bhaiya",
+              "en": "big brother"
+            }
+          ]
+        },
+        "wb": {
+          "ref": {
+            "bn": "খুড়তুতো ভাই",
+            "tr": "khurtuto bhai",
+            "en": "cousin"
+          },
+          "addr": [
+            {
+              "bn": "দাদা",
+              "tr": "dada",
+              "en": "big brother"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "cousin-fby-son-younger",
+      "group": "cousins",
+      "gen": 0,
+      "gender": "m",
+      "pick": {
+        "via": "fby",
+        "gender": "m",
+        "age": "younger"
+      },
+      "label": "cousin (father's younger brother's son, younger than you)",
+      "short": "Dad's younger brother's son",
+      "explain": "A cousin is a brother or sister with a prefix that says which aunt or uncle they come from. Younger cousins are called by name.",
+      "pronoun": {
+        "default": "tumi",
+        "also": [
+          "tui"
+        ],
+        "note": "Cousins close in age often use তুই."
+      },
+      "phrases": [
+        "how",
+        "miss",
+        "festival"
+      ],
+      "terms": {
+        "bd": {
+          "ref": {
+            "bn": "চাচাতো ভাই",
+            "tr": "chachato bhai",
+            "en": "cousin"
+          },
+          "addr": []
+        },
+        "wb": {
+          "ref": {
+            "bn": "খুড়তুতো ভাই",
+            "tr": "khurtuto bhai",
+            "en": "cousin"
+          },
+          "addr": []
+        }
+      }
+    },
+    {
+      "id": "cousin-fby-daughter-elder",
+      "group": "cousins",
+      "gen": 0,
+      "gender": "f",
+      "pick": {
+        "via": "fby",
+        "gender": "f",
+        "age": "elder"
+      },
+      "label": "cousin (father's younger brother's daughter, older than you)",
+      "short": "Dad's younger brother's daughter",
+      "explain": "A cousin is a brother or sister with a prefix that says which aunt or uncle they come from. Older cousins are addressed like older siblings.",
+      "pronoun": {
+        "default": "tumi",
+        "also": [
+          "apni"
+        ],
+        "note": "Most cousins use তুমি; some use আপনি with a much older cousin."
+      },
+      "phrases": [
+        "greet",
+        "how",
+        "miss",
+        "festival"
+      ],
+      "terms": {
+        "bd": {
+          "ref": {
+            "bn": "চাচাতো বোন",
+            "tr": "chachato bon",
+            "en": "cousin"
+          },
+          "addr": [
+            {
+              "bn": "আপু",
+              "tr": "apu",
+              "en": "big sister"
+            },
+            {
+              "bn": "আপা",
+              "tr": "apa",
+              "en": "big sister"
+            }
+          ]
+        },
+        "wb": {
+          "ref": {
+            "bn": "খুড়তুতো বোন",
+            "tr": "khurtuto bon",
+            "en": "cousin"
+          },
+          "addr": [
+            {
+              "bn": "দিদি",
+              "tr": "didi",
+              "en": "big sister"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "cousin-fby-daughter-younger",
+      "group": "cousins",
+      "gen": 0,
+      "gender": "f",
+      "pick": {
+        "via": "fby",
+        "gender": "f",
+        "age": "younger"
+      },
+      "label": "cousin (father's younger brother's daughter, younger than you)",
+      "short": "Dad's younger brother's daughter",
+      "explain": "A cousin is a brother or sister with a prefix that says which aunt or uncle they come from. Younger cousins are called by name.",
+      "pronoun": {
+        "default": "tumi",
+        "also": [
+          "tui"
+        ],
+        "note": "Cousins close in age often use তুই."
+      },
+      "phrases": [
+        "how",
+        "miss",
+        "festival"
+      ],
+      "terms": {
+        "bd": {
+          "ref": {
+            "bn": "চাচাতো বোন",
+            "tr": "chachato bon",
+            "en": "cousin"
+          },
+          "addr": []
+        },
+        "wb": {
+          "ref": {
+            "bn": "খুড়তুতো বোন",
+            "tr": "khurtuto bon",
+            "en": "cousin"
+          },
+          "addr": []
+        }
+      }
+    },
+    {
+      "id": "cousin-fs-son-elder",
+      "group": "cousins",
+      "gen": 0,
+      "gender": "m",
+      "pick": {
+        "via": "fs",
+        "gender": "m",
+        "age": "elder"
+      },
+      "label": "cousin (father's sister's son, older than you)",
+      "short": "Dad's sister's son",
+      "explain": "A cousin is a brother or sister with a prefix that says which aunt or uncle they come from. Older cousins are addressed like older siblings.",
+      "pronoun": {
+        "default": "tumi",
+        "also": [
+          "apni"
+        ],
+        "note": "Most cousins use তুমি; some use আপনি with a much older cousin."
+      },
+      "phrases": [
+        "greet",
+        "how",
+        "miss",
+        "festival"
+      ],
+      "terms": {
+        "bd": {
+          "ref": {
+            "bn": "ফুফাতো ভাই",
+            "tr": "fufato bhai",
+            "en": "cousin"
+          },
+          "addr": [
+            {
+              "bn": "ভাইয়া",
+              "tr": "bhaiya",
+              "en": "big brother"
+            }
+          ]
+        },
+        "wb": {
+          "ref": {
+            "bn": "পিসতুতো ভাই",
+            "tr": "pistuto bhai",
+            "en": "cousin"
+          },
+          "addr": [
+            {
+              "bn": "দাদা",
+              "tr": "dada",
+              "en": "big brother"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "cousin-fs-son-younger",
+      "group": "cousins",
+      "gen": 0,
+      "gender": "m",
+      "pick": {
+        "via": "fs",
+        "gender": "m",
+        "age": "younger"
+      },
+      "label": "cousin (father's sister's son, younger than you)",
+      "short": "Dad's sister's son",
+      "explain": "A cousin is a brother or sister with a prefix that says which aunt or uncle they come from. Younger cousins are called by name.",
+      "pronoun": {
+        "default": "tumi",
+        "also": [
+          "tui"
+        ],
+        "note": "Cousins close in age often use তুই."
+      },
+      "phrases": [
+        "how",
+        "miss",
+        "festival"
+      ],
+      "terms": {
+        "bd": {
+          "ref": {
+            "bn": "ফুফাতো ভাই",
+            "tr": "fufato bhai",
+            "en": "cousin"
+          },
+          "addr": []
+        },
+        "wb": {
+          "ref": {
+            "bn": "পিসতুতো ভাই",
+            "tr": "pistuto bhai",
+            "en": "cousin"
+          },
+          "addr": []
+        }
+      }
+    },
+    {
+      "id": "cousin-fs-daughter-elder",
+      "group": "cousins",
+      "gen": 0,
+      "gender": "f",
+      "pick": {
+        "via": "fs",
+        "gender": "f",
+        "age": "elder"
+      },
+      "label": "cousin (father's sister's daughter, older than you)",
+      "short": "Dad's sister's daughter",
+      "explain": "A cousin is a brother or sister with a prefix that says which aunt or uncle they come from. Older cousins are addressed like older siblings.",
+      "pronoun": {
+        "default": "tumi",
+        "also": [
+          "apni"
+        ],
+        "note": "Most cousins use তুমি; some use আপনি with a much older cousin."
+      },
+      "phrases": [
+        "greet",
+        "how",
+        "miss",
+        "festival"
+      ],
+      "terms": {
+        "bd": {
+          "ref": {
+            "bn": "ফুফাতো বোন",
+            "tr": "fufato bon",
+            "en": "cousin"
+          },
+          "addr": [
+            {
+              "bn": "আপু",
+              "tr": "apu",
+              "en": "big sister"
+            },
+            {
+              "bn": "আপা",
+              "tr": "apa",
+              "en": "big sister"
+            }
+          ]
+        },
+        "wb": {
+          "ref": {
+            "bn": "পিসতুতো বোন",
+            "tr": "pistuto bon",
+            "en": "cousin"
+          },
+          "addr": [
+            {
+              "bn": "দিদি",
+              "tr": "didi",
+              "en": "big sister"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "cousin-fs-daughter-younger",
+      "group": "cousins",
+      "gen": 0,
+      "gender": "f",
+      "pick": {
+        "via": "fs",
+        "gender": "f",
+        "age": "younger"
+      },
+      "label": "cousin (father's sister's daughter, younger than you)",
+      "short": "Dad's sister's daughter",
+      "explain": "A cousin is a brother or sister with a prefix that says which aunt or uncle they come from. Younger cousins are called by name.",
+      "pronoun": {
+        "default": "tumi",
+        "also": [
+          "tui"
+        ],
+        "note": "Cousins close in age often use তুই."
+      },
+      "phrases": [
+        "how",
+        "miss",
+        "festival"
+      ],
+      "terms": {
+        "bd": {
+          "ref": {
+            "bn": "ফুফাতো বোন",
+            "tr": "fufato bon",
+            "en": "cousin"
+          },
+          "addr": []
+        },
+        "wb": {
+          "ref": {
+            "bn": "পিসতুতো বোন",
+            "tr": "pistuto bon",
+            "en": "cousin"
+          },
+          "addr": []
+        }
+      }
+    },
+    {
+      "id": "cousin-mb-son-elder",
+      "group": "cousins",
+      "gen": 0,
+      "gender": "m",
+      "pick": {
+        "via": "mb",
+        "gender": "m",
+        "age": "elder"
+      },
+      "label": "cousin (mother's brother's son, older than you)",
+      "short": "Mum's brother's son",
+      "explain": "A cousin is a brother or sister with a prefix that says which aunt or uncle they come from. Older cousins are addressed like older siblings.",
+      "pronoun": {
+        "default": "tumi",
+        "also": [
+          "apni"
+        ],
+        "note": "Most cousins use তুমি; some use আপনি with a much older cousin."
+      },
+      "phrases": [
+        "greet",
+        "how",
+        "miss",
+        "festival"
+      ],
+      "terms": {
+        "bd": {
+          "ref": {
+            "bn": "মামাতো ভাই",
+            "tr": "mamato bhai",
+            "en": "cousin"
+          },
+          "addr": [
+            {
+              "bn": "ভাইয়া",
+              "tr": "bhaiya",
+              "en": "big brother"
+            }
+          ]
+        },
+        "wb": {
+          "ref": {
+            "bn": "মামাতো ভাই",
+            "tr": "mamato bhai",
+            "en": "cousin"
+          },
+          "addr": [
+            {
+              "bn": "দাদা",
+              "tr": "dada",
+              "en": "big brother"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "cousin-mb-son-younger",
+      "group": "cousins",
+      "gen": 0,
+      "gender": "m",
+      "pick": {
+        "via": "mb",
+        "gender": "m",
+        "age": "younger"
+      },
+      "label": "cousin (mother's brother's son, younger than you)",
+      "short": "Mum's brother's son",
+      "explain": "A cousin is a brother or sister with a prefix that says which aunt or uncle they come from. Younger cousins are called by name.",
+      "pronoun": {
+        "default": "tumi",
+        "also": [
+          "tui"
+        ],
+        "note": "Cousins close in age often use তুই."
+      },
+      "phrases": [
+        "how",
+        "miss",
+        "festival"
+      ],
+      "terms": {
+        "bd": {
+          "ref": {
+            "bn": "মামাতো ভাই",
+            "tr": "mamato bhai",
+            "en": "cousin"
+          },
+          "addr": []
+        },
+        "wb": {
+          "ref": {
+            "bn": "মামাতো ভাই",
+            "tr": "mamato bhai",
+            "en": "cousin"
+          },
+          "addr": []
+        }
+      }
+    },
+    {
+      "id": "cousin-mb-daughter-elder",
+      "group": "cousins",
+      "gen": 0,
+      "gender": "f",
+      "pick": {
+        "via": "mb",
+        "gender": "f",
+        "age": "elder"
+      },
+      "label": "cousin (mother's brother's daughter, older than you)",
+      "short": "Mum's brother's daughter",
+      "explain": "A cousin is a brother or sister with a prefix that says which aunt or uncle they come from. Older cousins are addressed like older siblings.",
+      "pronoun": {
+        "default": "tumi",
+        "also": [
+          "apni"
+        ],
+        "note": "Most cousins use তুমি; some use আপনি with a much older cousin."
+      },
+      "phrases": [
+        "greet",
+        "how",
+        "miss",
+        "festival"
+      ],
+      "terms": {
+        "bd": {
+          "ref": {
+            "bn": "মামাতো বোন",
+            "tr": "mamato bon",
+            "en": "cousin"
+          },
+          "addr": [
+            {
+              "bn": "আপু",
+              "tr": "apu",
+              "en": "big sister"
+            },
+            {
+              "bn": "আপা",
+              "tr": "apa",
+              "en": "big sister"
+            }
+          ]
+        },
+        "wb": {
+          "ref": {
+            "bn": "মামাতো বোন",
+            "tr": "mamato bon",
+            "en": "cousin"
+          },
+          "addr": [
+            {
+              "bn": "দিদি",
+              "tr": "didi",
+              "en": "big sister"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "cousin-mb-daughter-younger",
+      "group": "cousins",
+      "gen": 0,
+      "gender": "f",
+      "pick": {
+        "via": "mb",
+        "gender": "f",
+        "age": "younger"
+      },
+      "label": "cousin (mother's brother's daughter, younger than you)",
+      "short": "Mum's brother's daughter",
+      "explain": "A cousin is a brother or sister with a prefix that says which aunt or uncle they come from. Younger cousins are called by name.",
+      "pronoun": {
+        "default": "tumi",
+        "also": [
+          "tui"
+        ],
+        "note": "Cousins close in age often use তুই."
+      },
+      "phrases": [
+        "how",
+        "miss",
+        "festival"
+      ],
+      "terms": {
+        "bd": {
+          "ref": {
+            "bn": "মামাতো বোন",
+            "tr": "mamato bon",
+            "en": "cousin"
+          },
+          "addr": []
+        },
+        "wb": {
+          "ref": {
+            "bn": "মামাতো বোন",
+            "tr": "mamato bon",
+            "en": "cousin"
+          },
+          "addr": []
+        }
+      }
+    },
+    {
+      "id": "cousin-ms-son-elder",
+      "group": "cousins",
+      "gen": 0,
+      "gender": "m",
+      "pick": {
+        "via": "ms",
+        "gender": "m",
+        "age": "elder"
+      },
+      "label": "cousin (mother's sister's son, older than you)",
+      "short": "Mum's sister's son",
+      "explain": "A cousin is a brother or sister with a prefix that says which aunt or uncle they come from. Older cousins are addressed like older siblings.",
+      "pronoun": {
+        "default": "tumi",
+        "also": [
+          "apni"
+        ],
+        "note": "Most cousins use তুমি; some use আপনি with a much older cousin."
+      },
+      "phrases": [
+        "greet",
+        "how",
+        "miss",
+        "festival"
+      ],
+      "terms": {
+        "bd": {
+          "ref": {
+            "bn": "খালাতো ভাই",
+            "tr": "khalato bhai",
+            "en": "cousin"
+          },
+          "addr": [
+            {
+              "bn": "ভাইয়া",
+              "tr": "bhaiya",
+              "en": "big brother"
+            }
+          ]
+        },
+        "wb": {
+          "ref": {
+            "bn": "মাসতুতো ভাই",
+            "tr": "mastuto bhai",
+            "en": "cousin"
+          },
+          "addr": [
+            {
+              "bn": "দাদা",
+              "tr": "dada",
+              "en": "big brother"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "cousin-ms-son-younger",
+      "group": "cousins",
+      "gen": 0,
+      "gender": "m",
+      "pick": {
+        "via": "ms",
+        "gender": "m",
+        "age": "younger"
+      },
+      "label": "cousin (mother's sister's son, younger than you)",
+      "short": "Mum's sister's son",
+      "explain": "A cousin is a brother or sister with a prefix that says which aunt or uncle they come from. Younger cousins are called by name.",
+      "pronoun": {
+        "default": "tumi",
+        "also": [
+          "tui"
+        ],
+        "note": "Cousins close in age often use তুই."
+      },
+      "phrases": [
+        "how",
+        "miss",
+        "festival"
+      ],
+      "terms": {
+        "bd": {
+          "ref": {
+            "bn": "খালাতো ভাই",
+            "tr": "khalato bhai",
+            "en": "cousin"
+          },
+          "addr": []
+        },
+        "wb": {
+          "ref": {
+            "bn": "মাসতুতো ভাই",
+            "tr": "mastuto bhai",
+            "en": "cousin"
+          },
+          "addr": []
+        }
+      }
+    },
+    {
+      "id": "cousin-ms-daughter-elder",
+      "group": "cousins",
+      "gen": 0,
+      "gender": "f",
+      "pick": {
+        "via": "ms",
+        "gender": "f",
+        "age": "elder"
+      },
+      "label": "cousin (mother's sister's daughter, older than you)",
+      "short": "Mum's sister's daughter",
+      "explain": "A cousin is a brother or sister with a prefix that says which aunt or uncle they come from. Older cousins are addressed like older siblings.",
+      "pronoun": {
+        "default": "tumi",
+        "also": [
+          "apni"
+        ],
+        "note": "Most cousins use তুমি; some use আপনি with a much older cousin."
+      },
+      "phrases": [
+        "greet",
+        "how",
+        "miss",
+        "festival"
+      ],
+      "terms": {
+        "bd": {
+          "ref": {
+            "bn": "খালাতো বোন",
+            "tr": "khalato bon",
+            "en": "cousin"
+          },
+          "addr": [
+            {
+              "bn": "আপু",
+              "tr": "apu",
+              "en": "big sister"
+            },
+            {
+              "bn": "আপা",
+              "tr": "apa",
+              "en": "big sister"
+            }
+          ]
+        },
+        "wb": {
+          "ref": {
+            "bn": "মাসতুতো বোন",
+            "tr": "mastuto bon",
+            "en": "cousin"
+          },
+          "addr": [
+            {
+              "bn": "দিদি",
+              "tr": "didi",
+              "en": "big sister"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "cousin-ms-daughter-younger",
+      "group": "cousins",
+      "gen": 0,
+      "gender": "f",
+      "pick": {
+        "via": "ms",
+        "gender": "f",
+        "age": "younger"
+      },
+      "label": "cousin (mother's sister's daughter, younger than you)",
+      "short": "Mum's sister's daughter",
+      "explain": "A cousin is a brother or sister with a prefix that says which aunt or uncle they come from. Younger cousins are called by name.",
+      "pronoun": {
+        "default": "tumi",
+        "also": [
+          "tui"
+        ],
+        "note": "Cousins close in age often use তুই."
+      },
+      "phrases": [
+        "how",
+        "miss",
+        "festival"
+      ],
+      "terms": {
+        "bd": {
+          "ref": {
+            "bn": "খালাতো বোন",
+            "tr": "khalato bon",
+            "en": "cousin"
+          },
+          "addr": []
+        },
+        "wb": {
+          "ref": {
+            "bn": "মাসতুতো বোন",
+            "tr": "mastuto bon",
+            "en": "cousin"
+          },
+          "addr": []
+        }
+      }
+    }
+  ]
+}

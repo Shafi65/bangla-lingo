@@ -1,0 +1,131 @@
+{
+  "id": "u08-daily-routine-story",
+  "unit": "u08-daily-routine",
+  "title": {
+    "bn": "প্রতিদিন সকালে",
+    "tr": "protidin shokale",
+    "en": "Every morning"
+  },
+  "summary": "Morning at home: everyone is busy, and Rafi is 'studying'.",
+  "status": "draft",
+  "lines": [
+    {
+      "bn": "নানি প্রতিদিন খুব সকালে ওঠেন।",
+      "tr": "nani protidin khub shokale othen.",
+      "en": "Nani gets up very early every day."
+    },
+    {
+      "bn": "তারপর উনি নামাজ পড়েন।",
+      "tr": "tarpor uni namaj poren.",
+      "en": "Then she prays."
+    },
+    {
+      "bn": "আব্বু সাতটায় ওঠেন আর আটটায় অফিসে যান।",
+      "tr": "abbu shattay othen ar attay ofise jan.",
+      "en": "Abbu gets up at seven and goes to the office at eight."
+    },
+    {
+      "bn": "নাদিয়া ডাক্তার। ও প্রতিদিন অনেক কাজ করে।",
+      "tr": "nadiya daktar. o protidin onek kaj kore.",
+      "en": "Nadia is a doctor. She works a lot every day."
+    },
+    {
+      "speaker": "Ammu",
+      "bn": "রাফি, তুমি কী করছো?",
+      "tr": "rafi, tumi ki korchho?",
+      "en": "Rafi, what are you doing?"
+    },
+    {
+      "speaker": "Rafi",
+      "bn": "আমি পড়ছি, আম্মু!",
+      "tr": "ami porchhi, ammu!",
+      "en": "I'm studying, Mom!"
+    },
+    {
+      "speaker": "Ammu",
+      "bn": "সত্যি? তাহলে বই কোথায়?",
+      "tr": "shotti? tahole boi kothay?",
+      "en": "Really? Then where's your book?"
+    },
+    {
+      "bn": "আসলে রাফি টিভি দেখছে।",
+      "tr": "ashole rafi tibhi dekhchhe.",
+      "en": "Actually, Rafi is watching TV."
+    },
+    {
+      "speaker": "Ammu",
+      "bn": "রাফি! টিভি না, বই!",
+      "tr": "rafi! tibhi na, boi!",
+      "en": "Rafi! Not the TV, your book!"
+    },
+    {
+      "speaker": "Rafi",
+      "bn": "আচ্ছা, আম্মু। এখন পড়ছি।",
+      "tr": "achchha, ammu. ekhon porchhi.",
+      "en": "OK, Mom. I'm studying now."
+    }
+  ],
+  "questions": [
+    {
+      "after": 1,
+      "question": "What does Nani do after she gets up?",
+      "options": [
+        "She prays",
+        "She watches TV",
+        "She goes to the office"
+      ],
+      "answer": 0,
+      "why": "নামাজ পড়েন = she prays (literally 'reads the prayer')."
+    },
+    {
+      "after": 2,
+      "question": "At what time does Abbu go to the office?",
+      "questionBn": {
+        "bn": "আব্বু কয়টায় অফিসে যান?",
+        "tr": "abbu koytay ofise jan?",
+        "en": "At what time does Abbu go to the office?"
+      },
+      "options": [
+        {
+          "bn": "আটটায়",
+          "tr": "attay",
+          "en": "at eight"
+        },
+        {
+          "bn": "সাতটায়",
+          "tr": "shattay",
+          "en": "at seven"
+        },
+        {
+          "bn": "দশটায়",
+          "tr": "doshtay",
+          "en": "at ten"
+        }
+      ],
+      "answer": 0,
+      "why": "আব্বু সাতটায় ওঠেন (gets up at seven) আর আটটায় অফিসে যান (goes to the office at eight)."
+    },
+    {
+      "after": 3,
+      "question": "What does Nadia do every day?",
+      "options": [
+        "She works a lot",
+        "She sleeps a lot",
+        "She watches TV"
+      ],
+      "answer": 0,
+      "why": "অনেক কাজ করে = works a lot."
+    },
+    {
+      "after": 7,
+      "question": "What is Rafi really doing?",
+      "options": [
+        "Watching TV",
+        "Reading a book",
+        "Sleeping"
+      ],
+      "answer": 0,
+      "why": "আসলে = actually; দেখছে = is watching."
+    }
+  ]
+}

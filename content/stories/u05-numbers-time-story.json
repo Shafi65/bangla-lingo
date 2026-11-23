@@ -1,0 +1,130 @@
+{
+  "id": "u05-numbers-time-story",
+  "unit": "u05-numbers-time",
+  "title": {
+    "bn": "বিকাল সাড়ে পাঁচটা",
+    "tr": "bikal share pa~chta",
+    "en": "Half past five in the afternoon"
+  },
+  "summary": "Ages, a cheeky guess, and Nani's favourite time of day.",
+  "status": "draft",
+  "lines": [
+    {
+      "bn": "আজ শুক্রবার, বিকাল।",
+      "tr": "aj shukrobar, bikal.",
+      "en": "It's Friday afternoon."
+    },
+    {
+      "speaker": "Nani",
+      "bn": "তোমার বয়স কি বিশ?",
+      "tr": "tomar boyosh ki bish?",
+      "en": "Are you twenty?"
+    },
+    {
+      "speaker": "Emma",
+      "bn": "না, নানি। আমার বয়স ত্রিশ।",
+      "tr": "na, nani. amar boyosh trish.",
+      "en": "No, Nani. I'm thirty."
+    },
+    {
+      "speaker": "Rafi",
+      "bn": "নানি, আপনার বয়স কি আশি?",
+      "tr": "nani, apnar boyosh ki ashi?",
+      "en": "Nani, are you eighty?"
+    },
+    {
+      "speaker": "Nani",
+      "bn": "না! আমার বয়স সত্তর।",
+      "tr": "na! amar boyosh shottor.",
+      "en": "No! I'm seventy."
+    },
+    {
+      "speaker": "Rafi",
+      "bn": "আচ্ছা, সত্তর। দুঃখিত, নানি!",
+      "tr": "achchha, shottor. dukkhito, nani!",
+      "en": "OK, seventy. Sorry, Nani!"
+    },
+    {
+      "speaker": "Nani",
+      "bn": "এখন কয়টা বাজে?",
+      "tr": "ekhon koyta baje?",
+      "en": "What time is it now?"
+    },
+    {
+      "speaker": "Nadia",
+      "bn": "সাড়ে পাঁচটা।",
+      "tr": "share pa~chta.",
+      "en": "Half past five."
+    },
+    {
+      "speaker": "Nani",
+      "bn": "বিকাল সাড়ে পাঁচটা? চা!",
+      "tr": "bikal share pa~chta? cha!",
+      "en": "Half past five in the afternoon? Tea time!"
+    },
+    {
+      "speaker": "Rafi",
+      "bn": "আর মিষ্টি!",
+      "tr": "ar mishti!",
+      "en": "And sweets!"
+    }
+  ],
+  "questions": [
+    {
+      "after": 2,
+      "question": "How old is Emma?",
+      "options": [
+        "Thirty",
+        "Twenty",
+        "Seventy"
+      ],
+      "answer": 0,
+      "why": "ত্রিশ = thirty. Nani guessed বিশ (twenty)."
+    },
+    {
+      "after": 4,
+      "question": "How old is Nani?",
+      "options": [
+        {
+          "bn": "সত্তর",
+          "tr": "shottor",
+          "en": "seventy"
+        },
+        {
+          "bn": "আশি",
+          "tr": "ashi",
+          "en": "eighty"
+        },
+        {
+          "bn": "ষাট",
+          "tr": "shat",
+          "en": "sixty"
+        }
+      ],
+      "answer": 0,
+      "why": "Rafi guesses আশি (80), but Nani says সত্তর (70)."
+    },
+    {
+      "after": 7,
+      "question": "What time is it?",
+      "options": [
+        "5:30",
+        "5:15",
+        "4:45"
+      ],
+      "answer": 0,
+      "why": "সাড়ে means 'half past': সাড়ে পাঁচটা = 5:30. Quarter past is সোয়া and quarter to is পৌনে."
+    },
+    {
+      "after": 9,
+      "question": "What does Rafi want with the tea?",
+      "options": [
+        "Sweets",
+        "Rice",
+        "Fish"
+      ],
+      "answer": 0,
+      "why": "আর মিষ্টি = 'and sweets'."
+    }
+  ]
+}

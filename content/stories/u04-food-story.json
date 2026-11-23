@@ -1,0 +1,140 @@
+{
+  "id": "u04-food-story",
+  "unit": "u04-food",
+  "title": {
+    "bn": "চিনি ছাড়া চা",
+    "tr": "chini chhara cha",
+    "en": "Tea without sugar"
+  },
+  "summary": "Lunch with Nani: rice, lentils, fish, and two very different cups of tea.",
+  "status": "draft",
+  "lines": [
+    {
+      "speaker": "Nani",
+      "bn": "তোমার কি ক্ষুধা লেগেছে?",
+      "tr": "tomar ki khudha legechhe?",
+      "en": "Are you hungry?"
+    },
+    {
+      "speaker": "Emma",
+      "bn": "হ্যাঁ, নানি। খুব ক্ষুধা লেগেছে!",
+      "tr": "hya~, nani. khub khudha legechhe!",
+      "en": "Yes, Nani. I'm very hungry!"
+    },
+    {
+      "speaker": "Nani",
+      "bn": "ভাত, ডাল আর মাছ। তুমি মাছ খাও?",
+      "tr": "bhat, dal ar machh. tumi machh khao?",
+      "en": "Rice, lentils and fish. Do you eat fish?"
+    },
+    {
+      "speaker": "Emma",
+      "bn": "হ্যাঁ, আমি মাছ খাই। কিন্তু আমার ঝাল পছন্দ না।",
+      "tr": "hya~, ami machh khai. kintu amar jhal pochhondo na.",
+      "en": "Yes, I eat fish. But I don't like spicy food."
+    },
+    {
+      "speaker": "Rafi",
+      "bn": "আমার ঝাল খুব ভালো লাগে!",
+      "tr": "amar jhal khub bhalo lage!",
+      "en": "I love spicy food!"
+    },
+    {
+      "speaker": "Nani",
+      "bn": "সমস্যা নেই। এটা ঝাল নয়।",
+      "tr": "shomossha nei. eta jhal noy.",
+      "en": "No problem. This isn't spicy.",
+      "senses": {
+        "নয়": "noy-isnt"
+      }
+    },
+    {
+      "speaker": "Emma",
+      "bn": "খুব মজা!",
+      "tr": "khub moja!",
+      "en": "Very tasty!"
+    },
+    {
+      "speaker": "Ammu",
+      "bn": "আর কিছু খেতে চাও?",
+      "tr": "ar kichhu khete chao?",
+      "en": "Would you like something else to eat?"
+    },
+    {
+      "speaker": "Emma",
+      "bn": "না, ধন্যবাদ। আমি চা চাই, চিনি ছাড়া।",
+      "tr": "na, dhonnobad. ami cha chai, chini chhara.",
+      "en": "No, thank you. I'd like tea, without sugar."
+    },
+    {
+      "speaker": "Rafi",
+      "bn": "চিনি ছাড়া চা? আমি চিনি ছাড়া চা খাই না!",
+      "tr": "chini chhara cha? ami chini chhara cha khai na!",
+      "en": "Tea without sugar? I never drink tea without sugar!"
+    },
+    {
+      "speaker": "Nani",
+      "bn": "অবশ্যই। এক কাপ চা চিনি ছাড়া, আর এক কাপ মিষ্টি চা।",
+      "tr": "oboshshoi. ek kap cha chini chhara, ar ek kap mishti cha.",
+      "en": "Of course. One cup of tea without sugar, and one cup of sweet tea."
+    }
+  ],
+  "questions": [
+    {
+      "after": 1,
+      "question": "How is Emma feeling?",
+      "options": [
+        "Very hungry",
+        "Very tired",
+        "Not hungry"
+      ],
+      "answer": 0,
+      "why": "ক্ষুধা লেগেছে means 'hunger has come on', i.e. 'I'm hungry'. খুব = very."
+    },
+    {
+      "after": 4,
+      "question": "Who likes spicy food?",
+      "options": [
+        "Rafi",
+        "Emma",
+        "Nobody"
+      ],
+      "answer": 0,
+      "why": "Emma says আমার ঝাল পছন্দ না ('I don't like spicy food'); Rafi says ঝাল খুব ভালো লাগে ('I really like it')."
+    },
+    {
+      "after": 8,
+      "question": "How does Emma want her tea?",
+      "options": [
+        {
+          "bn": "চিনি ছাড়া",
+          "tr": "chini chhara",
+          "en": "without sugar"
+        },
+        {
+          "bn": "দুধ ছাড়া",
+          "tr": "dudh chhara",
+          "en": "without milk"
+        },
+        {
+          "bn": "খুব মিষ্টি",
+          "tr": "khub mishti",
+          "en": "very sweet"
+        }
+      ],
+      "answer": 0,
+      "why": "ছাড়া means 'without': চিনি ছাড়া = 'without sugar'."
+    },
+    {
+      "after": 10,
+      "question": "What does Nani bring?",
+      "options": [
+        "One cup without sugar and one sweet cup",
+        "Two cups of milk",
+        "More fish for Rafi"
+      ],
+      "answer": 0,
+      "why": "এক কাপ = one cup; মিষ্টি চা = sweet tea. In Bengali you 'eat' tea: চা খাই."
+    }
+  ]
+}

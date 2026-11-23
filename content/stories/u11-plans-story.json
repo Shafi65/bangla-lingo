@@ -1,0 +1,160 @@
+{
+  "id": "u11-plans-story",
+  "unit": "u11-plans",
+  "title": {
+    "bn": "সিলেটে বেড়াতে",
+    "tr": "shilete berate",
+    "en": "A trip to Sylhet"
+  },
+  "summary": "Mama calls: when is the family coming to Sylhet, and what will they do?",
+  "status": "draft",
+  "lines": [
+    {
+      "speaker": "Mama",
+      "bn": "রাফি, তোমরা কবে সিলেটে আসবে?",
+      "tr": "rafi, tomra kobe shilete ashbe?",
+      "en": "Rafi, when will you all come to Sylhet?"
+    },
+    {
+      "speaker": "Rafi",
+      "bn": "ইনশাআল্লাহ, আগামী শুক্রবার।",
+      "tr": "inshaallah, agami shukrobar.",
+      "en": "God willing, next Friday."
+    },
+    {
+      "speaker": "Mama",
+      "bn": "খুব ভালো! কত দিন থাকবে?",
+      "tr": "khub bhalo! koto din thakbe?",
+      "en": "Great! How many days will you stay?",
+      "senses": {
+        "দিন": "din-day"
+      }
+    },
+    {
+      "speaker": "Rafi",
+      "bn": "আমরা তিন দিন থাকব।",
+      "tr": "amra tin din thakbo.",
+      "en": "We'll stay three days.",
+      "senses": {
+        "দিন": "din-day"
+      }
+    },
+    {
+      "speaker": "Mama",
+      "bn": "সিলেটে কী দেখবে?",
+      "tr": "shilete ki dekhbe?",
+      "en": "What will you see in Sylhet?"
+    },
+    {
+      "speaker": "Rafi",
+      "bn": "আমরা শহর দেখব, আর গ্রাম দেখব।",
+      "tr": "amra shohor dekhbo, ar gram dekhbo.",
+      "en": "We'll see the city, and we'll see a village."
+    },
+    {
+      "speaker": "Mama",
+      "bn": "তোমার মামি তোমাদের জন্য পিঠা তৈরি করবে।",
+      "tr": "tomar mami tomader jonno pitha toiri korbe.",
+      "en": "Your aunt will make pitha for you."
+    },
+    {
+      "speaker": "Rafi",
+      "bn": "সত্যি? আমি অনেক পিঠা খাব!",
+      "tr": "shotti? ami onek pitha khabo!",
+      "en": "Really? I'll eat lots of pitha!"
+    },
+    {
+      "speaker": "Mama",
+      "bn": "নাদিয়া কি আসবে?",
+      "tr": "nadiya ki ashbe?",
+      "en": "Will Nadia come?"
+    },
+    {
+      "speaker": "Rafi",
+      "bn": "আপু খুব ব্যস্ত। কিন্তু ও আসবে, ইনশাআল্লাহ।",
+      "tr": "apu khub byasto. kintu o ashbe, inshaallah.",
+      "en": "Apu is very busy. But she'll come, God willing."
+    },
+    {
+      "speaker": "Mama",
+      "bn": "আচ্ছা। তাহলে শুক্রবার দেখা হবে!",
+      "tr": "achchha. tahole shukrobar dekha hobe!",
+      "en": "OK. Then see you on Friday!"
+    }
+  ],
+  "questions": [
+    {
+      "after": 1,
+      "question": "When will they go to Sylhet?",
+      "options": [
+        "Next Friday",
+        "Tomorrow",
+        "Next month"
+      ],
+      "answer": 0,
+      "why": "আগামী শুক্রবার = next Friday. ইনশাআল্লাহ ('God willing') is often said about plans."
+    },
+    {
+      "after": 3,
+      "question": "How many days will they stay?",
+      "questionBn": {
+        "bn": "ওরা কত দিন থাকবে?",
+        "tr": "ora koto din thakbe?",
+        "en": "How many days will they stay?",
+        "senses": {
+          "দিন": "din-day"
+        }
+      },
+      "options": [
+        {
+          "bn": "তিন দিন",
+          "tr": "tin din",
+          "en": "three days",
+          "senses": {
+            "দিন": "din-day"
+          }
+        },
+        {
+          "bn": "দুই দিন",
+          "tr": "dui din",
+          "en": "two days",
+          "senses": {
+            "দিন": "din-day"
+          }
+        },
+        {
+          "bn": "দশ দিন",
+          "tr": "dosh din",
+          "en": "ten days",
+          "senses": {
+            "দিন": "din-day"
+          }
+        }
+      ],
+      "answer": 0,
+      "why": "থাকব = we will stay; তিন দিন = three days."
+    },
+    {
+      "after": 6,
+      "question": "What will Mami make?",
+      "options": [
+        "Pitha (rice cakes)",
+        "Biryani",
+        "Tea"
+      ],
+      "answer": 0,
+      "why": "পিঠা are rice cakes; তৈরি করবে = will make."
+    },
+    {
+      "after": 9,
+      "question": "What does Rafi say about Nadia?",
+      "options": [
+        "She's very busy, but she'll come",
+        "She won't come",
+        "She's already in Sylhet"
+      ],
+      "answer": 0,
+      "why": "ব্যস্ত = busy; ও আসবে = she will come."
+    }
+  ]
+}

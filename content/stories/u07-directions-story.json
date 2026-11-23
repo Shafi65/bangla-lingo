@@ -1,0 +1,147 @@
+{
+  "id": "u07-directions-story",
+  "unit": "u07-directions",
+  "title": {
+    "bn": "মামা ঢাকায়",
+    "tr": "mama dhakay",
+    "en": "Mama in Dhaka"
+  },
+  "summary": "Mama arrives from Sylhet and takes a rickshaw to the family's home.",
+  "status": "draft",
+  "lines": [
+    {
+      "bn": "মামা সিলেটে থাকেন।",
+      "tr": "mama shilete thaken.",
+      "en": "Mama, Ammu's brother, lives in Sylhet."
+    },
+    {
+      "bn": "আজ উনি ট্রেনে ঢাকায় এসেছেন।",
+      "tr": "aj uni trene dhakay eshechhen.",
+      "en": "Today he has come to Dhaka by train."
+    },
+    {
+      "speaker": "Mama",
+      "bn": "ভাই, ধানমন্ডি যাবেন?",
+      "tr": "bhai, dhanmondi jaben?",
+      "en": "Brother, will you go to Dhanmondi?"
+    },
+    {
+      "speaker": "Rickshaw puller",
+      "bn": "যাব।",
+      "tr": "jabo.",
+      "en": "Yes, I'll go."
+    },
+    {
+      "speaker": "Mama",
+      "bn": "ভাড়া কত?",
+      "tr": "bhara koto?",
+      "en": "How much is the fare?"
+    },
+    {
+      "speaker": "Rickshaw puller",
+      "bn": "দুইশ টাকা।",
+      "tr": "duisho taka.",
+      "en": "Two hundred taka."
+    },
+    {
+      "speaker": "Mama",
+      "bn": "দুইশ! ধানমন্ডি কি অনেক দূরে?",
+      "tr": "duisho! dhanmondi ki onek dure?",
+      "en": "Two hundred! Is Dhanmondi very far?"
+    },
+    {
+      "speaker": "Rickshaw puller",
+      "bn": "না, কাছে। কিন্তু এখন অনেক গাড়ি।",
+      "tr": "na, kachhe. kintu ekhon onek gari.",
+      "en": "No, it's near. But there are lots of cars now."
+    },
+    {
+      "speaker": "Mama",
+      "bn": "সোজা যান। মোড়ে ডানে।",
+      "tr": "shoja jan. more dane.",
+      "en": "Go straight. Turn right at the intersection."
+    },
+    {
+      "speaker": "Mama",
+      "bn": "মসজিদের পাশে থামেন।",
+      "tr": "moshjider pashe thamen.",
+      "en": "Stop next to the mosque."
+    },
+    {
+      "speaker": "Rafi",
+      "bn": "মামা! আসসালামু আলাইকুম!",
+      "tr": "mama! assalamu alaikum!",
+      "en": "Mama! Hello!"
+    }
+  ],
+  "questions": [
+    {
+      "after": 0,
+      "question": "Where does Mama live?",
+      "options": [
+        "In Sylhet",
+        "In Dhaka",
+        "In America"
+      ],
+      "answer": 0,
+      "why": "সিলেটে = in Sylhet; থাকেন = lives (polite)."
+    },
+    {
+      "after": 1,
+      "question": "How did Mama come to Dhaka?",
+      "options": [
+        {
+          "bn": "ট্রেনে",
+          "tr": "trene",
+          "en": "by train"
+        },
+        {
+          "bn": "বাসে",
+          "tr": "base",
+          "en": "by bus"
+        },
+        {
+          "bn": "রিকশায়",
+          "tr": "rikshay",
+          "en": "by rickshaw"
+        }
+      ],
+      "answer": 0,
+      "why": "ট্রেনে = by train. The ending -এ here means 'by'."
+    },
+    {
+      "after": 7,
+      "question": "What does the rickshaw puller say about Dhanmondi?",
+      "options": [
+        "It's near, but there are lots of cars.",
+        "It's very far.",
+        "He doesn't go there."
+      ],
+      "answer": 0,
+      "why": "কাছে = near; অনেক গাড়ি = lots of cars. Dhaka traffic!"
+    },
+    {
+      "after": 9,
+      "question": "Where should the rickshaw stop?",
+      "options": [
+        {
+          "bn": "মসজিদের পাশে",
+          "tr": "moshjider pashe",
+          "en": "next to the mosque"
+        },
+        {
+          "bn": "স্টেশনের সামনে",
+          "tr": "steshoner shamne",
+          "en": "in front of the station"
+        },
+        {
+          "bn": "হোটেলের পিছনে",
+          "tr": "hoteler pichhone",
+          "en": "behind the hotel"
+        }
+      ],
+      "answer": 0,
+      "why": "মসজিদের পাশে = next to the mosque; থামেন = stop (polite)."
+    }
+  ]
+}

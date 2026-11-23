@@ -1,0 +1,148 @@
+{
+  "id": "u14-feelings-health-story",
+  "unit": "u14-feelings-health",
+  "title": {
+    "bn": "অনেক পিঠা",
+    "tr": "onek pitha",
+    "en": "Too much pitha"
+  },
+  "summary": "Nadia arrives in Sylhet and finds her brother with a stomach ache.",
+  "status": "draft",
+  "lines": [
+    {
+      "bn": "নাদিয়া সিলেটে এসেছে।",
+      "tr": "nadiya shilete eshechhe.",
+      "en": "Nadia has come to Sylhet."
+    },
+    {
+      "speaker": "Nadia",
+      "bn": "রাফি, তোমার কী হয়েছে?",
+      "tr": "rafi, tomar ki hoyechhe?",
+      "en": "Rafi, what's wrong?"
+    },
+    {
+      "speaker": "Rafi",
+      "bn": "আপু, আমার পেট ব্যথা।",
+      "tr": "apu, amar pet byatha.",
+      "en": "Apu, I have a stomach ache."
+    },
+    {
+      "speaker": "Rafi",
+      "bn": "আমি গতকাল অনেক পিঠা খেলাম।",
+      "tr": "ami gotokal onek pitha khelam.",
+      "en": "I ate a lot of pitha yesterday."
+    },
+    {
+      "speaker": "Nadia",
+      "bn": "অনেক পিঠা! জ্বর আছে?",
+      "tr": "onek pitha! jor achhe?",
+      "en": "A lot of pitha! Do you have a fever?"
+    },
+    {
+      "speaker": "Rafi",
+      "bn": "না, জ্বর নেই। শুধু পেট ব্যথা।",
+      "tr": "na, jor nei. shudhu pet byatha.",
+      "en": "No, no fever. Just a stomach ache."
+    },
+    {
+      "speaker": "Nadia",
+      "bn": "চিন্তা নেই। এই ওষুধ নাও। দিনে দুই বার খাও।",
+      "tr": "chinta nei. ei oshudh nao. dine dui bar khao.",
+      "en": "Don't worry. Take this medicine. Take it twice a day.",
+      "senses": {
+        "বার": "bar-times"
+      }
+    },
+    {
+      "speaker": "Nadia",
+      "bn": "আর আজ বিশ্রাম নাও। পিঠা না!",
+      "tr": "ar aj bishram nao. pitha na!",
+      "en": "And rest today. No pitha!"
+    },
+    {
+      "speaker": "Rafi",
+      "bn": "পিঠা না? আমার মন খারাপ।",
+      "tr": "pitha na? amar mon kharap.",
+      "en": "No pitha? That makes me sad."
+    },
+    {
+      "speaker": "Nani",
+      "bn": "মন খারাপ করিস না। কাল আবার পিঠা খাবি।",
+      "tr": "mon kharap korish na. kal abar pitha khabi.",
+      "en": "Don't be sad. Tomorrow you'll have pitha again."
+    },
+    {
+      "speaker": "Rafi",
+      "bn": "ইনশাআল্লাহ!",
+      "tr": "inshaallah!",
+      "en": "God willing!"
+    }
+  ],
+  "questions": [
+    {
+      "after": 2,
+      "question": "What's wrong with Rafi?",
+      "options": [
+        "He has a stomach ache",
+        "He has a fever",
+        "He has a headache"
+      ],
+      "answer": 0,
+      "why": "পেট = stomach; ব্যথা = pain."
+    },
+    {
+      "after": 3,
+      "question": "Why does his stomach hurt?",
+      "options": [
+        "He ate a lot of pitha yesterday",
+        "He didn't eat yesterday",
+        "He drank cold water"
+      ],
+      "answer": 0,
+      "why": "অনেক পিঠা খেলাম = I ate a lot of pitha."
+    },
+    {
+      "after": 6,
+      "question": "How often should Rafi take the medicine?",
+      "options": [
+        {
+          "bn": "দিনে দুই বার",
+          "tr": "dine dui bar",
+          "en": "twice a day",
+          "senses": {
+            "বার": "bar-times"
+          }
+        },
+        {
+          "bn": "দিনে তিন বার",
+          "tr": "dine tin bar",
+          "en": "three times a day",
+          "senses": {
+            "বার": "bar-times"
+          }
+        },
+        {
+          "bn": "দিনে এক বার",
+          "tr": "dine ek bar",
+          "en": "once a day",
+          "senses": {
+            "বার": "bar-times"
+          }
+        }
+      ],
+      "answer": 0,
+      "why": "দিনে = a day; বার = times. In Bengali you 'eat' medicine: ওষুধ খাও."
+    },
+    {
+      "after": 9,
+      "question": "What does Nani promise?",
+      "options": [
+        "Tomorrow he can have pitha again",
+        "Tomorrow he will go to hospital",
+        "Tomorrow they will go home"
+      ],
+      "answer": 0,
+      "why": "কাল আবার পিঠা খাবি = tomorrow you'll eat pitha again. Nani uses তুই, the warm, intimate 'you'."
+    }
+  ]
+}
