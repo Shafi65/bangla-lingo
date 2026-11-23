@@ -48,12 +48,12 @@ test("the list groups stories by unit and unlocks them with the unit's first les
   await page.goto("/stories");
   await expect(page.getByRole("heading", { level: 1, name: "Stories" })).toBeVisible();
   const cards = page.getByTestId("story-card");
-  await expect(cards).toHaveCount(13);
+  await expect(cards).toHaveCount(14);
   await expect(page.locator(`[data-story-id="${STORY_ID}"]`)).toHaveAttribute("data-unlocked", "true");
   await expect(page.locator('[data-story-id="u03-family-story"]')).toHaveAttribute("data-unlocked", "false");
   await expect(page.locator('[data-story-id="u03-family-story"]')).toContainText("Finish the first lesson of Unit 3");
   await expect(page.getByRole("heading", { level: 2, name: /Unit 2 · / })).toBeVisible();
-  await expect(page.getByTestId("stories-count")).toHaveText("0 of 13 read");
+  await expect(page.getByTestId("stories-count")).toHaveText("0 of 14 read");
   if (SHOTS) await page.screenshot({ path: path.join(SHOTS, "stories-list-390.png"), fullPage: false });
 });
 

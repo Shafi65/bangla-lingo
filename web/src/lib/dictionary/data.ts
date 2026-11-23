@@ -12,10 +12,10 @@ export interface DictEntry {
   /** Other English glosses. */
   alt?: string[];
   pos: string;
-  /** Index into DictData.units. */
+  /** Index into DictData.units; -1 for words no unit teaches (the supplementary family lexicon). */
   u: number;
-  /** Lesson id that teaches it. */
-  l: string;
+  /** Lesson id that teaches it. Omitted for words no lesson teaches (shown as "From My family"). */
+  l?: string;
   /** Kolkata variant, "bn · tr". */
   k?: string;
   notes?: string;
@@ -39,8 +39,9 @@ export function getDictionary(): DictData {
   const used = new Set<string>();
   const entries: DictEntry[] = getLexicon().map((e) => {
     used.add(e.pos);
-    let u = unitIds.indexOf(e.unit);
-    if (u < 0) u = 0;
+    // Words in a lexicon whose unit is not in the course (family-extra.json) have no lesson or guide
+    // section: keep them out of the unit filter and link them to /family instead.
+    const u = e.lesson ? unitIds.indexOf(e.unit) : -1;
     const k = e.kolkata ? [e.kolkata.bn, e.kolkata.tr].filter(Boolean).join(" · ") : "";
     return {
       id: e.id,
@@ -50,7 +51,7 @@ export function getDictionary(): DictData {
       ...(e.alt?.length ? { alt: e.alt } : {}),
       pos: e.pos,
       u,
-      l: e.lesson,
+      ...(e.lesson && u >= 0 ? { l: e.lesson } : {}),
       ...(k ? { k } : {}),
       ...(e.notes ? { notes: e.notes } : {}),
     };

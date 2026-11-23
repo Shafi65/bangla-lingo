@@ -1,0 +1,989 @@
+{
+  "unit": "u15-describing",
+  "lessons": [
+    {
+      "id": "u15-l01",
+      "kind": "lesson",
+      "title": "What do they look like?",
+      "goal": "Describe how someone looks: height, build, hair and face.",
+      "grammar": [
+        "person + adjective, no verb: রাফি লম্বা",
+        "ও দেখতে কেমন? 'what does he look like?'; ওর চুল লম্বা (-র form for hair, face)"
+      ],
+      "new": [
+        "dekhte-looks",
+        "lomba",
+        "khato",
+        "mota",
+        "patla",
+        "chul",
+        "mukh",
+        "besh"
+      ],
+      "review": [
+        "o-pron",
+        "uni",
+        "or",
+        "amar",
+        "khub",
+        "ektu",
+        "boro",
+        "chhoto",
+        "shundor",
+        "chokh",
+        "kemon",
+        "baba",
+        "bon"
+      ],
+      "tip": "**Describing someone needs no verb.** Put the adjective after the person: **রাফি লম্বা** 'Rafi is tall', **নাদিয়া একটু খাটো** 'Nadia is a bit short'.\n\n**দেখতে** 'to look at' shows you mean looks: **ও দেখতে কেমন?** 'What does he look like?' Answer: **ও দেখতে খুব লম্বা** 'he's very tall'.\n\nFor hair and face, use the -র form: **ওর চুল লম্বা** 'her hair is long' (literally 'her hair long'). **খাটো** is short for people; for things say **ছোট**. **বেশ** 'quite' is softer than **খুব** 'very'.",
+      "sentences": [
+        {
+          "bn": "ও দেখতে কেমন?",
+          "tr": "o dekhte kemon?",
+          "en": "What does he look like?",
+          "alt": [
+            "What does she look like?"
+          ]
+        },
+        {
+          "bn": "রাফি দেখতে খুব লম্বা।",
+          "tr": "rafi dekhte khub lomba.",
+          "en": "Rafi is very tall.",
+          "alt": [
+            "Rafi looks very tall."
+          ]
+        },
+        {
+          "bn": "নাদিয়া একটু খাটো।",
+          "tr": "nadiya ektu khato.",
+          "en": "Nadia is a bit short.",
+          "alt": [
+            "Nadia is a little short."
+          ]
+        },
+        {
+          "bn": "আমার বাবা একটু মোটা।",
+          "tr": "amar baba ektu mota.",
+          "en": "My father is a bit plump.",
+          "alt": [
+            "My father is a little fat.",
+            "My dad is a bit fat."
+          ]
+        },
+        {
+          "bn": "আমার বোন খুব পাতলা।",
+          "tr": "amar bon khub patla.",
+          "en": "My sister is very thin.",
+          "alt": [
+            "My sister is very slim."
+          ]
+        },
+        {
+          "bn": "ওর চুল লম্বা।",
+          "tr": "or chul lomba.",
+          "en": "Her hair is long.",
+          "alt": [
+            "His hair is long.",
+            "She has long hair."
+          ]
+        },
+        {
+          "bn": "ওর মুখ খুব সুন্দর।",
+          "tr": "or mukh khub shundor.",
+          "en": "She has a lovely face.",
+          "alt": [
+            "Her face is very beautiful.",
+            "His face is very handsome."
+          ]
+        },
+        {
+          "bn": "উনি বেশ লম্বা।",
+          "tr": "uni besh lomba.",
+          "en": "He is quite tall.",
+          "alt": [
+            "She is quite tall."
+          ]
+        },
+        {
+          "bn": "ওর চোখ খুব বড়।",
+          "tr": "or chokh khub boro.",
+          "en": "Her eyes are very big.",
+          "alt": [
+            "His eyes are very big.",
+            "She has very big eyes."
+          ]
+        },
+        {
+          "bn": "নাদিয়া দেখতে খুব সুন্দর।",
+          "tr": "nadiya dekhte khub shundor.",
+          "en": "Nadia is very pretty.",
+          "alt": [
+            "Nadia looks very beautiful.",
+            "Nadia is very beautiful."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u15-l02",
+      "kind": "lesson",
+      "title": "What are they like?",
+      "goal": "Say what someone is like (kind, funny, shy, short-tempered) and how old they are.",
+      "grammar": [
+        "ও কেমন মানুষ? 'what kind of person is he?'; উনি খুব ভালো মানুষ",
+        "age: কম বয়সী 'young', বয়স্ক 'elderly' (polite) vs বুড়ো 'old' (blunt); 'isn't' = adjective + না"
+      ],
+      "new": [
+        "buro",
+        "boyoshko",
+        "kom-boyoshi",
+        "bhalo-manush",
+        "ragi",
+        "mojar-funny",
+        "lajuk",
+        "hashikhushi"
+      ],
+      "review": [
+        "manush",
+        "ekjon",
+        "kemon",
+        "khub",
+        "ektu",
+        "kintu",
+        "nana",
+        "shikkhok",
+        "chacha",
+        "bhai",
+        "apu",
+        "amader",
+        "rafi",
+        "nadia"
+      ],
+      "tip": "**Character works like looks:** person + adjective, no verb. **ও কেমন মানুষ?** 'What kind of person is he?' **উনি খুব ভালো মানুষ** 'He's a really good person' is the everyday praise.\n\n**মজার** is U4's 'tasty'; about people it means funny: **মজার মানুষ**. **রাগী** 'short-tempered' comes from **রাগ** 'anger'.\n\nAge: **কম বয়সী** 'young' (literally 'of little age'). **বুড়ো** 'old' is blunt; **বয়স্ক** 'elderly' is the polite word, especially for someone you call আপনি. 'Isn't' after an adjective is just **না**: **ও বুড়ো না**.",
+      "sentences": [
+        {
+          "bn": "ও কেমন মানুষ?",
+          "tr": "o kemon manush?",
+          "en": "What kind of person is he?",
+          "alt": [
+            "What is she like?",
+            "What's he like?",
+            "What kind of person is she?"
+          ]
+        },
+        {
+          "bn": "আমার চাচা খুব ভালো মানুষ।",
+          "tr": "amar chacha khub bhalo manush.",
+          "en": "My uncle is a very kind person.",
+          "alt": [
+            "My uncle is a really good person.",
+            "My uncle is a very nice man."
+          ]
+        },
+        {
+          "bn": "আমার ভাই একটু রাগী।",
+          "tr": "amar bhai ektu ragi.",
+          "en": "My brother is a bit short-tempered.",
+          "alt": [
+            "My brother gets angry easily.",
+            "My brother is a bit bad-tempered."
+          ]
+        },
+        {
+          "bn": "রাফি খুব মজার মানুষ।",
+          "tr": "rafi khub mojar manush.",
+          "en": "Rafi is a really funny person.",
+          "alt": [
+            "Rafi is very funny.",
+            "Rafi is a lot of fun."
+          ]
+        },
+        {
+          "bn": "নাদিয়া একটু লাজুক।",
+          "tr": "nadiya ektu lajuk.",
+          "en": "Nadia is a little shy.",
+          "alt": [
+            "Nadia is a bit shy."
+          ]
+        },
+        {
+          "bn": "আমার আপু খুব হাসিখুশি।",
+          "tr": "amar apu khub hashikhushi.",
+          "en": "My big sister is very cheerful.",
+          "alt": [
+            "My elder sister is very cheerful.",
+            "My older sister is always cheerful."
+          ]
+        },
+        {
+          "bn": "উনি একজন বয়স্ক মানুষ।",
+          "tr": "uni ekjon boyoshko manush.",
+          "en": "He is an elderly man.",
+          "alt": [
+            "She is an elderly woman.",
+            "He is an old man.",
+            "She is an elderly person."
+          ]
+        },
+        {
+          "bn": "আমাদের শিক্ষক কম বয়সী।",
+          "tr": "amader shikkhok kom boyoshi.",
+          "en": "Our teacher is young.",
+          "alt": [
+            "Our teacher is quite young."
+          ]
+        },
+        {
+          "bn": "আমার নানা বয়স্ক, কিন্তু খুব হাসিখুশি।",
+          "tr": "amar nana boyoshko, kintu khub hashikhushi.",
+          "en": "My grandfather is elderly, but very cheerful.",
+          "alt": [
+            "My grandad is old, but very cheerful."
+          ]
+        },
+        {
+          "bn": "ও বুড়ো না, ও কম বয়সী।",
+          "tr": "o buro na, o kom boyoshi.",
+          "en": "He isn't old, he's young.",
+          "alt": [
+            "She isn't old, she's young."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u15-l03",
+      "kind": "lesson",
+      "title": "Colours",
+      "goal": "Name colours, ask what colour something is, and say your favourite.",
+      "grammar": [
+        "colour after the noun = 'is': আকাশ নীল; before it = describes: লাল শাড়ি",
+        "এটার রং কী? / তোমার প্রিয় রং কী?"
+      ],
+      "new": [
+        "rong",
+        "nil",
+        "shobuj",
+        "holud",
+        "kalo",
+        "shada",
+        "golapi",
+        "priyo"
+      ],
+      "review": [
+        "lal",
+        "akash",
+        "gachh",
+        "kola",
+        "jama",
+        "sharita",
+        "chul",
+        "ki-what",
+        "tomar",
+        "etar",
+        "pochhondo",
+        "ei",
+        "na"
+      ],
+      "tip": "**Colours are adjectives.** After the noun they need no verb: **আকাশ নীল** 'the sky is blue'. Before the noun they describe it: **লাল শাড়ি** 'a red sari'.\n\nAsk with **রং** 'colour': **এটার রং কী?** 'What colour is this?' **তোমার প্রিয় রং কী?** 'What's your favourite colour?'\n\n**হলুদ** is also turmeric, the yellow spice in almost every curry. 'Not' is **না**: **এই কলা হলুদ না, সবুজ** 'this banana isn't yellow, it's green'. You will also see the spelling **রঙ**.",
+      "sentences": [
+        {
+          "bn": "তোমার প্রিয় রং কী?",
+          "tr": "tomar priyo rong ki?",
+          "en": "What's your favourite colour?",
+          "alt": [
+            "What is your favorite color?"
+          ]
+        },
+        {
+          "bn": "আমার প্রিয় রং নীল।",
+          "tr": "amar priyo rong nil.",
+          "en": "My favourite colour is blue.",
+          "alt": [
+            "My favorite color is blue."
+          ]
+        },
+        {
+          "bn": "আকাশ নীল আর গাছ সবুজ।",
+          "tr": "akash nil ar gachh shobuj.",
+          "en": "The sky is blue and the trees are green.",
+          "alt": [
+            "The sky is blue and the tree is green."
+          ]
+        },
+        {
+          "bn": "এই কলা হলুদ না, সবুজ।",
+          "tr": "ei kola holud na, shobuj.",
+          "en": "This banana isn't yellow, it's green.",
+          "alt": [
+            "This banana is not yellow, it is green."
+          ]
+        },
+        {
+          "bn": "ওর চুল কালো।",
+          "tr": "or chul kalo.",
+          "en": "Her hair is black.",
+          "alt": [
+            "His hair is black.",
+            "She has black hair."
+          ]
+        },
+        {
+          "bn": "আমার জামা সাদা।",
+          "tr": "amar jama shada.",
+          "en": "My shirt is white.",
+          "alt": [
+            "My top is white."
+          ]
+        },
+        {
+          "bn": "শাড়িটা লাল আর গোলাপি।",
+          "tr": "sharita lal ar golapi.",
+          "en": "The sari is red and pink.",
+          "alt": [
+            "The sari is pink and red."
+          ]
+        },
+        {
+          "bn": "এটার রং কী?",
+          "tr": "etar rong ki?",
+          "en": "What colour is this?",
+          "alt": [
+            "What color is this?",
+            "What colour is it?"
+          ]
+        },
+        {
+          "bn": "গোলাপি রং আমার খুব পছন্দ।",
+          "tr": "golapi rong amar khub pochhondo.",
+          "en": "I really like pink.",
+          "alt": [
+            "I like the colour pink a lot.",
+            "I love pink."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u15-l04",
+      "kind": "lesson",
+      "title": "What's the weather like?",
+      "goal": "Ask about the weather and say it's hot, raining, sunny, cloudy or windy.",
+      "grammar": [
+        "weather + adjective, no verb: আজ খুব গরম",
+        "rain 'happens': বৃষ্টি হচ্ছে / হবে; রোদ উঠেছে 'the sun is out'; আমার গরম লাগছে 'I feel hot'"
+      ],
+      "new": [
+        "abohawa",
+        "gorom",
+        "brishti",
+        "hochchhe",
+        "rod",
+        "uthechhe",
+        "megh",
+        "meghla",
+        "batash"
+      ],
+      "review": [
+        "aj",
+        "kal",
+        "kemon",
+        "khub",
+        "baire",
+        "onek",
+        "akash",
+        "lagchhe",
+        "amar",
+        "thanda",
+        "hobe",
+        "bhalo",
+        "ekhon"
+      ],
+      "tip": "**Weather is described like a person:** no verb. **আজ খুব গরম** 'it's very hot today', **বাইরে খুব বাতাস** 'it's very windy outside'. Ask **আজ আবহাওয়া কেমন?**\n\nRain *happens*: **বৃষ্টি হচ্ছে** 'it's raining' (literally 'rain is happening'), **বৃষ্টি হবে** 'it will rain'. The sun *rises*: **রোদ উঠেছে** 'the sun is out'.\n\nFeeling hot uses U14's pattern: **আমার গরম লাগছে** 'I feel hot'. **মেঘ** is a cloud; **মেঘলা** is cloudy: **আজ আকাশ মেঘলা**.",
+      "sentences": [
+        {
+          "bn": "আজ আবহাওয়া কেমন?",
+          "tr": "aj abohawa kemon?",
+          "en": "What's the weather like today?",
+          "alt": [
+            "How is the weather today?"
+          ]
+        },
+        {
+          "bn": "আজ খুব গরম।",
+          "tr": "aj khub gorom.",
+          "en": "It's very hot today.",
+          "alt": [
+            "It is really hot today."
+          ]
+        },
+        {
+          "bn": "আমার গরম লাগছে।",
+          "tr": "amar gorom lagchhe.",
+          "en": "I feel hot.",
+          "alt": [
+            "I'm hot.",
+            "I'm feeling hot."
+          ]
+        },
+        {
+          "bn": "বাইরে বৃষ্টি হচ্ছে।",
+          "tr": "baire brishti hochchhe.",
+          "en": "It's raining outside.",
+          "alt": [
+            "It is raining outside."
+          ]
+        },
+        {
+          "bn": "আজ রোদ উঠেছে।",
+          "tr": "aj rod uthechhe.",
+          "en": "The sun is out today.",
+          "alt": [
+            "It's sunny today."
+          ]
+        },
+        {
+          "bn": "আজ আকাশ মেঘলা।",
+          "tr": "aj akash meghla.",
+          "en": "It's cloudy today.",
+          "alt": [
+            "The sky is cloudy today.",
+            "It's overcast today."
+          ]
+        },
+        {
+          "bn": "অনেক মেঘ, বৃষ্টি হবে।",
+          "tr": "onek megh, brishti hobe.",
+          "en": "There are lots of clouds; it's going to rain.",
+          "alt": [
+            "Lots of clouds, it will rain.",
+            "It's very cloudy, it will rain."
+          ]
+        },
+        {
+          "bn": "বাইরে খুব বাতাস।",
+          "tr": "baire khub batash.",
+          "en": "It's very windy outside.",
+          "alt": [
+            "It is really windy outside."
+          ]
+        },
+        {
+          "bn": "আজ আবহাওয়া খুব ভালো।",
+          "tr": "aj abohawa khub bhalo.",
+          "en": "The weather is very nice today.",
+          "alt": [
+            "The weather is really good today."
+          ]
+        },
+        {
+          "bn": "কাল বৃষ্টি হবে না।",
+          "tr": "kal brishti hobe na.",
+          "en": "It won't rain tomorrow.",
+          "alt": [
+            "It will not rain tomorrow."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u15-l05",
+      "kind": "lesson",
+      "title": "Seasons and the monsoon",
+      "goal": "Talk about cold and hot spells, the monsoon, fog and storms.",
+      "grammar": [
+        "শীত / গরম পড়েছে 'it has turned cold / hot'; আমার শীত লাগছে 'I feel cold'",
+        "বর্ষায় 'in the monsoon'; habit হয় vs now হচ্ছে"
+      ],
+      "new": [
+        "shit",
+        "borsha",
+        "borshay",
+        "porechhe",
+        "kuyasha",
+        "chhata",
+        "ashchhe"
+      ],
+      "review": [
+        "ritu",
+        "jhor",
+        "bangladeshe",
+        "onek",
+        "hoy",
+        "thanda",
+        "nao",
+        "shokale",
+        "chhilo",
+        "kon",
+        "ekhon",
+        "shundor"
+      ],
+      "tip": "**Cold and heat 'fall':** **শীত পড়েছে** 'it has turned cold', **গরম পড়েছে** 'the hot weather is here'. Feeling cold: **আমার শীত লাগছে**. **ঠান্ডা** (U14) is cold to the touch, like water; **শীত** is the cold you feel, and winter.\n\n**বর্ষা** is the monsoon, roughly June to October. **বর্ষায়** means 'in the monsoon': **বর্ষায় অনেক বৃষ্টি হয়** 'it rains a lot in the monsoon'. **হয়** is a habit; **হচ্ছে** is happening now.\n\nWinter mornings bring **কুয়াশা** 'fog'. And take a **ছাতা** 'umbrella'!",
+      "sentences": [
+        {
+          "bn": "আজ খুব শীত পড়েছে।",
+          "tr": "aj khub shit porechhe.",
+          "en": "It's turned really cold today.",
+          "alt": [
+            "It's very cold today.",
+            "It is really cold today."
+          ]
+        },
+        {
+          "bn": "আমার শীত লাগছে।",
+          "tr": "amar shit lagchhe.",
+          "en": "I feel cold.",
+          "alt": [
+            "I'm cold.",
+            "I'm feeling cold."
+          ]
+        },
+        {
+          "bn": "বর্ষায় অনেক বৃষ্টি হয়।",
+          "tr": "borshay onek brishti hoy.",
+          "en": "It rains a lot in the monsoon.",
+          "alt": [
+            "There's a lot of rain in the rainy season."
+          ]
+        },
+        {
+          "bn": "বাংলাদেশে বর্ষা খুব সুন্দর।",
+          "tr": "bangladeshe borsha khub shundor.",
+          "en": "The monsoon is beautiful in Bangladesh.",
+          "alt": [
+            "The rainy season is very beautiful in Bangladesh."
+          ]
+        },
+        {
+          "bn": "সকালে অনেক কুয়াশা ছিল।",
+          "tr": "shokale onek kuyasha chhilo.",
+          "en": "It was very foggy in the morning.",
+          "alt": [
+            "There was a lot of fog in the morning.",
+            "It was very foggy this morning."
+          ]
+        },
+        {
+          "bn": "ঝড় আসছে!",
+          "tr": "jhor ashchhe!",
+          "en": "A storm is coming!",
+          "alt": [
+            "There's a storm coming!"
+          ]
+        },
+        {
+          "bn": "ছাতা নাও, বৃষ্টি হচ্ছে।",
+          "tr": "chhata nao, brishti hochchhe.",
+          "en": "Take an umbrella, it's raining.",
+          "alt": [
+            "Take an umbrella, it is raining."
+          ]
+        },
+        {
+          "bn": "এখন কোন ঋতু?",
+          "tr": "ekhon kon ritu?",
+          "en": "What season is it now?",
+          "alt": [
+            "Which season is it now?"
+          ]
+        },
+        {
+          "bn": "এখন বর্ষা।",
+          "tr": "ekhon borsha.",
+          "en": "It's the monsoon now.",
+          "alt": [
+            "It's the rainy season now."
+          ]
+        },
+        {
+          "bn": "এখন খুব গরম পড়েছে।",
+          "tr": "ekhon khub gorom porechhe.",
+          "en": "It's got very hot now.",
+          "alt": [
+            "The hot weather is here now.",
+            "It's very hot now."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u15-l06",
+      "kind": "lesson",
+      "title": "Taller than me",
+      "goal": "Compare two people or things with চেয়ে 'than'.",
+      "grammar": [
+        "X-র চেয়ে + adjective: রাফি আমার চেয়ে লম্বা (the adjective never changes)",
+        "people: বড় / ছোট = older / younger; দুই বছরের বড়; বেশি / কম / অনেক"
+      ],
+      "new": [
+        "cheye",
+        "otar",
+        "dhakar",
+        "rafir",
+        "bochhorer"
+      ],
+      "review": [
+        "amar",
+        "tomar",
+        "babar",
+        "etar",
+        "eta",
+        "lomba",
+        "khato",
+        "boro",
+        "chhoto",
+        "bhalo",
+        "beshi",
+        "kom",
+        "dami",
+        "onek",
+        "dui",
+        "shilete",
+        "nadia",
+        "rafi"
+      ],
+      "tip": "**'Than' is চেয়ে**, after the -র form of what you compare with: **আমার চেয়ে** 'than me', **রাফির চেয়ে** 'than Rafi', **ঢাকার চেয়ে** 'than Dhaka', **ওটার চেয়ে** 'than that one'.\n\nThe adjective never changes, so there is no '-er': **রাফি আমার চেয়ে লম্বা** 'Rafi is taller than me' (literally 'Rafi, than me, tall').\n\nFor people, **বড়** and **ছোট** mean older and younger: **নাদিয়া রাফির চেয়ে দুই বছরের ছোট**. Use **বেশি** 'more' or **কম** 'less' for amounts, and **অনেক** for 'much'.",
+      "sentences": [
+        {
+          "bn": "রাফি আমার চেয়ে লম্বা।",
+          "tr": "rafi amar cheye lomba.",
+          "en": "Rafi is taller than me.",
+          "alt": [
+            "Rafi is taller than I am."
+          ]
+        },
+        {
+          "bn": "আমি তোমার চেয়ে বড়।",
+          "tr": "ami tomar cheye boro.",
+          "en": "I'm older than you.",
+          "alt": [
+            "I am older than you.",
+            "I'm bigger than you."
+          ]
+        },
+        {
+          "bn": "নাদিয়া রাফির চেয়ে দুই বছরের ছোট।",
+          "tr": "nadiya rafir cheye dui bochhorer chhoto.",
+          "en": "Nadia is two years younger than Rafi.",
+          "alt": [
+            "Nadia is two years younger than Rafi is."
+          ]
+        },
+        {
+          "bn": "এটা ওটার চেয়ে ভালো।",
+          "tr": "eta otar cheye bhalo.",
+          "en": "This one is better than that one.",
+          "alt": [
+            "This is better than that.",
+            "This is better than that one."
+          ]
+        },
+        {
+          "bn": "সিলেটে ঢাকার চেয়ে বেশি বৃষ্টি হয়।",
+          "tr": "shilete dhakar cheye beshi brishti hoy.",
+          "en": "It rains more in Sylhet than in Dhaka.",
+          "alt": [
+            "Sylhet gets more rain than Dhaka."
+          ]
+        },
+        {
+          "bn": "এই শাড়িটা ওটার চেয়ে কম দামি।",
+          "tr": "ei sharita otar cheye kom dami.",
+          "en": "This sari is less expensive than that one.",
+          "alt": [
+            "This sari is cheaper than that one."
+          ]
+        },
+        {
+          "bn": "আমার ভাই আমার চেয়ে অনেক লম্বা।",
+          "tr": "amar bhai amar cheye onek lomba.",
+          "en": "My brother is much taller than me.",
+          "alt": [
+            "My brother is a lot taller than me."
+          ]
+        },
+        {
+          "bn": "আমার মা বাবার চেয়ে খাটো।",
+          "tr": "amar ma babar cheye khato.",
+          "en": "My mother is shorter than my father.",
+          "alt": [
+            "My mum is shorter than my dad.",
+            "My mother is shorter than father."
+          ]
+        },
+        {
+          "bn": "আমি রাফির চেয়ে দুই বছরের বড়।",
+          "tr": "ami rafir cheye dui bochhorer boro.",
+          "en": "I'm two years older than Rafi.",
+          "alt": [
+            "I am two years older than Rafi."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u15-l07",
+      "kind": "lesson",
+      "title": "The best, the same, different",
+      "goal": "Say what is the most, ask which one, and say things are the same or different.",
+      "grammar": [
+        "সবচেয়ে / সবার চেয়ে + adjective = 'the most …'; কোনটা? 'which one?'",
+        "একই রকম 'the same', আলাদা 'different', প্রায় 'almost'; দেখতে X-র মতো 'looks like X'"
+      ],
+      "new": [
+        "shobar",
+        "eki",
+        "rokom",
+        "alada",
+        "konta",
+        "pray"
+      ],
+      "review": [
+        "shobcheye",
+        "aro",
+        "moto",
+        "mayer",
+        "dekhte-looks",
+        "duita",
+        "bhalo",
+        "boro",
+        "lomba",
+        "ekta",
+        "achhe",
+        "bashay",
+        "amader",
+        "beshi",
+        "shundor"
+      ],
+      "tip": "**'The most' is সবচেয়ে** (U6): **সবচেয়ে ভালো** 'the best', **বাবা সবচেয়ে লম্বা** 'Dad is the tallest'. **সবার চেয়ে** 'than everyone' works the same way.\n\nAsk **কোনটা?** 'which one?': **কোনটা সবচেয়ে ভালো?** 'Which one is the best?'\n\n**একই রকম** means 'the same, alike' and **আলাদা** 'different': **এই দুইটা একই রকম**. Soften with **প্রায়** 'almost'. 'Looks like' is **দেখতে … মতো**: **ও দেখতে ওর মায়ের মতো** 'she looks like her mother'. In a shop: **আরও বড় একটা আছে?** 'Is there a bigger one?'",
+      "sentences": [
+        {
+          "bn": "আমাদের বাসায় বাবা সবচেয়ে লম্বা।",
+          "tr": "amader bashay baba shobcheye lomba.",
+          "en": "Dad is the tallest in our house.",
+          "alt": [
+            "In our family, Dad is the tallest.",
+            "My father is the tallest in our home."
+          ]
+        },
+        {
+          "bn": "নাদিয়া সবার চেয়ে লম্বা।",
+          "tr": "nadiya shobar cheye lomba.",
+          "en": "Nadia is the tallest of all.",
+          "alt": [
+            "Nadia is taller than everyone."
+          ]
+        },
+        {
+          "bn": "কোনটা সবচেয়ে ভালো?",
+          "tr": "konta shobcheye bhalo?",
+          "en": "Which one is the best?",
+          "alt": [
+            "Which is the best?"
+          ]
+        },
+        {
+          "bn": "কোনটা বেশি সুন্দর?",
+          "tr": "konta beshi shundor?",
+          "en": "Which one is prettier?",
+          "alt": [
+            "Which one is more beautiful?",
+            "Which is nicer?"
+          ]
+        },
+        {
+          "bn": "এই দুইটা একই রকম।",
+          "tr": "ei duita eki rokom.",
+          "en": "These two are the same.",
+          "alt": [
+            "These two are alike.",
+            "These two are the same kind."
+          ]
+        },
+        {
+          "bn": "এই দুইটা আলাদা।",
+          "tr": "ei duita alada.",
+          "en": "These two are different.",
+          "alt": [
+            "These two are not the same."
+          ]
+        },
+        {
+          "bn": "আমি আর আমার বোন দেখতে প্রায় একই রকম।",
+          "tr": "ami ar amar bon dekhte pray eki rokom.",
+          "en": "My sister and I look almost the same.",
+          "alt": [
+            "My sister and I look almost alike.",
+            "I and my sister look nearly the same."
+          ]
+        },
+        {
+          "bn": "ও দেখতে ওর মায়ের মতো।",
+          "tr": "o dekhte or mayer moto.",
+          "en": "She looks like her mother.",
+          "alt": [
+            "He looks like his mother.",
+            "She looks like her mum."
+          ]
+        },
+        {
+          "bn": "আরও বড় একটা আছে?",
+          "tr": "aro boro ekta achhe?",
+          "en": "Is there a bigger one?",
+          "alt": [
+            "Do you have a bigger one?",
+            "Is there a larger one?"
+          ]
+        },
+        {
+          "bn": "বর্ষায় সবচেয়ে বেশি বৃষ্টি হয়।",
+          "tr": "borshay shobcheye beshi brishti hoy.",
+          "en": "It rains the most in the monsoon.",
+          "alt": [
+            "The monsoon has the most rain."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u15-l08",
+      "kind": "review",
+      "title": "Review: Describing & comparing",
+      "goal": "Bring together looks, character, colours, weather and seasons, and comparing.",
+      "grammar": [
+        "describing with no verb: রাফি লম্বা, আজ খুব গরম; দেখতে কেমন?",
+        "comparing: X-র চেয়ে, সবচেয়ে, একই রকম, আলাদা"
+      ],
+      "new": [],
+      "review": [
+        "dekhte-looks",
+        "lomba",
+        "khato",
+        "mota",
+        "patla",
+        "chul",
+        "mukh",
+        "besh",
+        "buro",
+        "boyoshko",
+        "kom-boyoshi",
+        "bhalo-manush",
+        "ragi",
+        "mojar-funny",
+        "lajuk",
+        "hashikhushi",
+        "rong",
+        "nil",
+        "shobuj",
+        "holud",
+        "kalo",
+        "shada",
+        "golapi",
+        "priyo",
+        "abohawa",
+        "gorom",
+        "brishti",
+        "hochchhe",
+        "rod",
+        "uthechhe",
+        "megh",
+        "meghla",
+        "batash",
+        "shit",
+        "borsha",
+        "borshay",
+        "porechhe",
+        "kuyasha",
+        "chhata",
+        "ashchhe",
+        "cheye",
+        "otar",
+        "dhakar",
+        "rafir",
+        "bochhorer",
+        "shobar",
+        "eki",
+        "rokom",
+        "alada",
+        "konta",
+        "pray"
+      ],
+      "tip": "**Looks and character:** **ও দেখতে কেমন?** · **লম্বা, খাটো, মোটা, পাতলা** · **ওর চুল কালো** · **খুব ভালো মানুষ**, **মজার**, **লাজুক**, **রাগী**, **হাসিখুশি** · **কম বয়সী**, **বয়স্ক**.\n\n**Colours:** **লাল, নীল, সবুজ, হলুদ, কালো, সাদা, গোলাপি** · **তোমার প্রিয় রং কী?**\n\n**Weather:** **আজ আবহাওয়া কেমন?** · **বৃষ্টি হচ্ছে** · **রোদ উঠেছে** · **শীত পড়েছে** · **আমার শীত লাগছে** · **বর্ষায় অনেক বৃষ্টি হয়**.\n\n**Comparing:** **রাফি আমার চেয়ে লম্বা** · **দুই বছরের বড়** · **সবচেয়ে ভালো** · **কোনটা?** · **একই রকম** / **আলাদা**.",
+      "sentences": [
+        {
+          "bn": "রাফি লম্বা আর একটু পাতলা।",
+          "tr": "rafi lomba ar ektu patla.",
+          "en": "Rafi is tall and a bit thin.",
+          "alt": [
+            "Rafi is tall and a little slim."
+          ]
+        },
+        {
+          "bn": "ওর চুল কালো আর লম্বা।",
+          "tr": "or chul kalo ar lomba.",
+          "en": "Her hair is black and long.",
+          "alt": [
+            "His hair is black and long.",
+            "She has long black hair."
+          ]
+        },
+        {
+          "bn": "উনি খুব ভালো মানুষ, একটু লাজুক।",
+          "tr": "uni khub bhalo manush, ektu lajuk.",
+          "en": "He's a very kind person, a bit shy.",
+          "alt": [
+            "She's a really good person, a little shy."
+          ]
+        },
+        {
+          "bn": "বাইরে রোদ উঠেছে, কিন্তু খুব বাতাস।",
+          "tr": "baire rod uthechhe, kintu khub batash.",
+          "en": "The sun is out, but it's very windy.",
+          "alt": [
+            "It's sunny outside, but very windy."
+          ]
+        },
+        {
+          "bn": "বর্ষায় ছাতা লাগবে।",
+          "tr": "borshay chhata lagbe.",
+          "en": "You'll need an umbrella in the monsoon.",
+          "alt": [
+            "In the rainy season you need an umbrella."
+          ]
+        },
+        {
+          "bn": "আমার ভাই আমার চেয়ে তিন বছরের বড়।",
+          "tr": "amar bhai amar cheye tin bochhorer boro.",
+          "en": "My brother is three years older than me.",
+          "alt": [
+            "My brother is three years older than I am."
+          ]
+        },
+        {
+          "bn": "এই দুইটা প্রায় একই রকম।",
+          "tr": "ei duita pray eki rokom.",
+          "en": "These two are almost the same.",
+          "alt": [
+            "These two are nearly alike."
+          ]
+        },
+        {
+          "bn": "আজ খুব শীত পড়েছে, সকালে কুয়াশা ছিল।",
+          "tr": "aj khub shit porechhe, shokale kuyasha chhilo.",
+          "en": "It's turned very cold today; it was foggy this morning.",
+          "alt": [
+            "It's very cold today, and there was fog in the morning."
+          ]
+        },
+        {
+          "bn": "আমার প্রিয় রং সবুজ।",
+          "tr": "amar priyo rong shobuj.",
+          "en": "My favourite colour is green.",
+          "alt": [
+            "My favorite color is green."
+          ]
+        }
+      ]
+    }
+  ]
+}

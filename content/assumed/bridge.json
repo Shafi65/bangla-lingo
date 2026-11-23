@@ -437,28 +437,11 @@
       "pos": "verb"
     },
     {
-      "id": "ashchhe",
-      "bn": "আসছে",
-      "tr": "ashchhe",
-      "en": "he/she is coming",
-      "pos": "verb"
-    },
-    {
       "id": "ashchhi",
       "bn": "আসছি",
       "tr": "ashchhi",
       "en": "I am coming",
       "pos": "verb"
-    },
-    {
-      "id": "hochchhe",
-      "bn": "হচ্ছে",
-      "tr": "hochchhe",
-      "en": "is happening",
-      "pos": "verb",
-      "alt": [
-        "is becoming"
-      ]
     },
     {
       "id": "khachchhe",
@@ -628,13 +611,6 @@
       "pos": "pronoun"
     },
     {
-      "id": "konta",
-      "bn": "কোনটা",
-      "tr": "konta",
-      "en": "which one",
-      "pos": "pronoun"
-    },
-    {
       "id": "kibhabe",
       "bn": "কীভাবে",
       "tr": "kibhabe",
@@ -755,41 +731,6 @@
       "pos": "number"
     },
     {
-      "id": "besh",
-      "bn": "বেশ",
-      "tr": "besh",
-      "en": "quite",
-      "pos": "adv"
-    },
-    {
-      "id": "pray",
-      "bn": "প্রায়",
-      "tr": "pray",
-      "en": "almost; about",
-      "pos": "adv"
-    },
-    {
-      "id": "lomba",
-      "bn": "লম্বা",
-      "tr": "lomba",
-      "en": "tall; long",
-      "pos": "adj"
-    },
-    {
-      "id": "mota",
-      "bn": "মোটা",
-      "tr": "mota",
-      "en": "fat; thick",
-      "pos": "adj"
-    },
-    {
-      "id": "patla",
-      "bn": "পাতলা",
-      "tr": "patla",
-      "en": "thin",
-      "pos": "adj"
-    },
-    {
       "id": "shohoj",
       "bn": "সহজ",
       "tr": "shohoj",
@@ -819,13 +760,6 @@
       "pos": "adj"
     },
     {
-      "id": "gorom",
-      "bn": "গরম",
-      "tr": "gorom",
-      "en": "hot; heat",
-      "pos": "adj"
-    },
-    {
       "id": "bhari",
       "bn": "ভারী",
       "tr": "bhari",
@@ -840,67 +774,10 @@
       "pos": "adj"
     },
     {
-      "id": "nil",
-      "bn": "নীল",
-      "tr": "nil",
-      "en": "blue",
-      "pos": "adj"
-    },
-    {
-      "id": "shobuj",
-      "bn": "সবুজ",
-      "tr": "shobuj",
-      "en": "green",
-      "pos": "adj"
-    },
-    {
-      "id": "holud",
-      "bn": "হলুদ",
-      "tr": "holud",
-      "en": "yellow; turmeric",
-      "pos": "adj"
-    },
-    {
-      "id": "kalo",
-      "bn": "কালো",
-      "tr": "kalo",
-      "en": "black",
-      "pos": "adj"
-    },
-    {
-      "id": "shada",
-      "bn": "সাদা",
-      "tr": "shada",
-      "en": "white",
-      "pos": "adj"
-    },
-    {
-      "id": "rong",
-      "bn": "রং",
-      "tr": "rong",
-      "en": "colour",
-      "pos": "noun"
-    },
-    {
-      "id": "cheye",
-      "bn": "চেয়ে",
-      "tr": "cheye",
-      "en": "than",
-      "pos": "postposition",
-      "notes": "X-এর চেয়ে 'than X'."
-    },
-    {
       "id": "mon",
       "bn": "মন",
       "tr": "mon",
       "en": "mind; heart",
-      "pos": "noun"
-    },
-    {
-      "id": "mukh",
-      "bn": "মুখ",
-      "tr": "mukh",
-      "en": "face; mouth",
       "pos": "noun"
     },
     {
@@ -909,58 +786,6 @@
       "tr": "oshukh",
       "en": "illness",
       "pos": "noun"
-    },
-    {
-      "id": "abohawa",
-      "bn": "আবহাওয়া",
-      "tr": "abohawa",
-      "en": "weather",
-      "pos": "noun"
-    },
-    {
-      "id": "brishti",
-      "bn": "বৃষ্টি",
-      "tr": "brishti",
-      "en": "rain",
-      "pos": "noun"
-    },
-    {
-      "id": "rod",
-      "bn": "রোদ",
-      "tr": "rod",
-      "en": "sunshine",
-      "pos": "noun"
-    },
-    {
-      "id": "shit",
-      "bn": "শীত",
-      "tr": "shit",
-      "en": "cold (weather); winter",
-      "pos": "noun"
-    },
-    {
-      "id": "batash",
-      "bn": "বাতাস",
-      "tr": "batash",
-      "en": "wind; air",
-      "pos": "noun"
-    },
-    {
-      "id": "megh",
-      "bn": "মেঘ",
-      "tr": "megh",
-      "en": "cloud",
-      "pos": "noun"
-    },
-    {
-      "id": "borsha",
-      "bn": "বর্ষা",
-      "tr": "borsha",
-      "en": "monsoon",
-      "pos": "noun",
-      "alt": [
-        "rainy season"
-      ]
     },
     {
       "id": "rannaghor",

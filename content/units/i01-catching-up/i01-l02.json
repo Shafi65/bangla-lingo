@@ -514,71 +514,61 @@
     },
     {
       "id": "r01",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "পড়তাম",
-        "tr": "portam",
-        "en": "I used to study"
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "রাতে আমি বই পড়তাম।",
+        "tr": "rate ami boi portam.",
+        "en": "At night I used to read books."
       },
-      "direction": "bn_to_en",
+      "blank": "পড়তাম",
       "options": [
-        "take (intimate)",
-        "please come (standard)",
-        "I used to study",
-        "I haven't heard"
+        "পড়তাম",
+        "কিনেছি",
+        "এসেছি",
+        "দেবেন"
       ],
-      "answer": 2,
+      "answer": 0,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "listen_select",
+      "type": "listen_meaning",
       "audio": {
-        "bn": "খেলতাম",
-        "tr": "kheltam",
-        "en": "I used to play"
+        "bn": "বিকালে আমরা মাঠে খেলতাম।",
+        "tr": "bikale amra mathe kheltam.",
+        "en": "In the afternoon we used to play in the field."
       },
       "options": [
-        "যাচ্ছি",
-        "খেলতাম",
-        "পারব",
-        "শুনতে"
+        "Happy birthday.",
+        "I am a student, my name is Nadia.",
+        "In the afternoon we used to play in the field.",
+        "My younger sister reads books."
       ],
-      "answer": 1,
+      "answer": 2,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "fill_blank",
-      "sentence": {
-        "bn": "ছোটবেলায় খেলা আমার খুব পছন্দ ছিল।",
-        "tr": "chhotobelay khela amar khub pochhondo chhilo.",
-        "en": "As a child I really liked playing."
+      "type": "select_translation",
+      "prompt": {
+        "bn": "খেলা",
+        "tr": "khela",
+        "en": "game; playing"
       },
-      "blank": "খেলা",
+      "direction": "en_to_bn",
       "options": [
-        "মামি",
-        "পানি",
         "খেলা",
-        "লাইন"
+        "মিনিট",
+        "স্টেশনের",
+        "পূজায়"
       ],
-      "answer": 2,
+      "answer": 0,
       "recycle": true
     },
     {
       "id": "r04",
       "type": "match_pairs",
       "pairs": [
-        {
-          "bn": "পুকুর",
-          "tr": "pukur",
-          "en": "pond"
-        },
-        {
-          "bn": "ছোটবেলা",
-          "tr": "chhotobela",
-          "en": "childhood"
-        },
         {
           "bn": "মাঠ",
           "tr": "math",
@@ -588,6 +578,16 @@
           "bn": "মাঠে",
           "tr": "mathe",
           "en": "in the field"
+        },
+        {
+          "bn": "পুকুর",
+          "tr": "pukur",
+          "en": "pond"
+        },
+        {
+          "bn": "ছোটবেলা",
+          "tr": "chhotobela",
+          "en": "childhood"
         }
       ],
       "recycle": true
@@ -597,24 +597,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "পৌঁছেছি",
-          "tr": "pou~chhechhi",
-          "en": "I have reached"
+          "bn": "পেটে",
+          "tr": "pete",
+          "en": "in the stomach"
         },
         {
-          "bn": "পাঠাও",
-          "tr": "pathao",
-          "en": "send (familiar)"
+          "bn": "ডাকুন",
+          "tr": "dakun",
+          "en": "please call (standard)"
         },
         {
-          "bn": "জানাবেন",
-          "tr": "janaben",
-          "en": "please let (me) know (polite)"
+          "bn": "বাঁচাও",
+          "tr": "ba~chao",
+          "en": "help! (save me)"
         },
         {
-          "bn": "পাঠাব",
-          "tr": "pathabo",
-          "en": "I will send"
+          "bn": "খাওয়ার",
+          "tr": "khawar",
+          "en": "eating; meals"
         }
       ],
       "recycle": true

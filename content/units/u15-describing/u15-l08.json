@@ -1,0 +1,557 @@
+{
+  "id": "u15-l08",
+  "unit": "u15-describing",
+  "title": "Review: Describing & comparing",
+  "status": "draft",
+  "tip": "**Looks and character:** **ও দেখতে কেমন?** · **লম্বা, খাটো, মোটা, পাতলা** · **ওর চুল কালো** · **খুব ভালো মানুষ**, **মজার**, **লাজুক**, **রাগী**, **হাসিখুশি** · **কম বয়সী**, **বয়স্ক**.\n\n**Colours:** **লাল, নীল, সবুজ, হলুদ, কালো, সাদা, গোলাপি** · **তোমার প্রিয় রং কী?**\n\n**Weather:** **আজ আবহাওয়া কেমন?** · **বৃষ্টি হচ্ছে** · **রোদ উঠেছে** · **শীত পড়েছে** · **আমার শীত লাগছে** · **বর্ষায় অনেক বৃষ্টি হয়**.\n\n**Comparing:** **রাফি আমার চেয়ে লম্বা** · **দুই বছরের বড়** · **সবচেয়ে ভালো** · **কোনটা?** · **একই রকম** / **আলাদা**.",
+  "vocab": [],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "reading",
+      "title": "Rafi's new teacher",
+      "lines": [
+        {
+          "speaker": "Nadia",
+          "bn": "তোমাদের নতুন শিক্ষক দেখতে কেমন?",
+          "tr": "tomader notun shikkhok dekhte kemon?",
+          "en": "What does your new teacher look like?"
+        },
+        {
+          "speaker": "Rafi",
+          "bn": "উনি বেশ লম্বা, একটু পাতলা। ওনার চুল কালো।",
+          "tr": "uni besh lomba, ektu patla. onar chul kalo.",
+          "en": "He's quite tall and a bit thin. His hair is black."
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "উনি কি বয়স্ক?",
+          "tr": "uni ki boyoshko?",
+          "en": "Is he elderly?"
+        },
+        {
+          "speaker": "Rafi",
+          "bn": "না, উনি কম বয়সী। খুব ভালো মানুষ, আর খুব মজার।",
+          "tr": "na, uni kom boyoshi. khub bhalo manush, ar khub mojar.",
+          "en": "No, he's young. A really kind person, and very funny."
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "আমাদের শিক্ষক একটু রাগী!",
+          "tr": "amader shikkhok ektu ragi!",
+          "en": "Our teacher is a bit short-tempered!"
+        },
+        {
+          "speaker": "Rafi",
+          "bn": "আমাদের শিক্ষক সবার চেয়ে ভালো।",
+          "tr": "amader shikkhok shobar cheye bhalo.",
+          "en": "Our teacher is the best of all."
+        }
+      ],
+      "question": "What is Rafi's new teacher like?",
+      "options": [
+        "Elderly and short-tempered",
+        "Short and shy",
+        "Young, kind and funny",
+        "Old but cheerful"
+      ],
+      "answer": 2,
+      "why": "Rafi says **উনি কম বয়সী**, **খুব ভালো মানুষ** and **খুব মজার**."
+    },
+    {
+      "id": "e02",
+      "type": "reading",
+      "title": "Weather on the phone",
+      "lines": [
+        {
+          "speaker": "Nadia",
+          "bn": "সিলেটে আবহাওয়া কেমন?",
+          "tr": "shilete abohawa kemon?",
+          "en": "What's the weather like in Sylhet?"
+        },
+        {
+          "speaker": "Rafi",
+          "bn": "অনেক বৃষ্টি হচ্ছে! আকাশ মেঘলা, খুব বাতাস।",
+          "tr": "onek brishti hochchhe! akash meghla, khub batash.",
+          "en": "It's raining a lot! It's cloudy and very windy."
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "ঢাকায় আজ রোদ উঠেছে, কিন্তু খুব গরম।",
+          "tr": "dhakay aj rod uthechhe, kintu khub gorom.",
+          "en": "In Dhaka the sun is out today, but it's very hot."
+        },
+        {
+          "speaker": "Rafi",
+          "bn": "সিলেটে ঢাকার চেয়ে বেশি বৃষ্টি হয়। বর্ষায় সবচেয়ে বেশি।",
+          "tr": "shilete dhakar cheye beshi brishti hoy. borshay shobcheye beshi.",
+          "en": "It rains more in Sylhet than in Dhaka. Most of all in the monsoon."
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "তোমার ছাতা আছে?",
+          "tr": "tomar chhata achhe?",
+          "en": "Do you have an umbrella?"
+        },
+        {
+          "speaker": "Rafi",
+          "bn": "হ্যাঁ, আছে। কিন্তু ঝড় আসছে!",
+          "tr": "hya~, achhe. kintu jhor ashchhe!",
+          "en": "Yes, I do. But a storm is coming!"
+        }
+      ],
+      "question": "Where is it sunny today?",
+      "options": [
+        "In Dhaka",
+        "In Sylhet",
+        "In both cities",
+        "Nowhere"
+      ],
+      "answer": 0,
+      "why": "Nadia says **ঢাকায় আজ রোদ উঠেছে** 'in Dhaka the sun is out today'."
+    },
+    {
+      "id": "e03",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "খাটো",
+          "tr": "khato",
+          "en": "short (of people)"
+        },
+        {
+          "bn": "মোটা",
+          "tr": "mota",
+          "en": "fat; thick"
+        },
+        {
+          "bn": "মুখ",
+          "tr": "mukh",
+          "en": "face; mouth"
+        },
+        {
+          "bn": "সাদা",
+          "tr": "shada",
+          "en": "white"
+        },
+        {
+          "bn": "লাজুক",
+          "tr": "lajuk",
+          "en": "shy"
+        }
+      ]
+    },
+    {
+      "id": "e04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "হাসিখুশি",
+          "tr": "hashikhushi",
+          "en": "cheerful"
+        },
+        {
+          "bn": "প্রিয়",
+          "tr": "priyo",
+          "en": "favourite"
+        },
+        {
+          "bn": "নীল",
+          "tr": "nil",
+          "en": "blue"
+        },
+        {
+          "bn": "সবুজ",
+          "tr": "shobuj",
+          "en": "green"
+        },
+        {
+          "bn": "হলুদ",
+          "tr": "holud",
+          "en": "yellow; turmeric"
+        }
+      ]
+    },
+    {
+      "id": "e05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "গোলাপি",
+          "tr": "golapi",
+          "en": "pink"
+        },
+        {
+          "bn": "মেঘ",
+          "tr": "megh",
+          "en": "cloud"
+        },
+        {
+          "bn": "শীত",
+          "tr": "shit",
+          "en": "cold (weather); winter"
+        },
+        {
+          "bn": "বর্ষা",
+          "tr": "borsha",
+          "en": "monsoon"
+        },
+        {
+          "bn": "আলাদা",
+          "tr": "alada",
+          "en": "different; separate"
+        }
+      ]
+    },
+    {
+      "id": "e06",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "আজ খুব শীত পড়েছে, সকালে কুয়াশা ছিল।",
+        "tr": "aj khub shit porechhe, shokale kuyasha chhilo.",
+        "en": "It's turned very cold today; it was foggy this morning.",
+        "alt": [
+          "It's very cold today, and there was fog in the morning."
+        ]
+      },
+      "options": [
+        "It's very hot today; it was sunny this morning.",
+        "I feel cold; I didn't sleep this morning.",
+        "It's raining today; there was a storm this morning.",
+        "It's turned very cold today; it was foggy this morning."
+      ],
+      "answer": 3,
+      "why": "**শীত পড়েছে** 'it has turned cold'; **কুয়াশা** 'fog'."
+    },
+    {
+      "id": "e07",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "এই দুইটা প্রায় একই রকম।",
+        "tr": "ei duita pray eki rokom.",
+        "en": "These two are almost the same.",
+        "alt": [
+          "These two are nearly alike."
+        ]
+      },
+      "options": [
+        "These two are very different.",
+        "These two are almost the same.",
+        "This one is almost the best.",
+        "These two are almost new."
+      ],
+      "answer": 1,
+      "why": "**প্রায়** 'almost' + **একই রকম** 'the same'."
+    },
+    {
+      "id": "e08",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আমি তোমার চেয়ে বড়।",
+        "tr": "ami tomar cheye boro.",
+        "en": "I'm older than you.",
+        "alt": [
+          "I am older than you.",
+          "I'm bigger than you."
+        ]
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "You're older than me.",
+        "I'm older than you.",
+        "I'm taller than you.",
+        "I'm as old as you."
+      ],
+      "answer": 1,
+      "why": "For people **বড়** usually means older; **তোমার চেয়ে** 'than you'."
+    },
+    {
+      "id": "e09",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আমার ভাই আমার চেয়ে তিন বছরের বড়।",
+        "tr": "amar bhai amar cheye tin bochhorer boro.",
+        "en": "My brother is three years older than me.",
+        "alt": [
+          "My brother is three years older than I am."
+        ]
+      },
+      "blank": "বছরের",
+      "options": [
+        "বছর",
+        "দিন",
+        "মাস",
+        "বছরের"
+      ],
+      "answer": 3,
+      "why": "**তিন বছরের বড়** 'three years older': **বছর** takes **-এর**."
+    },
+    {
+      "id": "e10",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "এটা ওটার চেয়ে ভালো।",
+        "tr": "eta otar cheye bhalo.",
+        "en": "This one is better than that one.",
+        "alt": [
+          "This is better than that.",
+          "This is better than that one."
+        ]
+      },
+      "blank": "ওটার",
+      "options": [
+        "ওটার",
+        "ওটা",
+        "এটার",
+        "ওখানে"
+      ],
+      "answer": 0,
+      "why": "**চেয়ে** follows the **-র** form: **ওটার চেয়ে** 'than that one'."
+    },
+    {
+      "id": "e11",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আমার প্রিয় রং সবুজ।",
+        "tr": "amar priyo rong shobuj.",
+        "en": "My favourite colour is green.",
+        "alt": [
+          "My favorite color is green."
+        ]
+      },
+      "blank": "রং",
+      "accepted": [
+        "রং",
+        "রঙ",
+        "rong",
+        "rang",
+        "rongo",
+        "rong"
+      ],
+      "why": "**প্রিয় রং** 'favourite colour'."
+    },
+    {
+      "id": "e12",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "কোনটা সবচেয়ে ভালো?",
+        "tr": "konta shobcheye bhalo?",
+        "en": "Which one is the best?",
+        "alt": [
+          "Which is the best?"
+        ]
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "ভালো",
+        "কোন",
+        "কোনটা",
+        "বেশি",
+        "সবচেয়ে",
+        "সবার"
+      ],
+      "answer": [
+        "কোনটা",
+        "সবচেয়ে",
+        "ভালো"
+      ],
+      "why": "**কোনটা** 'which one' + **সবচেয়ে ভালো** 'the best'."
+    },
+    {
+      "id": "e13",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "ওর চুল কালো আর লম্বা।",
+        "tr": "or chul kalo ar lomba.",
+        "en": "Her hair is black and long.",
+        "alt": [
+          "His hair is black and long.",
+          "She has long black hair."
+        ]
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "সাদা",
+        "কালো",
+        "আর",
+        "চুল",
+        "ওর",
+        "মুখ",
+        "লম্বা",
+        "খাটো"
+      ],
+      "answer": [
+        "ওর",
+        "চুল",
+        "কালো",
+        "আর",
+        "লম্বা"
+      ],
+      "alt": [
+        [
+          "ওর",
+          "চুল",
+          "লম্বা",
+          "আর",
+          "কালো"
+        ]
+      ],
+      "why": "Two adjectives joined by **আর** 'and', no verb."
+    },
+    {
+      "id": "e14",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ও বুড়ো না, ও কম বয়সী।",
+        "tr": "o buro na, o kom boyoshi.",
+        "en": "He isn't old, he's young.",
+        "alt": [
+          "She isn't old, she's young."
+        ]
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "ও কম বয়সী না, ও বুড়ো।",
+        "ও খাটো না, ও লম্বা।",
+        "ও বুড়ো না, ও কম বয়সী।",
+        "ও লাজুক না, ও মজার।"
+      ],
+      "answer": 2,
+      "why": "**বুড়ো না** 'isn't old'; **কম বয়সী** 'young'."
+    },
+    {
+      "id": "e15",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আমার ভাই আমার চেয়ে তিন বছরের বড়।",
+        "tr": "amar bhai amar cheye tin bochhorer boro.",
+        "en": "My brother is three years older than me.",
+        "alt": [
+          "My brother is three years older than I am."
+        ]
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "আমার ভাই আমার চেয়ে তিন বছরের বড়",
+        "ভাই আমার চেয়ে তিন বছরের বড়",
+        "আমার ভাই আমার থেকে তিন বছরের বড়",
+        "আমার ভাই আমার চেয়ে ৩ বছরের বড়",
+        "amar bhai amar cheye tin bochhorer boro",
+        "amar bhai amar cheye tin bochorer boro",
+        "amar bhai amar cheye tin bochhorer baro",
+        "amar bhai amar theke tin bochhorer boro",
+        "amar bhai amar theke tin bochorer boro",
+        "amar vai amar cheye tin bochorer boro",
+        "bhai amar cheye tin bochhorer boro"
+      ],
+      "why": "**আমার চেয়ে** 'than me' + **তিন বছরের বড়** 'three years older'."
+    },
+    {
+      "id": "r01",
+      "type": "listen_select",
+      "audio": {
+        "bn": "পড়ে গেছি",
+        "tr": "pore gechhi",
+        "en": "I fell (down)"
+      },
+      "options": [
+        "দয়া করে",
+        "বুঝতে পারছি না",
+        "শুভ নববর্ষ",
+        "পড়ে গেছি"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "খা",
+        "tr": "kha",
+        "en": "eat (intimate)"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "আসেনি",
+        "ডাকুন",
+        "খা",
+        "ছিলে"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "নে",
+        "tr": "ne",
+        "en": "take (intimate)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "you (intimate) will go",
+        "to drive",
+        "take (intimate)",
+        "is picking up"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "শরীর",
+          "tr": "shorir",
+          "en": "body; health"
+        },
+        {
+          "bn": "লাইন",
+          "tr": "lain",
+          "en": "line"
+        },
+        {
+          "bn": "মেসেজ",
+          "tr": "mesej",
+          "en": "message"
+        },
+        {
+          "bn": "ঠিকানা",
+          "tr": "thikana",
+          "en": "address"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "বার",
+          "tr": "bar",
+          "en": "times"
+        },
+        {
+          "bn": "ওষুধের",
+          "tr": "oshudher",
+          "en": "medicine's; of medicine"
+        },
+        {
+          "bn": "দশটায়",
+          "tr": "doshtay",
+          "en": "at ten o'clock"
+        },
+        {
+          "bn": "জ্বরের",
+          "tr": "jorer",
+          "en": "fever's; for fever"
+        }
+      ],
+      "recycle": true
+    }
+  ]
+}

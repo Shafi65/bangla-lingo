@@ -53,12 +53,12 @@ describe("segmentLine", () => {
 describe("course stories", () => {
   const stories = getStories();
 
-  it("has one story per main-track beginner unit from Unit 2 to Unit 14, in course order", () => {
+  it("has one story per main-track beginner unit from Unit 2 to Unit 15, in course order", () => {
     expect(stories.map((s) => s.unit)).toEqual([
       "u02-pronouns", "u03-family", "u04-food", "u05-numbers-time", "u06-bazaar", "u07-directions",
-      "u08-daily-routine", "u09-past", "u10-culture", "u11-plans", "u12-have-to", "u13-requests", "u14-feelings-health",
+      "u08-daily-routine", "u09-past", "u10-culture", "u11-plans", "u12-have-to", "u13-requests", "u14-feelings-health", "u15-describing",
     ]);
-    expect(stories.map((s) => s.unitNumber)).toEqual([2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]);
+    expect(stories.map((s) => s.unitNumber)).toEqual([2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]);
     for (const s of stories) {
       expect(s.firstLessonId).toMatch(new RegExp(`^${s.unit.slice(0, 3)}-l01`));
       expect(s.lines.length).toBeGreaterThanOrEqual(6);
@@ -166,7 +166,7 @@ describe("validate-stories.mjs", () => {
   it("passes the course's own stories", () => {
     const r = spawnSync(process.execPath, [SCRIPT], { encoding: "utf8" });
     expect(r.status, r.stdout + r.stderr).toBe(0);
-    expect(r.stdout).toMatch(/13 stories,.* 0 errors, 0 warnings/);
+    expect(r.stdout).toMatch(/14 stories,.* 0 errors, 0 warnings/);
   });
 
   it("passes a small valid story (a later homograph does not count yet)", () => {

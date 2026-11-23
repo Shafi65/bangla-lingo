@@ -1,0 +1,531 @@
+{
+  "id": "u15-l02",
+  "unit": "u15-describing",
+  "title": "What are they like?",
+  "status": "draft",
+  "tip": "**Character works like looks:** person + adjective, no verb. **ও কেমন মানুষ?** 'What kind of person is he?' **উনি খুব ভালো মানুষ** 'He's a really good person' is the everyday praise.\n\n**মজার** is U4's 'tasty'; about people it means funny: **মজার মানুষ**. **রাগী** 'short-tempered' comes from **রাগ** 'anger'.\n\nAge: **কম বয়সী** 'young' (literally 'of little age'). **বুড়ো** 'old' is blunt; **বয়স্ক** 'elderly' is the polite word, especially for someone you call আপনি. 'Isn't' after an adjective is just **না**: **ও বুড়ো না**.",
+  "vocab": [
+    {
+      "id": "buro",
+      "bn": "বুড়ো",
+      "tr": "buro",
+      "en": "old (of people)",
+      "notes": "Plain, a little blunt; বয়স্ক is the polite word. For things, old is পুরনো."
+    },
+    {
+      "id": "boyoshko",
+      "bn": "বয়স্ক",
+      "tr": "boyoshko",
+      "en": "elderly",
+      "notes": "The polite way to say 'old' about a person: উনি একজন বয়স্ক মানুষ."
+    },
+    {
+      "id": "kom-boyoshi",
+      "bn": "কম বয়সী",
+      "tr": "kom boyoshi",
+      "en": "young",
+      "notes": "Literally 'of little age' (কম 'less' + বয়সী 'aged'). Small children are simply ছোট."
+    },
+    {
+      "id": "bhalo-manush",
+      "bn": "ভালো মানুষ",
+      "tr": "bhalo manush",
+      "en": "a good person; kind",
+      "notes": "The everyday praise for someone's character: উনি খুব ভালো মানুষ."
+    },
+    {
+      "id": "ragi",
+      "bn": "রাগী",
+      "tr": "ragi",
+      "en": "short-tempered",
+      "notes": "রাগ 'anger' (U14) + -ী: a person who gets angry easily. 'Angry right now' is আমার রাগ লাগছে."
+    },
+    {
+      "id": "mojar-funny",
+      "bn": "মজার",
+      "tr": "mojar",
+      "en": "funny",
+      "notes": "About people: মজার মানুষ 'a funny person'. The same word means 'tasty' about food (U4: মজার খাবার)."
+    },
+    {
+      "id": "lajuk",
+      "bn": "লাজুক",
+      "tr": "lajuk",
+      "en": "shy"
+    },
+    {
+      "id": "hashikhushi",
+      "bn": "হাসিখুশি",
+      "tr": "hashikhushi",
+      "en": "cheerful",
+      "notes": "হাসি 'smile' + খুশি 'happy': someone who is always cheerful. খুশি alone is how you feel now."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আমার চাচা খুব ভালো মানুষ।",
+        "tr": "amar chacha khub bhalo manush.",
+        "en": "My uncle is a very kind person.",
+        "alt": [
+          "My uncle is a really good person.",
+          "My uncle is a very nice man."
+        ]
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "My uncle is a very funny person.",
+        "My uncle is very good-looking.",
+        "My uncle is a very kind person.",
+        "My uncle is very old."
+      ],
+      "answer": 2,
+      "why": "**ভালো মানুষ** 'a good person' praises character, not looks."
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "রাফি খুব মজার মানুষ।",
+        "tr": "rafi khub mojar manush.",
+        "en": "Rafi is a really funny person.",
+        "alt": [
+          "Rafi is very funny.",
+          "Rafi is a lot of fun."
+        ]
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "Rafi is a really funny person.",
+        "Rafi's food is very tasty.",
+        "Rafi is a very kind person.",
+        "Rafi is very shy."
+      ],
+      "answer": 0,
+      "why": "About people **মজার** means funny; about food it means tasty (U4)."
+    },
+    {
+      "id": "e03",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "রাগী",
+          "tr": "ragi",
+          "en": "short-tempered"
+        },
+        {
+          "bn": "লাজুক",
+          "tr": "lajuk",
+          "en": "shy"
+        },
+        {
+          "bn": "হাসিখুশি",
+          "tr": "hashikhushi",
+          "en": "cheerful"
+        },
+        {
+          "bn": "বুড়ো",
+          "tr": "buro",
+          "en": "old (of people)"
+        },
+        {
+          "bn": "কম বয়সী",
+          "tr": "kom boyoshi",
+          "en": "young"
+        }
+      ]
+    },
+    {
+      "id": "e04",
+      "type": "listen_select",
+      "audio": {
+        "bn": "বয়স্ক",
+        "tr": "boyoshko",
+        "en": "elderly"
+      },
+      "options": [
+        "বয়স",
+        "বুড়ো",
+        "বড়",
+        "বয়স্ক"
+      ],
+      "answer": 3,
+      "why": "**বয়স্ক** 'elderly' comes from **বয়স** 'age'."
+    },
+    {
+      "id": "e05",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "উনি একজন বয়স্ক মানুষ।",
+        "tr": "uni ekjon boyoshko manush.",
+        "en": "He is an elderly man.",
+        "alt": [
+          "She is an elderly woman.",
+          "He is an old man.",
+          "She is an elderly person."
+        ]
+      },
+      "options": [
+        "He is a young man.",
+        "He is an elderly man.",
+        "He is a kind man.",
+        "He is a funny man."
+      ],
+      "answer": 1,
+      "why": "**বয়স্ক** is the polite word for 'old'."
+    },
+    {
+      "id": "e06",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "আমার আপু খুব হাসিখুশি।",
+        "tr": "amar apu khub hashikhushi.",
+        "en": "My big sister is very cheerful.",
+        "alt": [
+          "My elder sister is very cheerful.",
+          "My older sister is always cheerful."
+        ]
+      },
+      "options": [
+        "My big sister is very shy.",
+        "My big sister is very cheerful.",
+        "My big sister is short-tempered.",
+        "My little sister is very cheerful."
+      ],
+      "answer": 1,
+      "why": "**হাসিখুশি** is a cheerful person; **খুশি** alone is how you feel now."
+    },
+    {
+      "id": "e07",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ও বুড়ো না, ও কম বয়সী।",
+        "tr": "o buro na, o kom boyoshi.",
+        "en": "He isn't old, he's young.",
+        "alt": [
+          "She isn't old, she's young."
+        ]
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "He isn't young, he's old.",
+        "He isn't tall, he's short.",
+        "He isn't shy, he's funny.",
+        "He isn't old, he's young."
+      ],
+      "answer": 3,
+      "why": "**না** after an adjective means 'isn't'. **কম বয়সী** is 'young'."
+    },
+    {
+      "id": "e08",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আমার ভাই একটু রাগী।",
+        "tr": "amar bhai ektu ragi.",
+        "en": "My brother is a bit short-tempered.",
+        "alt": [
+          "My brother gets angry easily.",
+          "My brother is a bit bad-tempered."
+        ]
+      },
+      "blank": "রাগী",
+      "options": [
+        "রাগী",
+        "রাগ",
+        "খুশি",
+        "ভয়"
+      ],
+      "answer": 0,
+      "why": "**রাগী** describes a person who gets angry easily; **রাগ** is the feeling 'anger'."
+    },
+    {
+      "id": "e09",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আমাদের শিক্ষক কম বয়সী।",
+        "tr": "amader shikkhok kom boyoshi.",
+        "en": "Our teacher is young.",
+        "alt": [
+          "Our teacher is quite young."
+        ]
+      },
+      "blank": "কম বয়সী",
+      "options": [
+        "বয়স্ক",
+        "রাগী",
+        "কম বয়সী",
+        "মজার"
+      ],
+      "answer": 2,
+      "why": "**কম বয়সী** 'young', literally 'of little age'."
+    },
+    {
+      "id": "e10",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "নাদিয়া একটু লাজুক।",
+        "tr": "nadiya ektu lajuk.",
+        "en": "Nadia is a little shy.",
+        "alt": [
+          "Nadia is a bit shy."
+        ]
+      },
+      "blank": "লাজুক",
+      "accepted": [
+        "লাজুক",
+        "lajuk",
+        "laajuk",
+        "lajuuk",
+        "lazuk"
+      ],
+      "why": "**লাজুক** 'shy'."
+    },
+    {
+      "id": "e11",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "রাফি খুব মজার মানুষ।",
+        "tr": "rafi khub mojar manush.",
+        "en": "Rafi is a really funny person.",
+        "alt": [
+          "Rafi is very funny.",
+          "Rafi is a lot of fun."
+        ]
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "রাফি",
+        "মজার",
+        "খুব",
+        "মানুষ",
+        "লাজুক",
+        "একজন",
+        "ভালো"
+      ],
+      "answer": [
+        "রাফি",
+        "খুব",
+        "মজার",
+        "মানুষ"
+      ],
+      "why": "The adjective goes before **মানুষ** 'person'."
+    },
+    {
+      "id": "e12",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমার নানা বয়স্ক, কিন্তু খুব হাসিখুশি।",
+        "tr": "amar nana boyoshko, kintu khub hashikhushi.",
+        "en": "My grandfather is elderly, but very cheerful.",
+        "alt": [
+          "My grandad is old, but very cheerful."
+        ]
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "আর",
+        "খুব",
+        "আমার",
+        "কিন্তু",
+        "নানা",
+        "হাসিখুশি",
+        "বয়স্ক",
+        "খুশি",
+        "রাগী"
+      ],
+      "answer": [
+        "আমার",
+        "নানা",
+        "বয়স্ক",
+        "কিন্তু",
+        "খুব",
+        "হাসিখুশি"
+      ],
+      "why": "**কিন্তু** 'but' joins the two descriptions."
+    },
+    {
+      "id": "e13",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ও কেমন মানুষ?",
+        "tr": "o kemon manush?",
+        "en": "What kind of person is he?",
+        "alt": [
+          "What is she like?",
+          "What's he like?",
+          "What kind of person is she?"
+        ]
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "ও কেমন আছে?",
+        "ও কেমন মানুষ?",
+        "ও দেখতে কেমন?",
+        "ও কে?"
+      ],
+      "answer": 1,
+      "why": "**কেমন মানুষ?** asks about character; **দেখতে কেমন?** asks about looks."
+    },
+    {
+      "id": "e14",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আমার চাচা খুব ভালো মানুষ।",
+        "tr": "amar chacha khub bhalo manush.",
+        "en": "My uncle is a very kind person.",
+        "alt": [
+          "My uncle is a really good person.",
+          "My uncle is a very nice man."
+        ]
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "আমার চাচা খুব ভালো মানুষ।",
+        "আমার চাচা খুব মজার মানুষ।",
+        "আমার চাচা খুব রাগী।",
+        "আমার চাচা খুব বুড়ো।"
+      ],
+      "answer": 0,
+      "why": "**ভালো মানুষ** 'a good, kind person'."
+    },
+    {
+      "id": "e15",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "ও বুড়ো না, ও কম বয়সী।",
+        "tr": "o buro na, o kom boyoshi.",
+        "en": "He isn't old, he's young.",
+        "alt": [
+          "She isn't old, she's young."
+        ]
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "ও বুড়ো না, ও কম বয়সী",
+        "ও বুড়ো না, কম বয়সী",
+        "ও বুড়ো নয়, ও কম বয়সী",
+        "উনি বুড়ো না, উনি কম বয়সী",
+        "উনি বয়স্ক না, উনি কম বয়সী",
+        "ও বয়স্ক না, ও কম বয়সী",
+        "সে বুড়ো না, সে কম বয়সী",
+        "o buro na, o kom boyoshi",
+        "o buro na, kom boyoshi",
+        "o buro na o kom boyosi",
+        "o buro noy, o kom boyoshi",
+        "o buro na, o kom boyshi",
+        "o boro na o kom boyoshi",
+        "o buro na, o kom boyosi"
+      ],
+      "why": "'Isn't' after an adjective: **বুড়ো না**."
+    },
+    {
+      "id": "r01",
+      "type": "listen_select",
+      "audio": {
+        "bn": "বেশ",
+        "tr": "besh",
+        "en": "quite"
+      },
+      "options": [
+        "সপ্তাহে",
+        "বেশ",
+        "কয়টা",
+        "হয়তো"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "মুখ",
+        "tr": "mukh",
+        "en": "face; mouth"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "বাস",
+        "মুখ",
+        "সোমবার",
+        "দেশ"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "মোটা",
+        "tr": "mota",
+        "en": "fat; thick"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "fat; thick",
+        "funny",
+        "any",
+        "empty; free"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "চুল",
+          "tr": "chul",
+          "en": "hair"
+        },
+        {
+          "bn": "পাতলা",
+          "tr": "patla",
+          "en": "thin; slim"
+        },
+        {
+          "bn": "খাটো",
+          "tr": "khato",
+          "en": "short (of people)"
+        },
+        {
+          "bn": "লম্বা",
+          "tr": "lomba",
+          "en": "tall; long"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "পাঠাব",
+          "tr": "pathabo",
+          "en": "I will send"
+        },
+        {
+          "bn": "পৌঁছেছি",
+          "tr": "pou~chhechhi",
+          "en": "I have reached"
+        },
+        {
+          "bn": "জানাবেন",
+          "tr": "janaben",
+          "en": "please let (me) know (polite)"
+        },
+        {
+          "bn": "পাঠাও",
+          "tr": "pathao",
+          "en": "send (familiar)"
+        }
+      ],
+      "recycle": true
+    }
+  ]
+}

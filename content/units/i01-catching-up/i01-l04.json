@@ -520,37 +520,35 @@
     },
     {
       "id": "r01",
-      "type": "fill_blank",
-      "sentence": {
-        "bn": "বিকালে আমি আর আমার বোন একসাথে ঘুড়ি ওড়াতাম।",
-        "tr": "bikale ami ar amar bon ekshathe ghuri oratam.",
-        "en": "In the afternoon my sister and I used to fly kites together."
+      "type": "select_translation",
+      "prompt": {
+        "bn": "একসাথে",
+        "tr": "ekshathe",
+        "en": "together"
       },
-      "blank": "একসাথে",
+      "direction": "en_to_bn",
       "options": [
+        "সন্ধ্যায়",
+        "সত্যি",
         "একসাথে",
-        "প্রায়",
-        "দূরে",
-        "কয়টায়"
+        "সবসময়"
       ],
-      "answer": 0,
+      "answer": 2,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "listen_meaning",
-      "audio": {
+      "type": "fill_blank",
+      "sentence": {
         "bn": "শীতকালে আমরা প্রায়ই লুকোচুরি খেলতাম।",
         "tr": "shitkale amra prayi lukochuri kheltam.",
         "en": "In winter we often played hide-and-seek."
       },
-      "options": [
-        "I speak and write Bengali.",
-        "Got the address, thanks.",
-        "In winter we often played hide-and-seek.",
-        "It's two o'clock."
+      "blank": "প্রায়ই",
+      "accepted": [
+        "প্রায়ই",
+        "prayi"
       ],
-      "answer": 2,
       "recycle": true
     },
     {
@@ -561,14 +559,14 @@
         "tr": "sharadin",
         "en": "all day"
       },
-      "direction": "en_to_bn",
+      "direction": "bn_to_en",
       "options": [
-        "আটটায়",
-        "তারপর",
-        "কাল",
-        "সারাদিন"
+        "in looks",
+        "all day",
+        "how long",
+        "always"
       ],
-      "answer": 3,
+      "answer": 1,
       "recycle": true
     },
     {
@@ -576,24 +574,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "হাসপাতালে",
-          "tr": "hashpatale",
-          "en": "to the hospital; in hospital"
+          "bn": "রকম",
+          "tr": "rokom",
+          "en": "kind; sort"
         },
         {
-          "bn": "দুর্ঘটনা",
-          "tr": "durghotona",
-          "en": "accident"
+          "bn": "আলাদা",
+          "tr": "alada",
+          "en": "different; separate"
         },
         {
-          "bn": "জরুরি",
-          "tr": "joruri",
-          "en": "urgent"
+          "bn": "কাশি",
+          "tr": "kashi",
+          "en": "cough"
         },
         {
-          "bn": "জানাও",
-          "tr": "janao",
-          "en": "let (me) know (familiar)"
+          "bn": "একই",
+          "tr": "eki",
+          "en": "the same"
         }
       ],
       "recycle": true
@@ -603,24 +601,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "অ্যাম্বুলেন্স",
-          "tr": "ambulens",
-          "en": "ambulance"
+          "bn": "ব্যথা",
+          "tr": "byatha",
+          "en": "pain"
         },
         {
-          "bn": "পেয়েছি",
-          "tr": "peyechhi",
-          "en": "I have got"
+          "bn": "ফার্মেসি",
+          "tr": "farmeshi",
+          "en": "pharmacy"
         },
         {
-          "bn": "আগুন",
-          "tr": "agun",
-          "en": "fire"
+          "bn": "অসুস্থ",
+          "tr": "oshustho",
+          "en": "ill"
         },
         {
-          "bn": "পাঠান",
-          "tr": "pathan",
-          "en": "please send (polite)"
+          "bn": "বিশ্রাম",
+          "tr": "bishram",
+          "en": "rest"
         }
       ],
       "recycle": true

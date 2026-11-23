@@ -456,54 +456,52 @@
     },
     {
       "id": "r01",
-      "type": "listen_select",
+      "type": "listen_meaning",
       "audio": {
-        "bn": "করছিল",
-        "tr": "korchhilo",
-        "en": "he/she was doing"
+        "bn": "সে অফিসে কাজ করছিল।",
+        "tr": "she ofise kaj korchhilo.",
+        "en": "He was working at the office."
       },
       "options": [
-        "বললেন",
-        "করেছি",
-        "করেন",
-        "করছিল"
+        "He was working at the office.",
+        "I will buy a new sari for Puja.",
+        "Do you want to listen to songs?",
+        "I have to get up early tomorrow."
       ],
-      "answer": 3,
+      "answer": 0,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "fill_blank",
-      "sentence": {
-        "bn": "নাদিয়া তখন বাসায় আসছিল।",
-        "tr": "nadiya tokhon bashay ashchhilo.",
-        "en": "Nadia was coming home then."
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আসছিল",
+        "tr": "ashchhilo",
+        "en": "was coming"
       },
-      "blank": "আসছিল",
+      "direction": "en_to_bn",
       "options": [
-        "বলেছেন",
-        "লিখি",
-        "বাঁচাও",
-        "আসছিল"
+        "পারিস",
+        "আসছিল",
+        "কিনল",
+        "এলাম"
       ],
-      "answer": 3,
+      "answer": 1,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "listen_meaning",
-      "audio": {
+      "type": "fill_blank",
+      "sentence": {
         "bn": "আমি ঢাকায় বড় হয়েছি, আর আপনি?",
         "tr": "ami dhakay boro hoyechhi, ar apni?",
         "en": "I grew up in Dhaka. And you (polite)?"
       },
-      "options": [
-        "I grew up in Dhaka. And you (polite)?",
-        "After breakfast I go to the office.",
-        "How are you feeling?",
-        "What's the price?"
+      "blank": "বড় হয়েছি",
+      "accepted": [
+        "বড় হয়েছি",
+        "boro hoyechhi"
       ],
-      "answer": 0,
       "recycle": true
     },
     {
@@ -511,24 +509,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "খালি",
-          "tr": "khali",
-          "en": "empty; free"
+          "bn": "গোলাপি",
+          "tr": "golapi",
+          "en": "pink"
         },
         {
-          "bn": "ফার্মেসি",
-          "tr": "farmeshi",
-          "en": "pharmacy"
+          "bn": "লাজুক",
+          "tr": "lajuk",
+          "en": "shy"
         },
         {
-          "bn": "ওষুধের",
-          "tr": "oshudher",
-          "en": "medicine's; of medicine"
+          "bn": "হাসপাতালে",
+          "tr": "hashpatale",
+          "en": "to the hospital; in hospital"
         },
         {
-          "bn": "সুস্থ",
-          "tr": "shustho",
-          "en": "well; healthy"
+          "bn": "প্রিয়",
+          "tr": "priyo",
+          "en": "favourite"
         }
       ],
       "recycle": true
@@ -538,24 +536,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "লাইন",
-          "tr": "lain",
-          "en": "line"
+          "bn": "বছরের",
+          "tr": "bochhorer",
+          "en": "of … years; year's"
         },
         {
-          "bn": "বলবেন",
-          "tr": "bolben",
-          "en": "you / he, she (polite) will say"
+          "bn": "বর্ষা",
+          "tr": "borsha",
+          "en": "monsoon"
         },
         {
-          "bn": "সাধারণত",
-          "tr": "shadharonoto",
-          "en": "usually"
+          "bn": "আবহাওয়া",
+          "tr": "abohawa",
+          "en": "weather"
         },
         {
-          "bn": "ব্যথা",
-          "tr": "byatha",
-          "en": "pain"
+          "bn": "দুর্ঘটনা",
+          "tr": "durghotona",
+          "en": "accident"
         }
       ],
       "recycle": true

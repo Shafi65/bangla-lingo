@@ -1,0 +1,525 @@
+{
+  "id": "u15-l06",
+  "unit": "u15-describing",
+  "title": "Taller than me",
+  "status": "draft",
+  "tip": "**'Than' is চেয়ে**, after the -র form of what you compare with: **আমার চেয়ে** 'than me', **রাফির চেয়ে** 'than Rafi', **ঢাকার চেয়ে** 'than Dhaka', **ওটার চেয়ে** 'than that one'.\n\nThe adjective never changes, so there is no '-er': **রাফি আমার চেয়ে লম্বা** 'Rafi is taller than me' (literally 'Rafi, than me, tall').\n\nFor people, **বড়** and **ছোট** mean older and younger: **নাদিয়া রাফির চেয়ে দুই বছরের ছোট**. Use **বেশি** 'more' or **কম** 'less' for amounts, and **অনেক** for 'much'.",
+  "vocab": [
+    {
+      "id": "cheye",
+      "bn": "চেয়ে",
+      "tr": "cheye",
+      "en": "than",
+      "notes": "After the -র form: আমার চেয়ে 'than me', রাফির চেয়ে 'than Rafi'. The adjective doesn't change: ও আমার চেয়ে লম্বা 'he is taller than me'."
+    },
+    {
+      "id": "otar",
+      "bn": "ওটার",
+      "tr": "otar",
+      "en": "of that",
+      "notes": "ওটা 'that' + -র: ওটার চেয়ে ভালো 'better than that one'."
+    },
+    {
+      "id": "dhakar",
+      "bn": "ঢাকার",
+      "tr": "dhakar",
+      "en": "Dhaka's; of Dhaka",
+      "notes": "ঢাকা + -র: ঢাকার চেয়ে 'than (in) Dhaka'."
+    },
+    {
+      "id": "rafir",
+      "bn": "রাফির",
+      "tr": "rafir",
+      "en": "Rafi's",
+      "notes": "রাফি + -র: রাফির চেয়ে 'than Rafi'."
+    },
+    {
+      "id": "bochhorer",
+      "bn": "বছরের",
+      "tr": "bochhorer",
+      "en": "of … years; year's",
+      "notes": "বছর + -এর: দুই বছরের বড় 'two years older'."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "রাফি আমার চেয়ে লম্বা।",
+        "tr": "rafi amar cheye lomba.",
+        "en": "Rafi is taller than me.",
+        "alt": [
+          "Rafi is taller than I am."
+        ]
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "I am taller than Rafi.",
+        "Rafi is as tall as me.",
+        "Rafi is taller than me.",
+        "Rafi is shorter than me."
+      ],
+      "answer": 2,
+      "why": "**আমার চেয়ে** 'than me'; the adjective stays **লম্বা**."
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "এটা ওটার চেয়ে ভালো।",
+        "tr": "eta otar cheye bhalo.",
+        "en": "This one is better than that one.",
+        "alt": [
+          "This is better than that.",
+          "This is better than that one."
+        ]
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "This one is better than that one.",
+        "That one is better than this one.",
+        "This one is the best.",
+        "This one is as good as that one."
+      ],
+      "answer": 0,
+      "why": "**ওটার চেয়ে** 'than that one'."
+    },
+    {
+      "id": "e03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "নাদিয়া রাফির চেয়ে দুই বছরের ছোট।",
+        "tr": "nadiya rafir cheye dui bochhorer chhoto.",
+        "en": "Nadia is two years younger than Rafi.",
+        "alt": [
+          "Nadia is two years younger than Rafi is."
+        ]
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "Nadia is two years older than Rafi.",
+        "Rafi is two years younger than Nadia.",
+        "Nadia is two years old.",
+        "Nadia is two years younger than Rafi."
+      ],
+      "answer": 3,
+      "why": "For people **ছোট** means younger; **দুই বছরের** 'by two years'."
+    },
+    {
+      "id": "e04",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "সিলেটে ঢাকার চেয়ে বেশি বৃষ্টি হয়।",
+        "tr": "shilete dhakar cheye beshi brishti hoy.",
+        "en": "It rains more in Sylhet than in Dhaka.",
+        "alt": [
+          "Sylhet gets more rain than Dhaka."
+        ]
+      },
+      "options": [
+        "It rains more in Dhaka than in Sylhet.",
+        "It rains more in Sylhet than in Dhaka.",
+        "It's hotter in Sylhet than in Dhaka.",
+        "It rains less in Sylhet than in Dhaka."
+      ],
+      "answer": 1,
+      "why": "What comes before **চেয়ে** is what you compare *with*: **ঢাকার চেয়ে** 'than Dhaka'."
+    },
+    {
+      "id": "e05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "চেয়ে",
+          "tr": "cheye",
+          "en": "than"
+        },
+        {
+          "bn": "ওটার",
+          "tr": "otar",
+          "en": "of that"
+        },
+        {
+          "bn": "বছরের",
+          "tr": "bochhorer",
+          "en": "of … years; year's"
+        },
+        {
+          "bn": "বেশি",
+          "tr": "beshi",
+          "en": "more"
+        },
+        {
+          "bn": "কম",
+          "tr": "kom",
+          "en": "less"
+        }
+      ]
+    },
+    {
+      "id": "e06",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "আমার মা বাবার চেয়ে খাটো।",
+        "tr": "amar ma babar cheye khato.",
+        "en": "My mother is shorter than my father.",
+        "alt": [
+          "My mum is shorter than my dad.",
+          "My mother is shorter than father."
+        ]
+      },
+      "options": [
+        "My father is shorter than my mother.",
+        "My mother is shorter than my father.",
+        "My mother is taller than my father.",
+        "My mother is younger than my father."
+      ],
+      "answer": 1,
+      "why": "**বাবার চেয়ে** 'than Father'; **খাটো** 'short'."
+    },
+    {
+      "id": "e07",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "এই শাড়িটা ওটার চেয়ে কম দামি।",
+        "tr": "ei sharita otar cheye kom dami.",
+        "en": "This sari is less expensive than that one.",
+        "alt": [
+          "This sari is cheaper than that one."
+        ]
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "This sari is more expensive than that one.",
+        "That sari is cheaper than this one.",
+        "This sari is the cheapest.",
+        "This sari is less expensive than that one."
+      ],
+      "answer": 3,
+      "why": "**কম দামি** 'less expensive'; **বেশি দামি** would be 'more expensive'."
+    },
+    {
+      "id": "e08",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "রাফি আমার চেয়ে লম্বা।",
+        "tr": "rafi amar cheye lomba.",
+        "en": "Rafi is taller than me.",
+        "alt": [
+          "Rafi is taller than I am."
+        ]
+      },
+      "blank": "আমার",
+      "options": [
+        "আমার",
+        "আমি",
+        "আমাকে",
+        "আমরা"
+      ],
+      "answer": 0,
+      "why": "**চেয়ে** follows the **-র** form: **আমার চেয়ে** 'than me'."
+    },
+    {
+      "id": "e09",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আমি তোমার চেয়ে বড়।",
+        "tr": "ami tomar cheye boro.",
+        "en": "I'm older than you.",
+        "alt": [
+          "I am older than you.",
+          "I'm bigger than you."
+        ]
+      },
+      "blank": "চেয়ে",
+      "options": [
+        "মতো",
+        "জন্য",
+        "চেয়ে",
+        "কাছে"
+      ],
+      "answer": 2,
+      "why": "**চেয়ে** 'than'; **মতো** would be 'like'."
+    },
+    {
+      "id": "e10",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "নাদিয়া রাফির চেয়ে দুই বছরের ছোট।",
+        "tr": "nadiya rafir cheye dui bochhorer chhoto.",
+        "en": "Nadia is two years younger than Rafi.",
+        "alt": [
+          "Nadia is two years younger than Rafi is."
+        ]
+      },
+      "blank": "ছোট",
+      "accepted": [
+        "ছোট",
+        "chhoto",
+        "choto",
+        "chhoto",
+        "chotto"
+      ],
+      "why": "For people **ছোট** means younger and **বড়** older."
+    },
+    {
+      "id": "e11",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "রাফি আমার চেয়ে লম্বা।",
+        "tr": "rafi amar cheye lomba.",
+        "en": "Rafi is taller than me.",
+        "alt": [
+          "Rafi is taller than I am."
+        ]
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "খাটো",
+        "আমি",
+        "লম্বা",
+        "রাফি",
+        "চেয়ে",
+        "বেশি",
+        "আমার"
+      ],
+      "answer": [
+        "রাফি",
+        "আমার",
+        "চেয়ে",
+        "লম্বা"
+      ],
+      "alt": [
+        [
+          "রাফি",
+          "আমার",
+          "চেয়ে",
+          "বেশি",
+          "লম্বা"
+        ]
+      ],
+      "why": "Rafi, than me, tall: there is no '-er' ending."
+    },
+    {
+      "id": "e12",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "সিলেটে ঢাকার চেয়ে বেশি বৃষ্টি হয়।",
+        "tr": "shilete dhakar cheye beshi brishti hoy.",
+        "en": "It rains more in Sylhet than in Dhaka.",
+        "alt": [
+          "Sylhet gets more rain than Dhaka."
+        ]
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "বেশি",
+        "কম",
+        "হয়",
+        "ঢাকার",
+        "সিলেটে",
+        "বৃষ্টি",
+        "ঢাকায়",
+        "চেয়ে",
+        "হচ্ছে"
+      ],
+      "answer": [
+        "সিলেটে",
+        "ঢাকার",
+        "চেয়ে",
+        "বেশি",
+        "বৃষ্টি",
+        "হয়"
+      ],
+      "alt": [
+        [
+          "ঢাকার",
+          "চেয়ে",
+          "সিলেটে",
+          "বেশি",
+          "বৃষ্টি",
+          "হয়"
+        ]
+      ],
+      "why": "**ঢাকার চেয়ে বেশি** 'more than Dhaka'; **হয়** for what usually happens."
+    },
+    {
+      "id": "e13",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আমি রাফির চেয়ে দুই বছরের বড়।",
+        "tr": "ami rafir cheye dui bochhorer boro.",
+        "en": "I'm two years older than Rafi.",
+        "alt": [
+          "I am two years older than Rafi."
+        ]
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "আমি রাফির চেয়ে দুই বছরের ছোট।",
+        "আমি রাফির চেয়ে দুই বছরের বড়।",
+        "রাফি আমার চেয়ে দুই বছরের বড়।",
+        "আমি রাফির চেয়ে অনেক লম্বা।"
+      ],
+      "answer": 1,
+      "why": "**রাফির চেয়ে** 'than Rafi'; **বড়** 'older'."
+    },
+    {
+      "id": "e14",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আমার ভাই আমার চেয়ে অনেক লম্বা।",
+        "tr": "amar bhai amar cheye onek lomba.",
+        "en": "My brother is much taller than me.",
+        "alt": [
+          "My brother is a lot taller than me."
+        ]
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "আমার ভাই আমার চেয়ে অনেক লম্বা।",
+        "আমার ভাই আমার চেয়ে একটু লম্বা।",
+        "আমার ভাই আমার চেয়ে অনেক খাটো।",
+        "আমার ভাই সবচেয়ে লম্বা।"
+      ],
+      "answer": 0,
+      "why": "**অনেক** 'much' goes before the adjective."
+    },
+    {
+      "id": "e15",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "এটা ওটার চেয়ে ভালো।",
+        "tr": "eta otar cheye bhalo.",
+        "en": "This one is better than that one.",
+        "alt": [
+          "This is better than that.",
+          "This is better than that one."
+        ]
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "এটা ওটার চেয়ে ভালো",
+        "এটা ওটার থেকে ভালো",
+        "এইটা ওইটার চেয়ে ভালো",
+        "এটা ওটার চেয়ে বেশি ভালো",
+        "eta otar cheye bhalo",
+        "eta otar cheye valo",
+        "eta otar cheye bhalo",
+        "eta otar theke bhalo",
+        "eita oitar cheye bhalo",
+        "eta otar chaye bhalo",
+        "eta otar cheye beshi bhalo"
+      ],
+      "why": "**ওটার চেয়ে** 'than that one'; **ভালো** stays the same."
+    },
+    {
+      "id": "r01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আসছে",
+        "tr": "ashchhe",
+        "en": "is coming"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "আসছে",
+        "বললাম",
+        "খাচ্ছি",
+        "খায়"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "পড়েছে",
+        "tr": "porechhe",
+        "en": "has set in (cold, heat)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "has set in (cold, heat)",
+        "I will say",
+        "(I) have come",
+        "you (familiar) / he, she will do"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "listen_select",
+      "audio": {
+        "bn": "কম বয়সী",
+        "tr": "kom boyoshi",
+        "en": "young"
+      },
+      "options": [
+        "পান্তা ভাত",
+        "এখনো না",
+        "দেখা হবে",
+        "কম বয়সী"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "ছাতা",
+          "tr": "chhata",
+          "en": "umbrella"
+        },
+        {
+          "bn": "বর্ষা",
+          "tr": "borsha",
+          "en": "monsoon"
+        },
+        {
+          "bn": "বর্ষায়",
+          "tr": "borshay",
+          "en": "in the monsoon"
+        },
+        {
+          "bn": "কুয়াশা",
+          "tr": "kuyasha",
+          "en": "fog"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "মুখ",
+          "tr": "mukh",
+          "en": "face; mouth"
+        },
+        {
+          "bn": "বুড়ো",
+          "tr": "buro",
+          "en": "old (of people)"
+        },
+        {
+          "bn": "শীত",
+          "tr": "shit",
+          "en": "cold (weather); winter"
+        },
+        {
+          "bn": "মজার",
+          "tr": "mojar",
+          "en": "funny"
+        }
+      ],
+      "recycle": true
+    }
+  ]
+}

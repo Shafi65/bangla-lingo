@@ -1,0 +1,529 @@
+{
+  "id": "u15-l05",
+  "unit": "u15-describing",
+  "title": "Seasons and the monsoon",
+  "status": "draft",
+  "tip": "**Cold and heat 'fall':** **শীত পড়েছে** 'it has turned cold', **গরম পড়েছে** 'the hot weather is here'. Feeling cold: **আমার শীত লাগছে**. **ঠান্ডা** (U14) is cold to the touch, like water; **শীত** is the cold you feel, and winter.\n\n**বর্ষা** is the monsoon, roughly June to October. **বর্ষায়** means 'in the monsoon': **বর্ষায় অনেক বৃষ্টি হয়** 'it rains a lot in the monsoon'. **হয়** is a habit; **হচ্ছে** is happening now.\n\nWinter mornings bring **কুয়াশা** 'fog'. And take a **ছাতা** 'umbrella'!",
+  "vocab": [
+    {
+      "id": "shit",
+      "bn": "শীত",
+      "tr": "shit",
+      "en": "cold (weather); winter",
+      "notes": "The cold you feel and the cold season: আমার শীত লাগছে 'I feel cold', শীত পড়েছে 'it has turned cold'. ঠান্ডা (U14) is cold to the touch: ঠান্ডা পানি."
+    },
+    {
+      "id": "borsha",
+      "bn": "বর্ষা",
+      "tr": "borsha",
+      "en": "monsoon",
+      "notes": "Roughly June to October: Bangladesh's rainy season."
+    },
+    {
+      "id": "borshay",
+      "bn": "বর্ষায়",
+      "tr": "borshay",
+      "en": "in the monsoon",
+      "notes": "বর্ষা + -য় 'in': বর্ষায় অনেক বৃষ্টি হয়. বর্ষাকালে also means 'in the rainy season'."
+    },
+    {
+      "id": "porechhe",
+      "bn": "পড়েছে",
+      "tr": "porechhe",
+      "en": "has set in (cold, heat)",
+      "notes": "Literally 'has fallen': শীত পড়েছে 'it has turned cold', গরম পড়েছে 'the hot weather is here'. পড়া also means 'read' and 'fall'."
+    },
+    {
+      "id": "kuyasha",
+      "bn": "কুয়াশা",
+      "tr": "kuyasha",
+      "en": "fog",
+      "notes": "Winter mornings in Bangladesh are often foggy."
+    },
+    {
+      "id": "chhata",
+      "bn": "ছাতা",
+      "tr": "chhata",
+      "en": "umbrella",
+      "notes": "For rain and for strong sun."
+    },
+    {
+      "id": "ashchhe",
+      "bn": "আসছে",
+      "tr": "ashchhe",
+      "en": "is coming",
+      "notes": "Present continuous of আসা: ঝড় আসছে 'a storm is coming'."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আজ খুব শীত পড়েছে।",
+        "tr": "aj khub shit porechhe.",
+        "en": "It's turned really cold today.",
+        "alt": [
+          "It's very cold today.",
+          "It is really cold today."
+        ]
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "I've caught a cold today.",
+        "It's very hot today.",
+        "It's turned really cold today.",
+        "It rained a lot today."
+      ],
+      "answer": 2,
+      "why": "Cold 'falls': **শীত পড়েছে** 'it has turned cold'."
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "বর্ষায় অনেক বৃষ্টি হয়।",
+        "tr": "borshay onek brishti hoy.",
+        "en": "It rains a lot in the monsoon.",
+        "alt": [
+          "There's a lot of rain in the rainy season."
+        ]
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "It rains a lot in the monsoon.",
+        "It's raining a lot now.",
+        "It rains a little in winter.",
+        "The monsoon is beautiful."
+      ],
+      "answer": 0,
+      "why": "**বর্ষায়** 'in the monsoon'; **হয়** is a habit, **হচ্ছে** is now."
+    },
+    {
+      "id": "e03",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "শীত",
+          "tr": "shit",
+          "en": "cold (weather); winter"
+        },
+        {
+          "bn": "বর্ষা",
+          "tr": "borsha",
+          "en": "monsoon"
+        },
+        {
+          "bn": "কুয়াশা",
+          "tr": "kuyasha",
+          "en": "fog"
+        },
+        {
+          "bn": "ছাতা",
+          "tr": "chhata",
+          "en": "umbrella"
+        },
+        {
+          "bn": "ঋতু",
+          "tr": "ritu",
+          "en": "season"
+        }
+      ]
+    },
+    {
+      "id": "e04",
+      "type": "listen_select",
+      "audio": {
+        "bn": "আসছে",
+        "tr": "ashchhe",
+        "en": "is coming"
+      },
+      "options": [
+        "আসবে",
+        "আছে",
+        "হচ্ছে",
+        "আসছে"
+      ],
+      "answer": 3,
+      "why": "**আসছে** 'is coming': **-ছে** is happening now."
+    },
+    {
+      "id": "e05",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "ঝড় আসছে!",
+        "tr": "jhor ashchhe!",
+        "en": "A storm is coming!",
+        "alt": [
+          "There's a storm coming!"
+        ]
+      },
+      "options": [
+        "It's raining!",
+        "A storm is coming!",
+        "It's very windy!",
+        "The storm is over!"
+      ],
+      "answer": 1,
+      "why": "**ঝড়** 'storm' + **আসছে** 'is coming'."
+    },
+    {
+      "id": "e06",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "সকালে অনেক কুয়াশা ছিল।",
+        "tr": "shokale onek kuyasha chhilo.",
+        "en": "It was very foggy in the morning.",
+        "alt": [
+          "There was a lot of fog in the morning.",
+          "It was very foggy this morning."
+        ]
+      },
+      "options": [
+        "It was very cold at night.",
+        "It was very foggy in the morning.",
+        "It's foggy every morning.",
+        "There were lots of clouds in the morning."
+      ],
+      "answer": 1,
+      "why": "**কুয়াশা** 'fog'; **ছিল** 'was'."
+    },
+    {
+      "id": "e07",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আমার শীত লাগছে।",
+        "tr": "amar shit lagchhe.",
+        "en": "I feel cold.",
+        "alt": [
+          "I'm cold.",
+          "I'm feeling cold."
+        ]
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "I have a cold.",
+        "It's winter now.",
+        "I feel hot.",
+        "I feel cold."
+      ],
+      "answer": 3,
+      "why": "**শীত লাগছে** 'I feel cold'; **ঠান্ডা লেগেছে** (U14) is 'I've caught a cold'."
+    },
+    {
+      "id": "e08",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "ছাতা নাও, বৃষ্টি হচ্ছে।",
+        "tr": "chhata nao, brishti hochchhe.",
+        "en": "Take an umbrella, it's raining.",
+        "alt": [
+          "Take an umbrella, it is raining."
+        ]
+      },
+      "blank": "ছাতা",
+      "options": [
+        "ছাতা",
+        "পানি",
+        "ওষুধ",
+        "জামা"
+      ],
+      "answer": 0,
+      "why": "**ছাতা** 'umbrella'; **নাও** 'take' (to তুমি)."
+    },
+    {
+      "id": "e09",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "বর্ষায় অনেক বৃষ্টি হয়।",
+        "tr": "borshay onek brishti hoy.",
+        "en": "It rains a lot in the monsoon.",
+        "alt": [
+          "There's a lot of rain in the rainy season."
+        ]
+      },
+      "blank": "বর্ষায়",
+      "options": [
+        "বর্ষা",
+        "শীত",
+        "বর্ষায়",
+        "ছাতা"
+      ],
+      "answer": 2,
+      "why": "**বর্ষায়** 'in the monsoon': the ending **-য়** means 'in'."
+    },
+    {
+      "id": "e10",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "সকালে অনেক কুয়াশা ছিল।",
+        "tr": "shokale onek kuyasha chhilo.",
+        "en": "It was very foggy in the morning.",
+        "alt": [
+          "There was a lot of fog in the morning.",
+          "It was very foggy this morning."
+        ]
+      },
+      "blank": "কুয়াশা",
+      "accepted": [
+        "কুয়াশা",
+        "kuyasha",
+        "kuasha",
+        "kuyasa",
+        "kuwasha",
+        "কুয়াসা"
+      ],
+      "why": "**কুয়াশা** 'fog': winter mornings in Bangladesh are often foggy."
+    },
+    {
+      "id": "e11",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "এখন কোন ঋতু?",
+        "tr": "ekhon kon ritu?",
+        "en": "What season is it now?",
+        "alt": [
+          "Which season is it now?"
+        ]
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "এখন",
+        "কোন",
+        "ঋতু",
+        "কী",
+        "কেমন",
+        "বর্ষা"
+      ],
+      "answer": [
+        "এখন",
+        "কোন",
+        "ঋতু"
+      ],
+      "alt": [
+        [
+          "কোন",
+          "ঋতু",
+          "এখন"
+        ]
+      ],
+      "why": "**কোন** 'which' goes before the noun: **কোন ঋতু?**"
+    },
+    {
+      "id": "e12",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "ছাতা নাও, বৃষ্টি হচ্ছে।",
+        "tr": "chhata nao, brishti hochchhe.",
+        "en": "Take an umbrella, it's raining.",
+        "alt": [
+          "Take an umbrella, it is raining."
+        ]
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "আসছে",
+        "হচ্ছে",
+        "নাও",
+        "ছাতা",
+        "হয়",
+        "বৃষ্টি",
+        "দাও"
+      ],
+      "answer": [
+        "ছাতা",
+        "নাও",
+        "বৃষ্টি",
+        "হচ্ছে"
+      ],
+      "alt": [
+        [
+          "বৃষ্টি",
+          "হচ্ছে",
+          "ছাতা",
+          "নাও"
+        ]
+      ],
+      "why": "**ছাতা নাও** 'take an umbrella'; **বৃষ্টি হচ্ছে** 'it's raining (now)'."
+    },
+    {
+      "id": "e13",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আজ খুব শীত পড়েছে।",
+        "tr": "aj khub shit porechhe.",
+        "en": "It's turned really cold today.",
+        "alt": [
+          "It's very cold today.",
+          "It is really cold today."
+        ]
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "আজ খুব গরম পড়েছে।",
+        "আজ খুব শীত পড়েছে।",
+        "আমার ঠান্ডা লেগেছে।",
+        "আজ অনেক বৃষ্টি হচ্ছে।"
+      ],
+      "answer": 1,
+      "why": "Cold 'falls': **শীত পড়েছে**; **গরম পড়েছে** would be hot weather."
+    },
+    {
+      "id": "e14",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ঝড় আসছে!",
+        "tr": "jhor ashchhe!",
+        "en": "A storm is coming!",
+        "alt": [
+          "There's a storm coming!"
+        ]
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "ঝড় আসছে!",
+        "বৃষ্টি হচ্ছে!",
+        "ঝড় আসবে না।",
+        "বাতাস আসছে!"
+      ],
+      "answer": 0,
+      "why": "**আসছে** 'is coming'."
+    },
+    {
+      "id": "e15",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আমার শীত লাগছে।",
+        "tr": "amar shit lagchhe.",
+        "en": "I feel cold.",
+        "alt": [
+          "I'm cold.",
+          "I'm feeling cold."
+        ]
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "আমার শীত লাগছে",
+        "শীত লাগছে",
+        "আমার শীত করছে",
+        "amar shit lagchhe",
+        "amar shit lagche",
+        "amar sheet lagche",
+        "amar sheet lagchhe",
+        "amar sit lagche",
+        "shit lagchhe",
+        "shit lagche",
+        "amar shit korchhe",
+        "amar shit korche"
+      ],
+      "why": "Feeling cold: **আমার শীত লাগছে** (not **ঠান্ডা লেগেছে**, which is catching a cold)."
+    },
+    {
+      "id": "r01",
+      "type": "listen_select",
+      "audio": {
+        "bn": "উঠেছে",
+        "tr": "uthechhe",
+        "en": "has come out; has risen"
+      },
+      "options": [
+        "পারেনি",
+        "উঠেছে",
+        "করবেন",
+        "বলবে"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "রোদ",
+        "tr": "rod",
+        "en": "sunshine"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "সাহায্য",
+        "সিএনজি",
+        "রোদ",
+        "শিক্ষার্থী"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আবহাওয়া",
+        "tr": "abohawa",
+        "en": "weather"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "people",
+        "shemai",
+        "year",
+        "weather"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "দেখতে",
+          "tr": "dekhte",
+          "en": "in looks"
+        },
+        {
+          "bn": "মেঘ",
+          "tr": "megh",
+          "en": "cloud"
+        },
+        {
+          "bn": "বেশ",
+          "tr": "besh",
+          "en": "quite"
+        },
+        {
+          "bn": "মেঘলা",
+          "tr": "meghla",
+          "en": "cloudy"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "অ্যাম্বুলেন্স",
+          "tr": "ambulens",
+          "en": "ambulance"
+        },
+        {
+          "bn": "দুর্ঘটনা",
+          "tr": "durghotona",
+          "en": "accident"
+        },
+        {
+          "bn": "মোটা",
+          "tr": "mota",
+          "en": "fat; thick"
+        },
+        {
+          "bn": "খাটো",
+          "tr": "khato",
+          "en": "short (of people)"
+        }
+      ],
+      "recycle": true
+    }
+  ]
+}

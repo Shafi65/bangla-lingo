@@ -229,6 +229,8 @@ const MORE_PRACTICE = [
   { href: "/speak", title: "Speaking practice", body: "Listen, say it aloud and compare with the model." },
   { href: "/formality", title: "Formality trainer", body: "তুই, তুমি or আপনি? Pick the right \u201cyou\u201d for the person." },
   { href: "/write", title: "Write the letters", body: "Trace each Bengali letter with your finger or mouse." },
+  { href: "/stories", title: "Stories", body: "Short stories with audio. Tap any word to see what it means." },
+  { href: "/family", title: "My family", body: "Build your family tree and learn what to call each relative." },
 ];
 
 function Empty({ title, body, href, cta }: { title: string; body: string; href?: string; cta?: string }) {

@@ -1,0 +1,188 @@
+{
+  "id": "u15-describing-story",
+  "unit": "u15-describing",
+  "title": {
+    "bn": "সবচেয়ে মজার কে?",
+    "tr": "shobcheye mojar ke?",
+    "en": "Who's the funniest?",
+    "senses": {
+      "মজার": "mojar-funny"
+    }
+  },
+  "summary": "The monsoon reaches Sylhet. Emma calls from Dhaka, and she and Rafi compare the weather and the family.",
+  "status": "draft",
+  "lines": [
+    {
+      "bn": "সিলেটে বর্ষা এসেছে। বাইরে অনেক বৃষ্টি হচ্ছে।",
+      "tr": "shilete borsha eshechhe. baire onek brishti hochchhe.",
+      "en": "The monsoon has come to Sylhet. It's raining hard outside."
+    },
+    {
+      "speaker": "Emma",
+      "bn": "রাফি, সিলেটে আবহাওয়া কেমন?",
+      "tr": "rafi, shilete abohawa kemon?",
+      "en": "Rafi, what's the weather like in Sylhet?"
+    },
+    {
+      "speaker": "Rafi",
+      "bn": "খুব বৃষ্টি! সিলেটে ঢাকার চেয়ে বেশি বৃষ্টি হয়।",
+      "tr": "khub brishti! shilete dhakar cheye beshi brishti hoy.",
+      "en": "So much rain! It rains more in Sylhet than in Dhaka."
+    },
+    {
+      "speaker": "Emma",
+      "bn": "ঢাকায় আজ রোদ উঠেছে। আমার খুব গরম লাগছে!",
+      "tr": "dhakay aj rod uthechhe. amar khub gorom lagchhe!",
+      "en": "The sun's out in Dhaka today. I feel really hot!"
+    },
+    {
+      "speaker": "Rafi",
+      "bn": "আমেরিকা কি ঢাকার চেয়ে ঠান্ডা?",
+      "tr": "amerika ki dhakar cheye thanda?",
+      "en": "Is America colder than Dhaka?"
+    },
+    {
+      "speaker": "Emma",
+      "bn": "হ্যাঁ, অনেক ঠান্ডা! রাফি, তোমার মামা কেমন মানুষ?",
+      "tr": "hya~, onek thanda! rafi, tomar mama kemon manush?",
+      "en": "Yes, much colder! Rafi, what's your uncle like?"
+    },
+    {
+      "speaker": "Rafi",
+      "bn": "মামা খুব মজার মানুষ। আর আমার চেয়ে অনেক লম্বা।",
+      "tr": "mama khub mojar manush. ar amar cheye onek lomba.",
+      "en": "Mama is a really funny person. And much taller than me.",
+      "senses": {
+        "মজার": "mojar-funny"
+      }
+    },
+    {
+      "speaker": "Emma",
+      "bn": "তুমি দেখতে কার মতো?",
+      "tr": "tumi dekhte kar moto?",
+      "en": "Who do you look like?",
+      "senses": {
+        "দেখতে": "dekhte-looks"
+      }
+    },
+    {
+      "speaker": "Rafi",
+      "bn": "আমি দেখতে আমার মায়ের মতো।",
+      "tr": "ami dekhte amar mayer moto.",
+      "en": "I look like my mother.",
+      "senses": {
+        "দেখতে": "dekhte-looks"
+      }
+    },
+    {
+      "speaker": "Rafi",
+      "bn": "আপু আমার চেয়ে বড়, কিন্তু আমার চেয়ে খাটো!",
+      "tr": "apu amar cheye boro, kintu amar cheye khato!",
+      "en": "Apu is older than me, but shorter than me!"
+    },
+    {
+      "speaker": "Emma",
+      "bn": "আর সবচেয়ে মজার কে?",
+      "tr": "ar shobcheye mojar ke?",
+      "en": "And who's the funniest?",
+      "senses": {
+        "মজার": "mojar-funny"
+      }
+    },
+    {
+      "speaker": "Rafi",
+      "bn": "নানি! নানি সবার চেয়ে মজার।",
+      "tr": "nani! nani shobar cheye mojar.",
+      "en": "Nani! Nani is the funniest of all.",
+      "senses": {
+        "মজার": "mojar-funny"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "after": 2,
+      "question": "Where does it rain more?",
+      "options": [
+        "In Sylhet",
+        "In Dhaka",
+        "In America"
+      ],
+      "answer": 0,
+      "why": "সিলেটে ঢাকার চেয়ে বেশি বৃষ্টি হয় = it rains more in Sylhet than in Dhaka. চেয়ে means 'than'."
+    },
+    {
+      "after": 6,
+      "question": "What is Mama like?",
+      "questionBn": {
+        "bn": "মামা কেমন মানুষ?",
+        "tr": "mama kemon manush?",
+        "en": "What is Mama like?"
+      },
+      "options": [
+        {
+          "bn": "মজার",
+          "tr": "mojar",
+          "en": "funny",
+          "senses": {
+            "মজার": "mojar-funny"
+          }
+        },
+        {
+          "bn": "লাজুক",
+          "tr": "lajuk",
+          "en": "shy"
+        },
+        {
+          "bn": "রাগী",
+          "tr": "ragi",
+          "en": "short-tempered"
+        }
+      ],
+      "answer": 0,
+      "why": "Rafi says মামা খুব মজার মানুষ. For a person, মজার means 'funny'; for food it means 'tasty'."
+    },
+    {
+      "after": 9,
+      "question": "Who is taller, Rafi or Apu?",
+      "options": [
+        "Rafi",
+        "Apu",
+        "They are the same height"
+      ],
+      "answer": 0,
+      "why": "আপু আমার চেয়ে খাটো = Apu is shorter than me. For people, বড় means 'older', so Apu is older but shorter."
+    },
+    {
+      "after": 11,
+      "question": "Who is the funniest?",
+      "questionBn": {
+        "bn": "সবচেয়ে মজার কে?",
+        "tr": "shobcheye mojar ke?",
+        "en": "Who is the funniest?",
+        "senses": {
+          "মজার": "mojar-funny"
+        }
+      },
+      "options": [
+        {
+          "bn": "নানি",
+          "tr": "nani",
+          "en": "Nani"
+        },
+        {
+          "bn": "মামা",
+          "tr": "mama",
+          "en": "Mama"
+        },
+        {
+          "bn": "আপু",
+          "tr": "apu",
+          "en": "Apu"
+        }
+      ],
+      "answer": 0,
+      "why": "সবার চেয়ে মজার = funnier than everyone, the funniest. Mama is funny, but Nani wins."
+    }
+  ]
+}

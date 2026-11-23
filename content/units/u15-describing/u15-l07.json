@@ -1,0 +1,510 @@
+{
+  "id": "u15-l07",
+  "unit": "u15-describing",
+  "title": "The best, the same, different",
+  "status": "draft",
+  "tip": "**'The most' is সবচেয়ে** (U6): **সবচেয়ে ভালো** 'the best', **বাবা সবচেয়ে লম্বা** 'Dad is the tallest'. **সবার চেয়ে** 'than everyone' works the same way.\n\nAsk **কোনটা?** 'which one?': **কোনটা সবচেয়ে ভালো?** 'Which one is the best?'\n\n**একই রকম** means 'the same, alike' and **আলাদা** 'different': **এই দুইটা একই রকম**. Soften with **প্রায়** 'almost'. 'Looks like' is **দেখতে … মতো**: **ও দেখতে ওর মায়ের মতো** 'she looks like her mother'. In a shop: **আরও বড় একটা আছে?** 'Is there a bigger one?'",
+  "vocab": [
+    {
+      "id": "shobar",
+      "bn": "সবার",
+      "tr": "shobar",
+      "en": "everyone's; of all",
+      "notes": "সবাই 'everyone' → সবার: সবার চেয়ে লম্বা 'taller than everyone; the tallest'."
+    },
+    {
+      "id": "eki",
+      "bn": "একই",
+      "tr": "eki",
+      "en": "the same",
+      "notes": "এক 'one' + -ই 'just': একই রকম 'the same kind; alike', একই বয়স 'the same age'."
+    },
+    {
+      "id": "rokom",
+      "bn": "রকম",
+      "tr": "rokom",
+      "en": "kind; sort",
+      "notes": "একই রকম 'the same; alike', কী রকম? 'what kind?'"
+    },
+    {
+      "id": "alada",
+      "bn": "আলাদা",
+      "tr": "alada",
+      "en": "different; separate",
+      "notes": "এই দুইটা আলাদা 'these two are different'."
+    },
+    {
+      "id": "konta",
+      "bn": "কোনটা",
+      "tr": "konta",
+      "en": "which one",
+      "notes": "কোন 'which' + -টা: কোনটা সবচেয়ে ভালো? 'Which one is the best?'"
+    },
+    {
+      "id": "pray",
+      "bn": "প্রায়",
+      "tr": "pray",
+      "en": "almost; about",
+      "notes": "প্রায় একই রকম 'almost the same'. প্রায়ই means 'often'."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "কোনটা সবচেয়ে ভালো?",
+        "tr": "konta shobcheye bhalo?",
+        "en": "Which one is the best?",
+        "alt": [
+          "Which is the best?"
+        ]
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "Which one is better?",
+        "Is this the best?",
+        "Which one is the best?",
+        "Why is it the best?"
+      ],
+      "answer": 2,
+      "why": "**কোনটা** 'which one' + **সবচেয়ে ভালো** 'the best'."
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "এই দুইটা একই রকম।",
+        "tr": "ei duita eki rokom.",
+        "en": "These two are the same.",
+        "alt": [
+          "These two are alike.",
+          "These two are the same kind."
+        ]
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "These two are the same.",
+        "These two are different.",
+        "These two are the best.",
+        "These two are big."
+      ],
+      "answer": 0,
+      "why": "**একই রকম** 'the same kind': alike."
+    },
+    {
+      "id": "e03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "নাদিয়া সবার চেয়ে লম্বা।",
+        "tr": "nadiya shobar cheye lomba.",
+        "en": "Nadia is the tallest of all.",
+        "alt": [
+          "Nadia is taller than everyone."
+        ]
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "Nadia is taller than me.",
+        "Everyone is taller than Nadia.",
+        "Nadia is quite tall.",
+        "Nadia is the tallest of all."
+      ],
+      "answer": 3,
+      "why": "**সবার চেয়ে** 'than everyone' gives 'the most'."
+    },
+    {
+      "id": "e04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "আলাদা",
+          "tr": "alada",
+          "en": "different; separate"
+        },
+        {
+          "bn": "প্রায়",
+          "tr": "pray",
+          "en": "almost; about"
+        },
+        {
+          "bn": "কোনটা",
+          "tr": "konta",
+          "en": "which one"
+        },
+        {
+          "bn": "সবার",
+          "tr": "shobar",
+          "en": "everyone's; of all"
+        },
+        {
+          "bn": "একই",
+          "tr": "eki",
+          "en": "the same"
+        }
+      ]
+    },
+    {
+      "id": "e05",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "আমি আর আমার বোন দেখতে প্রায় একই রকম।",
+        "tr": "ami ar amar bon dekhte pray eki rokom.",
+        "en": "My sister and I look almost the same.",
+        "alt": [
+          "My sister and I look almost alike.",
+          "I and my sister look nearly the same."
+        ]
+      },
+      "options": [
+        "My sister and I look very different.",
+        "My sister and I look almost the same.",
+        "My sister is almost as tall as me.",
+        "My sister looks like my mother."
+      ],
+      "answer": 1,
+      "why": "**প্রায়** 'almost' + **একই রকম** 'the same'."
+    },
+    {
+      "id": "e06",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "ও দেখতে ওর মায়ের মতো।",
+        "tr": "o dekhte or mayer moto.",
+        "en": "She looks like her mother.",
+        "alt": [
+          "He looks like his mother.",
+          "She looks like her mum."
+        ]
+      },
+      "options": [
+        "She is looking at her mother.",
+        "She looks like her mother.",
+        "She is taller than her mother.",
+        "She looks like her father."
+      ],
+      "answer": 1,
+      "why": "**দেখতে … মতো** 'looks like'; **মায়ের মতো** 'like her mother'."
+    },
+    {
+      "id": "e07",
+      "type": "listen_select",
+      "audio": {
+        "bn": "আলাদা",
+        "tr": "alada",
+        "en": "different; separate"
+      },
+      "options": [
+        "আরও",
+        "আছে",
+        "আলু",
+        "আলাদা"
+      ],
+      "answer": 3,
+      "why": "**আলাদা** 'different'."
+    },
+    {
+      "id": "e08",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "এই দুইটা আলাদা।",
+        "tr": "ei duita alada.",
+        "en": "These two are different.",
+        "alt": [
+          "These two are not the same."
+        ]
+      },
+      "blank": "আলাদা",
+      "options": [
+        "আলাদা",
+        "একই",
+        "সবার",
+        "বেশি"
+      ],
+      "answer": 0,
+      "why": "**আলাদা** 'different'; **একই রকম** is 'the same'."
+    },
+    {
+      "id": "e09",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আমাদের বাসায় বাবা সবচেয়ে লম্বা।",
+        "tr": "amader bashay baba shobcheye lomba.",
+        "en": "Dad is the tallest in our house.",
+        "alt": [
+          "In our family, Dad is the tallest.",
+          "My father is the tallest in our home."
+        ]
+      },
+      "blank": "সবচেয়ে",
+      "options": [
+        "সবার",
+        "চেয়ে",
+        "সবচেয়ে",
+        "আরও"
+      ],
+      "answer": 2,
+      "why": "**সবচেয়ে** + adjective = 'the most': **সবচেয়ে লম্বা** 'the tallest'."
+    },
+    {
+      "id": "e10",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "এই দুইটা একই রকম।",
+        "tr": "ei duita eki rokom.",
+        "en": "These two are the same.",
+        "alt": [
+          "These two are alike.",
+          "These two are the same kind."
+        ]
+      },
+      "blank": "রকম",
+      "accepted": [
+        "রকম",
+        "rokom",
+        "rakom",
+        "rokam",
+        "rokum"
+      ],
+      "why": "**একই রকম** 'the same kind; alike'."
+    },
+    {
+      "id": "e11",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "ও দেখতে ওর মায়ের মতো।",
+        "tr": "o dekhte or mayer moto.",
+        "en": "She looks like her mother.",
+        "alt": [
+          "He looks like his mother.",
+          "She looks like her mum."
+        ]
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "মায়ের",
+        "মা",
+        "চেয়ে",
+        "মতো",
+        "বাবার",
+        "ও",
+        "ওর",
+        "দেখতে"
+      ],
+      "answer": [
+        "ও",
+        "দেখতে",
+        "ওর",
+        "মায়ের",
+        "মতো"
+      ],
+      "why": "**X-র মতো** 'like X' (U9); **দেখতে** for looks."
+    },
+    {
+      "id": "e12",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "কোনটা বেশি সুন্দর?",
+        "tr": "konta beshi shundor?",
+        "en": "Which one is prettier?",
+        "alt": [
+          "Which one is more beautiful?",
+          "Which is nicer?"
+        ]
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "কোন",
+        "কেমন",
+        "কোনটা",
+        "সুন্দর",
+        "সবচেয়ে",
+        "বেশি"
+      ],
+      "answer": [
+        "কোনটা",
+        "বেশি",
+        "সুন্দর"
+      ],
+      "why": "**কোনটা** 'which one'; **বেশি** 'more'."
+    },
+    {
+      "id": "e13",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আরও বড় একটা আছে?",
+        "tr": "aro boro ekta achhe?",
+        "en": "Is there a bigger one?",
+        "alt": [
+          "Do you have a bigger one?",
+          "Is there a larger one?"
+        ]
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "আরও ছোট একটা আছে?",
+        "আরও বড় একটা আছে?",
+        "সবচেয়ে বড় কোনটা?",
+        "এটা কি বড়?"
+      ],
+      "answer": 1,
+      "why": "**আরও বড়** 'bigger (still)'. Useful in shops."
+    },
+    {
+      "id": "e14",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "বর্ষায় সবচেয়ে বেশি বৃষ্টি হয়।",
+        "tr": "borshay shobcheye beshi brishti hoy.",
+        "en": "It rains the most in the monsoon.",
+        "alt": [
+          "The monsoon has the most rain."
+        ]
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "বর্ষায় সবচেয়ে বেশি বৃষ্টি হয়।",
+        "বর্ষায় সবচেয়ে কম বৃষ্টি হয়।",
+        "বর্ষায় অনেক বৃষ্টি হয়।",
+        "এখন অনেক বৃষ্টি হচ্ছে।"
+      ],
+      "answer": 0,
+      "why": "**সবচেয়ে বেশি** 'the most'."
+    },
+    {
+      "id": "e15",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "এই দুইটা আলাদা।",
+        "tr": "ei duita alada.",
+        "en": "These two are different.",
+        "alt": [
+          "These two are not the same."
+        ]
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "এই দুইটা আলাদা",
+        "এই দুটো আলাদা",
+        "এই দুইটা আলাদা রকম",
+        "দুইটা আলাদা",
+        "এ দুইটা আলাদা",
+        "ei duita alada",
+        "ei duto alada",
+        "ei duita aalada",
+        "ei duyta alada",
+        "ei duita alada rokom",
+        "duita alada",
+        "ei dui ta alada"
+      ],
+      "why": "**আলাদা** 'different'; no verb."
+    },
+    {
+      "id": "r01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ওটার",
+        "tr": "otar",
+        "en": "of that"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "they (spoken)",
+        "of that",
+        "he/she (polite, spoken)",
+        "you (familiar, plural)"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "listen_select",
+      "audio": {
+        "bn": "ভালো মানুষ",
+        "tr": "bhalo manush",
+        "en": "a good person; kind"
+      },
+      "options": [
+        "ওয়ালাইকুম আসসালাম",
+        "ইনশাআল্লাহ",
+        "ভালো মানুষ",
+        "একুশে ফেব্রুয়ারি"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "বছরের",
+        "tr": "bochhorer",
+        "en": "of … years; year's"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "বছরের",
+        "শুক্রবার",
+        "নামাজ",
+        "রোদ"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "বয়স্ক",
+          "tr": "boyoshko",
+          "en": "elderly"
+        },
+        {
+          "bn": "হলুদ",
+          "tr": "holud",
+          "en": "yellow; turmeric"
+        },
+        {
+          "bn": "দিনে",
+          "tr": "dine",
+          "en": "a day; per day"
+        },
+        {
+          "bn": "জানাও",
+          "tr": "janao",
+          "en": "let (me) know (familiar)"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "ধরে",
+          "tr": "dhore",
+          "en": "for (a time)"
+        },
+        {
+          "bn": "রাগী",
+          "tr": "ragi",
+          "en": "short-tempered"
+        },
+        {
+          "bn": "কালো",
+          "tr": "kalo",
+          "en": "black"
+        },
+        {
+          "bn": "হাসিখুশি",
+          "tr": "hashikhushi",
+          "en": "cheerful"
+        }
+      ],
+      "recycle": true
+    }
+  ]
+}
