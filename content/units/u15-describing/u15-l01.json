@@ -1,0 +1,522 @@
+{
+  "id": "u15-l01",
+  "unit": "u15-describing",
+  "title": "What do they look like?",
+  "status": "draft",
+  "tip": "**Describing someone needs no verb.** Put the adjective after the person: **রাফি লম্বা** 'Rafi is tall', **নাদিয়া একটু খাটো** 'Nadia is a bit short'.\n\n**দেখতে** 'to look at' shows you mean looks: **ও দেখতে কেমন?** 'What does he look like?' Answer: **ও দেখতে খুব লম্বা** 'he's very tall'.\n\nFor hair and face, use the -র form: **ওর চুল লম্বা** 'her hair is long' (literally 'her hair long'). **খাটো** is short for people; for things say **ছোট**. **বেশ** 'quite' is softer than **খুব** 'very'.",
+  "vocab": [
+    {
+      "id": "dekhte-looks",
+      "bn": "দেখতে",
+      "tr": "dekhte",
+      "en": "in looks",
+      "notes": "ও দেখতে লম্বা 'he looks tall; he is tall (to look at)'. ও দেখতে কেমন? 'What does she look like?' The same form is 'to see' after a verb of motion (U11: দেখতে যাব)."
+    },
+    {
+      "id": "lomba",
+      "bn": "লম্বা",
+      "tr": "lomba",
+      "en": "tall; long",
+      "notes": "People: ও লম্বা 'he is tall'. Things: লম্বা চুল 'long hair'."
+    },
+    {
+      "id": "khato",
+      "bn": "খাটো",
+      "tr": "khato",
+      "en": "short (of people)",
+      "notes": "For height: ও একটু খাটো 'she's a bit short'. For things, use ছোট."
+    },
+    {
+      "id": "mota",
+      "bn": "মোটা",
+      "tr": "mota",
+      "en": "fat; thick",
+      "notes": "Said plainly in Bangladesh, even about family (বাবা একটু মোটা), but it is still personal: careful with strangers."
+    },
+    {
+      "id": "patla",
+      "bn": "পাতলা",
+      "tr": "patla",
+      "en": "thin; slim",
+      "notes": "ও খুব পাতলা 'she's very thin'. Everyday Bangladeshi speech also says চিকন for a slim person."
+    },
+    {
+      "id": "chul",
+      "bn": "চুল",
+      "tr": "chul",
+      "en": "hair",
+      "notes": "Hair on the head; one word for one hair or all of it: ওর চুল লম্বা 'her hair is long'."
+    },
+    {
+      "id": "mukh",
+      "bn": "মুখ",
+      "tr": "mukh",
+      "en": "face; mouth",
+      "notes": "ওর মুখ খুব সুন্দর 'she has a lovely face'."
+    },
+    {
+      "id": "besh",
+      "bn": "বেশ",
+      "tr": "besh",
+      "en": "quite",
+      "notes": "Before an adjective: বেশ লম্বা 'quite tall'. Milder than খুব 'very'."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "রাফি দেখতে খুব লম্বা।",
+        "tr": "rafi dekhte khub lomba.",
+        "en": "Rafi is very tall.",
+        "alt": [
+          "Rafi looks very tall."
+        ]
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "Rafi is very short.",
+        "Rafi is very thin.",
+        "Rafi is very tall.",
+        "Rafi likes to watch."
+      ],
+      "answer": 2,
+      "why": "**দেখতে** here means 'in looks'; **লম্বা** is 'tall'. No verb is needed."
+    },
+    {
+      "id": "e02",
+      "type": "listen_select",
+      "audio": {
+        "bn": "খাটো",
+        "tr": "khato",
+        "en": "short (of people)"
+      },
+      "options": [
+        "খাটো",
+        "ছোট",
+        "খারাপ",
+        "লম্বা"
+      ],
+      "answer": 0,
+      "why": "**খাটো** is short in height; **ছোট** is small (or young)."
+    },
+    {
+      "id": "e03",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "মোটা",
+          "tr": "mota",
+          "en": "fat; thick"
+        },
+        {
+          "bn": "পাতলা",
+          "tr": "patla",
+          "en": "thin; slim"
+        },
+        {
+          "bn": "চুল",
+          "tr": "chul",
+          "en": "hair"
+        },
+        {
+          "bn": "মুখ",
+          "tr": "mukh",
+          "en": "face; mouth"
+        },
+        {
+          "bn": "খাটো",
+          "tr": "khato",
+          "en": "short (of people)"
+        }
+      ]
+    },
+    {
+      "id": "e04",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "উনি বেশ লম্বা।",
+        "tr": "uni besh lomba.",
+        "en": "He is quite tall.",
+        "alt": [
+          "She is quite tall."
+        ]
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "He is very short.",
+        "He is a bit fat.",
+        "He is not tall.",
+        "He is quite tall."
+      ],
+      "answer": 3,
+      "why": "**বেশ** 'quite' is milder than **খুব** 'very'."
+    },
+    {
+      "id": "e05",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "ওর চুল লম্বা।",
+        "tr": "or chul lomba.",
+        "en": "Her hair is long.",
+        "alt": [
+          "His hair is long.",
+          "She has long hair."
+        ]
+      },
+      "options": [
+        "Her hair is black.",
+        "Her hair is long.",
+        "Her face is lovely.",
+        "She is tall."
+      ],
+      "answer": 1,
+      "why": "**ওর চুল** 'her hair' + **লম্বা** 'long', with no verb."
+    },
+    {
+      "id": "e06",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "আমার বাবা একটু মোটা।",
+        "tr": "amar baba ektu mota.",
+        "en": "My father is a bit plump.",
+        "alt": [
+          "My father is a little fat.",
+          "My dad is a bit fat."
+        ]
+      },
+      "options": [
+        "My father is very tall.",
+        "My father is a bit plump.",
+        "My brother is a bit short.",
+        "My father is a bit thin."
+      ],
+      "answer": 1,
+      "why": "**মোটা** 'fat; plump' is the opposite of **পাতলা** 'thin'."
+    },
+    {
+      "id": "e07",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ও দেখতে কেমন?",
+        "tr": "o dekhte kemon?",
+        "en": "What does he look like?",
+        "alt": [
+          "What does she look like?"
+        ]
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "How is he?",
+        "Where is he?",
+        "What is he watching?",
+        "What does he look like?"
+      ],
+      "answer": 3,
+      "why": "**দেখতে কেমন?** asks about looks; **কেমন আছে?** asks how someone is."
+    },
+    {
+      "id": "e08",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "নাদিয়া একটু খাটো।",
+        "tr": "nadiya ektu khato.",
+        "en": "Nadia is a bit short.",
+        "alt": [
+          "Nadia is a little short."
+        ]
+      },
+      "blank": "খাটো",
+      "options": [
+        "খাটো",
+        "ছোট",
+        "লম্বা",
+        "মোটা"
+      ],
+      "answer": 0,
+      "why": "For a person's height, short is **খাটো**; **ছোট** means small or young."
+    },
+    {
+      "id": "e09",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "ও দেখতে কেমন?",
+        "tr": "o dekhte kemon?",
+        "en": "What does he look like?",
+        "alt": [
+          "What does she look like?"
+        ]
+      },
+      "blank": "দেখতে",
+      "options": [
+        "দেখো",
+        "দেখি",
+        "দেখতে",
+        "আছে"
+      ],
+      "answer": 2,
+      "why": "**দেখতে** 'in looks': **ও দেখতে কেমন?** 'What does she look like?'"
+    },
+    {
+      "id": "e10",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আমার বোন খুব পাতলা।",
+        "tr": "amar bon khub patla.",
+        "en": "My sister is very thin.",
+        "alt": [
+          "My sister is very slim."
+        ]
+      },
+      "blank": "পাতলা",
+      "accepted": [
+        "পাতলা",
+        "patla",
+        "paatla",
+        "patlaa"
+      ],
+      "why": "**পাতলা** 'thin'; its opposite is **মোটা**."
+    },
+    {
+      "id": "e11",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "ওর চুল লম্বা।",
+        "tr": "or chul lomba.",
+        "en": "Her hair is long.",
+        "alt": [
+          "His hair is long.",
+          "She has long hair."
+        ]
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "আমার",
+        "চুল",
+        "মুখ",
+        "আছে",
+        "খাটো",
+        "ওর",
+        "লম্বা"
+      ],
+      "answer": [
+        "ওর",
+        "চুল",
+        "লম্বা"
+      ],
+      "why": "**ওর চুল** 'her hair', then the adjective. No verb."
+    },
+    {
+      "id": "e12",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "নাদিয়া দেখতে খুব সুন্দর।",
+        "tr": "nadiya dekhte khub shundor.",
+        "en": "Nadia is very pretty.",
+        "alt": [
+          "Nadia looks very beautiful.",
+          "Nadia is very beautiful."
+        ]
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "দেখো",
+        "খুব",
+        "দেখতে",
+        "একটু",
+        "মোটা",
+        "নাদিয়া",
+        "সুন্দর"
+      ],
+      "answer": [
+        "নাদিয়া",
+        "দেখতে",
+        "খুব",
+        "সুন্দর"
+      ],
+      "alt": [
+        [
+          "নাদিয়া",
+          "খুব",
+          "সুন্দর"
+        ]
+      ],
+      "why": "**দেখতে** marks looks; **নাদিয়া খুব সুন্দর** is also right."
+    },
+    {
+      "id": "e13",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "উনি বেশ লম্বা।",
+        "tr": "uni besh lomba.",
+        "en": "He is quite tall.",
+        "alt": [
+          "She is quite tall."
+        ]
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "উনি বেশ খাটো।",
+        "উনি বেশ লম্বা।",
+        "উনি খুব মোটা।",
+        "উনি বেশ পাতলা।"
+      ],
+      "answer": 1,
+      "why": "**বেশ** 'quite' + **লম্বা** 'tall'."
+    },
+    {
+      "id": "e14",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ওর মুখ খুব সুন্দর।",
+        "tr": "or mukh khub shundor.",
+        "en": "She has a lovely face.",
+        "alt": [
+          "Her face is very beautiful.",
+          "His face is very handsome."
+        ]
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "ওর মুখ খুব সুন্দর।",
+        "ওর চুল খুব সুন্দর।",
+        "ওর চোখ খুব বড়।",
+        "ও খুব মোটা।"
+      ],
+      "answer": 0,
+      "why": "**মুখ** is the face; **চুল** is hair, **চোখ** eyes."
+    },
+    {
+      "id": "e15",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "রাফি দেখতে খুব লম্বা।",
+        "tr": "rafi dekhte khub lomba.",
+        "en": "Rafi is very tall.",
+        "alt": [
+          "Rafi looks very tall."
+        ]
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "রাফি দেখতে খুব লম্বা",
+        "রাফি খুব লম্বা",
+        "rafi dekhte khub lomba",
+        "rafi khub lomba",
+        "rafi dekhte khub lamba",
+        "rafi khub lamba",
+        "rafi dekhte khoob lomba",
+        "rafi khoob lomba"
+      ],
+      "why": "Person + adjective, no verb; **দেখতে** is optional."
+    },
+    {
+      "id": "r01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "কেটে গেছে",
+        "tr": "kete gechhe",
+        "en": "has been cut off"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "has been cut off",
+        "21 February",
+        "hello (on the phone)",
+        "last week"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "listen_select",
+      "audio": {
+        "bn": "শহীদ মিনারে",
+        "tr": "shohid minare",
+        "en": "to the Shaheed Minar"
+      },
+      "options": [
+        "ইনশাআল্লাহ",
+        "গত সপ্তাহে",
+        "শহীদ মিনার",
+        "শহীদ মিনারে"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ইনশাআল্লাহ",
+        "tr": "inshaallah",
+        "en": "God willing"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "মন খারাপ",
+        "নমস্কার",
+        "ইনশাআল্লাহ",
+        "ঠিক আছে"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "চার্জ",
+          "tr": "charj",
+          "en": "charge (battery)"
+        },
+        {
+          "bn": "অপেক্ষা",
+          "tr": "opekkha",
+          "en": "waiting"
+        },
+        {
+          "bn": "ফোনে",
+          "tr": "fone",
+          "en": "on the phone"
+        },
+        {
+          "bn": "দরজা",
+          "tr": "dorja",
+          "en": "door"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "খাস",
+          "tr": "khash",
+          "en": "(you, intimate) eat"
+        },
+        {
+          "bn": "এসেছে",
+          "tr": "eshechhe",
+          "en": "has come"
+        },
+        {
+          "bn": "বলেন",
+          "tr": "bolen",
+          "en": "you speak (polite)"
+        },
+        {
+          "bn": "জানেন",
+          "tr": "janen",
+          "en": "(you, polite) know"
+        }
+      ],
+      "recycle": true
+    }
+  ]
+}

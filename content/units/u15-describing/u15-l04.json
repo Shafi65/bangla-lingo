@@ -1,0 +1,531 @@
+{
+  "id": "u15-l04",
+  "unit": "u15-describing",
+  "title": "What's the weather like?",
+  "status": "draft",
+  "tip": "**Weather is described like a person:** no verb. **আজ খুব গরম** 'it's very hot today', **বাইরে খুব বাতাস** 'it's very windy outside'. Ask **আজ আবহাওয়া কেমন?**\n\nRain *happens*: **বৃষ্টি হচ্ছে** 'it's raining' (literally 'rain is happening'), **বৃষ্টি হবে** 'it will rain'. The sun *rises*: **রোদ উঠেছে** 'the sun is out'.\n\nFeeling hot uses U14's pattern: **আমার গরম লাগছে** 'I feel hot'. **মেঘ** is a cloud; **মেঘলা** is cloudy: **আজ আকাশ মেঘলা**.",
+  "vocab": [
+    {
+      "id": "abohawa",
+      "bn": "আবহাওয়া",
+      "tr": "abohawa",
+      "en": "weather",
+      "notes": "আজ আবহাওয়া কেমন? 'What's the weather like today?'"
+    },
+    {
+      "id": "gorom",
+      "bn": "গরম",
+      "tr": "gorom",
+      "en": "hot; heat",
+      "notes": "Weather and things: আজ খুব গরম 'it's very hot today', গরম চা 'hot tea'. Feeling hot: আমার গরম লাগছে. Also the hot season (গরমকাল)."
+    },
+    {
+      "id": "brishti",
+      "bn": "বৃষ্টি",
+      "tr": "brishti",
+      "en": "rain",
+      "notes": "Rain 'happens': বৃষ্টি হচ্ছে 'it's raining', বৃষ্টি হবে 'it will rain'."
+    },
+    {
+      "id": "hochchhe",
+      "bn": "হচ্ছে",
+      "tr": "hochchhe",
+      "en": "is happening",
+      "notes": "Present continuous of হওয়া: বৃষ্টি হচ্ছে 'it's raining'. Kolkata also says বৃষ্টি পড়ছে."
+    },
+    {
+      "id": "rod",
+      "bn": "রোদ",
+      "tr": "rod",
+      "en": "sunshine",
+      "notes": "রোদ উঠেছে 'the sun is out'; বাইরে অনেক রোদ 'it's very sunny outside'."
+    },
+    {
+      "id": "uthechhe",
+      "bn": "উঠেছে",
+      "tr": "uthechhe",
+      "en": "has come out; has risen",
+      "notes": "Present perfect of ওঠা 'rise; get up': রোদ উঠেছে 'the sun is out'."
+    },
+    {
+      "id": "megh",
+      "bn": "মেঘ",
+      "tr": "megh",
+      "en": "cloud",
+      "notes": "অনেক মেঘ 'lots of clouds'."
+    },
+    {
+      "id": "meghla",
+      "bn": "মেঘলা",
+      "tr": "meghla",
+      "en": "cloudy",
+      "notes": "আজ আকাশ মেঘলা 'it's cloudy today' (literally 'the sky is cloudy')."
+    },
+    {
+      "id": "batash",
+      "bn": "বাতাস",
+      "tr": "batash",
+      "en": "wind; air",
+      "notes": "বাইরে খুব বাতাস 'it's very windy outside'."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আজ আবহাওয়া কেমন?",
+        "tr": "aj abohawa kemon?",
+        "en": "What's the weather like today?",
+        "alt": [
+          "How is the weather today?"
+        ]
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "How are you today?",
+        "What day is it today?",
+        "What's the weather like today?",
+        "Is it hot today?"
+      ],
+      "answer": 2,
+      "why": "**আবহাওয়া** 'weather' + **কেমন** 'how'."
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "বাইরে বৃষ্টি হচ্ছে।",
+        "tr": "baire brishti hochchhe.",
+        "en": "It's raining outside.",
+        "alt": [
+          "It is raining outside."
+        ]
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "It's raining outside.",
+        "It's windy outside.",
+        "It will rain tomorrow.",
+        "It's sunny outside."
+      ],
+      "answer": 0,
+      "why": "Rain *happens*: **বৃষ্টি হচ্ছে** 'rain is happening'."
+    },
+    {
+      "id": "e03",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "গরম",
+          "tr": "gorom",
+          "en": "hot; heat"
+        },
+        {
+          "bn": "রোদ",
+          "tr": "rod",
+          "en": "sunshine"
+        },
+        {
+          "bn": "মেঘ",
+          "tr": "megh",
+          "en": "cloud"
+        },
+        {
+          "bn": "মেঘলা",
+          "tr": "meghla",
+          "en": "cloudy"
+        },
+        {
+          "bn": "বাতাস",
+          "tr": "batash",
+          "en": "wind; air"
+        }
+      ]
+    },
+    {
+      "id": "e04",
+      "type": "listen_select",
+      "audio": {
+        "bn": "উঠেছে",
+        "tr": "uthechhe",
+        "en": "has come out; has risen"
+      },
+      "options": [
+        "হয়েছে",
+        "লেগেছে",
+        "হচ্ছে",
+        "উঠেছে"
+      ],
+      "answer": 3,
+      "why": "**উঠেছে** 'has risen': **রোদ উঠেছে** 'the sun is out'."
+    },
+    {
+      "id": "e05",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "আজ রোদ উঠেছে।",
+        "tr": "aj rod uthechhe.",
+        "en": "The sun is out today.",
+        "alt": [
+          "It's sunny today."
+        ]
+      },
+      "options": [
+        "It's cloudy today.",
+        "The sun is out today.",
+        "It's raining today.",
+        "It's very hot today."
+      ],
+      "answer": 1,
+      "why": "**রোদ** 'sunshine' + **উঠেছে** 'has come out'."
+    },
+    {
+      "id": "e06",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "অনেক মেঘ, বৃষ্টি হবে।",
+        "tr": "onek megh, brishti hobe.",
+        "en": "There are lots of clouds; it's going to rain.",
+        "alt": [
+          "Lots of clouds, it will rain.",
+          "It's very cloudy, it will rain."
+        ]
+      },
+      "options": [
+        "It's raining a lot.",
+        "There are lots of clouds; it's going to rain.",
+        "It's very windy; it's going to rain.",
+        "It won't rain today."
+      ],
+      "answer": 1,
+      "why": "**বৃষ্টি হবে** 'it will rain'; **মেঘ** 'clouds'."
+    },
+    {
+      "id": "e07",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আমার গরম লাগছে।",
+        "tr": "amar gorom lagchhe.",
+        "en": "I feel hot.",
+        "alt": [
+          "I'm hot.",
+          "I'm feeling hot."
+        ]
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "It's hot today.",
+        "I feel cold.",
+        "I like hot food.",
+        "I feel hot."
+      ],
+      "answer": 3,
+      "why": "**আমার … লাগছে** is how *you* feel; **আজ খুব গরম** is about the weather."
+    },
+    {
+      "id": "e08",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "বাইরে বৃষ্টি হচ্ছে।",
+        "tr": "baire brishti hochchhe.",
+        "en": "It's raining outside.",
+        "alt": [
+          "It is raining outside."
+        ]
+      },
+      "blank": "হচ্ছে",
+      "options": [
+        "হচ্ছে",
+        "করছে",
+        "আছে",
+        "লাগছে"
+      ],
+      "answer": 0,
+      "why": "Rain *happens*: **বৃষ্টি হচ্ছে**."
+    },
+    {
+      "id": "e09",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আজ আকাশ মেঘলা।",
+        "tr": "aj akash meghla.",
+        "en": "It's cloudy today.",
+        "alt": [
+          "The sky is cloudy today.",
+          "It's overcast today."
+        ]
+      },
+      "blank": "মেঘলা",
+      "options": [
+        "মেঘ",
+        "বাতাস",
+        "মেঘলা",
+        "গরম"
+      ],
+      "answer": 2,
+      "why": "**মেঘ** is a cloud (a noun); **মেঘলা** 'cloudy' describes the sky."
+    },
+    {
+      "id": "e10",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আজ খুব গরম।",
+        "tr": "aj khub gorom.",
+        "en": "It's very hot today.",
+        "alt": [
+          "It is really hot today."
+        ]
+      },
+      "blank": "গরম",
+      "accepted": [
+        "গরম",
+        "gorom",
+        "garam",
+        "gorum",
+        "gorom"
+      ],
+      "why": "**গরম** 'hot'. Weather needs no verb."
+    },
+    {
+      "id": "e11",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "বাইরে খুব বাতাস।",
+        "tr": "baire khub batash.",
+        "en": "It's very windy outside.",
+        "alt": [
+          "It is really windy outside."
+        ]
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "বাইরে",
+        "আজ",
+        "খুব",
+        "বাতাস",
+        "বৃষ্টি",
+        "হচ্ছে",
+        "গরম"
+      ],
+      "answer": [
+        "বাইরে",
+        "খুব",
+        "বাতাস"
+      ],
+      "why": "**বাইরে** 'outside' + **খুব বাতাস** 'very windy'. No verb."
+    },
+    {
+      "id": "e12",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আজ আবহাওয়া কেমন?",
+        "tr": "aj abohawa kemon?",
+        "en": "What's the weather like today?",
+        "alt": [
+          "How is the weather today?"
+        ]
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "কেমন",
+        "আবহাওয়া",
+        "আকাশ",
+        "কী",
+        "ভালো",
+        "আজ"
+      ],
+      "answer": [
+        "আজ",
+        "আবহাওয়া",
+        "কেমন"
+      ],
+      "alt": [
+        [
+          "আবহাওয়া",
+          "আজ",
+          "কেমন"
+        ]
+      ],
+      "why": "Question word last: **আবহাওয়া কেমন?**"
+    },
+    {
+      "id": "e13",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আজ রোদ উঠেছে।",
+        "tr": "aj rod uthechhe.",
+        "en": "The sun is out today.",
+        "alt": [
+          "It's sunny today."
+        ]
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "আজ বৃষ্টি হচ্ছে।",
+        "আজ রোদ উঠেছে।",
+        "আজ আকাশ মেঘলা।",
+        "আজ খুব বাতাস।"
+      ],
+      "answer": 1,
+      "why": "The sun 'rises': **রোদ উঠেছে**."
+    },
+    {
+      "id": "e14",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আমার গরম লাগছে।",
+        "tr": "amar gorom lagchhe.",
+        "en": "I feel hot.",
+        "alt": [
+          "I'm hot.",
+          "I'm feeling hot."
+        ]
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "আমার গরম লাগছে।",
+        "আমি গরম লাগছে।",
+        "আজ খুব গরম।",
+        "আমার ঠান্ডা লেগেছে।"
+      ],
+      "answer": 0,
+      "why": "The feeler takes **-র**: **আমার** … **লাগছে**."
+    },
+    {
+      "id": "e15",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "বাইরে বৃষ্টি হচ্ছে।",
+        "tr": "baire brishti hochchhe.",
+        "en": "It's raining outside.",
+        "alt": [
+          "It is raining outside."
+        ]
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "বাইরে বৃষ্টি হচ্ছে",
+        "বৃষ্টি হচ্ছে",
+        "বাইরে বৃষ্টি পড়ছে",
+        "baire brishti hochchhe",
+        "baire brishti hochhe",
+        "baire brishti hocche",
+        "baire bristi hocche",
+        "baire brishti hochche",
+        "baire brishti hocchhe",
+        "brishti hochchhe",
+        "brishti hocche",
+        "baire brishti porchhe"
+      ],
+      "why": "Rain *happens*: **বৃষ্টি হচ্ছে**."
+    },
+    {
+      "id": "r01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "সবুজ",
+        "tr": "shobuj",
+        "en": "green"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "difficult",
+        "green",
+        "happy",
+        "yellow; turmeric"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "listen_select",
+      "audio": {
+        "bn": "নীল",
+        "tr": "nil",
+        "en": "blue"
+      },
+      "options": [
+        "খাটো",
+        "নীল",
+        "সাদা",
+        "মোটা"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "কালো",
+        "tr": "kalo",
+        "en": "black"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "কালো",
+        "বড়",
+        "জরুরি",
+        "মেঘলা"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "হলুদ",
+          "tr": "holud",
+          "en": "yellow; turmeric"
+        },
+        {
+          "bn": "গোলাপি",
+          "tr": "golapi",
+          "en": "pink"
+        },
+        {
+          "bn": "রং",
+          "tr": "rong",
+          "en": "colour"
+        },
+        {
+          "bn": "প্রিয়",
+          "tr": "priyo",
+          "en": "favourite"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "পুলিশ",
+          "tr": "pulish",
+          "en": "police"
+        },
+        {
+          "bn": "পেয়েছি",
+          "tr": "peyechhi",
+          "en": "I have got"
+        },
+        {
+          "bn": "সাদা",
+          "tr": "shada",
+          "en": "white"
+        },
+        {
+          "bn": "আগুন",
+          "tr": "agun",
+          "en": "fire"
+        }
+      ],
+      "recycle": true
+    }
+  ]
+}

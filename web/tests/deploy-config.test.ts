@@ -28,3 +28,19 @@ describe("indexing flag", () => {
     expect(JSON.stringify(rules)).toContain('"allow":"/"');
   });
 });
+
+// Files read with fs at request time must be listed for the file tracer, or a serverless
+// deployment silently loses them.
+describe("outputFileTracingIncludes", () => {
+  it("lists every content folder the app reads at run time, and each folder has JSON", async () => {
+    const fs = await import("node:fs");
+    const path = await import("node:path");
+    const cfg = (await import("../next.config")).default;
+    const globs = cfg.outputFileTracingIncludes?.["/*"] ?? [];
+    for (const g of ["../content/stories/**/*.json", "../content/family/**/*.json", "../content/lexicon/**/*.json"]) {
+      expect(globs).toContain(g);
+      const dir = path.resolve(process.cwd(), g.replace(/\/\*\*\/\*\.json$/, ""));
+      expect(fs.readdirSync(dir).some((f) => f.endsWith(".json")), dir).toBe(true);
+    }
+  });
+});

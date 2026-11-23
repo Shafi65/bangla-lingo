@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { motion } from "motion/react";
-import { useEffect, useId, useRef, useState, type CSSProperties } from "react";
+import { useEffect, useId, useMemo, useRef, useState, type CSSProperties } from "react";
 import { FreezeNotice, QuestCard, WalletCard } from "./game/GamePanel";
 import type { Section } from "@/lib/courseSections";
 import type { CourseSummary, LessonSummary, UnitSummary } from "@/lib/types";
@@ -36,8 +36,9 @@ const STITCH_W = 240;
 
 const isIntermediate = (u: UnitSummary) => u.level === "intermediate";
 
-export function CourseMap({ course }: { course: CourseSummary }) {
+export function CourseMap({ course, storyIds = [] }: { course: CourseSummary; /** Ids of the stories that exist (from the server loader), so a unit never links to a missing one. */ storyIds?: string[] }) {
   const progress = useProgress();
+  const stories = useMemo(() => new Set(storyIds), [storyIds]);
   const nextId = nextLessonId(course, progress);
   const next = findLesson(course, nextId);
   const offer = testOutOffer(course, progress.completed);
@@ -84,6 +85,7 @@ export function CourseMap({ course }: { course: CourseSummary }) {
               progress={progress}
               nextId={nextId}
               offer={offer}
+              stories={stories}
               open={openOverride[s.n] ?? s.n === currentSection}
               onToggle={(open) => setOpenOverride((o) => ({ ...o, [s.n]: open }))}
             />
@@ -270,6 +272,7 @@ function SectionBlock({
   progress,
   nextId,
   offer,
+  stories,
   open,
   onToggle,
 }: {
@@ -277,6 +280,7 @@ function SectionBlock({
   progress: ProgressState;
   nextId: string | undefined;
   offer?: TestOutOffer;
+  stories: Set<string>;
   open: boolean;
   onToggle: (open: boolean) => void;
 }) {
@@ -332,6 +336,7 @@ function SectionBlock({
                     progress={progress}
                     nextId={nextId}
                     offer={offer && unit.lessons.some((l) => l.id === offer.id) ? offer : undefined}
+                    stories={stories}
                   />
                 )}
               </li>
@@ -391,22 +396,37 @@ function UnitBlock({
   progress,
   nextId,
   offer,
+  stories,
 }: {
   unit: UnitSummary;
   label: string;
   progress: ProgressState;
   nextId: string | undefined;
   offer?: TestOutOffer;
+  stories: Set<string>;
 }) {
   const states = lessonStates(unit, progress);
   const done = states.filter((s) => s === "completed").length;
   const script = unit.track === "script";
   const draft = unit.lessons.some((l) => l.draft);
   const n = unit.lessons.length;
+  const storyId = `${unit.id}-story`;
+  const hasStory = unit.track === "main" && !isIntermediate(unit) && unit.id !== "u01-basics" && stories.has(storyId);
+  const storyHref = progress.completed[unit.lessons[0]?.id] ? `/stories/${storyId}` : "/stories";
 
   return (
     <section aria-labelledby={`unit-${unit.id}`}>
       <UnitHeader unit={unit} label={label} done={done} draft={draft} />
+      {unit.id === "u03-family" && (
+        <p className="mt-2 text-center">
+          <Link
+            href="/family"
+            className="inline-flex min-h-11 items-center rounded px-3 text-sm font-extrabold text-brand-dark underline underline-offset-2"
+          >
+            My family
+          </Link>
+        </p>
+      )}
       {script && (
         <p className="mt-2 text-center">
           <Link
@@ -456,6 +476,17 @@ function UnitBlock({
           ))}
         </ol>
       </div>
+      {hasStory && (
+        <p className="mt-2 text-center">
+          <Link
+            href={storyHref}
+            className="inline-flex min-h-11 items-center rounded px-3 text-sm font-extrabold text-brand-dark underline underline-offset-2"
+          >
+            Story
+            <span className="sr-only">: {unit.title}</span>
+          </Link>
+        </p>
+      )}
     </section>
   );
 }

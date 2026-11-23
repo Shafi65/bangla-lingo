@@ -505,55 +505,55 @@
     },
     {
       "id": "r01",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "লিখতাম",
-        "tr": "likhtam",
-        "en": "I used to write"
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "তখন ফোন ছিল না, তাই আমরা চিঠি লিখতাম।",
+        "tr": "tokhon fon chhilo na, tai amra chithi likhtam.",
+        "en": "There were no phones then, so we used to write letters."
       },
-      "direction": "bn_to_en",
+      "blank": "লিখতাম",
       "options": [
-        "I will be able to",
-        "I used to write",
-        "I said",
-        "you (polite) / he, she (polite) said"
+        "খেয়েছে",
+        "লিখতাম",
+        "বলি",
+        "পারবে"
       ],
       "answer": 1,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "listen_select",
+      "type": "listen_meaning",
       "audio": {
-        "bn": "এখনকার",
-        "tr": "ekhonkar",
-        "en": "of today"
+        "bn": "তখনকার স্কুল ছোট ছিল, এখনকার স্কুল অনেক বড়।",
+        "tr": "tokhonkar skul chhoto chhilo, ekhonkar skul onek boro.",
+        "en": "Schools back then were small; schools today are much bigger."
       },
       "options": [
-        "সুন্দর",
-        "নীল",
-        "এখনকার",
-        "আধা"
+        "How much is this shirt?",
+        "Schools back then were small; schools today are much bigger.",
+        "Which way is the hotel, right or left?",
+        "This is twenty taka."
       ],
-      "answer": 2,
+      "answer": 1,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "fill_blank",
-      "sentence": {
-        "bn": "আমি পড়ে গেছি।",
-        "tr": "ami pore gechhi.",
-        "en": "I fell down."
+      "type": "select_translation",
+      "prompt": {
+        "bn": "দুষ্টু",
+        "tr": "dushtu",
+        "en": "naughty"
       },
-      "blank": "পড়ে গেছি",
+      "direction": "en_to_bn",
       "options": [
-        "লাগবে না",
-        "নমস্কার",
-        "আবার দেখা হবে",
-        "পড়ে গেছি"
+        "হলুদ",
+        "দুষ্টু",
+        "খুশি",
+        "একই"
       ],
-      "answer": 3,
+      "answer": 1,
       "recycle": true
     },
     {
@@ -561,24 +561,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "দুষ্টু",
-          "tr": "dushtu",
-          "en": "naughty"
+          "bn": "ওটার",
+          "tr": "otar",
+          "en": "of that"
         },
         {
-          "bn": "দিনে",
-          "tr": "dine",
-          "en": "a day; per day"
+          "bn": "পড়েছে",
+          "tr": "porechhe",
+          "en": "has set in (cold, heat)"
         },
         {
-          "bn": "ধরে",
-          "tr": "dhore",
-          "en": "for (a time)"
+          "bn": "উঠেছে",
+          "tr": "uthechhe",
+          "en": "has come out; has risen"
         },
         {
-          "bn": "খা",
-          "tr": "kha",
-          "en": "eat (intimate)"
+          "bn": "চেয়ে",
+          "tr": "cheye",
+          "en": "than"
         }
       ],
       "recycle": true
@@ -588,24 +588,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "দরজা",
-          "tr": "dorja",
-          "en": "door"
+          "bn": "আগুন",
+          "tr": "agun",
+          "en": "fire"
         },
         {
-          "bn": "ঠিকানা",
-          "tr": "thikana",
-          "en": "address"
+          "bn": "জরুরি",
+          "tr": "joruri",
+          "en": "urgent"
         },
         {
-          "bn": "নে",
-          "tr": "ne",
-          "en": "take (intimate)"
+          "bn": "পুলিশ",
+          "tr": "pulish",
+          "en": "police"
         },
         {
-          "bn": "মেসেজ",
-          "tr": "mesej",
-          "en": "message"
+          "bn": "অ্যাম্বুলেন্স",
+          "tr": "ambulens",
+          "en": "ambulance"
         }
       ],
       "recycle": true

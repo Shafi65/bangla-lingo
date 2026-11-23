@@ -190,13 +190,19 @@ export function Dictionary({ data }: { data: DictData }) {
                   {e.notes && <p className="mt-1 text-sm font-semibold text-muted">{e.notes}</p>}
                   <p className="mt-2 flex flex-wrap items-center gap-2 text-xs font-bold">
                     <span className="rounded-full bg-brand-light px-2 py-0.5 text-brand-dark">{e.pos}</span>
-                    <Link
-                      href={`/guide/${data.units[e.u].id}#${e.l}`}
-                      className="text-brand-dark underline"
-                    >
-                      {data.units[e.u].title}
-                      {data.lessons[e.l] ? ` · ${data.lessons[e.l]}` : ""}
-                    </Link>
+                    {e.l && e.u >= 0 ? (
+                      <Link
+                        href={`/guide/${data.units[e.u].id}#${e.l}`}
+                        className="text-brand-dark underline"
+                      >
+                        {data.units[e.u].title}
+                        {data.lessons[e.l] ? ` · ${data.lessons[e.l]}` : ""}
+                      </Link>
+                    ) : (
+                      <Link href="/family" className="text-brand-dark underline">
+                        From My family
+                      </Link>
+                    )}
                   </p>
                 </div>
               </div>

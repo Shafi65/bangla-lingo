@@ -1,0 +1,689 @@
+{
+  "unit": "u15-describing",
+  "entries": [
+    {
+      "id": "dekhte-looks",
+      "bn": "দেখতে",
+      "tr": "dekhte",
+      "en": "in looks",
+      "alt": [
+        "looks",
+        "to look at"
+      ],
+      "pos": "adv",
+      "lesson": "u15-l01",
+      "notes": "ও দেখতে লম্বা 'he looks tall; he is tall (to look at)'. ও দেখতে কেমন? 'What does she look like?' The same form is 'to see' after a verb of motion (U11: দেখতে যাব)."
+    },
+    {
+      "id": "lomba",
+      "bn": "লম্বা",
+      "tr": "lomba",
+      "en": "tall; long",
+      "alt": [
+        "tall",
+        "long"
+      ],
+      "pos": "adj",
+      "lesson": "u15-l01",
+      "notes": "People: ও লম্বা 'he is tall'. Things: লম্বা চুল 'long hair'."
+    },
+    {
+      "id": "khato",
+      "bn": "খাটো",
+      "tr": "khato",
+      "en": "short (of people)",
+      "alt": [
+        "short"
+      ],
+      "pos": "adj",
+      "lesson": "u15-l01",
+      "notes": "For height: ও একটু খাটো 'she's a bit short'. For things, use ছোট.",
+      "kolkata": {
+        "bn": "বেঁটে",
+        "tr": "be~te"
+      }
+    },
+    {
+      "id": "mota",
+      "bn": "মোটা",
+      "tr": "mota",
+      "en": "fat; thick",
+      "alt": [
+        "fat",
+        "thick",
+        "plump",
+        "heavy"
+      ],
+      "pos": "adj",
+      "lesson": "u15-l01",
+      "notes": "Said plainly in Bangladesh, even about family (বাবা একটু মোটা), but it is still personal: careful with strangers."
+    },
+    {
+      "id": "patla",
+      "bn": "পাতলা",
+      "tr": "patla",
+      "en": "thin; slim",
+      "alt": [
+        "thin",
+        "slim",
+        "skinny"
+      ],
+      "pos": "adj",
+      "lesson": "u15-l01",
+      "notes": "ও খুব পাতলা 'she's very thin'. Everyday Bangladeshi speech also says চিকন for a slim person."
+    },
+    {
+      "id": "chul",
+      "bn": "চুল",
+      "tr": "chul",
+      "en": "hair",
+      "alt": [
+        "hairs"
+      ],
+      "pos": "noun",
+      "lesson": "u15-l01",
+      "notes": "Hair on the head; one word for one hair or all of it: ওর চুল লম্বা 'her hair is long'."
+    },
+    {
+      "id": "mukh",
+      "bn": "মুখ",
+      "tr": "mukh",
+      "en": "face; mouth",
+      "alt": [
+        "face",
+        "mouth"
+      ],
+      "pos": "noun",
+      "lesson": "u15-l01",
+      "notes": "ওর মুখ খুব সুন্দর 'she has a lovely face'."
+    },
+    {
+      "id": "besh",
+      "bn": "বেশ",
+      "tr": "besh",
+      "en": "quite",
+      "alt": [
+        "fairly",
+        "rather",
+        "pretty"
+      ],
+      "pos": "adv",
+      "lesson": "u15-l01",
+      "notes": "Before an adjective: বেশ লম্বা 'quite tall'. Milder than খুব 'very'."
+    },
+    {
+      "id": "buro",
+      "bn": "বুড়ো",
+      "tr": "buro",
+      "en": "old (of people)",
+      "alt": [
+        "old",
+        "elderly"
+      ],
+      "pos": "adj",
+      "lesson": "u15-l02",
+      "notes": "Plain, a little blunt; বয়স্ক is the polite word. For things, old is পুরনো."
+    },
+    {
+      "id": "boyoshko",
+      "bn": "বয়স্ক",
+      "tr": "boyoshko",
+      "en": "elderly",
+      "alt": [
+        "old",
+        "aged",
+        "older"
+      ],
+      "pos": "adj",
+      "lesson": "u15-l02",
+      "notes": "The polite way to say 'old' about a person: উনি একজন বয়স্ক মানুষ."
+    },
+    {
+      "id": "kom-boyoshi",
+      "bn": "কম বয়সী",
+      "tr": "kom boyoshi",
+      "en": "young",
+      "alt": [
+        "young (in age)",
+        "youthful"
+      ],
+      "pos": "phrase",
+      "lesson": "u15-l02",
+      "notes": "Literally 'of little age' (কম 'less' + বয়সী 'aged'). Small children are simply ছোট."
+    },
+    {
+      "id": "bhalo-manush",
+      "bn": "ভালো মানুষ",
+      "tr": "bhalo manush",
+      "en": "a good person; kind",
+      "alt": [
+        "good person",
+        "nice person",
+        "kind person",
+        "good man",
+        "good woman",
+        "kind"
+      ],
+      "pos": "phrase",
+      "lesson": "u15-l02",
+      "notes": "The everyday praise for someone's character: উনি খুব ভালো মানুষ."
+    },
+    {
+      "id": "ragi",
+      "bn": "রাগী",
+      "tr": "ragi",
+      "en": "short-tempered",
+      "alt": [
+        "bad-tempered",
+        "angry",
+        "hot-tempered",
+        "grumpy"
+      ],
+      "pos": "adj",
+      "lesson": "u15-l02",
+      "notes": "রাগ 'anger' (U14) + -ী: a person who gets angry easily. 'Angry right now' is আমার রাগ লাগছে."
+    },
+    {
+      "id": "mojar-funny",
+      "bn": "মজার",
+      "tr": "mojar",
+      "en": "funny",
+      "alt": [
+        "fun",
+        "amusing"
+      ],
+      "pos": "adj",
+      "lesson": "u15-l02",
+      "notes": "About people: মজার মানুষ 'a funny person'. The same word means 'tasty' about food (U4: মজার খাবার)."
+    },
+    {
+      "id": "lajuk",
+      "bn": "লাজুক",
+      "tr": "lajuk",
+      "en": "shy",
+      "alt": [
+        "bashful",
+        "timid"
+      ],
+      "pos": "adj",
+      "lesson": "u15-l02"
+    },
+    {
+      "id": "hashikhushi",
+      "bn": "হাসিখুশি",
+      "tr": "hashikhushi",
+      "en": "cheerful",
+      "alt": [
+        "happy",
+        "jolly",
+        "always smiling",
+        "cheery"
+      ],
+      "pos": "adj",
+      "lesson": "u15-l02",
+      "notes": "হাসি 'smile' + খুশি 'happy': someone who is always cheerful. খুশি alone is how you feel now."
+    },
+    {
+      "id": "rong",
+      "bn": "রং",
+      "tr": "rong",
+      "en": "colour",
+      "alt": [
+        "color",
+        "paint"
+      ],
+      "pos": "noun",
+      "lesson": "u15-l03",
+      "notes": "এটার রং কী? 'What colour is this?' The spelling রঙ is also common, and রং becomes রঙ- before an ending (রঙের)."
+    },
+    {
+      "id": "nil",
+      "bn": "নীল",
+      "tr": "nil",
+      "en": "blue",
+      "alt": [
+        "dark blue",
+        "light blue"
+      ],
+      "pos": "adj",
+      "lesson": "u15-l03"
+    },
+    {
+      "id": "shobuj",
+      "bn": "সবুজ",
+      "tr": "shobuj",
+      "en": "green",
+      "pos": "adj",
+      "lesson": "u15-l03"
+    },
+    {
+      "id": "holud",
+      "bn": "হলুদ",
+      "tr": "holud",
+      "en": "yellow; turmeric",
+      "alt": [
+        "yellow",
+        "turmeric"
+      ],
+      "pos": "adj",
+      "lesson": "u15-l03",
+      "notes": "Also the spice turmeric; গায়ে হলুদ is the turmeric ceremony before a wedding."
+    },
+    {
+      "id": "kalo",
+      "bn": "কালো",
+      "tr": "kalo",
+      "en": "black",
+      "alt": [
+        "dark"
+      ],
+      "pos": "adj",
+      "lesson": "u15-l03",
+      "notes": "Also 'dark' for skin and hair. Comments on skin colour are common but can hurt: describe hair and clothes instead."
+    },
+    {
+      "id": "shada",
+      "bn": "সাদা",
+      "tr": "shada",
+      "en": "white",
+      "pos": "adj",
+      "lesson": "u15-l03"
+    },
+    {
+      "id": "golapi",
+      "bn": "গোলাপি",
+      "tr": "golapi",
+      "en": "pink",
+      "alt": [
+        "rose-coloured"
+      ],
+      "pos": "adj",
+      "lesson": "u15-l03",
+      "notes": "From গোলাপ 'rose'."
+    },
+    {
+      "id": "priyo",
+      "bn": "প্রিয়",
+      "tr": "priyo",
+      "en": "favourite",
+      "alt": [
+        "favorite",
+        "dear",
+        "beloved"
+      ],
+      "pos": "adj",
+      "lesson": "u15-l03",
+      "notes": "আমার প্রিয় রং নীল 'my favourite colour is blue'. Also 'dear' (প্রিয় বন্ধু 'dear friend')."
+    },
+    {
+      "id": "abohawa",
+      "bn": "আবহাওয়া",
+      "tr": "abohawa",
+      "en": "weather",
+      "alt": [
+        "the weather",
+        "climate"
+      ],
+      "pos": "noun",
+      "lesson": "u15-l04",
+      "notes": "আজ আবহাওয়া কেমন? 'What's the weather like today?'"
+    },
+    {
+      "id": "gorom",
+      "bn": "গরম",
+      "tr": "gorom",
+      "en": "hot; heat",
+      "alt": [
+        "hot",
+        "heat",
+        "warm",
+        "summer"
+      ],
+      "pos": "adj",
+      "lesson": "u15-l04",
+      "notes": "Weather and things: আজ খুব গরম 'it's very hot today', গরম চা 'hot tea'. Feeling hot: আমার গরম লাগছে. Also the hot season (গরমকাল)."
+    },
+    {
+      "id": "brishti",
+      "bn": "বৃষ্টি",
+      "tr": "brishti",
+      "en": "rain",
+      "alt": [
+        "rains",
+        "raining"
+      ],
+      "pos": "noun",
+      "lesson": "u15-l04",
+      "notes": "Rain 'happens': বৃষ্টি হচ্ছে 'it's raining', বৃষ্টি হবে 'it will rain'.",
+      "kolkata": {
+        "bn": "বৃষ্টি পড়ছে",
+        "tr": "brishti porchhe"
+      }
+    },
+    {
+      "id": "hochchhe",
+      "bn": "হচ্ছে",
+      "tr": "hochchhe",
+      "en": "is happening",
+      "alt": [
+        "is becoming",
+        "is taking place"
+      ],
+      "pos": "verb",
+      "lesson": "u15-l04",
+      "notes": "Present continuous of হওয়া: বৃষ্টি হচ্ছে 'it's raining'. Kolkata also says বৃষ্টি পড়ছে."
+    },
+    {
+      "id": "rod",
+      "bn": "রোদ",
+      "tr": "rod",
+      "en": "sunshine",
+      "alt": [
+        "sun",
+        "sunlight",
+        "sunny"
+      ],
+      "pos": "noun",
+      "lesson": "u15-l04",
+      "notes": "রোদ উঠেছে 'the sun is out'; বাইরে অনেক রোদ 'it's very sunny outside'."
+    },
+    {
+      "id": "uthechhe",
+      "bn": "উঠেছে",
+      "tr": "uthechhe",
+      "en": "has come out; has risen",
+      "alt": [
+        "is out",
+        "has come up",
+        "has got up"
+      ],
+      "pos": "verb",
+      "lesson": "u15-l04",
+      "notes": "Present perfect of ওঠা 'rise; get up': রোদ উঠেছে 'the sun is out'."
+    },
+    {
+      "id": "megh",
+      "bn": "মেঘ",
+      "tr": "megh",
+      "en": "cloud",
+      "alt": [
+        "clouds"
+      ],
+      "pos": "noun",
+      "lesson": "u15-l04",
+      "notes": "অনেক মেঘ 'lots of clouds'."
+    },
+    {
+      "id": "meghla",
+      "bn": "মেঘলা",
+      "tr": "meghla",
+      "en": "cloudy",
+      "alt": [
+        "overcast",
+        "grey"
+      ],
+      "pos": "adj",
+      "lesson": "u15-l04",
+      "notes": "আজ আকাশ মেঘলা 'it's cloudy today' (literally 'the sky is cloudy')."
+    },
+    {
+      "id": "batash",
+      "bn": "বাতাস",
+      "tr": "batash",
+      "en": "wind; air",
+      "alt": [
+        "wind",
+        "breeze",
+        "air",
+        "windy"
+      ],
+      "pos": "noun",
+      "lesson": "u15-l04",
+      "notes": "বাইরে খুব বাতাস 'it's very windy outside'."
+    },
+    {
+      "id": "shit",
+      "bn": "শীত",
+      "tr": "shit",
+      "en": "cold (weather); winter",
+      "alt": [
+        "cold",
+        "winter",
+        "the cold"
+      ],
+      "pos": "noun",
+      "lesson": "u15-l05",
+      "notes": "The cold you feel and the cold season: আমার শীত লাগছে 'I feel cold', শীত পড়েছে 'it has turned cold'. ঠান্ডা (U14) is cold to the touch: ঠান্ডা পানি."
+    },
+    {
+      "id": "borsha",
+      "bn": "বর্ষা",
+      "tr": "borsha",
+      "en": "monsoon",
+      "alt": [
+        "rainy season",
+        "the rains",
+        "monsoon season"
+      ],
+      "pos": "noun",
+      "lesson": "u15-l05",
+      "notes": "Roughly June to October: Bangladesh's rainy season."
+    },
+    {
+      "id": "borshay",
+      "bn": "বর্ষায়",
+      "tr": "borshay",
+      "en": "in the monsoon",
+      "alt": [
+        "in the rainy season",
+        "during the monsoon"
+      ],
+      "pos": "noun",
+      "lesson": "u15-l05",
+      "notes": "বর্ষা + -য় 'in': বর্ষায় অনেক বৃষ্টি হয়. বর্ষাকালে also means 'in the rainy season'."
+    },
+    {
+      "id": "porechhe",
+      "bn": "পড়েছে",
+      "tr": "porechhe",
+      "en": "has set in (cold, heat)",
+      "alt": [
+        "has fallen",
+        "has come"
+      ],
+      "pos": "verb",
+      "lesson": "u15-l05",
+      "notes": "Literally 'has fallen': শীত পড়েছে 'it has turned cold', গরম পড়েছে 'the hot weather is here'. পড়া also means 'read' and 'fall'."
+    },
+    {
+      "id": "kuyasha",
+      "bn": "কুয়াশা",
+      "tr": "kuyasha",
+      "en": "fog",
+      "alt": [
+        "mist",
+        "foggy",
+        "haze"
+      ],
+      "pos": "noun",
+      "lesson": "u15-l05",
+      "notes": "Winter mornings in Bangladesh are often foggy."
+    },
+    {
+      "id": "chhata",
+      "bn": "ছাতা",
+      "tr": "chhata",
+      "en": "umbrella",
+      "alt": [
+        "parasol",
+        "an umbrella"
+      ],
+      "pos": "noun",
+      "lesson": "u15-l05",
+      "notes": "For rain and for strong sun."
+    },
+    {
+      "id": "ashchhe",
+      "bn": "আসছে",
+      "tr": "ashchhe",
+      "en": "is coming",
+      "alt": [
+        "he/she is coming",
+        "it is coming",
+        "is on its way"
+      ],
+      "pos": "verb",
+      "lesson": "u15-l05",
+      "notes": "Present continuous of আসা: ঝড় আসছে 'a storm is coming'."
+    },
+    {
+      "id": "cheye",
+      "bn": "চেয়ে",
+      "tr": "cheye",
+      "en": "than",
+      "alt": [
+        "compared to"
+      ],
+      "pos": "postposition",
+      "lesson": "u15-l06",
+      "notes": "After the -র form: আমার চেয়ে 'than me', রাফির চেয়ে 'than Rafi'. The adjective doesn't change: ও আমার চেয়ে লম্বা 'he is taller than me'."
+    },
+    {
+      "id": "otar",
+      "bn": "ওটার",
+      "tr": "otar",
+      "en": "of that",
+      "alt": [
+        "that one's",
+        "than that one (with চেয়ে)"
+      ],
+      "pos": "pronoun",
+      "lesson": "u15-l06",
+      "notes": "ওটা 'that' + -র: ওটার চেয়ে ভালো 'better than that one'."
+    },
+    {
+      "id": "dhakar",
+      "bn": "ঢাকার",
+      "tr": "dhakar",
+      "en": "Dhaka's; of Dhaka",
+      "alt": [
+        "of Dhaka",
+        "Dhaka's"
+      ],
+      "pos": "name",
+      "lesson": "u15-l06",
+      "notes": "ঢাকা + -র: ঢাকার চেয়ে 'than (in) Dhaka'."
+    },
+    {
+      "id": "rafir",
+      "bn": "রাফির",
+      "tr": "rafir",
+      "en": "Rafi's",
+      "alt": [
+        "of Rafi"
+      ],
+      "pos": "name",
+      "lesson": "u15-l06",
+      "notes": "রাফি + -র: রাফির চেয়ে 'than Rafi'."
+    },
+    {
+      "id": "bochhorer",
+      "bn": "বছরের",
+      "tr": "bochhorer",
+      "en": "of … years; year's",
+      "alt": [
+        "years",
+        "years'",
+        "year's"
+      ],
+      "pos": "noun",
+      "lesson": "u15-l06",
+      "notes": "বছর + -এর: দুই বছরের বড় 'two years older'."
+    },
+    {
+      "id": "shobar",
+      "bn": "সবার",
+      "tr": "shobar",
+      "en": "everyone's; of all",
+      "alt": [
+        "of everyone",
+        "of all",
+        "everyone"
+      ],
+      "pos": "pronoun",
+      "lesson": "u15-l07",
+      "notes": "সবাই 'everyone' → সবার: সবার চেয়ে লম্বা 'taller than everyone; the tallest'."
+    },
+    {
+      "id": "eki",
+      "bn": "একই",
+      "tr": "eki",
+      "en": "the same",
+      "alt": [
+        "same"
+      ],
+      "pos": "adj",
+      "lesson": "u15-l07",
+      "notes": "এক 'one' + -ই 'just': একই রকম 'the same kind; alike', একই বয়স 'the same age'."
+    },
+    {
+      "id": "rokom",
+      "bn": "রকম",
+      "tr": "rokom",
+      "en": "kind; sort",
+      "alt": [
+        "type",
+        "way",
+        "like"
+      ],
+      "pos": "noun",
+      "lesson": "u15-l07",
+      "notes": "একই রকম 'the same; alike', কী রকম? 'what kind?'",
+      "kolkata": {
+        "bn": "একরকম",
+        "tr": "ekrokom"
+      }
+    },
+    {
+      "id": "alada",
+      "bn": "আলাদা",
+      "tr": "alada",
+      "en": "different; separate",
+      "alt": [
+        "different",
+        "separate",
+        "apart"
+      ],
+      "pos": "adj",
+      "lesson": "u15-l07",
+      "notes": "এই দুইটা আলাদা 'these two are different'."
+    },
+    {
+      "id": "konta",
+      "bn": "কোনটা",
+      "tr": "konta",
+      "en": "which one",
+      "alt": [
+        "which"
+      ],
+      "pos": "pronoun",
+      "lesson": "u15-l07",
+      "notes": "কোন 'which' + -টা: কোনটা সবচেয়ে ভালো? 'Which one is the best?'"
+    },
+    {
+      "id": "pray",
+      "bn": "প্রায়",
+      "tr": "pray",
+      "en": "almost; about",
+      "alt": [
+        "almost",
+        "nearly",
+        "about",
+        "roughly"
+      ],
+      "pos": "adv",
+      "lesson": "u15-l07",
+      "notes": "প্রায় একই রকম 'almost the same'. প্রায়ই means 'often'."
+    }
+  ]
+}

@@ -4,8 +4,11 @@ import { StoryPlayer } from "@/components/stories/StoryPlayer";
 import { getStories, getStory, getStorySummaries } from "@/lib/stories/load";
 
 // Every story is prerendered at build time from content/stories/.
+// Cache Components needs at least one param, so a content set without stories (the demo fixture)
+// prerenders a placeholder that resolves to "not found".
 export function generateStaticParams() {
-  return getStories().map((s) => ({ id: s.id }));
+  const ids = getStories().map((s) => ({ id: s.id }));
+  return ids.length ? ids : [{ id: "none" }];
 }
 
 export async function generateMetadata({ params }: PageProps<"/stories/[id]">): Promise<Metadata> {

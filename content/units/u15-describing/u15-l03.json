@@ -1,0 +1,516 @@
+{
+  "id": "u15-l03",
+  "unit": "u15-describing",
+  "title": "Colours",
+  "status": "draft",
+  "tip": "**Colours are adjectives.** After the noun they need no verb: **আকাশ নীল** 'the sky is blue'. Before the noun they describe it: **লাল শাড়ি** 'a red sari'.\n\nAsk with **রং** 'colour': **এটার রং কী?** 'What colour is this?' **তোমার প্রিয় রং কী?** 'What's your favourite colour?'\n\n**হলুদ** is also turmeric, the yellow spice in almost every curry. 'Not' is **না**: **এই কলা হলুদ না, সবুজ** 'this banana isn't yellow, it's green'. You will also see the spelling **রঙ**.",
+  "vocab": [
+    {
+      "id": "rong",
+      "bn": "রং",
+      "tr": "rong",
+      "en": "colour",
+      "notes": "এটার রং কী? 'What colour is this?' The spelling রঙ is also common, and রং becomes রঙ- before an ending (রঙের)."
+    },
+    {
+      "id": "nil",
+      "bn": "নীল",
+      "tr": "nil",
+      "en": "blue"
+    },
+    {
+      "id": "shobuj",
+      "bn": "সবুজ",
+      "tr": "shobuj",
+      "en": "green"
+    },
+    {
+      "id": "holud",
+      "bn": "হলুদ",
+      "tr": "holud",
+      "en": "yellow; turmeric",
+      "notes": "Also the spice turmeric; গায়ে হলুদ is the turmeric ceremony before a wedding."
+    },
+    {
+      "id": "kalo",
+      "bn": "কালো",
+      "tr": "kalo",
+      "en": "black",
+      "notes": "Also 'dark' for skin and hair. Comments on skin colour are common but can hurt: describe hair and clothes instead."
+    },
+    {
+      "id": "shada",
+      "bn": "সাদা",
+      "tr": "shada",
+      "en": "white"
+    },
+    {
+      "id": "golapi",
+      "bn": "গোলাপি",
+      "tr": "golapi",
+      "en": "pink",
+      "notes": "From গোলাপ 'rose'."
+    },
+    {
+      "id": "priyo",
+      "bn": "প্রিয়",
+      "tr": "priyo",
+      "en": "favourite",
+      "notes": "আমার প্রিয় রং নীল 'my favourite colour is blue'. Also 'dear' (প্রিয় বন্ধু 'dear friend')."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আমার প্রিয় রং নীল।",
+        "tr": "amar priyo rong nil.",
+        "en": "My favourite colour is blue.",
+        "alt": [
+          "My favorite color is blue."
+        ]
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "My favourite colour is green.",
+        "My shirt is blue.",
+        "My favourite colour is blue.",
+        "I don't like blue."
+      ],
+      "answer": 2,
+      "why": "**প্রিয়** 'favourite' + **রং** 'colour'. No verb."
+    },
+    {
+      "id": "e02",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "সবুজ",
+          "tr": "shobuj",
+          "en": "green"
+        },
+        {
+          "bn": "হলুদ",
+          "tr": "holud",
+          "en": "yellow; turmeric"
+        },
+        {
+          "bn": "কালো",
+          "tr": "kalo",
+          "en": "black"
+        },
+        {
+          "bn": "সাদা",
+          "tr": "shada",
+          "en": "white"
+        },
+        {
+          "bn": "গোলাপি",
+          "tr": "golapi",
+          "en": "pink"
+        }
+      ]
+    },
+    {
+      "id": "e03",
+      "type": "listen_select",
+      "audio": {
+        "bn": "সবুজ",
+        "tr": "shobuj",
+        "en": "green"
+      },
+      "options": [
+        "সবুজ",
+        "সব",
+        "সবাই",
+        "সাদা"
+      ],
+      "answer": 0,
+      "why": "**সবুজ** 'green'; **সব** is 'all'."
+    },
+    {
+      "id": "e04",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আকাশ নীল আর গাছ সবুজ।",
+        "tr": "akash nil ar gachh shobuj.",
+        "en": "The sky is blue and the trees are green.",
+        "alt": [
+          "The sky is blue and the tree is green."
+        ]
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "The sky is green and the trees are blue.",
+        "The sky is grey and the trees are green.",
+        "The sea is blue and the trees are green.",
+        "The sky is blue and the trees are green."
+      ],
+      "answer": 3,
+      "why": "No verb: **আকাশ নীল** 'the sky is blue'."
+    },
+    {
+      "id": "e05",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "ওর চুল কালো।",
+        "tr": "or chul kalo.",
+        "en": "Her hair is black.",
+        "alt": [
+          "His hair is black.",
+          "She has black hair."
+        ]
+      },
+      "options": [
+        "Her hair is long.",
+        "Her hair is black.",
+        "Her hair is white.",
+        "Her eyes are black."
+      ],
+      "answer": 1,
+      "why": "**কালো** 'black'."
+    },
+    {
+      "id": "e06",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "শাড়িটা লাল আর গোলাপি।",
+        "tr": "sharita lal ar golapi.",
+        "en": "The sari is red and pink.",
+        "alt": [
+          "The sari is pink and red."
+        ]
+      },
+      "options": [
+        "The sari is red and white.",
+        "The sari is red and pink.",
+        "The shirt is red and pink.",
+        "The sari is yellow and pink."
+      ],
+      "answer": 1,
+      "why": "**গোলাপি** 'pink' (from গোলাপ 'rose')."
+    },
+    {
+      "id": "e07",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "এটার রং কী?",
+        "tr": "etar rong ki?",
+        "en": "What colour is this?",
+        "alt": [
+          "What color is this?",
+          "What colour is it?"
+        ]
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "What is this?",
+        "How much is this?",
+        "Which colour do you like?",
+        "What colour is this?"
+      ],
+      "answer": 3,
+      "why": "**এটার রং** 'this one's colour'; **এটার দাম** would be its price."
+    },
+    {
+      "id": "e08",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "এই কলা হলুদ না, সবুজ।",
+        "tr": "ei kola holud na, shobuj.",
+        "en": "This banana isn't yellow, it's green.",
+        "alt": [
+          "This banana is not yellow, it is green."
+        ]
+      },
+      "blank": "হলুদ",
+      "options": [
+        "হলুদ",
+        "সাদা",
+        "নীল",
+        "কালো"
+      ],
+      "answer": 0,
+      "why": "**হলুদ** 'yellow'; **না** after it means 'isn't'."
+    },
+    {
+      "id": "e09",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "তোমার প্রিয় রং কী?",
+        "tr": "tomar priyo rong ki?",
+        "en": "What's your favourite colour?",
+        "alt": [
+          "What is your favorite color?"
+        ]
+      },
+      "blank": "প্রিয়",
+      "options": [
+        "ভালো",
+        "সুন্দর",
+        "প্রিয়",
+        "নতুন"
+      ],
+      "answer": 2,
+      "why": "**প্রিয়** 'favourite' goes before the noun: **প্রিয় রং**."
+    },
+    {
+      "id": "e10",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আমার জামা সাদা।",
+        "tr": "amar jama shada.",
+        "en": "My shirt is white.",
+        "alt": [
+          "My top is white."
+        ]
+      },
+      "blank": "সাদা",
+      "accepted": [
+        "সাদা",
+        "shada",
+        "sada",
+        "shaada",
+        "saada"
+      ],
+      "why": "**সাদা** 'white'."
+    },
+    {
+      "id": "e11",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আকাশ নীল আর গাছ সবুজ।",
+        "tr": "akash nil ar gachh shobuj.",
+        "en": "The sky is blue and the trees are green.",
+        "alt": [
+          "The sky is blue and the tree is green."
+        ]
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "সবুজ",
+        "রং",
+        "গাছ",
+        "আর",
+        "কালো",
+        "আকাশ",
+        "নীল",
+        "সাদা"
+      ],
+      "answer": [
+        "আকাশ",
+        "নীল",
+        "আর",
+        "গাছ",
+        "সবুজ"
+      ],
+      "why": "Noun first, then the colour; **আর** 'and' joins the two."
+    },
+    {
+      "id": "e12",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "এটার রং কী?",
+        "tr": "etar rong ki?",
+        "en": "What colour is this?",
+        "alt": [
+          "What color is this?",
+          "What colour is it?"
+        ]
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "এটার",
+        "এটা",
+        "রং",
+        "কী",
+        "কেমন",
+        "প্রিয়"
+      ],
+      "answer": [
+        "এটার",
+        "রং",
+        "কী"
+      ],
+      "why": "**এটার** 'of this' + **রং** 'colour' + **কী** 'what'."
+    },
+    {
+      "id": "e13",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ওর চুল কালো।",
+        "tr": "or chul kalo.",
+        "en": "Her hair is black.",
+        "alt": [
+          "His hair is black.",
+          "She has black hair."
+        ]
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "ওর চুল সাদা।",
+        "ওর চুল কালো।",
+        "ওর চুল লম্বা।",
+        "ওর চোখ কালো।"
+      ],
+      "answer": 1,
+      "why": "**চুল** 'hair' + **কালো** 'black'."
+    },
+    {
+      "id": "e14",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "গোলাপি রং আমার খুব পছন্দ।",
+        "tr": "golapi rong amar khub pochhondo.",
+        "en": "I really like pink.",
+        "alt": [
+          "I like the colour pink a lot.",
+          "I love pink."
+        ]
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "গোলাপি রং আমার খুব পছন্দ।",
+        "লাল রং আমার খুব পছন্দ।",
+        "গোলাপি রং আমার পছন্দ না।",
+        "আমার গোলাপি জামা আছে।"
+      ],
+      "answer": 0,
+      "why": "**আমার খুব পছন্দ** 'I really like (it)', as in U4."
+    },
+    {
+      "id": "e15",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আমার প্রিয় রং নীল।",
+        "tr": "amar priyo rong nil.",
+        "en": "My favourite colour is blue.",
+        "alt": [
+          "My favorite color is blue."
+        ]
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "আমার প্রিয় রং নীল",
+        "আমার প্রিয় রঙ নীল",
+        "প্রিয় রং নীল",
+        "amar priyo rong nil",
+        "amar priyo rong neel",
+        "amar prio rong nil",
+        "amar priyo rang nil",
+        "amar priyo rongo nil",
+        "amar priyo rong nill",
+        "amar prio rong neel"
+      ],
+      "why": "**প্রিয় রং** 'favourite colour', then the colour. No verb."
+    },
+    {
+      "id": "r01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "মজার",
+        "tr": "mojar",
+        "en": "funny"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "সুস্থ",
+        "শেষ",
+        "মজার",
+        "ঠান্ডা"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "লাজুক",
+        "tr": "lajuk",
+        "en": "shy"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "empty; free",
+        "favourite",
+        "shy",
+        "all"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "listen_select",
+      "audio": {
+        "bn": "হাসিখুশি",
+        "tr": "hashikhushi",
+        "en": "cheerful"
+      },
+      "options": [
+        "কালো",
+        "বন্ধ",
+        "হাসিখুশি",
+        "কোনো"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "রাগী",
+          "tr": "ragi",
+          "en": "short-tempered"
+        },
+        {
+          "bn": "বয়স্ক",
+          "tr": "boyoshko",
+          "en": "elderly"
+        },
+        {
+          "bn": "ডাকুন",
+          "tr": "dakun",
+          "en": "please call (standard)"
+        },
+        {
+          "bn": "বাঁচাও",
+          "tr": "ba~chao",
+          "en": "help! (save me)"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "বুড়ো",
+          "tr": "buro",
+          "en": "old (of people)"
+        },
+        {
+          "bn": "হাসপাতালে",
+          "tr": "hashpatale",
+          "en": "to the hospital; in hospital"
+        },
+        {
+          "bn": "জরুরি",
+          "tr": "joruri",
+          "en": "urgent"
+        },
+        {
+          "bn": "পাঠান",
+          "tr": "pathan",
+          "en": "please send (polite)"
+        }
+      ],
+      "recycle": true
+    }
+  ]
+}
