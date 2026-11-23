@@ -1,0 +1,35 @@
+{
+  "_comment": "Third-party fonts, models and services the app itself uses. Shown on /credits. See docs/LICENSING.md.",
+  "credits": [
+    {
+      "id": "font-noto-sans-bengali",
+      "kind": "font",
+      "title": "Noto Sans Bengali",
+      "creators": [{ "name": "The Noto Project Authors", "role": "designer" }],
+      "url": "https://github.com/notofonts/bengali",
+      "licence": "OFL-1.1"
+    },
+    {
+      "id": "font-nunito",
+      "kind": "font",
+      "title": "Nunito",
+      "creators": [{ "name": "The Nunito Project Authors", "role": "designer" }],
+      "url": "https://github.com/googlefonts/nunito",
+      "licence": "OFL-1.1"
+    },
+    {
+      "id": "service-azure-tts",
+      "kind": "service",
+      "title": "Microsoft Azure Text to Speech (voice bn-BD Nabanita)",
+      "note": "All recorded audio is computer-generated.",
+      "url": "https://learn.microsoft.com/azure/ai-services/speech-service/"
+    },
+    {
+      "id": "service-azure-translator",
+      "kind": "service",
+      "title": "Microsoft Azure Translator",
+      "note": "Used only for machine translation on the Translate page.",
+      "url": "https://learn.microsoft.com/azure/ai-services/translator/"
+    }
+  ]
+}

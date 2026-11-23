@@ -12,6 +12,7 @@ import {
   isRecycle, isReviewLesson, knownAt, lessonPath, lessonsByUnit, loadAll, loadLessons, readJson, rel, reviewCoverage, skillStats, tokenize,
   unitLevel,
 } from "./lib.mjs";
+import { checkSources } from "./sources.mjs";
 
 const quiet = process.argv.includes("--quiet");
 const strict = process.argv.includes("--strict");
@@ -430,6 +431,11 @@ if (strict) {
   }
 }
 
+// ---------------------------------------------------------------- third-party sources (docs/LICENSING.md)
+const src = checkSources();
+src.errors.forEach((e) => errors.push(`[licence] ${e}`));
+src.warnings.forEach((w) => warnings.push(`[licence] ${w}`));
+
 // ---------------------------------------------------------------- report
 if (!quiet) warnings.forEach((w) => console.warn(`⚠  ${w}`));
 errors.forEach((e) => console.error(`✗  ${e}`));
@@ -437,6 +443,6 @@ if (strict) console.log(`\nstrict violations by rule: ${Object.entries(strictCou
 const planned = [...plans.values()].reduce((n, p) => n + (p.lessons?.length ?? 0), 0);
 console.log(
   `\n${course.units.length} units · ${planned} planned lessons · ${lessonCount} authored (${exCount} exercises) · ` +
-  `${lexicon.size} lexicon entries · ${sentenceCount} plan sentences — ${errors.length} errors, ${warnings.length} warnings`,
+  `${lexicon.size} lexicon entries · ${sentenceCount} plan sentences · ${src.items} library items — ${errors.length} errors, ${warnings.length} warnings`,
 );
 process.exit(errors.length ? 1 : 0);

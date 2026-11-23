@@ -62,6 +62,8 @@ const nextConfig: NextConfig = {
       "../content/stories/**/*.json",
       "../content/family/**/*.json",
       "../content/audio/manifest.json",
+      "../content/sources/**/*.json",
+      "../content/library/**/*.json",
       "src/fixtures/**/*.json",
     ],
   },

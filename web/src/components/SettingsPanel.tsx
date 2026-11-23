@@ -111,6 +111,10 @@ export function SettingsPanel() {
             <Link href="/privacy" className="font-bold text-brand-dark underline">
               Privacy
             </Link>
+            {" · "}
+            <Link href="/credits" className="font-bold text-brand-dark underline">
+              Credits
+            </Link>
           </p>
         </Section>
       </div>
