@@ -33,20 +33,13 @@ export function preloadSfx(): void {
 
 export function playSfx(kind: Sfx): void {
   if (typeof window === "undefined" || !progressStore.get().settings.sound) return;
-  const ready = howls.get(kind);
-  if (ready && ready.state() === "loaded") {
-    try {
-      ready.play();
-      return;
-    } catch {
-      // fall through to the tone
-    }
-  }
-  if (ready?.state() === "loading") {
-    ready.once("load", () => ready.play());
+  const howl = howls.get(kind);
+  if (howl?.state() === "loaded") {
+    howl.play();
     return;
   }
-  if (!failed && !ready) preloadSfx();
+  // Not ready yet (first use, still loading, or failed): a tone now beats a sound that arrives late.
+  if (!howl) preloadSfx();
   synth(kind);
 }
 

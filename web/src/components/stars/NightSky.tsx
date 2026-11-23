@@ -29,16 +29,22 @@ export function NightSky({ groups }: { groups: WriteGroup[] }) {
   const { constellations, height } = useMemo(() => layoutSky(groups), [groups]);
   const dust = useMemo(() => specks(height), [height]);
 
-  const info = (s: PlacedStar) => {
-    const rec = memory.words[s.letter.id];
-    const level = now === null ? 0 : starLevel({ lessonDone: !!progress.completed[s.lessonId], write: write.letters[s.letter.id] ?? "new", memory: rec, now });
-    return { level, due: now !== null && level > 0 && starDue(rec, now) };
-  };
+  // Each star's brightness, worked out once per change of progress, memory, writing or clock.
+  const states = useMemo(() => {
+    const out = new Map<string, { level: StarLevel; due: boolean }>();
+    for (const s of constellations.flatMap((c) => c.stars)) {
+      const rec = memory.words[s.letter.id];
+      const level = now === null ? 0 : starLevel({ lessonDone: !!progress.completed[s.lessonId], write: write.letters[s.letter.id] ?? "new", memory: rec, now });
+      out.set(s.letter.id, { level, due: now !== null && level > 0 && starDue(rec, now) });
+    }
+    return out;
+  }, [constellations, memory, progress.completed, write, now]);
+  const info = (s: PlacedStar) => states.get(s.letter.id) ?? { level: 0 as StarLevel, due: false };
 
-  const all = constellations.flatMap((c) => c.stars);
+  const pickedInfo = picked ? info(picked) : null;
   const counts = [0, 0, 0, 0];
-  for (const s of all) counts[info(s).level]++;
-  const lit = all.length - counts[0];
+  for (const st of states.values()) counts[st.level]++;
+  const lit = states.size - counts[0];
 
   return (
     <AppShell>
@@ -48,7 +54,7 @@ export function NightSky({ groups }: { groups: WriteGroup[] }) {
         A star that flickers is due for review.
       </p>
       <p className="mt-3 font-black text-ink" aria-live="polite">
-        {lit} of {all.length} stars lit · {counts[3]} mastered
+        {lit} of {states.size} stars lit · {counts[3]} mastered
       </p>
 
       <div className="relative mt-4 overflow-hidden rounded-[var(--radius-card)] bg-[#0b1430] shadow-inner" style={{ backgroundImage: "radial-gradient(120% 60% at 50% 0%, #1d2c5c 0%, #0b1430 70%)" }}>
@@ -152,7 +158,7 @@ export function NightSky({ groups }: { groups: WriteGroup[] }) {
       </ul>
 
       <AnimatePresence>
-        {picked && (
+        {picked && pickedInfo && (
           <motion.section
             key={picked.letter.id}
             initial={{ opacity: 0, y: 16 }}
@@ -169,8 +175,8 @@ export function NightSky({ groups }: { groups: WriteGroup[] }) {
                 {picked.letter.tr} <span className="font-semibold text-muted">· {picked.letter.en}</span>
               </p>
               <p className="text-sm font-bold text-muted">
-                {LEVEL_TEXT[info(picked).level]}
-                {info(picked).due ? " · due for review" : ""}
+                {LEVEL_TEXT[pickedInfo.level]}
+                {pickedInfo.due ? " · due for review" : ""}
               </p>
               <div className="mt-2 flex flex-wrap gap-3 text-sm font-extrabold">
                 <Link href="/write" className="text-brand-dark underline">
@@ -179,7 +185,7 @@ export function NightSky({ groups }: { groups: WriteGroup[] }) {
                 <Link href={`/lesson/${picked.lessonId}`} className="text-brand-dark underline">
                   Open its lesson
                 </Link>
-                {info(picked).due && (
+                {pickedInfo.due && (
                   <Link href="/practice" className="text-brand-dark underline">
                     Review
                   </Link>

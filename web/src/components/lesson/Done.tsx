@@ -76,7 +76,8 @@ export function Done({
   const pct = Math.round(accuracy * 100);
   const stars = lessonStars({ bestAccuracy: accuracy, completedAt: "", timesCompleted: 1 });
   const toGo = Math.max(goal - xpToday, 0);
-  const milestone = streakGrew && streak > 1 && (streak % FREEZE_EVERY === 0 || streak === 3 || streak % 30 === 0);
+  // Every week of streak gets the big celebration.
+  const milestone = streakGrew && streak % FREEZE_EVERY === 0;
   const medal = useRef<HTMLDivElement>(null);
 
   // Confetti: a small burst for every finish, a big one for a perfect run, a met goal or a streak milestone.
@@ -92,7 +93,10 @@ export function Done({
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  let row = 0;
+  // Rows animate in one after another; optional rows only take a slot when shown.
+  const slots = [coins > 0, true, true, !!summary.freeFreeze];
+  const slot = (i: number) => slots.slice(0, i).filter(Boolean).length;
+  const firstQuestSlot = slots.filter(Boolean).length;
   return (
     <main className="mx-auto flex min-h-dvh w-full max-w-xl flex-col items-center justify-center gap-7 bg-surface px-4 pt-[max(2.5rem,env(safe-area-inset-top))] pb-[max(2.5rem,env(safe-area-inset-bottom))] text-center">
       <div className="relative flex h-40 w-40 items-center justify-center">
@@ -151,7 +155,7 @@ export function Done({
 
       <ul className="flex w-full max-w-sm flex-col gap-2 text-left font-bold">
         {coins > 0 && (
-          <motion.li {...rise(row++)} className="flex items-center gap-3 rounded-2xl bg-sun-light px-4 py-3 text-sun-dark">
+          <motion.li {...rise(slot(0))} className="flex items-center gap-3 rounded-2xl bg-sun-light px-4 py-3 text-sun-dark">
             <CoinIcon />
             <span>
               +<CountUp to={coins} delay={1} duration={0.6} /> taka coins
@@ -159,7 +163,7 @@ export function Done({
             </span>
           </motion.li>
         )}
-        <motion.li {...rise(row++)} className="flex items-center gap-3 rounded-2xl bg-brand-light px-4 py-3 text-brand-dark">
+        <motion.li {...rise(slot(1))} className="flex items-center gap-3 rounded-2xl bg-brand-light px-4 py-3 text-brand-dark">
           <span aria-hidden className="text-xl">{goalJustMet || toGo === 0 ? "✓" : "◔"}</span>
           {goalJustMet
             ? `Daily goal reached: ${xpToday} XP today`
@@ -167,7 +171,7 @@ export function Done({
               ? `${xpToday} XP today, goal already met`
               : `${toGo} XP to today's goal of ${goal}`}
         </motion.li>
-        <motion.li {...rise(row++)} className="flex items-center gap-3 rounded-2xl bg-sun-light px-4 py-3 text-sun-dark">
+        <motion.li {...rise(slot(2))} className="flex items-center gap-3 rounded-2xl bg-sun-light px-4 py-3 text-sun-dark">
           <motion.span
             className="text-sun"
             animate={streakGrew ? { scale: [1, 1.45, 1], rotate: [0, -8, 0] } : undefined}
@@ -182,13 +186,13 @@ export function Done({
             : `${streak}-day streak, safe for today`}
         </motion.li>
         {summary.freeFreeze && (
-          <motion.li {...rise(row++)} className="flex items-center gap-3 rounded-2xl bg-brand-light px-4 py-3 text-brand-dark">
+          <motion.li {...rise(slot(3))} className="flex items-center gap-3 rounded-2xl bg-brand-light px-4 py-3 text-brand-dark">
             <FreezeIcon />
             {streak} days in a row: you earned a free streak freeze
           </motion.li>
         )}
-        {quests.map((q) => (
-          <motion.li key={q.id} {...rise(row++)} className="flex items-center gap-3 rounded-2xl border-2 border-brand/25 px-4 py-3 text-brand-dark">
+        {quests.map((q, i) => (
+          <motion.li key={q.id} {...rise(firstQuestSlot + i)} className="flex items-center gap-3 rounded-2xl border-2 border-brand/25 px-4 py-3 text-brand-dark">
             <span aria-hidden className="flex h-6 w-6 items-center justify-center rounded-full bg-brand text-sm text-white">✓</span>
             Quest done: {q.title}
           </motion.li>

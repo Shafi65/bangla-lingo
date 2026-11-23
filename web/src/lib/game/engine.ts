@@ -5,7 +5,6 @@
 // Totals are kept as earned / spent / used counters rather than balances, so two devices can be
 // merged with a per-field max without ever double-counting (see mergeGame).
 
-export const GAME_VERSION = 1;
 /** Streak freezes a learner can hold at once. */
 export const MAX_FREEZES = 2;
 /** Price of one streak freeze, in taka coins. */
@@ -15,13 +14,13 @@ export const CHEST_COINS = 15;
 /** A free streak freeze every this many streak days. */
 export const FREEZE_EVERY = 7;
 /** Every this many right answers in a row earns a combo bonus. */
-export const COMBO_BONUS_FROM = 5;
+export const COMBO_EVERY = 5;
 
 export const COINS = {
   lesson: 5,
   practice: 3,
   perfect: 5,
-  /** Per COMBO_BONUS_FROM answers in a row. */
+  /** Each time a run reaches a multiple of COMBO_EVERY. */
   combo: 2,
 } as const;
 
@@ -255,7 +254,7 @@ export function applyEvent(g0: GameState, e: GameEvent, today: string, opts: { c
       if (e.correct) {
         stats.bestCombo = Math.max(stats.bestCombo, e.combo);
         track("combo", e.combo, true);
-        if (e.combo > 0 && e.combo % COMBO_BONUS_FROM === 0) coins += COINS.combo;
+        if (e.combo > 0 && e.combo % COMBO_EVERY === 0) coins += COINS.combo;
         if (e.typed) {
           stats.typedCorrect += 1;
           track("typed", 1);

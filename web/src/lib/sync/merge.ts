@@ -189,7 +189,7 @@ export function mergeFrozen(local: readonly string[] = [], remote: readonly stri
 export function mergeProgress(local: ProgressCore, remote: ProgressCore): ProgressCore {
   const lastActiveDate = laterDay(local.lastActiveDate, remote.lastActiveDate);
   const daily = mergeDaily(local.daily, remote.daily, lastActiveDate);
-  const frozen = mergeFrozen(local.frozen, remote.frozen);
+  const frozen = mergeFrozen(local.frozen, remote.frozen, lastActiveDate);
   const out: ProgressCore = {
     xp: Math.max(finiteNonNeg(local.xp), finiteNonNeg(remote.xp)),
     lastActiveDate,

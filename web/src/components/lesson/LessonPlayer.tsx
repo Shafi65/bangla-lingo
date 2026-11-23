@@ -9,7 +9,7 @@ import { firstTryNeeded, testOutPassed, type TestOutInfo } from "@/lib/checkpoin
 import { progressStore, todayXp } from "@/lib/progress";
 import { playSfx, preloadSfx } from "@/lib/sfx";
 import { recordGameEvent } from "@/lib/game/storage";
-import { COMBO_BONUS_FROM } from "@/lib/game/engine";
+import { COMBO_EVERY } from "@/lib/game/engine";
 import type { Exercise, Lesson } from "@/lib/types";
 import { BnText } from "@/components/BnText";
 import { ScriptOnlyContext, useIsScriptLesson } from "@/components/CourseContext";
@@ -137,7 +137,7 @@ function LessonRun({
     const nextCombo = ok ? combo + 1 : 0;
     setCombo(nextCombo);
     if (ok) setBestCombo((b) => Math.max(b, nextCombo));
-    playSfx(ok ? (nextCombo >= COMBO_BONUS_FROM && nextCombo % COMBO_BONUS_FROM === 0 ? "combo" : "correct") : "wrong");
+    playSfx(!ok ? "wrong" : nextCombo % COMBO_EVERY === 0 ? "combo" : "correct");
     if (!testOut) {
       const r = recordGameEvent({ type: "answer", correct: ok, typed: isTyped(ex), combo: nextCombo });
       runCoins.current += r?.coins ?? 0;
@@ -515,7 +515,7 @@ function TopBar({
 
 /** "3 in a row" counter: appears from 3 right answers in a row and pops on each new one. */
 function Combo({ n }: { n: number }) {
-  const hot = n >= COMBO_BONUS_FROM;
+  const hot = n >= COMBO_EVERY;
   return (
     <span className="flex min-w-0 shrink-0 justify-end" aria-live="polite">
       <AnimatePresence initial={false}>
@@ -539,8 +539,8 @@ function Combo({ n }: { n: number }) {
             >
               {n}
             </motion.span>
-            <span className="hidden min-[380px]:inline">in a row</span>
-            <span className="sr-only min-[380px]:hidden">in a row</span>
+            {/* Hidden visually on the narrowest phones, still read out. */}
+            <span className="max-[379px]:sr-only">in a row</span>
           </motion.span>
         )}
       </AnimatePresence>

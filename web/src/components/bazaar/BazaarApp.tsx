@@ -176,25 +176,15 @@ function Play({
   const st: BazaarStep = stall.steps[step];
   const answered = chosen !== null;
   const ok = answered && chosen === st.answer;
-  const price = priceBefore(stall, step, right);
-  const after = answered && ok && st.kind === "choose" && st.price !== undefined ? st.price : price;
-  const prev = step > 0 ? stall.steps[step - 1] : null;
-  // What the seller last said: this step's own line, else their answer to your last line, else
-  // their last line, so the conversation stays on screen.
-  const context: BnLine | undefined =
-    ("say" in st && st.say) ||
-    (prev?.kind === "choose" && prev.reply && right[step - 1] ? prev.reply : undefined) ||
-    (prev && "say" in prev ? prev.say : undefined);
+  const before = priceBefore(stall, step, right);
+  const now = ok && st.kind === "choose" && st.price !== undefined ? st.price : before;
+  // The seller line on screen: this step's own, else the last thing the seller said, so the
+  // conversation never goes blank. The English of this step's own line waits for the answer.
+  const own = "say" in st ? st.say : undefined;
+  const prev = stall.steps[step - 1];
+  const earlier = prev?.kind === "choose" && prev.reply && right[step - 1] ? prev.reply : prev?.say;
+  const seller = own ?? earlier;
   const order = useMemo(() => optionOrder(stall.id, step, st.kind === "listen" ? st.choices.length : st.options.length), [stall.id, step, st]);
-
-  useEffect(() => {
-    if (!answered) return;
-    const onKey = (e: KeyboardEvent) => {
-      if (e.key === "Enter" && !(e.target as HTMLElement | null)?.closest("a, button")) onNext();
-    };
-    window.addEventListener("keydown", onKey);
-    return () => window.removeEventListener("keydown", onKey);
-  }, [answered, onNext]);
 
   return (
     <div className="flex flex-col gap-4">
@@ -207,13 +197,13 @@ function Play({
             <span key={i} className={`h-2.5 w-6 rounded-full ${i < right.length ? (right[i] ? "bg-brand" : "bg-accent") : i === step ? "bg-sun" : "bg-line"}`} />
           ))}
         </div>
-        <PriceTag price={after} was={after !== price ? price : null} unit={stall.unit} />
+        <PriceTag price={now} was={now !== before ? before : null} unit={stall.unit} />
       </div>
 
       <h1 className="text-xl font-black text-ink">{stall.title}</h1>
 
       <div className="flex min-h-24 flex-col gap-2">
-        {context && <Bubble key={context.bn} line={context} reveal={answered || context !== ("say" in st ? st.say : undefined)} />}
+        {seller && <Bubble key={seller.bn} line={seller} reveal={answered || !own} />}
         {/* After a right answer: your line, then the seller's reply. */}
         {answered && ok && st.kind === "choose" && <Bubble key="you" line={st.options[st.answer]} reveal from="you" />}
         {answered && ok && st.kind === "choose" && st.reply && <Bubble key="reply" line={st.reply} reveal />}
@@ -328,7 +318,9 @@ function Summary({ stall, result, onAgain, onPick }: { stall: Stall; result: Sta
         {result.saved > 0 ? (
           <p className="font-bold text-brand-dark">Haggling saved you {taka(result.saved)}.</p>
         ) : (
-          <p className="font-semibold text-muted">{stall.id === "tea" ? "Tea is never haggled over. Good call." : "No discount this time."}</p>
+          <p className="font-semibold text-muted">
+            {stall.steps.some((st) => st.kind === "choose" && st.haggle) ? "No discount this time." : "A fixed price: nothing to haggle over."}
+          </p>
         )}
       </div>
       <p className="flex items-center gap-2 rounded-2xl bg-sun-light px-5 py-3 text-xl font-black text-sun-dark">
