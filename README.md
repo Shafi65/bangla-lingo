@@ -5,6 +5,9 @@ A free, gamified course for English speakers learning Bengali (বাংলা):
 **Features**
 - Course map with interleaved vocabulary and alphabet units
 - Lessons with nine exercise types, plus hearts, XP, streaks and a daily goal
+- Game layer: daily quests with a reward box, taka coins (earned by playing, never bought), streak freezes, a "right in a row" combo counter, animated celebrations and original sound effects
+- The bazaar: a haggling mini-game built only from sentences the course teaches
+- The letter sky: every Bengali letter is a star that brightens as you master it
 - Smart review that brings back words you are about to forget
 - Guide, dictionary and a translate page (English, Bengali script or Roman letters)
 - Placement test to find your starting point
@@ -38,7 +41,10 @@ docs/       content format docs
 |---|---|
 | `npm run validate` | checks all content (schema, spellings vs. lexicon, no word used before it's taught) |
 | `npm run status` | lessons planned / drafted / reviewed per unit |
+| `npm run validate:bazaar` | checks the bazaar stalls (every line must be a sentence taught in the course) |
 | `npm run gen:lesson -- <lesson-id>` | drafts a lesson from its plan |
+
+Sound effects are synthesized from scratch by `node web/scripts/gen-sfx.mjs` (needs ffmpeg) into `web/public/sfx/`.
 
 See [docs/LESSON_PIPELINE.md](docs/LESSON_PIPELINE.md), [docs/CONTENT_SCHEMA.md](docs/CONTENT_SCHEMA.md) and [content/TRANSLITERATION.md](content/TRANSLITERATION.md). Audio clips: [docs/AUDIO.md](docs/AUDIO.md).
 

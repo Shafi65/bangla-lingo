@@ -1,5 +1,6 @@
 import { connection } from "next/server";
 import { getBuildId, getShellRoutes, listStaticAssets } from "@/lib/offline/server";
+import { SFX_FILES, sfxUrl } from "@/lib/sfxFiles";
 
 // What the service worker precaches. Read at request time because the build id and the
 // hashed asset list only exist once `next build` has finished.
@@ -9,7 +10,7 @@ export async function GET() {
     {
       buildId: getBuildId(),
       routes: getShellRoutes(),
-      assets: [...listStaticAssets(), "/manifest.webmanifest", "/icons/icon-192.png", "/icons/icon-512.png"],
+      assets: [...listStaticAssets(), "/manifest.webmanifest", "/icons/icon-192.png", "/icons/icon-512.png", ...SFX_FILES.map(sfxUrl)],
     },
     { headers: { "Cache-Control": "no-store" } },
   );

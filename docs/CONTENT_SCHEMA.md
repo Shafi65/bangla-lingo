@@ -292,3 +292,34 @@ Kin terms for the learner's own family tree, played at `/family`. `npm run valid
 Rules: every Bengali word in terms, pronouns, templates **and every phrase composed from them** (each relation × variety × pronoun × address term) must be a form in `content/lexicon/`, and each `tr` must match the lexicon transliteration word by word; Bengali quoted inside `explain`, `note` and `use` must also be lexicon forms. Kin words that no lesson teaches live in the supplementary lexicon `content/lexicon/family-extra.json` (same format, unit `family-extra`, entries without `lesson`; `npm run validate` checks ids and spellings but not lesson placement, because the unit is not in `course.json`). `npm run gen:audio` records every term, the intro sentence and each phrase for the default and listed address terms and pronouns, plus the bare phrase used when someone is called by name or by the family's own word.
 
 The learner's tree is stored on the device only, in `localStorage` key `banglalingo.family.v1`: `{ v: 1, variety?, people: [{ id, rel, name?, call?, pronoun?, linkedTo? }], quiz: { rounds, best } }`. `call` is `{ type: "term", bn, tr }`, `{ type: "name" }` or `{ type: "custom", text }`.
+
+## Bazaar — `content/bazaar/stalls.json`
+A short haggling game at `/bazaar`: ask the price, understand the number, haggle where it is expected. `npm run validate:bazaar` enforces this section. **Every Bengali line must be a sentence already taught in `content/units/`, with the same `tr` and `en`**, so the game never introduces Bengali that has not been through the lesson pipeline.
+```json
+{
+  "version": 1,
+  "coinsPerStep": 2,
+  "haggleBonus": 3,
+  "stalls": [
+    {
+      "id": "mangoes", "title": "The fruit stall", "item": "mangoes", "start": 100, "unit": "a kilo",
+      "intro": "Mangoes are piled high. Start by asking the price.",
+      "steps": [
+        { "kind": "choose", "prompt": "Ask how much these mangoes are.", "options": [{ "bn": "ভাই, এই আমগুলো কত?", "tr": "bhai, ei amgulo koto?", "en": "Brother, how much are these mangoes?" }, { "bn": "…", "tr": "…", "en": "…" }], "answer": 0, "why": "…" },
+        { "kind": "listen", "say": { "bn": "একশ টাকা কেজি।", "tr": "eksho taka keji.", "en": "A hundred taka a kilo." }, "prompt": "What price did the seller say?", "choices": ["৳100 a kilo", "৳50 a kilo", "৳1,000 a kilo"], "answer": 0, "why": "…" },
+        { "kind": "choose", "prompt": "Haggle politely.", "options": ["…"], "answer": 0, "why": "…", "reply": { "bn": "ঠিক আছে, আশি টাকা দেন।", "tr": "thik achhe, ashi taka den.", "en": "OK, give me eighty taka." }, "price": 80, "haggle": true }
+      ]
+    }
+  ]
+}
+```
+| field | req | meaning |
+|---|---|---|
+| `coinsPerStep`, `haggleBonus` | ✓ | taka coins per right step, and extra coins when a haggle comes off |
+| `start` | ✓ | the asking price in whole taka; `unit` (may be empty) is shown after it |
+| `steps` | ✓ | 2+ steps, at least one `listen` step (understanding the price) |
+| `kind` | ✓ | `choose` (pick what to say; English is hidden until answered) or `listen` (the seller's `say` line, pick the number from `choices`) |
+| `say` | | a seller line shown before the question (required for `listen`) |
+| `reply` | | the seller's answer after a right choice |
+| `price` | | the price after a right choice; with `"haggle": true` it must be lower and counts as savings, without it it is a quantity change (e.g. half a kilo) |
+| `answer`, `why` | ✓ | the right option, and a short explanation (≤ 320 characters) shown after every answer |

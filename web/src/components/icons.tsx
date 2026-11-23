@@ -135,3 +135,41 @@ export function DeviceIcon() {
     </svg>
   );
 }
+
+/** A taka coin: a marigold disc with the taka sign. */
+export function CoinIcon({ size = 22 }: { size?: number }) {
+  return (
+    <svg width={size} height={size} viewBox="0 0 24 24" aria-hidden>
+      <circle cx="12" cy="12" r="10" fill="var(--color-sun)" />
+      <circle cx="12" cy="12" r="7.6" fill="none" stroke="var(--color-sun-edge)" strokeWidth="1.4" strokeDasharray="2 1.6" />
+      <text x="12" y="16.2" textAnchor="middle" fontSize="11" fontWeight="800" fill="var(--color-sun-dark)" fontFamily="'Noto Sans Bengali Variable', sans-serif">৳</text>
+    </svg>
+  );
+}
+
+/** A streak freeze: a clay lamp under a glass cover. */
+export function FreezeIcon({ size = 22 }: { size?: number }) {
+  return (
+    <svg width={size} height={size} viewBox="0 0 24 24" aria-hidden>
+      <path d="M5 21h14" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
+      <path d="M6 20.5V11a6 6 0 0112 0v9.5" fill="currentColor" fillOpacity=".14" stroke="currentColor" strokeWidth="2" />
+      <path d="M8.5 17.5c0-1.6 1.6-2.3 3.5-2.3s3.5.7 3.5 2.3z" fill="currentColor" />
+      <path d="M12 9.5s1.6 1.5 1.6 3.1a1.6 1.6 0 01-3.2 0c0-1.6 1.6-3.1 1.6-3.1z" fill="currentColor" />
+    </svg>
+  );
+}
+
+/** A tiffin carrier: today's quest chest. */
+export function ChestIcon({ size = 28, open = false }: { size?: number; open?: boolean }) {
+  return (
+    <svg width={size} height={size} viewBox="0 0 24 24" aria-hidden>
+      <path d="M8 4.5a4 4 0 018 0" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" />
+      <g transform={open ? "translate(0 -2.5) rotate(-12 6 7)" : undefined}>
+        <rect x="5" y="5" width="14" height="4" rx="1.6" fill="currentColor" />
+      </g>
+      <rect x="5" y="10" width="14" height="4.5" rx="1.6" fill="currentColor" fillOpacity=".8" />
+      <rect x="5" y="15.5" width="14" height="4.5" rx="1.6" fill="currentColor" fillOpacity=".6" />
+      <path d="M4 12.2h16M4 17.7h16" stroke="currentColor" strokeWidth="1.2" />
+    </svg>
+  );
+}

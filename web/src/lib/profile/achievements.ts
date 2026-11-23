@@ -74,6 +74,12 @@ const DEFS: Def[] = [
     value: (s) => (s.scriptComplete ? s.scriptTotal : s.scriptDone),
     text: (s) => `${n(s.scriptDone)} of ${n(s.scriptTotal)} script lessons`,
   },
+  // Game layer (lib/game): stats read with a fallback so older callers without `game` still work.
+  { id: "combo-10", title: "On a roll", goal: "Get 10 answers right in a row", motif: "sun", tone: "accent", tier: "10", target: 10, unit: ["in a row", "in a row"], value: (s) => s.game?.bestCombo ?? 0, text: (s) => `Best so far: ${n(s.game?.bestCombo ?? 0)} in a row` },
+  { id: "typed-50", title: "Fluent fingers", goal: "Type 50 answers correctly", motif: "letter", tone: "brand", tier: "50", target: 50, unit: ["typed answer", "typed answers"], value: (s) => s.game?.typedCorrect ?? 0 },
+  { id: "chests-7", title: "Seven tiffin boxes", goal: "Finish all of a day's quests on 7 days", motif: "lotus", tone: "sun", tier: "7", target: 7, unit: ["day", "days"], value: (s) => s.game?.chests ?? 0 },
+  { id: "freeze-saved", title: "Saved by a freeze", goal: "Let a streak freeze keep your streak alive", motif: "spiral", tone: "brand", target: 1, unit: ["freeze", "freezes"], value: (s) => s.game?.freezesSaved ?? 0, text: () => "No freeze used yet" },
+  { id: "bazaar-5", title: "Bazaar regular", goal: "Haggle at the bazaar 5 times", motif: "fish", tone: "accent", tier: "5", target: 5, unit: ["visit", "visits"], value: (s) => s.game?.bazaarRounds ?? 0 },
 ];
 
 /** Every achievement in display order, earned or not. */

@@ -10,7 +10,12 @@
 //   last active  the later date
 //   streak       recomputed from the union of active days: days in either daily log plus the run of
 //                days each side's stored streak vouches for (streak S ending at lastActiveDate L
-//                means L-S+1 .. L were all active), counted back from the merged last-active date
+//                means L-S+1 .. L were all active), counted back from the merged last-active date;
+//                frozen days bridge a gap but are not counted
+//   frozen days  union of both sides, trimmed like the daily log
+//   game         coins and freezes: earned / spent / used totals are each the max; today's quests:
+//                the later day wins, same day = per-quest max progress, claimed on either side
+//                counts; lifetime counters: each the max
 //   word memory  per word, the record with the later lastSeen; tie: more reps, then more lapses,
 //                then this device's
 //   settings     last writer wins per key, by the per-key change time; tie: this device's
@@ -32,6 +37,7 @@ import type { SpeakHistory } from "../speak/history";
 import { SPEAK_MAX_ITEMS } from "../speak/history";
 import type { StoredPlacement } from "../placement/apply";
 import type { OnboardingState } from "../onboarding/storage";
+import { mergeGame, type GameState } from "../game/engine";
 
 // --- dates (YYYY-MM-DD local day keys, compared as calendar days) -----------------------------
 
@@ -60,6 +66,8 @@ export interface ProgressCore {
   lastActiveDate: string | null;
   completed: Record<string, LessonRecord>;
   daily: Record<string, number>;
+  /** Streak-freeze days; absent in documents written before streak freezes. */
+  frozen?: string[];
 }
 
 const time = (iso: string | undefined) => {
@@ -138,35 +146,60 @@ export function recomputeStreak(
   lastActiveDate: string | null,
   dailies: Record<string, number>[],
   claims: { lastActiveDate: string | null; streak: number }[],
+  frozen: readonly string[] = [],
 ): number {
   if (!isDayKey(lastActiveDate)) return 0;
   const days = new Set<number>();
   for (const d of dailies) for (const k of Object.keys(d)) if (isDayKey(k)) days.add(dayNumber(k));
-  const ranges: [number, number][] = [];
+  const frozenDays = new Set(frozen.filter(isDayKey).map(dayNumber));
+  // A stored streak S ending at L vouches for S active days counted back from L; frozen days in
+  // between are skipped over, not counted.
+  const claimed = new Set<number>();
   for (const c of claims) {
     const s = Math.min(Math.floor(finiteNonNeg(c.streak)), MAX_STREAK_DAYS);
     if (!isDayKey(c.lastActiveDate) || s <= 0) continue;
-    const end = dayNumber(c.lastActiveDate);
-    ranges.push([end - s + 1, end]);
+    let left = s;
+    for (let d = dayNumber(c.lastActiveDate), steps = 0; left > 0 && steps < MAX_STREAK_DAYS * 2; d--, steps++) {
+      if (frozenDays.has(d)) continue;
+      claimed.add(d);
+      left--;
+    }
   }
-  const active = (n: number) => days.has(n) || ranges.some(([a, b]) => n >= a && n <= b);
+  // A day logged as active counts even if another device froze it.
+  const active = (n: number) => days.has(n) || (!frozenDays.has(n) && claimed.has(n));
   const end = dayNumber(lastActiveDate);
   let run = 0;
-  while (run < MAX_STREAK_DAYS && active(end - run)) run++;
+  // Walk back from the last active day: active days count, frozen days only bridge the gap.
+  for (let d = end, steps = 0; steps < MAX_STREAK_DAYS * 2 && run < MAX_STREAK_DAYS; d--, steps++) {
+    if (active(d)) run++;
+    else if (!frozenDays.has(d)) break;
+  }
   // The last-active day itself always counts (the store sets lastActiveDate only on activity).
   return Math.max(run, 1);
+}
+
+/** Union of frozen days, trimmed to DAILY_WINDOW_DAYS before `latest` (when given). */
+export function mergeFrozen(local: readonly string[] = [], remote: readonly string[] = [], latest?: string | null): string[] {
+  const end = latest && isDayKey(latest) ? dayNumber(latest) : undefined;
+  return [...new Set([...local, ...remote].filter(isDayKey))]
+    .filter((k) => end === undefined || end - dayNumber(k) <= DAILY_WINDOW_DAYS)
+    .sort();
 }
 
 export function mergeProgress(local: ProgressCore, remote: ProgressCore): ProgressCore {
   const lastActiveDate = laterDay(local.lastActiveDate, remote.lastActiveDate);
   const daily = mergeDaily(local.daily, remote.daily, lastActiveDate);
-  return {
+  const frozen = mergeFrozen(local.frozen, remote.frozen, lastActiveDate);
+  const out: ProgressCore = {
     xp: Math.max(finiteNonNeg(local.xp), finiteNonNeg(remote.xp)),
     lastActiveDate,
-    streak: recomputeStreak(lastActiveDate, [local.daily, remote.daily], [local, remote]),
+    streak: recomputeStreak(lastActiveDate, [local.daily, remote.daily], [local, remote], frozen),
     completed: mergeCompleted(local.completed, remote.completed),
     daily,
   };
+  // Only carry the field when either side has it, so documents without freezes stay unchanged.
+  if (local.frozen !== undefined || remote.frozen !== undefined) out.frozen = frozen;
+  return out;
 }
 
 // --- word memory -----------------------------------------------------------------------------
@@ -290,13 +323,19 @@ export interface FeaturesDoc {
   write: WriteProgress | null;
   speak: SpeakHistory | null;
   placement: StoredPlacement | null;
+  /** Coins, freezes and quests; absent in documents written before the game layer. */
+  game?: GameState | null;
 }
 
 export function mergeFeatures(local: FeaturesDoc, remote: FeaturesDoc): FeaturesDoc {
-  return {
+  const out: FeaturesDoc = {
     formality: mergeFormality(local.formality, remote.formality),
     write: mergeWrite(local.write, remote.write),
     speak: mergeSpeak(local.speak, remote.speak),
     placement: mergePlacement(local.placement, remote.placement),
   };
+  const lg = local.game ?? null;
+  const rg = remote.game ?? null;
+  if (lg || rg) out.game = lg && rg ? mergeGame(lg, rg) : (lg ?? rg);
+  return out;
 }

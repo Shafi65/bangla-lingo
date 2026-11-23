@@ -102,6 +102,11 @@ export interface ProgressState {
   completed: Record<string, LessonRecord>;
   /** XP earned per local day (YYYY-MM-DD), last ~60 days. */
   daily: Record<string, number>;
+  /**
+   * Days covered by a streak freeze (YYYY-MM-DD, last ~60 days). A frozen day keeps the streak
+   * alive across a missed day but does not add to it.
+   */
+  frozen: string[];
   settings: Settings;
 }
 
@@ -122,6 +127,8 @@ export interface ProgressStore {
   completeLessons(ids: string[], opts: { source: SkipSource }): ProgressState;
   /** XP from a practice session (counts for the daily goal and streak). */
   recordPractice(xp: number): ProgressState;
+  /** Mark missed days as covered by streak freezes (see applyFreezePlan). */
+  freezeDays(days: string[]): ProgressState;
   updateSettings(patch: Partial<Settings>): ProgressState;
   /** Per-word spaced-review memory (see lib/review/). */
   getWordMemory(): WordMemoryState;
@@ -133,7 +140,7 @@ export interface ProgressStore {
    * Replace the learning progress (everything but settings) in one write and one notification. Used by
    * account sync (lib/sync/) to apply a merged snapshot; settings go through updateSettings.
    */
-  replaceProgress(next: Omit<ProgressState, "settings" | "version">): ProgressState;
+  replaceProgress(next: Omit<ProgressState, "settings" | "version" | "frozen"> & { frozen?: string[] }): ProgressState;
   subscribe(listener: () => void): () => void;
 }
 
@@ -144,6 +151,7 @@ export const EMPTY_PROGRESS: ProgressState = Object.freeze({
   lastActiveDate: null,
   completed: {},
   daily: {},
+  frozen: [],
   settings: DEFAULT_SETTINGS,
 }) as ProgressState;
 
@@ -154,7 +162,7 @@ export function localDateKey(d = new Date()): string {
   return `${y}-${m}-${day}`;
 }
 
-function daysBetween(a: string, b: string): number {
+export function daysBetween(a: string, b: string): number {
   const [ay, am, ad] = a.split("-").map(Number);
   const [by, bm, bd] = b.split("-").map(Number);
   return Math.round(
@@ -165,10 +173,61 @@ function daysBetween(a: string, b: string): number {
 // NOTE: the helpers below only touch the clock when there is stored progress,
 // so they never read the time during prerender (server snapshot is EMPTY_PROGRESS).
 
-/** Streak to display: 0 if the learner missed yesterday and today. */
+const DAY_KEY = /^\d{4}-\d{2}-\d{2}$/;
+
+/** The day after `key` (YYYY-MM-DD). */
+export function nextDayKey(key: string): string {
+  const [y, m, d] = key.split("-").map(Number);
+  const t = new Date(Date.UTC(y, m - 1, d + 1));
+  return `${t.getUTCFullYear()}-${String(t.getUTCMonth() + 1).padStart(2, "0")}-${String(t.getUTCDate()).padStart(2, "0")}`;
+}
+
+/** Valid, unique, sorted frozen-day keys. */
+export function sanitizeFrozen(v: unknown): string[] {
+  if (!Array.isArray(v)) return [];
+  return [...new Set(v.filter((k): k is string => typeof k === "string" && DAY_KEY.test(k)))].sort();
+}
+
+/**
+ * The day the streak is "kept up to": the last active day, carried forward through any frozen days
+ * right after it. Null when the learner has never been active.
+ */
+export function streakEnd(p: ProgressState): string | null {
+  if (!p.lastActiveDate) return null;
+  const frozen = new Set(p.frozen ?? []);
+  let end = p.lastActiveDate;
+  for (let i = 0; i < 400; i++) {
+    const n = nextDayKey(end);
+    if (!frozen.has(n)) break;
+    end = n;
+  }
+  return end;
+}
+
+/**
+ * Days a freeze would have to cover so the streak survives until today: the missed days between the
+ * streak's end and today (yesterday included, today excluded). Empty when nothing is missed, when there
+ * is no streak, or when more days were missed than `available` freezes can cover (the streak is lost).
+ */
+export function freezePlan(p: ProgressState, available: number, today: string): string[] {
+  const end = streakEnd(p);
+  if (!end || p.streak <= 0 || available <= 0) return [];
+  const missed = daysBetween(end, today) - 1;
+  if (missed < 1 || missed > available) return [];
+  const days: string[] = [];
+  let d = end;
+  for (let i = 0; i < missed; i++) {
+    d = nextDayKey(d);
+    days.push(d);
+  }
+  return days;
+}
+
+/** Streak to display: 0 if the learner missed yesterday and today (frozen days excepted). */
 export function currentStreak(p: ProgressState, today?: string): number {
-  if (!p.lastActiveDate) return 0;
-  return daysBetween(p.lastActiveDate, today ?? localDateKey()) <= 1 ? p.streak : 0;
+  const end = streakEnd(p);
+  if (!end) return 0;
+  return daysBetween(end, today ?? localDateKey()) <= 1 ? p.streak : 0;
 }
 
 /**
@@ -178,8 +237,9 @@ export function currentStreak(p: ProgressState, today?: string): number {
 export type StreakStatus = "done" | "at-risk" | "none";
 
 export function streakStatus(p: ProgressState, today?: string): StreakStatus {
-  if (!p.lastActiveDate) return "none";
-  const gap = daysBetween(p.lastActiveDate, today ?? localDateKey());
+  const end = streakEnd(p);
+  if (!end) return "none";
+  const gap = daysBetween(end, today ?? localDateKey());
   if (gap <= 0) return "done";
   if (gap === 1 && p.streak > 0) return "at-risk";
   return "none";
@@ -244,9 +304,10 @@ export function sanitizeSettings(s: unknown, fallbackTheme: ThemePref = DEFAULT_
 function withActivity(prev: ProgressState, xp: number): ProgressState {
   const today = localDateKey();
   let streak = prev.streak;
-  if (!prev.lastActiveDate) streak = 1;
+  const end = streakEnd(prev);
+  if (!end) streak = 1;
   else {
-    const gap = daysBetween(prev.lastActiveDate, today);
+    const gap = daysBetween(end, today);
     if (gap === 1) streak += 1;
     else if (gap > 1 || gap < 0) streak = 1;
     else streak = Math.max(streak, 1);
@@ -257,7 +318,8 @@ function withActivity(prev: ProgressState, xp: number): ProgressState {
     if (daysBetween(k, today) <= 60) daily[k] = v;
   }
   daily[today] = (daily[today] ?? 0) + xp;
-  return { ...prev, xp: prev.xp + xp, streak, lastActiveDate: today, daily };
+  const frozen = (prev.frozen ?? []).filter((k) => daysBetween(k, today) <= 60 && k !== today);
+  return { ...prev, xp: prev.xp + xp, streak, lastActiveDate: today, daily, frozen };
 }
 
 /** True if the stored blob already has a valid settings.theme (so migration is done). */
@@ -303,6 +365,7 @@ export class LocalStorageProgressStore implements ProgressStore {
               ...parsed,
               completed: sanitizeCompleted(parsed.completed),
               daily: parsed.daily ?? {},
+              frozen: sanitizeFrozen(parsed.frozen),
               settings: sanitizeSettings(parsed.settings),
             }
           : EMPTY_PROGRESS;
@@ -378,6 +441,15 @@ export class LocalStorageProgressStore implements ProgressStore {
     return next;
   }
 
+  freezeDays(days: string[]) {
+    const prev = this.get();
+    const add = sanitizeFrozen(days).filter((d) => !prev.frozen.includes(d));
+    if (!add.length) return prev;
+    const next: ProgressState = { ...prev, frozen: sanitizeFrozen([...prev.frozen, ...add]) };
+    this.write(next);
+    return next;
+  }
+
   updateSettings(patch: Partial<Settings>) {
     const prev = this.get();
     const next = { ...prev, settings: sanitizeSettings({ ...prev.settings, ...patch }) };
@@ -385,7 +457,7 @@ export class LocalStorageProgressStore implements ProgressStore {
     return next;
   }
 
-  replaceProgress(core: Omit<ProgressState, "settings" | "version">) {
+  replaceProgress(core: Omit<ProgressState, "settings" | "version" | "frozen"> & { frozen?: string[] }) {
     const prev = this.get();
     const next: ProgressState = {
       ...prev,
@@ -394,6 +466,8 @@ export class LocalStorageProgressStore implements ProgressStore {
       lastActiveDate: core.lastActiveDate,
       completed: sanitizeCompleted(core.completed),
       daily: { ...core.daily },
+      // Older server documents carry no frozen days: keep this device's.
+      frozen: core.frozen ? sanitizeFrozen(core.frozen) : prev.frozen,
     };
     this.write(next);
     return next;

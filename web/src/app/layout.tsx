@@ -5,6 +5,7 @@ import "@fontsource-variable/noto-sans-bengali";
 import "./globals.css";
 import { AccountRuntimeSlot } from "@/components/account/slots";
 import { CourseProvider } from "@/components/CourseContext";
+import { MotionProvider } from "@/components/motion/MotionProvider";
 import { OfflineStatus } from "@/components/offline/OfflineStatus";
 import { getCourse } from "@/lib/content";
 import { SITE_ROBOTS } from "@/lib/indexing";
@@ -43,7 +44,9 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <script dangerouslySetInnerHTML={{ __html: THEME_SCRIPT }} />
       </head>
       <body className="flex min-h-full flex-col font-sans">
-        <CourseProvider scriptLessonIds={scriptLessonIds}>{children}</CourseProvider>
+        <MotionProvider>
+          <CourseProvider scriptLessonIds={scriptLessonIds}>{children}</CourseProvider>
+        </MotionProvider>
         <OfflineStatus />
         <AccountRuntimeSlot />
       </body>

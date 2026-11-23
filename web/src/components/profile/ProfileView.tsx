@@ -17,6 +17,7 @@ import { StreakCalendar } from "./StreakCalendar";
 import { StrengthBar } from "./StrengthBar";
 import { UnitList } from "./UnitList";
 import { XpChart } from "./XpChart";
+import { useGame } from "@/lib/game/storage";
 
 /**
  * Profile: totals, charts and achievements. Everything here derives from the
@@ -25,18 +26,19 @@ import { XpChart } from "./XpChart";
  */
 export function ProfileView({ words, index, course }: { words: ReviewWord[]; index: WordIndex; course: CourseSummary }) {
   const { progress, memory, now } = useReviewData(words, index);
+  const game = useGame();
 
   const view = useMemo(() => {
     if (!now) return null;
     const today = localDateKey(new Date(now));
-    const stats = profileStats({ progress, memory, words, course, today, now });
+    const stats = profileStats({ progress, memory, words, course, today, now, game: game.stats });
     return {
       stats,
       badges: achievements(stats),
       series: xpSeries(progress, today, 30),
       weeks: streakCalendar(progress, today, 12),
     };
-  }, [now, progress, memory, words, course]);
+  }, [now, progress, memory, words, course, game]);
 
   return (
     <AppShell>
