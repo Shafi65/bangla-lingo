@@ -63,6 +63,16 @@ export function writeStoredPlacement(v: StoredPlacement): boolean {
   }
 }
 
+/** Forget the stored result (account sync: "also remove progress from this device"). */
+export function clearStoredPlacement(): void {
+  if (typeof window === "undefined") return;
+  try {
+    window.localStorage.removeItem(PLACEMENT_KEY);
+  } catch {
+    // nothing to clear
+  }
+}
+
 /**
  * Mark every lesson before the placed unit as done, flagged `placed`: no XP, no streak or activity,
  * no stars, and no word-memory seeding. Lessons already completed are left alone. Returns how many

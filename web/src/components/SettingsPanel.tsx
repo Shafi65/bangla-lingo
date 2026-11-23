@@ -17,6 +17,8 @@ import {
 } from "@/lib/speech";
 import { setThemePref, useThemePref, type ThemePref } from "@/lib/ui/theme";
 import Link from "next/link";
+import { ACCOUNTS_ENABLED } from "@/lib/auth/config";
+import { AccountSectionSlot } from "./account/slots";
 import { AppShell } from "./AppShell";
 import { DraftNotice } from "./DraftNotice";
 
@@ -35,9 +37,13 @@ export function SettingsPanel() {
   return (
     <AppShell>
       <h1 className="text-3xl font-black">Settings</h1>
-      <p className="mt-1 font-semibold text-muted">Saved on this device.</p>
+      <p className="mt-1 font-semibold text-muted">
+        {ACCOUNTS_ENABLED ? "Saved on this device, and in your account when you sign in." : "Saved on this device."}
+      </p>
 
       <div className="mt-6 flex flex-col gap-4">
+        <AccountSectionSlot />
+
         <Section id="goal" title="Daily goal" hint="How much XP you aim for each day. A lesson is worth 10 to 25 XP.">
           <Segmented
             label="Daily goal"

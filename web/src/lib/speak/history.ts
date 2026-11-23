@@ -21,6 +21,7 @@ export type SpeakHistory = Record<string, ItemHistory>;
 
 const KEEP = 5;
 const MAX_ITEMS = 2000;
+export { MAX_ITEMS as SPEAK_MAX_ITEMS };
 const isRating = (v: unknown): v is Rating => v === 0 || v === 1 || v === 2;
 
 /** Tolerant parse of the stored blob; anything malformed is dropped. */
@@ -92,6 +93,27 @@ export function recordRating(key: string, rating: Rating): void {
     // storage full or blocked: keep it for this visit only
   }
   listeners.forEach((l) => l());
+}
+
+/** Replace the whole history (account sync); `{}` clears it. Notifies subscribers. Never throws. */
+export function replaceSpeakHistory(h: SpeakHistory): void {
+  const next = JSON.stringify({ v: 1, items: h });
+  memoryRaw = next;
+  try {
+    window.localStorage.setItem(SPEAK_KEY, next);
+  } catch {
+    // storage full or blocked: keep it for this visit only
+  }
+  listeners.forEach((l) => l());
+}
+
+/** Current history (parsed, cached). */
+export function readSpeakHistory(): SpeakHistory {
+  return snapshot();
+}
+
+export function subscribeSpeak(cb: () => void) {
+  return subscribe(cb);
 }
 
 function subscribe(cb: () => void) {

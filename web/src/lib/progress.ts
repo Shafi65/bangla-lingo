@@ -43,7 +43,7 @@ export function earnedRecords(completed: Record<string, LessonRecord>): Record<s
 }
 
 /** Tolerant read of stored lesson records; `placed` is kept only as the literal `true`, with no score (and `via` only as "checkpoint"). */
-function sanitizeCompleted(c: unknown): Record<string, LessonRecord> {
+export function sanitizeCompleted(c: unknown): Record<string, LessonRecord> {
   const out: Record<string, LessonRecord> = {};
   if (!c || typeof c !== "object") return out;
   for (const [id, v] of Object.entries(c as Record<string, Partial<LessonRecord> | null>)) {
@@ -129,6 +129,11 @@ export interface ProgressStore {
   updateWordMemory(fn: (prev: WordMemoryState) => WordMemoryState): WordMemoryState;
   /** Erase learning progress and word memory; settings are kept. */
   reset(): void;
+  /**
+   * Replace the learning progress (everything but settings) in one write and one notification. Used by
+   * account sync (lib/sync/) to apply a merged snapshot; settings go through updateSettings.
+   */
+  replaceProgress(next: Omit<ProgressState, "settings" | "version">): ProgressState;
   subscribe(listener: () => void): () => void;
 }
 
@@ -268,6 +273,7 @@ function storedTheme(raw: string | null): boolean {
 
 const STORAGE_KEY = "banglalingo.progress.v1";
 const MEMORY_KEY = "banglalingo.memory.v1";
+export { STORAGE_KEY as PROGRESS_KEY, MEMORY_KEY };
 
 export class LocalStorageProgressStore implements ProgressStore {
   private listeners = new Set<() => void>();
@@ -375,6 +381,20 @@ export class LocalStorageProgressStore implements ProgressStore {
   updateSettings(patch: Partial<Settings>) {
     const prev = this.get();
     const next = { ...prev, settings: sanitizeSettings({ ...prev.settings, ...patch }) };
+    this.write(next);
+    return next;
+  }
+
+  replaceProgress(core: Omit<ProgressState, "settings" | "version">) {
+    const prev = this.get();
+    const next: ProgressState = {
+      ...prev,
+      xp: core.xp,
+      streak: core.streak,
+      lastActiveDate: core.lastActiveDate,
+      completed: sanitizeCompleted(core.completed),
+      daily: { ...core.daily },
+    };
     this.write(next);
     return next;
   }

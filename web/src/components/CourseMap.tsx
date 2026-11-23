@@ -20,6 +20,7 @@ import { testOutOffer, type TestOutOffer } from "@/lib/checkpoint";
 import { useDueCount } from "@/lib/review";
 import { sectionsOf } from "@/lib/courseSections";
 import { isReviewLesson } from "@/lib/lessonKind";
+import { SavePromptSlot } from "./account/slots";
 import { AppShell } from "./AppShell";
 import { DraftNotice } from "./DraftNotice";
 import { CheckIcon, LockIcon, RepeatIcon, StarIcon } from "./icons";
@@ -57,6 +58,7 @@ export function CourseMap({ course }: { course: CourseSummary }) {
       )}
 
       <StreakNudge progress={progress} />
+      <SavePromptSlot />
       <DraftNotice className="mb-4" />
 
       {next ? (

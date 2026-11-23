@@ -77,6 +77,24 @@ export function recordWrite(id: string, state: "traced" | "written") {
   listeners.forEach((l) => l());
 }
 
+/** Current handwriting progress (account sync). */
+export function readWriteProgress(): WriteProgress {
+  return getSnapshot();
+}
+
+/** Replace handwriting progress wholesale (account sync); notifies subscribers. */
+export function replaceWriteProgress(next: WriteProgress) {
+  snapshot = sanitize(next);
+  try {
+    window.localStorage.setItem(WRITE_KEY, JSON.stringify(snapshot));
+  } catch {
+    // storage blocked or full: progress stays in memory for this visit
+  }
+  listeners.forEach((l) => l());
+}
+
+export { subscribe as subscribeWrite };
+
 export function useWriteProgress(): WriteProgress {
   return useSyncExternalStore(subscribe, getSnapshot, () => EMPTY);
 }

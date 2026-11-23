@@ -30,7 +30,9 @@
     ".next/dev/types/**/*.ts",
     ".next-fixture/types/**/*.ts",
     ".next-fixture/dev/types/**/*.ts",
-    "**/*.mts"
+    "**/*.mts",
+    ".next-accounts/types/**/*.ts",
+    ".next-accounts/dev/types/**/*.ts"
   ],
   "exclude": ["node_modules"]
 }

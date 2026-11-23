@@ -24,6 +24,9 @@ settings matter.
 | `AZURE_TRANSLATOR_KEY` | Turns on machine translation on the Translate page. Server-only. Without it the page says machine translation isn't set up and the course dictionary still works. |
 | `AZURE_TRANSLATOR_REGION` | Region of the Azure Translator resource, e.g. `southeastasia`. Server-only. |
 | `NEXT_PUBLIC_ALLOW_INDEXING` | Set to `1` to let search engines index the site. Default: blocked (robots.txt disallows everything and pages are `noindex`). Read at build time: redeploy after changing it. |
+| `NEXT_PUBLIC_SUPABASE_URL` | Supabase project URL. With the next one, turns on optional accounts and cross-device sync. Public. Read at build time. See `docs/ACCOUNTS.md`. |
+| `NEXT_PUBLIC_SUPABASE_ANON_KEY` | The Supabase anon / publishable key (never the service-role key). Public by design: Row Level Security limits it to each user's own rows. Read at build time. |
+| `NEXT_PUBLIC_AUTH_PROVIDERS` | Extra sign-in buttons, comma-separated; `google` is supported once enabled in Supabase. Read at build time. |
 
 `web/.env.example` lists the names with no values. No secrets are committed; set real values only in
 Vercel (or a git-ignored `web/.env.local`). See `docs/TRANSLATE.md` for the translator setup.
@@ -37,7 +40,14 @@ the translator key can be left out of previews.
 
 ## Notes
 
-- Progress is stored in each visitor's browser; the server keeps no user data. See `/privacy` in the app.
+- Progress is stored in each visitor's browser. Without the Supabase variables the server keeps no user
+  data. With them, learners who choose to sign in also get a synced copy in Supabase (see
+  `docs/ACCOUNTS.md` for the setup, and `/privacy` in the app).
+- Set the Supabase variables for **Production** and **Preview** and redeploy. Previews need the preview
+  wildcard in Supabase's redirect URLs (`docs/ACCOUNTS.md`, "Auth settings"); without it, sign-in links
+  from a preview land on the production site.
+- The database schema lives in `supabase/migrations/`; Vercel doesn't run it. Apply new migrations in the
+  Supabase SQL editor or with `npx supabase db push` before deploying code that needs them.
 - Responses carry basic security headers (no sniffing, strict referrer policy, microphone allowed for
   this site only, no framing). There is no script CSP.
 - The offline service worker names its cache after the deployment id, so each deploy refreshes it.

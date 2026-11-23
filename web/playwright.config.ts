@@ -4,10 +4,11 @@ import { defineConfig, devices } from "@playwright/test";
 // End-to-end tests against the production build (`next start`).
 //
 //   npm run test:e2e                 -> builds, starts the app on :3100, runs the tests
-//   E2E_SKIP_BUILD=1 npm run test:e2e -> reuse existing builds (`.next`, `.next-fixture`)
+//   E2E_SKIP_BUILD=1 npm run test:e2e -> reuse existing builds (`.next`, `.next-fixture`, `.next-accounts`)
 //
-// Two servers: :3100 serves the real course (e2e/*.spec.ts), :3101 serves the demo fixture
-// (e2e/fixture.spec.ts, project "fixture").
+// Three servers: :3100 serves the real course (e2e/*.spec.ts), :3101 serves the demo fixture
+// (e2e/fixture.spec.ts, project "fixture"), :3102 serves the real course with accounts turned on
+// via dummy Supabase settings (e2e/accounts.spec.ts, project "accounts"; Supabase is mocked).
 //
 // Browser selection:
 //   PW_CHROME_PATH=/path/to/chrome   -> use that executable
@@ -16,6 +17,8 @@ import { defineConfig, devices } from "@playwright/test";
 const PORT = Number(process.env.E2E_PORT ?? 3100);
 // A second server runs the built-in fixture lesson (new exercise types); see e2e/servers.mjs.
 const FIXTURE_PORT = PORT + 1;
+// A third runs with accounts on (dummy Supabase settings, every Supabase request mocked).
+const ACCOUNTS_PORT = PORT + 2;
 const localChrome = "/usr/bin/google-chrome";
 const executablePath =
   process.env.PW_CHROME_PATH || (fs.existsSync(localChrome) ? localChrome : undefined);
@@ -39,7 +42,7 @@ export default defineConfig({
   projects: [
     {
       name: "chromium",
-      testIgnore: /fixture\.spec\.ts/,
+      testIgnore: /(fixture|accounts)\.spec\.ts/,
       use: {
         ...devices["Desktop Chrome"],
         viewport: { width: 900, height: 900 },
@@ -52,6 +55,16 @@ export default defineConfig({
       use: {
         ...devices["Desktop Chrome"],
         baseURL: `http://localhost:${FIXTURE_PORT}`,
+        viewport: { width: 900, height: 900 },
+        launchOptions: { executablePath, args: ["--no-sandbox"] },
+      },
+    },
+    {
+      name: "accounts",
+      testMatch: /accounts\.spec\.ts/,
+      use: {
+        ...devices["Desktop Chrome"],
+        baseURL: `http://localhost:${ACCOUNTS_PORT}`,
         viewport: { width: 900, height: 900 },
         launchOptions: { executablePath, args: ["--no-sandbox"] },
       },
@@ -71,6 +84,14 @@ export default defineConfig({
       url: `http://localhost:${FIXTURE_PORT}`,
       reuseExistingServer: !process.env.CI,
       timeout: 600_000,
+      stdout: "ignore",
+      stderr: "pipe",
+    },
+    {
+      command: "node e2e/servers.mjs accounts",
+      url: `http://localhost:${ACCOUNTS_PORT}`,
+      reuseExistingServer: !process.env.CI,
+      timeout: 900_000,
       stdout: "ignore",
       stderr: "pipe",
     },

@@ -3,6 +3,7 @@ import type { Metadata, Viewport } from "next";
 import "@fontsource-variable/nunito";
 import "@fontsource-variable/noto-sans-bengali";
 import "./globals.css";
+import { AccountRuntimeSlot } from "@/components/account/slots";
 import { CourseProvider } from "@/components/CourseContext";
 import { OfflineStatus } from "@/components/offline/OfflineStatus";
 import { getCourse } from "@/lib/content";
@@ -44,6 +45,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       <body className="flex min-h-full flex-col font-sans">
         <CourseProvider scriptLessonIds={scriptLessonIds}>{children}</CourseProvider>
         <OfflineStatus />
+        <AccountRuntimeSlot />
       </body>
     </html>
   );

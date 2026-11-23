@@ -7,6 +7,7 @@ import { achievements, bnDigits, compact, profileStats, streakCalendar, xpSeries
 import type { WordIndex } from "@/lib/review/targets";
 import type { ReviewWord } from "@/lib/review/types";
 import type { CourseSummary } from "@/lib/types";
+import { ProfileAccountSlot } from "../account/slots";
 import { AppShell } from "../AppShell";
 import { FlameIcon } from "../icons";
 import { useReviewData } from "../review/useReviewData";
@@ -41,6 +42,7 @@ export function ProfileView({ words, index, course }: { words: ReviewWord[]; ind
     <AppShell>
       <div className={VIZ_VARS}>
         <h1 className="text-3xl font-black">Your progress</h1>
+        <ProfileAccountSlot />
         {!view ? (
           <Skeleton />
         ) : view.stats.isNew ? (
