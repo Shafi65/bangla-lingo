@@ -2,7 +2,9 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import type { ComponentType, ReactNode } from "react";
+import { useEffect, type ComponentType, type ReactNode } from "react";
+import { applyStreakFreezes } from "@/lib/game/storage";
+import { CoinBadge } from "./game/GamePanel";
 import { BookIcon, GearIcon, GuideIcon, PathIcon, RepeatIcon, SearchBookIcon } from "./icons";
 import { useDueCount } from "@/lib/review";
 import { TranslateIcon } from "./translate/TranslateIcon";
@@ -69,6 +71,10 @@ export function AppShell({
 }) {
   const pathname = usePathname();
   const due = useDueCount();
+  // Spend held streak freezes on days missed since the last visit (idempotent).
+  useEffect(() => {
+    applyStreakFreezes();
+  }, []);
 
   return (
     <div className="flex min-h-dvh flex-1 flex-col bg-paper">
@@ -101,6 +107,7 @@ export function AppShell({
             </ul>
           </nav>
           <div className="flex items-center gap-1 min-[400px]:gap-2">
+            <CoinBadge />
             <StreakBadge />
             <Link href="/settings#goal" className="flex h-11 w-11 items-center justify-center rounded-full" aria-label="Daily goal settings">
               <GoalRing size={38} />
@@ -134,7 +141,7 @@ export function AppShell({
           {children}
         </main>
         {aside && (
-          <aside className="sticky top-[calc(var(--header-h)+1.5rem)] hidden w-72 shrink-0 self-start pt-6 lg:block">{aside}</aside>
+          <aside className="sticky top-[calc(var(--header-h)+1.5rem)] hidden max-h-[calc(100dvh-var(--header-h)-1.5rem)] w-72 shrink-0 self-start overflow-y-auto overscroll-contain pt-6 pb-6 lg:block">{aside}</aside>
         )}
       </div>
 

@@ -63,10 +63,10 @@ knows; the app never overwrites it).
 
 | Table | Contents (local key) |
 |---|---|
-| `user_progress` | XP, streak, last active day, finished lessons with scores, daily XP for 60 days (`banglalingo.progress.v1` minus settings) |
+| `user_progress` | XP, streak, last active day, finished lessons with scores, daily XP for 60 days, days covered by a streak freeze (`banglalingo.progress.v1` minus settings) |
 | `user_memory` | Per-word review memory (`banglalingo.memory.v1` words, in a compact array form). Answers still waiting to be mapped to words (`pending`) stay on the device. |
 | `user_settings` | Settings with a change time per key, and the intro answers (`banglalingo.onboarding.v1`) |
-| `user_features` | Formality game (`banglalingo.formality.v1`), handwriting (`banglalingo.write.v1`), speaking self-ratings (`banglalingo.speak.v1`), placement result (`banglalingo.placement.v1`) |
+| `user_features` | Formality game (`banglalingo.formality.v1`), handwriting (`banglalingo.write.v1`), speaking self-ratings (`banglalingo.speak.v1`), placement result (`banglalingo.placement.v1`), coins, streak freezes, today's quests and game counters (`banglalingo.game.v1`, minus the one-off "a freeze saved your streak" notice) |
 
 Not synced: the translation cache, the reviewer tool's notes, the offline hint, the theme mirror key
 (derived from settings), and speaking recordings (never stored or uploaded at all).
@@ -86,7 +86,8 @@ changes nothing), and ties go to `local`, so merging an unchanged copy is always
 | XP | Max of the two totals. (Sums would double-count on every sync.) |
 | Daily XP | Per day, the max of the two; trimmed to 60 days before the latest day. |
 | Last active | The later date. |
-| Streak | Recomputed from the union of active days: days in either daily log, plus the run each side's stored streak vouches for (streak S ending on day L means days L−S+1 … L were active, which keeps streaks longer than the 60-day log). Counted back from the merged last-active day. |
+| Streak | Recomputed from the union of active days: days in either daily log, plus the run each side's stored streak vouches for (streak S ending on day L means the S active days counted back from L, skipping frozen days, which keeps streaks longer than the 60-day log). Counted back from the merged last-active day; a frozen day bridges a gap without counting. |
+| Frozen days | Union of both sides, trimmed like the daily log. |
 | Word memory | Per word, the record with the later `lastSeen` (time of the last graded answer). Ties: more `reps`, then more `lapses`, then this device. |
 | Settings | Last writer wins per key, by the key's change time. Tie: this device. |
 | Intro answers | Finished on either side counts as finished; otherwise this device's. |
@@ -94,6 +95,7 @@ changes nothing), and ties go to `local`, so merging an unchanged copy is always
 | Handwriting | Per letter, the better state (written > traced). |
 | Speaking | Per item, the later rating. Tie: more ratings, then this device. |
 | Placement | The more recent test (`takenAt`). |
+| Game | Coins and freezes are kept as earned / spent / used totals, each the max (so a balance is never double-counted). Today's quests: the later day wins; on the same day, per-quest max progress, and opened on either side counts as opened. Lifetime counters: each the max. |
 
 Signing in on a device with guest progress merges that progress into the account (nothing is lost on
 either side). Signing out keeps local data unless "Also remove progress from this device" is ticked; on a

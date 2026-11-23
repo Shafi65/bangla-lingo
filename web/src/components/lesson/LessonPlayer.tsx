@@ -1,12 +1,15 @@
 "use client";
 
 import Link from "next/link";
+import { AnimatePresence, motion } from "motion/react";
 import { useCallback, useEffect, useMemo, useRef, useState, type ReactNode } from "react";
 import { checkResponse, type Response } from "@/lib/answers";
 import { recordExerciseResult } from "@/lib/memory";
 import { firstTryNeeded, testOutPassed, type TestOutInfo } from "@/lib/checkpoint";
 import { progressStore, todayXp } from "@/lib/progress";
-import { playSfx } from "@/lib/sfx";
+import { playSfx, preloadSfx } from "@/lib/sfx";
+import { recordGameEvent } from "@/lib/game/storage";
+import { COMBO_BONUS_FROM } from "@/lib/game/engine";
 import type { Exercise, Lesson } from "@/lib/types";
 import { BnText } from "@/components/BnText";
 import { ScriptOnlyContext, useIsScriptLesson } from "@/components/CourseContext";
@@ -35,6 +38,9 @@ const XP_PRACTICE = 5;
 const XP_PER_FIRST_TRY = 1;
 
 export type PlayerMode = "lesson" | "practice";
+
+/** Exercises where the learner types the answer (they count for "typed" quests and badges). */
+const isTyped = (ex: Exercise) => ex.type === "type_translation" || (ex.type === "fill_blank" && !ex.options);
 
 export function LessonPlayer({
   lesson,
@@ -99,6 +105,13 @@ function LessonRun({
   const [solved, setSolved] = useState(0);
   const [summary, setSummary] = useState<DoneSummary | null>(null);
   const [outcome, setOutcome] = useState<TestOutOutcome | null>(null);
+  /** Right answers in a row (resets on a miss). */
+  const [combo, setCombo] = useState(0);
+  const [bestCombo, setBestCombo] = useState(0);
+  /** Coins earned by answers during this run (combo bonuses). */
+  const runCoins = useRef(0);
+
+  useEffect(() => preloadSfx(), []);
 
   const [tipOpen, setTipOpen] = useState(false);
   const [footerRef, footerH] = useElementHeight<HTMLElement>(120);
@@ -121,7 +134,14 @@ function LessonRun({
     } catch {
       // memory is best-effort; never break the lesson
     }
-    playSfx(ok ? "correct" : "wrong");
+    const nextCombo = ok ? combo + 1 : 0;
+    setCombo(nextCombo);
+    if (ok) setBestCombo((b) => Math.max(b, nextCombo));
+    playSfx(ok ? (nextCombo >= COMBO_BONUS_FROM && nextCombo % COMBO_BONUS_FROM === 0 ? "combo" : "correct") : "wrong");
+    if (!testOut) {
+      const r = recordGameEvent({ type: "answer", correct: ok, typed: isTyped(ex), combo: nextCombo });
+      runCoins.current += r?.coins ?? 0;
+    }
     if (ok) {
       setSolved((s) => s + 1);
     } else {
@@ -129,7 +149,7 @@ function LessonRun({
       setMissed((m) => new Set(m).add(exIndex));
       setQueue((q) => [...q, exIndex]); // retry at the end
     }
-  }, [response, result, ex, exIndex, lesson.id, mode, testOut]);
+  }, [response, result, ex, exIndex, lesson.id, mode, testOut, combo]);
 
   const advance = useCallback(() => {
     if (result === null) return;
@@ -168,7 +188,9 @@ function LessonRun({
         mode === "practice"
           ? progressStore.recordPractice(xp)
           : progressStore.completeLesson(lesson.id, xp, accuracy);
-      playSfx("complete");
+      const streakGrew = after.streak > before.streak;
+      const game = recordGameEvent({ type: "lesson", mode, xp, perfect: missed.size === 0, streak: after.streak });
+      playSfx(streakGrew && after.streak > 1 ? "streak" : "complete");
       setSummary({
         xp,
         accuracy,
@@ -176,7 +198,11 @@ function LessonRun({
         xpToday: todayXp(after),
         goalJustMet: xpBefore < after.settings.dailyGoal && todayXp(after) >= after.settings.dailyGoal,
         streak: after.streak,
-        streakGrew: after.streak > before.streak,
+        streakGrew,
+        coins: runCoins.current + (game?.coins ?? 0),
+        questsDone: game?.questsDone ?? [],
+        freeFreeze: game?.freeFreeze ?? false,
+        bestCombo,
       });
       setPhase("done");
       return;
@@ -184,7 +210,7 @@ function LessonRun({
     setPos(next);
     setResponse(null);
     setResult(null);
-  }, [result, hearts, pos, queue.length, total, missed.size, mode, lesson.id, testOut]);
+  }, [result, hearts, pos, queue.length, total, missed.size, mode, lesson.id, testOut, bestCombo]);
 
   // Enter = Check / Continue, wherever focus is (except links, text fields
   // and controls that need Enter themselves).
@@ -237,6 +263,7 @@ function LessonRun({
         onExit={onExit}
         onTip={mode === "lesson" && lesson.tip && !testOut ? () => setTipOpen(true) : undefined}
         testOut={!!testOut}
+        combo={combo}
       />
       {tipOpen && lesson.tip && <TipDialog tip={lesson.tip} onClose={() => setTipOpen(false)} />}
 
@@ -252,9 +279,15 @@ function LessonRun({
         )}
         {/* key: remount each queue slot so per-exercise state resets on retries */}
         <div key={pos} className="animate-enter">
-          <LessonEnvContext.Provider value={env}>
-            <ExerciseView {...props} />
-          </LessonEnvContext.Provider>
+          {/* A gentle shake on a wrong answer. */}
+          <motion.div
+            animate={result === false ? { x: [0, -10, 10, -7, 7, -3, 0] } : { x: 0 }}
+            transition={{ duration: 0.45, ease: "easeOut" }}
+          >
+            <LessonEnvContext.Provider value={env}>
+              <ExerciseView {...props} />
+            </LessonEnvContext.Provider>
+          </motion.div>
         </div>
       </main>
 
@@ -321,18 +354,28 @@ function ActionBar({
           {feedback ?? <p className="hidden text-sm font-semibold text-muted sm:block">{hint}</p>}
         </div>
         {result === null ? (
-          <button type="button" className="btn btn-primary w-full sm:w-44" disabled={!canCheck} onClick={onCheck}>
+          <motion.button
+            type="button"
+            className="btn btn-primary w-full sm:w-44"
+            disabled={!canCheck}
+            onClick={onCheck}
+            whileTap={canCheck ? { scale: 0.96 } : undefined}
+          >
             Check
-          </button>
+          </motion.button>
         ) : (
-          <button
+          <motion.button
             type="button"
             autoFocus
             className={`btn w-full sm:w-44 ${result ? "btn-primary" : "btn-danger"}`}
             onClick={onContinue}
+            initial={{ scale: 0.9 }}
+            animate={{ scale: 1 }}
+            transition={{ type: "spring", stiffness: 520, damping: 22 }}
+            whileTap={{ scale: 0.96 }}
           >
             Continue
-          </button>
+          </motion.button>
         )}
       </div>
     </footer>
@@ -413,6 +456,7 @@ function TopBar({
   onExit,
   onTip,
   testOut = false,
+  combo = 0,
 }: {
   hearts: number;
   progress: number;
@@ -420,6 +464,7 @@ function TopBar({
   onExit?: () => void;
   onTip?: () => void;
   testOut?: boolean;
+  combo?: number;
 }) {
   const pct = Math.round(progress * 100);
   return (
@@ -461,9 +506,45 @@ function TopBar({
             Tip
           </button>
         )}
+        <Combo n={combo} />
         <Hearts hearts={hearts} />
       </div>
     </header>
+  );
+}
+
+/** "3 in a row" counter: appears from 3 right answers in a row and pops on each new one. */
+function Combo({ n }: { n: number }) {
+  const hot = n >= COMBO_BONUS_FROM;
+  return (
+    <span className="flex min-w-0 shrink-0 justify-end" aria-live="polite">
+      <AnimatePresence initial={false}>
+        {n >= 3 && (
+          <motion.span
+            key="combo"
+            initial={{ opacity: 0, scale: 0.6 }}
+            animate={{ opacity: 1, scale: 1 }}
+            exit={{ opacity: 0, scale: 0.6 }}
+            transition={{ type: "spring", stiffness: 500, damping: 24 }}
+            className={`flex items-center gap-1 rounded-full px-2.5 py-1 text-sm font-black whitespace-nowrap ${
+              hot ? "bg-sun text-white" : "bg-sun-light text-sun-dark"
+            }`}
+          >
+            <motion.span
+              key={n}
+              initial={{ scale: 1.5, rotate: -8 }}
+              animate={{ scale: 1, rotate: 0 }}
+              transition={{ type: "spring", stiffness: 600, damping: 14 }}
+              className="tabular-nums"
+            >
+              {n}
+            </motion.span>
+            <span className="hidden min-[380px]:inline">in a row</span>
+            <span className="sr-only min-[380px]:hidden">in a row</span>
+          </motion.span>
+        )}
+      </AnimatePresence>
+    </span>
   );
 }
 

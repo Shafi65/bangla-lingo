@@ -7,6 +7,7 @@ import type { WordMemoryState } from "../review/state";
 import { numberUnits } from "../courseSections";
 import type { CourseSummary, Track } from "../types";
 import { addDays, dayDiff, isDateKey, weekdayMon } from "./dates";
+import { EMPTY_STATS, type GameStats } from "../game/engine";
 
 /** The fields of a review-catalog word the profile needs. */
 export interface ProfileWord {
@@ -24,6 +25,8 @@ export interface ProfileInput {
   today: string;
   /** Epoch ms for "now". */
   now: number;
+  /** Lifetime game counters (coins, quests, freezes); absent = none yet. */
+  game?: GameStats;
 }
 
 // ------------------------------------------------------------------ days
@@ -208,12 +211,14 @@ export interface ProfileStats {
   strength: StrengthCounts;
   /** Nothing at all recorded yet. */
   isNew: boolean;
+  /** Lifetime game counters (optional so callers that predate the game layer still type-check). */
+  game?: GameStats;
 }
 
 /** A lesson counts as perfect when its best accuracy is 100 %. */
 export const PERFECT = 0.999;
 
-export function profileStats({ progress: p, memory, words, course, today, now }: ProfileInput): ProfileStats {
+export function profileStats({ progress: p, memory, words, course, today, now, game }: ProfileInput): ProfileStats {
   const learned = learnedWordIds(words, memory, p.completed);
   const units = unitProgress(course, p.completed);
   // Effort-based figures (unit/script achievements) ignore placed lessons.
@@ -243,5 +248,6 @@ export function profileStats({ progress: p, memory, words, course, today, now }:
     scriptTotal,
     strength: strengthCounts(learned, memory, now),
     isNew: p.xp <= 0 && lessonsCompleted === 0 && Object.keys(memory.words).length === 0,
+    game: game ?? EMPTY_STATS,
   };
 }

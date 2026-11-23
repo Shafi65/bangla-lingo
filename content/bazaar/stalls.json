@@ -1,0 +1,458 @@
+{
+  "version": 1,
+  "coinsPerStep": 2,
+  "haggleBonus": 3,
+  "stalls": [
+    {
+      "id": "mangoes",
+      "title": "The fruit stall",
+      "item": "mangoes",
+      "start": 100,
+      "unit": "a kilo",
+      "intro": "Mangoes are piled high. Start by asking the price.",
+      "steps": [
+        {
+          "kind": "choose",
+          "prompt": "Ask how much these mangoes are.",
+          "options": [
+            {
+              "bn": "ভাই, এই আমগুলো কত?",
+              "tr": "bhai, ei amgulo koto?",
+              "en": "Brother, how much are these mangoes?"
+            },
+            {
+              "bn": "ভাংতি আছে?",
+              "tr": "bhangti achhe?",
+              "en": "Do you have change?"
+            },
+            {
+              "bn": "আর কিছু লাগবে?",
+              "tr": "ar kichhu lagbe?",
+              "en": "Do you need anything else?"
+            }
+          ],
+          "answer": 0,
+          "why": "কত (koto) asks \"how much\". ভাই (bhai, brother) is the friendly way to address a stallholder."
+        },
+        {
+          "kind": "listen",
+          "say": {
+            "bn": "একশ টাকা কেজি।",
+            "tr": "eksho taka keji.",
+            "en": "A hundred taka a kilo."
+          },
+          "prompt": "What price did the seller say?",
+          "choices": [
+            "৳100 a kilo",
+            "৳50 a kilo",
+            "৳1,000 a kilo"
+          ],
+          "answer": 0,
+          "why": "একশ (eksho) is one hundred; কেজি (keji) is a kilo."
+        },
+        {
+          "kind": "choose",
+          "prompt": "A hundred is steep. Haggle politely.",
+          "options": [
+            {
+              "bn": "এত দাম কেন? একটু কম রাখেন।",
+              "tr": "eto dam keno? ektu kom rakhen.",
+              "en": "Why so expensive? Please lower it a little."
+            },
+            {
+              "bn": "আচ্ছা, আমাকে দুই কেজি দেন।",
+              "tr": "achchha, amake dui keji den.",
+              "en": "OK, please give me two kilos."
+            },
+            {
+              "bn": "না, লাগবে না, ধন্যবাদ।",
+              "tr": "na, lagbe na, dhonnobad.",
+              "en": "No, I don't need anything, thank you."
+            }
+          ],
+          "answer": 0,
+          "why": "একটু কম রাখেন (ektu kom rakhen) is the polite \"make it a little less\". Haggling at a fruit stall is normal.",
+          "reply": {
+            "bn": "ঠিক আছে, আশি টাকা দেন।",
+            "tr": "thik achhe, ashi taka den.",
+            "en": "OK, give me eighty taka."
+          },
+          "price": 80,
+          "haggle": true
+        }
+      ]
+    },
+    {
+      "id": "sari",
+      "title": "The sari shop",
+      "item": "a sari",
+      "start": 1000,
+      "unit": "",
+      "intro": "A sari catches your eye. The shopkeeper is ready for you.",
+      "steps": [
+        {
+          "kind": "choose",
+          "prompt": "Ask how much this sari is.",
+          "options": [
+            {
+              "bn": "ভাই, এই শাড়িটা কত?",
+              "tr": "bhai, ei sharita koto?",
+              "en": "Brother, how much is this sari?"
+            },
+            {
+              "bn": "আমি জামা কিনব না।",
+              "tr": "ami jama kinbo na.",
+              "en": "I won't buy a shirt."
+            },
+            {
+              "bn": "ভাংতি নেই।",
+              "tr": "bhangti nei.",
+              "en": "I don't have change."
+            }
+          ],
+          "answer": 0,
+          "why": "-টা (-ta) makes it \"the sari\": শাড়িটা (sharita). Point and ask কত?"
+        },
+        {
+          "kind": "listen",
+          "say": {
+            "bn": "এক হাজার টাকা। এটা সবচেয়ে ভালো শাড়ি।",
+            "tr": "ek hajar taka. eta shobcheye bhalo shari.",
+            "en": "A thousand taka. This is the best sari."
+          },
+          "prompt": "What price did the shopkeeper say?",
+          "choices": [
+            "৳1,000",
+            "৳100",
+            "৳500"
+          ],
+          "answer": 0,
+          "why": "হাজার (hajar) is a thousand. সবচেয়ে ভালো (shobcheye bhalo) means \"the best\", a classic sales line."
+        },
+        {
+          "kind": "choose",
+          "prompt": "Ask for a better price.",
+          "options": [
+            {
+              "bn": "দাম একটু কম রাখেন।",
+              "tr": "dam ektu kom rakhen.",
+              "en": "Can you make it a bit less? (polite, to a vendor)"
+            },
+            {
+              "bn": "আপনি কী কিনবেন?",
+              "tr": "apni ki kinben?",
+              "en": "What will you buy? (polite)"
+            },
+            {
+              "bn": "ওই শাড়িটা সবচেয়ে সস্তা।",
+              "tr": "oi sharita shobcheye shosta.",
+              "en": "That sari is the cheapest."
+            }
+          ],
+          "answer": 0,
+          "why": "দাম একটু কম রাখেন (dam ektu kom rakhen): \"keep the price a little lower\". রাখেন is the polite form shopkeepers expect.",
+          "reply": {
+            "bn": "ঠিক আছে, শেষ দাম পাঁচশ টাকা। কিনবেন?",
+            "tr": "thik achhe, shesh dam pa~chsho taka. kinben?",
+            "en": "OK, the final price is five hundred taka. Will you buy it?"
+          },
+          "price": 500,
+          "haggle": true
+        },
+        {
+          "kind": "choose",
+          "prompt": "Say yes, but you don't need a bag.",
+          "options": [
+            {
+              "bn": "হ্যাঁ, কিনব। কিন্তু ব্যাগ লাগবে না।",
+              "tr": "hya~, kinbo. kintu byag lagbe na.",
+              "en": "Yes, I'll buy it. But I don't need a bag."
+            },
+            {
+              "bn": "একটা ব্যাগ দেন।",
+              "tr": "ekta byag den.",
+              "en": "Please give me a bag. (polite)"
+            },
+            {
+              "bn": "খুচরা টাকা আছে?",
+              "tr": "khuchra taka achhe?",
+              "en": "Do you have change?"
+            }
+          ],
+          "answer": 0,
+          "why": "কিনব (kinbo) is \"I will buy\"; লাগবে না (lagbe na) is \"not needed\"."
+        }
+      ]
+    },
+    {
+      "id": "tea",
+      "title": "The tea stall",
+      "item": "a cup of tea",
+      "start": 10,
+      "unit": "",
+      "intro": "Time for a break at the tea stall.",
+      "steps": [
+        {
+          "kind": "choose",
+          "prompt": "Ask how many taka it is.",
+          "options": [
+            {
+              "bn": "কত টাকা?",
+              "tr": "koto taka?",
+              "en": "How many taka? (asking the price)"
+            },
+            {
+              "bn": "আর কিছু লাগবে?",
+              "tr": "ar kichhu lagbe?",
+              "en": "Do you need anything else?"
+            },
+            {
+              "bn": "আমার ব্যাগ লাগবে না।",
+              "tr": "amar byag lagbe na.",
+              "en": "I don't need a bag."
+            }
+          ],
+          "answer": 0,
+          "why": "কত টাকা? (koto taka?) is the shortest way to ask a price."
+        },
+        {
+          "kind": "listen",
+          "say": {
+            "bn": "চা দশ টাকা।",
+            "tr": "cha dosh taka.",
+            "en": "Tea is ten taka."
+          },
+          "prompt": "How much is the tea?",
+          "choices": [
+            "৳10",
+            "৳2",
+            "৳100"
+          ],
+          "answer": 0,
+          "why": "দশ (dosh) is ten."
+        },
+        {
+          "kind": "choose",
+          "prompt": "Ten taka is a fair price. What do you say?",
+          "options": [
+            {
+              "bn": "আমাকে চা দিন।",
+              "tr": "amake cha din.",
+              "en": "Please give me tea. (polite)"
+            },
+            {
+              "bn": "এত দাম কেন?",
+              "tr": "eto dam keno?",
+              "en": "Why is it so expensive?"
+            },
+            {
+              "bn": "দাম অনেক বেশি।",
+              "tr": "dam onek beshi.",
+              "en": "The price is too high."
+            }
+          ],
+          "answer": 0,
+          "why": "Nobody haggles over a cup of tea: the price is already fixed and small. Just order it."
+        }
+      ]
+    },
+    {
+      "id": "vegetables",
+      "title": "The vegetable stall",
+      "item": "tomatoes",
+      "start": 50,
+      "unit": "a kilo",
+      "intro": "Fresh tomatoes, priced by the kilo.",
+      "steps": [
+        {
+          "kind": "choose",
+          "prompt": "Ask how much a kilo of tomatoes is.",
+          "options": [
+            {
+              "bn": "টমেটোর কেজি কত?",
+              "tr": "tometor keji koto?",
+              "en": "How much is a kilo of tomatoes?"
+            },
+            {
+              "bn": "এক ডজন কলা কত?",
+              "tr": "ek dozon kola koto?",
+              "en": "How much is a dozen bananas?"
+            },
+            {
+              "bn": "এক কেজি পেঁয়াজ কত?",
+              "tr": "ek keji pe~yaj koto?",
+              "en": "How much is a kilo of onions?"
+            }
+          ],
+          "answer": 0,
+          "why": "টমেটোর (tometor) is \"of tomatoes\"; কেজি কত? asks the price per kilo."
+        },
+        {
+          "kind": "listen",
+          "say": {
+            "bn": "পঞ্চাশ টাকা।",
+            "tr": "ponchash taka.",
+            "en": "Fifty taka."
+          },
+          "prompt": "What is the price per kilo?",
+          "choices": [
+            "৳50",
+            "৳15",
+            "৳500"
+          ],
+          "answer": 0,
+          "why": "পঞ্চাশ (ponchash) is fifty. Don't mix it up with পাঁচশ (pa~chsho), five hundred."
+        },
+        {
+          "kind": "choose",
+          "prompt": "You only need half a kilo. Ask for it.",
+          "options": [
+            {
+              "bn": "আধা কেজি টমেটো দেন।",
+              "tr": "adha keji tometo den.",
+              "en": "Please give me half a kilo of tomatoes. (polite)"
+            },
+            {
+              "bn": "এক হালি কলা দিন।",
+              "tr": "ek hali kola din.",
+              "en": "Please give me four bananas. (polite)"
+            },
+            {
+              "bn": "আমার পেঁয়াজ লাগবে।",
+              "tr": "amar pe~yaj lagbe.",
+              "en": "I need onions."
+            }
+          ],
+          "answer": 0,
+          "why": "আধা (adha) is half. Half a kilo at fifty a kilo comes to twenty-five.",
+          "price": 25
+        },
+        {
+          "kind": "choose",
+          "prompt": "The seller asks if you need anything else. You don't.",
+          "say": {
+            "bn": "আর কিছু লাগবে?",
+            "tr": "ar kichhu lagbe?",
+            "en": "Do you need anything else?"
+          },
+          "options": [
+            {
+              "bn": "না, লাগবে না, ধন্যবাদ।",
+              "tr": "na, lagbe na, dhonnobad.",
+              "en": "No, I don't need anything, thank you."
+            },
+            {
+              "bn": "ভাই, এটার দাম কত?",
+              "tr": "bhai, etar dam koto?",
+              "en": "Brother, how much is this?"
+            },
+            {
+              "bn": "আমি একটা লুঙ্গি কিনব।",
+              "tr": "ami ekta lunggi kinbo.",
+              "en": "I will buy a lungi."
+            }
+          ],
+          "answer": 0,
+          "why": "লাগবে না (lagbe na): \"won't be needed\". ধন্যবাদ (dhonnobad) is thank you."
+        }
+      ]
+    },
+    {
+      "id": "fish",
+      "title": "The fish market",
+      "item": "a hilsa",
+      "start": 1000,
+      "unit": "",
+      "intro": "The hilsa, Bangladesh's favourite fish, is on ice.",
+      "steps": [
+        {
+          "kind": "choose",
+          "prompt": "Ask the price of the hilsa.",
+          "options": [
+            {
+              "bn": "ইলিশের দাম কত?",
+              "tr": "ilisher dam koto?",
+              "en": "How much is the hilsa?"
+            },
+            {
+              "bn": "মামা, ওই মাছটা দেন।",
+              "tr": "mama, oi machhta den.",
+              "en": "Mama, please give me that fish."
+            },
+            {
+              "bn": "এই কলাগুলো কত?",
+              "tr": "ei kolagulo koto?",
+              "en": "How much are these bananas?"
+            }
+          ],
+          "answer": 0,
+          "why": "ইলিশের দাম (ilisher dam) is \"the hilsa's price\"."
+        },
+        {
+          "kind": "listen",
+          "say": {
+            "bn": "ইলিশ এক হাজার টাকা।",
+            "tr": "ilish ek hajar taka.",
+            "en": "The hilsa is a thousand taka."
+          },
+          "prompt": "How much is the hilsa?",
+          "choices": [
+            "৳1,000",
+            "৳100",
+            "৳200"
+          ],
+          "answer": 0,
+          "why": "এক হাজার (ek hajar) is one thousand."
+        },
+        {
+          "kind": "choose",
+          "prompt": "Push back on the price.",
+          "options": [
+            {
+              "bn": "এটা এত দামি কেন?",
+              "tr": "eta eto dami keno?",
+              "en": "Why is this so expensive?"
+            },
+            {
+              "bn": "ওই জামাটা খুব দামি।",
+              "tr": "oi jamata khub dami.",
+              "en": "That shirt is very expensive."
+            },
+            {
+              "bn": "আমাকে একটা ইলিশ দেন।",
+              "tr": "amake ekta ilish den.",
+              "en": "Please give me a hilsa. (polite)"
+            }
+          ],
+          "answer": 0,
+          "why": "এত দামি কেন? (eto dami keno?) is \"why so expensive?\", the opening move of any haggle."
+        },
+        {
+          "kind": "choose",
+          "prompt": "Offer a final price you're happy with.",
+          "options": [
+            {
+              "bn": "ঠিক আছে, পাঁচশ টাকা রাখেন।",
+              "tr": "thik achhe, pa~chsho taka rakhen.",
+              "en": "OK, make it five hundred taka."
+            },
+            {
+              "bn": "শুধু পঞ্চাশ টাকা।",
+              "tr": "shudhu ponchash taka.",
+              "en": "Only fifty taka."
+            },
+            {
+              "bn": "এটা বিশ টাকা।",
+              "tr": "eta bish taka.",
+              "en": "This is twenty taka."
+            }
+          ],
+          "answer": 0,
+          "why": "…টাকা রাখেন (…taka rakhen), \"keep … taka\", is how a buyer names their price. Fifty for a hilsa would get you laughed out of the market.",
+          "price": 500,
+          "haggle": true
+        }
+      ]
+    }
+  ]
+}

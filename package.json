@@ -15,8 +15,9 @@
     "validate:formality": "node content/scripts/validate-formality.mjs",
     "validate:stories": "node content/scripts/validate-stories.mjs",
     "validate:family": "node content/scripts/validate-family.mjs",
-    "test": "npm run validate && npm run validate:strict && npm run validate:formality && npm run validate:stories && npm run validate:family && npm --prefix web test && npm --prefix web run test:e2e",
+    "test": "npm run validate && npm run validate:strict && npm run validate:formality && npm run validate:stories && npm run validate:family && npm run validate:bazaar && npm --prefix web test && npm --prefix web run test:e2e",
     "test:unit": "npm --prefix web test",
-    "test:e2e": "npm --prefix web run test:e2e"
+    "test:e2e": "npm --prefix web run test:e2e",
+    "validate:bazaar": "node content/scripts/validate-bazaar.mjs"
   }
 }

@@ -9,6 +9,7 @@ import { useFormalityStore } from "@/lib/formality/useFormalityStore";
 import { Intro } from "./Intro";
 import { Question } from "./Question";
 import { Summary } from "./Summary";
+import { recordGameEvent } from "@/lib/game/storage";
 
 interface Round {
   scenarios: FormalityScenario[];
@@ -59,6 +60,7 @@ export function FormalityApp({ bank }: { bank: FormalityBank }) {
     }
     const done = finishRound(bank, store, phase.round.scenarios, results);
     writeStore(done.store);
+    recordGameEvent({ type: "formality", score: results.filter((r) => r.correct).length });
     setPhase({ kind: "summary", round: phase.round, results, newlyUnlocked: done.newlyUnlocked, bestBefore: done.bestBefore });
   };
 

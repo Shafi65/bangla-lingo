@@ -1,12 +1,13 @@
 // Server document formats and tolerant parsers. Everything read from the server is untrusted and
 // goes through the same sanitizers the local stores use, so a bad row can never break the app.
-import { sanitizeCompleted, sanitizeSettings } from "../progress";
+import { sanitizeCompleted, sanitizeFrozen, sanitizeSettings } from "../progress";
 import { sanitizeRecord, type WordRecord } from "../review/scheduler";
 import { parseStore as parseFormality } from "../formality/storage";
 import { sanitize as sanitizeWrite } from "../write/storage";
 import { parseHistory as parseSpeak } from "../speak/history";
 import { parseStoredPlacement } from "../placement/apply";
 import { parseOnboarding } from "../onboarding/storage";
+import { sanitizeGame } from "../game/engine";
 import { isDayKey, SETTING_KEYS, type FeaturesDoc, type ProgressCore, type SettingStamps, type SettingsDoc } from "./merge";
 
 /** Document format written by this app version (the rows' schema_version). */
@@ -51,6 +52,7 @@ export function parseProgressDoc(data: unknown): ProgressCore | null {
     lastActiveDate: isDayKey(data.lastActiveDate) ? data.lastActiveDate : null,
     completed: sanitizeCompleted(data.completed),
     daily,
+    ...(Array.isArray(data.frozen) ? { frozen: sanitizeFrozen(data.frozen) } : {}),
   };
 }
 
@@ -123,5 +125,6 @@ export function parseFeaturesDoc(data: unknown): FeaturesDoc | null {
     write: isObj(data.write) ? sanitizeWrite(data.write) : null,
     speak: isObj(data.speak) ? parseSpeak(JSON.stringify({ items: data.speak })) : null,
     placement: isObj(data.placement) ? parseStoredPlacement(JSON.stringify(data.placement)) : null,
+    ...(isObj(data.game) ? { game: { ...sanitizeGame(data.game), notice: null } } : {}),
   };
 }

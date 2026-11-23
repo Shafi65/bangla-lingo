@@ -1,7 +1,9 @@
 "use client";
 
 import Link from "next/link";
+import { motion } from "motion/react";
 import { useEffect, useId, useRef, useState, type CSSProperties } from "react";
+import { FreezeNotice, QuestCard, WalletCard } from "./game/GamePanel";
 import type { Section } from "@/lib/courseSections";
 import type { CourseSummary, LessonSummary, UnitSummary } from "@/lib/types";
 import {
@@ -57,6 +59,7 @@ export function CourseMap({ course }: { course: CourseSummary }) {
         </p>
       )}
 
+      <FreezeNotice />
       <StreakNudge progress={progress} />
       <SavePromptSlot />
       <DraftNotice className="mb-4" />
@@ -66,6 +69,12 @@ export function CourseMap({ course }: { course: CourseSummary }) {
       ) : (
         <AllDone />
       )}
+
+      {/* Quests and wallet sit in the side column on wide screens. */}
+      <div className="mt-6 flex flex-col gap-4 lg:hidden">
+        <QuestCard />
+        <WalletCard />
+      </div>
 
       <ol aria-label="Course sections" className="mt-10 flex flex-col gap-12">
         {sections.map((s) => (
@@ -237,6 +246,8 @@ function Aside({ anyDone }: { anyDone: boolean }) {
           Change daily goal
         </Link>
       </section>
+      <QuestCard />
+      <WalletCard />
       <section className="card p-5">
         <h2 className="text-lg font-black">Practice</h2>
         <p className="mt-1 mb-4 text-sm font-semibold text-muted">
@@ -304,7 +315,12 @@ function SectionBlock({
 
       <div id={bodyId}>
         {open ? (
-          <ol className="mt-6 flex flex-col gap-12">
+          <motion.ol
+            className="mt-6 flex flex-col gap-12"
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.35, ease: [0.22, 1, 0.36, 1] }}
+          >
             {section.units.map(({ unit, label }) => (
               <li key={unit.id}>
                 {unit.lessons.length === 0 ? (
@@ -320,7 +336,7 @@ function SectionBlock({
                 )}
               </li>
             ))}
-          </ol>
+          </motion.ol>
         ) : (
           <ul className="mt-3 flex flex-col gap-2">
             {section.units.map(({ unit, label }) => {
@@ -667,7 +683,14 @@ function LessonRow({
   const face = <NodeFace lesson={lesson} state={state} script={script} review={review} isNext={isNext} />;
 
   return (
-    <li className="relative" style={{ height: ROW }}>
+    <motion.li
+      className="relative"
+      style={{ height: ROW }}
+      initial={{ opacity: 0, scale: 0.85 }}
+      whileInView={{ opacity: 1, scale: 1 }}
+      viewport={{ once: true, margin: "0px 0px -40px 0px" }}
+      transition={{ type: "spring", stiffness: 300, damping: 24 }}
+    >
       {state === "locked" ? (
         <span id={`lesson-${lesson.id}`} className="absolute" style={pos} role="img" aria-label={a11y}>
           {face}
@@ -709,7 +732,7 @@ function LessonRow({
             <Stars n={stars} />
           ))}
       </div>
-    </li>
+    </motion.li>
   );
 }
 

@@ -10,6 +10,8 @@ import { readSpeakHistory, replaceSpeakHistory, subscribeSpeak } from "../speak/
 import { readStoredPlacement, writeStoredPlacement } from "../placement/apply";
 import { readOnboarding, subscribeOnboarding, writeOnboarding } from "../onboarding/storage";
 import { emptyStore as emptyFormality } from "../formality/engine";
+import { isFreshGame } from "../game/engine";
+import { readGame, replaceGame, subscribeGame } from "../game/storage";
 import {
   encodeWords,
   parseFeaturesDoc,
@@ -54,8 +56,8 @@ export function progressAdapter(store: ProgressStore = progressStore): DocAdapte
   return {
     table: "user_progress",
     read() {
-      const { xp, streak, lastActiveDate, completed, daily } = store.get();
-      return { xp, streak, lastActiveDate, completed, daily };
+      const { xp, streak, lastActiveDate, completed, daily, frozen } = store.get();
+      return { xp, streak, lastActiveDate, completed, daily, ...(frozen.length ? { frozen } : {}) };
     },
     write(next) {
       store.replaceProgress(next);
@@ -188,11 +190,13 @@ export function featuresAdapter(): DocAdapter<FeaturesDoc> {
       const write = readWriteProgress();
       const speak = readSpeakHistory();
       const isFreshFormality = stableStringify(formality) === stableStringify(emptyFormality());
+      const game = readGame();
       return {
         formality: isFreshFormality ? null : formality,
         write: Object.keys(write.letters).length ? write : null,
         speak: Object.keys(speak).length ? speak : null,
         placement: readStoredPlacement(),
+        ...(isFreshGame(game) ? {} : { game }),
       };
     },
     write(next) {
@@ -201,14 +205,16 @@ export function featuresAdapter(): DocAdapter<FeaturesDoc> {
       if (next.write && stableStringify(next.write) !== stableStringify(cur.write)) replaceWriteProgress(next.write);
       if (next.speak && stableStringify(next.speak) !== stableStringify(cur.speak)) replaceSpeakHistory(next.speak);
       if (next.placement && stableStringify(next.placement) !== stableStringify(cur.placement)) writeStoredPlacement(next.placement);
+      if (next.game && stableStringify(next.game) !== stableStringify(cur.game ?? null)) replaceGame(next.game);
     },
-    encode: (v) => v,
+    // The one-off "a freeze saved your streak" notice stays on this device.
+    encode: (v) => (v.game ? { ...v, game: { ...v.game, notice: null } } : v),
     parse: parseFeaturesDoc,
     merge: mergeFeatures,
     subscribe(cb) {
       // The placement result has no listeners of its own; applying it always marks lessons in the
       // progress store, which is watched by the progress adapter (every change syncs every document).
-      const offs = [subscribeFormality(cb), subscribeWrite(cb), subscribeSpeak(cb)];
+      const offs = [subscribeFormality(cb), subscribeWrite(cb), subscribeSpeak(cb), subscribeGame(cb)];
       return () => offs.forEach((off) => off());
     },
   };
