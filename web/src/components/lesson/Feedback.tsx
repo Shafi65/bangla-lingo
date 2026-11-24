@@ -10,10 +10,13 @@ const PRAISE = ["Nicely done", "Correct", "That's it", "Spot on", "Well done"];
 export function Feedback({
   ex,
   correct,
+  typo,
   lessonId,
 }: {
   ex: Exercise;
   correct: boolean;
+  /** Accepted spelling, when the answer counted as right but had a typo. */
+  typo?: string | null;
   /** Lesson the exercise came from (for problem reports). */
   lessonId: string;
 }) {
@@ -30,6 +33,14 @@ export function Feedback({
         <span className="flex-1 text-2xl font-black">{correct ? praise : "Not quite"}</span>
         <ReportButton lessonId={lessonId} exerciseId={exerciseId} />
       </div>
+      {correct && typo && (
+        <p className="rounded-xl bg-surface/75 px-3 py-2 text-base font-semibold text-pretty text-ink">
+          <span className="font-black text-brand-dark">Watch the spelling: </span>
+          <span lang={/[\u0980-\u09FF]/.test(typo) ? "bn" : undefined} className="font-bold">
+            {typo}
+          </span>
+        </p>
+      )}
       {sol && (
         <div className="flex min-w-0 flex-col gap-1">
           {!correct && <div className="font-extrabold">The answer is:</div>}

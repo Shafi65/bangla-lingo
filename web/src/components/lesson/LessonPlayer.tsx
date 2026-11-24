@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { AnimatePresence, motion } from "motion/react";
 import { useCallback, useEffect, useMemo, useRef, useState, type ReactNode } from "react";
-import { checkResponse, type Response } from "@/lib/answers";
+import { checkAnswer, type Response } from "@/lib/answers";
 import { recordExerciseResult } from "@/lib/memory";
 import { firstTryNeeded, testOutPassed, type TestOutInfo } from "@/lib/checkpoint";
 import { progressStore, todayXp } from "@/lib/progress";
@@ -101,6 +101,8 @@ function LessonRun({
   const [hearts, setHearts] = useState(MAX_HEARTS);
   const [response, setResponse] = useState<Response | null>(null);
   const [result, setResult] = useState<boolean | null>(null);
+  /** Accepted spelling when the last answer was right apart from a typo. */
+  const [typo, setTypo] = useState<string | null>(null);
   const [missed, setMissed] = useState<Set<number>>(() => new Set());
   const [solved, setSolved] = useState(0);
   const [summary, setSummary] = useState<DoneSummary | null>(null);
@@ -123,8 +125,10 @@ function LessonRun({
 
   const check = useCallback(() => {
     if (!response || result !== null) return;
-    const ok = checkResponse(ex, response);
+    const checked = checkAnswer(ex, response);
+    const ok = checked.correct;
     setResult(ok);
+    setTypo(checked.typo ?? null);
     // Spaced-review memory. Practice exercises carry "<lessonId>:<exerciseId>"
     // ids; report them under their source lesson and original id. A test-out leaves no trace.
     if (!testOut) try {
@@ -210,6 +214,7 @@ function LessonRun({
     setPos(next);
     setResponse(null);
     setResult(null);
+    setTypo(null);
   }, [result, hearts, pos, queue.length, total, missed.size, mode, lesson.id, testOut, bestCombo]);
 
   // Enter = Check / Continue, wherever focus is (except links, text fields
@@ -305,7 +310,7 @@ function LessonRun({
         }
         feedback={
           result !== null ? (
-            <Feedback ex={ex} correct={result} lessonId={mode === "practice" ? ex.id.split(":")[0] : lesson.id} />
+            <Feedback ex={ex} correct={result} typo={typo} lessonId={mode === "practice" ? ex.id.split(":")[0] : lesson.id} />
           ) : null
         }
         canCheck={!!response}
