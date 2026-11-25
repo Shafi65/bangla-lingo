@@ -5,8 +5,12 @@ import { AnimatePresence, motion } from "motion/react";
 import { useMemo, useState } from "react";
 import { AppShell } from "@/components/AppShell";
 import { SpeakButton } from "@/components/SpeakButton";
-import { useProgress, useWordMemory } from "@/lib/progress";
-import { useNow } from "@/lib/review";
+import { LessonPlayer } from "@/components/lesson/LessonPlayer";
+import { useReviewData } from "@/components/review/useReviewData";
+import { buildSession, sessionTranslit } from "@/lib/review";
+import type { WordIndex } from "@/lib/review/targets";
+import type { ReviewWord } from "@/lib/review/types";
+import type { Lesson } from "@/lib/types";
 import { layoutSky, LEVEL_TEXT, SKY_WIDTH, specks, starDue, starLevel, type PlacedStar, type StarLevel } from "@/lib/stars/sky";
 import type { WriteGroup } from "@/lib/write/letters";
 import { useWriteProgress } from "@/lib/write/storage";
@@ -17,14 +21,15 @@ const FILL: Record<StarLevel, string> = { 0: "#5b6b86", 1: "#cfd8ea", 2: "#ffe08
 /** Four-point sparkle path centred on (0,0). */
 const sparkle = (r: number) => `M0 ${-r * 2.2}Q${r * 0.35} ${-r * 0.35} ${r * 2.2} 0Q${r * 0.35} ${r * 0.35} 0 ${r * 2.2}Q${-r * 0.35} ${r * 0.35} ${-r * 2.2} 0Q${-r * 0.35} ${-r * 0.35} 0 ${-r * 2.2}Z`;
 
-export function NightSky({ groups }: { groups: WriteGroup[] }) {
-  const progress = useProgress();
-  const memory = useWordMemory();
+export function NightSky({ groups, words, index }: { groups: WriteGroup[]; words: ReviewWord[]; index: WordIndex }) {
+  // `now` is 0 on the server and during hydration: every star starts dark, then lights up.
+  const { progress, memory, now: clock, learned } = useReviewData(words, index);
   const write = useWriteProgress();
-  // 0 on the server and during hydration: every star starts dark, then lights up.
-  const clock = useNow();
   const now = clock > 0 ? clock : null;
   const [picked, setPicked] = useState<PlacedStar | null>(null);
+  const [run, setRun] = useState<{ n: number; lesson: Lesson; translit: Record<string, string>; ids: string[] } | null>(null);
+  /** Stars a finished review run just relit: they flash once. */
+  const [relit, setRelit] = useState<Set<string>>(() => new Set());
 
   const { constellations, height } = useMemo(() => layoutSky(groups), [groups]);
   const dust = useMemo(() => specks(height), [height]);
@@ -42,6 +47,29 @@ export function NightSky({ groups }: { groups: WriteGroup[] }) {
   const info = (s: PlacedStar) => states.get(s.letter.id) ?? { level: 0 as StarLevel, due: false };
 
   const pickedInfo = picked ? info(picked) : null;
+  const dueIds = [...states].filter(([, st]) => st.due).map(([id]) => id);
+
+  // "Light the sky": a short review of exactly the flickering letters.
+  const lightTheSky = () => {
+    const { lesson } = buildSession({ words, memory, learned, mode: "mistakes", ids: dueIds, now: Date.now(), rand: Math.random });
+    if (!lesson.exercises.length) return;
+    setRun((r) => ({ n: (r?.n ?? 0) + 1, lesson: { ...lesson, title: "Light the sky" }, translit: sessionTranslit(words, lesson), ids: dueIds }));
+  };
+
+  if (run) {
+    return (
+      <LessonPlayer
+        key={run.n}
+        lesson={run.lesson}
+        mode="practice"
+        translit={run.translit}
+        onExit={() => {
+          setRelit(new Set(run.ids));
+          setRun(null);
+        }}
+      />
+    );
+  }
   const counts = [0, 0, 0, 0];
   for (const st of states.values()) counts[st.level]++;
   const lit = states.size - counts[0];
@@ -53,9 +81,24 @@ export function NightSky({ groups }: { groups: WriteGroup[] }) {
         Every Bengali letter is a star. It lights up when you meet it in a lesson, and shines brighter as you learn it, trace it and write it from memory.
         A star that flickers is due for review.
       </p>
-      <p className="mt-3 font-black text-ink" aria-live="polite">
-        {lit} of {states.size} stars lit · {counts[3]} mastered
-      </p>
+      <div className="mt-3 flex flex-wrap items-center justify-between gap-3">
+        <p className="font-black text-ink" aria-live="polite">
+          {lit} of {states.size} stars lit · {counts[3]} mastered
+        </p>
+        {dueIds.length > 0 && (
+          <motion.button
+            type="button"
+            onClick={lightTheSky}
+            className="btn bg-sun text-white"
+            style={{ boxShadow: "0 4px 0 var(--color-sun-edge)" }}
+            whileTap={{ scale: 0.96 }}
+            animate={{ scale: [1, 1.04, 1] }}
+            transition={{ duration: 1.6, repeat: Infinity }}
+          >
+            Light the sky ({dueIds.length} flickering)
+          </motion.button>
+        )}
+      </div>
 
       <div className="relative mt-4 overflow-hidden rounded-[var(--radius-card)] bg-[#0b1430] shadow-inner" style={{ backgroundImage: "radial-gradient(120% 60% at 50% 0%, #1d2c5c 0%, #0b1430 70%)" }}>
         <svg viewBox={`0 0 ${SKY_WIDTH} ${height}`} className="block w-full" role="group" aria-label="Letter sky">
@@ -111,6 +154,18 @@ export function NightSky({ groups }: { groups: WriteGroup[] }) {
                     <circle r={18} fill="transparent" />
                     <circle className="ring" r={15} fill="none" stroke="#fff" strokeWidth={1.5} opacity={picked?.letter.id === s.letter.id ? 0.9 : 0} />
                     {level >= 2 && <circle r={r * 2.6} fill={FILL[level]} opacity={0.16} />}
+                    {/* A ring that bursts out of a star the last review run relit. */}
+                    {relit.has(s.letter.id) && !due && (
+                      <motion.circle
+                        r={r * 1.5}
+                        fill="none"
+                        stroke="#ffe08a"
+                        strokeWidth={2}
+                        initial={{ scale: 1, opacity: 1 }}
+                        animate={{ scale: 4, opacity: 0 }}
+                        transition={{ duration: 1.2, delay: 0.3 + (i % 10) * 0.08 }}
+                      />
+                    )}
                     <motion.path
                       d={sparkle(r)}
                       fill={FILL[level]}

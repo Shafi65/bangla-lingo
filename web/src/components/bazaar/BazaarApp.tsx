@@ -13,7 +13,10 @@ import { celebrate } from "@/lib/celebrate";
 import { recordGameEvent } from "@/lib/game/storage";
 import { playSfx, preloadSfx } from "@/lib/sfx";
 
-type Phase = { kind: "pick" } | { kind: "play"; stall: Stall; step: number; right: boolean[]; chosen: number | null } | { kind: "done"; stall: Stall; result: StallResult };
+type Phase =
+  | { kind: "pick" }
+  | { kind: "play"; stall: Stall; step: number; right: boolean[]; chosen: number | null }
+  | { kind: "done"; stall: Stall; result: StallResult; marketDay: boolean };
 
 /**
  * Bazaar: a short visit to a market stall. Ask the price, understand the number, haggle (or not),
@@ -40,10 +43,12 @@ export function BazaarApp({ bank }: { bank: BazaarBank }) {
       setPhase({ ...phase, step: phase.step + 1, chosen: null });
       return;
     }
-    const result = scoreStall(bank, phase.stall, phase.right);
-    recordGameEvent({ type: "bazaar", saved: result.saved, coins: result.coins });
+    const scored = scoreStall(bank, phase.stall, phase.right);
+    const game = recordGameEvent({ type: "bazaar", saved: scored.saved, coins: scored.coins });
+    // A market day from the shop doubles the coins; show what was actually paid out.
+    const result = { ...scored, coins: game?.coins ?? scored.coins };
     setVisited((v) => ({ ...v, [phase.stall.id]: result }));
-    setPhase({ kind: "done", stall: phase.stall, result });
+    setPhase({ kind: "done", stall: phase.stall, result, marketDay: !!game?.marketDay });
   };
 
   return (
@@ -103,7 +108,7 @@ export function BazaarApp({ bank }: { bank: BazaarBank }) {
 
         {phase.kind === "done" && (
           <motion.div key="done" initial={{ opacity: 0, scale: 0.96 }} animate={{ opacity: 1, scale: 1 }} exit={{ opacity: 0 }}>
-            <Summary stall={phase.stall} result={phase.result} onAgain={() => start(phase.stall)} onPick={() => setPhase({ kind: "pick" })} />
+            <Summary stall={phase.stall} result={phase.result} marketDay={phase.marketDay} onAgain={() => start(phase.stall)} onPick={() => setPhase({ kind: "pick" })} />
           </motion.div>
         )}
       </AnimatePresence>
@@ -295,7 +300,7 @@ function PriceTag({ price, was, unit }: { price: number | null; was: number | nu
   );
 }
 
-function Summary({ stall, result, onAgain, onPick }: { stall: Stall; result: StallResult; onAgain: () => void; onPick: () => void }) {
+function Summary({ stall, result, marketDay, onAgain, onPick }: { stall: Stall; result: StallResult; marketDay: boolean; onAgain: () => void; onPick: () => void }) {
   const allRight = result.right.every(Boolean);
   useEffect(() => {
     const t = window.setTimeout(() => {
@@ -327,6 +332,7 @@ function Summary({ stall, result, onAgain, onPick }: { stall: Stall; result: Sta
         <CoinIcon />
         <span>
           +<CountUp to={result.coins} delay={0.4} /> taka coins
+          {marketDay && <span className="block text-sm font-bold">Market day: coins doubled</span>}
         </span>
       </p>
       <p className="text-sm font-bold text-muted">

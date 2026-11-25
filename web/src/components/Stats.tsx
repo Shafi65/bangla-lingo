@@ -7,6 +7,8 @@ import {
   useProgress,
 } from "@/lib/progress";
 import { FlameIcon } from "./icons";
+import { lampColor } from "@/lib/game/engine";
+import { useGame } from "@/lib/game/storage";
 
 /** Ring showing today's XP toward the daily goal. */
 export function GoalRing({
@@ -76,6 +78,8 @@ export function GoalRing({
 /** Flame + day count. Hollow with a red dot when the streak is at risk today. */
 export function StreakBadge() {
   const p = useProgress();
+  // An equipped lamp from the shop recolours the flame once today is done.
+  const lamp = lampColor(useGame());
   const n = currentStreak(p);
   const status = streakStatus(p);
   const label =
@@ -89,7 +93,10 @@ export function StreakBadge() {
 
   return (
     <span className={`relative flex items-center gap-1 font-black ${tone}`} role="img" aria-label={label} title={label}>
-      <span className={status === "done" ? "text-sun" : status === "at-risk" ? "text-accent" : "text-line"}>
+      <span
+        className={status === "done" ? "text-sun" : status === "at-risk" ? "text-accent" : "text-line"}
+        style={status === "done" && lamp ? { color: lamp } : undefined}
+      >
         <FlameIcon hollow={status === "at-risk"} />
       </span>
       <span aria-hidden>{n}</span>

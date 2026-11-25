@@ -8,8 +8,8 @@ import { recordExerciseResult } from "@/lib/memory";
 import { firstTryNeeded, testOutPassed, type TestOutInfo } from "@/lib/checkpoint";
 import { progressStore, todayXp } from "@/lib/progress";
 import { playSfx, preloadSfx } from "@/lib/sfx";
-import { recordGameEvent } from "@/lib/game/storage";
-import { COMBO_EVERY } from "@/lib/game/engine";
+import { readGame, recordGameEvent } from "@/lib/game/storage";
+import { boostActive, COMBO_EVERY } from "@/lib/game/engine";
 import type { Exercise, Lesson } from "@/lib/types";
 import { BnText } from "@/components/BnText";
 import { ScriptOnlyContext, useIsScriptLesson } from "@/components/CourseContext";
@@ -184,7 +184,9 @@ function LessonRun({
     }
     if (next >= queue.length) {
       const firstTry = total - missed.size;
-      const xp = (mode === "practice" ? XP_PRACTICE : XP_COMPLETE) + firstTry * XP_PER_FIRST_TRY;
+      // A review boost from the shop doubles practice XP while it runs.
+      const boosted = mode === "practice" && boostActive(readGame(), Date.now());
+      const xp = ((mode === "practice" ? XP_PRACTICE : XP_COMPLETE) + firstTry * XP_PER_FIRST_TRY) * (boosted ? 2 : 1);
       const accuracy = total ? firstTry / total : 1;
       const before = progressStore.get();
       const xpBefore = todayXp(before);
@@ -207,6 +209,8 @@ function LessonRun({
         questsDone: game?.questsDone ?? [],
         freeFreeze: game?.freeFreeze ?? false,
         bestCombo,
+        goalReached: game?.goalReached ?? 0,
+        boosted,
       });
       setPhase("done");
       return;

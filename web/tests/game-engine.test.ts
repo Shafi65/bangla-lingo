@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 import {
   applyEvent,
-  buyFreeze,
+  buy,
   CHEST_COINS,
   chestReady,
   claimChest,
@@ -115,13 +115,13 @@ describe("chest and shop", () => {
   it("sells a freeze for coins, up to the limit", () => {
     let g: GameState = { ...emptyGame(), coinsEarned: FREEZE_PRICE * 3 };
     for (let i = 0; i < MAX_FREEZES; i++) {
-      const r = buyFreeze(g);
+      const r = buy(g, "freeze", 0);
       expect(r.ok).toBe(true);
       if (r.ok) g = r.state;
     }
-    expect(buyFreeze(g)).toEqual({ ok: false, reason: "full" });
+    expect(buy(g, "freeze", 0)).toEqual({ ok: false, reason: "full" });
     expect(coinBalance(g)).toBe(FREEZE_PRICE);
-    expect(buyFreeze({ ...emptyGame(), coinsEarned: FREEZE_PRICE - 1 })).toEqual({ ok: false, reason: "coins" });
+    expect(buy({ ...emptyGame(), coinsEarned: FREEZE_PRICE - 1 }, "freeze", 0)).toEqual({ ok: false, reason: "coins" });
   });
 });
 

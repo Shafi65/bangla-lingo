@@ -95,7 +95,7 @@ changes nothing), and ties go to `local`, so merging an unchanged copy is always
 | Handwriting | Per letter, the better state (written > traced). |
 | Speaking | Per item, the later rating. Tie: more ratings, then this device. |
 | Placement | The more recent test (`takenAt`). |
-| Game | Coins and freezes are kept as earned / spent / used totals, each the max (so a balance is never double-counted). Today's quests: the later day wins; on the same day, per-quest max progress, and opened on either side counts as opened. Lifetime counters: each the max. |
+| Game | Coins and freezes are kept as earned / spent / used totals, each the max (so a balance is never double-counted); market days likewise (bought / used). Today's quests: the later day wins; on the same day, per-quest max progress, and opened on either side counts as opened. Lifetime counters: each the max. Streak goal: kept if either side has one, the later-set one when both do. Owned lamps: union; the lit lamp is this device's if it owns it. Review boost: the later end time. |
 
 Signing in on a device with guest progress merges that progress into the account (nothing is lost on
 either side). Signing out keeps local data unless "Also remove progress from this device" is ticked; on a

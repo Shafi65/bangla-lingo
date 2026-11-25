@@ -3,20 +3,25 @@
 import Link from "next/link";
 import { AnimatePresence, motion } from "motion/react";
 import { useEffect, useId, useRef, useState } from "react";
-import { ChestIcon, CoinIcon, FreezeIcon } from "@/components/icons";
+import { ChestIcon, CoinIcon, FlameIcon, FreezeIcon } from "@/components/icons";
 import { celebrate, originOf } from "@/lib/celebrate";
 import {
+  boostActive,
   CHEST_COINS,
   chestReady,
   coinBalance,
-  FREEZE_EVERY,
-  FREEZE_PRICE,
   freezesHeld,
+  GOAL_COINS,
+  goalChoices,
+  marketDays,
   MAX_FREEZES,
   questDef,
   questDone,
 } from "@/lib/game/engine";
-import { dismissNotice, openChest, purchaseFreeze, refreshQuests, useGame } from "@/lib/game/storage";
+import { commitToStreak, dismissNotice, openChest, refreshQuests, useGame } from "@/lib/game/storage";
+import { streakWeek, type DayMark } from "@/lib/game/streak";
+import { currentStreak, localDateKey, useProgress } from "@/lib/progress";
+import { useNow } from "@/lib/review";
 import { playSfx } from "@/lib/sfx";
 
 /** Today's quests and the chest they open. */
@@ -138,22 +143,15 @@ export function QuestCard({ className = "" }: { className?: string }) {
   );
 }
 
-/** Coin balance and streak freezes, with the freeze shop. */
+/** Coin balance, held freezes and anything running from the shop. */
 export function WalletCard({ className = "" }: { className?: string }) {
   const g = useGame();
   const hid = useId();
-  const [msg, setMsg] = useState<string | null>(null);
+  const now = useNow();
   const balance = coinBalance(g);
   const held = freezesHeld(g);
-  const canBuy = held < MAX_FREEZES && balance >= FREEZE_PRICE;
-
-  const buy = () => {
-    const r = purchaseFreeze();
-    if (r.ok) {
-      playSfx("freeze");
-      setMsg("Streak freeze ready. It is used by itself if you miss a day.");
-    } else setMsg(r.reason === "full" ? `You can hold ${MAX_FREEZES} at a time.` : `You need ${FREEZE_PRICE} coins.`);
-  };
+  const boostMin = now && boostActive(g, now) ? Math.ceil((g.boostUntil - now) / 60_000) : 0;
+  const market = marketDays(g);
 
   return (
     <section className={`card p-5 ${className}`} aria-labelledby={hid}>
@@ -183,24 +181,130 @@ export function WalletCard({ className = "" }: { className?: string }) {
           ))}
         </div>
       </div>
-      <p className="mt-3 text-sm font-semibold text-muted">
-        A streak freeze covers a day you miss. You get one free every {FREEZE_EVERY} days of streak.
-      </p>
-      <motion.button
-        type="button"
-        onClick={buy}
-        disabled={!canBuy}
-        className="btn btn-ghost mt-3 w-full"
-        whileTap={canBuy ? { scale: 0.96 } : undefined}
-      >
-        <FreezeIcon size={20} /> Buy · {FREEZE_PRICE} <CoinIcon size={18} />
-        <span className="sr-only">taka coins for one streak freeze</span>
-      </motion.button>
-      {msg && (
-        <p className="mt-2 text-sm font-bold text-brand-dark" role="status">
-          {msg}
-        </p>
+      {(boostMin > 0 || market > 0) && (
+        <ul className="mt-3 flex flex-wrap gap-2 text-sm font-extrabold">
+          {boostMin > 0 && <li className="chip bg-sun-light text-sun-dark">2× review XP · {boostMin} min left</li>}
+          {market > 0 && <li className="chip bg-brand-light text-brand-dark">Market day ready</li>}
+        </ul>
       )}
+      <Link href="/shop" className="btn btn-ghost mt-4 w-full">
+        Open the shop
+      </Link>
+    </section>
+  );
+}
+
+/** Pick a streak to commit to (the next three lengths above the current streak). */
+export function GoalPicker({ streak, onCommit }: { streak: number; onCommit?: (target: number) => void }) {
+  const choices = goalChoices(streak);
+  const commit = (t: number) => {
+    commitToStreak(t);
+    playSfx("tap");
+    onCommit?.(t);
+  };
+  return (
+    <div className="flex flex-col gap-2">
+      <p className="text-sm font-extrabold text-ink">Commit to a streak goal</p>
+      <div className="grid grid-cols-3 gap-2">
+        {choices.map((t) => (
+          <motion.button
+            key={t}
+            type="button"
+            onClick={() => commit(t)}
+            whileTap={{ scale: 0.95 }}
+            className="flex min-h-14 flex-col items-center justify-center rounded-2xl border-2 border-line-strong bg-surface px-2 py-2 font-black hover:border-sun"
+          >
+            <span className="text-lg text-ink tabular-nums">{t} days</span>
+            <span className="flex items-center gap-0.5 text-xs text-sun-dark">
+              +{GOAL_COINS[t]} <CoinIcon size={14} />
+            </span>
+          </motion.button>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+const MARK_STYLE: Record<DayMark, string> = {
+  done: "bg-sun text-white",
+  frozen: "bg-brand-light text-brand",
+  missed: "border-2 border-dashed border-line-strong text-muted",
+  today: "border-2 border-sun text-sun-dark",
+  none: "bg-sunk text-muted",
+};
+const MARK_TEXT: Record<DayMark, string> = { done: "practised", frozen: "covered by a freeze", missed: "missed", today: "not done yet", none: "before you started" };
+
+/** Streak, the last seven days, and the streak goal. */
+export function StreakCard({ className = "" }: { className?: string }) {
+  const p = useProgress();
+  const g = useGame();
+  const hid = useId();
+  const now = useNow();
+  if (!now) return null;
+  const today = localDateKey(new Date(now));
+  const streak = currentStreak(p, today);
+  const week = streakWeek(p, today);
+  const goal = g.goal;
+
+  return (
+    <section className={`card p-5 ${className}`} aria-labelledby={hid}>
+      <div className="flex items-baseline justify-between gap-2">
+        <h2 id={hid} className="text-lg font-black">
+          {streak > 0 ? `${streak}-day streak` : "Start a streak"}
+        </h2>
+        {g.stats.goalsReached > 0 && <span className="text-xs font-bold text-muted">{g.stats.goalsReached} goals reached</span>}
+      </div>
+      <ol className="mt-3 grid grid-cols-7 gap-1.5" aria-label="The last seven days">
+        {week.map((d, i) => (
+          <li key={d.day} className="flex flex-col items-center gap-1">
+            <span className="text-[0.7rem] font-extrabold text-muted">{d.label.slice(0, 2)}</span>
+            <motion.span
+              className={`flex h-8 w-8 items-center justify-center rounded-full ${MARK_STYLE[d.mark]}`}
+              initial={{ scale: 0.5, opacity: 0 }}
+              animate={{ scale: 1, opacity: 1 }}
+              transition={{ delay: i * 0.04, type: "spring", stiffness: 400, damping: 22 }}
+              role="img"
+              aria-label={`${d.label}: ${MARK_TEXT[d.mark]}`}
+            >
+              {d.mark === "done" ? <FlameIcon size={16} /> : d.mark === "frozen" ? <FreezeIcon size={16} /> : null}
+            </motion.span>
+          </li>
+        ))}
+      </ol>
+      <div className="mt-4">
+        {goal ? (
+          <div>
+            <p className="flex items-baseline justify-between text-sm font-extrabold text-ink">
+              <span>
+                Goal: {goal.target} days
+              </span>
+              <span className="flex items-center gap-0.5 text-sun-dark">
+                +{GOAL_COINS[goal.target]} <CoinIcon size={14} />
+              </span>
+            </p>
+            <span
+              className="mt-1.5 block h-2.5 overflow-hidden rounded-full bg-line"
+              role="progressbar"
+              aria-label={`Streak goal: ${streak} of ${goal.target} days`}
+              aria-valuemin={0}
+              aria-valuemax={goal.target}
+              aria-valuenow={Math.min(streak, goal.target)}
+            >
+              <motion.span
+                className="block h-full rounded-full bg-sun"
+                initial={{ width: 0 }}
+                animate={{ width: `${Math.min(100, (streak / goal.target) * 100)}%` }}
+                transition={{ type: "spring", stiffness: 120, damping: 20, delay: 0.2 }}
+              />
+            </span>
+            <p className="mt-1 text-xs font-bold text-muted">{Math.max(goal.target - streak, 0)} days to go</p>
+          </div>
+        ) : streak > 0 ? (
+          <GoalPicker streak={streak} />
+        ) : (
+          <p className="text-sm font-semibold text-muted">Finish a lesson today to start one.</p>
+        )}
+      </div>
     </section>
   );
 }

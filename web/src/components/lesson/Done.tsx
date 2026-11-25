@@ -2,12 +2,14 @@
 
 import Link from "next/link";
 import { motion } from "motion/react";
-import { useEffect, useRef, type CSSProperties, type ReactNode } from "react";
+import { useEffect, useRef, useState, type CSSProperties, type ReactNode } from "react";
 import { BoltIcon, CoinIcon, FlameIcon, FreezeIcon, StarIcon } from "@/components/icons";
 import { CountUp } from "@/components/motion/CountUp";
 import { ProgressRing } from "@/components/motion/ProgressRing";
 import { celebrate, originOf } from "@/lib/celebrate";
-import { FREEZE_EVERY, questDef } from "@/lib/game/engine";
+import { GoalPicker } from "@/components/game/GamePanel";
+import { FREEZE_EVERY, GOAL_COINS, questDef } from "@/lib/game/engine";
+import { useGame } from "@/lib/game/storage";
 import { lessonStars } from "@/lib/progress";
 import { playSfx } from "@/lib/sfx";
 
@@ -27,6 +29,10 @@ export interface DoneSummary {
   freeFreeze?: boolean;
   /** Longest run of right answers in a row. */
   bestCombo?: number;
+  /** A streak goal reached by this run (its length), or 0. */
+  goalReached?: number;
+  /** XP was doubled by a review boost. */
+  boosted?: boolean;
 }
 
 const PETAL_COLORS = ["#006a4e", "#f42a41", "#ffb300", "#2f9e78"];
@@ -76,8 +82,13 @@ export function Done({
   const pct = Math.round(accuracy * 100);
   const stars = lessonStars({ bestAccuracy: accuracy, completedAt: "", timesCompleted: 1 });
   const toGo = Math.max(goal - xpToday, 0);
-  // Every week of streak gets the big celebration.
-  const milestone = streakGrew && streak % FREEZE_EVERY === 0;
+  const goalReached = summary.goalReached ?? 0;
+  // Every week of streak, and every reached goal, gets the big celebration.
+  const milestone = streakGrew && (streak % FREEZE_EVERY === 0 || goalReached > 0);
+  // Ask for a streak goal while the streak is fresh in mind (the picker hides itself once one is set).
+  const game = useGame();
+  const [committed, setCommitted] = useState(0);
+  const askGoal = streakGrew && !game.goal && !goalReached;
   const medal = useRef<HTMLDivElement>(null);
 
   // Confetti: a small burst for every finish, a big one for a perfect run, a met goal or a streak milestone.
@@ -94,7 +105,7 @@ export function Done({
   }, []);
 
   // Rows animate in one after another; optional rows only take a slot when shown.
-  const slots = [coins > 0, true, true, !!summary.freeFreeze];
+  const slots = [coins > 0, true, true, !!summary.freeFreeze, goalReached > 0];
   const slot = (i: number) => slots.slice(0, i).filter(Boolean).length;
   const firstQuestSlot = slots.filter(Boolean).length;
   return (
@@ -159,6 +170,7 @@ export function Done({
             <CoinIcon />
             <span>
               +<CountUp to={coins} delay={1} duration={0.6} /> taka coins
+              {summary.boosted && <span className="font-semibold"> · XP doubled by your boost</span>}
               {(summary.bestCombo ?? 0) >= 5 && <span className="font-semibold"> · best run {summary.bestCombo} in a row</span>}
             </span>
           </motion.li>
@@ -191,6 +203,12 @@ export function Done({
             {streak} days in a row: you earned a free streak freeze
           </motion.li>
         )}
+        {goalReached > 0 && (
+          <motion.li {...rise(slot(4))} className="flex items-center gap-3 rounded-2xl bg-sun px-4 py-3 text-white">
+            <FlameIcon />
+            Streak goal reached: {goalReached} days! +{GOAL_COINS[goalReached]} coins
+          </motion.li>
+        )}
         {quests.map((q, i) => (
           <motion.li key={q.id} {...rise(firstQuestSlot + i)} className="flex items-center gap-3 rounded-2xl border-2 border-brand/25 px-4 py-3 text-brand-dark">
             <span aria-hidden className="flex h-6 w-6 items-center justify-center rounded-full bg-brand text-sm text-white">✓</span>
@@ -198,6 +216,18 @@ export function Done({
           </motion.li>
         ))}
       </ul>
+
+      {committed > 0 ? (
+        <motion.p initial={{ scale: 0.9, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} className="w-full max-w-sm rounded-2xl bg-sun-light px-4 py-3 font-black text-sun-dark" role="status">
+          Committed: {committed} days. See you tomorrow!
+        </motion.p>
+      ) : (
+        askGoal && (
+          <motion.div {...rise(firstQuestSlot + quests.length)} className="w-full max-w-sm rounded-2xl border-2 border-sun/40 p-4 text-left">
+            <GoalPicker streak={streak} onCommit={setCommitted} />
+          </motion.div>
+        )
+      )}
 
       <div className="flex w-full max-w-sm flex-col gap-3">
         {onExit ? (
