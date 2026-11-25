@@ -5,15 +5,15 @@ import { getAllLessons } from "@/lib/content";
 import type { Exercise } from "@/lib/types";
 
 const bn = (b: string, tr = "x", en = "y") => ({ bn: b, tr, en });
-const ZWJ = "‍";
-const ZWNJ = "‌";
+const ZWJ = "\u200D";
+const ZWNJ = "\u200C";
 
 describe("normalizeBengali", () => {
-  it("removes zero-width joiners so a keyboard's র‍্য matches র্য", () => {
+  it("removes zero-width joiners so a keyboard's র\u200D্য matches র্য", () => {
     expect(answersMatch("র" + ZWJ + "্যাব", "র্যাব")).toBe(true);
   });
   it("removes ZWNJ, zero-width space, word joiner, BOM and soft hyphen", () => {
-    for (const c of [ZWNJ, "​", "⁠", "﻿", "­"]) {
+    for (const c of [ZWNJ, "\u200B", "\u2060", "\uFEFF", "\u00AD"]) {
       expect(answersMatch("ধন্য" + c + "বাদ", "ধন্যবাদ")).toBe(true);
     }
   });

@@ -7,9 +7,9 @@
 // learner's answer is applied here.
 
 /** Zero-width space, non-joiner, joiner, word joiner, byte-order mark, soft hyphen. */
-const INVISIBLE = /[​‌‍⁠﻿­]/g;
-const HASANTA = "্";
-const KHANDA_TA = "ৎ";
+const INVISIBLE = /[\u200B\u200C\u200D\u2060\uFEFF\u00AD]/g;
+const HASANTA = "\u09CD";
+const KHANDA_TA = "\u09CE";
 
 /**
  * Normalise Bengali text for comparison (safe on any text: non-Bengali characters only lose the
@@ -24,15 +24,15 @@ const KHANDA_TA = "ৎ";
 export function normalizeBengali(s: string): string {
   return s
     .normalize("NFC")
-    .replace(/ত্‍/g, KHANDA_TA)
+    .replace(/\u09A4\u09CD\u200D/g, KHANDA_TA)
     .replace(INVISIBLE, "")
-    .replace(/ত্(?![ঀ-৿])/g, KHANDA_TA)
-    .replace(/্{2,}/g, HASANTA)
-    .replace(/([ঁ-ঃ়া-ৌৗ])\1+/g, "$1")
+    .replace(/\u09A4\u09CD(?![\u0980-\u09FF])/g, KHANDA_TA)
+    .replace(/\u09CD{2,}/g, HASANTA)
+    .replace(/([\u0981-\u0983\u09BC\u09BE-\u09CC\u09D7])\1+/g, "$1")
     .normalize("NFC");
 }
 
-const BENGALI = /[ঀ-৿]/;
+const BENGALI = /[\u0980-\u09FF]/;
 
 /** True when the text contains any Bengali-script character. */
 export function hasBengali(s: string): boolean {
