@@ -2,6 +2,7 @@
 import "server-only";
 import { getCourse } from "../content";
 import { getGuideUnits, getLexicon } from "../guide/data";
+import { getWordPages } from "../wordpages/data";
 
 /** Compact entry; optional fields are omitted when empty. */
 export interface DictEntry {
@@ -19,6 +20,8 @@ export interface DictEntry {
   /** Kolkata variant, "bn · tr". */
   k?: string;
   notes?: string;
+  /** Slug of its public word page (/bengali/<s>); letters have none. */
+  s?: string;
 }
 
 export interface DictData {
@@ -36,6 +39,7 @@ export function getDictionary(): DictData {
   const lessons: Record<string, string> = {};
   for (const u of guide) for (const l of u.lessons ?? []) lessons[l.id] = l.title;
 
+  const slugs = new Map(getWordPages().map((p) => [p.id, p.slug]));
   const used = new Set<string>();
   const entries: DictEntry[] = getLexicon().map((e) => {
     used.add(e.pos);
@@ -54,6 +58,7 @@ export function getDictionary(): DictData {
       ...(e.lesson && u >= 0 ? { l: e.lesson } : {}),
       ...(k ? { k } : {}),
       ...(e.notes ? { notes: e.notes } : {}),
+      ...(slugs.has(e.id) ? { s: slugs.get(e.id) } : {}),
     };
   });
   return {

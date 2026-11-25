@@ -24,6 +24,8 @@ settings matter.
 | `AZURE_TRANSLATOR_KEY` | Turns on machine translation on the Translate page. Server-only. Without it the page says machine translation isn't set up and the course dictionary still works. |
 | `AZURE_TRANSLATOR_REGION` | Region of the Azure Translator resource, e.g. `southeastasia`. Server-only. |
 | `NEXT_PUBLIC_ALLOW_INDEXING` | Set to `1` to let search engines index the site. Default: blocked (robots.txt disallows everything and pages are `noindex`). Read at build time: redeploy after changing it. |
+| `NEXT_PUBLIC_INDEX_WORD_PAGES` | Set to `1` to let search engines index only the public word pages (`/bengali` and `/bengali/<word>`, with a sitemap) while the rest of the site stays blocked. Implied by `NEXT_PUBLIC_ALLOW_INDEXING=1`. Read at build time. |
+| `NEXT_PUBLIC_SITE_URL` | Public origin for canonical links, the sitemap and share cards, e.g. `https://example.org`. Default: Vercel's production domain, else `https://bangla-lingo.vercel.app`. Read at build time. |
 | `NEXT_PUBLIC_SUPABASE_URL` | Supabase project URL. With the next one, turns on optional accounts and cross-device sync. Public. Read at build time. See `docs/ACCOUNTS.md`. |
 | `NEXT_PUBLIC_SUPABASE_ANON_KEY` | The Supabase anon / publishable key (never the service-role key). Public by design: Row Level Security limits it to each user's own rows. Read at build time. |
 | `NEXT_PUBLIC_AUTH_PROVIDERS` | Extra sign-in buttons, comma-separated; `google` is supported once enabled in Supabase. Read at build time. |
