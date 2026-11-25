@@ -154,3 +154,29 @@ test("a wrong answer shows the feedback panel and costs a heart", async ({ page 
   await expect(page.getByRole("heading", { name: /lesson complete/i })).toHaveCount(0);
   expect((await progress(page)).xp).toBe(0);
 });
+
+test("a small typo in a typed answer counts as right and shows the correct spelling", async ({ page }) => {
+  await page.addInitScript(() => {
+    localStorage.setItem("banglalingo.onboarding.v1", JSON.stringify({ version: 1, completed: true, skipped: true }));
+  });
+  await startLesson(page);
+  const typed = lesson.exercises.findIndex((e) => e.type === "type_translation");
+  expect(typed).toBeGreaterThanOrEqual(0);
+  const ex = lesson.exercises[typed] as Extract<Ex, { type: "type_translation" }>;
+  const target = ex.accepted.find((a) => a.endsWith("again"));
+  expect(target, "fixture assumption: an accepted answer ends in 'again'").toBeTruthy();
+
+  for (const e of lesson.exercises.slice(0, typed)) {
+    await answerCorrectly(page, e);
+    await page.getByRole("button", { name: /^check$/i }).click();
+    await page.getByRole("button", { name: /^continue$/i }).click();
+  }
+  // "again" -> "agin": one missing letter, not at the start or the ending.
+  await page.getByRole("textbox", { name: /your answer/i }).fill(target!.replace(/again$/, "agin"));
+  await page.getByRole("button", { name: /^check$/i }).click();
+  const status = page.getByRole("status");
+  await expect(status).not.toContainText(/not quite/i);
+  await expect(status).toContainText(/watch the spelling/i);
+  await expect(status).toContainText(target!);
+  await page.screenshot({ path: "node_modules/.cache/typo-feedback.png" });
+});
