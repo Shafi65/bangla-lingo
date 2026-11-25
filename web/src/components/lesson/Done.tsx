@@ -8,7 +8,7 @@ import { CountUp } from "@/components/motion/CountUp";
 import { ProgressRing } from "@/components/motion/ProgressRing";
 import { celebrate, originOf } from "@/lib/celebrate";
 import { GoalPicker } from "@/components/game/GamePanel";
-import { FREEZE_EVERY, GOAL_COINS, questDef } from "@/lib/game/engine";
+import { FREEZE_EVERY, GOAL_COINS, goalChoices, openGoal, questDef } from "@/lib/game/engine";
 import { useGame } from "@/lib/game/storage";
 import { lessonStars } from "@/lib/progress";
 import { playSfx } from "@/lib/sfx";
@@ -88,7 +88,7 @@ export function Done({
   // Ask for a streak goal while the streak is fresh in mind (the picker hides itself once one is set).
   const game = useGame();
   const [committed, setCommitted] = useState(0);
-  const askGoal = streakGrew && !game.goal && !goalReached;
+  const askGoal = streakGrew && !openGoal(game) && !goalReached && goalChoices(streak).length > 0;
   const medal = useRef<HTMLDivElement>(null);
 
   // Confetti: a small burst for every finish, a big one for a perfect run, a met goal or a streak milestone.

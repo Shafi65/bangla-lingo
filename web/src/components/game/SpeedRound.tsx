@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { animate, AnimatePresence, motion } from "motion/react";
+import { animate, AnimatePresence, motion, useReducedMotion } from "motion/react";
 import { useCallback, useEffect, useRef, useState } from "react";
 import { AppShell } from "@/components/AppShell";
 import { CoinIcon } from "@/components/icons";
@@ -57,6 +57,9 @@ export function SpeedRound({ words, index }: { words: ReviewWord[]; index: WordI
   const [clock, setClock] = useState(0);
   const [result, setResult] = useState<{ coins: number; best: boolean } | null>(null);
   const scoreRef = useRef(0);
+  const reduce = useReducedMotion();
+  /** Spoken result of the last tap pair (for screen readers). */
+  const [said, setSaid] = useState("");
   useEffect(() => preloadSfx(), []);
 
   const available = mounted ? words.filter((w) => !w.letter && learned.has(w.id)).length : 0;
@@ -65,6 +68,7 @@ export function SpeedRound({ words, index }: { words: ReviewWord[]; index: WordI
     const queue = speedPool(words, learned, memory.words, Date.now(), Math.random);
     setBoard(deal(queue));
     setPick(null);
+    setSaid("");
     setCombo(0);
     setScore(0);
     scoreRef.current = 0;
@@ -109,8 +113,11 @@ export function SpeedRound({ words, index }: { words: ReviewWord[]; index: WordI
     if (w.id !== board.en[enI].id) {
       setCombo(0);
       playSfx("wrong");
-      for (const el of document.querySelectorAll(`[data-tile="bn-${bnI}"], [data-tile="en-${enI}"]`)) {
-        animate(el, { x: [0, -7, 7, -4, 4, 0] }, { duration: 0.35 });
+      setSaid("Not a match");
+      if (!reduce) {
+        for (const el of document.querySelectorAll(`[data-tile="bn-${bnI}"], [data-tile="en-${enI}"]`)) {
+          animate(el, { x: [0, -7, 7, -4, 4, 0] }, { duration: 0.35 });
+        }
       }
       return;
     }
@@ -118,6 +125,7 @@ export function SpeedRound({ words, index }: { words: ReviewWord[]; index: WordI
     const nextCombo = combo + 1;
     scoreRef.current += points;
     setScore(scoreRef.current);
+    setSaid(`Match: ${w.bn}, ${coreMeaning(w.en)}. ${scoreRef.current} points`);
     setCombo(nextCombo);
     playSfx(multiplier(nextCombo) > multiplier(combo) ? "combo" : "correct");
     // Replace the matched pair: the new word takes the Bengali slot, its meaning a random
@@ -187,6 +195,9 @@ export function SpeedRound({ words, index }: { words: ReviewWord[]; index: WordI
                 {Math.ceil(left / 1000)}s
               </span>
             </div>
+            <p className="sr-only" aria-live="polite">
+              {said}
+            </p>
             <span className="block h-2.5 overflow-hidden rounded-full bg-line" aria-hidden>
               <span className={`block h-full rounded-full ${left < 10_000 ? "bg-accent" : "bg-brand"}`} style={{ width: `${(left / (SPEED_SECONDS * 1000)) * 100}%` }} />
             </span>
@@ -197,21 +208,23 @@ export function SpeedRound({ words, index }: { words: ReviewWord[]; index: WordI
                     const picked = pick?.side === side && pick.i === i;
                     return (
                       <li key={`${side}-${i}`}>
-                        <AnimatePresence mode="popLayout" initial={false}>
-                          <motion.button
+                        {/* The button stays put (so keyboard focus survives a match); only its word changes. */}
+                        <motion.button
+                          data-tile={`${side}-${i}`}
+                          type="button"
+                          aria-pressed={picked}
+                          onClick={() => tap(side, i)}
+                          whileTap={{ scale: 0.95 }}
+                          className={`flex min-h-16 w-full flex-col items-center justify-center rounded-2xl border-2 px-2 py-2 text-center ${
+                            picked ? "border-brand bg-brand-light" : "border-line-strong bg-surface hover:border-brand"
+                          }`}
+                        >
+                          <motion.span
                             key={w.id}
-                            data-tile={`${side}-${i}`}
-                            type="button"
-                            aria-pressed={picked}
-                            onClick={() => tap(side, i)}
+                            className="flex flex-col items-center"
                             initial={{ scale: 0.6, opacity: 0 }}
                             animate={{ scale: 1, opacity: 1 }}
-                            exit={{ scale: 0.6, opacity: 0 }}
                             transition={{ duration: 0.25 }}
-                            whileTap={{ scale: 0.95 }}
-                            className={`flex min-h-16 w-full flex-col items-center justify-center rounded-2xl border-2 px-2 py-2 text-center ${
-                              picked ? "border-brand bg-brand-light" : "border-line-strong bg-surface hover:border-brand"
-                            }`}
                           >
                             {side === "bn" ? (
                               <>
@@ -223,8 +236,8 @@ export function SpeedRound({ words, index }: { words: ReviewWord[]; index: WordI
                             ) : (
                               <span className="font-bold text-ink">{coreMeaning(w.en)}</span>
                             )}
-                          </motion.button>
-                        </AnimatePresence>
+                          </motion.span>
+                        </motion.button>
                       </li>
                     );
                   })}

@@ -13,8 +13,10 @@ import {
   marketDays,
   mergeGame,
   sanitizeGame,
+  openGoal,
   setStreakGoal,
   shopItem,
+  SPEED_DAILY_COINS,
   speedCoins,
   SPEED_MAX_COINS,
   type GameState,
@@ -43,7 +45,8 @@ describe("streak goals", () => {
     expect(g.goal?.target).toBe(7);
     const r = applyEvent(g, lesson(7), DAY, opts);
     expect(r.goalReached).toBe(7);
-    expect(r.state.goal).toBeNull();
+    expect(openGoal(r.state)).toBeNull();
+    expect(r.state.goal?.reached).toBe(true);
     expect(r.state.stats.goalsReached).toBe(1);
     expect(r.coins).toBeGreaterThanOrEqual(GOAL_COINS[7]);
   });
@@ -92,8 +95,8 @@ describe("shop", () => {
 describe("sync of round-2 fields", () => {
   it("sanitizes and merges goals, lamps, boosts and market days", () => {
     expect(sanitizeGame({ v: 1, owned: ["lamp-river", "freeze", 3], lamp: "lamp-leaf" })).toMatchObject({ owned: ["lamp-river"], lamp: null });
-    const a: GameState = { ...emptyGame(), owned: ["lamp-river"], lamp: "lamp-river", boostUntil: 50, marketBought: 2, marketUsed: 1, goal: { target: 14, day: "2026-11-20" } };
-    const b: GameState = { ...emptyGame(), owned: ["lamp-leaf"], lamp: "lamp-leaf", boostUntil: 90, marketBought: 1, marketUsed: 1, goal: { target: 30, day: "2026-11-24" } };
+    const a: GameState = { ...emptyGame(), owned: ["lamp-river"], lamp: "lamp-river", boostUntil: 50, marketBought: 2, marketUsed: 1, goal: { target: 14, day: "2026-11-20", seq: 1 } };
+    const b: GameState = { ...emptyGame(), owned: ["lamp-leaf"], lamp: "lamp-leaf", boostUntil: 90, marketBought: 1, marketUsed: 1, goal: { target: 30, day: "2026-11-24", seq: 2 } };
     const m = mergeGame(a, b);
     expect(m.owned.sort()).toEqual(["lamp-leaf", "lamp-river"]);
     expect(m.lamp).toBe("lamp-river");
@@ -101,6 +104,50 @@ describe("sync of round-2 fields", () => {
     expect(marketDays(m)).toBe(1);
     expect(m.goal?.target).toBe(30);
     expect(mergeGame(m, m)).toEqual(m);
+  });
+});
+
+describe("review fixes: sync can't re-pay or undo", () => {
+  it("a reached goal stays reached when merged with the stale server copy", () => {
+    const server = setStreakGoal(emptyGame(), 7, DAY);
+    const reached = applyEvent(server, lesson(7), DAY, opts).state;
+    const merged = mergeGame(reached, server);
+    expect(openGoal(merged)).toBeNull();
+    expect(applyEvent(merged, lesson(8), DAY, opts).goalReached).toBe(0);
+    // A new goal set later still wins over the reached one.
+    const next = setStreakGoal(merged, 14, DAY);
+    expect(openGoal(mergeGame(merged, next))?.target).toBe(14);
+  });
+
+  it("different purchases on two devices both cost coins", () => {
+    const base = rich(200);
+    const a = buy(base, "lamp-river", 0);
+    const b = buy(base, "boost", 0);
+    if (!a.ok || !b.ok) throw new Error("buy failed");
+    const m = mergeGame(a.state, b.state);
+    expect(coinBalance(m)).toBe(200 - 80 - 40);
+    expect(m.owned).toEqual(["lamp-river"]);
+    // The same lamp bought on both devices is paid once.
+    expect(coinBalance(mergeGame(a.state, a.state))).toBe(120);
+  });
+
+  it("going back to the default lamp survives a sync", () => {
+    const bought = buy(rich(), "lamp-river", 0);
+    if (!bought.ok) throw new Error("buy failed");
+    const local = equipLamp(bought.state, null);
+    expect(mergeGame(local, bought.state).lamp).toBeNull();
+  });
+
+  it("caps speed-round coins per day", () => {
+    let g = emptyGame();
+    let paid = 0;
+    for (let i = 0; i < 5; i++) {
+      const r = applyEvent(g, { type: "speed", score: 400 }, DAY, opts);
+      paid += r.coins;
+      g = r.state;
+    }
+    expect(paid).toBe(SPEED_DAILY_COINS);
+    expect(applyEvent(g, { type: "speed", score: 400 }, "2026-11-26", opts).coins).toBe(SPEED_MAX_COINS);
   });
 });
 

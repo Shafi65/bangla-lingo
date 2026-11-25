@@ -80,7 +80,7 @@ test("the letter sky lights a star for a finished script lesson", async ({ page 
 // ---------------------------------------------------------------- round 2
 
 const today = () => dayKey(new Date());
-const done = (id: string) => ({ completedAt: new Date().toISOString(), bestAccuracy: 1, timesCompleted: 1 });
+const done = () => ({ completedAt: new Date().toISOString(), bestAccuracy: 1, timesCompleted: 1 });
 const game = (over: Record<string, unknown> = {}) => ({ v: 1, coinsEarned: 0, coinsSpent: 0, freezesEarned: 0, freezesUsed: 0, lastFreeFreezeDay: null, today: null, stats: {}, notice: null, ...over });
 
 test("committing to a streak goal shows the goal on the streak card", async ({ page }) => {
@@ -104,11 +104,11 @@ test("the shop sells a review boost and a lamp", async ({ page }) => {
   await expect(lamp.getByRole("button", { name: "Back to marigold" })).toBeVisible();
   const g = await read(page, GAME_KEY);
   expect(g.lamp).toBe("lamp-river");
-  expect(g.coinsSpent).toBe(120);
+  expect(g.spent).toEqual({ boost: 40, "lamp-river": 80 });
 });
 
 test("a speed round deals five pairs and scores a match", async ({ page }) => {
-  await seed(page, { [PROGRESS_KEY]: { version: 1, xp: 45, streak: 1, lastActiveDate: today(), completed: { "u01-l01": done("u01-l01"), "u01-l02": done("u01-l02"), "u01-l03": done("u01-l03") }, daily: {}, settings: {} } });
+  await seed(page, { [PROGRESS_KEY]: { version: 1, xp: 45, streak: 1, lastActiveDate: today(), completed: { "u01-l01": done(), "u01-l02": done(), "u01-l03": done() }, daily: {}, settings: {} } });
   await page.goto("/speed");
   await page.getByRole("button", { name: "Go!" }).click();
   const bn = page.getByRole("list", { name: "Bengali words" }).getByRole("button");
@@ -129,7 +129,7 @@ test("a speed round deals five pairs and scores a match", async ({ page }) => {
 test("the letter sky offers a review of flickering letters", async ({ page }) => {
   const past = Date.now() - 86_400_000;
   await seed(page, {
-    [PROGRESS_KEY]: { version: 1, xp: 15, streak: 1, lastActiveDate: today(), completed: { "s01-l01": done("s01-l01") }, daily: {}, settings: {} },
+    [PROGRESS_KEY]: { version: 1, xp: 15, streak: 1, lastActiveDate: today(), completed: { "s01-l01": done() }, daily: {}, settings: {} },
     "banglalingo.memory.v1": { version: 1, words: { "l-o": { id: "l-o", reps: 2, lapses: 0, stability: 1, difficulty: 5, due: past, lastSeen: past - 86_400_000, run: 1 } }, pending: [] },
   });
   await page.goto("/stars");

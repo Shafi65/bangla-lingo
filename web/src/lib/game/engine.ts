@@ -1,9 +1,10 @@
 // Game layer: taka coins, streak freezes, daily quests and lifetime counters for badges.
 // Pure: no React, no DOM, no clock. Callers pass `today` (local YYYY-MM-DD).
 //
-// Coins are earned by playing (never bought with money) and spent only on streak freezes.
-// Totals are kept as earned / spent / used counters rather than balances, so two devices can be
-// merged with a per-field max without ever double-counting (see mergeGame).
+// Coins are earned by playing (never bought with money) and spent in the shop (SHOP below).
+// Totals are kept as earned / spent / used counters rather than balances, and spending is counted
+// per shop item, so two devices can be merged with a per-field max without double-counting
+// (see mergeGame).
 
 /** Streak freezes a learner can hold at once. */
 export const MAX_FREEZES = 2;
@@ -62,6 +63,8 @@ export interface DayQuests {
   day: string;
   quests: QuestProgress[];
   claimed: boolean;
+  /** Coins paid by speed rounds today (capped by SPEED_DAILY_COINS). */
+  speedCoins?: number;
 }
 
 /** Lifetime counters (for badges and the profile). */
@@ -84,12 +87,20 @@ export interface StreakGoal {
   target: number;
   /** Day it was set. */
   day: string;
+  /** Kept (not deleted) once reached, so a sync can't bring it back as open. */
+  reached?: true;
+  /** Goes up each time a goal is set or reached; the higher one wins a merge. */
+  seq: number;
 }
+
+/** The goal still to reach, if any. */
+export const openGoal = (g: GameState): StreakGoal | null => (g.goal && !g.goal.reached ? g.goal : null);
 
 export interface GameState {
   v: 1;
   coinsEarned: number;
-  coinsSpent: number;
+  /** Coins spent, per shop item id (each merged by max, then summed). */
+  spent: Record<string, number>;
   /** Freezes ever received (free ones and bought ones). */
   freezesEarned: number;
   freezesUsed: number;
@@ -129,7 +140,7 @@ export function emptyGame(): GameState {
   return {
     v: 1,
     coinsEarned: 0,
-    coinsSpent: 0,
+    spent: {},
     freezesEarned: 0,
     freezesUsed: 0,
     lastFreeFreezeDay: null,
@@ -145,7 +156,8 @@ export function emptyGame(): GameState {
   };
 }
 
-export const coinBalance = (g: GameState) => Math.max(0, g.coinsEarned - g.coinsSpent);
+export const coinsSpent = (g: GameState) => Object.values(g.spent).reduce((a, b) => a + b, 0);
+export const coinBalance = (g: GameState) => Math.max(0, g.coinsEarned - coinsSpent(g));
 export const freezesHeld = (g: GameState) => Math.max(0, Math.min(MAX_FREEZES, g.freezesEarned - g.freezesUsed));
 
 // ------------------------------------------------------------------ sanitizing
@@ -165,7 +177,7 @@ function sanitizeDay(v: unknown): DayQuests | null {
     quests.push({ id: q.id, progress: Math.min(count(q.progress), QUEST_BY_ID.get(q.id)!.target) });
   }
   if (!quests.length) return null;
-  return { day: v.day, quests, claimed: v.claimed === true };
+  return { day: v.day, quests, claimed: v.claimed === true, ...(count(v.speedCoins) ? { speedCoins: count(v.speedCoins) } : {}) };
 }
 
 /** Tolerant read of a stored or synced game state; never throws. */
@@ -173,13 +185,20 @@ export function sanitizeGame(v: unknown): GameState {
   const g = emptyGame();
   if (!isObj(v) || v.v !== 1) return g;
   g.coinsEarned = count(v.coinsEarned);
-  g.coinsSpent = Math.min(count(v.coinsSpent), g.coinsEarned);
+  if (isObj(v.spent)) {
+    for (const [id, n] of Object.entries(v.spent)) if (SHOP_BY_ID.has(id) && count(n)) g.spent[id] = count(n);
+  } else if (Math.min(count(v.coinsSpent), g.coinsEarned)) {
+    // Round-1 documents: one total (never more than was earned), and only freezes were for sale.
+    g.spent = { freeze: Math.min(count(v.coinsSpent), g.coinsEarned) };
+  }
   g.freezesEarned = count(v.freezesEarned);
   g.freezesUsed = Math.min(count(v.freezesUsed), g.freezesEarned);
   g.lastFreeFreezeDay = isDay(v.lastFreeFreezeDay) ? v.lastFreeFreezeDay : null;
   g.today = sanitizeDay(v.today);
   if (isObj(v.stats)) for (const k of Object.keys(EMPTY_STATS) as (keyof GameStats)[]) g.stats[k] = count(v.stats[k]);
-  if (isObj(v.goal) && isDay(v.goal.day) && STREAK_GOALS.includes(v.goal.target as number)) g.goal = { target: v.goal.target as number, day: v.goal.day };
+  if (isObj(v.goal) && isDay(v.goal.day) && STREAK_GOALS.includes(v.goal.target as number)) {
+    g.goal = { target: v.goal.target as number, day: v.goal.day, seq: count(v.goal.seq), ...(v.goal.reached === true ? { reached: true as const } : {}) };
+  }
   if (Array.isArray(v.owned)) g.owned = [...new Set(v.owned.filter((id): id is string => typeof id === "string" && SHOP_BY_ID.get(id)?.kind === "lamp"))];
   g.lamp = typeof v.lamp === "string" && g.owned.includes(v.lamp) ? v.lamp : null;
   g.boostUntil = count(v.boostUntil);
@@ -205,7 +224,7 @@ export const goalChoices = (streak: number) => STREAK_GOALS.filter((t) => t > st
 
 export function setStreakGoal(g: GameState, target: number, today: string): GameState {
   if (!STREAK_GOALS.includes(target)) return g;
-  return { ...g, goal: { target, day: today } };
+  return { ...g, goal: { target, day: today, seq: (g.goal?.seq ?? 0) + 1 } };
 }
 
 // ------------------------------------------------------------------ shop
@@ -250,7 +269,7 @@ export function buy(g: GameState, id: string, now: number): ShopResult {
   if (item.kind === "freeze" && freezesHeld(g) >= MAX_FREEZES) return { ok: false, reason: "full" };
   if (item.kind === "lamp" && g.owned.includes(id)) return { ok: false, reason: "owned" };
   if (coinBalance(g) < item.price) return { ok: false, reason: "coins" };
-  const paid = { ...g, coinsSpent: g.coinsSpent + item.price };
+  const paid = { ...g, spent: { ...g.spent, [id]: (g.spent[id] ?? 0) + item.price } };
   switch (item.kind) {
     case "freeze":
       return { ok: true, state: { ...paid, freezesEarned: g.freezesEarned + 1 } };
@@ -327,6 +346,8 @@ export type GameEvent =
 
 /** Coins for a speed round: one per 20 points, at most SPEED_MAX_COINS. */
 export const SPEED_MAX_COINS = 15;
+/** Most coins speed rounds can pay in one day, so replaying them can't outpace lessons. */
+export const SPEED_DAILY_COINS = 30;
 export const speedCoins = (score: number) => Math.min(SPEED_MAX_COINS, Math.floor(Math.max(0, score) / 20));
 
 export interface EventResult {
@@ -402,11 +423,12 @@ export function applyEvent(g0: GameState, e: GameEvent, today: string, opts: { c
         g = { ...g, freezesEarned: g.freezesEarned + 1, lastFreeFreezeDay: today };
         freeFreeze = true;
       }
-      if (g.goal && e.streak >= g.goal.target) {
-        goalReached = g.goal.target;
+      const goal = openGoal(g);
+      if (goal && e.streak >= goal.target) {
+        goalReached = goal.target;
         coins += GOAL_COINS[goalReached] ?? 0;
         stats.goalsReached += 1;
-        g = { ...g, goal: null };
+        g = { ...g, goal: { ...goal, reached: true, seq: goal.seq + 1 } };
       }
       break;
     case "formality":
@@ -429,7 +451,10 @@ export function applyEvent(g0: GameState, e: GameEvent, today: string, opts: { c
       stats.speedRounds += 1;
       newBest = score > stats.speedBest;
       stats.speedBest = Math.max(stats.speedBest, score);
-      coins += speedCoins(score);
+      const paidToday = day.speedCoins ?? 0;
+      const pay = Math.min(speedCoins(score), Math.max(0, SPEED_DAILY_COINS - paidToday));
+      coins += pay;
+      day = { ...day, speedCoins: paidToday + pay };
       track("speed", 1);
       break;
     }
@@ -485,6 +510,7 @@ function mergeDay(a: DayQuests | null, b: DayQuests | null): DayQuests | null {
     day: a.day,
     quests: a.quests.map((q) => ({ id: q.id, progress: Math.max(q.progress, byId.get(q.id) ?? 0) })),
     claimed: a.claimed || b.claimed,
+    ...(a.speedCoins || b.speedCoins ? { speedCoins: Math.max(a.speedCoins ?? 0, b.speedCoins ?? 0) } : {}),
   };
 }
 
@@ -496,20 +522,24 @@ export function mergeGame(local: GameState, remote: GameState): GameState {
   const freezesEarned = Math.max(local.freezesEarned, remote.freezesEarned);
   const lastFree = [local.lastFreeFreezeDay, remote.lastFreeFreezeDay].filter(isDay).sort().pop() ?? null;
   const owned = [...new Set([...local.owned, ...remote.owned])];
+  // Per-item spending, each the max: a device that bought something the other didn't keeps paying for it.
+  const spent: Record<string, number> = { ...local.spent };
+  for (const [id, n] of Object.entries(remote.spent)) spent[id] = Math.max(spent[id] ?? 0, n);
   const marketBought = Math.max(local.marketBought, remote.marketBought);
   return {
     v: 1,
     coinsEarned,
-    coinsSpent: Math.min(Math.max(local.coinsSpent, remote.coinsSpent), coinsEarned),
+    spent,
     freezesEarned,
     freezesUsed: Math.min(Math.max(local.freezesUsed, remote.freezesUsed), freezesEarned),
     lastFreeFreezeDay: lastFree,
     today: mergeDay(local.today, remote.today),
     stats,
-    // Keep a goal if either side has one; when both do, the one set later wins.
-    goal: !local.goal ? remote.goal : !remote.goal ? local.goal : remote.goal.day > local.goal.day ? remote.goal : local.goal,
+    // The goal with the higher sequence number is the newer state (set, or reached).
+    goal: (remote.goal?.seq ?? -1) > (local.goal?.seq ?? -1) ? remote.goal : local.goal,
     owned,
-    lamp: local.lamp && owned.includes(local.lamp) ? local.lamp : remote.lamp,
+    // This device's choice wins, including "back to the default" (null).
+    lamp: local.lamp === null || owned.includes(local.lamp) ? local.lamp : remote.lamp,
     boostUntil: Math.max(local.boostUntil, remote.boostUntil),
     marketBought,
     marketUsed: Math.min(Math.max(local.marketUsed, remote.marketUsed), marketBought),

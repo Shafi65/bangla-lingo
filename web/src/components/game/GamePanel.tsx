@@ -14,6 +14,7 @@ import {
   GOAL_COINS,
   goalChoices,
   marketDays,
+  openGoal,
   MAX_FREEZES,
   questDef,
   questDone,
@@ -197,6 +198,7 @@ export function WalletCard({ className = "" }: { className?: string }) {
 /** Pick a streak to commit to (the next three lengths above the current streak). */
 export function GoalPicker({ streak, onCommit }: { streak: number; onCommit?: (target: number) => void }) {
   const choices = goalChoices(streak);
+  if (!choices.length) return null; // past the longest goal: nothing left to commit to
   const commit = (t: number) => {
     commitToStreak(t);
     playSfx("tap");
@@ -244,7 +246,7 @@ export function StreakCard({ className = "" }: { className?: string }) {
   const today = localDateKey(new Date(now));
   const streak = currentStreak(p, today);
   const week = streakWeek(p, today);
-  const goal = g.goal;
+  const goal = openGoal(g);
 
   return (
     <section className={`card p-5 ${className}`} aria-labelledby={hid}>
@@ -299,7 +301,7 @@ export function StreakCard({ className = "" }: { className?: string }) {
             </span>
             <p className="mt-1 text-xs font-bold text-muted">{Math.max(goal.target - streak, 0)} days to go</p>
           </div>
-        ) : streak > 0 ? (
+        ) : streak > 0 && goalChoices(streak).length ? (
           <GoalPicker streak={streak} />
         ) : (
           <p className="text-sm font-semibold text-muted">Finish a lesson today to start one.</p>

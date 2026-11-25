@@ -117,6 +117,7 @@ export function Shop() {
                   <span className="sr-only">taka coins</span>
                 </motion.button>
               )}
+              {!owned && balance < item.price && <p className="text-sm font-bold text-muted">{item.price - balance} more coins needed</p>}
               {msg?.id === item.id && (
                 <p className={`text-sm font-bold ${msg.ok ? "text-brand-dark" : "text-accent-dark"}`} role="status">
                   {msg.text}
