@@ -364,6 +364,8 @@ export interface EventResult {
   marketDay?: boolean;
   /** A speed round beat the personal best. */
   newBest?: boolean;
+  /** A speed round earned less than its score was worth because today's cap was reached. */
+  capped?: boolean;
 }
 
 function bump(d: DayQuests, kind: QuestKind, by: number, absolute = false): { day: DayQuests; done: string[] } {
@@ -390,6 +392,7 @@ export function applyEvent(g0: GameState, e: GameEvent, today: string, opts: { c
   let goalReached = 0;
   let marketDay = false;
   let newBest = false;
+  let capped = false;
   const track = (kind: QuestKind, by: number, absolute = false) => {
     const r = bump(day, kind, by, absolute);
     day = r.day;
@@ -453,6 +456,7 @@ export function applyEvent(g0: GameState, e: GameEvent, today: string, opts: { c
       stats.speedBest = Math.max(stats.speedBest, score);
       const paidToday = day.speedCoins ?? 0;
       const pay = Math.min(speedCoins(score), Math.max(0, SPEED_DAILY_COINS - paidToday));
+      capped = pay < speedCoins(score);
       coins += pay;
       day = { ...day, speedCoins: paidToday + pay };
       track("speed", 1);
@@ -468,6 +472,7 @@ export function applyEvent(g0: GameState, e: GameEvent, today: string, opts: { c
     goalReached,
     marketDay,
     newBest,
+    capped,
   };
 }
 
@@ -514,6 +519,18 @@ function mergeDay(a: DayQuests | null, b: DayQuests | null): DayQuests | null {
   };
 }
 
+/**
+ * The newer of two goal states: higher sequence number (set and reached both raise it), then the
+ * later day, then the longer target, so every device picks the same one.
+ */
+function newerGoal(a: StreakGoal | null, b: StreakGoal | null): StreakGoal | null {
+  if (!a || !b) return a ?? b;
+  const rank = (g: StreakGoal) => [g.seq, g.day, g.target, g.reached ? 1 : 0] as const;
+  const [ra, rb] = [rank(a), rank(b)];
+  for (let i = 0; i < ra.length; i++) if (ra[i] !== rb[i]) return ra[i] > rb[i] ? a : b;
+  return a;
+}
+
 /** Merge this device's game state with the server copy (rules in lib/sync/merge.ts). */
 export function mergeGame(local: GameState, remote: GameState): GameState {
   const stats = { ...local.stats };
@@ -535,8 +552,7 @@ export function mergeGame(local: GameState, remote: GameState): GameState {
     lastFreeFreezeDay: lastFree,
     today: mergeDay(local.today, remote.today),
     stats,
-    // The goal with the higher sequence number is the newer state (set, or reached).
-    goal: (remote.goal?.seq ?? -1) > (local.goal?.seq ?? -1) ? remote.goal : local.goal,
+    goal: newerGoal(local.goal, remote.goal),
     owned,
     // This device's choice wins, including "back to the default" (null).
     lamp: local.lamp === null || owned.includes(local.lamp) ? local.lamp : remote.lamp,

@@ -9,6 +9,7 @@ import { CountUp } from "@/components/motion/CountUp";
 import { useReviewData } from "@/components/review/useReviewData";
 import { celebrate } from "@/lib/celebrate";
 import { matchPoints, multiplier, nextWord, SPEED_MIN_WORDS, SPEED_PAIRS, SPEED_SECONDS, speedPool } from "@/lib/game/speed";
+import { SPEED_DAILY_COINS } from "@/lib/game/engine";
 import { recordGameEvent, useGame } from "@/lib/game/storage";
 import { coreMeaning } from "@/lib/review/session";
 import type { WordIndex } from "@/lib/review/targets";
@@ -55,11 +56,11 @@ export function SpeedRound({ words, index }: { words: ReviewWord[]; index: WordI
   const [score, setScore] = useState(0);
   const [endAt, setEndAt] = useState(0);
   const [clock, setClock] = useState(0);
-  const [result, setResult] = useState<{ coins: number; best: boolean } | null>(null);
+  const [result, setResult] = useState<{ coins: number; best: boolean; capped: boolean } | null>(null);
   const scoreRef = useRef(0);
   const reduce = useReducedMotion();
-  /** Spoken result of the last tap pair (for screen readers). */
-  const [said, setSaid] = useState("");
+  /** Result of the last tap pair, for screen readers; `n` changes every time so repeats are read too. */
+  const [said, setSaid] = useState<{ n: number; match?: ReviewWord; score: number } | null>(null);
   useEffect(() => preloadSfx(), []);
 
   const available = mounted ? words.filter((w) => !w.letter && learned.has(w.id)).length : 0;
@@ -68,7 +69,7 @@ export function SpeedRound({ words, index }: { words: ReviewWord[]; index: WordI
     const queue = speedPool(words, learned, memory.words, Date.now(), Math.random);
     setBoard(deal(queue));
     setPick(null);
-    setSaid("");
+    setSaid(null);
     setCombo(0);
     setScore(0);
     scoreRef.current = 0;
@@ -81,7 +82,7 @@ export function SpeedRound({ words, index }: { words: ReviewWord[]; index: WordI
   const finish = useCallback(() => {
     setPhase("over");
     const r = recordGameEvent({ type: "speed", score: scoreRef.current });
-    setResult({ coins: r?.coins ?? 0, best: !!r?.newBest && scoreRef.current > 0 });
+    setResult({ coins: r?.coins ?? 0, best: !!r?.newBest && scoreRef.current > 0, capped: !!r?.capped });
     playSfx(r?.newBest ? "streak" : "complete");
     if (r?.newBest && scoreRef.current > 0) celebrate("big");
   }, []);
@@ -113,7 +114,7 @@ export function SpeedRound({ words, index }: { words: ReviewWord[]; index: WordI
     if (w.id !== board.en[enI].id) {
       setCombo(0);
       playSfx("wrong");
-      setSaid("Not a match");
+      setSaid((x) => ({ n: (x?.n ?? 0) + 1, score: scoreRef.current }));
       if (!reduce) {
         for (const el of document.querySelectorAll(`[data-tile="bn-${bnI}"], [data-tile="en-${enI}"]`)) {
           animate(el, { x: [0, -7, 7, -4, 4, 0] }, { duration: 0.35 });
@@ -125,7 +126,7 @@ export function SpeedRound({ words, index }: { words: ReviewWord[]; index: WordI
     const nextCombo = combo + 1;
     scoreRef.current += points;
     setScore(scoreRef.current);
-    setSaid(`Match: ${w.bn}, ${coreMeaning(w.en)}. ${scoreRef.current} points`);
+    setSaid((x) => ({ n: (x?.n ?? 0) + 1, match: w, score: scoreRef.current }));
     setCombo(nextCombo);
     playSfx(multiplier(nextCombo) > multiplier(combo) ? "combo" : "correct");
     // Replace the matched pair: the new word takes the Bengali slot, its meaning a random
@@ -196,7 +197,17 @@ export function SpeedRound({ words, index }: { words: ReviewWord[]; index: WordI
               </span>
             </div>
             <p className="sr-only" aria-live="polite">
-              {said}
+              {said && (
+                <span key={said.n}>
+                  {said.match ? (
+                    <>
+                      Match: <span lang="bn">{said.match.bn}</span>, {coreMeaning(said.match.en)}. {said.score} points
+                    </>
+                  ) : (
+                    "Not a match"
+                  )}
+                </span>
+              )}
             </p>
             <span className="block h-2.5 overflow-hidden rounded-full bg-line" aria-hidden>
               <span className={`block h-full rounded-full ${left < 10_000 ? "bg-accent" : "bg-brand"}`} style={{ width: `${(left / (SPEED_SECONDS * 1000)) * 100}%` }} />
@@ -259,6 +270,9 @@ export function SpeedRound({ words, index }: { words: ReviewWord[]; index: WordI
                 <CoinIcon />
                 <span>+{result.coins} taka coins</span>
               </p>
+            )}
+            {result?.capped && (
+              <p className="text-sm font-bold text-muted">Today&apos;s speed-round coins are used up ({SPEED_DAILY_COINS}). Play for fun, or come back tomorrow.</p>
             )}
             <div className="flex w-full max-w-sm flex-col gap-3">
               <button type="button" autoFocus onClick={start} className="btn btn-primary w-full">

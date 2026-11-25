@@ -119,6 +119,13 @@ describe("review fixes: sync can't re-pay or undo", () => {
     expect(openGoal(mergeGame(merged, next))?.target).toBe(14);
   });
 
+  it("two devices with the same goal version agree on one goal", () => {
+    const a = { ...emptyGame(), goal: { target: 7, day: "2026-11-20", seq: 2, reached: true as const } };
+    const b = { ...emptyGame(), goal: { target: 14, day: "2026-11-22", seq: 2 } };
+    expect(mergeGame(a, b).goal).toEqual(b.goal);
+    expect(mergeGame(b, a).goal).toEqual(b.goal);
+  });
+
   it("different purchases on two devices both cost coins", () => {
     const base = rich(200);
     const a = buy(base, "lamp-river", 0);
@@ -147,6 +154,7 @@ describe("review fixes: sync can't re-pay or undo", () => {
       g = r.state;
     }
     expect(paid).toBe(SPEED_DAILY_COINS);
+    expect(applyEvent(g, { type: "speed", score: 400 }, DAY, opts).capped).toBe(true);
     expect(applyEvent(g, { type: "speed", score: 400 }, "2026-11-26", opts).coins).toBe(SPEED_MAX_COINS);
   });
 });
