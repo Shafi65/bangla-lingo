@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 import {
   applyEvent,
-  buyFreeze,
+  buy,
   CHEST_COINS,
   chestReady,
   claimChest,
@@ -115,13 +115,13 @@ describe("chest and shop", () => {
   it("sells a freeze for coins, up to the limit", () => {
     let g: GameState = { ...emptyGame(), coinsEarned: FREEZE_PRICE * 3 };
     for (let i = 0; i < MAX_FREEZES; i++) {
-      const r = buyFreeze(g);
+      const r = buy(g, "freeze", 0);
       expect(r.ok).toBe(true);
       if (r.ok) g = r.state;
     }
-    expect(buyFreeze(g)).toEqual({ ok: false, reason: "full" });
+    expect(buy(g, "freeze", 0)).toEqual({ ok: false, reason: "full" });
     expect(coinBalance(g)).toBe(FREEZE_PRICE);
-    expect(buyFreeze({ ...emptyGame(), coinsEarned: FREEZE_PRICE - 1 })).toEqual({ ok: false, reason: "coins" });
+    expect(buy({ ...emptyGame(), coinsEarned: FREEZE_PRICE - 1 }, "freeze", 0)).toEqual({ ok: false, reason: "coins" });
   });
 });
 
@@ -168,19 +168,21 @@ describe("sanitize and merge", () => {
     expect(sanitizeGame(null)).toEqual(emptyGame());
     expect(sanitizeGame({ v: 1, coinsEarned: -5, coinsSpent: 99, today: { day: "x" } })).toEqual(emptyGame());
     const g = sanitizeGame({ v: 1, coinsEarned: 10, coinsSpent: 20, today: { day: DAY, quests: [{ id: "nope" }, { id: "xp-20", progress: 999 }] } });
-    expect(g.coinsSpent).toBe(10);
+    // A round-1 total becomes freeze spending; the balance never goes below zero.
+    expect(g.spent).toEqual({ freeze: 10 });
+    expect(coinBalance(g)).toBe(0);
     expect(g.today?.quests).toEqual([{ id: "xp-20", progress: 20 }]);
   });
 
   it("merges two devices without double-counting", () => {
-    const a: GameState = { ...gameWithQuests(["xp-20", "combo-5"]), coinsEarned: 50, coinsSpent: 0, stats: { ...emptyGame().stats, bestCombo: 4 } };
+    const a: GameState = { ...gameWithQuests(["xp-20", "combo-5"]), coinsEarned: 50, spent: {}, stats: { ...emptyGame().stats, bestCombo: 4 } };
     a.today!.quests[0].progress = 15;
-    const b: GameState = { ...gameWithQuests(["xp-20", "combo-5"]), coinsEarned: 40, coinsSpent: FREEZE_PRICE / 2, freezesEarned: 1, stats: { ...emptyGame().stats, bestCombo: 7 } };
+    const b: GameState = { ...gameWithQuests(["xp-20", "combo-5"]), coinsEarned: 40, spent: { freeze: FREEZE_PRICE / 2 }, freezesEarned: 1, stats: { ...emptyGame().stats, bestCombo: 7 } };
     b.today!.quests[1].progress = 5;
     b.today!.claimed = true;
     const m = mergeGame(a, b);
     expect(m.coinsEarned).toBe(50);
-    expect(m.coinsSpent).toBe(30);
+    expect(m.spent).toEqual({ freeze: 30 });
     expect(m.freezesEarned).toBe(1);
     expect(m.stats.bestCombo).toBe(7);
     expect(m.today?.quests).toEqual([{ id: "xp-20", progress: 15 }, { id: "combo-5", progress: 5 }]);

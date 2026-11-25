@@ -5,9 +5,10 @@ A free, gamified course for English speakers learning Bengali (বাংলা):
 **Features**
 - Course map with interleaved vocabulary and alphabet units
 - Lessons with nine exercise types, plus hearts, XP, streaks and a daily goal
-- Game layer: daily quests with a reward box, taka coins (earned by playing, never bought), streak freezes, a "right in a row" combo counter, animated celebrations and original sound effects
+- Game layer: daily quests with a reward box, taka coins (earned by playing, never bought), streak freezes, streak goals and a 7-day streak calendar, a coin shop (freezes, a review boost, market days, streak-lamp colours), a "right in a row" combo counter, animated celebrations and original sound effects
+- Speed round: 60 seconds to match learned words, weighted towards words due for review
 - The bazaar: a haggling mini-game built only from sentences the course teaches
-- The letter sky: every Bengali letter is a star that brightens as you master it
+- The letter sky: every Bengali letter is a star that brightens as you master it; one tap reviews the flickering (due) ones
 - Smart review that brings back words you are about to forget
 - Guide, dictionary and a translate page (English, Bengali script or Roman letters)
 - Placement test to find your starting point

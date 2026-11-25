@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { motion } from "motion/react";
 import { useEffect, useId, useMemo, useRef, useState, type CSSProperties } from "react";
-import { FreezeNotice, QuestCard, WalletCard } from "./game/GamePanel";
+import { FreezeNotice, QuestCard, StreakCard, WalletCard } from "./game/GamePanel";
 import type { Section } from "@/lib/courseSections";
 import type { CourseSummary, LessonSummary, UnitSummary } from "@/lib/types";
 import {
@@ -73,6 +73,7 @@ export function CourseMap({ course, storyIds = [] }: { course: CourseSummary; /*
 
       {/* Quests and wallet sit in the side column on wide screens. */}
       <div className="mt-6 flex flex-col gap-4 lg:hidden">
+        <StreakCard />
         <QuestCard />
         <WalletCard />
       </div>
@@ -248,6 +249,7 @@ function Aside({ anyDone }: { anyDone: boolean }) {
           Change daily goal
         </Link>
       </section>
+      <StreakCard />
       <QuestCard />
       <WalletCard />
       <section className="card p-5">

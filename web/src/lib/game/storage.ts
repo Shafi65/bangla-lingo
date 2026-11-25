@@ -4,18 +4,20 @@ import { useSyncExternalStore } from "react";
 import { freezePlan, localDateKey, progressStore, type ProgressState } from "../progress";
 import {
   applyEvent,
-  buyFreeze,
+  buy,
   claimChest,
   clearNotice,
   emptyGame,
   ensureToday,
+  equipLamp,
   freezesHeld,
+  setStreakGoal,
   sanitizeGame,
   spendFreezes,
-  type BuyResult,
   type EventResult,
   type GameEvent,
   type GameState,
+  type ShopResult,
 } from "./engine";
 
 export const GAME_KEY = "banglalingo.game.v1";
@@ -99,10 +101,19 @@ export function openChest(): number {
   return r.coins;
 }
 
-export function purchaseFreeze(): BuyResult {
-  const r = buyFreeze(readGame());
+/** Buy a shop item (see SHOP in engine.ts). */
+export function purchase(id: string): ShopResult {
+  const r = buy(readGame(), id, Date.now());
   if (r.ok) writeGame(r.state);
   return r;
+}
+
+export function lightLamp(id: string | null): void {
+  writeGame(equipLamp(readGame(), id));
+}
+
+export function commitToStreak(target: number, today = localDateKey()): void {
+  writeGame(setStreakGoal(readGame(), target, today));
 }
 
 /**

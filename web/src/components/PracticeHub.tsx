@@ -231,6 +231,7 @@ const MORE_PRACTICE = [
   { href: "/write", title: "Write the letters", body: "Trace each Bengali letter with your finger or mouse." },
   { href: "/stories", title: "Stories", body: "Short stories with audio. Tap any word to see what it means." },
   { href: "/family", title: "My family", body: "Build your family tree and learn what to call each relative." },
+  { href: "/speed", title: "Speed round", body: "Sixty seconds to match as many words as you can." },
   { href: "/bazaar", title: "The bazaar", body: "Ask the price, catch the number and haggle for taka coins." },
   { href: "/stars", title: "The letter sky", body: "Every letter is a star that brightens as you master it." },
 ];
