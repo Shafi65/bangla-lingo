@@ -53,10 +53,17 @@ All optional; a unit without them is a **beginner** unit in **section 1** with n
 | field | on | meaning |
 |---|---|---|
 | `level` | unit | `"beginner"` (default) or `"intermediate"`. Intermediate units get the intermediate rules (see LESSON_PIPELINE.md), the intermediate generator recipe and the intermediate audit targets; the course map marks them with an "Intermediate" badge and numbers main units per level. |
+| `strand` | unit | Optional, only `"reading"`: marks a unit of the **Reading track** (below). Such a unit keeps `"track": "main"` and `"level": "intermediate"`, because its lessons are ordinary main-track lessons (same folder, exercise types and intermediate rules); `strand` only sets where it sits in the course. Ids of reading units are `r01-…`, `r02-…`, and only they carry the strand (validated). |
 | `sections` | course | `[{ "id": <positive integer>, "title": "…" }]`. When present, the course map groups units under these titles (a header per section) instead of its built-in grouping. Section ids must be unique. |
 | `section` | unit | A section `id` (default 1). It must be listed in `sections` when `sections` exists. Units stay in `course.json` order within their section. |
 | `assumes` | unit | Names of `content/assumed/<name>.json` lists (below). Their words count as already taught for this unit. Not for script units. |
 | `scriptOnly` | unit | Default for the unit's lessons (see below); a lesson's own `scriptOnly` wins. |
+
+### Reading track — `"strand": "reading"`
+Chosen over a new `track` value so that every main-track rule, loader and exercise type keeps working unchanged, and over reading the section number so that the rule does not depend on which section a unit sits in. Effects:
+- **Vocabulary** (enforced by `npm run validate`, always on): a reading unit may use words taught in Sections 1–2 (and the script track), words of reading units up to itself, and its `assumes` lists, which may only be `bridge` and `heritage-oral`. Words taught only in the I-track (intermediate, non-reading) units are errors (`[reading-vocab]`) in plan sentences, dialogues, `review` lists and exercises, recycle included.
+- **Recycling** (`npm run recycle`) draws targets, distractors and sentences only from that same allowed set.
+- **App:** the course map numbers the unit "Reading 1" (from its `r##` id) and shows a "Reading track" badge instead of "Intermediate"; its first lesson is open without finishing the I-track; its checkpoint covers only reading-track lessons and can be tested out of independently of the I-track checkpoints; placement never starts or marks done a reading unit.
 
 ### Assumed-known lists — `content/assumed/<name>.json`
 Words an intermediate unit may use without teaching them (e.g. everything from Section 1, or a published "bridge" list), so units can be written independently of the units before them.

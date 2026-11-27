@@ -136,6 +136,8 @@ export interface PlacementUnit {
   title: string;
   track: "main" | "script";
   level: "beginner" | "intermediate";
+  /** "reading" for Reading-track units: never a placement start, never marked done by placement. */
+  strand?: "reading";
   lessons: string[];
 }
 

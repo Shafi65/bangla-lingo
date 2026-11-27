@@ -3,7 +3,7 @@ import type { CourseSummary, UnitSummary } from "./types";
 
 export interface NumberedUnit {
   unit: UnitSummary;
-  /** "Unit 3" / "Script 2": main units are numbered per level (beginner, intermediate), script units separately. */
+  /** "Unit 3" / "Script 2" / "Reading 1": main units are numbered per level (beginner, intermediate), script and reading-track units separately. */
   label: string;
 }
 
@@ -14,7 +14,15 @@ export interface Section {
   units: NumberedUnit[];
 }
 
-const isIntermediate = (u: UnitSummary) => u.level === "intermediate";
+/** Reading-track unit: ids r01-, r02-, …; marked `strand: "reading"` in course.json. */
+export const isReading = (u: Pick<UnitSummary, "strand">) => u.strand === "reading";
+const isIntermediate = (u: UnitSummary) => u.level === "intermediate" && !isReading(u);
+
+/** Reading units are numbered from their id ("r01-signs" is 1); undefined if the id has no number. */
+export function readingNumber(id: string): number | undefined {
+  const m = /^r(\d+)-/.exec(id);
+  return m ? Number(m[1]) : undefined;
+}
 
 /** Intermediate units are numbered from their id ("i00-bridge" is 0, "i01-…" is 1); undefined if the id has no number. */
 export function intermediateNumber(id: string): number | undefined {
@@ -26,8 +34,13 @@ export function numberUnits(course: CourseSummary): NumberedUnit[] {
   let beginnerN = 0;
   let intermediateN = 0;
   let scriptN = 0;
+  let readingN = 0;
   return course.units.map((unit) => {
     if (unit.track === "script") return { unit, label: `Script ${++scriptN}` };
+    if (isReading(unit)) {
+      readingN++;
+      return { unit, label: `Reading ${readingNumber(unit.id) ?? readingN}` };
+    }
     if (!isIntermediate(unit)) return { unit, label: `Unit ${++beginnerN}` };
     intermediateN++;
     const n = intermediateNumber(unit.id) ?? intermediateN;

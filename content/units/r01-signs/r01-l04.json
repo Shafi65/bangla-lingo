@@ -425,18 +425,18 @@
       "id": "r01",
       "type": "select_translation",
       "prompt": {
-        "bn": "স্থানে",
-        "tr": "sthane",
-        "en": "in the place; at the place"
+        "bn": "পরিচ্ছন্ন",
+        "tr": "porichchhonno",
+        "en": "clean; tidy"
       },
       "direction": "bn_to_en",
       "options": [
-        "sehri",
-        "at Eid",
-        "bathroom",
-        "in the place; at the place"
+        "elderly",
+        "old (of people)",
+        "clean; tidy",
+        "careful!; beware"
       ],
-      "answer": 3,
+      "answer": 2,
       "recycle": true
     },
     {
@@ -448,10 +448,10 @@
         "en": "designated; set"
       },
       "options": [
-        "নোংরা",
+        "পাতলা",
         "নির্দিষ্ট",
-        "পাশের",
-        "আগামী"
+        "হলুদ",
+        "হালকা"
       ],
       "answer": 1,
       "recycle": true
@@ -460,18 +460,18 @@
       "id": "r03",
       "type": "fill_blank",
       "sentence": {
-        "bn": "অনুগ্রহ করে জুতা খুলুন।",
-        "tr": "onugroho kore juta khulun.",
-        "en": "Please take off your shoes."
+        "bn": "ময়লা নির্দিষ্ট স্থানে ফেলুন।",
+        "tr": "moyla nirdishto sthane felun.",
+        "en": "Put rubbish in the place provided."
       },
-      "blank": "অনুগ্রহ করে",
+      "blank": "স্থানে",
       "options": [
-        "খোদা হাফেজ",
-        "মন খারাপ",
-        "অনুগ্রহ করে",
-        "হ্যালো"
+        "অনুমতি",
+        "স্থানে",
+        "স্বামী",
+        "বার"
       ],
-      "answer": 2,
+      "answer": 1,
       "recycle": true
     },
     {
@@ -479,24 +479,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "ওঠেন",
-          "tr": "othen",
-          "en": "you get up (polite)"
+          "bn": "আগামীকাল",
+          "tr": "agamikal",
+          "en": "tomorrow"
         },
         {
-          "bn": "স্মৃতি",
-          "tr": "sriti",
-          "en": "memory"
+          "bn": "নব্বই",
+          "tr": "nobboi",
+          "en": "ninety"
         },
         {
-          "bn": "কিনবে",
-          "tr": "kinbe",
-          "en": "you (familiar) / he, she will buy"
+          "bn": "আড়াই",
+          "tr": "arai",
+          "en": "two and a half"
         },
         {
-          "bn": "পরিচ্ছন্ন",
-          "tr": "porichchhonno",
-          "en": "clean; tidy"
+          "bn": "বস",
+          "tr": "bosh",
+          "en": "sit (intimate)"
         }
       ],
       "recycle": true
@@ -506,24 +506,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "বলি",
-          "tr": "boli",
-          "en": "I speak"
+          "bn": "কে",
+          "tr": "ke",
+          "en": "who"
         },
         {
-          "bn": "উনিশ",
-          "tr": "unish",
-          "en": "nineteen"
+          "bn": "সাধারণত",
+          "tr": "shadharonoto",
+          "en": "usually"
         },
         {
-          "bn": "আসবেন",
-          "tr": "ashben",
-          "en": "please come"
+          "bn": "জানাও",
+          "tr": "janao",
+          "en": "let (me) know (familiar)"
         },
         {
-          "bn": "ওখানে",
-          "tr": "okhane",
-          "en": "there"
+          "bn": "যেতে",
+          "tr": "jete",
+          "en": "to go"
         }
       ],
       "recycle": true

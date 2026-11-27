@@ -238,6 +238,7 @@ function loadFrom(
       track: unit.track,
       level: levelOf(unit),
       section: sectionOf(unit),
+      ...(unit.strand === "reading" ? { strand: "reading" as const } : {}),
       lessons: summaries,
     };
   });

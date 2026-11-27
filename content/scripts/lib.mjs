@@ -17,6 +17,20 @@ export const REGISTERS = new Set(["intimate", "familiar", "polite", "formal-writ
 // Levels: a unit is "beginner" unless course.json says "level": "intermediate".
 export const LEVELS = ["beginner", "intermediate"];
 export const unitLevel = (u) => (u?.level === "intermediate" ? "intermediate" : "beginner");
+/** Reading-track unit (`"strand": "reading"` in course.json; ids r01-, r02-, ...). Still a main-track, intermediate-level unit. */
+export const isReadingUnit = (u) => u?.strand === "reading";
+/**
+ * Reading-track vocabulary rule: a reading unit may use words taught in Sections 1-2 (beginner main track and the
+ * script track) and in reading-track units up to itself, never the I-track. (The "bridge" and "heritage-oral"
+ * assumed lists come through `assumes`.) Other units are unrestricted.
+ */
+export function mayUseWordsFrom(ctx, unit, fromUnit) {
+  if (!isReadingUnit(unit)) return true;
+  if (!fromUnit) return false;
+  if (fromUnit.id === unit.id) return true;
+  if (isReadingUnit(fromUnit)) return ctx.course.units.indexOf(fromUnit) <= ctx.course.units.indexOf(unit);
+  return unitSection(fromUnit) <= 2;
+}
 /** Section number of a unit (missing = 1). */
 export const unitSection = (u) => (Number.isInteger(u?.section) && u.section >= 1 ? u.section : 1);
 /** Most new items one main-track lesson may introduce (strict), by level. */
@@ -163,7 +177,7 @@ export function knownAt(ctx, lessonId) {
   const idx = info?.index ?? -1;
   const lex = [...ctx.lexicon.values()].filter((e) => {
     const i = ctx.lessonInfo.get(e.lesson)?.index;
-    return i !== undefined && i <= idx;
+    return i !== undefined && i <= idx && (!info || mayUseWordsFrom(ctx, info.unit, ctx.units.get(e._unit)));
   });
   return info ? [...lex, ...assumedFor(ctx, info.unit)] : lex;
 }
@@ -303,17 +317,38 @@ export function findUntaught(ctx, lessons) {
     if (i === undefined) continue;
     for (const t of tokenize(e.bn)) if (!introAt.has(t) || introAt.get(t) > i) introAt.set(t, i);
   }
+  // Reading-track lessons only count words from units they may use (see mayUseWordsFrom); built per reading unit.
+  const readingIntro = new Map(); // unit id -> token -> earliest lesson index
+  const introFor = (unit) => {
+    if (!isReadingUnit(unit)) return introAt;
+    if (!readingIntro.has(unit.id)) {
+      const m = new Map();
+      for (const e of ctx.lexicon.values()) {
+        const i = ctx.lessonInfo.get(e.lesson)?.index;
+        if (i === undefined || !mayUseWordsFrom(ctx, unit, ctx.units.get(e._unit))) continue;
+        for (const t of tokenize(e.bn)) if (!m.has(t) || m.get(t) > i) m.set(t, i);
+      }
+      readingIntro.set(unit.id, m);
+    }
+    return readingIntro.get(unit.id);
+  };
   const out = [];
   for (const l of lessons) {
     if (l.unit.track === "script") continue; // script lessons preview later words and build syllables
+    const intro = introFor(l.unit);
     const assumedTok = new Set(assumedFor(ctx, l.unit).flatMap((e) => tokenize(e.bn ?? ""))); // units that "assume" a list
     for (const ex of l.data.exercises) {
       for (const t of exerciseTokens(ex)) {
-        const at = introAt.get(t);
+        const at = intro.get(t);
         if (assumedTok.has(t)) continue;
         if (at !== undefined && at <= l.idx) continue;
         if ([...t].length > 1 && [...t].every((c) => DIGITS.includes(c) && ((introAt.get(c) ?? Infinity) <= l.idx || assumedTok.has(c)))) continue;
-        out.push({ lesson: l.id, ex: ex.id, token: t, taughtIn: at === undefined ? null : ctx.order[at] });
+        const global = introAt.get(t);
+        // outsideReading: the word is taught, but only in a unit the reading track may not draw on (the I-track)
+        out.push({
+          lesson: l.id, ex: ex.id, token: t, taughtIn: at === undefined ? null : ctx.order[at],
+          outsideReading: isReadingUnit(l.unit) && at === undefined && global !== undefined && global <= l.idx ? ctx.order[global] : null,
+        });
       }
     }
   }

@@ -498,14 +498,14 @@
       "id": "r01",
       "type": "fill_blank",
       "sentence": {
-        "bn": "আমরা স্টেশনে নামলাম।",
-        "tr": "amra steshone namlam.",
-        "en": "We got off at the station."
+        "bn": "সে মাত্র অফিসে গিয়েছে।",
+        "tr": "she matro ofise giyechhe.",
+        "en": "He has just gone to the office."
       },
-      "blank": "নামলাম",
+      "blank": "গিয়েছে",
       "accepted": [
-        "নামলাম",
-        "namlam"
+        "গিয়েছে",
+        "giyechhe"
       ],
       "recycle": true
     },
@@ -513,35 +513,35 @@
       "id": "r02",
       "type": "select_translation",
       "prompt": {
-        "bn": "ধরলাম",
-        "tr": "dhorlam",
-        "en": "I caught"
+        "bn": "পড়ি",
+        "tr": "pori",
+        "en": "I read"
       },
       "direction": "bn_to_en",
       "options": [
-        "please throw; put (standard)",
-        "(you, polite) have come",
-        "I caught",
-        "I will send"
+        "I read",
+        "keeping; parking (a car)",
+        "I will take",
+        "please stay; please be (standard)"
       ],
-      "answer": 2,
+      "answer": 0,
       "recycle": true
     },
     {
       "id": "r03",
       "type": "listen_select",
       "audio": {
-        "bn": "দাঁড়িয়ে",
-        "tr": "da~riye",
-        "en": "standing"
+        "bn": "ইতিমধ্যে",
+        "tr": "itimoddhe",
+        "en": "already"
       },
       "options": [
-        "শিখি",
-        "করেনি",
-        "দাঁড়িয়ে",
-        "খেয়েছেন"
+        "ইতিমধ্যে",
+        "আগামীকাল",
+        "সাধারণত",
+        "দেখতে"
       ],
-      "answer": 2,
+      "answer": 0,
       "recycle": true
     },
     {
@@ -549,24 +549,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "ওনাকে",
-          "tr": "onake",
-          "en": "him/her (polite)"
+          "bn": "সোয়া",
+          "tr": "shoya",
+          "en": "quarter past"
         },
         {
-          "bn": "দেখবেন",
-          "tr": "dekhben",
-          "en": "you (polite) will see"
+          "bn": "করব",
+          "tr": "korbo",
+          "en": "I will do"
         },
         {
-          "bn": "আসলে",
-          "tr": "ashole",
-          "en": "actually"
+          "bn": "ঘুমাই",
+          "tr": "ghumai",
+          "en": "I sleep"
         },
         {
-          "bn": "বিশ",
-          "tr": "bish",
-          "en": "twenty"
+          "bn": "উঠেছে",
+          "tr": "uthechhe",
+          "en": "has come out; has risen"
         }
       ],
       "recycle": true
@@ -576,24 +576,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "করতেন",
-          "tr": "korten",
-          "en": "you / he, she (polite) used to do"
+          "bn": "ঘুমাব",
+          "tr": "ghumabo",
+          "en": "I will sleep"
         },
         {
-          "bn": "যাবে",
-          "tr": "jabe",
-          "en": "will go"
+          "bn": "পঞ্চাশ",
+          "tr": "ponchash",
+          "en": "fifty"
         },
         {
-          "bn": "উনি",
-          "tr": "uni",
-          "en": "he/she (polite, spoken)"
+          "bn": "সাত",
+          "tr": "shat",
+          "en": "seven"
         },
         {
-          "bn": "পারেন",
-          "tr": "paren",
-          "en": "(you, polite) can"
+          "bn": "সোজা",
+          "tr": "shoja",
+          "en": "straight"
         }
       ],
       "recycle": true

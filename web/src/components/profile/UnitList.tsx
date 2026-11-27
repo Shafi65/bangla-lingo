@@ -11,7 +11,7 @@ export function UnitList({ units }: { units: UnitProgress[] }) {
   // Started units, plus one more of each track so the next step is visible.
   const visible = all
     ? units
-    : units.filter((u, k) => u.done > 0 || k <= lastStarted + 1 || k === units.findIndex((x) => x.track === u.track && x.done === 0));
+    : units.filter((u, k) => u.done > 0 || k <= lastStarted + 1 || k === units.findIndex((x) => x.track === u.track && x.strand === u.strand && x.done === 0));
   const finished = units.filter((u) => u.total > 0 && u.done === u.total).length;
   const hidden = units.length - visible.length;
 

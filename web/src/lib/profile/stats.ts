@@ -170,6 +170,8 @@ export interface UnitProgress {
   label: string;
   title: string;
   track: Track;
+  /** "reading" for Reading-track units (they are their own track in the unit list). */
+  strand?: "reading";
   done: number;
   total: number;
 }
@@ -180,6 +182,7 @@ export function unitProgress(course: CourseSummary, completed: Record<string, Le
     label,
     title: unit.title,
     track: unit.track,
+    ...(unit.strand ? { strand: unit.strand } : {}),
     done: unit.lessons.filter((l) => completed[l.id]).length,
     total: unit.lessons.length,
   }));

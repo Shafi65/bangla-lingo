@@ -102,6 +102,7 @@ export function ReviewerIndex({ levels }: { levels: IndexLevel[] }) {
                   <h3 className="flex flex-wrap items-baseline gap-2 text-base font-extrabold">
                     {u.title}
                     {u.track === "script" && <Chip>Script</Chip>}
+                    {u.strand === "reading" && <Chip>Reading track</Chip>}
                     <span className="text-sm font-bold text-muted">
                       {uDone} / {u.lessons.length} done
                     </span>

@@ -3,6 +3,8 @@
 export type Track = "main" | "script";
 /** Course level of a unit; units without `level` are "beginner". */
 export type Level = "beginner" | "intermediate";
+/** Reading-track units (`"strand": "reading"`): main-track lessons for fluent speakers who want to read. */
+export type Strand = "reading";
 export type Direction = "bn_to_en" | "en_to_bn";
 
 /** Bengali text in all three forms. `tr` follows content/TRANSLITERATION.md. */
@@ -27,6 +29,8 @@ export interface UnitDef {
   level?: Level;
   /** Section number (see CourseDef.sections); default 1. */
   section?: number;
+  /** "reading" marks a Reading-track unit (still track "main", level "intermediate"). */
+  strand?: Strand;
   /** Names of content/assumed/<name>.json lists whose words the unit assumes (used by the content tools; the app only reads them for transliteration). */
   assumes?: string[];
   /** Default for the unit's lessons: hide transliteration unless tapped (a lesson's own `scriptOnly` wins). */
@@ -198,6 +202,8 @@ export interface UnitSummary {
   level?: Level;
   /** Always set by the loader (1 when course.json has no section). */
   section?: number;
+  /** "reading" for Reading-track units; absent for every other unit. */
+  strand?: Strand;
   lessons: LessonSummary[];
 }
 

@@ -449,45 +449,45 @@
       },
       "blank": "ব্যতীত",
       "options": [
-        "থেকে",
+        "মধ্যে",
+        "উপরে",
         "ব্যতীত",
-        "পরে",
-        "বাইরে"
+        "কাছে"
       ],
-      "answer": 1,
+      "answer": 2,
       "recycle": true
     },
     {
       "id": "r02",
       "type": "listen_meaning",
       "audio": {
-        "bn": "এখানে ধূমপান নিষেধ।",
-        "tr": "ekhane dhumpan nishedh.",
-        "en": "No smoking here."
+        "bn": "অফিসে ধূমপান নিষিদ্ধ।",
+        "tr": "ofise dhumpan nishiddho.",
+        "en": "Smoking is prohibited in the office."
       },
       "options": [
-        "No smoking here.",
-        "Is that fish?",
-        "Please give me a little more rice.",
-        "I didn't go to the office yesterday."
+        "Are you OK?",
+        "Smoking is prohibited in the office.",
+        "He is quite tall.",
+        "I have to get up early tomorrow."
       ],
-      "answer": 0,
+      "answer": 1,
       "recycle": true
     },
     {
       "id": "r03",
       "type": "select_translation",
       "prompt": {
-        "bn": "নিষিদ্ধ",
-        "tr": "nishiddho",
-        "en": "prohibited; banned"
+        "bn": "নিষেধ",
+        "tr": "nishedh",
+        "en": "not allowed; forbidden"
       },
       "direction": "en_to_bn",
       "options": [
-        "নিষিদ্ধ",
-        "সুস্থ",
-        "সতর্ক",
-        "প্রধান"
+        "নিষেধ",
+        "শুভ",
+        "পরিষ্কার",
+        "ঠান্ডা"
       ],
       "answer": 0,
       "recycle": true
@@ -497,24 +497,24 @@
       "type": "match_pairs",
       "pairs": [
         {
+          "bn": "অনুমতি",
+          "tr": "onumoti",
+          "en": "permission"
+        },
+        {
           "bn": "সংরক্ষিত",
           "tr": "shongrokkhito",
           "en": "reserved; restricted"
         },
         {
-          "bn": "সারারাত",
-          "tr": "shararat",
-          "en": "all night"
+          "bn": "পাঠাব",
+          "tr": "pathabo",
+          "en": "I will send"
         },
         {
           "bn": "ধূমপান",
           "tr": "dhumpan",
           "en": "smoking"
-        },
-        {
-          "bn": "অবশেষে",
-          "tr": "obosheshe",
-          "en": "finally"
         }
       ],
       "recycle": true
@@ -524,24 +524,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "ঘুমিয়ে",
-          "tr": "ghumiye",
-          "en": "having slept"
+          "bn": "কোথা",
+          "tr": "kotha",
+          "en": "where (before থেকে)"
         },
         {
-          "bn": "জেনে",
-          "tr": "jene",
-          "en": "knowing"
+          "bn": "পড়ছি",
+          "tr": "porchhi",
+          "en": "I am reading"
         },
         {
-          "bn": "অনুমতি",
-          "tr": "onumoti",
-          "en": "permission"
+          "bn": "তোকে",
+          "tr": "toke",
+          "en": "you (intimate, object)"
         },
         {
-          "bn": "এরপর",
-          "tr": "erpor",
-          "en": "after this"
+          "bn": "পারেনি",
+          "tr": "pareni",
+          "en": "he/she couldn't"
         }
       ],
       "recycle": true

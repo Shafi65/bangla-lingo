@@ -297,12 +297,16 @@ export function unitLabel(units: readonly PlacementUnit[], id: string): string {
   const u = units.find((x) => x.id === id);
   if (!u) return id;
   if (u.track === "script") return u.title;
+  if (u.strand === "reading") {
+    const m = /^r(\d+)-/.exec(u.id);
+    return `Reading ${m ? Number(m[1]) : units.filter((x) => x.strand === "reading").findIndex((x) => x.id === id) + 1}: ${u.title}`;
+  }
   if (u.level === "intermediate") {
     const m = /^i(\d+)-/.exec(u.id);
     if (m && Number(m[1]) === 0) return `Intermediate: ${u.title}`;
     if (m) return `Intermediate Unit ${Number(m[1])}: ${u.title}`;
   }
-  const n = units.filter((x) => x.track === "main" && x.level === u.level).findIndex((x) => x.id === id) + 1;
+  const n = units.filter((x) => x.track === "main" && !x.strand && x.level === u.level).findIndex((x) => x.id === id) + 1;
   return `${u.level === "intermediate" ? "Intermediate Unit" : "Unit"} ${n}: ${u.title}`;
 }
 
@@ -310,7 +314,7 @@ const bandLabel = (cfg: PlacementConfig, b: Band) => cfg.bands.find((x) => x.id 
 
 /** First main unit of a band in course order (falls back to the nearest band that has one). */
 function firstUnitOfBand(units: readonly PlacementUnit[], bands: Map<string, Band>, band: Band): PlacementUnit | undefined {
-  const main = units.filter((u) => u.track === "main" && u.lessons.length > 0);
+  const main = units.filter((u) => u.track === "main" && !u.strand && u.lessons.length > 0); // the Reading track is never a placement start
   const want = bandIndex(band);
   for (let d = 0; d < BANDS.length; d++) {
     for (const b of [want - d, want + d]) {
@@ -405,7 +409,7 @@ export function placeLearner(
   if (L >= bandIndex(fast.listeningAtLeast) && R < bandIndex(fast.readingBelow) && firstScript) {
     // Mark the main units of bands below the listening level as done; leave the script track open.
     const done = units
-      .filter((u) => u.track === "main" && bandIndex(bands.get(u.id)) < L)
+      .filter((u) => u.track === "main" && !u.strand && bandIndex(bands.get(u.id)) < L)
       .flatMap((u) => u.lessons);
     const upTo = BANDS[L - 1];
     return {

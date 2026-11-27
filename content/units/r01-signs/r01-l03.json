@@ -431,35 +431,35 @@
       "id": "r02",
       "type": "select_translation",
       "prompt": {
-        "bn": "দেখা হল",
-        "tr": "dekha holo",
-        "en": "(we) met"
+        "bn": "করছো",
+        "tr": "korchho",
+        "en": "you are doing (familiar)"
       },
       "direction": "bn_to_en",
       "options": [
-        "see you again",
-        "hello (peace be upon you)",
-        "please",
-        "(we) met"
+        "you are doing (familiar)",
+        "lives (polite)",
+        "has come",
+        "I have gone"
       ],
-      "answer": 3,
+      "answer": 0,
       "recycle": true
     },
     {
       "id": "r03",
       "type": "listen_select",
       "audio": {
-        "bn": "অপেক্ষা করলাম",
-        "tr": "opekkha korlam",
-        "en": "I waited"
+        "bn": "চল্লিশ",
+        "tr": "chollish",
+        "en": "forty"
       },
       "options": [
-        "চুপ করে",
-        "ঠিক তখন",
-        "শহীদ মিনার",
-        "অপেক্ষা করলাম"
+        "নব্বই",
+        "চল্লিশ",
+        "ত্রিশ",
+        "নয়"
       ],
-      "answer": 3,
+      "answer": 1,
       "recycle": true
     },
     {
@@ -467,24 +467,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "ওগুলো",
-          "tr": "ogulo",
-          "en": "those"
+          "bn": "এটার",
+          "tr": "etar",
+          "en": "of this"
         },
         {
-          "bn": "থামেন",
-          "tr": "thamen",
-          "en": "stop (polite)"
+          "bn": "তোমাদের",
+          "tr": "tomader",
+          "en": "your (familiar, plural)"
         },
         {
-          "bn": "আয়",
-          "tr": "ay",
-          "en": "come (intimate)"
+          "bn": "করেছি",
+          "tr": "korechhi",
+          "en": "I have done"
         },
         {
-          "bn": "পৌঁছেছি",
-          "tr": "pou~chhechhi",
-          "en": "I have reached"
+          "bn": "সতেরো",
+          "tr": "shotero",
+          "en": "seventeen"
         }
       ],
       "recycle": true
@@ -494,24 +494,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "করছেন",
-          "tr": "korchhen",
-          "en": "you are doing (polite)"
+          "bn": "বলব",
+          "tr": "bolbo",
+          "en": "I will say"
         },
         {
-          "bn": "জানাবেন",
-          "tr": "janaben",
-          "en": "please let (me) know (polite)"
+          "bn": "ওখানে",
+          "tr": "okhane",
+          "en": "there"
         },
         {
-          "bn": "আট",
-          "tr": "at",
-          "en": "eight"
+          "bn": "ছাড়বে",
+          "tr": "chharbe",
+          "en": "will leave"
         },
         {
-          "bn": "পাঁচ",
-          "tr": "pa~ch",
-          "en": "five"
+          "bn": "পারে",
+          "tr": "pare",
+          "en": "(he/she) can"
         }
       ],
       "recycle": true

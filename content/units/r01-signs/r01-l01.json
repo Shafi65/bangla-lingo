@@ -416,49 +416,49 @@
       "id": "r01",
       "type": "listen_meaning",
       "audio": {
-        "bn": "গ্রাম আর আগের মতো নেই।",
-        "tr": "gram ar ager moto nei.",
-        "en": "The village isn't what it used to be."
+        "bn": "সবাইকে ঈদের শুভেচ্ছা।",
+        "tr": "shobaike ider shubhechchha.",
+        "en": "Eid greetings to everyone."
       },
       "options": [
-        "The village isn't what it used to be.",
-        "The temple is next to the market.",
-        "Where is the fair?",
-        "We won't eat meat."
+        "Today is Friday.",
+        "Eid greetings to everyone.",
+        "Please speak a little louder.",
+        "How are you guys?"
       ],
-      "answer": 0,
+      "answer": 1,
       "recycle": true
     },
     {
       "id": "r02",
       "type": "select_translation",
       "prompt": {
-        "bn": "এখনকার",
-        "tr": "ekhonkar",
-        "en": "of today"
+        "bn": "সবার",
+        "tr": "shobar",
+        "en": "everyone's; of all"
       },
       "direction": "en_to_bn",
       "options": [
-        "এখনকার",
-        "সামনের",
-        "পরিষ্কার",
-        "গত"
+        "তুই",
+        "তোমাদের",
+        "কোন",
+        "সবার"
       ],
-      "answer": 0,
+      "answer": 3,
       "recycle": true
     },
     {
       "id": "r03",
       "type": "fill_blank",
       "sentence": {
-        "bn": "তখনকার দিনগুলো খুব সুন্দর ছিল।",
-        "tr": "tokhonkar dingulo khub shundor chhilo.",
-        "en": "Those days were very beautiful."
+        "bn": "তুই কি রান্না করতে পারিস?",
+        "tr": "tui ki ranna korte parish?",
+        "en": "Can you cook? (intimate)"
       },
-      "blank": "দিনগুলো",
+      "blank": "পারিস",
       "accepted": [
-        "দিনগুলো",
-        "dingulo"
+        "পারিস",
+        "parish"
       ],
       "recycle": true
     },
@@ -467,24 +467,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "একজন",
-          "tr": "ekjon",
-          "en": "one (person)"
+          "bn": "দিলাম",
+          "tr": "dilam",
+          "en": "I gave"
         },
         {
-          "bn": "কেমন",
-          "tr": "kemon",
-          "en": "how"
+          "bn": "অবশ্যই",
+          "tr": "oboshshoi",
+          "en": "of course"
         },
         {
-          "bn": "নিন",
-          "tr": "nin",
-          "en": "please take (standard)"
+          "bn": "ত্রিশ",
+          "tr": "trish",
+          "en": "thirty"
         },
         {
-          "bn": "আছিস",
-          "tr": "achhish",
-          "en": "are (intimate)"
+          "bn": "বছরে",
+          "tr": "bochhore",
+          "en": "in a year"
         }
       ],
       "recycle": true
@@ -494,24 +494,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "পড়েন",
-          "tr": "poren",
-          "en": "you read (polite)"
+          "bn": "দেখছে",
+          "tr": "dekhchhe",
+          "en": "is watching"
         },
         {
-          "bn": "এইটা",
-          "tr": "eita",
-          "en": "this one"
+          "bn": "বারো",
+          "tr": "baro",
+          "en": "twelve"
         },
         {
-          "bn": "ত্রিশ",
-          "tr": "trish",
-          "en": "thirty"
+          "bn": "পাঠাও",
+          "tr": "pathao",
+          "en": "send (familiar)"
         },
         {
-          "bn": "দশটা",
-          "tr": "doshta",
-          "en": "ten (o'clock)"
+          "bn": "কোন",
+          "tr": "kon",
+          "en": "which"
         }
       ],
       "recycle": true

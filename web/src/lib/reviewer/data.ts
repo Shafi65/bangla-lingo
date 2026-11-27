@@ -18,6 +18,8 @@ export interface IndexUnit {
   id: string;
   title: string;
   track: Track;
+  /** "reading" for Reading-track units. */
+  strand?: "reading";
   lessons: IndexLesson[];
 }
 export interface IndexLevel {
@@ -51,6 +53,7 @@ export function getReviewIndex(): IndexLevel[] {
           id: u.id,
           title: u.title,
           track: u.track,
+          ...(u.strand ? { strand: u.strand } : {}),
           lessons: u.lessons.flatMap((s): IndexLesson[] => {
             const lesson = getLesson(s.id);
             if (!lesson) return [];

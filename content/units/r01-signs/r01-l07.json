@@ -448,12 +448,12 @@
         "en": "House to let."
       },
       "options": [
-        "Schools back then were small; schools today are much bigger.",
-        "House to let.",
-        "You can't go in without permission.",
-        "What do you (polite) want to eat?"
+        "I read and write Bengali.",
+        "The film was very good.",
+        "At Eid we go to the village.",
+        "House to let."
       ],
-      "answer": 1,
+      "answer": 3,
       "recycle": true
     },
     {
@@ -466,26 +466,26 @@
       },
       "direction": "en_to_bn",
       "options": [
+        "লিফট",
+        "জায়গা",
         "সর্বসাধারণের",
-        "অনুমতি",
-        "রোজা",
-        "স্টেশনে"
+        "প্রশ্ন"
       ],
-      "answer": 0,
+      "answer": 2,
       "recycle": true
     },
     {
       "id": "r03",
       "type": "fill_blank",
       "sentence": {
-        "bn": "অনুগ্রহ করে জুতা খুলুন।",
-        "tr": "onugroho kore juta khulun.",
-        "en": "Please take off your shoes."
+        "bn": "ময়লা নির্দিষ্ট স্থানে ফেলুন।",
+        "tr": "moyla nirdishto sthane felun.",
+        "en": "Put rubbish in the place provided."
       },
-      "blank": "খুলুন",
+      "blank": "ফেলুন",
       "accepted": [
-        "খুলুন",
-        "khulun"
+        "ফেলুন",
+        "felun"
       ],
       "recycle": true
     },
@@ -494,19 +494,19 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "পরিচ্ছন্ন",
-          "tr": "porichchhonno",
-          "en": "clean; tidy"
+          "bn": "অনুরোধ",
+          "tr": "onurodh",
+          "en": "request"
         },
         {
-          "bn": "ফেলুন",
-          "tr": "felun",
-          "en": "please throw; put (standard)"
+          "bn": "খুলুন",
+          "tr": "khulun",
+          "en": "please take off; open (standard)"
         },
         {
-          "bn": "শেষে",
-          "tr": "sheshe",
-          "en": "at the end"
+          "bn": "স্থানে",
+          "tr": "sthane",
+          "en": "in the place; at the place"
         },
         {
           "bn": "নির্দিষ্ট",
@@ -521,24 +521,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "নেমে",
-          "tr": "neme",
-          "en": "having got off"
+          "bn": "তোমাকে",
+          "tr": "tomake",
+          "en": "you (familiar, object)"
         },
         {
-          "bn": "স্থানে",
-          "tr": "sthane",
-          "en": "in the place; at the place"
+          "bn": "পরিচ্ছন্ন",
+          "tr": "porichchhonno",
+          "en": "clean; tidy"
         },
         {
-          "bn": "শেষমেশ",
-          "tr": "sheshmesh",
-          "en": "in the end"
+          "bn": "স্থান",
+          "tr": "sthan",
+          "en": "place"
         },
         {
-          "bn": "অনুরোধ",
-          "tr": "onurodh",
-          "en": "request"
+          "bn": "পরশু",
+          "tr": "porshu",
+          "en": "the day after tomorrow"
         }
       ],
       "recycle": true

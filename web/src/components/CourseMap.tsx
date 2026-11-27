@@ -20,7 +20,7 @@ import {
 } from "@/lib/progress";
 import { testOutOffer, type TestOutOffer } from "@/lib/checkpoint";
 import { useDueCount } from "@/lib/review";
-import { sectionsOf } from "@/lib/courseSections";
+import { isReading, sectionsOf } from "@/lib/courseSections";
 import { isReviewLesson } from "@/lib/lessonKind";
 import { SavePromptSlot } from "./account/slots";
 import { AppShell } from "./AppShell";
@@ -34,7 +34,7 @@ const ROW = 108;
 const NODE = 72;
 const STITCH_W = 240;
 
-const isIntermediate = (u: UnitSummary) => u.level === "intermediate";
+const isIntermediate = (u: UnitSummary) => u.level === "intermediate" && !isReading(u);
 
 export function CourseMap({ course, storyIds = [] }: { course: CourseSummary; /** Ids of the stories that exist (from the server loader), so a unit never links to a missing one. */ storyIds?: string[] }) {
   const progress = useProgress();
@@ -361,7 +361,7 @@ function SectionBlock({
                     </span>
                     <span className="flex min-w-0 flex-1 flex-wrap items-center gap-x-2 font-extrabold text-ink">
                       {unit.title}
-                      {isIntermediate(unit) && <LevelChip />}
+                      {isReading(unit) ? <ReadingChip /> : isIntermediate(unit) && <LevelChip />}
                     </span>
                     <span className="flex w-24 shrink-0 items-center gap-2 text-xs font-bold text-muted">
                       <Bar value={unit.lessons.length ? d / unit.lessons.length : 0} tone={script ? "accent" : "brand"} />
@@ -384,7 +384,7 @@ function ComingSoon({ unit, label }: { unit: UnitSummary; label: string }) {
     <div className="rounded-[var(--radius-panel)] border-2 border-dashed border-line-strong bg-surface/60 p-5">
       <p className={`flex flex-wrap items-center gap-x-3 gap-y-1 text-sm font-extrabold ${script ? "text-accent-dark" : "text-brand-dark"}`}>
         <span>{label}, coming soon</span>
-        {isIntermediate(unit) && <LevelChip />}
+        {isReading(unit) ? <ReadingChip /> : isIntermediate(unit) && <LevelChip />}
       </p>
       <h3 className="text-xl font-black text-ink">{unit.title}</h3>
       {unit.description && <p className="font-semibold text-muted">{unit.description}</p>}
@@ -413,7 +413,7 @@ function UnitBlock({
   const draft = unit.lessons.some((l) => l.draft);
   const n = unit.lessons.length;
   const storyId = `${unit.id}-story`;
-  const hasStory = unit.track === "main" && !isIntermediate(unit) && unit.id !== "u01-basics" && stories.has(storyId);
+  const hasStory = unit.track === "main" && !isIntermediate(unit) && !isReading(unit) && unit.id !== "u01-basics" && stories.has(storyId);
   const storyHref = progress.completed[unit.lessons[0]?.id] ? `/stories/${storyId}` : "/stories";
 
   return (
@@ -552,7 +552,7 @@ function UnitHeader({
       <div className="min-w-0 flex-1">
         <p className={`flex flex-wrap items-center gap-x-3 gap-y-1 text-sm font-extrabold ${script ? "text-accent-dark" : "text-white/85"}`}>
           <span>{label}</span>
-          {isIntermediate(unit) && <LevelChip onBrand={!script} />}
+          {isReading(unit) ? <ReadingChip onBrand={!script} /> : isIntermediate(unit) && <LevelChip onBrand={!script} />}
           {draft && <DraftChip onBrand={!script} />}
         </p>
         <h3 id={`unit-${unit.id}`} className={`text-2xl leading-tight font-black text-balance ${script ? "text-ink" : ""}`}>
@@ -589,6 +589,18 @@ export function LevelChip({ onBrand = false }: { onBrand?: boolean }) {
       className={`chip ${onBrand ? "bg-white/20 text-white" : "bg-brand-light text-brand-dark"}`}
     >
       Intermediate
+    </span>
+  );
+}
+
+/** Marks units of the Reading track. */
+export function ReadingChip({ onBrand = false }: { onBrand?: boolean }) {
+  return (
+    <span
+      title="For fluent speakers who want to read faster and learn formal words."
+      className={`chip ${onBrand ? "bg-white/20 text-white" : "bg-brand-light text-brand-dark"}`}
+    >
+      Reading track
     </span>
   );
 }

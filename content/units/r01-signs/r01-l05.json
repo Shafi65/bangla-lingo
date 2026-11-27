@@ -436,53 +436,63 @@
         "en": "please stay; please be (standard)"
       },
       "options": [
+        "আসুন",
         "থাকুন",
-        "হচ্ছিল",
-        "যাচ্ছে",
-        "দিতে"
+        "হয়",
+        "আয়"
       ],
-      "answer": 0,
+      "answer": 1,
       "recycle": true
     },
     {
       "id": "r02",
       "type": "fill_blank",
       "sentence": {
-        "bn": "সাবধান, এখানে কাজ চলছে।",
-        "tr": "shabdhan, ekhane kaj cholchhe.",
-        "en": "Caution, work in progress here."
+        "bn": "সাবধান, পানি গরম।",
+        "tr": "shabdhan, pani gorom.",
+        "en": "Careful, the water is hot."
       },
       "blank": "সাবধান",
       "options": [
-        "আলাদা",
-        "গরম",
         "সাবধান",
-        "বাংলাদেশি"
+        "হালকা",
+        "আগামী",
+        "মিষ্টি"
       ],
-      "answer": 2,
+      "answer": 0,
       "recycle": true
     },
     {
       "id": "r03",
       "type": "listen_meaning",
       "audio": {
-        "bn": "বাহির ওই দিকে।",
-        "tr": "bahir oi dike.",
-        "en": "The way out is that way."
+        "bn": "অনুগ্রহ করে ডাস্টবিন ব্যবহার করুন।",
+        "tr": "onugroho kore dastbin byabohar korun.",
+        "en": "Please use the bin."
       },
       "options": [
-        "Thank you, goodbye.",
-        "I have a question.",
-        "Reception is on the right.",
-        "The way out is that way."
+        "He is my grandfather.",
+        "Mama is my mother's brother.",
+        "Please use the bin.",
+        "Not this one, that one. That one is the cheapest."
       ],
-      "answer": 3,
+      "answer": 2,
       "recycle": true
     },
     {
       "id": "r04",
       "type": "match_pairs",
       "pairs": [
+        {
+          "bn": "বাহির",
+          "tr": "bahir",
+          "en": "way out (sign)"
+        },
+        {
+          "bn": "প্রস্থান",
+          "tr": "prosthan",
+          "en": "exit; departure"
+        },
         {
           "bn": "প্রধান",
           "tr": "prodhan",
@@ -492,16 +502,6 @@
           "bn": "প্রবেশ",
           "tr": "probesh",
           "en": "entry; way in"
-        },
-        {
-          "bn": "প্রস্থান",
-          "tr": "prosthan",
-          "en": "exit; departure"
-        },
-        {
-          "bn": "অভ্যর্থনা",
-          "tr": "obbhorthona",
-          "en": "reception"
         }
       ],
       "recycle": true
@@ -511,24 +511,24 @@
       "type": "match_pairs",
       "pairs": [
         {
+          "bn": "বিকালে",
+          "tr": "bikale",
+          "en": "in the afternoon"
+        },
+        {
+          "bn": "এইটা",
+          "tr": "eita",
+          "en": "this one"
+        },
+        {
           "bn": "বহির্গমন",
           "tr": "bohirgomon",
           "en": "exit (way out)"
         },
         {
-          "bn": "একশ",
-          "tr": "eksho",
-          "en": "one hundred"
-        },
-        {
-          "bn": "পড়েছে",
-          "tr": "porechhe",
-          "en": "has set in (cold, heat)"
-        },
-        {
-          "bn": "নিচে",
-          "tr": "niche",
-          "en": "downstairs"
+          "bn": "অভ্যর্থনা",
+          "tr": "obbhorthona",
+          "en": "reception"
         }
       ],
       "recycle": true

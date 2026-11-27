@@ -1,5 +1,5 @@
 // Checkpoint test-out: which lessons a checkpoint covers, and which checkpoint may be tested out of. Pure.
-import { numberUnits } from "../courseSections";
+import { isReading, numberUnits } from "../courseSections";
 import type { LessonRecord } from "../progress";
 import type { CourseSummary, UnitSummary } from "../types";
 
@@ -19,16 +19,27 @@ export interface TestOutInfo {
   label: string;
   /** Lesson ids passing marks done (includes the checkpoint itself). */
   covered: string[];
-  /** All main-track checkpoint ids in course order (for the "next checkpoint ahead" rule). */
+  /** The checkpoint ids of this checkpoint's own track (main, or reading) in course order (for the "next checkpoint ahead" rule). */
   order: string[];
 }
 
 const mainUnits = (course: CourseSummary) => course.units.filter((u) => u.track !== "script");
 const levelOf = (u: UnitSummary) => u.level ?? "beginner";
+/** Checkpoints cover and unlock within one track: the Reading track is separate from the beginner/intermediate main track. */
+const trackOf = (u: UnitSummary) => (isReading(u) ? "reading" : "main");
+const sameTrack = (a: UnitSummary, b: UnitSummary) => trackOf(a) === trackOf(b) && levelOf(a) === levelOf(b);
 
-/** Main-track checkpoint lessons in course order. Script-track units are a separate track and never hold one. */
+/**
+ * Main-track checkpoint lessons in course order (Reading-track ones are listed by `readingCheckpointIds`).
+ * Script-track units are a separate track and never hold one.
+ */
 export function checkpointIds(course: CourseSummary): string[] {
-  return mainUnits(course).flatMap((u) => u.lessons.filter((l) => l.kind === "checkpoint").map((l) => l.id));
+  return mainUnits(course).filter((u) => !isReading(u)).flatMap((u) => u.lessons.filter((l) => l.kind === "checkpoint").map((l) => l.id));
+}
+
+/** Reading-track checkpoint lessons in course order; test-out for them is independent of the main track. */
+export function readingCheckpointIds(course: CourseSummary): string[] {
+  return mainUnits(course).filter(isReading).flatMap((u) => u.lessons.filter((l) => l.kind === "checkpoint").map((l) => l.id));
 }
 
 function spanLabel(course: CourseSummary, units: UnitSummary[]): string {
@@ -36,11 +47,13 @@ function spanLabel(course: CourseSummary, units: UnitSummary[]): string {
   const labels = new Map(numberUnits(course).map((n) => [n.unit.id, n]));
   const name = (u: UnitSummary) => {
     const n = labels.get(u.id)?.label ?? u.title;
+    if (isReading(u)) return n;
     return u.level === "intermediate" ? (n === "Bridge" ? "Intermediate: Bridge" : `Intermediate ${n}`) : n;
   };
   const first = units[0];
   const last = units[units.length - 1];
   if (first.id === last.id) return name(first);
+  if (isReading(first)) return `${name(first)} to ${name(last)}`; // a span never leaves its track; Reading 1 to Reading 3
   if ((first.level === "intermediate") !== (last.level === "intermediate")) return `${name(first)} to ${name(last)}`;
   const num = (u: UnitSummary) => (labels.get(u.id)?.label ?? "").replace(/^Unit /, "");
   if (num(first) === "Bridge") return `Bridge to Unit ${num(last)}`;
@@ -50,14 +63,15 @@ function spanLabel(course: CourseSummary, units: UnitSummary[]): string {
 /**
  * What `checkpointId` covers: only lessons of its own level (a beginner checkpoint never reaches into
  * intermediate units and vice versa), so an intermediate checkpoint starts at the first intermediate
- * lesson or just after the previous intermediate checkpoint.
+ * lesson or just after the previous intermediate checkpoint. A Reading-track checkpoint covers only
+ * Reading-track lessons, and an intermediate one never reaches into the Reading track.
  * Undefined if it is not a main-track checkpoint lesson.
  */
 export function checkpointSpan(course: CourseSummary, checkpointId: string): CheckpointSpan | undefined {
   const all = mainUnits(course).flatMap((u) => u.lessons.map((l) => ({ unit: u, lesson: l })));
   const own = all.find((x) => x.lesson.id === checkpointId);
   if (!own || own.lesson.kind !== "checkpoint") return undefined;
-  const flat = all.filter((x) => levelOf(x.unit) === levelOf(own.unit));
+  const flat = all.filter((x) => sameTrack(x.unit, own.unit));
   const at = flat.findIndex((x) => x.lesson.id === checkpointId);
   let from = 0;
   for (let i = at - 1; i >= 0; i--) {
@@ -76,7 +90,8 @@ export function checkpointSpan(course: CourseSummary, checkpointId: string): Che
 export function testOutInfo(course: CourseSummary, lessonId: string): TestOutInfo | undefined {
   const span = checkpointSpan(course, lessonId);
   if (!span) return undefined;
-  return { label: span.label, covered: span.lessonIds, order: checkpointIds(course) };
+  const order = isReading(span.units[0]) ? readingCheckpointIds(course) : checkpointIds(course);
+  return { label: span.label, covered: span.lessonIds, order };
 }
 
 /**
@@ -103,13 +118,20 @@ export interface TestOutOffer {
 /**
  * The test-out entry for the course map: the next checkpoint ahead, when something it covers is still
  * unfinished (so a learner whose whole span is done just plays the checkpoint). The normal in-order
- * unlock is unchanged.
+ * unlock is unchanged. The Reading track has its own next checkpoint; its offer is shown only once the
+ * learner has started the Reading track (otherwise the main track's offer comes first).
  */
 export function testOutOffer(course: CourseSummary, completed: Record<string, LessonRecord>): TestOutOffer | undefined {
-  const id = nextCheckpointId(checkpointIds(course), completed);
-  if (!id) return undefined;
-  const span = checkpointSpan(course, id);
-  if (!span) return undefined;
-  const remaining = span.lessonIds.filter((l) => !completed[l]).length;
-  return remaining > 1 ? { id, label: span.label, remaining } : undefined;
+  const offerFor = (order: string[]): TestOutOffer | undefined => {
+    const id = nextCheckpointId(order, completed);
+    if (!id) return undefined;
+    const span = checkpointSpan(course, id);
+    if (!span) return undefined;
+    const remaining = span.lessonIds.filter((l) => !completed[l]).length;
+    return remaining > 1 ? { id, label: span.label, remaining } : undefined;
+  };
+  const main = offerFor(checkpointIds(course));
+  const readingStarted = course.units.some((u) => isReading(u) && u.lessons.some((l) => completed[l.id]));
+  const reading = readingStarted || !main ? offerFor(readingCheckpointIds(course)) : undefined;
+  return reading ?? main;
 }

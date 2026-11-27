@@ -142,9 +142,9 @@ Applied to units with `"level": "intermediate"` only (beginner rules are unchang
 - `npm run audit` prints a **PER LEVEL** block (beginner and intermediate; recycling, load, and the three shares against that level's targets: beginner ≥45% en→bn and ≥8% typed, intermediate ≥55% / ≥15% / ≥20%, with `ok`/`BELOW`) and, for intermediate, the shares per unit. `npm run status` adds a line per level.
 
 ## Reading track (units `r01`, `r02`, …)
-For learners who already speak Bengali but read slowly and lack the formal, written vocabulary of signs, notices, forms and letters. The track lives in its own course section ("Reading track", section 4 in `course.json`), and its units are ordinary main-track intermediate units, so every intermediate rule above applies unchanged:
+For learners who already speak Bengali but read slowly and lack the formal, written vocabulary of signs, notices, forms and letters. The track lives in its own course section ("Reading track", section 4 in `course.json`), and its units are main-track intermediate units marked `"strand": "reading"` (see CONTENT_SCHEMA.md), so every intermediate rule above applies unchanged, plus one vocabulary rule: **allowed words are Sections 1–2, the `bridge` and `heritage-oral` assumed lists and earlier reading units, never the I-track** (`npm run validate` fails with `[reading-vocab]` otherwise):
 ```json
-{ "id": "r01-signs", "track": "main", "level": "intermediate", "section": 4,
+{ "id": "r01-signs", "track": "main", "strand": "reading", "level": "intermediate", "section": 4,
   "assumes": ["bridge", "heritage-oral"], "scriptOnly": true, "lessons": ["r01-l01", "…"] }
 ```
 - **`content/assumed/heritage-oral.json`**: everyday spoken words a fluent speaker knows by ear (এলাকা, ময়লা, জুতা, সিঁড়ি …), used in texts without being taught. Add an entry only when a text needs it; spoken loans (লিফট, কাউন্টার) and plain everyday inflections (সময়ে, ছুটির) belong here too. Ids must not collide with lexicon ids. Formal or written words never go here: they are the course vocabulary.
@@ -166,7 +166,7 @@ For learners who already speak Bengali but read slowly and lack the formal, writ
 | production | `word_bank` en→bn of a sign phrase, 2 `type_translation` en→bn |
 
 - **Review:** each text comes back three times ("first / second / third reading"), plus a `match_pairs` and production items, so that every unit word is a target (`validate:strict` review coverage). **Checkpoint:** an unseen notice of about 60 words and a set of about 6 signs to scan.
-- Recycling applies as in every main-track unit: run `npm run recycle -- --pairs 2` after a change.
+- Recycling applies as in every main-track unit (from the allowed words only): run `npm run recycle -- --pairs 2` after a change.
 
 ## Standard lesson recipe (what the generator emits, in order)
 | # | Exercise | Source |

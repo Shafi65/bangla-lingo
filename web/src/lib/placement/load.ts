@@ -31,6 +31,7 @@ export function loadPlacement(baseDir = getContentBaseDir()): PlacementData | nu
     title: u.title,
     track: u.track,
     level: u.level ?? "beginner",
+    ...(u.strand ? { strand: u.strand } : {}),
     lessons: u.lessons.map((l) => l.id),
   }));
   return { bank, config, units };

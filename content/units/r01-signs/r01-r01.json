@@ -665,32 +665,32 @@
       "id": "r01",
       "type": "select_translation",
       "prompt": {
-        "bn": "এখন আর",
-        "tr": "ekhon ar",
-        "en": "(not) any more"
+        "bn": "দেখতে",
+        "tr": "dekhte",
+        "en": "to see"
       },
       "direction": "en_to_bn",
       "options": [
-        "সাথে সাথে",
-        "এখন আর",
-        "কেটে গেছে",
-        "শহীদ মিনার"
+        "বসুন",
+        "হয়নি",
+        "দেখতে",
+        "দেখে"
       ],
-      "answer": 1,
+      "answer": 2,
       "recycle": true
     },
     {
       "id": "r02",
       "type": "fill_blank",
       "sentence": {
-        "bn": "আমি বাজারে যাচ্ছিলাম, ঠিক তখন নাদিয়া ফোন করল।",
-        "tr": "ami bajare jachchhilam, thik tokhon nadiya fon korlo.",
-        "en": "I was going to the market when Nadia called."
+        "bn": "আমার মা বাবার চেয়ে খাটো।",
+        "tr": "amar ma babar cheye khato.",
+        "en": "My mother is shorter than my father."
       },
-      "blank": "ঠিক তখন",
+      "blank": "চেয়ে",
       "accepted": [
-        "ঠিক তখন",
-        "thik tokhon"
+        "চেয়ে",
+        "cheye"
       ],
       "recycle": true
     },
@@ -698,16 +698,16 @@
       "id": "r03",
       "type": "select_translation",
       "prompt": {
-        "bn": "বদলে গেছে",
-        "tr": "bodle gechhe",
-        "en": "has changed"
+        "bn": "ডাকুন",
+        "tr": "dakun",
+        "en": "please call (standard)"
       },
       "direction": "bn_to_en",
       "options": [
-        "to the Shaheed Minar",
-        "anyway",
-        "sad; upset",
-        "has changed"
+        "to sleep",
+        "I said",
+        "feel (right now)",
+        "please call (standard)"
       ],
       "answer": 3,
       "recycle": true
@@ -717,24 +717,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "চায়",
-          "tr": "chay",
-          "en": "he/she wants"
+          "bn": "করবে",
+          "tr": "korbe",
+          "en": "you (familiar) / he, she will do"
         },
         {
-          "bn": "চলো",
-          "tr": "cholo",
-          "en": "let's"
+          "bn": "বলতে",
+          "tr": "bolte",
+          "en": "to speak"
         },
         {
-          "bn": "খেলাম",
-          "tr": "khelam",
-          "en": "I ate"
+          "bn": "আসতে",
+          "tr": "ashte",
+          "en": "to come"
         },
         {
-          "bn": "ধরে",
-          "tr": "dhore",
-          "en": "for (a time)"
+          "bn": "আটটায়",
+          "tr": "attay",
+          "en": "at eight o'clock"
         }
       ],
       "recycle": true
@@ -744,24 +744,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "প্লিজ",
-          "tr": "plij",
-          "en": "please"
+          "bn": "পারবেন",
+          "tr": "parben",
+          "en": "you (polite) will be able to"
         },
         {
-          "bn": "যাবি",
-          "tr": "jabi",
-          "en": "you (intimate) will go"
+          "bn": "এলে",
+          "tr": "ele",
+          "en": "you came (familiar)"
         },
         {
-          "bn": "খেয়েছেন",
-          "tr": "kheyechhen",
-          "en": "have you eaten (polite)"
+          "bn": "চার",
+          "tr": "char",
+          "en": "four"
         },
         {
-          "bn": "চেয়ে",
-          "tr": "cheye",
-          "en": "than"
+          "bn": "জোরে",
+          "tr": "jore",
+          "en": "loudly"
         }
       ],
       "recycle": true

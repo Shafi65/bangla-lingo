@@ -10,13 +10,16 @@
 //   --count-late M  count for lessons from --late-from onward (default: same as --count)
 //   --late-from   unit prefix where --count-late starts (default u06)
 //
+// Reading-track units ("strand": "reading") recycle only words and sentences from Sections 1-2, their assumed lists
+// (as distractors) and earlier reading units, never the I-track (see mayUseWordsFrom in lib.mjs).
+//
 // Intermediate units (course.json "level": "intermediate") also rotate through fill_blank (choose / typed) and listen_meaning
 // forms, built from plan sentences whose words are all taught by then; units that "assume" lists may use those entries as distractors.
 //
 // Idempotent: existing `"recycle": true` exercises are removed first; hand-written exercises are never touched.
 // Deterministic: random choices are seeded by lesson id.
 import {
-  CORE_POS, assumedFor, blankOccurrences, enKey, exerciseText, hasForm, isRecycle, lessonPath, loadAll, loadLessons, rng, shuffle, tokenize,
+  CORE_POS, assumedFor, blankOccurrences, enKey, exerciseText, hasForm, isRecycle, lessonPath, loadAll, loadLessons, mayUseWordsFrom, rng, shuffle, tokenize,
   unitLevel, writeJson,
 } from "./lib.mjs";
 
@@ -79,7 +82,23 @@ for (const e of ctx.lexicon.values()) {
 /** Plan sentences from earlier lessons whose every word is taught by lesson i (or assumed by its unit). */
 function sentencesFor(i, unit) {
   const assumedTok = new Set(assumedFor(ctx, unit).flatMap((e) => tokenize(e.bn)));
-  return planSentences.filter((sn) => sn.at < i && sn.toks.every((t) => assumedTok.has(t) || (introPos.get(t) ?? Infinity) <= i));
+  const intro = introPosFor(unit);
+  return planSentences.filter((sn) => sn.at < i && mayUseWordsFrom(ctx, unit, lessons[sn.at].unit) && sn.toks.every((t) => assumedTok.has(t) || (intro.get(t) ?? Infinity) <= i));
+}
+// Same as introPos, but counting only words a reading-track unit may use.
+const readingIntroPos = new Map();
+function introPosFor(unit) {
+  if (unit.strand !== "reading") return introPos;
+  if (!readingIntroPos.has(unit.id)) {
+    const m = new Map();
+    for (const e of ctx.lexicon.values()) {
+      const at = lessonPos.get(e.lesson);
+      if (at === undefined || !mayUseWordsFrom(ctx, unit, ctx.units.get(e._unit))) continue;
+      for (const t of tokenize(e.bn)) if (!m.has(t) || m.get(t) > at) m.set(t, at);
+    }
+    readingIntroPos.set(unit.id, m);
+  }
+  return readingIntroPos.get(unit.id);
 }
 
 function build(kind, target, pool, rand, sents = []) {
@@ -160,9 +179,10 @@ lessons.forEach((l, i) => {
   const n = lateIdx >= 0 && unitIdx(l.unit.id) >= lateIdx ? COUNT_LATE : COUNT;
   const rand = rng("recycle:" + l.id);
   const intermediate = unitLevel(l.unit) === "intermediate";
-  const pool = [...words.filter((w) => w.at <= i), ...assumedFor(ctx, l.unit)]; // assumed entries: distractors only, never targets
+  const usable = (w) => mayUseWordsFrom(ctx, l.unit, lessons[w.at].unit); // reading track: never the I-track
+  const pool = [...words.filter((w) => w.at <= i && usable(w)), ...assumedFor(ctx, l.unit)]; // assumed entries: distractors only, never targets
   const sents = intermediate ? sentencesFor(i, l.unit) : [];
-  const cands = words.filter((w) => w.at < i && !hasForm(handHere, w.bn) && !prevMainRecycled.has(w.id));
+  const cands = words.filter((w) => w.at < i && usable(w) && !hasForm(handHere, w.bn) && !prevMainRecycled.has(w.id));
   const scored = cands.map((w) => {
     const ideal = IDEAL_GAP[Math.min(w.count, IDEAL_GAP.length - 1)];
     const since = i - w.lastSeen;

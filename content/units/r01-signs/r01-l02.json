@@ -385,32 +385,32 @@
       "id": "r01",
       "type": "select_translation",
       "prompt": {
-        "bn": "নামলাম",
-        "tr": "namlam",
-        "en": "I got off"
+        "bn": "থাকবেন",
+        "tr": "thakben",
+        "en": "you / he, she (polite) will stay"
       },
       "direction": "en_to_bn",
       "options": [
-        "দেখিনি",
-        "হল",
-        "নামলাম",
-        "নিল"
+        "থাকবেন",
+        "দিতে",
+        "করছি",
+        "করলেন"
       ],
-      "answer": 2,
+      "answer": 0,
       "recycle": true
     },
     {
       "id": "r02",
       "type": "fill_blank",
       "sentence": {
-        "bn": "আমি দৌড়ে বাস ধরলাম।",
-        "tr": "ami doure bas dhorlam.",
-        "en": "I ran and caught the bus."
+        "bn": "পৌনে দশটা বাজে।",
+        "tr": "poune doshta baje.",
+        "en": "It's quarter to ten."
       },
-      "blank": "ধরলাম",
+      "blank": "দশটা",
       "accepted": [
-        "ধরলাম",
-        "dhorlam"
+        "দশটা",
+        "doshta"
       ],
       "recycle": true
     },
@@ -418,18 +418,18 @@
       "id": "r03",
       "type": "select_translation",
       "prompt": {
-        "bn": "দাঁড়িয়ে",
-        "tr": "da~riye",
-        "en": "standing"
+        "bn": "দেখো",
+        "tr": "dekho",
+        "en": "look (familiar)"
       },
       "direction": "bn_to_en",
       "options": [
-        "does",
-        "standing",
-        "you are doing (familiar)",
-        "you were (polite)"
+        "you (polite) / he, she (polite) have said",
+        "send (familiar)",
+        "am not",
+        "look (familiar)"
       ],
-      "answer": 1,
+      "answer": 3,
       "recycle": true
     },
     {
@@ -437,24 +437,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "সবাইকে",
-          "tr": "shobaike",
-          "en": "everyone"
+          "bn": "ষোলো",
+          "tr": "sholo",
+          "en": "sixteen"
         },
         {
-          "bn": "গ্রামের",
-          "tr": "gramer",
-          "en": "of the village"
+          "bn": "পাঁচ",
+          "tr": "pa~ch",
+          "en": "five"
         },
         {
-          "bn": "চিঠি",
-          "tr": "chithi",
-          "en": "letter"
+          "bn": "জানাব",
+          "tr": "janabo",
+          "en": "I will let (you) know"
         },
         {
-          "bn": "উঠেছে",
-          "tr": "uthechhe",
-          "en": "has come out; has risen"
+          "bn": "থাকতে",
+          "tr": "thakte",
+          "en": "to stay"
         }
       ],
       "recycle": true
@@ -464,14 +464,14 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "আসবি",
-          "tr": "ashbi",
-          "en": "will you come (intimate)"
+          "bn": "তার",
+          "tr": "tar",
+          "en": "his/her"
         },
         {
-          "bn": "চল্লিশ",
-          "tr": "chollish",
-          "en": "forty"
+          "bn": "খেয়েছি",
+          "tr": "kheyechhi",
+          "en": "I have eaten"
         },
         {
           "bn": "এসেছে",
@@ -479,9 +479,9 @@
           "en": "has come"
         },
         {
-          "bn": "নে",
-          "tr": "ne",
-          "en": "take (intimate)"
+          "bn": "পাঁচটা",
+          "tr": "pa~chta",
+          "en": "five (o'clock)"
         }
       ],
       "recycle": true

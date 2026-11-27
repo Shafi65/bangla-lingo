@@ -4,12 +4,14 @@
 //   --strict  also turns the teaching-quality rules into errors (npm run validate:strict):
 //             untaught Bengali in main-track exercises, production-first new words, >10 new items in a lesson,
 //             unit reviews covering <80% of the unit's words, reviews that introduce new words.
+//             Reading-track units ("strand": "reading") may only use words from Sections 1-2, their assumed lists and earlier
+//             reading units, never the I-track; this rule is always on (plain validate), not only with --strict.
 //             Intermediate units (course.json "level": "intermediate") also get: <=12 new items per lesson, a reading and a
 //             listen_meaning in every non-review lesson, and per-unit skill shares (en->bn >=55%, typed >=15%, sentence listening >=20%).
 import fs from "node:fs";
 import {
   BENGALI, EXERCISE_RANGE, LEVELS, LEVEL_TARGETS, MAX_NEW, POS, REGISTERS, assumedFor, blankOccurrences, findProductionFirst, findUntaught,
-  isRecycle, isReviewLesson, knownAt, lessonPath, lessonsByUnit, loadAll, loadLessons, readJson, rel, reviewCoverage, skillStats, tokenize,
+  isReadingUnit, isRecycle, isReviewLesson, knownAt, mayUseWordsFrom, lessonPath, lessonsByUnit, loadAll, loadLessons, readJson, rel, reviewCoverage, skillStats, tokenize,
   unitLevel,
 } from "./lib.mjs";
 
@@ -134,6 +136,7 @@ for (const [uid, plan] of plans) {
       const e = lexicon.get(id);
       if (!e) { if (!asmIds.has(id)) err(where, `review "${id}" not in lexicon${unit.assumes?.length ? " or the unit's assumed lists" : ""}`); }
       else if ((lessonInfo.get(e.lesson)?.index ?? Infinity) >= myIdx) err(where, `review "${id}" isn't introduced until ${e.lesson}`);
+      else if (!mayUseWordsFrom(ctx, unit, ctx.units.get(e._unit))) err(where, `[reading-vocab] review "${id}" is taught in ${e.lesson}, outside the reading track's vocabulary (Sections 1–2, assumed lists, earlier reading units)`);
     }
     // preview: reading examples from any unit (script track), must exist in lexicon
     for (const id of L.preview ?? []) if (!lexicon.has(id)) err(where, `preview "${id}" not in lexicon`);
@@ -328,6 +331,13 @@ let lessonCount = 0, exCount = 0;
 for (const u of course.units) {
   const where = `course.json unit ${u.id}`;
   if (!["main", "script"].includes(u.track)) err(where, `bad track "${u.track}"`);
+  if (u.strand !== undefined && u.strand !== "reading") err(where, `bad strand "${u.strand}" (only "reading")`);
+  if (u.strand === "reading") {
+    if (u.track !== "main") err(where, `a reading-track unit must have "track": "main"`);
+    for (const n of u.assumes ?? []) if (!["bridge", "heritage-oral"].includes(n)) err(where, `a reading-track unit may only assume "bridge" and "heritage-oral", not "${n}"`);
+    if (u.level !== "intermediate") err(where, `a reading-track unit must have "level": "intermediate"`);
+  }
+  if (/^r\d+-/.test(u.id ?? "") !== (u.strand === "reading")) err(where, `reading-track units (and only those) have "strand": "reading" and an id like r01-…`);
   if (!isStr(u.title)) err(where, "missing title");
   if (u.level !== undefined && !LEVELS.includes(u.level)) err(where, `bad level "${u.level}" (one of ${LEVELS.join(", ")})`);
   if (u.section !== undefined) {
@@ -393,11 +403,19 @@ for (const u of course.units) {
   }
 }
 
+// ---------------------------------------------------------------- reading-track vocabulary (always enforced)
+// Exercise text of reading-track lessons (recycle included) may not use words taught only in the I-track.
+{
+  const readingLessons = loadLessons(ctx).filter((l) => isReadingUnit(l.unit));
+  for (const t of findUntaught(ctx, readingLessons))
+    if (t.outsideReading) err(`${t.lesson} ${t.ex}`, `[reading-vocab] "${t.token}" is taught in ${t.outsideReading}; reading-track lessons may only use Sections 1–2, assumed lists and earlier reading units`);
+}
+
 // ---------------------------------------------------------------- strict (teaching-quality) rules
 if (strict) {
   const lessons = loadLessons(ctx);
   const main = lessons.filter((l) => l.unit.track === "main");
-  for (const t of findUntaught(ctx, lessons))
+  for (const t of findUntaught(ctx, lessons).filter((x) => !x.outsideReading)) // outsideReading ones are reported above
     serr("untaught", `${t.lesson} ${t.ex}`, `Bengali "${t.token}" shown before it is taught${t.taughtIn ? ` (taught in ${t.taughtIn})` : " (not in the lexicon)"}`);
   for (const p of findProductionFirst(main))
     serr("production-first", p.lesson, `new word "${p.word}" first appears in ${p.ex} (${p.type}), a production exercise`);
