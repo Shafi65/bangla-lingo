@@ -36,13 +36,14 @@ function spanLabel(course: CourseSummary, units: UnitSummary[]): string {
   const labels = new Map(numberUnits(course).map((n) => [n.unit.id, n]));
   const name = (u: UnitSummary) => {
     const n = labels.get(u.id)?.label ?? u.title;
-    return u.level === "intermediate" ? `Intermediate ${n}` : n;
+    return u.level === "intermediate" ? (n === "Bridge" ? "Intermediate: Bridge" : `Intermediate ${n}`) : n;
   };
   const first = units[0];
   const last = units[units.length - 1];
   if (first.id === last.id) return name(first);
   if ((first.level === "intermediate") !== (last.level === "intermediate")) return `${name(first)} to ${name(last)}`;
   const num = (u: UnitSummary) => (labels.get(u.id)?.label ?? "").replace(/^Unit /, "");
+  if (num(first) === "Bridge") return `Bridge to Unit ${num(last)}`;
   return `Units ${num(first)}–${num(last)}`;
 }
 

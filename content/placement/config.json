@@ -6,7 +6,7 @@
     { "id": "A1", "label": "Units 1–5", "startUnit": "u01-basics" },
     { "id": "A2a", "label": "Units 6–10", "startUnit": "u06-bazaar" },
     { "id": "A2b", "label": "Units 11–12", "startUnit": "u11-plans" },
-    { "id": "B1", "label": "Intermediate", "startUnit": "i01-catching-up" }
+    { "id": "B1", "label": "Intermediate", "startUnit": "i00-bridge" }
   ],
   "skills": {
     "listening": "listening",

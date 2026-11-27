@@ -53,13 +53,13 @@ test("all correct places the learner in the intermediate track and marks the ear
   await startTest(page);
   const shown = await answerAll(page, true);
   expect(shown).toBe(16); // perfect warm-up + top block ends the test early
-  await expect(page.getByRole("heading", { level: 1 })).toHaveText("Start at Intermediate Unit 1: Catching up");
+  await expect(page.getByRole("heading", { level: 1 })).toHaveText("Start at Intermediate: Bridge");
   await expect(page.getByText("You start here")).toBeVisible();
   await expect(page.getByText("16 of 16 right")).toHaveCount(0); // scores are per skill
   await expect(page.getByText(/of \d+ right/)).toHaveCount(3);
 
-  await page.getByRole("button", { name: "Start at Intermediate Unit 1" }).click();
-  await expect(page).toHaveURL(/\/lesson\/i01-l01$/);
+  await page.getByRole("button", { name: "Start at Intermediate: Bridge" }).click();
+  await expect(page).toHaveURL(/\/lesson\/i00-l01$/);
   const stored = await page.evaluate(
     ([p, k]) => ({ progress: JSON.parse(localStorage.getItem(p) ?? "{}"), placement: JSON.parse(localStorage.getItem(k) ?? "{}") }),
     [PROGRESS_KEY, PLACEMENT_KEY],
@@ -68,13 +68,13 @@ test("all correct places the learner in the intermediate track and marks the ear
   expect(done).toContain("u01-l01");
   expect(done).toContain("s01-l01");
   expect(done).toContain("u11-l01");
-  expect(done.some((id) => id.startsWith("i01"))).toBe(false);
+  expect(done.some((id) => id.startsWith("i00"))).toBe(false);
   expect(stored.progress.xp).toBe(0);
   expect(stored.progress.streak).toBe(0);
   expect(stored.progress.lastActiveDate).toBeNull();
   expect(stored.progress.daily ?? {}).toEqual({});
   expect(stored.progress.completed["u01-l01"]).toMatchObject({ placed: true, bestAccuracy: 0, timesCompleted: 0 });
-  expect(stored.placement).toMatchObject({ version: 1, accepted: true, route: "intermediate", startLessonId: "i01-l01" });
+  expect(stored.placement).toMatchObject({ version: 1, accepted: true, route: "intermediate", startLessonId: "i00-l01" });
 
   // The map now recommends the placed lesson.
   await page.goto("/");

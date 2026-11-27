@@ -297,6 +297,11 @@ export function unitLabel(units: readonly PlacementUnit[], id: string): string {
   const u = units.find((x) => x.id === id);
   if (!u) return id;
   if (u.track === "script") return u.title;
+  if (u.level === "intermediate") {
+    const m = /^i(\d+)-/.exec(u.id);
+    if (m && Number(m[1]) === 0) return `Intermediate: ${u.title}`;
+    if (m) return `Intermediate Unit ${Number(m[1])}: ${u.title}`;
+  }
   const n = units.filter((x) => x.track === "main" && x.level === u.level).findIndex((x) => x.id === id) + 1;
   return `${u.level === "intermediate" ? "Intermediate Unit" : "Unit"} ${n}: ${u.title}`;
 }

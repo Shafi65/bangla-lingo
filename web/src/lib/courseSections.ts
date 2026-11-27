@@ -16,14 +16,23 @@ export interface Section {
 
 const isIntermediate = (u: UnitSummary) => u.level === "intermediate";
 
+/** Intermediate units are numbered from their id ("i00-bridge" is 0, "i01-…" is 1); undefined if the id has no number. */
+export function intermediateNumber(id: string): number | undefined {
+  const m = /^i(\d+)-/.exec(id);
+  return m ? Number(m[1]) : undefined;
+}
+
 export function numberUnits(course: CourseSummary): NumberedUnit[] {
   let beginnerN = 0;
   let intermediateN = 0;
   let scriptN = 0;
-  return course.units.map((unit) => ({
-    unit,
-    label: unit.track === "script" ? `Script ${++scriptN}` : `Unit ${isIntermediate(unit) ? ++intermediateN : ++beginnerN}`,
-  }));
+  return course.units.map((unit) => {
+    if (unit.track === "script") return { unit, label: `Script ${++scriptN}` };
+    if (!isIntermediate(unit)) return { unit, label: `Unit ${++beginnerN}` };
+    intermediateN++;
+    const n = intermediateNumber(unit.id) ?? intermediateN;
+    return { unit, label: n === 0 ? "Bridge" : `Unit ${n}` };
+  });
 }
 
 /**

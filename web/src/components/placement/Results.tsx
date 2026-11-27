@@ -42,7 +42,7 @@ export function Results({
   }).filter((s) => !s.empty);
   const atStart = p.route === "start" || p.route === "alphabet";
   const headline = p.route === "alphabet" || p.route === "fast-lane" ? "Start with the alphabet" : `Start at ${p.startLabel}`;
-  const short = p.startLabel.split(":")[0];
+  const short = /^Intermediate: /.test(p.startLabel) ? p.startLabel : p.startLabel.split(":")[0];
 
   return (
     <div className="animate-rise flex flex-1 flex-col gap-7">
