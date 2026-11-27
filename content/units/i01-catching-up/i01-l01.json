@@ -515,54 +515,52 @@
     },
     {
       "id": "r01",
-      "type": "listen_select",
+      "type": "listen_meaning",
       "audio": {
-        "bn": "কখনো না",
-        "tr": "kokhono na",
-        "en": "never"
+        "bn": "হ্যালো, আমি নাদিয়া বলছি।",
+        "tr": "hyalo, ami nadiya bolchhi.",
+        "en": "Hello, this is Nadia."
       },
       "options": [
-        "লাগবে না",
-        "কখনো না",
-        "কেটে গেছে",
-        "আলহামদুলিল্লাহ"
-      ],
-      "answer": 1,
-      "recycle": true
-    },
-    {
-      "id": "r02",
-      "type": "fill_blank",
-      "sentence": {
-        "bn": "ওর পা ব্যথা করছে।",
-        "tr": "or pa byatha korchhe.",
-        "en": "His leg hurts."
-      },
-      "blank": "পা",
-      "options": [
-        "পা",
-        "ফল",
-        "মেলায়",
-        "দিবস"
+        "Hello, this is Nadia.",
+        "Come here.",
+        "I am at the market.",
+        "I can't come today."
       ],
       "answer": 0,
       "recycle": true
     },
     {
-      "id": "r03",
-      "type": "listen_meaning",
-      "audio": {
-        "bn": "এটা খালি পেটে খাবেন না।",
-        "tr": "eta khali pete khaben na.",
-        "en": "Don't take this on an empty stomach."
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "সবুজ",
+        "tr": "shobuj",
+        "en": "green"
       },
+      "direction": "en_to_bn",
       "options": [
-        "There are fifteen people here.",
-        "How much is a kilo of onions?",
-        "I want two eggs.",
-        "Don't take this on an empty stomach."
+        "খালি",
+        "ভারী",
+        "সবুজ",
+        "লাজুক"
       ],
-      "answer": 3,
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "নাদিয়া একটু লাজুক।",
+        "tr": "nadiya ektu lajuk.",
+        "en": "Nadia is a little shy."
+      },
+      "blank": "লাজুক",
+      "accepted": [
+        "লাজুক",
+        "lajuk"
+      ],
       "recycle": true
     },
     {
@@ -570,24 +568,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "পারবে",
-          "tr": "parbe",
-          "en": "you (familiar) / he, she will be able to"
+          "bn": "বাতাস",
+          "tr": "batash",
+          "en": "wind; air"
         },
         {
-          "bn": "কাল",
-          "tr": "kal",
-          "en": "tomorrow; yesterday"
+          "bn": "সাদা",
+          "tr": "shada",
+          "en": "white"
         },
         {
-          "bn": "পারবেন",
-          "tr": "parben",
-          "en": "you (polite) will be able to"
+          "bn": "শীত",
+          "tr": "shit",
+          "en": "cold (weather); winter"
         },
         {
-          "bn": "সুস্থ",
-          "tr": "shustho",
-          "en": "well; healthy"
+          "bn": "ছাতা",
+          "tr": "chhata",
+          "en": "umbrella"
         }
       ],
       "recycle": true
@@ -597,24 +595,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "দেখবেন",
-          "tr": "dekhben",
-          "en": "you (polite) will see"
+          "bn": "থাকবেন",
+          "tr": "thakben",
+          "en": "you / he, she (polite) will stay"
         },
         {
-          "bn": "থাকবে",
-          "tr": "thakbe",
-          "en": "you (familiar) / he, she will stay"
+          "bn": "হতে",
+          "tr": "hote",
+          "en": "to become"
         },
         {
-          "bn": "এইটা",
-          "tr": "eita",
-          "en": "this one"
+          "bn": "শুনতে",
+          "tr": "shunte",
+          "en": "to listen"
         },
         {
-          "bn": "আসতে",
-          "tr": "ashte",
-          "en": "to come"
+          "bn": "প্রিয়",
+          "tr": "priyo",
+          "en": "favourite"
         }
       ],
       "recycle": true

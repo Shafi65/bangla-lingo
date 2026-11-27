@@ -1,0 +1,610 @@
+{
+  "id": "i02-l07",
+  "unit": "i02-and-then",
+  "title": "What happened?",
+  "status": "draft",
+  "tip": "To retell, chain the steps with participles and keep one finite verb at the end:\n\n**বাস থেকে নেমে হেঁটে অফিসে গেলাম** 'I got off the bus and walked to the office.'\n\nEach participle is one step: **নেমে** 'having got off', **দাঁড়িয়ে** 'standing', **হেঁটে** 'walking'. Start a new sentence when the subject changes.\n\nUseful in stories: **শেষমেশ** 'in the end', **যাই হোক** 'anyway' (back to the point), **ধরলাম** 'I caught (a bus)', **নামলাম** 'I got off'. **বাস দাঁড়িয়ে ছিল** 'the bus was standing still'.",
+  "vocab": [
+    {
+      "id": "neme",
+      "bn": "নেমে",
+      "tr": "neme",
+      "en": "having got off"
+    },
+    {
+      "id": "namlam",
+      "bn": "নামলাম",
+      "tr": "namlam",
+      "en": "I got off"
+    },
+    {
+      "id": "dhorlam",
+      "bn": "ধরলাম",
+      "tr": "dhorlam",
+      "en": "I caught"
+    },
+    {
+      "id": "dariye",
+      "bn": "দাঁড়িয়ে",
+      "tr": "da~riye",
+      "en": "standing"
+    },
+    {
+      "id": "opekkha-korlam",
+      "bn": "অপেক্ষা করলাম",
+      "tr": "opekkha korlam",
+      "en": "I waited"
+    },
+    {
+      "id": "sheshmesh",
+      "bn": "শেষমেশ",
+      "tr": "sheshmesh",
+      "en": "in the end"
+    },
+    {
+      "id": "jai-hok",
+      "bn": "যাই হোক",
+      "tr": "jai hok",
+      "en": "anyway"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "রাফি নাকি অসুস্থ।",
+        "tr": "rafi naki oshustho.",
+        "en": "Apparently Rafi is ill."
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "রাফি নাকি অসুস্থ।",
+        "রাফি অসুস্থ, তাই না?",
+        "রাফি অসুস্থ ছিল।",
+        "রাফি তো অসুস্থ।"
+      ],
+      "answer": 0,
+      "why": "Hearsay: **নাকি**."
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ভিড়",
+        "tr": "bhir",
+        "en": "crowd"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "ঘটনা",
+        "ভিড়",
+        "খবর",
+        "জ্যাম"
+      ],
+      "answer": 1,
+      "why": "**ভিড়** 'crowd'; **জ্যাম** 'traffic jam'."
+    },
+    {
+      "id": "e03",
+      "type": "reading",
+      "title": "Nadia's voice note",
+      "lines": [
+        {
+          "bn": "আজ সকালে আমি তাড়াতাড়ি বাস ধরলাম।",
+          "tr": "aj shokale ami taratari bas dhorlam.",
+          "en": "This morning I caught the bus early."
+        },
+        {
+          "bn": "কিন্তু অনেক জ্যাম ছিল, বাস দাঁড়িয়ে ছিল।",
+          "tr": "kintu onek jyam chhilo, bas da~riye chhilo.",
+          "en": "But there was a lot of traffic; the bus wasn't moving."
+        },
+        {
+          "bn": "আমি কিছুক্ষণ অপেক্ষা করলাম।",
+          "tr": "ami kichhukkhon opekkha korlam.",
+          "en": "I waited for a while."
+        },
+        {
+          "bn": "তারপর বাস থেকে নেমে আমি হেঁটে অফিসে গেলাম।",
+          "tr": "tarpor bas theke neme ami he~te ofise gelam.",
+          "en": "Then I got off the bus and walked to the office."
+        },
+        {
+          "bn": "তখন বৃষ্টি হচ্ছিল, আমি ভিজে গেলাম।",
+          "tr": "tokhon brishti hochchhilo, ami bhije gelam.",
+          "en": "It was raining then, and I got soaked."
+        },
+        {
+          "bn": "যাই হোক, শেষমেশ আমি দশটায় অফিসে পৌঁছালাম।",
+          "tr": "jai hok, sheshmesh ami doshtay ofise pou~chhalam.",
+          "en": "Anyway, in the end I got to the office at ten."
+        }
+      ],
+      "question": "Why did Nadia walk to the office?",
+      "options": [
+        "She likes walking",
+        "She missed the bus",
+        "The bus was stuck in traffic"
+      ],
+      "answer": 2,
+      "why": "**বাস দাঁড়িয়ে ছিল** 'the bus was standing still'."
+    },
+    {
+      "id": "e04",
+      "type": "reading",
+      "title": "Messages",
+      "lines": [
+        {
+          "speaker": "Nadia",
+          "bn": "আসসালামু আলাইকুম। আমার আজ দেরি হবে।",
+          "tr": "assalamu alaikum. amar aj deri hobe.",
+          "en": "Hello. I'll be late today."
+        },
+        {
+          "speaker": "Boss",
+          "bn": "কী হয়েছে?",
+          "tr": "ki hoyechhe?",
+          "en": "What happened?"
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "অনেক জ্যাম, বাস দাঁড়িয়ে আছে।",
+          "tr": "onek jyam, bas da~riye achhe.",
+          "en": "Lots of traffic; the bus isn't moving."
+        },
+        {
+          "speaker": "Boss",
+          "bn": "ঠিক আছে, চিন্তা করবেন না।",
+          "tr": "thik achhe, chinta korben na.",
+          "en": "OK, don't worry."
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "ধন্যবাদ। আমি বাস থেকে নেমে হেঁটে আসছি।",
+          "tr": "dhonnobad. ami bas theke neme he~te ashchhi.",
+          "en": "Thank you. I'm getting off the bus and walking."
+        }
+      ],
+      "question": "Why is Nadia writing to her boss?",
+      "options": [
+        "She will be late",
+        "She is ill",
+        "She lost her phone"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e05",
+      "type": "reading",
+      "title": "Messages",
+      "lines": [
+        {
+          "speaker": "Nadia",
+          "bn": "আসসালামু আলাইকুম। আমার আজ দেরি হবে।",
+          "tr": "assalamu alaikum. amar aj deri hobe.",
+          "en": "Hello. I'll be late today."
+        },
+        {
+          "speaker": "Boss",
+          "bn": "কী হয়েছে?",
+          "tr": "ki hoyechhe?",
+          "en": "What happened?"
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "অনেক জ্যাম, বাস দাঁড়িয়ে আছে।",
+          "tr": "onek jyam, bas da~riye achhe.",
+          "en": "Lots of traffic; the bus isn't moving."
+        },
+        {
+          "speaker": "Boss",
+          "bn": "ঠিক আছে, চিন্তা করবেন না।",
+          "tr": "thik achhe, chinta korben na.",
+          "en": "OK, don't worry."
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "ধন্যবাদ। আমি বাস থেকে নেমে হেঁটে আসছি।",
+          "tr": "dhonnobad. ami bas theke neme he~te ashchhi.",
+          "en": "Thank you. I'm getting off the bus and walking."
+        }
+      ],
+      "question": "What does Nadia decide to do?",
+      "options": [
+        "Go back home",
+        "Get off and walk",
+        "Wait on the bus"
+      ],
+      "answer": 1,
+      "why": "**নেমে হেঁটে আসছি** 'getting off and walking (here)'."
+    },
+    {
+      "id": "e06",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "আমি বাস থেকে নেমে হেঁটে বাসায় গেলাম।",
+        "tr": "ami bas theke neme he~te bashay gelam.",
+        "en": "I got off the bus and walked home."
+      },
+      "options": [
+        "I got on the bus and went home.",
+        "I went home by bus.",
+        "I got off the bus and walked home.",
+        "I walked to the bus stop."
+      ],
+      "answer": 2,
+      "why": "**নেমে** 'having got off', **হেঁটে** 'on foot', then **গেলাম**."
+    },
+    {
+      "id": "e07",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "আমি দৌড়ে বাস ধরলাম।",
+        "tr": "ami doure bas dhorlam.",
+        "en": "I ran and caught the bus."
+      },
+      "options": [
+        "I missed the bus.",
+        "I walked to the bus.",
+        "I ran and caught the bus.",
+        "I got off the bus and ran."
+      ],
+      "answer": 2,
+      "why": "**দৌড়ে** 'running' + **ধরলাম** 'I caught'."
+    },
+    {
+      "id": "e08",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "নামলাম",
+          "tr": "namlam",
+          "en": "I got off"
+        },
+        {
+          "bn": "ধরলাম",
+          "tr": "dhorlam",
+          "en": "I caught"
+        },
+        {
+          "bn": "শেষমেশ",
+          "tr": "sheshmesh",
+          "en": "in the end"
+        },
+        {
+          "bn": "যাই হোক",
+          "tr": "jai hok",
+          "en": "anyway"
+        },
+        {
+          "bn": "অপেক্ষা করলাম",
+          "tr": "opekkha korlam",
+          "en": "I waited"
+        }
+      ]
+    },
+    {
+      "id": "e09",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "বাসে খুব ভিড় ছিল, তাই আমি দাঁড়িয়ে ছিলাম।",
+        "tr": "base khub bhir chhilo, tai ami da~riye chhilam.",
+        "en": "The bus was very crowded, so I was standing."
+      },
+      "blank": "দাঁড়িয়ে",
+      "options": [
+        "দাঁড়িয়ে",
+        "দাঁড়ান",
+        "দাঁড়াও",
+        "বসো"
+      ],
+      "answer": 0,
+      "why": "Participle + ছিলাম: **দাঁড়িয়ে ছিলাম** 'I was standing'."
+    },
+    {
+      "id": "e10",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আমি বাস থেকে নেমে হেঁটে বাসায় গেলাম।",
+        "tr": "ami bas theke neme he~te bashay gelam.",
+        "en": "I got off the bus and walked home."
+      },
+      "blank": "নেমে",
+      "options": [
+        "নেমে",
+        "উঠে",
+        "নামলাম",
+        "এসে"
+      ],
+      "answer": 0,
+      "why": "Only the last verb is finite; earlier steps are participles: **নেমে**."
+    },
+    {
+      "id": "e11",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "আমি অপেক্ষা করিনি, হেঁটে চলে গেলাম।",
+        "tr": "ami opekkha korini, he~te chole gelam.",
+        "en": "I didn't wait; I walked off."
+      },
+      "options": [
+        "I'll wait here.",
+        "I didn't wait; I walked off.",
+        "I waited and then walked.",
+        "I waited all night."
+      ],
+      "answer": 1,
+      "why": "**অপেক্ষা করিনি** 'I didn't wait'."
+    },
+    {
+      "id": "e12",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আমরা স্টেশনে নামলাম।",
+        "tr": "amra steshone namlam.",
+        "en": "We got off at the station."
+      },
+      "blank": "নামলাম",
+      "accepted": [
+        "নামলাম",
+        "namlam"
+      ],
+      "why": "আমরা + simple past: **নামলাম** 'we got off'."
+    },
+    {
+      "id": "e13",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমি বাস থেকে নেমে হেঁটে অফিসে গেলাম।",
+        "tr": "ami bas theke neme he~te ofise gelam.",
+        "en": "I got off the bus and walked to the office."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "যাই",
+        "হেঁটে",
+        "আমি",
+        "উঠে",
+        "নামলাম",
+        "অফিসে",
+        "গেলাম",
+        "থেকে",
+        "নেমে",
+        "বাস"
+      ],
+      "answer": [
+        "আমি",
+        "বাস",
+        "থেকে",
+        "নেমে",
+        "হেঁটে",
+        "অফিসে",
+        "গেলাম"
+      ],
+      "alt": [
+        [
+          "বাস",
+          "থেকে",
+          "নেমে",
+          "আমি",
+          "হেঁটে",
+          "অফিসে",
+          "গেলাম"
+        ],
+        [
+          "বাস",
+          "থেকে",
+          "নেমে",
+          "হেঁটে",
+          "অফিসে",
+          "গেলাম"
+        ]
+      ],
+      "why": "Chain: **নেমে** → **হেঁটে** → finite **গেলাম**."
+    },
+    {
+      "id": "e14",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমি স্টেশনে এক ঘণ্টা অপেক্ষা করলাম।",
+        "tr": "ami steshone ek ghonta opekkha korlam.",
+        "en": "I waited at the station for an hour."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "দুই",
+        "অপেক্ষা",
+        "আমি",
+        "এক",
+        "করলাম",
+        "করি",
+        "ঘণ্টা",
+        "স্টেশনে",
+        "নামলাম"
+      ],
+      "answer": [
+        "আমি",
+        "স্টেশনে",
+        "এক",
+        "ঘণ্টা",
+        "অপেক্ষা",
+        "করলাম"
+      ],
+      "alt": [
+        [
+          "স্টেশনে",
+          "আমি",
+          "এক",
+          "ঘণ্টা",
+          "অপেক্ষা",
+          "করলাম"
+        ],
+        [
+          "আমি",
+          "এক",
+          "ঘণ্টা",
+          "স্টেশনে",
+          "অপেক্ষা",
+          "করলাম"
+        ],
+        [
+          "স্টেশনে",
+          "এক",
+          "ঘণ্টা",
+          "অপেক্ষা",
+          "করলাম"
+        ]
+      ],
+      "why": "**অপেক্ষা করলাম** 'I waited'."
+    },
+    {
+      "id": "e15",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "যাই হোক, আমি ভালো আছি।",
+        "tr": "jai hok, ami bhalo achhi.",
+        "en": "Anyway, I'm fine."
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "যাই হোক, আমি ভালো আছি",
+        "যাই হোক, ভালো আছি",
+        "jai hok ami bhalo achhi",
+        "jai hok bhalo achhi"
+      ],
+      "why": "**যাই হোক** 'anyway'."
+    },
+    {
+      "id": "e16",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "শেষমেশ আমরা বাসায় পৌঁছালাম।",
+        "tr": "sheshmesh amra bashay pou~chhalam.",
+        "en": "In the end we got home."
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "শেষমেশ আমরা বাসায় পৌঁছালাম",
+        "শেষমেশ আমরা বাসায় পৌঁছলাম",
+        "অবশেষে আমরা বাসায় পৌঁছালাম",
+        "শেষে আমরা বাসায় পৌঁছালাম",
+        "শেষমেশ বাসায় পৌঁছালাম",
+        "শেষমেশ আমরা বাড়ি পৌঁছালাম",
+        "sheshmesh amra bashay pou~chhalam",
+        "obosheshe amra bashay pou~chhalam",
+        "sheshe amra bashay pou~chhalam",
+        "sheshmesh bashay pou~chhalam",
+        "sheshmesh amra bari pou~chhalam"
+      ],
+      "why": "**শেষমেশ** 'in the end' + **পৌঁছালাম**."
+    },
+    {
+      "id": "r01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "খুঁজে",
+        "tr": "khu~je",
+        "en": "searching"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "strikes (the hour)",
+        "searching",
+        "I learned",
+        "I did"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "listen_select",
+      "audio": {
+        "bn": "আরে",
+        "tr": "are",
+        "en": "hey!; oh!"
+      },
+      "options": [
+        "তাছাড়া",
+        "আরে",
+        "না",
+        "নাকি"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "নানি হেসে বললেন, ঠিক আছে।",
+        "tr": "nani heshe bollen, thik achhe.",
+        "en": "Nani said with a smile, 'All right.'"
+      },
+      "blank": "হেসে",
+      "options": [
+        "হচ্ছে",
+        "পৌঁছেছি",
+        "করতে",
+        "হেসে"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "রেগে",
+          "tr": "rege",
+          "en": "angrily"
+        },
+        {
+          "bn": "দেখছিলাম",
+          "tr": "dekhchhilam",
+          "en": "I was watching"
+        },
+        {
+          "bn": "ভালোবাসতাম",
+          "tr": "bhalobashtam",
+          "en": "I used to love"
+        },
+        {
+          "bn": "অবাক",
+          "tr": "obak",
+          "en": "surprised"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "করছিলেন",
+          "tr": "korchhilen",
+          "en": "you / he, she (polite) were doing"
+        },
+        {
+          "bn": "করছিল",
+          "tr": "korchhilo",
+          "en": "he/she was doing"
+        },
+        {
+          "bn": "বিরক্ত",
+          "tr": "birokto",
+          "en": "annoyed"
+        },
+        {
+          "bn": "ডাকছিল",
+          "tr": "dakchhilo",
+          "en": "was calling"
+        }
+      ],
+      "recycle": true
+    }
+  ]
+}

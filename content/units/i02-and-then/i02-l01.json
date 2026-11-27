@@ -1,0 +1,624 @@
+{
+  "id": "i02-l01",
+  "unit": "i02-and-then",
+  "title": "Having eaten",
+  "status": "draft",
+  "tip": "**Having done X, …**: the **conjunctive participle** joins actions in order. Stem + **-এ**: খা → **খেয়ে**, যা → **গিয়ে**, আস → **এসে**, দেখ → **দেখে**, কর → **করে**.\n\n**নাস্তা খেয়ে অফিসে যাই** 'I have breakfast, then go to the office.'\n\nThe participle has no person and no tense: the last verb decides both. **বাজারে গিয়ে মাছ কিনলাম** 'I went to the market and bought fish' is past because of **কিনলাম**. Both actions need the same subject.\n\nCareful: **করে** 'having done' looks like **করে** 'he does', and **দেখে** like **দেখে** 'he watches'. A participle comes before another verb.",
+  "vocab": [
+    {
+      "id": "kheye",
+      "bn": "খেয়ে",
+      "tr": "kheye",
+      "en": "having eaten",
+      "notes": "Conjunctive participle of খাওয়া: the action comes before the main verb. No person or tense of its own."
+    },
+    {
+      "id": "kore-ptc",
+      "bn": "করে",
+      "tr": "kore",
+      "en": "having done",
+      "notes": "Same spelling as করে 'he/she does' (U8). A participle stands before another verb: রান্না করে খেলাম."
+    },
+    {
+      "id": "giye",
+      "bn": "গিয়ে",
+      "tr": "giye",
+      "en": "having gone",
+      "notes": "Participle of যাওয়া."
+    },
+    {
+      "id": "eshe",
+      "bn": "এসে",
+      "tr": "eshe",
+      "en": "having come",
+      "notes": "Participle of আসা."
+    },
+    {
+      "id": "dekhe-ptc",
+      "bn": "দেখে",
+      "tr": "dekhe",
+      "en": "having seen",
+      "notes": "Same spelling as দেখে 'he/she watches' (U8)."
+    },
+    {
+      "id": "shune",
+      "bn": "শুনে",
+      "tr": "shune",
+      "en": "having heard"
+    },
+    {
+      "id": "uthe",
+      "bn": "উঠে",
+      "tr": "uthe",
+      "en": "having got up",
+      "notes": "Also 'having got on' (a bus): বাসে উঠে."
+    },
+    {
+      "id": "kine",
+      "bn": "কিনে",
+      "tr": "kine",
+      "en": "having bought"
+    },
+    {
+      "id": "fire",
+      "bn": "ফিরে",
+      "tr": "fire",
+      "en": "having come back",
+      "notes": "Participle of ফেরা 'return'. ফিরে গেলাম 'I went back'."
+    },
+    {
+      "id": "hoye",
+      "bn": "হয়ে",
+      "tr": "hoye",
+      "en": "having become",
+      "notes": "Participle of হওয়া: তৈরি হয়ে 'having got ready'."
+    },
+    {
+      "id": "diye-ptc",
+      "bn": "দিয়ে",
+      "tr": "diye",
+      "en": "having given",
+      "notes": "Same spelling as দিয়ে 'along, through' (U7)."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "যেতাম",
+        "tr": "jetam",
+        "en": "I used to go"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "যেতাম",
+        "যাচ্ছিলাম",
+        "যাব",
+        "গেলাম"
+      ],
+      "answer": 0,
+      "why": "Habit in the past: **-তাম** (যেতাম)."
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "তারপর",
+        "tr": "tarpor",
+        "en": "after that; next"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "তখন",
+        "এখন",
+        "তারপর",
+        "কখন"
+      ],
+      "answer": 2,
+      "why": "**তারপর** introduces the next event; **তখন** is 'at that time'."
+    },
+    {
+      "id": "e03",
+      "type": "reading",
+      "title": "Nadia's day",
+      "lines": [
+        {
+          "bn": "আমি প্রতিদিন সকাল সাতটায় ঘুম থেকে উঠি।",
+          "tr": "ami protidin shokal shattay ghum theke uthi.",
+          "en": "I get up at seven every morning."
+        },
+        {
+          "bn": "উঠে আমি গোসল করি।",
+          "tr": "uthe ami gosol kori.",
+          "en": "After getting up, I have a bath."
+        },
+        {
+          "bn": "তারপর চা আর রুটি খেয়ে তৈরি হয়ে অফিসে যাই।",
+          "tr": "tarpor cha ar ruti kheye toiri hoye ofise jai.",
+          "en": "Then I have tea and roti, get ready and go to the office."
+        },
+        {
+          "bn": "অফিসে গিয়ে আমি সারাদিন কাজ করি।",
+          "tr": "ofise giye ami sharadin kaj kori.",
+          "en": "At the office I work all day."
+        },
+        {
+          "bn": "সন্ধ্যায় বাসায় ফিরে আমি মায়ের সাথে কথা বলি।",
+          "tr": "shondhay bashay fire ami mayer shathe kotha boli.",
+          "en": "In the evening I come home and talk with my mother."
+        },
+        {
+          "bn": "রাতে ভাত খেয়ে আমি একটু টিভি দেখি।",
+          "tr": "rate bhat kheye ami ektu tibhi dekhi.",
+          "en": "At night, after dinner, I watch a little TV."
+        }
+      ],
+      "question": "What is this text about?",
+      "options": [
+        "One bad day at the office",
+        "A trip to the market",
+        "Nadia's everyday routine"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e04",
+      "type": "reading",
+      "title": "Nadia's day",
+      "lines": [
+        {
+          "bn": "আমি প্রতিদিন সকাল সাতটায় ঘুম থেকে উঠি।",
+          "tr": "ami protidin shokal shattay ghum theke uthi.",
+          "en": "I get up at seven every morning."
+        },
+        {
+          "bn": "উঠে আমি গোসল করি।",
+          "tr": "uthe ami gosol kori.",
+          "en": "After getting up, I have a bath."
+        },
+        {
+          "bn": "তারপর চা আর রুটি খেয়ে তৈরি হয়ে অফিসে যাই।",
+          "tr": "tarpor cha ar ruti kheye toiri hoye ofise jai.",
+          "en": "Then I have tea and roti, get ready and go to the office."
+        },
+        {
+          "bn": "অফিসে গিয়ে আমি সারাদিন কাজ করি।",
+          "tr": "ofise giye ami sharadin kaj kori.",
+          "en": "At the office I work all day."
+        },
+        {
+          "bn": "সন্ধ্যায় বাসায় ফিরে আমি মায়ের সাথে কথা বলি।",
+          "tr": "shondhay bashay fire ami mayer shathe kotha boli.",
+          "en": "In the evening I come home and talk with my mother."
+        },
+        {
+          "bn": "রাতে ভাত খেয়ে আমি একটু টিভি দেখি।",
+          "tr": "rate bhat kheye ami ektu tibhi dekhi.",
+          "en": "At night, after dinner, I watch a little TV."
+        }
+      ],
+      "question": "What does Nadia do right after she gets up?",
+      "options": [
+        "She has a bath",
+        "She goes to the office",
+        "She has tea and roti"
+      ],
+      "answer": 0,
+      "why": "**উঠে আমি গোসল করি**: 'having got up, I have a bath'."
+    },
+    {
+      "id": "e05",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "আমি নাস্তা খেয়ে অফিসে যাই।",
+        "tr": "ami nashta kheye ofise jai.",
+        "en": "I have breakfast and then go to the office."
+      },
+      "options": [
+        "I have breakfast and then go to the office.",
+        "I had breakfast at the office.",
+        "I go to the office without breakfast.",
+        "I'm eating breakfast at the office."
+      ],
+      "answer": 0,
+      "why": "**খেয়ে** 'having eaten': first breakfast, then the office."
+    },
+    {
+      "id": "e06",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "বাজারে গিয়ে আমি মাছ কিনলাম।",
+        "tr": "bajare giye ami machh kinlam.",
+        "en": "I went to the market and bought fish."
+      },
+      "options": [
+        "I'll go to the market and buy fish.",
+        "I went to the market and bought fish.",
+        "I used to buy fish at the market.",
+        "I didn't buy fish at the market."
+      ],
+      "answer": 1,
+      "why": "The last verb **কিনলাম** makes it past; **গিয়ে** has no tense of its own."
+    },
+    {
+      "id": "e07",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "শুনে",
+          "tr": "shune",
+          "en": "having heard"
+        },
+        {
+          "bn": "কিনে",
+          "tr": "kine",
+          "en": "having bought"
+        },
+        {
+          "bn": "দিয়ে",
+          "tr": "diye",
+          "en": "having given"
+        },
+        {
+          "bn": "এসে",
+          "tr": "eshe",
+          "en": "having come"
+        },
+        {
+          "bn": "দেখে",
+          "tr": "dekhe",
+          "en": "having seen"
+        }
+      ]
+    },
+    {
+      "id": "e08",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "আমরা রান্না করে একসাথে খেলাম।",
+        "tr": "amra ranna kore ekshathe khelam.",
+        "en": "We cooked and ate together."
+      },
+      "options": [
+        "We used to eat together.",
+        "We are cooking together.",
+        "We cooked and ate together.",
+        "We didn't cook today."
+      ],
+      "answer": 2,
+      "why": "**রান্না করে** 'having cooked', then **খেলাম** 'we ate'."
+    },
+    {
+      "id": "e09",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আমি বাজার থেকে আলু কিনে বাসায় এলাম।",
+        "tr": "ami bajar theke alu kine bashay elam.",
+        "en": "I bought potatoes at the market and came home."
+      },
+      "blank": "কিনে",
+      "options": [
+        "কিনলাম",
+        "কিনল",
+        "কিনব",
+        "কিনে"
+      ],
+      "answer": 3,
+      "why": "Before another verb use the participle **কিনে**; only the last verb (**এলাম**) carries person and tense."
+    },
+    {
+      "id": "e10",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "সকালে ঘুম থেকে উঠে আমি দাঁত মাজি।",
+        "tr": "shokale ghum theke uthe ami da~t maji.",
+        "en": "In the morning I get up and brush my teeth."
+      },
+      "blank": "উঠে",
+      "options": [
+        "উঠে",
+        "ওঠেন",
+        "উঠি",
+        "উঠলাম"
+      ],
+      "answer": 0,
+      "why": "One subject, two actions: **উঠে** … **মাজি**."
+    },
+    {
+      "id": "e11",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আমরা রান্না করে একসাথে খেলাম।",
+        "tr": "amra ranna kore ekshathe khelam.",
+        "en": "We cooked and ate together."
+      },
+      "blank": "করে",
+      "options": [
+        "করলাম",
+        "করব",
+        "করে",
+        "করছি"
+      ],
+      "answer": 2,
+      "why": "Here **করে** is 'having cooked', not 'he does': it stands before the main verb **খেলাম**."
+    },
+    {
+      "id": "e12",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "সে আমাকে চা দিয়ে চলে গেল।",
+        "tr": "she amake cha diye chole gelo.",
+        "en": "He gave me tea and left."
+      },
+      "options": [
+        "He left without giving me tea.",
+        "He gave me tea and stayed.",
+        "I gave him tea and left.",
+        "He gave me tea and left."
+      ],
+      "answer": 3,
+      "why": "**দিয়ে** 'having given', then **চলে গেল** 'left'."
+    },
+    {
+      "id": "e13",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আমি রাতে গান শুনে ঘুমাই।",
+        "tr": "ami rate gan shune ghumai.",
+        "en": "At night I listen to music and then sleep."
+      },
+      "blank": "শুনে",
+      "accepted": [
+        "শুনে",
+        "shune"
+      ],
+      "why": "**শুনে** 'having heard / listening'; the finite verb is **ঘুমাই**."
+    },
+    {
+      "id": "e14",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমি নাস্তা খেয়ে অফিসে যাই।",
+        "tr": "ami nashta kheye ofise jai.",
+        "en": "I have breakfast and then go to the office."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "গিয়ে",
+        "নাস্তা",
+        "খাই",
+        "আমি",
+        "অফিসে",
+        "যাই",
+        "খেয়ে",
+        "যেতে"
+      ],
+      "answer": [
+        "আমি",
+        "নাস্তা",
+        "খেয়ে",
+        "অফিসে",
+        "যাই"
+      ],
+      "alt": [
+        [
+          "নাস্তা",
+          "খেয়ে",
+          "আমি",
+          "অফিসে",
+          "যাই"
+        ],
+        [
+          "নাস্তা",
+          "খেয়ে",
+          "অফিসে",
+          "যাই"
+        ]
+      ],
+      "why": "Two actions in one sentence: **খেয়ে** + finite **যাই**."
+    },
+    {
+      "id": "e15",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "রাতে টিভি দেখে আমরা ঘুমাতে যাই।",
+        "tr": "rate tibhi dekhe amra ghumate jai.",
+        "en": "At night we watch TV and then go to sleep."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "আমরা",
+        "দেখি",
+        "যাই",
+        "রাতে",
+        "ঘুমাতে",
+        "আমি",
+        "টিভি",
+        "দেখে",
+        "দেখতে"
+      ],
+      "answer": [
+        "রাতে",
+        "টিভি",
+        "দেখে",
+        "আমরা",
+        "ঘুমাতে",
+        "যাই"
+      ],
+      "alt": [
+        [
+          "আমরা",
+          "রাতে",
+          "টিভি",
+          "দেখে",
+          "ঘুমাতে",
+          "যাই"
+        ],
+        [
+          "রাতে",
+          "আমরা",
+          "টিভি",
+          "দেখে",
+          "ঘুমাতে",
+          "যাই"
+        ],
+        [
+          "রাতে",
+          "টিভি",
+          "দেখে",
+          "ঘুমাতে",
+          "যাই"
+        ]
+      ],
+      "why": "**দেখে** (participle) + **যাই** (finite, আমরা)."
+    },
+    {
+      "id": "e16",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আপনি অফিস থেকে এসে কী করেন?",
+        "tr": "apni ofis theke eshe ki koren?",
+        "en": "What do you (polite) do after you come back from the office?"
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "আপনি অফিস থেকে এসে কী করেন",
+        "অফিস থেকে এসে আপনি কী করেন",
+        "আপনি অফিস থেকে ফিরে কী করেন",
+        "অফিস থেকে ফিরে আপনি কী করেন",
+        "apni ofis theke eshe ki koren",
+        "ofis theke eshe apni ki koren",
+        "apni ofis theke fire ki koren",
+        "ofis theke fire apni ki koren"
+      ],
+      "why": "Polite **আপনি … করেন**; **এসে** or **ফিরে** for 'after coming back'."
+    },
+    {
+      "id": "e17",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "বাজারে গিয়ে আমি মাছ কিনলাম।",
+        "tr": "bajare giye ami machh kinlam.",
+        "en": "I went to the market and bought fish."
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "বাজারে গিয়ে আমি মাছ কিনলাম",
+        "আমি বাজারে গিয়ে মাছ কিনলাম",
+        "বাজারে গিয়ে মাছ কিনলাম",
+        "bajare giye ami machh kinlam",
+        "ami bajare giye machh kinlam",
+        "bajare giye machh kinlam"
+      ],
+      "why": "**গিয়ে** 'having gone', then past **কিনলাম**."
+    },
+    {
+      "id": "r01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "কম বয়সী",
+        "tr": "kom boyoshi",
+        "en": "young"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "young",
+        "has been cut off",
+        "sad; upset",
+        "Pohela Boishakh"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "listen_select",
+      "audio": {
+        "bn": "ভালো মানুষ",
+        "tr": "bhalo manush",
+        "en": "a good person; kind"
+      },
+      "options": [
+        "দেখা হবে",
+        "ভালো মানুষ",
+        "হ্যালো",
+        "শহীদ মিনার"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "পাঁচশ টাকা।",
+        "tr": "pa~chsho taka.",
+        "en": "Five hundred taka."
+      },
+      "blank": "পাঁচশ",
+      "options": [
+        "পাঁচশ",
+        "ষাট",
+        "ত্রিশ",
+        "চল্লিশ"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "দাঁড়ান",
+          "tr": "da~ran",
+          "en": "wait (polite); stand"
+        },
+        {
+          "bn": "পরশু",
+          "tr": "porshu",
+          "en": "the day after tomorrow"
+        },
+        {
+          "bn": "আগামীকাল",
+          "tr": "agamikal",
+          "en": "tomorrow"
+        },
+        {
+          "bn": "করুন",
+          "tr": "korun",
+          "en": "please do (standard)"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "আসব",
+          "tr": "ashbo",
+          "en": "I will come"
+        },
+        {
+          "bn": "এগুলো",
+          "tr": "egulo",
+          "en": "these"
+        },
+        {
+          "bn": "সাধারণত",
+          "tr": "shadharonoto",
+          "en": "usually"
+        },
+        {
+          "bn": "তাহলে",
+          "tr": "tahole",
+          "en": "then"
+        }
+      ],
+      "recycle": true
+    }
+  ]
+}

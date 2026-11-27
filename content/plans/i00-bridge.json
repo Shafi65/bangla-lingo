@@ -1,0 +1,1220 @@
+{
+  "unit": "i00-bridge",
+  "lessons": [
+    {
+      "id": "i00-l01",
+      "title": "Now and every day",
+      "goal": "Check that you can say what people do every day and what they are doing now, for every person.",
+      "grammar": [
+        "review: present simple by person (করি / করিস / করো / করে / করেন)",
+        "review: present continuous -ছ- (করছি, খাচ্ছি, যাচ্ছে)"
+      ],
+      "new": [],
+      "review": [
+        "ekhon",
+        "na",
+        "ami",
+        "tumi",
+        "apni",
+        "ki-what",
+        "amar",
+        "kemon",
+        "achho",
+        "achhi",
+        "bhalo",
+        "ar",
+        "she",
+        "amra",
+        "ekhane",
+        "ki-q",
+        "kothay",
+        "bangla",
+        "ingreji",
+        "ammu"
+      ],
+      "tip": "This unit is a fast check of Sections 1 and 2. If something feels new, go back to that unit, then come on.\n\n**Present simple** (habits, facts): আমি **করি** · তুই **করিস** · তুমি **করো** · সে **করে** · আপনি / উনি **করেন**.\n\n**Present continuous** (right now, these days): add **-ছ-**: আমি **করছি**, তুমি **করছো**, সে **করছে**, আপনি **করছেন**. Some stems change: খা → **খাচ্ছি**, যা → **যাচ্ছি**.\n\nNegative: **না** after the verb: **আমি মাছ খাই না**.\n\nFrom here on, lessons show Bengali script only; tap **Show pronunciation** when you need it.",
+      "sentences": [
+        {
+          "bn": "আমি প্রতিদিন সাতটায় উঠি।",
+          "tr": "ami protidin shattay uthi.",
+          "en": "I get up at seven every day.",
+          "alt": [
+            "Every day I get up at seven."
+          ]
+        },
+        {
+          "bn": "আম্মু এখন রান্না করছেন।",
+          "tr": "ammu ekhon ranna korchhen.",
+          "en": "Mum is cooking now."
+        },
+        {
+          "bn": "তুমি কী করছো?",
+          "tr": "tumi ki korchho?",
+          "en": "What are you (familiar) doing?"
+        },
+        {
+          "bn": "সে সাধারণত বাসে অফিসে যায়।",
+          "tr": "she shadharonoto base ofise jay.",
+          "en": "He usually goes to the office by bus.",
+          "alt": [
+            "She usually takes the bus to the office."
+          ]
+        },
+        {
+          "bn": "আমরা এখন খাচ্ছি।",
+          "tr": "amra ekhon khachchhi.",
+          "en": "We're eating now."
+        },
+        {
+          "bn": "আপনি কোথায় থাকেন?",
+          "tr": "apni kothay thaken?",
+          "en": "Where do you (polite) live?"
+        },
+        {
+          "bn": "রাফি কি গান শোনে?",
+          "tr": "rafi ki gan shone?",
+          "en": "Does Rafi listen to music?",
+          "alt": [
+            "Does Rafi listen to songs?"
+          ]
+        },
+        {
+          "bn": "আমি মাছ খাই না।",
+          "tr": "ami machh khai na.",
+          "en": "I don't eat fish."
+        },
+        {
+          "bn": "নাদিয়া এখন ঢাকায় যাচ্ছে।",
+          "tr": "nadiya ekhon dhakay jachchhe.",
+          "en": "Nadia is going to Dhaka now."
+        },
+        {
+          "bn": "আমি একটু বাংলা বুঝি।",
+          "tr": "ami ektu bangla bujhi.",
+          "en": "I understand a little Bengali."
+        }
+      ],
+      "dialogue": {
+        "title": "At the tea stall",
+        "lines": [
+          {
+            "speaker": "Rafi",
+            "bn": "নাদিয়া! তুমি কেমন আছো?",
+            "tr": "nadiya! tumi kemon achho?",
+            "en": "Nadia! How are you?"
+          },
+          {
+            "speaker": "Nadia",
+            "bn": "ভালো আছি। তুমি এখন কী করছো?",
+            "tr": "bhalo achhi. tumi ekhon ki korchho?",
+            "en": "I'm well. What are you doing these days?"
+          },
+          {
+            "speaker": "Rafi",
+            "bn": "আমি একটা অফিসে কাজ করি। প্রতিদিন সকালে বাসে যাই।",
+            "tr": "ami ekta ofise kaj kori. protidin shokale base jai.",
+            "en": "I work in an office. I go by bus every morning."
+          },
+          {
+            "speaker": "Rafi",
+            "bn": "আর এখন আমি ইংরেজি শিখছি।",
+            "tr": "ar ekhon ami ingreji shikhchhi.",
+            "en": "And now I'm learning English."
+          },
+          {
+            "speaker": "Nadia",
+            "bn": "আমি এখন ঢাকায় থাকি। আমার বোন এখানে পড়ে।",
+            "tr": "ami ekhon dhakay thaki. amar bon ekhane pore.",
+            "en": "I live in Dhaka now. My sister studies here."
+          },
+          {
+            "speaker": "Rafi",
+            "bn": "চলো, চা খাই।",
+            "tr": "cholo, cha khai.",
+            "en": "Come on, let's have tea."
+          }
+        ],
+        "questions": [
+          {
+            "question": "How does Rafi get to work?",
+            "options": [
+              "By bus",
+              "On foot",
+              "By train"
+            ],
+            "answer": 0
+          },
+          {
+            "question": "What is Rafi doing these days, besides work?",
+            "options": [
+              "Learning English",
+              "Learning to drive",
+              "Teaching Bengali"
+            ],
+            "answer": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "i00-l02",
+      "title": "What did you do?",
+      "goal": "Check that you can tell what happened, for every person, with the common irregular verbs.",
+      "grammar": [
+        "review: simple past -লাম / -লি / -লে / -ল / -লেন",
+        "irregular stems: গেলাম, এলাম, খেলাম, দিলাম, পেলাম"
+      ],
+      "new": [],
+      "review": [
+        "ek",
+        "na",
+        "ami",
+        "tumi",
+        "apni",
+        "ki-what",
+        "tomar",
+        "khub",
+        "ar",
+        "she",
+        "o-pron",
+        "amra",
+        "tui",
+        "okhane",
+        "kothay",
+        "bhai",
+        "nana",
+        "ekta",
+        "kintu",
+        "kichhu"
+      ],
+      "tip": "**Simple past**: one finished event. Stem + **-লাম / -লি / -লে / -ল / -লেন**.\n\nআমি **করলাম** · তুই **করলি** · তুমি **করলে** · সে **করল** · আপনি **করলেন**.\n\nCommon irregular stems: যাওয়া → **গেলাম, গেল, গেলেন**; আসা → **এলাম, এলে, এল**; খাওয়া → **খেলাম, খেল**; দেওয়া → **দিলাম, দিল**; পাওয়া → **পেলাম, পেল**.\n\n**কাল** with a past verb means 'yesterday'.\n\nThe usual 'didn't' is **-নি** (next lesson). **এল না** tells a story: **রাফি এল, কিন্তু নাদিয়া এল না** 'Rafi came, but Nadia didn't.'",
+      "sentences": [
+        {
+          "bn": "কাল আমি বাজারে গেলাম।",
+          "tr": "kal ami bajare gelam.",
+          "en": "Yesterday I went to the market."
+        },
+        {
+          "bn": "তুমি কাল কী করলে?",
+          "tr": "tumi kal ki korle?",
+          "en": "What did you (familiar) do yesterday?"
+        },
+        {
+          "bn": "আপনি কী কিনলেন?",
+          "tr": "apni ki kinlen?",
+          "en": "What did you (polite) buy?"
+        },
+        {
+          "bn": "সে আমাকে একটা বই দিল।",
+          "tr": "she amake ekta boi dilo.",
+          "en": "He gave me a book.",
+          "alt": [
+            "She gave me a book."
+          ]
+        },
+        {
+          "bn": "নানা আমাকে কিছু বললেন না।",
+          "tr": "nana amake kichhu bollen na.",
+          "en": "Grandfather didn't say anything to me.",
+          "alt": [
+            "Grandad didn't tell me anything."
+          ]
+        },
+        {
+          "bn": "আমি সব বুঝলাম।",
+          "tr": "ami shob bujhlam.",
+          "en": "I understood everything."
+        },
+        {
+          "bn": "রাফি এল, কিন্তু নাদিয়া এল না।",
+          "tr": "rafi elo, kintu nadiya elo na.",
+          "en": "Rafi came, but Nadia didn't."
+        },
+        {
+          "bn": "আমরা গতকাল একটা ছবি দেখলাম।",
+          "tr": "amra gotokal ekta chhobi dekhlam.",
+          "en": "We saw a film yesterday.",
+          "alt": [
+            "Yesterday we watched a film."
+          ]
+        },
+        {
+          "bn": "তুই কী করলি?",
+          "tr": "tui ki korli?",
+          "en": "What did you (intimate) do?"
+        },
+        {
+          "bn": "আমি খুব খুশি হলাম।",
+          "tr": "ami khub khushi holam.",
+          "en": "I was very happy.",
+          "alt": [
+            "I was really pleased."
+          ]
+        }
+      ],
+      "dialogue": {
+        "title": "When did you get back?",
+        "lines": [
+          {
+            "speaker": "Rafi",
+            "bn": "তুমি কবে এলে?",
+            "tr": "tumi kobe ele?",
+            "en": "When did you get back?"
+          },
+          {
+            "speaker": "Nadia",
+            "bn": "আমি গত সপ্তাহে এলাম।",
+            "tr": "ami goto shoptahe elam.",
+            "en": "I came last week."
+          },
+          {
+            "speaker": "Rafi",
+            "bn": "এক বছর কোথায় ছিলে?",
+            "tr": "ek bochhor kothay chhile?",
+            "en": "Where were you for a year?"
+          },
+          {
+            "speaker": "Nadia",
+            "bn": "আমি সিলেটে ছিলাম। ওখানে আমি একটা নতুন কাজ শিখলাম।",
+            "tr": "ami shilete chhilam. okhane ami ekta notun kaj shikhlam.",
+            "en": "I was in Sylhet. I learned a new job there."
+          },
+          {
+            "speaker": "Rafi",
+            "bn": "আর তোমার ভাই? ও কী করল?",
+            "tr": "ar tomar bhai? o ki korlo?",
+            "en": "And your brother? What did he do?"
+          },
+          {
+            "speaker": "Nadia",
+            "bn": "ও ঢাকায় একটা চাকরি পেল।",
+            "tr": "o dhakay ekta chakri pelo.",
+            "en": "He got a job in Dhaka."
+          }
+        ],
+        "questions": [
+          {
+            "question": "Where was Nadia for a year?",
+            "options": [
+              "In Sylhet",
+              "In Dhaka",
+              "Abroad"
+            ],
+            "answer": 0
+          },
+          {
+            "question": "What did Nadia's brother do?",
+            "options": [
+              "He got a job in Dhaka",
+              "He moved to Sylhet",
+              "He learned a new language"
+            ],
+            "answer": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "i00-l03",
+      "title": "Have you eaten?",
+      "goal": "Check that you can say what has or hasn't happened yet, and ask about it politely.",
+      "grammar": [
+        "review: present perfect -েছি / -েছো / -েছে / -েছেন",
+        "review: -নি 'didn't / haven't (yet)'; এখনো … -নি"
+      ],
+      "new": [],
+      "review": [
+        "na",
+        "dhonnobad",
+        "ami",
+        "tumi",
+        "apni",
+        "ki-what",
+        "tomar",
+        "she",
+        "uni",
+        "ki-q",
+        "eshechhi",
+        "eshechhen",
+        "bangla",
+        "amader",
+        "cha",
+        "nashta",
+        "kichhu",
+        "shob",
+        "aj",
+        "kal"
+      ],
+      "tip": "**Present perfect**: done, and it matters now. Stem + **-েছি / -েছিস / -েছো / -েছে / -েছেন**: **খেয়েছি** 'I have eaten', **করেছে** 'he has done'.\n\n**-নি** means 'didn't' or 'haven't (yet)'. Add it to the present form: **খাই → খাইনি**, **যাই → যাইনি**, **আসে → আসেনি**, **করো → করোনি**.\n\n**এখনো** + -নি = 'not yet': **সে এখনো আসেনি**.\n\nQuestions use **কি**: **আপনি কি খেয়েছেন?**\n\nKeep -নি for the plain past and the perfect. The 'used to' and 'was doing' pasts (next unit) take **না**.",
+      "sentences": [
+        {
+          "bn": "আমি আজ এখনো কিছু খাইনি।",
+          "tr": "ami aj ekhono kichhu khaini.",
+          "en": "I haven't eaten anything yet today."
+        },
+        {
+          "bn": "তুমি কি ঢাকা দেখেছো?",
+          "tr": "tumi ki dhaka dekhechho?",
+          "en": "Have you (familiar) seen Dhaka?",
+          "alt": [
+            "Have you been to Dhaka?"
+          ]
+        },
+        {
+          "bn": "আপনি কি খেয়েছেন?",
+          "tr": "apni ki kheyechhen?",
+          "en": "Have you (polite) eaten?"
+        },
+        {
+          "bn": "সে এখনো আসেনি।",
+          "tr": "she ekhono asheni.",
+          "en": "He hasn't come yet.",
+          "alt": [
+            "She hasn't arrived yet."
+          ]
+        },
+        {
+          "bn": "রাফি সব কাজ করেছে।",
+          "tr": "rafi shob kaj korechhe.",
+          "en": "Rafi has done all the work."
+        },
+        {
+          "bn": "আমি এই কথা শুনিনি।",
+          "tr": "ami ei kotha shunini.",
+          "en": "I haven't heard this.",
+          "alt": [
+            "I didn't hear that."
+          ]
+        },
+        {
+          "bn": "তুমি কিছু করোনি!",
+          "tr": "tumi kichhu koroni!",
+          "en": "You (familiar) haven't done anything!",
+          "alt": [
+            "You didn't do anything!"
+          ]
+        },
+        {
+          "bn": "আমি আগে কখনো সিলেটে যাইনি।",
+          "tr": "ami age kokhono shilete jaini.",
+          "en": "I've never been to Sylhet before."
+        },
+        {
+          "bn": "উনি কি এসেছেন?",
+          "tr": "uni ki eshechhen?",
+          "en": "Has he (polite) come?",
+          "alt": [
+            "Has she arrived?"
+          ]
+        },
+        {
+          "bn": "আমি একটু বাংলা শিখেছি।",
+          "tr": "ami ektu bangla shikhechhi.",
+          "en": "I've learned a little Bengali."
+        }
+      ],
+      "dialogue": {
+        "title": "Have you eaten?",
+        "lines": [
+          {
+            "speaker": "Rafi",
+            "bn": "তুমি কি নাস্তা খেয়েছো?",
+            "tr": "tumi ki nashta kheyechho?",
+            "en": "Have you had breakfast?"
+          },
+          {
+            "speaker": "Nadia",
+            "bn": "না, এখনো খাইনি।",
+            "tr": "na, ekhono khaini.",
+            "en": "No, not yet."
+          },
+          {
+            "speaker": "Rafi",
+            "bn": "তুমি কি আমাদের নতুন অফিস দেখেছো?",
+            "tr": "tumi ki amader notun ofis dekhechho?",
+            "en": "Have you seen our new office?"
+          },
+          {
+            "speaker": "Nadia",
+            "bn": "না। আমি মাত্র এসেছি, এখনো কিছু দেখিনি।",
+            "tr": "na. ami matro eshechhi, ekhono kichhu dekhini.",
+            "en": "No. I've only just arrived; I haven't seen anything yet."
+          },
+          {
+            "speaker": "Rafi",
+            "bn": "আমি ইতিমধ্যে তোমার জন্য চা নিয়েছি।",
+            "tr": "ami itimoddhe tomar jonno cha niyechhi.",
+            "en": "I've already got tea for you."
+          },
+          {
+            "speaker": "Nadia",
+            "bn": "ধন্যবাদ, রাফি!",
+            "tr": "dhonnobad, rafi!",
+            "en": "Thank you, Rafi!"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Has Nadia had breakfast?",
+            "options": [
+              "Not yet",
+              "Yes, at home",
+              "Yes, with Rafi"
+            ],
+            "answer": 0
+          },
+          {
+            "question": "What has Rafi already done?",
+            "options": [
+              "Got tea for Nadia",
+              "Shown her the office",
+              "Eaten breakfast"
+            ],
+            "answer": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "i00-l04",
+      "title": "Tomorrow, can and want",
+      "goal": "Check that you can make plans, say what you can, want and have to do, and tell someone to do something.",
+      "grammar": [
+        "review: future -ব / -বি / -বে / -বেন",
+        "review: -তে + পারা / চাওয়া / হবে",
+        "review: commands by formality (বসো / বসুন / বস)"
+      ],
+      "new": [],
+      "review": [
+        "ilish",
+        "hya",
+        "na",
+        "ami",
+        "tumi",
+        "apni",
+        "ki-what",
+        "tomar",
+        "ar",
+        "she",
+        "achhe",
+        "tui",
+        "ekhane",
+        "okhane",
+        "ki-q",
+        "bangla",
+        "amader",
+        "bhat",
+        "dal",
+        "machh"
+      ],
+      "tip": "**Future**: stem + **-ব / -বি / -বে / -বেন**: আমি **করব**, তুই **করবি**, তুমি / সে **করবে**, আপনি **করবেন**. যাওয়া: **যাব, যাবি, যাবে, যাবেন**.\n\n**Can, want, have to** take the **-তে** form: **লিখতে পারি** 'I can write', **খেতে চান** 'you want to eat', **আমাকে উঠতে হবে** 'I have to get up' (note **আমাকে**).\n\n**Commands** follow the person: **বসো** (তুমি), **বসেন / বসুন** (আপনি), **বস** (তুই).\n\nCareful: **করবে** 'will do' vs **করলে** 'did' (তুমি).",
+      "sentences": [
+        {
+          "bn": "আমি কাল তোমাকে ফোন করব।",
+          "tr": "ami kal tomake fon korbo.",
+          "en": "I'll phone you (familiar) tomorrow."
+        },
+        {
+          "bn": "আপনি কখন আসবেন?",
+          "tr": "apni kokhon ashben?",
+          "en": "When will you (polite) come?"
+        },
+        {
+          "bn": "তুই কাল কী করবি?",
+          "tr": "tui kal ki korbi?",
+          "en": "What will you (intimate) do tomorrow?"
+        },
+        {
+          "bn": "আমি একটু বাংলা লিখতে পারি।",
+          "tr": "ami ektu bangla likhte pari.",
+          "en": "I can write a little Bengali."
+        },
+        {
+          "bn": "আপনি কী খেতে চান?",
+          "tr": "apni ki khete chan?",
+          "en": "What do you (polite) want to eat?",
+          "alt": [
+            "What would you like to eat?"
+          ]
+        },
+        {
+          "bn": "সে গাড়ি চালাতে পারে না।",
+          "tr": "she gari chalate pare na.",
+          "en": "He can't drive.",
+          "alt": [
+            "She can't drive a car."
+          ]
+        },
+        {
+          "bn": "আমাকে কাল তাড়াতাড়ি উঠতে হবে।",
+          "tr": "amake kal taratari uthte hobe.",
+          "en": "I have to get up early tomorrow."
+        },
+        {
+          "bn": "এখানে বসুন।",
+          "tr": "ekhane boshun.",
+          "en": "Please sit here (polite)."
+        },
+        {
+          "bn": "একটু আস্তে বলো।",
+          "tr": "ektu aste bolo.",
+          "en": "Speak a little more slowly (familiar).",
+          "alt": [
+            "Say it a bit more slowly."
+          ]
+        },
+        {
+          "bn": "কাল আমাদের দেখা হবে।",
+          "tr": "kal amader dekha hobe.",
+          "en": "We'll meet tomorrow.",
+          "alt": [
+            "See you tomorrow."
+          ]
+        }
+      ],
+      "dialogue": {
+        "title": "Next week",
+        "lines": [
+          {
+            "speaker": "Rafi",
+            "bn": "সামনের সপ্তাহে তুমি কী করবে?",
+            "tr": "shamner shoptahe tumi ki korbe?",
+            "en": "What will you do next week?"
+          },
+          {
+            "speaker": "Nadia",
+            "bn": "আমি বন্ধুর বাসায় যাব। ওখানে দুই দিন থাকব।",
+            "tr": "ami bondhur bashay jabo. okhane dui din thakbo.",
+            "en": "I'll go to a friend's. I'll stay there two days."
+          },
+          {
+            "speaker": "Rafi",
+            "bn": "আমি তোমার সাথে যেতে চাই।",
+            "tr": "ami tomar shathe jete chai.",
+            "en": "I want to go with you."
+          },
+          {
+            "speaker": "Nadia",
+            "bn": "তুমি কি শুক্রবার আসতে পারবে?",
+            "tr": "tumi ki shukrobar ashte parbe?",
+            "en": "Will you be able to come on Friday?"
+          },
+          {
+            "speaker": "Rafi",
+            "bn": "হ্যাঁ, পারব। আমি তোমাকে ফোন করব।",
+            "tr": "hya~, parbo. ami tomake fon korbo.",
+            "en": "Yes, I can. I'll phone you."
+          },
+          {
+            "speaker": "Nadia",
+            "bn": "ঠিক আছে, আমাকে জানাও।",
+            "tr": "thik achhe, amake janao.",
+            "en": "OK, let me know."
+          }
+        ],
+        "questions": [
+          {
+            "question": "Where will Nadia go next week?",
+            "options": [
+              "To a friend's home",
+              "To Sylhet",
+              "To the office"
+            ],
+            "answer": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "i00-l05",
+      "title": "Me, you, them",
+      "goal": "Check the object and 'of' forms of the pronouns, the question words, and the words that join ideas.",
+      "grammar": [
+        "review: -কে object pronouns (আমাকে, তাকে, ওকে, ওনাকে)",
+        "review: -র / -দের possessives",
+        "question words; connectors আর, কিন্তু, তবে, তাই, কারণ"
+      ],
+      "new": [],
+      "review": [
+        "onek",
+        "hya",
+        "na",
+        "ami",
+        "tumi",
+        "nam",
+        "ki-what",
+        "apnar",
+        "tomar",
+        "khub",
+        "o-pron",
+        "achhe",
+        "daktar",
+        "meye",
+        "ki-q",
+        "eta",
+        "kothay",
+        "theke",
+        "bhai",
+        "or"
+      ],
+      "tip": "**-কে** marks the person something is done to or given to: **আমাকে**, **তোমাকে**, **তাকে / ওকে**, **আপনাকে / ওনাকে**, **তোকে**.\n\n**-র** means 'of, 's': **আমার**, **তোমার**, **তার / ওর**, **আপনার / ওনার**; plural **আমাদের**, **তাদের / ওদের**, **আপনাদের**.\n\nQuestion words: **কে** who, **কাকে** whom, **কার** whose, **কী** what, **কোথায়** where, **কখন** when, **কেন** why, **কীভাবে** how, **কতক্ষণ** how long.\n\nJoin ideas with **আর / এবং** 'and', **কিন্তু / তবে** 'but', **তাই** 'so', **কারণ** 'because'.",
+      "sentences": [
+        {
+          "bn": "ওনাকে একটু চা দাও।",
+          "tr": "onake ektu cha dao.",
+          "en": "Give her (polite) some tea.",
+          "alt": [
+            "Give him some tea."
+          ]
+        },
+        {
+          "bn": "আমি তাকে কিছু বলিনি।",
+          "tr": "ami take kichhu bolini.",
+          "en": "I didn't tell him anything.",
+          "alt": [
+            "I didn't say anything to her."
+          ]
+        },
+        {
+          "bn": "আপনার বাবার নাম কী?",
+          "tr": "apnar babar nam ki?",
+          "en": "What is your (polite) father's name?"
+        },
+        {
+          "bn": "এটা কার ব্যাগ?",
+          "tr": "eta kar byag?",
+          "en": "Whose bag is this?"
+        },
+        {
+          "bn": "তুমি কাকে ফোন করছো?",
+          "tr": "tumi kake fon korchho?",
+          "en": "Who are you (familiar) calling?",
+          "alt": [
+            "Whom are you phoning?"
+          ]
+        },
+        {
+          "bn": "তোমার বাসা থেকে অফিসে যেতে কতক্ষণ লাগে?",
+          "tr": "tomar basha theke ofise jete kotokkhon lage?",
+          "en": "How long does it take to get from your home to the office?"
+        },
+        {
+          "bn": "আমি নিজে রান্না করি।",
+          "tr": "ami nije ranna kori.",
+          "en": "I do the cooking myself.",
+          "alt": [
+            "I cook myself."
+          ]
+        },
+        {
+          "bn": "আমি ক্লান্ত, তাই বাসায় যাচ্ছি।",
+          "tr": "ami klanto, tai bashay jachchhi.",
+          "en": "I'm tired, so I'm going home."
+        },
+        {
+          "bn": "আমি আজ আসতে পারব না, কারণ আমি অসুস্থ।",
+          "tr": "ami aj ashte parbo na, karon ami oshustho.",
+          "en": "I can't come today because I'm ill."
+        },
+        {
+          "bn": "আপনাদের বাসা কোথায়?",
+          "tr": "apnader basha kothay?",
+          "en": "Where is your (polite, plural) home?"
+        }
+      ],
+      "dialogue": {
+        "title": "Family in Sylhet",
+        "lines": [
+          {
+            "speaker": "Nadia",
+            "bn": "তোমার ভাই কোথায় থাকে?",
+            "tr": "tomar bhai kothay thake?",
+            "en": "Where does your brother live?"
+          },
+          {
+            "speaker": "Rafi",
+            "bn": "ও সিলেটে থাকে। ওর বউ ডাক্তার।",
+            "tr": "o shilete thake. or bou daktar.",
+            "en": "He lives in Sylhet. His wife is a doctor."
+          },
+          {
+            "speaker": "Nadia",
+            "bn": "ওদের কি বাচ্চা আছে?",
+            "tr": "oder ki bachcha achhe?",
+            "en": "Do they have children?"
+          },
+          {
+            "speaker": "Rafi",
+            "bn": "হ্যাঁ, একটা মেয়ে। আমি ওকে খুব ভালোবাসি।",
+            "tr": "hya~, ekta meye. ami oke khub bhalobashi.",
+            "en": "Yes, a girl. I love her very much."
+          },
+          {
+            "speaker": "Nadia",
+            "bn": "তুমি কীভাবে সিলেটে যাও?",
+            "tr": "tumi kibhabe shilete jao?",
+            "en": "How do you get to Sylhet?"
+          },
+          {
+            "speaker": "Rafi",
+            "bn": "ট্রেনে যাই, তবে অনেক সময় লাগে।",
+            "tr": "trene jai, tobe onek shomoy lage.",
+            "en": "By train, but it takes a long time."
+          }
+        ],
+        "questions": [
+          {
+            "question": "Where does Rafi's brother live?",
+            "options": [
+              "In Sylhet",
+              "In Dhaka",
+              "Abroad"
+            ],
+            "answer": 0
+          },
+          {
+            "question": "How does Rafi travel to Sylhet?",
+            "options": [
+              "By train",
+              "By bus",
+              "By car"
+            ],
+            "answer": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "i00-l06",
+      "title": "Home, work and study",
+      "goal": "Run through the everyday words for home, work and study that the next units use without teaching.",
+      "grammar": [
+        "words the intermediate units assume: home, work and study, describing things",
+        "review: having with -র + আছে / নেই"
+      ],
+      "new": [],
+      "review": [
+        "onek",
+        "hya",
+        "dhonnobad",
+        "amar",
+        "tomar",
+        "bhalo",
+        "khub",
+        "achhe",
+        "manush",
+        "nei",
+        "ki-q",
+        "kothay",
+        "bangla",
+        "boro",
+        "chhoto",
+        "babar",
+        "ekta",
+        "amader",
+        "kintu",
+        "duita"
+      ],
+      "tip": "The intermediate units use these everyday words without teaching them: **রান্নাঘর** kitchen, **বাথরুম**, **জানালা** window, **চাবি** key, **চাকরি** job, **মিটিং**, **ক্লাস**, **পরীক্ষা** exam, **বিয়ে** wedding.\n\nDescribing needs no verb: **রান্নাঘর ছোট, কিন্তু পরিষ্কার**.\n\nHaving uses **-র** + **আছে / নেই**: **আমার বাবার একটা ব্যবসা আছে**, **আজকে আমার ক্লাস নেই**.\n\nIf a word is new to you, tap it to see the meaning.",
+      "sentences": [
+        {
+          "bn": "রান্নাঘর ছোট, কিন্তু খুব পরিষ্কার।",
+          "tr": "rannaghor chhoto, kintu khub porishkar.",
+          "en": "The kitchen is small but very clean."
+        },
+        {
+          "bn": "আমাদের বাসায় দুইটা বাথরুম আছে।",
+          "tr": "amader bashay duita bathrum achhe.",
+          "en": "There are two bathrooms in our home.",
+          "alt": [
+            "Our flat has two bathrooms."
+          ]
+        },
+        {
+          "bn": "কাল আমার পরীক্ষা।",
+          "tr": "kal amar porikkha.",
+          "en": "I have an exam tomorrow.",
+          "alt": [
+            "My exam is tomorrow."
+          ]
+        },
+        {
+          "bn": "আজকে আমার ক্লাস নেই।",
+          "tr": "ajke amar klas nei.",
+          "en": "I have no class today.",
+          "alt": [
+            "I don't have class today."
+          ]
+        },
+        {
+          "bn": "আমার বাবার একটা ব্যবসা আছে।",
+          "tr": "amar babar ekta byabsha achhe.",
+          "en": "My father has a business."
+        },
+        {
+          "bn": "আমার প্রতিবেশী খুব ভালো মানুষ।",
+          "tr": "amar protibeshi khub bhalo manush.",
+          "en": "My neighbour is a very kind person."
+        },
+        {
+          "bn": "এই চেয়ার খুব ভারী।",
+          "tr": "ei cheyar khub bhari.",
+          "en": "This chair is very heavy."
+        },
+        {
+          "bn": "বাংলা কি সহজ?",
+          "tr": "bangla ki shohoj?",
+          "en": "Is Bengali easy?"
+        },
+        {
+          "bn": "আমার চাবি কোথায়?",
+          "tr": "amar chabi kothay?",
+          "en": "Where is my key?"
+        },
+        {
+          "bn": "পরের মাসে রাফির বিয়ে।",
+          "tr": "porer mashe rafir biye.",
+          "en": "Rafi's wedding is next month.",
+          "alt": [
+            "Rafi is getting married next month."
+          ]
+        }
+      ],
+      "dialogue": {
+        "title": "Rafi's new flat",
+        "lines": [
+          {
+            "speaker": "Nadia",
+            "bn": "তোমার নতুন বাসা খুব সুন্দর!",
+            "tr": "tomar notun basha khub shundor!",
+            "en": "Your new home is lovely!"
+          },
+          {
+            "speaker": "Rafi",
+            "bn": "ধন্যবাদ। বাসা পুরনো, কিন্তু অনেক বড়।",
+            "tr": "dhonnobad. basha purono, kintu onek boro.",
+            "en": "Thanks. It's old, but very big."
+          },
+          {
+            "speaker": "Nadia",
+            "bn": "রান্নাঘর কোথায়?",
+            "tr": "rannaghor kothay?",
+            "en": "Where's the kitchen?"
+          },
+          {
+            "speaker": "Rafi",
+            "bn": "ওই দিকে।",
+            "tr": "oi dike.",
+            "en": "That way."
+          },
+          {
+            "speaker": "Nadia",
+            "bn": "তোমার কি কাল অফিস আছে?",
+            "tr": "tomar ki kal ofis achhe?",
+            "en": "Do you have work tomorrow?"
+          },
+          {
+            "speaker": "Rafi",
+            "bn": "হ্যাঁ, কাল আমার একটা বড় মিটিং আছে।",
+            "tr": "hya~, kal amar ekta boro miting achhe.",
+            "en": "Yes, tomorrow I have a big meeting."
+          }
+        ],
+        "questions": [
+          {
+            "question": "What does Rafi say about his home?",
+            "options": [
+              "It's old but big",
+              "It's new and small",
+              "It's far from the office"
+            ],
+            "answer": 0
+          },
+          {
+            "question": "What does Rafi have tomorrow?",
+            "options": [
+              "A big meeting",
+              "An exam",
+              "A wedding"
+            ],
+            "answer": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "i00-l07",
+      "title": "Review: Bridge",
+      "kind": "review",
+      "goal": "Mix present, past, perfect, future and the pronouns in one go.",
+      "grammar": [
+        "review: all the tenses and pronoun forms of the bridge unit"
+      ],
+      "new": [],
+      "review": [
+        "onek",
+        "ekhon",
+        "hya",
+        "ami",
+        "tumi",
+        "apni",
+        "nam",
+        "ki-what",
+        "amar",
+        "achhi",
+        "khub",
+        "she",
+        "amra",
+        "okhane",
+        "ki-q",
+        "bangla",
+        "bhai",
+        "or",
+        "kintu",
+        "nashta",
+        "chai",
+        "aj",
+        "kal",
+        "shoptahe",
+        "bajare",
+        "amake",
+        "bashay",
+        "jabo",
+        "ofise",
+        "tibhi",
+        "korchhi",
+        "korchho",
+        "dekhchhe",
+        "jachchhi",
+        "tai",
+        "bolte",
+        "paren",
+        "korlam",
+        "korle",
+        "korlen"
+      ],
+      "tip": "One verb, five times:\n\n- **করছি** I am doing · **করি** I do\n- **করলাম** I did · **করেছি** I have done · **করিনি** I didn't / haven't\n- **করব** I will do\n\nAnd the persons: আমি **-ি / -লাম / -ব**, তুমি **-ো / -লে / -বে**, সে **-ে / -ল / -বে**, আপনি **-েন / -লেন / -বেন**.",
+      "sentences": [
+        {
+          "bn": "সে কাল আসেনি, কিন্তু আজ আসবে।",
+          "tr": "she kal asheni, kintu aj ashbe.",
+          "en": "He didn't come yesterday, but he'll come today.",
+          "alt": [
+            "She didn't come yesterday, but she will today."
+          ]
+        },
+        {
+          "bn": "আমাকে এখন অফিসে যেতে হবে।",
+          "tr": "amake ekhon ofise jete hobe.",
+          "en": "I have to go to the office now."
+        },
+        {
+          "bn": "আমার ভাই এখন টিভি দেখছে।",
+          "tr": "amar bhai ekhon tibhi dekhchhe.",
+          "en": "My brother is watching TV now."
+        },
+        {
+          "bn": "আপনি কি বাংলা বলতে পারেন?",
+          "tr": "apni ki bangla bolte paren?",
+          "en": "Can you (polite) speak Bengali?"
+        },
+        {
+          "bn": "ওর নাম কী?",
+          "tr": "or nam ki?",
+          "en": "What's his name?",
+          "alt": [
+            "What's her name?"
+          ]
+        },
+        {
+          "bn": "কাল আমি বাজারে যাব।",
+          "tr": "kal ami bajare jabo.",
+          "en": "I'll go to the market tomorrow."
+        },
+        {
+          "bn": "আমি এখনো নাস্তা খাইনি।",
+          "tr": "ami ekhono nashta khaini.",
+          "en": "I haven't had breakfast yet."
+        },
+        {
+          "bn": "সামনের সপ্তাহে আমরা সিলেটে যাব।",
+          "tr": "shamner shoptahe amra shilete jabo.",
+          "en": "We'll go to Sylhet next week."
+        },
+        {
+          "bn": "আপনি কাল কী করলেন?",
+          "tr": "apni kal ki korlen?",
+          "en": "What did you (polite) do yesterday?"
+        },
+        {
+          "bn": "আমি খুব ক্লান্ত, তাই বাসায় যাচ্ছি।",
+          "tr": "ami khub klanto, tai bashay jachchhi.",
+          "en": "I'm very tired, so I'm going home."
+        }
+      ]
+    },
+    {
+      "id": "i00-c01",
+      "title": "Checkpoint: Bridge",
+      "kind": "checkpoint",
+      "goal": "Show you are ready for the intermediate units: follow a short text and use present, past, perfect and future with the right person.",
+      "grammar": [
+        "checkpoint: present, simple past, perfect and -নি, future, -তে + পারা / চাওয়া / হবে, -কে / -র pronouns"
+      ],
+      "new": [],
+      "review": [
+        "ekhon",
+        "na",
+        "ami",
+        "tumi",
+        "apni",
+        "ki-what",
+        "amar",
+        "ar",
+        "she",
+        "o-pron",
+        "uni",
+        "amra",
+        "ki-q",
+        "kothay",
+        "bangla",
+        "bhai",
+        "ekta",
+        "kintu",
+        "shobai",
+        "pani",
+        "cha",
+        "khai",
+        "nashta",
+        "chai",
+        "shokale",
+        "bikale",
+        "aj",
+        "kal",
+        "shoptahe",
+        "amake",
+        "dao",
+        "ektu",
+        "bashay",
+        "thaki",
+        "jabo",
+        "gari",
+        "ofise",
+        "pori",
+        "boi",
+        "tibhi"
+      ],
+      "tip": "Pass this and go straight on to the next unit.\n\nYou will:\n\n- follow a short text about someone's week\n- choose the right tense and person\n- type a few short sentences: 'I can't come today', 'He hasn't come yet', 'I want to learn Bengali'\n\nIf a part goes wrong, the lesson of this unit with that title is the quickest fix.",
+      "sentences": [
+        {
+          "bn": "তুমি কাল কোথায় ছিলে?",
+          "tr": "tumi kal kothay chhile?",
+          "en": "Where were you (familiar) yesterday?"
+        },
+        {
+          "bn": "উনি গাড়ি চালাতে পারেন।",
+          "tr": "uni gari chalate paren.",
+          "en": "He (polite) can drive.",
+          "alt": [
+            "She can drive."
+          ]
+        },
+        {
+          "bn": "আমি গতকাল একটা বই কিনলাম।",
+          "tr": "ami gotokal ekta boi kinlam.",
+          "en": "I bought a book yesterday."
+        },
+        {
+          "bn": "তুমি কি নাস্তা খেয়েছো?",
+          "tr": "tumi ki nashta kheyechho?",
+          "en": "Have you (familiar) had breakfast?"
+        },
+        {
+          "bn": "আমাকে কাল অফিসে যেতে হবে।",
+          "tr": "amake kal ofise jete hobe.",
+          "en": "I have to go to the office tomorrow."
+        },
+        {
+          "bn": "তুমি কাল কী করবে?",
+          "tr": "tumi kal ki korbe?",
+          "en": "What will you (familiar) do tomorrow?"
+        },
+        {
+          "bn": "আমি আজ আসতে পারব না।",
+          "tr": "ami aj ashte parbo na.",
+          "en": "I can't come today."
+        },
+        {
+          "bn": "সে এখনো আসেনি।",
+          "tr": "she ekhono asheni.",
+          "en": "He hasn't come yet."
+        },
+        {
+          "bn": "আমি বাংলা শিখতে চাই।",
+          "tr": "ami bangla shikhte chai.",
+          "en": "I want to learn Bengali."
+        },
+        {
+          "bn": "আমার ভাই এখন টিভি দেখছে।",
+          "tr": "amar bhai ekhon tibhi dekhchhe.",
+          "en": "My brother is watching TV now."
+        }
+      ],
+      "dialogue": {
+        "title": "Nadia's week",
+        "lines": [
+          {
+            "bn": "আমি গত সপ্তাহে ঢাকায় এলাম।",
+            "tr": "ami goto shoptahe dhakay elam.",
+            "en": "I came to Dhaka last week."
+          },
+          {
+            "bn": "এখন আমি বন্ধুর বাসায় থাকি।",
+            "tr": "ekhon ami bondhur bashay thaki.",
+            "en": "Now I'm staying at a friend's."
+          },
+          {
+            "bn": "প্রতিদিন সকালে আমি বাংলা পড়ি, আর বিকালে রাফির সাথে চা খাই।",
+            "tr": "protidin shokale ami bangla pori, ar bikale rafir shathe cha khai.",
+            "en": "Every morning I read Bengali, and in the afternoon I have tea with Rafi."
+          },
+          {
+            "bn": "কাল আমি রাফির অফিসে গেলাম, কিন্তু ও ছিল না।",
+            "tr": "kal ami rafir ofise gelam, kintu o chhilo na.",
+            "en": "Yesterday I went to Rafi's office, but he wasn't there."
+          },
+          {
+            "bn": "আমি এখনো সিলেটে যাইনি।",
+            "tr": "ami ekhono shilete jaini.",
+            "en": "I haven't been to Sylhet yet."
+          },
+          {
+            "bn": "সামনের মাসে আমরা সবাই সিলেটে যাব।",
+            "tr": "shamner mashe amra shobai shilete jabo.",
+            "en": "Next month we'll all go to Sylhet."
+          }
+        ],
+        "questions": [
+          {
+            "question": "Where does Nadia live now?",
+            "options": [
+              "At a friend's",
+              "At Rafi's",
+              "In Sylhet"
+            ],
+            "answer": 0
+          },
+          {
+            "question": "What happened when Nadia went to Rafi's office?",
+            "options": [
+              "He wasn't there",
+              "He gave her tea",
+              "She met his boss"
+            ],
+            "answer": 0
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,793 @@
+{
+  "unit": "i02-and-then",
+  "entries": [
+    {
+      "id": "kheye",
+      "bn": "খেয়ে",
+      "tr": "kheye",
+      "en": "having eaten",
+      "alt": [
+        "after eating",
+        "eating"
+      ],
+      "pos": "verb",
+      "lesson": "i02-l01",
+      "notes": "Conjunctive participle of খাওয়া: the action comes before the main verb. No person or tense of its own."
+    },
+    {
+      "id": "kore-ptc",
+      "bn": "করে",
+      "tr": "kore",
+      "en": "having done",
+      "alt": [
+        "after doing",
+        "doing"
+      ],
+      "pos": "verb",
+      "lesson": "i02-l01",
+      "notes": "Same spelling as করে 'he/she does' (U8). A participle stands before another verb: রান্না করে খেলাম."
+    },
+    {
+      "id": "giye",
+      "bn": "গিয়ে",
+      "tr": "giye",
+      "en": "having gone",
+      "alt": [
+        "after going",
+        "going"
+      ],
+      "pos": "verb",
+      "lesson": "i02-l01",
+      "notes": "Participle of যাওয়া."
+    },
+    {
+      "id": "eshe",
+      "bn": "এসে",
+      "tr": "eshe",
+      "en": "having come",
+      "alt": [
+        "after coming",
+        "coming"
+      ],
+      "pos": "verb",
+      "lesson": "i02-l01",
+      "notes": "Participle of আসা."
+    },
+    {
+      "id": "dekhe-ptc",
+      "bn": "দেখে",
+      "tr": "dekhe",
+      "en": "having seen",
+      "alt": [
+        "after seeing",
+        "seeing",
+        "when (I) saw"
+      ],
+      "pos": "verb",
+      "lesson": "i02-l01",
+      "notes": "Same spelling as দেখে 'he/she watches' (U8)."
+    },
+    {
+      "id": "shune",
+      "bn": "শুনে",
+      "tr": "shune",
+      "en": "having heard",
+      "alt": [
+        "after hearing",
+        "hearing",
+        "when (I) heard"
+      ],
+      "pos": "verb",
+      "lesson": "i02-l01"
+    },
+    {
+      "id": "uthe",
+      "bn": "উঠে",
+      "tr": "uthe",
+      "en": "having got up",
+      "alt": [
+        "after getting up",
+        "getting on"
+      ],
+      "pos": "verb",
+      "lesson": "i02-l01",
+      "notes": "Also 'having got on' (a bus): বাসে উঠে."
+    },
+    {
+      "id": "kine",
+      "bn": "কিনে",
+      "tr": "kine",
+      "en": "having bought",
+      "alt": [
+        "after buying",
+        "buying"
+      ],
+      "pos": "verb",
+      "lesson": "i02-l01"
+    },
+    {
+      "id": "fire",
+      "bn": "ফিরে",
+      "tr": "fire",
+      "en": "having come back",
+      "alt": [
+        "having returned",
+        "after coming back",
+        "back"
+      ],
+      "pos": "verb",
+      "lesson": "i02-l01",
+      "notes": "Participle of ফেরা 'return'. ফিরে গেলাম 'I went back'."
+    },
+    {
+      "id": "hoye",
+      "bn": "হয়ে",
+      "tr": "hoye",
+      "en": "having become",
+      "alt": [
+        "having got",
+        "being"
+      ],
+      "pos": "verb",
+      "lesson": "i02-l01",
+      "notes": "Participle of হওয়া: তৈরি হয়ে 'having got ready'."
+    },
+    {
+      "id": "diye-ptc",
+      "bn": "দিয়ে",
+      "tr": "diye",
+      "en": "having given",
+      "alt": [
+        "after giving",
+        "giving"
+      ],
+      "pos": "verb",
+      "lesson": "i02-l01",
+      "notes": "Same spelling as দিয়ে 'along, through' (U7)."
+    },
+    {
+      "id": "hete",
+      "bn": "হেঁটে",
+      "tr": "he~te",
+      "en": "on foot",
+      "alt": [
+        "walking",
+        "having walked"
+      ],
+      "pos": "adv",
+      "lesson": "i02-l02",
+      "notes": "Participle of হাঁটা 'walk'."
+    },
+    {
+      "id": "riksha-kore",
+      "bn": "রিকশা করে",
+      "tr": "riksha kore",
+      "en": "by rickshaw",
+      "pos": "phrase",
+      "lesson": "i02-l02",
+      "notes": "রিকশায় (U7) says the same. Also বাসে করে, ট্রেনে করে."
+    },
+    {
+      "id": "doure",
+      "bn": "দৌড়ে",
+      "tr": "doure",
+      "en": "running",
+      "alt": [
+        "at a run",
+        "having run"
+      ],
+      "pos": "adv",
+      "lesson": "i02-l02",
+      "notes": "Participle of দৌড়ানো 'run'."
+    },
+    {
+      "id": "dhire-dhire",
+      "bn": "ধীরে ধীরে",
+      "tr": "dhire dhire",
+      "en": "slowly",
+      "alt": [
+        "gradually",
+        "little by little"
+      ],
+      "pos": "adv",
+      "lesson": "i02-l02",
+      "notes": "Also 'gradually'. Everyday 'slowly, gently' is আস্তে (U12)."
+    },
+    {
+      "id": "chup-kore",
+      "bn": "চুপ করে",
+      "tr": "chup kore",
+      "en": "quietly",
+      "alt": [
+        "in silence",
+        "silently"
+      ],
+      "pos": "phrase",
+      "lesson": "i02-l02"
+    },
+    {
+      "id": "mon-diye",
+      "bn": "মন দিয়ে",
+      "tr": "mon diye",
+      "en": "attentively",
+      "alt": [
+        "carefully",
+        "with attention"
+      ],
+      "pos": "phrase",
+      "lesson": "i02-l02",
+      "notes": "Literally 'giving the mind'."
+    },
+    {
+      "id": "pouchhalam",
+      "bn": "পৌঁছালাম",
+      "tr": "pou~chhalam",
+      "en": "I arrived",
+      "alt": [
+        "I reached",
+        "I got there",
+        "we arrived"
+      ],
+      "pos": "verb",
+      "lesson": "i02-l02",
+      "notes": "Also spelled পৌঁছলাম. Perfect: পৌঁছেছি (U13)."
+    },
+    {
+      "id": "bhije",
+      "bn": "ভিজে",
+      "tr": "bhije",
+      "en": "getting wet",
+      "alt": [
+        "soaked",
+        "wet"
+      ],
+      "pos": "verb",
+      "lesson": "i02-l02",
+      "notes": "ভিজে গেলাম 'I got soaked'."
+    },
+    {
+      "id": "khobor",
+      "bn": "খবর",
+      "tr": "khobor",
+      "en": "news",
+      "pos": "noun",
+      "lesson": "i02-l03",
+      "notes": "কী খবর? 'What's up? / What's new?'"
+    },
+    {
+      "id": "khoborta",
+      "bn": "খবরটা",
+      "tr": "khoborta",
+      "en": "the news",
+      "pos": "noun",
+      "lesson": "i02-l03"
+    },
+    {
+      "id": "khushi-holam",
+      "bn": "খুশি হলাম",
+      "tr": "khushi holam",
+      "en": "I was glad",
+      "alt": [
+        "I was happy",
+        "we were glad"
+      ],
+      "pos": "phrase",
+      "lesson": "i02-l03"
+    },
+    {
+      "id": "obak",
+      "bn": "অবাক",
+      "tr": "obak",
+      "en": "surprised",
+      "alt": [
+        "amazed"
+      ],
+      "pos": "adj",
+      "lesson": "i02-l03"
+    },
+    {
+      "id": "obak-holam",
+      "bn": "অবাক হলাম",
+      "tr": "obak holam",
+      "en": "I was surprised",
+      "alt": [
+        "I was amazed",
+        "we were surprised"
+      ],
+      "pos": "phrase",
+      "lesson": "i02-l03"
+    },
+    {
+      "id": "birokto",
+      "bn": "বিরক্ত",
+      "tr": "birokto",
+      "en": "annoyed",
+      "alt": [
+        "irritated"
+      ],
+      "pos": "adj",
+      "lesson": "i02-l03"
+    },
+    {
+      "id": "koshto",
+      "bn": "কষ্ট",
+      "tr": "koshto",
+      "en": "pain; hardship",
+      "alt": [
+        "distress",
+        "trouble",
+        "suffering"
+      ],
+      "pos": "noun",
+      "lesson": "i02-l03"
+    },
+    {
+      "id": "koshto-pelam",
+      "bn": "কষ্ট পেলাম",
+      "tr": "koshto pelam",
+      "en": "I was hurt (upset)",
+      "alt": [
+        "I was upset",
+        "it hurt me"
+      ],
+      "pos": "phrase",
+      "lesson": "i02-l03"
+    },
+    {
+      "id": "bhoy-pelam",
+      "bn": "ভয় পেলাম",
+      "tr": "bhoy pelam",
+      "en": "I got scared",
+      "alt": [
+        "I was scared",
+        "I was frightened"
+      ],
+      "pos": "phrase",
+      "lesson": "i02-l03"
+    },
+    {
+      "id": "heshe",
+      "bn": "হেসে",
+      "tr": "heshe",
+      "en": "laughing",
+      "alt": [
+        "smiling",
+        "with a smile",
+        "with a laugh"
+      ],
+      "pos": "verb",
+      "lesson": "i02-l03",
+      "notes": "Participle of হাসা 'laugh, smile'."
+    },
+    {
+      "id": "rege",
+      "bn": "রেগে",
+      "tr": "rege",
+      "en": "angrily",
+      "alt": [
+        "getting angry",
+        "in anger"
+      ],
+      "pos": "verb",
+      "lesson": "i02-l03",
+      "notes": "Participle of রাগা 'get angry'; compare রাগ 'anger' (U14)."
+    },
+    {
+      "id": "na-kheye",
+      "bn": "না খেয়ে",
+      "tr": "na kheye",
+      "en": "without eating",
+      "pos": "phrase",
+      "lesson": "i02-l04",
+      "notes": "না comes before the participle: never খেয়ে না."
+    },
+    {
+      "id": "na-bole",
+      "bn": "না বলে",
+      "tr": "na bole",
+      "en": "without telling",
+      "alt": [
+        "without saying"
+      ],
+      "pos": "phrase",
+      "lesson": "i02-l04"
+    },
+    {
+      "id": "jene",
+      "bn": "জেনে",
+      "tr": "jene",
+      "en": "knowing",
+      "alt": [
+        "having found out",
+        "having known"
+      ],
+      "pos": "verb",
+      "lesson": "i02-l04"
+    },
+    {
+      "id": "na-jene",
+      "bn": "না জেনে",
+      "tr": "na jene",
+      "en": "without knowing",
+      "alt": [
+        "unknowingly"
+      ],
+      "pos": "phrase",
+      "lesson": "i02-l04"
+    },
+    {
+      "id": "ghumiye",
+      "bn": "ঘুমিয়ে",
+      "tr": "ghumiye",
+      "en": "having slept",
+      "alt": [
+        "sleeping",
+        "after sleeping"
+      ],
+      "pos": "verb",
+      "lesson": "i02-l04"
+    },
+    {
+      "id": "shararat",
+      "bn": "সারারাত",
+      "tr": "shararat",
+      "en": "all night",
+      "alt": [
+        "the whole night"
+      ],
+      "pos": "adv",
+      "lesson": "i02-l04"
+    },
+    {
+      "id": "chole-gelam",
+      "bn": "চলে গেলাম",
+      "tr": "chole gelam",
+      "en": "I left",
+      "alt": [
+        "I went away",
+        "we left"
+      ],
+      "pos": "phrase",
+      "lesson": "i02-l04",
+      "notes": "Compound verb, taught as a chunk; compare চলে গেল 'he left'."
+    },
+    {
+      "id": "niye",
+      "bn": "নিয়ে",
+      "tr": "niye",
+      "en": "having taken",
+      "alt": [
+        "taking",
+        "with",
+        "taking along"
+      ],
+      "pos": "verb",
+      "lesson": "i02-l04",
+      "notes": "Participle of নেওয়া: ছাতা নিয়ে 'taking an umbrella'. Later also 'about'."
+    },
+    {
+      "id": "prothome",
+      "bn": "প্রথমে",
+      "tr": "prothome",
+      "en": "first",
+      "alt": [
+        "at first",
+        "firstly"
+      ],
+      "pos": "adv",
+      "lesson": "i02-l05"
+    },
+    {
+      "id": "erpor",
+      "bn": "এরপর",
+      "tr": "erpor",
+      "en": "after this",
+      "alt": [
+        "after that",
+        "next"
+      ],
+      "pos": "adv",
+      "lesson": "i02-l05"
+    },
+    {
+      "id": "sheshe",
+      "bn": "শেষে",
+      "tr": "sheshe",
+      "en": "at the end",
+      "alt": [
+        "in the end",
+        "finally"
+      ],
+      "pos": "adv",
+      "lesson": "i02-l05"
+    },
+    {
+      "id": "obosheshe",
+      "bn": "অবশেষে",
+      "tr": "obosheshe",
+      "en": "finally",
+      "alt": [
+        "at last",
+        "in the end"
+      ],
+      "pos": "adv",
+      "lesson": "i02-l05",
+      "notes": "A little bookish; in speech শেষে or শেষমেশ."
+    },
+    {
+      "id": "shathe-shathe",
+      "bn": "সাথে সাথে",
+      "tr": "shathe shathe",
+      "en": "immediately",
+      "alt": [
+        "right away",
+        "at once"
+      ],
+      "pos": "phrase",
+      "lesson": "i02-l05",
+      "notes": "Also সঙ্গে সঙ্গে (the usual Kolkata form).",
+      "kolkata": {
+        "bn": "সঙ্গে সঙ্গে",
+        "tr": "shongge shongge"
+      }
+    },
+    {
+      "id": "kichhukkhon-pore",
+      "bn": "কিছুক্ষণ পরে",
+      "tr": "kichhukkhon pore",
+      "en": "a little later",
+      "alt": [
+        "after a while"
+      ],
+      "pos": "phrase",
+      "lesson": "i02-l05"
+    },
+    {
+      "id": "ghotona",
+      "bn": "ঘটনা",
+      "tr": "ghotona",
+      "en": "incident",
+      "alt": [
+        "event",
+        "what happened"
+      ],
+      "pos": "noun",
+      "lesson": "i02-l05"
+    },
+    {
+      "id": "ghotlo",
+      "bn": "ঘটল",
+      "tr": "ghotlo",
+      "en": "happened",
+      "alt": [
+        "took place"
+      ],
+      "pos": "verb",
+      "lesson": "i02-l05",
+      "notes": "Also spelled ঘটলো."
+    },
+    {
+      "id": "tokhoni",
+      "bn": "তখনই",
+      "tr": "tokhoni",
+      "en": "right then",
+      "alt": [
+        "at that very moment",
+        "right away"
+      ],
+      "pos": "adv",
+      "lesson": "i02-l05"
+    },
+    {
+      "id": "tai-na",
+      "bn": "তাই না",
+      "tr": "tai na",
+      "en": "isn't it? / right?",
+      "alt": [
+        "right?",
+        "isn't it?",
+        "aren't you?",
+        "won't you?",
+        "don't you?"
+      ],
+      "pos": "phrase",
+      "lesson": "i02-l06"
+    },
+    {
+      "id": "to",
+      "bn": "তো",
+      "tr": "to",
+      "en": "(emphatic particle)",
+      "alt": [
+        "after all",
+        "but",
+        "you know"
+      ],
+      "pos": "particle",
+      "lesson": "i02-l06"
+    },
+    {
+      "id": "naki",
+      "bn": "নাকি",
+      "tr": "naki",
+      "en": "apparently; or",
+      "alt": [
+        "I hear",
+        "or",
+        "apparently"
+      ],
+      "pos": "particle",
+      "lesson": "i02-l06",
+      "notes": "Between options: 'or' (চা নাকি পানি?). In a statement: 'I hear, apparently'."
+    },
+    {
+      "id": "na-tag",
+      "bn": "না",
+      "tr": "na",
+      "en": "right? (tag)",
+      "alt": [
+        "isn't it?",
+        "won't you?"
+      ],
+      "pos": "particle",
+      "lesson": "i02-l06",
+      "notes": "Same spelling as না 'no, not' (U1); at the end of a sentence it asks for agreement."
+    },
+    {
+      "id": "are",
+      "bn": "আরে",
+      "tr": "are",
+      "en": "hey!; oh!",
+      "alt": [
+        "hey",
+        "oh"
+      ],
+      "pos": "particle",
+      "lesson": "i02-l06"
+    },
+    {
+      "id": "jyam",
+      "bn": "জ্যাম",
+      "tr": "jyam",
+      "en": "traffic jam",
+      "alt": [
+        "traffic",
+        "jam"
+      ],
+      "pos": "noun",
+      "lesson": "i02-l06"
+    },
+    {
+      "id": "bhir",
+      "bn": "ভিড়",
+      "tr": "bhir",
+      "en": "crowd",
+      "alt": [
+        "rush",
+        "crowded"
+      ],
+      "pos": "noun",
+      "lesson": "i02-l06"
+    },
+    {
+      "id": "khuje",
+      "bn": "খুঁজে",
+      "tr": "khu~je",
+      "en": "searching",
+      "alt": [
+        "looking for",
+        "having searched"
+      ],
+      "pos": "verb",
+      "lesson": "i02-l06"
+    },
+    {
+      "id": "khuje-pelam",
+      "bn": "খুঁজে পেলাম",
+      "tr": "khu~je pelam",
+      "en": "I found",
+      "alt": [
+        "we found"
+      ],
+      "pos": "phrase",
+      "lesson": "i02-l06"
+    },
+    {
+      "id": "dekha-holo",
+      "bn": "দেখা হল",
+      "tr": "dekha holo",
+      "en": "(we) met",
+      "alt": [
+        "we met",
+        "I met"
+      ],
+      "pos": "phrase",
+      "lesson": "i02-l06",
+      "notes": "Also spelled দেখা হলো. Future: দেখা হবে (U11)."
+    },
+    {
+      "id": "neme",
+      "bn": "নেমে",
+      "tr": "neme",
+      "en": "having got off",
+      "alt": [
+        "getting off",
+        "after getting off"
+      ],
+      "pos": "verb",
+      "lesson": "i02-l07"
+    },
+    {
+      "id": "namlam",
+      "bn": "নামলাম",
+      "tr": "namlam",
+      "en": "I got off",
+      "alt": [
+        "I got down",
+        "I got out",
+        "we got off"
+      ],
+      "pos": "verb",
+      "lesson": "i02-l07"
+    },
+    {
+      "id": "dhorlam",
+      "bn": "ধরলাম",
+      "tr": "dhorlam",
+      "en": "I caught",
+      "alt": [
+        "I took (a bus)",
+        "I held"
+      ],
+      "pos": "verb",
+      "lesson": "i02-l07"
+    },
+    {
+      "id": "dariye",
+      "bn": "দাঁড়িয়ে",
+      "tr": "da~riye",
+      "en": "standing",
+      "alt": [
+        "having stood",
+        "standing still"
+      ],
+      "pos": "verb",
+      "lesson": "i02-l07"
+    },
+    {
+      "id": "opekkha-korlam",
+      "bn": "অপেক্ষা করলাম",
+      "tr": "opekkha korlam",
+      "en": "I waited",
+      "alt": [
+        "we waited"
+      ],
+      "pos": "phrase",
+      "lesson": "i02-l07"
+    },
+    {
+      "id": "sheshmesh",
+      "bn": "শেষমেশ",
+      "tr": "sheshmesh",
+      "en": "in the end",
+      "alt": [
+        "eventually",
+        "finally"
+      ],
+      "pos": "adv",
+      "lesson": "i02-l07"
+    },
+    {
+      "id": "jai-hok",
+      "bn": "যাই হোক",
+      "tr": "jai hok",
+      "en": "anyway",
+      "alt": [
+        "anyhow",
+        "whatever"
+      ],
+      "pos": "phrase",
+      "lesson": "i02-l07"
+    }
+  ]
+}

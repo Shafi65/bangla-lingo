@@ -1,0 +1,495 @@
+{
+  "id": "i00-l04",
+  "unit": "i00-bridge",
+  "title": "Tomorrow, can and want",
+  "status": "draft",
+  "tip": "**Future**: stem + **-ব / -বি / -বে / -বেন**: আমি **করব**, তুই **করবি**, তুমি / সে **করবে**, আপনি **করবেন**. যাওয়া: **যাব, যাবি, যাবে, যাবেন**.\n\n**Can, want, have to** take the **-তে** form: **লিখতে পারি** 'I can write', **খেতে চান** 'you want to eat', **আমাকে উঠতে হবে** 'I have to get up' (note **আমাকে**).\n\n**Commands** follow the person: **বসো** (তুমি), **বসেন / বসুন** (আপনি), **বস** (তুই).\n\nCareful: **করবে** 'will do' vs **করলে** 'did' (তুমি).",
+  "vocab": [],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "শিখেছি",
+        "tr": "shikhechhi",
+        "en": "I have learned"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "শিখছি",
+        "শিখেছি",
+        "শিখব",
+        "শিখলাম"
+      ],
+      "answer": 1,
+      "why": "Perfect, আমি: **শিখেছি**."
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "এখনো না",
+        "tr": "ekhono na",
+        "en": "not yet"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "কখনো না",
+        "মাত্র",
+        "এখনো না",
+        "ইতিমধ্যে"
+      ],
+      "answer": 2,
+      "why": "**এখনো না** 'not yet'; **কখনো না** 'never'."
+    },
+    {
+      "id": "e03",
+      "type": "reading",
+      "title": "Next week",
+      "lines": [
+        {
+          "speaker": "Rafi",
+          "bn": "সামনের সপ্তাহে তুমি কী করবে?",
+          "tr": "shamner shoptahe tumi ki korbe?",
+          "en": "What will you do next week?"
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "আমি বন্ধুর বাসায় যাব। ওখানে দুই দিন থাকব।",
+          "tr": "ami bondhur bashay jabo. okhane dui din thakbo.",
+          "en": "I'll go to a friend's. I'll stay there two days."
+        },
+        {
+          "speaker": "Rafi",
+          "bn": "আমি তোমার সাথে যেতে চাই।",
+          "tr": "ami tomar shathe jete chai.",
+          "en": "I want to go with you."
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "তুমি কি শুক্রবার আসতে পারবে?",
+          "tr": "tumi ki shukrobar ashte parbe?",
+          "en": "Will you be able to come on Friday?"
+        },
+        {
+          "speaker": "Rafi",
+          "bn": "হ্যাঁ, পারব। আমি তোমাকে ফোন করব।",
+          "tr": "hya~, parbo. ami tomake fon korbo.",
+          "en": "Yes, I can. I'll phone you."
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "ঠিক আছে, আমাকে জানাও।",
+          "tr": "thik achhe, amake janao.",
+          "en": "OK, let me know."
+        }
+      ],
+      "question": "Where will Nadia go next week?",
+      "options": [
+        "To the office",
+        "To a friend's home",
+        "To Sylhet"
+      ],
+      "answer": 1,
+      "why": "**যাব** 'I will go', **থাকব** 'I will stay'."
+    },
+    {
+      "id": "e04",
+      "type": "reading",
+      "title": "The tea stall board",
+      "lines": [
+        {
+          "bn": "আজ: মুরগি বিরিয়ানি, ডাল আর ভাত।",
+          "tr": "aj: murgi biriyani, dal ar bhat.",
+          "en": "Today: chicken biryani, dal and rice."
+        },
+        {
+          "bn": "কাল: ইলিশ মাছ আর সবজি।",
+          "tr": "kal: ilish machh ar shobji.",
+          "en": "Tomorrow: hilsa fish and vegetables."
+        },
+        {
+          "bn": "চা: দশ টাকা।",
+          "tr": "cha: dosh taka.",
+          "en": "Tea: ten taka."
+        },
+        {
+          "bn": "আজ রাতে দোকান দশটায় বন্ধ হবে।",
+          "tr": "aj rate dokan doshtay bondho hobe.",
+          "en": "Tonight the shop will close at ten."
+        },
+        {
+          "bn": "কাল সকালে গরম পিঠা থাকবে!",
+          "tr": "kal shokale gorom pitha thakbe!",
+          "en": "Tomorrow morning there will be hot pitha!"
+        }
+      ],
+      "question": "What will there be tomorrow morning?",
+      "options": [
+        "Chicken biryani",
+        "Hot pitha",
+        "Free tea"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e05",
+      "type": "reading",
+      "title": "The tea stall board",
+      "lines": [
+        {
+          "bn": "আজ: মুরগি বিরিয়ানি, ডাল আর ভাত।",
+          "tr": "aj: murgi biriyani, dal ar bhat.",
+          "en": "Today: chicken biryani, dal and rice."
+        },
+        {
+          "bn": "কাল: ইলিশ মাছ আর সবজি।",
+          "tr": "kal: ilish machh ar shobji.",
+          "en": "Tomorrow: hilsa fish and vegetables."
+        },
+        {
+          "bn": "চা: দশ টাকা।",
+          "tr": "cha: dosh taka.",
+          "en": "Tea: ten taka."
+        },
+        {
+          "bn": "আজ রাতে দোকান দশটায় বন্ধ হবে।",
+          "tr": "aj rate dokan doshtay bondho hobe.",
+          "en": "Tonight the shop will close at ten."
+        },
+        {
+          "bn": "কাল সকালে গরম পিঠা থাকবে!",
+          "tr": "kal shokale gorom pitha thakbe!",
+          "en": "Tomorrow morning there will be hot pitha!"
+        }
+      ],
+      "question": "When does the shop close tonight?",
+      "options": [
+        "At eight",
+        "At midnight",
+        "At ten"
+      ],
+      "answer": 2,
+      "why": "**বন্ধ হবে** 'will close'."
+    },
+    {
+      "id": "e06",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "আমাকে কাল তাড়াতাড়ি উঠতে হবে।",
+        "tr": "amake kal taratari uthte hobe.",
+        "en": "I have to get up early tomorrow."
+      },
+      "options": [
+        "I want to sleep late tomorrow.",
+        "I got up early yesterday.",
+        "I can get up early tomorrow.",
+        "I have to get up early tomorrow."
+      ],
+      "answer": 3,
+      "why": "**আমাকে … উঠতে হবে** 'I have to get up'."
+    },
+    {
+      "id": "e07",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "সে গাড়ি চালাতে পারে না।",
+        "tr": "she gari chalate pare na.",
+        "en": "He can't drive."
+      },
+      "options": [
+        "He doesn't want to drive.",
+        "He drives every day.",
+        "He couldn't find the car.",
+        "He can't drive."
+      ],
+      "answer": 3,
+      "why": "**চালাতে পারে না** 'can't drive'."
+    },
+    {
+      "id": "e08",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আপনি কখন আসবেন?",
+        "tr": "apni kokhon ashben?",
+        "en": "When will you (polite) come?"
+      },
+      "blank": "আসবেন",
+      "options": [
+        "আসবি",
+        "আসবেন",
+        "আসবে",
+        "আসব"
+      ],
+      "answer": 1,
+      "why": "আপনি → future **-বেন**: **আসবেন**."
+    },
+    {
+      "id": "e09",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আমি একটু বাংলা লিখতে পারি।",
+        "tr": "ami ektu bangla likhte pari.",
+        "en": "I can write a little Bengali."
+      },
+      "blank": "লিখতে",
+      "options": [
+        "লিখতে",
+        "লেখে",
+        "লিখি"
+      ],
+      "answer": 0,
+      "why": "Before **পারা** use the **-তে** form: **লিখতে পারি**."
+    },
+    {
+      "id": "e10",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "এখানে বসুন।",
+        "tr": "ekhane boshun.",
+        "en": "Please sit here (polite)."
+      },
+      "blank": "বসুন",
+      "options": [
+        "বসো",
+        "বসতে",
+        "বস",
+        "বসুন"
+      ],
+      "answer": 3,
+      "why": "Polite command: **বসুন** (or **বসেন**); **বসো** is for তুমি."
+    },
+    {
+      "id": "e11",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "তুই কাল কী করবি?",
+        "tr": "tui kal ki korbi?",
+        "en": "What will you (intimate) do tomorrow?"
+      },
+      "blank": "করবি",
+      "accepted": [
+        "করবি",
+        "korbi"
+      ],
+      "why": "তুই → future **-বি**: **করবি**."
+    },
+    {
+      "id": "e12",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমি কাল তোমাকে ফোন করব।",
+        "tr": "ami kal tomake fon korbo.",
+        "en": "I'll phone you (familiar) tomorrow."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "ফোন",
+        "আমি",
+        "তোমাকে",
+        "কাল",
+        "করব",
+        "করি",
+        "আপনাকে",
+        "তোমার"
+      ],
+      "answer": [
+        "আমি",
+        "কাল",
+        "তোমাকে",
+        "ফোন",
+        "করব"
+      ],
+      "alt": [
+        [
+          "কাল",
+          "আমি",
+          "তোমাকে",
+          "ফোন",
+          "করব"
+        ],
+        [
+          "আমি",
+          "তোমাকে",
+          "কাল",
+          "ফোন",
+          "করব"
+        ],
+        [
+          "কাল",
+          "তোমাকে",
+          "ফোন",
+          "করব"
+        ]
+      ],
+      "why": "'You' as the person called: **তোমাকে**; future **করব**."
+    },
+    {
+      "id": "e13",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আপনি কী খেতে চান?",
+        "tr": "apni ki khete chan?",
+        "en": "What do you (polite) want to eat?"
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "চাও",
+        "খেতে",
+        "তুমি",
+        "কী",
+        "খান",
+        "আপনি",
+        "চান"
+      ],
+      "answer": [
+        "আপনি",
+        "কী",
+        "খেতে",
+        "চান"
+      ],
+      "why": "Polite **আপনি … চান**, with **খেতে** 'to eat'."
+    },
+    {
+      "id": "e14",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "একটু আস্তে বলো।",
+        "tr": "ektu aste bolo.",
+        "en": "Speak a little more slowly (familiar)."
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "একটু আস্তে বলো",
+        "আস্তে বলো",
+        "একটু আস্তে কথা বলো",
+        "ektu aste bolo",
+        "aste bolo",
+        "ektu aste kotha bolo"
+      ],
+      "why": "Familiar command: **বলো**."
+    },
+    {
+      "id": "e15",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আমি তোমার সাথে যেতে চাই।",
+        "tr": "ami tomar shathe jete chai.",
+        "en": "I want to go with you (familiar)."
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "আমি তোমার সাথে যেতে চাই",
+        "তোমার সাথে যেতে চাই",
+        "ami tomar shathe jete chai",
+        "tomar shathe jete chai"
+      ],
+      "why": "**যেতে চাই** 'I want to go'."
+    },
+    {
+      "id": "r01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "বিজয় দিবস",
+        "tr": "bijoy dibosh",
+        "en": "Victory Day"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "মনে হয়",
+        "দয়া করে",
+        "বিজয় দিবস",
+        "পহেলা বৈশাখ"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "ওকে হাসপাতালে নিতে হবে।",
+        "tr": "oke hashpatale nite hobe.",
+        "en": "We have to take him to the hospital."
+      },
+      "blank": "হাসপাতালে",
+      "accepted": [
+        "হাসপাতালে",
+        "hashpatale"
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "মন খারাপ",
+        "tr": "mon kharap",
+        "en": "sad; upset"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "what happened",
+        "sad; upset",
+        "brushing teeth",
+        "(we) will meet"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "আসে",
+          "tr": "ashe",
+          "en": "comes"
+        },
+        {
+          "bn": "কত",
+          "tr": "koto",
+          "en": "how much"
+        },
+        {
+          "bn": "দেন",
+          "tr": "den",
+          "en": "give (polite)"
+        },
+        {
+          "bn": "আয়",
+          "tr": "ay",
+          "en": "come (intimate)"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "নও",
+          "tr": "noo",
+          "en": "are not (familiar)"
+        },
+        {
+          "bn": "পিছনে",
+          "tr": "pichhone",
+          "en": "behind"
+        },
+        {
+          "bn": "বলছেন",
+          "tr": "bolchhen",
+          "en": "you are speaking (polite)"
+        },
+        {
+          "bn": "বলতে",
+          "tr": "bolte",
+          "en": "to speak"
+        }
+      ],
+      "recycle": true
+    }
+  ]
+}

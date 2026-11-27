@@ -340,6 +340,28 @@
       ]
     },
     {
+      "id": "i00-bridge",
+      "title": "Bridge",
+      "description": "A fast review of Sections 1 and 2: present, past, perfect, future, can and want, pronouns",
+      "track": "main",
+      "level": "intermediate",
+      "section": 3,
+      "assumes": [
+        "bridge"
+      ],
+      "scriptOnly": true,
+      "lessons": [
+        "i00-l01",
+        "i00-l02",
+        "i00-l03",
+        "i00-l04",
+        "i00-l05",
+        "i00-l06",
+        "i00-l07",
+        "i00-c01"
+      ]
+    },
+    {
       "id": "i01-catching-up",
       "title": "Catching up",
       "description": "How life used to be, and what was going on when something happened",
@@ -360,6 +382,29 @@
         "i01-l07",
         "i01-l08",
         "i01-c01"
+      ]
+    },
+    {
+      "id": "i02-and-then",
+      "title": "And then…",
+      "description": "Tell what happened in connected sentences, and check things with 'right?'",
+      "track": "main",
+      "level": "intermediate",
+      "section": 3,
+      "assumes": [
+        "bridge"
+      ],
+      "scriptOnly": true,
+      "lessons": [
+        "i02-l01",
+        "i02-l02",
+        "i02-l03",
+        "i02-l04",
+        "i02-l05",
+        "i02-l06",
+        "i02-l07",
+        "i02-l08",
+        "i02-c01"
       ]
     }
   ]

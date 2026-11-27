@@ -1,0 +1,512 @@
+{
+  "id": "i00-l07",
+  "unit": "i00-bridge",
+  "title": "Review: Bridge",
+  "status": "draft",
+  "tip": "One verb, five times:\n\n- **করছি** I am doing · **করি** I do\n- **করলাম** I did · **করেছি** I have done · **করিনি** I didn't / haven't\n- **করব** I will do\n\nAnd the persons: আমি **-ি / -লাম / -ব**, তুমি **-ো / -লে / -বে**, সে **-ে / -ল / -বে**, আপনি **-েন / -লেন / -বেন**.",
+  "vocab": [],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "reading",
+      "title": "Catching up",
+      "lines": [
+        {
+          "speaker": "Rafi",
+          "bn": "কাল তুমি কী করলে?",
+          "tr": "kal tumi ki korle?",
+          "en": "What did you do yesterday?"
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "কাল আমি বন্ধুর বাসায় গেলাম। ওখানে অনেক খেলাম!",
+          "tr": "kal ami bondhur bashay gelam. okhane onek khelam!",
+          "en": "Yesterday I went to a friend's. I ate a lot there!"
+        },
+        {
+          "speaker": "Rafi",
+          "bn": "আজ কী করছো?",
+          "tr": "aj ki korchho?",
+          "en": "What are you doing today?"
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "আজ আমি বাসায় আছি। এখনো নাস্তা খাইনি।",
+          "tr": "aj ami bashay achhi. ekhono nashta khaini.",
+          "en": "Today I'm at home. I haven't had breakfast yet."
+        },
+        {
+          "speaker": "Rafi",
+          "bn": "সামনের সপ্তাহে আমরা সিলেটে যাব। তুমি কি আসতে পারবে?",
+          "tr": "shamner shoptahe amra shilete jabo. tumi ki ashte parbe?",
+          "en": "Next week we're going to Sylhet. Can you come?"
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "হ্যাঁ, আমি যেতে চাই!",
+          "tr": "hya~, ami jete chai!",
+          "en": "Yes, I want to go!"
+        }
+      ],
+      "question": "Where did Nadia go yesterday?",
+      "options": [
+        "To Sylhet",
+        "To a friend's home",
+        "To the office"
+      ],
+      "answer": 1,
+      "why": "**গেলাম** 'I went', **খেলাম** 'I ate'."
+    },
+    {
+      "id": "e02",
+      "type": "reading",
+      "title": "Catching up",
+      "lines": [
+        {
+          "speaker": "Rafi",
+          "bn": "কাল তুমি কী করলে?",
+          "tr": "kal tumi ki korle?",
+          "en": "What did you do yesterday?"
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "কাল আমি বন্ধুর বাসায় গেলাম। ওখানে অনেক খেলাম!",
+          "tr": "kal ami bondhur bashay gelam. okhane onek khelam!",
+          "en": "Yesterday I went to a friend's. I ate a lot there!"
+        },
+        {
+          "speaker": "Rafi",
+          "bn": "আজ কী করছো?",
+          "tr": "aj ki korchho?",
+          "en": "What are you doing today?"
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "আজ আমি বাসায় আছি। এখনো নাস্তা খাইনি।",
+          "tr": "aj ami bashay achhi. ekhono nashta khaini.",
+          "en": "Today I'm at home. I haven't had breakfast yet."
+        },
+        {
+          "speaker": "Rafi",
+          "bn": "সামনের সপ্তাহে আমরা সিলেটে যাব। তুমি কি আসতে পারবে?",
+          "tr": "shamner shoptahe amra shilete jabo. tumi ki ashte parbe?",
+          "en": "Next week we're going to Sylhet. Can you come?"
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "হ্যাঁ, আমি যেতে চাই!",
+          "tr": "hya~, ami jete chai!",
+          "en": "Yes, I want to go!"
+        }
+      ],
+      "question": "What is Rafi's plan for next week?",
+      "options": [
+        "Visiting Nadia's friend",
+        "Staying at home",
+        "Going to Sylhet"
+      ],
+      "answer": 2,
+      "why": "**যাব** 'we will go'."
+    },
+    {
+      "id": "e03",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "সে কাল আসেনি, কিন্তু আজ আসবে।",
+        "tr": "she kal asheni, kintu aj ashbe.",
+        "en": "He didn't come yesterday, but he'll come today."
+      },
+      "options": [
+        "He came yesterday and he'll come today.",
+        "He didn't come yesterday, but he'll come today.",
+        "He hasn't come yet today.",
+        "He didn't come yesterday, and he won't today."
+      ],
+      "answer": 1,
+      "why": "**আসেনি** 'didn't come' vs **আসবে** 'will come'."
+    },
+    {
+      "id": "e04",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "আমাকে এখন অফিসে যেতে হবে।",
+        "tr": "amake ekhon ofise jete hobe.",
+        "en": "I have to go to the office now."
+      },
+      "options": [
+        "I don't have to go to the office.",
+        "I can go to the office now.",
+        "I have to go to the office now.",
+        "I went to the office earlier."
+      ],
+      "answer": 2,
+      "why": "**আমাকে … যেতে হবে** 'I have to go'."
+    },
+    {
+      "id": "e05",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "আমার ভাই এখন টিভি দেখছে।",
+        "tr": "amar bhai ekhon tibhi dekhchhe.",
+        "en": "My brother is watching TV now."
+      },
+      "options": [
+        "My brother wants to watch TV.",
+        "My brother watches TV every day.",
+        "My brother watched TV yesterday.",
+        "My brother is watching TV now."
+      ],
+      "answer": 3,
+      "why": "**দেখছে** 'is watching'."
+    },
+    {
+      "id": "e06",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "করব",
+          "tr": "korbo",
+          "en": "I will do"
+        },
+        {
+          "bn": "করলাম",
+          "tr": "korlam",
+          "en": "I did"
+        },
+        {
+          "bn": "করেছি",
+          "tr": "korechhi",
+          "en": "I have done"
+        },
+        {
+          "bn": "করিনি",
+          "tr": "korini",
+          "en": "I didn't do"
+        },
+        {
+          "bn": "করছি",
+          "tr": "korchhi",
+          "en": "I am doing"
+        }
+      ]
+    },
+    {
+      "id": "e07",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "সে কাল আসেনি, কিন্তু আজ আসবে।",
+        "tr": "she kal asheni, kintu aj ashbe.",
+        "en": "He didn't come yesterday, but he'll come today."
+      },
+      "blank": "আসেনি",
+      "options": [
+        "আসছে",
+        "আসেনি",
+        "আসবে",
+        "আসে"
+      ],
+      "answer": 1,
+      "why": "'Didn't come' = **আসেনি**."
+    },
+    {
+      "id": "e08",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আপনি কি বাংলা বলতে পারেন?",
+        "tr": "apni ki bangla bolte paren?",
+        "en": "Can you (polite) speak Bengali?"
+      },
+      "blank": "পারেন",
+      "options": [
+        "পারে",
+        "পারেন",
+        "পারো",
+        "পারি"
+      ],
+      "answer": 1,
+      "why": "আপনি → **পারেন**."
+    },
+    {
+      "id": "e09",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "ওর নাম কী?",
+        "tr": "or nam ki?",
+        "en": "What's his name?"
+      },
+      "blank": "ওর",
+      "options": [
+        "ও",
+        "ওকে",
+        "ওর",
+        "ওরা"
+      ],
+      "answer": 2,
+      "why": "'His / her' = **ওর**."
+    },
+    {
+      "id": "e10",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "কাল আমি বাজারে যাব।",
+        "tr": "kal ami bajare jabo.",
+        "en": "I'll go to the market tomorrow."
+      },
+      "blank": "যাব",
+      "accepted": [
+        "যাব",
+        "jabo",
+        "যাবো"
+      ],
+      "why": "আমি → future **যাব**."
+    },
+    {
+      "id": "e11",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমি এখনো নাস্তা খাইনি।",
+        "tr": "ami ekhono nashta khaini.",
+        "en": "I haven't had breakfast yet."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "খেলাম",
+        "নাস্তা",
+        "খাইনি",
+        "এখনো",
+        "আমি",
+        "খাব",
+        "খাই"
+      ],
+      "answer": [
+        "আমি",
+        "এখনো",
+        "নাস্তা",
+        "খাইনি"
+      ],
+      "alt": [
+        [
+          "এখনো",
+          "নাস্তা",
+          "খাইনি"
+        ],
+        [
+          "আমি",
+          "নাস্তা",
+          "এখনো",
+          "খাইনি"
+        ]
+      ],
+      "why": "Not yet: **এখনো … খাইনি**."
+    },
+    {
+      "id": "e12",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "সামনের সপ্তাহে আমরা সিলেটে যাব।",
+        "tr": "shamner shoptahe amra shilete jabo.",
+        "en": "We'll go to Sylhet next week."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "সামনের",
+        "সিলেট",
+        "আমরা",
+        "যাই",
+        "সপ্তাহে",
+        "গেলাম",
+        "যাব",
+        "সিলেটে"
+      ],
+      "answer": [
+        "সামনের",
+        "সপ্তাহে",
+        "আমরা",
+        "সিলেটে",
+        "যাব"
+      ],
+      "alt": [
+        [
+          "আমরা",
+          "সামনের",
+          "সপ্তাহে",
+          "সিলেটে",
+          "যাব"
+        ],
+        [
+          "সামনের",
+          "সপ্তাহে",
+          "সিলেটে",
+          "যাব"
+        ]
+      ],
+      "why": "Future: **যাব**; 'to Sylhet' = **সিলেটে**."
+    },
+    {
+      "id": "e13",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আপনি কাল কী করলেন?",
+        "tr": "apni kal ki korlen?",
+        "en": "What did you (polite) do yesterday?"
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "আপনি কাল কী করলেন",
+        "আপনি গতকাল কী করলেন",
+        "গতকাল আপনি কী করলেন",
+        "কাল আপনি কী করলেন",
+        "apni kal ki korlen",
+        "apni gotokal ki korlen",
+        "gotokal apni ki korlen",
+        "kal apni ki korlen"
+      ],
+      "why": "Polite past: **করলেন**."
+    },
+    {
+      "id": "e14",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আমি খুব ক্লান্ত, তাই বাসায় যাচ্ছি।",
+        "tr": "ami khub klanto, tai bashay jachchhi.",
+        "en": "I'm very tired, so I'm going home."
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "আমি খুব ক্লান্ত, তাই বাসায় যাচ্ছি",
+        "আমি খুব ক্লান্ত, তাই বাসায় চলে যাচ্ছি",
+        "খুব ক্লান্ত, তাই বাসায় যাচ্ছি",
+        "আমি খুব ক্লান্ত, তাই বাড়ি যাচ্ছি",
+        "ami khub klanto tai bashay jachchhi",
+        "ami khub klanto tai bashay chole jachchhi",
+        "khub klanto tai bashay jachchhi",
+        "ami khub klanto tai bari jachchhi"
+      ],
+      "why": "**তাই** 'so' + continuous **যাচ্ছি**."
+    },
+    {
+      "id": "e15",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "তুমি কি খেয়েছো?",
+        "tr": "tumi ki kheyechho?",
+        "en": "Have you (familiar) eaten?"
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "তুমি কি খেয়েছো",
+        "তুমি খেয়েছো",
+        "তুমি কি খেয়েছ",
+        "tumi ki kheyechho",
+        "tumi kheyechho"
+      ],
+      "why": "তুমি perfect: **খেয়েছো** (also spelled খেয়েছ)."
+    },
+    {
+      "id": "r01",
+      "type": "listen_select",
+      "audio": {
+        "bn": "উঠেছে",
+        "tr": "uthechhe",
+        "en": "has come out; has risen"
+      },
+      "options": [
+        "উঠেছে",
+        "ডাকুন",
+        "করছে",
+        "ঘুমাব"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "এটা ওটার চেয়ে ভালো।",
+        "tr": "eta otar cheye bhalo.",
+        "en": "This one is better than that one."
+      },
+      "blank": "ওটার",
+      "options": [
+        "তোকে",
+        "ওটার",
+        "এটার",
+        "কিছু"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "এখন খুব গরম পড়েছে।",
+        "tr": "ekhon khub gorom porechhe.",
+        "en": "It's got very hot now."
+      },
+      "options": [
+        "He watches TV.",
+        "I usually get up at seven.",
+        "It's got very hot now.",
+        "Iftar is at our home today."
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "এইটা",
+          "tr": "eita",
+          "en": "this one"
+        },
+        {
+          "bn": "ঘুমালাম",
+          "tr": "ghumalam",
+          "en": "I slept"
+        },
+        {
+          "bn": "চেয়ে",
+          "tr": "cheye",
+          "en": "than"
+        },
+        {
+          "bn": "অ্যাম্বুলেন্স",
+          "tr": "ambulens",
+          "en": "ambulance"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "পারবেন",
+          "tr": "parben",
+          "en": "you (polite) will be able to"
+        },
+        {
+          "bn": "দুইজন",
+          "tr": "duijon",
+          "en": "two (people)"
+        },
+        {
+          "bn": "করছিস",
+          "tr": "korchhish",
+          "en": "you (intimate) are doing"
+        },
+        {
+          "bn": "যখন",
+          "tr": "jokhon",
+          "en": "when"
+        }
+      ],
+      "recycle": true
+    }
+  ]
+}

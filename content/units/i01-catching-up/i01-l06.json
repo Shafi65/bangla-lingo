@@ -519,66 +519,61 @@
     },
     {
       "id": "r01",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "করছিল",
-        "tr": "korchhilo",
-        "en": "he/she was doing"
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "সে অফিসে কাজ করছিল।",
+        "tr": "she ofise kaj korchhilo.",
+        "en": "He was working at the office."
       },
-      "direction": "bn_to_en",
+      "blank": "করছিল",
       "options": [
-        "he/she was doing",
-        "I have read",
-        "you / he, she (polite) used to tell",
-        "please call (standard)"
+        "পড়লাম",
+        "করছিল",
+        "বলব",
+        "ঘুমালাম"
       ],
-      "answer": 0,
+      "answer": 1,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "listen_select",
+      "type": "listen_meaning",
       "audio": {
-        "bn": "যাচ্ছিলাম",
-        "tr": "jachchhilam",
-        "en": "I was going"
+        "bn": "আমি বাজারে যাচ্ছিলাম।",
+        "tr": "ami bajare jachchhilam.",
+        "en": "I was going to the market."
       },
       "options": [
-        "যাচ্ছিলাম",
-        "লেগেছে",
-        "দিল",
-        "হব"
+        "I get up in the morning.",
+        "I was going to the market.",
+        "What time do you go to the office?",
+        "I want to go to your home."
       ],
-      "answer": 0,
+      "answer": 1,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "fill_blank",
-      "sentence": {
-        "bn": "আমি ঢাকায় বড় হয়েছি, আর আপনি?",
-        "tr": "ami dhakay boro hoyechhi, ar apni?",
-        "en": "I grew up in Dhaka. And you (polite)?"
+      "type": "select_translation",
+      "prompt": {
+        "bn": "বড় হয়েছি",
+        "tr": "boro hoyechhi",
+        "en": "I grew up"
       },
-      "blank": "বড় হয়েছি",
+      "direction": "en_to_bn",
       "options": [
+        "পহেলা বৈশাখ",
+        "মন খারাপ",
         "বড় হয়েছি",
-        "আসসালামু আলাইকুম",
-        "শহীদ মিনারে",
-        "খোদা হাফেজ"
+        "বিজয় দিবস"
       ],
-      "answer": 0,
+      "answer": 2,
       "recycle": true
     },
     {
       "id": "r04",
       "type": "match_pairs",
       "pairs": [
-        {
-          "bn": "করতি",
-          "tr": "korti",
-          "en": "you used to do (intimate)"
-        },
         {
           "bn": "বলতেন",
           "tr": "bolten",
@@ -588,6 +583,11 @@
           "bn": "থাকত",
           "tr": "thakto",
           "en": "he/she used to live"
+        },
+        {
+          "bn": "করতি",
+          "tr": "korti",
+          "en": "you used to do (intimate)"
         },
         {
           "bn": "থাকতেন",
@@ -607,6 +607,11 @@
           "en": "game; playing"
         },
         {
+          "bn": "পুকুর",
+          "tr": "pukur",
+          "en": "pond"
+        },
+        {
           "bn": "যেত",
           "tr": "jeto",
           "en": "he/she used to go"
@@ -615,11 +620,6 @@
           "bn": "প্রতি",
           "tr": "proti",
           "en": "every"
-        },
-        {
-          "bn": "পুকুর",
-          "tr": "pukur",
-          "en": "pond"
         }
       ],
       "recycle": true

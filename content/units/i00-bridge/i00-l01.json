@@ -1,0 +1,490 @@
+{
+  "id": "i00-l01",
+  "unit": "i00-bridge",
+  "title": "Now and every day",
+  "status": "draft",
+  "tip": "This unit is a fast check of Sections 1 and 2. If something feels new, go back to that unit, then come on.\n\n**Present simple** (habits, facts): আমি **করি** · তুই **করিস** · তুমি **করো** · সে **করে** · আপনি / উনি **করেন**.\n\n**Present continuous** (right now, these days): add **-ছ-**: আমি **করছি**, তুমি **করছো**, সে **করছে**, আপনি **করছেন**. Some stems change: খা → **খাচ্ছি**, যা → **যাচ্ছি**.\n\nNegative: **না** after the verb: **আমি মাছ খাই না**.\n\nFrom here on, lessons show Bengali script only; tap **Show pronunciation** when you need it.",
+  "vocab": [],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "উঠি",
+        "tr": "uthi",
+        "en": "I get up"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "ওঠেন",
+        "উঠি",
+        "উঠলাম",
+        "উঠবে"
+      ],
+      "answer": 1,
+      "why": "আমি → **-ি**: **উঠি**."
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "করছেন",
+        "tr": "korchhen",
+        "en": "you (polite) are doing"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "করেন",
+        "করছে",
+        "করছেন",
+        "করছো"
+      ],
+      "answer": 2,
+      "why": "Continuous **-ছ-** + polite **-েন**: **করছেন**."
+    },
+    {
+      "id": "e03",
+      "type": "reading",
+      "title": "At the tea stall",
+      "lines": [
+        {
+          "speaker": "Rafi",
+          "bn": "নাদিয়া! তুমি কেমন আছো?",
+          "tr": "nadiya! tumi kemon achho?",
+          "en": "Nadia! How are you?"
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "ভালো আছি। তুমি এখন কী করছো?",
+          "tr": "bhalo achhi. tumi ekhon ki korchho?",
+          "en": "I'm well. What are you doing these days?"
+        },
+        {
+          "speaker": "Rafi",
+          "bn": "আমি একটা অফিসে কাজ করি। প্রতিদিন সকালে বাসে যাই।",
+          "tr": "ami ekta ofise kaj kori. protidin shokale base jai.",
+          "en": "I work in an office. I go by bus every morning."
+        },
+        {
+          "speaker": "Rafi",
+          "bn": "আর এখন আমি ইংরেজি শিখছি।",
+          "tr": "ar ekhon ami ingreji shikhchhi.",
+          "en": "And now I'm learning English."
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "আমি এখন ঢাকায় থাকি। আমার বোন এখানে পড়ে।",
+          "tr": "ami ekhon dhakay thaki. amar bon ekhane pore.",
+          "en": "I live in Dhaka now. My sister studies here."
+        },
+        {
+          "speaker": "Rafi",
+          "bn": "চলো, চা খাই।",
+          "tr": "cholo, cha khai.",
+          "en": "Come on, let's have tea."
+        }
+      ],
+      "question": "How does Rafi get to work?",
+      "options": [
+        "By train",
+        "By bus",
+        "On foot"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e04",
+      "type": "reading",
+      "title": "At the tea stall",
+      "lines": [
+        {
+          "speaker": "Rafi",
+          "bn": "নাদিয়া! তুমি কেমন আছো?",
+          "tr": "nadiya! tumi kemon achho?",
+          "en": "Nadia! How are you?"
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "ভালো আছি। তুমি এখন কী করছো?",
+          "tr": "bhalo achhi. tumi ekhon ki korchho?",
+          "en": "I'm well. What are you doing these days?"
+        },
+        {
+          "speaker": "Rafi",
+          "bn": "আমি একটা অফিসে কাজ করি। প্রতিদিন সকালে বাসে যাই।",
+          "tr": "ami ekta ofise kaj kori. protidin shokale base jai.",
+          "en": "I work in an office. I go by bus every morning."
+        },
+        {
+          "speaker": "Rafi",
+          "bn": "আর এখন আমি ইংরেজি শিখছি।",
+          "tr": "ar ekhon ami ingreji shikhchhi.",
+          "en": "And now I'm learning English."
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "আমি এখন ঢাকায় থাকি। আমার বোন এখানে পড়ে।",
+          "tr": "ami ekhon dhakay thaki. amar bon ekhane pore.",
+          "en": "I live in Dhaka now. My sister studies here."
+        },
+        {
+          "speaker": "Rafi",
+          "bn": "চলো, চা খাই।",
+          "tr": "cholo, cha khai.",
+          "en": "Come on, let's have tea."
+        }
+      ],
+      "question": "What is Rafi doing these days, besides work?",
+      "options": [
+        "Learning to drive",
+        "Learning English",
+        "Teaching Bengali"
+      ],
+      "answer": 1,
+      "why": "**শিখছি** 'I am learning': continuous for 'these days'."
+    },
+    {
+      "id": "e05",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "আম্মু এখন রান্না করছেন।",
+        "tr": "ammu ekhon ranna korchhen.",
+        "en": "Mum is cooking now."
+      },
+      "options": [
+        "Mum cooked yesterday.",
+        "Mum cooks every day.",
+        "Mum is cooking now.",
+        "Mum will cook later."
+      ],
+      "answer": 2,
+      "why": "**করছেন**: right now (continuous), polite."
+    },
+    {
+      "id": "e06",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "সে সাধারণত বাসে অফিসে যায়।",
+        "tr": "she shadharonoto base ofise jay.",
+        "en": "He usually goes to the office by bus."
+      },
+      "options": [
+        "He went to the office by bus.",
+        "He usually walks to the office.",
+        "He usually goes to the office by bus.",
+        "He is going to the office by bus now."
+      ],
+      "answer": 2,
+      "why": "**সাধারণত … যায়**: a habit (present simple)."
+    },
+    {
+      "id": "e07",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "রাফি কি গান শোনে?",
+        "tr": "rafi ki gan shone?",
+        "en": "Does Rafi listen to music?"
+      },
+      "options": [
+        "Rafi doesn't listen to music.",
+        "Did Rafi hear the song?",
+        "Is Rafi singing?",
+        "Does Rafi listen to music?"
+      ],
+      "answer": 3,
+      "why": "**শোনে**: সে-form of শোনা (শুনি → শোনে)."
+    },
+    {
+      "id": "e08",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "তুমি কী করছো?",
+        "tr": "tumi ki korchho?",
+        "en": "What are you (familiar) doing?"
+      },
+      "blank": "করছো",
+      "options": [
+        "করছো",
+        "করছে",
+        "করছেন",
+        "করছি"
+      ],
+      "answer": 0,
+      "why": "তুমি → **-ছো**: **করছো**."
+    },
+    {
+      "id": "e09",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আপনি কোথায় থাকেন?",
+        "tr": "apni kothay thaken?",
+        "en": "Where do you (polite) live?"
+      },
+      "blank": "থাকেন",
+      "options": [
+        "থাকে",
+        "থাকেন",
+        "থাকো",
+        "থাকি"
+      ],
+      "answer": 1,
+      "why": "আপনি → **-েন**: **থাকেন**."
+    },
+    {
+      "id": "e10",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আমরা এখন খাচ্ছি।",
+        "tr": "amra ekhon khachchhi.",
+        "en": "We're eating now."
+      },
+      "blank": "খাচ্ছি",
+      "options": [
+        "খাচ্ছে",
+        "খেলাম",
+        "খাচ্ছি",
+        "খাই"
+      ],
+      "answer": 2,
+      "why": "Right now: continuous; আমরা takes the আমি-form **খাচ্ছি**."
+    },
+    {
+      "id": "e11",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আমি মাছ খাই না।",
+        "tr": "ami machh khai na.",
+        "en": "I don't eat fish."
+      },
+      "blank": "খাই",
+      "accepted": [
+        "খাই",
+        "khai"
+      ],
+      "why": "Negative: **না** after the verb: **খাই না**."
+    },
+    {
+      "id": "e12",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমি প্রতিদিন সাতটায় উঠি।",
+        "tr": "ami protidin shattay uthi.",
+        "en": "I get up at seven every day."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "সাত",
+        "সাতটায়",
+        "উঠি",
+        "প্রতিদিন",
+        "উঠলাম",
+        "ওঠেন",
+        "আমি"
+      ],
+      "answer": [
+        "আমি",
+        "প্রতিদিন",
+        "সাতটায়",
+        "উঠি"
+      ],
+      "alt": [
+        [
+          "প্রতিদিন",
+          "আমি",
+          "সাতটায়",
+          "উঠি"
+        ],
+        [
+          "আমি",
+          "সাতটায়",
+          "প্রতিদিন",
+          "উঠি"
+        ],
+        [
+          "প্রতিদিন",
+          "সাতটায়",
+          "উঠি"
+        ]
+      ],
+      "why": "Habit: present simple **উঠি**."
+    },
+    {
+      "id": "e13",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "নাদিয়া এখন ঢাকায় যাচ্ছে।",
+        "tr": "nadiya ekhon dhakay jachchhe.",
+        "en": "Nadia is going to Dhaka now."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "এখন",
+        "যাচ্ছি",
+        "নাদিয়া",
+        "ঢাকায়",
+        "ঢাকা",
+        "যায়",
+        "যাচ্ছে"
+      ],
+      "answer": [
+        "নাদিয়া",
+        "এখন",
+        "ঢাকায়",
+        "যাচ্ছে"
+      ],
+      "alt": [
+        [
+          "এখন",
+          "নাদিয়া",
+          "ঢাকায়",
+          "যাচ্ছে"
+        ]
+      ],
+      "why": "সে-form continuous: **যাচ্ছে**; 'to Dhaka' = **ঢাকায়**."
+    },
+    {
+      "id": "e14",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আমি একটু বাংলা বুঝি।",
+        "tr": "ami ektu bangla bujhi.",
+        "en": "I understand a little Bengali."
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "আমি একটু বাংলা বুঝি",
+        "একটু বাংলা বুঝি",
+        "আমি বাংলা একটু বুঝি",
+        "ami ektu bangla bujhi",
+        "ektu bangla bujhi",
+        "ami bangla ektu bujhi"
+      ],
+      "why": "**বুঝি** 'I understand'."
+    },
+    {
+      "id": "e15",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আপনি এখন কী করছেন?",
+        "tr": "apni ekhon ki korchhen?",
+        "en": "What are you (polite) doing now?"
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "আপনি এখন কী করছেন",
+        "এখন আপনি কী করছেন",
+        "আপনি কী করছেন",
+        "apni ekhon ki korchhen",
+        "ekhon apni ki korchhen",
+        "apni ki korchhen"
+      ],
+      "why": "Polite continuous: **করছেন**."
+    },
+    {
+      "id": "r01",
+      "type": "listen_select",
+      "audio": {
+        "bn": "পহেলা বৈশাখ",
+        "tr": "pohela boishakh",
+        "en": "Pohela Boishakh"
+      },
+      "options": [
+        "ধন্যবাদ",
+        "লাগবে না",
+        "দয়া করে",
+        "পহেলা বৈশাখ"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "কাছে কি কোনো ফার্মেসি আছে?",
+        "tr": "kachhe ki kono farmeshi achhe?",
+        "en": "Is there a pharmacy nearby?"
+      },
+      "blank": "ফার্মেসি",
+      "options": [
+        "ফার্মেসি",
+        "কাজের",
+        "ভাড়া",
+        "ফুফা"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "আমি মাঝে মাঝে টিভি দেখি।",
+        "tr": "ami majhe majhe tibhi dekhi.",
+        "en": "I sometimes watch TV."
+      },
+      "options": [
+        "She couldn't go to the office yesterday.",
+        "Let me know when you'll come.",
+        "I sometimes watch TV.",
+        "I watched TV."
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "খাওয়ার",
+          "tr": "khawar",
+          "en": "eating; meals"
+        },
+        {
+          "bn": "পেটে",
+          "tr": "pete",
+          "en": "in the stomach"
+        },
+        {
+          "bn": "কাশি",
+          "tr": "kashi",
+          "en": "cough"
+        },
+        {
+          "bn": "পা",
+          "tr": "pa",
+          "en": "foot; leg"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "সুস্থ",
+          "tr": "shustho",
+          "en": "well; healthy"
+        },
+        {
+          "bn": "আসলে",
+          "tr": "ashole",
+          "en": "actually"
+        },
+        {
+          "bn": "দিতে",
+          "tr": "dite",
+          "en": "to give"
+        },
+        {
+          "bn": "করো",
+          "tr": "koro",
+          "en": "you do (familiar)"
+        }
+      ],
+      "recycle": true
+    }
+  ]
+}

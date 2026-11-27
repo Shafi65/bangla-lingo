@@ -1,0 +1,623 @@
+{
+  "id": "i02-l03",
+  "unit": "i02-and-then",
+  "title": "Happy to hear it",
+  "status": "draft",
+  "tip": "The participle can give the **cause** of a feeling: **শুনে খুশি হলাম** 'I was glad to hear it' (lit. having heard, I became glad).\n\n- **দেখে ভয় পেলাম** 'I got scared when I saw it'\n- **শুনে অবাক হলাম** 'I was surprised to hear it'\n\nSome feelings take **হলাম** 'I became': **খুশি হলাম**, **অবাক হলাম**, **বিরক্ত হলাম**. Others take **পেলাম** 'I got': **ভয় পেলাম**, **কষ্ট পেলাম**.\n\n**হেসে** 'smiling, with a laugh' and **রেগে** 'angrily' say how someone did something: **সে রেগে চলে গেল**.\n\n**কী খবর?** is the everyday 'What's up?'",
+  "vocab": [
+    {
+      "id": "khobor",
+      "bn": "খবর",
+      "tr": "khobor",
+      "en": "news",
+      "notes": "কী খবর? 'What's up? / What's new?'"
+    },
+    {
+      "id": "khoborta",
+      "bn": "খবরটা",
+      "tr": "khoborta",
+      "en": "the news"
+    },
+    {
+      "id": "khushi-holam",
+      "bn": "খুশি হলাম",
+      "tr": "khushi holam",
+      "en": "I was glad"
+    },
+    {
+      "id": "obak",
+      "bn": "অবাক",
+      "tr": "obak",
+      "en": "surprised"
+    },
+    {
+      "id": "obak-holam",
+      "bn": "অবাক হলাম",
+      "tr": "obak holam",
+      "en": "I was surprised"
+    },
+    {
+      "id": "birokto",
+      "bn": "বিরক্ত",
+      "tr": "birokto",
+      "en": "annoyed"
+    },
+    {
+      "id": "koshto",
+      "bn": "কষ্ট",
+      "tr": "koshto",
+      "en": "pain; hardship"
+    },
+    {
+      "id": "koshto-pelam",
+      "bn": "কষ্ট পেলাম",
+      "tr": "koshto pelam",
+      "en": "I was hurt (upset)"
+    },
+    {
+      "id": "bhoy-pelam",
+      "bn": "ভয় পেলাম",
+      "tr": "bhoy pelam",
+      "en": "I got scared"
+    },
+    {
+      "id": "heshe",
+      "bn": "হেসে",
+      "tr": "heshe",
+      "en": "laughing",
+      "notes": "Participle of হাসা 'laugh, smile'."
+    },
+    {
+      "id": "rege",
+      "bn": "রেগে",
+      "tr": "rege",
+      "en": "angrily",
+      "notes": "Participle of রাগা 'get angry'; compare রাগ 'anger' (U14)."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "হেঁটে",
+        "tr": "he~te",
+        "en": "on foot"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "রিকশা করে",
+        "দৌড়ে",
+        "চুপ করে",
+        "হেঁটে"
+      ],
+      "answer": 3,
+      "why": "**হেঁটে** 'on foot'; **দৌড়ে** is 'running'."
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আমরা রিকশা করে বাজারে গেলাম।",
+        "tr": "amra riksha kore bajare gelam.",
+        "en": "We went to the market by rickshaw."
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "আমরা হেঁটে বাজারে গেলাম।",
+        "আমরা রিকশা করে বাজারে গেলাম।",
+        "আমরা রিকশা করে বাজারে যাই।",
+        "আমি রিকশা করে বাজারে গেলাম।"
+      ],
+      "answer": 1,
+      "why": "আমরা + past **গেলাম**; means: **রিকশা করে**."
+    },
+    {
+      "id": "e03",
+      "type": "reading",
+      "title": "Good news",
+      "lines": [
+        {
+          "speaker": "Rafi",
+          "bn": "নাদিয়া, একটা খবর আছে।",
+          "tr": "nadiya, ekta khobor achhe.",
+          "en": "Nadia, I have some news."
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "কী খবর?",
+          "tr": "ki khobor?",
+          "en": "What news?"
+        },
+        {
+          "speaker": "Rafi",
+          "bn": "আমি নতুন চাকরি পেয়েছি!",
+          "tr": "ami notun chakri peyechhi!",
+          "en": "I've got a new job!"
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "সত্যি? শুনে খুব খুশি হলাম!",
+          "tr": "shotti? shune khub khushi holam!",
+          "en": "Really? I'm so glad to hear it!"
+        },
+        {
+          "speaker": "Rafi",
+          "bn": "আমি নিজে অবাক হলাম!",
+          "tr": "ami nije obak holam!",
+          "en": "I was surprised myself!"
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "চলো, আজ রাতে আমরা একসাথে খাই।",
+          "tr": "cholo, aj rate amra ekshathe khai.",
+          "en": "Let's have dinner together tonight."
+        }
+      ],
+      "question": "What is Rafi's news?",
+      "options": [
+        "He has a new job",
+        "He is moving to Dhaka",
+        "He is ill"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e04",
+      "type": "reading",
+      "title": "Good news",
+      "lines": [
+        {
+          "speaker": "Rafi",
+          "bn": "নাদিয়া, একটা খবর আছে।",
+          "tr": "nadiya, ekta khobor achhe.",
+          "en": "Nadia, I have some news."
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "কী খবর?",
+          "tr": "ki khobor?",
+          "en": "What news?"
+        },
+        {
+          "speaker": "Rafi",
+          "bn": "আমি নতুন চাকরি পেয়েছি!",
+          "tr": "ami notun chakri peyechhi!",
+          "en": "I've got a new job!"
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "সত্যি? শুনে খুব খুশি হলাম!",
+          "tr": "shotti? shune khub khushi holam!",
+          "en": "Really? I'm so glad to hear it!"
+        },
+        {
+          "speaker": "Rafi",
+          "bn": "আমি নিজে অবাক হলাম!",
+          "tr": "ami nije obak holam!",
+          "en": "I was surprised myself!"
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "চলো, আজ রাতে আমরা একসাথে খাই।",
+          "tr": "cholo, aj rate amra ekshathe khai.",
+          "en": "Let's have dinner together tonight."
+        }
+      ],
+      "question": "How does Nadia feel about the news?",
+      "options": [
+        "Glad",
+        "Scared",
+        "Annoyed"
+      ],
+      "answer": 0,
+      "why": "**শুনে খুশি হলাম** 'I was glad to hear it'."
+    },
+    {
+      "id": "e05",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "তোমার খবরটা শুনে খুশি হলাম।",
+        "tr": "tomar khoborta shune khushi holam.",
+        "en": "I was glad to hear your news."
+      },
+      "options": [
+        "I haven't heard your news yet.",
+        "I was sad to hear your news.",
+        "Tell me your news.",
+        "I was glad to hear your news."
+      ],
+      "answer": 3,
+      "why": "**শুনে** gives the cause; **খুশি হলাম** 'I was glad'."
+    },
+    {
+      "id": "e06",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "ঝড় দেখে আমি ভয় পেলাম।",
+        "tr": "jhor dekhe ami bhoy pelam.",
+        "en": "I got scared when I saw the storm."
+      },
+      "options": [
+        "I got scared when I saw the storm.",
+        "There will be a storm tonight.",
+        "I saw the storm and laughed.",
+        "I wasn't afraid of the storm."
+      ],
+      "answer": 0,
+      "why": "**দেখে ভয় পেলাম** 'got scared when I saw it'."
+    },
+    {
+      "id": "e07",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "খবরটা শুনে সবাই অবাক হয়ে গেল।",
+        "tr": "khoborta shune shobai obak hoye gelo.",
+        "en": "Everyone was amazed to hear the news."
+      },
+      "options": [
+        "Nobody has heard the news.",
+        "Everyone left after the news.",
+        "Everyone was amazed to hear the news.",
+        "Everyone was angry about the news."
+      ],
+      "answer": 2,
+      "why": "**অবাক হয়ে গেল** 'were amazed'."
+    },
+    {
+      "id": "e08",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "বিরক্ত",
+          "tr": "birokto",
+          "en": "annoyed"
+        },
+        {
+          "bn": "কষ্ট",
+          "tr": "koshto",
+          "en": "pain; hardship"
+        },
+        {
+          "bn": "হেসে",
+          "tr": "heshe",
+          "en": "laughing"
+        },
+        {
+          "bn": "রেগে",
+          "tr": "rege",
+          "en": "angrily"
+        },
+        {
+          "bn": "কষ্ট পেলাম",
+          "tr": "koshto pelam",
+          "en": "I was hurt (upset)"
+        }
+      ]
+    },
+    {
+      "id": "e09",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "ঝড় দেখে আমি ভয় পেলাম।",
+        "tr": "jhor dekhe ami bhoy pelam.",
+        "en": "I got scared when I saw the storm."
+      },
+      "blank": "ভয় পেলাম",
+      "options": [
+        "কষ্ট পেলাম",
+        "অবাক হলাম",
+        "ভয় পেলাম",
+        "খুশি হলাম"
+      ],
+      "answer": 2,
+      "why": "Fear is something you 'get': **ভয় পেলাম**."
+    },
+    {
+      "id": "e10",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "ওর কথা শুনে আমি বিরক্ত হলাম।",
+        "tr": "or kotha shune ami birokto holam.",
+        "en": "I got annoyed hearing what he said."
+      },
+      "blank": "শুনে",
+      "options": [
+        "শুনলাম",
+        "শুনতে",
+        "শুনি",
+        "শুনে"
+      ],
+      "answer": 3,
+      "why": "The cause comes first, as a participle: **শুনে** 'having heard'."
+    },
+    {
+      "id": "e11",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "সে রেগে চলে গেল।",
+        "tr": "she rege chole gelo.",
+        "en": "He left in anger."
+      },
+      "options": [
+        "He left in anger.",
+        "He left laughing.",
+        "He left quietly.",
+        "He got angry but stayed."
+      ],
+      "answer": 0,
+      "why": "**রেগে** 'angrily, in anger'."
+    },
+    {
+      "id": "e12",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "নানি হেসে বললেন, ঠিক আছে।",
+        "tr": "nani heshe bollen, thik achhe.",
+        "en": "Nani said with a smile, 'All right.'"
+      },
+      "blank": "হেসে",
+      "accepted": [
+        "হেসে",
+        "heshe",
+        "hese"
+      ],
+      "why": "**হেসে** 'laughing, with a smile' says how she spoke."
+    },
+    {
+      "id": "e13",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আপনার খবর শুনে আমরা খুব খুশি হলাম।",
+        "tr": "apnar khobor shune amra khub khushi holam.",
+        "en": "We were very happy to hear your (polite) news."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "খুব",
+        "হলাম",
+        "খবর",
+        "শুনলাম",
+        "শুনে",
+        "পেলাম",
+        "আপনার",
+        "খুশি",
+        "তোমার",
+        "আমরা"
+      ],
+      "answer": [
+        "আপনার",
+        "খবর",
+        "শুনে",
+        "আমরা",
+        "খুব",
+        "খুশি",
+        "হলাম"
+      ],
+      "alt": [
+        [
+          "আমরা",
+          "আপনার",
+          "খবর",
+          "শুনে",
+          "খুব",
+          "খুশি",
+          "হলাম"
+        ],
+        [
+          "আপনার",
+          "খবর",
+          "শুনে",
+          "খুব",
+          "খুশি",
+          "হলাম"
+        ]
+      ],
+      "why": "Cause + feeling: **শুনে … খুশি হলাম**; polite 'your' = **আপনার**."
+    },
+    {
+      "id": "e14",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "বন্ধুর কথা শুনে আমি কষ্ট পেলাম।",
+        "tr": "bondhur kotha shune ami koshto pelam.",
+        "en": "I was hurt by what my friend said."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "বন্ধুর",
+        "বন্ধু",
+        "কথা",
+        "শুনে",
+        "আমি",
+        "পেলাম",
+        "হলাম",
+        "শুনলাম",
+        "কষ্ট"
+      ],
+      "answer": [
+        "বন্ধুর",
+        "কথা",
+        "শুনে",
+        "আমি",
+        "কষ্ট",
+        "পেলাম"
+      ],
+      "alt": [
+        [
+          "আমি",
+          "বন্ধুর",
+          "কথা",
+          "শুনে",
+          "কষ্ট",
+          "পেলাম"
+        ],
+        [
+          "বন্ধুর",
+          "কথা",
+          "শুনে",
+          "কষ্ট",
+          "পেলাম"
+        ]
+      ],
+      "why": "Hurt is 'got': **কষ্ট পেলাম**, not কষ্ট হলাম."
+    },
+    {
+      "id": "e15",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "খবরটা আমি এখনো শুনিনি।",
+        "tr": "khoborta ami ekhono shunini.",
+        "en": "I haven't heard the news yet."
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "খবরটা আমি এখনো শুনিনি",
+        "আমি এখনো খবরটা শুনিনি",
+        "আমি খবরটা এখনো শুনিনি",
+        "খবরটা এখনো শুনিনি",
+        "আমি এখনো খবর শুনিনি",
+        "এখনো খবরটা শুনিনি",
+        "khoborta ami ekhono shunini",
+        "ami ekhono khoborta shunini",
+        "ami khoborta ekhono shunini",
+        "khoborta ekhono shunini",
+        "ami ekhono khobor shunini",
+        "ekhono khoborta shunini"
+      ],
+      "why": "Not yet: **এখনো** + **-নি** (শুনিনি)."
+    },
+    {
+      "id": "e16",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "খবরটা শুনে আমি অবাক হলাম।",
+        "tr": "khoborta shune ami obak holam.",
+        "en": "I was surprised to hear the news."
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "খবরটা শুনে আমি অবাক হলাম",
+        "আমি খবরটা শুনে অবাক হলাম",
+        "খবরটা শুনে অবাক হলাম",
+        "খবর শুনে আমি অবাক হলাম",
+        "খবর শুনে অবাক হলাম",
+        "আমি খবর শুনে অবাক হলাম",
+        "khoborta shune ami obak holam",
+        "ami khoborta shune obak holam",
+        "khoborta shune obak holam",
+        "khobor shune ami obak holam",
+        "khobor shune obak holam",
+        "ami khobor shune obak holam"
+      ],
+      "why": "Participle + feeling: **শুনে অবাক হলাম**."
+    },
+    {
+      "id": "r01",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "ছাতা ছিল না, তাই আমি ভিজে গেলাম।",
+        "tr": "chhata chhilo na, tai ami bhije gelam.",
+        "en": "There was no umbrella, so I got soaked."
+      },
+      "blank": "ভিজে",
+      "options": [
+        "ভিজে",
+        "আসবে",
+        "শুনবে",
+        "পাঠাব"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "আমি দশটায় অফিসে পৌঁছালাম।",
+        "tr": "ami doshtay ofise pou~chhalam.",
+        "en": "I got to the office at ten."
+      },
+      "options": [
+        "I got to the office at ten.",
+        "He went to Dhaka last week.",
+        "She listens to music and I watch TV.",
+        "Whose bag is this?"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ধীরে ধীরে",
+        "tr": "dhire dhire",
+        "en": "slowly"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "প্রায়ই",
+        "ওখানে",
+        "ধীরে ধীরে",
+        "কতদূর"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "আশি",
+          "tr": "ashi",
+          "en": "eighty"
+        },
+        {
+          "bn": "সাড়ে",
+          "tr": "share",
+          "en": "half past"
+        },
+        {
+          "bn": "আসুন",
+          "tr": "ashun",
+          "en": "please come (standard)"
+        },
+        {
+          "bn": "দেড়টা",
+          "tr": "derta",
+          "en": "half past one"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "নেব",
+          "tr": "nebo",
+          "en": "I will take"
+        },
+        {
+          "bn": "জন্য",
+          "tr": "jonno",
+          "en": "for"
+        },
+        {
+          "bn": "নও",
+          "tr": "noo",
+          "en": "are not (familiar)"
+        },
+        {
+          "bn": "হাজার",
+          "tr": "hajar",
+          "en": "thousand"
+        }
+      ],
+      "recycle": true
+    }
+  ]
+}

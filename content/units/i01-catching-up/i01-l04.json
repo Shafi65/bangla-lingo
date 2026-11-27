@@ -526,47 +526,49 @@
         "tr": "ekshathe",
         "en": "together"
       },
-      "direction": "en_to_bn",
+      "direction": "bn_to_en",
       "options": [
-        "সন্ধ্যায়",
-        "সত্যি",
-        "একসাথে",
-        "সবসময়"
+        "in the evening",
+        "really",
+        "together",
+        "always"
       ],
       "answer": 2,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "fill_blank",
-      "sentence": {
-        "bn": "শীতকালে আমরা প্রায়ই লুকোচুরি খেলতাম।",
-        "tr": "shitkale amra prayi lukochuri kheltam.",
-        "en": "In winter we often played hide-and-seek."
+      "type": "listen_select",
+      "audio": {
+        "bn": "প্রায়ই",
+        "tr": "prayi",
+        "en": "often"
       },
-      "blank": "প্রায়ই",
-      "accepted": [
+      "options": [
         "প্রায়ই",
-        "prayi"
+        "এদিকে",
+        "কখন",
+        "একটু"
       ],
+      "answer": 0,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "select_translation",
-      "prompt": {
-        "bn": "সারাদিন",
-        "tr": "sharadin",
-        "en": "all day"
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "গরমকালে আমরা সারাদিন সাঁতার কাটতাম।",
+        "tr": "goromkale amra sharadin sha~tar kattam.",
+        "en": "In summer we used to swim all day."
       },
-      "direction": "bn_to_en",
+      "blank": "সারাদিন",
       "options": [
-        "in looks",
-        "all day",
-        "how long",
-        "always"
+        "সারাদিন",
+        "কত",
+        "দুপুরে",
+        "ডানে"
       ],
-      "answer": 1,
+      "answer": 0,
       "recycle": true
     },
     {
@@ -579,19 +581,19 @@
           "en": "kind; sort"
         },
         {
-          "bn": "আলাদা",
-          "tr": "alada",
-          "en": "different; separate"
+          "bn": "বছরের",
+          "tr": "bochhorer",
+          "en": "of … years; year's"
         },
         {
-          "bn": "কাশি",
-          "tr": "kashi",
-          "en": "cough"
+          "bn": "আবহাওয়া",
+          "tr": "abohawa",
+          "en": "weather"
         },
         {
-          "bn": "একই",
-          "tr": "eki",
-          "en": "the same"
+          "bn": "পর্যন্ত",
+          "tr": "porjonto",
+          "en": "to"
         }
       ],
       "recycle": true
@@ -601,24 +603,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "ব্যথা",
-          "tr": "byatha",
-          "en": "pain"
+          "bn": "পাচ্ছি",
+          "tr": "pachchhi",
+          "en": "I am getting"
         },
         {
-          "bn": "ফার্মেসি",
-          "tr": "farmeshi",
-          "en": "pharmacy"
+          "bn": "আছেন",
+          "tr": "achhen",
+          "en": "are (polite)"
         },
         {
-          "bn": "অসুস্থ",
-          "tr": "oshustho",
-          "en": "ill"
+          "bn": "ত্রিশ",
+          "tr": "trish",
+          "en": "thirty"
         },
         {
-          "bn": "বিশ্রাম",
-          "tr": "bishram",
-          "en": "rest"
+          "bn": "লাগবে",
+          "tr": "lagbe",
+          "en": "need"
         }
       ],
       "recycle": true

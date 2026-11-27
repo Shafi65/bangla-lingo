@@ -1,0 +1,613 @@
+{
+  "id": "i02-l05",
+  "unit": "i02-and-then",
+  "title": "First, then, finally",
+  "status": "draft",
+  "tip": "Connectors put events in order:\n\n- **প্রথমে** 'first' → **তারপর** / **এরপর** 'then, after that' → **শেষে** / **অবশেষে** 'in the end, finally'\n- **সাথে সাথে** 'immediately', **কিছুক্ষণ পরে** 'a little later'\n\n**তারপর** is the next event; **তখন** is 'at that time'. **যখন … তখন** joins two clauses: **যখন বাসায় এলাম, তখনই কারেন্ট চলে গেল** 'just as I got home, the power went off' (**-ই** = 'right then').\n\nBefore and after a meal: **খাওয়ার আগে**, **খাওয়ার পরে**. The full pattern (any verb + -র + আগে/পরে) comes in the next unit.",
+  "vocab": [
+    {
+      "id": "prothome",
+      "bn": "প্রথমে",
+      "tr": "prothome",
+      "en": "first"
+    },
+    {
+      "id": "erpor",
+      "bn": "এরপর",
+      "tr": "erpor",
+      "en": "after this"
+    },
+    {
+      "id": "sheshe",
+      "bn": "শেষে",
+      "tr": "sheshe",
+      "en": "at the end"
+    },
+    {
+      "id": "obosheshe",
+      "bn": "অবশেষে",
+      "tr": "obosheshe",
+      "en": "finally",
+      "notes": "A little bookish; in speech শেষে or শেষমেশ."
+    },
+    {
+      "id": "shathe-shathe",
+      "bn": "সাথে সাথে",
+      "tr": "shathe shathe",
+      "en": "immediately",
+      "notes": "Also সঙ্গে সঙ্গে (the usual Kolkata form)."
+    },
+    {
+      "id": "kichhukkhon-pore",
+      "bn": "কিছুক্ষণ পরে",
+      "tr": "kichhukkhon pore",
+      "en": "a little later"
+    },
+    {
+      "id": "ghotona",
+      "bn": "ঘটনা",
+      "tr": "ghotona",
+      "en": "incident"
+    },
+    {
+      "id": "ghotlo",
+      "bn": "ঘটল",
+      "tr": "ghotlo",
+      "en": "happened",
+      "notes": "Also spelled ঘটলো."
+    },
+    {
+      "id": "tokhoni",
+      "bn": "তখনই",
+      "tr": "tokhoni",
+      "en": "right then"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "না বলে",
+        "tr": "na bole",
+        "en": "without telling"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "বলে না",
+        "না বলে",
+        "না খেয়ে",
+        "না জেনে"
+      ],
+      "answer": 1,
+      "why": "'Without' = **না** + participle: **না বলে**."
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "চলে গেলাম",
+        "tr": "chole gelam",
+        "en": "I left"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "ফিরে গেলাম",
+        "এলাম",
+        "চলে গেলাম",
+        "চলে গেল"
+      ],
+      "answer": 2,
+      "why": "আমি → **চলে গেলাম**; সে → চলে গেল."
+    },
+    {
+      "id": "e03",
+      "type": "reading",
+      "title": "The lost phone",
+      "lines": [
+        {
+          "bn": "কাল একটা মজার ঘটনা ঘটল।",
+          "tr": "kal ekta mojar ghotona ghotlo.",
+          "en": "Something funny happened yesterday."
+        },
+        {
+          "bn": "প্রথমে আমি বাজারে চা খেলাম।",
+          "tr": "prothome ami bajare cha khelam.",
+          "en": "First I had tea at the market."
+        },
+        {
+          "bn": "তারপর আমি বাসে উঠলাম।",
+          "tr": "tarpor ami base uthlam.",
+          "en": "Then I got on the bus."
+        },
+        {
+          "bn": "কিছুক্ষণ পরে আমি দেখলাম, আমার ফোনটা নেই!",
+          "tr": "kichhukkhon pore ami dekhlam, amar fonta nei!",
+          "en": "A little later I saw that my phone wasn't there!"
+        },
+        {
+          "bn": "সাথে সাথে আমি বাজারে ফিরে গেলাম।",
+          "tr": "shathe shathe ami bajare fire gelam.",
+          "en": "I went straight back to the market."
+        },
+        {
+          "bn": "অবশেষে আমি ফোনটা পেলাম।",
+          "tr": "obosheshe ami fonta pelam.",
+          "en": "Finally I got my phone back."
+        }
+      ],
+      "question": "What happened to the writer yesterday?",
+      "options": [
+        "She left her phone behind and got it back",
+        "She lost her bag on the bus",
+        "She missed the bus"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e04",
+      "type": "reading",
+      "title": "The lost phone",
+      "lines": [
+        {
+          "bn": "কাল একটা মজার ঘটনা ঘটল।",
+          "tr": "kal ekta mojar ghotona ghotlo.",
+          "en": "Something funny happened yesterday."
+        },
+        {
+          "bn": "প্রথমে আমি বাজারে চা খেলাম।",
+          "tr": "prothome ami bajare cha khelam.",
+          "en": "First I had tea at the market."
+        },
+        {
+          "bn": "তারপর আমি বাসে উঠলাম।",
+          "tr": "tarpor ami base uthlam.",
+          "en": "Then I got on the bus."
+        },
+        {
+          "bn": "কিছুক্ষণ পরে আমি দেখলাম, আমার ফোনটা নেই!",
+          "tr": "kichhukkhon pore ami dekhlam, amar fonta nei!",
+          "en": "A little later I saw that my phone wasn't there!"
+        },
+        {
+          "bn": "সাথে সাথে আমি বাজারে ফিরে গেলাম।",
+          "tr": "shathe shathe ami bajare fire gelam.",
+          "en": "I went straight back to the market."
+        },
+        {
+          "bn": "অবশেষে আমি ফোনটা পেলাম।",
+          "tr": "obosheshe ami fonta pelam.",
+          "en": "Finally I got my phone back."
+        }
+      ],
+      "question": "What did she do first?",
+      "options": [
+        "She got on the bus",
+        "She called home",
+        "She had tea at the market"
+      ],
+      "answer": 2,
+      "why": "**প্রথমে** 'first' marks the first event."
+    },
+    {
+      "id": "e05",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "প্রথমে আমি গোসল করলাম, তারপর নাস্তা খেলাম।",
+        "tr": "prothome ami gosol korlam, tarpor nashta khelam.",
+        "en": "First I had a bath, then I had breakfast."
+      },
+      "options": [
+        "First I had breakfast, then I had a bath.",
+        "I'll have a bath after breakfast.",
+        "First I had a bath, then I had breakfast.",
+        "I had breakfast without a bath."
+      ],
+      "answer": 2,
+      "why": "**প্রথমে** … **তারপর** 'first … then'."
+    },
+    {
+      "id": "e06",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "আমি যখন বাসায় এলাম, তখনই কারেন্ট চলে গেল।",
+        "tr": "ami jokhon bashay elam, tokhoni karent chole gelo.",
+        "en": "Just as I got home, the power went off."
+      },
+      "options": [
+        "When I got home, the power came back.",
+        "I went home when the power went off.",
+        "Just as I got home, the power went off.",
+        "The power went off before I got home."
+      ],
+      "answer": 2,
+      "why": "**যখন … তখনই** 'just as … right then'."
+    },
+    {
+      "id": "e07",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "অবশেষে বাস এল।",
+        "tr": "obosheshe bas elo.",
+        "en": "Finally the bus came."
+      },
+      "options": [
+        "The bus left first.",
+        "The bus didn't come.",
+        "The bus will come soon.",
+        "Finally the bus came."
+      ],
+      "answer": 3,
+      "why": "**অবশেষে** 'finally, at last'."
+    },
+    {
+      "id": "e08",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "এরপর",
+          "tr": "erpor",
+          "en": "after this"
+        },
+        {
+          "bn": "শেষে",
+          "tr": "sheshe",
+          "en": "at the end"
+        },
+        {
+          "bn": "সাথে সাথে",
+          "tr": "shathe shathe",
+          "en": "immediately"
+        },
+        {
+          "bn": "কিছুক্ষণ পরে",
+          "tr": "kichhukkhon pore",
+          "en": "a little later"
+        },
+        {
+          "bn": "ঘটনা",
+          "tr": "ghotona",
+          "en": "incident"
+        }
+      ]
+    },
+    {
+      "id": "e09",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "প্রথমে আমি গোসল করলাম, তারপর নাস্তা খেলাম।",
+        "tr": "prothome ami gosol korlam, tarpor nashta khelam.",
+        "en": "First I had a bath, then I had breakfast."
+      },
+      "blank": "তারপর",
+      "options": [
+        "তারপর",
+        "তখন",
+        "আগে",
+        "কখন"
+      ],
+      "answer": 0,
+      "why": "The next event = **তারপর**; **তখন** is 'at that time'."
+    },
+    {
+      "id": "e10",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "খাওয়ার পরে আমরা একটু হাঁটি।",
+        "tr": "khawar pore amra ektu ha~ti.",
+        "en": "After eating we walk a little."
+      },
+      "blank": "পরে",
+      "options": [
+        "জন্য",
+        "পরে",
+        "সাথে",
+        "আগে"
+      ],
+      "answer": 1,
+      "why": "**খাওয়ার পরে** 'after eating'; **খাওয়ার আগে** is 'before eating'."
+    },
+    {
+      "id": "e11",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "খাওয়ার আগে ওষুধ খাবেন।",
+        "tr": "khawar age oshudh khaben.",
+        "en": "Take the medicine before meals (polite)."
+      },
+      "options": [
+        "Don't take the medicine with food.",
+        "Take the medicine after meals.",
+        "Take the medicine before meals (polite).",
+        "Have you taken your medicine?"
+      ],
+      "answer": 2,
+      "why": "**খাওয়ার আগে** 'before eating'; polite **খাবেন**."
+    },
+    {
+      "id": "e12",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "খবরটা শুনে সে সাথে সাথে বাসায় এল।",
+        "tr": "khoborta shune she shathe shathe bashay elo.",
+        "en": "He came home immediately when he heard the news."
+      },
+      "blank": "সাথে সাথে",
+      "accepted": [
+        "সাথে সাথে",
+        "shathe shathe",
+        "সঙ্গে সঙ্গে",
+        "sathe sathe",
+        "shonge shonge",
+        "shongge shongge"
+      ],
+      "why": "**সাথে সাথে** 'immediately'."
+    },
+    {
+      "id": "e13",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আমি যখন বাসায় এলাম, তখনই কারেন্ট চলে গেল।",
+        "tr": "ami jokhon bashay elam, tokhoni karent chole gelo.",
+        "en": "Just as I got home, the power went off."
+      },
+      "blank": "তখনই",
+      "options": [
+        "তখনই",
+        "তারপর",
+        "এখনই",
+        "কখন"
+      ],
+      "answer": 0,
+      "why": "**যখন … তখন(ই)**: **তখনই** 'right then'."
+    },
+    {
+      "id": "e14",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "প্রথমে আমি চা খেলাম, তারপর বাসে উঠলাম।",
+        "tr": "prothome ami cha khelam, tarpor base uthlam.",
+        "en": "First I had tea, then I got on the bus."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "খাই",
+        "তখন",
+        "শেষে",
+        "বাসে",
+        "উঠলাম",
+        "তারপর",
+        "চা",
+        "খেলাম",
+        "আমি",
+        "প্রথমে"
+      ],
+      "answer": [
+        "প্রথমে",
+        "আমি",
+        "চা",
+        "খেলাম",
+        "তারপর",
+        "বাসে",
+        "উঠলাম"
+      ],
+      "alt": [
+        [
+          "আমি",
+          "প্রথমে",
+          "চা",
+          "খেলাম",
+          "তারপর",
+          "বাসে",
+          "উঠলাম"
+        ],
+        [
+          "প্রথমে",
+          "চা",
+          "খেলাম",
+          "তারপর",
+          "বাসে",
+          "উঠলাম"
+        ]
+      ],
+      "why": "Order the events: **প্রথমে** … **তারপর** …."
+    },
+    {
+      "id": "e15",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "কিছুক্ষণ পরে আমি আবার ফোন করলাম।",
+        "tr": "kichhukkhon pore ami abar fon korlam.",
+        "en": "A little later I called again."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "করি",
+        "আবার",
+        "আমি",
+        "পরে",
+        "ফোন",
+        "করলাম",
+        "কিছুক্ষণ",
+        "এখন",
+        "আগে"
+      ],
+      "answer": [
+        "কিছুক্ষণ",
+        "পরে",
+        "আমি",
+        "আবার",
+        "ফোন",
+        "করলাম"
+      ],
+      "alt": [
+        [
+          "আমি",
+          "কিছুক্ষণ",
+          "পরে",
+          "আবার",
+          "ফোন",
+          "করলাম"
+        ],
+        [
+          "কিছুক্ষণ",
+          "পরে",
+          "আবার",
+          "ফোন",
+          "করলাম"
+        ]
+      ],
+      "why": "**কিছুক্ষণ পরে** 'a little later'."
+    },
+    {
+      "id": "e16",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "এরপর আমরা কী করব?",
+        "tr": "erpor amra ki korbo?",
+        "en": "What shall we do after this?"
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "এরপর আমরা কী করব",
+        "আমরা এরপর কী করব",
+        "এরপর কী করব",
+        "তারপর আমরা কী করব",
+        "তারপর কী করব",
+        "erpor amra ki korbo",
+        "amra erpor ki korbo",
+        "erpor ki korbo",
+        "tarpor amra ki korbo",
+        "tarpor ki korbo"
+      ],
+      "why": "**এরপর** 'after this'; future **করব** (আমরা)."
+    },
+    {
+      "id": "e17",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "শেষে আমরা সবাই একসাথে খেলাম।",
+        "tr": "sheshe amra shobai ekshathe khelam.",
+        "en": "At the end we all ate together."
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "শেষে আমরা সবাই একসাথে খেলাম",
+        "শেষে সবাই একসাথে খেলাম",
+        "অবশেষে আমরা সবাই একসাথে খেলাম",
+        "শেষে আমরা একসাথে খেলাম",
+        "শেষে আমরা সবাই একসঙ্গে খেলাম",
+        "sheshe amra shobai ekshathe khelam",
+        "sheshe shobai ekshathe khelam",
+        "obosheshe amra shobai ekshathe khelam",
+        "sheshe amra ekshathe khelam"
+      ],
+      "why": "**শেষে** 'at the end'; আমরা → **খেলাম**."
+    },
+    {
+      "id": "r01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ঘুমিয়ে",
+        "tr": "ghumiye",
+        "en": "having slept"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "এসেছিলেন",
+        "খাওনি",
+        "ঘুমিয়ে",
+        "করতে"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আমি ছাতা নিয়ে বাইরে গেলাম।",
+        "tr": "ami chhata niye baire gelam.",
+        "en": "I took an umbrella and went out."
+      },
+      "blank": "নিয়ে",
+      "accepted": [
+        "নিয়ে",
+        "niye"
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "সারারাত",
+        "tr": "shararat",
+        "en": "all night"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "how",
+        "all night",
+        "early",
+        "then"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "কিনে",
+          "tr": "kine",
+          "en": "having bought"
+        },
+        {
+          "bn": "এসে",
+          "tr": "eshe",
+          "en": "having come"
+        },
+        {
+          "bn": "উঠে",
+          "tr": "uthe",
+          "en": "having got up"
+        },
+        {
+          "bn": "দেব",
+          "tr": "debo",
+          "en": "I will give"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "নিতে",
+          "tr": "nite",
+          "en": "to take"
+        },
+        {
+          "bn": "দেখাতে",
+          "tr": "dekhate",
+          "en": "to show"
+        },
+        {
+          "bn": "বেশ",
+          "tr": "besh",
+          "en": "quite"
+        },
+        {
+          "bn": "খেয়েছেন",
+          "tr": "kheyechhen",
+          "en": "have you eaten (polite)"
+        }
+      ],
+      "recycle": true
+    }
+  ]
+}

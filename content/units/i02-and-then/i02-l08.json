@@ -1,0 +1,635 @@
+{
+  "id": "i02-l08",
+  "unit": "i02-and-then",
+  "title": "Review: And then…",
+  "status": "draft",
+  "tip": "Four voices, one theme: getting through the day. Listen first, then read.\n\nCheck yourself:\n\n- **খেয়ে / গিয়ে / নেমে**: one step, then the next (the last verb carries the tense)\n- **হেঁটে, রিকশা করে, মন দিয়ে**: how\n- **শুনে খুশি হলাম, দেখে ভয় পেলাম**: why you felt something\n- **না খেয়ে, না বলে**: without\n- **প্রথমে, তারপর, সাথে সাথে, শেষমেশ**: in what order\n- **তাই না? না? তো, নাকি**: tone",
+  "vocab": [],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "reading",
+      "title": "How I get to work (Nadia)",
+      "lines": [
+        {
+          "bn": "আমি প্রতিদিন সকালে উঠে নাস্তা খেয়ে অফিসে যাই।",
+          "tr": "ami protidin shokale uthe nashta kheye ofise jai.",
+          "en": "Every day I get up, have breakfast and go to the office."
+        },
+        {
+          "bn": "প্রথমে আমি রিকশা করে স্টেশনে যাই।",
+          "tr": "prothome ami riksha kore steshone jai.",
+          "en": "First I go to the station by rickshaw."
+        },
+        {
+          "bn": "স্টেশনে গিয়ে আমি ট্রেনে উঠি।",
+          "tr": "steshone giye ami trene uthi.",
+          "en": "At the station I get on the train."
+        },
+        {
+          "bn": "ট্রেনে খুব ভিড়, তাই আমি দাঁড়িয়ে থাকি।",
+          "tr": "trene khub bhir, tai ami da~riye thaki.",
+          "en": "The train is very crowded, so I stand."
+        },
+        {
+          "bn": "ট্রেন থেকে নেমে আমি হেঁটে অফিসে যাই।",
+          "tr": "tren theke neme ami he~te ofise jai.",
+          "en": "I get off the train and walk to the office."
+        }
+      ],
+      "question": "How does Nadia get to the station?",
+      "options": [
+        "By rickshaw",
+        "By bus",
+        "On foot"
+      ],
+      "answer": 0,
+      "why": "**রিকশা করে স্টেশনে যাই** 'I go to the station by rickshaw'."
+    },
+    {
+      "id": "e02",
+      "type": "reading",
+      "title": "A bad morning (Rafi)",
+      "lines": [
+        {
+          "bn": "কাল একটা ঘটনা ঘটল।",
+          "tr": "kal ekta ghotona ghotlo.",
+          "en": "Something happened yesterday."
+        },
+        {
+          "bn": "আমি সারারাত ঘুমাতে পারিনি, তাই সকালে না খেয়ে চলে গেলাম।",
+          "tr": "ami shararat ghumate parini, tai shokale na kheye chole gelam.",
+          "en": "I couldn't sleep all night, so in the morning I left without eating."
+        },
+        {
+          "bn": "আমি দৌড়ে বাস ধরলাম।",
+          "tr": "ami doure bas dhorlam.",
+          "en": "I ran and caught the bus."
+        },
+        {
+          "bn": "বাসে উঠে দেখলাম, আমার ফোন নেই!",
+          "tr": "base uthe dekhlam, amar fon nei!",
+          "en": "On the bus I saw that my phone was gone!"
+        },
+        {
+          "bn": "সাথে সাথে আমি বাস থেকে নামলাম।",
+          "tr": "shathe shathe ami bas theke namlam.",
+          "en": "I got off the bus at once."
+        },
+        {
+          "bn": "অবশেষে বাসায় ফিরে ফোনটা খুঁজে পেলাম।",
+          "tr": "obosheshe bashay fire fonta khu~je pelam.",
+          "en": "Finally I went back home and found the phone."
+        },
+        {
+          "bn": "শেষমেশ আমি দুপুরে অফিসে পৌঁছালাম।",
+          "tr": "sheshmesh ami dupure ofise pou~chhalam.",
+          "en": "In the end I got to the office at noon."
+        }
+      ],
+      "question": "What did Rafi do as soon as he noticed his phone was gone?",
+      "options": [
+        "He called Nadia",
+        "He got off the bus",
+        "He went on to the office"
+      ],
+      "answer": 1,
+      "why": "**সাথে সাথে** 'immediately'."
+    },
+    {
+      "id": "e03",
+      "type": "reading",
+      "title": "The storm (Mum)",
+      "lines": [
+        {
+          "bn": "কাল রাতে খুব ঝড় হল।",
+          "tr": "kal rate khub jhor holo.",
+          "en": "There was a big storm last night."
+        },
+        {
+          "bn": "ঝড় দেখে আমি ভয় পেলাম।",
+          "tr": "jhor dekhe ami bhoy pelam.",
+          "en": "I got scared when I saw the storm."
+        },
+        {
+          "bn": "কিছুক্ষণ পরে কারেন্ট চলে গেল।",
+          "tr": "kichhukkhon pore karent chole gelo.",
+          "en": "A little later the power went off."
+        },
+        {
+          "bn": "আমি মোমবাতি নিয়ে চুপ করে বসলাম।",
+          "tr": "ami mombati niye chup kore boshlam.",
+          "en": "I sat quietly with a candle."
+        },
+        {
+          "bn": "শেষে নাদিয়া বাসায় এসে হেসে বলল, ভয় নেই!",
+          "tr": "sheshe nadiya bashay eshe heshe bollo, bhoy nei!",
+          "en": "In the end Nadia came home and said with a laugh, 'Don't be afraid!'"
+        }
+      ],
+      "question": "How did the speaker feel during the storm?",
+      "options": [
+        "Scared",
+        "Annoyed",
+        "Happy"
+      ],
+      "answer": 0,
+      "why": "**ঝড় দেখে আমি ভয় পেলাম**."
+    },
+    {
+      "id": "e04",
+      "type": "reading",
+      "title": "Late again",
+      "lines": [
+        {
+          "speaker": "Rafi",
+          "bn": "আরে নাদিয়া! কাল নাকি তোমার অনেক দেরি হল?",
+          "tr": "are nadiya! kal naki tomar onek deri holo?",
+          "en": "Hey Nadia! I hear you were very late yesterday?"
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "হ্যাঁ, অনেক জ্যাম ছিল। হেঁটে অফিসে গিয়ে আমি ভিজে গেলাম।",
+          "tr": "hya~, onek jyam chhilo. he~te ofise giye ami bhije gelam.",
+          "en": "Yes, there was a lot of traffic. I walked to the office and got soaked."
+        },
+        {
+          "speaker": "Rafi",
+          "bn": "হেঁটে? তুমি তো খুব ক্লান্ত, তাই না?",
+          "tr": "he~te? tumi to khub klanto, tai na?",
+          "en": "On foot? You must be very tired, aren't you?"
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "না, আমি ঠিক আছি। যাই হোক, আজ বাসায় আসবে, না?",
+          "tr": "na, ami thik achhi. jai hok, aj bashay ashbe, na?",
+          "en": "No, I'm fine. Anyway, you'll come over today, won't you?"
+        },
+        {
+          "speaker": "Rafi",
+          "bn": "আচ্ছা, এরপর আমি তোমার বাসায় আসব।",
+          "tr": "achchha, erpor ami tomar bashay ashbo.",
+          "en": "OK, I'll come to your place after this."
+        }
+      ],
+      "question": "Why was Nadia late yesterday?",
+      "options": [
+        "There was a lot of traffic",
+        "She lost her phone",
+        "She overslept"
+      ],
+      "answer": 0,
+      "why": "**অনেক জ্যাম ছিল** 'there was a lot of traffic'."
+    },
+    {
+      "id": "e05",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "খবরটা শুনে সবাই অবাক হয়ে গেল।",
+        "tr": "khoborta shune shobai obak hoye gelo.",
+        "en": "Everyone was amazed to hear the news."
+      },
+      "options": [
+        "Nobody heard the news.",
+        "Everyone was amazed to hear the news.",
+        "Everyone got angry at the news.",
+        "I was surprised, but nobody else was."
+      ],
+      "answer": 1,
+      "why": "**শুনে … অবাক হয়ে গেল**: cause + reaction."
+    },
+    {
+      "id": "e06",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "সে রেগে কিছু না বলে চলে গেল।",
+        "tr": "she rege kichhu na bole chole gelo.",
+        "en": "He left angrily without saying anything."
+      },
+      "options": [
+        "He said something and left quietly.",
+        "He left laughing and saying goodbye.",
+        "He left angrily without saying anything.",
+        "He got angry but didn't leave."
+      ],
+      "answer": 2,
+      "why": "**রেগে** 'angrily'; **কিছু না বলে** 'without saying anything'."
+    },
+    {
+      "id": "e07",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "আমি না জেনে ভুল কথা বললাম।",
+        "tr": "ami na jene bhul kotha bollam.",
+        "en": "I said the wrong thing without knowing."
+      },
+      "options": [
+        "I knew it and said the right thing.",
+        "I'll ask before I say anything.",
+        "I said the wrong thing without knowing.",
+        "I said nothing because I didn't know."
+      ],
+      "answer": 2,
+      "why": "**না জেনে** 'without knowing'."
+    },
+    {
+      "id": "e08",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "কষ্ট পেলাম",
+          "tr": "koshto pelam",
+          "en": "I was hurt (upset)"
+        },
+        {
+          "bn": "বিরক্ত",
+          "tr": "birokto",
+          "en": "annoyed"
+        },
+        {
+          "bn": "খুশি হলাম",
+          "tr": "khushi holam",
+          "en": "I was glad"
+        },
+        {
+          "bn": "খবর",
+          "tr": "khobor",
+          "en": "news"
+        },
+        {
+          "bn": "অবাক হলাম",
+          "tr": "obak holam",
+          "en": "I was surprised"
+        }
+      ]
+    },
+    {
+      "id": "e09",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "ধীরে ধীরে",
+          "tr": "dhire dhire",
+          "en": "slowly"
+        },
+        {
+          "bn": "জেনে",
+          "tr": "jene",
+          "en": "knowing"
+        },
+        {
+          "bn": "মন দিয়ে",
+          "tr": "mon diye",
+          "en": "attentively"
+        },
+        {
+          "bn": "তখনই",
+          "tr": "tokhoni",
+          "en": "right then"
+        },
+        {
+          "bn": "ঘুমিয়ে",
+          "tr": "ghumiye",
+          "en": "having slept"
+        }
+      ]
+    },
+    {
+      "id": "e10",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "সে না খেয়ে স্কুলে গেল।",
+        "tr": "she na kheye skule gelo.",
+        "en": "He went to school without eating."
+      },
+      "blank": "না খেয়ে",
+      "options": [
+        "খেয়ে না",
+        "খায় না",
+        "খেয়ে",
+        "না খেয়ে"
+      ],
+      "answer": 3,
+      "why": "'Without eating' = **না খেয়ে**: না before the participle."
+    },
+    {
+      "id": "e11",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আমি বাজার থেকে আলু কিনে বাসায় এলাম।",
+        "tr": "ami bajar theke alu kine bashay elam.",
+        "en": "I bought potatoes at the market and came home."
+      },
+      "blank": "কিনে",
+      "options": [
+        "কিনে",
+        "কিনব",
+        "কিনল",
+        "কিনলাম"
+      ],
+      "answer": 0,
+      "why": "Earlier step = participle **কিনে**; the last verb **এলাম** is finite."
+    },
+    {
+      "id": "e12",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "নাদিয়া নাকি ঢাকায় থাকে।",
+        "tr": "nadiya naki dhakay thake.",
+        "en": "I hear Nadia lives in Dhaka."
+      },
+      "blank": "নাকি",
+      "options": [
+        "তখন",
+        "নাকি",
+        "কেন",
+        "তাই না"
+      ],
+      "answer": 1,
+      "why": "Hearsay **নাকি** 'I hear'."
+    },
+    {
+      "id": "e13",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আমি স্টেশনে এক ঘণ্টা অপেক্ষা করলাম।",
+        "tr": "ami steshone ek ghonta opekkha korlam.",
+        "en": "I waited at the station for an hour."
+      },
+      "blank": "অপেক্ষা করলাম",
+      "accepted": [
+        "অপেক্ষা করলাম",
+        "opekkha korlam",
+        "opekha korlam"
+      ],
+      "why": "**অপেক্ষা করলাম** 'I waited'."
+    },
+    {
+      "id": "e14",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "খবরটা শুনে আমি সাথে সাথে বাসায় এলাম।",
+        "tr": "khoborta shune ami shathe shathe bashay elam.",
+        "en": "I heard the news and came home immediately."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "পরে",
+        "বাসায়",
+        "আমি",
+        "আসি",
+        "শুনলাম",
+        "খবরটা",
+        "শুনে",
+        "এলাম",
+        "সাথে",
+        "সাথে"
+      ],
+      "answer": [
+        "খবরটা",
+        "শুনে",
+        "আমি",
+        "সাথে",
+        "সাথে",
+        "বাসায়",
+        "এলাম"
+      ],
+      "alt": [
+        [
+          "আমি",
+          "খবরটা",
+          "শুনে",
+          "সাথে",
+          "সাথে",
+          "বাসায়",
+          "এলাম"
+        ],
+        [
+          "খবরটা",
+          "শুনে",
+          "সাথে",
+          "সাথে",
+          "বাসায়",
+          "এলাম"
+        ]
+      ],
+      "why": "Cause **শুনে**, then **সাথে সাথে** + finite **এলাম**."
+    },
+    {
+      "id": "e15",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমি ছাতা নিয়ে বাইরে গেলাম।",
+        "tr": "ami chhata niye baire gelam.",
+        "en": "I took an umbrella and went out."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "যাই",
+        "বাইরে",
+        "নিয়ে",
+        "নিলাম",
+        "আমি",
+        "ছাতা",
+        "ছাড়া",
+        "গেলাম"
+      ],
+      "answer": [
+        "আমি",
+        "ছাতা",
+        "নিয়ে",
+        "বাইরে",
+        "গেলাম"
+      ],
+      "alt": [
+        [
+          "ছাতা",
+          "নিয়ে",
+          "আমি",
+          "বাইরে",
+          "গেলাম"
+        ],
+        [
+          "ছাতা",
+          "নিয়ে",
+          "বাইরে",
+          "গেলাম"
+        ]
+      ],
+      "why": "**নিয়ে** 'taking (along)'; **ছাতা ছাড়া** would be 'without an umbrella'."
+    },
+    {
+      "id": "e16",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "অনেক দিন পরে দেখা হল।",
+        "tr": "onek din pore dekha holo.",
+        "en": "We met after a long time."
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "অনেক দিন পরে দেখা হল",
+        "অনেক দিন পরে আমাদের দেখা হল",
+        "অনেক দিন পর দেখা হল",
+        "অনেক দিন পরে দেখা হলো",
+        "onek din pore dekha holo",
+        "onek din pore amader dekha holo"
+      ],
+      "why": "**দেখা হল** '(we) met'."
+    },
+    {
+      "id": "e17",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "সে না খেয়ে স্কুলে গেল।",
+        "tr": "she na kheye skule gelo.",
+        "en": "He went to school without eating."
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "সে না খেয়ে স্কুলে গেল",
+        "ও না খেয়ে স্কুলে গেল",
+        "সে না খেয়ে স্কুলে চলে গেল",
+        "না খেয়ে স্কুলে গেল",
+        "সে কিছু না খেয়ে স্কুলে গেল",
+        "she na kheye skule gelo",
+        "o na kheye skule gelo",
+        "she na kheye skule chole gelo",
+        "na kheye skule gelo",
+        "she kichhu na kheye skule gelo"
+      ],
+      "why": "**না খেয়ে** + past **গেল**."
+    },
+    {
+      "id": "e18",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "খবরটা শুনে আমি খুশি হলাম।",
+        "tr": "khoborta shune ami khushi holam.",
+        "en": "I was glad to hear the news."
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "খবরটা শুনে আমি খুশি হলাম",
+        "আমি খবরটা শুনে খুশি হলাম",
+        "খবরটা শুনে খুশি হলাম",
+        "খবর শুনে আমি খুশি হলাম",
+        "খবর শুনে খুশি হলাম",
+        "খবরটা শুনে আমি খুব খুশি হলাম",
+        "khoborta shune ami khushi holam",
+        "ami khoborta shune khushi holam",
+        "khoborta shune khushi holam",
+        "khobor shune ami khushi holam",
+        "khobor shune khushi holam",
+        "khoborta shune ami khub khushi holam"
+      ],
+      "why": "**শুনে খুশি হলাম**."
+    },
+    {
+      "id": "r01",
+      "type": "listen_select",
+      "audio": {
+        "bn": "মনে পড়ে",
+        "tr": "mone pore",
+        "en": "I remember (it comes to mind)"
+      },
+      "options": [
+        "চুপ করে",
+        "এখন আর",
+        "মনে পড়ে",
+        "না বলে"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "নাদিয়া তখন বাসায় আসছিল।",
+        "tr": "nadiya tokhon bashay ashchhilo.",
+        "en": "Nadia was coming home then."
+      },
+      "blank": "আসছিল",
+      "options": [
+        "আসছিল",
+        "পড়ছিলাম",
+        "আসে",
+        "গিয়েছিল"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "আমার ক্রিকেট দেখতে খুব ভালো লাগত।",
+        "tr": "amar kriket dekhte khub bhalo lagto.",
+        "en": "I really liked watching cricket."
+      },
+      "options": [
+        "I really liked watching cricket.",
+        "My uncle isn't here.",
+        "I've reached home.",
+        "My childhood was very lovely."
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "দরজায়",
+          "tr": "dorjay",
+          "en": "at the door"
+        },
+        {
+          "bn": "বলুন",
+          "tr": "bolun",
+          "en": "please say (standard)"
+        },
+        {
+          "bn": "তখনকার",
+          "tr": "tokhonkar",
+          "en": "of that time"
+        },
+        {
+          "bn": "দুষ্টু",
+          "tr": "dushtu",
+          "en": "naughty"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "বাঁচাও",
+          "tr": "ba~chao",
+          "en": "help! (save me)"
+        },
+        {
+          "bn": "জানি",
+          "tr": "jani",
+          "en": "(I) know"
+        },
+        {
+          "bn": "ওটার",
+          "tr": "otar",
+          "en": "of that"
+        },
+        {
+          "bn": "উপরে",
+          "tr": "upore",
+          "en": "upstairs"
+        }
+      ],
+      "recycle": true
+    }
+  ]
+}

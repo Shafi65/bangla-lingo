@@ -1,0 +1,479 @@
+{
+  "id": "i00-l06",
+  "unit": "i00-bridge",
+  "title": "Home, work and study",
+  "status": "draft",
+  "tip": "The intermediate units use these everyday words without teaching them: **রান্নাঘর** kitchen, **বাথরুম**, **জানালা** window, **চাবি** key, **চাকরি** job, **মিটিং**, **ক্লাস**, **পরীক্ষা** exam, **বিয়ে** wedding.\n\nDescribing needs no verb: **রান্নাঘর ছোট, কিন্তু পরিষ্কার**.\n\nHaving uses **-র** + **আছে / নেই**: **আমার বাবার একটা ব্যবসা আছে**, **আজকে আমার ক্লাস নেই**.\n\nIf a word is new to you, tap it to see the meaning.",
+  "vocab": [],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "কাকে",
+        "tr": "kake",
+        "en": "whom"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "কাকে",
+        "কার",
+        "কে",
+        "কোথায়"
+      ],
+      "answer": 0,
+      "why": "**কাকে** 'whom'; **কার** 'whose'."
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "কারণ",
+        "tr": "karon",
+        "en": "because"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "তাই",
+        "কারণ",
+        "তাহলে",
+        "কিন্তু"
+      ],
+      "answer": 1,
+      "why": "**কারণ** 'because'; **তাই** 'so'."
+    },
+    {
+      "id": "e03",
+      "type": "reading",
+      "title": "Rafi's new flat",
+      "lines": [
+        {
+          "speaker": "Nadia",
+          "bn": "তোমার নতুন বাসা খুব সুন্দর!",
+          "tr": "tomar notun basha khub shundor!",
+          "en": "Your new home is lovely!"
+        },
+        {
+          "speaker": "Rafi",
+          "bn": "ধন্যবাদ। বাসা পুরনো, কিন্তু অনেক বড়।",
+          "tr": "dhonnobad. basha purono, kintu onek boro.",
+          "en": "Thanks. It's old, but very big."
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "রান্নাঘর কোথায়?",
+          "tr": "rannaghor kothay?",
+          "en": "Where's the kitchen?"
+        },
+        {
+          "speaker": "Rafi",
+          "bn": "ওই দিকে।",
+          "tr": "oi dike.",
+          "en": "That way."
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "তোমার কি কাল অফিস আছে?",
+          "tr": "tomar ki kal ofis achhe?",
+          "en": "Do you have work tomorrow?"
+        },
+        {
+          "speaker": "Rafi",
+          "bn": "হ্যাঁ, কাল আমার একটা বড় মিটিং আছে।",
+          "tr": "hya~, kal amar ekta boro miting achhe.",
+          "en": "Yes, tomorrow I have a big meeting."
+        }
+      ],
+      "question": "What does Rafi say about his home?",
+      "options": [
+        "It's new and small",
+        "It's far from the office",
+        "It's old but big"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e04",
+      "type": "reading",
+      "title": "Rafi's new flat",
+      "lines": [
+        {
+          "speaker": "Nadia",
+          "bn": "তোমার নতুন বাসা খুব সুন্দর!",
+          "tr": "tomar notun basha khub shundor!",
+          "en": "Your new home is lovely!"
+        },
+        {
+          "speaker": "Rafi",
+          "bn": "ধন্যবাদ। বাসা পুরনো, কিন্তু অনেক বড়।",
+          "tr": "dhonnobad. basha purono, kintu onek boro.",
+          "en": "Thanks. It's old, but very big."
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "রান্নাঘর কোথায়?",
+          "tr": "rannaghor kothay?",
+          "en": "Where's the kitchen?"
+        },
+        {
+          "speaker": "Rafi",
+          "bn": "ওই দিকে।",
+          "tr": "oi dike.",
+          "en": "That way."
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "তোমার কি কাল অফিস আছে?",
+          "tr": "tomar ki kal ofis achhe?",
+          "en": "Do you have work tomorrow?"
+        },
+        {
+          "speaker": "Rafi",
+          "bn": "হ্যাঁ, কাল আমার একটা বড় মিটিং আছে।",
+          "tr": "hya~, kal amar ekta boro miting achhe.",
+          "en": "Yes, tomorrow I have a big meeting."
+        }
+      ],
+      "question": "What does Rafi have tomorrow?",
+      "options": [
+        "A big meeting",
+        "A wedding",
+        "An exam"
+      ],
+      "answer": 0,
+      "why": "Having: **আমার … মিটিং আছে** 'I have a meeting'."
+    },
+    {
+      "id": "e05",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "রান্নাঘর ছোট, কিন্তু খুব পরিষ্কার।",
+        "tr": "rannaghor chhoto, kintu khub porishkar.",
+        "en": "The kitchen is small but very clean."
+      },
+      "options": [
+        "The kitchen is small but very clean.",
+        "The kitchen is very clean and big.",
+        "The kitchen is big but dirty.",
+        "Where is the kitchen?"
+      ],
+      "answer": 0,
+      "why": "**ছোট, কিন্তু খুব পরিষ্কার** 'small but very clean'."
+    },
+    {
+      "id": "e06",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "কাল আমার পরীক্ষা।",
+        "tr": "kal amar porikkha.",
+        "en": "I have an exam tomorrow."
+      },
+      "options": [
+        "I have a class tomorrow.",
+        "I don't have an exam tomorrow.",
+        "I have an exam tomorrow.",
+        "I had an exam yesterday."
+      ],
+      "answer": 2,
+      "why": "**কাল** + no past verb = 'tomorrow'."
+    },
+    {
+      "id": "e07",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "জানালা",
+          "tr": "janala",
+          "en": "window"
+        },
+        {
+          "bn": "চাবি",
+          "tr": "chabi",
+          "en": "key"
+        },
+        {
+          "bn": "বিছানা",
+          "tr": "bichhana",
+          "en": "bed"
+        },
+        {
+          "bn": "ছাদ",
+          "tr": "chhad",
+          "en": "roof"
+        },
+        {
+          "bn": "টেবিল",
+          "tr": "tebil",
+          "en": "table"
+        }
+      ]
+    },
+    {
+      "id": "e08",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "চাকরি",
+          "tr": "chakri",
+          "en": "job"
+        },
+        {
+          "bn": "পড়াশোনা",
+          "tr": "porashona",
+          "en": "studies"
+        },
+        {
+          "bn": "বিশ্ববিদ্যালয়",
+          "tr": "bishshobiddaloy",
+          "en": "university"
+        },
+        {
+          "bn": "প্রতিবেশী",
+          "tr": "protibeshi",
+          "en": "neighbour"
+        },
+        {
+          "bn": "ছেলেমেয়ে",
+          "tr": "chhelemeye",
+          "en": "children"
+        }
+      ]
+    },
+    {
+      "id": "e09",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "এই চেয়ার খুব ভারী।",
+        "tr": "ei cheyar khub bhari.",
+        "en": "This chair is very heavy."
+      },
+      "blank": "ভারী",
+      "options": [
+        "সহজ",
+        "হালকা",
+        "নোংরা",
+        "ভারী"
+      ],
+      "answer": 3,
+      "why": "**ভারী** 'heavy'; **হালকা** 'light'."
+    },
+    {
+      "id": "e10",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আজকে আমার ক্লাস নেই।",
+        "tr": "ajke amar klas nei.",
+        "en": "I have no class today."
+      },
+      "blank": "নেই",
+      "options": [
+        "আছে",
+        "নয়",
+        "না",
+        "নেই"
+      ],
+      "answer": 3,
+      "why": "Not having: **নেই**."
+    },
+    {
+      "id": "e11",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আমার চাবি কোথায়?",
+        "tr": "amar chabi kothay?",
+        "en": "Where is my key?"
+      },
+      "blank": "চাবি",
+      "accepted": [
+        "চাবি",
+        "chabi"
+      ],
+      "why": "**চাবি** 'key'."
+    },
+    {
+      "id": "e12",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমার বাবার একটা ব্যবসা আছে।",
+        "tr": "amar babar ekta byabsha achhe.",
+        "en": "My father has a business."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "বাবার",
+        "ব্যবসা",
+        "বাবা",
+        "আছে",
+        "চাকরি",
+        "একটা",
+        "নেই",
+        "আমার"
+      ],
+      "answer": [
+        "আমার",
+        "বাবার",
+        "একটা",
+        "ব্যবসা",
+        "আছে"
+      ],
+      "alt": [
+        [
+          "আমার",
+          "বাবার",
+          "ব্যবসা",
+          "আছে"
+        ]
+      ],
+      "why": "Having: **-র** + **আছে**: **বাবার … আছে**."
+    },
+    {
+      "id": "e13",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "বাংলা কি সহজ?",
+        "tr": "bangla ki shohoj?",
+        "en": "Is Bengali easy?"
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "বাংলা কি সহজ",
+        "বাংলা সহজ",
+        "bangla ki shohoj",
+        "bangla shohoj"
+      ],
+      "why": "Yes/no question with **কি**."
+    },
+    {
+      "id": "e14",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "পরের মাসে রাফির বিয়ে।",
+        "tr": "porer mashe rafir biye.",
+        "en": "Rafi's wedding is next month."
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "পরের মাসে রাফির বিয়ে",
+        "রাফির বিয়ে পরের মাসে",
+        "সামনের মাসে রাফির বিয়ে",
+        "আগামী মাসে রাফির বিয়ে",
+        "পরের মাসে রাফির বিয়ে হবে",
+        "সামনের মাসে রাফির বিয়ে হবে",
+        "porer mashe rafir biye",
+        "rafir biye porer mashe",
+        "shamner mashe rafir biye",
+        "agami mashe rafir biye",
+        "porer mashe rafir biye hobe",
+        "shamner mashe rafir biye hobe"
+      ],
+      "why": "**পরের মাসে** (or **সামনের / আগামী মাসে**) 'next month'."
+    },
+    {
+      "id": "r01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "দয়া করে",
+        "tr": "doya kore",
+        "en": "please"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "last week",
+        "I fell (down)",
+        "please",
+        "I don't need it"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "listen_select",
+      "audio": {
+        "bn": "কেটে গেছে",
+        "tr": "kete gechhe",
+        "en": "has been cut off"
+      },
+      "options": [
+        "আসসালামু আলাইকুম",
+        "ওয়ালাইকুম আসসালাম",
+        "মাঝে মাঝে",
+        "কেটে গেছে"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আমি এটা নেব।",
+        "tr": "ami eta nebo.",
+        "en": "I'll take this one."
+      },
+      "blank": "নেব",
+      "options": [
+        "উঠেছে",
+        "নেব",
+        "এসেছেন",
+        "যাও"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "পাঁচশ",
+          "tr": "pa~chsho",
+          "en": "five hundred"
+        },
+        {
+          "bn": "আসুন",
+          "tr": "ashun",
+          "en": "please come (standard)"
+        },
+        {
+          "bn": "ভিতরে",
+          "tr": "bhitore",
+          "en": "inside"
+        },
+        {
+          "bn": "চায়",
+          "tr": "chay",
+          "en": "he/she wants"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "চল",
+          "tr": "chol",
+          "en": "let's"
+        },
+        {
+          "bn": "বললাম",
+          "tr": "bollam",
+          "en": "I said"
+        },
+        {
+          "bn": "রাখেন",
+          "tr": "rakhen",
+          "en": "keep (polite)"
+        },
+        {
+          "bn": "ষাট",
+          "tr": "shat",
+          "en": "sixty"
+        }
+      ],
+      "recycle": true
+    }
+  ]
+}

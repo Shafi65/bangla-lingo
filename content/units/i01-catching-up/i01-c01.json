@@ -456,19 +456,17 @@
     },
     {
       "id": "r01",
-      "type": "listen_meaning",
-      "audio": {
+      "type": "fill_blank",
+      "sentence": {
         "bn": "সে অফিসে কাজ করছিল।",
         "tr": "she ofise kaj korchhilo.",
         "en": "He was working at the office."
       },
-      "options": [
-        "He was working at the office.",
-        "I will buy a new sari for Puja.",
-        "Do you want to listen to songs?",
-        "I have to get up early tomorrow."
+      "blank": "করছিল",
+      "accepted": [
+        "করছিল",
+        "korchhilo"
       ],
-      "answer": 0,
       "recycle": true
     },
     {
@@ -479,29 +477,31 @@
         "tr": "ashchhilo",
         "en": "was coming"
       },
-      "direction": "en_to_bn",
+      "direction": "bn_to_en",
       "options": [
-        "পারিস",
-        "আসছিল",
-        "কিনল",
-        "এলাম"
+        "you / he, she (polite) will say",
+        "was coming",
+        "I gave",
+        "to give"
       ],
       "answer": 1,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "fill_blank",
-      "sentence": {
-        "bn": "আমি ঢাকায় বড় হয়েছি, আর আপনি?",
-        "tr": "ami dhakay boro hoyechhi, ar apni?",
-        "en": "I grew up in Dhaka. And you (polite)?"
+      "type": "listen_select",
+      "audio": {
+        "bn": "বড় হয়েছি",
+        "tr": "boro hoyechhi",
+        "en": "I grew up"
       },
-      "blank": "বড় হয়েছি",
-      "accepted": [
+      "options": [
         "বড় হয়েছি",
-        "boro hoyechhi"
+        "কেটে গেছে",
+        "মনে পড়ে",
+        "ঘুড়ি ওড়াতাম"
       ],
+      "answer": 0,
       "recycle": true
     },
     {
@@ -509,24 +509,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "গোলাপি",
-          "tr": "golapi",
-          "en": "pink"
+          "bn": "করবি",
+          "tr": "korbi",
+          "en": "you (intimate) will do"
         },
         {
-          "bn": "লাজুক",
-          "tr": "lajuk",
-          "en": "shy"
+          "bn": "জানাও",
+          "tr": "janao",
+          "en": "let (me) know (familiar)"
         },
         {
-          "bn": "হাসপাতালে",
-          "tr": "hashpatale",
-          "en": "to the hospital; in hospital"
+          "bn": "কেন",
+          "tr": "keno",
+          "en": "why"
         },
         {
-          "bn": "প্রিয়",
-          "tr": "priyo",
-          "en": "favourite"
+          "bn": "খেতে",
+          "tr": "khete",
+          "en": "to eat"
         }
       ],
       "recycle": true
@@ -536,24 +536,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "বছরের",
-          "tr": "bochhorer",
-          "en": "of … years; year's"
+          "bn": "বলবেন",
+          "tr": "bolben",
+          "en": "you / he, she (polite) will say"
         },
         {
-          "bn": "বর্ষা",
-          "tr": "borsha",
-          "en": "monsoon"
+          "bn": "দেন",
+          "tr": "den",
+          "en": "give (polite)"
         },
         {
-          "bn": "আবহাওয়া",
-          "tr": "abohawa",
-          "en": "weather"
+          "bn": "উঠি",
+          "tr": "uthi",
+          "en": "I get up"
         },
         {
-          "bn": "দুর্ঘটনা",
-          "tr": "durghotona",
-          "en": "accident"
+          "bn": "উঠতে",
+          "tr": "uthte",
+          "en": "to get up"
         }
       ],
       "recycle": true

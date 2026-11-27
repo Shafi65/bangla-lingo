@@ -514,37 +514,35 @@
     },
     {
       "id": "r01",
-      "type": "fill_blank",
-      "sentence": {
-        "bn": "রাতে আমি বই পড়তাম।",
-        "tr": "rate ami boi portam.",
-        "en": "At night I used to read books."
+      "type": "select_translation",
+      "prompt": {
+        "bn": "পড়তাম",
+        "tr": "portam",
+        "en": "I used to study"
       },
-      "blank": "পড়তাম",
+      "direction": "en_to_bn",
       "options": [
+        "গিয়েছি",
+        "নয়",
         "পড়তাম",
-        "কিনেছি",
-        "এসেছি",
-        "দেবেন"
+        "খাব"
       ],
-      "answer": 0,
+      "answer": 2,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "listen_meaning",
-      "audio": {
+      "type": "fill_blank",
+      "sentence": {
         "bn": "বিকালে আমরা মাঠে খেলতাম।",
         "tr": "bikale amra mathe kheltam.",
         "en": "In the afternoon we used to play in the field."
       },
-      "options": [
-        "Happy birthday.",
-        "I am a student, my name is Nadia.",
-        "In the afternoon we used to play in the field.",
-        "My younger sister reads books."
+      "blank": "খেলতাম",
+      "accepted": [
+        "খেলতাম",
+        "kheltam"
       ],
-      "answer": 2,
       "recycle": true
     },
     {
@@ -555,14 +553,14 @@
         "tr": "khela",
         "en": "game; playing"
       },
-      "direction": "en_to_bn",
+      "direction": "bn_to_en",
       "options": [
-        "খেলা",
-        "মিনিট",
-        "স্টেশনের",
-        "পূজায়"
+        "change",
+        "the sari",
+        "wedding; marriage",
+        "game; playing"
       ],
-      "answer": 0,
+      "answer": 3,
       "recycle": true
     },
     {
@@ -570,14 +568,14 @@
       "type": "match_pairs",
       "pairs": [
         {
+          "bn": "ছোটবেলা",
+          "tr": "chhotobela",
+          "en": "childhood"
+        },
+        {
           "bn": "মাঠ",
           "tr": "math",
           "en": "field; playground"
-        },
-        {
-          "bn": "মাঠে",
-          "tr": "mathe",
-          "en": "in the field"
         },
         {
           "bn": "পুকুর",
@@ -585,9 +583,9 @@
           "en": "pond"
         },
         {
-          "bn": "ছোটবেলা",
-          "tr": "chhotobela",
-          "en": "childhood"
+          "bn": "মাঠে",
+          "tr": "mathe",
+          "en": "in the field"
         }
       ],
       "recycle": true
@@ -597,24 +595,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "পেটে",
-          "tr": "pete",
-          "en": "in the stomach"
+          "bn": "কোনটা",
+          "tr": "konta",
+          "en": "which one"
         },
         {
-          "bn": "ডাকুন",
-          "tr": "dakun",
-          "en": "please call (standard)"
+          "bn": "সবার",
+          "tr": "shobar",
+          "en": "everyone's; of all"
         },
         {
-          "bn": "বাঁচাও",
-          "tr": "ba~chao",
-          "en": "help! (save me)"
+          "bn": "প্রায়",
+          "tr": "pray",
+          "en": "almost; about"
         },
         {
-          "bn": "খাওয়ার",
-          "tr": "khawar",
-          "en": "eating; meals"
+          "bn": "রং",
+          "tr": "rong",
+          "en": "colour"
         }
       ],
       "recycle": true

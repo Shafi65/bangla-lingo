@@ -1,0 +1,607 @@
+{
+  "id": "i02-l02",
+  "unit": "i02-and-then",
+  "title": "On foot, by rickshaw",
+  "status": "draft",
+  "tip": "The participle also says **how** you do something:\n\n- **হেঁটে** 'on foot' (lit. having walked), **দৌড়ে** 'running'\n- **রিকশা করে** 'by rickshaw', **মন দিয়ে** 'attentively', **চুপ করে** 'quietly'\n\n**আমি হেঁটে অফিসে যাই** 'I walk to the office.'\n\nFor transport, **রিকশা করে** and **রিকশায়** (Unit 7) both work.\n\n**ধীরে ধীরে** is 'slowly, gradually'; everyday **আস্তে** is 'slowly, gently'.\n\n**ভিজে গেলাম** 'I got soaked': participle + **গেলাম** for something that happened to you.",
+  "vocab": [
+    {
+      "id": "hete",
+      "bn": "হেঁটে",
+      "tr": "he~te",
+      "en": "on foot",
+      "notes": "Participle of হাঁটা 'walk'."
+    },
+    {
+      "id": "riksha-kore",
+      "bn": "রিকশা করে",
+      "tr": "riksha kore",
+      "en": "by rickshaw",
+      "notes": "রিকশায় (U7) says the same. Also বাসে করে, ট্রেনে করে."
+    },
+    {
+      "id": "doure",
+      "bn": "দৌড়ে",
+      "tr": "doure",
+      "en": "running",
+      "notes": "Participle of দৌড়ানো 'run'."
+    },
+    {
+      "id": "dhire-dhire",
+      "bn": "ধীরে ধীরে",
+      "tr": "dhire dhire",
+      "en": "slowly",
+      "notes": "Also 'gradually'. Everyday 'slowly, gently' is আস্তে (U12)."
+    },
+    {
+      "id": "chup-kore",
+      "bn": "চুপ করে",
+      "tr": "chup kore",
+      "en": "quietly"
+    },
+    {
+      "id": "mon-diye",
+      "bn": "মন দিয়ে",
+      "tr": "mon diye",
+      "en": "attentively",
+      "notes": "Literally 'giving the mind'."
+    },
+    {
+      "id": "pouchhalam",
+      "bn": "পৌঁছালাম",
+      "tr": "pou~chhalam",
+      "en": "I arrived",
+      "notes": "Also spelled পৌঁছলাম. Perfect: পৌঁছেছি (U13)."
+    },
+    {
+      "id": "bhije",
+      "bn": "ভিজে",
+      "tr": "bhije",
+      "en": "getting wet",
+      "notes": "ভিজে গেলাম 'I got soaked'."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "অফিস থেকে ফিরে আমি গোসল করি।",
+        "tr": "ofis theke fire ami gosol kori.",
+        "en": "After I get back from the office, I have a bath."
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "অফিসে গিয়ে আমি গোসল করি।",
+        "অফিস থেকে ফিরে আমি গোসল করি।",
+        "অফিস থেকে ফিরে আমি গোসল করলাম।",
+        "আমি গোসল করে অফিসে যাই।"
+      ],
+      "answer": 1,
+      "why": "**ফিরে** first, then the present **করি** (a habit)."
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "কিনে",
+        "tr": "kine",
+        "en": "having bought"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "দিয়ে",
+        "কিনলাম",
+        "কিনে",
+        "এসে"
+      ],
+      "answer": 2,
+      "why": "Participle of কেনা: **কিনে**."
+    },
+    {
+      "id": "e03",
+      "type": "reading",
+      "title": "How did you get here?",
+      "lines": [
+        {
+          "speaker": "Rafi",
+          "bn": "নাদিয়া, তুমি কীভাবে এলে?",
+          "tr": "nadiya, tumi kibhabe ele?",
+          "en": "Nadia, how did you get here?"
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "আজ আমি হেঁটে এলাম।",
+          "tr": "aj ami he~te elam.",
+          "en": "Today I came on foot."
+        },
+        {
+          "speaker": "Rafi",
+          "bn": "হেঁটে? তোমার বাসা অনেক দূরে।",
+          "tr": "he~te? tomar basha onek dure.",
+          "en": "On foot? Your home is a long way away."
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "হ্যাঁ, আজ কোনো রিকশা ছিল না।",
+          "tr": "hya~, aj kono riksha chhilo na.",
+          "en": "Yes, there weren't any rickshaws today."
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "বৃষ্টি হচ্ছিল, তাই আমি ভিজে গেলাম।",
+          "tr": "brishti hochchhilo, tai ami bhije gelam.",
+          "en": "It was raining, so I got soaked."
+        },
+        {
+          "speaker": "Rafi",
+          "bn": "কাল রিকশা করে এসো।",
+          "tr": "kal riksha kore esho.",
+          "en": "Come by rickshaw tomorrow."
+        }
+      ],
+      "question": "How did Nadia get here today?",
+      "options": [
+        "By rickshaw",
+        "On foot",
+        "By bus"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e04",
+      "type": "reading",
+      "title": "How did you get here?",
+      "lines": [
+        {
+          "speaker": "Rafi",
+          "bn": "নাদিয়া, তুমি কীভাবে এলে?",
+          "tr": "nadiya, tumi kibhabe ele?",
+          "en": "Nadia, how did you get here?"
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "আজ আমি হেঁটে এলাম।",
+          "tr": "aj ami he~te elam.",
+          "en": "Today I came on foot."
+        },
+        {
+          "speaker": "Rafi",
+          "bn": "হেঁটে? তোমার বাসা অনেক দূরে।",
+          "tr": "he~te? tomar basha onek dure.",
+          "en": "On foot? Your home is a long way away."
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "হ্যাঁ, আজ কোনো রিকশা ছিল না।",
+          "tr": "hya~, aj kono riksha chhilo na.",
+          "en": "Yes, there weren't any rickshaws today."
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "বৃষ্টি হচ্ছিল, তাই আমি ভিজে গেলাম।",
+          "tr": "brishti hochchhilo, tai ami bhije gelam.",
+          "en": "It was raining, so I got soaked."
+        },
+        {
+          "speaker": "Rafi",
+          "bn": "কাল রিকশা করে এসো।",
+          "tr": "kal riksha kore esho.",
+          "en": "Come by rickshaw tomorrow."
+        }
+      ],
+      "question": "Why did Nadia get wet?",
+      "options": [
+        "She came by rickshaw",
+        "It was raining",
+        "She had a bath"
+      ],
+      "answer": 1,
+      "why": "**বৃষ্টি হচ্ছিল, তাই আমি ভিজে গেলাম** 'it was raining, so I got soaked'."
+    },
+    {
+      "id": "e05",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "আমি প্রতিদিন হেঁটে অফিসে যাই।",
+        "tr": "ami protidin he~te ofise jai.",
+        "en": "I walk to the office every day."
+      },
+      "options": [
+        "I walked to the office yesterday.",
+        "I walk to the office every day.",
+        "I run to the office every day.",
+        "I go to the office by bus every day."
+      ],
+      "answer": 1,
+      "why": "**হেঁটে** 'on foot' (lit. having walked)."
+    },
+    {
+      "id": "e06",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "আমরা রিকশা করে বাজারে গেলাম।",
+        "tr": "amra riksha kore bajare gelam.",
+        "en": "We went to the market by rickshaw."
+      },
+      "options": [
+        "We'll go to the market by rickshaw.",
+        "We walked to the market.",
+        "We bought a rickshaw at the market.",
+        "We went to the market by rickshaw."
+      ],
+      "answer": 3,
+      "why": "**রিকশা করে** 'by rickshaw'; past **গেলাম**."
+    },
+    {
+      "id": "e07",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "দৌড়ে",
+          "tr": "doure",
+          "en": "running"
+        },
+        {
+          "bn": "ধীরে ধীরে",
+          "tr": "dhire dhire",
+          "en": "slowly"
+        },
+        {
+          "bn": "চুপ করে",
+          "tr": "chup kore",
+          "en": "quietly"
+        },
+        {
+          "bn": "মন দিয়ে",
+          "tr": "mon diye",
+          "en": "attentively"
+        },
+        {
+          "bn": "পৌঁছালাম",
+          "tr": "pou~chhalam",
+          "en": "I arrived"
+        }
+      ]
+    },
+    {
+      "id": "e08",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "আপনি মন দিয়ে শুনুন।",
+        "tr": "apni mon diye shunun.",
+        "en": "Please listen carefully (polite)."
+      },
+      "options": [
+        "Please sit quietly.",
+        "Please speak loudly.",
+        "Please come slowly.",
+        "Please listen carefully (polite)."
+      ],
+      "answer": 3,
+      "why": "**মন দিয়ে** 'attentively', with polite **শুনুন**."
+    },
+    {
+      "id": "e09",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "এখানে চুপ করে বসো।",
+        "tr": "ekhane chup kore bosho.",
+        "en": "Sit here quietly (familiar)."
+      },
+      "blank": "চুপ করে",
+      "options": [
+        "চুপ করে",
+        "ধীরে ধীরে",
+        "রিকশা করে",
+        "জোরে"
+      ],
+      "answer": 0,
+      "why": "**চুপ করে** 'quietly, in silence'."
+    },
+    {
+      "id": "e10",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "সে দৌড়ে স্কুলে গেল।",
+        "tr": "she doure skule gelo.",
+        "en": "He ran to school."
+      },
+      "blank": "দৌড়ে",
+      "options": [
+        "রিকশা করে",
+        "চুপ করে",
+        "দৌড়ে",
+        "হেঁটে"
+      ],
+      "answer": 2,
+      "why": "Manner: **দৌড়ে** 'running'."
+    },
+    {
+      "id": "e11",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "ছাতা ছিল না, তাই আমি ভিজে গেলাম।",
+        "tr": "chhata chhilo na, tai ami bhije gelam.",
+        "en": "There was no umbrella, so I got soaked."
+      },
+      "options": [
+        "I lost my umbrella yesterday.",
+        "It was raining, so I stayed at home.",
+        "There was no umbrella, so I got soaked.",
+        "I had an umbrella, so I stayed dry."
+      ],
+      "answer": 2,
+      "why": "**ভিজে গেলাম** 'I got soaked'."
+    },
+    {
+      "id": "e12",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আমি দশটায় অফিসে পৌঁছালাম।",
+        "tr": "ami doshtay ofise pou~chhalam.",
+        "en": "I got to the office at ten."
+      },
+      "blank": "পৌঁছালাম",
+      "accepted": [
+        "পৌঁছালাম",
+        "pou~chhalam",
+        "পৌঁছলাম",
+        "pouchhalam",
+        "pounchhalam",
+        "pochhalam"
+      ],
+      "why": "আমি + simple past: **পৌঁছালাম** 'I arrived'."
+    },
+    {
+      "id": "e13",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমি প্রতিদিন হেঁটে অফিসে যাই।",
+        "tr": "ami protidin he~te ofise jai.",
+        "en": "I walk to the office every day."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "হাঁটি",
+        "আমি",
+        "হেঁটে",
+        "যাচ্ছি",
+        "অফিসে",
+        "দৌড়ে",
+        "প্রতিদিন",
+        "যাই"
+      ],
+      "answer": [
+        "আমি",
+        "প্রতিদিন",
+        "হেঁটে",
+        "অফিসে",
+        "যাই"
+      ],
+      "alt": [
+        [
+          "প্রতিদিন",
+          "আমি",
+          "হেঁটে",
+          "অফিসে",
+          "যাই"
+        ],
+        [
+          "আমি",
+          "হেঁটে",
+          "প্রতিদিন",
+          "অফিসে",
+          "যাই"
+        ],
+        [
+          "প্রতিদিন",
+          "হেঁটে",
+          "অফিসে",
+          "যাই"
+        ]
+      ],
+      "why": "Manner participle **হেঁটে** before the verb **যাই**."
+    },
+    {
+      "id": "e14",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমরা রিকশা করে বাজারে গেলাম।",
+        "tr": "amra riksha kore bajare gelam.",
+        "en": "We went to the market by rickshaw."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "রিকশায়",
+        "আমরা",
+        "রিকশা",
+        "বাজারে",
+        "যাই",
+        "গেলাম",
+        "করে",
+        "হেঁটে"
+      ],
+      "answer": [
+        "আমরা",
+        "রিকশা",
+        "করে",
+        "বাজারে",
+        "গেলাম"
+      ],
+      "alt": [
+        [
+          "রিকশা",
+          "করে",
+          "আমরা",
+          "বাজারে",
+          "গেলাম"
+        ],
+        [
+          "আমরা",
+          "রিকশায়",
+          "বাজারে",
+          "গেলাম"
+        ],
+        [
+          "রিকশা",
+          "করে",
+          "বাজারে",
+          "গেলাম"
+        ]
+      ],
+      "why": "**রিকশা করে** and **রিকশায়** both mean 'by rickshaw'."
+    },
+    {
+      "id": "e15",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আপনি কীভাবে এখানে এসেছেন?",
+        "tr": "apni kibhabe ekhane eshechhen?",
+        "en": "How did you (polite) get here?"
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "আপনি কীভাবে এখানে এসেছেন",
+        "আপনি এখানে কীভাবে এসেছেন",
+        "আপনি কীভাবে এসেছেন",
+        "কীভাবে এসেছেন",
+        "কীভাবে এখানে এসেছেন",
+        "apni kibhabe ekhane eshechhen",
+        "apni ekhane kibhabe eshechhen",
+        "apni kibhabe eshechhen",
+        "kibhabe eshechhen",
+        "kibhabe ekhane eshechhen"
+      ],
+      "why": "Polite **আপনি … এসেছেন**; **কীভাবে** 'how'."
+    },
+    {
+      "id": "e16",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "দাদি ধীরে ধীরে কথা বলেন।",
+        "tr": "dadi dhire dhire kotha bolen.",
+        "en": "Grandmother speaks slowly."
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "দাদি ধীরে ধীরে কথা বলেন",
+        "দাদি আস্তে কথা বলেন",
+        "নানি ধীরে ধীরে কথা বলেন",
+        "নানি আস্তে কথা বলেন",
+        "dadi dhire dhire kotha bolen",
+        "dadi aste kotha bolen",
+        "nani dhire dhire kotha bolen",
+        "nani aste kotha bolen"
+      ],
+      "why": "A grandmother takes the polite **বলেন**; **ধীরে ধীরে** or **আস্তে** for 'slowly'."
+    },
+    {
+      "id": "r01",
+      "type": "listen_select",
+      "audio": {
+        "bn": "উঠে",
+        "tr": "uthe",
+        "en": "having got up"
+      },
+      "options": [
+        "করছিলে",
+        "শিখেছি",
+        "বসলাম",
+        "উঠে"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আমি রাতে গান শুনে ঘুমাই।",
+        "tr": "ami rate gan shune ghumai.",
+        "en": "At night I listen to music and then sleep."
+      },
+      "blank": "শুনে",
+      "options": [
+        "শুনে",
+        "করছিস",
+        "গিয়েছিল",
+        "যাবে"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "হয়ে",
+        "tr": "hoye",
+        "en": "having become"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "হলাম",
+        "রাখো",
+        "আসুন",
+        "হয়ে"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "খেয়ে",
+          "tr": "kheye",
+          "en": "having eaten"
+        },
+        {
+          "bn": "লিখতাম",
+          "tr": "likhtam",
+          "en": "I used to write"
+        },
+        {
+          "bn": "চিঠি",
+          "tr": "chithi",
+          "en": "letter"
+        },
+        {
+          "bn": "দেখে",
+          "tr": "dekhe",
+          "en": "having seen"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "এখনকার",
+          "tr": "ekhonkar",
+          "en": "of today"
+        },
+        {
+          "bn": "স্মৃতি",
+          "tr": "sriti",
+          "en": "memory"
+        },
+        {
+          "bn": "গ্রামের",
+          "tr": "gramer",
+          "en": "of the village"
+        },
+        {
+          "bn": "দিনগুলো",
+          "tr": "dingulo",
+          "en": "the days"
+        }
+      ],
+      "recycle": true
+    }
+  ]
+}

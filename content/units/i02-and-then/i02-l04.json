@@ -1,0 +1,590 @@
+{
+  "id": "i02-l04",
+  "unit": "i02-and-then",
+  "title": "Without eating",
+  "status": "draft",
+  "tip": "**না** + participle = **without** doing: **না খেয়ে** 'without eating', **না বলে** 'without telling', **না জেনে** 'without knowing'.\n\n**সে না খেয়ে স্কুলে গেল** 'He went to school without eating.'\n\nHere **না** comes **before** the participle. With a normal verb it comes after: **খাই না** 'I don't eat'. Never say খেয়ে না for 'without eating'.\n\n**নিয়ে** 'taking (along)': **ছাতা নিয়ে বাইরে গেলাম** 'I went out with an umbrella.'\n\n**চলে গেলাম** 'I left' (lit. went away); **চলে গেল** 'he left'.",
+  "vocab": [
+    {
+      "id": "na-kheye",
+      "bn": "না খেয়ে",
+      "tr": "na kheye",
+      "en": "without eating",
+      "notes": "না comes before the participle: never খেয়ে না."
+    },
+    {
+      "id": "na-bole",
+      "bn": "না বলে",
+      "tr": "na bole",
+      "en": "without telling"
+    },
+    {
+      "id": "jene",
+      "bn": "জেনে",
+      "tr": "jene",
+      "en": "knowing"
+    },
+    {
+      "id": "na-jene",
+      "bn": "না জেনে",
+      "tr": "na jene",
+      "en": "without knowing"
+    },
+    {
+      "id": "ghumiye",
+      "bn": "ঘুমিয়ে",
+      "tr": "ghumiye",
+      "en": "having slept"
+    },
+    {
+      "id": "shararat",
+      "bn": "সারারাত",
+      "tr": "shararat",
+      "en": "all night"
+    },
+    {
+      "id": "chole-gelam",
+      "bn": "চলে গেলাম",
+      "tr": "chole gelam",
+      "en": "I left",
+      "notes": "Compound verb, taught as a chunk; compare চলে গেল 'he left'."
+    },
+    {
+      "id": "niye",
+      "bn": "নিয়ে",
+      "tr": "niye",
+      "en": "having taken",
+      "notes": "Participle of নেওয়া: ছাতা নিয়ে 'taking an umbrella'. Later also 'about'."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "শুনে খুশি হলাম।",
+        "tr": "shune khushi holam.",
+        "en": "I was glad to hear it."
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "শুনে অবাক হলাম।",
+        "শুনে ভয় পেলাম।",
+        "শুনে খুশি হলাম।",
+        "শুনে কষ্ট পেলাম।"
+      ],
+      "answer": 2,
+      "why": "Glad = **খুশি হলাম**; scared = ভয় পেলাম; surprised = অবাক হলাম; hurt = কষ্ট পেলাম."
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "রেগে",
+        "tr": "rege",
+        "en": "angrily"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "চুপ করে",
+        "হেসে",
+        "মন দিয়ে",
+        "রেগে"
+      ],
+      "answer": 3,
+      "why": "**রেগে** 'angrily'; **হেসে** 'laughing'."
+    },
+    {
+      "id": "e03",
+      "type": "reading",
+      "title": "Breakfast",
+      "lines": [
+        {
+          "speaker": "Mum",
+          "bn": "রাফি, তুমি কি নাস্তা খেয়েছো?",
+          "tr": "rafi, tumi ki nashta kheyechho?",
+          "en": "Rafi, have you had breakfast?"
+        },
+        {
+          "speaker": "Rafi",
+          "bn": "না, আম্মু। আজ আমি না খেয়ে যাব। দেরি হচ্ছে।",
+          "tr": "na, ammu. aj ami na kheye jabo. deri hochchhe.",
+          "en": "No, Mum. Today I'll go without eating. I'm late."
+        },
+        {
+          "speaker": "Mum",
+          "bn": "না খেয়ে যাবে না!",
+          "tr": "na kheye jabe na!",
+          "en": "You're not going without eating!"
+        },
+        {
+          "speaker": "Rafi",
+          "bn": "আব্বু কোথায়?",
+          "tr": "abbu kothay?",
+          "en": "Where's Dad?"
+        },
+        {
+          "speaker": "Mum",
+          "bn": "উনি সকালে আমাকে না বলে অফিসে গেলেন।",
+          "tr": "uni shokale amake na bole ofise gelen.",
+          "en": "He went to the office this morning without telling me."
+        },
+        {
+          "speaker": "Rafi",
+          "bn": "আচ্ছা, আমি একটা রুটি নিয়ে যাচ্ছি।",
+          "tr": "achchha, ami ekta ruti niye jachchhi.",
+          "en": "OK, I'm taking a roti with me."
+        }
+      ],
+      "question": "Why does Rafi want to skip breakfast?",
+      "options": [
+        "He ate at a friend's",
+        "He isn't hungry",
+        "He is late"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e04",
+      "type": "reading",
+      "title": "Breakfast",
+      "lines": [
+        {
+          "speaker": "Mum",
+          "bn": "রাফি, তুমি কি নাস্তা খেয়েছো?",
+          "tr": "rafi, tumi ki nashta kheyechho?",
+          "en": "Rafi, have you had breakfast?"
+        },
+        {
+          "speaker": "Rafi",
+          "bn": "না, আম্মু। আজ আমি না খেয়ে যাব। দেরি হচ্ছে।",
+          "tr": "na, ammu. aj ami na kheye jabo. deri hochchhe.",
+          "en": "No, Mum. Today I'll go without eating. I'm late."
+        },
+        {
+          "speaker": "Mum",
+          "bn": "না খেয়ে যাবে না!",
+          "tr": "na kheye jabe na!",
+          "en": "You're not going without eating!"
+        },
+        {
+          "speaker": "Rafi",
+          "bn": "আব্বু কোথায়?",
+          "tr": "abbu kothay?",
+          "en": "Where's Dad?"
+        },
+        {
+          "speaker": "Mum",
+          "bn": "উনি সকালে আমাকে না বলে অফিসে গেলেন।",
+          "tr": "uni shokale amake na bole ofise gelen.",
+          "en": "He went to the office this morning without telling me."
+        },
+        {
+          "speaker": "Rafi",
+          "bn": "আচ্ছা, আমি একটা রুটি নিয়ে যাচ্ছি।",
+          "tr": "achchha, ami ekta ruti niye jachchhi.",
+          "en": "OK, I'm taking a roti with me."
+        }
+      ],
+      "question": "What did Rafi's father do this morning?",
+      "options": [
+        "He went to the office without telling Mum",
+        "He made breakfast",
+        "He is still asleep"
+      ],
+      "answer": 0,
+      "why": "**না বলে অফিসে গেলেন** 'went to the office without telling (me)'."
+    },
+    {
+      "id": "e05",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "সে না খেয়ে স্কুলে গেল।",
+        "tr": "she na kheye skule gelo.",
+        "en": "He went to school without eating."
+      },
+      "options": [
+        "He didn't go to school.",
+        "He ate and then went to school.",
+        "He went to school without eating.",
+        "He eats at school."
+      ],
+      "answer": 2,
+      "why": "**না খেয়ে** 'without eating'."
+    },
+    {
+      "id": "e06",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "আমি ছাতা নিয়ে বাইরে গেলাম।",
+        "tr": "ami chhata niye baire gelam.",
+        "en": "I took an umbrella and went out."
+      },
+      "options": [
+        "I bought an umbrella outside.",
+        "I left the umbrella outside.",
+        "I went out without an umbrella.",
+        "I took an umbrella and went out."
+      ],
+      "answer": 3,
+      "why": "**নিয়ে** 'taking (along)'."
+    },
+    {
+      "id": "e07",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "আমি না জেনে ভুল কথা বললাম।",
+        "tr": "ami na jene bhul kotha bollam.",
+        "en": "I said the wrong thing without knowing."
+      },
+      "options": [
+        "I didn't say anything wrong.",
+        "I said the wrong thing without knowing.",
+        "I knew it and said nothing.",
+        "I asked a question without knowing."
+      ],
+      "answer": 1,
+      "why": "**না জেনে** 'without knowing'."
+    },
+    {
+      "id": "e08",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "জেনে",
+          "tr": "jene",
+          "en": "knowing"
+        },
+        {
+          "bn": "না জেনে",
+          "tr": "na jene",
+          "en": "without knowing"
+        },
+        {
+          "bn": "ঘুমিয়ে",
+          "tr": "ghumiye",
+          "en": "having slept"
+        },
+        {
+          "bn": "সারারাত",
+          "tr": "shararat",
+          "en": "all night"
+        },
+        {
+          "bn": "চলে গেলাম",
+          "tr": "chole gelam",
+          "en": "I left"
+        }
+      ]
+    },
+    {
+      "id": "e09",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "তুমি আমাকে না বলে বাজারে যাবে না।",
+        "tr": "tumi amake na bole bajare jabe na.",
+        "en": "Don't go to the market without telling me (familiar)."
+      },
+      "blank": "না বলে",
+      "options": [
+        "বললাম",
+        "বলো",
+        "না বলে",
+        "বলে না"
+      ],
+      "answer": 2,
+      "why": "'Without telling' = **না বলে**: **না** comes before the participle."
+    },
+    {
+      "id": "e10",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আমি খুব ক্লান্ত ছিলাম, তাই তাড়াতাড়ি বাসায় চলে গেলাম।",
+        "tr": "ami khub klanto chhilam, tai taratari bashay chole gelam.",
+        "en": "I was very tired, so I went home early."
+      },
+      "blank": "চলে গেলাম",
+      "options": [
+        "চলে গেল",
+        "চলে গেলেন",
+        "চলে গেলাম",
+        "যাব"
+      ],
+      "answer": 2,
+      "why": "আমি → **গেলাম**: **চলে গেলাম** 'I left'."
+    },
+    {
+      "id": "e11",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "কাল সারারাত বৃষ্টি হচ্ছিল।",
+        "tr": "kal shararat brishti hochchhilo.",
+        "en": "It was raining all night last night."
+      },
+      "options": [
+        "It isn't raining tonight.",
+        "It rained all day yesterday.",
+        "It will rain all night tomorrow.",
+        "It was raining all night last night."
+      ],
+      "answer": 3,
+      "why": "**সারারাত** 'all night' + past continuous **হচ্ছিল**."
+    },
+    {
+      "id": "e12",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আপনি না খেয়ে যাবেন না।",
+        "tr": "apni na kheye jaben na.",
+        "en": "Please don't leave without eating (polite)."
+      },
+      "blank": "না খেয়ে",
+      "accepted": [
+        "না খেয়ে",
+        "na kheye",
+        "na kheie"
+      ],
+      "why": "'Without eating' = **না খেয়ে**; the second **না** negates **যাবেন**."
+    },
+    {
+      "id": "e13",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "না, আমি না খেয়ে যাব না।",
+        "tr": "na, ami na kheye jabo na.",
+        "en": "No, I won't go without eating."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "না",
+        "না",
+        "যাব",
+        "না",
+        "খাব",
+        "আমি",
+        "যাই",
+        "খেয়ে",
+        "গিয়ে"
+      ],
+      "answer": [
+        "না",
+        "আমি",
+        "না",
+        "খেয়ে",
+        "যাব",
+        "না"
+      ],
+      "alt": [
+        [
+          "না",
+          "না",
+          "খেয়ে",
+          "যাব",
+          "না"
+        ]
+      ],
+      "why": "**না খেয়ে** 'without eating' + **যাব না** 'won't go'."
+    },
+    {
+      "id": "e14",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "দুপুরে একটু ঘুমিয়ে আমি আবার কাজ করলাম।",
+        "tr": "dupure ektu ghumiye ami abar kaj korlam.",
+        "en": "I slept a little at noon and then worked again."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "আবার",
+        "আমি",
+        "করলাম",
+        "রাতে",
+        "একটু",
+        "দুপুরে",
+        "করি",
+        "ঘুমালাম",
+        "ঘুমিয়ে",
+        "কাজ"
+      ],
+      "answer": [
+        "দুপুরে",
+        "একটু",
+        "ঘুমিয়ে",
+        "আমি",
+        "আবার",
+        "কাজ",
+        "করলাম"
+      ],
+      "alt": [
+        [
+          "আমি",
+          "দুপুরে",
+          "একটু",
+          "ঘুমিয়ে",
+          "আবার",
+          "কাজ",
+          "করলাম"
+        ],
+        [
+          "দুপুরে",
+          "একটু",
+          "ঘুমিয়ে",
+          "আবার",
+          "কাজ",
+          "করলাম"
+        ]
+      ],
+      "why": "First action as a participle (**ঘুমিয়ে**), last one finite (**করলাম**)."
+    },
+    {
+      "id": "e15",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "সব জেনে আমি চুপ করে ছিলাম।",
+        "tr": "shob jene ami chup kore chhilam.",
+        "en": "Knowing everything, I stayed quiet."
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "সব জেনে আমি চুপ করে ছিলাম",
+        "আমি সব জেনে চুপ করে ছিলাম",
+        "সব জেনে চুপ করে ছিলাম",
+        "সব জেনে আমি চুপ ছিলাম",
+        "shob jene ami chup kore chhilam",
+        "ami shob jene chup kore chhilam",
+        "shob jene chup kore chhilam",
+        "shob jene ami chup chhilam"
+      ],
+      "why": "**জেনে** 'knowing'; **চুপ করে ছিলাম** 'I stayed quiet'."
+    },
+    {
+      "id": "e16",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আমি না খেয়ে অফিসে গেলাম।",
+        "tr": "ami na kheye ofise gelam.",
+        "en": "I went to the office without eating."
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "আমি না খেয়ে অফিসে গেলাম",
+        "না খেয়ে আমি অফিসে গেলাম",
+        "না খেয়ে অফিসে গেলাম",
+        "আমি না খেয়ে অফিসে চলে গেলাম",
+        "না খেয়ে অফিসে চলে গেলাম",
+        "আমি নাস্তা না খেয়ে অফিসে গেলাম",
+        "ami na kheye ofise gelam",
+        "na kheye ami ofise gelam",
+        "na kheye ofise gelam",
+        "ami na kheye ofise chole gelam",
+        "na kheye ofise chole gelam",
+        "ami nashta na kheye ofise gelam"
+      ],
+      "why": "**না খেয়ে** before the verb **গেলাম**."
+    },
+    {
+      "id": "r01",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "ওর কথা শুনে আমি বিরক্ত হলাম।",
+        "tr": "or kotha shune ami birokto holam.",
+        "en": "I got annoyed hearing what he said."
+      },
+      "options": [
+        "Of course I'll come.",
+        "I got annoyed hearing what he said.",
+        "Yes, I have eaten.",
+        "Is today Tuesday?"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "খবর",
+        "tr": "khobor",
+        "en": "news"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "দাওয়াত",
+        "শুক্রবার",
+        "খবর",
+        "শাড়ি"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "খবরটা শুনে সবাই অবাক হয়ে গেল।",
+        "tr": "khoborta shune shobai obak hoye gelo.",
+        "en": "Everyone was amazed to hear the news."
+      },
+      "blank": "খবরটা",
+      "accepted": [
+        "খবরটা",
+        "khoborta"
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "সামনে",
+          "tr": "shamne",
+          "en": "in front of"
+        },
+        {
+          "bn": "শোনে",
+          "tr": "shone",
+          "en": "listens"
+        },
+        {
+          "bn": "করতি",
+          "tr": "korti",
+          "en": "you used to do (intimate)"
+        },
+        {
+          "bn": "পৌনে",
+          "tr": "poune",
+          "en": "quarter to"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "পড়ব",
+          "tr": "porbo",
+          "en": "I will read"
+        },
+        {
+          "bn": "করবেন",
+          "tr": "korben",
+          "en": "you (polite) / he, she (polite) will do"
+        },
+        {
+          "bn": "পারবি",
+          "tr": "parbi",
+          "en": "you (intimate) will be able to"
+        },
+        {
+          "bn": "চৌদ্দ",
+          "tr": "choddo",
+          "en": "fourteen"
+        }
+      ],
+      "recycle": true
+    }
+  ]
+}

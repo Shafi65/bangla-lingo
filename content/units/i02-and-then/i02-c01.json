@@ -1,0 +1,582 @@
+{
+  "id": "i02-c01",
+  "unit": "i02-and-then",
+  "title": "Checkpoint: And then…",
+  "status": "draft",
+  "tip": "Show what you can do:\n\n- follow one story told twice: to a friend (**তুই**) and to a boss (**আপনি**)\n- retell steps with participles: **নেমে হেঁটে গেলাম**\n- say how you felt: **শুনে খুশি হলাম**, **দেখে অবাক হলাম**\n- order events: **প্রথমে … তারপর … শেষমেশ**\n- add a tag: **…, তাই না?**",
+  "vocab": [],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "reading",
+      "title": "Nadia tells a friend",
+      "lines": [
+        {
+          "speaker": "Nadia",
+          "bn": "দোস্ত, শোন! আজ সকালে একটা ঘটনা ঘটল।",
+          "tr": "dost, shon! aj shokale ekta ghotona ghotlo.",
+          "en": "Mate, listen! Something happened this morning."
+        },
+        {
+          "speaker": "Friend",
+          "bn": "কী হয়েছে? বল!",
+          "tr": "ki hoyechhe? bol!",
+          "en": "What happened? Tell me!"
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "বাসে উঠে দেখলাম, অনেক জ্যাম।",
+          "tr": "base uthe dekhlam, onek jyam.",
+          "en": "I got on the bus and saw there was a huge jam."
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "কিছুক্ষণ অপেক্ষা করে আমি বাস থেকে নেমে হেঁটে গেলাম।",
+          "tr": "kichhukkhon opekkha kore ami bas theke neme he~te gelam.",
+          "en": "I waited a while, then got off the bus and walked."
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "তখনই বৃষ্টি এল, আমি ভিজে গেলাম!",
+          "tr": "tokhoni brishti elo, ami bhije gelam!",
+          "en": "Right then the rain came and I got soaked!"
+        },
+        {
+          "speaker": "Friend",
+          "bn": "আরে! তুই তো খুব ক্লান্ত, তাই না?",
+          "tr": "are! tui to khub klanto, tai na?",
+          "en": "Oh no! You must be really tired, right?"
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "হ্যাঁ, আর অফিসে গিয়ে দেখলাম, ফোনটা নেই!",
+          "tr": "hya~, ar ofise giye dekhlam, fonta nei!",
+          "en": "Yes, and when I got to the office, my phone was gone!"
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "যাই হোক, শেষমেশ ফোনটা খুঁজে পেলাম।",
+          "tr": "jai hok, sheshmesh fonta khu~je pelam.",
+          "en": "Anyway, in the end I found the phone."
+        }
+      ],
+      "question": "Why did Nadia get off the bus?",
+      "options": [
+        "Her phone was missing",
+        "There was a lot of traffic",
+        "It started raining"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e02",
+      "type": "reading",
+      "title": "Nadia tells a friend",
+      "lines": [
+        {
+          "speaker": "Nadia",
+          "bn": "দোস্ত, শোন! আজ সকালে একটা ঘটনা ঘটল।",
+          "tr": "dost, shon! aj shokale ekta ghotona ghotlo.",
+          "en": "Mate, listen! Something happened this morning."
+        },
+        {
+          "speaker": "Friend",
+          "bn": "কী হয়েছে? বল!",
+          "tr": "ki hoyechhe? bol!",
+          "en": "What happened? Tell me!"
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "বাসে উঠে দেখলাম, অনেক জ্যাম।",
+          "tr": "base uthe dekhlam, onek jyam.",
+          "en": "I got on the bus and saw there was a huge jam."
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "কিছুক্ষণ অপেক্ষা করে আমি বাস থেকে নেমে হেঁটে গেলাম।",
+          "tr": "kichhukkhon opekkha kore ami bas theke neme he~te gelam.",
+          "en": "I waited a while, then got off the bus and walked."
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "তখনই বৃষ্টি এল, আমি ভিজে গেলাম!",
+          "tr": "tokhoni brishti elo, ami bhije gelam!",
+          "en": "Right then the rain came and I got soaked!"
+        },
+        {
+          "speaker": "Friend",
+          "bn": "আরে! তুই তো খুব ক্লান্ত, তাই না?",
+          "tr": "are! tui to khub klanto, tai na?",
+          "en": "Oh no! You must be really tired, right?"
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "হ্যাঁ, আর অফিসে গিয়ে দেখলাম, ফোনটা নেই!",
+          "tr": "hya~, ar ofise giye dekhlam, fonta nei!",
+          "en": "Yes, and when I got to the office, my phone was gone!"
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "যাই হোক, শেষমেশ ফোনটা খুঁজে পেলাম।",
+          "tr": "jai hok, sheshmesh fonta khu~je pelam.",
+          "en": "Anyway, in the end I found the phone."
+        }
+      ],
+      "question": "What happened when she got to the office?",
+      "options": [
+        "She met Rafi",
+        "She found her umbrella",
+        "She saw her phone was missing"
+      ],
+      "answer": 2,
+      "why": "**অফিসে গিয়ে দেখলাম** 'when I got to the office, I saw'."
+    },
+    {
+      "id": "e03",
+      "type": "reading",
+      "title": "Nadia tells her boss",
+      "lines": [
+        {
+          "speaker": "Nadia",
+          "bn": "আমার আজ দেরি হল, দুঃখিত।",
+          "tr": "amar aj deri holo, dukkhito.",
+          "en": "I'm sorry I was late today."
+        },
+        {
+          "speaker": "Boss",
+          "bn": "কোনো সমস্যা হয়েছে?",
+          "tr": "kono shomossha hoyechhe?",
+          "en": "Was there a problem?"
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "জি, অনেক জ্যাম ছিল। তাই আমি বাস থেকে নেমে হেঁটে এলাম।",
+          "tr": "ji, onek jyam chhilo. tai ami bas theke neme he~te elam.",
+          "en": "Yes, there was a lot of traffic. So I got off the bus and walked."
+        },
+        {
+          "speaker": "Boss",
+          "bn": "আপনি তো ভিজে গিয়েছেন!",
+          "tr": "apni to bhije giyechhen!",
+          "en": "You're soaked!"
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "জি, কিন্তু আমি ঠিক আছি।",
+          "tr": "ji, kintu ami thik achhi.",
+          "en": "Yes, but I'm fine."
+        },
+        {
+          "speaker": "Boss",
+          "bn": "ঠিক আছে, আগে চা খান, তারপর কাজ করবেন।",
+          "tr": "thik achhe, age cha khan, tarpor kaj korben.",
+          "en": "All right, have some tea first, then you can work."
+        }
+      ],
+      "question": "What does the boss tell Nadia to do first?",
+      "options": [
+        "Go home and change",
+        "Have some tea",
+        "Start work at once"
+      ],
+      "answer": 1,
+      "why": "**আগে চা খান, তারপর…** 'first have tea, then…'."
+    },
+    {
+      "id": "e04",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "কিছুক্ষণ অপেক্ষা করে আমি বাস থেকে নেমে হেঁটে গেলাম।",
+        "tr": "kichhukkhon opekkha kore ami bas theke neme he~te gelam.",
+        "en": "I waited a while, then got off the bus and walked."
+      },
+      "options": [
+        "I got on the bus after waiting a while.",
+        "I waited a while, then got off the bus and walked.",
+        "I didn't wait; I took a rickshaw.",
+        "I walked to the bus and waited."
+      ],
+      "answer": 1,
+      "why": "Chain: **অপেক্ষা করে → নেমে → হেঁটে → গেলাম**."
+    },
+    {
+      "id": "e05",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "আগে চা খান, তারপর কাজ করবেন।",
+        "tr": "age cha khan, tarpor kaj korben.",
+        "en": "Have some tea first, then you can work (polite)."
+      },
+      "options": [
+        "Don't drink tea at work.",
+        "Have some tea first, then you can work (polite).",
+        "You had tea before work.",
+        "Work first, then have tea."
+      ],
+      "answer": 1,
+      "why": "**আগে … তারপর** 'first … then'."
+    },
+    {
+      "id": "e06",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "তোমার কথা শুনে আমি খুব খুশি হলাম।",
+        "tr": "tomar kotha shune ami khub khushi holam.",
+        "en": "I was very glad to hear what you said."
+      },
+      "blank": "শুনে",
+      "options": [
+        "শুনলাম",
+        "শুনি",
+        "শুনে",
+        "শুনবে"
+      ],
+      "answer": 2,
+      "why": "Cause as a participle: **শুনে খুশি হলাম**."
+    },
+    {
+      "id": "e07",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "সে কিছু না বলে চলে গেল।",
+        "tr": "she kichhu na bole chole gelo.",
+        "en": "He left without saying anything."
+      },
+      "blank": "না বলে",
+      "options": [
+        "বলল না",
+        "বলে না",
+        "বলবে না",
+        "না বলে"
+      ],
+      "answer": 3,
+      "why": "'Without saying' = **না বলে**."
+    },
+    {
+      "id": "e08",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "প্রথমে আমি বাসায় ফোন করলাম, তারপর বাসে উঠলাম।",
+        "tr": "prothome ami bashay fon korlam, tarpor base uthlam.",
+        "en": "First I phoned home, then I got on the bus."
+      },
+      "blank": "তারপর",
+      "options": [
+        "যখন",
+        "তারপর",
+        "তখন",
+        "আগে"
+      ],
+      "answer": 1,
+      "why": "The next event: **তারপর**."
+    },
+    {
+      "id": "e09",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "বাসে খুব ভিড় ছিল, তাই না?",
+        "tr": "base khub bhir chhilo, tai na?",
+        "en": "The bus was very crowded, wasn't it?"
+      },
+      "blank": "তাই না",
+      "accepted": [
+        "তাই না",
+        "tai na",
+        "না"
+      ],
+      "why": "Tag: **…, তাই না?** (or the short **…, না?**)."
+    },
+    {
+      "id": "e10",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আমি বাস থেকে নেমে হেঁটে অফিসে গেলাম।",
+        "tr": "ami bas theke neme he~te ofise gelam.",
+        "en": "I got off the bus and walked to the office."
+      },
+      "blank": "নেমে",
+      "accepted": [
+        "নেমে",
+        "neme"
+      ],
+      "why": "Earlier step = participle: **নেমে** 'having got off'."
+    },
+    {
+      "id": "e11",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আমি নাস্তা খেয়ে অফিসে গেলাম।",
+        "tr": "ami nashta kheye ofise gelam.",
+        "en": "I had breakfast and then went to the office."
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "আমি নাস্তা খেয়ে অফিসে গেলাম",
+        "নাস্তা খেয়ে আমি অফিসে গেলাম",
+        "নাস্তা খেয়ে অফিসে গেলাম",
+        "আমি নাস্তা করে অফিসে গেলাম",
+        "নাস্তা করে অফিসে গেলাম",
+        "আমি নাস্তা খেয়ে অফিসে চলে গেলাম",
+        "ami nashta kheye ofise gelam",
+        "nashta kheye ami ofise gelam",
+        "nashta kheye ofise gelam",
+        "ami nashta kore ofise gelam",
+        "nashta kore ofise gelam",
+        "ami nashta kheye ofise chole gelam"
+      ],
+      "why": "**খেয়ে** (or **করে**), then past **গেলাম**."
+    },
+    {
+      "id": "e12",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আমি না খেয়ে চলে গেলাম।",
+        "tr": "ami na kheye chole gelam.",
+        "en": "I left without eating."
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "আমি না খেয়ে চলে গেলাম",
+        "না খেয়ে চলে গেলাম",
+        "আমি কিছু না খেয়ে চলে গেলাম",
+        "আমি না খেয়ে গেলাম",
+        "ami na kheye chole gelam",
+        "na kheye chole gelam",
+        "ami kichhu na kheye chole gelam",
+        "ami na kheye gelam"
+      ],
+      "why": "**না খেয়ে** + **চলে গেলাম**."
+    },
+    {
+      "id": "e13",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "ভিড় দেখে আমি অবাক হলাম।",
+        "tr": "bhir dekhe ami obak holam.",
+        "en": "I was surprised to see the crowd."
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "ভিড় দেখে আমি অবাক হলাম",
+        "আমি ভিড় দেখে অবাক হলাম",
+        "ভিড় দেখে অবাক হলাম",
+        "এত ভিড় দেখে আমি অবাক হলাম",
+        "bhir dekhe ami obak holam",
+        "ami bhir dekhe obak holam",
+        "bhir dekhe obak holam",
+        "eto bhir dekhe ami obak holam"
+      ],
+      "why": "**দেখে অবাক হলাম** 'was surprised to see'."
+    },
+    {
+      "id": "e14",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "যাই হোক, শেষমেশ আমি ফোনটা খুঁজে পেলাম।",
+        "tr": "jai hok, sheshmesh ami fonta khu~je pelam.",
+        "en": "Anyway, in the end I found the phone."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "পেলাম",
+        "শেষমেশ",
+        "আমি",
+        "নেমে",
+        "ফোনটা",
+        "হোক",
+        "যাই",
+        "খুঁজে",
+        "দেখলাম",
+        "আগে"
+      ],
+      "answer": [
+        "যাই",
+        "হোক",
+        "শেষমেশ",
+        "আমি",
+        "ফোনটা",
+        "খুঁজে",
+        "পেলাম"
+      ],
+      "alt": [
+        [
+          "যাই",
+          "হোক",
+          "আমি",
+          "শেষমেশ",
+          "ফোনটা",
+          "খুঁজে",
+          "পেলাম"
+        ],
+        [
+          "যাই",
+          "হোক",
+          "শেষমেশ",
+          "ফোনটা",
+          "খুঁজে",
+          "পেলাম"
+        ]
+      ],
+      "why": "**যাই হোক** 'anyway', **শেষমেশ** 'in the end'."
+    },
+    {
+      "id": "e15",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আজ নাকি অনেক জ্যাম।",
+        "tr": "aj naki onek jyam.",
+        "en": "Apparently there is a lot of traffic today."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "আজ",
+        "না",
+        "অনেক",
+        "জ্যাম",
+        "নাকি",
+        "তাই",
+        "তো"
+      ],
+      "answer": [
+        "আজ",
+        "নাকি",
+        "অনেক",
+        "জ্যাম"
+      ],
+      "alt": [
+        [
+          "নাকি",
+          "আজ",
+          "অনেক",
+          "জ্যাম"
+        ]
+      ],
+      "why": "Hearsay **নাকি**; **…, তাই না?** would ask for agreement instead."
+    },
+    {
+      "id": "e16",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আপনি তো ভিজে গিয়েছেন!",
+        "tr": "apni to bhije giyechhen!",
+        "en": "You (polite) are soaked!"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "আপনি ভিজে যাবেন।",
+        "আপনি তো ভিজে গিয়েছেন!",
+        "আমি তো ভিজে গেলাম!",
+        "আপনি ছাতা নিয়ে যাবেন।"
+      ],
+      "answer": 1,
+      "why": "Polite perfect **গিয়েছেন**, with **তো** for surprise."
+    },
+    {
+      "id": "r01",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "তখন ফোন ছিল না, তাই আমরা চিঠি লিখতাম।",
+        "tr": "tokhon fon chhilo na, tai amra chithi likhtam.",
+        "en": "There were no phones then, so we used to write letters."
+      },
+      "blank": "লিখতাম",
+      "options": [
+        "জেনে",
+        "লিখতাম",
+        "বলেন",
+        "করত"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "আমি পড়ে গেছি।",
+        "tr": "ami pore gechhi.",
+        "en": "I fell down."
+      },
+      "options": [
+        "I went to the market and bought fish.",
+        "It rains a lot in the monsoon.",
+        "I fell down.",
+        "Grandma, what would you like?"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ভাইবোন",
+        "tr": "bhaibon",
+        "en": "siblings"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "অ্যাম্বুলেন্স",
+        "ব্যাগ",
+        "ভাইবোন",
+        "স্ত্রী"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "আসে",
+          "tr": "ashe",
+          "en": "comes"
+        },
+        {
+          "bn": "ও",
+          "tr": "o",
+          "en": "he/she (spoken)"
+        },
+        {
+          "bn": "দুইজন",
+          "tr": "duijon",
+          "en": "two (people)"
+        },
+        {
+          "bn": "ফুটবল",
+          "tr": "futbol",
+          "en": "football"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "বেড়াতে",
+          "tr": "berate",
+          "en": "to go out (on a visit or trip)"
+        },
+        {
+          "bn": "যাও",
+          "tr": "jao",
+          "en": "you go (familiar)"
+        },
+        {
+          "bn": "পর্যন্ত",
+          "tr": "porjonto",
+          "en": "to"
+        },
+        {
+          "bn": "কয়টায়",
+          "tr": "koytay",
+          "en": "at what time"
+        }
+      ],
+      "recycle": true
+    }
+  ]
+}

@@ -505,37 +505,35 @@
     },
     {
       "id": "r01",
-      "type": "fill_blank",
-      "sentence": {
-        "bn": "তখন ফোন ছিল না, তাই আমরা চিঠি লিখতাম।",
-        "tr": "tokhon fon chhilo na, tai amra chithi likhtam.",
-        "en": "There were no phones then, so we used to write letters."
+      "type": "select_translation",
+      "prompt": {
+        "bn": "লিখতাম",
+        "tr": "likhtam",
+        "en": "I used to write"
       },
-      "blank": "লিখতাম",
+      "direction": "en_to_bn",
       "options": [
-        "খেয়েছে",
-        "লিখতাম",
+        "এসেছো",
         "বলি",
-        "পারবে"
+        "পারব",
+        "লিখতাম"
       ],
-      "answer": 1,
+      "answer": 3,
       "recycle": true
     },
     {
       "id": "r02",
-      "type": "listen_meaning",
-      "audio": {
+      "type": "fill_blank",
+      "sentence": {
         "bn": "তখনকার স্কুল ছোট ছিল, এখনকার স্কুল অনেক বড়।",
         "tr": "tokhonkar skul chhoto chhilo, ekhonkar skul onek boro.",
         "en": "Schools back then were small; schools today are much bigger."
       },
-      "options": [
-        "How much is this shirt?",
-        "Schools back then were small; schools today are much bigger.",
-        "Which way is the hotel, right or left?",
-        "This is twenty taka."
+      "blank": "এখনকার",
+      "accepted": [
+        "এখনকার",
+        "ekhonkar"
       ],
-      "answer": 1,
       "recycle": true
     },
     {
@@ -546,14 +544,14 @@
         "tr": "dushtu",
         "en": "naughty"
       },
-      "direction": "en_to_bn",
+      "direction": "bn_to_en",
       "options": [
-        "হলুদ",
-        "দুষ্টু",
-        "খুশি",
-        "একই"
+        "cold; a cold",
+        "all right; OK",
+        "elderly",
+        "naughty"
       ],
-      "answer": 1,
+      "answer": 3,
       "recycle": true
     },
     {
@@ -561,24 +559,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "ওটার",
-          "tr": "otar",
-          "en": "of that"
+          "bn": "একই",
+          "tr": "eki",
+          "en": "the same"
         },
         {
-          "bn": "পড়েছে",
-          "tr": "porechhe",
-          "en": "has set in (cold, heat)"
+          "bn": "পৌঁছেছি",
+          "tr": "pou~chhechhi",
+          "en": "I have reached"
         },
         {
-          "bn": "উঠেছে",
-          "tr": "uthechhe",
-          "en": "has come out; has risen"
+          "bn": "আলাদা",
+          "tr": "alada",
+          "en": "different; separate"
         },
         {
-          "bn": "চেয়ে",
-          "tr": "cheye",
-          "en": "than"
+          "bn": "ওগুলো",
+          "tr": "ogulo",
+          "en": "those"
         }
       ],
       "recycle": true
@@ -588,24 +586,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "আগুন",
-          "tr": "agun",
-          "en": "fire"
+          "bn": "তেরো",
+          "tr": "tero",
+          "en": "thirteen"
         },
         {
-          "bn": "জরুরি",
-          "tr": "joruri",
-          "en": "urgent"
+          "bn": "ওঠেন",
+          "tr": "othen",
+          "en": "you get up (polite)"
         },
         {
-          "bn": "পুলিশ",
-          "tr": "pulish",
-          "en": "police"
+          "bn": "কতদূর",
+          "tr": "kotodur",
+          "en": "how far"
         },
         {
-          "bn": "অ্যাম্বুলেন্স",
-          "tr": "ambulens",
-          "en": "ambulance"
+          "bn": "সোজা",
+          "tr": "shoja",
+          "en": "straight"
         }
       ],
       "recycle": true

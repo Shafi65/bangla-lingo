@@ -1,0 +1,492 @@
+{
+  "id": "i00-l02",
+  "unit": "i00-bridge",
+  "title": "What did you do?",
+  "status": "draft",
+  "tip": "**Simple past**: one finished event. Stem + **-লাম / -লি / -লে / -ল / -লেন**.\n\nআমি **করলাম** · তুই **করলি** · তুমি **করলে** · সে **করল** · আপনি **করলেন**.\n\nCommon irregular stems: যাওয়া → **গেলাম, গেল, গেলেন**; আসা → **এলাম, এলে, এল**; খাওয়া → **খেলাম, খেল**; দেওয়া → **দিলাম, দিল**; পাওয়া → **পেলাম, পেল**.\n\n**কাল** with a past verb means 'yesterday'.\n\nThe usual 'didn't' is **-নি** (next lesson). **এল না** tells a story: **রাফি এল, কিন্তু নাদিয়া এল না** 'Rafi came, but Nadia didn't.'",
+  "vocab": [],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আসছি",
+        "tr": "ashchhi",
+        "en": "I am coming"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "আসছে",
+        "এলাম",
+        "আসছি",
+        "আসি"
+      ],
+      "answer": 2,
+      "why": "Continuous, আমি: **আসছি**."
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "থাকে",
+        "tr": "thake",
+        "en": "he/she lives"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "থাকি",
+        "থাকেন",
+        "থাকো",
+        "থাকে"
+      ],
+      "answer": 3,
+      "why": "সে → **থাকে**; polite উনি → থাকেন."
+    },
+    {
+      "id": "e03",
+      "type": "reading",
+      "title": "When did you get back?",
+      "lines": [
+        {
+          "speaker": "Rafi",
+          "bn": "তুমি কবে এলে?",
+          "tr": "tumi kobe ele?",
+          "en": "When did you get back?"
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "আমি গত সপ্তাহে এলাম।",
+          "tr": "ami goto shoptahe elam.",
+          "en": "I came last week."
+        },
+        {
+          "speaker": "Rafi",
+          "bn": "এক বছর কোথায় ছিলে?",
+          "tr": "ek bochhor kothay chhile?",
+          "en": "Where were you for a year?"
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "আমি সিলেটে ছিলাম। ওখানে আমি একটা নতুন কাজ শিখলাম।",
+          "tr": "ami shilete chhilam. okhane ami ekta notun kaj shikhlam.",
+          "en": "I was in Sylhet. I learned a new job there."
+        },
+        {
+          "speaker": "Rafi",
+          "bn": "আর তোমার ভাই? ও কী করল?",
+          "tr": "ar tomar bhai? o ki korlo?",
+          "en": "And your brother? What did he do?"
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "ও ঢাকায় একটা চাকরি পেল।",
+          "tr": "o dhakay ekta chakri pelo.",
+          "en": "He got a job in Dhaka."
+        }
+      ],
+      "question": "Where was Nadia for a year?",
+      "options": [
+        "In Dhaka",
+        "In Sylhet",
+        "Abroad"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e04",
+      "type": "reading",
+      "title": "When did you get back?",
+      "lines": [
+        {
+          "speaker": "Rafi",
+          "bn": "তুমি কবে এলে?",
+          "tr": "tumi kobe ele?",
+          "en": "When did you get back?"
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "আমি গত সপ্তাহে এলাম।",
+          "tr": "ami goto shoptahe elam.",
+          "en": "I came last week."
+        },
+        {
+          "speaker": "Rafi",
+          "bn": "এক বছর কোথায় ছিলে?",
+          "tr": "ek bochhor kothay chhile?",
+          "en": "Where were you for a year?"
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "আমি সিলেটে ছিলাম। ওখানে আমি একটা নতুন কাজ শিখলাম।",
+          "tr": "ami shilete chhilam. okhane ami ekta notun kaj shikhlam.",
+          "en": "I was in Sylhet. I learned a new job there."
+        },
+        {
+          "speaker": "Rafi",
+          "bn": "আর তোমার ভাই? ও কী করল?",
+          "tr": "ar tomar bhai? o ki korlo?",
+          "en": "And your brother? What did he do?"
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "ও ঢাকায় একটা চাকরি পেল।",
+          "tr": "o dhakay ekta chakri pelo.",
+          "en": "He got a job in Dhaka."
+        }
+      ],
+      "question": "What did Nadia's brother do?",
+      "options": [
+        "He learned a new language",
+        "He moved to Sylhet",
+        "He got a job in Dhaka"
+      ],
+      "answer": 2,
+      "why": "**পেল** 'he got' (simple past, সে)."
+    },
+    {
+      "id": "e05",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "আপনি কী কিনলেন?",
+        "tr": "apni ki kinlen?",
+        "en": "What did you (polite) buy?"
+      },
+      "options": [
+        "What are you buying?",
+        "Did you sell anything?",
+        "What did you (polite) buy?",
+        "What will you buy?"
+      ],
+      "answer": 2,
+      "why": "Polite past: **-লেন** (কিনলেন)."
+    },
+    {
+      "id": "e06",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "রাফি এল, কিন্তু নাদিয়া এল না।",
+        "tr": "rafi elo, kintu nadiya elo na.",
+        "en": "Rafi came, but Nadia didn't."
+      },
+      "options": [
+        "Rafi came, but Nadia didn't.",
+        "Rafi and Nadia both came.",
+        "Nadia came, but Rafi didn't.",
+        "Rafi will come, but Nadia won't."
+      ],
+      "answer": 0,
+      "why": "**এল** 'came'; **এল না** 'didn't come'."
+    },
+    {
+      "id": "e07",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "সে আমাকে একটা বই দিল।",
+        "tr": "she amake ekta boi dilo.",
+        "en": "He gave me a book."
+      },
+      "options": [
+        "He gave me a book.",
+        "He gave me a pen.",
+        "He will give me a book.",
+        "I gave him a book."
+      ],
+      "answer": 0,
+      "why": "**দিল** 'gave' (সে); **আমাকে** 'to me'."
+    },
+    {
+      "id": "e08",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "তুমি কাল কী করলে?",
+        "tr": "tumi kal ki korle?",
+        "en": "What did you (familiar) do yesterday?"
+      },
+      "blank": "করলে",
+      "options": [
+        "করলি",
+        "করলাম",
+        "করলে",
+        "করলেন"
+      ],
+      "answer": 2,
+      "why": "তুমি → **-লে**: **করলে**."
+    },
+    {
+      "id": "e09",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "তুই কী করলি?",
+        "tr": "tui ki korli?",
+        "en": "What did you (intimate) do?"
+      },
+      "blank": "করলি",
+      "options": [
+        "করল",
+        "করলাম",
+        "করলি",
+        "করলে"
+      ],
+      "answer": 2,
+      "why": "তুই → **-লি**: **করলি**."
+    },
+    {
+      "id": "e10",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "কাল আমি বাজারে গেলাম।",
+        "tr": "kal ami bajare gelam.",
+        "en": "Yesterday I went to the market."
+      },
+      "blank": "গেলাম",
+      "options": [
+        "যাই",
+        "যাব",
+        "গেল",
+        "গেলাম"
+      ],
+      "answer": 3,
+      "why": "**কাল** with a past verb means 'yesterday'; আমি → **গেলাম**."
+    },
+    {
+      "id": "e11",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আমি সব বুঝলাম।",
+        "tr": "ami shob bujhlam.",
+        "en": "I understood everything."
+      },
+      "blank": "বুঝলাম",
+      "accepted": [
+        "বুঝলাম",
+        "bujhlam"
+      ],
+      "why": "আমি + past: **বুঝলাম**."
+    },
+    {
+      "id": "e12",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমরা গতকাল একটা ছবি দেখলাম।",
+        "tr": "amra gotokal ekta chhobi dekhlam.",
+        "en": "We saw a film yesterday."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "দেখলাম",
+        "আমরা",
+        "একটা",
+        "গতকাল",
+        "দেখব",
+        "কাল",
+        "দেখি",
+        "ছবি"
+      ],
+      "answer": [
+        "আমরা",
+        "গতকাল",
+        "একটা",
+        "ছবি",
+        "দেখলাম"
+      ],
+      "alt": [
+        [
+          "গতকাল",
+          "আমরা",
+          "একটা",
+          "ছবি",
+          "দেখলাম"
+        ],
+        [
+          "আমরা",
+          "কাল",
+          "একটা",
+          "ছবি",
+          "দেখলাম"
+        ],
+        [
+          "কাল",
+          "আমরা",
+          "একটা",
+          "ছবি",
+          "দেখলাম"
+        ]
+      ],
+      "why": "**গতকাল** or **কাল** + past **দেখলাম**; কাল + দেখব would be 'tomorrow'."
+    },
+    {
+      "id": "e13",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "ও ঢাকায় একটা চাকরি পেল।",
+        "tr": "o dhakay ekta chakri pelo.",
+        "en": "He got a job in Dhaka."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "পেল",
+        "পেলাম",
+        "ও",
+        "ঢাকায়",
+        "একটা",
+        "পায়",
+        "চাকরি",
+        "ঢাকা"
+      ],
+      "answer": [
+        "ও",
+        "ঢাকায়",
+        "একটা",
+        "চাকরি",
+        "পেল"
+      ],
+      "why": "সে / ও → **পেল**."
+    },
+    {
+      "id": "e14",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "নানা আমাকে কিছু বললেন না।",
+        "tr": "nana amake kichhu bollen na.",
+        "en": "Grandfather didn't say anything to me."
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "নানা আমাকে কিছু বললেন না",
+        "দাদা আমাকে কিছু বললেন না",
+        "নানা আমাকে কিছুই বললেন না",
+        "নানা আমাকে কিছু বলেননি",
+        "দাদা আমাকে কিছু বলেননি",
+        "nana amake kichhu bollen na",
+        "dada amake kichhu bollen na"
+      ],
+      "why": "A grandfather takes the polite **বললেন**."
+    },
+    {
+      "id": "e15",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আমি খুব খুশি হলাম।",
+        "tr": "ami khub khushi holam.",
+        "en": "I was very happy."
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "আমি খুব খুশি হলাম",
+        "খুব খুশি হলাম",
+        "আমি খুব খুশি ছিলাম",
+        "ami khub khushi holam",
+        "khub khushi holam",
+        "ami khub khushi chhilam"
+      ],
+      "why": "**হলাম** 'I became': **খুশি হলাম** 'I was happy'."
+    },
+    {
+      "id": "r01",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "বাঁচাও!",
+        "tr": "ba~chao!",
+        "en": "Help!"
+      },
+      "blank": "বাঁচাও",
+      "options": [
+        "দিল",
+        "খাস",
+        "বাঁচাও",
+        "থাকো"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "পুলিশ ডাকুন!",
+        "tr": "pulish dakun!",
+        "en": "Call the police!"
+      },
+      "options": [
+        "May I take this?",
+        "I want two mangoes.",
+        "My aunt is a teacher.",
+        "Call the police!"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "অসুস্থ",
+        "tr": "oshustho",
+        "en": "ill"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "সহজ",
+        "গরম",
+        "পরিষ্কার",
+        "অসুস্থ"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "আসবেন",
+          "tr": "ashben",
+          "en": "please come"
+        },
+        {
+          "bn": "ব্যথা",
+          "tr": "byatha",
+          "en": "pain"
+        },
+        {
+          "bn": "খালি",
+          "tr": "khali",
+          "en": "empty; free"
+        },
+        {
+          "bn": "বিশ্রাম",
+          "tr": "bishram",
+          "en": "rest"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "সাড়ে",
+          "tr": "share",
+          "en": "half past"
+        },
+        {
+          "bn": "এগুলো",
+          "tr": "egulo",
+          "en": "these"
+        },
+        {
+          "bn": "আড়াই",
+          "tr": "arai",
+          "en": "two and a half"
+        },
+        {
+          "bn": "পারেনি",
+          "tr": "pareni",
+          "en": "he/she couldn't"
+        }
+      ],
+      "recycle": true
+    }
+  ]
+}

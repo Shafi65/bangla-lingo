@@ -1,0 +1,475 @@
+{
+  "id": "i00-l05",
+  "unit": "i00-bridge",
+  "title": "Me, you, them",
+  "status": "draft",
+  "tip": "**-কে** marks the person something is done to or given to: **আমাকে**, **তোমাকে**, **তাকে / ওকে**, **আপনাকে / ওনাকে**, **তোকে**.\n\n**-র** means 'of, 's': **আমার**, **তোমার**, **তার / ওর**, **আপনার / ওনার**; plural **আমাদের**, **তাদের / ওদের**, **আপনাদের**.\n\nQuestion words: **কে** who, **কাকে** whom, **কার** whose, **কী** what, **কোথায়** where, **কখন** when, **কেন** why, **কীভাবে** how, **কতক্ষণ** how long.\n\nJoin ideas with **আর / এবং** 'and', **কিন্তু / তবে** 'but', **তাই** 'so', **কারণ** 'because'.",
+  "vocab": [],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "পারব",
+        "tr": "parbo",
+        "en": "I will be able to"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "পারব",
+        "পারিনি",
+        "পারি",
+        "পারবে"
+      ],
+      "answer": 0,
+      "why": "Future, আমি: **পারব**."
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "উঠতে",
+        "tr": "uthte",
+        "en": "to get up"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "উঠলাম",
+        "উঠতে",
+        "উঠি",
+        "উঠবে"
+      ],
+      "answer": 1,
+      "why": "The **-তে** form: **উঠতে**."
+    },
+    {
+      "id": "e03",
+      "type": "reading",
+      "title": "Family in Sylhet",
+      "lines": [
+        {
+          "speaker": "Nadia",
+          "bn": "তোমার ভাই কোথায় থাকে?",
+          "tr": "tomar bhai kothay thake?",
+          "en": "Where does your brother live?"
+        },
+        {
+          "speaker": "Rafi",
+          "bn": "ও সিলেটে থাকে। ওর বউ ডাক্তার।",
+          "tr": "o shilete thake. or bou daktar.",
+          "en": "He lives in Sylhet. His wife is a doctor."
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "ওদের কি বাচ্চা আছে?",
+          "tr": "oder ki bachcha achhe?",
+          "en": "Do they have children?"
+        },
+        {
+          "speaker": "Rafi",
+          "bn": "হ্যাঁ, একটা মেয়ে। আমি ওকে খুব ভালোবাসি।",
+          "tr": "hya~, ekta meye. ami oke khub bhalobashi.",
+          "en": "Yes, a girl. I love her very much."
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "তুমি কীভাবে সিলেটে যাও?",
+          "tr": "tumi kibhabe shilete jao?",
+          "en": "How do you get to Sylhet?"
+        },
+        {
+          "speaker": "Rafi",
+          "bn": "ট্রেনে যাই, তবে অনেক সময় লাগে।",
+          "tr": "trene jai, tobe onek shomoy lage.",
+          "en": "By train, but it takes a long time."
+        }
+      ],
+      "question": "Where does Rafi's brother live?",
+      "options": [
+        "In Dhaka",
+        "Abroad",
+        "In Sylhet"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e04",
+      "type": "reading",
+      "title": "Family in Sylhet",
+      "lines": [
+        {
+          "speaker": "Nadia",
+          "bn": "তোমার ভাই কোথায় থাকে?",
+          "tr": "tomar bhai kothay thake?",
+          "en": "Where does your brother live?"
+        },
+        {
+          "speaker": "Rafi",
+          "bn": "ও সিলেটে থাকে। ওর বউ ডাক্তার।",
+          "tr": "o shilete thake. or bou daktar.",
+          "en": "He lives in Sylhet. His wife is a doctor."
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "ওদের কি বাচ্চা আছে?",
+          "tr": "oder ki bachcha achhe?",
+          "en": "Do they have children?"
+        },
+        {
+          "speaker": "Rafi",
+          "bn": "হ্যাঁ, একটা মেয়ে। আমি ওকে খুব ভালোবাসি।",
+          "tr": "hya~, ekta meye. ami oke khub bhalobashi.",
+          "en": "Yes, a girl. I love her very much."
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "তুমি কীভাবে সিলেটে যাও?",
+          "tr": "tumi kibhabe shilete jao?",
+          "en": "How do you get to Sylhet?"
+        },
+        {
+          "speaker": "Rafi",
+          "bn": "ট্রেনে যাই, তবে অনেক সময় লাগে।",
+          "tr": "trene jai, tobe onek shomoy lage.",
+          "en": "By train, but it takes a long time."
+        }
+      ],
+      "question": "How does Rafi travel to Sylhet?",
+      "options": [
+        "By car",
+        "By train",
+        "By bus"
+      ],
+      "answer": 1,
+      "why": "**তবে** 'but, however'."
+    },
+    {
+      "id": "e05",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "তুমি কাকে ফোন করছো?",
+        "tr": "tumi kake fon korchho?",
+        "en": "Who are you (familiar) calling?"
+      },
+      "options": [
+        "Who are you (familiar) calling?",
+        "Why are you calling?",
+        "When will you call?",
+        "Who is calling you?"
+      ],
+      "answer": 0,
+      "why": "**কাকে** 'whom'."
+    },
+    {
+      "id": "e06",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "আমি আজ আসতে পারব না, কারণ আমি অসুস্থ।",
+        "tr": "ami aj ashte parbo na, karon ami oshustho.",
+        "en": "I can't come today because I'm ill."
+      },
+      "options": [
+        "I can come today; I'm not ill.",
+        "I'm ill, but I'll come today.",
+        "I can't come today because I'm ill.",
+        "I came today although I'm ill."
+      ],
+      "answer": 2,
+      "why": "**কারণ** 'because' gives the reason."
+    },
+    {
+      "id": "e07",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "তোমার বাসা থেকে অফিসে যেতে কতক্ষণ লাগে?",
+        "tr": "tomar basha theke ofise jete kotokkhon lage?",
+        "en": "How long does it take to get from your home to the office?"
+      },
+      "options": [
+        "When do you leave home for the office?",
+        "Why do you go to the office from home?",
+        "How long does it take to get from your home to the office?",
+        "How far is your office?"
+      ],
+      "answer": 2,
+      "why": "**কতক্ষণ** 'how long'."
+    },
+    {
+      "id": "e08",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "ওনাকে একটু চা দাও।",
+        "tr": "onake ektu cha dao.",
+        "en": "Give her (polite) some tea."
+      },
+      "blank": "ওনাকে",
+      "options": [
+        "তিনি",
+        "উনি",
+        "ওনার",
+        "ওনাকে"
+      ],
+      "answer": 3,
+      "why": "The person you give to takes **-কে**: **ওনাকে**."
+    },
+    {
+      "id": "e09",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আপনার বাবার নাম কী?",
+        "tr": "apnar babar nam ki?",
+        "en": "What is your (polite) father's name?"
+      },
+      "blank": "আপনার",
+      "options": [
+        "আপনার",
+        "আপনাকে",
+        "আপনি",
+        "তোমার"
+      ],
+      "answer": 0,
+      "why": "'Your' (polite) = **আপনার**."
+    },
+    {
+      "id": "e10",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আমি ক্লান্ত, তাই বাসায় যাচ্ছি।",
+        "tr": "ami klanto, tai bashay jachchhi.",
+        "en": "I'm tired, so I'm going home."
+      },
+      "blank": "তাই",
+      "options": [
+        "কারণ",
+        "তাই",
+        "যদি",
+        "কিন্তু"
+      ],
+      "answer": 1,
+      "why": "Result: **তাই** 'so'; reason: **কারণ** 'because'."
+    },
+    {
+      "id": "e11",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "এটা কার ব্যাগ?",
+        "tr": "eta kar byag?",
+        "en": "Whose bag is this?"
+      },
+      "blank": "কার",
+      "accepted": [
+        "কার",
+        "kar"
+      ],
+      "why": "'Whose' = **কার**."
+    },
+    {
+      "id": "e12",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমি তাকে কিছু বলিনি।",
+        "tr": "ami take kichhu bolini.",
+        "en": "I didn't tell him anything."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "সে",
+        "বলি",
+        "তার",
+        "বলিনি",
+        "কিছু",
+        "তাকে",
+        "আমি"
+      ],
+      "answer": [
+        "আমি",
+        "তাকে",
+        "কিছু",
+        "বলিনি"
+      ],
+      "alt": [
+        [
+          "তাকে",
+          "আমি",
+          "কিছু",
+          "বলিনি"
+        ],
+        [
+          "তাকে",
+          "কিছু",
+          "বলিনি"
+        ]
+      ],
+      "why": "Object **তাকে**; **বলিনি** 'didn't tell'."
+    },
+    {
+      "id": "e13",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "ও সিলেটে থাকে। ওর বউ ডাক্তার।",
+        "tr": "o shilete thake. or bou daktar.",
+        "en": "He lives in Sylhet. His wife is a doctor."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "ও",
+        "বউ",
+        "ডাক্তার",
+        "ওকে",
+        "উনি",
+        "থাকি",
+        "থাকে",
+        "সিলেটে",
+        "ওর"
+      ],
+      "answer": [
+        "ও",
+        "সিলেটে",
+        "থাকে",
+        "ওর",
+        "বউ",
+        "ডাক্তার"
+      ],
+      "why": "'His' = **ওর**; 'he' = **ও**."
+    },
+    {
+      "id": "e14",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আপনাদের বাসা কোথায়?",
+        "tr": "apnader basha kothay?",
+        "en": "Where is your (polite, plural) home?"
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "আপনাদের বাসা কোথায়",
+        "আপনাদের বাড়ি কোথায়",
+        "apnader basha kothay",
+        "apnader bari kothay"
+      ],
+      "why": "Polite plural 'your' = **আপনাদের**."
+    },
+    {
+      "id": "e15",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আমি নিজে রান্না করি।",
+        "tr": "ami nije ranna kori.",
+        "en": "I do the cooking myself."
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "আমি নিজে রান্না করি",
+        "নিজে রান্না করি",
+        "আমি নিজেই রান্না করি",
+        "ami nije ranna kori",
+        "nije ranna kori"
+      ],
+      "why": "**নিজে** 'oneself'."
+    },
+    {
+      "id": "r01",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "একুশে ফেব্রুয়ারি আমরা শহীদ মিনারে যাই।",
+        "tr": "ekushe februari amra shohid minare jai.",
+        "en": "On 21 February we go to the Shaheed Minar."
+      },
+      "blank": "একুশে ফেব্রুয়ারি",
+      "accepted": [
+        "একুশে ফেব্রুয়ারি",
+        "ekushe februari"
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আগুন",
+        "tr": "agun",
+        "en": "fire"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "day (of the week)",
+        "fire",
+        "invitation",
+        "key"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "listen_select",
+      "audio": {
+        "bn": "পুলিশ",
+        "tr": "pulish",
+        "en": "police"
+      },
+      "options": [
+        "প্রতিমা",
+        "পুলিশ",
+        "রাগ",
+        "ছবি"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "দেখাতে",
+          "tr": "dekhate",
+          "en": "to show"
+        },
+        {
+          "bn": "নয়",
+          "tr": "noy",
+          "en": "nine"
+        },
+        {
+          "bn": "পৌনে",
+          "tr": "poune",
+          "en": "quarter to"
+        },
+        {
+          "bn": "তোমরা",
+          "tr": "tomra",
+          "en": "you (familiar, plural)"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "জরুরি",
+          "tr": "joruri",
+          "en": "urgent"
+        },
+        {
+          "bn": "দুইশ",
+          "tr": "duisho",
+          "en": "two hundred"
+        },
+        {
+          "bn": "দুর্ঘটনা",
+          "tr": "durghotona",
+          "en": "accident"
+        },
+        {
+          "bn": "ঘুমাই",
+          "tr": "ghumai",
+          "en": "I sleep"
+        }
+      ],
+      "recycle": true
+    }
+  ]
+}

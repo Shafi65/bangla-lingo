@@ -518,19 +518,17 @@
     },
     {
       "id": "r01",
-      "type": "listen_meaning",
-      "audio": {
+      "type": "fill_blank",
+      "sentence": {
         "bn": "নাদিয়া প্রতি শুক্রবার আমাদের বাসায় আসত।",
         "tr": "nadiya proti shukrobar amader bashay ashto.",
         "en": "Nadia used to come to our home every Friday."
       },
-      "options": [
-        "Nadia used to come to our home every Friday.",
-        "I don't have change.",
-        "Grandpa and Grandma are well.",
-        "I need a CNG."
+      "blank": "আসত",
+      "accepted": [
+        "আসত",
+        "ashto"
       ],
-      "answer": 0,
       "recycle": true
     },
     {
@@ -541,29 +539,31 @@
         "tr": "korto",
         "en": "he/she used to do"
       },
-      "direction": "en_to_bn",
+      "direction": "bn_to_en",
       "options": [
-        "করত",
-        "বলতে",
-        "পারল",
-        "এসেছিল"
+        "sit (polite)",
+        "he/she used to do",
+        "you used to do (familiar)",
+        "I have eaten"
       ],
-      "answer": 0,
+      "answer": 1,
       "recycle": true
     },
     {
       "id": "r03",
-      "type": "fill_blank",
-      "sentence": {
-        "bn": "আমি আজ রান্না করতে চাই না।",
-        "tr": "ami aj ranna korte chai na.",
-        "en": "I don't want to cook today."
+      "type": "listen_select",
+      "audio": {
+        "bn": "করতে",
+        "tr": "korte",
+        "en": "you used to do (familiar)"
       },
-      "blank": "করতে",
-      "accepted": [
+      "options": [
         "করতে",
-        "korte"
+        "উঠি",
+        "চল",
+        "ঘুমান"
       ],
+      "answer": 0,
       "recycle": true
     },
     {
@@ -571,14 +571,14 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "বলতেন",
-          "tr": "bolten",
-          "en": "you / he, she (polite) used to tell"
-        },
-        {
           "bn": "থাকতেন",
           "tr": "thakten",
           "en": "you / he, she (polite) used to live"
+        },
+        {
+          "bn": "বলতেন",
+          "tr": "bolten",
+          "en": "you / he, she (polite) used to tell"
         },
         {
           "bn": "করতি",
@@ -598,24 +598,24 @@
       "type": "match_pairs",
       "pairs": [
         {
-          "bn": "প্রায়",
-          "tr": "pray",
-          "en": "almost; about"
-        },
-        {
-          "bn": "সবার",
-          "tr": "shobar",
-          "en": "everyone's; of all"
-        },
-        {
           "bn": "গল্প",
           "tr": "golpo",
           "en": "story"
         },
         {
-          "bn": "কোনটা",
-          "tr": "konta",
-          "en": "which one"
+          "bn": "কুয়াশা",
+          "tr": "kuyasha",
+          "en": "fog"
+        },
+        {
+          "bn": "রোদ",
+          "tr": "rod",
+          "en": "sunshine"
+        },
+        {
+          "bn": "পাতলা",
+          "tr": "patla",
+          "en": "thin; slim"
         }
       ],
       "recycle": true

@@ -1,0 +1,466 @@
+{
+  "id": "i00-l03",
+  "unit": "i00-bridge",
+  "title": "Have you eaten?",
+  "status": "draft",
+  "tip": "**Present perfect**: done, and it matters now. Stem + **-েছি / -েছিস / -েছো / -েছে / -েছেন**: **খেয়েছি** 'I have eaten', **করেছে** 'he has done'.\n\n**-নি** means 'didn't' or 'haven't (yet)'. Add it to the present form: **খাই → খাইনি**, **যাই → যাইনি**, **আসে → আসেনি**, **করো → করোনি**.\n\n**এখনো** + -নি = 'not yet': **সে এখনো আসেনি**.\n\nQuestions use **কি**: **আপনি কি খেয়েছেন?**\n\nKeep -নি for the plain past and the perfect. The 'used to' and 'was doing' pasts (next unit) take **না**.",
+  "vocab": [],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "পেল",
+        "tr": "pelo",
+        "en": "he/she got"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "পেলাম",
+        "পারল",
+        "পায়",
+        "পেল"
+      ],
+      "answer": 3,
+      "why": "সে + past: **পেল**."
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "তুমি কাল কী করলে?",
+        "tr": "tumi kal ki korle?",
+        "en": "What did you (familiar) do yesterday?"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "তুমি এখন কী করছো?",
+        "তুমি কাল কী করবে?",
+        "আপনি কাল কী করলেন?",
+        "তুমি কাল কী করলে?"
+      ],
+      "answer": 3,
+      "why": "তুমি + past: **করলে**."
+    },
+    {
+      "id": "e03",
+      "type": "reading",
+      "title": "Have you eaten?",
+      "lines": [
+        {
+          "speaker": "Rafi",
+          "bn": "তুমি কি নাস্তা খেয়েছো?",
+          "tr": "tumi ki nashta kheyechho?",
+          "en": "Have you had breakfast?"
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "না, এখনো খাইনি।",
+          "tr": "na, ekhono khaini.",
+          "en": "No, not yet."
+        },
+        {
+          "speaker": "Rafi",
+          "bn": "তুমি কি আমাদের নতুন অফিস দেখেছো?",
+          "tr": "tumi ki amader notun ofis dekhechho?",
+          "en": "Have you seen our new office?"
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "না। আমি মাত্র এসেছি, এখনো কিছু দেখিনি।",
+          "tr": "na. ami matro eshechhi, ekhono kichhu dekhini.",
+          "en": "No. I've only just arrived; I haven't seen anything yet."
+        },
+        {
+          "speaker": "Rafi",
+          "bn": "আমি ইতিমধ্যে তোমার জন্য চা নিয়েছি।",
+          "tr": "ami itimoddhe tomar jonno cha niyechhi.",
+          "en": "I've already got tea for you."
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "ধন্যবাদ, রাফি!",
+          "tr": "dhonnobad, rafi!",
+          "en": "Thank you, Rafi!"
+        }
+      ],
+      "question": "Has Nadia had breakfast?",
+      "options": [
+        "Yes, with Rafi",
+        "Not yet",
+        "Yes, at home"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e04",
+      "type": "reading",
+      "title": "Have you eaten?",
+      "lines": [
+        {
+          "speaker": "Rafi",
+          "bn": "তুমি কি নাস্তা খেয়েছো?",
+          "tr": "tumi ki nashta kheyechho?",
+          "en": "Have you had breakfast?"
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "না, এখনো খাইনি।",
+          "tr": "na, ekhono khaini.",
+          "en": "No, not yet."
+        },
+        {
+          "speaker": "Rafi",
+          "bn": "তুমি কি আমাদের নতুন অফিস দেখেছো?",
+          "tr": "tumi ki amader notun ofis dekhechho?",
+          "en": "Have you seen our new office?"
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "না। আমি মাত্র এসেছি, এখনো কিছু দেখিনি।",
+          "tr": "na. ami matro eshechhi, ekhono kichhu dekhini.",
+          "en": "No. I've only just arrived; I haven't seen anything yet."
+        },
+        {
+          "speaker": "Rafi",
+          "bn": "আমি ইতিমধ্যে তোমার জন্য চা নিয়েছি।",
+          "tr": "ami itimoddhe tomar jonno cha niyechhi.",
+          "en": "I've already got tea for you."
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "ধন্যবাদ, রাফি!",
+          "tr": "dhonnobad, rafi!",
+          "en": "Thank you, Rafi!"
+        }
+      ],
+      "question": "What has Rafi already done?",
+      "options": [
+        "Shown her the office",
+        "Eaten breakfast",
+        "Got tea for Nadia"
+      ],
+      "answer": 2,
+      "why": "**নিয়েছি** 'I have taken / got'; **ইতিমধ্যে** 'already'."
+    },
+    {
+      "id": "e05",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "সে এখনো আসেনি।",
+        "tr": "she ekhono asheni.",
+        "en": "He hasn't come yet."
+      },
+      "options": [
+        "He has just come.",
+        "He never comes.",
+        "He didn't come yesterday.",
+        "He hasn't come yet."
+      ],
+      "answer": 3,
+      "why": "**এখনো** + **-নি**: 'not yet'."
+    },
+    {
+      "id": "e06",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "আমি আগে কখনো সিলেটে যাইনি।",
+        "tr": "ami age kokhono shilete jaini.",
+        "en": "I've never been to Sylhet before."
+      },
+      "options": [
+        "I've never been to Sylhet before.",
+        "I went to Sylhet before.",
+        "I'm going to Sylhet soon.",
+        "I didn't like Sylhet."
+      ],
+      "answer": 0,
+      "why": "**কখনো … যাইনি** 'have never been'."
+    },
+    {
+      "id": "e07",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "আপনি কি খেয়েছেন?",
+        "tr": "apni ki kheyechhen?",
+        "en": "Have you (polite) eaten?"
+      },
+      "options": [
+        "Have you (polite) eaten?",
+        "Are you eating?",
+        "Will you eat?",
+        "What did you eat?"
+      ],
+      "answer": 0,
+      "why": "Polite perfect: **খেয়েছেন**."
+    },
+    {
+      "id": "e08",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "রাফি সব কাজ করেছে।",
+        "tr": "rafi shob kaj korechhe.",
+        "en": "Rafi has done all the work."
+      },
+      "blank": "করেছে",
+      "options": [
+        "করেছি",
+        "করেছে",
+        "করেনি",
+        "করেছেন"
+      ],
+      "answer": 1,
+      "why": "সে → **করেছে** 'has done'."
+    },
+    {
+      "id": "e09",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আমি আজ এখনো কিছু খাইনি।",
+        "tr": "ami aj ekhono kichhu khaini.",
+        "en": "I haven't eaten anything yet today."
+      },
+      "blank": "খাইনি",
+      "options": [
+        "খাব",
+        "খেয়েছি",
+        "খাইনি",
+        "খাই"
+      ],
+      "answer": 2,
+      "why": "**এখনো … খাইনি** 'haven't eaten yet'."
+    },
+    {
+      "id": "e10",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "তুমি কিছু করোনি!",
+        "tr": "tumi kichhu koroni!",
+        "en": "You (familiar) haven't done anything!"
+      },
+      "blank": "করোনি",
+      "options": [
+        "করেননি",
+        "করেনি",
+        "করিনি",
+        "করোনি"
+      ],
+      "answer": 3,
+      "why": "তুমি: **করো + নি** = **করোনি**."
+    },
+    {
+      "id": "e11",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আমি এই কথা শুনিনি।",
+        "tr": "ami ei kotha shunini.",
+        "en": "I haven't heard this."
+      },
+      "blank": "শুনিনি",
+      "accepted": [
+        "শুনিনি",
+        "shunini"
+      ],
+      "why": "আমি: **শুনি + নি** = **শুনিনি**."
+    },
+    {
+      "id": "e12",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আমি একটু বাংলা শিখেছি।",
+        "tr": "ami ektu bangla shikhechhi.",
+        "en": "I've learned a little Bengali."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "শিখেছি",
+        "শিখছি",
+        "অনেক",
+        "বাংলা",
+        "একটু",
+        "আমি",
+        "শিখি"
+      ],
+      "answer": [
+        "আমি",
+        "একটু",
+        "বাংলা",
+        "শিখেছি"
+      ],
+      "alt": [
+        [
+          "একটু",
+          "বাংলা",
+          "শিখেছি"
+        ]
+      ],
+      "why": "Perfect: **শিখেছি** 'I have learned'."
+    },
+    {
+      "id": "e13",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "তুমি কি ঢাকা দেখেছো?",
+        "tr": "tumi ki dhaka dekhechho?",
+        "en": "Have you (familiar) seen Dhaka?"
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "কি",
+        "আপনি",
+        "দেখেছি",
+        "তুমি",
+        "ঢাকা",
+        "দেখো",
+        "দেখেছো"
+      ],
+      "answer": [
+        "তুমি",
+        "কি",
+        "ঢাকা",
+        "দেখেছো"
+      ],
+      "why": "তুমি → **দেখেছো**; question with **কি**."
+    },
+    {
+      "id": "e14",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "উনি কি এসেছেন?",
+        "tr": "uni ki eshechhen?",
+        "en": "Has he (polite) come?"
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "উনি কি এসেছেন",
+        "তিনি কি এসেছেন",
+        "উনি এসেছেন",
+        "uni ki eshechhen",
+        "tini ki eshechhen",
+        "uni eshechhen"
+      ],
+      "why": "Polite perfect: **এসেছেন**."
+    },
+    {
+      "id": "e15",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আমি এখনো দেখিনি।",
+        "tr": "ami ekhono dekhini.",
+        "en": "I haven't seen it yet."
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "আমি এখনো দেখিনি",
+        "এখনো দেখিনি",
+        "ami ekhono dekhini",
+        "ekhono dekhini"
+      ],
+      "why": "**এখনো** + **দেখিনি**."
+    },
+    {
+      "id": "r01",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "এই দুইটা প্রায় একই রকম।",
+        "tr": "ei duita pray eki rokom.",
+        "en": "These two are almost the same."
+      },
+      "options": [
+        "How is everyone?",
+        "Our teacher is young.",
+        "What do you want?",
+        "These two are almost the same."
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "কোনটা",
+        "tr": "konta",
+        "en": "which one"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "আমার",
+        "কোনটা",
+        "সবার",
+        "তোমাকে"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "নাদিয়া সবার চেয়ে লম্বা।",
+        "tr": "nadiya shobar cheye lomba.",
+        "en": "Nadia is the tallest of all."
+      },
+      "blank": "সবার",
+      "accepted": [
+        "সবার",
+        "shobar"
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "আলাদা",
+          "tr": "alada",
+          "en": "different; separate"
+        },
+        {
+          "bn": "একই",
+          "tr": "eki",
+          "en": "the same"
+        },
+        {
+          "bn": "রকম",
+          "tr": "rokom",
+          "en": "kind; sort"
+        },
+        {
+          "bn": "শুনবে",
+          "tr": "shunbe",
+          "en": "you (familiar) / he, she will listen"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "উনিশ",
+          "tr": "unish",
+          "en": "nineteen"
+        },
+        {
+          "bn": "কখন",
+          "tr": "kokhon",
+          "en": "when"
+        },
+        {
+          "bn": "এত",
+          "tr": "eto",
+          "en": "so"
+        },
+        {
+          "bn": "আঠারো",
+          "tr": "atharo",
+          "en": "eighteen"
+        }
+      ],
+      "recycle": true
+    }
+  ]
+}

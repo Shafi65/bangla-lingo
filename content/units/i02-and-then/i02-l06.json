@@ -1,0 +1,599 @@
+{
+  "id": "i02-l06",
+  "unit": "i02-and-then",
+  "title": "Right? Tags and particles",
+  "status": "draft",
+  "tip": "Small words change the tone:\n\n- **…, তাই না?** 'isn't it? / right?' asks for agreement: **আজ খুব গরম, তাই না?**\n- **…, না?** is the short, casual tag: **তুমি আসবে, না?**\n- **তো** adds 'but, after all, you know': **আমি তো বলেছি!** 'But I told you!'\n- **নাকি** has two jobs. Between options it is 'or': **চা নাকি পানি?** In a statement it means 'apparently, I hear': **রাফি নাকি অসুস্থ** 'I hear Rafi is ill.'\n\n**আরে!** 'hey!, oh!' shows surprise. **দেখা হল** '(we) met'.",
+  "vocab": [
+    {
+      "id": "tai-na",
+      "bn": "তাই না",
+      "tr": "tai na",
+      "en": "isn't it? / right?"
+    },
+    {
+      "id": "to",
+      "bn": "তো",
+      "tr": "to",
+      "en": "(emphatic particle)"
+    },
+    {
+      "id": "naki",
+      "bn": "নাকি",
+      "tr": "naki",
+      "en": "apparently; or",
+      "notes": "Between options: 'or' (চা নাকি পানি?). In a statement: 'I hear, apparently'."
+    },
+    {
+      "id": "na-tag",
+      "bn": "না",
+      "tr": "na",
+      "en": "right? (tag)",
+      "notes": "Same spelling as না 'no, not' (U1); at the end of a sentence it asks for agreement."
+    },
+    {
+      "id": "are",
+      "bn": "আরে",
+      "tr": "are",
+      "en": "hey!; oh!"
+    },
+    {
+      "id": "jyam",
+      "bn": "জ্যাম",
+      "tr": "jyam",
+      "en": "traffic jam"
+    },
+    {
+      "id": "bhir",
+      "bn": "ভিড়",
+      "tr": "bhir",
+      "en": "crowd"
+    },
+    {
+      "id": "khuje",
+      "bn": "খুঁজে",
+      "tr": "khu~je",
+      "en": "searching"
+    },
+    {
+      "id": "khuje-pelam",
+      "bn": "খুঁজে পেলাম",
+      "tr": "khu~je pelam",
+      "en": "I found"
+    },
+    {
+      "id": "dekha-holo",
+      "bn": "দেখা হল",
+      "tr": "dekha holo",
+      "en": "(we) met",
+      "notes": "Also spelled দেখা হলো. Future: দেখা হবে (U11)."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "প্রথমে",
+        "tr": "prothome",
+        "en": "first"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "শেষে",
+        "এরপর",
+        "প্রথমে",
+        "অবশেষে"
+      ],
+      "answer": 2,
+      "why": "**প্রথমে** 'first'; **শেষে** / **অবশেষে** 'in the end'."
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "সাথে সাথে",
+        "tr": "shathe shathe",
+        "en": "immediately"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "শেষে",
+        "এরপর",
+        "সাথে সাথে",
+        "কিছুক্ষণ পরে"
+      ],
+      "answer": 2,
+      "why": "**সাথে সাথে** 'immediately'; **কিছুক্ষণ পরে** 'a little later'."
+    },
+    {
+      "id": "e03",
+      "type": "reading",
+      "title": "Long time no see",
+      "lines": [
+        {
+          "speaker": "Rafi",
+          "bn": "আরে, নাদিয়া! অনেক দিন পরে দেখা হল!",
+          "tr": "are, nadiya! onek din pore dekha holo!",
+          "en": "Hey, Nadia! It's been ages!"
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "হ্যাঁ! তুমি নাকি এখন ঢাকায় থাকো?",
+          "tr": "hya~! tumi naki ekhon dhakay thako?",
+          "en": "Yes! I hear you live in Dhaka now?"
+        },
+        {
+          "speaker": "Rafi",
+          "bn": "হ্যাঁ, কিন্তু ঢাকায় খুব জ্যাম, তাই না?",
+          "tr": "hya~, kintu dhakay khub jyam, tai na?",
+          "en": "Yes, but there's so much traffic in Dhaka, isn't there?"
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "জ্যাম তো সবসময় থাকে।",
+          "tr": "jyam to shobshomoy thake.",
+          "en": "Well, there's always traffic."
+        },
+        {
+          "speaker": "Rafi",
+          "bn": "আর বাসে কত ভিড়!",
+          "tr": "ar base koto bhir!",
+          "en": "And how crowded the buses are!"
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "তুমি কাল আমাদের বাসায় আসবে, না?",
+          "tr": "tumi kal amader bashay ashbe, na?",
+          "en": "You'll come to our place tomorrow, won't you?"
+        }
+      ],
+      "question": "What has Nadia heard about Rafi?",
+      "options": [
+        "He lives in Dhaka now",
+        "He is moving abroad",
+        "He has a new car"
+      ],
+      "answer": 0,
+      "why": "**নাকি** in a statement: 'I hear, apparently'."
+    },
+    {
+      "id": "e04",
+      "type": "reading",
+      "title": "Long time no see",
+      "lines": [
+        {
+          "speaker": "Rafi",
+          "bn": "আরে, নাদিয়া! অনেক দিন পরে দেখা হল!",
+          "tr": "are, nadiya! onek din pore dekha holo!",
+          "en": "Hey, Nadia! It's been ages!"
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "হ্যাঁ! তুমি নাকি এখন ঢাকায় থাকো?",
+          "tr": "hya~! tumi naki ekhon dhakay thako?",
+          "en": "Yes! I hear you live in Dhaka now?"
+        },
+        {
+          "speaker": "Rafi",
+          "bn": "হ্যাঁ, কিন্তু ঢাকায় খুব জ্যাম, তাই না?",
+          "tr": "hya~, kintu dhakay khub jyam, tai na?",
+          "en": "Yes, but there's so much traffic in Dhaka, isn't there?"
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "জ্যাম তো সবসময় থাকে।",
+          "tr": "jyam to shobshomoy thake.",
+          "en": "Well, there's always traffic."
+        },
+        {
+          "speaker": "Rafi",
+          "bn": "আর বাসে কত ভিড়!",
+          "tr": "ar base koto bhir!",
+          "en": "And how crowded the buses are!"
+        },
+        {
+          "speaker": "Nadia",
+          "bn": "তুমি কাল আমাদের বাসায় আসবে, না?",
+          "tr": "tumi kal amader bashay ashbe, na?",
+          "en": "You'll come to our place tomorrow, won't you?"
+        }
+      ],
+      "question": "What does Nadia ask Rafi at the end?",
+      "options": [
+        "To call her tonight",
+        "To come to her home tomorrow",
+        "To take the bus with her"
+      ],
+      "answer": 1,
+      "why": "**…, না?** at the end asks for agreement."
+    },
+    {
+      "id": "e05",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "রাফি নাকি অসুস্থ।",
+        "tr": "rafi naki oshustho.",
+        "en": "Apparently Rafi is ill."
+      },
+      "options": [
+        "Rafi or someone else is ill.",
+        "Apparently Rafi is ill.",
+        "Rafi was ill yesterday.",
+        "Rafi isn't ill, is he?"
+      ],
+      "answer": 1,
+      "why": "In a statement, **নাকি** = 'I hear, apparently'."
+    },
+    {
+      "id": "e06",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "আজ খুব গরম, তাই না?",
+        "tr": "aj khub gorom, tai na?",
+        "en": "It's very hot today, isn't it?"
+      },
+      "options": [
+        "It isn't hot today.",
+        "It was very hot yesterday.",
+        "It's very hot today, isn't it?",
+        "Is it hot today or not?"
+      ],
+      "answer": 2,
+      "why": "**…, তাই না?** 'isn't it?'"
+    },
+    {
+      "id": "e07",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "আমি তো বলেছি!",
+        "tr": "ami to bolechhi!",
+        "en": "But I told you!"
+      },
+      "options": [
+        "Shall I tell you?",
+        "I'll tell you later.",
+        "I didn't tell you.",
+        "But I told you!"
+      ],
+      "answer": 3,
+      "why": "**তো** adds 'but, after all'."
+    },
+    {
+      "id": "e08",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "জ্যাম",
+          "tr": "jyam",
+          "en": "traffic jam"
+        },
+        {
+          "bn": "ভিড়",
+          "tr": "bhir",
+          "en": "crowd"
+        },
+        {
+          "bn": "খুঁজে",
+          "tr": "khu~je",
+          "en": "searching"
+        },
+        {
+          "bn": "খুঁজে পেলাম",
+          "tr": "khu~je pelam",
+          "en": "I found"
+        },
+        {
+          "bn": "আরে",
+          "tr": "are",
+          "en": "hey!; oh!"
+        }
+      ]
+    },
+    {
+      "id": "e09",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "তুমি চা খাবে নাকি পানি?",
+        "tr": "tumi cha khabe naki pani?",
+        "en": "Will you (familiar) have tea or water?"
+      },
+      "blank": "নাকি",
+      "options": [
+        "নাকি",
+        "আর",
+        "তাই না",
+        "তো"
+      ],
+      "answer": 0,
+      "why": "Between two options **নাকি** means 'or'."
+    },
+    {
+      "id": "e10",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আপনি বাংলাদেশি, তাই না?",
+        "tr": "apni bangladeshi, tai na?",
+        "en": "You're (polite) Bangladeshi, aren't you?"
+      },
+      "blank": "তাই না",
+      "options": [
+        "কেন",
+        "তাই না",
+        "তো",
+        "তাহলে"
+      ],
+      "answer": 1,
+      "why": "Tag question: **…, তাই না?** 'aren't you?'"
+    },
+    {
+      "id": "e11",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "আমি আমার ফোনটা খুঁজে পেলাম।",
+        "tr": "ami amar fonta khu~je pelam.",
+        "en": "I found my phone."
+      },
+      "options": [
+        "I'm looking for my phone.",
+        "I bought a new phone.",
+        "I found my phone.",
+        "I lost my phone."
+      ],
+      "answer": 2,
+      "why": "**খুঁজে পেলাম** 'I found' (lit. having searched, I got)."
+    },
+    {
+      "id": "e12",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "বাজারে খুব ভিড় ছিল।",
+        "tr": "bajare khub bhir chhilo.",
+        "en": "The market was very crowded."
+      },
+      "blank": "ভিড়",
+      "accepted": [
+        "ভিড়",
+        "bhir"
+      ],
+      "why": "**ভিড়** 'crowd': **খুব ভিড় ছিল** 'it was very crowded'."
+    },
+    {
+      "id": "e13",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আজ অনেক জ্যাম, তাই দেরি হল।",
+        "tr": "aj onek jyam, tai deri holo.",
+        "en": "There was a lot of traffic today, so I was late."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "হল",
+        "জ্যাম",
+        "তাই",
+        "হবে",
+        "ভিড়",
+        "না",
+        "অনেক",
+        "আজ",
+        "দেরি"
+      ],
+      "answer": [
+        "আজ",
+        "অনেক",
+        "জ্যাম",
+        "তাই",
+        "দেরি",
+        "হল"
+      ],
+      "why": "Cause, then result with **তাই**: **জ্যাম, তাই দেরি হল**."
+    },
+    {
+      "id": "e14",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "তুমি কাল আমাদের বাসায় আসবে, না?",
+        "tr": "tumi kal amader bashay ashbe, na?",
+        "en": "You'll come to our place tomorrow, won't you?"
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "না",
+        "বাসায়",
+        "আসবে",
+        "কাল",
+        "তাই",
+        "আমাদের",
+        "তুমি",
+        "আসব",
+        "যাবে"
+      ],
+      "answer": [
+        "তুমি",
+        "কাল",
+        "আমাদের",
+        "বাসায়",
+        "আসবে",
+        "না"
+      ],
+      "alt": [
+        [
+          "তুমি",
+          "কাল",
+          "আমাদের",
+          "বাসায়",
+          "আসবে",
+          "তাই",
+          "না"
+        ],
+        [
+          "কাল",
+          "তুমি",
+          "আমাদের",
+          "বাসায়",
+          "আসবে",
+          "না"
+        ],
+        [
+          "কাল",
+          "তুমি",
+          "আমাদের",
+          "বাসায়",
+          "আসবে",
+          "তাই",
+          "না"
+        ]
+      ],
+      "why": "Tag at the end: **…, না?** or **…, তাই না?**"
+    },
+    {
+      "id": "e15",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "নাদিয়া নাকি অসুস্থ।",
+        "tr": "nadiya naki oshustho.",
+        "en": "I hear Nadia is ill."
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "নাদিয়া নাকি অসুস্থ",
+        "শুনেছি নাদিয়া অসুস্থ",
+        "nadiya naki oshustho",
+        "shunechhi nadiya oshustho"
+      ],
+      "why": "Hearsay: **নাকি** after the subject."
+    },
+    {
+      "id": "e16",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আজ খুব ঠান্ডা, তাই না?",
+        "tr": "aj khub thanda, tai na?",
+        "en": "It's very cold today, isn't it?"
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "আজ খুব ঠান্ডা, তাই না",
+        "আজ খুব ঠান্ডা, না",
+        "আজ অনেক ঠান্ডা, তাই না",
+        "আজ খুব শীত, তাই না",
+        "আজকে খুব ঠান্ডা, তাই না",
+        "আজকে খুব শীত, তাই না",
+        "aj khub thanda tai na",
+        "aj khub thanda na",
+        "aj onek thanda tai na",
+        "aj khub shit tai na",
+        "ajke khub thanda tai na",
+        "ajke khub shit tai na"
+      ],
+      "why": "Statement + **তাই না?**"
+    },
+    {
+      "id": "r01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ঘটল",
+        "tr": "ghotlo",
+        "en": "happened"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "I am reading",
+        "have you eaten (familiar)",
+        "to go",
+        "happened"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "তখনই",
+        "tr": "tokhoni",
+        "en": "right then"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "all night",
+        "in a year",
+        "in childhood",
+        "right then"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "listen_select",
+      "audio": {
+        "bn": "ঘটনা",
+        "tr": "ghotona",
+        "en": "incident"
+      },
+      "options": [
+        "ঘটনা",
+        "কলা",
+        "মা",
+        "রমজান"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "ভিজে",
+          "tr": "bhije",
+          "en": "getting wet"
+        },
+        {
+          "bn": "পৌঁছালাম",
+          "tr": "pou~chhalam",
+          "en": "I arrived"
+        },
+        {
+          "bn": "হেঁটে",
+          "tr": "he~te",
+          "en": "on foot"
+        },
+        {
+          "bn": "দৌড়ে",
+          "tr": "doure",
+          "en": "running"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "ঘুমাচ্ছিলাম",
+          "tr": "ghumachchhilam",
+          "en": "I was sleeping"
+        },
+        {
+          "bn": "ধীরে ধীরে",
+          "tr": "dhire dhire",
+          "en": "slowly"
+        },
+        {
+          "bn": "শুনতাম",
+          "tr": "shuntam",
+          "en": "I used to listen"
+        },
+        {
+          "bn": "বাজছিল",
+          "tr": "bajchhilo",
+          "en": "was ringing"
+        }
+      ],
+      "recycle": true
+    }
+  ]
+}
