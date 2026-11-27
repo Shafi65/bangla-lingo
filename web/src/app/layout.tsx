@@ -8,10 +8,12 @@ import { CourseProvider } from "@/components/CourseContext";
 import { MotionProvider } from "@/components/motion/MotionProvider";
 import { OfflineStatus } from "@/components/offline/OfflineStatus";
 import { getCourse } from "@/lib/content";
-import { SITE_ROBOTS } from "@/lib/indexing";
+import { SITE_ROBOTS, SITE_URL } from "@/lib/indexing";
 import { THEME_SCRIPT } from "@/lib/ui/theme-script";
 
 export const metadata: Metadata = {
+  // Absolute base for canonical links and share-card images.
+  metadataBase: new URL(SITE_URL),
   title: "BanglaLingo: learn Bengali",
   description:
     "Bite-sized lessons for English speakers learning Bengali (বাংলা): script, vocabulary and everyday phrases.",

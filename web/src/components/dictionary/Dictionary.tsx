@@ -203,6 +203,11 @@ export function Dictionary({ data }: { data: DictData }) {
                         From My family
                       </Link>
                     )}
+                    {e.s && (
+                      <Link href={`/bengali/${e.s}`} className="text-brand-dark underline">
+                        Word page
+                      </Link>
+                    )}
                   </p>
                 </div>
               </div>

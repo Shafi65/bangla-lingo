@@ -29,7 +29,9 @@ export function shellRoutes(opts: {
 /**
  * Static page routes from Next's app-path-routes-manifest (values are route patterns): drops
  * dynamic segments (listed separately), file routes (icons, manifest, json), internals and
- * request handlers under an `api` segment (e.g. /translate/api, which only answers POST).
+ * request handlers under an `api` segment (e.g. /translate/api, which only answers POST), and the
+ * public word pages (/bengali…): the index alone is ~1.5 MB and is for visitors from search, not
+ * for learners offline.
  */
 export function pageRoutesFromManifest(values: readonly string[]): string[] {
   return values.filter(
@@ -38,6 +40,7 @@ export function pageRoutesFromManifest(values: readonly string[]): string[] {
       !r.includes("[") &&
       !r.startsWith("/_") &&
       !/\.[A-Za-z0-9]+$/.test(r) &&
-      !/(^|\/)api(\/|$)/.test(r),
+      !/(^|\/)api(\/|$)/.test(r) &&
+      !/^\/bengali(\/|$)/.test(r),
   );
 }

@@ -31,8 +31,8 @@ describe("shellRoutes", () => {
 
   it("pageRoutesFromManifest keeps plain pages only", () => {
     expect(
-      pageRoutesFromManifest(["/", "/words", "/lesson/[id]", "/icon.png", "/manifest.webmanifest", "/_not-found", "/offline/precache.json", "/guide"]),
-    ).toEqual(["/", "/words", "/guide"]);
+      pageRoutesFromManifest(["/", "/words", "/lesson/[id]", "/icon.png", "/manifest.webmanifest", "/_not-found", "/offline/precache.json", "/guide", "/bengali", "/bengalix"]),
+    ).toEqual(["/", "/words", "/guide", "/bengalix"]);
   });
 });
 
