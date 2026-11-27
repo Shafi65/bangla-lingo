@@ -5,3 +5,5 @@ out/
 .vercel
 .DS_Store
 *.log
+# Letter-name audition clips (npm run gen:audio:audition), local only
+/audio-audition/

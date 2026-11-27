@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { LetterName } from "@/components/LetterName";
 import { SpeakButton } from "@/components/SpeakButton";
 import { Translit } from "@/components/Translit";
 import { ensureGuideFont, renderGlyphMask } from "@/lib/write/glyph";
@@ -138,8 +139,9 @@ export function PracticePanel({
           >
             {letter.glyph}
           </div>
-          <div className="mt-1 flex items-center justify-center gap-3">
-            <SpeakButton bn={letter.speak} size="md" />
+          <LetterName bn={letter.glyph} className="-mt-2 text-sm" />
+          <div className="mt-2 flex items-center justify-center gap-3">
+            <SpeakButton bn={letter.speak} size="md" letter />
             <div className="text-left">
               <div className="text-xl font-black">
                 <Translit tr={letter.tr} />

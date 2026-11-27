@@ -1,0 +1,560 @@
+{
+  "$comment": "Names of the Bengali letters and signs when said on their own (bn-BD). Read by content/scripts/gen-audio.mjs (clips under the manifest key letter:<glyph>) and by the app (name under the glyph, letter playback). See docs/AUDIO.md, 'Letter names'.",
+  "strategies": {
+    "a": "the glyph alone (old behaviour; consonants come out as a bare sound)",
+    "b": "glyph with the vowel spelled out: consonant + অ (কঅ); a vowel letter as is; a sign's own vowel (ি → ই); a mark on a carrier (texts.b)",
+    "c": "glyph + ো (কো); a sign on ক (কি)",
+    "d": "the full spoken name: `say` if set, else `name`, else `traditional.bn` (উঙ, তালব্য শ, ই-কার, অনুস্বার, স্বরে অ); for a plain consonant the same as b",
+    "e": "SSML <phoneme alphabet=\"ipa\" ph=\"<ipa>\"> around the glyph; experimental, bn-BD has no documented phone set"
+  },
+  "defaults": {
+    "vowel": "b",
+    "consonant": "b",
+    "sign": "d",
+    "mark": "d"
+  },
+  "sources": [
+    "Checked: Teachers' Portal (Bangladesh government a2i/DSHE), teachers.gov.bd/content/details/372282, a teacher's summary of the class-level Bangla grammar taught from NCTB books: kar names আ-কার ... ঔ-কার, ং ঃ ঁ as dependent letters, ঞ said close to ইয়, ৎ as a form of ত্, শ/ষ/স and ণ/ন sounding alike.",
+    "Checked: Wikipedia, 'Bengali alphabet' (letter-name tables with IPA): consonant name = consonant + inherent ɔ; স্বর অ, হ্রস্ব ই, দীর্ঘ ঈ; বর্গীয় জ, অন্তঃস্থ য, অন্তঃস্থ অ, তালব্য শ, মূর্ধন্য ষ, দন্ত্য স, মূর্ধন্য ণ, দন্ত্য ন; ঙ said uŋɔ~umɔ, ঞ (n)ĩjɔ; অনুস্বার, বিসর্গ, চন্দ্রবিন্দু, খণ্ড ত, হসন্ত.",
+    "Checked: r12a, Bengali orthography notes, r12a.github.io/scripts/beng/bn.html: হসন্ত (hɔsonto), বিসর্গ (bisɔrgô).",
+    "Not checked in this pass (reference to confirm against): Bangla Academy, বাংলা একাডেমি বাংলা উচ্চারণ অভিধান and প্রমিত বাংলা বানানের নিয়ম; NCTB আমার বাংলা বই class 1 (the letter pages); Hanne-Ruth Thompson, Bengali (Routledge, 2010/2012), ch. 1 on the script.",
+    "The course's own lexicon notes (content/lexicon/s01-s04) already give most of these names; this table agrees with them except where the brief's spelling was used (dontto for donto, borgiyo for borgio, shore for sworo)."
+  ],
+  "letters": [
+    {
+      "glyph": "অ",
+      "kind": "vowel",
+      "tr": "o",
+      "ipa": "ɔ",
+      "traditional": {
+        "bn": "স্বরে অ",
+        "tr": "shore o"
+      },
+      "notes": "The inherent vowel: open ɔ as in 'cauliflower', never the closed o of ও. Primers call it স্বরে অ ('vowel o') to tell it apart from অন্তঃস্থ অ (য়)."
+    },
+    {
+      "glyph": "আ",
+      "kind": "vowel",
+      "tr": "a",
+      "ipa": "a",
+      "traditional": {
+        "bn": "স্বরে আ",
+        "tr": "shore a"
+      }
+    },
+    {
+      "glyph": "ই",
+      "kind": "vowel",
+      "tr": "i",
+      "ipa": "i",
+      "traditional": {
+        "bn": "হ্রস্ব ই",
+        "tr": "hroshsho i"
+      },
+      "notes": "'Short i'; said the same as ঈ."
+    },
+    {
+      "glyph": "ঈ",
+      "kind": "vowel",
+      "tr": "i",
+      "ipa": "i",
+      "traditional": {
+        "bn": "দীর্ঘ ঈ",
+        "tr": "dirgho i"
+      },
+      "notes": "'Long i'; said the same as ই."
+    },
+    {
+      "glyph": "উ",
+      "kind": "vowel",
+      "tr": "u",
+      "ipa": "u",
+      "traditional": {
+        "bn": "হ্রস্ব উ",
+        "tr": "hroshsho u"
+      }
+    },
+    {
+      "glyph": "ঊ",
+      "kind": "vowel",
+      "tr": "u",
+      "ipa": "u",
+      "traditional": {
+        "bn": "দীর্ঘ ঊ",
+        "tr": "dirgho u"
+      }
+    },
+    {
+      "glyph": "ঋ",
+      "kind": "vowel",
+      "tr": "ri",
+      "ipa": "ri",
+      "notes": "Named and said ri."
+    },
+    {
+      "glyph": "এ",
+      "kind": "vowel",
+      "tr": "e",
+      "ipa": "e"
+    },
+    {
+      "glyph": "ঐ",
+      "kind": "vowel",
+      "tr": "oi",
+      "ipa": "oi̯"
+    },
+    {
+      "glyph": "ও",
+      "kind": "vowel",
+      "tr": "o",
+      "ipa": "o",
+      "notes": "Closed o as in 'go'. Its clip is stored as letter:ও, so the word ও (and, also, s/he) keeps its own clip."
+    },
+    {
+      "glyph": "ঔ",
+      "kind": "vowel",
+      "tr": "ou",
+      "ipa": "ou̯"
+    },
+    {
+      "glyph": "ক",
+      "kind": "consonant",
+      "tr": "ko",
+      "ipa": "kɔ"
+    },
+    {
+      "glyph": "খ",
+      "kind": "consonant",
+      "tr": "kho",
+      "ipa": "kʰɔ"
+    },
+    {
+      "glyph": "গ",
+      "kind": "consonant",
+      "tr": "go",
+      "ipa": "gɔ"
+    },
+    {
+      "glyph": "ঘ",
+      "kind": "consonant",
+      "tr": "gho",
+      "ipa": "gʱɔ"
+    },
+    {
+      "glyph": "ঙ",
+      "kind": "consonant",
+      "name": "উঙ",
+      "tr": "ungo",
+      "ipa": "uŋɔ",
+      "strategy": "d",
+      "kolkata": "Also said umo (উমো); Wikipedia gives uŋɔ~umɔ without tying either to a region. Owner to confirm.",
+      "notes": "ঙ never starts a word, so its name is said with a vowel in front: u-ŋɔ."
+    },
+    {
+      "glyph": "চ",
+      "kind": "consonant",
+      "tr": "cho",
+      "ipa": "tʃɔ"
+    },
+    {
+      "glyph": "ছ",
+      "kind": "consonant",
+      "tr": "chho",
+      "ipa": "tʃʰɔ"
+    },
+    {
+      "glyph": "জ",
+      "kind": "consonant",
+      "name": "বর্গীয় জ",
+      "tr": "borgiyo jo",
+      "ipa": "bɔrgijo dʒɔ",
+      "strategy": "d",
+      "short": "jo",
+      "notes": "'jo of the (চ) row', to tell it from অন্তঃস্থ য, which sounds the same."
+    },
+    {
+      "glyph": "ঝ",
+      "kind": "consonant",
+      "tr": "jho",
+      "ipa": "dʒʱɔ"
+    },
+    {
+      "glyph": "ঞ",
+      "kind": "consonant",
+      "name": "ইঁয়ো",
+      "tr": "iyo",
+      "ipa": "ĩjo",
+      "strategy": "d",
+      "kolkata": "A form with n, niyo (নিয়ো), is also heard; Wikipedia gives (n)ĩjɔ. Owner to confirm which side uses which.",
+      "notes": "Nasalised i + yo. Has no sound of its own at the start of a word; inside words it is n (পঞ্চাশ)."
+    },
+    {
+      "glyph": "ট",
+      "kind": "consonant",
+      "tr": "to",
+      "ipa": "ʈɔ"
+    },
+    {
+      "glyph": "ঠ",
+      "kind": "consonant",
+      "tr": "tho",
+      "ipa": "ʈʰɔ"
+    },
+    {
+      "glyph": "ড",
+      "kind": "consonant",
+      "tr": "do",
+      "ipa": "ɖɔ"
+    },
+    {
+      "glyph": "ঢ",
+      "kind": "consonant",
+      "tr": "dho",
+      "ipa": "ɖʱɔ"
+    },
+    {
+      "glyph": "ণ",
+      "kind": "consonant",
+      "name": "মূর্ধন্য ণ",
+      "tr": "murdhonno no",
+      "ipa": "murd̪ʱonno nɔ",
+      "strategy": "d",
+      "short": "no",
+      "notes": "'Retroflex no'; sounds the same as দন্ত্য ন today."
+    },
+    {
+      "glyph": "ত",
+      "kind": "consonant",
+      "tr": "to",
+      "ipa": "t̪ɔ"
+    },
+    {
+      "glyph": "থ",
+      "kind": "consonant",
+      "tr": "tho",
+      "ipa": "t̪ʰɔ"
+    },
+    {
+      "glyph": "দ",
+      "kind": "consonant",
+      "tr": "do",
+      "ipa": "d̪ɔ"
+    },
+    {
+      "glyph": "ধ",
+      "kind": "consonant",
+      "tr": "dho",
+      "ipa": "d̪ʱɔ"
+    },
+    {
+      "glyph": "ন",
+      "kind": "consonant",
+      "name": "দন্ত্য ন",
+      "tr": "dontto no",
+      "ipa": "d̪ɔnt̪o nɔ",
+      "strategy": "d",
+      "short": "no",
+      "notes": "'Dental no', the everyday n."
+    },
+    {
+      "glyph": "প",
+      "kind": "consonant",
+      "tr": "po",
+      "ipa": "pɔ"
+    },
+    {
+      "glyph": "ফ",
+      "kind": "consonant",
+      "tr": "fo",
+      "ipa": "fɔ",
+      "notes": "Bangladesh: a clear f; pʰɔ is also heard."
+    },
+    {
+      "glyph": "ব",
+      "kind": "consonant",
+      "tr": "bo",
+      "ipa": "bɔ",
+      "traditional": {
+        "bn": "বর্গীয় ব",
+        "tr": "borgiyo bo"
+      },
+      "notes": "The old অন্তঃস্থ ব has merged with it, so the long name is rarely needed now."
+    },
+    {
+      "glyph": "ভ",
+      "kind": "consonant",
+      "tr": "bho",
+      "ipa": "bʱɔ"
+    },
+    {
+      "glyph": "ম",
+      "kind": "consonant",
+      "tr": "mo",
+      "ipa": "mɔ"
+    },
+    {
+      "glyph": "য",
+      "kind": "consonant",
+      "name": "অন্তঃস্থ য",
+      "tr": "ontostho jo",
+      "ipa": "ɔnt̪ostʰo dʒɔ",
+      "strategy": "d",
+      "short": "jo",
+      "notes": "'Semivowel jo'; sounds the same as বর্গীয় জ."
+    },
+    {
+      "glyph": "র",
+      "kind": "consonant",
+      "tr": "ro",
+      "ipa": "rɔ",
+      "traditional": {
+        "bn": "বয়ে শূন্য র",
+        "tr": "boye shunno ro"
+      },
+      "notes": "The long name ('ব with a dot below') is used mainly when spelling a word aloud."
+    },
+    {
+      "glyph": "ল",
+      "kind": "consonant",
+      "tr": "lo",
+      "ipa": "lɔ"
+    },
+    {
+      "glyph": "শ",
+      "kind": "consonant",
+      "name": "তালব্য শ",
+      "tr": "talobbo sho",
+      "ipa": "t̪alobbo ʃɔ",
+      "strategy": "d",
+      "short": "sho",
+      "notes": "'Palatal sho'."
+    },
+    {
+      "glyph": "ষ",
+      "kind": "consonant",
+      "name": "মূর্ধন্য ষ",
+      "tr": "murdhonno sho",
+      "ipa": "murd̪ʱonno ʃɔ",
+      "strategy": "d",
+      "short": "sho",
+      "notes": "'Retroflex sho'; sounds the same as শ."
+    },
+    {
+      "glyph": "স",
+      "kind": "consonant",
+      "name": "দন্ত্য স",
+      "tr": "dontto so",
+      "ipa": "d̪ɔnt̪o sɔ",
+      "strategy": "d",
+      "short": "sho",
+      "notes": "'Dental so'. In the name the letter is said with a clear s, even though স is usually sh in words."
+    },
+    {
+      "glyph": "হ",
+      "kind": "consonant",
+      "tr": "ho",
+      "ipa": "ɦɔ"
+    },
+    {
+      "glyph": "ড়",
+      "kind": "consonant",
+      "name": "ডয়ে শূন্য ড়",
+      "tr": "do-e shunno ro",
+      "ipa": "ɖɔe ʃunno ɽɔ",
+      "strategy": "d",
+      "short": "ro",
+      "notes": "'ড with a dot below (শূন্য = zero)'. Often written ড-য়ে শূন্য ড়."
+    },
+    {
+      "glyph": "ঢ়",
+      "kind": "consonant",
+      "name": "ঢয়ে শূন্য ঢ়",
+      "tr": "dho-e shunno rho",
+      "ipa": "ɖʱɔe ʃunno ɽʱɔ",
+      "strategy": "d",
+      "short": "rho"
+    },
+    {
+      "glyph": "য়",
+      "kind": "consonant",
+      "name": "অন্তঃস্থ অ",
+      "tr": "ontostho o",
+      "ipa": "ɔnt̪ostʰo ɔ",
+      "strategy": "d",
+      "short": "yo",
+      "kolkata": "Some books call it অন্তঃস্থ য় (ontostho yo). Owner to confirm.",
+      "notes": "'Semivowel o'."
+    },
+    {
+      "glyph": "ৎ",
+      "kind": "mark",
+      "name": "খণ্ড ত",
+      "tr": "khondo to",
+      "ipa": "kʰɔndo t̪ɔ",
+      "texts": {
+        "b": "অৎ"
+      },
+      "notes": "'Broken to'."
+    },
+    {
+      "glyph": "ং",
+      "kind": "mark",
+      "name": "অনুস্বার",
+      "tr": "onushshar",
+      "ipa": "onuʃʃar",
+      "texts": {
+        "b": "অং"
+      }
+    },
+    {
+      "glyph": "ঃ",
+      "kind": "mark",
+      "name": "বিসর্গ",
+      "tr": "bishorgo",
+      "ipa": "biʃɔrgo",
+      "texts": {
+        "b": "আঃ"
+      }
+    },
+    {
+      "glyph": "ঁ",
+      "kind": "mark",
+      "name": "চন্দ্রবিন্দু",
+      "tr": "chondrobindu",
+      "ipa": "tʃɔnd̪robind̪u",
+      "texts": {
+        "b": "আঁ"
+      },
+      "notes": "'Moon and dot'."
+    },
+    {
+      "glyph": "্",
+      "kind": "mark",
+      "name": "হসন্ত",
+      "tr": "hoshonto",
+      "ipa": "ɦɔʃɔnt̪o",
+      "texts": {
+        "b": "ক্"
+      },
+      "notes": "Kills the inherent vowel: ক্ is k with no vowel."
+    },
+    {
+      "glyph": "া",
+      "kind": "sign",
+      "name": "আ-কার",
+      "tr": "a-kar",
+      "ipa": "a kar",
+      "texts": {
+        "b": "আ",
+        "c": "কা"
+      }
+    },
+    {
+      "glyph": "ি",
+      "kind": "sign",
+      "name": "ই-কার",
+      "tr": "i-kar",
+      "ipa": "i kar",
+      "texts": {
+        "b": "ই",
+        "c": "কি"
+      },
+      "traditional": {
+        "bn": "হ্রস্ব ই-কার",
+        "tr": "hroshsho i-kar"
+      }
+    },
+    {
+      "glyph": "ী",
+      "kind": "sign",
+      "name": "দীর্ঘ ঈ-কার",
+      "tr": "dirgho i-kar",
+      "ipa": "d̪irgʱo i kar",
+      "texts": {
+        "b": "ঈ",
+        "c": "কী"
+      }
+    },
+    {
+      "glyph": "ু",
+      "kind": "sign",
+      "name": "উ-কার",
+      "tr": "u-kar",
+      "ipa": "u kar",
+      "texts": {
+        "b": "উ",
+        "c": "কু"
+      },
+      "traditional": {
+        "bn": "হ্রস্ব উ-কার",
+        "tr": "hroshsho u-kar"
+      }
+    },
+    {
+      "glyph": "ূ",
+      "kind": "sign",
+      "name": "দীর্ঘ ঊ-কার",
+      "tr": "dirgho u-kar",
+      "ipa": "d̪irgʱo u kar",
+      "texts": {
+        "b": "ঊ",
+        "c": "কূ"
+      }
+    },
+    {
+      "glyph": "ৃ",
+      "kind": "sign",
+      "name": "ঋ-কার",
+      "tr": "ri-kar",
+      "ipa": "ri kar",
+      "texts": {
+        "b": "ঋ",
+        "c": "কৃ"
+      }
+    },
+    {
+      "glyph": "ে",
+      "kind": "sign",
+      "name": "এ-কার",
+      "tr": "e-kar",
+      "ipa": "e kar",
+      "texts": {
+        "b": "এ",
+        "c": "কে"
+      }
+    },
+    {
+      "glyph": "ৈ",
+      "kind": "sign",
+      "name": "ঐ-কার",
+      "tr": "oi-kar",
+      "ipa": "oi̯ kar",
+      "texts": {
+        "b": "ঐ",
+        "c": "কৈ"
+      }
+    },
+    {
+      "glyph": "ো",
+      "kind": "sign",
+      "name": "ও-কার",
+      "tr": "o-kar",
+      "ipa": "o kar",
+      "texts": {
+        "b": "ও",
+        "c": "কো"
+      }
+    },
+    {
+      "glyph": "ৌ",
+      "kind": "sign",
+      "name": "ঔ-কার",
+      "tr": "ou-kar",
+      "ipa": "ou̯ kar",
+      "texts": {
+        "b": "ঔ",
+        "c": "কৌ"
+      }
+    }
+  ]
+}

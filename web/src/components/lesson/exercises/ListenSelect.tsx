@@ -15,7 +15,9 @@ export function ListenSelect({
   onChange,
 }: ExerciseProps<ListenSelectExercise>) {
   const { scriptTrack } = useLessonEnv();
-  const can = useCanSpeak(ex.audio.bn);
+  // Script track: a lone letter is played by its name (ক → kɔ), not as a bare sound.
+  const letter = scriptTrack;
+  const can = useCanSpeak(ex.audio.bn, { letter });
   const [reveal, setReveal] = useState(false);
   const played = useRef<string | null>(null);
 
@@ -24,20 +26,20 @@ export function ListenSelect({
   useEffect(() => {
     if (can === "yes" && played.current !== ex.id) {
       played.current = ex.id;
-      speak(ex.audio.bn);
+      speak(ex.audio.bn, { letter });
     }
-  }, [can, ex.id, ex.audio.bn]);
+  }, [can, ex.id, ex.audio.bn, letter]);
 
   return (
     <div className="flex flex-col gap-6">
       <h2 className="text-2xl font-black">Tap what you hear</h2>
       <div className="flex items-end justify-center gap-6 py-2">
         <div className="flex flex-col items-center gap-2">
-          <SpeakButton bn={ex.audio.bn} size="lg" />
+          <SpeakButton bn={ex.audio.bn} size="lg" letter={letter} />
           <span aria-hidden className="text-sm font-extrabold text-muted">Play</span>
         </div>
         <div className="flex flex-col items-center gap-2">
-          <SpeakButton bn={ex.audio.bn} slow className="h-14! w-14!" />
+          <SpeakButton bn={ex.audio.bn} slow letter={letter} className="h-14! w-14!" />
           <span aria-hidden className="text-sm font-extrabold text-muted">Slower</span>
         </div>
       </div>

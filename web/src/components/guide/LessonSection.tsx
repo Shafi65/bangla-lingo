@@ -8,7 +8,16 @@ function H({ children }: { children: React.ReactNode }) {
   return <h4 className="mt-5 mb-2 text-sm font-extrabold tracking-wide text-muted uppercase">{children}</h4>;
 }
 
-export function LessonSection({ lesson, index }: { lesson: GuideLesson; index: number }) {
+export function LessonSection({
+  lesson,
+  index,
+  letters = false,
+}: {
+  lesson: GuideLesson;
+  index: number;
+  /** Script units: lone letters play and show their names. */
+  letters?: boolean;
+}) {
   return (
     <section id={lesson.id} aria-labelledby={`${lesson.id}-h`} className="scroll-mt-[calc(var(--header-h)+1rem)] rounded-3xl border-2 border-line bg-surface p-4">
       <p className="text-xs font-extrabold tracking-wide text-brand-dark uppercase">
@@ -39,7 +48,7 @@ export function LessonSection({ lesson, index }: { lesson: GuideLesson; index: n
       {lesson.words.length > 0 && (
         <>
           <H>New words</H>
-          <WordTable words={lesson.words} caption={`New words in ${lesson.title}`} />
+          <WordTable words={lesson.words} caption={`New words in ${lesson.title}`} letters={letters} />
         </>
       )}
 

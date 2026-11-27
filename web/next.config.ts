@@ -1,6 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import type { NextConfig } from "next";
+import { buildLetterNames } from "./src/lib/letterNames";
 
 /**
  * Pre-generated audio manifest (content/audio/manifest.json, written by
@@ -17,6 +18,22 @@ function audioManifest(): string {
     return JSON.stringify({ voice: typeof m.voice === "string" ? m.voice : null, items });
   } catch {
     return JSON.stringify({ voice: null, items: {} });
+  }
+}
+
+/**
+ * Letter names (content/script/letter-names.json): shown under the glyph and used to play a letter
+ * by itself (see src/lib/letterNames.ts). Inlined at build time; a missing file means no names.
+ */
+function letterNames(): string {
+  const contentDir = process.env.CONTENT_DIR
+    ? path.resolve(process.env.CONTENT_DIR)
+    : path.join(process.cwd(), "..", "content");
+  try {
+    const doc = JSON.parse(fs.readFileSync(path.join(contentDir, "script", "letter-names.json"), "utf8"));
+    return JSON.stringify(buildLetterNames(doc));
+  } catch {
+    return "{}";
   }
 }
 
@@ -47,6 +64,7 @@ const nextConfig: NextConfig = {
   partialPrefetching: true,
   env: {
     BL_AUDIO_MANIFEST: audioManifest(),
+    BL_LETTER_NAMES: letterNames(),
   },
   outputFileTracingRoot: REPO_ROOT,
   // harfbuzzjs (share cards with Bengali text) loads its .wasm from next to its own file, so it must

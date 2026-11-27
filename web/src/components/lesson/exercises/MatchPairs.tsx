@@ -5,11 +5,13 @@ import { seededShuffle } from "@/lib/answers";
 import { Translit } from "@/components/Translit";
 import { speak } from "@/lib/speech";
 import type { MatchPairsExercise } from "@/lib/types";
+import { useLessonEnv } from "../LessonEnv";
 import type { ExerciseProps } from "./types";
 
 type Side = "bn" | "en";
 
 export function MatchPairs({ ex, locked, onChange }: ExerciseProps<MatchPairsExercise>) {
+  const { scriptTrack } = useLessonEnv();
   const [left, right] = useMemo(() => {
     const idx = ex.pairs.map((_, i) => i);
     return [seededShuffle(idx, `${ex.id}:bn`), seededShuffle(idx, `${ex.id}:en`)];
@@ -21,7 +23,7 @@ export function MatchPairs({ ex, locked, onChange }: ExerciseProps<MatchPairsExe
 
   const tap = (side: Side, i: number) => {
     if (locked || matched.has(i)) return;
-    if (side === "bn") speak(ex.pairs[i].bn);
+    if (side === "bn") speak(ex.pairs[i].bn, { letter: scriptTrack });
     setWrong(null);
     if (!sel || sel.side === side) {
       setSel(sel && sel.side === side && sel.i === i ? null : { side, i });

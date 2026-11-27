@@ -51,7 +51,8 @@ for (const f of [...jsonIn(path.join(ROOT, "lexicon")), ...jsonIn(path.join(ROOT
 for (const track of ["units", "script"]) {
   const base = path.join(ROOT, track);
   if (!fs.existsSync(base)) continue;
-  for (const u of fs.readdirSync(base)) for (const f of jsonIn(path.join(base, u))) walk(readJson(f));
+  // Unit folders only (content/script/ also holds letter-names.json).
+  for (const u of fs.readdirSync(base)) if (fs.statSync(path.join(base, u)).isDirectory()) for (const f of jsonIn(path.join(base, u))) walk(readJson(f));
 }
 const manifestFile = path.join(ROOT, "audio", "manifest.json");
 const clips = fs.existsSync(manifestFile) ? readJson(manifestFile).items ?? {} : {};

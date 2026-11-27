@@ -9,15 +9,18 @@ export function SpeakButton({
   bn,
   size = "md",
   slow = false,
+  letter = false,
   className = "",
 }: {
   bn: string;
   size?: "sm" | "md" | "lg";
   slow?: boolean;
+  /** `bn` is shown as a letter on its own: play its name (see SpeakOptions in lib/speech). */
+  letter?: boolean;
   className?: string;
 }) {
   // Stays enabled while the device voice list is still loading, so a tap always tries.
-  const hasVoice = useCanSpeak(bn) !== "no";
+  const hasVoice = useCanSpeak(bn, { letter }) !== "no";
   const dims =
     size === "lg" ? "h-24 w-24 rounded-[1.75rem]" : size === "sm" ? "relative h-8 w-8 rounded-xl after:absolute after:-inset-1.5 after:content-['']" : "h-11 w-11 rounded-2xl";
   const icon = size === "lg" ? 44 : size === "sm" ? 16 : 22;
@@ -33,7 +36,7 @@ export function SpeakButton({
         disabled={!hasVoice}
         onClick={(e) => {
           e.stopPropagation();
-          speak(bn, { slow });
+          speak(bn, { slow, letter });
         }}
         style={
           {

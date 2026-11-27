@@ -247,7 +247,7 @@ export function NightSky({ groups, words, index }: { groups: WriteGroup[]; words
                 )}
               </div>
             </div>
-            <SpeakButton bn={picked.letter.speak} />
+            <SpeakButton bn={picked.letter.speak} letter />
           </motion.section>
         )}
       </AnimatePresence>

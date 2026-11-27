@@ -1,9 +1,19 @@
+import { LetterName } from "../LetterName";
 import { SpeakButton } from "../SpeakButton";
 import { Translit } from "../Translit";
 import type { GuideWord } from "@/lib/guide/data";
 
 /** New vocabulary of a lesson: Bengali + speaker, transliteration, English. */
-export function WordTable({ words, caption }: { words: GuideWord[]; caption: string }) {
+export function WordTable({
+  words,
+  caption,
+  letters = false,
+}: {
+  words: GuideWord[];
+  caption: string;
+  /** Script units: a lone letter plays and shows its name. */
+  letters?: boolean;
+}) {
   return (
     <div className="overflow-hidden rounded-2xl border-2 border-line bg-surface">
       <table className="w-full table-fixed border-collapse text-left">
@@ -20,9 +30,12 @@ export function WordTable({ words, caption }: { words: GuideWord[]; caption: str
             <tr key={w.id} className="border-t border-line align-top">
               <td className="px-3 py-2">
                 <div className="flex items-start gap-2">
-                  <SpeakButton bn={w.bn} size="sm" />
-                  <span lang="bn" className="min-w-0 text-xl font-bold break-words text-ink">
-                    {w.bn}
+                  <SpeakButton bn={w.bn} size="sm" letter={letters} />
+                  <span className="min-w-0">
+                    <span lang="bn" className="block text-xl font-bold break-words text-ink">
+                      {w.bn}
+                    </span>
+                    {letters && <LetterName bn={w.bn} />}
                   </span>
                 </div>
               </td>

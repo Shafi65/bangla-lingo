@@ -57,6 +57,7 @@ export default async function GuideUnitPage({ params }: PageProps<"/guide/[unit]
               <LessonSection
                 key={l.id}
                 lesson={l}
+                letters={u.track === "script"}
                 index={u.lessons!.slice(0, idx).filter((x) => x.kind === "lesson").length}
               />
             ))}

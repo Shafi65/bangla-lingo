@@ -586,6 +586,7 @@ function Hearts({ hearts }: { hearts: number }) {
 }
 
 function Intro({ lesson, onStart }: { lesson: Lesson; onStart: () => void }) {
+  const scriptTrack = useIsScriptLesson(lesson.id);
   return (
     <div className="flex min-h-dvh flex-col bg-paper">
       <header className="mx-auto flex w-full max-w-xl items-center px-4 pt-[max(1.25rem,env(safe-area-inset-top))]">
@@ -614,7 +615,7 @@ function Intro({ lesson, onStart }: { lesson: Lesson; onStart: () => void }) {
               {lesson.vocab.map((v) => (
                 <li key={v.id} className="px-4 py-3">
                   <div className="flex items-center justify-between gap-3">
-                    <BnText text={v} />
+                    <BnText text={v} letter={scriptTrack} />
                     <span className="max-w-[45%] text-right font-bold text-pretty">{v.en}</span>
                   </div>
                   {v.notes && (

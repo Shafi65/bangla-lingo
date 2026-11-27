@@ -2,6 +2,7 @@
 
 import { SpeakButton } from "@/components/SpeakButton";
 import type { ScriptRecognizeExercise } from "@/lib/types";
+import { useLessonEnv } from "../LessonEnv";
 import { Choices } from "./Choices";
 import type { ExerciseProps } from "./types";
 
@@ -10,6 +11,7 @@ export function ScriptRecognize({
   locked,
   onChange,
 }: ExerciseProps<ScriptRecognizeExercise>) {
+  const { scriptTrack } = useLessonEnv();
   return (
     <div className="flex flex-col gap-6">
       <h2 className="text-2xl font-black">Which sound does this letter make?</h2>
@@ -23,7 +25,7 @@ export function ScriptRecognize({
           {ex.glyph}
         </div>
         {/* Audio is only offered after checking, so it doesn't give the answer away */}
-        {locked && <SpeakButton bn={ex.glyph} size="sm" />}
+        {locked && <SpeakButton bn={ex.glyph} size="sm" letter={scriptTrack} />}
       </div>
       <Choices options={ex.options} bengali={false} large locked={locked} onChange={onChange} answer={ex.answer} />
     </div>

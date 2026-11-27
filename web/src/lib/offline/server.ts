@@ -3,6 +3,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { getCourse, getLesson } from "@/lib/content";
 import { getGuideUnits } from "@/lib/guide/data";
+import { letterAudioKey, letterName } from "@/lib/letterNames";
 import { buildAudioPacks, collectStrings, type AudioPackData } from "./audio-packs";
 import { pageRoutesFromManifest, shellRoutes } from "./routes";
 
@@ -59,6 +60,8 @@ export function getAudioPacks(): AudioPackData {
       const lesson = getLesson(l.id);
       if (lesson) collectStrings(lesson, texts);
     }
+    // Script lessons play a lone letter by its name clip ("letter:ক"), so those belong to the unit too.
+    if (u.track === "script") for (const t of [...texts]) if (letterName(t)) texts.add(letterAudioKey(t));
     return { id: u.id, title: u.title, texts };
   });
   return buildAudioPacks(units, shipped, sizeOf);

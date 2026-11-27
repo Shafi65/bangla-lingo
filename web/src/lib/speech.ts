@@ -1,4 +1,5 @@
 import { useSyncExternalStore } from "react";
+import { letterAudioKey, letterName } from "./letterNames";
 import { progressStore, type TtsSpeed, TTS_RATES } from "./progress";
 
 // Bengali audio. Two sources, in order:
@@ -33,8 +34,26 @@ const audioKey = (s: string) => s.normalize("NFC").trim();
 export const recordedClipCount = Object.keys(MANIFEST.items).length;
 export const recordedVoice = MANIFEST.voice;
 
-export function hasRecording(bn: string): boolean {
-  return audioKey(bn) in MANIFEST.items;
+/**
+ * `letter: true` means `bn` is shown as a letter on its own (script lessons, /write, the guide): a
+ * letter or sign from content/script/letter-names.json then plays its name clip ("letter:ক" → kɔ),
+ * falling back to the plain clip, then to a device voice saying the name. Other text is unaffected.
+ */
+export interface SpeakOptions {
+  slow?: boolean;
+  letter?: boolean;
+}
+
+/** The clip to play (if any) and the text a device voice would say. */
+export function resolveSpeech(bn: string, letter = false): { file: string | undefined; text: string } {
+  const k = audioKey(bn);
+  const name = letter ? letterName(k) : undefined;
+  if (name) return { file: MANIFEST.items[letterAudioKey(k)] ?? MANIFEST.items[k], text: name.say };
+  return { file: MANIFEST.items[k], text: bn };
+}
+
+export function hasRecording(bn: string, { letter = false }: { letter?: boolean } = {}): boolean {
+  return resolveSpeech(bn, letter).file !== undefined;
 }
 
 /** Playback rates for recorded clips (natural speed = 1). */
@@ -180,17 +199,17 @@ function speakSynth(bn: string, rate: number) {
  * Uses a recorded clip when there is one, else a device Bengali voice.
  * Returns false when neither is (or may become) available.
  */
-export function speak(bn: string, { slow = false }: { slow?: boolean } = {}): boolean {
+export function speak(bn: string, { slow = false, letter = false }: SpeakOptions = {}): boolean {
   if (typeof window === "undefined") return false;
   const speed = progressStore.get().settings.ttsSpeed;
   const synthRate = TTS_RATES[speed] * (slow ? 0.7 : 1);
-  const file = MANIFEST.items[audioKey(bn)];
+  const { file, text } = resolveSpeech(bn, letter);
   if (file) {
-    playClip(file, CLIP_RATES[speed] * (slow ? SLOW_FACTOR : 1), () => speakSynth(bn, synthRate));
+    playClip(file, CLIP_RATES[speed] * (slow ? SLOW_FACTOR : 1), () => speakSynth(text, synthRate));
     return true;
   }
   if (!synth() || (voicesSettled && !getBengaliVoice())) return false;
-  speakSynth(bn, synthRate);
+  speakSynth(text, synthRate);
   return true;
 }
 
@@ -302,10 +321,10 @@ export function useHasBengaliVoice(): boolean {
   return useBengaliVoice() === "yes";
 }
 
-/** Reactive, per text: can `speak(bn)` produce sound (recorded clip or device voice)? */
-export function useCanSpeak(bn: string): AudioAvailability {
+/** Reactive, per text: can `speak(bn, { letter })` produce sound (recorded clip or device voice)? */
+export function useCanSpeak(bn: string, { letter = false }: { letter?: boolean } = {}): AudioAvailability {
   const voice = useBengaliVoice();
-  return hasRecording(bn) ? "yes" : voice;
+  return hasRecording(bn, { letter }) ? "yes" : voice;
 }
 
 /** Name and language of the device voice that would be used, or null. */
