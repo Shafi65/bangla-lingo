@@ -1,0 +1,746 @@
+{
+  "unit": "r01-signs",
+  "entries": [
+    {
+      "id": "probesh",
+      "bn": "প্রবেশ",
+      "tr": "probesh",
+      "en": "entry; way in",
+      "alt": [
+        "entrance",
+        "entering"
+      ],
+      "pos": "noun",
+      "lesson": "r01-l01",
+      "register": "formal-written",
+      "notes": "Register: formal (written). Everyday word: ঢোকা. Sign: প্রবেশ 'Way in'. প্র = প + র (ro-fola)."
+    },
+    {
+      "id": "bahir",
+      "bn": "বাহির",
+      "tr": "bahir",
+      "en": "way out (sign)",
+      "alt": [
+        "exit"
+      ],
+      "pos": "noun",
+      "lesson": "r01-l01",
+      "register": "formal-written",
+      "notes": "Register: formal (written). Everyday word: বাইরে. Older, written form of বাইরে 'outside'; on signs it means 'Way out'."
+    },
+    {
+      "id": "prosthan",
+      "bn": "প্রস্থান",
+      "tr": "prosthan",
+      "en": "exit; departure",
+      "alt": [
+        "leaving"
+      ],
+      "pos": "noun",
+      "lesson": "r01-l01",
+      "register": "formal-written",
+      "notes": "Register: formal (written). Everyday word: বের হওয়া. প্র (ro-fola) + স্থ (স + থ)."
+    },
+    {
+      "id": "bohirgomon",
+      "bn": "বহির্গমন",
+      "tr": "bohirgomon",
+      "en": "exit (way out)",
+      "alt": [
+        "exit"
+      ],
+      "pos": "noun",
+      "lesson": "r01-l01",
+      "register": "formal-written",
+      "notes": "Register: formal (written). Everyday word: বের হওয়ার পথ. Sign word, rare in speech: জরুরি বহির্গমন 'emergency exit'. র্গ = ref on গ."
+    },
+    {
+      "id": "fotok",
+      "bn": "ফটক",
+      "tr": "fotok",
+      "en": "gate",
+      "pos": "noun",
+      "lesson": "r01-l01",
+      "register": "formal-written",
+      "notes": "Register: formal (written). Everyday word: গেট. প্রধান ফটক 'main gate'."
+    },
+    {
+      "id": "prodhan",
+      "bn": "প্রধান",
+      "tr": "prodhan",
+      "en": "main; chief",
+      "alt": [
+        "head",
+        "principal"
+      ],
+      "pos": "adj",
+      "lesson": "r01-l01",
+      "register": "formal-written",
+      "notes": "Register: formal (written). Everyday word: বড়. প্রধান ফটক 'main gate', প্রধান শাখা 'main branch'."
+    },
+    {
+      "id": "obbhorthona",
+      "bn": "অভ্যর্থনা",
+      "tr": "obbhorthona",
+      "en": "reception",
+      "alt": [
+        "welcome"
+      ],
+      "pos": "noun",
+      "lesson": "r01-l01",
+      "register": "formal-written",
+      "notes": "Register: formal (written). ভ্য doubles the bh: o-bbhor-tho-na. Then র্থ (ref on থ)."
+    },
+    {
+      "id": "bibhag",
+      "bn": "বিভাগ",
+      "tr": "bibhag",
+      "en": "department",
+      "alt": [
+        "section"
+      ],
+      "pos": "noun",
+      "lesson": "r01-l01",
+      "register": "formal-written",
+      "notes": "Register: formal (written). জরুরি বিভাগ 'emergency department'. Also 'division' (of the country)."
+    },
+    {
+      "id": "nishedh",
+      "bn": "নিষেধ",
+      "tr": "nishedh",
+      "en": "not allowed; forbidden",
+      "alt": [
+        "prohibited"
+      ],
+      "pos": "adj",
+      "lesson": "r01-l02",
+      "register": "formal-written",
+      "notes": "Register: formal (written). Everyday word: মানা. ধূমপান নিষেধ 'No smoking'. Spelled with ষ, said sh."
+    },
+    {
+      "id": "nishiddho",
+      "bn": "নিষিদ্ধ",
+      "tr": "nishiddho",
+      "en": "prohibited; banned",
+      "alt": [
+        "forbidden",
+        "banned"
+      ],
+      "pos": "adj",
+      "lesson": "r01-l02",
+      "register": "formal-written",
+      "notes": "Register: formal (written). Everyday word: মানা. Stronger, official word than নিষেধ. ষ + short ি, then দ্ধ (দ + ধ)."
+    },
+    {
+      "id": "dhumpan",
+      "bn": "ধূমপান",
+      "tr": "dhumpan",
+      "en": "smoking",
+      "pos": "noun",
+      "lesson": "r01-l02",
+      "register": "formal-written",
+      "notes": "Register: formal (written). Everyday word: সিগারেট খাওয়া. ধূম 'smoke' + পান 'drinking': long ূ."
+    },
+    {
+      "id": "onumoti",
+      "bn": "অনুমতি",
+      "tr": "onumoti",
+      "en": "permission",
+      "pos": "noun",
+      "lesson": "r01-l02",
+      "register": "formal-written",
+      "notes": "Register: formal (written)."
+    },
+    {
+      "id": "byatito",
+      "bn": "ব্যতীত",
+      "tr": "byatito",
+      "en": "without; except",
+      "alt": [
+        "except"
+      ],
+      "pos": "postposition",
+      "lesson": "r01-l02",
+      "register": "formal-written",
+      "notes": "Register: formal (written). Everyday word: ছাড়া. Written partner of ছাড়া. ব্য = ব + য (jo-fola); long ী."
+    },
+    {
+      "id": "shongrokkhito",
+      "bn": "সংরক্ষিত",
+      "tr": "shongrokkhito",
+      "en": "reserved; restricted",
+      "alt": [
+        "restricted"
+      ],
+      "pos": "adj",
+      "lesson": "r01-l02",
+      "register": "formal-written",
+      "notes": "Register: formal (written). ং + ক্ষ (said kkh): shong-rok-khito."
+    },
+    {
+      "id": "onugroho-kore",
+      "bn": "অনুগ্রহ করে",
+      "tr": "onugroho kore",
+      "en": "please (formal, written)",
+      "alt": [
+        "kindly"
+      ],
+      "pos": "phrase",
+      "lesson": "r01-l03",
+      "register": "formal-written",
+      "notes": "Register: formal (written). Everyday word: দয়া করে. Lit. 'doing a kindness'. গ্র = গ + র (ro-fola)."
+    },
+    {
+      "id": "onurodh",
+      "bn": "অনুরোধ",
+      "tr": "onurodh",
+      "en": "request",
+      "pos": "noun",
+      "lesson": "r01-l03",
+      "register": "formal-written",
+      "notes": "Register: formal (written)."
+    },
+    {
+      "id": "felun",
+      "bn": "ফেলুন",
+      "tr": "felun",
+      "en": "please throw; put (standard)",
+      "alt": [
+        "throw (polite)"
+      ],
+      "pos": "verb",
+      "lesson": "r01-l03",
+      "register": "formal-written",
+      "notes": "Register: formal (written). Everyday word: ফেলেন. -উন: the written polite command (everyday BD speech says ফেলেন)."
+    },
+    {
+      "id": "khulun",
+      "bn": "খুলুন",
+      "tr": "khulun",
+      "en": "please take off; open (standard)",
+      "alt": [
+        "open (polite)"
+      ],
+      "pos": "verb",
+      "lesson": "r01-l03",
+      "register": "formal-written",
+      "notes": "Register: formal (written). Everyday word: খোলেন. -উন: the written polite command. জুতা খুলুন 'please take off your shoes'."
+    },
+    {
+      "id": "rakhun",
+      "bn": "রাখুন",
+      "tr": "rakhun",
+      "en": "please keep (standard)",
+      "alt": [
+        "keep (polite)"
+      ],
+      "pos": "verb",
+      "lesson": "r01-l03",
+      "register": "formal-written",
+      "notes": "Register: formal (written). Everyday word: রাখেন. -উন command on signs: বন্ধ রাখুন 'keep switched off'. Everyday BD speech says রাখেন."
+    },
+    {
+      "id": "byabohar",
+      "bn": "ব্যবহার",
+      "tr": "byabohar",
+      "en": "use",
+      "alt": [
+        "usage"
+      ],
+      "pos": "noun",
+      "lesson": "r01-l03",
+      "register": "formal-written",
+      "notes": "Register: formal (written). ব্যবহার করুন 'please use'. Also 'behaviour'. ব্য = ব + য (jo-fola)."
+    },
+    {
+      "id": "nirdishto",
+      "bn": "নির্দিষ্ট",
+      "tr": "nirdishto",
+      "en": "designated; set",
+      "alt": [
+        "specified",
+        "fixed"
+      ],
+      "pos": "adj",
+      "lesson": "r01-l03",
+      "register": "formal-written",
+      "notes": "Register: formal (written). র্দ (ref on দ) + ষ্ট (ষ + ট)."
+    },
+    {
+      "id": "sthan",
+      "bn": "স্থান",
+      "tr": "sthan",
+      "en": "place",
+      "alt": [
+        "site"
+      ],
+      "pos": "noun",
+      "lesson": "r01-l03",
+      "register": "formal-written",
+      "notes": "Register: formal (written). Everyday word: জায়গা. স্থ = স + থ."
+    },
+    {
+      "id": "sthane",
+      "bn": "স্থানে",
+      "tr": "sthane",
+      "en": "in the place; at the place",
+      "alt": [
+        "in the place"
+      ],
+      "pos": "noun",
+      "lesson": "r01-l03",
+      "register": "formal-written",
+      "notes": "Register: formal (written). Everyday word: জায়গায়."
+    },
+    {
+      "id": "porichchhonno",
+      "bn": "পরিচ্ছন্ন",
+      "tr": "porichchhonno",
+      "en": "clean; tidy",
+      "alt": [
+        "tidy",
+        "neat"
+      ],
+      "pos": "adj",
+      "lesson": "r01-l03",
+      "register": "formal-written",
+      "notes": "Register: formal (written). Everyday word: পরিষ্কার. চ্ছ (চ + ছ) and ন্ন (ন + ন)."
+    },
+    {
+      "id": "shabdhan",
+      "bn": "সাবধান",
+      "tr": "shabdhan",
+      "en": "careful!; beware",
+      "alt": [
+        "caution",
+        "careful"
+      ],
+      "pos": "adj",
+      "lesson": "r01-l04",
+      "register": "formal-written",
+      "notes": "Register: formal; also heard in speech. Heard in speech too; on signs it is the heading 'Caution!'."
+    },
+    {
+      "id": "shotorko",
+      "bn": "সতর্ক",
+      "tr": "shotorko",
+      "en": "alert; careful",
+      "alt": [
+        "cautious"
+      ],
+      "pos": "adj",
+      "lesson": "r01-l04",
+      "register": "formal-written",
+      "notes": "Register: formal (written). Everyday word: সাবধান. সতর্ক থাকুন 'stay alert'. র্ক = ref on ক."
+    },
+    {
+      "id": "thakun",
+      "bn": "থাকুন",
+      "tr": "thakun",
+      "en": "please stay; please be (standard)",
+      "alt": [
+        "stay (polite)"
+      ],
+      "pos": "verb",
+      "lesson": "r01-l04",
+      "register": "formal-written",
+      "notes": "Register: formal (written). Everyday word: থাকেন. -উন command: দূরে থাকুন 'keep away'."
+    },
+    {
+      "id": "bipod",
+      "bn": "বিপদ",
+      "tr": "bipod",
+      "en": "danger",
+      "alt": [
+        "trouble"
+      ],
+      "pos": "noun",
+      "lesson": "r01-l04",
+      "register": "formal-written",
+      "notes": "Register: formal; also heard in speech. Sign heading 'Danger!'; also everyday 'trouble'."
+    },
+    {
+      "id": "bipojjonok",
+      "bn": "বিপজ্জনক",
+      "tr": "bipojjonok",
+      "en": "dangerous",
+      "pos": "adj",
+      "lesson": "r01-l04",
+      "register": "formal-written",
+      "notes": "Register: formal (written). জ্জ = a held j: bi-poj-jo-nok."
+    },
+    {
+      "id": "boiddutik",
+      "bn": "বৈদ্যুতিক",
+      "tr": "boiddutik",
+      "en": "electrical; electric",
+      "alt": [
+        "electric"
+      ],
+      "pos": "adj",
+      "lesson": "r01-l04",
+      "register": "formal-written",
+      "notes": "Register: formal (written). দ্য doubles the d: boid-du-tik."
+    },
+    {
+      "id": "sporsho",
+      "bn": "স্পর্শ",
+      "tr": "sporsho",
+      "en": "touch",
+      "pos": "noun",
+      "lesson": "r01-l04",
+      "register": "formal-written",
+      "notes": "Register: formal (written). Everyday word: ধরা. স্পর্শ করবেন না 'do not touch'. স্প (স + প), then র্শ (ref on শ)."
+    },
+    {
+      "id": "ogni",
+      "bn": "অগ্নি",
+      "tr": "ogni",
+      "en": "fire (formal)",
+      "pos": "noun",
+      "lesson": "r01-l04",
+      "register": "formal-written",
+      "notes": "Register: formal (written). Everyday word: আগুন. অগ্নি নিরাপত্তা 'fire safety'. গ্ন = গ + ন."
+    },
+    {
+      "id": "nirapod",
+      "bn": "নিরাপদ",
+      "tr": "nirapod",
+      "en": "safe",
+      "pos": "adj",
+      "lesson": "r01-l04",
+      "register": "formal-written",
+      "notes": "Register: formal; also heard in speech."
+    },
+    {
+      "id": "nirapotta",
+      "bn": "নিরাপত্তা",
+      "tr": "nirapotta",
+      "en": "safety; security",
+      "alt": [
+        "security"
+      ],
+      "pos": "noun",
+      "lesson": "r01-l04",
+      "register": "formal-written",
+      "notes": "Register: formal; also heard in speech. ত্ত = a held t."
+    },
+    {
+      "id": "shomoyshuchi",
+      "bn": "সময়সূচি",
+      "tr": "shomoyshuchi",
+      "en": "timetable; opening hours",
+      "alt": [
+        "schedule",
+        "hours"
+      ],
+      "pos": "noun",
+      "lesson": "r01-l05",
+      "register": "formal-written",
+      "notes": "Register: formal (written). Academy spelling সূচি (short ি); সময়সূচী is also seen."
+    },
+    {
+      "id": "shaptahik",
+      "bn": "সাপ্তাহিক",
+      "tr": "shaptahik",
+      "en": "weekly",
+      "pos": "adj",
+      "lesson": "r01-l05",
+      "register": "formal-written",
+      "notes": "Register: formal (written). সাপ্তাহিক ছুটি 'weekly day off'. প্ত = প + ত."
+    },
+    {
+      "id": "shorkari",
+      "bn": "সরকারি",
+      "tr": "shorkari",
+      "en": "government; public",
+      "alt": [
+        "public"
+      ],
+      "pos": "adj",
+      "lesson": "r01-l05",
+      "register": "formal-written",
+      "notes": "Register: formal; also heard in speech. সরকারি ছুটি 'public holiday'."
+    },
+    {
+      "id": "sthogito",
+      "bn": "স্থগিত",
+      "tr": "sthogito",
+      "en": "postponed; suspended",
+      "alt": [
+        "suspended"
+      ],
+      "pos": "adj",
+      "lesson": "r01-l05",
+      "register": "formal-written",
+      "notes": "Register: formal (written). Not cancelled: it will happen later. স্থ = স + থ."
+    },
+    {
+      "id": "batil",
+      "bn": "বাতিল",
+      "tr": "batil",
+      "en": "cancelled",
+      "alt": [
+        "called off"
+      ],
+      "pos": "adj",
+      "lesson": "r01-l05",
+      "register": "formal-written",
+      "notes": "Register: formal; also heard in speech."
+    },
+    {
+      "id": "shamoyik",
+      "bn": "সাময়িক",
+      "tr": "shamoyik",
+      "en": "temporary",
+      "pos": "adj",
+      "lesson": "r01-l05",
+      "register": "formal-written",
+      "notes": "Register: formal (written). সাময়িক অসুবিধা 'temporary inconvenience'."
+    },
+    {
+      "id": "oshubidha",
+      "bn": "অসুবিধা",
+      "tr": "oshubidha",
+      "en": "inconvenience; problem",
+      "alt": [
+        "difficulty",
+        "problem"
+      ],
+      "pos": "noun",
+      "lesson": "r01-l05",
+      "register": "formal-written",
+      "notes": "Register: formal; also heard in speech. Common in speech too: কোনো অসুবিধা নেই 'no problem'."
+    },
+    {
+      "id": "oshubidhar",
+      "bn": "অসুবিধার",
+      "tr": "oshubidhar",
+      "en": "for the inconvenience",
+      "alt": [
+        "of the inconvenience"
+      ],
+      "pos": "noun",
+      "lesson": "r01-l05",
+      "register": "formal-written",
+      "notes": "Register: formal; also heard in speech."
+    },
+    {
+      "id": "chalu",
+      "bn": "চালু",
+      "tr": "chalu",
+      "en": "working; open; in service",
+      "alt": [
+        "running",
+        "on"
+      ],
+      "pos": "adj",
+      "lesson": "r01-l05",
+      "register": "formal-written",
+      "notes": "Register: formal; also heard in speech. Everyday word: খোলা."
+    },
+    {
+      "id": "biggopti",
+      "bn": "বিজ্ঞপ্তি",
+      "tr": "biggopti",
+      "en": "notice; announcement",
+      "alt": [
+        "announcement"
+      ],
+      "pos": "noun",
+      "lesson": "r01-l06",
+      "register": "formal-written",
+      "notes": "Register: formal (written). জ্ঞ is said gg (not jn): big-gop-ti. প্ত = প + ত."
+    },
+    {
+      "id": "kortripokkho",
+      "bn": "কর্তৃপক্ষ",
+      "tr": "kortripokkho",
+      "en": "the management; the authority",
+      "alt": [
+        "the authorities"
+      ],
+      "pos": "noun",
+      "lesson": "r01-l06",
+      "register": "formal-written",
+      "notes": "Register: formal (written). র্ত (ref on ত) + ৃ (ri), then ক্ষ (kkh)."
+    },
+    {
+      "id": "shorboshadharoner",
+      "bn": "সর্বসাধারণের",
+      "tr": "shorboshadharoner",
+      "en": "of the general public",
+      "alt": [
+        "of the public"
+      ],
+      "pos": "noun",
+      "lesson": "r01-l06",
+      "register": "formal-written",
+      "notes": "Register: formal (written). From সর্বসাধারণ 'the general public' + -এর. র্ব = ref on ব; ণ in tatsama."
+    },
+    {
+      "id": "obogotir",
+      "bn": "অবগতির",
+      "tr": "obogotir",
+      "en": "for the information (of)",
+      "pos": "noun",
+      "lesson": "r01-l06",
+      "register": "formal-written",
+      "notes": "Register: formal (written). From অবগতি 'knowledge'. Fixed phrase: … অবগতির জন্য 'for the information of …'."
+    },
+    {
+      "id": "ukto",
+      "bn": "উক্ত",
+      "tr": "ukto",
+      "en": "the said; that (just mentioned)",
+      "alt": [
+        "the above"
+      ],
+      "pos": "adj",
+      "lesson": "r01-l06",
+      "register": "formal-written",
+      "notes": "Register: formal (written). Everyday word: ওই. Written partner of ওই/সেই: উক্ত সময়ে 'during that time'. ক্ত = ক + ত."
+    },
+    {
+      "id": "nirdharito",
+      "bn": "নির্ধারিত",
+      "tr": "nirdharito",
+      "en": "scheduled; fixed",
+      "alt": [
+        "set"
+      ],
+      "pos": "adj",
+      "lesson": "r01-l06",
+      "register": "formal-written",
+      "notes": "Register: formal (written). র্ধ = ref on ধ."
+    },
+    {
+      "id": "adeshkrome",
+      "bn": "আদেশক্রমে",
+      "tr": "adeshkrome",
+      "en": "by order",
+      "pos": "adv",
+      "lesson": "r01-l06",
+      "register": "formal-written",
+      "notes": "Register: formal (written). Closing formula on notices, before the sender: আদেশক্রমে, কর্তৃপক্ষ. ক্র = ক + র."
+    },
+    {
+      "id": "hoibe",
+      "bn": "হইবে",
+      "tr": "hoibe",
+      "en": "will be (sadhu)",
+      "pos": "verb",
+      "lesson": "r01-l06",
+      "register": "formal-written",
+      "notes": "Register: sadhu (old written style; recognise only). Everyday word: হবে. Sadhu (old written) form of হবে. Recognise it only; do not use it in speech."
+    },
+    {
+      "id": "sheba",
+      "bn": "সেবা",
+      "tr": "sheba",
+      "en": "service",
+      "alt": [
+        "care"
+      ],
+      "pos": "noun",
+      "lesson": "r01-l07",
+      "register": "formal-written",
+      "notes": "Register: formal; also heard in speech. গ্রাহক সেবা 'customer service'."
+    },
+    {
+      "id": "grahok",
+      "bn": "গ্রাহক",
+      "tr": "grahok",
+      "en": "customer",
+      "alt": [
+        "client"
+      ],
+      "pos": "noun",
+      "lesson": "r01-l07",
+      "register": "formal-written",
+      "notes": "Register: formal (written). গ্র = গ + র (ro-fola)."
+    },
+    {
+      "id": "sharite",
+      "bn": "সারিতে",
+      "tr": "sharite",
+      "en": "in the queue; in line",
+      "alt": [
+        "in line"
+      ],
+      "pos": "noun",
+      "lesson": "r01-l07",
+      "register": "formal-written",
+      "notes": "Register: formal (written). Everyday word: লাইনে. From সারি 'row, queue' (everyday লাইন)."
+    },
+    {
+      "id": "shakha",
+      "bn": "শাখা",
+      "tr": "shakha",
+      "en": "branch",
+      "pos": "noun",
+      "lesson": "r01-l07",
+      "register": "formal-written",
+      "notes": "Register: formal (written). প্রধান শাখা 'main branch'."
+    },
+    {
+      "id": "karjaloy",
+      "bn": "কার্যালয়",
+      "tr": "karjaloy",
+      "en": "office (formal)",
+      "pos": "noun",
+      "lesson": "r01-l07",
+      "register": "formal-written",
+      "notes": "Register: formal (written). Everyday word: অফিস. র্য = ref on য: kar-ja-loy."
+    },
+    {
+      "id": "shouchagar",
+      "bn": "শৌচাগার",
+      "tr": "shouchagar",
+      "en": "toilet (formal)",
+      "alt": [
+        "restroom"
+      ],
+      "pos": "noun",
+      "lesson": "r01-l07",
+      "register": "formal-written",
+      "notes": "Register: formal (written). Everyday word: বাথরুম. Sign word; in speech বাথরুম or টয়লেট. শ + ৌ."
+    },
+    {
+      "id": "purush",
+      "bn": "পুরুষ",
+      "tr": "purush",
+      "en": "men; male",
+      "alt": [
+        "man"
+      ],
+      "pos": "noun",
+      "lesson": "r01-l07",
+      "register": "formal-written",
+      "notes": "Register: formal; also heard in speech. পুরুষ শৌচাগার 'men's toilet'. Ends in ষ."
+    },
+    {
+      "id": "ashon",
+      "bn": "আসন",
+      "tr": "ashon",
+      "en": "seat",
+      "pos": "noun",
+      "lesson": "r01-l07",
+      "register": "formal-written",
+      "notes": "Register: formal (written). সংরক্ষিত আসন 'reserved seat' (everyday সিট)."
+    },
+    {
+      "id": "proyojon",
+      "bn": "প্রয়োজন",
+      "tr": "proyojon",
+      "en": "need (formal)",
+      "alt": [
+        "necessity"
+      ],
+      "pos": "noun",
+      "lesson": "r01-l07",
+      "register": "formal-written",
+      "notes": "Register: formal (written). Everyday word: দরকার. Written partner of দরকার. প্র + য়."
+    }
+  ]
+}

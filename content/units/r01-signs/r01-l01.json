@@ -1,0 +1,520 @@
+{
+  "id": "r01-l01",
+  "unit": "r01-signs",
+  "title": "Way in, way out",
+  "status": "draft",
+  "tip": "Signs use **formal words** that you rarely say. You already know their everyday partners:\n\n- **প্রবেশ** 'way in' (you say ঢোকা)\n- **ফটক** 'gate' (you say গেট)\n- **বাহির** 'way out', the old written form of বাইরে\n\n**Reading the conjuncts:** a small stroke under a letter is **র-ফলা** (ro-fola), an r after it: **প্র** = প + র in **প্রবেশ**, **প্রধান**. A hook on top is **ref**, an r before it: **র্গ** in **বহির্গমন** (bohir-gomon). In **অভ্যর্থনা** the য-ফলা doubles the ভ: *obbhorthona*.",
+  "vocab": [
+    {
+      "id": "probesh",
+      "bn": "প্রবেশ",
+      "tr": "probesh",
+      "en": "entry; way in",
+      "notes": "Register: formal (written). Everyday word: ঢোকা. Sign: প্রবেশ 'Way in'. প্র = প + র (ro-fola)."
+    },
+    {
+      "id": "bahir",
+      "bn": "বাহির",
+      "tr": "bahir",
+      "en": "way out (sign)",
+      "notes": "Register: formal (written). Everyday word: বাইরে. Older, written form of বাইরে 'outside'; on signs it means 'Way out'."
+    },
+    {
+      "id": "prosthan",
+      "bn": "প্রস্থান",
+      "tr": "prosthan",
+      "en": "exit; departure",
+      "notes": "Register: formal (written). Everyday word: বের হওয়া. প্র (ro-fola) + স্থ (স + থ)."
+    },
+    {
+      "id": "bohirgomon",
+      "bn": "বহির্গমন",
+      "tr": "bohirgomon",
+      "en": "exit (way out)",
+      "notes": "Register: formal (written). Everyday word: বের হওয়ার পথ. Sign word, rare in speech: জরুরি বহির্গমন 'emergency exit'. র্গ = ref on গ."
+    },
+    {
+      "id": "fotok",
+      "bn": "ফটক",
+      "tr": "fotok",
+      "en": "gate",
+      "notes": "Register: formal (written). Everyday word: গেট. প্রধান ফটক 'main gate'."
+    },
+    {
+      "id": "prodhan",
+      "bn": "প্রধান",
+      "tr": "prodhan",
+      "en": "main; chief",
+      "notes": "Register: formal (written). Everyday word: বড়. প্রধান ফটক 'main gate', প্রধান শাখা 'main branch'."
+    },
+    {
+      "id": "obbhorthona",
+      "bn": "অভ্যর্থনা",
+      "tr": "obbhorthona",
+      "en": "reception",
+      "notes": "Register: formal (written). ভ্য doubles the bh: o-bbhor-tho-na. Then র্থ (ref on থ)."
+    },
+    {
+      "id": "bibhag",
+      "bn": "বিভাগ",
+      "tr": "bibhag",
+      "en": "department",
+      "notes": "Register: formal (written). জরুরি বিভাগ 'emergency department'. Also 'division' (of the country)."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "জরুরি",
+        "tr": "joruri",
+        "en": "urgent; emergency"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "বন্ধ",
+        "জরুরি",
+        "বাইরে",
+        "খালি"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "বাইরে",
+        "tr": "baire",
+        "en": "outside"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "বাইরে",
+        "কাছে",
+        "দূরে",
+        "পাশে"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e03",
+      "type": "reading",
+      "title": "At the hospital gate",
+      "lines": [
+        {
+          "bn": "প্রধান ফটক",
+          "tr": "prodhan fotok",
+          "en": "Main gate"
+        },
+        {
+          "bn": "প্রবেশ",
+          "tr": "probesh",
+          "en": "Way in"
+        },
+        {
+          "bn": "বাহির",
+          "tr": "bahir",
+          "en": "Way out"
+        },
+        {
+          "bn": "অভ্যর্থনা",
+          "tr": "obbhorthona",
+          "en": "Reception"
+        },
+        {
+          "bn": "জরুরি বিভাগ",
+          "tr": "joruri bibhag",
+          "en": "Emergency department"
+        },
+        {
+          "bn": "জরুরি বহির্গমন",
+          "tr": "joruri bohirgomon",
+          "en": "Emergency exit"
+        }
+      ],
+      "question": "You have just arrived and need information. Which sign do you look for?",
+      "options": [
+        "Main gate",
+        "Way out",
+        "Emergency exit",
+        "Reception"
+      ],
+      "answer": 3,
+      "why": "**অভ্যর্থনা** 'reception' is where you ask first."
+    },
+    {
+      "id": "e04",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "প্রস্থান",
+        "tr": "prosthan",
+        "en": "exit; departure"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "entry; way in",
+        "reception",
+        "exit; departure",
+        "department"
+      ],
+      "answer": 2,
+      "why": "**প্রস্থান** 'exit, departure': প্র (ro-fola) + স্থ."
+    },
+    {
+      "id": "e05",
+      "type": "listen_select",
+      "audio": {
+        "bn": "বহির্গমন",
+        "tr": "bohirgomon",
+        "en": "exit (way out)"
+      },
+      "options": [
+        "প্রবেশ",
+        "বহির্গমন",
+        "প্রস্থান",
+        "বিভাগ"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e06",
+      "type": "script_recognize",
+      "glyph": "প্রবেশ",
+      "options": [
+        "probesh (প + র: ro-fola)",
+        "porobesh (প and র, each with a vowel)",
+        "pobesh (no r)",
+        "rpobesh (র first: ref)"
+      ],
+      "answer": 0,
+      "why": "The small stroke under প is **ro-fola**: an r **after** the letter. প্র = *pro*."
+    },
+    {
+      "id": "e07",
+      "type": "script_recognize",
+      "glyph": "বহির্গমন",
+      "options": [
+        "bohigromon (ro-fola: r after গ)",
+        "bohigomon (no r)",
+        "borhigomon (r at the start)",
+        "bohirgomon (ref: r before গ)"
+      ],
+      "answer": 3,
+      "why": "The hook on top of গ is **ref**: an r **before** the letter. র্গ = *rg*."
+    },
+    {
+      "id": "e08",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "প্রধান ফটক এখানে।",
+        "tr": "prodhan fotok ekhane.",
+        "en": "The main gate is here."
+      },
+      "blank": "ফটক",
+      "options": [
+        "বিভাগ",
+        "অভ্যর্থনা",
+        "ফটক",
+        "প্রবেশ"
+      ],
+      "answer": 2,
+      "why": "**ফটক** is the sign word for everyday **গেট** 'gate'."
+    },
+    {
+      "id": "e09",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "প্রবেশ",
+        "tr": "probesh",
+        "en": "way in (the word on the sign)"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "ঢোকা",
+        "প্রবেশ",
+        "বাহির",
+        "প্রস্থান"
+      ],
+      "answer": 1,
+      "why": "Signs say **প্রবেশ**. **ঢোকা** 'going in' is the everyday word, not the sign."
+    },
+    {
+      "id": "e10",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "অভ্যর্থনা",
+        "tr": "obbhorthona",
+        "en": "reception"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "অভ্যর্থনা",
+        "বিভাগ",
+        "বহির্গমন",
+        "ফটক"
+      ],
+      "answer": 0,
+      "why": "**অভ্যর্থনা**: ভ্য doubles the bh, *obbhorthona*."
+    },
+    {
+      "id": "e11",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "জরুরি বিভাগ বামে।",
+        "tr": "joruri bibhag bame.",
+        "en": "The emergency department is on the left."
+      },
+      "blank": "বিভাগ",
+      "accepted": [
+        "বিভাগ",
+        "bibhag",
+        "bibhaag",
+        "bivag"
+      ],
+      "why": "**বিভাগ** 'department': ি, then breathy ভ."
+    },
+    {
+      "id": "e12",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "জরুরি বহির্গমন কোথায়?",
+        "tr": "joruri bohirgomon kothay?",
+        "en": "Where is the emergency exit?"
+      },
+      "options": [
+        "Where is the emergency department?",
+        "Where is the main gate?",
+        "Is this the way out?",
+        "Where is the emergency exit?"
+      ],
+      "answer": 3,
+      "why": "**বহির্গমন** 'exit'; **বিভাগ** would be 'department'."
+    },
+    {
+      "id": "e13",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "প্রস্থান প্রধান ফটক দিয়ে।",
+        "tr": "prosthan prodhan fotok diye.",
+        "en": "Exit through the main gate."
+      },
+      "options": [
+        "Enter through the main gate.",
+        "The main gate is closed.",
+        "Exit through the main gate.",
+        "Reception is by the main gate."
+      ],
+      "answer": 2,
+      "why": "**প্রস্থান** is 'exit'; 'entry' would be **প্রবেশ**."
+    },
+    {
+      "id": "e14",
+      "type": "reading",
+      "title": "At the hospital gate: read it again",
+      "lines": [
+        {
+          "bn": "প্রধান ফটক",
+          "tr": "prodhan fotok",
+          "en": "Main gate"
+        },
+        {
+          "bn": "প্রবেশ",
+          "tr": "probesh",
+          "en": "Way in"
+        },
+        {
+          "bn": "বাহির",
+          "tr": "bahir",
+          "en": "Way out"
+        },
+        {
+          "bn": "অভ্যর্থনা",
+          "tr": "obbhorthona",
+          "en": "Reception"
+        },
+        {
+          "bn": "জরুরি বিভাগ",
+          "tr": "joruri bibhag",
+          "en": "Emergency department"
+        },
+        {
+          "bn": "জরুরি বহির্গমন",
+          "tr": "joruri bohirgomon",
+          "en": "Emergency exit"
+        }
+      ],
+      "question": "Which one is the way out?",
+      "questionBn": {
+        "bn": "বাহির কোনটা?",
+        "tr": "bahir konta?",
+        "en": "Which one is the way out?"
+      },
+      "options": [
+        "প্রবেশ",
+        "বাহির",
+        "অভ্যর্থনা",
+        "প্রধান ফটক"
+      ],
+      "answer": 1,
+      "why": "**বাহির** is the sign form of **বাইরে**: 'way out'."
+    },
+    {
+      "id": "e15",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "প্রবেশ এই দিকে।",
+        "tr": "probesh ei dike.",
+        "en": "The way in is this way."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "প্রবেশ",
+        "বাহির",
+        "এই",
+        "ওই",
+        "দিকে",
+        "প্রস্থান"
+      ],
+      "answer": [
+        "প্রবেশ",
+        "এই",
+        "দিকে"
+      ]
+    },
+    {
+      "id": "e16",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "বাহির ওই দিকে।",
+        "tr": "bahir oi dike.",
+        "en": "The way out is that way."
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "বাহির ওই দিকে",
+        "প্রস্থান ওই দিকে",
+        "bahir oi dike"
+      ]
+    },
+    {
+      "id": "e17",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "ভাই, অভ্যর্থনা কোথায়?",
+        "tr": "bhai, obbhorthona kothay?",
+        "en": "Excuse me, where is reception?"
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "ভাই অভ্যর্থনা কোথায়",
+        "অভ্যর্থনা কোথায়",
+        "bhai obbhorthona kothay"
+      ]
+    },
+    {
+      "id": "r01",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "গ্রাম আর আগের মতো নেই।",
+        "tr": "gram ar ager moto nei.",
+        "en": "The village isn't what it used to be."
+      },
+      "options": [
+        "The village isn't what it used to be.",
+        "The temple is next to the market.",
+        "Where is the fair?",
+        "We won't eat meat."
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "এখনকার",
+        "tr": "ekhonkar",
+        "en": "of today"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "এখনকার",
+        "সামনের",
+        "পরিষ্কার",
+        "গত"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "তখনকার দিনগুলো খুব সুন্দর ছিল।",
+        "tr": "tokhonkar dingulo khub shundor chhilo.",
+        "en": "Those days were very beautiful."
+      },
+      "blank": "দিনগুলো",
+      "accepted": [
+        "দিনগুলো",
+        "dingulo"
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "একজন",
+          "tr": "ekjon",
+          "en": "one (person)"
+        },
+        {
+          "bn": "কেমন",
+          "tr": "kemon",
+          "en": "how"
+        },
+        {
+          "bn": "নিন",
+          "tr": "nin",
+          "en": "please take (standard)"
+        },
+        {
+          "bn": "আছিস",
+          "tr": "achhish",
+          "en": "are (intimate)"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "পড়েন",
+          "tr": "poren",
+          "en": "you read (polite)"
+        },
+        {
+          "bn": "এইটা",
+          "tr": "eita",
+          "en": "this one"
+        },
+        {
+          "bn": "ত্রিশ",
+          "tr": "trish",
+          "en": "thirty"
+        },
+        {
+          "bn": "দশটা",
+          "tr": "doshta",
+          "en": "ten (o'clock)"
+        }
+      ],
+      "recycle": true
+    }
+  ]
+}

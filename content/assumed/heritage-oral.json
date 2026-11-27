@@ -1,0 +1,291 @@
+{
+  "name": "heritage-oral",
+  "entries": [
+    {
+      "id": "elaka",
+      "bn": "এলাকা",
+      "tr": "elaka",
+      "en": "area",
+      "pos": "noun"
+    },
+    {
+      "id": "moyla",
+      "bn": "ময়লা",
+      "tr": "moyla",
+      "en": "rubbish; dirt",
+      "pos": "noun",
+      "alt": [
+        "rubbish",
+        "dirt",
+        "litter"
+      ]
+    },
+    {
+      "id": "juta",
+      "bn": "জুতা",
+      "tr": "juta",
+      "en": "shoes",
+      "pos": "noun",
+      "alt": [
+        "shoe"
+      ],
+      "notes": "Kolkata জুতো."
+    },
+    {
+      "id": "mobail",
+      "bn": "মোবাইল",
+      "tr": "mobail",
+      "en": "mobile phone",
+      "pos": "noun",
+      "alt": [
+        "mobile"
+      ]
+    },
+    {
+      "id": "je-that",
+      "bn": "যে",
+      "tr": "je",
+      "en": "that (introduces what is said)",
+      "pos": "particle",
+      "alt": [
+        "that"
+      ],
+      "notes": "জানানো যাচ্ছে যে … 'it is announced that …'."
+    },
+    {
+      "id": "janano",
+      "bn": "জানানো",
+      "tr": "janano",
+      "en": "informing; letting (people) know",
+      "pos": "verb",
+      "alt": [
+        "informing"
+      ]
+    },
+    {
+      "id": "khola",
+      "bn": "খোলা",
+      "tr": "khola",
+      "en": "open",
+      "pos": "adj"
+    },
+    {
+      "id": "dhoka",
+      "bn": "ঢোকা",
+      "tr": "dhoka",
+      "en": "going in",
+      "pos": "verb",
+      "alt": [
+        "entering"
+      ]
+    },
+    {
+      "id": "mana",
+      "bn": "মানা",
+      "tr": "mana",
+      "en": "not allowed (everyday)",
+      "pos": "adj",
+      "alt": [
+        "forbidden"
+      ]
+    },
+    {
+      "id": "get",
+      "bn": "গেট",
+      "tr": "get",
+      "en": "gate",
+      "pos": "noun"
+    },
+    {
+      "id": "jayga",
+      "bn": "জায়গা",
+      "tr": "jayga",
+      "en": "place; space",
+      "pos": "noun",
+      "alt": [
+        "place"
+      ]
+    },
+    {
+      "id": "bhoboner",
+      "bn": "ভবনের",
+      "tr": "bhoboner",
+      "en": "of the building",
+      "pos": "noun"
+    },
+    {
+      "id": "lift",
+      "bn": "লিফট",
+      "tr": "lift",
+      "en": "lift",
+      "pos": "noun",
+      "alt": [
+        "elevator"
+      ]
+    },
+    {
+      "id": "shiri",
+      "bn": "সিঁড়ি",
+      "tr": "shi~ri",
+      "en": "stairs",
+      "pos": "noun",
+      "alt": [
+        "staircase"
+      ]
+    },
+    {
+      "id": "rum",
+      "bn": "রুম",
+      "tr": "rum",
+      "en": "room",
+      "pos": "noun"
+    },
+    {
+      "id": "kauntar",
+      "bn": "কাউন্টার",
+      "tr": "kauntar",
+      "en": "counter",
+      "pos": "noun"
+    },
+    {
+      "id": "kauntare",
+      "bn": "কাউন্টারে",
+      "tr": "kauntare",
+      "en": "at the counter",
+      "pos": "noun"
+    },
+    {
+      "id": "dastbin",
+      "bn": "ডাস্টবিন",
+      "tr": "dastbin",
+      "en": "bin",
+      "pos": "noun",
+      "alt": [
+        "dustbin",
+        "rubbish bin"
+      ]
+    },
+    {
+      "id": "boyoshkoder",
+      "bn": "বয়স্কদের",
+      "tr": "boyoshkoder",
+      "en": "older people's; for older people",
+      "pos": "noun",
+      "alt": [
+        "of elderly people"
+      ]
+    },
+    {
+      "id": "rakha",
+      "bn": "রাখা",
+      "tr": "rakha",
+      "en": "keeping; parking (a car)",
+      "pos": "verb",
+      "alt": [
+        "keeping"
+      ],
+      "notes": "গাড়ি রাখা 'parking'."
+    },
+    {
+      "id": "rakhar",
+      "bn": "রাখার",
+      "tr": "rakhar",
+      "en": "for keeping",
+      "pos": "verb"
+    },
+    {
+      "id": "deoa",
+      "bn": "দেওয়া",
+      "tr": "deoa",
+      "en": "giving; letting (a house)",
+      "pos": "verb",
+      "alt": [
+        "giving"
+      ],
+      "notes": "ভাড়া দেওয়া 'to let, rent out'."
+    },
+    {
+      "id": "cholchhe",
+      "bn": "চলছে",
+      "tr": "cholchhe",
+      "en": "is going on",
+      "pos": "verb",
+      "alt": [
+        "is in progress"
+      ]
+    },
+    {
+      "id": "chhutir",
+      "bn": "ছুটির",
+      "tr": "chhutir",
+      "en": "of the holiday",
+      "pos": "noun"
+    },
+    {
+      "id": "shomoye",
+      "bn": "সময়ে",
+      "tr": "shomoye",
+      "en": "at the time",
+      "pos": "noun",
+      "alt": [
+        "during the time"
+      ]
+    },
+    {
+      "id": "shomoyer",
+      "bn": "সময়ের",
+      "tr": "shomoyer",
+      "en": "of the time",
+      "pos": "noun"
+    },
+    {
+      "id": "bhobon",
+      "bn": "ভবন",
+      "tr": "bhobon",
+      "en": "building",
+      "pos": "noun",
+      "notes": "Also in names of big buildings."
+    },
+    {
+      "id": "ofiser",
+      "bn": "অফিসের",
+      "tr": "ofiser",
+      "en": "of the office",
+      "pos": "noun"
+    },
+    {
+      "id": "rastay",
+      "bn": "রাস্তায়",
+      "tr": "rastay",
+      "en": "on the road",
+      "pos": "noun"
+    },
+    {
+      "id": "rastar",
+      "bn": "রাস্তার",
+      "tr": "rastar",
+      "en": "of the road",
+      "pos": "noun"
+    },
+    {
+      "id": "pasher",
+      "bn": "পাশের",
+      "tr": "pasher",
+      "en": "next; beside",
+      "pos": "adj",
+      "alt": [
+        "next-door"
+      ]
+    },
+    {
+      "id": "hole",
+      "bn": "হলে",
+      "tr": "hole",
+      "en": "if; when",
+      "pos": "particle",
+      "alt": [
+        "if"
+      ]
+    }
+  ]
+}

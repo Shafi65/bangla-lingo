@@ -13,6 +13,10 @@
     {
       "id": 3,
       "title": "Intermediate"
+    },
+    {
+      "id": 4,
+      "title": "Reading track"
     }
   ],
   "units": [
@@ -405,6 +409,30 @@
         "i02-l07",
         "i02-l08",
         "i02-c01"
+      ]
+    },
+    {
+      "id": "r01-signs",
+      "title": "Signs and notices",
+      "description": "Read signs, notices and to-let cards: formal words, conjuncts and the written style",
+      "track": "main",
+      "level": "intermediate",
+      "section": 4,
+      "assumes": [
+        "bridge",
+        "heritage-oral"
+      ],
+      "scriptOnly": true,
+      "lessons": [
+        "r01-l01",
+        "r01-l02",
+        "r01-l03",
+        "r01-l04",
+        "r01-l05",
+        "r01-l06",
+        "r01-l07",
+        "r01-r01",
+        "r01-c01"
       ]
     }
   ]

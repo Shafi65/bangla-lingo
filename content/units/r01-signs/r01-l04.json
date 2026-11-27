@@ -1,0 +1,532 @@
+{
+  "id": "r01-l04",
+  "unit": "r01-signs",
+  "title": "Caution",
+  "status": "draft",
+  "tip": "Warning signs start with a heading: **বিপদ!** 'Danger!' or **সাবধান!** 'Caution!'. Then comes the instruction: **স্পর্শ করবেন না** 'do not touch' (speech: ধরবেন না), **দূরে থাকুন** 'keep away'.\n\n**অগ্নি** is the formal word for **আগুন** 'fire'; you meet it in **অগ্নি নিরাপত্তা** 'fire safety'.\n\n**Conjuncts:** **জ্জ** is a held j (**বিপজ্জনক** *bipojjonok*); **দ্য** doubles the d (**বৈদ্যুতিক** *boiddutik*); **ত্ত** is a held t (**নিরাপত্তা**). **স্প** = স + প, and **র্শ** has a ref: **স্পর্শ** *sporsho*.",
+  "vocab": [
+    {
+      "id": "shabdhan",
+      "bn": "সাবধান",
+      "tr": "shabdhan",
+      "en": "careful!; beware",
+      "notes": "Register: formal; also heard in speech. Heard in speech too; on signs it is the heading 'Caution!'."
+    },
+    {
+      "id": "shotorko",
+      "bn": "সতর্ক",
+      "tr": "shotorko",
+      "en": "alert; careful",
+      "notes": "Register: formal (written). Everyday word: সাবধান. সতর্ক থাকুন 'stay alert'. র্ক = ref on ক."
+    },
+    {
+      "id": "thakun",
+      "bn": "থাকুন",
+      "tr": "thakun",
+      "en": "please stay; please be (standard)",
+      "notes": "Register: formal (written). Everyday word: থাকেন. -উন command: দূরে থাকুন 'keep away'."
+    },
+    {
+      "id": "bipod",
+      "bn": "বিপদ",
+      "tr": "bipod",
+      "en": "danger",
+      "notes": "Register: formal; also heard in speech. Sign heading 'Danger!'; also everyday 'trouble'."
+    },
+    {
+      "id": "bipojjonok",
+      "bn": "বিপজ্জনক",
+      "tr": "bipojjonok",
+      "en": "dangerous",
+      "notes": "Register: formal (written). জ্জ = a held j: bi-poj-jo-nok."
+    },
+    {
+      "id": "boiddutik",
+      "bn": "বৈদ্যুতিক",
+      "tr": "boiddutik",
+      "en": "electrical; electric",
+      "notes": "Register: formal (written). দ্য doubles the d: boid-du-tik."
+    },
+    {
+      "id": "sporsho",
+      "bn": "স্পর্শ",
+      "tr": "sporsho",
+      "en": "touch",
+      "notes": "Register: formal (written). Everyday word: ধরা. স্পর্শ করবেন না 'do not touch'. স্প (স + প), then র্শ (ref on শ)."
+    },
+    {
+      "id": "ogni",
+      "bn": "অগ্নি",
+      "tr": "ogni",
+      "en": "fire (formal)",
+      "notes": "Register: formal (written). Everyday word: আগুন. অগ্নি নিরাপত্তা 'fire safety'. গ্ন = গ + ন."
+    },
+    {
+      "id": "nirapod",
+      "bn": "নিরাপদ",
+      "tr": "nirapod",
+      "en": "safe",
+      "notes": "Register: formal; also heard in speech."
+    },
+    {
+      "id": "nirapotta",
+      "bn": "নিরাপত্তা",
+      "tr": "nirapotta",
+      "en": "safety; security",
+      "notes": "Register: formal; also heard in speech. ত্ত = a held t."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "স্থান",
+        "tr": "sthan",
+        "en": "place"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "ফটক",
+        "অনুরোধ",
+        "স্থান",
+        "বিভাগ"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "রাখুন",
+        "tr": "rakhun",
+        "en": "please keep (standard)"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "খুলুন",
+        "রাখুন",
+        "ফেলুন",
+        "বসুন"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e03",
+      "type": "reading",
+      "title": "Substation and building site",
+      "lines": [
+        {
+          "bn": "বিপদ! বৈদ্যুতিক লাইন।",
+          "tr": "bipod! boiddutik lain.",
+          "en": "Danger! Electric line."
+        },
+        {
+          "bn": "স্পর্শ করবেন না।",
+          "tr": "sporsho korben na.",
+          "en": "Do not touch."
+        },
+        {
+          "bn": "সাবধান! কাজ চলছে।",
+          "tr": "shabdhan! kaj cholchhe.",
+          "en": "Caution! Work in progress."
+        },
+        {
+          "bn": "বিপজ্জনক এলাকা, দূরে থাকুন।",
+          "tr": "bipojjonok elaka, dure thakun.",
+          "en": "Dangerous area, keep away."
+        },
+        {
+          "bn": "সতর্ক থাকুন।",
+          "tr": "shotorko thakun.",
+          "en": "Stay alert."
+        },
+        {
+          "bn": "অগ্নি নিরাপত্তা: সিঁড়ি ব্যবহার করুন।",
+          "tr": "ogni nirapotta: shi~ri byabohar korun.",
+          "en": "Fire safety: use the stairs."
+        }
+      ],
+      "question": "What must you not do near the electric line?",
+      "options": [
+        "Touch it",
+        "Look at it",
+        "Walk past it",
+        "Report it"
+      ],
+      "answer": 0,
+      "why": "**স্পর্শ করবেন না** 'do not touch'."
+    },
+    {
+      "id": "e04",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "নিরাপদ",
+        "tr": "nirapod",
+        "en": "safe"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "dangerous",
+        "careful",
+        "electric",
+        "safe"
+      ],
+      "answer": 3,
+      "why": "**নিরাপদ** 'safe'; **বিপজ্জনক** is 'dangerous'."
+    },
+    {
+      "id": "e05",
+      "type": "listen_select",
+      "audio": {
+        "bn": "বিপজ্জনক",
+        "tr": "bipojjonok",
+        "en": "dangerous"
+      },
+      "options": [
+        "বিপদ",
+        "বৈদ্যুতিক",
+        "বিপজ্জনক",
+        "নিরাপদ"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e06",
+      "type": "script_recognize",
+      "glyph": "বিপজ্জনক",
+      "options": [
+        "bipojonok (one short j)",
+        "bipojjonok (জ + জ, a held j)",
+        "bipodjonok (দ + জ)",
+        "bipojnok (জ + ন)"
+      ],
+      "answer": 1,
+      "why": "**জ্জ** is a double j: *bi-poj-jo-nok*."
+    },
+    {
+      "id": "e07",
+      "type": "script_recognize",
+      "glyph": "বৈদ্যুতিক",
+      "options": [
+        "boiddutik (দ + য: the d is doubled)",
+        "boidyutik (d + y said apart)",
+        "bidutik (i sign, one d)",
+        "boidutik (one d)"
+      ],
+      "answer": 0,
+      "why": "**য-ফলা** after a consonant inside a word doubles it: দ্য = *dd*."
+    },
+    {
+      "id": "e08",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "অগ্নি নিরাপত্তা খুব জরুরি।",
+        "tr": "ogni nirapotta khub joruri.",
+        "en": "Fire safety is very important."
+      },
+      "blank": "অগ্নি",
+      "options": [
+        "বিপদ",
+        "স্পর্শ",
+        "সাবধান",
+        "অগ্নি"
+      ],
+      "answer": 3,
+      "why": "**অগ্নি** is the formal word for **আগুন** 'fire'."
+    },
+    {
+      "id": "e09",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "অগ্নি",
+        "tr": "ogni",
+        "en": "fire (formal word)"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "আগুন",
+        "বিপদ",
+        "অগ্নি",
+        "স্পর্শ"
+      ],
+      "answer": 2,
+      "why": "**আগুন** is everyday; **অগ্নি** appears on signs: অগ্নি নিরাপত্তা."
+    },
+    {
+      "id": "e10",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "স্পর্শ",
+        "tr": "sporsho",
+        "en": "touch (as in 'Do not touch')"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "সতর্ক",
+        "স্পর্শ",
+        "বিপদ",
+        "নিরাপত্তা"
+      ],
+      "answer": 1,
+      "why": "**স্পর্শ**: স্প = স + প, then a ref on শ."
+    },
+    {
+      "id": "e11",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "রাস্তায় সতর্ক থাকুন।",
+        "tr": "rastay shotorko thakun.",
+        "en": "Be careful on the road."
+      },
+      "blank": "সতর্ক",
+      "accepted": [
+        "সতর্ক",
+        "shotorko",
+        "sotorko"
+      ],
+      "why": "**সতর্ক**: ref on ক (র্ক), said *rk*."
+    },
+    {
+      "id": "e12",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "এই এলাকা বিপজ্জনক, দূরে থাকুন।",
+        "tr": "ei elaka bipojjonok, dure thakun.",
+        "en": "This area is dangerous; keep away."
+      },
+      "options": [
+        "This area is dangerous; keep away.",
+        "This area is safe; come in.",
+        "Danger! Electric line.",
+        "Stay alert on the road."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e13",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "এই রাস্তা নিরাপদ নয়।",
+        "tr": "ei rasta nirapod noy.",
+        "en": "This road is not safe."
+      },
+      "options": [
+        "This road is safe.",
+        "This road is closed.",
+        "Be careful on the road.",
+        "This road is not safe."
+      ],
+      "answer": 3,
+      "why": "**নয়** 'is not': not safe."
+    },
+    {
+      "id": "e14",
+      "type": "reading",
+      "title": "Substation and building site: read it again",
+      "lines": [
+        {
+          "bn": "বিপদ! বৈদ্যুতিক লাইন।",
+          "tr": "bipod! boiddutik lain.",
+          "en": "Danger! Electric line."
+        },
+        {
+          "bn": "স্পর্শ করবেন না।",
+          "tr": "sporsho korben na.",
+          "en": "Do not touch."
+        },
+        {
+          "bn": "সাবধান! কাজ চলছে।",
+          "tr": "shabdhan! kaj cholchhe.",
+          "en": "Caution! Work in progress."
+        },
+        {
+          "bn": "বিপজ্জনক এলাকা, দূরে থাকুন।",
+          "tr": "bipojjonok elaka, dure thakun.",
+          "en": "Dangerous area, keep away."
+        },
+        {
+          "bn": "সতর্ক থাকুন।",
+          "tr": "shotorko thakun.",
+          "en": "Stay alert."
+        },
+        {
+          "bn": "অগ্নি নিরাপত্তা: সিঁড়ি ব্যবহার করুন।",
+          "tr": "ogni nirapotta: shi~ri byabohar korun.",
+          "en": "Fire safety: use the stairs."
+        }
+      ],
+      "question": "In a fire, how should you go down?",
+      "options": [
+        "By the lift",
+        "Through the building site",
+        "By the stairs",
+        "You should wait inside"
+      ],
+      "answer": 2,
+      "why": "**অগ্নি নিরাপত্তা** 'fire safety': use the stairs."
+    },
+    {
+      "id": "e15",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "বৈদ্যুতিক লাইন স্পর্শ করবেন না।",
+        "tr": "boiddutik lain sporsho korben na.",
+        "en": "Do not touch the electric line."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "বৈদ্যুতিক",
+        "থাকুন",
+        "লাইন",
+        "বিপদ",
+        "স্পর্শ",
+        "করুন",
+        "করবেন",
+        "না"
+      ],
+      "answer": [
+        "বৈদ্যুতিক",
+        "লাইন",
+        "স্পর্শ",
+        "করবেন",
+        "না"
+      ]
+    },
+    {
+      "id": "e16",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "বিপদ! স্পর্শ করবেন না।",
+        "tr": "bipod! sporsho korben na.",
+        "en": "Danger! Do not touch."
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "বিপদ স্পর্শ করবেন না",
+        "bipod sporsho korben na"
+      ]
+    },
+    {
+      "id": "e17",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "সাবধান, পানি গরম।",
+        "tr": "shabdhan, pani gorom.",
+        "en": "Careful, the water is hot."
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "সাবধান পানি গরম",
+        "shabdhan pani gorom"
+      ]
+    },
+    {
+      "id": "r01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "স্থানে",
+        "tr": "sthane",
+        "en": "in the place; at the place"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "sehri",
+        "at Eid",
+        "bathroom",
+        "in the place; at the place"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "listen_select",
+      "audio": {
+        "bn": "নির্দিষ্ট",
+        "tr": "nirdishto",
+        "en": "designated; set"
+      },
+      "options": [
+        "নোংরা",
+        "নির্দিষ্ট",
+        "পাশের",
+        "আগামী"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "অনুগ্রহ করে জুতা খুলুন।",
+        "tr": "onugroho kore juta khulun.",
+        "en": "Please take off your shoes."
+      },
+      "blank": "অনুগ্রহ করে",
+      "options": [
+        "খোদা হাফেজ",
+        "মন খারাপ",
+        "অনুগ্রহ করে",
+        "হ্যালো"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "ওঠেন",
+          "tr": "othen",
+          "en": "you get up (polite)"
+        },
+        {
+          "bn": "স্মৃতি",
+          "tr": "sriti",
+          "en": "memory"
+        },
+        {
+          "bn": "কিনবে",
+          "tr": "kinbe",
+          "en": "you (familiar) / he, she will buy"
+        },
+        {
+          "bn": "পরিচ্ছন্ন",
+          "tr": "porichchhonno",
+          "en": "clean; tidy"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "বলি",
+          "tr": "boli",
+          "en": "I speak"
+        },
+        {
+          "bn": "উনিশ",
+          "tr": "unish",
+          "en": "nineteen"
+        },
+        {
+          "bn": "আসবেন",
+          "tr": "ashben",
+          "en": "please come"
+        },
+        {
+          "bn": "ওখানে",
+          "tr": "okhane",
+          "en": "there"
+        }
+      ],
+      "recycle": true
+    }
+  ]
+}

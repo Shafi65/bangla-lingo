@@ -1,0 +1,537 @@
+{
+  "id": "r01-l05",
+  "unit": "r01-signs",
+  "title": "Open, closed, changed",
+  "status": "draft",
+  "tip": "An hours board: **সময়সূচি** 'opening hours', **সাপ্তাহিক ছুটি** 'weekly day off', **সরকারি ছুটি** 'public holiday'. Times are written in words here: **সকাল দশটা থেকে বিকাল পাঁচটা পর্যন্ত**.\n\nTwo words for 'not today': **স্থগিত** 'postponed' (it will happen later) and **বাতিল** 'cancelled' (it will not happen).\n\nThe road-works line **সাময়িক অসুবিধার জন্য দুঃখিত** is 'Sorry for the temporary inconvenience'.\n\n**Spelling:** **সময়সূচি** ends in short **ি** (Academy spelling); you will also see সময়সূচী. **প্ত** in **সাপ্তাহিক** is প + ত.",
+  "vocab": [
+    {
+      "id": "shomoyshuchi",
+      "bn": "সময়সূচি",
+      "tr": "shomoyshuchi",
+      "en": "timetable; opening hours",
+      "notes": "Register: formal (written). Academy spelling সূচি (short ি); সময়সূচী is also seen."
+    },
+    {
+      "id": "shaptahik",
+      "bn": "সাপ্তাহিক",
+      "tr": "shaptahik",
+      "en": "weekly",
+      "notes": "Register: formal (written). সাপ্তাহিক ছুটি 'weekly day off'. প্ত = প + ত."
+    },
+    {
+      "id": "shorkari",
+      "bn": "সরকারি",
+      "tr": "shorkari",
+      "en": "government; public",
+      "notes": "Register: formal; also heard in speech. সরকারি ছুটি 'public holiday'."
+    },
+    {
+      "id": "sthogito",
+      "bn": "স্থগিত",
+      "tr": "sthogito",
+      "en": "postponed; suspended",
+      "notes": "Register: formal (written). Not cancelled: it will happen later. স্থ = স + থ."
+    },
+    {
+      "id": "batil",
+      "bn": "বাতিল",
+      "tr": "batil",
+      "en": "cancelled",
+      "notes": "Register: formal; also heard in speech."
+    },
+    {
+      "id": "shamoyik",
+      "bn": "সাময়িক",
+      "tr": "shamoyik",
+      "en": "temporary",
+      "notes": "Register: formal (written). সাময়িক অসুবিধা 'temporary inconvenience'."
+    },
+    {
+      "id": "oshubidha",
+      "bn": "অসুবিধা",
+      "tr": "oshubidha",
+      "en": "inconvenience; problem",
+      "notes": "Register: formal; also heard in speech. Common in speech too: কোনো অসুবিধা নেই 'no problem'."
+    },
+    {
+      "id": "oshubidhar",
+      "bn": "অসুবিধার",
+      "tr": "oshubidhar",
+      "en": "for the inconvenience",
+      "notes": "Register: formal; also heard in speech."
+    },
+    {
+      "id": "chalu",
+      "bn": "চালু",
+      "tr": "chalu",
+      "en": "working; open; in service",
+      "notes": "Register: formal; also heard in speech. Everyday word: খোলা."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "সতর্ক",
+        "tr": "shotorko",
+        "en": "alert; careful"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "বিপদ",
+        "সতর্ক",
+        "নিরাপদ",
+        "স্পর্শ"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "বিপজ্জনক",
+        "tr": "bipojjonok",
+        "en": "dangerous"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "বিপজ্জনক",
+        "বৈদ্যুতিক",
+        "নিরাপত্তা",
+        "অগ্নি"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e03",
+      "type": "reading",
+      "title": "Office hours",
+      "lines": [
+        {
+          "bn": "অফিসের সময়সূচি",
+          "tr": "ofiser shomoyshuchi",
+          "en": "Office hours"
+        },
+        {
+          "bn": "সকাল দশটা থেকে বিকাল পাঁচটা পর্যন্ত",
+          "tr": "shokal doshta theke bikal pa~chta porjonto",
+          "en": "From ten in the morning to five in the afternoon"
+        },
+        {
+          "bn": "সাপ্তাহিক ছুটি: শুক্রবার ও শনিবার",
+          "tr": "shaptahik chhuti: shukrobar o shonibar",
+          "en": "Weekly days off: Friday and Saturday"
+        },
+        {
+          "bn": "সরকারি ছুটির দিনে অফিস বন্ধ থাকবে।",
+          "tr": "shorkari chhutir dine ofis bondho thakbe.",
+          "en": "The office is closed on public holidays."
+        }
+      ],
+      "question": "On which days is the office closed every week?",
+      "options": [
+        "Saturday and Sunday",
+        "Only Friday",
+        "Only on public holidays",
+        "Friday and Saturday"
+      ],
+      "answer": 3,
+      "why": "**সাপ্তাহিক ছুটি** 'weekly days off': Friday and Saturday."
+    },
+    {
+      "id": "e04",
+      "type": "reading",
+      "title": "Road works",
+      "lines": [
+        {
+          "bn": "রাস্তার কাজ চলছে।",
+          "tr": "rastar kaj cholchhe.",
+          "en": "Road works in progress."
+        },
+        {
+          "bn": "এই রাস্তা আজ বন্ধ।",
+          "tr": "ei rasta aj bondho.",
+          "en": "This road is closed today."
+        },
+        {
+          "bn": "পাশের রাস্তা চালু আছে।",
+          "tr": "pasher rasta chalu achhe.",
+          "en": "The next road is open."
+        },
+        {
+          "bn": "সাময়িক অসুবিধার জন্য দুঃখিত।",
+          "tr": "shamoyik oshubidhar jonno dukkhito.",
+          "en": "Sorry for the temporary inconvenience."
+        }
+      ],
+      "question": "Can you drive down this road today?",
+      "options": [
+        "Yes: it is open",
+        "Only in the evening",
+        "No: use the next road",
+        "Only on Friday"
+      ],
+      "answer": 2,
+      "why": "**আজ বন্ধ** 'closed today'; **পাশের রাস্তা চালু আছে** 'the next road is open'."
+    },
+    {
+      "id": "e05",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "স্থগিত",
+        "tr": "sthogito",
+        "en": "postponed; suspended"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "cancelled",
+        "postponed; suspended",
+        "open",
+        "weekly"
+      ],
+      "answer": 1,
+      "why": "**স্থগিত** 'postponed': it will happen later. **বাতিল** is 'cancelled'."
+    },
+    {
+      "id": "e06",
+      "type": "listen_select",
+      "audio": {
+        "bn": "বাতিল",
+        "tr": "batil",
+        "en": "cancelled"
+      },
+      "options": [
+        "বাতিল",
+        "স্থগিত",
+        "চালু",
+        "সাময়িক"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e07",
+      "type": "script_recognize",
+      "glyph": "সাপ্তাহিক",
+      "options": [
+        "shapotahik (প and ত, each with a vowel)",
+        "shattahik (ত + ত, a held t)",
+        "shaptohik (o instead of a)",
+        "shaptahik (প + ত)"
+      ],
+      "answer": 3,
+      "why": "**প্ত** = প + ত, said *pt*."
+    },
+    {
+      "id": "e08",
+      "type": "script_recognize",
+      "glyph": "স্থগিত",
+      "options": [
+        "shtogito (ষ + ট)",
+        "sogito (no থ)",
+        "sthogito (স + থ)",
+        "sthagito (a instead of o)"
+      ],
+      "answer": 2,
+      "why": "**স্থ** = স + থ, as in স্থান."
+    },
+    {
+      "id": "e09",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "লিফট এখন চালু আছে।",
+        "tr": "lift ekhon chalu achhe.",
+        "en": "The lift is working now."
+      },
+      "blank": "চালু",
+      "options": [
+        "বাতিল",
+        "চালু",
+        "স্থগিত",
+        "অসুবিধা"
+      ],
+      "answer": 1,
+      "why": "**চালু** 'working, in service'. For an office or shop you can also say **খোলা**."
+    },
+    {
+      "id": "e10",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "সাময়িক",
+        "tr": "shamoyik",
+        "en": "temporary"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "সাময়িক",
+        "সাপ্তাহিক",
+        "সরকারি",
+        "সময়সূচি"
+      ],
+      "answer": 0,
+      "why": "Four look-alikes that start with স: **সাময়িক** 'temporary', **সাপ্তাহিক** 'weekly', **সরকারি** 'government', **সময়সূচি** 'timetable'."
+    },
+    {
+      "id": "e11",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "সরকারি",
+        "tr": "shorkari",
+        "en": "government; public (as in 'public holiday')"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "সাপ্তাহিক",
+        "সাময়িক",
+        "চালু",
+        "সরকারি"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e12",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "পরীক্ষা স্থগিত।",
+        "tr": "porikkha sthogito.",
+        "en": "The exam is postponed."
+      },
+      "blank": "স্থগিত",
+      "accepted": [
+        "স্থগিত",
+        "sthogito",
+        "sthagito",
+        "sthogit"
+      ],
+      "why": "**স্থগিত**: স্থ (স + থ), then গ."
+    },
+    {
+      "id": "e13",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "কোনো অসুবিধা নেই।",
+        "tr": "kono oshubidha nei.",
+        "en": "No problem."
+      },
+      "options": [
+        "Sorry for the inconvenience.",
+        "There is a problem.",
+        "No problem.",
+        "The office is closed."
+      ],
+      "answer": 2,
+      "why": "**অসুবিধা** is used in speech too: 'no problem'."
+    },
+    {
+      "id": "e14",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "সরকারি ছুটির দিনে অফিস বন্ধ থাকবে।",
+        "tr": "shorkari chhutir dine ofis bondho thakbe.",
+        "en": "The office will be closed on public holidays."
+      },
+      "options": [
+        "The office will be open on public holidays.",
+        "The office will be closed on public holidays.",
+        "The office is closed on Fridays.",
+        "The office opens at ten."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e15",
+      "type": "reading",
+      "title": "Office hours: read it again",
+      "lines": [
+        {
+          "bn": "অফিসের সময়সূচি",
+          "tr": "ofiser shomoyshuchi",
+          "en": "Office hours"
+        },
+        {
+          "bn": "সকাল দশটা থেকে বিকাল পাঁচটা পর্যন্ত",
+          "tr": "shokal doshta theke bikal pa~chta porjonto",
+          "en": "From ten in the morning to five in the afternoon"
+        },
+        {
+          "bn": "সাপ্তাহিক ছুটি: শুক্রবার ও শনিবার",
+          "tr": "shaptahik chhuti: shukrobar o shonibar",
+          "en": "Weekly days off: Friday and Saturday"
+        },
+        {
+          "bn": "সরকারি ছুটির দিনে অফিস বন্ধ থাকবে।",
+          "tr": "shorkari chhutir dine ofis bondho thakbe.",
+          "en": "The office is closed on public holidays."
+        }
+      ],
+      "question": "When does the office close in the afternoon?",
+      "options": [
+        "At five",
+        "At ten",
+        "At three",
+        "It does not close"
+      ],
+      "answer": 0,
+      "why": "**বিকাল পাঁচটা পর্যন্ত** 'until five in the afternoon'."
+    },
+    {
+      "id": "e16",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "আজ ক্লাস বাতিল।",
+        "tr": "aj klas batil.",
+        "en": "Today's class is cancelled."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "আজ",
+        "স্থগিত",
+        "ক্লাস",
+        "পরীক্ষা",
+        "বাতিল",
+        "চালু"
+      ],
+      "answer": [
+        "আজ",
+        "ক্লাস",
+        "বাতিল"
+      ]
+    },
+    {
+      "id": "e17",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "সাপ্তাহিক ছুটি শুক্রবার।",
+        "tr": "shaptahik chhuti shukrobar.",
+        "en": "The weekly day off is Friday."
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "সাপ্তাহিক ছুটি শুক্রবার",
+        "shaptahik chhuti shukrobar"
+      ]
+    },
+    {
+      "id": "e18",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "সাময়িক অসুবিধার জন্য দুঃখিত।",
+        "tr": "shamoyik oshubidhar jonno dukkhito.",
+        "en": "Sorry for the temporary inconvenience."
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "সাময়িক অসুবিধার জন্য দুঃখিত",
+        "সাময়িক অসুবিধার জন্য আমরা দুঃখিত",
+        "shamoyik oshubidhar jonno dukkhito"
+      ]
+    },
+    {
+      "id": "r01",
+      "type": "listen_select",
+      "audio": {
+        "bn": "থাকুন",
+        "tr": "thakun",
+        "en": "please stay; please be (standard)"
+      },
+      "options": [
+        "থাকুন",
+        "হচ্ছিল",
+        "যাচ্ছে",
+        "দিতে"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "সাবধান, এখানে কাজ চলছে।",
+        "tr": "shabdhan, ekhane kaj cholchhe.",
+        "en": "Caution, work in progress here."
+      },
+      "blank": "সাবধান",
+      "options": [
+        "আলাদা",
+        "গরম",
+        "সাবধান",
+        "বাংলাদেশি"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "বাহির ওই দিকে।",
+        "tr": "bahir oi dike.",
+        "en": "The way out is that way."
+      },
+      "options": [
+        "Thank you, goodbye.",
+        "I have a question.",
+        "Reception is on the right.",
+        "The way out is that way."
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "প্রধান",
+          "tr": "prodhan",
+          "en": "main; chief"
+        },
+        {
+          "bn": "প্রবেশ",
+          "tr": "probesh",
+          "en": "entry; way in"
+        },
+        {
+          "bn": "প্রস্থান",
+          "tr": "prosthan",
+          "en": "exit; departure"
+        },
+        {
+          "bn": "অভ্যর্থনা",
+          "tr": "obbhorthona",
+          "en": "reception"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "বহির্গমন",
+          "tr": "bohirgomon",
+          "en": "exit (way out)"
+        },
+        {
+          "bn": "একশ",
+          "tr": "eksho",
+          "en": "one hundred"
+        },
+        {
+          "bn": "পড়েছে",
+          "tr": "porechhe",
+          "en": "has set in (cold, heat)"
+        },
+        {
+          "bn": "নিচে",
+          "tr": "niche",
+          "en": "downstairs"
+        }
+      ],
+      "recycle": true
+    }
+  ]
+}

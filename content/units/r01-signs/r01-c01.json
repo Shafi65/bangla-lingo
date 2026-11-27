@@ -1,0 +1,602 @@
+{
+  "id": "r01-c01",
+  "unit": "r01-signs",
+  "title": "Checkpoint: Signs and notices",
+  "status": "draft",
+  "tip": "**Checkpoint.** A notice you have not seen before, and six signs to scan. Read the notice once, at your normal speed, then answer. Try to find each sign's meaning in under five seconds.",
+  "vocab": [],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "reading",
+      "title": "Station notice",
+      "lines": [
+        {
+          "bn": "বিজ্ঞপ্তি",
+          "tr": "biggopti",
+          "en": "Notice"
+        },
+        {
+          "bn": "সর্বসাধারণের অবগতির জন্য জানানো যাচ্ছে যে রাস্তার কাজের জন্য আগামী সোমবার থেকে বৃহস্পতিবার পর্যন্ত স্টেশনের প্রধান ফটক বন্ধ থাকবে।",
+          "tr": "shorboshadharoner obogotir jonno janano jachchhe je rastar kajer jonno agami shombar theke brihoshpotibar porjonto steshoner prodhan fotok bondho thakbe.",
+          "en": "This is to inform the public that, because of road works, the station's main gate will be closed from next Monday to Thursday."
+        },
+        {
+          "bn": "উক্ত সময়ে অনুগ্রহ করে বাজারের পাশের ফটক ব্যবহার করুন।",
+          "tr": "ukto shomoye onugroho kore bajarer pasher fotok byabohar korun.",
+          "en": "During that time, please use the gate beside the market."
+        },
+        {
+          "bn": "টিকিট কাউন্টার ও গ্রাহক সেবা চালু থাকবে।",
+          "tr": "tikit kauntar o grahok sheba chalu thakbe.",
+          "en": "The ticket counter and customer service will stay open."
+        },
+        {
+          "bn": "স্টেশনে ধূমপান নিষিদ্ধ। নির্ধারিত স্থানে গাড়ি রাখুন।",
+          "tr": "steshone dhumpan nishiddho. nirdharito sthane gari rakhun.",
+          "en": "Smoking is prohibited in the station. Park only in the designated place."
+        },
+        {
+          "bn": "জরুরি প্রয়োজন হলে গ্রাহক সেবা কাউন্টারে আসুন।",
+          "tr": "joruri proyojon hole grahok sheba kauntare ashun.",
+          "en": "If it is urgent, come to the customer service counter."
+        },
+        {
+          "bn": "সাময়িক অসুবিধার জন্য আমরা দুঃখিত।",
+          "tr": "shamoyik oshubidhar jonno amra dukkhito.",
+          "en": "We are sorry for the temporary inconvenience."
+        },
+        {
+          "bn": "আদেশক্রমে, স্টেশন কর্তৃপক্ষ",
+          "tr": "adeshkrome, steshon kortripokkho",
+          "en": "By order, the station management"
+        }
+      ],
+      "question": "Why will the main gate be closed?",
+      "options": [
+        "Because of a holiday",
+        "Because of a fire",
+        "Because of road works",
+        "Because the lift is broken"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e02",
+      "type": "reading",
+      "title": "Station notice",
+      "lines": [
+        {
+          "bn": "বিজ্ঞপ্তি",
+          "tr": "biggopti",
+          "en": "Notice"
+        },
+        {
+          "bn": "সর্বসাধারণের অবগতির জন্য জানানো যাচ্ছে যে রাস্তার কাজের জন্য আগামী সোমবার থেকে বৃহস্পতিবার পর্যন্ত স্টেশনের প্রধান ফটক বন্ধ থাকবে।",
+          "tr": "shorboshadharoner obogotir jonno janano jachchhe je rastar kajer jonno agami shombar theke brihoshpotibar porjonto steshoner prodhan fotok bondho thakbe.",
+          "en": "This is to inform the public that, because of road works, the station's main gate will be closed from next Monday to Thursday."
+        },
+        {
+          "bn": "উক্ত সময়ে অনুগ্রহ করে বাজারের পাশের ফটক ব্যবহার করুন।",
+          "tr": "ukto shomoye onugroho kore bajarer pasher fotok byabohar korun.",
+          "en": "During that time, please use the gate beside the market."
+        },
+        {
+          "bn": "টিকিট কাউন্টার ও গ্রাহক সেবা চালু থাকবে।",
+          "tr": "tikit kauntar o grahok sheba chalu thakbe.",
+          "en": "The ticket counter and customer service will stay open."
+        },
+        {
+          "bn": "স্টেশনে ধূমপান নিষিদ্ধ। নির্ধারিত স্থানে গাড়ি রাখুন।",
+          "tr": "steshone dhumpan nishiddho. nirdharito sthane gari rakhun.",
+          "en": "Smoking is prohibited in the station. Park only in the designated place."
+        },
+        {
+          "bn": "জরুরি প্রয়োজন হলে গ্রাহক সেবা কাউন্টারে আসুন।",
+          "tr": "joruri proyojon hole grahok sheba kauntare ashun.",
+          "en": "If it is urgent, come to the customer service counter."
+        },
+        {
+          "bn": "সাময়িক অসুবিধার জন্য আমরা দুঃখিত।",
+          "tr": "shamoyik oshubidhar jonno amra dukkhito.",
+          "en": "We are sorry for the temporary inconvenience."
+        },
+        {
+          "bn": "আদেশক্রমে, স্টেশন কর্তৃপক্ষ",
+          "tr": "adeshkrome, steshon kortripokkho",
+          "en": "By order, the station management"
+        }
+      ],
+      "question": "Which gate should you use from Monday to Thursday?",
+      "options": [
+        "The main gate",
+        "The gate beside the market",
+        "The emergency exit",
+        "None: the station is closed"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e03",
+      "type": "reading",
+      "title": "Station notice",
+      "lines": [
+        {
+          "bn": "বিজ্ঞপ্তি",
+          "tr": "biggopti",
+          "en": "Notice"
+        },
+        {
+          "bn": "সর্বসাধারণের অবগতির জন্য জানানো যাচ্ছে যে রাস্তার কাজের জন্য আগামী সোমবার থেকে বৃহস্পতিবার পর্যন্ত স্টেশনের প্রধান ফটক বন্ধ থাকবে।",
+          "tr": "shorboshadharoner obogotir jonno janano jachchhe je rastar kajer jonno agami shombar theke brihoshpotibar porjonto steshoner prodhan fotok bondho thakbe.",
+          "en": "This is to inform the public that, because of road works, the station's main gate will be closed from next Monday to Thursday."
+        },
+        {
+          "bn": "উক্ত সময়ে অনুগ্রহ করে বাজারের পাশের ফটক ব্যবহার করুন।",
+          "tr": "ukto shomoye onugroho kore bajarer pasher fotok byabohar korun.",
+          "en": "During that time, please use the gate beside the market."
+        },
+        {
+          "bn": "টিকিট কাউন্টার ও গ্রাহক সেবা চালু থাকবে।",
+          "tr": "tikit kauntar o grahok sheba chalu thakbe.",
+          "en": "The ticket counter and customer service will stay open."
+        },
+        {
+          "bn": "স্টেশনে ধূমপান নিষিদ্ধ। নির্ধারিত স্থানে গাড়ি রাখুন।",
+          "tr": "steshone dhumpan nishiddho. nirdharito sthane gari rakhun.",
+          "en": "Smoking is prohibited in the station. Park only in the designated place."
+        },
+        {
+          "bn": "জরুরি প্রয়োজন হলে গ্রাহক সেবা কাউন্টারে আসুন।",
+          "tr": "joruri proyojon hole grahok sheba kauntare ashun.",
+          "en": "If it is urgent, come to the customer service counter."
+        },
+        {
+          "bn": "সাময়িক অসুবিধার জন্য আমরা দুঃখিত।",
+          "tr": "shamoyik oshubidhar jonno amra dukkhito.",
+          "en": "We are sorry for the temporary inconvenience."
+        },
+        {
+          "bn": "আদেশক্রমে, স্টেশন কর্তৃপক্ষ",
+          "tr": "adeshkrome, steshon kortripokkho",
+          "en": "By order, the station management"
+        }
+      ],
+      "question": "Where should you park?",
+      "options": [
+        "In the designated place",
+        "Beside the market",
+        "At the main gate",
+        "Anywhere in the station"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e04",
+      "type": "reading",
+      "title": "Six signs",
+      "lines": [
+        {
+          "bn": "প্রবেশ নিষেধ",
+          "tr": "probesh nishedh",
+          "en": "No entry"
+        },
+        {
+          "bn": "বহির্গমন",
+          "tr": "bohirgomon",
+          "en": "Exit"
+        },
+        {
+          "bn": "শৌচাগার",
+          "tr": "shouchagar",
+          "en": "Toilets"
+        },
+        {
+          "bn": "টিকিট কাউন্টার",
+          "tr": "tikit kauntar",
+          "en": "Ticket counter"
+        },
+        {
+          "bn": "সংরক্ষিত আসন",
+          "tr": "shongrokkhito ashon",
+          "en": "Reserved seats"
+        },
+        {
+          "bn": "বিপদ! স্পর্শ করবেন না।",
+          "tr": "bipod! sporsho korben na.",
+          "en": "Danger! Do not touch."
+        }
+      ],
+      "question": "You want to leave the station. Which sign do you follow?",
+      "options": [
+        "প্রবেশ নিষেধ",
+        "সংরক্ষিত আসন",
+        "টিকিট কাউন্টার",
+        "বহির্গমন"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e05",
+      "type": "reading",
+      "title": "Six signs",
+      "lines": [
+        {
+          "bn": "প্রবেশ নিষেধ",
+          "tr": "probesh nishedh",
+          "en": "No entry"
+        },
+        {
+          "bn": "বহির্গমন",
+          "tr": "bohirgomon",
+          "en": "Exit"
+        },
+        {
+          "bn": "শৌচাগার",
+          "tr": "shouchagar",
+          "en": "Toilets"
+        },
+        {
+          "bn": "টিকিট কাউন্টার",
+          "tr": "tikit kauntar",
+          "en": "Ticket counter"
+        },
+        {
+          "bn": "সংরক্ষিত আসন",
+          "tr": "shongrokkhito ashon",
+          "en": "Reserved seats"
+        },
+        {
+          "bn": "বিপদ! স্পর্শ করবেন না।",
+          "tr": "bipod! sporsho korben na.",
+          "en": "Danger! Do not touch."
+        }
+      ],
+      "question": "Which sign is a warning?",
+      "options": [
+        "শৌচাগার",
+        "টিকিট কাউন্টার",
+        "বিপদ! স্পর্শ করবেন না।",
+        "বহির্গমন"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e06",
+      "type": "reading",
+      "title": "Six signs",
+      "lines": [
+        {
+          "bn": "প্রবেশ নিষেধ",
+          "tr": "probesh nishedh",
+          "en": "No entry"
+        },
+        {
+          "bn": "বহির্গমন",
+          "tr": "bohirgomon",
+          "en": "Exit"
+        },
+        {
+          "bn": "শৌচাগার",
+          "tr": "shouchagar",
+          "en": "Toilets"
+        },
+        {
+          "bn": "টিকিট কাউন্টার",
+          "tr": "tikit kauntar",
+          "en": "Ticket counter"
+        },
+        {
+          "bn": "সংরক্ষিত আসন",
+          "tr": "shongrokkhito ashon",
+          "en": "Reserved seats"
+        },
+        {
+          "bn": "বিপদ! স্পর্শ করবেন না।",
+          "tr": "bipod! sporsho korben na.",
+          "en": "Danger! Do not touch."
+        }
+      ],
+      "question": "Which door must you not go through?",
+      "options": [
+        "বহির্গমন",
+        "প্রবেশ নিষেধ",
+        "শৌচাগার",
+        "টিকিট কাউন্টার"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e07",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "জরুরি প্রয়োজন হলে গ্রাহক সেবা কাউন্টারে আসুন।",
+        "tr": "joruri proyojon hole grahok sheba kauntare ashun.",
+        "en": "If it is urgent, come to the customer service counter."
+      },
+      "options": [
+        "If it is urgent, come to the customer service counter.",
+        "Customer service is closed today.",
+        "Buy your ticket at the counter.",
+        "Please queue at the counter."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e08",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "বৈদ্যুতিক লাইন থেকে দূরে থাকুন।",
+        "tr": "boiddutik lain theke dure thakun.",
+        "en": "Keep away from the electric line."
+      },
+      "options": [
+        "Do not use the lift.",
+        "The electric line is safe.",
+        "Stay alert on the road.",
+        "Keep away from the electric line."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e09",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "প্রস্থান",
+          "tr": "prosthan",
+          "en": "exit; departure"
+        },
+        {
+          "bn": "স্থগিত",
+          "tr": "sthogito",
+          "en": "postponed; suspended"
+        },
+        {
+          "bn": "উক্ত",
+          "tr": "ukto",
+          "en": "the said; that (just mentioned)"
+        },
+        {
+          "bn": "শাখা",
+          "tr": "shakha",
+          "en": "branch"
+        },
+        {
+          "bn": "অনুমতি",
+          "tr": "onumoti",
+          "en": "permission"
+        }
+      ]
+    },
+    {
+      "id": "e10",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "কার্যালয়",
+        "tr": "karjaloy",
+        "en": "office (formal)"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "অফিস",
+        "শাখা",
+        "কার্যালয়",
+        "গ্রাহক"
+      ],
+      "answer": 2,
+      "why": "**অফিস** in speech, **কার্যালয়** in writing."
+    },
+    {
+      "id": "e11",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "পরিচ্ছন্ন",
+        "tr": "porichchhonno",
+        "en": "clean (formal)"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "পরিষ্কার",
+        "পরিচ্ছন্ন",
+        "নিরাপদ",
+        "সাময়িক"
+      ],
+      "answer": 1,
+      "why": "**পরিষ্কার** in speech, **পরিচ্ছন্ন** on signs."
+    },
+    {
+      "id": "e12",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "উক্ত সময়ে পাশের ফটক ব্যবহার করুন।",
+        "tr": "ukto shomoye pasher fotok byabohar korun.",
+        "en": "During that time, use the side gate."
+      },
+      "blank": "উক্ত",
+      "options": [
+        "উক্ত",
+        "নির্ধারিত",
+        "সাপ্তাহিক",
+        "প্রধান"
+      ],
+      "answer": 0,
+      "why": "**উক্ত সময়ে** 'during that time' (speech: ওই সময়ে)."
+    },
+    {
+      "id": "e13",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "স্টেশনে ধূমপান নিষিদ্ধ।",
+        "tr": "steshone dhumpan nishiddho.",
+        "en": "Smoking is prohibited in the station."
+      },
+      "blank": "নিষিদ্ধ",
+      "accepted": [
+        "নিষিদ্ধ",
+        "nishiddho",
+        "nishiddo",
+        "nisiddho"
+      ],
+      "why": "**নিষিদ্ধ**: ষ, short ি, then দ্ধ."
+    },
+    {
+      "id": "e14",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "নির্ধারিত স্থানে গাড়ি রাখুন।",
+        "tr": "nirdharito sthane gari rakhun.",
+        "en": "Park in the designated place."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "নির্ধারিত",
+        "প্রবেশ",
+        "স্থানে",
+        "ফেলুন",
+        "গাড়ি",
+        "নিষেধ",
+        "রাখুন"
+      ],
+      "answer": [
+        "নির্ধারিত",
+        "স্থানে",
+        "গাড়ি",
+        "রাখুন"
+      ]
+    },
+    {
+      "id": "e15",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "মহিলা শৌচাগার ডানে।",
+        "tr": "mohila shouchagar dane.",
+        "en": "The women's toilet is on the right."
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "মহিলা শৌচাগার ডানে",
+        "mohila shouchagar dane"
+      ]
+    },
+    {
+      "id": "e16",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আজ প্রধান শাখা বন্ধ।",
+        "tr": "aj prodhan shakha bondho.",
+        "en": "The main branch is closed today."
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "আজ প্রধান শাখা বন্ধ",
+        "প্রধান শাখা আজ বন্ধ",
+        "aj prodhan shakha bondho"
+      ]
+    },
+    {
+      "id": "r01",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আমরা স্টেশনে নামলাম।",
+        "tr": "amra steshone namlam.",
+        "en": "We got off at the station."
+      },
+      "blank": "নামলাম",
+      "accepted": [
+        "নামলাম",
+        "namlam"
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ধরলাম",
+        "tr": "dhorlam",
+        "en": "I caught"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "please throw; put (standard)",
+        "(you, polite) have come",
+        "I caught",
+        "I will send"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "listen_select",
+      "audio": {
+        "bn": "দাঁড়িয়ে",
+        "tr": "da~riye",
+        "en": "standing"
+      },
+      "options": [
+        "শিখি",
+        "করেনি",
+        "দাঁড়িয়ে",
+        "খেয়েছেন"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "ওনাকে",
+          "tr": "onake",
+          "en": "him/her (polite)"
+        },
+        {
+          "bn": "দেখবেন",
+          "tr": "dekhben",
+          "en": "you (polite) will see"
+        },
+        {
+          "bn": "আসলে",
+          "tr": "ashole",
+          "en": "actually"
+        },
+        {
+          "bn": "বিশ",
+          "tr": "bish",
+          "en": "twenty"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "করতেন",
+          "tr": "korten",
+          "en": "you / he, she (polite) used to do"
+        },
+        {
+          "bn": "যাবে",
+          "tr": "jabe",
+          "en": "will go"
+        },
+        {
+          "bn": "উনি",
+          "tr": "uni",
+          "en": "he/she (polite, spoken)"
+        },
+        {
+          "bn": "পারেন",
+          "tr": "paren",
+          "en": "(you, polite) can"
+        }
+      ],
+      "recycle": true
+    }
+  ]
+}

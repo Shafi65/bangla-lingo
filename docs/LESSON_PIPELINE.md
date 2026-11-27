@@ -141,6 +141,33 @@ Applied to units with `"level": "intermediate"` only (beginner rules are unchang
 - `validate:strict`: ≤ 12 new items per lesson (beginner: 10); every non-review, non-checkpoint lesson has at least one `reading` and one `listen_meaning`; per unit, over its hand-written exercises: English→Bengali (`en_to_bn` select / word bank / type, plus `fill_blank`) ≥ 55% of directed exercises (those with a direction, plus `fill_blank`); typed Bengali (`type_translation` en→bn plus typed `fill_blank`) ≥ 15% of exercises; sentence-level listening (`listen_meaning` + `reading`) ≥ 20% of exercises. Rule names in the strict summary: `int-reading`, `int-listen`, `int-en-to-bn`, `int-typed`, `int-sentence-listening`.
 - `npm run audit` prints a **PER LEVEL** block (beginner and intermediate; recycling, load, and the three shares against that level's targets: beginner ≥45% en→bn and ≥8% typed, intermediate ≥55% / ≥15% / ≥20%, with `ok`/`BELOW`) and, for intermediate, the shares per unit. `npm run status` adds a line per level.
 
+## Reading track (units `r01`, `r02`, …)
+For learners who already speak Bengali but read slowly and lack the formal, written vocabulary of signs, notices, forms and letters. The track lives in its own course section ("Reading track", section 4 in `course.json`), and its units are ordinary main-track intermediate units, so every intermediate rule above applies unchanged:
+```json
+{ "id": "r01-signs", "track": "main", "level": "intermediate", "section": 4,
+  "assumes": ["bridge", "heritage-oral"], "scriptOnly": true, "lessons": ["r01-l01", "…"] }
+```
+- **`content/assumed/heritage-oral.json`**: everyday spoken words a fluent speaker knows by ear (এলাকা, ময়লা, জুতা, সিঁড়ি …), used in texts without being taught. Add an entry only when a text needs it; spoken loans (লিফট, কাউন্টার) and plain everyday inflections (সময়ে, ছুটির) belong here too. Ids must not collide with lexicon ids. Formal or written words never go here: they are the course vocabulary.
+- **Lexicon:** one entry per form, as everywhere (স্থান and স্থানে are two entries). Formal words get `"register": "formal-written"`, and `notes` start with the register (`Register: formal (written).`, `Register: formal; also heard in speech.` or `Register: sadhu (old written style; recognise only).`), then `Everyday word: …` naming the colloquial partner where there is one (প্রয়োজন → দরকার, ব্যতীত → ছাড়া), then a note on the conjuncts. At most 60 new forms per unit.
+- **Texts** (dialogues and readings) are short signs and notices written in-house in the style of the genre. Never copy a real notice, form or document; use fictional places and generic names. Until the validator allows them: no Bengali digits (write numbers and times in words: সকাল দশটা) and no misspelled options. Do not mix sadhu and cholit inside one text; sadhu forms (হইবে) appear only in fixed formulas such as a to-let card and are taught for recognition, never as a typed or chosen answer.
+- **Lesson shape** (16–18 hand-written exercises, existing types only):
+
+| Step | Exercise |
+|---|---|
+| warm-up | 2 `select_translation` en→bn on the previous lesson's words |
+| gist | `reading` of the lesson's sign set or notice (the plan `dialogue`, lines without speakers) |
+| new words | `select_translation` bn→en and `listen_select` for words the text did not show |
+| conjunct break-down | 2 `script_recognize`: `glyph` is a new word, options are romanisations naming the parts ("probesh (প + র: ro-fola)"); write only single letters in Bengali inside options |
+| register swap | `fill_blank` (choose) with the formal word in a formal sentence, the `why` naming the everyday partner; and `select_translation` en→bn asking for "the formal word", with the everyday partner as a distractor |
+| spot the word | `select_translation` en→bn ("touch, as in 'Do not touch'") |
+| spelling | typed `fill_blank`: the standard spelling plus its transliteration |
+| announcement | 1–2 `listen_meaning` |
+| repeated reading | the same `reading` again with its second question ("…: read it again") |
+| production | `word_bank` en→bn of a sign phrase, 2 `type_translation` en→bn |
+
+- **Review:** each text comes back three times ("first / second / third reading"), plus a `match_pairs` and production items, so that every unit word is a target (`validate:strict` review coverage). **Checkpoint:** an unseen notice of about 60 words and a set of about 6 signs to scan.
+- Recycling applies as in every main-track unit: run `npm run recycle -- --pairs 2` after a change.
+
 ## Standard lesson recipe (what the generator emits, in order)
 | # | Exercise | Source |
 |---|---|---|

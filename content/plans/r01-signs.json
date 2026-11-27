@@ -1,0 +1,1260 @@
+{
+  "unit": "r01-signs",
+  "lessons": [
+    {
+      "id": "r01-l01",
+      "title": "Way in, way out",
+      "goal": "Read the entry, exit and reception signs at a hospital gate.",
+      "grammar": [
+        "sign words are bare nouns: প্রবেশ 'way in', বাহির 'way out'",
+        "formal word ↔ everyday word: ফটক / গেট, প্রবেশ / ঢোকা"
+      ],
+      "new": [
+        "probesh",
+        "bahir",
+        "prosthan",
+        "bohirgomon",
+        "fotok",
+        "prodhan",
+        "obbhorthona",
+        "bibhag"
+      ],
+      "review": [
+        "joruri",
+        "hashpatal",
+        "bondho",
+        "baire",
+        "dane",
+        "bame",
+        "ekhane",
+        "dike"
+      ],
+      "tip": "Signs use **formal words** that you rarely say. You already know their everyday partners:\n\n- **প্রবেশ** 'way in' (you say ঢোকা)\n- **ফটক** 'gate' (you say গেট)\n- **বাহির** 'way out', the old written form of বাইরে\n\n**Reading the conjuncts:** a small stroke under a letter is **র-ফলা** (ro-fola), an r after it: **প্র** = প + র in **প্রবেশ**, **প্রধান**. A hook on top is **ref**, an r before it: **র্গ** in **বহির্গমন** (bohir-gomon). In **অভ্যর্থনা** the য-ফলা doubles the ভ: *obbhorthona*.",
+      "sentences": [
+        {
+          "bn": "প্রধান ফটক এখানে।",
+          "tr": "prodhan fotok ekhane.",
+          "en": "The main gate is here."
+        },
+        {
+          "bn": "প্রবেশ এই দিকে।",
+          "tr": "probesh ei dike.",
+          "en": "The way in is this way.",
+          "alt": [
+            "Entrance this way."
+          ]
+        },
+        {
+          "bn": "বাহির ওই দিকে।",
+          "tr": "bahir oi dike.",
+          "en": "The way out is that way.",
+          "alt": [
+            "Exit that way."
+          ]
+        },
+        {
+          "bn": "অভ্যর্থনা ডানে।",
+          "tr": "obbhorthona dane.",
+          "en": "Reception is on the right."
+        },
+        {
+          "bn": "জরুরি বিভাগ বামে।",
+          "tr": "joruri bibhag bame.",
+          "en": "The emergency department is on the left."
+        },
+        {
+          "bn": "জরুরি বহির্গমন কোথায়?",
+          "tr": "joruri bohirgomon kothay?",
+          "en": "Where is the emergency exit?"
+        },
+        {
+          "bn": "প্রস্থান প্রধান ফটক দিয়ে।",
+          "tr": "prosthan prodhan fotok diye.",
+          "en": "Exit through the main gate.",
+          "alt": [
+            "Leave by the main gate."
+          ]
+        },
+        {
+          "bn": "ভাই, অভ্যর্থনা কোথায়?",
+          "tr": "bhai, obbhorthona kothay?",
+          "en": "Excuse me, where is reception?",
+          "alt": [
+            "Brother, where is reception?"
+          ]
+        }
+      ],
+      "dialogue": {
+        "title": "At the hospital gate",
+        "lines": [
+          {
+            "bn": "প্রধান ফটক",
+            "tr": "prodhan fotok",
+            "en": "Main gate"
+          },
+          {
+            "bn": "প্রবেশ",
+            "tr": "probesh",
+            "en": "Way in"
+          },
+          {
+            "bn": "বাহির",
+            "tr": "bahir",
+            "en": "Way out"
+          },
+          {
+            "bn": "অভ্যর্থনা",
+            "tr": "obbhorthona",
+            "en": "Reception"
+          },
+          {
+            "bn": "জরুরি বিভাগ",
+            "tr": "joruri bibhag",
+            "en": "Emergency department"
+          },
+          {
+            "bn": "জরুরি বহির্গমন",
+            "tr": "joruri bohirgomon",
+            "en": "Emergency exit"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Which one is the way out?",
+            "questionBn": {
+              "bn": "বাহির কোনটা?",
+              "en": "Which one is the way out?",
+              "tr": "bahir konta?"
+            },
+            "options": [
+              "বাহির",
+              "প্রবেশ",
+              "অভ্যর্থনা",
+              "প্রধান ফটক"
+            ],
+            "answer": 0
+          },
+          {
+            "question": "You have just arrived and need information. Which sign do you look for?",
+            "options": [
+              "Reception",
+              "Main gate",
+              "Way out",
+              "Emergency exit"
+            ],
+            "answer": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "r01-l02",
+      "title": "Not allowed",
+      "goal": "Read 'no smoking', 'no entry' and 'restricted' signs on office doors.",
+      "grammar": [
+        "X নিষেধ 'no X': ধূমপান নিষেধ, প্রবেশ নিষেধ",
+        "ব্যতীত is the written partner of ছাড়া 'without'"
+      ],
+      "new": [
+        "nishedh",
+        "nishiddho",
+        "dhumpan",
+        "onumoti",
+        "byatito",
+        "shongrokkhito"
+      ],
+      "review": [
+        "probesh",
+        "prodhan",
+        "fotok",
+        "chhara",
+        "ekhane",
+        "ofise",
+        "gari",
+        "rate"
+      ],
+      "tip": "**X নিষেধ** is 'X is not allowed': **ধূমপান নিষেধ** 'No smoking', **প্রবেশ নিষেধ** 'No entry'. **নিষিদ্ধ** 'prohibited' is the stronger, official word.\n\n**অনুমতি ব্যতীত প্রবেশ নিষেধ** 'No entry without permission'. In speech you would say **অনুমতি ছাড়া ঢোকা মানা**: same meaning, everyday words.\n\n**Spelling:** নিষেধ and নিষিদ্ধ are spelled with **ষ**, though you say *sh*. **ক্ষ** in **সংরক্ষিত** is said *kkh*: *shongrokkhito*. **ব্য** is ব + য-ফলা: **ব্যতীত** *byatito*.",
+      "sentences": [
+        {
+          "bn": "এখানে ধূমপান নিষেধ।",
+          "tr": "ekhane dhumpan nishedh.",
+          "en": "No smoking here.",
+          "alt": [
+            "Smoking is not allowed here."
+          ]
+        },
+        {
+          "bn": "অফিসে ধূমপান নিষিদ্ধ।",
+          "tr": "ofise dhumpan nishiddho.",
+          "en": "Smoking is prohibited in the office."
+        },
+        {
+          "bn": "অনুমতি ব্যতীত প্রবেশ নিষেধ।",
+          "tr": "onumoti byatito probesh nishedh.",
+          "en": "No entry without permission."
+        },
+        {
+          "bn": "অনুমতি ছাড়া ঢোকা মানা।",
+          "tr": "onumoti chhara dhoka mana.",
+          "en": "You can't go in without permission."
+        },
+        {
+          "bn": "এটা সংরক্ষিত এলাকা।",
+          "tr": "eta shongrokkhito elaka.",
+          "en": "This is a restricted area."
+        },
+        {
+          "bn": "এখানে গাড়ি রাখা নিষেধ।",
+          "tr": "ekhane gari rakha nishedh.",
+          "en": "No parking here."
+        },
+        {
+          "bn": "আপনার কি অনুমতি আছে?",
+          "tr": "apnar ki onumoti achhe?",
+          "en": "Do you have permission?"
+        },
+        {
+          "bn": "রাতে প্রবেশ নিষেধ।",
+          "tr": "rate probesh nishedh.",
+          "en": "No entry at night."
+        }
+      ],
+      "dialogue": {
+        "title": "Office doors",
+        "lines": [
+          {
+            "bn": "ধূমপান নিষেধ",
+            "tr": "dhumpan nishedh",
+            "en": "No smoking"
+          },
+          {
+            "bn": "অনুমতি ব্যতীত প্রবেশ নিষেধ",
+            "tr": "onumoti byatito probesh nishedh",
+            "en": "No entry without permission"
+          },
+          {
+            "bn": "সংরক্ষিত এলাকা",
+            "tr": "shongrokkhito elaka",
+            "en": "Restricted area"
+          },
+          {
+            "bn": "এখানে গাড়ি রাখা নিষেধ",
+            "tr": "ekhane gari rakha nishedh",
+            "en": "No parking here"
+          },
+          {
+            "bn": "অফিসে ধূমপান নিষিদ্ধ",
+            "tr": "ofise dhumpan nishiddho",
+            "en": "Smoking is prohibited in the office"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Can a visitor walk into the restricted area?",
+            "options": [
+              "Only with permission",
+              "Yes, at any time",
+              "Only at night",
+              "Only to smoke"
+            ],
+            "answer": 0
+          },
+          {
+            "question": "What may you not do outside this office?",
+            "options": [
+              "Park a car",
+              "Wait",
+              "Ask for permission",
+              "Use the gate"
+            ],
+            "answer": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "r01-l03",
+      "title": "Please, on a sign",
+      "goal": "Read polite requests on a mosque or clinic door: take off your shoes, switch off your phone, use the bin.",
+      "grammar": [
+        "written commands in -উন: খুলুন, রাখুন, ফেলুন (speech: খোলেন, রাখেন, ফেলেন)",
+        "অনুগ্রহ করে = written দয়া করে 'please'"
+      ],
+      "new": [
+        "onugroho-kore",
+        "onurodh",
+        "felun",
+        "khulun",
+        "rakhun",
+        "byabohar",
+        "nirdishto",
+        "sthan",
+        "sthane",
+        "porichchhonno"
+      ],
+      "review": [
+        "doya-kore",
+        "korun",
+        "bondho",
+        "fon",
+        "moshjid",
+        "porishkar",
+        "probesh",
+        "nishedh"
+      ],
+      "tip": "Signs ask politely with **-উন** commands: **খুলুন**, **রাখুন**, **ফেলুন**, **করুন**. In everyday Bangladeshi speech you say **খোলেন**, **রাখেন**, **ফেলেন**. Same meaning, written style.\n\n**অনুগ্রহ করে** is the written 'please' (speech: **দয়া করে**). **স্থান** is the written word for **জায়গা** 'place', and **পরিচ্ছন্ন** for **পরিষ্কার** 'clean'.\n\n**Conjuncts:** **স্থ** = স + থ (**স্থান** *sthan*). **র্দ** has a ref on দ and **ষ্ট** is ষ + ট: **নির্দিষ্ট** *nirdishto*. **চ্ছ** is চ + ছ: **পরিচ্ছন্ন**.",
+      "sentences": [
+        {
+          "bn": "অনুগ্রহ করে জুতা খুলুন।",
+          "tr": "onugroho kore juta khulun.",
+          "en": "Please take off your shoes."
+        },
+        {
+          "bn": "মোবাইল ফোন বন্ধ রাখুন।",
+          "tr": "mobail fon bondho rakhun.",
+          "en": "Keep mobile phones switched off.",
+          "alt": [
+            "Please switch off your mobile phone."
+          ]
+        },
+        {
+          "bn": "ময়লা নির্দিষ্ট স্থানে ফেলুন।",
+          "tr": "moyla nirdishto sthane felun.",
+          "en": "Put rubbish in the place provided.",
+          "alt": [
+            "Throw rubbish in the designated place."
+          ]
+        },
+        {
+          "bn": "মসজিদ পরিচ্ছন্ন রাখুন।",
+          "tr": "moshjid porichchhonno rakhun.",
+          "en": "Keep the mosque clean."
+        },
+        {
+          "bn": "অনুগ্রহ করে ডাস্টবিন ব্যবহার করুন।",
+          "tr": "onugroho kore dastbin byabohar korun.",
+          "en": "Please use the bin."
+        },
+        {
+          "bn": "সবার কাছে অনুরোধ, মোবাইল ফোন বন্ধ রাখুন।",
+          "tr": "shobar kachhe onurodh, mobail fon bondho rakhun.",
+          "en": "Everyone is asked to switch off their mobile phones."
+        },
+        {
+          "bn": "দয়া করে জুতা এখানে রাখুন।",
+          "tr": "doya kore juta ekhane rakhun.",
+          "en": "Please leave your shoes here."
+        },
+        {
+          "bn": "এই স্থানে ধূমপান নিষেধ।",
+          "tr": "ei sthane dhumpan nishedh.",
+          "en": "Smoking is not allowed in this place."
+        },
+        {
+          "bn": "এই জায়গা পরিষ্কার রাখুন।",
+          "tr": "ei jayga porishkar rakhun.",
+          "en": "Keep this place clean."
+        }
+      ],
+      "dialogue": {
+        "title": "At the mosque door",
+        "lines": [
+          {
+            "bn": "অনুগ্রহ করে জুতা খুলুন।",
+            "tr": "onugroho kore juta khulun.",
+            "en": "Please take off your shoes."
+          },
+          {
+            "bn": "জুতা রাখার স্থান",
+            "tr": "juta rakhar sthan",
+            "en": "Place for shoes"
+          },
+          {
+            "bn": "মোবাইল ফোন বন্ধ রাখুন।",
+            "tr": "mobail fon bondho rakhun.",
+            "en": "Keep mobile phones switched off."
+          },
+          {
+            "bn": "ময়লা নির্দিষ্ট স্থানে ফেলুন।",
+            "tr": "moyla nirdishto sthane felun.",
+            "en": "Put rubbish in the place provided."
+          },
+          {
+            "bn": "মসজিদ পরিচ্ছন্ন রাখুন।",
+            "tr": "moshjid porichchhonno rakhun.",
+            "en": "Keep the mosque clean."
+          }
+        ],
+        "questions": [
+          {
+            "question": "What should you do with your shoes?",
+            "options": [
+              "Take them off",
+              "Keep them on",
+              "Throw them away",
+              "Clean them"
+            ],
+            "answer": 0
+          },
+          {
+            "question": "What should you do with your phone?",
+            "options": [
+              "Keep it switched off",
+              "Leave it with your shoes",
+              "Use it quietly",
+              "Give it to someone"
+            ],
+            "answer": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "r01-l04",
+      "title": "Caution",
+      "goal": "Read danger and caution signs at a substation and a building site.",
+      "grammar": [
+        "X করবেন না 'do not X' on signs: স্পর্শ করবেন না",
+        "থাকুন 'please stay / be': দূরে থাকুন, সতর্ক থাকুন"
+      ],
+      "new": [
+        "shabdhan",
+        "shotorko",
+        "thakun",
+        "bipod",
+        "bipojjonok",
+        "boiddutik",
+        "sporsho",
+        "ogni",
+        "nirapod",
+        "nirapotta"
+      ],
+      "review": [
+        "korben",
+        "na",
+        "dure",
+        "kaj",
+        "lain",
+        "pani",
+        "gorom",
+        "noy-isnt"
+      ],
+      "tip": "Warning signs start with a heading: **বিপদ!** 'Danger!' or **সাবধান!** 'Caution!'. Then comes the instruction: **স্পর্শ করবেন না** 'do not touch' (speech: ধরবেন না), **দূরে থাকুন** 'keep away'.\n\n**অগ্নি** is the formal word for **আগুন** 'fire'; you meet it in **অগ্নি নিরাপত্তা** 'fire safety'.\n\n**Conjuncts:** **জ্জ** is a held j (**বিপজ্জনক** *bipojjonok*); **দ্য** doubles the d (**বৈদ্যুতিক** *boiddutik*); **ত্ত** is a held t (**নিরাপত্তা**). **স্প** = স + প, and **র্শ** has a ref: **স্পর্শ** *sporsho*.",
+      "sentences": [
+        {
+          "bn": "বিপদ! স্পর্শ করবেন না।",
+          "tr": "bipod! sporsho korben na.",
+          "en": "Danger! Do not touch."
+        },
+        {
+          "bn": "সাবধান, এখানে কাজ চলছে।",
+          "tr": "shabdhan, ekhane kaj cholchhe.",
+          "en": "Caution, work in progress here."
+        },
+        {
+          "bn": "এই এলাকা বিপজ্জনক, দূরে থাকুন।",
+          "tr": "ei elaka bipojjonok, dure thakun.",
+          "en": "This area is dangerous; keep away."
+        },
+        {
+          "bn": "বৈদ্যুতিক লাইন স্পর্শ করবেন না।",
+          "tr": "boiddutik lain sporsho korben na.",
+          "en": "Do not touch the electric line."
+        },
+        {
+          "bn": "রাস্তায় সতর্ক থাকুন।",
+          "tr": "rastay shotorko thakun.",
+          "en": "Be careful on the road.",
+          "alt": [
+            "Stay alert on the road."
+          ]
+        },
+        {
+          "bn": "এই রাস্তা নিরাপদ নয়।",
+          "tr": "ei rasta nirapod noy.",
+          "en": "This road is not safe."
+        },
+        {
+          "bn": "অগ্নি নিরাপত্তা খুব জরুরি।",
+          "tr": "ogni nirapotta khub joruri.",
+          "en": "Fire safety is very important."
+        },
+        {
+          "bn": "সাবধান, পানি গরম।",
+          "tr": "shabdhan, pani gorom.",
+          "en": "Careful, the water is hot."
+        }
+      ],
+      "dialogue": {
+        "title": "Substation and building site",
+        "lines": [
+          {
+            "bn": "বিপদ! বৈদ্যুতিক লাইন।",
+            "tr": "bipod! boiddutik lain.",
+            "en": "Danger! Electric line."
+          },
+          {
+            "bn": "স্পর্শ করবেন না।",
+            "tr": "sporsho korben na.",
+            "en": "Do not touch."
+          },
+          {
+            "bn": "সাবধান! কাজ চলছে।",
+            "tr": "shabdhan! kaj cholchhe.",
+            "en": "Caution! Work in progress."
+          },
+          {
+            "bn": "বিপজ্জনক এলাকা, দূরে থাকুন।",
+            "tr": "bipojjonok elaka, dure thakun.",
+            "en": "Dangerous area, keep away."
+          },
+          {
+            "bn": "সতর্ক থাকুন।",
+            "tr": "shotorko thakun.",
+            "en": "Stay alert."
+          },
+          {
+            "bn": "অগ্নি নিরাপত্তা: সিঁড়ি ব্যবহার করুন।",
+            "tr": "ogni nirapotta: shi~ri byabohar korun.",
+            "en": "Fire safety: use the stairs."
+          }
+        ],
+        "questions": [
+          {
+            "question": "What must you not do near the electric line?",
+            "options": [
+              "Touch it",
+              "Look at it",
+              "Walk past it",
+              "Report it"
+            ],
+            "answer": 0
+          },
+          {
+            "question": "In a fire, how should you go down?",
+            "options": [
+              "By the stairs",
+              "By the lift",
+              "Through the building site",
+              "You should wait inside"
+            ],
+            "answer": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "r01-l05",
+      "title": "Open, closed, changed",
+      "goal": "Read office hours, closing days and 'cancelled / postponed' notes.",
+      "grammar": [
+        "times in words: সকাল দশটা থেকে বিকাল পাঁচটা পর্যন্ত",
+        "স্থগিত 'postponed' vs বাতিল 'cancelled'"
+      ],
+      "new": [
+        "shomoyshuchi",
+        "shaptahik",
+        "shorkari",
+        "sthogito",
+        "batil",
+        "shamoyik",
+        "oshubidha",
+        "oshubidhar",
+        "chalu"
+      ],
+      "review": [
+        "chhuti",
+        "shukrobar",
+        "shonibar",
+        "doshta",
+        "pachta",
+        "porjonto",
+        "thakbe",
+        "dukkhito",
+        "porikkha",
+        "klas"
+      ],
+      "tip": "An hours board: **সময়সূচি** 'opening hours', **সাপ্তাহিক ছুটি** 'weekly day off', **সরকারি ছুটি** 'public holiday'. Times are written in words here: **সকাল দশটা থেকে বিকাল পাঁচটা পর্যন্ত**.\n\nTwo words for 'not today': **স্থগিত** 'postponed' (it will happen later) and **বাতিল** 'cancelled' (it will not happen).\n\nThe road-works line **সাময়িক অসুবিধার জন্য দুঃখিত** is 'Sorry for the temporary inconvenience'.\n\n**Spelling:** **সময়সূচি** ends in short **ি** (Academy spelling); you will also see সময়সূচী. **প্ত** in **সাপ্তাহিক** is প + ত.",
+      "sentences": [
+        {
+          "bn": "সকাল দশটা থেকে বিকাল পাঁচটা পর্যন্ত অফিস খোলা।",
+          "tr": "shokal doshta theke bikal pa~chta porjonto ofis khola.",
+          "en": "The office is open from ten in the morning to five in the afternoon."
+        },
+        {
+          "bn": "সাপ্তাহিক ছুটি শুক্রবার।",
+          "tr": "shaptahik chhuti shukrobar.",
+          "en": "The weekly day off is Friday.",
+          "alt": [
+            "Closed on Fridays."
+          ]
+        },
+        {
+          "bn": "সরকারি ছুটির দিনে অফিস বন্ধ থাকবে।",
+          "tr": "shorkari chhutir dine ofis bondho thakbe.",
+          "en": "The office will be closed on public holidays."
+        },
+        {
+          "bn": "আজ ক্লাস বাতিল।",
+          "tr": "aj klas batil.",
+          "en": "Today's class is cancelled.",
+          "alt": [
+            "The class is cancelled today."
+          ]
+        },
+        {
+          "bn": "পরীক্ষা স্থগিত।",
+          "tr": "porikkha sthogito.",
+          "en": "The exam is postponed."
+        },
+        {
+          "bn": "সাময়িক অসুবিধার জন্য দুঃখিত।",
+          "tr": "shamoyik oshubidhar jonno dukkhito.",
+          "en": "Sorry for the temporary inconvenience."
+        },
+        {
+          "bn": "লিফট এখন চালু আছে।",
+          "tr": "lift ekhon chalu achhe.",
+          "en": "The lift is working now."
+        },
+        {
+          "bn": "কোনো অসুবিধা নেই।",
+          "tr": "kono oshubidha nei.",
+          "en": "No problem."
+        },
+        {
+          "bn": "অফিসের সময়সূচি কোথায়?",
+          "tr": "ofiser shomoyshuchi kothay?",
+          "en": "Where are the office hours posted?",
+          "alt": [
+            "Where is the office timetable?"
+          ]
+        }
+      ],
+      "dialogue": {
+        "title": "Office hours",
+        "lines": [
+          {
+            "bn": "অফিসের সময়সূচি",
+            "tr": "ofiser shomoyshuchi",
+            "en": "Office hours"
+          },
+          {
+            "bn": "সকাল দশটা থেকে বিকাল পাঁচটা পর্যন্ত",
+            "tr": "shokal doshta theke bikal pa~chta porjonto",
+            "en": "From ten in the morning to five in the afternoon"
+          },
+          {
+            "bn": "সাপ্তাহিক ছুটি: শুক্রবার ও শনিবার",
+            "tr": "shaptahik chhuti: shukrobar o shonibar",
+            "en": "Weekly days off: Friday and Saturday"
+          },
+          {
+            "bn": "সরকারি ছুটির দিনে অফিস বন্ধ থাকবে।",
+            "tr": "shorkari chhutir dine ofis bondho thakbe.",
+            "en": "The office is closed on public holidays."
+          }
+        ],
+        "questions": [
+          {
+            "question": "On which days is the office closed every week?",
+            "options": [
+              "Friday and Saturday",
+              "Saturday and Sunday",
+              "Only Friday",
+              "Only on public holidays"
+            ],
+            "answer": 0
+          },
+          {
+            "question": "When does the office close in the afternoon?",
+            "options": [
+              "At five",
+              "At ten",
+              "At three",
+              "It does not close"
+            ],
+            "answer": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "r01-l06",
+      "title": "The notice board",
+      "goal": "Read a building notice (বিজ্ঞপ্তি) and a to-let card, and recognise the sadhu হইবে.",
+      "grammar": [
+        "notice formula: সর্বসাধারণের অবগতির জন্য জানানো যাচ্ছে যে …",
+        "closing: আদেশক্রমে, কর্তৃপক্ষ",
+        "sadhu হইবে = cholit হবে (recognise only)"
+      ],
+      "new": [
+        "biggopti",
+        "kortripokkho",
+        "shorboshadharoner",
+        "obogotir",
+        "ukto",
+        "nirdharito",
+        "adeshkrome",
+        "hoibe"
+      ],
+      "review": [
+        "agami",
+        "shukrobar",
+        "shokal",
+        "bikal",
+        "bondho",
+        "chalu",
+        "shamoyik",
+        "oshubidhar",
+        "byabohar",
+        "onugroho-kore"
+      ],
+      "tip": "A **বিজ্ঞপ্তি** 'notice' opens with a fixed formula: **সর্বসাধারণের অবগতির জন্য জানানো যাচ্ছে যে …** 'This is to inform the public that …'. It ends with the sender: **আদেশক্রমে, কর্তৃপক্ষ** 'By order, the management'. **উক্ত** 'the said' points back: **উক্ত সময়ে** 'during that time'.\n\n**Sadhu:** old to-let cards say **বাড়ি ভাড়া দেওয়া হইবে**. **হইবে** is the sadhu (old written) form of **হবে**. Recognise it; never say it.\n\n**Conjuncts:** **জ্ঞ** is said *gg*: **বিজ্ঞপ্তি** *biggopti*. **কর্তৃপক্ষ** has a ref (র্ত), the ri-sign ৃ and ক্ষ: *kortripokkho*.",
+      "sentences": [
+        {
+          "bn": "নতুন বিজ্ঞপ্তি দেখেছো?",
+          "tr": "notun biggopti dekhechho?",
+          "en": "Have you seen the new notice?"
+        },
+        {
+          "bn": "সর্বসাধারণের অবগতির জন্য জানানো যাচ্ছে যে আগামী শুক্রবার লিফট বন্ধ থাকবে।",
+          "tr": "shorboshadharoner obogotir jonno janano jachchhe je agami shukrobar lift bondho thakbe.",
+          "en": "This is to inform the public that the lift will be out of service next Friday."
+        },
+        {
+          "bn": "উক্ত সময়ে সিঁড়ি ব্যবহার করুন।",
+          "tr": "ukto shomoye shi~ri byabohar korun.",
+          "en": "Please use the stairs during that time."
+        },
+        {
+          "bn": "লিফট নির্ধারিত সময়ে চালু হবে।",
+          "tr": "lift nirdharito shomoye chalu hobe.",
+          "en": "The lift will start working at the scheduled time."
+        },
+        {
+          "bn": "আদেশক্রমে, কর্তৃপক্ষ।",
+          "tr": "adeshkrome, kortripokkho.",
+          "en": "By order, the management."
+        },
+        {
+          "bn": "বাড়ি ভাড়া দেওয়া হইবে।",
+          "tr": "bari bhara deoa hoibe.",
+          "en": "House to let."
+        },
+        {
+          "bn": "বাড়ি ভাড়া দেওয়া হবে।",
+          "tr": "bari bhara deoa hobe.",
+          "en": "The house will be let.",
+          "alt": [
+            "The house is for rent."
+          ]
+        },
+        {
+          "bn": "কর্তৃপক্ষ নতুন বিজ্ঞপ্তি দিল।",
+          "tr": "kortripokkho notun biggopti dilo.",
+          "en": "The management put up a new notice."
+        }
+      ],
+      "dialogue": {
+        "title": "Notice",
+        "lines": [
+          {
+            "bn": "বিজ্ঞপ্তি",
+            "tr": "biggopti",
+            "en": "Notice"
+          },
+          {
+            "bn": "সর্বসাধারণের অবগতির জন্য জানানো যাচ্ছে যে আগামী শুক্রবার সকাল দশটা থেকে বিকাল পাঁচটা পর্যন্ত ভবনের লিফট বন্ধ থাকবে।",
+            "tr": "shorboshadharoner obogotir jonno janano jachchhe je agami shukrobar shokal doshta theke bikal pa~chta porjonto bhoboner lift bondho thakbe.",
+            "en": "This is to inform everyone that the building's lift will be out of service next Friday from ten in the morning to five in the afternoon."
+          },
+          {
+            "bn": "উক্ত সময়ে অনুগ্রহ করে সিঁড়ি ব্যবহার করুন।",
+            "tr": "ukto shomoye onugroho kore shi~ri byabohar korun.",
+            "en": "During that time, please use the stairs."
+          },
+          {
+            "bn": "লিফট নির্ধারিত সময়ের পরে আবার চালু হবে।",
+            "tr": "lift nirdharito shomoyer pore abar chalu hobe.",
+            "en": "The lift will work again after the scheduled time."
+          },
+          {
+            "bn": "সাময়িক অসুবিধার জন্য আমরা দুঃখিত।",
+            "tr": "shamoyik oshubidhar jonno amra dukkhito.",
+            "en": "We are sorry for the temporary inconvenience."
+          },
+          {
+            "bn": "আদেশক্রমে, ভবন কর্তৃপক্ষ",
+            "tr": "adeshkrome, bhobon kortripokkho",
+            "en": "By order, the building management"
+          }
+        ],
+        "questions": [
+          {
+            "question": "What will be out of service on Friday?",
+            "options": [
+              "The lift",
+              "The stairs",
+              "The water",
+              "The main gate"
+            ],
+            "answer": 0
+          },
+          {
+            "question": "Who put up the notice?",
+            "options": [
+              "The building management",
+              "A tenant",
+              "The government",
+              "The police"
+            ],
+            "answer": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "r01-l07",
+      "title": "Counters and services",
+      "goal": "Find your way in a bank branch and a station: customer service, queues, toilets and reserved seats.",
+      "grammar": [
+        "formal ↔ everyday: প্রয়োজন / দরকার, কার্যালয় / অফিস, শৌচাগার / বাথরুম, সারিতে / লাইনে"
+      ],
+      "new": [
+        "sheba",
+        "grahok",
+        "sharite",
+        "shakha",
+        "karjaloy",
+        "shouchagar",
+        "purush",
+        "ashon",
+        "proyojon"
+      ],
+      "review": [
+        "dorkar",
+        "ofis",
+        "bathrum",
+        "mohila",
+        "shongrokkhito",
+        "prodhan",
+        "tikit",
+        "daran",
+        "steshoner",
+        "onugroho-kore"
+      ],
+      "tip": "Counters and services have formal names. Each has an everyday partner you already say:\n\n- **প্রয়োজন** = দরকার 'need'\n- **কার্যালয়** = অফিস 'office'\n- **শৌচাগার** = বাথরুম, টয়লেট 'toilet'\n- **সারিতে** = লাইনে 'in the queue'\n\n**গ্রাহক সেবা** is 'customer service' and **সংরক্ষিত আসন** is a 'reserved seat'.\n\n**Conjuncts:** **গ্র** is গ + র-ফলা (**গ্রাহক** *grahok*). **র্য** is a ref on য (**কার্যালয়** *karjaloy*). In **শৌচাগার** the ৌ sign wraps the শ: *shou*.",
+      "sentences": [
+        {
+          "bn": "গ্রাহক সেবা কোথায়?",
+          "tr": "grahok sheba kothay?",
+          "en": "Where is customer service?"
+        },
+        {
+          "bn": "অনুগ্রহ করে সারিতে দাঁড়ান।",
+          "tr": "onugroho kore sharite da~ran.",
+          "en": "Please stand in the queue.",
+          "alt": [
+            "Please queue."
+          ]
+        },
+        {
+          "bn": "আমাদের প্রধান শাখা ঢাকায়।",
+          "tr": "amader prodhan shakha dhakay.",
+          "en": "Our main branch is in Dhaka."
+        },
+        {
+          "bn": "পুরুষ শৌচাগার বামে।",
+          "tr": "purush shouchagar bame.",
+          "en": "The men's toilet is on the left."
+        },
+        {
+          "bn": "এই আসন বয়স্কদের জন্য সংরক্ষিত।",
+          "tr": "ei ashon boyoshkoder jonno shongrokkhito.",
+          "en": "This seat is reserved for older people."
+        },
+        {
+          "bn": "আপনার কী সেবা প্রয়োজন?",
+          "tr": "apnar ki sheba proyojon?",
+          "en": "What service do you need?"
+        },
+        {
+          "bn": "আপনার কী দরকার?",
+          "tr": "apnar ki dorkar?",
+          "en": "What do you need?"
+        },
+        {
+          "bn": "শাখা কার্যালয় স্টেশনের পাশে।",
+          "tr": "shakha karjaloy steshoner pashe.",
+          "en": "The branch office is next to the station."
+        },
+        {
+          "bn": "আর কিছু প্রয়োজন?",
+          "tr": "ar kichhu proyojon?",
+          "en": "Do you need anything else?",
+          "alt": [
+            "Anything else?"
+          ]
+        }
+      ],
+      "dialogue": {
+        "title": "Bank and station signs",
+        "lines": [
+          {
+            "bn": "গ্রাহক সেবা",
+            "tr": "grahok sheba",
+            "en": "Customer service"
+          },
+          {
+            "bn": "অনুগ্রহ করে সারিতে দাঁড়ান।",
+            "tr": "onugroho kore sharite da~ran.",
+            "en": "Please stand in the queue."
+          },
+          {
+            "bn": "প্রধান শাখা কার্যালয়",
+            "tr": "prodhan shakha karjaloy",
+            "en": "Main branch office"
+          },
+          {
+            "bn": "টিকিট কাউন্টার",
+            "tr": "tikit kauntar",
+            "en": "Ticket counter"
+          },
+          {
+            "bn": "পুরুষ শৌচাগার",
+            "tr": "purush shouchagar",
+            "en": "Men's toilet"
+          },
+          {
+            "bn": "মহিলা শৌচাগার",
+            "tr": "mohila shouchagar",
+            "en": "Women's toilet"
+          },
+          {
+            "bn": "মহিলা ও বয়স্কদের জন্য সংরক্ষিত আসন",
+            "tr": "mohila o boyoshkoder jonno shongrokkhito ashon",
+            "en": "Seats reserved for women and older people"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Who are the reserved seats for?",
+            "options": [
+              "Women and older people",
+              "Men",
+              "Bank customers",
+              "Staff only"
+            ],
+            "answer": 0
+          },
+          {
+            "question": "Where do you go with a question about your bank account?",
+            "options": [
+              "Customer service",
+              "The ticket counter",
+              "The men's toilet",
+              "The reserved seats"
+            ],
+            "answer": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "r01-r01",
+      "kind": "review",
+      "title": "Review: read it again",
+      "goal": "Reread the notice and two sign sets, three times each, and recall every R1 word.",
+      "grammar": [
+        "repeated reading: the same text three times, a little faster each time"
+      ],
+      "new": [],
+      "review": [
+        "probesh",
+        "bahir",
+        "prosthan",
+        "bohirgomon",
+        "fotok",
+        "prodhan",
+        "obbhorthona",
+        "bibhag",
+        "nishedh",
+        "nishiddho",
+        "dhumpan",
+        "onumoti",
+        "byatito",
+        "shongrokkhito",
+        "onugroho-kore",
+        "onurodh",
+        "felun",
+        "khulun",
+        "rakhun",
+        "byabohar",
+        "nirdishto",
+        "sthan",
+        "sthane",
+        "porichchhonno",
+        "shabdhan",
+        "shotorko",
+        "thakun",
+        "bipod",
+        "bipojjonok",
+        "boiddutik",
+        "sporsho",
+        "ogni",
+        "nirapod",
+        "nirapotta",
+        "shomoyshuchi",
+        "shaptahik",
+        "shorkari",
+        "sthogito",
+        "batil",
+        "shamoyik",
+        "oshubidha",
+        "oshubidhar",
+        "chalu",
+        "biggopti",
+        "kortripokkho",
+        "shorboshadharoner",
+        "obogotir",
+        "ukto",
+        "nirdharito",
+        "adeshkrome",
+        "hoibe",
+        "sheba",
+        "grahok",
+        "sharite",
+        "shakha",
+        "karjaloy",
+        "shouchagar",
+        "purush",
+        "ashon",
+        "proyojon"
+      ],
+      "tip": "**Read it again.** Each text in this review comes back three times. Read it aloud with the audio first, then on your own, then silently and faster. Repeated reading is the quickest way to build reading speed.\n\nKeep the pairs in mind: on signs, **প্রবেশ** (ঢোকা), **ব্যতীত** (ছাড়া), **স্থান** (জায়গা), **প্রয়োজন** (দরকার), **হইবে** (হবে).",
+      "sentences": [
+        {
+          "bn": "অনুমতি ব্যতীত প্রবেশ নিষেধ।",
+          "tr": "onumoti byatito probesh nishedh.",
+          "en": "No entry without permission."
+        },
+        {
+          "bn": "ময়লা নির্দিষ্ট স্থানে ফেলুন।",
+          "tr": "moyla nirdishto sthane felun.",
+          "en": "Put rubbish in the place provided."
+        },
+        {
+          "bn": "বিপদ! স্পর্শ করবেন না।",
+          "tr": "bipod! sporsho korben na.",
+          "en": "Danger! Do not touch."
+        },
+        {
+          "bn": "সাময়িক অসুবিধার জন্য দুঃখিত।",
+          "tr": "shamoyik oshubidhar jonno dukkhito.",
+          "en": "Sorry for the temporary inconvenience."
+        },
+        {
+          "bn": "উক্ত সময়ে সিঁড়ি ব্যবহার করুন।",
+          "tr": "ukto shomoye shi~ri byabohar korun.",
+          "en": "Please use the stairs during that time."
+        },
+        {
+          "bn": "এই আসন বয়স্কদের জন্য সংরক্ষিত।",
+          "tr": "ei ashon boyoshkoder jonno shongrokkhito.",
+          "en": "This seat is reserved for older people."
+        },
+        {
+          "bn": "জরুরি বিভাগ বামে।",
+          "tr": "joruri bibhag bame.",
+          "en": "The emergency department is on the left."
+        },
+        {
+          "bn": "আপনার কী সেবা প্রয়োজন?",
+          "tr": "apnar ki sheba proyojon?",
+          "en": "What service do you need?"
+        }
+      ]
+    },
+    {
+      "id": "r01-c01",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Signs and notices",
+      "goal": "Read an unseen station notice and scan six signs. Pass: at least 80% right.",
+      "grammar": [],
+      "new": [],
+      "review": [
+        "probesh",
+        "bahir",
+        "prosthan",
+        "bohirgomon",
+        "fotok",
+        "prodhan",
+        "obbhorthona",
+        "bibhag",
+        "nishedh",
+        "nishiddho",
+        "dhumpan",
+        "onumoti",
+        "byatito",
+        "shongrokkhito",
+        "onugroho-kore",
+        "onurodh",
+        "felun",
+        "khulun",
+        "rakhun",
+        "byabohar",
+        "nirdishto",
+        "sthan",
+        "sthane",
+        "porichchhonno",
+        "shabdhan",
+        "shotorko",
+        "thakun",
+        "bipod",
+        "bipojjonok",
+        "boiddutik",
+        "sporsho",
+        "ogni",
+        "nirapod",
+        "nirapotta",
+        "shomoyshuchi",
+        "shaptahik",
+        "shorkari",
+        "sthogito",
+        "batil",
+        "shamoyik",
+        "oshubidha",
+        "oshubidhar",
+        "chalu",
+        "biggopti",
+        "kortripokkho",
+        "shorboshadharoner",
+        "obogotir",
+        "ukto",
+        "nirdharito",
+        "adeshkrome",
+        "hoibe",
+        "sheba",
+        "grahok",
+        "sharite",
+        "shakha",
+        "karjaloy",
+        "shouchagar",
+        "purush",
+        "ashon",
+        "proyojon"
+      ],
+      "tip": "**Checkpoint.** A notice you have not seen before, and six signs to scan. Read the notice once, at your normal speed, then answer. Try to find each sign's meaning in under five seconds.",
+      "sentences": [
+        {
+          "bn": "স্টেশনে ধূমপান নিষিদ্ধ।",
+          "tr": "steshone dhumpan nishiddho.",
+          "en": "Smoking is prohibited in the station."
+        },
+        {
+          "bn": "নির্ধারিত স্থানে গাড়ি রাখুন।",
+          "tr": "nirdharito sthane gari rakhun.",
+          "en": "Park in the designated place."
+        },
+        {
+          "bn": "টিকিট কাউন্টার চালু থাকবে।",
+          "tr": "tikit kauntar chalu thakbe.",
+          "en": "The ticket counter will stay open."
+        },
+        {
+          "bn": "জরুরি প্রয়োজন হলে গ্রাহক সেবা কাউন্টারে আসুন।",
+          "tr": "joruri proyojon hole grahok sheba kauntare ashun.",
+          "en": "If it is urgent, come to the customer service counter."
+        },
+        {
+          "bn": "উক্ত সময়ে পাশের ফটক ব্যবহার করুন।",
+          "tr": "ukto shomoye pasher fotok byabohar korun.",
+          "en": "During that time, use the side gate."
+        },
+        {
+          "bn": "বৈদ্যুতিক লাইন থেকে দূরে থাকুন।",
+          "tr": "boiddutik lain theke dure thakun.",
+          "en": "Keep away from the electric line."
+        },
+        {
+          "bn": "মহিলা শৌচাগার ডানে।",
+          "tr": "mohila shouchagar dane.",
+          "en": "The women's toilet is on the right."
+        },
+        {
+          "bn": "আজ প্রধান শাখা বন্ধ।",
+          "tr": "aj prodhan shakha bondho.",
+          "en": "The main branch is closed today."
+        }
+      ],
+      "dialogue": {
+        "title": "Station notice",
+        "lines": [
+          {
+            "bn": "বিজ্ঞপ্তি",
+            "tr": "biggopti",
+            "en": "Notice"
+          },
+          {
+            "bn": "সর্বসাধারণের অবগতির জন্য জানানো যাচ্ছে যে রাস্তার কাজের জন্য আগামী সোমবার থেকে বৃহস্পতিবার পর্যন্ত স্টেশনের প্রধান ফটক বন্ধ থাকবে।",
+            "tr": "shorboshadharoner obogotir jonno janano jachchhe je rastar kajer jonno agami shombar theke brihoshpotibar porjonto steshoner prodhan fotok bondho thakbe.",
+            "en": "This is to inform the public that, because of road works, the station's main gate will be closed from next Monday to Thursday."
+          },
+          {
+            "bn": "উক্ত সময়ে অনুগ্রহ করে বাজারের পাশের ফটক ব্যবহার করুন।",
+            "tr": "ukto shomoye onugroho kore bajarer pasher fotok byabohar korun.",
+            "en": "During that time, please use the gate beside the market."
+          },
+          {
+            "bn": "টিকিট কাউন্টার ও গ্রাহক সেবা চালু থাকবে।",
+            "tr": "tikit kauntar o grahok sheba chalu thakbe.",
+            "en": "The ticket counter and customer service will stay open."
+          },
+          {
+            "bn": "স্টেশনে ধূমপান নিষিদ্ধ। নির্ধারিত স্থানে গাড়ি রাখুন।",
+            "tr": "steshone dhumpan nishiddho. nirdharito sthane gari rakhun.",
+            "en": "Smoking is prohibited in the station. Park only in the designated place."
+          },
+          {
+            "bn": "জরুরি প্রয়োজন হলে গ্রাহক সেবা কাউন্টারে আসুন।",
+            "tr": "joruri proyojon hole grahok sheba kauntare ashun.",
+            "en": "If it is urgent, come to the customer service counter."
+          },
+          {
+            "bn": "সাময়িক অসুবিধার জন্য আমরা দুঃখিত।",
+            "tr": "shamoyik oshubidhar jonno amra dukkhito.",
+            "en": "We are sorry for the temporary inconvenience."
+          },
+          {
+            "bn": "আদেশক্রমে, স্টেশন কর্তৃপক্ষ",
+            "tr": "adeshkrome, steshon kortripokkho",
+            "en": "By order, the station management"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Why will the main gate be closed?",
+            "options": [
+              "Because of road works",
+              "Because of a holiday",
+              "Because of a fire",
+              "Because the lift is broken"
+            ],
+            "answer": 0
+          },
+          {
+            "question": "Which gate should you use from Monday to Thursday?",
+            "options": [
+              "The gate beside the market",
+              "The main gate",
+              "The emergency exit",
+              "None: the station is closed"
+            ],
+            "answer": 0
+          }
+        ]
+      }
+    }
+  ]
+}

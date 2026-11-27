@@ -1,0 +1,550 @@
+{
+  "id": "r01-l06",
+  "unit": "r01-signs",
+  "title": "The notice board",
+  "status": "draft",
+  "tip": "A **বিজ্ঞপ্তি** 'notice' opens with a fixed formula: **সর্বসাধারণের অবগতির জন্য জানানো যাচ্ছে যে …** 'This is to inform the public that …'. It ends with the sender: **আদেশক্রমে, কর্তৃপক্ষ** 'By order, the management'. **উক্ত** 'the said' points back: **উক্ত সময়ে** 'during that time'.\n\n**Sadhu:** old to-let cards say **বাড়ি ভাড়া দেওয়া হইবে**. **হইবে** is the sadhu (old written) form of **হবে**. Recognise it; never say it.\n\n**Conjuncts:** **জ্ঞ** is said *gg*: **বিজ্ঞপ্তি** *biggopti*. **কর্তৃপক্ষ** has a ref (র্ত), the ri-sign ৃ and ক্ষ: *kortripokkho*.",
+  "vocab": [
+    {
+      "id": "biggopti",
+      "bn": "বিজ্ঞপ্তি",
+      "tr": "biggopti",
+      "en": "notice; announcement",
+      "notes": "Register: formal (written). জ্ঞ is said gg (not jn): big-gop-ti. প্ত = প + ত."
+    },
+    {
+      "id": "kortripokkho",
+      "bn": "কর্তৃপক্ষ",
+      "tr": "kortripokkho",
+      "en": "the management; the authority",
+      "notes": "Register: formal (written). র্ত (ref on ত) + ৃ (ri), then ক্ষ (kkh)."
+    },
+    {
+      "id": "shorboshadharoner",
+      "bn": "সর্বসাধারণের",
+      "tr": "shorboshadharoner",
+      "en": "of the general public",
+      "notes": "Register: formal (written). From সর্বসাধারণ 'the general public' + -এর. র্ব = ref on ব; ণ in tatsama."
+    },
+    {
+      "id": "obogotir",
+      "bn": "অবগতির",
+      "tr": "obogotir",
+      "en": "for the information (of)",
+      "notes": "Register: formal (written). From অবগতি 'knowledge'. Fixed phrase: … অবগতির জন্য 'for the information of …'."
+    },
+    {
+      "id": "ukto",
+      "bn": "উক্ত",
+      "tr": "ukto",
+      "en": "the said; that (just mentioned)",
+      "notes": "Register: formal (written). Everyday word: ওই. Written partner of ওই/সেই: উক্ত সময়ে 'during that time'. ক্ত = ক + ত."
+    },
+    {
+      "id": "nirdharito",
+      "bn": "নির্ধারিত",
+      "tr": "nirdharito",
+      "en": "scheduled; fixed",
+      "notes": "Register: formal (written). র্ধ = ref on ধ."
+    },
+    {
+      "id": "adeshkrome",
+      "bn": "আদেশক্রমে",
+      "tr": "adeshkrome",
+      "en": "by order",
+      "notes": "Register: formal (written). Closing formula on notices, before the sender: আদেশক্রমে, কর্তৃপক্ষ. ক্র = ক + র."
+    },
+    {
+      "id": "hoibe",
+      "bn": "হইবে",
+      "tr": "hoibe",
+      "en": "will be (sadhu)",
+      "notes": "Register: sadhu (old written style; recognise only). Everyday word: হবে. Sadhu (old written) form of হবে. Recognise it only; do not use it in speech."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "চালু",
+        "tr": "chalu",
+        "en": "working; in service"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "বাতিল",
+        "স্থগিত",
+        "সাময়িক",
+        "চালু"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "সময়সূচি",
+        "tr": "shomoyshuchi",
+        "en": "timetable; opening hours"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "সাপ্তাহিক",
+        "সরকারি",
+        "সময়সূচি",
+        "অসুবিধা"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e03",
+      "type": "reading",
+      "title": "Notice",
+      "lines": [
+        {
+          "bn": "বিজ্ঞপ্তি",
+          "tr": "biggopti",
+          "en": "Notice"
+        },
+        {
+          "bn": "সর্বসাধারণের অবগতির জন্য জানানো যাচ্ছে যে আগামী শুক্রবার সকাল দশটা থেকে বিকাল পাঁচটা পর্যন্ত ভবনের লিফট বন্ধ থাকবে।",
+          "tr": "shorboshadharoner obogotir jonno janano jachchhe je agami shukrobar shokal doshta theke bikal pa~chta porjonto bhoboner lift bondho thakbe.",
+          "en": "This is to inform everyone that the building's lift will be out of service next Friday from ten in the morning to five in the afternoon."
+        },
+        {
+          "bn": "উক্ত সময়ে অনুগ্রহ করে সিঁড়ি ব্যবহার করুন।",
+          "tr": "ukto shomoye onugroho kore shi~ri byabohar korun.",
+          "en": "During that time, please use the stairs."
+        },
+        {
+          "bn": "লিফট নির্ধারিত সময়ের পরে আবার চালু হবে।",
+          "tr": "lift nirdharito shomoyer pore abar chalu hobe.",
+          "en": "The lift will work again after the scheduled time."
+        },
+        {
+          "bn": "সাময়িক অসুবিধার জন্য আমরা দুঃখিত।",
+          "tr": "shamoyik oshubidhar jonno amra dukkhito.",
+          "en": "We are sorry for the temporary inconvenience."
+        },
+        {
+          "bn": "আদেশক্রমে, ভবন কর্তৃপক্ষ",
+          "tr": "adeshkrome, bhobon kortripokkho",
+          "en": "By order, the building management"
+        }
+      ],
+      "question": "What will be out of service on Friday?",
+      "options": [
+        "The stairs",
+        "The lift",
+        "The water",
+        "The main gate"
+      ],
+      "answer": 1,
+      "why": "**ভবনের লিফট বন্ধ থাকবে** 'the building's lift will be out of service'."
+    },
+    {
+      "id": "e04",
+      "type": "reading",
+      "title": "To let",
+      "lines": [
+        {
+          "bn": "বাড়ি ভাড়া দেওয়া হইবে।",
+          "tr": "bari bhara deoa hoibe.",
+          "en": "House to let."
+        },
+        {
+          "bn": "তিন রুম, দুই বাথরুম।",
+          "tr": "tin rum, dui bathrum.",
+          "en": "Three rooms, two bathrooms."
+        },
+        {
+          "bn": "আগামী মাস থেকে।",
+          "tr": "agami mash theke.",
+          "en": "From next month."
+        }
+      ],
+      "question": "What does the card offer?",
+      "options": [
+        "A house to rent",
+        "A house for sale",
+        "A job",
+        "A room to clean"
+      ],
+      "answer": 0,
+      "why": "**ভাড়া দেওয়া হইবে** 'will be let'. **হইবে** is sadhu for **হবে**."
+    },
+    {
+      "id": "e05",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "উক্ত",
+        "tr": "ukto",
+        "en": "the said; that (just mentioned)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "scheduled; fixed",
+        "by order",
+        "notice; announcement",
+        "the said; that (just mentioned)"
+      ],
+      "answer": 3,
+      "why": "**উক্ত** 'the said' points back to something just mentioned."
+    },
+    {
+      "id": "e06",
+      "type": "listen_select",
+      "audio": {
+        "bn": "কর্তৃপক্ষ",
+        "tr": "kortripokkho",
+        "en": "the management; the authority"
+      },
+      "options": [
+        "বিজ্ঞপ্তি",
+        "আদেশক্রমে",
+        "কর্তৃপক্ষ",
+        "নির্ধারিত"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e07",
+      "type": "script_recognize",
+      "glyph": "বিজ্ঞপ্তি",
+      "options": [
+        "bijnopti (জ + ঞ, said jn)",
+        "biggopti (জ + ঞ, said gg)",
+        "bigyopti (said gy)",
+        "bijopti (one j)"
+      ],
+      "answer": 1,
+      "why": "**জ্ঞ** is জ + ঞ, but Bengali says *gg*: *biggopti*. Then **প্ত** = প + ত."
+    },
+    {
+      "id": "e08",
+      "type": "script_recognize",
+      "glyph": "কর্তৃপক্ষ",
+      "options": [
+        "kortripokkho (ref on ত, ri sign, ক + ষ)",
+        "krotripokkho (r after ক)",
+        "kortipokkho (no ri)",
+        "kortripokso (ক + ষ said ks)"
+      ],
+      "answer": 0,
+      "why": "Ref on ত (*rt*), the ri sign under ত (*tri*), then **ক্ষ** (*kkh*)."
+    },
+    {
+      "id": "e09",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "বাড়ি ভাড়া দেওয়া হবে।",
+        "tr": "bari bhara deoa hobe.",
+        "en": "The house will be let."
+      },
+      "blank": "হবে",
+      "options": [
+        "হইবে",
+        "থাকবে",
+        "যাচ্ছে",
+        "হবে"
+      ],
+      "answer": 3,
+      "why": "The card says sadhu **হইবে**; in everyday Bengali (cholit) it is **হবে**."
+    },
+    {
+      "id": "e10",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "উক্ত",
+        "tr": "ukto",
+        "en": "that (just mentioned), formal"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "ওই",
+        "নির্ধারিত",
+        "উক্ত",
+        "আগামী"
+      ],
+      "answer": 2,
+      "why": "**উক্ত** 'the said' is the notice word for **ওই** 'that'."
+    },
+    {
+      "id": "e11",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "আদেশক্রমে",
+        "tr": "adeshkrome",
+        "en": "by order (closing a notice)"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "বিজ্ঞপ্তি",
+        "আদেশক্রমে",
+        "অবগতির",
+        "কর্তৃপক্ষ"
+      ],
+      "answer": 1,
+      "why": "**আদেশক্রমে** comes before the sender's name. ক্র = ক + র."
+    },
+    {
+      "id": "e12",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "কর্তৃপক্ষ নতুন বিজ্ঞপ্তি দিল।",
+        "tr": "kortripokkho notun biggopti dilo.",
+        "en": "The management put up a new notice."
+      },
+      "blank": "বিজ্ঞপ্তি",
+      "accepted": [
+        "বিজ্ঞপ্তি",
+        "biggopti",
+        "bigopti"
+      ],
+      "why": "**বিজ্ঞপ্তি** is spelled with **জ্ঞ**, though you say *gg*."
+    },
+    {
+      "id": "e13",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "সর্বসাধারণের অবগতির জন্য জানানো যাচ্ছে যে আগামী শুক্রবার লিফট বন্ধ থাকবে।",
+        "tr": "shorboshadharoner obogotir jonno janano jachchhe je agami shukrobar lift bondho thakbe.",
+        "en": "This is to inform the public that the lift will be out of service next Friday."
+      },
+      "options": [
+        "This is to inform the public that the lift will be out of service next Friday.",
+        "This is to inform the public that the lift is working again.",
+        "The lift was out of service last Friday.",
+        "Please use the lift next Friday."
+      ],
+      "answer": 0,
+      "why": "**সর্বসাধারণের অবগতির জন্য জানানো যাচ্ছে যে** 'This is to inform the public that'."
+    },
+    {
+      "id": "e14",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "আদেশক্রমে, কর্তৃপক্ষ।",
+        "tr": "adeshkrome, kortripokkho.",
+        "en": "By order, the management."
+      },
+      "options": [
+        "With thanks, the tenants.",
+        "Notice from the government.",
+        "Please contact the management.",
+        "By order, the management."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e15",
+      "type": "reading",
+      "title": "Notice: read it again",
+      "lines": [
+        {
+          "bn": "বিজ্ঞপ্তি",
+          "tr": "biggopti",
+          "en": "Notice"
+        },
+        {
+          "bn": "সর্বসাধারণের অবগতির জন্য জানানো যাচ্ছে যে আগামী শুক্রবার সকাল দশটা থেকে বিকাল পাঁচটা পর্যন্ত ভবনের লিফট বন্ধ থাকবে।",
+          "tr": "shorboshadharoner obogotir jonno janano jachchhe je agami shukrobar shokal doshta theke bikal pa~chta porjonto bhoboner lift bondho thakbe.",
+          "en": "This is to inform everyone that the building's lift will be out of service next Friday from ten in the morning to five in the afternoon."
+        },
+        {
+          "bn": "উক্ত সময়ে অনুগ্রহ করে সিঁড়ি ব্যবহার করুন।",
+          "tr": "ukto shomoye onugroho kore shi~ri byabohar korun.",
+          "en": "During that time, please use the stairs."
+        },
+        {
+          "bn": "লিফট নির্ধারিত সময়ের পরে আবার চালু হবে।",
+          "tr": "lift nirdharito shomoyer pore abar chalu hobe.",
+          "en": "The lift will work again after the scheduled time."
+        },
+        {
+          "bn": "সাময়িক অসুবিধার জন্য আমরা দুঃখিত।",
+          "tr": "shamoyik oshubidhar jonno amra dukkhito.",
+          "en": "We are sorry for the temporary inconvenience."
+        },
+        {
+          "bn": "আদেশক্রমে, ভবন কর্তৃপক্ষ",
+          "tr": "adeshkrome, bhobon kortripokkho",
+          "en": "By order, the building management"
+        }
+      ],
+      "question": "Who put up the notice?",
+      "options": [
+        "A tenant",
+        "The government",
+        "The building management",
+        "The police"
+      ],
+      "answer": 2,
+      "why": "The sender comes last: **আদেশক্রমে, ভবন কর্তৃপক্ষ**."
+    },
+    {
+      "id": "e16",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "উক্ত সময়ে সিঁড়ি ব্যবহার করুন।",
+        "tr": "ukto shomoye shi~ri byabohar korun.",
+        "en": "Please use the stairs during that time."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "উক্ত",
+        "লিফট",
+        "সময়ে",
+        "নির্ধারিত",
+        "সিঁড়ি",
+        "রাখুন",
+        "ব্যবহার",
+        "করুন"
+      ],
+      "answer": [
+        "উক্ত",
+        "সময়ে",
+        "সিঁড়ি",
+        "ব্যবহার",
+        "করুন"
+      ]
+    },
+    {
+      "id": "e17",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "লিফট নির্ধারিত সময়ে চালু হবে।",
+        "tr": "lift nirdharito shomoye chalu hobe.",
+        "en": "The lift will start working at the scheduled time."
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "লিফট নির্ধারিত সময়ে চালু হবে",
+        "lift nirdharito shomoye chalu hobe"
+      ]
+    },
+    {
+      "id": "e18",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "নতুন বিজ্ঞপ্তি দেখেছো?",
+        "tr": "notun biggopti dekhechho?",
+        "en": "Have you seen the new notice?"
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "নতুন বিজ্ঞপ্তি দেখেছো",
+        "নতুন বিজ্ঞপ্তিটা দেখেছো",
+        "notun biggopti dekhechho"
+      ]
+    },
+    {
+      "id": "r01",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "অনুমতি ব্যতীত প্রবেশ নিষেধ।",
+        "tr": "onumoti byatito probesh nishedh.",
+        "en": "No entry without permission."
+      },
+      "blank": "ব্যতীত",
+      "options": [
+        "থেকে",
+        "ব্যতীত",
+        "পরে",
+        "বাইরে"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "এখানে ধূমপান নিষেধ।",
+        "tr": "ekhane dhumpan nishedh.",
+        "en": "No smoking here."
+      },
+      "options": [
+        "No smoking here.",
+        "Is that fish?",
+        "Please give me a little more rice.",
+        "I didn't go to the office yesterday."
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "নিষিদ্ধ",
+        "tr": "nishiddho",
+        "en": "prohibited; banned"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "নিষিদ্ধ",
+        "সুস্থ",
+        "সতর্ক",
+        "প্রধান"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "সংরক্ষিত",
+          "tr": "shongrokkhito",
+          "en": "reserved; restricted"
+        },
+        {
+          "bn": "সারারাত",
+          "tr": "shararat",
+          "en": "all night"
+        },
+        {
+          "bn": "ধূমপান",
+          "tr": "dhumpan",
+          "en": "smoking"
+        },
+        {
+          "bn": "অবশেষে",
+          "tr": "obosheshe",
+          "en": "finally"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "ঘুমিয়ে",
+          "tr": "ghumiye",
+          "en": "having slept"
+        },
+        {
+          "bn": "জেনে",
+          "tr": "jene",
+          "en": "knowing"
+        },
+        {
+          "bn": "অনুমতি",
+          "tr": "onumoti",
+          "en": "permission"
+        },
+        {
+          "bn": "এরপর",
+          "tr": "erpor",
+          "en": "after this"
+        }
+      ],
+      "recycle": true
+    }
+  ]
+}

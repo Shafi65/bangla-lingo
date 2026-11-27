@@ -1,0 +1,520 @@
+{
+  "id": "r01-l03",
+  "unit": "r01-signs",
+  "title": "Please, on a sign",
+  "status": "draft",
+  "tip": "Signs ask politely with **-উন** commands: **খুলুন**, **রাখুন**, **ফেলুন**, **করুন**. In everyday Bangladeshi speech you say **খোলেন**, **রাখেন**, **ফেলেন**. Same meaning, written style.\n\n**অনুগ্রহ করে** is the written 'please' (speech: **দয়া করে**). **স্থান** is the written word for **জায়গা** 'place', and **পরিচ্ছন্ন** for **পরিষ্কার** 'clean'.\n\n**Conjuncts:** **স্থ** = স + থ (**স্থান** *sthan*). **র্দ** has a ref on দ and **ষ্ট** is ষ + ট: **নির্দিষ্ট** *nirdishto*. **চ্ছ** is চ + ছ: **পরিচ্ছন্ন**.",
+  "vocab": [
+    {
+      "id": "onugroho-kore",
+      "bn": "অনুগ্রহ করে",
+      "tr": "onugroho kore",
+      "en": "please (formal, written)",
+      "notes": "Register: formal (written). Everyday word: দয়া করে. Lit. 'doing a kindness'. গ্র = গ + র (ro-fola)."
+    },
+    {
+      "id": "onurodh",
+      "bn": "অনুরোধ",
+      "tr": "onurodh",
+      "en": "request",
+      "notes": "Register: formal (written)."
+    },
+    {
+      "id": "felun",
+      "bn": "ফেলুন",
+      "tr": "felun",
+      "en": "please throw; put (standard)",
+      "notes": "Register: formal (written). Everyday word: ফেলেন. -উন: the written polite command (everyday BD speech says ফেলেন)."
+    },
+    {
+      "id": "khulun",
+      "bn": "খুলুন",
+      "tr": "khulun",
+      "en": "please take off; open (standard)",
+      "notes": "Register: formal (written). Everyday word: খোলেন. -উন: the written polite command. জুতা খুলুন 'please take off your shoes'."
+    },
+    {
+      "id": "rakhun",
+      "bn": "রাখুন",
+      "tr": "rakhun",
+      "en": "please keep (standard)",
+      "notes": "Register: formal (written). Everyday word: রাখেন. -উন command on signs: বন্ধ রাখুন 'keep switched off'. Everyday BD speech says রাখেন."
+    },
+    {
+      "id": "byabohar",
+      "bn": "ব্যবহার",
+      "tr": "byabohar",
+      "en": "use",
+      "notes": "Register: formal (written). ব্যবহার করুন 'please use'. Also 'behaviour'. ব্য = ব + য (jo-fola)."
+    },
+    {
+      "id": "nirdishto",
+      "bn": "নির্দিষ্ট",
+      "tr": "nirdishto",
+      "en": "designated; set",
+      "notes": "Register: formal (written). র্দ (ref on দ) + ষ্ট (ষ + ট)."
+    },
+    {
+      "id": "sthan",
+      "bn": "স্থান",
+      "tr": "sthan",
+      "en": "place",
+      "notes": "Register: formal (written). Everyday word: জায়গা. স্থ = স + থ."
+    },
+    {
+      "id": "sthane",
+      "bn": "স্থানে",
+      "tr": "sthane",
+      "en": "in the place; at the place",
+      "notes": "Register: formal (written). Everyday word: জায়গায়."
+    },
+    {
+      "id": "porichchhonno",
+      "bn": "পরিচ্ছন্ন",
+      "tr": "porichchhonno",
+      "en": "clean; tidy",
+      "notes": "Register: formal (written). Everyday word: পরিষ্কার. চ্ছ (চ + ছ) and ন্ন (ন + ন)."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "নিষেধ",
+        "tr": "nishedh",
+        "en": "not allowed; forbidden"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "ধূমপান",
+        "অনুমতি",
+        "এলাকা",
+        "নিষেধ"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "অনুমতি",
+        "tr": "onumoti",
+        "en": "permission"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "ব্যতীত",
+        "সংরক্ষিত",
+        "অনুমতি",
+        "ধূমপান"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e03",
+      "type": "reading",
+      "title": "At the mosque door",
+      "lines": [
+        {
+          "bn": "অনুগ্রহ করে জুতা খুলুন।",
+          "tr": "onugroho kore juta khulun.",
+          "en": "Please take off your shoes."
+        },
+        {
+          "bn": "জুতা রাখার স্থান",
+          "tr": "juta rakhar sthan",
+          "en": "Place for shoes"
+        },
+        {
+          "bn": "মোবাইল ফোন বন্ধ রাখুন।",
+          "tr": "mobail fon bondho rakhun.",
+          "en": "Keep mobile phones switched off."
+        },
+        {
+          "bn": "ময়লা নির্দিষ্ট স্থানে ফেলুন।",
+          "tr": "moyla nirdishto sthane felun.",
+          "en": "Put rubbish in the place provided."
+        },
+        {
+          "bn": "মসজিদ পরিচ্ছন্ন রাখুন।",
+          "tr": "moshjid porichchhonno rakhun.",
+          "en": "Keep the mosque clean."
+        }
+      ],
+      "question": "What should you do with your shoes?",
+      "options": [
+        "Keep them on",
+        "Take them off",
+        "Throw them away",
+        "Clean them"
+      ],
+      "answer": 1,
+      "why": "**জুতা খুলুন** 'take off your shoes'."
+    },
+    {
+      "id": "e04",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "অনুরোধ",
+        "tr": "onurodh",
+        "en": "request"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "request",
+        "permission",
+        "use",
+        "place"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e05",
+      "type": "listen_select",
+      "audio": {
+        "bn": "ব্যবহার",
+        "tr": "byabohar",
+        "en": "use"
+      },
+      "options": [
+        "অনুরোধ",
+        "নির্দিষ্ট",
+        "পরিচ্ছন্ন",
+        "ব্যবহার"
+      ],
+      "answer": 3,
+      "why": "**ব্যবহার** *byabohar* 'use'."
+    },
+    {
+      "id": "e06",
+      "type": "script_recognize",
+      "glyph": "স্থান",
+      "options": [
+        "shtan (ষ + ট)",
+        "sthon (o instead of a)",
+        "sthan (স + থ)",
+        "shothan (স and থ, each with a vowel)"
+      ],
+      "answer": 2,
+      "why": "**স্থ** = স + থ, said *sth*."
+    },
+    {
+      "id": "e07",
+      "type": "script_recognize",
+      "glyph": "নির্দিষ্ট",
+      "options": [
+        "nidrishto (r after দ)",
+        "nirdishto (ref on দ; ষ + ট)",
+        "nirdisto (স + ত)",
+        "nirdishta (a at the end)"
+      ],
+      "answer": 1,
+      "why": "Ref on দ: *rd*. Then **ষ্ট** = ষ + ট, said *sht*."
+    },
+    {
+      "id": "e08",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "ময়লা নির্দিষ্ট স্থানে ফেলুন।",
+        "tr": "moyla nirdishto sthane felun.",
+        "en": "Put rubbish in the place provided."
+      },
+      "blank": "স্থানে",
+      "options": [
+        "স্থানে",
+        "স্থান",
+        "অনুরোধ",
+        "ব্যবহার"
+      ],
+      "answer": 0,
+      "why": "**স্থানে** 'in the place' (speech: জায়গায়). It needs the -এ ending here."
+    },
+    {
+      "id": "e09",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "পরিচ্ছন্ন",
+        "tr": "porichchhonno",
+        "en": "clean; tidy (formal, on a sign)"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "পরিষ্কার",
+        "নির্দিষ্ট",
+        "বন্ধ",
+        "পরিচ্ছন্ন"
+      ],
+      "answer": 3,
+      "why": "**পরিষ্কার** is everyday; signs say **পরিচ্ছন্ন রাখুন** 'keep clean'."
+    },
+    {
+      "id": "e10",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "অনুগ্রহ করে",
+        "tr": "onugroho kore",
+        "en": "please (on a sign)"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "ব্যবহার করুন",
+        "বন্ধ রাখুন",
+        "অনুগ্রহ করে",
+        "অনুরোধ"
+      ],
+      "answer": 2,
+      "why": "**অনুগ্রহ করে** is the written 'please' (speech: দয়া করে)."
+    },
+    {
+      "id": "e11",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "মোবাইল ফোন বন্ধ রাখুন।",
+        "tr": "mobail fon bondho rakhun.",
+        "en": "Keep mobile phones switched off."
+      },
+      "blank": "রাখুন",
+      "accepted": [
+        "রাখুন",
+        "rakhun",
+        "rakhoon"
+      ],
+      "why": "Signs use the **-উন** command: **রাখুন** (speech: রাখেন)."
+    },
+    {
+      "id": "e12",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "সবার কাছে অনুরোধ, মোবাইল ফোন বন্ধ রাখুন।",
+        "tr": "shobar kachhe onurodh, mobail fon bondho rakhun.",
+        "en": "Everyone is asked to switch off their mobile phones."
+      },
+      "options": [
+        "Everyone is asked to keep their phones with them.",
+        "Everyone is asked to switch off their mobile phones.",
+        "Please take off your shoes.",
+        "Phones are not allowed in the office."
+      ],
+      "answer": 1,
+      "why": "**অনুরোধ** 'request': everyone is asked to do it."
+    },
+    {
+      "id": "e13",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "অনুগ্রহ করে ডাস্টবিন ব্যবহার করুন।",
+        "tr": "onugroho kore dastbin byabohar korun.",
+        "en": "Please use the bin."
+      },
+      "options": [
+        "Please use the bin.",
+        "Please clean the bin.",
+        "Please don't use the lift.",
+        "Put your shoes here."
+      ],
+      "answer": 0,
+      "why": "**ব্যবহার করুন** 'please use'."
+    },
+    {
+      "id": "e14",
+      "type": "reading",
+      "title": "At the mosque door: read it again",
+      "lines": [
+        {
+          "bn": "অনুগ্রহ করে জুতা খুলুন।",
+          "tr": "onugroho kore juta khulun.",
+          "en": "Please take off your shoes."
+        },
+        {
+          "bn": "জুতা রাখার স্থান",
+          "tr": "juta rakhar sthan",
+          "en": "Place for shoes"
+        },
+        {
+          "bn": "মোবাইল ফোন বন্ধ রাখুন।",
+          "tr": "mobail fon bondho rakhun.",
+          "en": "Keep mobile phones switched off."
+        },
+        {
+          "bn": "ময়লা নির্দিষ্ট স্থানে ফেলুন।",
+          "tr": "moyla nirdishto sthane felun.",
+          "en": "Put rubbish in the place provided."
+        },
+        {
+          "bn": "মসজিদ পরিচ্ছন্ন রাখুন।",
+          "tr": "moshjid porichchhonno rakhun.",
+          "en": "Keep the mosque clean."
+        }
+      ],
+      "question": "What should you do with your phone?",
+      "options": [
+        "Leave it with your shoes",
+        "Use it quietly",
+        "Give it to someone",
+        "Keep it switched off"
+      ],
+      "answer": 3,
+      "why": "**বন্ধ রাখুন** 'keep switched off'."
+    },
+    {
+      "id": "e15",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "অনুগ্রহ করে জুতা খুলুন।",
+        "tr": "onugroho kore juta khulun.",
+        "en": "Please take off your shoes."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "অনুগ্রহ",
+        "রাখুন",
+        "করে",
+        "ফেলুন",
+        "জুতা",
+        "মোবাইল",
+        "খুলুন"
+      ],
+      "answer": [
+        "অনুগ্রহ",
+        "করে",
+        "জুতা",
+        "খুলুন"
+      ]
+    },
+    {
+      "id": "e16",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "মসজিদ পরিচ্ছন্ন রাখুন।",
+        "tr": "moshjid porichchhonno rakhun.",
+        "en": "Keep the mosque clean."
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "মসজিদ পরিচ্ছন্ন রাখুন",
+        "মসজিদ পরিষ্কার রাখুন",
+        "moshjid porichchhonno rakhun"
+      ]
+    },
+    {
+      "id": "e17",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "ময়লা নির্দিষ্ট স্থানে ফেলুন।",
+        "tr": "moyla nirdishto sthane felun.",
+        "en": "Put rubbish in the place provided."
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "ময়লা নির্দিষ্ট স্থানে ফেলুন",
+        "ময়লা নির্দিষ্ট জায়গায় ফেলুন",
+        "moyla nirdishto sthane felun"
+      ]
+    },
+    {
+      "id": "r01",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "অফিসে ধূমপান নিষিদ্ধ।",
+        "tr": "ofise dhumpan nishiddho.",
+        "en": "Smoking is prohibited in the office."
+      },
+      "blank": "নিষিদ্ধ",
+      "accepted": [
+        "নিষিদ্ধ",
+        "nishiddho"
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "দেখা হল",
+        "tr": "dekha holo",
+        "en": "(we) met"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "see you again",
+        "hello (peace be upon you)",
+        "please",
+        "(we) met"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "listen_select",
+      "audio": {
+        "bn": "অপেক্ষা করলাম",
+        "tr": "opekkha korlam",
+        "en": "I waited"
+      },
+      "options": [
+        "চুপ করে",
+        "ঠিক তখন",
+        "শহীদ মিনার",
+        "অপেক্ষা করলাম"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "ওগুলো",
+          "tr": "ogulo",
+          "en": "those"
+        },
+        {
+          "bn": "থামেন",
+          "tr": "thamen",
+          "en": "stop (polite)"
+        },
+        {
+          "bn": "আয়",
+          "tr": "ay",
+          "en": "come (intimate)"
+        },
+        {
+          "bn": "পৌঁছেছি",
+          "tr": "pou~chhechhi",
+          "en": "I have reached"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "করছেন",
+          "tr": "korchhen",
+          "en": "you are doing (polite)"
+        },
+        {
+          "bn": "জানাবেন",
+          "tr": "janaben",
+          "en": "please let (me) know (polite)"
+        },
+        {
+          "bn": "আট",
+          "tr": "at",
+          "en": "eight"
+        },
+        {
+          "bn": "পাঁচ",
+          "tr": "pa~ch",
+          "en": "five"
+        }
+      ],
+      "recycle": true
+    }
+  ]
+}

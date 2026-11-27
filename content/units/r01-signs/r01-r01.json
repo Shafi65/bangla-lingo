@@ -1,0 +1,770 @@
+{
+  "id": "r01-r01",
+  "unit": "r01-signs",
+  "title": "Review: read it again",
+  "status": "draft",
+  "tip": "**Read it again.** Each text in this review comes back three times. Read it aloud with the audio first, then on your own, then silently and faster. Repeated reading is the quickest way to build reading speed.\n\nKeep the pairs in mind: on signs, **প্রবেশ** (ঢোকা), **ব্যতীত** (ছাড়া), **স্থান** (জায়গা), **প্রয়োজন** (দরকার), **হইবে** (হবে).",
+  "vocab": [],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "reading",
+      "title": "Notice (first reading)",
+      "lines": [
+        {
+          "bn": "বিজ্ঞপ্তি",
+          "tr": "biggopti",
+          "en": "Notice"
+        },
+        {
+          "bn": "সর্বসাধারণের অবগতির জন্য জানানো যাচ্ছে যে আগামী শুক্রবার সকাল দশটা থেকে বিকাল পাঁচটা পর্যন্ত ভবনের লিফট বন্ধ থাকবে।",
+          "tr": "shorboshadharoner obogotir jonno janano jachchhe je agami shukrobar shokal doshta theke bikal pa~chta porjonto bhoboner lift bondho thakbe.",
+          "en": "This is to inform everyone that the building's lift will be out of service next Friday from ten in the morning to five in the afternoon."
+        },
+        {
+          "bn": "উক্ত সময়ে অনুগ্রহ করে সিঁড়ি ব্যবহার করুন।",
+          "tr": "ukto shomoye onugroho kore shi~ri byabohar korun.",
+          "en": "During that time, please use the stairs."
+        },
+        {
+          "bn": "লিফট নির্ধারিত সময়ের পরে আবার চালু হবে।",
+          "tr": "lift nirdharito shomoyer pore abar chalu hobe.",
+          "en": "The lift will work again after the scheduled time."
+        },
+        {
+          "bn": "সাময়িক অসুবিধার জন্য আমরা দুঃখিত।",
+          "tr": "shamoyik oshubidhar jonno amra dukkhito.",
+          "en": "We are sorry for the temporary inconvenience."
+        },
+        {
+          "bn": "আদেশক্রমে, ভবন কর্তৃপক্ষ",
+          "tr": "adeshkrome, bhobon kortripokkho",
+          "en": "By order, the building management"
+        }
+      ],
+      "question": "What is the notice about?",
+      "options": [
+        "The building will be closed on Friday",
+        "The stairs are being repaired",
+        "The rent is going up",
+        "The lift will be out of service on Friday"
+      ],
+      "answer": 3,
+      "why": "First reading: read along with the audio (Play all)."
+    },
+    {
+      "id": "e02",
+      "type": "reading",
+      "title": "Notice (second reading)",
+      "lines": [
+        {
+          "bn": "বিজ্ঞপ্তি",
+          "tr": "biggopti",
+          "en": "Notice"
+        },
+        {
+          "bn": "সর্বসাধারণের অবগতির জন্য জানানো যাচ্ছে যে আগামী শুক্রবার সকাল দশটা থেকে বিকাল পাঁচটা পর্যন্ত ভবনের লিফট বন্ধ থাকবে।",
+          "tr": "shorboshadharoner obogotir jonno janano jachchhe je agami shukrobar shokal doshta theke bikal pa~chta porjonto bhoboner lift bondho thakbe.",
+          "en": "This is to inform everyone that the building's lift will be out of service next Friday from ten in the morning to five in the afternoon."
+        },
+        {
+          "bn": "উক্ত সময়ে অনুগ্রহ করে সিঁড়ি ব্যবহার করুন।",
+          "tr": "ukto shomoye onugroho kore shi~ri byabohar korun.",
+          "en": "During that time, please use the stairs."
+        },
+        {
+          "bn": "লিফট নির্ধারিত সময়ের পরে আবার চালু হবে।",
+          "tr": "lift nirdharito shomoyer pore abar chalu hobe.",
+          "en": "The lift will work again after the scheduled time."
+        },
+        {
+          "bn": "সাময়িক অসুবিধার জন্য আমরা দুঃখিত।",
+          "tr": "shamoyik oshubidhar jonno amra dukkhito.",
+          "en": "We are sorry for the temporary inconvenience."
+        },
+        {
+          "bn": "আদেশক্রমে, ভবন কর্তৃপক্ষ",
+          "tr": "adeshkrome, bhobon kortripokkho",
+          "en": "By order, the building management"
+        }
+      ],
+      "question": "What should people use during that time?",
+      "options": [
+        "The lift",
+        "The main gate",
+        "The stairs",
+        "The emergency exit"
+      ],
+      "answer": 2,
+      "why": "Second reading: read it aloud on your own. **উক্ত সময়ে** 'during that time'."
+    },
+    {
+      "id": "e03",
+      "type": "reading",
+      "title": "Notice (third reading)",
+      "lines": [
+        {
+          "bn": "বিজ্ঞপ্তি",
+          "tr": "biggopti",
+          "en": "Notice"
+        },
+        {
+          "bn": "সর্বসাধারণের অবগতির জন্য জানানো যাচ্ছে যে আগামী শুক্রবার সকাল দশটা থেকে বিকাল পাঁচটা পর্যন্ত ভবনের লিফট বন্ধ থাকবে।",
+          "tr": "shorboshadharoner obogotir jonno janano jachchhe je agami shukrobar shokal doshta theke bikal pa~chta porjonto bhoboner lift bondho thakbe.",
+          "en": "This is to inform everyone that the building's lift will be out of service next Friday from ten in the morning to five in the afternoon."
+        },
+        {
+          "bn": "উক্ত সময়ে অনুগ্রহ করে সিঁড়ি ব্যবহার করুন।",
+          "tr": "ukto shomoye onugroho kore shi~ri byabohar korun.",
+          "en": "During that time, please use the stairs."
+        },
+        {
+          "bn": "লিফট নির্ধারিত সময়ের পরে আবার চালু হবে।",
+          "tr": "lift nirdharito shomoyer pore abar chalu hobe.",
+          "en": "The lift will work again after the scheduled time."
+        },
+        {
+          "bn": "সাময়িক অসুবিধার জন্য আমরা দুঃখিত।",
+          "tr": "shamoyik oshubidhar jonno amra dukkhito.",
+          "en": "We are sorry for the temporary inconvenience."
+        },
+        {
+          "bn": "আদেশক্রমে, ভবন কর্তৃপক্ষ",
+          "tr": "adeshkrome, bhobon kortripokkho",
+          "en": "By order, the building management"
+        }
+      ],
+      "question": "When will the lift work again?",
+      "options": [
+        "Next month",
+        "After the scheduled time",
+        "It will not work again",
+        "Only at night"
+      ],
+      "answer": 1,
+      "why": "Third reading: read it silently, faster. **নির্ধারিত সময়ের পরে** 'after the scheduled time'."
+    },
+    {
+      "id": "e04",
+      "type": "reading",
+      "title": "Hospital and office signs (first reading)",
+      "lines": [
+        {
+          "bn": "অভ্যর্থনা ও জরুরি বিভাগ ডানে।",
+          "tr": "obbhorthona o joruri bibhag dane.",
+          "en": "Reception and the emergency department are on the right."
+        },
+        {
+          "bn": "বাহির ও জরুরি বহির্গমন বামে।",
+          "tr": "bahir o joruri bohirgomon bame.",
+          "en": "The way out and the emergency exit are on the left."
+        },
+        {
+          "bn": "প্রস্থান প্রধান ফটক দিয়ে।",
+          "tr": "prosthan prodhan fotok diye.",
+          "en": "Exit through the main gate."
+        },
+        {
+          "bn": "অনুমতি ব্যতীত প্রবেশ নিষেধ।",
+          "tr": "onumoti byatito probesh nishedh.",
+          "en": "No entry without permission."
+        },
+        {
+          "bn": "সংরক্ষিত এলাকা: ধূমপান নিষিদ্ধ।",
+          "tr": "shongrokkhito elaka: dhumpan nishiddho.",
+          "en": "Restricted area: smoking prohibited."
+        },
+        {
+          "bn": "অনুগ্রহ করে জুতা খুলুন।",
+          "tr": "onugroho kore juta khulun.",
+          "en": "Please take off your shoes."
+        },
+        {
+          "bn": "ময়লা নির্দিষ্ট স্থানে ফেলুন।",
+          "tr": "moyla nirdishto sthane felun.",
+          "en": "Put rubbish in the place provided."
+        },
+        {
+          "bn": "মোবাইল ফোন বন্ধ রাখুন। মসজিদ পরিচ্ছন্ন রাখুন।",
+          "tr": "mobail fon bondho rakhun. moshjid porichchhonno rakhun.",
+          "en": "Keep mobile phones switched off. Keep the mosque clean."
+        }
+      ],
+      "question": "Where is the emergency department?",
+      "options": [
+        "On the right",
+        "On the left",
+        "Through the main gate",
+        "In the restricted area"
+      ],
+      "answer": 0,
+      "why": "**অভ্যর্থনা ও জরুরি বিভাগ ডানে**."
+    },
+    {
+      "id": "e05",
+      "type": "reading",
+      "title": "Hospital and office signs (second reading)",
+      "lines": [
+        {
+          "bn": "অভ্যর্থনা ও জরুরি বিভাগ ডানে।",
+          "tr": "obbhorthona o joruri bibhag dane.",
+          "en": "Reception and the emergency department are on the right."
+        },
+        {
+          "bn": "বাহির ও জরুরি বহির্গমন বামে।",
+          "tr": "bahir o joruri bohirgomon bame.",
+          "en": "The way out and the emergency exit are on the left."
+        },
+        {
+          "bn": "প্রস্থান প্রধান ফটক দিয়ে।",
+          "tr": "prosthan prodhan fotok diye.",
+          "en": "Exit through the main gate."
+        },
+        {
+          "bn": "অনুমতি ব্যতীত প্রবেশ নিষেধ।",
+          "tr": "onumoti byatito probesh nishedh.",
+          "en": "No entry without permission."
+        },
+        {
+          "bn": "সংরক্ষিত এলাকা: ধূমপান নিষিদ্ধ।",
+          "tr": "shongrokkhito elaka: dhumpan nishiddho.",
+          "en": "Restricted area: smoking prohibited."
+        },
+        {
+          "bn": "অনুগ্রহ করে জুতা খুলুন।",
+          "tr": "onugroho kore juta khulun.",
+          "en": "Please take off your shoes."
+        },
+        {
+          "bn": "ময়লা নির্দিষ্ট স্থানে ফেলুন।",
+          "tr": "moyla nirdishto sthane felun.",
+          "en": "Put rubbish in the place provided."
+        },
+        {
+          "bn": "মোবাইল ফোন বন্ধ রাখুন। মসজিদ পরিচ্ছন্ন রাখুন।",
+          "tr": "mobail fon bondho rakhun. moshjid porichchhonno rakhun.",
+          "en": "Keep mobile phones switched off. Keep the mosque clean."
+        }
+      ],
+      "question": "What is not allowed in the restricted area?",
+      "options": [
+        "Shoes",
+        "Permission",
+        "Mobile phones",
+        "Smoking"
+      ],
+      "answer": 3,
+      "why": "**ধূমপান নিষিদ্ধ** 'smoking prohibited'."
+    },
+    {
+      "id": "e06",
+      "type": "reading",
+      "title": "Hospital and office signs (third reading)",
+      "lines": [
+        {
+          "bn": "অভ্যর্থনা ও জরুরি বিভাগ ডানে।",
+          "tr": "obbhorthona o joruri bibhag dane.",
+          "en": "Reception and the emergency department are on the right."
+        },
+        {
+          "bn": "বাহির ও জরুরি বহির্গমন বামে।",
+          "tr": "bahir o joruri bohirgomon bame.",
+          "en": "The way out and the emergency exit are on the left."
+        },
+        {
+          "bn": "প্রস্থান প্রধান ফটক দিয়ে।",
+          "tr": "prosthan prodhan fotok diye.",
+          "en": "Exit through the main gate."
+        },
+        {
+          "bn": "অনুমতি ব্যতীত প্রবেশ নিষেধ।",
+          "tr": "onumoti byatito probesh nishedh.",
+          "en": "No entry without permission."
+        },
+        {
+          "bn": "সংরক্ষিত এলাকা: ধূমপান নিষিদ্ধ।",
+          "tr": "shongrokkhito elaka: dhumpan nishiddho.",
+          "en": "Restricted area: smoking prohibited."
+        },
+        {
+          "bn": "অনুগ্রহ করে জুতা খুলুন।",
+          "tr": "onugroho kore juta khulun.",
+          "en": "Please take off your shoes."
+        },
+        {
+          "bn": "ময়লা নির্দিষ্ট স্থানে ফেলুন।",
+          "tr": "moyla nirdishto sthane felun.",
+          "en": "Put rubbish in the place provided."
+        },
+        {
+          "bn": "মোবাইল ফোন বন্ধ রাখুন। মসজিদ পরিচ্ছন্ন রাখুন।",
+          "tr": "mobail fon bondho rakhun. moshjid porichchhonno rakhun.",
+          "en": "Keep mobile phones switched off. Keep the mosque clean."
+        }
+      ],
+      "question": "Where should rubbish go?",
+      "options": [
+        "Outside the main gate",
+        "With your shoes",
+        "In the place provided",
+        "In the restricted area"
+      ],
+      "answer": 2,
+      "why": "**নির্দিষ্ট স্থানে** 'in the designated place'."
+    },
+    {
+      "id": "e07",
+      "type": "reading",
+      "title": "Caution, hours and counters (first reading)",
+      "lines": [
+        {
+          "bn": "বিপদ! বৈদ্যুতিক লাইন, স্পর্শ করবেন না।",
+          "tr": "bipod! boiddutik lain, sporsho korben na.",
+          "en": "Danger! Electric line, do not touch."
+        },
+        {
+          "bn": "সাবধান! বিপজ্জনক এলাকা, দূরে থাকুন।",
+          "tr": "shabdhan! bipojjonok elaka, dure thakun.",
+          "en": "Caution! Dangerous area, keep away."
+        },
+        {
+          "bn": "অগ্নি নিরাপত্তা: সতর্ক থাকুন।",
+          "tr": "ogni nirapotta: shotorko thakun.",
+          "en": "Fire safety: stay alert."
+        },
+        {
+          "bn": "সাপ্তাহিক ও সরকারি ছুটির দিনে অফিস বন্ধ।",
+          "tr": "shaptahik o shorkari chhutir dine ofis bondho.",
+          "en": "The office is closed on weekly days off and public holidays."
+        },
+        {
+          "bn": "আজ ক্লাস বাতিল, পরীক্ষা স্থগিত।",
+          "tr": "aj klas batil, porikkha sthogito.",
+          "en": "Today the class is cancelled and the exam is postponed."
+        },
+        {
+          "bn": "গ্রাহক সেবা: অনুগ্রহ করে সারিতে দাঁড়ান।",
+          "tr": "grahok sheba: onugroho kore sharite da~ran.",
+          "en": "Customer service: please stand in the queue."
+        },
+        {
+          "bn": "প্রধান শাখা কার্যালয়: পুরুষ ও মহিলা শৌচাগার বামে।",
+          "tr": "prodhan shakha karjaloy: purush o mohila shouchagar bame.",
+          "en": "Main branch office: men's and women's toilets on the left."
+        },
+        {
+          "bn": "মহিলা ও বয়স্কদের জন্য সংরক্ষিত আসন।",
+          "tr": "mohila o boyoshkoder jonno shongrokkhito ashon.",
+          "en": "Seats reserved for women and older people."
+        }
+      ],
+      "question": "What should you do near the electric line?",
+      "options": [
+        "Stand in the queue",
+        "Not touch it",
+        "Use the stairs",
+        "Take off your shoes"
+      ],
+      "answer": 1,
+      "why": "**স্পর্শ করবেন না** 'do not touch'."
+    },
+    {
+      "id": "e08",
+      "type": "reading",
+      "title": "Caution, hours and counters (second reading)",
+      "lines": [
+        {
+          "bn": "বিপদ! বৈদ্যুতিক লাইন, স্পর্শ করবেন না।",
+          "tr": "bipod! boiddutik lain, sporsho korben na.",
+          "en": "Danger! Electric line, do not touch."
+        },
+        {
+          "bn": "সাবধান! বিপজ্জনক এলাকা, দূরে থাকুন।",
+          "tr": "shabdhan! bipojjonok elaka, dure thakun.",
+          "en": "Caution! Dangerous area, keep away."
+        },
+        {
+          "bn": "অগ্নি নিরাপত্তা: সতর্ক থাকুন।",
+          "tr": "ogni nirapotta: shotorko thakun.",
+          "en": "Fire safety: stay alert."
+        },
+        {
+          "bn": "সাপ্তাহিক ও সরকারি ছুটির দিনে অফিস বন্ধ।",
+          "tr": "shaptahik o shorkari chhutir dine ofis bondho.",
+          "en": "The office is closed on weekly days off and public holidays."
+        },
+        {
+          "bn": "আজ ক্লাস বাতিল, পরীক্ষা স্থগিত।",
+          "tr": "aj klas batil, porikkha sthogito.",
+          "en": "Today the class is cancelled and the exam is postponed."
+        },
+        {
+          "bn": "গ্রাহক সেবা: অনুগ্রহ করে সারিতে দাঁড়ান।",
+          "tr": "grahok sheba: onugroho kore sharite da~ran.",
+          "en": "Customer service: please stand in the queue."
+        },
+        {
+          "bn": "প্রধান শাখা কার্যালয়: পুরুষ ও মহিলা শৌচাগার বামে।",
+          "tr": "prodhan shakha karjaloy: purush o mohila shouchagar bame.",
+          "en": "Main branch office: men's and women's toilets on the left."
+        },
+        {
+          "bn": "মহিলা ও বয়স্কদের জন্য সংরক্ষিত আসন।",
+          "tr": "mohila o boyoshkoder jonno shongrokkhito ashon.",
+          "en": "Seats reserved for women and older people."
+        }
+      ],
+      "question": "What has happened to the exam?",
+      "options": [
+        "It is postponed",
+        "It is cancelled",
+        "It is today",
+        "It is on a public holiday"
+      ],
+      "answer": 0,
+      "why": "**স্থগিত** 'postponed'; the class is **বাতিল** 'cancelled'."
+    },
+    {
+      "id": "e09",
+      "type": "reading",
+      "title": "Caution, hours and counters (third reading)",
+      "lines": [
+        {
+          "bn": "বিপদ! বৈদ্যুতিক লাইন, স্পর্শ করবেন না।",
+          "tr": "bipod! boiddutik lain, sporsho korben na.",
+          "en": "Danger! Electric line, do not touch."
+        },
+        {
+          "bn": "সাবধান! বিপজ্জনক এলাকা, দূরে থাকুন।",
+          "tr": "shabdhan! bipojjonok elaka, dure thakun.",
+          "en": "Caution! Dangerous area, keep away."
+        },
+        {
+          "bn": "অগ্নি নিরাপত্তা: সতর্ক থাকুন।",
+          "tr": "ogni nirapotta: shotorko thakun.",
+          "en": "Fire safety: stay alert."
+        },
+        {
+          "bn": "সাপ্তাহিক ও সরকারি ছুটির দিনে অফিস বন্ধ।",
+          "tr": "shaptahik o shorkari chhutir dine ofis bondho.",
+          "en": "The office is closed on weekly days off and public holidays."
+        },
+        {
+          "bn": "আজ ক্লাস বাতিল, পরীক্ষা স্থগিত।",
+          "tr": "aj klas batil, porikkha sthogito.",
+          "en": "Today the class is cancelled and the exam is postponed."
+        },
+        {
+          "bn": "গ্রাহক সেবা: অনুগ্রহ করে সারিতে দাঁড়ান।",
+          "tr": "grahok sheba: onugroho kore sharite da~ran.",
+          "en": "Customer service: please stand in the queue."
+        },
+        {
+          "bn": "প্রধান শাখা কার্যালয়: পুরুষ ও মহিলা শৌচাগার বামে।",
+          "tr": "prodhan shakha karjaloy: purush o mohila shouchagar bame.",
+          "en": "Main branch office: men's and women's toilets on the left."
+        },
+        {
+          "bn": "মহিলা ও বয়স্কদের জন্য সংরক্ষিত আসন।",
+          "tr": "mohila o boyoshkoder jonno shongrokkhito ashon.",
+          "en": "Seats reserved for women and older people."
+        }
+      ],
+      "question": "Who are the reserved seats for?",
+      "options": [
+        "Men",
+        "Customers in the queue",
+        "Office staff",
+        "Women and older people"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e10",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "নিরাপদ",
+          "tr": "nirapod",
+          "en": "safe"
+        },
+        {
+          "bn": "সময়সূচি",
+          "tr": "shomoyshuchi",
+          "en": "timetable; opening hours"
+        },
+        {
+          "bn": "অসুবিধা",
+          "tr": "oshubidha",
+          "en": "inconvenience; problem"
+        },
+        {
+          "bn": "প্রয়োজন",
+          "tr": "proyojon",
+          "en": "need (formal)"
+        },
+        {
+          "bn": "স্থান",
+          "tr": "sthan",
+          "en": "place"
+        }
+      ]
+    },
+    {
+      "id": "e11",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "অনুরোধ",
+        "tr": "onurodh",
+        "en": "request"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "অনুমতি",
+        "অবগতির",
+        "অনুরোধ",
+        "আসন"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e12",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ব্যতীত",
+        "tr": "byatito",
+        "en": "without (formal)"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "ছাড়া",
+        "ব্যতীত",
+        "সাথে",
+        "উক্ত"
+      ],
+      "answer": 1,
+      "why": "**ছাড়া** in speech, **ব্যতীত** on signs."
+    },
+    {
+      "id": "e13",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "হইবে",
+        "tr": "hoibe",
+        "en": "will be (sadhu)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "will be (sadhu)",
+        "was",
+        "is going on",
+        "has been"
+      ],
+      "answer": 0,
+      "why": "**হইবে** is sadhu (old written style) for **হবে** 'will be'. Recognise it; say হবে."
+    },
+    {
+      "id": "e14",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "এখানে গাড়ি রাখা নিষেধ।",
+        "tr": "ekhane gari rakha nishedh.",
+        "en": "No parking here."
+      },
+      "blank": "নিষেধ",
+      "options": [
+        "প্রবেশ",
+        "বাতিল",
+        "চালু",
+        "নিষেধ"
+      ],
+      "answer": 3,
+      "why": "**নিষেধ** 'not allowed' (speech: মানা)."
+    },
+    {
+      "id": "e15",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আপনার কী সেবা প্রয়োজন?",
+        "tr": "apnar ki sheba proyojon?",
+        "en": "What service do you need?"
+      },
+      "blank": "প্রয়োজন",
+      "accepted": [
+        "প্রয়োজন",
+        "proyojon",
+        "prayojon",
+        "proyojan"
+      ],
+      "why": "**প্রয়োজন**: প্র, then য় (y)."
+    },
+    {
+      "id": "e16",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "অনুমতি ব্যতীত প্রবেশ নিষেধ।",
+        "tr": "onumoti byatito probesh nishedh.",
+        "en": "No entry without permission."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "অনুমতি",
+        "ছাড়া",
+        "ব্যতীত",
+        "নিষিদ্ধ",
+        "প্রবেশ",
+        "প্রস্থান",
+        "নিষেধ"
+      ],
+      "answer": [
+        "অনুমতি",
+        "ব্যতীত",
+        "প্রবেশ",
+        "নিষেধ"
+      ],
+      "alt": [
+        [
+          "অনুমতি",
+          "ছাড়া",
+          "প্রবেশ",
+          "নিষেধ"
+        ]
+      ],
+      "why": "On a sign, **ব্যতীত**, not ছাড়া."
+    },
+    {
+      "id": "e17",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "জরুরি বিভাগ বামে।",
+        "tr": "joruri bibhag bame.",
+        "en": "The emergency department is on the left."
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "জরুরি বিভাগ বামে",
+        "joruri bibhag bame"
+      ]
+    },
+    {
+      "id": "e18",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "উক্ত সময়ে সিঁড়ি ব্যবহার করুন।",
+        "tr": "ukto shomoye shi~ri byabohar korun.",
+        "en": "Please use the stairs during that time."
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "উক্ত সময়ে সিঁড়ি ব্যবহার করুন",
+        "উক্ত সময়ে অনুগ্রহ করে সিঁড়ি ব্যবহার করুন",
+        "ukto shomoye shi~ri byabohar korun"
+      ]
+    },
+    {
+      "id": "r01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "এখন আর",
+        "tr": "ekhon ar",
+        "en": "(not) any more"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "সাথে সাথে",
+        "এখন আর",
+        "কেটে গেছে",
+        "শহীদ মিনার"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আমি বাজারে যাচ্ছিলাম, ঠিক তখন নাদিয়া ফোন করল।",
+        "tr": "ami bajare jachchhilam, thik tokhon nadiya fon korlo.",
+        "en": "I was going to the market when Nadia called."
+      },
+      "blank": "ঠিক তখন",
+      "accepted": [
+        "ঠিক তখন",
+        "thik tokhon"
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "বদলে গেছে",
+        "tr": "bodle gechhe",
+        "en": "has changed"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "to the Shaheed Minar",
+        "anyway",
+        "sad; upset",
+        "has changed"
+      ],
+      "answer": 3,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "চায়",
+          "tr": "chay",
+          "en": "he/she wants"
+        },
+        {
+          "bn": "চলো",
+          "tr": "cholo",
+          "en": "let's"
+        },
+        {
+          "bn": "খেলাম",
+          "tr": "khelam",
+          "en": "I ate"
+        },
+        {
+          "bn": "ধরে",
+          "tr": "dhore",
+          "en": "for (a time)"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "প্লিজ",
+          "tr": "plij",
+          "en": "please"
+        },
+        {
+          "bn": "যাবি",
+          "tr": "jabi",
+          "en": "you (intimate) will go"
+        },
+        {
+          "bn": "খেয়েছেন",
+          "tr": "kheyechhen",
+          "en": "have you eaten (polite)"
+        },
+        {
+          "bn": "চেয়ে",
+          "tr": "cheye",
+          "en": "than"
+        }
+      ],
+      "recycle": true
+    }
+  ]
+}

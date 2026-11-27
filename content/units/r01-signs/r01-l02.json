@@ -1,0 +1,490 @@
+{
+  "id": "r01-l02",
+  "unit": "r01-signs",
+  "title": "Not allowed",
+  "status": "draft",
+  "tip": "**X নিষেধ** is 'X is not allowed': **ধূমপান নিষেধ** 'No smoking', **প্রবেশ নিষেধ** 'No entry'. **নিষিদ্ধ** 'prohibited' is the stronger, official word.\n\n**অনুমতি ব্যতীত প্রবেশ নিষেধ** 'No entry without permission'. In speech you would say **অনুমতি ছাড়া ঢোকা মানা**: same meaning, everyday words.\n\n**Spelling:** নিষেধ and নিষিদ্ধ are spelled with **ষ**, though you say *sh*. **ক্ষ** in **সংরক্ষিত** is said *kkh*: *shongrokkhito*. **ব্য** is ব + য-ফলা: **ব্যতীত** *byatito*.",
+  "vocab": [
+    {
+      "id": "nishedh",
+      "bn": "নিষেধ",
+      "tr": "nishedh",
+      "en": "not allowed; forbidden",
+      "notes": "Register: formal (written). Everyday word: মানা. ধূমপান নিষেধ 'No smoking'. Spelled with ষ, said sh."
+    },
+    {
+      "id": "nishiddho",
+      "bn": "নিষিদ্ধ",
+      "tr": "nishiddho",
+      "en": "prohibited; banned",
+      "notes": "Register: formal (written). Everyday word: মানা. Stronger, official word than নিষেধ. ষ + short ি, then দ্ধ (দ + ধ)."
+    },
+    {
+      "id": "dhumpan",
+      "bn": "ধূমপান",
+      "tr": "dhumpan",
+      "en": "smoking",
+      "notes": "Register: formal (written). Everyday word: সিগারেট খাওয়া. ধূম 'smoke' + পান 'drinking': long ূ."
+    },
+    {
+      "id": "onumoti",
+      "bn": "অনুমতি",
+      "tr": "onumoti",
+      "en": "permission",
+      "notes": "Register: formal (written)."
+    },
+    {
+      "id": "byatito",
+      "bn": "ব্যতীত",
+      "tr": "byatito",
+      "en": "without; except",
+      "notes": "Register: formal (written). Everyday word: ছাড়া. Written partner of ছাড়া. ব্য = ব + য (jo-fola); long ী."
+    },
+    {
+      "id": "shongrokkhito",
+      "bn": "সংরক্ষিত",
+      "tr": "shongrokkhito",
+      "en": "reserved; restricted",
+      "notes": "Register: formal (written). ং + ক্ষ (said kkh): shong-rok-khito."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "প্রবেশ",
+        "tr": "probesh",
+        "en": "entry; way in"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "প্রবেশ",
+        "প্রস্থান",
+        "বিভাগ",
+        "ফটক"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "অভ্যর্থনা",
+        "tr": "obbhorthona",
+        "en": "reception"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "বহির্গমন",
+        "প্রধান",
+        "বাহির",
+        "অভ্যর্থনা"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e03",
+      "type": "reading",
+      "title": "Office doors",
+      "lines": [
+        {
+          "bn": "ধূমপান নিষেধ",
+          "tr": "dhumpan nishedh",
+          "en": "No smoking"
+        },
+        {
+          "bn": "অনুমতি ব্যতীত প্রবেশ নিষেধ",
+          "tr": "onumoti byatito probesh nishedh",
+          "en": "No entry without permission"
+        },
+        {
+          "bn": "সংরক্ষিত এলাকা",
+          "tr": "shongrokkhito elaka",
+          "en": "Restricted area"
+        },
+        {
+          "bn": "এখানে গাড়ি রাখা নিষেধ",
+          "tr": "ekhane gari rakha nishedh",
+          "en": "No parking here"
+        },
+        {
+          "bn": "অফিসে ধূমপান নিষিদ্ধ",
+          "tr": "ofise dhumpan nishiddho",
+          "en": "Smoking is prohibited in the office"
+        }
+      ],
+      "question": "Can a visitor walk into the restricted area?",
+      "options": [
+        "Yes, at any time",
+        "Only at night",
+        "Only with permission",
+        "Only to smoke"
+      ],
+      "answer": 2,
+      "why": "**অনুমতি ব্যতীত প্রবেশ নিষেধ**: no entry without permission."
+    },
+    {
+      "id": "e04",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ব্যতীত",
+        "tr": "byatito",
+        "en": "without; except"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "with",
+        "without; except",
+        "permission",
+        "only"
+      ],
+      "answer": 1,
+      "why": "**ব্যতীত** 'without, except': the written partner of **ছাড়া**."
+    },
+    {
+      "id": "e05",
+      "type": "listen_select",
+      "audio": {
+        "bn": "নিষিদ্ধ",
+        "tr": "nishiddho",
+        "en": "prohibited; banned"
+      },
+      "options": [
+        "নিষিদ্ধ",
+        "নিষেধ",
+        "সংরক্ষিত",
+        "অনুমতি"
+      ],
+      "answer": 0,
+      "why": "**নিষিদ্ধ** *nishiddho* ends in দ্ধ; **নিষেধ** *nishedh* is shorter."
+    },
+    {
+      "id": "e06",
+      "type": "script_recognize",
+      "glyph": "সংরক্ষিত",
+      "options": [
+        "shongrokshito (ক + ষ, said ksh)",
+        "shongrokito (just k)",
+        "shonrokkhito (n instead of ng)",
+        "shongrokkhito (ক + ষ, said kkh)"
+      ],
+      "answer": 3,
+      "why": "**ক্ষ** = ক + ষ, but Bengali says *kkh*, not *ksh*."
+    },
+    {
+      "id": "e07",
+      "type": "script_recognize",
+      "glyph": "ব্যতীত",
+      "options": [
+        "boitito (ব + oi sign)",
+        "bitito (ব + i sign)",
+        "byatito (ব + jo-fola, said bya)",
+        "bayatito (ব and য said separately)"
+      ],
+      "answer": 2,
+      "why": "**ব্য** is ব with jo-fola. At the start of a word it is said *bya*, as in ব্যাগ."
+    },
+    {
+      "id": "e08",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "অনুমতি ব্যতীত প্রবেশ নিষেধ।",
+        "tr": "onumoti byatito probesh nishedh.",
+        "en": "No entry without permission."
+      },
+      "blank": "ব্যতীত",
+      "options": [
+        "সংরক্ষিত",
+        "ব্যতীত",
+        "নিষিদ্ধ",
+        "প্রধান"
+      ],
+      "answer": 1,
+      "why": "**ব্যতীত** 'without' is the written word for **ছাড়া**."
+    },
+    {
+      "id": "e09",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "ব্যতীত",
+        "tr": "byatito",
+        "en": "without (formal, as on a sign)"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "ব্যতীত",
+        "ছাড়া",
+        "সাথে",
+        "অনুমতি"
+      ],
+      "answer": 0,
+      "why": "Both mean 'without'. **ছাড়া** is everyday; signs and letters use **ব্যতীত**."
+    },
+    {
+      "id": "e10",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "নিষিদ্ধ",
+        "tr": "nishiddho",
+        "en": "prohibited (the official word)"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "সংরক্ষিত",
+        "অনুমতি",
+        "ধূমপান",
+        "নিষিদ্ধ"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e11",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "এখানে ধূমপান নিষেধ।",
+        "tr": "ekhane dhumpan nishedh.",
+        "en": "No smoking here."
+      },
+      "blank": "নিষেধ",
+      "accepted": [
+        "নিষেধ",
+        "nishedh",
+        "nished"
+      ],
+      "why": "**নিষেধ** is spelled with **ষ**, said *sh*."
+    },
+    {
+      "id": "e12",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "অনুমতি ছাড়া ঢোকা মানা।",
+        "tr": "onumoti chhara dhoka mana.",
+        "en": "You can't go in without permission."
+      },
+      "options": [
+        "You can go in with permission.",
+        "Smoking is not allowed here.",
+        "You can't go in without permission.",
+        "No parking here."
+      ],
+      "answer": 2,
+      "why": "Everyday words for the sign **অনুমতি ব্যতীত প্রবেশ নিষেধ**."
+    },
+    {
+      "id": "e13",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "আপনার কি অনুমতি আছে?",
+        "tr": "apnar ki onumoti achhe?",
+        "en": "Do you have permission?"
+      },
+      "options": [
+        "Do you smoke?",
+        "Do you have permission?",
+        "Is this a restricted area?",
+        "May I park here?"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e14",
+      "type": "reading",
+      "title": "Office doors: read it again",
+      "lines": [
+        {
+          "bn": "ধূমপান নিষেধ",
+          "tr": "dhumpan nishedh",
+          "en": "No smoking"
+        },
+        {
+          "bn": "অনুমতি ব্যতীত প্রবেশ নিষেধ",
+          "tr": "onumoti byatito probesh nishedh",
+          "en": "No entry without permission"
+        },
+        {
+          "bn": "সংরক্ষিত এলাকা",
+          "tr": "shongrokkhito elaka",
+          "en": "Restricted area"
+        },
+        {
+          "bn": "এখানে গাড়ি রাখা নিষেধ",
+          "tr": "ekhane gari rakha nishedh",
+          "en": "No parking here"
+        },
+        {
+          "bn": "অফিসে ধূমপান নিষিদ্ধ",
+          "tr": "ofise dhumpan nishiddho",
+          "en": "Smoking is prohibited in the office"
+        }
+      ],
+      "question": "What may you not do outside this office?",
+      "options": [
+        "Park a car",
+        "Wait",
+        "Ask for permission",
+        "Use the gate"
+      ],
+      "answer": 0,
+      "why": "**গাড়ি রাখা নিষেধ** is 'no parking'."
+    },
+    {
+      "id": "e15",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "এটা সংরক্ষিত এলাকা।",
+        "tr": "eta shongrokkhito elaka.",
+        "en": "This is a restricted area."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "এটা",
+        "এখানে",
+        "সংরক্ষিত",
+        "নিষেধ",
+        "এলাকা",
+        "ধূমপান"
+      ],
+      "answer": [
+        "এটা",
+        "সংরক্ষিত",
+        "এলাকা"
+      ]
+    },
+    {
+      "id": "e16",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "অফিসে ধূমপান নিষিদ্ধ।",
+        "tr": "ofise dhumpan nishiddho.",
+        "en": "Smoking is prohibited in the office."
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "অফিসে ধূমপান নিষিদ্ধ",
+        "অফিসে ধূমপান নিষেধ",
+        "ofise dhumpan nishiddho"
+      ]
+    },
+    {
+      "id": "e17",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "রাতে প্রবেশ নিষেধ।",
+        "tr": "rate probesh nishedh.",
+        "en": "No entry at night."
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "রাতে প্রবেশ নিষেধ",
+        "রাতে প্রবেশ নিষিদ্ধ",
+        "rate probesh nishedh"
+      ]
+    },
+    {
+      "id": "r01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "নামলাম",
+        "tr": "namlam",
+        "en": "I got off"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "দেখিনি",
+        "হল",
+        "নামলাম",
+        "নিল"
+      ],
+      "answer": 2,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আমি দৌড়ে বাস ধরলাম।",
+        "tr": "ami doure bas dhorlam.",
+        "en": "I ran and caught the bus."
+      },
+      "blank": "ধরলাম",
+      "accepted": [
+        "ধরলাম",
+        "dhorlam"
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "দাঁড়িয়ে",
+        "tr": "da~riye",
+        "en": "standing"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "does",
+        "standing",
+        "you are doing (familiar)",
+        "you were (polite)"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "সবাইকে",
+          "tr": "shobaike",
+          "en": "everyone"
+        },
+        {
+          "bn": "গ্রামের",
+          "tr": "gramer",
+          "en": "of the village"
+        },
+        {
+          "bn": "চিঠি",
+          "tr": "chithi",
+          "en": "letter"
+        },
+        {
+          "bn": "উঠেছে",
+          "tr": "uthechhe",
+          "en": "has come out; has risen"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "আসবি",
+          "tr": "ashbi",
+          "en": "will you come (intimate)"
+        },
+        {
+          "bn": "চল্লিশ",
+          "tr": "chollish",
+          "en": "forty"
+        },
+        {
+          "bn": "এসেছে",
+          "tr": "eshechhe",
+          "en": "has come"
+        },
+        {
+          "bn": "নে",
+          "tr": "ne",
+          "en": "take (intimate)"
+        }
+      ],
+      "recycle": true
+    }
+  ]
+}

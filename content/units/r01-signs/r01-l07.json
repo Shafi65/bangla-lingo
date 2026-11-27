@@ -1,0 +1,547 @@
+{
+  "id": "r01-l07",
+  "unit": "r01-signs",
+  "title": "Counters and services",
+  "status": "draft",
+  "tip": "Counters and services have formal names. Each has an everyday partner you already say:\n\n- **প্রয়োজন** = দরকার 'need'\n- **কার্যালয়** = অফিস 'office'\n- **শৌচাগার** = বাথরুম, টয়লেট 'toilet'\n- **সারিতে** = লাইনে 'in the queue'\n\n**গ্রাহক সেবা** is 'customer service' and **সংরক্ষিত আসন** is a 'reserved seat'.\n\n**Conjuncts:** **গ্র** is গ + র-ফলা (**গ্রাহক** *grahok*). **র্য** is a ref on য (**কার্যালয়** *karjaloy*). In **শৌচাগার** the ৌ sign wraps the শ: *shou*.",
+  "vocab": [
+    {
+      "id": "sheba",
+      "bn": "সেবা",
+      "tr": "sheba",
+      "en": "service",
+      "notes": "Register: formal; also heard in speech. গ্রাহক সেবা 'customer service'."
+    },
+    {
+      "id": "grahok",
+      "bn": "গ্রাহক",
+      "tr": "grahok",
+      "en": "customer",
+      "notes": "Register: formal (written). গ্র = গ + র (ro-fola)."
+    },
+    {
+      "id": "sharite",
+      "bn": "সারিতে",
+      "tr": "sharite",
+      "en": "in the queue; in line",
+      "notes": "Register: formal (written). Everyday word: লাইনে. From সারি 'row, queue' (everyday লাইন)."
+    },
+    {
+      "id": "shakha",
+      "bn": "শাখা",
+      "tr": "shakha",
+      "en": "branch",
+      "notes": "Register: formal (written). প্রধান শাখা 'main branch'."
+    },
+    {
+      "id": "karjaloy",
+      "bn": "কার্যালয়",
+      "tr": "karjaloy",
+      "en": "office (formal)",
+      "notes": "Register: formal (written). Everyday word: অফিস. র্য = ref on য: kar-ja-loy."
+    },
+    {
+      "id": "shouchagar",
+      "bn": "শৌচাগার",
+      "tr": "shouchagar",
+      "en": "toilet (formal)",
+      "notes": "Register: formal (written). Everyday word: বাথরুম. Sign word; in speech বাথরুম or টয়লেট. শ + ৌ."
+    },
+    {
+      "id": "purush",
+      "bn": "পুরুষ",
+      "tr": "purush",
+      "en": "men; male",
+      "notes": "Register: formal; also heard in speech. পুরুষ শৌচাগার 'men's toilet'. Ends in ষ."
+    },
+    {
+      "id": "ashon",
+      "bn": "আসন",
+      "tr": "ashon",
+      "en": "seat",
+      "notes": "Register: formal (written). সংরক্ষিত আসন 'reserved seat' (everyday সিট)."
+    },
+    {
+      "id": "proyojon",
+      "bn": "প্রয়োজন",
+      "tr": "proyojon",
+      "en": "need (formal)",
+      "notes": "Register: formal (written). Everyday word: দরকার. Written partner of দরকার. প্র + য়."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e01",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "বিজ্ঞপ্তি",
+        "tr": "biggopti",
+        "en": "notice; announcement"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "কর্তৃপক্ষ",
+        "বিজ্ঞপ্তি",
+        "উক্ত",
+        "নির্ধারিত"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "কর্তৃপক্ষ",
+        "tr": "kortripokkho",
+        "en": "the management"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "কর্তৃপক্ষ",
+        "বিজ্ঞপ্তি",
+        "আদেশক্রমে",
+        "অবগতির"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "e03",
+      "type": "reading",
+      "title": "Bank and station signs",
+      "lines": [
+        {
+          "bn": "গ্রাহক সেবা",
+          "tr": "grahok sheba",
+          "en": "Customer service"
+        },
+        {
+          "bn": "অনুগ্রহ করে সারিতে দাঁড়ান।",
+          "tr": "onugroho kore sharite da~ran.",
+          "en": "Please stand in the queue."
+        },
+        {
+          "bn": "প্রধান শাখা কার্যালয়",
+          "tr": "prodhan shakha karjaloy",
+          "en": "Main branch office"
+        },
+        {
+          "bn": "টিকিট কাউন্টার",
+          "tr": "tikit kauntar",
+          "en": "Ticket counter"
+        },
+        {
+          "bn": "পুরুষ শৌচাগার",
+          "tr": "purush shouchagar",
+          "en": "Men's toilet"
+        },
+        {
+          "bn": "মহিলা শৌচাগার",
+          "tr": "mohila shouchagar",
+          "en": "Women's toilet"
+        },
+        {
+          "bn": "মহিলা ও বয়স্কদের জন্য সংরক্ষিত আসন",
+          "tr": "mohila o boyoshkoder jonno shongrokkhito ashon",
+          "en": "Seats reserved for women and older people"
+        }
+      ],
+      "question": "Who are the reserved seats for?",
+      "options": [
+        "Men",
+        "Bank customers",
+        "Staff only",
+        "Women and older people"
+      ],
+      "answer": 3,
+      "why": "**মহিলা ও বয়স্কদের জন্য সংরক্ষিত আসন** 'seats reserved for women and older people'."
+    },
+    {
+      "id": "e04",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "প্রয়োজন",
+        "tr": "proyojon",
+        "en": "need (formal)"
+      },
+      "direction": "bn_to_en",
+      "options": [
+        "service",
+        "customer",
+        "need (formal)",
+        "seat"
+      ],
+      "answer": 2,
+      "why": "**প্রয়োজন** is the written word for **দরকার** 'need'."
+    },
+    {
+      "id": "e05",
+      "type": "listen_select",
+      "audio": {
+        "bn": "শাখা",
+        "tr": "shakha",
+        "en": "branch"
+      },
+      "options": [
+        "সেবা",
+        "শাখা",
+        "আসন",
+        "সারিতে"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "e06",
+      "type": "script_recognize",
+      "glyph": "গ্রাহক",
+      "options": [
+        "grahok (গ + র: ro-fola)",
+        "gorahok (গ and র, each with a vowel)",
+        "gahok (no r)",
+        "rgahok (ref: r before গ)"
+      ],
+      "answer": 0,
+      "why": "The stroke under গ is **ro-fola**: *gr*, as in প্র."
+    },
+    {
+      "id": "e07",
+      "type": "script_recognize",
+      "glyph": "কার্যালয়",
+      "options": [
+        "kayraloy (য before র)",
+        "kariyaloy (an i between r and j)",
+        "kajaloy (no r)",
+        "karjaloy (ref on য, said j)"
+      ],
+      "answer": 3,
+      "why": "The hook over য is **ref**: *rj*. য is said *j*."
+    },
+    {
+      "id": "e08",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "আপনার কী সেবা প্রয়োজন?",
+        "tr": "apnar ki sheba proyojon?",
+        "en": "What service do you need?"
+      },
+      "blank": "প্রয়োজন",
+      "options": [
+        "গ্রাহক",
+        "আসন",
+        "প্রয়োজন",
+        "শাখা"
+      ],
+      "answer": 2,
+      "why": "**প্রয়োজন** is the formal word for **দরকার** 'need'."
+    },
+    {
+      "id": "e09",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "প্রয়োজন",
+        "tr": "proyojon",
+        "en": "need (formal word)"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "দরকার",
+        "প্রয়োজন",
+        "প্রবেশ",
+        "প্রধান"
+      ],
+      "answer": 1,
+      "why": "Same meaning: **দরকার** in speech, **প্রয়োজন** in writing. প্রবেশ and প্রধান only look alike."
+    },
+    {
+      "id": "e10",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "শৌচাগার",
+        "tr": "shouchagar",
+        "en": "toilet (the word on the sign)"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "শৌচাগার",
+        "বাথরুম",
+        "কার্যালয়",
+        "আসন"
+      ],
+      "answer": 0,
+      "why": "Signs say **শৌচাগার**; you say **বাথরুম** or টয়লেট."
+    },
+    {
+      "id": "e11",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "গ্রাহক সেবা",
+        "tr": "grahok sheba",
+        "en": "customer service"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "প্রধান শাখা",
+        "সংরক্ষিত আসন",
+        "পুরুষ শৌচাগার",
+        "গ্রাহক সেবা"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "e12",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "অনুগ্রহ করে সারিতে দাঁড়ান।",
+        "tr": "onugroho kore sharite da~ran.",
+        "en": "Please stand in the queue."
+      },
+      "blank": "সারিতে",
+      "accepted": [
+        "সারিতে",
+        "sharite",
+        "sarite"
+      ],
+      "why": "**সারিতে** 'in the queue' (speech: লাইনে)."
+    },
+    {
+      "id": "e13",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "এই আসন বয়স্কদের জন্য সংরক্ষিত।",
+        "tr": "ei ashon boyoshkoder jonno shongrokkhito.",
+        "en": "This seat is reserved for older people."
+      },
+      "options": [
+        "This seat is free.",
+        "Older people must queue here.",
+        "This seat is reserved for older people.",
+        "This seat is reserved for women."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "e14",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "শাখা কার্যালয় স্টেশনের পাশে।",
+        "tr": "shakha karjaloy steshoner pashe.",
+        "en": "The branch office is next to the station."
+      },
+      "options": [
+        "The main branch is in Dhaka.",
+        "The branch office is next to the station.",
+        "The ticket counter is next to the station.",
+        "The branch office is closed."
+      ],
+      "answer": 1,
+      "why": "**শাখা কার্যালয়** 'branch office'."
+    },
+    {
+      "id": "e15",
+      "type": "reading",
+      "title": "Bank and station signs: read it again",
+      "lines": [
+        {
+          "bn": "গ্রাহক সেবা",
+          "tr": "grahok sheba",
+          "en": "Customer service"
+        },
+        {
+          "bn": "অনুগ্রহ করে সারিতে দাঁড়ান।",
+          "tr": "onugroho kore sharite da~ran.",
+          "en": "Please stand in the queue."
+        },
+        {
+          "bn": "প্রধান শাখা কার্যালয়",
+          "tr": "prodhan shakha karjaloy",
+          "en": "Main branch office"
+        },
+        {
+          "bn": "টিকিট কাউন্টার",
+          "tr": "tikit kauntar",
+          "en": "Ticket counter"
+        },
+        {
+          "bn": "পুরুষ শৌচাগার",
+          "tr": "purush shouchagar",
+          "en": "Men's toilet"
+        },
+        {
+          "bn": "মহিলা শৌচাগার",
+          "tr": "mohila shouchagar",
+          "en": "Women's toilet"
+        },
+        {
+          "bn": "মহিলা ও বয়স্কদের জন্য সংরক্ষিত আসন",
+          "tr": "mohila o boyoshkoder jonno shongrokkhito ashon",
+          "en": "Seats reserved for women and older people"
+        }
+      ],
+      "question": "Where do you go with a question about your bank account?",
+      "options": [
+        "Customer service",
+        "The ticket counter",
+        "The men's toilet",
+        "The reserved seats"
+      ],
+      "answer": 0,
+      "why": "**গ্রাহক সেবা** 'customer service'."
+    },
+    {
+      "id": "e16",
+      "type": "word_bank",
+      "prompt": {
+        "bn": "পুরুষ শৌচাগার বামে।",
+        "tr": "purush shouchagar bame.",
+        "en": "The men's toilet is on the left."
+      },
+      "direction": "en_to_bn",
+      "tiles": [
+        "পুরুষ",
+        "মহিলা",
+        "শৌচাগার",
+        "ডানে",
+        "বামে",
+        "আসন"
+      ],
+      "answer": [
+        "পুরুষ",
+        "শৌচাগার",
+        "বামে"
+      ]
+    },
+    {
+      "id": "e17",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "গ্রাহক সেবা কোথায়?",
+        "tr": "grahok sheba kothay?",
+        "en": "Where is customer service?"
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "গ্রাহক সেবা কোথায়",
+        "grahok sheba kothay"
+      ]
+    },
+    {
+      "id": "e18",
+      "type": "type_translation",
+      "prompt": {
+        "bn": "আর কিছু প্রয়োজন?",
+        "tr": "ar kichhu proyojon?",
+        "en": "Do you need anything else?"
+      },
+      "direction": "en_to_bn",
+      "accepted": [
+        "আর কিছু প্রয়োজন",
+        "আর কিছু দরকার",
+        "আর কিছু লাগবে",
+        "ar kichhu proyojon"
+      ]
+    },
+    {
+      "id": "r01",
+      "type": "listen_meaning",
+      "audio": {
+        "bn": "বাড়ি ভাড়া দেওয়া হইবে।",
+        "tr": "bari bhara deoa hoibe.",
+        "en": "House to let."
+      },
+      "options": [
+        "Schools back then were small; schools today are much bigger.",
+        "House to let.",
+        "You can't go in without permission.",
+        "What do you (polite) want to eat?"
+      ],
+      "answer": 1,
+      "recycle": true
+    },
+    {
+      "id": "r02",
+      "type": "select_translation",
+      "prompt": {
+        "bn": "সর্বসাধারণের",
+        "tr": "shorboshadharoner",
+        "en": "of the general public"
+      },
+      "direction": "en_to_bn",
+      "options": [
+        "সর্বসাধারণের",
+        "অনুমতি",
+        "রোজা",
+        "স্টেশনে"
+      ],
+      "answer": 0,
+      "recycle": true
+    },
+    {
+      "id": "r03",
+      "type": "fill_blank",
+      "sentence": {
+        "bn": "অনুগ্রহ করে জুতা খুলুন।",
+        "tr": "onugroho kore juta khulun.",
+        "en": "Please take off your shoes."
+      },
+      "blank": "খুলুন",
+      "accepted": [
+        "খুলুন",
+        "khulun"
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r04",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "পরিচ্ছন্ন",
+          "tr": "porichchhonno",
+          "en": "clean; tidy"
+        },
+        {
+          "bn": "ফেলুন",
+          "tr": "felun",
+          "en": "please throw; put (standard)"
+        },
+        {
+          "bn": "শেষে",
+          "tr": "sheshe",
+          "en": "at the end"
+        },
+        {
+          "bn": "নির্দিষ্ট",
+          "tr": "nirdishto",
+          "en": "designated; set"
+        }
+      ],
+      "recycle": true
+    },
+    {
+      "id": "r05",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "bn": "নেমে",
+          "tr": "neme",
+          "en": "having got off"
+        },
+        {
+          "bn": "স্থানে",
+          "tr": "sthane",
+          "en": "in the place; at the place"
+        },
+        {
+          "bn": "শেষমেশ",
+          "tr": "sheshmesh",
+          "en": "in the end"
+        },
+        {
+          "bn": "অনুরোধ",
+          "tr": "onurodh",
+          "en": "request"
+        }
+      ],
+      "recycle": true
+    }
+  ]
+}
